@@ -201,9 +201,9 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Score: 3:1, 3:2, 2:3, 1:3 or 3:3
   - Skill: your contributions are below expectations for your current level and must immediately improve.
   - Values: exhibits some, lacks in some, deficient in some.
-  - Expected distribution: ~10% of Teammates will fall in the **“Least Effective”** (low performance) category.
+  - Expected distribution: ~10% of Teammates will fall in the **“Not Meeting High Bar”** category.
   - Recommended merit increase: 0%
-  - Merit increase frequency: Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
+  - Merit increase frequency: Teammates rated “Not Meeting High Bar” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
 
 ## Merit Philosophy
 
@@ -289,7 +289,7 @@ Q: **How do I know if I'm eligible for an Impact Review**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't recieved a seperate compensation increase in the past 9-months are eligible for a compensation increase.
+- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't received a seperate compensation increase in the past 9-months are eligible for a compensation increase.
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
@@ -407,6 +407,6 @@ The coaching categories are:
 
 ### Helpful links & resources
 
-- How to prepare for calibration meetings (COMING SOON)
+- [How to prepare for calibration meetings](../../compensation-and-leveling/preparing-for-calibrations.md)
 - How to help Managers mitigate bias (COMING SOON)
 - How to create letters for promotion & merit (COMING SOON)

@@ -16,41 +16,11 @@ Partner with the organization to build scalable data solutions and insights to h
 
 # **Our Capabilities**
 
-<table>
-  <tr>
-   <td><strong>Data Analytics</strong>
-   </td>
-   <td><strong>Data Engineering</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Analysis/Proactive Insights
-   </td>
-   <td>Engineering/Architecture
-   </td>
-  </tr>
-  <tr>
-   <td>Dashboards
-   </td>
-   <td>Data Transformation
-   </td>
-  </tr>
-  <tr>
-   <td> [Stakeholder Management](https://handbook.sourcegraph.com/departments/data-analytics/stakeholder-mgmt/)
-   </td>
-   <td>Maintenance
-   </td>
-  </tr>
-  <tr>
-   <td>Documentation/Enablement/Support
-   </td>
-   <td>Tool Administration
-   </td>
-  </tr>
-  <tr>
-   <td>Testing/Experimentation
-   </td>
-   <td>Documentation/Monitoring/Alerts
-   </td>
-  </tr>
-</table>
+| <strong>Data Analytics</strong>               | <strong>Data Engineering</strong>           |
+| :-------------------------------------------- | :------------------------------------------ |
+| Analysis/Proactive Insights                   | [Engineering/Architecture](architecture.md) |
+| Dashboards                                    | Data Transformation                         |
+| [Stakeholder Management](stakeholder-mgmt.md) | Maintenance                                 |
+| Support/Enablement                            | Tool Administration                         |
+| Definitions/Documentations                    | Monitoring/Alerts                           |
+| Testing/Experimentation                       |                                             |

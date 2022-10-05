@@ -418,17 +418,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
         </div>
       </div>
       <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team#veronica-bueno" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/VeronicaBitmoji.jpg"
-                alt="Picture of Veronica Bueno" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Veronica Bueno</div>
-          <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
-        </div>
-      </div>
     <div class="row" style="display:flex;">
       <div class="col" style="flex: 1;">
         <div>

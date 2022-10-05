@@ -144,9 +144,9 @@ Our[ Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-
 
 ### Q: How do I know if I’m eligible for a merit increase?
 
-- A: To be eligible for a merit increase, a Teammate must have worked at least 4 months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
+- A: Teammates who have not had an increase in >9 months are eligible for a merit increase if they have received a Skill and Values-based performance rating of at least “2” in both areas.
 
-  Teammates can receive increases 2x per year for exceptional performance, but the expectation is that Teammates receive a comp review 1x per year.
+  Teammates can receive increases 2x per year for exceptional performance (a Skill or Values-based performance rating of "1"), but the expectation is that Teammates receive a comp review 1x per year.
 
 ### Q: How do I know if I’m eligible for a promotion?
 
