@@ -92,6 +92,7 @@ After that workflow, a (manual for now) admin onboarding email campaign will sta
 ### Early termination
 
 If instances never get used at all by the initial admin, which we can define (for now) as "no codehost setup, and no other user joined", we will consider them for early termination.
+
 - 10 days after the initial hand-off, if the instance is not setup, we'll send a [warning email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit#heading=h.vclmg9kbemxu)
 - 15 days (10+5) after the initial hand-off, if we don't hear back or the instance status hasn't changed, we'll terminate the instance, and send [an email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit#heading=h.vclmg9kbemxu)
 
