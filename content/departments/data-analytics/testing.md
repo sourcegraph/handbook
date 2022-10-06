@@ -74,7 +74,7 @@ Communicate good candidates with any relevant parties. This could include other 
 
 - Post in #product-led to sync with product, marketing and business operations teams so everyone can ensure there are no conflicting A/B tests running
 - [Use a feature flag](https://docs.sourcegraph.com/dev/how-to/use_feature_flags) to setup and rollout the A/B test
-- Follow the steps to [add the events to Sourcegraph and Amplitude](../tools/amplitude.md#adding-events-to-amplitude)
+- Follow the steps to -add the events to Sourcegraph and Amplitude- placeholder for link to amplitude events
 
 ### Analyze the A/B test
 
