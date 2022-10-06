@@ -42,9 +42,9 @@ Surveys allow researchers to ask questions at a scale that isn't possible with o
 
 # Synthesizing and documenting insights in Dovetail
 
-The design team uses [Dovetail](https://dovetailapp.com/) to store raw research data, analyze that data, and generate insights. Learn more about [how we use Dovetail here at Sourcegraph](./synthesizing-and-documenting-insights-in-dovetail.md). 
+The design team uses [Dovetail](https://dovetailapp.com/) to store raw research data, analyze that data, and generate insights. Learn more about [how we use Dovetail here at Sourcegraph](./synthesizing-and-documenting-insights-in-dovetail.md).
 
-We are currently migrating research findings in the [user research library](../../product/process/user_research/index.md#user-research-library) to Dovetail. 
+We are currently migrating research findings in the [user research library](../../product/process/user_research/index.md#user-research-library) to Dovetail.
 
 Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
 
