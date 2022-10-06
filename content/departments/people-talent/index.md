@@ -1,20 +1,23 @@
 # People & Talent
 
-The overall People Team is made up by two internal teams: 
+The overall People Team is made up by two internal teams:
+
 - **The People Team**
   - The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
   - This team is comprised of our People Partner Team, led by Jonathan Ayers, and our People Operations Team, led by Marija Petrovic.
 - **The Talent Team**
-  - The Talent Team Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. 
+  - The Talent Team Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome.
   - This team is comrpised of our Technical Recruiting Team, led by Devon Coords, and our Corporate Recruiting Team, led by Marija Petrovic.
 
 While you should find the answer to most of your questions below, if you have any additional questions:
+
 - Contact the People Team: Slack `#ask-people-team` or email People-ops@sourcegraph.com
 - Contact the Talent Team: Slack `#hiring` or email Recruiting@sourcegraph.com
 
 If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent. **In case of emergency**, the VP People & Talent and the Director People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
 ## Resources for Candidates
+
 _If you are a candidate applying for a job at Sourcegraph, please reference the below links:_
 
 ### Open positions
