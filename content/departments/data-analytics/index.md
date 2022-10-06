@@ -29,7 +29,7 @@ Partner with the organization to build scalable data solutions and insights to h
 
 ## **Communications/Asking a Question**
 
-The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook page: [Analytics Handbook Page](index.md). Don’t see what you are looking for? Ask a question in one of our Slack channels.
+The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook paged. Don’t see what you are looking for? Ask a question in one of our Slack channels.
 
 - #data-analytics-internal for internal Data & Analytics communication
 - #analytics for anything related to analytics; not just the Data & Analytics team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask).
@@ -38,6 +38,6 @@ The Data and Analytics team will strive to be Handbook first. Have a question? L
 
 There is an analyst on support each week that will be answering questions and triaging requests that come through these channels.
 
-How to know what we are working on:
+**How to know what we are working on:**
 
 Data and Analytics Project Board ([Here](https://github.com/orgs/sourcegraph/projects/246))
