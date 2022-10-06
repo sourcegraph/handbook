@@ -140,3 +140,11 @@ The list of tasks to be accomplished before considering an implementation comple
 - The production infrastructure is staged for long-term success with continued user and feature expansion
 - The production environment is right-sized (or a plan is in place to right-size the environemnt)
 - The production environment is on a current version
+
+# Implementation Project Management Tools
+
+Below are a number of standardized tools used for managing larger implementation projects.
+
+- [Standard Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/1bS5IBfkrYMKR2sCkDKpxorbcv2bLNUNb01_Jv8AgF3Y/edit#gid=0)
+- [Trial Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/11NNbKykn79Zw7iBGREepqaEWhB-iN57Y_Tc0YwzmMhE/edit#gid=0)
+- [Monthly Progress Report Template](https://docs.google.com/document/d/1p6zuk-SR4WN5M_5pN9qstPcZhW2GS60dVeT3AJGMbiI/edit)
