@@ -2,7 +2,7 @@
 
 ## Job levels explained
 
-Job levels and compensation bands are the building blocks of strong compensation strategy. Together, they help ensure pay equity, improve recruiting and retention efforts, and help us build a more transparent company culture. 
+Job levels and compensation bands are the building blocks of strong compensation strategy. Together, they help ensure pay equity, improve recruiting and retention efforts, and help us build a more transparent company culture.
 
 Job levels, also known as job grades and classifications, help us define the responsibility level and expectations of each role. Each level is defined by impact, seniority, knowledge, skills, and job title, and are associated with a specific pay band. Job levels ultimately help us make more strategic and consistent decisions around how we hire, engage, promote, and retain Teammates.
 
@@ -12,8 +12,9 @@ Levels are used to define career progression for individuals within a role, and 
 
 ### What levels do we use?
 
-We divide all job families into two tracks: 
-- Individual Contributors 
+We divide all job families into two tracks:
+
+- Individual Contributors
   - The Individual track goes from IC1 to IC6
 - Managers
   - The Manager track goes from M3 to M6
@@ -22,19 +23,20 @@ IC & Manager tracks **do not** directly map to each other (in other words, an IC
 
 ![Teammate level progression](https://storage.googleapis.com/sourcegraph-assets/teammate-level-progression.png)
 
-## Your level 
+## Your level
 
-All teammates are assigned a **role** (e.g. “Software Engineer,” “Product Manager,” “Account Executive”) and **level** (e.g. IC1, IC2, IC3). 
+All teammates are assigned a **role** (e.g. “Software Engineer,” “Product Manager,” “Account Executive”) and **level** (e.g. IC1, IC2, IC3).
+
 - The **Role** defines what you _do_
 - **level** defines the expectations, competencies, abilities, and compensation as you progress within that role
 
 ### How to see your role
 
-You can see your role title in the "job" tab of your profile in Bamboo 
+You can see your role title in the "job" tab of your profile in Bamboo
 
 ### How to see your level
 
-You can see your level in the "job" tab of your profile in Bamboo (this is effective 2022-10-24).  You can see corresponding compensation ranges to all levels in our pay transparency tool, Assemble.
+You can see your level in the "job" tab of your profile in Bamboo (this is effective 2022-10-24). You can see corresponding compensation ranges to all levels in our pay transparency tool, Assemble.
 
 ### How we determine your level
 
@@ -46,7 +48,7 @@ For many roles, we’re rolling out [career development frameworks](../../../com
 
 A Teammate's level can change as they progress in their career.
 
-Each Teammate can see their expected career path by referencing their role-respective [**Career development frameworks**](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md).  These frameworks will continue to evolve over time and should not be viewed as an exhaustive list of requirements - rather a basis from which enriching performance and development discussions evolve.
+Each Teammate can see their expected career path by referencing their role-respective [**Career development frameworks**](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). These frameworks will continue to evolve over time and should not be viewed as an exhaustive list of requirements - rather a basis from which enriching performance and development discussions evolve.
 
 Our leveling guide and career development frameworks are the building blocks that drive career growth and development. They are used to bring consistency and transparency to expectations and promotion criteria/decisions across roles, levels, and teams.
 
