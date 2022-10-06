@@ -10,7 +10,7 @@ Here are some basic guidelines to help our teammates navigate their paid time of
 
 **Please visit this page to see how to submit your PTO**: [submitting time off](submitting-time-off.md).
 
-- **Important**: please record all of your PTO (including public holidays) in Roots as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+- **Important**: please record all of your PTO (including public holidays) in Roots as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
 ## Paid time off (for rest)
 
@@ -25,6 +25,6 @@ Our company-wide policy is unlimited paid time off in exchange for achieving wor
   (If you're unsure whether it's appropriate to put in time off because you're sick but it's easy to work from your bed, we encourage you to apply this thinking, which was offered by one of our teammates: if you'd avoid going into the office because of how you were feeling, take paid time off and rest at home.)
 - **Life leave**: we understand that sometimes “life happens” and you’ll need time off to do things that are not necessarily restful. This could include caring for a family member, bereavement, immigration or legal appointments, taking a pet to the vet, or moving homes.
 
-**Important**: please record all of your PTO (including public holidays) in [Roots](submitting-time-off.md) as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+**Important**: please record all of your PTO (including public holidays) in [Roots](submitting-time-off.md) as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, seek guidance from your manager so we can understand how to support you.

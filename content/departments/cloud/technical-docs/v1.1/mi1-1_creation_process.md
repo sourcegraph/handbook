@@ -3,12 +3,15 @@
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
+> If GitHub Actions is not available, we should fallback to [manual creation](#gitHub-action-creating-managed-instance-failed).
+
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Cloud Team invoke GitHub Actions with following parameters:
 
    - `customer` - name of customer
    - `ce_email` - email of Customer Engineer from issue
    - `customer_email` - customer admin email (only one from provided in issue)
+   - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
    - `instance_type` - purpose of this instance
 
      trial - for customer trial
@@ -25,7 +28,8 @@ For basic operations like accessing an instance for these steps, see [managed in
      -f ce_email=$CE_EMAIL \
      -f customer_email=$CUSTOMER_EMAIL \
      -f instance_type=[production|trial|internal] \
-     -f instance_size=[small|medium|large]
+     -f instance_size=[small|medium|large] \
+     -f user_level_telemetry=[true|false]
    ```
 
    or via [GitHub Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml).

@@ -26,9 +26,9 @@ If there is no action for CS, go to back to step 4 select ‘…’ and then sel
 - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
 - for employment verifications, we can reply and send the requestor to [our Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/) where they can get what they need.
 
-**Step 6:** Selcting _View Thread_ will allow you to respond to the customer within the slack thred.
+**Step 6:** Selecting _View Thread_ will allow you to respond to the customer within the slack thred.
 
-**Step 7:** Once done communicating with the customer in the Slack Thread, you will go back to Support Agent and from there you can put the thread on Hold with Notes or End Chat.
+**Step 7:** Once done communicating with the customer in the Slack Thread, you will go back to support agent and from there you can put the thread on Hold with Notes or End Chat.
 
 - **Hold:** Chat can be placed on hold while you are working on stuff in the
   background. When you are not interacting with the customer. To Resume communication you will go to Support Agent, Hold ‘…’, select Resume.
@@ -58,15 +58,15 @@ We sometimes get all company updates coming to the support mailbox. Company upda
 
 When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
 
-### 6. How to Triage Post in the Customer Support channel
+### 6. How to triage post in the customer support channel.
 
-When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](customer-exceptions.md)
+When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](customer-exceptions.md).
 
-### 7. Customer Request on Custom Scripts
+### 7. Customer request on custom scripts.
 
 Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
 
-### 8. How to Handle Follow Up Tickets
+### 8. How to handle follow up tickets.
 
 When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
 
@@ -74,6 +74,10 @@ When a customer replies to a solved Zendesk ticket a new ticket will be created.
 
 If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
 
-If it's from Hubspot, change the subject to "Sourcegraph help request"
+If it's from Hubspot, change the subject to "Sourcegraph help request".
 
 For the Hubspot form, we will need to email the person from our work Gmail account with a subject like "Sourcegraph inquiry" and support@sourcegraph.com in cc and let them know a member of the team will help them. We do this so that we can ensure the customer gets the email since Zendesk could block it.
+
+### 10. How to add the support agent integration to a customer Slack channel.
+
+Simply navigate to the support agent app in Slack and at the top expand the title with the drop-down arrow. Choose the first option, `Add this app to a channel` and either search out or type the channel you'd like to add the integration to. Here's a quick [video](https://www.loom.com/share/6f5b7191a8fa49478318b9ce81dd9cc8) on how to do it.

@@ -120,7 +120,7 @@ PEO contract process:
 
 If a new hire needs to change their start date, the Recruiter follows the below steps:
 
-**Step 1**: Send the below Slack to Ines & Carly in the [#onboarding-internal](https://sourcegraph.slack.com/archives/C02773ADT7A) Slack channel to request approval to change the start date.
+**Step 1**: Send the below Slack to Ines & Carly in the #onboarding-internal Slack channel to request approval to change the start date.
 
 - **Please note:** All requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard.
 
@@ -141,9 +141,9 @@ If a new hire decides not to join us _after being marked as Hired in Greenhouse_
 **Step 1:** The Recruiter will inform the following people that the new hire will no longer be joining Sourcegraph and provide any information/reasoning as to why the new hire made this decision:
 
 - The Hiring Manager via a direct Slack message
-- The People Ops team via the [#people-talent-private-channel](https://sourcegraph.slack.com/archives/C039MUF784U)
+- The People Ops team via the #people-talent-private-channel
 
-**Step 2:** The Recruiter will also inform the Tech Ops team that the new hire is no longer joining the team and confirm whether the laptop has been ordered and shipped already via the [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) slack channel.
+**Step 2:** The Recruiter will also inform the Tech Ops team that the new hire is no longer joining the team and confirm whether the laptop has been ordered and shipped already via the #it-tech-ops slack channel.
 
 - If the laptop has been shipped, the Tech Ops team will own the laptop retrieval process.
 - If the laptop has not been shipped, no action is needed from the Recruiter.

@@ -1,6 +1,6 @@
 # People Ops frequently asked questions
 
-This page is meant as a resource to find answers to questions frequently asked by teammates in the [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. Below you will find information on topics such as benefits, immigration support, moving, and more.
+This page is meant as a resource to find answers to questions frequently asked by teammates in the #ask-people-team Slack channel. Below you will find information on topics such as benefits, immigration support, moving, and more.
 
 ## US work authorization: I-9 verification
 
@@ -39,14 +39,14 @@ This page is meant as a resource to find answers to questions frequently asked b
 ### Q. How do I submit expense reports?
 
 - You can find information on how to submit expenses for reimbursement [here](../../../../benefits-pay-perks/pay-expenses/expenses/index.md). **Note:** there are different processes for expensing depending on your employment structure.
-  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../../../finance/index.md) if you require additional information.
+  - For further information on expenses, please use our #expense-inquiries channel, or contact [Finance](../../../finance/index.md) if you require additional information.
 
 ### Q. Do I have to expense perks or are these already added to my pay?
 
 **US teammates:**
 
 - Some perks (internet, phone, and wellness) are automatically added to your pay while other perks (professional development, coworking space, moving, desk set-up, family planning) require you to expense them.
-  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../../../finance/index.md) if you require additional information.
+  - For further information on expenses, please use our #expense-inquiries channel, or contact [Finance](../../../finance/index.md) if you require additional information.
 
 **Non-US teammates:**
 
@@ -79,7 +79,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 **Velocity Global teammates:**
 
 - You will receive an [Expensify](https://www.expensify.com/) invite to your Sourcegraph email by your first week. You will use Expensify to submit receipts for reimbursement.
-  - If you do not have an invite to Expensify by your first week, please contact to People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+  - If you do not have an invite to Expensify by your first week, please contact to People Team in #ask-people-team in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
 
 **All other teammates:**
 
@@ -203,7 +203,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 **US teammates:**
 
 - You will receive a [Rippling](https://app.rippling.com/login) invite at your personal email by your first week. You will use Rippling to find your pay stubs and tax forms, set up your payment information and employment eligibility (I-9), and select your health insurance plans.
-  - If you do not have an invite to Rippling by your first week, please contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+  - If you do not have an invite to Rippling by your first week, please contact the People Team in #ask-people-team in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
 
 ### Q. How do I make changes to my insurance in the case of a qualifying life event (QLE)?
 
@@ -278,7 +278,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 ### Q. Where and when do I receive my BambooHR invite?
 
 - You will receive a [BambooHR](https://sourcegraph.bamboohr.com/login.php?r=%2Fhome%2F) invite to your Sourcegraph email by your first day. You will use BambooHR to update People Ops on any changes to your personal information. BambooHR is our source of truth for all teammate data and information.
-  - If you do not have an invite to BambooHR by your first day, please contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+  - If you do not have an invite to BambooHR by your first day, please contact the People Team in #ask-people-team in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
 
 ## Payroll
 
@@ -310,7 +310,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 **US teammates:**
 
 - You will receive a [Human Interest](https://humaninterest.com/) invite at your personal email about two weeks after setting up your [Rippling](https://github.com/sourcegraph/handbook/new/main/content/people-ops#q-where-and-when-do-i-receive-my-human-interest-invitation) account. You will use Human Interest to create and make changes to your 401k.
-  - If you do not have an invite to Human Interest within two weeks after setting up your Rippling account, please contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+  - If you do not have an invite to Human Interest within two weeks after setting up your Rippling account, please contact the People Team in #ask-people-team in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
 
 **Non-US teammates:**
 
@@ -335,6 +335,6 @@ This page is meant as a resource to find answers to questions frequently asked b
 ### Q. Who do I contact if I have questions about swag?
 
 - **Onboarding swag:**
-  - Please contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+  - Please contact the People team in #ask-people-team in Slack.
 - **All other swag:**
-  - Please post in [#swag](https://sourcegraph.slack.com/archives/C01SVQUPDAN).
+  - Please post in #swag.

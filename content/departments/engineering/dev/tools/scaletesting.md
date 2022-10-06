@@ -4,7 +4,7 @@ This page documents resources that are relevant for engineers looking to run Sou
 may only be caught when operating under particular scale. Typically, this enables to approximate a customer instance usage pattern to ensure
 that our application will perform within acceptable boundaries in that context.
 
-Join the [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) Slack channel to join conversations about its use, both from the perspective of an engineer using it to test things or to follow or contribute to its development.
+Join the #wg-test-at-scale Slack channel to join conversations about its use, both from the perspective of an engineer using it to test things or to follow or contribute to its development.
 
 ## Scaling VS customer tiers
 
@@ -16,7 +16,7 @@ The common vocabulary being used to talk about scaling from the persective of a 
 
 `scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
 
-:right_arrow: If you plan to run a test, announce yourself on [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) to ensure you're the only one using it at the moment.
+:right_arrow: If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
 
 It is deployed in its own Google Cloud Project and is maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
@@ -29,7 +29,7 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 1. Have access to the Google Project: TODO
 2. Be familiar with our Observability stack.
 3. Be familiar with our Infrastructure code.
-4. Join [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) and announce yourself.
+4. Join #wg-test-at-scale and announce yourself.
 5. Adjust the infrastructure to the customer tier you're targeting.
    1. Open a PR against [the Terraform definitions](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) for that cluster. In particular the nodes count, which is often set to the lowest value to avoid consuming resouces when not using the instance.
    2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
@@ -136,6 +136,11 @@ sg client codehost add-github \
   --github.token REDACTED \
   pld-linux londonappbrewery wp-plugins
 ```
+
+#### Organization with 10k repositories with write access
+
+See https://ghe.sgdev.org/scaletesting-10k-repos which is a replica of https://github.com/londonappbrewery on our GitHub instance.
+They are owned by the admin user, who can write on those repos.
 
 #### Large binary files
 

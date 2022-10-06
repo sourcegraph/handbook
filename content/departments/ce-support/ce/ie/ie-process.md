@@ -6,15 +6,27 @@ To review the long-term work and goals of the implementation team, please review
 
 For information on recommended deployment types and strategies, visit [Implementation Strategies](./impl-strategies.md).
 
+For general information on the roles and responsibilities throughout a customer's lifecycle, visit the [Customer Lifecycle RACI](https://docs.google.com/spreadsheets/d/1q6dnHpgZcbgpTAEN3_zgyrrk6pByLIf7xNWsNrO0QVk/edit#gid=227625307).
+
 # Cross-Functional Collaboration
 
 The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
 
-CE - [CE-Implementation Collaboration Overview](ce-implementation-handoff.md)<br>
-Sales<br>
-TAM<br>
-Sales<br>
-Engineer<br>
+#### CE / Sales
+
+Visit [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md) to better understand this relationship.
+
+#### TA
+
+Visit [TA-Implementation Collaboration Overview](implementation-ta-handoff.md) to better understand this relationship.
+
+#### CS
+
+For the majority of implementations, the default process will be for CS to only be engaged once the customer is fully live. From there, the CS will follow standard support practices. The documentation created by the implementation team during the hand-off to the TA should be sufficient for future CS to better support the customers' needs.
+
+#### Engineering
+
+Similarly to CE, implementation will identify product issues, submit corresponding GitHub issues, submit Product Gaps identified by customers, and collaborate with engineering teams to properly priorities resolutions and feature request.
 
 # High Level Implementation Project Plan
 
@@ -128,3 +140,11 @@ The list of tasks to be accomplished before considering an implementation comple
 - The production infrastructure is staged for long-term success with continued user and feature expansion
 - The production environment is right-sized (or a plan is in place to right-size the environemnt)
 - The production environment is on a current version
+
+# Implementation Project Management Tools
+
+Below are a number of standardized tools used for managing larger implementation projects.
+
+- [Standard Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/1bS5IBfkrYMKR2sCkDKpxorbcv2bLNUNb01_Jv8AgF3Y/edit#gid=0)
+- [Trial Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/11NNbKykn79Zw7iBGREepqaEWhB-iN57Y_Tc0YwzmMhE/edit#gid=0)
+- [Monthly Progress Report Template](https://docs.google.com/document/d/1p6zuk-SR4WN5M_5pN9qstPcZhW2GS60dVeT3AJGMbiI/edit)
