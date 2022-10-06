@@ -21,6 +21,6 @@ Partner with the organization to build scalable data solutions and insights to h
 | [Analyses/Projects](analyses-projects.md)     | [Engineering/Architecture](architecture.md) |
 | [Reports/Dashboards](reports.md)              | Data Transformation                         |
 | [Stakeholder Management](stakeholder-mgmt.md) | Maintenance                                 |
-| Support/Enablement                            | Tool Administration                         |
-| Metric Definitions/Documentation              | Monitoring/Alerts                           |
-| Testing/Experimentation                       |                                             |
+| Support/Enablement                            | [Tool Administration](tools.md)                         |
+| [Metric Definitions/Documentation](documentation.md)              | Monitoring/Alerts                           |
+| [Testing/Experimentation](testing.md)         |                                             |
