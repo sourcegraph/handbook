@@ -1,14 +1,21 @@
 # People & Talent
 
-The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
+The overall People Team is made up by two internal teams: 
+- **The People Team**
+  - The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
+  - This team is comprised of our People Partner Team, led by Jonathan Ayers, and our People Operations Team, led by Marija Petrovic.
+- **The Talent Team**
+  - The Talent Team Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. 
+  - This team is comrpised of our Technical Recruiting Team, led by Devon Coords, and our Corporate Recruiting Team, led by Marija Petrovic.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack #hiring or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions below, if you have any additional questions:
+- Contact the People Team: Slack `#ask-people-team` or email People-ops@sourcegraph.com
+- Contact the Talent Team: Slack `#hiring` or email Recruiting@sourcegraph.com
 
-If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent.
-
-In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
+If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent. **In case of emergency**, the VP People & Talent and the Director People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
 ## Resources for Candidates
+_If you are a candidate applying for a job at Sourcegraph, please reference the below links:_
 
 ### Open positions
 
@@ -104,16 +111,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Relocation/address changes
 
-- [Moving to a new location](people-ops/process/moving.md) SOON
-  - Changing addresses
+- [Moving to a new address](people-ops/process/moving.md)
+- [Moving to a new state/country](people-ops/process/moving.md)
+  - [Requiring a Visa](people-ops/tools/people-ops-faqs.md#q-i-need-a-letter-from-my-employer-to-obtain-a-visa-how-do-i-request-that)
+  - [Sponsorship policy](people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 
-### Immigration support
-
-- [Visa process](people-ops/tools/people-ops-faqs.md#q-i-need-a-letter-from-my-employer-to-obtain-a-visa-how-do-i-request-that)
-- [Sponsorship policy](people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
-
-### Verifications
+### Employment verifications
 
 - [Employment verification process](people-ops/process/employment_verification.md)
 - [Mortgage process](people-ops/process/employment_verification.md)
