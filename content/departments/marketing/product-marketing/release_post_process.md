@@ -42,16 +42,20 @@ You can tell when the release is cut by following along in #progress.
 ## Adding images & videos to the release post
 
 ### Capturing content
+
 When capturing images or video for the release post, keep these guidelines in mind:
+
 - Capture your window to only show the Sourcegraph app. Don't capture your URL bar or bookmarks bar.
 - Use Sourcegraph's light mode.
 - If possible, capture the screen with a ~16:10 aspect ratio.
 - If you're capturing a text-heavy screen, use the browser's zoom function (125% zoom often works well).
 
 For videos, keep these things in mind:
+
 - Try to keep videos shorter than 10 seconds.
 - Capture your content as videos (MP4 format) and not as GIFs.
 - Videos will be formatted in the release post to look and act like GIFs. They will autoplay on loop and be muted.
+
 ### Embedding content
 
 For all images and videos added to the release post, include the `blog-image` class as follows, and be sure to add an `alt` and `title` description for hover and/or screen readers:
