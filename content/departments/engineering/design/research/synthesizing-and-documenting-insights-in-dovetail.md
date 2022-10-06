@@ -3,13 +3,11 @@
 The design team uses [Dovetail](https://dovetailapp.com/) to synthesize and document research insights from user interviews, usability testing, and more. Previously, design research data, synthesis, and research reports were scattered across different tools, making it difficult to quickly track and search past findings, especially cross-team efforts. As we scale our product teams, customer base and invest more in more frequent user research these problems become harder to solve.
 We use Dovetail to make sure that our research data, both raw and synthesized, is located in one place, ultimately making it easily searchable, shareable, and scalable across research projects and disparate teams.
 
-
 ## Getting started with Dovetail
 
 1. Learn more about Dovetail via their demo page [here](https://dovetailapp.com/demo/).
 2. Learn more about how to use Markup [here](https://dovetailapp.com/demo/).
 3. Check out how Dovetail has analyzed and organized data in one of the projects in our “Example data” folder, like this one, “[Airline seat reviews](https://dovetailapp.com/projects/6vN62TDpbEPEJBGxBhAP7D/v/NEZMlIsRwY6Igrf2nLiBW).”
-
 
 ## Starting a new project
 
@@ -28,7 +26,6 @@ Each new Dovetail project automatically creates a new readme with a high level r
 ### Importing raw data into Dovetail
 
 Just as each new Dovetail project automatically creates a new readme, it also automatically creates a “Note grid” view in the left side panel. Here, you can update raw data in text, video, audio, image, or file format as a note. Uploaded [videos and audio can be transcribed](https://dovetailapp.com/help/transcribe-video-and-audio/) using Dovetail. Learn more about notes and how you can use them to import raw data [here](https://dovetailapp.com/help/transcribe-video-and-audio/) and [here](https://dovetailapp.com/help/highlight-and-tag-project-content/).
-
 
 ## Analyzing raw data using Dovetail
 
