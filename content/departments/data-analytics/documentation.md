@@ -1,5 +1,3 @@
 ## Metric Definitions
 
-
-
 ## Documentation
