@@ -1,4 +1,4 @@
-#Synthesizing and documenting insights in Dovetail
+# Synthesizing and documenting insights in Dovetail
 
 The design team uses [Dovetail](https://dovetailapp.com/) to synthesize and document research insights from user interviews, usability testing, and more. Previously, design research data, synthesis, and research reports were scattered across different tools, making it difficult to quickly track and search past findings, especially cross-team efforts. As we scale our product teams, customer base and invest more in more frequent user research these problems become harder to solve.
 We use Dovetail to make sure that our research data, both raw and synthesized, is located in one place, ultimately making it easily searchable, shareable, and scalable across research projects and disparate teams.
@@ -44,6 +44,7 @@ Global tags are organized into five categories:
 | User Emotion | These tags are can be used to tag a user's attitude or reaction. |
 | Workflow | Used to tag steps in the user's workflow, especially in the context of usability testing. This category also includes generic options (1 through 10) for when we want to analyze data by task. |
 | User Flow and Tools | Use these tags to identify steps of the user journey as well as tools that are part of that journey. This tagging system is especially helpful for more generative research |
+
 These global tags may help you sometimes but not all the time. As a good rule of thumb, we recommend using global tags about 50% of the time.
 
 #### Creating your own tags
@@ -96,4 +97,5 @@ Once you’ve analyzed data via tags, you can further synthesize and explore usi
 
 Now that you’ve managed to analyze and explore the date, it’s time to surface actionable insights (the reason you’ve been doing the research the whole time!).
 For consistency, make sure to create a new “Insights” view in the left side panel.
-WIP
+
+**This section is currently a work in progress**
