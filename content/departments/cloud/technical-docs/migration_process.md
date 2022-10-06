@@ -1,6 +1,7 @@
+# (Unsupported) Migrate a Self-Hosted Installation to Managed Instance
+
 > **NOTE:** We do not formally offer this service to our customers. This page is a product of a proof-of-concept.
 
-# Migrate a Self-Hosted Installation to Managed Instance
 
 This page describes the process of migrating a self-hosted Sourcegraph deployment to a Managed Instance. A team member from the Customer Engineering (CE) team
 may request a migration on behalf of a customer. The technical steps are carried out by the Delivery Team.
