@@ -96,4 +96,7 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl
 
 - if single statefull application (i.e. gitserver, zoekt) - restore with disk
 
-TDB as separate PR - this requires using [Protected Applications](https://cloud.google.com/kubernetes-engine/docs/add-on/backup-for-gke/how-to/protected-application#backup-one-restore-all)
+```sh
+cd sourcegraph/cloud
+mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type [gitserver|indexed-search] --slug $SLUG -e $ENVIRONMENT
+```
