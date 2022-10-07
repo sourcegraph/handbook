@@ -67,7 +67,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
-  - [How to give a raise within band]COMING SOON
     - [Our compensation bands](COMING SOON)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
@@ -104,8 +103,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Relocation/address changes
 
-- [Moving to a new location](people-ops/process/moving.md) SOON
-  - Changing addresses
+- [Moving to a new location](people-ops/process/moving.md)
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
@@ -153,7 +151,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- [Leaving Sourcegraph](people-ops/process/leaving.md) (including how to resign)
+- [Leaving Sourcegraph](people-ops/process/leaving.md)
 
 ## Resources for Managers
 
@@ -215,7 +213,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
-  - [How to give a raise within band]COMING SOON
+    - [Our Merit and Promotion Process]COMING SOON
     - [Our compensation bands](COMING SOON)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
@@ -548,6 +546,21 @@ In case of emergency, the VP People & Talent and the Director, People are availa
           </a>
         </div>
         <div style="text-align: center">Alex Mathison</div>
+        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
+      </div>
+    </div>
+     <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+            alt="Picture of Sarah Um"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Sarah Um</div>
         <div style="text-align: center; font-size: 12px">Senior People Partner</div>
       </div>
     </div>
