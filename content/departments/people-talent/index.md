@@ -491,7 +491,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     </div>
     <div class="col" style="flex: 1">
       <div>
-        <div>
+        <div style="text-align: center">
           <a href="../../../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg"
