@@ -103,7 +103,7 @@ The analysts will be aligned to the business units that are supported, and each 
    </td>
    <td>Quinn Slack
    </td>
-   <td>Eric Brody-Moore, Brady Garrett
+   <td>Eric Brody-Moore
    </td>
   </tr>
   <tr>
