@@ -439,7 +439,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
           </a>
         </div>
         <div style="text-align: center">Kemper Hamilton</div>
-        <div style="text-align: center; font-size: 12px">Recruiting Operations Specialist</div>
+        <div style="text-align: center; font-size: 12px">People-Ops Generalist</div>
       </div>
     </div>
   </div>
