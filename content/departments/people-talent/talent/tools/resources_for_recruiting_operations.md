@@ -37,7 +37,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
     - **Step 3**: Select the appropriate template, make sure to add any additional information in the Body.
       - If the interviewer(s) provide preferred time slots, you can include those by clicking the "_Suggest interview times for candidate_" button.
     - **Step 4**: Send email
-  - **Step 2:** Make a formal request in the Slack channel [#talent-scheduling-and-offers](https://sourcegraph.slack.com/archives/C02AY4BLZS7)
+  - **Step 2:** Make a formal request in the Slack channel #talent-scheduling-and-offers
     - **Step 1:** In the slack channel you will go to the message box and click on the Attachments & shortcuts button (the cross icon).
     - **Step 2:** You will see a section called Workflows for this channel with two options: "_Scheduling Request_" and "_Offer Request_"
     - **Step 3:** Click on "_Scheduling Request_" and fill out the form.
@@ -50,7 +50,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 ### How all other teammates submit interview requests
 
 - Simply let the appropriate Recruiter and/or Recruiting Operations Specialist know what you would like scheduled in whatever format is easiest for you (email, slack, tagging them in Greenhouse, etc.). Please include the candidate’s full name and which [types of interviews](../process/types_of_interviews.md#resume-deep-dive) you would like scheduled. We will let you know if we have any follow up questions!
-  - If you do not hear back from us in 24–48 hours, please send a kind reminder over Slack in the [#Hiring](https://sourcegraph.slack.com/archives/C168VP0FM) channel
+  - If you do not hear back from us in 24–48 hours, please send a kind reminder over Slack in the #hiring channel
 
 ## Interview scheduling
 

@@ -89,6 +89,13 @@ After that workflow, a (manual for now) admin onboarding email campaign will sta
 - we will keep the discussion technical, and focused on onboarding
 - the inbound SDR that owns the lead will create a #cloud-trial-companyname channel, if it doesn't exist yet, and add the AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec.
 
+### Early termination
+
+If instances never get used at all by the initial admin, which we can define (for now) as "no codehost setup, and no other user joined", we will consider them for early termination.
+
+- 10 days after the initial hand-off, if the instance is not setup, we'll send a [warning email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit#heading=h.vclmg9kbemxu)
+- 15 days (10+5) after the initial hand-off, if we don't hear back or the instance status hasn't changed, we'll terminate the instance, and send [an email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit#heading=h.vclmg9kbemxu)
+
 ### PQL qualification workflow
 
 The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL). For now, the criteria is best judgement and the workflow is manual, but this will be clearly defined and automated in the future.

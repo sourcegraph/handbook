@@ -74,7 +74,7 @@ Once the email is created, there are several things we need to do.
 
 **Notify the company**
 
-We send a message to [#teammate-announce](https://sourcegraph.slack.com/archives/C01UPDNPGP4) letting everyone know that new teammate are joining and that their emails are now live. The sooner we do this the better. Here is a template message:
+We send a message to #teammate-announce letting everyone know that new teammate are joining and that their emails are now live. The sooner we do this the better. Here is a template message:
 
         Hello everyone! :tada:
         New teammates are starting next week and their emails are now live:
