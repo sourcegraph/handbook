@@ -151,7 +151,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- [Leaving Sourcegraph](people-ops/process/leaving.md) 
+- [Leaving Sourcegraph](people-ops/process/leaving.md)
 
 ## Resources for Managers
 
