@@ -69,4 +69,8 @@ Here is an example of rendering an image using the Figure component:
   link="https://www.sourcegraph.com/my/optional/link"
   linkIcon={true}
 />
-The `alt` prop is automatically used for the `title` prop so all that's required is the alt prop. The title attribute specifies extra information about an element and is most often shown as a text tooltip when the mouse moves over the element. For more information on available props and documentation, see the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack) and the [Figure Component](https://about.sourcegraph.com/blog/starter-pack#figure).
+The `alt` prop is automatically used for the `title` prop so all that's required is the alt prop. The title attribute specifies
+extra information about an element and is most often shown as a text tooltip when the mouse moves over the element. For more
+information on available props and documentation, see the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack)
+and the [Figure Component](https://about.sourcegraph.com/blog/starter-pack#figure).
+```
