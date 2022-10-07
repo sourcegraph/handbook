@@ -58,8 +58,7 @@ For videos, keep these things in mind:
 
 ### Embedding content
 
-For all images and videos added to the release post, include the `blog-image` class as follows, and be sure to add an `alt` and `title` description for hover and/or screen readers:
-
+To render an [Image](https://about.sourcegraph.com/blog/starter-pack#figure) or [Video](https://about.sourcegraph.com/blog/starter-pack#video), please use the `Figure` and `Video` component from the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack).
 Here is an example of rendering an image using the Figure component:
 
 ```mdx
