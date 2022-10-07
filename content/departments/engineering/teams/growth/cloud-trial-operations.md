@@ -31,13 +31,18 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 - The workflow starts when a user requests an instance on [signup.sourcegraph.com](http://signup.sourcegraph.com). When that happens:
 - A new lead is created in salesforce, in the `PR - Trial - Cloud - 9.27.22` campaign, and an alert is posted in #cloud-trial-alerts
 - **A SDR** (`@Daniel Gwyn` or `@Casi Neff`) needs to qualify this request against this [qualification criteria](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.gsb6q3dp43wu) AND check if there is alredy an instance on the domain of the requesting user's email. For example, if `bob@acme-corp.com` requests an instance, we should first check if there's already a `acme-corp.sourcegraph.com`. For now, **all trial requests will be qualified by the inbound SDR team**.
+
   - If the request is qualified **and** there's **no** instance on the domain of the requesting user's email:
+
     - set the lead status to `Approved trial`
     - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive. If the lead is from an existing account, the AE will be aded to the lead automatically.
     - create a slack channel called `#cloud-trial-<companyname>` and add the owning AE (if any), CE (if any), Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec
     - do **not** convert the lead. This will only happen if the trial [becomes a PQL](#pql-qualification-workflow)
+    - If the request is **qualified and then unqualified** make sure to quickly comment in [the linked issue](https://github.com/sourcegraph/customer/issues) that the managed instance no longer needs to provisioned and close the issue, and alert the team in #cloud so they see it
+
     - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](#instance-provisioning-and-hand-off-workflow)
+
 - If there **is** already an instance on the domain of the requesting user's email
   - set the lead status to `disqualified`
   - set the lead substatus to `Domain Already in Trial`
@@ -83,6 +88,13 @@ After that workflow, a (manual for now) admin onboarding email campaign will sta
 - SDRs will reach out to the CE owner and schedule some time
 - we will keep the discussion technical, and focused on onboarding
 - the inbound SDR that owns the lead will create a #cloud-trial-companyname channel, if it doesn't exist yet, and add the AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec.
+
+### Early termination
+
+If instances never get used at all by the initial admin, which we can define (for now) as "no codehost setup, and no other user joined", we will consider them for early termination.
+
+- 10 days after the initial hand-off, if the instance is not setup, we'll send a [warning email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit#heading=h.vclmg9kbemxu)
+- 15 days (10+5) after the initial hand-off, if we don't hear back or the instance status hasn't changed, we'll terminate the instance, and send [an email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit#heading=h.vclmg9kbemxu)
 
 ### PQL qualification workflow
 

@@ -28,7 +28,7 @@ When a teammate [switches teams](../working-at-sourcegraph/switching-teams.md), 
 
 ## Departures
 
-When a teammate [leaves Sourcegraph](../../departments/people-talent/people-ops/process/leaving.md), their manager will communicate the news to that person's department and the broader people manager group. Everyone else in the company can follow deparutres in the [#teammate-departures channel](https://sourcegraph.slack.com/archives/C043N11GD7S) where notifications are sent automically within 48 hours of notice being given. If the person leaving wants to share a more personal goodbye on their last day, they can share a brief message in [#thanks](https://sourcegraph.slack.com/archives/CDVGH9RDF).
+When a teammate [leaves Sourcegraph](../../departments/people-talent/people-ops/process/leaving.md), their manager will communicate the news to that person's department and the broader people manager group. Everyone else in the company can follow deparutres in the #teammate-departures channel where notifications are sent automically within 48 hours of notice being given. If the person leaving wants to share a more personal goodbye on their last day, they can share a brief message in #thanks.
 
 **For Director and above roles:** The Comms team and People Partners will be more heavily involved with messaging development and comms strategy. This will likely include broader communication to the full company via #announcements. Please loop them in before comms are shared. [See comms template here](https://docs.google.com/document/d/1v2eULF91g_ad6ZpMNzvVP6CKE5vf8YXP4pVVj6TcE54/edit)
 
@@ -38,7 +38,7 @@ _DRI:_ Manager of departing teammate
 
 1. ASAP: Manager and teammate align on the final day and transition plan
 2. Within 24 hours: Manager drafts messaging points and shares with the departing teammate for alignment
-3. Within 48 hours: Manager notifies [#manager-team](https://sourcegraph.slack.com/archives/C01B6F2F1G8) as FYI.
+3. Within 48 hours: Manager notifies #manager-team as FYI.
 4. Within 48 hours (after people managers have been informed):
    - **If they are a people manager:** Departing person notifies direct reports (this can happen live via Zoom call, but should also include written follow-up via slack to align with async focus)
      - Manager of departing person then follows up with the team to show their support.
@@ -47,8 +47,8 @@ _DRI:_ Manager of departing teammate
 5. Within 48 hours of notice: Manager of departing person notifies broader department (via slack message to public department channel). [Use this message template ](https://docs.google.com/document/d/1Kg7RUN5nlM5eN5kUK-ZDQbSicLeljl6D-dQyUSpHbrs/edit#bookmark=id.752a8p5f7c9f)
    - Departing person follows up in the thread of the above message to express support and commitment to a smooth transition. [Use this message template](https://docs.google.com/document/d/1Kg7RUN5nlM5eN5kUK-ZDQbSicLeljl6D-dQyUSpHbrs/edit#bookmark=id.mzgrfexmnuvp)
 6. Within 48 hours of notice: Departing person notifies their cross-functional partners and includes manager as FYI (This should happen via slack wherever possible)
-7. Once all above steps have been completed (and marked as complete by the manager in Process.st) an automatic message will be sent in [#teammate-departures](https://sourcegraph.slack.com/archives/C043N11GD7S) to notify all other teammates.
-8. Optional on last day: Departing person sends brief message in [#thanks](https://sourcegraph.slack.com/archives/CDVGH9RDF) to say farewell and share contact details (like Linkedin and email).
+7. Once all above steps have been completed (and marked as complete by the manager in Process.st) an automatic message will be sent in #teammate-departures to notify all other teammates.
+8. Optional on last day: Departing person sends brief message in #thanks to say farewell and share contact details (like Linkedin and email).
    - [Message template](https://docs.google.com/document/d/1Kg7RUN5nlM5eN5kUK-ZDQbSicLeljl6D-dQyUSpHbrs/edit#bookmark=id.7qrey4qxv65s)
 
 **Guidance on tone:**
@@ -87,4 +87,4 @@ _DRI:_ Manager of departing teammate
 
 **A:** Departure announcements should happen within 24 hours of receiving the resignation. This allows for a thoughtful transition and communication plan.
 
-- Note: If a departure is involuntary and/or if the person is leaving Sourcegraph immediately, aim to communicate the departure as quickly as possible (same day if possible) while still following the cadence outlined above.
+Note: If a departure is involuntary and/or if the person is leaving Sourcegraph immediately, aim to communicate the departure as quickly as possible (same day if possible) while still following the cadence outlined above.

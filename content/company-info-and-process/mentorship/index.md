@@ -1,6 +1,6 @@
 # Find a mentor, Be a mentor!
 
-> NOTE: The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK), or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
+> NOTE: The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in #mentorship, or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The purpose of this document is to inform prospective mentors and mentees how th
 ### Quick resources
 
 - [Mentors Bulletin Board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing)
-- [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK)
+- #mentorship
 - [Mentorship Program Operations](./operations.md)
 - [RFC 476](https://docs.google.com/document/d/1R8eFZXHh5ycpibL2ZZPIWE8vTX2NCANulGNWGh7oMkQ/edit#): Prod - Eng - CS mentorship
 
@@ -39,7 +39,7 @@ Did you already strike something up informally with someone you’re already wor
 
 ### What if I have questions or run into a problem not addressed here?
 
-You can reach the mentorship program champions by tagging @mentorship-champions or posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK) with questions, concerns, feedback, or anything else mentoring-related.
+You can reach the mentorship program champions by tagging @mentorship-champions or posting in #mentorship with questions, concerns, feedback, or anything else mentoring-related.
 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 
@@ -79,7 +79,7 @@ Mentorship is a two-way street, and it’s important that any mentoring relation
 
 If there isn’t a good mentor available for the areas you are interested in, or if you are just having a hard time getting something to work out, the mentorship program champions are here to help!
 
-For these and any other issues you may run into with the mentorship program, you can always reach the mentorship program champions by tagging @mentorship-champions or posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK).
+For these and any other issues you may run into with the mentorship program, you can always reach the mentorship program champions by tagging @mentorship-champions or posting in #mentorship.
 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 

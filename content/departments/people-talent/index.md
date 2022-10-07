@@ -2,7 +2,7 @@
 
 The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack #hiring or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent.
 
@@ -67,7 +67,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
-  - [How to give a raise within band]COMING SOON
     - [Our compensation bands](COMING SOON)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
@@ -104,8 +103,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Relocation/address changes
 
-- [Moving to a new location](people-ops/process/moving.md) SOON
-  - Changing addresses
+- [Moving to a new location](people-ops/process/moving.md)
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
@@ -153,7 +151,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- [Leaving Sourcegraph](people-ops/process/leaving.md) (including how to resign)
+- [Leaving Sourcegraph](people-ops/process/leaving.md)
 
 ## Resources for Managers
 
@@ -215,7 +213,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
-  - [How to give a raise within band]COMING SOON
+    - [Our Merit and Promotion Process]COMING SOON
     - [Our compensation bands](COMING SOON)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
@@ -328,6 +326,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Opening a new job](talent/process/opening_a_new_job.md)
   - [Kicking off a new search](talent/process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](talent/process/opening_a_new_job.md#the-recruiters-actions)
+  - [How to determine compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - [How to make a change to headcount plan](talent/process/headcount_changes.md)
 
 ### Where we hire
@@ -379,158 +378,191 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 [Click here](teamalignment.md) to see Talent Team alignment with each department
 
-  <section>
-    <div class="row" style="display:flex;">
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#carly-jones" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
-                alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Carly Jones</div>
-          <div style="text-align: center; font-size: 12px;">VP of Talent & People</div>
+<section>
+  <div class="row" style="display: flex">
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#carly-jones" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
+            alt="Picture of Carly Jones"
+            style="background: transparent; width: 128px"
+            />
+          </a>
         </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Devon-Bitmoji.jpg"
-                alt="Picture of Devon Coords" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Devon Coords</div>
-          <div style="text-align: center; font-size: 12px;">Director, Technical Recruiting</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.52.17%20AM.png"
-                alt="Picture of Frey Andersson" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Frey Andersson</div>
-          <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-    <div class="row" style="display:flex;">
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/KemperBitmoji.png"
-                alt="Picture of Kemper Hamilton" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Kemper Hamilton</div>
-          <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-%20Bitmoji.jpg"
-                alt="Picture of Kelsey Nagel" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Kelsey Nagel</div>
-          <div style="text-align: center; font-size: 12px;">Corporate Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex:1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png"
-                alt="Picture of Marija Petrovic" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Marija Petrovic</div>
-          <div style="text-align: center; font-size: 12px;">Director, Recruiting and People-Ops</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg"
-                alt="Picture of Grace Bohl" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Grace Bohl</div>
-          <div style="text-align: center; font-size: 12px;">Sales Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg"
-                alt="Picture of Trevor Houghton" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Trevor Houghton</div>
-          <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
-        </div>
+        <div style="text-align: center">Carly Jones</div>
+        <div style="text-align: center; font-size: 12px">VP of Talent & People</div>
       </div>
     </div>
-  </section>
-
- <section>
-    <div class="row" style="display:flex;">
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
-                alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Inés Roitman</div>
-          <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Devon-Bitmoji.jpg"
+            alt="Picture of Devon Coords"
+            style="background: transparent; width: 128px"
+            />
+          </a>
         </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
-                alt="Picture of Jonathan Ayers" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Jonathan Ayers</div>
-          <div style="text-align: center; font-size: 12px;">Director, People</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#alex-mathison" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
-                alt="Picture of Alex Mathison" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Alex Mathison</div>
-          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team#sarah-um" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
-                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Sarah Um</div>
-          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
-        </div>
+        <div style="text-align: center">Devon Coords</div>
+        <div style="text-align: center; font-size: 12px">Director, Technical Recruiting</div>
       </div>
     </div>
-       </section>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.52.17%20AM.png"
+            alt="Picture of Frey Andersson"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Frey Andersson</div>
+        <div style="text-align: center; font-size: 12px">Technical Recruiter</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/KemperBitmoji.png"
+            alt="Picture of Kemper Hamilton"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Kemper Hamilton</div>
+        <div style="text-align: center; font-size: 12px">People-Ops Generalist</div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="display: flex">
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-%20Bitmoji.jpg"
+            alt="Picture of Kelsey Nagel"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Kelsey Nagel</div>
+        <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png"
+            alt="Picture of Marija Petrovic"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Marija Petrovic</div>
+        <div style="text-align: center; font-size: 12px">Director, Recruiting and People-Ops</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg"
+            alt="Picture of Grace Bohl"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Grace Bohl</div>
+        <div style="text-align: center; font-size: 12px">Sales Recruiter</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg"
+            alt="Picture of Trevor Houghton"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Trevor Houghton</div>
+        <div style="text-align: center; font-size: 12px">Recruiting Operations Specialist</div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="display: flex">
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
+            alt="Picture of Inés Roitman"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Inés Roitman</div>
+        <div style="text-align: center; font-size: 12px">Onboarding and Training Manager</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
+            alt="Picture of Jonathan Ayers"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Jonathan Ayers</div>
+        <div style="text-align: center; font-size: 12px">Director, People</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#alex-mathison" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
+            alt="Picture of Alex Mathison"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Alex Mathison</div>
+        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
+      </div>
+    </div>
+     <div class="col" style="flex: 1">
+      <div>
+        <div style="text-align: center">
+          <a href="../../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+            alt="Picture of Sarah Um"
+            style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Sarah Um</div>
+        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
+      </div>
+    </div>
+  </div>
+</section>

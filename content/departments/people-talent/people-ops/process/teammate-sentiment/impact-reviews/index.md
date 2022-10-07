@@ -1,6 +1,6 @@
 # Impact review cycles
 
-_If you have any questions about the Impact Review process, or need help in general, please Slack `#ask-people-team`_
+_If you have any questions about the Impact Review process, or need help in general, please Slack #ask-people-team_
 
 ## Impact Reviews explained
 
@@ -201,9 +201,9 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Score: 3:1, 3:2, 2:3, 1:3 or 3:3
   - Skill: your contributions are below expectations for your current level and must immediately improve.
   - Values: exhibits some, lacks in some, deficient in some.
-  - Expected distribution: ~10% of Teammates will fall in the **“Least Effective”** (low performance) category.
+  - Expected distribution: ~10% of Teammates will fall in the **“Not Meeting High Bar”** category.
   - Recommended merit increase: 0%
-  - Merit increase frequency: Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
+  - Merit increase frequency: Teammates rated “Not Meeting High Bar” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
 
 ## Merit Philosophy
 
@@ -297,7 +297,7 @@ Q. **How are Teammate ratings on Impact Reviews used?**
 
 Q. **How do I choose my peer reviewers?**
 
-- Guidance on selecting peer reviewers can be found [here](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
+- See [guidance on selecting peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
 
 Q. **Can reviews be submitted outside of the predetermined Impact Review schedule?**
 
@@ -343,7 +343,7 @@ Q. **Will my Impact Review be negatively impacted if I do not answer the optiona
 
 Q. **Who should Teammates reach out to with questions about the performance review process?**
 
-- All questions should be directed to the `#ask-people-team` Slack channel.
+- All questions should be directed to the #ask-people-team Slack channel.
 
 ---
 

@@ -3,7 +3,7 @@
 ## Hiring process
 
 - [Headcount Planning and Approval](talent/process/headcount_changes.md)
-- [Leveling philosophy](people-ops/process/compensation-and-leveling/leveling.md)
+- [Leveling philosophy](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
 - [Compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - [Who is my recruiter?](teamalignment.md)
 - [How to open a new role](talent/process/opening_a_new_job.md)

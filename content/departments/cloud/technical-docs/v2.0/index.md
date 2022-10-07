@@ -22,3 +22,4 @@ The largest architecture changes are moving from a standalone VM to GKE. Learn m
 The following processes only apply to Managed Instances v2.0:
 
 - [Create a Managed Instance](./creation_process.md)
+- [Restore a Managed Instance](./restore_process.md)

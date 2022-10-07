@@ -10,9 +10,9 @@ We also receive support requests from other engineering teams because our owners
 
 We provide two primary ways of requesting support from Repo Management:
 
-1. The [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) channel in Slack is our preferred method of receiving support requests. If your support request is a simple question, post in the channel. You don’t have to provide a GitHub issue or any other artifact. If your support request is more than a question (e.g. customer bug, deep dive required, high priority ask), follow the support [request guidelines](#support-request-guidelines) below.
+1. The #repo-management channel in Slack is our preferred method of receiving support requests. If your support request is a simple question, post in the channel. You don’t have to provide a GitHub issue or any other artifact. If your support request is more than a question (e.g. customer bug, deep dive required, high priority ask), follow the support [request guidelines](#support-request-guidelines) below.
 
-2. If you are unsure whether Repo Management is the right team, or it impacts multiple teams, you can post in the [#ask-engineering](https://sourcegraph.slack.com/archives/C022SPMNR0W) channel. We recommend posting in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) instead if you are confident that Repo Management is the right owner as we do not review the #ask-engineering channel as quickly.
+2. If you are unsure whether Repo Management is the right team, or it impacts multiple teams, you can post in the #ask-engineering channel. We recommend posting in #repo-management instead if you are confident that Repo Management is the right owner as we do not review the #ask-engineering channel as quickly.
 
 ### Support Request Guidelines
 
@@ -24,17 +24,17 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
    - Any guidance related to the impact this is having
    - Any extra information that could help us solve or prioritize this
 2. Ensure label `team/repo-management` is added to the issue
-   . Send a message to [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) in Slack to notify the team that you have created the issue
+   . Send a message to #repo-management in Slack to notify the team that you have created the issue
 
 ### How We Handle Support
 
 Each week one member from the Repo Management team is on support rotation according to [repo-management-support](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/b553cefc-2466-4ad2-ad0c-66937c790bbf) schedule in OpsGenie. The user is also added to the Slack User Group `@repo-management-support` by [Slackgenie](https://github.com/sourcegraph/background-jobs/tree/main/slackgenie). Feel free to tag `@repo-management-support` for your support requests on Slack.
 
-For simple questions in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) or [#ask-engineering](https://sourcegraph.slack.com/archives/C022SPMNR0W), we will review and respond on a daily basis.
+For simple questions in #repo-management or #ask-engineering, we will review and respond on a daily basis.
 
 More involved support requests follow the below process:
 
-1. Requester sends a message to [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) and links to the issue they created on https://github.com/sourcegraph/customer/issues (the customer issue should include the label team/repo-management).
+1. Requester sends a message to #repo-management and links to the issue they created on https://github.com/sourcegraph/customer/issues (the customer issue should include the label team/repo-management).
 2. The IC on the weekly support rotation acknowledges the message in Slack, asks any follow up questions, and provides an ETA for us to review the issue. If the issue is p1, we review immediately.
 3. The IC on support will review the request in more detail and create an issue on our [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1) and add it to the Support Issues list.
 4. If the request is not trivial, the IC will loop in the the EM and PM to triage with the requester on relative priority and timing.
