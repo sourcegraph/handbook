@@ -12,7 +12,7 @@ It is important to make the distinction that by scale here, we're referring to t
 
 The common vocabulary being used to talk about scaling from the persective of a customer is described in details over at [tiers of strategic accounts](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107). Therefore, it's best to use the terminology _LARGE_, _XL_, _2XL_ and _3XL_ to frame which kind of customer a test would target.
 
-## ScaleTesting instance
+## ScaleTesting deployment
 
 `scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
 
@@ -51,6 +51,11 @@ The code for this environment can be found in the following locations, depending
 #### Infrastructure
 
 The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository. Here you will find configuration for the project, GKE cluster, Cloud SQL instances, secrets and anything else related to the configuraion of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, however contributions are always welcomed.
+
+A seperate compute instance also exists for the purpose of running long running and/or client-side intensive tests. The configration for which exists in the same [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository.
+
+To access this instance, run the following command:
+`gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
 #### Application
 
@@ -98,11 +103,19 @@ Merge your changes via a pull request, and run the following from the base of th
 
 `helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 3.43.2-insiders.3e3f9e9 sourcegraph insiders/sourcegraph -n scaletesting`
 
-### Scale the cluster down when not in use
+### Scale the infrastructure down when not in use
 
 To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
+
+To stop the `devx` compute instance when it is not in use, run the following:
+
+`gcloud compute instances stop devx --zone us-central1-a --project sourcegraph-scaletest`
+
+or to start it:
+
+`gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
 
 ## Testing Data
 
