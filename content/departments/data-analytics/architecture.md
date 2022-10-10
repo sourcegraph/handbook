@@ -22,7 +22,7 @@ Pings are aggregated event telemetry we receive from on-prem and cloud instances
 
 User events are event telemetry that we receive from cloud instanecs.
 
-- [Event level data usage pipeline](data-usage-pipeline.md)
-- [Adding, changing and debugging user event data](adding_event_level_data.md)
+- [Event level data usage pipeline](https://docs.sourcegraph.com/dev/background-information/data-usage-pipeline)
+- [Adding, changing and debugging user event data](https://docs.sourcegraph.com/dev/background-information/adding_event_level_data)
 
 For more info on our data stack tools, see the [tools page](tools.md).
