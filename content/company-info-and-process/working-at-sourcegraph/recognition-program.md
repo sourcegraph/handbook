@@ -2,15 +2,15 @@
 
 ## Quarterly Value Awards
 
-Our Values awards recognize teammates/teams who are nominated by their peers for exemplifying our company [values](https://handbook.sourcegraph.com/company-info-and-process/values/#values-in-detail):
+Our Values awards recognize teammates/teams who are nominated by their peers for exemplifying our company [values](../values/index.md#values-in-detail):
 
-- [Customer-first](https://handbook.sourcegraph.com/company-info-and-process/values/#customer-first): You earn and keep the trust of our customers by putting their interests first.
-- [Work as a team](https://handbook.sourcegraph.com/company-info-and-process/values/#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
-- [High agency](https://handbook.sourcegraph.com/company-info-and-process/values/#high-agency): You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
-- [High quality through iteration:](https://handbook.sourcegraph.com/company-info-and-process/values/#high-quality-through-iteration) You are responsible for defining and building high quality work iteratively.
-- [Be welcoming and inclusive: ](https://handbook.sourcegraph.com/company-info-and-process/values/#be-welcoming-and-inclusive)You make people from all groups and backgrounds feel comfortable belonging to our team and community.
-- [Open and transparent:](https://handbook.sourcegraph.com/company-info-and-process/values/#open-and-transparent) You proactively communicate in an open and transparent way.
-- [Continuously grow: ](https://handbook.sourcegraph.com/company-info-and-process/values/#continuously-grow)You strive to continuously grow and learn by genuinely soliciting feedback early and often, and humbly reflecting on your past mistakes.
+- [Customer-first](../values/index.md#customer-first): You earn and keep the trust of our customers by putting their interests first.
+- [Work as a team](../values/index.md#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
+- [High agency](../values/index.md#high-agency): You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
+- [High quality through iteration:](../values/index.md#high-quality-through-iteration) You are responsible for defining and building high quality work iteratively.
+- [Be welcoming and inclusive: ](../values/index.md#be-welcoming-and-inclusive)You make people from all groups and backgrounds feel comfortable belonging to our team and community.
+- [Open and transparent:](../values/index.md#open-and-transparent) You proactively communicate in an open and transparent way.
+- [Continuously grow: ](../values/index.md#continuously-grow)You strive to continuously grow and learn by genuinely soliciting feedback early and often, and humbly reflecting on your past mistakes.
 
 ### Values awards details:
 
