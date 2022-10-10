@@ -47,5 +47,5 @@ The change management checklist outlines the steps that folks on the team are re
   - Put a system in place to track change adoption. This could be check-ins, surveys, routine observation or reports.
   - Change is hard so put a plan in place to regularly remind folks of things until the new solution/practice sticks.
   - Schedule a team retro to keep track of how things are going and collect feedback for possible future iterations.
-  - Find ways to publicly celebrate successes (even small ones) during implementation. This could be milestone announcements in the [#customer-support-internal](https://sourcegraph.slack.com/archives/C01JR51JR5J) channel (for changes within CS) or callouts for individuals in the [#thanks](https://sourcegraph.slack.com/archives/CDVGH9RDF) channel (for changes with wider impact).
+  - Find ways to publicly celebrate successes (even small ones) during implementation. This could be milestone announcements in the #customer-support-internal channel (for changes within CS) or callouts for individuals in the #thanks channel (for changes with wider impact).
   - To close the loop, do a self-retro of the change to determine that the problem as originally identified/framed has been solved.

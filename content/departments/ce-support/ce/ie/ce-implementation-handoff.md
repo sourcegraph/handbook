@@ -1,4 +1,4 @@
-# CE-Implementation Collaboration Overview
+# CE-AE-Implementation Collaboration Overview
 
 This document is a work in progress to give an overview of the expectations of the handoff between the customer engineering team and the implementation engineering team when a new customer requires implementation support.
 
@@ -10,11 +10,11 @@ During the initial conversations with a customer, the CE should evaluate whether
 - The customer is expected to have a particularly large instance.
 - There is a high probability the instance will require a Kubernetes deployment.
 
-# Initiating an IE Request
+# Initiating an Implementation Request
 
-If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to [#ask-implementation](https://sourcegraph.slack.com/archives/C0418GDBT7S) with the following information:
+If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to #ask-implementation by submitting the request through the 'Implementation Request' Slack Workflow with the following information:
 
-Jointly-Managed Implementation Request
+Implementation Services Customer Request
 
 - Customer Name:
 - Link to Salesforce Opportunity:
@@ -23,13 +23,12 @@ Jointly-Managed Implementation Request
 - Expected Hosting Provider:
 - Additional Information (if needed):
 
-From there, the implementation team will add the customer to the [Jointly-Managed Backlog](https://docs.google.com/spreadsheets/d/1v36cFlcWGEGENKGGTsElCEP4_ZhIQd2mhgpwDxRPtGM/edit#gid=0) where the account/opportunity will be triaged and prioritized. The triage will take into consideration:
+From there, the customer request will be added to the [Implementation Services Account Backlog](https://docs.google.com/spreadsheets/d/1v36cFlcWGEGENKGGTsElCEP4_ZhIQd2mhgpwDxRPtGM/edit#gid=0) where the account/opportunity will be triaged and prioritized. The triage will take into consideration:
 
 1. Overall size and technical complexity of the deployment
 2. Opportunity ARR and TAM of the account
 3. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
-4. Current bandwidth
-   Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
+4. Current bandwidth<br>
 
 The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly-managed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
 

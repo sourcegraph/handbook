@@ -16,4 +16,4 @@ We cannot support or employ candidates or teammates in any of these countries du
 - Russia (case by case - notify People Ops)
 - Ukraine (case by case - notify People Ops)
 
-Any questions? Contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com via email!
+Any questions? Contact the People team in #ask-people-team in Slack or people-ops@sourcegraph.com via email!

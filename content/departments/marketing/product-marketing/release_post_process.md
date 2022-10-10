@@ -39,18 +39,38 @@ You can tell when the release is cut by following along in #progress.
 
 - PMM shares the release post in #progress.
 
-## Content notes
+## Adding images & videos to the release post
 
-For any images added to the release post, include the `blog-image` class as follows, and be sure to add an `alt` and `title` description for hover and/or screen readers:
+### Capturing content
 
-```html
-<img
-  src="https://my-image.jpg"
-  class="blog-image"
-  alt="This description will be shown to people with assistive readers"
-  title="This description will be shown on hover"
+When capturing images or video for the release post, keep these guidelines in mind:
+
+- Capture your window to only show the Sourcegraph app. Don't capture your URL bar or bookmarks bar.
+- Use Sourcegraph's light mode.
+- If possible, capture the screen with a ~16:10 aspect ratio.
+- If you're capturing a text-heavy screen, use the browser's zoom function (125% zoom often works well).
+
+For videos, keep these things in mind:
+
+- Try to keep videos shorter than 10 seconds.
+- Capture your content as videos (MP4 format) and not as GIFs.
+- Videos will be formatted in the release post to look and act like GIFs. They will autoplay on loop and be muted.
+
+### Embedding content
+
+To render an [Image](https://about.sourcegraph.com/blog/starter-pack#figure) or [Video](https://about.sourcegraph.com/blog/starter-pack#video), please use the `Figure` and `Video` component from the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack).
+Here is an example of rendering an image using the Figure component:
+
+```mdx
+<Figure
+  src="https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png"
+  alt="Alternative information or rendered when an image cannot be displayed"
+  caption="An optional caption displayed under the figure"
+  link="https://www.sourcegraph.com/my/optional/link"
+  linkIcon={true}
 />
-
-The `alt` and `title` values can be the same or not, up to you. In general, `title` is more appropriate for a general
-title, and `alt` is more appropriate to describe what you're seeing visually.
+The `alt` prop is automatically used for the `title` prop so all that's required is the alt prop. The title attribute specifies
+extra information about an element and is most often shown as a text tooltip when the mouse moves over the element. For more
+information on available props and documentation, see the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack)
+and the [Figure Component](https://about.sourcegraph.com/blog/starter-pack#figure).
 ```

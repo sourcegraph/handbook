@@ -12,7 +12,7 @@
 
 ## Greenhouse access
 
-- All teammates are granted Basic access, which allows you to submit and track referrals, interview candidates, and share jobs to social media. If you believe you need a different level of access, please Slack the `#hiring` channel.
+- All teammates are granted Basic access, which allows you to submit and track referrals, interview candidates, and share jobs to social media. If you believe you need a different level of access, please Slack the #hiring channel.
 - Hiring Managers and Executives have access to view all candidates for any requisition where they're listed as a Hiring Manager
 - Talent team members have admin access and full visibility into the platform
 

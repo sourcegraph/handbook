@@ -14,11 +14,11 @@ The committee of mentorship program champions are the designated owners and main
 The responsibilities of the mentorship program champions are 3-fold:
 
 - Promoting participation in the mentorship program (increasing visibility, regularly soliciting new volunteers, maintaining the surveys, and improving resources/the program over time)
-- Speaking for the mentorship program (monitoring [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK), answering questions, and gathering feedback from mentors and mentees)
+- Speaking for the mentorship program (monitoring #mentorship, answering questions, and gathering feedback from mentors and mentees)
   - For groups participating in the mentorship program, the mentorship program champions will periodically send surveys to check in with mentor-mentee pairs about their experiences.
 - Resolving issues with the mentorship program (responding to private survey submissions, communicating with participants as needed, and helping mentees who have not yet found a good mentor fit)
 
-That being said, the mentorship program here at Sourcegraph is brand new, and anyone is free to make suggestions as to how the program should operate or contribute towards our resources for supporting mentors and mentees! If you have feedback, please share it in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK)!
+That being said, the mentorship program here at Sourcegraph is brand new, and anyone is free to make suggestions as to how the program should operate or contribute towards our resources for supporting mentors and mentees! If you have feedback, please share it in #mentorship!
 
 ### People Ops Support
 

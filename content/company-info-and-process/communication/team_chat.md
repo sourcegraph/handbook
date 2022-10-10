@@ -12,7 +12,7 @@ _All teammates should join these channels and check them regularly_
 
 - #announcements - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
   - Note: Posting permissions are limited to keep the signal-to-noise ratio high. Teammates should use emojis and threads to engage with content.
-  - If you need access to post in #announcements, please send a message to #internal-comms.
+  - If you need access to post in #announcements, please send a message to #internal-comms and tag Madison Clark.
 - #exec-ama - This channel makes it easy to ask Sourcegraph leadership any question and get an answer. Responses will be shared within 48 hours. [Follow these instructions ](https://github.com/sourcegraph/handbook/edit/main/content/company-info-and-process/communication/team_chat.md#more-on-exec-ama)when submitting a question.
 - #progress - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
 - #thanks - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
@@ -227,7 +227,7 @@ You should also join channels mentioned in [your team’s documentation](../../d
 
 #### Overview:
 
-Transparency is a core company value at Sourcegraph, that’s why Sourcegraph teammates are encouraged to ask questions of leadership to gain clarity on topics they’re interested in hearing more about. Teammates should submit questions via Slack in the [#exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) channel. The default should be to submit questions using the workflow outlined below. If a teammate doesn’t feel comfortable submitting a question with their name attached, that’s okay, just ask your manager to submit the question on your behalf, or use the [anonymous AMA form](https://docs.google.com/forms/d/144bSx1IT8uohmjJPd026v5yEvqEDrGfwGG2y-T2z37k/edit?ts=620bd841#responses) and a member of the comms team will ask the question on your behalf. Questions will be answered within 48 hours and all answers will also be documented [here](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit#) to allow for long-term documentation.
+Transparency is a core company value at Sourcegraph, that’s why Sourcegraph teammates are encouraged to ask questions of leadership to gain clarity on topics they’re interested in hearing more about. Teammates should submit questions via Slack in the #exec-ama channel. The default should be to submit questions using the workflow outlined below. If a teammate doesn’t feel comfortable submitting a question with their name attached, that’s okay, just ask your manager to submit the question on your behalf, or use the [anonymous AMA form](https://docs.google.com/forms/d/144bSx1IT8uohmjJPd026v5yEvqEDrGfwGG2y-T2z37k/edit?ts=620bd841#responses) and a member of the comms team will ask the question on your behalf. Questions will be answered within 48 hours and all answers will also be documented [here](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit#) to allow for long-term documentation.
 
 #### Instructions
 
