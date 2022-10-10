@@ -119,6 +119,16 @@ or to start it:
 
 ## Testing Data
 
+## Long running task machine
+
+Creating some of the data can take a long time, we've therefore added a machine in the scaletesting cluster to run these long running tasks.
+
+To access the machine execute the following command:
+
+```
+gcloud compute ssh --zone "us-central1-a" "devx"  --tunnel-through-iap --project "sourcegraph-scaletesting"
+```
+
 ### Git
 
 #### Over 100k repositories
@@ -169,9 +179,19 @@ The following repositories are available to test against repositories with a mas
 
 ### Perforce
 
-#### Large depot
+A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has been created to generated synthetic repos (depots) in Perforce. For more details on how to use the tool to generate more synthetic files or history on a particular depot please see the [README](https://github.com/sourcegraph/synthforce/blob/main/README.md).
 
-WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
+#### Depots (repos)
+
+##### `devx-small-10GB
+
+- Size ~10 GB
+- Change count 589 (commits)
+
+##### `devx-large-20GB`
+
+- Size ~20 GB
+- Change count 2937 (commits)
 
 ### GitLab
 
