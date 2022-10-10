@@ -80,7 +80,7 @@ The possibility of using isolated code hosts solely for the purpose of these tes
 
 In order to gather meaningful results of running tests against the scale testing instance, you can gather the following resources to help you come to a conclusion:
 
-- Tracing: TODO
+- Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](https://console.cloud.google.com/traces/overview?project=sourcegraph-scaletesting). To use tracing all you have to add is `&trace=1` to you url the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
 - Sentry: [`scaletesting`](https://sentry.io/organizations/sourcegraph/issues/?project=6735436)
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
 
@@ -118,6 +118,16 @@ or to start it:
 `gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
 
 ## Testing Data
+
+## Long running task machine
+
+Creating some of the data can take a long time, we've therefore added a machine in the scaletesting cluster to run these long running tasks.
+
+To access the machine execute the following command:
+
+```
+gcloud compute ssh --zone "us-central1-a" "devx"  --tunnel-through-iap --project "sourcegraph-scaletesting"
+```
 
 ### Git
 
@@ -169,9 +179,19 @@ The following repositories are available to test against repositories with a mas
 
 ### Perforce
 
-#### Large depot
+A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has been created to generated synthetic repos (depots) in Perforce. For more details on how to use the tool to generate more synthetic files or history on a particular depot please see the [README](https://github.com/sourcegraph/synthforce/blob/main/README.md).
 
-WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
+#### Depots (repos)
+
+##### `devx-small-10GB
+
+- Size ~10 GB
+- Change count 589 (commits)
+
+##### `devx-large-20GB`
+
+- Size ~20 GB
+- Change count 2937 (commits)
 
 ### GitLab
 
