@@ -1,3 +1,16 @@
+# **Enablement**
+
+#### Which data tool should I use for instance data?
+
+![Data tool flowchart](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/data_workflow.png)
+
+## **Onboarding Resources**
+
+[Onboarding to Looker (https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
+
+Onboarding to Amplitude - Placeholder to create a page for this
+
+
 # **Support Model**
 
 Supporting a **Self-Service** framework for BI and Analytics is imperative to being a data driven organization.
@@ -30,6 +43,4 @@ In our Self-Service framework, we need to accommodate multiple personas because 
   _ I want to query the DWH to understand and analyze data quickly
   _ I want to automate analysis
 
-  ## **Enablement**
 
-  We provide enablement in multiple ways dependent on the subject, the team or individual, or the tool.
