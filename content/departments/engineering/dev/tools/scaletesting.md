@@ -168,12 +168,17 @@ The following repositories are available to test against repositories with a mas
 
 A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has been created to generated synthetic repos (depots) in Perforce. For more details on how to use the tool to generate more synthetic files or history on a particular depot please see the [README](https://github.com/sourcegraph/synthforce/blob/main/README.md).
 
-#### Large depot
+#### Depots (repos)
 
-WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
+##### `devx-small-10GB
 
-- Current size 10 GB
-- Change count 589
+- Size ~10 GB
+- Change count 589 (commits)
+
+##### `devx-large-20GB`
+
+- Size ~20 GB
+- Change count 2937 (commits)
 
 ### GitLab
 
