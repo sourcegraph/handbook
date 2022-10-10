@@ -18,5 +18,4 @@ Pings are the aggregaed event telemetry we receive from on-prem and cloud instan
 - [List of pings](https://docs.sourcegraph.com/admin/pings)
 - [Adding, changing and debugging pings](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)
 
-
 For more info on our data stack tools, see the [tools page](tools.md).
