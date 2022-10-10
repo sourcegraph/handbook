@@ -77,7 +77,7 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Purpose:** Provided to enterprise customers during trial (pre-sales) and converted to a support channel (post-sales) for ongoing communications via an easy, familiar method
 - **Those involved:** AE + CE + support > (Engineering) + Product
 - **Details:** Channels must be named with trial- or support- somewhere in the title to link to Zendesk. In some cases where the customer creates the channel in their Slack account, we need IT Tech Ops to set-up a special Zap. If a channel cannot be linked via automation, it is noted in our [Customer Exception list](customer-exceptions.md) and is manually triaged. Every new post in these channels automatically create a record in Zendesk via a Zapier integration (it does not create new tickets for every new comment in a thread). While that creates some noise, it also ensures nothing falls through the cracks and we are able to capture all conversations that happen and gather the associated data and insights -- plus, it’s easier to merge/delete in Zendesk than remember to manually send a Slack post to Zendesk. Our CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
-- _Important note_: CS does not join external Slack accounts except for if a strategic customer requires this; customers who are not able to join our Slack/connect their Slack to ours, can engage support via email.
+- **_Important note_: CS only supports slack channels that our support Agent can be added to. Customers who are not able to do so can engage support via support@sourcegraph.com.** 
 
 ### #help channel in Community Slack account
 
@@ -126,6 +126,8 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Purpose:** We have a couple customers who were not able to join our Slack account, so we agreed to join theirs. Generally, we don't want to do this because it's very hard to scale, have coverage when folks are not working, etc.
 - **Those involved:** CE > support
 - **Details:** CEs check with support before agreeing to this. For these customers, we assign two application engineers to be in the customer's Slack account so we have optimal coverage. Support manually creates Zendesk tickets to track this work. ou can see which customers have such set-up in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit).
+
+-If we can’t add our Foqal agent to their channel, then CE (or post-sales TA) will need to monitor. Alternatively customer can write in to support@. We can’t monitor a bunch of one-off slack channels outside of our workflows. In the future, a customer will be able to pay additional for more premium support like us monitoring their channels but we’re not able to offer that just yet.
 
 ### [GitHub public issue tracker](https://github.com/sourcegraph/sourcegraph/issues)
 
