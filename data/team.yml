@@ -1769,17 +1769,6 @@ connor_obrien:
   location: San Franciso, CA, USA 🇺🇸
   description: Connor lives in the Lonely Mountain neighborhood in SF, 1 block away from Golden Gate Park with his wife, daughter, two dogs, and pet Crawdad. Prior to Sourcegraph, Connor worked at Anaplan for 7.5 years where he played critical roles across PreSales, Ops, and Sales where he helped craft and execute GTM strategy. Before Anaplan, Connor was running a small IT Consulting company and worked in the United States Senate. Connor and his wife love challenging, outdoorsy activities like scuba diving, hiking, and long-distance running, biking, and swimming. The fastest way to my heart is through the Denver Nuggets.
 
-brady_garrett:
-  name: Brady Garrett
-  email: brady.garrett@sourcegraph.com
-  github: brady-garrett
-  pronouns: he/him
-  role: Senior Data Analyst
-  reports_to: business_operations_manager
-  location: Queen Creek, AZ, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/bradygarrett11/)'
-  description: Brady lives in Queen Creek, AZ which is about 45 minutes Southeast of Phoenix with his wife, three kids, and dog. Before joining Sourcegraph, he worked as a Sr. Product Analyst for Pluralsight where he was able to drive changes in creating self service data enviroments, lead A/B Testing, and provide valuable insights into product growth strategies. When not working, Brady can be found enjoying the outdoors with his family, skateboarding, snowboarding, surfing, and hiking.
-
 michael_lin:
   name: Michael Lin
   pronouns: he/him
@@ -2143,17 +2132,6 @@ tracey_johnson:
   location: Fort Worth, TX 🤠
   links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
   description: Tracey is a Brand Designer and parent of 3. They're passionate about brand consistency and empathetic design. They spend their freetime doing puzzles, knitting, playing video games, and brunching!
-
-yoway_buorn:
-  name: Yoway Buorn
-  pronouns: he/him
-  role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
-  location: İstanbul, Türkiye 🇹🇷🇸
-  github: yowayb
-  email: yoway.buorn@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/%E2%9C%A8-yoway-%E2%9C%A8-buorn-%E2%9C%A8-5038b221b/)'
-  description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
 
 Nicky_Comber:
   name: Nicole Comber

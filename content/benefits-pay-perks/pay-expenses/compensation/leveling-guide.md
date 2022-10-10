@@ -1,30 +1,58 @@
-# Introduction to job levels at Sourcegraph
+# Job levels at Sourcegraph
 
-## What are roles, levels, leveling guides, and career development frameworks? Why are they important?
+## Job levels explained
 
-All teammates are assigned a **role** (e.g. “Software Engineer”, “Product Manager”, “Account Executive”) and **level** (e.g. IC1, IC2, IC3). **Role** defines what you do, and **level** defines the expectations, competencies, and abilities as you progress within that role.
+Job levels and compensation bands are the building blocks of strong compensation strategy. Together, they help ensure pay equity, improve recruiting and retention efforts, and help us build a more transparent company culture.
 
-The **Sourcegraph leveling guide** is a tool to help us define expectations, competencies, and abilities for each level in a general sense, across all of Sourcegraph. This guide is used as a reference when building our **career development frameworks** to ensure that expectations for each level are consistent across roles. The Sourcegraph leveling guide is built to scale and therefore will remain fairly consistent over time.
+Job levels, also known as job grades and classifications, help us define the responsibility level and expectations of each role. Each level is defined by impact, seniority, knowledge, skills, and job title, and are associated with a specific pay band. Job levels ultimately help us make more strategic and consistent decisions around how we hire, engage, promote, and retain Teammates.
 
-**Career development frameworks** are _role specific_ extensions of the Sourcegraph leveling guide to help you understand the expectations of your role and provide a common language for you and your manager to discuss and plan your career growth. These frameworks will continue to evolve over time and should not be viewed as an exhaustive list of requirements - rather a basis from which enriching performance and development discussions evolve.
+### How do we use levels?
+
+Levels are used to define career progression for individuals within a role, and are also a tool we use when benchmarking roles against salary survey data. This is how we price jobs and ensure market competitive compensation. We also use levels to discuss career progression and development. For example, we generally expect that an IC4 in one department has about the same level of responsibility and scope as an IC4 in another, in a general sense.
+
+### What levels do we use?
+
+We divide all job families into two tracks:
+
+- Individual Contributors
+  - The Individual track goes from IC1 to IC6
+- Managers
+  - The Manager track goes from M3 to M6
+
+IC & Manager tracks **do not** directly map to each other (in other words, an IC6 is not equvalent to a M6).
+
+![Teammate level progression](https://storage.googleapis.com/sourcegraph-assets/teammate-level-progression.png)
+
+## Your level
+
+All teammates are assigned a **role** (e.g. “Software Engineer,” “Product Manager,” “Account Executive”) and **level** (e.g. IC1, IC2, IC3).
+
+- The **Role** defines what you _do_
+- **level** defines the expectations, competencies, abilities, and compensation as you progress within that role
+
+### How to see your role
+
+You can see your role title in the "job" tab of your profile in Bamboo
+
+### How to see your level
+
+You can see your level in the "job" tab of your profile in Bamboo (this is effective 2022-10-24). You can see corresponding compensation ranges to all levels in our pay transparency tool, Assemble.
+
+### How we determine your level
+
+When an new role is opened, a level is assigned to that role. We hire for specific levels based on business need, and evaluate candidates according to the role/level being hired. [Career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) help further define what role-specific knowledge, skills, and abilities are required.
+
+For many roles, we’re rolling out [career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) for the first time. Managers are working closely with the People team, leadership, and their immediate management teams to craft these frameworks. As you progress in your career, your role will be evaluated against the framework and leveled accordingly.
+
+### How your level changes over time
+
+A Teammate's level can change as they progress in their career.
+
+Each Teammate can see their expected career path by referencing their role-respective [**Career development frameworks**](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). These frameworks will continue to evolve over time and should not be viewed as an exhaustive list of requirements - rather a basis from which enriching performance and development discussions evolve.
 
 Our leveling guide and career development frameworks are the building blocks that drive career growth and development. They are used to bring consistency and transparency to expectations and promotion criteria/decisions across roles, levels, and teams.
 
-## How do we use levels at Sourcegraph?
-
-Levels are used to define career progression for individuals within a role, and are also a tool we use when benchmarking roles against salary survey data. This is how we price jobs and ensure market competitive compensation. We also use levels to discuss career progression and development. For example, we generally expect that an IC4 in one organization has about the same level of responsibility and scope as an IC4 in another, in a general sense.
-
-## What levels do we use at Sourcegraph?
-
-We divide all job families into two tracks: Individual Contributors and Managers. Each track has six levels, and tracks do not directly map to each other 1:1 (in other words, M6 is not equivalent to IC6).
-
-## How do we determine levels on our team?
-
-When an open role is posted, a level is assigned to that role. We hire for specific levels based on business need, and evaluate candidates according to the role/level being hired. Career development frameworks help further define what role-specific knowledge, skills, and abilities are required.
-
-For many roles, we’re rolling out career development frameworks for the first time. Managers are working closely with the People team, leadership, and their immediate management teams to craft these frameworks. Your role will be evaluated against the framework and leveled accordingly.
-
-## How does leveling impact compensation?
+## How leveling impacts compensation
 
 Every role and level combination corresponds to a **pay band** that informs compensation.
 
@@ -32,7 +60,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 - We’ve aligned our levels to match levels in our compensation survey tool, Radford. This allows us to quickly “match” jobs to salary survey data and pull up-to-date market pay rate information. We began using Radford in 2022-04 and it is considered the best-of-the-best compensation and leveling tool that most [high-growth SaaS companies](https://radford.aon.com/products/surveys/technology-compensation-survey#s2) use, as well.
 - We regularly re-evaluate our pay bands to ensure market competitiveness. Our [handbook page on compensation](index.md) describes this process in greater detail.
 
-## Can you receive a compensation raise without changing levels?
+### Can you receive a compensation raise without changing levels?
 
 - Yes, there are numerous ways to build skills and experience, which will ultimately lead you to making progress within a level’s dimensions. We complete a biannual talent review and compensation calibration, which includes reviewing and rewarding growth in level.
 - We also benchmark our roles every 6 months to ensure we are keeping up with the market, and will make market adjustments as necessary when our bands are updated.
@@ -41,8 +69,6 @@ Every role and level combination corresponds to a **pay band** that informs comp
 
 - Promotions from one level to the next are considered in our biannual Talent Review process. Individuals striving toward, and meeting the expectations of, the next level are considered for promotion.
 - To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through the promotion process to solidify the change.
-
-![Teammate level progression](https://storage.googleapis.com/sourcegraph-assets/teammate-level-progression.png)
 
 ## How can I view my level?
 
