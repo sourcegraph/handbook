@@ -13,7 +13,7 @@
 
 - [Internal Assemble use](assemble.md)
 - [Internal BambooHR use](bamboohr.md)
-- [Internal Compliance](compliance.md)
+- [Internal Compliance](internal-compliance.md)
 - [Internal Continu use](continu.md)
 - [Internal Convercent use](convercent.md)
 - [Internal Human Interest use](humaninterest.md)
