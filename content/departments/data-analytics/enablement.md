@@ -10,7 +10,6 @@
 
 Onboarding to Amplitude - Placeholder to create a page for this
 
-
 # **Support Model**
 
 Supporting a **Self-Service** framework for BI and Analytics is imperative to being a data driven organization.
@@ -42,5 +41,3 @@ In our Self-Service framework, we need to accommodate multiple personas because 
   _ I want to perform ad hoc analysis
   _ I want to query the DWH to understand and analyze data quickly
   _ I want to automate analysis
-
-
