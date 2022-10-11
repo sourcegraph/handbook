@@ -2,7 +2,8 @@
 
 ### FAQs
 
-[User-level data](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3)
+[General FAQ](faq.md)
+[User-level data FAQ](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3)
 
 #### Which data tool should I use for instance data?
 
@@ -35,6 +36,7 @@ We also load data to the BigQuery from:
 - ZoomInfo: Data enrichment of account and contact information
 - Sourcegraph.com Site-admin pages: customer subscriptions and license keys
 - Sourcegraph production database: we query a few particular tables from the production database via terraform to access data for Sourcegraph cloud.
+- Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1LIfVyhjhh_mpc0SNOFvpNfN2h4CmGQmI) that Looker queries (by way of BigQuery).
 - Zendesk: support ticketing
 - BambooHR: employee HR system (in progress)
 - CaptivateIQ: sales quotas (in progress)
