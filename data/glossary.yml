@@ -73,6 +73,8 @@ technical:
     definition: Lines of code
   - term: LOE
     definition: Level of effort
+  - term: FSM
+    definition: Finite-state machine. An abstract machine that can be in exactly one of a finite number of states at any given time. See https://en.wikipedia.org/wiki/Finite-state_machine
 
 business:
   - term: CAC
