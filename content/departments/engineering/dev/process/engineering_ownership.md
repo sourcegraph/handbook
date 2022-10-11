@@ -167,8 +167,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Backend testing standards, libraries, and infrastructure
 - Packaging infrastructure
 - SOC2 compliance around the software development lifecycle, testing, and CI
-- Production support and on-call of DotCom environment
 - GCP cost savings
+- Production support and on-call of DotCom environment
 - Observability tooling for DotCom environment
 - Dogfood/Pre-prod and other test environments
 - Code host QA instances
@@ -378,4 +378,4 @@ OWNERS files and CODENOTIFY files use the same syntax, and notifications for bot
 - It is preferred to list a team (e.g., @sourcegraph/frontend-platform) rather than individuals.
 - If there is an individual with expertise in a given part of the code, who is not on the owning team (e.g., Thorsten Ball with sg), that person should be listed in OWNERS.
 
-For questions about our use of owners files, please reach out on [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU).
+For questions about our use of owners files, please reach out on #dev-experience.

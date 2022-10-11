@@ -4,6 +4,10 @@
 
 The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed) and building the next generation of them. The Cloud team has no other responsibilities.
 
+## Members
+
+{{generator:product_team.cloud}}
+
 ## Mission statement
 
 Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) support 200+ customers** using **dedicated** Sourcegraph instances, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
@@ -91,6 +95,10 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 - Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
 - Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. _(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)_
 
+## Trial Managed Instances (aka PoC)
+
+[Documentation](./trial_mi.md)
+
 ## Managed Instance Requests
 
 Customer Engineers (CE) or Sales may request to:
@@ -102,6 +110,10 @@ Customer Engineers (CE) or Sales may request to:
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
 - **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+- **Extend trial Managed Instance issue** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fextend-trial-request&template=managed-instance-extend-trial.md&title=Managed+Instance+Trial+Extend+for+%5BCUSTOMER+NAME%5D)]
+  - For prospects who needs to extend the trial.
+- **Convert Trial Managed Instance to paid issue** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fextend-trial-request&template=managed-instance-convert-trial-to-paid.md&title=Convert+Trial+Managed+Instance+to+Paid+for+%5BCUSTOMER+NAME%5D)]
+  - For prospects who sign the deal after trial expires.
 - **Enable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
 - **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
@@ -124,14 +136,17 @@ Customer Engineers (CE) or Sales may request to:
 
 Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
 
-|                                               | Description                                            | Response time                                 | Resolution time                               |
-| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement          |
-| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
-| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
-| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                      |
-| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
-| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
+> SLA for internal requests may be extended during upstream service providers outage. For example, automated trial instance creation workflow relies on GitHub Actions and GitHub is down.
+
+|                                               | Description                                            | Response time                                                                                                                     | Resolution time                                                                                                                   |
+| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need                                                                                     | Within 7 working days from agreement                                                                                              |
+| New Trial instance Creation                   | Spin up new trial instance for a new customer          | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours |
+| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
+| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need                                                                                     | Dependent on the request                                                                                                          |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
 
 ## Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
@@ -159,6 +174,8 @@ Incidents which affect managed instances are handled according to our [incidents
 More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
 ## How we work
+
+### [Cloud launch process](launch-process.md)
 
 ### Issue tracking
 
@@ -252,9 +269,9 @@ mg --help
 
 The password reset link expires after 24h, so it's quite common that CE would have to generate a new link during the initial hand-off process.
 
-If the customer instance is a private instance (e.g. access is restricted to customer VPN only), please reach out to #cloud for assistance.
+If access to the instance is restricted, either via VPN or CIDR whitelist, please reach out to #cloud for assistance.
 
-For public instances, usually the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Management" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
+Otherwise, the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Employee" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
 
 **IMPORTANT**: Please do not share the password reset url directly with the customer admin over email or slack. [More context](https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1660037049746969).
 

@@ -31,6 +31,7 @@ Perform these steps three days before the release date to generate a stable rele
   ```sh
   yarn release release:status
   ```
+- [ ] Create a `Security release approval issue` and post a message in the [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) channel tagging @security-support.
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
@@ -43,9 +44,12 @@ Do the [branch cut](./index.md#release-branches) for the release:
 - [ ] Manually review the pull requests created in the previous step and merge.
 
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
+
   ```sh
   yarn release release:branch-cut
   ```
+
+- [ ] To support the multi-version upgrade utility, update [this constant](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40main+file:upgradedata+const+maxVersionString&patternType=lucky) to `$MAJOR.$MINOR.0` on the `main` branch, then cherry-pick this change into the `$MAJOR.$MINOR` branch. Bumping this version will require the `$MAJOR.$MINOR` branch to exist, and `go generate` will need to be invoked.
 
 Upon branch cut, create and test release candidates:
 

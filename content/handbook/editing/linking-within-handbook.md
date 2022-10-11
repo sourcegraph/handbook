@@ -21,6 +21,6 @@ I am on the [Code of conduct](../../company-info-and-process/communication/code_
 - I add **#sourcegraph-open-product-open-company-open-source** using a **#** to indicate the specific section on the page to link to.
 
 **Why do we do this?**
-While it is possible to use absolute URLs (ones that include the domain e.g. https://handbook.sourcegraph.com) to link to pages, if the domain changes, it is more difficult to update the URLs compared to using relative URLs.
+While it is possible to use absolute URLs (ones that include the domain e.g. https://handbook.sourcegraph.com) to link to pages, it makes the handbook not navigatable and self-contained when navigating a different version of the handbook on GitHub or locally.
 
 _Remember that if the .md file name changes or the directory changes (because you’ve moved the file to another team’s page, for example) you will need to update the path._

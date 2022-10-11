@@ -111,4 +111,4 @@ Steps:
 ### Add status message to slack for public visibility for the org + history.
 
 1. Create a PR w/ updates for the `client/browser/Changelog.md`. See [example commit](https://github.com/sourcegraph/sourcegraph/commit/2683fae5671de24b2f8dda3504dac40904f9f913)
-1. Add a message to [#growth-and-integrations](https://sourcegraph.slack.com/archives/C01LZKLRF0C) slack channel, with updates in a thread on release updates. See [example message](https://sourcegraph.slack.com/archives/C01LZKLRF0C/p1637851520182400)
+1. Add a message to #growth-and-integrations slack channel, with updates in a thread on release updates. See [example message](https://sourcegraph.slack.com/archives/C01LZKLRF0C/p1637851520182400)

@@ -364,6 +364,22 @@ A broken repo can be identified by
 - `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
 - `git prune` and `git fetch` operations failing when run inside gitserver on the repo directly
 
+> Also possible to fix this by calling a specific API endpoint mutation:
+
+```graphql
+query {
+  repository(name: "github.com/sourcegraph/sourcegraph") {
+    id
+  }
+}
+
+mutation {
+  recloneRepository(repo: "id-from-query-above") {
+    id
+  }
+}
+```
+
 Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
 
 1. Set up env vars

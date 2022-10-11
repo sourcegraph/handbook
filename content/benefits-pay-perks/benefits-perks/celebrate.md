@@ -41,7 +41,7 @@ We love celebrating work anniversaries! Each manager is responsible for celebrat
 
 ### Best practices for celebrating a work anniversary
 
-- The manager posts a written or video message in the `#thanks` channel
+- The manager posts a written or video message in the #thanks channel
 - Post suggestions:
   - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
   - Highlight the teammates' key contributions and impact they've made
@@ -72,7 +72,7 @@ Other personal milestones such as marriage, baby announcement, and so forth, can
 
 Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International).
 
-Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in `#ask-people-team` slack channel and a current Loop & Tie admin (Kemper or Fabiana) will invite you to create an account.
+Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in #ask-people-team slack channel and a current Loop & Tie admin (Kemper or Fabiana) will invite you to create an account.
 
 Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
 
@@ -100,7 +100,7 @@ If you don't want to use Loop & Tie, here are some other gift ideas!
 
 **Custom internal requests:**
 
-- There are times that teammates will want to order _custom Sourcegraph swag_ for other occasions, such as a team trip or team accomplishment. Read about [Ordering additional swag](../../departments/people-talent/swag.md#ordering-additional-swag). If you have any questions, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com.
+- There are times that teammates will want to order _custom Sourcegraph swag_ for other occasions, such as a team trip or team accomplishment. Read about [Ordering additional swag](../../departments/people-talent/swag.md#ordering-additional-swag). If you have any questions, please reach out to the People Team in #ask-people-team in Slack or people-ops@sourcegraph.com.
 
 **External requests:**
 
@@ -112,4 +112,4 @@ If you require a teammate's address to send a gift, please ask the teammate dire
 
 _Happy celebrating!_
 
-For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel in Slack.
+For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the #ask-people-team channel in Slack.

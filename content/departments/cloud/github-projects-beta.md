@@ -43,7 +43,7 @@ Every task that the Cloud team is working on should have a GH issue. This will a
 
 **All requests for help should have an issue assigned.**
 
-While we can answer questions from other teams on [#cloud](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel, if the question turns out to be an actual request for performing an action and the _common-sense rule_ from above does not apply, we should ask the requestor for a GH issue.
+While we can answer questions from other teams on #cloud slack channel, if the question turns out to be an actual request for performing an action and the _common-sense rule_ from above does not apply, we should ask the requestor for a GH issue.
 
 ## Cloud team Github project custom fields
 

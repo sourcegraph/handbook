@@ -784,15 +784,15 @@ We describe ourselves with a few different names depending on context, and we sh
 
 - **Sourcegraph**: Main product. This name is always preferred unless you need to clarify between the 3 deployment methods for Sourcegraph below.
 - **Sourcegraph self-hosted**: On-premises and self-managed version of Sourcegraph.
-- **Sourcegraph Cloud**: This is the cloud instance of Sourcegraph at [sourcegraph.com](https://sourcegraph.com), used both for open source search as well as individual accounts for connecting public or private code.
-- **Managed Sourcegraph instance**: Private Sourcegraph instances managed and provisioned by the Sourcegraph team.
+- **Sourcegraph Cloud** Dedicated, single-tenant Sourcegraph instances managed and provisioned by the Sourcegraph team. This was previously referred to as "managed instances."
+- **Sourcegraph.com / "dotcom"**: This is the service publicly available at [sourcegraph.com](https://sourcegraph.com). It can be used to search top open source repositories.
+- **Sourcegraph OSS**: When referring to the build result of the open source repository.
 - **Sourcegraph integrations**: The general term for our integrations. When referencing specific integrations:
   - Sourcegraph(’s) Phabricator integration
   - Sourcegraph(’s) GitHub integration
   - Sourcegraph(’s) browser extensions
   - Sourcegraph(’s) Chrome extension
   - Sourcegraph(’s) Firefox add-on
-- **Sourcegraph OSS**: When referring to the build result of the open source repository.
 - **Code intelligence platform**: Use when referring to our category or our entire suite of products and features.
 
 You don't need to use the full name of the product each time you refer to it, but don't use a shortened name that could be confused with an official name.
@@ -844,7 +844,6 @@ List of product names:
 
 - Batch Changes
 - Code Insights
-- Code Intelligence
 - Code Search
 
 We do not capitalize our category name (code intelligence platform) or platform positioning.
@@ -861,6 +860,7 @@ We do not capitalize our category name (code intelligence platform) or platform 
 - To create a batch change...
 - You can create batch changes for various purposes, such as upgrading dependencies across...
 - Sourcegraph is a code intelligence platform that enables you to understand, fix, and automate across your entire codebase.
+- You can get started with Sourcegraph Cloud today.
 
 </div>
 <div class="item no">
@@ -869,7 +869,6 @@ We do not capitalize our category name (code intelligence platform) or platform 
 
 - Use Sourcegraph universal code search to...
 - With code insights you can...
-- Here’s how to use code intelligence.
 - Here’s how to use code search.
 - Our Code Intelligence Platform enables you to understand, fix, and automate across your entire codebase.
 
@@ -961,6 +960,33 @@ When talking about Sourcegraph Cloud, we should:
 
 - Request access to Sourcegraph Cloud today.
 - Best of all, we maintain Sourcegraph Cloud for you.
+
+</div>
+</div>
+
+Be careful to only capitalize the word "Cloud" in certain situations:
+
+- Capitalize "Cloud" when referring directly to the product as a proper noun.
+- Capitalize "Cloud" when using it as shorthand that refers directly to the product. In this case, it should still be treated as a proper noun. Using "Cloud" as shorthand should only be done to avoid the repitition of saying "Sourcegraph Cloud" repeatedly.
+- Do not capitalize "cloud" when referring to it as a common noun or when referring to general cloud technology.
+
+<div class="usage">
+<div class="item yes">
+
+##### Yes
+
+- We recommend you use Sourcegraph Cloud. With Cloud, you can use X, Y, and Z features.
+- Cloud, our newest offering, features X Y Z benefits.
+- You can now run Sourcegraph on the cloud.
+
+</div>
+<div class="item no">
+
+##### No
+
+- Sourcegraph cloud is our newest product.
+- You can run Sourcegraph on the Cloud.
+- This version of Sourcegraph is Cloud-based.
 
 </div>
 </div>

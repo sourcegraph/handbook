@@ -67,6 +67,8 @@ Our current process is as follows:
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
 
+- When an iteration is finished, the `Current iteration`, `Next iteration` and `Next-next iteration` views should be updated in the [Code Insights project](https://github.com/orgs/sourcegraph/projects/200/views/1) and the associated milestone should be closed from the [milestones page](https://github.com/sourcegraph/sourcegraph/milestones).
+
 ## Design planning and process
 
 In addition to the above iteration planning process, we maintain a parallel design planning process as follows using our [design project board](https://github.com/orgs/sourcegraph/projects/200/views/12):
@@ -154,6 +156,7 @@ Larger (usually multi-iteration) projects coming from our roadmap go through thr
 3. **Implementation and testing** (usually 1–4 weeks)<br>
    Engineers execute on the implementation plan, putting a set of issues from the project into each iteration.
    This also includes that each sub-implementation-task is sufficiently tested, meaning by the end of this phase the project is ready to ship to customers with confidence.
+   When we are in testing phases, we prefer to make small issues for each problem discovered, and err on the side of too many testing issues (with duplicates, which are easy to close) rather than not filing something because we are worried about duplicates.
 
 We sequentialize and parallelize projects in a way that we can _plan_ projects (step 1 and 2) while another project is currently being _implemented_, so that we always have the next project ready to be implemented by the time a project has finished implementation.
 We will however make sure to never have multiple projects in planning phase at the same time, as this leads to cognitive overload while also delivering on an implementation for another projects.

@@ -21,20 +21,21 @@ For more detailed information on the Delivery team members, check out our [READM
   - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
+- [Org-wide areas of ownership](../../dev/process/engineering_ownership.md#delivery-and-delivery-tiger-team)
 - ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../dev/process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact
 
-- [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, or `@delivery-support` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
+- #delivery channel, or `@delivery-support` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
 - [team/delivery](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdelivery) label and [@sourcegraph/delivery](https://github.com/orgs/sourcegraph/teams/delivery) team on GitHub.
 
 ## Support
 
-If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). Delivery teammates shold consult our [support-rotation](./processes.md#support-rotation) guide to handle inquiries.
+If in doubt about the process, please ask in #delivery. Delivery teammates shold consult our [support-rotation](./processes.md#support-rotation) guide to handle inquiries.
 
 ### Requesting our support
 
-Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack. As a rule of thumb, anything that is not documented in our handbook or [docsite](https://docs.sourcegraph.com/) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
+Feel free to direct simple questions to us in #delivery in Slack. As a rule of thumb, anything that is not documented in our handbook or [docsite](https://docs.sourcegraph.com/) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
 
 - This channel _is_ regularly checked and well-monitored
 - So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
@@ -42,7 +43,7 @@ Feel free to direct simple questions to us in [#delivery](https://sourcegraph.sl
 
 ### Support request guidelines
 
-Support requests related to our [areas of ownership](index.md#responsibilities) should follow this process:
+Support requests related to our [areas of ownership](./#responsibilities) should follow this process:
 
 1. Make sure there is an issue—if there's not, please create one and include:
    - A short description of the ask
@@ -53,8 +54,8 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 3. Ensure that the issue is added to the "[Delivery](https://github.com/orgs/sourcegraph/projects/205)" board in GitHub
 4. Anything without a status is checked and triaged weekly - so this is enough for feature requests or less urgent issues
 5. If you think this needs eyes 👀 sooner
-   - Within a few hours ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
-   - ASAP ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@delivery-support`
+   - Within a few hours ➡️ message in #delivery
+   - ASAP ➡️ message in #delivery and CC `@delivery-support`
 
 <!-- ## Growth plan
 

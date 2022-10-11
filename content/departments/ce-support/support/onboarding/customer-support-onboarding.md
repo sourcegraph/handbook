@@ -50,5 +50,5 @@ As you go through onboarding, take your time. The first few weeks are all about 
 ## Notes for onboarding mentors
 
 - Be available to answer questions
-- If you are anything less than 100% sure of your answer to a non-technical question, tell our new teammate to also talk to Brielle or Nonso
+- If you are anything less than 100% sure of your answer to a non-technical question, tell our new teammate to also talk to Aimee
 - It's up to you how you want to structure the shadowing to happen in week 3 for our new teammate you are paired with

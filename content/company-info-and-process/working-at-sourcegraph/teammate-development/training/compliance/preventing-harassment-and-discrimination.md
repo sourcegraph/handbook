@@ -40,7 +40,7 @@ IC-specific training will take an estimated 60-120 minutes.
 
 We suggest you schedule a dedicated time to complete the training. Each course is broken into modules, so if you need to step away while completing a course, you’ll be able to pick up where you left off.
 
-If you’ve been assigned the wrong training based on your role, reach out to [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A).
+If you’ve been assigned the wrong training based on your role, reach out to #ask-people-team.
 
 ### Can I complete the training more quickly than the allotted time?
 
@@ -69,7 +69,7 @@ In the US, certain states require specific training when it comes to Preventing 
 - Maine
 - New York
 
-Our U.S. teammates who are not located in one of these states receives the General Preventing Harassment and Discrimination training, which references U.S. federal law. If you’ve been assigned the wrong training based on your location, reach out to [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A).
+Our U.S. teammates who are not located in one of these states receives the General Preventing Harassment and Discrimination training, which references U.S. federal law. If you’ve been assigned the wrong training based on your location, reach out to #ask-people-team.
 
 ### Pre/Post Training Survey
 

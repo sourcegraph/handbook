@@ -1,6 +1,6 @@
 # CEO
 
-I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../../handbook/index.md) this page).
+I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to memorize this page).
 
 My personal site is [slack.org](https://slack.org).
 
@@ -11,6 +11,8 @@ See [Roles of the CEO](roles.md).
 ## Communication
 
 ### Scheduling time with me
+
+Contact [Sally Voisen (Executive Business Partner)](../executive-business-partners.md) to schedule time with me.
 
 If possible, let's talk [asynchronously and publicly](../../company-info-and-process/communication/index.md).
 
@@ -27,15 +29,19 @@ This is to avoid me jumping in and making low-level wording fixes when you're lo
 
 If the document to be reviewed isn't private, please post the review request with the context above [publicly](../../company-info-and-process/communication/index.md). Other people involved may have relevant context of their own to share.
 
+If you want me to publish it under my name, try to follow my [writing style](https://docs.google.com/document/d/1Q7FS1O7a3K_kVvLPuAxLXmVMraXYBFRRzN0_eOscO8M/edit).
+
 ### Asking me to send an email
 
-If you want me to send an email with a specific message to someone else (e.g., a customer), you should send me an email with:
+If you want me to send an email with a specific message to someone else (e.g., a customer), you should send an email or Slack message to me and [Sally Voisen (Executive Business Partner)](../executive-business-partners.md). with:
 
 - Instructions, such as "Please email this, bcc me on the outgoing email, forward me any responses, and cc me on further emails."
 - Recipient name(s) and email address(es)
 - Email subject
 - Email body (text, no HTML)
   - Omit any niceties like "Hello" and "Sincerely". I will add those myself.
+
+Try to follow my [writing style](https://docs.google.com/document/d/1Q7FS1O7a3K_kVvLPuAxLXmVMraXYBFRRzN0_eOscO8M/edit) when drafting something for me to send.
 
 ### Interviews with me
 
@@ -44,7 +50,7 @@ If you're interviewing with me for a role on the Sourcegraph team that doesn't d
 - Make you feel confident that Sourcegraph is an awesome company for you to join
   - I don't want candidates to join Sourcegraph just because they got "convinced by the CEO". We want a hiring process that makes it easy for people to determine if Sourcegraph is an awesome company for them. That's a big reason why we decided to be transparent. So, I don't view this as a "hard sell", but rather a 2-way discussion.
 - Understand if you will be successful in the role
-- Demonstrate our values and culture and ensure you will help uphold these things
+- Demonstrate our values and ensure you will help uphold our values
 
 How the interview will usually go:
 
@@ -58,6 +64,11 @@ How the interview will usually go:
      - Most candidates do have thoughtful questions. If you are nervous because you aren't sure what to ask, then just ask to discuss topics that you care about, even if they aren't questions per se. I do want to see you engaging in the interview and don't want it to be 1-way.
 1. I often ask:
    - What's a big important thing you did that made a lot of money for your company or helped a lot of users/customers, that wouldn't have happened if not for you?
+   - What is your experience with Sourcegraph as a product?
+   - Why are you interested in Sourcegraph?
+   - How many other people at your company are in your role?
+   - What kind of work given to people in your role would people at your company think you would be the absolute best for, out of all N people in your role? Worst?
+   - If we move forward and were to give you an offer, how would you make the decision?
 
 #### Questions about Sourcegraph
 
