@@ -78,7 +78,7 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 #### Customer Engineering team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16-m1-pro-10c16c-32gb-ram-1tb-ssd-space-gray/6740546)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Product & Design team laptops:
