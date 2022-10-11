@@ -444,7 +444,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Principal Customer Engineer
-  reports_to: senior_manager_customer_engineering_east
+  reports_to: vp_customer_engineering
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -705,7 +705,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_east
+  reports_to: vp_customer_engineering
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -1062,7 +1062,7 @@ bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_east
+  reports_to: vp_customer_engineering
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
   email: bill.caplan@sourcegraph.com
@@ -1097,7 +1097,7 @@ max_wiederholt:
   name: Max Wiederholt
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: senior_manager_customer_engineering_east
+  reports_to: vp_customer_engineering
   location: Mountain View, CA, USA 🇺🇸
   github: maaaaaaaax
   email: max.wiederholt@sourcegraph.com
@@ -1176,7 +1176,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_customer_engineering_emea
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -1327,7 +1327,7 @@ nancy_shah:
   name: Nancy Shah
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_east
+  reports_to: vp_customer_engineering
   location: Oakton, VA, United States 🇺🇸
   github: nancy4dev
   email: nancy@sourcegraph.com
@@ -1369,7 +1369,7 @@ simon_waterer:
   name: Simon Waterer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_customer_engineering_emea
   location: London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   github: simoncwaterer
   email: simon.waterer@sourcegraph.com
@@ -1487,7 +1487,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_east
+  reports_to: vp_customer_engineering
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -1936,16 +1936,6 @@ justin dorfman:
   email: justin.dorfman@sourcegraph.com
   links: '[Twitter](https://twitter.com/jdorfman), [LinkTree](https://linktr.ee/jdorfman)'
   description: Justin is responsible for fostering the adoption of universal code search in the open source community. Previously, he led similar initiatives for Curifense (a CNCF project), Gitcoin, & MaxCDN. He has contributed to Bootstrap, Font Awesome, jQuery, Nginx, GNU Bash, and many more. He also serves on the Open Source Collective board of directors. In 2017, he co-founded SustainOSS, which hosts events and podcasts for Open Source Software Sustainers.
-
-andy_price:
-  name: Andy Price
-  email: andy.price@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/andy-price-169427aa/)'
-  pronouns: he/him
-  role: Senior Manager, Enterprise - US East and US Commercial
-  manager_role_slug: senior_manager_customer_engineering_east
-  reports_to: vp_customer_engineering
-  location: Arlington, VA, USA 🇺🇸
 
 leo_papaloizos:
   name: Leo Papaloizos
