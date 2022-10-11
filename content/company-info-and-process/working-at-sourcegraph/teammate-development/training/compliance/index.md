@@ -71,3 +71,8 @@ All ICs promoted to managers have to take the Preventing Harassment and Discrimi
 
 - All teammates promoted between January and June do the training in June (normal cadence)
 - All teammates promoted between June and January do the training in January - _This does not apply to international teammates as they do not have a manager specific training._
+
+
+
+**People team resources**
+You can read more about compliance training in our [Internal Compliance page](../../../../../departments/people-talent/people-ops/tools/internal-compliance.md).
