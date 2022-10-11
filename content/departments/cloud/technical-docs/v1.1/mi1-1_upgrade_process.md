@@ -86,7 +86,7 @@ If the upgrade succeed, followed the instruction in the generated PR, follow the
 
 Finally, update the tracking issue
 
-If the upgrade fail, follow the logs and restore the instance.
+If the upgrade fail, follow the logs and figure out which step went wrong, then follow the [manual upgrade](#manual-upgrade) to finish the upgrade.
 
 #### Manual Upgrade (deprecated)
 
