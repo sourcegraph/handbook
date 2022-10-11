@@ -1,6 +1,6 @@
 # Technical Advisors (TAs)
 
-*Note: this team is being actively formed, and will consist of 7-8 TAs that will expand over time.*
+_Note: this team is being actively formed, and will consist of 7-8 TAs that will expand over time._
 
 ## Who we are
 
