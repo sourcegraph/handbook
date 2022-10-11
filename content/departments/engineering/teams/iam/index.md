@@ -46,8 +46,6 @@ For a detailed list of features and services owned by the IAM team, check out th
 
 {{generator:product_team.iam}}
 
-We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
-
 ## Partner Teams
 
 The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
