@@ -1,6 +1,6 @@
 # Customer Engineering
 
-Customer Engineering at Sourcegraph is responsible for the technical success of our customers. To-date the CE organization has been comprised of one functional team that spans both pre- and post-sales - serving as pre-sales engineers, technical implementation engineers, and technical success managers. 
+Customer Engineering at Sourcegraph is responsible for the technical success of our customers. To-date the CE organization has been comprised of one functional team that spans both pre- and post-sales - serving as pre-sales engineers, technical implementation engineers, and technical success managers.
 
 Throughout Q3 FY23 and into Q4 FY23, the CE organization is launching separate, discrete functional teams that will specialize in each of these key areas in the customers' journey:
 
