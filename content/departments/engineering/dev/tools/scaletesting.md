@@ -152,8 +152,8 @@ sg client codehost add-github \
 
 #### Organization with 10k repositories with write access
 
-See https://ghe.sgdev.org/scaletesting-10k-repos which is a replica of https://github.com/londonappbrewery on our GitHub instance.
-They are owned by the admin user, who can write on those repos.
+See https://ghe.sgdev.org/testing which is a replica of https://github.com/londonappbrewery on our GitHub instance.
+They are owned by the `testing` user, who can write on those repos.
 
 #### Large binary files
 
