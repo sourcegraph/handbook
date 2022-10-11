@@ -30,7 +30,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Sales and Ops
    </td>
-   <td>Gregg Bastis, Ajay Uppaluri
+   <td>Greg Bastis, Ajay Uppaluri
    </td>
    <td>Kelsey Brown
    </td>

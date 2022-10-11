@@ -4,7 +4,7 @@
 
 - Sally Voisen (Mgr, Exec Support & Sr EBP) supporting Quinn Slack, CEO
 - Michal Sennett (EBP) supporting Carly Jones, VP People and Talent, and Beyang Liu, CTO
-- Amber Nocerino (EBP) supporting Gregg Stone, VP Sales, and Aimee Menne, VP Customer Engineering and Customer Support
+- Amber Nocerino (EBP) supporting Greg Bastis, VP Sales, and Aimee Menne, VP Customer Engineering and Customer Support
 
 Contact us on Slack [@executive-business-partners](https://sourcegraph.slack.com/admin/user_groups)
 
