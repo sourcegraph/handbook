@@ -37,7 +37,7 @@ The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/
 
 ### Step 2: exec approval
 
-The exec team must agree that this is a business-critical role before the Finance team can approve it for hire. This happens synchronously during exec team meetings, and a decision will be made at this meeting. Alternatively, the Hiring Manager can request this approval be completed async by the exec team. Finance or VP, People & Talent will alert Talent Team once it's approved or denied.
+The exec team must agree that this is a business-critical role before the Finance team can approve it for hire. This happens synchronously during exec team meetings, and a decision will be made at this meeting by the headcount committee. Alternatively, the Hiring Manager can request this approval be completed async by the exec team. The Hiring Manager will continue onto next steps if approved. The headcount committee will inform the requester that their request is denied.
 
 ### Step 3: create a job description & interview plan
 
@@ -87,7 +87,7 @@ The Recruiter opens the job in Greenhouse:
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage.
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding interview steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 - Enter in Radford code and confirm compensation in Assemble. You can read more on how to view our internal compensation bands [here](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands.md).
-  - **Note:** Our budget for all roles is the 75th percentile of market for the role.
+  - **Note:** Please put the top of band for the finance budget.
 
 ### Step 3: post the job
 
