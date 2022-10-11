@@ -61,7 +61,7 @@ For videos, keep these things in mind:
 To render an [Image](https://about.sourcegraph.com/blog/starter-pack#figure) or [Video](https://about.sourcegraph.com/blog/starter-pack#video), please use the `Figure` and `Video` component from the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack).
 Here is an example of rendering an image using the Figure component:
 
-```mdx
+```jsx
 <Figure
   src="https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png"
   alt="Alternative information or rendered when an image cannot be displayed"
@@ -69,8 +69,9 @@ Here is an example of rendering an image using the Figure component:
   link="https://www.sourcegraph.com/my/optional/link"
   linkIcon={true}
 />
+```
+
 The `alt` prop is automatically used for the `title` prop so all that's required is the alt prop. The title attribute specifies
 extra information about an element and is most often shown as a text tooltip when the mouse moves over the element. For more
 information on available props and documentation, see the [Blog Starter Pack](https://about.sourcegraph.com/blog/starter-pack)
 and the [Figure Component](https://about.sourcegraph.com/blog/starter-pack#figure).
-```
