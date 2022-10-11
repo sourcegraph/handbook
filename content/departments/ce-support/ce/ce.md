@@ -50,7 +50,6 @@ In the future, we intend to correlate usage with feature consumption based on cu
 
 Starting in Q4 FY23, Customer Engineers will be strictly pre-sales engineers. We'll serve as technical experts during the sales cycle, leading product demonstrations, technical solutioning, and trials for new prospects and new opportunities within existing customers.
 
-
 ## Team Reference Resources
 
 ### Team Culture & Norms
