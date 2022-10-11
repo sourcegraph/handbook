@@ -23,7 +23,7 @@ Partner with the organization to build scalable data solutions and insights to h
 | [Analyses/Projects](analyses-projects.md)            | [Engineering/Architecture](architecture.md) |
 | [Reports/Dashboards](reports.md)                     | Data Transformation                         |
 | [Stakeholder Management](stakeholder-mgmt.md)        | Maintenance                                 |
-| Support/Enablement                                   | [Tool Administration](tools.md)             |
+| [Support/Enablement](enablement.md)                                   | [Tool Administration](tools.md)             |
 | [Metric Definitions/Documentation](documentation.md) | Monitoring/Alerts                           |
 | [Testing/Experimentation](testing.md)                |                                             |
 
@@ -41,3 +41,23 @@ There is an analyst on support each week that will be answering questions and tr
 **How to know what we are working on:**
 
 Data and Analytics Project Board ([Here](https://github.com/orgs/sourcegraph/projects/246))
+
+# **Sprint Planning**
+
+We currently work in two week sprints that run from Monday to the following Friday. Requests that come in mid-sprint will be placed in the backlog and triaged at the next sprint planning meeting. If something is urgent, please let us know and we can prioritize as needed.
+
+For larger data, reporting, or analysis requests, the first action will be to plan a scoping exercise for the analyst or engineer in order to size the level of effort and determine where it sits in the overall priorities.
+
+General outline of our planning process:
+
+- Thursday before a new sprint: synchronous sprint planning. Plan out the sprint 2-4 weeks out, and review the upcoming sprint
+- First Monday of the sprint: send out a message to #analytics with the wins from the last sprint and the plan for the current sprint (and a link to 2-4 weeks out if anyone wants to look)
+- First Friday of sprint: post updates to the issues in the sprint with a status and do an async review of where we’re at, if we need to push anything out or pull anything in
+- Repeat
+
+Planning Principles:
+
+- OKR-driven
+- Mix of quick wins and long-term, proactive projects
+- Only choose projects where we have a clear picture of what the result looks like and the impact it will make; if these aren’t clear, we should block time to further scope them
+
