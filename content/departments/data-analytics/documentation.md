@@ -13,7 +13,7 @@ An overview of product-led growth and the analytics and tracking we have in plac
 
 # How to
 
-- Add metrics on [Sourcegraph Cloud](../tools/amplitude.md#adding-events-to-amplitude)?
+- Add metrics on [Sourcegraph Cloud](amplitude.md#adding-events-to-amplitude)?
 
 - Add metrics on [Sourcegraph on-prem](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)?
 
