@@ -60,7 +60,7 @@ Anniversary gifts should not exceed the following amounts per teammate and per y
 
 ## Celebrating a promotion:
 
-Promotions are a big deal! The People Team is working to develop a custom anniversary gift, but in the meantime, please follow the below guidance:
+Promotions are a big deal! The People Team is working to develop a custom promotion gift, but in the meantime, please follow the below guidance:
 
 - Each manager is responsible for celebrating their teammates’ promotions. We recommend:
   - Send a Slack in `#Teammate-annouce` and cross-post in `#thanks`
