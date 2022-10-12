@@ -1,14 +1,53 @@
 # **Enablement**
 
+### FAQs
+
+- [General FAQ](faq.md)
+- [User-level data FAQ](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3)
+
 #### Which data tool should I use for instance data?
 
 ![Data tool flowchart](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/data_workflow.png)
 
-## **Onboarding Resources**
+## Data sources
 
-[Onboarding to Looker (https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
+### Product data
 
-Onboarding to Amplitude - Placeholder to create a page for this
+We collect two different levels of product data. The type of data we collect depends how an instance is being hosted.
+
+- [Pings](https://docs.sourcegraph.com/admin/pings) we collect pings from Sourcegraph cloud, self-hosted, and managed Sourcegraph instances. These pings contain anonymous and aggregated information. There are [specific guidelines](https://docs.sourcegraph.com/dev/background-information/adding_ping_data) that must be followed for teams to add ping data.
+- [User-level data](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3): we collect anonymous, user-level, event stream data from Sourceraph cloud and Sourcegraph managed instances using our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). The event stream is data that is collected at the time the user does something in the product. That means, what did they do, when did they do it, what was the outcome.
+
+If you're interested in which kind of data you can see for a given customer, you check their telemetry status [here](https://sourcegraph.looker.com/looks/1366). The options are as follows:
+
+- No telemetry: This self-hosted customer has an airgapped instance, or has turned pings off. We don't have any data about this customer's product usage
+- [Critical pings: ](https://docs.sourcegraph.com/admin/pings#critical-telemetry)This self-hosted customer has elected to send us only the pings that are required for billing, support, updates, and security notices
+- Full pings: This self-hosted customer sends us all the aggregated, anonymoous data we outline [here](https://docs.sourcegraph.com/admin/pings#other-telemetry)
+- Full pings + user-level data: This managed instance customer sends us all the aggregated, anonymous data outlined in our [documentation](https://docs.sourcegraph.com/admin/pings#other-telemetry), in addition to anonymous, user-level, event stream data from our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts)
+
+### Other data sources
+
+We also load data to the BigQuery from:
+
+- Google Analytics: Website analytics for Sourcegraph pages (marketing,docs,sourcegraph.com)
+- Google Tag Manager: Tag management system to collect event data and execute custom scripts across marketing our sites (i.e. (about|info|docs).sourcegraph.com)
+- HubSpot: Marketing automation (forms and emails)
+- Salesforce: Customer Relationship Management system (CRM)
+- ZoomInfo: Data enrichment of account and contact information
+- Sourcegraph.com Site-admin pages: customer subscriptions and license keys
+- Sourcegraph production database: we query a few particular tables from the production database via terraform to access data for Sourcegraph cloud.
+- Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1LIfVyhjhh_mpc0SNOFvpNfN2h4CmGQmI) that Looker queries (by way of BigQuery).
+- Zendesk: support ticketing
+- BambooHR: employee HR system (in progress)
+- CaptivateIQ: sales quotas (in progress)
+
+## **Tool Specific Resources**
+
+[Onboarding to Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
+
+[Onboarding to Amplitude](amplitude.md)
+
+[Other Looker Resources](looker.md)
 
 # **Support Model**
 

@@ -105,7 +105,7 @@ Merge your changes via a pull request, and run the following from the base of th
 
 ### Scale the infrastructure down when not in use
 
-To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
+To ensure the cluster is not left running, set the `node_count` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
 
@@ -152,8 +152,8 @@ sg client codehost add-github \
 
 #### Organization with 10k repositories with write access
 
-See https://ghe.sgdev.org/scaletesting-10k-repos which is a replica of https://github.com/londonappbrewery on our GitHub instance.
-They are owned by the admin user, who can write on those repos.
+See https://ghe.sgdev.org/testing which is a replica of https://github.com/londonappbrewery on our GitHub instance.
+They are owned by the `testing` user, who can write on those repos.
 
 #### Large binary files
 
