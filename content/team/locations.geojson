@@ -869,16 +869,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Lily Schurra"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-75.21240234375, 40.68896903762434]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Miles Patton"
             },
             "geometry": {
