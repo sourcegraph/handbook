@@ -57,6 +57,6 @@ General outline of our planning process:
 
 Planning Principles:
 
-- OKR-driven
+- Aligned to company priorities
 - Mix of quick wins and long-term, proactive projects
 - Only choose projects where we have a clear picture of what the result looks like and the impact it will make; if these aren’t clear, we should block time to further scope them
