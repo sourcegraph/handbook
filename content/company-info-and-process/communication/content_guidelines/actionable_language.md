@@ -630,14 +630,15 @@ Avoid using simple 'learn more' that would be too broad for this case.
 
 ##### Yes
 
-- Backfilling some points on this series hit our timeout limits. Results may be incomplete. Learn how to <a href="#_" aria-disabled="true">troubleshoot</a>
+- Results may be incomplete. <a href="#_" aria-disabled="true">Troubleshoot</a>
+- Cannot connect. <a href="#_" aria-disabled="true">Repair connection</a>
 
 </div>
 <div class="item no">
 
 ##### No
 
-- Backfilling some points on this series hit our timeout limits. Results may be incomplete. <a href="#_" aria-disabled="true">Learn more</a>
+- Results may be incomplete. <a href="#_" aria-disabled="true">Learn more</a>
 
 </div>
 </div>
