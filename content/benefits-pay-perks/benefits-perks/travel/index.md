@@ -43,7 +43,7 @@ Travel budgets are not transferable between types and are based on our [fiscal c
 
 ### 1. Company-wide travel
 
-This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammate has one fully-paid trip (flights, lodging, food, transportation) to the chosen locations of company meet-ups each year.
+This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammates flights, lodging, food, and transportation will be fully paid for to the chosen location(s) of our company meet-ups each year.
 
 ### 2. Team travel
 

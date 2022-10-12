@@ -60,7 +60,15 @@ Anniversary gifts should not exceed the following amounts per teammate and per y
 
 ## Celebrating a promotion:
 
-COMING SOON
+Promotions are a big deal! The People Team is working to develop a custom promotion gift, but in the meantime, please follow the below guidance:
+
+- Each manager is responsible for celebrating their teammates’ promotions. We recommend:
+  - Send a Slack in `#Teammate-annouce` and cross-post in `#thanks`
+    - These posts should cover:
+      - What the promoted teammate has done to merit promotion
+      - How the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)
+      - What the teammate's new responsibilities and role will be
+  - [Send a gift](#how-to-send-a-gift) - we recommend $150
 
 ## Life milestones
 
