@@ -419,19 +419,6 @@
         {
             "type": "Feature",
             "properties": {
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "name": "Jake Sorensen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-118.36666, 34.15821]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Nick Gage"
             },
             "geometry": {
@@ -722,16 +709,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Rob Dapaah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-73.21268, 40.81813]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Petri-Johan Last"
             },
             "geometry": {
@@ -887,16 +864,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-121.9817805290222, 37.29520563333924]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Lily Schurra"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-75.21240234375, 40.68896903762434]
             }
         },
         {

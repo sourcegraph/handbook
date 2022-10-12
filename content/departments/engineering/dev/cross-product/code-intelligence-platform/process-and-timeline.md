@@ -1,12 +1,10 @@
 # Code Intelligence Platform strategy planning process and timeline
 
-Note that this won’t be the top priority of product nor design until after sept 27 ([Strategic-readiness](../strategic/index.md) work comes first).
-
 > Important tactical note: further specifics for each stage will be added on a rolling basis.
 
 <object data="process-roadmap-high-level.svg" width="835" height="327" aria-label="Diagram showing a single timeline, with the first section title from left to right being vision, the second strategy, and the third and roadmap. The text across all 3 sections reads as follows, from left to right: hypotheses, validation, definition, top level strategy, tactical strategy, team/feature roadmap."></object>
 
-## 🔄 Kick off by aligning on the “why” | Sep 14 – Sep 30 (2 weeks including Cancun)
+## ✅ Kick off by aligning on the “why” | Sep 14 – Sep 30 (2 weeks including Cancun)
 
 **Actions**
 
@@ -26,10 +24,17 @@ Note that this won’t be the top priority of product nor design until after sep
 
 Initial agreement on a primary definition of “code intelligence platform,” possible competing interpretations worth filtering research against, and specific things we will need to learn more about, as well as a framework for the research in the next step.
 
-## Identify and explore specific knowledge gaps | Oct 3 – Oct 14 (2 weeks)
+Exit artifacts:
+
+- [Synthesized hypotheses for strategy research](https://docs.google.com/document/d/1N38S-BxiRPbxC7oftc7H3mGlRU6AuGoGl87iaE-Movw/edit#)
+- [Cancun offsite synthesis conclusion](https://docs.google.com/document/d/1FIym6MdP4EqEj7fSrATT2qNsesR6Sif9nPEgkA5_HBY/edit)
+- [Code intelligence platform takes](https://docs.google.com/document/d/16ivM1GCf3Q024tq8icNGtttlcKuvGv36YewtKQVbnl4/edit#heading=h.l65ay3z06vuz)
+
+## 🔄 Identify and explore specific knowledge gaps | Oct 3 – Oct 14 (2 weeks)
 
 **Actions**
 
+- [Research plan](https://docs.google.com/document/d/1pm609lw3HNtuyQro1AJRm5pppT0-YWgSvuGuXJztngY/edit#heading=h.nciwnm3w5rj7)
 - Research planning
   - Identify further knowledge gaps and specific research questions via asking “what evidence do we have that this is true” of each of our assumptions
   - Share a framework for research so that each team isn’t coming up with this from scratch

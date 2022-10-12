@@ -46,6 +46,8 @@ In the coming weeks (September and early October), we are focusing on [creating 
 - **Refine user activation metrics and iterate on user onboarding and activation.**
 - **Explore feedback loops and collaboration.** The scope of this is TBD. The first step is for product/design to research the key feedback loops/collaboration moments in the current Sourcegraph experience, and to make sure they result in acquisition/activation.
 
+Here's a (private) [roadmap proposal](https://docs.google.com/document/d/1HSSHT_qW3f6unEl3VXZNZi9Uw13wX-l9e0LYJEKOrdY/edit#) that will be merged in here once reviewed.
+
 ### What we're not working on & why
 
 - We are not working on the self-hosted motion in September and October, as we are focused on cloud.

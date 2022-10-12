@@ -24,9 +24,11 @@ Sourcegraph subsidiary employees go through team-specific onboarding.
 
 ## Employees of PEOs/EORs (if available)
 
-In countries where we don’t have a subsidiary, we will see if our current partner and third-party PEO (Professional Employer Organization) or EOR (Employer of Record), [Remote](https://remote.com/), is available to employ a teammate outside the US as a PEO employee.
+In countries where we don’t have a subsidiary, we will see if our current partner and third-party PEO (Professional Employer Organization) or EOR (Employer of Record), [Deel](https://www.deel.com/global-hiring-guide)/), is available to employ a teammate outside the US as a PEO employee.
 
-The Talent team and hiring managers carefully assess these exceptional cases where a PEO/EOR may be required, and engage the People Ops team to chat about the merit of the case early on, as our current partner, Remote, may not be able to support us in all countries.
+The Talent team and hiring managers carefully assess these exceptional cases where a PEO/EOR may be required, and engage the People Ops team to chat about the merit of the case early on, as our current partner, Deel, may not be able to support us in all countries.
+
+Read more about Deel [here](deel.md).
 
 ### Contracts
 
@@ -138,4 +140,4 @@ We cannot support or employ candidates or teammates in any of these countries du
 - Russia (case by case - notify People Ops)
 - Ukraine (case by case - notify People Ops)
 
-Any questions? Contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com via email!
+Any questions? Contact the People team in #ask-people-team in Slack or people-ops@sourcegraph.com via email!

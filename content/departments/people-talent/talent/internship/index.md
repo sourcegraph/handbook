@@ -51,7 +51,7 @@ Payroll
 
 #### Equipment
 
-- We will provide each intern with a loaner [laptop](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
+- We will provide each intern with a loaner [laptop](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
 
 ### VISAs we accept
 

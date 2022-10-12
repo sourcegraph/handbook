@@ -239,7 +239,7 @@ When a Tech Review is needed, the CE initiates this process by doing the followi
 
 1. Completes a peer review of the TDD and opportunity with a peer CE.
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asks of Product, Engineering, and Support.
-3. Initiates the request in the [#tech-deal-reviews](https://sourcegraph.slack.com/archives/tech-deal-reviews) channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to the TDD.
+3. Initiates the request in the #tech-deal-reviews channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to the TDD.
 4. Documents the results of the Tech Review in the TDD.
 
 [Product Directors](../../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD. This asynchronous review should be completed within 3 business days.

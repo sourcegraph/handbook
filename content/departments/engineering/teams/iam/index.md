@@ -46,8 +46,6 @@ For a detailed list of features and services owned by the IAM team, check out th
 
 {{generator:product_team.iam}}
 
-We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
-
 ## Partner Teams
 
 The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
@@ -61,7 +59,7 @@ The IAM team works alongside several other teams at Sourcegraph. You can find mo
 
 - For users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam`.
-- For internal Sourcegraph teammates, join us in [#iam](https://sourcegraph.slack.com/archives/iam) to ask questions or request help from our team, or ask `@iam-support` directly.
+- For internal Sourcegraph teammates, join us in #iam to ask questions or request help from our team, or ask `@iam-support` directly.
 - For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM Feature Request:` in your subject line.
 
 ### Planning, execution, and issue tracking
@@ -104,7 +102,7 @@ We are a globally distributed team with 16+ hours of time zone difference. Async
 
 ###### Slack
 
-While the team is following [multiple Slack channels](#team-slack-channels), [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
+While the team is following [multiple Slack channels](#team-slack-channels), #iam-internal is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
 
 ###### GitHub
 
@@ -133,7 +131,7 @@ We are using Loom to record short videos for bug reports, demos, and for multimo
 
 ##### Regular status updates
 
-All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
+All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the #iam Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
 
 To keep the updates standardized, we are using the following template:
 
@@ -207,9 +205,9 @@ We use the same OpsGenie schedule for both on-call and support rotation, and use
 
 ### Team slack channels
 
-- [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM team for all day to day communication within the team.
-- [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
-- [#repo-iam-team-internal](https://sourcegraph.slack.com/archives/C03K05FCRFH) - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
+- #iam-internal - internal channel for IAM team for all day to day communication within the team.
+- #iam - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
+- #repo-iam-team-internal - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
 
 ## Product and technical documentation
 

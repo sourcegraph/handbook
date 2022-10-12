@@ -136,6 +136,8 @@ Customer Engineers (CE) or Sales may request to:
 
 Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
 
+> SLA for internal requests may be extended during upstream service providers outage. For example, automated trial instance creation workflow relies on GitHub Actions and GitHub is down.
+
 |                                               | Description                                            | Response time                                                                                                                     | Resolution time                                                                                                                   |
 | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need                                                                                     | Within 7 working days from agreement                                                                                              |
@@ -172,6 +174,8 @@ Incidents which affect managed instances are handled according to our [incidents
 More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
 ## How we work
+
+### [Cloud launch process](launch-process.md)
 
 ### Issue tracking
 

@@ -4,7 +4,7 @@
 - [Product Marketing](product-marketing/index.md): Product launches, product messaging and positioning, pricing and packaging, customer stories, Customer Advisory Board, and analyst relations. (#customer-advisory-board, #pricing, #release-post)
 - Communications: We communicate and amplify Sourcegraph's messages with external and internal audiences. Partner with us on building PR pitches, securing press coverage, communicting announcements and initatives internally with the Sourcegraph team, sharing content at the bi-weekly company meeting, and promoting content on Sourcegraph's social media accounts.
   - [Internal Comms Plan Template](https://docs.google.com/document/d/1oIljeqkrJJQm4FCeOodHTFU4yb3RYTbn2HqemrSgz18/edit)
-  - [#comms-team-internal](https://sourcegraph.slack.com/archives/C02Q5L62JEP), [#internal-comms](https://sourcegraph.slack.com/archives/C02K3HXGZTL)
+  - #comms-team-internal, #internal-comms
 - [Creative Ops](creative-ops.md)
 - [Messaging](process/messaging.md)
   - [Platform positioning](process/positioning.md)
@@ -25,6 +25,7 @@
 - [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
   - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
+  - [Marketing content review process](process/marketing-content-review-process.md)
 - [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
 
 ## Members
