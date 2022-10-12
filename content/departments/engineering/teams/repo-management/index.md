@@ -35,13 +35,13 @@ For information on how to contact us for support, or how we handle support, plea
 
 ## Operations
 
-We believe an operationally mature team is key to delighting our customers and ensuring we exceed their expectations every day. As Sourcegraph becomes cloud-first and product-led, it’s crucial that we have the mechanisms in place to support more customers that choose to use our Cloud product. 
+We believe an operationally mature team is key to delighting our customers and ensuring we exceed their expectations every day. As Sourcegraph becomes cloud-first and product-led, it’s crucial that we have the mechanisms in place to support more customers that choose to use our Cloud product.
 
 ### Oncall
 
 The centerpiece of our operations is the oncall. The oncall is our go-to person for handling inbound support requests, whether those are automated alerts, customer questions, or incidents. Oncall ownership rotates every week. We also utilize a secondary oncall to provide follow-the-sun oncall coverage for high severity issues and to load balance if the primary oncall has too many issues. Our oncall allocates their time to items in the following priority order:
 
-1. Pageable alerts 
+1. Pageable alerts
 2. Active incidents
 3. Customer p0s and p1s
 4. Sentry alerts
@@ -53,7 +53,7 @@ The centerpiece of our operations is the oncall. The oncall is our go-to person 
 
 We have the following expectations of the oncall:
 
-1. Triaging and resolving support requests is your only priority for the week. Any and all project work is put on hold for the week. When in doubt, reference the priorities above. 
+1. Triaging and resolving support requests is your only priority for the week. Any and all project work is put on hold for the week. When in doubt, reference the priorities above.
 2. Monitor #repo-management and #ask-engineering for inbound requests.
 3. Monitor any code monitors that post to our Slack channels
 4. Aim to acknowledge all requests within 24 hours, even if the initial response is an indication that we don’t have bandwidth to review it yet and will respond back at a future date. Add the GitHub issue to the Repo Management project with the Status “Support Issues”.
@@ -61,9 +61,10 @@ We have the following expectations of the oncall:
 6. Ask for help when you are stuck! Don’t spend too much time trying to troubleshoot an issue, especially if it’s high priority. Do your best, ask the team, and resolve the issue.
 7. If you ever have too many support requests, leave a message in #repo-management-internal and engage the secondary support owner for the week
 8. After resolving an issue, do at least one of the following:
-  - Add an FAQ to one of the existing docs based on the area or create one here
-  - Update docs.sourcegraph.com or other documentation
-  - Create a backlog issue for an improvement, feature, tool, etc. that would have been useful to troubleshoot and solve the problem and find an owner for the issue
+
+- Add an FAQ to one of the existing docs based on the area or create one here
+- Update docs.sourcegraph.com or other documentation
+- Create a backlog issue for an improvement, feature, tool, etc. that would have been useful to troubleshoot and solve the problem and find an owner for the issue
 
 ### Pageable Issues
 
@@ -79,11 +80,11 @@ The following are not pageable issues:
 2. Repo syncing issues that occur during the 7 day instance creation window
 3. 1 repository is not syncing
 
-We ask that you send us a message in #repo-management for not pageable issues so we can help you. 
+We ask that you send us a message in #repo-management for not pageable issues so we can help you.
 
 ### List of Alerts
 
-All of the alerts we are responsible for are available on https://docs.sourcegraph.com/admin/observability/alerts 
+All of the alerts we are responsible for are available on https://docs.sourcegraph.com/admin/observability/alerts
 
 ## Processes
 
