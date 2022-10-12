@@ -709,16 +709,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Rob Dapaah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-73.21268, 40.81813]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Petri-Johan Last"
             },
             "geometry": {
