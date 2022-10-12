@@ -42,7 +42,7 @@ Example: Renaming a column for clarity
 - To improve performance of data output in downstream applications, like BI tools or spreadsheets
 - To marry data from disparate systems to provide deeper insight
 
-## What transformations have we put it our standard data model?
+## What transformations are a part of our standard data model?
 
 - [Salesforce](sfdc-architecture.md)
 - Pings (Documentation coming soon)
