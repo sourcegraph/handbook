@@ -20,6 +20,8 @@ How we treat customer data at Sourcegraph.
 
 - Add metrics on [Sourcegraph on-prem](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)?
 
+- [Link to customer or prospect name in public places](how-to.md#linking-to-customer-or-prospect-names-in-public-places)
+
   # Tool Resources
 
 - [Onboarding to Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
