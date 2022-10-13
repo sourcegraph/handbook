@@ -14,7 +14,7 @@ If you or your team are planning any organizational changes– this includes pro
 
 ## Promotions
 
-[Promotions](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#promotion-philosophy) are a big deal! [Click here](../../benefits-pay-perks/benefits-perks/celebrate.md#) to see how we recommend celebrating and announcing promotions to the rest of the company. 
+[Promotions](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#promotion-philosophy) are a big deal! [Click here](../../benefits-pay-perks/benefits-perks/celebrate.md#) to see how we recommend celebrating and announcing promotions to the rest of the company.
 
 ## Switching Teams
 
