@@ -39,4 +39,3 @@ How we treat customer data at Sourcegraph.
 - [How we plan](planning.md)
 
 - [Data Analyst IC levels](https://docs.google.com/spreadsheets/d/1KXNvR3vB9zeqkeNIqqLD14mgRdRfp0D0t8EQ1gmk_Pk/edit)
-
