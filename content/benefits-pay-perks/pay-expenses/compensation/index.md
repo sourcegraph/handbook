@@ -168,7 +168,7 @@ No. Unfortunately, our survey contracts restrict us from widely distributing dat
 
 **How often are bands updated?**
 
-We update bands once every six months.In rare instances, we will update bands when an individual is hired from outside of Sourcegraph higher than the band entry point, if our surveys suggest the market has significantly changed from when the band is set. When bands are updated, we provide market adjustments so no one falls below the band entry point.
+We update bands once every six months. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph higher than the band entry point, if our surveys suggest the market has significantly changed from when the band is set. When bands are updated, we provide market adjustments so no one falls below the band entry point.
 
 Generally speaking, revisiting bands every six months helps avoid market volatility and allows us to extend offers to external candidates consistent with internal pay.
 
@@ -192,7 +192,7 @@ Generally speaking, we do not provide counter offers, for the same reason we try
 
 **How do we address currency fluctuations?**
 
-Because we benchmark to US-based data and offer location-independent pay, we use currency conversations for international Teammates. The Sourcegraph Finance team is responsible for determining the currency conversion rate used when Teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/commissions.
+Because we benchmark to US-based data and offer location-independent pay, we use currency conversions for international Teammates. The Sourcegraph Finance team is responsible for determining the currency conversion rate used when Teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/commissions.
 
 To determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis, and the currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review.
 
