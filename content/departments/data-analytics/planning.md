@@ -1,4 +1,3 @@
-
 # **Sprint planning**
 
 We currently work in two week sprints that run from Monday to the following Friday. Requests that come in mid-sprint will be placed in the backlog and triaged at the next sprint planning meeting. If something is urgent, please let us know and we can prioritize as needed.
@@ -18,7 +17,7 @@ Planning Principles:
 - Mix of quick wins and long-term, proactive projects
 - Only choose projects where we have a clear picture of what the result looks like and the impact it will make; if these aren’t clear, we should block time to further scope them
 
-#  **Operating cadence**
+# **Operating cadence**
 
 ## Calendar
 
