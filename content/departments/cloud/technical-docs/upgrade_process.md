@@ -13,7 +13,7 @@ To create a managed instance, see [managed instances creation process](creation_
   - [Sourcegraph upgrade](#sourcegraph-upgrade)
     - [0) Sourcegraph upgrade setup](#0-sourcegraph-upgrade-setup)
     - [1) Add a banner indicating upgrade is in progress](#1-add-a-banner-indicating-upgrade-is-in-progress)
-    - [2) Mark the database as ready-only](#2-mark-the-database-as-ready-only)
+    - [2) Mark the database as read-only](#2-mark-the-database-as-read-only)
     - [3) Create a snapshot of the current deployment](#3-create-a-snapshot-of-the-current-deployment)
     - [4) Initialize the new production deployment](#4-initialize-the-new-production-deployment)
     - [5) Make the database on the new deployment writable](#5-make-the-database-on-the-new-deployment-writable)
@@ -137,7 +137,7 @@ Note that an upgrade is being performed:
 ../util/set-notice.sh upgrade
 ```
 
-### 2) Mark the database as ready-only
+### 2) Mark the database as read-only
 
 ```sh
 ../util/set-db-readonly.sh $OLD_DEPLOYMENT true
@@ -392,7 +392,7 @@ Note that maintainence is being performed:
 ../util/set-notice.sh maintainence
 ```
 
-Then, [mark the database as read-only](#2-mark-the-database-as-ready-only).
+Then, [mark the database as read-only](#2-mark-the-database-as-read-only).
 
 ```sh
 ../util/set-db-readonly.sh $OLD_DEPLOYMENT true
