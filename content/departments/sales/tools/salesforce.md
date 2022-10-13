@@ -53,7 +53,7 @@ Lead Source values include:
 
 ### First Touchpoint
 
-First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot. First Touchpoint fields hold info about the first marketing interaction a prospect has taken. It is used to reflect an individual’s first interaction with either Sourcegraph’s gated (i.e., email submission required) marketing content _or_ initial sign-up for the free product offering. While we also use cookies to track user behavior prior to email submission, First Touchpoint only reflects the original source of contact info collection by marketing. 
+First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot. First Touchpoint fields hold info about the first marketing interaction a prospect has taken. It is used to reflect an individual’s first interaction with either Sourcegraph’s gated (i.e., email submission required) marketing content _or_ initial sign-up for the free product offering. While we also use cookies to track user behavior prior to email submission, First Touchpoint only reflects the original source of contact info collection by marketing.
 
 The only time these fields should be blank is when a lead or contact has not had any interactions with marketing content (e.g., an SDR uses LeadIQ to import leads from a target account into SFDC for outreach, etc.). We leave First Touchpoint blank for these leads to account for any future marketing site interactions taken after initial sales outreach.
 
@@ -260,7 +260,7 @@ If a deal comes through a referral or introduction, tell [BizOps](../../bizops/i
 1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../../bizops/index.md) about adding one.
 1. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
 
-### Opportunity Source 
+### Opportunity Source
 
 Opportunities in Salesforce can be created either manually from scratch or from converting a lead. In the latter case, Opportunity Source is then populated in Salesforce based upon the following workflow:
 
