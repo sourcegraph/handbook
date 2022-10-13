@@ -31,44 +31,14 @@ Partner with the organization to build scalable data solutions and insights to h
 
 # **Our Current Capabilities**
 
-<table>
-  <tr>
-   <td><strong>Data Analytics</strong>
-   </td>
-   <td><strong>Data Engineering</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Analysis/Proactive Insights
-   </td>
-   <td>Engineering/Architecture
-   </td>
-  </tr>
-  <tr>
-   <td>Dashboards
-   </td>
-   <td>Data Transformation
-   </td>
-  </tr>
-  <tr>
-   <td>Stakeholder Management
-   </td>
-   <td>Maintenance
-   </td>
-  </tr>
-  <tr>
-   <td>Support
-   </td>
-   <td>Tool Administration
-   </td>
-  </tr>
-  <tr>
-   <td>Testing/Experimentation
-   </td>
-   <td>Monitoring/Alerts
-   </td>
-  </tr>
-</table>
+| <strong>Data Analytics</strong>                      | <strong>Data Engineering</strong>               |
+| :--------------------------------------------------- | :---------------------------------------------- |
+| [Analyses/Projects](analyses-projects.md)            | [Engineering/Architecture](architecture.md)     |
+| [Reports/Dashboards](reports.md)                     | [Data Transformations](data-transformations.md) |
+| [Stakeholder Management](stakeholder-mgmt.md)        | Maintenance                                     |
+| [Support/Enablement](enablement.md)                  | [Tool Administration](tools.md)                 |
+| [Metric Definitions/Documentation](documentation.md) | Monitoring/Alerts                               |
+| [Testing/Experimentation](testing.md)                |                                                 |
 
 ## **Communications/Asking a Question**
 
