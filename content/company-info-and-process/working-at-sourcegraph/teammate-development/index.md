@@ -104,14 +104,13 @@ Managers **are required** to work with their People Partner to determine the app
 
 **Step 2:** Formal coaching (pre-PIP):
 
-If you have an underperforming Teammate, the next step to get them back on track is **formal coaching.** Formal coaching involves regular, structured coaching meetings and regular documentation following each conversation. Teammates struggling to meet the expectations of their role should be told clearly what those expectations are, and what success looks like, based on objective and measurable criteria.
+If you have an underperforming Teammate, the next step to get them back on track is **formal coaching.** Formal coaching involves regular, structured coaching and regular documentation following each conversation. Teammates struggling to meet the expectations of their role should be told clearly what those expectations are, and what success looks like, based on objective and measurable criteria.
 
 1. **Contact your People Partner:** The first step of a formal coaching phase is to contact your People Parter and alert them about the performance issue. Together, you will develop a thoughful coaching plan, and they will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
-2. **Draft a coaching email:** before having any formal coaching conversations, please create and share a draft email with your People Partner using the [formal coaching email template](https://docs.google.com/document/d/1VAKA_N2TbkrfTuV4HHBFVsRXWUbq2UbMsZRJb3ITv3c/edit). Your People Partner will provide feedback on the coaching email and will ... <span class="bg-warning">WIP: missing content</span>
-3. **Have a coaching conversation**: Once you have alerted your People Partner to the performance issue, ... <span class="bg-warning">WIP: missing content</span>
+2. **Have a coaching conversation**: Once you have alerted your People Partner to the performance issue, they will assist you in conducting a coaching conversation.
    [Guide on how to deliver clear, actionable feedback](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
-4. **Send a follow up email:** once the coaching conversation is complete, you will send your follow up email using the [follow-up email template](https://docs.google.com/document/d/1VAKA_N2TbkrfTuV4HHBFVsRXWUbq2UbMsZRJb3ITv3c/edit) within 24-hours of the conversation. Please always CC [people-ops@sourcegraph.com](mailto:?cc=people-ops@sourcegraph.com).
-5. **Ongoing coaching:** coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Employees should be engaged in formal coaching for on average 2-4 weeks[^1] before moving to a PIP.
+3. **Regular documentation during 1:1s:** once the coaching conversation is complete, you will used regular 1:1s to clearly document expectations, where the teammate is meeting those expectations, and where opportunities to improve still exist.
+4. **Ongoing coaching:** coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Employees should be engaged in formal coaching for on average 2-4 weeks[^1] before moving to a PIP.
    - **Required:** Managers are required to have weekly meetings with the Teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
 
 **Stage 3:** Performance Improvement Plan (PIP)
