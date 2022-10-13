@@ -53,20 +53,108 @@ Lead Source values include:
 
 ### First Touchpoint
 
-First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot.
+First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot. First Touchpoint fields hold info about the first marketing interaction a prospect has taken. It is used to reflect an individual’s first interaction with either Sourcegraph’s gated (i.e., email submission required) marketing content _or_ initial sign-up for the free product offering. While we also use cookies to track user behavior prior to email submission, First Touchpoint only reflects the original source of contact info collection by marketing. 
 
-First Touchpoint values include:
+The only time these fields should be blank is when a lead or contact has not had any interactions with marketing content (e.g., an SDR uses LeadIQ to import leads from a target account into SFDC for outreach, etc.). We leave First Touchpoint blank for these leads to account for any future marketing site interactions taken after initial sales outreach.
 
-- Private Instance/Install (leads will go into "PP-Private Instance Markie" sequence)
-- Sourcegraph.com Account/Cloud Sign-ups (leads will go into "CC-Cloud Signup Markie" sequence)
-- Contact/Demo Form
-- Inbound Email (support, contact)
-- Feedback Form
-- Referral
-- Event
-- Other
-- Content download
-- Subscription
+See below for an overview of our current First Touchpoint types:
+
+<table>
+  <tr>
+   <td><strong>First / Most Recent Touchpoint Types</strong>
+   </td>
+   <td><strong>Definition</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Batch Changes Demo Request
+   </td>
+   <td>A prospect <a href="https://about.sourcegraph.com/contact/request-batch-changes-demo/">submitted this form</a> that is linked on this <a href="https://about.sourcegraph.com/batch-changes">landing page</a>.
+   </td>
+  </tr>
+  <tr>
+   <td> Contact/Demo Form
+   </td>
+   <td>A prospect submitted any form on our site related to a “Contact us” or “Request a demo”. Look at the first or most recent content field in the marketing touchpoint section to understand exactly which form submission occurred. 
+   </td>
+  </tr>
+  <tr>
+   <td>Content Download
+   </td>
+   <td>A prospect downloaded a piece of content. Look at the first or most recent content field in the marketing touchpoint section to understand exactly which piece of content was downloaded.
+<p>
+Example: <a href="https://about.sourcegraph.com/guides/continuous-developer-onboarding/">Guide to Dev Onboarding landing page</a>
+   </td>
+  </tr>
+  <tr>
+    <td>Drift
+   </td>
+   <td>A prospect initiates online chat with our team via the Sourcegraph website.
+   </td>
+  </tr>
+  <tr>
+   <td>Event
+   </td>
+   <td>A prospect has either signed up for a webinar, attended a Sourcegraph hosted event, or interacted with us at a conference.
+   </td>
+  </tr>
+  <tr>
+   <td>Feedback Form
+   </td>
+   <td>A product user has given product feedback from a form within the product. Tread lightly. When this type of lead is created the product team is likely already following up with that product user. You can search using the user’s email address within the <a href="https://about.sourcegraph.com/handbook/product/surfacing_product_feedback">#feedback</a> slack channel to see the user’s specific feedback.
+   </td>
+  </tr>
+  <tr>
+   <td>Inbound Email (support, contact)
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+    <td>Outbound
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+    <td>Private Instance
+   </td>
+   <td>A prospect has installed Sourcegraph locally via docker run instructions from this <a href="https://about.sourcegraph.com/get-started/self-hosted">landing page</a>. For more information on how this person is using product, you can check out the PQL Scoring section on a lead or contact in SFDC.
+   </td>
+  </tr>
+  <tr>
+   <td>Referral
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Sourcegraph.com Account
+   </td>
+   <td>A prospect has <a href="https://about.sourcegraph.com/get-started/cloud">signed up for a sourcegraph.com cloud account</a>. For more information on how this person is using product, you can check out the PQL Scoring section on a lead or contact in SFDC.
+   </td>
+  </tr>
+  <tr>
+   <td>Subscription
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+    <td>Third-Party Vendor
+   </td>
+   <td>A prospect was sourced to us from a third-party vendor. To see which vendor, you can look at the first/most recent source field. 
+<p>
+Example: SimplyDirect Survey- These prospects filled out a survey offered by SimplyDirect. SimplyDirect will send them swag and send us the prospect. These are considered hot prospects.
+   </td>
+  </tr>
+  <tr>
+    <td>Website
+   </td>
+   <td>A prospect has reached out to support for product help. This is not a hot lead and support is likely already in conversations with this prospect.
+   </td>
+  </tr>
+</table>
 
 ### Lead Status
 
@@ -171,6 +259,17 @@ If a deal comes through a referral or introduction, tell [BizOps](../../bizops/i
 
 1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../../bizops/index.md) about adding one.
 1. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
+
+### Opportunity Source 
+
+Opportunities in Salesforce can be created either manually from scratch or from converting a lead. In the latter case, Opportunity Source is then populated in Salesforce based upon the following workflow:
+
+1. An AE navigates to a lead in Salesforce and selects “convert”
+2. They will then be asked to assign this lead to an account (which can be newly created or selected from pre-existing accounts)
+3. This lead will then be automatically converted into a contact
+4. The newly created opportunity will populate Opportunity Source to match the converted lead’s Lead Source with one important exception:
+   1. If within 60 or fewer days prior to creation of the converted lead any pre-existing contact on the account selected to carry the new opportunity had a Lead Source reflecting outbound efforts (i.e., AE created or SDR created), the Opportunity Source will revert to taking that Lead Source in place of the source of the converted lead. This is to reflect a scenario that we frequently encounter where an SDR or AE will outbound prospect into a specific individual within a company, have no follow-up correspondence with that particular lead, but then receive an inbound inquiry (typically through completion of a marketing form or product sign-up) from a separate individual at the same company that heard about Sourcegraph from the lead originally contacted. Without this rule in Salesforce, we would materially undercount the impact of our outbound prospecting efforts while overstating the influence of marketing content on pipeline generation.
+   2. Even with the above, we still retain data on the converted lead and where it was originally sourced - see the "Lead Source" field within an opportunities report.
 
 ### Recording outbound activity
 
