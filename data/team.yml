@@ -771,6 +771,7 @@ steph_hay:
   pronouns: she/her
   role: Sales Strategy & Operations Manager
   reports_to: director_sales_ops
+  manager_role_slug: sales_strategy_operations_manager
   location: Los Angeles, CA, USA 🇺🇸
   github: stephmhay
   email: steph@sourcegraph.com
