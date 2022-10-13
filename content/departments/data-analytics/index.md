@@ -18,14 +18,14 @@ Partner with the organization to build scalable data solutions and insights to h
 
 # **Our Capabilities**
 
-| <strong>Data Analytics</strong>                      | <strong>Data Engineering</strong>           |
-| :--------------------------------------------------- | :------------------------------------------ |
-| [Analyses/Projects](analyses-projects.md)            | [Engineering/Architecture](architecture.md) |
-| [Reports/Dashboards](reports.md)                     | Data Transformation                         |
-| [Stakeholder Management](stakeholder-mgmt.md)        | Maintenance                                 |
-| [Support/Enablement](enablement.md)                  | [Tool Administration](tools.md)             |
-| [Metric Definitions/Documentation](documentation.md) | Monitoring/Alerts                           |
-| [Testing/Experimentation](testing.md)                |                                             |
+| <strong>Data Analytics</strong>                      | <strong>Data Engineering</strong>               |
+| :--------------------------------------------------- | :---------------------------------------------- |
+| [Analyses/Projects](analyses-projects.md)            | [Engineering/Architecture](architecture.md)     |
+| [Reports/Dashboards](reports.md)                     | [Data Transformations](data-transformations.md) |
+| [Stakeholder Management](stakeholder-mgmt.md)        | Maintenance                                     |
+| [Support/Enablement](enablement.md)                  | [Tool Administration](tools.md)                 |
+| [Metric Definitions/Documentation](documentation.md) | Monitoring/Alerts                               |
+| [Testing/Experimentation](testing.md)                |                                                 |
 
 ## **Communications/Asking a Question**
 
