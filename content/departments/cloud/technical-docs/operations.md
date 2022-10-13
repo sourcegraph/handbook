@@ -64,7 +64,7 @@ NAME                  ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EX
 default-red-instance  us-central1-f  n1-standard-8               10.2.0.2                  RUNNING
 ```
 
-The `NAME` value indicates the currently active instance (`red` or `black`). During an upgrade, both `default-red-instance` and `default-black-instance` will be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](upgrade_process.md).
+The `NAME` value indicates the currently active instance (`red` or `black`). During an upgrade, both `default-red-instance` and `default-black-instance` will be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](./v1.1/mi1-1_upgrade_process.md)).
 
 ## Accessing the instance
 
