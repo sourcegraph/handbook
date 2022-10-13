@@ -1,6 +1,17 @@
 # Identity and Access Management (IAM) Team
 
-> NOTE: The IAM team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
+## Vision
+
+Provide secure, accurate, and delightful access to Sourcegraph for both external and internal customers.
+
+## Tenets
+
+These tenets guide how we make tradeoffs on the team. These are designed to be timeless and make our vision actionable during day to day decisions.
+
+- Security over speed: We strive to make our services as fast as possible, but we will never compromise correct enforcement to achieve a performance boost.
+- We prefer simplicity over complex engineering: Permissions have to be correct for our customers to trust us. Complex systems increase the likelihood something will break, which will erode trust in Sourcegraph. We start with the simplest solution and scale it until it breaks before exploring more complex solutions.
+- We don’t build on brittle foundations and we don’t implement short term hacks. We must always respect our customer’s code permissions and building band-aid solutions increases the likelihood of leaking data and losing customers.
+- Non-addative - Sourcegraph _is not_ a permissions layer. We inherit permissions from other systems (code hosts, Auth providers, etc) and leverage those to surface repositories. We do not edit or add read or write access to anything the user should not have access to.
 
 ## Goals and Roadmap
 
