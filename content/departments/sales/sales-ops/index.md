@@ -8,7 +8,7 @@ The Sales strategy & operations (Sales Ops) team is responsible for helping our 
 
 ### Members
 
-{{generator:reporting_structure.strategy_operations_manager}}
+{{generator:reporting_structure.director_sales_ops}}
 
 ### Roles
 
