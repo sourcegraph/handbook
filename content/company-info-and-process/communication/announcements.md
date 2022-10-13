@@ -14,13 +14,7 @@ If you or your team are planning any organizational changes– this includes pro
 
 ## Promotions
 
-Managers should post notes celebrating internal promotions in the #teammate-announce channel. We believe that culture is defined in part by who is celebrated, rewarded, and promoted internally, and these announcements are an opportunity to both reward a deserving individual and to remind the rest of the team what behaviors are rewarded.
-
-These posts should cover:
-
-- What the promoted teammate has done to merit promotion
-- How the teammate's performance and actions embody [our values](../values/index.md)
-- What the teammate's new responsibilities and role will be
+[Promotions](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#promotion-philosophy) are a big deal! [Click here](../../benefits-pay-perks/benefits-perks/celebrate.md#) to see how we recommend celebrating and announcing promotions to the rest of the company.
 
 ## Switching Teams
 
