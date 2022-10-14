@@ -48,14 +48,14 @@ In the long term we want Sourcegraph to provide seamless, out-of-the-box, code h
 
 ### What’s next and why (H2FY23)
 
-- Increased scale support for Tier 1 code hosts - Our customers often times have many GBs and sometimes TBs of code, across many different code hosts. We are working hard to identify and solve performance bottlenecks. This will ensure that code stays as fresh as possible, even across TBs of code. We will be focusing on our Tier 1 code hosts for this testing.
-- Webhooks for Repo Syncing - Occasionally, repositories in Sourcegraph can fall out of date with the codehost due to the refresh algorithm we use. To solve this, we’ll introduce webhooks allowing the Sourcegraph application will receive an event each time new code is committed to a repository on the code host, and can trigger a sync for that repository in Sourcegraph
-- Perforce Improvements - We know our Perforce implementation still has a number of known limitations. By end of FY23, we intend to continue iterating on our Perforce implementation.
-- Other Strategic Readiness Improvements - We’ll be focusing on improvements that enable us to confidently support our largest existing customers. This includes experience improvements for admins, improved reliability, and features designed specifically for customers with up to 50k users and 500k repositories.
+- **Increased scale support for Tier 1 code hosts** - Our customers often times have many GBs and sometimes TBs of code, across many different code hosts. We are working hard to identify and solve performance bottlenecks. This will ensure that code stays as fresh as possible, even across TBs of code. We will be focusing on our Tier 1 code hosts for this testing.
+- **Webhooks for Repo Syncing** - Occasionally, repositories in Sourcegraph can fall out of date with the codehost due to the refresh algorithm we use. To solve this, we’ll introduce webhooks allowing the Sourcegraph application will receive an event each time new code is committed to a repository on the code host, and can trigger a sync for that repository in Sourcegraph
+- **Perforce Improvements** - We know our Perforce implementation still has a number of [known limitations](https://docs.sourcegraph.com/admin/repo/perforce#known-issues-and-limitations). By end of FY23, we intend to continue iterating on our Perforce implementation. These improvements include changelist support, streams support, and reliability improvements.
+- **Other Strategic Readiness Improvements** - We’ll be focusing on improvements that enable us to confidently support our largest existing customers. This includes experience improvements for admins, improved reliability, and features designed specifically for customers with up to 50k users and 500k repositories.
 
 ### What we’re not working on and why
 
-- Any new Tier 1 code host support - For the remainder of FY23, we will not work on introducing Tier 1 support for any new code hosts. We are not working on this in FY23 to focus on providing robust support for our existing 4 tier 1 code hosts.
+- **Any new Tier 1 code host support** - For the remainder of FY23, we will not work on introducing Tier 1 support for any new code hosts. We are not working on this in FY23 to focus on providing robust support for our existing 4 tier 1 code hosts.
 
 # Detailed Roadmap
 
