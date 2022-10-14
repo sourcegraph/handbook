@@ -51,8 +51,8 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
 1.  Setup the environment:
 
-    - `export TF_VAR_opsgenie_webhook=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=OPSGENIE_WEBHOOK)`
     - `export CUSTOMER=<customer>`
+    - `source $CUSTOMER/tfvars.env`
 
 1.  Create a branch for the teardown
 
