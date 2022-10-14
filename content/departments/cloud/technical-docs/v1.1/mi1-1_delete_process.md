@@ -142,9 +142,15 @@ git push origin HEAD
 
 ### Create the pull request
 
-**Title:** managed-instance-$CUSTOMER: Teardown Managed Instance
+**Title:** managed-instance-$CUSTOMER: Remove GCP infrastructure and project
 
 _Link tear-down request issue in the description_
+
+To get your "Test plan":
+
+```sh
+gcloud projects describe sourcegraph-managed-$CUSTOMER
+```
 
 Wait for checks to pass, approval and then merge pull request.
 
