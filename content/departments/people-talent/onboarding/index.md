@@ -236,11 +236,11 @@ We want everyone to feel certain and comfortable with where they are at currentl
 
 #### People Partner
 
-We believe our purpose as a People team is to enable Sourcegraph to attract and retain the best talent, and we’re building the team out to support the various things that influence that. 
+We believe our purpose as a People team is to enable Sourcegraph to attract and retain the best talent, and we’re building the team out to support the various things that influence that.
 
 Although this will likely evolve as you input your own indicators of success, a quick reminder of why we decided to add a People Partner to the team:
 
-- To coach and guide our managers in their thinking on all things people-related: how they structure their teams, how they measure the impact of and therefore compensate, their team members, how they develop their team members, how they look after their team’s wellbeing, and what they do when something isn’t working or a team member isn’t making the impact required. 
+- To coach and guide our managers in their thinking on all things people-related: how they structure their teams, how they measure the impact of and therefore compensate, their team members, how they develop their team members, how they look after their team’s wellbeing, and what they do when something isn’t working or a team member isn’t making the impact required.
 - To bring strategic insights from your adventures in supporting our managers, back to the team to guide the initiatives and support we provide and help us ensure we’re working on the right things.
 
 **Within one month, you will…**
