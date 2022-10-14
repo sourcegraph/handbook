@@ -6,10 +6,10 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 **Our compensation pillars:**
 
-- Market competitive: We use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. 
+- Market competitive: We use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth.
 - Transparent and equitable: We publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
 - Performance based: We pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/#merit-philosophy).
-- Location independent: We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. 
+- Location independent: We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation.
 
 ## Market competitive
 
@@ -17,9 +17,10 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 **Pay**
 
-At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint. 
+At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint.
 
-- **Base pay**: Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](INSERT LINK) to ensure our compensation remains up to date and market competitive.  
+- **Base pay**: Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](INSERT LINK) to ensure our compensation remains up to date and market competitive.
+
   - Each [job level](leveling-guide.md) has a corresponding compensation band.
 
 - **Commissions**: we provide variable compensation in the form of commissions for roles that are measured by numerical performance (including certain roles in the Sales and Customer Engineering organizations).
@@ -51,7 +52,7 @@ In business-critical cases, we may make exceptions and allow an offer above the 
 
 ### How leveling decisions are made
 
-Each Teammate is matched to a level, which is then tied to a respective compensation band.  Sourcegraph leveling decisions anchor on the [Leveling Guidelines](leveling-guide.md).
+Each Teammate is matched to a level, which is then tied to a respective compensation band. Sourcegraph leveling decisions anchor on the [Leveling Guidelines](leveling-guide.md).
 
 ## Transparent and equitable
 
@@ -81,9 +82,10 @@ Finding your band is a two step process.
 3. Select the “Job” tab on your profile
 4. Scroll down to the “Compensation” header
 5. Find your **Radford Job Code**
-  - The last two digits of the code indicate your role and level
-  - Example: HR.GLBP.**P1** - the "P" indicates that this person is an Individual Contributor and the "1" indicates a level 1
-  - Example: HR.GLBP.**M3** - the "M" indicates that this person is Manager and the "3" indicates a level 3
+
+- The last two digits of the code indicate your role and level
+- Example: HR.GLBP.**P1** - the "P" indicates that this person is an Individual Contributor and the "1" indicates a level 1
+- Example: HR.GLBP.**M3** - the "M" indicates that this person is Manager and the "3" indicates a level 3
 
 **Step 2:** Use your Radford job code to find your band in Assemble
 
@@ -136,7 +138,7 @@ Reach out to the People Ops team if you have any questions about structuring.
 
 **Will pay data be anonymized or aggregated in any way or will we be able to see exactly who makes what?**
 
-Yes, at this point, all pay data is anonymized. The only information you can see, outside of your personal compensation details, are pay bands for every department. 
+Yes, at this point, all pay data is anonymized. The only information you can see, outside of your personal compensation details, are pay bands for every department.
 
 **What components of pay are transparent?**
 
@@ -144,13 +146,13 @@ Compensation bands reflect cash pay, or cash + commission-based pay for commissi
 
 **Who can see our compensation bands?**
 
-Full compensation visibility is for internal use only. During the Recruiting process, our Recruiting Team will share our transparent approach to compensation with candidates.  Target compensation is also shared via all job descriptions.
+Full compensation visibility is for internal use only. During the Recruiting process, our Recruiting Team will share our transparent approach to compensation with candidates. Target compensation is also shared via all job descriptions.
 
 ### General compensation questions
 
 **My pay is out of band - what does that mean for me?**
 
-We do not allow salaries to fall below our established pay entry points. We re-run compendation data every 6 months in alignment with our Impact Review Process and will right-size anyone who has fallen below the 75th percentile.  
+We do not allow salaries to fall below our established pay entry points. We re-run compendation data every 6 months in alignment with our Impact Review Process and will right-size anyone who has fallen below the 75th percentile.
 
 In rare instances, we allow salaries to exceed the tops of our bands. We strive to give meaningful merit and promotion-related increases, regardless of position in the band - this means individuals paid above their band can still receive increases. We may also utilize other options to reward performance.
 
@@ -193,8 +195,9 @@ Our internal titles vary from team to team, so you may notice some job codes whe
 Start with your manager if you have any questions about your compensation level or Radford code match. You can also reach out to your [People Partner](../../../departments/people-talent/teamalignment.md#people--talent-team-alignment-by-department) to discuss!
 
 To determine your level, find your **Radford Job Code** in Bamboo. You can then determine your level based on the last two digits of the code:
-  - Example: HR.GLBP.**P1** - the "P" indicates that this person is an Individual Contributor and the "1" indicates a level 1
-  - Example: HR.GLBP.**M3** - the "M" indicates that this person is Manager and the "3" indicates a level 3
+
+- Example: HR.GLBP.**P1** - the "P" indicates that this person is an Individual Contributor and the "1" indicates a level 1
+- Example: HR.GLBP.**M3** - the "M" indicates that this person is Manager and the "3" indicates a level 3
 
 **If we hire externally into the entry point of our salary bands, why are some Teammates paid higher in band, or even above band?**
 
@@ -202,7 +205,7 @@ Most individuals were hired into Sourcegraph at the 75th percentile of market at
 
 **How do I move up in my band?**
 
-We regularly evaluate compensation regularly. We believe deeply in rewarding and recognizing impact. Strong performance at Sourcegraph will result in regular compensation increases.  Teammates who are given an "exceeding high bar" rating in the Impact Review process are eligible for a merit increase every 6-months, and Teammates who "meet our high bar" are eligible every 12-months. Learn more about our impact reviews [here](INSERT LINK TO IMPACT REVIEW PROCESS)
+We regularly evaluate compensation regularly. We believe deeply in rewarding and recognizing impact. Strong performance at Sourcegraph will result in regular compensation increases. Teammates who are given an "exceeding high bar" rating in the Impact Review process are eligible for a merit increase every 6-months, and Teammates who "meet our high bar" are eligible every 12-months. Learn more about our impact reviews [here](INSERT LINK TO IMPACT REVIEW PROCESS)
 
 **I’m at the entry point of the band, does that mean I’m underpaid?**
 
