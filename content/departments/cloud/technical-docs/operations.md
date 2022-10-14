@@ -516,6 +516,18 @@ mi update-golden -target $version
 
 Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
 
+### Modify customer specific GCP Managed Instance labels
+
+Customer specific Managed Instance GCP project labels are generated via [mi sync terraform-vars](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed/-/blob/util/cmd/mi/mg_sync_terraform_vars.go?L23).
+
+To modify label:
+
+- modify field in config.yaml for customer
+- run `mi sync terraform-vars`
+- run `source source tfvars.env`
+- cd `project`
+- run `terraform apply -var-file=../terraform.tfvars`
+
 ### How to add feature flags?
 
 Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
