@@ -168,7 +168,9 @@ We want everyone to feel certain and comfortable with where they are at currentl
 
 ### Helpful links & resources
 
-COMING SOON
+- [Product overview](../../../company-info-and-process/onboarding/product-onboarding-videos.md)
+- [Tools we use](../people-ops/tools/index.md)
+- [Processes we are responsible for](../people-ops/process/index.md)
 
 ### People Team onboarding goals + expectations
 
@@ -188,19 +190,18 @@ COMING SOON
   - The orgs you'll be supporting
 - Learn about the product by watching the [Product Tour video](https://www.youtube.com/watch?v=Kk1ea2-l8Hk) and reading the first page of Sourcegraph's user documentation
 - Schedule 1:1s with teammates cross-funtional stakeholders you will be supporting
-- Build out sourcing projects for your org's high priority roles
-- MORE COMING SOON
+- Have a first glimps of the projects we are working on
 
 #### Week 3 Goals:
 
 - Make a small (or big!) improvement to a page your team uses in the handbook. Once you identify it, make the change and assign your manager as a reviewer
 - Complete 1:1s with your teammates and stakeholders
-- MORE COMING SOON
+- Understand the tools we use as a team, what we use them for and how
 
 #### Week 4 Goals:
 
 - Make more small (or big!) improvements to pages your team uses in the handbook. Assign your manager as a reviewer
-- MORE COMING SOON
+- Start actively giving your feedback and input on what we should improve and pitch ideas to the team.
 
 ### What will success look like
 
@@ -234,6 +235,13 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Understand more about what aspects of the People function allow you to apply your strengths, and where you want to learn more, and have the opportunity to expand as the team grows
 
 #### People Partner
+
+We believe our purpose as a People team is to enable Sourcegraph to attract and retain the best talent, and we’re building the team out to support the various things that influence that.
+
+Although this will likely evolve as you input your own indicators of success, a quick reminder of why we decided to add a People Partner to the team:
+
+- To coach and guide our managers in their thinking on all things people-related: how they structure their teams, how they measure the impact of and therefore compensate, their team members, how they develop their team members, how they look after their team’s wellbeing, and what they do when something isn’t working or a team member isn’t making the impact required.
+- To bring strategic insights from your adventures in supporting our managers, back to the team to guide the initiatives and support we provide and help us ensure we’re working on the right things.
 
 **Within one month, you will…**
 
