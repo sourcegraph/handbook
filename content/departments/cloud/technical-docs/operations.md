@@ -2,13 +2,12 @@
 
 Operations guides for [managed instances](./index.md).
 
-- To upgrade a managed instance, see [managed instances upgrade process](upgrade_process.md).
-- To create a managed instance, see [managed instances creation process](creation_process.md).
-- To delete a managed instance, see [managed instances deletion process](delete_process.md).
-- To suspend a managed instance, see [managed instances suspense process](suspend_process.md).
-- To resume a managed instance, see [managed instances resume process](resume_process.md).
-- To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
-- To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
+- To upgrade a managed instance, see [managed instances upgrade process](./v1.1/mi1-1_upgrade_process.md).
+- To create a managed instance, see [managed instances creation process](./v1.1/mi1-1_creation_process.md).
+- To delete a managed instance, see [managed instances deletion process](./v1.1/mi1-1_delete_process.md).
+- To perform a failover of a managed instance, see [managed instances failover process](./v1.1/mi1-1_failover_process.md).
+- To enable executors on a managed instance, see [enable executors process](./v1.1/mi1-1_enable_executors_process.md).
+- To restore a managed instance in the event of accidental deletion, follow [restore process](./v1.1/mi1-1_restore_process.md).
 
 ## Prereq
 
@@ -20,7 +19,7 @@ cd deploy-sourcegraph-managed
 echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
 ```
 
-Below we will install `mg` CLI. `mg` simlifies operation on MI and releases the burden of remembering various common `gcloud` commands.
+Below we will install `mi` CLI. `mi` simlifies operation on MI and releases the burden of remembering various common `gcloud` commands.
 
 > you can just run `make install` if you already have `$GOBIN` configured somewhere
 
@@ -29,8 +28,7 @@ mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
 
 # ZSH users: echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
-# you need ensure our `mg` binary has the highest priority in $PATH
-# otherwise if will conflict with the `mg` emacs editor 😢
+# you need ensure our `mi` binary has the highest priority in $PATH
 echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
 
 # ZSH users: source ~/.zshrc
@@ -38,20 +36,20 @@ source ~/.bashrc
 make install
 ```
 
-`mg` should be either run under a specific `$CUSTOMER` directory or you need to provide the `--customer $CUSTOMER` flag explictly
+`mi` should be either run under a specific `$CUSTOMER` directory or you need to provide the `--customer $CUSTOMER` flag explictly
 
 ```sh
 cd $CUSTOMER
-mg ssh
+mi ssh
 ```
 
 or
 
 ```sh
-mg --customer $CUSTOMER ssh
+mi --customer $CUSTOMER ssh
 ```
 
-Below docs will only cover the essential `mg` commands, and you should consult the `mg` cli usage on your own.
+Below docs will only cover the essential `mi` commands, and you should consult the `mi` cli usage on your own.
 
 ## Red/black deployment model
 
@@ -66,7 +64,7 @@ NAME                  ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EX
 default-red-instance  us-central1-f  n1-standard-8               10.2.0.2                  RUNNING
 ```
 
-The `NAME` value indicates the currently active instance (`red` or `black`). During an upgrade, both `default-red-instance` and `default-black-instance` will be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](upgrade_process.md).
+The `NAME` value indicates the currently active instance (`red` or `black`). During an upgrade, both `default-red-instance` and `default-black-instance` will be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](./v1.1/mi1-1_upgrade_process.md)).
 
 ## Accessing the instance
 
@@ -75,7 +73,7 @@ For CSE's, also refer to [Accessing Managed Instances](../../ce-support/support/
 ### SSH access
 
 ```sh
-mg --customer $CUSTOMER ssh
+mi --customer $CUSTOMER ssh
 ```
 
 ### Accessing the Docker containers
@@ -91,13 +89,13 @@ You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) 
 ### Accessing the Cloud SQL
 
 ```sh
-mg --customer $CUSTOMER db proxy
+mi --customer $CUSTOMER db proxy
 ```
 
 or
 
 ```sh
-mg --customer $CUSTOMER db cli
+mi --customer $CUSTOMER db cli
 ```
 
 If you find that the command hangs on the following error:
@@ -111,19 +109,19 @@ It's likely that you need to install [`cloud_sql_proxy`](https://github.com/Goog
 ### Restarting for configuration updates
 
 ```sh
-mg --customer $CUSTOMER reload-config
+mi --customer $CUSTOMER reload-config
 ```
 
 ### Port-forwarding
 
 ```sh
-mg forward <remote_port> <local_port>
+mi forward <remote_port> <local_port>
 ```
 
 Expose frontend at `8080`
 
 ```sh
-mg forward 80 4444
+mi forward 80 4444
 ```
 
 This will port-forward `localhost:4444` to port `80` on the VM instance. Some common ports:
@@ -139,19 +137,19 @@ Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule
 Everything
 
 ```sh
-mg backup
+mi backup
 ```
 
 Just the Cloud SQL
 
 ```sh
-mg backup --types sql
+mi backup --types sql
 ```
 
 Just the VM
 
 ```sh
-mg backup --types vm
+mi backup --types vm
 ```
 
 ### Access through the GCP load balancer as a user would
@@ -199,7 +197,7 @@ Disk storage can be safely **increased** on managed instances at any time. Do no
 
 To increase the disk size:
 
-1. Set up your [variables](upgrade_process.md#general-setup) as usual.
+1. Set up your environment with `mi workon` as usual.
 1. Increase the value of `data_disk_size` in `terraform.tfvars` and run terraform apply
 1. Commit and push your changes:
 
@@ -234,7 +232,7 @@ First, find the service you are interested in, for example, to capture traffic t
 Next you need to `scp` this from the instance:
 
 ```sh
-   # after eval $(mg workon)
+   # after eval $(mi workon)
    gcloud compute scp root@default-$DEPLOYMENT-instance:/tmp/sourcegraph-frontend.pcap . # copy from instance
 ```
 
@@ -287,19 +285,19 @@ Following a release upgrade, in addition to automated instance health checks, we
 Run command below and inspect the output to ensure that all containers are healthy (in particular, look for anything that says Restarting):
 
 ```sh
-mg --customer $CUSTOMER check
+mi --customer $CUSTOMER check
 ```
 
 Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
 
 ```sh
-mg forward grafana
+mi forward grafana
 ```
 
 Check frontend logs and there are no recent errors
 
 ```sh
-mg ssh-exec docker logs sourcegraph-frontend-0
+mi ssh-exec docker logs sourcegraph-frontend-0
 ```
 
 ## Instance technicalities
@@ -393,7 +391,7 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
 
 ```sh
-mg ssh
+mi ssh
 docker exec -it gitserver-0 sh
 cd /data/repos/<repo_name>/.git
 cat sgm.log
@@ -478,7 +476,7 @@ service:
 }
 ```
 
-5. Run `mg sync artifacts` and when complete, restart the instance.
+5. Run `mi sync artifacts` and when complete, restart the instance.
 6. Verify on GCP that traces delivered via `HTTP POST` are now available.
 
 ### Deploy new images across all instances
@@ -487,15 +485,15 @@ Use case: you would like to roll out a new images to all instances
 
 - Open a PR to update the golden file and merge it
 - Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
-- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mi sync artifacts` then reload deployment on each instance
 
 ### Update application config across all instances
 
 Use case: you would like to update site-config for all instances
 
-- Open a PR to update `mg` codes with the right configuration
+- Open a PR to update `mi` codes with the right configuration
 - Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
-- Click `Run workflow` and it will run `mg sync` on each instance
+- Click `Run workflow` and it will run `mi sync` on each instance
 
 > This action also runs every 24h to ensure all instances config are correct
 
@@ -510,13 +508,25 @@ The `docker-compose.yaml` of each custom deployment artifacts is a symlink to `g
 
 The global override files are separated into different files by purpose. When adding a new override, you should consider whether you should create a new one or append your override in an existing file. Upon updating the global override files, you should run the command below to update the golden files. The `update-golden` command will pull the target file from upstream, then merge it with every global override files.
 
-> NOTES: you should never edit the golden files manually, let `mg` CLI to do the work
+> NOTES: you should never edit the golden files manually, let `mi` CLI to do the work
 
 ```sh
-mg update-golden -target $version
+mi update-golden -target $version
 ```
 
 Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
+
+### Modify customer specific GCP Managed Instance labels
+
+Customer specific Managed Instance GCP project labels are generated via [mi sync terraform-vars](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed/-/blob/util/cmd/mi/mg_sync_terraform_vars.go?L23).
+
+To modify label:
+
+- modify field in config.yaml for customer
+- run `mi sync terraform-vars`
+- run `source tfvars.env`
+- cd `project`
+- run `terraform apply -var-file=../terraform.tfvars`
 
 ### How to add feature flags?
 
@@ -530,7 +540,7 @@ Upon merging, follow [update application config across all instances](#update-ap
 
 <span class="badge badge-note">SOC2/CI-110</span>
 
-Follow [restore process](./restore_process.md)
+Follow [restore process](v1.1/mi1-1_restore_process.md)
 
 <!-- https://github.com/sourcegraph/security-issues/issues/246 -->
 
@@ -552,16 +562,16 @@ To workaround the issue, locate the resource in GCP yourself and delete it manua
 
 This likely means built-in auth-provider has been disabled. To fix this:
 
-- connect to the DB using `mg db`
+- connect to the DB using `mi db proxy` or similar
 - run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
 - if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
-- quit `mg sql`, use `mg reload-config` to make sure frontend picks-up new changes
+- quit `mi sql`, use `mi reload-config` to make sure frontend picks-up new changes
 
 ### FAQ: sourcegraph-admin login credentials are incorrect
 
 This likely means our admin user account was deleted. To verify
 
-- connect to the DB using `mg db`
+- connect to the DB using `mi db proxy` or similar
 - run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
 - if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
 - login should now work correctly
