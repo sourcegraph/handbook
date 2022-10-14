@@ -1,6 +1,6 @@
 # Repo Management strategy
 
-This page outlines the vision, strategy, and goals of the [Repository Management team](../../../departments/engineering/teams/repo-management/index.md).
+This page outlines the vision, strategy, and goals of the [Repository Management team](../../../departments/engineering/teams/repo-management/index.md). It was last updated on October 13th, 2022.
 
 ---
 
@@ -12,7 +12,7 @@ Our mission (which we do choose to accept) is to ensure that Sourcegraph’s mos
 
 ## Vision
 
-> Our support of code hosts scales to the biggest companies with minimal customization or friction. Sourcegraph engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization. Sourcegraph is easily set up to access any code management system, regardless of type. Sourcegraph functionality works with any code, from anywhere.
+Our support of code hosts scales to the biggest companies with minimal customization or friction. Sourcegraph engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization. Sourcegraph is easily set up to access any code management system, regardless of type. Sourcegraph functionality works with any code, from anywhere.
 
 # Where we are now
 
@@ -24,9 +24,11 @@ There are two official ways to connect code to Sourcegraph:
 - Leveraging src-srv-git or srv git
 
 **Directly Connecting to the Code Host**
+
 Sourcegraph supports [4 main code hosts as Tier 1](https://docs.sourcegraph.com/admin/external_service): GitHub Cloud and Self-hosted, GitLab Cloud and Self-hosted, BitBucket Cloud and Server, and Perforce. Tier 1 code hosts represent our highest level of support and most reliable code host integrations. Full details about current support for these Tier 1 code hosts can be found [here](https://docs.sourcegraph.com/admin/external_service).
 
 **Leveraging src-srv-git or srv git**
+
 For all other code hosts, Sourcegraph provides a CLI tool called src-expose to periodically sync and continuously serve local directories as Git repositories over HTTP. Code hosts that leverage this method have mixed Sourcegraph functionality.
 
 - Search based code intel: ✅
@@ -40,7 +42,7 @@ For all other code hosts, Sourcegraph provides a CLI tool called src-expose to p
 
 Code hosts in this method: Azure DevOps, CVS, SVN, Gerrit, and any others not mentioned in Tier 1.
 
-## Strategy and Plans
+# Strategy and Plans
 
 Last updated: Oct 14, 2022
 
@@ -60,7 +62,3 @@ In the long term we want Sourcegraph to provide seamless, out-of-the-box, code h
 # Detailed Roadmap
 
 While we are working on making our roadmap publicly viewable, we are not yet ready to share our detailed roadmap publicly. Internal Sourcegraph employees can see the [full list of the tracking issues for Repo Management here](https://docs.google.com/spreadsheets/d/15rPg9SBfcp3OP6j7vkYwJkXNsLVWfxpM7JdT2QeSD6Y/edit?usp=sharing).
-
-# Product Gaps
-
-[This document](https://docs.google.com/document/d/14P-QtLBjd264I9-p70wL6rP36_GltAGsF18sMWawzGc/edit#heading=h.vki1iuq1jfl1) is an analysis of all currently recorded product gaps linked to our team.
