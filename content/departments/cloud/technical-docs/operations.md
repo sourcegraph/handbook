@@ -524,7 +524,7 @@ To modify label:
 
 - modify field in config.yaml for customer
 - run `mi sync terraform-vars`
-- run `source source tfvars.env`
+- run `source tfvars.env`
 - cd `project`
 - run `terraform apply -var-file=../terraform.tfvars`
 
