@@ -129,7 +129,7 @@ Contractors who receive options are legally only eligible to receive NSOs (non-q
 
 Reach out to the People Ops team if you have any questions about structuring.
 
-## Frequently asked questions
+## FAQ
 
 ### Pay transparency questions
 
@@ -155,7 +155,7 @@ In rare instances, we allow salaries to exceed the tops of our bands. We strive 
 
 **How often are bands updated?**
 
-We update bands once every six months. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph higher than the band entry point, if our surveys suggest the market has significantly changed from when the band is set. When bands are updated, we provide market adjustments so no one falls below the band entry point.
+We update bands once every six months, in tandem with our Impact Review process. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph higher than the band entry point, if our surveys suggest the market has significantly changed from when the band is set. When bands are updated, we provide market adjustments so no one falls below the band entry point.
 
 Generally speaking, revisiting bands every six months helps avoid market volatility and allows us to extend offers to external candidates consistent with internal pay.
 
