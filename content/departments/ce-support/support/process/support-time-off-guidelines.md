@@ -8,8 +8,8 @@ As such, to amend the company-wide guidelines for PTO, the following additional 
 
 - **Frequency**: While we encourage folks to use their discretion in taking time off, we also implore that good judgment is exercised in doing so. Ensuring that time off is scheduled in a way that does not adversely impact the wider team and our customers exemplifies our “high agency”, “work as a team” and “customer-first” values. A few practices that do not would be:
 
-  1.                                 Requesting extended time off last minute which inhibits the ability to properly plan for coverage.
-  1.                                 Regularly taking time off on Mondays or Fridays to achieve a ‘long weekend’ or a ‘4-day workweek’.
+  1.                                  Requesting extended time off last minute which inhibits the ability to properly plan for coverage.
+  1.                                  Regularly taking time off on Mondays or Fridays to achieve a ‘long weekend’ or a ‘4-day workweek’.
 
   While far from exhaustive, these examples are provided to underline the fact that the team and the customer experience should be taken into consideration as we strive to achieve personal wellbeing and rest.
 
