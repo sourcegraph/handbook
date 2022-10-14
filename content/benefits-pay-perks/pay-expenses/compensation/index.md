@@ -8,7 +8,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 - Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth.
 - Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
-- Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](INSERT MERIT PHILOSOPHY LINK).
+- Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy).
 - Location independent: We pay the same, globally. We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
 
 ## Market competitive
@@ -18,7 +18,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 **Pay**
 At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint.
 
-- **Base pay**: our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](INSERT LINK) to ensure our compensation remains up to date and market competitive.
+- **Base pay**: our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
 
   - Each [job level](leveling-guide.md) has a corresponding compensation band.
 
@@ -109,7 +109,7 @@ We pay for performance in order to retain and motivate our talent to do their be
 
 **How and when merit based compensation decisions are made**
 
-Merit based compensation decisions are made biannually as part of our [impact review and calibration process](INSERT IMPACT REVIEW PAGE). We evaluate Teammate performance on a regular basis, share the outcomes of those calibration sessions with Teammates, and make compensation and promotion decisions based on work outcomes.
+Merit based compensation decisions are made biannually as part of our [impact review and calibration process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md). We evaluate Teammate performance on a regular basis, share the outcomes of those calibration sessions with Teammates, and make compensation and promotion decisions based on work outcomes.
 
 Read more about how Sourcegraph creates a high performance culture through regular impact reviews, review calibrations, and promotions [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
@@ -163,7 +163,7 @@ Generally speaking, revisiting bands every six months helps avoid market volatil
 
 For information about leveling at Sourcegraph at a high level, check out the [Sourcegraph Leveling Guide](leveling-guide.md).
 
-For department specific career development frameworks, check out [this handbook page](INSERT CAREER FRAMEWORK PAGE).
+For department specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md).
 
 **Where can I view my level? Where can I view my colleague’s levels?**
 
