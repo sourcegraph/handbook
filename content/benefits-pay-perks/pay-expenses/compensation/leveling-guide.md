@@ -232,26 +232,6 @@ Management authority (sets performance objectives, performance reviews, proposes
    </td>
   </tr>
   <tr>
-   <td><strong>M2</strong>
-   </td>
-   <td>Supervisor of a function, with a small team of reports
-   </td>
-   <td>You operate as a team lead, coaching and managing a small team or small subset of a team. You are responsible for the execution of the team, with a well defined scope and outcomes.  On the day to day you are focused on ensuring your team is performing effectively.
-   </td>
-   <td>Typically has individual contributor responsibility as significant portion
-<p>
-Team size is typically small (&lt;5 early career or support/nonexempt reports)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>M1</strong>
-   </td>
-   <td>Not used at Sourcegraph
-   </td>
-   <td>TBD
-   </td>
-   <td>Not used at Sourcegraph
-   </td>
   </tr>
 </table>
 
