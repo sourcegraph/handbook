@@ -268,7 +268,7 @@ You can see your role title in the "job" tab of your profile in Bamboo
 
 ### How to see your level
 
-You can see your level in the "job" tab of your profile in Bamboo. The last two digits of your Radford code, which is listed in your Bamboo profile, indicate your role (IC or Manager) and level.  Example: HR.GLBP.P1 indicates a level 1 Individual Contributor; HR.GLBP.M4 indicates a level 4 Manager.  You can see corresponding compensation ranges to all levels in our pay transparency tool, Assemble.
+You can see your level in the "job" tab of your profile in Bamboo. The last two digits of your Radford code, which is listed in your Bamboo profile, indicate your role (IC or Manager) and level. Example: HR.GLBP.P1 indicates a level 1 Individual Contributor; HR.GLBP.M4 indicates a level 4 Manager. You can see corresponding compensation ranges to all levels in our pay transparency tool, Assemble.
 
 ### How we determine your level
 
@@ -328,5 +328,3 @@ In BambooHR, click on **My Info** > **Job** and in the **Compensation** section 
 
   - **Interview Execution vs Level Benchmark:** Candidate interview assessment should be evaluated according to expectations of the job responsibilities and leveling benchmark. If a candidate performs at the expected level of an L3, but the qualified level was benchmarked at L4, the recommendation would be to not hire the candidate if they underperform in the interview assessment. In some cases, it may be appropriate for the hiring team to work with their recruiter to reset the candidate’s expectations, based on the functional role and development opportunities.
   - **Interview Execution vs Years of Experience:** Candidate leveling should not be benchmarked exclusively to the candidate’s resume. For example, if a candidate interview assessment qualifies that they operate at the expected level of an IC5, but their total experience may align closer to others that are benchmarked at lower level, the hiring team should benchmark the candidate at the level we expect them to operate at, not based on the total years of experience within a specific function.
-
-
