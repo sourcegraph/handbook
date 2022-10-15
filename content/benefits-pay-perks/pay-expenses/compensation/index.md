@@ -19,7 +19,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint.
 
-**Base pay**: 
+**Base pay**:
 
 Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
 
@@ -27,11 +27,11 @@ If we are given reason to believe that Radford data doesn't match existing marke
 
 - Each [job level](leveling-guide.md) has a corresponding compensation band.
 
-**Commission**: 
+**Commission**:
 
 We provide variable compensation in the form of commissions for roles that are measured by numerical performance (including certain roles in the Sales and Customer Engineering organizations).
 
-**Equity**: 
+**Equity**:
 
 We are an early-stage company, and every Teammate can have a huge impact on our success. We want to make sure that everyone has a financial stake in our success and that contributions are rewarded.
 
@@ -66,11 +66,11 @@ Each Teammate is matched to a level, which is then tied to a respective compensa
 
 At Sourcegraph, Teammates are able to view all compensation bands used in our organization, including their own. We believe that full transparency of our compensation bands creates clear accountability for all compensation decisions, and ensures pay parity.
 
-Our compensation bands are published internally via [Assemble](https://app.assemble.inc/). We periodically add new bands as we hire for new roles. Executive compensation is not currently listed in Assemble. 
+Our compensation bands are published internally via [Assemble](https://app.assemble.inc/). We periodically add new bands as we hire for new roles. Executive compensation is not currently listed in Assemble.
 
 ### How to view our internal compensation bands
 
-Our compensation bands are internally viewable to all Teammates in **Assemble**. 
+Our compensation bands are internally viewable to all Teammates in **Assemble**.
 
 **Logging into Assemble**
 
@@ -130,7 +130,7 @@ We do not take a Teammate's location into account when determining cash and equi
 
 All Teammates, regardless of employment arrangement, are matched to that same location-independent internal compensation bands.
 
-If someone lives outside the United States, to determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis.  The currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12-months following this review.
+If someone lives outside the United States, to determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis. The currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12-months following this review.
 
 To calculate the currency conversion rate, the Sourcegraph Finance team will take the trailing 12-month average.
 
@@ -146,7 +146,7 @@ At this point, all pay data is anonymized. The only information you can see, out
 
 **What components of pay are transparent?**
 
-Compensation bands reflect cash pay, or cash + commission-based pay for commissionable Teammates. Equity is not reflected in Assemble. 
+Compensation bands reflect cash pay, or cash + commission-based pay for commissionable Teammates. Equity is not reflected in Assemble.
 
 **Who can see our compensation bands?**
 
@@ -162,17 +162,17 @@ In rare instances, we allow salaries to exceed the tops of our bands. We strive 
 
 **How often are bands updated?**
 
-We update bands once every six months, in tandem with our Impact Review process. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph with a compensation package higher than the band entry point.  We only do this if our Radford survey data suggest the market has significantly changed from when the band was set. When bands are updated, we provide immeddiate market adjustments to all Teammates so no one falls below the band entry point. 
+We update bands once every six months, in tandem with our Impact Review process. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph with a compensation package higher than the band entry point. We only do this if our Radford survey data suggest the market has significantly changed from when the band was set. When bands are updated, we provide immeddiate market adjustments to all Teammates so no one falls below the band entry point.
 
 Generally speaking, revisiting bands every six months helps avoid market volatility and allows us to extend offers to external candidates consistent with internal pay.
 
 **Where do I learn more about leveling at Sourcegraph?**
 
-We have a leveling system unique to Sourcegraph, which means a Level 3, for example, is NOT synonymous with a Level 3 at another company.  For information about leveling at Sourcegraph, check out the [Sourcegraph Leveling Guide](leveling-guide.md).
+We have a leveling system unique to Sourcegraph, which means a Level 3, for example, is NOT synonymous with a Level 3 at another company. For information about leveling at Sourcegraph, check out the [Sourcegraph Leveling Guide](leveling-guide.md).
 
 For department specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md).
 
-**Where can I view my level?** 
+**Where can I view my level?**
 
 You can view your job level in BambooHR. From the BambooHR homepage, click “My Info” on the top navigation bar. Select the Job tab and scroll down to the Compensation section. Here, you will find your Radford code.
 
@@ -194,7 +194,7 @@ To calculate the currency conversion rate, the Sourcegraph Finance team will tak
 
 **My pay appears to be below the band - what does that mean for me?**
 
-This is very rare, and the only time a Teammate's salary may appear to fall below the band in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated. This indicates that a Teammate's local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th % or above.  We do not immediately right size comensation in these instances as we can't control currency fluxuations. 
+This is very rare, and the only time a Teammate's salary may appear to fall below the band in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated. This indicates that a Teammate's local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th % or above. We do not immediately right size comensation in these instances as we can't control currency fluxuations.
 
 **Inflation is currently high in the US, and other parts of the world. How is inflation taken into account?**
 
@@ -220,8 +220,8 @@ We evaluate compensation regularly. We believe deeply in rewarding and recognizi
 
 **I’m at the entry point of the band, does that mean I’m underpaid?**
 
-No, our band entry points are set extremely competitively at the 75th percentile of US salaries, meaning that you're already paid above average. Teammates have regular opportunities to receive pay increases through our impact review cycles and promotion. 
+No, our band entry points are set extremely competitively at the 75th percentile of US salaries, meaning that you're already paid above average. Teammates have regular opportunities to receive pay increases through our impact review cycles and promotion.
 
 **My band seems wrong. Who do I talk to?**
 
-We are always happy to investigate. Reach out to `ask-people-team` or your People Partner! 
+We are always happy to investigate. Reach out to `ask-people-team` or your People Partner!
