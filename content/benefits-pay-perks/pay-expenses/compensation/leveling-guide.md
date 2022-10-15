@@ -266,14 +266,15 @@ All teammates are assigned a **role** (e.g. “Software Engineer,” “Product 
 
 **Role:** you can see your role title in the "job" tab of your profile in Bamboo.
 
-**Level:** you can see your level in the "job" tab of your profile in Bamboo. The last two digits of your Radford code, which is listed in your Bamboo profile, indicates your role (IC or Manager) and level. 
-- Example: HR.GLBP.P1 indicates a level 1 Individual Contributor; HR.GLBP.M4 indicates a level 4 Manager. 
+**Level:** you can see your level in the "job" tab of your profile in Bamboo. The last two digits of your Radford code, which is listed in your Bamboo profile, indicates your role (IC or Manager) and level.
+
+- Example: HR.GLBP.P1 indicates a level 1 Individual Contributor; HR.GLBP.M4 indicates a level 4 Manager.
 
 You can see corresponding compensation ranges to all levels in our pay transparency tool, [Assemble](https://app.assemble.inc/).
 
 ### How do you determine my level?
 
-When a new role is opened, the Manager scopes the position and determines what exactly this new Teammate will do, how much experience they need to have.  A level is then assigned to that role based on this information. We hire for specific levels based on business need, and evaluate candidates according to the role/level being hired. [Career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) help further define what role-specific knowledge, skills, and abilities are required at each level.
+When a new role is opened, the Manager scopes the position and determines what exactly this new Teammate will do, how much experience they need to have. A level is then assigned to that role based on this information. We hire for specific levels based on business need, and evaluate candidates according to the role/level being hired. [Career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) help further define what role-specific knowledge, skills, and abilities are required at each level.
 
 For many roles, we’re rolling out [career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) for the first time. Managers are working closely with the People Team, leadership, and their immediate management teams to craft these frameworks. As you progress in your career, your role will be evaluated against the framework and leveled accordingly.
 
@@ -323,7 +324,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 
 ## Why are Sourcegraph's levels different than other companies?
 
-Every company has their own leveling system that is unique to their needs. This means that a Manager 3 at Sourcegraph, for example, is not necessarily equivalent to a level 3 Manager at another company.  We design our leveling system based on Radford's leveling guidelines.
+Every company has their own leveling system that is unique to their needs. This means that a Manager 3 at Sourcegraph, for example, is not necessarily equivalent to a level 3 Manager at another company. We design our leveling system based on Radford's leveling guidelines.
 
 - **Common offer calibration scenarios:**
 
