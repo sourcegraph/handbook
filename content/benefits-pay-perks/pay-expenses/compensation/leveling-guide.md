@@ -43,7 +43,7 @@ _There are 6-levels in the IC career path - IC1 to IC6:_
   <tr>
    <td><strong>IC6</strong>
    </td>
-   <td><strong>Thought Leader:</strong> Sought by senior management (SVP/VP) for advice. Provides vision and road map to navigate major transformational trends within the industry. Represents company externally with singular authority. For some job functions at Sourcegraph, we won't have a business need for IC 5 and IC 6 level teammates.
+   <td>Sought by senior management (SVP/VP) for advice. Provides vision and road map to navigate major transformational trends within the industry. Represents company externally with singular authority. For some job functions at Sourcegraph, we won't have a business need for IC 5 and IC 6 level teammates.
    </td>
    <td>Thought leadership has led to visionary innovations, adoption of new methodologies, and/or strategic technical road maps. Opinion carries weight at the highest levels.
    </td>
@@ -61,7 +61,7 @@ Often requires Exec approval
   <tr>
    <td><strong>IC5</strong>
    </td>
-   <td><strong>Expert:</strong> Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
+   <td>Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
    </td>
    <td>Has unique knowledge and the ability to apply that knowledge to a broader context.
    </td>
@@ -81,7 +81,7 @@ Requires no direction
   <tr>
    <td><strong>IC4</strong>
    </td>
-   <td><strong>Senior: </strong>Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
+   <td>Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
    </td>
    <td>Has domain-specific  knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
    </td>
@@ -97,7 +97,7 @@ Contributes outside direct area of responsibility
   <tr>
    <td><strong>IC3</strong>
    </td>
-   <td><strong>Mid-level:</strong> Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
+   <td>Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
    </td>
    <td>Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
    </td>
@@ -113,7 +113,7 @@ Strong core skills, requires minimal direction
   <tr>
    <td><strong>IC2</strong>
    </td>
-   <td><strong>Developing:</strong> Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
+   <td>Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
    </td>
    <td>Knows the organization and understands the group’s basic terminology and techniques.
    </td>
@@ -129,7 +129,7 @@ Requires some direction
   <tr>
    <td><strong>IC1</strong>
    </td>
-   <td><strong>Entry:</strong> Entry level.
+   <td>Entry level.
    </td>
    <td>Minimum relevant bachelor degree, or equivalent related experience.
    </td>
