@@ -37,7 +37,7 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 The People Team re-evaluates compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy.
 
-Survey data is used to set **band entry points** at the 75th percentile of US market data, and **top of band** at 15% above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
+Survey data is used to set **band entry points** at the 75th percentile of US market data, and **top of band** at 15%+ above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
 
 We are committed to adjusting our compensation bands in response to market shifts, or as scope of roles within Sourcegraph evolve.
 
