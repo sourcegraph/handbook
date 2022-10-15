@@ -183,7 +183,7 @@ To calculate the currency conversion rate, the Sourcegraph Finance team will tak
 
 **My pay appears to be below the band - what does that mean for me?**
 
-The only time a Teammate's salary may appear to fall below the band in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated.  This indicates that a Teammate's local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th % or above.
+The only time a Teammate's salary may appear to fall below the band in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated. This indicates that a Teammate's local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th % or above.
 
 **Inflation is currently high in the US, and other parts of the world. How is inflation taken into account?**
 
