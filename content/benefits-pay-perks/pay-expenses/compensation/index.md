@@ -6,7 +6,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 **Our compensation pillars:**
 
-- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. 
+- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth.
 - Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
 - Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy).
 - Location independent: We pay the same, globally. We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
@@ -20,9 +20,9 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 - **Base pay**: our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
 
-If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify the band. If we determine that the band needs to be re-analyzed, the only possible outcome is that the band increases.  We never decrease salary bands below Radford's 75th %.
+If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify the band. If we determine that the band needs to be re-analyzed, the only possible outcome is that the band increases. We never decrease salary bands below Radford's 75th %.
 
-  - Each [job level](leveling-guide.md) has a corresponding compensation band.
+- Each [job level](leveling-guide.md) has a corresponding compensation band.
 
 - **Commissions**: we provide variable compensation in the form of commissions for roles that are measured by numerical performance (including certain roles in the Sales and Customer Engineering organizations).
 
