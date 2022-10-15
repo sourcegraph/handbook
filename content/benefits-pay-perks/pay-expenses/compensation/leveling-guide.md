@@ -255,28 +255,29 @@ Team size is typically small (&lt;5 early career or support/nonexempt reports)
   </tr>
 </table>
 
-## Your level
+## Level FAQ
+
+### How can I see my role and level?
 
 All teammates are assigned a **role** (e.g. “Software Engineer,” “Product Manager,” “Account Executive”) and **level** (e.g. IC1, IC2, IC3).
 
 - The **Role** defines what you _do_
-- **level** defines the expectations, competencies, abilities, and compensation as you progress within that role
+- The **level** defines the expectations, competencies, abilities, and compensation as you progress within that role
 
-### How to see your role
+**Role:** you can see your role title in the "job" tab of your profile in Bamboo.
 
-You can see your role title in the "job" tab of your profile in Bamboo
+**Level:** you can see your level in the "job" tab of your profile in Bamboo. The last two digits of your Radford code, which is listed in your Bamboo profile, indicates your role (IC or Manager) and level. 
+- Example: HR.GLBP.P1 indicates a level 1 Individual Contributor; HR.GLBP.M4 indicates a level 4 Manager. 
 
-### How to see your level
+You can see corresponding compensation ranges to all levels in our pay transparency tool, [Assemble](https://app.assemble.inc/).
 
-You can see your level in the "job" tab of your profile in Bamboo. The last two digits of your Radford code, which is listed in your Bamboo profile, indicate your role (IC or Manager) and level. Example: HR.GLBP.P1 indicates a level 1 Individual Contributor; HR.GLBP.M4 indicates a level 4 Manager. You can see corresponding compensation ranges to all levels in our pay transparency tool, Assemble.
+### How do you determine my level?
 
-### How we determine your level
+When a new role is opened, the Manager scopes the position and determines what exactly this new Teammate will do, how much experience they need to have.  A level is then assigned to that role based on this information. We hire for specific levels based on business need, and evaluate candidates according to the role/level being hired. [Career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) help further define what role-specific knowledge, skills, and abilities are required at each level.
 
-When an new role is opened, a level is assigned to that role. We hire for specific levels based on business need, and evaluate candidates according to the role/level being hired. [Career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) help further define what role-specific knowledge, skills, and abilities are required.
+For many roles, we’re rolling out [career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) for the first time. Managers are working closely with the People Team, leadership, and their immediate management teams to craft these frameworks. As you progress in your career, your role will be evaluated against the framework and leveled accordingly.
 
-For many roles, we’re rolling out [career development frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) for the first time. Managers are working closely with the People team, leadership, and their immediate management teams to craft these frameworks. As you progress in your career, your role will be evaluated against the framework and leveled accordingly.
-
-### How your level changes over time
+### How does my level change over time?
 
 A Teammate's level can change as they progress in their career.
 
@@ -284,7 +285,7 @@ Each Teammate can see their expected career path by referencing their role-respe
 
 Our leveling guide and career development frameworks are the building blocks that drive career growth and development. They are used to bring consistency and transparency to expectations and promotion criteria/decisions across roles, levels, and teams.
 
-## How leveling impacts compensation
+## How does my level impact compensation?
 
 Every role and level combination corresponds to a **pay band** that informs compensation.
 
@@ -292,19 +293,15 @@ Every role and level combination corresponds to a **pay band** that informs comp
 - We’ve aligned our levels to match levels in our compensation survey tool, Radford. This allows us to quickly “match” jobs to salary survey data and pull up-to-date market pay rate information. We began using Radford in 2022-04 and it is considered the best-of-the-best compensation and leveling tool that most [high-growth SaaS companies](https://radford.aon.com/products/surveys/technology-compensation-survey#s2) use, as well.
 - We regularly re-evaluate our pay bands to ensure market competitiveness. Our [handbook page on compensation](index.md) describes this process in greater detail.
 
-### Can you receive a compensation raise without changing levels?
+### Can I receive a compensation raise without changing levels?
 
 - Yes, there are numerous ways to build skills and experience, which will ultimately lead you to making progress within a level’s dimensions. We complete a biannual talent review and compensation calibration, which includes reviewing and rewarding growth in level.
 - We also benchmark our roles every 6 months to ensure we are keeping up with the market, and will make market adjustments as necessary when our bands are updated.
 
-## How does a teammate progress from one level to the next?
+## How do I progress from one level to the next?
 
 - Promotions from one level to the next are considered in our biannual Talent Review process. Individuals striving toward, and meeting the expectations of, the next level are considered for promotion.
 - To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through the promotion process to solidify the change.
-
-## How can I view my level?
-
-In BambooHR, click on **My Info** > **Job** and in the **Compensation** section you will see your level in the **Radford Job Code** field.
 
 ## How do we use levels in the recruiting process (for both internal and external candidates)?
 
@@ -323,6 +320,10 @@ In BambooHR, click on **My Info** > **Job** and in the **Compensation** section 
 
   - We typically review salary bands against market data twice per year. If market data indicates that our bands are inconsistent or below-market, [we adjust the band](index.md#how-bands-are-changed).
   - If the new compensation band is approved, adjustments will be made for all new hires and existing teammates.
+
+## Why are Sourcegraph's levels different than other companies?
+
+Every company has their own leveling system that is unique to their needs. This means that a Manager 3 at Sourcegraph, for example, is not necessarily equivalent to a level 3 Manager at another company.  We design our leveling system based on Radford's leveling guidelines.
 
 - **Common offer calibration scenarios:**
 
