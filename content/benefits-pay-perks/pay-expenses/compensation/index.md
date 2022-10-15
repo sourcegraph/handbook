@@ -202,7 +202,7 @@ By pulling market data and benchmarking our roles every 6 months, we move as the
 
 Salary band and merit increases do not match the rate of inflation. [Here is a good article explaining "Inflation and salary increases are not the same")[https://www.forbes.com/sites/johnbremen/2022/04/07/why-salary-increases-do-not-keep-pace-with-inflation/?sh=73993dfe7533].
 
-**My level is M4 and I have a director title. My colleague is M5 with a director title. Why is there a difference?**
+**My level is M4 and I have a Director title. Another Teammae's leve is M5 with a Director title. Why is there a difference?**
 
 Our internal titles vary from team to team, so you may notice some job codes where levels may not match titles in this way. When we match our internal jobs to external salary survey data by focusing on core competencies, rather than title naming conventions.
 
