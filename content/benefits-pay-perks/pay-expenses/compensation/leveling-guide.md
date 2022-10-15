@@ -47,15 +47,15 @@ _There are 6-levels in the IC career path - IC1 to IC6:_
    </td>
    <td>Thought leadership has led to visionary innovations, adoption of new methodologies, and/or strategic technical road maps. Opinion carries weight at the highest levels.
    </td>
-   <td>Years of experience not essential
+   <td>Years of experience not essential.
    </td>
-   <td>Visionary
+   <td>Visionary.
 <p>
-Major influence on company business and industry
+Major influence on company business and industry.
 <p>
-RARE: not all functions even have this level
+RARE: not all functions even have this level.
 <p>
-Often requires Exec approval
+Analogy: has sailed around the world twice in a boat they built themself.
    </td>
   </tr>
   <tr>
@@ -65,17 +65,17 @@ Often requires Exec approval
    </td>
    <td>Has unique knowledge and the ability to apply that knowledge to a broader context.
    </td>
-   <td>Years of experience not essential
+   <td>Years of experience not essential.
    </td>
-   <td>Deep expertise/unique knowledge
+   <td>Deep expertise/unique knowledge.
 <p>
-Broad impact, broad context
+Broad impact, broad context.
 <p>
-Provides breakthroughs
+Provides breakthroughs & requires no direction.
 <p>
-Partners regularly with the exec team
+Partners regularly with the exec team.
 <p>
-Requires no direction
+Analogy: occasionally takes the helm; navigates rough waters; knows how to sail different types of boats.
    </td>
   </tr>
   <tr>
@@ -85,13 +85,15 @@ Requires no direction
    </td>
    <td>Has domain-specific  knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
    </td>
-   <td>Typically 8+ years experience
+   <td>Typically 8+ years relevant experience.
    </td>
-   <td>“Go-to” expert
+   <td>“Go-to” expert.
 <p>
-Usually project leader
+Usually project leader.
 <p>
-Contributes outside direct area of responsibility
+Contributes outside direct area of responsibility.
+<p>
+Analogy: sails smaller sailboats solo; knows advanced rigging techniques, confident sailor in most weather.
    </td>
   </tr>
   <tr>
@@ -101,13 +103,15 @@ Contributes outside direct area of responsibility
    </td>
    <td>Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
    </td>
-   <td>Typically 5-8 years experience
+   <td>Typically 5-8 years relevant experience.
    </td>
-   <td>Problem solver
+   <td>Problem solver.
 <p>
-Operates autonomously
+Operates autonomously.
 <p>
-Strong core skills, requires minimal direction
+Strong core skills, requires minimal direction.
+<p>
+Analogy: helps sail the boat; knows basic roping techniques, does basic tasks without help.
    </td>
   </tr>
   <tr>
@@ -117,13 +121,15 @@ Strong core skills, requires minimal direction
    </td>
    <td>Knows the organization and understands the group’s basic terminology and techniques.
    </td>
-   <td>Typically 2-5 years experience
+   <td>Typically 2-5 years relevant experience.
    </td>
-   <td>Task oriented, but gaining/demonstrating independence
+   <td>Task oriented, but gaining/demonstrating independence.
 <p>
-Core skills functional
+Core skills functional.
 <p>
-Requires some direction
+Requires some direction.
+<p>
+Analogy: learns about sailing; takes orders on specific tasks (grab that rope). 
    </td>
   </tr>
   <tr>
@@ -133,17 +139,19 @@ Requires some direction
    </td>
    <td>Minimum relevant bachelor degree, or equivalent related experience.
    </td>
-   <td>Typically 0-2 years experience
+   <td>Typically 0-2 years relevant experience.
    </td>
-   <td>Entry level for professional careers
+   <td>Entry level for professional careers.
 <p>
-Still learning/mastering role
+Still learning/mastering role.
 <p>
-Core skills limited
+Core skills limited.
 <p>
-Requires detailed direction
+Requires detailed direction.
 <p>
 Focused on learning, growth, and establishing themselves as a contributing teammate.
+<p>
+Analogy: rode in a boat once; knows what sailing is.
    </td>
   </tr>
 </table>
@@ -166,39 +174,44 @@ _At Sourcegraph, we use levels M3 to M6_:
   <tr>
    <td><strong>M6</strong>
    </td>
-   <td>Accountable for the performance and results of a large organization, such as a regional function, a large product line, large sales areas or a global job family
+   <td>Accountable for the performance and results of a large organization, such as a regional function, a large product line, large sales areas or a global job family.
    </td>
    <td>You own a significant business area - entire service or multiple services. You set the goals for and own the operational responsibility for the entire business area. Your focus is on driving outcomes with significant impact through others. You develop leaders in your area and you raise the bar on quality across the company. You drive significant org changes across the company to improve throughput, retention and customer outcomes. Your judgment improves the effectiveness of other services.
    </td>
-   <td>Likely reports to head of a major org (SVP or VP level)
+   <td>Likely reports to head of a major org (SVP or VP level).
 <p>
-Often has very large team relative to the function
+Often has very large team relative to the function.
 <p>
-Usually has global responsibility
+Usually has global responsibility.
 <p>
-Likely has major financial oversight or influence on operational expenses
+Likely has major financial oversight or influence on operational expenses.
 <p>
-Role is very strategic in nature with long-term impact
+Role is very strategic in nature with long-term impact.
+<p>
+Analogy: oversees several boat captains; capable of directing a fleet of large ships safely through a tropical storm (inspires action, coordinates simultaneous initiatives).
+  Directs efforts of both air and ground search parties (Inspires action, coordinates simultaneous initiatives)
    </td>
   </tr>
   <tr>
    <td><strong>M5</strong>
    </td>
-   <td>Accountable for the performance, results and strategic direction of a department. Provides leadership to lower level managers and expert level individual contributors
+   <td>Accountable for the performance, results and strategic direction of a department. Provides leadership to lower level managers and expert level individual contributors.
    </td>
-   <td>You own a larger area of our services. You own the operational responsibility of the whole area, and accomplish outcomes through other people, leading through others. Your focus is on judgment and execution around outcomes, and you understand how your area fits into the bigger picture of the company. You help make prioritization decisions for the company around your area, making the right call around the level of investment needed in your area relative to others, including moving resources outside your area when important for the business. You hire and develop your managers and leaders effectively
+   <td>You own a larger area of our services. You own the operational responsibility of the whole area, and accomplish outcomes through other people, leading through others. Your focus is on judgment and execution around outcomes, and you understand how your area fits into the bigger picture of the company. You help make prioritization decisions for the company around your area, making the right call around the level of investment needed in your area relative to others, including moving resources outside your area when important for the business. You hire and develop your managers and leaders effectively.
    </td>
-   <td>Typically reports to M6 or VP-level
+   <td>Typically reports to M6 or VP-level.
 <p>
-Usually will be a “manager of other managers”
+Usually will be a “manager of other managers.”
 <p>
-Sets priorities and the strategic direction of the department
+Sets priorities and the strategic direction of the department.
 <p>
-Role may have complexity such as multi-site/ country/ regions, or large team size
+Role may have complexity such as multi-site/ country/ regions, or large team size.
 <p>
-Sizable financial responsibility relative to other roles within the function
+Sizable financial responsibility relative to other roles within the function.
 <p>
-Requires very little direction
+Requires very little direction.
+<p>
+Analogy: captain of a large ship; takes large vessels on long voyages through treacherous waters (strategic battle-tested leader, directs operational units).
    </td>
   </tr>
   <tr>
@@ -208,13 +221,15 @@ Requires very little direction
    </td>
    <td>You operate a single complex area or a couple of medium sized  areas of our services, with one or two teams with several individual contributors who report to you. You continually improve and expand the operational footprint of your area as complexity/scope increases. You set the bar for operational, people, and roadmap aspects of your area and advise/coach other managers effectively on the process. You are effective at driving debate and goal setting with the manager team.
    </td>
-   <td>Leads a medium-to-large sized team, maybe multi-site
+   <td>Leads a medium-to-large sized team, maybe multi-site.
 <p>
 Full management authority for performance reviews, pay decisions, recruitment, discipline, termination, etc.
 <p>
-May manage one or several cost centers
+May manage one or several cost centers.
 <p>
-Individuals are more seasoned and have broader influence than M3
+Individuals are more seasoned and have broader influence than M3.
+<p>
+Analogy: captain of a ship; takes mid-sized vessels on longer voyages through bumpy water (strong tactical decision-maker, handles unforeseen issues).
    </td>
   </tr>
   <tr>
@@ -224,11 +239,13 @@ Individuals are more seasoned and have broader influence than M3
    </td>
    <td>You operate a single area or a couple of smaller areas of our services, with one or two teams with several individual contributors who report to you. You own this area fully; you are responsible for the operational, people, and roadmap aspects of your area. On the day to day you are focused on the operational details of your area, understanding the needs of your customers, and ensuring your team is performing effectively to serve those needs.
    </td>
-   <td>Usually manages a small to medium sized team of individual contributor professionals
+   <td>Usually manages a small to medium sized team of individual contributor professionals.
 <p>
-Greater than 50% of time spent on manager duties vs. individual contribution
+Greater than 50% of time spent on manager duties vs. individual contribution.
 <p>
-Management authority (sets performance objectives, performance reviews, proposes compensation actions)
+Management authority (sets performance objectives, performance reviews, proposes compensation actions).
+<p>
+Analogy: captain of a smaller crew; takes people on day trips.
    </td>
   </tr>
   <tr>
