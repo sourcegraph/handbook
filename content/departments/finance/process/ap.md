@@ -146,6 +146,10 @@ For SaaS vendor contracts greater than $5,000, we utilize Vendr as a contract ma
 
 Furthermore, the Sourcegraph Finance department will maintain a contract register to record expenditures valued at greater than $10,000 (annualized amount).
 
+##### Logo Rights or Case Study
+
+Must be approved by the business champion and marketing.
+
 ##### Contract Renewals
 
 For SaaS vendor contracts greater than $5,000, we utilize Vendr as a renewal management tool. For all other contracts, designated buyers (employees who are responsible for the spend) should monitor contract end dates or renewal dates to ensure that:

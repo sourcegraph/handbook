@@ -8,7 +8,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 - Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth.
 - Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
-- Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](INSERT MERIT PHILOSOPHY LINK).
+- Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy).
 - Location independent: We pay the same, globally. We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
 
 ## Market competitive
@@ -18,7 +18,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 **Pay**
 At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint.
 
-- **Base pay**: our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](INSERT LINK) to ensure our compensation remains up to date and market competitive.
+- **Base pay**: our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
 
   - Each [job level](leveling-guide.md) has a corresponding compensation band.
 
@@ -35,9 +35,9 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 ### How market data informs our compensation bands
 
-The People Team re-evaluates compensation bands every six months, in alignment with our [Impact Review Process](INSERT LINK TO IMPACT REVIEW PAGE) to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy.
+The People Team re-evaluates compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy.
 
-Survey data is used to set **band entry points** at the 75th percentile of US market data, and **top of band** at 15% above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](INSERT LINK TO CAREER FRAMEWORK PAGE). By establishing competitive band entry points, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
+Survey data is used to set **band entry points** at the 75th percentile of US market data, and **top of band** at 15% above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
 
 We are committed to adjusting our compensation bands in response to market shifts, or as scope of roles within Sourcegraph evolve.
 
@@ -109,9 +109,9 @@ We pay for performance in order to retain and motivate our talent to do their be
 
 **How and when merit based compensation decisions are made**
 
-Merit based compensation decisions are made biannually as part of our [impact review and calibration process](INSERT IMPACT REVIEW PAGE). We evaluate Teammate performance on a regular basis, share the outcomes of those calibration sessions with Teammates, and make compensation and promotion decisions based on work outcomes.
+Merit based compensation decisions are made biannually as part of our [impact review and calibration process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md). We evaluate Teammate performance on a regular basis, share the outcomes of those calibration sessions with Teammates, and make compensation and promotion decisions based on work outcomes.
 
-Read more about how Sourcegraph creates a high performance culture through regular impact reviews, review calibrations, and promotions [here](INSERT IMPACT REVIEW PAGE).
+Read more about how Sourcegraph creates a high performance culture through regular impact reviews, review calibrations, and promotions [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
 ## Location independent
 
@@ -129,7 +129,7 @@ Contractors who receive options are legally only eligible to receive NSOs (non-q
 
 Reach out to the People Ops team if you have any questions about structuring.
 
-## Frequently asked questions
+## FAQ
 
 ### Pay transparency questions
 
@@ -155,7 +155,7 @@ In rare instances, we allow salaries to exceed the tops of our bands. We strive 
 
 **How often are bands updated?**
 
-We update bands once every six months. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph higher than the band entry point, if our surveys suggest the market has significantly changed from when the band is set. When bands are updated, we provide market adjustments so no one falls below the band entry point.
+We update bands once every six months, in tandem with our Impact Review process. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph higher than the band entry point, if our surveys suggest the market has significantly changed from when the band is set. When bands are updated, we provide market adjustments so no one falls below the band entry point.
 
 Generally speaking, revisiting bands every six months helps avoid market volatility and allows us to extend offers to external candidates consistent with internal pay.
 
@@ -163,7 +163,7 @@ Generally speaking, revisiting bands every six months helps avoid market volatil
 
 For information about leveling at Sourcegraph at a high level, check out the [Sourcegraph Leveling Guide](leveling-guide.md).
 
-For department specific career development frameworks, check out [this handbook page](INSERT CAREER FRAMEWORK PAGE).
+For department specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md).
 
 **Where can I view my level? Where can I view my colleague’s levels?**
 
@@ -197,11 +197,11 @@ To determine your level, find your **Radford Job Code** in Bamboo. You can then 
 
 **If we hire externally into the entry point of our salary bands, why are some Teammates paid higher in band, or even above band?**
 
-Most individuals were hired into Sourcegraph at the 75th percentile of market at the time their offer was made. We offer several opportunities for Teammates to receive increases that reward and recognize their impact. Read about our merit increase philosophy [here](INSERT LINK TO IMPACT REVIEW PROCESS).
+Most individuals were hired into Sourcegraph at the 75th percentile of market at the time their offer was made. We offer several opportunities for Teammates to receive increases that reward and recognize their impact. Read about our merit increase philosophy [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
 **How do I move up in my band?**
 
-We regularly evaluate compensation regularly. We believe deeply in rewarding and recognizing impact. Strong performance at Sourcegraph will result in regular compensation increases. Teammates who are given an "exceeding high bar" rating in the Impact Review process are eligible for a merit increase every 6-months, and Teammates who "meet our high bar" are eligible every 12-months. Learn more about our impact reviews [here](INSERT LINK TO IMPACT REVIEW PROCESS)
+We regularly evaluate compensation regularly. We believe deeply in rewarding and recognizing impact. Strong performance at Sourcegraph will result in regular compensation increases. Teammates who are given an "exceeding high bar" rating in the Impact Review process are eligible for a merit increase every 6-months, and Teammates who "meet our high bar" are eligible every 12-months. Learn more about our impact reviews [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
 **I’m at the entry point of the band, does that mean I’m underpaid?**
 
