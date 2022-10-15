@@ -149,7 +149,7 @@ Full compensation visibility is for internal use only. During the Recruiting pro
 
 ### General compensation questions
 
-**My pay is out of band - what does that mean for me?**
+**My pay is above the band - what does that mean for me?**
 
 We do not allow salaries to fall below our established pay entry points. We re-run compensation data every 6 months in alignment with our Impact Review Process and will right-size anyone who has fallen below the 75th percentile.
 
@@ -180,6 +180,10 @@ Because we benchmark to US-based data and offer location-independent pay, we use
 To determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis, and the currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review.
 
 To calculate the currency conversion rate, the Sourcegraph Finance team will take the trailing 12-month average.
+
+**My pay appears to be below the band - what does that mean for me?**
+
+The only time a Teammate's salary may appear to fall below the band in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated. This indicates that a Teammate's local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th % or above.
 
 **Inflation is currently high in the US, and other parts of the world. How is inflation taken into account?**
 
