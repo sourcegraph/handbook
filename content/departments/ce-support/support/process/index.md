@@ -1,6 +1,5 @@
 # Support Team Processes
 
-
 - [Business continuity plan](business-continuity-plan.md)
 - [Case reviews](process/case-reviews.md)
 - [Change Management Checklist](process/change-management-checklist.md)
