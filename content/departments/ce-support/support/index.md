@@ -19,19 +19,22 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 
 Letting customers talk to us where they prefer and streamlining our workflow must also be balanced with other elements of the customer experience. Handoffs cause frustration more than any other aspect of trying to get help. How we work accounts for this. It also accounts for continually positioning our CEs as trusted and reliable partners who need time to think about customers proactively.
 
-## Team Reference Resources 
+## Team Reference Resources
 
 ### Team Culture & Norms
+
 - [Team Processes & Workflows](process/index.md)
 - [Team rituals](team-culture/index.md)
 - [Team schedule](process/support-schedule.md)
 
 ### Internal Team Resources
+
 - [New Team Member Onboarding](onboarding/index.md)
 - [Career Development](career-growth/index.md)
 - [Educational Materials](process/enablement/index.md)
 
 ### External Team Resources
+
 - [How we work with other teams](process/engaging-other-teams.md)
 - [Assigned application engineers](team/assigned-app-eng.md)
 - [Business continuity](process/business-continuity-plan.md)
