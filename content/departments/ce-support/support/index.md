@@ -57,7 +57,7 @@ While Sourcegraph will strive to respond as soon as possible to every issue, we 
 
 #### Sev 0 - Emergency Support Scope
 
-What constitues a Sev 0 - Emergency:
+What constitutes a Sev 0 - Emergency:
 
 - Instance is completely down, unavailable or unresponsive for all users
 - Web UI showing 4xx or 5xx errors on every page
