@@ -28,7 +28,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 ### Internal Team Resources
 - [New Team Member Onboarding](onboarding/index.md)
-- [Career Deveopment](career-growth/index.md)
+- [Career Development](career-growth/index.md)
 - [Educational Materials](process/enablement/index.md)
 
 ### External Team Resources
