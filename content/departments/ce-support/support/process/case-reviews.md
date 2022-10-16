@@ -9,7 +9,7 @@ These practices are:
 
 ## Peer reviews (bi-weekly cadence)
 
-This is similar to the idea of code reviews in the sense that application engineers would review cases for their teammates based on our [guiding principles](../index.md#guiding-principles) and the [individual measures of success](../index.md#as-an-individual-application-engineer) for the role.
+This is similar to the idea of code reviews in the sense that application engineers would review cases for their teammates based on our [guiding principles](../index.md#guiding-principles) and the individual measures of success.
 
 The goal of this practice is to provide an opportunity for application engineers to have conversations that honour our intention to deliver a memorable customer experience to clients on a regular basis. It is not intended to be a performance assessment tool or a report card.
 
@@ -52,7 +52,3 @@ The outcome of this practice would be that each application engineer:
 
 - Receives two (2) self + manager reviews each month.
 - Gets coached to become more aware of their impact and level up their case reviews skills.
-
-## Putting it all together
-
-The long-term (ongoing) outcome of having both these practices in place would be that each application engineer would receive a minimum of four (4) peer reviews (two for a start) and two (2) self-review and manager reviews each month. This, I believe would set the team up nicely to achieve [Key Result 1](../strategy-goals/FY22Q4-OKR-Plan.md#kr1) from our FY22Q4 [OKRs](../strategy-goals/FY22Q4-OKR-Plan.md).
