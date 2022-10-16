@@ -1,15 +1,14 @@
 # Customer Support
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammeates.
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammates.
 
 ### Our guiding principles:
 
-- Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
-- Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](process/enablement/root-cause.md) for inspiration)
-- Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication) (see [an open letter about staying a step ahead](process/enablement/step-ahead.md))
+- Persistently working toward and/or seeking resolution that works equally for our customers and us
+- Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication)
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
-- Share our learnings through [our official documentation](https://docs.sourcegraph.com/) so that customers have a single source of truth
+- Sharing our learnings through [our official documentation](https://docs.sourcegraph.com/) so that customers have a single source of truth
 
 ## We know that we are successful when we...
 
@@ -20,30 +19,22 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 
 Letting customers talk to us where they prefer and streamlining our workflow must also be balanced with other elements of the customer experience. Handoffs cause frustration more than any other aspect of trying to get help. How we work accounts for this. It also accounts for continually positioning our CEs as trusted and reliable partners who need time to think about customers proactively.
 
-- [Application engineer onboarding](onboarding/customer-support-onboarding.md)
-- [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
-- [Career growth](career-growth/index.md)
-- [Team README](team/index.md)
-- [Team schedule](process/support-schedule.md)
-- [Team Meeting Norms](team/team-meeting-norms.md)
+## Team Reference Resources 
+
+### Team Culture & Norms
+- [Team Processes & Workflows](process/index.md)
 - [Team rituals](team-culture/index.md)
-- [Workflow](process/support-workflow.md)
-- [Prioritization](process/support-prioritization.md)
-- [Customer exceptions](process/customer-exceptions.md)
-- [Engaging other teams](process/engaging-other-teams.md)
-- [Serving as messenger during incidents](process/serving-as-a-messenger-during-incidents.md)
-- [Triaging](process/customer-support-triaging.md)
-- [Support capacity levels and contingencies](process/support-capacity-levels-and-contingencies.md)
-- [Case reviews](process/case-reviews.md)
-- [Enablement](process/enablement/index.md)
-- [Tools](tools/index.md)
+- [Team schedule](process/support-schedule.md)
+
+### Internal Team Resources
+- [New Team Member Onboarding](onboarding/index.md)
+- [Career Deveopment](career-growth/index.md)
+- [Educational Materials](process/enablement/index.md)
+
+### External Team Resources
+- [How we work with other teams](process/engaging-other-teams.md)
 - [Assigned application engineers](team/assigned-app-eng.md)
-- [Permanently deleting user data](process/permanently_deleting_user_data.md)
-- [Removing repositories from cloud](process/removing-repositores-from-cloud.md)
 - [Business continuity](process/business-continuity-plan.md)
-- [Cloud Maintenance Window Process](process/cloud-maintenance-window.md)
-- [Change Management Checklist](process/change-management-checklist.md)
-- [FAQ for CEs](process/ce-faq.md)
 
 ## SLAs
 
