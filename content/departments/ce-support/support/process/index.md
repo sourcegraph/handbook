@@ -1,18 +1,23 @@
-# Support Processes
+# Support Team Processes
 
-- [Enablement](enablement/index.md)
+
 - [Business continuity plan](business-continuity-plan.md)
+- [Case reviews](process/case-reviews.md)
+- [Change Management Checklist](process/change-management-checklist.md)
+- [Cloud Maintenance Window Process](process/cloud-maintenance-window.md)
 - [Collaboration time](collaboration-time.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Customer support triaging](customer-support-triaging.md)
-- [Engaging other teams](engaging-other-teams.md)
 - [How To Ticket Procedure](how-to-tickets.md)
 - [Managing CS AWS](managing-cs-aws.md)
 - [Managing CS K8s](managing-cs-k8s.md)
 - [P4 Enablement](p4-enablement.md)
 - [Permanently deleting user data](permanently_deleting_user_data.md)
-- [Quarterly planning](quarterly-planning.md)
 - [Managed instances](support-managed-instances.md)
+- [Permanently deleting user data](process/permanently_deleting_user_data.md)
 - [Prioritization](support-prioritization.md)
+- [Removing repositories from cloud](process/removing-repositores-from-cloud.md)
 - [Schedule](support-schedule.md)
+- [Support capacity levels and contingencies](process/support-capacity-levels-and-contingencies.md)
+- [Triaging](process/customer-support-triaging.md)
 - [Workflow](support-workflow.md)
