@@ -17,7 +17,6 @@
 - [Permanently deleting user data](process/permanently_deleting_user_data.md)
 - [Prioritization](support-prioritization.md)
 - [Removing repositories from cloud](process/removing-repositores-from-cloud.md)
-- [Schedule](support-schedule.md)
 - [Support capacity levels and contingencies](process/support-capacity-levels-and-contingencies.md)
 - [Triaging](process/customer-support-triaging.md)
 - [Workflow](support-workflow.md)
