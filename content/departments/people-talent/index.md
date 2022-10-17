@@ -8,7 +8,7 @@ If you need to discuss something confidential or private, please Slack your [Peo
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
-## RESOURCES FOR CANDIDATES 
+## RESOURCES FOR CANDIDATES
 
 ### Open positions
 
@@ -67,8 +67,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - When impact reviews take place (COMING SOON)
   - How to write an impact review (COMING SOON)
-  - Who is eligible for a merit increase (COMING SOON)
--[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - Who is eligible for a merit increase (COMING SOON) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
   - [Our level guide](COMING SOON)
   - [How to view your current level](COMING SOON)
