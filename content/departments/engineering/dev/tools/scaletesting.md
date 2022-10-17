@@ -152,8 +152,8 @@ It can also easily be scaled up or down with the following steps:
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Edit the machine type - We recommended staying within the `n2-highmem-xx` family as it's configuration best suits GitHub's requirements
-![edit-machine-type](https://storage.googleapis.com/sourcegraph-assets/handbook/edit-machine-type.png)
-1. Click Save, and start the instance back up.
+   ![edit-machine-type](https://storage.googleapis.com/sourcegraph-assets/handbook/edit-machine-type.png)
+3. Click Save, and start the instance back up.
 
 #### Increase Disk
 
@@ -164,11 +164,11 @@ Increasing disk is a 2 part process - you have to increase disk on the VM, and t
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. In the Google Cloud Console, go to the Disks page under Compute Engine
-3. Identify which disk you want to increase 
-![select-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk.png)
-1. Click Edit and enter the new size for your disk. 
-2. Click Save, and start the instance back up.
-3. Follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
+3. Identify which disk you want to increase
+   ![select-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk.png)
+4. Click Edit and enter the new size for your disk.
+5. Click Save, and start the instance back up.
+6. Follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
 
 ### Logging in
 
