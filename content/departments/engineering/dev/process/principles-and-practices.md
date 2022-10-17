@@ -55,7 +55,7 @@ And yes, that comes with _responsibility_ -- with high agency and a customer-fir
 - It's up to _you_ to think about whether what you build actually solves the customer's problem and provides value. You, as an engineer, can see possibilities and options that others can't – it's up to you to make use of that knowledge.
 - It's up to _you_ to collaborate with product, design, and analytics to ensure there is a business case for your work, it meets our user experience standards, and that analytics exist to help gauge its value to the customer.
 - It's up to _you_ to define a roadmap if one is missing and to then execute on it, to update it, and to share what you learned with others, so they can understand what you're working on and why and how it relates to their work.
-- It's up to _you_ to propose decisions that you think should be made. Instead of waiting and asking for others to make decisions for you and being blocked. And if you don't get the feedback on your proposed decisions that you need, it's up to you to let others know that you're going to execute on what you decided and then execute.
+- It's up to _you_ to propose decisions that you think should be made, instead of waiting and asking for others to make decisions for you. And if you don't get the feedback on your proposed decisions that you need, it's up to you to let others know that you're going to execute on what you decided and then execute.
 - It's up to _you_ to take a step back when you realize that you're just building something because it's fun to build, or because it's new & shiny, but not because it has value to customers.
 - It's up to _you_ to do everything you can as an engineer to provide as much value as possible to our customers.
 
