@@ -69,10 +69,16 @@ In order to reproduce a customer scenario accurately, you'll need access to the 
 
 The following code hosts are available for testing:
 
+#### Github Enterprise
 - [ghe.sgdev.org](https://ghe.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=bw4nttlfqve3rc6xqzbqq7l7pm&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
+- [ghe-scaletesting.sgdev.org](https://ghe-scaletesting.sgdev.org)
+  - see GHE-Scaletesting
+
+#### Gitlab Enterprise
 - [gitlab.sgdev.org](https://gitlab.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=ohorqvirgq5t2h5cpo4hwafpuy&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
+
 
 The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored, depending on test types and demand.
 
@@ -118,6 +124,56 @@ or to start it:
 `gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
 
 ## Testing Data
+
+## GitHub Enterprise for Scale Testing
+
+A GitHub enterprise instance has been deployed in the same project as `sourcegraph-scaletesting` and can be accessed at https://ghe-scaletesting.sgdev.org. It is initially set up to handle 10k users, with the ability to scale up and down as needed. Please shut down the instance if you are done with testing and is not needed anymore. 
+
+### Instance start up and shut down
+
+The instance can easily be started/shut down with the following commands:
+
+- Start up: `gcloud compute instances start ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`
+- Shut down: `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`
+
+When starting the instance, it could take up to 5 mins for the application to set up before fully operational. The UI will indicate when it is ready to be used. 
+
+### Scaling the instance
+
+The instance has been set up to handle 10k users based off of the [recommended specs](https://docs.github.com/en/enterprise-server@3.6/admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-google-cloud-platform#minimum-requirements) from GitHub. 
+
+It can also easily be scaled up or down with the following steps:
+
+**Note:** Be cautious when scaling up, as we can only scale up and down CPU/Mem but not disk. To avoid overprovisioning, only increase disk size when needed. 
+
+#### Increase/Decrease CPU and Memory
+1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command 
+   `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`. 
+2. Edit the machine type
+![edit-machine-type](edit-machine-type.png)
+3. Click Save, and start the instance back up.
+
+#### Increase Disk
+**Note:** Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
+
+Increasing disk is a 2 part process - you have to increase disk on the VM, and then expand the ghe filesystem for the changes to be applied. 
+1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command 
+   `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`. 
+2. In the Google Cloud Console, go to the Disks page under Compute Engine
+3. Identify which disk you want to increase 
+![select-disk](increase-disk.png)
+4. Click Edit and enter the new size for your disk. 
+5. Click Save, and start the instance back up.
+6. Follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
+
+### Logging in
+The instance has been set up with an admin account, please find the credentials in our [1Pass vault](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=cjfb3n4rqj6s7mu3dkbci4dk2u&i=q3g4ywrebjiqmti2xro5tq5jwa&h=team-sourcegraph.1password.com)
+
+### Licenses
+TBD 
+
+### Data and Repositories
+TBD
 
 ## Long running task machine
 
@@ -198,5 +254,6 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 #### Large amount of commits
 
 The following repositories are available to test against repositories with a massive amount of commits:
+
 
 - `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)
