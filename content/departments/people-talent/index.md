@@ -269,8 +269,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Types of employment
   - US-based Teammates
-  - Contractors
-  - PEO
+  - [Contractors](people-ops/process/how-we-engage-talent-outside-the-us/index.md#contractors)
+  - [PEO](people-ops/tools/peo.md)
 - [BambooHR](people-ops/tools/bamboohr.md)
 
 ### Teammate development
