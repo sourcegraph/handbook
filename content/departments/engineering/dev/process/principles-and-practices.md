@@ -48,16 +48,16 @@ No. It's this:
 
 And yes, that comes with _responsibility_. To rephrase that famous Spider-Man quote: with high agency and a customer-first attitude comes high responsibility. Everything else flows from that:
 
-* It's up to _you_ to make sure your work meets engineering standards.
-* It's up to _you_ to make sure it doesn't blow up in production.
-* It's up to _you_ to sometimes push back against feature requests or a roadmap, to make sure there's enough time to take care of engineering concerns, like refactoring and testing.
-* It's up to _you_ to come up with ideas on how to improve what you're building.
-* It's up to _you_ to think about whether what you build actually solves the customer's problem and provides value. You, as an engineer, can see possibilities and options that others can't – it's up to you to make use of that knowledge.
-* It's up to _you_ to collaborate with product, design, and analytics to ensure there is a business case for your work, it meets our user experience standards, and that analytics exist to help gauge its value to the customer.
-* It's up to _you_ to define a roadmap if one is missing and to then execute on it, to update it, and to share what you learned with others, so they can understand what you're working on and why and how it relates to their work.
-* It's up to _you_ to propose decisions that you think should be made. Instead of waiting and asking for others to make decisions for you and being blocked. And if you don't get the feedback on your proposed decisions that you need, it's up to you to let others know that you're going to execute on what you decided and then execute.
-* It's up to _you_ to take a step back when you realize that you're just building something because it's fun to build, or because it's new & shiny, but not because it has value to customers.
-* It's up to _you_ to do everything you can as an engineer to provide as much value as possible to our customers.
+- It's up to _you_ to make sure your work meets engineering standards.
+- It's up to _you_ to make sure it doesn't blow up in production.
+- It's up to _you_ to sometimes push back against feature requests or a roadmap, to make sure there's enough time to take care of engineering concerns, like refactoring and testing.
+- It's up to _you_ to come up with ideas on how to improve what you're building.
+- It's up to _you_ to think about whether what you build actually solves the customer's problem and provides value. You, as an engineer, can see possibilities and options that others can't – it's up to you to make use of that knowledge.
+- It's up to _you_ to collaborate with product, design, and analytics to ensure there is a business case for your work, it meets our user experience standards, and that analytics exist to help gauge its value to the customer.
+- It's up to _you_ to define a roadmap if one is missing and to then execute on it, to update it, and to share what you learned with others, so they can understand what you're working on and why and how it relates to their work.
+- It's up to _you_ to propose decisions that you think should be made. Instead of waiting and asking for others to make decisions for you and being blocked. And if you don't get the feedback on your proposed decisions that you need, it's up to you to let others know that you're going to execute on what you decided and then execute.
+- It's up to _you_ to take a step back when you realize that you're just building something because it's fun to build, or because it's new & shiny, but not because it has value to customers.
+- It's up to _you_ to do everything you can as an engineer to provide as much value as possible to our customers.
 
 Sometimes that's writing docs, sometimes it's getting deep into the weeds and doing performance optimizations for weeks, sometimes you should jump on a call with a customer to find out exactly what they want or what's bugging them, sometimes you need to record a demo video to make sure what you built actually lands with customers.
 
