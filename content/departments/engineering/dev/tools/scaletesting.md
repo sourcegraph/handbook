@@ -149,7 +149,7 @@ It can also easily be scaled up or down with the following steps:
 #### Increase/Decrease CPU and Memory
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command 
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`. 
-2. Edit the machine type
+2. Edit the machine type - We recommended staying within the `n2-highmem-xx` family as it's configuration best suits GitHub's requirements
 ![edit-machine-type](edit-machine-type.png)
 3. Click Save, and start the instance back up.
 
