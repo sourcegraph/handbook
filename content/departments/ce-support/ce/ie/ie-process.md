@@ -41,6 +41,7 @@ Occassionaly, customers will go live with a simpler deployment method that can't
 #### Production Ready Trial Deployments
 
 This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
+
 - The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
 - The opp must impact FY23 revenue
 - The opp must be reviewed by CE and Sales leadership and selected from the implementation request backlog
