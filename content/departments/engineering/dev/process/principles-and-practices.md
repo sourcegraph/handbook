@@ -34,7 +34,7 @@ If you have an idea for something you want to work on, then you have a few optio
 
 Ownership at Sourcegraph, as exercised by the most successful engineering teams and individuals here, is built on _high agency_ and _customer focus_.
 
-High agency because ownership here doesn't come with a lot of "how"s attached. Instead you get a lot of freedom. Freedom for you to decide how exactly you want to reach your goals.
+High agency because ownership at Sourcegraph doesn't come with a lot of "how"s attached. Instead you get a lot of freedom. Freedom for you to decide how exactly you want to reach your goals.
 
 Customer focus because ownership here (again: as exercised by the most successful teams and individuals) is not solely about code ownership. It's about owning the **responsibility of providing value to customers in the area you own.**
 
@@ -46,7 +46,7 @@ No. It's this:
 
 > I own X because my goal is to ship X to customers and I'll do everything I can as an engineer to make that happen.
 
-And yes, that comes with _responsibility_. To rephrase that famous Spider-Man quote: with high agency and a customer-first attitude comes high responsibility. Everything else flows from that:
+And yes, that comes with _responsibility_ -- with high agency and a customer-first attitude comes high responsibility. Everything else flows from that:
 
 - It's up to _you_ to make sure your work meets engineering standards.
 - It's up to _you_ to make sure it doesn't blow up in production.
@@ -61,14 +61,14 @@ And yes, that comes with _responsibility_. To rephrase that famous Spider-Man qu
 
 Sometimes that's writing docs, sometimes it's getting deep into the weeds and doing performance optimizations for weeks, sometimes you should jump on a call with a customer to find out exactly what they want or what's bugging them, sometimes you need to record a demo video to make sure what you built actually lands with customers.
 
-Sometimes it's about civil disobedience. That doesn't mean you should break the law or behave against our values. No, on the contrary. It means that sometimes a process or a convention has outlived its usefulness (or goes against our values) and the only way to demonstrate that is by not doing it, and calling it out even if no one asked you. Other times it means breaking the chain of command, if, for example, you think something's going to happen that will affect a customer in a negative way but you don't think anyone's listening.
-
 Sometimes it means helping out other teams, because they're completely under water, but if they don't manage to pull this off, then your customers are impacted.
 
-Sometimes it means changing code that you don't officially own on paper – because you need the code to be changed in order to fix your customer's problem. You need team A to build FooWidget but team A is busy with something else and said they can't do it at the moment? Forget about the which-teams-owns-which-folder level of ownership and start asking: can _you_ build X? Can you build a prototype and get sign-off from team A and then continue, because your customer is waiting for it?
+Sometimes it means changing code that you don't officially own on paper – because you need the code to be changed in order to fix your customer's problem. You need team A to build FooWidget but team A is busy with something else and said they can't do it at the moment? Forget about the which-teams-owns-which-folder level of ownership and start asking: can _you_ build X? Can you build a prototype and get sign-off from team A and then continue, because your customer is waiting for it? You can expect your collaborators to be open towards contributions, so why not make use of that?
 
-The way I see it, true ownership revolves around one thing: "what can I do – with my skills, my expertise, my experience – to provide value to my customers?"
+Sometimes it's about civil disobedience. That doesn't mean you should break the law or behave against our values. No, on the contrary. It means that sometimes a process or a convention has outlived its usefulness (or goes against our values) and the only way to demonstrate that is by not doing it, and calling it out even if no one asked you. Other times it means breaking the chain of command, if, for example, you think something's going to happen that will affect a customer in a negative way but you don't think anyone's listening.
 
-And yes, sure, all of that responsibility is daunting. Of course, it's much more comfortable to lean back and say "I'll just work on my tickets, thank you." But I'm also quite sure that's not what you were hired for.
+True ownership revolves around one thing: "what can I do – with my skills, my expertise, my experience – to provide value to my customers?"
+
+All of that responsibility is daunting because, of course, it's much more comfortable to lean back and say "I'll just work on my tickets, thank you." But that's not what you were hired for.
 
 You need to embrace high agency and customer focus and the responsibility that comes with it. Because what you built, the problems you solve, the value you provide – it's yours. You can be proud of it. You get to demo it, you get to share it, you get to listen to the customer say "this is fantastic! this saves us so much time!", you get to say "yes, I built _that_". Once you get a taste of that, there's no going back.
