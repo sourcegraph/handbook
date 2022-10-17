@@ -36,7 +36,7 @@ Ownership at Sourcegraph, as exercised by the most successful engineering teams 
 
 High agency because ownership at Sourcegraph doesn't come with a lot of "how"s attached. Instead you get a lot of freedom. Freedom for you to decide how exactly you want to reach your goals.
 
-Customer focus because ownership here (again: as exercised by the most successful teams and individuals) is not solely about code ownership. It's about owning the **responsibility of providing value to customers in the area you own.**
+Customer focus because ownership here (again: as exercised by the most successful teams and individuals) is not solely about code ownership. It's about owning the **responsibility of providing value to customers in the area you own.** It's about outcomes, not output.
 
 It's not this:
 
@@ -44,7 +44,7 @@ It's not this:
 
 No. It's this:
 
-> I own X because my goal is to ship X to customers and I'll do everything I can as an engineer to make that happen.
+> I own X because my goal is to solve problem X for customers and I'll do everything I can as an engineer to make that happen.
 
 And yes, that comes with _responsibility_ -- with high agency and a customer-first attitude comes high responsibility. Everything else flows from that:
 
