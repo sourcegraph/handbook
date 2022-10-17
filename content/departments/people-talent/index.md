@@ -65,13 +65,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
-  - When impact reviews take place (COMING SOON)
-  - How to write an impact review (COMING SOON)
-  - Who is eligible for a merit increase (COMING SOON) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - [When impact reviews take place] (COMING SOON)
+  - [How to write an impact review](people-ops/process/giving-feedback.md)
+  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
-  - [Our level guide](COMING SOON)
-  - [How to view your current level](COMING SOON)
-  - [How we determine new compensation for promotions](COMING SOON)
+  - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
+  - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
+  - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
   - [How we determine new equity for promotion](COMING SOON)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [Coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
@@ -81,7 +81,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Total rewards
 
 - [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-  - [Our compensation bands](COMING SOON)
+  - [Our compensation bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands)
   - [Getting paid](../../benefits-pay-perks/pay-expenses/index.md)
   - [Getting raises](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
   - [401k](<../../benefits-pay-perks/benefits-perks/#sts=🏦%20401(k).md>)
@@ -97,7 +97,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [How to access my healthcare card](COMING SOON)
     - [How to access my dental card](COMING SOON)
     - [How to access my vision card](COMING SOON)
-  - [Rippling](people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?)
+  - [Rippling](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Medical leave & accommodation](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
@@ -218,9 +218,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How to promote a Teammate to a new level](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
     - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
-    - [How to view your current level](COMING SOON)
-    - [Our Merit and Promotion Process]COMING SOON
-    - [Our compensation bands](COMING SOON)
+    - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
+    - [Our Merit and Promotion Process](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
+    - [Our compensation bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [Teammate transfer process](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
@@ -249,7 +249,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Compensation
 
 - [Our compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-- [Pay transparancy / our bands](COMING SOON)
+- [Pay transparancy / our bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#pay-transparency-at-sourcegraph)
 - [How to give a raise](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a spot bonus](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a promotion](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
@@ -266,7 +266,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Resignations
 
-- How to handle a resignation (COMING SOON)
+- [How to handle a resignation](people-ops/process/leaving.md#resignations)
 - How to kick off a backfill request (COMING SOON)
 
 ## RESOURCES FOR PEOPLE TEAM
@@ -280,9 +280,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Teammate development
 
-- Merit (COMING SOON)
-- Promotion (COMING SOON)
-- Compensation (COMING SOON)
+- [Merit](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
+- [Promotion](people-ops/process/teammate-sentiment/impact-reviews/index.md#promotion-philosophy)
+- [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 
 ### Role / comp / equity change process
 
@@ -297,7 +297,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Teammate support
 
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
-- Leaving Sourcegraph
+- [Leaving Sourcegraph](people-ops/process/leaving.md)
   - [Exit interviews](people-ops/process/performance-coaching/exit-interview.md)
   - [Offboarding process]COMING SOON
 
