@@ -33,17 +33,6 @@ Our mission is to bring the value of Sourcegraph to all developers, everywhere t
     <div class="col" style="flex: 1;">
       <div>
         <div style="text-align: center;">
-          <a href="/team#murat-sutunc" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Murat Sutunc</div>
-        <div style="text-align: center; font-size: 12px;">Engineering Manager</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
           <a href="/team#beatrix-woo" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
