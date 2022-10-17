@@ -13,11 +13,17 @@ Operations guides for [managed instances](./index.md).
 
 To perform any MI operations, you need to meet the following requirement
 
-```sh
-git clone git@github.com:sourcegraph/deploy-sourcegraph-managed.git
-cd deploy-sourcegraph-managed
-echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
-```
+1. Have the required level of GCP Access.
+
+   Access to Managed Instances is governed by our [Cloud Access Control Policy](../../engineering/dev/policies/cloud-access-control-policy.md#customer-instances).
+   You need to have the required level of access to perform the operations described here.
+
+1. Have the CLI installed & configured
+   ```sh
+   git clone git@github.com:sourcegraph/deploy-sourcegraph-managed.git
+   cd deploy-sourcegraph-managed
+   echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+   ```
 
 Below we will install `mi` CLI. `mi` simlifies operation on MI and releases the burden of remembering various common `gcloud` commands.
 
