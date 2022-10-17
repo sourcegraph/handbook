@@ -46,6 +46,8 @@ This is generally not recommended. A majority of trials should consist of quick,
 - The opp must impact FY23 revenue
 - The opp must be reviewed by CE and Sales leadership and selected from the implementation request backlog
 
+<em>Note - for more information about the implementation request and backlog review process, review</em> [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md).
+
 # Implementation Team Tasks and Responsibilities
 
 The steps below detail, on a high level, the steps that the Sourcegraph implementation teams will work on both internally and directly with the customers:
