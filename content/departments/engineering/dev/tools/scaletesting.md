@@ -172,7 +172,7 @@ The instance has been set up with an admin account, please find the credentials 
 ### Licenses
 TBD 
 
-### Data and Repositories
+### Data Safety
 TBD
 
 ## Long running task machine
