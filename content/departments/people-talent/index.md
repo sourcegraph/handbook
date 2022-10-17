@@ -267,7 +267,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Resignations
 
 - [How to handle a resignation](people-ops/process/leaving.md#resignations)
-- How to kick off a backfill request (COMING SOON)
+- [How to kick off a backfill request](talent/process/opening_a_new_job.md#step-1-fill-out-the-intake-form)
 
 ## RESOURCES FOR PEOPLE TEAM
 
