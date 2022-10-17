@@ -63,7 +63,7 @@ integrations:
   strategy_link: /strategy-goals/strategy/integrations/index.md
   pm: ryan_scott
   design: sara_lee
-  em: murat_sutunc
+  em: interim_eng_lead
   pmm: alex_isken
   issue_labels:
     - team/integrations
@@ -72,7 +72,7 @@ growth:
   title: Growth
   brief: Growth team owns initial user journey as well as coordinating with marketing, optimization of product flows and encouraging experimental growth objectives to assist in Sourcegraph UX throughout their journey
   strategy_link: /strategy-goals/strategy/growth-team/index.md
-  em: murat_sutunc
+  em: interim_eng_lead
   pmm: alex_isken
   issue_labels:
     - team/growth
@@ -110,7 +110,7 @@ frontend_platform:
   brief: The Frontend Platform team aims to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
   strategy_link: /strategy-goals/strategy/frontend-platform
   pm: taylor_sperry
-  em: murat_sutunc_frontend_platform
+  em: interim_eng_lead
   design: alicja_suska
   issue_labels:
     - team/frontend-platform
