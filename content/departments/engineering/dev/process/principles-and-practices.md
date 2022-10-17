@@ -40,7 +40,7 @@ Customer focus because ownership here (again: as exercised by the most successfu
 
 It's not this:
 
-> I own X because I work on tickets that are labeled with ‘team-X'
+> I own X because I work on tickets that are labeled with `team-X`
 
 No. It's this:
 
