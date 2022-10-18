@@ -54,8 +54,8 @@ Customer Engineers often receive issues from strategic customers and the introdu
 
 1. File a product gap in Salesforce
 1. Notify the respective slack channel
-   1. If the issue is within a single team with clear ownshership, post within that team's channel and cross-post in [#cp-strategic](https://sourcegraph.slack.com/archives/C03MW9T8G6A) for FYI
-   1. If the issue is within multiple teams or ownernship is unclear, post in [#cp-strategic](https://sourcegraph.slack.com/archives/C03MW9T8G6A)
+   1. If the issue is within a single team with clear ownership, post within that team's channel and cross-post in [#cp-strategic](https://sourcegraph.slack.com/archives/C03MW9T8G6A) for FYI
+   1. If the issue is within multiple teams or ownership is unclear, post in [#cp-strategic](https://sourcegraph.slack.com/archives/C03MW9T8G6A)
 
 ## Strategy
 
