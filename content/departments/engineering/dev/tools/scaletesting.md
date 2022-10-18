@@ -69,7 +69,7 @@ In order to reproduce a customer scenario accurately, you'll need access to the 
 
 The following code hosts are available for testing:
 
-#### Github Enterprise
+#### GitHub Enterprise
 
 - [ghe.sgdev.org](https://ghe.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=bw4nttlfqve3rc6xqzbqq7l7pm&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
