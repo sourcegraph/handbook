@@ -31,7 +31,7 @@ Cross-border moves require require the following:
 - A new employment contract and/or arrangement (our People & Talent Team will help with this)
 - An updated address (outlined above)
 
-Looking for information about [how we engage talent worldwide](../../how-we-engage-talent-outside-the-us.md)?
+Looking for information about [how we engage talent worldwide](how-we-engage-talent-outside-the-us/index.md)?
 
 ## Temporary moves
 
@@ -39,7 +39,7 @@ A move is considered “temporary” if you are located in another country for f
 
 Moving benefit
 
-Sourcegraph provides an [annual moving benefit of $1,000 USD.](../benefits-pay-perks/benefits-perks/#-moving-help)
+Sourcegraph provides an [annual moving benefit of $1,000 USD.](benefits-pay-perks/benefits-perks/index.md)
 
 ## Countries where Teammates may not work from
 
@@ -57,4 +57,4 @@ We cannot support or employ candidates or teammates in any of these countries du
 - Russia (case by case - notify People Ops)
 - Ukraine (case by case - notify People Ops)
 
-Looking for information about [how we engage talent worldwide](../../how-we-engage-talent-outside-the-us.md)?
+Looking for information about [how we engage talent worldwide](how-we-engage-talent-outside-the-us/index.md)?
