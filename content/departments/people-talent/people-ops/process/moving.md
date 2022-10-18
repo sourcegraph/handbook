@@ -39,7 +39,7 @@ A move is considered “temporary” if you are located in another country for f
 
 Moving benefit
 
-Sourcegraph provides an [annual moving benefit of $1,000 USD.](benefits-pay-perks/benefits-perks/index.md)
+Sourcegraph provides an [annual moving benefit of $1,000 USD.](../benefits-pay-perks/benefits-perks/#-moving-help)
 
 ## Countries where Teammates may not work from
 
