@@ -10,21 +10,16 @@ All moves require an updated address. This helps us ensure appropriate payroll t
 
 **US teammates:**
 
--   You will update your address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init).
-    
+- You will update your address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init).
 
--   Note: please submit your change of address **within seven calendar days of your move and at least seven calendar days before the following payroll date** to make sure your change is reflected in time and to ensure you are taxed correctly.
-    
--   Note: Teammates enrolled in a Kaiser health plan may be prompted to re-enroll in health benefits via [Rippling], if Kaiser is not available in the state you move to (https://app.rippling.com/insurance/employee/qle/init).
-    
+- Note: please submit your change of address **within seven calendar days of your move and at least seven calendar days before the following payroll date** to make sure your change is reflected in time and to ensure you are taxed correctly.
+- Note: Teammates enrolled in a Kaiser health plan may be prompted to re-enroll in health benefits via [Rippling], if Kaiser is not available in the state you move to (https://app.rippling.com/insurance/employee/qle/init).
 
 **Non-US teammates:**
 
-   Please update your home address and work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F).
-    
+Please update your home address and work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F).
 
--   Note:  submit your change of address **within seven calendar days of your move.**
-    
+- Note: submit your change of address **within seven calendar days of your move.**
 
 ## Cross-border moves
 
@@ -32,16 +27,11 @@ Moving to another country? Notify [people-ops@sourcegraph.com](mailto:people-ops
 
 Cross-border moves require require the following:
 
--   Teammates must be eligible for employment in the country the work from
-    
--   A new employment contract and/or arrangement (our People & Talent Team will help with this)
-    
--   An updated address (outlined above)
-    
+- Teammates must be eligible for employment in the country the work from
+- A new employment contract and/or arrangement (our People & Talent Team will help with this)
+- An updated address (outlined above)
 
 Looking for information about [how we engage talent worldwide](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/#visa-sponsorship-and-immigration-assistance)?
-
-  
 
 ## Temporary moves
 
@@ -57,23 +47,14 @@ Teammates may not work from the following countries, on a permanent OR temporary
 
 We cannot support or employ candidates or teammates in any of these countries due to U.S. embargoes and sanctions.
 
--   Cuba
-    
--   Iran
-    
--   North Korea
-    
--   Sudan
-    
--   Syria
-    
--   Crimea
-    
--   China (case by case - notify People Ops)
-    
--   Russia (case by case - notify People Ops)
-    
--   Ukraine (case by case - notify People Ops)
-    
+- Cuba
+- Iran
+- North Korea
+- Sudan
+- Syria
+- Crimea
+- China (case by case - notify People Ops)
+- Russia (case by case - notify People Ops)
+- Ukraine (case by case - notify People Ops)
 
 Looking for information about [how we engage talent worldwide](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/#visa-sponsorship-and-immigration-assistance)?
