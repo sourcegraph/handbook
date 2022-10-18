@@ -72,10 +72,6 @@ The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/
 - Support the initiative to [make the Cloud a preferred deployment method](https://docs.google.com/document/d/1IUFb2JkwqdLCf8B-FkiF40PyAFg50xfWnB6gQO2ViRQ/edit) from the platform and infrastructure perspective
 - [Cloud v2](https://docs.google.com/document/d/1GiOPJjuYrUahrZnENSLUCsujo2MCu2v_gw23SKNzE6E/edit#) - migrate current the Cloud (managed instances) from single-VM, Docker Compose based architecture to multi-node, GKE based architecture
 
-## Team
-
-{{generator:product_team.cloud}}
-
 ## How to contact the team and ask for help
 
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
