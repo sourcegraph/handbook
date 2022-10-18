@@ -12,7 +12,7 @@ These places are the source of truth for information at Sourcegraph. Information
 
 - [Documentation](https://docs.sourcegraph.com)
 - [sourcegraph/sourcegraph repository](https://github.com/sourcegraph/sourcegraph)
-- [sourcegraph/about repository](https://github.com/sourcegraph/sourcegraph)
+- [sourcegraph/about repository](https://github.com/sourcegraph/about)
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
 - [sourcegraph/handbook repository](https://github.com/sourcegraph/handbook)

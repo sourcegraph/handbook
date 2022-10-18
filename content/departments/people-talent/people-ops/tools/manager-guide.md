@@ -4,7 +4,7 @@ As a manager you will have manager-specific permissions for several different ac
 
 It is also important to bring light to all the processes that are affected and we have to update when there is a change in the org chart. The goal is to help teammates, particularly managers, understand everything that happens behind the scenes and the importance of notifying People Ops with enough time. If you know there is a change in the org chart happening soon, please let People Ops know so we can prepare in advance. Go to the [How to notify People Ops of an org and role change section](#how-to-notify-people-ops-of-an-org-and-role-change) for more information.
 
-Should you have questions on any of these systems, you can post in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
+Should you have questions on any of these systems, you can post in #ask-people-team on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
 ### BambooHR
 
@@ -48,13 +48,13 @@ BambooHR is integrated with multiple systems (Lattice, Rippling, Okta). If Bambo
 [Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
 - [Onboarding feedback milestones](../../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
-- [360 Impact reviews](../process/impact-reviews.md), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
+- [360 Impact reviews](../process/teammate-sentiment/impact-reviews/index.md), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
 Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
 
 **Resources:**
 
-- [Impact review resources](../process/impact-reviews.md#resources-for-all-teammates-and-managers)
+- [Impact review resources](../process/teammate-sentiment/impact-reviews/index.md#resources-for-all-teammates-and-managers)
 
 - [Navigating Lattice as a manager](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 
@@ -123,7 +123,7 @@ Other tools that need to be updated when there is an org change (including manag
 ## Managing a Role Change
 
 Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. This will notify People Ops.
-If you have any questions, please contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). **Please note** that if the change involves someone changing team or manager, the new manager is the one who should complete the form.
+If you have any questions, please contact the People Team in #ask-people-team in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). **Please note** that if the change involves someone changing team or manager, the new manager is the one who should complete the form.
 
 **When to complete this form?**
 

@@ -1,6 +1,6 @@
 # Customer support career levels
 
-Our career level framework is meant to help you understand the expectations of your role and provide a common vocabulary for you and your manager to discuss and plan your career development on the CS team (in addition to where you might want to take your career in the future as outlined in our [career roadmap practice](career-roadmap.md)). Having shared and visible expectations (as well as a common vocabulary) gives us an accountability framework to reduce bias in promotions/hiring and ensures that we are equitably recognizing everyone for their impact.
+Our career level framework is meant to help you understand the expectations of your role and provide a common vocabulary for you and your manager to discuss and plan your career development on the CS team (in addition to where you might want to take your career in the future as outlined in our career roadmap practice). Having shared and visible expectations (as well as a common vocabulary) gives us an accountability framework to reduce bias in promotions/hiring and ensures that we are equitably recognizing everyone for their impact.
 
 ## What are the expectations of my role?
 
@@ -24,7 +24,7 @@ In line with our _continuously grow_ company value, we expect you to understand 
 
 Promotion discussions occur when your manager can make the case that you’ve had at least 6 months of consistent high performance at your current level, and at least 3 months performing consistently at the next level, in all three of the categories. Again, it takes time to demonstrate the “consistently” implicit in the expectations and we want to ensure that you are set up for success to perform at your current level.
 
-Promotions from one level to another are considered in [our quarterly impact check-in](cs-impact-review-practice.md) conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
+Promotions from one level to another are considered in impact reviews conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
 <style>
   .container {

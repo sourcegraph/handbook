@@ -1,6 +1,17 @@
 # Identity and Access Management (IAM) Team
 
-> NOTE: The IAM team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
+## Vision
+
+Provide secure, accurate, and delightful access to Sourcegraph for both external and internal customers.
+
+## Tenets
+
+These tenets guide how we make tradeoffs on the team. These are designed to be timeless and make our vision actionable during day to day decisions.
+
+- Security over speed: We strive to make our services as fast as possible, but we will never compromise correct enforcement to achieve a performance boost.
+- We prefer simplicity over complex engineering: Permissions have to be correct for our customers to trust us. Complex systems increase the likelihood something will break, which will erode trust in Sourcegraph. We start with the simplest solution and scale it until it breaks before exploring more complex solutions.
+- We don’t build on brittle foundations and we don’t implement short term hacks. We must always respect our customer’s code permissions and building band-aid solutions increases the likelihood of leaking data and losing customers.
+- Non-addative - Sourcegraph _is not_ a permissions layer. We inherit permissions from other systems (code hosts, Auth providers, etc) and leverage those to surface repositories. We do not edit or add read or write access to anything the user should not have access to.
 
 ## Goals and Roadmap
 
@@ -46,8 +57,6 @@ For a detailed list of features and services owned by the IAM team, check out th
 
 {{generator:product_team.iam}}
 
-We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
-
 ## Partner Teams
 
 The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
@@ -61,21 +70,21 @@ The IAM team works alongside several other teams at Sourcegraph. You can find mo
 
 - For users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam`.
-- For internal Sourcegraph teammates, join us in [#iam](https://sourcegraph.slack.com/archives/iam) to ask questions or request help from our team.
+- For internal Sourcegraph teammates, join us in #iam to ask questions or request help from our team, or ask `@iam-support` directly.
 - For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM Feature Request:` in your subject line.
 
 ### Planning, execution, and issue tracking
 
-The IAM team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
+The IAM team plans work based on our [long-term roadmap](https://github.com/orgs/sourcegraph/projects/214/views/52) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
 
-We are using [GitHub Projects (Beta)](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) as our project tracking tool. The [list view of backlog](https://github.com/orgs/sourcegraph/projects/259/views/10) is publicly available in our team project.
+We are using [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) as our project tracking tool. The [list view of backlog](https://github.com/orgs/sourcegraph/projects/259/views/10) is publicly available in our team project.
 
-#### How we use GitHub Projects (Beta)
+#### How we use GitHub Projects
 
 - The GitHub project for the team is the single source of truth for our backlog. Please use descriptions, comments under GitHub issues, and different categorization options to keep all the issues up to date. Comments are also the best place for asking questions about the issue itself. That way, we keep all the context in a single place.
 - We use GitHub milestones (usually connected with the quarterly goals) and custom fields to group issues for given initiatives/projects into epics, and to track different service or engineering ownership areas. This for example, helps us understand what the cost of operations with each area we own is.
 - We use [keyword or manually](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) linking pull requests to issues automatically in GitHub.
-- We use [planning poker in ZenHub](https://help.zenhub.com/ce-support/support/solutions/articles/43000620555-planning-poker-in-zenhub) for [groomings and estimation sessions which we run asynchronously](#groomings).
+- We use [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) for [groomings and estimation sessions which we run asynchronously](#groomings).
 - You can paste a link to GitHub in any Slack messages to have a rendered attachment automatically.
 
 ### User research
@@ -104,7 +113,7 @@ We are a globally distributed team with 16+ hours of time zone difference. Async
 
 ###### Slack
 
-While the team is following [multiple Slack channels](#team-slack-channels), [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
+While the team is following [multiple Slack channels](#team-slack-channels), #iam-internal is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
 
 ###### GitHub
 
@@ -133,7 +142,7 @@ We are using Loom to record short videos for bug reports, demos, and for multimo
 
 ##### Regular status updates
 
-All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
+All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the #iam Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
 
 To keep the updates standardized, we are using the following template:
 
@@ -166,7 +175,7 @@ We review the backlog of action items during each [sprint review](#sprint-review
 
 #### Groomings
 
-To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/ce-support/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
+To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
 
 - Each Monday, the new async grooming session should be created within [ZenHub board](https://app.zenhub.com/workspaces/iamerience-627aebcc9f8b7c00128a8ab6/board).
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
@@ -177,7 +186,7 @@ The "grooming" label is used for marking tickets to be included in the upcoming 
 
 #### Team calendar
 
-All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com&ctz=Europe%2FWarsaw). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
+All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
 
 - Please add `iam-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
 - For reminders, you don’t need to add participants
@@ -207,9 +216,9 @@ We use the same OpsGenie schedule for both on-call and support rotation, and use
 
 ### Team slack channels
 
-- [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM team for all day to day communication within the team.
-- [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
-- [#repo-iam-team-internal](https://sourcegraph.slack.com/archives/C03K05FCRFH) - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
+- #iam-internal - internal channel for IAM team for all day to day communication within the team.
+- #iam - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
+- #repo-iam-team-internal - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
 
 ## Product and technical documentation
 

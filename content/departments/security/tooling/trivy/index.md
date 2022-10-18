@@ -97,6 +97,14 @@ Releases of Sourcegraph may ship with container images that contain known vulner
 packages that are either false positives considering the way in which we run Sourcegraph,
 or that we have accepted as low risk. You can find more details about these below:
 
-- [3.43.0](./3-43-0.md)
-- [3.43.1](./3-43-1.md)
+### 4.0
+
+- [4.1.0](./4-1-0.md)
+- [4.0.1](./4-0-1.md)
+- [4.0.0](./4-0-0.md)
+
+### 3.43
+
 - [3.43.2](./3-43-2.md)
+- [3.43.1](./3-43-1.md)
+- [3.43.0](./3-43-0.md)

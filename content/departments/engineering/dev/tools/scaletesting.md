@@ -4,7 +4,7 @@ This page documents resources that are relevant for engineers looking to run Sou
 may only be caught when operating under particular scale. Typically, this enables to approximate a customer instance usage pattern to ensure
 that our application will perform within acceptable boundaries in that context.
 
-Join the [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) Slack channel to join conversations about its use, both from the perspective of an engineer using it to test things or to follow or contribute to its development.
+Join the #wg-test-at-scale Slack channel to join conversations about its use, both from the perspective of an engineer using it to test things or to follow or contribute to its development.
 
 ## Scaling VS customer tiers
 
@@ -12,11 +12,11 @@ It is important to make the distinction that by scale here, we're referring to t
 
 The common vocabulary being used to talk about scaling from the persective of a customer is described in details over at [tiers of strategic accounts](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107). Therefore, it's best to use the terminology _LARGE_, _XL_, _2XL_ and _3XL_ to frame which kind of customer a test would target.
 
-## ScaleTesting instance
+## ScaleTesting deployment
 
 `scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
 
-:right_arrow: If you plan to run a test, announce yourself on [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) to ensure you're the only one using it at the moment.
+:right_arrow: If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
 
 It is deployed in its own Google Cloud Project and is maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
@@ -29,13 +29,14 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 1. Have access to the Google Project: TODO
 2. Be familiar with our Observability stack.
 3. Be familiar with our Infrastructure code.
-4. Join [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) and announce yourself.
+4. Join #wg-test-at-scale and announce yourself.
 5. Adjust the infrastructure to the customer tier you're targeting.
-   1. Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
+   1. Open a PR against [the Terraform definitions](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) for that cluster. In particular the nodes count, which is often set to the lowest value to avoid consuming resouces when not using the instance.
    2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
-6. Make sure o deploy the right commit you want to test on that intance.
-   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use.This will create a pull request that you can merge.
-   2. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
+6. Make sure to deploy the right commit you want to test on that intance.
+   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use. This will create a pull request that you can merge.
+   2. NOTE: pin-tag input field accepts both semver format `$MAJOR.$MINOR.$PATCH` as well as sourcegraph tag format `[build_number]_[date]_[short git SHA1]`
+   3. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
 7. Populate the code hosts with your test data.
    1. `TODO`
 8. Perform actions to test that deployment, from the perpective of your business domain.
@@ -50,6 +51,11 @@ The code for this environment can be found in the following locations, depending
 #### Infrastructure
 
 The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository. Here you will find configuration for the project, GKE cluster, Cloud SQL instances, secrets and anything else related to the configuraion of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, however contributions are always welcomed.
+
+A seperate compute instance also exists for the purpose of running long running and/or client-side intensive tests. The configration for which exists in the same [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository.
+
+To access this instance, run the following command:
+`gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
 #### Application
 
@@ -74,7 +80,7 @@ The possibility of using isolated code hosts solely for the purpose of these tes
 
 In order to gather meaningful results of running tests against the scale testing instance, you can gather the following resources to help you come to a conclusion:
 
-- Tracing: TODO
+- Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](https://console.cloud.google.com/traces/overview?project=sourcegraph-scaletesting). To use tracing all you have to add is `&trace=1` to you url the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
 - Sentry: [`scaletesting`](https://sentry.io/organizations/sourcegraph/issues/?project=6735436)
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
 
@@ -97,8 +103,100 @@ Merge your changes via a pull request, and run the following from the base of th
 
 `helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 3.43.2-insiders.3e3f9e9 sourcegraph insiders/sourcegraph -n scaletesting`
 
-### Scale the cluster down when not in use
+### Scale the infrastructure down when not in use
 
-To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
+To ensure the cluster is not left running, set the `node_count` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
+
+To stop the `devx` compute instance when it is not in use, run the following:
+
+`gcloud compute instances stop devx --zone us-central1-a --project sourcegraph-scaletest`
+
+or to start it:
+
+`gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
+
+## Testing Data
+
+## Long running task machine
+
+Creating some of the data can take a long time, we've therefore added a machine in the scaletesting cluster to run these long running tasks.
+
+To access the machine execute the following command:
+
+```
+gcloud compute ssh --zone "us-central1-a" "devx"  --tunnel-through-iap --project "sourcegraph-scaletesting"
+```
+
+### Git
+
+#### Over 100k repositories
+
+The `rctest.sgdev.org` uses the following list of GitHub organizations to populate an instance with over 100k repositories:
+
+- `github.com/pld-linux` (22k repos)
+- `github.com/londonappbrewery` (28k repos)
+- `github.com/wp-plugins` (52k repos)
+
+In order to add them to a scale testing instance, you can run the following command:
+
+```
+sg client codehost add-github \
+  --display-name "repos-gh-100k" \
+  --baseurl "https://scaletesting.sgdev.org" \
+  --email "REDACTED" --password "REDACTED" \
+  --github.token REDACTED \
+  pld-linux londonappbrewery wp-plugins
+```
+
+#### Organization with 10k repositories with write access
+
+See https://ghe.sgdev.org/testing which is a replica of https://github.com/londonappbrewery on our GitHub instance.
+They are owned by the `testing` user, who can write on those repos.
+
+#### Large binary files
+
+A repository with large binary files (Ubuntu isos) is available at https://ghe.sgdev.org/scaletesting/large-binary-files
+
+#### Large amount of commits
+
+The following repositories are available to test against repositories with a massive amount of commits:
+
+- `github.com/sgtest/megarepo` (>700k commits)
+- `gigarepo`, served through `git-combine` (> 1.8M commits)
+
+```
+{
+  // See the git-combine service and statefulset
+  "url": "http://git-combine",
+  // Do not change this. Sourcegraph uses this as a signal that url is 'src serve'.
+  "repos": [
+    "src-serve"
+  ]
+}
+```
+
+### Perforce
+
+A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has been created to generated synthetic repos (depots) in Perforce. For more details on how to use the tool to generate more synthetic files or history on a particular depot please see the [README](https://github.com/sourcegraph/synthforce/blob/main/README.md).
+
+#### Depots (repos)
+
+##### `devx-small-10GB
+
+- Size ~10 GB
+- Change count 589 (commits)
+
+##### `devx-large-20GB`
+
+- Size ~20 GB
+- Change count 2937 (commits)
+
+### GitLab
+
+#### Large amount of commits
+
+The following repositories are available to test against repositories with a massive amount of commits:
+
+- `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)

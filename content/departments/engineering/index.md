@@ -37,6 +37,7 @@ Notes:
 - [Delivery](teams/delivery/index.md)
 - [Dev Experience](teams/dev-experience/index.md)
 - [Frontend Platform](teams/frontend-platform/index.md)
+- [Growth](teams/growth/index.md)
 - [IAM](teams/iam/index.md)
 - [Integrations](teams/integrations/index.md)
 - [Repo Management](teams/repo-management/index.md)
@@ -56,6 +57,8 @@ The following functional teams work across the above dev teams:
 - #eng-leads
 - #ask-engineering
 - #buildkite-main
+- #dev-chat
+- #dev-urandom
 
 ## Processes
 

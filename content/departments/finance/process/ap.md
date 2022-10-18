@@ -1,7 +1,5 @@
 # Sourcegraph Procurement Policy
 
-The below policy relates to all expenses above $10,000—including monthly recurring expenses with vendors where the annual run rate is above $10,000.
-
 ## AP Policy
 
 ### Policy Mission Statement
@@ -147,6 +145,10 @@ Once a vendor agreement is signed, please create a new folder for the vendor in 
 For SaaS vendor contracts greater than $5,000, we utilize Vendr as a contract management tool. Please refer to our [Vendr](../../tech-ops/tools/Vendr/index.md) guide which covers topics including: background, platform offerings, how-to-steps, etc. For any questions on Vendr, please reach out to TechOps via email (techops@sourcegraph.com) or Slack (#it-tech-ops).
 
 Furthermore, the Sourcegraph Finance department will maintain a contract register to record expenditures valued at greater than $10,000 (annualized amount).
+
+##### Logo Rights or Case Study
+
+Must be approved by the business champion and marketing.
 
 ##### Contract Renewals
 

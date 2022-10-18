@@ -1,143 +1,227 @@
 # Compensation
 
-Your compensation consists of 3 parts:
+## Compensation philosophy
 
-- Cash (salary and, if applicable, commissions)
-- Equity
-- Benefits/perks
+We pay competitively in order to attract the best possible talent to Sourcegraph and reward Teammates for the work that they do. We are committed to keeping compensation competitive in the market, merit-based, and non-discriminatory, to make sure all teammates have a financial stake in the success of Sourcegraph and that contributions are rewarded.
 
-We use third-party market data as a key input for each role and level within that role. We intend to publicly document these roles/levels and the associated compensation amounts.
+**Our compensation pillars:**
 
-## Resources
+- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth.
+- Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
+- Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy).
+- Location independent: We pay the same, globally. We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
 
-- [Compensation](#compensation)
-  - [Resources](#resources)
-  - [Components of compensation](#components-of-compensation)
-    - [Cash (salary and commission)](#cash-salary-and-commission)
-    - [Equity](#equity)
-    - [Benefits and perks](#benefits-and-perks)
-  - [Philosophy](#philosophy)
-    - [Location-independent](#location-independent)
-    - [Consistency](#consistency)
-    - [Negotiating should not be needed](#negotiating-should-not-be-needed)
-    - [Commissions and bonuses](#commissions-and-bonuses)
-  - [Compensation bands](#compensation-bands)
-    - [How bands are created](#how-bands-are-created)
-    - [How bands are changed](#how-bands-are-changed)
-    - [Making out-of-band offers](#making-out-of-band-offers)
-  - [Employment versus contracting: compensation differences](#employment-versus-contracting-compensation-differences)
-  - [Logistics and timing](#logistics-and-timing)
+## Market competitive
 
-## Components of compensation
+### Components of compensation
 
-### Cash (salary and commission)
+**Pay**
 
-We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills.
+At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint.
 
-### Equity
+**Base pay**:
 
-We are an early-stage company, and every team member can have a huge impact on our success. We want to make sure that everyone has a financial stake in the success and that contributions are rewarded.
+Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of band is 15% above the band entry point. **We revisit salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
+
+If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify the band. If we determine that the band needs to be re-analyzed, the only possible outcome is that the band increases. This could also cause the top of the band to go higher than 15% over the 75th percentile. **We _never_ decrease salary bands below Radford's 75th %.**
+
+- Each [job level](leveling-guide.md) has a corresponding compensation band.
+
+**Commission**:
+
+We provide variable compensation in the form of commissions for roles that are measured by numerical performance (including certain roles in the Sales and Customer Engineering organizations).
+
+**Equity**:
+
+We are an early-stage company, and every Teammate can have a huge impact on our success. We want to make sure that everyone has a financial stake in our success and that contributions are rewarded.
 
 - See [Equity FAQ](equity-faq.md).
 - See [How and when stock option grants are calculated](equity-timing.md).
 
-### Benefits and perks
+**Benefits and perks**
 
-See [Benefits and perks](../../benefits-perks/index.md).
+- See [benefits and perks](../../benefits-perks/index.md)
 
-## Philosophy
+### How market data informs our compensation bands
 
-We aspire to compensate all teammates:
+The People Team re-evaluates Radford compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md), to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy.
 
-1. fairly and generously,
-1. transparently, and
-1. equitably
+We establish the **band entry points**, which is the 75th percentile of US market data. The **top of band** is set at 15%, on average, above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, which are already above average, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
 
-We are further along in reaching some of these goals than others.
+We are committed to adjusting our compensation bands in response to cost of labor market shifts, or as scope of roles within Sourcegraph evolve.
 
-### Location-independent
+### How new hire compensation decisions are made
 
-We do not take your location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation.
+We aim to hire new Teammates at the 75th percentile, or entry point, for their role. Our philosophy is to make offers that are market competitive and consistent, in order to ensure candidates feel appropriately valued and aren’t forced to negotiate. We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term, and we strive to reduce the impact of negotiations on offers and raises as much as possible.
 
-To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
+In business-critical cases, we may make exceptions and allow an offer above the entry point of the band. However, this will require a business case that will need to be approved by the Department-Executive, VP of Talent, and CEO. We are extremely conscientious of internal parity and make exceptions only in cases where differences can be justified.
 
-### Consistency
+### How leveling decisions are made
 
-We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-talent/index.md) before making them.
+Each Teammate is matched to a level, which is then tied to a respective compensation band. Sourcegraph leveling decisions anchor on the [Leveling Guidelines](leveling-guide.md).
 
-### Negotiating should not be needed
+## Transparent and equitable
 
-We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term. We strive to reduce the impact of negotiations on offers and raises as much as possible. Our philosophy to make offers that are fair and generous is designed to ensure candidates feel appropriately valued and aren't forced to negotiate to get to something fair.
+### Pay transparency at Sourcegraph
 
-However, given many teams and positions are still in the earliest stages of formation, our [bands](#compensation-bands) have low sample sizes, and we recognize that our input market data and our own tailored bands may be wrong, so candidates are still free to negotiate their offers.
+At Sourcegraph, Teammates are able to view all compensation bands used in our organization, including their own. We believe that full transparency of our compensation bands creates clear accountability for all compensation decisions, and ensures pay parity.
 
-Any negotiations over compensation should focus on the role and level rather than the specific numbers. If a candidate believes they deserve compensation that does not fit our bands, it is likely a disagreement about the role they can fill and the impact they can have.
+Our compensation bands are published internally via [Assemble](https://app.assemble.inc/). We periodically add new bands as we hire for new roles. Executive compensation is not currently listed in Assemble.
 
-### Commissions and bonuses
+### How to view our internal compensation bands
 
-We provide variable compensation in the form of commissions for roles that are measured by numerical performance (including certain roles in the Sales and Customer Engineering organizations), but we do not use reoccurring formal bonuses otherwise.
+Our compensation bands are internally viewable to all Teammates in **Assemble**.
 
-However, managers can occasionally grant ad hoc bonuses (cash and equity are both possible) for strong performance. In such cases, they are expected to make the case for the bonus and tie it to the bands for their organization.
+**Logging into Assemble**
 
-As a note, our [Impact reviews](../../../departments/people-talent/people-ops/process/impact-reviews.md#360-impact-review-cycles) are one of the many data points managers can use when determining the reward of a compensation change or promotion. There is no direct correlation between the two, and Impact reviews should be viewed independently of a merit change, and as a singular data point. There was great intention in creating our Impact reviews to view them as markers of personal development rather than reviews that result in a change of pay or titles.
+1. Navigate to: [https://app.assemble.inc/](https://app.assemble.inc/)
+2. Log in using Google SSO
 
-## Compensation bands
+To find your band:
 
-Internal compensation bands are maintained by the [People Ops](../../../departments/people-talent/index.md) team for each department.
+Finding your band is a two step process:
 
-- [Sales compensation bands (last updated 2022-01-07)](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
-- [Marketing compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
-- [Engineering compensation bands (last updated 2021-11-01)](https://docs.google.com/spreadsheets/d/1ywMdWxL8jCpGRXvEIY-bCVD4d4OZNRvz6-Gn4Spg4XU)
-- [Product compensation bands (last updated 2021-11-01)](https://docs.google.com/spreadsheets/d/1crngPVeZI-UcIzAmJphUhx-7eAOAm8kFbyOKs3GPFv4)
-- [Customer Engineering compensation bands (last updated 2021-10-14)](https://docs.google.com/spreadsheets/d/1UVQ20MWjjRkOxJifQR-9OrgbJzih3mcYvAHMeMhd03Q)
-- [Operations compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1x-MnymL9uw6xvyKQCX331W5w778rTwYAw3AJ_picnvU)
-- [Talent compensation bands (last updated 2021-12-01)](https://docs.google.com/spreadsheets/d/1Ri6MKZUwSprCqJ-7ncBDcdO9SERwUEH2xo0_xvU5Mbk/edit#gid=0)
+**Step 1:** Look up your job code in Bamboo
 
-If you would like access to these spreadsheets, please contact your manager or the People Ops team. For now, these spreadsheets are only available to department heads (who may choose to share with hiring managers on their teams).
+1. Login to Bamboo
+2. Click “My Info” on the top of the page
+3. Select the “Job” tab on your profile
+4. Scroll down to the “Compensation” header
+5. Find your **Radford Job Code**
 
-### How bands are created
+- The last two digits of the code indicate your role and level
+- Example: HR.GLBP.**P1** - the "P" indicates that this person is an Individual Contributor and the "1" indicates a level 1
+- Example: HR.GLBP.**M3** - the "M" indicates that this person is Manager and the "3" indicates a level 3
 
-Our compensation bands are brought together by the People Ops team from multiple inputs. The process is described below:
+**Step 2:** Use your job code to find your band in Assemble
 
-- First, the People Ops team pulls raw benchmark data from Option Impact. This data provides benchmarks for each level and position at multiple percentiles. We use the following criteria for filtering the data we pull from Option Impact:
-  - Location: All US Regions
-  - Industry: Enterprise
-  - Founding Status: Non-Founders
-  - Capital Raised: $100M–$250M
-- The latest raw data for relevant roles is copied into each team's [compensation bands spreadsheets](#compensation-bands). This will automatically update the band data.
-  - The 75th and 90th percentile salary and commission compensation numbers are used as the low and high bounds of the benchmarks. We [exclude variable compensation](#commissions-and-bonuses) (for example, bonuses) from benchmarks in roles that don't receive commissions.
-  - The 75th percentile gross equity value (in US dollar value) is used to back into a count of options (by dividing by our latest preferred stock valuation) for a given role and level.
-- The bands are shared with each department lead, who has the ability to manually adjust bands where desired (for example, to interpolate where the data is rough or based on a low sample size, to create bands for roles that don't have corresponding categories in Option Impact, to make adjustments for their particular hiring needs based on their experience, etc.).
-- The Talent and People Ops teams review and sign off on the final approved numbers.
+1. Navigate to: [https://app.assemble.inc/](https://app.assemble.inc/)
+2. Log in using **Google SSO**
+3. Click “Foundations” on the left sidebar
+4. Select your Department
+5. Select your Career Ladder (this should match your job title)
+6. Find your Title + Radford job code
 
-See [Compensation change approvals](compensation-change-approvals.md) for more.
+- You’re also able to see other job codes/bands within your own career ladder on this page.
 
-### How bands are changed
+To find your team’s comp bands (Managers only)
 
-Bands are owned by each department lead. [Bands can be changed by that individual with finance approval](compensation-change-approvals.md) (to ensure team budgets reflect the change).
+1. Click “People” on the left navigation bar
+2. Select “My Team” at the top of the page
+3. Bands will be visible on this page
 
-Proposed changes to bands should come with evidence of market changes (e.g. from benchmark data sources, candidate polling, etc.) and evidence that the existing bands are negatively affecting our hiring.
+Assemble displays placement in band as “Below” “In Band” or “Above Band.” As a reminder, we expect Teammates to be within the band. Teammates new to role will be at the entry point of band.
 
-### Making out-of-band offers
+## Performance based pay
 
-Bands are resources for hiring managers to use—they are not intended to be permanent or set in stone. Unique situations may exist where bands don't make sense for various reasons, from lack of granularity for niche roles, to bad data.
+We pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases and promotions. This means that Teammates who are considered top-performers ("exceeding high bar") may move up the band faster than Teammates who are "meeting" or "not meeting" our high bar. You can read more about our performance ratings and corresponding raise % estimates in the "Ratings definitions" section [on this page](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
-Hiring managers that want to make offers outside of the 75th to 90th percentile cash compensation or outside of +/- 5% of the 75th percentile gross option value must receive approval from their department heads and the People Ops team.
+**How and when merit based compensation decisions are made**
 
-While hiring managers have the ability to make an out-of-band offer actually in-band simply by changing the level that they hire someone at, we discourage using this tactic, as it can lead to misaligned expectations between the manager and the new teammate.
+Merit based compensation decisions are made biannually as part of our [impact review and calibration process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md). We evaluate Teammate performance on a regular basis, share the outcomes of those calibration sessions with Teammates, and make compensation and promotion decisions based on work outcomes.
 
-See [Compensation change approvals](compensation-change-approvals.md) for more.
+Read more about how Sourcegraph creates a high performance culture through regular impact reviews, review calibrations, and promotions [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
-## Employment versus contracting: compensation differences
+## Location independent
 
-Contractors are compensated using the same [internal compensation bands](#compensation-bands), and we provide [location-independent compensation](#location-independent).
+We do not take a Teammate's location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation.
+
+**Types of employment: compensation differences**
+
+All Teammates, regardless of employment arrangement, are matched to that same location-independent internal compensation bands.
+
+If someone lives outside the United States, to determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis. The currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12-months following this review.
+
+To calculate the currency conversion rate, the Sourcegraph Finance team will take the trailing 12-month average.
 
 Contractors who receive options are legally only eligible to receive NSOs (non-qualified stock options), rather than ISOs (incentive stock options). Speak to a personal financial and tax advisor to learn more.
 
-Reach out to the People Ops team if you have any questions about structuring.
+## FAQ
 
-## Logistics and timing
+### Pay transparency questions
 
-Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Rippling.
+**Will pay data be anonymized? Will we be able to see exactly who makes what?**
 
-All contractors [submit invoices monthly](../invoices.md).
+At this point, all pay data is anonymized. The only information you can see, outside of your personal compensation details, are pay bands for every department.
+
+**What components of pay are transparent?**
+
+Compensation bands reflect cash pay, or cash + commission-based pay for commissionable Teammates. Equity is not reflected in Assemble.
+
+**Who can see our compensation bands?**
+
+Full compensation visibility is for internal use only. During the Recruiting process, our Recruiting Team will share our transparent approach to compensation with candidates. Target compensation is also shared in all job descriptions.
+
+### General compensation questions
+
+**My pay is above the band - what does that mean for me?**
+
+We do not allow salaries to fall below our established pay entry points. We re-run compensation data every 6 months in alignment with our Impact Review Process and will right-size anyone who has fallen below the 75th percentile.
+
+In rare instances, we allow salaries to exceed the tops of our bands. We strive to give meaningful merit and promotion-related increases, regardless of position in the band - this means individuals paid above their band can still receive increases. We may also utilize other options to reward performance.
+
+**How often are bands updated?**
+
+We update bands once every six months, in tandem with our Impact Review process. In rare instances, we will update bands when an individual is hired from outside of Sourcegraph with a compensation package higher than the band entry point. We only do this if our Radford survey data suggest the market has significantly changed from when the band was set. When bands are updated, we provide immeddiate market adjustments to all Teammates so no one falls below the band entry point.
+
+Generally speaking, revisiting bands every six months helps avoid market volatility and allows us to extend offers to external candidates consistent with internal pay.
+
+**Where do I learn more about leveling at Sourcegraph?**
+
+We have a leveling system unique to Sourcegraph, which means a Level 3, for example, is NOT synonymous with a Level 3 at another company. For information about leveling at Sourcegraph, check out the [Sourcegraph Leveling Guide](leveling-guide.md).
+
+For department specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md).
+
+**Where can I view my level?**
+
+You can view your job level in BambooHR. From the BambooHR homepage, click “My Info” on the top navigation bar. Select the Job tab and scroll down to the Compensation section. Here, you will find your Radford code.
+
+- The last two digits of the code indicate your role and level
+- Example: HR.GLBP.**P1** - the "P" indicates that this person is an Individual Contributor and the "1" indicates a level 1
+- Example: HR.GLBP.**M3** - the "M" indicates that this person is Manager and the "3" indicates a level 3
+
+**Where can I view other Teammates’s levels?**
+
+Just like you can't see other Teammate's specific pay, currently, you cannot view other Teammates' job levels. We are constantly evaluating and expanding our pay transparency policy and this may change in the future.
+
+**How do we address currency fluctuations?**
+
+Because we benchmark to US-based data and offer location-independent pay, we use currency conversations for international Teammates. The Sourcegraph Finance team is responsible for determining the currency conversion rate used when Teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/commissions.
+
+To determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis, and the currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review.
+
+To calculate the currency conversion rate, the Sourcegraph Finance team will take the trailing 12-month average.
+
+**My pay appears to be below the band - what does that mean for me?**
+
+This is very rare, and the only time a Teammate's salary may appear to fall below the band in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated. This indicates that a Teammate's local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th % or above. We do not immediately right size comensation in these instances as we can't control currency fluxuations.
+
+**Inflation is currently high in the US, and other parts of the world. How is inflation taken into account?**
+
+By pulling market data and benchmarking our roles every 6 months, we move as the market moves. Our compensation data is updated quarterly, and we pull the data every 6 months, which keeps our compensation bands up to date with the market. This ensures we stay competitive, and continue to pay at the 75th percentile, in times of stability or market volatility and inflation.
+
+Salary band and merit increases do not match the rate of inflation. [Here is a good article explaining "Inflation and salary increases are not the same")[https://www.forbes.com/sites/johnbremen/2022/04/07/why-salary-increases-do-not-keep-pace-with-inflation/?sh=73993dfe7533].
+
+**My level is M4 and I have a Director title. Another Teammae's leve is M5 with a Director title. Why is there a difference?**
+
+Our internal titles vary from team to team, so you may notice some job codes where levels may not match titles in this way. When we match our internal jobs to external salary survey data by focusing on core competencies, rather than title naming conventions.
+
+**My level surprises me, or I’m not sure what my level is - who can I speak to?**
+
+Start with your manager if you have any questions about your compensation level or Radford code match. You can also reach out to your [People Partner](../../../departments/people-talent/teamalignment.md#people--talent-team-alignment-by-department) to discuss!
+
+**If we hire externally into the entry point of our salary bands, why are some Teammates paid higher in band, or even above band?**
+
+Most individuals were hired into Sourcegraph at the 75th percentile of market at the time their offer was made. Using our pay for performance methodology, we offer several opportunities for Teammates to receive increases that reward and recognize their impact. Read about our merit increase philosophy [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
+
+**How do I move up in my band?**
+
+We evaluate compensation regularly. We believe deeply in rewarding and recognizing impact. Strong performance at Sourcegraph will result in regular compensation increases. Teammates who are given an "exceeding high bar" rating in the Impact Review process are eligible for a merit increase every 6-months, and Teammates who "meet our high bar" are eligible every 12-months. Learn more about our impact reviews [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
+
+**I’m at the entry point of the band, does that mean I’m underpaid?**
+
+No, our band entry points are set extremely competitively at the 75th percentile of US salaries, meaning that you're already paid above average. Teammates have regular opportunities to receive pay increases through our impact review cycles and promotion.
+
+**My band seems wrong. Who do I talk to?**
+
+We are always happy to investigate. Reach out to `ask-people-team` or your People Partner!

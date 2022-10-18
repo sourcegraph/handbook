@@ -38,12 +38,20 @@ GOBIN=~/.bin make install
 
 ## Steps
 
+### Create the instance upgrade tracking issue
+
+Open the output link in your browser to create the tracking issue
+
+```sh
+mi create-tracking-issue -target $VERSION // e.g. 4.0.0
+```
+
 ### Ensure new version of `docker-compose.yaml` file is in the golden directory
 
 If they are not, download the file and open a PR to commit the file prior to upgrade
 
 ```sh
-mg update-golden -target $VERSION // e.g. 3.42.0
+mi update-golden -target $VERSION // e.g. 4.0.0
 ```
 
 ### Ensure `config.yaml` file in customer directory is up-to-date
@@ -59,6 +67,29 @@ export CUSTOMER=demo
 export VERSION=3.40.0
 ```
 
+#### Automated Upgrade (recommended)
+
+> You should not upgrade more than 5 instances at a time.
+
+```sh
+gh workflow run mi_upgrade.yml -f customer=$CUSTOMER -f version=$VERSION
+```
+
+Follow the notification in #cloud-notifications.
+
+If the upgrade succeed, followed the instruction in the generated PR, follow the step below to trigger CI check in order to merge the PR
+
+- close PR
+- delete branch
+- restore the branch
+- re-open the PR
+
+Finally, update the tracking issue
+
+If the upgrade fail, follow the logs and figure out which step went wrong, then follow the [manual upgrade](#manual-upgrade-deprecated) to finish the upgrade.
+
+#### Manual Upgrade (deprecated)
+
 Create branch
 
 ```
@@ -73,7 +104,7 @@ Upgrade the deployment. At a high level, this will perform the following steps
 - run `docker-compose up -d` on the VM
 
 ```sh
-mg --customer $CUSTOMER upgrade --target $VERSION
+mi --customer $CUSTOMER upgrade --target $VERSION
 ```
 
 (Optional) If the instance has executors enabled (search for `enable_executors = true` in `$CUSTOMER/terraform.tfvars`), make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
@@ -90,10 +121,8 @@ terraform apply
 
 <span class="badge badge-note">SOC2/CI-108</span>
 
-Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
-
 ```
-mg --customer $CUSTOMER check
+mi --customer $CUSTOMER check
 ```
 
 ### Wrapping up

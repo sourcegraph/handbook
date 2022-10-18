@@ -8,6 +8,109 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
+## Sept 19th, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+### Tracing with OpenTelemetry
+
+OpenTelemetry is now the default tracing export mechanism in Sourcegraph.
+
+This means that traces now export to an [OpenTelemetry Collector](https://docs.sourcegraph.com/admin/observability/opentelemetry) instance, which can then easily be configured to export data to a variety of backends - for example, in [s2](https://sourcegraph.sourcegraph.com) we are [currently exploring exporting to both Honeycomb, Google Cloud Traces, and Jaeger](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed@aa1ff34e9446c38c4376ecc29b3d75f4b4ae4676/-/blob/sg/red/otel-collector/config.yaml) to assess the available options.
+
+OpenTracing API calls are bridged to OpenTelemetry automatically, though we strongly recommend that everyone migrate to OpenTelemetry APIs (either `internal/trace` or `go.opentelemetry.io/otel`), which brings better API ergonomics and improved usage of `context.Context`. We've added a linter that forbids new imports of OpenTracing APIs, and added deprecation notices on internal APIs that should no longer be used.
+
+Additionally, the web app can now be instrumented with OpenTelemetry as well, with traces being sent to the frontend service which proxies it to the deployed OpenTelemetry Collector.
+
+To get started with testing out OpenTelemetry locally, refer to our [OpenTelemetry development docs](https://docs.sourcegraph.com/dev/how-to/opentelemetry_local_dev) and refer to our [tracing for site admins guidance](https://docs.sourcegraph.com/admin/observability/tracing).
+
+If you are interested in learning more about OpenTelemetry in general and the specifics of the engineering work required to make this happen, check out [this recording of a DevX team Q&A about OpenTelemetry](https://drive.google.com/drive/folders/1z_Uf_Stp3frDKB_UXFtenbQJdYB4LikO)!
+
+### Frontend news
+
+**`esbuild` for faster frontend builds**: Shoutout to Nick Snyder who took it upon himself to get `esbuild` in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in `sg start` startup time! You can enable it by running `DEV_WEB_BUILDER=esbuild sg start`. For more information on `esbuild` please see [the following docs.](https://docs.sourcegraph.com/dev/background-information/web/build#esbuild)
+
+**Documentation for analyzing the bundlesize check failure**: With more contributions focused on the core workflow improvements, the Frontend Platform team noticed an increased number of [bundlesize check](https://docs.sourcegraph.com/dev/how-to/testing#bundlesize) [failures](https://github.com/sourcegraph/sourcegraph/runs/8094204910), and often the reason for it is not apparent. Valery added [a step-by-step guide for debugging root causes](https://docs.sourcegraph.com/dev/how-to/testing#analyzing-the-bundlesize-check-failure) which should help teams to triage this failure. The Frontend Platform team will be looking into automating these steps entirely next quarter!
+
+### `sg` goodies
+
+**Finding builds or logs by commit**: Ever wanted to look at the build of a particular commit? Not in the mood to go through all the pages of Buildkite? You don't have to anymore! With `sg ci status` you can now pass it a `--commit` flag and it will do all the detective work for you. `sg ci logs` also accepts the `--commit` flag so you can now easily look at the logs of a build for a particular commit too!
+
+**Build annotations, in your terminal!**: Ever wanted to check the status of your build in your terminal, but couldn't see those nice little dialogues (annotations) at the top your build showing that test that failed and other helpful links? Well those days are gone! When you check the status of your build with `sg ci status` it will now also print any annotation that is present on your build!
+
+**Inspect main branch tags with `sg ops inspect-tag`**: We've added a new subcommand named `inspect-tag` which allows you to inspect main branch tags. For example you can now inspect the image with `sg ops inspect-tag index.docker.io/sourcegraph/cadvisor:159625_2022-07-11_225c8ae162cc@sha256:foobar` or get the build number with `sg ops inspect-tag -p build 159625_2022-07-11_225c8ae162cc`. For more examples and other options see `sg ops inspect-tag --help`.
+
+**Update images in Docker compose manifests with `sg ops update-images`**: `update-images` has been updated and can now update docker compose manifests with `sg ops update-images -k compose`. With `compose` entering the fold, `sg ops update-images` is now able to update images in three different formats namely `k8s`, `helm` and `compose`.
+
+**Commands in `sg.config.overwrite.yml` should no longer cause as much headache**: Thorsten has fixed an issue that many have felt the pain of! We've all added a custom command in `sg.config.overwrite.yml` only for `go run generate` to come along and ruin our dreams. Thorsten, having been bitten by this one too many times, landed a fix for this by adding a flag `-disable-overwrite` to sg which is passed to sg when `go run generate` runs to generate the `reference.md` file. Due to the nature of the fix, there is nothing for you to do!
+
+**Multi user Auth testing just got a whole lot easier**: Keegan recently added a `http-header` auth-proxy that creates a few users and exposes each user on a different port locally. By accessing Sourcegraph through these ports you are **authenticated as that user**. To use it run `go run dev/internal/cmd/auth-proxy-http-header.go`. Words don't do it justice so below is some output of it in action! For more information on how authentication happens [please see the docs](https://docs.sourcegraph.com/admin/auth#http-authentication-proxies).
+
+```bash
+go run auth-proxy-http-header.go
+https://docs.sourcegraph.com/admin/auth#http-authentication-proxies
+
+  "auth.providers": [
+    {
+      "type": "http-header",
+      "usernameHeader": "X-Forwarded-User",
+      "emailHeader": "X-Forwarded-Email"
+    }
+  ]
+
+Visit http://127.0.0.1:10810 for william william@sourcegraph.com
+Visit http://127.0.0.1:10811 for user1 william+user1@sourcegraph.com
+Visit http://127.0.0.1:10812 for user2 william+user2@sourcegraph.com
+Visit http://127.0.0.1:10813 for user3 william+user3@sourcegraph.com
+Visit http://127.0.0.1:10814 for user4 william+user4@sourcegraph.com
+Visit http://127.0.0.1:10815 for user5 william+user5@sourcegraph.com
+```
+
+**A complete set of commands to run web application Puppeteer tests**: Have you ever wondered how to debug a CI client flake locally? Always unsure of what environment variables to set to get things right? `sg` got your back! Valery updated respective commands, which now link directly [to the up-to-date documentation](https://docs.sourcegraph.com/dev/how-to/testing#client-integration-tests):
+
+```bash
+sg test web-e2e
+sg test web-regression
+sg test web-integration
+sg test web-integration:debug PATH_TO_THE_TEST_FILE_TO_DEBUG
+```
+
+### CI improvements
+
+**Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
+
+Flaky tests happen, which is why the docs have [a specific section](https://docs.sourcegraph.com/dev/background-information/ci#flakes) about how to deal with those. In a nutshell, disable them on sight and notify the ownning team so they can fix those. We want to say thank you those who took a few minutes out of their day to improve the CI experience for everyone else. Special thanks to Thorsten Ball who disabled the most of them on his own! And thanks to Camden Cheek, Alex Ostrikov who are following closely.
+
+**All builds on the main branch are now faster by about 6 to 8 minutes**. This is achieved by [caching the client bundle build](https://github.com/sourcegraph/sourcegraph/pull/38940) in the job that builds the _server_ container that is later used to run e2e tests.
+
+![builds duration heatmap over july](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/heatmap_duration.png)
+
+The caching mechanism is disabled on releases, to be 100% sure we are shipping the right client bundle. When the caching is used, an annotation such as the one below is displayed, making it explicit from when the client bundle was cached, so we can easily see if it should have been invalidated. Those two extra precautions are taken because the caching is done externally and do not rely on any client tooling, therefore invalidation depends on how careful we are at not missing files that could change the build result.
+
+![annotation showing a client bundle cache hit](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/client_bundle_cache.png)
+
+**Stability improvement for frontend steps**: Npm has became increasingly unstable over the past weeks, which caused an increase in client flakes when fetching packages that our code depends on. The CI now wraps `yarn install` in [a retrying loop](https://github.com/sourcegraph/sourcegraph/pull/39454) to mitigate those. Oldest trick in the book!
+
+**Build notifications:** We've rolled out new build notifications! What was wrong with the old ones you might ask? Well, they just took you to the build and you were on your own from then on. With the new build notifications, we show what job failed on your build! We provide a link for you to go straight to the jobs output! If that wasn't enough, we've also added a way for you to see all the logs of your build in Grafana. All of this from the comfort of Slack. We've aimed to make the notifications more actionable and since we're now in control of the notifications we aim to make more improvements.
+
+![slack notification for a build failure](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/build_tracker.png)
+
+**More annotations!**: We've added a custom Mocha reporter which will upon any E2E and QA test failures generate a annotation on Buildkite with the relevant failures. Now you don't have to doom scroll through a bunch of lines just to find the failures!
+The default buildkite failures Slack messages are not the most actionnable ones, so we have decided to replace them with our in-house notifications which we have total control on:
+
+### S2 news
+
+**Sentry frontend and backend errors** are now available in Sentry on the [S2 project](https://sentry.io/organizations/sourcegraph/projects/s2/?issuesType=all&project=6583153). It has a much lower volume than dotcom and reflects more accurately what we can expect to see in our customers deployments. Therefore, it's a prime candidate to monitor your own domain and to create alerts for issues relevant to your team, thanks to the scope attribute. You can view the [loom recording](https://www.loom.com/share/f2010789f6884e72932f6e6a9b091558) to refresh your memory about logging scopes.
+
+**Continuous deployments are live**: every hour, S2 is updated with the latest known green commit from the `main` branch.
+
+## Insights
+
+Now that [S2](https://sourcegraph.sourcegraph.com) is our default instance, all [DevX insights](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxfQ==) have been ported over there. While a few of those relate mostly to what the DevX team is doing (for example the [logging migration](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMH0=)) others insights maybe quite interesting to take a look at, such at [the insight tracking the evolution of tests in the codebase](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMX0=).
+
+![Testing code insight](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/test_insights.png)
+
 ## June 24, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
@@ -156,7 +259,7 @@ For developers wanting to streamline their developer experience with `sg` functi
 
 ### Following your code from PR to production 🚢
 
-Deployments are now announced over Slack, in [#alerts-preprod-cloud](https://sourcegraph.slack.com/archives/C039JKERFBN) for the preprod and in [#deployments-cloud](https://sourcegraph.slack.com/archives/C03BGBR796H) for Cloud deployments. If you want to receive a mention on those announcement when your PR is getting deployed, you can use the `notify-on-deploy` label. If the label is present when the PR is deployed you'll receive the notification.
+Deployments are now announced over Slack, in #alerts-preprod-cloud for the preprod and in #deployments-cloud for Cloud deployments. If you want to receive a mention on those announcement when your PR is getting deployed, you can use the `notify-on-deploy` label. If the label is present when the PR is deployed you'll receive the notification.
 
 Deployements schedules can be observed in [Honeycomb Dashboard](https://ui.honeycomb.io/sourcegraph/board/ev4yWqP5h3u/Deployments) which tracks how much time elapsed from the moment a PR being merged to the moment it got deployed.
 

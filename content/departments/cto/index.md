@@ -13,7 +13,7 @@ Successful experiments should aspirationally aim to "graduate" into the product 
 ## FAQ
 
 **Q:** How are experiments proposed and approved?
-**A:** Just DM Beyang with your idea, but bear in mind the earlier note about bandwidth. Beyang will approve experiments, with sign-off from Christina or Nick to ensure there isn't a conflict with the product roadmap.
+**A:** Just DM Beyang with your idea, but bear in mind the earlier note about bandwidth. Beyang will approve experiments, with sign-off from your manager to ensure there isn't a conflict with the product roadmap.
 
 **Q:** How many people are working on this?
 **A:** Beyang and Stephen.

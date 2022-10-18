@@ -3,7 +3,7 @@
 ## Hiring process
 
 - [Headcount Planning and Approval](talent/process/headcount_changes.md)
-- [Leveling philosophy](people-ops/process/compensation-and-leveling/leveling.md)
+- [Leveling philosophy](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
 - [Compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - [Who is my recruiter?](teamalignment.md)
 - [How to open a new role](talent/process/opening_a_new_job.md)
@@ -57,7 +57,6 @@
   - [Approvals](people-ops/process/compensation-and-leveling/index.md)
 - [Performance coaching](people-ops/process/performance-coaching/index.md)
   - [Coaching conversations](people-ops/process/performance-coaching/coaching.md)
-  - [PIP process](people-ops/process/performance-coaching/pip.md)
   - [Exit interview](people-ops/process/performance-coaching/exit-interview.md)
     - Lattice
     - Questions we ask live

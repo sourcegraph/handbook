@@ -25,7 +25,7 @@ We are an all-remote company and favor asynchronous communication, it is importa
 
 ## Other Access
 
-- Request access to the services below via the listed teams:
+- Ensure you have access to the following services. If not, request access via the listed teams:
   - [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers) - Our CI (Continuous Integration) pipelines host.
     - Self-serve via google auth
   - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider.
@@ -36,6 +36,8 @@ We are an all-remote company and favor asynchronous communication, it is importa
     - **#it-tech-ops**
   - [OpsGenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/ff31605f-6091-4ab0-93f5-3b5b9a79100c/main)
     - **#security-internal**
+  - [Security Team 1Password shared vault](https://team-sourcegraph.1password.com/home) - where we store credentials used by the team
+    - **#it-tech-ops**
 
 ## Sourcegraph - Local Enviroment Setup
 
@@ -88,7 +90,7 @@ The more familiar you are with Sourcegraph and it's components the better! Spend
 
 ### Buildkite
 
-Explore our Continious Integration (CI) platform [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers). There's no need to deepdive on the [documentation](https://buildkite.com/docs/pipelines) but understanding the basics on a high-level and familiarizing yourself with our usage is recommended.
+Explore our Continuous Integration (CI) platform [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers). There's no need to deepdive on the [documentation](https://buildkite.com/docs/pipelines) but understanding the basics on a high-level and familiarizing yourself with our usage is recommended.
 
 ### Secret Rotation
 

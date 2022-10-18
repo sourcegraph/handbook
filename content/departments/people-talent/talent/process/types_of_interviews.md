@@ -115,16 +115,16 @@ In addition to the above interviews, some departments have department-specific i
 
 #### Executive Business Partner working session scenario
 
-- Interviewer(s): Gregg Stone, VP of Sales
+- Interviewer(s) Greg Bastis, VP of Sales
 - Duration: 60-minutes.
 - Details: The goal of this working session is to give us all a sense of what it would be like to work together. Below is a hypothetical situation that we would like to play out during this 60-minute session.
 
-  You are new to the role (30 days) when Gregg asks you to meet and discuss organizing an in-person event for the sales/marketing teams. The idea behind this event is to build strong relationships among team members and align on goals.
+  You are new to the role (30 days) when Greg asks you to meet and discuss organizing an in-person event for the sales/marketing teams. The idea behind this event is to build strong relationships among team members and align on goals.
 
   Your objective in this meeting is to:
 
 1.  Gather all the information that you need in order to be successful at planning and executing this event.
-2.  Provide recommendations, share potential ideas, and discuss solutions with Gregg.
+2.  Provide recommendations, share potential ideas, and discuss solutions with Greg.
 
 Our advice:
 

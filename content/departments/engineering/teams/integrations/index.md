@@ -1,6 +1,6 @@
 # Integrations team
 
-The integrations team owns the our code host and third-party integrations (including our IDE and browser extensions), and Sourcegraph extensions.
+The integrations team owns the our code host and third-party integrations (including our IDE and browser extensions).
 
 Our mission is to bring the value of Sourcegraph to all developers, everywhere they work with code, and to bring the value of other developer tools into Sourcegraph.
 
@@ -28,17 +28,6 @@ Our mission is to bring the value of Sourcegraph to all developers, everywhere t
         </div>
         <div style="text-align: center;">Sara Lee</div>
         <div style="text-align: center; font-size: 12px;">Product Designer</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#murat-sutunc" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Murat Sutunc</div>
-        <div style="text-align: center; font-size: 12px;">Engineering Manager</div>
       </div>
     </div>
     <div class="col" style="flex: 1;">
@@ -94,17 +83,11 @@ Our mission is to bring the value of Sourcegraph to all developers, everywhere t
 
 The power of Sourcegraph is available everywhere that developers read or write code.
 
-- Build a healthy ecosystem of Sourcegraph extensions, built by developers everywhere, who want to bring the power of existing developer tools they love into our platform.
 - Build new paths to get value from Sourcegraph on other websites and IDEs.
 - All of Sourcegraph's most powerful features are easily available on most any code host while using any browser thanks to native integrations and browser extensions.
 
 ## Responsibilities and focus
 
-- Sourcegraph extensions
-  - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.
-  - Build and maintain useful Sourcegraph extensions (Sourcegraph-maintained extensions; video demos).
-  - Documentation and tutorials that enable third-party developers to create actively useful extensions.
-  - Building and maintaining the extensions registry, discovery paths, and extensions developer toolsets, to create an ecosystem around Sourcegraph extensions.
 - Code host integrations
   - Add native support for Sourcegraph in code hosts (for example: GitLab native integration) when possible, so all users of a Sourcegraph instance can get features like code intelligence on their code host without individual setup.
 - Browser extensions
@@ -126,6 +109,7 @@ The power of Sourcegraph is available everywhere that developers read or write c
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
   - [IDE Extensions](ide-extensions/index.md)
+- [Support rotation](integrations-support-rotation.md)
 - [Triad Roles and Responsibilities](triad-roles-and-responsibilites.md)
 - [Team history](team-history.md)
 - [Onboarding](onboarding.md)
