@@ -255,6 +255,35 @@ The state of managed instances infrastructure and deployment artifact are stored
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
 
+### Applying docker-compose configuration changes
+
+In general, docker-compose configuration changes can be applied with:
+
+```sh
+mi sync artifacts
+mi restart-containers
+```
+
+You can verify your changes by using `mi ssh` and running commands like `docker container inspect`.
+
+### Enabling usage data export
+
+Add the following to the instance's docker-compose override and [apply docker-compose changes](#applying-docker-compose-configuration-changes):
+
+```sh
+  worker:
+    environment:
+      - 'EXPORT_USAGE_DATA_ENABLED=true'
+```
+
+### Adding feature flags
+
+Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
+
+Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
+
+Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
+
 ## Availability of the instance
 
 ### Uptime Checks
@@ -522,6 +551,7 @@ mi update-golden -target $version
 
 Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
 
+<<<<<<< Updated upstream
 ### Modify customer specific GCP Managed Instance labels
 
 Customer specific Managed Instance GCP project labels are generated via [mi sync terraform-vars](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed/-/blob/util/cmd/mi/mg_sync_terraform_vars.go?L23).
@@ -542,6 +572,8 @@ Clone the repo locally and add your override to the `config.global.yaml` or `$CU
 
 Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
 
+=======
+>>>>>>> Stashed changes
 ## Disaster Recovery and Business Continuity Plan
 
 <span class="badge badge-note">SOC2/CI-110</span>
