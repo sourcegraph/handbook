@@ -74,7 +74,7 @@ The following code hosts are available for testing:
 - [ghe.sgdev.org](https://ghe.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=bw4nttlfqve3rc6xqzbqq7l7pm&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
 - [ghe-scaletesting.sgdev.org](https://ghe-scaletesting.sgdev.org)
-  - see GHE-Scaletesting
+  - see [GHE-Scaletesting](#GitHub-Enterprise-for-Scale-Testing)
 
 #### Gitlab Enterprise
 
@@ -128,11 +128,11 @@ or to start it:
 
 ## GitHub Enterprise for Scale Testing
 
-A GitHub enterprise instance has been deployed in the same project as `sourcegraph-scaletesting` and can be accessed at https://ghe-scaletesting.sgdev.org. It is initially set up to handle 10k users, with the ability to scale up and down as needed. Please shut down the instance if you are done with testing and is not needed anymore.
+A GitHub enterprise instance has been deployed in the same project as [`sourcegraph-scaletesting`](https://console.cloud.google.com/welcome?project=sourcegraph-scaletesting) and can be accessed at https://ghe-scaletesting.sgdev.org. It is initially set up to handle 10k users, with the ability to scale up and down as needed. Please shut down the instance if you are done with testing and is not needed anymore.
 
 ### Instance start up and shut down
 
-The instance can easily be started/shut down with the following commands:
+The instance can be started/shut down with the following commands:
 
 - Start up: `gcloud compute instances start ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`
 - Shut down: `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`
@@ -143,7 +143,7 @@ When starting the instance, it could take up to 5 mins for the application to se
 
 The instance has been set up to handle 10k users based off of the [recommended specs](https://docs.github.com/en/enterprise-server@3.6/admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-google-cloud-platform#minimum-requirements) from GitHub.
 
-It can also easily be scaled up or down with the following steps:
+It can also be scaled up or down with the following steps:
 
 **Note:** Be cautious when scaling up, as we can only scale up and down CPU/Mem but not disk. To avoid overprovisioning, only increase disk size when needed.
 
@@ -157,7 +157,7 @@ It can also easily be scaled up or down with the following steps:
 
 #### Increase Disk
 
-**Note:** Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
+> NOTE: Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
 
 Increasing disk is a 2 part process - you have to increase disk on the VM, and then expand the ghe filesystem for the changes to be applied.
 
@@ -180,8 +180,7 @@ TBD
 
 ### Data Safety
 
-TBD
-
+This instance has no guarantees regarding permanence, security, or stability. **Do not add any sensitive or private data to this instance!** Assume that this instance can be wiped or torn down at any given moment.
 ## Long running task machine
 
 Creating some of the data can take a long time, we've therefore added a machine in the scaletesting cluster to run these long running tasks.
