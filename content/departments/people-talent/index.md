@@ -217,7 +217,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - [How to promote a Teammate to a new level](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
     - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
-    - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+    - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
     - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
     - [Our Merit and Promotion Process](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
     - [Our compensation bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands)
@@ -249,7 +249,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Compensation
 
 - [Our compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-- [Pay transparancy / our bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#pay-transparency-at-sourcegraph)
+- [Pay transparency / our bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#pay-transparency-at-sourcegraph)
 - [How to give a raise](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a spot bonus](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a promotion](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
