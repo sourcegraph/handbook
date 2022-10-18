@@ -151,9 +151,8 @@ It can also be scaled up or down with the following steps:
 
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
-2. Edit the machine type - We recommended staying within the `n2-highmem-xx` family as it's configuration best suits GitHub's requirements
-   ![edit-machine-type](https://storage.googleapis.com/sourcegraph-assets/handbook/edit-machine-type.png)
-3. Click Save, and start the instance back up.
+2. Edit the machine type in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L40) - We recommended staying within the `n2-highmem-xx` [family](https://cloud.google.com/compute/docs/general-purpose-machines#n2-high-mem) as it's configuration best suits GitHub's requirements.
+3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review. 
 
 #### Increase Disk
 
@@ -163,20 +162,14 @@ Increasing disk is a 2 part process - you have to increase disk on the VM, and t
 
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
-2. In the Google Cloud Console, go to the Disks page under Compute Engine
-3. Identify which disk you want to increase
-   ![select-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk.png)
-4. Click Edit and enter the new size for your disk.
-5. Click Save, and start the instance back up.
-6. Follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
+2. Identify which disk you want to increase in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L19)
+   ![increase-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk-terraform.png)
+3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+4. After it has been approved and applied, follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
 
 ### Logging in
 
-The instance has been set up with an admin account, please find the credentials in our [1Pass vault](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=cjfb3n4rqj6s7mu3dkbci4dk2u&i=q3g4ywrebjiqmti2xro5tq5jwa&h=team-sourcegraph.1password.com)
-
-### Licenses
-
-TBD
+The instance has been set up with an admin account, please find the credentials in our [1Pass vault](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=cjfb3n4rqj6s7mu3dkbci4dk2u&i=q3g4ywrebjiqmti2xro5tq5jwa&h=team-sourcegraph.1password.com).
 
 ### Data Safety
 
