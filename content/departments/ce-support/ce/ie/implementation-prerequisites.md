@@ -7,8 +7,8 @@ This document is intended to gather the prerequisites one must complete before b
 Before deploying Sourcegraph into an environment, the following actions should be completed or access procured
 
 - Kubernetes cluster provisioned (at least v1.19 or later)
-  -  Cluster has node autoscaling enabled
-  -  Cluster supports persistent volumes
+  - Cluster has node autoscaling enabled
+  - Cluster supports persistent volumes
 - CLI Configuration for your cloud provider (if applicable), Kubernetes Cluster, and Helm
   - Cloud provider CLI installed (ex: AWS CLI, GCloud CLI)
   - Kubectl installed
@@ -21,4 +21,3 @@ Before deploying Sourcegraph into an environment, the following actions should b
 - Ingress Controller installed on cluster (if applicable)
 
 ## Additional Considerations
-
