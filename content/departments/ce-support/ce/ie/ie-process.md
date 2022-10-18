@@ -28,9 +28,25 @@ For the majority of implementations, the default process will be for CS to only 
 
 Similarly to CE, implementation will identify product issues, submit corresponding GitHub issues, submit Product Gaps identified by customers, and collaborate with engineering teams to properly priorities resolutions and feature request.
 
-# High Level Implementation Project Plan
+# Implementation Team Use Cases
 
-![Implementation Overview](https://storage.googleapis.com/sourcegraph-assets/Implementation%20Overview.png)
+#### Complex Production Deployments
+
+This is will be the primary use case for the implementation team. Following a simple trial, the CE should identify that the customer will require a complex self-hosted deployment and follows the processes to engage the implementation team. If the customer is selected for implementation services, the implementation team should be engaged leading up to contract closure, at which point the implementation team takes full ownership of the implementation and the customer from a technical perspective.
+
+#### Production Instance Migrations
+
+Occassionaly, customers will go live with a simpler deployment method that can't support the full extent of their expansion. In order to continue expanding, they need to transition to a kubernetes deployments. The implementation team should be notified via a formal implementation request if the customer could benefit from their involvement in the migration.
+
+#### Production Ready Trial Deployments
+
+This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
+
+- The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
+- The opp must impact FY23 revenue
+- The opp must be reviewed by CE and Sales leadership and selected from the implementation request backlog
+
+<em>Note - for more information about the implementation request and backlog review process, review</em> [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md).
 
 # Implementation Team Tasks and Responsibilities
 
@@ -68,6 +84,10 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
   - Using the replica environment, run k6 load testing to ensure the instance can handle user traffic at scale and maintain high levels of performance.
 - Internal status reporting and blockers removal
   - The Implementation Project Manager will report on the status of the project to internal stakeholders while assisting the Implementation Engineer to remove any implementation blockers they may be running into.
+
+# High Level Implementation Project Plan
+
+![Implementation Overview](https://storage.googleapis.com/sourcegraph-assets/Implementation%20Overview.png)
 
 # Implementation Stakeholders
 

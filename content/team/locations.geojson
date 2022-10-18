@@ -499,16 +499,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Justin Boyson"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-97.743057, 30.267153]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "<Luke Taylor>"
             },
             "geometry": {

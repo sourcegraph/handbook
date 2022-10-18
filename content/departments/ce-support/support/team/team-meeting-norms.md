@@ -2,11 +2,11 @@
 
 ## 1:1s
 
-Every member of CS has a regular weekly 1:1 with the manager to whom they report. We consider this 1:1 a sacred space that each member of CS gets to use with their manager how they choose. Each manager can put their own spin on these to ensure that folks to whom they are primarily responsible get the most out of it.
+1:1s with your manager or lead will be set at the agreed upon cadence. For some that will be weekly, for others they may elect to do so less frequently. We consider this 1:1 a sacred space that each member of CS gets to use with their manager how they choose. Each manager can put their own spin on these to ensure that folks to whom they are primarily responsible get the most out of it.
 
-## Career roadmapping/support
+## Career Development
 
-Every member of CS works with their manager to start creating their personal [career roadmap](../career-growth/career-roadmap.md) when they reach their 90 day milestone. The practice starts the same for everyone, answering a series of questions that touch on and go beyond typical career questions. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
+Every member of CS works with their manager on a quarterly basis (after their initial 90 day milestone) to discuss Career Development. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
 
 It is very likely that other managers on the team may be brought in to support someone’s career roadmap as a secondary coach with a speciality in some area relevant to that member of the team.
 
@@ -21,17 +21,9 @@ We want to have a global team where folks can work anywhere in the world. We nev
 
 ## Team meetings
 
-For both weekly planning/retros and ad-hoc team meetings, each manager will facilitate a session on Wednesday at 15:00 UTC and 19:00 UTC. The application engineers in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
+For both weekly planning/retros and ad-hoc team meetings, each manager or lead will facilitate a session on Wednesday at 15:00 UTC and 21:00 UTC. The application engineers in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
 
-At the end of each month, everyone participates in a quick Slack vote on which times will work for them in the coming month. Based on this, which application engineers participate in what time is identified randomly and each manager adjusts the invite for which they are responsible to reflect the correct participants for that month.
-
-This model will let folks continue to work with and bond with folks across the team and not be limited just to those who report to the same manager.
-
-Each manager can put their own spin on the planning/retro they facilitate. Each week, the agenda will have some items that every manager will cover to ensure alignment across the entire team, and they will have space to put their spin on it to keep this synchronous time interesting and engaging.
-
-If any all-team wide ad hoc meetings are also needed, this same model will be used, where the managers each facilitate a session and participants opt into which times work and are randomly identified for one of the sessions that works for them.
-
-Aimee will attend as-needed and when needed, will attend all sessions.
+Each week, the agenda will have some items that every manager will cover to ensure alignment across the entire team, and they will have space to put their spin on it to keep this synchronous time interesting and engaging.
 
 ## Team announcements/initiatives
 
@@ -53,11 +45,3 @@ We will continue to have several optional ways for the team to engage socially:
 - Synchronously 1:1 via the random #weekly #customer-support-weekly pairing donut app pairing
 - Synchronously on Friday via two afternoon/end of day social sessions that are scheduled at 15:00 UTC and 21:00 UTC. Everyone is invited as optional and whoever shows up for the session gets to decide how they want to enjoy each other’s company.
 - Asynchronously and/or synchronously during quarterly virtual events (until we are able to move to consistent in-person)
-
-## Quarterly check-ins
-
-Every quarter, Aimee will check-in with each member of the team to catch-up, see how things are going, gather perspectives, and validate the team is headed and/or operating the way we want.
-
-## Performance management
-
-Everyone only has one manager and that manager is the individual responsible for any performance management that is necessary. At no point is this org structure meant to make it so that anyone feels like they have multiple managers. While any leader may offer positive feedback, only someone’s direct manager or a peer will offer constructive feedback unless the situation is so dire that another leader must do so (this would be very, very rare). There may be times when someone and their manager agree to involve another leader in soliciting feedback (for example, during the 360 review process) and that is entirely acceptable.
