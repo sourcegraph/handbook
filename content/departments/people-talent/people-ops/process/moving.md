@@ -13,7 +13,7 @@ All moves require an updated address. This helps us ensure appropriate payroll t
 - You will update your address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init).
 
 - Note: please submit your change of address **within seven calendar days of your move and at least seven calendar days before the following payroll date** to make sure your change is reflected in time and to ensure you are taxed correctly.
-- Note: Teammates enrolled in a Kaiser health plan may be prompted to re-enroll in health benefits via [Rippling], if Kaiser is not available in the state you move to (https://app.rippling.com/insurance/employee/qle/init).
+- Note: Teammates enrolled in a Kaiser health plan may be prompted to re-enroll in health benefits via [Rippling](https://app.rippling.com/insurance/employee/qle/init), if Kaiser is not available in the state you move to.
 
 **Non-US teammates:**
 
