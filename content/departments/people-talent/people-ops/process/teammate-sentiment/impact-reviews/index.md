@@ -236,7 +236,7 @@ Merit increases require the recommendation of the Teammate’s immediate Manager
 
 Teammate performance is to be formally reviewed at least twice a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
 
-### What is the approval process for merit or promotion increases outside of a performance cycle?\*\*
+### What is the approval process for merit or promotion increases outside of a performance cycle?
 
 In some cases, it may be necessary to support a merit increase outside of a performance review cycle. These should be rare and be seen as an “exception to the rule.” The Department Leader will need to present a business case for out-of-cycle merit-based salary adjustments, spot, and equity bonuses. All changes require VP People & Talent and CEO approval.
 
@@ -369,17 +369,13 @@ Following the completion of self, peer and upward reviews, the below steps take 
 
 - **Step 3:** Promotion or compensation increases go into effect. Promotion announcements are made via `#teammate-announce` channel.
 
-### What to expect in a calibration session\*\*
+### What to expect in a calibration session
 
 We hold a high and consistent bar for Impact Review calibrations to ensure they are fair across Managers, departments, and job levels. The process is meant to limit bias in the performance review process and ensure Managers agree on the criteria against which their direct reports are assessed on. Our People Team has a macro view of these sessions across the organization, so they will be able to provide valuable context and guidance to leaders to ensure an equitable review process.
 
 **What to expect:**
 
-The People Partners will facilitate three calibration sessions in each review period:
-
-- **1. Performance Calibration:** all Managers in the department will meet to calibrate team performance and ratings. In this discussion, they will leverage the Talent Assessment Framework (9-box) to finalize Teammate Performance Reviews and Ratings. In addition, the Executive and Recruiting Director of that department will attend and the People Partner will facilitate the meeting. Everyone will work together to review current Teammate ratings and justify the rating given to each Teammate. After the calibration, Managers will finalize and submit Impact Reviews and Ratings for each team member.
-- **2. Promotion Calibration:** after the submission of team performance reviews and ratings, the Managers, Department Executive and People Partners will meet to finalize promotion recommendations. The People Partner will facilitate the meeting and is responsible for submitting the promotion docs.
-- **3. Compensation Calibration:** the Managers, Department Executive and People Partners will meet to finalize merit recommendations. The People Partner will facilitate the meeting and is responsible for submitting the compensation docs.
+The People Partners will facilitate calibration sessions. [Learn more about how to prepare for calibration meetings](../../compensation-and-leveling/preparing-for-calibrations.md)
 
 ### Delivering the review to Teammates
 
@@ -387,19 +383,9 @@ Each People Partner will coach Managers on how to deliver Teammate reviews.
 
 **Nothing should be a surprise:** Performance and development topics (and more) should regularly be addressed in weekly 1:1s or other casual check-ins, meaning none of the topics discussed during a Teammate’s review should be a surprise. Teammates should have a good idea of what to expect and know Impact Reviews and calibration conversations improve the fairness of performance scores, so they can approach these conversations calmly and with an open mind.
 
-### How we coach Teammates based on performance
+### Teammate development & coaching
 
-Coaching categories help our Managers work with Teammates to create tailored career growth plans. We all have our own unique career goals and interests, and coaching categories help align those career goals and interests to the work we do now. An important part of being a Manager at Sourcegraph is engaging in career growth-focused conversations with Teammates, and working together to create actionable career growth plans. How Managers engage in those conversations depends on Teammate performance, values alignment, and personal goals. Coaching categories are guides to meaningful career-oriented conversations.
-
-We’ll continue to “build muscle” around individual career development plans over the next year or so by incrementally adding tools Managers and Teammates can use to foster meaningful career conversations.
-
-The coaching categories are:
-
-- **Motivate:** focus on ways in which Teammates who are superior performers can continue to strive to model our values in an exceptional way.
-- **Empower:** create opportunities for our highest performing Teammates to step into, or elevate, their leadership presence at Sourcegraph.
-- **Guide:** foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in roles that allow for opportunities to stretch skills, and demonstrate superior performance.
-- **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
-- **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
+At Sourcegraph, we empower high performers. [Learn more about Teammate Development at Sourcegraph.] (../company-info-and-process/working-at-sourcegraph/teammate-development.md)
 
 ## RESOURCES FOR PEOPLE TEAM
 

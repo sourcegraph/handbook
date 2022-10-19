@@ -1,4 +1,3 @@
 # Support Career Growth
 
-- [Career roadmap](career-roadmap.md)
-- [CS Career Levels](cs-career-levels.md)
+- [CS IC Career Levels](cs-career-levels.md)

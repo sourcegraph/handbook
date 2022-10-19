@@ -23,12 +23,13 @@ Implementation Services Customer Request
 - Expected Hosting Provider:
 - Additional Information (if needed):
 
-From there, the customer request will be added to the [Implementation Services Account Backlog](https://docs.google.com/spreadsheets/d/1v36cFlcWGEGENKGGTsElCEP4_ZhIQd2mhgpwDxRPtGM/edit#gid=0) where the account/opportunity will be triaged and prioritized. The triage will take into consideration:
+From there, the customer request will be added to the [Implementation Services Account Backlog](https://docs.google.com/spreadsheets/d/1-79Q5RwAizDY3jBXSWQwmV9G6Jv5nrHzmcvemm4KffQ/edit#gid=0) where the account/opportunity will be triaged and prioritized. All requests will be reviewed by the implementation team, Sales leadership, and CE leadership before being selected for implementation services. The triage will take into consideration:
 
-1. Overall size and technical complexity of the deployment
-2. Opportunity ARR and TAM of the account
-3. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
-4. Current bandwidth<br>
+1. Impact on upcoming fiscal year revenue
+2. Overall size and technical complexity of the deployment
+3. Opportunity ARR and TAM of the account
+4. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
+5. Current implementation team bandwidth<br>
 
 The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly-managed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
 
