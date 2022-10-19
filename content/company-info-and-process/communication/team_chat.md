@@ -76,6 +76,8 @@ Use these emoji reactions to quickly engage with messages in Slack and help with
 - ❌ = Blocking disagreement
 - 📣 Megaphone = Discuss in team meeting
 
+All teammates are able to upload their own custom emoji to our Slack Workspace. When doing so, please avoid the upload of rapidly changing or flashing emoji as this might be harmful to certain teammates. 
+
 ####
 
 **2. Default to public channels**
