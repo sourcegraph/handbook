@@ -1416,7 +1416,7 @@ jeff_warner_delivery:
   reports_to: eng_lead
   manager_role_slug: engineering_manager_delivery
   hide_on_team_page: true
-  
+
 carter_jaenichen:
   name: Carter Jaenichen
   role: Sales Development Representative
