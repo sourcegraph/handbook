@@ -60,15 +60,17 @@ Anniversary gifts should not exceed the following amounts per teammate and per y
 
 ## Celebrating a promotion:
 
-Promotions are a big deal! The People Team is working to develop a custom promotion gift, but in the meantime, please follow the below guidance:
+At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, we encourage Managers to share the news broadly to recognize their teammates’ accomplishments! 
 
-- Each manager is responsible for celebrating their teammates’ promotions. We recommend:
-  - Send a Slack in `#Teammate-annouce` and cross-post in `#thanks`
-    - These posts should cover:
-      - What the promoted teammate has done to merit promotion
-      - How the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)
-      - What the teammate's new responsibilities and role will be
-  - [Send a gift](#how-to-send-a-gift) - we recommend $150
+Managers are responsible for announcing their teammates’ promotions. The following are recommended next steps, as well as a sample promotion announcement. 
+  - [Send a gift!](#how-to-send-a-gift) - we recommend $150
+  - Send a Slack in `#teammate-announce` and cross-post in `#thanks`. At minimum, these posts should cover:
+      - recognizing the hard work of the individual being promoted
+      - providing insight into the individual’s new responsibilities
+      - how the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)
+      - serving as aspirational to others who strive to be promoted in the future
+  - Sample Slack message:
+      - Hi Team! I am thrilled to announce that (TEAMMATE NAME) has been promoted to (NEW TITLE)! For the past (PERIOD OF TIME), (TEAMMATE NAME) has been responsible for (PREVIOUS ROLE/RESPONSIBILITIES/ACCOMPLISHMENTS) that have resulted in (BUSINESS IMPACT/OUTCOME). Going forward, (TEAMMATE NAME) will bring (their/his/her) knowledge, skills and experience into their new role as (NEWLY PROMOTED TITLE) doing (NEWLY PROMOTED RESPONSIBILITIES). Please join me in congratulating (TEAMMATE NAME) on (their/his/her) well-deserved promotion and wish (them/him/her) best of luck in (their/him/her) new role!  
 
 ## Life milestones
 
