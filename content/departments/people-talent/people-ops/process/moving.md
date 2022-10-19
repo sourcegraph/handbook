@@ -1,4 +1,4 @@
-## **Moving and relocation**
+# Moving and relocation
 
 Planning a move? It’s easy! Sourcegraph is a fully remote company, and our teammates can work all over the world.
 
@@ -33,13 +33,9 @@ Cross-border moves require require the following:
 
 Looking for information about [how we engage talent worldwide](how-we-engage-talent-outside-the-us/index.md)?
 
-## Temporary moves
+## Moving benefit
 
-A move is considered “temporary” if you are located in another country for fewer than 30 days in a calendar year.
-
-Moving benefit
-
-Sourcegraph provides an [annual moving benefit of $1,000 USD.](../benefits-pay-perks/benefits-perks/#-moving-help)
+Sourcegraph provides an [annual moving benefit of $1,000 USD.](../../../../benefits-pay-perks/benefits-perks/index.md#🚚-moving-help).
 
 ## Countries where Teammates may not work from
 
