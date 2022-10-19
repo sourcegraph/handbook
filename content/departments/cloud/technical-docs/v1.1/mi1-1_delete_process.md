@@ -116,6 +116,8 @@ gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "da
 ```sh
 # Under $CUSTOMER directory
 cd project
+
+terraform init # switch to local module
 terraform destroy -var-file=../terraform.tfvars
 ```
 
