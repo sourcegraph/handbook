@@ -14,7 +14,7 @@ _Note: This page is a work in progress for the newly-created Growth Marketing te
 
 _For devs, by devs_
 
-The Growth Marketing team focuses on product-oriented features that generate inbound traffic and lead to qualified cloud trials. We inform our priorities and achieve our goals by partnering with [Community](../../cto/community/index.md), [Product Marketing](../product-marketing/index.md), [Data & Analytics](../../data-analytics/index.md), and [Design](../../engineering/design/index.md).
+The Growth Marketing team focuses on product-oriented features that generate inbound traffic and lead to qualified trials. We inform our priorities and achieve our goals by partnering with [Community](../../cto/community/index.md), [Product Marketing](../product-marketing/index.md), [Data & Analytics](../../data-analytics/index.md), and [Design](../../engineering/design/index.md).
 
 ## Team vision and principles
 
