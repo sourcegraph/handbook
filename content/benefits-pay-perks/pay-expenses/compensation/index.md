@@ -4,7 +4,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 **Our compensation pillars:**
 
-- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth.
+- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. In instances where Radford doesn't provide a strong role match, we may leverage other data sources (eg market data, Option Impact) to determine a final compensation band.
 
 - Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
 
@@ -20,7 +20,7 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 Each [job level](leveling-guide.md) has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. **We re-set salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
 
-If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify the band. If we determine that the band needs to be re-analyzed, the only possible outcome is that the band increases. This could also cause the top of the band to go higher than 15% over the 75th percentile. **We _never_ decrease salary bands below Radford's 75th %.**
+If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify and/or adjust the band.
 
 **Commission**:
 
@@ -38,15 +38,17 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 Each Teammate at Sourcegraph has a Radford code assigned to them indicating their 1. role and 2. [level](leveling-guide.md). These two factors are what dictates each Teammate's compensation band. You can find your Radford code in the "job" section of your Bamboo profile and the corresponding pay range in Assemble.
 
-1. The People Team leverages Radford to determine compensation bands. We establish the **band entry points**, which is the 75th percentile of US market data. The **top of the band** is set at 15%, on average, above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, which are already above average, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
+1. The People Team leverages Radford as our source of truth when determining compensation bands. We establish the **band entry points**, which is the 75th percentile of US market data. The **top of the band** is set at 15%, on average, above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, which are already above average, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
 
-   - To ensure we remain market-competitive at all times, we re-evaluate Radford compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md), to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy. We are committed to adjusting our compensation bands as Radford market shifts, or as the scope of roles within Sourcegraph evolve, meaning that our compensation bands have the potential to change every 6-months.
+   - To ensure we remain market-competitive at all times, we re-evaluate Radford compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md), to ensure continued market competitiveness.
+   - There are rare instances when Radford data doesn't match our needs, in which case we will leverage other data sources such as market intel and Option Impact to influence the band.
+   - We are committed to adjusting our compensation bands as Radford market shifts, or as the scope of roles within Sourcegraph evolve, meaning that our compensation bands have the potential to change every 6-months.
 
 2. Each Teammate is matched to a level, which is then tied to a respective compensation band. Sourcegraph leveling decisions anchor on our [leveling guidelines](leveling-guide.md).
 
 ## How new hire compensation decisions are made
 
-We aim to hire new Teammates at the 75th percentile, or entry point, for their role. Our philosophy is to make offers that are market competitive and consistent, in order to ensure candidates feel appropriately valued and aren’t forced to negotiate. We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term, and we strive to reduce the impact of negotiations on offers and raises as much as possible.
+We aim to hire new Teammates at the 75th percentile, or entry point, of the compensation band for their role. Our philosophy is to make offers that are market competitive and consistent, in order to ensure candidates feel appropriately valued and aren’t forced to negotiate. We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term, and we strive to reduce the impact of negotiations on offers and raises as much as possible.
 
 In business-critical cases, we may make exceptions and allow an offer above the entry point of the band. However, this will require a business case that will need to be approved by the Department-Executive, VP of Talent, and CEO. We are extremely conscientious of internal parity and make exceptions only in cases where differences can be justified.
 
