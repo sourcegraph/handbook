@@ -209,112 +209,45 @@ Project:
 - We have a fully remote team. Tech Ops wants to ensure that our Team Members are appropriately protected from security threats. As part of the onboarding process we want to provide all new hires with a Security Checklist. What would you put on this checklist?
 - Please be prepared to present this recommendation on a detailed level in 3 minutes.
 
-## Customer Support
+## Customer Support (Leadership)
 
-### Collaboration and communication skills
+### Hiring Manager
 
-Similar to the general peer interview (you will talk to a member of the support team), but with a specific focus. The purpose of this conversation is to get a sense of how they approach collaboration and communication. We look for someone who can collaborate equally well with customers (software engineers) and teammates in any role (from sales to product), is able to modify collaboration and communication methods depending on who they are working with/talking to, and who is adept at communicating about complex things in a way that is easy to understand.
+During this interview you will meet with the hiring manager on the team. They will seek to gain an understanding of your customer-facing experience. Specifically, your pre-sales technical experience as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
 
-### Technical knowledge and troubleshooting skills
+### Cross-Functional Peer Collaboration
 
-Similar to the general peer interview (you will talk to a member of the support team), but with a specific focus. The purpose of this conversation is to get a sense of how they approach technical troubleshooting. We look for someone who is very curious, more of a problem solver than a builder, who can truly hit the ground running, and once onboarded requires very little assistance from engineering.
+You'll meet with a potential peer in an adjacent team with whom we want to understand how you build relationships and partner with other leaders and how you manage across adjacent teams.
 
-## Customer Engineering (IC)
+### Technical Interview
+
+As a leader for a technical team, we'll get a sense of how you approach technical problems and challenges as well as your working knowledge of the developer ecosystem.
+
+### Leadership & Team Management with 2 IC team members
+
+You'll meet with two individual contributors on the team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
+
+## Customer Engineering (Individual Contributor)
 
 ### Hiring Manager Interview
 
-During this interview you will meet with the hiring manager on the Customer Engineering team. They will seek to gain an understanding of your customer-facing experience. Specifically, what if any, is your experience in a pre-sales and / or post-sales role as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
+During this interview you will meet with the hiring manager on the Customer Engineering team. They will seek to gain an understanding of your customer-facing experience. Specifically, your pre-sales technical experience as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
 
 ### Take Home & Live Interview with a Customer Engineer
 
-For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities—it’s connected to public GitHub repositories. We’ll use this instance to guide the project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team.
+For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities—it’s connected to public GitHub repositories. We’ll use this instance to guide the live project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team. You'll also have a chance to ask them questions about the role, team, and company!
 
-There are two main concepts you should get familiar with in advance of the interview:
+### Panel interview: live product demonstration
 
-- [Search](https://docs.sourcegraph.com/code_search)
-- [Intelligence](https://docs.sourcegraph.com/code_intelligence)
+For this interview, you'll meet with several members of the team to lead a live product demonstration.
 
-Using search and our intelligence features we’ll emulate a customer use case with you and ask you to demonstrate it live for us. We don’t expect you to know everything, so if you get stuck during the interview, show us how you go about researching our docs to try and find the answer! This is as much about understanding how you approach and breakdown problems as it is getting to the correct answer.
-
-The live project demonstration will be followed by a short Q&A with the customer engineer to give you both a chance to get to know each other more, and you’ll discuss your take home questions (see below) and answers together.
-
-Finally, prior to this interview, we would like you to answer the following questions. Please submit your answers to these back to us. We will review your answers as part of the 15 minute Q&A in the interview:
-
-1. Explain how Sourcegraph can improve code review flows for dev teams. Explain the challenges of code-review and how Sourcegraph addresses those.
-2. What are 3 examples of something a developer can search for in Sourcegraph that would help them make their code more secure
-3. How can Sourcegraph help reduce the time to onboard a new dev?
-
-We’ll conduct the interview in the following format:
-
-- 20 minutes: live use-case demonstration
-  - The customer engineer will ask you to perform a few basic search and intelligence functions
-  - You will be sharing your screen (both the Sourcegraph public instance and our docs)
-- 15 minutes: Q&A from customer engineer to learn more about you and your capabilities and discuss your take home answers
-- 10 minutes: general Q&A with customer engineer
-  - Ask anything you want! It’s your chance to learn about the team, the role, and the company from a peer!
-
-### Customer Scenarios Interview, Live Working Session Instructions
-
-For this interview round, you will have an hour-long working session with a Customer Engineer on the team and one of the CE leaders. This working session is intended to help us understand how you approach customers and customer meetings. The working session will cover 4 prompts, spending approximately 10–12 minutes on each of them.
-
-**Important note:** Please make a copy of [this deck](https://docs.google.com/presentation/d/1oekh2p6lULZl9JeTCA0qpjpKycr_v6U3Z2u5Usph4os/edit#slide=id.g9288fdfdea_0_109) and use it to present on the details below.
-
-A summary of the 4 prompts are provided below:
-
-1. **Preparing for a customer call:** See below for some meeting notes taken by your Account Executive (AE) from an initial meeting with a prospect. The AE is requesting that you prepare a demo. Based on the notes provided: what would your demo agenda be, what would your talking points be during it, what questions do you still have for the AE and / or the customer, what additional information do you need, what would be your ideal next step after that meeting and how do you get there?
-2. **Discovery during a customer call:** See below for some high-level information about a prospect put together by a Sales Development Rep (SDR). They are requesting that you and an AE join them on a second conversation with the Director of Developer Productivity and several IC engineers. What are some things you’d want to uncover during that next meeting, what would you ask, what would you share, what in your mind is the overall goal of that meeting?
-3. **Dealing with detractors:** Your AE is asking you to join a meeting with a prospective customer. The AE has met with the prospect a couple times and the initial feedback you’re hearing from the AE is that the prospect isn’t seeing the value in Sourcegraph and does not feel like it’s compelling enough for them to consider at this time given other priorities they have. How do you handle this situation? What’s your game plan with your AE for that meeting?
-4. **Managing customer expectations and internal handling:** You are working with a customer during a trial and they are running into an issue trying to set up one of their code hosts. How would you handle this situation? What do you say to your customer? Who internally do you engage with? What if you learn that what they are trying to do is actually a feature request; how does that change your approach?
-
-The agenda for the meeting will go as follows:
-
-- 0–2 mins: Intros and recap of this interview stage
-- 2–14 mins: Prompt 1
-- 14–26 mins: Prompt 2
-- 26–38 mins: Prompt 3
-- 38–50 mins: Prompt 4
-- 50–60 mins: Feedback and Q&A
-
-**Important Note**: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback.
-
-Finally, as you prepare for this it may be useful to read some of our [customer case studies](https://about.sourcegraph.com/case-studies/) to understand how they have solved their problems and found value from our products. It may also be helpful to read about our [five core use cases](https://about.sourcegraph.com/customers).
-
-**<span style="text-decoration:underline;">Prompt #1: AE Notes</span>**
-
-1. Current team size:
-   - 200 engineers. LinkedIn only shows 43 as many engineers are coming from acquired software companies. This will help accelerate their development, the goal is to improve their customer experience of their betting platform.
-   - 100% growth in last year
-   - 50% growth next year
-2. Why Anything (where is the need from)?
-   - They are acquiring companies to grow (new markets, products), this has resulted in them having to manage more code hosts and on board devs at 100% growth rates. Cross repo changes are key as they grow. They now use local IDEs + GitHub and GitLab search, no cross host search
-   - Efficiency is poor, devs keep writing new code rather than reusing what they have access to - need to be more efficient
-   - Errors are creeping - i.e. they made a recent Redis configuration change and did not apply it to all the relevant files, it is difficult to see where all changes need to be made
-3. Why Sourcegraph and why now?
-   - They have lots of new engineers via acquisitions, they bring in new code on different code hosts. They need a tool for ensuring everyone understands the code across all code hosts
-   - They have three code-hosts: 2 GitLab, 1 GitHub
-
-**<span style="text-decoration:underline;">Prompt #2: SDR Notes</span>**
-
-A prospect (Director of Developer Productivity) came in last year and talked to the previous VP of Sales. Her team was given a license key for trial but COVID hit and the trial was put on pause. They currently have a free version but need to scale their users.
-
-- **Use case:** primary use case is search and then Batch Changes. She wants 2 sets of users. Power users group with Enterprise features mostly search and batch and 2nd group just for daily users using search and intel. Roughly around 250 devs
-- **Codehost**: Primarily GitLab but they have GitLab as well just for open source projects
-- **# of repos:** 1500 (most of them not active) 300 active. 350,000 LOC for 5 repos
-- **LOC**: Roughly 3–4M
-- **Lang**: Go (adding more Go into their code base), Python 60%, JS 20% and PHP, Kotlin, and Swift rest 20%
-- **Architecture**: microservices.
-- **Deployment setup**: Kubernetes
-- **Timeline**: no timeline but the sooner they can start a POC the better
-
-The technical champion said there aren’t any initiatives driving this re-engagement but they‘ve wanted this tool for the longest time. The biggest thing she wants to walk away with is that we can accommodate the 2 sets of user groups: power users, and daily users. She wants to understand pricing, and what next steps would be towards a more formal trial of our Enterprise product.
-
-## Customer Engineering (Manager + Director)
+## Customer Engineering (Leadership)
 
 ### Hiring Manager Screen
 
 During this stage of the interview, you will meet with the hiring manager. During this conversation they'll seek to understand both your exposure to a technical product and audiences and how you lead in a fast-growth organization.
 
-### Cross-Functional Collaboration with a Peer
+### Cross-Functional Peer Collaboration
 
 You'll meet with a potential peer in an adjacent team with whom we want to understand how you build relationships and partner with other leaders and how you manage across adjacent teams.
 
@@ -324,31 +257,7 @@ You'll meet with two individual contributors on the CE team to learn about how y
 
 ### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10–12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
-
-A summary of the 4 prompts are provided below:
-
-1. Account/Deal Review: Two core responsibilities of this role are to perform regular reviews of your team’s book of business and making technical/strategic suggestions to unblock issues that arise. How will you go about performing such reviews with the members of your team? What are your expectations during these reviews; for net new prospects, for existing customers with upcoming renewals? From your past experiences, what do you expect your team to provide to you and on what cadence? Where is this information stored / maintained? If, on a net new deal, you uncover a deal-blocking technical requirement that we cannot fully meet, how do you handle that with your CE? With adjacent teams?
-
-2. Escalation Handling: You are receiving feedback from cross-functional leaders that there are concerns about one of your employees. Their paired Account Executive is requesting to be assigned with a new CE stating that they feel they are not able to progress deals forward due to lackluster performance by the CE during calls and demos. How do you handle this situation? What do you share with the CE? How would you understand if the CE needs to make changes? How would you work with them to improve performance and what would you do if you do not see the improvements you expect?
-
-3. Change Management: We are in a hyper-growth phase and there are several key initiatives that will likely be rolling out over the course of the next several quarters. A key responsibility of this role is to align and train your team, introduce, implement, and manage organizational change, and anticipate emerging needs to iterate quickly. One such initiative we expect to need to implement across the CE organization in the near future is introducing a subset of individuals with the technical skills to be able to test/validate customer edge cases prior to progressing a deal forward. This is outside the current CE responsibilities today and Engineering believe that this is best served from within CE as the team responsible for the technical success of the customer. See below for more context on this prompt. How would you approach this change with your team? How will you uncover and handle objections from within the team? What will you do personally to oversee this broad initiative?
-
-4. Your 30–60–90 Day Plan: What would your personal 30 / 60 / 90 day plan be for joining the team as a leader? What would you personally need to ensure success executing against this 30 / 60 / 90 day plan? How will you communicate and ensure alignment with our leadership team during your 30 / 60 / 90 day plan?
-
-The agenda for the meeting will go as follows:
-
-- 0–2 mins: Intros and recap of this interview stage
-- 2–14 mins: Prompt 1
-- 14–26 mins: Prompt 2
-- 26–38 mins: Prompt 3
-- 38–50 mins: Prompt 4
-- 50–60 mins: Feedback and Q&A
-
-Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes—whichever you feel is most appropriate.
-
-Prompt 3 additional notes:
-The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../../ce-support/ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../../ce-support/ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session will cover 4 prompts provided to candidates prior and is intended to help us understand how you approach both organizational and customer scenarios as a leader, spanning topics such as pipeline review, assessing the business, KPIs/metrics, and coaching & feedback.
 
 ## Engineering
 
