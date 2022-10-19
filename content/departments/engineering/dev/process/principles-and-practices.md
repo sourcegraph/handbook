@@ -71,4 +71,4 @@ True ownership revolves around one thing: "what can I do – with my skills, my 
 
 All of that responsibility is daunting because, of course, it's much more comfortable to lean back and say "I'll just work on my tickets, thank you." But that's not what you were hired for.
 
-You need to embrace high agency and customer focus and the responsibility that comes with it. Because what you built, the problems you solve, the value you provide – it's yours. You can be proud of it. You get to demo it, you get to share it, you get to listen to the customer say "this is fantastic! this saves us so much time!", you get to say "yes, I built _that_". Once you get a taste of that, there's no going back.
+You need to embrace high agency and customer focus and the responsibility that comes with it. Because what you built, the problems you solve, the value you provide – it's yours. You can be proud of it. You get to demo it, you get to share it, you get to listen to the customer say "this is fantastic! this saves us so much time!", you get to say "yes, I built _that_". Once you get a taste of it, there's no going back.
