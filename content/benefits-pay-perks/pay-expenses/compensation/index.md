@@ -13,7 +13,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 ## Components of compensation
 
-At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint. Our compensation package is composed of : base pay and/or commission, equity, and perks & benefits. 
+At Sourcegraph, we aim to hire the best possible talent and want to ensure our Teammates feel valued from a compensation standpoint. Our compensation package is composed of : base pay and/or commission, equity, and perks & benefits.
 
 **Base pay**:
 
@@ -31,14 +31,15 @@ We are an early-stage company, and every Teammate can have a huge impact on our 
 
 **Benefits and perks**:
 
-We want our teammates to be happy, healthy, and productive. In order to best support that, we provide [competitive perks and benefits](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/). 
+We want our teammates to be happy, healthy, and productive. In order to best support that, we provide [competitive perks and benefits](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/).
 
 ## Determining Teammate pay
 
-Each Teammate at Sourcegraph has a Radford code assigned to them indicating their 1. role and 2. [level](leveling-guide.md).  These two factors are what dictates each Teammate's compensation band.  You can find your Radford code in the "job" section of your Bamboo profile and the corresponding pay range in Assemble. 
+Each Teammate at Sourcegraph has a Radford code assigned to them indicating their 1. role and 2. [level](leveling-guide.md). These two factors are what dictates each Teammate's compensation band. You can find your Radford code in the "job" section of your Bamboo profile and the corresponding pay range in Assemble.
 
 1. The People Team leverages Radford to determine compensation bands. We establish the **band entry points**, which is the 75th percentile of US market data. The **top of the band** is set at 15%, on average, above the band entry point. This means that our compensation band entry points are market competitive from the outset, with plenty of room to grow as [Teammates progress in the band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). By establishing competitive band entry points, which are already above average, we attract and retain the best talent while maintaining a compensation philosophy that is location agnostic.
-    - To ensure we remain market-competitive at all times, we re-evaluate Radford compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md), to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy. We are committed to adjusting our compensation bands as Radford market shifts, or as the scope of roles within Sourcegraph evolve, meaning that our compensation bands have the potential to change every 6-months.  
+
+   - To ensure we remain market-competitive at all times, we re-evaluate Radford compensation bands every six months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md), to ensure continued market competitiveness. Our use of market data is the cornerstone of our compensation philosophy. We are committed to adjusting our compensation bands as Radford market shifts, or as the scope of roles within Sourcegraph evolve, meaning that our compensation bands have the potential to change every 6-months.
 
 2. Each Teammate is matched to a level, which is then tied to a respective compensation band. Sourcegraph leveling decisions anchor on our [leveling guidelines](leveling-guide.md).
 
@@ -48,8 +49,7 @@ We aim to hire new Teammates at the 75th percentile, or entry point, for their r
 
 In business-critical cases, we may make exceptions and allow an offer above the entry point of the band. However, this will require a business case that will need to be approved by the Department-Executive, VP of Talent, and CEO. We are extremely conscientious of internal parity and make exceptions only in cases where differences can be justified.
 
-
-## Pay transparency 
+## Pay transparency
 
 At Sourcegraph, Teammates are able to view all compensation bands used in our organization, including their own. We believe that full transparency of our compensation bands creates clear accountability for all compensation decisions, and ensures pay parity.
 
@@ -202,4 +202,3 @@ No, our band entry points are set extremely competitively at the 75th percentile
 **My band seems wrong. Who do I talk to?**
 
 We are always happy to investigate. Reach out to `ask-people-team` or your People Partner!
-
