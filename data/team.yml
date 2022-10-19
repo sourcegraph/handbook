@@ -2016,14 +2016,14 @@ becca_steinbrecher:
 laura_hacker:
   name: Laura Hacker
   pronouns: she/her
-  role: Frontend Engineer, Frontend Platform
+  role: Software Engineer
   reports_to: eng_lead
   location: Grand Rapids, MI, USA 🇺🇸
   github: lrhacker
   pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
-  description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
+  description: 'Laura lives in Grand Rapids, Michigan with her husband and their cat. In addition to her computer science degree, she also spent several years studying zoology and still has plenty of random animal facts to share. Outside of work, she likes to try out different art mediums and crafts, experiment with baking new recipes, and spend time with her family and friends.'
 
 jordan_bushong:
   name: Jordan Bushong
