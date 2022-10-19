@@ -705,7 +705,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_delivery
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -1408,6 +1408,14 @@ jeff_warner:
   email: jeff.warner@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
   description: Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
+
+jeff_warner_delivery:
+  name: Jeff Warner
+  pronouns: he/him
+  role: Engineering Manager, Delivery
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_delivery
+  hide_on_team_page: true
 
 carter_jaenichen:
   name: Carter Jaenichen
@@ -2353,7 +2361,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: cto
+  reports_to: engineering_manager_delivery
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
