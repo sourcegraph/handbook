@@ -4,7 +4,7 @@ We pay competitively in order to attract the best possible talent to Sourcegraph
 
 **Our compensation pillars:**
 
-- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. In instances where Radford doesn't provide a strong role match, we may leverage other data sources (eg market data, Option Impact) to determine a final compensation band. 
+- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. In instances where Radford doesn't provide a strong role match, we may leverage other data sources (eg market data, Option Impact) to determine a final compensation band.
 
 - Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
 
@@ -18,7 +18,7 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 **Base pay**:
 
-Each [job level](leveling-guide.md) has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. **We re-set salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive. 
+Each [job level](leveling-guide.md) has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. **We re-set salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
 
 If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify and/or adjust the band.
 
