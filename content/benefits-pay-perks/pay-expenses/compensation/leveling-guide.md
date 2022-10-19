@@ -2,7 +2,7 @@
 
 ## Job levels explained
 
-Job levels and compensation bands are the building blocks of strong compensation strategy. Together, they help ensure pay equity, improve recruiting and retention efforts, and help us build a more transparent company culture.
+Job levels and compensation bands are the building blocks of a strong compensation strategy. Together, they help ensure pay equity, improve recruiting and retention efforts, and help us build a more transparent company culture.
 
 Job levels, also known as job grades and classifications, help us define the responsibility level and expectations of each role. Each level is defined by impact, seniority, knowledge, skills, and job title, and are associated with a specific pay band. Job levels ultimately help us make more strategic and consistent decisions around how we hire, engage, promote, and retain Teammates.
 
@@ -19,7 +19,7 @@ We divide all job families into two tracks:
 - Managers
   - The Manager track goes from M3 to M6
 
-IC & Manager tracks **do not** directly map to each other (in other words, an IC6 is not equvalent to a M6).
+IC & Manager tracks **do not** directly map to each other (in other words, an IC6 is not equivalent to a M6).
 
 ![Teammate level progression](https://storage.googleapis.com/sourcegraph-assets/Carly%20-%20Level%20Tracks.png)
 
@@ -102,7 +102,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
   - We typically review salary bands against market data twice per year. If market data indicates that our bands are inconsistent or below-market, [we adjust the band](index.md#how-bands-are-changed).
   - If the new compensation band is approved, adjustments will be made for all new hires and existing teammates.
 
-## Why are Sourcegraph's levels different than other companies?
+## Why are Sourcegraph's levels different from other companies?
 
 Every company has their own leveling system that is unique to their needs. This means that a Manager 3 at Sourcegraph, for example, is not necessarily equivalent to a level 3 Manager at another company. We design our leveling system based on Radford's leveling guidelines.
 
