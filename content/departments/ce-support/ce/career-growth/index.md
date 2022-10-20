@@ -51,6 +51,7 @@ Promotions from one level to another are considered in our bi-annual impact revi
 Team Leads are specially designated senior ICs that are elevated within the team to take on additional responsibilities in support of the overall success of the team and individuals. These individuals are not full-time managers but are intentionally given less IC scope than their peers so that they can contribute to higher level initiatives within the team and organization.
 
 As a Team Lead, their scope and responsibility, in addition to the expectations of their defined IC level, includes:
+
 - Ownership: responsible for team member adherence to team processes; facilitates and leads inspection of such processes for their team. Participates in intra- and inter-team projects as a leader. Represents the organization in select cross-functional initiatives. Represents technical needs and risks of teams’ book of business in forecast calls.
 - Coordination: coordinates with team members and leadership on ad-hoc requests, process changes, and needs. Coordinates with adjacent teams and leaders on behalf of team needs.
 - Support: directly supports team members day-to-day providing active coaching and mentorship on technical delivery.
