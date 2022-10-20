@@ -2,19 +2,14 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "type": "FeatureCollection",
-            "features": [
-                {
-                    "type": "Feature",
-                    "properties": {
-                        "name": "Naman Kumar"
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [77.20710754394531, 28.615870539671818]
-                    }
-                }
-            ]
+            "type": "Feature",
+            "properties": {
+                "name": "Naman Kumar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [77.20710754394531, 28.615870539671818]
+            }
         },
         {
             "type": "Feature",
@@ -894,7 +889,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-77.084747, 38.890759]
-             }
+            }
         }
     ]
 }
