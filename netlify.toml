@@ -25,6 +25,7 @@ external_node_modules = ["@ampproject/toolbox-optimizer"]
 for = "/*"
 [headers.values]
 Content-Security-Policy = """\
+      connect-src 'self' *.microsoft.com *.services.visualstudio.com *.swiftype.com *.swiftypecdn.com *.githubusercontent.com plausible.io;\
       script-src 'self' *.netlify.com *.netlify.app *.app.netlify.com *.swiftypecdn.com *.segment.com *.segment.io plausible.io *.github.com *.githubusercontent.com 'sha256-JcUwlbcTNdtwp5Szxufx3JIsjsem70t6DXyfcgTcAnQ=' 'sha256-MEya+PLw9XU1WNgiMij94hmgncY4GS+aQhjC2zqaAz4=' 'sha256-ETVmFY/pVNIiyKhDh3yPNf+mlhV1Z32Ax232eJ+ES7o=';\
       style-src 'self' 'unsafe-inline' *.swiftypecdn.com unpkg.com fonts.googleapis.com;\
       font-src 'self' fonts.gstatic.com excalidraw.com;\
