@@ -89,7 +89,7 @@ In order to gather meaningful results of running tests against the scale testing
 gcloud container clusters get-credentials scaletesting --region us-central1 --project sourcegraph-scaletesting
 ```
 
-If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes.md#kubectl-cheatsheet) for useful `kubectl` commands. 
+If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes.md#kubectl-cheatsheet) for useful `kubectl` commands.
 
 ## Playbook
 
