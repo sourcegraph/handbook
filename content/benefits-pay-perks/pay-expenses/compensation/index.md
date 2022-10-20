@@ -191,6 +191,6 @@ We evaluate compensation regularly. We believe deeply in rewarding and recognizi
 
 No, our band entry points are set competitively at the 75th percentile of US salaries. Teammates have regular opportunities to receive pay increases through our impact review cycles and promotion. We hire all new Teammates into our band entry points - it's how we’re able to hire and retain amazing talent!
 
-**Q: My band seems off / I suspect an error. Who do I contact?
+\*\*Q: My band seems off / I suspect an error. Who do I contact?
 
 We are always happy to investigate. Reach out to `ask-people-team` or your People Partner!
