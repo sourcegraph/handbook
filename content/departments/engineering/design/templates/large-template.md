@@ -37,8 +37,8 @@
 
   ### Design
   - [ ] user journey map - Link
-  - [ ] User flows  - Link
-  - [ ] Wireframes - Link
+  - [ ] User flows - Link
+  - [ ] Low fidelity design - Link
   - [ ] High fidelity design using design system - Figma
   - [ ] Prototype - Link
   - [ ] Designer review

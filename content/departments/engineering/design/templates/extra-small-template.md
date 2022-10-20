@@ -23,7 +23,8 @@
   - [ ] Github issue
 
   ### Design
-  - [ ] High fidelity design using design system - Figma
+  - [ ] High fidelity design using design system or low fidelity design as
+  required - Link
   - [ ] Non-visual design guidance captured in the issue
 
   ### Testing
