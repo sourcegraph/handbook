@@ -188,4 +188,9 @@ Most individuals were hired into Sourcegraph at the 75th percentile of market at
 We evaluate compensation regularly. We believe deeply in rewarding and recognizing impact. Strong performance at Sourcegraph will result in regular compensation increases. Teammates who are given an "exceeding high bar" rating in the Impact Review process are eligible for a merit increase every 6-months, and Teammates who "meet our high bar" are eligible every 12-months. Learn more about [our impact reviews here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
 **Q: I’m at the entry point of the band, does that mean I’m underpaid?**
+
+No,  our band entry points are set competitively at the 75th percentile of US salaries. Teammates have regular opportunities to receive pay increases through our impact review cycles and promotion. We hire all new Teammates into our band entry points - it's how we’re able to hire and retain amazing talent!
+
+**Q: My band seems off / like it has an error. Who do I contact?
+
 We are always happy to investigate. Reach out to `ask-people-team` or your People Partner!
