@@ -44,9 +44,17 @@ Within the technology pillar there exists two core responsibility areas:
 
 When you have demonstrated consistently achieving at least 4 consecutive quarters (1 year min) of high performance at your current level, and one quarter performing at the next level, in all three of the core competencies. It takes time to demonstrate the “consistently” implicit in the expectations, and we don’t want to promote anyone to a level in which they will struggle.
 
-Promotions from one level to another are considered in our bi-annual talent review. In-band compensation increases (while staying at the same level) can happen at any time when your manager makes the case to do so, and is also reviewed annually. These in-band compensation increases are in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
+Promotions from one level to another are considered in our bi-annual impact review process.
 
-Learn more about the CE talent review process [here](talent-review.md).
+## CE Regional Team Leads
+
+Team Leads are specially designated senior ICs that are elevated within the team to take on additional responsibilities in support of the overall success of the team and individuals. These individuals are not full-time managers but are intentionally given less IC scope than their peers so that they can contribute to higher level initiatives within the team and organization.
+
+As a Team Lead, their scope and responsibility, in addition to the expectations of their defined IC level, includes:
+- Ownership: responsible for team member adherence to team processes; facilitates and leads inspection of such processes for their team. Participates in intra- and inter-team projects as a leader. Represents the organization in select cross-functional initiatives. Represents technical needs and risks of teams’ book of business in forecast calls.
+- Coordination: coordinates with team members and leadership on ad-hoc requests, process changes, and needs. Coordinates with adjacent teams and leaders on behalf of team needs.
+- Support: directly supports team members day-to-day providing active coaching and mentorship on technical delivery.
+- Adjusts: listens to feedback from team members and adjacent teams getting to root cause of issues and identifies solutions and go-forward plans; guides the team through change.
 
 ## CEs Transitioning to CE Management
 
