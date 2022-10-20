@@ -28,7 +28,9 @@ The Sales team represents us and our values to customers, bringing back dollars 
 
 ## Goals
 
-Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit?ts=6026cb87#)
+Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit?ts=6026cb87#).
+
+Find the Sales FY23 Target Market [here](https://docs.google.com/document/d/1w35Nnmc_yQCbweHdTWLiP8lX_D0onl4OrmWJZaRsl7s/edit).
 
 ## Members
 
