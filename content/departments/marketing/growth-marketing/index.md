@@ -1,6 +1,6 @@
 # Growth Marketing
 
-_Note: This page is a work in progress for the newly-created Growth Marketing team. For an overview of our kickoff, see [Growth team 2022-10](https://docs.google.com/document/d/1DOMS-soiiuprWlNRhsujsPCNBeY2y-1s-QtxlMRfQGc/edit)._
+_Note: This page is a work in progress for the newly-created Growth Marketing team. For an overview of our kickoff, see [Growth team 2022-10](https://docs.google.com/document/d/1PfGAlnWrwaPNwrz4hE6P3aQEVnm5_JLPcqFoMn4cDAk/edit)._
 
 ## Table of contents
 
