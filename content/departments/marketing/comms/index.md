@@ -25,24 +25,21 @@
 ## Internal comms:
 
 Projects & responsibilites:
-- **Company Announcements** - You can work with the comms team to share important information with the entire company and get support on strategies to cascade that info with smaller groups as needed. 
-  -  If you’d like to share a message in #announcements, please send a request to #internal-comms and tag Madison Clark. She’ll review the request and work with you to refine the message draft for this audience. 
- - **Bi-weekly All Company Meeting** - This live session gives the company a chance to align on shared goals, celebrate recent wins, and hear from members of the team in ways that we can’t always achieve asynchronously. 
-    - We work with people all across the company on content that’s shared in the meeting. If you have something you’d like to share at an upcoming company meeting, send a message to Madison Clark in #internal-comms.
+
+- **Company Announcements** - You can work with the comms team to share important information with the entire company and get support on strategies to cascade that info with smaller groups as needed.
+  - If you’d like to share a message in #announcements, please send a request to #internal-comms and tag Madison Clark. She’ll review the request and work with you to refine the message draft for this audience.
+- **Bi-weekly All Company Meeting** - This live session gives the company a chance to align on shared goals, celebrate recent wins, and hear from members of the team in ways that we can’t always achieve asynchronously.
+  - We work with people all across the company on content that’s shared in the meeting. If you have something you’d like to share at an upcoming company meeting, send a message to Madison Clark in #internal-comms.
 - **Cross-Functional Internal Comms Support** - Need to communicate something to your team, or share information across multiple departments at Sourcegraph? Work with the internal comms team to refine your messaging and build a comms plan to share the information in an effective way. We have templates to make this process smooth (linked below).
 - **Exec-AMA** - Our team also facilitates two-way communication between Sourcegraph teammates and leadership. We monitor #exec-ama and work with leadership to get teammates’ questions answered, and also host synchronous AMA sessions during the off weeks between company meetings. Submit your questions in #exec-ama or directly to a member of our comms team and we’ll coordinate a discussion about that topic.
 - **Quarterly and annual kickoff events** - At the beginning of every quarter, we bring the whole company together via a special company meeting focused on progress from the previous quarter and goals for the one ahead. Work with our team to add content to this meeting and share ideas on fun ways to kickoff a new quarter together.
-- **The Git Down newsletter** - This monthly newsletter complements other internal comms channels and gives our team a way to share longer-form content with the team. If you want to include something in a future issue, sent a message to #internal-comms. 
+- **The Git Down newsletter** - This monthly newsletter complements other internal comms channels and gives our team a way to share longer-form content with the team. If you want to include something in a future issue, sent a message to #internal-comms.
 
 Important channels: [#internal-comms](https://sourcegraph.slack.com/archives/C02K3HXGZTL)
 
-Resources: 
+Resources:
+
 - [Template - internal comms plan](https://docs.google.com/document/d/1oIljeqkrJJQm4FCeOodHTFU4yb3RYTbn2HqemrSgz18/edit)
 - [Template - communicating team changes](https://docs.google.com/document/d/1v2eULF91g_ad6ZpMNzvVP6CKE5vf8YXP4pVVj6TcE54/edit)
 - [Company meeting slides](https://drive.google.com/drive/folders/17bkchzRfDUrUaBJX3CROGclNMFwLgh1o)
 - [The Git Down archives](https://us8.campaign-archive.com/home/?u=df2a46502c53acf0b7771317f&id=e8e7daeb55)
-
-
- 
-
-
