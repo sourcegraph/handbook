@@ -22,7 +22,6 @@ Any application engineer can use the #ask-engineering, #ask-implementation and #
 - ...as you work on a cross-functional project
 - ...maybe if you get curious after posting in #escalation-engineering or filing a Github issue and you have a tangentially related issue -- just say that when you post
 
-
 And now that this is all clear, here is our practice:
 
 ## Step 1: Gather all the details/context and set expectations with the customer
