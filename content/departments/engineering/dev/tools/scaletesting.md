@@ -114,6 +114,8 @@ To ensure the cluster is not left running, set the `node_count` to `0` in the [`
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
 
+Once the cluster has been scaled down please make an announcement in [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) that the cluster has been scaled down.
+
 To stop the `devx` compute instance when it is not in use, run the following:
 
 `gcloud compute instances stop devx --zone us-central1-a --project sourcegraph-scaletest`
