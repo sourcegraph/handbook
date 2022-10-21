@@ -7,7 +7,7 @@ Information about Sourcegraph's different instances.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
-  - [sourcegraph.sourcegraph.com](instances.md#sourcegraph-sourcegraph-com) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2".
+  - [sourcegraph.sourcegraph.com](instances.md#sourcegraph-sourcegraph-com) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2". This instance is jointly owned by #dev-experience and #cloud. We [continously deploy](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) the latest unreleased version of Sourcegraph every one hour on weekdays, and you may also [force rolling out a new deployent](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/upgrade-sourcegraph.yaml) by clicking the `run workflow` button.
 
 For deployments of Sourcegraph we manage for customers, see [managed instances](../../../../cloud/index.md).
 
