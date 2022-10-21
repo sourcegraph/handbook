@@ -1,6 +1,6 @@
 # Communications
 
-**Team vision & principles **
+## Team vision & principles
 
 The global communications team supports the entire organization and influences the way we’re perceived as a brand and company. We do that by raising awareness about Sourcegraph’s product, growth, and mission in the press, through speaking, events sponsorship and awards, across social media, as well as facilitating communication across the company for our teammates.
 
@@ -11,9 +11,9 @@ The Comms team is made up of the following functions & leads:
 - Social media: Bachi Degli-Innocenti
 - Field marketing & demand gen campaigns: Olivia Simpson
 
-**Meet the team & what we do**
+## Meet the team & what we do
 
-## **Global comms & public relations:**
+## _Global comms & public relations:_
 
 Projects & responsibilities:
 
@@ -37,7 +37,7 @@ Resources:
 - [Press coverage tracking](https://docs.google.com/spreadsheets/d/1JgtzMGi9NYheNGyUowFlcdmN0U5w4sV8p_JccWZBwac/edit)
 - Case study signoff: Tag @Amie Rotherham in #marketing for approval (see the [procurement page](../../finance/process/ap.md) for more on approval process).
 
-## Internal comms:
+## _Internal comms:_
 
 Projects & responsibilites:
 
@@ -59,7 +59,7 @@ Resources:
 - [Company meeting slides](https://drive.google.com/drive/folders/17bkchzRfDUrUaBJX3CROGclNMFwLgh1o)
 - [The Git Down archives](https://us8.campaign-archive.com/home/?u=df2a46502c53acf0b7771317f&id=e8e7daeb55)
 
-## Social Media:
+## _Social Media:_
 
 Projects & responsibilites:
 
