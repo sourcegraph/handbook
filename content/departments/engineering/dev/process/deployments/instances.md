@@ -83,3 +83,10 @@ This deployment is a [managed instance](../../../../cloud/index.md) used by Dist
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
 - [Operations](../../../../cloud/technical-docs/operations.md)
+
+### sourcegraph.sourcegraph.com (S2)
+
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-sg)
+- [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/sg)
+- [Operations](../../../../cloud/technical-docs/operations.md)
+- Deployment schedule: every hour on between 8am and 10pm UTC on weekdays.
