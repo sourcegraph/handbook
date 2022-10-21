@@ -1,14 +1,16 @@
 # Communications
 
 ## Table of contents
+
 [Product marketing](#product-marketing)
-  - [Table of contents](#table-of-contents)
-  - [Team vision and principles](#team-vision-and-principles)
-  - [What we do](#what-we-do)
-  - [Working with other teams](#working-with-other-teams)
-  - [Meet the team](#meet-the-team)
-  - [Product launch templates and resources](#product-launch-templates-and-resources)
-  - [Resources](#resources)
+
+- [Table of contents](#table-of-contents)
+- [Team vision and principles](#team-vision-and-principles)
+- [What we do](#what-we-do)
+- [Working with other teams](#working-with-other-teams)
+- [Meet the team](#meet-the-team)
+- [Product launch templates and resources](#product-launch-templates-and-resources)
+- [Resources](#resources)
 
 ## Team vision and principles
 
