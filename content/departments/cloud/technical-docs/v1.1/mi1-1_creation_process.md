@@ -69,7 +69,7 @@ Hi,
 
 The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
 
-Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+Here's the link to the password reset link <>. Please note the link will expire after 72 hours.
 ```
 
 ### Enable "private" mode
