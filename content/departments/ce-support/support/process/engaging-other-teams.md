@@ -76,8 +76,6 @@ Any other questions about monitoring and performance for managed instance deploy
 
 Any questions about code host connections and repository syncing should be routed to the Repository Management team.
 
-EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
-
 - `Perforce` should be routed to the [Repo Management](../../../engineering/teams/repo-management/index.md)
 - `permission syncing` should be routed to [IAM](../../../engineering/teams/iam/index.md)
 - `CVS` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md)
@@ -155,7 +153,7 @@ For a more detailed breakdown of codebase ownership please see the [Engineering 
 
 ## Step 4: File a Github issue
 
-It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.
+Filing a Github issue allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.
 
 ### Select the right issue tracker
 
@@ -189,7 +187,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 ### Requests for help (RFHs)
 
-After you file the Github issue, alert the relevant engineering team you did so in Slack. Keep it simple and always provide 1) a brief description of what you need, 2) link to the Github issue, and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
+After you post in #escalation-engineering or file a Github issue, keep it simple and always provide 1) a brief description of the issue you need help on, 2) link to the Github issue(if you chose this route), and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
 - When posting in the Delivery team's Slack channel, use @delivery-support
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
