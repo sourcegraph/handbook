@@ -33,9 +33,9 @@ Important channels:
 Resources:
 
 - [Link to come in Oct/Nov] Messaging & stats one pager
-  - See also: [Platform messaging page](../process/positioning/.md)
+  - See also: [Platform messaging page](./process/positioning.md)
 - [Press coverage tracking](https://docs.google.com/spreadsheets/d/1JgtzMGi9NYheNGyUowFlcdmN0U5w4sV8p_JccWZBwac/edit)
-- Case study signoff: Tag @Amie Rotherham in #marketing for approval (see the [procurement page](../../finance/process/ap/.md) for more on approval process).
+- Case study signoff: Tag @Amie Rotherham in #marketing for approval (see the [procurement page](../../finance/process/ap.md) for more on approval process).
 
 ## Internal comms:
 
