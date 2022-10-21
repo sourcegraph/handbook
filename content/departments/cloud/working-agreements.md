@@ -4,7 +4,7 @@ Guidelines for how the [Cloud team](./index.md) collaborates. Also see [How we w
 
 ## Definition of Done
 
-The Definition of Done (DoD) is a list of criteria that the high level initiative definition (exp. an epic) *should* meet in order to be considered DONE:
+The Definition of Done (DoD) is a list of criteria that the high level initiative definition (exp. an epic) _should_ meet in order to be considered DONE:
 
 - [Work is completed](#work-is-completed)
 - [Documentation is available](#documentation-is-available)
