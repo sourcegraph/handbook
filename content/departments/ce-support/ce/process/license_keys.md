@@ -10,6 +10,10 @@ For a new trial, create a _new_ subscription. You will only use this for the tri
 
 When the customer converts, create a _new_ subscription; do not reuse the trial subscription. (Follow the instructions below from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
+## Internal licensing FAQ
+
+In case you have a question regarding licensing that is not discussed on this page, check if it is answered in the [internal licensing FAQ](https://docs.google.com/document/d/1xzlkJd3HXGLzB67N7o-9T1s1YXhc1LeGDdJyKDyqfbI).
+
 ## A note on license extensions outside of contractual terms
 
 In special circumstances, such as a bridge extension being requested due to the renewal process not aligning with license expiration, Sales must receive approval from the VP of Finance and VP of Sales. This approval is granted via request in #deal-desk. If an AE requests a deviation from their contract licensing terms, please validate that the necessary approvals have been granted before making any changes to a customers' license key.
