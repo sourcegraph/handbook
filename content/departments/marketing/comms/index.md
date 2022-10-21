@@ -2,36 +2,40 @@
 
 **Team vision & principles **
 
-The global communications team supports the entire organization and influences the way we’re perceived as a brand and company. We do that by raising awareness about Sourcegraph’s product, growth, and mission in the press, through speaking, events sponsorship and awards, across social media, as well as facilitating communication across the company for our teammates. 
+The global communications team supports the entire organization and influences the way we’re perceived as a brand and company. We do that by raising awareness about Sourcegraph’s product, growth, and mission in the press, through speaking, events sponsorship and awards, across social media, as well as facilitating communication across the company for our teammates.
 
-The Comms team is made up of the following functions & leads: 
+The Comms team is made up of the following functions & leads:
+
 - Global comms & public relations: Amie Rotherham
-- Internal comms: Madison Clark 
-- Social media: Bachi Degli-Innocenti 
-- Field marketing & demand gen campaigns: Olivia Simpson 
+- Internal comms: Madison Clark
+- Social media: Bachi Degli-Innocenti
+- Field marketing & demand gen campaigns: Olivia Simpson
 
 **Meet the team & what we do**
 
 ## **Global comms & public relations:**
 
-Projects & responsibilities: 
-- **General messaging & comms support** - Draft and review of anything shared publicly. Examples include: Product & customer comms, marketing materials like video scripts & promotional content, blog review, etc. 
-- **Media relations** - Connect with press on trend stories, company milestones, and product launches. 
-- **Speaking & awards submissions** - Submit our leadership team for talks at dev and tech conferences, submit Sourcegraph and our teammates for industry awards and recognition. Some awards are done in partnership with the People & Talent team. 
-- **Crisis comms** - Messaging support for customer communications and other necessary comms around incidents and company crises. 
-- **PMM & launch support** - Comms and messaging reviews and support for product moments like release posts and launches. 
-Support for other comms functions listed below. 
+Projects & responsibilities:
 
-Important channels: 
+- **General messaging & comms support** - Draft and review of anything shared publicly. Examples include: Product & customer comms, marketing materials like video scripts & promotional content, blog review, etc.
+- **Media relations** - Connect with press on trend stories, company milestones, and product launches.
+- **Speaking & awards submissions** - Submit our leadership team for talks at dev and tech conferences, submit Sourcegraph and our teammates for industry awards and recognition. Some awards are done in partnership with the People & Talent team.
+- **Crisis comms** - Messaging support for customer communications and other necessary comms around incidents and company crises.
+- **PMM & launch support** - Comms and messaging reviews and support for product moments like release posts and launches.
+  Support for other comms functions listed below.
+
+Important channels:
+
 - #press
 - #marketing
 - #comms-team-internal
 
-Resources: 
+Resources:
+
 - [Link to come in Oct/Nov] Messaging & stats one pager
   - See also: [Platform messaging page](https://handbook.sourcegraph.com/departments/marketing/process/positioning/)
 - [Press coverage tracking](https://docs.google.com/spreadsheets/d/1JgtzMGi9NYheNGyUowFlcdmN0U5w4sV8p_JccWZBwac/edit)
-- Case study signoff: Tag @Amie Rotherham in #marketing for approval (see the [procurement page](https://handbook.sourcegraph.com/departments/finance/process/ap/) for more on approval process). 
+- Case study signoff: Tag @Amie Rotherham in #marketing for approval (see the [procurement page](https://handbook.sourcegraph.com/departments/finance/process/ap/) for more on approval process).
 
 ## Internal comms:
 
@@ -79,4 +83,5 @@ Resources:
   - [Social Advocacy One Pager](https://docs.google.com/document/d/1j1aY8w4QisBnlN3hDFa5ZyunDqL_Vmctc5VhH8TeT28/edit?usp=sharing)
 
 ## Field Marketing
-_Content to come!_ 
+
+_Content to come!_
