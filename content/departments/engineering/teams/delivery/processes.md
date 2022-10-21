@@ -9,16 +9,16 @@ We're currently working in a Kanban style. This gives the team flexibility to ha
 Kanban means we maintain a backlog of work we want to complete, prioritized in such a way that the team picks up the next highest priority task.
 
 1. Sync meeting is twice a week
-  - This meeting is used to keep the team members updated with each others work.
-  - Please update the [sync document](https://docs.google.com/document/d/1_gKRjbZEiv8NJzF_azxEU2u8YoPttxaKNeMH0gEEYj0/edit#heading=h.1erjb6ms75la) before the meeting.
-  - We will go through the items for each person to discuss.
-  - This meeting is an appropriate time to prioritize stories and discuss new ones on the board.
-  - By default, we make no time-based commitments, instead favouring a balance of strategic (long term) and tactical (short term repsonsive) work
-  - This does not (and isn't intended to) prevent newly identified work from superceding what gets "planned"
+
+- This meeting is used to keep the team members updated with each others work.
+- Please update the [sync document](https://docs.google.com/document/d/1_gKRjbZEiv8NJzF_azxEU2u8YoPttxaKNeMH0gEEYj0/edit#heading=h.1erjb6ms75la) before the meeting.
+- We will go through the items for each person to discuss.
+- This meeting is an appropriate time to prioritize stories and discuss new ones on the board.
+- By default, we make no time-based commitments, instead favouring a balance of strategic (long term) and tactical (short term repsonsive) work
+- This does not (and isn't intended to) prevent newly identified work from superceding what gets "planned"
 
 2. Retro (biweekly)
    - A review of what we did for learing and continuous improvement purposes.
-
 
 ### Support Rotation
 
