@@ -81,10 +81,11 @@ Read more about [how this team works](./processes.md).
 ## Sourcegraph instances operated by us
 
 We also maintain various instances of Sourcegraph which include:
+
 - [sourcegraph.com (dotCom)](https://sourcegraph.com)
-    - [Continuously deployed](../../dev/process/deployments/index.md#Continuous-Deployment-Continuous) on the following schedule "09:00 UTC on Monday, 05:00 UTC rest of weekdays". To trigger a deployment refer to the [Deploying a code change to DotCom](../devops/deploy-code-change.md) document.
+  - [Continuously deployed](../../dev/process/deployments/index.md#Continuous-Deployment-Continuous) on the following schedule "09:00 UTC on Monday, 05:00 UTC rest of weekdays". To trigger a deployment refer to the [Deploying a code change to DotCom](../devops/deploy-code-change.md) document.
 - [S2](https://sourcegraph.sourcegraph.com)
-    - Managed instance which is continuously deployed with a [GitHub action](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) that runs every hour on between 8am and 10pm UTC on weekdays.
+  - Managed instance which is continuously deployed with a [GitHub action](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) that runs every hour on between 8am and 10pm UTC on weekdays.
 - [k8s](https://k8s.sgdev.com) aka "dogfood" for more information refer to the [Instances document](../../dev/process/deployments/instances.md)
 - [Scaletesting](https://scaletesting.sgdev.org) for more information see [scaltesting](../../dev/tools/scaletesting.md)
 
