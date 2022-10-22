@@ -50,6 +50,7 @@ The aim of this document is to identify the roles within the Cloud team and alig
 - Provide feedback and reviews for Cloud team members
 
 ### DRI
+
 - Be held accountable for end-to-end design and delivery of initiatives
 - Be held accountable for defining technical solutions to business problems
 - Review code/changes made by other team members for a given project
