@@ -191,6 +191,7 @@ We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.c
 - Initiating incident procedures
 - Publishing postmortems
 
+### [Cloud Team Roles and Responsibilities](roles-and-responsibilities.md)
 ## [Managed Instance technical documentation](technical-docs/index.md)
 
 ## Team slack channels
