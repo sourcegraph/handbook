@@ -23,8 +23,9 @@ Prior to taking time off, CEs should:
 
 | Slack Channel     | Description                                                    |
 | ----------------- | -------------------------------------------------------------- |
-| #ce-internal      | Internal channel the CE team to touch base with each other.    |
+| #ce-internal      | Internal channel the CE team uses to touch base with each other.    |
 | #ce               | External channel for other teams to ask CEs a question.        |
 | #customer-support | Where support collaborates with everyone outside of support.   |
 | #ask-engineering  | Where CEs can ask product and Eng questions about Sourcegraph. |
 | #feedback         | Where CEs can share customer feedback with product.            |
+| #technical-customer-collaboration         | Where customer-facing technical teams collaborate on questions and issues.            |
