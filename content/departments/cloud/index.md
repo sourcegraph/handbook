@@ -195,6 +195,14 @@ We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.c
 - Initiating incident procedures
 - Publishing postmortems
 
+**Expectations of work while on-call**
+Oncall engineers are explicitly empowered to work on reliability issues and other high priority work while on-call. This is a critical part of the role and is expected to be a significant portion of the on-call engineer's time. The on-call engineer is expected to be available to respond to alerts and to initiate incident procedures.
+
+This means that an on-call engineer has the ability BUT IS NOT REQUIRED to work on tasks
+that improve the reliability of Sourcegraph Cloud. Examples include work right-sizing
+instances to reduce the number of alerts. They may choose to work on these tasks
+instead of their assigned work.
+
 ## [Managed Instance technical documentation](technical-docs/index.md)
 
 ## Team slack channels
