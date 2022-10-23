@@ -88,6 +88,7 @@ The Recruiter opens the job in Greenhouse:
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding interview steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 - Enter in Radford code and confirm compensation in Assemble. You can read more on how to view our internal compensation bands [here](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands.md).
   - **Note:** Please put the top of band for the finance budget.
+- Turn on [Slack notifications](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack) for the role.
 
 ### Step 3: post the job
 

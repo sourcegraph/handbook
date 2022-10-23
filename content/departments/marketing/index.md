@@ -3,9 +3,7 @@
 - Slack channel: #marketing
 - [Product Marketing](product-marketing/index.md): Product launches, product messaging and positioning, pricing and packaging, customer stories, Customer Advisory Board, and analyst relations. (#customer-advisory-board, #pricing, #release-post)
 - [Growth Marketing](growth-marketing/index.md)
-- Communications: We communicate and amplify Sourcegraph's messages with external and internal audiences. Partner with us on building PR pitches, securing press coverage, communicting announcements and initatives internally with the Sourcegraph team, sharing content at the bi-weekly company meeting, and promoting content on Sourcegraph's social media accounts.
-  - [Internal Comms Plan Template](https://docs.google.com/document/d/1oIljeqkrJJQm4FCeOodHTFU4yb3RYTbn2HqemrSgz18/edit)
-  - #comms-team-internal, #internal-comms
+- [Communications](comms/index.md): We communicate and amplify Sourcegraph's messages with external and internal audiences. Partner with us on building PR pitches, securing press coverage, communicting announcements and initatives internally with the Sourcegraph team, sharing content at the bi-weekly company meeting, and promoting content on Sourcegraph's social media accounts.
 - [Creative Ops](creative-ops.md)
 - [Messaging](process/messaging.md)
   - [Platform positioning](process/positioning.md)
