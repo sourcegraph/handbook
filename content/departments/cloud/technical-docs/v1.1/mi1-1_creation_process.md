@@ -123,3 +123,16 @@ When [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/a
 - finalise creation of Managed Instance - perform steps from [this flow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_create.yml) starting from the one which failed
 - ensure to open Pull Request as the last step and add Cloud Team as reviewer
 - prepare fix and open Pull Request
+
+### Creating a budget
+
+Budgets are applied as a separate module.
+To create a budget you need to run a terraform apply in the `budget` directory.
+Budgets are viewable in the [GCP console](https://console.cloud.google.com/billing/budgets).
+
+```
+# required to access budget APIs in GCP
+export GOOGLE_IMPERSONATE_SERVICE_ACCOUNT=mi-creator-github@sourcegraph-secrets.iam.gserviceaccount.com
+# in the buget directory
+terraform apply -var-file=../terraform.tfvars
+```
