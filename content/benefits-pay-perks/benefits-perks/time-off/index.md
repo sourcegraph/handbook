@@ -19,7 +19,6 @@ Our company-wide policy is unlimited paid time off in exchange for achieving wor
 
 - **Wellbeing leave**: we trust you to practice agency over your wellbeing, and provide wellbeing leave to take if you are ill (sick) or need time away from work to regulate your mental or physical wellbeing. Additional wellbeing leave is also warranted if you’ve been stretched in supporting your team through growth, so that you can recalibrate.
   (If you're unsure whether it's appropriate to put in time off because you're sick but it's easy to work from your bed, we encourage you to apply this thinking, which was offered by one of our teammates: if you'd avoid going into the office because of how you were feeling, take paid time off and rest at home.)
-  
 - **Life leave**: we understand that sometimes “life happens” and you’ll need time off to do things that are not necessarily restful. This could include caring for a family member, bereavement, immigration or legal appointments, taking a pet to the vet, or moving homes.
 
 **Important**: please record all of your PTO (including public holidays) in [Roots](submitting-time-off.md) as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in `#ask-people-team` in Slack.
@@ -27,6 +26,7 @@ Our company-wide policy is unlimited paid time off in exchange for achieving wor
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, seek guidance from your manager so we can understand how to support you.
 
 ## **Working hours**
+
 - At Sourcegraph, results matter more than the hours that you put in. We expect our teammates to apply personal agency over how many hours they can stay focused or are needed to achieve the results they want to achieve, and regulate their rest as they see fit.
 - We trust that when teammates exercise high agency they will also exercise high empathy and be considerate of their fellow teammates when establishing work schedules and when preparing to take time off. Communication and coordination are key, especially for larger projects and customer facing roles– our Support team has documented how they put this into practice here.
 - It’s up to you to identify the right hours to work, considering your type of work and the teammates you work with across other timezones. Consult your manager if you need guidance, and set your availability in your calendar accordingly. If you are invited to meetings outside of your working hours it’s okay to ask to reschedule, or to decline and catch up afterwards by watching the recording and reading the agenda.
@@ -78,6 +78,5 @@ It is good practice to have an automated email response set for when you are out
 You can turn it on and off, select the range of days, change the email subject and add the content of the email.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/7a012a30c4b048b8bf1644d5298d9898" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 
 You can read more about [vacation responder here](https://support.google.com/mail/answer/25922?hl=en)
