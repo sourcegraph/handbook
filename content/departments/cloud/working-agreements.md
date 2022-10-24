@@ -2,6 +2,44 @@
 
 Guidelines for how the [Cloud team](./index.md) collaborates. Also see [How we work](./index.md#how-we-work).
 
+## Definition of Ready
+
+The Definition of Ready (DoR) is a list of criteria that the high level initiative definition (exp. an epic) should meet in order to be ready for scoping down into individual GitHub issues:
+
+- [Context and objectives](#context-and-objectives)
+- [High-level plan](#high-level-plan)
+- [Estimates](#estimates)
+
+Each item should be assessed at each DRI's discretion.
+
+### Context and objectives
+
+- Context behind project
+  - Research on alternatives
+  - Risks of not pursuing the initiative
+  - Reasons to not pursue the initiative
+- Objective of project
+  - Business impact
+  - Value to customers
+  - How to measure impact and value
+- External and internal dependencies
+- List of stakeholders
+- RFC or written document explaining the above
+
+### High-level plan
+
+- Fixed scope, clear deliverables
+- Milestones and plan for the work
+  - MVP definition
+  - Rollout plan
+- Security risk level assessment and approval if required
+- Impact assessment timelines
+
+### Estimates
+
+- Cost projection
+- Engineering capacity required estimate
+
 ## Definition of Done
 
 The Definition of Done (DoD) is a list of criteria that the high level initiative definition (exp. an epic) _should_ meet in order to be considered DONE:
@@ -48,41 +86,3 @@ Operational knowledge:
 - On-call playbooks, troubleshooting/operational documentation
 - Cloud team knowledge sharing focused on operator maintainence and future dev work (e.g. with docs or walkthroughs)
 - Launch questionnaire or playbook
-
-## Definition of Ready
-
-The Definition of Ready (DoR) is a list of criteria that the high level initiative definition (exp. an epic) should meet in order to be ready for scoping down into individual GitHub issues:
-
-- [Context and objectives](#context-and-objectives)
-- [High-level plan](#high-level-plan)
-- [Estimates](#estimates)
-
-Each item should be assessed at each DRI's discretion.
-
-### Context and objectives
-
-- Context behind project
-  - Research on alternatives
-  - Risks of not pursuing the initiative
-  - Reasons to not pursue the initiative
-- Objective of project
-  - Business impact
-  - Value to customers
-  - How to measure impact and value
-- External and internal dependencies
-- List of stakeholders
-- RFC or written document explaining the above
-
-### High-level plan
-
-- Fixed scope, clear deliverables
-- Milestones and plan for the work
-  - MVP definition
-  - Rollout plan
-- Security risk level assessment and approval if required
-- Impact assessment timelines
-
-### Estimates
-
-- Cost projection
-- Engineering capacity required estimate
