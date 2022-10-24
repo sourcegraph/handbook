@@ -30,6 +30,7 @@ Before deploying Sourcegraph into an environment, the following actions should b
 - Access to DNS for the domain being used for Sourcegraph instance
   - Access to create a TLS certificate for the hostname chosen for Sourcegraph instance
 - Ingress Controller installed on cluster (if applicable)
+  - The Ingress Controller must be allocated an external IP to make the instance available either over the internet or within the organization's network
 
 ## Additional Considerations
 
