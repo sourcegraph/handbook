@@ -26,6 +26,7 @@ Our company-wide policy is unlimited paid time off in exchange for achieving wor
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, seek guidance from your manager so we can understand how to support you.
 
 ## **Working hours**
+
 - At Sourcegraph, results matter more than the hours that you put in. We expect our teammates to apply personal agency over how many hours they can stay focused or are needed to achieve the results they want to achieve, and regulate their rest as they see fit.
 - We trust that when teammates exercise high agency they will also exercise high empathy and be considerate of their fellow teammates when establishing work schedules and when preparing to take time off. Communication and coordination are key, especially for larger projects and customer facing roles– our Support team has documented how they put this into practice here.
 - It’s up to you to identify the right hours to work, considering your type of work and the teammates you work with across other timezones. Consult your manager if you need guidance, and set your availability in your calendar accordingly. If you are invited to meetings outside of your working hours it’s okay to ask to reschedule, or to decline and catch up afterwards by watching the recording and reading the agenda.
