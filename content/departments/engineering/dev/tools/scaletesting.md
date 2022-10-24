@@ -16,15 +16,15 @@ The common vocabulary being used to talk about scaling from the persective of a 
 
 `scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
 
-:right_arrow: If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
+➡️ If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
 
 It is deployed in its own Google Cloud Project and is maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
-> :bulb: There are zero alerting enabled on that instance, you are on your own and are expected to reach out for help if you notice something erratic with the deployment itself.
+> 💡 There are zero alerting enabled on that instance, you are on your own and are expected to reach out for help if you notice something erratic with the deployment itself.
 
 ## TL;DR to conduct a test
 
-> :warning: Under no circumstances should the instance ever be populated with customer data. **Only use open source or synthetic data.**
+> ⚠️ Under no circumstances should the instance ever be populated with customer data. **Only use open source or synthetic data.**
 
 1. Have access to the Google Project: TODO
 2. Be familiar with our Observability stack.
@@ -61,7 +61,7 @@ To access this instance, run the following command:
 
 All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
-> :bulb: Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](../process/deployments/kubernetes.md#scaling-kubernetes-clusters) handbook page.
+> 💡 Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](../process/deployments/kubernetes.md#scaling-kubernetes-clusters) handbook page.
 
 ### Code hosts
 
@@ -90,6 +90,11 @@ In order to gather meaningful results of running tests against the scale testing
 - Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](https://console.cloud.google.com/traces/overview?project=sourcegraph-scaletesting). To use tracing all you have to add is `&trace=1` to you url the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
 - Sentry: [`scaletesting`](https://sentry.io/organizations/sourcegraph/issues/?project=6735436)
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
+- You can authenticate yourself to the cluster using the following command:
+
+```shell
+gcloud container clusters get-credentials scaletesting --region us-central1 --project sourcegraph-scaletesting
+```
 
 If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes.md#kubectl-cheatsheet) for useful `kubectl` commands.
 
@@ -104,7 +109,7 @@ Below you can find a subset of the common tasks and how to complete them:
 
 ### Deploying code
 
-To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml).c
+To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
 Merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
@@ -115,6 +120,8 @@ Merge your changes via a pull request, and run the following from the base of th
 To ensure the cluster is not left running, set the `node_count` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
+
+Once the cluster has been scaled down please make an announcement in [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) that the cluster has been scaled down.
 
 To stop the `devx` compute instance when it is not in use, run the following:
 

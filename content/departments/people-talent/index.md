@@ -68,11 +68,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [When impact reviews take place] (COMING SOON)
   - [How to write an impact review](people-ops/process/giving-feedback.md)
   - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - [When can you get a promotion] COMING SOON
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
-  - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
-  - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
+    - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
+    - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
   - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
   - [How we determine new equity for promotion](COMING SOON)
+  - [How we celebrate promotions] COMING SOON
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [Coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
@@ -214,13 +216,14 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
-  - [How to promote a Teammate to a new level](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
-    - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
+- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - [When can you get a promotion] COMING SOON
+  - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
     - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
-    - [Our Merit and Promotion Process](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
-    - [Our compensation bands](../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands)
+  - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
+  - [How we determine new equity for promotion](COMING SOON)
+  - [How we celebrate promotions] COMING SOON
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [Teammate transfer process](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)

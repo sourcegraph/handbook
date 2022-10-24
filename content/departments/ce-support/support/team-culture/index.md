@@ -37,6 +37,7 @@ An occasional challenge of being async by default is there can be a lot to read 
 - #announcements: We read every single thread by the end of each week to stay informed of what is happening more broadly across the entire organization.
 - #customer-support-triage: whoever is responsible pays close attention to that channel, as well as the manual triage channels, and actively asks for coverage if needing to be AFK.
 - #eng-announce: We read every single thread by the end of the week to stay informed of what is happening across the product/engineering organization.
+- #technical-customer-collaboration: Where customer-facing technical teams collaborate in support of customer questions and issues.
 
 ## Expectations
 
