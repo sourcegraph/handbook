@@ -309,6 +309,7 @@ mg info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] 
 ### FQA: What is the Cloud instance IPs?
 
 Use cases:
+
 - The customer would like to maintain an IP allowlist to permit traffic to their code hosts
 - The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
 
