@@ -130,7 +130,7 @@ Budgets are applied as a separate module.
 To create a budget you need to run a terraform apply in the `budget` directory.
 Budgets are viewable in the [GCP console](https://console.cloud.google.com/billing/budgets).
 
-```
+```sh
 # required to access budget APIs in GCP
 export GOOGLE_IMPERSONATE_SERVICE_ACCOUNT=mi-creator-github@sourcegraph-secrets.iam.gserviceaccount.com
 # in the buget directory
