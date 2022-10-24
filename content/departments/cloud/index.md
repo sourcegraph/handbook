@@ -313,6 +313,6 @@ Use cases:
 - The customer would like to maintain an IP allowlist to permit traffic to their code hosts
 - The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
 
-Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. 
+Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs.
 
 For #ce teammates, please reach out to #cloud and include link to this FAQ
