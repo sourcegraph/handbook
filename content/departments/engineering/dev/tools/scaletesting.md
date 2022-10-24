@@ -218,6 +218,11 @@ sg client codehost add-github \
 See https://ghe.sgdev.org/testing which is a replica of https://github.com/londonappbrewery on our GitHub instance.
 They are owned by the `testing` user, who can write on those repos.
 
+#### Organization with 200k blank repos (single initial commit with `README.md`)
+
+See https://ghe.sgdev.org/scaletesting-blank200k for the repos.
+See https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/scaletesting/bulkrepocreate/README.md for the tool powering the creation.
+
 #### Large binary files
 
 A repository with large binary files (Ubuntu isos) is available at https://ghe.sgdev.org/scaletesting/large-binary-files
