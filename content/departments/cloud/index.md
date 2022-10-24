@@ -167,8 +167,8 @@ Incidents which affect managed instances are handled according to our [incidents
 | Reload config               | CE/CS                                                 | Reload MI site config (restart frontend)                                                                                                                                                                              | [restart frontend](#faq-how-do-i-restart-the-frontend-after-changing-the-site-config)                                                                                                                                                                                               |
 | View GCP project metrics    | Cloud/Security/All SG employees via policy attachment | Access to all MI metrics aggregate in single project                                                                                                                                                                  | [GCP scoped dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring)                                                                                                                  |
 | View GCP project logs       | Cloud/Security/All SG employees via policy attachment | Access customer GCP project logs                                                                                                                                                                                      | [GCP logs](https://console.cloud.google.com/logs/query?project=sourcegraph-managed-demo) - change to proper customer name                                                                                                                                                           |
-| GCP ssh, tunnel ports       | Cloud/CS                                              | Required for troubleshooting customer environment and perform pre-defined playbook                                                                                                                                    | [install mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [ssh to MI](./technical-docs/operations.md#ssh-access)<br /> [port-forward to MI](./technical-docs/operations.md#port-forwarding)<br /> [gcloud](https://cloud.google.com/sdk/docs/install)commands |
-| Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [install mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mg cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
+| GCP ssh, tunnel ports       | Cloud/CS                                              | Required for troubleshooting customer environment and perform pre-defined playbook                                                                                                                                    | [install mi cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [ssh to MI](./technical-docs/operations.md#ssh-access)<br /> [port-forward to MI](./technical-docs/operations.md#port-forwarding)<br /> [gcloud](https://cloud.google.com/sdk/docs/install)commands |
+| Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [install mi cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mi cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
 | Login to customer MI web UI | Cloud/CE                                              | Login to customer web UI (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug                                                                 | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
 | Login to customer Grafana   | Cloud/CE                                              | Login to customer [Grafana](https://devmanaged.sourcegraph.com/-/debug/grafana/?orgId=1) (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
 | List Managed Instances      | Cloud/CE                                              | List Managed Instances, filtered by instance type (trial/production/internal) and (optionally) by responsible CE                                                                                                      | [list Managed Instances](#faq-how-do-i-list-trial,-production-or-internal-instances)                                                                                                                                                                                                |
@@ -251,7 +251,7 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 
 Cloud instances are created without any customer data (repos / code-host connections / code / user accounts / code insights etc.), and Cloud team does not support importing customer data from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
 
-### FAQ: How to use mg cli for Managed Instances operations?
+### FAQ: How to use mi cli for Managed Instances operations?
 
 Follow [sourcegraph/deploy-sourcegraph-managed/README.md](https://github.com/sourcegraph/deploy-sourcegraph-managed#deploy-sourcegraph-managed)
 
@@ -259,7 +259,7 @@ Follow [sourcegraph/deploy-sourcegraph-managed/README.md](https://github.com/sou
 
 ### FAQ: How do I generate a password reset link for customer admin?
 
-> For #cloud engineers, run `mg reset-customer-password -email <>` and it will generate a 1password share link for you.
+> For #cloud engineers, run `mi reset-customer-password -email <>` and it will generate a 1password share link for you.
 
 The password reset link expires after 24h, so it's quite common that CE would have to generate a new link during the initial hand-off process.
 
@@ -290,10 +290,10 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 You can either use:
 
 - [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
-- `mg cli` via command:
+- `mi cli` via command:
 
 ```
-mg info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
+mi info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
 ```
 
 ### FAQ: What is the Cloud instance IPs?
