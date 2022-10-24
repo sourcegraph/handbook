@@ -253,17 +253,7 @@ Cloud instances are created without any customer data (repos / code-host connect
 
 ### FAQ: How to use mg cli for Managed Instances operations?
 
-```sh
-git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
-cd deploy-sourcegraph-managed
-echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
-mkdir -p ~/.bin
-export GOBIN=$HOME/.bin
-echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
-source ~/.bashrc
-make install
-mg --help
-```
+Follow [sourcegraph/deploy-sourcegraph-managed/README.md](https://github.com/sourcegraph/deploy-sourcegraph-managed#deploy-sourcegraph-managed)
 
 > NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
 
