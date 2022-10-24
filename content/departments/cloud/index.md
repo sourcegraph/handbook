@@ -79,7 +79,9 @@ The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/
 - For [managed instance requests](#managed-instance-requests) or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the #cloud slack channel
 - You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle, this is to try and protect their focus.
 
-## When to offer a Managed Instance
+## Managed Instance
+
+### When to offer a Managed Instance
 
 > NOTE: Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
 
@@ -92,11 +94,11 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 - Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
 - Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. _(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)_
 
-## Trial Managed Instances (aka PoC)
+### Trial Managed Instances (aka PoC)
 
 [Documentation](./trial_mi.md)
 
-## Managed Instance Requests
+### Managed Instance Requests
 
 Customer Engineers (CE) or Sales may request to:
 
@@ -116,7 +118,7 @@ Customer Engineers (CE) or Sales may request to:
 - **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
 
-### Workflow
+#### Workflow
 
 1. CE seeks Managed Instance approval from their regional CE Manager
 2. The Regional CE Manager will review the following criteria:
@@ -129,7 +131,9 @@ Customer Engineers (CE) or Sales may request to:
 4. Message the team in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
 5. If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
-## SLAs for managed instances
+## Supporting Manage Instance
+
+### SLAs for managed instances
 
 Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
 
@@ -146,17 +150,17 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 | Maintenance: Monthly Update to latest release                                     | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
 | Maintenance: patch/emergency release Update                                       | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
 
-## Recovery Time Objective and Recovery Point Objective (RTO & RPO)
+### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
 We have a maximum Recovery Point Time objective of 24 hours. Snapshots are performed at-least daily on managed instances. Some components may have lower RPOs (e.g. database).
 
 Our maximum Recovery Time Objective is defined by our [support SLAs](../ce-support/support/index.md#slas) for P1 & P2 incidents.
 
-## Incident Response
+### Incident Response
 
 Incidents which affect managed instances are handled according to our [incidents](../engineering/dev/process/incidents/index.md) process.
 
-## Accessing/Debugging Managed Instances
+### Accessing/Debugging Managed Instances
 
 | Action                      | Who can do it                                         | Description                                                                                                                                                                                                           | How                                                                                                                                                                                                                                                                                 |
 | --------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -171,36 +175,11 @@ Incidents which affect managed instances are handled according to our [incidents
 
 More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
-## How we work
+## Processes
 
-### [Working agreements](./working-agreements.md)
-
-### [Cloud launch process](launch-process.md)
-
-### Issue tracking
-
-The [Cloud team GitHub Project](https://github.com/orgs/sourcegraph/projects/264/views/1) is the single source of truth.
-
-### [How we use GitHub Projects (Beta)](github-projects-beta.md)
-
-### [Grooming and Estimation process](grooming-and-estimation-process.md)
-
-### On-call
-
-We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main). Responsibilities of the teammate who is on-call include:
-
-- Acknowledging incoming alerts
-- Initiating incident procedures
-- Publishing postmortems
-
-### [Cloud Team Roles and Responsibilities](roles-and-responsibilities.md)
-
-## [Managed Instance technical documentation](technical-docs/index.md)
-
-## Team slack channels
-
-- [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) - external channel for the Cloud team where other Sourcegraphers can ask for help or leave questions for the team
-- [`#cloud-internal`](https://sourcegraph.slack.com/archives/C03LCPCT3SP) - internal channel for the Cloud team for all day to day communication within the team
+- [Cloud team working aggrements](./working-agreements.md)
+- [Cloud launch process](./launch-process.md)
+- [Technical documentation](technical-docs/index.md)
 
 ## FAQ
 
