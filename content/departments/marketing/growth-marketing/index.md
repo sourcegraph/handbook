@@ -32,3 +32,7 @@ The Growth Marketing team focuses on product-oriented features that generate inb
 - We will make small, quick changes without design so that they can support us (and other teams) with bigger projects.
 - When in doubt about whether an idea appeals to devs, we run it by #dev-chat, #ask-a-dev, or in very quick surveys of external developers.
 - We work in the open in #growth. We use #growth-marketing-internal for housekeeping and post weekly updates in #progress, which holds us accountable to moving quickly and sharing widely.
+
+## Other guidelines
+
+- No gated content.
