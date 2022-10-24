@@ -305,3 +305,11 @@ You can either use:
 ```
 mg info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
 ```
+
+### FQA: What is the Cloud instance IPs?
+
+Use cases:
+- The customer would like to maintain an IP allowlist to permit traffic to their code hosts
+- The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
+
+Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. Please reach out to #cloud and ask for "NAT IP" of the specific customer instance.
