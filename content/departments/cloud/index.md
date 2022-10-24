@@ -177,6 +177,8 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 
 ## How we work
 
+### [Working agreements](#working-agreements)
+
 ### [Cloud launch process](launch-process.md)
 
 ### Issue tracking
