@@ -69,8 +69,15 @@ In order to reproduce a customer scenario accurately, you'll need access to the 
 
 The following code hosts are available for testing:
 
+#### GitHub Enterprise
+
 - [ghe.sgdev.org](https://ghe.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=bw4nttlfqve3rc6xqzbqq7l7pm&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
+- [ghe-scaletesting.sgdev.org](https://ghe-scaletesting.sgdev.org)
+  - see [GHE-Scaletesting](#GitHub-Enterprise-for-Scale-Testing)
+
+#### Gitlab Enterprise
+
 - [gitlab.sgdev.org](https://gitlab.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=ohorqvirgq5t2h5cpo4hwafpuy&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
 
@@ -125,6 +132,55 @@ or to start it:
 `gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
 
 ## Testing Data
+
+## GitHub Enterprise for Scale Testing
+
+A GitHub enterprise instance has been deployed in the same project as [`sourcegraph-scaletesting`](https://console.cloud.google.com/welcome?project=sourcegraph-scaletesting) and can be accessed at https://ghe-scaletesting.sgdev.org. It is initially set up to handle 10k users, with the ability to scale up and down as needed. Please shut down the instance if you are done with testing and is not needed anymore.
+
+### Instance start up and shut down
+
+The instance can be started/shut down with the following commands:
+
+- Start up: `gcloud compute instances start ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`
+- Shut down: `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`
+
+When starting the instance, it could take up to 5 mins for the application to set up before fully operational. The UI will indicate when it is ready to be used.
+
+### Scaling the instance
+
+The instance has been set up to handle 10k users based off of the [recommended specs](https://docs.github.com/en/enterprise-server@3.6/admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-google-cloud-platform#minimum-requirements) from GitHub.
+
+It can also be scaled up or down with the following steps:
+
+**Note:** Be cautious when scaling up, as we can only scale up and down CPU/Mem but not disk. To avoid overprovisioning, only increase disk size when needed.
+
+#### Increase/Decrease CPU and Memory
+
+1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
+   `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
+2. Edit the machine type in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L40) - We recommended staying within the `n2-highmem-xx` [family](https://cloud.google.com/compute/docs/general-purpose-machines#n2-high-mem) as it's configuration best suits GitHub's requirements.
+3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+
+#### Increase Disk
+
+> NOTE: Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
+
+Increasing disk is a 2 part process - you have to increase disk on the VM, and then expand the ghe filesystem for the changes to be applied.
+
+1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
+   `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
+2. Identify which disk you want to increase in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L19)
+   ![increase-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk-terraform.png)
+3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+4. After it has been approved and applied, follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
+
+### Logging in
+
+The instance has been set up with an admin account, please find the credentials in our [1Pass vault](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=cjfb3n4rqj6s7mu3dkbci4dk2u&i=q3g4ywrebjiqmti2xro5tq5jwa&h=team-sourcegraph.1password.com).
+
+### Data Safety
+
+This instance has no guarantees regarding permanence, security, or stability. **Do not add any sensitive or private data to this instance!** Assume that this instance can be wiped or torn down at any given moment.
 
 ## Long running task machine
 
