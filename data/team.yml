@@ -2418,3 +2418,14 @@ bachi_degli_innocenti:
   github: bachidegli
   links: '[Twitter](https://twitter.com/julibachi), [LinkedIn](https://www.linkedin.com/in/julianadi/)'
   description: 'Bachi recently moved to Bariloche in Patagonia, Argentina with her wife, Dai, and her 2 cats, Oreo and Melba. If she is not geeking about social media or doing a new course, you will find her trying new recipes or playing videogames and boardgames. Prior to Sourcegraph, I was the head of social media at Auth0, and before that, she worked in agencies and videogame companies.'
+
+jacob_pleiness:
+  name: Jacob Pleiness
+  email: jacob.pleiness@sourcegraph.com
+  github: jdpleiness
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_delivery
+  location: Ann Arbor, MI, USA 🇺🇸
+  links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
+  description: 'Jacob started his career working in systems administration while getting his degree in computer science. Eventually he got tired of repetitive work and started automating more and more of his job until he became a software engineer.'
