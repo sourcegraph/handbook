@@ -5,7 +5,7 @@ This page outlines the process for transitioning cases between application engin
 ## Action for the Application Engineer Transition an Active Case
 
 - Add an internal note, using the Case Transition macro and template (details below)
-- Update the title of the ticket to start with: NEEDS TRANSITITON
+- Update the title of the ticket to start with: NEEDS TRANSITION
 - Leave the ticket status in its current workflow status state
 - Send a response to the customer summarizing what steps you’ve taken, what is next, and communicate that you're handing the ticket off to a colleague.
 - Unassign yourself from the ticket in Zendesk so it appears in the Unassigned Tickets view in Zendesk to avoid any miss in triaging.
