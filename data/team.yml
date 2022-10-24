@@ -705,7 +705,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_delivery
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -1409,6 +1409,14 @@ jeff_warner:
   links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
   description: Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
 
+jeff_warner_delivery:
+  name: Jeff Warner
+  pronouns: he/him
+  role: Engineering Manager, Delivery
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_delivery
+  hide_on_team_page: true
+
 carter_jaenichen:
   name: Carter Jaenichen
   role: Sales Development Representative
@@ -2016,14 +2024,14 @@ becca_steinbrecher:
 laura_hacker:
   name: Laura Hacker
   pronouns: she/her
-  role: Frontend Engineer, Frontend Platform
+  role: Software Engineer
   reports_to: eng_lead
   location: Grand Rapids, MI, USA 🇺🇸
   github: lrhacker
   pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
-  description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
+  description: 'Laura lives in Grand Rapids, Michigan with her husband and their cat. In addition to her computer science degree, she also spent several years studying zoology and still has plenty of random animal facts to share. Outside of work, she likes to try out different art mediums and crafts, experiment with baking new recipes, and spend time with her family and friends.'
 
 jordan_bushong:
   name: Jordan Bushong
@@ -2353,7 +2361,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: cto
+  reports_to: engineering_manager_delivery
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
