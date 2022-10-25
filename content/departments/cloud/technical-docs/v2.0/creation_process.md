@@ -76,7 +76,7 @@ npx --yes cdktf-cli@0.13.0 deploy project network gke sql app sqlschema waf secu
 
 ### Init deployment artifacts - K8S
 
-Rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
+Go back to the repo root directory, rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
 
 ```sh
 mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
@@ -84,12 +84,17 @@ mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 
 ### Deploy application
 
-Connect to the cluster locally by running
+Run command below to obtain the commands to target the new cluster
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
-gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
+mi2 workon -e $ENVIRONMENT --slug $SLUG
+```
+
+Copy and run the output `gcloud` and `kubectl` commands, you shall see something like
+
+```sh
+gcloud container clusters get-credentials src-$random_hash --region us-central1 --project src-$random_hash
+kubectl config set-context gke_src-$random_hash_us-central1_src-src-$random_hash --namespace=src-$random_hash
 ```
 
 Deploy the manifests
