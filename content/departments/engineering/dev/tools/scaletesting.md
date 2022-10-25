@@ -76,7 +76,7 @@ The following code hosts are available for testing:
 - [ghe-scaletesting.sgdev.org](https://ghe-scaletesting.sgdev.org)
   - see [GHE-Scaletesting](#GitHub-Enterprise-for-Scale-Testing)
 
-#### Gitlab Enterprise
+#### GitLab Enterprise
 
 - [gitlab.sgdev.org](https://gitlab.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=ohorqvirgq5t2h5cpo4hwafpuy&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
@@ -251,7 +251,7 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 
 #### Depots (repos)
 
-##### `devx-small-10GB
+##### `devx-small-10GB`
 
 - Size ~10 GB
 - Change count 589 (commits)
