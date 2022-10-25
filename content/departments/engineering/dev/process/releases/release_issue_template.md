@@ -65,7 +65,7 @@ Upon branch cut, create and test release candidates:
 
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.N` tag:
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
-- [ ] Corss check all reported CVEs are in the [accepted list](https://handbook.sourcegraph.com/departments/security/tooling/trivy/$MAJOR-$MINOR-$PATCH/). Otherwise, alert `@security-support` in the [#release-guild](https://sourcegraph.slack.com/archives/C032Z79NZQC) channel ASAP.
+- [ ] Corss check all reported CVEs are in the accepted list (`https://handbook.sourcegraph.com/departments/security/tooling/trivy/$MAJOR-$MINOR-$PATCH`). Otherwise, alert `@security-support` in the [#release-guild](https://sourcegraph.slack.com/archives/C032Z79NZQC) channel ASAP.
 - [ ] File any failures and regressions in the pipelines as `release-blocker` issues and assign the appropriate teams.
 
 Revert or disable features that may cause delays. As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch. Continue to create new release candidates as necessary, until no more `release-blocker` issues remain.
