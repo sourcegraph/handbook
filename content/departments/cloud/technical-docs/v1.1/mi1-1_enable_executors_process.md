@@ -37,7 +37,7 @@ terraform apply
 Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
 ```sh
-mg executors set-token --token $(terraform output -raw executor_proxy_password)
+mi executors set-token --token $(terraform output -raw executor_proxy_password)
 ```
 
 ### Reload deployment config
@@ -45,13 +45,13 @@ mg executors set-token --token $(terraform output -raw executor_proxy_password)
 Sync configuration
 
 ```sh
-mg sync artifacts
+mi sync artifacts
 ```
 
 Reload worker to catch up with the updated configuration
 
 ```sh
-mg ssh-exec "cd /deployment/docker-compose && docker-compose up -d worker"
+mi ssh-exec "cd /deployment/docker-compose && docker-compose up -d worker"
 ```
 
 ### Confirm executors is actually working
@@ -63,7 +63,7 @@ Then run the command below, which will
 - scale auto scaling group back to `0`
 
 ```sh
-mg executors check
+mi executors check
 ```
 
 ### Wrapping up
