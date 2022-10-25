@@ -56,10 +56,9 @@ Please see below how to get your computer and which specs to get depending on yo
 
 Because of Apple manufacturing and global shipping delays, our recommended models can take anywhere from 4-12 weeks to arrive so we ask that once your contract is signed, please place an order for your Sourcegraph computer immediately. You are responsible for ordering your laptop through one of the following ways:
 
-**US/Canada/Europe-based teammates (not Russia)**
+**US/Canada/UK-based teammates**
 
-1. You can purchase a device that is in stock or to be ordered through a local store and be reimbursed by Sourcegraph. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
-2. You can place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
 **Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
 
