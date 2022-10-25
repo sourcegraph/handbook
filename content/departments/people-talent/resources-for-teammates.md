@@ -21,7 +21,6 @@
 ## Working at Sourcegraph
 
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
-- [Working hours](../../company-info-and-process/working-at-sourcegraph/working-hours.md)
 - [Safety]
 - [Required workplace postings/posters - US]
 - [Teammate development](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
