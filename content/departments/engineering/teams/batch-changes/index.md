@@ -42,9 +42,11 @@ Our two-week sprints start every other Wednesday. On the Tuesday before, we have
 
 ## Team Communication
 
-Our team has two Slack channels, one for everyone (#batch-changes) and one just for us (#batch-changes-internal). Both channels are public and able to be joined by anyone, but _our default is to use #batch-changes._
+Our team has three Slack channels, one for everyone (#batch-changes) and two just for us (#batch-changes-internal) and (#batch-changes-social). All channels are public and able to be joined by anyone, but _our default is to use #batch-changes._
 
 The internal channel is for communications that would be of no interest to someone not on the team. Things like (re-)scheduling of team meetings, vacation scheduling, reminders about tasks that need completing, etc. Keeping these out of the public channel raises the signal-to-noise ratio for folks interested in Batch Changes, but not interested in who will be 10 minutes late to our sync meeting today due to the fact that their cat knocked over a jar of pickles and now there's glass everywhere and everything smells like vinegar and now you wish you hadn't read this sentence to the end.
+
+The social channel is for anything else that would be shared over an informal conversation, like what happened on last weekend, inside jokes, personal life shares etc.
 
 For bringing support questions or requests to the team, you can alert the engineer who is currently on support rotation using the @batcher-support alias.
 
