@@ -41,7 +41,7 @@ batch_changes:
   strategy_link: /strategy-goals/strategy/batch-changes/index.md
   pm: malo_marrec
   em: chris_pine
-  design: rob_rhyne
+  design: daniel_marques
   pmm: lori_colston
   issue_labels:
     - team/batchers
