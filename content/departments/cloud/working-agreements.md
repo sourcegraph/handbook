@@ -26,21 +26,22 @@ Aside from ad-hoc and support tasks, our work is usually considered as part of a
 
 For example, below is the mental model to approach a project to add support for a new region to Cloud:
 
-> Adding new region support to Cloud is the project. Usually, the first milestone would be performing discovery work. In this case, this could be quickly putting a working deployment (proof of concept, or POC) in the new region. After the discovery, it provides a better idea of what needs to be done. The second milestone would be to properly define the scope and break them down to multiple milestones for execution. This could be presented in the form of a RFC or some other document and it should be peer reviewed by the team or relevant stakeholders. Such document should meet the requirement of [Definition of Ready](#definition-of-ready) prior to execution. The project should also meet the requirement of [Definition of Done](#definition-of-done) to be considered as finished.
+> Adding new region support to Cloud is the project. Usually, the first step would be performing discovery work. In this case, this could be quickly putting a working deployment (proof of concept, or POC) in the new region. After the discovery, it provides a better idea of what needs to be done. The second step would be to properly define the scope and break them down to multiple milestones for execution. This could be presented in the form of a RFC or some other document and it should be peer reviewed by the team or relevant stakeholders. Such document should meet the requirement of [Definition of Ready](#definition-of-ready) prior to execution. The project should also meet the requirement of [Definition of Done](#definition-of-done) to be considered as finished.
+
+> NOTES: we intentinoally use `steps` instead of `milestones` for the discovery and scoping phase, and `milestones` are reserved or actual delivery milestones within the project.
 
 ### How do we update project status?
 
-> this is the high-level structure of how we work on a project and we are still figuring out the standardized way of issue tracking, e.g. what tool to use.
+The DRI is expected to provide weekly update in #cloud-internal-status-updates on the project status. For every ongoing project, the DRI should provide update on the current milestone using the following questionnaire. Slack will send a reminder `@cloud-team` every week in #cloud-internal-status-updates to provide the project status updates.
 
-The DRI is expected to provide weekly update (TBD) in #cloud. For every ongoing project, the DRI should provide update on the current milestone using the following questionnaire
-
-- which initiativemilestone?
+- which initiative?
 - which milestone?
 - what is the status? green, yellow, or red
 - what is the significant progress?
-- what do you plan on working next week? (Optional)
+- is there any encountered risks, delays, problems, and blockers?
+- what do you plan on working next week?
 
-Status update on the project-level is up to EM. #cloud EM will aggregate status of all ongoing projects and broadcast with the organization.
+#cloud EM will aggregate status of all ongoing projects status and broadcast with the organization in #cloud. In the future, we may consider having a rotation for the weekly combined update.
 
 ## On-call (support) rotation
 
@@ -70,7 +71,7 @@ A project represents bodies of work for stakeholders and non-involved teammates.
 
 ### Milestone
 
-A milestone tracks progress towards the completion of a project. Each milestone should demonstrate meaningful progress. Each milestone should provide value to the stakeholders. It should also have a **fixed scope** to avoid neverending project, and it should always have a **deadline**. Milestone should be served as the interface between DRI and the rest of the team. Therefore, milestone progress should be included in the weekly status update within the team.
+A milestone tracks progress towards the completion of a project. Each milestone should demonstrate meaningful progress. Each milestone should provide value to the stakeholders. It should also have a **fixed scope** to avoid neverending project, and it should always have a **estimated delivery date**. Milestone should be served as the interface between DRI and the rest of the team. Therefore, milestone progress should be included in the weekly status update within the team.
 
 ### Task
 
@@ -187,14 +188,14 @@ Operational knowledge:
 - Make sure the rest of company is aware of Cloud deliverables
 - Align the Cloud roadmap with external priorities
 - Support the DRIs with cross-team communication and establish requirements from other teams
-- Collect and share with with the team future goals and plans -- i.e. things to do for strategic customers -- to better plan the QX roadmap
+- Collect and share with the team future goals and plans -- i.e. things to do for strategic customers -- to better plan the QX roadmap
 - Identify and escalate gaps in processes, tooling, and ownership that affect the Cloud roadmap
 - Maintain processes for how we work
 - Track progress of larger initiatives
 - Maintain a broad view on state and status of team initiatives and roadmap items
 - Manage Cloud dependencies on other teams
 - Manage relationship with cross-function peers (CE, Sales, Support, Legal etc)
-- Fight for headcount
+- Define and execute staffing strategy to meet the business expectations
 - Support individuals on the team
 - Provide feedback and reviews for Cloud team members
 
