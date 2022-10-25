@@ -55,7 +55,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 ## [Working at Sourcegraph](working-at-sourcegraph/index.md)
 
-- [Working hours](working-at-sourcegraph/working-hours.md)
+- [PTO](../benefits-pay-perks/benefits-perks/time-off/index.md)
 - [Switching teams](working-at-sourcegraph/switching-teams.md)
 - [Impact reviews](../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 - [Leaving](../departments/people-talent/people-ops/process/leaving.md)

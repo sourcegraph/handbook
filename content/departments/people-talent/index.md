@@ -280,6 +280,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - US-based Teammates(COMING SOON)
   - [Contractors](people-ops/process/how-we-engage-talent-outside-the-us/index.md#contractors)
   - [PEO](people-ops/tools/peo.md)
+- [New Hire Videos](new-hire-videos.md)
 
 ### Teammate development
 
