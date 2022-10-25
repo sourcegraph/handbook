@@ -1,6 +1,5 @@
 # Working at Sourcegraph
 
-- [Working hours](working-hours.md)
 - [Holidays](holidays.md)
 - [Switching teams](switching-teams.md)
 - [Impact reviews](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)

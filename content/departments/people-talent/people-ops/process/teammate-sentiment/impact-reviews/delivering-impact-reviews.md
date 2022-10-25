@@ -37,23 +37,26 @@ During these meetings, you’ll cover the following with each Teammate:
       1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
       2. _[Review](index.md#what-is-our-eligibility-process-for-merit-increases) answer the question “how often is my compensation reviewed” _
          1. _[Review ](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md#general-compensation-questions)supporting detail on how to answer the question “why is my increase less than the rate of inflation”_
-   2. _Celebrate promotion (if any)_ 3. _Click here to see[ Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)_
-3. Have a forward-looking discussion: review your vision for your Team over the next 6-months, how the Teammate fits into that work, and longer-term (1+ year) exploration of Teammate’s career growth priorities and objectives. Discuss what you need to see from them to maintain, or improve their score.  
-   3. If your Teammate is scored as “not meeting high bar” you will have a clear performance conversation. [Read more](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164) about navigating performance conversations.
-4. Leave 10-minutes to answer any questions from the Teammate.
+   2. _Celebrate promotion (if any)_
+   3. _Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)_
+3. Have a forward-looking discussion: review your vision for your Team over the next 6-months, how the Teammate fits into that work, and longer-term (1+ year) exploration of Teammate’s career growth priorities and objectives. Discuss what you need to see from them to maintain, or improve their score. 3. If your Teammate is scored as “not meeting high bar” you will have a clear performance conversation. Read more about [navigating performance conversations.
+4. Leave 10-minutes to answer any questions from the Teammate](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164).
 
 Talking points for each topic listed above (overview of process, impact review read-through, compensation increase, and promotion, as well as discussing career growth) may be found in more detail at the bottom of this page.
 
 ## Following up on the impact review session
 
-Immediately following the 1:1,please:
+Immediately following the 1:1, please:
 
-1. **[Share the impact review packet](https://help.lattice.com/hc/en-us/articles/360061983593-Share-Your-Team-s-Review-Packets-With-Summary-Remarks)** with theTeammate in Lattice
-2. **Follow up via Slack notifying each Teammate you’ve shared the review packet and also <span style="text-decoration:underline;">share promo/compensation letters</span>, if applicable. **
+1. [Share the impact review packet](https://help.lattice.com/hc/en-us/articles/360061983593-Share-Your-Team-s-Review-Packets-With-Summary-Remarks) with the Teammate in Lattice
+2. Follow up via Slack notifying each Teammate you’ve shared the review packet and also **share promo/compensation letters**, if applicable.
    1. Sample Slack message for “Meeting or Exceeding High Bar” Teammates:
-      1. “Hi [Teammate name] - thank you for meeting with me today to go over your impact review. [Add optional specifics for great work.]
-      2. I’ve shared your impact review packet with you in Lattice [_and,_ _if applicable - _and am also sharing here a letter outlining your compensation change].
-   2. Sample Slack message for “Not Meeting High Bar” Teammates”: 3. “Hi [Teammate name] - thank you again \_\_\_ 4. I’ve shared your impact review packet with you in Lattice. We discussed some areas I’d like to see you improve in over the coming weeks and months. I’m looking forward to continuing our discussion in our future 1:1s, and helping you do great work here.
+      > “Hi [Teammate name] - thank you for meeting with me today to go over your impact review. [Add optional specifics for great work.]
+      > I’ve shared your impact review packet with you in Lattice [_and, if applicable_ - and am also sharing here a letter outlining your compensation change].
+   2. Sample Slack message for “Not Meeting High Bar” Teammates”:
+      > Hi [Teammate name] - thank you again
+      > I’ve shared your impact review packet with you in Lattice. We discussed some areas I’d like to see you improve in over the coming weeks and months.
+      > I’m looking forward to continuing our discussion in our future 1:1s, and helping you do great work here.
 
 It’s not uncommon for questions to arise as you deliver the impact review to Teammates. Make a note of any questions or follow up needed, and commit to circling back during your next 1:1 session. If unsure of an answer to a question, please contact [your People Partner](../../../../teamalignment.md).
 
@@ -86,7 +89,7 @@ At the conclusion of the review read through, **share the Teammate’s calibrate
 
 ### Communicating promotions
 
-A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! After the feedback period is complete (October 14th, 2022 for FY23/Mid-year), Managers will share the good news with Teammates [in #teammate-announce](../../../../../../company-info-and-process/communication/announcements.md#promotions) by highlighting the promoted Teammate and their accomplishments that supported their promotion.
+A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! After the feedback period is complete (October 14th, 2022 for FY23/Mid-year), Managers will [share the good news with Teammates](../../../../../../company-info-and-process/communication/announcements.md#promotions) in #teammate-announce by highlighting the promoted Teammate and their accomplishments that supported their promotion.
 
 ### Discussing the performance/value score
 
@@ -95,7 +98,7 @@ A Teammate receiving a promotion is cause for celebration and recognition, and r
 - Sourcegraph holds a high bar for performance and demonstration of our values
 - We expect 70% of all Teammates to receive a 2 in both categories - a 2 score **meets our high bar** for performance and values
 - Most Teammates receive this score
-  - \_If compensation increase: \_I’m pleased to share that you’ll receive a compensation increase of x% in recognition of your ongoing contributions to our team. I’ll share a document with you outlining details of your increase following our meeting.
+  - _If compensation increase:_ I’m pleased to share that you’ll receive a compensation increase of x% in recognition of your ongoing contributions to our team. I’ll share a document with you outlining details of your increase following our meeting.
 - You are a deeply valued member of our team. Let’s talk about our team’s work over the next 6 months, and how I see you fitting into that work. I’d also like to discuss your career goals longer-term, and opportunities we have to support that growth.
 
 #### Teammates receiving a 1 in either category (values or performance) - talking points:
@@ -104,7 +107,7 @@ A Teammate receiving a promotion is cause for celebration and recognition, and r
 - We expect 20% of all Teammates to receive a 1 in either categories - a 1 score **exceeds our high bar** for performance and values
 - You are exceptionally valued here - your contributions are recognized by me, and by our leadership team
   - Specifically in this period, your work on [xyz] was exceptional, and [explain impact].
-- \_If promotion: \_Recognizing your contributions, and that you’re performing at the next level, I’m happy to share that you are receiving a promotion to [new title]
+- _If promotion:_ Recognizing your contributions, and that you’re performing at the next level, I’m happy to share that you are receiving a promotion to [new title]
   - [Highlight 2-3 specific examples that factored into the promotion decision]
 - I’m pleased to share that you’ll receive a compensation increase of x% in recognition of your exceptional contributions to our team. I’ll share a document with you outlining details of your increase following our meeting.
   - If they would not have normally been eligible for a comp increase this cycle: While you would not have been eligible for a comp increase this cycle, I am giving a discretionary increase to recognize your exceptional work this period.
@@ -136,17 +139,17 @@ Our impact review cycles are great times to catch up with all teammates on their
 
 We’ve included some anticipated frequently asked questions below you may encounter when delivering the impact review and/or compensation results. If a Teammate asks a question and you’re not sure how to respond, let them know you’ll follow up, and reach out to your People Partner for assistance.
 
-Our[ Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) also includes FAQs you may encounter during conversations with Teammates..
+Our [Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) also includes FAQs you may encounter during conversations with Teammates..
 
 ### Q: How often does Sourcegraph provide merit increases?
 
-- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we regularly evaluate the external job market and may issue market increases to remain competitive. You can read more about our anticipated corresponding compensation increase % for each impact review score **[here](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions).** Please note that these are estimates and we reserve the right to change these at any time.
+- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we regularly evaluate the external job market and may issue market increases to remain competitive. You can read more about our [anticipated corresponding compensation increase % for each impact review score](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions). Please note that these are estimates and we reserve the right to change these at any time.
 
 ### Q: How do I know if I’m eligible for a merit increase?
 
-- A: To be eligible for a merit increase, a Teammate must have worked at least 4 months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
+- A: Teammates who have not had an increase in >9 months are eligible for a merit increase if they have received a Skill and Values-based performance rating of at least “2” in both areas.
 
-  Teammates can receive increases 2x per year for exceptional performance, but the expectation is that Teammates receive a comp review 1x per year.
+  Teammates can receive increases 2x per year for exceptional performance (a Skill or Values-based performance rating of "1"), but the expectation is that Teammates receive a comp review 1x per year.
 
 ### Q: How do I know if I’m eligible for a promotion?
 
@@ -161,28 +164,28 @@ Our[ Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-
 
 ### Q: Inflation and the Consumer Price Index increased significantly in the past year. Why doesn’t my merit increase match increased inflation/CPI numbers?
 
-- A: As you’ll find with most (if not all!) companies, Sourcegraph does not adjust merit increases up or down based on inflation. Inflation is subject to a good deal of variability, and companies do not typically link merit increases to inflation or cost-of-living increases. Rather, our focus is on ensuring that our pay ranges are highly competitive (read more about our compensation philosophy and how we determine ranges[ here](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)) and providing consistent performance-based increases annually (and bi-annually for Teammates [who are rated: “Exceeding High Bar”](index.md#9-box-distribution)). To learn more, we recommend reading [“Why Salary Increases Do Not Keep Pace With Inflation](https://www.forbes.com/sites/johnbremen/2022/04/07/why-salary-increases-do-not-keep-pace-with-inflation/?sh=6edafd775336).
+- A: As you’ll find with most (if not all!) companies, Sourcegraph does not adjust merit increases up or down based on inflation. Inflation is subject to a good deal of variability, and companies do not typically link merit increases to inflation or cost-of-living increases. Rather, our focus is on ensuring that our pay ranges are highly competitive (read more about our [compensation philosophy and how we determine ranges](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)) and providing consistent performance-based increases annually (and bi-annually for Teammates [who are rated: “Exceeding High Bar”](index.md#9-box-distribution)). To learn more, we recommend reading [Why Salary Increases Do Not Keep Pace With Inflation](https://www.forbes.com/sites/johnbremen/2022/04/07/why-salary-increases-do-not-keep-pace-with-inflation/?sh=6edafd775336).
 
 ### Q: Where can I learn more about Compensation at Sourcegraph?
 
-- A: Information about [Compensation at Sourcegraph is published in the handbook](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md), and includes a set of compensation-specific FAQs.
+A: Information about [Compensation at Sourcegraph is published in the handbook](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md), and includes a set of compensation-specific FAQs.
 
 ### Q: How do I access my promo/comp change letter?
 
-- A: Your manager will share your promo/comp change letter with you. After October 15, it will be uploaded to your Bamboo profile. Your compensation increase will also be reflected in your Bamboo profile on that date.
+A: Your manager will share your promo/comp change letter with you. After October 15, it will be uploaded to your Bamboo profile. Your compensation increase will also be reflected in your Bamboo profile on that date.
 
 **Q: When will my compensation and/or promotion go into effect?**
 
-- A: **10/1**
+A: **10/1**
 
 ### Q: When will I be able to see my compensation and/or promotion in Bamboo?
 
-- A: **10/14**
+A: **10/14**
 
 ### Q: I disagree with my Impact Review rating. What should I do?
 
-    A: You should discuss your feedback with your Manager and People Partner. Your leadership team and People Partner will review your feedback and communicate a resolution/outcome to you.
+A: You should discuss your feedback with your Manager and People Partner. Your leadership team and People Partner will review your feedback and communicate a resolution/outcome to you.
 
 ### Q: What’s the status of Sourcegraph’s compensation transparency project?
 
-- A: Sourcegraph’s Managers currently have access to our compensation and transparency project, and Soucegraph will share compensation band information with all Teammates following the conclusion of the Impact Review cycle.
+A: Sourcegraph’s Managers currently have access to our compensation and transparency project, and Soucegraph will share compensation band information with all Teammates following the conclusion of the Impact Review cycle.

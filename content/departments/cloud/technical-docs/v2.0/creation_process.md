@@ -12,6 +12,12 @@ git clone https://github.com/sourcegraph/cloud
 cd cloud
 ```
 
+Install `mi2` binary
+
+```sh
+go install ./cmd/mi2/
+```
+
 ## Steps
 
 > See flow chart https://app.excalidraw.com/s/4Dr1S6qmmY7/2wUSD4kIxRo
@@ -22,6 +28,7 @@ cd cloud
 1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts---infrastructure)
 1. [Init deployment artifacts - K8S](#init-deployment-artifacts---k8s)
 1. [Deploy application](#deploy-application)
+1. [Enable backup](#enable-backup)
 1. [Commit your changes](#Commit-your-changes)
 
 ### Set environment variables
@@ -38,7 +45,7 @@ export ENVIRONMENT=dev
 git checkout -b $SLUG/create-instance
 ```
 
-### Init deployment artifacts - GCP Project
+### Init deployment artifacts - terraform stacks
 
 `mi2 generate` will
 
@@ -49,7 +56,7 @@ git checkout -b $SLUG/create-instance
 mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-Above command will fail on the first run, follow the prompt to manually apply the terraform module or you can just run the command below
+Above command will fail on the first run, run the command below to manually deploy the module
 
 Before applying the terraform modulel, gather the computed values and configure them as environment variables
 
@@ -60,26 +67,11 @@ export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.stat
 
 Apply the `project` terraform module
 
-```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/project
-terraform init
-terraform apply
-```
-
-### Init deployment artifacts - Infrastructure
-
-Rerun the `generate` command to generate the infra terraform module.
+> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.0` under the instance root in case things are not working as intented
 
 ```sh
-mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
-```
-
-Above command will fail again, run the command below to manually apply the `infra` terraform module.
-
-```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-terraform init
-terraform apply
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
+npx --yes cdktf-cli@0.13.0 deploy project network gke sql app sqlschema waf security output --auto-approve --parallelism 8
 ```
 
 ### Init deployment artifacts - K8S
@@ -105,6 +97,15 @@ Deploy the manifests
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
+```
+
+### Enable backup
+
+Enable daily backup for GKE cluster
+
+```sh
+cd sourcegraph/cloud
+mi2 instance sync --slug $SLUG -e $ENVIRONMENT
 ```
 
 ### Commit your changes

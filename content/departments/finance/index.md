@@ -89,7 +89,7 @@ The FY23 plan was built at a departmental level. We have 9 departments:
 | R&D Engineering      |                           |
 | R&D Product          | Quinn Slack               |
 | Marketing            |                           |
-| Sales                | Gregg Stone               |
+| Sales                | Greg Batis                |
 | Customer Support     |                           |
 | Customer Engineering | Aimee Menne               |
 | Operations           | Dan Adler                 |

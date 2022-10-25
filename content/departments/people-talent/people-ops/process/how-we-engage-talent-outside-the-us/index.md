@@ -116,8 +116,6 @@ For candidates or teammates that currently hold a visa and prefer to keep their 
 
 For candidates or teammates that do not currently hold a visa or permanent residency for the country they plan to live in or move to, but have an existing or in-process case, Sourcegraph may be able to transfer and take over the case (depending on the visa, the country, and whether we have the ability to support it directly or via our PEO partner). The candidate or teammate would carry the cost of transferring and sponsoring the case.
 
-For teammates that do not currently hold a visa but are looking to initiate a case for a visa or other immigration assistance (e.g. permanent residency) for personal reasons, Sourcegraph will agree to initiate and sponsor the case for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating the visa or permanent residency petition. The candidate or teammate would carry the cost of transferring and sponsoring the case.
-
 #### Sourcegraph will not consider initiating new petitions prior to their 1-year mark
 
 For candidates in need of sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition and given that we have the ability to sponsor said visa.
@@ -140,4 +138,4 @@ We cannot support or employ candidates or teammates in any of these countries du
 - Russia (case by case - notify People Ops)
 - Ukraine (case by case - notify People Ops)
 
-Any questions? Contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com via email!
+Any questions? Contact the People team in #ask-people-team in Slack or people-ops@sourcegraph.com via email!

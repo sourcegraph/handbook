@@ -2,19 +2,14 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "type": "FeatureCollection",
-            "features": [
-                {
-                    "type": "Feature",
-                    "properties": {
-                        "name": "Naman Kumar"
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [77.20710754394531, 28.615870539671818]
-                    }
-                }
-            ]
+            "type": "Feature",
+            "properties": {
+                "name": "Naman Kumar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [77.20710754394531, 28.615870539671818]
+            }
         },
         {
             "type": "Feature",
@@ -499,16 +494,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Justin Boyson"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-97.743057, 30.267153]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "<Luke Taylor>"
             },
             "geometry": {
@@ -709,16 +694,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Rob Dapaah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-73.21268, 40.81813]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Petri-Johan Last"
             },
             "geometry": {
@@ -879,16 +854,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Lily Schurra"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-75.21240234375, 40.68896903762434]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Miles Patton"
             },
             "geometry": {
@@ -924,7 +889,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-77.084747, 38.890759]
-             }
+            }
         }
     ]
 }

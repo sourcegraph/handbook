@@ -10,6 +10,10 @@ For a new trial, create a _new_ subscription. You will only use this for the tri
 
 When the customer converts, create a _new_ subscription; do not reuse the trial subscription. (Follow the instructions below from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
+## Internal licensing FAQ
+
+In case you have a question regarding licensing that is not discussed on this page, check if it is answered in the [internal licensing FAQ](https://docs.google.com/document/d/1xzlkJd3HXGLzB67N7o-9T1s1YXhc1LeGDdJyKDyqfbI).
+
 ## A note on license extensions outside of contractual terms
 
 In special circumstances, such as a bridge extension being requested due to the renewal process not aligning with license expiration, Sales must receive approval from the VP of Finance and VP of Sales. This approval is granted via request in #deal-desk. If an AE requests a deviation from their contract licensing terms, please validate that the necessary approvals have been granted before making any changes to a customers' license key.
@@ -63,7 +67,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 
 ### License Keys for Managed Instances
 
-As part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../cloud/technical-docs/creation_process.md#configuring-license-sso-and-repositories)
+As part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../cloud/technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access)
 we ask CE to create the license. However, the CE needs to provision additional licenses to account for Sourcegraph administrators.
 The number of additional licenses is determined by the number of [members of the cloud team](https://groups.google.com/a/sourcegraph.com/g/cloud-team/members) but we reccomend a standard buffer of 10.
 

@@ -11,8 +11,8 @@ You'll have to get some basics set up in your first few days:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)
 - If you need access to Percy for visual testing, ask on #dev-chat for an invitation to our org.
-- If you did not receive your invitation to the `sourcegraph` GitHub organization, reach out to our Tech Ops team in `#it-tech-ops` in Slack.
-- If you need access to any additional tool or are having issues with any of them such as, reach out to our Tech Ops team in `#it-tech-ops` in Slack.
+- If you did not receive your invitation to the `sourcegraph` GitHub organization, reach out to our Tech Ops team in #it-tech-ops in Slack.
+- If you need access to any additional tool or are having issues with any of them such as, reach out to our Tech Ops team in #it-tech-ops in Slack.
 
 ## Manager checklist
 

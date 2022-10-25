@@ -86,7 +86,7 @@ If the upgrade succeed, followed the instruction in the generated PR, follow the
 
 Finally, update the tracking issue
 
-If the upgrade fail, follow the logs and restore the instance.
+If the upgrade fail, follow the logs and figure out which step went wrong, then follow the [manual upgrade](#manual-upgrade-deprecated) to finish the upgrade.
 
 #### Manual Upgrade (deprecated)
 
@@ -120,8 +120,6 @@ terraform apply
 ### Confirm instance health
 
 <span class="badge badge-note">SOC2/CI-108</span>
-
-Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
 ```
 mi --customer $CUSTOMER check

@@ -40,9 +40,13 @@ Surveys allow researchers to ask questions at a scale that isn't possible with o
 - [One-page research plan template](https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#)
 - [Useful, proven test activities for re-use](./useful-testing-activities.md)
 
-# Publishing results
+# Synthesizing and documenting insights in Dovetail
 
-After research is complete, we publish our findings in the research in the [user research library](../../product/process/user_research/index.md#user-research-library) or share the resulting artifacts with the project team, and the broader company via internal channels. Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
+The design team uses [Dovetail](https://dovetailapp.com/) to store raw research data, analyze that data, and generate insights. Learn more about [how we use Dovetail here at Sourcegraph](./synthesizing-and-documenting-insights-in-dovetail.md).
+
+We are currently migrating research findings in the [user research library](../../product/process/user_research/index.md#user-research-library) to Dovetail.
+
+Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
 
 # User Research Participants
 

@@ -78,9 +78,10 @@ The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/
 
 ## How to contact the team and ask for help
 
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud`.
-- For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
-- For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
+- For internal Sourcegraph teammates, join us in #cloud slack channel to ask questions or request help from our team.
+- For [managed instance requests](#managed-instance-requests) or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the #cloud slack channel
+- You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle, this is to try and protect their focus.
 
 ## When to offer a Managed Instance
 
@@ -136,15 +137,18 @@ Customer Engineers (CE) or Sales may request to:
 
 Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
 
-|                                               | Description                                            | Response time                                                                                                                     | Resolution time                                                                                                                   |
-| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need                                                                                     | Within 7 working days from agreement                                                                                              |
-| New Trial instance Creation                   | Spin up new trial instance for a new customer          | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours |
-| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
-| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
-| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need                                                                                     | Dependent on the request                                                                                                          |
-| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
-| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
+> SLA for internal requests may be extended during upstream service providers outage. For example, automated trial instance creation workflow relies on GitHub Actions and GitHub is down.
+
+|                                                                                   | Description                                            | Response time                                                                                                                     | Resolution time                                                                                                                   |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| New instance Creation                                                             | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need                                                                                     | Within 7 working days from agreement                                                                                              |
+| New Trial instance Creation (only from [signup](https://signup.sourcegraph.com/)) | Spin up new trial instance for a new customer          | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours |
+| New Trial instance Creation                                                       | Spin up new trial instance for a new customer          | 1 working day                                                                                                                     | 1 working day                                                                                                                     |
+| Existing instance suspension                                                      | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
+| Existing instance deletion/teardown                                               | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
+| New Feature Request                                                               | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need                                                                                     | Dependent on the request                                                                                                          |
+| Maintenance: Monthly Update to latest release                                     | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
+| Maintenance: patch/emergency release Update                                       | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
 
 ## Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
@@ -163,8 +167,8 @@ Incidents which affect managed instances are handled according to our [incidents
 | Reload config               | CE/CS                                                 | Reload MI site config (restart frontend)                                                                                                                                                                              | [restart frontend](#faq-how-do-i-restart-the-frontend-after-changing-the-site-config)                                                                                                                                                                                               |
 | View GCP project metrics    | Cloud/Security/All SG employees via policy attachment | Access to all MI metrics aggregate in single project                                                                                                                                                                  | [GCP scoped dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring)                                                                                                                  |
 | View GCP project logs       | Cloud/Security/All SG employees via policy attachment | Access customer GCP project logs                                                                                                                                                                                      | [GCP logs](https://console.cloud.google.com/logs/query?project=sourcegraph-managed-demo) - change to proper customer name                                                                                                                                                           |
-| GCP ssh, tunnel ports       | Cloud/CS                                              | Required for troubleshooting customer environment and perform pre-defined playbook                                                                                                                                    | [install mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [ssh to MI](./technical-docs/operations.md#ssh-access)<br /> [port-forward to MI](./technical-docs/operations.md#port-forwarding)<br /> [gcloud](https://cloud.google.com/sdk/docs/install)commands |
-| Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [install mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mg cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
+| GCP ssh, tunnel ports       | Cloud/CS                                              | Required for troubleshooting customer environment and perform pre-defined playbook                                                                                                                                    | [install mi cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [ssh to MI](./technical-docs/operations.md#ssh-access)<br /> [port-forward to MI](./technical-docs/operations.md#port-forwarding)<br /> [gcloud](https://cloud.google.com/sdk/docs/install)commands |
+| Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [install mi cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mi cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
 | Login to customer MI web UI | Cloud/CE                                              | Login to customer web UI (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug                                                                 | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
 | Login to customer Grafana   | Cloud/CE                                              | Login to customer [Grafana](https://devmanaged.sourcegraph.com/-/debug/grafana/?orgId=1) (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
 | List Managed Instances      | Cloud/CE                                              | List Managed Instances, filtered by instance type (trial/production/internal) and (optionally) by responsible CE                                                                                                      | [list Managed Instances](#faq-how-do-i-list-trial,-production-or-internal-instances)                                                                                                                                                                                                |
@@ -172,6 +176,8 @@ Incidents which affect managed instances are handled according to our [incidents
 More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
 ## How we work
+
+### [Working agreements](./working-agreements.md)
 
 ### [Cloud launch process](launch-process.md)
 
@@ -245,25 +251,15 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 
 Cloud instances are created without any customer data (repos / code-host connections / code / user accounts / code insights etc.), and Cloud team does not support importing customer data from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
 
-### FAQ: How to use mg cli for Managed Instances operations?
+### FAQ: How to use mi cli for Managed Instances operations?
 
-```sh
-git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
-cd deploy-sourcegraph-managed
-echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
-mkdir -p ~/.bin
-export GOBIN=$HOME/.bin
-echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
-source ~/.bashrc
-make install
-mg --help
-```
+Follow [sourcegraph/deploy-sourcegraph-managed/README.md](https://github.com/sourcegraph/deploy-sourcegraph-managed#deploy-sourcegraph-managed)
 
 > NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
 
 ### FAQ: How do I generate a password reset link for customer admin?
 
-> For #cloud engineers, run `mg reset-customer-password -email <>` and it will generate a 1password share link for you.
+> For #cloud engineers, run `mi reset-customer-password -email <>` and it will generate a 1password share link for you.
 
 The password reset link expires after 24h, so it's quite common that CE would have to generate a new link during the initial hand-off process.
 
@@ -294,8 +290,19 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 You can either use:
 
 - [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
-- `mg cli` via command:
+- `mi cli` via command:
 
 ```
-mg info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
+mi info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
 ```
+
+### FAQ: What is the Cloud instance IPs?
+
+Use cases:
+
+- The customer would like to maintain an IP allowlist to permit traffic to their code hosts
+- The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
+
+Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs.
+
+For #ce teammates, please reach out to #cloud and include link to this FAQ

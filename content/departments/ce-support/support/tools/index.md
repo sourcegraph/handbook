@@ -79,7 +79,7 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 
 ### GitHub Repository for Support Tools
 
-The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private, and you are welcome to add your projects to this repository, but please speak to Brielle or Nonso about your ideas and plans before development starts to avoid possible conflicts.
+The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private, and you are welcome to add your projects to this repository, but please speak to Aimee about your ideas and plans before development starts to avoid possible conflicts.
 
 > NOTE: Please avoid working directly on the main branch.
 

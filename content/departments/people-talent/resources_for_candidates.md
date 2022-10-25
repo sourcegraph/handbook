@@ -2,7 +2,7 @@
 
 ## How to apply
 
-The source-of-truth for our open positions is [our careers page](https://about.sourcegraph.com/jobs/).
+The source-of-truth for our open positions is [**OUR CAREERS PAGE**](https://about.sourcegraph.com/jobs/).
 
 We want to build a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, please apply anyway. We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 

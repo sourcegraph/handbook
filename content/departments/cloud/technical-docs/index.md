@@ -15,7 +15,7 @@ See [known limitations](#known-limitations-of-managed-instances) for more contex
 
 #### Internal instances
 
-For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
+For each type of Managed Instances (v.1.1), Sourcegraph maintains separate test environments:
 
 - ~for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)~ (all instances have been migrated to v1.1)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
@@ -66,10 +66,6 @@ The release process is performed in steps:
 3. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
 
-- for Instances with version [v1.0](./upgrade_process.md)
-  1. Test instances are upgraded - [dev](https://devmanaged.sourcegraph.com/) and [demo](https://demo.sourcegraph.com/)
-  1. [Uptime checks](./upgrade_process.md#8-confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
-  1. When test instances are working correctly, Cloud Team performs upgrade of all v1.0 customer instances
 - for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
   1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
   1. [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
@@ -109,16 +105,14 @@ All metrics can be seen in [scoped projects dashboard](https://console.cloud.goo
 
 Every customer managed instance has alerts configured:
 
-- [uptime check - version v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L555) configured in dedicated GCP managed instance project
 - [uptime check - version v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529) configured in dedicated GCP managed instance project
 - [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
-- [application performance metrics](./operations.md#performance-checks) - configured in customer intance [site-config.json](https://docs.sourcegraph.com/admin/config/site_config) via `mg cli` during instance creation
+- [application performance metrics](./operations.md#performance-checks) - configured in customer intance [site-config.json](https://docs.sourcegraph.com/admin/config/site_config) via `mi cli` during instance creation
 
 Alerting flow:
 
 1. When alert is triggered, it is sent to Opsgenie channel:
 
-- [uptime check channel for v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L577)
 - [uptime check channel for v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L552)
 - [metrics monitoring channel](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf#L24)
 
@@ -139,7 +133,7 @@ All customer credentials, secrets, site configuration, app and user configuratio
 
 ### Operations
 
-Please review the Managed Instances v1.0 [operations guide](./operations.md) for instructions.
+Please review the Managed Instances [operations guide](./operations.md) for instructions.
 
 Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 

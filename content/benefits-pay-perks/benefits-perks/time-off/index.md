@@ -4,13 +4,9 @@ At Sourcegraph, every teammate has agency over how they create a balance between
 
 This balance looks different from person to person and may be reliant on a number of factors, including a teammate’s preferred working style, location, and family obligations. For that reason, we empower our teammates to have agency over their working times, the vacations they take, the time they need to recharge or recover from being sick, and the number of hours they can put in over any week without losing focus or motivation.
 
-Read more about our **[working hours philosophy here](../../../company-info-and-process/working-at-sourcegraph/working-hours.md).**
-
 Here are some basic guidelines to help our teammates navigate their paid time off for rest, paid time off for reasons other than rest, and working hours.
 
-**Please visit this page to see how to submit your PTO**: [submitting time off](submitting-time-off.md).
-
-- **Important**: please record all of your PTO (including public holidays) in Roots as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+- **Important**: please record all of your PTO (including public holidays) in Roots as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
 ## Paid time off (for rest)
 
@@ -25,6 +21,62 @@ Our company-wide policy is unlimited paid time off in exchange for achieving wor
   (If you're unsure whether it's appropriate to put in time off because you're sick but it's easy to work from your bed, we encourage you to apply this thinking, which was offered by one of our teammates: if you'd avoid going into the office because of how you were feeling, take paid time off and rest at home.)
 - **Life leave**: we understand that sometimes “life happens” and you’ll need time off to do things that are not necessarily restful. This could include caring for a family member, bereavement, immigration or legal appointments, taking a pet to the vet, or moving homes.
 
-**Important**: please record all of your PTO (including public holidays) in [Roots](submitting-time-off.md) as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+**Important**: please record all of your PTO (including public holidays) in [Roots](submitting-time-off.md) as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, seek guidance from your manager so we can understand how to support you.
+
+## **Working hours**
+
+- At Sourcegraph, results matter more than the hours that you put in. We expect our teammates to apply personal agency over how many hours they can stay focused or are needed to achieve the results they want to achieve, and regulate their rest as they see fit.
+- We trust that when teammates exercise high agency they will also exercise high empathy and be considerate of their fellow teammates when establishing work schedules and when preparing to take time off. Communication and coordination are key, especially for larger projects and customer facing roles– our Support team has documented how they put this into practice here.
+- It’s up to you to identify the right hours to work, considering your type of work and the teammates you work with across other timezones. Consult your manager if you need guidance, and set your availability in your calendar accordingly. If you are invited to meetings outside of your working hours it’s okay to ask to reschedule, or to decline and catch up afterwards by watching the recording and reading the agenda.
+- If you’ve worked excessively for a short period and with valid reason, think about how you can restore balance and get guidance from your manager if necessary. This may look like shortening your hours in the next few days, or taking some extra paid time off. If you’re working excessively over long periods of time, something is wrong and it’s up to you to raise this with your manager. We don’t celebrate or reward long hours—we celebrate great work produced sustainably, by teammates who take care of themselves.
+- Some teammates prefer to work in a really flexible way, which can sometimes mean that they’re online in unusual hours or days. Others prefer a set schedule. Both are valid options. Moreover, due to our global team one person’s weekend can be someone else’s weekday. There is no expectation that teammates will be responsive over their weekend, in the evenings or while on vacation, unless it’s been agreed with the appropriate notice, e.g., on-call duty.
+- Tip: Configure GitHub notifications to send Sourcegraph related ones to your work email. After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
+
+When you’ve decided how to take your paid time off, capture the paid time off in Roots and select the appropriate category. This will update your availability in Slack and Google Calendar. Please update your availability across all other channels including Google Mail and let any relevant stakeholders know you won’t be available. We want to capture your time off in Roots so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
+
+Questions and/or unusual situations can be directed to the People Ops team, either via email (people-ops@sourcegraph.com) or Slack (#ask-people-team), who are happy to provide guidance!
+
+## Submitting paid time off (PTO)
+
+### Recording paid time off via Roots
+
+We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack.
+
+Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about Roots and how it works.
+
+Please see below for a step by step breakdown:
+
+1. Go to your Slack app and scroll down to "Apps" on the left-hand side
+2. Click on "PTO by Roots" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
+3. Click "Create OOO" and you will be prompted with a new screen with fields to fill out
+4. Select your type of leave (vacation, wellbeing, life, religious holiday, public holiday, parental, medical)
+5. Enter a name for your PTO event if you choose (this is optional)
+6. Select the dates you will be out for that particular PTO event
+7. You will receive a message from Roots prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
+8. Select "coworker" or "channel" based on who you would like to cover you while you're away
+9. Select the teammate or channel in the dropdown that you'd need to cover for you
+10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
+11. You will also receive a message from Roots asking you if you would like Roots to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
+12. Record your time off in GCalendar
+
+**For additional resources from Roots, please see this [folder](https://drive.google.com/drive/folders/13GJGkLOtha_EtCAxBu7EGO13NCovaIcJ).**
+
+### Recording time off in Google Calendar
+
+Roots creates an event for you in your calendar that lasts through the time you've requested. We encourage you to invite your team and people you are collaborating with to the event.
+
+Keep in mind the event that Roots creates is not an OOO type event. This means that meetings you've accepted or that you are invited to won't be rejected automatically. This means you have to go to Google Calendar and create an OOO event for the length of the time you will be out.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/6bfaae8395684b7f8e4ff492dad9726e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### Recording time off in GMail
+
+It is good practice to have an automated email response set for when you are out of office. You can do this by going to your email inbox, clicking on Settings --> See all settings --> General --> Vacation responder.
+
+You can turn it on and off, select the range of days, change the email subject and add the content of the email.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/7a012a30c4b048b8bf1644d5298d9898" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+You can read more about [vacation responder here](https://support.google.com/mail/answer/25922?hl=en)

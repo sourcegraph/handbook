@@ -16,7 +16,7 @@ The analysts will be aligned to the business units that are supported, and each 
    </td>
    <td>Quinn Slack, Steve Yegge
    </td>
-   <td>Eric Brody-Moore, Brady Garrett
+   <td>Eric Brody-Moore
    </td>
   </tr>
   <tr>
@@ -30,7 +30,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Sales and Ops
    </td>
-   <td>Gregg Bastis, Ajay Uppaluri
+   <td>Greg Bastis, Ajay Uppaluri
    </td>
    <td>Kelsey Brown
    </td>
