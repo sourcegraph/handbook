@@ -46,6 +46,9 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to deploy Sourcegraph locally with minikube](https://drive.google.com/file/d/1t4lFa6PwPkkXFiGVrS3ST-NnkH99OqOL/view?usp=sharing)
 - [Intro to Overlays](https://drive.google.com/file/d/1S82jOsrNu4zUegj5Fich9njcav80vLVd/view?usp=sharing)
 - [Redis Crash Course](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
+- [Repo permissions deep dive](https://drive.google.com/file/d/1rTB3QB1Vm-_zB7zOTIC5rJhrmmm3sgTa/view)
+- [Authentication](https://drive.google.com/file/d/1C5XFQIXkWOsgBQxz4izWcG_Ku6YlY4zc/view)
+-
 
 ## Informational Pages
 
