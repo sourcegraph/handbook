@@ -1,6 +1,7 @@
 # Support Team Processes
 
 - [Case reviews](case-reviews.md)
+- [Case transitions](case-transitions.md)
 - [Change Management Checklist](change-management-checklist.md)
 - [Cloud Maintenance Window Process](cloud-maintenance-window.md)
 - [Collaboration time](collaboration-time.md)
