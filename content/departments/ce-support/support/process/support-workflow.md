@@ -20,7 +20,8 @@
    6. Relevant Looker dashboards (for example [the customer version board](https://sourcegraph.looker.com/dashboards-next/163))
    7. Looking at other recent cases. A good starting point is the [database of resolved tickets](https://github.com/sourcegraph/support-tools-internal/tree/main/resolved-tickets).
 
-6. **The application engineer does two extra things ASAP if the ticket originated from Slack.** 
+6. **The application engineer does two extra things ASAP if the ticket originated from Slack.**
+
    1. **Signal accountability.** Comment in the thread from the customer in Slack with something along the lines of: "I'll help you with this. I need a few minutes to dig in and then I'll share my thoughts with you/see what questions I have." -- to signal your accountability to the CE and let the customer know we are on it. The goal is for this to be super quick and then you move on to the real initial response after you have had more time to dig in.
    2. **Taking accountability for more than one issue at a time.** If you see a customer has posted a few questions at once, go ahead and take accountability for them all. Often when customers do this the issues end up being related and it will be a better experience for everyone involved if the same person handles them all. This may require you to get help on other tickets and that is okay! Just let the team know and we will figure it out.
 
@@ -62,14 +63,14 @@
   - Who has the next action: The next step is with an internal team or external third-party. We are not actively working on it and are waiting for a third-party to reply, who has the next action / response.
 - Solved
   - What a ticket in this state means: The final state of a ticket, when we believe we have resolved the issue fully. Note: solved tickets move to this status automatically after 48 business hours. They _can_ be reopened.
-  - Who has the next action:  No one. AER is no longer actively working the ticket. If the customer doesn’t feel it is resolved they will reopen. 
-- Closed 
+  - Who has the next action: No one. AER is no longer actively working the ticket. If the customer doesn’t feel it is resolved they will reopen.
+- Closed
   - What a ticket in this state means: The final, locked state of a ticket. Closed tickets _cannot_ be reopened. Note: solved tickets move to this state 72 hours after set to solved.
   - Who has the next action: No one.
 
 #### A note on "internal" tasks or work not directly related to resolving the issue
 
-There are times when separate, ad-hoc tasks are necessary which are indirectly related to the resolution of a customer issue. This may include things like a documentation update, deeper testing on a feature, minor code fixes, etc. It is good, important work to do and make time for but shouldn’t hold up the resolution path of the ticket itself. As such, to keep track of these kinds of tasks, we have created a new issue type of type = Task. 
+There are times when separate, ad-hoc tasks are necessary which are indirectly related to the resolution of a customer issue. This may include things like a documentation update, deeper testing on a feature, minor code fixes, etc. It is good, important work to do and make time for but shouldn’t hold up the resolution path of the ticket itself. As such, to keep track of these kinds of tasks, we have created a new issue type of type = Task.
 
 When doing this kind of work, create a new ticket of type Task to keep track of your to-do list, but proceed on the customer case as-is.
 
@@ -87,7 +88,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Provided to enterprise customers during trial (pre-sales) and converted to a support channel (post-sales) for ongoing communications via an easy, familiar method
 - **Those involved:** AE + CE + support > (Engineering) + Product
-- **Details:**  We use Foqal.io to automate support within any customer channel. As long as we are able to add the Foqal Agent to the slack channel - whether our channel or customer-owned - and enable the form widget so that customers can create a request for Support we are able to support the customer via slack. We do not monitor all activity in the channel and require the customer to submit a request. Once submitted, it automatically creates a ticket in Zendesk. AERs, when picking up a ticket, must do so out of the slack Foqal agent. This assigns them to the ticket in Zendesk. CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
+- **Details:** We use Foqal.io to automate support within any customer channel. As long as we are able to add the Foqal Agent to the slack channel - whether our channel or customer-owned - and enable the form widget so that customers can create a request for Support we are able to support the customer via slack. We do not monitor all activity in the channel and require the customer to submit a request. Once submitted, it automatically creates a ticket in Zendesk. AERs, when picking up a ticket, must do so out of the slack Foqal agent. This assigns them to the ticket in Zendesk. CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
 - **_Important note_: CS only supports slack channels that our support Agent can be added to. Customers who are not able to do so can engage support via support@sourcegraph.com.**
 
 ### #help channel in Community Slack account
