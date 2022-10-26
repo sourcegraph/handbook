@@ -1,90 +1,74 @@
-# Brand expression
+# Brand platform
 
-<style>
-  .container {
-    --width: 1300px;
-  }
-</style>
+All aspects of what we do, what we sound like, what’s most important to us, come together to form our brand platform. At its center is our core story, or brand position. Every piece of this platform is influenced by the others. 
 
-## How we express our brand
+<img src="https://user-images.githubusercontent.com/102541294/197849871-03bf1095-8dfc-4d12-a922-ab153da935bf.svg" width="600" />
 
-<object role="img" data="how_we_express_our_brand.svg" width="555" height="514" style="float: right; margin-left: 2rem; max-width: 32rem; aspect-ratio: 555 / 514"></object>
+For example, our value of being dev-first is reflected in our voice which is always clear and dev-y. 
+We offer a code intelligence platform, a tool for saving devs time so they can ideate more (accelerating technological progress), which demonstrates our purpose of innovation, and is reflected in our inspiring personality.
 
-Our brand is at the root of everything we do. It’s how we behave, communicate, look, and interact, across digital and real-world touch-points. Each element of our brand works together to demonstrate who we are and what we believe in.
+Every style treatment defined in our brand guide–from typeface, to color, to illustrations–is carefully chosen to visually represent our brand platform.
 
-We express our brand through our brand story, brand voice, and brand visuals. Our brand story is what motivates us—it explains why we do what we do. Our brand voice is the unique way in which we communicate, our tones and personality. Brand visuals reinforce and enhance our brand voice and story, communicating our values through graphic elements and style choices. Everything defined in this brand guide—from typeface, to color, to texture—is carefully chosen to visually represent our brand in support of our brand voice and brand story.
 
-<div style="clear: both"></div>
+## Our what, how, and why
 
-## Brand story
+<img src="https://user-images.githubusercontent.com/102541294/198051583-08570d3b-9f35-46e5-9dd4-7ab8603a5f93.svg" width="600" />
 
-What do we do, and why do we do it?<br>
-We believe that in this increasingly technical world, code should be transparent, easy to manage, and accessible to everyone.
+What do we make? A code intelligence platform. How do we do it? By making it really easy to explore, understand, find, and reuse code. Lastly, and most importantly, why do we do this? To accelerate widespread technological progress. We want to make it so everyone can code, but ultimately, we are trying to bring about technological progress that isn’t just reserved for the big companies.
 
-### Mission
 
-<span style="font-size: larger">To make it so <strong class="text-vivid-violet">everyone can code</strong>, we will create tools, networks, and incentives for coding at <strong class="text-vivid-violet">ever-larger scale</strong>.</span>
+## Our values
 
-Read more about [our mission in the handbook](../../../../strategy-goals/strategy/index.md#mission).
+These are the most important values for Sourcegraph. These apply at every level of our organization—individuals, teams, and Sourcegraph as a whole–and serve as guiding principles in everything we do.
 
-### Values
 
-These values are the beliefs and principles that help us achieve our goals and vision and build an inclusive team. These apply at every level of our organization—“you” refers to individuals, teams, and Sourcegraph as a whole.
+![dev-first-value](https://user-images.githubusercontent.com/102541294/198056713-3a2eb22b-bd9f-4556-b63a-cebd7d1d0a70.svg)
+
+**Developer-first**
+
+Sourcegraph at its core is built by devs, for devs. These are our customers and we prioritize working with data that supports them vs opinions.
+
+
+![high-agency-value](https://user-images.githubusercontent.com/102541294/198056767-492f4ff2-aa20-416f-ac7b-969a21462d04.svg)
+
+**High-agency**
+
+Everyone at Sourcegraph has the power and the responsibility to improve Sourcegraph as a company and as a product.
+
+
+![transparency-value](https://user-images.githubusercontent.com/102541294/198056797-1fa9f319-9ed0-46b7-9046-ed210c3b7755.svg)
+
+**Transparency**
+
+We are an open company. Being open and transparent builds trust with our customers and within our team. 
+
 
 Read more about [our values in the handbook](../../../../company-info-and-process/values/index.md).
 
-## Brand voice
 
-<style>
-  .brand-voice-table {
-    max-width: 40rem;
-    margin-left: 1rem;
-    float: right;
-  }
-  .brand-voice-table td {
-    vertical-align: top;
-  }
-  td.voice-attribute {
-    font-size: 1.5em;
-    font-weight: 600;
-  }
-  .voice-attribute {
-    max-width: 7.5rem;
-  }
-  .it-means {
-    max-width: 15rem;
-  }
-</style>
+## Our personality 
+If Sourcegraph was a person, how would we describe them?
 
-<table class="brand-voice-table">
-  <thead>
-    <tr>
-      <th class="voice-attribute">Voice attribute</th>
-      <th>It means...</th>
-      <th>It sounds...</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="voice-attribute">Empowering</td>
-      <td class="it-means">We make complex information easy to understand. We empower people with knowledge to make decisions that are right for them so that they can move forward with confidence.</td>
-      <td>Enabling<br> Motivational<br> Encouraging</td>
-    </tr>
-    <tr>
-      <td class="voice-attribute">Helpful</td>
-      <td class="it-means">We help developers build more, build better, and build faster. We help those who are just starting out in development learn from and connect with the larger developer community.</td>
-      <td>Knowledgeable<br> Considerate<br> Thoughtful</td>
-    </tr>
-    <tr>
-      <td class="voice-attribute">Friendly</td>
-      <td class="it-means">We play nicely with developer tools up and down the stack. We are positive, optimistic, and hopeful about the future. We believe technology can help drive equity and opportunity for all.</td>
-      <td>Approachable<br> Trustworthy<br> Optimistic</td>
-    </tr>
-  </tbody>
-</table>
+#### Serious
+While we love a good meme and taking a moment to have fun, we are serious about changing the world. Folks can trust that we are a solid source of knowledge and leading the charge against Big Code problems.
 
-Our voice is informed by our story—because we believe in large scale accessibility and transparency in code, we chose attributes that reflect those values.
+#### Unconventional
+We don’t cater to the mainstream consumer, we cater to devs. We don’t just do what’s always been done. We opt to go against the grain when it’s for the best. Innovation, after all, is central to our mission.
 
-Our voice attributes guide how we articulate our communication. Each message requires differing amounts of each voice attribute, depending on the audience.
+#### Subtly inspiring
+Devs are the heroes of our story, so we prefer to shine a spotlight on their work, to inspire and delight with intention, rather than dress it up in flashy tactics for the sake of it. Because of this, we connect with one another on a more genuine, human level.
+
+#### Accessible (in every sense)
+We want to democratize code for everyone, so we strive to be fully accessible in every sense of the word. Come to us with questions and ideas for how things can be better. 
+
+
+## Our voice
+
+![voice](https://user-images.githubusercontent.com/102541294/198074541-6d5d206e-937b-4b59-963c-491769b41f06.svg)
+
+Our voice attributes guide how we speak to each other and our customers. Our voice is informed by our purpose—because we believe in large scale accessibility and transparency in code, we chose attributes that reflect those values. Tone may change based on context, but our voice should always be consistent. Our voice is always clear, professional, humble, and dev-y. 
+
 
 See also ["Voice and tone" in our content guidelines](../../../../company-info-and-process/communication/content_guidelines/voice_and_tone.md).
+
+
