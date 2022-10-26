@@ -95,6 +95,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Public holidays](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Perks](../../benefits-pay-perks/benefits-perks/#perks.md)
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
+  - [Open enrollment](COMING SOON)
   - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
     - [How to access my healthcare card](COMING SOON)
     - [How to access my dental card](COMING SOON)
