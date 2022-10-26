@@ -85,7 +85,7 @@ For team members taking >2 weeks of leave:
 - Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member.
 - **Quota Relief While On Parental Leave:** Sales Quota will be zero during leave months.
   - This will be pro-rated based on the leave period and deducted from the full-year target
-    **Example:** Rep takes 11 weeks off, which would result in $317,307.69 off a $1.5M annual quota. Dropping annual quota to $1,182,692.31 (and reducing applicable multipliers.)
+    **Example:** Rep takes 11 weeks off, which would result in $317,307.69 off a $1.5M annual quota. Dropping annual quota to $1,182,692.31
   - In addition, for team members taking >50% of leave in one block, Sourcegraph shall provide the team member with a 3-month ramp period of 50% of prorated quota upon return. Quota shall revert to 100% attainment in month 4 of return. The ramp period will begin on the 1st of the month following the teammate’s return.
 
 #### Commission payout scenarios for Account Executives
