@@ -89,34 +89,15 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. What benefits and plans are available to me?
 
-**US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
+**US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%.
 
-- **Health insurance:**
-  - UnitedHealthcare EPO
-    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1BsvNoewWmrM3qc9aNN7A6UPVeBt12wDE/view?usp=sharing)
-    - [Plan Summary](https://drive.google.com/file/d/1ZsLNhMQ1FBMlsHWRswh7XWW0zDAH8sAu/view?usp=sharing)
-  - UnitedHealthcare PPO 250
-    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GgWZjukPEtcVit_07_MDD75ZKTFtr4Es/view?usp=sharing)
-    - [Plan Summary](https://drive.google.com/file/d/1ikczSsErm7rGO5QLaCLhOk1DHimAVsDE/view?usp=sharing)
-  - UnitedHealthcare HSA 1400
-    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/15DY9I2qm903iJ9ShlmJLVguWK3z3j6SX/view?usp=sharing)
-    - [Plan Summary](https://drive.google.com/file/d/16pzdyUH4AXJ5Lb3qzCiLMIu8EtIvc5EE/view?usp=sharing)
-  - Kaiser HMO
-    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1ZY1TGB3wawTpjTM1LDfrG902RtB3m3jD/view?usp=sharing)
-    - [Plan Summary](https://drive.google.com/file/d/1nHjrhKMyifQJHdjH6ZQq-F5DbMvre6AE/view?usp=sharing)
-  - Kaiser HSA 2800
-    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1aEEszv62rnxflUklSpDefAQv-ylc3kaG/view?usp=sharing)
-    - [Plan Summary](https://drive.google.com/file/d/1WVCj7HEuyiGqIwDFLp6uXUOtiDX_jtbK/view?usp=sharing)
-- **Dental insurance:**
-  - [Cigna DPPO](https://drive.google.com/file/d/1srWmxhMrCtfLVso48qbjUYehj8eAg7vl/view?usp=sharing)
-- **Vision insurance and Life Insurance:**
-  - [Equitable Vision](https://drive.google.com/file/d/18hsyxSJqwI2Uyoy0iS1xk2k0AiY88zNb/view?usp=sharing)
-- **HSA, FSA, and Dependent Care FSA:**
-  - HSA, FSA and Dependent Care FSA accounts are administered by [Rippling] (https://app.rippling.com/login?next=%2Fdashboard).
 - **401K:**
 
   - Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
-    **Non-US teammates:**
+
+You can read more about benefits and see the plan options [here](../../../../benefits-pay-perks/benefits-perks/benefits.md).
+
+**Non-US teammates:**
 
 - Not applicable.
 
