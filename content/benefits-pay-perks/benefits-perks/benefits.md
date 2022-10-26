@@ -80,7 +80,7 @@ How: To make changes to current benefit elections, or confirm existing elections
 
 Teammates wishing to continue Flexible Spending Account contributions are required to re-enroll. All other elections for medical, dental, and vision will “rollover” as-is if no changes are made during the open enrollment period.
 
-## FAQ: 
+## FAQ:
 
 #### Q: How do I see my benefits selections?
 
