@@ -23,6 +23,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Providing interview feedback](resources_for_candidates.md#sharing-interview-feedback)
 - [The offer process](talent/process/extending_an_offer.md)
   - [Reference checks](talent/process/reference_check_questions.md)
+  - [E-Verify](e-verify.md)
   - [Offer letter FAQ](resources_for_candidates.md#offer-letter-faqs)
 - [Non-US candidate resources](people-ops/process/how-we-engage-talent-outside-the-us/index.md)
   - [How we engage](people-ops/process/how-we-engage-talent-outside-the-us/index.md)
