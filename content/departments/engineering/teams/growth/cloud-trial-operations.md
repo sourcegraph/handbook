@@ -43,7 +43,7 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
     - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](#instance-provisioning-and-hand-off-workflow)
 
-- If there **is** already an instance where the admin has the same email domain as the requesting user (eg. there is already `my-acme.sourcegraph.com`, with admin `admin@acme.com`, and a new user `bob@acme.com` requests an instance)
+- If there **is** already an instance for this company, which we know if there is an instance where the admin has the same email domain as the requesting user (eg. there is already `my-acme.sourcegraph.com`, with admin `admin@acme.com`, and a new user `bob@acme.com` requests an instance)
   - 🟢 your job as a SDR is done! Nothing to do!
   - the user will be automatically redirected to the instance(s), and a notification will be sent in slack.
   - the lead status will automatically be set to "Instance Already in Trial"
