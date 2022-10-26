@@ -98,8 +98,7 @@ If instances never get used at all by the initial admin, which we can define (fo
 
 ### PQL qualification workflow
 
-The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL). 
-
+The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL).
 
 There is a [database query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/637002dd-0000-2e61-8eec-582429c887d4/runs?project=telligentsourcegraph) that monitors for the PQL criteria (over 50 users, over 10 MAUs, or a single user that has used Sourcegraph at least 5 times in a 7 day period). When a trial is signaled as hitting the criteria a PQL:
 
