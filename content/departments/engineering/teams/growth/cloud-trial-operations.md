@@ -42,13 +42,11 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
     - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](#instance-provisioning-and-hand-off-workflow)
-
-- If there **is** already an instance on the domain of the requesting user's email
-  - set the lead status to `disqualified`
-  - set the lead substatus to `Domain Already in Trial`
-  - 🟢 your job as a SDR is done!
-  - this will send an alert in #cloud-trial-alerts and automatically send an [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) to the user to let them know about the pre-existing instance.
-  - if SSO is setup on that instance, the user can log in. If not, they can't. Therefore, `@malo` or `@Eric Brody-Moore` will email the site-admin to let them know someone tried to join. (This is a quick fix until there is a "request an invite" system).
+- If there **is** already an instance where the admin has the same email domain as the requesting user (eg. there is already `my-acme.sourcegraph.com`, with admin `admin@acme.com`, and a new user `bob@acme.com` requests an instance)
+  - 🟢 your job as a SDR is done! Nothing to do!
+  - the user will be automatically redirected to the instance(s), and a notification will be sent in slack.
+  - the lead status will automatically be set to "Instance Already in Trial"
+  - if SSO is setup on that instance, the user can log in. Otherwise, they need to contact their admin. We are building a way for them to request access from the instance admin (see  [#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 - If the request is **not qualified**:
   - set the lead status to `disqualified`
   - set the lead substatus to `Does not meet trial criteria`
