@@ -102,7 +102,7 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fupdate-ip-allowlist&template=add-ip-request.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
+- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
   - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 - **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For new customers or prospects who currently do not have a managed instance.
