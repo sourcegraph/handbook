@@ -102,6 +102,8 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
+- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fupdate-ip-allowlist&template=add-ip-request.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
+  - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 - **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For new customers or prospects who currently do not have a managed instance.
   - After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
@@ -149,6 +151,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 | New Feature Request                                                               | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need                                                                                     | Dependent on the request                                                                                                          |
 | Maintenance: Monthly Update to latest release                                     | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
 | Maintenance: patch/emergency release Update                                       | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
+| Add IP(s) to Managed Instance                                                     | Add new list of IPs to MI allowlist                    | 1 working day                                                                                                                     | Within 3 days                                                                                                                     |
 
 ### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
