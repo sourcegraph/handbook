@@ -52,7 +52,7 @@ HSA, FSA, and Dependent Care FSA:
 
 - Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
 
-**Digital ID Cards: **
+## **Digital ID Cards:**
 
 All digital insurance cards are located in Lumity, which is our benefits broker. All health insurance cards and coverage questions are handled by Lumity. You will receive physical medical cards, but dental and vision will only be available through the Lumity app.
 
@@ -60,7 +60,7 @@ US-based Teammates can access virtual insurance member IDs in the [Lumity](https
 
 If you have not received your insurance member IDs, please reach out to Lumity at support@lumity.com or 1-844-2-LUMITY
 
-**New Hire Benefits Enrollment: **
+## **New Hire Benefits Enrollment:**
 
 All full-time, US-based Teammates are eligible for benefits. Insurance benefits for US-based Teammates become active on your start date.
 
@@ -68,7 +68,7 @@ US-based new hires have 30 days from their start date to enroll in insurance cov
 
 You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
 
-**2023 Open Enrollment: **
+## **2023 Open Enrollment:**
 
 **What:** open enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.
 
