@@ -2,7 +2,7 @@
 
 US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis.
 
-### **Benefit plans**
+## Benefit plans
 
 US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
 
@@ -80,25 +80,25 @@ How: To make changes to current benefit elections, or confirm existing elections
 
 Teammates wishing to continue Flexible Spending Account contributions are required to re-enroll. All other elections for medical, dental, and vision will “rollover” as-is if no changes are made during the open enrollment period.
 
-**FAQ: **
+## FAQ:
 
-Q: How do I see my benefits selections?
+#### Q: How do I see my benefits selections?
 
 - To view your benefits selections, please log into Rippling.
 
-### Q. Does Sourcegraph offer short term disability and long term disability?
+#### Q. Does Sourcegraph offer short term disability and long term disability?
 
 - At this time, Sourcegraph does not offer STD and LTD but we are always evaluating our benefit options.
 
-### Q. Do our health benefits cover us while traveling internationally?
+#### Q. Do our health benefits cover us while traveling internationally?
 
 - They do not, we recommend using a travel insurance for the duration of your trip and expensing this. A common one used for US teammates is GeoBlue.
 
-### Q. How do I make changes to my insurance in the case of a qualifying life event (QLE)?
+#### Q. How do I make changes to my insurance in the case of a qualifying life event (QLE)?
 
 - A [Qualifying Life Event (QLE)](https://support.rippling.com/hc/en-us/articles/360056299533) is a change in your situation, such as getting married or having a baby, that can make you eligible to enroll in health insurance outside of Sourcegraph’s annual Open Enrollment period. If you have experienced a Qualifying Life Event (QLE) and need to update your insurance, you will initiate this process via [Rippling](https://app.rippling.com/insurance/employee/qle/init). Note: the People Team cannot make updates to benefits on behalf of teammates outside of new hire and open enrollment periods.
 
-### Q. What do I do if I have a gap in insurance coverage? (US teammates)
+#### Q. What do I do if I have a gap in insurance coverage? (US teammates)
 
 - If you are joining or leaving Sourcegraph and want to avoid having a gap in coverage, you can explore [COBRA](https://drive.google.com/file/d/1iXHjHpg4I1SRrnsicg9h0WArCboiz2Fl/view?usp=sharing) options. If you have dental and vision insurance at the time you leave Sourcegraph, you will continue receiving those same benefits through COBRA. Benefits through COBRA will expire at the end of the month that you leave Sourcegraph.
 
@@ -110,11 +110,11 @@ Q: How do I see my benefits selections?
 
 - Please work with your healthcare provider and contact Lumity to verify.
 
-### Q. Does Sourcegraph match my 401k?
+#### Q. Does Sourcegraph match my 401k?
 
 - Not at this time.
 
-### Q. Who handles our 401k?
+#### Q. Who handles our 401k?
 
 - Human Interest. You will receive an invite shortly after enrolling in Rippling.
 - Not applicable.
