@@ -52,7 +52,7 @@ Whether you are relocating to join us or simply moving to a new place after you 
 
 ## Benefits
 
-The benefits outlined in this section are currently only available to US-based teammates.
+The benefits outlined in this section are currently only available to US-based teammates. You can read more about our benefits [here](benefits.md)
 
 ### 🏥 Medical
 

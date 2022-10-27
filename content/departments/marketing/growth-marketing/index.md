@@ -1,6 +1,6 @@
 # Growth Marketing
 
-_Note: This page is a work in progress for the newly-created Growth Marketing team. For an overview of our kickoff, see [Growth team 2022-10](https://docs.google.com/document/d/1DOMS-soiiuprWlNRhsujsPCNBeY2y-1s-QtxlMRfQGc/edit)._
+_Note: This page is a work in progress for the newly-created Growth Marketing team. For an overview of our kickoff, see [Growth team 2022-10](https://docs.google.com/document/d/1PfGAlnWrwaPNwrz4hE6P3aQEVnm5_JLPcqFoMn4cDAk/edit)._
 
 ## Table of contents
 
@@ -32,3 +32,7 @@ The Growth Marketing team focuses on product-oriented features that generate inb
 - We will make small, quick changes without design so that they can support us (and other teams) with bigger projects.
 - When in doubt about whether an idea appeals to devs, we run it by #dev-chat, #ask-a-dev, or in very quick surveys of external developers.
 - We work in the open in #growth. We use #growth-marketing-internal for housekeeping and post weekly updates in #progress, which holds us accountable to moving quickly and sharing widely.
+
+## Other guidelines
+
+- No gated content.

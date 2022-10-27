@@ -4,6 +4,7 @@ Google drive is the main repository for sales resources and the sales folder can
 
 ## Frequently Requested Files
 
+- [Sourcegraph Contract Packet for Customers](https://drive.google.com/file/d/1w0utoZD0bXEgZXRRa1n8cNguZ1IAITWv/view?usp=sharing)
 - [Sourcegraph W9](https://drive.google.com/u/0/uc?id=1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW&export=download)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download) (to add a customer's name to our COI, reach out to certificates@embroker.com with the customer's request and information and cc legal@sourcegraph.com)
 - [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download)
