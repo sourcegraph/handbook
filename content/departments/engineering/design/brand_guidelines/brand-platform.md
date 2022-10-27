@@ -4,8 +4,6 @@ All aspects of what we do, what we sound like, what’s most important to us, co
 
 <img src="https://user-images.githubusercontent.com/102541294/197849871-03bf1095-8dfc-4d12-a922-ab153da935bf.svg" width="600" />
 
-
-
 For example, our value of being dev-first is reflected in our voice which is always clear and dev-y.
 We offer a code intelligence platform, a tool for saving devs time so they can ideate more (accelerating technological progress), which demonstrates our purpose of innovation, and is reflected in our inspiring personality.
 
@@ -21,13 +19,11 @@ What do we make? A code intelligence platform. How do we do it? By making it rea
 
 These are the most important values for Sourcegraph. These apply at every level of our organization—individuals, teams, and Sourcegraph as a whole–and serve as guiding principles in everything we do.
 
-
 ![dev-first-value](https://user-images.githubusercontent.com/102541294/198056713-3a2eb22b-bd9f-4556-b63a-cebd7d1d0a70.svg)
 
 **Developer-first**
 
 Sourcegraph at its core is built by devs, for devs. These are our customers and we prioritize working with data that supports them vs opinions.
-
 
 ![high-agency-value](https://user-images.githubusercontent.com/102541294/198056767-492f4ff2-aa20-416f-ac7b-969a21462d04.svg)
 
@@ -35,14 +31,11 @@ Sourcegraph at its core is built by devs, for devs. These are our customers and 
 
 Everyone at Sourcegraph has the power and the responsibility to improve Sourcegraph as a company and as a product.
 
-
 ![transparency-value](https://user-images.githubusercontent.com/102541294/198056797-1fa9f319-9ed0-46b7-9046-ed210c3b7755.svg)
 
 **Transparency**
 
 We are an open company. Being open and transparent builds trust with our customers and within our team.
-
-
 
 Read more about [our values in the handbook](../../../../company-info-and-process/values/index.md).
 
