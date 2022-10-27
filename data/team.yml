@@ -2419,3 +2419,14 @@ jacob_pleiness:
   location: Ann Arbor, MI, USA 🇺🇸
   links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
   description: 'Jacob started his career working in systems administration while getting his degree in computer science. Eventually he got tired of repetitive work and started automating more and more of his job until he became a software engineer.'
+
+ted_moskalenko:
+  name: Ted Moskalenko
+  email: ted@sourcegraph.com
+  github: tdmosk
+  pronouns: he/him
+  role: Strategic Technical Advisor
+  reports_to: vp_customer_engineering
+  location: Huntersville, NC, USA 🇺🇸
+  links: '[LinkedIn](https://linkedin.com/in/tdmosk)'
+  description: 'Ted is a technology professional with a variety of interests, including Information Security, Agile and DevOps, Data Analysis, and Business Process Management. He lives in Huntersville, NC, just north of Charlotte, with his wife and two boys. His interests include travel, food, and board games.'
