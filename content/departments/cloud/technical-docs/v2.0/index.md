@@ -19,7 +19,7 @@ Learn more from:
 
 ## Architecture
 
-The largest architecture changes are moving from a standalone VM to GKE. Learn more from various WIP [Cloud v2 diagrams](https://app.excalidraw.com/o/4Dr1S6qmmY7/9eJlHswH65d).
+The largest architecture changes are moving from a standalone VM to GKE. Learn more from our [Cloud v2 diagrams](https://app.excalidraw.com/s/4Dr1S6qmmY7/4yUYgWaRxYx).
 
 ### Postgres
 
