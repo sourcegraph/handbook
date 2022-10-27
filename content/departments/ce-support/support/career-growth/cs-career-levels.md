@@ -113,8 +113,6 @@ Promotions from one level to another are considered in impact reviews conducted 
 
 ## Levels
 
-
-
 <table>
   <tr>
    <td>
@@ -399,4 +397,3 @@ Promotions from one level to another are considered in impact reviews conducted 
    </td>
   </tr>
 </table>
-
