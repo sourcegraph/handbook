@@ -37,6 +37,16 @@ trivy image --severity "HIGH,CRITICAL" <IMAGE>:insiders
 
 This scans an image for High/Critical CVEs. The `-f json` flag can be used to output data in JSON format, which includes a lot more information on the vulnerable components and versions.
 
+### Using Trivy diff
+
+The steps above can become a bit tedious if you need to scan all images during a release cut. We've written a script that you can find in the [infrastructure repo](https://github.com/sourcegraph/infrastructure/tree/main/security/tooling/trivy). You can run the script as follows:
+
+```
+$ python3 trivy-diff.py --release 4.1.0 --threads 10
+```
+
+The command above will fetch the accepted vulnerabilities from the markdown table in our handbook. You need to specify the release using the `--release` option. It then uses 10 threads to scan the container images. When the scan is done it will output vulnerabilities that are not on the handbook page, and those that are on the handbook page but not found by Trivy.
+
 ## Accepted vulnerabilities and false positives
 
 Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../../engineering/dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
@@ -99,11 +109,13 @@ or that we have accepted as low risk. You can find more details about these belo
 
 ### 4.0
 
-- [4.0.0](./4-0-0.md)
+- [4.1.1](./4-1-1.md)
+- [4.1.0](./4-1-0.md)
 - [4.0.1](./4-0-1.md)
+- [4.0.0](./4-0-0.md)
 
 ### 3.43
 
-- [3.43.0](./3-43-0.md)
-- [3.43.1](./3-43-1.md)
 - [3.43.2](./3-43-2.md)
+- [3.43.1](./3-43-1.md)
+- [3.43.0](./3-43-0.md)

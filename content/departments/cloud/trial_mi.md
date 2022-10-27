@@ -24,9 +24,13 @@ The difference from paid Managed Instances:
 
 ## Request Trial Managed Instance
 
-The [requesting Trial Managed Instance](./index.md#managed-instance-requests) process is similar to paid one, except it's raised by opening a [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D)
+[Trial Managed Instance Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
 
-> NOTE: The "cloud-trial" label added to the instance creation request GH issue is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
+Only for trials requested from [signup](https://signup.sourcegraph.com/):
+
+[Trial managed instance request issue from signup](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D)
+
+> NOTE: The "cloud-trial" label added to the instance creation request GH issue from [signup](https://signup.sourcegraph.com/) is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
 
 ## New Trial Managed Instance create SLA (since 27th of September 2022)
 
@@ -70,7 +74,11 @@ When trial expires and should be extended (by default 30 days), the instance req
 
 ## Convert trial to paying customer
 
-When customer has decided to sign the deal, instance requestor will create [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will modify GCP label `instance-type=production`.
+When customer has decided to sign the deal, instance requestor will create [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will:
+
+- cd `deploy-sourcegraph-managed/CUSTOMER`
+- modify GCP label '`instanceType: production`' in `config.yaml`
+- follow [modify GCP customer label](./technical-docs/operations.md#modify-customer-specific-gcp-managed-instance-labels)
 
 ## Teardown Trial Managed Instance
 

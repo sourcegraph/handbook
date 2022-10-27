@@ -121,8 +121,6 @@ terraform apply
 
 <span class="badge badge-note">SOC2/CI-108</span>
 
-Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
-
 ```
 mi --customer $CUSTOMER check
 ```

@@ -57,6 +57,8 @@ The following functional teams work across the above dev teams:
 - #eng-leads
 - #ask-engineering
 - #buildkite-main
+- #dev-chat
+- #dev-urandom
 
 ## Processes
 

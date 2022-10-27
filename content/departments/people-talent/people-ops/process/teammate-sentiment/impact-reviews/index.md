@@ -236,7 +236,7 @@ Merit increases require the recommendation of the Teammate’s immediate Manager
 
 Teammate performance is to be formally reviewed at least twice a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
 
-### What is the approval process for merit or promotion increases outside of a performance cycle?\*\*
+### What is the approval process for merit or promotion increases outside of a performance cycle?
 
 In some cases, it may be necessary to support a merit increase outside of a performance review cycle. These should be rare and be seen as an “exception to the rule.” The Department Leader will need to present a business case for out-of-cycle merit-based salary adjustments, spot, and equity bonuses. All changes require VP People & Talent and CEO approval.
 
@@ -369,7 +369,7 @@ Following the completion of self, peer and upward reviews, the below steps take 
 
 - **Step 3:** Promotion or compensation increases go into effect. Promotion announcements are made via `#teammate-announce` channel.
 
-### What to expect in a calibration session\*\*
+### What to expect in a calibration session
 
 We hold a high and consistent bar for Impact Review calibrations to ensure they are fair across Managers, departments, and job levels. The process is meant to limit bias in the performance review process and ensure Managers agree on the criteria against which their direct reports are assessed on. Our People Team has a macro view of these sessions across the organization, so they will be able to provide valuable context and guidance to leaders to ensure an equitable review process.
 

@@ -29,7 +29,7 @@ We are not quite a big enough team to have folks pair long term with one team. F
 
 ## Root cause focus
 
-It can be hard to focus on the root cause. It can be far too easy to focus on solving for a symptom instead. Application engineers know to keep this focus and how to divide the work so that we offer a quick solution and are able to plan for the deeper work to address the underlying issue. Read [an open letter about root cause](root-cause.md) for more.
+It can be hard to focus on the root cause. It can be far too easy to focus on solving for a symptom instead. Application engineers know to keep this focus and how to divide the work so that we offer a quick solution and are able to plan for the deeper work to address the underlying issue.
 
 ## Support rotation donut pairing
 

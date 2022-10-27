@@ -15,11 +15,11 @@ To ensure the team has a common understanding of the problem that needs to be so
   - The Cloud EM is responsible for defining the scope of the grooming based on current team goals and priorities
   - The Cloud engineers are encouraged to propose other issues for the grooming agenda, especially technical debt items and improvement
 - Each issue in the grooming scope has the Cloud engineer assigned responsibility for preparing the issue for the team estimation
-  - The Cloud engineer is being notified about this request based on the comment within the GH issue
+  - The Cloud engineer is being notified about this request based on the comment within the GitHub issue
 - By EOD Wednesday, all issues should have their description set the state where it clearly identifies the problem that needs to be solved, the expected outcomes, and acceptance criteria
 - By EOD Friday, each Cloud team engineer is expected to provide their estimates for each issue that is within the grooming scope
   - the estimates are in single developer days
-  - the estimates should be added as GH comments
+  - the estimates should be added as GitHub comments
   - if the Cloud engineer is unable to provide the estimate based on a lack of clarity within the issue description, the `?` should be added to the command instead
 - On following Monday, the Cloud EM reviews the estimation results and assigns the common sense average estimate to the `Estimate` field for each issue in the grooming scope
   - The issues with significant differences in estimates or with `?` estimates are brought the Monday's Cloud sync meeting discussions
