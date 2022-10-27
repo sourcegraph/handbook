@@ -68,7 +68,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - [When impact reviews take place] (COMING SOON)
   - [How to write an impact review](people-ops/process/giving-feedback.md)
-  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) md#how-to-get-a-promotion)
   - [When can you get a promotion] COMING SOON
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
@@ -218,7 +218,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - [When can you get a promotion] COMING SOON
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
