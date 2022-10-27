@@ -2430,3 +2430,14 @@ ted_moskalenko:
   location: Huntersville, NC, USA 🇺🇸
   links: '[LinkedIn](https://linkedin.com/in/tdmosk)'
   description: 'Ted is a technology professional with a variety of interests, including Information Security, Agile and DevOps, Data Analysis, and Business Process Management. He lives in Huntersville, NC, just north of Charlotte, with his wife and two boys. His interests include travel, food, and board games.'
+
+jon_galindo:
+  name: Jon Galindo
+  email: jon.galindo@sourcegraph.com
+  github: Galindo-J
+  pronouns: he/him
+  role: Senior Application Engineer
+  reports_to: vp_customer_engineering
+  location: Waco, TX, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/jon-galindo)'
+  description: 'Jon is a Northern California native who now lives in Central Texas with his wife and three daughters. Prior to Sourcegraph, Jon worked as a DevOps and Site Reliabilty Engineer at VMware. When not behind his computer, Jon enjoys swimming with his kids, smoking BBQ, spending too much money on trading cards, and taking mini adventures with his family.'
