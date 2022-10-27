@@ -26,7 +26,6 @@
 - [Teammate development](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Training](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md)
   - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-  - [How to get promoted](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md)
   - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
 - [Recognition program](../../company-info-and-process/working-at-sourcegraph/recognition-program.md)
 - How we measure our culture:
