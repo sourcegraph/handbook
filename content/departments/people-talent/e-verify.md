@@ -6,4 +6,4 @@ US law requires companies to employ only individuals who may legally work in the
 
 Click on the below links to view full-size PDF versions of E-Verify and employee-rights posters.
 
-- [This organization participates in E-Verify](https://drive.google.com/drive/folders/1HSdckHW2a3uSw2SjQL87whQffgK54q87)
+- [This organization participates in E-Verify](https://drive.google.com/file/d/1MfG2cdRRLjo7drN2v9ePwyCo_4W_dr5-/view?usp=sharing) 
