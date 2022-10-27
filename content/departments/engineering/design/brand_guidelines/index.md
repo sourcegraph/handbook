@@ -18,7 +18,6 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 - Introduction
   - [Brand platform](brand-platform.md)
   - [View our most up-to-date Brand Guidelines](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=0%3A1&node-id=1%3A822&viewport=913%2C2290%2C0.21&scaling=min-zoom)
-  
 - Brand elements
   - [Our logo](logo.md)
   - [Color](color.md)
