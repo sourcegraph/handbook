@@ -4,8 +4,6 @@ All aspects of what we do, what we sound like, what’s most important to us, co
 
 <img src="https://user-images.githubusercontent.com/102541294/198370881-c5ac1c22-3c79-4c1a-8384-ed1c2945ff7f.svg" width="500" />
 
-
-
 For example, our value of being dev-first is reflected in our voice which is always clear and dev-y.
 We offer a code intelligence platform, a tool for saving devs time so they can ideate more (accelerating technological progress), which demonstrates our purpose of innovation, and is reflected in our inspiring personality.
 
@@ -15,27 +13,23 @@ Every style treatment defined in our brand guide–from typeface, to color, to i
 
 <img src="https://user-images.githubusercontent.com/102541294/198051583-08570d3b-9f35-46e5-9dd4-7ab8603a5f93.svg" width="500" />
 
-
 What do we make? A code intelligence platform. How do we do it? By making it really easy to explore, understand, find, and reuse code. Lastly, and most importantly, why do we do this? To accelerate widespread technological progress. We want to make it so everyone can code, but ultimately, we are trying to bring about technological progress that isn’t just reserved for the big companies.
 
 ## Our brand values
 
 These are the most important values for Sourcegraph. These apply at every level of our organization—individuals, teams, and Sourcegraph as a whole–and serve as guiding principles in everything we do.
 
-
 ### Developer-first
 
-Sourcegraph at its core is built by devs, for devs. These are our customers and we prioritize working with data that supports them vs opinions.  
-
+Sourcegraph at its core is built by devs, for devs. These are our customers and we prioritize working with data that supports them vs opinions.
 
 ### High-agency
 
 Everyone at Sourcegraph has the power and the responsibility to improve Sourcegraph as a company and as a product.
 
-
 ### Transparency
 
-We are an open company. Being open and transparent builds trust with our customers and within our team. 
+We are an open company. Being open and transparent builds trust with our customers and within our team.
 
 Read more about [our values in the handbook](../../../../company-info-and-process/values/index.md).
 
@@ -60,24 +54,29 @@ Devs are the heroes of our story, so we prefer to shine a spotlight on their wor
 We want to democratize code for everyone, so we strive to be fully accessible in every sense of the word. Come to us with questions and ideas for how things can be better.
 
 ## Our voice
+
 Our voice attributes guide how we speak to each other and our customers. Our voice is informed by our purpose—because we believe in large scale accessibility and transparency in code, we chose attributes that reflect those values. Tone may change based on context, but our voice should always be consistent. Our voice is always clear, professional, humble, and dev-y.
 
 ### Clear
+
 - Be clear and concise
 - Avoid “fluff” and filler words
 - Be precise and logical
 
 ### Professional
+
 - Be conversational, but not silly
 - Speak with confidence
 - Demonstrate expertise
 
 ### Humble
-- Be empathetic 
+
+- Be empathetic
 - Be authentic
 - Speak to, not down, to our audience
 
 ### Dev-y
+
 - Lean into the jargon
 - Go down the rabbit holes
 - Show your passion
