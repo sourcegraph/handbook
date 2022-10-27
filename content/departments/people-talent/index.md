@@ -68,7 +68,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - [When impact reviews take place] (COMING SOON)
   - [How to write an impact review](people-ops/process/giving-feedback.md)
-  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) md#how-to-get-a-promotion)
   - [When can you get a promotion] COMING SOON
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
@@ -98,9 +98,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
   - [Open enrollment](../../benefits-pay-perks/benefits-perks/#2023-open-enrollment)
   - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
-    - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/##digital-id-cards)
-    - [How to access my dental card](../../benefits-pay-perks/benefits-perks/##digital-id-cards)
-    - [How to access my vision card](../../benefits-pay-perks/benefits-perks/##digital-id-cards)
+    - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/benefits.md)
+    - [How to access my dental card](../../benefits-pay-perks/benefits-perks/benefits.md)
+    - [How to access my vision card](../../benefits-pay-perks/benefits-perks/benefits.md)
   - [Rippling](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
@@ -218,7 +218,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - [When can you get a promotion] COMING SOON
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
