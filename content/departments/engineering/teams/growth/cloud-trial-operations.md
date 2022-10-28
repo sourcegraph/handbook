@@ -2,6 +2,8 @@
 
 From 2022-09-27, Sourcegraph Cloud will be the default way of deploying Sourcegraph. All the call to actions (CTAs) on Sourcegraph sites and posts will let users request a 30-day cloud trial. This page describes the workflow and expectations from each team to make sure those trial users get a great experience. It also describes what the role of each team will be in the longer term.
 
+**Note: this page is only for trials that come in inbound through signup.sourcegraph.com. Trials requested directly by Customer Engineers are not affected.**
+
 ## Context
 
 Cloud is the default way of deploying Souregraph, but there are some limits to delivering a cloud trial instance today.
