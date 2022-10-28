@@ -17,7 +17,7 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 
 - Introduction
   - [Brand platform](brand-platform.md)
-  - [View our most up-to-date Brand Guidelines](<[https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=0%3A1&node-id=1%3A822&viewport=913%2C2290%2C0.21&scaling=min-zoom](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=0%3A1&node-id=365%3A7256&viewport=137%2C629%2C0.04&scaling=min-zoom)>)
+  - [View our most up-to-date Brand Guidelines](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=0%3A1&node-id=365%3A7256&viewport=137%2C629%2C0.04&scaling=min-zoom)
 - Brand elements
   - [Our logo](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A3767&node-id=365%3A7328&viewport=423%2C417%2C0.04&scaling=contain)
   - [Partnership, co-branding, and derivative logos](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A3404&node-id=365%3A7337&viewport=538%2C294%2C0.07&scaling=contain)
