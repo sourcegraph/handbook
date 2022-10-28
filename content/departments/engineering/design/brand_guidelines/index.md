@@ -17,22 +17,22 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 
 - Introduction
   - [Brand platform](brand-platform.md)
-  - [View our most up-to-date Brand Guidelines](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=0%3A1&node-id=1%3A822&viewport=913%2C2290%2C0.21&scaling=min-zoom)
+  - [View our most up-to-date Brand Guidelines](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=0%3A1&node-id=365%3A7256&viewport=137%2C629%2C0.04&scaling=min-zoom)
 - Brand elements
-  - [Our logo](logo.md)
-  - [Color](color.md)
-  - [Typography](typography.md)
-  - [Iconography (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=46)
+  - [Our logo](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A3767&node-id=365%3A7328&viewport=423%2C417%2C0.04&scaling=contain)
+  - [Partnership, co-branding, and derivative logos](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A3404&node-id=365%3A7337&viewport=538%2C294%2C0.07&scaling=contain)
+  - [Color](https://www.figma.com/file/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?node-id=360%3A5678)
+  - [Typography](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A5452&node-id=366%3A7352&viewport=350%2C579%2C0.05&scaling=contain)
+  - [Iconography](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A6555&node-id=366%3A7377&viewport=423%2C417%2C0.12&scaling=contain)
+  - [STARSHIP](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=144%3A2377&node-id=366%3A7380&viewport=244%2C425%2C0.04&scaling=contain)
   - [Photography (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=54)
   - [Data visualization (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=57)
 - Application
   - [Social media (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=66)
   - [Business templates (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=69)
-  - [Partnership branding (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=73)
-  - [Internal branding (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=77)
   - [Branded items (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=79)
 
-## Downloads
+## Self-serve assets
 
-- [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip, includes full Brand Guidelines PDF, plus logos, fonts, color palettes, and more)
-- [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
+- [Logo files](https://www.figma.com/file/522fTKlS2R6fzzs9EGNvpk/Logos?node-id=0%3A1)
+- [Icons](https://www.figma.com/file/gh8Pnk0XowDq55RmqUkO7k/Icon-library?node-id=0%3A9)
