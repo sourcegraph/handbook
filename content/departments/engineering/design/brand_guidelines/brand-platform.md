@@ -1,13 +1,14 @@
 # Brand platform
 
-All aspects of what we do, what we sound like, what’s most important to us, come together to form our brand platform. At its center is our core story, or brand position. Every piece of this platform is influenced by the others.
+<img src="https://user-images.githubusercontent.com/102541294/198370881-c5ac1c22-3c79-4c1a-8384-ed1c2945ff7f.svg" width="500" />  
+  
+All aspects of what we do, what we sound like, what’s most important to us, come together to form our brand platform. At its center is our core story, or brand position. Every piece of this platform is influenced by the others. For example, our value of being dev-first is reflected in our voice which is always clear and dev-y. We offer a code intelligence platform, a tool for saving devs time so they can ideate more (accelerating technological progress), which demonstrates our purpose of innovation, and is reflected in our inspiring personality.
 
-<img src="https://user-images.githubusercontent.com/102541294/198370881-c5ac1c22-3c79-4c1a-8384-ed1c2945ff7f.svg" width="500" />
+This platform was based on outcomes from our [2022 Brand Sprint Workshop](https://docs.google.com/presentation/d/1QqlDvqOOLhdO4R104cVPDgP7Kv8waVSck6rvYdLvm_E/edit?usp=sharing). Watch the video below for more context.
 
-For example, our value of being dev-first is reflected in our voice which is always clear and dev-y.
-We offer a code intelligence platform, a tool for saving devs time so they can ideate more (accelerating technological progress), which demonstrates our purpose of innovation, and is reflected in our inspiring personality.
+<img src="https://user-images.githubusercontent.com/102541294/198656860-2a1af44d-af75-476f-bf4f-04e1547bbdf8.mp4" width="500"/>
 
-Every style treatment defined in our brand guide–from typeface, to color, to illustrations–is carefully chosen to visually represent our brand platform.
+Every style treatment defined in our brand guide–from typeface, to color, to illustrations–is carefully chosen to visually represent our brand platform. Below you'll find a breakdown of each facet of our brand platform.
 
 ## Our what, how, and why
 
