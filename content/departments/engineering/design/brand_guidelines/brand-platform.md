@@ -6,7 +6,7 @@ All aspects of what we do, what we sound like, what’s most important to us, co
 
 This platform was based on outcomes from our [2022 Brand Sprint Workshop](https://docs.google.com/presentation/d/1QqlDvqOOLhdO4R104cVPDgP7Kv8waVSck6rvYdLvm_E/edit?usp=sharing). Watch the video below for more context.
 
-[<img width="500" alt="2022-brand-sprint-results-thumbnail" src="https://user-images.githubusercontent.com/102541294/198674704-c88b7aa3-66c4-449b-a121-db9bab18731f.png">](https://www.loom.com/share/c402715bb05c4d8d81ad03acf52398e6 "2022 Brand Sprint Results")
+[<img width="500" alt="2022-brand-sprint-results-thumbnail" src="https://user-images.githubusercontent.com/102541294/198674704-c88b7aa3-66c4-449b-a121-db9bab18731f.png">](https://www.loom.com/share/c402715bb05c4d8d81ad03acf52398e6 '2022 Brand Sprint Results')
 
 Every style treatment defined in our brand guide–from typeface, to color, to illustrations–is carefully chosen to visually represent our brand platform. Below you'll find a breakdown of each facet of our brand platform.
 
@@ -45,21 +45,25 @@ If Sourcegraph was a person, how would we describe them?
 Our voice attributes guide how we speak to each other and our customers. Our voice is informed by our purpose—because we believe in large scale accessibility and transparency in code, we chose attributes that reflect those values. Tone may change based on context, but our voice should always be consistent. Our voice is always clear, professional, humble, and dev-y.
 
 **Clear**
+
 - Be clear and concise
 - Avoid “fluff” and filler words
 - Be precise and logical
 
 **Professional**
+
 - Be conversational, but not silly
 - Speak with confidence
 - Demonstrate expertise
 
 **Humble**
+
 - Be empathetic
 - Be authentic
 - Speak to, not down, to our audience
 
 **Dev-y**
+
 - Lean into the jargon
 - Go down the rabbit holes
 - Show your passion
