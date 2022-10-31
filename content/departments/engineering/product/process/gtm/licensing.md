@@ -13,6 +13,8 @@ Sourcegraph's software [license](https://sourcegraph.com/github.com/sourcegraph/
 
 As described [in the open source FAQ](../../../../../company-info-and-process/community/faq.md#is-all-of-sourcegraph-open-source), users can use Sourcegraph OSS without agreeing to any enterprise licensing terms by building their own server image. If they do so, no code from our enterprise licensed features will be included in their Sourcegraph deployment.
 
+Sourcegraph OSS only includes universal code search functionality, and does not include any [code intelligence platform](https://about.sourcegraph.com/blog/code-search-to-code-intelligence) features (code navigation, Batch Changes, Code Insights, etc.). You must use Sourcegraph Enterprise to access the full code intelligence platform. 
+
 In practice, Sourcegraph OSS involves:
 
 - Removing the `enterprise` directories from the repo
@@ -20,11 +22,11 @@ In practice, Sourcegraph OSS involves:
 
 This means you have the following limitations:
 
-- No path to upgrade to an Enterprise or Team plan down the line (you can’t change your mind without launching a new instance)
+- No path to upgrade to a Business or Enterprise plan down the line (you can’t change your mind without launching a new instance)
 - No external dependencies (means no extensions!)
-- No enterprise features (SSO, access control, Batch Changes, Code Insights (Beta), Code Monitoring)
+- No enterprise or code intelligence platform features (SSO, access control, Batch Changes, Code Insights, Notebooks, code monitoring, code navigation, admin analytics etc.)
+- No access to browser or IDE extensions
 - Built as a single container (limited scalability)
-- No access to our extensions
 
 Benefits to the OSS option include:
 
@@ -33,19 +35,27 @@ Benefits to the OSS option include:
 
 If someone is talking to Sales or CE and says they’re using the OSS version, they are 99% of the time using the free tier of Sourcegraph Enterprise. If they say they’re hitting a user limit, they’re using the free version of Sourcegraph Enterprise, not Sourcegraph OSS.
 
+### Determining which new features are added to Sourcegraph OSS
+
+Sourcegraph OSS only includes core search functionality. We will only add new features to Sourcegraph OSS if both of the following are true:
+1. They are required for parity with open-source code search tools, and
+2. They don’t significantly reduce the differentiation of Sourcegraph Enterprise or Sourcegraph as a code intelligence platform.
+
+If you believe a feature you are working on should be added to Sourcegraph OSS or you aren't sure if your feature should be added to Sourcegraph OSS, please send a note to #pricing and the team will either approve the addition or help determine if it should be added. 
+
 ### Sourcegraph Enterprise
 
-Most users, however, will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images—with or without a paid plan—are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
+Sourcegraph Enterprise includes all code intelligence platform features and is more than just inversal code search. 
 
-If someone follows the install instructions for our Docker, Docker Compose, or Kubernetes options ([reference](https://docs.sourcegraph.com/admin/install)), they will install Sourcegraph Enterprise.
+Most developers will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images—with or without a paid plan—are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
 
-Because the code for all three pricing plans is the same, customers can subscribe to any plan in any of our [deployment methods](https://docs.sourcegraph.com/admin/install) except on Sourcegraph Cloud, where packaging and pricing are not defined, and there are no plans yet. The deployment method a customer uses is unrelated to the pricing plan, generally (for exceptions, ping the CE team).
+If someone follows the install instructions for our Docker, Docker Compose, or Kubernetes options ([reference](https://docs.sourcegraph.com/admin/install)), or they are on [Sourcegraph Cloud](https://signup.sourcegraph.com/) they will be using Sourcegraph Enterprise.
 
 ## Plans
 
-Sourcegraph Enterprise offers three **plans**: Free, Team and Enterprise as defined in [pricing](https://about.sourcegraph.com/pricing/). The Free plan is the default plan. It does not require a license key to run.
+Sourcegraph Enterprise offers three **plans**: Free, Business, and Enterprise as defined in [pricing](https://about.sourcegraph.com/pricing/). The Free plan is the default plan. It does not require a license key to run.
 
-Customers on the Team and Enterprise plan of Sourcegraph Enterprise are provided with a [license key](../../../../ce-support/ce/process/license_keys.md), usually by a customer engineer. When a prebuilt image is configured with a license key, the functionality covered under the customer's plan is enabled.
+Customers on the Business and Enterprise plan of Sourcegraph Enterprise are provided with a [license key](../../../../ce-support/ce/process/license_keys.md), usually by a customer engineer. When a prebuilt image is configured with a license key, the functionality covered under the customer's plan is enabled.
 
 > NOTE: Although it includes the word "license", a license key is _completely_ unrelated to the [software license](#software-licensing) described above.
 
@@ -63,8 +73,8 @@ To prevent confusion, avoid using "License" or "Free user". Instead, say:
 
 - a **Sourcegraph OSS** user
 - a **Sourcegraph Enterprise** user on a **Free plan**
-- a **Sourcegraph Enterprise** user on a **Team/Enterprise plan**
-- a **license key** for the **Team/Enterprise plan** of **Sourcegraph Enterprise**
+- a **Sourcegraph Enterprise** user on a **Business/Enterprise plan**
+- a **license key** for the **Business/Enterprise plan** of **Sourcegraph Enterprise**
 - **Sourcegraph Cloud** is a SaaS offering of Sourcegraph Enterprise, one of the many ways to [deploy Sourcegraph](../../../../ce-support/ce/onboarding/deployment-methods.md)
 
 The only case where "license" alone is appropriate is when someone asks "What's the license of Sourcegraph?". The answer to that is Apache 2.0 for Sourcegraph OSS, and the enterprise license for Sourcegraph Enterprise.
@@ -74,7 +84,7 @@ The only case where "license" alone is appropriate is when someone asks "What's 
 You can think of this as a set of three options from the user's perspective:
 
 1. Run a fully open source deployment of Sourcegraph. No enterprise code is included in this deployment, no enterprise features (or even landing pages for those features) are enabled, and no option is provided to do so.
-2. Run Sourcegraph Core. This corresponds to [the _Free_ option on the pricing page](https://about.sourcegraph.com/pricing/). A Sourcegraph Core deployment includes enterprise code, but without a license key, any functionality provided therein is extremely limited. (For example, batch changes can only be made with up to five changesets.)
-3. Run Sourcegraph with a paid plan. This corresponds to [the _Team_ or _Enterprise_ options on the pricing page](https://about.sourcegraph.com/pricing/). These deployments include enterprise code, with paid features available based on the customer's plan, controlled by their license key.
+2. Run Sourcegraph Core. This corresponds to [the _Free_ option on the pricing page](https://about.sourcegraph.com/pricing/). A Sourcegraph Core deployment includes enterprise code, but without a license key, any functionality provided therein is extremely limited. (For example, Batch Changes can only be made with up to ten changesets.)
+3. Run Sourcegraph with a paid plan. This corresponds to [the Business or _Enterprise_ options on the pricing page](https://about.sourcegraph.com/pricing/). These deployments include enterprise code, with paid features available based on the customer's plan, controlled by their license key.
 
 For more information, you may also want to refer to our [explanation of Sourcegraph Enterprise vs Sourcegraph OSS](../../../../ce-support/ce/onboarding/enterprise-vs-oss.md).
