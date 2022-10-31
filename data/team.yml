@@ -740,15 +740,6 @@ stompy_mwendwa:
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stompy-mwendwa)'
   description: "Stompy is from the Pride of Africa and previously worked in customer success roles prior to joining Sourcegraph. He is a CS graduate and fell in with computers playing around with MS-DOS in the mid-90s. Stompy loves helping people achieve their goals and is a staunch believer of the Swahili proverb: Kusaidia ni moyo wala si utajiri' - Helping is of the heart, not of the pocket. When he's not working, he loves hopping onto motorcycles and going on adventures, watching/playing basketball(Go Lakers!), playing video games, listening to hip-hop and going out to eat."
 
-sam_cregg:
-  name: Sam Cregg
-  role: Sales Development Rep
-  reports_to: head_sales_development
-  location: Boston, MA, USA USA
-  email: samcregg@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/sam-cregg/)'
-  description: Sam enjoys golfing, boating and being outdoors. Prior to Sourcegraph, Sam worked at IBM in a variety of sales roles including Hybrid Cloud, IoT and Blockchain. He loves to travel and hopes to do more in the coming years. He is a big Boston sports fan who is orginally from Topsfield, MA but now lives in the North End of Boston.
-
 indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
@@ -925,24 +916,13 @@ trevor_houghton:
 kevin_quigley:
   name: Kevin Quigley
   pronouns: he/him
-  role: Sales Development Rep
-  reports_to: head_sales_development
+  role: Account Executive
+  reports_to: regional_director_sales_east
   location: Atlanta, GA, USA 🇺🇸
   github: kevin-quigley
   email: kevin.quigley@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/kevinquigley18/)'
   description: Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
-
-brady_herrmann:
-  name: Brady Herrmann
-  pronouns: he/him
-  role: Enterprise Account Executive
-  reports_to: regional_director_sales_east
-  location: Chicago, IL, USA 🇺🇸
-  github: brherrma
-  email: brady@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/bradyherrmann/)'
-  description: "Brady has spent the majority of his career working for developer centric companies and has a passion for selling solutions that allow developers to build better. He grew up in Indianapolis, but has since lived in Denver, Washington DC, Maryland, and now resides in the northern suburbs of Chicago with his wife (Kali), 1-year old daughter (Noa), and two black lab mixes (Henry and Luna). His passions outside of work include hiking, camping, skiing, live music and traveling (Peru, SE Asia, the Amalfi Coast, and Switzerland being some of the favorite places he's visited). He's a big fan of karaoke (he's been known to do an above average rendition of Sister Christian with his wife), college basketball (Go Boilers) and is currently in the market for an alto saxophone to get back to his playing days."
 
 nicky_van_maanen:
   name: Nicky Van Maanen
