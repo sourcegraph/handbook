@@ -2,6 +2,8 @@
 
 ## Prereq
 
+> NOTE: For [automated upgrades](#automated-upgrade-recommended), these pre-reqs are not required.
+
 ### Environment
 
 You have `go` installed
@@ -69,20 +71,31 @@ export VERSION=3.40.0
 
 #### Automated Upgrade (recommended)
 
-> You should not upgrade more than 5 instances at a time.
-
 ```sh
 gh workflow run mi_upgrade.yml -f customer=$CUSTOMER -f version=$VERSION
 ```
 
 Follow the notification in #cloud-notifications.
 
-If the upgrade succeed, followed the instruction in the generated PR, follow the step below to trigger CI check in order to merge the PR
+Command can be generated using `mi` as well, which will list commands for instances that are not yet upgraded:
+
+```sh
+mi workflow upgrade -target $VERSION -instance-type=trial
+mi workflow upgrade -target $VERSION -instance-type=production
+```
+
+The above commands can then be run in bulk.
+
+> NOTE: You should not upgrade more than 5 instances at a time.
+
+If the upgrade succeeds, followed the instruction in the generated PR, and follow the steps below to trigger CI check in order to merge the PR:
 
 - close PR
 - delete branch
 - restore the branch
 - re-open the PR
+
+Alternatively, simply updating the branch via the PR prompt will also trigger CI checks.
 
 Finally, update the tracking issue
 
