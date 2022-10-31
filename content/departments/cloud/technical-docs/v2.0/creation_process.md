@@ -1,4 +1,4 @@
-# Creating a managed instance
+# Creating a Cloud instance
 
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
@@ -10,6 +10,12 @@ Follow https://github.com/sourcegraph/controller#installation to install `mi2`
 ```sh
 git clone https://github.com/sourcegraph/cloud
 cd cloud
+```
+
+Install `mi2` binary
+
+```sh
+go install ./cmd/mi2/
 ```
 
 ## Steps
@@ -39,7 +45,7 @@ export ENVIRONMENT=dev
 git checkout -b $SLUG/create-instance
 ```
 
-### Init deployment artifacts - GCP Project
+### Init deployment artifacts - terraform stacks
 
 `mi2 generate` will
 
@@ -50,7 +56,7 @@ git checkout -b $SLUG/create-instance
 mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-Above command will fail on the first run, follow the prompt to manually apply the terraform module or you can just run the command below
+Above command will fail on the first run, run the command below to manually deploy the module
 
 Before applying the terraform modulel, gather the computed values and configure them as environment variables
 
@@ -61,31 +67,16 @@ export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.stat
 
 Apply the `project` terraform module
 
-```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/project
-terraform init
-terraform apply
-```
-
-### Init deployment artifacts - Infrastructure
-
-Rerun the `generate` command to generate the infra terraform module.
+> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.0` under the instance root in case things are not working as intented
 
 ```sh
-mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
-```
-
-Above command will fail again, run the command below to manually apply the `infra` terraform module.
-
-```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-terraform init
-terraform apply
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
+npx --yes cdktf-cli@0.13.0 deploy project network gke sql app sqlschema waf security output --auto-approve --parallelism 8
 ```
 
 ### Init deployment artifacts - K8S
 
-Rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
+Go back to the repo root directory, rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
 
 ```sh
 mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
@@ -93,12 +84,17 @@ mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 
 ### Deploy application
 
-Connect to the cluster locally by running
+Run command below to obtain the commands to target the new cluster
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
-gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
+mi2 workon -e $ENVIRONMENT --slug $SLUG
+```
+
+Copy and run the output `gcloud` and `kubectl` commands, you shall see something like
+
+```sh
+gcloud container clusters get-credentials src-$random_hash --region us-central1 --project src-$random_hash
+kubectl config set-context gke_src-$random_hash_us-central1_src-src-$random_hash --namespace=src-$random_hash
 ```
 
 Deploy the manifests

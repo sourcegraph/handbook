@@ -8,15 +8,19 @@ We support teammates at all stages of life, including during family planning. Pr
 
 ### Paid parental leave policy at Sourcegraph
 
-Sourcegraph ensures you are paid 100% of your salary for up to 16 weeks per birth, adoption or placement event, covering the difference between any country or state-sponsored benefits and your full salary. (Teammates must sign up for any country or state-sponsored leave benefits if available.)
-_Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section](#resources-for-teammates-with-a-commission-plan-sales--ce)._
+Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16 weeks per birth, adoption or placement event, covering the difference between any country or state-sponsored benefits and your full salary. (Teammates must sign up for any country or state-sponsored leave benefits if available. _Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section](#resources-for-teammates-with-a-commission-plan-sales--ce)._
 
-- **Adoption or Foster-placement leave** may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding.
-- **Leave preceding the birth of the child** is available to teammates as PTO, medical leave or statutory maternity benefits (dependent on location) . This is an additional benefit on top of the paid parental leave policy, which ensures up to 16 weeks of paid leave after the birth event. The People Team is available to consult on options for pre-birth and disability leave policies.
-- **Sourcegraph provides leave after pregnancy loss.** Contact your People Partner for assistance.
+**Adoption or Foster-placement leave** may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding.
+
+**Leave preceding the birth of the child** is available to teammates as PTO, medical leave or statutory maternity benefits (dependent on location) . This is an additional benefit on top of the paid parental leave policy, which ensures up to 16 weeks of paid leave after the birth event. The People Team is available to consult on options for pre-birth and disability leave policies.
+
+**Sourcegraph provides leave after pregnancy loss.** Contact your People Partner for assistance.
+
+**Overview:**
+
 - Paid parental leave can be used for the birth, adoption, or foster care placement of a child, within the 12 months immediately following the qualifying event (your child’s birth, adoption finalization, or placement).
 
-- You may take more or less than 16 weeks, depending on your needs and preferences, but anything over 16 weeks is not eligible for the paid parental leave policy. (See [FAQ](#faq-for-non-us-based-teammates)for Non-US/statutory variances)
+- You may take more or less than 16 weeks, depending on your needs and preferences, but anything over 16 weeks is not eligible for the paid parental leave policy. (See [FAQ](#faq-for-non-us-based-teammates) for Non-US/statutory variances)
 
 - You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial parental leave date). If using non-consecutively, you must request leave in blocks of 1-week increments and cannot split this into specified days across partial, non-consecutive weeks.
 
@@ -24,8 +28,13 @@ _Note: References to fully-paid parental leave in this policy for non-commission
 
 #### Who is eligible for Sourcegraph’s paid parental leave?
 
-- All full-time teammates who become parents through child birth, adoption, or placement of a child are eligible for Parental Leave benefits.
-- There is no minimum tenure required to be eligible for Parental Leave. In other words, all teammates are eligible for Parental Leave on day 1.
+**Teammates are eligible if:**
+
+- They are working full-time;
+- They become parents through child birth, adoption, or placement of a child are eligible for Parental Leave benefits while working for Sourcegraph; and
+- They are in good standing (as determined by the Company in our sole discretion)
+
+**Note:** There is no minimum tenure required to be eligible for Parental Leave. In other words, all teammates are eligible for Parental Leave on day 1.
 
 #### Planning to go on Parental Leave? Follow the below steps…
 
@@ -46,7 +55,7 @@ Please notify the People Team via email ([people-ops@sourcegraph.com](mailto:peo
 
 Once you’ve notified the People Team via email, someone will follow up with next steps:
 
-- **US Teammates:** someone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. Your Sparrow contact will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
+- **US Teammates:** someone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. The Sparrow team will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
 - **Contractor Teammates**: someone on the People Team will reach out to you and will work with you to prepare for your upcoming parental leave.
 - **PEO Teammates:** one of our People teammates will work with your PEO to gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
 
@@ -72,10 +81,12 @@ For team members taking >2 weeks of leave:
 
 - Quota-carrying teammates will be paid no less than 100% of their OTE during leave months
 - Any deals closed during this period will be measured against attainment based on the below criteria
-- Should attainment exceed 100% of prorated OTE, rep will be entitled to the full amount of compensation based on attainment, including any applicable multipliers
-- Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member; however these excess funds **shall not** qualify for quota relief
-
-In addition, for team members taking >50% of leave in one block, Sourcegraph shall provide the team member with a 3-month ramp period of 50% of prorated quota upon return. Quota shall revert to 100% attainment in month 4 of return. The ramp period will begin on the 1st of the month following the teammate’s return.
+- Should attainment exceed 100% of prorated OTE, rep will be entitled to the full amount of compensation based on attainment, including any applicable multipliers.
+- Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member.
+- **Quota Relief While On Parental Leave:** Sales Quota will be zero during leave months.
+  - This will be pro-rated based on the leave period and deducted from the full-year target
+    **Example:** Rep takes 11 weeks off, which would result in $317,307.69 off a $1.5M annual quota. Dropping annual quota to $1,182,692.31
+  - In addition, for team members taking >50% of leave in one block, Sourcegraph shall provide the team member with a 3-month ramp period of 50% of prorated quota upon return. Quota shall revert to 100% attainment in month 4 of return. The ramp period will begin on the 1st of the month following the teammate’s return.
 
 #### Commission payout scenarios for Account Executives
 
@@ -83,32 +94,60 @@ _Applies for any period of parental leave that is >2 weeks. Deal stage is locked
 
 _For purposes of clarification, the following terms shall be used:_
 
-- _AE on leave: the individual who is taking parental leave_
-- _Covering AE: the individual assigned to manage the impacted accounts during the parental leave period_
-- _Opportunities: inclusive of both new business opportunities as well as expansion & renewal opportunities_
+- **AE on leave:** the individual who is taking parental leave
+- **Covering AE:** the individual assigned to manage the impacted accounts during the parental leave period
+- **Opportunities:** inclusive of both new business opportunities as well as expansion & renewal opportunities
 
-For opportunities already in funnel:
+**Accelerators:**
 
-- Deal stage 1-4: Opportunity will be assigned to Covering AE
+- The Teammate will receive credit and commissions as specified in their existing Commission Plan that occurs **_prior_** to the start of the leave. Quota-carrying Teammates receive quota relief for the duration of Paid Leave, which will be prorated based on the actual time on leave within the fiscal year. Accelerators are only applicable over 100% of the standard quota and will not be applied to the reduced quota on parental leave.
+
+### For opportunities already in the funnel
+
+**Opportunity Definition:** This is inclusive of net new business & product cross-sell (for seat expansion opportunities that do not require POC, please see additional guidance below)
+
+\*Exceptions: Manager & People partner will work with AE going on leave to evaluate existing territory and determine if the opportunity exceeds $500k threshold (Deal Stage 1-4). If yes, a coverage plan will be put in place, and splits will be determined accordingly.
+
+- Deal stage 1-3: Opportunity will be assigned to Covering AE
+  - Covering AE will receive 100% attainment & commission credit for successful deal closure
+- Deal stage 4: Opportunity will be assigned to Covering AE
   - AE on leave to receive 20% attainment credit & commissions for successful deal closure
   - Covering AE to receive 80% attainment credit & commissions for successful deal closure
-- Deal stage 5+: Opportunity will be directly managed by sales manager
+- Deal Stage 5+: Opportunity will be directly managed by the sales manager
   - AE on leave to receive 100% attainment credit & commissions for successful deal closure
 
-For opportunities created after start of parental leave:
+### For opportunities created after the start of parental leave:
+
+**Opportunity Definition:** This is inclusive of net new business & product cross-sell (for seat expansion opportunities that do not require POC, please see additional guidance below)
 
 - If deal originates & is closed during AE on leave’s parental leave:
-  - AE on leave will receive 0% credit & commissions
   - Covering AE will receive 100% credit & commissions
 - If a deal originates & is not closed during AE on leave’s parental leave:
-  - Deal stage 2-3:
+  - Deal stage 1-3:
     - Deal is reassigned back to AE on leave
-    - AE on leave to receive 80% attainment credit & commissions for successful deal closure
-    - Covering AE to receive 20% attainment credit & commissions for successful deal closure
+    - AE on leave to receive 60% attainment credit & commissions for successful deal closure
+    - Covering AE to receive 40% attainment credit & commissions for successful deal closure
   - Deal stage 4+:
     - Deal remains with covering AE to maximize customer experience
-    - AE on leave to receive 20% attainment credit & commissions for successful deal closure
-    - Covering AE to receive 80% attainment credit & commissions for successful deal closure
+    - AE on leave to receive 0% attainment credit & commissions for successful deal closure
+    - Covering AE to receive 100% attainment credit & commissions for successful deal closure
+
+### For expansion opportunities:
+
+**Opportunity Definition:** This is inclusive of seat expansion opportunities that do not require POC.
+
+- Opportunity will be directly managed by sales manager
+  - AE on leave to receive 100% attainment credit & commissions for successful deal closure
+  - Example: Customer SEAT upsells (noted as 'expansion' in Salesforce) on user growth occur during leave period, for which the Teammate on leave will receive 100% attainment commission credit.
+
+### Account Ownership:
+
+- The Teammate on leave will retain all accounts in their name irrespective of opportunity stage or timing. They will continue to retain those accounts when they return within a given fiscal year period. In rare cases, there may be extenuating circumstances that require mid-year territory changes, these will be in leadership’s discretion and addressed on a case-by-case basis. The opportunity ownership between leave and covering AE will be as referenced in the above guidelines.
+
+_Examples:_
+
+1. No opportunities are generated or closed in the account while the Teammates is on leave. Teammate will retain the account when they return.
+2. Teammate on leave has as Stage 1-4 opportunity passed to another AE. The account stays in the leave Teammate’s name while covering AE will own closure of the opportunity. If the opportunity closes while the Teammate is on leave, the above commission structure will be referenced, and the account will continue to stay in the name of the Teammate.
 
 _For any period of leave &lt;2 weeks, please consult your manager._
 
@@ -241,9 +280,13 @@ A: Use Rippling to trigger a Qualifying Life Event
 
 A: Yes, when you trigger the Qualifying Life Event in [Rippling](https://app.rippling.com/insurance/employee/) you will have the option to select new insurance plans. You have 30 days from the birth date or adoption date to make your elections.
 
-##### Q: If I have questions about benefits such as PFL or FMLA, who should I reach out to? _(this only applies to US employees)_
+##### Q: If I have questions about benefits such as PFL or FMLA, who should I reach out to? _(this only applies to US Employees)_
 
 A: Your Sparrow contact will be the best point of contact for any national or state specific benefit questions.
+
+#### Q: What happens to withholdings from my paychecks while I’m on leave?
+
+A: Medical benefit (including health, dental, vision, and life insurance) premiums will be paid by the Company while you’re on leave. Voluntary contributions (such as 401k, FSA, or HSA) will continue to be deducted from your paid leave benefit as if you were receiving your regular paychecks unless you adjust your withholdings in Rippling and Human Interest.
 
 #### FAQ for non-US-based Teammates
 

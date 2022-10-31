@@ -10,6 +10,10 @@ Is there anything missing? Please reach out to [onboarding@sourcegraph.com](mail
 
 Please fill out [this form](https://forms.gle/sxidvRGbPpPQJin28) within the first **24 hours** after you sign your contract. _This is an important step so that we can begin your onboarding process and systems setup._
 
+### 💌 **Email**
+
+By default, your company email will follow this format: **PreferredName.PreferredSurname@sourcegraph.com**. If you have any concerns, please reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com).
+
 ### 🎥 **Make your welcome video**
 
 We have a company meeting every other week, during which we introduce our new teammates via a video! Within the 48-hours after you signed your contract, please record and submit a ~30 second video (recorded horizontally) with the below details. Please submit the final version using [this google form](https://docs.google.com/forms/d/e/1FAIpQLSfH6DQORMhFO7CLzqYaOCSFKE79QAdSW_Sr1WLzk4hhtpCFpw/viewform?usp=sf_link).

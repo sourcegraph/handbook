@@ -13,11 +13,17 @@ Operations guides for [managed instances](./index.md).
 
 To perform any MI operations, you need to meet the following requirement
 
-```sh
-git clone git@github.com:sourcegraph/deploy-sourcegraph-managed.git
-cd deploy-sourcegraph-managed
-echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
-```
+1. Have the required level of GCP Access.
+
+   Access to Managed Instances is governed by our [Cloud Access Control Policy](../../engineering/dev/policies/cloud-access-control-policy.md#customer-instances).
+   You need to have the required level of access to perform the operations described here.
+
+1. Have the CLI installed & configured
+   ```sh
+   git clone git@github.com:sourcegraph/deploy-sourcegraph-managed.git
+   cd deploy-sourcegraph-managed
+   echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+   ```
 
 Below we will install `mi` CLI. `mi` simlifies operation on MI and releases the burden of remembering various common `gcloud` commands.
 
@@ -249,6 +255,47 @@ The state of managed instances infrastructure and deployment artifact are stored
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
 
+### Applying docker-compose configuration changes
+
+In general, docker-compose configuration changes can be applied with:
+
+```sh
+mi sync artifacts
+mi restart-containers
+```
+
+You can verify your changes by using `mi ssh` and running commands like `docker container inspect`.
+
+### Enabling usage data export
+
+Add the following to the instance's docker-compose override and [apply docker-compose changes](#applying-docker-compose-configuration-changes):
+
+```sh
+  worker:
+    environment:
+      - 'EXPORT_USAGE_DATA_ENABLED=true'
+```
+
+### Adding feature flags
+
+Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
+
+Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
+
+Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
+
+### Modify customer specific GCP Managed Instance labels
+
+Customer specific Managed Instance GCP project labels are generated via [mi sync terraform-vars](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed/-/blob/util/cmd/mi/mg_sync_terraform_vars.go?L23).
+
+To modify label:
+
+- modify field in config.yaml for customer
+- run `mi sync terraform-vars`
+- run `source tfvars.env`
+- cd `project`
+- run `terraform apply -var-file=../terraform.tfvars`
+
 ## Availability of the instance
 
 ### Uptime Checks
@@ -257,7 +304,7 @@ We are aligned with the [company-wide testing philosophy](https://docs.sourcegra
 
 We are aligned with the [company-wide incident response playbook](../../engineering/dev/process/incidents/index.md) to handle managed instances downtime.
 
-We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
+We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the managed instance frontend url. When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
 ### Performance Checks
 
@@ -515,26 +562,6 @@ mi update-golden -target $version
 ```
 
 Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
-
-### Modify customer specific GCP Managed Instance labels
-
-Customer specific Managed Instance GCP project labels are generated via [mi sync terraform-vars](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed/-/blob/util/cmd/mi/mg_sync_terraform_vars.go?L23).
-
-To modify label:
-
-- modify field in config.yaml for customer
-- run `mi sync terraform-vars`
-- run `source tfvars.env`
-- cd `project`
-- run `terraform apply -var-file=../terraform.tfvars`
-
-### How to add feature flags?
-
-Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
-
-Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
-
-Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
 
 ## Disaster Recovery and Business Continuity Plan
 

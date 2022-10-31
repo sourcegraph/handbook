@@ -39,7 +39,7 @@ Validate this actualy works
 Configure env var
 
 ```sh
-eval (mg --customer $CUSTOMER workon)
+eval (mi --customer $CUSTOMER workon)
 export PROJECT_ID=$PROJECT_PREFIX-$CUSTOMER
 export INSTANCE_NAME=default-$OLD_DEPLOYMENT-instance
 ```

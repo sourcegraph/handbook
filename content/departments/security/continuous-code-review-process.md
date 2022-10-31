@@ -33,7 +33,7 @@ GitHub actions then comments on a PR with information on how to use the detected
 
 As SAST (Static Application Security Testing) tools are being used for a little while now, we can get an idea of what patterns we can use for our searches. For instance GitLab has made a Semgrep ruleset with some rules based on GoSec. There are some rules that look like search patterns, but also some rules that use taint-analysis and metavariable matching, that we cannot use (yet?). Since every codebase is different, we have also created our own rules that only apply to our codebase.
 
-At Sourcegraph has comments that include `// 🚨 SECURITY:`. This code might’ve had security issues in the past or has code with potential security risks associated with it. So when we detect changes around these comments a monitor triggers. Another example is a trigger that detects file system interactions.
+Sourcegraph has comments that include `// 🚨 SECURITY:`. This code might’ve had security issues in the past or has code with potential security risks associated with it. So when we detect changes around these comments a monitor triggers. Another example is a trigger that detects file system interactions.
 
 ### Notebooks
 

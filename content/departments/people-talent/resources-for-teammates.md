@@ -21,13 +21,11 @@
 ## Working at Sourcegraph
 
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
-- [Working hours](../../company-info-and-process/working-at-sourcegraph/working-hours.md)
 - [Safety]
 - [Required workplace postings/posters - US]
 - [Teammate development](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Training](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md)
   - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-  - [How to get promoted](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md)
   - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
 - [Recognition program](../../company-info-and-process/working-at-sourcegraph/recognition-program.md)
 - How we measure our culture:

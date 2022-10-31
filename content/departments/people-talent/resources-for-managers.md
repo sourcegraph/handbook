@@ -40,14 +40,13 @@
   - [2022 Cohort calendar start dates](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0)
 
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
-- [Working hours & PTO](../../company-info-and-process/working-at-sourcegraph/working-hours.md)
+- [Working hours & PTO](../../benefits-pay-perks/benefits-perks/time-off/index.md)
 - [Teammate gathering and celebrations](../../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Swag](swag.md)
 
 ## Manager processes
 
 - Management training
-- [How to promote someone](people-ops/process/promotion.md)
 - BambooHR
   - How to run a report
   - [Requesting changes in BambooHR (compensation, role, spot bonuses)](people-ops/process/compensation-and-leveling/compensation-role-changes.md)

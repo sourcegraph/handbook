@@ -1,12 +1,11 @@
 # Support Team Processes
 
-- [Business continuity plan](business-continuity-plan.md)
 - [Case reviews](case-reviews.md)
+- [Case transitions](case-transitions.md)
 - [Change Management Checklist](change-management-checklist.md)
 - [Cloud Maintenance Window Process](cloud-maintenance-window.md)
 - [Collaboration time](collaboration-time.md)
 - [Customer exceptions](customer-exceptions.md)
-- [Customer support triaging](customer-support-triaging.md)
 - [How To Ticket Procedure](how-to-tickets.md)
 - [Managing CS AWS](managing-cs-aws.md)
 - [Managing CS K8s](managing-cs-k8s.md)

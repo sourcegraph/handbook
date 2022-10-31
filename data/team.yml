@@ -500,7 +500,7 @@ tom_ross:
   name: Tom Ross
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_frontend_platform
+  reports_to: eng_lead
   location: York, North Yorkshire, UK 🇬🇧
   github: umpox
   email: tom@sourcegraph.com
@@ -613,27 +613,6 @@ caitlin_moran:
   links: '[LinkedIn](https://www.linkedin.com/in/caitlincarducci/)'
   description: Caitlin is married to her wife Mo and lives in Brooklyn with their dogs Henry and Onion Ring. Prior to Sourcegraph, Caitlin spent 4 years at Optimizely before starting the sales team as the first Account Executive at Radar. Outside of work Caitlin enjoys spending time with her family, riding her bike (or Peloton if there is snow on the ground!) and exploring NYC!
 
-murat_sutunc:
-  name: Murat Sutunc
-  pronouns: he/him
-  role: Engineering Manager, Growth and Integrations
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_growth
-  location: Redwood City, CA, USA 🇺🇸
-  pronunciation: '[muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
-  github: muratsu
-  email: murat@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/muratsutunc)'
-  description: Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.
-
-murat_sutunc_frontend_platform:
-  name: Murat Sutunc
-  pronouns: he/him
-  role: Engineering Manager, Frontend Platform
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_frontend_platform
-  hide_on_team_page: true
-
 jon_kishpaugh:
   name: Jon Kishpaugh
   pronouns: he/him
@@ -681,7 +660,7 @@ valery_bugakov:
   name: Valery Bugakov
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_frontend_platform
+  reports_to: eng_lead
   location: Bali, Indonesia
   github: valerybugakov
   email: valery@sourcegraph.com
@@ -726,7 +705,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_growth
+  reports_to: engineering_manager_delivery
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -1105,17 +1084,6 @@ max_wiederholt:
   links: '[LinkedIn](https://www.linkedin.com/in/maxwiederholt/), [Twitter](https://twitter.com/maxwiederholt)'
   description: "Max was born and raised in the San Francisco Bay Area. Prior to Sourcegraph, Max founded [Mischief](https://www.mischief.app/), a social network that helps anyone make a movie or TV series, then license that work to a streaming service. Max has worked on Google's developer relations team and Confluent's sales team. He graduated from UCLA with a BA in Political Science, before learning to code via [Harvard's CS50x online course](https://cs50.harvard.edu/x/2021/) and [San Jose's Coding Dojo](https://www.codingdojo.com/)."
 
-justin_boyson:
-  name: Justin Boyson
-  pronouns: He/Him
-  role: Software Engineer, Frontend
-  reports_to: engineering_manager_code_insights
-  location: Austin, TX, USA 🇺🇸
-  github: unclejustin
-  email: justin.boyson@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/justindavidboyson/)'
-  description: "Justin got his first taste of coding on a Commodore 64. He and his brother 'hacked' their Wheel of Fortune™ game replacing all the character's speech text with curse words to hilarious effect. Since then he's turned his curiosity towards more positive pursuits, most recently as a Frontend Engineer at GitLab. Justin's antics are graciously tolerated by his patient wife, three less patient dogs, and one completely impatient cat. When he's not working there is an equal chance of finding him doing some subset of the following: roasting/drinking coffee, working on his house, playing video games, playing music, napping."
-
 victoria_yunger:
   name: Victoria Yunger
   pronouns: She/Her
@@ -1188,7 +1156,7 @@ erzhan_torokulov:
   name: Erzhan Torokulov
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_growth
+  reports_to: eng_lead
   location: Bishkek, Kyrgyzstan 🇰🇬
   github: erzhtor
   email: erzhan.torokulov@sourcegraph.com
@@ -1441,6 +1409,14 @@ jeff_warner:
   links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
   description: Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
 
+jeff_warner_delivery:
+  name: Jeff Warner
+  pronouns: he/him
+  role: Engineering Manager, Delivery
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_delivery
+  hide_on_team_page: true
+
 carter_jaenichen:
   name: Carter Jaenichen
   role: Sales Development Representative
@@ -1641,7 +1617,7 @@ david_veszelovszki:
   name: David Veszelovszki
   pronunciation: '[ˈdeɪvɪd ˈveselovski](http://ipa-reader.xyz/?text=%CB%88de%C9%AAv%C9%AAd%20%CB%88veselovski&voice=Joey'
   role: Software Engineer, Growth and Integrations
-  reports_to: engineering_manager_growth
+  reports_to: eng_lead
   location: Budapest, Hungary 🇭🇺
   pronouns: he/him
   email: david.veszelovszki@sourcegraph.com
@@ -1685,7 +1661,7 @@ philipp_spiess:
   name: Philipp Spiess
   pronouns: he/him
   role: Full-Stack Engineer, Growth and Integrations
-  reports_to: engineering_manager_growth
+  reports_to: eng_lead
   location: Vienna, AT 🇦🇹
   pronunciation: '[ˈʃpiːs](http://ipa-reader.xyz/?text=%CB%88%CA%83pi%CB%90s&voice=Marlene)'
   email: philipp.spiess@sourcegraph.com
@@ -1849,7 +1825,7 @@ taras_yemets:
   github: taras-yemets
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_growth
+  reports_to: eng_lead
   location: Cherkasy, Ukraine 🇺🇦
   links: '[LinkedIn](https://www.linkedin.com/in/taras-yemets/), [GitHub](https://github.com/taras-yemets)'
   description: Taras is a software engineer hailing from Cherkasy, Ukraine 🇺🇦. Outside of work, he enjoys cycling, skiing, spending time outside with family and friends, traveling, watching movies, and sporting events.
@@ -2048,24 +2024,14 @@ becca_steinbrecher:
 laura_hacker:
   name: Laura Hacker
   pronouns: she/her
-  role: Frontend Engineer, Frontend Platform
-  reports_to: engineering_manager_frontend_platform
+  role: Software Engineer
+  reports_to: eng_lead
   location: Grand Rapids, MI, USA 🇺🇸
   github: lrhacker
   pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
-  description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
-
-jordan_bushong:
-  name: Jordan Bushong
-  role: Senior Manager Sales Development Representative
-  reports_to: head_sales_development
-  location: Saint Louis, MO, USA 🇺🇸
-  github: jbushong88
-  email: jordan.bushong@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/jordan-bushong-b0204590/)'
-  description: Jordan lives in Saint Louis, MO with his wife, two kids and four dogs. In his spare time Jordan enjoys DIY projects, hiking, rowing, chess, video games (before he had children) and going to new resteraunts.
+  description: 'Laura lives in Grand Rapids, Michigan with her husband and their cat. In addition to her computer science degree, she also spent several years studying zoology and still has plenty of random animal facts to share. Outside of work, she likes to try out different art mediums and crafts, experiment with baking new recipes, and spend time with her family and friends.'
 
 collette_tesauro:
   name: Collette Tesauro
@@ -2385,7 +2351,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: cto
+  reports_to: engineering_manager_delivery
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
@@ -2442,3 +2408,36 @@ bachi_degli_innocenti:
   github: bachidegli
   links: '[Twitter](https://twitter.com/julibachi), [LinkedIn](https://www.linkedin.com/in/julianadi/)'
   description: 'Bachi recently moved to Bariloche in Patagonia, Argentina with her wife, Dai, and her 2 cats, Oreo and Melba. If she is not geeking about social media or doing a new course, you will find her trying new recipes or playing videogames and boardgames. Prior to Sourcegraph, I was the head of social media at Auth0, and before that, she worked in agencies and videogame companies.'
+
+jacob_pleiness:
+  name: Jacob Pleiness
+  email: jacob.pleiness@sourcegraph.com
+  github: jdpleiness
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_delivery
+  location: Ann Arbor, MI, USA 🇺🇸
+  links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
+  description: 'Jacob started his career working in systems administration while getting his degree in computer science. Eventually he got tired of repetitive work and started automating more and more of his job until he became a software engineer.'
+
+ted_moskalenko:
+  name: Ted Moskalenko
+  email: ted@sourcegraph.com
+  github: tdmosk
+  pronouns: he/him
+  role: Strategic Technical Advisor
+  reports_to: vp_customer_engineering
+  location: Huntersville, NC, USA 🇺🇸
+  links: '[LinkedIn](https://linkedin.com/in/tdmosk)'
+  description: 'Ted is a technology professional with a variety of interests, including Information Security, Agile and DevOps, Data Analysis, and Business Process Management. He lives in Huntersville, NC, just north of Charlotte, with his wife and two boys. His interests include travel, food, and board games.'
+
+jon_galindo:
+  name: Jon Galindo
+  email: jon.galindo@sourcegraph.com
+  github: Galindo-J
+  pronouns: he/him
+  role: Senior Application Engineer
+  reports_to: vp_customer_engineering
+  location: Waco, TX, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/jon-galindo)'
+  description: 'Jon is a Northern California native who now lives in Central Texas with his wife and three daughters. Prior to Sourcegraph, Jon worked as a DevOps and Site Reliabilty Engineer at VMware. When not behind his computer, Jon enjoys swimming with his kids, smoking BBQ, spending too much money on trading cards, and taking mini adventures with his family.'
