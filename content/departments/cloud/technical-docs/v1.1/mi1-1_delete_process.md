@@ -4,7 +4,7 @@
 
 ## How to request
 
-1. Create a new issue using [this template](../../index##managed-instance-requests)
+1. Create a new issue using [this template](../../index.md#managed-instance-requests)
 2. Notify Cloud in [#cloud] channel and cc `@cloud-support`, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](../index.md#slas-for-managed-instances).
