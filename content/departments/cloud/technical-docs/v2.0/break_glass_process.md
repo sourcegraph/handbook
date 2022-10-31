@@ -33,7 +33,7 @@ spec:
     tfcRunsMode: cli
 ```
 
-Then run command below to generate the updated terraform modules
+Then run the command below to generate the updated terraform modules:
 
 ```sh
 mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
