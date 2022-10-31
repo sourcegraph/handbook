@@ -24,7 +24,7 @@ This means you have the following limitations:
 
 - No path to upgrade to a Business or Enterprise plan down the line (you can’t change your mind without launching a new instance)
 - No external dependencies (means no extensions!)
-- No enterprise or code intelligence platform features (SSO, access control, Batch Changes, Code Insights, Notebooks, code monitoring, code navigation, admin analytics, etc.)
+- No enterprise or code intelligence platform features (SSO, repository permissions, Batch Changes, Code Insights, Notebooks, code monitoring, code navigation, admin analytics, etc.)
 - No access to browser or IDE extensions
 - Built as a single container (limited scalability)
 
