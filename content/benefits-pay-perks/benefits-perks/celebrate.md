@@ -5,24 +5,27 @@ At Sourcegraph, we love celebrating and recognizing the events happening in our 
 ## When we send gifts to teammates
 
 The People team is responsible for sending gifts for:
+
 - New hires
 - Promotions
 - New babies
-- Company Offsites 
+- Company Offsites
 
 Managers are responsible for sending gifts for:
+
 - Birthdays
 - Work Anniversaries
-- Team Accomplishments 
+- Team Accomplishments
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday/work anniversary and it is the manager's responsibility to send a gift that is in line with the birthday budget and anniversary budgets listed below. 
+Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday/work anniversary and it is the manager's responsibility to send a gift that is in line with the birthday budget and anniversary budgets listed below.
 
 Managers are welcome to celebrate their teams’ other life events at each teammate’s discretion.Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
 
 ## How we send gifts to teammates
+
 ### Birthdays
 
-Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Best practice is to leverage [Loop & Tie]. 
+Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Best practice is to leverage [Loop & Tie].
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will post about the occasion in a Team Slack (or directly via dm) and offer a gift.
 
@@ -86,15 +89,18 @@ Managers are responsible for announcing their teammates’ promotions. The follo
   - Hi Team! I am thrilled to announce that (TEAMMATE NAME) has been promoted to (NEW TITLE)! For the past (PERIOD OF TIME), (TEAMMATE NAME) has been responsible for (PREVIOUS ROLE/RESPONSIBILITIES/ACCOMPLISHMENTS) that have resulted in (BUSINESS IMPACT/OUTCOME). Going forward, (TEAMMATE NAME) will bring (their/his/her) knowledge, skills and experience into their new role as (NEWLY PROMOTED TITLE) doing (NEWLY PROMOTED RESPONSIBILITIES). Please join me in congratulating (TEAMMATE NAME) on (their/his/her) well-deserved promotion and wish (them/him/her) best of luck in (their/him/her) new role!
 
 ### New hire kits
+
 Coming Soon!
 
 ### New babies
+
 Coming soon!
 
 ## What gifts to send
 
 ### Loop & Tie
-Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted. 
+
+Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted.
 
 Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in the #swag slack channel and a current Loop & Tie admin (Kemper or Fabiana) will invite you to create an account.
 
@@ -130,18 +136,19 @@ If you require a teammate's address to send a gift, please ask the teammate dire
 
 There are times that teammates will want to order _custom Sourcegraph swag_ for other occasions, such as a team trip or team accomplishment. Below are things to consider and steps to take to begin the ordering process. If you have any questions, please reach out in #swag in Slack.
 
-**Budget** 
+**Budget**
 The budget for additional swag (any swag besides the new hire kit) will be the responsibility of the team requesting the swag order. For example, if the Talent team is requesting custom hats for a team trip, this order will be paid for using the Talent team’s budget.
 
 Individual teams will not be responsible for finding budget for company-wide swag shipments such as product release swag (for example, the 2022 Code Insights T-shirts).
 
 **Who to reach out to**
-When you’re ready to begin an order, please fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide the following information: 
-- What is the occasion you’re ordering swag for? 
+When you’re ready to begin an order, please fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide the following information:
+
+- What is the occasion you’re ordering swag for?
 - What type of swag do you want to order (ex: hats, backpacks, etc.)
 - When do you need the swag in-hand? (We recommend starting the ordering process at least 6-8 prior to the delivery date)
 - What quantity will you need?
-- What countries will you need the swag shipped to? 
+- What countries will you need the swag shipped to?
 - Have you confirmed your team has the budget for this order?
 
 Once you’ve completed the google form, someone from the People team will connect you via email with our custom swag vendor, Telescope, who will facilitate the ordering process.
