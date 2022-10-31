@@ -343,6 +343,62 @@ Foreign-key constraints:
 
 Using this information, you can determine whether a table exists, what columns it contains, and what indexes on it exist. This allows you to determine whether a given command ran successfully. For instance, if one of the commands in a migration was `CREATE INDEX global_dep_idx_package [...]`, and you got the above output from `\d`, that would indicate that the index was successfully created. If the index wasn't present, that would indicate that the `CREATE INDEX` had not been executed, and you would need to run that statement before clearing the `dirty` flag in `schema_migrations`.
 
+#### List indexing and blocking activity
+
+If `migrator` attempts to run whilst another service has a lock on the database, the frontend will not start until the other process has completed. Anectdotally `repo-updater` can create locks that last days at a time. If the migrator is running for a long time, you can view the progress of the indexing activity by running the following activity:
+
+```
+SELECT
+  now()::TIME(0),
+  a.query,
+  p.phase,
+  --round(p.blocks_done / p.blocks_total::numeric * 100, 2) AS "% done",
+  p.blocks_total,
+  p.blocks_done,
+  p.tuples_total,
+  p.tuples_done,
+  p.lockers_done,
+  p.lockers_total,
+  p.current_locker_pid,
+  ai.schemaname,
+  ai.relname,
+  ai.indexrelname
+FROM pg_stat_progress_create_index p
+JOIN pg_stat_activity a ON p.pid = a.pid
+LEFT JOIN pg_stat_all_indexes ai on ai.relid = p.relid AND ai.indexrelid = p.index_relid;
+```
+
+To determine which service is blocking the migrator, run the following query:
+
+```
+   SELECT blocked_locks.pid     AS blocked_pid,
+         blocked_activity.usename  AS blocked_user,
+         blocking_locks.pid     AS blocking_pid,
+         blocking_activity.usename AS blocking_user,
+         blocked_activity.query    AS blocked_statement,
+         blocking_activity.query   AS current_statement_in_blocking_process,
+         blocked_activity.application_name AS blocked_application,
+         blocking_activity.application_name AS blocking_application
+   FROM  pg_catalog.pg_locks         blocked_locks
+    JOIN pg_catalog.pg_stat_activity blocked_activity  ON blocked_activity.pid = blocked_locks.pid
+    JOIN pg_catalog.pg_locks         blocking_locks
+        ON blocking_locks.locktype = blocked_locks.locktype
+        AND blocking_locks.DATABASE IS NOT DISTINCT FROM blocked_locks.DATABASE
+        AND blocking_locks.relation IS NOT DISTINCT FROM blocked_locks.relation
+        AND blocking_locks.page IS NOT DISTINCT FROM blocked_locks.page
+        AND blocking_locks.tuple IS NOT DISTINCT FROM blocked_locks.tuple
+        AND blocking_locks.virtualxid IS NOT DISTINCT FROM blocked_locks.virtualxid
+        AND blocking_locks.transactionid IS NOT DISTINCT FROM blocked_locks.transactionid
+        AND blocking_locks.classid IS NOT DISTINCT FROM blocked_locks.classid
+        AND blocking_locks.objid IS NOT DISTINCT FROM blocked_locks.objid
+        AND blocking_locks.objsubid IS NOT DISTINCT FROM blocked_locks.objsubid
+        AND blocking_locks.pid != blocked_locks.pid
+
+    JOIN pg_catalog.pg_stat_activity blocking_activity ON blocking_activity.pid = blocking_locks.pid
+   WHERE NOT blocked_locks.GRANTED;
+```
+
+
 ### Redis interactions
 
 ### Connecting to the Redis databases in production
