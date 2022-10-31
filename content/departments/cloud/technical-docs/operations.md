@@ -466,7 +466,7 @@ git prune && git fetch # check for errors
 
 ### Fix dirty database migration
 
-when `docker-compose up -d` feels like taking forever, it's a good idea to start another shell and cheeck `migrator` logs
+when `docker-compose up -d` feels like taking forever, it's a good idea to start another shell and check `migrator` logs
 
 you might see logs like:
 
