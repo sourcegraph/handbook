@@ -362,7 +362,7 @@ Sample language is available in our [Vendor Review Playbook](https://docs.google
 
 ### Do I need a Data Processing Agreement (DPA)?
 
-If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review.
+If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review. If the Vendor does not have their own DPA, you can send them Sourcegraph’s [Vendor DPA Template](https://docs.google.com/document/d/1c7hB6lyetkM9y7e5WpOy3tMS1WDwQ1KN/edit?usp=share_link&ouid=114193116257835744892&rtpof=true&sd=true).
 
 If the Vendor will have access to a Customer’s Restricted or Private Data, flag to [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or the #legal Slack channel so legal can update the subprocessor list.
 
