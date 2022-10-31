@@ -398,7 +398,6 @@ To determine which service is blocking the migrator, run the following query:
    WHERE NOT blocked_locks.GRANTED;
 ```
 
-
 ### Redis interactions
 
 ### Connecting to the Redis databases in production
