@@ -13,7 +13,7 @@ Sourcegraph's software [license](https://sourcegraph.com/github.com/sourcegraph/
 
 As described [in the open source FAQ](../../../../../company-info-and-process/community/faq.md#is-all-of-sourcegraph-open-source), users can use Sourcegraph OSS without agreeing to any enterprise licensing terms by building their own server image. If they do so, no code from our enterprise licensed features will be included in their Sourcegraph deployment.
 
-Sourcegraph OSS only includes universal code search functionality, and does not include any [code intelligence platform](https://about.sourcegraph.com/blog/code-search-to-code-intelligence) features (code navigation, Batch Changes, Code Insights, etc.). You must use Sourcegraph Enterprise to access the full code intelligence platform. 
+Sourcegraph OSS only includes universal code search functionality, and does not include any [code intelligence platform](https://about.sourcegraph.com/blog/code-search-to-code-intelligence) features (code navigation, Batch Changes, Code Insights, etc.). You must use Sourcegraph Enterprise to access the full code intelligence platform.
 
 In practice, Sourcegraph OSS involves:
 
@@ -38,14 +38,15 @@ If someone is talking to Sales or CE and says they’re using the OSS version, t
 ### Determining which new features are added to Sourcegraph OSS
 
 Sourcegraph OSS only includes core search functionality. We will only add new features to Sourcegraph OSS if both of the following are true:
+
 1. They are required for parity with open-source code search tools, and
 2. They don’t significantly reduce the differentiation of Sourcegraph Enterprise or Sourcegraph as a code intelligence platform.
 
-If you believe a feature you are working on should be added to Sourcegraph OSS or you aren't sure if your feature should be added to Sourcegraph OSS, please send a note to #pricing and the team will either approve the addition or help determine if it should be added. 
+If you believe a feature you are working on should be added to Sourcegraph OSS or you aren't sure if your feature should be added to Sourcegraph OSS, please send a note to #pricing and the team will either approve the addition or help determine if it should be added.
 
 ### Sourcegraph Enterprise
 
-Sourcegraph Enterprise includes all code intelligence platform features and is more than just inversal code search. 
+Sourcegraph Enterprise includes all code intelligence platform features and is more than just inversal code search.
 
 Most developers will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images—with or without a paid plan—are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
 
