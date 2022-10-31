@@ -477,7 +477,7 @@ migrator                         | The target schema is marked as dirty and no o
 
 It indicates a broken database migration.
 
-First, identified why migration is broken by connecting to the database `mi db proxy` and run `select * from migration_logs where id = $ID`.
+First, indentify why migration is broken by connecting to the database `mi db proxy` and run `select * from migration_logs where id = $ID`.
 
 If it feels like a flake, we can attempt to reapply the migration
 
