@@ -8,7 +8,6 @@
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
 
-
 # Where we find our candidates
 
 We identify candidates using a variety of channels.
