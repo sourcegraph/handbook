@@ -614,16 +614,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Jeff Warner"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-104.99025, 39.739235]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Dan Diemer"
             },
             "geometry": {

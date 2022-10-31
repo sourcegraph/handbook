@@ -25,6 +25,22 @@ interim_marketing_lead:
   manager_role_slug: marketing_lead
   hide_on_team_page: true
 
+interim_delivery_lead:
+  name: Quinn Slack
+  pronouns: he/him
+  role: Interim Engineering Manager, Delivery
+  reports_to: ceo
+  manager_role_slug: engineering_manager_delivery
+  hide_on_team_page: true
+
+interim_search_core_lead:
+  name: Quinn Slack
+  pronouns: he/him
+  role: Interim Engineering Manager, Search Core
+  reports_to: ceo
+  manager_role_slug: engineering_manager_search_core
+  hide_on_team_page: true
+
 beyang_liu:
   name: Beyang Liu
   role: CTO, co-founder, Board of Directors
@@ -1397,25 +1413,6 @@ varun_gandhi:
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
   description: After training as a physicist, Varun decided to take a hard left turn after being enamored by functional programming and compilers. Loving all things related to developer tools, Varun worked on the Swift compiler before joining Sourcegraph. In his spare time, Varun may be found learning a new language, watching a movie at the cinema, bopping to some kpop, or animatedly gesticulating at an Arsenal game.
-
-jeff_warner:
-  name: Jeff Warner
-  pronouns: he/him
-  role: Engineering Manager for Search Core
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_search_core
-  github: jjeffwarner
-  email: jeff.warner@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
-  description: Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
-
-jeff_warner_delivery:
-  name: Jeff Warner
-  pronouns: he/him
-  role: Engineering Manager, Delivery
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-  hide_on_team_page: true
 
 carter_jaenichen:
   name: Carter Jaenichen
