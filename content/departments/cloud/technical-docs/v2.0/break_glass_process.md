@@ -21,7 +21,7 @@ We use Terraform Cloud as a terraform state and remote execution platform using 
 
 During daily operation, human operator usually shouldn't be running terraform manually. However, this should be permited during incident.
 
-Update the `config.yaml` with the following
+Update the `config.yaml` with the following:
 
 ```yaml
 apiVersion: sourcegraph.com/v1
