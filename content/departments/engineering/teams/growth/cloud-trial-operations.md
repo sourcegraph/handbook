@@ -114,7 +114,7 @@ This will be manually triggered by `@Eric Brody-Moore` for now. See the qualific
 
 Here's how every team at Sourcegraph contributes to the trial workflow in the short term, and in the long term.
 
-## Growth marketing and SDRs
+### Growth marketing and SDRs
 
 #### Now
 
@@ -122,7 +122,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 - SDRs: see the [qualification workflow](#Trial-request-qualification-workflow)
 - When a CE call request is received through chilipiper, makes sure a CE gets assigned
 
-# Product growth
+### Product growth
 
 #### Now
 
@@ -137,14 +137,14 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 - Automate it all!
 - Also see our [broader strategy](../../../../strategy-goals/strategy/growth-team/index.md).
 
-## Customer Engineering (CE)
+### Customer Engineering (CE)
 
-### Now
+#### Now
 
 - The onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE. This is an opt-in, session to answer questions on setup / config if they have them, and offer a demo if needed. This will be booked through chilipiper, and SDRs will make sure CEs get assigned.
 - When a trial user becomes a Product Qualified Lead (PQL), it is assigned to an account executive (who will engage CE). This is the usual process for any opportunity.
 
-### Long term
+#### Long term
 
 Long term, we may create more specialised customer success roles to drive high leverage ways to help cloud trial users achieve success. This could include:
 
@@ -152,17 +152,17 @@ Long term, we may create more specialised customer success roles to drive high l
 - webinars and 1-to-many sessions
 - working with product growth to build self-serve ways to get to value, and address common issues
 
-## Customer Support (CS)
+### Customer Support (CS)
 
 - Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
 - If a user tries to join an existing instance and is blocked, they will request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
 - If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
 
-## Account Executives
+### Account Executives
 
 - Engage PQLs!
 - We **do not** engage with Cloud trials for commercial discussions, unless they're a Strategic account or are identified as PQLs
 
-## Data and Analytics
+### Data and Analytics
 
 - Maintain and/or contribute to the dashboards, data flows and both product and marketing growth iterations. See the [dashboard documentation](https://docs.google.com/document/d/1zwSu0Kyug6VIB6Pm_L5Oprt5FPH8ky8kWDLGt64ryA8/edit) for a list of dashboards and sources.
