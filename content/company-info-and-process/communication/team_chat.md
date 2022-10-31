@@ -179,7 +179,7 @@ All Product teammates should join the following channels (feel free to adjust yo
 - #design - How Sourcegraph looks visually
 - #feedback - Feedback directly from our users & customers
 - #product - Product questions, ideas, and thoughts
-- #prod-eng-announce belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
+- #eng-announce belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 
 #### Operations
 
