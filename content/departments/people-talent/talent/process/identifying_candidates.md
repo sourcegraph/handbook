@@ -17,7 +17,8 @@ We identify candidates using a variety of channels.
 If you are a Sourcegraph teammate and you receive an email and/or resume from a prospective candidate, please forward to recruiting@sourcegraph.com - the Talent Team will take it from there!
 
 - **Talent team actions:**
-  - Connect with the candidate on LinkedIn to introduce yourself, share our [careers page](https://about.sourcegraph.com/jobs), and invite the candidate to reach out directly if they have any questions about an open role.
+  - Confirm whether any of our current open roles might be a fit
+  - Connect with the candidate on LinkedIn to introduce yourself, share our [careers page](https://about.sourcegraph.com/jobs), and invite the candidate to either apply to one of our open roles, or reach out directly if they have any questions about an open role in the future.
   - Add the candidate to our Greenhouse talent community (This sends an automated message that says we’ve received their interest and will be in touch should a relevant role come up).
 
 ### Inbound applicants from our postings
