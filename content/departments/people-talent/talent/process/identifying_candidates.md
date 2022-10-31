@@ -8,9 +8,18 @@
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
 
+
 # Where we find our candidates
 
-We identify candidates using a variety of channels:
+We identify candidates using a variety of channels.
+
+### Inbound inquiries
+
+If you are a Sourcegraph teammate and you receive an email and/or resume from a prospective candidate, please forward to recruiting@sourcegraph.com - the Talent Team will take it from there!
+
+- **Talent team actions:**
+  - Connect with the candidate on LinkedIn to introduce yourself, share our [careers page](https://about.sourcegraph.com/jobs), and invite the candidate to reach out directly if they have any questions about an open role.
+  - Add the candidate to our Greenhouse talent community (This sends an automated message that says we’ve received their interest and will be in touch should a relevant role come up).
 
 ### Inbound applicants from our postings
 
