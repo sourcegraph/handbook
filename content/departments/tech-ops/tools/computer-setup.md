@@ -13,7 +13,7 @@
 
 Company data is any personal, confidential, or sensitive teammate or client information. This would include (but is not limited to): customer data and metadata, Sourcegraph IP, audit logs, security incidents, contracts, personal information about clients or teammates, and internal communications, such as email and Slack. You can more about this in our [Data management policy](../../../company-info-and-process/policies/index.md).
 
-We are currently improving our Acceptable Use Policy, which will give further details on data handling expectations and device usage, such as use of mobile phones/tablets. You may continue to access Gmail, calendar, Zoom, and Slack on your mobile device as long as it is password protected, screen lock enabled, updated with the latest software, and is not jailbroken.
+We are currently improving our Acceptable Use Policy, which will give further details on data handling expectations and device usage, such as use of mobile phones/tablets. Access is limited to Gmail, Calendar, Zoom, Slack, and Airbase on your mobile device, which must be password protected, screen lock enabled, updated with the latest software, and not jailbroken.
 
 ## Setting up your computer
 
