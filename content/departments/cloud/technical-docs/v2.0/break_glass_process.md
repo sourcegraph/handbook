@@ -39,7 +39,7 @@ Then run command below to generate the updated terraform modules
 mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-This will configure the TFC workspaces to the [CLI-driven] model and permit human operator to execute terraform locally.
+This will configure the TFC workspaces to the [CLI-driven] model and permit a human operator to execute terraform locally:
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
