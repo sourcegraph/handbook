@@ -88,8 +88,9 @@ Managers are responsible for announcing their teammates’ promotions. The follo
 
 ## New hire kits
 
-Our People team is responsible for new hire gifts and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk based on the anticipated hiring rate and monitors/reorders the inventory as needed. 
-What is in a welcome kit?: 
+Our People team is responsible for new hire gifts and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk based on the anticipated hiring rate and monitors/reorders the inventory as needed.
+What is in a welcome kit?:
+
 - Hoodie
 - Socks
 - Stickers
@@ -97,7 +98,8 @@ What is in a welcome kit?:
 - T-Shirt
 
 ### How to order a new hire kit
-After the offer letter has been signed, the People team will email the new hire instructions to order their new hire welcome kit. The new hire is responsible for submitting an order, which will then be fulfilled using inventory that we have in stock with Telescope. 
+
+After the offer letter has been signed, the People team will email the new hire instructions to order their new hire welcome kit. The new hire is responsible for submitting an order, which will then be fulfilled using inventory that we have in stock with Telescope.
 
 Once the order has been submitted, the new hire will get an email with delivery details and our vendor will ship the kit. New hires will not be responsible for any costs associated with their welcome kit. If there are any fees associated with customs, the new hire can expense the amount once they've started at Sourcegraph.
 
@@ -105,9 +107,10 @@ Please reach out in the #swag channel with any questions.
 
 ## New babies
 
-Our People team is responsible for sending new baby gits and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk and monitors/reorders the inventory as needed. 
+Our People team is responsible for sending new baby gits and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk and monitors/reorders the inventory as needed.
 
-What is included? 
+What is included?
+
 - Onesie
 - Bib
 - Towel
