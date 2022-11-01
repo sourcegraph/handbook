@@ -71,35 +71,53 @@ export VERSION=3.40.0
 
 #### Automated Upgrade (recommended)
 
-```sh
-gh workflow run mi_upgrade.yml -f customer=$CUSTOMER -f version=$VERSION
-```
-
-Follow the notification in #cloud-notifications.
-
-Command can be generated using `mi` as well, which will list commands for instances that are not yet upgraded:
+Using `mi` you can generate commands to trigger automated upgrades for instances that are not yet upgraded:
 
 ```sh
+# For trial instances
 mi workflow upgrade -target $VERSION -instance-type=trial
+# For customer instances
 mi workflow upgrade -target $VERSION -instance-type=production
 ```
 
-The above commands can then be run in bulk.
+> NOTE: To explicitly trigger a single upgrade, the generated command is effectively:
+>
+> `gh workflow run mi_upgrade.yml -f customer=$CUSTOMER -f version=$VERSION`
+
+The generated commands can then be run in bulk, and you can check #cloud-notifications for the results of each workflow run, or using `gh`:
+
+```sh
+gh run list --workflow=mi_upgrade.yml
+```
 
 > NOTE: You should not upgrade more than 5 instances at a time.
 
-If the upgrade succeeds, followed the instruction in the generated PR, and follow the steps below to trigger CI check in order to merge the PR:
+To review currently open PRs for successful instance upgrades using `gh`:
 
-- close PR
-- delete branch
-- restore the branch
-- re-open the PR
+```sh
+# Sanity check to see that the PRs correspond to instances you have upgraded
+gh pr list --label 'mi-upgrade'
 
-Alternatively, simply updating the branch via the PR prompt will also trigger CI checks.
+# Save the list of PRs you are going to work with
+gh pr list --label 'mi-upgrade' --json number --jq '.[].number' > upgrade-prs.txt
 
-Finally, update the tracking issue
+# Review the test plan of each PR (press 'q' to review the next one)
+cat upgrade-prs.txt | xargs -n1 gh pr view
+```
 
-If the upgrade fail, follow the logs and figure out which step went wrong, then follow the [manual upgrade](#manual-upgrade-deprecated) to finish the upgrade.
+If an upgrade fails, follow the logs and figure out which step went wrong, then follow the [manual upgrade](#manual-upgrade-deprecated) to finish the upgrade.
+
+If all is well, approve and merge each instance upgrade:
+
+```sh
+# Approve each PR
+cat upgrade-prs.txt | xargs -n1 gh pr review --approve
+
+# Merge each PR
+cat upgrade-prs.txt | xargs -n1 gh pr merge --squash
+```
+
+Finally, update the tracking issue.
 
 #### Manual Upgrade (deprecated)
 
