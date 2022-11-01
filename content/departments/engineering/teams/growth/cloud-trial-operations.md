@@ -16,6 +16,95 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 Here's how every team at Sourcegraph contributes to the trial workflow in the short term, and in the long term. If you want to jump to the details of the piepeline, jump to [workflow](#workflow).
 
+### Rules of engagement overview
+
+See below the tables for more details on specific processes. 
+
+**User/prospect is not a paying customer**
+
+<table>
+  <tr>
+   <td>
+   </td>
+   <td>Sales
+   </td>
+   <td>CE
+   </td>
+   <td>Product (automation)
+   </td>
+  </tr>
+  <tr>
+   <td>User requests a trial
+   </td>
+   <td>SDR helps qualify (if necessary)
+   </td>
+   <td>n/a
+   </td>
+   <td>Qualifies and initiates instance (if applicable)
+   </td>
+  </tr>
+  <tr>
+   <td>Accessing and onboarding to trial
+   </td>
+   <td>n/a (but are notified if their account has requested a trial)
+   </td>
+   <td>n/a (but are notified if their account has requested a trial)
+   </td>
+   <td>Sends credentials and starts drip email sequence
+   </td>
+  </tr>
+  <tr>
+   <td>Requests help
+   </td>
+   <td>n/a
+   </td>
+   <td>Technical setup and implementation (no selling)
+   </td>
+   <td>Option to go to docs/Discord for help
+   </td>
+  </tr>
+  <tr>
+   <td>Using product
+   </td>
+   <td>n/a
+   </td>
+   <td>n/a
+   </td>
+   <td>n/a
+   </td>
+  </tr>
+  <tr>
+   <td>PQLs
+   </td>
+   <td>AE outreach as a sales opportunity
+   </td>
+   <td>Paired with AE on opportunity
+   </td>
+   <td>n/a
+   </td>
+  </tr>
+  <tr>
+   <td>Trial approaches end
+   </td>
+   <td>n/a
+   </td>
+   <td>n/a
+   </td>
+   <td>Termination warning
+<p>
+Feedback email
+   </td>
+  </tr>
+</table>
+
+**If the user is from a paying customer and requests an instance** 
+
+|                      | Sales                                                                      | CE  | Product (automation)                 |   |
+|----------------------|----------------------------------------------------------------------------|-----|--------------------------------------|---|
+| Customer is on-prem  | SDR approves for cloud, but AE can gauge user intent and whether to engage | n/a | Normal workflow                      |   |
+| Customer is on Cloud | n/a                                                                        | n/a | Redirects to existing cloud instance |   |
+|                      |                                                                            |     |                                      |   |
+
 ### Growth marketing and SDRs
 
 #### Now
@@ -56,7 +145,7 @@ Long term, we may create more specialised customer success roles to drive high l
 
 ### Customer Support (CS)
 
-- Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
+- Cloud trial users that encounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
 - If a user tries to join an existing instance and is blocked, they will request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
 - If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
 
