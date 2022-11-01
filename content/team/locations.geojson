@@ -614,16 +614,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Jeff Warner"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-104.99025, 39.739235]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Dan Diemer"
             },
             "geometry": {
@@ -889,6 +879,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-77.084747, 38.890759]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ted Moskalenko"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.848991, 35.410561]
             }
         }
     ]

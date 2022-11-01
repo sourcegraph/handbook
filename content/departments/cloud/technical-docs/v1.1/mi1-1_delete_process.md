@@ -4,8 +4,8 @@
 
 ## How to request
 
-1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
-2. Notify Cloud in [#cloud] channel, linking to the issue
+1. Create a new issue using [this template](../../index.md#managed-instance-requests)
+2. Notify Cloud in [#cloud] channel and cc `@cloud-support`, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](../index.md#slas-for-managed-instances).
 

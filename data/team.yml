@@ -25,6 +25,22 @@ interim_marketing_lead:
   manager_role_slug: marketing_lead
   hide_on_team_page: true
 
+interim_delivery_lead:
+  name: Quinn Slack
+  pronouns: he/him
+  role: Interim Engineering Manager, Delivery
+  reports_to: ceo
+  manager_role_slug: engineering_manager_delivery
+  hide_on_team_page: true
+
+interim_search_core_lead:
+  name: Quinn Slack
+  pronouns: he/him
+  role: Interim Engineering Manager, Search Core
+  reports_to: ceo
+  manager_role_slug: engineering_manager_search_core
+  hide_on_team_page: true
+
 beyang_liu:
   name: Beyang Liu
   role: CTO, co-founder, Board of Directors
@@ -724,15 +740,6 @@ stompy_mwendwa:
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stompy-mwendwa)'
   description: "Stompy is from the Pride of Africa and previously worked in customer success roles prior to joining Sourcegraph. He is a CS graduate and fell in with computers playing around with MS-DOS in the mid-90s. Stompy loves helping people achieve their goals and is a staunch believer of the Swahili proverb: Kusaidia ni moyo wala si utajiri' - Helping is of the heart, not of the pocket. When he's not working, he loves hopping onto motorcycles and going on adventures, watching/playing basketball(Go Lakers!), playing video games, listening to hip-hop and going out to eat."
 
-sam_cregg:
-  name: Sam Cregg
-  role: Sales Development Rep
-  reports_to: head_sales_development
-  location: Boston, MA, USA USA
-  email: samcregg@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/sam-cregg/)'
-  description: Sam enjoys golfing, boating and being outdoors. Prior to Sourcegraph, Sam worked at IBM in a variety of sales roles including Hybrid Cloud, IoT and Blockchain. He loves to travel and hopes to do more in the coming years. He is a big Boston sports fan who is orginally from Topsfield, MA but now lives in the North End of Boston.
-
 indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
@@ -909,24 +916,13 @@ trevor_houghton:
 kevin_quigley:
   name: Kevin Quigley
   pronouns: he/him
-  role: Sales Development Rep
-  reports_to: head_sales_development
+  role: Account Executive
+  reports_to: regional_director_sales_east
   location: Atlanta, GA, USA 🇺🇸
   github: kevin-quigley
   email: kevin.quigley@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/kevinquigley18/)'
   description: Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
-
-brady_herrmann:
-  name: Brady Herrmann
-  pronouns: he/him
-  role: Enterprise Account Executive
-  reports_to: regional_director_sales_east
-  location: Chicago, IL, USA 🇺🇸
-  github: brherrma
-  email: brady@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/bradyherrmann/)'
-  description: "Brady has spent the majority of his career working for developer centric companies and has a passion for selling solutions that allow developers to build better. He grew up in Indianapolis, but has since lived in Denver, Washington DC, Maryland, and now resides in the northern suburbs of Chicago with his wife (Kali), 1-year old daughter (Noa), and two black lab mixes (Henry and Luna). His passions outside of work include hiking, camping, skiing, live music and traveling (Peru, SE Asia, the Amalfi Coast, and Switzerland being some of the favorite places he's visited). He's a big fan of karaoke (he's been known to do an above average rendition of Sister Christian with his wife), college basketball (Go Boilers) and is currently in the market for an alto saxophone to get back to his playing days."
 
 nicky_van_maanen:
   name: Nicky Van Maanen
@@ -1397,25 +1393,6 @@ varun_gandhi:
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
   description: After training as a physicist, Varun decided to take a hard left turn after being enamored by functional programming and compilers. Loving all things related to developer tools, Varun worked on the Swift compiler before joining Sourcegraph. In his spare time, Varun may be found learning a new language, watching a movie at the cinema, bopping to some kpop, or animatedly gesticulating at an Arsenal game.
-
-jeff_warner:
-  name: Jeff Warner
-  pronouns: he/him
-  role: Engineering Manager for Search Core
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_search_core
-  github: jjeffwarner
-  email: jeff.warner@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
-  description: Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
-
-jeff_warner_delivery:
-  name: Jeff Warner
-  pronouns: he/him
-  role: Engineering Manager, Delivery
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-  hide_on_team_page: true
 
 carter_jaenichen:
   name: Carter Jaenichen
@@ -2419,3 +2396,25 @@ jacob_pleiness:
   location: Ann Arbor, MI, USA 🇺🇸
   links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
   description: 'Jacob started his career working in systems administration while getting his degree in computer science. Eventually he got tired of repetitive work and started automating more and more of his job until he became a software engineer.'
+
+ted_moskalenko:
+  name: Ted Moskalenko
+  email: ted@sourcegraph.com
+  github: tdmosk
+  pronouns: he/him
+  role: Strategic Technical Advisor
+  reports_to: vp_customer_engineering
+  location: Huntersville, NC, USA 🇺🇸
+  links: '[LinkedIn](https://linkedin.com/in/tdmosk)'
+  description: 'Ted is a technology professional with a variety of interests, including Information Security, Agile and DevOps, Data Analysis, and Business Process Management. He lives in Huntersville, NC, just north of Charlotte, with his wife and two boys. His interests include travel, food, and board games.'
+
+jon_galindo:
+  name: Jon Galindo
+  email: jon.galindo@sourcegraph.com
+  github: Galindo-J
+  pronouns: he/him
+  role: Senior Application Engineer
+  reports_to: vp_customer_engineering
+  location: Waco, TX, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/jon-galindo)'
+  description: 'Jon is a Northern California native who now lives in Central Texas with his wife and three daughters. Prior to Sourcegraph, Jon worked as a DevOps and Site Reliabilty Engineer at VMware. When not behind his computer, Jon enjoys swimming with his kids, smoking BBQ, spending too much money on trading cards, and taking mini adventures with his family.'

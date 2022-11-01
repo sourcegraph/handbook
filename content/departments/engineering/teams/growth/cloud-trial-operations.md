@@ -2,6 +2,8 @@
 
 From 2022-09-27, Sourcegraph Cloud will be the default way of deploying Sourcegraph. All the call to actions (CTAs) on Sourcegraph sites and posts will let users request a 30-day cloud trial. This page describes the workflow and expectations from each team to make sure those trial users get a great experience. It also describes what the role of each team will be in the longer term.
 
+**Note: this page is only for trials that come in inbound through signup.sourcegraph.com. Trials requested directly by Customer Engineers are not affected.**
+
 ## Context
 
 Cloud is the default way of deploying Souregraph, but there are some limits to delivering a cloud trial instance today.
@@ -9,6 +11,63 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 - There is a cap on the number of instances we can managed at any given time ([SLA](../../../cloud/index.md#slas-for-managed-instances)). Therefore, when someone requests an instance, we have to qualify them to make sure that we have capacity and that a cloud instance is the best option to meet their needs.
 - Cloud instances take some time to provision ([SLA](../../../cloud/index.md#slas-for-managed-instances)), that makes it so signing up for a cloud instance is not instant.
 - The workflow for qualifying a user that requests a trial instance, provisioning the instance, handing it off to the requesting user, and helping them onboard is very manual. This last bit will be automated in the short term (next few months).
+
+## Expectations from stakeholders
+
+Here's how every team at Sourcegraph contributes to the trial workflow in the short term, and in the long term. If you want to jump to the details of the piepeline, jump to [workflow](#workflow).
+
+### Growth marketing and SDRs
+
+#### Now
+
+- Drive qualified traffic to the signup page
+- SDRs: see the [qualification workflow](#Trial-request-qualification-workflow)
+- When a CE call request is received through chilipiper, makes sure a CE gets assigned
+
+### Product growth
+
+#### Now
+
+- After a cloud instance trial request is qualified, raise instance provisioning requests to the cloud team
+- When the instance is provisioned, hand it off to the user and make sure they can get started
+- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md#cloud-trial-managed-instances) the trial
+- monitor metrics for product qualified leads (PQLs)
+- (those are just operational tasks, the product growth team is also working on its usual produc team stuff)
+
+#### Long term
+
+- Automate it all!
+- Also see our [broader strategy](../../../../strategy-goals/strategy/growth-team/index.md).
+
+### Customer Engineering (CE)
+
+#### Now
+
+- The onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE. This is an opt-in, session to answer questions on setup / config if they have them, and offer a demo if needed. This will be booked through chilipiper, and SDRs will make sure CEs get assigned.
+- When a trial user becomes a Product Qualified Lead (PQL), it is assigned to an account executive (who will engage CE). This is the usual process for any opportunity.
+
+#### Long term
+
+Long term, we may create more specialised customer success roles to drive high leverage ways to help cloud trial users achieve success. This could include:
+
+- checking-in with trial users regularly
+- webinars and 1-to-many sessions
+- working with product growth to build self-serve ways to get to value, and address common issues
+
+### Customer Support (CS)
+
+- Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
+- If a user tries to join an existing instance and is blocked, they will request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
+- If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
+
+### Account Executives
+
+- Engage PQLs!
+- We **do not** engage with Cloud trials for commercial discussions, unless they're a Strategic account or are identified as PQLs
+
+### Data and Analytics
+
+- Maintain and/or contribute to the dashboards, data flows and both product and marketing growth iterations. See the [dashboard documentation](https://docs.google.com/document/d/1zwSu0Kyug6VIB6Pm_L5Oprt5FPH8ky8kWDLGt64ryA8/edit) for a list of dashboards and sources.
 
 ## Workflow
 
@@ -106,60 +165,3 @@ There is a [database query](https://console.cloud.google.com/bigquery/scheduled-
 - the inbound SDR that owns the lead will create a #cloud-trial-companyname channel, if it doesn't exist yet, and add the AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec.
 
 This will be manually triggered by `@Eric Brody-Moore` for now. See the qualification [here](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.qsm8u5uvpib8).
-
-## Expectations from stakeholders
-
-Here's how every team at Sourcegraph contributes to the trial workflow in the short term, and in the long term.
-
-## Growth marketing and SDRs
-
-#### Now
-
-- Drive qualified traffic to the signup page
-- SDRs: see the [qualification workflow](#Trial-request-qualification-workflow)
-- When a CE call request is received through chilipiper, makes sure a CE gets assigned
-
-# Product growth
-
-#### Now
-
-- After a cloud instance trial request is qualified, raise instance provisioning requests to the cloud team
-- When the instance is provisioned, hand it off to the user and make sure they can get started
-- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md#cloud-trial-managed-instances) the trial
-- monitor metrics for product qualified leads (PQLs)
-- (those are just operational tasks, the product growth team is also working on its usual produc team stuff)
-
-#### Long term
-
-- Automate it all!
-- Also see our [broader strategy](../../../../strategy-goals/strategy/growth-team/index.md).
-
-## Customer Engineering (CE)
-
-### Now
-
-- The onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE. This is an opt-in, session to answer questions on setup / config if they have them, and offer a demo if needed. This will be booked through chilipiper, and SDRs will make sure CEs get assigned.
-- When a trial user becomes a Product Qualified Lead (PQL), it is assigned to an account executive (who will engage CE). This is the usual process for any opportunity.
-
-### Long term
-
-Long term, we may create more specialised customer success roles to drive high leverage ways to help cloud trial users achieve success. This could include:
-
-- checking-in with trial users regularly
-- webinars and 1-to-many sessions
-- working with product growth to build self-serve ways to get to value, and address common issues
-
-## Customer Support (CS)
-
-- Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
-- If a user tries to join an existing instance and is blocked, they will request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
-- If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
-
-## Account Executives
-
-- Engage PQLs!
-- We **do not** engage with Cloud trials for commercial discussions, unless they're a Strategic account or are identified as PQLs
-
-## Data and Analytics
-
-- Maintain and/or contribute to the dashboards, data flows and both product and marketing growth iterations. See the [dashboard documentation](https://docs.google.com/document/d/1zwSu0Kyug6VIB6Pm_L5Oprt5FPH8ky8kWDLGt64ryA8/edit) for a list of dashboards and sources.
