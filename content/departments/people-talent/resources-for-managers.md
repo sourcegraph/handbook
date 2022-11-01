@@ -47,7 +47,6 @@
 ## Manager processes
 
 - Management training
-- [How to promote someone](people-ops/process/promotion.md)
 - BambooHR
   - How to run a report
   - [Requesting changes in BambooHR (compensation, role, spot bonuses)](people-ops/process/compensation-and-leveling/compensation-role-changes.md)

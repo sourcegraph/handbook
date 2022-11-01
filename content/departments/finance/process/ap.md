@@ -108,6 +108,8 @@ If the vendor will receive any personal data from us, ask for the vendor's DPA. 
 
 ###### What if the vendor asks us to provide a DPA?
 
+We prefer to use the vendor’s DPA, as it will be more applicable to the way they process and secure personal data. However, Sourcegraph does have a template for vendors that do not have their own.
+
 You can let the vendor know:
 
 > Given that you will process personal data, we will require a data processing agreement (DPA). A DPA should include your organization's technical & organizational security measures reflecting how you protect the personal data you receive from us. If you don't have one, will you reach out to your law firm to get one?

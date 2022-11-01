@@ -1,6 +1,8 @@
-# Restore a managed instance v2.0 when it is completely gone
+# Restoring a Cloud instance
 
 <span class="badge badge-note">SOC2/CI-110</span>
+
+Follow [break glass process](./break_glass_process.md) to ensure you have the proper access to perform this playbook.
 
 ## Restoring Cloud SQL
 
@@ -44,59 +46,75 @@ Use cases (tested scenarios):
 - single application was deleted
 - PV from single application was deleted
 
-### How GKE backup/restore works
-
 Backup and restore uses [native GKE mechanism](https://cloud.google.com/kubernetes-engine/docs/add-on/backup-for-gke/concepts/backup-for-gke).
 
-> NOTE: **IMPORTANT** Backup has to be enabled during [creation process](./creation_process.md#enable-backup)
+1. [List available backups](#list-backups)
+1. Assess the damage
+   1. [GKE cluster is gone](#restore-cluster-and-applications)
+   1. [The namespace is gone](#restore-the-full-namespace)
+   1. [Stateful services is corrupted or PV/PVC/disk is gone](#restore-statefull-application-from-disk-backup)
+   1. [Missing stateless deployment](#restore-stateless-application)
+   1. [Missing stateful services deploymnet](#restore-statefull-application-with-empty-disk)
 
-1. List backups
+### List backups
 
 ```sh
 mi2 instance backup list --slug $SLUG -e $ENVIRONMENT
 ```
 
-2. Assess what is deleted:
+note the backup name, you will need it later.
 
-- if GKE cluster - restore cluster and applications
+### Restore cluster and applications from backup
+
+> WARNING: this will spin up a new GKE cluster and replace it with the previous backup
 
 ```sh
 cd sourcegraph/cloud
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
 terraform init
 terraform apply
-export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
-gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
+mi2 workon -e $ENVIRONMENT --slug $SLUG
 cd sourcegraph/cloud
-mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
+mi2 instance restore create --backup-name $BACKUP_NAME --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
 ```
 
-- if namespace - restore full namespace
+### Restore the full namespace
+
+> WARNING: this will restore both application statue and disk to the state of backup
 
 ```sh
 cd sourcegraph/cloud
 mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
 ```
 
-- if single stateless application (i.e. frontend)
+### Restore stateless application
+
+e.g. `sourcegraph-frontend`
+
+> WARNING: make sure no disk or statefulset application is deleted, or we will risk data loss
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
-- if single statefull application (i.e. gitserver, zoekt) - restore with empty disk
+### Restore statefull application from disk backup
 
-Note: this assumes deletion of StatefulSet and/or application PVC/PV. GCP will create new empty disk and attach it.
+e.g. `gitserver`, `zoekt`
+
+```sh
+cd sourcegraph/cloud
+mi2 instance restore create --backup-name $BACKUP_NAME --restore-type [gitserver|indexed-search] --slug $SLUG -e $ENVIRONMENT
+```
+
+### Restore statefull application with empty disk
+
+e.g. `gitserver`, `zoekt`
+
+> WARNING: this assumes deletion of StatefulSet and/or application PVC/PV. GCP will create new empty disk and attach it.
+> You probally want to [restore with disk backup](#restore-statefull-application-with-disk-restore)
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
-```
-
-- if single statefull application (i.e. gitserver, zoekt) - restore with disk
-
-```sh
-cd sourcegraph/cloud
-mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type [gitserver|indexed-search] --slug $SLUG -e $ENVIRONMENT
 ```
