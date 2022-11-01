@@ -44,6 +44,12 @@ Sourcegraph OSS only includes core search functionality. We will only add new fe
 
 If you believe a feature you are working on should be added to Sourcegraph OSS or you aren't sure if your feature should be added to Sourcegraph OSS, please send a note to #pricing and the team will either approve the addition or help determine if it should be added.
 
+Example: Search aggregations powered by Code Insights 
+1. No other open-source code search tools provide this functionality, and
+2. This functionality does reduce the differentation between Sourcegraph Enterprise and Sourcegraph OSS.
+
+Recommendation: Search aggregations should not be added to Sourcegraph OSS. 
+
 ### Sourcegraph Enterprise
 
 Sourcegraph Enterprise includes all code intelligence platform features and is more than just universal code search.
