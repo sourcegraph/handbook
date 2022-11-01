@@ -21,9 +21,7 @@ Managers will receive an email reminder from BambooHR when one of their direct r
 
 Managers are welcome to celebrate their teams’ other life events at each teammate’s discretion.Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
 
-## How we send gifts to teammates
-
-### Birthdays
+## Birthdays
 
 Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Best practice is to leverage [Loop & Tie].
 
@@ -46,11 +44,11 @@ To view and add the BambooHR "Birthdays" calendar to your Google Calendar, pleas
 - Paste link in **URL of calendar** box
 - Click **Add calendar**.
 
-#### Birthday gift budget
+### Birthday gift budget
 
 Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
-### Work anniversaries:
+## Work anniversaries:
 
 Each manager is responsible for celebrating their teammates' yearly milestones and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Best practice is to leverage [Loop & Tie]. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
 
@@ -63,7 +61,7 @@ Each manager is responsible for celebrating their teammates' yearly milestones a
   - TIP: You can pre-schedule your Slack messages to send on the correct dates!
 - The manager [sends a gift](#how-to-send-a-gift) within the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
 
-#### Anniversary gift budget
+### Anniversary gift budget
 
 Anniversary gifts should not exceed the following amounts per teammate and per year:
 
@@ -73,7 +71,7 @@ Anniversary gifts should not exceed the following amounts per teammate and per y
 - Year 4: $200 USD
 - Year 5+: $250 USD
 
-### Promotions
+## Promotions
 
 At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, we encourage Managers to share the news broadly to recognize their teammates’ accomplishments!
 
@@ -88,15 +86,34 @@ Managers are responsible for announcing their teammates’ promotions. The follo
 - Sample Slack message:
   - Hi Team! I am thrilled to announce that (TEAMMATE NAME) has been promoted to (NEW TITLE)! For the past (PERIOD OF TIME), (TEAMMATE NAME) has been responsible for (PREVIOUS ROLE/RESPONSIBILITIES/ACCOMPLISHMENTS) that have resulted in (BUSINESS IMPACT/OUTCOME). Going forward, (TEAMMATE NAME) will bring (their/his/her) knowledge, skills and experience into their new role as (NEWLY PROMOTED TITLE) doing (NEWLY PROMOTED RESPONSIBILITIES). Please join me in congratulating (TEAMMATE NAME) on (their/his/her) well-deserved promotion and wish (them/him/her) best of luck in (their/him/her) new role!
 
-### New hire kits
+## New hire kits
 
-Coming Soon!
+Our People team is responsible for new hire gifts and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk based on the anticipated hiring rate and monitors/reorders the inventory as needed. 
+What is in a welcome kit?: 
+- Hoodie
+- Socks
+- Stickers
+- Tumbler
+- T-Shirt
 
-### New babies
+### How to order a new hire kit
+After the offer letter has been signed, the People team will email the new hire instructions to order their new hire welcome kit. The new hire is responsible for submitting an order, which will then be fulfilled using inventory that we have in stock with Telescope. 
 
-Coming soon!
+Once the order has been submitted, the new hire will get an email with delivery details and our vendor will ship the kit. New hires will not be responsible for any costs associated with their welcome kit. If there are any fees associated with customs, the new hire can expense the amount once they've started at Sourcegraph.
 
-## What gifts to send
+Please reach out in the #swag channel with any questions.
+
+## New babies
+
+Our People team is responsible for sending new baby gits and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk and monitors/reorders the inventory as needed. 
+
+What is included? 
+- Onesie
+- Bib
+- Towel
+- [Coding ABC’s book](https://about.sourcegraph.com/resources/abcs-book)
+
+## What gifts to send for birthdays + work anniversaries
 
 ### Loop & Tie
 
@@ -130,7 +147,7 @@ If you don't want to use Loop & Tie, here are some other gift ideas!
 
 If you require a teammate's address to send a gift, please ask the teammate directly if they are comfortable sharing their address for gift purposes. (While People Ops and managers do have access to address information, it is considered confidential and just as with other information of sensitive nature, we are unable to share it as with others).
 
-## Branded swag
+## Other branded swag
 
 ### Custom internal requests:
 
