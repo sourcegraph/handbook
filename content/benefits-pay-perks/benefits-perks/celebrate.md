@@ -154,7 +154,7 @@ When you’re ready to begin an order, please fill out [this google form](https:
 Once you’ve completed the google form, someone from the People team will connect you via email with our custom swag vendor, Telescope, who will facilitate the ordering process.
 
 Brand Guidelines
-When designing custom swag, please follow our [brand guidelines](https://handbook.sourcegraph.com/departments/marketing/brand/brand_guidelines/) and run any mock-ups past the [brand team](https://handbook.sourcegraph.com/departments/marketing/brand/#the-team) if you have any questions.
+When designing custom swag, please follow our [brand guidelines] and run any mock-ups past the [brand team] if you have any questions.
 
 ### External requests:
 
