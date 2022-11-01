@@ -241,6 +241,30 @@ For this interview we want to give candidates an opportunity to learn about our 
 
 For this interview, you'll meet with several members of the team to lead a live product demonstration.
 
+### Enterprise Technical Advisor Leadership Panel Interview
+
+The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios.
+
+The prompt and instructions below will help you prepare for this session. The interview itself will run for 60 mins: 50 mins for the interview content (agenda driven by you) with 10 mins of general Q&A at the very end. Each prompt should last approximately 12 mins. The agenda of the meeting will run as follows:
+
+* 0-2 mins: Intros
+* 2-14 mins: Prompt 1
+* 14-26 mins: Prompt 2
+* 26-38 mins: Prompt 3
+* 38-50 mins: Prompt 4
+* 50-60 mins: Feedback and Q&A
+
+**Note:** Keeping the timing of the interview is your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. Visual aids are recommended, but not required, to help keep the conversation on track. 
+
+**Interview Prompts**
+
+A summary of the 4 prompts are provided below:
+
+1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do?
+2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets?
+3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why. 
+4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential? 
+
 ## Customer Engineering (Leadership)
 
 ### Hiring Manager Screen
