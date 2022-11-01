@@ -46,9 +46,9 @@ To view and add the BambooHR "Birthdays" calendar to your Google Calendar, pleas
 
 ### Birthday gift budget
 
-Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+Birthday gifts will be coming from the individual's _team budget_ and should not exceed **$50 USD** _per teammate_ and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
-## Work anniversaries:
+## Work anniversaries
 
 Each manager is responsible for celebrating their teammates' yearly milestones and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Best practice is to leverage [Loop & Tie]. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
 
@@ -63,7 +63,7 @@ Each manager is responsible for celebrating their teammates' yearly milestones a
 
 ### Anniversary gift budget
 
-Anniversary gifts should not exceed the following amounts per teammate and per year:
+Anniversary gifts will be coming from the individual's _team budget_ and should not exceed the following amounts per teammate and per year:
 
 - Year 1: $50 USD
 - Year 2: $75 USD
@@ -126,8 +126,7 @@ Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie a
 
 Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
 
-**Managers are expected to add their own credits to their Loop & Tie account using a credit card that is associated with their team's budget.**
-When you're placing an order, you will see under 'Your Payment Method,' an option to select 'Add Payment Method.' This will prompt you to enter your credit card information like any other online checkout.
+**Budget:** All birthday and anniversary gifting will be coming from the _individual’s team budget_. When you’re sending a Loop&Tie gift, you will use the company card on file. Then the People + Finance team will reclass the charges into the correct team budgets on a monthly cadence.
 
 Loop & Tie FAQS:
 
