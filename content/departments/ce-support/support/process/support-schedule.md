@@ -21,8 +21,6 @@ Our schedule is reflected in the working hours set in our calendars.
 | Stompy      | 1pm–9pm        | 10:00–19:00 | 2am–10am      |
 | Warren      | 9am–5pm        | 17:00–01:00 | 9am–5pm       |
 | Shawnteé    | 8am–4pm        | 14:00–22:00 | 6am–2pm       |
-| Brielle     | 9am–5pm        | 15:00–23:00 | 7am–3pm       |
-| Nonso       | 9am–5pm        | 09:00–17:00 | 12am–8am      |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
