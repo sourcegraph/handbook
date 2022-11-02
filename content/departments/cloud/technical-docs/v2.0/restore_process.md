@@ -17,16 +17,10 @@ Use cases:
 
 The restoration process will be performed with `gcloud`. Learn more about [why not terraform?](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance#restore_backup_context).
 
-Locate the SQL instance, note the name of the instance as `SQL_INSTANCE`
+List all backups, note the id of the latest (or the one right before database state is corrupted) **SUCCESSFUL** backup as `SQL_BACKUP_ID`
 
 ```sh
-gcloud sql instances list --project $PROJECT_ID
-```
-
-List all backups, note the name of the latest (or the one right before database state is corrupted) **SUCCESSFUL** backup as `SQL_BACKUP_ID`
-
-```sh
-gcloud sql backups list --instance $SQL_INSTANCE --project $PROJECT_ID
+mi2 instance sql-backup list --slug $SLUG -e $ENVIRONMENT
 ```
 
 Restore the backup to the current instance.
@@ -34,7 +28,13 @@ Restore the backup to the current instance.
 > NOTE: **IMPORTANT** This will override all current data with the backup.
 
 ```sh
-gcloud sql backups restore $SQL_BACKUP_ID --restore-instance $SQL_INSTANCE --project $PROJECT_ID
+mi2 instance sql-restore create --backup-id $SQL_BACKUP_ID --slug $SLUG -e $ENVIRONMENT
+```
+
+List operations to watch for progress
+
+```sh
+mi2 instance sql-restore list --slug $SLUG -e $ENVIRONMENT
 ```
 
 ## Restore GKE cluster application(s)
