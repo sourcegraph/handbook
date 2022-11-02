@@ -5,20 +5,22 @@ This page is intended for internal People team use. It outlines when we gift int
 ## When we send gifts to teammates
 
 The People team is responsible for sending gifts for:
+
 - New hires
 - Promotions
 - New babies
-- Company Offsites 
+- Company Offsites
 
 Managers are responsible for sending gifts for:
+
 - Birthdays
 - Work Anniversaries
-- Team Accomplishments 
+- Team Accomplishments
 
 ## Who we partner with to send gifts to teammates
 
 - [Telescope](https://www.telescopestudio.com/) - New Hire Kits, Promotion gifts, New Parent gifts, and other miscellaneous internal gifting requests
-- [Loop & Tie](https://www.loopandtie.com/) - Birthdays and Work Anniversaries 
+- [Loop & Tie](https://www.loopandtie.com/) - Birthdays and Work Anniversaries
 
 ## New hire gifting
 
@@ -33,12 +35,13 @@ COMING SOON
 COMING SOON
 
 ## Promotion gifting
+
 The People Team is currently working to develop a custom promotion gift, but in the meantime, we encourage Managers to [share the news broadly and recognize their teammates’ accomplishments!](../../../../benefits-pay-perks/benefits-perks/celebrate.md#promotions)
 
 We offer these items in our promotion boxes:
 ITEMS COMING SOON
 
-The People team and our vendor, Telescope, will be monitoring inventory to ensure we have necessary items in stock. Inventory production turnaround time is typically 3-4 weeks. 
+The People team and our vendor, Telescope, will be monitoring inventory to ensure we have necessary items in stock. Inventory production turnaround time is typically 3-4 weeks.
 
 **Reordering inventory**
 
@@ -60,25 +63,25 @@ COMING SOON
 
 **How the People team sends baby gifts**
 
-COMING SOON 
+COMING SOON
 
 ## Work anniversary and birthday gifting
-Managers are responsible for sending anniversary and birthday gifts to their teammates and the budget will come from the individual’s team budget. Our recommendation is for managers to use [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie), which will be put onto a company card and then later reclassed into the correct team’s budget. 
 
-On the 1st of each month, the People team (Kemper) will send an email to finance@sourcegraph.com with a breakdown of what charges have been placed on the Loop & Tie card and which team’s to reclass the charges into. 
+Managers are responsible for sending anniversary and birthday gifts to their teammates and the budget will come from the individual’s team budget. Our recommendation is for managers to use [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie), which will be put onto a company card and then later reclassed into the correct team’s budget.
+
+On the 1st of each month, the People team (Kemper) will send an email to finance@sourcegraph.com with a breakdown of what charges have been placed on the Loop & Tie card and which team’s to reclass the charges into.
 
 **How we hold managers accountable for gifting**
 
 Every Monday, Kemper sends a slack message to managers who have teammates with a birthday or anniversary in the upcoming week:
 
-_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
+\_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
 
 _Please:_
 
 - _Make a post in #thanks if you haven’t already (suggestions can be found here)_
 - _[Order a Loop & Tie gift](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie)_
 - _Respond with a :white_check_mark: when both of the above actions are completed!_
-
 
 ## Additional Gifting/Swag
 
