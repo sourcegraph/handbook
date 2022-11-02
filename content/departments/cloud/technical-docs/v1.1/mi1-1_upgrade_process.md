@@ -1,22 +1,12 @@
 # MI 1.1 Upgrade process
 
-## Prereq
+## Prerequisites
 
-> NOTE: For [automated upgrades](#automated-upgrade-recommended), these pre-reqs are not required.
+- install `go`
+- install [`gcloud`](https://cloud.google.com/sdk/gcloud) and authenticate
+- install [`gh`](https://cli.github.com/) (the GitHub CLI) and authenticate
 
-### Environment
-
-You have `go` installed
-
-You have `gcloud-cli` (and you're authenticated!)
-
-Configure required env var
-
-```sh
-export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=/path/to/deploy-sourcegraph-managed/repo
-```
-
-Install `mg` (or run `go run ./util/cmd/.` for all subsequent `mg` commands)
+Install `mi` (or run `go run ./util/cmd/mi` for all subsequent `mi` commands):
 
 ```sh
 make install
@@ -26,18 +16,6 @@ make install
 GOBIN=~/.bin make install
 ```
 
-### Upgrade `managed_instance` terraform module
-
-- Retrieve the latest executors module release version from https://github.com/sourcegraph/terraform-google-executors/tags
-- `git checkout -b upgrade-executors-$version`
-- Open [modules/executors/main.tf](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf) and bump referenced upstream module version if it is outdated
-- Determine the next tag of `mi-module-vx.y.z-va`, e.g. `mi-module-v3.40.1-v1`.
-  - `vx.y.z` should match the sourcegraph release version
-  - `va` is used to track revision to the module in between the same sourcegraph release
-- Do a global string replacement of the referenced module `source` to the next tag for every instances
-  - the reference exists in each `$CUSTOMER/infrastructure.tf` in the `managed_instance` module
-- Open a Pull Request, tag the latest `main` with the above tag
-
 ## Steps
 
 ### Create the instance upgrade tracking issue
@@ -45,31 +23,35 @@ GOBIN=~/.bin make install
 Open the output link in your browser to create the tracking issue
 
 ```sh
-mi create-tracking-issue -target $VERSION // e.g. 4.0.0
+mi create-tracking-issue -target $VERSION # e.g. 4.0.0
 ```
 
-### Ensure new version of `docker-compose.yaml` file is in the golden directory
+### Prepare new resources
 
-If they are not, download the file and open a PR to commit the file prior to upgrade
+Ensure new version of `docker-compose.yaml` file is in the golden directory.
+If they are not, download the file and open a PR to commit the file prior to upgrade:
 
 ```sh
-mi update-golden -target $VERSION // e.g. 4.0.0
+mi update-golden -target $VERSION # e.g. 4.0.0
 ```
 
-### Ensure `config.yaml` file in customer directory is up-to-date
+Then, upgrade the executors module: [`modules/executors/main.tf`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf), replace all `version` fields values with `$VERSION`.
 
-Check `$CUSTOMER/config.yaml` and make sure the file is present
+Then, create a pull request with your changes, and include a reference to the upgrade tracking issue.
 
-### Upgrade
+Example pull request: https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/1778
 
-Configure facts
-
-```sh
-export CUSTOMER=demo
-export VERSION=3.40.0
-```
+### Upgrade instances
 
 #### Automated Upgrade (recommended)
+
+<span class="badge badge-note">SOC2/CI-108</span>
+
+Configure facts:
+
+```sh
+export VERSION=3.40.0
+```
 
 Using `mi` you can generate commands to trigger automated upgrades for instances that are not yet upgraded:
 
@@ -90,7 +72,15 @@ The generated commands can then be run in bulk, and you can check #cloud-notific
 gh run list --workflow=mi_upgrade.yml
 ```
 
-> NOTE: You should not upgrade more than 5 instances at a time.
+> NOTE: You should not upgrade more than 5 instances at a time, to limit the blast radius of issues.
+
+<span class="badge badge-note">SOC2/CI-108</span>
+
+This automated workflow will generate a pull request for each instance to represent the upgrade that:
+
+1. Links to full logs of the automated upgrade process (retained for 90 days)
+2. Embeds a summary of an automated [full instance healthcheck](#post-upgrade-healthcheck) (retained permanently)
+3. Links to the tracking issue associated with the upgrade
 
 To review currently open PRs for successful instance upgrades using `gh`:
 
@@ -121,9 +111,18 @@ Finally, update the tracking issue.
 
 #### Manual Upgrade (deprecated)
 
-Create branch
+Configure facts:
 
+```sh
+export CUSTOMER=demo
+export VERSION=3.40.0
 ```
+
+Check `$CUSTOMER/config.yaml` and make sure the file is present
+
+Create branch:
+
+```sh
 git checkout -b $CUSTOMER/upgrade-v$VERSION
 ```
 
@@ -148,37 +147,38 @@ export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 terraform apply
 ```
 
-### Confirm instance health
-
 <span class="badge badge-note">SOC2/CI-108</span>
 
-```
-mi --customer $CUSTOMER check
-```
-
-### Wrapping up
+Conduct a [full instance healthcheck](#post-upgrade-healthcheck).
 
 Commit your change:
 
-```
+```sh
 git add . && git commit -m "$CUSTOMER: update docker-compose.yaml"
 ```
 
-### Create a pull request.
+Create a pull request:
+
+```sh
+gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "Part of <link to release tracking Github ticket>\n## Test plan: <paste mi check results>\n"
+```
+
+## Post-upgrade healthcheck
 
 <span class="badge badge-note">SOC2/CI-108</span>
 
-You MUST link the pull request to the Github issue that caused the upgrade.
+An automated healthcheck is conducted via the following command:
 
 ```sh
-gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "Part of <link to release tracking Github ticket>\n## Test plan No review required: normal upgrade\n"
+mi --customer $CUSTOMER check --executors
 ```
+
+This healthcheck generates a summary that denotes whether:
+
+1. All containers are running and healthy
+2. The Sourcegraph `frontend` service is accessible
+3. Executor instances are configured correctly and can be scaled up to a non-zero count
 
 ## Fallback plan
 
 Follow [restore process](./mi1-1_restore_process.md)
-
-## Automated upgrades
-
-For patch release, which contains only images version upgrade, without executor upgrades, [Upgrade Managed Instance Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_upgrade.yml) can be used.
-It will perform all mandatory steps from [Upgrade section](#upgrade) and open Pull Request. After Pull Request is open, please add link to upgrade issue and Github Action performing the upgrade to have history of performed steps.
