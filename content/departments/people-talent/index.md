@@ -297,8 +297,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Informing PEO re: comp increases (COMING SOON)
 - Template letters:
   - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
-  - Spot bonus template (COMING SOON)
-  - Compensation and / or equity increase template (COMING SOON)
 
 ### Teammate support
 
@@ -314,9 +312,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Types of Lattice surveys (COMING SOON)
   - [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
-- How to access survey results (COMING SOON)
-- How the People Team shares survey results with the company (COMING SOON)
-- How the People Team actions survey results (COMING SOON)
+- [How to access survey results](people-ops/process/teammate-sentiment/pulse-survey/#where-can-i-see-survey-results)
+- [How the People Team respondes to survey results and take action](people-ops/process/teammate-sentiment/pulse-survey/#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ## RESOURCES FOR THE TALENT TEAM
 
