@@ -33,21 +33,22 @@ Travel budgets are not transferable between types and are based on our [fiscal c
 > - A teammate cannot reallocate the budget from a company-wide event to an individual trip.
 > - A teammate cannot use their team budget for individual travel.
 
-**There are five types of company-sponsored, company-paid travel:**
+**Our company-wide travel perks include:**
 
-1.  Company-wide travel (intended for company-arranged, company-wide meet-ups)
-2.  Team travel (intended for you to connect with the team to which you belong)
-3.  Individual travel (intended for you to build relationships with teammates in the wider company)
-4.  Business/customer travel (intended for business-related events or customer meetings)
-5.  Professional development/ educational travel (intended for you to incorporate travel into a development opportunity if necessary)
+- Company-wide trips twice a year (intended for you to build relationships with teammates in the wider company) 
+- Team travel (intended for you to connect with the team to which you belong)
+- Business/customer travel (intended for business-related events or customer meetings)
+- Professional development/ educational travel (intended for you to incorporate travel into a development opportunity if necessary)
 
 ### 1. Company-wide travel
 
-This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammates flights, lodging, food, and transportation will be fully paid for to the chosen location(s) of our company meet-ups each year.
+This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammates flights, lodging, food, and transportation will be fully paid for to the chosen location(s) of our company meet-ups each year. In FY24, we will have two trips:
+ - 1H trip (February)
+ - 2H trip (August / September, date TBD & in planning stage)
 
 ### 2. Team travel
 
-Each team is allocated $5,500 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+Each Exec is allocated $5,000 USD per year per Teammate for their department, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. Tracking the fiscal year spend is the responsibility of each individual Teammate. Managers will work with their Exec to plan trips and ensure they have budget. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 
 The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
@@ -63,31 +64,22 @@ Factor in as much time to spend together during the trip and leave room for solo
 - This budget can be used for travel _(airfare, trains, etc.)_, lodging _(hotels, rental homes, etc.)_, events, meals and entertainment.
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
-- Visit the [Sample Team Offsites](sample-team-offsites.md) handbook page to view offsite itineraries used by other teams in the past.
+- Visit the [sample team offsites](sample-team-offsites.md) handbook page to view offsite itineraries used by other teams in the past.
 
-### 3. Individual travel
+### 3. Business/customer travel
 
-Each teammate has a $2,500 budget per year to meet up with individual Sourcegraph teammates or a group. The intention for this budget is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
-
-Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
-
-- This budget is _in addition_ to the other benefits mentioned on this page.
-- Budgets cannot be "mixed and matched", for example you cannot spend $1k from your invidivual team budget in order to add the remaining $1.5k to a team travel.
-
-### 4. Business/customer travel
-
-For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](../celebrate.md#teammate-in-person-gatherings) with 4 trips.
+For Teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/exec approval in addition to above budgets. Please note you cannot combine the [teammate in-person gathering budget](../celebrate.md#teammate-in-person-gatherings) with 4 trips.
 We would include the following types of meetups in Category 4:
 
 - Customer Champion meetups
-- Director to Executive level meetups (no approval required)
+- Leadership to Executive level meetups (no approval required)
 - Marketing conferences
 - Regional Sales Kickoff (Sales, Sales Ops, CE included)
 - Conference speaking engagement conferences
 
-### 5. Professional development stipend and educational travel
+### 4. Professional development stipend and educational travel
 
-Each teammate has $1,000 per fiscal year to spend on professional development opportunities that will enhance the knowledge, human skills, and thinking required to fulfill the purpose of your role and advance your career at Sourcegraph. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+Each Teammate has $1,000 per fiscal year to spend on professional development opportunities that will enhance the knowledge, human skills, and thinking required to fulfill the purpose of your role and advance your career at Sourcegraph. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 
 _This professional development budget includes:_
 
@@ -95,10 +87,7 @@ _This professional development budget includes:_
 
 - **Role specific:** License fees / continuing education specific to your role
 
-- **Educational experiences:**
-  - Courses, workshops, and/or exhibitions, both digital or in-person
-    _(including transportation)_
-  - Extended educational degrees, university classes, and certifications
+- **Educational experiences:** Courses, workshops, and/or exhibitions, both digital or in-person _(including transportation)_. Extended educational degrees, university classes, and certifications
 - **Conferences**: Attending conferences relevant to your role (the attendance and travel fees associated with them
 - **Leadership/professional coaching:** obtaining certified professional coaching outside of our organization or continuing to work with your Modern Health coach beyond our given 10 annual coaching credits
 
@@ -184,8 +173,7 @@ Please see below for a complete summary of spend limit for each type of trip. Th
 | Trip Category     | Total Spend Limit |
 | ----------------- | ----------------- |
 | Company-wide      | N/A               |
-| Team              | $5,500            |
-| Individual        | $2,500            |
+| Team              | $5,000            |
 | Business/Customer | N/A               |
 | Education         | $1,000            |
 
