@@ -1,24 +1,24 @@
 # Company sponsored travel
 
-Sourcegraph is an [all-remote](../../../company-info-and-process/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
+Sourcegraph is an [all-remote](../../../company-info-and-process/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other Teammates all around the world.
 
-Travel budgets are for full time teammates.
+Travel budgets are for full time Teammates.
 
 ## Travel planning guidelines
 
-- Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager.
-- Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responsibility of the teammate.
+- Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your Teammates. If you're not sure, consult your Manager.
+- Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, People Ops, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responsibility of the teammate.
 - Our high agency value works because we all make responsible decisions in the best interests of the whole team and the business — **please treat company money how you would treat your own**.
-- Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
-- When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
-- For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
+- Tracking the fiscal year spend is the responsibility of each individual Teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+- When planning a trip with another Teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
+- For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all Teammates must feel included, whether or not they are joining in person.
 - All meetups are to remain completely optional for all attendees.
-  - Due to the current circumstances of Covid-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper Covid-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
+  - Due to the current circumstances of COVID-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper COVID-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees and restrictions you may need to abide by.
-- When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../../../company-info-and-process/values/index.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
+- When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../../../company-info-and-process/values/index.md)**, we encourage a lens of inclusion in creating an equitable meetup for all Teammates.
 - Assume people don't want to shake hands, hug, high-five etc.
 - Follow local laws, customs, and safety regulations during every step of the meetup process.
-- The Company will reimburse testing for Covid-19 when traveling for Company events. The typical reimbursed test is approximately $25 per person per trip.
+- The Company will reimburse testing for COVID-19 when traveling for Company events. The typical reimbursed test is approximately $25 per person per trip.
 
 ## Travel budget philosophy
 
@@ -27,11 +27,6 @@ We are a [high agency](../../../company-info-and-process/values/index.md#high-ag
 > _For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!_
 
 Travel budgets are not transferable between types and are based on our [fiscal calendar](../../../departments/finance/index.md#fiscal-year-2022) year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
-
-> _For example:_
->
-> - A teammate cannot reallocate the budget from a company-wide event to an individual trip.
-> - A teammate cannot use their team budget for individual travel.
 
 **Our company-wide travel perks include:**
 
@@ -42,14 +37,14 @@ Travel budgets are not transferable between types and are based on our [fiscal c
 
 ### 1. Company-wide travel
 
-This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammates flights, lodging, food, and transportation will be fully paid for to the chosen location(s) of our company meet-ups each year. In FY24, we will have two trips:
+This travel budget is intended for Teammates to attend company-wide meetups, arranged by the Company. Each Teammate's flights, lodging, food, and transportation will be fully paid for to the chosen location(s) of our Company meet-ups each year. In FY24, we will have two trips:
 
 - 1H trip (February)
 - 2H trip (August / September, date TBD & in planning stage)
 
 ### 2. Team travel
 
-Each Exec is allocated $5,000 USD per year per Teammate for their department, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. Tracking the fiscal year spend is the responsibility of each individual Teammate. Managers will work with their Exec to plan trips and ensure they have budget. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+Each Exec is allocated $5,000 USD per year per Teammate for their department, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. Managers will work with their Exec to plan trips and ensure they have budget. Tracking the fiscal year spend is the responsibility of each individual Teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 
 The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
@@ -80,7 +75,7 @@ We would include the following types of meetups in this category:
 
 ### 4. Professional development stipend and educational travel
 
-Each Teammate has $1,000 per fiscal year to spend on professional development opportunities that will enhance the knowledge, human skills, and thinking required to fulfill the purpose of your role and advance your career at Sourcegraph. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+Each Teammate has $1,000 per fiscal year to spend on professional development opportunities that will enhance the knowledge, human skills, and thinking required to fulfill the purpose of your role and advance your career at Sourcegraph. Tracking the fiscal year spend is the responsibility of each individual Teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 
 _This professional development budget includes:_
 
