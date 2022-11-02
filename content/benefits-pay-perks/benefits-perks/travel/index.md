@@ -35,7 +35,7 @@ Travel budgets are not transferable between types and are based on our [fiscal c
 
 **Our company-wide travel perks include:**
 
-- Company-wide trips twice a year (intended for you to build relationships with teammates in the wider company) 
+- Company-wide trips twice a year (intended for you to build relationships with teammates in the wider company)
 - Team travel (intended for you to connect with the team to which you belong)
 - Business/customer travel (intended for business-related events or customer meetings)
 - Professional development/ educational travel (intended for you to incorporate travel into a development opportunity if necessary)
@@ -43,8 +43,9 @@ Travel budgets are not transferable between types and are based on our [fiscal c
 ### 1. Company-wide travel
 
 This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammates flights, lodging, food, and transportation will be fully paid for to the chosen location(s) of our company meet-ups each year. In FY24, we will have two trips:
- - 1H trip (February)
- - 2H trip (August / September, date TBD & in planning stage)
+
+- 1H trip (February)
+- 2H trip (August / September, date TBD & in planning stage)
 
 ### 2. Team travel
 
