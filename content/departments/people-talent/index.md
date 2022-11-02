@@ -312,8 +312,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Types of Lattice surveys (COMING SOON)
   - [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
-- [How to access survey results](people-ops/process/teammate-sentiment/pulse-survey/#where-can-i-see-survey-results)
-- [How the People Team respondes to survey results and take action](people-ops/process/teammate-sentiment/pulse-survey/#how-do-we-respond-to-pulse-survey-results-and-take-action)
+- [How to access survey results](people-ops/process/teammate-sentiment/pulse-survey.md#where-can-i-see-survey-results)
+- [How the People Team respondes to survey results and take action](people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ## RESOURCES FOR THE TALENT TEAM
 
