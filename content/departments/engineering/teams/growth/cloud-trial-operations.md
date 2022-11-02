@@ -18,7 +18,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 ### Rules of engagement overview
 
-See below the tables for more details on specific processes. 
+See below the tables for more details on specific processes.
 
 **User/prospect is not a paying customer**
 
@@ -97,13 +97,13 @@ Feedback email
   </tr>
 </table>
 
-**If the user is from a paying customer and requests an instance** 
+**If the user is from a paying customer and requests an instance**
 
-|                      | Sales                                                                      | CE  | Product (automation)                 |   |
-|----------------------|----------------------------------------------------------------------------|-----|--------------------------------------|---|
-| Customer is on-prem  | SDR approves for cloud, but AE can gauge user intent and whether to engage | n/a | Normal workflow                      |   |
-| Customer is on Cloud | n/a                                                                        | n/a | Redirects to existing cloud instance |   |
-|                      |                                                                            |     |                                      |   |
+|                      | Sales                                                                      | CE  | Product (automation)                 |     |
+| -------------------- | -------------------------------------------------------------------------- | --- | ------------------------------------ | --- |
+| Customer is on-prem  | SDR approves for cloud, but AE can gauge user intent and whether to engage | n/a | Normal workflow                      |     |
+| Customer is on Cloud | n/a                                                                        | n/a | Redirects to existing cloud instance |     |
+|                      |                                                                            |     |                                      |     |
 
 ### Growth marketing and SDRs
 
