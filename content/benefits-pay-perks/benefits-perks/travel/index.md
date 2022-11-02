@@ -4,7 +4,7 @@ Sourcegraph is an [all-remote](../../../company-info-and-process/remote/index.md
 
 Travel budgets are for full time teammates.
 
-## Travel Planning Guidelines
+## Travel planning guidelines
 
 - Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager.
 - Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responsibility of the teammate.
@@ -70,7 +70,7 @@ Factor in as much time to spend together during the trip and leave room for solo
 ### 3. Business/customer travel
 
 For Teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/exec approval in addition to above budgets. Please note you cannot combine the [teammate in-person gathering budget](../celebrate.md#teammate-in-person-gatherings) with 4 trips.
-We would include the following types of meetups in Category 4:
+We would include the following types of meetups in this category:
 
 - Customer Champion meetups
 - Leadership to Executive level meetups (no approval required)
@@ -89,37 +89,36 @@ _This professional development budget includes:_
 - **Role specific:** License fees / continuing education specific to your role
 
 - **Educational experiences:** Courses, workshops, and/or exhibitions, both digital or in-person _(including transportation)_. Extended educational degrees, university classes, and certifications
+
 - **Conferences**: Attending conferences relevant to your role (the attendance and travel fees associated with them
+
 - **Leadership/professional coaching:** obtaining certified professional coaching outside of our organization or continuing to work with your Modern Health coach beyond our given 10 annual coaching credits
 
 **Best practice tip:** Request budget approval from your manager before booking any professional development opportunities.
 
-If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to PeopleOps and Finance for approval PRIOR to booking.
+If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to People Ops and Finance for approval PRIOR to booking.
 
-#### Obtaining Manager Approval:
+#### Obtaining Manager approval:
 
 This section will inform you how to obtain manager approval and get sign-off for your professional development opportunity.
 
-**Information Needed:**
+**Information needed:**
 
 _The applicant is responsible for collecting the information below (where applicable), and each cost must be estimated in USD:_
 
 > - Event name and link to the website:
 > - Event Location (city, country):
 > - Duration of stay (days, nights):
->
-> - Is quarantine required for
->   ? If so, for how long:
+> - Is quarantine required? If so, for how long:
 > - Registration fee:
 > - Airfare:
 > - Ground transportation:
 > - Hotel and lodging:
 > - Meals:
 > - Total cost:
->
 > - Additional information (if applicable):
 
-#### Approvals Process:
+#### Approvals process:
 
 1.  Applicant collects information as described above before any booking or reservation
 2.  Applicant sends their manager the above information via email with the title [Approval for Professional Development Stipend on _insert date_]
@@ -167,7 +166,7 @@ We ask you to use your best judgment when traveling and spending company money. 
 - Please note that this is money that is available to be reimbursed, and you will not roll over any unused money to the next day. We encourage you to use this set amount, as your daily per diem amount will reset the following day.
 - We will reimburse only your own portion of the bill if you’re traveling with a non-teammate, so make sure to separate your bills or ask for separate receipts.
 
-#### Trip Summary
+#### Trip summary
 
 Please see below for a complete summary of spend limit for each type of trip. The best practice is to plan your trip in accordance with the daily meals allotment and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
 
@@ -188,7 +187,7 @@ TripActions is our source of truth for booking travel. All teammate travel must 
 
 For any additional questions, please reach out to Finance and the people Team at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
-## Budget Template
+## Budget template
 
 We have provided an easy-to-complete travel budget calculator for your next team trip. See our [Travel Budget Example](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) for ideas when submitting requests.
 
