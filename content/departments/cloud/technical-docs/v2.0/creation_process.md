@@ -77,7 +77,7 @@ export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.met
 Change the Terraform Cloud run mode to CLI-driven
 
 ```sh
-yq --inplace e '.spec.debug.tfcRunsMode |= "cli"' environments/$ENVIRONMENT/deployments/$INSTANCE_ID/config.yaml
+mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
 ```
 
 ### Init deployment - generate cdktf stacks artifacts
@@ -160,7 +160,7 @@ mi2 instance sync --slug $SLUG -e $ENVIRONMENT
 Revert back up VCS-driven mode
 
 ```sh
-yq --inplace e 'del(.spec.debug.tfcRunsMode)' environments/$ENVIRONMENT/deployments/$INSTANCE_ID/config.yaml
+mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)' --slug $SLUG -e $ENVIRONMENT
 ```
 
 ```sh
