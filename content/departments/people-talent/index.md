@@ -75,7 +75,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
   - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
   - [How we determine new equity for promotion](COMING SOON)
-  - [How we celebrate promotions] COMING SOON
+  - [How we celebrate promotions](../../benefits-pay-perks/benefits-perks/celebrate.md#promotions)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [Coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
