@@ -1,6 +1,6 @@
 # People & Talent
 
-The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
+The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout their journey with us.
 
 While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack #hiring or email Recruiting@sourcegraph.com.
 
