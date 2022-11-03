@@ -29,27 +29,37 @@ We currently offer [these items](../../../../benefits-pay-perks/benefits-perks/c
 The People team and our vendor, Telescope, will be monitoring inventory to ensure we have necessary items in stock. Inventory production turnaround time is typically 3-4 weeks.
 
 **Reordering inventory**
-COMING SOON
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
+
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions.
 
 **How new hires order their gift**
-COMING SOON
+
+After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire welcome kit. The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with our vendor, Telescope.
+
+This is the swag information included in the email: "Order your Sourcegraph swag pack! Use the link below to select your T-shirt and hoodie size, provide your shipping address, and place your order. one of the links below and fill out all required fields to order your package."
+
+Once an order is placed, the new hire will get an email confirmation with delivery details. Sourcegraph covers the shipping cost, which varies depending on the shipping destination. We can view the shipping costs associated with recent orders in the invoices Telescope emails to PeopleOps/Finance.
 
 ## Promotion gifting
 
 The People Team is currently working to develop a custom promotion gift, but in the meantime, we encourage Managers to [share the news broadly and recognize their teammates’ accomplishments!](../../../../benefits-pay-perks/benefits-perks/celebrate.md#promotions)
 
-We offer these items in our promotion boxes:
-ITEMS COMING SOON
-
 The People team and our vendor, Telescope, will be monitoring inventory to ensure we have necessary items in stock. Inventory production turnaround time is typically 3-4 weeks.
 
 **Reordering inventory**
 
-COMING SOON
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
+
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions.
+
+Best practice is to work with Telescope ahead of each Impact Review season to ensure we’re prepared for upcoming promotion gifting.
 
 **How the People team sends Promotion Gifts**
 
-COMING SOON
+For one-off promotions, gifts will be ordered by the People team through the [Telescope Storefront](https://sourcegraph.telescopestudio.com/). Simply select 'Kits' from the menu bar, then select the Promotion kit, and checkout using the teammates' shipping addresses listed BambooHR.
+
+To send promotion gifts in bulk, create a spreadsheet with each teammate's name, email, shipping address. Then, email the spreadsheet to chloe@telescopestudio.com and kyra@telescopestudio.com.
 
 ## New baby gifting
 
@@ -59,11 +69,13 @@ The People team and our vendor, Telescope, will be monitoring inventory to ensur
 
 **Reordering inventory**
 
-COMING SOON
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
+
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions.
 
 **How the People team sends baby gifts**
 
-COMING SOON
+The People team sends a new baby gift at the beginning of a teammates' parental leave. This gift will be ordered by the People team through the [Telescope Storefront](https://sourcegraph.telescopestudio.com/). Simply select 'Kits' from the menu bar, then select the Baby Kit, and checkout using the teammates' shipping addresses listed BambooHR.
 
 ## Work anniversary and birthday gifting
 
