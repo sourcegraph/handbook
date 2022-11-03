@@ -12,6 +12,7 @@ _Note: This page is a work in progress for the newly-created Growth Marketing te
   - [How we work](#how-we-work)
 
 ## Team
+
 - Taylor Sperry, Product Manager
 - Brett Hayes, Software Engineer
 - Becca Steinbrecher, Software Engineer
