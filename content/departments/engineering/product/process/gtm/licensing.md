@@ -39,14 +39,14 @@ If someone is talking to Sales or CE and says they’re using the OSS version, t
 
 Sourcegraph OSS only includes core search functionality. We will only add new features to Sourcegraph OSS if both of the following are true:
 
-1. They are required for parity with open-source code search tools, and
+1. They are required for parity with open source code search tools, and
 2. They don’t significantly reduce the differentiation of Sourcegraph Enterprise or Sourcegraph as a code intelligence platform.
 
 If you believe a feature you are working on should be added to Sourcegraph OSS or you aren't sure if your feature should be added to Sourcegraph OSS, please send a note to #pricing and the team will either approve the addition or help determine if it should be added.
 
 Example: Search aggregations powered by Code Insights
 
-1. No other open-source code search tools provide this functionality, and
+1. No other open source code search tools provide this functionality, and
 2. This functionality does reduce the differentation between Sourcegraph Enterprise and Sourcegraph OSS.
 
 Recommendation: Search aggregations should not be added to Sourcegraph OSS.
@@ -83,7 +83,6 @@ To prevent confusion, avoid using "License" or "Free user". Instead, say:
 - a **Sourcegraph Enterprise** user on a **Free plan**
 - a **Sourcegraph Enterprise** user on a **Business/Enterprise plan**
 - a **license key** for the **Business/Enterprise plan** of **Sourcegraph Enterprise**
-- **Sourcegraph Cloud** is a SaaS offering of Sourcegraph Enterprise, one of the many ways to [deploy Sourcegraph](../../../../ce-support/ce/onboarding/deployment-methods.md)
 
 The only case where "license" alone is appropriate is when someone asks "What's the license of Sourcegraph?". The answer to that is Apache 2.0 for Sourcegraph OSS, and the enterprise license for Sourcegraph Enterprise.
 
