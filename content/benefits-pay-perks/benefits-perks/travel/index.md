@@ -94,6 +94,7 @@ _This professional development budget includes:_
 If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to People Ops and Finance for approval PRIOR to booking.
 
 ### **Individual travel budget (FY23 only)**
+
 For the remainder of FY23, each teammate has a $2,500 budget to meet up with individual Sourcegraph teammates or a group. The intention for this budget is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 
 Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
