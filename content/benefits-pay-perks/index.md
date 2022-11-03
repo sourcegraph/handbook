@@ -8,7 +8,6 @@
   - [TripActions](benefits-perks/travel/TripActions.md)
 - [Time Off](benefits-perks/time-off/index.md)
   - [Submitting time off](benefits-perks/time-off/submitting-time-off.md)
-  - [Working Hours](../company-info-and-process/working-at-sourcegraph/working-hours.md)
 - [Spending Company Money](benefits-perks/spending-company-money.md)
 - [Holidays](../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Team Gatherings and Celebrations](benefits-perks/celebrate.md)

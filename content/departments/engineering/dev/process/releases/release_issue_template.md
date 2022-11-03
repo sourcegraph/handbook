@@ -6,6 +6,7 @@ Arguments:
 - $MINOR
 - $PATCH
 - $RELEASE_DATE
+- $ONE_WORKING_WEEK_BEFORE_RELEASE
 - $THREE_WORKING_DAY_BEFORE_RELEASE
 - $ONE_WORKING_DAY_AFTER_RELEASE
 -->
@@ -21,17 +22,21 @@ This release is scheduled for **$RELEASE_DATE**.
 - [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up to date with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 
-## Cut Release (three days before release - $THREE_WORKING_DAY_BEFORE_RELEASE)
+## Security review (one week before release - $ONE_WORKING_WEEK_BEFORE_RELEASE)
+
+- [ ] Create a [new issue](https://github.com/sourcegraph/sourcegraph/issues/new/choose) using the **Security release approval** template and post a message in the [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) channel tagging `@security-support`.
+
+## Cut release (three days before release - $THREE_WORKING_DAY_BEFORE_RELEASE)
 
 Perform these steps three days before the release date to generate a stable release candidate.
 
 ### Prepare release
 
 - [ ] Post a release status update to Slack - [review all release-blocking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-blocker), and ensure someone is resolving each.
+
   ```sh
   yarn release release:status
   ```
-- [ ] Create a `Security release approval issue` and post a message in the [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) channel tagging @security-support.
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
@@ -42,7 +47,6 @@ Do the [branch cut](./index.md#release-branches) for the release:
   ```
 
 - [ ] Manually review the pull requests created in the previous step and merge.
-
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
 
   ```sh
@@ -54,13 +58,14 @@ Do the [branch cut](./index.md#release-branches) for the release:
 Upon branch cut, create and test release candidates:
 
 - [ ] Tag the first release candidate:
+
   ```sh
   N=1; yarn release release:create-candidate $N
   ```
+
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.N` tag:
-
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
-
+- [ ] Corss check all reported CVEs are in the accepted list (`https://handbook.sourcegraph.com/departments/security/tooling/trivy/$MAJOR-$MINOR-$PATCH`). Otherwise, alert `@security-support` in the [#release-guild](https://sourcegraph.slack.com/archives/C032Z79NZQC) channel ASAP.
 - [ ] File any failures and regressions in the pipelines as `release-blocker` issues and assign the appropriate teams.
 
 Revert or disable features that may cause delays. As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch. Continue to create new release candidates as necessary, until no more `release-blocker` issues remain.
@@ -81,7 +86,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.N) to be deployed to a test managed instance. Could someone help here? :ty:
   ```
 
-## Release Day ($RELEASE_DATE)
+## Release day ($RELEASE_DATE)
 
 ### Stage release
 
@@ -92,13 +97,16 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Make sure [CHANGELOG entries](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
 - [ ] Make sure [deploy-sourcegraph-helm CHANGELOG entries](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
 - [ ] Tag the final release:
+
   ```sh
   yarn release release:create-candidate final
   ```
+
 - [ ] Ensure that the following pipelines all pass for the `v$MAJOR.$MINOR.$PATCH` tag:
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH)
 - [ ] Wait for the `v$MAJOR.$MINOR.$PATCH` release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags)
 - [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes)):
+
   ```sh
   yarn release release:stage
   ```
@@ -116,6 +124,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
     - [ ] Cherry pick the release-publishing PR from the release branch into main
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
+
   ```sh
   yarn release release:announce
   ```
@@ -130,11 +139,14 @@ On the day of the release, confirm there are no more release-blocking issues (as
   - [ ] Change `captainSlackUsername` and `captainGitHubUsername` accordingly
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
+
   ```sh
   yarn run release tracking:issues
   yarn run release tracking:timeline
   ```
+
 - [ ] Close the release.
+
   ```sh
   yarn run release release:close
   ```

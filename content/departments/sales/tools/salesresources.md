@@ -4,6 +4,7 @@ Google drive is the main repository for sales resources and the sales folder can
 
 ## Frequently Requested Files
 
+- [Sourcegraph Contract Packet for Customers](https://drive.google.com/file/d/1w0utoZD0bXEgZXRRa1n8cNguZ1IAITWv/view?usp=sharing)
 - [Sourcegraph W9](https://drive.google.com/u/0/uc?id=1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW&export=download)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download) (to add a customer's name to our COI, reach out to certificates@embroker.com with the customer's request and information and cc legal@sourcegraph.com)
 - [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download)
@@ -50,7 +51,7 @@ To update a template place the new template in the main Sales Template folder, n
 - [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
 - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
-- [Template Customer Contract FAQs](https://drive.google.com/file/d/1sb_FA2Yxqx7fmbKrB8RDabyYHeOHIVA2/view?usp=sharing)
+- [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
 - [GDPR Prospecting Guidelines](https://docs.google.com/document/d/1p1w7YYWoOkiSBbCZBeTJZUkst8vX8GnG1jivtQ9wYBo/edit)
 
 ## Customer Notes
@@ -62,7 +63,7 @@ Where to Store Customer Notes and Documents:
 - Within that folder, add all of your documents and notably, your running notes google document (which you'll link to the Salesforce opportunity in the designated field)
 - If you'd like to save this folder into your own drive, that's simple and welcomed. Simply right click on the folder, then select 'Add Shortcut to Drive'—then choose the preferred destination where you'd like this to land within your 'My Drive'
 
-Note: Salesforce is the communication and document source of truth for our Sales Team. Upload all docs (contracts, etc) to Salesforce and the customer's folder in the [Custome contracts folder on GDrive](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) as well.
+Note: Salesforce is the communication and document source of truth for our Sales Team. Upload all docs (contracts, etc) to Salesforce and the customer's folder in the [Customer contracts folder on GDrive](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) as well.
 
 ## Sales Content
 

@@ -304,7 +304,7 @@ To modify label:
 
 We are aligned with the [company-wide incident response playbook](../../engineering/dev/process/incidents/index.md) to handle managed instances downtime.
 
-We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
+We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the managed instance frontend url. When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
 ### Performance Checks
 
@@ -463,6 +463,29 @@ git prune && git fetch # check for errors
        - SRC_ENABLE_SG_MAINTENANCE=false
        - SRC_ENABLE_GC_AUTO=true
    ```
+
+### Fix dirty database migration
+
+when `docker-compose up -d` feels like taking forever, it's a good idea to start another shell and check `migrator` logs
+
+you might see logs like:
+
+```
+failed to run migration for schema "frontend": dirty database: schema "frontend" marked the following migrations as failed: 1663871069
+migrator                         | The target schema is marked as dirty and no other migration operation is seen running on this schema. The last migration operation over this schema has failed (or, at least, the migrator instance issuing that migration has died). Please contact support@sourcegraph.com for further assistance.
+```
+
+It indicates a broken database migration.
+
+First, indentify why migration is broken by connecting to the database `mi db proxy` and run `select * from migration_logs where id = $ID`.
+
+If it feels like a flake, we can attempt to reapply the migration
+
+```sh
+mi -verbose migrate -version $NEW_VERSION up -ignore-single-dirty-log=true
+```
+
+Otherwise, reach out the feature teams or #dev-databases.
 
 ### Investigate VM platform logs
 

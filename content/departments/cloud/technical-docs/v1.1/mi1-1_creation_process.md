@@ -8,17 +8,16 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Cloud Team invoke GitHub Actions with following parameters:
 
-   - `customer` - name of customer
+   - `customer` - slug for the customer, e.g. `acme`
    - `ce_email` - email of Customer Engineer from issue
-   - `customer_email` - customer admin email (only one from provided in issue)
-   - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
+   - `customer_email` - customer admin email (only one from provided in issue), e.g. `logan@acme.com`
+   - `email_domain` - initial customer email domain, e.g. `acme.com`
    - `instance_type` - purpose of this instance
-
-     trial - for customer trial
-
-     production - for paying customer
-
-     internal - for internal Sourcegraph usage
+     - `trial` - for customer trial
+     - `production` - for paying customer
+     - `internal` - for internal Sourcegraph usage
+   - `instance_size` - bundle size of this intance
+   - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
 
    via command line:
 
@@ -27,6 +26,7 @@ For basic operations like accessing an instance for these steps, see [managed in
      -f customer=$CUSTOMER \
      -f ce_email=$CE_EMAIL \
      -f customer_email=$CUSTOMER_EMAIL \
+     -f email_domain=$EMAIL_DOMAIN \
      -f instance_type=[production|trial|internal] \
      -f instance_size=[small|medium|large] \
      -f user_level_telemetry=[true|false]
@@ -69,7 +69,7 @@ Hi,
 
 The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
 
-Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+Here's the link to the password reset link <>. Please note the link will expire after 72 hours.
 ```
 
 ### Enable "private" mode
@@ -123,3 +123,16 @@ When [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/a
 - finalise creation of Managed Instance - perform steps from [this flow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_create.yml) starting from the one which failed
 - ensure to open Pull Request as the last step and add Cloud Team as reviewer
 - prepare fix and open Pull Request
+
+### Creating a budget
+
+Budgets are applied as a separate module.
+To create a budget you need to run a terraform apply in the `budget` directory.
+Budgets are viewable in the [GCP console](https://console.cloud.google.com/billing/budgets).
+
+```sh
+# required to access budget APIs in GCP
+export GOOGLE_IMPERSONATE_SERVICE_ACCOUNT=mi-creator-github@sourcegraph-secrets.iam.gserviceaccount.com
+# in the buget directory
+terraform apply -var-file=../terraform.tfvars
+```
