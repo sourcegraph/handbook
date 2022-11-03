@@ -81,14 +81,14 @@ The People team sends a new baby gift at the beginning of a teammates' parental 
 Managers are responsible for sending anniversary and birthday gifts to their teammates. Our recommendation is for managers to use [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie), which will be put onto a company card and then later reclassed into the correct team’s budget.
 
 **People Team actions:**
+
 - Every Monday, Kemper sends this slack message to managers who have teammates with a birthday or anniversary in the upcoming week:
-\_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
-_Please:_
+  \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
+  _Please:_
   - _Make a post in #thanks if you haven’t already (suggestions can be found here)_
   - _[Order a Loop & Tie gift](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie)_
   - _Respond with a :white_check_mark: when both of the above actions are completed!_
 - On the 1st of each month, the People team (Kemper) will send an email to finance@sourcegraph.com with a breakdown of what charges have been placed on the Loop & Tie card and which team’s to reclass the charges into.
-
 
 ## Additional Gifting/Swag
 
@@ -116,7 +116,7 @@ _- Quantity_
 
 _- Countries you’ll be shipping to_
 
-_- Any other notes__
+\_- Any other notes\_\_
 
 _Thank you!_
 
