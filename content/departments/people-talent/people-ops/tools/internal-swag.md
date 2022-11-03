@@ -29,13 +29,13 @@ We currently offer [these items](../../../../benefits-pay-perks/benefits-perks/c
 The People team and our vendor, Telescope, will be monitoring inventory to ensure we have necessary items in stock. Inventory production turnaround time is typically 3-4 weeks.
 
 **Reordering inventory**
-The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope. 
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
 
-Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions. 
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions.
 
 **How new hires order their gift**
 
-After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire welcome kit. The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with our vendor, Telescope. 
+After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire welcome kit. The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with our vendor, Telescope.
 
 This is the swag information included in the email: "Order your Sourcegraph swag pack! Use the link below to select your T-shirt and hoodie size, provide your shipping address, and place your order. one of the links below and fill out all required fields to order your package."
 
@@ -49,9 +49,9 @@ The People team and our vendor, Telescope, will be monitoring inventory to ensur
 
 **Reordering inventory**
 
-The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope. 
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
 
-Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions. 
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions.
 
 Best practice is to work with Telescope ahead of each Impact Review season to ensure we’re prepared for upcoming promotion gifting.
 
@@ -69,9 +69,9 @@ The People team and our vendor, Telescope, will be monitoring inventory to ensur
 
 **Reordering inventory**
 
-The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope. 
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
 
-Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions. 
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. We pay via invoice. Telescope emails all invoices to Finance and Kemper/Michal and Finance actions.
 
 **How the People team sends baby gifts**
 
