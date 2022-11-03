@@ -76,6 +76,10 @@ Use these emoji reactions to quickly engage with messages in Slack and help with
 - ❌ = Blocking disagreement
 - 📣 Megaphone = Discuss in team meeting
 
+All teammates are able to upload their own custom emoji to our Slack Workspace. When adding a new animated emoji, keep in mind that rapidly changing or flashing emoji, such as party parrot, may not be friendly for teammates who are [impacted by photosensitivity or susceptible to seizures](https://www.reddit.com/r/Epilepsy/comments/jzmjdx/seizure_inducing_emojis/).
+
+If you spot a custom emoji that may be a bit too animated, report it to #it-tech-ops so it can be removed.
+
 ####
 
 **2. Default to public channels**
