@@ -58,6 +58,10 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
     - `git checkout -b $CUSTOMER/destroy-managed-instance`
 
+1.  Authenticate to the project:
+
+    - `gcloud auth application-default login --project sourcegraph-managed-$CUSTOMER`
+
 ### Navigate to the customer's managed instance directory
 
 ```sh
