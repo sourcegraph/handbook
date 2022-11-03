@@ -23,9 +23,10 @@ Managers are welcome to celebrate their teams’ other life events at each teamm
 
 ## Birthdays
 
-Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. 
+Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated. With the teammate's permission, managers should follow the below steps:
+
 - Send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift within the [birthday gift amount policy](celebrate.md#Birthday-gift-budget). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
 - Post about the occasion in the team channel or 1:1
   - Team post suggestions:
@@ -73,6 +74,7 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 ## Promotions
 
 At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, managers are responsible for recognizing promoted teammates by:
+
 - [Sending a Loop & Tie gift!](celebrate.md#Loop-&-Tie) - we recommend $150
 - Sending a Slack in `#teammate-announce` and cross-post in `#thanks`. At minimum, these posts should cover:
   - recognizing the hard work of the individual being promoted
@@ -87,6 +89,7 @@ At Sourcegraph, promotions are a big deal - and communicating promotions is one 
 Our People Team is responsible for sending new hire gifts and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk based on the anticipated hiring rate and Telescope monitors/reorders the inventory as needed.
 
 What is in a new hire gift:
+
 - Hoodie
 - Socks
 - Stickers
@@ -106,6 +109,7 @@ Please reach out in the #swag channel with any questions.
 Our People Team is responsible for sending new baby gits and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People Team purchases inventory in bulk and Telescope monitors/reorders the inventory as needed.
 
 What is in a new baby gift:
+
 - Onesie
 - Bib
 - Towel
@@ -127,10 +131,12 @@ Once you have an account, here is [how to send a Loop & Tie gift](https://guides
 
 **Loop & Tie FAQS:**
 
-Q: Will the recipient see the gift price? 
+Q: Will the recipient see the gift price?
+
 - A: Your Loop & Tie recipient never sees the gift budget you selected. They just see the items available to them in the collection you selected!
 
-Q: Can I change or add products to the collections? 
+Q: Can I change or add products to the collections?
+
 - A: We are not able to facilitate changes/additions at this time.
 
 ### Other gift ideas
