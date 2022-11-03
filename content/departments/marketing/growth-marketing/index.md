@@ -6,9 +6,17 @@ _Note: This page is a work in progress for the newly-created Growth Marketing te
 
 - [Growth marketing](#growth-marketing)
   - [Table of contents](#table-of-contents)
+  - [Team](#team)
   - [About Growth Marketing](#about-growth-marketing)
   - [Team vision and principles](#team-vision-and-principles)
   - [How we work](#how-we-work)
+
+## Team
+- Taylor Sperry, Product Manager
+- Brett Hayes, Software Engineer
+- Becca Steinbrecher, Software Engineer
+- Paulo Almeida, Product Designer
+- Kelsey Brown, Data Analyst
 
 ## About Growth Marketing
 
