@@ -180,7 +180,7 @@ For customer contracts: Share our NDA form with the prospect. If a customer insi
 
 ### Who signs the NDA for Sourcegraph?
 
-- Director of Legal, VP, or Director
+- VP Legal or other VP or Director
 
 Changes to the above signing authorities require written approval by the CEO.
 
@@ -253,7 +253,7 @@ Good rule of thumb: When in doubt, get a Deal Desk stamp!
 
 2.  Signature: Financial Controller
 
-Back-Up Signers: Director of Legal and VP Finance/Operations
+Back-Up Signers: VP Legal and VP Finance/Operations
 
 Note: the above signature authority also applies to Evaluation or Proof of Concept (POC) Agreements.
 
@@ -381,9 +381,9 @@ The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request
 
 - VP Budget Owner
 
-Note: the above signature authority also applies to signing of Vendor DPAs, with the Director of Legal as the back-up signer. If a Vendor has requested a DPA amendment, the Director of Legal has signature authority for that amendment.
+Note: the above signature authority also applies to signing of Vendor DPAs, with the VP Legal as the back-up signer. If a Vendor has requested a DPA amendment, the VP Legal has signature authority for that amendment.
 
-For vendor contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
+For vendor contracts, authorized signers may delegate authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
 
 ### Who sends out the Vendor contract for signature?
 
@@ -448,7 +448,7 @@ Yes! Every Partner contract needs review and approval prior to signature.
 
 Review: Business Development and Legal
 
-Approve: VP and Finance
+Approve: VP Budget Owner and Finance
 
 ### What if the Partner contract is a click-through agreement that can’t be redlined? Do I still need to go through the above review process?
 
