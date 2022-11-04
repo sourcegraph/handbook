@@ -72,7 +72,7 @@ We also maintain some internal managed instances for various use cases.
 
 ### sourcegraph.sourcegraph.com (S2)
 
-This deployment is also colloquially referred to as "dogfood S2", or just "S2", it was spun up as a response to our change in product direction and becoming Cloud (managed instances) first. We use S2 as our primary dogfooding instance now, and feedback gets shared in [#feedback-dogfood](https://sourcegraph.slack.com/archives/C03CSAER9LK). 
+This deployment is also colloquially referred to as "dogfood S2", or just "S2", it was spun up as a response to our change in product direction and becoming Cloud (managed instances) first. We use S2 as our primary dogfooding instance now, and feedback gets shared in [#feedback-dogfood](https://sourcegraph.slack.com/archives/C03CSAER9LK).
 
 S2 gets deployed every hour between 8am and 10pm UTC on weekdays using an [GitHub Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) that updates the images, creates the PR, and merge the changes. The instance contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images).
 
