@@ -38,6 +38,8 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
 
 [![Build status](https://badge.buildkite.com/65c9b6f836db6d041ea29b05e7310ebb81fa36741c78f207ce.svg?branch=release)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 
+**NO LONGER PRIMARY DOGFOODING INSTANCE, SEE [S2](#sourcegraphsourcegraphcom-s2) BELOW**
+
 This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or just "k8s".
 This is the Sourcegraph instance to use for dogfooding changes to Sourcegraph.
 It contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images) via [ArgoCD](./index.md#argocd)
@@ -68,6 +70,16 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
 We also maintain some internal managed instances for various use cases.
 
+### sourcegraph.sourcegraph.com (S2)
+
+This deployment is also colloquially referred to as "dogfood S2", or just "S2", it was spun up as a response to our change in product direction and becoming Cloud (managed instances) first. We use S2 as our primary dogfooding instance now, and feedback gets shared in [#feedback-dogfood](https://sourcegraph.slack.com/archives/C03CSAER9LK). 
+
+S2 gets deployed every hour between 8am and 10pm UTC on weekdays using an [GitHub Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) that updates the images, creates the PR, and merge the changes. The instance contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images).
+
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-sg)
+- [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/sg)
+- [Operations](../../../../cloud/technical-docs/operations.md)
+
 ### demo.sourcegraph.com
 
 This deployment is used by Sourcegraph CE for demos.
@@ -83,10 +95,3 @@ This deployment is a [managed instance](../../../../cloud/index.md) used by Dist
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
 - [Operations](../../../../cloud/technical-docs/operations.md)
-
-### sourcegraph.sourcegraph.com (S2)
-
-- [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-sg)
-- [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/sg)
-- [Operations](../../../../cloud/technical-docs/operations.md)
-- Deployment schedule: every hour on between 8am and 10pm UTC on weekdays.
