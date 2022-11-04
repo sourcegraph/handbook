@@ -284,6 +284,8 @@ Clone the repo locally and add your override to the `config.global.yaml` or `$CU
 
 Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
 
+When deployed feature flags that had been set in the UI will be overwritten.
+
 ### Modify customer specific GCP Managed Instance labels
 
 Customer specific Managed Instance GCP project labels are generated via [mi sync terraform-vars](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed/-/blob/util/cmd/mi/mg_sync_terraform_vars.go?L23).
