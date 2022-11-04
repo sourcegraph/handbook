@@ -58,7 +58,8 @@ For **urgent requests** or if you're **blocked** on something important, add the
 
 You can also interact with us on **GitHub**:
 
-- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
+- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label
+- To request a code review from us, tag the @sourcegraph/dev-experience team.
 - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#dev-experience-project).
 - We have a public [GitHub Discussions board](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
 
