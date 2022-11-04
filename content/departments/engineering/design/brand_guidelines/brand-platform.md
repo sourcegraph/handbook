@@ -1,18 +1,18 @@
 # Brand platform
 
-<img src="https://user-images.githubusercontent.com/102541294/198370881-c5ac1c22-3c79-4c1a-8384-ed1c2945ff7f.svg" width="500" />  
-  
+<object data="brand-platform-diagram.svg" style="max-height: 32rem; background: #270741; border-radius: 8px"></object>
+
 All aspects of what we do, what we sound like, what’s most important to us, come together to form our brand platform. At its center is our core story, or brand position. Every piece of this platform is influenced by the others. For example, our value of being dev-first is reflected in our voice which is always clear and dev-y. We offer a code intelligence platform, a tool for saving devs time so they can ideate more (accelerating technological progress), which demonstrates our purpose of innovation, and is reflected in our inspiring personality.
 
 This platform was based on outcomes from our [2022 Brand Sprint Workshop](https://docs.google.com/presentation/d/1QqlDvqOOLhdO4R104cVPDgP7Kv8waVSck6rvYdLvm_E/edit?usp=sharing). Watch the video below for more context.
 
-[<img width="500" alt="2022-brand-sprint-results-thumbnail" src="https://user-images.githubusercontent.com/102541294/198674704-c88b7aa3-66c4-449b-a121-db9bab18731f.png">](https://www.loom.com/share/c402715bb05c4d8d81ad03acf52398e6 '2022 Brand Sprint Results')
+<iframe src="https://www.loom.com/embed/c402715bb05c4d8d81ad03acf52398e6" allow="fullscreen"></iframe>
 
 Every style treatment defined in our brand guide–from typeface, to color, to illustrations–is carefully chosen to visually represent our brand platform. Below you'll find a breakdown of each facet of our brand platform.
 
 ## Our what, how, and why
 
-<img src="https://user-images.githubusercontent.com/102541294/198051583-08570d3b-9f35-46e5-9dd4-7ab8603a5f93.svg" width="500" />
+<object data="what-how-why-diagram.svg" style="max-height: 32rem; background: #270741; padding: 16px; border-radius: 8px"></object>
 
 What do we make? A code intelligence platform. How do we do it? By making it really easy to explore, understand, find, and reuse code. Lastly, and most importantly, why do we do this? To accelerate widespread technological progress. We want to make it so everyone can code, but ultimately, we are trying to bring about technological progress that isn’t just reserved for the big companies.
 
