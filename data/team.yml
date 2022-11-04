@@ -1256,16 +1256,6 @@ cesar_jimenez:
   links: '[LinkedIn](https://www.linkedin.com/in/cesarrjimenez/)'
   description: Cesar loves running, hiking, playing board games, listening to music, and going for walks with his wife and baby boy Leo. Favorite video games includes SOCOM 2 and Super Smash Bros Melee too! Proudly on Team Fox/Falco. Cesar used to be a dev bootcamp instructor at Code Fellows and loves cooking, and his favorite thing to do is try out new restaurants.
 
-cristina_birkel:
-  name: Cristina Birkel
-  role: Software Engineer, Backend
-  reports_to: engineering_manager_code_insights
-  location: Cleveland, OH, United States 🇺🇸
-  github: CristinaBirkel
-  email: cristina.birkel@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/cristina-birkel)'
-  description: "During her career in software Cristina has tried on a number of hats, but has always found her way back to writing code. She's passionate about becoming the best version of herself, and loves reading books that help her grow. She eats a mostly paleo diet, has lost the ability to wear shoes that aren't zero-drop, and swears by Kari Pearce Power Abs. Her longest standing hobby is making music, with video games coming in at a close second. She lives in Cleveland, OH with her Canadian wife, a talkative manx cat and an anxious german shepherd."
-
 sara_lee:
   name: Sara Lee
   reports_to: director_design
@@ -1967,16 +1957,6 @@ brock_perko:
   email: brock_perko@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/brock-perko-5094349/)'
   description: 'Brock lives in Mill Valley, CA with his wife and cat. A Bay Area native, he has built a career in Sales working at startups Eventbrite, Slack, and Productiv previously. Outside of work, Brock enjoys hiking in Marin and the California Coast, golf, live music, and nights out in San Francisco at his favorite restaurants. He is also a big fan of cryptocurrencies and Web3 technology, with a personal goal of opening a local deli someday.'
-
-eugenia_fernandez:
-  name: Eugenia Fernandez
-  reports_to: eng_lead
-  role: Product Manager, Search Core
-  location: Sao Paulo, Brazil 🇧🇷
-  github: eugeniaft
-  email: eugenia.fernandez@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
-  description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
 
 chris_warwick:
   name: Chris Warwick

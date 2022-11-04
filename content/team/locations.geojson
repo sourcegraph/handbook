@@ -54,16 +54,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Loïc Guychard"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-4.486198425292969, 48.3904580803747]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Eric Fritz"
             },
             "geometry": {
@@ -569,16 +559,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.332069, 47.606209]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Cristina Birkel"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-81.73553466796875, 41.38299120166604]
             }
         },
         {

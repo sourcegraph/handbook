@@ -16,7 +16,7 @@ search_core:
   title: Search Core
   brief: The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results
   strategy_link: /strategy-goals/strategy/search/core/index.md
-  pm: eugenia_fernandez
+  pm: interim_eng_lead
   em: quinn_slack
   design: rob_rhyne
   pmm: lori_colston
