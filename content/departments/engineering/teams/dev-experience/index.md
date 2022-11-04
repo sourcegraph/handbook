@@ -48,7 +48,7 @@ Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.m
 
 ## Contact
 
-For **questions** and **discussions** about anything related to developer experience, post a message in the #dev-experience channel.
+For **questions** and **discussions** about anything related to developer experience, post a message in the [#dev-experience channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
 
 For **urgent requests** or if you're **blocked** on something important, add the `@dev-experience-support` tag in your message.
 
