@@ -6,7 +6,7 @@ At Sourcegraph, we love celebrating and recognizing the events happening in our 
 
 The People team is responsible for sending gifts for:
 
-- [New hires](celebrate.md#New-hire-kits)
+- [New hires](celebrate.md#New-hires)
 - [Promotions](celebrate.md#Promotions)
 - [New babies](celebrate.md#New-babies)
 - Company offsites
@@ -23,7 +23,7 @@ Managers are welcome to celebrate their teams’ other life events at each teamm
 
 ## Birthdays
 
-Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
+Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the gift amount policy detailed below.
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated. With the teammate's permission, managers should follow the below steps:
 
@@ -155,7 +155,7 @@ If you don't want to use Loop & Tie, here are some other gift ideas!
 
 If you require a teammate's address to send a gift, please ask the teammate directly if they are comfortable sharing their address for gift purposes. (While People Ops and managers do have access to address information, it is considered confidential and just as with other information of sensitive nature, we are unable to share it with others).
 
-## Other branded swag
+## Additional Gifting/Swag
 
 ### Custom internal requests:
 
@@ -182,7 +182,7 @@ Once you’ve completed the google form, someone from the People team will conne
 
 **Brand Guidelines**
 
-When designing custom swag, please follow our [brand guidelines] and run any mock-ups past the [brand team] if you have any questions.
+When designing custom swag, please follow our [brand guidelines](../../departments/engineering/design/brand_guidelines/index.md) and run any mock-ups/questions past the #creative-ops Slack channel prior to ordering.
 
 ### External requests:
 
