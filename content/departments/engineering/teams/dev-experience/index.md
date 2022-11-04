@@ -77,6 +77,7 @@ Read more about [how this team works](./processes.md).
 - Alerts in #dev-experience-alerts
 - [DevX initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
 - [devx-scratch](processes.md#devx-scratch)
+- Playbook for [CI Incidents](../../dev/process/incidents/playbooks/ci.md)
 
 ## Sourcegraph instances operated by us
 
