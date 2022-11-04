@@ -1,97 +1,123 @@
-# Swag
+# Resources for People Team - Internal teammate gifting
 
-This page is intended for the People and Talent team, to outline our current swag offerings and ordering processes.
+This page is intended for internal People team use. It outlines when we gift internal teammates, how we send gifts, what gifts are sent, and who we partner with to fulfill our gifting initiatives.
 
-## New Hire Welcome Kits
+## When we send gifts to teammates
 
-### Inventory
+The People team is responsible for sending gifts for:
 
-Someone from the People team will be monitoring the swag inventory monthly. When any one-size item has a quantity of less than 50 and when any sized item has a quantity of less than 20, that teammate will follow the below steps to order additional swag. The turnaround time typically takes 3-4 weeks.
+- [New hires](internal-swag.md#New-hire-gifting)
+- [Promotions](internal-swag.md#Promotion-gifting)
+- [New babies](internal-swag.md#New-baby-gifting)
+- Company offsites
 
-Note: We will not be ordering additional inventory from our current vendor because we are in the process of switching vendors and anticipate the new kits to be live in July or August 2022. If a teammate joins Sourcegraph prior to August 2022 and the current item(s) are not available in their preferred size, they can slack in #swag channel to request that we wait to order their kit until the new vendor is live.
+Managers are responsible for sending gifts for:
 
-### How to view inventory
+- [Birthdays](internal-swag.md#Work-anniversary-and-birthday-gifting)
+- [Work anniversaries](internal-swag.md#Work-anniversary-and-birthday-gifting)
+- [Team accomplishments](internal-swag.md#Additional-Gifting/Swag)
 
-To view inventory of each of the items in the kit, you need to go to Inventory → Inventory levels → Kits and click on View for each item.
+## Who we partner with to send gifts to teammates
 
-Within the item, you can scroll down and see the number of items in stock in the Inventory section.
+- [Telescope](https://www.telescopestudio.com/) - New hire kits, promotion gifts, new baby gifts, and other miscellaneous internal gifting requests
+- [Loop & Tie](https://www.loopandtie.com/) - Birthdays and work anniversaries
 
-### How to order more inventory
+## New hire gifting
 
-COMING SOON - process will be added once we’re set up with our new vendor
+We currently offer [these items](../../../../benefits-pay-perks/benefits-perks/celebrate.md#new-hire-kits) in our new hire gifts.
 
-## How new hires order their welcome kits - Printfection
+**Reordering inventory**
 
-### Kit types
+The People Team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
 
-We currently have two onboarding Kits: New Team Member Welcome Kit (Form-fit shirt) and New Team Member Welcome Kit (Unisex shirt). Each kit (called Campaigned in Printfection) contains:
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. Inventory production turnaround time is typically 3-4 weeks.
 
-- Asterisk Sticker
-- Logo Sticker
-- Tumbler
-- Sourcegraph Hoodie
-- (Form-fitted or unisex) Star Logo t-shirt
-- Custom Notebook
-- Sourcegraph dress socks
-- Fuzzy Socks
+Telescope emails order the invoices to Finance and Kemper/Michal and Finance actions.
 
-![swag kit](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-kit-real.png)
+**How new hires order their gift**
 
-### Email Template
+After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire welcome kit and this information: "Order your Sourcegraph swag pack! Use the link below to select your T-shirt and hoodie size, provide your shipping address and start date, and place your order."
 
-After a new hire signs their contract with us, the People team will send an email that includes a link to both of the kit options. The new hire is responsible for selecting the kit they want and submitting an order to redeem their onboarding swag. When they submit their new hire welcome kit order, it will be fulfilled using inventory that we have in stock based on what was previously purchased by the People/Talent team.
+The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with [Telescope](https://www.telescopestudio.com/).
 
-Onboarding swag email template:
+Once an order is placed, the new hire will get an email confirmation with delivery details. Sourcegraph covers the shipping cost, which varies depending on the shipping destination. We can view recent shipping costs in the invoices Telescope emails to PeopleOps/Finance.
 
-Hi XXX,
+## Promotion gifting
 
-Great news, your swag is now ready to order! 🎉
+The People Team is currently working to develop a custom promotion gift, but in the meantime, we encourage Managers to [share the news broadly and recognize their teammates’ accomplishments!](../../../../benefits-pay-perks/benefits-perks/celebrate.md#promotions)
 
-Choose the type of t-shirt you want (you should choose one or the other). Just click on the link below, select the T shirt type you want (Form-fitted or Unisex/Men) and fill out all required fields to order your pack (we recommend ordering a size up for your hoodie if you want a looser fit):
+**Reordering inventory**
 
-Please choose between the Form-fitted style OR the Unisex/men style and only place one order total. Attached you can find the [size charts for each](https://drive.google.com/drive/folders/1oI7hG_cdz3RRUWQmZErk3ZrwFWKaoQHt).
+The People Team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
 
-Let me know if you have any questions!
-Best,
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. Inventory production turnaround time is typically 3-4 weeks. Best practice is to work with Telescope ahead of each Impact Review season to ensure we’re prepared for upcoming estimated promotion gifting.
 
-### Ordering Link
+Telescope emails the order invoices to Finance and Kemper/Michal and Finance actions.
 
-There will be a link included in the Email Template that is sent to new hires to order a New Hire Welcome Kit. The link will allow the new hire to select whether they want the Form-fitted shirt or the Unisex shirt. New hires will choose one or the other. It is important for teammates to choose only one and redeem it just once, as the link can be used multiple times. _Please do not share the link publicly._
+**How the People Team sends promotion gifts**
 
-Once they select their shirt style, they need to follow these two simple steps:
+For one-off promotions, gifts will be ordered by the People team through the [Telescope Storefront](https://sourcegraph.telescopestudio.com/). Simply select 'Kits' from the menu bar, then select the Promotion kit, and checkout using the teammates' shipping address listed BambooHR.
 
-1. Choose the size for the Tshirt and hoodie ![size](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-size-real.png)
-2. Enter shipping information (it can be international). Once they do that, they will get an email with delivery details. ![shipping](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-shipping.png)
+To send promotion gifts in bulk, create a spreadsheet with each teammate's name, email, shipping address. Then, email the spreadsheet to chloe@telescopestudio.com and kyra@telescopestudio.com.
 
-### Delivery
+## New baby gifting
 
-For each link that is redeemed, Sourcegraph pays the shipping costs. This recurring cost will vary depending on the amount of kits sent and the shipping destinations.
+We currently offer [these items](../../../../benefits-pay-perks/benefits-perks/celebrate.md#new-babies) in our new baby gifts.
 
-To see the cost of recent deliveries in the Printfection portal, click Campaigns → Giveaways to see the Recent Redemptions section. If you click on View Order, you can see the cost of delivery for each one. On average, we can estimate about $25 USD for US deliveries and $50 USD for international deliveries.
-![delivery](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-delivery.png)
+**Reordering inventory**
 
-## Additional Swag
+The people team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope.
 
-For any swag that is not on [this list](../../swag.md), we use a vendor named [Telescope](https://www.telescopestudio.com/). In the event a teammate wants to order custom swag for other occasions, such as a team trip or celebration, they will fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide necessary information such as: the occasion, type of swag they want, delivery deadline, quantity, and countries for delivery.
+Telescope monitors the inventory levels and production timeframes of each item and will reach out via email for re-order approval at the necessary times to avoid running out of stock. Inventory production turnaround time is typically 3-4 weeks.
 
-Note: Unlike new hire kits, the budget for any additional swag is the responsibility of the team requesting the order - this must be confirmed prior to beginning the ordering process.
+Telescope emails the order invoices to Finance and Kemper/Michal and Finance actions.
 
-After the teammate has submitted the google form, the People team will start an email thread using the template below to connect the teammate with Telescope, who will facilitate the rest of the ordering process.
+**How the People Team sends baby gifts**
 
-**Custom Swag Email Template:**
-Hi Telescope team,
+The People team sends a new baby gift at the beginning of a teammates' parental leave. This gift will be ordered by the People team through the [Telescope Storefront](https://sourcegraph.telescopestudio.com/). Simply select 'Kits' from the menu bar, then select the Baby Kit, and checkout using the teammates' shipping address listed BambooHR.
 
-I’d like you to meet [insert teammate’s name]. They would like to begin a custom swag order. Details are provided below. Please let [insert teammate’s name] know what other information you need to get started.
+## Work anniversary and birthday gifting
 
-Occasion:
+Managers are responsible for sending anniversary and birthday gifts to their teammates. Our recommendation is for managers to use [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie), which will be put onto a company card and then later reclassed into the correct team’s budget.
 
-- Type of swag (ex: hats, backpacks, etc.)
-- Custom design request(s)
-- Delivery deadline
-- Quantity
-- Countries you’ll be shipping to
-- Any other notes
+**People Team actions:**
 
-Thank you!
+- Every Monday, Kemper sends this slack message to managers who have teammates with a birthday or anniversary in the upcoming week:
+  \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
+  _Please:_
+  - _Make a post in #thanks if you haven’t already (suggestions can be found here)_
+  - _[Order a Loop & Tie gift](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie)_
+  - _Respond with a :white_check_mark: when both of the above actions are completed!_
+- On the 1st of each month, the People team (Kemper) will send an email to finance@sourcegraph.com with a breakdown of what charges have been placed on the Loop & Tie card and which team’s to reclass the charges into.
 
-[Your Name]
+## Additional Gifting/Swag
+
+In the event a teammate wants to order custom gifts for other occasions, such as a team trip, team celebration, or any event that is not on [this list](../../../../benefits-pay-perks/benefits-perks/celebrate.md#when-we-send-gifts-to-teammates), we use [Telescope](https://www.telescopestudio.com/).
+
+**The budget will be the responsibility of the team requesting the order - this must be confirmed prior to beginning the ordering process.**
+
+Teammates can initiate an order by filling out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide necessary information such as: the occasion, type of swag they want, delivery deadline, quantity, and countries for delivery.
+
+After submitting the form, the People Team will start an email thread using the template below to connect the teammate with Telescope, who will facilitate the rest of the ordering process.
+
+_Hi Telescope team,_
+
+_I’d like you to meet [insert teammate’s name]. They would like to begin a custom order. Details are provided below. Please let [insert teammate’s name] know what other information you need to get started._
+
+_Occasion:_
+
+_- Type of swag (ex: hats, backpacks, etc.)_
+
+_- Custom design request(s)_
+
+_- Delivery deadline_
+
+_- Quantity_
+
+_- Countries you’ll be shipping to_
+
+\_- Any other notes\_\_
+
+_Thank you!_
+
+_[Your Name]_

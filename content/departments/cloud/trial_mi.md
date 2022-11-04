@@ -24,9 +24,13 @@ The difference from paid Managed Instances:
 
 ## Request Trial Managed Instance
 
-The [requesting Trial Managed Instance](./index.md#managed-instance-requests) process is similar to paid one, except it's raised by opening a [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D)
+[Trial Managed Instance Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
 
-> NOTE: The "cloud-trial" label added to the instance creation request GH issue is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
+Only for trials requested from [signup](https://signup.sourcegraph.com/):
+
+[Trial managed instance request issue from signup](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D)
+
+> NOTE: The "cloud-trial" label added to the instance creation request GH issue from [signup](https://signup.sourcegraph.com/) is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
 
 ## New Trial Managed Instance create SLA (since 27th of September 2022)
 
@@ -70,7 +74,11 @@ When trial expires and should be extended (by default 30 days), the instance req
 
 ## Convert trial to paying customer
 
-When customer has decided to sign the deal, instance requestor will create [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will modify GCP label `instance-type=production`.
+When customer has decided to sign the deal, instance requestor will create [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will:
+
+- cd `deploy-sourcegraph-managed/CUSTOMER`
+- modify GCP label '`instanceType: production`' in `config.yaml`
+- follow [modify GCP customer label](./technical-docs/operations.md#modify-customer-specific-gcp-managed-instance-labels)
 
 ## Teardown Trial Managed Instance
 
@@ -82,8 +90,9 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 2. Based on the time of issue creation:
 
    - Within Cloud Team working hours (`Monday to Friday - 7:00 AM GMT - 10:00 PM GMT`)
-     - [GitHub Integration](https://sourcegraph.app.opsgenie.com/settings/integration/edit/GitHub/f69b65ee-8cbe-4557-8ed8-13b294c45667?teamId=9ec2825d-38da-4e2b-bdec-a0c03d11d420) will send alert to [cloud-trial-creator Opsgenie route](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main)
-     - This alert will notify Cloud Team member, who should Acknowledge the alert and proceed to p.3
+     - [GitHub integration](https://sourcegraph.app.opsgenie.com/settings/integration/edit/GitHub/f69b65ee-8cbe-4557-8ed8-13b294c45667?teamId=9ec2825d-38da-4e2b-bdec-a0c03d11d420) will send alert to the ["cloud-trial-creator" Opsgenie route](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main).
+     - This alert will notify Cloud Team member, who should Acknowledge the alert and proceed to p.3.
+     - In order to distinguish trial request alerts from regular production alerts, we configured the GitHub integration to always include a unique string `979574e0-39be-11ed-a261-0242ac120002` in the alert message, and trial alerts are being filtered out in our catch-all Slack integration (which sents all alerts to #opsgenie). This technique also helps us set up different on-call routing for trial request alerts and production alerts within the Cloud team.
    - Outside of Cloud Team working hours
      - Cloud Team will receive new Trial Managed Instance request via email and on-call person should proceed to p.3 withing 1 working day
 
@@ -102,7 +111,8 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
 4. Finalisation
 
-   - A Cloud team member needs to sign in to the instance through basic authentication to apply the license key in order to have the SSO option available. Credentials of the default admin users of each instance could be found in the GSM of the respective GCP projects.
+   - A cloud team member needs to set the license on the instance (the license key will be created by product growth and added in the instance request issue)
+     - run `mi set-license -license-key "$LICENSE_KEY"`
    - When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
    - Also add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 

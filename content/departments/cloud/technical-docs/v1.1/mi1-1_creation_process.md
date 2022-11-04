@@ -3,40 +3,44 @@
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
+> If GitHub Actions is not available, we should fallback to [manual creation](#gitHub-action-creating-managed-instance-failed).
+
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
-1. Cloud Team invoke Github Actions with following parameters:
+1. Cloud Team invoke GitHub Actions with following parameters:
 
-- `customer` - name of customer
-- `ce_email` - email of Customer Engineer from issue
-- `customer_email` - customer admin email (only one from provided in issue)
-- `instance_type` - purpose of this instance
+   - `customer` - slug for the customer, e.g. `acme`
+   - `ce_email` - email of Customer Engineer from issue
+   - `customer_email` - customer admin email (only one from provided in issue), e.g. `logan@acme.com`
+   - `email_domain` - initial customer email domain, e.g. `acme.com`
+   - `instance_type` - purpose of this instance
+     - `trial` - for customer trial
+     - `production` - for paying customer
+     - `internal` - for internal Sourcegraph usage
+   - `instance_size` - bundle size of this intance
+   - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
 
-      trial - for customer trial
+   via command line:
 
-      production - for paying customer
+   ```
+   gh workflow run mi_create.yml \
+     -f customer=$CUSTOMER \
+     -f ce_email=$CE_EMAIL \
+     -f customer_email=$CUSTOMER_EMAIL \
+     -f email_domain=$EMAIL_DOMAIN \
+     -f instance_type=[production|trial|internal] \
+     -f instance_size=[small|medium|large] \
+     -f user_level_telemetry=[true|false]
+   ```
 
-      internal - for internal Sourcegraph usage
+   or via [GitHub Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml).
 
-  via command line:
-
-  ```
-  gh workflow run mi_create.yml \
-    -f customer=$CUSTOMER \
-    -f ce_email=$CE_EMAIL \
-    -f customer_email=$CUSTOMER_EMAIL \
-    -f instance_type=[production|trial|internal] \
-    -f instance_size=[small|medium|large]
-  ```
-
-  or via [Github Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
-
-  Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
+   Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
 
 1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
 
 Note:
 
-- GCP metrics monitoring and alerting is applied automatically via scheduled [Github Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
+- GCP metrics monitoring and alerting is applied automatically via scheduled [GitHub Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 - Security audit logging is applied automatically via a scheduled [GitHub Actions Worflow](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml)
 
 ## Optional: customise instance size
@@ -55,7 +59,7 @@ Customisation is done via:
 Generate password reset link for customer:
 
 ```bash
-mg reset-customer-password --email <customer admin email>
+mi reset-customer-password --email <customer admin email>
 ```
 
 #cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
@@ -65,7 +69,7 @@ Hi,
 
 The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
 
-Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+Here's the link to the password reset link <>. Please note the link will expire after 72 hours.
 ```
 
 ### Enable "private" mode
@@ -119,3 +123,16 @@ When [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/a
 - finalise creation of Managed Instance - perform steps from [this flow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_create.yml) starting from the one which failed
 - ensure to open Pull Request as the last step and add Cloud Team as reviewer
 - prepare fix and open Pull Request
+
+### Creating a budget
+
+Budgets are applied as a separate module.
+To create a budget you need to run a terraform apply in the `budget` directory.
+Budgets are viewable in the [GCP console](https://console.cloud.google.com/billing/budgets).
+
+```sh
+# required to access budget APIs in GCP
+export GOOGLE_IMPERSONATE_SERVICE_ACCOUNT=mi-creator-github@sourcegraph-secrets.iam.gserviceaccount.com
+# in the buget directory
+terraform apply -var-file=../terraform.tfvars
+```

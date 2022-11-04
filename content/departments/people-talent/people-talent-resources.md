@@ -12,7 +12,7 @@
 - Compensation & Leveling
 - [Offboarding Process](people-ops/tools/internal-offboarding.md)
 - [Internal mobility process](people-ops/tools/internal-mobility.md)
-- [Compliance](people-ops/tools/compliance.md)
+- [Compliance](people-ops/tools/internal-compliance.md)
 - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
 - Swag
 - [Avatar creation](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit)

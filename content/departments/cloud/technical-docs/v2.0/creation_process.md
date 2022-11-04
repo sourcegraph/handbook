@@ -1,4 +1,4 @@
-# Creating a managed instance
+# Creating a Cloud instance
 
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
@@ -12,99 +12,163 @@ git clone https://github.com/sourcegraph/cloud
 cd cloud
 ```
 
+Install `mi2` binary
+
+```sh
+go install ./cmd/mi2/
+```
+
 ## Steps
 
 > See flow chart https://app.excalidraw.com/s/4Dr1S6qmmY7/2wUSD4kIxRo
 
 1. [Set environment variables](#Set-environment-variables)
 1. [Check out a new branch](#Check-out-a-new-branch)
-1. [Init deployment artifacts - GCP Project](#init-deployment-artifacts---gcp-project)
-1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts---infrastructure)
-1. [Init deployment artifacts - K8S](#init-deployment-artifacts---k8s)
+1. [Init instance config](#init-instance-config)
+1. [Init deployment - generate cdktf stacks artifacts](#init-deployment---generate-cdktf-stacks-artifacts)
+1. [Init deployment - create terraform cloud workspaces](#init-deployment---create-terraform-cloud-workspaces)
+1. [Init deployment - deploy cdktf stacks](#init-deployment---deploy-cdktf-stacks)
+1. [Init deployment - generate kustomize artifacts](#init-deployment---generate-kustomize-artifacts)
+1. [Init deployment - deploy apps](#init-deployment---deploy-apps)
 1. [Deploy application](#deploy-application)
+1. [Enable backup](#enable-backup)
 1. [Commit your changes](#Commit-your-changes)
 
 ### Set environment variables
+
+> Sharing `TF_TOKEN_app_terraform_io` is only temporary, this is expected to change in the future.
+
+Bash
 
 ```sh
 export SLUG=company
 export DOMAIN=company.sourcegraph.com
 export ENVIRONMENT=dev
+export TF_TOKEN_app_terraform_io=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=TFC_TEAM_TOKEN)
+```
+
+Fish
+
+```sh
+set -x SLUG company
+set -x DOMAIN company.sourcegraph.com
+set -x ENVIRONMENT dev
+set -x TF_TOKEN_app_terraform_io (gcloud secrets versions access latest --project=sourcegraph-secrets --secret=TFC_TEAM_TOKEN)
 ```
 
 ### Check out a new branch
+
+This will create a `config.yaml` for the instance, this is the source of truth of instance specification.
 
 ```sh
 git checkout -b $SLUG/create-instance
 ```
 
-### Init deployment artifacts - GCP Project
-
-`mi2 generate` will
-
-- generate the terraform module and prompt you to apply the terraform module
-- generate the kustomization manifests and helm override based on output from the terraform module
+### Init instance config
 
 ```sh
-mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+mi2 instance create -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
-
-Above command will fail on the first run, follow the prompt to manually apply the terraform module or you can just run the command below
-
-Before applying the terraform modulel, gather the computed values and configure them as environment variables
 
 ```sh
 export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
-export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
 ```
 
-Apply the `project` terraform module
+Change the Terraform Cloud run mode to CLI-driven
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/project
-terraform init
-terraform apply
+mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
 ```
 
-### Init deployment artifacts - Infrastructure
+### Init deployment - generate cdktf stacks artifacts
 
-Rerun the `generate` command to generate the infra terraform module.
+Generate the terraform (cdktf) modules (stacks) and prompt you to apply the terraform module
 
 ```sh
-mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+mi2 generate cdktf -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-Above command will fail again, run the command below to manually apply the `infra` terraform module.
+### Init deployment - create terraform cloud workspaces
+
+We use Terraform Cloud (TFC) as remote state backend and remote execution of Terraform. For terraform module we generate later has its own isolated state (a TFC workspace).
+Therefore, we need pre-provision those workspaces on TFC ahead of time.
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-terraform init
-terraform apply
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
-### Init deployment artifacts - K8S
-
-Rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
-
 ```sh
-mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+npx --yes cdktf-cli@0.13.0 deploy tfc
 ```
 
-### Deploy application
+### Init deployment - deploy cdktf stacks
 
-Connect to the cluster locally by running
+> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.0` under the instance root in case things are not working as intented
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
-gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
+```
+
+```sh
+npx --yes cdktf-cli@0.13.0 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+```
+
+### Init deployment - generate kustomize artifacts
+
+Go back to the repo root directory, rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
+
+```sh
+mi2 generate kustomize -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+```
+
+### Init deployment - deploy apps
+
+Run command below to obtain the commands to target the new cluster
+
+```sh
+mi2 workon -e $ENVIRONMENT --slug $SLUG
+```
+
+Copy and run the output `gcloud` and `kubectl` commands, you shall see something like
+
+```sh
+gcloud container clusters get-credentials src-$random_hash --region us-central1 --project src-$random_hash
+kubectl config set-context gke_src-$random_hash_us-central1_src-src-$random_hash --namespace=src-$random_hash
 ```
 
 Deploy the manifests
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
+```
+
+```sh
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
+```
+
+### Enable backup
+
+Enable daily backup for GKE cluster
+
+```sh
+cd sourcegraph/cloud
+mi2 instance sync --slug $SLUG -e $ENVIRONMENT
+```
+
+### Wrapping up
+
+Revert back up VCS-driven mode
+
+```sh
+mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)' --slug $SLUG -e $ENVIRONMENT
+```
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
+```
+
+```sh
+npx --yes cdktf-cli@0.13.0 deploy tfc
 ```
 
 ### Commit your changes

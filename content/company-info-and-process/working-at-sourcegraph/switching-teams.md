@@ -57,7 +57,7 @@ Teammates can’t be in split roles for any period of time, they can’t be resp
 
 ### Headcount and budgets transfer with the teammate
 
-The team that the teammate departs would have an additional opening (or additional budget) for hiring, while the new team would now have a filled spot.
+Depending on the situation, the team that the teammate departs may have an additional opening (or additional budget) for hiring after the transfer, while the new team would now have a filled spot.
 
 ### Compensation and level may change
 
@@ -65,7 +65,7 @@ The teammate must accept that the new role may come with different compensation 
 
 ## Announcing a teammate transfer
 
-Once the offer is official, the **new** Hiring Manager follows the below steps. You can read more about the internal transfer process [here](../../departments/people-talent/people-ops/tools/manager-guide.md#managing-a-role-change)
+Once the offer is official, the **new** Hiring Manager follows the below steps. You can read more about the [internal transfer process](../../departments/people-talent/people-ops/tools/manager-guide.md#managing-a-role-change)
 
-1. Announces the news in #Teammate-announce.
-1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) to alert People Ops of the change and ensure that the teammate's new team & manager are listed accurately in Bamboo.
+1. Submits the role change requst in Bamboo.
+2. Announces the news in #teammate-announce.

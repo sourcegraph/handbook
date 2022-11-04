@@ -18,7 +18,6 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 ## Docs
 
 - [Values enablement](support-values-enablement.md)
-- [Career roadmapping](../../career-growth/career-roadmap.md)
 - [Tips for considering how you want to shape your voice/style for our audience](shape-your-voice.md)
 - [How engineering and support learn from each other](eng-support-learn-from-eachother.md)
 - [Debugging tips](debugging-tips.md)
@@ -28,7 +27,6 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
 - [How to Migrate Sourcegraph from one Cluster to another](k8-migration.md)
 - [Kubernetes and Docker](k8s-resources.md)
-- [Determining root cause](root-cause.md)
 - [Using code insights to monitor recently resolved tickets](keeping-up-with-resolved-issues.md)
 - [Application Engineers guide to getting started with Sourcegraph logging, services, and observability](../../tools/support-logging-guide.md)
 
@@ -48,6 +46,9 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to deploy Sourcegraph locally with minikube](https://drive.google.com/file/d/1t4lFa6PwPkkXFiGVrS3ST-NnkH99OqOL/view?usp=sharing)
 - [Intro to Overlays](https://drive.google.com/file/d/1S82jOsrNu4zUegj5Fich9njcav80vLVd/view?usp=sharing)
 - [Redis Crash Course](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
+- [Repo permissions deep dive](https://drive.google.com/file/d/1rTB3QB1Vm-_zB7zOTIC5rJhrmmm3sgTa/view)
+- [Authentication](https://drive.google.com/file/d/1C5XFQIXkWOsgBQxz4izWcG_Ku6YlY4zc/view)
+-
 
 ## Informational Pages
 

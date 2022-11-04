@@ -1,6 +1,6 @@
 # People Ops Project Management
 
-The People Ops team manages their projects through a team [Trello Board](https://trello.com/b/VE2yJlnT/peopleops-q4-fy22) that is updated weekly. There, you can see People Ops projects slated for the current quarter. If you have questions regarding any of the content on this board, contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+The People Ops team manages their projects through a team [Trello Board](https://trello.com/b/VE2yJlnT/peopleops-q4-fy22) that is updated weekly. There, you can see People Ops projects slated for the current quarter. If you have questions regarding any of the content on this board, contact the People Team in #ask-people-team in Slack.
 
 ## What goes on the Trello board?
 

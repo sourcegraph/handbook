@@ -83,6 +83,9 @@ In addition to the above iteration planning process, we maintain a parallel desi
 1. Issues tagged `needs-design` should only ever have the designer assigned. We do not un-assign the designer and then re-assign engineers; we move the issue to done and create new engineering issues. We do this because:
    1. Past experience has taught us that this causes confusion as to the status of an issue, as it's possible for an issue to from "in progress" on design back to "todo" on engineering.
    1. Often, designs are larger than a single engineering issue and we want to default to engineers breaking up a project into smaller items, rather than reusing a larger and imperfect issue.
+1. During the design phase, the Designer creates and maintains a design changelog that is available as a separate Figma page and is linked from the main design issue. The design changelog is created to keep track of the key or pivotal design decisions for a given project as well as the reasoning behind them.
+   1. The design changelog is primarily useful for big projects. Smaller issues may not require creating the changelog.
+   1. When re-opening the discussion about the past design decision, please read the design changelog first to make sure that your point wasn't addressed earlier and that new information came to light that warrants reconsidering the decision.
 
 ## Project Leads
 
@@ -153,6 +156,7 @@ Larger (usually multi-iteration) projects coming from our roadmap go through thr
 3. **Implementation and testing** (usually 1–4 weeks)<br>
    Engineers execute on the implementation plan, putting a set of issues from the project into each iteration.
    This also includes that each sub-implementation-task is sufficiently tested, meaning by the end of this phase the project is ready to ship to customers with confidence.
+   When we are in testing phases, we prefer to make small issues for each problem discovered, and err on the side of too many testing issues (with duplicates, which are easy to close) rather than not filing something because we are worried about duplicates.
 
 We sequentialize and parallelize projects in a way that we can _plan_ projects (step 1 and 2) while another project is currently being _implemented_, so that we always have the next project ready to be implemented by the time a project has finished implementation.
 We will however make sure to never have multiple projects in planning phase at the same time, as this leads to cognitive overload while also delivering on an implementation for another projects.
