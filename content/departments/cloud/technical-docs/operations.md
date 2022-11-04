@@ -278,6 +278,8 @@ Add the following to the instance's docker-compose override and [apply docker-co
 
 ### Adding feature flags
 
+> Feature flags are considered managed config. Any change in the UI will be overwritten by our [sync config cronjob](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+
 Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
 
 Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
