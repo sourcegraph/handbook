@@ -24,7 +24,7 @@ Managers are responsible for sending gifts for:
 
 ## New hire gifting
 
-We currently offer [these items](../../../../benefits-pay-perks/benefits-perks/celebrate.md#new-hire-kits) in our new hire gifts.
+We currently offer [these items](../../../../benefits-pay-perks/benefits-perks/celebrate.md#new-hires) in our new hire gifts.
 
 **Reordering inventory**
 
