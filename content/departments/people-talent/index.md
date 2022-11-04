@@ -55,7 +55,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
 - [How to set up BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
-- [Onboarding swag](people-ops/tools/internal-swag/#new-hire-gifting)
+- [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Managing remote work](../../company-info-and-process/remote/index.md)
 - [Working asynchronously](../../company-info-and-process/communication/asynchronous-communication.md)
