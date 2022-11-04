@@ -4,6 +4,8 @@
 
 The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
 
+Need DevX help or support? Jump to the [Contact section](#contact).
+
 ## Members
 
 {{generator:product_team.dev_experience}}
@@ -46,10 +48,20 @@ Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.m
 
 ## Contact
 
-- **Discussions and questions**: #dev-experience channel, @dev-experience, and [developer experience GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
-- **[Support](processes.md#support)**: `@dev-experience-support` in Slack
-- **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
-  - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#dev-experience-project).
+For **questions** and **discussions** about anything related to developer experience, post a message in the [#dev-experience channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
+
+For **urgent requests** or if you're **blocked** on something important, add the `@dev-experience-support` tag in your message.
+
+- The `@dev-experience-support` tag will ping an on-call member of the DevX team.
+- Requests tagged with `@dev-experience-support` will get priority support.
+- Please use the `@dev-experience-support` tag only for issues that require immediate attention.
+
+You can also interact with us on **GitHub**:
+
+- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label
+- To request a code review from us, tag the @sourcegraph/dev-experience team.
+- We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#dev-experience-project).
+- We have a public [GitHub Discussions board](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience). You can also create a discussion directly on our board with the command `sg feedback`
 
 > NOTE: When referring to this team, prefer to use _Dev Experience_ or _DevX_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
 
@@ -77,6 +89,7 @@ Read more about [how this team works](./processes.md).
 - Alerts in #dev-experience-alerts
 - [DevX initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
 - [devx-scratch](processes.md#devx-scratch)
+- Playbook for [CI Incidents](../../dev/process/incidents/playbooks/ci.md)
 
 ## Sourcegraph instances operated by us
 
