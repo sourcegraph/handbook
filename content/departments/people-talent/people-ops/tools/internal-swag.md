@@ -96,7 +96,7 @@ In the event a teammate wants to order custom gifts for other occasions, such as
 
 **The budget will be the responsibility of the team requesting the order - this must be confirmed prior to beginning the ordering process.**
 
-Teammates can initiate an order by filling out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide necessary information such as: the occasion, type of swag they want, delivery deadline, quantity, and countries for delivery.
+Teammates can initiate an order by filling out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide necessary information such as: the occasion, type of swag they want, delivery deadline, quantity, and countries for delivery. Form responses can be found [here](https://docs.google.com/forms/d/1YUz8_Bbd9H-Kip00da50iB_xZqQuQhSu7Y-1ghbI_jE/edit#responses).
 
 After submitting the form, the People Team will start an email thread using the template below to connect the teammate with Telescope, who will facilitate the rest of the ordering process.
 
