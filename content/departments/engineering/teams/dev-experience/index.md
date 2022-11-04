@@ -61,7 +61,7 @@ You can also interact with us on **GitHub**:
 - [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label
 - To request a code review from us, tag the @sourcegraph/dev-experience team.
 - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#dev-experience-project).
-- We have a public [GitHub Discussions board](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
+- We have a public [GitHub Discussions board](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience). You can also create a discussion directly on our board with the command `sg feedback`
 
 > NOTE: When referring to this team, prefer to use _Dev Experience_ or _DevX_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
 
