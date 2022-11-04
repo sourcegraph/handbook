@@ -11,10 +11,10 @@ quinn_slack:
   links: '[slack.org](https://slack.org), [@sqs](https://twitter.com/sqs), [LinkedIn](https://www.linkedin.com/in/quinnslack)'
   description: 'Quinn loves programming and wants to make it so everyone can code. Prior to Sourcegraph, he co-founded [Blend](https://blend.com/) (IPO in 2021), wrote code inside the top 2 US banks at Palantir, studied Computer Science at Stanford, built TLS password auth for curl and other open-source projects, and was the first employee and engineer at Bleacher Report.'
 
-interim_eng_lead:
-  name: Quinn Slack
+steve_yegge:
+  name: Steve Yegge
   reports_to: ceo
-  role: Interim Engineering Lead (and CEO)
+  role: Head of Engineering
   manager_role_slug: eng_lead
   hide_on_team_page: true
 
@@ -211,6 +211,14 @@ felix_becker:
   email: felix@sourcegraph.com
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
   description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
+
+felix_becker_code_exploration:
+  name: Felix Becker
+  pronouns: he/him
+  role: Engineering Manager, Code Exploration
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_code_exploration
+  hide_on_team_page: true
 
 dave_try:
   name: Dave Try
@@ -516,7 +524,7 @@ tom_ross:
   name: Tom Ross
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: York, North Yorkshire, UK 🇬🇧
   github: umpox
   email: tom@sourcegraph.com
@@ -676,7 +684,7 @@ valery_bugakov:
   name: Valery Bugakov
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: Bali, Indonesia
   github: valerybugakov
   email: valery@sourcegraph.com
@@ -721,7 +729,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: engineering_manager_code_exploration
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -1627,8 +1635,8 @@ casi_neff:
 philipp_spiess:
   name: Philipp Spiess
   pronouns: he/him
-  role: Full-Stack Engineer, Growth and Integrations
-  reports_to: eng_lead
+  role: Full-Stack Engineer
+  reports_to: engineering_manager_code_exploration
   location: Vienna, AT 🇦🇹
   pronunciation: '[ˈʃpiːs](http://ipa-reader.xyz/?text=%CB%88%CA%83pi%CB%90s&voice=Marlene)'
   email: philipp.spiess@sourcegraph.com
@@ -1982,7 +1990,7 @@ laura_hacker:
   name: Laura Hacker
   pronouns: she/her
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: Grand Rapids, MI, USA 🇺🇸
   github: lrhacker
   pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'

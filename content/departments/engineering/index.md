@@ -32,6 +32,7 @@ Notes:
 - [Admin Analytics Tiger Team](teams/admin-analytics/index.md)
 - [Batch Changes](teams/batch-changes/index.md)
 - [Code Insights](teams/code-insights/index.md)
+- [Code Exploration](teams/code-exploration/index.md)
 - [Code Intelligence](teams/code-intelligence/index.md)
 - [Content Platform](teams/content-platform/index.md)
 - [Delivery](teams/delivery/index.md)
