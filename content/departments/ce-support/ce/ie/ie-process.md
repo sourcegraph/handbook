@@ -9,6 +9,7 @@ For information on recommended deployment types and strategies, visit [Implement
 For general information on the roles and responsibilities throughout a customer's lifecycle, visit the [Customer Lifecycle RACI](https://docs.google.com/spreadsheets/d/1q6dnHpgZcbgpTAEN3_zgyrrk6pByLIf7xNWsNrO0QVk/edit#gid=227625307).
 
 # Jointly Deployed vs. Jointly Managed
+
 - _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The implementation team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, pimarily in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access into customer environments.
 - _Jointly Managed_: This will be a paid offering for self-hosted customers that provides a focused TA (often with environment badged access) for dedicated post-deployment work such as upgrades, feature expansions, and environment management. The goal of this offering is to reduce or eliminate the need for dedicated customer admins while ensuring a high quality instance and priority Sourcegraph support.
 
