@@ -1,6 +1,6 @@
 # Implementation and TA Collaboration Overview
 
-This document is a work in progress to give an overview of the integration and collaboration between the implementation team and the technical advisor (TA) when a jointly managed deployment is completed.
+This document is a work in progress to give an overview of the integration and collaboration between the implementation team and the technical advisor (TA) when a jointly deployed implementation is completed.
 
 # Inputs from Implementation
 
