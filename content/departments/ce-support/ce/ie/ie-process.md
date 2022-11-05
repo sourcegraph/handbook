@@ -1,12 +1,8 @@
 # Implementation Overview
 
-This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for customers utilizing the _Jointly Deployed_ offering with assistance from the Implementation Team. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
-
-To review the long-term work and goals of the implementation team, please review the [Jointly Deployed Roadmap](https://docs.google.com/spreadsheets/d/1cXquABcSYxAKG38ol1yQFSWWslueck9vayAcOxPLga8/edit#gid=0).
+This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for customers utilizing the _Jointly Deployed_ offering with assistance from the Implementation Team. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in specific scenarios.
 
 For information on recommended deployment types and strategies, visit [Implementation Strategies](./impl-strategies.md).
-
-For general information on the roles and responsibilities throughout a customer's lifecycle, visit the [Customer Lifecycle RACI](https://docs.google.com/spreadsheets/d/1q6dnHpgZcbgpTAEN3_zgyrrk6pByLIf7xNWsNrO0QVk/edit#gid=227625307).
 
 # Jointly Deployed vs. Jointly Managed
 
