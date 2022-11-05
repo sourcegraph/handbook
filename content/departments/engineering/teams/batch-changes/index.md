@@ -32,13 +32,15 @@ Our two-week sprints start every other Wednesday. On the Tuesday before, we have
 
 ## Working Agreements
 
-- To avoid siloing of knowledge and to keep teammates happy, we make sure that everyone gets a chance to work in different areas of the codebase. In particular, we don't want tasks in area X to always default to person P. We want to strike a healthy balance between spreading knowledge around and building individual expertise in one area.
-- We do not schedule team meetings on Fridays. (Folks are free to pair on Fridays if they want.)
+- To avoid siloing of knowledge and to keep teammates happy, we make sure that everyone gets a chance to work in different areas of the codebase. In particular, we don't want tasks in area X to always default to person P. We want to strike a healthy balance between spreading knowledge around and building individual expertise in one area. If only one person knows X, we should have a knowledge sharing session about it.
+- We do not schedule team meetings on Wednesdays or Fridays. (Folks are free to pair on these days if they want.) We try to keep our meetings between 8a-10a PT.
 - We do not scramble to get last-minute changes in before branch-cut. (If it's a blocking issue, there's [a process for that](../../dev/process/releases/index.md#issues).)
 - If there is no agenda in our sync doc (for our team syncs) 30 minutes before the meeting starts, then the meeting will be cancelled.
 - If a process isn't serving us, we are quick to either change it or get rid of it.
 - We aim to improve the developer experience of working on the Batch Changes and the larger Sourcegraph codebase as we work on it. We do that by allowing ourselves to set aside time to implement improvements if we see a chance to do so. For example: it's okay to spend half a day improving our test tooling if we know that it will make things easier for us and others in the future.
 - By default, we record team meetings with 3+ participants (with exceptions for social meetings and retros).
+- Once per quarter, we have a _sustaining sprint_ where we focus only on tech debt, quality-of-life improvements for ourselves, and other improvements that are not immediately visible to our customers. This keeps us performing at our best, and we just deserve it.
+- We have two team offsites each year.
 
 ## Team Communication
 
