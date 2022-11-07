@@ -112,6 +112,8 @@ _Occasion:_
 
 _- Type of swag (ex: hats, backpacks, etc.)_
 
+_- Budget for the project_
+
 _- Custom design request(s)_
 
 _- Delivery deadline_
