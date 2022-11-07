@@ -100,13 +100,15 @@ Sourcegraph employees should also inquire as to whether customer references / te
 
 ##### NDAs (Vendors)
 
-The best practice is to share and sign our [NDA](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/view) with every vendor when you begin conversations and before you disclose confidential business information. Once you have a fully signed NDA, save a copy in our [NDA folder](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) as Vendor Name-NDA-Year-Month-Day. For NDA signatory authority, see our [contract review and signature authority policy](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#ndas-for-customers-vendors-partners).
+The best practice is to share and sign our [NDA](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) with every vendor when you begin conversations and before you disclose confidential business information. Once you have a fully signed NDA, save a copy in our [NDA folder](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) as Vendor Name-NDA-Year-Month-Day. For NDA signatory authority, see our [contract review and signature authority policy](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#ndas-for-customers-vendors-partners).
 
 ##### Is a DPA required?
 
 If the vendor will receive any personal data from us, ask for the vendor's DPA. Personal data includes any **teammate personal data** (including account login email/pw, addresses, DOB, etc.) and any **customer content** (such as sourcecode metadata, which contains usernames and emails). If the vendor is a SaaS solution, then yes, we need a DPA.
 
 ###### What if the vendor asks us to provide a DPA?
+
+We prefer to use the vendor’s DPA, as it will be more applicable to the way they process and secure personal data. However, Sourcegraph does have a template for vendors that do not have their own.
 
 You can let the vendor know:
 

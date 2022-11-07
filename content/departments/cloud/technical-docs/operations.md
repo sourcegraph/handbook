@@ -278,6 +278,8 @@ Add the following to the instance's docker-compose override and [apply docker-co
 
 ### Adding feature flags
 
+> Feature flags are considered managed config. Any change in the UI will be overwritten by our [sync config cronjob](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+
 Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
 
 Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
@@ -463,6 +465,29 @@ git prune && git fetch # check for errors
        - SRC_ENABLE_SG_MAINTENANCE=false
        - SRC_ENABLE_GC_AUTO=true
    ```
+
+### Fix dirty database migration
+
+when `docker-compose up -d` feels like taking forever, it's a good idea to start another shell and check `migrator` logs
+
+you might see logs like:
+
+```
+failed to run migration for schema "frontend": dirty database: schema "frontend" marked the following migrations as failed: 1663871069
+migrator                         | The target schema is marked as dirty and no other migration operation is seen running on this schema. The last migration operation over this schema has failed (or, at least, the migrator instance issuing that migration has died). Please contact support@sourcegraph.com for further assistance.
+```
+
+It indicates a broken database migration.
+
+First, indentify why migration is broken by connecting to the database `mi db proxy` and run `select * from migration_logs where id = $ID`.
+
+If it feels like a flake, we can attempt to reapply the migration
+
+```sh
+mi -verbose migrate -version $NEW_VERSION up -ignore-single-dirty-log=true
+```
+
+Otherwise, reach out the feature teams or #dev-databases.
 
 ### Investigate VM platform logs
 

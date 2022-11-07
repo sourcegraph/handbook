@@ -11,10 +11,10 @@ quinn_slack:
   links: '[slack.org](https://slack.org), [@sqs](https://twitter.com/sqs), [LinkedIn](https://www.linkedin.com/in/quinnslack)'
   description: 'Quinn loves programming and wants to make it so everyone can code. Prior to Sourcegraph, he co-founded [Blend](https://blend.com/) (IPO in 2021), wrote code inside the top 2 US banks at Palantir, studied Computer Science at Stanford, built TLS password auth for curl and other open-source projects, and was the first employee and engineer at Bleacher Report.'
 
-interim_eng_lead:
-  name: Quinn Slack
+steve_yegge:
+  name: Steve Yegge
   reports_to: ceo
-  role: Interim Engineering Lead (and CEO)
+  role: Head of Engineering
   manager_role_slug: eng_lead
   hide_on_team_page: true
 
@@ -23,6 +23,22 @@ interim_marketing_lead:
   reports_to: ceo
   role: Interim Marketing Lead (and CEO)
   manager_role_slug: marketing_lead
+  hide_on_team_page: true
+
+interim_delivery_lead:
+  name: Quinn Slack
+  pronouns: he/him
+  role: Interim Engineering Manager, Delivery
+  reports_to: ceo
+  manager_role_slug: engineering_manager_delivery
+  hide_on_team_page: true
+
+interim_search_core_lead:
+  name: Quinn Slack
+  pronouns: he/him
+  role: Interim Engineering Manager, Search Core
+  reports_to: ceo
+  manager_role_slug: engineering_manager_search_core
   hide_on_team_page: true
 
 beyang_liu:
@@ -195,6 +211,14 @@ felix_becker:
   email: felix@sourcegraph.com
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
   description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
+
+felix_becker_code_exploration:
+  name: Felix Becker
+  pronouns: he/him
+  role: Engineering Manager, Code Exploration
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_code_exploration
+  hide_on_team_page: true
 
 dave_try:
   name: Dave Try
@@ -500,7 +524,7 @@ tom_ross:
   name: Tom Ross
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: York, North Yorkshire, UK 🇬🇧
   github: umpox
   email: tom@sourcegraph.com
@@ -660,7 +684,7 @@ valery_bugakov:
   name: Valery Bugakov
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: Bali, Indonesia
   github: valerybugakov
   email: valery@sourcegraph.com
@@ -705,7 +729,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: engineering_manager_code_exploration
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -723,15 +747,6 @@ stompy_mwendwa:
   links: '[@stompy_amare](https://twitter.com/stompy-amare), [stompymwendwa.com](https://stompymwendwa.com), [LinkedIn](https://www.linkedin.com/in/stompy-mwendwa)'
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stompy-mwendwa)'
   description: "Stompy is from the Pride of Africa and previously worked in customer success roles prior to joining Sourcegraph. He is a CS graduate and fell in with computers playing around with MS-DOS in the mid-90s. Stompy loves helping people achieve their goals and is a staunch believer of the Swahili proverb: Kusaidia ni moyo wala si utajiri' - Helping is of the heart, not of the pocket. When he's not working, he loves hopping onto motorcycles and going on adventures, watching/playing basketball(Go Lakers!), playing video games, listening to hip-hop and going out to eat."
-
-sam_cregg:
-  name: Sam Cregg
-  role: Sales Development Rep
-  reports_to: head_sales_development
-  location: Boston, MA, USA USA
-  email: samcregg@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/sam-cregg/)'
-  description: Sam enjoys golfing, boating and being outdoors. Prior to Sourcegraph, Sam worked at IBM in a variety of sales roles including Hybrid Cloud, IoT and Blockchain. He loves to travel and hopes to do more in the coming years. He is a big Boston sports fan who is orginally from Topsfield, MA but now lives in the North End of Boston.
 
 indradhanush_gupta:
   name: Indradhanush Gupta
@@ -909,24 +924,13 @@ trevor_houghton:
 kevin_quigley:
   name: Kevin Quigley
   pronouns: he/him
-  role: Sales Development Rep
-  reports_to: head_sales_development
+  role: Account Executive
+  reports_to: regional_director_sales_east
   location: Atlanta, GA, USA 🇺🇸
   github: kevin-quigley
   email: kevin.quigley@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/kevinquigley18/)'
   description: Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
-
-brady_herrmann:
-  name: Brady Herrmann
-  pronouns: he/him
-  role: Enterprise Account Executive
-  reports_to: regional_director_sales_east
-  location: Chicago, IL, USA 🇺🇸
-  github: brherrma
-  email: brady@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/bradyherrmann/)'
-  description: "Brady has spent the majority of his career working for developer centric companies and has a passion for selling solutions that allow developers to build better. He grew up in Indianapolis, but has since lived in Denver, Washington DC, Maryland, and now resides in the northern suburbs of Chicago with his wife (Kali), 1-year old daughter (Noa), and two black lab mixes (Henry and Luna). His passions outside of work include hiking, camping, skiing, live music and traveling (Peru, SE Asia, the Amalfi Coast, and Switzerland being some of the favorite places he's visited). He's a big fan of karaoke (he's been known to do an above average rendition of Sister Christian with his wife), college basketball (Go Boilers) and is currently in the market for an alto saxophone to get back to his playing days."
 
 nicky_van_maanen:
   name: Nicky Van Maanen
@@ -1260,16 +1264,6 @@ cesar_jimenez:
   links: '[LinkedIn](https://www.linkedin.com/in/cesarrjimenez/)'
   description: Cesar loves running, hiking, playing board games, listening to music, and going for walks with his wife and baby boy Leo. Favorite video games includes SOCOM 2 and Super Smash Bros Melee too! Proudly on Team Fox/Falco. Cesar used to be a dev bootcamp instructor at Code Fellows and loves cooking, and his favorite thing to do is try out new restaurants.
 
-cristina_birkel:
-  name: Cristina Birkel
-  role: Software Engineer, Backend
-  reports_to: engineering_manager_code_insights
-  location: Cleveland, OH, United States 🇺🇸
-  github: CristinaBirkel
-  email: cristina.birkel@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/cristina-birkel)'
-  description: "During her career in software Cristina has tried on a number of hats, but has always found her way back to writing code. She's passionate about becoming the best version of herself, and loves reading books that help her grow. She eats a mostly paleo diet, has lost the ability to wear shoes that aren't zero-drop, and swears by Kari Pearce Power Abs. Her longest standing hobby is making music, with video games coming in at a close second. She lives in Cleveland, OH with her Canadian wife, a talkative manx cat and an anxious german shepherd."
-
 sara_lee:
   name: Sara Lee
   reports_to: director_design
@@ -1397,25 +1391,6 @@ varun_gandhi:
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
   description: After training as a physicist, Varun decided to take a hard left turn after being enamored by functional programming and compilers. Loving all things related to developer tools, Varun worked on the Swift compiler before joining Sourcegraph. In his spare time, Varun may be found learning a new language, watching a movie at the cinema, bopping to some kpop, or animatedly gesticulating at an Arsenal game.
-
-jeff_warner:
-  name: Jeff Warner
-  pronouns: he/him
-  role: Engineering Manager for Search Core
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_search_core
-  github: jjeffwarner
-  email: jeff.warner@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
-  description: Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
-
-jeff_warner_delivery:
-  name: Jeff Warner
-  pronouns: he/him
-  role: Engineering Manager, Delivery
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-  hide_on_team_page: true
 
 carter_jaenichen:
   name: Carter Jaenichen
@@ -1660,8 +1635,8 @@ casi_neff:
 philipp_spiess:
   name: Philipp Spiess
   pronouns: he/him
-  role: Full-Stack Engineer, Growth and Integrations
-  reports_to: eng_lead
+  role: Full-Stack Engineer
+  reports_to: engineering_manager_code_exploration
   location: Vienna, AT 🇦🇹
   pronunciation: '[ˈʃpiːs](http://ipa-reader.xyz/?text=%CB%88%CA%83pi%CB%90s&voice=Marlene)'
   email: philipp.spiess@sourcegraph.com
@@ -1825,7 +1800,7 @@ taras_yemets:
   github: taras-yemets
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: Cherkasy, Ukraine 🇺🇦
   links: '[LinkedIn](https://www.linkedin.com/in/taras-yemets/), [GitHub](https://github.com/taras-yemets)'
   description: Taras is a software engineer hailing from Cherkasy, Ukraine 🇺🇦. Outside of work, he enjoys cycling, skiing, spending time outside with family and friends, traveling, watching movies, and sporting events.
@@ -1991,16 +1966,6 @@ brock_perko:
   links: '[Linkedin](https://www.linkedin.com/in/brock-perko-5094349/)'
   description: 'Brock lives in Mill Valley, CA with his wife and cat. A Bay Area native, he has built a career in Sales working at startups Eventbrite, Slack, and Productiv previously. Outside of work, Brock enjoys hiking in Marin and the California Coast, golf, live music, and nights out in San Francisco at his favorite restaurants. He is also a big fan of cryptocurrencies and Web3 technology, with a personal goal of opening a local deli someday.'
 
-eugenia_fernandez:
-  name: Eugenia Fernandez
-  reports_to: eng_lead
-  role: Product Manager, Search Core
-  location: Sao Paulo, Brazil 🇧🇷
-  github: eugeniaft
-  email: eugenia.fernandez@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
-  description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
-
 chris_warwick:
   name: Chris Warwick
   role: Software Engineer
@@ -2025,7 +1990,7 @@ laura_hacker:
   name: Laura Hacker
   pronouns: she/her
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_code_exploration
   location: Grand Rapids, MI, USA 🇺🇸
   github: lrhacker
   pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'

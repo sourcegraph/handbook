@@ -4,8 +4,8 @@
 
 ## How to request
 
-1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
-2. Notify Cloud in [#cloud] channel, linking to the issue
+1. Create a new issue using [this template](../../index.md#managed-instance-requests)
+2. Notify Cloud in [#cloud] channel and cc `@cloud-support`, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](../index.md#slas-for-managed-instances).
 
@@ -57,6 +57,10 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 1.  Create a branch for the teardown
 
     - `git checkout -b $CUSTOMER/destroy-managed-instance`
+
+1.  Authenticate to the project:
+
+    - `gcloud auth application-default login --project sourcegraph-managed-$CUSTOMER`
 
 ### Navigate to the customer's managed instance directory
 

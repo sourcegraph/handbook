@@ -1,0 +1,40 @@
+<svg width="586" height="586" viewBox="0 0 586 586" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>What, How, and Why diagram</title>
+  <desc>Diagram of nested circles describing the what, how and why of our brand platform</desc>
+  <style>
+  @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;display=swap);
+  text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+  }
+</style>
+  <g aria-label="Outermost circle">
+    <circle cx="293" cy="293" r="293" fill="#DBDBFF" />
+    <text fill="black" font-size="40">
+      <tspan x="248.125" y="74.22">What</tspan>
+    </text>
+    <text fill="black" font-size="20">
+      <tspan x="172.715" y="102.22">A code intelligence platform</tspan>
+    </text>
+    <g aria-label="Nested circle">
+      <circle cx="292.5" cy="358.5" r="227.5" fill="#A112FF" />
+      <text fill="white" font-size="40">
+        <tspan x="253.418" y="215.22">How</tspan>
+      </text>
+      <text fill="white" font-size="20">
+        <tspan x="143.779" y="243.22">By making it really easy to explore,</tspan>
+        <tspan x="151.904" y="271.22">understand, find, and reuse code</tspan>
+      </text>
+      <g aria-label="Innermost circle">
+        <circle cx="293" cy="443" r="143" fill="#6112A3" />
+        <text fill="white" font-size="40">
+          <tspan x="255.449" y="424.22">Why</tspan>
+        </text>
+        <text fill="white" font-size="20">
+          <tspan x="239.834" y="452.22">Accelerating</tspan>
+          <tspan x="195.01" y="480.22">technological progress</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
