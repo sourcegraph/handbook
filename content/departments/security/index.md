@@ -1,8 +1,8 @@
-# Security team
-
 <div style="text-align: center; margin-bottom: 1rem">
-  <img src="https://storage.googleapis.com/sourcegraph-assets/security-team-logo.jpg" width="50%" alt="Shielding Sourcegraph from attackers">
+  <img src="https://storage.googleapis.com/sourcegraph-assets/Security-AsterRisk-Logo-transparent.png" width="188" height="349" align=right alt="Aster Risk">
 </div>
+
+# Security team
 
 We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and improving our security stance over time.
 
