@@ -155,7 +155,7 @@ Any known violations of this policy should be reported to report-policy-violatio
    </td>
    <td>2022-07-29
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
    <td>Reviewed and final amendments
    </td>
