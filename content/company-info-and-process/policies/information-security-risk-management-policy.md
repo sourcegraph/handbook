@@ -488,9 +488,9 @@ All existing risks must be reviewed at least annually, and any necessary updates
    </td>
    <td>Review and amendments
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
   </tr>
 </table>

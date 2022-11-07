@@ -2042,13 +2042,13 @@ Nicky_Comber:
   links: '[Linkedin](https://www.linkedin.com/in/nicole-comber-65219024)'
   description: 'Nicole lives in Buenos Aires with her partner Pablo and her daughter Juana. In her free time, she enjoys cooking, practicing yoga, travelling and spending time with family and friends.'
 
-dora_grgic:
-  name: Dora Grgic
-  email: dora.grgic@sourcegraph.com
+dora_neumeier:
+  name: Dora Neumeier
+  email: dora@sourcegraph.com
   github: doragrgic
   pronouns: she/her
   role: Compliance Manager
-  reports_to: tech_ops_manager
+  reports_to: engineering_manager_security
   location: Salzburg, Austria
   links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
   description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
