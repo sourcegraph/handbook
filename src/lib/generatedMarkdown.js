@@ -39,7 +39,7 @@ export async function generateFeatureMaturityLevels() {
     let areaContent = `\n### ${String(productTeam.title)}\n`
     let notes = ''
     if (productTeam.strategy_link) {
-      areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
+      areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)})\n`
     }
     if (productTeam.pm) {
       if (!teamMembers[productTeam.pm]) {
