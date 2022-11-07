@@ -8,9 +8,9 @@ The Security team is responsible for:
 
 // TODO: Link to headings down the page
 
-* Securing the product
-* Protecting the company
-* Generating client trust
+- Securing the product
+- Protecting the company
+- Generating client trust
 
 ## Getting more information about our security practices
 
@@ -54,8 +54,6 @@ More detailed description of our responsibilities and what we do, can be found [
 ## Members
 
 {{generator:product_team.security}}
-
-
 
 ## Contact
 
