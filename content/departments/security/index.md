@@ -6,7 +6,7 @@
 
 The Security team is responsible for:
 
-// TODO: Link to headings down the page
+<!--  TODO: Link to headings down the page -->
 
 - Securing the product
 - Protecting the company
@@ -18,7 +18,7 @@ Please visit our Security Trust Portal for all of Sourcegraph's latest informati
 
 - [Security Trust Portal](https://security.sourcegraph.com)
 
-If you're a Sourcegraph teammate, find out how to edit the trust portal [here](./security-trust-center.md).
+If you're a Sourcegraph teammate, find out how to use the trust portal [here](./security-trust-center.md).
 
 ## Reporting vulnerabilities
 
