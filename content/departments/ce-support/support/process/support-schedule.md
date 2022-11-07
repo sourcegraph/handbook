@@ -14,6 +14,7 @@ Our schedule is reflected in the working hours set in our calendars.
 | Amber       | 9am–5pm        | 16:00–00:00 | 8am–4pm       |
 | Gabe        | 10am–6pm       | 18:00–02:00 | 10am–6pm      |
 | Jason       | 9am–5pm        | 15:00–23:00 | 7am–3pm       |
+| Jon         | 10am–6pm       | 18:00–02:00 | 8am–4pm       |
 | Mariam      | 9am–5pm        | 09:00–17:00 | 1am–9am       |
 | Michael     | 8am–4pm        | 07:00–15:00 | 11pm–7am      |
 | Rakesh      | 10:30am–6:30pm | 00:00–08:30 | 5:30pm–1:30am |
@@ -21,8 +22,6 @@ Our schedule is reflected in the working hours set in our calendars.
 | Stompy      | 1pm–9pm        | 10:00–19:00 | 2am–10am      |
 | Warren      | 9am–5pm        | 17:00–01:00 | 9am–5pm       |
 | Shawnteé    | 8am–4pm        | 14:00–22:00 | 6am–2pm       |
-| Brielle     | 9am–5pm        | 15:00–23:00 | 7am–3pm       |
-| Nonso       | 9am–5pm        | 09:00–17:00 | 12am–8am      |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 

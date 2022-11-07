@@ -8,17 +8,16 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Cloud Team invoke GitHub Actions with following parameters:
 
-   - `customer` - name of customer
+   - `customer` - slug for the customer, e.g. `acme`
    - `ce_email` - email of Customer Engineer from issue
-   - `customer_email` - customer admin email (only one from provided in issue)
-   - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
+   - `customer_email` - customer admin email (only one from provided in issue), e.g. `logan@acme.com`
+   - `email_domain` - initial customer email domain, e.g. `acme.com`
    - `instance_type` - purpose of this instance
-
-     trial - for customer trial
-
-     production - for paying customer
-
-     internal - for internal Sourcegraph usage
+     - `trial` - for customer trial
+     - `production` - for paying customer
+     - `internal` - for internal Sourcegraph usage
+   - `instance_size` - bundle size of this intance
+   - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
 
    via command line:
 
@@ -27,6 +26,7 @@ For basic operations like accessing an instance for these steps, see [managed in
      -f customer=$CUSTOMER \
      -f ce_email=$CE_EMAIL \
      -f customer_email=$CUSTOMER_EMAIL \
+     -f email_domain=$EMAIL_DOMAIN \
      -f instance_type=[production|trial|internal] \
      -f instance_size=[small|medium|large] \
      -f user_level_telemetry=[true|false]

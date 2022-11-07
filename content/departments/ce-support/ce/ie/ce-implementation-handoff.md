@@ -2,9 +2,9 @@
 
 This document is a work in progress to give an overview of the expectations of the handoff between the customer engineering team and the implementation engineering team when a new customer requires implementation support.
 
-# Jointly Managed Evalutation
+# Jointly Deployed Evalutation
 
-During the initial conversations with a customer, the CE should evaluate whether or not the customer is a candidate for a jointly managed instance. Typical reasons a customer would be flagged for jointly managed are:
+During the initial conversations with a customer, the CE should evaluate whether or not the customer is a candidate for a jointly deployed instance. Typical reasons a customer would be flagged for jointly deployed are:
 
 - Sourcegraph's Cloud offering is not a viable option.
 - The customer is expected to have a particularly large instance.
@@ -28,10 +28,10 @@ From there, the customer request will be added to the [Implementation Services A
 1. Impact on upcoming fiscal year revenue
 2. Overall size and technical complexity of the deployment
 3. Opportunity ARR and TAM of the account
-4. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
+4. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of utilizing a jointly deployed offering
 5. Current implementation team bandwidth<br>
 
-The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly-managed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
+The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly deployed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
 
 # Handoff to Implementation
 

@@ -54,16 +54,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Loïc Guychard"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-4.486198425292969, 48.3904580803747]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Eric Fritz"
             },
             "geometry": {
@@ -574,16 +564,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Cristina Birkel"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-81.73553466796875, 41.38299120166604]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Simon Waterer"
             },
             "geometry": {
@@ -609,16 +589,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [21.023197174072266, 52.18087924523222]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Jeff Warner"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-104.99025, 39.739235]
             }
         },
         {
@@ -889,6 +859,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-77.084747, 38.890759]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ted Moskalenko"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.848991, 35.410561]
             }
         }
     ]

@@ -12,7 +12,7 @@ Teammates should submit expenses at the end of every month.
 
 We prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses before the month ends simplifies our jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
 
-Any expenses more than 90 days old require approval by Finance.
+Any expenses more than 90 days old require approval by Finance. Itemized receipts must be included for any reimbursement requests over $25.
 
 ## US based teammates
 

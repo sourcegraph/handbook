@@ -26,7 +26,7 @@
   - [ ] Design challenge
 
   ### Design
-  - [ ] Wireframes - Link
+  - [ ] Low fidelity design - Link
   - [ ] High fidelity design using design system - Figma
   - [ ] Non-visual design guidance captured in the issue
   - [ ] Prototype - Link

@@ -180,7 +180,7 @@ For customer contracts: Share our NDA form with the prospect. If a customer insi
 
 ### Who signs the NDA for Sourcegraph?
 
-- Director of Legal, VP, or Director
+- VP Legal or other VP or Director
 
 Changes to the above signing authorities require written approval by the CEO.
 
@@ -253,7 +253,7 @@ Good rule of thumb: When in doubt, get a Deal Desk stamp!
 
 2.  Signature: Financial Controller
 
-Back-Up Signers: Director of Legal and VP Finance/Operations
+Back-Up Signers: VP Legal and VP Finance/Operations
 
 Note: the above signature authority also applies to Evaluation or Proof of Concept (POC) Agreements.
 
@@ -362,7 +362,7 @@ Sample language is available in our [Vendor Review Playbook](https://docs.google
 
 ### Do I need a Data Processing Agreement (DPA)?
 
-If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review.
+If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review. If the Vendor does not have their own DPA, you can send them Sourcegraph’s [Vendor DPA Template](https://docs.google.com/document/d/1c7hB6lyetkM9y7e5WpOy3tMS1WDwQ1KN/edit?usp=share_link&ouid=114193116257835744892&rtpof=true&sd=true).
 
 If the Vendor will have access to a Customer’s Restricted or Private Data, flag to [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or the #legal Slack channel so legal can update the subprocessor list.
 
@@ -381,9 +381,9 @@ The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request
 
 - VP Budget Owner
 
-Note: the above signature authority also applies to signing of Vendor DPAs, with the Director of Legal as the back-up signer. If a Vendor has requested a DPA amendment, the Director of Legal has signature authority for that amendment.
+Note: the above signature authority also applies to signing of Vendor DPAs, with the VP Legal as the back-up signer. If a Vendor has requested a DPA amendment, the VP Legal has signature authority for that amendment.
 
-For vendor contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
+For vendor contracts, authorized signers may delegate authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
 
 ### Who sends out the Vendor contract for signature?
 
@@ -448,7 +448,7 @@ Yes! Every Partner contract needs review and approval prior to signature.
 
 Review: Business Development and Legal
 
-Approve: VP and Finance
+Approve: VP Budget Owner and Finance
 
 ### What if the Partner contract is a click-through agreement that can’t be redlined? Do I still need to go through the above review process?
 

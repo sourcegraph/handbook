@@ -1,6 +1,6 @@
 # People & Talent
 
-The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
+The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout their journey with us.
 
 While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack #hiring or email Recruiting@sourcegraph.com.
 
@@ -53,10 +53,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Onboarding as a new hire
 
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
-  - Helpful videos (COMING SOON)
 - [How to set up BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
-- [Onboarding swag](swag.md/)
+- [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Managing remote work](../../company-info-and-process/remote/index.md)
 - [Working asynchronously](../../company-info-and-process/communication/asynchronous-communication.md)
@@ -66,16 +65,16 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
-  - [When impact reviews take place] (COMING SOON)
+  - [When impact reviews take place](people-ops/process/teammate-sentiment/impact-reviews/#when-do-they-take-place)
   - [How to write an impact review](people-ops/process/giving-feedback.md)
-  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
-  - [When can you get a promotion] COMING SOON
+  - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
+  - [When can you get a promotion](people-ops/process/teammate-sentiment/impact-reviews/index.md#how-to-get-a-promotion)
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
     - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
   - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
-  - [How we determine new equity for promotion](COMING SOON)
-  - [How we celebrate promotions] COMING SOON
+  - [How we determine new equity for promotion](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#how-are-option-grants-calculated-for-promotions)
+  - [How we celebrate promotions](../../benefits-pay-perks/benefits-perks/celebrate.md#promotions)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [Coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
@@ -98,9 +97,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
   - [Open enrollment](../../benefits-pay-perks/benefits-perks/#2023-open-enrollment)
   - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
-    - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/##digital-id-cards)
-    - [How to access my dental card](../../benefits-pay-perks/benefits-perks/##digital-id-cards)
-    - [How to access my vision card](../../benefits-pay-perks/benefits-perks/##digital-id-cards)
+    - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/benefits.md)
+    - [How to access my dental card](../../benefits-pay-perks/benefits-perks/benefits.md)
+    - [How to access my vision card](../../benefits-pay-perks/benefits-perks/benefits.md)
   - [Rippling](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
@@ -110,9 +109,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
-- [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
-- [What we do with survey results](people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
+- Types of Lattice surveys
+  - [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
+  - [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
+- [How to access survey results](people-ops/process/teammate-sentiment/pulse-survey.md#where-can-i-see-survey-results)
+- [How the People Team respondes to survey results and take action](people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ### Relocation/address changes
 
@@ -218,14 +219,14 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md) -[Our promotion process](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
-  - [When can you get a promotion] COMING SOON
+- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
+  - [When can you get a promotion](people-ops/process/teammate-sentiment/impact-reviews/index.md#how-to-get-a-promotion)
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
     - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
   - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
-  - [How we determine new equity for promotion](COMING SOON)
-  - [How we celebrate promotions] COMING SOON
+  - [How we determine new equity for promotion](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#how-are-option-grants-calculated-for-promotions)
+  - [How we celebrate promotions](../../benefits-pay-perks/benefits-perks/celebrate.md#promotions)
 - [How we manage underperformance](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [Teammate transfer process](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
@@ -262,12 +263,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- Types of Lattice surveys (COMING SOON)
+- Types of Lattice surveys
   - [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
-- How Managers access their team's survey responses in Lattice (COMING SOON)
-- How the People Team shares survey results (COMING SOON)
-- How the People Team actions survey results (COMING SOON)
+- [How to access survey results](people-ops/process/teammate-sentiment/pulse-survey.md#where-can-i-see-survey-results)
+- [How the People Team respondes to survey results and take action](people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ### Resignations
 
@@ -297,8 +297,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Informing PEO re: comp increases (COMING SOON)
 - Template letters:
   - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
-  - Spot bonus template (COMING SOON)
-  - Compensation and / or equity increase template (COMING SOON)
 
 ### Teammate support
 
@@ -309,14 +307,19 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Teammate swag
 
+- [New hire gifting](people-ops/tools/internal-swag.md#new-hire-gifting)
+- [Promotion gifting](people-ops/tools/internal-swag.md#promotion-gifting)
+- [New baby gifting](people-ops/tools/internal-swag.md#new-baby-gifting)
+- [Work anniversary and birthdays](people-ops/tools/internal-swag.md#work-anniversary-and-birthday-gifting)
+- [Additional gifting/swag](people-ops/tools/internal-swag.md#additional-giftingswag)
+
 ### How we measure culture
 
-- Types of Lattice surveys (COMING SOON)
+- Types of Lattice surveys
   - [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
-- How to access survey results (COMING SOON)
-- How the People Team shares survey results with the company (COMING SOON)
-- How the People Team actions survey results (COMING SOON)
+- [How to access survey results](people-ops/process/teammate-sentiment/pulse-survey.md#where-can-i-see-survey-results)
+- [How the People Team respondes to survey results and take action](people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ## RESOURCES FOR THE TALENT TEAM
 

@@ -32,7 +32,7 @@ For example, below is the mental model to approach a project to add support for 
 
 ### How do we update project status?
 
-The DRI is expected to provide weekly update in #cloud-internal-status-updates on the project status. For every ongoing project, the DRI should provide update on the current milestone using the following questionnaire. Slack will send a reminder `@cloud-team` every week in #cloud-internal-status-updates to provide the project status updates.
+The DRI is expected to provide weekly update in #cloud-internal-status-updates on the project status. For every ongoing project, the DRI should provide update on the current milestone using the following questionnaire. Slack will send a reminder `@cloud-team` every week in #cloud-internal-status-updates to provide the project status updates. Use the `Update Project Status` Slack workflow and fill up the form to provide the update.
 
 - which initiative?
 - which milestone?

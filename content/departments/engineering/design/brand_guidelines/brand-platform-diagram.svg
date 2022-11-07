@@ -1,0 +1,101 @@
+<svg width="748" height="795" viewBox="-16 -16 748 795" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Brand platform diagram</title>
+  <desc>Diagram of circles connected with dotted lines forming our brand platform</desc>
+  <style>
+  @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;display=swap);
+  text {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+</style>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M633.274 375.499C633.274 219.171 508.263 92.4424 354.053 92.4424C279.999 92.4424 208.978 122.264 156.614 175.348C104.25 228.431 74.8323 300.428 74.8323 375.499C74.8323 531.827 199.844 658.556 354.053 658.556C508.263 658.556 633.274 531.827 633.274 375.499V375.499Z" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path d="M357.715 218.565V272.522" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path d="M507.455 287.185L442.247 325.491" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path d="M267.793 337.056L197.06 295.169" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path d="M441.01 413.967L512.97 453.143" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path d="M197.058 459.315L269.068 419.064" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path d="M357.709 490.11V544.118" stroke="#00CBEC" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="8 6" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M505.349 236.982C505.349 176.902 552.152 128.198 609.887 128.198C637.613 128.198 664.202 139.659 683.807 160.06C703.412 180.461 714.426 208.131 714.426 236.982C714.426 297.061 667.622 345.765 609.887 345.765C552.152 345.765 505.349 297.061 505.349 236.982Z" fill="#7010BE" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M505.349 236.982C505.349 176.902 552.152 128.198 609.887 128.198C637.613 128.198 664.202 139.659 683.807 160.06C703.412 180.461 714.426 208.131 714.426 236.982C714.426 297.061 667.622 345.765 609.887 345.765C552.152 345.765 505.349 297.061 505.349 236.982Z" stroke="#7010BE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M253.177 109.783C253.177 49.704 299.98 1 357.715 1C385.44 1 412.03 12.4611 431.635 32.8619C451.24 53.2628 462.253 80.9323 462.253 109.783C462.253 169.863 415.45 218.567 357.715 218.567C299.98 218.567 253.177 169.863 253.177 109.783Z" fill="#7010BE" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M253.177 109.783C253.177 49.704 299.98 1 357.715 1C385.44 1 412.03 12.4611 431.635 32.8619C451.24 53.2628 462.253 80.9323 462.253 109.783C462.253 169.863 415.45 218.567 357.715 218.567C299.98 218.567 253.177 169.863 253.177 109.783Z" stroke="#7010BE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.0105 236.982C1.0105 176.902 47.814 128.198 105.549 128.198C133.274 128.198 159.864 139.659 179.469 160.06C199.074 180.461 210.087 208.131 210.087 236.982C210.087 297.061 163.284 345.765 105.549 345.765C47.814 345.765 1.0105 297.061 1.0105 236.982V236.982Z" fill="#7010BE" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.0105 236.982C1.0105 176.902 47.814 128.198 105.549 128.198C133.274 128.198 159.864 139.659 179.469 160.06C199.074 180.461 210.087 208.131 210.087 236.982C210.087 297.061 163.284 345.765 105.549 345.765C47.814 345.765 1.0105 297.061 1.0105 236.982V236.982Z" stroke="#7010BE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M505.349 523.94C505.349 463.86 552.152 415.156 609.887 415.156C637.613 415.156 664.202 426.617 683.807 447.018C703.412 467.419 714.426 495.089 714.426 523.94C714.426 584.019 667.622 632.723 609.887 632.723C552.152 632.723 505.349 584.019 505.349 523.94V523.94Z" fill="#7010BE" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M505.349 523.94C505.349 463.86 552.152 415.156 609.887 415.156C637.613 415.156 664.202 426.617 683.807 447.018C703.412 467.419 714.426 495.089 714.426 523.94C714.426 584.019 667.622 632.723 609.887 632.723C552.152 632.723 505.349 584.019 505.349 523.94V523.94Z" stroke="#7010BE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 523.955C1 463.861 47.8035 415.146 105.538 415.146C133.264 415.146 159.854 426.609 179.458 447.015C199.063 467.421 210.077 495.097 210.077 523.955C210.077 584.048 163.273 632.764 105.538 632.764C47.8035 632.764 1 584.048 1 523.955V523.955Z" fill="#7010BE" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 523.955C1 463.861 47.8035 415.146 105.538 415.146C133.264 415.146 159.854 426.609 179.458 447.015C199.063 467.421 210.077 495.097 210.077 523.955C210.077 584.048 163.273 632.764 105.538 632.764C47.8035 632.764 1 584.048 1 523.955V523.955Z" stroke="#7010BE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M253.175 652.893C253.175 592.813 299.978 544.109 357.713 544.109C385.438 544.109 412.028 555.57 431.633 575.971C451.238 596.372 462.252 624.042 462.252 652.893C462.252 712.972 415.448 761.676 357.713 761.676C299.978 761.676 253.175 712.972 253.175 652.893V652.893Z" fill="#7010BE" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M253.175 652.893C253.175 592.813 299.978 544.109 357.713 544.109C385.438 544.109 412.028 555.57 431.633 575.971C451.238 596.372 462.252 624.042 462.252 652.893C462.252 712.972 415.448 761.676 357.713 761.676C299.978 761.676 253.175 712.972 253.175 652.893V652.893Z" stroke="#7010BE" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M253.17 381.328C253.17 321.249 299.974 272.545 357.709 272.545C385.434 272.545 412.024 284.006 431.629 304.407C451.233 324.808 462.247 352.477 462.247 381.328C462.247 441.408 415.444 490.112 357.709 490.112C299.974 490.112 253.17 441.408 253.17 381.328Z" fill="#A112FF" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M253.17 381.328C253.17 321.249 299.974 272.545 357.709 272.545C385.434 272.545 412.024 284.006 431.629 304.407C451.233 324.808 462.247 352.477 462.247 381.328C462.247 441.408 415.444 490.112 357.709 490.112C299.974 490.112 253.17 441.408 253.17 381.328V381.328Z" stroke="#B114F7" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round" />
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="307.21" y="64.5985">Offering</tspan>
+    </text>
+    <text fill="white" font-size="23">
+      <tspan x="322.628" y="108.598">A code</tspan>
+      <tspan x="298.875" y="140.598">intelligence</tspan>
+      <tspan x="312.723" y="172.598">platform</tspan>
+    </text>
+  </g>
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="74.7954" y="182.598">Voice</tspan>
+    </text>
+    <text fill="white" font-size="23">
+      <tspan x="80.6582" y="224.598">Clear</tspan>
+      <tspan x="46.1807" y="254.598">Professional</tspan>
+      <tspan x="67.2041" y="284.598">Humble</tspan>
+      <tspan x="78.4009" y="314.598">Dev-y</tspan>
+    </text>
+  </g>
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="48.1899" y="469.598">Attributes</tspan>
+    </text>
+    <text fill="white" font-size="22">
+      <tspan x="71.5713" y="510.598">Serious</tspan>
+      <tspan x="32.7705" y="539.598">Unconventional</tspan>
+      <tspan x="58.7129" y="568.598">Accessible</tspan>
+      <tspan x="65.5557" y="597.598">Inspiring</tspan>
+    </text>
+  </g>
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="327.992" y="334.598">Story</tspan>
+    </text>
+    <text fill="white" font-size="22">
+      <tspan x="302.775" y="375.598">Accelerating</tspan>
+      <tspan x="296.695" y="404.598">technological</tspan>
+      <tspan x="319.275" y="433.598">progress</tspan>
+    </text>
+  </g>
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="327.188" y="612.598">Value</tspan>
+      <tspan x="291.368" y="646.598">proposition</tspan>
+    </text>
+    <text fill="white" font-size="22">
+      <tspan x="281.441" y="687.598">Unblock yourself</tspan>
+    </text>
+  </g>
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="572.374" y="485.598">Values</tspan>
+    </text>
+    <text fill="white" font-size="22">
+      <tspan x="571.393" y="526.598">Dev-first</tspan>
+      <tspan x="553.722" y="555.598">High agency</tspan>
+      <tspan x="547.975" y="584.598">Transparency</tspan>
+    </text>
+  </g>
+  <g aria-label="Circle">
+    <text fill="white" font-size="27" font-weight="600">
+      <tspan x="561.972" y="209.598">Purpose</tspan>
+    </text>
+    <text fill="white" font-size="22">
+      <tspan x="553.861" y="250.598">Accessibility</tspan>
+      <tspan x="560.414" y="279.598">Innovation</tspan>
+    </text>
+  </g>
+</svg>
