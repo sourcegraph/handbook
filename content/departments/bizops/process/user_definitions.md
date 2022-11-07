@@ -8,7 +8,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 | Metric                                                                                | Description                                                        | Cloud | On-prem | Pings data point                        | Type\*         |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----- | ------- | --------------------------------------- | -------------- |
-| [Active User](https://docs.sourcegraph.com/admin/faq#how-are-active-users-calculated) | Users who performed a qualifying activation event (see below)      | ✔️    | ✔️      | ✔️                                      | Activity       |
+| [Active User](https://docs.sourcegraph.com/admin/pricing) | Users who performed a qualifying activation event      | ✔️    | ✔️      | ✔️                                      | Activity       |
 | [Registered](#registered-user)                                                        | A user with an account on the instance                             | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
 | Retained                                                                              | Users who were active last period _and_ this period                | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
 | Churned                                                                               | Users who were active last period but not this period              | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
