@@ -1,5 +1,3 @@
-
-
 <div style="text-align: center; margin-bottom: 1rem">
   <img src="https://storage.googleapis.com/sourcegraph-assets/Security-AsterRisk-Logo-transparent.png" width="188" height="349" align=right alt="Shielding Sourcegraph from attackers">
 </div>
