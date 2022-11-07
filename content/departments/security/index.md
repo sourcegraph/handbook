@@ -4,18 +4,58 @@
 
 # Security team
 
-We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and improving our security stance over time.
+The Security team is responsible for:
 
-- [Report a vulnerability](reporting-vulnerabilities.md)
-- [Report an incident](./security-incident-response.md#reporting)
+// TODO: Link to headings down the page
+
+* Securing the product
+* Protecting the company
+* Generating client trust
+
+## Getting more information about our security practices
 
 Please visit our Security Trust Portal for all of Sourcegraph's latest information on the security, reliability, privacy, and compliance of our product.
 
 - [Security Trust Portal](https://security.sourcegraph.com)
 
+If you're a Sourcegraph teammate, find out how to edit the trust portal [here](./security-trust-center.md).
+
+## Reporting vulnerabilities
+
+You can report vulnerabilities to us:
+
+- [Report a vulnerability](reporting-vulnerabilities.md)
+- [Report an incident](./security-incident-response.md#reporting)
+
+## Security Sub-Areas
+
+### Security Engineering
+
+### Security Operations
+
+### Security Assurance
+
+### Responsibilities
+
+<!-- TODO: This is the old text but some links we can reuse -->
+
+- Proactively improve the security of our application and infrastructure. Includes [continuous code reviews](./continuous-code-review-process.md)
+- Define, plan, and prioritize security work that needs to be done (and then go do that work).
+- Directly contribute to our codebase (i.e., Go, TypeScript, Kubernetes, Docker, Google Cloud Platform) to secure our application and deployments, and help other engineers on our team make the necessary changes.
+- [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
+  - https://github.com/sourcegraph/security-issues
+- Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
+  - [Security tooling](./tooling/index.md)
+- Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
+- Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
+
+More detailed description of our responsibilities and what we do, can be found [here](what-we-do.md).
+
 ## Members
 
 {{generator:product_team.security}}
+
+
 
 ## Contact
 
@@ -30,13 +70,17 @@ Security questions and support requests should be raised in #security:
 
 ### Security Attestations & Questionnaires
 
-Sourcegraph's security team puts great importance on verification and attestation through industry standards when it comes to our security practices and posture. Please find all the information on attestation evidence (SOC 2, pen-tests, etc.) and our Security Trust Portal [here](./security-trust-center.md).
+<!-- Sourcegraph's security team puts great importance on verification and attestation through industry standards when it comes to our security practices and posture. Please find all the information on attestation evidence (SOC 2, pen-tests, etc.) and our Security Trust Portal [here](./security-trust-center.md). -->
 
-Security questionnaires for new and existing customers should [follow the process here](../sales/process/salessecurity.md)—feel free to message us on #security too.
+<!-- // TODO: Move to a sub page -->
 
-Reach out to us on #security if you have any doubts, or for any reason feel like our process can't work for you in a particular case.
+<!-- Security questionnaires for new and existing customers should [follow the process here](../sales/process/salessecurity.md)—feel free to message us on #security too. -->
+
+<!-- Reach out to us on #security if you have any doubts, or for any reason feel like our process can't work for you in a particular case. -->
 
 ### Slack acknowledgement
+
+<!-- TODO: Move to a sub page - processes/rituals -->
 
 It is essential to remove assumptions/uncertainty around whether teammates have seen, understood, or acted on a message in an async-first communication environment.
 To assist in this regard, we provide the following guideline for teammates to follow when communicating and responding in Slack.
@@ -169,6 +213,8 @@ In an effort to work closely with our teammates and shift security focus more in
 
 ## Interviews
 
+<!-- TODO: Move to processes/rituals -->
+
 Interviews for candidates looking to join the Security team broadly follow the
 [standard interview process][interview-process], with two security-specific
 technical interviews. The nature of the technical interview will depend on the
@@ -199,29 +245,13 @@ See [tooling](./tooling/index.md) for a list of active tools we use and
 [infrastructure](./infrastructure/index.md) for more information on the infrastructure
 that we maintain.
 
----
-
-## Responsibilities
-
-- Proactively improve the security of our application and infrastructure. Includes [continuous code reviews](./continuous-code-review-process.md)
-- Define, plan, and prioritize security work that needs to be done (and then go do that work).
-- Directly contribute to our codebase (i.e., Go, TypeScript, Kubernetes, Docker, Google Cloud Platform) to secure our application and deployments, and help other engineers on our team make the necessary changes.
-- [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
-  - https://github.com/sourcegraph/security-issues
-- Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
-  - [Security tooling](./tooling/index.md)
-- Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
-- Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
-
-More detailed description of our responsibilities and what we do, can be found [here](what-we-do.md).
-
----
-
 ## Security Policies
 
 We are responsible for maintaining company-wide security policies. You can find them [here](../../company-info-and-process/policies)
 
 # Misc Links
+
+<!-- TODO: Remove -->
 
 - [Code Ownership Matrix](../engineering/dev/process/engineering_ownership.md)
 
