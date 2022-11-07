@@ -82,13 +82,17 @@ Managers are responsible for sending anniversary and birthday gifts to their tea
 
 **People Team actions:**
 
-- Every Monday, Kemper sends this slack message to managers who have teammates with a birthday or anniversary in the upcoming week:
-  \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
+- Each week, the People-Ops Team pulls the Birthday/Anniversary report from Bamboo
+- The People-Ops Team will audit the report and send reminders to managers via slack.
+
+  Message Template: \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
   _Please:_
+
   - _Make a post in #thanks if you haven’t already (suggestions can be found here)_
   - _[Order a Loop & Tie gift](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie)_
   - _Respond with a :white_check_mark: when both of the above actions are completed!_
-- On the 1st of each month, the People team (Kemper) will send an email to finance@sourcegraph.com with a breakdown of what charges have been placed on the Loop & Tie card and which team’s to reclass the charges into.
+
+- On the 1st of each month, the People-Ops team will send an email to finance@sourcegraph.com with a breakdown of the charges that have been placed on the Loop & Tie card by each team.
 
 ## Additional Gifting/Swag
 
