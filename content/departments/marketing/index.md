@@ -13,7 +13,6 @@
 - [Product marketing](product-marketing/index.md)
   - [Marketing launch tiers](product-marketing/marketing_launch_tiers.md)
   - [Product marketing hierarchy](product-marketing/product_marketing_hierarchy.md)
-  - [Product marketing roadmap](product-marketing/product-marketing-roadmap.md)
   - [Release post process](product-marketing/release_post_process.md)
   - [Customer marketing](product-marketing/customer_marketing.md)
 - [How to write a blog post](blog.md)

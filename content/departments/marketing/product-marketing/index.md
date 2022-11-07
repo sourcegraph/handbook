@@ -5,33 +5,148 @@
 - [Product marketing](#product-marketing)
   - [Table of contents](#table-of-contents)
   - [Team vision and principles](#team-vision-and-principles)
-  - [What we do](#what-we-do)
+  - [How we operate](#how-we-operate)
+  - [Team roles and responsibilities](#team-roles-and-responsibilities)
   - [Working with other teams](#working-with-other-teams)
-  - [Meet the team](#meet-the-team)
   - [Product launch templates and resources](#product-launch-templates-and-resources)
   - [Resources](#resources)
 
 ## Team vision and principles
 
 - We have a collaborative, efficient, and repeatable motion for bringing new features and products to market.
-- We are a strategic partner for Product, Sales, and Marketing. We do our best work when we’re brought in early.
-- We communicate the value of our products and focus on both the “what” and the “why.”
+- We are a strategic partner for Engineering, Product, Sales, CE, and Marketing. We do our best work when we’re brought in early.
+- We orient our work, strategy, and messaging around developers.
 - We align our team goals with the broader company goals and our work contributes to both revenue and adoption.
 - We are advocates for our customers. We launch products and make decisions with our customers in mind.
 
-## What we do
+## How we operate
 
-Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible—there will certainly be times when other teams drive these initiatives.
+**Align with Product/Engineering:** We embed with product/eng to tell our product and platform story, raise awareness for new features and Sourcegraph as a code intelligence platform, and drive adoption. Activities include:
 
-| Drive                                                       | Contribute                                                             |
-| :---------------------------------------------------------- | :--------------------------------------------------------------------- |
-| GTM launches/New Product Introduction (NPI)                 | Product roadmap                                                        |
-| Product messaging and positioning                           | Company messaging and positioning                                      |
-| Pricing and packaging (this is shared with Ops and Product) | Sales collateral (pitch deck, outbound messaging) and sales enablement |
-| Customer advocacy and marketing                             | Community and developer education                                      |
-| Analyst relations                                           | PR                                                                     |
-| Use cases                                                   | Buyer personas (drive for new products)                                |
-| Partner marketing                                           | Demand generation efforts, content marketing, brand design             |
+- Launching new features
+- Supporting product roadmap planning and prioritization
+- Sales and CE enablement/training
+- Messaging and positioning
+- Competitive intelligence
+- Customer proof points
+
+See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toySthUMvOxZnCtdw0/edit#bookmark=id.e0jz6ct4ghl) for details.
+
+**Partner with GTM teams:** We partner with sales and CE to support pipeline, expansion, and ARR.
+
+- Core product/customer marketing activities: Continue driving core PMM/CM activities, including CAB, Analyst Relations, competitive intelligence, etc.
+- Sales/CE: Partner with sales and CE to support pipeline and ARR.
+
+## Team roles and responsibilities
+
+<table>
+  <tr>
+   <td>
+   </td>
+   <td>
+<strong>Eng/Product</strong>
+   </td>
+   <td><strong>GTM</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Alex</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Primary: Cloud
+
+<li>Secondary: Source, Security
+
+<li>Cross-product: Strategic
+
+<li>Release comms
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Growth marketing
+
+<li>Demo
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Lindsay</strong>
+   </td>
+   <td colspan="2" >
+<ul>
+
+<li>Customer Advisory Board
+
+<li>Product Advisory Board
+
+<li>Customer stories 
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Lori</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Primary: Code Search
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Primary: CE
+
+<li>Competitive intel
+
+<li>Professional services
+
+<li>Analyst relations
+
+<li>Pitch deck (support)
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Victoria</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Primary: Graph
+
+<li>Cross-product: Code intelligence platform
+
+<li>Customer-facing product roadmap
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Primary: Sales
+
+<li>Pitch deck (driver)
+
+<li>Platform positioning/category creation
+
+<li>Partner marketing
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+{{generator:reporting_structure.director_product_marketing}}
 
 ## Working with other teams
 
@@ -39,13 +154,7 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Product/Engineering** | Product roadmap planning and prioritization, bringing new products to market, pricing and packaging, naming, conducting primary and secondary research, product copy, collaborating on content (blog posts, webinars, etc.)            | PMM will be better able to support feature/product launches and influence the product roadmap with early involvement.                                                                                                                                        |
 | **Sales/CE**            | Messaging and positioning, use cases and value drivers, buyer personas, creating external collateral (pitch decks, one sheeters, case studies), product training, competitive intelligence, synthesizing and sharing customer feedback | PMM primarily focuses on “one:many” communication, whereas Sales/CE primarily focus on “one:one” communication. There may be times that PMM is brought in to support a strategic customer or prospect, but the team is not big enough to support every deal. |
-| **Marketing**           | Messaging and positioning, buyer personas, content development and review, subject matter expertise, marketing campaigns and programs                                                                                                  | Given that many members of the marketing team are relatively new, we’ll figure this out together as we work on key initiatives that span across the entire marketing org.                                                                                    |
-
-## Meet the team
-
-{{generator:reporting_structure.director_product_marketing}}
-
-To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
+| **Marketing**           | Messaging and positioning, buyer personas, content development and review, subject matter expertise, marketing campaigns and programs                                                                                                  | We function as a cohesive marketing team and loop cross-marketing stakeholders in early to collaborate.                                                                                                                                                      |
 
 ## Product launch templates and resources
 
@@ -58,7 +167,6 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 - [Approved assets](https://drive.google.com/drive/folders/15lb62hLLYM-mKEOrlg32bmSgIhNcvKFh?usp=sharing): GIFs, videos, and images that are externally shareable
 - [GTM Hub (go-to-market resources)](gtm_hub.md)
 - [Product marketing hierarchy](product_marketing_hierarchy.md)
-- [Product marketing roadmap](product-marketing-roadmap.md)
 - [Batch Changes positioning](../../engineering/teams/batch-changes/go-to-market/index.md)
 - [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
