@@ -10,6 +10,7 @@ _Note: This page is a work in progress for the newly-created Growth Marketing te
   - [About Growth Marketing](#about-growth-marketing)
   - [Team vision and principles](#team-vision-and-principles)
   - [How we work](#how-we-work)
+  - [Ownership](#ownership)
 
 ## Team
 
@@ -47,5 +48,4 @@ The Growth Marketing team focuses on product-oriented features that generate inb
 - No gated content.
 
 ## Ownership
-
 See [Engineering ownership](../../engineering/dev/process/engineering_ownership.md)
