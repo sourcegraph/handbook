@@ -1,6 +1,6 @@
 # Plato - Mentorship platform
 
-Sourcegraph offers an Employee Assistance Program to all Engineers via Plato. Plato is a mentorship platform for Engineers and Product (Leaders) that helps leaders develop soft skills and build better teams.
+Sourcegraph offers an Employee Assistance Program to all Engineers via Plato. [Plato](https://www.platohq.com) is a mentorship platform for Engineers and Product (Leaders) that helps leaders develop soft skills and build better teams.
 
 Teammates will receive extra coaching support from a dedicated Talent Coach to build their development plan and be matched with highly relevant mentors.
 
