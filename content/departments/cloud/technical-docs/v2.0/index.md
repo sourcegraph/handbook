@@ -80,5 +80,6 @@ The following processes only apply to Cloud v2.0:
 - [Create a Managed Instance](./creation_process.md)
 - [Restore a Managed Instance](./restore_process.md)
 - [Upgrade a Managed instance](./upgrade_process.md)
+- [Delete a Managed instance](./delete_process.md)
 
 [sourcegraph/cloud]: https://github.com/sourcegraph/cloud
