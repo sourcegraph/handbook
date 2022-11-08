@@ -21,15 +21,10 @@ go install ./cmd/mi2/
 
 1. [Set environment variables](#Set-environment-variables)
 1. [Check out a new branch](#Check-out-a-new-branch)
-1. [Init instance config](#init-instance-config)
-1. [Init deployment - generate cdktf stacks artifacts](#init-deployment---generate-cdktf-stacks-artifacts)
-1. [Init deployment - create terraform cloud workspaces](#init-deployment---create-terraform-cloud-workspaces)
-1. [Init deployment - deploy cdktf stacks](#init-deployment---deploy-cdktf-stacks)
-1. [Init deployment - generate kustomize artifacts](#init-deployment---generate-kustomize-artifacts)
-1. [Init deployment - deploy apps](#init-deployment---deploy-apps)
-1. [Deploy application](#deploy-application)
-1. [Enable backup](#enable-backup)
-1. [Commit your changes](#Commit-your-changes)
+1. [Modify instance config to use TFC cli mode](#modify-instance-config-to-use-tfc-cli-mode)
+1. [Destroy infrastructure - destroy cdktf stacks](#destroy-infrastructure---destroy-cdktf-stacks)
+1. [Delete TFC workspaces](#delete-tfc-workspaces)
+1. [Commit your changes](#commit-your-changes)
 
 ### Set environment variables
 
