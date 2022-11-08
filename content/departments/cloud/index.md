@@ -276,7 +276,7 @@ You can either use:
 mi info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
 ```
 
-### FAQ: What is the Cloud instance IPs?
+### FAQ: What is the Cloud instance IP?
 
 Use cases:
 
@@ -286,3 +286,8 @@ Use cases:
 Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs.
 
 For #ce teammates, please reach out to #cloud and include link to this FAQ
+
+### FAQ: What code-hosts does Cloud support?
+
+Cloud supports all code-hosts types (self-managed and Cloud-managed), but it currently requires the code-host to have a public IP.
+More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJFoIFJjM-3ZA1qIyIl7o/edit)
