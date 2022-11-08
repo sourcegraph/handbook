@@ -183,7 +183,7 @@ Please see below for a complete summary of spend limit for each type of trip. Th
 
 ### Dependent care budget:
 
-If the company has requested for you to travel and you incur expenses for the care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you, we may consider assisting with the costs. If this applies to you, please reach out to People Ops with a motivation and a breakdown of the costs, and we'll see what we can do to help.
+Sourcegraph will reimburse for the cost of care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you while you are away on any Sourcegraph-related travel. This includes individual, team, company-wide, and business/customer travel. You may request for reimbursement up to $50/day with a maximum amount requested of $250. This budget is per trip. You will need prior approval from People Ops. This can be obtained in the #ask-people-team channel. Once you have approval, you may request reimbursement through Airbase with a copy of the receipt and a copy of the prior approval obtained in Slack.
 
 ## How to book your trip in TripActions
 
