@@ -111,23 +111,21 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - [sourcegraph/symbols](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/symbols)
 - [sourcegraph/syntax-highlighter](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/syntax-highlighter)
 
-## [Content Platform](../../teams/content-platform/index.md)
+## [Growth Marketing](../../../marketing/growth-marketing/index.md)
 
 ### General
 
-- Technical matters related to marketing platform, blog, Learn site, handbook, and docs
+- Product-oriented features that generate inbound traffic and lead to qualified trials
+-
 
 ### Tooling
 
 - Netlify
-- BrowserStack
-- Swiftype
-- Cookiebot
 
 ### Repositories
 
 - sourcegraph/about (incl. blog)
-- sourcegraph/handbook
+- sourcegraph/sourcegraph#readme.md
 - sourcegraph/learn
 - sourcegraph/docsite
 
