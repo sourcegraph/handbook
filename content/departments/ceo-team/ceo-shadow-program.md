@@ -35,9 +35,8 @@ Are you curious about how other shadow's experiences? Hear from them yourself ab
 - [Joel Kwalter (June 8th - 9th)](https://docs.google.com/document/d/15qgDCMpU17-MJUsOOb-j0_XkGOyK7m7UAm0f54Yx8KU/edit#heading=h.r68qm0s7vcd2): Insight into the day-to-day of being a CEO / CEO Shadow.
 - [Murat Sutunc (July 25th)](https://docs.google.com/document/d/131nAu5J6fLv9c_2CWONimjBe0JNfAHXjDAYwDv9OOpc/edit): Tips / advice on how to maximize your time and what to expect.
 - [Rok Novosel](https://docs.google.com/document/d/1X-kPQQqemgP7cs7nO-5z0BYY2v8a8ZBoQtVh2Ar4GOs/edit): Our first international CEO shadow!
-- [Alex Isken](https://docs.google.com/document/d/1aCRrBq54_wRnd1zrWdCJv_IlykWMF-T_4UsaxBriAN8/edit#): 4.0 planning and some other interesting experiences. 
+- [Alex Isken](https://docs.google.com/document/d/1aCRrBq54_wRnd1zrWdCJv_IlykWMF-T_4UsaxBriAN8/edit#): 4.0 planning and some other interesting experiences.
 - [Taylor Sperry](https://docs.google.com/document/d/10nvclrclyCaQCVBFIfmk8qMQ-boeFPhooXzRaBkNriU/edit): Earthquakes, AMAs, and how to better understand working with Quinn
-
 
 ## Eligibility & Participation
 
@@ -76,7 +75,7 @@ Lodging during the CEO shadow program is provided by the company and will only c
 
 Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions.
 
-We typically suggest CEO Shadows stay in San Francisco, but CEO Shadows should work with the EBP on where to stay to minimize travel and expense based on Quinn's calendar. 
+We typically suggest CEO Shadows stay in San Francisco, but CEO Shadows should work with the EBP on where to stay to minimize travel and expense based on Quinn's calendar.
 
 #### Airfare
 
