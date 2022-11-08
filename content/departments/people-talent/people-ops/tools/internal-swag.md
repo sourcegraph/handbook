@@ -36,9 +36,9 @@ Telescope emails order the invoices to Finance and Kemper/Michal and Finance act
 
 **How new hires order their gift**
 
-After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire welcome kit and this information: "Order your Sourcegraph swag pack! Use the link below to select your T-shirt and hoodie size, provide your shipping address and start date, and place your order."
+After a new hire signs their contract with us, the People team sends an email that includes a google form link to order their new hire welcome kit and this information: "Order your Sourcegraph swag pack! Use the link below to select your T-shirt and hoodie size, provide your shipping address and start date, and place your order."
 
-The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with [Telescope](https://www.telescopestudio.com/).
+The new hire is responsible for submitting the google form, which will then be fulfil their order using inventory that we have in stock with [Telescope](https://www.telescopestudio.com/). Form responses are sent to a google sheet shared between the People team and Telescope. Telescope will submit orders twice a week and touch base with the People team via email if expedited shipping is needed to get new hire kits to recipients before their start date.
 
 Once an order is placed, the new hire will get an email confirmation with delivery details. Sourcegraph covers the shipping cost, which varies depending on the shipping destination. We can view recent shipping costs in the invoices Telescope emails to PeopleOps/Finance.
 
