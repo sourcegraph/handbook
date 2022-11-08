@@ -45,3 +45,6 @@ The Growth Marketing team focuses on product-oriented features that generate inb
 ## Other guidelines
 
 - No gated content.
+
+## Ownership
+See [Engineering ownership](../../engineering/dev/process/engineering_ownership.md)
