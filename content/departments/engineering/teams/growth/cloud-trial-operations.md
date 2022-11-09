@@ -42,7 +42,7 @@ Assume `bob@acme-corp.com` signs up for an instance on signup.sourcegraph.com.
 
 ### First step: signup, qualification and instance delivery
 
-#### Case 1: acme-corp.come already has a cloud instance
+#### Case 1: acme-corp.com already has a cloud instance
 
 If there is already a cloud instance owned by `acme-corp`, which is defined as a cloud instance whose initial admdin has an `@acme-corp.com` email, then:
 
@@ -52,11 +52,11 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 
 Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` may not join it. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
-#### Case 2: the email domain is pre-qualified
+#### Case 2: acme-corp.com is pre-qualified
 
 If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two cases:
 
-##### Case 2.1 the account is a named account in SFDC
+##### Case 2.1 the Acme Corp account is a named account in SFDC
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 2. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
@@ -67,7 +67,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
    1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 6. 🟢 The customer engineers takes over from here, go to[Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
-##### Case 2.2 the account is NOT a named account in SFDC
+##### Case 2.2 the Acme Corp account is NOT a named account in SFDC
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
@@ -78,7 +78,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
    1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. 🟢 from there, this is similar to Case 2.1 from **step 6**.
 
-#### Case 3: the email domain is NOT pre-qualified
+#### Case 3: acme-corp.com is NOT pre-qualified
 
 In that case, `bob@acme-corp.com` does NOT instantly and automatically get a pre-provisioned instance. We need to request an instance for them and give them a reset password link. It also means that the account is NOT a named account in SFDC because all named accounts are prequalified.
 
