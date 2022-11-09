@@ -137,7 +137,8 @@ Customer Engineers (CE) or Sales may request to:
 
 ### SLAs for managed instances
 
-Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
+Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below.
+Sourcegraph teammates can verify uptime SLA for a given instance using `mi sla` CLI command.
 
 > SLA for internal requests may be extended during upstream service providers outage. For example, automated trial instance creation workflow relies on GitHub Actions and GitHub is down.
 
