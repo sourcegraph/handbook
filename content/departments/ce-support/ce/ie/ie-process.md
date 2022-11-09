@@ -21,7 +21,7 @@ This is will be the primary use case for the implementation team. Following a si
 
 There are 3 main components to this use case:
 
-- <em>On-Prem to Cloud Migration</em> - when an existing on-prem customer migrates to a Managed Instance with our Cloud offering
+- <em>Self-Hosted to Cloud Migration</em> - when an existing on-prem customer migrates to a Managed Instance with our Cloud offering
 - <em>Single-Node to Multi-Node Instance Migration</em> - when an existing on-prem customer is expanding and needs to transition to a more scalable instance
 - <em>On-Prem Feature Expansion</em> - when an existing on-prem customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (ex. IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
 
