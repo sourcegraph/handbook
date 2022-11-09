@@ -91,7 +91,7 @@ There are two cases. It all starts with:
 1. :large_yellow_circle: inbound SDR disqualifies.
 1. the user gets an automated email recommending to self-host Sourcegraph
 
-##### Case 3.2: is qualified
+##### Case 3.2: the lead is qualified
 
 1. :large_yellow_circle: Inbound SDR converts to Opp
 1. :large_yellow_circle: Inbound SDR uses Round Robin to assign AE/CE
