@@ -2,7 +2,7 @@
 
 ## Quicklinks
 
-- Enablement [session recording](https://sourcegraph.zoom.us/rec/share/09fYEk1hCuhIbVDV2JC2RekqS8uR44y1BrN29lOOp89rlpjQoRlvWI4xgV-SNQys.ZBk8NYM-ZsU6rKDs)
+- Enablement [session recording](https://drive.google.com/file/d/1NDVnwQ6ZXaNzQVgrnlIZopU2L1NZQJQZ/view?usp=sharing)
 - Demo video
 - [Release post](https://github.com/sourcegraph/about/pull/5471)
 
