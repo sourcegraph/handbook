@@ -25,7 +25,6 @@ There are 3 main components to this use case:
 - <em>Single-Node to Multi-Node Instance Migration</em> - when an existing on-prem customer is expanding and needs to transition to a more scalable instance
 - <em>On-Prem Feature Expansion</em> - when an existing on-prem customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (ex. IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
 
-
 #### Production Ready Trial Deployments
 
 This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
