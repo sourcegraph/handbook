@@ -107,10 +107,12 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 
 ### Second step: onboarding, and trial extend, terminate, convert
 
-1. 🟢 CE sends welcome email offering to help with white glove setup (AE in cc)
+1. 🟢 assigned CE sends welcome email offering to help with white glove setup (AE in cc)
    1. Tip: Google the prospect to see if they have any OSS code or interesting projects to mention in the first outreach email.
-2. large_green_circle: CE leads white-glove onboarding email campaigns. Exact messaging are up to the CE (with support from AE) as long as it’s helpful to the prospect. This needs to be onboarding related, helpful tips, offers to help, and check-in about commercial next steps towards the end of the trial.
-3. large_green_circle: From there, the assigned CE is responsible for [trial extend, terminate, convert](#trial-extend-terminate-convert) after 15 days and until the instance is terminated or converted to a paid customer. Any trial with activity should be extended to 15 more days by raising a [trial extend request GitHub issue](../../cloud/trial_mi#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days.
+2. 🟢 assigned CE leads white-glove onboarding email campaigns. Exact messaging are up to the CE (with support from AE) as long as it’s helpful to the prospect. This needs to be onboarding related, helpful tips, offers to help, and check-in about commercial next steps towards the end of the trial.
+3. 🟢 From there, the assigned CE is responsible for the instance: extending, terminating, or converting the trial.
+   1. 15-days after trial start the instance should be either terminated if it's inactive, or the trial should be extended by 15 more days by raising a [trial extend request GitHub issue](../../cloud/trial_mi#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days. Self-serve trials inactive after 15 days are very likely to remain inactive, so we terminate them more agressively (after 15 days) than trials that come in through the sales team.
+   2. 30-days after trial start, the trial needs to be [extended, converted to paid, or terminated](../../cloud/trial_mi#monitoring-trial-managed-instances)
 4. For unsuccessful trials, Malo Marrec will send feedback request email upon request by CE.
 5. Opportunities follow the same process for qualification as they do today (Stage 2 criteria). We will track “activation” in-product (Eric Brody-Moore will make sure this links to SFDC).
 
