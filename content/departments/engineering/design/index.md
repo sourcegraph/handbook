@@ -45,6 +45,10 @@ As a design team, we’re constantly reflecting and improving on how we work.
 
 Our [product design principles](product_design_principles.md) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
 
+### Designing for Scale
+
+In addition to our product design principles, we recently documented what we expect for our [product experience at scale](product_experience_scale.md). These work in concert to our design principles, outlining how we want users within our largest customers to feel using Sourcegraph.
+
 ### Designing in the open
 
 At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../company-info-and-process/values/index.md) to our work and thrive in our globally distributed, remote company.

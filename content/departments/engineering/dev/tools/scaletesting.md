@@ -113,7 +113,7 @@ To make changes to images, environment variables or other configuration, all udp
 
 Merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
-`helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 3.43.2-insiders.3e3f9e9 sourcegraph insiders/sourcegraph -n scaletesting`
+`helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 4.1.2-insiders.cbf797a sourcegraph insiders/sourcegraph -n scaletesting`
 
 ### Scale the infrastructure down when not in use
 

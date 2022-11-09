@@ -161,7 +161,7 @@ Any known violations of this policy should be reported to [report-policy-violati
    </td>
    <td>26-07-22
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
    <td>Addition of links to handbook process page; added section on risk management and due diligence
    </td>

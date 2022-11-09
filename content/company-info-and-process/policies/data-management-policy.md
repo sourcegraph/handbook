@@ -180,7 +180,7 @@ Any known violations of this policy should be reported to [report-policy-violati
    </td>
    <td>2022-03-22
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
    <td>Additions to Classification Matrix and retention Matrix 
    </td>
@@ -200,7 +200,7 @@ Any known violations of this policy should be reported to [report-policy-violati
    </td>
    <td>2022-04-27
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
    <td>New classification was added as per Security “zero trust” framework requirements
    </td>

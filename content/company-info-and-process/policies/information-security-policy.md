@@ -48,7 +48,7 @@ Any known violations of this policy should be reported to report-policy-violatio
     <td>2.0</td>
     <td>2022-03-17</td>
     <td>Subsections moved to the relevant policies to declutter this top level doc.</td>
-    <td>Dora Grgic</td>
+    <td>Dora Neumeier</td>
   </tr>
   <tr>
     <td>2.0</td>

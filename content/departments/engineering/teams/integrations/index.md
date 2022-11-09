@@ -1,83 +1,10 @@
 # Integrations team
 
+> NOTE: As of 2022-10-31, this team merged into the new [Code Exploration team](../code-exploration/index.md). The content on this page is in the progress of being migrated.
+
 The integrations team owns the our code host and third-party integrations (including our IDE and browser extensions).
 
 Our mission is to bring the value of Sourcegraph to all developers, everywhere they work with code, and to bring the value of other developer tools into Sourcegraph.
-
-## Members
-
-<section>
-  <div class="row" style="display:flex;">
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#ryan-scott" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/ryan.png" alt="Picture of Ryan Scott" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Ryan Scott</div>
-        <div style="text-align: center; font-size: 12px;">Product Manager</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#sara-lee" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Sara Lee</div>
-        <div style="text-align: center; font-size: 12px;">Product Designer</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#beatrix-woo" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Beatrix Woo</div>
-        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-      </div>
-    </div>
-  </div>
-  <div class="row" style="display:flex;">
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#philipp-spiess" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/philipp.png" alt="Picture of Philipp Spiess" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Philipp Spiess</div>
-        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#david-veszelovszki" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/david.png" alt="Picture of David Veszelovszki" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">David Veszelovszki</div>
-        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
-          <a href="/team#taras-yemets" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/taras.png" alt="Picture of Taras Yemets" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Taras Yemets</div>
-        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-      </div>
-    </div>
-  </div>
-</section>
 
 ## Vision
 

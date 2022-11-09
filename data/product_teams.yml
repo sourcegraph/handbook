@@ -16,8 +16,7 @@ search_core:
   title: Search Core
   brief: The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results
   strategy_link: /strategy-goals/strategy/search/core/index.md
-  pm: eugenia_fernandez
-  em: quinn_slack
+  em: steve_yegge
   design: rob_rhyne
   pmm: lori_colston
   issue_labels:
@@ -57,25 +56,13 @@ code_insights:
   issue_labels:
     - team/code-insights
 
-integrations:
-  title: Integrations
-  brief: The integrations team owns the our code host and third-party integrations (including our IDE and browser extensions), and Sourcegraph extensions.
+code_exploration:
+  title: Code Exploration
+  brief: The code exploration team owns our code exploration UI and third-party integrations (including our IDE and browser extensions).
   strategy_link: /strategy-goals/strategy/integrations/index.md
-  pm: ryan_scott
-  design: sara_lee
-  em: interim_eng_lead
-  pmm: alex_isken
+  em: felix_becker_code_exploration
   issue_labels:
-    - team/integrations
-
-growth:
-  title: Growth
-  brief: Growth team owns initial user journey as well as coordinating with marketing, optimization of product flows and encouraging experimental growth objectives to assist in Sourcegraph UX throughout their journey
-  strategy_link: /strategy-goals/strategy/growth-team/index.md
-  em: interim_eng_lead
-  pmm: alex_isken
-  issue_labels:
-    - team/growth
+    - team/code-exploration
 
 iam:
   title: Identity and Access Management (IAM)
@@ -104,16 +91,6 @@ dev_experience:
   em: kristen_stretch
   issue_labels:
     - team/dev-experience
-
-frontend_platform:
-  title: Frontend Platform
-  brief: The Frontend Platform team aims to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
-  strategy_link: /strategy-goals/strategy/frontend-platform
-  pm: taylor_sperry
-  em: interim_eng_lead
-  design: alicja_suska
-  issue_labels:
-    - team/frontend-platform
 
 repo_management:
   title: Repo Management

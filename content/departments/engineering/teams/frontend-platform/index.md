@@ -1,12 +1,10 @@
 # Frontend Platform team
 
+> NOTE: As of 2022-10-31, this team merged into the new [Code Exploration team](../code-exploration/index.md). The content on this page is in the progress of being migrated.
+
 ## Mission
 
 Our mission is to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
-
-## Members
-
-{{generator:product_team.frontend_platform}}
 
 ## Strategy
 

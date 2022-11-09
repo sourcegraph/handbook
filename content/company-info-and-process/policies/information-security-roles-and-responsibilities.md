@@ -188,7 +188,7 @@ Any known violations of this policy should be reported to report-policy-violatio
    </td>
    <td>Updated Roles & Resp matrix 
    </td>
-   <td>Dora Grgic
+   <td>Dora Neumeier
    </td>
    <td>Diego Comas
    </td>
