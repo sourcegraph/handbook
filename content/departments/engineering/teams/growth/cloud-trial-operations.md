@@ -63,8 +63,8 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 3. :large_yellow_circle: inbound SDR routes to the Named SDR
 4. :large_red_circle: Named SDR converts to Opp
 5. Named SDR notifies assigned AE/CE
-   1. (INTERNAL) Auto email from Salesforce upon Conversion
-   2. [INTERNAL] :large_red_circle: Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+   1.Auto email from Salesforce upon Conversion
+   1. [INTERNAL] :large_red_circle: Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 6. :large_green_circle: The customer engineers takes over from here, go to[Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
 ##### Case 2.2 the account is NOT a named account in SFDC
@@ -74,7 +74,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 1. :large_yellow_circle: Inbound SDR converts to Opp
 1. :large_yellow_circle: Inbound SDR uses Round Robin to assign AE/CE
 1. :large_yellow_circle: Inbound SDR notifies assigned AE/CE
-   1. (INTERNAL) Auto-email from Salesforce upon Conversion
+   1.Auto-email from Salesforce upon Conversion
    1. [INTERNAL] :large_red_circle: Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. :large_green_circle: from there, this is similar to Case 2.1 from **step 6**.
 
