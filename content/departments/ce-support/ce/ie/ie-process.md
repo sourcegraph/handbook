@@ -23,7 +23,7 @@ There are 3 main components to this use case:
 
 - <em>Self-Hosted to Cloud Migration</em> - when an existing on-prem customer migrates to a Managed Instance with our Cloud offering
 - <em>Self-Hosted to Different Self-Hosted Instance Migration</em> - when an existing self-hosted customer needs to transition to a different self-hosted instance (ex. expanding from a single-node to a multi-node instance or migrating from on-prem to cloud self-hosted)
-- <em>On-Prem Feature Expansion</em> - when an existing on-prem customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (ex. IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
+- <em>Self-Hosted Feature Expansion</em> - when an existing self-hosted customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (ex. IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
 
 #### Production Ready Trial Deployments
 
