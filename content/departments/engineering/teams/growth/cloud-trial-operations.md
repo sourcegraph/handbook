@@ -36,7 +36,7 @@ TLDR:
 ![Workflow](https://storage.googleapis.com/sourcegraph-assets/growth/flow-v2.svg)
 (You can also view this flow [here](https://app.excalidraw.com/l/4Dr1S6qmmY7/4S6Sc9L2aDO))
 
-Now let's dive into the details of the workflow. CE or AE actions are highlighted by :large_green_circle:, inbound SDR actions by :large_yellow_circle:, and named SDR actions by :large_red_circle:.
+Now let's dive into the details of the workflow. CE or AE actions are highlighted by 🟢, inbound SDR actions by 🟡, and named SDR actions by 🟠.
 
 Assume `bob@acme-corp.com` signs up for an instance on signup.sourcegraph.com.
 
@@ -48,7 +48,7 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 
 1. `bob` is automatically redirected to that instance.
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. :large_green_circle: the AE/CE should reach out to the instance admin and user to understand if they should be added to the instance
+1. 🟢 the AE/CE should reach out to the instance admin and user to understand if they should be added to the instance
 
 Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` may not join it. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
@@ -60,23 +60,23 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 2. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-3. :large_yellow_circle: inbound SDR routes to the Named SDR
-4. :large_red_circle: Named SDR converts to Opp
+3. 🟡 inbound SDR routes to the Named SDR
+4. 🟠 Named SDR converts to Opp
 5. Named SDR notifies assigned AE/CE
    1.Auto email from Salesforce upon Conversion
-   1. [INTERNAL] :large_red_circle: Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
-6. :large_green_circle: The customer engineers takes over from here, go to[Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
+   1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+6. 🟢 The customer engineers takes over from here, go to[Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
 ##### Case 2.2 the account is NOT a named account in SFDC
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. :large_yellow_circle: Inbound SDR converts to Opp
-1. :large_yellow_circle: Inbound SDR uses Round Robin to assign AE/CE
-1. :large_yellow_circle: Inbound SDR notifies assigned AE/CE
+1. 🟡 Inbound SDR converts to Opp
+1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR notifies assigned AE/CE
    1.Auto-email from Salesforce upon Conversion
-   1. [INTERNAL] :large_red_circle: Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
-1. :large_green_circle: from there, this is similar to Case 2.1 from **step 6**.
+   1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+1. 🟢 from there, this is similar to Case 2.1 from **step 6**.
 
 #### Case 3: the email domain is NOT pre-qualified
 
@@ -88,28 +88,28 @@ There are two cases. It all starts with:
 
 ##### Case 3.1: the lead is not qualified
 
-1. :large_yellow_circle: inbound SDR disqualifies.
+1. 🟡 inbound SDR disqualifies.
 1. the user gets an automated email recommending to self-host Sourcegraph
 
 ##### Case 3.2: the lead is qualified
 
-1. :large_yellow_circle: Inbound SDR converts to Opp
-1. :large_yellow_circle: Inbound SDR uses Round Robin to assign AE/CE
-1. :large_yellow_circle: Inbound SDR notifies assigned AE/CE
+1. 🟡 Inbound SDR converts to Opp
+1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
-   2. :large_red_circle: Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+   2. 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. An instance request GitHub issue is raised automatically and posted in channel. This is powered by this [zap](https://zapier.com/editor/173098650/published).
-1. :large_yellow_circle: Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email.
-1. :large_yellow_circle: Inbound SDR sends a “welcome” email, letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
+1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email.
+1. 🟡 Inbound SDR sends a “welcome” email, letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
 1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue.
-1. :large_green_circle: CE logs in, creates a password
-1. :large_green_circle: CE responds to initial SDR email, with the password/login information offering to help with white glove setup (AE in cc).
-1. :large_green_circle: from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
+1. 🟢 CE logs in, creates a password
+1. 🟢 CE responds to initial SDR email, with the password/login information offering to help with white glove setup (AE in cc).
+1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
 
 ### Second step: onboarding, and trial extend, terminate, convert
 
-1. :large_green_circle: CE sends welcome email offering to help with white glove setup (AE in cc)
+1. 🟢 CE sends welcome email offering to help with white glove setup (AE in cc)
    1. Tip: Google the prospect to see if they have any OSS code or interesting projects to mention in the first outreach email.
 2. large_green_circle: CE leads white-glove onboarding email campaigns. Exact messaging are up to the CE (with support from AE) as long as it’s helpful to the prospect. This needs to be onboarding related, helpful tips, offers to help, and check-in about commercial next steps towards the end of the trial.
 3. large_green_circle: From there, the assigned CE is responsible for [trial extend, terminate, convert](#trial-extend-terminate-convert) after 15 days and until the instance is terminated or converted to a paid customer. Any trial with activity should be extended to 15 more days by raising a [trial extend request GitHub issue](../../cloud/trial_mi/#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days.
