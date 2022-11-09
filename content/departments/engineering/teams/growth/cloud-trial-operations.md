@@ -50,22 +50,22 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
 1. 🟢 the AE/CE should reach out to the instance admin and user to understand if they should be added to the instance
 
-Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` may not join it. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
+Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannnot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
 #### Case 2: acme-corp.com is pre-qualified
 
-If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two cases:
+If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two subcases:
 
 ##### Case 2.1 the Acme Corp account is a named account in SFDC
 
-1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
+1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all signups with `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 2. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
 3. 🟡 inbound SDR routes to the Named SDR
 4. 🟠 Named SDR converts to Opp
 5. Named SDR notifies assigned AE/CE
-   1.Auto email from Salesforce upon Conversion
+   1. Auto email from Salesforce upon Conversion
    1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
-6. 🟢 The customer engineers takes over from here, go to[Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
+6. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
 ##### Case 2.2 the Acme Corp account is NOT a named account in SFDC
 
@@ -74,17 +74,15 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
 1. 🟡 Inbound SDR notifies assigned AE/CE
-   1.Auto-email from Salesforce upon Conversion
+   1. Auto-email from Salesforce upon Conversion
    1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
-1. 🟢 from there, this is similar to Case 2.1 from **step 6**.
+1. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
 #### Case 3: acme-corp.com is NOT pre-qualified
 
 In that case, `bob@acme-corp.com` does NOT instantly and automatically get a pre-provisioned instance. We need to request an instance for them and give them a reset password link. It also means that the account is NOT a named account in SFDC because all named accounts are prequalified.
 
-There are two cases. It all starts with:
-
-1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published) asking Inbound SDR to triage the lead.
+There are two cases. It all starts with an alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published) asking Inbound SDR to triage the lead. Then:
 
 ##### Case 3.1: the lead is not qualified
 
@@ -102,9 +100,9 @@ There are two cases. It all starts with:
 1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email.
 1. 🟡 Inbound SDR sends a “welcome” email, letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
-1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue.
-1. 🟢 CE logs in, creates a password
-1. 🟢 CE responds to initial SDR email, with the password/login information offering to help with white glove setup (AE in cc).
+1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
+1. 🟢 CE logs in, creates a password rest link
+1. 🟢 CE responds to initial SDR email, with the password reset link, and offers to help with white glove setup (AE in cc).
 1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
 
 ### Second step: onboarding, and trial extend, terminate, convert
