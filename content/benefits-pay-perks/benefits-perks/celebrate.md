@@ -31,7 +31,7 @@ Be considerate of all teammates and acknowledge that not everybody likes to be i
 - Post about the occasion in team Slack channel or 1:1
   - Team post suggestions:
     - Announce the occasion: "Wishing a happy birthday to [name]! Please treat yourself to a $50 gift and celebrate!"
-    - Personalize the message based on the particular individual 
+    - Personalize the message based on the particular individual
     - TIP: You can pre-schedule your Slack messages to send on the correct dates
 
 Sourcegraph encourages teammates to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If a Teammate's celebration happens to fall over a weekend, please be sure to take an alternate day such as the Friday prior or the Monday after.
