@@ -163,7 +163,7 @@ To do so:
 
 - Own instance hand-off (except for pre-qualified domains where this is automated)
 - Own white-glove onboarding
-- Own instance termination, trial extension after 15 days and beyond, and conversion, and raise the appropriate [GitHub issues](../../../cloud/trial_mi#monitoring-trial-managed-instances)
+- Own instance termination, trial extension after 15 days and beyond, and conversion, and raise the appropriate [GitHub issues](../../../cloud/trial_mi.md#monitoring-trial-managed-instances)
 
 #### Long term
 
