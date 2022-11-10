@@ -122,7 +122,7 @@ In the early stages of the trial, emails should be focused on offers for help, o
 
 ### Upgrading from a random domain to a custom domain name
 
-All-prequalified leads get a pre-provisioned instance instantly. That instance has a random subdomain name (`ghjsdc.sourcegraph.com`) for technical reasons. We expect users to want to change that domain to be a vanity domain (`acme-corp.sourcegraph.com`) either when they convery, or earlier (which would be a good sign to start commercial discussions).
+All-prequalified leads get a pre-provisioned instance instantly. That instance has a random subdomain name (`ghjsdc.sourcegraph.com`) for technical reasons. We expect users to want to change that domain to be a vanity domain (`acme-corp.sourcegraph.com`) either when they convert, or earlier (which would be a good sign to start commercial discussions).
 
 To do so:
 
