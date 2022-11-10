@@ -7,7 +7,33 @@ For information on recommended deployment types and strategies, visit [Implement
 # Jointly Deployed vs. Jointly Managed
 
 - _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The implementation team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, pimarily in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access into customer environments.
-- _Jointly Managed_: This will be a paid offering for self-hosted customers that provides a focused TA (often with environment badged access) for dedicated post-deployment work such as upgrades, feature expansions, and environment management. The goal of this offering is to reduce or eliminate the need for dedicated customer admins while ensuring a high quality instance and priority Sourcegraph support.
+- _Jointly Managed_: This will be a paid offering for self-hosted customers as part of a premium support offering (often with environment badged access) for dedicated post-deployment work such as upgrades, feature expansions, and environment management. The goal of this offering is to reduce or eliminate the need for dedicated customer admins while ensuring a high quality instance and priority Sourcegraph support.
+
+# Implementation Team Use Cases
+
+What is the main scope of work for the Implementation Team?
+
+#### Complex Production Deployments
+
+This is will be the primary use case for the implementation team. Following a simple trial, the CE should identify that the customer will require a complex self-hosted deployment and follows the processes to engage the implementation team. If the customer is selected for implementation services, the implementation team should be engaged leading up to contract closure, at which point the implementation team takes full ownership of the implementation and the customer from a technical perspective.
+
+#### Production Instance Migrations or Feature Expansions
+
+There are 3 main components to this use case:
+
+- <em>Self-Hosted to Cloud Migration</em> - when an existing on-prem customer migrates to a Managed Instance with our Cloud offering
+- <em>Self-Hosted to Different Self-Hosted Instance Migration</em> - when an existing self-hosted customer needs to transition to a different self-hosted instance (ex. expanding from a single-node to a multi-node instance or migrating from on-prem to cloud self-hosted)
+- <em>Self-Hosted Feature Expansion</em> - when an existing self-hosted customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (ex. IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
+
+#### Production Ready Trial Deployments
+
+This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
+
+- The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
+- The opp must upcoming Fiscal Year revenue
+- The opp must be reviewed by CE and Sales leadership and selected from the implementation request backlog
+
+<em>Note - for more information about the implementation request and backlog review process, review</em> [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md).
 
 # Cross-Functional Collaboration
 
@@ -28,26 +54,6 @@ For the majority of implementations, the default process will be for CS to only 
 #### Engineering
 
 Similarly to CE, implementation will identify product issues, submit corresponding GitHub issues, submit Product Gaps identified by customers, and collaborate with engineering teams to properly priorities resolutions and feature request.
-
-# Implementation Team Use Cases
-
-#### Complex Production Deployments
-
-This is will be the primary use case for the implementation team. Following a simple trial, the CE should identify that the customer will require a complex self-hosted deployment and follows the processes to engage the implementation team. If the customer is selected for implementation services, the implementation team should be engaged leading up to contract closure, at which point the implementation team takes full ownership of the implementation and the customer from a technical perspective.
-
-#### Production Instance Migrations
-
-Occassionaly, customers will go live with a simpler deployment method that can't support the full extent of their expansion. In order to continue expanding, they need to transition to a kubernetes deployments. The implementation team should be notified via a formal implementation request if the customer could benefit from their involvement in the migration.
-
-#### Production Ready Trial Deployments
-
-This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
-
-- The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
-- The opp must impact FY23 revenue
-- The opp must be reviewed by CE and Sales leadership and selected from the implementation request backlog
-
-<em>Note - for more information about the implementation request and backlog review process, review</em> [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md).
 
 # Implementation Team Tasks and Responsibilities
 
