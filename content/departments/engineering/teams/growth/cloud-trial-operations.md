@@ -44,7 +44,7 @@ Assume `bob@acme-corp.com` signs up for an instance on signup.sourcegraph.com.
 
 #### Case 1: acme-corp.com already has a cloud instance
 
-If there is already a cloud instance owned by `acme-corp`, which is defined as a cloud instance whose initial admdin has an `@acme-corp.com` email, then:
+If there is already a cloud instance owned by `acme-corp`, which is defined as a cloud instance whose initial admin has an `@acme-corp.com` email, then:
 
 1. `bob` is automatically redirected to that instance.
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
