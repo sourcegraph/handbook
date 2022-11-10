@@ -118,7 +118,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 
 ### Email rules of engagement
 
-In the easrly stages of the trial, emails should be focused on offers for help, onboarding, tips, setting up sessions etc. After there is usage on the instance, feel free to start checking-in.
+In the early stages of the trial, emails should be focused on offers for help, onboarding, tips, setting up sessions etc. After there is usage on the instance, feel free to start checking-in.
 
 ### Upgrading from a random domain to a custom domain name
 
