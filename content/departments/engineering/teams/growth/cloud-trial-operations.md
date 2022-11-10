@@ -22,6 +22,11 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 - The onboarding on Sourcegraph instances is very rudimentary. The Product Growth team is working on that next.
 - We aim to give all self-serve trials a white-glove experience through custom onboarding emails, sessions with Customer Engineers, etc. Most of this will eventually be automated.
 
+## Enablement
+
+- [SDR enablement](https://www.youtube.com/watch?v=pBVS2llqZUI)
+- AE/CE enablement (TODO)
+
 ## Workflow
 
 Here is an overview of the workflow and the role of any and all Sourcegraph teams.
