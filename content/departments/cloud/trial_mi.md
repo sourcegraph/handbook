@@ -80,6 +80,21 @@ When customer has decided to sign the deal, instance requestor will create [Mana
 - modify GCP label '`instanceType: production`' in `config.yaml`
 - follow [modify GCP customer label](./technical-docs/operations.md#modify-customer-specific-gcp-managed-instance-labels)
 
+### Requesting to change the subdomain
+
+Self-serve trial instances that come inbound through www.signup.sourcegraph.com and are [prequalified](../engineering/teams/growth/cloud-trial-operations.md#case-2-acme-corpcom-is-pre-qualified) have a random subdomain (eg. `xyz.sourcegraph.com`).
+Upon conversion (or potentially earlier), you can request to change the domain name to a vanity subdomain (eg. `acme-corp.sourcegraph.com`). To do so, raise a [Change cloud instance subdomain request](https://github.com/sourcegraph/customer/issues/new/choose).
+
+Note that changing the subdomain will require the admin to:
+
+- reconfigure the auth provider (if using SSO). Auth will be broken until they do that.
+- reconfigure the auth provider (if using permission syncing). Repository syncing will be broken until they do that.
+- reconfigure webhooks if they've set those up.
+- it will also break all hardcoded links to their sourcegraph instance
+- cause some brief downtime
+
+Be sure to set expectations with the site admin ahead of raising the issue and indicate the configuration steps required.
+
 ## Teardown Trial Managed Instance
 
 When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](./index.md#managed-instance-requests)
