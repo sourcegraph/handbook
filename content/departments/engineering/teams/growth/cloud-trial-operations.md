@@ -126,7 +126,7 @@ All-prequalified leads get a pre-provisioned instance instantly. That instance h
 
 To do so:
 
-- Request a domain name change from the cloud team by raising this issue
+- Request a domain name change from the cloud team by [raising this issue](../../../cloud/trial_mi.md#requesting-to-change-the-subdomain)
 - Note that changing the domain name will require the admin to:
   - Reconfigure the auth provider (if using SSO). Auth will be broken until they do that.
   - Reconfigure the auth provider (if using permission syncing). Repository syncing will be broken until they do that.
