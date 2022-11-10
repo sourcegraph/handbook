@@ -98,7 +98,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
    2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. An instance request GitHub issue is raised automatically and posted in channel. This is powered by this [zap](https://zapier.com/editor/173098650/published).
 1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email.
-1. 🟡 Inbound SDR sends a “welcome” email, letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
+1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
 1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
 1. 🟢 CE logs in, creates a password rest link
@@ -107,7 +107,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 
 ### Second step: onboarding, and trial extend, terminate, convert
 
-1. 🟢 assigned CE sends welcome email offering to help with white glove setup (AE in cc)
+1. 🟢 assigned CE sends welcome email offering to help with white glove setup (AE in cc). Here's a few [default emails](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit) to build upon
    1. Tip: Google the prospect to see if they have any OSS code or interesting projects to mention in the first outreach email.
 2. 🟢 assigned CE leads white-glove onboarding email campaigns. Exact messaging are up to the CE (with support from AE) as long as it’s helpful to the prospect. This needs to be onboarding related, helpful tips, offers to help, and check-in about commercial next steps towards the end of the trial.
 3. 🟢 From there, the assigned CE is responsible for the instance: extending, terminating, or converting the trial.
