@@ -53,8 +53,6 @@ set -x TF_TOKEN_app_terraform_io (gcloud secrets versions access latest --projec
 
 ### Check out a new branch
 
-This will create a `config.yaml` for the instance, this is the source of truth of instance specification.
-
 ```sh
 git checkout -b $SLUG/delete-instance
 ```
