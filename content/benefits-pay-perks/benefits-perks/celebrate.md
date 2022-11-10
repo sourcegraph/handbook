@@ -8,7 +8,7 @@ The People team is responsible for sending gifts for:
 
 - [New hires](celebrate.md#New-hires)
 - [Promotions](celebrate.md#Promotions)
-- [New babies](celebrate.md#New-babies)
+- [Growing family](celebrate.md#New-babies)
 - Company offsites
 
 Managers are responsible for sending gifts for:
@@ -28,10 +28,10 @@ Each manager is responsible for celebrating their teammates' birthdays and sendi
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated. With the teammate's permission, managers should follow the below steps:
 
 - Send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift within the [birthday gift amount policy](celebrate.md#Birthday-gift-budget). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
-- Post about the occasion in the team channel or 1:1
+- Post about the occasion in team Slack channel or 1:1
   - Team post suggestions:
-    - Announce the occasion: "A huge #thanks and happy birthday to [name] on their [#] year anniversary at Sourcegraph! Please treat yourself to a $50 gift and celebrate yourself!"
-    - Highlight the teammates' key contributions and impact they've made
+    - Announce the occasion: "Wishing a happy birthday to [name]! Please treat yourself to a $50 gift and celebrate!"
+    - Personalize the message based on the particular individual 
     - TIP: You can pre-schedule your Slack messages to send on the correct dates
 
 Sourcegraph encourages teammates to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If a Teammate's celebration happens to fall over a weekend, please be sure to take an alternate day such as the Friday prior or the Monday after.
@@ -104,11 +104,11 @@ Once an order is placed, the new hire will get an email confirmation with delive
 
 Please reach out in the #swag channel with any questions.
 
-## New babies
+## Growing family
 
-Our People Team is responsible for sending new baby gits and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People Team purchases inventory in bulk and Telescope monitors/reorders the inventory as needed.
+Our People Team is responsible for sending gifts for the growth of a family and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People Team purchases inventory in bulk and Telescope monitors/reorders the inventory as needed.
 
-What is in a new baby gift:
+What is included in the gift:
 
 - Onesie
 - Bib
