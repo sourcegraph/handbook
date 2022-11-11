@@ -25,7 +25,7 @@ Notes:
 
 ## Roadmap
 
-[Roadmap](https://docs.google.com/document/d/1ICtf7Hpt5opOngS9fe1T0ETX_MTMBiuPwVeKG9cAQX0/edit)
+Sourcegraph employees can review and update our [Roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing).
 
 ## Teams
 
