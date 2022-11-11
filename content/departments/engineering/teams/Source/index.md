@@ -8,4 +8,5 @@ We provide value to Sourcegraph by ensuring Sourcegraph can reliably index code 
 
 - [Identity and Access Management](../iam/index.md)
 - [Repository Management](../repo-management/index.md)
-- (To-be-staffed)Licensing & Billing
+- (To-be-staffed in FY24) Licensing & Billing
+- (To-be-staffed in FY24) Site Admin Experience
