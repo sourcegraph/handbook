@@ -29,7 +29,7 @@ We list pacific hours here in support of our contractual SLAs being listed in pa
 
 Working out of a queue can be tiresome and we do this practice to keep the team engaged and able to continuously grow. On the focus day, it's up to each person how they spend that time. They can work on their tickets, they can learn something, they can work on a project, they can rest -- everyone maintains their own agency in what they decide to do. And if ever it feels hard to do the thing someone wants, bring that to your manager and we can sort it out.
 
-Focus day is currently paused while we try to understand and navigate the impact of recent changes on the team. New modalities for this practice will be communicated in due course.
+Focus days are currently **paused** while we try to understand and navigate the impact of recent changes on the team. New modalities for this practice will be communicated in due course.
 
 ## Adjusting the schedule
 
