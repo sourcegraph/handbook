@@ -39,12 +39,13 @@ Notes:
 - [Dev Experience](teams/dev-experience/index.md)
 - [Frontend Platform](teams/frontend-platform/index.md)
 - [Growth](teams/growth/index.md)
-- [IAM](teams/iam/index.md)
 - [Integrations](teams/integrations/index.md)
-- [Repo Management](teams/repo-management/index.md)
 - [Search Core](teams/search/core.md)
 - [Search Product](teams/search/product.md)
 - [Security](../security/index.md)
+- [Source](teams/source/index.md)
+  - [IAM](teams/iam/index.md)
+  - [Repo Management](teams/repo-management/index.md)
 
 The following functional teams work across the above dev teams:
 
