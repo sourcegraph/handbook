@@ -12,7 +12,7 @@ As part of the pre-sales process, this has proven to be a success in gaining int
 
 With respect to concerns about asks that customer facing teams may have or work that may be required to make our customers successful after the sale is complete, additional technical needs may arise from time to time at different points in their partnership with Sourcegraph.
 
-Today, where a customer need falls outside of what exists or is supported in our Product, CE logs [Product Gaps](tech-win-process.md#surfacing-product-feedback) in Salesforce to surface these requests to Product for consideration onto the [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/21). If / when added to the Roadmap, CE and Sales can track progress from the Roadmap.
+Today, where a customer need falls outside of what exists or is supported in our Product, CE logs [Product Gaps](tech-win-process.md#surfacing-product-feedback) in Salesforce to surface these requests to Product for consideration onto the [Roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit). If / when added to the Roadmap, CE and Sales can track progress from the Roadmap.
 
 Where we uncover that, in order to make a customer successful technically, they require Engineering resources / effort that is unplanned and unprioritized, the account CE is expected to write up the details: capture the clear asks (concern / problem statement / etc), provide context if it impacts any other customers, and provide any other business context in order to raise the request through the technical review process employed for pre-sales opportunities today. This allows for transparent alignment and collaborative decision making between Sales, CE & Support, and Engineering.
 
