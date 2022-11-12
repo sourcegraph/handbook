@@ -37,12 +37,11 @@ Sourcegraph employees can review and update our [Roadmap](https://docs.google.co
   - [Code Insights](teams/code-insights/index.md)
   - [Code Exploration](teams/code-exploration/index.md)
   - [Code Intelligence](teams/code-intelligence/index.md)
+- [Cloud](../../departments/cloud/index.md)
 - Ship
   - [Delivery](teams/delivery/index.md)
   - [Dev Experience](teams/dev-experience/index.md)
-  - [Frontend Platform](teams/frontend-platform/index.md)
   - [Growth](teams/growth/index.md)
-  - [Integrations](teams/integrations/index.md)
 - [Source](./teams/source/index.md)
   - [IAM](teams/iam/index.md)
   - [Repo Management](teams/repo-management/index.md)
