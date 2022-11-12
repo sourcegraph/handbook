@@ -947,8 +947,8 @@ nicky_van_maanen:
 nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
-  role: Customer Engineer
-  reports_to: vp_customer_engineering
+  role: Enterprise Technical Advisor
+  reports_to: manager_technical_advisory
   location: Denver, Colorado, USA 🇺🇸
 
   email: nate.maynard@sourcegraph.com
@@ -1045,8 +1045,9 @@ alex_isken:
 bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
-  role: Senior Customer Engineer
+  role: Manager, Technical Advisory
   reports_to: vp_customer_engineering
+  manager_role_slug: manager_technical_advisory
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
   email: bill.caplan@sourcegraph.com
@@ -1080,8 +1081,8 @@ amie_rotherham:
 max_wiederholt:
   name: Max Wiederholt
   pronouns: He/Him
-  role: Customer Engineer
-  reports_to: vp_customer_engineering
+  role: Enterprise Technical Advisor
+  reports_to: manager_technical_advisory
   location: Mountain View, CA, USA 🇺🇸
   github: maaaaaaaax
   email: max.wiederholt@sourcegraph.com
@@ -1289,8 +1290,8 @@ kemper_hamilton:
 nancy_shah:
   name: Nancy Shah
   pronouns: she/her
-  role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  role: Enterprise Technical Advisor
+  reports_to: manager_technical_advisory
   location: Oakton, VA, United States 🇺🇸
   github: nancy4dev
   email: nancy@sourcegraph.com
@@ -2079,8 +2080,8 @@ josé_taylor:
   email: jose.taylor@sourcegraph.com
   github: josetaylor06
   pronouns: he/him
-  role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  role: Enterprise Technical Advisor
+  reports_to: manager_technical_advisory
   location: San Antonio, TX
   links: '[Personal Website](https://iamjosetaylor.com), [LinkedIn](https://www.linkedin.com/in/josetaylor06/)'
   pronunciation: Hose-a
@@ -2391,7 +2392,7 @@ ted_moskalenko:
   github: tdmosk
   pronouns: he/him
   role: Strategic Technical Advisor
-  reports_to: vp_customer_engineering
+  reports_to: manager_technical_advisory
   location: Huntersville, NC, USA 🇺🇸
   links: '[LinkedIn](https://linkedin.com/in/tdmosk)'
   description: 'Ted is a technology professional with a variety of interests, including Information Security, Agile and DevOps, Data Analysis, and Business Process Management. He lives in Huntersville, NC, just north of Charlotte, with his wife and two boys. His interests include travel, food, and board games.'
