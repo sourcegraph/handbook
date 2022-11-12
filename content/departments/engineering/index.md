@@ -108,7 +108,7 @@ What's intentionally NOT in this list (but would be plausible items for a simila
 
 Reference:
 
-- [Current roadmap (private)](https://github.com/orgs/sourcegraph/projects/214/views/21)
+- [Current roadmap (private)](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
 - [Cross-team collaboration](cross-team-collab.md)
 - [Demo day](demo-day.md)
