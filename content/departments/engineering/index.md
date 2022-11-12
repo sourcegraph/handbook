@@ -25,26 +25,26 @@ Notes:
 
 ## Roadmap
 
-[Roadmap](https://docs.google.com/document/d/1ICtf7Hpt5opOngS9fe1T0ETX_MTMBiuPwVeKG9cAQX0/edit)
+Sourcegraph employees can review and update our [Roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing).
 
 ## Teams
 
-- [Admin Analytics Tiger Team](teams/admin-analytics/index.md)
-- [Batch Changes](teams/batch-changes/index.md)
-- [Code Insights](teams/code-insights/index.md)
-- [Code Exploration](teams/code-exploration/index.md)
-- [Code Intelligence](teams/code-intelligence/index.md)
-- [Content Platform](teams/content-platform/index.md)
-- [Delivery](teams/delivery/index.md)
-- [Dev Experience](teams/dev-experience/index.md)
-- [Frontend Platform](teams/frontend-platform/index.md)
-- [Growth](teams/growth/index.md)
-- [IAM](teams/iam/index.md)
-- [Integrations](teams/integrations/index.md)
-- [Repo Management](teams/repo-management/index.md)
-- [Search Core](teams/search/core.md)
-- [Search Product](teams/search/product.md)
-- [Security](../security/index.md)
+- Search
+  - [Search Core](teams/search/core.md)
+  - [Search Product](teams/search/product.md)
+- Graph
+  - [Batch Changes](teams/batch-changes/index.md)
+  - [Code Insights](teams/code-insights/index.md)
+  - [Code Exploration](teams/code-exploration/index.md)
+  - [Code Intelligence](teams/code-intelligence/index.md)
+- [Cloud](../../departments/cloud/index.md)
+- Ship
+  - [Delivery](teams/delivery/index.md)
+  - [Dev Experience](teams/dev-experience/index.md)
+  - [Growth](teams/growth/index.md)
+- [Source](teams/source/index.md)
+  - [IAM](teams/iam/index.md)
+  - [Repo Management](teams/repo-management/index.md)
 
 The following functional teams work across the above dev teams:
 
