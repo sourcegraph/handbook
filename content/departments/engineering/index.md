@@ -42,7 +42,7 @@ Sourcegraph employees can review and update our [Roadmap](https://docs.google.co
   - [Delivery](teams/delivery/index.md)
   - [Dev Experience](teams/dev-experience/index.md)
   - [Growth](teams/growth/index.md)
-- [Source](./teams/source/index.md)
+- [Source](teams/source/index.md)
   - [IAM](teams/iam/index.md)
   - [Repo Management](teams/repo-management/index.md)
 
