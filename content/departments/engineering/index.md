@@ -43,7 +43,7 @@ Sourcegraph employees can review and update our [Roadmap](https://docs.google.co
 - [Search Core](teams/search/core.md)
 - [Search Product](teams/search/product.md)
 - [Security](../security/index.md)
-- [Source](teams/source/index.md)
+- [Source](./teams/source/index.md)
   - [IAM](teams/iam/index.md)
   - [Repo Management](teams/repo-management/index.md)
 
