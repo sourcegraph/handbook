@@ -142,7 +142,7 @@ If above all check out, visit the [Compute Engine Console](https://console.cloud
 
 ### Troubleshooting executor-dependent features
 
-To check if executors are making progress on available work, consult this [alert](https://docs.sourcegraph.com/admin/observability/alerts#executor-executor-processor-total).
+To check if executors are making progress on available work, consult executor [alerts](https://docs.sourcegraph.com/admin/observability/alerts#executor-executor-handlers).
 
 Executor-dependent features (Server Side Batch Changes, Code-Intelligence Auto-indexing) differ in the way they use executors & influence core Sourcegraph experience, for further troubleshooting contact:
 
