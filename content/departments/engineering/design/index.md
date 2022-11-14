@@ -2,28 +2,39 @@
 
 ### Welcome to design at Sourcegraph!
 
-The design team exists to increase the value Sourcegraph delivers to its users. We achieve this objective through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company.
+The design team exists to increase the value Sourcegraph delivers to its
+users and to build trust through our brand. We achieve this objective
+through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company.
 
 We also seek to make it easier and more efficient to build Sourcegraph itself. Through the artifacts of our open process, we provide a forum where anyone in the company can provide valuable input that improves a project's outcome before a single line of code is written.
 
 ## Design Team
 
-- [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
+- [Steve Fisher](../../../team/#sts=Steve%20Fisher) – Head of Design (he/him)
 
 ### Product Design
 
-- [Rob Rhyne](../../../team/index.md#rob-rhyne) Product Design Manager (he/him)
-  - [Alicja Suska](../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
-  - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
-  - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
-  - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
-- [Quinn Keast](../../../team/index.md#quinn-keast) Staff Product Designer (he/him) – [ReadMe](https://quinnkeast.com/readme)
-- [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher (she/they)
+- [Rob Rhyne](../../../team/index.md#rob-rhyne) – Product Design Manager
+  (he/him)
+  - [Alicja Suska](../../../team/index.md#alicja-suska) – Product Designer,
+    Code Insights (she/her)
+  - [Daniel Marques](../../../team/index.md#daniel-marques) – Product
+    Designer, Batch Changes (he/him)
+  - [Paulo Almeida](../../../team/index.md#paulo-almeida) – Product Designer,
+    Search Product (he/him)
+  - [Sara Lee](../../../team/index.md#sara-lee) – Product Designer, Growth &
+    Integrations (she/her)
+- [Quinn Keast](../../../team/index.md#quinn-keast) – Staff Product Designer
+  (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
+  (she/they)
 
 ### Creative Ops / Brand
 
-- [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
-- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (they/them)
+- [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos)
+  – Creative Operations Manager (she/her)
+- [Tracey Johnson](../../../team/index.md#tracey-johnson) – Brand Designer
+  (they/them)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -36,6 +47,11 @@ We know that we’re successful as a design team when we…
 - **Advocate for and ship design outcomes that align with our [product design principles](./product_design_principles.md).**
 - **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
 - **Complete goals owned by our teams.** We’re successful when each of us is able to complete our goals in a sustainable way, while also contributing to the design team culture and rituals.
+
+## Design team goals
+
+Our [design team goals](./goals/index.md) set out our direction and priorities
+over the next 3-6 months.
 
 ## How we work
 
@@ -75,7 +91,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 [Design project templates](./templates/index.md) are used to help structure our efforts.
 
-## Process
+#### Process
 
 - [Ways of working](./ways_of_working/index.md)
 - [Design artifacts](./artifacts/index.md)
@@ -92,14 +108,14 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Design and interaction guidelines](design-and-interaction-guidelines.md)
 - [Design Process](design_process.md)
 
-## Collaboration
+#### Collaboration
 
 - [Team rituals](./team_rituals/index.md)
 - [Design collaboration and review](./design_collaboration_review/index.md)
 - [Structuring design artifacts for review](./structuring_design_artifacts_for_review/index.md)
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
 
-## Toolkit
+#### Toolkit
 
 - [Tools](./tools/index.md)
 - [Workshops](./workshops/index.md)
@@ -108,7 +124,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Visual design checklist](./visual_design_checklist.md)
 - [External resources](./external_resources/index.md)
 
-## Other
+#### Other
 
 - [Design career framework](./career-development.md)
 - [Design team onboarding](./onboarding/index.md)
