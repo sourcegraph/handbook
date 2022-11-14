@@ -19,7 +19,7 @@ Please visit our Security Trust Portal for all of Sourcegraph's latest informati
 
 ## Contact
 
-We're here to help so reach out to us at [security@sourcegraph.com](mailto:security@sourcegraph.com) with any questions you may have. Sourcegraph employees can reach us in the #security Slack channel or tag us using @sourcegraph/security on GitHub.
+We're here to help so reach out to us at [security@sourcegraph.com](mailto:security@sourcegraph.com) with any questions you may have. Sourcegraph employees can reach us in the #security Slack channel or tag us using @sourcegraph/security on GitHub or @sourcegraph/security-code-review for a code review.
 
 Security questions and support requests should be raised in #security:
 
@@ -124,7 +124,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Repo management
    </td>
-   <td>Feroz
+   <td>Vincent
    </td>
   </tr>
   <tr>
