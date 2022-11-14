@@ -124,6 +124,7 @@ Then, merge your changes via a pull request, and run the following from the base
 ```bash
 helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 4.1.2-insiders.40464aa sourcegraph insiders/sourcegraph -n scaletesting`
 ```
+
 ### Scale the infrastructure down when not in use
 
 To ensure the cluster is not left running, set the `node_count` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39)
