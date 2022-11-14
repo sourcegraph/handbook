@@ -30,7 +30,7 @@ The triage column is the default column and represents issues that have not yet 
 
 Our current process is as follows:
 
-- We work in **2-week iterations**. 
+- We work in **2-week iterations**.
 
 - Incoming tickets are added to the [GitHub project](https://github.com/orgs/sourcegraph/projects/291/views/1) automatically when they are labelled <span class="badge" style="background: var(--bs-teal)">team/code-insights</span> and will be visible in the triage column.
 
@@ -148,7 +148,6 @@ The project specific label is created by any of the teammates, and should be des
 
 Suffixes like **v1** can be used to communicate we are aiming for an initial, well-defined scope to avoid scope creep.
 Further improvements are either tracked as individual tasks in iterations, or if a new, larger, multi-iteration improvement, a new project is created with a new label.
-
 
 ## Product Feedback
 
