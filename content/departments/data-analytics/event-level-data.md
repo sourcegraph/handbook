@@ -76,6 +76,8 @@ Possibly. This change may affect existing on-prem customers that decide to migra
 
 ## When can we enable the collection on a managed instance?
 
+One or more of the following must be true to enable event-level data collection:
+
 - The lead requested a trial through [signup.sourcegraph.com](https://signup.sourcegraph.com/) and therefore agreeing to our [Cloud Terms of Service](https://about.sourcegraph.com/terms/cloud)
 - An existing customer signs a $0 order form with an updated Cloud ToS
 - A new customer or renewal signs a new contract with the updated Cloud ToS
