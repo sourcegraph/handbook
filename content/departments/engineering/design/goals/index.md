@@ -14,7 +14,7 @@ uses these to define their own individual goals.
 #### Theme: Win the top 100 organizations
 
 1. **Objective**: Remove blocks to adoption related to UI/UX for 2XL customers.
-   - Key Result: Eliminate all the UI/UX-related must-haves from the scale
+   - Key Result: Eliminate all the UI/UX-related must-haves from the strategic scale
      audit.
    - Key Result: Design as a function contributes to closing a deal for a
      2XL customer.
