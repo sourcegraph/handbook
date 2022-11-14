@@ -85,17 +85,18 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 
 #### Case 3: acme-corp.com is NOT pre-qualified
 
-In that case, `bob@acme-corp.com` does NOT instantly and automatically get a pre-provisioned instance. We need to request an instance for them and give them a reset password link. It also means that the account is NOT a named account in SFDC because all named accounts are prequalified.
+In that case, `bob@acme-corp.com` does NOT instantly and automatically get a pre-provisioned instance. If qualified, ae need to request an instance for them and give them a reset password link. It also means that the account is NOT a named account in SFDC because all named accounts are prequalified.
 
 There are two cases. It all starts with an alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published) asking Inbound SDR to triage the lead. Then:
 
 ##### Case 3.1: the lead is not qualified
 
-1. 🟡 inbound SDR disqualifies.
+1. 🟡 inbound SDR disqualifies against the [**qualification criteria**](https://docs.google.com/document/d/1gUc9fWAw_ACbT56tQLbQwZsARUu2TiD8N0xUg3YNgn4/edit)
 1. the user gets an automated email recommending to self-host Sourcegraph
 
 ##### Case 3.2: the lead is qualified
 
+1. 🟡 inbound SDR qualifies against the [**qualification criteria**](https://docs.google.com/document/d/1gUc9fWAw_ACbT56tQLbQwZsARUu2TiD8N0xUg3YNgn4/edit)
 1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
 1. 🟡 Inbound SDR notifies assigned AE/CE
@@ -188,8 +189,8 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Account Executives (AE)
 
-- Engage Product Qualified Leads
-- Support CEs as neeed
+- Work with CE to check-in with trial as they approach the end, assess the opportunity, handle commercial conversations.
+- Support CEs as needed
 
 ### Data and Analytics
 
