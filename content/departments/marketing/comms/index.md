@@ -42,7 +42,7 @@ Resources:
 Projects & responsibilites:
 
 - **Company Announcements** - Share important information with the entire company and get support on how to communicate that content.
-  - If you’d like to share a message in #announcements, please send a request to #internal-comms and tag Madison Clark. 
+  - If you’d like to share a message in #announcements, please send a request to #internal-comms and tag Madison Clark.
 - **Bi-weekly All Company Meeting** - This live session gives the company a chance to align on shared goals, celebrate recent wins, and hear from members of the team in ways that we can’t always achieve asynchronously.
   - If you have something you’d like to share at an upcoming company meeting, send a message to Madison Clark in #internal-comms.
 - **Cross-Functional Internal Comms Support** - Need to communicate something to your team, or share information across multiple departments at Sourcegraph? Work with the internal comms team to refine your messaging and build a comms plan to share the information in an effective way. We have templates to make this process smooth (linked below).
