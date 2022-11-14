@@ -22,7 +22,7 @@ How we treat customer data at Sourcegraph.
 
 - [Link to customer or prospect name in public places](how-to.md#linking-to-customer-or-prospect-names-in-public-places)
 
-  # Tool Resources
+# Tool Resources
 
 - [Onboarding to Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
 
@@ -30,7 +30,7 @@ How we treat customer data at Sourcegraph.
 
 - [Other Looker Resources](looker.md)
 
-  # FAQs
+# FAQs
 
 - [General FAQs](faq.md)
 
