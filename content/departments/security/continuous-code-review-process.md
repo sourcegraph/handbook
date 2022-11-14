@@ -27,7 +27,7 @@ All the interactions call certain Go functions, for which we can write a search.
   <p>Continuous review process.</p>
 </div>
 
-GitHub actions then comments on a PR with information on how to use the detected functionalities in a safe way. For example: when we detect an exec call. In this case we can point to `gitserver`’s implementation: it uses an allowlist for preventing command injection attacks. If the engineer is already aware of the best practices they can ignore the comment. If they need more information they can tag the security team.
+GitHub actions then comments on a PR with information on how to use the detected functionalities in a safe way. For example: when we detect an exec call. In this case we can point to `gitserver`’s implementation: it uses an allowlist for preventing command injection attacks. If the engineer is already aware of the best practices they can ignore the comment. If they need more information they can tag the security team on GH (@sourcegraph/security-code-review).
 
 ### Code monitors
 
