@@ -22,7 +22,7 @@ uses these to define their own individual goals.
    - Key Result: Each member of the design team participates in at least 1
      sales, AE, or CE session per week.
    - Key Result: Each member of the design team has at least `${x}` hours of
-     user time per `${cycle}`.
+     user time per quarter.
 
 #### Theme: Drive expansion in existing customers
 
