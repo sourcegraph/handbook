@@ -111,9 +111,19 @@ Below you can find a subset of the common tasks and how to complete them:
 
 To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
-Merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
+First, ensure that you have the sourcegraph helm chart installed:
 
-`helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 4.1.2-insiders.cbf797a sourcegraph insiders/sourcegraph -n scaletesting`
+```bash
+helm repo add insiders https://helm.sourcegraph.com/insiders
+helm repo update
+helm search repo insiders --devel
+```
+
+Then, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
+
+```bash
+helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 4.1.2-insiders.40464aa sourcegraph insiders/sourcegraph -n scaletesting`
+```
 
 ### Scale the infrastructure down when not in use
 
