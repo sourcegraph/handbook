@@ -188,8 +188,8 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Account Executives (AE)
 
-- Engage Product Qualified Leads
-- Support CEs as neeed
+- Work with CE to check-in with trial as they approach the end, assess the opportunity, handle commercial conversations.
+- Support CEs as needed
 
 ### Data and Analytics
 
