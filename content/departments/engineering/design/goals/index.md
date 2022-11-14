@@ -7,7 +7,7 @@ Our team-level goals cascade from the overall company [product vision and
 strategy](../../index.md#product-vision-and-strategy), and each member of the design team
 uses these to define their own individual goals.
 
-## (Draft) Design team goals for the next 3-6 months
+## (Draft) Design team goals for Q4
 
 ### Urgent and important
 
