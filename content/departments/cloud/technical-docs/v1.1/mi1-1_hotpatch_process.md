@@ -16,9 +16,10 @@ The team requesting that a hotpatch be shipped to a Cloud customer should create
 
 They should then create an issue in `sourcegraph/customer`, labelled `team/cloud`, describing:
 
-1. The target customer instance
-2. The hotpatched image tag(s) to deploy
-3. Link to the branch from which the hotpatched images are built
+1. Reason for the hotpatch
+2. The target customer instance
+3. The hotpatched image tag(s) to deploy
+4. Link to the branch from which the hotpatched images are built
 
 ## Deploying a hotpatch
 
