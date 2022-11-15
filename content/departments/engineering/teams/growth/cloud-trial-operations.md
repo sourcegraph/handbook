@@ -25,7 +25,7 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 ## Enablement
 
 - [SDR enablement](https://www.youtube.com/watch?v=pBVS2llqZUI)
-- AE/CE enablement (TODO)
+- [AE/CE enablement](https://sourcegraph.highspot.com/items/6372a86b2603d024eca99775?lfrm=srp.0)
 
 ## Workflow
 
