@@ -1,6 +1,6 @@
 # MI 1.1 Hotpatch process
 
-A "hotpatch" describes a patch made to a release that is *not* a tagged patch release.
+A "hotpatch" describes a patch made to a release that is _not_ a tagged patch release.
 It can be used to temporarily ship a specific commit for a small number of services to a particular Cloud instance.
 
 This process should only be used if waiting for a tagged release or requesting a tagged patch release is not viable.
