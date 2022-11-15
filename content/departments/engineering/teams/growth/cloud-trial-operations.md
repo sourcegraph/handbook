@@ -41,7 +41,7 @@ TLDR:
 ![Workflow](https://storage.googleapis.com/sourcegraph-assets/growth/flow-v2.svg)
 (You can also view this flow [here](https://app.excalidraw.com/l/4Dr1S6qmmY7/4S6Sc9L2aDO))
 
-Now let's dive into the details of the workflow. CE or AE actions are highlighted by 🟢, inbound SDR actions by 🟡, and named SDR actions by 🟠.
+Now let's dive into the details of the workflow. CE (backup AE) actions are highlighted by 🟢, AE actions by 🔵, inbound SDR actions by 🟡, named SDR actions by 🟠.
 
 Assume `bob@acme-corp.com` signs up for an instance on signup.sourcegraph.com.
 
@@ -53,7 +53,7 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 
 1. `bob` is automatically redirected to that instance.
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. 🟢 the AE/CE should reach out to the instance admin and user to understand if they should be added to the instance
+1. 🔵 the AE should reach out to the instance admin and make sure the user can get added to the instance
 
 Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannnot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
@@ -189,6 +189,7 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Account Executives (AE)
 
+- Make sure users are able to join pre-existing instances (see [case 1](#case-1-acme-corp-com-already-has-a-cloud-instance))
 - Work with CE to check-in with trial as they approach the end, assess the opportunity, handle commercial conversations.
 - Support CEs as needed
 
