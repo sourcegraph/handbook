@@ -18,7 +18,6 @@ If you haven't done so already please configure your laptop in accordance with o
 
 - If your device was purchased by Sourcegraph your computer will be prompted to enroll in Jamf on the Remote Management screen during your new laptop's setup process.
 - If you have purchased your Sourcegraph device from an Apple Certified Reseller, please reach out to the #it-tech-ops Slack Channel to receive an enrollment invitation via email.
-- If you are an existing teammate migrating from Workspace One to Jamf, please follow the steps outlined [here](https://docs.google.com/document/d/1cqCe_sR3Rwzxous4KQJtYxiKcpv_ltty6c3-CBTkyxI/edit)
 
 **What Jamf will automatically install on new devices**
 
