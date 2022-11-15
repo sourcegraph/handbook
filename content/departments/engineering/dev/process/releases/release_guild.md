@@ -12,6 +12,14 @@ The release guild can be found in the slack channel #release-guild.
 
 For the time being, captains are selected on a volunteer basis. The guild will decide on a format going forward as soon as possible.
 
+The current schedule is shown below:
+
+| Date           | Release Tag | Captain                                                                 |
+| -------------- | ----------- | ----------------------------------------------------------------------- |
+| November, 2022 | 4.2.0       | [Coury Clark](https://handbook.sourcegraph.com/team/#coury-clark)       |
+| December, 2022 | 4.3.0       | [Dax McDonald](https://handbook.sourcegraph.com/team/#dax-mcdonald)     |
+| January, 2023  | 4.4.0       | [Bolaji Olajide](https://handbook.sourcegraph.com/team/#bolaji-olajide) |
+
 ## Guild Leader Responsibilities
 
 - Ensure release captains are identified for minor and patch releases
