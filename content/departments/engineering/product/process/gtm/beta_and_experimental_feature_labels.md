@@ -60,6 +60,7 @@ We use the term GA to refer to features that are complete and ready for broad us
 
 - Are stable and can be used across our entire customer base
 - Are able support strategic customers at [2XL scale](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107)
+  - Note: Current scale limits for Sourcegraph features can be found [here](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit?usp=sharing)
 - Are high-quality with no known bugs or issues
 - Are commercially ready for customers to adopt (and purchase if it's an add-on product or feature)
 - Have established product-market fit
