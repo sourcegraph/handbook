@@ -3,16 +3,17 @@
 Understanding how individuals and organizations use Sourcegraph is key to our future growth and success. By expanding and improving the product usage data we collect, we can provide the highest level of support to our customers.
 
 This will also help teams:
-Gain deeper customer and user insights.
 
+- Gain deeper customer and user insights.
 - Drive customer value.
 - Predict user outcomes.
 - Tell the Sourcegraph story.
 
 Our current data collection (pings) provides us with some high level insight into how our customers are using Sourcegraph, but it doesn’t allow us to find usage patterns or truly understand product and feature adoption due to the limited nature of the data pings sends back to Sourcegraph. Further, we depend on our customers' upgrade schedule in order to collect new or updated pings, oftentimes the time to insight is very long.
+
 The new data will introduce event-level aggregation of customer data by sending customer event_logs back to Sourcegraph. This data will allow us to answer questions like:
 
-- How many Regex searches and literal searches did user X conduct this month?
+- How many regex searches and literal searches did user X conduct this month?
 - How many users are considered power users?
 - How many users use multiple features in a session?
 - Is there a point in time we should intervene with enablement or communication to ensure customer happiness?
@@ -22,21 +23,32 @@ This data will meaningfully help each department do their job more effectively, 
 
 ## What data have we historically collected?
 
-We currently collect aggregated and anonymized usage data (called [Pings](https://docs.sourcegraph.com/admin/pings#pings)). These data points, like version, code host, active users, are necessary for Sourcegraph to support our customers’ use of our product. Right now, we are in a position where we are collecting only some of the data we need. It’s important for us to collect critical telemetry and the event stream data (further discussed below) in order to provide the highest level of support to our customers.
+We currently collect aggregated and anonymized usage data (called [pings](https://docs.sourcegraph.com/admin/pings#pings)). These data points, like version, code host, active users, are necessary for Sourcegraph to support our customers’ use of our product. Right now, we are in a position where we are collecting only some of the data we need. It’s important for us to collect critical telemetry and the event stream data (further discussed below) in order to provide the highest level of support to our customers.
 
 ## What data are we starting to collect as a part of this initiative?
 
 In order to really get into helpful insights, we need to go a level deeper from our aggregated data to the event stream. The event stream is data that is collected at the time the user does something in the product. That means, what did they do, when did they do it, what was the outcome. Examples of events data that we will collect:
 
-- ViewSearchResults
-- BrowserExtensionConnectedToServer
+- goToDefinition
 - SearchSubmitted
+- SearchNotebookPageViewed
 
 We will continue to add event tracking as we release new features and expand the insights we want to capture.
 
 ## Are we collecting data from both managed instances and on-prem customers?
 
-Because managed instances will become our preferred deployment method, we will be only collecting data from managed instances first. We will assess this decision in the future and may decide to collect data from our on-prem customers.
+Because managed instances are our preferred deployment method, we will be only collecting data from managed instances first. We will assess this decision in the future and may decide to collect data from our on-prem customers.
+
+## When can we enable the collection on a managed instance?
+
+One or more of the following must be true to enable event-level data collection:
+
+- The lead requested a trial through [signup.sourcegraph.com](https://signup.sourcegraph.com/) and therefore agreeing to our [Cloud Terms of Service](https://about.sourcegraph.com/terms/cloud)
+- An existing customer signs a $0 order form with an updated Cloud ToS
+- A new customer or renewal signs a new contract with the updated Cloud ToS
+- A CE-led trial on a managed instance is initiated through a workflow (TBD - CE is owning a new page that they'll direct prospects to with the Cloud ToS))
+
+The `User Level Event Usage Data Analytics` field in account object in Salesforce should be set to `Yes` if the opportunity allows this. A report of all accounts set to `Yes` is [here](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051EOrEAM/view). 
 
 ## What data will we not collect?
 
@@ -69,21 +81,6 @@ Everyone at Sourcegraph will benefit from having better insight into how our use
 ## Can customers opt out?
 
 Yes, the customer will be able to send us user level event data, critical telemetry only (aggregated and anonymized data), or completely turn off sending any data (air gapped). This opt out is at the instance level and will be available to the admin by contacting us. More documentation to come on how to do this.
-
-## Will this change affect existing customers?
-
-Possibly. This change may affect existing on-prem customers that decide to migrate to a managed instance. When this occurs, the CE will be enabled on how to talk to the customer about the change to data collection. For customers that are currently on managed instances, someone from Sourcegraph will connect with them directly to explain the change and have them opt in to more data collection if desired.
-
-## When can we enable the collection on a managed instance?
-
-One or more of the following must be true to enable event-level data collection:
-
-- The lead requested a trial through [signup.sourcegraph.com](https://signup.sourcegraph.com/) and therefore agreeing to our [Cloud Terms of Service](https://about.sourcegraph.com/terms/cloud)
-- An existing customer signs a $0 order form with an updated Cloud ToS
-- A new customer or renewal signs a new contract with the updated Cloud ToS
-- A CE-led trial on a managed instance is initiated through a workflow (TBD - CE is owning a new page that they'll direct prospects to with the Cloud ToS))
-
-The `User Level Event Usage Data Analytics` field in Salesforce should be set to `Yes` if the opportunity allows this. A report of all accounts set to `Yes` is [here](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051EOrEAM/view)
 
 ## Who has access to the data?
 
