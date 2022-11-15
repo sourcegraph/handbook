@@ -98,19 +98,19 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 deploy tfc
+npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
 ### Init deployment - deploy cdktf stacks
 
-> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.0` under the instance root in case things are not working as intented
+> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.3` under the instance root in case things are not working as intented
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+npx --yes cdktf-cli@0.13.3 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
 ```
 
 ### Init deployment - generate kustomize artifacts
@@ -168,7 +168,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 deploy tfc
+npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
 ### Commit your changes
