@@ -40,16 +40,24 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 ## Legal training
 
-Legal training for managers on performance management
+### Legal training for managers on performance management
 
 - [Video](https://drive.google.com/file/d/1d_UXOd6mkmhKIWc5yrHIZOXOlYH-H9IZ/view?usp=sharing)
 - [Slides](https://drive.google.com/file/d/11wgGGg10JJnd4z4Ajx0rx7aVte2FDiOY/view?usp=sharing)
 
-Legal onboarding for account executives
+### Legal onboarding for account executives
 
 - [Video](https://drive.google.com/file/d/1sPrO9xyN1TOvpQqctsKeyS4Wg1r6p33a/view?usp=sharing)
 - [Slides](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing)
 - [Quiz](https://forms.gle/zVCaDM8UyMVehEch8)
+
+### Legal checklist for product marketing
+
+When to engage legal:
+
+1. [Product inception, pre-beta launches, and launches](../engineering/product/process/gtm/new_feature_legal_questionnaire.md)
+1. [Naming new products, features, and programs](../marketing/product-marketing/naming_guide.md)
+1. Feature deprecation or other changes (see Product inception link above) that may affect ToS or Privacy Policy
 
 ## Policy updates
 
