@@ -25,9 +25,11 @@ Open Okta Verify and follow the instructions.
 
 Your new account is now available in the Okta Verify app.
 
-## Second: enroll your laptop to Workspace One
+## Second: Make sure your device is enrolled in Jamf
 
-After setting up your Okta password you then need to enroll your Sourcegraph laptop in our endpoint management system, Workspace One. To install WS1 on your device navigate to [getwsone.com](https://getwsone.com) and once that installs you can sign in with your newly created Okta credentials to register your device. More info on this can be found [here](../endpoint-antivirus.md#what-is-workspace-one).
+After setting up your Okta password you may need to enroll your Sourcegraph laptop in our endpoint management system, Jamf. If your device was purchased by Sourcegraph, when booting up your machine you will be prompted with a Remote Management screen. This will kick off the Jamf enrollment process and no further action is needed. 
+
+If you have purchased and expensed your Sourcegraph Laptop, you will need to reach out in the #it-tech-ops Slack channel to get an email invitation to join Jamf. 
 
 ## Third: open the Okta Dashboard
 
