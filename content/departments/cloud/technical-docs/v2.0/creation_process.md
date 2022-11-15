@@ -3,6 +3,24 @@
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
+## Option I - automated creation via Github Action
+
+Invoke [Managed Instance create Github Action](https://github.com/sourcegraph/cloud/actions/workflows/mi_create.yml) with given parameters:
+
+- `customer` - customer slug
+- `instance_type` - purpose of this instance
+  - `trial` - for customer trial
+  - `production` - for paying customer
+  - `internal` - for internal Sourcegraph usage
+
+or via command line:
+
+```
+gh workflow run -f customer=$CUSTOMER -f instance_type=[production|trial|internal]
+```
+
+## Option II - manual playbook
+
 ## Prereq
 
 Follow https://github.com/sourcegraph/controller#installation to install `mi2`
