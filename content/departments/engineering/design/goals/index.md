@@ -36,7 +36,7 @@ will define their own individual goals based on the career ladder, their product
 #### Theme: Levelling up the design team
 
 1. **Objective**: Level up storytelling skills.
-   - Key Result: Each member of the design team shares two #progress announcements that exhibt strong storytelling skills.
+   - Key Result: Each member of the design team shares two #progress announcements that exhibit strong storytelling skills.
    - Key Result: Company-wide engagement in design review increases.
 
 #### Theme: Level up research at Sourcegraph
