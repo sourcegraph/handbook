@@ -32,7 +32,7 @@ cd $CUSTOMER
 terraform apply
 ```
 
-**Important**: executors has to be set up on active instance, so if multiple VMs are running, use flag `--deployment red|black` in all `mg` commands below.
+**Important**: executors has to be set up on active instance, so if multiple VMs are running, use flag `--deployment red|black` in all `mi` commands below.
 
 Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 

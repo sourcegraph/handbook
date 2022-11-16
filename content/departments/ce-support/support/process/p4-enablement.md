@@ -257,3 +257,63 @@ sourcegraph=# select repo_id, user_id, path_includes, path_excludes from sub_rep
 ---------+---------+-------------------+----------------------------
      238 |       1 | {**} | {Security/**}
 ```
+
+# Troubleshooting
+
+### git p4 is broken error
+
+You may see this error when trying to run `git p4`:
+
+```
+fatal: 'p4' appears to be a git command, but we were not
+able to execute it. Maybe git-p4 is broken?`
+```
+
+This can happen when the `git p4` tool can't locate the Python interpreter.
+
+Here are the steps required to fix on MacOS assuming you use `brew`
+
+1. Locate git:
+
+```
+which git
+/opt/homebrew/bin/git
+```
+
+2. Check the symbolic link:
+
+```
+ls -l /opt/homebrew/bin/git
+lrwxr-xr-x  1 username  admin  28 Aug 16 13:20 /opt/homebrew/bin/git -> ../Cellar/git/2.37.2/bin/git
+```
+
+3. Change to the cellar directory and search for `git-p4`:
+
+```
+find . -name git-p4
+./git/2.37.2/libexec/git-core/git-p4
+```
+
+4. Edit `git-p4` with your editor. Most likely the first line will be something like this:
+
+```
+#!/usr/bin/python
+```
+
+5. Change it to this:
+
+```
+#!/usr/bin/python3
+
+```
+
+6. `git p4` should now work:
+
+```
+git p4
+usage: /opt/homebrew/Cellar/git/2.37.2/libexec/git-core/git-p4 <command> [options]
+
+valid commands: submit, commit, sync, rebase, clone, branches, unshelve
+
+Try /opt/homebrew/Cellar/git/2.37.2/libexec/git-core/git-p4 <command> --help for command specific help.
+```
