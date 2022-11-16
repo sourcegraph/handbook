@@ -271,23 +271,24 @@ Security approval - information needed and reviewed:
 - vendor receives customer data or teammate personal data
 
 Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
+
 Typical teammate personal data includes login information, username, email, name, address, etc.
 
 ### Legal approval - docs and information needed:
 
-New vendors:
+**New vendors:**
 
 - MSA (word doc)
 - DPA (word doc)
 - Order form or SOW (word doc)
 - Whether vendor receives teammate personal data
-- Whether vendor will receives customer data
+- Whether vendor receives customer data
   - If customer data, flag to legal@sourcegraph.com or the #legal Slack channel to update our [Subprocessor list](https://about.sourcegraph.com/terms/subprocessors)
 
-Renewal/expansion vendors:
+**Renewal/expansion vendors:**
 
 - Link to [Suppliers drive](https://drive.google.com/drive/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder containing existing contracts
-- If none, provide the docs and information listed under New vendors above.
+- If none, provide the docs and information listed under **New vendors** above.
 
 See our handbook page on vendor contracts [here](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts).
 
