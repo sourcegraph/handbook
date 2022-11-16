@@ -2,7 +2,7 @@
 
 From 2022-09-27, Sourcegraph Cloud has been the default way of deploying Sourcegraph. We are also iterating towards a Product Led Growth motion. There are 3 main ways to try Sourcegraph:
 
-- Try a self-hosted instance, self-serve
+- Try a self-hosted instance, self-servelogin
 - Contact us and scope a custom trial:
   - Talk to an Account Executive and Customer Engineer (CE) to get help setting up a self-hosted instance.
   - Talk to an Account Executive and CE to get a cloud instance trial (hereafter called "a CE-requested trial"). Those instances can be setup to match customer needs (scale, )
@@ -107,7 +107,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
 1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
-1. 🟢 CE logs in, creates a password rest link
+1. 🟢 CE logs in, creates a password rest link. Note that to login you need to use the `Login with Sourcegraph Employee SSO`, that is hidden by default to avoid confusion. To access it, just append `?sourcegraph-operator` to the sign in page URL (eg. `www.acme-corp.com/sign-in?sourcegraph-operator`).
 1. 🟢 CE responds to initial SDR email, with the password reset link, and offers to help with white glove setup (AE in cc).
 1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
 
