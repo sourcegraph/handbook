@@ -4,8 +4,8 @@ We have team-level design team goals to help us align and prioritize our
 focus as a team for the remainder of Q4.
 
 Our team-level goals cascade from the overall company [product vision and
-strategy](../../index.md#product-vision-and-strategy), and each member of the design team
-uses these to define their own individual goals.
+strategy](../../index.md#product-vision-and-strategy). Additionally, each member of the design team
+will define their own individual goals based on the career ladder, their product team objectives, and/or the design team goals. 
 
 ## (Draft) Design team goals for Q4
 
@@ -37,13 +37,7 @@ uses these to define their own individual goals.
 
 #### Theme: Levelling up the design team
 
-1. **Objective**: Identify and follow through on opportunities for professional
-   growth.
-   - Key Result: Identify and carry out a professional development activity
-     related to the function of design.
-   - Key Result: Identify and carry out a professional development activity
-     related to the function of engineering.
-2. **Objective**: Level up storytelling skills.
+1. **Objective**: Level up storytelling skills.
    - Key Result: Each member of the design team shares a #progress announcement.
    - Key Result: Company-wide engagement in design review increases.
 
