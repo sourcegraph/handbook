@@ -18,6 +18,8 @@ will define their own individual goals based on the career ladder, their product
      sales, AE, or CE session per week.
    - Key Result: Each member of the design team has at least 14 hours of
      user time per quarter.
+   - Key Result: All outward-facing sales materials are aligned with brand
+     platform.
 
 #### Theme: Drive expansion in existing customers
 
@@ -45,8 +47,6 @@ will define their own individual goals based on the career ladder, their product
 #### Theme: Level up brand at Sourcegraph
 
 1. **Objective**: Establish brand consistency through new brand platform.
-   - Key Result: All outward-facing sales materials are aligned with brand
-     platform.
    - Key Result: Implement and launch brand standards.
    - Key Result: Identify and establish brand education process across
      organization.
