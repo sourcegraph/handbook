@@ -194,7 +194,7 @@ We want to find engineers who are:
 
 - **Duration:** 60-minutes.
 
-- **Details:** This interview will be a focused assessment of technical skills and requires work to be done prior to the interview. The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
+- **Details:** This interview will be a focused assessment of technical skills and may require work to be done prior to the interview. The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
 
 #### Cross-functional Team Collaboration
 
