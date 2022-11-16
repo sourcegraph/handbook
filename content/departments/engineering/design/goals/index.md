@@ -1,10 +1,10 @@
 # Design team goals
 
-The design team goals for the fourth quarter of fiscal year 2023 will help us align and prioritize our focus as a team. These team-level goals cascade from the overall company [product vision and
+The design team goals help us align and prioritize our focus as a team. These team-level goals cascade from the overall company [product vision and
 strategy](../../index.md#product-vision-and-strategy). Additionally, each member of the design team
 will define their own individual goals based on the career ladder, their product team objectives, and/or the design team goals.
 
-## Design team goals for Q4
+## Design team goals for Q4, FY23
 
 ### Urgent and important
 
