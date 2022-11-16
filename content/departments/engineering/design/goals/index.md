@@ -32,7 +32,7 @@ will define their own individual goals based on the career ladder, their product
 
 ### Non-urgent and important
 
-#### Theme: Levelling up the design team
+#### Theme: Level up the design team
 
 1. **Objective**: Level up storytelling skills.
    - Key Result: Each member of the design team shares two #progress announcements that exhibit strong storytelling skills.
