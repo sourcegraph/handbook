@@ -264,17 +264,17 @@ Security approval - information needed and reviewed:
 - Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
 
 ## Legal
-  
+
 ### Legal review required for all new and renewal/expansion vendors when:
 
-- annual contract value is greater than $100,000, or 
+- annual contract value is greater than $100,000, or
 - vendor receives customer data or teammate personal data
-  
+
 Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
 Typical teammate personal data includes login information, username, email, name, address, etc.
-  
+
 ### Legal approval - docs and information needed:
-  
+
 New vendors:
 
 - MSA (word doc)
