@@ -73,7 +73,7 @@ npx --yes cdktf-cli@0.13.3 deploy tfc
 ### Remove namespace
 
 ```sh
-mi2 workon -e $ENVIRONMENT --slug $SLUG
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG
 #opy and run the output `gcloud` and `kubectl` commands
 
 # deletes namespace and Network Endpoint Group Health check
