@@ -1,7 +1,7 @@
 # Design team goals
 
 We have team-level design team goals to help us align and prioritize our
-focus as a team over the following 3-6 months.
+focus as a team for the remainder of Q4.
 
 Our team-level goals cascade from the overall company [product vision and
 strategy](../../index.md#product-vision-and-strategy), and each member of the design team
