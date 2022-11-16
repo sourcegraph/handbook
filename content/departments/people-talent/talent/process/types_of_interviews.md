@@ -11,9 +11,9 @@ We strive for consistency across all interviews.
 
 - **Recruiter Screen**
 - **Hiring Manager Screen**
+- **Resume Deep Dive**
 - Assignment, if applicable
 - Team Interview stage:
-  - Resume Deep Dive
   - Assignment review/working session, if applicable
   - Technical Interview, if applicable
   - **Cross-functional Team Collaboration Interview**
