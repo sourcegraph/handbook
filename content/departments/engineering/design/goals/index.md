@@ -21,7 +21,7 @@ uses these to define their own individual goals.
 2. **Objective**: Get closer to our users.
    - Key Result: Each member of the design team participates in at least 1
      sales, AE, or CE session per week.
-   - Key Result: Each member of the design team has at least `${x}` hours of
+   - Key Result: Each member of the design team has at least 14 hours of
      user time per quarter.
 
 #### Theme: Drive expansion in existing customers
