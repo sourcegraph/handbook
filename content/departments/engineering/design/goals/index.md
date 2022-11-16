@@ -18,6 +18,7 @@ will define their own individual goals based on the career ladder, their product
      sales, AE, or CE session per week.
    - Key Result: Each member of the design team has at least 14 hours of
      user time per quarter.
+3. **Objective**: Support sales in their efforts to transform leads into PoCs 
    - Key Result: All outward-facing sales materials are aligned with brand
      platform.
 
