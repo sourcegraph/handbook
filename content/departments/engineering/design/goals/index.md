@@ -5,7 +5,7 @@ focus as a team for the remainder of Q4.
 
 Our team-level goals cascade from the overall company [product vision and
 strategy](../../index.md#product-vision-and-strategy). Additionally, each member of the design team
-will define their own individual goals based on the career ladder, their product team objectives, and/or the design team goals. 
+will define their own individual goals based on the career ladder, their product team objectives, and/or the design team goals.
 
 ## (Draft) Design team goals for Q4
 
