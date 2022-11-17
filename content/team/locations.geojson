@@ -870,6 +870,16 @@
                 "type": "Point",
                 "coordinates": [-80.848991, 35.410561]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cezary Bartoszuk"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [42.197250, -88.006111]
+            }
         }
     ]
 }

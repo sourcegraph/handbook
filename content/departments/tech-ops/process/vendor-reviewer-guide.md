@@ -122,8 +122,8 @@ From a vendor management perspective we base our review requirements on the sens
 
 - **Restricted:** Security, Legal, Tech Ops
 - **Private:** Security, Legal, Tech Ops
-- **Internal:** Security, Tech Ops
-- **Public:** Tech Ops
+- **Internal:** Security, Legal, Tech Ops
+- **Public:** Tech Ops, Legal
 
 From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request.
 
@@ -208,6 +208,8 @@ Please see below matrix for review requirements for ANY type of vendor:
 
    </td>
    <td><p>- Security
+     
+<p>- Legal (if personal data)
 
 <p>- Tech Ops
 
@@ -216,7 +218,7 @@ Please see below matrix for review requirements for ANY type of vendor:
    </td>
    <td><p>- Security
 
-<p>- Legal
+<p>- Legal (if personal data)
 
 <p>- Tech Ops
 
@@ -233,12 +235,14 @@ Please see below matrix for review requirements for ANY type of vendor:
    </td>
    <td><p>- Tech Ops
 
+<p>- Legal (if personal data)
+  
 <p>- Finance
 
    </td>
    <td><p>- Tech Ops
 
-<p>- Legal
+<p>- Legal (if personal data)
 
 <p>- Finance
 
@@ -265,21 +269,32 @@ Security approval - information needed and reviewed:
 
 ## Legal
 
-Legal approval - information needed and reviewed:
+### Legal review required for all new and renewal/expansion vendors when:
 
-- DPA (word doc)
+- annual spend is over $100,000, or
+- annual spend is over $1,000 and vendor receives (a) customer data or (b) teammate personal data
+
+Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
+
+Typical teammate personal data includes login information, username, email, name, address, etc.
+
+### Legal approval - docs and information needed:
+
+**New vendors:**
+
 - MSA (word doc)
+- DPA (word doc)
 - Order form or SOW (word doc)
-- Depending on the data store, transmitted and/or processed Legal will do the following:
-  - Confirm whether the vendor will receive or access the following:
-    - customer data (including customer code, repo names, pings or personal data of customer personnel)
-    - If so, ask vendor for a DPA and attach for legal review
-    - Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
-    - teammate data (including logins), or
-    - If so, ask vendor for a DPA and attach for legal review
-    - other sensitive data (including incident data, security logs, core IT infrastructure or data storage)
+- Whether vendor receives teammate personal data
+- Whether vendor receives customer data
+  - If customer data, flag to legal@sourcegraph.com or the #legal Slack channel to update our [Subprocessor list](https://about.sourcegraph.com/terms/subprocessors)
 
-Please also see our handbook page on vendor contracts [here](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts).
+**Renewal/expansion vendors:**
+
+- Link to [Suppliers drive](https://drive.google.com/drive/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder containing existing contracts
+- If none, provide the docs and information listed under **New vendors** above.
+
+See our handbook page on vendor contracts [here](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts).
 
 ## Tech Ops
 
