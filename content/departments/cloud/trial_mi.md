@@ -164,6 +164,7 @@ As the flow is automated and webhook based, Slack notifications in `#cloud-notif
 When any of Slack notifications fails:
 
 - check the link in notitifcation to understand the issue
+
   - for [create new PLG trial](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml), it is safe to re-run action
   - for [finalise customer instance](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_plg_create.yml), given steps should be invoked
     - checkout main branch from `deploy-sourcegraph-managed`
@@ -171,6 +172,14 @@ When any of Slack notifications fails:
     - invoke steps to update GCP label - [steps](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_plg_create.yml#L118)
     - open Pull Request
   - when pool is too small, pls verify why new instances are not created [here](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
+
+All new PLG trials created by this flow can be listed via:
+
+```sh
+gcloud projects list --format="json" --filter='name~sourcegraph-managed-src'
+```
+
+where `emain-domain=unknown` means instance is not given to the customer yet.
 
 ## FAQ
 
