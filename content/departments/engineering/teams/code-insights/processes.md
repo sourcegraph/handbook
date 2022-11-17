@@ -18,11 +18,11 @@ Attendees are encouraged to add comments on talking points asynchronously before
 
 We plan and track our day-to-day work on our [GitHub board](https://github.com/orgs/sourcegraph/projects/291/views/1). This board follows the philosophy of trying to reflect reality as best as possible. Flexibility is a key component of how to use this board and it should support making decisions that align the team and allow us to move forward with our work.
 
-The board is organized around a priority structure where p0 is the most important column and p2 is the least important, followed by the backlog. Issues in the p0-p2 priority pipeline are issues that are planned for work. The backlog is for issues to go that are not currently prioritized but are still loosely on the product roadmap.
+The board is organized around a priority structure where P0 is the most important column and P2 is the least important, followed by the backlog. Issues in the P0-P2 priority pipeline are issues that are planned for work. The backlog is for issues to go that are not currently prioritized but are still loosely on the product roadmap.
 
 Issues can freely move between priority columns as required. For example, if something important shows up in triage it will likely knock other things out of upcoming priority.
 
-Ideally every ticket that moves into p0 is work that someone is actually going to do (assigned to someone) and has a rough sense of size. It is less important than issues cleanly "fit" in an iteration and more important that everyone clearly understands the priority of our work and what they are working on.
+Ideally every ticket that moves into P0 is work that someone is actually going to do (assigned to someone) and has a size estimation. It is less important than issues cleanly "fit" in an iteration and more important that everyone clearly understands the priority of our work and what they are working on.
 
 There is a grab column that is for "grab-and-go" style organization. These are issues that are mostly technical in nature and generally do not make sense to try and prioritize against feature work. These issues are free to grab whenever capacity allows.
 
@@ -36,7 +36,7 @@ Our current process is as follows:
 
 - **While an iteration is ongoing, we plan the next iteration**. This is a mostly asynchronous process.
 
-  - Anyone can add issues to the triage column before the [Thursday iteration planning](#fortnightly-iteration-planning). Issues will be triaged and sorted into priority columns. Issues that are going to be worked on immediately will receive an assignee and a rough estimate before moving into p0.
+  - Anyone can add issues to the triage column before the Thursday iteration planning. Issues will be triaged and sorted into priority columns. Issues that are going to be worked on immediately will receive an assignee and a rough estimate before moving into P0.
 
     - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
     - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
@@ -107,7 +107,7 @@ While there is no "maximum" number, once we get higher than a 13 in size it will
 
 ### Fortnightly iteration planning
 
-Every two weeks, usually on the Thursday before the next iteration begins, we hold an iteration planning. This is a sync meeting to triage new issues for priority, review the priority of issues that are still in progress, and review the priority of issues already in the upcoming pipeline.
+Every two weeks, usually on the Thursday before the next iteration begins, we hold an iteration planning. This is a sync meeting to triage new issues according to priority, review the priority of issues that are still in progress, and review the priority of issues already in the upcoming pipeline.
 
 The goal of the meeting is to produce a sorted priority of issues such that each column is entirely more important than the last.
 
