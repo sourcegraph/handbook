@@ -208,6 +208,8 @@ Please see below matrix for review requirements for ANY type of vendor:
 
    </td>
    <td><p>- Security
+     
+<p>- Legal (if personal data)
 
 <p>- Tech Ops
 
@@ -233,6 +235,8 @@ Please see below matrix for review requirements for ANY type of vendor:
    </td>
    <td><p>- Tech Ops
 
+<p>- Legal (if personal data)
+  
 <p>- Finance
 
    </td>
@@ -267,8 +271,8 @@ Security approval - information needed and reviewed:
 
 ### Legal review required for all new and renewal/expansion vendors when:
 
-- annual contract value is greater than $100,000, or
-- vendor receives customer data or teammate personal data
+- annual spend is over $100,000, or
+- annual spend is over $1,000 and vendor receives (a) customer data or (b) teammate personal data
 
 Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
 
