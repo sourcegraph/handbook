@@ -18,7 +18,7 @@ will define their own individual goals based on the career ladder, their product
    - Key Result: Each member of the design team has at least 10 hours of
      user time per quarter.
 3. **Objective**: Support sales in their efforts to transform leads into PoCs
-   - Key Result: All outward-facing sales materials are aligned with brand
+   - Key Result: High-priority outward-facing sales materials are refreshed and aligned with brand
      platform.
 
 #### Theme: Drive expansion in existing customers
@@ -50,6 +50,7 @@ will define their own individual goals based on the career ladder, their product
    - Key Result: Implement and launch brand standards.
    - Key Result: Identify and establish brand education process across
      organization.
+   - Key Result: Identify process for measuring Brand Sentiment and establish baseline.
 
 ---
 
