@@ -16,40 +16,30 @@ Attendees are encouraged to add comments on talking points asynchronously before
 
 ## Planning and prioritization
 
-We plan and track our day-to-day work on our [GitHub board](https://github.com/orgs/sourcegraph/projects/200/views/1).
-The project is separated into multiple views: **Current iteration**, **Next iteration** (both grouped by issue status) and **All iterations** (grouped by milestone).
+We plan and track our day-to-day work on our [GitHub board](https://github.com/orgs/sourcegraph/projects/291/views/1). This board follows the philosophy of trying to reflect reality as best as possible. Flexibility is a key component of how to use this board and it should support making decisions that align the team and allow us to move forward with our work.
 
-We use an intentional list of statuses on our project board:
+The board is organized around a priority structure where P0 is the most important column and P2 is the least important, followed by the backlog. Issues in the P0-P2 priority pipeline are issues that are planned for work. The backlog is for issues to go that are not currently prioritized but are still loosely on the product roadmap.
 
-- **No Status**: Status is not assigned. These issues need triage.
-- **Backlog**: We are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
-- **On deck**: These issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
-- **Proposed for iteration**: These are a select group of issues proposed for a specific iteration. They must have an iteration milestone attached.
-- **Todo**: This is the small set of issues that are planned for our current iteration.
-- **In Progress**: Issues currently being worked on in the iteration.
-- **In Review**: Issues that have PRs in review.
-- **Done**: All closed issues, including "won't do" issues.
+Issues can freely move between priority columns as required. For example, if something important shows up in triage it will likely knock other things out of upcoming priority.
+
+Ideally every ticket that moves into P0 is work that someone is actually going to do (assigned to someone) and has a size estimation. It is less important than issues cleanly "fit" in an iteration and more important that everyone clearly understands the priority of our work and what they are working on.
+
+There is a grab column that is for "grab-and-go" style organization. These are issues that are mostly technical in nature and generally do not make sense to try and prioritize against feature work. These issues are free to grab whenever capacity allows.
+
+The triage column is the default column and represents issues that have not yet been assigned a column.
 
 Our current process is as follows:
 
-- We work in **2-week iterations**. Every iteration has a GitHub milestone, which is created at least one iteration in advance.
+- We work in **2-week iterations**.
 
-- Incoming tickets (from team members or from other teams) are added to the [GitHub project](https://github.com/orgs/sourcegraph/projects/200/views/1) automatically when they are labelled <span class="badge" style="background: var(--bs-teal)">team/code-insights</span> and will be visible in the ["All issues" view](https://github.com/orgs/sourcegraph/projects/200/views/7) under "No milestone". This represents our **backlog** of _unscheduled_ work.
+- Incoming tickets are added to the [GitHub project](https://github.com/orgs/sourcegraph/projects/291/views/1) automatically when they are labelled <span class="badge" style="background: var(--bs-teal)">team/code-insights</span> and will be visible in the triage column.
 
 - **While an iteration is ongoing, we plan the next iteration**. This is a mostly asynchronous process.
 
-  - Engineers, designer, PM and EM can **_propose_ issues to be worked on** _before_ the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning) by adding them to the next iteration milestone and setting "Status" to **Proposed**. This is done considering our [higher-level goals and roadmap](../../../../strategy-goals/strategy/code-insights/index.md).
+  - Anyone can add issues to the triage column before the Thursday iteration planning. Issues will be triaged and sorted into priority columns. Issues that are going to be worked on immediately will receive an assignee and a rough estimate before moving into P0.
 
-  - We plan our iterations with point baselines such that factor in time off, life events, and support across prior iterations. We calibrate these point baselines via temperature checks in retros and manual adjustment. Roughly 80% of our iteration capacity is planned by the PM as the decider, and ~20% of the capacity is explicitly left for engineers to prioritize, taking into account our [goals and roadmap](../../../../strategy-goals/strategy/code-insights/index.md), technical roadmap, estimates, workloads on individuals, and release dates (the 20th of every month).<br> The PM will choose issues among all proposed issues – engineers and designers should still propose issues, even if they are not the planning decider.
-
-    - The issue should also have its **_Size_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropiate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the [Monday sync](#weekly-sync) to distribute workload. See below for information on issue sizing.
     - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
     - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
-
-  - As much as possible, the proposer **involves the necessary stakeholders _asynchronously_ to get agreement** on whether the issue should be worked on in the next iteration before the [Thursday iteration planning](#fortnightly-iteration-planning). For example, the PM or EM might ping engineers in GitHub or Slack on whether an issue seems feasible, or engineers might ping their EM and PM to get buy-in whether the issue fits into our goals.<br>
-    If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning).
-
-  - Teammates can **_reorder_ proposed issues** on the ["Next iteration" board](https://github.com/orgs/sourcegraph/projects/200/views/4) before the mid-iteration sync to their liking. The order at the time of the mid-iteration Monday sync is the _proposed order_.
 
   - Often, planning work involves RFCs or designs that require engineering input. For this process:
 
@@ -59,27 +49,18 @@ Our current process is as follows:
     - 0.5-1 week: product RFC and discussion
     - 1-1.5 weeks: designs or engineering implementation discussion and issue creation
 
-  - The PM is in charge of moving issues from **Proposed** to **Todo** before the [fortnightly synchronous iteration planning](#fortnightly-iteration-planning).
-
-  - We hold a [fortnightly synchronous iteration planning](#fortnightly-iteration-planning), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4).
-
 - During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
-- If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
-
-- When an iteration is finished, the `Current iteration`, `Next iteration` and `Next-next iteration` views should be updated in the [Code Insights project](https://github.com/orgs/sourcegraph/projects/200/views/1) and the associated milestone should be closed from the [milestones page](https://github.com/sourcegraph/sourcegraph/milestones).
+- If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the current iteration (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack.
 
 ## Design planning and process
 
-In addition to the above iteration planning process, we maintain a parallel design planning process as follows using our [design project board](https://github.com/orgs/sourcegraph/projects/200/views/12):
+Design issues use the same planning structure and can be identified using the the [needs design view](https://github.com/orgs/sourcegraph/projects/291/views/2)
 
 1. Anyone on the team can create issues for things that need designs. These issues should be tagged with `needs-design`.
-1. The product manager and designer add iteration milestones to these design issues. If a design issue has a milestone and a `TODO` (or a later-stage) status, this means that the design process should be completed by the end date of the iteration milestone.
-1. For example, a design issue tagged "iteration 29" in `TODO` would be ready for engineering implemention by the final day of iteration 29.
 1. Design issues do not need to, and often do not, follow 2-week iteration cycles. It is up to the designer when to start or make progress on various design projects _within the constraints_ that designs are complete by the end of the tagged iteration. So, a larger 4-week project to be completed three iterations (in six weeks) away might be started before smaller 1-week project that only needs to be completed by a date four weeks in the future, and that's fine.
 1. The product manager, engineering manager, and designer meet synchronously once a week to review the design board, which requires aligning on proposed updates and re-prioritizing if over capacity.
-   1. To propose an update or add a design issue, an issue labelled `needs-design` should be tagged with the proposed status and a milestone. In the sync, the triad will review all "proposed" issues and either align that the priority and timeline works – in which case, setting them to `TODO` – or discuss and reorder items.
-   1. By the end of the planning sync, there should be no design items tagged with the "proposed" status.
+   1. To propose an update or add a design issue, an issue labelled `needs-design` should be created. In the sync, the triad will review all "needs-design" issues and either align that the priority and timeline works.
 1. Issues tagged `needs-design` should only ever have the designer assigned. We do not un-assign the designer and then re-assign engineers; we move the issue to done and create new engineering issues. We do this because:
    1. Past experience has taught us that this causes confusion as to the status of an issue, as it's possible for an issue to from "in progress" on design back to "todo" on engineering.
    1. Often, designs are larger than a single engineering issue and we want to default to engineers breaking up a project into smaller items, rather than reusing a larger and imperfect issue.
@@ -126,17 +107,13 @@ While there is no "maximum" number, once we get higher than a 13 in size it will
 
 ### Fortnightly iteration planning
 
-Every two weeks, usually on the Thursday before the next iteration begins, we hold an iteration planning. This is a short sync meeting to answer questions or align on the priority of issues planned for the next iteration. This includes: questions about priority, clarity, or edge cases of specific features for the next iteration; refining plans for the following Monday iteration start; surfacing any missing GitHub issues (for known items) ahead of the Monday kickoff so they can be made before Monday.
+Every two weeks, usually on the Thursday before the next iteration begins, we hold an iteration planning. This is a sync meeting to triage new issues according to priority, review the priority of issues that are still in progress, and review the priority of issues already in the upcoming pipeline.
 
-This is primarily a review of already-selected issues with a **Todo** status, and not deciding which issues belong in **Todo**. This meeting is also an opportunity to review the status of our current iteration and examine if any issues should be carried over to the next iteration.
-
-Our goal is to begin the next iteration with a correctly-sized **Todo** list, and all issues have **assignees**, and **order**. As a rule of thumb, the sum of estimates for each individual should not exceed the baseline posted to slack so we have enough buffer, time to reply to asks from other teams, to plan the next iteration's projects, and self-organized slack time.
+The goal of the meeting is to produce a sorted priority of issues such that each column is entirely more important than the last.
 
 ### Releases
 
-Despite following two-week iterations, our [releases are monthly on the 20th](../../dev/process/releases/index.md#releases) and we may sometimes need to order tasks in a way that we can get important projects into the next release.
-
-We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
+Despite following two-week iterations, our [releases are monthly on the 22nd](../../dev/process/releases/index.md#releases) and we may sometimes need to order tasks in a way that we can get important projects into the next release.
 
 ### Planning larger projects
 
@@ -166,13 +143,11 @@ This means a teammate may have to think at most about 2 projects at any given ti
 
 #### Project Tracking
 
-To track projects that span multiple iterations, we make use of a distinct project specific label and a separate tab of the [GitHub project board](https://github.com/orgs/sourcegraph/projects/200).
+To track projects that span multiple iterations we use tracking issues and a project specific label.
 The project specific label is created by any of the teammates, and should be descriptive enough to clearly indicate which project it is for, e.g. <span class="badge bg-info">insights-dashboards-v1</span> (milestones are not used for this, as they are used for iterations).
 
 Suffixes like **v1** can be used to communicate we are aiming for an initial, well-defined scope to avoid scope creep.
 Further improvements are either tracked as individual tasks in iterations, or if a new, larger, multi-iteration improvement, a new project is created with a new label.
-
-Individual tasks of the project are assigned to iterations using milestones.
 
 ## Product Feedback
 
@@ -221,21 +196,3 @@ The engineer assigned to the support rotation is responsible for:
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem
    3. As a reminder, it is better to reach a high quality resolution for our customers, even in high priority escalations. It is acceptable (and expected) to push back on support escalations if you need more time to understand and formulate an answer.
 3. Updating any documentation that may help others understand and solve the issue
-
-### Issue cleanup
-
-To try and reduce the entropy of our backlog, the engineer on support rotation is expected to spend a small amount of time (less than 1 hour per rotation) curating and cleaning up issues. We choose to attach this work to the support rotation since this engineer is already expected to dedicate some time to support, it should be possible to fit this in the allocated time.
-
-This issue cleanup should perform tasks such as:
-
-1. Closing obviously completed issues
-2. Raising questions to the engineering team if something seems unnecessary
-3. Following up on old issues without activity
-4. Assigning missing labels as necessary
-5. Merging duplicate issues
-
-It is important to make a best effort attempt to clean up as much as possible on your own, even if you don't have all of the context. When in doubt, here are some guidelines:
-
-1. Prefer to leave issues open if it isn't clear it should be closed
-2. Prefer to tag people in the issues rather than open new discussions in something like Slack
-3. Leave notes when closing an issue with a short description (ex. "I am closing this issue as a cleanup effort since we already did this work")
