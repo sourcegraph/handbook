@@ -27,6 +27,9 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 - [SDR enablement](https://www.youtube.com/watch?v=pBVS2llqZUI)
 - [AE/CE enablement](https://sourcegraph.highspot.com/items/6372a86b2603d024eca99775?lfrm=srp.0)
 
+## Slack channels
+
+All alerts get sent to #cloud-trial-alerts. All new opportunities trigger alerts in the (less noisy) cloud-trial-alerts-opps-only.
 ## Workflow
 
 Here is an overview of the workflow and the role of any and all Sourcegraph teams.
