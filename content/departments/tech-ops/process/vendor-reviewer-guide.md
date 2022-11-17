@@ -218,7 +218,7 @@ Please see below matrix for review requirements for ANY type of vendor:
    </td>
    <td><p>- Security
 
-<p>- Legal
+<p>- Legal (if personal data)
 
 <p>- Tech Ops
 
@@ -242,7 +242,7 @@ Please see below matrix for review requirements for ANY type of vendor:
    </td>
    <td><p>- Tech Ops
 
-<p>- Legal
+<p>- Legal (if personal data)
 
 <p>- Finance
 
