@@ -73,7 +73,7 @@ cd sourcegraph/cloud
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
 terraform init
 terraform apply
-mi2 workon -e $ENVIRONMENT --slug $SLUG
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG
 cd sourcegraph/cloud
 mi2 instance restore create --backup-name $BACKUP_NAME --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
 ```
