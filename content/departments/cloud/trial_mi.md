@@ -182,5 +182,3 @@ When any of Slack notifications fails:
 - type `CE email responsible for Managed Instances` -> CE email (optional, without it will list all trials)
 
 For other questions please use [Managed Instance FAQ](./index.md#faq)
-
-2.
