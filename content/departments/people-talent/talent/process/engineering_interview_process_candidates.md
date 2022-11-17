@@ -168,7 +168,7 @@ We want to find engineers who are:
 
 - **Interviewers:** Quinn Slack, co-founder and CEO
 
-- **Duration:** 60-minutes.
+- **Duration:** 30-minutes.
 
 - **Details:** During this stage in the interview process, Quinn will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you.
 
@@ -182,19 +182,19 @@ We want to find engineers who are:
 
 #### Peer Interview
 
-- **Interviewers:** Aimee Menne, VP Customer Engineering & Customer Support
+- **Interviewers:** Two Engineering Managers
 
 - **Duration:** 60-minutes.
 
-- **Details:** During this stage in the interview process, Aimee will dig into your vision, execution history, decision-making, and collaboration with adjacent teams.
+- **Details:** The purpose of this interview is to assess whether the candidate’s leadership style will align with our expectations and add value to our team.
 
 #### Technical Interview
 
-- **Interviewers:** Two IC5 Engineers
+- **Interviewers:** Two engineers on the team they would manage
 
-- **Duration:** 90-minutes.
+- **Duration:** 60-minutes.
 
-- **Details:** This interview will be a focused assessment of technical skills and requires work to be done prior to the interview.
+- **Details:** This interview will be a focused assessment of technical skills and requires work to be done prior to the interview. The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
 
 #### Cross-functional Team Collaboration
 
@@ -202,12 +202,4 @@ We want to find engineers who are:
 
 - **Duration:** 60-minutes.
 
-- **Details:** This interview will be focused on domain knowledge, functionally-specific depth, and breadth.
-
-#### Team Interview
-
-Interviewers: Two Engineering Managers
-
-Duration: 60-minutes.
-
-Details: This interview will be focused on leadership.
+- **Details:** This interview will be focused on domain knowledge, functionally-specific depth, and breadth. The purpose of this interview is to assess whether the candidate will work well with teammates outside of engineering to achieve what is in the best interest of Sourcegraph and our customers.

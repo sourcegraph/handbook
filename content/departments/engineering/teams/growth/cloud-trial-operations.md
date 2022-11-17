@@ -2,7 +2,7 @@
 
 From 2022-09-27, Sourcegraph Cloud has been the default way of deploying Sourcegraph. We are also iterating towards a Product Led Growth motion. There are 3 main ways to try Sourcegraph:
 
-- Try a self-hosted instance, self-serve
+- Try a self-hosted instance, self-servelogin
 - Contact us and scope a custom trial:
   - Talk to an Account Executive and Customer Engineer (CE) to get help setting up a self-hosted instance.
   - Talk to an Account Executive and CE to get a cloud instance trial (hereafter called "a CE-requested trial"). Those instances can be setup to match customer needs (scale, )
@@ -25,7 +25,11 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 ## Enablement
 
 - [SDR enablement](https://www.youtube.com/watch?v=pBVS2llqZUI)
-- AE/CE enablement (TODO)
+- [AE/CE enablement](https://sourcegraph.highspot.com/items/6372a86b2603d024eca99775?lfrm=srp.0)
+
+## Slack channels
+
+All alerts get sent to #cloud-trial-alerts. All new opportunities trigger alerts in the (less noisy) cloud-trial-alerts-opps-only.
 
 ## Workflow
 
@@ -41,7 +45,7 @@ TLDR:
 ![Workflow](https://storage.googleapis.com/sourcegraph-assets/growth/flow-v2.svg)
 (You can also view this flow [here](https://app.excalidraw.com/l/4Dr1S6qmmY7/4S6Sc9L2aDO))
 
-Now let's dive into the details of the workflow. CE or AE actions are highlighted by 🟢, inbound SDR actions by 🟡, and named SDR actions by 🟠.
+Now let's dive into the details of the workflow. CE (backup AE) actions are highlighted by 🟢, AE actions by 🔵, inbound SDR actions by 🟡, named SDR actions by 🟠.
 
 Assume `bob@acme-corp.com` signs up for an instance on signup.sourcegraph.com.
 
@@ -53,11 +57,13 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 
 1. `bob` is automatically redirected to that instance.
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. 🟢 the AE/CE should reach out to the instance admin and user to understand if they should be added to the instance
+1. 🔵 the AE should reach out to the instance admin and make sure the user can get added to the instance
 
 Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannnot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
 #### Case 2: acme-corp.com is pre-qualified
+
+> NOTE: The pre-qualification workflow below will launch [soon](https://github.com/sourcegraph/console/issues/74). In the meantime, 0% of instances are pre-qualified.
 
 If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two subcases:
 
@@ -76,8 +82,8 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
@@ -97,8 +103,8 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 ##### Case 3.2: the lead is qualified
 
 1. 🟡 inbound SDR qualifies against the [**qualification criteria**](https://docs.google.com/document/d/1gUc9fWAw_ACbT56tQLbQwZsARUu2TiD8N0xUg3YNgn4/edit)
-1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
@@ -107,7 +113,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
 1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
-1. 🟢 CE logs in, creates a password rest link
+1. 🟢 CE logs in, creates a password rest link. Note that to login you need to use the `Login with Sourcegraph Employee SSO`, that is hidden by default to avoid confusion. To access it, just append `?sourcegraph-operator` to the sign in page URL (eg. `www.acme-corp.com/sign-in?sourcegraph-operator`).
 1. 🟢 CE responds to initial SDR email, with the password reset link, and offers to help with white glove setup (AE in cc).
 1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
 
@@ -189,6 +195,7 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Account Executives (AE)
 
+- Make sure users are able to join pre-existing instances (see [case 1](#case-1-acme-corp-com-already-has-a-cloud-instance))
 - Work with CE to check-in with trial as they approach the end, assess the opportunity, handle commercial conversations.
 - Support CEs as needed
 
