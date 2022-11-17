@@ -12,7 +12,6 @@ will define their own individual goals based on the career ladder, their product
 
 1. **Objective**: Remove blocks to adoption related to UI/UX for 2XL customers.
    - Key Result: Provide design support for all the key issues determined to be in scope by the strategic readiness effort.
-     audit.
 2. **Objective**: Get closer to our users.
    - Key Result: Each member of the design team participates in at least 1
      sales, AE, or CE session per week.
