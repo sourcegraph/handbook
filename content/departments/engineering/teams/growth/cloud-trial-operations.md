@@ -30,6 +30,7 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 ## Slack channels
 
 All alerts get sent to #cloud-trial-alerts. All new opportunities trigger alerts in the (less noisy) cloud-trial-alerts-opps-only.
+
 ## Workflow
 
 Here is an overview of the workflow and the role of any and all Sourcegraph teams.
