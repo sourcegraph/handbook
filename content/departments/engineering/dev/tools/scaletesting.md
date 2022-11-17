@@ -57,6 +57,24 @@ A seperate compute instance also exists for the purpose of running long running 
 To access this instance, run the following command:
 `gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
+#### Database
+
+We use Cloud SQL to host our scaltesting databases. To connect to one you need to use the cloud sql proxy, for example:
+
+In terminal 1:
+
+```
+cloud_sql_proxy -instances=sourcegraph-scaletesting:us-central1:sg-scaletesting-d2d240d290=tcp:5555
+```
+
+In terminal 2:
+
+```
+psql -h localhost -p 5555 -d sg -U 'dev-readonly'
+```
+
+> The password can be found in 1password
+
 #### Application
 
 All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
