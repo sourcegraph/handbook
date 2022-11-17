@@ -32,7 +32,7 @@ cd $CUSTOMER
 terraform apply
 ```
 
-**Important**: executors has to be set up on active instance, so if multiple VMs are running, use flag `--deployment red|black` in all `mg` commands below.
+**Important**: executors has to be set up on active instance, so if multiple VMs are running, use flag `--deployment red|black` in all `mi` commands below.
 
 Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
@@ -142,7 +142,7 @@ If above all check out, visit the [Compute Engine Console](https://console.cloud
 
 ### Troubleshooting executor-dependent features
 
-To check if executors are making progress on available work, consult this [alert](https://docs.sourcegraph.com/admin/observability/alerts#executor-executor-processor-total).
+To check if executors are making progress on available work, consult executor [alerts](https://docs.sourcegraph.com/admin/observability/alerts#executor-executor-handlers).
 
 Executor-dependent features (Server Side Batch Changes, Code-Intelligence Auto-indexing) differ in the way they use executors & influence core Sourcegraph experience, for further troubleshooting contact:
 

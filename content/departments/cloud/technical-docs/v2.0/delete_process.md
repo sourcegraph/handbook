@@ -40,6 +40,7 @@ export SLUG=company
 export DOMAIN=company.sourcegraph.com
 export ENVIRONMENT=dev
 export TF_TOKEN_app_terraform_io=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=TFC_TEAM_TOKEN)
+export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
 ```
 
 Fish
@@ -49,6 +50,7 @@ set -x SLUG company
 set -x DOMAIN company.sourcegraph.com
 set -x ENVIRONMENT dev
 set -x TF_TOKEN_app_terraform_io (gcloud secrets versions access latest --project=sourcegraph-secrets --secret=TFC_TEAM_TOKEN)
+set -x INSTANCE_ID (mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
 ```
 
 ### Check out a new branch
@@ -65,14 +67,16 @@ Note: this will remove VCS trigger from Terraform Cloud workspaces for this inst
 ```sh
 mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
-npx --yes cdktf-cli@0.13.0 deploy tfc
+npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
 ### Remove namespace
 
 ```sh
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG
+#opy and run the output `gcloud` and `kubectl` commands
+
 # deletes namespace and Network Endpoint Group Health check
-$(mi2 workon -e $ENVIRONMENT --slug $SLUG to connect to cluster)
 kubectl delete ns $NAMESPACE
 ```
 
@@ -102,11 +106,18 @@ gcloud beta container backup-restore backup-plans list | awk '{print $1}' | xarg
 
 ### Destroy infrastructure - destroy cdktf stacks
 
-> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.0` under the instance root in case things are not working as intented
+> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.3` under the instance root in case things are not working as intented
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
-npx --yes cdktf-cli@0.13.0 destroy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+npx --yes cdktf-cli@0.13.3 destroy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+```
+
+If previous step fails for any reason, fallback to pure terraform destroy:
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/
+for stack in output monitoring executors security waf app sqlschema sql gke network project; do cd $stack && terraform init && terraform destroy && cd ..; done
 ```
 
 ### Delete TFC workspaces
@@ -116,7 +127,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 destroy tfc
+npx --yes cdktf-cli@0.13.3 destroy tfc
 ```
 
 ### Commit your changes
