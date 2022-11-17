@@ -27,6 +27,10 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 - [SDR enablement](https://www.youtube.com/watch?v=pBVS2llqZUI)
 - [AE/CE enablement](https://sourcegraph.highspot.com/items/6372a86b2603d024eca99775?lfrm=srp.0)
 
+## Slack channels
+
+All alerts get sent to #cloud-trial-alerts. All new opportunities trigger alerts in the (less noisy) cloud-trial-alerts-opps-only.
+
 ## Workflow
 
 Here is an overview of the workflow and the role of any and all Sourcegraph teams.
@@ -59,6 +63,8 @@ Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannnot jo
 
 #### Case 2: acme-corp.com is pre-qualified
 
+> NOTE: The pre-qualification workflow below will launch [soon](https://github.com/sourcegraph/console/issues/74). In the meantime, 0% of instances are pre-qualified.
+
 If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two subcases:
 
 ##### Case 2.1 the Acme Corp account is a named account in SFDC
@@ -76,8 +82,8 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
@@ -97,8 +103,8 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 ##### Case 3.2: the lead is qualified
 
 1. 🟡 inbound SDR qualifies against the [**qualification criteria**](https://docs.google.com/document/d/1gUc9fWAw_ACbT56tQLbQwZsARUu2TiD8N0xUg3YNgn4/edit)
-1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
