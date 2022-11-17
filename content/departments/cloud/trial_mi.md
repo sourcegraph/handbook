@@ -176,7 +176,7 @@ When any of Slack notifications fails:
 All new PLG trials created by this flow can be listed via:
 
 ```sh
-gcloud projects list --format="json" --filter='name~sourcegraph-managed-src'
+gcloud projects list --filter='name~sourcegraph-managed-src' --format="json(projectId,labels)"
 ```
 
 where `emain-domain=unknown` means instance is not given to the customer yet.
