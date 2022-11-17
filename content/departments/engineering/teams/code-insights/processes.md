@@ -16,7 +16,7 @@ Attendees are encouraged to add comments on talking points asynchronously before
 
 ## Planning and prioritization
 
-We plan and track our day-to-day work on our [GitHub board v2](https://github.com/orgs/sourcegraph/projects/291/views/1). This board has the philosophy that is tries to reflect reality as best as possible. Flexibility is a key component of how to use this board and it should support making decisions that align the team and allow us to move forward with our work.
+We plan and track our day-to-day work on our [GitHub board](https://github.com/orgs/sourcegraph/projects/291/views/1). This board follows the philosophy of trying to reflect reality as best as possible. Flexibility is a key component of how to use this board and it should support making decisions that align the team and allow us to move forward with our work.
 
 The board is organized around a priority structure where p0 is the most important column and p2 is the least important, followed by the backlog. Issues in the p0-p2 priority pipeline are issues that are planned for work. The backlog is for issues to go that are not currently prioritized but are still loosely on the product roadmap.
 
