@@ -144,7 +144,7 @@ mi2 generate kustomize -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 Run command below to obtain the commands to target the new cluster
 
 ```sh
-mi2 workon -e $ENVIRONMENT --slug $SLUG
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG
 ```
 
 Copy and run the output `gcloud` and `kubectl` commands, you shall see something like

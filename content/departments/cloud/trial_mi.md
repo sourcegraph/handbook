@@ -74,7 +74,7 @@ When trial expires and should be extended (by default 30 days), the instance req
 
 ## Convert trial to paying customer
 
-When customer has decided to sign the deal, instance requestor will create [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will:
+When a customer has decided to sign the deal, the instance requestor will create a [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. This is important so that the doesn't get terminated after a time period as a trial instance would, and for cost attribution to trial vs production instances. Once the issue is raised, the [Cloud Team](././index.md#team) will:
 
 - cd `deploy-sourcegraph-managed/CUSTOMER`
 - modify GCP label '`instanceType: production`' in `config.yaml`
