@@ -28,6 +28,7 @@ We want to find engineers who are:
 
 - (30m) [Recruiter Screen](types_of_interviews.md#recruiter-screen)
 - (30m-60m) [Hiring Manager Screen](types_of_interviews.md#hiring-manager-screen)
+- (60m) [Resume Deep Dive](types_of_interviews.md#resume-deep-dive)
 - Team Interview
   - (60m) Technical Interview
   - (60m) Technical Interview
