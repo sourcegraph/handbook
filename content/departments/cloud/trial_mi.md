@@ -99,7 +99,7 @@ Be sure to set expectations with the site admin ahead of raising the issue and i
 
 When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](./index.md#managed-instance-requests)
 
-## Trial Managed Instance creation flow
+## Trial Managed Instance creation flow (manual)
 
 1. New [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D) is open by CE or [Growth Team](../engineering/teams/growth/index.md) (DRI [Malo Marrec](../../team/index.md#sts=Malo%20Marrec))
 2. Based on the time of issue creation:
@@ -157,7 +157,7 @@ The flow:
 
 As the flow is automated and webhook based, Slack notifications in `#cloud-notifications` are informing about:
 
-- new PLG trial instances was created and sent to [Signup Application](https://signup.sourcegraph.com/) (stored in Signup dataabse)
+- new PLG trial instances was created and sent to [Signup Application](https://signup.sourcegraph.com/) (stored in Signup database)
 - PLG trial instance was given to the customer and was finalised (token was re-created and GCP label was added)
 - PLG trial pool is below expected number (2 in the begining)
 
