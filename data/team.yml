@@ -1034,7 +1034,7 @@ mariam_adedeji:
 alex_isken:
   name: Alex Isken
   pronouns: He/Him
-  role: Product Marketing Manager
+  role: Product Marketing Lead
   reports_to: director_product_marketing
   location: Milwaukee, WI, USA 🇺🇸
   github: iskyOS
@@ -1092,7 +1092,7 @@ max_wiederholt:
 victoria_yunger:
   name: Victoria Yunger
   pronouns: She/Her
-  role: Product Marketing Lead, Enterprise
+  role: Principal Product Marketing Manager
   reports_to: director_product_marketing
   location: San Francisco, CA, USA 🇺🇸
   github: thisisvic
@@ -1675,17 +1675,6 @@ shawntee_harris:
   role: Program Manager
   location: Kansas City, KS, USA 🇺🇸
   description: Shawntee lives in Kansas City, KS with her fiancé and 2 dogs. Outside of work she loves collecting new vinyals, attending live music shows and traveling.
-
-lindsay_murphy:
-  name: Lindsay Murphy
-  email: lindsay.murphy@sourcegraph.com
-  reports_to: director_product_marketing
-  github: lindsaykmurphy
-  pronouns: she/her
-  role: Customer Marketing Lead
-  links: '[LinkedIn](https://www.linkedin.com/in/lindsaynolan-mba/)'
-  location: Hudson, MA, USA 🇺🇸
-  description: Lindsay lives in Hudson, MA with her husband and dog, Toro. Outside of work she loves traveling around the world, planning trips for family and friends, drinking copious amounts of coffee, and trying out new recipes in the kitchen.
 
 connor_obrien:
   name: Connor OBrien
