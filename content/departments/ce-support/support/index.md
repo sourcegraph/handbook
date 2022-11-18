@@ -43,7 +43,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). SLA response times are the time frames in which you can expect an initial response. Our team will make a best effort to resolve all issues as quickly as possible. However, please note that the SLA times are not to be considered as an expected time-to-resolution.
 
-#### The following applies to both cloud (managed instance) and on-premise/self-hosted Sourcegraph customers:
+### The following applies to both cloud (managed instance) and on-premise/self-hosted Sourcegraph customers:
 
 While Sourcegraph will strive to respond as soon as possible to every issue, we will be responsible for upholding the SLAs below Monday through Friday.
 
@@ -56,7 +56,35 @@ While Sourcegraph will strive to respond as soon as possible to every issue, we 
 
 **Note:** premium support / enhanced SLAs will be available in the future
 
-**Note for Cloud (Managed Instance) customers:** We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
+### Sourcegraph Cloud (Managed Instance) SLA
+
+Effective: November 14, 2022
+
+Sourcegraph provides a 99.5% Uptime commitment for customers on the Business and Enterprise plans (our Service Level Agreement or SLA).
+
+#### Downtime
+
+Downtime is the overall number of minutes Sourcegraph Cloud instance was unavailable during a calendar month. Sourcegraph calculates unavailability using server monitoring software to measure the server side error rate, ping test results, web server tests, TCP port tests, and website tests. Due to the single-tenant architecture of Sourcegraph Cloud, downtime is measured on a per-customer basis.
+
+Downtime excludes the following:
+
+- Slowness or other performance issues with individual Sourcegraph features
+- Issues that are related to external apps or third parties, including authentication providers and code hosts
+- Any products or features identified as experimental or beta
+- External network problems outside of our reasonable control (such as connectivity problems between client ISP, Cloudflare and Google Cloud Platform)
+- Maintenance during Scheduled Downtime
+
+#### Scheduled Downtime
+
+Sometimes we need to perform maintenance to keep your Sourcegraph Cloud instance working correctly. If scheduled downtime is necessary, we’ll give you at least 48 hours advance notice.In a quarter, scheduled downtime won’t exceed 10 hours.
+
+#### Uptime Commitment
+
+Uptime is the percentage of total possible minutes Sourcegraph was available during a calendar month. Our commitment is to maintain at least 99.5% Uptime:
+
+```
+[(total minutes in month - Downtime) / total minutes in month] > 99.5%
+```
 
 #### Sev 0 - Emergency Support Scope
 
