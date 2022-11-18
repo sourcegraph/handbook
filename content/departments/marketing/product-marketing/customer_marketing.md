@@ -2,22 +2,25 @@
 
 ## What is customer marketing?
 
-Customer marketing collaborates with marketing, sales, customer engineering, and product teams to tell compelling customer stories and run customer programs, like our Customer Advisory Board, that create value for developers and Sourcegraph.
+Marketing collaborates with sales, customer engineering, product, and engineering teams to tell compelling customer stories and run customer programs, like our Customer Advisory Board, that create value for developers and Sourcegraph.
+
+## Who works on customer marketing at Sourcegraph?
+
+Customer marketing responsibilities are distributed across the marketing team:
+
+- Customer stories: Each PMM is responsible for understanding how our customers use the product and incorporating customers into their marketing plans. This includes blog posts, customer stories, social media, events, etc. Each PMM should aim to ship at least two customer stories (blog posts and/or case studies) each year. 
+
+- Customer Advisory Board: Our Customer Advisory Board is managed by the Comms team. Product and Engineering are responsible for managing the agenda/content for meetings. 
 
 ## Which customers can we publicly reference?
 
 We don't have permission to publicly reference all of our customers. A good rule of thumb is to only reference customers you see on the [about site](https://about.sourcegraph.com/). If you have questions about a specific customer, feel free to ask in #marketing.
 
-Keep in mind, this applies to personal posts on Twitter or LinkedIn.
+Check out this [Salesforce report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051Cz2EAE/view?queryScope=userFolders) to see which customers we can publicly reference. (Note: This report is in the process of being updated).
 
 ## How can you collaborate with customer marketing?
 
-We're always looking to share how our customers use Sourcegraph. If there's a customer story you'd like to tell, submit a request [here](https://form.asana.com?k=hNaq42PNshdQ1FjjEUKjLA&d=7195383522959).
-
-## Customer marketing resources
-
-- [Customer story roadmap](https://app.asana.com/0/1199993720289911/board)
-- [Approved customer quotes](https://docs.google.com/spreadsheets/d/1A4B_4SlFZllMEQ6183TrjP2vWt935eJ08EcPI59MUkE/edit#gid=0)
+We're always looking to share how our customers use Sourcegraph. If there's a customer story you'd like to tell, please reach out to the team in #marketing. 
 
 ## Customer Advisory Board
 
