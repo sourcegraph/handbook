@@ -67,9 +67,15 @@ The release process is performed in steps:
 4. Cloud team performs upgrade of all instances in given order:
 
 - for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
-  1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
-  1. [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
-  1. When test instance is working correctly, Cloud Team performs upgrade of all v1.1 customer instances
+  Stage | Working days since release | Action | Condition not met?
+  --- | --- | --- | --- |
+  1 | 0-2 | Upgrade internal instances by Cloud Team (incl. [demo](https://demo.sourcegraph.com/) and [rctest](https://rctest.sourcegraph.com/)) |
+  2 | 3-4 | Time for verification by Sourcegraph teams | New patch created -> start from 1st stage
+  3 | 5-6 | Upgrade: 30% trials 10% customers | New patch created -> upgrade internal in 1 working day and start from 2nd stage
+  4 | 7-8 | Upgrade: 100% trials 40% customers | New patch created -> upgrade internal in 1 working day and start from 3rd stage
+  5 | 9-10 | Upgrade: 100% customers | New patch created -> upgrade internal in 1 working day and start from 3rd stage
+
+After upgrade of every single instances [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
 
 Sample upgrade:
 
