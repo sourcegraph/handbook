@@ -28,13 +28,13 @@
 - Sales and CE enablement/training
 - Messaging and positioning
 - Competitive intelligence
-- Customer proof points
+- Customer stories
 
 See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toySthUMvOxZnCtdw0/edit#bookmark=id.e0jz6ct4ghl) for details.
 
 **Partner with GTM teams:** We partner with sales and CE to support pipeline, expansion, and ARR.
 
-- Core product/customer marketing activities: Continue driving core PMM/CM activities, including CAB, Analyst Relations, competitive intelligence, etc.
+- Core product/customer marketing activities: Continue driving core PMM/CM activities, Analyst Relations, competitive intelligence, etc.
 - Sales/CE: Partner with sales and CE to support pipeline and ARR.
 
 ## Team roles and responsibilities
@@ -73,21 +73,6 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 <li>Growth marketing
 
 <li>Demo
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Lindsay</strong>
-   </td>
-   <td colspan="2" >
-<ul>
-
-<li>Customer Advisory Board
-
-<li>Product Advisory Board
-
-<li>Customer stories 
 </li>
 </ul>
    </td>
@@ -147,8 +132,6 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
    </td>
   </tr>
 </table>
-
-{{generator:reporting_structure.director_product_marketing}}
 
 ## Working with other teams
 
