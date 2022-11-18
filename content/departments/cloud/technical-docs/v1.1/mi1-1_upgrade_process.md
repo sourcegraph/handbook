@@ -35,7 +35,7 @@ If they are not, download the file and open a PR to commit the file prior to upg
 mi update-golden -target $VERSION # e.g. 4.0.0
 ```
 
-Then, upgrade the executors module: [`modules/executors/main.tf`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf), replace all `version` fields values with `$VERSION`.
+Then, upgrade the executors module: [`modules/executors/main.tf`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf). Find the matching release version from [sourcegraph/terraform-google-executors](https://github.com/sourcegraph/terraform-google-executors/tags) replace all `version` fields values it.
 
 Then, create a pull request with your changes, and include a reference to the upgrade tracking issue.
 
