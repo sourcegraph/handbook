@@ -55,6 +55,11 @@ export VERSION=3.40.0
 
 Using `mi` you can generate commands to trigger automated upgrades for instances that are not yet upgraded:
 
+> Are you upgrading a release candidate (rc) build on `rctest`?
+> Run `gh workflow run mi_upgrade.yml -f customer=rctest -f version=$VERSION`
+> NOTES: the workflow will fail after the instance upgrade at the step where we try to upgrade executors with terraform. this is expected since we're using TFC for this instance.
+> Check out the branch locally and create a PR. Upon merging, TFC will pick it up automatically
+
 ```sh
 # For trial instances
 mi workflow upgrade -target $VERSION -instance-type=trial
