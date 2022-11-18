@@ -12,7 +12,7 @@ You can reach out to us through our #deal-desk slack Channel or through our alia
 
 - [Deal Desk Training](https://docs.google.com/presentation/d/1yFUDU9ZOXlcK4qCs8mfUWWCtFU-cGISq5GclhsGwl2E/edit#slide=id.gd9f22cf30f_2_446): Please check out our onboarding training to help you understand what Deal Desk does, when to engage us, standard and non-standard terms, Agreements & OF templates and other topics.
 - [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit): Are you filling out your OF and need help understanding which approvals are required to process your deal? Check out our Deal approval matrix where you will also find different clauses and acceptable terms to add to your contract.
-- [Sales Processes - FAQs](https://docs.google.com/document/d/1lu2R2oIpBd3puGsSnGWBs4YysZXJHmnwoy-XDtVos64/edit?pli=1#): Please visit our FAQs document for additional information related to Agreements, approvals, processes, SFDC, pricing and metrics.
+- [CPQ Job Aid](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#): Please visit our DealHub Job Aid Catalog for additional iformation on how to create quotes, submit them for approval , understand quote statuses, and others. 
 
 Others:
 
