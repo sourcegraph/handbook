@@ -8,9 +8,9 @@ Marketing collaborates with sales, customer engineering, product, and engineerin
 
 Customer marketing responsibilities are distributed across the marketing team:
 
-- Customer stories: Each PMM is responsible for understanding how our customers use the product and incorporating customers into their marketing plans. This includes blog posts, customer stories, social media, events, etc. Each PMM should aim to ship at least two customer stories (blog posts and/or case studies) each year. 
+- Customer stories: Each PMM is responsible for understanding how our customers use the product and incorporating customers into their marketing plans. This includes blog posts, customer stories, social media, events, etc. Each PMM should aim to ship at least two customer stories (blog posts and/or case studies) each year.
 
-- Customer Advisory Board: Our Customer Advisory Board is managed by the Comms team. Product and Engineering are responsible for managing the agenda/content for meetings. 
+- Customer Advisory Board: Our Customer Advisory Board is managed by the Comms team. Product and Engineering are responsible for managing the agenda/content for meetings.
 
 ## Which customers can we publicly reference?
 
@@ -20,7 +20,7 @@ Check out this [Salesforce report](https://sourcegraph2020.lightning.force.com/l
 
 ## How can you collaborate with customer marketing?
 
-We're always looking to share how our customers use Sourcegraph. If there's a customer story you'd like to tell, please reach out to the team in #marketing. 
+We're always looking to share how our customers use Sourcegraph. If there's a customer story you'd like to tell, please reach out to the team in #marketing.
 
 ## Customer Advisory Board
 
