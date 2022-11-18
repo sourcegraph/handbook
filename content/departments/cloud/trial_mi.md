@@ -147,7 +147,7 @@ The flow:
 3. When notified via webhook, [PLG GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_plg_create.yml) invokes given steps:
 
 - triggers new PLG trial Managed instance creation via [Managed Instance create GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
-- resets intial admin token in an instance given to the customer
+- resets initial admin token in an instance given to the customer
 - adds customer email domain to GCP project labels
 - opens PR in `deploy-sourcegraph-managed` repository
 
