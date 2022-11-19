@@ -672,7 +672,7 @@ tammy_zhu:
 warren_gifford:
   name: Warren Gifford
   pronouns: he/him
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Portland, OR, USA 🇺🇸
   github: DaedalusG
@@ -739,7 +739,7 @@ beatrix_woo:
 
 stompy_mwendwa:
   name: Stompy Mwendwa
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Nairobi, Kenya 🇰🇪
   github: airamare01
@@ -871,7 +871,7 @@ coury_clark:
 aimee_menne:
   name: Aimee Menne
   pronouns: she/her
-  role: VP of Customer Engineering
+  role: VP of Technical Success
   reports_to: ceo
   manager_role_slug: vp_customer_engineering
   location: Denver, CO USA 🇺🇸
@@ -967,7 +967,7 @@ kelsey_nagel:
 gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Los Angeles, CA, USA 🇺🇸
   github: gabtorre
@@ -978,7 +978,7 @@ gabe_torres:
 amber_furbush:
   name: Amber Furbush
   pronouns: She/her
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Commerce City, CO, US
   github: amberfurbush0317
@@ -989,7 +989,7 @@ amber_furbush:
 jason_harris:
   name: Jason Harris
   pronouns: He/Him
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Los Angeles, CA USA
   github: jasonhawkharris
@@ -1000,7 +1000,7 @@ jason_harris:
 michael_bali:
   name: Michael Bali
   pronouns: He/Him
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Lagos, Nigeria 🇳🇬
   github: topebali
@@ -1011,7 +1011,7 @@ michael_bali:
 alex_jean-baptiste:
   name: Alex Jean-Baptiste
   pronouns: He/Him
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Atlanta, Georgia USA 🇺🇸
   github: alexAtSourcegraph
@@ -1023,7 +1023,7 @@ alex_jean-baptiste:
 mariam_adedeji:
   name: Mariam Adedeji
   pronouns: She/Her
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Lagos, Nigeria 🇳🇬
   github: rhiam
@@ -1606,7 +1606,7 @@ riana_shahid:
   email: riana.shahid@sourcegraph.com
   github: r-shahid
   pronouns: she/her
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: New York City, NY, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/rianashahid/)'
@@ -2112,14 +2112,14 @@ ajay_uppaluri:
 
 rakesh_joshi:
   name: Rakesh Joshi
-  role: Application Engineer
+  role: Support Engineer
   reports_to: vp_customer_engineering
   location: Melbourne, Australia
   email: rakesh.joshi@sourcegraph.com
   github: rakeshjosh2003
   pronouns: He/Him
   links: '[LinkedIn](https://www.linkedin.com/in/rakesh-joshi-62a56416)'
-  description: Rakesh is an application support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
+  description: Rakesh is a support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
 
 nathan_downs:
   name: Nathan Downs
@@ -2402,7 +2402,7 @@ jon_galindo:
   email: jon.galindo@sourcegraph.com
   github: Galindo-J
   pronouns: he/him
-  role: Senior Application Engineer
+  role: Senior Support Engineer
   reports_to: vp_customer_engineering
   location: Waco, TX, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/jon-galindo)'

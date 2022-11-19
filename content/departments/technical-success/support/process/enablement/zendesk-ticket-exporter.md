@@ -2,14 +2,14 @@
 
 ## Goal
 
-This project exists to create a database of resolved tickets that Sourcegraph indexes. This allows Application Engineers to leverage the power of Sourcegraph search to rapidly find solutions to past customer tickets which can assist them in solving current tickets.
+This project exists to create a database of resolved tickets that Sourcegraph indexes. This allows Support Engineers to leverage the power of Sourcegraph search to rapidly find solutions to past customer tickets which can assist them in solving current tickets.
 
 ## Value
 
 - Enable Sourcegraph search functionality to rapidly find closed Zendesk tickets.
 - Increase ticket closing velocity by increasing access to proven solutions.
 - Give context to potential root cause earlier in the ticket solving process.
-- Increase Application Engineer onboarding speed by enabling focused searching for tickets by service, root cause, version, etc.. to find common issues in each problem space.
+- Increase Support Engineer onboarding speed by enabling focused searching for tickets by service, root cause, version, etc.. to find common issues in each problem space.
 - Formal template encourages good record-keeping practices, including recording all troubleshooting steps.
 - Increases the time span for information retention, as GitHub will retain these records long after Slack has archived them.
 
@@ -28,7 +28,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 - Ensure that search terms you might use to find this ticket are present (e.g. batch changes, code-intel, scaling, permissions, error messages, etc…).
 - Remove personally identifiable data from any logs
 - Write out your troubleshooting process in a step-by-step format, including critical information needed to solve the ticket gained by asking the customer.
-- If you found any docs pages useful, link them for future Application Engineer reference
+- If you found any docs pages useful, link them for future Support Engineer reference
 
 ## Ticket Summary Workflow
 
@@ -51,7 +51,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 
 ## Ticket Search Workflow
 
-- The Ticket Summary repo can be found in the Application Engineer Kubernetes Sourcegraph instance.
+- The Ticket Summary repo can be found in the Support Engineer Kubernetes Sourcegraph instance.
 - Search using the search context context:resolved_tickets.
 - Search by using keywords like version (v3.30.0), service name (gitserver, frontend), or deployment type (Kubernetes, Docker Compose).
 - Example Search Queries:
@@ -67,7 +67,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 
 ## Information Security Guidelines for posting Logs
 
-Since we are encouraging Application Engineer’s to upload relevant sections of logs to the private Sourcegraph GitHub repository, we have additional security responsibilities to prevent uploading sensitive customer data. These are WIP guidelines for uploading logs. These guidelines will be linked to or embedded in the macro for Application Engineer visibility.
+Since we are encouraging Support Engineer’s to upload relevant sections of logs to the private Sourcegraph GitHub repository, we have additional security responsibilities to prevent uploading sensitive customer data. These are WIP guidelines for uploading logs. These guidelines will be linked to or embedded in the macro for Support Engineer visibility.
 
 ### Information that CANNOT be present in github:
 

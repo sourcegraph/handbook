@@ -23,7 +23,7 @@ As you go through onboarding, take your time. The first few weeks are all about 
 
 ## By the end of your third week, the following will be true...
 
-- You are starting to understand the day-to-day of an application engineer
+- You are starting to understand the day-to-day of an support engineer
 - You are starting to build trust with your team
 - You are starting to build trust with your peers
 

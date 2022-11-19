@@ -8,20 +8,20 @@
 
 Every member of CS works with their manager on a quarterly basis (after their initial 90 day milestone) to discuss Career Development. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
 
-It is very likely that other managers on the team may be brought in to support someone’s career roadmap as a secondary coach with a speciality in some area relevant to that member of the team.
+It is very likely that other managers on the team may be brought in to support someone’s career roadmap as a secondary coach with a specialty in some area relevant to that member of the team.
 
 ## Getting help
 
-If an application engineer needs help, they have the following avenues:
+If an support engineer needs help, they have the following avenues:
 
-- If it’s technical, they post in #customer-support-internal to get help from their fellow application engineers
+- If it’s technical, they post in #customer-support-internal to get help from their fellow support engineers
 - If it’s about how to handle a particular situation, they should go to their manager. If their manager is not online, they can either create a post in #customer-support-internal and @ mention @cs-leadership for another manager online to help and either work in that thread or request that whomever is going to help DM them if they need to chat privately,
 
 We want to have a global team where folks can work anywhere in the world. We never want that to mean someone has to wait to get the help that they need.
 
 ## Team meetings
 
-For both weekly planning/retros and ad-hoc team meetings, each manager or lead will facilitate a session on Wednesday at 15:00 UTC and 21:00 UTC. The application engineers in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
+For both weekly planning/retros and ad-hoc team meetings, each manager or lead will facilitate a session on Wednesday at 15:00 UTC and 21:00 UTC. The support engineers in attendance at each session will change monthly based on what works best for each support engineer that month. Each support engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
 
 Each week, the agenda will have some items that every manager will cover to ensure alignment across the entire team, and they will have space to put their spin on it to keep this synchronous time interesting and engaging.
 
@@ -35,7 +35,7 @@ The idea here is that any member of the leadership team may share/solicit import
 
 ## Group projects
 
-For team initiatives, various application engineers will need to collaborate together in various group formations. Folks can work with folks across the entire team and will never be limited just to the folks who report to the same manager.
+For team initiatives, various support engineers will need to collaborate together in various group formations. Folks can work with folks across the entire team and will never be limited just to the folks who report to the same manager.
 
 ## Social gatherings
 

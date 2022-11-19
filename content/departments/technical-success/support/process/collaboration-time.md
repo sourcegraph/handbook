@@ -2,10 +2,10 @@
 
 ## Purpose:
 
-- Synchronous time for application engineers on the Customer Support team to discuss current and past tickets, other items that we need help on or anything you learned that you’re excited about and would like to share with the group!
+- Synchronous time for support engineers on the Customer Support team to discuss current and past tickets, other items that we need help on or anything you learned that you’re excited about and would like to share with the group!
 - Facilitate learning and team bonding, and many virtual high fives!
 - Attendance is encouraged, but not required. **Additionally, you do not need to attend all three sessions. Ideally you would join the one that best aligns with your work schedule.**
-- There is no official facilitator. Instead, individual application engineer have set up the recurring meeting.
+- There is no official facilitator. Instead, individual support engineer have set up the recurring meeting.
 - This is **not** for time sensitive issues. Use your best judgement—if the issue cannot wait for collaboration time, then seek help before the meeting.
 - Time and days subject to future adjustment as needed by the group.
 

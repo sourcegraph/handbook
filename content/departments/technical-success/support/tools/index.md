@@ -120,7 +120,7 @@ Creating customized scripts can help automate a repetitive task for the team and
 
 ### Sourcegraph logging, services, and observability
 
-[An Application Engineers guide](support-logging-guide.md)
+[An Support Engineers guide](support-logging-guide.md)
 
 Designed to be an overview of Sourcegraph services and architecture. Topics include observability resources and logging. Covers when, what and how to to gather logs. Includes log interpretation examples.
 
@@ -130,10 +130,10 @@ This section captures our Zendesk protocol and configuration decisions.
 
 ### Access
 
-- Application engineers have agent access
+- Support engineers have agent access
 - CS leadership and Tech Ops have admin access
 - Only Virginia can modify billing related items
-- We have an admin level service account application engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
+- We have an admin level service account support engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
 - Tickets are also rendered via an iFrame in Salesforce for CE and sales access.
 
 ### Web vs desktop vs mobile app
@@ -209,8 +209,8 @@ We have a few automations set-up to streamline our workflow:
 
 - When you reply to a ticket, it auto-assigns to you, so you don't have to worry about remembering to click "take it" to assign it to yourself
 - The signature is built-in and is your name followed by Sourcegraph Support in the second line
-- When triage sets the requestor and they are part of an organization where we have an assigned application engineer, the application engineer is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](../process/customer-exceptions.md).
-- Per our [customer exceptions page](../process/customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the application engineer responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
+- When triage sets the requestor and they are part of an organization where we have an assigned support engineer, the support engineer is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](../process/customer-exceptions.md).
+- Per our [customer exceptions page](../process/customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the support engineer responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
 
 ### Apps
 

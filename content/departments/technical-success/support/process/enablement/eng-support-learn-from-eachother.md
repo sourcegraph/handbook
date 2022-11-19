@@ -4,15 +4,15 @@ When set up for it, engineering and support teams have so much to offer each oth
 
 ## Data sharing
 
-CS categorizes all customer inquiries so that we can get better insight into trends and identify opportunities for improvement. CS application engineers also share qualitative data about customer context and/or issues to ensure we fully consider what is best for the customer in our decision making.
+CS categorizes all customer inquiries so that we can get better insight into trends and identify opportunities for improvement. CS support engineers also share qualitative data about customer context and/or issues to ensure we fully consider what is best for the customer in our decision making.
 
 ## Office hours
 
-Some folks in engineering offer office hours and those can be useful for an application engineer to join to learn, ask questions, collaborate.
+Some folks in engineering offer office hours and those can be useful for an support engineer to join to learn, ask questions, collaborate.
 
 ## Team rotations
 
-- **Application engineers rotate on other engineering teams.** Depending on interest and timing with all involved, application engineer may also do rotations in other teams. These will be carefully coordinated to make sure that we always have enough help available to our customers. If an application engineer is interested, they can start the process by talking with their manager to determine next steps.
+- **Support engineers rotate on other engineering teams.** Depending on interest and timing with all involved, support engineer may also do rotations in other teams. These will be carefully coordinated to make sure that we always have enough help available to our customers. If an support engineer is interested, they can start the process by talking with their manager to determine next steps.
 - **Members of engineering rotate on support.** There is tons of value in working directly with customers and seeing the variety of questions and issues that come up across our entire customer base. Any member of engineering who is interested in working in support for a day or even a week, just needs to let the support team in #customer-support-internal and we will make it happen.
 
 ## Pairings
@@ -23,35 +23,35 @@ Pairings are different from rotations in that they are usually ad-hoc in nature 
 
 We are not quite a big enough team to have folks pair long term with one team. From time to time, however, we may want to retro with a team. We can do this in a few ways, depending on the preference of those involved:
 
-- An application engineer can join the existing engineering team’s retro session and participate (great for casual collaboration, when there isn’t anything specific, and if the engineering team agrees)
+- An support engineer can join the existing engineering team’s retro session and participate (great for casual collaboration, when there isn’t anything specific, and if the engineering team agrees)
 - The CS team and X engineering team can schedule a time to do a dedicated retro together on a topic, how they are working together, etc
-- An application engineer and one rep from each engineering team can join in an org wide session
+- An support engineer and one rep from each engineering team can join in an org wide session
 
 ## Root cause focus
 
-It can be hard to focus on the root cause. It can be far too easy to focus on solving for a symptom instead. Application engineers know to keep this focus and how to divide the work so that we offer a quick solution and are able to plan for the deeper work to address the underlying issue.
+It can be hard to focus on the root cause. It can be far too easy to focus on solving for a symptom instead. Support engineers know to keep this focus and how to divide the work so that we offer a quick solution and are able to plan for the deeper work to address the underlying issue.
 
 ## Support rotation donut pairing
 
-The software engineer doing support rotation for their team can join the #customer-support-weekly-pairing Slack channel and be paired with an application engineer for a focused coffee-style chat with the following agenda:
+The software engineer doing support rotation for their team can join the #customer-support-weekly-pairing Slack channel and be paired with an support engineer for a focused coffee-style chat with the following agenda:
 
-- If the application engineer and software engineer haven’t met before: intros, otherwise, casual catch-up
+- If the support engineer and software engineer haven’t met before: intros, otherwise, casual catch-up
 - Software engineer: what’s going on on my team? What’s being built? What am I (personally) building?
-- Application engineer: what’s going on in support, in general? What’s going on with supporting (search|code-intel|$TEAM)? What have been my pain points (personally)?
-- (Optional): application engineer or software engineer: bring any topics you’d like to learn about
+- Support engineer: what’s going on in support, in general? What’s going on with supporting (search|code-intel|$TEAM)? What have been my pain points (personally)?
+- (Optional): support engineer or software engineer: bring any topics you’d like to learn about
 
 If the donut app pairs two engineers, we can do some swapping to ensure CS and engineering pairings.
 
 ## On-demand training materials
 
-Whenever a software engineer or an application engineer has the desire/time to create training materials they feel will help CS and that can be available on-demand (written or video), it’s as easy as:
+Whenever a software engineer or an support engineer has the desire/time to create training materials they feel will help CS and that can be available on-demand (written or video), it’s as easy as:
 
 1. Create it
 2. Upload it to [the enablement folder](https://drive.google.com/drive/folders/1SSOwnsX_yNFadod88AQOxmFiINDgYoRr) in the CS shared drive and/or on the handbook CS [enablement page](index.md)
 
 ## Documentation
 
-We have a shared responsibility to maintain and improve docs.sourcegraph.com. Whenever an application engineer identifies a gap or something that needs to be updated, we will either:
+We have a shared responsibility to maintain and improve docs.sourcegraph.com. Whenever an support engineer identifies a gap or something that needs to be updated, we will either:
 
 - Make the edit on (or create) the actual docs page (in Github) and seek review from the appropriate engineering team
 - File a docs issue in Github for the appropriate engineering team explaining what is missing, and tag it as `docs` as well as tagging the appropriate engineering team to fill in the gaps/needs we have identified
@@ -67,7 +67,7 @@ When we work on documentation, we…
 
 ## Projects
 
-Some engineering teams have a way for an application engineer to take on a scope-bound project (like taking responsibility for a small Github issue). This isn’t easy for all teams and it’s better if we start with a conversation than jumping in. Also consider the following…
+Some engineering teams have a way for an support engineer to take on a scope-bound project (like taking responsibility for a small Github issue). This isn’t easy for all teams and it’s better if we start with a conversation than jumping in. Also consider the following…
 
 ### If you are interested in frontend development...
 

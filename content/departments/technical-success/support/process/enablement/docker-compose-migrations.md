@@ -1,6 +1,6 @@
 ## Docker/Docker-Compose Migrations
 
-This is a crash course for migrating an existing Sourcegraph instance from docker to docker-compose for onboarding Application Engineers. This course assumes that you have already installed a [local docker deployment](https://docs.sourcegraph.com/admin/install/docker), and a docker-compose deployment [using the Google Cloud Platform](https://docs.sourcegraph.com/admin/install/docker-compose/google_cloud).
+This is a crash course for migrating an existing Sourcegraph instance from docker to docker-compose for onboarding Support Engineers. This course assumes that you have already installed a [local docker deployment](https://docs.sourcegraph.com/admin/install/docker), and a docker-compose deployment [using the Google Cloud Platform](https://docs.sourcegraph.com/admin/install/docker-compose/google_cloud).
 
 While this crash course focuses on migrating to a GCP instance, by the end of the course you should have a good basis for migrating using other cloud services (AWS, Azure, etc.) as well.
 

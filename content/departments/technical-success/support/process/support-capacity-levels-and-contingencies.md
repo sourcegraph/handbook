@@ -1,12 +1,12 @@
 # Support capacity levels and contingencies
 
-Based on how many application engineers are able to work each day and how many open cases we have across the team, we are able to quickly see if we have enough capacity to operate business-as-usual or if we need to invoke any contingencies.
+Based on how many support engineers are able to work each day and how many open cases we have across the team, we are able to quickly see if we have enough capacity to operate business-as-usual or if we need to invoke any contingencies.
 
 We center the following as guiding statements for what we want to be true during periods when we do not have enough capacity to operate business-as-usual:
 
 - Our customers feel that we care about them and the issues they experience with our product
-- Our application engineers feel that it’s okay and safe to take the time they need
-- Our application engineers covering those who are out feel supported and able to serve our customers well (ie, they are not breaking)
+- Our support engineers feel that it’s okay and safe to take the time they need
+- Our support engineers covering those who are out feel supported and able to serve our customers well (ie, they are not breaking)
 - Our customer engineering, sales, and community teammates don’t ever have to wonder what state support is in / what the plan is to get our customers the help they need
 
 As a general practice, we don't think about the day like this. During exceptional circumstances (holidays, team or company-wide travel events, pandemics), we refer to these levels and contingencies.

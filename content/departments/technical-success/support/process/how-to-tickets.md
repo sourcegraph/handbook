@@ -1,6 +1,6 @@
 # Engaging Engineering
 
-As an Application Engineer, you will be confronted with tickets that require you to seek help from engineering. You are encouraged to do so! There are two ways to do so, largely depending on the nature of the ticket.
+As an Support Engineer, you will be confronted with tickets that require you to seek help from engineering. You are encouraged to do so! There are two ways to do so, largely depending on the nature of the ticket.
 
 ### "How To" Tickets
 

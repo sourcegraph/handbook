@@ -1,6 +1,6 @@
 ### Staying Current on Recently Resolved Tickets
 
-As an Application Engineer, it is helpful to understand current trends in our resolved tickets database. Doing so can help heighten your awareness of current issues that may come up in your own tickets.
+As an Support Engineer, it is helpful to understand current trends in our resolved tickets database. Doing so can help heighten your awareness of current issues that may come up in your own tickets.
 
 ## Code Insights is your friend
 

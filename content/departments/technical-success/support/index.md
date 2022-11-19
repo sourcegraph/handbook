@@ -36,7 +36,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 ### External Team Resources
 
 - [How we work with other teams](process/engaging-other-teams.md)
-- [Assigned application engineers](team/assigned-app-eng.md)
+- [Assigned support engineers](team/assigned-app-eng.md)
 - [Business continuity](process/business-continuity-plan.md)
 
 ## SLAs

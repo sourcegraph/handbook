@@ -16,7 +16,7 @@ With the introduction of the [escalation engineering rotation](../../../engineer
 
 At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-engineering Slack channel is for.
 
-Any application engineer can use the #ask-engineering, #ask-implementation and #escalation-engineering Slack channels for anything they deem useful. These could be:
+Any support engineer can use the #ask-engineering, #ask-implementation and #escalation-engineering Slack channels for anything they deem useful. These could be:
 
 - ...for your own curiosity as you are learning (a question you have)
 - ...as you work on a cross-functional project

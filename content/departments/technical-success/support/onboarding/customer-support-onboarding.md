@@ -8,7 +8,7 @@ As you go through onboarding, take your time. The first few weeks are all about 
 
 - You understand Sourcegraph’s mission, vision, values, and culture
 - You understand Sourcegraph’s purpose and how you/your role supports us achieving it
-- You understand what is expected of you in your role and what it means to be a successful application engineer
+- You understand what is expected of you in your role and what it means to be a successful support engineer
 - You have started to get to know your teammates
 - You understand how to make edits to an handbook page
 - You have a sense of what tools you will be using and for what
@@ -24,7 +24,7 @@ As you go through onboarding, take your time. The first few weeks are all about 
 
 ## By the end of your third week, the following will be true...
 
-- You are starting to understand the day-to-day of an application engineer
+- You are starting to understand the day-to-day of an support engineer
 
 ## By the end of your fourth week, the following will be true...
 

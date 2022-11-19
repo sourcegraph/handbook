@@ -1,4 +1,4 @@
-# Application Engineers guide to getting started with Sourcegraph logging, services, and observability
+# Support Engineers guide to getting started with Sourcegraph logging, services, and observability
 
 **Note to reader:** This guide assumes little to no prior knowledge of how to troubleshoot distributed systems, gather logs, levels of user access, etc. It is an overview with the goal to provide a starting point for _where to look, why to look there, what you are looking for, and who can provide it._
 
@@ -32,7 +32,7 @@ Get there by appending the page to a Sourcegraph URL like so https://sourcegraph
 - `/-/debug/grafana/` View the Sourcegraph built in Grafana and alerts dashboard
 - Jaeger
 
-Application Engineers (AER's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Application Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to AER level of access so Refer to customer organization notes and exceptions.
+Support Engineers (SE's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Support Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to AER level of access so Refer to customer organization notes and exceptions.
 
 ### It's log, log, log!
 

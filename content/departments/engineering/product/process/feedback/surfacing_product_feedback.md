@@ -10,7 +10,7 @@
 
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../../technical-success/support/process/engaging-other-teams.md).
 
-CEs, application engineers (CS), Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
+CEs, TAs, Support engineers, Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
 
 We deeply value this feedback, so we make this process as frictionless for teammates as possible. There are only two ways of posting feedback:
 
