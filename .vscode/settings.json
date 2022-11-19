@@ -4,8 +4,5 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "workbench.preferredHighContrastColorTheme": "Solarized Dark",
   "workbench.preferredLightColorTheme": "Solarized Dark",
-  "cSpell.words": [
-    "devs",
-    "Sourcegraph"
-  ]
+  "cSpell.words": ["devs", "Sourcegraph"]
 }

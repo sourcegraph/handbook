@@ -11,12 +11,13 @@ Building trusted relationships with prospective dev users by aligning our soluti
 ## Team KPIs / Measures of Success
 
 The two primary team KPIs for CE are:
+
 - iARR
 - Technical Closure of Trials
 
 As the pre-sales technical leader, CEs play an important part in the incremental annual recurring revenue that we achieve. This dimension looks at the number of new customers acquired, net number of opportunities successfully closed, and number of products sold.
 
-Similarly, during the sales cycle CE's typically lead a customer through a technical validation (trials). A primary measure of success is the technical closure of a trial, which we refer to as achieving the technical win. For any deal that enters a trial, we expect the CE to lead the customer through a successful technical validation. 
+Similarly, during the sales cycle CE's typically lead a customer through a technical validation (trials). A primary measure of success is the technical closure of a trial, which we refer to as achieving the technical win. For any deal that enters a trial, we expect the CE to lead the customer through a successful technical validation.
 
 ## Team Reference Resources
 
@@ -35,7 +36,6 @@ Similarly, during the sales cycle CE's typically lead a customer through a techn
 ## How to Reach Us
 
 You can reach us at the #ce channel or @ce on Slack.
-
 
 ## Former Functional Team
 
