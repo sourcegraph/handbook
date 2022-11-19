@@ -1,4 +1,4 @@
-# Technical Success (TS)
+# Technical Success
 
 ## Our Mission
 
