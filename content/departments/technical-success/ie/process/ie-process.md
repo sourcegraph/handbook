@@ -2,11 +2,11 @@
 
 This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for customers utilizing the _Jointly Deployed_ offering with assistance from the Implementation Team. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in specific scenarios.
 
-For information on recommended deployment types and strategies, visit [Implementation Strategies](./impl-strategies.md).
+For information on recommended deployment types and strategies, visit [Implementation Strategies](impl-strategies.md).
 
 # Jointly Deployed vs. Jointly Managed
 
-- _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The implementation team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, pimarily in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access into customer environments.
+- _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The implementation team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, primarily in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access into customer environments.
 - _Jointly Managed_: This will be a paid offering for self-hosted customers as part of a premium support offering (often with environment badged access) for dedicated post-deployment work such as upgrades, feature expansions, and environment management. The goal of this offering is to reduce or eliminate the need for dedicated customer admins while ensuring a high quality instance and priority Sourcegraph support.
 
 # Implementation Team Use Cases
@@ -59,7 +59,7 @@ Similarly to CE, implementation will identify product issues, submit correspondi
 
 The steps below detail, on a high level, the steps that the Sourcegraph implementation teams will work on both internally and directly with the customers:
 
-[Implementation Engineers](./index.md)
+[Implementation Engineers](../index.md)
 
 - Confirmation of the production technical deployment design as captured by the CE
 - Build internal replica environment based on expected requirements for production deployment

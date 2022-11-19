@@ -25,7 +25,7 @@ Before deploying Sourcegraph into an environment, the following actions should b
   - Kubectl installed
   - Kube config set for the cluster
   - Helm installed
-- User completing Sourcegraph installation has cluster-admin privledges
+- User completing Sourcegraph installation has cluster-admin privileges
 - Sourcegraph helm charts accessible
 - Access to DNS for the domain being used for Sourcegraph instance
   - Access to create a TLS certificate for the hostname chosen for Sourcegraph instance

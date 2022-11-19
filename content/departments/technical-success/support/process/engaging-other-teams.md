@@ -8,7 +8,7 @@ When we need help, we seek it consistently, following the steps outlined here. W
 - Exhaust our collective expertise
 - Minimize the time added to the customer experience whilst they wait for help
 
-With the introduciton of the [escalation engineering rotation](../../../engineering/dev/process/escalation-engineer-rotation.md) Slack channel, we have the latitude to engage with engineering directly and get responses faster from engineering. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
+With the introduction of the [escalation engineering rotation](../../../engineering/dev/process/escalation-engineer-rotation.md) Slack channel, we have the latitude to engage with engineering directly and get responses faster from engineering. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
 
 1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into Github helps us suss out our performance as well as room for growth.
 2. To help reduce time to resolution for customer issues, we'd like to remain agile and make use of the #escalation-engineering channel to get eyes on it as soon as possible. If required, and for some of the issues that we judge that are related to a specific team input, we then use GitHub RFHs given that those would require a deeper subject matter level of attention.
@@ -16,7 +16,7 @@ With the introduciton of the [escalation engineering rotation](../../../engineer
 
 At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-engineering Slack channel is for.
 
-Any application engineer can use the #ask-engineering, #ask-implementation and #escalation-engenieering Slack channels for anything they deem useful. These could be:
+Any application engineer can use the #ask-engineering, #ask-implementation and #escalation-engineering Slack channels for anything they deem useful. These could be:
 
 - ...for your own curiosity as you are learning (a question you have)
 - ...as you work on a cross-functional project

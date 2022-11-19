@@ -167,7 +167,7 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 
 - <em>Does the account take priority on the implementation backlog based on size, ARR, and TAM?</em> - The implementation team will likely not be able to handle every Kubernetes deployment that comes down the pipeline. In order to prioritize the accounts on the jointly deployed backlog, the implementation team and leadership will primarily review the organizations size, the opportunities ARR, and the total addressable market of the account.
 
-- <em>Are there contextual limitations requiring the acount to user Sourcegraph implementation services?</em> - Any additional contextual situations should be taken into account when determining the account priority and need for a jointly deployed instance. These include questions such as whether or not the account has a lack of deployment expertise, they have particularly unique set of deployment requirements, or they have a strategic purpose.
+- <em>Are there contextual limitations requiring the account to user Sourcegraph implementation services?</em> - Any additional contextual situations should be taken into account when determining the account priority and need for a jointly deployed instance. These include questions such as whether or not the account has a lack of deployment expertise, they have particularly unique set of deployment requirements, or they have a strategic purpose.
 
 **Is there an organizational requirement to use their own base AMI or does the organization use a cloud provider other than AWS?**
 

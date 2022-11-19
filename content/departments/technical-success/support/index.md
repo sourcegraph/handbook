@@ -1,6 +1,6 @@
-# Customer Support
+# Support Engineering
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammates.
+Supporting Engineering at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammates.
 
 ### Our guiding principles:
 

@@ -31,7 +31,6 @@ The following are a sample of the activities that a TA is responsible for on a d
 - Establish up-to-date account map / plan
   - Org, roles & responsibilities, learn the state of things, intros to folks
 - Account Monitoring: flag and schedule internal meetings, work with customer on corrective action, customer health
-  - Internal 2x2 meetings
 
 ## External
 
@@ -118,29 +117,21 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 
 ## Expansions and Renewals
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. The TA is not expected to directly lead the expansion opportunity itself,as that is a CE responsibility. However, the TA will be engaged and consulted throughout. 
 
-Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. It could also include a trial for a new user group or with that new feature. A basic renewal or seat expansion may not involve CE beyond generating a new license key.
+A basic renewal (no expansion) would not involve a CE. The TA will assist the Account Executive through the renewal activities and process.
 
-## Ongoing Customer Nurture
+## Voice of the Customer
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
-
-While our CS team is primarily responsible for reactive technical support, CE helps keep an eye out on Slack for any questions or issues that come through. CE can view any support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
-
-At times a customer may raise a feature request or provide product feedback. It is our responsibility as CEs to gather that feedback and share with the product teams.
+A key role we play for our customers is serving as an advocate on their behalf back to internal product teams. As requests or feedback is shared from our customers, we share that with our product teams serving as a liasion on the customers' behalf.
 
 ### Resources
 
-- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
+- [Product Feedback Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
 
 ## Account Management
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
-
-As CEs we are responsible for the technical success of our customers. Post-sales we nurture these relationships and manage the accounts by paying attention to customer health metrics. Usage, adoption, and customer sentiment are important indicators that we monitor and address. It is recommended that CEs routinely monitor this to keep a pulse on customer metrics. There is also a link to this from the Salesforce Account record.
-
-In addition to routine monitoring, CE should be collaborating with their AE to create and maintain [account plans](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl) for each customer. These should be revisited on a quarterly basis.
+As TAs we are responsible for the technical success of our customers. Post-sales we nurture these relationships and manage the accounts by paying attention to customer health metrics. Usage, adoption, and customer sentiment are important indicators that we monitor and address. It is recommended that TAs routinely monitor this to keep a pulse on customer metrics. There is also a link to this from the Salesforce Account record.
 
 ### Resources
 
@@ -167,13 +158,9 @@ Finance, TA, Sales, and Value Engineering all play a key role in customer renewa
 
 ### Process and Roles & Responsibilities
 
-On a quarterly basis, finance generates and publishes an updated renewal analysis for remaining renewals in the Fiscal Year. On a monthly basis, AE and Sales updates the [Renewals: Health Assessment](https://docs.google.com/spreadsheets/d/1iabZh8JzZc6d05z6xjLkpM-RtpbyG2qb2jXwUj1vlMU/edit#gid=153370473) doc:
+Our renewal process is a 5 step process that begins 180 days prior to renewal date. 
 
-- Sales (AE) raises relationship and business needs / challenges that pose a risk for the customers' health
-- TA raises technical and business needs / challenges that pose a risk for the customers' health
-- The Red Accounts Program is employed to address any challenges raised as part of these health assessments.
-
-90 days prior to the renewal, Value Engineering engages to perform a value realization exercise prior to the first customer renewal call. The AE establishes a plan for the renewal proposal and begins renewal discussions with the Champion / Economic Buyer (EB).
+You can read about the process and roles & responsibilities [here](https://docs.google.com/presentation/d/1TguV96BTdC6AuXX5DLoMDG1yWLe5HU5qmyWZD79Odjo/edit?usp=sharing).
 
 ## Red Accounts
 
@@ -197,72 +184,3 @@ Should an AE or TA feel that an account which isn't designated as red via the he
 
 Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
 
-## Account Planning
-
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
-
-Account Planning is critical to the success of our customers. The account planning process is where an account team (AE & TA) comes together to review the current status of their customers (Usage, Health, ect.) on a quarterly basis and sets new goals for the next quarter, focusing on customer health, retention, and expansion.
-
-A [video version](https://www.loom.com/share/b18f6a43fa6243a38affe0a25c068f6d) of this has also been recorded.
-
-### What is an Account Plan?
-
-The Account Plan is an internal document that provides customer context, objectives, risks, and plans for a customer account looking back on the previous quarter and ahead for the next quarter that includes the following information:
-
-Customer Context
-
-- Contacts: champions, EB, advocate, admin, etc.
-- Use cases
-- How they’re using SG; internal initiatives; value perception
-- Customer health
-
-Objectives and plans
-
-- Expansion & Growth Opportunities
-- Account Risks & Challenges
-- Product Feedback themes
-- Quarterly Account Objectives
-
-### How do I start an Account Plan?
-
-To create a new Account Plan, a TA makes a copy of the [Account Plan Template](https://docs.google.com/document/d/1AN-irUdSLOhmV_zIIjKfAdw8vvf3Eh2HEdd0hhYiC_M/).
-
-Each plan is stored:
-
-- In the [accounts plan folder](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) for central access of all Customer Account Plans
-- A [shortcut linked](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) to the account plan from within the customer folder
-- URL reference of the Account Plan on the account object in SFDC in the “Action Plan Link” field
-
-### When should I Account Plan?
-
-Account Planning for all accounts occurs one a quarter, but the exact timing depends on the tier of the customer.
-
-For Tier 1 customers, this prior to internal QBRs so that the information can be presented there.
-
-For Tier 2 and Tier 3 customers, this will happen sometime at the beginning of the quarter.
-
-Calendar invites will be sent out indicating the weeks during which each Tier's account plans should be completed.
-
-Newly signed customers will not have their first account plan created till after their account onboarding has been complete. Until then, the onboarding plan should be the roadmap for the customer.
-
-### What do I do with an Account Plan?
-
-For Tier 1 customers, this account plan will be shared with TA and AE leadership at a 2:2 Review meeting, and shared again to the whole organization at the internal QBR.
-
-For Tier 2 and Tier 3 customers, the account plan will be shared with your TA leader directly during your 1:1.
-
-Regardless of tier, each account plan should include clear next steps that will be added in Salesforce to the _Notes / Next Steps_ field on the account. A link to the account plan should also be included in the _Account Plan Link_ field.
-
-### Additional Questions
-
-What is the difference between the Account Plan and the Technical Design Document?
-
-- The Account Plan is not meant to be a technical document, it is meant to be a single place for someone to look for the business and health information around an account. The Technical Design Document is meant to be the single place for someone to look for technical details around a customer's implementation of Sourcegraph
-
-How do I find out what tier my customers are?
-
-- In this [SFDC Account Tiering Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HUrjEAG/view)
-
-How do I see when my accounts renew?
-
-- In this [SFDC Renewals Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HGAbEAO/view)

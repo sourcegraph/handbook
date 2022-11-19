@@ -2,7 +2,7 @@
 
 This document is a work in progress to give an overview of the expectations of the handoff between the customer engineering team and the implementation engineering team when a new customer requires implementation support.
 
-# Jointly Deployed Evalutation
+# Jointly Deployed Evaluation
 
 During the initial conversations with a customer, the CE should evaluate whether or not the customer is a candidate for a jointly deployed instance. Typical reasons a customer would be flagged for jointly deployed are:
 
@@ -37,7 +37,7 @@ The CE and AE will be made aware of the qualification (or disqualification) and 
 
 As a prerequisite to a handoff from CE to Implementation, please review the [Implementation Prerequisites](implementation-prerequisites.md).
 
-Much of the information needed by the Implementation team will come from the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit#heading=h.y9pic5x93a9l) (TDD) written by the CE, along with the discovery questions documented in the Implementation Playbook which should provide a comprehensive understanding of project requirements. The TDD and Discovery questions should include all technical, infrastructure, project, and timline information necessary for the implementation to plan out the customer's deployment. In order to accomplish this, the [Implementation Project Manager](../tpm/index.md) should be pulled into conversations surrounding the customer deployment during the as the customer approaching contract closure. The [Implementation Engineer](index.md) should then be engaged following completion of the initial TDD and Discovery drafts.
+Much of the information needed by the Implementation team will come from the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit#heading=h.y9pic5x93a9l) (TDD) written by the CE, along with the discovery questions documented in the Implementation Playbook which should provide a comprehensive understanding of project requirements. The TDD and Discovery questions should include all technical, infrastructure, project, and timeline information necessary for the implementation to plan out the customer's deployment. In order to accomplish this, the [Implementation Project Manager](../tpm/index.md) should be pulled into conversations surrounding the customer deployment during the as the customer approaching contract closure. The [Implementation Engineer](index.md) should then be engaged following completion of the initial TDD and Discovery drafts.
 
 In the event the customer has different requirements for their production deployment from the trial outlined in the TDD, the production requirements should be documented in the TDD in a separate section.
 
@@ -45,7 +45,7 @@ In the event the customer has different requirements for their production deploy
 
 ### External Communications
 
-Once we have confirmed the evalutation that a customer will require implementation team support for their deployment, it is the CE’s responsibility to introduce the customer to the assigned implementation engineer and project manager leading the deployment. The CE should actively communicate to the customer that they will be working with an seperate implementation team from the discovery phase through the end of the implementation, and a formal introductory meeting should be scheduled. From this point onward, the implementation team should be included on continued communications.
+Once we have confirmed the evaluation that a customer will require implementation team support for their deployment, it is the CE’s responsibility to introduce the customer to the assigned implementation engineer and project manager leading the deployment. The CE should actively communicate to the customer that they will be working with an separate implementation team from the discovery phase through the end of the implementation, and a formal introductory meeting should be scheduled. From this point onward, the implementation team should be included on continued communications.
 
 As IE involvement begins, it is imperative that the CE is setting the stage correctly for the implementation team to be successful. The AE and CE on the account should be clearly communicating what customers should expect when working with the implementation team. In addition, the Implementation Project Manager should be brought in on calls to help begin identifying a project plan for the deployment.
 

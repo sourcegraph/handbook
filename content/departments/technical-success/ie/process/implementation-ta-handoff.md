@@ -39,7 +39,7 @@ The implementation team will keep a log of notes from the implementation. These 
 In addition, the implementation team will keep a dedicated:
 
 - Issues Log - active problems that need resolving
-- Risk Log - potential future problems and resposes to those problems if they come to fruition
+- Risk Log - potential future problems and responses to those problems if they come to fruition
 - Expansion Opportunities - if information is gathered on specific user or feature expansion opps, the implementation team will transition that information to the TA
 
 # Closing out a Deployment
