@@ -11,6 +11,7 @@ To lead the technical success of prospective & existing customers by guiding the
 - [Technical Advisory](ta/index.md) are the post-sales technical experts. TA maximizes value and outcomes within our customer dev teams by helping them solve their current challenges, and uncovering new challenges we can solve.
 - [Support Engineering](support/index.md) are the product experts. SE resolves technical issues and problems for our customers, while improving the self-serviceability of the customer experience, and by making our product better.
 
+
 ## Team Members
 
 {{generator:reporting_structure.vp_customer_engineering}}

@@ -14,9 +14,9 @@ Optimizing time to value by providing an exceptional product delivery experience
 
 Our primary measure of success is the time (duration) it takes to install, setup, and configure a production environment for our customers. Our ideal state is for our customers, even in the most complex of situations, to have a working production instance within 30 days.
 
-## Team Reference Resources
+### Team Reference Resources
 
-### Team Culture
+### Team Processes
 
 - [CE and Implementation Handoff Process](process/ce-implementation-handoff.md)
 - [Implementation Processes](process/ie-process.md)

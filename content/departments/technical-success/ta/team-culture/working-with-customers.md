@@ -117,7 +117,7 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 
 ## Expansions and Renewals
 
-Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. The TA is not expected to directly lead the expansion opportunity itself,as that is a CE responsibility. However, the TA will be engaged and consulted throughout.
+Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. The TA is not expected to directly lead the expansion opportunity itself,as that is a CE responsibility. However, the TA will be engaged and consulted throughout. 
 
 A basic renewal (no expansion) would not involve a CE. The TA will assist the Account Executive through the renewal activities and process.
 
@@ -158,7 +158,7 @@ Finance, TA, Sales, and Value Engineering all play a key role in customer renewa
 
 ### Process and Roles & Responsibilities
 
-Our renewal process is a 5 step process that begins 180 days prior to renewal date.
+Our renewal process is a 5 step process that begins 180 days prior to renewal date. 
 
 You can read about the process and roles & responsibilities [here](https://docs.google.com/presentation/d/1TguV96BTdC6AuXX5DLoMDG1yWLe5HU5qmyWZD79Odjo/edit?usp=sharing).
 
@@ -183,3 +183,4 @@ The TA will monitor the Customer Health dashboard and where applicable update th
 Should an AE or TA feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.
 
 Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
+
