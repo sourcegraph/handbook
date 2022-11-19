@@ -130,7 +130,7 @@ As explained above, our customers are able to initiate conversations for help vi
 ### Support contracts
 
 - **Purpose:** Agreed upon contracts to provide with dedicated support.
-- **Those involved:** CE/ce-support/support/engineering
+- **Those involved:** CE/support/engineering
 - **Details:** You can see which customers have such contracts in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit).
 
 ### [GitHub public issue tracker](https://github.com/sourcegraph/sourcegraph/issues)

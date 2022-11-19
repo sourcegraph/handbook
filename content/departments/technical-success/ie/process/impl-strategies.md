@@ -50,7 +50,7 @@ CE
    </td>
    <td>
 <ul>
-<li>If Cloud and One-Click are not options for the customer, the CE will <a href="https://handbook.sourcegraph.com/departments/ce-support/ce/ie/ce-implementation-handoff/#initiating-an-ie-request">Initiate an IE Request</a>
+<li>If Cloud and One-Click are not options for the customer, the CE will <a href="https://handbook.sourcegraph.com/departments/technical-success/ce/ie/ce-implementation-handoff/#initiating-an-ie-request">Initiate an IE Request</a>
 <li>Upon reviewing the request, the implementation team qualifies the customer for a jointly deployed instance and kicks off the process with the CE and Sales
 <li>This method is primarily used for on-prem Kubernetes deployments
 </li>

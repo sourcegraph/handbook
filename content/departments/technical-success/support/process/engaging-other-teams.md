@@ -223,7 +223,7 @@ And in some cases, the customer resolves the issue or you figure it out on your 
 
 For any questions about contract renewal, the CE and [Sales](../../../sales/index.md) teams are responsible. Post in the #ce channel @ mentioning the assigned sales rep and CE.
 
-For any questions about license key extension, the CE team is responsible. See the [license key management documentation](../../../ce-support/ce/process/license_keys.md) for guidance.
+For any questions about license key extension, the CE team is responsible. See the [license key management documentation](../../ce/process/license_keys.md) for guidance.
 
 ### Usage statistics
 

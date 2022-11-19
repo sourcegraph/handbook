@@ -189,7 +189,7 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Customer Support (CS)
 
-- Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
+- Cloud trial users that encounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../technical-success/support/index.md#sts=SLAs).
 - If a user tries to join an existing instance and is blocked, they might request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
 - If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
 

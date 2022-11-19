@@ -14,7 +14,7 @@ With respect to concerns about asks that customer facing teams may have or work 
 
 Today, where a customer need falls outside of what exists or is supported in our Product, CE logs [Product Gaps](tech-win-process.md#surfacing-product-feedback) in Salesforce to surface these requests to Product for consideration onto the [Roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit). If / when added to the Roadmap, CE and Sales can track progress from the Roadmap.
 
-Where we uncover that, in order to make a customer successful technically, they require Engineering resources / effort that is unplanned and unprioritized, the account CE is expected to write up the details: capture the clear asks (concern / problem statement / etc), provide context if it impacts any other customers, and provide any other business context in order to raise the request through the technical review process employed for pre-sales opportunities today. This allows for transparent alignment and collaborative decision making between Sales, CE & Support, and Engineering.
+Where we uncover that, in order to make a customer successful technically, they require Engineering resources / effort that is unplanned and un-prioritized, the account CE is expected to write up the details: capture the clear asks (concern / problem statement / etc), provide context if it impacts any other customers, and provide any other business context in order to raise the request through the technical review process employed for pre-sales opportunities today. This allows for transparent alignment and collaborative decision making between Sales, CE & Support, and Engineering.
 
 Where we encounter situations that we are unsure if a customer is following a best / supported practice, the account CE is expected to write up the details: capture the clear asks (eg validation required) and provide context around the ask and the customers’ technical design and raise the request through the technical review process employed for pre-sales opportunities today. This allows for transparent collaboration on defining the expectation or best practice and aligning on next steps in support of the customer's needs.
 
@@ -25,7 +25,7 @@ All communication around the decision to proceed with an opportunity based on te
 ## What the tech review process is / when to employ it
 
 - Think of this like an RFC for our customers when we have found ourselves in a situation where input/comments/buy in/decisions are needed to move something forward.
-- When cross-functional alignment and a decision or commitment is needed from Product/Eng/Customer Support/ce-support/ce/Sales for a customer.
+- When cross-functional alignment and a decision or commitment is needed from Product/Eng/Customer Support/CE/Sales for a customer.
 - If technical and business context needs to be provided to EPS to either gain alignment on a solution and go forward plan in support of a customers’ (or multiple customers) needs, or if tradeoff / prioritization conversations need to be had to align on timelines amongst leadership.
 
 ## What the tech review process is not / when not to employ it
