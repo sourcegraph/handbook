@@ -367,9 +367,8 @@ owen_brennan:
   name: Owen Brennan
   pronouns: he/him
   role: Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: Boise, Idaho, USA
-
   email: owen@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
@@ -389,7 +388,7 @@ maría_craig:
 chris_surdi:
   name: Chris Surdi
   role: Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: San Francisco, Ca, USA, 🇺🇸
   email: chris.surdi@sourcegraph.co
   description: "I’m a serial entrepreneur and angel employee with a passion for disruptive technology and sales. I live north of San Francisco with my wife Meliza and three kids - Truson, Kaison and Crimson. I'm originally from back East and moved out to the West Coast in 2003 to be involved in startups, technology, and innovation. I'm grateful to say I'm doing everything I've set myself out to achieve at this point."
@@ -533,21 +532,14 @@ tom_ross:
 greg_bastis:
   name: Greg Bastis
   pronouns: he/him
-  role: VP Sales, Western Region
+  role: Interim VP, Sales
   reports_to: ceo
-  manager_role_slug: vp_sales_western_region
+  manager_role_slug: vp_sales
   location: San Francisco, CA, USA
   github: gb1228
   email: gb@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/gregbastis/)'
   description: Greg (“GB” to limit confusion with Sourcegraph’s first Gregg, Stone) lives San Francisco’s Outer Sunset neighborhood with his wife, Brenda, who he met working at Boulder, Colorado’s landmark The Sink Bar & Restaurant in 2005. He first moved to San Francisco in 2008 for a job with Salesforce, before heading over to Optimizely where he spent 6 years helping enterprise Product & Engineering teams deliver exceptional digital experiences through Full Stack experimentation. When not working, you can find GB on his 90’s era steel bicycles, exploring all that Northern California has to offer (usually wearing lots and lots of pink).
-
-interim_sales_lead:
-  name: Quinn Slack
-  reports_to: ceo
-  role: Interim VP, Sales
-  manager_role_slug: vp_sales
-  hide_on_team_page: true
 
 seth_hoover:
   name: Seth Hoover
@@ -598,7 +590,7 @@ james_clifford:
   name: James Clifford
   pronouns: he/him
   role: Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: San Francisco, CA, USA 🇺🇸
   github: jclifford1
   email: jclifford@sourcegraph.com
@@ -641,7 +633,7 @@ jon_kishpaugh:
   name: Jon Kishpaugh
   pronouns: he/him
   role: Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: San Francisco, CA, USA
   github: JonKish
   email: jon@sourcegraph.com
@@ -880,17 +872,12 @@ aimee_menne:
   links: '[Linkedin](https://www.linkedin.com/in/aimee-menne-8343487/)'
   description: Aimee has spent her career, and is extremely passionate about, delivering customer-centric solutions. An Indiana native, she spent time in both Washington DC and San Francisco before landing in Denver, Colorado. Outside of work, Aimee is usually doing a variety of outdoor activities (running, cycling, skiing, hiking, camping, fishing) or traveling to new places.
 
-nicholas_gage:
-  name: Nicholas Gage
-  pronouns: he/him
-  role: Head of Sales Development
-  reports_to: vp_sales
-  manager_role_slug: head_sales_development
-  location: Oakland, CA USA
-  github: ngage1
-  email: ngage@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/nicholas-g-4a0b6948/)'
-  description: Nick grew up on the East Coast in the greater Boston area. After spending many years in the southeast working as an account executive for AT&T, Nick made the move to San Francisco to work with Box. Nick is passionate about development, both personal and professional. When outside of work, Nick enjoys spending time with his wife, Grace, and their dog, Rocky. Whether hiking, skimboarding, golfing, or skiing, Nick loves spending time outdoors (preferably in the sun!).
+interim_demand_gen_lead:
+  name: Quinn Slack
+  reports_to: ceo
+  role: Interim Demand Generation Lead (and CEO)
+  manager_role_slug: demand_gen_lead
+  hide_on_team_page: true
 
 director_demand_generation:
   name: Nicholas Gage
@@ -1173,7 +1160,7 @@ erica_freckelton:
   name: Erica Freckelton
   pronouns: she/her
   role: Senior Digital Marketing Manager
-  reports_to: director_demand_generation
+  reports_to: demand_gen_lead
   location: San Diego, California, United States 🇺🇸
   github: efreckelton
   email: erica.freckelton@sourcegraph.com
@@ -1459,7 +1446,7 @@ olivia_simpson:
   links: '[LinkedIn](https://www.linkedin.com/in/olivia-simpson-9a8a1835/)'
   github: olivia488
   role: Program Manager, Demand Generation Campaigns
-  reports_to: director_demand_generation
+  reports_to: demand_gen_lead
   location: New York, NY, USA
   description: Olivia is originally from Park Ridge, IL, but now lives in Manhattan with her fluffy corgi. Prior to joining Sourcegraph, Olivia held different roles at high-growth startups, where she discovered a passion for demand generation marketing. In her free time, she enjoys walking her dog in Central Park, meeting up with friends, and finding fun new Peloton rides to try!
 
@@ -1540,7 +1527,7 @@ cory_dobson:
   name: Cory Dobson
   pronouns: he/him
   role: Enterprise Account Executive - Sales
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: Portland, OR, USA 🇺🇸
   github: corydobson
   email: cory.dobson@sourcegraph.com
@@ -1600,6 +1587,14 @@ david_veszelovszki:
   github: vdavid
   links: '[LinkedIn](https://www.linkedin.com/in/veszelovszki/)'
   description: David is a developer with 150+ coding projects behind him, specializing in web development, i18n, and refactoring 🧑‍💻. He’s a very organized person with spreadsheets on a scary amount of aspects of his life. He loves doing research and playing with new technologies. He has nine siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘 with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
+
+andrew_reed:
+  name: Andrew Reed
+  role: Senior Manager, Sales Development
+  email: andrew.reed@sourcegraph.com
+  reports_to: vp_sales
+  manager_role_slug: head_sales_development
+
 
 riana_shahid:
   name: Riana Shahid
@@ -1866,7 +1861,7 @@ michael mcmahan:
   github: mjmcmahan
   pronouns: he/him
   role: Enterprise Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: Austin, TX, USA 🇺🇸
   description: Michael lives in Austin with his partner Danielle and their two dogs Lucy and Lady. He has spent the last 3 years of his career helping build A Cloud Guru, a cloud focused edtech startup. He is passionate about self development and loves to learn about technology, fitness, and investing. Outside of work and self improvement Michael can be found enjoying live music around Austin or watching his Pacers/Colts/Hoosiers play.
 
@@ -1906,7 +1901,7 @@ bolaji_olajide:
 todd_herskovitz:
   name: Todd Herskovitz
   role: Strategic Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
@@ -1915,7 +1910,7 @@ ryan_stott:
   name: Ryan Stott
   pronouns: he/him
   role: Enterprise Account Exective
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: Salt Lake City, UT, USA 🇺🇸
   github: r-stott
   email: ryan.stott@sourcegraph.com
@@ -1960,7 +1955,8 @@ brock_perko:
   name: Brock Perko
   pronouns: he/him
   role: Regional Sales Director, West
-  reports_to: vp_sales_western_region
+  reports_to: vp_sales
+  manager_role_slug: rsd_west
   location: Mill Valley, CA USA 🇺🇸
   github: 0xPerko
   email: brock_perko@sourcegraph.com
@@ -2060,7 +2056,7 @@ sarah_dunn:
   github: sarahedunn
   pronouns: she/her
   role: Enterprise Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: Bellingham, WA
   description: Sarah lives in Bellingham, WA with her husband and dog. Prior to Sourcegraph, Sarah gained experience working at Xactly, Lessonly, and Salesloft helping organizations transform and accelerate their go-to-market motions. When not working, Sarah can be found outside biking, skiing, running, hiking and swimming.
 
@@ -2336,7 +2332,7 @@ jessie_seidler:
   name: Jessie Seidler
   pronouns: she/her
   role: Enterprise Account Executive
-  reports_to: vp_sales_western_region
+  reports_to: rsd_west
   location: Denver, CO, USA 🇺🇸
   github: JessieSeidler
   email: jessie.seidler@sourcegraph.com
