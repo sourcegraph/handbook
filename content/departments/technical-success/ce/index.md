@@ -11,6 +11,7 @@ Building trusted relationships with prospective dev users by aligning our soluti
 ## Team KPIs / Measures of Success
 
 The two primary team KPIs for CE are:
+
 - iARR
 - Technical Closure of Trials
 
