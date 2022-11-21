@@ -7,10 +7,10 @@ We segment our customers into four discrete tiers. This segmentation is importan
 Our customer tiers are:
 | Customer Tier | Tier Criteria |
 | ---------------- | ---------------------------------------------- |
-| Strategic | 40k+ employees OR $1m+ ARR |
-| Large Enterprise | 10k - 40k employees OR $500k - $1m ARR |
-| Small Enterprise | 5k - 10k employees OR $100k - $500k ARR |
-| Mid-Market | Less than 5k employees AND less than $100k ARR |
+| Strategic | 10k+ devs OR $1m+ ARR |
+| Large Enterprise | 3k - 10k devs OR $500k - $1m ARR |
+| Small Enterprise | 1.5k - 3k devs OR $100k - $500k ARR |
+| Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
 
 ## Tooling
 
