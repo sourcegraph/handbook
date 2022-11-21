@@ -66,6 +66,8 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
 ```sh
 cd $CUSTOMER
+mi sync terraform-vars
+source tfvars.env
 ```
 
 ### Allow the GCP KMS Crypto Key and CloudSQL instance to be deleted

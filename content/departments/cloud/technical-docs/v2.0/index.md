@@ -52,9 +52,7 @@ All engineering teammates are allowed to create instances and perform experiment
 
 ### Production (`prod`) environment
 
-> `prod` environment is not created yet. we will revisit this when we're clsoe to GA.
-
-All dev projects are created under the [Sourcegraph Cloud V2 Prod] GCP project folder and [environments/prod](https://github.com/sourcegraph/cloud/tree/main/environments/prod) directory in the [sourcegraph/cloud] repo.
+All dev projects are created under the [Sourcegraph Cloud V2 Prod](https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?authuser=1&folder=286349018886&supportedpurview=project) GCP project folder and [environments/prod](https://github.com/sourcegraph/cloud/tree/main/environments/prod) directory in the [sourcegraph/cloud] repo.
 
 Access to `prod` environment is restricted and follow our [access policy](../../index.md#accessingdebugging-managed-instances).
 
@@ -63,7 +61,7 @@ This is our production environment and consists of internal and customer instanc
 Below is a list of long-lived internal instances:
 
 - [clouddev.sourcegraph.com](https://clouddev.sourcegraph.com)
-- [demo.sourcegraph.com](https://demo.sourcegraph.com)
+- [~demo.sourcegraph.com~](https://demo.sourcegraph.com) (we will migrate `demo` to v2 soon)
 
 Internal instances are created for various testing purposes:
 
