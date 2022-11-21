@@ -225,14 +225,10 @@ Known limitations of the self-serve trials flow include:
 
 The Product Growth team is iterating on those! There are probably many other great ideas out there, reach out to us in #growth if you want to share them.
 
-  
 ## FAQ
-  
-#### How do I login to an instance I support?
-  
-You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
-  
+
 #### How do I login to an instance I support?
 
-  
-  
+You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
+
+#### How do I login to an instance I support?
