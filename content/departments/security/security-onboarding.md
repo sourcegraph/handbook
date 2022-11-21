@@ -29,7 +29,7 @@ We are an all-remote company and favor asynchronous communication, it is importa
   - [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers) - Our CI (Continuous Integration) pipelines host.
     - Self-serve via google auth
   - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider.
-    - **#security** or you can reach out in **security-internal**
+    - **#security** or you can reach out in **#security-internal**
   - [GCP](https://console.cloud.google.com) (Google Cloud Platform) - GCP is where our Cloud infastructure exists.
     - **#it-tech-ops**
   - [Google Workspaces investigation tool](https://admin.google.com/ac/sc/investigation)
@@ -38,6 +38,8 @@ We are an all-remote company and favor asynchronous communication, it is importa
     - **#security-internal**
   - [Security Team 1Password shared vault](https://team-sourcegraph.1password.com/home) - where we store credentials used by the team
     - **#it-tech-ops**
+  - [HackerOne](https://www.hackerone.com/) - used for bug bounty management
+    - **#security-internal**
 
 ## Sourcegraph - Local Enviroment Setup
 
