@@ -84,7 +84,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
 1. 🟡 Inbound SDR converts to Opp
-1. 🟡 Inbound SDR notifies assigned AE/CE
+1. 🟡 Inbound SDR notifies assignes AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
@@ -109,7 +109,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
    1. Auto-email from Salesforce upon Conversion
    2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. An instance request GitHub issue is raised automatically and posted in channel. This is powered by this [zap](https://zapier.com/editor/173098650/published).
-1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email.
+1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email. Note: if the AE is Kevin Quigley, then he should be added as a CE to the instance as he is the acting CE for his accounts.
 1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
 1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
@@ -224,3 +224,11 @@ Known limitations of the self-serve trials flow include:
 - there is no way for a user to join a pre-existing instance unless SSO is setup [#42891](https://github.com/sourcegraph/sourcegraph/issues/42981)
 
 The Product Growth team is iterating on those! There are probably many other great ideas out there, reach out to us in #growth if you want to share them.
+
+## FAQ
+
+#### How do I login to an instance I support?
+
+You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
+
+#### How do I login to an instance I support?
