@@ -7,7 +7,7 @@ The Security team has a dedicated member on a weekly support rotation. This docu
 - Bug bounty reports on HackerOne
 - Security questionnaires
 - Cloudflare WAF blocks
-- security-issues GitHub project
+- Security-issues GitHub project
 - Emails to security@sourcegraph.com
 - Ensuring a smooth transition to the next engineer on rotation
 
@@ -47,7 +47,7 @@ These questions serve as a great opportunity to improve documentation so keep th
 
 ### PR reviews
 
-Our team gets tagged for reviewing PRs in the @sourcegraph/security team in GitHub. PR reviews can concern any code written by our devs, from JS through Kubernetes and everything in between. If you do not feel comfortable reviewing a PR then set due date expectations with the team requesting the review and request help from other team members. PR reviews are a great opportunity for pairing and cross-team collaboration.
+Our team gets tagged for reviewing PRs in the @sourcegraph/security team in GitHub. PR reviews can concern any code written by our devs, from JS through Kubernetes and everything in between. If you do not feel comfortable reviewing a PR then set due date expectations with the team requesting the review and request help from other team members. Ideally pure code security reviews should be handled by @security/security-code-review members. If you are on support and you get assigned a code review, feel free to add that team to the assigned reviewers. PR reviews are a great opportunity for pairing and cross-team collaboration.
 
 ### Bug Bounty reports
 
