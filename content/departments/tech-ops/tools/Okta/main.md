@@ -50,12 +50,12 @@ Okta Verify should be used as the default MFA option and if you want to add othe
    - Push notification
    - One-time passcode
    - Fast Pass (coming soon)
-   
 2. FIDO2 [WebAuthn](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)- use a security key or biometric authenticator (such as YubiKey, Google Titan, or Touch ID)
+
    - Touch ID: Each browser will need to verify and register Touch ID, so if you use multiple browsers, you will need to set this up on each one.
    - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #it-tech-ops the generated CSV
 
-1. Google Authentication - in some instances we allow for Google Authentication method so that a TOTP code can be generated and stored in 1Password.
+3. Google Authentication - in some instances we allow for Google Authentication method so that a TOTP code can be generated and stored in 1Password.
 
 ## Adding a new MFA option
 
@@ -67,6 +67,7 @@ Okta Verify should be used as the default MFA option and if you want to add othe
 6. Select “Enroll” and follow the steps prompted by your browser
 
 ## What is the most secure Authentication method?
+
 1. Physical tokens (Yubikeys or similar) or biometric (TouchID or similar)
 1. Push notifications on a trusted device
 1. App-generated 2FA codes, like Google Authenticator.
