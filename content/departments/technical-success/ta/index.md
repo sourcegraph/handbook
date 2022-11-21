@@ -44,6 +44,7 @@ Today we measure usage based on Daily Active Users (DAU) / Monthly Active Users 
 ## How to Reach Us
 
 This team can be engaged in the #technical-advisors channel or via the @technical-advisors user group in slack.
+
 # Technical Advisors (TA)
 
 ## Who we are
@@ -73,7 +74,7 @@ We consider healthy adoption / utilization to comprise of at least 80% consumpti
 
 ### Daily Use
 
-Today we measure usage based on Daily Active Users (DAU) / Monthly Active Users (MAU). We consider anything at or above 30% to be healthy usage. We'll look to increase this benchmark into and through FY24. 
+Today we measure usage based on Daily Active Users (DAU) / Monthly Active Users (MAU). We consider anything at or above 30% to be healthy usage. We'll look to increase this benchmark into and through FY24.
 
 ## Team Reference Resources
 
