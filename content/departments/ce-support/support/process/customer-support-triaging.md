@@ -80,4 +80,4 @@ For the Hubspot form, we will need to email the person from our work Gmail accou
 
 ### 10. How to add the support agent integration to a customer Slack channel.
 
-Simply navigate to the support agent app in Slack and at the top expand the title with the drop-down arrow. Choose the first option, `Add this app to a channel` and either search out or type the channel you'd like to add the integration to. Here's a quick [video](https://www.loom.com/share/6f5b7191a8fa49478318b9ce81dd9cc8) on how to do it. Please ping @CS-Leadership so they can complete the setup. 
+Simply navigate to the support agent app in Slack and at the top expand the title with the drop-down arrow. Choose the first option, `Add this app to a channel` and either search out or type the channel you'd like to add the integration to. Here's a quick [video](https://www.loom.com/share/6f5b7191a8fa49478318b9ce81dd9cc8) on how to do it. Please ping @CS-Leadership so they can complete the setup.
