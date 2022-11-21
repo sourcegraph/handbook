@@ -122,3 +122,4 @@ Skim through our support rotation page in the [handbook](security-support-rotati
 - You are able to run `tf plan` on the sourcegraph/infrastructure repository
 - You are able to `kubectl` into our clusters
 - You have BurpSuite set up on your local machine
+- You have installed the OpsGenie app on your phone
