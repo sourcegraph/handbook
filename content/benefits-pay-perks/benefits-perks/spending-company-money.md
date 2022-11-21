@@ -58,7 +58,7 @@ Please place an order for your Sourcegraph computer immediately after signing yo
 
 **US/Canada/UK-based teammates**
 
-Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. 
+Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK.
 
 **Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple ID). All MacBooks and Apple Care insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
 
