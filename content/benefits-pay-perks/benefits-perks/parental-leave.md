@@ -232,6 +232,7 @@ Preparing for your first day back:
 #### FAQ for all Teammates (regardless of location)
 
 #### Q: Can I work part-time during my parental leave and therby extend it longer than 16-weeks?
+
 A: This is typically not accommodated. In rare cases, an exception will be made with manager/HR/executive approval. Exceptions will only be made when there is a business need. Teammate preference is not a business justification for an exception.
 
 ##### Q: Can I extend my parental leave past 16 weeks?
