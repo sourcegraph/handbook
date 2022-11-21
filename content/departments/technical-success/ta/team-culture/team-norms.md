@@ -20,7 +20,7 @@ We use Vitally stay organized internally around our customers. Your account shou
 
 ### Salesforce
 
-As the Sales system of record, we use Salesforce (and the data we bring into Vitally from Salesforce) as the source of contractual information such as revenue, licensing, and renewal & expansion opportunities. 
+As the Sales system of record, we use Salesforce (and the data we bring into Vitally from Salesforce) as the source of contractual information such as revenue, licensing, and renewal & expansion opportunities.
 
 ### Looker
 
@@ -30,7 +30,7 @@ Looker is our product analytics tool that allows for deep inspection and analysi
 
 This team is highly focused on engaging our customers with valuable insight and information. We also are focused on internally surfacing customer information that is important to the business. This means both synchronous customer conversations throughout the day along with synchronous and asynchronous Sourcegraph processes.
 
-Team meetings are held weekly. 
+Team meetings are held weekly.
 
 ## OOO Protocols
 
