@@ -52,7 +52,6 @@ All engineering teammates are allowed to create instances and perform experiment
 
 ### Production (`prod`) environment
 
-
 All dev projects are created under the [Sourcegraph Cloud V2 Prod](https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?authuser=1&folder=286349018886&supportedpurview=project) GCP project folder and [environments/prod](https://github.com/sourcegraph/cloud/tree/main/environments/prod) directory in the [sourcegraph/cloud] repo.
 
 Access to `prod` environment is restricted and follow our [access policy](../../index.md#accessingdebugging-managed-instances).
