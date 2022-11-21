@@ -2,7 +2,11 @@
 
 Supporting Engineering at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammates.
 
-### Our guiding principles:
+## Our Team Purpose Statement
+
+Aid the technical success of our customers by resolving their problems and making our product and their experience better
+
+## Our guiding principles:
 
 - Persistently working toward and/or seeking resolution that works equally for our customers and us
 - Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication)

@@ -10,23 +10,22 @@
 
 **Step 5:** Identify if there is action for CS or not if it's not clear, post in #customer-support-triage and brainstorm the best path.
 
-If there is an action for CS, got to Step 6. There is an action for CS if the action is to:
+If there is an action for CS, go to Step 6. There is an action for CS if the action is to:
 
 - troubleshoot
 - explain how a feature works in the product/how to do something in the product
 - handle incident customer communication
-- handle anything related to security for a customer without a CE
-- handle a feature request for a customer without a CE
+- handle anything related to security for a customer without a TA
+- handle a feature request for a customer without a TA
 
 If there is no action for CS, go to back to step 4 select ‘…’ and then select _Ignore_ then proceed to step 8. There is no action for CS if the action is to:
 
-- handle anything related to licensing
-- handle anything related to security for a customer with a CE
-- handle a feature request for a customer with a CE
+- handle anything related to security for a customer with a TA
+- handle a feature request for a customer with a TA
 - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
 - for employment verifications, we can reply and send the requestor to [our Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/) where they can get what they need.
 
-**Step 6:** Selecting _View Thread_ will allow you to respond to the customer within the slack thred.
+**Step 6:** Selecting _View Thread_ will allow you to respond to the customer within the slack thread.
 
 **Step 7:** Once done communicating with the customer in the Slack Thread, you will go back to support agent and from there you can put the thread on Hold with Notes or End Chat.
 
@@ -60,11 +59,11 @@ When SLA is close to expiring, we view the teams' cases we ask those AERs with l
 
 ### 6. How to triage post in the customer support channel.
 
-When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](customer-exceptions.md).
+When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the SE's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](customer-exceptions.md).
 
 ### 7. Customer request on custom scripts.
 
-Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
+Sometimes custom scripts are developed by the CE or TA team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
 
 ### 8. How to handle follow up tickets.
 
@@ -80,4 +79,4 @@ For the Hubspot form, we will need to email the person from our work Gmail accou
 
 ### 10. How to add the support agent integration to a customer Slack channel.
 
-Simply navigate to the support agent app in Slack and at the top expand the title with the drop-down arrow. Choose the first option, `Add this app to a channel` and either search out or type the channel you'd like to add the integration to. Here's a quick [video](https://www.loom.com/share/6f5b7191a8fa49478318b9ce81dd9cc8) on how to do it.
+Simply navigate to the support agent app in Slack and at the top expand the title with the drop-down arrow. Choose the first option, `Add this app to a channel` and either search out or type the channel you'd like to add the integration to. Here's a quick [video](https://www.loom.com/share/6f5b7191a8fa49478318b9ce81dd9cc8) on how to do it. Please ping @CS-Leadership so they can complete the setup.
