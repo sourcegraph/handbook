@@ -2341,7 +2341,7 @@ jessie_seidler:
 sam_johns:
   name: Sam Johns
   email: sam.johns@sourcegraph.com
-  role: Senior Deployment Engineer
+  role: Senior Implementation Engineer
   reports_to: vp_customer_engineering
   location: Arlington, VA, USA 🇺🇸
   github: scjohns
