@@ -7,7 +7,7 @@ The Security team has a dedicated member on a weekly support rotation. This docu
 - Bug bounty reports on HackerOne
 - Security questionnaires
 - Cloudflare WAF blocks
-- Vulnerability board
+- Security-issues GitHub project
 - Emails to security@sourcegraph.com
 - Ensuring a smooth transition to the next engineer on rotation
 
@@ -15,28 +15,28 @@ The Security team has a dedicated member on a weekly support rotation. This docu
 
 The engineer on rotation is expected to comply with these responsibilities only **_within their usual working hours_**. There is no on-call, 24x7-watch expectation on these tasks. The async nature of Sourcegraph allows us to properly support the organization without having to be in front of the computer all day.
 
-You are not expected to provide all answers to inquiries or review all PRs. You are expected to be the initial responder and decide whether to tackle the work right away or add it for later planning. As a general rule of thumb, any work that will take longer than half a day should become a ticket in the team's [Jira backlog](https://sourcegraph.atlassian.net/secure/RapidBoard.jspa?rapidView=4&projectKey=SECURITY&selectedIssue=SECURITY-51). This also includes work that takes less than half a day but needs to be transitioned to another engineer.
+You are not expected to provide all answers to inquiries or review all PRs. You are expected to be the initial responder and decide whether to tackle the work right away or add it for later planning. As a general rule of thumb, any work that will take longer than half a day should become a ticket in the team's [GitHub issues](https://github.com/sourcegraph/security/issues). This also includes work that takes less than half a day but needs to be transitioned to another engineer.
 
 The engineer on support rotation is responsible for anything that doesn't have a clear owner in our team. For example if we start receiving a trove of PRs for something that another engineer is currently working on, there's no need to keep an eye on those. On the other hand, if it's a one-off review then it's your responsibility to ensure the ball doesn't get dropped.
 
 Finally, it's your responsibility to ensure a smooth transition to the next engineer on rotation. This includes:
 
 - Wrapping up tasks as you can;
-- Ensuring all tasks are properly documented (with Jira tickets and status updates);
+- Ensuring all tasks are properly documented (with GitHub issues and status updates);
 - Communicating any leftover tasks/asks/things to keep in mind for whoever is up next. This is best done the day before the rotation transitions via an async recap update posted in #security-internal.
 
 ### Channels to keep an eye on
 
-The following channels/boards should be checked at least _once a day_:
+Issues should arrive through the following channels, which should be checked at least _once a day_:
 
 - #security
 - #security-internal
 - #security-monitoring
-- Messages that tag @security-team or @security-support
-- GitHub notifications tagging @security
-- HackerOne reports
+- Slack messages that tag @security-team or @security-support
+- GitHub notifications tagging @sourcegraph/security
+- HackerOne reports (via email)
 - security@sourcegraph.com email
-- [Jira vulnerability board](https://sourcegraph.atlassian.net/jira/software/c/projects/VUL/boards/10)
+- [security-issues](https://github.com/sourcegraph/security-issues) GitHub project
 
 ## How-tos
 
@@ -47,7 +47,7 @@ These questions serve as a great opportunity to improve documentation so keep th
 
 ### PR reviews
 
-Our team gets tagged for reviewing PRs in the @security team in GitHub. PR reviews can concern any code written by our devs, from JS through Kubernetes and everything in between. If you do not feel comfortable reviewing a PR set due date expectations with the team requesting the review and request help from other team members. PR reviews are a great opportunity for pairing and cross-team collaboration.
+Our team gets tagged for reviewing PRs in the @sourcegraph/security team in GitHub. PR reviews can concern any code written by our devs, from JS through Kubernetes and everything in between. If you do not feel comfortable reviewing a PR then set due date expectations with the team requesting the review and request help from other team members. Ideally pure code security reviews should be handled by @security/security-code-review members. If you are on support and you get assigned a code review, feel free to add that team to the assigned reviewers. PR reviews are a great opportunity for pairing and cross-team collaboration.
 
 ### Bug Bounty reports
 
@@ -96,7 +96,7 @@ Reviewing these questionnaires requires extensive knowledge of our company and a
 
 [NOTE: this will eventually be moved to more thorough docs on operating Cloudflare]
 
-Sourcegraph.com is behind the Cloudflare WAF. It's a great tool but sometimes it blocks legitimate uses of our application, especially searches. When that happens the user is presented with the default Cloudflare block page. To review Cloudflare blocks:
+Sourcegraph.com is behind the Cloudflare WAF. It's a great tool but sometimes it blocks legitimate uses of our application, especially searches. When that happens the user is presented with the default Cloudflare block page, and they may come to us to help review why the request was blocked. To review Cloudflare blocks:
 
 1. Get information from the user about an approximate timestamp and which HTTP request they were making, especially the URL.
 2. Go on Cloudflare -> Firewall -> Overview and use filters to find the event where the user was blocked.

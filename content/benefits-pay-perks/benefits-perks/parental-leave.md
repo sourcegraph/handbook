@@ -231,6 +231,10 @@ Preparing for your first day back:
 
 #### FAQ for all Teammates (regardless of location)
 
+#### Q: Can I work part-time during my parental leave and therby extend it longer than 16-weeks?
+
+A: This is typically not accommodated. In rare cases, an exception will be made with manager/HR/executive approval. Exceptions will only be made when there is a business need. Teammate preference is not a business justification for an exception.
+
 ##### Q: Can I extend my parental leave past 16 weeks?
 
 A: You may request to extend your leave beyond 16 weeks, though any additional time off will be unpaid and must be approved by your manager and the People Team. If you plan to extend your leave past 16 weeks, please make sure you 1) notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) of your request for additional time off and, if approved, 2) update your return-to-work date and out-of-office plan, if need be.
