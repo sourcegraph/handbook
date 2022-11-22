@@ -211,7 +211,7 @@ To increase the disk size:
    git add terraform.tfvars && git commit -m "$CUSTOMER: increase disk size"
    git push origin HEAD
    ```
-   
+
 1. Once the PR is approved, merge the PR and then apply the changes on Terraform Cloud.
 
 1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
