@@ -69,7 +69,7 @@ Okta Verify should be used as the default MFA option and if you want to add othe
 - Physical tokens (Yubikeys or similar) or biometrics (TouchID or similar)
 - Push notifications on a trusted device, such as Okta or Gmail
 - App-generated 2FA codes, like Google Authenticator
-   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
+  - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
 ## I forgot my password/my login doesn't work, what do I do?
 
