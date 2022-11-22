@@ -6,7 +6,7 @@ Customer Engineering at Sourcegraph is responsible for the pre-sales technical s
 
 ## Our Team Purpose Statement
 
-Building trusted relationships with prospective dev users by aligning our solutions to their needs and accelerating their business
+Building trusted relationships with prospective dev users by aligning our solutions to their needs to accelerate their business
 
 ## Team KPIs / Measures of Success
 
@@ -15,9 +15,13 @@ The two primary team KPIs for CE are:
 - iARR
 - Technical Closure of Trials
 
-As the pre-sales technical leader, CEs play an important part in the incremental annual recurring revenue that we achieve. This dimension looks at the number of new customers acquired, net number of opportunities successfully closed, and number of products sold.
+### iARR
 
-Similarly, during the sales cycle CE's typically lead a customer through a technical validation (trials). A primary measure of success is the technical closure of a trial, which we refer to as achieving the technical win. For any deal that enters a trial, we expect the CE to lead the customer through a successful technical validation.
+As the pre-sales technical leader, CEs play an integral role in closing incremental annual recurring revenue. This dimension looks at the number of new customers acquired, net number of opportunities successfully closed, and number of products sold whether on a net new prospect or within a new team at an existing customer.
+
+### Technical Closure of Trials
+
+During the sales cycle CE's typically lead a customer through a technical validation (trials). A primary measure of success is the technical closure of a trial, which we refer to as achieving the technical win. For any deal that enters Stage 4 (technical validation), we expect the CE to lead the customer through a successful technical validation based on their stated needs and evaluation criteria.
 
 ## Team Reference Resources
 
