@@ -215,13 +215,13 @@ To increase the disk size:
 1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
 
    ```sh
-   ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
+   mi ssh-exec.sh "sudo resize2fs /dev/sdb"
    ```
 
    Then confirm the new size is visible:
 
    ```sh
-   ../util/ssh-exec.sh "df -h /dev/sdb"
+   mi ssh-exec.sh "df -h /dev/sdb"
    ```
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
