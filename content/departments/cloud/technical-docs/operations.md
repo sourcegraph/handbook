@@ -204,16 +204,13 @@ Disk storage can be safely **increased** on managed instances at any time. Do no
 To increase the disk size:
 
 1. Set up your environment with `mi workon` as usual.
-1. Increase the value of `data_disk_size` in `terraform.tfvars
+1. Increase the value of `data_disk_size` in `terraform.tfvars` and run `terraform apply` (Note: internal instances `sg` and `rctest` cannot be applied locally and must be applied through Terraform Cloud).
 1. Commit and push your changes:
 
    ```sh
    git add terraform.tfvars && git commit -m "$CUSTOMER: increase disk size"
    git push origin HEAD
    ```
-
-1. Once the PR is approved, merge the PR and then apply the changes on Terraform Cloud.
-
 1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
 
    ```sh
