@@ -1,4 +1,4 @@
-# Customer Reference Sandboxe Environments
+# Customer Reference Sandbox Environments
 
 ## Purpose & Use
 
@@ -15,4 +15,7 @@ To start, we will begin with building this structure for environments representi
 1. Customers with a large monorepo across major code hosts (Github, Gitlab, Bitbucket, Perforce)
 2. Customers with many repos and complex permissioning across major code hosts (Github, Gitlab, Bitbucket, Perforce)
 
-We'll exapnd these environments over time.
+We'll expand these environments over time.
+
+
+
