@@ -46,20 +46,30 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 Okta Verify should be used as the default MFA option and if you want to add others, they are in addition to Okta Verify.
 
-1. Okta Verify - sends a push notification to your mobile Okta Verify app (iOS, and Android devices)
-   - Alternatively, you can enroll 1Password as your TOTP device (rather than the Okta Verify app). That way, both your password and TOTP get autofilled via the 1Password browser extension so long as you're logged in to 1Password. You can use 1Password’s one-time passcode feature to host your MFA codes. Note: often the scan QR code function doesn't work so you can set it up by entering the code instead.
+1. Okta Verify - Okta Verify is an app available through the app store on macOS, iOS, and Android devices. Using Okta Verify you can authenticate using any of the following methods:
+   - Push notification
+   - Fast Pass (coming soon)
+   - App-generated passcode (aka. One-time passcode)
 2. FIDO2 [WebAuthn](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)- use a security key or biometric authenticator (such as YubiKey, Google Titan, or Touch ID)
-   - Touch ID: Each browser will need to verify and register Touch ID, so if you use multiple browsers, you will need to set this up on each one.
+   - Touch ID: Each browser must verify and register Touch ID, so if you use multiple browsers, you must set this up on each one.
    - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #it-tech-ops the generated CSV
+3. Google Authentication - in some cases you can use Google Authentication to set up your one-time passcode using 1Password
 
 ## Adding a new MFA option
 
-1. Sign into your Okta Dashboard
+1. Sign in to your Okta Dashboard
 2. Go to your name > Settings
 3. Edit settings (you will need to log in again to edit settings)
 4. Scroll to the bottom and under Extra Verification
 5. Select “Set up” next to the MFA option you would like to add
 6. Select “Enroll” and follow the steps prompted by your browser
+
+## What are the most secure authentication methods?
+
+- Physical tokens (Yubikeys or similar) or biometrics (TouchID or similar)
+- Push notifications on a trusted device, such as Okta or Gmail
+- App-generated 2FA codes, like Google Authenticator
+   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
 ## I forgot my password/my login doesn't work, what do I do?
 
