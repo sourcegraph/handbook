@@ -1,10 +1,21 @@
 # Support Engineering
 
-Supporting Engineering at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammates.
+Supporting Engineering at Sourcegraph is responsible for answeing technical & product questions and solving technical issues & problems that our customers, open source users, and teammates encounter. We improve our customers' experience by making our documentation better and more self-service and we contribute code in order to make our product better.
 
 ## Our Team Purpose Statement
 
 Aid the technical success of our customers by resolving their problems and making our product and their experience better
+
+## Team KPIs / Measures of Success
+
+- Customer Satisfaction (CSAT)
+- SLA Achievement
+
+### Customer Satisfaction (CSAT)
+We want to deliver our customers with an exceptional customer experience. Customer Satisfaction (CSAT) is the most important measurement of our success. Questions and issues will always arise - the experience that we provide to our customers in those moments is our ultimate north star.
+
+### SLA Achievement
+We want to meet our SLA (service level agreement) response 100% of the time. Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA.
 
 ## Our guiding principles:
 
@@ -13,15 +24,6 @@ Aid the technical success of our customers by resolving their problems and makin
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
 - Sharing our learnings through [our official documentation](https://docs.sourcegraph.com/) so that customers have a single source of truth
-
-## We know that we are successful when we...
-
-- **Deliver our customers with an exceptional customer experience.** Customer Satisfaction (CSAT) is the most important measurement of our success. Questions and issues will always arise - the experience that we provide to our customers in those moments is our ultimate north star.
-- **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations.
-
-## Our practices (how we work)
-
-Letting customers talk to us where they prefer and streamlining our workflow must also be balanced with other elements of the customer experience. Handoffs cause frustration more than any other aspect of trying to get help. How we work accounts for this. It also accounts for continually positioning our CEs as trusted and reliable partners who need time to think about customers proactively.
 
 ## Team Reference Resources
 
