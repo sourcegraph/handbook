@@ -12,22 +12,23 @@ Becoming a trusted advisor to our customers to enable them to better solve their
 
 We use the following metrics to gauge the effectiveness and success of our team:
 
-- Adoption / Utilization
-- Daily Usage / Consumption
+- Utilization (Adoption)
+- Consumption (Usage)
 - Retention
-- Growth
 
 While those metrics are good for our business, the driving factor should be making that the customer is successful in their own business, and that Sourcegraph is a critical tool in that process that proves invaluable to their organization.
 
-A note on customer retention and growth: everything a TA does should positively influence the long-term relationship we have with our customers. TA doesn't have explicit commercial obligations - the Account Executive does - but our efforts play an important role in value and outcomes that impact ultimate growth and retention.
-
-### Adoption
+### Utilization (Adoption)
 
 We consider healthy adoption / utilization to comprise of at least 80% consumption of purchased seats as measured by Monthly Active Users (MAU) / Total Licensed Seats. We aim to get to 80% consumption within the first 45 days of the engagement (after the production environment is established) and maintain at least 80% consumption at all times.
 
-### Daily Use
+### Consumption (Usage)
 
-Today we measure usage based on Daily Active Users (DAU) / Monthly Active Users (MAU). We consider anything at or above 30% to be healthy usage. We'll look to increase this benchmark into and through FY24.
+TAs seek to educate and enable customer devs on how to integrate Sourcegraph into their workflows so that they are using it multiple times every single day. While today we calculate usage based on Daily Active Users (DAU) / Monthly Active Users (MAU), we're refining this exact benchmark heading into and through FY24.
+
+### Retention
+
+Everything a TA does should positively influence the long-term relationship we have with our customers. TA doesn't have explicit commercial obligations - the Account Executive does - but our efforts to drive outcomes (via adoption) and deliver value to our customers impact ultimate retention.
 
 ## Team Reference Resources
 
