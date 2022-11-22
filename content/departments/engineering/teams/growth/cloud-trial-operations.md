@@ -38,9 +38,9 @@ Here is an overview of the workflow and the role of any and all Sourcegraph team
 TLDR:
 
 - We maintain a list of prequalified target accounts, that will instantly get an instance in-product
-- All others go through manual qualification by inbound SDRs, and if qualified, an instance is provisioned by the Cloud team and handed-off to the reqester by a CE
+- All others go through manual qualification by inbound SDRs, and if qualified, an instance is provisioned by the Cloud team and handed-off to the requestor by a CE
 - Instance hand-off (if not automated), white-glove onboarding, and trial extension/termination/conversion are owned by the CE assigned to the Opportunity.
-- Trials should be terminated after 15 days if there's no activity on the instance, and extented to 30 days if there's any activity.
+- Trials should be terminated after 15 days if there's no activity on the instance, and extended to 30 days if there's any activity.
 
 ![Workflow](https://storage.googleapis.com/sourcegraph-assets/growth/flow-v2.svg)
 (You can also view this flow [here](https://app.excalidraw.com/l/4Dr1S6qmmY7/4S6Sc9L2aDO))
@@ -59,7 +59,7 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
 1. 🔵 the AE should reach out to the instance admin and make sure the user can get added to the instance
 
-Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannnot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
+Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
 #### Case 2: acme-corp.com is pre-qualified
 
@@ -84,7 +84,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
 1. 🟡 Inbound SDR converts to Opp
-1. 🟡 Inbound SDR notifies assignes AE/CE
+1. 🟡 Inbound SDR notifies assignees AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
@@ -123,7 +123,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
    1. Tip: Google the prospect to see if they have any OSS code or interesting projects to mention in the first outreach email.
 2. 🟢 assigned CE leads white-glove onboarding email campaigns. Exact messaging are up to the CE (with support from AE) as long as it’s helpful to the prospect. This needs to be onboarding related, helpful tips, offers to help, and check-in about commercial next steps towards the end of the trial.
 3. 🟢 From there, the assigned CE is responsible for the instance: extending, terminating, or converting the trial.
-   1. 15-days after trial start the instance should be either terminated if it's inactive, or the trial should be extended by 15 more days by raising a [trial extend request GitHub issue](../../../cloud/trial_mi.md#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days. Self-serve trials inactive after 15 days are very likely to remain inactive, so we terminate them more agressively (after 15 days) than trials that come in through the sales team.
+   1. 15-days after trial start the instance should be either terminated if it's inactive, or the trial should be extended by 15 more days by raising a [trial extend request GitHub issue](../../../cloud/trial_mi.md#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days. Self-serve trials inactive after 15 days are very likely to remain inactive, so we terminate them more aggressively (after 15 days) than trials that come in through the sales team.
    2. 30-days after trial start, the trial needs to be [extended, converted to paid, or terminated](../../../cloud/trial_mi.md#monitoring-trial-managed-instances)
 4. For unsuccessful trials, Malo Marrec will send feedback request email upon request by CE.
 5. Opportunities follow the same process for qualification as they do today (Stage 2 criteria). We will track “activation” in-product (Eric Brody-Moore will make sure this links to SFDC).
@@ -189,7 +189,7 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Customer Support (CS)
 
-- Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
+- Cloud trial users that encounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../technical-success/support/index.md#sts=SLAs).
 - If a user tries to join an existing instance and is blocked, they might request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
 - If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
 
