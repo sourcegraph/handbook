@@ -12,9 +12,11 @@ Aid the technical success of our customers by resolving their problems and makin
 - SLA Achievement
 
 ### Customer Satisfaction (CSAT)
+
 We want to deliver our customers with an exceptional customer experience. Customer Satisfaction (CSAT) is the most important measurement of our success. Questions and issues will always arise - the experience that we provide to our customers in those moments is our ultimate north star.
 
 ### SLA Achievement
+
 We want to meet our SLA (service level agreement) response 100% of the time. Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA.
 
 ## Our guiding principles:
