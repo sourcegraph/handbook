@@ -16,6 +16,3 @@ To start, we will begin with building this structure for environments representi
 2. Customers with many repos and complex permissioning across major code hosts (Github, Gitlab, Bitbucket, Perforce)
 
 We'll expand these environments over time.
-
-
-
