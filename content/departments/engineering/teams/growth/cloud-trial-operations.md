@@ -231,4 +231,10 @@ The Product Growth team is iterating on those! There are probably many other gre
 
 You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
 
-#### How do I login to an instance I support?
+#### How can I get the list of all trial instances?
+  
+Use this Looker [dashboard](https://sourcegraph.looker.com/dashboards/341), or if you have gcloud access, run:
+
+```bash
+gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json(projectId,labels)" 
+```
