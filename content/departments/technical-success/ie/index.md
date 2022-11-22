@@ -20,7 +20,11 @@ Implementation duration is the time it takes to install, setup, and configure a 
 
 ### Team Reference Resources
 
-### Team Processes
+### Accountability Areas
+
+- [Reference Sandboxes](reference-sandboxes.md)
+
+### Processes
 
 - [CE and Implementation Handoff Process](process/ce-implementation-handoff.md)
 - [Implementation Processes](process/ie-process.md)
