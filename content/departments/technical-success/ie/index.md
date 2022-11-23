@@ -12,11 +12,19 @@ Optimizing time to value by providing an exceptional product delivery experience
 
 ## Team KPIs / Measures of Success
 
-Our primary measure of success is the time (duration) it takes to install, setup, and configure a production environment for our customers. Our ideal state is for our customers, even in the most complex of situations, to have a working production instance within 30 days.
+The primary team KPI for IE is:
+
+- Implementation duration
+
+Implementation duration is the time it takes to install, setup, and configure a working production environment for our customers. Our ideal state is for our customers, even in the most complex of situations, to have a working production instance within 30 days.
 
 ### Team Reference Resources
 
-### Team Processes
+### Accountability Areas
+
+- [Reference Sandboxes](reference-sandboxes.md)
+
+### Processes
 
 - [CE and Implementation Handoff Process](process/ce-implementation-handoff.md)
 - [Implementation Processes](process/ie-process.md)
