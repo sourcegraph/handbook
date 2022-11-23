@@ -77,6 +77,7 @@ Name:
 Title & Company:
 Email:
 Phone Number:
+
 - How long did you work with `Candidate name`?
 - Did `Candidate name` directly report to you?
 - Did `Candidate name` have any direct reports?
@@ -92,6 +93,7 @@ Name:
 Title & Company:
 Email:
 Phone Number:
+
 - How long did you work with `Candidate name`?
 - Did `Candidate name` directly report to you?
 - Did `Candidate name` have any direct reports?
