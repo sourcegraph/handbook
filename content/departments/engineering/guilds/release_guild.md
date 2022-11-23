@@ -1,6 +1,6 @@
 # Release guild
 
-The release guild is a collection of teammates that serve as [release captain](index.md#release-captain) for Sourcegraph releases. The guild
+The release guild is a collection of teammates that serve as [release captain](../dev/process/releases/index.md#release-captain) for Sourcegraph releases. The guild
 was formed to establish a cross-team working group of engineers that own the release process. The guild is currently
 chartered to act through Q1 and Q2 of FY23; however, there is no current sunset date for the guild.
 
@@ -14,11 +14,11 @@ For the time being, captains are selected on a volunteer basis. The guild will d
 
 The current schedule is shown below:
 
-| Date           | Release Tag | Captain                                                       |
-| -------------- | ----------- | ------------------------------------------------------------- |
-| November, 2022 | 4.2.0       | [Coury Clark](../../../../../team/index.md#coury-clark)       |
-| December, 2022 | 4.3.0       | [Dax McDonald](../../../../../team/index.md#dax-mcdonald)     |
-| January, 2023  | 4.4.0       | [Bolaji Olajide](../../../../../team/index.md#bolaji-olajide) |
+| Date           | Release Tag | Captain                                                 |
+| -------------- | ----------- | ------------------------------------------------------- |
+| November, 2022 | 4.2.0       | [Coury Clark](../../../team/index.md#coury-clark)       |
+| December, 2022 | 4.3.0       | [Dax McDonald](../../../team/index.md#dax-mcdonald)     |
+| January, 2023  | 4.4.0       | [Bolaji Olajide](../../../team/index.md#bolaji-olajide) |
 
 ## Guild Leader Responsibilities
 
