@@ -2,7 +2,7 @@
 
 Reference checks are an important part of our process. Ultimately, the goal behind our reference checks is to ensure that we are setting up the new hire for success and know how to best work with them. Reference checks must be completed prior to an offer being extended.
 
-We conduct two reference checks. Requested references will typically be a former manager(s) and/or colleague(s) and may be from the candidate’s most recent or previous companies. We will never conduct a reference call without explicit consent from the candidate. 
+We conduct two reference checks. Requested references will typically be a former manager(s) and/or colleague(s) and may be from the candidate’s most recent or previous companies. We will never conduct a reference call without explicit consent from the candidate.
 
 The Talent Team is responsible for conducting reference checks and sharing the results with the Hiring Manager. Reference checks can be conducted directly by the Hiring Manager if requested.
 
@@ -10,9 +10,9 @@ The Talent Team is responsible for conducting reference checks and sharing the r
 
 - Once the interview process has concluded and the Hiring Manager has confirmed they want to proceed, the Recruiter will request two references from the candidate.
 - Once references are received, the Recruiter will send an email to schedule a reference check.
-    - Note: Verbal references are preferred, however if time doesn’t permit, written references are also acceptable.
+  - Note: Verbal references are preferred, however if time doesn’t permit, written references are also acceptable.
 - Recruiter will add reference check notes onto the candidate page in Greenhouse.
-- Once references are complete, Recruiter will share the results with the Hiring Manager using the Slack template. 
+- Once references are complete, Recruiter will share the results with the Hiring Manager using the Slack template.
 - Once positive references are confirmed and approved by the Hiring Manager, the Recruiter will proceed as normal to the [offer stage](/extending_an_offer.md#offer-stage)
 
 ### Email template for references
@@ -29,15 +29,15 @@ Thanks so much in advance for taking the time! It’s greatly appreciated.
 
 Here are the questions we will cover:
 
-* How long did you work with `candidate name`?
-* Did `candidate name` directly report to you?
-* Did `candidate name` have any direct reports?
-* What were `candidate name`'s core responsibilities?
-* What were their biggest strengths they brought to the role, or to the company as a whole?
-* What were some things they could have improved upon?
-* Did you speak to them about this? (If yes: did they show improvements?)
-* Can you think of an instance when they went above and beyond?
-* If given the opportunity, would you rehire `candidate name`?
+- How long did you work with `candidate name`?
+- Did `candidate name` directly report to you?
+- Did `candidate name` have any direct reports?
+- What were `candidate name`'s core responsibilities?
+- What were their biggest strengths they brought to the role, or to the company as a whole?
+- What were some things they could have improved upon?
+- Did you speak to them about this? (If yes: did they show improvements?)
+- Can you think of an instance when they went above and beyond?
+- If given the opportunity, would you rehire `candidate name`?
 
 Thank you again for taking the time to help us out with doing this reference.
 
@@ -50,52 +50,56 @@ Best,
 Hi `reference name`, thanks for taking the time to chat with me about your experience working with `candidate name`. As a reminder, we're considering `candidate name` for a `role title` here at Sourcegraph, and are looking for someone who `insert what we're looking for in this person`.
 
 Jumping into it:
-* How long did you work with `candidate name`?
-* Did `candidate name` directly report to you?
-* Did `candidate name` have any direct reports?
-* What were `candidate name`'s core responsibilities?
-* What were their biggest strengths they brought to the role, or to the company as a whole?
-* What were some things they could have improved upon?
-* Did you speak to them about this? (If yes: did they show improvements?)
-* Can you think of an instance when they went above and beyond?
-* If given the opportunity, would you rehire `candidate name`?
+
+- How long did you work with `candidate name`?
+- Did `candidate name` directly report to you?
+- Did `candidate name` have any direct reports?
+- What were `candidate name`'s core responsibilities?
+- What were their biggest strengths they brought to the role, or to the company as a whole?
+- What were some things they could have improved upon?
+- Did you speak to them about this? (If yes: did they show improvements?)
+- Can you think of an instance when they went above and beyond?
+- If given the opportunity, would you rehire `candidate name`?
 
 ### Slack to Hiring Manager
 
-@Hiring Manager - below are `candidate name`'s completed references.  Please let me know if you have any questions, or if you would like me to arrange a follow-up call between you and the reference to gather additional information directly.  
+@Hiring Manager - below are `candidate name`'s completed references. Please let me know if you have any questions, or if you would like me to arrange a follow-up call between you and the reference to gather additional information directly.
 
 If everything looks good, please let me know if I have the green light to move forward to the offer stage. As a reminder, we discussed offering the following package:
-* XX base salary
-* XX bonus (if applicable)
-* XX equity
-* XX start date
+
+- XX base salary
+- XX bonus (if applicable)
+- XX equity
+- XX start date
 
 **Reference #1**
 Name:
 Title & Company:
 Email:
 Phone Number:
-* How long did you work with `candidate name`?
-* Did `candidate name` directly report to you?
-* Did `candidate name` have any direct reports?
-* What were `candidate name`'s core responsibilities?
-* What were their biggest strengths they brought to the role, or to the company as a whole?
-* What were some things they could have improved upon?
-* Did you speak to them about this? (If yes: did they show improvements?)
-* Can you think of an instance when they went above and beyond?
-* If given the opportunity, would you rehire `candidate name`?
+
+- How long did you work with `candidate name`?
+- Did `candidate name` directly report to you?
+- Did `candidate name` have any direct reports?
+- What were `candidate name`'s core responsibilities?
+- What were their biggest strengths they brought to the role, or to the company as a whole?
+- What were some things they could have improved upon?
+- Did you speak to them about this? (If yes: did they show improvements?)
+- Can you think of an instance when they went above and beyond?
+- If given the opportunity, would you rehire `candidate name`?
 
 **Reference #2**
 Name:
 Title & Company:
 Email:
 Phone Number:
-* How long did you work with `candidate name`?
-* Did `candidate name` directly report to you?
-* Did `candidate name` have any direct reports?
-* What were `candidate name`'s core responsibilities?
-* What were their biggest strengths they brought to the role, or to the company as a whole?
-* What were some things they could have improved upon?
-* Did you speak to them about this? (If yes: did they show improvements?)
-* Can you think of an instance when they went above and beyond?
-* If given the opportunity, would you rehire `candidate name`?
+
+- How long did you work with `candidate name`?
+- Did `candidate name` directly report to you?
+- Did `candidate name` have any direct reports?
+- What were `candidate name`'s core responsibilities?
+- What were their biggest strengths they brought to the role, or to the company as a whole?
+- What were some things they could have improved upon?
+- Did you speak to them about this? (If yes: did they show improvements?)
+- Can you think of an instance when they went above and beyond?
+- If given the opportunity, would you rehire `candidate name`?
