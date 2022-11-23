@@ -15,7 +15,7 @@ Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cl
   - `trial` - for customer trial
   - `production` - for paying customer
   - `internal` - for internal Sourcegraph usage
-- `customer_admin_emai` - the customer admin email
+- `customer_admin_email` - the customer admin email
 - `cdktf_deploy` - whether to deploy GCP resources, false for fast re-run when resources are already created.
 
 or via command line:
@@ -25,6 +25,7 @@ gh workflow run -R github.com/sourcegraph/cloud  \
   -f environment=[dev|prod] \
   -f customer=$CUSTOMER \
   -f instance_type=[production|trial|internal] \
+  -f customer_admin_email=$CUSTOMER_ADMIN_EMAIL \
   -f cdktf_deploy=[true|false]
 ```
 
