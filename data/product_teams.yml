@@ -4,8 +4,8 @@ search_product:
   title: Search Product
   brief: The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results
   strategy_link: /strategy-goals/strategy/search/product/index.md
-  pm: loïc_guychard
-  em: loïc_guychard
+  pm: steve_yegge
+  em: steve_yegge
   design: paulo_almeida
   pmm: lori_colston
   issue_labels:
@@ -104,8 +104,8 @@ content_platform:
   title: Content Platform Team
   brief: The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
   strategy_link: /strategy-goals/strategy/content-platform
-  pm: elzanne_wentzel
-  em: elzanne_wentzel
+  pm: steve_yegge
+  em: steve_yegge
   issue_labels:
     - team/content-platform
 

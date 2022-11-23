@@ -22,7 +22,6 @@ While each response will be a custom plan, the rapid response team may include t
 - PMM: Andy Schumeister (and specific PMM depending on situation)
 - Product: Quinn Slack
 - Community: Justin Dorfman
-- Content Platform: Elzanne Wentzel
 - Customer Engineering: Aimee Menne
 - Legal: Tammy Zhu
 
