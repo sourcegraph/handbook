@@ -115,7 +115,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready. That comment will contain a link to 1password containing a password reset link, that only the user can access by verifying their email.
 1. 🟢 CE responds to initial SDR email with the password reset link (1password link), and offers to help with white glove setup (AE in cc).
 1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
-  
+
 Note to CEs: if you need to login to the instance, you need to use the `Login with Sourcegraph Employee SSO`, that is hidden by default to avoid confusion. To access it, just append `?sourcegraph-operator` to the sign in page URL (eg. `www.acme-corp.com/sign-in?sourcegraph-operator`). If you don't have permissions to login, please ask in #cloud.
 
 ### Second step: onboarding, and trial extend, terminate, convert
