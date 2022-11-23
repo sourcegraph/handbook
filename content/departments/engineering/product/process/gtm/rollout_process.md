@@ -124,10 +124,11 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 
 ### Launch
 
-1. **Release Process**
-   - Release process is different for each product. Please refer to the [Browser Extensions](../../../teams/integrations/browser-extensions) & [IDE Extensions](../../../teams/integrations/ide-extensions) pages for more details.
-2. **Metrics**
-   - Share analytics for monitoring the feature shipped. Track metrics for regressions.
+1. **Release Process** is different for each product:
+   - [Browser Extensions](https://docs.sourcegraph.com/dev/background-information/web/browser-extension-release-process)
+   - [Jetbrains IDE extension](https://github.com/sourcegraph/sourcegraph/blob/main/client/jetbrains/CONTRIBUTING.md#publishing-a-new-version)
+   - [VS Code extension](https://github.com/sourcegraph/sourcegraph/blob/main/client/vscode/CONTRIBUTING.md#release-process)
+2. **Metrics:** Share analytics for monitoring the feature shipped. Track metrics for regressions.
 
 ### Post-launch
 
