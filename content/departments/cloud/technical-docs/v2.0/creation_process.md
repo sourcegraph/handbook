@@ -8,34 +8,34 @@ For basic operations like accessing an instance for these steps, see [managed in
 Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cloud/actions/workflows/mi_create.yml) with given parameters:
 
 - `customer` - customer slug
+- `environment` - environment name, learn more about [different environments](./index.md#deployment-environments)
+  - `dev`
+  - `prod`
 - `instance_type` - purpose of this instance
   - `trial` - for customer trial
   - `production` - for paying customer
   - `internal` - for internal Sourcegraph usage
-- `cdktf_deploy` - whether to deploy GCP resources, false for fast re-run when resources are already created
+- `customer_admin_email` - the customer admin email
+- `cdktf_deploy` - whether to deploy GCP resources, false for fast re-run when resources are already created.
 
 or via command line:
 
 ```
-gh workflow run -f customer=$CUSTOMER -f instance_type=[production|trial|internal] -f cdktf_deploy=[true|false]
+gh workflow run -R github.com/sourcegraph/cloud  \
+  -f environment=[dev|prod] \
+  -f customer=$CUSTOMER \
+  -f instance_type=[production|trial|internal] \
+  -f customer_admin_email=$CUSTOMER_ADMIN_EMAIL \
+  -f cdktf_deploy=[true|false]
 ```
+
+Then watch out for notification in #cloud-notifications or tail logs in GitHub Actions run.
 
 ## Option II - manual playbook
 
 ## Prereq
 
 Follow https://github.com/sourcegraph/controller#installation to install `mi2`
-
-```sh
-git clone https://github.com/sourcegraph/cloud
-cd cloud
-```
-
-Install `mi2` binary
-
-```sh
-go install ./cmd/mi2/
-```
 
 ## Steps
 

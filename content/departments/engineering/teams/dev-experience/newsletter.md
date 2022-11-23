@@ -552,7 +552,7 @@ Presently, this approach is limited by having the plugin for that particular too
 
 [RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes.
 
-There is more to come on that topic and the [Frontend Platform team](../frontend-platform/index.md) has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
+There is more to come on that topic.
 
 #### Buildkite agent selection
 

@@ -83,6 +83,19 @@ Resources:
 - [Social Advocacy Strategy](https://docs.google.com/document/d/1t2vxupYi3_6TM718VdqFVnArbWkm1TQc6Q64ogzNjeg/edit?usp=sharing)
   - [Social Advocacy One Pager](https://docs.google.com/document/d/1j1aY8w4QisBnlN3hDFa5ZyunDqL_Vmctc5VhH8TeT28/edit?usp=sharing)
 
-## Field Marketing
+## _Field Marketing:_
 
-_Content to come!_
+Projects & responsibilities:
+
+- **General Demand Generation and Field Marketing Support** - Planning and execution of various demand gen and field marketing efforts to reach our target audience and drive opportunities. Examples include: conferences/events, integrated campaigns, sponsored events, proprietary events, livestreams, webinars, and more.
+- **Dev Conferences & Sponsored Events** - Annual and quarterly planning for tradeshows and sponsored events to generate awareness and pipeline.
+- **Proprietary Events** - Planning events and roadshows around regions and accounts to give increased attention and visibility to the Sourcegraph brand in regions or accounts that need the extra push.
+- **Livestreams** - Built around new Sourcegraph launches or specific dev topics. Livestreams are a way to increasingly connect with the dev audience by creating interactive and exciting content for them to tune in to on Twitch or similar platforms. This will ideally build to a larger scale user conference down the line.
+- **On-Demand & Live Webinars** - Based on topic or customer guest, our live and on-demand webinars are created to appeal to a wide range of our audience and create digestible content to reuse for future campaigns.
+- **Integrated Campaigns** - Full end-to-end development of any and all demand generation campaigns. Includes inception, planning, promotion, cross-functional development, execution, and post-event summary and follow-up across all appropriate channels.
+
+Important channels:
+
+#demand-gen-internal
+#marketing
+#comms-team-internal

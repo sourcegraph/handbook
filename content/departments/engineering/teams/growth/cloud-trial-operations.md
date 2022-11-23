@@ -63,8 +63,6 @@ Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannot joi
 
 #### Case 2: acme-corp.com is pre-qualified
 
-> NOTE: The pre-qualification workflow below will launch [soon](https://github.com/sourcegraph/console/issues/74). In the meantime, 0% of instances are pre-qualified.
-
 If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two subcases:
 
 ##### Case 2.1 the Acme Corp account is a named account in SFDC
@@ -112,10 +110,11 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email. Note: if the AE is Kevin Quigley, then he should be added as a CE to the instance as he is the acting CE for his accounts.
 1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
-1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
-1. 🟢 CE logs in, creates a password rest link. Note that to login you need to use the `Login with Sourcegraph Employee SSO`, that is hidden by default to avoid confusion. To access it, just append `?sourcegraph-operator` to the sign in page URL (eg. `www.acme-corp.com/sign-in?sourcegraph-operator`).
-1. 🟢 CE responds to initial SDR email, with the password reset link, and offers to help with white glove setup (AE in cc).
+1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready. That comment will contain a link to 1password containing a password reset link, that only the user can access by verifying their email.
+1. 🟢 CE responds to initial SDR email with the password reset link (1password link), and offers to help with white glove setup (AE in cc).
 1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
+
+Note to CEs: if you need to login to the instance, you need to use the `Login with Sourcegraph Employee SSO`, that is hidden by default to avoid confusion. To access it, just append `?sourcegraph-operator` to the sign in page URL (eg. `www.acme-corp.com/sign-in?sourcegraph-operator`). If you don't have permissions to login, please ask in #cloud.
 
 ### Second step: onboarding, and trial extend, terminate, convert
 
@@ -231,4 +230,15 @@ The Product Growth team is iterating on those! There are probably many other gre
 
 You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
 
-#### How do I login to an instance I support?
+#### How can I get the list of all trial instances?
+
+Use this Looker [dashboard](https://sourcegraph.looker.com/dashboards/341), or if you have gcloud access, run:
+
+```bash
+gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json(projectId,labels)"
+```
+
+#### How can I know what's the URL of the instance of a customer?
+
+- If the customer is pre-qualified, the URL will be random (eg. `src-asfrn13.sourcegraph.com`). That URL can be found in the the `PLG Cloud Instance` field of the Opportunity in Salesforce.
+- If the customer is NOT pre-qualified, the URL will be the email domain of the requester (eg. `acme-corp` for `bob@acme-corp.com`). That URL can be found in the the `PLG Cloud Instance` field of the Opportunity in Salesforce. There might be exceptions if the email domain is manually changed when the instance is requested: in which case it might not be up to date in the SFDC record.

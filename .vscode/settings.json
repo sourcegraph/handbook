@@ -1,7 +1,5 @@
 {
   "git.ignoreLimitWarning": true,
   "editor.formatOnSave": true,
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "workbench.preferredHighContrastColorTheme": "Solarized Dark",
-  "workbench.preferredLightColorTheme": "Solarized Dark"
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
