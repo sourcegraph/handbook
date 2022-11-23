@@ -22,7 +22,7 @@ For more detailed information on the Delivery team members, check out our [READM
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Org-wide areas of ownership](../../dev/process/engineering_ownership.md#delivery-and-delivery-tiger-team)
-- ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../dev/process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
+- ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../guilds/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact
 
