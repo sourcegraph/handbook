@@ -13,7 +13,7 @@ The Talent Team is responsible for conducting reference checks and sharing the r
   - Note: Verbal references are preferred, however if time doesn’t permit, written references are also acceptable.
 - Recruiter will add reference check notes onto the candidate page in Greenhouse.
 - Once references are complete, Recruiter will share the results with the Hiring Manager using the Slack template.
-- Once positive references are confirmed and approved by the Hiring Manager, the Recruiter will proceed as normal to the [offer stage](/extending_an_offer.md#offer-stage)
+- Once positive references are confirmed and approved by the Hiring Manager, the Recruiter will proceed as normal to the [offer stage](extending_an_offer.md#offer-stage)
 
 ### Email template for references
 
