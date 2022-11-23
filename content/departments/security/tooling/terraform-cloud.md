@@ -9,7 +9,7 @@ able to run `terraform apply` locally on your laptop. Instead:
 
 1. Open a pull request on a branch with your intended changes
 2. Terraform Cloud should run a `terraform plan` action and post the results as a GitHub status check.
-   You can also still run `terraform plan` locally as before (although the build will still occur in
+   You can also still run `terraform plan` locally as before (although the build will now occur in
    the cloud).
 3. When approved, merge your changes in.
 
