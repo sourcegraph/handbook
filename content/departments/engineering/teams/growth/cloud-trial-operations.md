@@ -63,8 +63,6 @@ Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannot joi
 
 #### Case 2: acme-corp.com is pre-qualified
 
-> NOTE: The pre-qualification workflow below will launch [soon](https://github.com/sourcegraph/console/issues/74). In the meantime, 0% of instances are pre-qualified.
-
 If the domain name is pre-qualified and there's no cloud instance linked to it, then there are two subcases:
 
 ##### Case 2.1 the Acme Corp account is a named account in SFDC
