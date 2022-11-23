@@ -59,6 +59,6 @@ in specified paths change`, and configure patterns to only trigger when the Terr
 
 # Slack integration
 
-Terraform Cloud provides a Slack integration, which is also useful to stay notified of change that
+Terraform Cloud provides a Slack integration, which is also useful to stay notified of changes that
 you or your team care about. You can set up the Slack integration (or other notification methods)
 in the Notifications section of the relevant workspace's settings.
