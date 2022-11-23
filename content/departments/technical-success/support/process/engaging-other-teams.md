@@ -80,7 +80,7 @@ Any questions about code host connections and repository syncing should be route
 - `CVS` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../../engineering/teams/integrations/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Code Exploration team](../../../engineering/teams/code-exploration/index.md).
 
 ### Repository Management
 
@@ -108,13 +108,13 @@ In GitHub issues search-core and search-product should be flagged via team/searc
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Integrations team](../../../engineering/teams/integrations/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Code Exploration team](../../../engineering/teams/code-exploration/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Integrations team](../../../engineering/teams/integrations/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Code Exploration team](../../../engineering/teams/code-exploration/index.md).
 
 ### Batch Changes
 
@@ -166,7 +166,7 @@ When in doubt, file in the private repo—issues can be moved over to the public
 - Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
-- Include name of the extension along with the extension version number when filing issues with the integrations team.
+- Include name of the extension along with the extension version number when filing issues with extensions for the Code Exploration team.
 - Include customer quotes in markdown using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh (request for help from CS)`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
