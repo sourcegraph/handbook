@@ -13,6 +13,11 @@ If you want to document sensitive information, you can either:
 
 - [Blocking IPs in Cloudflare](https://docs.google.com/document/d/17FV8pjbJNrhAtW9lvGIbJ1jSkXe0mRw4ci7w0084RBE/edit#heading=h.jpz7uaphhdtk)
 
+## Terraform Cloud
+
+We use Terraform Cloud to manage the deployment of cloud infrastructure across Sourcegraph. You can
+find more information on using the platform [here](./terraform-cloud.md).
+
 ## SAST scanning
 
 We use a combination of tools within the team to cover a number of different types
