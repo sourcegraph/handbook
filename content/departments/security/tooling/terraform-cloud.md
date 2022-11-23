@@ -26,9 +26,9 @@ found [here][admin].
 
 Access to Terraform Cloud is currently limited to the following teams:
 
-* Cloud
-* DevEx
-* Security
+- Cloud
+- DevEx
+- Security
 
 To access Terraform Cloud, if you are a member of one of these teams, go to your Okta dashboard and
 click on the Terraform Cloud tile.
@@ -50,7 +50,7 @@ to understand some common settings which you might want to apply.
 Some recommended settings:
 
 1. In the 'Version control' section of the workspace settings, select `Only trigger runs when files
-   in specified paths change`, and configure patterns to only trigger when the Terraform files you
+in specified paths change`, and configure patterns to only trigger when the Terraform files you
    care about are changed.
 2. In the same section, also select `Automatic speculative plans`. This enables the GitHub check
    that occurs on opening a pull request.
@@ -61,4 +61,4 @@ Some recommended settings:
 
 Terraform Cloud provides a Slack integration, which is also useful to stay notified of change that
 you or your team care about. You can set up the Slack integration (or other notification methods)
-in the Notifications section of the relevant workspace's settings. 
+in the Notifications section of the relevant workspace's settings.
