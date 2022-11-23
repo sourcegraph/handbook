@@ -17,9 +17,9 @@ The Talent Team is responsible for conducting reference checks and sharing the r
 
 ### Email template for references
 
-Hello `reference name`!
+Hello `Reference name`!
 
-`candidate name` provided your name as a professional reference, and I was hoping you would be open to telling me a bit about your experience working with them. For context, we are considering `candidate name` for a `role title` here at Sourcegraph, and are looking for someone who `insert what we're looking for in this person`.
+`Candidate name` provided your name as a professional reference, and I was hoping you would be open to telling me a bit about your experience working with them. For context, we are considering `Candidate name` for a `Role title` here at Sourcegraph, and are looking for someone who `insert what we're looking for in this person`.
 
 I would like to schedule a time for us to have a chat in the next 1-2 days. The conversation shouldn’t take more than 10-15 minutes. What time would be convenient for you?
 
@@ -29,15 +29,15 @@ Thanks so much in advance for taking the time! It’s greatly appreciated.
 
 Here are the questions we will cover:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with `Candidate name`?
+- Did `Candidate name` directly report to you?
+- Did `Candidate name` have any direct reports?
+- What were `Candidate name`'s core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire `Candidate name`?
 
 Thank you again for taking the time to help us out with doing this reference.
 
@@ -47,23 +47,23 @@ Best,
 
 ### Script for verbal reference check
 
-Hi `reference name`, thanks for taking the time to chat with me about your experience working with `candidate name`. As a reminder, we're considering `candidate name` for a `role title` here at Sourcegraph, and are looking for someone who `insert what we're looking for in this person`.
+Hi `Reference name`, thanks for taking the time to chat with me about your experience working with `Candidate name`. As a reminder, we're considering `Candidate name` for a `Role title` here at Sourcegraph, and are looking for someone who `insert what we're looking for in this person`.
 
 Jumping into it:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with `Candidate name`?
+- Did `Candidate name` directly report to you?
+- Did `Candidate name` have any direct reports?
+- What were `Candidate name`'s core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire `Candidate name`?
 
 ### Slack to Hiring Manager
 
-@Hiring Manager - below are `candidate name`'s completed references. Please let me know if you have any questions, or if you would like me to arrange a follow-up call between you and the reference to gather additional information directly.
+@Hiring Manager - below are `Candidate name`'s completed references. Please let me know if you have any questions, or if you would like me to arrange a follow-up call between you and the reference to gather additional information directly.
 
 If everything looks good, please let me know if I have the green light to move forward to the offer stage. As a reminder, we discussed offering the following package:
 
@@ -77,29 +77,27 @@ Name:
 Title & Company:
 Email:
 Phone Number:
-
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with `Candidate name`?
+- Did `Candidate name` directly report to you?
+- Did `Candidate name` have any direct reports?
+- What were `Candidate name`'s core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire `Candidate name`?
 
 **Reference #2**
 Name:
 Title & Company:
 Email:
 Phone Number:
-
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with `Candidate name`?
+- Did `Candidate name` directly report to you?
+- Did `Candidate name` have any direct reports?
+- What were `Candidate name`'s core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire `Candidate name`?
