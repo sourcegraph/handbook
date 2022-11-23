@@ -44,4 +44,4 @@ Everything a TA does should positively influence the long-term relationship we h
 
 ## How to Reach Us
 
-This team can be engaged in the #technical-advisors channel or via the @technical-advisors user group in slack.
+This team can be engaged in the #ta channel or via the @technical-advisors user group in slack.

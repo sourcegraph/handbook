@@ -4,9 +4,9 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
-> As of [RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit) the ownership of the release process has changed.
-> The [Release Guild](./release_guild.md) is now the entity that owns the release process. Read more details about release
-> responsibilities in the [Releases](./index.md#Releases) section below.
+> NOTE: As of [RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit) the ownership of the release process has changed.
+> The [Release Guild](../../../guilds/release_guild.md) is now the entity that owns the release process. Read more details about release
+> responsibilities in the [Releases](#releases) section below.
 
 ### Releases
 
@@ -17,7 +17,7 @@ These releases **may** require [manual migration steps](https://docs.sourcegraph
 
 These releases always ship on time, even if they're missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
 
-Minor releases are the responsibility of the [Release Guild](./release_guild.md), and are performed by a release captain
+Minor releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
 
 ### When we release
@@ -85,7 +85,7 @@ The release captain is _responsible_ for managing the release process and ensuri
 
 The release captain should create a tracking issue using the [release issue template](release_issue_template.md) at the beginning of the release cycle.
 
-Release captain responsibilities are currently owned by the [Release guild](release_guild.md).
+Release captain responsibilities are currently owned by the [Release guild](../../../guilds/release_guild.md).
 
 #### Release Retrospective
 
