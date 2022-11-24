@@ -11,7 +11,7 @@
 - [Tracking issues](process/tracking_issues.md)
 - [Engineering ownership](process/engineering_ownership.md) - who owns what
 - Practices & Philosophy
-  - [Customer Issues](../../ce-support/support/process/engaging-other-teams.md)
+  - [Customer Issues](../../technical-success/support/process/engaging-other-teams.md)
   - [Incidents](process/incidents/index.md)
   - [Product documentation](process/product_documentation.md)
   - [Continuous releasability](tools/continuous_releasability.md)

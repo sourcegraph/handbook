@@ -70,6 +70,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ## [Code Intelligence](../../teams/code-intelligence/index.md)
 
+## [Code Exploration](../../teams/code-exploration/index.md#ownership)
+
 ### General
 
 - Code intelligence API
@@ -191,8 +193,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - [sourcegraph/jaeger-all-in-one](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/jaeger-all-in-one)
 - [sourcegraph/prometheus](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/prometheus)
 
-## [Frontend Platform](../../teams/frontend-platform/index.md)
-
 ### General
 
 - Client-side error monitoring
@@ -256,8 +256,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Organization settings
 - Organization members
 - Organization invitations
-
-## [Integrations](../../teams/integrations/index.md)
 
 ### General
 

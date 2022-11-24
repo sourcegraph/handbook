@@ -2,15 +2,7 @@
 
 _Note: This page is a work in progress for the newly-created Growth Marketing team. For an overview of our kickoff, see [Growth team 2022-10](https://docs.google.com/document/d/1PfGAlnWrwaPNwrz4hE6P3aQEVnm5_JLPcqFoMn4cDAk/edit)._
 
-## Table of contents
-
-- [Growth marketing](#growth-marketing)
-  - [Table of contents](#table-of-contents)
-  - [Team](#team)
-  - [About Growth Marketing](#about-growth-marketing)
-  - [Team vision and principles](#team-vision-and-principles)
-  - [How we work](#how-we-work)
-  - [Ownership](#ownership)
+[Growth Marketing project tracker](https://github.com/orgs/sourcegraph/projects/296)
 
 ## Team
 

@@ -57,6 +57,24 @@ A seperate compute instance also exists for the purpose of running long running 
 To access this instance, run the following command:
 `gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
+#### Database
+
+We use Cloud SQL to host our scaltesting databases. To connect to one you need to use the cloud sql proxy, for example:
+
+In terminal 1:
+
+```
+cloud_sql_proxy -instances=sourcegraph-scaletesting:us-central1:sg-scaletesting-d2d240d290=tcp:5555
+```
+
+In terminal 2:
+
+```
+psql -h localhost -p 5555 -d sg -U 'dev-readonly'
+```
+
+> The password can be found in 1password
+
 #### Application
 
 All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
@@ -140,6 +158,25 @@ To stop the `devx` compute instance when it is not in use, run the following:
 or to start it:
 
 `gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
+
+### Pods in `CrashLoopBackOff` due to failed migration
+
+Certain operations, such as changing images to a development tag, can cause the most recent migration to fail. This will prevent certain services from starting, making the instance unhealthy.
+
+To resolve this, do the following:
+
+1. Verify that the migration is incomplete by checking the `schema_migrations` table:
+   - Open a Cloud SQL proxy connection with `cloud_sql_proxy -instances=sourcegraph-scaletesting:us-central1:sg-scaletesting-d2d240d290=tcp:5449`
+   - Connect to the database with `psql -h localhost -p 5449 -d sg -U sg` ([credentials](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=dnrhbauihkhjs5ag6vszsme45a&i=jwzl5oqqulkukg5sfw5tr3xfcy&h=team-sourcegraph.1password.com))
+   - Confirm that the last migration is incomplete by running `SELECT * FROM schema_migrations;`
+1. Add the following to `values.yaml` in [deploy-sourcegraph-scaletesting](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-scaletesting/-/blob/helm/sourcegraph/values.yaml):
+   ```yaml
+   migrator:
+     args: [up, --ignore-single-pending-log=true]
+   ```
+1. Apply the values as described in [Deploying code](scaletesting.md#deploying-code)
+1. Check the `migrator` logs in the frontend pod for a successful migration
+1. **Remove the `args` key/value from `values.yaml` and apply the values again!** If the flag remains on the migrator pod, the database may be corrupted on subsequent deploys.
 
 ## Testing Data
 

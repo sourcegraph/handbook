@@ -44,8 +44,8 @@ Because managed instances are our preferred deployment method, we will be only c
 One or more of the following must be true to enable event-level data collection:
 
 - The lead requested a trial through [signup.sourcegraph.com](https://signup.sourcegraph.com/) and therefore agreeing to our [Cloud Terms of Service](https://about.sourcegraph.com/terms/cloud)
-- An existing customer signs a $0 order form with an updated Cloud ToS
-- A new customer or renewal signs a new contract with the updated Cloud ToS
+- An existing customer signs an order form with an updated Cloud ToS--provided no redlines or carveouts that remove event-level collection rights
+- A new customer signs a new contract with the updated Cloud ToS--provided no redlines or carveouts that remove event-level collection rights
 - A CE-led trial on a managed instance is initiated through a workflow (TBD - CE is owning a new page that they'll direct prospects to with the Cloud ToS))
 
 The `User Level Event Usage Data Analytics` field in account object in Salesforce should be set to `Yes` if the opportunity allows this. A report of all accounts set to `Yes` is [here](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051EOrEAM/view).

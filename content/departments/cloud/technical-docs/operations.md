@@ -74,7 +74,7 @@ The `NAME` value indicates the currently active instance (`red` or `black`). Dur
 
 ## Accessing the instance
 
-For CSE's, also refer to [Accessing Managed Instances](../../ce-support/support/process/support-managed-instances.md).
+For CSE's, also refer to [Accessing Managed Instances](../../technical-success/support/process/support-managed-instances.md).
 
 ### SSH access
 
@@ -204,7 +204,7 @@ Disk storage can be safely **increased** on managed instances at any time. Do no
 To increase the disk size:
 
 1. Set up your environment with `mi workon` as usual.
-1. Increase the value of `data_disk_size` in `terraform.tfvars` and run terraform apply
+1. Increase the value of `data_disk_size` in `terraform.tfvars` and run `terraform apply` (Note: internal instances `sg` and `rctest` cannot be applied locally and must be applied through Terraform Cloud).
 1. Commit and push your changes:
 
    ```sh
@@ -215,13 +215,13 @@ To increase the disk size:
 1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
 
    ```sh
-   ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
+   mi ssh-exec "sudo resize2fs /dev/sdb"
    ```
 
    Then confirm the new size is visible:
 
    ```sh
-   ../util/ssh-exec.sh "df -h /dev/sdb"
+   mi ssh-exec "df -h /dev/sdb"
    ```
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.

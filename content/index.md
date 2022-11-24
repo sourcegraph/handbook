@@ -83,9 +83,14 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Cloud](departments/cloud/index.md)
 
-### [Customer Support](departments/ce-support/support/index.md)
+### [Security](departments/security/index.md)
 
-### [Customer Engineering](departments/ce-support/ce/index.md)
+### [Technical Success](departments/technical-success/index.md)
+
+- [Customer Engineering](departments/technical-success/ce/index.md)
+- [Implementation Engineering](departments/technical-success/ie/index.md)
+- [Support Engineering](departments/technical-success/support/index.md)
+- [Technical Advisory](departments/technical-success/ta/index.md)
 
 ### [Marketing](departments/marketing/index.md)
 
