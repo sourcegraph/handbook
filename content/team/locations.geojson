@@ -504,16 +504,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Elzanne Wentzel"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [4.877194762229919, 52.35879255268006]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Erzhan Torokulov"
             },
             "geometry": {
