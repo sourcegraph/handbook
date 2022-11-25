@@ -10,7 +10,7 @@ Current onboarding mandatory tasks are:
 
 No due date.
 
-- Enabling WorkSpace One (WS1)
+- Enabling [Jamf](../../departments/tech-ops/tools/endpoint-antivirus.md)
 - Completing BambooHR profile
 - Confirm BambooHR information: number of options and vesting date
 

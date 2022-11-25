@@ -137,27 +137,26 @@ Customer Engineers (CE) or Sales may request to:
 
 ### SLAs for managed instances
 
-Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
+Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/support/index.md#slas). Other engineering SLAs are listed below
 
 > SLA for internal requests may be extended during upstream service providers outage. For example, automated trial instance creation workflow relies on GitHub Actions and GitHub is down.
 
-|                                                                                   | Description                                            | Response time                                                                                                                     | Resolution time                                                                                                                   |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| New instance Creation                                                             | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need                                                                                     | Within 7 working days from agreement                                                                                              |
-| New Trial instance Creation (only from [signup](https://signup.sourcegraph.com/)) | Spin up new trial instance for a new customer          | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours |
-| New Trial instance Creation                                                       | Spin up new trial instance for a new customer          | 1 working day                                                                                                                     | 1 working day                                                                                                                     |
-| Existing instance suspension                                                      | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
-| Existing instance deletion/teardown                                               | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
-| New Feature Request                                                               | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need                                                                                     | Dependent on the request                                                                                                          |
-| Maintenance: Monthly Update to latest release                                     | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
-| Maintenance: patch/emergency release Update                                       | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
-| Add IP(s) to Managed Instance                                                     | Add new list of IPs to MI allowlist                    | 1 working day                                                                                                                     | Within 3 days                                                                                                                     |
+|                                               | Description                                            | Response time                                 | Resolution time                               |
+| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement          |
+| New Trial instance Creation                   | Spin up new trial instance for a new customer          | 1 working day                                 | 1 working day                                 |
+| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                      |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 10 working days after latest release   |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
+| Add IP(s) to Managed Instance                 | Add new list of IPs to MI allowlist                    | 1 working day                                 | Within 3 days                                 |
 
 ### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
 We have a maximum Recovery Point Time objective of 24 hours. Snapshots are performed at-least daily on managed instances. Some components may have lower RPOs (e.g. database).
 
-Our maximum Recovery Time Objective is defined by our [support SLAs](../ce-support/support/index.md#slas) for P1 & P2 incidents.
+Our maximum Recovery Time Objective is defined by our [support SLAs](../technical-success/support/index.md#slas) for P1 & P2 incidents.
 
 ### Incident Response
 

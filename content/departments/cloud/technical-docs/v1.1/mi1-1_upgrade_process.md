@@ -35,7 +35,7 @@ If they are not, download the file and open a PR to commit the file prior to upg
 mi update-golden -target $VERSION # e.g. 4.0.0
 ```
 
-Then, upgrade the executors module: [`modules/executors/main.tf`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf), replace all `version` fields values with `$VERSION`.
+Then, upgrade the executors module: [`modules/executors/main.tf`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf). Find the matching release version from [sourcegraph/terraform-google-executors](https://github.com/sourcegraph/terraform-google-executors/tags) replace all `version` fields values it.
 
 Then, create a pull request with your changes, and include a reference to the upgrade tracking issue.
 
@@ -54,6 +54,11 @@ export VERSION=3.40.0
 ```
 
 Using `mi` you can generate commands to trigger automated upgrades for instances that are not yet upgraded:
+
+> Are you upgrading a release candidate (rc) build on `rctest`?
+> Run `gh workflow run mi_upgrade.yml -f customer=rctest -f version=$VERSION`
+> NOTES: the workflow will fail after the instance upgrade at the step where we try to upgrade executors with terraform. this is expected since we're using TFC for this instance.
+> Check out the branch locally and create a PR. Upon merging, TFC will pick it up automatically
 
 ```sh
 # For trial instances

@@ -3,20 +3,39 @@
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
+## Option I - automated creation via GitHub Action
+
+Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cloud/actions/workflows/mi_create.yml) with given parameters:
+
+- `customer` - customer slug
+- `environment` - environment name, learn more about [different environments](./index.md#deployment-environments)
+  - `dev`
+  - `prod`
+- `instance_type` - purpose of this instance
+  - `trial` - for customer trial
+  - `production` - for paying customer
+  - `internal` - for internal Sourcegraph usage
+- `customer_admin_email` - the customer admin email
+- `cdktf_deploy` - whether to deploy GCP resources, false for fast re-run when resources are already created.
+
+or via command line:
+
+```
+gh workflow run -R github.com/sourcegraph/cloud  \
+  -f environment=[dev|prod] \
+  -f customer=$CUSTOMER \
+  -f instance_type=[production|trial|internal] \
+  -f customer_admin_email=$CUSTOMER_ADMIN_EMAIL \
+  -f cdktf_deploy=[true|false]
+```
+
+Then watch out for notification in #cloud-notifications or tail logs in GitHub Actions run.
+
+## Option II - manual playbook
+
 ## Prereq
 
 Follow https://github.com/sourcegraph/controller#installation to install `mi2`
-
-```sh
-git clone https://github.com/sourcegraph/cloud
-cd cloud
-```
-
-Install `mi2` binary
-
-```sh
-go install ./cmd/mi2/
-```
 
 ## Steps
 
@@ -98,19 +117,19 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 deploy tfc
+npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
 ### Init deployment - deploy cdktf stacks
 
-> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.0` under the instance root in case things are not working as intented
+> the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.3` under the instance root in case things are not working as intented
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+npx --yes cdktf-cli@0.13.3 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
 ```
 
 ### Init deployment - generate kustomize artifacts
@@ -126,7 +145,7 @@ mi2 generate kustomize -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 Run command below to obtain the commands to target the new cluster
 
 ```sh
-mi2 workon -e $ENVIRONMENT --slug $SLUG
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG
 ```
 
 Copy and run the output `gcloud` and `kubectl` commands, you shall see something like
@@ -168,7 +187,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.0 deploy tfc
+npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
 ### Commit your changes

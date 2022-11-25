@@ -80,6 +80,8 @@ The "onsite" stage is defined as all interviews that take place after the hiring
 
 The Recruitment Operations specialist will schedule all remaining interviews in the interview process. It is important that all teammates accept the calendar invite to confirm that you plan to attend to the interview.
 
+Ideally, each interview will include two teammates. However, there may be circumstances where only one teammate is scheduled to participate in an interview. In that scenario, the teammate who is participating in the interview asks all interview questions. If only one person is able to attend, a second person is required to watch the BrightHire and provide feedback.
+
 - If you unable to make an interview, please Slack #hiring immediately so that we can work on finding a replacement interviewer, or reschedule. Please do you best to provide a minimum of 24-hours notice if you are unable to attend.
 
 Following your interview, please provide interview feedback immediately, no later than 24-hours after your interview, to ensure we are able to move quickly and provide a positive candidate experience.

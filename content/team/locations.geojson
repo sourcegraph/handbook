@@ -504,16 +504,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Elzanne Wentzel"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [4.877194762229919, 52.35879255268006]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Erzhan Torokulov"
             },
             "geometry": {
@@ -869,6 +859,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-80.848991, 35.410561]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cezary Bartoszuk"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [42.197250, -88.006111]
             }
         }
     ]

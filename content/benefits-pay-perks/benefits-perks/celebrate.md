@@ -121,7 +121,7 @@ Please reach out in the #swag channel with any questions.
 
 ### Loop & Tie
 
-Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted.
+Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted. Loop & Tie also offers sustainability and social impact options that allow teammates who don't want to redeem a gift to donate their gift amount ($) toward a charity or environmental support organization.
 
 Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in the #swag slack channel and a current Loop & Tie admin (Kemper or Fabiana) will invite you to create an account.
 

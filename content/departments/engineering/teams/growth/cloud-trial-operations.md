@@ -2,7 +2,7 @@
 
 From 2022-09-27, Sourcegraph Cloud has been the default way of deploying Sourcegraph. We are also iterating towards a Product Led Growth motion. There are 3 main ways to try Sourcegraph:
 
-- Try a self-hosted instance, self-serve
+- Try a self-hosted instance, self-servelogin
 - Contact us and scope a custom trial:
   - Talk to an Account Executive and Customer Engineer (CE) to get help setting up a self-hosted instance.
   - Talk to an Account Executive and CE to get a cloud instance trial (hereafter called "a CE-requested trial"). Those instances can be setup to match customer needs (scale, )
@@ -25,7 +25,11 @@ Cloud is the default way of deploying Sourcegraph, but there are some limits to 
 ## Enablement
 
 - [SDR enablement](https://www.youtube.com/watch?v=pBVS2llqZUI)
-- AE/CE enablement (TODO)
+- [AE/CE enablement](https://sourcegraph.highspot.com/items/6372a86b2603d024eca99775?lfrm=srp.0)
+
+## Slack channels
+
+All alerts get sent to #cloud-trial-alerts. All new opportunities trigger alerts in the (less noisy) cloud-trial-alerts-opps-only.
 
 ## Workflow
 
@@ -34,14 +38,14 @@ Here is an overview of the workflow and the role of any and all Sourcegraph team
 TLDR:
 
 - We maintain a list of prequalified target accounts, that will instantly get an instance in-product
-- All others go through manual qualification by inbound SDRs, and if qualified, an instance is provisioned by the Cloud team and handed-off to the reqester by a CE
+- All others go through manual qualification by inbound SDRs, and if qualified, an instance is provisioned by the Cloud team and handed-off to the requestor by a CE
 - Instance hand-off (if not automated), white-glove onboarding, and trial extension/termination/conversion are owned by the CE assigned to the Opportunity.
-- Trials should be terminated after 15 days if there's no activity on the instance, and extented to 30 days if there's any activity.
+- Trials should be terminated after 15 days if there's no activity on the instance, and extended to 30 days if there's any activity.
 
 ![Workflow](https://storage.googleapis.com/sourcegraph-assets/growth/flow-v2.svg)
 (You can also view this flow [here](https://app.excalidraw.com/l/4Dr1S6qmmY7/4S6Sc9L2aDO))
 
-Now let's dive into the details of the workflow. CE or AE actions are highlighted by 🟢, inbound SDR actions by 🟡, and named SDR actions by 🟠.
+Now let's dive into the details of the workflow. CE (backup AE) actions are highlighted by 🟢, AE actions by 🔵, inbound SDR actions by 🟡, named SDR actions by 🟠.
 
 Assume `bob@acme-corp.com` signs up for an instance on signup.sourcegraph.com.
 
@@ -53,9 +57,9 @@ If there is already a cloud instance owned by `acme-corp`, which is defined as a
 
 1. `bob` is automatically redirected to that instance.
 1. a notification is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. 🟢 the AE/CE should reach out to the instance admin and user to understand if they should be added to the instance
+1. 🔵 the AE should reach out to the instance admin and make sure the user can get added to the instance
 
-Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannnot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
+Limitations: unless SSO is setup on the instance, `bob@acme-corp.com` cannot join it without asking the admin for an invite. Product growth will be working on an improvement soon ([#42981](https://github.com/sourcegraph/sourcegraph/issues/42981)).
 
 #### Case 2: acme-corp.com is pre-qualified
 
@@ -76,9 +80,9 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 
 1. `bob` is automatically and instantly redirected to a pre-provisioned instance and given a password reset link. That instance has a random domain (eg. `xyz.sourcegraph.com`). From now on, all `@acme-corp.com` emails will be redirected to that instance (see Case 1).
 1. An alert is sent in #cloud-trial-alerts, powered by this [zap](https://zapier.com/editor/167443639/published)
-1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
-1. 🟡 Inbound SDR notifies assigned AE/CE
+1. 🟡 Inbound SDR converts to Opp
+1. 🟡 Inbound SDR notifies assignees AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
@@ -97,19 +101,20 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 ##### Case 3.2: the lead is qualified
 
 1. 🟡 inbound SDR qualifies against the [**qualification criteria**](https://docs.google.com/document/d/1gUc9fWAw_ACbT56tQLbQwZsARUu2TiD8N0xUg3YNgn4/edit)
-1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR uses Round Robin to assign AE/CE
+1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
    2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
 1. An instance request GitHub issue is raised automatically and posted in channel. This is powered by this [zap](https://zapier.com/editor/173098650/published).
-1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email.
+1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email. Note: if the AE is Kevin Quigley, then he should be added as a CE to the instance as he is the acting CE for his accounts.
 1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).
 1. The Cloud team is paged, provisions cloud instance. A default, generic license key will be automatically added (shared by all trial instances in a cohort). This key is owned and rotated by Malo Marrec every 7 days. This license key has tags `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial` and 1,000 users.
-1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready.
-1. 🟢 CE logs in, creates a password rest link
-1. 🟢 CE responds to initial SDR email, with the password reset link, and offers to help with white glove setup (AE in cc).
+1. When the instance is ready, a notification is sent in slack (#cloud-trial-alerts). This is powered by a [zap](https://zapier.com/editor/168695381/published). A comment will also be added in the instance request issue to indicate that the instance is ready. That comment will contain a link to 1password containing a password reset link, that only the user can access by verifying their email.
+1. 🟢 CE responds to initial SDR email with the password reset link (1password link), and offers to help with white glove setup (AE in cc).
 1. 🟢 from there, CE-led white-glove onboarding starts: see [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert). The CE owns this instance from that point.
+
+Note to CEs: if you need to login to the instance, you need to use the `Login with Sourcegraph Employee SSO`, that is hidden by default to avoid confusion. To access it, just append `?sourcegraph-operator` to the sign in page URL (eg. `www.acme-corp.com/sign-in?sourcegraph-operator`). If you don't have permissions to login, please ask in #cloud.
 
 ### Second step: onboarding, and trial extend, terminate, convert
 
@@ -117,10 +122,10 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
    1. Tip: Google the prospect to see if they have any OSS code or interesting projects to mention in the first outreach email.
 2. 🟢 assigned CE leads white-glove onboarding email campaigns. Exact messaging are up to the CE (with support from AE) as long as it’s helpful to the prospect. This needs to be onboarding related, helpful tips, offers to help, and check-in about commercial next steps towards the end of the trial.
 3. 🟢 From there, the assigned CE is responsible for the instance: extending, terminating, or converting the trial.
-   1. 15-days after trial start the instance should be either terminated if it's inactive, or the trial should be extended by 15 more days by raising a [trial extend request GitHub issue](../../../cloud/trial_mi.md#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days. Self-serve trials inactive after 15 days are very likely to remain inactive, so we terminate them more agressively (after 15 days) than trials that come in through the sales team.
+   1. 15-days after trial start the instance should be either terminated if it's inactive, or the trial should be extended by 15 more days by raising a [trial extend request GitHub issue](../../../cloud/trial_mi.md#monitoring-trial-managed-instances). There is no need to change the license unless extending by more than 15 days. Self-serve trials inactive after 15 days are very likely to remain inactive, so we terminate them more aggressively (after 15 days) than trials that come in through the sales team.
    2. 30-days after trial start, the trial needs to be [extended, converted to paid, or terminated](../../../cloud/trial_mi.md#monitoring-trial-managed-instances)
 4. For unsuccessful trials, Malo Marrec will send feedback request email upon request by CE.
-5. Opportunities follow the same process for qualification as they do today (Stage 2 criteria). We will track “activation” in-product (Eric Brody-Moore will make sure this links to SFDC).
+5. Opportunities follow the same process for qualification as they do today: leads remain in Stage 1 until the y meet the Stage 2 criteria. We will track “activation” in-product (Eric Brody-Moore will make sure this links to SFDC).
 
 ### Email rules of engagement
 
@@ -183,12 +188,13 @@ We also expect to automate most of the manual steps in the signup workflow to ta
 
 ### Customer Support (CS)
 
-- Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
+- Cloud trial users that encounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../technical-success/support/index.md#sts=SLAs).
 - If a user tries to join an existing instance and is blocked, they might request help on support@sourcegraph.com. The support team should reach out to the user and work with #growth to make sure the instance admin knows that user has requested an invite and is blocked. This will be automated.
 - If the signup form fails, an email will be sent to support@sourcegraph.com as a stop gap. The support team should reach out to the user and work with #growth to make sure their trial instance gets provisioned. This is a failsafe and shouldn't happen.
 
 ### Account Executives (AE)
 
+- Make sure users are able to join pre-existing instances (see [case 1](#case-1-acme-corp-com-already-has-a-cloud-instance))
 - Work with CE to check-in with trial as they approach the end, assess the opportunity, handle commercial conversations.
 - Support CEs as needed
 
@@ -203,6 +209,7 @@ We also expect to automate most of the manual steps in the signup workflow to ta
   - Ongoing trials
   - Traffic -> lead -> trial instances
   - Lead status breakdown
+- [All PLG Opportunities (SFDC)](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051FcBEAU/view)
 - [Amplitude instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)
   - Event-level data from trial instances
 - [Server instance overview (Looker)](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Netflix&Salesforce+Unique+ID=)
@@ -217,3 +224,22 @@ Known limitations of the self-serve trials flow include:
 - there is no way for a user to join a pre-existing instance unless SSO is setup [#42891](https://github.com/sourcegraph/sourcegraph/issues/42981)
 
 The Product Growth team is iterating on those! There are probably many other great ideas out there, reach out to us in #growth if you want to share them.
+
+## FAQ
+
+#### How do I login to an instance I support?
+
+You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
+
+#### How can I get the list of all trial instances?
+
+Use this Looker [dashboard](https://sourcegraph.looker.com/dashboards/341), or if you have gcloud access, run:
+
+```bash
+gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json(projectId,labels)"
+```
+
+#### How can I know what's the URL of the instance of a customer?
+
+- If the customer is pre-qualified, the URL will be random (eg. `src-asfrn13.sourcegraph.com`). That URL can be found in the the `PLG Cloud Instance` field of the Opportunity in Salesforce.
+- If the customer is NOT pre-qualified, the URL will be the email domain of the requester (eg. `acme-corp` for `bob@acme-corp.com`). That URL can be found in the the `PLG Cloud Instance` field of the Opportunity in Salesforce. There might be exceptions if the email domain is manually changed when the instance is requested: in which case it might not be up to date in the SFDC record.
