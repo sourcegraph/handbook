@@ -6,7 +6,13 @@ documents:
 - We coordinate internal approvals of paperwork with other internal stakeholders
 - We support Sales throughout the deal closing process.
 
-You can reach out to us through our #deal-desk slack Channel or through our alias: dealdesk@sourcegraph.com
+You can reach out to us through our #deal-desk slack Channel or through our alias: dealdesk@sourcegraph.com.
+
+Desk Desk process updates and announcements will be communicated via #deal-desk and #sales Slack channels.
+
+Deal Desk´s SLA is one business day. Please flag any urgent request or inquiry to ensure appropriate coverage.
+
+Support during holidays and PTOs will be announced via the #deal-desk Slack channel. 
 
 # Resources & Useful Links
 
