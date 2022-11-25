@@ -58,7 +58,7 @@ kubect get nodes # waiting for new node
 - verify new node zone
 
 ```sh
-kubectl describe node <NEW_NODE | grep zone # should be different from previous node
+kubectl describe node <NEW_NODE> | grep zone # should be different from previous node
 ```
 
 - check istance ready again
