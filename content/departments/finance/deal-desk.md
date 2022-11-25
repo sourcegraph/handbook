@@ -12,7 +12,7 @@ Desk Desk process updates and announcements will be communicated via #deal-desk 
 
 Deal Desk´s SLA is one business day. Please flag any urgent request or inquiry to ensure appropriate coverage.
 
-Support during holidays and PTOs will be announced via the #deal-desk Slack channel. 
+Support during holidays and PTOs will be announced via the #deal-desk Slack channel.
 
 # Resources & Useful Links
 
