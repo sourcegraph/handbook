@@ -3,7 +3,8 @@
 We have many factors to consider in order to determine priorities and as such, we need very clear boundaries and definitions to ensure there is only ever a single number one priority and it’s straightforward to determine what that is.
 
 ## Support exceptions
-We **no longer** offer tier 1 support for pre-sales/trial customers. 
+
+We **no longer** offer tier 1 support for pre-sales/trial customers.
 
 However, we have exceptions to provide support if our CE teammates open a ticket on behalf of the customer
 in instances where trial customers run into issues that;
@@ -14,11 +15,9 @@ or
 
 2. Are severe impact where several users and/or core features are affected. What we'd define as a p1/sev 1. For example, `slow service`, `core feature unavailability` etc.
 
-
 ## Priority definitions
 
 All work is assigned a priority per these definitions:
-
 
 - **p0:** All customers (including those in the pre-sales process) reported issues per our contractual p0 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
 - **p1:** All customer (including those in the pre-sales process) reported issues per our contractual p1 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
