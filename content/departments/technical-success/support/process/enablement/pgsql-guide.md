@@ -82,7 +82,7 @@ psql -U sg
 ```sql
   SELECT name, id
   FROM repo
-  WHERE name LIKE '%<REPO NAME>' and deleted_at IS NULL;
+  WHERE name LIKE '%<REPO NAME>' AND deleted_at IS NULL;
 
 
   SELECT repo_viewers.repo_id, users.username
@@ -92,4 +92,10 @@ psql -U sg
     WHERE repo_id = <REPO ID> --using repo_id from previous step
   ) AS repo_viewers
   JOIN users ON repo_viewers.repo_viewer_id = users.id;
+```
+
+### Monitor active database connections
+
+```sql
+  SELECT * FROM pg_stat_activity WHERE state='active';
 ```
