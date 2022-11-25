@@ -140,7 +140,14 @@ helm search repo insiders --devel
 Then, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
 ```bash
-helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 4.1.2-insiders.40464aa sourcegraph insiders/sourcegraph -n scaletesting`
+helm repo update
+
+# If you want to deploy using the same chart version:
+SG_CHART_VERSION=$(helm history sourcegraph -o json | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
+# If you want to deploy using a newer chart version ('helm search repo insiders --devel --versions' lists all available versions):
+SG_CHART_VERSION=<new chart version>
+
+helm upgrade --install --values ./helm/sourcegraph/values.yaml --version ${SG_CHART_VERSION} sourcegraph insiders/sourcegraph -n scaletesting
 ```
 
 ### Scale the infrastructure down when not in use
