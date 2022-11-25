@@ -17,7 +17,7 @@ export GKE_REGION=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.spec
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/\_\_version -i
+curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```
 
 - connect to cluster
@@ -61,13 +61,59 @@ kubect get nodes # waiting for new node
 kubectl describe node <NEW_NODE> | grep zone # should be different from previous node
 ```
 
-- check istance ready again
+- check instance is healthy
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/\_\_version -i
+curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```
 
 2. CloudSQL zone failover
 
-TDB
+- export environment variables
+
+```sh
+export ENVIRONMENT=[dev|prod]
+export SLUG=<SLUG>
+export CLOUDSQL_INSTANCE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.cloudSQL[0].name')
+export GCP_PROJECT=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
+export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
+```
+
+- check instance is healthy
+
+```sh
+mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
+curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+```
+
+- patch CloudSQL instance to use different zone
+
+```sh
+gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
+gcloud sql instances patch $CLOUDSQL_INSTANCE_NAME --zone <NEW_ZONE> --project $GCP_PROJECT --async
+# this make take upt to 5 mins, instance is not searchable
+gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
+# should return <NEW_ZONE>
+```
+
+- check instance is healthy
+
+```sh
+mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
+curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+```
+
+- restore instance via terraform
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
+terraform init && terraform apply
+```
+
+- check instance is healthy
+
+```sh
+mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
+curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+```
