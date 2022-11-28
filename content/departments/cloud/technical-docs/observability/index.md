@@ -6,7 +6,7 @@ Epic link: https://github.com/sourcegraph/customer/issues/1151
 
 Metrics are gathered from all resources using the included Prometheus instance. This instance scrapes and stores the metrics locally as well as forwards them to the Managed Prometheus service provided by GCP. These metrics are viewable through our centralised Grafana instance hosted at: https://monitoring.sgdev.org.
 
-> Note: access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
+> NOTE: access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
 
 ### Common operations
 
