@@ -300,3 +300,9 @@ repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$ file:config.yaml <CUST
 ```
 
 The `customer` field should allow you identify the correct GCP project. If it's still unclear, a Cloud team member can help on Slack in the [#cloud](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel.
+
+Alternatively, users with `gcloud` access can run:
+```
+gcloud projects list --filter='labels.mi-security=true' --format="json(projectId,labels)"
+```
+and search the results for the customer name. The `domain` field should include the customer's domain name allowing the project ID to be identified.
