@@ -17,6 +17,8 @@ Desk Desk process updates and announcements will be communicated via #deal-desk 
 - [Deal Desk Training](https://docs.google.com/presentation/d/1yFUDU9ZOXlcK4qCs8mfUWWCtFU-cGISq5GclhsGwl2E/edit#slide=id.gd9f22cf30f_2_446): Please check out our onboarding training to help you understand what Deal Desk does, when to engage us, standard and non-standard terms, Agreements & OF templates and other topics.
 - [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit): Are you filling out your OF and need help understanding which approvals are required to process your deal? Check out our Deal approval matrix where you will also find different clauses and acceptable terms to add to your contract.
 - [CPQ Job Aid](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#): Please visit our DealHub Job Aid Catalog for additional information on how to create quotes, submit them for approval , understand quote statuses, and others.
+- [Highspot: Deal Desk Site](https://sourcegraph.highspot.com/items/634db997eb5f7d699da90277?lfrm=srp.0): For additional training material.
+- [Deal Desk FAQs](../../departments/finance/DealDeskFAQs.md): For common questions we receive in the #deal-desk channel.
 
 Others:
 
