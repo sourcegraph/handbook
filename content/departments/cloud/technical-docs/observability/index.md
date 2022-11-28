@@ -4,7 +4,11 @@ Epic link: https://github.com/sourcegraph/customer/issues/1151
 
 ## Metrics
 
-Metrics are gathered from all resources using the included Prometheus instance. This instance scrapes and stores the metrics locally as well as forwards them to the Managed Prometheus service provided by GCP. These metrics are viewable through our centralised Grafana instance hosted at: https://monitoring.sgdev.org.
+Metrics are gathered from all resources using the included Prometheus instance. This instance scrapes and stores the metrics locally as well as forwards them to the Managed Prometheus service provided by GCP.
+
+**Only metrics queried in our [monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator) are forwarded - this allowlist is automatically generated.** If you'd like a new metric to be queryable in a centralized manner, you _must_ [create a dashboard panel](https://docs.sourcegraph.com/dev/how-to/add_monitoring#alerts-dashboards-and-documentation) for it.
+
+These metrics are viewable through our centralised Grafana instance hosted at: https://monitoring.sgdev.org.
 
 > NOTE: access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
 
