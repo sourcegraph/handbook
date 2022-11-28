@@ -91,10 +91,15 @@ curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 
 ```sh
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
-gcloud sql instances patch $CLOUDSQL_INSTANCE_NAME --zone <NEW_ZONE> --project $GCP_PROJECT --async
-# this make take upt to 5 mins, instance is not searchable
+# returns actual CloudSQL zone <OLD_ZONE>
+gsed -i 's/  gcpZone: <OLD_ZONE>/  gcpZone: <FAILOVER_ZONE/g' environments/$ENVIRONMENT/deployments/$INSTANCE_ID/config.yaml
+mi2 generate cdktf -e $ENVIRONMENT --slug $SLUG
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
+terraform init && terraform apply
+
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
-# should return <NEW_ZONE>
+# should return <FAILOVER_ZONE>
+cd -
 ```
 
 - check instance is healthy
@@ -104,11 +109,13 @@ mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
 curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```
 
-- restore instance via terraform
+- restore backup in different zone
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
-terraform init && terraform apply
+mi2 instance sql-backup list --slug $SLUG -e $ENVIRONMENT
+mi2 instance sql-restore create --backup-id $SQL_BACKUP_ID --slug $SLUG -e $ENVIRONMENT
+# wait untill ready
+gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT
 ```
 
 - check instance is healthy
