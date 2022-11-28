@@ -8,7 +8,7 @@ Once you are convinced, see the [Sourcegraph monitoring guide](./monitoring.md) 
 - [Monitoring pillars](#monitoring-pillars)
 - [Next steps](#next-steps)
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), and for Cloud-specific documentation see the [Cloud monitoring documentation](./cloud.md).
+> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
 
 ## Overview
 

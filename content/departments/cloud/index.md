@@ -290,3 +290,21 @@ For #ce teammates, please reach out to #cloud and include link to this FAQ
 
 Cloud supports all code-hosts types (self-managed and Cloud-managed), but it currently requires the code-host to have a public IP.
 More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJFoIFJjM-3ZA1qIyIl7o/edit)
+
+### FAQ: How do I figure out the GCP Project ID for a customer?
+
+The best way to determine the project ID for a given customer is to look up the customer in the `deploy-sourcegraph-managed` repo using the following query on S2:
+
+```
+repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$ file:config\.yaml lang:yaml customer: :[_\n]
+```
+
+The `customer` field should allow you identify the correct GCP project. If it's still unclear, a Cloud team member can help on Slack in the [#cloud](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel.
+
+Alternatively, users with `gcloud` access can run:
+
+```
+gcloud projects list --filter='labels.mi-security=true' --format="json(projectId,labels)"
+```
+
+and search the results for the customer name. The `domain` field should include the customer's domain name allowing the project ID to be identified.
