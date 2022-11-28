@@ -22,10 +22,10 @@ Desk Desk process updates and announcements will be communicated via #deal-desk 
 
 Others:
 
-- [Finance & Accounting](../../departments/finance): For Finance goals, policies and metrics definitions.
-- [Legal](../../departments/legal): For legal goals, policies, and onboarding material.
-- [Sales Resources](../../departments/sales/tools/salesresources.md): For Order Forms and other useful templates.
-- [Contract Review & Signature Authority Policy](../../departments/legal/process/ContractReviewandSignatureAuthorityPolicy.md): For additional information on how to submit new requests for approval and to review our signature policy.
+- [Finance & Accounting](../index.md): For Finance goals, policies and metrics definitions.
+- [Legal](../../../departments/legal/index.md): For legal goals, policies, and onboarding material.
+- [Sales Resources](../../../departments/sales/tools/salesresources.md): For Order Forms and other useful templates.
+- [Contract Review & Signature Authority Policy](../../../departments/legal/process/ContractReviewandSignatureAuthorityPolicy.md): For additional information on how to submit new requests for approval and to review our signature policy.
 - [Corporate Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit): For Sourcegraph´s corporate information for Customers and Vendor Questionnaires.
 
 # Process Repository
