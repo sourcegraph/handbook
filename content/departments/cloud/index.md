@@ -296,7 +296,7 @@ More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJ
 The best way to determine the project ID for a given customer is to look up the customer in the `deploy-sourcegraph-managed` repo using the following query on S2:
 
 ```
-repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$ file:config.yaml <CUSTOMER NAME OR DOMAIN HERE>
+repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$ file:config\.yaml lang:yaml customer: :[_\n]
 ```
 
 The `customer` field should allow you identify the correct GCP project. If it's still unclear, a Cloud team member can help on Slack in the [#cloud](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel.
