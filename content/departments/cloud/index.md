@@ -286,7 +286,7 @@ Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All 
 
 There are two groups of IP.
 
-1. Primary outgoing IPs:  This set of IPs is used by Sourcegraph to communicate directly with customer systems such as code hosts, authentication service, or SMTP service.
+1. Primary outgoing IPs: This set of IPs is used by Sourcegraph to communicate directly with customer systems such as code hosts, authentication service, or SMTP service.
 2. (Optional) Executors outgoing IPs: This set of IPs is used by [executors](https://docs.sourcegraph.com/admin/deploy_executors) for all outgoing traffic. Executors is the technology that powers features like [server-side batch changes](https://docs.sourcegraph.com/batch_changes) and [code navigation auto-indexing](https://docs.sourcegraph.com/code_navigation/how-to/enable_auto_indexing). Under normal circumstances, executors do not communicate directly with custoemr systems. When do customers need to add executors IP to their IP allowlist?
    - Customers are writing SSBC to commmunicate directly with the code host explictly, e.g. run custom script that invoke their on-prem GitLab instance API. If customers are only using SSBC to modify source code and allow Sourcegraph to handle the rest - commit and open PRs, they DO NOT need to whitelist executors IP.
    - Customers are using auto-indexing to index repos that use packagaes from private registries, e.g. NPM packages from self-hosted [JFrog Artifactory](https://jfrog.com/artifactory/), Go packages from self-hosted code hosts. (Notes, we do not support indexing repo that uses private packages yet, this is here for future referneces)
