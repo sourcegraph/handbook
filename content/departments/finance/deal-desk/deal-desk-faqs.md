@@ -6,7 +6,7 @@ Below are answers to common questions Sales teammates at Sourcegraph have.
 
 ### Where can I find the most recent Order Form templates?
 
-You can download the latest Order Form templates here: [Sales Resources](https://handbook.sourcegraph.com/departments/sales/tools/salesresources/). We have 2 OF templates available:
+You can download the latest Order Form templates here: [Sales Resources](../sales/tools/salesresources.md). We have 2 OF templates available:
 
 - [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
 - [Sourcegraph 4.0 OF: Code Intelligence Platform](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
