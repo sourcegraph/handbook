@@ -1,5 +1,9 @@
 # Distaster recovery process of a Cloud instance
 
+<span class="badge badge-note">SOC2/CI-82</span>
+
+Report from [failover test on 28tf of November 2022](https://docs.google.com/document/d/1CfI2m2eZ-dtG1XoPpWEuWm87XJ7m2dbQAG2tOHV74pk/edit)
+
 1. GKE cluster zone failover
 
 > Important: this does not test GKE master zone failover.
