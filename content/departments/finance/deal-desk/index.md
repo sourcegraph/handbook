@@ -4,7 +4,13 @@ Deal Desk supports Sales on non-standard deal structures, offering collaborative
 documents:
 
 - We coordinate internal approvals of paperwork with other internal stakeholders
-- We support Sales throughout the deal closing process.
+- We support Sales throughout the deal closing process
+- We are the primary point of contact for Customer Questionnaires
+- We provide assistance with CPQ requests and Opportunity validations
+- We help address ARR or IARR questions
+- We provide guidance on process and policies inquiries
+
+### Communicating with the Deal Desk Team
 
 You can reach out to us through our #deal-desk slack Channel or through our alias: dealdesk@sourcegraph.com.
 
