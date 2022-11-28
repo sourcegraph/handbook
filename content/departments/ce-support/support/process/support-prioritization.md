@@ -13,13 +13,12 @@ in instances where trial customers run into issues that.
 
 If a CE needs to open a ticket on behalf of a customer, they should do so by emailing support@sourcegraph.com and sharing the following information:
 
-* What is the issue?
-* What was the prospect attempting to do and what is the expected result?
-* What steps have been taken to resolve the issue already?
-* What is the impact of the issue (is it blocking full use, select users, etc?)
-* Link to the Technical Design Document
-* Context about where in the sales cycle the prospect is and any key dates to be aware of in resolving the issue.
-
+- What is the issue?
+- What was the prospect attempting to do and what is the expected result?
+- What steps have been taken to resolve the issue already?
+- What is the impact of the issue (is it blocking full use, select users, etc?)
+- Link to the Technical Design Document
+- Context about where in the sales cycle the prospect is and any key dates to be aware of in resolving the issue.
 
 **Note**: When a support engineer picks up a ticket they may temporarily add themselves to the trial slack channel to assist with the issue. However, they would then exit the channel once the issue is resolved.
 
