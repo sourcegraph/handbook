@@ -16,7 +16,7 @@ This policy applies to all Sourcegraph owned or managed information systems.
 
 ## **Inventory of Assets**
 
-Assets associated with information and information processing facilities that store, process, or transmit classified information shall be identified and an inventory of these assets shall be drawn up and maintained. This inventory will live in our endpoint management system, VMWare Workspace One.
+Assets associated with information and information processing facilities that store, process, or transmit classified information shall be identified and an inventory of these assets shall be drawn up and maintained. This inventory will live in our endpoint management system, Jamf.
 
 **Assignment of Assets**
 

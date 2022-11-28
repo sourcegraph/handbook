@@ -16,7 +16,7 @@ Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.engineering_manager_security}}
 
-## [Customer Engineering & Support](../departments/ce-support/ce/index.md#current-team-members)
+## [Technical Success](../departments/technical-success/index.md#current-team-members)
 
 {{generator:reporting_structure.vp_customer_engineering}}
 

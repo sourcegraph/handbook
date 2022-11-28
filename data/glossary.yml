@@ -139,8 +139,8 @@ business:
 role:
   - term: AE
     definition: Account executive - responsible for maintaining an enterprise customer account and our relationship with them
-  - term: AE
-    definition: Application engineer
+  - term: SE
+    definition: Support engineer
   - term: SDR
     definition: Sales Development reps - focused on reaching out to customers, determining if they're good leads to follow up on
   - term: MBA
@@ -158,9 +158,11 @@ role:
   - term: PO
     definition: Purchase order
   - term: CSE
-    definition: Customer Support Engineer, someone who can debug issues for example - no longer used, Application Engineer is preferred
+    definition: Customer Support Engineer, someone who can debug issues for example - no longer used
   - term: CE
-    definition: Customer Engineer, e.g. helps customers deploy software and resolve their technical issues
+    definition: Customer Engineer, e.g. pre-sales technical engineer
+  - term: TA
+    definition: Technical Advisory, e.g, post-sales customer success
   - term: IC
     definition: Individual contributor, not managing other people. Still works on a team with other ICs.
   - term: Release Guild

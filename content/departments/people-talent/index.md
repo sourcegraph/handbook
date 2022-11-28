@@ -548,21 +548,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
         <div style="text-align: center; font-size: 12px">Director, People</div>
       </div>
     </div>
-    <div class="col" style="flex: 1">
-      <div>
-        <div style="text-align: center">
-          <a href="../../../../team/index.md#alex-mathison" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
-            alt="Picture of Alex Mathison"
-            style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Alex Mathison</div>
-        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
-      </div>
-    </div>
      <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
