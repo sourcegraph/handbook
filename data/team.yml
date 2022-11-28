@@ -1199,16 +1199,6 @@ jh_chabran:
   email: jean-hadrien.chabran@sourcegraph.com
   description: JH loves to learn new things all the time and to build software that helps other developers. He got into coding by learning how some developers managed to translate old video games through reverse engineering. In his free time, JH likes to experiment with new tools, play indie video games, take long walks with his (stubborn) Corgi and cook for his friends and family.
 
-chris_wendt:
-  name: Chris Wendt
-  role: Software Engineer on Code Intelligence
-  reports_to: engineering_manager_code_intelligence
-  location: Boulder, CO 🇺🇸
-  github: chrismwendt
-  email: chris.wendt@sourcegraph.com
-  links: '[Twitter](https://twitter.com/ChrisMWendt), [LinkedIn](https://www.linkedin.com/in/chrismwendt/)'
-  description: 'Programming language enthusiast, speedcuber, SSBM player, guitar and piano player, and dog lover. He has worked on some solo projects ([CodeWing](https://codewing.dev/) and [CodeBook](https://codebook.page/)), a distributed data pipeline at Microsoft, search at GitHub, developer experience at ThoughtSpot, and earned his BS in Computer Science with a specialization in computer graphics from Purdue.'
-
 mohammad_umer_alam:
   name: Mohammad Umer Alam
   pronouns: he/him
