@@ -41,7 +41,7 @@ Legal
    </td>
    <td>#deal-desk Slack channel
    </td>
-   <td><a href="../../finance/deal-desk.md">Deal Desk</a> team will escalate to Legal if necessary - see <a href="https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit">Order Form review guide</a>
+   <td><a href="../../finance/deal-desk/index.md">Deal Desk</a> team will escalate to Legal if necessary - see <a href="https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit">Order Form review guide</a>
    </td>
   </tr>
   <tr>
@@ -218,7 +218,7 @@ Our standard Orders are governed by our online terms, so if a Customer is ready 
 
 Remember: for non-standard Orders, **you need to engage Deal Desk.** Deal Desk will know if and when to engage Legal.
 
-Check out the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) for a list of our non-standard terms and the [Deal Desk Handbook page](../../finance/deal-desk.md) for more information and resources.
+Check out the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) for a list of our non-standard terms and the [Deal Desk Handbook page](../../finance/deal-desk/index.md) for more information and resources.
 
 ![Non-standard terms require Deal Desk review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview5.png)
 
