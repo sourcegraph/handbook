@@ -4,16 +4,34 @@ We have many factors to consider in order to determine priorities and as such, w
 
 ## Support exceptions
 
-We **no longer** offer tier 1 support for pre-sales/trial customers.
+Support is no longer the first-line on pre-sales technical issues. Support may be engaged by CE on specific pre-sales technical issues, as needed by the CE, but Support will not monitor trial slack channels or lead reactive technical troubleshooting.
 
 However, we have exceptions to provide support if our CE teammates open a ticket on behalf of the customer
-in instances where trial customers run into issues that;
+in instances where trial customers run into issues that.
 
-1. Are a critical blocker and what we'd define as a p0/sev 0. For example, `failed deployment` or `total loss of service` etc.
+### Engaging Support on pre-sales technical needs
 
-or
+If a CE needs to open a ticket on behalf of a customer, they should do so by emailing support@sourcegraph.com and sharing the following information:
 
-2. Are severe impact where several users and/or core features are affected. What we'd define as a p1/sev 1. For example, `slow service`, `core feature unavailability` etc.
+* What is the issue?
+* What was the prospect attempting to do and what is the expected result?
+* What steps have been taken to resolve the issue already?
+* What is the impact of the issue (is it blocking full use, select users, etc?)
+* Link to the Technical Design Document
+* Context about where in the sales cycle the prospect is and any key dates to be aware of in resolving the issue.
+
+
+**Note**: When a support engineer picks up a ticket they may temporarily add themselves to the trial slack channel to assist with the issue. However, they would then exit the channel once the issue is resolved.
+
+###Determining severity of pre-sales issues that are elevated to Support
+
+Based on the needs of the ticket, support engineers will assign a severity level to the ticket based on the following criteria:
+
+**p0**: Failed deployment or total loss of service.
+
+**p1**: Core features are unavailable or the service as a whole is slow.
+
+**p2**: Non-blocking technical asks or problems.
 
 ## Priority definitions
 
@@ -32,7 +50,7 @@ All work is assigned a priority per these definitions:
 
 Sometimes we have too much work to keep it simple. In these situations, we will put forth our best effort and unless something about the situation requires us to deviate, we follow this order of priority:
 
-- Pre-sales customers first(See #Support exceptions above)
+- Pre-sales customers first (See support exceptions above)
 - Enterprise customers second
 - Team customers third
 - Free customers fourth
