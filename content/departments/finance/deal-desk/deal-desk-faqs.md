@@ -116,13 +116,17 @@ Yes, early renewals are used to perform a “Contract reset”. If the customer 
 
 Yes, the goal of our Reseller Program is to to build key partnerships to help drive pipeline and IARR faster. Partners that are reselling a Sourcegraph product will enter into our [Reseller Agreement](https://docs.google.com/document/d/1y8gF3ai8YdDH-iORi_vVeqET9-g11RZxaXurcNmb0-E/edit) , and for every new order they place, they will need to sign our Order Form. The reseller order form can be found in the Reseller Agreement under Exhibit C. Additional information can be found here: [Reseller Program Promotion](../../sales/tools/referral_and_reseller_policy.md)
 
-#### Who are our active Resellers?
+#### Do we have a list of our active Resellers?
 
-Our active Resellers are inventoried [here](https://handbook.sourcegraph.com/departments/sales/tools/referral_and_reseller_policy/#referral-and-resale-partner-agreement-inventory) and the agreements can be found [here](https://drive.google.com/drive/u/0/folders/1BnjAnhqinQ5cLmHjsxuuvWfGVVs_h5Ku)
+Our active Resellers are inventoried [here](../../sales/tools/referral_and_reseller_policy.md) and the agreements can be found [here](https://drive.google.com/drive/u/0/folders/1BnjAnhqinQ5cLmHjsxuuvWfGVVs_h5Ku)
 
-#### Do I have to enter into a Reseller Agreement if the Customer wants to use a partner on a deal?
+-For deals through SHI: We do not have a Reseller Agreement in place, but they have accepted to sign our Order Form including pass-through language that incorporates by reference our license agreement to which the Customer is subject, as well as Termination and Limitation of Liability language. Please contact Deal Desk to confirm the Order Form structure and Terms. For Cloud deals, please engage Legal team as liability caps require revision. 
 
-No, if a Customer wants to use a reseller for billing purposes or to avoid our contracting processes, there´s no need to enter into a Reseller Agreement as this program is intended to build a long-term strategic relationship with the partner. For these cases where the Customer is aiming to reduce complexity and time, we may sign an Order Form with their proposed reseller. We will add our reseller terms to the Order Form and pass-through language, that incorporates by reference the governing terms to bind the Customer to the duties and obligations of our agreement.
+-For deals through Insight: We signed a Letter of Agreement (LOA) on September 01st, 2022 that sets forth the terms under which Insight can procure Products from Sourcegraph and is valid for On-Prem deals. Insight does not agree to sign our Order Form and since the PO does not contitute a contractual commitment, we need to sign an Amendment to PO document for every deal. The Amendment to PO document will only be signed after they provide the PO, as we need to confirm it includes: product sold, price, quantity, deployment type, contract dates and payment terms. Please provide a copy of the PO to the Deal Desk team to confirm if it includes all the required information. For Cloud deals, please engage Legal team as liability caps require revision. 
+
+#### Do I have to enter into a Reseller Agreement if the Customer wants to add a reseller on a deal to reduce contracting complexity?
+
+No, some Customers may wants to use a reseller for billing purposes or to simplify the contracting process. For those cases, there´s no need to enter into a Reseller Agreement as this program intends to build long-term strategic relationships with the partners. When the Customer wants to add a Partner to reduce complexity and time, and there´s no Reseller Agreement in place, we may sign a standard Order Form adding our reseller terms and pass-through language, that incorporates by reference the license agreement to bind the Customer to the duties and obligations of our agreement.
 
 #### Can the Customer pay through a payment agent?
 
