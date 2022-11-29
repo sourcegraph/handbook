@@ -99,7 +99,7 @@ Be sure to set expectations with the site admin ahead of raising the issue and i
 
 When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](./index.md#managed-instance-requests).
 
-Cloud Team will receive new Trial Managed Instance Teardown request via email and on-call person should [delete instance](./technical-docs/v1.1/mi1-1_delete_process.md) within [SLA](./index.md#slas-for-managed-instances).
+Cloud Team will receive new Trial Managed Instance Teardown request via email and on-call person should [delete instance](./technical-docs/v1.1/mi1-1_delete_process.md#i-destroy-managed-instance-via-github-action) within [SLA](./index.md#slas-for-managed-instances).
 
 ## Trial Managed Instance creation flow (manual)
 

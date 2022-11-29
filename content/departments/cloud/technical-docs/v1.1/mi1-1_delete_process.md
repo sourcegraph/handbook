@@ -32,7 +32,7 @@ Hello, @ce! The <customer name> managed instance is scheduled for teardown in 1 
 Teardown request issue: <issue link>
 ```
 
-## Destroy Managed Instance via Github Action
+## I. Destroy Managed Instance via Github Action
 
 > Only allowed for trial Managed Instances.
 
@@ -49,7 +49,9 @@ gh workflow run mi_delete.yml -f customer=<CUSTOMER>
 Pull Request will open automatically.
 If error occurs, it will be sent to `#cloud-notifications` channel.
 
-## Destroy the managed instance infrastructure
+## II. Destroy the managed instance infrastructure
+
+> For production and internal trial Managed Instances.
 
 **Important!** Always start with a fresh terminal session to ensure you do not have any conflicting environment variables.
 
