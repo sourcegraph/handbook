@@ -98,6 +98,7 @@ The following code hosts are available for testing:
 
 - [gitlab.sgdev.org](https://gitlab.sgdev.org)
   - See [here](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=ohorqvirgq5t2h5cpo4hwafpuy&v=dnrhbauihkhjs5ag6vszsme45a) for token details.
+  - For more information about the infrastructure see [Gitlab infrastructure](https://handbook.sourcegraph.com/departments/engineering/dev/tools/infrastructure/gitlab/)
 
 The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored, depending on test types and demand.
 
