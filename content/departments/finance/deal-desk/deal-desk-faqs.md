@@ -6,15 +6,16 @@ Below are answers to common questions we receive in our #deal-desk Slack Channel
 
 #### Where can I find the most recent Order Form templates?
 
-You can download the latest Order Form templates here: [Sales Resources](../../sales/tools/salesresources.md). 
+You can download the latest Order Form templates here: [Sales Resources](../../sales/tools/salesresources.md).
 
-Available templates: 
+Available templates:
+
 - [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit): Only valid for renewals or expansion deals, for customers under our pre 4.0 packaging and under our Total User Account (TUA) billing model.
 - [Sourcegraph 4.0 OF: Code Intelligence Platform](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit): For new customers under our Monthly Active User (MAU) billing model (preferred method for capturing license excess and overages).
 
 After downloading a copy of the template, please drop it in the following g-drive folder: [New Customer in Progress](https://drive.google.com/drive/folders/1o2xBbEp0gy-N1f27RB_vu7CzdSPNRwXQ) (create a new customer folder).
 
-Althought the Order Form can be downloadad and completed manually by the AE, we strongly encourage to use CPQ to create your quote as DealHub will automatically generate the OF for you with all the required information. 
+Althought the Order Form can be downloadad and completed manually by the AE, we strongly encourage to use CPQ to create your quote as DealHub will automatically generate the OF for you with all the required information.
 
 #### How can I validate if a customer has a signed MSA in place?
 
@@ -22,7 +23,7 @@ You can check the executed contracts in our google drive folder: [Customer Contr
 
 #### The customer sent me the PO, do I need to save a copy?
 
-Yes, please attach the Customer´s PO to the SFDC Opportunity under “Files” section. 
+Yes, please attach the Customer´s PO to the SFDC Opportunity under “Files” section.
 
 ## Approvals & Processes
 
@@ -51,9 +52,9 @@ We should avoid having the Customer submit our contracts for signature as we los
 
 #### For soft cap expansion deals, do I require a signed Order Form? What documents do I need to book the opportunity?
 
-Customers under a soft cap do not require a new countersigned OF because they agreed to be charged when exceeding their Usage Limitations. However, in practice, we want to avoid sending an invoice unexpectedly to our Customers so we encourage AEs to contact them to request a confirmation prior to closing the opportunity in SalesForce, as once the opportunity is set to "Closed won", Finance will issue the invoice and will send it to the Customer . Some Customers will also request a quote to confirm the owed prorated amount - quotes can be requested through our Deal Desk Slack channel.  
+Customers under a soft cap do not require a new countersigned OF because they agreed to be charged when exceeding their Usage Limitations. However, in practice, we want to avoid sending an invoice unexpectedly to our Customers so we encourage AEs to contact them to request a confirmation prior to closing the opportunity in SalesForce, as once the opportunity is set to "Closed won", Finance will issue the invoice and will send it to the Customer . Some Customers will also request a quote to confirm the owed prorated amount - quotes can be requested through our Deal Desk Slack channel.
 
-Please attach the customer´s confirmation email to your SFDC Opportunity under the “Files” section. 
+Please attach the customer´s confirmation email to your SFDC Opportunity under the “Files” section.
 
 #### If the signed Agreement does not include any Excess Usage language, do I need a new Order Form to book an expansion opportunity?
 
