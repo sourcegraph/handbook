@@ -8,7 +8,7 @@ For more context on monitoring at Sourcegraph, you should refer to:
 - [Sourcegraph monitoring pillars](./monitoring_pillars.md)
 - [Sourcegraph monitoring architecture](./monitoring_architecture.md)
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), and for Cloud-specific documentation see the [Cloud monitoring documentation](./cloud.md).
+> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
 
 ![image](https://user-images.githubusercontent.com/3173176/82078081-65c62780-9695-11ea-954a-84e8e9686970.png)
 

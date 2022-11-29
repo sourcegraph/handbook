@@ -73,7 +73,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 4. 🟠 Named SDR converts to Opp
 5. Named SDR notifies assigned AE/CE
    1. Auto email from Salesforce upon Conversion
-   1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+   1. [INTERNAL] 🟠 Named SDR notifies assigned AE/CE in the #cloud-trial-alerts, and starts a thread in #cloud-trial-discussion, tagging the AE and CE in that thread.
 6. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
 ##### Case 2.2 the Acme Corp account is NOT a named account in SFDC
@@ -84,7 +84,7 @@ If the domain name is pre-qualified and there's no cloud instance linked to it, 
 1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assignees AE/CE
    1. Auto-email from Salesforce upon Conversion
-   2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+   2. [INTERNAL] 🟡 inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and starts a thread in #cloud-trial-discussion, tagging the AE and CE in that thread.
 1. 🟢 The assigned CE takes over from here, go to [Second step: onboarding, and trial extend, terminate, convert](#second-step-onboarding-and-trial-extend-terminate-convert)
 
 #### Case 3: acme-corp.com is NOT pre-qualified
@@ -105,7 +105,7 @@ There are two cases. It all starts with an alert is sent in #cloud-trial-alerts,
 1. 🟡 Inbound SDR converts to Opp
 1. 🟡 Inbound SDR notifies assigned AE/CE
    1. Auto-email from Salesforce upon Conversion
-   2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and creates a slack channel #cloud-trial-<acme-corp> and adds CE + AE.
+   2. 🟡 Inbound SDR notifies assigned AE/CE in the #cloud-trial-alerts, and starts a thread in #cloud-trial-discussion, tagging the AE and CE in that thread.
 1. An instance request GitHub issue is raised automatically and posted in channel. This is powered by this [zap](https://zapier.com/editor/173098650/published).
 1. 🟡 Inbound SDR adds the assigned CE email in the GitHub issue. This is very important: otherwise the CE will not be able to access the instance to generate `bob`'s initial password reset link. There is a `TODO` field in the GitHub issue that just needs to be replaced by the assigned CE's Sourcegraph email. Note: if the AE is Kevin Quigley, then he should be added as a CE to the instance as he is the acting CE for his accounts.
 1. 🟡 Inbound SDR sends a “welcome” email ([template to build upon](https://docs.google.com/document/d/10i_5wptneHGXk9BySixT3BhDyGaWTRJGQZ-OoNByq04/edit)), letting the prospect know that their instance is being provisioned, and introducing the CE who will be able to help with questions (AE in cc).

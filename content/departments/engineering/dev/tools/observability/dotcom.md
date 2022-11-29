@@ -1,6 +1,6 @@
-# Sourcegraph Cloud observability
+# Sourcegraph.com observability
 
-We provide some tooling to make [Sourcegraph Cloud](../../process/deployments/instances.md#sourcegraph-cloud) easier to monitor and observe. This includes observability for relevant critical infrastructure such as our [CI/CD pipelines](#ci-logs).
+We provide some tooling to make [Sourcegraph.com](../../process/deployments/instances.md#sourcegraph-cloud) easier to monitor and observe. This includes observability for relevant critical infrastructure such as our [CI/CD pipelines](#ci-logs).
 
 For general observability development, please refer to the [observability development documentation](https://docs.sourcegraph.com/dev/background-information/observability) instead, which includes links to useful how-to guides.
 
@@ -26,7 +26,7 @@ Loki allows you to easily query for logs, filter for fields within structured lo
 
 #### Cloud logs
 
-The Loki instance in Grafana Cloud is currently configured to ingest logs from Sourcegraph Cloud pushed from [`grafana-agent`'s Loki configuration](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/configure/grafana-agent/grafana-agent.ConfigMap.yaml#L58). To query these, you can start with a LogQL query like:
+The Loki instance in Grafana Cloud is currently configured to ingest logs from Sourcegraph.com pushed from [`grafana-agent`'s Loki configuration](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/configure/grafana-agent/grafana-agent.ConfigMap.yaml#L58). To query these, you can start with a LogQL query like:
 
 ```logql
 {deploy="sourcegraph",app="sourcegraph-frontend"}
