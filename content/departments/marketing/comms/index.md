@@ -101,4 +101,5 @@ Important channels:
 - #comms-team-internal
 
 Resources:
+
 - [2023 Event Plan](https://docs.google.com/spreadsheets/d/1Sdcz8PvzseQQRoczNq-he_kwhq4nA_PK7tFweLR1m7E/edit?usp=sharing)
