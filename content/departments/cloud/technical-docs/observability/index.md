@@ -15,7 +15,7 @@ These metrics are viewable through our centralised Grafana instance hosted at: h
 ### Common operations
 
 - To add a new dashboard to all managed instances, follow the [Creating a new individual dashboard](./operations.md#creating-a-new-individual-dashboard) procedure.
-- To create a new aggregated dashboard that queries multiple cloud instances, follow the [Creating a new mutli-instance dashboard](./operations.md#creating-a-new-multi-instance-dashboard) procedure.
+- To create a new aggregated dashboard that queries multiple cloud instances, follow the [Creating a new multi-instance dashboard](./operations.md#creating-a-new-multi-instance-dashboard) procedure.
 - To manually refresh the dashboards on Grafana, follow the [Manually regenerate Grafana dashboards](./operations.md#manually-regenerate-grafana-dashboards) playbook.
 
 ## Tracing
