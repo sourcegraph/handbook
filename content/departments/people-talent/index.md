@@ -6,7 +6,7 @@ While you should find the answer to most of your questions here, if you have any
 
 If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent.
 
-In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
+In case of emergency, the Head of People & Talent is available 24/7 via their cell phone number which is listed in their Slack profile.
 
 ## RESOURCES FOR CANDIDATES
 
