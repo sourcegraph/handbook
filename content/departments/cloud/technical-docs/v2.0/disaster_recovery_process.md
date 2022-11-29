@@ -118,7 +118,7 @@ curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```sh
 mi2 instance sql-backup list --slug $SLUG -e $ENVIRONMENT
 mi2 instance sql-restore create --backup-id $SQL_BACKUP_ID --slug $SLUG -e $ENVIRONMENT
-# wait untill ready
+# wait until ready
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT
 ```
 
