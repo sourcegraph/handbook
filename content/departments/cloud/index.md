@@ -137,27 +137,26 @@ Customer Engineers (CE) or Sales may request to:
 
 ### SLAs for managed instances
 
-Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
+Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/support/index.md#slas). Other engineering SLAs are listed below
 
 > SLA for internal requests may be extended during upstream service providers outage. For example, automated trial instance creation workflow relies on GitHub Actions and GitHub is down.
 
-|                                                                                   | Description                                            | Response time                                                                                                                     | Resolution time                                                                                                                   |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| New instance Creation                                                             | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need                                                                                     | Within 7 working days from agreement                                                                                              |
-| New Trial instance Creation (only from [signup](https://signup.sourcegraph.com/)) | Spin up new trial instance for a new customer          | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours | 1 hours within office hours: Monday to Friday - 7:00 AM GMT - 10:00 PM GMT or 1 working day if requested outside of working hours |
-| New Trial instance Creation                                                       | Spin up new trial instance for a new customer          | 1 working day                                                                                                                     | 1 working day                                                                                                                     |
-| Existing instance suspension                                                      | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
-| Existing instance deletion/teardown                                               | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need                                                                                     | Within 15 working days from agreement                                                                                             |
-| New Feature Request                                                               | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need                                                                                     | Dependent on the request                                                                                                          |
-| Maintenance: Monthly Update to latest release                                     | Updating an instance to the latest release             | NA                                                                                                                                | Within 1 week after latest release                                                                                                |
-| Maintenance: patch/emergency release Update                                       | Updating an instance with a patch or emergency release | NA                                                                                                                                | Within 1 week after patch / emergency release                                                                                     |
-| Add IP(s) to Managed Instance                                                     | Add new list of IPs to MI allowlist                    | 1 working day                                                                                                                     | Within 3 days                                                                                                                     |
+|                                               | Description                                            | Response time                                 | Resolution time                               |
+| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement          |
+| New Trial instance Creation                   | Spin up new trial instance for a new customer          | 1 working day                                 | 1 working day                                 |
+| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                      |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 10 working days after latest release   |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
+| Add IP(s) to Managed Instance                 | Add new list of IPs to MI allowlist                    | 1 working day                                 | Within 3 days                                 |
 
 ### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
 We have a maximum Recovery Point Time objective of 24 hours. Snapshots are performed at-least daily on managed instances. Some components may have lower RPOs (e.g. database).
 
-Our maximum Recovery Time Objective is defined by our [support SLAs](../ce-support/support/index.md#slas) for P1 & P2 incidents.
+Our maximum Recovery Time Objective is defined by our [support SLAs](../technical-success/support/index.md#slas) for P1 & P2 incidents.
 
 ### Incident Response
 
@@ -283,11 +282,46 @@ Use cases:
 - The customer would like to maintain an IP allowlist to permit traffic to their code hosts
 - The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
 
-Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs.
+Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
 
-For #ce teammates, please reach out to #cloud and include link to this FAQ
+There are two groups of IP.
+
+1. Primary outgoing IPs: This set of IPs is used by Sourcegraph to communicate directly with customer systems such as code hosts, authentication service, or SMTP service.
+2. (Optional) Executors outgoing IPs: This set of IPs is used by [executors](https://docs.sourcegraph.com/admin/deploy_executors) for all outgoing traffic. Executors is the technology that powers features like [server-side batch changes](https://docs.sourcegraph.com/batch_changes) and [code navigation auto-indexing](https://docs.sourcegraph.com/code_navigation/how-to/enable_auto_indexing). Under normal circumstances, executors do not communicate directly with custoemr systems. When do customers need to add executors IP to their IP allowlist?
+   - Customers are writing a batch change that commmunicates directly with the code host, e.g. run a custom script that invokes their on-prem GitLab instance API. If customers are only using SSBC to modify source code and allow Sourcegraph to handle the rest - commit and open PRs, they DO NOT need to whitelist executors IP.
+   - Customers are using auto-indexing to index repos that use packages from private registries, e.g. NPM packages from self-hosted [JFrog Artifactory](https://jfrog.com/artifactory/), Go packages from self-hosted code hosts. (Notes, we do not support indexing repo that uses private packages yet, this is here for future reference)
+   - Customers are using container images from private container registry in build steps during auto-indexing or SSBC. (Notes, we do not support private container registry yet, this is here for future referneces)
+
+For #ce teammates, please review above content and reach out to #cloud with sufficient context.
+
+For #cloud teammates, please run
+
+```sh
+# Primary outgoing IPs
+terraform output -json | jq -r '.cloud_nat_ips.value'
+# Executors outgoing IPs
+terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.address == "module.managed_instance.module.executors[0].module.networking.google_compute_address.nat[0]") and (.mode == "managed")) | .values.address'
+```
 
 ### FAQ: What code-hosts does Cloud support?
 
 Cloud supports all code-hosts types (self-managed and Cloud-managed), but it currently requires the code-host to have a public IP.
 More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJFoIFJjM-3ZA1qIyIl7o/edit)
+
+### FAQ: How do I figure out the GCP Project ID for a customer?
+
+The best way to determine the project ID for a given customer is to look up the customer in the `deploy-sourcegraph-managed` repo using the following query on S2:
+
+```
+repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$ file:config\.yaml lang:yaml customer: :[_\n]
+```
+
+The `customer` field should allow you identify the correct GCP project. If it's still unclear, a Cloud team member can help on Slack in the [#cloud](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel.
+
+Alternatively, users with `gcloud` access can run:
+
+```
+gcloud projects list --filter='labels.mi-security=true' --format="json(projectId,labels)"
+```
+
+and search the results for the customer name. The `domain` field should include the customer's domain name allowing the project ID to be identified.

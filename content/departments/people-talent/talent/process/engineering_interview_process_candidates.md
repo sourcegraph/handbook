@@ -28,6 +28,7 @@ We want to find engineers who are:
 
 - (30m) [Recruiter Screen](types_of_interviews.md#recruiter-screen)
 - (30m-60m) [Hiring Manager Screen](types_of_interviews.md#hiring-manager-screen)
+- (60m) [Resume Deep Dive](types_of_interviews.md#resume-deep-dive)
 - Team Interview
   - (60m) Technical Interview
   - (60m) Technical Interview
@@ -190,11 +191,11 @@ We want to find engineers who are:
 
 #### Technical Interview
 
-- **Interviewers:** Two engineers on the team they would manage
+- **Interviewers:** Two engineers on the team/org they would manage
 
 - **Duration:** 60-minutes.
 
-- **Details:** This interview will be a focused assessment of technical skills and requires work to be done prior to the interview. The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
+- **Details:** The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
 
 #### Cross-functional Team Collaboration
 

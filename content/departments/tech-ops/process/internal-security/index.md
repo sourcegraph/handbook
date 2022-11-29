@@ -13,7 +13,7 @@ As we attempt for SOC2 certification we are also acknowledging that we are more 
 ## Security measures Tech Ops is taking:
 
 - Institute baseline [device standards](../internal-security/computer-standards.md)
-- Enable enpoint management and antivirus solutions, such as [Workspace One and Carbon Black](../../tools/endpoint-antivirus.md)
+- Enable enpoint management and antivirus solutions, such as [Jamf](../../tools/endpoint-antivirus.md)
 - Set advanced [phishing/spoofing](../internal-security/phishing-spoofing.md) settings
 - Run quarterly system reviews (in work)
 - Perform internal audits (in work)
