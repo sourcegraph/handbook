@@ -19,7 +19,7 @@ Althought the Order Form can be downloadad and completed manually by the AE, we 
 
 #### How can I validate if a customer has a signed MSA in place?
 
-You can check the executed contracts in our google drive folder: [Customer Contracts] (https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm), where we archive every countersigned agreement. Naming convention: Year-Month-Date-Customer-Contract Name.
+You can check the executed contracts in our google drive folder: [Customer Contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm), where we archive every countersigned agreement. Naming convention: Year-Month-Date-Customer-Contract Name.
 
 #### The customer sent me the PO, do I need to save a copy?
 
