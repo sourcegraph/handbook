@@ -97,7 +97,9 @@ Be sure to set expectations with the site admin ahead of raising the issue and i
 
 ## Teardown Trial Managed Instance
 
-When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](./index.md#managed-instance-requests)
+When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](./index.md#managed-instance-requests).
+
+Cloud Team will receive new Trial Managed Instance Teardown request via email and on-call person should [delete instance](./technical-docs/v1.1/mi1-1_delete_process.md) within [SLA](./index.md#slas-for-managed-instances).
 
 ## Trial Managed Instance creation flow (manual)
 
@@ -121,10 +123,10 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 4. Finalisation (Cloud Team member)
 
    - checkout `<CUSTOMER>/create-instance` branch in`deploy-sourcegraph-managed` repository
+   - `cd <CUSTOMER>`
    - need to set the license on the instance (the license key should be added to the issue, unless it is default PLG licence)
      - run `mi set-license -license-key "$LICENSE_KEY"` (for PLG trials flag `--plg-default` instead of `-license-key` should be used - will use shared PLG licence key)
    - obtain customer reset link via `mi reset-customer-password --email <customer admin email>` and paste it into the GitHub issue
-   - when [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
    - (PLG triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## Automated PLG pre-provisioned Managed Instance flow
