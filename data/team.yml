@@ -193,9 +193,9 @@ kai_passo:
 
 rob_rhyne:
   name: Rob Rhyne
-  reports_to: director_design
-  manager_role_slug: design_manager_code_graph
-  role: Design Manager
+  reports_to: ceo
+  manager_role_slug: director_design
+  role: Director of Design
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -2147,19 +2147,6 @@ gronk:
   reports_to: vp_customer_engineering
   location: Hamburg, Germany 🇩🇪
   description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
-
-steve_fisher:
-  name: Steve Fisher
-  pronouns: he/him
-  role: Head of Design
-  manager_role_slug: director_design
-  reports_to: eng_lead
-  location: Sechelt, BC, Canada
-  github: hellofisher
-  email: steve.fisher@sourcegraph.com
-  links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
-  pronunciation: '[pronounce my name](https://www.pronouncenames.com/search?name=Steve+Fisher)'
-  description: Steve has led multiple high performing design organizations in agency, enterprise, and startup settings. Steve also lives on the edge of the ocean and mountains and loves exploring both. You can often catch up with him while he's traveling and working from his camper van with his wife and two doggos.
 
 lori_colston:
   name: Lori Colston
