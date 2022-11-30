@@ -127,7 +127,8 @@ Cloud Team will receive new Trial Managed Instance Teardown request via email an
    - need to set the license on the instance (the license key should be added to the issue, unless it is default PLG licence)
      - run `mi set-license -license-key "$LICENSE_KEY"` (for PLG trials flag `--plg-default` instead of `-license-key` should be used - will use shared PLG licence key)
    - obtain customer reset link via `mi reset-customer-password --email <customer admin email>` and paste it into the GitHub issue
-   - (PLG triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
+   - (PLG trial only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
+   - close GitHub issue
 
 ## Automated PLG pre-provisioned Managed Instance flow
 
