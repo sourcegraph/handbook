@@ -2,7 +2,7 @@
 
 ## Customer Segmentation
 
-We segment our customers into four discrete tiers. This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier.  Using both estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business. 
+We segment our customers into four discrete tiers. This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using both estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
 
 Our customer tiers are:
 | Customer Tier | Tier Criteria |
@@ -14,11 +14,12 @@ Our customer tiers are:
 
 ### Success Automation
 
-Customers who do not qualify into our traditional tier system will be served by our Success Automation function.  This tier includes:
-* Monthly recap emails with product and feature updates
-* Internal monitoring of usage with prescribed suggestions.
-* Ad-hoc monthly use case based working sessions.
-* Renewal process support with the Account Executive.
+Customers who do not qualify into our traditional tier system will be served by our Success Automation function. This tier includes:
+
+- Monthly recap emails with product and feature updates
+- Internal monitoring of usage with prescribed suggestions.
+- Ad-hoc monthly use case based working sessions.
+- Renewal process support with the Account Executive.
 
 ## Tooling
 
