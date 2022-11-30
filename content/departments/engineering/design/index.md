@@ -15,11 +15,11 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 ### Product Design
 
 - [Alicja Suska](../../../team/index.md#alicja-suska) – Product Designer,
-    Code Insights (she/her)
+  Code Insights (she/her)
 - [Daniel Marques](../../../team/index.md#daniel-marques) – Product
-    Designer, Batch Changes & Growth Product (he/him)
+  Designer, Batch Changes & Growth Product (he/him)
 - [Paulo Almeida](../../../team/index.md#paulo-almeida) – Product Designer,
-    Growth Marketing (he/him)
+  Growth Marketing (he/him)
 - [Sara Lee](../../../team/index.md#sara-lee) – Product Designer, Repo management, IAM (she/her)
 - [Quinn Keast](../../../team/index.md#quinn-keast) – Staff Product Designer
   (he/him) – [ReadMe](https://quinnkeast.com/readme)
