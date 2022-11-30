@@ -2,40 +2,40 @@
 
 Below are answers to common questions we receive in our #deal-desk Slack Channel.
 
-### Agreements, Forms and other templates
+## Agreements, Forms and other templates
 
 #### Where can I find the most recent Order Form templates?
 
-You can download the latest Order Form templates here: [Sales Resources](../../sales/tools/salesresources.md). We have 2 OF templates available:
+You can download the latest Order Form templates here: [Sales Resources](../../sales/tools/salesresources.md).
 
-- [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
-- [Sourcegraph 4.0 OF: Code Intelligence Platform](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
+Available templates:
 
-Please download the applicable one and drop your copy in the following g-drive folder: [New Customer in Progress](https://drive.google.com/drive/folders/1o2xBbEp0gy-N1f27RB_vu7CzdSPNRwXQ) (create a new customer folder).
+- [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit): Only valid for renewals or expansion deals, for customers under our pre 4.0 packaging and under our Total User Account (TUA) billing model.
+- [Sourcegraph 4.0 OF: Code Intelligence Platform](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit): For new customers under our Monthly Active User (MAU) billing model (preferred method for capturing license excess and overages).
 
-Also, you may use CPQ to create your quote and DealHub will automatically generate the OF for you.
+After downloading a copy of the template, please drop it in the following g-drive folder: [New Customer in Progress](https://drive.google.com/drive/folders/1o2xBbEp0gy-N1f27RB_vu7CzdSPNRwXQ) (create a new customer folder).
+
+Althought the Order Form can be downloadad and completed manually by the AE, we strongly encourage to use CPQ to create your quote as DealHub will automatically generate the OF for you with all the required information.
 
 #### How can I validate if a customer has a signed MSA in place?
 
-You can check previous signed agreements in our google drive folder: [Customer Contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) . For renewal and expansion deals, there is no need to reference the executed agreement date in the new order form but you should make sure we have signed Terms in place with the Customer. Here's our standard wording for renewal and expansion deals:
+You can check the executed contracts in our google drive folder: [Customer Contracts] (https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm), where we archive every countersigned agreement. Naming convention: Year-Month-Date-Customer-Contract Name.
 
-“This Order Form is governed by the terms, along with any applicable addenda and amendments, executed by and between the parties (“Terms”). No terms or conditions of any purchase order will modify this Agreement or affect the obligations of the parties.”
+#### The customer sent me the PO, do I need to save a copy?
 
-#### Where shall I save the countersigned agreement?
+Yes, please attach the Customer´s PO to the SFDC Opportunity under “Files” section.
 
-Every countersigned agreement should be archived in our google drive folder: [Customer Contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm). For booking purposes, the fully executed Order Form should also be attached to the SFDC Opportunity under “Files” section. Naming convention: Year-Month-Date-Customer-Contract Name.
-
-### Approvals & Processes
+## Approvals & Processes
 
 #### When shall I submit an Order Form for approval?
 
 When negotiating non-standard terms, please engage Deal Desk through the #deal-desk Slack Channel or at dealdesk@sourcegraph.com for approval. A list of our non-standard deal terms and our deal approval matrix can be found here: [Order Form review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit)
 
-If the quote was built in CPQ, Deal Desk will review the Order Form once you select “Submit for approval” . Every quote requires Deal Desk approval. Please find additional information on how to use CPQ here: [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
+If the quote was built in CPQ, Deal Desk will review the Order Form once you select “Submit for approval” . Every quote requires Deal Desk´s approval. Please find additional information on how to use CPQ here: [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
 
 #### How do I submit a document for signature?
 
-For contract signatures (OFs + MSAs) please create a new envelope in Docusign and add the following recipient's names and email addresses:
+For contract signatures (OFs, MSAs, POCs or DPAs) please create a new envelope in Docusign and add the following recipient's names and email addresses:
 
 1. Deal Desk´s Stamp
    Email: nicky.comber@sourcegraph.com
@@ -52,9 +52,9 @@ We should avoid having the Customer submit our contracts for signature as we los
 
 #### For soft cap expansion deals, do I require a signed Order Form? What documents do I need to book the opportunity?
 
-Customers under a soft cap do not require a new countersigned OF because they agreed to be charged if they exceed their Usage Limitations. However, in practice, we want to avoid sending an invoice unexpectedly to our Customers so we encourage AEs to contact them to request a confirmation prior to closing the opportunity in SalesForce. Please attach this confirmation email to your SFDC Opportunity under the “Files” section.
+Customers under a soft cap do not require a new countersigned OF because they agreed to be charged when exceeding their Usage Limitations. However, in practice, we want to avoid sending an invoice unexpectedly to our Customers so we encourage AEs to contact them to request a confirmation prior to closing the opportunity in SalesForce, as once the opportunity is set to "Closed won", Finance will issue the invoice and will send it to the Customer . Some Customers will also request a quote to confirm the owed prorated amount - quotes can be requested through our Deal Desk Slack channel.
 
-Additionally, a quote draft can be sent to the Customer. Please request it through our Deal Desk Channel.
+Please attach the customer´s confirmation email to your SFDC Opportunity under the “Files” section.
 
 #### If the signed Agreement does not include any Excess Usage language, do I need a new Order Form to book an expansion opportunity?
 
@@ -68,7 +68,7 @@ A Purchase Order on its own does not constitute a contractual commitment in the 
 
 No, we do not accept Credit Cards, only Bank ACH.
 
-### SalesForce
+## SalesForce
 
 #### What's the main difference between an expansion and a renewal opportunity?
 
@@ -82,7 +82,7 @@ Yes, Account Owner changes should be requested through the Sales Ops Channel and
 
 For additional information on how to use DealHub and create a quote, please review our [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
 
-### Pricing & Metrics
+## Pricing & Metrics
 
 #### Where can I find our current price list?
 
@@ -90,7 +90,7 @@ Our price list and our discount approval matrix can be found [here](https://docs
 
 #### Do I have to maintain the same Price per User per Year upon the contract renewal?
 
-The Price per User per Year on the renewal opportunity will be entirely subject to AEs negotiation. We are not tied to offering the same Per user Price to our Customers upon the contract renewal because our Terms of Service include a renewal clause which states that the subscription will be renewed for a one (1) year term at the then-current fees, unless otherwise stated in an Order Form. Please check the seat count discounting guidance here for additional information on average discounts.
+The Price per User per Year on the renewal opportunity will be entirely subject to AEs negotiation. We are not tied to offering the same Per user Price to our Customers upon the contract renewal because our Terms of Service include a renewal clause which states that the subscription will be renewed for a one (1) year term at the then-current fees, unless otherwise stated in an Order Form. Please check the seat count discounting guidance [here](https://docs.google.com/spreadsheets/d/1tJ1eN4leY_O6seGDR2ld8oyMZCFvZa5-CHXX5E6NvNc/edit#gid=1534779432)for additional information on average discounts.
 
 #### Can I sell a Platform fee only deal?
 
@@ -110,7 +110,7 @@ No, our products are not designed to be sold individually. We can sell Batch Cha
 
 Yes, early renewals are used to perform a “Contract reset”. If the customer signs an early renewal contract terminating the original agreement we should calculate the IARR as follows: Early Renewal Contract ARR - Current Contract ARR .
 
-### Reseller Deals
+## Reseller Deals
 
 #### Do we have a Reseller Program?
 
@@ -120,7 +120,7 @@ Yes, the goal of our Reseller Program is to to build key partnerships to help dr
 
 Our active Resellers are inventoried [here](../../sales/tools/referral_and_reseller_policy.md) and the agreements can be found [here](https://drive.google.com/drive/u/0/folders/1BnjAnhqinQ5cLmHjsxuuvWfGVVs_h5Ku)
 
--For deals through SHI: We do not have a Reseller Agreement in place, but they have accepted to sign our Order Form including pass-through language that incorporates by reference our license agreement to which the Customer is subject, as well as Termination and Limitation of Liability language. Please contact Deal Desk to confirm the Order Form structure and Terms. For Cloud deals, please engage Legal team as liability caps require revision.
+-For deals through SHI: We do not have a Reseller Agreement in place, but they have accepted to sign our Order Form including pass-through language that incorporates by reference our license agreement to which the Customer will be subject, as well as Termination and Limitation of Liability language. Please contact Deal Desk to confirm the Order Form structure and Terms. For Cloud deals, please engage Legal team as liability caps require revision.
 
 -For deals through Insight: We signed a Letter of Agreement (LOA) on September 01st, 2022 that sets forth the terms under which Insight can procure Products from Sourcegraph and is valid for On-Prem deals. Insight does not agree to sign our Order Form and since the PO does not contitute a contractual commitment, we need to sign an Amendment to PO document for every deal. The Amendment to PO document will only be signed after they provide the PO, as we need to confirm it includes: product sold, price, quantity, deployment type, contract dates and payment terms. Please provide a copy of the PO to the Deal Desk team to confirm if it includes all the required information. For Cloud deals, please engage Legal team as liability caps require revision.
 

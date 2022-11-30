@@ -143,7 +143,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/suppor
 
 |                                               | Description                                            | Response time                                 | Resolution time                               |
 | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement          |
+| New instance Creation                         | Spin up new instance for a new customer                | 1 working day                                 | 1 working day from agreement                  |
 | New Trial instance Creation                   | Spin up new trial instance for a new customer          | 1 working day                                 | 1 working day                                 |
 | Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
@@ -151,6 +151,8 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/suppor
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 10 working days after latest release   |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 | Add IP(s) to Managed Instance                 | Add new list of IPs to MI allowlist                    | 1 working day                                 | Within 3 days                                 |
+
+_Agreement here is the date specified within the required Github issue_
 
 ### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
