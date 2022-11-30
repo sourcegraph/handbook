@@ -13,6 +13,10 @@ See [strategy](../../../../strategy-goals/strategy/growth-team/index.md)
 - Daniel Marques (temp), product designer
 - Alex Isken, product marketing manager
 
+## Guides
+
+- [Cloud trial operations](./cloud-trial-operations.md)
+
 ## Contact
 
 - #growth channel, `@growth-team` in Slack.
