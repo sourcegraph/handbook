@@ -230,14 +230,16 @@ You should also join channels mentioned in [your team’s documentation](../../d
 ### More on #exec-ama
 
 Transparency and high agency are core company value at Sourcegraph, that’s why Sourcegraph teammates are encouraged to ask direct questions of leadership, management, and their peers. If you have a question or feedback you want to share with the exec team, you can:
+
 - Message them directly, or share it with your manager
 - Submit it via Slack in the [#exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) channel (visible to the whole company)
 - Ask it anonymously via Lattice Pulse surveys (which allows anonymous two-way dialogue)
 
 As a reminder, if presenting a problem, please follow the below guidance:
+
 - What's the feedback or problem? (be specific)
 - Why is this a problem for you? (provide context)
-- What's your recommendation on how to fix the problem? (high agency) 
+- What's your recommendation on how to fix the problem? (high agency)
 
 To submit a question in #exec-ama, use the workflow outlined below. Questions will be answered within 48 hours and all answers will also be documented [here](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit#) to allow for long-term documentation.
 
