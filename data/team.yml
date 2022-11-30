@@ -286,7 +286,7 @@ christine_lovett:
 
 alicja_suska:
   name: Alicja Suska
-  reports_to: design_manager_code_graph
+  reports_to: director_design
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
   role: Product Designer, Frontend Platform, Growth and Integrations, and Code Insights
@@ -1919,7 +1919,7 @@ sally_voisen:
 
 daniel_marques:
   name: Daniel Marques
-  reports_to: design_manager_code_graph
+  reports_to: director_design
   pronouns: he/him
   role: Product Designer, Batch Changes
   location: Leiria, Portugal 🇵🇹
@@ -2062,7 +2062,7 @@ josé_taylor:
 
 paulo_almeida:
   name: Paulo Almeida
-  reports_to: design_manager_code_graph
+  reports_to: director_design
   pronouns: he/him
   role: Product Designer, Search
   location: São Paulo, Brazil 🇧🇷
