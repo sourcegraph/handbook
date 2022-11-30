@@ -10,7 +10,7 @@ The customer must:
 
 - have a Sourcegraph instance on v3.20.0 or later
 - use databases on Postgres 11 or later
-- *not* have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
+- _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
 - have the latest version of [`src`](https://github.com/sourcegraph/src-cli)
 - have direct database access
 - have a site-admin access token for their instance
@@ -28,8 +28,8 @@ The customer should add a non-dismissible site notice to their instance in globa
       "dismissible": false,
       "location": "top",
       "message": "🚨 A Sourcegraph instance migration is underway - changes to configuration might not be persisted, and performance may be affected, until the migration is finalized."
-    },
-  ],
+    }
+  ]
 }
 ```
 
