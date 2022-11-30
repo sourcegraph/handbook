@@ -209,7 +209,7 @@ We also expect to automate most of the manual steps in the signup workflow to ta
   - Ongoing trials
   - Traffic -> lead -> trial instances
   - Lead status breakdown
-- [All PLG Opportunities (SFDC)](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051FcBEAU/view)
+- [All PLG Opportunities (SFDC)](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051GNgEAM/view)
 - [Amplitude instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)
   - Event-level data from trial instances
 - [Server instance overview (Looker)](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Netflix&Salesforce+Unique+ID=)
