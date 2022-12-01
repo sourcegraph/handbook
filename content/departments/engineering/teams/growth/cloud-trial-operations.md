@@ -248,7 +248,10 @@ gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json
   
  1. Determine what the admin's initial email is (that is the lead that requested the instance)
  1. Run the [List Managed Instance from GCP projects](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_list.yml) GitHub Action. This will output a list of all trial instances.
- 1. In that list, find out the domain that's associated with the admin's email.
+  
+![GitHub action to get the list of trial instance](https://storage.googleapis.com/sourcegraph-assets/growth/list-managed-instance-action.png)
+
+ 3. In that list, find out the domain that's associated with the admin's email.
   
 ```json
 "labels": {
@@ -258,7 +261,5 @@ gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json
   "mi-security": "true"
 }
 ```
-
-![GitHub action to get the list of trial instance](https://storage.googleapis.com/sourcegraph-assets/growth/list-managed-instance-action.png)
   
   
