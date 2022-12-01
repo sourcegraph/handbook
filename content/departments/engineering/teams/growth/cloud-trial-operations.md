@@ -243,16 +243,16 @@ gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json
 
 - If the customer is pre-qualified, the URL will be random (eg. `src-asfrn13.sourcegraph.com`).
 - If the customer is NOT pre-qualified, the URL will be the email domain of the requester (eg. `acme-corp` for `bob@acme-corp.com`).
-  
- To find out what the URL of the instance owner by a specific admin is:
-  
- 1. Determine what the admin's initial email is (that is the lead that requested the instance)
- 1. Run the [List Managed Instance from GCP projects](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_list.yml) GitHub Action. This will output a list of all trial instances.
-  
+
+To find out what the URL of the instance owner by a specific admin is:
+
+1.  Determine what the admin's initial email is (that is the lead that requested the instance)
+1.  Run the [List Managed Instance from GCP projects](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_list.yml) GitHub Action. This will output a list of all trial instances.
+
 ![GitHub action to get the list of trial instance](https://storage.googleapis.com/sourcegraph-assets/growth/list-managed-instance-action.png)
 
- 3. In that list, find out the domain that's associated with the admin's email.
-  
+3.  In that list, find out the domain that's associated with the admin's email.
+
 ```json
 "labels": {
   "domain": "srca10938--sourcegraph--com",
@@ -261,5 +261,3 @@ gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json
   "mi-security": "true"
 }
 ```
-  
-  
