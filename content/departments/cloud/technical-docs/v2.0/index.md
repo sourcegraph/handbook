@@ -81,4 +81,40 @@ The following processes only apply to Cloud v2.0:
 - [Delete a Managed instance](./delete_process.md)
 - [Disaster Recovery process for a Managed instance](./disaster_recovery_process.md)
 
+### How to update & apply terraform modules?
+
+In v2, we use `cdktf` via `mi2` cli to dynamically generate the cdktf stacks for each modules.
+
+In `cloud` repo, run the following:
+
+```sh
+mi2 workflow run -e $ENVIRONMENT -exec -exec.concurrency 4 generate-cdktf
+```
+
+Commit the changes and open a pull request.
+
+The following modules have auto-apply enabled, hence when they're changed, no action is required once they are merged
+
+- `monitoring`
+- `executors`
+- `security`
+
+For other modules, it's recommended to utilize below process.
+
+```sh
+# retrieve status of the plan
+# make sure to run `--help` to learn more about different output format options
+mi2 instance tfc check $module_name
+
+# confirm the plan and apply it
+mi2 instance tfc confirm
+```
+
+> We will add more step-by-step instruction in the future
+
+Depending on how complex and the blast radius of the change, you may consider sample plan outputs of a few instances,
+and use the `mi2 workflow` command to apply across all instances at once.
+You can also utilize the `mi2 workflow` command to aggregate the raw plan output of all instances and perform precise check on them to ensure
+the plan output is exactly what you are looking for.
+
 [sourcegraph/cloud]: https://github.com/sourcegraph/cloud
