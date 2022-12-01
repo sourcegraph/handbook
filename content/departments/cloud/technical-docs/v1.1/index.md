@@ -37,6 +37,7 @@ The following processes only apply to Managed Instances v1.1:
 - [Failover Process](./mi1-1_failover_process.md)
 - [Enable Executors](./mi1-1_enable_executors_process.md)
 - [Deploy a hotpatch](./mi1-1_hotpatch_process.md)
+- [On-prem to Cloud data migration](./mi1-1_onprem_data_migration.md)
 
 [cloud sql]: https://cloud.google.com/sql/postgresql
 [google cloud storage]: https://cloud.google.com/storage
