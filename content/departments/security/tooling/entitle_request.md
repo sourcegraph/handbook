@@ -2,8 +2,8 @@
 
 ## There are two ways of requesting access in Entitle.
 
-- Bundled Access
-- Resource Access
+- [Bundled Access](entitle_request.md#bundled-access-request)
+- [Resource Access](entitle_request.md#resource-access-request)
 
 ## Bundled Access Request:
 
