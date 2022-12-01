@@ -96,7 +96,7 @@ helm upgrade --install --values ./override.yaml --version 4.2.0 sourcegraph sour
 ```
 
 
-5. Make sure all the pods have been created successfully and are up and running before you move to the next step
+5. Make sure all the pods have been created successfully and are up and running before you move to the next step. (It might take a while for the pods to spin up but there shouldn't be any errors. Monitor the pod STATUS and troubleshoot unexpected Events.)
 
 ```
 ➜ kubectl get po
