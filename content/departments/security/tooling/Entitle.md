@@ -26,4 +26,5 @@ Entitle also gives us advantages over the current request process. It allows for
 - Full log of request, approvals, grants and revocations
 
 ## How to request access via Entitle
+
 [How to Guide](entitle_request.md)
