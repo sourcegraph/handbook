@@ -259,6 +259,6 @@ gcloud gcloud projects list --filter='labels.instance-type=trial' --format="json
 }
 ```
 
-![GitHub action to get the list of trial instance](https://storage.googleapis.com/sourcegraph-assets/growth/pipeline.svg)
+![GitHub action to get the list of trial instance](https://storage.googleapis.com/sourcegraph-assets/growth/list-managed-instance-action.png)
   
   
