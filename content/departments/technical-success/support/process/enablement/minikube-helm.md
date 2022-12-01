@@ -26,6 +26,7 @@ helm repo add sourcegraph https://helm.sourcegraph.com/release
 ```
 
 To update the repo:
+
 ```
 helm repo update sourcegraph
 ```
@@ -88,13 +89,11 @@ worker:
   resources: null
 ```
 
-
 4. Install the Sourcegraph chart, using the `override.yaml` file to include your customizations:
 
 ```
 helm upgrade --install --values ./override.yaml --version 4.2.0 sourcegraph sourcegraph/sourcegraph
 ```
-
 
 5. Make sure all the pods have been created successfully and are up and running before you move to the next step
 
@@ -140,7 +139,6 @@ kubectl expose deployment sourcegraph-frontend --type=NodePort --name sourcegrap
 minikube service sourcegraph
 ```
 
-
 ## Remove the instance
 
 1. Uninstall the sourcegraph release
@@ -156,6 +154,7 @@ minikube stop
 ```
 
 3. Delete the minikube cluster
+
 ```
 minikube delete
 ```
