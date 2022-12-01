@@ -24,3 +24,6 @@ Entitle also gives us advantages over the current request process. It allows for
 - Granular access to only necessary information
 - Quicker request completion time
 - Full log of request, approvals, grants and revocations
+
+## How to request access via Entitle
+[How to Guide](entitle_request.md)
