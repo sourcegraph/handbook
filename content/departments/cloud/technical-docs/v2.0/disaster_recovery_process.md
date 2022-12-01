@@ -27,8 +27,7 @@ curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 - connect to cluster
 
 ```sh
-mi2 instance workon -e $ENVIRONMENT --slug $SLUG
-# paste output into terminal
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
 ```
 
 - verify node zone
@@ -95,8 +94,8 @@ curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 
 ```sh
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
-# returns actual CloudSQL zone <OLD_ZONE>
-gsed -i 's/  gcpZone: <OLD_ZONE>/  gcpZone: <FAILOVER_ZONE/g' environments/$ENVIRONMENT/deployments/$INSTANCE_ID/config.yaml
+# returns actual CloudSQL zone
+mi2 instance edit --query '.spec.gcpZone = "'$FAILOVER_ZONE'"' --slug $SLUG -e $ENVIRONMENT
 mi2 generate cdktf -e $ENVIRONMENT --slug $SLUG
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
 terraform init && terraform apply
@@ -112,6 +111,8 @@ cd -
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
 curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```
+
+> Below steps are optional, they should be performed only if CloudSQL disk was lost.
 
 - restore backup in different zone
 
