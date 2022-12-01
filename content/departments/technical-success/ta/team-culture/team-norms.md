@@ -2,16 +2,7 @@
 
 ## Customer Segmentation
 
-We segment our customers into five discrete tiers. This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using both estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
-
-Our customer tiers are:
-| Customer Tier | Tier Criteria |
-| ---------------- | ---------------------------------------------- |
-| Strategic | 10k+ devs OR $1m+ ARR |
-| Large Enterprise | 3k - 10k devs OR $500k - $1m ARR |
-| Small Enterprise | 1.5k - 3k devs OR $100k - $500k ARR |
-| Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
-| Tech Nurtured | Any customer below 500 estimates devs |
+We segment our customers into [five discrete tiers](../../../../strategy-goals/strategy/index.md#market-segmentation). This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using both estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
 
 ### Success Automation
 
