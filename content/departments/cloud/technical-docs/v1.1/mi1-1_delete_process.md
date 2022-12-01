@@ -59,27 +59,32 @@ If error occurs, it will be sent to `#cloud-notifications` channel.
 
 Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
-1.  Navigate into the repository
+1. Request GCP access through Entitle (if applicable):
 
-    - `cd deploy-sourcegraph-managed`
+   - Select **Permission set category**: Google Cloud
+   - Select **Permission set**: Managed Instance Deletion
 
-1.  Pull in the latest changes
+2. Navigate into the repository:
 
-    - `git checkout main`
-    - `git pull`
+   - `cd deploy-sourcegraph-managed`
 
-1.  Setup the environment:
+3. Pull in the latest changes:
 
-    - `export CUSTOMER=<customer>`
-    - `source $CUSTOMER/tfvars.env`
+   - `git checkout main`
+   - `git pull`
 
-1.  Create a branch for the teardown
+4. Setup the environment:
 
-    - `git checkout -b $CUSTOMER/destroy-managed-instance`
+   - `export CUSTOMER=<customer>`
+   - `source $CUSTOMER/tfvars.env`
 
-1.  Authenticate to the project:
+5. Create a branch for the teardown:
 
-    - `gcloud auth application-default login --project sourcegraph-managed-$CUSTOMER`
+   - `git checkout -b $CUSTOMER/destroy-managed-instance`
+
+6. Authenticate to the project (if access requested through Entitle):
+
+   - `gcloud auth application-default login --project sourcegraph-managed-$CUSTOMER`
 
 ### Navigate to the customer's managed instance directory
 
