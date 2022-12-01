@@ -29,7 +29,8 @@ of vulnerability.
 
 ## Entitle
 
-We use Entitle as our permission management system. 
+We use Entitle as our permission management system.
+
 - An Intro on [Entitle](entitle.md)
 - [How To Guide](entitle_request.md)
 - [FAQ](entitle_faq.md)
