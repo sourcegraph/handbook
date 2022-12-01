@@ -112,7 +112,7 @@ mi2 instance tfc confirm
 
 > We will add more step-by-step instruction in the future
 
-Depending on how complex and the blast radius of the change, you may consider sample a plan output of a few instances,
+Depending on how complex and the blast radius of the change, you may consider sample plan outputs of a few instances,
 and use the `mi2 workflow` command to apply across all instances at once.
 You can also utilize the `mi2 workflow` command to aggregate the raw plan output of all instances and perform precise check on them to ensure
 the plan output is exactly what you are looking for.
