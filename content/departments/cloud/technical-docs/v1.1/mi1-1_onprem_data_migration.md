@@ -6,7 +6,7 @@ This process describes the current state of how to do a full data migration of a
 
 ## Requirements
 
-The customer must:
+To qualify for a data migration, the customer must:
 
 - have a Sourcegraph instance on v3.20.0 or later
 - use databases on Postgres 11 or later
@@ -14,6 +14,11 @@ The customer must:
 - have the latest version of [`src`](https://github.com/sourcegraph/src-cli)
 - have direct database access
 - have a site-admin access token for their instance
+
+An operator must:
+
+- have the latest version of [`src`](https://github.com/sourcegraph/src-cli)
+- have the `gcloud` CLI installed
 
 ## Process
 
@@ -65,23 +70,30 @@ TARGETS FILES
 ```
 
 Each of the generated commands must be run to completion to generate a database dump for each database.
+The output is as follows:
 
-For custom or complex database setups, a Cloud team engineer will decide how best to proceed, in collaboration with IE/CSE/etc.
+- `src-snapshot/primary.sql`
+- `src-snapshot/codeintel.sql`
+- `src-snapshot/codeinsights.sql`
+
+For custom or complex database setups, the operator will decide how best to proceed, in collaboration with IE/CSE/etc - the goal in the end is to generate the above database dumps in a format aligned with the output of `src snapshot databases pg_dump` (the plain `pg_dump` commands).
 
 > NOTE: Database export may affect the performance of the Sourcegraph instance while it is in progress. Depending on the size of the instance's databases, this can take a very long time.
 
 #### Instance summary
 
-A snapshot summary is used to run acceptance tests post-migration. Create one with `src snapshot summary` - note that a site admin access token is required.
+A snapshot summary is used to run acceptance tests post-migration. The customer should create one with `src snapshot summary` - note that a site admin access token is required:
 
 ```sh
-src login
+src login # configure credentials for the instance
 src snapshot summary
 ```
 
+This will generate a JSON file at `src-snapshot/summary.json`. See `src snapshot summary --help` for more details.
+
 ### Create migration resources
 
-First, [create an instance](mi1-1_creation_process.md) with the configuration for the desired final Cloud instance and freeze it:
+First, the operator must [create an instance](mi1-1_creation_process.md) with the configuration for the desired final Cloud instance and freeze it:
 
 ```sh
 mi ssh-exec 'cd /deployment/docker-compose && docker-compose down'
@@ -89,10 +101,11 @@ mi ssh-exec 'cd /deployment/docker-compose && docker-compose down'
 
 In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository:
 
-1. Copy the `template` directory, naming it corresponding to the customer
+1. Copy the `template/` directory, naming it corresponding to the customer
 2. For `project/`:
-   1. Fill out all `$CUSTOMER` variables and set all unset variables
-   2. Create Terraform Cloud workspace for the directory and apply
+   1. Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented
+   2. Commit and push your changes
+   3. Create Terraform Cloud workspace for the directory and apply
 3. Then do the same for `resources/`, using the outputs of `project/`
 
 Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. Create a 1password share entry with these outputs:
@@ -121,7 +134,18 @@ src snapshot upload -bucket=$BUCKET -credentials=$CREDENTIALS_FILE
 
 > NOTE: `src snapshot upload` will upload all resources concurrently, but depending on the size of the database exports and other conditions, uploads may still take a very long time. If an upload fails, it may safely be attempted again.
 
-### Import databases
+Once the customer has indicated the upload succeeded, validate the contents of the bucket to ensure everything is there:
+
+- `primary.sql`
+- `codeintel.sql`
+- `codeinsights.sql`
+- `summary.json`
+
+> NOTE: Data is currently [retained for 7 days](https://github.com/sourcegraph/cloud-data-migrations/blob/6ab4c982d505d76c8c7aa6fa2e22ce8c2495055a/modules/migration_resources/main.tf#L90-L98).
+
+Audit logs are generated for bucket access in the project's logs, under log entries with `@type: "type.googleapis.com/google.cloud.audit.AuditLog"`.
+
+### Reset databases
 
 First, prepare the Cloud database for import:
 
@@ -131,10 +155,10 @@ gcloud components install cloud_sql_proxy
 
 > NOTE: This may not work due to some path jankness - we will have better tooling when Cloud V2 is GA.
 
-First, get the following data from the Cloud v1.1 isntance created in `deploy-sourcegraph-managed`:
+Get the following data from the Cloud v1.1 instance created in `deploy-sourcegraph-managed`:
 
 ```sh
-# from project
+# from GCP project
 export TARGET_INSTANCE_PROJECT="sourcegraph-managed-migration"
 export TARGET_INSTANCE_DB="main-47cc60a2"
 # in deployment dir
@@ -143,21 +167,25 @@ export INSTANCE_ADMIN_PASSWORD=$(terraform show -json | jq -r '.values.root_modu
 export DB_DUMP_BUCKET=""
 ```
 
-Then in `cloud-data-migrations`:
+Then in `cloud-data-migrations`, drop all database contents:
 
 ```sh
 cmd/cdi/recreate_dbs.sh
+```
 
+### Import databases
+
+Ensure [databases have been reset](#reset-databases). Then, one by one, import each database from the bucket the customer has uploaded to:
+
+```sh
 gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_INSTANCE_DB gs://$DB_DUMP_BUCKET/primary.sql --database=pgsql
-
 gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_INSTANCE_DB gs://$DB_DUMP_BUCKET/codeintel.sql --database=codeintel-db
-
 gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_INSTANCE_DB gs://$DB_DUMP_BUCKET/codeinsights.sql --database=codeinsights-db
 ```
 
 ### Upgrade databases
 
-> NOTE: Starting here, the process is not very well-tested at the moment.
+> NOTE: This step requires additional validation ([#1650](https://github.com/sourcegraph/customer/issues/1650)).
 
 Start the database proxy on the instance:
 
@@ -165,7 +193,7 @@ Start the database proxy on the instance:
 mi ssh-exec 'cd /deployment/docker-compose && docker-compose up -d cloud-sql-proxy'
 ```
 
-If the imported version is less than 2 versions behind Cloud, then you can simply run the migrator:
+If the imported version is less than 2 versions behind Cloud, then you should be able to simply run the migrator:
 
 ```sh
 mi ssh-exec 'cd /deployment/docker-compose && docker-compose up migrator'
@@ -177,7 +205,11 @@ Otherwise, run a multi-version upgrade:
 mi ssh-exec 'cd /deployment/docker-compose && docker run --env-file .env --network docker-compose_sourcegraph sourcegraph/migrator:$TO upgrade -from=$FROM -to=$TO'
 ```
 
+> NOTE: If anything goes horribly wrong, you can [reset databases](#reset-databases) and continue again from there with adjusted steps as needed.
+
 ### Spin up instance
+
+> NOTE: This step requires additional validation ([#1651](https://github.com/sourcegraph/customer/issues/1651)).
 
 If all upgrades succeed, spin up the instance:
 
@@ -197,7 +229,7 @@ Run a health check:
 mi check --executors
 ```
 
-Run an acceptance test using a downloaded `summary.json` from the snapshot bucket:
+Run an acceptance test using the downloaded `summary.json` from the snapshot bucket:
 
 ```sh
 src login # to the instance
