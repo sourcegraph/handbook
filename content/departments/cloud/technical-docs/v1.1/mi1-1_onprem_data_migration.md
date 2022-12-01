@@ -11,13 +11,13 @@ To qualify for a data migration, the customer must:
 - have a Sourcegraph instance on v3.20.0 or later
 - use databases on Postgres 11 or later
 - _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
-- have the latest version of [`src`](https://github.com/sourcegraph/src-cli)
+- have the [latest release](https://github.com/sourcegraph/src-cli/releases) of [`src`](https://github.com/sourcegraph/src-cli)
 - have direct database access
 - have a site-admin access token for their instance
 
 An operator must:
 
-- have the latest version of [`src`](https://github.com/sourcegraph/src-cli)
+- have the [latest _build_](https://github.com/sourcegraph/src-cli/blob/main/DEVELOPMENT.md#development) of [`src`](https://github.com/sourcegraph/src-cli) installed
 - have the `gcloud` CLI installed
 
 ## Process
