@@ -110,7 +110,7 @@ In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migra
    3. Create Terraform Cloud workspace for the directory and apply
 3. Then do the same for `resources/`, using the outputs of `project/`
 
-Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. Create a 1password share entry with these outputs:
+Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. [Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
 
 - `snapshot_bucket_name`
 - `writer_service_account_key`
