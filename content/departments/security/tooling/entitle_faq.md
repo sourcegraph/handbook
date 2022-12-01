@@ -14,7 +14,7 @@
 
 ## Q. If my team uses a group of permissions regularly, how can these be requested more easily?
 
-#### A. [Contact](https://handbook.sourcegraph.com/departments/security/#contact) The Security team to create a Bundle for those permissions
+#### A. [Contact](../index.md#contact) The Security team to create a Bundle for those permissions
 
 ## Q. I want access to a project in our “Engineering Projects” folder. How do i do that?
 
