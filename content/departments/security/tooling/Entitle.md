@@ -1,10 +1,12 @@
 # Entitle
 
 ## What is it?
+
 Entitle is an authentication and access management system. It is a cloud based application that automates access requests, approvals, and revocation of permissions based on custom policies. All of this can be done via slack with a simple command “/entitle”.
 
 ## Why Entitle?
-After reviewing multiple options available on the market for permission management, Entitle stood out as a clear innovator in the field. Entitle has deep integrations with various applications that we currently use. We have been working closely with them since our first Sourcegraph Merge to get integrations setup and polish the user interface. 
+
+After reviewing multiple options available on the market for permission management, Entitle stood out as a clear innovator in the field. Entitle has deep integrations with various applications that we currently use. We have been working closely with them since our first Sourcegraph Merge to get integrations setup and polish the user interface.
 
 There are many security concerns that come with Identity and Access Management. Entitle helps address many of them for us, including:
 
@@ -15,12 +17,10 @@ There are many security concerns that come with Identity and Access Management. 
 - Granular access means only access to relevant data
 
 Entitle also gives us advantages over the current request process. It allows for:
+
 - Self serve request process
 - Automatic approval gathering process
 - Time based permissions
 - Granular access to only necessary information
 - Quicker request completion time
 - Full log of request, approvals, grants and revocations
-
-
-
