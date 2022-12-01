@@ -101,6 +101,8 @@ mi ssh-exec 'cd /deployment/docker-compose && docker-compose down'
 
 In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository:
 
+> NOTE: The TFC workspace requires special configuration to properly set it up, we will document this in the future. For now, just ask in #cloud-internal.
+
 1. Copy the `template/` directory, naming it corresponding to the customer
 2. For `project/`:
    1. Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented
