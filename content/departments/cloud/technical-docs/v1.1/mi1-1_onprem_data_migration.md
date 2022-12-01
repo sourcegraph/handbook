@@ -193,13 +193,13 @@ Start the database proxy on the instance:
 mi ssh-exec 'cd /deployment/docker-compose && docker-compose up -d cloud-sql-proxy'
 ```
 
-If the imported version is less than 2 versions behind Cloud, then you should be able to simply run the migrator:
+If the imported version is less than 2 versions behind Cloud, then you [should be able to simply run the migrator](https://docs.sourcegraph.com/admin/how-to/manual_database_migrations#up):
 
 ```sh
 mi ssh-exec 'cd /deployment/docker-compose && docker-compose up migrator'
 ```
 
-Otherwise, run a multi-version upgrade:
+Otherwise, you may need to run a [multi-version upgrade](https://docs.sourcegraph.com/admin/deploy/docker-compose/upgrade#multi-version-upgrades):
 
 ```sh
 mi ssh-exec 'cd /deployment/docker-compose && docker run --env-file .env --network docker-compose_sourcegraph sourcegraph/migrator:$TO upgrade -from=$FROM -to=$TO'
