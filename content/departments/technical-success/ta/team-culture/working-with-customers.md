@@ -2,23 +2,22 @@
 
 A TA, being both a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
-- [Recurring Daily Responsibilities](#recurring-touchpoints)
+- [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
   - [Internal](#internal)
   - [External](#external)
+- [Process](#processes)
+  - [Renewals](#renewal-process)
+  - [Red Accounts](#red-accounts)
+  - [Customer Health](#customer-health)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
   - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
   - [New User Onboarding](#user-onboarding)
   - [Webinars / Trainings / Q&A Sessions](#webinars--trainings--qa-sessions)
   - [QBRs](#qbrs)
   - [Expansions and Renewals](#expansions-and-renewals)
-  - [Ongoing Customer Nurture](#ongoing-customer-nurture)
   - [Account Management](#account-management)
 - [Playbooks](#playbooks)
   - [Account Health](#account-health)
-- [Process](#processes)
-  - [Renewals](#renewal-process)
-  - [Red Accounts](#red-accounts)
-  - [Account Planning](#account-planning)
 
 ---
 
@@ -43,6 +42,90 @@ The following are a sample of the activities that a TA is responsible for on a d
   - Product updates
   - Product research
 - Usage & Value Reporting on a quarterly basis
+
+# Processes
+
+Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the TA team either drives or heavily contributes to are outlined below.
+
+## Renewal Process
+
+Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
+
+### Process and Roles & Responsibilities
+
+Our renewal process is a 5 step process that begins 180 days prior to renewal date.
+
+You can read about the process and roles & responsibilities [here](https://docs.google.com/presentation/d/1TguV96BTdC6AuXX5DLoMDG1yWLe5HU5qmyWZD79Odjo/edit?usp=sharing).
+
+## Red Accounts
+
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+
+As the team accountable for our customers' technical success, usage, and adoption of our products, TAs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.
+
+### Overview
+
+For any account that is designated as having a health rating of red - either via [calculated score](https://sourcegraph.looker.com/dashboards-next/179?Customer+Engineer=&Account+Executive=&Unique+Server+ID=&Region=) or by a member of the account team - the AE and TA will jointly provide a current status of the account, identify any necessary asks of the business in order to best serve the customer, create an appropriate action plan, and track through to resolution (ideally promotion of the health from red to yellow or green).
+
+### Red Accounts Process
+
+In slack, the #red-accounts channel has been created so that when the Customer Health field on the Salesforce Account record is set to Red, a post is auto-triggered in the slack channel and a corresponding row will be automatically added to the Account Tracker tab of the [Red Accounts](https://docs.google.com/spreadsheets/d/1eVgWhrtgH8WQGo_pRuMseqz-Bk1P1Bymrlkutzz5jEA/edit#gid=0) Google Sheet. The AE / CE will jointly fill in relevant information to understand current state, needs, and the intended actions. Any asks or needs against the intended action plan should be initiated via a thread on the auto-generated slack post; this allows for visibility and transparency.
+
+### Roles and Responsibilities
+
+The TA will monitor the Customer Health dashboard and where applicable update the Customer Health field on the Salesforce Account record to red.
+
+Should an AE or TA feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.
+
+Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
+
+## Customer Health
+
+A Customer Health Score is used to give us a view into the wellbeing of our customer base.
+
+Vitally is the tool we use to calculate this score using the following categories:
+
+| Customer Tier              | Weight |
+| -------------------------- | ------ |
+| TA Pulse                   | 5%     |
+| Technical Health           | 5%     |
+| Relationships & Engagement | 15%    |
+| Utilization                | 75%    |
+
+Those categories are made up of the following data points:
+
+**TA Pulse**
+| Trait | Description | Source |
+| ---------------- | ---------------------------------------------- | --- |
+| Relationship - CE Pulse | This is the TA's opinion of the account health. Healthy, Concerning, or Poor | Manually set by TA |
+
+**Technical Health**
+| Trait | Description | Source |
+| ---------------- | ---------------------------------------------- | --- |
+| Last Month Versions Behind | At the end of each calendar month, we look at the version that the instance is currently on compared to the most recent version of Sourcegraph. This is that difference. | Sourcegraph generated (BigQuery) |
+
+**Relationships & Engagements**
+| Trait | Description | Source |
+| ---------------- | ---------------------------------------------- | --- |
+| Relationship - Active Champion? | This trait indicates that we have an active champion built inside the customer. | Manually set by TA |
+| Relationship - Access to buyer? | This trait indicates that we currenly have a line of communication to the buyer of Sourcegraph or the buyer for the renewal. | Manually set by TA |
+| Last Activity | Looks at last contact as logged in by Salesforce | Salesforce |
+
+**Utilization**
+| Trait | Description | Source |
+| ---------------- | ---------------------------------------------- | --- |
+| Usage Score | This is a metric generated by the Sourcegraph analytics team | Sourcegraph generated (BigQuery) |
+| Last Month Mau Over Seats | At the end of each calendar month we look at the Monthly Active Users of an instance for that month. We then divide that by the number of seats they have purchased. Number between 0 (bad) and 1 (good)| Sourcegraph generated (BigQuery) |
+
+### Processes
+
+Vitally will update this score once an hour, but the underlying traits still need to be maintained.
+
+This [Project](https://sourcegraph.vitally.io/settings/projects/project-templates/23608733-771d-46f4-ae7f-f2f9fd603b39) will remind the TA team once a month to keep these traits up to date.
+
+The remaining traits will be automatically imported to Vitally from BigQuery and Salesforce.
+
+This [View](https://sourcegraph.vitally.io/views/598e039e-947e-4c04-9b0d-b98f38821159) can be used to see the current state of these traits for your accounts all in one spot.
 
 # Post-Sales Customer Touchpoints
 
@@ -147,39 +230,3 @@ To enable TAs and ensure consistent practices, our team may produce playbooks fr
 _This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit) offers a repeatable framework for mitigating the risk of low adoption scores by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the [Customer Health Dashboard - Individual Customer](https://sourcegraph.looker.com/dashboards-next/194?Unique+Server+ID=Eventbrite) and mature over time to provide more refined resources to support Customer Engineers.
-
-# Processes
-
-Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the TA team either drives or heavily contributes to are outlined below.
-
-## Renewal Process
-
-Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
-
-### Process and Roles & Responsibilities
-
-Our renewal process is a 5 step process that begins 180 days prior to renewal date.
-
-You can read about the process and roles & responsibilities [here](https://docs.google.com/presentation/d/1TguV96BTdC6AuXX5DLoMDG1yWLe5HU5qmyWZD79Odjo/edit?usp=sharing).
-
-## Red Accounts
-
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
-
-As the team accountable for our customers' technical success, usage, and adoption of our products, TAs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.
-
-### Overview
-
-For any account that is designated as having a health rating of red - either via [calculated score](https://sourcegraph.looker.com/dashboards-next/179?Customer+Engineer=&Account+Executive=&Unique+Server+ID=&Region=) or by a member of the account team - the AE and TA will jointly provide a current status of the account, identify any necessary asks of the business in order to best serve the customer, create an appropriate action plan, and track through to resolution (ideally promotion of the health from red to yellow or green).
-
-### Red Accounts Process
-
-In slack, the #red-accounts channel has been created so that when the Customer Health field on the Salesforce Account record is set to Red, a post is auto-triggered in the slack channel and a corresponding row will be automatically added to the Account Tracker tab of the [Red Accounts](https://docs.google.com/spreadsheets/d/1eVgWhrtgH8WQGo_pRuMseqz-Bk1P1Bymrlkutzz5jEA/edit#gid=0) Google Sheet. The AE / CE will jointly fill in relevant information to understand current state, needs, and the intended actions. Any asks or needs against the intended action plan should be initiated via a thread on the auto-generated slack post; this allows for visibility and transparency.
-
-### Roles and Responsibilities
-
-The TA will monitor the Customer Health dashboard and where applicable update the Customer Health field on the Salesforce Account record to red.
-
-Should an AE or TA feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.
-
-Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
