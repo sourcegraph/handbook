@@ -42,30 +42,30 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
 1. Request GCP access through Entitle (if applicable)
 
-    - Select **Permission set category**: Google Cloud
-    - Select **Permission set**: Managed Instance Deletion
+   - Select **Permission set category**: Google Cloud
+   - Select **Permission set**: Managed Instance Deletion
 
-3. Navigate into the repository
+2. Navigate into the repository
 
-    - `cd deploy-sourcegraph-managed`
+   - `cd deploy-sourcegraph-managed`
 
-1. Pull in the latest changes
+3. Pull in the latest changes
 
-    - `git checkout main`
-    - `git pull`
+   - `git checkout main`
+   - `git pull`
 
-1. Setup the environment:
+4. Setup the environment:
 
-    - `export CUSTOMER=<customer>`
-    - `source $CUSTOMER/tfvars.env`
+   - `export CUSTOMER=<customer>`
+   - `source $CUSTOMER/tfvars.env`
 
-1. Create a branch for the teardown
+5. Create a branch for the teardown
 
-    - `git checkout -b $CUSTOMER/destroy-managed-instance`
+   - `git checkout -b $CUSTOMER/destroy-managed-instance`
 
-1. Authenticate to the project:
+6. Authenticate to the project:
 
-    - `gcloud auth application-default login --project sourcegraph-managed-$CUSTOMER`
+   - `gcloud auth application-default login --project sourcegraph-managed-$CUSTOMER`
 
 ### Navigate to the customer's managed instance directory
 
