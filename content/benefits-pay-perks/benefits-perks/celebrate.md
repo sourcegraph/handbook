@@ -128,6 +128,7 @@ Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie a
 Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
 
 **Budget:** All birthday and anniversary gifting will be coming from the _individual’s team budget_. When you’re sending a Loop & Tie gift, you will use credits already in the company Loop & Tie account. Then the People + Finance team will reclass the charges into the correct team budgets on a monthly cadence.
+
 - If Loop & Tie's current collections do not align with our outlined work anniversary budgets, please send a gift outside of Loop & Tie. Here are some [other gift ideas](celebrate.md#Other-gift-ideas).
 
 **Loop & Tie FAQS:**
