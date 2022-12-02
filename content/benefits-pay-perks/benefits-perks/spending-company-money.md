@@ -23,7 +23,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 #### Team-specific totals
 
 - We expect new [Design team](../../departments/engineering/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/ce-support/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
+- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/technical-success/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -54,13 +54,13 @@ Please see below how to get your computer and which specs to get depending on yo
 
 ### Full-time teammates
 
-Because of Apple manufacturing and global shipping delays, our recommended models can take anywhere from 4-12 weeks to arrive so we ask that once your contract is signed, please place an order for your Sourcegraph computer immediately. You are responsible for ordering your laptop through one of the following ways:
+Please place an order for your Sourcegraph computer immediately after signing your contract. You are responsible for ordering your laptop through one of the following ways:
 
 **US/Canada/UK-based teammates**
 
-Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK.
 
-**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
+**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple ID). All MacBooks and Apple Care insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
 
 Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
@@ -116,7 +116,7 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 ### Temporary laptop options
 
-If you have ordered your laptop but it is not expected to arrive by your start date please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations of what to do in the interium.
+Please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations .
 
 ### Laptop upgrade
 

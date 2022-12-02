@@ -61,15 +61,21 @@ Sourcegraph upgrades every test and customer instances according to [SLA](#slas-
 
 The release process is performed in steps:
 
-1. New version is released via [release guild](../../engineering/dev/process/releases/release_guild.md)
+1. New version is released via [release guild](../../engineering/guilds/release_guild.md)
 2. GitHub issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the managed instances upgrade template.
 3. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
 
 - for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
-  1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
-  1. [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
-  1. When test instance is working correctly, Cloud Team performs upgrade of all v1.1 customer instances
+  Stage | Working days since release | Action | Condition not met?
+  --- | --- | --- | --- |
+  1 | 0-2 | Upgrade internal instances by Cloud Team (incl. [demo](https://demo.sourcegraph.com/) and [rctest](https://rctest.sourcegraph.com/)) |
+  2 | 3-4 | Time for verification by Sourcegraph teams | New patch created -> start from 1st stage
+  3 | 5-6 | Upgrade: 30% trials 10% customers | New patch created -> upgrade internal in 1 working day and start from 2nd stage
+  4 | 7-8 | Upgrade: 100% trials 40% customers | New patch created -> upgrade internal in 1 working day and start from 3rd stage
+  5 | 9-10 | Upgrade: 100% customers | New patch created -> upgrade internal in 1 working day and start from 3rd stage
+
+After upgrade of every single instances [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
 
 Sample upgrade:
 
@@ -105,7 +111,9 @@ All metrics can be seen in [scoped projects dashboard](https://console.cloud.goo
 
 Every customer managed instance has alerts configured:
 
-- [uptime check - version v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529) configured in dedicated GCP managed instance project
+- cloud provider-managed uptime check is configured in dedicated GCP managed instance project
+  - [v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529)
+  - [v2.0](https://github.com/sourcegraph/controller/blob/0091a3b6fdad81297580499f26764befb7b72d21/internal/resource/monitoring/monitoring.go#L76-L114)
 - [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
 - [application performance metrics](./operations.md#performance-checks) - configured in customer intance [site-config.json](https://docs.sourcegraph.com/admin/config/site_config) via `mi cli` during instance creation
 

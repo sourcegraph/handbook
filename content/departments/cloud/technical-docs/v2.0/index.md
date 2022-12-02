@@ -52,9 +52,7 @@ All engineering teammates are allowed to create instances and perform experiment
 
 ### Production (`prod`) environment
 
-> `prod` environment is not created yet. we will revisit this when we're clsoe to GA.
-
-All dev projects are created under the [Sourcegraph Cloud V2 Prod] GCP project folder and [environments/prod](https://github.com/sourcegraph/cloud/tree/main/environments/prod) directory in the [sourcegraph/cloud] repo.
+All dev projects are created under the [Sourcegraph Cloud V2 Prod](https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?authuser=1&folder=286349018886&supportedpurview=project) GCP project folder and [environments/prod](https://github.com/sourcegraph/cloud/tree/main/environments/prod) directory in the [sourcegraph/cloud] repo.
 
 Access to `prod` environment is restricted and follow our [access policy](../../index.md#accessingdebugging-managed-instances).
 
@@ -63,7 +61,7 @@ This is our production environment and consists of internal and customer instanc
 Below is a list of long-lived internal instances:
 
 - [clouddev.sourcegraph.com](https://clouddev.sourcegraph.com)
-- [demo.sourcegraph.com](https://demo.sourcegraph.com)
+- [~demo.sourcegraph.com~](https://demo.sourcegraph.com) (we will migrate `demo` to v2 soon)
 
 Internal instances are created for various testing purposes:
 
@@ -81,5 +79,42 @@ The following processes only apply to Cloud v2.0:
 - [Restore a Managed Instance](./restore_process.md)
 - [Upgrade a Managed instance](./upgrade_process.md)
 - [Delete a Managed instance](./delete_process.md)
+- [Disaster Recovery process for a Managed instance](./disaster_recovery_process.md)
+
+### How to update & apply terraform modules?
+
+In v2, we use `cdktf` via `mi2` cli to dynamically generate the cdktf stacks for each modules.
+
+In `cloud` repo, run the following:
+
+```sh
+mi2 workflow run -e $ENVIRONMENT -exec -exec.concurrency 4 generate-cdktf
+```
+
+Commit the changes and open a pull request.
+
+The following modules have auto-apply enabled, hence when they're changed, no action is required once they are merged
+
+- `monitoring`
+- `executors`
+- `security`
+
+For other modules, it's recommended to utilize below process.
+
+```sh
+# retrieve status of the plan
+# make sure to run `--help` to learn more about different output format options
+mi2 instance tfc check $module_name
+
+# confirm the plan and apply it
+mi2 instance tfc confirm
+```
+
+> We will add more step-by-step instruction in the future
+
+Depending on how complex and the blast radius of the change, you may consider sample plan outputs of a few instances,
+and use the `mi2 workflow` command to apply across all instances at once.
+You can also utilize the `mi2 workflow` command to aggregate the raw plan output of all instances and perform precise check on them to ensure
+the plan output is exactly what you are looking for.
 
 [sourcegraph/cloud]: https://github.com/sourcegraph/cloud

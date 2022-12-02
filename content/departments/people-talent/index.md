@@ -6,7 +6,7 @@ While you should find the answer to most of your questions here, if you have any
 
 If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent.
 
-In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
+In case of emergency, the Head of People & Talent is available 24/7 via their cell phone number which is listed in their Slack profile.
 
 ## RESOURCES FOR CANDIDATES
 
@@ -546,21 +546,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
         </div>
         <div style="text-align: center">Jonathan Ayers</div>
         <div style="text-align: center; font-size: 12px">Director, People</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1">
-      <div>
-        <div style="text-align: center">
-          <a href="../../../../team/index.md#alex-mathison" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
-            alt="Picture of Alex Mathison"
-            style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Alex Mathison</div>
-        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
       </div>
     </div>
      <div class="col" style="flex: 1">

@@ -66,8 +66,8 @@ Each manager is responsible for celebrating their teammates' yearly milestones a
 Anniversary gifts will be coming from the individual's _team budget_ and should not exceed the following amounts per teammate and per year:
 
 - Year 1: $50 USD
-- Year 2: $75 USD
-- Year 3: $100 USD
+- Year 2: $100 USD
+- Year 3: $150 USD
 - Year 4: $200 USD
 - Year 5+: $250 USD
 
@@ -121,13 +121,15 @@ Please reach out in the #swag channel with any questions.
 
 ### Loop & Tie
 
-Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted.
+Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted. Loop & Tie also offers sustainability and social impact options that allow teammates who don't want to redeem a gift to donate their gift amount ($) toward a charity or environmental support organization.
 
 Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in the #swag slack channel and a current Loop & Tie admin (Kemper or Fabiana) will invite you to create an account.
 
 Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
 
-**Budget:** All birthday and anniversary gifting will be coming from the _individual’s team budget_. When you’re sending a Loop & Tie gift, you will use the company card on file. Then the People + Finance team will reclass the charges into the correct team budgets on a monthly cadence.
+**Budget:** All birthday and anniversary gifting will be coming from the _individual’s team budget_. When you’re sending a Loop & Tie gift, you will use credits already in the company Loop & Tie account. Then the People + Finance team will reclass the charges into the correct team budgets on a monthly cadence.
+
+- If Loop & Tie's current collections do not align with our outlined work anniversary budgets, please send a gift outside of Loop & Tie. Here are some [other gift ideas](celebrate.md#Other-gift-ideas).
 
 **Loop & Tie FAQS:**
 
