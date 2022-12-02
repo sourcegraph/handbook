@@ -52,6 +52,19 @@ Additionally, these are our [product design principles](../../departments/engine
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
 - All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.
 
+## Market Segmentation
+
+While our vision is applicable to companies of all shapes and sizes, We segment our customers into five discrete tiers.
+
+Our customer tiers are:
+| Customer Tier | Tier Criteria |
+| ---------------- | ---------------------------------------------- |
+| Strategic | 10k+ devs OR $1m+ ARR |
+| Large Enterprise | 3k - 10k devs OR $500k - $1m ARR |
+| Small Enterprise | 1.5k - 3k devs OR $100k - $500k ARR |
+| Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
+| Tech Nurtured | Any customer below 500 estimates devs |
+
 ## This year (FY23)
 
 Our strategy for FY23 is: **iterate with existing customers first to grow ARR.** ([Last year's strategy](history.md#what-we-learned-from-fy22s-strategy) was about serving larger and smaller customers.)
