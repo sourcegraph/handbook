@@ -145,14 +145,7 @@ mi2 generate kustomize -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 Run command below to obtain the commands to target the new cluster
 
 ```sh
-mi2 instance workon -e $ENVIRONMENT --slug $SLUG
-```
-
-Copy and run the output `gcloud` and `kubectl` commands, you shall see something like
-
-```sh
-gcloud container clusters get-credentials src-$random_hash --region us-central1 --project src-$random_hash
-kubectl config set-context gke_src-$random_hash_us-central1_src-src-$random_hash --namespace=src-$random_hash
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
 ```
 
 Deploy the manifests
