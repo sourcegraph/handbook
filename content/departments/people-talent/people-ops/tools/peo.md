@@ -47,7 +47,7 @@ After getting approval, you need to go to your [Deel dashboard](https://app.deel
 
 In the section below, you will find the Sourcegraph standard practices for each section.
 
-**Employee **
+**Employee**
 
 - Employee first and middle names
 - Employee last name
@@ -70,14 +70,15 @@ In the section below, you will find the Sourcegraph standard practices for each 
 
 - Currency
   - Local country of employment currency. Deel will auto-populate the correct one.
-- Gross annual base salary \* This has to be in the local country of employment currency. Because Sourcegraph’s agreements are in US dollars, you will need to convert the base salary. \
-  The Sourcegraph Finance team is responsible for determining the FX rate that is used when team members transition to being paid by PEO, and consequently when they transition to being paid in their local currency as opposed to USD. This FX rate will be applied to base salary and bonuses/commission.
+- Gross annual base salary
+
+* This has to be in the local country of employment currency. Because Sourcegraph’s agreements are in US dollars, you will need to convert the base salary.
+
+          The Sourcegraph Finance team is responsible for determining the FX rate that is used when team members transition to being paid by PEO, and consequently when they transition to being paid in their local currency as opposed to USD. This FX rate will be applied to base salary and bonuses/commission.
 
           To determine a fair and reasonable FX rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review FX rates on an annual basis, and the FX rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review.
 
-
-          Use the** Suggested FX rates** for the month shown at the appendix of [this document](https://docs.google.com/document/d/1Ccxw066auZd3idtkdNcwgBXeaoBPbIQT48wNUVp1XdM/edit) (keep in mind that it should match the _YTD Average_ value in **FX workings** table) to convert the gross annual base salary from USD to the local currency. Complete this field with that number.
-
+Use the **Suggested FX rates** for the month shown at the appendix of [this document](https://docs.google.com/document/d/1Ccxw066auZd3idtkdNcwgBXeaoBPbIQT48wNUVp1XdM/edit) (keep in mind that it should match the _YTD Average_ value in **FX workings** table) to convert the gross annual base salary from USD to the local currency. Complete this field with that number.
 
           Example: if the gross annual base salary in USD is 10,000usd and the Suggested FX rate in Euros is USD/EUR: 1.000/0.9371, you must divide 10,000 by 0.9371. The result is €10,671.2. This is what you will input in this field.
 
