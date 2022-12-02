@@ -12,6 +12,14 @@ These metrics are viewable through our centralised Grafana instance hosted at: h
 
 > NOTE: access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
 
+### Multi-instance dashboard
+
+We generate a dashboard that renders panels that opt-in to a [multi-instance overviews dashboard](https://monitoring.sgdev.org/d/multi-instance-overviews/multi-instance-overviews).
+
+Panels in this dashboard show the panel's query grouped by `project_id`, each of which represents a Cloud instance. The template variable dropdown at the top allow you to select instances to compare, which is persisted to the URL.
+
+To opt-in a panel to this multi-instance dashboard, see [how to add monitoring](https://docs.sourcegraph.com/dev/how-to/add_monitoring#centralized-observability).
+
 ### Common operations
 
 - To add a new dashboard to all managed instances, follow the [Creating a new individual dashboard](./operations.md#creating-a-new-individual-dashboard) procedure.
