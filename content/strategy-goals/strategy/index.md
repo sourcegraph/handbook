@@ -67,7 +67,7 @@ Let's break that down:
 
 Product development will go faster, incur less risk, and yield a more compelling and valuable product by iterating with existing customers (who already use Sourcegraph and can give us more and better feedback), not new prospective customers.
 
-Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to work directly with our customer to continually increase the value of core workflows so that our existing customers gett more value out of sourcegraph (and expand usage/revenue) faster.
+Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to work directly with our customer to continually increase the value of core workflows so that our existing customers get more value out of sourcegraph (and expand usage/revenue) faster.
 
 Don't think about this as "say no to building for prospects". Instead, think "create and execute on such a compelling product roadmap that we can meet our revenue targets and win new customers without needing to build specifically for prospects".
 
