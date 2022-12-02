@@ -54,9 +54,9 @@ Additionally, these are our [product design principles](../../departments/engine
 
 ## Market Segmentation
 
-While our vision is applicable to companies of all shapes and sizes, We segment our customers into five discrete tiers.
+We segment our customers into five discrete tiers to help define more nuanced value and ensure we're providing specialized support to each tier. Using both estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business. Having a single market segmentation for all groups across Sourcegraph helps avoid confusion in cross-company discussions.
 
-Our customer tiers are:
+Our five customer tiers are:
 | Customer Tier | Tier Criteria |
 | ---------------- | ---------------------------------------------- |
 | Strategic | 10k+ devs OR $1m+ ARR |
