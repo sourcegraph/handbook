@@ -82,6 +82,8 @@ cd kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
+<span class="badge badge-note">SOC2/CI-108</span>
+
 Confirm workload are healthy and remote version is the same as target version
 
 ```sh
