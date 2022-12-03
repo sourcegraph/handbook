@@ -24,6 +24,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [Navigating the PGSQL Database](pgsql-guide.md)
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
+- [How to run a Kubernetes instance locally using minikube and Helm](minikube-helm.md)
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
 - [How to Migrate Sourcegraph from one Cluster to another](k8-migration.md)
 - [Kubernetes and Docker](k8s-resources.md)
@@ -48,7 +49,6 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [Redis Crash Course](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 - [Repo permissions deep dive](https://drive.google.com/file/d/1rTB3QB1Vm-_zB7zOTIC5rJhrmmm3sgTa/view)
 - [Authentication](https://drive.google.com/file/d/1C5XFQIXkWOsgBQxz4izWcG_Ku6YlY4zc/view)
--
 
 ## Informational Pages
 
