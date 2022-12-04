@@ -26,12 +26,12 @@ Sourcegraph is not product-led, cloud-first. However, Sourcegraph's single-tenan
 
 On 2022-09-27, we launched a new signup flow that lets users get a single-tenant Sourcegraph cloud instance for a 15-day trial (extended to 30 days if the instance is used). Pre-qualified email domains instantly get a pre-provisioned instance, while non pre-qualified emails go through manual qualification and provisioning. After the instances are handed-off to customers, the Customer Engineering team starts a white-glove onboarding sequence (email, training sessions, etc) to help users onboard. Also see [cloud trial operations](./../../../departments/engineering/teams/growth/cloud-trial-operations.md) for details on the flow.
 
-We have observe 4 different [user journeys](https://docs.google.com/document/d/1Jlt1oeOwjPC_PSPypEwnwfIkT6K2hw_Jek3J16ZiW1A/edit) (private). To support product-led, cloud-first growth we'll have to fix the following issues (and more we will discover):
+We have observed 4 different [user journeys](https://docs.google.com/document/d/1Jlt1oeOwjPC_PSPypEwnwfIkT6K2hw_Jek3J16ZiW1A/edit) (private). To support product-led, cloud-first growth we'll have to fix the following issues (and more we will discover):
 
 - **Signup and self-service activation**
 
   - Setting up and onboarding Sourcegraph is high-commitment, and in many cases requires support from Sourcegraph's Customer Engineering. We observe that most signups don't add their codehost or activate on their own.
-  - It's hard and high commitment for users to add their code. It's frequent for trials to be in fact _pre-trials_: a potential champion requests a trial, and add their personal code to build a case to convince their team or management to run a Sourcegraph trial. We need to make that motion very easy, both in-product, and by allowing those champions to self-serve what they need (security, one-pager, business case, etc).
+  - It's hard and high commitment for users to add their code. It's frequent for trials to be in fact _pre-trials_: a potential champion requests a trial, and adds their personal code to build a case to convince their team or management to run a Sourcegraph trial. We need to make that motion very easy, both in-product, and by allowing those champions to self-serve what they need (security, one-pager, business case, etc) to drive a Sourcegraph trial.
   - There are many friction points in the flow, that are likely to cause churn. For example, if initial users don't reset their password within the first 72 hours, they need to talk to a CE to get a new reset password link.
   - The signup workflow is very manual, and relies on lots of ad hoc automation powered by Zapier that is brittle and constrains the experience. Managing trials requires lots of time from CE.
 
@@ -57,9 +57,10 @@ Now that we have launched an initial, semi-automated signup flow, our initial pr
 - **Make support and feedback inbound instead of outbound** ([#41929](https://github.com/sourcegraph/sourcegraph/issues/41929))
 - **Empower users to drive trials**, including showcasing Sourcegraph to their teams or decision makes, to lead to a trial. We will continue mapping [successfull and failed user journeys](https://docs.google.com/document/d/1Jlt1oeOwjPC_PSPypEwnwfIkT6K2hw_Jek3J16ZiW1A/edit#heading=h.ql3419vdhzcg) and work with other teams to make trials successfull.
 - **Iterate on the signup experience.** Build the infrastructure required to improve the signup experience ([RFC 763](https://docs.google.com/document/d/1MoDYlWBWALGDj-DJdlCvAAFpkrW0nwJL_nb0ih4uUJ0/edit#)). We will start building a cloud console API that will progressively replace the Zapier backend, and both reduce the operational burden, and improve the experience (eg. the brittle initial reset password experience).
-- **Refine user activation metrics and iterate on user onboarding and activation.**
+- **Refine metrics**
 
 ### What we're not working on & why
 
 - We are not working on the self-hosted motion until we have a working self-serve Cloud motion.
 - We are not building in-product conversion flows (example: credit card payments), and focus on generating PQLs for Sourcegraph's go-to-market team to engage with (product-led sales).
+- We're not immediately working on virality, until we fix initial onboarding. We need to focus on the biggest problem first.
