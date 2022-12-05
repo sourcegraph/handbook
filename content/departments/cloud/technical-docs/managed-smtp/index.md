@@ -46,6 +46,8 @@ Dashboards are available [in the SparkPost web application](https://app.eu.spark
 
 For MI 1.1, `mi check` will also report some statistics - see [MI 1.1 managed SMTP](../v1.1/mi1-1_managed_smtp.md).
 
+No alerting is available yet - see [future work: vendor-side alerting](#vendor-side-alerting).
+
 ## Vendor integration
 
 A reference implementation for MI v1.1 is available under `mi sync smtp`.
@@ -95,7 +97,7 @@ Vendor-side alerting can be set up by spinning up a service that can receive and
 
 ### Data privacy requests
 
-We can list recipients and delete all data associated with the [SparkPost data privacy API](https://developers.sparkpost.com/api/data-privacy/). Note that SparkPost has limited retention for most data - see [security: email contents](#email-contents)
+We can list recipients and delete all data associated with the [SparkPost data privacy API](https://developers.sparkpost.com/api/data-privacy/). Note that SparkPost has limited retention and access for most data - see [security](#security).
 
 ### Custom sending domains
 
