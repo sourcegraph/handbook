@@ -315,9 +315,8 @@ More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJ
 ### FAQ: What is the difference between air-gapped, private and public code hosts?
 
 - **Air-Gapped Code Host** is a code host that is physically isolated from the internet. For example the code host is deployed on a hardware (server) that is within customers office/private data center and the only way to connect to this code host is to be physically connected to this air-gapped network; a user has to be within the office and be connected to the air-gapped office network via ethernet cable of wi-fi. In this scenario the only option for Sourcegraph to work is on-prem deployment within the same air-gapped network and all users connect to Sourcegraph instance via local IP or local DNS. _Please note cloud will never be able to support air-gapped code hosts as these are based on their physical isolation so it’s not technically feasible for a Cloud instance to access such code host._
-- **Private Code Host**  is a code host deployed in a private network (for example AWS instance with within VPS). To connect to this code host a user has to have access to the private network usually via VPN, tunnelling or IP allow-listing
+- **Private Code Host** is a code host deployed in a private network (for example AWS instance with within VPS). To connect to this code host a user has to have access to the private network usually via VPN, tunnelling or IP allow-listing
 - **Public Code Host** is the code host that is publicly accessible on internet - a user can CURL it via IP of open the URL in the browser. The Sourcegraph instance can access this code host without using IP allow-listing, VPN or other methods. Of course accessing this code host is protected by authentication and authorization mechanisms
-
 
 ### FAQ: How do I figure out the GCP Project ID for a customer?
 
