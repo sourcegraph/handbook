@@ -18,4 +18,4 @@ See [managed SMTP](../managed-smtp/index.md) for more details.
 
 14-day vendor-side deliverability statistics are reported by `mi check`.
 
-For more details, see [managed SMTP: monitoring](managed-../managed-smtp/index.md#monitoring).
+For more details, see [managed SMTP: monitoring](../managed-smtp/index.md#monitoring).
