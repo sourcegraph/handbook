@@ -63,6 +63,14 @@ Now that we have launched an initial, semi-automated signup flow, our initial pr
   - If GitHub, my instance is preconfigured to allow other users to sign in via GitHub
 - **Refine metrics**
 
+### Dependencies on other teams
+
+We are working closely with the Cloud team on building blocks that are required for Growth to be successfull:
+
+- [RFC 765 WIP: API for Sourcegraph Cloud](https://docs.google.com/document/d/13SnXtM5Jpi2PMfpT6rHCkJFpXuwnCJudgvKyjGhAAZo/edit#heading=h.trqab8y0kufp)
+- We need managed SMTP to be available on Sourcegraph Cloud single-tenant instance to be able to send user invites, password reset links, and (later) notifications and alerts to drive virality.
+- It's likely we'll depend on a Sourcegraph Identity Provider to power one-click signup
+
 ### What we're not working on & why
 
 - We are not working on the self-hosted motion until we have a working self-serve Cloud motion.
