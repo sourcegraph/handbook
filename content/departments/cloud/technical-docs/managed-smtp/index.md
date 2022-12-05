@@ -19,8 +19,9 @@ Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](.
 ## Vendor management
 
 - **Account**
-  - Okta: Accounts are provisioned via Okta SSO via Entitle. Accounts should generally only be granted only [Reporting access](https://support.sparkpost.com/docs/user-guide/managing-users) by default.
+  - Okta and Entitle: Accounts are provisioned via Okta SSO via Entitle. Accounts should generally only be granted only [Reporting access](https://support.sparkpost.com/docs/user-guide/managing-users) by default.
   - Root account credentials: [Cloud Team - SparkPost](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=k5oim4jlnqnuqsqsjrs344nhsi&v=qxzajcksgc3givogl3r6qjbimu) (note that you must log in via [SparkPost EU](https://app.eu.sparkpost.com))
+    - This account will be removed when the Entitle workflow has been finalized ([#1676](https://github.com/sourcegraph/customer/issues/1676))
 - **Billing**: [Airbase Virtual Corporate Card](https://dashboard.airbase.io/services/323464)
   - We are billed based on emails delivered according to our usage plan, included currently up to 250,000 (as of Dec 2022), after which we are billed for overages.
 - **API Keys**: [list](https://app.eu.sparkpost.com/account/api-keys) - see [vendor integration](#vendor-integration) for more details
