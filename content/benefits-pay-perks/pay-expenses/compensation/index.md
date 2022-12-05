@@ -28,7 +28,7 @@ We provide variable compensation in the form of commissions for roles that are m
 
 **Equity**:
 
-We are an early-stage company, and every Teammate can have a huge impact on our success. We want to make sure that everyone has a financial stake in our success and that contributions are rewarded. You can find more detail in our [equity FAQ](equity-faq.md) and our Handbook page on hHow and when stock option grants are calculated](equity-timing.md).
+We are an early-stage company, and every Teammate can have a huge impact on our success. We want to make sure that everyone has a financial stake in our success and that contributions are rewarded. You can find more detail in our [equity FAQ](equity-faq.md) and our Handbook page on [how and when stock option grants are calculated](equity-timing.md).
 
 **Benefits and perks**:
 
