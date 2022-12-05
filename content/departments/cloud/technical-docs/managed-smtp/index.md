@@ -18,7 +18,7 @@ Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](.
 
 ## Vendor management
 
-- **Account**:
+- **Account**
   - Okta: WIP
   - Root account credentials: [Cloud Team - SparkPost](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=k5oim4jlnqnuqsqsjrs344nhsi&v=qxzajcksgc3givogl3r6qjbimu) (note that you must log in via [SparkPost EU](https://app.eu.sparkpost.com))
 - **Billing**: [Airbase Virtual Corporate Card](https://dashboard.airbase.io/services/323464)
@@ -74,7 +74,7 @@ These are unimplemented, but are noted here as potential starting points for acc
 
 ### Vendor-side alerting
 
-Vendor-side alerting can be set up by spinning up a service that can receive and process [SparkPost webhook events](https://developers.sparkpost.com/api/webhooks/).
+Vendor-side alerting can be set up by spinning up a service that can receive and process [SparkPost webhook events](https://developers.sparkpost.com/api/webhooks/), or a cron job to [query deliverability metrics](https://developers.sparkpost.com/api/metrics/#metrics) (also see [monitoring](#monitoring)).
 
 ### Data privacy
 
