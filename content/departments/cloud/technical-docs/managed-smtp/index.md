@@ -19,7 +19,7 @@ Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](.
 ## Vendor management
 
 - **Account**
-  - Okta: WIP
+  - Okta: Accounts are provisioned via Okta SSO via Entitle. Accounts should generally only be granted [Reporting access to a single subaccount](https://support.sparkpost.com/docs/user-guide/managing-users) at a time by default.
   - Root account credentials: [Cloud Team - SparkPost](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=k5oim4jlnqnuqsqsjrs344nhsi&v=qxzajcksgc3givogl3r6qjbimu) (note that you must log in via [SparkPost EU](https://app.eu.sparkpost.com))
 - **Billing**: [Airbase Virtual Corporate Card](https://dashboard.airbase.io/services/323464)
   - We are billed based on emails delivered according to our usage plan, included currently up to 250,000 (as of Dec 2022), after which we are billed for overages.
@@ -68,6 +68,23 @@ The Cloud instance is then configured with the following:
 1. A default sender address, `noreply+$CUSTOMER@cloud.sourcegraph.com`, and [SMTP configuration](https://app.eu.sparkpost.com/account/smtp)
 2. A GSM entry in the instance project to store the `send_key`
 
+## Security
+
+SparkPost is a [SOC2-certified provider](https://www.sparkpost.com/policies/security/), and leverages a variety of security practices that our security team has deemed satisfactory - for more details, refer to the [SparkPost DPA](https://www.sparkpost.com/policies/dpa/).
+
+Additionally, SparkPost has limited retention for most data - see its [GDPR compliance documentation](https://www.sparkpost.com/gdpr/) and [events data retention (10 days)](https://developers.sparkpost.com/api/events/#header-data-retention). Support for [data privacy requests](#data-privacy-requests) is also available.
+
+### Email data access
+
+[Reporting access](https://support.sparkpost.com/docs/user-guide/managing-users) (also see [vendor management](#vendor-management)) via the web application and the [message events API](https://developers.sparkpost.com/api/events/#header-event-types) can be used to access:
+
+- Aggregate numbers (deliveries, bounces, etc)
+- Specific email events, including receipients, subjects, message sizes, and other diagnostic data (but **not** email contents)
+
+### Account isolation
+
+Our [vendor integration](#vendor-integration) is designed such that all usage and access can be constrolled on a per-subaccount (i.e. per-customer) basis. API tokens distributed to Cloud instances are scoped to individual subaccounts with very limited permissions, and can be disabled individually.
+
 ## Future features
 
 These are unimplemented, but are noted here as potential starting points for accomodating additional features and/or requests.
@@ -76,9 +93,9 @@ These are unimplemented, but are noted here as potential starting points for acc
 
 Vendor-side alerting can be set up by spinning up a service that can receive and process [SparkPost webhook events](https://developers.sparkpost.com/api/webhooks/), or a cron job to [query deliverability metrics](https://developers.sparkpost.com/api/metrics/#metrics) (also see [monitoring](#monitoring)).
 
-### Data privacy
+### Data privacy requests
 
-We can list recipients and delete all data associated with the [SparkPost data privacy API](https://developers.sparkpost.com/api/data-privacy/). Note that SparkPost has limited retention for most data - see its [GDPR compliance documentation](https://www.sparkpost.com/gdpr/) and [events data retention](https://developers.sparkpost.com/api/events/#header-data-retention).
+We can list recipients and delete all data associated with the [SparkPost data privacy API](https://developers.sparkpost.com/api/data-privacy/). Note that SparkPost has limited retention for most data - see [security: email contents](#email-contents)
 
 ### Custom sending domains
 
