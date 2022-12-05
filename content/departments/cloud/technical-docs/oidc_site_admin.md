@@ -21,7 +21,7 @@ Unless customer explicitly [disabled OIDC on Managed Instance](#disabling-okta-o
 
 > WARN: Before requesting access to an instance, ensure you have consent from the customer.
 
-Use the slach command in Slack, type `/access_request` anywhere.
+Use the slash command in Slack, type `/access_request` anywhere.
 
 Select the following and click `Send Request`.
 
@@ -32,7 +32,7 @@ Select the following and click `Send Request`.
 
 The request will be approved automatically. Once you have received confirmation from the `Entitle` slack app, process to the next step.
 
-Use the `/access_request` slack command again, and select the following
+Use the `/access_request` slash command on Slack again, and select the following
 
 - **Request type**: `Resources`
 - **Permissions set**: `Sourcegraph Cloud OKTA`
