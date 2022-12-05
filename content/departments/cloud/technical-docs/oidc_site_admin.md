@@ -57,7 +57,7 @@ To login to the Cloud instance UI, open `https://company.sourcegraph.com/sign-in
 
 ## Disabling OKTA OIDC on Managed Instance
 
-SOAP access cane be disabled on instance when explictly asked by customer via configuration flag `disableSourcegraphManagementAccess: true` in `config.yaml`.
+SOAP access can be disabled on an instance when explictly asked to by a customer via the configuration flag `disableSourcegraphManagementAccess: true` in `config.yaml`.
 
 ## FAQ
 
