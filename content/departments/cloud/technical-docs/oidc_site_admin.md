@@ -25,7 +25,7 @@ Use the slash command in Slack, type `/access_request` anywhere.
 
 Select the following and click `Send Request`.
 
-- **Request type**: `Bundles`
+- **Request type**: `Permission set`
 - **Permissions set**: `Sourcegraph Cloud Org2Org`
 - **Permission duration**: `1 Hour`
 - **Add justification**: I need access to the cloud instance UI (Yes, you can just use canned response here)
@@ -34,10 +34,12 @@ The request will be approved automatically. Once you have received confirmation 
 
 Use the `/access_request` slash command on Slack again, and select the following
 
-- **Request type**: `Resources`
+- **Request type**: `Specific permission`
 - **Permissions set**: `Sourcegraph Cloud OKTA`
 - **Resource Type**: `groups`
 - **Resource**: Filter by the domain name of the cloud instance url, e.g. `company.sourcegraph.com`
+- **Role**: `Group Member`
+- **Grant Type**: `Direct`
 - **Permission duration**: `1 Hour`
 - **Add justification**: Please explain in detail why do you need access to the Cloud instance UI. It will be best to include relevant links to issues, slack thread to provide more context.
 
