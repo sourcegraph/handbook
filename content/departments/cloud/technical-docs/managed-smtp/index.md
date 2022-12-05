@@ -86,4 +86,4 @@ Additional sending domains can be provisioned following [this guide](https://sup
 
 ### Dedicated IP pools
 
-*Very* high-volume senders can impact the default sender's deliverability (see [monitoring](#monitoring)). They can be created following [this guide](https://support.sparkpost.com/docs/deliverability/dedicated-ip-pools) (note caveats such as reputation warm-up), and subaccounts can be configured to use them as needed.
+_Very_ high-volume senders can impact the default sender's deliverability (see [monitoring](#monitoring)). They can be created following [this guide](https://support.sparkpost.com/docs/deliverability/dedicated-ip-pools) (note caveats such as reputation warm-up), and subaccounts can be configured to use them as needed.
