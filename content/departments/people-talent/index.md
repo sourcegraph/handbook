@@ -304,6 +304,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
   - [Exit interviews](people-ops/process/performance-coaching/exit-interview.md)
   - [Offboarding process]COMING SOON
+- [When to engage with outside counsel](https://docs.google.com/document/d/11TVdj-sIdrEbKIfncDLFBLyyQHHUMOEu_FIfLSozQlo/edit)
 
 ### Teammate swag
 
