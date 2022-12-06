@@ -25,11 +25,11 @@ PMs (or Steve for non-customer facing/platform proposals) are in charge of revie
 
 We don't use a formal/complicated framework for evaluating impact for now, in order to keep things lightweight. We might change it later when we grow or if this does not work for us. That said, here’s a rough guideline for evaluating impact of customer-facing features:
 
-- **High**: Large ARR (>$3M ARR) or MAU (> 5,000 MAUs) impact, in the next 12 months. Fit with strategy. Well validated. Eg. a candidate for Batch Changes, Insights, Own or adding support for a broadly-used codehost.
+- **High**: Large ARR (>$3M ARR) or MAU (> 5,000 MAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a candidate for Batch Changes, Insights, Own or adding support for a broadly-used codehost.
 - **Medium**: Large ARR (>$1M ARR) or MAU (> 1,000 MAUs) impact, in the next 12 months. Fit with strategy. Elements of validation.
 - **Low**: Unknown or unvalidated impact. No clear fit with strategy.
 
 ## PR-FAQ tips
 
-- Try to keep the PR section no longer than 2 pages. FAQS can be longer.
+- Try to keep the PR section no longer than 2 pages. FAQs can be longer.
 - Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s on team’s radars before raising a proposal.
