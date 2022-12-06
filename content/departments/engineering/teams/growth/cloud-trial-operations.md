@@ -229,7 +229,7 @@ The Product Growth team is iterating on those! There are probably many other gre
 
 #### How do I login to an instance I support?
 
-You should have access to instances that are assigned to you. Go to <acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
+You should have access to instances that are assigned to you. Go to `<acme-corp>.sourcegraph.com/sign-in?sourcegraph-operator` to see the Okta sign-in button. If you don't have access, please ask for access in #cloud.
 
 #### How can I get the list of all trial instances?
 
