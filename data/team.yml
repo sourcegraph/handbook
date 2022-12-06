@@ -2380,6 +2380,16 @@ cezary_bartoszuk:
   location: Long Grove, IL, USA 🇺🇸
   description: Cezary tries to spend as much time as possible with his wife and three kids. He enjoys parenting, learning about religion and philosophy, reading books and making music.
 
+louis_jarvis:
+  name: Louis Jarvis
+  email: louis.jarvis@sourcegraph.com
+  github: loujar
+  pronouns: he/him
+  role: Implementation Lead
+  reports_to: vp_customer_engineering
+  location: Wailuku, HI, USA 🇺🇸
+  description: Louis loves working with companies to help them realize the greatest business value out of the software solutions they adopt. When not in front of a computer, Louis likes to spend his free time out on the water surfing, kiteboarding, or wing foiling.
+
 julie_tibshirani:
   name: Julie Tibshirani
   email: julie.tibshirani@sourcegraph.com
