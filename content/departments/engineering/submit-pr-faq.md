@@ -9,7 +9,7 @@ We submit proposals in the form of Amazon-style PR-FAQs. Anybody can submit a PR
    1. Give a pre-read to the PR-FAQ and give (non-blocking) feedback
    2. Determine the impact of the proposal
    3. Set a Success Criteria for the project
-3. **Steve will prioritise proposals.** <Monthly/quarterly>, Steve and the exec team will review proposals, with input from PMs (for features) and EMs(for tech-only) to decide what to move to the roadmap.
+3. **Steve will prioritise proposals.** Quarterly, Steve and the exec team will review proposals, with input from PMs (for features) and EMs(for tech-only) to decide what to move to the roadmap.
 4. **Job fair.** Projects moved to the roadmap will be submitted to the job fair.
 
 ## Success Criteria
