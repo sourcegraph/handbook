@@ -23,7 +23,9 @@ A good success criteria should include:
 
 PMs (or Steve for non-customer facing/platform proposals) are in charge of reviewing PR-FAQs. This is non-blocking and just a way to ensure there's a high standard for PR-FAQ and that the exec team can focus on reviewing the most impactful proposals first in case there are too many of them.
 
-We don't use a formal/complicated framework for evaluating impact for now, in order to keep things lightweight. We might change it later when we grow or if this does not work for us. That said, here’s a rough guideline for evaluating impact of customer-facing features:
+We don't use a formal/complicated framework for evaluating impact for now, in order to keep things lightweight. We might change introduce a more complicated [opportunity canvas](https://docs.google.com/document/d/1pTEMcwH10xWilQEnVc65oC6PdC3VMjn2XoARfNTaHkc/edit#) later on.
+
+That said, here’s a rough guideline for evaluating impact of customer-facing features:
 
 - **High**: Large ARR (>$3M ARR) or MAU (> 5,000 MAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a candidate for Batch Changes, Insights, Own or adding support for a broadly-used codehost.
 - **Medium**: Large ARR (>$1M ARR) or MAU (> 1,000 MAUs) impact, in the next 12 months. Fit with strategy. Elements of validation.
