@@ -5,7 +5,7 @@ We submit roadmap proposals in the form of Amazon-style PR-FAQs. Anybody can sub
 ## How to submit a PR-FAQ
 
 1. **Write a PR-FAQ to describe your proposal**. You can use this [template](https://docs.google.com/document/d/1Stwe26NWoh0r_LOeA3sUqwDZlrmZ2qBEcdV0Sd1KP1o/edit#). If you need help putting one together, post in #product to request help from a PM.
-2. **Get a PM review**. Raise a [PR-FAQ issue](<[TODO](https://github.com/sourcegraph/pr-faqs/issues/new/choose)>), linking to your proposal. This will trigger an alert in #product and #engineering. Steve will assign a PM (or self-assign for non-customer facing/platform proposals) the issue to:
+2. **Get a PM review**. Raise a [PR-FAQ issue](https://github.com/sourcegraph/pr-faqs/issues/new/choose), linking to your proposal. This will trigger an alert in #product and #engineering. Steve will assign a PM (or self-assign for non-customer facing/platform proposals) the issue to:
    1. Give a pre-read to the PR-FAQ and give (non-blocking) feedback
    2. Determine the impact of the proposal (no more than 2 weeks of early validation)
    3. Set a Success Criteria for the project
