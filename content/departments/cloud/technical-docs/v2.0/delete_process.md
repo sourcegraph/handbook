@@ -70,37 +70,25 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
-### Remove namespace
+### Remove workload
 
 ```sh
-mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
-
+# gracefully remove unmanaged resources, e.g. GKE Backup
+mi2 instance destroy --slug $SLUG -e $ENVIRONMENT -auto-approve
 # deletes namespace and Network Endpoint Group Health check
-kubectl delete ns $NAMESPACE
+mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
+kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl delete -f -
 ```
 
 ### Disable delete protection
 
 ```sh
 # delete sql protection
+mi2 instance edit --query '.spec.debug.enableDeletionProtection = false' --slug $SLUG -e $ENVIRONMENT
+mi2 generate cdktf --slug $SLUG -e $ENVIRONMENT
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
 terraform init
-export SQL_RESOURCE=$(terraform state list | grep sql_self)
-echo "$(jq '.resource.'$SQL_RESOURCE' += {"delete_protection":false}' cdk.tf.json)" > cdk.tf.json
 terraform apply -auto-approve
-```
-
-### Removes GKE backups and restores
-
-```sh
-# remove GKE restores, backups, restore-plans and backup plans
-cd sourcegraph/cloud
-export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
-gcloud config set project --project $PROJECT_ID
-gcloud beta container backup-restore restores list | awk '{print $1}' | xargs gcloud beta container backup-restore restores delete
-gcloud beta container backup-restore backups list | awk '{print $1}' | xargs gcloud beta container backup-restore backups delete
-gcloud beta container backup-restore restore-plans list | awk '{print $1}' | xargs gcloud beta container backup-restore restore-plans delete --async
-gcloud beta container backup-restore backup-plans list | awk '{print $1}' | xargs gcloud beta container backup-restore backup-plans delete --async
 ```
 
 ### Destroy infrastructure - destroy cdktf stacks
