@@ -34,5 +34,5 @@ That said, here’s a rough guideline for evaluating impact of customer-facing f
 ## PR-FAQ tips
 
 - Try to keep the PR section no longer than 2 pages. FAQs can be longer.
-- Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s on team’s radars before raising a proposal.
+- Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s already on the roadmap before raising a proposal.
 - Here's are two examples of good PR-FAQ: [PR-FAQ^2](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#) and [Own PR-FAQ](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#)
