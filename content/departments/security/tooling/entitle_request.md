@@ -2,9 +2,9 @@
 
 ## There are two ways of requesting access in Entitle.
 
-- [Search for Permissions](
-- [Permission Sets](entitle_request.md#bundled-access-request)
-- [Specific Permission](entitle_request.md#resource-access-request)
+- [Search for Permissions](entitle_request.md#search-for-permission-request)
+- [Permission Sets](entitle_request.md#permission-sets-request)
+- [Specific Permission](entitle_request.md#specific-permission-request)
 
 ## Search for Permission Request:
 
@@ -23,7 +23,7 @@ To request permissions via a Bundle, follow these steps:
 5. Permission Duration: is the amount of time you will need this access for. This will ensure that once you are finished with your necessary task, the permissions are revoked to keep our systems more secure.
 6. Add Justification: This is a very important step. Without proper justification for your access, your request will be denied. This is necessary for audit and reporting purposes. Please reference a customer ticket, a jira ticket, or any other relevant information that justifies your need for access to the resource.
 
-## Resource Access Request:
+## Specific Permission Request:
 
 This option allows for granular access requests to only necessary data/instances. \
 To request permission to a specific resource follow these steps:
