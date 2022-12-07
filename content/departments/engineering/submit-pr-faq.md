@@ -27,7 +27,7 @@ We don't use a formal/complicated framework for evaluating impact for now, in or
 
 That said, here’s a rough guideline for evaluating impact of customer-facing features:
 
-- **High**: Large ARR (>$5M ARR) or MAU (> 500 DAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a candidate for Batch Changes, Insights, Own or adding support for a broadly-used codehost.
+- **High**: Large ARR (>$5M ARR) or MAU (> 500 DAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a project like Batch Changes, Insights, Own, or adding support for a broadly-used codehost.
 - **Medium**: Large ARR (>$1M ARR) or MAU (> 100 DAUs) impact, in the next 12 months. Fit with strategy. Elements of validation.
 - **Low**: Unknown or unvalidated impact. No clear fit with strategy.
 
