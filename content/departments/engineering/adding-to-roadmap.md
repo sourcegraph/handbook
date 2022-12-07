@@ -1,16 +1,16 @@
-# Submitting an item to the roadmap
+# Adding to the roadmap
 
-We submit proposals in the form of Amazon-style PR-FAQs. Anybody can submit a PR-FAQ. PR-FAQ can come from the exec team, or from any teammate. PR-FAQ are reviewed and prioritised by the VPEng/Prod with input from the exec team. PMs help build, refine and evaluate the impact of PR-FAQs.
+We submit roadmap proposals in the form of Amazon-style PR-FAQs. Anybody can submit a PR-FAQ. PR-FAQ can come from the exec team, or from any teammate. PR-FAQ are reviewed and prioritised by the VPEng/Prod with input from the exec team. PMs help build, refine and evaluate the impact of PR-FAQs.
 
 ## How to submit a PR-FAQ
 
-1. **Write a PR-FAQ to describe your proposal**. You can use this [template](TODO). If you need help putting one together, post in #product to request help from a PM.
-2. **Get a PM review**. Raise a [PR-FAQ issue](TODO), linking to your proposal. This will trigger an alert in #product and #engineering. Steve will assign a PM (or self-assign for non-customer facing/platform proposals) the issue to:
+1. **Write a PR-FAQ to describe your proposal**. You can use this [template](https://docs.google.com/document/d/1Stwe26NWoh0r_LOeA3sUqwDZlrmZ2qBEcdV0Sd1KP1o/edit#). If you need help putting one together, post in #product to request help from a PM.
+2. **Get a PM review**. Raise a [PR-FAQ issue](<[TODO](https://github.com/sourcegraph/pr-faqs/issues/new/choose)>), linking to your proposal. This will trigger an alert in #product and #engineering. Steve will assign a PM (or self-assign for non-customer facing/platform proposals) the issue to:
    1. Give a pre-read to the PR-FAQ and give (non-blocking) feedback
    2. Determine the impact of the proposal (no more than 2 weeks of early validation)
    3. Set a Success Criteria for the project
 3. **Steve will prioritise proposals.** Quarterly, Steve and the exec team will review proposals, with input from PMs (for features) and EMs(for tech-only) to decide what to move to the roadmap.
-4. **Job fair.** Projects moved to the roadmap will be submitted to the job fair.
+4. **Job fair.** Once a project is moved to the roadmap, Steve will add them to the [job fair](./job-fair.md)
 
 ## Success Criteria
 
@@ -35,3 +35,4 @@ That said, here’s a rough guideline for evaluating impact of customer-facing f
 
 - Try to keep the PR section no longer than 2 pages. FAQs can be longer.
 - Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s on team’s radars before raising a proposal.
+- Here's are two examples of good PR-FAQ: [PR-FAQ^2](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#) and [Own PR-FAQ](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#)
