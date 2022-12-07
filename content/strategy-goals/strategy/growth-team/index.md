@@ -53,14 +53,14 @@ Our overall strategy is to unlock the four key themes that will enable product-l
 
 Now that we have launched an initial, semi-automated signup flow, our initial priorities are:
 
-- **Improve initial user onboarding**, in particular (a) being able to discover the value of Sourcegraph and (b) adding code. To do so, we're working on an onboarding widget ([#43596](https://github.com/sourcegraph/sourcegraph/issues/43596)), and investigating how to make adding code one-click (not started yet).
+- **Improve initial user onboarding**, in particular (a) adding code and (b) being able to discover the value of Sourcegraph. To do so, we're working on an onboarding widget ([#43596](https://github.com/sourcegraph/sourcegraph/issues/43596)), and investigating how to make adding code one-click (not started yet).
 - **Make support and feedback inbound instead of outbound** ([#41929](https://github.com/sourcegraph/sourcegraph/issues/41929))
 - **Empower users to drive trials**, including showcasing Sourcegraph to their teams or decision makes, to lead to a trial. We will continue mapping [successfull and failed user journeys](https://docs.google.com/document/d/1Jlt1oeOwjPC_PSPypEwnwfIkT6K2hw_Jek3J16ZiW1A/edit#heading=h.ql3419vdhzcg) and work with other teams to make trials successfull.
 - **Build the infrastructure required to improve the signup and onboarding experience** ([RFC 763](https://docs.google.com/document/d/1MoDYlWBWALGDj-DJdlCvAAFpkrW0nwJL_nb0ih4uUJ0/edit#)). We will start building a cloud console API that will be be used to request and customized (eg. set subdomain), pre-configure (eg. pre-configure Google workspace SSO, pre-load OSS code to instances), and manage trial instances. This infrastructure is not growth-specific and has broad utility for Cloud instances in general.
 - **Iterate on the signup experience.** Our endgame for signup is the following:
   - I sign in via Google Workspace or GitHub to start a trial on signup.sourcegraph.com
-  - If Google Workspace, my instance is preconfigured to allow other users to sign in via Google Workspace
-  - If GitHub, my instance is preconfigured to allow other users to sign in via GitHub
+  - If Google Workspace, my instance is preconfigured to allow other users with the same email domain to sign in via Google Workspace
+  - If GitHub, my instance is preconfigured to allow other users within the same GitHub organization to sign in via GitHub
 - **Refine metrics**
 
 ### Dependencies on other teams
