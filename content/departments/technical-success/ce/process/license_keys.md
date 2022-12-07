@@ -96,6 +96,10 @@ If the company hasn't yet received or seen the license key, it's easy to hide it
 
 However, if a company has already accessed and copied the key, there is nothing we can do to change it. As a result, try to minimize the duration and user count on keys to only that which is actually necessary. As an example, if you want to create an "unlimited" license for a company that has 100 employees, don't create a key that allows 999,999,999 to achieve that. This minimizes any risks of the key becoming exposed. Instead, create one that is close to the actual total, as we can always create a new, larger key for them in the future.
 
+#### Archiving a License Key
+
+The `Archive` button in the subscriptions page will remove the license key from the UI but it will still be valid for use.
+
 ## Viewing current license keys
 
 All license keys can be found in a [complete list](https://sourcegraph.looker.com/looks/635) or in the individual [instance views](https://sourcegraph.looker.com/dashboards/94).
