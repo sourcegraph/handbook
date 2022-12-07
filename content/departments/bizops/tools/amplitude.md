@@ -4,7 +4,7 @@
 
 1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named `Sourcegraph`). If you don't have an account, post in #it-tech-ops to have it assigned in Okta.
 2. Read the [Sourcegraph <> Amplitude FAQs](#using-amplitude-faqs), view team-specific spaces below, or reach out in #analytics for help if you have any questions getting started viewing dashboards.
-3. Read the [Amplitude help center for building analyses](<[https://help.amplitude.com/hc/en-us](https://help.amplitude.com/hc/en-us/sections/206569568-Working-with-charts)>) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI). As a reminder, you can always post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on it.
+3. Read the [Amplitude help center for building analyses](https://help.amplitude.com/hc/en-us/sections/206569568-Working-with-charts) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI). As a reminder, you can always post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on it.
 4. Look at all the [Team Spaces](https://analytics.amplitude.com/sourcegraph/team-spaces) and join whichever ones are relevant to you. Learn more about Team Spaces [here](#what-are-team-spaces).
 
 ### Go-to-market teams content
