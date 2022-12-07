@@ -27,6 +27,8 @@ Notes:
 
 Sourcegraph employees can review and update our [Roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing).
 
+We use [PR-FAQs](./adding-to-roadmap.md) to submit roadmap proposals. Once a project is on the roadmap, engineers are assigned through the [Job Fair](./job-fair.md).
+
 ## Teams
 
 - Search
