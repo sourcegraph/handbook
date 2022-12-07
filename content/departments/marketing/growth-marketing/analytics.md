@@ -47,7 +47,7 @@
 
 ## Key data sources
 
-- **EventLogger:** An in-house tracking tool we use to track visitors and events on our websites. EventLogger logs data that is sent to our data warehouse and accessed in places like Looker and BigQuery. Documentation for key events in the signup flow can be found below. If you’re interested in the name of an event not specified at link below, see [here](https://handbook.sourcegraph.com/departments/data-analytics/amplitude/#how-do-i-find-what-we-call-an-event-in-the-sourcegraph-code).
+- **EventLogger:** An in-house tracking tool we use to track visitors and events on our websites. EventLogger logs data that is sent to our data warehouse and accessed in places like Looker and BigQuery. Documentation for key events in the signup flow can be found below. If you’re interested in the name of an event not specified at link below, see [here](../../data-analytics/amplitude.md#how-do-i-find-what-we-call-an-event-in-the-sourcegraph-code).
   - [Signup page](https://www.figma.com/file/8GislYxQsTAULqzxuDslca/Sign-Up-Flow-MVP?node-id=1851%3A1653&t=tRG6pg4Xfsyq8b7O-1)
   - [Dotcom homepage CTAs](https://www.figma.com/file/qdUtoveMtn2wI8eaysE1De/UX%3A-Cleaning-up-noise-below-the-search-bar-on-dotcom?node-id=29%3A2418&t=gjdiCLjDg4pqPhVT-0)
 - **Salesforce**: Salesforce is used to track which leads are qualified, the status of those leads, and whether or not an opportunity is associated to those leads. Any salesforce data that would be of interest to the growth marketing team should be available via Looker.
