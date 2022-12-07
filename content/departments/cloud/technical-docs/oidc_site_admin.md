@@ -1,6 +1,6 @@
 # Sourcegraph teammate access to Cloud instances
 
-Sourcegraph temmates access to Cloud instances application interface (Web UI) is restricted to essential personnel only. This ensures Sourcegraph is able to help customers troubleshoot issues and deliver a smooth experience. We utilize Sourcegraph Operator Authentication Provider (SOAP) which implements OpenID Connect to enable Sourcegraph employees access to customer instance to make sure there is an audit trail for every access.
+Sourcegraph teammates access to Cloud instances application interface (Web UI) is restricted to essential personnel only. This ensures Sourcegraph is able to help customers troubleshoot issues and deliver a smooth experience. We utilize Sourcegraph Operator Authentication Provider (SOAP) which implements OpenID Connect to enable Sourcegraph employees access to customer instance to make sure there is an audit trail for every access.
 
 The Cloud team manages a separate Cloud OKTA account (separate from the company-wide Sourcegraph OKTA account) to manage UI access to Cloud instances. The Cloud OKTA account is federated by the parent Sourcegraph OKTA account to ensure access control is consistent across all our systems. For example, if an account is deactivated from the Sourcegraph OKTA account, the user will loss access to Cloud OKTA as well.
 
