@@ -9,7 +9,7 @@
 
 ### Sales/CE
 
-View the [Sales/CE team space](https://analytics.amplitude.com/sourcegraph/space/4e3e79k/all?source=move%20item%20butter%20bar) which contains dashboards such as the [instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=team%20space%20item%20table) to understand event-level managed instance data. 
+View the [Sales/CE team space](https://analytics.amplitude.com/sourcegraph/space/4e3e79k/all?source=move%20item%20butter%20bar) which contains dashboards such as the [instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=team%20space%20item%20table) to understand event-level managed instance data.
 
 ### Product/engineering
 
