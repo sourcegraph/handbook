@@ -33,7 +33,7 @@ This group serves the needs of its members first and foremost. However, other po
 
 ## How is the cohort operated?
 
-The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Carly Jones](../../team/index.md#carly-jones), VP of Talent and People. The cohort primarily operates out of its public slack channel, [#gender-diversity-allies](https://sourcegraph.slack.com/archives/C02V14KPZQU). The cohort also has an opt-in private slack channel to function as a dedicated safe space for its members who aren’t participating as allies. The group + allies has a casual biweekly coffee meeting as well as other ad hoc syncs. Planning and execution for other regular cohort activities is still being worked out but may involve:
+The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Carly Jones](../../team/index.md#carly-jones), VP of Talent and People. The cohort primarily operates out of its public slack channel, #gender-diversity-allies. The cohort also has an opt-in private slack channel to function as a dedicated safe space for its members who aren’t participating as allies. The group + allies has a casual biweekly coffee meeting as well as other ad hoc syncs. Planning and execution for other regular cohort activities is still being worked out but may involve:
 
 - Virtual team-building activities
 - Members pairing
