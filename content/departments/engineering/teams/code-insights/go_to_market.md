@@ -29,6 +29,10 @@ This is an exhaustive resource from March 2022 containing all you need to know t
 
 You can use these as a starting point for Code Insights presentations.
 
+### Common use cases Docs
+
+The [main dashboard insights recipes](https://docs.sourcegraph.com/code_insights/references/common_use_cases) and [search results aggregations](https://docs.sourcegraph.com/code_insights/references/search_aggregations_use_cases) recipes. 
+
 ### Pricing
 
 #### [Free tier of Code Insights](https://docs.sourcegraph.com/code_insights/references/license#limited-access)
@@ -54,6 +58,8 @@ If you want to run Code Insights over a public prospect's repo, [follow these st
 To book the product manager to help a customer or prospect set up insights, or to understand in what situations that's useful.
 
 ## Marketing
+
+### [Neo Financial Code Insights Case Study](https://about.sourcegraph.com/case-studies/neo-financial-improves-the-developer-experience-with-sourcegraph) 
 
 ### [Quick list of how Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#heading=h.xern6pnzakek)
 
