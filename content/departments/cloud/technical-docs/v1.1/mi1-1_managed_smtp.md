@@ -14,6 +14,9 @@ See [managed SMTP](../managed-smtp/index.md) for more details.
 1. Set `disableManagedSMTP: true`
 2. Run `mi sync smtp` (as above, this is safe to re-run)
 
+The customer may also disable managed SMTP by simply applying their own non-empty [email configuration](https://docs.sourcegraph.com/admin/config/email).
+Note that in this case, an engineer should still set `disableManagedSMTP: true` to correctly terminate the provisioned account and avoid unnecessary API calls to the vendor.
+
 ## Health check
 
 14-day vendor-side deliverability statistics are reported by `mi check`.

@@ -14,7 +14,18 @@ In this document:
 
 ## Enabling managed SMTP for a Cloud instance
 
-Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](../v1.1/mi1-1_managed_smtp.md).
+Generally, managed SMTP will be enabled by default, as long as existing configuration is not present.
+
+Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](../v1.1/mi1-1_managed_smtp.md#enabling-managed-smtp).
+
+## Disabling managed SMTP for a Cloud instance
+
+Generally, a customer should reach out to the account representative to have managed SMTP disabled.
+
+Alternatively, a customer could also simply [override the SMTP configuration with their own](https://docs.sourcegraph.com/admin/config/email), as long as it is non-empty and from a non-`sourcegraph.com` sending domain.
+Note that in even in this case, managed SMTP should be explicitly configured afterwards by the Cloud team.
+
+Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](../v1.1/mi1-1_managed_smtp.md#disabling-managed-smtp).
 
 ## Vendor management
 
