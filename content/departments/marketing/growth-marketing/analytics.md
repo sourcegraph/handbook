@@ -100,4 +100,3 @@
 
 - [What we’ve learned (WIP)](https://docs.google.com/document/d/1lgx7h0a2vgfv-AXlVbD6UfqEFe2OWNvgRuUQhTplz0A/edit)
 - [Industry benchmarks](https://docs.google.com/document/d/1JGnuynNiP9TkmgSuwkeuytKqcL7vPDBTGYB3MXiOPnA/edit): use this to compare our baseline KPIs to industry benchmarks
-- [TLDR traffic recap](https://docs.google.com/document/d/1WYQ9nasLhLZyxJzmvP7IvyPVl8uJ709Em_SjOfyByVY/edit#): a summary of performance of a recent ad campaign
