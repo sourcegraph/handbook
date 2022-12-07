@@ -7,7 +7,7 @@ We submit proposals in the form of Amazon-style PR-FAQs. Anybody can submit a PR
 1. **Write a PR-FAQ to describe your proposal**. You can use this [template](TODO). If you need help putting one together, post in #product to request help from a PM.
 2. **Get a PM review**. Raise a [PR-FAQ issue](TODO), linking to your proposal. This will trigger an alert in #product and #engineering. Steve will assign a PM (or self-assign for non-customer facing/platform proposals) the issue to:
    1. Give a pre-read to the PR-FAQ and give (non-blocking) feedback
-   2. Determine the impact of the proposal (no more than 2 weeks of early validation) 
+   2. Determine the impact of the proposal (no more than 2 weeks of early validation)
    3. Set a Success Criteria for the project
 3. **Steve will prioritise proposals.** Quarterly, Steve and the exec team will review proposals, with input from PMs (for features) and EMs(for tech-only) to decide what to move to the roadmap.
 4. **Job fair.** Projects moved to the roadmap will be submitted to the job fair.
