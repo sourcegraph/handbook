@@ -139,17 +139,6 @@ thorsten_ball:
   links: '[@thorstenball](https://twitter.com/thorstenball), [LinkedIn](https://www.linkedin.com/in/thorsten-ball-3142b652), [thorstenball.com](https://thorstenball.com)'
   description: "Thorsten started his career as a software engineer after dropping out of college where he studied philosophy. Since then he's mainly worked for startups (flinc, ioki) in the mobility space before starting at Sourcegraph. In his spare time, he's also a writer and wrote and self-published [two](https://interpreterbook.com) [books](https://compilerbook.com) about his favorite pet topics: interpreters & compilers. He lives together with his wife and daughter in a small-ish city in Germany. He met his wife, who happened to hail from the same small town in Germany, in Australia while he was working at a shipyard."
 
-loïc_guychard:
-  name: Loïc Guychard
-  role: Engineering manager, search
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_search
-  location: Brest, Brittany, France 🇫🇷
-  github: lguychard
-  email: loic@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-guychard-749b8152/)'
-  description: Loïc loves oceanside living and long bike rides. He started his career as a linguist, before transitioning to software engineering while working at Dashlane.
-
 dan_adler:
   name: Dan Adler
   pronouns: he/him
@@ -879,12 +868,6 @@ interim_demand_gen_lead:
   manager_role_slug: demand_gen_lead
   hide_on_team_page: true
 
-director_demand_generation:
-  name: Nicholas Gage
-  role: Director, Demand Generation
-  reports_to: vp_sales
-  manager_role_slug: director_demand_generation
-
 devon_coords:
   name: Devon Coords
   pronouns: She/Her
@@ -1143,17 +1126,6 @@ erzhan_torokulov:
   links: '[LinkedIn](https://www.linkedin.com/in/erzhtor/), [erzhtor.com](https://erzhtor.com/)'
   pronunciation: '[Pronounce my name 🔊](https://www.name-coach.com/erzhan-torokulov?preview=on)'
   description: Erzhan is a Software Engineer with industry experience building high-quality software solutions with a passion for learning. He has experience working on backend, frontend as well as mobile development. Outside work, he enjoys traveling and trying new things/activities.
-
-erica_freckelton:
-  name: Erica Freckelton
-  pronouns: she/her
-  role: Senior Digital Marketing Manager
-  reports_to: demand_gen_lead
-  location: San Diego, California, United States 🇺🇸
-  github: efreckelton
-  email: erica.freckelton@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ericafreckelton/)'
-  description: "Erica is a digital marketing strategist hailing from San Diego, CA. She and her trusty dog Zetty relocated from Nashville in 2020 to live with her boyfriend, Matt. You'll often catch her geeking out about digital consumer behavior, online trends, and search data. When not in front of a laptop, you'll probably find her in front of a book. Erica's one-third of the Real Friends Who Read Books, a biweekly book club podcast with her two oldest friends."
 
 brannon_rouse:
   name: Brannon Rouse
