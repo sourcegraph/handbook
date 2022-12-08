@@ -29,7 +29,7 @@ mi2 workflow run -filter '.metadata.labels."instance-type" == "internal" and .sp
 for production instances:
 
 ```sh
-mi2 workflow run -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' 'gh workflow run upgrade-instances
+mi2 workflow run -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
 ```
 
 for trial instances:
