@@ -1,6 +1,6 @@
 # Prometheus disk I/O metrics
 
-As of Sourcegraph 4.2.0,  we've added detailed disk I/O Prometheus metrics for the Zoekt, Git Server, and Searcher services. You can find these under the "Disk I/O metrics" section of each service's Grafana dashboard.
+As of Sourcegraph 4.2.0, we've added detailed disk I/O Prometheus metrics for the Zoekt, Git Server, and Searcher services. You can find these under the "Disk I/O metrics" section of each service's Grafana dashboard.
 
 ![Searcher's disk metrics dashboard on k8s.sgdev.org](https://storage.googleapis.com/sourcegraph-assets/disk-io-metrics.png)
 
