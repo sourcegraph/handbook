@@ -32,7 +32,7 @@ Get there by appending the page to a Sourcegraph URL like so https://sourcegraph
 - `/-/debug/grafana/` View the Sourcegraph built in Grafana and alerts dashboard
 - Jaeger
 
-Support Engineers (SE's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Support Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to AER level of access so Refer to customer organization notes and exceptions.
+Support Engineers (SE's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Support Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to SE level of access so Refer to customer organization notes and exceptions.
 
 ### It's log, log, log!
 
@@ -89,11 +89,11 @@ Urgency of the request...
 Less urgent...
 
 - Not every user you talk to has the ability to gather logs. Was the case reported by someone that appears to be a **site administrator**?
-- Gathering logs and sharing them with AER's takes customer time and effort. Does it sound like logs are the only place to find the answer? Or are there other places to check like Grafana or in the Sourcegraph site-admin pages?
+- Gathering logs and sharing them with SE's takes customer time and effort. Does it sound like logs are the only place to find the answer? Or are there other places to check like Grafana or in the Sourcegraph site-admin pages?
 
 Blockers to sharing logs...
 
-- Sometimes customer security restrictions dictate what they can and cannot share. Airgapped customers are more likely to restrict what information they can share. In cases like this, can the customer be guided to which services to check in the logs or observability pages? Consider testing out commands in one of our AER test instances or local test instance.
+- Sometimes customer security restrictions dictate what they can and cannot share. Airgapped customers are more likely to restrict what information they can share. In cases like this, can the customer be guided to which services to check in the logs or observability pages? Consider testing out commands in one of our SE test instances or local test instance.
 
 Reported symptoms do not sound like Sourcegraph is 'broken'...
 
