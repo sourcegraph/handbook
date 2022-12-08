@@ -117,4 +117,35 @@ and use the `mi2 workflow` command to apply across all instances at once.
 You can also utilize the `mi2 workflow` command to aggregate the raw plan output of all instances and perform precise check on them to ensure
 the plan output is exactly what you are looking for.
 
+### How to use a fork of `cdktf-cli`?
+
+Sometime there is bugs (e.g. https://github.com/hashicorp/terraform-cdk/pull/2397, https://github.com/hashicorp/terraform-cdk/pull/2398) in the upstream and we have to maintain our own [fork](https://github.com/sourcegraph/terraform-cdk/tree/fix/tfc-planned-status) of `cdktf-cli`.
+
+Use the fork in GitHub Actions, modify the `setup-mi2` action to reference the fork and pin to a specific commit, branch, or tag.
+
+https://github.com/sourcegraph/cloud/blob/64d3ddfb2ecbff5c1a200aa8ac981ff1a48abf5e/.github/workflows/mi_create.yml#L97-L106
+
+```yaml
+- name: setup mi2 tooling
+  uses: ./.github/actions/setup-mi2
+  with:
+    # Add a comment explain why a fork is reequired
+    # cdktf-version: 0.13.3
+    cdktf-repository: sourcegraph/terraform-cdk
+    cdktf-ref: fix/tfc-planned-status
+```
+
+Use the fork locally:
+
+```sh
+gh repo clone sourcegraph/terraform-cdk
+cd terraform-cdk
+yarn install
+yarn build
+# in your shell config file or within the terminal session
+alias cdktfl=/abspath-to-terraform-cdk-repo/packages/cdktf-cli/bundle/bin/cdktf
+```
+
+Then replace all `cdktf` command with `cdktfl`
+
 [sourcegraph/cloud]: https://github.com/sourcegraph/cloud
