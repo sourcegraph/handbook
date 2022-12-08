@@ -129,7 +129,7 @@ https://github.com/sourcegraph/cloud/blob/64d3ddfb2ecbff5c1a200aa8ac981ff1a48abf
 - name: setup mi2 tooling
   uses: ./.github/actions/setup-mi2
   with:
-    # Add a comment explain why a fork is reequired
+    # Add a comment explain why a fork is required
     # cdktf-version: 0.13.3
     cdktf-repository: sourcegraph/terraform-cdk
     cdktf-ref: fix/tfc-planned-status
