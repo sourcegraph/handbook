@@ -4,16 +4,12 @@
 
 1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named `Sourcegraph`). If you don't have an account, post in #it-tech-ops to have it assigned in Okta.
 2. Read the [Sourcegraph <> Amplitude FAQs](#using-amplitude-faqs), view team-specific spaces below, or reach out in #analytics for help if you have any questions getting started viewing dashboards.
-3. Read the [Amplitude help center](https://help.amplitude.com/hc/en-us) and Amplitude docs for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI). As a reminder, you can always post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on. to get started building your own charts.
+3. Read the [Amplitude help center for building analyses](https://help.amplitude.com/hc/en-us/sections/206569568-Working-with-charts) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI). As a reminder, you can always post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on it.
 4. Look at all the [Team Spaces](https://analytics.amplitude.com/sourcegraph/team-spaces) and join whichever ones are relevant to you. Learn more about Team Spaces [here](#what-are-team-spaces).
 
-### Sales/CE
+### Go-to-market teams content
 
 View the [Sales/CE team space](https://analytics.amplitude.com/sourcegraph/space/4e3e79k/all?source=move%20item%20butter%20bar) which contains dashboards such as the [instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=team%20space%20item%20table) to understand event-level managed instance data.
-
-### Product/engineering
-
-View the [Product/engineering team space](https://analytics.amplitude.com/sourcegraph/space/4e3e79k/all?source=move%20item%20butter%20bar), and check out some example charts [in this folder](https://analytics.amplitude.com/sourcegraph/space/dn45t5b/all?source=move%20item%20butter%20bar) to get a sense for what you can do with Amplitude.
 
 ## Why are we using Amplitude?
 
@@ -25,13 +21,7 @@ Looker is very flexible in that we can set it up for any purpose we'd like. The 
 
 ### What is in Looker vs. Amplitude?
 
-Anything not based directly on analyzing event-level data is in Looker. This includes [pings from on-prem instances](https://docs.sourcegraph.com/admin/pings), anything we get from the [Cloud Postgres database](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md) and any data from third-parties tools (such as Google Analytics and Salesforce).
-
-| Type of analysis                  | Tool      | Example                                                                                |
-| --------------------------------- | --------- | -------------------------------------------------------------------------------------- |
-| Retention drivers                 | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/rqbignv?source=search)        |
-| On-prem instances/pings           | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/174)                             |
-| Managed instance event-level data | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace) |
+Anything not based directly on analyzing [event-level data](../../data-analytics/event-level-data.md) is in Looker. Data in Looker includes [pings from on-prem instances](https://docs.sourcegraph.com/admin/pings), anything we get from the [Cloud Postgres database](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md) and any data from third-parties tools (such as Google Analytics and Salesforce).
 
 Any analysis we conducted in Looker before we started using Amplitude we can continue doing in Looker. We'll still maintain existing Looker dashboards and visualizations. Amplitude will help us conduct new and different analyses regarding product analytics.
 
@@ -39,15 +29,25 @@ Any analysis we conducted in Looker before we started using Amplitude we can con
 
 ### Pipeline
 
-1. Events are stored in the [dotcom_events.events_usage](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&_ga=2.7211002.912372869.1639779794-1385560724.1639779794&pli=1&ws=!1m5!1m4!4m3!1stelligentsourcegraph!2sdotcom_events!3sevents_usage)
-2. Events are formatted to fit Amplitude's schema, enhanced with user properties (company name, company region, etc) in [this scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/6319611b-0000-203e-8729-94eb2c0924fc/runs?project=telligentsourcegraph), and a JSON is created in a [GCS bucket](<https://console.cloud.google.com/storage/browser/event-usage-to-amplitude/data?project=telligentsourcegraph&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false>).
-3. Every hour Amplitude checks for new data in the GCS bucket to ingest.
+1. Events are stored in the `dotcom_events.events_usage` table for managed instance, and `dotcom_events.events` for dotcom events.
+2. Events are formatted to fit Amplitude's schema, enhanced with user properties (company name, company region, etc) in a scheduled query (`event-usage-to-amplitude-sg-cloud` for dotcom and `usage-data-amplitude` for managed instances), and a JSON is created in a [GCS bucket](https://console.cloud.google.com/storage/browser?project=telligentsourcegraph&prefix=) (named the same as the scheduled query).
+3. Every 5 minutes Amplitude checks for new data in the GCS bucket to ingest.
 
 ### Adding events to Amplitude
 
-WIP
+All new events (through eventLogger) are automatically added to Amplitude. There is a denylist, but everything beyond that is automatically accepted.
 
 ## Using Amplitude FAQs
+
+### What are the differences between projects?
+
+`Managed instances` contain all managed instances that have event-level telemetry turned on. This includes all self-service cloud trials, some CE-led trials and some managed instance customers.
+
+`Dotcom` is all traffic to from sourcegraph.com and some of its subdomains, including (about.sourcegraph.com, signup.sourcegraph.com).
+
+### How often is Amplitude data updated?
+
+The data lags about an hour behind real-time. The scheduled query that compiles all the data runs once an hour, and Amplitude checks every five minutes for new compiled data. So the maximum lag is 1 hour and 5 minutes.
 
 ### How do I find what we call an event in the Sourcegraph code?
 
