@@ -16,7 +16,7 @@ These metrics can help in situations like the following:
 
 - Determine our "baseline" disk IOPS requirements for a given workload. For example, if a load test reveals that a service peaked at a certain number of reads per second, we should configure that service's disk that can support at least that many IOPS to ensure adequate performance.
 
-- Determine how to scale a service (horizontally or vertically). For example, if a service's read / write request load is approaching the maximum IOPS capacity of the disks it is using, it may be necessary to add more replicas to distribute the load across multiple disks.
+- Determine how to scale a service (horizontally or vertically). For example, if a service's read / write request load is approaching the maximum IOPS capacity of the disk it is using, it may be necessary to add more replicas to distribute the load across multiple disks.
 
 For more information about the implementation of these metrics, see the following pull requests on GitHub:
 
