@@ -35,7 +35,7 @@ mi2 workflow run -filter '.metadata.labels."instance-type" == "production" and .
 for trial instances:
 
 ```sh
-mi2 workflow run -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances'
+mi2 workflow run -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
 ```
 
 This automated workflow will generate a pull request for each instance to represent the upgrade that:
