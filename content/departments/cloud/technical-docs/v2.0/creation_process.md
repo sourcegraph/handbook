@@ -27,7 +27,7 @@ gh workflow run -R github.com/sourcegraph/cloud  \
   -f environment=[dev|prod] \
   -f customer=$CUSTOMER \
   -f instance_type=[production|trial|internal] \
-  -f target_src_version=$TARGET_VERSION \
+  -f target_src_version=$TARGET_SRC_VERSION \
   -f instance_domain=$DOMAIN \
   -f customer_admin_email=$CUSTOMER_ADMIN_EMAIL \
   -f cdktf_deploy=[true|false]
@@ -67,6 +67,7 @@ Bash
 export SLUG=company
 export DOMAIN=company.sourcegraph.com
 export ENVIRONMENT=dev
+export TARGET_SRC_VERSION=4.2.0
 export TF_TOKEN_app_terraform_io=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=TFC_TEAM_TOKEN)
 ```
 
@@ -76,6 +77,7 @@ Fish
 set -x SLUG company
 set -x DOMAIN company.sourcegraph.com
 set -x ENVIRONMENT dev
+set -x TARGET_SRC_VERSION 4.2.0
 set -x TF_TOKEN_app_terraform_io (gcloud secrets versions access latest --project=sourcegraph-secrets --secret=TFC_TEAM_TOKEN)
 ```
 
@@ -101,6 +103,20 @@ Change the Terraform Cloud run mode to CLI-driven
 
 ```sh
 mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
+```
+
+Configure the target Sourcegraph version
+
+```sh
+mi2 instance edit --query '.spec.sourcegraphApplicationVersion = "'$TARGET_SRC_VERSION'"' --slug $SLUG -e $ENVIRONMENT
+```
+
+Verify domain is unique across all environments
+
+```sh
+# make sure none of the command below return a non-zero status code
+mi2 instance list -e dev | jq -erM 'any(.[]; (.spec.domain == "'$DOMAIN'") and (.metadata.name != "'$INSTANCE_ID'")) | not'
+mi2 instance list -e prod | jq -erM 'any(.[]; (.spec.domain == "'$DOMAIN'") and (.metadata.name != "'$INSTANCE_ID'")) | not'
 ```
 
 ### Init deployment - generate cdktf stacks artifacts
