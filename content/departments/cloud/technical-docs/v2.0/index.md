@@ -1,8 +1,8 @@
 # Managed Instance v2.0
 
-> v2.0 is still under active development
+> NOTE: v2.0 is still under active development
 
-> as of 2022-10-27, any teammate is able to provision their own v2 instances. please reach out to #cloud for guidance.
+> NOTE: as of 2022-10-27, any teammate is able to provision their own v2 instances. please reach out to #cloud for guidance.
 
 This documentation details significant changes of Managed Instance v2.0 comparing to the previous version.
 
