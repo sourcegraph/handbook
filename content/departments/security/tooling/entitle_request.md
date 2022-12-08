@@ -1,13 +1,16 @@
 # How to request access to Google Cloud resources via Entitle:
-Entitle is available through a Slack integration as well as web interface. 
+
+Entitle is available through a Slack integration as well as web interface.
 
 ## Web Interface
+
 - The webapp is available at [here](https://app.entitle.io/)
 - You can login via your Google Workspace account
 - Clicking on "New Request" in the top left corner will take you to the request form
-- Please see request form details below on 
+- Please see request form details below on
 
 ## Slack Interface
+
 - Slack interface is available by typing /entitle or /access_request in any slack window
 
 ## There are three ways of requesting access via Slack or Web Interface.
@@ -19,8 +22,9 @@ Entitle is available through a Slack integration as well as web interface.
 ## Search for Permission Request:
 
 This request type is a search engine that will take you more directly to permission and roles that you may be looking to request.
+
 1. Once you issue the /entitle or /access_request command in slack, you will see this popup:
-![Search Dialog](../img/Entitle_search.png)
+   ![Search Dialog](../img/Entitle_search.png)
 2. Search for Permission request type is the default choice
 3. “Search for Permission”: This is where you would type in information regarding your request:
 4. You can type in a project name to see what Roles you can request
@@ -28,7 +32,6 @@ This request type is a search engine that will take you more directly to permiss
 6. You can also combine and type in Role and Project together to narrow down your search.
 
 NOTE: this feature is still in Beta so results may vary. If you do not see the expected results, please use the other two request methods.
-
 
 ## Permission Sets Request:
 
@@ -61,4 +64,3 @@ To request permission to a specific resource follow these steps:
 6. Grant Method: choose direct.
 7. Permission Duration: is the amount of time you will need this access for. This will ensure that once you are finished with your necessary task, the permissions are revoked to keep our systems more secure.
 8. Add Justification: This is a very important step. Without proper justification for your access, your request will be denied. This is necessary for audit and reporting purposes. Please reference a customer ticket, a jira ticket, or any other relevant information that justifies your need for access to the resource.
-
