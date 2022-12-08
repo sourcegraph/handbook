@@ -232,6 +232,7 @@ Any customer whose utilization score (Monthly Active Users / Total Seats Purchas
 ### Planning
 
 The TA fills out the `Account - Context on Low Utilization field` in Vitally, providing a brief overview about: Why is utilization below 80%? Are there any in-progress activities occurring right now to directly impact adoption? The TA also completes a Get Well Plan to align with the Account Team and Sales and TS leadership on the go forward plan. The TA provides the following as part of the initial plan:
+
 - Current State of the Account, Relationship
   - Description: What's the overall pulse of the account? Who do we have relationships with and how have things been going?
 - Are we in their dev onboarding flow?
@@ -247,7 +248,7 @@ The TA fills out the `Account - Context on Low Utilization field` in Vitally, pr
 
 ### Execution
 
-After plan creation, the execute phase of the projects consists of bi-weekly updates from the TA via the Get Well Plan in Vitally which is reviewed by TA leadership. 
+After plan creation, the execute phase of the projects consists of bi-weekly updates from the TA via the Get Well Plan in Vitally which is reviewed by TA leadership.
 
 ## Account Health
 

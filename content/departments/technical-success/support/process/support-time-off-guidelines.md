@@ -21,7 +21,7 @@ As such, to amend the company-wide guidelines for PTO, the following additional 
 
 ## Appendix: Current CS team distribution
 
-| Coverage Blocks                | SEs                    |
+| Coverage Blocks                | SEs                     |
 | ------------------------------ | ----------------------- |
 | EMEA (1:00am -11:00am PST)     | Mariam, Michael, Stompy |
 | Early US (6:00am - 3:00pm PST) | Alex, Jason, Riana      |
