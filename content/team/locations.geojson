@@ -850,6 +850,16 @@
                 "type": "Point",
                 "coordinates": [42.197250, -88.006111]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Peter Guy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-123.326103, 42.440739]
+            }
         }
     ]
 }
