@@ -5,6 +5,7 @@ import ErrorPage from 'next/error'
 import { useRouter } from 'next/router'
 import React, { useEffect, useRef } from 'react'
 
+import { Banner } from '../components/Banner'
 import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
 import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
@@ -134,6 +135,7 @@ export default function Page({ page }: PageProps): JSX.Element {
                                     )
                                 })}
                             </nav>
+                            <Banner path={page.path} />
                             <main
                                 className="markdown-body"
                                 data-swiftype-name="body"
