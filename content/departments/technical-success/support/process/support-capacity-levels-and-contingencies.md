@@ -1,6 +1,5 @@
 # Support capacity levels and contingencies
 
-
 Based on how many support engineers are able to work each day and how many open cases we have across the team, we are able to quickly see if we have enough capacity to operate business-as-usual or if we need to invoke any contingencies.
 
 We center the following as guiding statements for what we want to be true during periods when we do not have enough capacity to operate business-as-usual:
