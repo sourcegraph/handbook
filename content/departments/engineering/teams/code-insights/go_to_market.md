@@ -61,7 +61,7 @@ To book the product manager to help a customer or prospect set up insights, or t
 
 ### [Neo Financial Code Insights Case Study](https://about.sourcegraph.com/case-studies/neo-financial-improves-the-developer-experience-with-sourcegraph)
 
-### PDFs "How ____[x team] can build a data-driven relationship with their code"
+### PDFs "How \_\_\_\_[x team] can build a data-driven relationship with their code"
 
 - [How Frontend Platform Teams can build a data-driven relationship with your codebase](https://about.sourcegraph.com/guides/data-driven-relationships-with-codebases.pdf)
 - [How DevOps Teams can build a data-driven relationship with your codebase](https://about.sourcegraph.com/guides/devops-data-driven-relationships-with-codebases.pdf)
