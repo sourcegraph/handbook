@@ -273,9 +273,15 @@ sg client codehost add-github \
 See https://ghe.sgdev.org/testing which is a replica of https://github.com/londonappbrewery on our GitHub instance.
 They are owned by the `testing` user, who can write on those repos.
 
-#### Organization with 200k blank repos (single initial commit with `README.md`)
+#### 200k blank repos (single initial commit with `README.md`)
+* 198k repositories assigned to `main-org`: https://ghe-scaletesting.sgdev.org/main-org
+  * 4750 teams have permissions on 27 or 28 repositories
+  * 200 teams have permissions on 78 repositories
+  * 50 teams have permissions on 985 repositories
+  * 1000 repositories each have 3 users assigned as collaborators who are the only users with access
+* 400 repositories each assigned to `sub-org-000000000` through `sub-org-000000004`: https://ghe-scaletesting.sgdev.org/sub-org-000000000 and up
+  * These have org-wide permissions for the members of each org (2k members per org)
 
-See https://ghe.sgdev.org/scaletesting-blank200k for the repos.
 See https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/scaletesting/bulkrepocreate/README.md for the tool powering the creation.
 
 #### Large binary files
