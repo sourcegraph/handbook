@@ -23,19 +23,19 @@ Using `mi2` you can generate commands to trigger automated upgrades for all inst
 for internal instances:
 
 ```sh
-mi2 workflow template -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' 'gh workflow run mi_upgrade.yml -f environment={{ .Environment.Name }} -f customer={{ .Instance.Spec.DisplayName }} -f target_src_version="$TARGET_VERSION"'
+mi2 workflow run -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
 ```
 
 for production instances:
 
 ```sh
-mi2 workflow template -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' 'gh workflow run mi_upgrade.yml -f environment={{ .Environment.Name }} -f customer={{ .Instance.Spec.DisplayName }} -f target_src_version="$TARGET_VERSION"'
+mi2 workflow run -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' 'gh workflow run upgrade-instances
 ```
 
 for trial instances:
 
 ```sh
-mi2 workflow template -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' 'gh workflow run mi_upgrade.yml -f environment={{ .Environment.Name }} -f customer={{ .Instance.Spec.DisplayName }} -f target_src_version="$TARGET_VERSION"'
+mi2 workflow run -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances'
 ```
 
 This automated workflow will generate a pull request for each instance to represent the upgrade that:
