@@ -18,7 +18,7 @@ export function Banner({ path }: { path: string }): JSX.Element {
                     <b>
                         To learn more about the Sourcegraph Cloud product, please refer to our{' '}
                         <a href="https://docs.sourcegraph.com/cloud">user-facing documentation</a>.
-                    </b>
+                    </b>{' '}
                     The documentation here is meant for internal Sourcegraph use, and may represent unreleased,
                     incomplete, or out-of-date processes and functionality - it is made public to align with{' '}
                     <a href="/company-info-and-process/values/#open-and-transparent">our values</a>.
