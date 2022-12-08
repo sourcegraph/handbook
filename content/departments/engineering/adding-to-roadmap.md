@@ -6,6 +6,7 @@ We submit roadmap proposals in the form of Amazon-style PR-FAQs. Anybody can sub
 
 1. **Write a PR-FAQ to describe your proposal**.
 
+- PR-FAQ are a recommended format, but you should feel free to use the most appropriate format for the project as long as it's concise and has a [Success Criteria](#success-criteria)
 - You can use this [template](https://docs.google.com/document/d/1Stwe26NWoh0r_LOeA3sUqwDZlrmZ2qBEcdV0Sd1KP1o/edit#).
 - All PR-FAQs are stored in the [PR-FAQ folder](https://drive.google.com/drive/folders/1cOXPKDIQ3O3ZEq9oP6WZBTizgwnoZI9l).
 - If you need help putting your PR-FAQ together, post in #product to request help from a PM.
