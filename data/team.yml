@@ -2378,3 +2378,14 @@ julie_tibshirani:
   location: San Francisco, CA, USA 🇺🇸
   links: '[@julietibs](https://twitter.com/julietibs), [jtibshirani.github.io](https://jtibshirani.github.io)'
   description: Julie loves building systems that are empowering and enjoyable to use. She's particularly passionate about search and open source development. Outside of software, Julie enjoys backpacking, dancing, and tending to her many houseplants.
+
+peter_guy:
+  name: Peter Guy
+  email: peter.guy@sourcegraph.com
+  github: peterguy
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: eng_lead
+  location: Grants Pass, OR, USA 🇺🇸
+  links: '[LinkedIn](https://linkedin.com/in/peter-guy)'
+  description: Peter enjoys crafting beautiful code and finding elegant solutions to difficult problems. Since both of those are somewhart rare occurances, he satisfies himself with shippable code and pragmatic solutions.😄 Outside of programming, he enjoys his family, pets and small ranch in the beautiful Siskiyous of Southern Oregon.
