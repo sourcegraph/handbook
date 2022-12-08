@@ -50,10 +50,10 @@
 ### Zendesk statuses and what they mean
 
 - New
-  - What a ticket in this state means: The initial state of the ticket when it’s created, before any first response to the requestor. These tickets may either be unassigned, or initially assigned to an AER without the first response yet sent.
+  - What a ticket in this state means: The initial state of the ticket when it’s created, before any first response to the requestor. These tickets may either be unassigned, or initially assigned to an SE without the first response yet sent.
   - Who has the next action: The next step is with us. We are actively working on it and have the next action / response.
 - Open
-  - What a ticket in this state means: The follow-on state of a ticket when someone responds to a ticket that’s in progress. An open ticket is assigned to an AER and being actively worked and effort is directly related to resolving the issue at hand (eg, root cause analysis, troubleshooting, research directly related to the issue at hand, collaboration on the issue, etc).
+  - What a ticket in this state means: The follow-on state of a ticket when someone responds to a ticket that’s in progress. An open ticket is assigned to an SE and being actively worked and effort is directly related to resolving the issue at hand (eg, root cause analysis, troubleshooting, research directly related to the issue at hand, collaboration on the issue, etc).
   - Who has the next action: The next step is with us. We are actively working on it and have the next action / response.
 - Pending
   - What a ticket in this state means: The follow-on state of a ticket when we are waiting for the customer to respond. This includes when we believe the ticket is resolved and are waiting for confirmation from the customer.
@@ -63,7 +63,7 @@
   - Who has the next action: The next step is with an internal team or external third-party. We are not actively working on it and are waiting for a third-party to reply, who has the next action / response.
 - Solved
   - What a ticket in this state means: The final state of a ticket, when we believe we have resolved the issue fully. Note: solved tickets move to this status automatically after 48 business hours. They _can_ be reopened.
-  - Who has the next action: No one. AER is no longer actively working the ticket. If the customer doesn’t feel it is resolved they will reopen.
+  - Who has the next action: No one. SE is no longer actively working the ticket. If the customer doesn’t feel it is resolved they will reopen.
 - Closed
   - What a ticket in this state means: The final, locked state of a ticket. Closed tickets _cannot_ be reopened. Note: solved tickets move to this state 72 hours after set to solved.
   - Who has the next action: No one.
@@ -88,7 +88,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Provided to enterprise customers during trial (pre-sales) and converted to a support channel (post-sales) for ongoing communications via an easy, familiar method
 - **Those involved:** AE + CE + support > (Engineering) + Product
-- **Details:** We use Foqal.io to automate support within any customer channel. As long as we are able to add the Foqal Agent to the slack channel - whether our channel or customer-owned - and enable the form widget so that customers can create a request for Support we are able to support the customer via slack. We do not monitor all activity in the channel and require the customer to submit a request. Once submitted, it automatically creates a ticket in Zendesk. AERs, when picking up a ticket, must do so out of the slack Foqal agent. This assigns them to the ticket in Zendesk. CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
+- **Details:** We use Foqal.io to automate support within any customer channel. As long as we are able to add the Foqal Agent to the slack channel - whether our channel or customer-owned - and enable the form widget so that customers can create a request for Support we are able to support the customer via slack. We do not monitor all activity in the channel and require the customer to submit a request. Once submitted, it automatically creates a ticket in Zendesk. SEs, when picking up a ticket, must do so out of the slack Foqal agent. This assigns them to the ticket in Zendesk. CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
 - **_Important note_: CS only supports slack channels that our support Agent can be added to. Customers who are not able to do so can engage support via support@sourcegraph.com.**
 
 ### #help channel in Community Slack account
