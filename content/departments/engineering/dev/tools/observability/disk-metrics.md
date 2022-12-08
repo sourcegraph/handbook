@@ -25,7 +25,7 @@ For more information about the implementation of these metrics, see the followin
 - [sourcegraph/pull/43877](https://github.com/sourcegraph/sourcegraph/pull/43877)
 - [sourcegraph/mountinfo](https://github.com/sourcegraph/mountinfo)
 
-For more information on how to interpret these metrics, see our [monitoring reference](https://docs.sourcegraph.com/admin/observability/dashboards#zoekt-data-disk-i-o-metrics-only-available-on-sourcegraph-internal-instances), as well as the following resources:
+For more information on how to interpret these metrics, see our [monitoring reference](https://docs.sourcegraph.com/admin/observability/dashboards#zoekt-data-disk-i-o-metrics), as well as the following resources:
 
 - This [blog](https://coderwall.com/p/utc42q/understanding-iostat)
 - The [`iostat` man page](https://man7.org/linux/man-pages/man1/iostat.1.html)
