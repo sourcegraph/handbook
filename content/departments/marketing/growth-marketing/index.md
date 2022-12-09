@@ -42,3 +42,7 @@ The Growth Marketing team focuses on product-oriented features that generate inb
 ## Ownership
 
 See [Engineering ownership](../../engineering/dev/process/engineering_ownership.md)
+
+## Other resources
+
+- [Growth marketing analytics overview](../growth-marketing/analytics.md)
