@@ -200,6 +200,8 @@ Use [Project Tools](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/Project-To
 
 - **Project Introduction** - necessary when sharing your prototype with the Team. It should contain details about the target audience and project goals, to provide good context before starting the review.
 
+- **Changelog** - it is used to track key design decisions and the reasoning behind them throughout the project. It is a source of truth for how the project evolved. Changelog keeps all the information in one place, so it's easier to review and understand them during the project and when the team is working on the next iteration.
+
 - **Final Page** - placed at the end of the prototype. It shows additional notes on the solution, points out the most important pages in the prototype and describes what feedback the designer is looking for. It also instructs reviewers on how to leave comments.
 
 ### File structure
@@ -211,7 +213,8 @@ Divide work into the following pages:
 - Research
 - Flowcharts
 - Wireframes
-- Visual Design
+- Master (Visual Design)
+- Changelog
 - Archives
 
 Use only pages that are necessary for your file. Tasks within the linked issue should be updated with links to each of the corresponding pages.
