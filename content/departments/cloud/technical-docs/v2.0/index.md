@@ -156,6 +156,8 @@ Run below command to retrieve the credentials and configure the proper `kubectl`
 mi2 instance workon -exec
 ```
 
+Then run the typical `kubectl` command to interact with the cluster. Additinoally, you can always use the GKE UI on GCP Console if you prefer.
+
 ### How to update & apply terraform modules?
 
 In v2, we use `cdktf` via `mi2` cli to dynamically generate the cdktf stacks for each modules.
