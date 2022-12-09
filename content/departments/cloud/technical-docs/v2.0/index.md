@@ -83,7 +83,7 @@ The following processes only apply to Cloud v2.0:
 
 ### How to work with Cloud instances?
 
-> NOTE: This is the prereq for all things related to Cloud. Please review this section carefully.
+> NOTE: This is the prereq for all things related to Cloud. Please review this section carefully. If you have questions, please reach out to #cloud and tag `@cloud-support`.
 
 Below is the bare minimal prereq before you can work with Cloud instances
 
@@ -120,7 +120,7 @@ Use the slash command in Slack, type `/access_request` in any chat window and hi
 
 The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request.
 
-Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](../../engineering/dev/process/incidents/index.md), please [page Cloud on-call engineer using OpsGenie](../../../engineering/dev/process/incidents/index.md#incident-lead).
+Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](../../../engineering/dev/process/incidents/index.md), please [page Cloud on-call engineer using OpsGenie](../../../engineering/dev/process/incidents/index.md#incident-lead).
 
 ### How to request access to Cloud instances UI?
 
