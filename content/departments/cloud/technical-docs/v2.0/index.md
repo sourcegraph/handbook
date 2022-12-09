@@ -81,6 +81,32 @@ The following processes only apply to Cloud v2.0:
 - [Delete a Managed instance](./delete_process.md)
 - [Disaster Recovery process for a Managed instance](./disaster_recovery_process.md)
 
+### How to work with Cloud instances?
+
+Below is the bare minimal prereq before you can work with Cloud instances
+
+- Access to [sourcegraph/cloud] and [sourcegraph/controller]
+- Install `mi2` by following [sourcegraph/controller#installation](https://github.com/sourcegraph/controller#installation)
+- Sufficient access to GCP projects, see below FAQ to learn how to request access.
+
+### How to request access to Cloud instances infrastructure?
+
+We utilize Entitle to provide time-bound access to GCP infrastructure for both production and development environment. 
+
+Use the slash command in Slack, type `/access_request` in any chat window and hit enter. Fill out the following values:
+
+- **Search permission**: One of `Cloud V2 Dev Access`, `Cloud V2 Prod Access`
+- **Permission duration**: Preferably to request the minimal amount of time
+- **Add justification**: Add a note to provide context why access is needed
+
+The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request.
+
+Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](../../engineering/dev/process/incidents/index.md), please [page Cloud on-call engineer using OpsGenie](../../../engineering/dev/process/incidents/index.md#incident-lead).
+
+### How to request access to Cloud instances UI?
+
+Learn more from (Request access to Cloud instances UI)[../oidc_site_admin.md#request-access-to-cloud-instances-ui]
+
 ### How to update & apply terraform modules?
 
 In v2, we use `cdktf` via `mi2` cli to dynamically generate the cdktf stacks for each modules.
@@ -149,3 +175,5 @@ alias cdktfl=/abspath-to-terraform-cdk-repo/packages/cdktf-cli/bundle/bin/cdktf
 Then replace all `cdktf` command with `cdktfl`
 
 [sourcegraph/cloud]: https://github.com/sourcegraph/cloud
+[sourcegraph/controller]: https://github.com/sourcegraph/controller
+
