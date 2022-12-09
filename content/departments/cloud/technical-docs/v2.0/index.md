@@ -136,6 +136,8 @@ If you not sure about the `slug` or `environment` of an instance, go to [s2](htt
 repo:^github\.com/sourcegraph/cloud$ file:config.yaml <insert customer name or domain name as keyword to filter>
 ```
 
+`INSTANCE_ID` is the value of `.metadata.name` in `config.yaml`
+
 If you know the slug of the instance, run below at the root of the [sourcegraph/cloud] deployment repo to retrieve the instance ID
 
 ```sh
