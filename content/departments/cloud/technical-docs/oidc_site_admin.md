@@ -2,9 +2,10 @@
 
 Sourcegraph teammates access to Cloud instances application interface (Web UI) is restricted to essential personnel only. This ensures Sourcegraph is able to help customers troubleshoot issues and deliver a smooth experience. We utilize Sourcegraph Operator Authentication Provider (SOAP) which implements OpenID Connect to enable Sourcegraph employees access to customer instance to make sure there is an audit trail for every access.
 
-The Cloud team manages a separate Cloud OKTA account (separate from the company-wide Sourcegraph OKTA account) to manage UI access to Cloud instances. The Cloud OKTA account is federated by the parent Sourcegraph OKTA account to ensure access control is consistent across all our systems. For example, if an account is deactivated from the Sourcegraph OKTA account, the user will loss access to Cloud OKTA as well.
+The Cloud team manages a separate Cloud Okta account (separate from the company-wide Sourcegraph Okta account) to manage UI access to Cloud instances. The Cloud Okta account is federated by the parent Sourcegraph Okta account to ensure access control is consistent across all our systems. For example, if an account is deactivated from the Sourcegraph Okta account, the user will loss access to Cloud Okta as well.
 
-Each Cloud instance equals to an OKTA Oauth application. For each OKTA application, a OKTA group is created and assign access to the OKTA application. By default, no teammate has UI access to any customer Cloud instances, hence the OKTA group is empty. We will then grant time-bound access to the OKTA group as needed.
+Each Cloud instance equals to an Okta Oauth application. For each Okta application, an Okta group is created and assign access to the Okta application. By default, no teammate has UI access to any customer Cloud instances, hence the Okta group is empty. We will then grant time-bound access to the 
+group as needed.
 
 You can learn more about the detail from:
 
