@@ -83,11 +83,30 @@ The following processes only apply to Cloud v2.0:
 
 ### How to work with Cloud instances?
 
+> NOTE: This is the prereq for all things related to Cloud. Please review this section carefully.
+
 Below is the bare minimal prereq before you can work with Cloud instances
 
-- Access to [sourcegraph/cloud] and [sourcegraph/controller]
+- [sourcegraph/cloud]: deployment repo where we persist all Cloud instances config and deployment artifacts
+- [sourcegraph/controller]: mi2 - cloud controller source code
 - Install `mi2` by following [sourcegraph/controller#installation](https://github.com/sourcegraph/controller#installation)
 - Sufficient access to GCP projects, see below FAQ to learn how to request access.
+
+Let's walkthrough the process of accessing a Cloud instance:
+
+First [locate the instance you are looking for](#how-to-locate-a-cloud-instance-in-the-deployment-repo)
+
+- `gh repo clone sourcegraph/cloud`
+- `cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID`
+
+Then you can start running various `mi2` commands to work with a specific Cloud Instance (where we will infer the current instance base on current working directory).
+
+```sh
+# start a proxy to the database instance
+mi2 instance db proxy
+```
+
+Learn more from the `mi2` cli [reference](https://github.com/sourcegraph/controller/blob/main/reference.md) for detail usage and examples.
 
 ### How to request access to Cloud instances infrastructure?
 
@@ -105,7 +124,37 @@ Please tag `@cloud-support` or `@security-support` in #cloud for immediate atten
 
 ### How to request access to Cloud instances UI?
 
-Learn more from (Request access to Cloud instances UI)[../oidc_site_admin.md#request-access-to-cloud-instances-ui]
+Learn more from [Request access to Cloud instances UI](../oidc_site_admin.md#request-access-to-cloud-instances-ui)
+
+### How to locate a Cloud instance in the deployment repo?
+
+There are two ways
+
+If you not sure about the `slug` or `environment` of an instance, go to [s2](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/cloud$+file:config.yaml&patternType=standard&sm=1&groupBy=path)
+
+```
+repo:^github\.com/sourcegraph/cloud$ file:config.yaml <insert customer name or domain name as keyword to filter>
+```
+
+If you know the slug of the instance, run below at the root of the [sourcegraph/cloud] deployment repo to retrieve the instance ID
+
+```sh
+mi2 instance get -e $ENVIRONMENT --slug $CUSTOMER | jq -r '.metadata.name'
+```
+
+Then `cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID`
+
+### How do I work with `mi2` CLI?
+
+Learn more from [CLI reference](https://github.com/sourcegraph/controller/blob/main/reference.md).
+
+### How to work with k8s deployment of a Cloud instance
+
+Run below command to retrieve the credentials and configure the proper `kubectl` context.
+
+```sh
+mi2 instance workon -exec
+```
 
 ### How to update & apply terraform modules?
 
