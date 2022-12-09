@@ -31,7 +31,7 @@ OR web interface form will look like this
 ![SearchUI](../img/webui1.png)
 
 2. Search for Permission request type is the default choice
-3. “Search for Permission”: This is where you would type in information regarding your request:
+3. “Search Permission”: This is where you would type in information regarding your request:
    1. You can type in a project name to see what Roles you can request
    2. You can type in a particular Role to see which resources you can request it on
    3. You can also combine and type in Role and Project together to narrow down your search.
@@ -46,7 +46,7 @@ Permission Sets are Entitle’s way of grouping necessary permission together fo
 To request a custom built set, please reach out to the Security team.
 To request permissions via a Bundle, follow these steps:
 
-1. Issue /entitle or /access_request command in slack and you will see the following popup
+1. Issue /entitle or /access_request command in slack and you will see the following popup if you choose Permission Sets from Request Type dropdown
 
    ![Bundle_dialog](../img/Entitle_bundles.png)
 
@@ -54,19 +54,18 @@ OR if you click "I want a permission set" on the bottom of the web interface for
 
 ![Bundle Webform](../img/webui2.png)
 
-2. Once Permission set is chosen in Request Type, you will have updated dropdowns
-3. “Permission set category” is optional but narrows your list of available Bundles. You can leave this field blank if you want to see all the available Bundles
-4. “Permission Set” are custom created grouped permissions for easy request submission. These are created so that a teammate who may need access to multiple resources for a particular task can request it in one request vs submitting multiple requests. If a Permission Set describes the type of access you require, you can select it.
+2. “Permission set category” is optional but narrows your list of available Bundles. You can leave this field blank if you want to see all the available Bundles
+3. “Permission Set” are custom created grouped permissions for easy request submission. These are created so that a teammate who may need access to multiple resources for a particular task can request it in one request vs submitting multiple requests. If a Permission Set describes the type of access you require, you can select it.
    1. If there isn't one that fits your need and you think that you will benefit from a custom permission set, please reach out to security team.
-5. Permission Duration: is the amount of time you will need this access for. This will ensure that once you are finished with your necessary task, the permissions are revoked to keep our systems more secure.
-6. Add Justification: This is a very important step. Without proper justification for your access, your request will be denied. This is necessary for audit and reporting purposes. Please reference a customer ticket, a jira ticket, or any other relevant information that justifies your need for access to the resource.
+4. Permission Duration: is the amount of time you will need this access for. This will ensure that once you are finished with your necessary task, the permissions are revoked to keep our systems more secure.
+5. Add Justification: This is a very important step. Without proper justification for your access, your request will be denied. This is necessary for audit and reporting purposes. Please reference a customer ticket, a jira ticket, or any other relevant information that justifies your need for access to the resource.
 
 ## Specific Permission Request:
 
 This option allows for granular access requests to only necessary data/instances. \
 To request permission to a specific resource follow these steps:
 
-1. Issue /entitle or /access_request command in slack and choose Resources from Request Type. you will see the following popup
+1. Issue /entitle or /access_request command in slack and choose Specific Permission from Request Type. you will see the following popup
 
    ![Resource_dialog](../img/Entitle_Resource.png)
 
