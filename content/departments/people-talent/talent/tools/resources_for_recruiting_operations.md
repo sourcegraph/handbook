@@ -100,8 +100,8 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
   - Oftentimes scheduling interview steps on the same day is not possible due to the interviewer's varying time zones and schedules. In these cases, it is okay to schedule interviews over multiple days.
 - Provide candidates with at least a 15 minute break after two hours of interviews, if possible
 - Schedule interviews using the candidate’s earliest availability within reason
-- Unless specified, interview sections can be scheduled in any order. For example, the peer interview does not have to be completed prior to the cross-functional collaboration interview.
-  - However, there are exceptions to the rule. The recruiter will tell you which sections are needed and if a specific order is required. Typically the [Leadership Interview(s)](../process/types_of_interviews.md#leadership-interview) are saved for last.
+- Unless specified, interviews within an interview stage can be scheduled in any order. For example, the peer interview does not have to be completed prior to the cross-functional collaboration interview. But since the HM screen and the Peer interview are in different stages, the HM screen must come first.
+  - If there is an exception, the recruiter will let you know.
 - Confirm that all interviews scheduled within the next 24 hours have been accepted by interviewers and confirmed by candidates.
   - You can quickly confirm in Google Calendar by opening the “Interviews” calendar, clicking on each interview, and ensuring that all the panelists have a green checkmark next to their name.
 - Utilize tools like [TextExpander](../../../../company-info-and-process/remote/teammate-recommended_productivity_hacks.md#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often

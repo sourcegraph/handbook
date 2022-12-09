@@ -37,9 +37,9 @@ They also invoke whatever contingency is outlined for that level. The contingenc
 
 Within planned threshold when **ALL** of the following **are true**:
 
-- 3 Africa/Europe-based AERs working
-- 9-11 US-based AERs working
-- Each AER working has no more than 5 open, active cases
+- 3 Africa/Europe-based SEs working
+- 9-11 US-based SEs working
+- Each SE working has no more than 5 open, active cases
 
 **Contingency:** n/a; this is business as usual.
 
@@ -47,9 +47,9 @@ Within planned threshold when **ALL** of the following **are true**:
 
 **CS team coordination required** when **ANY** of the following **is true**:
 
-- 2 Africa/Europe-based AERs working
-- 6-8 US-based AERs working
-- Each AER working has more than 5 open, active cases
+- 2 Africa/Europe-based SEs working
+- 6-8 US-based SEs working
+- Each SE working has more than 5 open, active cases
 
 **Contingency:** CS-triage coordinates who handles what.
 
@@ -57,19 +57,19 @@ Within planned threshold when **ALL** of the following **are true**:
 
 **CS team flexibility required** when **ANY** of the following **is true**:
 
-- 2 Africa/Europe-based AERs working
-- 5 US-based AERs working
-- Each AER working has more than 7 open, active cases
+- 2 Africa/Europe-based SEs working
+- 5 US-based SEs working
+- Each SE working has more than 7 open, active cases
 
-**Contingency**: CS-triage pauses all non-issue related work to focus on helping customers ONLY (OKR work, documentation updates etc are put on hold) **AND** will alert AERs with a focus day they need to remain available if needed.
+**Contingency**: CS-triage pauses all non-issue related work to focus on helping customers ONLY (OKR work, documentation updates etc are put on hold) **AND** will alert SEs with a focus day they need to remain available if needed.
 
 #### Level 4
 
 **Community responsiveness flexibility required** when **ANY** of the following **is true**:
 
-- 2 Africa/Europe-based AERs working
-- 4 US-based AERs working
-- Each AER working has more than 8 open, active cases
+- 2 Africa/Europe-based SEs working
+- 4 US-based SEs working
+- Each SE working has more than 8 open, active cases
 
 **Contingency:** CS-triage alerts #community-relations that we are at level 4 and will get to posts in the #help channel in our Slack community as soon as we are able and within 24 hours from the time of each post. **AND** CS-leadership takes responsibility for issues, too (if possible and only if it is less work for the team, not more).
 
@@ -77,9 +77,9 @@ Within planned threshold when **ALL** of the following **are true**:
 
 **Post-sales responsiveness flexibility required** when **ANY** of the following **is true**:
 
-- 1 Africa/Europe-based AER working
-- 3 US-based AERs working
-- Each AER working has more than 9 open, active cases
+- 1 Africa/Europe-based SE working
+- 3 US-based SEs working
+- Each SE working has more than 9 open, active cases
 
 **Contingency:** CS-triage alerts #ce that we are at level 5 and will get to all issues from post-sales customers as soon as we are able and within 4 business hours from the time of post.
 
@@ -87,9 +87,9 @@ Within planned threshold when **ALL** of the following **are true**:
 
 **Pre-sales responsiveness flexibility require**d when **ANY** of the following **is true**:
 
-- 1 Africa/Europe-based AER working
-- 2 US-based AERs working
-- Each AER working has more than 9 open, active cases
+- 1 Africa/Europe-based SE working
+- 2 US-based SEs working
+- Each SE working has more than 9 open, active cases
 
 **Contingency:** CS-triage alerts #ce and #sales that we are at level 6 and will get to all issues from pre-sales customers as soon as we are able and within 2 business hours from the time of post.
 
@@ -97,9 +97,9 @@ Within planned threshold when **ALL** of the following **are true**:
 
 **CE-collaboration required** when **ALL** of the following **are true**:
 
-- 0 Africa/Europe-based AER working
-- 1 US-based AERs working
-- Each AER working has more than 10 open, active cases
+- 0 Africa/Europe-based SE working
+- 1 US-based SEs working
+- Each SE working has more than 10 open, active cases
 
 **Contingency:** CS-triage alerts #ce that we are at level 7 and would appreciate CE taking all issues for pre- and post-sales customers as far as they can before CS takes responsibility.
 
@@ -107,8 +107,8 @@ Within planned threshold when **ALL** of the following **are true**:
 
 **Engineering collaboration required** when **ALL** of the following **are true**:
 
-- 0 Africa/Europe-based AER working
-- 0 US-based AERs working
-- Each AER working has more than 10 open, active cases
+- 0 Africa/Europe-based SE working
+- 0 US-based SEs working
+- Each SE working has more than 10 open, active cases
 
 **Contingency:** CS-triage alerts #prod-eng-announce that we are at level 8 and alert engineering and product leadership that we would appreciate any SWEs who are able to raise their hand to help our customers directly with issues affecting them (which issues to be shared by whomever is on CS-triage at the time).
