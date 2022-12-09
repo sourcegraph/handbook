@@ -91,7 +91,7 @@ Below is the bare minimal prereq before you can work with Cloud instances
 
 ### How to request access to Cloud instances infrastructure?
 
-We utilize Entitle to provide time-bound access to GCP infrastructure for both production and development environment. 
+We utilize Entitle to provide time-bound access to GCP infrastructure for both production and development environment.
 
 Use the slash command in Slack, type `/access_request` in any chat window and hit enter. Fill out the following values:
 
@@ -176,4 +176,3 @@ Then replace all `cdktf` command with `cdktfl`
 
 [sourcegraph/cloud]: https://github.com/sourcegraph/cloud
 [sourcegraph/controller]: https://github.com/sourcegraph/controller
-
