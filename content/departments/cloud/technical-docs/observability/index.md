@@ -22,7 +22,7 @@ To opt-in a panel to this multi-instance dashboard, see [how to add monitoring](
 
 ### Common operations
 
-- Request access to the Grafana dashboard, follow [Requesting access to Grafana](./operations.md#requesting-access-to-grafana)
+- Request access to the Grafana dashboard, follow [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
 - To add a new dashboard to all managed instances, follow the [Creating a new individual dashboard](./operations.md#creating-a-new-individual-dashboard) procedure.
 - To create a new aggregated dashboard that queries multiple cloud instances, follow the [Creating a new multi-instance dashboard](./operations.md#creating-a-new-multi-instance-dashboard) procedure.
 - To manually refresh the dashboards on Grafana, follow the [Manually regenerate Grafana dashboards](./operations.md#manually-regenerate-grafana-dashboards) playbook.
