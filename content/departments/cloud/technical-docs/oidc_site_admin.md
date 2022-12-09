@@ -55,7 +55,7 @@ Once the `Entitle` slack app has confirmed the permission is granted, you will h
 
 To login to the Cloud instance UI, open `https://company.sourcegraph.com/sign-in?sourcegraph-operator`, and click `Continoue with Sourcegraph Operator` to authenticate.
 
-## Disabling OKTA OIDC on Managed Instance
+## Disabling Sourcegraph management access
 
 SOAP access can be disabled on an instance when explictly asked to by a customer via the configuration flag `disableSourcegraphManagementAccess: true` in `config.yaml`.
 
