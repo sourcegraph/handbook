@@ -32,5 +32,5 @@ incident_response:
   title: Incident Response
   link: /strategy-goals/strategy/use_cases/incident_response
   sponsors:
-    product: ryan_scott
+    product: malo_marrec
     engineering: dax_mcdonald
