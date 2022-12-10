@@ -32,12 +32,13 @@ CE
    </td>
   </tr>
   <tr>
-   <td><em>One-Click Deployment</em>
+   <td><em>CE-Owned Deployment</em>
    </td>
    <td>
 <ul>
-<li>Preferred on-prem deployment method
-<li>The production environment for the customer is created by the CE prior to transitioning ownership of the account to the TAM
+<li>Used for simpler self-hosted deployments (either One-Click Machine Images or Docker Compose) and/or scenarios where an deployment was <em>not</em> selected off of the Implementation Backlog.
+<li>Preferred on-prem or self-hosted deployment method
+<li>The production environment for the customer is created by the CE prior to transitioning ownership of the account to the TA
 <li>The production environment could be initiated as part of a trial or POC, or it could be created following contract closure
 </li>
 </ul>
@@ -50,7 +51,7 @@ CE
    </td>
    <td>
 <ul>
-<li>If Cloud and One-Click are not options for the customer, the CE will <a href="https://handbook.sourcegraph.com/departments/technical-success/ce/ie/ce-implementation-handoff/#initiating-an-ie-request">Initiate an IE Request</a>
+<li>If Cloud and CE-Owned Deployments are not options for the customer (i.e. they are deploying with Kubernetes), the CE will <a href="https://handbook.sourcegraph.com/departments/technical-success/ce/ie/ce-implementation-handoff/#initiating-an-ie-request">Initiate an IE Request</a>
 <li>Upon reviewing the request, the implementation team qualifies the customer for a jointly deployed instance and kicks off the process with the CE and Sales
 <li>This method is primarily used for on-prem Kubernetes deployments
 </li>
@@ -64,13 +65,13 @@ TPM
    </td>
   </tr>
   <tr>
-   <td><em>One-Click Into Jointly Deployed Instance</em>
+   <td><em>self-Hosted Into Jointly Deployed Instance</em>
    </td>
    <td>
 <ul>
-<li>This method is only used by customers that would like a production environment stood up quickly, their initial user set can be supported by a One-Click Deployment, but a full Kubernetes instance will be needed for expansion to the full set of users
-<li>The CE will stand up an initial One-Click production environment and transition the customer to the TAM for continued support
-<li>As the deployment reaches scalability or technical limits, the TAM engages the implementation team to coordinate a post-live, jointly deployed Kubernetes instance 
+<li>This method is only used by customers that would like a production environment stood up quickly and their initial user set can be supported by a simpler deployment method, but a full Kubernetes instance will be needed for expansion to the full set of users
+<li>The CE will stand up an initial production environment (likely with a One-Click Machine Image or Docker Compose) and transition the customer to the TA for continued support
+<li>As the deployment reaches scalability or technical limits, the TA engages the implementation team to coordinate a post-live, jointly deployed Kubernetes instance 
 </li>
 </ul>
    </td>
@@ -84,13 +85,13 @@ TPM
    </td>
   </tr>
   <tr>
-   <td><em>One-Click Into Cloud Deployment</em>
+   <td><em>Self-Hosted Into Cloud Deployment</em>
    </td>
    <td>
 <ul>
 <li>This method is only used by customers that would like a production environment stood up quickly and there are particular Cloud blockers that need to be resolved prior to the customer using a Managed Instance
-<li>The CE will stand up an initial One-Click production environment and transition the customer to the TAM for continued support
-<li>Once the Cloud Team completes the development required for the customer to use a Cloud deployment, the TAM engages the Cloud team to coordinate a transition to a Managed Instance
+<li>The CE will stand up an initial production environment and transition the customer to the TA for continued support
+<li>Once the Cloud Team completes the development required for the customer to use a Cloud deployment, the TA engages the Cloud team to coordinate a transition to a Managed Instance
 </li>
 </ul>
    </td>
@@ -109,9 +110,9 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 
 ### Deployment Decision Tree
 
-![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/Deployment%20Decsision%20Tree%20v8.png)
+![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/12-5-22%20Deployment%20Decision%20Tree.svg)
 
-[Link to Excalidraw](https://excalidraw.com/#json=9j9s-5ByiRR4y5SdcF5F3,fYozCz5zwCEt6QoC_Y_Fww)
+[Link to Excalidraw](https://excalidraw.com/#json=3sgWhfSb_gCs_iRuJauuy,jni0RyI7l_4xCq2Q2nDvnQ)
 
 ### Description of Decision Tree Questions
 

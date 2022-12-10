@@ -1,4 +1,4 @@
-# Teammate development at Sourcegraph
+# High Performance Culture & Teammate Development at Sourcegraph
 
 The purpose of this Handbook Page is to provide Managers and Teammates with the resources needed to drive a high performing culture at Sourcegraph. We believe that our team thrives when we have a high bar for excellence, and when all Teammates receive feedback early and often.
 

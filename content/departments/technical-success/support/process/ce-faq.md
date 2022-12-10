@@ -32,7 +32,7 @@ You can learn all you need to know about our SLAs [here](../index.md#our-service
 
 ## Can I have access to Zendesk?
 
-There is no need! We offer a window into Zendesk per customer in Salesforce. Navigate to the account record, then the Zendesk tab, and there you will be able to see all ticket history, internal notes, which support engineer is responsible for what ticket, etc. What you see in Salesforce is what you would see in Zendesk; there is no additional information in Zendesk. Most support work happens in Slack, so if you crave to see the full back-and-forth with the customer, that is where you will be able to read that. If you would like to understand more about the support team’s workflow (how we use Zendesk statuses, etc), feel free to read our [support engineer workflow](support-workflow.md) or [triage workflow](customer-support-triaging.md). If you have any specific questions beyond that, ask the AER responsible for the relevant case.
+There is no need! We offer a window into Zendesk per customer in Salesforce. Navigate to the account record, then the Zendesk tab, and there you will be able to see all ticket history, internal notes, which support engineer is responsible for what ticket, etc. What you see in Salesforce is what you would see in Zendesk; there is no additional information in Zendesk. Most support work happens in Slack, so if you crave to see the full back-and-forth with the customer, that is where you will be able to read that. If you would like to understand more about the support team’s workflow (how we use Zendesk statuses, etc), feel free to read our [support engineer workflow](support-workflow.md) or [triage workflow](customer-support-triaging.md). If you have any specific questions beyond that, ask the SE responsible for the relevant case.
 
 ## I am worried a shared Slack channel isn’t going into Zendesk, how can I be sure?
 
@@ -122,8 +122,4 @@ See [here](#What- if-I-have-context-to-share-that-could-be-useful-for-support?) 
 
 ## Is there an abbreviation for support engineer?
 
-AER. It’s best to just write it all out, but if you insist on abbreviations, AER is best to delineate from AE, which stands for account executive. For fun context, AER is a play on the trend in the US in the 80s when mechanical and electrical engineers would have badges for work that said Er or MEr, like Dr (short for doctor), where the Er was short for engineer.
-
-## Is it CS or CSE?
-
-CS, which is short for customer support, which is the name of our function.
+SE.

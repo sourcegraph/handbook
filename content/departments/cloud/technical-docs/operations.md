@@ -298,6 +298,20 @@ To modify label:
 - cd `project`
 - run `terraform apply -var-file=../terraform.tfvars`
 
+### Modifying IP Allowlists
+
+Customer provided IP Allowlists should be provided as either a single iPv4 ip address or a ipv4 CIDR.
+If provided as an ipv4 CIDR then the block MUST start at the beginning of the subnet.
+For example, `14.98.238.59/29` would be an invalid CIDR. It should start at the begining of the subnet
+The correct value would be: `14.98.76.90/30`
+https://cidr.xyz/ is a helpful site to ensure the host bits are all zero
+
+For applying, follow the normal steps to apply terraform changes
+
+- run `mi sync terraform-vars`
+- run `source tfvars.env`
+- run `terraform apply -var-file=./terraform.tfvars`
+
 ## Availability of the instance
 
 ### Uptime Checks

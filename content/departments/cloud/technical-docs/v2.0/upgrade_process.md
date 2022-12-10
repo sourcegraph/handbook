@@ -1,8 +1,75 @@
 # Upgrading a Cloud instance
 
+<span class="badge badge-note">SOC2/CI-108</span>
+
 ## Option 1 - automated upgrade
 
-**TODO**
+### To upgrade a specific instance
+
+```sh
+export SLUG=company
+export ENVIRONMENT=prod
+export TARGET_VERSION=4.1.0
+```
+
+```sh
+gh workflow run mi_upgrade.yml -f customer=$SLUG -f environment=$ENVIRONMENT -f target_src_version=$TARGET_VERSION
+```
+
+### To upgrade all instances within an environment
+
+Using `mi2` you can generate commands to trigger automated upgrades for all instances:
+
+for internal instances:
+
+```sh
+mi2 workflow run -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
+```
+
+for production instances:
+
+```sh
+mi2 workflow run -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
+```
+
+for trial instances:
+
+```sh
+mi2 workflow run -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
+```
+
+This automated workflow will generate a pull request for each instance to represent the upgrade that:
+
+1. Links to full logs of the automated upgrade process (retained for 90 days)
+2. Embeds a summary of an automated [full instance healthcheck](#upgrade-instance---health-check) (retained permanently)
+3. Links to the tracking issue associated with the upgrade
+
+To review currently open PRs for successful instance upgrades using `gh`:
+
+```sh
+# Sanity check to see that the PRs correspond to instances you have upgraded
+gh pr list --label 'mi-upgrade'
+
+# Save the list of PRs you are going to work with
+gh pr list --label 'mi-upgrade' --json number --jq '.[].number' > upgrade-prs.txt
+
+# Review the test plan of each PR (press 'q' to review the next one)
+cat upgrade-prs.txt | xargs -n1 gh pr view
+```
+
+If an upgrade fails, follow the logs and figure out which step went wrong, then follow the [manual upgrade](#option-2---maual-upgrade) to finish the upgrade.
+
+If all is well, approve and merge each instance upgrade:
+
+```sh
+# Approve each PR
+cat upgrade-prs.txt | xargs -n1 gh pr review --approve
+
+# Merge each PR
+cat upgrade-prs.txt | xargs -n1 gh pr merge --squash
+```
+
+Finally, update the tracking issue.
 
 ## Option 2 - maual upgrade
 
@@ -81,6 +148,8 @@ Deploy the new workload
 cd kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
+
+### Upgrade instance - health check
 
 Confirm workload are healthy and remote version is the same as target version
 
