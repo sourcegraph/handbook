@@ -112,7 +112,7 @@ All metrics can be seen in [scoped projects dashboard](https://console.cloud.goo
 Every customer managed instance has alerts configured:
 
 - cloud provider-managed uptime check is configured in dedicated GCP managed instance project
-  - [v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529)
+  - [v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/525bb210315c87e85d913840605bb503938f2f45/modules/terraform-managed-instance-new/infrastructure.tf#L567-L612)
   - [v2.0](https://github.com/sourcegraph/controller/blob/0091a3b6fdad81297580499f26764befb7b72d21/internal/resource/monitoring/monitoring.go#L76-L114)
 - [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
 - [application performance metrics](./operations.md#performance-checks) - configured in customer intance [site-config.json](https://docs.sourcegraph.com/admin/config/site_config) via `mi cli` during instance creation
