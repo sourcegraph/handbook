@@ -97,4 +97,4 @@ Welcome to the [Cloud team](./index.md)! This document will guide you through Cl
 #### Tasks
 
 - Develop any new material required to help others level up and understand our product
-- Add to the teams planning and OKRs
+- Add to the team's planning

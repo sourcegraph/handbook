@@ -60,7 +60,6 @@ The product and design team meets weekly to discuss the most important cross-tea
 - [Product licensing](process/gtm/licensing.md)
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
 - [Product team tools](tools/index.md)
 - [Product career development framework](career-development/framework.md)
 

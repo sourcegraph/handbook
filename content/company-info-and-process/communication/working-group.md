@@ -27,7 +27,7 @@ If you answered yes to the questions above, creating a working group could help.
 There is no formal process for creating a working group, but here are a few guidelines to help drive success:
 
 - **define the outcome.** A working group is not a set organizational structure like a team or an organization. It disappears once its outcome is achieved. Clearly defining the outcome helps set expectations and organize work.
-- **define how the decision will be made.** See [making decisions at Sourcegraph](decisions.md).
+- **define how the decision will be made.**
 - **sketch out a timeline and roadmap of actions/deliverables**.
 - **list members** and what role they play in the working group.
 - **write a collaboration plan** indicating how the working group will collaborate; will there be a weekly meeting? Async collab only? Something else? How will status of deliverables be tracked? Is someone leading the coordination effort?
