@@ -9,9 +9,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate. Learn more about the handbook [here](handbook/index.md).
 
-## We're Hiring!
-
-- View open positions [here](https://about.sourcegraph.com/jobs/)
+Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 
 ## Benefits, Pay, Perks
 
