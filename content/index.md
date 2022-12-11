@@ -1,9 +1,8 @@
 ---
-title: Sourcegraph Handbook
-description: The Sourcegraph handbook describes how we (Sourcegraph teammates) work.
+description: The Sourcegraph handbook describes how Sourcegraph works.
 ---
 
-# Handbook Home
+# Sourcegraph handbook
 
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company-info-and-process/about-sourcegraph/index.md#open-company). The table of contents below details what you can find in the handbook.
 
@@ -11,7 +10,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 
-## Benefits, Pay, Perks
+## Benefits, pay, perks
 
 - [Overview](benefits-pay-perks/benefits-perks/index.md)
 - [Compensation](benefits-pay-perks/pay-expenses/compensation/index.md)
@@ -22,19 +21,19 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
   - [Company holidays](company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Mental health](benefits-pay-perks/benefits-perks/mental-health/index.md)
 
-## The Sourcegraph Team
+## Team
 
 - [Org chart](team/org_chart.md)
 - [Team bios](team/index.md)
 - [CEO](team/ceo/index.md)
 
-## [Sourcegraph Strategy and Goals](strategy-goals/index.md)
+## [Strategy](strategy-goals/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
 - [Cross-functional projects](strategy-goals/cross-functional-projects/index.md)
 
-## Company Information and Processes
+## Company information and processes
 
 - [About Sourcegraph](company-info-and-process/about-sourcegraph/index.md)
 - [General office information](company-info-and-process/about-sourcegraph/general-office-info.md)
@@ -51,14 +50,14 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 - [Community](company-info-and-process/community/index.md)
 - [Policies](company-info-and-process/policies/index.md)
 
-## Using the Handbook
+## Using the handbook
 
 - [Editing the handbook](handbook/editing/index.md)
 - [Handbook usage & principles](handbook/index.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
 
-## Information by Department
+## Information by department
 
 ### [People & Talent](departments/people-talent/index.md)
 
