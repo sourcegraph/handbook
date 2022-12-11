@@ -21,7 +21,7 @@ Today, only about 0.1% of the world's population can code. That tiny group has b
 
 ### Values
 
-Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us implement our strategy and achieve our [goals](../goals/index.md).
+Our [values](../../company-info-and-process/values/index.md) are the principles that help us execute on our strategy and build a high-performance team.
 
 ## Medium-term
 
@@ -105,12 +105,10 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
   - [Code Insights](code-insights/index.md)
   - [Dev Experience](dev-experience/index.md)
   - [Content Platform](content-platform/index.md)
-  - [IAM](iam/index.md)
   - [Growth](growth-team/index.md)
   - [Repo Management](repo-management/index.md)
   - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
   - DevOps/SRE
-  - [Delivery](delivery/index.md)
 
 ## Historical strategy
 

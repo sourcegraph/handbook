@@ -1,6 +1,6 @@
 # Sourcegraph values
 
-These values are the beliefs and principles that help us achieve our [goals](../../strategy-goals/goals/index.md) and [strategy](../../strategy-goals/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
+These values are the principles that help us execute on our [strategy](../../strategy-goals/strategy/index.md) and build a high-performance team. These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
 - [**Customer-first**](#customer-first): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
@@ -42,9 +42,9 @@ Everyone at Sourcegraph has the power and the responsibility to improve Sourcegr
 
 A few examples of how we encourage high agency are by being a [handbook-first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, which allows anyone to change how the business operates, and by empowering engineers to spend time on projects they believe in through our policy of [innovation time](../../departments/engineering/dev/index.md#innovation-time).
 
-With agency comes responsibility; teammates are expected to take initiative and engage in collaboration when exercising their agency. If you feel that something is important, then advocate for it or [make a decision](../communication/decisions.md)! If you feel like you're using the wrong tools for the job or doing the wrong thing, then you're responsible for quickly voicing that concern, and engaging with your teammates to find the solution that is the best for the team. Do not ever assume or wait for top-down change. If something is broken for you or your team, then fix it for you or your team, and then share that fix in case other individuals or teams have the same problem.
+With agency comes responsibility; teammates are expected to take initiative and engage in collaboration when exercising their agency. If you feel that something is important, then advocate for it! If you feel like you're using the wrong tools for the job or doing the wrong thing, then you're responsible for quickly voicing that concern, and engaging with your teammates to find the solution that is the best for the team. Do not ever assume or wait for top-down change. If something is broken for you or your team, then fix it for you or your team, and then share that fix in case other individuals or teams have the same problem.
 
-While [decisions should be made eagerly](../communication/decisions.md), this doesn't mean that you should make unilateral decisions when others should be involved. As an [open company](../about-sourcegraph/index.md#open-company), we value open discussion on important topics, and think that collaboration should be a large part of making things better. It is not a bad outcome if your proposal is not accepted or replaced with a better solution, because you took the initiative, started the conversation, and either reaffirmed that our current solution is good, or implemented an even better one! We're a startup, and if we take the safe path, we will most likely fail.
+While decisions should be made eagerly, this doesn't mean that you should make unilateral decisions when others should be involved. As an [open company](../about-sourcegraph/index.md#open-company), we value open discussion on important topics, and think that collaboration should be a large part of making things better. It is not a bad outcome if your proposal is not accepted or replaced with a better solution, because you took the initiative, started the conversation, and either reaffirmed that our current solution is good, or implemented an even better one! We're a startup, and if we take the safe path, we will most likely fail.
 
 ### High quality through iteration
 
@@ -115,7 +115,7 @@ It is totally legitimate to want to create "breathing room" for a new thought or
 
 > My team has goals and plans for the future, but I am hesitant to put this in the handbook because I don't want to promise anything to our customers and I don't want competitors copying us.
 
-We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](../../strategy-goals/goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
+We document our goals and plans publicly so we can engage with customers to build the best product possible. If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
 
 > I am working on improving the security of our product, but I feel uncomfortable clearly documenting what I am doing (e.g., in public status updates, issues, PR descriptions, the changelog) because I am worried that it will make Sourcegraph look bad.
 
