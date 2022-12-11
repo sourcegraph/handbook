@@ -54,9 +54,9 @@ The basic flow for decisions is that we use an **artifact** as a temporary place
 
 ### Artifacts
 
-Async is most effective when there’s a place for communication to occur over time. We use [RFCs](../communication/rfcs/index.md), Google Docs, Pull Requests, GitHub issues, and Asana tasks as artifacts. Artifacts give us time to go away and give thoughtful consideration and can act as a record of how we [made decisions](../communication/decisions.md).
+Async is most effective when there’s a place for communication to occur over time. We use [RFCs](../communication/rfcs/index.md), Google Docs, Pull Requests, GitHub issues, and Asana tasks as artifacts.
 
-While decisions can be initiated or discussed in synchronous sessions when it makes sense, **making** the decision in an artifact helps others to understand the context around the decision and provide feedback or ask questions in a self-contained space. It also avoids requiring people to be in the meetings themselves to participate in decision-making. Decisions discussed in synchronous meetings should be consciously shared with all interested parties, giving them the opportunity to share opinions and objections in the relevant artifact. Take some time to read about [how we make decisions at Sourcegraph](../communication/decisions.md).
+While decisions can be initiated or discussed in synchronous sessions when it makes sense, **making** the decision in an artifact helps others to understand the context around the decision and provide feedback or ask questions in a self-contained space. It also avoids requiring people to be in the meetings themselves to participate in decision-making. Decisions discussed in synchronous meetings should be consciously shared with all interested parties, giving them the opportunity to share opinions and objections in the relevant artifact.
 
 ### Single sources of truth
 
