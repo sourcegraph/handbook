@@ -63,7 +63,7 @@ Our five customer tiers are:
 | Large Enterprise | 3k - 10k devs OR $500k - $1m ARR |
 | Small Enterprise | 1.5k - 3k devs OR $100k - $500k ARR |
 | Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
-| Tech Nurtured | Any customer below 500 estimates devs |
+| Tech Nurtured | Any customer below 500 estimated devs |
 
 ## This year (FY23)
 
