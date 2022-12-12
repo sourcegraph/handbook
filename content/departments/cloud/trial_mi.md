@@ -155,11 +155,11 @@ The flow:
 
 As the flow is automated and webhook based, Slack notifications in `#cloud-notifications` are informing about:
 
-- new PLG trial instances was created and sent to [Signup Application](https://signup.sourcegraph.com/) (stored in Signup database)
-- PLG trial instance was given to the customer and was finalised (token was re-created and GCP label was added)
+- failures of notifying [Signup Application](https://signup.sourcegraph.com/) when new PLG trial instances was created
+- failures of finalizing PLG trial instance that was given to the customer (at when token was re-created and GCP label was added)
 - PLG trial pool is below expected number (2 in the begining)
 
-When any of Slack notifications fails:
+To take actions on any of Slack notifications:
 
 - check the link in notitifcation to understand the issue
 
@@ -183,7 +183,7 @@ where `emain-domain=unknown` means instance is not given to the customer yet.
 
 1. How to check trial Managed Instances owned by Customer Engineer
 
-- open [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml)
+- open [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml)
 - click `Run workflow`
 - choose `Instance type` -> `trial` (required)
 - type `CE email responsible for Managed Instances` -> CE email (optional, without it will list all trials)
