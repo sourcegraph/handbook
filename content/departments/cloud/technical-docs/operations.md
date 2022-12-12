@@ -128,7 +128,7 @@ If you find that the command hangs on the following error:
 Waiting for cloud_sql_proxy to be ready...
 ```
 
-It's likely that you need to install [`cloud_sql_proxy`](https://github.com/GoogleCloudPlatform/cloudsql-proxy).
+It's likely that you are missing permission to do so, please reach out to #cloud.
 
 ### Restarting for configuration updates
 
