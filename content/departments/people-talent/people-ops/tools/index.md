@@ -8,6 +8,7 @@
 - [Internal use - Swag](internal-swag.md)
 - [Internal use - Types of Employment](types-of-employment.md)
 - [Internal use - Working with other teams](working-with-other-teams.md)
+- [Internal Employment Verification](internal-employment-verification.md)
 
 ---
 
@@ -26,3 +27,4 @@
 - [Internal Roots use](roots.md)
 - [Internal Sparrow use](sparrow.md)
 - [Internal True Works use](trueworks.md)
+

@@ -19,7 +19,9 @@ For Employment Verification requests we use TrueWork:
   - you will receive a notification that the letter is ready
   - the employee will receive an email from Truework at your Sourcegraph email address to review the report and comment
 
-  You can read more about TrueWork [here](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/employment_verification/). Please contact me if you have any questions.
+  You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
+
+    You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
 
   Thank you,
 
