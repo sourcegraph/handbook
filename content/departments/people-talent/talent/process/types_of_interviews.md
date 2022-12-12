@@ -433,11 +433,10 @@ For this interview round, you will have an hour-long working session with the Cu
 #### Design exercise
 
 - Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
-- Duration: 2 hours
-- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
-- The interview is in 2 parts. Below is the prompt:
-- Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
-- Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
+- Duration: 1.5 hours
+- Details: The interview simulates a real-life design collaboration as closely as possible. The goals are to explore problems and solutions together, to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
+- Below is the prompt:
+- Part 2: (~75 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
 
 ### Product Design Intern
 
