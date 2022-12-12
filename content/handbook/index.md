@@ -1,13 +1,8 @@
----
-title: How to use the handbook
-description: Guidance on how to get the most out of the Sourcegraph handbook
----
+# Handbook usage
 
-# Handbook Usage & Principles
+## What is the handbook?
 
-## What is the Handbook?
-
-The Sourcegraph Handbook is centralized documentation system for how we work. We are a [handbook-first company](#what-does-it-mean-to-be-handbook-first) because:
+The Sourcegraph handbook is centralized documentation system for how we work. We are a [handbook-first company](#what-does-it-mean-to-be-handbook-first) because:
 
 1. A written process is followed more closely and frequently than an informal one, which leads to more people and iterations to improve it.
 1. We believe anyone can and should propose improvements to a written-down process. Learn [how to propose an edit the handbook](editing/index.md).
@@ -21,7 +16,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, we work as a team. No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
 
-### Intended Audience
+### Intended audience
 
 Sourcegraph is an [open company](../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company-info-and-process/values/index.md#open-and-transparent). As such, we keep the Handbook public.
 
@@ -31,7 +26,7 @@ The **secondary** intended audience for the Handbook is Sourcegraph candidates.
 
 Content intended for users of the Sourcegraph product should be part of [Sourcegraph Docs](https://docs.sourcegraph.com/).
 
-## What does it mean to be Handbook-first?
+## What does it mean to be handbook-first?
 
 Being handbook-first means using the handbook as the source of truth for answers and processes.
 
@@ -41,7 +36,7 @@ To be handbook-first, we must:
 - Default to the handbook when looking for information about a business process or policy, not just when we read about it the first time, but as a habit every time because we expect it to keep evolving.
 - Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
-## Handbook Usage
+## Handbook usage
 
 - Most content in this handbook is meant to help rather than being absolute rules (unless stated).
 - For any process to be in force, it must be documented in the handbook. A Google Doc or pending PR to the handbook is not sufficient because using those reduces the effectiveness of the handbook as a trusted source of knowledge. Further, if you never need to merge your change to bring it into force, we aren't encouraging making small, iterative improvements. This is a rule required for us to truly be a handbook-first company.
@@ -63,7 +58,7 @@ The handbook consists of Markdown files in the Git repository at github.com/sour
 1. Many handbook changes require updating references and mentions across multiple pages. In wikis and Google Docs, there is no easy way to propose a _group_ of changes to multiple sections or pages, which means people making and reviewing edits can easily miss other places that need to be updated. This format allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing/index.md).
 1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Git makes this possible, with comments and code reviews. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
 
-## Handbook Support
+## Handbook support
 
 ### Slack
 

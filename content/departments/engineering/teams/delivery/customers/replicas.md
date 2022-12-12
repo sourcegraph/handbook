@@ -8,7 +8,7 @@ To access this AWS account:
 
 1. Request an AWS user ID by asking in the #it-tech-ops channel in slack.
 1. Once you have your credentials visit https://aws.amazon.com/console/.
-1. Sign into AWS using those details and Account ID `sourcegraph.
+1. Sign into AWS using those details and Account ID `sourcegraph`.
 
 ### Accessing customer environment replicas
 

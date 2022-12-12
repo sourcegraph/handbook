@@ -16,7 +16,7 @@ Follow these three steps to set your project up for success from the very beginn
   <tr>
    <td><strong>Step 1: Assign roles and responsibilities </strong>
    </td>
-   <td>Every project should have a single DRI (directly responsible individual) or driver. The DRI is <em>not</em> responsible for executing everything themselves, but they are responsible for making sure the project is executed. This person is likely setting the strategy for the project. 
+   <td>Every project should have a single DRI (directly responsible individual) or driver. The DRI is <em>not</em> responsible for executing everything themselves, but they are responsible for making sure the project is executed. This person is likely setting the strategy for the project.
 <p>
 <p>
 Be clear about all other roles and responsibilities upfront - and document this in a project brief. Knowing who the contributors are will help with accountability. Knowing who the approvers are will make it easier to finalize decisions and push the project forward. Knowing who needs to be informed/consulted will ensure the project team is working cross-functionally throughout the process.
@@ -31,7 +31,7 @@ Be clear about all other roles and responsibilities upfront - and document this 
   <tr>
    <td><strong>Step 3: Kick the project off and begin planning </strong>
    </td>
-   <td>This is when the team will iron out the specifics of the project and commit to key deliverables and timelines. 
+   <td>This is when the team will iron out the specifics of the project and commit to key deliverables and timelines.
    </td>
   </tr>
 </table>
@@ -96,7 +96,7 @@ Before the project kicks off, be explicit about roles and responsibilities. Once
   <tr>
    <td><strong>Contributors</strong>
    </td>
-   <td>Contributors are the people responsible for planning and executing the work. Contributors will also be the DRI or driver for aspects of the overall project.  
+   <td>Contributors are the people responsible for planning and executing the work. Contributors will also be the DRI or driver for aspects of the overall project.
 <p>
   <p>
 In addition to contributors on the marketing team, think about other teams that will play a role and be sure to include them early.
@@ -107,7 +107,7 @@ In addition to contributors on the marketing team, think about other teams that 
   <tr>
    <td><strong>Consulted </strong>
    </td>
-   <td>To make sure our work is connected to what other teams are doing, identify consultants outside of marketing that can help. 
+   <td>To make sure our work is connected to what other teams are doing, identify consultants outside of marketing that can help.
    </td>
    <td>
 <ul>
@@ -124,7 +124,7 @@ In addition to contributors on the marketing team, think about other teams that 
   <tr>
    <td><strong>Informed</strong>
    </td>
-   <td>Think about how the project will impact or benefit other teams - and make sure they are informed. 
+   <td>Think about how the project will impact or benefit other teams - and make sure they are informed.
    </td>
    <td>
 <ul>
@@ -225,7 +225,7 @@ As a project moves into execution and review, expect conversations and sub-deliv
 
 ### Avoid making decisions by consensus
 
-While it’s important to get feedback from key stakeholders, it’s equally important to have the right person make a given decision. This [handbook page](../../../company-info-and-process/communication/decisions.md) is a great resource for making decisions at Sourcegraph.
+While it’s important to get feedback from key stakeholders, it’s equally important to have the right person make a given decision.
 
 Here are tips for collecting feedback without making decisions by consensus:
 

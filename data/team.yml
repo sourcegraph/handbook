@@ -1719,28 +1719,6 @@ andrew_norrish:
   links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
   description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
 
-michal_vrtiak:
-  name: Michal Vrtiak
-  email: michal.vrtiak@sourcegraph.com
-  github: vrto
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_security
-  location: Brno, South Moravia, Czech Republic 🇨🇿
-  links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
-  description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs.
-
-ryan_scott:
-  name: Ryan Scott
-  email: ryan.scott@sourcegraph.com
-  github: ryankscott
-  pronouns: he/him
-  role: Product Manager
-  reports_to: eng_lead
-  location: Berlin, Germany 🇩🇪
-  links: '[LinkedIn](https://www.linkedin.com/in/ryankscott/)'
-  description: "Ryan lives in Berlin, Germany with his partner, far away from his home in Auckland, New Zealand. He was fascinated with computers and electronics from a young age, taking them apart and putting them back together (often missing a few screws) and eventually getting a Bachelors degree in Computer Systems Engineering. Outside of work you'll find Ryan brewing and drinking too much coffee, eating unhealthy food then trying to offset with the gym and travelling through the south of Europe to escape the cold in winter."
-
 felix_kling:
   name: Felix Kling
   reports_to: engineering_manager_search
@@ -2379,3 +2357,35 @@ cezary_bartoszuk:
   reports_to: engineering_manager_repo
   location: Long Grove, IL, USA 🇺🇸
   description: Cezary tries to spend as much time as possible with his wife and three kids. He enjoys parenting, learning about religion and philosophy, reading books and making music.
+
+louis_jarvis:
+  name: Louis Jarvis
+  email: louis.jarvis@sourcegraph.com
+  github: loujar
+  pronouns: he/him
+  role: Implementation Lead
+  reports_to: vp_customer_engineering
+  location: Wailuku, HI, USA 🇺🇸
+  description: Louis loves working with companies to help them realize the greatest business value out of the software solutions they adopt. When not in front of a computer, Louis likes to spend his free time out on the water surfing, kiteboarding, or wing foiling.
+
+julie_tibshirani:
+  name: Julie Tibshirani
+  email: julie.tibshirani@sourcegraph.com
+  github: jtibshirani
+  pronouns: she/her
+  role: Software Engineer
+  reports_to: engineering_manager_search
+  location: San Francisco, CA, USA 🇺🇸
+  links: '[@julietibs](https://twitter.com/julietibs), [jtibshirani.github.io](https://jtibshirani.github.io)'
+  description: Julie loves building systems that are empowering and enjoyable to use. She's particularly passionate about search and open source development. Outside of software, Julie enjoys backpacking, dancing, and tending to her many houseplants.
+
+peter_guy:
+  name: Peter Guy
+  email: peter.guy@sourcegraph.com
+  github: peterguy
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: eng_lead
+  location: Grants Pass, OR, USA 🇺🇸
+  links: '[LinkedIn](https://linkedin.com/in/peter-guy)'
+  description: Peter enjoys crafting beautiful code and finding elegant solutions to difficult problems. Since both of those are somewhat rare occurances, he satisfies himself with shippable code and pragmatic solutions.😄 Outside of programming, he enjoys his family, pets, and small ranch in the beautiful Siskiyous of Southern Oregon.

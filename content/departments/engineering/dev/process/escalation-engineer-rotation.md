@@ -22,7 +22,7 @@ Discuss escalation engineering rotation in #escalation-engineering.
 
 - EEs provide extra engineering capacity dedicated to solving important customer issues to speed up resolution.
 - EEs get exposure to people on other teams, broader business priorities, and the broader service of our product and codebase.
-- EEs share their knowledge of the product and our codebase with CEs and AERs so we are continuously upleveling our ability to support all customers.
+- EEs share their knowledge of the product and our codebase with all members of Technical Success (CE, IE, TA, SE) so we are continuously upleveling our ability to support all customers.
 - EEs directly experience customer pain and gratitude, and they can bring that valuable perspective back to their team to uplevel engineering.
 
 ## How it works
@@ -43,9 +43,9 @@ If you have questions or want to participate, please post in #escalation-enginee
 
 ## FAQ
 
-### How are EEs different than AERs?
+### How are EEs different than Support Engineers?
 
-AERs are the first and primary responders to reactive customer issues and that is unchanged. Whereas today, when an AER needs additional guidance on a customer issue they request help from the respective Eng team, they’ll now elevate to an EE who will engage on the issue. If the EE is unable to resolve the issue, they will follow standard procedures for requesting help from the appropriate Eng team. Our goal is to only engage Engineering on 10% or less of issues.
+Support Engineers (SE) are the first and primary responders to reactive customer issues and that is unchanged. Whereas today, when an SE needs additional guidance on a customer issue they request help from the respective Eng team, they’ll now elevate to an EE who will engage on the issue. If the EE is unable to resolve the issue, they will follow standard procedures for requesting help from the appropriate Eng team. Our goal is to only engage Engineering on 10% or less of issues.
 
 ### When will engineering teams get pulled in to respond to support issues?
 
@@ -72,8 +72,8 @@ During initial implementation:
 
 Post GA:
 
-- Assigned AERs are the first response to customer-reported issues
-- If AERs experiences issues and can't resolve, EE is there to help
+- Assigned SEs are the first response to customer-reported issues
+- If SEs experiences issues and can't resolve, EE is there to help
 
 ### Will escalation engineers fix bugs?
 
