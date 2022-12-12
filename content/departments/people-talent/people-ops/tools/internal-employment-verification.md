@@ -21,7 +21,7 @@ For Employment Verification requests we use TrueWork:
 
   You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
 
-    You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
+  You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
 
   Thank you,
 
