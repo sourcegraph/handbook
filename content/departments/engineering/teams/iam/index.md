@@ -13,10 +13,6 @@ These tenets guide how we make tradeoffs on the team. These are designed to be t
 - We don’t build on brittle foundations and we don’t implement short term hacks. We must always respect our customer’s code permissions and building band-aid solutions increases the likelihood of leaking data and losing customers.
 - Non-addative - Sourcegraph _is not_ a permissions layer. We inherit permissions from other systems (code hosts, Auth providers, etc) and leverage those to surface repositories. We do not edit or add read or write access to anything the user should not have access to.
 
-## Goals and Roadmap
-
-The goals and roadmap for the IAM team can be found on our [strategy page](../../../../strategy-goals/strategy/iam/index.md)
-
 ## Areas of Ownership
 
 Service management is a broad area of ownership. To provide more clarity into what its stands for, we will break this down based on product domains. We will also provide a list of features and services from a technical engineering ownership perspective.

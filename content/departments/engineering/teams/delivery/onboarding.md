@@ -8,7 +8,7 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../../strategy-goals/goals/index.md), [values](../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../company-info-and-process/communication/code_of_conduct.md), as well as [Delivery's mission and vision](./index.md).
+- Clear knowledge of the [strategy](../../../../strategy-goals/index.md), [values](../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../company-info-and-process/communication/code_of_conduct.md), as well as [Delivery's mission and vision](./index.md).
 - Know the expected outcome of each Distribution onboarding milestone.
 - Become familiar with Delivery [responsibilities](index.md#Responsibilities), [tech stack](index.md#tech-stack)
 - Go through [Process St Onboarding](https://app.process.st/reports/)
@@ -89,7 +89,7 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 #### Tasks
 
 - Develop any new material required to help others level up and understand our product
-- Add to the teams planning and OKRs
+- Add to the team's planning
 
 [gcp]: https://console.cloud.google.com
 [#it-tech-ops]: https://sourcegraph.slack.com/archives/C01CSS3TC75
