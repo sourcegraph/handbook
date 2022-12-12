@@ -80,6 +80,6 @@ There are shortcomings to this. For one, when an active user converts into a reg
 
 ## Billing-related metrics
 
-All active user calculations are counted by user IDs, not emails, so if a user is deleted and comes back under a different user ID they would show up as another active user (mutliple active users for one person). 
-- This only matters if the account is billed on monthly active users because they'll have one user taking up multiple MAU spots. However, accounts on this billing strucuture should not be managing their seat count so this situation should only occur very infrequently. 
+All active user calculations are counted by user IDs, not emails, so if a user is deleted and comes back under a different user ID they would show up as another active user (mutliple active users for one person).
 
+- This only matters if the account is billed on monthly active users because they'll have one user taking up multiple MAU spots. However, accounts on this billing strucuture should not be managing their seat count so this situation should only occur very infrequently.
