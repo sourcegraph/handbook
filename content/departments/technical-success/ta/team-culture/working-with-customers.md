@@ -66,6 +66,7 @@ As the team accountable for our customers' technical success, including consumpt
 A customer may become a Red Account based on events or account-level characteristics that elevate it to a concerning state.
 
 Events within the company that trigger elevation to a Red Account:
+
 - Macro
   - Massive Layoffs (manually tracked)
   - Budget Cuts (manually tracked)
@@ -74,6 +75,7 @@ Events within the company that trigger elevation to a Red Account:
 - Migration to GitHub (specifically, GitHub Cloud) (manually tracked)
 
 Account-level characteristics that trigger elevation to a Red Account:
+
 - Customer fails to deploy their Production Infrastructure within 60 days of contract signature (automatically tracked)
 - Health Score at or below 5 (automatically tracked)
 - No interaction with customer within the last 40 days based on Salesforce (automatically tracked)
