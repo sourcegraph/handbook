@@ -24,7 +24,7 @@ The People Ops team manages their projects through a team [Trello Board](https:/
 
 ## How will we keep it updated?
 
-1. Each quarter when setting OKRs, we will archive the previous quarter’s board and build a new one with projects for the upcoming quarter. The board title will include the quarter it pertains to.
+1. When planning, we will archive the previous quarter’s board and build a new one with projects for the upcoming quarter. The board title will include the quarter it pertains to.
 2. At the beginning of the People Ops weekly team meeting, one person quickly reads through all cards in the following columns:
    1. In Progress
    2. On Hold/Blocked

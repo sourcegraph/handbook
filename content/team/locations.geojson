@@ -664,16 +664,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Michal Vrtiak"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [16.60324662923813, 49.18813918271655]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Michelle Veronese"
             },
             "geometry": {
@@ -689,16 +679,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-0.127758, 51.507351]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Ryan Scott"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-111.810516, 40.61631]
             }
         },
         {
@@ -869,6 +849,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [42.197250, -88.006111]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Peter Guy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-123.326103, 42.440739]
             }
         }
     ]

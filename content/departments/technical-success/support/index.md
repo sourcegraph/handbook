@@ -1,6 +1,6 @@
 # Support Engineering
 
-Supporting Engineering at Sourcegraph is responsible for answeing technical & product questions and solving technical issues & problems that our customers, open source users, and teammates encounter. We improve our customers' experience by making our documentation better and more self-service and we contribute code in order to make our product better.
+Supporting Engineering at Sourcegraph is responsible for answering technical & product questions and solving technical issues & problems that our customers, open source users, and teammates encounter. We improve our customers' experience by making our documentation better and more self-service and we contribute code in order to make our product better.
 
 ## Our Team Purpose Statement
 

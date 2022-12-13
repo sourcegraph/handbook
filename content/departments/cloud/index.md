@@ -291,14 +291,14 @@ Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All 
 There are two groups of IP.
 
 1. Primary outgoing IPs: This set of IPs is used by Sourcegraph to communicate directly with customer systems such as code hosts, authentication service, or SMTP service.
-2. (Optional) Executors outgoing IPs: This set of IPs is used by [executors](https://docs.sourcegraph.com/admin/deploy_executors) for all outgoing traffic. Executors is the technology that powers features like [server-side batch changes](https://docs.sourcegraph.com/batch_changes) and [code navigation auto-indexing](https://docs.sourcegraph.com/code_navigation/how-to/enable_auto_indexing). Under normal circumstances, executors do not communicate directly with custoemr systems. When do customers need to add executors IP to their IP allowlist?
+2. (Optional) Executors outgoing IPs: This set of IPs is used by [executors](https://docs.sourcegraph.com/admin/deploy_executors) for all outgoing traffic. Executors is the technology that powers features like [server-side batch changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) and [code navigation auto-indexing](https://docs.sourcegraph.com/code_navigation/how-to/enable_auto_indexing). Under normal circumstances, executors do not communicate directly with custoemr systems. When do customers need to add executors IP to their IP allowlist.
    - Customers are writing a batch change that commmunicates directly with the code host, e.g. run a custom script that invokes their on-prem GitLab instance API. If customers are only using SSBC to modify source code and allow Sourcegraph to handle the rest - commit and open PRs, they DO NOT need to whitelist executors IP.
    - Customers are using auto-indexing to index repos that use packages from private registries, e.g. NPM packages from self-hosted [JFrog Artifactory](https://jfrog.com/artifactory/), Go packages from self-hosted code hosts. (Notes, we do not support indexing repo that uses private packages yet, this is here for future reference)
    - Customers are using container images from private container registry in build steps during auto-indexing or SSBC. (Notes, we do not support private container registry yet, this is here for future referneces)
 
 For #ce teammates, please review above content and reach out to #cloud with sufficient context.
 
-For #cloud teammates, please run
+For #cloud teammates, please run:
 
 ```sh
 # Primary outgoing IPs

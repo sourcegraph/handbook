@@ -27,6 +27,8 @@ Notes:
 
 Sourcegraph employees can review and update our [Roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing).
 
+We use [PR-FAQs](./adding-to-roadmap.md) to submit roadmap proposals. Once a project is on the roadmap, engineers are assigned through the [Job Fair](./job-fair.md).
+
 ## Teams
 
 - Search
@@ -63,6 +65,8 @@ The following functional teams work across the above dev teams:
 
 ## Processes
 
+- [PRFAQ Tips and Tricks](prfaq-process.md)
+- [Job Fair Planning Process](job-fair.md)
 - [Submitting a bug report](submitting-a-bug-report.md)
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)

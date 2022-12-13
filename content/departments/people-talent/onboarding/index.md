@@ -140,7 +140,7 @@ We want everyone to feel certain and comfortable with where they are at currentl
 **Within one month, you will...**
 
 - Begin 1:1’s with your Manager, understand your 30-60-90 day plan, meet & shadow current members of the Sourcegraph team, and delve into your role
-- Set your OKRs (Objectives and Key Results) with your Manager and develop an action plan to achieve them.
+- Set your priorities and goals with your manager and develop a plan to achieve them.
 - Meet key hiring managers and executive leadership you will be supporting - you will be meeting with them weekly and they will be key relationships for you throughout your role.
 - Begin recruiting on openings and become ingrained in the business with assistance from your team and the VP, Talent.
 

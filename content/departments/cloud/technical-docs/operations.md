@@ -1,5 +1,7 @@
 # Managed instances operations
 
+> NOTE: For v2 instances, please refer to [v2 operation guide](./v2.0/index.md). Not sure which version a customer is on, [find it](#how-to-locate-a-customer-instance).
+
 Operations guides for [managed instances](./index.md).
 
 - To upgrade a managed instance, see [managed instances upgrade process](./v1.1/mi1-1_upgrade_process.md).
@@ -57,6 +59,22 @@ mi --customer $CUSTOMER ssh
 
 Below docs will only cover the essential `mi` commands, and you should consult the `mi` cli usage on your own.
 
+## How to locate a customer instance?
+
+We are now supporting both v1 and [v2](./v2.0/index.md) instances at the same time, it's important to know which version a customer is on.
+
+To start, you need to at least know the customer name or customer instance domain name.
+
+On s2, use the [`@cloud/customers-lookup`](https://sourcegraph.sourcegraph.com/search?q=context:@cloud/customers-lookup+&patternType=standard&sm=0&groupBy=repo) search context to perform filtering. Or use the following searach query directly
+
+```
+(repo:^github\.com/sourcegraph/cloud$ OR repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$) AND file:config\.yaml <insert keyword>
+```
+
+If the search result indicates a match is found in `sourcegraph/deploy-sourcegraph-managed`, it is a `v1` instance. If there is a match from `sourcegraph/cloud`, it is a `v2` instance.
+
+For v1 instances, continue using this page of the opearation docs. For v2, please consult [v2 playbook](./v2.0/index.md).
+
 ## Red/black deployment model
 
 > red/black deployment model is only used during machine upgrade process
@@ -110,7 +128,7 @@ If you find that the command hangs on the following error:
 Waiting for cloud_sql_proxy to be ready...
 ```
 
-It's likely that you need to install [`cloud_sql_proxy`](https://github.com/GoogleCloudPlatform/cloudsql-proxy).
+It's likely that you are missing permission to do so, please reach out to #cloud.
 
 ### Restarting for configuration updates
 
@@ -297,6 +315,20 @@ To modify label:
 - run `source tfvars.env`
 - cd `project`
 - run `terraform apply -var-file=../terraform.tfvars`
+
+### Modifying IP Allowlists
+
+Customer provided IP Allowlists should be provided as either a single iPv4 ip address or a ipv4 CIDR.
+If provided as an ipv4 CIDR then the block MUST start at the beginning of the subnet.
+For example, `14.98.238.59/29` would be an invalid CIDR. It should start at the begining of the subnet
+The correct value would be: `14.98.76.90/30`
+https://cidr.xyz/ is a helpful site to ensure the host bits are all zero
+
+For applying, follow the normal steps to apply terraform changes
+
+- run `mi sync terraform-vars`
+- run `source tfvars.env`
+- run `terraform apply -var-file=./terraform.tfvars`
 
 ## Availability of the instance
 

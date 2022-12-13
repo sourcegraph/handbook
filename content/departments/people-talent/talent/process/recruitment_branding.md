@@ -16,7 +16,7 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
   - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
   - More [post examples](https://drive.google.com/drive/u/0/folders/1wE3IGJ5WF5fYIm7h6BOA9z_kUAieInsE) to provide inspiration!
-  - Use these editable ['We're Hiring' Figma templates](https://www.figma.com/file/XXHx1E5zptZXvVXhf4YHAW/Hiring-social-imagery-templates?node-id=623%3A54) ([Loom Tutorial](https://www.loom.com/share/f03bdf8745af411481fa51e3a5a0f54d))
+  - Use these editable ['We're hiring' Figma templates](https://www.figma.com/file/XXHx1E5zptZXvVXhf4YHAW/Hiring-social-imagery-templates?node-id=623%3A54) ([Loom Tutorial](https://www.loom.com/share/f03bdf8745af411481fa51e3a5a0f54d))
   - [LinkedIn content library](https://docs.google.com/spreadsheets/d/1j8mzReq4FTNrxFC8-4moSWunwPynUpgllo2_dshcwCQ/edit#gid=0) (Talent team only)
 
 #### LinkedIn posting best practices
@@ -31,7 +31,7 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 - Copy options for Twitter
   - Click to tweet: https://ctt.ac/k23tL
   - Click to tweet: https://ctt.ac/dxqE5
-  - Use these editable ['We're Hiring' Figma templates](https://www.figma.com/file/XXHx1E5zptZXvVXhf4YHAW/Hiring-social-imagery-templates?node-id=623%3A54) ([Loom Tutorial](https://www.loom.com/share/f03bdf8745af411481fa51e3a5a0f54d))
+  - Use these editable ['We're hiring' Figma templates](https://www.figma.com/file/XXHx1E5zptZXvVXhf4YHAW/Hiring-social-imagery-templates?node-id=623%3A54) ([Loom Tutorial](https://www.loom.com/share/f03bdf8745af411481fa51e3a5a0f54d))
 
 ### Content to share:
 

@@ -43,7 +43,7 @@ New teammates will receive a review form a month and 3 months after joining. The
 
 - check onboarding checklist,
 - have list of values and examples ready,
-- have OKRs and examples ready,
+- have examples ready,
 - think about examples of what your manager can do to support you better
 
 ### Managers: What to expect
@@ -52,13 +52,13 @@ To help facilitate these onboarding feedback milestones, we have developed check
 
 The question or topic notes will **not** be private and new teammates will see what managers have written as the reviews will be shared with the teammate. It is important to note that summaries are not required at the end of your review.
 
-Keep in mind managers may define expectations differently to fit the team, the most important thing is that teammates should feel they know what is expected of them, whether that is done through a 30/60/90 framework, personal OKRs, or through other means.
+Keep in mind managers may define expectations differently to fit the team, the most important thing is that teammates should feel they know what is expected of them, whether that is done through a 30/60/90 framework or other means.
 
 **Manager prep**
 
 - check onboarding checklist,
 - have list of values and examples ready,
-- have OKRs and examples ready,
+- have examples ready,
 - think about the project in which the teammate is participating and their performance
 
 ### Review Questions
