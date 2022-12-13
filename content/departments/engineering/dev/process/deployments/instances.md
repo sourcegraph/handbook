@@ -3,7 +3,7 @@
 Information about Sourcegraph's different instances.
 
 - [sourcegraph.com](instances.md#dotcom) (or 'DotCom') is our public, free-to-use deployment.
-- [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest on-prem customers. This deployment also contains all of our private code.
+- [k8s.sgdev.org](instances.md#k8ssgdevorg) is a dogfood deployment that replicates the scale of our largest on-prem customers. This deployment also contains all of our private code.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
