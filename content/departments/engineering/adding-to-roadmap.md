@@ -4,6 +4,8 @@ We submit roadmap proposals in the form of [Amazon-style PR-FAQs](https://coda.i
 
 ## How to submit a PR-FAQ
 
+Full details on how to write a PRFAQ can be found [here](prfaq-process.md).
+
 1. **Write a PR-FAQ to describe your proposal**.
 
 - PR-FAQ are a recommended format, but you should feel free to use the most appropriate format for the project as long as it's concise and has a [Success Criteria](#success-criteria)
@@ -36,9 +38,3 @@ That said, here’s a rough guideline for evaluating impact of customer-facing f
 - **High**: Large ARR (>$5M ARR) or DAU (> 500 DAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a project like Batch Changes, Insights, Own, or adding support for a broadly-used codehost.
 - **Medium**: Large ARR (>$1M ARR) or DAU (> 100 DAUs) impact, in the next 12 months. Fit with strategy. Elements of validation.
 - **Low**: Unknown or unvalidated impact. No clear fit with strategy.
-
-## PR-FAQ tips
-
-- Try to keep the PR section no longer than 2 pages. FAQs can be longer.
-- Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s already on the roadmap before raising a proposal.
-- Here's are two examples of good PR-FAQ: [Job Fair](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#) and [Sourcergaph Own](https://docs.google.com/document/d/1NeokrfnZq7iLzRCIwvzZ9vhD6O3xYCv4trmu24w7m-E/edit#).
