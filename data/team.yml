@@ -856,12 +856,6 @@ interim_demand_gen_lead:
   manager_role_slug: demand_gen_lead
   hide_on_team_page: true
 
-director_demand_generation:
-  name: Nicholas Gage
-  role: Director, Demand Generation
-  reports_to: vp_sales
-  manager_role_slug: director_demand_generation
-
 devon_coords:
   name: Devon Coords
   pronouns: She/Her
@@ -1120,17 +1114,6 @@ erzhan_torokulov:
   links: '[LinkedIn](https://www.linkedin.com/in/erzhtor/), [erzhtor.com](https://erzhtor.com/)'
   pronunciation: '[Pronounce my name 🔊](https://www.name-coach.com/erzhan-torokulov?preview=on)'
   description: Erzhan is a Software Engineer with industry experience building high-quality software solutions with a passion for learning. He has experience working on backend, frontend as well as mobile development. Outside work, he enjoys traveling and trying new things/activities.
-
-erica_freckelton:
-  name: Erica Freckelton
-  pronouns: she/her
-  role: Senior Digital Marketing Manager
-  reports_to: demand_gen_lead
-  location: San Diego, California, United States 🇺🇸
-  github: efreckelton
-  email: erica.freckelton@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ericafreckelton/)'
-  description: "Erica is a digital marketing strategist hailing from San Diego, CA. She and her trusty dog Zetty relocated from Nashville in 2020 to live with her boyfriend, Matt. You'll often catch her geeking out about digital consumer behavior, online trends, and search data. When not in front of a laptop, you'll probably find her in front of a book. Erica's one-third of the Real Friends Who Read Books, a biweekly book club podcast with her two oldest friends."
 
 brannon_rouse:
   name: Brannon Rouse
