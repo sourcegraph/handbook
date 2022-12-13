@@ -100,10 +100,7 @@ At the end of every iteration, we conduct a retrospective. Our retrospective not
 
 ### Social
 
-We have two weekly "social" meetings, at times accounting for our large timezone spread:
-
-- EMEA-friendly: 07:45 UTC (09:45 CEST / 23:45 PST) on Wednesday
-- AMER-friendly: 16:00 UTC (18:00 CEST / 09:00 PST) on Thursday
+We have a weekly "social" meetings at 16:00 UTC (18:00 CEST / 09:00 PST) on Thursdays.
 
 The agenda for these is open: we can do tidbits, play a game, just have a casual chat... Anything we fancy!
 
