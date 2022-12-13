@@ -33,12 +33,11 @@ interim_delivery_lead:
   manager_role_slug: engineering_manager_delivery
   hide_on_team_page: true
 
-interim_search_core_lead:
-  name: Quinn Slack
-  pronouns: he/him
-  role: Interim Engineering Manager, Search Core
+interim_head_of_search:
+  name: Steve Yegge
+  role: Interim Head of Search
   reports_to: ceo
-  manager_role_slug: engineering_manager_search_core
+  manager_role_slug: search_lead
   hide_on_team_page: true
 
 beyang_liu:
@@ -74,17 +73,6 @@ ryan_slade:
   links: '[@frefity](https://twitter.com/frefity), [LinkedIn](https://www.linkedin.com/in/ryan-slade-1bb36bb/)'
   description: Ryan enjoys spending time with his family, mountain biking and playing squash. Prior to Sourcegraph he helped develop a real time bidding system for online advertisers at Avocet and worked for a taxi hailing company in London, Hailo. He studied Computer Science at the University of Cape Town and has lived in the South Africa, the UK, Singapore the US and Spain.
 
-rijnard_van_tonder:
-  name: Rijnard van Tonder
-  role: Software Engineer
-  reports_to: engineering_manager_search
-  location: Las Vegas, NV, USA 🇺🇸
-  email: rijnard@sourcegraph.com
-  github: rvantonder
-  links: '[@rvtond](https://twitter.com/rvtond), [LinkedIn](https://www.linkedin.com/in/rijnard)'
-  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/rijnard)'
-  description: "Rijnard just wants to stop the proliferation of bad code. Seriously, it's out of control. His favorite color is OCaml, and he collects stamps and flashlights. He currently lives a pretty untethered life while working for Sourcegraph. Incidentally, this aligns well with his goal of building future thinking dev tools that improve the state of software. Rijnard holds a PhD in Computer Science from Carnegie Mellon University, where his research focused on automated bug finding and bug fixing."
-
 eric_fritz:
   name: Eric Fritz
   pronouns: he/him
@@ -111,7 +99,7 @@ eric_brody-moore:
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
   role: Software Engineer
-  reports_to: engineering_manager_search_core
+  reports_to: search_lead
   location: Cape Town, South Africa 🇿🇦
   github: keegancsmith
   email: keegan@sourcegraph.com
@@ -154,7 +142,7 @@ dan_adler:
 geoffrey_gilmore:
   name: Geoffrey Gilmore
   role: Software Engineer
-  reports_to: engineering_manager_search_core
+  reports_to: search_lead
   location: San Francisco, CA, USA 🇺🇸
   github: ggilmore
   email: geoffrey@sourcegraph.com
@@ -289,7 +277,7 @@ stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_search_core
+  reports_to: search_lead
   location: Berlin, Germany 🇩🇪
   github: stefanhengl
   email: stefan@sourcegraph.com
@@ -310,7 +298,7 @@ juliana_peña:
   name: Juliana Peña
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_search
+  reports_to: search_lead
   location: Redmond, WA, USA 🇺🇸
   github: limitedmage
   email: juliana@sourcegraph.com
@@ -467,7 +455,7 @@ rok_novosel:
   name: Rok Novosel
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_search
+  reports_to: search_lead
   location: Trebnje, Slovenia 🇸🇮
   github: novoselrok
   email: rok@sourcegraph.com
@@ -489,7 +477,7 @@ camden_cheek:
   name: Camden Cheek
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_search
+  reports_to: search_lead
   location: Monument, Colorado, USA 🇺🇸
   github: camdencheek
   email: camden@sourcegraph.com
@@ -1693,7 +1681,7 @@ andrew_norrish:
 
 felix_kling:
   name: Felix Kling
-  reports_to: engineering_manager_search
+  reports_to: search_lead
   role: Software Engineer
   github: fkling
 
@@ -2199,7 +2187,7 @@ tom_pinckney:
 gary_lee:
   name: Gary Lee
   role: Software Engineer
-  reports_to: engineering_manager_search_core
+  reports_to: search_lead
   location: San Francisco, CA, USA 🇺🇸
   github: gl-srgr
   email: gary.lee@sourcegraph.com
@@ -2210,7 +2198,7 @@ thomas_liu:
   name: Thomas Liu
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_search
+  reports_to: search_lead
   location: Dallas, TX, USA
   github: tbliu98
   email: thomas.liu@sourcegraph.com
@@ -2346,7 +2334,7 @@ julie_tibshirani:
   github: jtibshirani
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_search
+  reports_to: search_lead
   location: San Francisco, CA, USA 🇺🇸
   links: '[@julietibs](https://twitter.com/julietibs), [jtibshirani.github.io](https://jtibshirani.github.io)'
   description: Julie loves building systems that are empowering and enjoyable to use. She's particularly passionate about search and open source development. Outside of software, Julie enjoys backpacking, dancing, and tending to her many houseplants.
