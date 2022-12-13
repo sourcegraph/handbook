@@ -65,6 +65,8 @@ The following functional teams work across the above dev teams:
 
 ## Processes
 
+- [PRFAQ Tips and Tricks](prfaq-process.md)
+- [Job Fair Planning Process](job-fair.md)
 - [Submitting a bug report](submitting-a-bug-report.md)
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)
