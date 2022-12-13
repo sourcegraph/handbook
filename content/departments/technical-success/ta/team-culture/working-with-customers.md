@@ -59,23 +59,40 @@ You can read about the process and roles & responsibilities [here](https://docs.
 
 ## Red Accounts
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+As the team accountable for our customers' technical success, including consumption and utilization, TAs must keep a close pulse on the overall health of our customers. The Red Accounts Program exists to ensure we are assessing customer health at all times and collectively taking corrective steps to improve customer health as needed.
 
-As the team accountable for our customers' technical success, usage, and adoption of our products, TAs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.
+### Criteria
 
-### Overview
+A customer may become a Red Account based on events or account-level characteristics that elevate it to a concerning state.
 
-For any account that is designated as having a health rating of red - either via [calculated score](https://sourcegraph.looker.com/dashboards-next/179?Customer+Engineer=&Account+Executive=&Unique+Server+ID=&Region=) or by a member of the account team - the AE and TA will jointly provide a current status of the account, identify any necessary asks of the business in order to best serve the customer, create an appropriate action plan, and track through to resolution (ideally promotion of the health from red to yellow or green).
+Events within the company that trigger elevation to a Red Account:
+- Macro
+  - Massive Layoffs (manually tracked)
+  - Budget Cuts (manually tracked)
+- Champion Departure (manually tracked)
+- Major Acquisition (manually tracked)
+- Migration to GitHub (specifically, GitHub Cloud) (manually tracked)
 
-### Red Accounts Process
+Account-level characteristics that trigger elevation to a Red Account:
+- Customer fails to deploy their Production Infrastructure within 60 days of contract signature (automatically tracked)
+- Health Score at or below 5 (automatically tracked)
+- No interaction with customer within the last 40 days based on Salesforce (automatically tracked)
+- 5%+ decline in search and code intelligence across two consecutive months (automatically tracked)
+- Non-use (or inconsistent/infrequent use) of products purchased (manual; automatic in the future)
+  - Code Insights
+  - Batch Changes
 
-In slack, the #red-accounts channel has been created so that when the Customer Health field on the Salesforce Account record is set to Red, a post is auto-triggered in the slack channel and a corresponding row will be automatically added to the Account Tracker tab of the [Red Accounts](https://docs.google.com/spreadsheets/d/1eVgWhrtgH8WQGo_pRuMseqz-Bk1P1Bymrlkutzz5jEA/edit#gid=0) Google Sheet. The AE / CE will jointly fill in relevant information to understand current state, needs, and the intended actions. Any asks or needs against the intended action plan should be initiated via a thread on the auto-generated slack post; this allows for visibility and transparency.
+### Process
+
+An account may trigger for the Red Accounts program manually or programmatically based on attributes about the account. A TA or AE may elevate an account to the Red Account program at anytime by updating the `ACCOUNT - RED ACCOUNT?` field in Vitally to true.
+
+For any customer that is tagged as a Red Account, the TA, in close partnership with the AE, will write a post in the #red-accounts channel providing relevant information about the current state of the account, needs, and the intended action plan. Any asks or needs against the intended action plan should be initiated via a thread on the slack post to allow for visibility and transparency. Technical Success and Sales leadership will review the request and the account team will align on the action plan forward.
 
 ### Roles and Responsibilities
 
-The TA will monitor the Customer Health dashboard and where applicable update the Customer Health field on the Salesforce Account record to red.
+The TA will monitor the overall account and where applicable update the Vitally account record to indicate a `ACCOUNT - RED ACCOUNT?` is true.
 
-Should an AE or TA feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.
+Should either an AE or TA feel that an account which isn't automatically categorized as red, is in fact red for any reason, they should align and the TA should update the Vitally account record.
 
 Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
 
@@ -108,7 +125,7 @@ Those categories are made up of the following data points:
 | Trait | Description | Source |
 | ---------------- | ---------------------------------------------- | --- |
 | Relationship - Active Champion? | This trait indicates that we have an active champion built inside the customer. | Manually set by TA |
-| Relationship - Access to buyer? | This trait indicates that we currenly have a line of communication to the buyer of Sourcegraph or the buyer for the renewal. | Manually set by TA |
+| Relationship - Access to buyer? | This trait indicates that we currently have a line of communication to the buyer of Sourcegraph or the buyer for the renewal. | Manually set by TA |
 | Last Activity | Looks at last contact as logged in by Salesforce | Salesforce |
 
 **Utilization**
@@ -206,7 +223,7 @@ A basic renewal (no expansion) would not involve a CE. The TA will assist the Ac
 
 ## Voice of the Customer
 
-A key role we play for our customers is serving as an advocate on their behalf back to internal product teams. As requests or feedback is shared from our customers, we share that with our product teams serving as a liasion on the customers' behalf.
+A key role we play for our customers is serving as an advocate on their behalf back to internal product teams. As requests or feedback is shared from our customers, we share that with our product teams serving as a liaison on the customers' behalf.
 
 ### Resources
 
