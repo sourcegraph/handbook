@@ -7,7 +7,6 @@ Quicklinks:
 - [Engineering vision](../../../departments/engineering/index.md#product-vision-and-strategy)
 - [Latest demo](https://www.youtube.com/watch?v=XLfE2YuRwvw)
 - [Documentation](https://docs.sourcegraph.com/code_search/)
-- [Completed goals](../../../departments/engineering/teams/search/goals_completed.md)
 
 ## Mission
 
