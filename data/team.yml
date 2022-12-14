@@ -170,9 +170,9 @@ kai_passo:
 
 rob_rhyne:
   name: Rob Rhyne
-  reports_to: director_design
-  manager_role_slug: design_manager_code_graph
-  role: Design Manager
+  reports_to: ceo
+  manager_role_slug: director_design
+  role: Director of Design
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -261,18 +261,6 @@ christine_lovett:
   links: '[LinkedIn](https://www.linkedin.com/in/lovettchristine/)'
   description: Christine is a biking, music and general fun enthusiast who likes to balance her travels exploring nature and city. Before Sourcegraph, Christine spent a few years in sales, then software development- ultimately merging her skillset in customer engingeering roles at Docker and Google. She has a strong appreciation for modern development tools and reducing friction in IT.
 
-alicja_suska:
-  name: Alicja Suska
-  reports_to: design_manager_code_graph
-  pronouns: she/her
-  pronunciation: /aˈlʲit͡s.ja/
-  role: Product Designer, Frontend Platform, Growth and Integrations, and Code Insights
-  location: Poznań, Poland 🇵🇱
-  github: AlicjaSuska
-  email: alicja@sourcegraph.com
-  links: '[LinkedIn](https://pl.linkedin.com/in/alicja-suska-1a5384a9)'
-  description: Alicja is a designer who loves painting furniture and creating isometric illustrations. She lives in Poznań with her Samoyed dog, Edward. Prior to Sourcegraph, Alicja was working at Toggl, the company that provides time tracking and work management tools. She comes from the artistic background - she earned a BA in Interior Design and a MS in Graphics.
-
 stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him
@@ -282,17 +270,6 @@ stefan_hengl:
   github: stefanhengl
   email: stefan@sourcegraph.com
   description: Stefan lives in Berlin with his wife and two children. Prior to Sourcegraph, Stefan was a software engineer at Zalando and SAP, where he worked on data pipelines and low-latency, high-throughput microservices. He graduated in Physics but eventually realized that software engineering is his true passion. In his free time, Stefan enjoys cooking, plays chess with his daughter, and dreams about building a house in the wilderness of Norway.
-
-quinn_keast:
-  name: Quinn Keast
-  reports_to: director_design
-  pronouns: he/him
-  role: Staff Product Designer
-  location: Berlin, Germany 🇩🇪
-  github: quinnkeast
-  email: qkeast@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/quinn-keast/), [@quinnkeast](https://twitter.com/quinnkeast), [quinnkeast.com](https://quinnkeast.com)'
-  description: "Quinn is a Canadian product & UX designer living in Berlin. His background is in design, and prior to Sourcegraph, he has a broad range of experience including working with a branding and advertising agency, a major non-profit environmental conservancy, and a global meal kit company. He also cofounded a UX consultancy that worked with growing product teams and organizations across Canada. Outside of work, Quinn is passionate about Ultimate frisbee, writing, speaking, and tinkering around. Learn more about Quinn's guiding values and how he works as a human at his personal [Quinn.README](https://quinnkeast.com/readme)!"
 
 juliana_peña:
   name: Juliana Peña
@@ -1190,17 +1167,6 @@ cesar_jimenez:
   links: '[LinkedIn](https://www.linkedin.com/in/cesarrjimenez/)'
   description: Cesar loves running, hiking, playing board games, listening to music, and going for walks with his wife and baby boy Leo. Favorite video games includes SOCOM 2 and Super Smash Bros Melee too! Proudly on Team Fox/Falco. Cesar used to be a dev bootcamp instructor at Code Fellows and loves cooking, and his favorite thing to do is try out new restaurants.
 
-sara_lee:
-  name: Sara Lee
-  reports_to: director_design
-  pronouns: she/her
-  role: Product Designer, Code Intel and Growth and Integrations
-  location: Chapel Hill, NC, United States 🇺🇸
-  github: jjinnii
-  email: sara.lee@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/sara-yoojin-lee/)'
-  description: Sara is a Product Designer, aspiring artist 🎨, and simulation game enthusiast 🎮. She resides in Chicago, IL and Chapel Hill, NC for equal parts of the year. She is passionate about using design as a medium to make the complex more accessible to people. She is currently working on learning Javascript and drinking less cups of coffee ☕️.
-
 kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
@@ -1857,7 +1823,7 @@ sally_voisen:
 
 daniel_marques:
   name: Daniel Marques
-  reports_to: design_manager_code_graph
+  reports_to: director_design
   pronouns: he/him
   role: Product Designer, Batch Changes
   location: Leiria, Portugal 🇵🇹
@@ -2000,7 +1966,7 @@ josé_taylor:
 
 paulo_almeida:
   name: Paulo Almeida
-  reports_to: design_manager_code_graph
+  reports_to: director_design
   pronouns: he/him
   role: Product Designer, Search
   location: São Paulo, Brazil 🇧🇷
@@ -2085,19 +2051,6 @@ gronk:
   reports_to: vp_customer_engineering
   location: Hamburg, Germany 🇩🇪
   description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
-
-steve_fisher:
-  name: Steve Fisher
-  pronouns: he/him
-  role: Head of Design
-  manager_role_slug: director_design
-  reports_to: eng_lead
-  location: Sechelt, BC, Canada
-  github: hellofisher
-  email: steve.fisher@sourcegraph.com
-  links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
-  pronunciation: '[pronounce my name](https://www.pronouncenames.com/search?name=Steve+Fisher)'
-  description: Steve has led multiple high performing design organizations in agency, enterprise, and startup settings. Steve also lives on the edge of the ocean and mountains and loves exploring both. You can often catch up with him while he's traveling and working from his camper van with his wife and two doggos.
 
 lori_colston:
   name: Lori Colston
