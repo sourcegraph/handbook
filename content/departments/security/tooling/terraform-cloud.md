@@ -62,3 +62,7 @@ in specified paths change`, and configure patterns to only trigger when the Terr
 Terraform Cloud provides a Slack integration, which is also useful to stay notified of changes that
 you or your team care about. You can set up the Slack integration (or other notification methods)
 in the Notifications section of the relevant workspace's settings.
+
+# OPA policy enforcement
+
+We use Terraform Cloud to scan our IaC. We currently scan Cloud v2-related code through TF Cloud. This is done through [OPA policies](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/opa) in the `cloud-opa-policy` Policy Set. Every Cloud v2 is automatically added to the Policy Set. The code containing the OPA policies in Rego can be found [here](https://github.com/sourcegraph/infrastructure/tree/main/security/tooling/opa-policies).
