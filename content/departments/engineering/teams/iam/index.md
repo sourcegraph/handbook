@@ -107,14 +107,14 @@ The agenda for the retrospective is this:
 
 ### Grooming
 
-**Goal**: The goal for the grooming session is to as many items in our backlog
+**Goal**: The goal for the grooming session is to get as many items in our backlog
 _prioritized_ and _estimated_. We estimate together enough tickets so that we’re
 all on the same page on how to implement something and how long it will take, so
-that we can plan it in future sprint
+that we can plan it in future sprint.
 
 Requirements for the meeting:
 
-- DRI for a project prepares by creating tickets as much as possible
+- DRI for a project prepares by creating as many tickets as possible
 - Product comes in with requirements from customers and tickets
 
 Agenda for the grooming meeeting:
@@ -146,7 +146,7 @@ A good planning meeting should answer the following questions:
     - Other requests from outside?
   - **Step 2: plan**:
     - What do we want to work on?
-      - Go through each person, define what they'll work on, what they commit do
+      - Go through each person, define what they'll work on, what they commit to do
       - Check if it matches their availability
 - What will we demo at the end of the iteration?
 
