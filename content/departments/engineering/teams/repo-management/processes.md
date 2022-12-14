@@ -94,7 +94,7 @@ The agenda for the retrospective is this:
 **Goal**: The goal for the grooming session is to get as many items in our backlog
 _prioritized_ and _estimated_. We estimate together enough tickets so that we’re
 all on the same page on how to implement something and how long it will take, so
-that we can plan it in future sprint
+that we can plan it in future sprint.
 
 Requirements for the meeting:
 
