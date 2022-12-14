@@ -23,7 +23,7 @@ This is an exhaustive resource from March 2022 containing all you need to know t
 
 ### Individual instance usage dashboards
 
-[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1Uih3dWJbg5vuMefqXqmKNGZf40JtnxMY/view?usp=sharing) explains how to interpret this data.
+[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1MoAI2VSpw49lYJh2cUXTSnC2Ys_EdyTd/view?usp=sharing) explains how to interpet the data (first original 2m:30s) and the final most-recently-updated 3m:10s go through how you can determine best next steps and what resources to send your customers.
 
 ### Customer-facing Code Insights [pitch slides](https://docs.google.com/presentation/d/1EXKLG_Bk7L95EvWmAWzE3XQs_eV5QASELG2Sgppd278/edit)
 
