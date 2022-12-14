@@ -43,24 +43,95 @@ More involved support requests follow the below process:
 
 ## How we work
 
-We're currently working in a Kanban style. It suits the fact that support work often cannot wait for a new sprint, and so the idea of being able to plan what we be delivered in any period of time is unreliable.
+We work in 2 week cycles.
 
-Kanban means we maintain a backlog of work we want to complete, prioritized in such a way that the team picks up the next highest priority thing.
+*Week 1*
 
-This allows us to be flexible about what's up next, but still protect the sanctity of concentration and focus by avoiding (as much as we can) in-flight work from being dropped in favor of something else.
+| Monday | Tuesday | Wednesday | Thursday | Friday |
+|--------|---------|-----------|-----------|-------|
+| 45min Retrospective | | | | |
+| 45min Grooming | | | | |
+| 45min Planning | Company meeting | | | |
+|                | Demo Day | | | |
 
-For larger pieces of work we utilise [tracking issues](../../dev/process/tracking_issues.md), for [example](https://github.com/sourcegraph/sourcegraph/issues/27916).
+*Week 2*
 
-We work in 2 week cycles, and have the following ceremonies:
+| Monday | Tuesday | Wednesday | Thursday | Friday |
+|--------|---------|-----------|-----------|-------|
+|  | | | | |
+|  | | | | |
+|  | | | | |
+|  | | | | |
 
-1. Planning (biweekly)
-   - This is more of a "line up a queue of work in priority" exercise than it would be with sprints
-   - By default, we make no time-based commitments, instead favouring a balance of strategic (long term) and tactical (short term repsonsive) work
-   - This does not (and isn't intended to) prevent newly identified work from superceding what gets "planned"
-2. Sync (biweekly)
-   - This happens on the weeks we don't have planning, and is a check in on the plans and anything new
-3. Retro (biweekly)
-   - A review of what we did for learing purposes
+### Important documents and links
+
+- [repo-management board](https://github.com/orgs/sourcegraph/projects/209/views/1)
+- [repo-management retrospective](https://docs.google.com/document/d/1i44vugdH8hRvb3Uc3KSlmCbzbdI1_X5todyg4dQRdpk/edit)
+- [repo-management planning doc](https://docs.google.com/document/d/1DI2Ul6tCNNoXi9dq10DlLj1XE5v3bb_mBH5Xhq7f9xQ/edit#heading=h.sjawbxxomzzj)
+
+### Retrospective
+
+**Goal**: continuously improve how we work. We do that by using the retrospective to look back at the past 2 weeks. What we want to find out is what went well, what didn't go well, and how we can improve.
+
+The agenda for the retrospective is this:
+
+* *10min*: fill out the prompts in [this Google Doc](https://docs.google.com/document/d/1i44vugdH8hRvb3Uc3KSlmCbzbdI1_X5todyg4dQRdpk/edit)
+  * What went well?
+  * What could have gone better?
+  * Do you feel supported?
+  * Do you feel like you’re moving into the right direction of your team?
+  * What processes/other things should we revisit/refine/propose?
+  * Other thoughts/questions?
+* *5min*: celebrate what went well (read out all items)
+* *2min*: vote on items
+* *28min*: talk through items, start with the highest votes
+  * 5min per item, use a timer, be strict
+  * Once 5min are up: ask if 2 more minutes
+  * If possible: collect action items
+
+### Grooming
+
+**Goal**: The goal for the grooming session is to as many items in our backlog
+*prioritized* and *estimated*. We estimate together enough tickets so that we’re
+all on the same page on how to implement something and how long it will take, so
+that we can plan it in future sprint
+
+Requirements for the meeting:
+* DRI for a project prepares by creating tickets as much as possible
+* Product comes in with requirements from customers and tickets
+
+Agenda for the grooming meeeting:
+
+* Open the [repo-management board](https://github.com/orgs/sourcegraph/projects/209/views/1)
+* Answer:
+  * What's in the backlog? Something missing?
+  * What's estimated? What's not estimated?
+* Go through top N of unestimated tickets that Product thinks we will work on next
+
+### Planning
+
+See the [repo-management planning doc](https://docs.google.com/document/d/1DI2Ul6tCNNoXi9dq10DlLj1XE5v3bb_mBH5Xhq7f9xQ/edit#heading=h.sjawbxxomzzj) for the specific agenda we use in each planning meeting.
+
+A good planning meeting should answer the following questions:
+
+* **Bookkeeping**:
+  * What's the availability of everybody for the next 2 weeks?
+  * Is there a release happening? If so, when?
+  * Any other special events? (kickoff meetings, meetups, …)
+  * Who's on Support?
+* **Leftover work**:
+  * Are there things left-over from the last iteration? If so, why?
+* **Planning next 2 weeks**
+  * **Step 1: gather input**:
+    * What does Product need us to do in the next 2 weeks?
+      * _Ideally_ these requests are prioritized and “ready to be implemented”
+    * Are there any customer issues we need to work on?
+    * Other requests from outside?
+  * **Step 2: plan**:
+    * What do we want to work on?
+      * Go through each person, define what they'll work on, what they commit do
+      * Check if it matches their availability
+* What will we demo at the end of the iteration?
 
 ### How we structure our work
 
