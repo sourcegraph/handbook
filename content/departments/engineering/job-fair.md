@@ -10,7 +10,7 @@ You can find the currently open projects in the [Sourcegraph Job Fair Project Li
 
 Before being added to the job fair, projects need to be prioritised and [added to the roadmap](./adding-to-roadmap.md). The first step is to raise a PR-FAQ.
 
-See [PRFAQ guidelines](https://docs.google.com/document/d/1rG4wTF6DTgkl1P1JnQo2Dj8w_mz7SpiPWcBThSXvpOc/edit#).
+See [PRFAQ guidelines](prfaq-process.md).
 
 ## Related
 

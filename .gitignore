@@ -126,8 +126,7 @@ dist
 .DS_Store
 
 # Generated at build time
-public/robots.txt
-public/sitemap.xml
+public/
 
 # IDE config
 .idea
