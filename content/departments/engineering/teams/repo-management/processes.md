@@ -45,23 +45,23 @@ More involved support requests follow the below process:
 
 We work in 2 week cycles.
 
-*Week 1*
+_Week 1_
+
+| Monday              | Tuesday         | Wednesday | Thursday | Friday |
+| ------------------- | --------------- | --------- | -------- | ------ |
+| 45min Retrospective |                 |           |          |        |
+| 45min Grooming      |                 |           |          |        |
+| 45min Planning      | Company meeting |           |          |        |
+|                     | Demo Day        |           |          |        |
+
+_Week 2_
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
-|--------|---------|-----------|-----------|-------|
-| 45min Retrospective | | | | |
-| 45min Grooming | | | | |
-| 45min Planning | Company meeting | | | |
-|                | Demo Day | | | |
-
-*Week 2*
-
-| Monday | Tuesday | Wednesday | Thursday | Friday |
-|--------|---------|-----------|-----------|-------|
-|  | | | | |
-|  | | | | |
-|  | | | | |
-|  | | | | |
+| ------ | ------- | --------- | -------- | ------ |
+|        |         |           |          |        |
+|        |         |           |          |        |
+|        |         |           |          |        |
+|        |         |           |          |        |
 
 ### Important documents and links
 
@@ -75,38 +75,39 @@ We work in 2 week cycles.
 
 The agenda for the retrospective is this:
 
-* *10min*: fill out the prompts in [this Google Doc](https://docs.google.com/document/d/1i44vugdH8hRvb3Uc3KSlmCbzbdI1_X5todyg4dQRdpk/edit)
-  * What went well?
-  * What could have gone better?
-  * Do you feel supported?
-  * Do you feel like you’re moving into the right direction of your team?
-  * What processes/other things should we revisit/refine/propose?
-  * Other thoughts/questions?
-* *5min*: celebrate what went well (read out all items)
-* *2min*: vote on items
-* *28min*: talk through items, start with the highest votes
-  * 5min per item, use a timer, be strict
-  * Once 5min are up: ask if 2 more minutes
-  * If possible: collect action items
+- _10min_: fill out the prompts in [this Google Doc](https://docs.google.com/document/d/1i44vugdH8hRvb3Uc3KSlmCbzbdI1_X5todyg4dQRdpk/edit)
+  - What went well?
+  - What could have gone better?
+  - Do you feel supported?
+  - Do you feel like you’re moving into the right direction of your team?
+  - What processes/other things should we revisit/refine/propose?
+  - Other thoughts/questions?
+- _5min_: celebrate what went well (read out all items)
+- _2min_: vote on items
+- _28min_: talk through items, start with the highest votes
+  - 5min per item, use a timer, be strict
+  - Once 5min are up: ask if 2 more minutes
+  - If possible: collect action items
 
 ### Grooming
 
 **Goal**: The goal for the grooming session is to as many items in our backlog
-*prioritized* and *estimated*. We estimate together enough tickets so that we’re
+_prioritized_ and _estimated_. We estimate together enough tickets so that we’re
 all on the same page on how to implement something and how long it will take, so
 that we can plan it in future sprint
 
 Requirements for the meeting:
-* DRI for a project prepares by creating tickets as much as possible
-* Product comes in with requirements from customers and tickets
+
+- DRI for a project prepares by creating tickets as much as possible
+- Product comes in with requirements from customers and tickets
 
 Agenda for the grooming meeeting:
 
-* Open the [repo-management board](https://github.com/orgs/sourcegraph/projects/209/views/1)
-* Answer:
-  * What's in the backlog? Something missing?
-  * What's estimated? What's not estimated?
-* Go through top N of unestimated tickets that Product thinks we will work on next
+- Open the [repo-management board](https://github.com/orgs/sourcegraph/projects/209/views/1)
+- Answer:
+  - What's in the backlog? Something missing?
+  - What's estimated? What's not estimated?
+- Go through top N of unestimated tickets that Product thinks we will work on next
 
 ### Planning
 
@@ -114,24 +115,24 @@ See the [repo-management planning doc](https://docs.google.com/document/d/1DI2Ul
 
 A good planning meeting should answer the following questions:
 
-* **Bookkeeping**:
-  * What's the availability of everybody for the next 2 weeks?
-  * Is there a release happening? If so, when?
-  * Any other special events? (kickoff meetings, meetups, …)
-  * Who's on Support?
-* **Leftover work**:
-  * Are there things left-over from the last iteration? If so, why?
-* **Planning next 2 weeks**
-  * **Step 1: gather input**:
-    * What does Product need us to do in the next 2 weeks?
-      * _Ideally_ these requests are prioritized and “ready to be implemented”
-    * Are there any customer issues we need to work on?
-    * Other requests from outside?
-  * **Step 2: plan**:
-    * What do we want to work on?
-      * Go through each person, define what they'll work on, what they commit do
-      * Check if it matches their availability
-* What will we demo at the end of the iteration?
+- **Bookkeeping**:
+  - What's the availability of everybody for the next 2 weeks?
+  - Is there a release happening? If so, when?
+  - Any other special events? (kickoff meetings, meetups, …)
+  - Who's on Support?
+- **Leftover work**:
+  - Are there things left-over from the last iteration? If so, why?
+- **Planning next 2 weeks**
+  - **Step 1: gather input**:
+    - What does Product need us to do in the next 2 weeks?
+      - _Ideally_ these requests are prioritized and “ready to be implemented”
+    - Are there any customer issues we need to work on?
+    - Other requests from outside?
+  - **Step 2: plan**:
+    - What do we want to work on?
+      - Go through each person, define what they'll work on, what they commit do
+      - Check if it matches their availability
+- What will we demo at the end of the iteration?
 
 ### How we structure our work
 
