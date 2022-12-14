@@ -70,7 +70,6 @@ We would include the following types of meetups in this category:
 - Customer Champion meetups
 - Leadership to Executive level meetups (no approval required)
 - Marketing conferences
-- Regional Sales Kickoff (Sales, Sales Ops, CE included)
 - Conference speaking engagement conferences
 
 ### 4. Professional development stipend and educational travel
