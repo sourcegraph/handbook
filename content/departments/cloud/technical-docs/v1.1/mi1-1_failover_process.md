@@ -50,7 +50,7 @@ Locate the most recent snapshot of the **current** data disk, note the name of t
 gcloud compute snapshots list --project $PROJECT_ID
 ```
 
-Follow [the machine upgrade process](./mi1-1_machine_upgrade_process.md) to complete the failover while making the below changes
+Follow [the machine upgrade process](./mi1-1_upgrade_process.md) to complete the failover while making the below changes
 
 - `NEW_DEPLOYMENT` instance should be created from the latest `$SNAPSHOT_NAME`
 - Change `zone` to a working zone

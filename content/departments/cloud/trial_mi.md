@@ -148,6 +148,7 @@ The flow:
 - opens PR in `deploy-sourcegraph-managed` repository
 
 [Automated PLG Flow](https://excalidraw.com/#json=9j9s-5ByiRR4y5SdcF5F3,fYozCz5zwCEt6QoC_Y_Fww)
+[Automated PLG Flow from Cloud POV](https://app.excalidraw.com/s/4Dr1S6qmmY7/5KOQ2afKonA)
 
 > When issue with automated flow occurs, fallback to [manual flow](#trial-managed-instance-creation-flow-manual)
 
