@@ -27,7 +27,6 @@ code_intelligence:
   strategy_link: /strategy-goals/strategy/code-intelligence/index.md
   pm: maría_craig
   em: owen_convey
-  design: sara_lee
   pmm: alex_isken
   issue_labels:
     - team/code-intelligence
@@ -49,7 +48,6 @@ code_insights:
   strategy_link: /strategy-goals/strategy/code-insights/index.md
   pm: joel_kwartler
   em: felix_becker
-  design: alicja_suska
   pmm: victoria_yunger
   issue_labels:
     - team/code-insights
