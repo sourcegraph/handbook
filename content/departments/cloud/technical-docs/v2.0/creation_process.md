@@ -41,6 +41,21 @@ Then watch out for notification in #cloud-notifications or tail logs in GitHub A
 
 ### Wrapping up
 
+> NOTE: This is temporary, learn more: https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1671034214541469
+
+Check out to the PR, and update `config.yaml` of the new instance to allow CE access to the instance
+
+```yaml
+spec:
+  debug:
+    additionalAdminEmails:
+      - <insert assigned CE email>
+```
+
+```sh
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce okta.instance-group
+```
+
 Once it's finished, merge the Pull Request opened by GitHub Actions, then manually apply the license key:
 
 > make sure you pull the latest change from `main`
