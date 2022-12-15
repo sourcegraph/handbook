@@ -228,7 +228,7 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 
 - Any account in Salesforce with 501 employees or higher at the beginning of the fiscal year, and all accounts outside the Americas are considered Enterprise and will be assigned to an Enterprise Account Executive (L4-L6).
 - Any account in Salesforce with 500 or fewer employees in the Americas at the beginning of the fiscal year is considered Commercial and will be assigned to a Commercial Account Executive (L2).
-- The source of truth for employee data is ClearBit and can be seen in Salesforce with the “Employees” field on an account.  The segmentation of an account at the beginning of the fiscal year will remain the account's designated segmentation for the entire fiscal year (if an account is segmented to the Commercial team, it will stay a Commercial account for the rest of FY23, even if it grows to be larger than 500 employees).  The segmentation for an account can be found in Salesforce in the "FY23 Americas Segmentation" field.
+- The source of truth for employee data is ClearBit and can be seen in Salesforce with the “Employees” field on an account. The segmentation of an account at the beginning of the fiscal year will remain the account's designated segmentation for the entire fiscal year (if an account is segmented to the Commercial team, it will stay a Commercial account for the rest of FY23, even if it grows to be larger than 500 employees). The segmentation for an account can be found in Salesforce in the "FY23 Americas Segmentation" field.
 - If a new account is created (for example, through the conversion of a lead), it's segmentation will be based on its ClearBit employee count at the time of account creation.
 
 ## Opportunity Object
