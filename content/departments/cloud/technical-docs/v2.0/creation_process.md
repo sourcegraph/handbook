@@ -244,7 +244,6 @@ Create a new pull request and merge it
 
 ## Troubleshooting
 
-
 ### Terraform failed to deploy via TFC
 
 You might be seeing the error message of from GitHub Actions logs
