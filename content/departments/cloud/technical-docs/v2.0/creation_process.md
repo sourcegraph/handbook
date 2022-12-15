@@ -5,6 +5,10 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## Option I - automated creation via GitHub Action
 
+## Steps
+
+### Create the instance
+
 Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cloud/actions/workflows/mi_create.yml) with given parameters:
 
 - `customer` - customer slug
@@ -35,6 +39,8 @@ gh workflow run -R github.com/sourcegraph/cloud  \
 
 Then watch out for notification in #cloud-notifications or tail logs in GitHub Actions run.
 
+### Wrapping up
+
 Once it's finished, merge the Pull Request opened by GitHub Actions, then manually apply the license key:
 
 > make sure you pull the latest change from `main`
@@ -46,6 +52,16 @@ mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://proj
 # For CE/AE driven instances, a standalone license key should be included in the creation request
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY site-config.license-key
 ```
+
+In the GitHub issue, tag the assigned CE/AE the instance is ready with the following message. Also notify the assigned CE/AE in the Slack thread:
+
+```
+Hi,
+
+The instance has been provisioned and set password email has been sent to the mentioned customer admin
+```
+
+(PLG manual triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## Option II - manual playbook
 
