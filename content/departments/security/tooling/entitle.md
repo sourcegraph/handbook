@@ -13,7 +13,7 @@ There are many security concerns that come with Identity and Access Management. 
 - No need for indefinite access to sensitive information
 - Auto expiration of access based on time bound requests
 - Audit log of all requests and actions taken
-- Granular access means no more over provisioned permissions
+- Granular access means no more overprovisioned permissions
 - Granular access means only access to relevant data
 
 Entitle also gives us advantages over the current request process. It allows for:
