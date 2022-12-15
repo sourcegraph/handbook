@@ -25,7 +25,7 @@ or via command line:
 ```
 gh workflow run -R github.com/sourcegraph/cloud  \
   -f environment=[dev|prod] \
-  -f customer=$CUSTOMER \
+  -f customer=$SLUG \
   -f instance_type=[production|trial|internal] \
   -f target_src_version=$TARGET_SRC_VERSION \
   -f instance_domain=$DOMAIN \
@@ -34,6 +34,18 @@ gh workflow run -R github.com/sourcegraph/cloud  \
 ```
 
 Then watch out for notification in #cloud-notifications or tail logs in GitHub Actions run.
+
+Once it's finished, merge the Pull Request opened by GitHub Actions, then manually apply the license key:
+
+> make sure you pull the latest change from `main`
+
+```sh
+# For PLG instances
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key site-config.license-key
+
+# For CE/AE driven instances, a standalone license key should be included in the creation request
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY
+```
 
 ## Option II - manual playbook
 
@@ -202,6 +214,16 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```sh
 npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
+
+Apply licesne key
+
+```sh
+# For PLG instances
+mi2 instance check -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key site-config.license-key
+
+# For CE/AE driven instances, a standalone license key should be included in the creation request
+mi2 instance check -enforce -src-license-key $LICENSE_KEY
+``
 
 ### Commit your changes
 
