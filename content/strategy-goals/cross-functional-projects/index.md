@@ -1,6 +1,6 @@
 # Cross-functional projects
 
-Cross-functional projects are designed to replace OKRs and narrow our focus down to the most actionable and impactful things we can do to bring more value to our customers and achieve our company goals and strategy.
+Cross-functional projects help us focus on the most important things we can do to bring more value to our customers and achieve our company goals and strategy.
 These projects are organized around working groups that are monitored and tracked at the executive level and are expected to be completed within 1 - 2 quarters of their formation.
 
 # Current cross-functional projects
@@ -15,7 +15,7 @@ These projects are organized around working groups that are monitored and tracke
 
 1. Cross-functional projects are project-based and focused on tangible outcomes
 
-   - No more “meta” objectives that lead to a lack of accountability, ill-defined outcomes, and spurious measures of success.
+   - No “meta” objectives that lead to a lack of accountability, ill-defined outcomes, and spurious measures of success.
 
 2. Cross-functional projects are not bound by arbitrary quarterly cycles
 
@@ -23,9 +23,9 @@ These projects are organized around working groups that are monitored and tracke
    - This will shift our focus from asking “what can we do within this quarter” to “what should we do to drive the most impact in as short a time as possible?”
 
 3. Cross-functional projects are focused on dynamic cross-functional teamwork
-   - We will no longer waste time trying to carve our specific roles for each department and align them to Objectives and Key Results.
+   - We don't waste time trying to carve our specific roles for every department and align them to the company-wide OKRs when that's not worthwhile.
    - Sometimes departments aren’t involved in really important projects and that’s OK.
-   - Instead, we will leverage working groups and entrust those teams to include the appropriate teams and make the best decisions for the overall success of each project.
+   - Instead, we will use working groups and entrust those teams to include the appropriate teams and make the best decisions for the overall success of each project.
 
 ## Expectations, Roles, and Responsibilities
 

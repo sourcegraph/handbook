@@ -10,10 +10,6 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 For more detailed information on the Delivery team members, check out our [README page](./team/index.md) which expands on our profile.
 
-## Strategy
-
-[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/delivery/index.md)
-
 ## Responsibilities
 
 - Deployments methods and configuration
@@ -68,8 +64,6 @@ TODO-->
 ## Principles
 
 We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md).
-
-We also have a set of [guiding principles](../../../../strategy-goals/strategy/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 

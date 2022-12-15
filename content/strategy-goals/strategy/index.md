@@ -21,7 +21,7 @@ Today, only about 0.1% of the world's population can code. That tiny group has b
 
 ### Values
 
-Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us implement our strategy and achieve our [goals](../goals/index.md).
+Our [values](../../company-info-and-process/values/index.md) are the principles that help us execute on our strategy and build a high-performance team.
 
 ## Medium-term
 
@@ -63,7 +63,7 @@ Our five customer tiers are:
 | Large Enterprise | 3k - 10k devs OR $500k - $1m ARR |
 | Small Enterprise | 1.5k - 3k devs OR $100k - $500k ARR |
 | Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
-| Tech Nurtured | Any customer below 500 estimates devs |
+| Tech Nurtured | Any customer below 500 estimated devs |
 
 ## This year (FY23)
 
@@ -80,7 +80,7 @@ Let's break that down:
 
 Product development will go faster, incur less risk, and yield a more compelling and valuable product by iterating with existing customers (who already use Sourcegraph and can give us more and better feedback), not new prospective customers.
 
-Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to work directly with our customer to continually increase the value of core workflows so that our existing customers gett more value out of sourcegraph (and expand usage/revenue) faster.
+Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to work directly with our customer to continually increase the value of core workflows so that our existing customers get more value out of sourcegraph (and expand usage/revenue) faster.
 
 Don't think about this as "say no to building for prospects". Instead, think "create and execute on such a compelling product roadmap that we can meet our revenue targets and win new customers without needing to build specifically for prospects".
 
@@ -105,12 +105,10 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
   - [Code Insights](code-insights/index.md)
   - [Dev Experience](dev-experience/index.md)
   - [Content Platform](content-platform/index.md)
-  - [IAM](iam/index.md)
   - [Growth](growth-team/index.md)
   - [Repo Management](repo-management/index.md)
   - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
   - DevOps/SRE
-  - [Delivery](delivery/index.md)
 
 ## Historical strategy
 

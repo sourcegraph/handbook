@@ -1,6 +1,6 @@
 # Managed Instance v2.0
 
-> NOTE: v2.0 is still under active development
+> NOTE: as of 2022-12-14, v2 is live. We will be supporting both instances for the time being.
 
 > NOTE: as of 2022-10-27, any teammate is able to provision their own v2 instances. please reach out to #cloud for guidance.
 

@@ -6,7 +6,6 @@
 - [Sourcegraph handbook](../../index.md)
 - [All-remote](../remote/index.md)
 - [Asynchronous work](../communication/asynchronous-communication.md)
-- [Goals](../../strategy-goals/goals/index.md)
 - [Strategy](../../strategy-goals/strategy/index.md)
 - [Team](../../team/index.md)
 - [Values](../values/index.md)
