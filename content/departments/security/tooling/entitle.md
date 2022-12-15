@@ -10,7 +10,7 @@ After reviewing multiple options available on the market for permission manageme
 
 There are many security concerns that come with Identity and Access Management. Entitle helps address many of them for us, including:
 
-- No need to for indefinite access to sensitive information
+- No need for indefinite access to sensitive information
 - Auto expiration of access based on time bound requests
 - Audit log of all requests and actions taken
 - Granular access means no more over provisioned permissions
