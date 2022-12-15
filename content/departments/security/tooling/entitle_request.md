@@ -23,7 +23,7 @@ Entitle is available through a Slack integration as well as web interface.
 
 This request type is a search engine that will take you more directly to permission and roles that you may be looking to request.
 
-1. Issuing slack command will show you this popup:
+1. Issuing a Slack command will show you this popup:
 
 ![Search Dialog](../img/Entitle_search.png)
 
