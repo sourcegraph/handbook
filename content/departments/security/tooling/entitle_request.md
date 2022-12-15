@@ -25,10 +25,10 @@ This request type is a search engine that will take you more directly to permiss
 
 1. Issuing a Slack command will show you this popup:
 
-![Search Dialog](../img/Entitle_search.png)
+![Search Dialog](https://storage.googleapis.com/sourcegraph-assets/Entitle_search.png)
 
 OR web interface form will look like this
-![SearchUI](../img/webui1.png)
+![SearchUI](https://storage.googleapis.com/sourcegraph-assets/Entitle_webui1.png)
 
 2. Search for Permission request type is the default choice
 3. “Search Permission”: This is where you would type in information regarding your request:
@@ -48,11 +48,11 @@ To request permissions via a Bundle, follow these steps:
 
 1. Issue /entitle or /access_request command in slack and you will see the following popup if you choose Permission Sets from Request Type dropdown
 
-   ![Bundle_dialog](../img/Entitle_bundles.png)
+   ![Bundle_dialog](https://storage.googleapis.com/sourcegraph-assets/Entitle_bundles.png)
 
 OR if you click "I want a permission set" on the bottom of the web interface form
 
-![Bundle Webform](../img/webui2.png)
+![Bundle Webform](https://storage.googleapis.com/sourcegraph-assets/Entitle_webui2.png)
 
 2. “Permission set category” is optional but narrows your list of available Bundles. You can leave this field blank if you want to see all the available Bundles
 3. “Permission Set” are custom created grouped permissions for easy request submission. These are created so that a teammate who may need access to multiple resources for a particular task can request it in one request vs submitting multiple requests. If a Permission Set describes the type of access you require, you can select it.
@@ -67,11 +67,11 @@ To request permission to a specific resource follow these steps:
 
 1. Issue /entitle or /access_request command in slack and choose Specific Permission from Request Type. you will see the following popup
 
-   ![Resource_dialog](../img/Entitle_Resource.png)
+   ![Resource_dialog](https://storage.googleapis.com/sourcegraph-assets/Entitle_Resource.png)
 
 Or if you click "I want a specific permission" on the bottom of the web interface form
 
-![specific permission webform](../img/webui3.png)
+![specific permission webform](https://storage.googleapis.com/sourcegraph-assets/Entitle_webui3.png)
 
 2. Next you will choose the integration you need access to. Based on your team and division, you will see specific options. In this guide we will focus on GCP. You have two options
    1. GCP Development Projects: All projects not containing customer data
