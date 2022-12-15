@@ -75,7 +75,7 @@ If the search result indicates a match is found in `sourcegraph/deploy-sourcegra
 
 For v1 instances, continue using this page of the opearation docs.
 
-For v2, use the [following search query](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/cloud$+file:dashboard.md+lang:Markdown+clouddev.sourcegraph.com&patternType=standard&sm=1&groupBy=path) to locate the [operator dashboard](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-96ed006bb45d673944e4/dashboard.md) of the instance. The operator dashboard is the dashboard designed specifically for a customer instance and contain all instruction you need to troubleshoot an instance.
+For v2, use the [`@cloud/v2-operator-dashboards-lookup` search context](https://sourcegraph.sourcegraph.com/search?q=context:@cloud/v2-operator-dashboards-lookup+&patternType=standard&sm=1&groupBy=repo) to locate the [operator dashboard](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-96ed006bb45d673944e4/dashboard.md) of the instance. The operator dashboard is the dashboard designed specifically for a customer instance and contain all instruction you need to troubleshoot an instance.
 
 ```
 repo:^github\.com/sourcegraph/cloud$ file:dashboard.md lang:Markdown company.sourcegraph.com
