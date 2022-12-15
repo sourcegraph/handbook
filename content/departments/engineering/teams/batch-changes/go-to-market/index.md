@@ -3,7 +3,7 @@
 ## Overview
 
 - **Product name:** Batch Changes (formerly known as Campaigns)
-- **Access and pricing:** Paid add-on for Enterprise customers; all customers can try the product (limit: 5 changesets)
+- **Access and pricing:** Paid add-on for Enterprise customers; all customers can try the product (limit: 10 changesets)
 
 ## Positioning and Use Cases
 
