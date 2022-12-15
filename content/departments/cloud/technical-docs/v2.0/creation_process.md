@@ -238,7 +238,7 @@ Finish the [remaining work](#wrapping-up)
 ```sh
 git add .
 git commit -m "$SLUG: create instance"
-````
+```
 
 Create a new pull request and merge it
 
