@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Entitle is an authentication and access management system. It is a cloud based application that automates access requests, approvals, and revocation of permissions based on custom policies. All of this can be done via slack with a simple command “/entitle”.
+Entitle is an authentication and access management system. It is a cloud based application that automates access requests, approvals, and revocation of permissions based on custom policies. All of this can be done via Slack with a simple command “/entitle”.
 
 ## Why Entitle?
 
