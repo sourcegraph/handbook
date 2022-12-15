@@ -21,7 +21,7 @@ Entitle is available through a Slack integration as well as web interface.
 
 ## Search for Permission Request:
 
-This search engine allows you to lookup roles and resources without having to specify the application or integration that the role/resource belongs to. 
+This search engine allows you to lookup roles and resources without having to specify the application or integration that the role/resource belongs to.
 
 1. Issuing a Slack command will show you this popup:
 
