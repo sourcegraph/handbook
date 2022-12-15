@@ -4,7 +4,7 @@ Entitle is available through a Slack integration as well as web interface.
 
 ## Web Interface
 
-- The webapp is available at [here](https://app.entitle.io/request)
+- The webapp is available [here](https://app.entitle.io/request)
 - You can login via your Google Workspace account
 - Clicking on "New Request" in the top left corner will take you to the request form
 - Please see request form details below on
