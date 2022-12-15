@@ -62,7 +62,7 @@ OR if you click "I want a permission set" on the bottom of the web interface for
 
 ## Specific Permission Request:
 
-This option allows for granular access requests to only necessary data/instances. \
+This option allows for granular access requests to only necessary data/instances.
 To request permission to a specific resource follow these steps:
 
 1. Issue /entitle or /access_request command in slack and choose Specific Permission from Request Type. you will see the following popup
