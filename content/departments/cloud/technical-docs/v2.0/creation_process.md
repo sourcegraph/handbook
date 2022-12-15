@@ -217,7 +217,7 @@ npx --yes cdktf-cli@0.13.3 deploy tfc
 
 Apply licesne key
 
-```sh
+````sh
 # For PLG instances
 mi2 instance check -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key site-config.license-key
 
@@ -230,7 +230,7 @@ mi2 instance check -enforce -src-license-key $LICENSE_KEY site-config.license-ke
 ```sh
 git add .
 git commit -m "$SLUG: create instance"
-```
+````
 
 Create a new pull request and merge it
 
