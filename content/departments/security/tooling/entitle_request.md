@@ -7,13 +7,13 @@ Entitle is available through a Slack integration as well as web interface.
 - The webapp is available [here](https://app.entitle.io/request)
 - You can login via your Google Workspace account
 - Clicking on "New Request" in the top left corner will take you to the request form
-- Please see request form details below on
+- Please see request form details below
 
 ## Slack Interface
 
 - Slack interface is available by typing /entitle or /access_request in any slack window
 
-## There are three ways of requesting access via Slack or Web Interface.
+# There are three ways of requesting access via Slack or Web Interface.
 
 - [Search for Permissions](entitle_request.md#search-for-permission-request)
 - [Permission Sets](entitle_request.md#permission-sets-request)
