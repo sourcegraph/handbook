@@ -244,6 +244,23 @@ Create a new pull request and merge it
 
 ## Troubleshooting
 
+
+### Terraform failed to deploy via TFC
+
+You might be seeing the error message of from GitHub Actions logs
+
+```
+Error: 022-12-14T22:35:54.704] [ERROR] default - Error in Deploy: {"message":"Request failed with status code 409","name":"Error","stack":"Error: Request failed with status code 409\n    at WGe.exports (/home/runner/work/cloud/cloud/terraform-cdk/packages/cdktf-cli/bundle/bin/cmds/handlers.js:199:4283)\n    at GGe.exports (/home/runner/work/cloud/cloud/terraform-cdk/packages/cdktf-cli/bundle/bin/cmds/handlers.js:199:4461)\n    at IncomingMessage.<anonymous> (/home/runner/work/cloud/cloud/terraform-cdk/packages/cdktf-cli/bundle/bin/cmds/handlers.js:200:8212)\n    at IncomingMessage.emit (node:events:525:35)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1358:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","config":{"url":"/runs/<redacted>/actions/apply","method":"post","data":"{}","headers":{"Authorization":"REDACTED","Accept":"application/json","Content-Type":"application/vnd.api+json","User-Agent":"terraform-cloud/1.15.0","Content-Length":2},"baseURL":"https://app.terraform.io/api/v2","transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false}}}
+```
+
+```
+Deploy: Request to Terraform Cloud failed with status 409: {"status":"409","title":"transition not allowed"}
+```
+
+This is happening because `cdktf` is trying to confirm a plan before it is ready to be confirmed. It is a known issue and we deem not worth fixing since we have already [went pretty far preventing it from haappen](https://github.com/sourcegraph/terraform-cdk/commits/fix/tfc-planned-status).
+
+When this happened, locate the workspace of the affected instance on Terraform Cloud. Use the `INSTANCE_ID` as tag to filter workspaces, and there should be a workspace that requires manual confirmation. Confirm it and wait for it to finish, then re-run the failed GitHub Actions run.
+
 ### PVC is stuck at `Pending`
 
 You may be seeing the following events
