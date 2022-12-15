@@ -44,7 +44,7 @@ Once it's finished, merge the Pull Request opened by GitHub Actions, then manual
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key site-config.license-key
 
 # For CE/AE driven instances, a standalone license key should be included in the creation request
-mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY site-config.license-key
 ```
 
 ## Option II - manual playbook
@@ -222,7 +222,7 @@ Apply licesne key
 mi2 instance check -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key site-config.license-key
 
 # For CE/AE driven instances, a standalone license key should be included in the creation request
-mi2 instance check -enforce -src-license-key $LICENSE_KEY
+mi2 instance check -enforce -src-license-key $LICENSE_KEY site-config.license-key
 ``
 
 ### Commit your changes
