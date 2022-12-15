@@ -18,7 +18,7 @@ There are many security concerns that come with Identity and Access Management. 
 
 Entitle also gives us advantages over the current request process. It allows for:
 
-- Self serve request process
+- Self-service request process
 - Automatic approval gathering process
 - Time based permissions
 - Granular access to only necessary information
