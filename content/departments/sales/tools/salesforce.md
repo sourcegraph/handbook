@@ -224,6 +224,13 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 
 **NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
+## FY23 Account Ownership
+
+- Any account in Salesforce with 501 employees or higher at the beginning of the fiscal year, and all accounts outside the Americas are considered Enterprise and will be assigned to an Enterprise Account Executive (L4-L6).
+- Any account in Salesforce with 500 or fewer employees in the Americas at the beginning of the fiscal year is considered Commercial and will be assigned to a Commercial Account Executive (L2).
+- The source of truth for employee data is ClearBit and can be seen in Salesforce with the “Employees” field on an account.  The segmentation of an account at the beginning of the fiscal year will remain the account's designated segmentation for the entire fiscal year (if an account is segmented to the Commercial team, it will stay a Commercial account for the rest of FY23, even if it grows to be larger than 500 employees).  The segmentation for an account can be found in Salesforce in the "FY23 Americas Segmentation" field.
+- If a new account is created (for example, through the conversion of a lead), it's segmentation will be based on its ClearBit employee count at the time of account creation.
+
 ## Opportunity Object
 
 ### New Business Meetings
@@ -305,6 +312,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
   - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
   - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
+- If a round-robin lead is assigned to an AE while they are on Parental Leave, the AE on leave will be designated as the Account Owner, and the covering AE will be assigned to the opportunity. The covering AE will be designated by the manager. Additional guidance regarding split/coverage during parental leave can be found [here](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/parental-leave/#commission-payout-scenarios-for-account-executives).
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
 - Consultants should not count in the round robin, and the SDR team should not convert consultant leads into the round robin queue
   - If a consultant does slip through, the scenario will be assessed on a one-off basis by Sales Ops and Sales Management
