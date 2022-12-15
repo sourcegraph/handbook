@@ -31,7 +31,7 @@ OR web interface form will look like this
 ![SearchUI](https://storage.googleapis.com/sourcegraph-assets/Entitle_webui1.png)
 
 2. Search for Permission request type is the default choice
-3. “Search Permission”:  This is where you would type in search terms for your request:
+3. “Search Permission”: This is where you would type in search terms for your request:
    1. You can type in a project name to see what Roles you can request
    2. You can type in a particular Role to see which resources you can request it on
    3. You can also combine and type in Role and Project together to narrow down your search.
