@@ -42,7 +42,7 @@ NOTE: this feature is still in Beta so results may vary. If you do not see the e
 
 ## Permission Sets Request:
 
-Permission Sets are Entitle’s way of grouping necessary permission together for a certain task. These are custom built based on team requests and frequency of use.
+Permission Sets are Entitle’s way of grouping necessary permissions together for a certain task. These are custom built based on team requests and frequency of use.
 To request a custom built set, please reach out to the Security team.
 To request permissions via a Bundle, follow these steps:
 
