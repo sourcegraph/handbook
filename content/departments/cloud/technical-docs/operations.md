@@ -73,7 +73,7 @@ On s2, use the [`@cloud/customers-lookup`](https://sourcegraph.sourcegraph.com/s
 
 If the search result indicates a match is found in `sourcegraph/deploy-sourcegraph-managed`, it is a `v1` instance. If there is a match from `sourcegraph/cloud`, it is a `v2` instance.
 
-For v1 instances, continue using this page of the opearation docs. 
+For v1 instances, continue using this page of the opearation docs.
 
 For v2, use the [following search query](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/cloud$+file:dashboard.md+lang:Markdown+clouddev.sourcegraph.com&patternType=standard&sm=1&groupBy=path) to locate the [operator dashboard](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-96ed006bb45d673944e4/dashboard.md) of the instance. The operator dashboard is the dashboard designed specifically for a customer instance and contain all instruction you need to troubleshoot an instance.
 
