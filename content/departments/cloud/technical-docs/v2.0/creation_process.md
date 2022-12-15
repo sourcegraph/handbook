@@ -231,15 +231,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 npx --yes cdktf-cli@0.13.3 deploy tfc
 ```
 
-Apply licesne key
-
-````sh
-# For PLG instances
-mi2 instance check -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key site-config.license-key
-
-# For CE/AE driven instances, a standalone license key should be included in the creation request
-mi2 instance check -enforce -src-license-key $LICENSE_KEY site-config.license-key
-``
+Finish the [remaining work](#wrapping-up)
 
 ### Commit your changes
 
