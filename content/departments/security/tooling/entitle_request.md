@@ -69,7 +69,7 @@ To request permission to a specific resource follow these steps:
 
    ![Resource_dialog](../img/Entitle_Resource.png)
 
-OR if you click "I want a specific permission" on the bottom of the web interface form
+Or if you click "I want a specific permission" on the bottom of the web interface form
 
 ![specific permission webform](../img/webui3.png)
 
