@@ -1,10 +1,26 @@
-# Support Team Schedule
+# Support Team Working Schedule and Rotation
 
-Being an [all-remote](../../../../company-info-and-process/remote/index.md) company means that we can choose to work when we want. This is absolutely true for CS and it is also a little more complicated for us. We have to coordinate a little more so we can honor our [service level agreements (SLAs)](../index.md#our-service-level-agreements-slas).
+## "On Duty" Rotation
 
-This starts by everyone on the team identifying their ideal working hours. If we have good coverage, we are set! If we have gaps, we work together to figure out a solution.
+We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout hte day. This means that in increments of 3 - 4 hour blocks two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, discord, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #customer-support-internal team channel. 
 
-## Schedule
+### What happens if you're going to be out of office
+
+If an individual is going to be out of office (PTO, sick time, regional holiday, etc) that individual, as part of their OOO planning, is responsible for identifying a backup to cover their shift rotation.
+
+### What happens when you’re not “On Duty”
+
+When you’re not “on duty” within your working hours you’ll use this dedicated focus time to work on ticket and non-ticket work. For example you use this time to work on tickets in your personal queue, write docs or internal debugging guides, help engineering with certain tasks, work on side projects (approved by leadership), set up environments for testing out specific scenarios, learn a new part of the product, lend a hand to a teammate if you have particular knowledge in an area, etc. 
+
+### “On Duty” Rotation Assignments
+
+7am - 11am UTC (11pm - 3am PST): Rakesh & Michael
+11am - 3pm UTC (3am - 7am PST): Mariam & Stompy
+3pm - 7pm UTC (7am - 11am PST): Alex & Jason
+7pm - 11pm UTC (11am - 3pm PST): Amber & Jon
+11pm - 2am UTC (3pm - 6pm PST): Gabe & Warren
+
+## Working Hours
 
 Our schedule is reflected in the working hours set in our calendars.
 
@@ -18,22 +34,13 @@ Our schedule is reflected in the working hours set in our calendars.
 | Mariam      | 9am–5pm        | 09:00–17:00 | 1am–9am       |
 | Michael     | 8am–4pm        | 07:00–15:00 | 11pm–7am      |
 | Rakesh      | 10:30am–6:30pm | 00:00–08:30 | 5:30pm–1:30am |
-| Riana       | 9am–5pm        | 14:00–22:00 | 6am–2pm       |
 | Stompy      | 1pm–9pm        | 10:00–19:00 | 2am–10am      |
 | Warren      | 9am–5pm        | 17:00–01:00 | 9am–5pm       |
 | Shawnteé    | 8am–4pm        | 14:00–22:00 | 6am–2pm       |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
-## Focus day
-
-Working out of a queue can be tiresome and we do this practice to keep the team engaged and able to continuously grow. On the focus day, it's up to each person how they spend that time. They can work on their tickets, they can learn something, they can work on a project, they can rest -- everyone maintains their own agency in what they decide to do. And if ever it feels hard to do the thing someone wants, bring that to your manager and we can sort it out.
-
-Focus day is currently paused while we try to understand and navigate the impact of recent changes on the team. New modalities for this practice will be communicated in due course.
-
-## Adjusting the schedule
+## Adjusting your working hours schedule
 
 - **Ad-hoc adjustments** can be shared in the team Slack channel (#customer-support-internal) following the guidance written in our [rituals](../team-culture/index.md).
 - **Lasting adjustments** can be discussed in in the team Slack channel (#customer-support-internal) or weekly 1:1s with your direct manager.
-
-If an adjustment creates a gap in covering our SLAs, we will figure it out!
