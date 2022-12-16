@@ -44,7 +44,7 @@ This travel budget is intended for Teammates to attend company-wide meetups, arr
 
 ### 2. Team travel
 
-Each Exec is allocated $5,000 USD per year per Teammate for their department, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. Managers will work with their Exec to plan trips and ensure they have budget. Tracking the fiscal year spend is the responsibility of each individual Teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+Each Exec is allocated $5,000 USD per year per Teammate for their department, so you can connect and build relationships with the members of your own team. **Managers must work with their Exec to plan trips and ensure they have budget.** Considering the intention, this applies when a minimum two members of the team get together. Tracking the fiscal year spend is the responsibility of each individual Teammate. Accounting will provide actuals at the cost center level and not per person.
 
 The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
