@@ -415,7 +415,6 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
   </tr>
 </table>
 
-
 ### Engaging Subject Matter Experts
 
 Given the breadth of technical information and problems CEs face, it’s unrealistic to expect all CEs to be experts in everything. CE Subject Matter Experts (SMEs) will play a crucial role in engaging in more complex engagements where a deeper understanding of a particular technology, product, or industry is required. When the level of complexity of an opportunity starts to become too deep for a generalist CE, it is crucial that they engage the appropriate SME.
