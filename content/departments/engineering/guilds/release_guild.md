@@ -14,7 +14,7 @@ For the time being, captains are selected on a volunteer basis. The guild will d
 The current schedule is shown below:
 
 | Date           | Release Tag | Captain                                                                   |
-|----------------|-------------|---------------------------------------------------------------------------|
+| -------------- | ----------- | ------------------------------------------------------------------------- |
 | January, 2023  | 4.4.0       | [Bolaji Olajide](../../../team/index.md#bolaji-olajide)                   |
 | February, 2023 | 4.5.0       | [Keegan Carruthers Smith](../../../team/index.md#keegan-carruthers-smith) |
 | March, 2023    | 4.6.0       | [Mohammad Umer Alam](../../../team/index.md#mohammad-umer-alam)           |
