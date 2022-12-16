@@ -15,5 +15,6 @@
 - [Prioritization](support-prioritization.md)
 - [Removing repositories from cloud](removing-repositores-from-cloud.md)
 - [Support capacity levels and contingencies](support-capacity-levels-and-contingencies.md)
+- [Support Agent and Customer Slack Channel](support agent and customer slack channels.md)
 - [Triaging](customer-support-triaging.md)
 - [Workflow](support-workflow.md)
