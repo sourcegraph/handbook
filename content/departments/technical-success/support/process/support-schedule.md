@@ -2,7 +2,7 @@
 
 ## "On Duty" Rotation
 
-We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout hte day. This means that in increments of 3 - 4 hour blocks two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, discord, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #customer-support-internal team channel. 
+We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout hte day. This means that in increments of 3 - 4 hour blocks two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, discord, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #customer-support-internal team channel.
 
 ### What happens if you're going to be out of office
 
@@ -10,7 +10,7 @@ If an individual is going to be out of office (PTO, sick time, regional holiday,
 
 ### What happens when you’re not “On Duty”
 
-When you’re not “on duty” within your working hours you’ll use this dedicated focus time to work on ticket and non-ticket work. For example you use this time to work on tickets in your personal queue, write docs or internal debugging guides, help engineering with certain tasks, work on side projects (approved by leadership), set up environments for testing out specific scenarios, learn a new part of the product, lend a hand to a teammate if you have particular knowledge in an area, etc. 
+When you’re not “on duty” within your working hours you’ll use this dedicated focus time to work on ticket and non-ticket work. For example you use this time to work on tickets in your personal queue, write docs or internal debugging guides, help engineering with certain tasks, work on side projects (approved by leadership), set up environments for testing out specific scenarios, learn a new part of the product, lend a hand to a teammate if you have particular knowledge in an area, etc.
 
 ### “On Duty” Rotation Assignments
 
