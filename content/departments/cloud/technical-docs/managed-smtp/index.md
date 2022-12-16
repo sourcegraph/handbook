@@ -30,9 +30,7 @@ Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](.
 ## Vendor management
 
 - **Account**
-  - Okta and Entitle: Accounts are provisioned via Okta SSO via Entitle. Accounts should generally only be granted only [Reporting access](https://support.sparkpost.com/docs/user-guide/managing-users) by default.
-  - Root account credentials: [Cloud Team - SparkPost](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=k5oim4jlnqnuqsqsjrs344nhsi&v=qxzajcksgc3givogl3r6qjbimu) (note that you must log in via [SparkPost EU](https://app.eu.sparkpost.com))
-    - This account will be removed when the Entitle workflow has been finalized ([#1676](https://github.com/sourcegraph/customer/issues/1676))
+  - Okta and Entitle: Accounts are provisioned via Okta SSO using Entitle. Accounts should generally only be granted only [Reporting access](https://support.sparkpost.com/docs/user-guide/managing-users) by default. [Developer access](https://support.sparkpost.com/docs/user-guide/managing-users) accounts can be granted through Entitle for development purposes.
 - **Billing**: [Airbase Virtual Corporate Card](https://dashboard.airbase.io/services/323464)
   - We are billed based on emails delivered according to our usage plan, included currently up to 250,000 (as of Dec 2022), after which we are billed for overages.
 - **API Keys**: [list](https://app.eu.sparkpost.com/account/api-keys) - see [vendor integration](#vendor-integration) for more details
@@ -98,6 +96,15 @@ Additionally, SparkPost has limited retention for most data - see its [GDPR comp
 ### Account isolation
 
 Our [vendor integration](#vendor-integration) is designed such that all usage and access can be constrolled on a per-subaccount (i.e. per-customer) basis. API tokens distributed to Cloud instances are scoped to individual subaccounts with very limited permissions, and can be disabled individually.
+
+### Employee Access Provisioning
+Sourcegraph Employee access to SparkPost is exclusively granted through Entitle on a per-use basis. By default, accounts should be granted [`Reporting`]() level access. For development purposes, Employees can request [`Developer`]() level access.
+
+To begin an access request, open Slack and type `/access_request`. Complete the dialog as follows:
+
+![Entitle Request Form](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/cloud/entitle-sparkpost-reporting-request.png)
+
+A member of Security or Cloud will then approve the request.
 
 ## Future features
 
