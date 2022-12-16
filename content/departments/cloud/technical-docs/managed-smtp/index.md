@@ -98,6 +98,7 @@ Additionally, SparkPost has limited retention for most data - see its [GDPR comp
 Our [vendor integration](#vendor-integration) is designed such that all usage and access can be constrolled on a per-subaccount (i.e. per-customer) basis. API tokens distributed to Cloud instances are scoped to individual subaccounts with very limited permissions, and can be disabled individually.
 
 ### Employee Access Provisioning
+
 Sourcegraph Employee access to SparkPost is exclusively granted through Entitle on a per-use basis. By default, accounts should be granted [`Reporting`]() level access. For development purposes, Employees can request [`Developer`]() level access.
 
 To begin an access request, open Slack and type `/access_request`. Complete the dialog as follows:
