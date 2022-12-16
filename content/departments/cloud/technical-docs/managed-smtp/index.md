@@ -105,7 +105,7 @@ To begin an access request, open Slack and type `/access_request`. Complete the 
 
 ![Entitle Request Form](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/cloud/entitle-sparkpost-reporting-request.png)
 
-A member of Security or Cloud will then approve the request.
+A member of Security or Cloud will then approve the request. Once approved, users can log in at https://app.eu.sparkpost.com/auth or by clicking the SparkPost icon on the Okta applications dashboard.
 
 ## Future features
 
