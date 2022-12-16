@@ -1,4 +1,4 @@
-##Support Agent and Customer Slack Channels 
+##Support Agent and Customer Slack Channels
 
 To better support our customers we use a Support Agent that will need to be integrated into customer slack channels. This will allow us to receive customer request quickly and directly triage the request from Slack. To ensure that the Support Agent is enabled there are a few steps that need to be completed. 
 
