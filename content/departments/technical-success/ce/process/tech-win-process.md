@@ -91,7 +91,7 @@ It also provides key areas for CEs to consider and specific steps to take to ens
    </td>
    <td>A living document that is used to track information about customers - their needs, their technical environment, use cases, etc. At first, this document captures details about the customer prior to Sourcegraph, then during the trial phase, and subsequently as they move to production.
 <p>
-<a href="https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/">Link To Template</a>
+<a href="https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit">Link To Template</a>
 <p>
 Store Completed TDDs <a href="https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC">Here</a>
    </td>
@@ -109,7 +109,7 @@ Store Completed TDDs <a href="https://drive.google.com/drive/folders/1o-4rB24vcY
 <p>
 <a href="https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268">Link to Template</a>
 <p>
-Store Completed Success Plans <strong>[Here]</strong>
+Store Completed Success Plans in the Customer folder.
    </td>
    <td>3-7
    </td>
@@ -195,6 +195,7 @@ The following criteria are used to determine whether a technical win should prog
   - As defined by the [Customer Engagement Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0), the champion typically confirms use cases, identifies the business/technical validation process and confirms the technical win.
 - Has the CE confirmed the top 2-3 use cases for the customer?
 - Does the CE understand the customer’s technical landscape and current tools?
+- Has the CE provided the prospect with a Reference Sandbox environment?
 
 #### Tech Design & Trial Planning (Sales Stage: 3)
 
@@ -217,9 +218,10 @@ The following criteria are used to determine whether a technical win should prog
 
 #### Post-Trial (Stages 5-7)
 
-- CE has completed a v1 draft of the [Post Sales Engagement Sheet](https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0)
-- CE has updated the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) with details about the customer’s production deployment plans
-- Welcome kickoff meeting is scheduled with the customer
+- Tag TA leadership for TA assignment
+- Confirm whether IE will be performing the Production Implementation
+- CE has updated the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) with details about the customer’s production deployment plans (unless IE is leading the Production Implementation)
+- Introduce TA to the customer
 
 ### Technical Design Document Creation and Review
 
@@ -286,7 +288,7 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
 
 <table>
   <tr>
-   <td><strong>Field</strong>
+   <td><strong>Salesforce Field</strong>
    </td>
    <td><strong>Description</strong>
    </td>
@@ -294,7 +296,7 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
   <tr>
    <td>Opportunity Name
    </td>
-   <td>Name assigned to the opportunity.
+   <td>Name of the opportunity.
    </td>
   </tr>
   <tr>
@@ -316,7 +318,7 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
    </td>
   </tr>
   <tr>
-   <td>Opportunity Due Date
+   <td>Close Date
    </td>
    <td>The date by which the Account Executive expects the opportunity to close.
    </td>
@@ -324,31 +326,37 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
   <tr>
    <td>Tech Win Phase
    </td>
-   <td>Current Tech Win Phase for the opportunity which is one of five (5) selections: Initial Conversations, Tech Design & Trial Planning, Trial Deployment, Trial Execution, and Post-Trial.
+   <td>Current Tech Win Phase for the opportunity which is one of five (5) selections: Initial Conversations, Tech Design & Trial Planning, Trial Deployment, Trial Execution, and Post-Trial. Starting as early as Stage 2, CEs should keep this field updated to reflect the phase of the technical evaluation.
    </td>
   </tr>
   <tr>
    <td>Technical Win Due Date
    </td>
-   <td>The date by which the Customer Engineer expects to receive customer confirmation of the technical win.
+   <td>Upon trial execution starting, this is the date by which the Customer Engineer expects to receive customer confirmation of the technical win.
    </td>
   </tr>
   <tr>
    <td>Technical Win Next Step
    </td>
-   <td>What next action is required by the Customer Engineer.
+   <td>What next action or step? This should be updated weekly to give an overview of next steps.
    </td>
   </tr>
   <tr>
    <td>Mutual Action Plan
    </td>
-   <td>URL for the Joint Success Plan which includes the Mutual Action Plan (AE) as well as the Trial and Deployment Plan (CE).
+   <td>URL for the Joint Success Plan which includes the Mutual Action Plan (AE) as well as the Trial Success Criteria and Deployment Plan (CE).
    </td>
   </tr>
   <tr>
    <td>Technical Design Document
    </td>
-   <td>URL for the Technical Design Document for this customer opportunity.
+   <td>URL for the Technical Design Document for this customer opportunity that captures details about the Trial design.
+   </td>
+  </tr>
+  <tr>
+   <td>Trial Success Criteria Complete
+   </td>
+   <td>Yes/No - The CE and customer have agreed upon trial success criteria that will be used in the evaluation and it is captured in the Joint Success Plan (also referred to as Mutual Action Plan),
    </td>
   </tr>
   <tr>
@@ -375,7 +383,38 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
    <td>If this is a non-standard configuration, a link to the submission for Tech Review.
    </td>
   </tr>
+  <tr>
+   <td>Open Risks/Issues
+   </td>
+   <td>Throughout this technical win process, the Customer Engineer should be updating the opportunity to reflect the current state of technical or business risks and issues that pertain to the opportunity. As a best practice, for each risk or issue the CE should provide a description, mitigation path, and status.
+   </td>
+  </tr>
+  <tr>
+   <td>Deployment Method
+   </td>
+   <td>The expected trial deployment method: on-prem, cloud (managed instance), offline.
+   </td>
+  </tr>
+  <tr>
+   <td>Cloud Disqualifiers
+   </td>
+   <td>If the Trial Deployment Method is not Cloud (managed instance), why: company policy, technical limitation, other.
+   </td>
+  </tr>
+  <tr>
+   <td>Cloud Disqualifier Description
+   </td>
+   <td>If the Trial Deployment Method is not Cloud (managed instance), explain more about why. If there's a technical limitation what is it? If it's a company or security policy reason, what is the policy? This is helpful information for our Cloud teams.
+   </td>
+  </tr>
+<tr>
+   <td>Trial Technical Landscape Section
+   </td>
+   <td>This section at the bottom of the Salesforce opportunity captures technical details about the prospect. The CE should fill in as much information as possible (as known) during Stage 2 and Stage 3.
+   </td>
+  </tr>
 </table>
+
 
 ### Engaging Subject Matter Experts
 
