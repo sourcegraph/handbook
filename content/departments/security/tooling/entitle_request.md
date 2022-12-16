@@ -83,44 +83,50 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 7. Permission Duration: is the amount of time you will need this access for. This will ensure that once you are finished with your necessary task, the permissions are revoked to keep our systems more secure.
 8. Add Justification: This is a very important step. Without proper justification for your access, your request will be denied. This is necessary for audit and reporting purposes. Please reference a customer ticket, a jira ticket, or any other relevant information that justifies your need for access to the resource.
 
-
 # FAQ
 
-##  How do I start using Entitle?
+## How do I start using Entitle?
 
 #### Just type in “/entitle” into a slack message and you can get started with it.
 
 ## Which applications can I request access to via Entitle?
 
-####  Currently we are using Entitle to request permissions to
+#### Currently we are using Entitle to request permissions to
 
      1. Google Cloud
      2. Github
      3. OKTA
 
-##  If my team uses a group of permissions regularly, how can these be requested more easily?
+## If my team uses a group of permissions regularly, how can these be requested more easily?
 
-####  [Contact](../index.md#contact) The Security team to create a Bundle for those permissions
+#### [Contact](../index.md#contact) The Security team to create a Bundle for those permissions
 
-##  I want access to a project in our “Engineering Projects” folder. How do i do that?
+## I want access to a project in our “Engineering Projects” folder. How do i do that?
 
-####  Engineering projects are all development projects. So you will find these via the “Google Cloud Development Projects” integration in the Resource Access Request flow.
+#### Engineering projects are all development projects. So you will find these via the “Google Cloud Development Projects” integration in the Resource Access Request flow.
 
-##  I want access to a Customer Instance, how do I request it?
+## I want access to a Customer Instance, how do I request it?
 
-####  Customer instances contain sensitive customer data. These are considered our production projects and can be found under the “Google Cloud Production Projects” integration in the Resource Access Request flow.
+#### Customer instances contain sensitive customer data. These are considered our production projects and can be found under the “Google Cloud Production Projects” integration in the Resource Access Request flow.
 
 #### Due to the sensitive nature of the request, approval will rely heavily on the justification provided so please ensure that you have the right use case for requesting this access.
 
 ## How do I renew a request that has expired?
+
 #### Entitle app Slack channel shows your requests and expirations. You can hit renew on an expired permission request to re-request it.
+
 ![slack app renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%201.png)
-#### Entitle Webapp has history of all your requests in the "My Requests" section. You can click to renew a past request from the right most column on this page.  
+
+#### Entitle Webapp has history of all your requests in the "My Requests" section. You can click to renew a past request from the right most column on this page.
+
 ![webapp renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%202.png)
 
 ## What if i run into an error in Entitle?
+
 #### Please reach out to #security with the error and we can help resolve it
 
 ## If I didnt get the requested permissions after approval, what should I do?
-#### In the web interface of Entitle, you can see full log of where your request is in the process. 
+
+#### In the web interface of Entitle, you can see full log of where your request is in the process.
+
 #### If there is an error and requests seems stuck, we still have terraform available as a failover for provisioning access. Please follow handbook steps regarding terraform changes
