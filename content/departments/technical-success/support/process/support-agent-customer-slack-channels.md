@@ -12,4 +12,4 @@ We currently offer Support via Slack Channels for Enterprise customers through a
 
 ### Utilizing the Ticket Emoji to generate a request
 
-The Emoji Reaction will only create a ticket if the emoji is added to the message. This allows customers to post their question in the slack and following up with a :admissions_ticket: reaction. Doing so will trigger the post to create a ticket for our support engineering team. CS leadership will enable this option.
+The Emoji Reaction will only create a ticket if the emoji is added to the message. This allows customers to post their question in the slack and following up with a :admissions_tickets: reaction. Doing so will trigger the post to create a ticket for our support engineering team. CS leadership will enable this option.
