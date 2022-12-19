@@ -1,6 +1,6 @@
 ## Support Agent and Customer Slack Channels
 
-We currently offer Support via Slack Channels for Enterprise customers through a Support Agent integration that must be integrated into the Slack Channel. This integration is a requirement to ensure we can provide a consistent support experience to our customers in accordance with our Service Level Agreements (SLAs). 
+We currently offer Support via Slack Channels for Enterprise customers through a Support Agent integration that must be integrated into the Slack Channel. This integration is a requirement to ensure we can provide a consistent support experience to our customers in accordance with our Service Level Agreements (SLAs).
 
 There are two methods for the Support Agent integration:
 
