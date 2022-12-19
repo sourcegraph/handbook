@@ -87,15 +87,15 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 
 #### How do I start using Entitle?
 
-  - ##### Just type in “/entitle” into a slack message and you can get started with it.
+- ##### Just type in “/entitle” into a slack message and you can get started with it.
 
 #### Which applications can I request access to via Entitle?
 
 - ##### Currently we are using Entitle to request permissions to
 
-     1. Google Cloud
-     2. Github
-     3. OKTA
+  1.  Google Cloud
+  2.  Github
+  3.  OKTA
 
 #### If my team uses a group of permissions regularly, how can these be requested more easily?
 
