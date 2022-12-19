@@ -1,6 +1,6 @@
 # How we celebrate teammates
 
-At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people exciting work or life events. 
+At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people exciting work or life events.
 
 ## This page talks about celebrating
 
@@ -19,6 +19,7 @@ Giving recognition to other teammates is critical for maintaining a positive, in
 ### When to use the #thanks channel
 
 The #thanks channel can be used any time you want to recognize and thank a teammate. Some common examples include:
+
 - Thanking a teammate for significant contributions on a project
 - Thanking a teammate who helped you solve a problem
 - Recognizing a teammate who displayed Sourcegraph’s values
@@ -31,23 +32,26 @@ You can also scroll through the #thanks Slack channel history to see recent exam
 Anyone at Sourcegraph can send a message in the #thanks channel. Both managers and teammates are encouraged to use the channel regularly. Managers are reminded to recognize one or more of their teammates _at least_ on a monthly basis.
 
 ### Best practices for using the #thanks channel
+
 - **Be direct.** Tag the teammates you’re recognizing in your slack message
-- **Focus on the positive.** Praise in public, criticize in private. 
+- **Focus on the positive.** Praise in public, criticize in private.
 - **Be specific with your praise.** What is the specific behavior you are praising? Praise genuine behaviors. You don’t have to wait for significant events to reinforce good work.
-- **Be Timely.** The sooner the praise is delivered, the more powerful. 
-- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise. 
+- **Be Timely.** The sooner the praise is delivered, the more powerful.
+- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
 - **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It's important to recognize people regularly, not just once in a while.
 
 ### Why is recognition important
 
 Employee recognition is important because it:
+
 - Boosts morale and motivation: Recognition shows when hard work is valued and appreciated, which can help boost morale and motivation.
-- Increases job satisfaction: Teammates who feel appreciated and valued are more likely to be satisfied with their jobs. 
+- Increases job satisfaction: Teammates who feel appreciated and valued are more likely to be satisfied with their jobs.
 - Builds a positive work culture: Recognition helps to create a positive work culture by fostering a sense of teamwork and collaboration among teammates.
 - Increases loyalty and commitment: Teammates who feel valued and appreciated are more likely to be loyal and committed to their organization, which can help to improve retention rates.
 - Improves performance: Recognition can help to improve teammate performance by providing positive reinforcement and encouraging employees to continue working hard.
 
 ## Impact awards
+
 COMING SOON
 
 ## When we send gifts to teammates
