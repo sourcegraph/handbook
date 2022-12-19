@@ -74,7 +74,7 @@ mi reset-customer-password --email <customer admin email>
 ```
 Hi,
 
-The instance is ready. The customer amind should have received an email to reset their password.
+The instance is ready. The customer admin should have received an email to reset their password.
 ```
 
 ### Optional: enable "private" mode
