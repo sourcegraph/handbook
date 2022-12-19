@@ -4,34 +4,35 @@ At Sourcegraph, we love celebrating and recognizing the events happening in our 
 
 ## This page talks about celebrating
 
-- [Day-to-day recognition via our '#thanks' channel](celebrate.md##thanks-and-recognition)
+- [Regular thanks and recognition via our `#thanks` channel](celebrate.md##thanks-and-recognition)
 - Impact awards
 - [New hires](celebrate.md#New-hires)
-- [Promotions](celebrate.md#Promotions)
-- [Work anniversaries](celebrate.md#Work-anniversaries)
 - [Birthdays](celebrate.md#Birthdays)
+- [Work anniversaries](celebrate.md#Work-anniversaries)
+- [Promotions](celebrate.md#Promotions)
 - [Growing family](celebrate.md#New-babies)
+- Life events
 
-## #thanks and recognition
+## Regular thanks and recognition via our `#thanks` channel
 
 Giving recognition to other teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via our #thanks Slack channel.
 
-### When to use the #thanks channel
+#### When to use the `#thanks` channel
 
-The #thanks channel can be used any time you want to recognize and thank a teammate. Some common examples include:
+The `#thanks` channel can be used any time you want to recognize and thank a teammate. Some common examples include:
 
 - Thanking a teammate for significant contributions on a project
 - Thanking a teammate who helped you solve a problem
 - Recognizing a teammate who displayed Sourcegraph’s values
 - Congratulating a teammate on a recent accomplishment
 
-You can also scroll through the #thanks Slack channel history to see recent examples.
+You can also scroll through the `#thanks` Slack channel history to see recent examples.
 
-### How do we use this channel?
+#### How do we use this channel?
 
-Anyone at Sourcegraph can send a message in the #thanks channel. Both managers and teammates are encouraged to use the channel regularly. Managers are reminded to recognize one or more of their teammates _at least_ on a monthly basis.
+Anyone at Sourcegraph can send a message in the `#thanks` channel. Both managers and teammates are encouraged to use the channel regularly. Managers are reminded to recognize one or more of their teammates _at least_ on a monthly basis.
 
-### Best practices for using the #thanks channel
+#### Best practices for using the `#thanks` channel
 
 - **Be direct.** Tag the teammates you’re recognizing in your slack message
 - **Focus on the positive.** Praise in public, criticize in private.
@@ -40,7 +41,7 @@ Anyone at Sourcegraph can send a message in the #thanks channel. Both managers a
 - **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
 - **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It's important to recognize people regularly, not just once in a while.
 
-### Why is recognition important
+#### Why is recognition important
 
 Employee recognition is important because it:
 
@@ -82,20 +83,31 @@ How to nominate a teammate:
 - We recognize that not everyone likes to receive an award publicly and on the spot, so award winners and their managers are notified privately via Slack in advance of being announced to the company.
 - Award winners are announced at our quarterly kick off meeting.
 
-## When we send gifts to teammates
+## New hires
 
-Below are the occasions we send gifts to our teammates and what those processes look like.
+The People Team is responsible for sending new hire gifts and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk based on the anticipated hiring rate and Telescope monitors/reorders the inventory as needed.
 
-The People team is responsible for sending gifts for: New hires, promotions, growing families, and impact awards
+What is in a new hire gift:
 
-Managers are responsible for sending gifts for: Birthdays, work anniversaries, and team accomplishments
+- Hoodie
+- Socks
+- Stickers
+- Tumbler
+- T-Shirt
 
-- Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday/work anniversary and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) and [anniversary budgets](celebrate.md#Anniversary-gift-budget) listed below.
-- Managers are welcome to celebrate their teams’ other life events at each teammate’s discretion. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
+#### How to order a new hire kit
+
+After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire gift. The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with our vendor, Telescope.
+
+Once an order is placed, the new hire will get an email confirmation with delivery details. Sourcegraph covers the shipping cost, which varies depending on the shipping destination. We can view the shipping costs associated with recent orders in the invoices Telescope emails to PeopleOps/Finance.
+
+Please reach out in the #swag channel with any questions.
 
 ## Birthdays
 
-Each manager is responsible for celebrating their teammates' birthdays and sending a gift according to the gift amount policy detailed below.
+Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below.
+
+**Birthday gift budget:** the gift will be coming from the individual's _team budget_ and should not exceed **$50 USD** per teammate and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated. With the teammate's permission, managers should follow the below steps:
 
@@ -116,24 +128,11 @@ To view and add the BambooHR "Birthdays" calendar to your Google Calendar, pleas
 - Paste link in **URL of calendar** box
 - Click **Add calendar**
 
-### Birthday gift budget
-
-Birthday gifts will be coming from the individual's _team budget_ and should not exceed **$50 USD** per teammate and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
-
 ## Work anniversaries
 
-Each manager is responsible for celebrating their teammates' yearly milestones and sending a gift according to the [anniversary gift budget](celebrate.md#Anniversary-gift-budget) detailed below. Best practice is to send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
+Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to send a gift that is in line with the anniversary budgets listed below.
 
-**Best practices for celebrating a work anniversary**
-
-- The manager posts a written or video message in the #thanks channel
-  - Post suggestions:
-    - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
-    - Highlight the teammates' key contributions and impact they've made
-    - TIP: You can pre-schedule your Slack messages to send on the correct dates!
-- The manager [sends a Loop & Tie gift](celebrate.md#Loop-&-Tie) within the [anniversary gift budget](celebrate.md#Anniversary-gift-budget). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
-
-### Anniversary gift budget
+#### Anniversary gift budget
 
 Anniversary gifts will be coming from the individual's _team budget_ and should not exceed the following amounts per teammate and per year:
 
@@ -142,6 +141,15 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 - Year 3: $150 USD
 - Year 4: $200 USD
 - Year 5+: $250 USD
+
+#### Celebrating an anniversary
+
+- The manager posts a written or video message in the #thanks channel
+  - Post suggestions:
+    - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
+    - Highlight the teammates' key contributions and impact they've made
+    - TIP: You can pre-schedule your Slack messages to send on the correct dates!
+- The manager [sends a Loop & Tie gift](celebrate.md#Loop-&-Tie) within the anniversary gift budget. Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
 
 ## Promotions
 
@@ -156,29 +164,9 @@ At Sourcegraph, promotions are a big deal - and communicating promotions is one 
 - Sample Slack message:
   - Hi Team! I am thrilled to announce that (TEAMMATE NAME) has been promoted to (NEW TITLE)! For the past (PERIOD OF TIME), (TEAMMATE NAME) has been responsible for (PREVIOUS ROLE/RESPONSIBILITIES/ACCOMPLISHMENTS) that have resulted in (BUSINESS IMPACT/OUTCOME). Going forward, (TEAMMATE NAME) will bring (their/his/her) knowledge, skills and experience into their new role as (NEWLY PROMOTED TITLE) doing (NEWLY PROMOTED RESPONSIBILITIES). Please join me in congratulating (TEAMMATE NAME) on (their/his/her) well-deserved promotion and wish (them/him/her) best of luck in (their/him/her) new role!
 
-## New hires
-
-Our People Team is responsible for sending new hire gifts and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People team purchases inventory in bulk based on the anticipated hiring rate and Telescope monitors/reorders the inventory as needed.
-
-What is in a new hire gift:
-
-- Hoodie
-- Socks
-- Stickers
-- Tumbler
-- T-Shirt
-
-### How to order a new hire kit
-
-After a new hire signs their contract with us, the People team sends an email that includes a link to order their new hire gift. The new hire is responsible for submitting their order, which will then be fulfilled using inventory that we have in stock with our vendor, Telescope.
-
-Once an order is placed, the new hire will get an email confirmation with delivery details. Sourcegraph covers the shipping cost, which varies depending on the shipping destination. We can view the shipping costs associated with recent orders in the invoices Telescope emails to PeopleOps/Finance.
-
-Please reach out in the #swag channel with any questions.
-
 ## Growing family
 
-Our People Team is responsible for sending gifts for the growth of a family and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People Team purchases inventory in bulk and Telescope monitors/reorders the inventory as needed.
+The People Team is responsible for sending gifts for the growth of a family and uses a vendor named [Telescope](https://www.telescopestudio.com/). The People Team purchases inventory in bulk and Telescope monitors/reorders the inventory as needed.
 
 What is included in the gift:
 
@@ -189,9 +177,13 @@ What is included in the gift:
 
 Please reach out in the #swag channel with any questions.
 
-## What gifts to send for birthdays + work anniversaries
+## Other life events
 
-### Loop & Tie
+Managers are welcome to acknowledge or celebrate teammate life events at each teammate’s discretion. Examples could be a marriage or a death of a loved one. Sourcegraph does not have a budget for life events as they are not experienced by every person on a regular cadence. However, Managers are encouraged to use their discretion and send a gift when appropriate.
+
+## Gift ideas
+
+#### Loop & Tie
 
 Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted. Loop & Tie also offers sustainability and social impact options that allow teammates who don't want to redeem a gift to donate their gift amount ($) toward a charity or environmental support organization.
 
@@ -213,7 +205,7 @@ Q: Can I change or add products to the collections?
 
 - A: We are not able to facilitate changes/additions at this time.
 
-### Other gift ideas
+#### Other gift ideas
 
 If you don't want to use Loop & Tie, here are some other gift ideas!
 
@@ -225,7 +217,7 @@ If you don't want to use Loop & Tie, here are some other gift ideas!
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
 - [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
-### Sending gifts via mail
+#### Sending gifts via mail
 
 If you require a teammate's address to send a gift, please ask the teammate directly if they are comfortable sharing their address for gift purposes. (While People Ops and managers do have access to address information, it is considered confidential and just as with other information of sensitive nature, we are unable to share it with others).
 
