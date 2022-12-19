@@ -99,7 +99,7 @@ Our [vendor integration](#vendor-integration) is designed such that all usage an
 
 ### Employee Access Provisioning
 
-Sourcegraph Employee access to SparkPost is exclusively granted through Entitle on a per-use basis. By default, accounts should be granted [`Reporting`]() level access. For development purposes, Employees can request [`Developer`]() level access.
+Sourcegraph Employee access to SparkPost is exclusively granted through Entitle on a per-use basis. By default, accounts should be granted [`Reporting`](https://support.sparkpost.com/docs/user-guide/managing-users) level access. For development purposes, Employees can request [`Developer`](https://support.sparkpost.com/docs/user-guide/managing-users) level access.
 
 To begin an access request, open Slack and type `/access_request`. Complete the dialog as follows:
 
