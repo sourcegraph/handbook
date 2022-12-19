@@ -8,4 +8,5 @@
 - [Teammate development](teammate-development/index.md)
   - [Training](teammate-development/training/index.md)
 - [Recognition program](recognition-program.md)
+  - #thanks Channel best practices
 - [Career Ladders](career-frameworks.md)
