@@ -46,7 +46,7 @@ Best practices for writing documentation.
 
 For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`). For a more detailed instructions visit [this page](../../../../handbook/editing/handbook-images-video.md).
 
-**Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce pictures size as large picture sizes degrade page loading speed.**
+**Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.**
 
 ### Administration documentation
 

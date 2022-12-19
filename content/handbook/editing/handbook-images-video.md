@@ -10,7 +10,7 @@
    - If you don’t have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
 2. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Cloud Storage, and you want to be able to identify yours easily.
 
-   **Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce pictures size as large picture sizes degrade page loading speed.**
+   **Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.**
 
    - Avoid special characters or spaces as they can sometimes interfere with Markdown rendering. For example:
      - `adding-images-screenshot`
