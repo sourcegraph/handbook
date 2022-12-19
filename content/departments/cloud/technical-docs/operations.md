@@ -162,6 +162,37 @@ This will port-forward `localhost:4444` to port `80` on the VM instance. Some co
 
 Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule.
 
+### Disable Sourcegraph management access
+
+1. Add the following line to the `config.yaml` file in the customer directory:
+
+   ```yaml
+   disableSourcegraphManagementAccess: true
+   ```
+
+2. Sync the Cloud site config:
+
+   ```sh
+   mi sync cloud-site-config
+   ```
+
+3. Re-fetch GSM value (`CLOUD_SITE_CONFIG`) to the VM:
+
+   - If the state backend is GCS:
+
+     ```sh
+     terraform apply
+     ```
+
+   - If the state backend is Terraform Cloud, start a new run on the workspace. The name of the workspace can be found in the first few lines of the `infrastructure.tf` file in the customer directory.
+
+4. Sync artifacts and restart containers:
+
+   ```sh
+   mi sync artifacts
+   mi restart-containers
+   ```
+
 ### Backup
 
 Everything
