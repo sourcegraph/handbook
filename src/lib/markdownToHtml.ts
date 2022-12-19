@@ -56,6 +56,7 @@ export default async function markdownToHtml(
         .use(remarkParse)
         .use(remarkGfm)
         .use(remarkSpecialNoteBlocks)
+        .use(remarkSpecialWarningBlocks)
         // Automatically link and shorten GitHub issues, PRs, repos etc like on GitHub
         .use(remarkGitHub, {
             mentionStrong: false,
@@ -170,11 +171,27 @@ const rehypeExtractTitleFromH1: Plugin = () =>
 const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
     function (tree) {
         for (const node of tree.children) {
-            if (isSpecialNoteBlockquote(node)) {
+            if (isSpecialBlockquote(node, 'NOTE:')) {
                 // TODO: This overwrites the `hProperties` to add the class
                 // name. Improve it by adding the class name while respecting
                 // existing `hProperties` or existing classes.
                 node.data = { ...node.data, hName: 'aside', hProperties: { class: 'note' } }
+            }
+        }
+    }
+
+/**
+ * Warning blockquote syntax, originally from docsite. Any blockquote starting with
+ * "> WARNING:" is converted to <aside class="warning">...</aside>.
+ */
+const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
+    function (tree) {
+        for (const node of tree.children) {
+            if (isSpecialBlockquote(node, 'WARNING:')) {
+                // TODO: This overwrites the `hProperties` to add the class
+                // name. Improve it by adding the class name while respecting
+                // existing `hProperties` or existing classes.
+                node.data = { ...node.data, hName: 'aside', hProperties: { class: 'warning' } }
             }
         }
     }
@@ -192,7 +209,7 @@ const rehypeResponsiveTables: Plugin<[], HastRoot> = () => tree => {
     })
 }
 
-function isSpecialNoteBlockquote(node: MdastContent): boolean {
+function isSpecialBlockquote(node: MdastContent, startsWith: string): boolean {
     if (node.type !== 'blockquote') {
         return false
     }
@@ -200,7 +217,7 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     if (child.type === 'paragraph') {
         const text = child.children[0]
         if (text.type === 'text') {
-            return text.value.startsWith('NOTE:')
+            return text.value.startsWith(startsWith)
         }
     }
     return false
