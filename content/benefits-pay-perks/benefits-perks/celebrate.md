@@ -1,35 +1,65 @@
 # How we celebrate teammates
 
-At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people exciting work or life events. Below are the occasions we send gifts to our teammates and what those processes look like.
+At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people exciting work or life events. 
 
 ## This page talks about celebrating
 
-- Day-to-day recognition via our '#thanks' channel
-- Special accomplishments
-- New hires
-- Promotions
-- Anniversaries
-- Growing families
+- [Day-to-day recognition via our '#thanks' channel](celebrate.md##thanks-and-recognition)
 - Impact awards
+- [New hires](celebrate.md#New-hires)
+- [Promotions](celebrate.md#Promotions)
+- [Work anniversaries](celebrate.md#Work-anniversaries)
+- [Birthdays](celebrate.md#Birthdays)
+- [Growing family](celebrate.md#New-babies)
+
+## #thanks and recognition
+
+Giving recognition to other teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via our #thanks Slack channel.
+
+### When to use the #thanks channel
+
+The #thanks channel can be used any time you want to recognize and thank a teammate. Some common examples include:
+- Thanking a teammate for significant contributions on a project
+- Thanking a teammate who helped you solve a problem
+- Recognizing a teammate who displayed Sourcegraph’s values
+- Congratulating a teammate on a recent accomplishment
+
+You can also scroll through the #thanks Slack channel history to see recent examples.
+
+### How do we use this channel?
+
+Anyone at Sourcegraph can send a message in the #thanks channel. Both managers and teammates are encouraged to use the channel regularly. Managers are reminded to recognize one or more of their teammates _at least_ on a monthly basis.
+
+### Best practices for using the #thanks channel
+- **Be direct.** Tag the teammates you’re recognizing in your slack message
+- **Focus on the positive.** Praise in public, criticize in private. 
+- **Be specific with your praise.** What is the specific behavior you are praising? Praise genuine behaviors. You don’t have to wait for significant events to reinforce good work.
+- **Be Timely.** The sooner the praise is delivered, the more powerful. 
+- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise. 
+- **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It's important to recognize people regularly, not just once in a while.
+
+### Why is recognition important
+
+Employee recognition is important because it:
+- Boosts morale and motivation: Recognition shows when hard work is valued and appreciated, which can help boost morale and motivation.
+- Increases job satisfaction: Teammates who feel appreciated and valued are more likely to be satisfied with their jobs. 
+- Builds a positive work culture: Recognition helps to create a positive work culture by fostering a sense of teamwork and collaboration among teammates.
+- Increases loyalty and commitment: Teammates who feel valued and appreciated are more likely to be loyal and committed to their organization, which can help to improve retention rates.
+- Improves performance: Recognition can help to improve teammate performance by providing positive reinforcement and encouraging employees to continue working hard.
+
+## Impact awards
+COMING SOON
 
 ## When we send gifts to teammates
 
-The People team is responsible for sending gifts for:
+Below are the occasions we send gifts to our teammates and what those processes look like.
 
-- [New hires](celebrate.md#New-hires)
-- [Promotions](celebrate.md#Promotions)
-- [Growing family](celebrate.md#New-babies)
-- [Impact awards]
+The People team is responsible for sending gifts for: New hires, promotions, growing families, and impact awards
 
-Managers are responsible for sending gifts for:
+Managers are responsible for sending gifts for: Birthdays, work anniversaries, and team accomplishments
 
-- [Birthdays](celebrate.md#Birthdays)
-- [Work anniversaries](celebrate.md#Work-anniversaries)
-- [Team accomplishments](celebrate.md#Custom-internal-requests)
-
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday/work anniversary and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) and [anniversary budgets](celebrate.md#Anniversary-gift-budget) listed below.
-
-Managers are welcome to celebrate their teams’ other life events at each teammate’s discretion. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
+- Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday/work anniversary and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) and [anniversary budgets](celebrate.md#Anniversary-gift-budget) listed below.
+- Managers are welcome to celebrate their teams’ other life events at each teammate’s discretion. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
 
 ## Birthdays
 
