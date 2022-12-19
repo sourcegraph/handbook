@@ -77,7 +77,7 @@ Hi,
 The instance is ready. The customer amind should have received an email to reset their password.
 ```
 
-### Optional: enable "private" mode 
+### Optional: enable "private" mode
 
 Some customers opt to restrict access to Sourcegraph instance to a limitied number of IP ranges (e.g. corporate VPN). Ensure CE has provided the customer IP allowlist. This is a prereq in the instance creation form.
 
