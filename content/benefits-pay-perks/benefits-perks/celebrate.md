@@ -1,15 +1,16 @@
 # How we celebrate teammates
 
-At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people exciting work or life events.  Below are the occasions we send gifts to our teammates and what those processes look like.
+At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people exciting work or life events. Below are the occasions we send gifts to our teammates and what those processes look like.
 
 ## This page talks about celebrating
+
 - Day-to-day recognition via our '#thanks' channel
 - Special accomplishments
 - New hires
 - Promotions
 - Anniversaries
-- Growing families 
-- Impact awards 
+- Growing families
+- Impact awards
 
 ## When we send gifts to teammates
 
