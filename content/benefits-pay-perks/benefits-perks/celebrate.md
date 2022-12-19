@@ -105,7 +105,7 @@ Please reach out in the #swag channel with any questions.
 
 ## Birthdays
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. 
+Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below.
 
 **Birthday gift budget:** the gift will be coming from the individual's _team budget_ and should not exceed **$50 USD** per teammate and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
@@ -179,7 +179,7 @@ Please reach out in the #swag channel with any questions.
 
 ## Other life events
 
-Managers are welcome to acknowledge or celebrate teammate life events at each teammate’s discretion. Examples could be a marriage or a death of a loved one.  Sourcegraph does not have a budget for life events as they are not experienced by every person on a regular cadence. However, Managers are encouraged to use their discretion and send a gift when appropriate. 
+Managers are welcome to acknowledge or celebrate teammate life events at each teammate’s discretion. Examples could be a marriage or a death of a loved one. Sourcegraph does not have a budget for life events as they are not experienced by every person on a regular cadence. However, Managers are encouraged to use their discretion and send a gift when appropriate.
 
 ## Gift ideas
 
