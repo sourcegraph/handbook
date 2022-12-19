@@ -46,7 +46,9 @@ Note:
 - GCP metrics monitoring and alerting is applied automatically via scheduled [GitHub Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 - Security audit logging is applied automatically via a scheduled [GitHub Actions Worflow](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml)
 
-## Optional: customise instance size
+## Wrapping up
+
+### Optional: customise instance size
 
 When based on the issue customer requires customisation (diffferent instance/DB/disk size or more executors), Cloud Team will modify the instance BEFORE giving access for customer!
 
@@ -59,6 +61,8 @@ Customisation is done via:
 
 ### Giving customer access
 
+> NOTE: You can skip this step if the instance is pre-created for the PLG pool
+
 Generate password reset link for customer:
 
 ```bash
@@ -70,12 +74,10 @@ mi reset-customer-password --email <customer admin email>
 ```
 Hi,
 
-The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
-
-Here's the link to the password reset link <>. Please note the link will expire after 72 hours.
+The instance is ready. The customer amind should have received an email to reset their password.
 ```
 
-### Enable "private" mode
+### Optional: enable "private" mode 
 
 Some customers opt to restrict access to Sourcegraph instance to a limitied number of IP ranges (e.g. corporate VPN). Ensure CE has provided the customer IP allowlist. This is a prereq in the instance creation form.
 
