@@ -9,10 +9,12 @@
 1. View the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
    - If you don’t have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
 2. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Cloud Storage, and you want to be able to identify yours easily.
+
+   **Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce pictures size as large picture sizes degrade page loading speed.**
    - Avoid special characters or spaces as they can sometimes interfere with Markdown rendering. For example:
      - `adding-images-screenshot`
-3. Navigate to the handbook/ folder found in the link in step 1. You can scroll through the list or search.
-4. Click “Upload Files” to select your file, and click “Open”.
+4. Navigate to the handbook/ folder found in the link in step 1. You can scroll through the list or search.
+5. Click “Upload Files” to select your file, and click “Open”.
 
 ### Adding Images from Google Cloud Storage to the Handbook
 
@@ -28,7 +30,7 @@
 
 ## Videos
 
-The easiest way to add a video to the Handbook is to embed it. Most video hosting sites, like Youtube or Loom, include an “embed” option in their sharing menu. The link should look something like this:
+The easiest way to add a video to the Handbook is to embed it. Most video hosting sites, like YouTube or Loom, include an “embed” option in their sharing menu. The link should look something like this:
 
 ```html
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">
@@ -51,6 +53,6 @@ If you want to upload a large file (such as a large image, video, or audio recor
 
 ## Should I ever store these types of files in a Handbook directory?
 
-When working with SVGs, you may want to store an image directly in a Handbook directory, rather than in Google Cloud Storage. SVGs are a superior file format for things like diagrams, flowcharts, logos, illustrations that contain text etc because the text is accessible, the image scales and stays super sharp, and the file size is much smaller (faster loading times!). Because they are not binary but text and small in file size, these can be committed directly to the repo. **Where possible, using SVGs and adding it directly to the repo is the preferred method.** You can see an example [here](https://github.com/sourcegraph/handbook/tree/381c0b0d29fdef62028d7a2fa495a3870ac3efce/content/marketing/brand/brand_guidelines/color).
+When working with SVGs, you may want to store an image directly in a Handbook directory, rather than in Google Cloud Storage. SVGs are a superior file format for things like diagrams, flowcharts, logos, illustrations that contain text etc. because the text is accessible, the image scales and stays super sharp, and the file size is much smaller (faster loading times!). Because they are not binary but text and small in file size, these can be committed directly to the repo. **Where possible, using SVGs and adding it directly to the repo is the preferred method.** You can see an example [here](https://github.com/sourcegraph/handbook/tree/381c0b0d29fdef62028d7a2fa495a3870ac3efce/content/marketing/brand/brand_guidelines/color).
 
-Images that are not vector-based, e.g. photos (taken with a camera) or most screenshots, are binary and have larger file sizes. Common file formats are JPG, PNG, GIF. Git cannot store these efficiently and they would increase the repository size a lot. Even if they are deleted later, they will forever remain in the history, so it's important to never add these to the repo in the first place. **So, binary files like JPG and PNG should always be uploaded to sourcegraph-assets on Google Cloud Storage.**
+Images that are not vector-based, e.g. photos (taken with a camera) or most screenshots, are binary and have larger file sizes. Common file formats are JPG, PNG, GIF. Git cannot store these efficiently, and they would increase the repository size a lot. Even if they are deleted later, they will forever remain in the history, so it's important to never add these to the repo in the first place. **So, binary files like JPG and PNG should always be uploaded to sourcegraph-assets on Google Cloud Storage.**
