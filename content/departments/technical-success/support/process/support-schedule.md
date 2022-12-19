@@ -14,11 +14,11 @@ When you’re not “on duty” within your working hours you’ll use this dedi
 
 ### “On Duty” Rotation Assignments
 
-7am - 11am UTC (11pm - 3am PST): Rakesh & Michael
-11am - 3pm UTC (3am - 7am PST): Mariam & Stompy
-3pm - 7pm UTC (7am - 11am PST): Alex & Jason
-7pm - 11pm UTC (11am - 3pm PST): Amber & Jon
-11pm - 2am UTC (3pm - 6pm PST): Gabe & Warren
+- 7am - 11am UTC (11pm - 3am PST): Rakesh & Michael
+- 11am - 3pm UTC (3am - 7am PST): Mariam & Stompy
+- 3pm - 7pm UTC (7am - 11am PST): Alex & Jason
+- 7pm - 11pm UTC (11am - 3pm PST): Amber & Jon
+- 11pm - 2am UTC (3pm - 6pm PST): Gabe & Warren
 
 ## Working Hours
 
