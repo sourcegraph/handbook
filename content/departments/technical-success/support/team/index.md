@@ -11,7 +11,6 @@ Our README expands on our profile in [the company team directory](../../../../te
 - Michael [README](michael-readme.md)
 - Stompy [README](stompy-readme.md)
 - Warren [README](warren-readme.md)
-- Riana [README](riana-readme.md)
 - Shawnteé [README](shawntee-readme.md)
 - Rakesh [README](rakesh-readme.md)
 
