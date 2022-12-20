@@ -56,10 +56,28 @@ The Entitle Slack app will notify you both when you make the request and when th
 To sign in to the requested managed instance:
 
 1. Visit `https://company.sourcegraph.com/sign-in?sourcegraph-operator` in your browser
-1. Click the **Continue with Sourcegraph Operators** sign-in option
+1. Click on the **Continue with Sourcegraph Operators** sign-in option
 1. Complete the authentication flow with Okta
 
 > NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules/#sharedList/1670019946529-Michael-shared-list-12-2-2022) on the sign-in page of any managed instance.
+
+### UI access to private managed instances
+
+> NOTE: The steps described here is a current workaround until we have properly implemented an auth proxy solution.
+
+Private managed instances refer to managed instances that [have enabled private mode](./v1.1/mi1-1_creation_process.md#optional-enable-private-mode), additonal steps are required to be able to visit the instance UI after you have completed the steps to grant UI access.
+
+1. [Set up a port forwarding to the managed instance](./operations.md#port-forwarding):
+
+   ```sh
+   mi forward 80 4444
+   ```
+
+1. Visit http://localhost:4444/sign-in?sourcegraph-operator
+1. Click on the **Continue with Sourcegraph Operators** sign-in option
+1. Complete the authentication flow with Okta
+1. Encounter an error about `no state cookie found`
+1. Replace the beginning part of URL from `https://company.sourcegraph.com` to `http://localhost:4444`
 
 ## FAQ
 
