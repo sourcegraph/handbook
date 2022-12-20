@@ -75,7 +75,7 @@ SOAP creates special user accounts that are refered as "Sourcegraph operators", 
 - Sourcegraph operators are invisible from the application UI, site admins are _not_ able to see them.
 - All activities of Sourcegraph operators are logged and attributed in the database, and _excluded_ from both in-product analytics and usage stats in pings.
 
-> NOTE: In some internal managed instances (including `rctest.sourcegraph.com` and `sourcegraph.sourcegraph.com`), Sourcegraph operators may also be regular users on the instance that also have other external accounts connected (e.g. Google Workspace, GitHub). In such cases, Sourcegraph operators will be not hard-deleted.
+> NOTE: In some internal managed instances (including `rctest.sourcegraph.com` and `sourcegraph.sourcegraph.com`), Sourcegraph operators may also be regular users on the instance that have other external accounts connected (e.g. Google Workspace, GitHub). In such cases, Sourcegraph operators will be not hard-deleted.
 
 ### How to identify Sourcegraph operators on a managed instance?
 
