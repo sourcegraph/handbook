@@ -5,7 +5,7 @@ At Sourcegraph, we love celebrating and recognizing the events happening in our 
 ## This page talks about celebrating
 
 - [Regular thanks and recognition via our `#thanks` channel](celebrate.md##thanks-and-recognition)
-- [Impact awards](celebrate.md#Impact-awards)
+- [Impact awards](celebrate.md#impact-awards)
 - [New hires](celebrate.md#New-hires)
 - [Birthdays](celebrate.md#Birthdays)
 - [Work anniversaries](celebrate.md#Work-anniversaries)
