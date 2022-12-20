@@ -41,14 +41,6 @@ Use the `/access_request` slash command on Slack, and select the following:
 - **Permission duration**: 1 Hour
 - **Add justification**: Please explain in detail why do you need access to the Cloud instance UI. It will be best to include relevant links to issues, slack thread to provide more context.
 
-The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request.
-
-Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](https://handbook.sourcegraph.com/departments/engineering/dev/process/incidents/), please [page Cloud on-call engineer using OpsGenie](https://handbook.sourcegraph.com/departments/engineering/dev/process/incidents/#incident-lead).
-
-```none
-/genie alert I need UI access to neofinancial.sourcegraph.com for cloud
-```
-
 The request will be routed to #cloud, #security, and your direct manager for approval. Any of the approvers can review and approve the access request.
 
 Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if the request is time sensitive.
