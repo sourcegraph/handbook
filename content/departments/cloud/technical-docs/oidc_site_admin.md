@@ -59,7 +59,7 @@ To sign in to the requested managed instance:
 1. Click the **Continue with Sourcegraph Operators** sign-in option
 1. Complete the authentication flow with Okta
 
-> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query param](https://app.requestly.io/rules/#sharedList/1670019946529-Michael-shared-list-12-2-2022) on the sign-in page of any managed instance.
+> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules/#sharedList/1670019946529-Michael-shared-list-12-2-2022) on the sign-in page of any managed instance.
 
 ## FAQ
 
@@ -75,7 +75,7 @@ SOAP creates special user accounts that are refered as "Sourcegraph operators", 
 - Sourcegraph operators are invisible from the application UI, site admins are _not_ able to see them.
 - All activities of Sourcegraph operators are logged and attributed in the database, and _excluded_ from both in-product analytics and usage stats in pings.
 
-> NOTE: In some internal managed instances (including `rctest.sourcegraph.com` and `sourcegraph.sourcegraph.com`), Sourcegraph operators may also be regular users on the instance that also have other external accounts connected (e.g. Google Workspace, GitHub). In such cases, Sourcegraph operators will be not hard-deleted.
+> NOTE: In some internal managed instances (including `rctest.sourcegraph.com` and `sourcegraph.sourcegraph.com`), Sourcegraph operators may also be regular users on the instance that have other external accounts connected (e.g. Google Workspace, GitHub). In such cases, Sourcegraph operators will not be hard-deleted.
 
 ### How to identify Sourcegraph operators on a managed instance?
 
