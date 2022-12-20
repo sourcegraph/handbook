@@ -34,16 +34,20 @@ Select the following and click `Send Request`.
 The request will be approved automatically. Once you have received confirmation from the `Entitle` slack app, process to the next step.
 -->
 
-Use the `/access_request` slash command on Slack and select the following:
+Use the `/access_request` slash command on Slack, and select the following:
 
-- **Request type**: `Specific permission`
-- **Permissions set**: `Sourcegraph Cloud OKTA`
-- **Resource Type**: `groups`
-- **Resource**: Filter by the domain name of the cloud instance url, e.g. `company.sourcegraph.com`
-- **Role**: `Group Member`
-- **Grant Type**: `Direct`
-- **Permission duration**: `1 Hour`
-- **Add justification**: Please explain in detail why you need UI access to the managed instance. It will be best to include relevant links to issues or Slack thread to provide more context.
+- **Search permission**: company.sourcegraph.com
+- **Grant method**: Direct
+- **Permission duration**: 1 Hour
+- **Add justification**: Please explain in detail why do you need access to the Cloud instance UI. It will be best to include relevant links to issues, slack thread to provide more context.
+
+The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request.
+
+Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](https://handbook.sourcegraph.com/departments/engineering/dev/process/incidents/), please [page Cloud on-call engineer using OpsGenie](https://handbook.sourcegraph.com/departments/engineering/dev/process/incidents/#incident-lead).
+
+```none
+/genie alert I need UI access to neofinancial.sourcegraph.com for cloud
+```
 
 The request will be routed to #cloud, #security, and your direct manager for approval. Any of the approvers can review and approve the access request.
 
