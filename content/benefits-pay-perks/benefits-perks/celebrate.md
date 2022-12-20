@@ -55,14 +55,14 @@ Employee recognition is important because it:
 
 We are proud of the innovative and impactful work our teammates do every day. Our Impact awards recognize these teammates who go above and beyond their day-to-day responsibilities to make an outstanding impact and contribution to help our organization achieve its mission.
 
-Impact awards details:
+**Impact awards details:**
 
 - Impact awards are awarded quarterly at our quarterly kick off meeting.
 - Any teammate, regardless of tenure, is eligible for an award.
 - All teammates can submit nominations, and nominations can be submitted for more than 1 teammate.
 - All award recipients will receive a unique gift to celebrate their accomplishments.
 
-Impact award considerations:
+**Impact award considerations:**
 
 Nominations will be considered based on but not limited to the criteria below:
 
@@ -72,7 +72,7 @@ Nominations will be considered based on but not limited to the criteria below:
 - Number of submissions for the same person will be considered
 - Team member is in good standing with the company (e.g. not on a PIP)
 
-How to nominate a teammate:
+**How to nominate a teammate:**
 
 - To nominate a peer, please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVivNJmAycRX3HVGD2PwBR2ATzxfOgwEiB7FFFkA2LBVAs_Q/viewform?usp=sf_link). It should take approximately 5-10 mins to fill out this form for each submission.
 - Nomination period opens and remains open for about ~2-3 weeks. The people team will announce the open and close dates for nominations each quarter.
