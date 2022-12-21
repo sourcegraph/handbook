@@ -66,6 +66,9 @@ mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://proj
 
 # For CE/AE driven instances, a standalone license key should be included in the creation request
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY site-config.license-key
+
+# For internal/dev instances, use the the internal-or-dev-src-license-key license key
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/87956243307/secrets/internal-or-dev-src-license-key site-config.license-key
 ```
 
 In the GitHub issue, tag the assigned CE/AE the instance is ready with the following message. Also notify the assigned CE/AE in the Slack thread:
