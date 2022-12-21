@@ -16,7 +16,7 @@ Here’s what we use and how they fit together.
 - [Calendly](https://calendly.com) is our tool for scheduling user interviews and sessions where it’s easier for the other participant to choose a time that works for them.
 - [Looker](http://sourcegraph.looker.com) is our data warehouse so we can connect different data sources and analyze anything we need to.
 - [Amplitude](https://analytics.amplitude.com/sourcegraph) is where we track and visualize events on the product.
-- [Dovtail](https://dovetailapp.com) is a database-like tool that can be handy for managing data in user research.
+- [Dovetail](https://dovetailapp.com) is a database-like tool that can be handy for managing data in user research.
 
 ## Internal collaboration and communication
 
