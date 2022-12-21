@@ -18,6 +18,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
   Designer, Batch Changes (he/him)
 - [Paulo Almeida](../../../team/index.md#paulo-almeida) – Product Designer,
   Search Product (he/him)
+  - [We're hiring](https://boards.greenhouse.io/sourcegraph91) for multiple roles!
   (he/him) – [ReadMe](https://quinnkeast.com/readme)
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
   (she/they)
