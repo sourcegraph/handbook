@@ -70,6 +70,8 @@ To book the product manager to help a customer or prospect set up insights, or t
 
 ### [Specific engineering team persona talking points and examples](https://docs.google.com/document/d/1x95bRgTtt5CXdCQVOXG_JgJ8ut4totRzCAKderw2cxA/edit#)
 
+### [PDF for "Sourcegraph for platform engineering"](https://sourcegraph.highspot.com/items/63a3491704ea61ab3909a530?lfrm=shp.0)
+
 ### [Product marketing brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) _internal_
 
 An overview of the target audience, problem, solution, and go-to-market strategy.
