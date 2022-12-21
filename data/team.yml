@@ -1499,17 +1499,6 @@ andrew_reed:
   reports_to: vp_sales
   manager_role_slug: head_sales_development
 
-riana_shahid:
-  name: Riana Shahid
-  email: riana.shahid@sourcegraph.com
-  github: r-shahid
-  pronouns: she/her
-  role: Support Engineer
-  reports_to: vp_customer_engineering
-  location: New York City, NY, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/rianashahid/)'
-  description: Riana is an analytical thinker with many creative interests. She studied mathematics at NYU where she first played with code in a web design class she took for fun. She returned to it later when she decided to attend a coding bootcamp. Outside of work, Riana likes to paint, knit, and visit museums in her city. She is an avid learner who's always willing to try out something new!
-
 ashwin_Thakur:
   name: Ashwin Thakur
   email: ash.thakur@sourecgraph.com

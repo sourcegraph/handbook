@@ -2,12 +2,8 @@
 
 ## Recurring Team Meetings
 
-- Regional team meetings (weekly on Mondays): Regional team syncs; open team discussion about any topics
-- Global team meeting (monthly on Wednesdays): Top-down communication to the global organization
-- CE team hangout (monthly on Thursdays): An open forum to ask questions, collaborate, and chat as a team.
-- Regional team working sessions: A very informal recurring block for folks in similar timezones to come together and work
-- Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
-- CE <> Sales Office Hours (bi-weekly on Tuesdays): An open forum to discuss topics and answer questions from the sales team.
+- **Regional team deal reviews** (weekly): Regional team syncs; pre sales teammates discuss their current opportunities and crowdsource how to help advance the deals
+- **Global team meeting** (monthly): Top-down communication to the global organization for pre and post sales
 
 ## OOO Protocols
 

@@ -1,7 +1,5 @@
 # PRFAQ Process Tips and Tricks
 
-Here’s what we’ve learned so far about PRFAQ construction. Thanks to the many, many people who have contributed suggestions here; keep them coming! I love the bias for action.
-
 ## Quick Tips
 
 Consider this the TL;DR; with full details outlined somewhere in this page.
@@ -46,7 +44,7 @@ We prefer engineering scoping estimates for projects before we can fully greenli
 
 It is a useful abstraction to create “umbrella” PRFAQs and projects that contain multiple PRFAQ-sized subprojects.
 
-Example: I have greenlit Precise Everywhere because it was a top-level Roadmap initiative that was unlikely to be covered by customer asks. This is an umbrella project that encompasses (so far) three subprojects: PageRank for everyone, Precise UI, and Precise for Everyone. Each of these will wind up with its own Tech Lead once it’s Greenlit.
+Example: Precise Everywhere is an umbrella project that encompasses (so far) three subprojects: PageRank for everyone, Precise UI, and Precise for Everyone. Each of these will wind up with its own Tech Lead once it’s greenlit.
 
 The subprojects do not need to be fixed, and umbrellas may get new projects over time. Job Fair is flexible and continuous.
 

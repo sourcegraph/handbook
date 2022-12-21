@@ -62,26 +62,102 @@ The IAM team works alongside several other teams at Sourcegraph. You can find mo
 
 ## How we work
 
+We work in 2 week cycles.
+
+_Week 1_
+
+| Monday     | Tuesday             | Wednesday  | Thursday   | Friday |
+| ---------- | ------------------- | ---------- | ---------- | ------ |
+|            | 45min Retrospective |            |            |        |
+|            | 45min Planning      |            |            |        |
+|            | Company meeting     |            |            |        |
+| 30min sync | Demo Day            | 30min sync | 30min sync |        |
+
+_Week 2_
+
+| Monday                                        | Tuesday    | Wednesday      | Thursday   | Friday |
+| --------------------------------------------- | ---------- | -------------- | ---------- | ------ |
+| 30min sync + check what's in estimation queue | 30min sync | 60min Grooming | 30min sync |        |
+
+### Important documents and links
+
+- [IAM board](https://github.com/orgs/sourcegraph/projects/259/views/22)
+- [IAM retrospective](https://docs.google.com/document/d/10Gr8gBVtq939E-v0UKPp_IvAXuyr35qWQYS-uDt7N9I/edit)
+- [IAM planning doc](https://docs.google.com/document/d/1PPnQTdWHk3Rhq_ZQe8Qe-X82BttPaumeJDZWXPbiQPY/edit)
+
+### Retrospective
+
+**Goal**: continuously improve how we work. We do that by using the retrospective to look back at the past 2 weeks. What we want to find out is what went well, what didn't go well, and how we can improve.
+
+The agenda for the retrospective is this:
+
+- _10min_: fill out the prompts in [this Google Doc](https://docs.google.com/document/d/10Gr8gBVtq939E-v0UKPp_IvAXuyr35qWQYS-uDt7N9I/edit)
+  - What went well?
+  - What could have gone better?
+  - Do you feel supported?
+  - Do you feel like you’re moving into the right direction of your team?
+  - What processes/other things should we revisit/refine/propose?
+  - Other thoughts/questions?
+- _5min_: celebrate what went well (read out all items)
+- _2min_: vote on items
+- _28min_: talk through items, start with the highest votes
+  - 5min per item, use a timer, be strict
+  - Once 5min are up: ask if 2 more minutes
+  - If possible: collect action items
+
+### Grooming
+
+**Goal**: The goal for the grooming session is to get as many items in our backlog
+_prioritized_ and _estimated_. We estimate together enough tickets so that we’re
+all on the same page on how to implement something and how long it will take, so
+that we can plan it in future sprint.
+
+Requirements for the meeting:
+
+- DRI for a project prepares by creating as many tickets as possible
+- Product comes in with requirements from customers and tickets
+
+Agenda for the grooming meeeting:
+
+- Open the [IAM board](https://github.com/orgs/sourcegraph/projects/259/views/22)
+- Answer:
+  - What's in the backlog? Something missing?
+  - What's estimated? What's not estimated?
+- Go through top N of unestimated tickets that Product thinks we will work on next
+
+### Planning
+
+See the [IAM planning doc](https://docs.google.com/document/d/1PPnQTdWHk3Rhq_ZQe8Qe-X82BttPaumeJDZWXPbiQPY/edit) for the specific agenda we use in each planning meeting.
+
+A good planning meeting should answer the following questions:
+
+- **Bookkeeping**:
+  - What's the availability of everybody for the next 2 weeks?
+  - Is there a release happening? If so, when?
+  - Any other special events? (kickoff meetings, meetups, …)
+  - Who's on Support?
+- **Leftover work**:
+  - Are there things left-over from the last iteration? If so, why?
+- **Planning next 2 weeks**
+  - **Step 1: gather input**:
+    - What does Product need us to do in the next 2 weeks?
+      - _Ideally_ these requests are prioritized and “ready to be implemented”
+    - Are there any customer issues we need to work on?
+    - Other requests from outside?
+  - **Step 2: plan**:
+    - What do we want to work on?
+      - Go through each person, define what they'll work on, what they commit to do
+      - Check if it matches their availability
+- What will we demo at the end of the iteration?
+
+## Contact
+
 ### How to contact the team and ask for help
 
 - For users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam`.
 - For internal Sourcegraph teammates, join us in #iam to ask questions or request help from our team, or ask `@iam-support` directly.
 - For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM Feature Request:` in your subject line.
-
-### Planning, execution, and issue tracking
-
-The IAM team plans work based on our [long-term roadmap](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
-
-We are using [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) as our project tracking tool. The [list view of backlog](https://github.com/orgs/sourcegraph/projects/259/views/10) is publicly available in our team project.
-
-#### How we use GitHub Projects
-
-- The GitHub project for the team is the single source of truth for our backlog. Please use descriptions, comments under GitHub issues, and different categorization options to keep all the issues up to date. Comments are also the best place for asking questions about the issue itself. That way, we keep all the context in a single place.
-- We use GitHub milestones (usually connected with the quarterly goals) and custom fields to group issues for given initiatives/projects into epics, and to track different service or engineering ownership areas. This for example, helps us understand what the cost of operations with each area we own is.
-- We use [keyword or manually](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) linking pull requests to issues automatically in GitHub.
-- We use [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) for [groomings and estimation sessions which we run asynchronously](#groomings).
-- You can paste a link to GitHub in any Slack messages to have a rendered attachment automatically.
 
 ### User research
 

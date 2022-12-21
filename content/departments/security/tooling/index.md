@@ -26,3 +26,10 @@ of vulnerability.
 - We use [Checkov](./checkov.md) to scan our Terraform infrastructure.
 - We use [Trivy](./trivy/index.md) to scan containers for issues with dependencies.
 - We use [SonarCloud](./sonarcloud.md) to scan our code in `sourcegraph/sourcegraph` for vulnerabilities
+
+## Entitle
+
+We use Entitle as our permission management system.
+
+- An Intro on [Entitle](entitle.md)
+- [How To Guide](entitle_request.md)
