@@ -16,7 +16,6 @@ With our dedicated instance for user research, we can much more accurately explo
 - The instance is kept up to date with `main` on an hourly schedule. This means that the research instance can be used while an effort is underway, before each monthly version release.
 - The instance has been populated with a set of open-source repositories “owned” by a fictional organization: Fable Labs. There’s nothing particularly special about these repositories other than representing a variety of languages and complexity, to make them useful for a range of code-related activities.
 - The instance should **not** be considered either stable or permanently stateful. For a variety of reasons, we may choose to either clear all data on the instance or discontinue the instance.
-- Quinn Keast (@quinnkeast) is currently responsible for administering the instance.
 
 ## Using the research instance for user research
 

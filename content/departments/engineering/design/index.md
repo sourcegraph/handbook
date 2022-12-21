@@ -10,22 +10,14 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Design Team
 
-- [Steve Fisher](../../../team/#sts=Steve%20Fisher) – Head of Design (he/him)
+- [Rob Rhyne](../../../team/index.md#rob-rhyne) – Director of Design (he/him)
 
 ### Product Design
 
-- [Rob Rhyne](../../../team/index.md#rob-rhyne) – Product Design Manager
-  (he/him)
-  - [Alicja Suska](../../../team/index.md#alicja-suska) – Product Designer,
-    Code Insights (she/her)
-  - [Daniel Marques](../../../team/index.md#daniel-marques) – Product
-    Designer, Batch Changes (he/him)
-  - [Paulo Almeida](../../../team/index.md#paulo-almeida) – Product Designer,
-    Search Product (he/him)
-  - [Sara Lee](../../../team/index.md#sara-lee) – Product Designer, Growth &
-    Integrations (she/her)
-- [Quinn Keast](../../../team/index.md#quinn-keast) – Staff Product Designer
-  (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Daniel Marques](../../../team/index.md#daniel-marques) – Product
+  Designer, Batch Changes (he/him)
+- [Paulo Almeida](../../../team/index.md#paulo-almeida) – Product Designer,
+  Search Product (he/him)
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
   (she/they)
 
