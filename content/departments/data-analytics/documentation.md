@@ -8,10 +8,16 @@ A list of the various user definitions, engagement metrics, NPS, and technical h
 
 ## Documentation
 
-[Product-led Growth](product-led-growth.md)
+[Product-led growth](product-led-growth.md):
 An overview of product-led growth and the analytics and tracking we have in place.
 
-[Customer Data Policy](customer-data-policy.md)
+[Growth marketing](../marketing/growth-marketing/analytics.md):
+An overview of key growth marketing metrics and tracking
+
+[Web traffic analytics](web-analytics.md):
+An overview of web traffic data and metrics definitions (session, referrer, UTM source) with links to related reporting
+
+[Customer Data Policy](customer-data-policy.md):
 How we treat customer data at Sourcegraph.
 
 # How to
