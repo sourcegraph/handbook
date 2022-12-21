@@ -19,6 +19,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 - [Paulo Almeida](../../../team/index.md#paulo-almeida) – Product Designer,
   Search Product (he/him)
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
+- [We're hiring](https://boards.greenhouse.io/sourcegraph91) for multiple roles!
   (she/they)
 
 ### Creative Ops / Brand
