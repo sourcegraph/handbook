@@ -10,7 +10,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Design Team
 
-- [Rob Rhyne](../../../team/index.md#rob-rhyne) – Director of design (he/him)
+- [Rob Rhyne](../../../team/index.md#rob-rhyne) – Director of Design (he/him)
 
 ### Product Design
 
