@@ -281,7 +281,28 @@ You'll meet with two individual contributors on the CE team to learn about how y
 
 ### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session will cover 4 prompts provided to candidates prior and is intended to help us understand how you approach both organizational and customer scenarios as a leader, spanning topics such as pipeline review, assessing the business, KPIs/metrics, and coaching & feedback.
+For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. The scope of your responses should focus on pre-sales only - net new and expansion.
+
+A summary of the 4 prompts are provided below:
+
+1. **Pipeline Review:** A core responsibility as a pre-sales technical leader is to have a pulse on deals and make technical/strategic suggestions to mitigate risks and unblock issues that arise. As a leader, how do you keep a pulse on pipeline? What information do you expect your team to provide you and how? What do you look at and at what frequency?
+
+2. **Assessing the Business:** As a growing team and business, we are constantly assessing our business to identify and anticipate needs. As a leader, how will you go about doing this and on what cadence? What is your approach at varying levels: within your team, within the organization, within the context of the company?
+
+3. **KPIs and Metrics:** KPIs and metrics provide a standardized, consistent way to measure and assess individual and team performance. What KPIs and metrics are important for assessing individual performance and team performance? On what cadence do you expect to review this and how?
+
+4. **Coaching and Feedback:** The role of a CE is extremely autonomous, in that the majority of the work CEs do is with their sales counterpart rather than with internal teammates. How will you go about inspecting the teams’ work and actively coaching and providing feedback to them?
+
+The agenda for the meeting will go as follows:
+
+- 0-2 mins: Intros and recap of this interview stage
+- 2-14 mins: Prompt 1
+- 14-26 mins: Prompt 2
+- 26-38 mins: Prompt 3
+- 38-50 mins: Prompt 4
+- 50-60 mins: Feedback and Q&A
+
+**Important Notes**: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. It is up to your discretion whether to use visual aids to guide this conversation or not.
 
 ## Engineering
 
