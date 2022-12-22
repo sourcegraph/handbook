@@ -110,7 +110,3 @@ This is good enough to see our changes in an upcoming release, but if you want t
   - https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/
 
 Our private resources are available [in the Google doc](https://docs.google.com/document/d/10SNzhuA5dmRJ5Na3PMnuShlPmtGGVIz3P2GA4RtfaGo/edit)
-
-## Misc
-
-- [iteration log (deprecated)](./iteration_log.md)

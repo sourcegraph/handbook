@@ -65,6 +65,8 @@ The following functional teams work across the above dev teams:
 
 ## Processes
 
+- [PRFAQ Tips and Tricks](prfaq-process.md)
+- [Job Fair Planning Process](job-fair.md)
 - [Submitting a bug report](submitting-a-bug-report.md)
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)
@@ -114,3 +116,4 @@ Reference:
 - [KPIs](https://sourcegraph.looker.com/boards/20)
 - [Cross-team collaboration](cross-team-collab.md)
 - [Demo day](demo-day.md)
+- [Backstage <> Sourcegraph overview and integration concepts](https://docs.google.com/document/d/1g13hyadsogj-oniBNBHYTxXCS6z3BDqMt-51r6dyeP4/)

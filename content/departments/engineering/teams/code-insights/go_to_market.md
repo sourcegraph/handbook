@@ -23,7 +23,7 @@ This is an exhaustive resource from March 2022 containing all you need to know t
 
 ### Individual instance usage dashboards
 
-[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1Uih3dWJbg5vuMefqXqmKNGZf40JtnxMY/view?usp=sharing) explains how to interpret this data.
+[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1MoAI2VSpw49lYJh2cUXTSnC2Ys_EdyTd/view?usp=sharing) explains how to interpet the data (first original 2m:30s) and the final most-recently-updated 3m:10s go through how you can determine best next steps and what resources to send your customers.
 
 ### Customer-facing Code Insights [pitch slides](https://docs.google.com/presentation/d/1EXKLG_Bk7L95EvWmAWzE3XQs_eV5QASELG2Sgppd278/edit)
 
@@ -61,9 +61,16 @@ To book the product manager to help a customer or prospect set up insights, or t
 
 ### [Neo Financial Code Insights Case Study](https://about.sourcegraph.com/case-studies/neo-financial-improves-the-developer-experience-with-sourcegraph)
 
+### PDFs "How \_\_\_\_[x team] can build a data-driven relationship with their code"
+
+- [How Frontend Platform Teams can build a data-driven relationship with your codebase](https://about.sourcegraph.com/guides/data-driven-relationships-with-codebases.pdf)
+- [How DevOps Teams can build a data-driven relationship with your codebase](https://about.sourcegraph.com/guides/devops-data-driven-relationships-with-codebases.pdf)
+
 ### [Quick list of how Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#heading=h.xern6pnzakek)
 
 ### [Specific engineering team persona talking points and examples](https://docs.google.com/document/d/1x95bRgTtt5CXdCQVOXG_JgJ8ut4totRzCAKderw2cxA/edit#)
+
+### [PDF for "Sourcegraph for platform engineering"](https://sourcegraph.highspot.com/items/63a3491704ea61ab3909a530?lfrm=shp.0)
 
 ### [Product marketing brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) _internal_
 

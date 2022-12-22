@@ -33,7 +33,7 @@ When planning work, the [relevant work lead](#work-leads) should:
 - Maintain an understanding of the progress of the work.
   - Have a clear picture of what's being executed, what's coming up, and overall timelines.
   - Ensure required tasks are delegated.
-  - Continually evaluate whether we are working towards our key results.
+  - Continually evaluate whether our priorities are right.
   - Work with EM/PM if any adjustments are needed.
   - Create follow-up issues for any known or outstanding bugs.
 
@@ -188,7 +188,7 @@ We use OpsGenie to manage a [support](#support) rotation that changes weekly. Th
 
 ### Work leads
 
-For each major body of work, we assign an engineer to be a **work lead**. Work leads are responsible for working with the PM/EM to articulate the problem space, requirements, proposed solution, key results, and measures of success. They also scope a delivery plan and create issues to be tracked in the tracking issue. The work lead helps answer questions about priority order, scope change, etc., and provides updates at team syncs. They are **not** solely responsible for executing on the work, which is a team effort.
+For each major body of work, we assign an engineer to be a **work lead**. Work leads are responsible for working with the PM/EM to articulate the problem space, requirements, proposed solution, results, and measures of success. They also scope a delivery plan and create issues to be tracked in the tracking issue. The work lead helps answer questions about priority order, scope change, etc., and provides updates at team syncs. They are **not** solely responsible for executing on the work, which is a team effort.
 
 See the [planned work process](#planned-work) for additional details.
 

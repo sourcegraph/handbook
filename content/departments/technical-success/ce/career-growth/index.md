@@ -454,7 +454,7 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       <td>Understands how our customers work and how we can deliver value to them, enjoys commercial and strategic discussions and shares insights with others.</td>
       <td>Thinks beyond day-to-day tasks and contributes insights of strategic and commercial value, that help us deliver value to customers.</td>
       <td>Challenges whether goals are customer-oriented.</td>
-      <td>Acts as a trusted advisor, drawing on functional expertise to inform customer-driven strategy, OKRs and commercial thinking.</td>
+      <td>Acts as a trusted advisor, drawing on functional expertise to inform customer-driven strategy and commercial thinking.</td>
       <td>Showcases influence over customers through trust.</td>
     </tr>
     <tr>
@@ -464,9 +464,9 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     <tr>
     <tr>
       <td></td>
-      <td>Applies agency over their work by looking for solutions to challenges, applying good thinking and seeking clarity and direction when needed. Applies agency over their wellbeing by managing their own time against OKRs while finding balance and creating rest.</td>
-      <td>Proactively analyses challenges and consults to get relevant input, before generating a variety of solutions, and selecting the right one with confidence. Applies agency over their wellbeing by managing their own time against OKRs while finding balance and rest. Guides and mentors junior less experienced teammates accordingly.</td>
-      <td>Pre-empts challenges to manage risk, and steps in early to ensure they are resolved quickly and avoid escalation. Consults to get relevant input, before generating a variety of solutions, and selecting the right one with confidence. Applies agency over their wellbeing by managing their own time against OKRs while finding balance and rest. Guides and mentors junior less experienced teammates accordingly.</td>
+      <td>Applies agency over their work by looking for solutions to challenges, applying good thinking and seeking clarity and direction when needed. Applies agency over their wellbeing by managing their own time while finding balance and creating rest.</td>
+      <td>Proactively analyses challenges and consults to get relevant input, before generating a variety of solutions, and selecting the right one with confidence. Applies agency over their wellbeing by managing their own time while finding balance and rest. Guides and mentors junior less experienced teammates accordingly.</td>
+      <td>Pre-empts challenges to manage risk, and steps in early to ensure they are resolved quickly and avoid escalation. Consults to get relevant input, before generating a variety of solutions, and selecting the right one with confidence. Applies agency over their wellbeing by managing their own time while finding balance and rest. Guides and mentors junior less experienced teammates accordingly.</td>
       <td>Applies agency over their own workload but also the expertise and scalability of the team. Plans ahead to anticipate and act on the needs of own team, internal and external stakeholders. Applies technical expertise to proactively analyze challenges and is consulted to find the right decisions for complex problems.</td>
       <td>Applies agency over their own workload but balances against the most pressing needs of the business and our customers.</td>
     </tr>

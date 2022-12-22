@@ -108,7 +108,7 @@ To check on marketing performance to OKR's and pipeline performance visit [Marke
 
 Individual Page Overview
 
-[Marketing Dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - Marketing team performance to OKRs, specifically pipeline and MQL performance - associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
+[Marketing Dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - Marketing team performance, specifically pipeline and MQL performance - associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
 
 [Marketing Results](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Marketingresults) - A dynamic breakdown of lead funnel by relevant marketing program. You can break down the funnel by source,content,campaigns, and more. Use filters on right to change time frames and view, the metrics are cohorted based on the relevant 'date filter' you choose. For example, if wanting to see how leads have converted downstream, choose lead date. If wanting to see when MQLs became an MQL in a specific time frame choose MQL.
 

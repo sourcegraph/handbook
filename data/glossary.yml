@@ -93,12 +93,8 @@ business:
     definition: Return on investment
   - term: WoW
     definition: Week over week, "We currently have 2% WoW revenue growth" means that last week had 2% more revenue than the previous week.
-  - term: KR
-    definition: Key result, just means "goal we will measure"
-  - term: OKR
-    definition: Objective key result, just means "goal we will measure"
   - term: Q1
-    definition: First quarter of the year. THIS MEANS [FISCAL YEAR](../../departments/finance#fiscal-years) IN SOURCEGRAPH
+    definition: First quarter of the year. At Sourcegraph, we use a [fiscal year](../../departments/finance#fiscal-years) that is offset from the calendar year.
   - term: FY22
     definition: Fiscal Year 2022. BEWARE - FY22 Q1 means the first quarter of _2021_ not _2022_
   - term: NPS score

@@ -7,4 +7,3 @@ Here are a list of programs supported by the CEO Team:
 - [Board Meetings](https://docs.google.com/document/d/1gPZycyHduo0OB-6PgfuMvTFx95a0rNFmWaPR7E3R7qg/edit?usp=sharing)
 - [CEO Shadow Program](ceo-shadow-program.md)
 - [Exec Team Decision Log and Tracker](https://docs.google.com/document/d/14snvXSR_SosGfO9GFZHZ4GPy94omcEuDUUKrLdqUQuw/edit?usp=sharing)
-- [OKRs](../../strategy-goals/goals/index.md)

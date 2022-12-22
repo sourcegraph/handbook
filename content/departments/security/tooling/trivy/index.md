@@ -45,7 +45,9 @@ The steps above can become a bit tedious if you need to scan all images during a
 $ python3 trivy-diff.py --release 4.1.0 --threads 10
 ```
 
-The command above will fetch the accepted vulnerabilities from the markdown table in our handbook. You need to specify the release using the `--release` option. It then uses 10 threads to scan the container images. When the scan is done it will output vulnerabilities that are not on the handbook page, and those that are on the handbook page but not found by Trivy.
+The command above will fetch the accepted vulnerabilities from the markdown table in our handbook. You need to specify the release using the `--release` option. It then uses 10 threads to scan the container images. When the scan is done it will output vulnerabilities that are not on the handbook page, and those that are on the handbook page but not found by Trivy. Keep in mind that you should not put tags in the container justification document. This confuses the tool, and is unnecessary as the title of the justification page already indicates the version.
+
+`trivy-diff` also supports result caching with `--cache` and you can point it to the markdown file you are updating with `--local-table`. This makes it easier to check if the justification table is complete when you are updating it.
 
 ## Accepted vulnerabilities and false positives
 
@@ -107,8 +109,13 @@ Releases of Sourcegraph may ship with container images that contain known vulner
 packages that are either false positives considering the way in which we run Sourcegraph,
 or that we have accepted as low risk. You can find more details about these below:
 
+### 4.3
+
+- [4.3.0](./4-3-0.md)
+
 ### 4.2
 
+- [4.2.1](./4-2-1.md)
 - [4.2.0](./4-2-0.md)
 
 ### 4.1

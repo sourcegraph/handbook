@@ -3,11 +3,11 @@
 Information about Sourcegraph's different instances.
 
 - [sourcegraph.com](instances.md#dotcom) (or 'DotCom') is our public, free-to-use deployment.
-- [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest on-prem customers. This deployment also contains all of our private code.
+- [k8s.sgdev.org](instances.md#k8ssgdevorg) is a dogfood deployment that replicates the scale of our largest on-prem customers. This deployment also contains all of our private code.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
-  - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
-  - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
-  - [sourcegraph.sourcegraph.com](instances.md#sourcegraph-sourcegraph-com) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2". This instance is jointly owned by #dev-experience and #cloud. We [continously deploy](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) the latest unreleased version of Sourcegraph every one hour on weekdays, and you may also [force rolling out a new deployent](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/upgrade-sourcegraph.yaml) by clicking the `run workflow` button.
+  - [demo.sourcegraph.com](instances.md#demosourcegraphcom) is a managed instance used for CE demos.
+  - [devmanaged.sourcegraph.com](instances.md#devmanagedsourcegraphcom) is a managed instance used for managed instances development.
+  - [sourcegraph.sourcegraph.com](instances.md#sourcegraphsourcegraphcom-s2) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2". This instance is jointly owned by #dev-experience and #cloud. We [continously deploy](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/upgrade-sourcegraph.yaml) the latest unreleased version of Sourcegraph every one hour on weekdays, and you may also [force rolling out a new deployent](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/upgrade-sourcegraph.yaml) by clicking the `run workflow` button.
 
 For deployments of Sourcegraph we manage for customers, see [managed instances](../../../../cloud/index.md).
 
@@ -23,7 +23,7 @@ This deployment is also colloquially referred to as 'DotCom' and 'sourcegraph.co
 
 This deployment also includes our [documentation](https://docs.sourcegraph.com/) and [about](https://about.sourcegraph.com/) sites.
 
-> 🐶 For dogfooding changes, use [k8s.sgdev.org](#k8s-sgdev-org) instead, which generally receives updates faster.
+> 🐶 For dogfooding changes, use [k8s.sgdev.org](#k8ssgdevorg) instead, which generally receives updates faster.
 
 - [DotCom cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud?project=sourcegraph-dev)
   ```
@@ -32,7 +32,7 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
 - Alerts: #alerts-cloud and [OpsGenie](../incidents/on_call.md)
-- [Playbooks](./playbooks.md#sourcegraph-cloud)
+- [Playbooks](./playbooks.md#sourcegraphcom)
 
 ## k8s.sgdev.org
 
@@ -54,7 +54,7 @@ We use two scheduled GitHub Actions to continuously create PRs to update the ima
 
 Learn more in [deployment basics](./index.md#deployment-basics).
 
-> 🚨 This deployment contains private code - for demos, use [demo.sourcegraph.com](#demo-sourcegraph-com) instead.
+> 🚨 This deployment contains private code - for demos, use [demo.sourcegraph.com](#demosourcegraphcom) instead.
 
 - [dogfood cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/dogfood?project=sourcegraph-dogfood)
   ```
@@ -63,7 +63,7 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
 - Alerts: #alerts-dogfood-k8s
-- [Playbooks](./playbooks.md#k8s-sgdev-org)
+- [Playbooks](./playbooks.md#k8ssgdevorg)
 
 ## Managed instances
 
