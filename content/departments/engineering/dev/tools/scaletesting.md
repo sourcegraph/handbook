@@ -275,14 +275,14 @@ They are owned by the `testing` user, who can write on those repos.
 
 #### 200k blank repos
 
-- Single initial commit with `README.md`
-- 198k repositories assigned to `main-org`: https://ghe-scaletesting.sgdev.org/main-org
-  - 4750 teams have permissions on 27 or 28 repositories
-  - 200 teams have permissions on 78 repositories
-  - 50 teams have permissions on 985 repositories
-  - 1000 repositories each have 3 users assigned as collaborators who are the only users with access
-- 400 repositories each assigned to `sub-org-000000000` through `sub-org-000000004`: https://ghe-scaletesting.sgdev.org/sub-org-000000000 and up
-  - These have org-wide permissions for the members of each org (2k members per org)
+* Single initial commit with `README.md`
+* 198k repositories assigned to `main-org`: https://ghe-scaletesting.sgdev.org/main-org
+  * 4750 teams have permissions on 27 or 28 repositories (teams `main-org/teams/team-000000000` through `main-org/teams/team-000004749`)
+  * 200 teams have permissions on 78 repositories (teams `main-org/teams/team-000004750` through `main-org/teams/team-000004949`)
+  * 50 teams have permissions on 985 repositories (teams `main-org/teams/team-000004950` through `main-org/teams/team-000004999`)
+  * 1000 repositories each have 3 users assigned as collaborators who are the only users with access (repos `main-org/repo000000000` through `main-org/repo000000999`)
+* 400 repositories each assigned to `sub-org-000000000` through `sub-org-000000004`: https://ghe-scaletesting.sgdev.org/sub-org-000000000 and up
+  * These have org-wide permissions for the members of each org (2k members per org)
 
 See https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/scaletesting/bulkrepocreate/README.md for the tool powering the creation.
 
