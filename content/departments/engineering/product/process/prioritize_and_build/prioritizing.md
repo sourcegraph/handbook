@@ -12,7 +12,6 @@ There are several sources that product managers look at when deciding what's imp
 
 - [Your own strategy](../../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) and where you are trying to go
 - [The overall company strategy](../../../../../strategy-goals/strategy/index.md) and how you fit in
-- [Company and product/engineering goals](../../../../../strategy-goals/goals/index.md) and how you can drive them forward
 - [User & stakeholder feedback](../feedback/user_stakeholder_feedback.md) to realize our value of being [customer-first](../../../../../company-info-and-process/values/index.md#customer-first)
 
 ## Saying "no"

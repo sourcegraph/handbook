@@ -15,7 +15,7 @@ This information is useful:
 
 - The problem: Describe the problem or question you have.
 - End state: What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph in a tool or paper)
-- The why: What will this request be used for? How does it support [Sourcegraph’s company and team goals](../../strategy-goals/goals/index.md)?
+- The why: What will this request be used for? How does it support our goals?
 - Timeline: What’s the timeline of the project? Is it urgent? When does this need to be delivered, and how will it be followed up on in the future?
 - People: Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth for driving the project forward? Does each person have the necessary bandwidth to uphold the expectations asked of them?
 - Frequency: Is this a one time ask or something that is needed ongoing? If ongoing, what is the cadence (daily, weekly, monthly, etc…)

@@ -16,7 +16,7 @@
 
 We use RFCs to collaborate successfully as an [all-remote](../../remote/index.md) team.
 
-RFCs give us a way to write down ideas and plans so we can communicate, collect thoughtful feedback from others on the team, and [make decisions](../decisions.md).
+RFCs give us a way to write down ideas and plans so we can communicate, collect thoughtful feedback from others on the team, and make decisions.
 
 An “RFC” literally means a “Request for Comments.” Though RFCs at Sourcegraph can take many forms for different purposes, an RFC is ultimately just a document with a few attributes:
 
@@ -43,12 +43,12 @@ Our goal is for RFCs to be lightweight, low-process, and effortless to create an
 - You want thoughtful feedback from team members on our globally-distributed remote team.
 - You want to surface an idea, tension, or feedback.
 - You want to define a project or design brief to drive project collaboration.
-- You need to surface and communicate around a highly cross-functional decision with our [formal decision-making process](../decisions.md).
+- You need to surface and communicate around an important, highly cross-functional decision.
 
 ### Don’t use an RFC when…
 
 - You want to discuss personal or sensitive topics one-on-one with another team member.
-- You want to [make a decision](../decisions.md) to change something where you are the decider. In the vast majority of cases, creating an RFC to explain yourself will be overkill. RFCs should only be used if a decision explicitly requires one of the bullets in the section above.
+- You want to make a decision to change something where you are the decider. In the vast majority of cases, creating an RFC to explain yourself will be overkill. RFCs should only be used if a decision explicitly requires one of the bullets in the section above.
 
 ## How we craft RFCs
 
@@ -122,13 +122,13 @@ The default format has just the required attributes and can be used as the start
 
 ### Goal: Framing problems, proposing solutions, and making decisions
 
-This format is helpful for framing a problem, proposing solutions (or collecting feedback so as to propose a solution), and for ultimately [making decisions](../decisions.md).
+This format is helpful for framing a problem, proposing solutions (or collecting feedback so as to propose a solution), and for ultimately making decisions.
 
 This is our typical format for defining what we feel is important to work on, and acts as a constant touchpoint throughout our work from conceptualization to implementation and measuring success.
 
 In this format, we find it helpful to include:
 
-- **Tags** for the people involved and their roles in the decision-making framework (including the [decider](../decisions.md#decider), input providers, approvers, and [approvals](../decisions.md#approvers)).
+- **Tags** for the people involved and their roles in the decision-making framework (including the decider, input providers, approvers, and approvals).
 - **Tags** for any teams that will be affected either directly or indirectly, and should have the opportunity to review and contribute to the RFC.
 - **Background**: Just enough context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinion.
 - **Problem**: A description of the problem that this RFC is trying to address, the constraints, and why this problem is worth solving now.

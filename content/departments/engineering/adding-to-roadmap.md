@@ -1,8 +1,10 @@
 # Adding to the roadmap
 
-We submit roadmap proposals in the form of Amazon-style PR-FAQs. Anybody can submit a PR-FAQ. PR-FAQ can come from the exec team, or from any teammate. PR-FAQ are reviewed and prioritised by the VPEng/Prod with input from the exec team. PMs help build, refine and evaluate the impact of PR-FAQs.
+We submit roadmap proposals in the form of [Amazon-style PR-FAQs](https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq). Anybody can submit a PR-FAQ. PR-FAQ can come from the exec team, or from any teammate. PR-FAQ are reviewed and prioritised by the VPEng/Prod with input from the exec team. PMs help build, refine and evaluate the impact of PR-FAQs.
 
 ## How to submit a PR-FAQ
+
+Full details on how to write a PRFAQ can be found [here](prfaq-process.md).
 
 1. **Write a PR-FAQ to describe your proposal**.
 
@@ -33,12 +35,6 @@ We don't use a formal/complicated framework for evaluating impact for now, in or
 
 That said, here’s a rough guideline for evaluating impact of customer-facing features:
 
-- **High**: Large ARR (>$5M ARR) or MAU (> 500 DAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a project like Batch Changes, Insights, Own, or adding support for a broadly-used codehost.
-- **Medium**: Large ARR (>$1M ARR) or MAU (> 100 DAUs) impact, in the next 12 months. Fit with strategy. Elements of validation.
+- **High**: Large ARR (>$5M ARR) or DAU (> 500 DAUs) impact, in the next 12 months. Fit with strategy. Well validated. Differentiated feature. Eg. a project like Batch Changes, Insights, Own, or adding support for a broadly-used codehost.
+- **Medium**: Large ARR (>$1M ARR) or DAU (> 100 DAUs) impact, in the next 12 months. Fit with strategy. Elements of validation.
 - **Low**: Unknown or unvalidated impact. No clear fit with strategy.
-
-## PR-FAQ tips
-
-- Try to keep the PR section no longer than 2 pages. FAQs can be longer.
-- Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s already on the roadmap before raising a proposal.
-- Here's are two examples of good PR-FAQ: [PR-FAQ^2](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#) and [Own PR-FAQ](https://docs.google.com/document/d/1NeokrfnZq7iLzRCIwvzZ9vhD6O3xYCv4trmu24w7m-E/edit#)

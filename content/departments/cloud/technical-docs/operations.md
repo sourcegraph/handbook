@@ -1,5 +1,7 @@
 # Managed instances operations
 
+> NOTE: For v2 instances, please refer to [v2 operation guide](./v2.0/index.md). Not sure which version a customer is on, [find it](#how-to-locate-a-customer-instance).
+
 Operations guides for [managed instances](./index.md).
 
 - To upgrade a managed instance, see [managed instances upgrade process](./v1.1/mi1-1_upgrade_process.md).
@@ -57,6 +59,28 @@ mi --customer $CUSTOMER ssh
 
 Below docs will only cover the essential `mi` commands, and you should consult the `mi` cli usage on your own.
 
+## How to locate a customer instance?
+
+We are now supporting both v1 and [v2](./v2.0/index.md) instances at the same time, it's important to know which version a customer is on.
+
+To start, you need to at least know the customer name or customer instance domain name.
+
+On s2, use the [`@cloud/customers-lookup`](https://sourcegraph.sourcegraph.com/search?q=context:@cloud/customers-lookup+&patternType=standard&sm=0&groupBy=repo) search context to perform filtering. Or use the following searach query directly
+
+```
+(repo:^github\.com/sourcegraph/cloud$ OR repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$) AND file:config\.yaml <insert keyword>
+```
+
+If the search result indicates a match is found in `sourcegraph/deploy-sourcegraph-managed`, it is a `v1` instance. If there is a match from `sourcegraph/cloud`, it is a `v2` instance.
+
+For v1 instances, continue using this page of the opearation docs.
+
+For v2, use the [`@cloud/v2-operator-dashboards-lookup` search context](https://sourcegraph.sourcegraph.com/search?q=context:@cloud/v2-operator-dashboards-lookup+&patternType=standard&sm=1&groupBy=repo) to locate the [operator dashboard](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-96ed006bb45d673944e4/dashboard.md) of the instance. The operator dashboard is the dashboard designed specifically for a customer instance and contain all instruction you need to troubleshoot an instance.
+
+```
+repo:^github\.com/sourcegraph/cloud$ file:dashboard.md lang:Markdown company.sourcegraph.com
+```
+
 ## Red/black deployment model
 
 > red/black deployment model is only used during machine upgrade process
@@ -110,7 +134,7 @@ If you find that the command hangs on the following error:
 Waiting for cloud_sql_proxy to be ready...
 ```
 
-It's likely that you need to install [`cloud_sql_proxy`](https://github.com/GoogleCloudPlatform/cloudsql-proxy).
+It's likely that you are missing permission to do so, please reach out to #cloud.
 
 ### Restarting for configuration updates
 
@@ -137,6 +161,37 @@ This will port-forward `localhost:4444` to port `80` on the VM instance. Some co
 - `16886`: Jaeger
 
 Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule.
+
+### Disable Sourcegraph management access
+
+1. Add the following line to the `config.yaml` file in the customer directory:
+
+   ```yaml
+   disableSourcegraphManagementAccess: true
+   ```
+
+2. Sync the Cloud site config:
+
+   ```sh
+   mi sync cloud-site-config
+   ```
+
+3. Re-fetch GSM value (`CLOUD_SITE_CONFIG`) to the VM:
+
+   - If the state backend is GCS:
+
+     ```sh
+     terraform apply
+     ```
+
+   - If the state backend is Terraform Cloud, start a new run on the workspace. The name of the workspace can be found in the first few lines of the `infrastructure.tf` file in the customer directory.
+
+4. Sync artifacts and restart containers:
+
+   ```sh
+   mi sync artifacts
+   mi restart-containers
+   ```
 
 ### Backup
 

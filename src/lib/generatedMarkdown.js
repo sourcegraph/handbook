@@ -343,40 +343,6 @@ export async function generateUseCaseFeatureList(use_case) {
   return pageContent
 }
 
-export async function generateUseCaseSponsorsList(use_case) {
-  const useCases = await readYamlFile('data/use_cases.yml')
-  const teamMembers = await readYamlFile('data/team.yml')
-  let pageContent = ''
-  if (useCases[use_case].sponsors) {
-    if (useCases[use_case].sponsors.engineering) {
-      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.engineering].name)
-      pageContent += `- Engineering: [${String(teamMembers[useCases[use_case].sponsors.engineering].name)}](${String(
-        bioLink
-      )})\n`
-    }
-    if (useCases[use_case].sponsors.product) {
-      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.product].name)
-      pageContent += `- Product: [${String(teamMembers[useCases[use_case].sponsors.product].name)}](${String(
-        bioLink
-      )})\n`
-    }
-    if (useCases[use_case].sponsors.design) {
-      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.design].name)
-      pageContent += `- Design: [${String(teamMembers[useCases[use_case].sponsors.design].name)}](${String(bioLink)})\n`
-    }
-    if (useCases[use_case].sponsors.marketing) {
-      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.marketing].name)
-      pageContent += `- Marketing: [${String(teamMembers[useCases[use_case].sponsors.marketing].name)}](${String(
-        bioLink
-      )})\n`
-    }
-  }
-  if (pageContent === '') {
-    pageContent += '- None\n'
-  }
-  return pageContent
-}
-
 /**
  * Used in cases where a team in comprised of individuals who report to different
  * people, but work on the same thing.

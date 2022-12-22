@@ -1,6 +1,6 @@
 # Change management checklist
 
-The change management checklist outlines the steps that folks on the team are required to work through in conceiving, proposing and implementing a change. These steps have been grouped into three distinct stages to align with Sourcegraph’s decision making [framework](../../../../company-info-and-process/communication/decisions.md) and our use of [RFCs](../../../../company-info-and-process/communication/rfcs/index.md) to frame problems and propose solutions.
+The change management checklist outlines the steps that folks on the team are required to work through in conceiving, proposing and implementing a change. These steps have been grouped into three distinct stages to align with Sourcegraph’s use of [RFCs](../../../../company-info-and-process/communication/rfcs/index.md) to frame problems and propose solutions.
 
 - Thinking about the idea (Pre-RFC)
 - Aligning with those affected (RFC)
@@ -11,7 +11,7 @@ The change management checklist outlines the steps that folks on the team are re
 - What problem does it solve?
   - Frame the problem that needs to be solved before trying to brainstorm a solution.
   - Identify if/why the problem needs to be solved now. This helps us determine whether the time, effort and resources required are justified by the benefit of implementing the change or the cost of not doing so.
-- Is this currently covered by our OKRs?
+- Is this currently covered by our cross-functional projects?
   - If yes, pause and allow ongoing projects/initiatives to run their course first so as to avoid duplication of effort and confusion within the team.
   - If no, prioritize when to start against work already in-progress (to honor our work to constrain how much we have in-progress/try to do at once).
 - Is this something that everyone else feels like we need?

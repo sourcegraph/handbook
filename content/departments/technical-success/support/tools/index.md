@@ -168,7 +168,7 @@ There are also views for suspended (spam) and deleted tickets. We occasionally c
 
 When you close a ticket, these are the required fields you must populate:
 
-- **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs.
+- **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to improve our docs.
 - **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
 - **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](../process/enablement/zendesk-ticket-exporter.md)
 - **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](../process/enablement/zendesk-ticket-exporter.md)

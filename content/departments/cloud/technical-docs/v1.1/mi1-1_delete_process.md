@@ -36,6 +36,12 @@ Teardown request issue: <issue link>
 
 **Important!** Always start with a fresh terminal session to ensure you do not have any conflicting environment variables.
 
+## (Preferred) Use the MI Deletion GH Action
+
+This is the preferred method of deleting a managed instance. It will automatically run the steps below.
+
+Link to [action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_delete.yml)
+
 ### Setup
 
 Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository

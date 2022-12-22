@@ -281,7 +281,28 @@ You'll meet with two individual contributors on the CE team to learn about how y
 
 ### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session will cover 4 prompts provided to candidates prior and is intended to help us understand how you approach both organizational and customer scenarios as a leader, spanning topics such as pipeline review, assessing the business, KPIs/metrics, and coaching & feedback.
+For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. The scope of your responses should focus on pre-sales only - net new and expansion.
+
+A summary of the 4 prompts are provided below:
+
+1. **Pipeline Review:** A core responsibility as a pre-sales technical leader is to have a pulse on deals and make technical/strategic suggestions to mitigate risks and unblock issues that arise. As a leader, how do you keep a pulse on pipeline? What information do you expect your team to provide you and how? What do you look at and at what frequency?
+
+2. **Assessing the Business:** As a growing team and business, we are constantly assessing our business to identify and anticipate needs. As a leader, how will you go about doing this and on what cadence? What is your approach at varying levels: within your team, within the organization, within the context of the company?
+
+3. **KPIs and Metrics:** KPIs and metrics provide a standardized, consistent way to measure and assess individual and team performance. What KPIs and metrics are important for assessing individual performance and team performance? On what cadence do you expect to review this and how?
+
+4. **Coaching and Feedback:** The role of a CE is extremely autonomous, in that the majority of the work CEs do is with their sales counterpart rather than with internal teammates. How will you go about inspecting the teams’ work and actively coaching and providing feedback to them?
+
+The agenda for the meeting will go as follows:
+
+- 0-2 mins: Intros and recap of this interview stage
+- 2-14 mins: Prompt 1
+- 14-26 mins: Prompt 2
+- 26-38 mins: Prompt 3
+- 38-50 mins: Prompt 4
+- 50-60 mins: Feedback and Q&A
+
+**Important Notes**: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. It is up to your discretion whether to use visual aids to guide this conversation or not.
 
 ## Engineering
 
@@ -433,11 +454,10 @@ For this interview round, you will have an hour-long working session with the Cu
 #### Design exercise
 
 - Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
-- Duration: 2 hours
-- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
-- The interview is in 2 parts. Below is the prompt:
-- Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
-- Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
+- Duration: 1.5 hours
+- Details: The interview simulates a real-life design collaboration as closely as possible. The goals are to explore problems and solutions together, to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
+- Below is the prompt:
+- Part 2: (~75 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
 
 ### Product Design Intern
 
