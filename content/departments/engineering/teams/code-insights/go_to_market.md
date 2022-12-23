@@ -21,9 +21,9 @@ This is an exhaustive resource from March 2022 containing all you need to know t
 - Pricing
 - Closing sales
 
-### Demo dashboards on demo.sourcegraph.com 
+### Demo dashboards on demo.sourcegraph.com
 
-There are demo dashboards by use case, persona, feature, and overall on demo.sourcegraph.com for you to use – for example, here's the generic ["popular examples" one](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDU0Nn0=) and here's the ["[Use case] code health one](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzNn0=). You can access them by using the dashboards dropdown – anything in the "Insights Examples" org (all will be in the same section of the dropdown) are perfect for demos, or you can type the name in the dropdown search selector. 
+There are demo dashboards by use case, persona, feature, and overall on demo.sourcegraph.com for you to use – for example, here's the generic ["popular examples" one](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDU0Nn0=) and here's the ["[Use case] code health one](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzNn0=). You can access them by using the dashboards dropdown – anything in the "Insights Examples" org (all will be in the same section of the dropdown) are perfect for demos, or you can type the name in the dropdown search selector.
 
 ### Individual instance usage dashboards
 
