@@ -8,6 +8,8 @@ There's an [all-instances looker dashboard](https://sourcegraph.looker.com/dashb
 
 This amplitude dashboard which just tracks interactions on [https://sourcegraph.com/insights](https://sourcegraph.com/insights).
 
+There is also a number of qualitative feedback points customers shared with us that answer "how are customers using code insights: what are their specific queries and use cases" in this [productboard note](https://sourcegraph.productboard.com/feature-board/1793095-code-insights/features/7752920/insights) – see the images.
+
 ### Automated data reports
 
 It's useful to [send weekly Looker reports to Slack](https://cloud.google.com/looker/docs/scheduling-and-sending-dashboards) to keep an eye on usage data patterns and catch any data or product issues.
