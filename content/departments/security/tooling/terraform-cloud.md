@@ -53,7 +53,7 @@ To move a folder of Terraform configuration that currently uses the GCS backend:
 1. Create a workspace for the folder in the most appropriate file [here][terraform-cloud-folder],
    with `auto_apply` set to `false`. This prevents Terraform Cloud from applying any changes before
    the state has been migrated. See [here][tfc-workspace-creation] for an example of such a change.
-   Team permissions are defined [here][tfc-permissions]. 
+   Team permissions are defined [here][tfc-permissions].
 1. Request a Terraform Cloud admin to apply the changes in either #cloud or #security once they are
    landed.
 1. Within the folder that you are looking to migrate, follow the instructions found [here][migration].
