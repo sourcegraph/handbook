@@ -1,4 +1,4 @@
-# Terraform Cloud
+#Terraform Cloud
 
 Sourcegraph uses Terraform Cloud to manage the deployment of cloud infrastructure on multiple
 platforms.
@@ -38,23 +38,35 @@ similar to GitHub, a Terraform Cloud account is separate to access to the organi
 only grants access to the Sourcegraph Terraform Cloud organization. Create an account and proceed
 as normal.
 
+# Creating a new Terraform Cloud workspace
+
+1. Create a new module for your workspace following the example [here][security-module]. The `team_access`
+   values can be found [here][tfc-permissions].
+1. Request a Terraform Cloud admin to apply the changes in either #cloud or #security.
+
+[security-module]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/security.tf?L1
+
 # Migrating to Terraform Cloud
 
-Instructions for migrating a set of Terraform Cloud resources can be found [here][migration]. Migrating
-to a Terraform Cloud workspace is easy, but migrating back is slightly more convoluted, so only
-migrate if you're certain that you are ready to manage the resources in question with Terraform Cloud.
+To move a folder of Terraform configuration that currently uses the GCS backend:
 
-Look at the configuration of other workspaces, for example the `infrastructure-security` workspace,
-to understand some common settings which you might want to apply.
+1. Create a workspace for the folder in the most appropriate file [here][terraform-cloud-folder],
+   with `auto_apply` set to `false`. This prevents Terraform Cloud from applying any changes before
+   the state has been migrated. See [here][tfc-workspace-creation] for an example of such a change.
+   Team permissions are defined [here][tfc-permissions]. 
+1. Request a Terraform Cloud admin to apply the changes in either #cloud or #security once they are
+   landed.
+1. Within the folder that you are looking to migrate, follow the instructions found [here][migration].
+1. Once the migration is completed, run a `terraform plan` in the migrated folder to ensure that
+   there are no unexpected planned changes.
 
-Some recommended settings:
+Migrating to a Terraform Cloud workspace is easy, but migrating back is slightly more convoluted,
+so only migrate if you're certain that you are ready to manage the resources in question with
+Terraform Cloud.
 
-1. In the 'Version control' section of the workspace settings, select `Only trigger runs when files
-in specified paths change`, and configure patterns to only trigger when the Terraform files you
-   care about are changed.
-2. In the same section, also select `Automatic speculative plans`. This enables the GitHub check
-   that occurs on opening a pull request.
-
+[terraform-cloud-folder]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/terraform-cloud
+[tfc-workspace-creation]: https://github.com/sourcegraph/infrastructure/pull/4388
+[tfc-permissions]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/locals.tf
 [migration]: https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-migrate
 
 # Slack integration
