@@ -1,4 +1,4 @@
-#Terraform Cloud
+# Terraform Cloud
 
 Sourcegraph uses Terraform Cloud to manage the deployment of cloud infrastructure on multiple
 platforms.
