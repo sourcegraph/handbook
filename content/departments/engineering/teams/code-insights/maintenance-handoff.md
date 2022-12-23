@@ -20,4 +20,6 @@ We recommend maintaining 1 report to the #code-insights channel that sends the [
 
 We use Chorus to track customer calls. Not sure what happens when a user is deleted, but currently there's a code insights [tracker](https://chorus.ai/settings/trackers) targeting `code insights`, `insights` that runs for all calls. Then, you can get emails or use the Chorus UI to review just calls mentioning code insights. This is extremely valubale, and it's worth spending even 15-20 minutes a week just hearing how demos and customer conversations are going.
 
-TODO LOOM THIS
+## Keep the Go-to-market page up to date
+
+The [code insights go-to-market page](../go_to_market.md) is the central source of truth for every sales, customer engineering, and marketing related resource. As you see new ones created (new case studies, for example, or new PDFs that mention insights) or create new use case docs pages, please update that page to link to them – we direct sales, customer engineering, and marketing to start there for every question they have! 
