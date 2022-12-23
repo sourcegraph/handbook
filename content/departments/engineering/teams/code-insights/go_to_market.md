@@ -24,6 +24,7 @@ This is an exhaustive resource from March 2022 containing all you need to know t
 ### Demo dashboards on demo.sourcegraph.com 
 
 There are demo dashboards by use case, persona, feature, and overall on demo.sourcegraph.com for you to use – for example, here's the generic ["popular examples" one](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDU0Nn0=) and here's the ["[Use case] code health one](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzNn0=). You can access them by using the dashboards dropdown – anything in the "Insights Examples" org (all will be in the same section of the dropdown) are perfect for demos, or you can type the name in the dropdown search selector. 
+
 ### Individual instance usage dashboards
 
 [Per-instance Code Insights dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1MoAI2VSpw49lYJh2cUXTSnC2Ys_EdyTd/view?usp=sharing) explains how to interpet the data (first original 2m:30s) and the final most-recently-updated 3m:10s go through how you can determine best next steps and what resources to send your customers.
