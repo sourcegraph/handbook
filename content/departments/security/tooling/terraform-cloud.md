@@ -41,13 +41,13 @@ as normal.
 # Creating a new Terraform Cloud workspace
 
 1. Create a new module for your workspace following the example [here][security-module].
-    - Place the module in the most appropriate file in the `infrastructure/terraform-cloud` folder, or
-      create a new file for the module if none of the existing files are sufficient.
-    - The `team_access` values can be found [here][tfc-permissions].
-    - `trigger_patterns` and `working_directory` should refer to the folder of Terraform configuration
-      you are creating the workspace for
-    - The workspace `name` should be unique – ideally, use the location of the folder within the
-      `infrastructure` repo, with the `/`s replaced by `-`
+   - Place the module in the most appropriate file in the `infrastructure/terraform-cloud` folder, or
+     create a new file for the module if none of the existing files are sufficient.
+   - The `team_access` values can be found [here][tfc-permissions].
+   - `trigger_patterns` and `working_directory` should refer to the folder of Terraform configuration
+     you are creating the workspace for
+   - The workspace `name` should be unique – ideally, use the location of the folder within the
+     `infrastructure` repo, with the `/`s replaced by `-`
 1. Request a Terraform Cloud admin to apply the changes in either #cloud or #security.
 
 [security-module]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/security.tf?L1
