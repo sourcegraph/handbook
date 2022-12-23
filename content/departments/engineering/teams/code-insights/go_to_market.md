@@ -23,15 +23,20 @@ This is an exhaustive resource from March 2022 containing all you need to know t
 
 ### Individual instance usage dashboards
 
-[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1MoAI2VSpw49lYJh2cUXTSnC2Ys_EdyTd/view?usp=sharing) explains how to interpet the data (first original 2m:30s) and the final most-recently-updated 3m:10s go through how you can determine best next steps and what resources to send your customers.
+[Per-instance Code Insights dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1MoAI2VSpw49lYJh2cUXTSnC2Ys_EdyTd/view?usp=sharing) explains how to interpet the data (first original 2m:30s) and the final most-recently-updated 3m:10s go through how you can determine best next steps and what resources to send your customers.
 
-### Customer-facing [pitch slides](https://docs.google.com/presentation/d/1EXKLG_Bk7L95EvWmAWzE3XQs_eV5QASELG2Sgppd278/edit)
+[Overall search aggregation dashboard](https://sourcegraph.looker.com/dashboards/370?Unique+Server+ID=) shows you search aggregations (charts on sidebar of search screen) usage and you can filter it to individual instances. You won't need this as often but you can see if your customer is using things like the capture group search breakdown or repo/path filters a lot in their search. 
 
-You can use these as a starting point for Code Insights presentations.
+[Code Insights backfill times dashboard](https://sourcegraph.looker.com/dashboards/373) shows you p50/p90/p99 backfill times in seconds for code insights. Use this to determine "are insights unnaturally slow at my customer?" You can compare them to similar customer's backfill times (make sure to also try to match a similar number of repos at those comparison customers) to get a sense of what "normal" is. Null values show when customers didn't create/backfill any insights that week. 
 
 ### Common use cases Docs
 
 The [main dashboard insights recipes](https://docs.sourcegraph.com/code_insights/references/common_use_cases) and [search results aggregations](https://docs.sourcegraph.com/code_insights/references/search_aggregations_use_cases) recipes.
+
+
+### Customer-facing [pitch slides](https://docs.google.com/presentation/d/1EXKLG_Bk7L95EvWmAWzE3XQs_eV5QASELG2Sgppd278/edit)
+
+You can use these as a starting point for Code Insights presentations.
 
 ### Pricing
 
@@ -41,9 +46,9 @@ The [main dashboard insights recipes](https://docs.sourcegraph.com/code_insights
 - [Full pricing logic](https://docs.google.com/document/d/1uItRIIzujoCCaZkDg73ZV8lguhux-D75zjqVr6zTnRI/edit#bookmark=id.i02vq75zxjxu) _internal_
   - The full deep dive into the justifications behind the pricing.
 
-### [Code Insights closed sales trends and analysis](https://docs.google.com/presentation/d/1xEMucmt6E3hXl-k1bRp5nsfFyEVI1zqkFlVj-Fn4Jt8/edit#slide=id.g12fb793a505_0_36)
+### Code Insights closed sales trends and analysis
 
-Analysis of closed sales through FY23Q1.
+[Analysis of closed sales through FY23Q1.](https://docs.google.com/presentation/d/1xEMucmt6E3hXl-k1bRp5nsfFyEVI1zqkFlVj-Fn4Jt8/edit#slide=id.g12fb793a505_0_36) This can help you determine who to target or when to target customers based on usage data. 
 
 ### How to demo Code Insights on public prospect repos
 
