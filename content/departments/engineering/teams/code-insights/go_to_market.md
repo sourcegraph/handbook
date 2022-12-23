@@ -49,12 +49,11 @@ Analysis of closed sales through FY23Q1.
 
 If you want to run Code Insights over a public prospect's repo, [follow these steps](https://drive.google.com/file/d/1fOrEPLS91-4CTNwihOQi7w0Q_nOIEd0X/view?usp=sharing) to connect those repos to demo.sourcegraph.com. Since it's unlikely you're a site admin on demo.sourcegraph.com, you can tag @ce-sdr-collab in the #CE channel to ask them to temporarily connect the repos you need. Note: you should ensure you use **demo.sourcegraph.com** and **not** sourcegraph.com
 
-
 ## Marketing
 
 ### Customer-facing shareable resources
 
-- PDFs and case studies 
+- PDFs and case studies
   - [Neo Financial Code Insights Case Study](https://about.sourcegraph.com/case-studies/neo-financial-improves-the-developer-experience-with-sourcegraph)
   - [How Frontend Platform Teams can build a data-driven relationship with your codebase](https://about.sourcegraph.com/guides/data-driven-relationships-with-codebases.pdf)
   - [How DevOps Teams can build a data-driven relationship with your codebase](https://about.sourcegraph.com/guides/devops-data-driven-relationships-with-codebases.pdf)
@@ -64,16 +63,16 @@ If you want to run Code Insights over a public prospect's repo, [follow these st
   - [Slides](https://docs.google.com/presentation/d/1d-A7HwARbLKOjreGXsQ5eA9W4oO7Qb_5LXaOw6k2Tic/edit#slide=id.p) (for internal use or explicit repurposing – don't share directly)
   - [Figma flow chart](https://www.figma.com/file/8U0dOvt368voozlCMvmvPA/Tracking-what-matters-in-your-code-webinar?node-id=5%3A44)
   - [Webinar Recording](https://drive.google.com/file/d/143csAoQZ2eQK1DaCNOekeV0MdqFX61tb/view?usp=sharing)
-- General 
+- General
   - [About.sourcegraph.com landing page](https://about.sourcegraph.com/code-insights/)
   - [Sourcegraph.com landing page](https://sourcegraph.com/insights)
   - [Announcement blog post from CEO Quinn Slack](https://about.sourcegraph.com/blog/announcing-code-insights/)
 
-### Internal-only resources 
+### Internal-only resources
 
 - [Quick list of how Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#heading=h.xern6pnzakek)
 - [Specific engineering team persona talking points and examples](https://docs.google.com/document/d/1x95bRgTtt5CXdCQVOXG_JgJ8ut4totRzCAKderw2cxA/edit#)
-- [Product marketing brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) _internal_ 
+- [Product marketing brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) _internal_
   - An overview of the target audience, problem, solution, and go-to-market strategy.
 - [Launch FAQ](https://docs.google.com/document/d/1Vb9M-92GzHJeMEHRJzASRTX_LXfFgBmUOLqKTRFTKI8/edit) _internal_
   - FAQ-style responses to launch-related questions.
