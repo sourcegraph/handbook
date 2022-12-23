@@ -22,4 +22,4 @@ We use Chorus to track customer calls. Not sure what happens when a user is dele
 
 ## Keep the Go-to-market page up to date
 
-The [code insights go-to-market page](../go_to_market.md) is the central source of truth for every sales, customer engineering, and marketing related resource. As you see new ones created (new case studies, for example, or new PDFs that mention insights) or create new use case docs pages, please update that page to link to them – we direct sales, customer engineering, and marketing to start there for every question they have!
+The [code insights go-to-market page](go_to_market.md) is the central source of truth for every sales, customer engineering, and marketing related resource. As you see new ones created (new case studies, for example, or new PDFs that mention insights) or create new use case docs pages, please update that page to link to them – we direct sales, customer engineering, and marketing to start there for every question they have!
