@@ -34,7 +34,6 @@ All work is assigned a priority per these definitions:
 - **p2:** Paying customers who have reported issues per our contractual p2 service level agreement definition [here](../index.md#slas).
 - **p3:** Any internally identified goals/tasks/projects.
 
-
 ## Making hard choices
 
 Sometimes we have too much work to keep it simple. In these situations, we will put forth our best effort and unless something about the situation requires us to deviate, we follow this order of priority:
