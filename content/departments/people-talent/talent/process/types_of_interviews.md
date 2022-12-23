@@ -243,7 +243,7 @@ For this interview, you'll meet with several members of the team to lead a live 
 
 ### Enterprise Technical Advisor Leadership Panel Interview
 
-The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios.
+The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios and demonstrate how you have handled those situations in the past.
 
 The prompt and instructions below will help you prepare for this session. The interview itself will run for 60 mins: 50 mins for the interview content (agenda driven by you) with 10 mins of general Q&A at the very end. Each prompt should last approximately 12 mins. The agenda of the meeting will run as follows:
 
@@ -260,10 +260,10 @@ The prompt and instructions below will help you prepare for this session. The in
 
 A summary of the 4 prompts are provided below:
 
-1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do?
-2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets?
-3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why.
-4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential?
+1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do? Please provide practical examples of how you have built champions like this in the past.
+2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets? Please provide practical examples of times when you have been able to put these strategies into action.
+3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why. Please provide practical examples of how your QBR's have gone in the past.
+4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential? Please provide practical examples of times you have been able to identify these situations that led to a successful customer expansion.
 
 ## Customer Engineering (Leadership)
 
@@ -281,7 +281,28 @@ You'll meet with two individual contributors on the CE team to learn about how y
 
 ### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session will cover 4 prompts provided to candidates prior and is intended to help us understand how you approach both organizational and customer scenarios as a leader, spanning topics such as pipeline review, assessing the business, KPIs/metrics, and coaching & feedback.
+For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. The scope of your responses should focus on pre-sales only - net new and expansion.
+
+A summary of the 4 prompts are provided below:
+
+1. **Pipeline Review:** A core responsibility as a pre-sales technical leader is to have a pulse on deals and make technical/strategic suggestions to mitigate risks and unblock issues that arise. As a leader, how do you keep a pulse on pipeline? What information do you expect your team to provide you and how? What do you look at and at what frequency?
+
+2. **Assessing the Business:** As a growing team and business, we are constantly assessing our business to identify and anticipate needs. As a leader, how will you go about doing this and on what cadence? What is your approach at varying levels: within your team, within the organization, within the context of the company?
+
+3. **KPIs and Metrics:** KPIs and metrics provide a standardized, consistent way to measure and assess individual and team performance. What KPIs and metrics are important for assessing individual performance and team performance? On what cadence do you expect to review this and how?
+
+4. **Coaching and Feedback:** The role of a CE is extremely autonomous, in that the majority of the work CEs do is with their sales counterpart rather than with internal teammates. How will you go about inspecting the teams’ work and actively coaching and providing feedback to them?
+
+The agenda for the meeting will go as follows:
+
+- 0-2 mins: Intros and recap of this interview stage
+- 2-14 mins: Prompt 1
+- 14-26 mins: Prompt 2
+- 26-38 mins: Prompt 3
+- 38-50 mins: Prompt 4
+- 50-60 mins: Feedback and Q&A
+
+**Important Notes**: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. It is up to your discretion whether to use visual aids to guide this conversation or not.
 
 ## Engineering
 

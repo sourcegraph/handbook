@@ -116,3 +116,4 @@ Reference:
 - [KPIs](https://sourcegraph.looker.com/boards/20)
 - [Cross-team collaboration](cross-team-collab.md)
 - [Demo day](demo-day.md)
+- [Backstage <> Sourcegraph overview and integration concepts](https://docs.google.com/document/d/1g13hyadsogj-oniBNBHYTxXCS6z3BDqMt-51r6dyeP4/)

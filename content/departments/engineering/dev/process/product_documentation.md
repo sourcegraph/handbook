@@ -40,11 +40,13 @@ Best practices for writing documentation.
 1. Always cross-link to `.md` files, including the file extension, so that the docs are browsable as-is (e.g., in GitHub's file browser).
 1. When you create a new directory, always start with an `index.md` file. Don't use another file name and don't create `README.md` files.
 1. Don't use special chars and spaces, or capital letters in file names, directory names, branch names, and anything that generates a path.
-1. When creating a new document and it has more than one word in its name, use underscores instead of spaces or dashes (`-`). For example, a proper name would be `import_projects_from_github.md`.
+1. When creating a new document, and it has more than one word in its name, use underscores instead of spaces or dashes (`-`). For example, a proper name would be `import_projects_from_github.md`.
 
 ### Images and binary assets
 
-For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`).
+For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`). For a more detailed instructions visit [this page](../../../../handbook/editing/handbook-images-video.md).
+
+**Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.**
 
 ### Administration documentation
 
@@ -66,7 +68,7 @@ Deployment documentation should be structured as follows:
   - "Sourcegraph with X" (`admin/install/X/index.md`). Includes:
     - Installation (`#installation`): how to install Sourcegraph with this method. Can link out to separate guide(s) where appropriate.
       - This gets featured here because a customer will likely only encounter installation once.
-      - Similarly, "Migration to X" (`admin/install/X/migrate.md`) should be in its own page because a custoemr will likely only encounter it once.
+      - Similarly, "Migration to X" (`admin/install/X/migrate.md`) should be in its own page because a customer will likely only encounter it once.
     - About (`#about`): links to background info, some basic ideas, etc.
   - "Operations guides for Sourcegraph with X" (`admin/install/X/operations.md`). This page should be the go-to page for "I need to do something with my X deployment".
     - See [administration documentation best practices](#administration-documentation).
@@ -92,7 +94,7 @@ YAML front matter is optional and is used for adding page metadata that can be u
 
 ### SEO
 
-Similarly, SEO metadata can provided individually for every document, which will help our documentation page to raise its search rank. Every one of them are totally optional.
+Similarly, SEO metadata can be provided individually for every document, which will help our documentation page to raise its search rank. Every one of them are totally optional.
 
 ```yaml
 ---
