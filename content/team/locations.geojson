@@ -594,16 +594,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Molly Weitzel"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-105.279617, 40.016869]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Alex Ostrikov"
             },
             "geometry": {
@@ -659,16 +649,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [18.860151, -33.932106]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Michelle Veronese"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [37.548271, -121.988571]
             }
         },
         {
