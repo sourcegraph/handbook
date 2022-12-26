@@ -65,7 +65,7 @@ iam:
   brief: The IAM team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
   strategy_link: /strategy-goals/strategy/iam/index.md
   pm: ryan_phillips
-  em: diego_comas
+  em: diego_comas_iam
   issue_labels:
     - team/iam
     - team/admin-exp
@@ -92,7 +92,7 @@ repo_management:
   title: Repo Management
   strategy_link: /strategy-goals/strategy/repo-management
   pm: ryan_phillips
-  em: diego_comas
+  em: diego_comas_repo
   issue_labels:
     - team/repo-management
 
