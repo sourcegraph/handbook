@@ -17,7 +17,7 @@ When you’re not “on duty” within your working hours you’ll use this dedi
 - 7am - 11am UTC (11pm - 3am PST): Rakesh & Michael
 - 11am - 3pm UTC (3am - 7am PST): Mariam & Stompy
 - 3pm - 7pm UTC (7am - 11am PST): Alex & Jason
-- 7pm - 11pm UTC (11am - 3pm PST): Amber & Jon
+- 7pm - 11pm UTC (11am - 3pm PST): TBD & Jon
 - 11pm - 2am UTC (3pm - 6pm PST): Gabe & Warren
 
 ## Working Hours
@@ -27,7 +27,6 @@ Our schedule is reflected in the working hours set in our calendars.
 | Team member | Local hours    | UTC hours   | Pacific hours |
 | ----------- | -------------- | ----------- | ------------- |
 | Alex        | 9am–5pm        | 14:00–22:00 | 6am–2pm       |
-| Amber       | 9am–5pm        | 16:00–00:00 | 8am–4pm       |
 | Gabe        | 10am–6pm       | 18:00–02:00 | 10am–6pm      |
 | Jason       | 9am–5pm        | 15:00–23:00 | 7am–3pm       |
 | Jon         | 10am–6pm       | 18:00–02:00 | 8am–4pm       |
