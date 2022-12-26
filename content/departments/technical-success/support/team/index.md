@@ -3,7 +3,6 @@
 Our README expands on our profile in [the company team directory](../../../../team/index.md) and are meant to help us orient to one another.
 
 - Alex [README](alex-readme.md)
-- Amber [README](amber-readme.md)
 - Gabe [README](gabe-readme.md)
 - Jason [README](jason-readme.md)
 - Jon [README](jon-readme.md)
