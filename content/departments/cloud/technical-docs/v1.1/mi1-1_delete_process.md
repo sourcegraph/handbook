@@ -85,7 +85,7 @@ source tfvars.env
 
 By default, the KMS Crypto Key and CloudS QL instance is prevented from being deleted. This must be changed in order for Terraform to remove all resources.
 
-- Disable Cloud SQL delete protection by running
+- Disable Cloud SQL delete protection by running:
 
   ```sh
   mi tf-remove-delete-protection
