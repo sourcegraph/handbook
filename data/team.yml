@@ -910,17 +910,6 @@ gabe_torres:
   links: '[LinkedIn](https://www.linkedin.com/in/gabtorres/)'
   description: Gabe is a developer from Los Angeles with a background in design. He enjoys sports, fitness, gaming, reading, exploring new places with his dog Bruno, and staring at art.
 
-amber_furbush:
-  name: Amber Furbush
-  pronouns: She/her
-  role: Support Engineer
-  reports_to: vp_customer_engineering
-  location: Commerce City, CO, US
-  github: amberfurbush0317
-  email: amber@sourcegraph.com
-
-  description: Amber joins Sourcegraph previously worked in customer success roles prior to joining Sourcegraph. In her free time, Amber likes to spend time with her family, learn about different technologies, history and making new friends.
-
 jason_harris:
   name: Jason Harris
   pronouns: He/Him
@@ -1114,6 +1103,22 @@ diego_comas:
   links: '[LinkedIn](https://www.linkedin.com/in/diegocomas)'
   description: Diego lives in Barcelona, with his wife and two kids. He is passionate about technology, sci-fi movies and football(soccer). In the last 10 years he lived in London (UK) and worked for tech startups and scale ups building teams and helping them improve their security posture. Diego never misses a game of his local team FC Barcelona 🏟. In his spare time (if kids allow!) he likes to play football ⚽️, other sports like padel tennis 🎾 and sailing ⛵️ in the Costa Brava.
 
+diego_comas_iam:
+  name: Diego Comas
+  pronouns: he/him/his
+  role: Engineering Manager, Identity and Access Management
+  reports_to: ceo
+  manager_role_slug: engineering_manager_iam
+  hide_on_team_page: true
+
+diego_comas_repo:
+  name: Diego Comas
+  pronouns: he/him/his
+  role: Engineering Manager, Repo Management
+  reports_to: ceo
+  manager_role_slug: engineering_manager_repo
+  hide_on_team_page: true
+
 andrew_hsu:
   name: Andrew Hsu
   pronouns: he/him
@@ -1253,26 +1258,6 @@ rafal_gajdulewicz:
   links: '[LinkedIn](https://www.linkedin.com/in/gajdulewicz/)'
   description: Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
 
-jordan_plahn:
-  name: Jordan Plahn
-  pronouns: he/him
-  role: Engineering Manager, Repo Management
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_repo
-  location: Seattle, WA, USA 🇺🇸
-  github: jplahn
-  email: jordan.plahn@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jplahn)'
-  description: Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washington, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
-
-jordan_plahn_iam:
-  name: Jordan Plahn
-  pronouns: he/him
-  role: Engineering Manager, Identity and Access Management
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_iam
-  hide_on_team_page: true
-
 varun_gandhi:
   name: Varun Gandhi
   pronouns: he/him
@@ -1372,16 +1357,6 @@ Daniel_Gwyn:
   role: Sales Dev Rep
   reports_to: head_sales_development
   location: Raleigh, NC, USA
-
-molly_weitzel:
-  name: Molly Weitzel
-  email: molly.weitzel@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/mollyweitzel/)'
-  github: mollylogue
-  role: Software Engineer
-  reports_to: engineering_manager_repo
-  location: Boulder, CO, USA
-  description: Molly lives in Boulder, CO with her husband Matthew. In her free time she enjoys outdoor activities such as rock climbing, running, hiking, and skiing.
 
 alex_ostrikov:
   name: Alexander Ostrikov
@@ -1681,17 +1656,6 @@ idan_varsano:
   location: Toronto, Canada 🇨🇦
   links: '[GitHub](https://github.com/varsanojidan)'
   description: Idan is software enginerr living in Toronto Canada. He enjoys working out, spending time with friends and family, and looking for new fried chicken/donut places to try out. Feel free to chat to him about anything gaming or garbage reality TV related.
-
-michelle_veronese:
-  name: Michelle Veronese
-  email: michelle.veronese@sourcegraph.com
-  github: miveronese
-  pronouns: she/her
-  role: Software Engineer
-  reports_to: engineering_manager_iam
-  location: Fremont, CA, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/michelleveronese)'
-  description: Michelle lives in the San Francisco Bay Area with her husband, Herval, and Frodo, a shih tzu dog that loves adventures. She grew up in Brazil and, before becoming a software engineer, worked as a journalist. In her free time, she likes reading, hiking and cooking Northeastern Brazilian recipes such as cuscuz and tapioca.
 
 maureen_loughrey:
   name: Maureen Loughrey

@@ -38,23 +38,41 @@ similar to GitHub, a Terraform Cloud account is separate to access to the organi
 only grants access to the Sourcegraph Terraform Cloud organization. Create an account and proceed
 as normal.
 
+# Creating a new Terraform Cloud workspace
+
+1. Create a new module for your workspace following the example [here][security-module].
+   - Place the module in the most appropriate file in the `infrastructure/terraform-cloud` folder, or
+     create a new file for the module if none of the existing files are sufficient.
+   - The `team_access` values can be found [here][tfc-permissions].
+   - `trigger_patterns` and `working_directory` should refer to the folder of Terraform configuration
+     you are creating the workspace for
+   - The workspace `name` should be unique – ideally, use the location of the folder within the
+     `infrastructure` repo, with the `/`s replaced by `-`
+1. Request a Terraform Cloud admin to apply the changes in either #cloud or #security.
+
+[security-module]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/security.tf?L1
+
 # Migrating to Terraform Cloud
 
-Instructions for migrating a set of Terraform Cloud resources can be found [here][migration]. Migrating
-to a Terraform Cloud workspace is easy, but migrating back is slightly more convoluted, so only
-migrate if you're certain that you are ready to manage the resources in question with Terraform Cloud.
+To move a folder of Terraform configuration that currently uses the GCS backend:
 
-Look at the configuration of other workspaces, for example the `infrastructure-security` workspace,
-to understand some common settings which you might want to apply.
+1. Create a workspace for the folder in the most appropriate file [here][terraform-cloud-folder],
+   with `auto_apply` set to `false`. This prevents Terraform Cloud from applying any changes before
+   the state has been migrated. See [here][tfc-workspace-creation] for an example of such a change.
+   Team permissions are defined [here][tfc-permissions].
+1. Request a Terraform Cloud admin to apply the changes in either #cloud or #security once they are
+   landed.
+1. Within the folder that you are looking to migrate, follow the instructions found [here][migration].
+1. Once the migration is completed, run a `terraform plan` in the migrated folder to ensure that
+   there are no unexpected planned changes.
 
-Some recommended settings:
+Migrating to a Terraform Cloud workspace is easy, but migrating back is slightly more convoluted,
+so only migrate if you're certain that you are ready to manage the resources in question with
+Terraform Cloud.
 
-1. In the 'Version control' section of the workspace settings, select `Only trigger runs when files
-in specified paths change`, and configure patterns to only trigger when the Terraform files you
-   care about are changed.
-2. In the same section, also select `Automatic speculative plans`. This enables the GitHub check
-   that occurs on opening a pull request.
-
+[terraform-cloud-folder]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/terraform-cloud
+[tfc-workspace-creation]: https://github.com/sourcegraph/infrastructure/pull/4388
+[tfc-permissions]: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/locals.tf
 [migration]: https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-migrate
 
 # Slack integration
@@ -66,3 +84,15 @@ in the Notifications section of the relevant workspace's settings.
 # OPA policy enforcement
 
 We use Terraform Cloud to scan our IaC. We currently scan Cloud v2-related code through TF Cloud. This is done through [OPA policies](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/opa) in the `cloud-opa-policy` Policy Set. Every Cloud v2 is automatically added to the Policy Set. The code containing the OPA policies in Rego can be found [here](https://github.com/sourcegraph/infrastructure/tree/main/security/tooling/opa-policies).
+
+# Terraform Cloud state backup
+
+Terraform Cloud workspaces contain all versions of a folder's state – if you delete a workspace, you
+also delete all of the previously stored state. Hashicorp doesn't store a backup of workspace or state
+data.
+
+In order to have some way of backing up state outside Terraform Cloud in case workspaces are accidentally
+destroyed, we have a tool that backs up our Terraform Cloud state into GCS on the completion of runs
+in Terraform Cloud. You can read more about it [here][tfc-state-backup].
+
+[tfc-state-backup]: https://github.com/sourcegraph/infrastructure/tree/main/security/terraform/functions-src-code/tfc-state-backup
