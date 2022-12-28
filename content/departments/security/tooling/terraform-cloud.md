@@ -24,19 +24,23 @@ found [here][admin].
 
 # Logging into Terraform Cloud
 
-Access to Terraform Cloud is currently limited to the following teams:
+All of Engineering has access to view and plan changes to specific shared workspaces in Terraform Cloud.
+The workspaces in question can be seen [here][org-access].
 
-- Cloud
-- DevEx
-- Security
+The Cloud, DevEx, and Security teams have workspace write access to the workspaces relevant to their
+work.
 
-To access Terraform Cloud, if you are a member of one of these teams, go to your Okta dashboard and
-click on the Terraform Cloud tile.
+If you believe that you need more access to a Terraform Cloud workspace than you currently have, post
+in #security with the access that you need and someone from the team will assist you.
+
+To access Terraform Cloud go to your Okta dashboard and click on the Terraform Cloud tile.
 
 If it's your first login, you might be asked to create a Terraform Cloud account. This is normal –
 similar to GitHub, a Terraform Cloud account is separate to access to the organization. Our SSO setup
 only grants access to the Sourcegraph Terraform Cloud organization. Create an account and proceed
 as normal.
+
+[org-access]: https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24+local.allow_org_plan_access&patternType=standard&sm=1&groupBy=path
 
 # Creating a new Terraform Cloud workspace
 
