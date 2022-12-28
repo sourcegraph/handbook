@@ -431,11 +431,11 @@ The agenda for the meeting will go as follows:
 
 **Purpose of this exercise**
 
-As our new Senior People Ops Generalist, you will be building processes and programs, and supporting our business objectives through key people initiatives. Our culture is built on transparency, and our [handbook](https://handbook.sourcegraph.com/) is the pilar to providing all teammates access to the who, what, why, and how as it relates to People resources and processes. We want you to poke holes in our handbook and help us make it better (because we know we still have room to grow and improve!)
+As our new Senior People Ops Generalist, you will be building processes and programs, and supporting our business objectives through key people initiatives. Our culture is built on transparency, and our [handbook](../../../../index.md) is the pilar to providing all teammates access to the who, what, why, and how as it relates to People resources and processes. We want you to poke holes in our handbook and help us make it better (because we know we still have room to grow and improve!)
 
 **Prompt 1:**
 
-1. Choose one of the following handbook pages to review: [Impact Reviews ](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/) **_or_** [Onboarding](https://handbook.sourcegraph.com/company-info-and-process/onboarding/)
+1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../../../company-info-and-process/onboarding/index.md)
 2. Come up with ideas on how you would improve this page and/or process for our teammates. _Things to consider:_
    1. Does the content set clear expectations on what to expect?
    2. Have we accounted for common questions teammates may have? If not, what’s missing? Is the answer located elsewhere in the handbook?
@@ -446,7 +446,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 **Prompt 2:**
 
-1. Review the[ Resources for Teammates Section](https://handbook.sourcegraph.com/departments/people-talent/#resources-for-teammates) in the handbook. (you can consider this the source of truth for all resources the people team has compiled to best support our teammates)
+1. Review the[Resources for Teammates Section](../../index.md#resources-for-teammates) in the handbook. (you can consider this the source of truth for all resources the people team has compiled to best support our teammates)
 2. During the working session, we expect you to provide us with your feedback on how it could be better.
    Things to consider:
    1. Are you able to easily find an answer to common ‘people’ related questions? If not, what’s missing?
