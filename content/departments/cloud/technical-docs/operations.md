@@ -19,8 +19,15 @@ To perform any MI operations, you need to meet the following requirement
 
    Access to Managed Instances is governed by our [Cloud Access Control Policy](../../engineering/dev/policies/cloud-access-control-policy.md#customer-instances).
    You need to have the required level of access to perform the operations described here.
+   
+2. Have Google Cloud CLI installed & authenticated
+   ```sh
+    Download Gcloud install package from https://cloud.google.com/sdk/docs/install-sdk and follow the instructions under it to install the script.
+    Confirm your installation by running `gcloud version`
+    Run `gcloud auth login` to authenticate gcloud and follow the instructions prompted on your browser
+   ```
 
-1. Have the CLI installed & configured
+3. Have the CLI installed & configured
    ```sh
    git clone git@github.com:sourcegraph/deploy-sourcegraph-managed.git
    cd deploy-sourcegraph-managed
