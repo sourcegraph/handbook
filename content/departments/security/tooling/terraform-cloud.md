@@ -27,7 +27,7 @@ found [here][admin].
 All of Engineering has access to view and plan changes to specific shared workspaces in Terraform Cloud.
 The workspaces in question can be seen [here][org-access].
 
-The Cloud, DevEx and Security teams have workspace write access to the workspaces relevant to their
+The Cloud, DevEx, and Security teams have workspace write access to the workspaces relevant to their
 work.
 
 If you believe that you need more access to a Terraform Cloud workspace than you currently have, post
