@@ -250,17 +250,6 @@ adam_harvey:
   pronunciation: '[/ˈadəm hˈɑːvi/](http://ipa-reader.xyz/?text=%CB%88ad%C9%99m%20h%CB%88%C9%91%CB%90vi&voice=Brian)'
   description: "Adam plays cricket, yells at hockey teams, and spends an inordinate amount of time convincing his golden retriever to drop things. He started his technology journey with an IBM XT in the 80s, and never looked back once he discovered the GW-BASIC `RENUM` command. Technologically, Adam enjoys programming language design, convincing runtimes to work on hardware they weren't designed to, and deluding himself that abusing CSS animations is exactly what his film degree qualified him to do."
 
-christine_lovett:
-  name: Christine Lovett
-  pronouns: she/her
-  role: Principal Customer Engineer
-  reports_to: vp_customer_engineering
-  location: Baltimore MD, USA 🇺🇸
-  github: christinelovett
-  email: christine@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/lovettchristine/)'
-  description: Christine is a biking, music and general fun enthusiast who likes to balance her travels exploring nature and city. Before Sourcegraph, Christine spent a few years in sales, then software development- ultimately merging her skillset in customer engingeering roles at Docker and Google. She has a strong appreciation for modern development tools and reducing friction in IT.
-
 stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him
