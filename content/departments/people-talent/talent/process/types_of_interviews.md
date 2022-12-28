@@ -446,9 +446,9 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 **Prompt 2:**
 
-1. Review the[Resources for Teammates Section](../../index.md#resources-for-teammates) in the handbook. (you can consider this the source of truth for all resources the people team has compiled to best support our teammates)
+1. Review the [Resources for Teammates Section](../../index.md#resources-for-teammates) in the handbook. (you can consider this the source of truth for all resources the people team has compiled to best support our teammates)
 2. During the working session, we expect you to provide us with your feedback on how it could be better.
-   Things to consider:
+   _Things to consider:_
    1. Are you able to easily find an answer to common ‘people’ related questions? If not, what’s missing?
    2. Is there a “coming soon” section or missing HR pillar that you would prioritize adding to the handbook?
 3. **Deliverable:** If you had the ability to re-organize this section in any way you wanted, what would your ideal Table of Contents look like? Share your idea with us in any format you chose prior to the working session!
