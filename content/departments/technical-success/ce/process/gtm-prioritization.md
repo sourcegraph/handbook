@@ -16,12 +16,15 @@ Our customer's voices need to be heard and need to be reflected in the Product a
 ### FAQ
 
 #### Why do we use Product Gaps when all of the Engineering work is done in GitHub? Feels lke double-documentation that can get out of sync.
+
 Product Gaps are pivotal to us collecting account, opportunity, and revenue information that can't be found in GitHub. Ultimately, it is the Engineering TPM's responsibility for managing Product Gaps after they're created, making sure they are accurately up-to-date-, and ensuring there is linking between the Product Gaps and their associated GitHub Issues. This will provide improved visibility into the status of each Product Gap's resolution, while allowing for continued analysis of impacted customers and revenue. If you have issues with Product Gaps that you want addressed, feel free to drop that feedback in #wg-backlog-prioritization.
 
 Note - We are actively looking into cleaning up any existing inaccuracies in Product Gaps so you can move forward feeling confident in the documentation.
 
 #### What happens to Product Gaps that aren't selected for the GTM 'Top 10' List?
+
 Product Gaps not selected as the highest current GTM priority will still be reviewed by PMs and added to the backlog. Being selected for the 'Top 10' list simply conveys the priority to Product and Engineering, greatly increases the likelyhood of that project being selected and the urgency with which those projects will be addressed. Also, the 'Top 10' list is fluid as Product Gaps are addressed, so gaps that aren't currently list may be on the list in the future.
 
 #### I have concerns with the current 'Top 10' list. What do I do?
+
 Please provide that feedback in #wg-backlog-prioritization and tag the GTM TPM (Andrew Norrish).
