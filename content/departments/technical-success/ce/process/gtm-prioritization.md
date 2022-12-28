@@ -14,4 +14,3 @@ Our customer's voices need to be heard and need to be reflected in the Product a
 4. <b>Resolution</b> - Once on the overall Job Fair board and Product Roadmap, resolution of the Product Gaps will follow standard engineering processes. After being resolved and released, the resoponsible Proiduct/Engineering members will update the resolved Product Gaps, and the next highest priority Product Gap will take it's place in the GTM 'Top 10' Product Gap list.
 
 ### FAQ
-
