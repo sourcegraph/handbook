@@ -115,7 +115,7 @@ to apply your changes, follow the instructions for [making and applying a change
 
 If you're not sure whether the folder of Terraform configuration that you're changing has been onboarded
 onto Terraform Cloud or not, look for the `terraform { ... }` block that defines the providers and
-backends for the folder. 
+backends for the folder.
 
 Folders that have been onboarded to Terraform Cloud will have a `cloud { ... }` block within the
 `terraform { ... }` block, and those that haven't been onboarded will have a `backend "gcs" { ... }`
