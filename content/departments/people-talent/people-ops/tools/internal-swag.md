@@ -78,7 +78,7 @@ The People team sends a new baby gift at the beginning of a teammates' parental 
 
 ## Work anniversary and birthday gifting
 
-The People team is  responsible for sending anniversary and birthday gifts to their teammates. Managers are responsible for sending the teammates a note via Slack.
+The People team is responsible for sending anniversary and birthday gifts to their teammates. Managers are responsible for sending the teammates a note via Slack.
 
 Each week, the People-Ops Team pulls the Birthday/Anniversary report from Bamboo. The People-Ops Team will audit the report and complete these two actions:
 
@@ -86,10 +86,10 @@ Each week, the People-Ops Team pulls the Birthday/Anniversary report from Bamboo
 
    Message Template: \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date]. The People team is sending a gift, but we need you to please:
 
-  - _Make a post in the #thanks channel (suggestions can be found here)_
-  - _Respond with a :white_check_mark: when you're done!_
+- _Make a post in the #thanks channel (suggestions can be found here)_
+- _Respond with a :white_check_mark: when you're done!_
 
-2. Order a [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie) gift for each teammate who is celebrating a birthday or anniversary that week. 
+2. Order a [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie) gift for each teammate who is celebrating a birthday or anniversary that week.
 
 On the 1st of each month, the People-Ops team will send an email to finance@sourcegraph.com with a breakdown of the charges that have been placed on the Loop & Tie card by each team.
 
