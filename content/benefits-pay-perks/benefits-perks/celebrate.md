@@ -105,18 +105,16 @@ Please reach out in the #swag channel with any questions.
 
 ## Birthdays
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to send a gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below.
+The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. Standard pracice is to send a $50 [Loop & Tie](celebrate.md#Loop-&-Tie) gift. Alternatively, we can let the teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
 
-**Birthday gift budget:** the gift will be coming from the individual's _team budget_ and should not exceed **$50 USD** per teammate and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
 
-Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated. With the teammate's permission, managers should follow the below steps:
+- Team post suggestions:
+  - Announce the occasion: "Wishing a happy birthday to [name]!..."
+  - Personalize the message based on the particular individual
+  - TIP: You can pre-schedule your Slack messages to send on the correct dates
 
-- Send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift within the [birthday gift amount policy](celebrate.md#Birthday-gift-budget). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
-- Post about the occasion in team Slack channel or 1:1
-  - Team post suggestions:
-    - Announce the occasion: "Wishing a happy birthday to [name]! Please treat yourself to a $50 gift and celebrate!"
-    - Personalize the message based on the particular individual
-    - TIP: You can pre-schedule your Slack messages to send on the correct dates
+Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated.
 
 Sourcegraph encourages teammates to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If a Teammate's celebration happens to fall over a weekend, please be sure to take an alternate day such as the Friday prior or the Monday after.
 
@@ -128,11 +126,22 @@ To view and add the BambooHR "Birthdays" calendar to your Google Calendar, pleas
 - Paste link in **URL of calendar** box
 - Click **Add calendar**
 
+### Birthday gift budget
+
+The gift will be coming from the individual's _team budget_ and should not exceed **$50 USD** per teammate and per year. It is also advisable to spend the same amount for each person on the team to create fairness within the group.
+
 ## Work anniversaries
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to send a gift that is in line with the anniversary budgets listed below.
+The People team is responsible for sending an anniversary gift that is in line with the [anniversary budgets](celebrate.md#anniversary-gift-budget) listed below. Standard pracice is to send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
 
-#### Anniversary gift budget
+Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
+
+- Post suggestions:
+  - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
+  - Highlight the teammates' key contributions and impact they've made
+  - TIP: You can pre-schedule your Slack messages to send on the correct dates!
+
+### Anniversary gift budget
 
 Anniversary gifts will be coming from the individual's _team budget_ and should not exceed the following amounts per teammate and per year:
 
@@ -141,15 +150,6 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 - Year 3: $150 USD
 - Year 4: $200 USD
 - Year 5+: $250 USD
-
-#### Celebrating an anniversary
-
-- The manager posts a written or video message in the #thanks channel
-  - Post suggestions:
-    - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
-    - Highlight the teammates' key contributions and impact they've made
-    - TIP: You can pre-schedule your Slack messages to send on the correct dates!
-- The manager [sends a Loop & Tie gift](celebrate.md#Loop-&-Tie) within the anniversary gift budget. Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
 
 ## Promotions
 
