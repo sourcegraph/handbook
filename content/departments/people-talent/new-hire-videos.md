@@ -18,7 +18,7 @@ Completed new hire video compilations can be found [here](https://drive.google.c
 ## Creating the new hire video compilation
 
 1. Open iMovie and click ‘Create New’, then select ‘Movie’.
-2. We begin each new hire video with a clip of the Sourcegraph logo, which can be found here. Download that logo clip, then drag and drop it into the iMovie video frame.
+2. We begin each new hire video with a clip of the Sourcegraph logo, which can be found [here](https://drive.google.com/file/d/1i4dlE7CQhGoG8sLzrbvZw8x65a3xiQJA/view). Download that logo clip, then drag and drop it into the iMovie video frame.
 3. Then drag and drop each new hire’s video clip into the video frame after the logo clip. Make sure they are organized one after another and don’t overlap.
 4. Select ‘Transitions’ and drag the “Slide Left” transition into the space between each of the video clips. This will create a smooth transition between each section of the video compilation.
 5. Next we want to add pop-up text to the first 4 seconds of each new hire’s video clip. The text will feature the new hire’s First Name, Last Name, and Job Title. To do this, open Keynote and select the ‘Basic Black’ presentation.

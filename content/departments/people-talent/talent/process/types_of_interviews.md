@@ -421,6 +421,39 @@ The agenda for the meeting will go as follows:
 - We will provide the detailed scenarios via email 24 hours before your scheduled interview.
 - Note: you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
 
+### Senior People Operations Generalist working session
+
+**Working Session Agenda (45m):**
+
+- Prompt 1 (15m)
+- Prompt 2 (15m)
+- Q&A (15m)
+
+**Purpose of this exercise**
+
+As our new Senior People Ops Generalist, you will be building processes and programs, and supporting our business objectives through key people initiatives. Our culture is built on transparency, and our [handbook](../../../../index.md) is the pilar to providing all teammates access to the who, what, why, and how as it relates to People resources and processes. We want you to poke holes in our handbook and help us make it better (because we know we still have room to grow and improve!)
+
+**Prompt 1:**
+
+1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../../../company-info-and-process/onboarding/index.md)
+2. Come up with ideas on how you would improve this page and/or process for our teammates. _Things to consider:_
+   1. Does the content set clear expectations on what to expect?
+   2. Have we accounted for common questions teammates may have? If not, what’s missing? Is the answer located elsewhere in the handbook?
+   3. What could be better from a process perspective?
+   4. What people data or analytics would you incorporate as part of your recommendation to improve this process?
+3. **Deliverable:** Put together a brief sample of content (4-5 sentences) that relates to _one_ of the improvements you would suggest and add to this handbook page on day 1! (Please send this via email prior to the live working session)
+4. **Working Session:** During the live working session, we expect you to share your feedback and recommendations in any format that you chose. This is a collaborative exercise where you can come in with your perspectives and any questions you have for us regarding the handbook page you chose!
+
+**Prompt 2:**
+
+1. Review the [Resources for Teammates Section](../../index.md#resources-for-teammates) in the handbook. (you can consider this the source of truth for all resources the people team has compiled to best support our teammates)
+2. During the working session, we expect you to provide us with your feedback on how it could be better.
+   _Things to consider:_
+   1. Are you able to easily find an answer to common ‘people’ related questions? If not, what’s missing?
+   2. Is there a “coming soon” section or missing HR pillar that you would prioritize adding to the handbook?
+3. **Deliverable:** If you had the ability to re-organize this section in any way you wanted, what would your ideal Table of Contents look like? Share your idea with us in any format you chose prior to the working session!
+4. **Working Session:** During the live working session, we expect you to walk us through why you chose the structure that you did and also share your overall feedback on how to improve our “source of truth”.
+
 ## Product
 
 ### Product manager
