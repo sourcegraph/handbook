@@ -106,13 +106,15 @@ Please reach out in the #swag channel with any questions.
 ## Birthdays
 
 The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below.
+
 - Standard pracice is to send a $50 [Loop & Tie](celebrate.md#Loop-&-Tie) gift. Alternatively, we can let the teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
 
 Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
-  - Team post suggestions:
-    - Announce the occasion: "Wishing a happy birthday to [name]!..."
-    - Personalize the message based on the particular individual
-    - TIP: You can pre-schedule your Slack messages to send on the correct dates
+
+- Team post suggestions:
+  - Announce the occasion: "Wishing a happy birthday to [name]!..."
+  - Personalize the message based on the particular individual
+  - TIP: You can pre-schedule your Slack messages to send on the correct dates
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated.
 
@@ -127,18 +129,21 @@ To view and add the BambooHR "Birthdays" calendar to your Google Calendar, pleas
 - Click **Add calendar**
 
 ### Birthday gift budget
+
 The gift will be coming from the individual's _team budget_ and should not exceed **$50 USD** per teammate and per year. It is also advisable to spend the same amount for each person on the team to create fairness within the group.
 
 ## Work anniversaries
 
 The People team is responsible for sending an anniversary gift that is in line with the [anniversary budgets](celebrate.md#anniversary-gift-budget) listed below.
+
 - Standard pracice is to send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
 
 Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
-  - Post suggestions:
-    - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
-    - Highlight the teammates' key contributions and impact they've made
-    - TIP: You can pre-schedule your Slack messages to send on the correct dates!
+
+- Post suggestions:
+  - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
+  - Highlight the teammates' key contributions and impact they've made
+  - TIP: You can pre-schedule your Slack messages to send on the correct dates!
 
 ### Anniversary gift budget
 
