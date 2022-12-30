@@ -238,17 +238,6 @@ marek_zaluski:
   links: '[Twitter](https://twitter.com/marekweb)'
   description: "Marek is a JavaScript and TypeScript developer with an interest in developer tools and tech education. He occasionally teaches programming courses and contributes to coding bootcamps, and he previously ran a software consulting agency. He lives in Canada's capital with his wife and his jack russell terrier 🐕."
 
-christine_lovett:
-  name: Christine Lovett
-  pronouns: she/her
-  role: Principal Customer Engineer
-  reports_to: vp_customer_engineering
-  location: Baltimore MD, USA 🇺🇸
-  github: christinelovett
-  email: christine@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/lovettchristine/)'
-  description: Christine is a biking, music and general fun enthusiast who likes to balance her travels exploring nature and city. Before Sourcegraph, Christine spent a few years in sales, then software development- ultimately merging her skillset in customer engingeering roles at Docker and Google. She has a strong appreciation for modern development tools and reducing friction in IT.
-
 stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him

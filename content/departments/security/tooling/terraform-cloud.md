@@ -103,10 +103,23 @@ in Terraform Cloud. You can read more about it [here][tfc-state-backup].
 
 [tfc-state-backup]: https://github.com/sourcegraph/infrastructure/tree/main/security/terraform/functions-src-code/tfc-state-backup
 
-# Troubleshooting
+# Troubleshooting and FAQs
 
-1. If you receive the error 'Error: Apply not allowed for workspaces with a VCS connection', this is
-   because you are attempting to run `terraform apply` in a folder managed by Terraform Cloud. In order
-   to apply your changes, follow the instructions for [making and applying a change to our infrastructure][change-instructions].
+## Apply not allowed
 
-   [change-instructions]: #making-and-applying-a-change-to-our-infrastructure
+If you receive the error 'Error: Apply not allowed for workspaces with a VCS connection', this is
+because you are attempting to run `terraform apply` in a folder managed by Terraform Cloud. In order
+to apply your changes, follow the instructions for [making and applying a change to our infrastructure][change-instructions].
+
+## Is this folder managed by Terraform Cloud?
+
+If you're not sure whether the folder of Terraform configuration that you're changing has been onboarded
+onto Terraform Cloud or not, look for the `terraform { ... }` block that defines the providers and
+backends for the folder.
+
+Folders that have been onboarded to Terraform Cloud will have a `cloud { ... }` block within the
+`terraform { ... }` block, and those that haven't been onboarded will have a `backend "gcs" { ... }`
+block. For the latter, you will need to follow the legacy workflow and apply your changes manually
+using `terraform apply` from your laptop.
+
+[change-instructions]: #making-and-applying-a-change-to-our-infrastructure
