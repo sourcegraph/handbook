@@ -12,12 +12,12 @@ The best way to nominate an event for consideration is by submitting the Google 
 
 Make sure to submit all of the below information in your request:
 
+[Event & Sponsorship Nomination Google Form](https://docs.google.com/forms/d/130MnM0-HCWIPafWlHEV-h-T9Sb06OLQJ3oM4gdBIPwM/prefill)
+
 - Event Name
 - Date and Location
 - Requested Sponsorship Level, if available
 - Partnership or Opportunity
-
-- [Event & Sponsorship Nomination Google Form](https://docs.google.com/forms/d/130MnM0-HCWIPafWlHEV-h-T9Sb06OLQJ3oM4gdBIPwM/prefill)
 
 ## Attending an Event
 
