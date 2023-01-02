@@ -10,9 +10,9 @@ We always welcome feedback and suggestions from our cross-functional partners at
 
 The best way to nominate an event for consideration is by submitting the Google Form, linked below. Updates around your request will be communicated as we have them in the #events Slack channel.
 
-Make sure to submit all of the below information in your request:
-
 [Event & Sponsorship Nomination Google Form](https://docs.google.com/forms/d/130MnM0-HCWIPafWlHEV-h-T9Sb06OLQJ3oM4gdBIPwM/prefill)
+
+Make sure to submit all of the below information in your request:
 
 - Event Name
 - Date and Location
