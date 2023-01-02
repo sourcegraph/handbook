@@ -107,7 +107,7 @@ Please reach out in the #swag channel with any questions.
 
 The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. Our standard practice is to send a $50 [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
+Managers will receive a Slack reminder and an email from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
 
 - Team post suggestions:
   - Announce the occasion: "Wishing a happy birthday to [name]!..."
@@ -134,7 +134,7 @@ The gift will be coming from the individual's _team budget_ and should not excee
 
 The People team is responsible for sending an anniversary gift that is in line with the [anniversary budgets](celebrate.md#anniversary-gift-budget) listed below. Standard pracice is to send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
+Managers will receive a Slack reminder and email from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
 
 - Post suggestions:
   - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
