@@ -105,7 +105,7 @@ Please reach out in the #swag channel with any questions.
 
 ## Birthdays
 
-The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. Standard pracice is to send a $50 [Loop & Tie](celebrate.md#Loop-&-Tie) gift. Alternatively, we can let the teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
+The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. Our standard practice is to send a $50 [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
 
 Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
 
