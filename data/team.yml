@@ -2232,3 +2232,14 @@ peter_guy:
   location: Grants Pass, OR, USA 🇺🇸
   links: '[LinkedIn](https://linkedin.com/in/peter-guy)'
   description: Peter enjoys crafting beautiful code and finding elegant solutions to difficult problems. Since both of those are somewhat rare occurances, he satisfies himself with shippable code and pragmatic solutions.😄 Outside of programming, he enjoys his family, pets, and small ranch in the beautiful Siskiyous of Southern Oregon.
+
+kevin_matthews:
+  name: Kevin Matthews 
+  email: kevin.matthews@sourcegraph.com
+  github: CSMonkee
+  pronouns: he/him
+  role: Enterprise Technical Advisor
+  reports_to: bill_caplin
+  location: Ringwood, UK
+  links: '[LinkedIn](https://www.linkedin.com/in/kevin-matthews-b165a63/)'
+  description: Kevin has a passion for helping customers utilise technology to solve their business challenges. 
