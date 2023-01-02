@@ -134,7 +134,7 @@ The gift will be coming from the individual's _team budget_ and should not excee
 
 The People team is responsible for sending an anniversary gift that is in line with the [anniversary budgets](celebrate.md#anniversary-gift-budget) listed below. Standard pracice is to send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
 
-Managers will receive a Slack reminder and email from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel. 
+Managers will receive a Slack reminder and email from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
 
 - Post suggestions:
   - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
