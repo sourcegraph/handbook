@@ -216,9 +216,9 @@ For team members taking >2 weeks of leave
 Preparing for your first day back:
 
 - **Step 1: Confirm your return-to-work date**
-  - 2 weeks leading up to your return-to-work date, send an email to the Sparrow team and CC [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) to confirm your return-to-work date.
+  - 2 weeks leading up to your return-to-work date, send an email to people-ops@sourcegraph.com to confirm your return-to-work date. If you are a US teammate, please make sure the Sparrow team is included on the email thread.
   - Once your return-to-work date is confirmed, People Ops will confirm your return date with your manager to prepare for your return!
-  - If your return-to-work date needs to be updated, please notify the Sparrow team and People Ops via email as soon as possible. Any extensions will need to be approved by your manager and confirmed by the People Team.
+  - If your return-to-work date needs to be updated, please notify People Ops via email as soon as possible. If you are a US teammate, please make sure the Sparrow team is included on the email thread. Any extensions will need to be approved by your manager and confirmed by the People Team.
 - **Step 2: Update availability and systems**
   - Your Slack status may still be set as OOO – don’t forget to update this to signal to folks that you’re back!
   - If you set up an auto-response or email forwarding for your email, make sure to update your email settings.
