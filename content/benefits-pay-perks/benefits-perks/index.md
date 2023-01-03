@@ -40,7 +40,7 @@ Your paycheck automatically includes a fixed reimbursement for $75 of mobile pho
 
 ### 🎧 Desk set-up
 
-We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](spending-company-money.md#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible. Receipts for any expense over $25 are required.
+We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](spending-company-money.md#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible. Receipts for any expense over $25 are required. The budget does not expire and can be used at any point in time during your tenure at Sourcegraph.
 
 ### 🏢 Co-working space
 

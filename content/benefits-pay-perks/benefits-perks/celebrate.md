@@ -105,9 +105,9 @@ Please reach out in the #swag channel with any questions.
 
 ## Birthdays
 
-The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. Standard pracice is to send a $50 [Loop & Tie](celebrate.md#Loop-&-Tie) gift. Alternatively, we can let the teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
+The People team is responsible for sending a birthday gift that is in line with the [birthday budget](celebrate.md#Birthday-gift-budget) listed below. Our standard practice is to send a $50 [Loop & Tie](celebrate.md##loop--tie) gift.
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
+Managers will receive a Slack reminder and an email from BambooHR when one of their direct reports has an upcoming birthday and it is the manager's responsibility to post about the occasion in team Slack channel or 1:1
 
 - Team post suggestions:
   - Announce the occasion: "Wishing a happy birthday to [name]!..."
@@ -132,9 +132,9 @@ The gift will be coming from the individual's _team budget_ and should not excee
 
 ## Work anniversaries
 
-The People team is responsible for sending an anniversary gift that is in line with the [anniversary budgets](celebrate.md#anniversary-gift-budget) listed below. Standard pracice is to send a [Loop & Tie](celebrate.md#Loop-&-Tie) gift.
+The People team is responsible for sending an anniversary gift that is in line with the [anniversary budgets](celebrate.md#anniversary-gift-budget) listed below. Standard pracice is to send a [Loop & Tie](celebrate.md#loop--tie) gift.
 
-Managers will receive an email reminder from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
+Managers will receive a Slack reminder and email from BambooHR when one of their direct reports has an upcoming work anniversary and it is the manager's responsibility to post a written or video message in the #thanks channel.
 
 - Post suggestions:
   - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
@@ -155,7 +155,7 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 
 At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, managers are responsible for recognizing promoted teammates by:
 
-- [Sending a Loop & Tie gift!](celebrate.md#Loop-&-Tie) - we recommend $150
+- [Sending a Loop & Tie gift!](celebrate.md#loop--tie) - we recommend $150
 - Sending a Slack in `#teammate-announce` and cross-post in `#thanks`. At minimum, these posts should cover:
   - recognizing the hard work of the individual being promoted
   - providing insight into the individual’s new responsibilities
