@@ -23,7 +23,6 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 #### Team-specific totals
 
 - We expect new [Design team](../../departments/engineering/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/technical-success/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -74,7 +73,7 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 ### Laptop Specs
 
-#### Customer Engineering team laptops:
+#### Technical Success team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
@@ -91,11 +90,6 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 - Apple MacBook Pro - 16.2" M1 Max - 64 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-mbp-16-m1m-10c32c-64-1tb-sg/6740562?enkwrd=6740562)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
-
-#### Customer Support team laptops:
-
-- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 
 #### Data & Analytics team laptops:
 
