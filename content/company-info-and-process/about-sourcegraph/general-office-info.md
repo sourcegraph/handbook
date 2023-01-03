@@ -10,7 +10,7 @@ Phone number: (650) 273-5591
 
 Tax ID: For the Tax ID, refer to your Sourcegraph W-9.
 
-DUNS number: 11_7775232
+DUNS number: #117775232
 
 NAICS code: 541512
 
