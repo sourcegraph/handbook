@@ -83,13 +83,16 @@ The People team is responsible for sending anniversary and birthday gifts to the
 Each week, the People-Ops Team pulls the Birthday/Anniversary report from Bamboo. The People-Ops Team will audit the report and complete these two actions:
 
 1. Send a Slack reminder to each manager who has a direct report with a birthday or anniversary that week. Remind them to post in the #thanks channel if their teammate is celebrating a work anniversary, or to post in the team channel or 1:1 if their teammate is celebrating a birthday.
+  - Slack message: Hi managers, we have XX celebrations this week.
+      - Work Anniversaries - The People team will order a gift, but we need you to please make a post in #thanks (suggestions can be found here).
+         - teammate name - xx years on xx date - @ manager name
+         - teammate name - xx years on xx date - @ manager name
+      - Birthdays - The People team will order a gift, but we need you to please send a celebratory Slack message in your team channel or directly to the teammate! Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated.
+         - teammate name - birthday on xx date - @ manager name
+         - teammate name - birthday on xx date - @ manager name
+       - Pro Tip: You can schedule the slack messages to send on the correct dates.
 
-   Message Template: \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date]. The People team is sending a gift, but we need you to please:
-
-- _Make a post in the #thanks channel (suggestions can be found here)_
-- _Respond with a :white_check_mark: when you're done!_
-
-2. Order a [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie) gift for each teammate who is celebrating a birthday or anniversary that week.
+2. Order a [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie) gift for each teammate who is celebrating a birthday or anniversary that week. The Loop & Tie ordering process is outlined in [this loom](https://loom.com/share/c8141e51d8494e28840c16cd6f3839e1).
 
 On the 1st of each month, the People-Ops team will send an email to finance@sourcegraph.com with a breakdown of the charges that have been placed on the Loop & Tie card by each team.
 
