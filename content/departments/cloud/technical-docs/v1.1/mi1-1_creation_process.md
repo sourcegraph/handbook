@@ -61,21 +61,30 @@ Customisation is done via:
 
 ### Giving customer access
 
-> NOTE: You can skip this step if the instance is pre-created for the PLG pool
+An automatic password reset email is always sent out for customers:
 
-Generate password reset link for customer:
+1. For standard instances, [managed SMTP](../managed-smtp/index.md) will be configured before a user is created. When the user is created, they will receive an email from the instance to reset their password.
+1. For PLG pre-provisioned instances, currently a custom welcome email is sent with the password reset URL. [Managed SMTP](../managed-smtp/index.md) is only configured after the user is created.
+
+The customer admin can use the delivered password reset link to configure access for themselves.
+
+#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
+
+```sh
+Hi,
+
+The instance is ready. The customer admin should have received an email to reset their password.
+```
+
+#### Manual password reset
+
+If the customer takes too long to reset their password, or if they fail to receive the automated email for whatever reason, a manual password reset is required:
 
 ```bash
 mi reset-customer-password --email <customer admin email>
 ```
 
-#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
-
-```
-Hi,
-
-The instance is ready. The customer admin should have received an email to reset their password.
-```
+This should generate a link to the password and also send it via email if [managed SMTP](../managed-smtp/index.md) is enabled.
 
 ### Optional: enable "private" mode
 

@@ -1,9 +1,9 @@
 # Managed SMTP
 
-> NOTE: **Managed SMTP is currently an opt-in feature**, and is undergoing a gradual rollout. For more details, refer to [RFC 705](https://docs.google.com/document/d/1eaShaXlpMEezawuwTZ26nuo5g_1MjQmjpp8VvQTokzw/edit) and [the tracking issue](https://github.com/sourcegraph/customer/issues/1408). The goal is to eventually provide managed SMTP to all instances by default.
-
-Managed SMTP allows Sourcegraph Cloud instances to have email delivery services configured out-of-the-box.
+Managed SMTP allows Sourcegraph Cloud instances to have email delivery services configured out-of-the-box, and is enabled on all Sourcegraph Cloud instances by default.
 SMTP services are currently backed by [SparkPost EU](https://app.eu.sparkpost.com).
+
+Customer-facing documentation is available [here](https://docs.sourcegraph.com/cloud#managed-smtp).
 
 In this document:
 
