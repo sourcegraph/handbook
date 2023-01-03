@@ -7,6 +7,5 @@
 - [Before your start date](before-start.md)
 - [Teammate development](teammate-development/index.md)
   - [Training](teammate-development/training/index.md)
-- [Recognition program](recognition-program.md)
-  - #thanks Channel best practices
+- [Recognition and #thanks Channel best practices](../../benefits-pay-perks/benefits-perks/celebrate.md#regular-thanks-and-recognition-via-our-thanks-channel)
 - [Career Ladders](career-frameworks.md)
