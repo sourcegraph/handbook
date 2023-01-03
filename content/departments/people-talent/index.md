@@ -96,11 +96,11 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Perks](../../benefits-pay-perks/benefits-perks/#perks.md)
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
   - [Open enrollment](../../benefits-pay-perks/benefits-perks/#2023-open-enrollment)
-  - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
+  - [Lumity - access your benefits cards](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
     - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my dental card](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my vision card](../../benefits-pay-perks/benefits-perks/benefits.md)
-  - [Rippling](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
+  - [Rippling - access your payroll & insurance info](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Medical leave & accommodation](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
@@ -163,6 +163,10 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Leaving Sourcegraph
 
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
+
+### Misc
+
+- [Our policy on having jobs outside of Sourcegraph] (COMING SOON)
 
 ## RESOURCES FOR MANAGERS
 
