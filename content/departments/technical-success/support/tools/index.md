@@ -132,7 +132,7 @@ This section captures our Zendesk protocol and configuration decisions.
 
 - Support engineers have agent access
 - CS leadership and Tech Ops have admin access
-- Only Virginia can modify billing related items
+- Only Shawnteé can modify billing related items
 - We have an admin level service account support engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
 - Tickets are also rendered via an iFrame in Salesforce for CE and sales access.
 
@@ -168,21 +168,12 @@ There are also views for suspended (spam) and deleted tickets. We occasionally c
 
 When you close a ticket, these are the required fields you must populate:
 
-- **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to improve our docs.
-- **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
+- **Did I make a Task for the doc update needed for this issue?** Designates how many updates we are making so we can demonstrated our contributions to improve our docs.
 - **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](../process/enablement/zendesk-ticket-exporter.md)
 - **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](../process/enablement/zendesk-ticket-exporter.md)
-- **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 - **Official type:** Designates whether this is a question, defect report, or help request
 - **Official priority:** Designates whether the priority is p1 or p2 per our definitions outlined in our [prioritization guidelines](../process/support-prioritization.md).
 - **Engineering team:** Designates which engineering team is responsible for the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
-
-### Why there are duplicate ticket data fields
-
-In addition to the required fields noted above, we also have these fields that seem duplicative...
-
-- **Type:** This is the out of the box option that lists different option and we only use so something shows up for our customer who want to login into Zendesk to see their entire case history
-- **Priority:** This is the out of the box option that we use to set the SLA counter. It is always normal and always triggers an 8 business hour count.
 
 ### Timezone
 
