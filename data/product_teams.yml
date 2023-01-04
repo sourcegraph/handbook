@@ -83,8 +83,8 @@ dev_experience:
   title: Dev Experience
   brief: The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
   strategy_link: /strategy-goals/strategy/dev-experience
-  pm: quinn_hare
-  em: kristen_stretch
+  pm: chris_pine
+  em: chris_pine
   issue_labels:
     - team/dev-experience
 
