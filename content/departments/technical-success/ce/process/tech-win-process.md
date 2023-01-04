@@ -51,23 +51,11 @@ For the sales organization to scale effectively as our business grows, it needs 
    </td>
    <td>This document outlines the process for engaging with a customer or prospective customer from the early stages of the sales cycle (Stage 0 - Prospecting) to when a deal is closed. It covers the objective, key players, verifiable outcomes and resources at each stage of the sales process.
 <p>
-<a href="https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0">Link to Customer Engagement Process - Pre-Sales</a>
+<a href="https://docs.google.com/spreadsheets/d/1nhxUAkooEx1JZV4ZAwyN0Ck9BrK-VUzObNp_IRAf_OE/edit#gid=0">Link to Customer Engagement Process - Pre-Sales</a>
    </td>
    <td>1-7
    </td>
    <td>Published
-   </td>
-  </tr>
-  <tr>
-   <td>Sourcegraph Use Cases Master Doc
-   </td>
-   <td>A document containing a variety of resources related to the high-level, strategic business challenges of our customers and prospects, which Sourcegraph can solve for with the technical and capabilities delivered by its products. Each use case is documented here with relevant personas, pitches, positioning, indicators of need/value, discovery questions, and other resources.
-<p>
-<a href="https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.az5hu7u0fcgy">Link to Use Cases Master Doc</a>
-   </td>
-   <td>1-7
-   </td>
-   <td>Draft
    </td>
   </tr>
   <tr>
@@ -80,6 +68,18 @@ It also provides key areas for CEs to consider and specific steps to take to ens
 <a href="https://docs.google.com/document/d/14iSqJBtiM32D1zSVVvtZGZmWVLuQ7S7MoJDM6wAhkyQ/edit#heading=h.12q3mtuawsny">Link to Playbook</a>
    </td>
    <td>2-3
+   </td>
+   <td>Published
+   </td>
+  </tr>
+  <tr>
+   <td>The Sourcegraph Trial</td>
+   <td>Guiding principles for the Sourcegraph trial, including information about how to define success criteria.
+<p>
+<a href="https://docs.google.com/document/d/1O8Tjx9diPg0_Qb4nWY1HUgFcvJFFBD371KSGlfa8l5M/edit?usp=sharing">Link to Document</a>
+</p>
+   </td>
+   <td>2-4
    </td>
    <td>Published
    </td>
@@ -107,7 +107,7 @@ Store Completed TDDs <a href="https://drive.google.com/drive/folders/1o-4rB24vcY
    </td>
    <td>This document serves as a single source of truth for both the Sourcegraph Account Team and a prospective Sourcegraph customer during the evaluation and buying process. It includes sections maintained by the sales team around a mutually agreed upon action plan and by the customer engineering team to document technical success criteria and the trial process.
 <p>
-<a href="https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268">Link to Template</a>
+<a href="https://docs.google.com/spreadsheets/d/1iC-t6oSevGxiwDQfe-7rMewJn929OC9I3GkDnzFvnHs/edit#gid=1991584268">Link to Template</a>
 <p>
 Store Completed Success Plans in the Customer folder.
    </td>
@@ -140,47 +140,9 @@ Store Completed Success Plans in the Customer folder.
    <td>Published
    </td>
   </tr>
-  <tr>
-   <td>What Is Supported in Sourcegraph?
-   </td>
-   <td>Guidance provided by Engineering teams documenting supported features and functionality as well as feature limitations. This is used by CEs to perform technical qualification of customer use cases and configurations during trial planning and prior to trial kickoff.
-<p>
-<a href="https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279">Link to What Is Supported in Sourcegraph</a>
-   </td>
-   <td>3
-   </td>
-   <td>Published
-   </td>
-  </tr>
-  <tr>
-   <td>Technical Qualification Discovery Questions
-   </td>
-   <td>Based on the guidance provided by product and engineering teams, this document contains a list of questions to which CEs should have answers to assess whether a customer’s configuration or use case fits our product capabilities and supported scenarios. If it does not fit, the deal must be submitted to the Tech Review process and then validated based on product/engineering feedback.
-<p>
-<a href="https://docs.google.com/document/d/15zcyWeTVAZjYQZDBnWwEZV9p1gWUTGgoD9m38Dneah0/edit#heading=h.75uzt4ptnpqx">Link to Technical Qualification Discovery Questions</a>
-   </td>
-   <td>3
-   </td>
-   <td>In-Process
-   </td>
-  </tr>
-  <tr>
-   <td>Post Sales Engagement Plan
-   </td>
-   <td>CEs are responsible for the technical success of our customers. There are a variety of activities that CEs engage in around the time of deal close and afterwards. This template serves as an outline and plan for those activities over the course of the customer’s first year using the product.
-<p>
-<a href="https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0">Link to Post Sales Engagement Plan</a>
-   </td>
-   <td>5-7+
-   </td>
-   <td>Published
-   </td>
-  </tr>
 </table>
 
 ## Process
-
-![Technical Win Management Process](https://storage.googleapis.com/sourcegraph-assets/techwin-diagram-updatedv2.png)
 
 ### Gates for Progressing Through Technical Win Phases
 
@@ -192,13 +154,14 @@ The following criteria are used to determine whether a technical win should prog
 
 - Has the account team identified a champion in the account?
   - A champion is a contact in the account with power and influence who will be selling internally on our behalf and has a vested interest in our success.
-  - As defined by the [Customer Engagement Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0), the champion typically confirms use cases, identifies the business/technical validation process and confirms the technical win.
+  - As defined by the [Customer Engagement Process](https://docs.google.com/spreadsheets/d/1nhxUAkooEx1JZV4ZAwyN0Ck9BrK-VUzObNp_IRAf_OE/edit#gid=0), the champion typically confirms use cases, identifies the business/technical validation process and confirms the technical win.
 - Has the CE confirmed the top 2-3 use cases for the customer?
 - Does the CE understand the customer’s technical landscape and current tools?
 - Has the CE provided the prospect with a Reference Sandbox environment?
 
 #### Tech Design & Trial Planning (Sales Stage: 3)
 
+- Has the CE designed the trial according to [The Sourcegraph Trial](https://docs.google.com/document/d/1O8Tjx9diPg0_Qb4nWY1HUgFcvJFFBD371KSGlfa8l5M/edit?usp=sharing) guidelines?
 - Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
 - Has the CE completed technical qualification of the customer’s usage scenario?
 - If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed?
@@ -206,6 +169,7 @@ The following criteria are used to determine whether a technical win should prog
 
 #### Trial Deployment (Sales Stages: 3-4)
 
+- Do the success criteria adhere to the recommendations in [The Sourcegraph Trial](https://docs.google.com/document/d/1O8Tjx9diPg0_Qb4nWY1HUgFcvJFFBD371KSGlfa8l5M/edit?usp=sharing)?
 - CE has updated the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
 - CE has completed the Trial and Deployment portions of the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268)
 - Is the trial or evaluation environment successfully deployed?
