@@ -2,15 +2,15 @@
 
 Sourcegraph’s experiential marketing efforts are currently developed and executed by Olivia Simpson on the Communications team.
 
-Field marketing and events continuously deliver measurable, face-to-face brand awareness and a chance for Sourcegraph to be experienced in “the real world”. Through these events, we are able to develop stronger relationships with customers and prospects, and show the power of our product in real-time.
+Field marketing and events continuously deliver measurable, face-to-face brand awareness and a chance for Sourcegraph to be experienced in “the real world”. Through these events, we build stronger relationships and pipe gen with customers and prospects, and show the power of our product in real-time.
 
 ## Requesting Sponsorship
 
 We always welcome feedback and suggestions from our cross-functional partners at Sourcegraph. If an idea for an event or opportunity for sponsorship comes across your desk that you’d like us to pursue, please let us know! We will make every effort to sponsor any and all events that align with our company goals.
 
-The best way to nominate an event for consideration is by submitting the Google Form, linked below. Updates around your request will be communicated as we have them in the #events Slack channel.
+The best way to nominate an event for consideration is by submitting the Google Form, linked below. Updates around your request will be communicated as we have them in the #events Slack channel. As a reminder, any questions or information not captured here can be dropped in #events as well!
 
-[Event & Sponsorship Nomination Google Form](https://docs.google.com/forms/d/130MnM0-HCWIPafWlHEV-h-T9Sb06OLQJ3oM4gdBIPwM/prefill)
+[Event & Sponsorship Nomination Google Form] ([(https://docs.google.com/forms/d/e/1FAIpQLSeC7Sg8_69zBYWEQSWxRB-23jVhxaQ6ad3rMT412Z_GfYGXKA/viewform?usp=sharing)])
 
 Make sure to submit all of the below information in your request:
 
