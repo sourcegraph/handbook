@@ -149,7 +149,7 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 Important AP Information:
 -Billing Address: 548 Market St PMB 20739, San Francisco, CA 94104-5401
 -Billing Contact: AP
--Billing Email: ap@sourcegraph.com -[Sourcegraph W9](https://drive.google.com/u/0/uc?id=1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW&export=download) -[Corporate Information for Customer/Vendor/Partner Questionnaires](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
+-Billing Email: ap@sourcegraph.com -[Sourcegraph W9](https://drive.google.com/file/d/1M_facxwZwfVU0iAP7rXemPcZNkwjL8Dn/view?usp=share_link) -[Corporate Information for Customer/Vendor/Partner Questionnaires](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
 
 Additional Links:
 
