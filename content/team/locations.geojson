@@ -840,6 +840,16 @@
                 "type": "Point",
                 "coordinates": [-123.326103, 42.440739]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kevin Matthews"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.7930905551073693, 50.852387667481935]
+            }
         }
     ]
 }
