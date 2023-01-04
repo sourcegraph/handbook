@@ -12,7 +12,7 @@ We want our new teammates and managers to be supported through frameworks that e
 
 ### People Team
 
-- **Month 1 - 15 min check-in with Inés\_ \_**(or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work. Our aim is to minimize any anxiety, provide reassurance where needed, and help deliver the very best onboarding experience for all new hires.
+- **Month 1 - 15 min check-in with Kemper**(or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work. Our aim is to minimize any anxiety, provide reassurance where needed, and help deliver the very best onboarding experience for all new hires.
 - **Month 6 - 20 min check-in with People Partner** to connect with Teammates once they have become proficient at their role here at Sourcegraph. The purpose of this conversation is to ensure long-term retention of teammates, continued strong performance, and give Teammates the chance to provide feedback on the onboarding process with the perspective 6 months at our organization brings.
 
 ### Manager
@@ -26,7 +26,7 @@ Read more about [Onboarding Feedback Milestones here](onboarding-feedback-milest
 
 ## Cadence
 
-1.  1mo: Informal Review w/Onboarding Partner; Inés or People Team
+1.  1mo: Informal Review w/Onboarding Partner; Kemper or People Team
 2.  1mo: Hiring Manager: Setting Expectations - Formal Review to be conducted in Lattice
 3.  3mo: Hiring Manager: Lattice Onboarding Review w/ Hiring Manager - Formal Review to be conducted in Lattice
 4.  5mo/6: Lattice Onboarding Review w/ People Partner
