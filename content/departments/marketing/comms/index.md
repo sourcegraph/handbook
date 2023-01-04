@@ -89,6 +89,7 @@ Projects & responsibilities:
 
 - **General Demand Generation and Field Marketing Support** - Planning and execution of various demand gen and field marketing efforts to reach our target audience and drive opportunities. Examples include: conferences/events, integrated campaigns, sponsored events, proprietary events, livestreams, webinars, and more.
 - **Dev Conferences & Sponsored Events** - Annual and quarterly planning for tradeshows and sponsored events to generate awareness and pipeline.
+- [Find out more about how to request sponsorship or event attendance here]([https://form.asana.com/?k=MBmYt-RY9jAX1kiC0Bb86Q&d=7195383522959](https://handbook.sourcegraph.com/departments/marketing/comms/field%20marketing/)
 - **Proprietary Events** - Planning events and roadshows around regions and accounts to give increased attention and visibility to the Sourcegraph brand in regions or accounts that need the extra push.
 - **Livestreams** - Built around new Sourcegraph launches or specific dev topics. Livestreams are a way to increasingly connect with the dev audience by creating interactive and exciting content for them to tune in to on Twitch or similar platforms. This will ideally build to a larger scale user conference down the line.
 - **On-Demand & Live Webinars** - Based on topic or customer guest, our live and on-demand webinars are created to appeal to a wide range of our audience and create digestible content to reuse for future campaigns.
