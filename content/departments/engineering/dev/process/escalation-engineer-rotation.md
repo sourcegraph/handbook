@@ -10,14 +10,14 @@ Discuss escalation engineering rotation in #escalation-engineering.
 
 ## Rotations
 
-| Rotation                 | Engineers                                                                                                            |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| 2022-08-10 to 2022-09-06 | [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide)                 |
-| 2022-09-07 to 2022-10-09 | [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov)                 |
-| 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                                 |
-| 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                           |
-| 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                  |
-| 2022-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani), [Manuel Ucles](https://github.com/mucles)|
+| Rotation                 | Engineers                                                                                                                                     |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2022-08-10 to 2022-09-06 | [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide)                                          |
+| 2022-09-07 to 2022-10-09 | [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov)                                          |
+| 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                                                          |
+| 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                                                    |
+| 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                                           |
+| 2022-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani), [Manuel Ucles](https://github.com/mucles) |
 
 - EEs provide extra engineering capacity dedicated to solving important customer issues to speed up resolution.
 - EEs get exposure to people on other teams, broader business priorities, and the broader service of our product and codebase.
