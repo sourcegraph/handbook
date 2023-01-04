@@ -166,7 +166,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Misc
 
-- [Our policy on having jobs outside of Sourcegraph] (COMING SOON)
+- [Our policy on having jobs outside of Sourcegraph](outside-employment.md)  
 
 ## RESOURCES FOR MANAGERS
 
