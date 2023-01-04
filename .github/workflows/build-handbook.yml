@@ -8,7 +8,7 @@ jobs:
   #   name: Teammate locations file is valid
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - uses: actions/checkout@v2
+  #     - uses: actions/checkout@v3
   #     - uses: actions/setup-node@v2
   #     - name: install geojsonhint
   #       run: yarn add @mapbox/geojsonhint@3.0.0
@@ -21,7 +21,7 @@ jobs:
     env:
       FORCE_COLOR: 3
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         name: Checkout repository
         with:
           fetch-depth: 0 # We analyze Git history for generating redirects
