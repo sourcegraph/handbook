@@ -32,7 +32,8 @@ Woluntary exits occur when a Teammate chooses to resign from their role at Sourc
 8. **Exit interview is scheduled:** the departing Teammate will receive an Exit Survey via Lattice and meet with their People Partner for an Exit Interview in their last working week. More on this process can be found [here](performance-coaching/exit-interview.md).
 9. **Meeting with Tech Ops:** the departing Teammate must schedule a meeting with Tech Ops by sending an email to [techops@sourcegraph.com](mailto:techops@sourcegraph.com) prior to their last day of work, in order to wipe their laptop. Teammates have the option to either purchase their laptops at a discounted rate, or ship company-owned laptop and equipment within 7 days of receiving the return shipping instructions.
 
-### **2. Mutual Separations** 
+### **2. Mutual Separations**
+
 In some cases, a Teammate and Sourcegraph may both recognize that the working relationship is no longer productive or effective, and may agree that a mutual separation is in both parties’ best interests. It is important to note that a mutual separation is different from a layoff or a termination, which will typically be initiated by Sourcegraph and not the Teammate. A mutual separation can be initiated by either Sourcegraph or a Teammate, and may be the result of a variety of factors, including, but not limited to:
 
 - A change in business direction whereby the Teammate’s background and experience are no longer needed.
