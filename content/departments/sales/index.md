@@ -19,12 +19,6 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
 - [Forecasting Overview](forecasting.md)
 
-## Pipeline, data, and models
-
-- [Transactions](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
-- [FY21 plan](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=1071026049)
-- [Looker dashboard](https://sourcegraph.looker.com/browse/boards/2)
-
 ## Goals
 
 Find the Sales FY23 Target Market [here](https://docs.google.com/document/d/1w35Nnmc_yQCbweHdTWLiP8lX_D0onl4OrmWJZaRsl7s/edit).
