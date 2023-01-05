@@ -2,7 +2,7 @@
 
 **What:** A bi-weekly live meeting that takes place evry other Tuesday at 3pm UTC.
 
-**Why:** To come together as a gloabl team and hear from @sqs and other leaders about company goals, to align on company strategy, and to celebrate recent wins. This is an important communication touchpoint all teammates should prioritize the time to attend.
+**Why:** To come together as a global team and hear from @sqs and other leaders about company goals, to align on company strategy, and to celebrate recent wins. This is an important communication touchpoint all teammates should prioritize the time to attend.
 
 **How:** Attend live via Zoom. Invites are automatically sent to your calendar. If we make any changes to the invite, we will notify the team in #announcements.
 
