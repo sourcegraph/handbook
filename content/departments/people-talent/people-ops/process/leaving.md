@@ -8,7 +8,7 @@ This guide applies to all Teammates globally, including temporary and part-time 
 - [Resources for Managers](https://docs.google.com/document/d/1IGPWnYOZTknxPZLgGZULJEjzDFBuRa77LyufAzttEBA/edit#heading=h.exe40mn701hw)
 - [Resources for People Team](https://docs.google.com/document/d/13dkDp2P-f1GGotxONdObB918TybxYFDK4t6N0avcpPo/edit)
 
-**Ways a Teammate can leave us**
+## **Ways a Teammate can leave us**
 
 Teammates can leave us in 3 ways:
 
@@ -16,35 +16,38 @@ Teammates can leave us in 3 ways:
 2. Mutual separation
 3. Involuntary terminations
 
-**1. Voluntary Resignations:** voluntary exits occur when a Teammate chooses to resign from their role at Sourcegraph. These exits are generally initiated by the Teammate, not Sourcegraph. If you decide that resigning is the best course of action, please confirm your last day of work with your manager and follow the steps below. If you are considering resigning or have any questions about the resignation process, please contact your People Partner or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+### 1. Voluntary Resignations
 
-**Resignation Process**
+Woluntary exits occur when a Teammate chooses to resign from their role at Sourcegraph. These exits are generally initiated by the Teammate, not Sourcegraph. If you decide that resigning is the best course of action, please confirm your last day of work with your manager and follow the steps below. If you are considering resigning or have any questions about the resignation process, please contact your People Partner or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+
+### **Voluntary Resignation Process**
 
 1. **Tell your manager:** the first step in resigning is to tell your manager. We suggest that you schedule a meeting to tell them directly, but an email or Slack also suffices if in person communication is not possible.
 2. **Confirm last day:** the Teammate confirms their last day of work with their manager. We expect contractual notice periods to be honored (if applicable), unless you and your manager agree otherwise. If you are unsure of your notice period, please refer to your contract or offer letter, or contact [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) if further clarification is needed. In rare cases, a change to the departing Teammate’s last day may be requested by the Teammate or their manager. Any extensions of a Teammate’s last day must be approved by their manager and all changes to the separation date must be communicated to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) immediately (but in no event later than 24 hours after the request is made). The Teammate’s People Partner will update those involved in the offboarding process and complete all system updates.
-3. **Send resignation email:** once the last day is confirmed, the Teammate sends a resignation email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with the subject line: [“Teammate name” - Resignation Email]. If the departing Teammate is employed via a PEO, they should also copy the relevant Support Team (Remote: [userhappiness@remote.com](mailto:userhappiness@remote.com); Deel: ​​[support@deel.com](mailto:support@deel.com)). Depending on the circumstances of the Teammate’s exit, access to internal systems may be removed prior to their separation date. Managers and/or People Partners will confirm the exact date and time of access removal with the departing Teammate when discussing their [transition plan].
+3. **Send resignation email:** once the last day is confirmed, the Teammate sends a resignation email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with the subject line: [“Teammate name” - Resignation Email]. If the departing Teammate is employed via a PEO, they should also copy the relevant Support Team (Remote: [userhappiness@remote.com](mailto:userhappiness@remote.com); Deel: ​​[support@deel.com](mailto:support@deel.com)). Depending on the circumstances of the Teammate’s exit, access to internal systems may be removed prior to their separation date. Managers and/or People Partners will confirm the exact date and time of access removal with the departing Teammate when discussing their [transition plan](#creating-a-transition-plan).
 4. **Offboarding process begins:** the Teammate’s People Partner will initiate the offboarding process within 24 hours of receiving the resignation email. If the departing Teammate is employed via a PEO, the People Partner will work directly with the PEO vendor to complete the offboarding processes.
 5. **Offboarding email is sent:** the departing Teammate will receive an offboarding follow-up email, including details about payroll, benefits, equity, returning of equipment and expenses. You can find an example of the offboarding email [here](https://docs.google.com/document/d/1YznrIoaI8JtKFckn-_zN1UKexyjFX9hyjuURp5a9qKY/edit).
-6. **Create your transition plan:** departing Teammates are expected to work with their managers to create a [transition plan] during their notice period, if applicable. Transition plans take into account notice period length, as well as the departing Teammate’s current workload, and the overall impact of their exit on others and the organization.
+6. **Create your transition plan:** departing Teammates are expected to work with their managers to create a [transition plan](#creating-a-transition-plan) during their notice period, if applicable. Transition plans take into account notice period length, as well as the departing Teammate’s current workload, and the overall impact of their exit on others and the organization.
 7. **Announcement is made to the company:** your Manager will be responsible for sharing the news with your team. Your departure will also be shared in #teammate-departures within 48 hours of giving notice. You can read more about the process [here](../../../../company-info-and-process/communication/announcements.md/#Departures). You are also welcome to share a note in #thanks prior to your last day.
 8. **Exit interview is scheduled:** the departing Teammate will receive an Exit Survey via Lattice and meet with their People Partner for an Exit Interview in their last working week. More on this process can be found [here](performance-coaching/exit-interview.md).
 9. **Meeting with Tech Ops:** the departing Teammate must schedule a meeting with Tech Ops by sending an email to [techops@sourcegraph.com](mailto:techops@sourcegraph.com) prior to their last day of work, in order to wipe their laptop. Teammates have the option to either purchase their laptops at a discounted rate, or ship company-owned laptop and equipment within 7 days of receiving the return shipping instructions.
 
-**2. Mutual Separations:** in some cases, a Teammate and Sourcegraph may both recognize that the working relationship is no longer productive or effective, and may agree that a mutual separation is in both parties’ best interests. It is important to note that a mutual separation is different from a layoff or a termination, which will typically be initiated by Sourcegraph and not the Teammate. A mutual separation can be initiated by either Sourcegraph or a Teammate, and may be the result of a variety of factors, including, but not limited to:
+### **2. Mutual Separations** 
+In some cases, a Teammate and Sourcegraph may both recognize that the working relationship is no longer productive or effective, and may agree that a mutual separation is in both parties’ best interests. It is important to note that a mutual separation is different from a layoff or a termination, which will typically be initiated by Sourcegraph and not the Teammate. A mutual separation can be initiated by either Sourcegraph or a Teammate, and may be the result of a variety of factors, including, but not limited to:
 
 - A change in business direction whereby the Teammate’s background and experience are no longer needed.
 - Conflict within the workplace.
 - A shift in role responsibilities that the Teammate doesn’t find desirable.
 - We may also offer mutual separations in other scenarios, such as when we undertake reductions in force or team restructures.
 
-**Mutual Separations Process**
+### **Mutual Separations Process**
 
-1. **Confirm last day:** People Partners work closely with managers to determine a Teammate's last working day, effective separation date, [transition plan] and [communications](../../../../company-info-and-process/communication/announcements.md/#Departures). Once confirmed, Teammates meet with their manager and People Partner to discuss further. If the departing Teammate is employed via a PEO, their People Partner will work with the respective vendor to initiate the process.
+1. **Confirm last day:** People Partners work closely with managers to determine a Teammate's last working day, effective separation date, [transition plan](#creating-a-transition-plan) and [communications](../../../../company-info-and-process/communication/announcements.md/#Departures). Once confirmed, Teammates meet with their manager and People Partner to discuss further. If the departing Teammate is employed via a PEO, their People Partner will work with the respective vendor to initiate the process.
 2. **Offboarding process begins:** the Teammate’s People Partner will initiate the offboarding process immediately. If the departing Teammate is employed via a PEO, the People Partner will work directly with the PEO vendor to complete the offboarding processes.
 3. **Announcement is made to the company:** your Manager will be responsible for sharing the news with your team. Your departure will also be shared in #teammate-departures within 48 hours of giving notice. You can read more about the process [here](../../../../company-info-and-process/communication/announcements.md/#Departures). You are also welcome to share a note in #thanks prior to your last day.
 4. **Offboarding email is sent:** the departing Teammate will receive an offboarding follow-up email, including details about payroll, benefits, equity, returning of equipment and expenses. You can find an example of the offboarding email [here](https://docs.google.com/document/d/1YznrIoaI8JtKFckn-_zN1UKexyjFX9hyjuURp5a9qKY/edit).
 
-**3. Involuntary Terminations**
+### **3. Involuntary Terminations**
 
 In some cases, we will determine it is in the Company’s best interests to terminate a Teammate’s working relationship with Sourcegraph. An involuntary termination is a separation from employment that is initiated by Sourcegraph, rather than the teammate. It is also known as being fired or being terminated, and it is important to note that involuntary terminations are different from voluntary resignations or mutual separations, which are initiated by the teammate or agreed upon by both Sourcegraph and the teammate. An involuntary termination can occur for a variety of reasons, including, but not limited, to:
 
@@ -53,14 +56,14 @@ In some cases, we will determine it is in the Company’s best interests to term
 - Changes in the business needs of the employer.
 - A layoff, which is usually due to economic or business reasons, such as a decrease in business, a lack of work, or financial uncertainty.
 
-**Involuntary Terminations Process**
+### **Involuntary Terminations Process**
 
 1. **Confirm last day:** the process for involuntary terminations will vary based on the particular circumstances of the separation and the reason for the involuntary termination. The last day can range from immediate termination to several days/weeks depending on the circumstance. The affected Teammate’s People Partner will work with them to ensure they understand the process at the time of separation.
 2. **Offboarding process begins:** the Teammate’s People Partner will initiate the offboarding process immediately. If the departing Teammate is employed via a PEO, the People Partner will work directly with the PEO vendor to complete the offboarding processes.
 3. **Announcement is made to the company:** your Manager will be responsible for sharing the news with your team. Your departure will also be shared in #teammate-departures within 48 hours of giving notice. You can read more about the process [here](../../../../company-info-and-process/communication/announcements.md/#Departures).
 4. **Offboarding email is sent:** the departing Teammate will receive an offboarding follow-up email, including details about payroll, benefits, equity, returning of equipment and expenses. You can find an example of the offboarding email [here](https://docs.google.com/document/d/1YznrIoaI8JtKFckn-_zN1UKexyjFX9hyjuURp5a9qKY/edit).
 
-**Creating a transition plan**
+## **Creating a transition plan**
 
 Depending on the nature of your departure, you may be asked to create a transition plan. This is generally expected for voluntary departures.
 
@@ -71,7 +74,7 @@ Depending on the nature of your departure, you may be asked to create a transiti
 5. **Reassign system ownership.** If you are a system owner, please ensure Finance and Tech Ops are aware of who the new system owner(s) is/are before your last day of work.
 6. **Transfer integrations.** Do you have any integrations set up that need to be transferred before you leave? Contact Tech Ops if this is the case. Examples include active API tokens, Github/Slack and Zapier integrations.
 
-**Exit Interviews**
+## **Exit Interviews**
 
 In order to deepen our understanding of Teammates’ experience at Sourcegraph and reasons for leaving, the People Team will conduct an exit interview for all Teammates who leave Sourcegraph voluntarily. Any information gathered during the exit interview process is confidential, and a Teammate’s responses will never be shared outside the People Team.
 
@@ -82,7 +85,7 @@ The exit interview is broken into two steps:
 1. Prior to each interview, structured exit survey questions are sent via Lattice, allowing Teammates time to reflect on, and provide context about, all aspects of their journey. The Teammate’s respective People Partner will review this in advance of the meeting to gain an initial overview of the primary driver(s) behind the decision to leave. The questions we use for Exit Surveys in Lattice can be found [here](https://docs.google.com/document/d/1mDDhRhfZsuLERW-44300dUNNy-tL6mYH4RQQK93CTmE/edit).
 2. In each Teammate’s last working week, the People Partner will conduct an exit interview. Attendees include the People Partner and the exiting Teammate. The exit interview focuses on the key themes raised in the exit survey, in addition to any other topics that the Teammate would like to cover (the exact exit interview questions can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSdfQU_WGOwuEdB3dwYqLhS45u0nfa9vFU7DouD1ZRuFKz43QQ/viewform)). By conducting 1:1 exit interviews, we can gather more nuanced insights into Teammates’ overall experience and engagement, which, in turn, help us spot trending data points, underlying organizational issues, and also bring new perspectives on the external, competitive landscape. The exit interview is confidential and Teammate answers are not shared outside the People Team. Key data points may be periodically presented to Leadership and, if appropriate, to the wider organization.
 
-**FAQ for Departing Teammates**
+## **FAQ for Departing Teammates**
 
 #### Q. When will I receive my last paycheck for time worked?
 
