@@ -596,7 +596,7 @@ warren_gifford:
   name: Warren Gifford
   pronouns: he/him
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Portland, OR, USA 🇺🇸
   github: DaedalusG
   email: warren@sourcegraph.com
@@ -663,7 +663,7 @@ beatrix_woo:
 stompy_mwendwa:
   name: Stompy Mwendwa
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Nairobi, Kenya 🇰🇪
   github: airamare01
   email: stompy@sourcegraph.com
@@ -880,7 +880,7 @@ gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Los Angeles, CA, USA 🇺🇸
   github: gabtorre
   email: gabe@sourcegraph.com
@@ -891,7 +891,7 @@ jason_harris:
   name: Jason Harris
   pronouns: He/Him
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Los Angeles, CA USA
   github: jasonhawkharris
   email: jason.harris@sourcegraph.com
@@ -902,7 +902,7 @@ michael_bali:
   name: Michael Bali
   pronouns: He/Him
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Lagos, Nigeria 🇳🇬
   github: topebali
   email: michael.bali@sourcegraph.com
@@ -913,7 +913,7 @@ alex_jean-baptiste:
   name: Alex Jean-Baptiste
   pronouns: He/Him
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Atlanta, Georgia USA 🇺🇸
   github: alexAtSourcegraph
   email: alex.jean-baptiste@sourcegraph.com
@@ -925,7 +925,7 @@ mariam_adedeji:
   name: Mariam Adedeji
   pronouns: She/Her
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Lagos, Nigeria 🇳🇬
   github: rhiam
   email: mariam@sourcegraph.com
@@ -1920,7 +1920,7 @@ ajay_uppaluri:
 rakesh_joshi:
   name: Rakesh Joshi
   role: Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Melbourne, Australia
   email: rakesh.joshi@sourcegraph.com
   github: rakeshjosh2003
@@ -2186,7 +2186,7 @@ jon_galindo:
   github: Galindo-J
   pronouns: he/him
   role: Senior Support Engineer
-  reports_to: vp_customer_engineering
+  reports_to: manager_support
   location: Waco, TX, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/jon-galindo)'
   description: 'Jon is a Northern California native who now lives in Central Texas with his wife and three daughters. Prior to Sourcegraph, Jon worked as a DevOps and Site Reliabilty Engineer at VMware. When not behind his computer, Jon enjoys swimming with his kids, smoking BBQ, spending too much money on trading cards, and taking mini adventures with his family.'
@@ -2243,3 +2243,15 @@ kevin_matthews:
   location: UK
   links: '[LinkedIn](https://www.linkedin.com/in/kevin-matthews-b165a63/)'
   description: I enjoy helping customers best use technology to address business challenges and solve problems. At leisure, I love to be outside. I enjoy time with my family, travelling, good food and great wine.
+
+enrique_gonzalez:
+  name: Enrique Gonzalez
+  email: enrique@sourcegraph.com
+  github: enriquegh
+  pronouns: he/him
+  role: Senior Manager, Customer Support
+  reports_to: vp_customer_engineering
+  location: Berkeley, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/enriquegh4/)'
+  description: Enrique is originally from Mexico but has been in the Bay Area for more than 10 years. He loves solving technical problems and has a passion for teaching and mentoring other technical professionals. He enjoys playing video games, playing with his dog Bennie and cooking Mexican food.
+  manager_role_slug: manager_support
