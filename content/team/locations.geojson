@@ -850,6 +850,16 @@
                 "type": "Point",
                 "coordinates": [-1.7930905551073693, 50.852387667481935]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Enrique Gonzalez"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.27461863535325, 37.87072968199783]
+            }
         }
     ]
 }
