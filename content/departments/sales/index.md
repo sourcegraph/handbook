@@ -62,9 +62,15 @@ A customer is an organization with a Sourcegraph subscription contract that has 
 
 ### Open pipeline
 
+Open pipeline is the sum of all Opportunities that are in Stage 1 or greater, for a specific time period.
+
 ### Qualified pipeline
 
+Qualified pipeline is the sum of all Opportunities that are in Stage 2 or greater, for a specific time period.
+
 ### Weighted pipeline
+
+Weighted pipeline is the sum of all Opportunity iARR values, multiplied by the probability % by associated stage.
 
 ### Win rate
 
