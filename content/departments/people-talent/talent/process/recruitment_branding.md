@@ -104,7 +104,7 @@ Please follow these instructions:
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Kemper Hamilton owns this list. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
 - [AngelList](https://angel.co/company/sourcegraph)
 - [Diversify Tech](https://www.diversifytech.co/job-board). Kemper Hamilton can post open roles here upon request from the Hiring Manager.
-- [TLDR](https://tldr.tech/jobs?filter=%257B%257D). Kemper Hamilton can post open roles here upon request from the Hiring Manager. 
+- [TLDR](https://tldr.tech/jobs?filter=%257B%257D). Kemper Hamilton can post open roles here upon request from the Hiring Manager.
 - [Job boards we're using for our Internship Program](../internship/index.md#college-job-boards-were-using)
 
 ### Other job boards/coding bootcamps we have used in the past:
