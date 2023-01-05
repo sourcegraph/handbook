@@ -91,7 +91,7 @@ Sales Accepted Opportunities are where ALL of the following are true:
 - We have completed an intro call/meeting with the company/contact
 - Company/contact has identified at least one application of a core use case tied to a ‘why now’ event
 - Contact can be a potential champion or coach for the specific use case(s)
-- Company has >50 Developers **OR** Company is a Commercial account ( <500 employees)
+- Company has 500+ Developers, is a company that has potential to grow to that scale, or is a company that has a specific pain point that Sourcegraph can uniquely solve
 - Company/contact agrees to a specific/objective next step
   Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
 - For examples of the above criteria, please see [this presentation](https://docs.google.com/presentation/d/1pfQSZdoN9rbKidx8lfaDO8-G6PRyQ3X5f2aynvw2FRE/edit?usp=sharing)
@@ -113,11 +113,11 @@ Relevant contact (potential champion or coach) that is aware of / understands co
 
 OR
 
-Title/role includes developer productivity, developer experience, API services, distinguished eng, platform engineer, director+ eng
+Title/role includes Director+ developer productivity, developer experience, API services, distinguished eng, platform engineer.
 
 AND
 
-Company has 50+ devs **OR** Company is a Commercial account ( <250 employees)
+Company has 500+ Developers, is a company that has potential to grow to that scale, or is a company that has a specific pain point that Sourcegraph can uniquely solve
 
 ### Target Account
 
