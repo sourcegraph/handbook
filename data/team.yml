@@ -304,18 +304,6 @@ owen_brennan:
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
 
-maría_craig:
-  name: María Craig
-  reports_to: eng_lead
-  pronouns: she/her
-  role: Product Manager, Code Intelligence
-  location: Barcelona, Spain 🇪🇸 / Buenos Aires, Argentina 🇦🇷
-  github: macraig
-  email: maria@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/mariaanacraig)'
-  pronunciation: '[pronounce my name 🔊](https://www.youtube.com/watch?v=-uVQtRQ-Khw)'
-  description: María spends lots of time listening to old rock bands and hugging every dog she can find. Prior to Sourcegraph, she co-founded an EdTech startup in Argentina with the mission of closing the gap between traditional education and tech. She later joined another startup and led the development of a real-time IoT predictive monitoring platform to help predict machine failure in industrial plants in Latin America. In her free time, María enjoys playing soccer and video games with friends, attending live music shows, and watching animated movies and musicals.
-
 chris_surdi:
   name: Chris Surdi
   role: Account Executive
@@ -323,18 +311,6 @@ chris_surdi:
   location: San Francisco, Ca, USA, 🇺🇸
   email: chris.surdi@sourcegraph.co
   description: "I’m a serial entrepreneur and angel employee with a passion for disruptive technology and sales. I live north of San Francisco with my wife Meliza and three kids - Truson, Kaison and Crimson. I'm originally from back East and moved out to the West Coast in 2003 to be involved in startups, technology, and innovation. I'm grateful to say I'm doing everything I've set myself out to achieve at this point."
-
-joel_kwartler:
-  name: Joel Kwartler
-  reports_to: eng_lead
-  pronouns: he/him
-  role: Product Manager, Code Insights
-  location: Los Angeles, CA, USA 🇺🇸
-  pronunciation: '[ʤoʊl kwɔrtlɜr](http://ipa-reader.xyz/?text=%CA%A4o%CA%8Al%20kw%C9%94rtl%C9%9Cr&voice=Joey)'
-  github: Joelkw
-  email: joel@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/joelkwartler), ([Current Goals](https://docs.google.com/document/d/1W9XAQ7eEu4GcuDgFFqhAhmbq8VmkATh4gzfS_dBxoyc))'
-  description: "Joel is a west coast fanboy who grew up in Oregon and has since lived in Seattle, SF, and LA. He's bounced around the startup + design world at places like Figma and IDEO, and got a bachelor's in C.S. at Harvard. After hours, you might find him doing stand up, pretending he knows piano, or waking up way too early to take photographs. He's made the _Forbes 30 Under 30 List of Best Joel Kwartlers_ for 5 of the past 8 years."
 
 joe_kirscher:
   name: Joe Kirscher
@@ -504,18 +480,6 @@ malo_marrec:
   github: malomarrec
   links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
   description: Malo lives in Paris, France after some time in the Bay Area. Prior to Sourcegraph, he bounced around a few early stage startups building infrastucture and developer tools. Malo graduated with an MS from Stanford, and an MS from Ecole Centrale Paris. Outside of work, he kite surfs and reads a ton of books.
-
-inés_roitman:
-  name: Inés Roitman
-  pronouns: she/her
-  role: Onboarding and Training Manager
-  reports_to: director_recruiting_peopleops
-  location: Buenos Aires, Argentina 🇦🇷 / Barcelona, Spain 🇪🇸
-  github: InesRoitman
-  email: ines@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ines-roitman/)'
-  pronunciation: '[Pronounce my name 🔊](https://www.pronouncenames.com/In%C3%A9s)'
-  description: Inés is above all a curious person, which is why she spends her time reading and traveling (and daydreaming of her next holiday, wondering where to go next). She has a Bachelors degree in Education Sciences and has a passion for teaching and learning. Before Sourcegraph she worked designing digital educational content and dynamics for an EdTech startup and, after that, as a Technical Trainer for a SaaS focused in Brand Protection.
 
 james_clifford:
   name: James Clifford
@@ -1480,12 +1444,6 @@ desene_sterling:
   reports_to: vp_operations
   manager_role_slug: financial_controller
 
-kristen_stretch:
-  name: Kristen Stretch
-  role: Engineering Manager, Developer Experience
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_developer_experience
-
 feroz_salam:
   name: Feroz Salam
   email: feroz.salam@sourcegraph.com
@@ -1796,17 +1754,6 @@ laura_hacker:
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
   description: 'Laura lives in Grand Rapids, Michigan with her husband and their cat. In addition to her computer science degree, she also spent several years studying zoology and still has plenty of random animal facts to share. Outside of work, she likes to try out different art mediums and crafts, experiment with baking new recipes, and spend time with her family and friends.'
 
-collette_tesauro:
-  name: Collette Tesauro
-  email: collette@sourcegraph.com
-  role: Senior Legal Counsel - Privacy & Employment
-  pronouns: she/her
-  reports_to: director_legal
-  location: Laurel Springs, NJ, USA 🇺🇸
-  github: collettesg
-  links: '[LinkedIn](https://www.linkedin.com/in/ctesauro)'
-  description: Collette is a New Jersey native, and currently resides there after a nine-year hiatus in San Diego, CA. Prior to joining Sourcegraph, Collette spent years working as both in-house and external employment and privacy counsel. In her non-working time, Collette enjoys playing video games with friends 🎮, reading (and collecting books she plans to read) 📚, and spending time with her husband.
-
 david_james_johnson:
   name: David James Johnson
   email: davidjames.johnson@sourcegraph.com
@@ -1993,16 +1940,6 @@ kalan_chan:
   github: kalanchan
   links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
   description: Kalan lives in Burnaby, also known as Vancouver to everyone outside of Metro Vancouver. He graduated from the University of Alberta with an Electrical Engineering degree, but soon after started self learning Software Development when he saw the light. On his spare time when he's not pushing pixels, Kalan enjoys biking, bouldering, reading and plane spotting.
-
-quinn_hare:
-  name: Quinn Hare
-  pronouns: she/her
-  location: San Francisco, CA
-  role: Product Manager - Developer Experience
-  reports_to: eng_lead
-  email: quinn.hare@sourcegraph.com
-  github: quinnhare
-  links: '[LinkedIn](https://www.linkedin.com/in/quinn-hare-54b76055/)'
 
 miles_patton:
   name: Miles Patton
