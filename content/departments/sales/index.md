@@ -84,6 +84,10 @@ Close rate is the ratio of deals that were `Closed Won` to deals qualified withi
 
 Calculation: # of deals closed won / # of deals qualified in the period
 
+### Revenue Kickoff 
+
+Revenue Kickoff is an annualevent held in February for our Revenue Teams (Sales, Technical Success). The main objectives is to motivate our team, define our strategy for the year; and celebrate wins. 
+
 ### Sales Accepted Opportunity (SAO)
 
 Sales Accepted Opportunities are where ALL of the following are true:
