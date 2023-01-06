@@ -7,6 +7,7 @@
 - Amber Nocerino (EBP) supporting Greg Bastis (VP Sales), and Aimee Menne (VP Technical Success)
 
 ## Contact us
+
 Please feel free to tag us on Slack [@executive-business-partners](https://sourcegraph.slack.com/admin/user_groups) or @ mention executive-business-partners in a Google doc.
 
 ## Responsibilities
@@ -22,6 +23,7 @@ Ask yourself or the requestor of the meeting: can this be done async? If not, pl
 _\*\*Please be mindful that synchronous meetings consume valuable time and resources, please consider conducting your meeting asynchronously whenever possible._
 
 ## Meeting request requirements
+
 1. Required attendees and optional attendees
 2. Timezone of external attendees
 3. Duration
