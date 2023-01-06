@@ -25,7 +25,6 @@ code_intelligence:
   title: Code Intelligence
   brief: Code intelligence provides features and services that help developers better understand and navigate code.
   strategy_link: /strategy-goals/strategy/code-intelligence/index.md
-  pm: maría_craig
   em: owen_convey
   pmm: alex_isken
   issue_labels:
@@ -46,7 +45,6 @@ code_insights:
   title: Code Insights
   brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
   strategy_link: /strategy-goals/strategy/code-insights/index.md
-  pm: joel_kwartler
   em: felix_becker
   pmm: victoria_yunger
   issue_labels:
