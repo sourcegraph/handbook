@@ -19,12 +19,6 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
 - [Forecasting Overview](forecasting.md)
 
-## Pipeline, data, and models
-
-- [Transactions](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
-- [FY21 plan](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=1071026049)
-- [Looker dashboard](https://sourcegraph.looker.com/browse/boards/2)
-
 ## Goals
 
 Find the Sales FY23 Target Market [here](https://docs.google.com/document/d/1w35Nnmc_yQCbweHdTWLiP8lX_D0onl4OrmWJZaRsl7s/edit).
@@ -68,9 +62,15 @@ A customer is an organization with a Sourcegraph subscription contract that has 
 
 ### Open pipeline
 
+Open pipeline is the sum of all Opportunities that are in Stage 1 or greater, for a specific time period.
+
 ### Qualified pipeline
 
+Qualified pipeline is the sum of all Opportunities that are in Stage 2 or greater, for a specific time period.
+
 ### Weighted pipeline
+
+Weighted pipeline is the sum of all Opportunity iARR values, multiplied by the probability % by associated stage.
 
 ### Win rate
 
@@ -84,6 +84,10 @@ Close rate is the ratio of deals that were `Closed Won` to deals qualified withi
 
 Calculation: # of deals closed won / # of deals qualified in the period
 
+### Revenue Kickoff
+
+Revenue Kickoff is an annualevent held in February for our Revenue Teams (Sales, Technical Success). The main objectives is to motivate our team, define our strategy for the year; and celebrate wins.
+
 ### Sales Accepted Opportunity (SAO)
 
 Sales Accepted Opportunities are where ALL of the following are true:
@@ -91,7 +95,7 @@ Sales Accepted Opportunities are where ALL of the following are true:
 - We have completed an intro call/meeting with the company/contact
 - Company/contact has identified at least one application of a core use case tied to a ‘why now’ event
 - Contact can be a potential champion or coach for the specific use case(s)
-- Company has >50 Developers **OR** Company is a Commercial account ( <500 employees)
+- Company has 500+ Developers, is a company that has potential to grow to that scale, or is a company that has a specific pain point that Sourcegraph can uniquely solve
 - Company/contact agrees to a specific/objective next step
   Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
 - For examples of the above criteria, please see [this presentation](https://docs.google.com/presentation/d/1pfQSZdoN9rbKidx8lfaDO8-G6PRyQ3X5f2aynvw2FRE/edit?usp=sharing)
@@ -113,11 +117,11 @@ Relevant contact (potential champion or coach) that is aware of / understands co
 
 OR
 
-Title/role includes developer productivity, developer experience, API services, distinguished eng, platform engineer, director+ eng
+Title/role includes Director+ developer productivity, developer experience, API services, distinguished eng, platform engineer.
 
 AND
 
-Company has 50+ devs **OR** Company is a Commercial account ( <250 employees)
+Company has 500+ Developers, is a company that has potential to grow to that scale, or is a company that has a specific pain point that Sourcegraph can uniquely solve
 
 ### Target Account
 
