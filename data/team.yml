@@ -200,7 +200,7 @@ felix_becker_code_exploration:
 dave_try:
   name: Dave Try
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   location: Ibague, Colombia 🇨🇴/ Sydney, Australia 🇦🇺
   github: davejrt
   email: dave@sourcegraph.com
@@ -231,7 +231,7 @@ robert_lin:
 marek_zaluski:
   name: Marek Zaluski
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   location: Ottawa, Canada 🇨🇦
   github: marekweb
   email: marek@sourcegraph.com
@@ -506,7 +506,7 @@ tj_devries:
 manuel_ucles:
   name: Manuel Ucles
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   location: Phoenix, AZ, USA 🇺🇸
   github: mucles
   email: manuel@sourcegraph.com
@@ -1075,7 +1075,7 @@ jh_chabran:
   name: JH Chabran
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   pronunciation: 'Name Pronunciation: [/ʒiaʃ/](https://www.name-coach.com/jh-chabran)'
   location: Lyon, France 🇫🇷
   github: jhchabran
@@ -1682,7 +1682,7 @@ sander_ginn:
   github: sanderginn
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   location: Amsterdam, The Netherlands 🇳🇱
   links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
   description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
@@ -1891,7 +1891,7 @@ william_bezuidenhout:
   github: burmudar
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   location: Cape Town, South Africa 🇿🇦
   links: '[LinkedIn](https://www.linkedin.com/in/williambezuidenhout/), [Twitter](https://twitter.com/BurmudarFTL)'
   description: William lives in the beautiful Cape Town, South Africa. He enjoys running and moutain biking and when the weather permits (and his motivation) he can be out riding some trail at a wine farm or taking a leisure run. Besides the outdoor stuff, he loves to tinker and can often be found working on one of his side projects and reading up a storm on either tech, sci-fi, or fantasy! He loves animals and can easily be distracted by a dog.
@@ -1935,7 +1935,7 @@ kalan_chan:
   pronouns: he/him
   location: Burnaby, BC, Canada 🇨🇦
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_batch_changes
   email: kalan.chan@sourcegraph.com
   github: kalanchan
   links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
