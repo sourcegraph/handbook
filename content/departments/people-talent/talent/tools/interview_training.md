@@ -14,7 +14,7 @@ Here at Sourcegraph, we believe that interviewing is a company-wide effort. This
 - Review [guide to using BrightHire](guide_to_using_brighthire.md)
 - Review [guide to using Greenhouse](guide_to_using_greenhouse.md)
   - [How to see your interview questions](https://support.greenhouse.io/hc/en-us/articles/115002226826-Interviewer-guide-Using-interview-kits)
-  - [How to provide feedback](../process/interview_process.md#providing-interview-feedback) 
+  - [How to provide feedback](../process/interview_process.md#providing-interview-feedback)
   - [Interview feedback definitions](../process/interview_process.md#overall-hiring-recommendation)
   - [How to keep your feedback legal](../process/interview_process.md#how-to-keep-feedback-legal) (what you can and cannot put in your feedback)
 - Review [Preparing for your interview](../process/interview_process.md#preparing-for-an-interview) page
