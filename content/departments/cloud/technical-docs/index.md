@@ -148,4 +148,5 @@ Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 Managed Instances v2.0 documentation can be found [here](./v2.0/index.md)
 
 ### List Trials
+
 To list all current active Cloud trials, navigate to the [Trial List](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_list.yaml) GitHub Actions page and execute the workflow by clicking the `Run Workflow` button in the top right and filling out the prompt. The workflow may take a minute or two to execute. Refresh the page and select the latest execution, then click `trial-list`. The results should be printed under the `list trials` step.
