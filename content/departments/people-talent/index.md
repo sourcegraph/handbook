@@ -162,7 +162,11 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Leaving Sourcegraph
 
-- [Leaving Sourcegraph](people-ops/process/leaving.md)
+- [How to give notice (voluntary resignations)](people-ops/process/leaving.md)
+- [Mutual seperations](people-ops/process/leaving.md)
+- [Involuntary seperations](people-ops/process/leaving.md)
+- [Severance information & getting paid](people-ops/process/leaving.md)
+- [Cobra](people-ops/process/leaving.md)
 
 ### Misc
 
