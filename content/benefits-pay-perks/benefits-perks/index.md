@@ -28,7 +28,7 @@ In addition to on-the-job training, we offer a $1,000 yearly reimbursement for e
 
 ### ✈️ Travel
 
-We have generous [company, team, and individual travel budgets](travel/index.md) to encourage you to connect face to face with your teammates regularly.
+We have generous [travel budgets](travel/index.md) to encourage you to connect face to face with your teammates regularly.
 
 ### 🌐 Internet
 
