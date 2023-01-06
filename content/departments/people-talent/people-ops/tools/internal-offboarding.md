@@ -3,7 +3,7 @@
 TODO
 
 - [Working with other teams](working-with-other-teams.md)
-- [Exit interview](../process/performance-coaching/exit-interview.md) & [experience exit survey](../process/teammate-sentiment/exit-survey.md)
+- [Exit interview](../process/leaving.md/#exit-interviews) & [experience exit survey](../process/teammate-sentiment/exit-survey.md)
 
 ## Severance agreements
 
