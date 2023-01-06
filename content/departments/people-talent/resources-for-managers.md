@@ -54,9 +54,9 @@
   - [How to give a merit increase](people-ops/process/compensation-and-leveling/index.md)
   - [Offers](people-ops/process/compensation-and-leveling/index.md)
   - [Approvals](people-ops/process/compensation-and-leveling/index.md)
-- [Performance coaching](people-ops/process/performance-coaching/index.md)
+- Performance coaching
   - [Coaching conversations](people-ops/process/performance-coaching/coaching.md)
-  - [Exit interview](people-ops/process/performance-coaching/exit-interview.md)
+  - [Exit interview](../people-talent/people-ops/process/leaving.md/#exit-interviews)
     - Lattice
     - Questions we ask live
     - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
