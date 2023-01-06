@@ -24,6 +24,10 @@ To access the CS-GKE instance and run Kubernetes commands locally, you'll need t
 
 > WARNING: All your kubectl commands from now on are connected to the CS-GKE Kubernetes Instance.
 
+## Configuring instance resources
+
+To make changes to the replicas and container resources on this instance, update the [resources](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s/blob/release/overlays/namespaced/resources.yaml) file in the namespaced overlay. Apply the changes by running `./overlay-generate-cluster.sh namespaced generated-cluster`, followed by `kubectl apply -n ns-sourcegraph --prune -l deploy=sourcegraph -f generated-cluster --recursive`
+
 ## Upgrading CS-GKE Kubernetes Instance
 
 We are currently deployed using this [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s). To upgrade the instance:
