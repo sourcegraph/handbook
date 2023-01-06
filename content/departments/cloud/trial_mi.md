@@ -9,6 +9,7 @@ All processes are the same as for paid Managed Instances (for paying customers):
 - [upgrade process](./technical-docs/index.md#release-process)
 - [security](./technical-docs/index.md#security)
 - [monitoring](./technical-docs/index.md#monitoring-and-alerting)
+- [list trials](./technical-docs/index.md#list-trials)
 
 ## Difference from paid instances
 
