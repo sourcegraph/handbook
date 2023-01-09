@@ -119,7 +119,7 @@ After:
 
 **[Upgraded `otel-collector` to `v0.65`](https://github.com/sourcegraph/sourcegraph/pull/44543)**, which allowed us to start using the `filter processor` to selectively send traces to different services depending on certain attributes. We're currently using this processor to send UI traces to a different dataset on Honeycomb!
 
-**[Deprecate use of Grafana cloud for tracing](https://github.com/sourcegraph/sourcegraph/issues/43935) as well as [exporting logs in CI](https://github.com/sourcegraph/sourcegraph/issues/43934)**
+**[Deprecate use of Grafana cloud for tracing](https://github.com/sourcegraph/sourcegraph/issues/43935) as well as [for exporting logs in CI](https://github.com/sourcegraph/sourcegraph/issues/43934)**
 
 ### Frontend
 
