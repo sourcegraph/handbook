@@ -4,7 +4,8 @@ Sourcegraph assigns work using a Job Fair system, treating all engineering work 
 
 ## Finding a project to work on
 
-You can find the currently open projects in the [Sourcegraph Job Fair Project List](https://docs.google.com/spreadsheets/d/1jP5atmrBSJKubvk3rFuwXiXKLwfyxCGFDE4fqbpVmvU/edit#gid=0).
+Greenlit projects are in the [Job Fair project](https://github.com/orgs/sourcegraph/projects/302/views/2).
+Projects are assigned on a rolling basis. Feel free to drop a comment in PR-FAQ issues and let your manager know if you're interested in joining a project.
 
 ## Submitting an item to the roadmap
 
