@@ -66,8 +66,8 @@ Note: this will remove VCS trigger from Terraform Cloud workspaces for this inst
 
 ```sh
 mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
-npx --yes cdktf-cli@0.13.3 deploy tfc
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
+terraform init && terraform apply -auto-approve
 ```
 
 ### Remove workload
@@ -84,11 +84,9 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl
 
 ```sh
 # delete sql protection
-mi2 instance edit --query '.spec.debug.enableDeletionProtection = false' --slug $SLUG -e $ENVIRONMENT
-mi2 generate cdktf --slug $SLUG -e $ENVIRONMENT
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
-terraform init
-terraform apply -auto-approve
+mi2 instance edit --query '.spec.debug.enableDeletionProtection = false' -s $SLUG -e $ENVIRONMENT
+mi2 instance edit --query '.spec.debug.enableAlerting = false' -s $SLUG -e $ENVIRONMENT
+mi2 instance tfc deploy -s $SLUG -e $ENVIRONMENT -auto-approve -force-ignore-stack-dependencies -target sql -target monitoring
 ```
 
 ### Destroy infrastructure - destroy cdktf stacks
@@ -97,24 +95,14 @@ terraform apply -auto-approve
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
-npx --yes cdktf-cli@0.13.3 destroy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
-```
-
-If previous step fails for any reason, fallback to pure terraform destroy:
-
-```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/
-for stack in output monitoring executors security waf app sqlschema sql gke network project; do cd $stack && terraform init && terraform destroy && cd ..; done
+mi2 instance tfc destroy-all -auto-approve
 ```
 
 ### Delete TFC workspaces
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
-```
-
-```sh
-npx --yes cdktf-cli@0.13.3 destroy tfc
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
+terraform init && terraform destroy -auto-approve
 ```
 
 ### Commit your changes
