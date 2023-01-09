@@ -183,7 +183,8 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.3 deploy tfc
+cd terraform/stacks/tfc
+erraform init && terraform apply -auto-approve
 ```
 
 ### Init deployment - deploy cdktf stacks
@@ -195,7 +196,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.3 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+mi2 instance tfc deploy -auto-approve
 ```
 
 ### Init deployment - generate kustomize artifacts
@@ -235,18 +236,23 @@ mi2 instance sync --slug $SLUG -e $ENVIRONMENT
 
 ### Wrapping up
 
-Revert back up VCS-driven mode
-
-```sh
-mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)' --slug $SLUG -e $ENVIRONMENT
-```
-
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
+Enable uptime monitoring
+
 ```sh
-npx --yes cdktf-cli@0.13.3 deploy tfc
+mi2 instance edit --query '.spec.debug.enableAlerting=true'
+mi2 instance tfc deploy -auto-approve -force-ignore-stack-dependencies -target monitoring
+```
+
+Revert back up VCS-driven mode
+
+```sh
+mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)'
+cd terraform/stacks/tfc
+erraform init && terraform apply -auto-approve
 ```
 
 Finish the [remaining work](#wrapping-up)
