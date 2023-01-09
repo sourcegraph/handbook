@@ -43,7 +43,7 @@ The estimated spend for interns is **$925\***.
 
 Note: Our policy is that all teammates have a sourcegraph-managed laptop to perform all work pertaining to their role at Sourcegraph and we only support Mac computers at this time, so teammates are not able to expense a PC. See below for more information on computers and ordering your laptop.
 
-### Desk set up suggestions from teammates! 
+### Desk set up suggestions from teammates!
 
 - Carly - I highly recommend this [portable monitor!](https://www.amazon.com/gp/product/B097MZGZ2Y/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - MORE SUGGESTIONS COMING SOON!
