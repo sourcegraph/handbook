@@ -17,7 +17,7 @@ The current schedule is shown below:
 | -------------- | ----------- | ------------------------------------------------------------------------- |
 | January, 2023  | 4.4.0       | [Bolaji Olajide](../../../team/index.md#bolaji-olajide)                   |
 | February, 2023 | 4.5.0       | [Keegan Carruthers Smith](../../../team/index.md#keegan-carruthers-smith) |
-| March, 2023    | 4.6.0       | [Mohammad Umer Alam](../../../team/index.md#mohammad-umer-alam)           |
+| March, 2023    | 5.0.0       | [Mohammad Umer Alam](../../../team/index.md#mohammad-umer-alam)           |
 
 ## Guild Leader Responsibilities
 
