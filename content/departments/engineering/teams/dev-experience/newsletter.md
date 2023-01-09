@@ -8,6 +8,139 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
+## Jan 9th, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+Contributors of the changes mentioned in this newsletter (in alphabetical order):
+_Coury Clark, David Veszelovszki, Eric Fritz, Indradhanush Gupta, Jean-Hadrien Chabran, Keegan Smith, Kelli Rockwell, Marek Zaluski, Noah Santschi-Cooney, Quinn Slack, Thorsten Ball, Valery Bugakov, William Bezuidenhout._
+
+### Site-Admin
+
+**[Records outbound requests and adds an UI to browse them](https://github.com/sourcegraph/sourcegraph/pull/44286)** to ease understanding what is happening under the hood.
+
+**[Records slow GraphQL requests and andds an UI to browse them](https://github.com/sourcegraph/sourcegraph/pull/45063)** to passively discover quick wins and strange behaviour.
+
+## SG goodies
+
+**[Migrator: prints more details on failure](https://github.com/sourcegraph/sourcegraph/pull/45711)**:
+
+Before
+
+```
+❌ failed to run migration for schema "frontend": failed to apply migration 1670600028:
+
+-- LOADS OF SQL HERE
+: ERROR: duplicate key value violates unique constraint "executor_secret_access_logs_pkey" (SQLSTATE 23505)
+```
+
+After
+
+```
+❌ failed to run migration for schema "frontend": failed to apply migration 1670600028:
+
+-- LOADS OF SQL HERE
+: ERROR: duplicate key value violates unique constraint "executor_secret_access_logs_pkey" (SQLSTATE 23505)
+DETAIL: Key (id)=(420) already exists.
+HINT: This up-migration attempts to re-insert executor secret access logs from a backup table that would have lost information due to the associated down-migration changing the table schema. In doing so, a unique violation exception occurred and will have to be resolved manually. The backed up access logs are stored in the executor_secret_access_logs_machineuser_bak_1670600028 table.
+```
+
+**[Migrator: logs when concurrent indexes exist](https://github.com/sourcegraph/sourcegraph/pull/44164)**
+
+**[New command, `sg db delete-test-dbs`](https://github.com/sourcegraph/sourcegraph/pull/43197)** to drop databases created by the `dbtest` package.
+
+**[New command `sg release cve-check $handbook_trivy_url`](https://github.com/sourcegraph/sourcegraph/pull/44585)** to automate a step in the release process, to compare CVEs found in a build to a set of CVEs whihc have been approved by the security team.
+
+**[New command `sg db update-user-external-services`](https://github.com/sourcegraph/sourcegraph/pull/44701)** to add new external services from the CLI (useful locally and in scripts).
+
+**[New flag, `sg rfc --private list`](https://github.com/sourcegraph/sourcegraph/pull/42760)** to select private or public RFCs. Also fixes an issue where clashing RFC numbers across private and public would only open the same one.
+
+**[Added a pidfile mechanism to `sg`](https://github.com/sourcegraph/sourcegraph/pull/42366)** to warn the user that an instance already exists with the same `start` arguments.
+
+**[Skip `docker pull` on `syntax-highlighter` if `OFFLINE=true`](https://github.com/sourcegraph/sourcegraph/pull/45161)**, which removes a breaking step if you're working offline.
+
+**[Fixed ambiguous ✅ coming from backgroud tasks](https://github.com/sourcegraph/sourcegraph/pull/42830)** that suggested to the user that their command succeeded even if they didn't because it was printed last.
+
+**[Removed output messing up with the spinner during `dev-private` update check](https://github.com/sourcegraph/sourcegraph/pull/42607)**
+
+**[Fixed `sg` backgrounding when executing shell commands on Linux](https://github.com/sourcegraph/sourcegraph/pull/42031)**.
+
+**[Added a `--format` flag to `sg ci preview`](https://github.com/sourcegraph/sourcegraph/pull/41440)** to preview the raw output in either `json` or `yaml`. Very useful when you're debugging a pipeline issue and want to preview what will be sent to Buildkite.
+
+**[Fixed a bug where additional checks were not called](https://github.com/sourcegraph/sourcegraph/pull/45349)**.
+
+### CI
+
+**[Fix Go tests failures not appearing in the annotations](https://github.com/sourcegraph/sourcegraph/pull/46207)**
+
+**Re-enabled the previously disabled Go linters**: they were previously disabled because they flaked and printed incorrect output. [Root problem causing the errors has been fixed](https://github.com/sourcegraph/sourcegraph/pull/45259).
+
+- [`depguard`](https://github.com/sourcegraph/sourcegraph/pull/45270)
+- [`unparam`](https://github.com/sourcegraph/sourcegraph/pull/45548)
+- [`nolintlint` and `statickcheck SA1019`](https://github.com/sourcegraph/sourcegraph/pull/45847)
+- [`unused`](https://github.com/sourcegraph/sourcegraph/pull/46039)
+- All errors with the exception of `unused` have been manually fixed or flagged as exceptions.
+- And for `unused`, the found issues are now displayed in _warning_ annotations. Feel free to fix them at your own pace!
+
+![preview of buildkite warnings](https://user-images.githubusercontent.com/10151/210813634-96cc9849-96f9-483e-a059-c7014234b330.png)
+
+**[Reworked Go tests outputs to make them more readable](https://github.com/sourcegraph/sourcegraph/pull/45629)** See for yourself:
+
+Before:
+![example of go test outputs, before](https://user-images.githubusercontent.com/10151/207385205-b1240687-9752-457f-a836-d3f6e78c48db.png)
+
+After:
+![example of go test outputs, after](https://user-images.githubusercontent.com/10151/207385260-6df1d954-b467-4aa4-a7f3-291d13f504cd.png)
+
+**[Failing e2e job now store logs from _all_ containers as artefacts](https://github.com/sourcegraph/sourcegraph/pull/45243)** instead of just a the `frontend` application.
+
+**[Persist `golangci-lint` cache folder across builds](https://github.com/sourcegraph/sourcegraph/pull/46043)** which enables to get back to previous timing even though we have re-enabled two linters and are running the last one separately.
+
+**[Always create a branch for external commits being build with `sg ci build`](https://github.com/sourcegraph/sourcegraph/pull/44484)** to fix a security issue and avoid jumpscares when seeing a build on the `main` branch in Buildkite, while it's not yet merged on GitHub.
+
+**[Fixed duplicated jobs being printed in Slack](https://github.com/sourcegraph/sourcegraph/pull/44472)**.
+
+**[Fixed `sg lint format` not being run under certain conditions](https://github.com/sourcegraph/sourcegraph/pull/44341)**, which translated into formatting failures sneaking in the `main` branch.
+
+### Local dev enviroment
+
+**[Cached blobstore building](https://github.com/sourcegraph/sourcegraph/pull/45065)**: avoid rebuilding a docker image on every start.
+
+**[Added an installer script for building `universal-ctags` in local](https://github.com/sourcegraph/sourcegraph/pull/45198)**, avoiding to used the dockerized version. The docker version will be called unless you ran the installer manually.
+
+### Observability
+
+**[An OTEL dashboard is now generated](https://github.com/sourcegraph/sourcegraph/pull/45009)**, allowing to monitor span emission/drops across any instance.
+
+**[Reduced the number of spans emitted by SQL requests](https://github.com/sourcegraph/sourcegraph/pull/44798)**.
+
+**[Updated docs for _tail sampling_](https://github.com/sourcegraph/sourcegraph/pull/44658)**.
+
+**[Upgraded `otel-collector` to `v0.65`](https://github.com/sourcegraph/sourcegraph/pull/44543)**, which allowed us to start using the `filter processor` to selectively send traces to different services depending on certain attributes. We're currently using this processor to send UI traces to a different dataset on Honeycomb!
+
+**[Deprecate use of Grafana cloud for tracing](https://github.com/sourcegraph/sourcegraph/issues/43935) as well as [for exporting logs in CI](https://github.com/sourcegraph/sourcegraph/issues/43934)**
+
+### Frontend
+
+**[`graphql-codegen` has been updated](https://github.com/sourcegraph/sourcegraph/pull/45648)** which comes with better errors and performance.
+
+**[Fixed root path on render.com previews](https://github.com/sourcegraph/sourcegraph/pull/43191)**, as it wasntt redirecting to `/search` like dotcom and printed an error instead.
+
+**[Upgraded `percy/cli` to `1.16`](https://github.com/sourcegraph/sourcegraph/pull/45171)** as we were ten versions behind.
+
+**[Updated license finder to `7.1.0`](https://github.com/sourcegraph/sourcegraph/pull/45148)**.
+
+### Backend
+
+**[`goroutine` package improvement](https://github.com/sourcegraph/sourcegraph/pull/45305)**: unifies how to construct them, with predermined error logging.
+
+**[Introduced `SRC_LOG_SCOPE_LEVEL`](https://github.com/sourcegraph/log/pull/46)** to allow operators to override the log level for specific loggers and their children. It is particularly useful to turn up the level for a component you're currently working on.
+
+**[Added a new `FIFOList` structure to `rcache`](https://github.com/sourcegraph/sourcegraph/pull/44938)** to cache a _set_ of objects with a max capacity and deletes the oldest items that are overflowing.
+
+**[Bumped Go to 1.19.3](https://github.com/sourcegraph/sourcegraph/pull/43747)**.
+
 ## Sept 19th, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
