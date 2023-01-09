@@ -13,12 +13,10 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-Contributors of the changes mentioned in this newsletter (in alphabetical order): 
+Contributors of the changes mentioned in this newsletter (in alphabetical order):
 _Coury Clark, David Veszelovszki, Eric Fritz, Indradhanush Gupta, Jean-Hadrien Chabran, Keegan Smith, Kelli Rockwell, Marek Zaluski, Noah Santschi-Cooney, Quinn Slack, Thorsten Ball, Valery Bugakov, William Bezuidenhout._
 
-
-
-### Site-Admin 
+### Site-Admin
 
 **[Records outbound requests and adds an UI to browse them](https://github.com/sourcegraph/sourcegraph/pull/44286)** to ease understanding what is happening under the hood.
 
@@ -28,7 +26,8 @@ _Coury Clark, David Veszelovszki, Eric Fritz, Indradhanush Gupta, Jean-Hadrien C
 
 **[Migrator: prints more details on failure](https://github.com/sourcegraph/sourcegraph/pull/45711)**:
 
-Before 
+Before
+
 ```
 ❌ failed to run migration for schema "frontend": failed to apply migration 1670600028:
 
@@ -37,6 +36,7 @@ Before
 ```
 
 After
+
 ```
 ❌ failed to run migration for schema "frontend": failed to apply migration 1670600028:
 
@@ -54,11 +54,11 @@ HINT: This up-migration attempts to re-insert executor secret access logs from a
 
 **[New command `sg db update-user-external-services`](https://github.com/sourcegraph/sourcegraph/pull/44701)** to add new external services from the CLI (useful locally and in scripts).
 
-**[New flag, `sg rfc --private list`](https://github.com/sourcegraph/sourcegraph/pull/42760)** to select private or public RFCs. Also fixes an issue where clashing RFC numbers across private and public would only open the same one.  
+**[New flag, `sg rfc --private list`](https://github.com/sourcegraph/sourcegraph/pull/42760)** to select private or public RFCs. Also fixes an issue where clashing RFC numbers across private and public would only open the same one.
 
-**[Added a pidfile mechanism to `sg`](https://github.com/sourcegraph/sourcegraph/pull/42366)** to warn the user that an instance already exists with the same `start` arguments. 
+**[Added a pidfile mechanism to `sg`](https://github.com/sourcegraph/sourcegraph/pull/42366)** to warn the user that an instance already exists with the same `start` arguments.
 
-**[Skip `docker pull` on `syntax-highlighter` if `OFFLINE=true`](https://github.com/sourcegraph/sourcegraph/pull/45161)**, which removes a breaking step if you're working offline.  
+**[Skip `docker pull` on `syntax-highlighter` if `OFFLINE=true`](https://github.com/sourcegraph/sourcegraph/pull/45161)**, which removes a breaking step if you're working offline.
 
 **[Fixed ambiguous ✅ coming from backgroud tasks](https://github.com/sourcegraph/sourcegraph/pull/42830)** that suggested to the user that their command succeeded even if they didn't because it was printed last.
 
@@ -70,35 +70,36 @@ HINT: This up-migration attempts to re-insert executor secret access logs from a
 
 **[Fixed a bug where additional checks were not called](https://github.com/sourcegraph/sourcegraph/pull/45349)**.
 
-### CI 
+### CI
 
 **[Fix Go tests failures not appearing in the annotations](https://github.com/sourcegraph/sourcegraph/pull/46207)**
 
 **Re-enabled the previously disabled Go linters**: they were previously disabled because they flaked and printed incorrect output. [Root problem causing the errors has been fixed](https://github.com/sourcegraph/sourcegraph/pull/45259).
+
 - [`depguard`](https://github.com/sourcegraph/sourcegraph/pull/45270)
 - [`unparam`](https://github.com/sourcegraph/sourcegraph/pull/45548)
 - [`nolintlint` and `statickcheck SA1019`](https://github.com/sourcegraph/sourcegraph/pull/45847)
 - [`unused`](https://github.com/sourcegraph/sourcegraph/pull/46039)
-- All errors with the exception of `unused` have been manually fixed or flagged as exceptions. 
+- All errors with the exception of `unused` have been manually fixed or flagged as exceptions.
 - And for `unused`, the found issues are now displayed in _warning_ annotations. Feel free to fix them at your own pace!
 
-![preview of buildkite warnings](https://user-images.githubusercontent.com/10151/210813634-96cc9849-96f9-483e-a059-c7014234b330.png) 
+![preview of buildkite warnings](https://user-images.githubusercontent.com/10151/210813634-96cc9849-96f9-483e-a059-c7014234b330.png)
 
 **[Reworked Go tests outputs to make them more readable](https://github.com/sourcegraph/sourcegraph/pull/45629)** See for yourself:
 
 Before:
 ![example of go test outputs, before](https://user-images.githubusercontent.com/10151/207385205-b1240687-9752-457f-a836-d3f6e78c48db.png)
 
-After: 
+After:
 ![example of go test outputs, after](https://user-images.githubusercontent.com/10151/207385260-6df1d954-b467-4aa4-a7f3-291d13f504cd.png)
 
 **[Failing e2e job now store logs from _all_ containers as artefacts](https://github.com/sourcegraph/sourcegraph/pull/45243)** instead of just a the `frontend` application.
 
 **[Persist `golangci-lint` cache folder across builds](https://github.com/sourcegraph/sourcegraph/pull/46043)** which enables to get back to previous timing even though we have re-enabled two linters and are running the last one separately.
 
-**[Always create a branch for external commits being build with `sg ci build`](https://github.com/sourcegraph/sourcegraph/pull/44484)** to fix a security issue and avoid jumpscares when seeing a build on the `main` branch in Buildkite, while it's not yet merged on GitHub. 
+**[Always create a branch for external commits being build with `sg ci build`](https://github.com/sourcegraph/sourcegraph/pull/44484)** to fix a security issue and avoid jumpscares when seeing a build on the `main` branch in Buildkite, while it's not yet merged on GitHub.
 
-**[Fixed duplicated jobs being printed in Slack](https://github.com/sourcegraph/sourcegraph/pull/44472)**. 
+**[Fixed duplicated jobs being printed in Slack](https://github.com/sourcegraph/sourcegraph/pull/44472)**.
 
 **[Fixed `sg lint format` not being run under certain conditions](https://github.com/sourcegraph/sourcegraph/pull/44341)**, which translated into formatting failures sneaking in the `main` branch.
 
@@ -108,17 +109,15 @@ After:
 
 **[Added an installer script for building `universal-ctags` in local](https://github.com/sourcegraph/sourcegraph/pull/45198)**, avoiding to used the dockerized version. The docker version will be called unless you ran the installer manually.
 
-
 ### Observability
 
 **[An OTEL dashboard is now generated](https://github.com/sourcegraph/sourcegraph/pull/45009)**, allowing to monitor span emission/drops across any instance.
 
 **[Reduced the number of spans emitted by SQL requests](https://github.com/sourcegraph/sourcegraph/pull/44798)**.
 
-**[Updated docs for _tail sampling_](https://github.com/sourcegraph/sourcegraph/pull/44658)**. 
+**[Updated docs for _tail sampling_](https://github.com/sourcegraph/sourcegraph/pull/44658)**.
 
 **[Upgraded `otel-collector` to `v0.65`](https://github.com/sourcegraph/sourcegraph/pull/44543)**.
-
 
 ### Frontend
 
@@ -128,7 +127,7 @@ After:
 
 **[Upgraded `percy/cli` to `1.16`](https://github.com/sourcegraph/sourcegraph/pull/45171)** as we were ten versions behind.
 
-**[Updated license finder to `7.1.0`](https://github.com/sourcegraph/sourcegraph/pull/45148)**. 
+**[Updated license finder to `7.1.0`](https://github.com/sourcegraph/sourcegraph/pull/45148)**.
 
 ### Backend
 
@@ -139,7 +138,6 @@ After:
 **[Added a new `FIFOList` structure to `rcache`](https://github.com/sourcegraph/sourcegraph/pull/44938)** to cache a _set_ of objects with a max capacity and deletes the oldest items that are overflowing.
 
 **[Bumped Go to 1.19.3](https://github.com/sourcegraph/sourcegraph/pull/43747)**.
-
 
 ## Sept 19th, 2022
 
