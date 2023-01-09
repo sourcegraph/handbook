@@ -121,7 +121,6 @@ After:
 
 **[Deprecate use of Grafana cloud for tracing](https://github.com/sourcegraph/sourcegraph/issues/43935) as well as [exporting logs in CI](https://github.com/sourcegraph/sourcegraph/issues/43934)**
 
-
 ### Frontend
 
 **[`graphql-codegen` has been updated](https://github.com/sourcegraph/sourcegraph/pull/45648)** which comes with better errors and performance.
