@@ -92,7 +92,7 @@ The Recruiter opens the job in Greenhouse:
 
 ### Step 3: review with People Partner
 
-- The Recruiter will review the job description, hiring plan, and interview panel with the team's People Partner. The People Partner is responsible for flagging any areas of concern prior to moving onto next steps.
+- The Recruiter will review the job description, hiring plan, and interview panel with the team's People Partner. The People Partner is responsible for flagging any areas of concern prior to moving on to next steps.
 
 ### Step 4: post the job
 
