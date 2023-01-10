@@ -9,7 +9,7 @@ Projects are assigned on a rolling basis. Feel free to drop a comment in PR-FAQ 
 
 ## Submitting an item to the roadmap
 
-Before being added to the job fair, projects need to be prioritised and [added to the roadmap](./adding-to-roadmap.md). The first step is to raise a PR-FAQ.
+Before being added to the job fair, projects need to be prioritised and [added to the roadmap](./adding-to-roadmap.md). The first step is to [raise a PR-FAQ](https://github.com/sourcegraph/pr-faqs/issues/new/choose).
 
 See [PRFAQ guidelines](prfaq-process.md).
 
