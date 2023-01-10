@@ -90,13 +90,17 @@ The Recruiter opens the job in Greenhouse:
   - **Note:** Please put the top of band for the finance budget.
 - Turn on [Slack notifications](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack) for the role.
 
-### Step 3: post the job
+### Step 3: review with People Partner
+
+- The Recruiter will review the job description, hiring plan, and interview panel with the team's People Partner. The People Partner is responsible for flagging any areas of concern prior to moving onto next steps.
+
+### Step 4: post the job
 
 The Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
 
 - The recruiter follows [these instructions](./recruitment_branding.md#before-posting-to-a-job-board) before posting a role to any given job board in order to track the source of applicants and help measure the job board's return on investment.
 
-### Step 4: Slack kick-off process
+### Step 5: Slack kick-off process
 
 The Recruiter creates a Slack channel with the Interview Team and starts the Slack kick-off process:
 
@@ -104,7 +108,7 @@ The Recruiter creates a Slack channel with the Interview Team and starts the Sla
 
 - Example: “ops-hiring_handbook-product-manager_recruiter-kelsey”
 
-2. Invite the entire interview panel plus VP Talent, Recruiting Coordinator & Sourcer to the channel
+2. Invite the entire interview panel plus VP Talent, Recruiting Coordinator & People Partner to the channel
 3. Tag VP, People & Talent to make the channel private
 4. Once private, send kick off note using the below template:
 
@@ -143,9 +147,9 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-### Step 5: post to #hiring
+### Step 6: post to #hiring
 
-The **Recruiter** posts an announcement about the new role in #hiring. Example below:
+The Recruiter posts an announcement about the new role in #hiring. Example below:
 
 Hi team! We're excited to announce that we're kicking off a new search on the [department name] team. Please help us find candidates by spreading the word to your network and sending any referrals! And as always, we welcome internal applicants, too! If you're interested, talk to your Manager and follow [these steps](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams) in the Handbook.
 
@@ -153,6 +157,6 @@ Hi team! We're excited to announce that we're kicking off a new search on the [d
 - Role: role title, hyperlinked to job description
 - What we're looking for: ask Hiring Manager to write a brief exciting description
 
-### Step 6: recruit!
+### Step 7: recruit!
 
 The Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
