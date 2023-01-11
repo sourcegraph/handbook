@@ -44,7 +44,7 @@ If you have questions or want to participate, please post in #escalation-enginee
 
 ## Tips for new escalation engineers
 
-- Ask around, nobody is expecting that you come up with the answer or context entirely on your own.
+- Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
 - When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
 - Post some updates in the thread where the original ask came from (like got in touch with X, we think we may have a solution, etc..)
