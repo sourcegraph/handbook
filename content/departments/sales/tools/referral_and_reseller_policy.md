@@ -76,7 +76,7 @@ There is a standard partner referral [agreement](https://docs.google.com/documen
 
 1. Cloud based solution; on prem as an exception
 2. Territory is limited to accounts headquartered in Resellers defined territory
-3. Limit to six markets (countries) within first quarter. Agreement with Gregg on which partners to make offer to. Current potential list includes: Indonesia, South Africa, Korea (?), Israel, Brazil
+3. Limit to six markets (countries) within first quarter. Agreement with sales leadership on which partners to make offer to. Current potential list includes: Indonesia, South Africa, Korea (?), Israel, Brazil
 4. Pricing is valid for 9 months
    1. Pricing will be re-evaluated after 9 months
    2. Sourcegraph to honor this pricing for any deals registered before the end of that 9 month period for another 90 days (3 months)
