@@ -33,7 +33,11 @@ This group serves the needs of its members first and foremost. However, other po
 
 ## How is the cohort operated?
 
-The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Carly Jones](../../team/index.md#carly-jones), VP of Talent and People. The cohort primarily operates out of its public slack channel, #gender-diversity-allies. The cohort also has an opt-in private Discord server to function as a dedicated safe space for its members who aren’t participating as allies. The group + allies has a casual biweekly coffee meeting as well as other ad hoc syncs. Planning and execution for other regular cohort activities is still being worked out but may involve:
+The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Carly Jones](../../team/index.md#carly-jones), VP of Talent and People.
+
+The cohort primarily operates out of its public slack channel, #gender-diversity-allies. The cohort also has an opt-in private Discord server to function as a dedicated safe space for its members who aren’t participating as allies. The Discord server includes a channel for keeping in touch with alums from the group, as well.
+
+The group + allies has a casual biweekly coffee meeting as well as other ad hoc syncs. Planning and execution for other regular cohort activities is still being worked out but may involve:
 
 - Virtual team-building activities
 - Members pairing
@@ -47,4 +51,4 @@ The cohort is still just getting started, and operations will likely evolve over
 
 Start by joining our public slack channel, #gender-diversity-allies! By joining the channel, you will also be invited to any public events that the cohort is hosting. Announcements and general discussion are encouraged in the public channel.
 
-If you would also like to join our private Discord server, you can fill out [this form](https://forms.gle/71YXaxz8WX1Mmbkw5) to receive an invite once reviewed by a member of the group. We ask allies to refrain from joining the private one so that those who are present in it feel the most comfortable expressing themselves and speaking freely. Think of the private channel as your place to vent or get advice. 🙂 However, to maintain an environment of respect, we also ask that members of the private server refrain from discussing non-members by name.
+If you would also like to join our private Discord server, you can fill out [this form](https://forms.gle/71YXaxz8WX1Mmbkw5). A member of the group will review your request and send you the server invite link once approved. We ask allies and members of the leadership team to refrain from joining the private one so that those who are present in it feel the most comfortable expressing themselves and speaking freely. Think of the private channel as your place to vent or get advice. 🙂 However, to maintain an environment of respect, we also ask that members of the private server refrain from discussing non-members by name.
