@@ -46,7 +46,7 @@ If you have questions or want to participate, please post in #escalation-enginee
 
 - Ask around, nobody is expecting that you come up with the answer or context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
-- When you do, precise that you're wearing the esc-eng hat, and link back to the original ask, this will help others to understand that what you're asking is important
+- When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
 - Post some updates in the thread where the original ask came from (like got in touch with X, we think we may have a solution, etc..)
 - You own team is your primary circle, so don't hesitate to sollicitate them for help / feedback, but don't limit to it. Anyone can help you.
 - The request coming from execs does not mean you can't say "no", actually that's often one of the biggest mistake that can be made with them, i.e saying yes to everything just because of their position. They're expecting to be said no if something is not possible, like anyone else.
