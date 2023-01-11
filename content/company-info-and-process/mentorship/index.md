@@ -41,7 +41,7 @@ Did you already strike something up informally with someone you’re already wor
 
 You can reach the mentorship program champions by tagging @mentorship-champions or posting in #mentorship with questions, concerns, feedback, or anything else mentoring-related.
 
-We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). 
+We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
 
 ## For mentees
 
