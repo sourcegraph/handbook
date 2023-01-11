@@ -22,7 +22,7 @@ With our dedicated instance for user research, we can much more accurately explo
 - The research instance will be most immediately valuable for unmoderated user research using Usertesting.com.
 - In unmoderated user research, we will provide a generic username and password for participants to use to log in to the instance. This user account has minimal permissions to carry out actions on the instance, and the generic password will be changed manually after each round of unmoderated user research.
 - More than one unmoderated user research participant can sign in with the same user account at the same time to complete their activities.
-- The instance is a standalone Cloud instance and not part of our internal authentication infrastructure. 
+- The instance is a standalone Cloud instance and not part of our internal authentication infrastructure.
 - When creating content on the instance, aim for real-world accuracy to create a realistic environment for user research. For example, a new search context might be named `@security-team`, but avoid `@test-context-123`.
 - When creating content on the instance for the purpose of or as a result of running user research, if the content may conflict or influence other research activities, the research organizer is responsible for removing or reverting that content to restore the instance to a "clear state."
 
