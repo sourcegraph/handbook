@@ -9,7 +9,6 @@ The committee of mentorship program champions are the designated owners and main
 - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa) (CS)
 - [Kelli Rockwell](../../team/index.md#kelli-rockwell) (Engineering)
 - [Joe Chen](../../team/index.md#joe-chen) (Engineering)
-- [Inés Roitman](../../team/index.md#inés-roitman) (People Ops)
 
 The responsibilities of the mentorship program champions are 3-fold:
 
@@ -24,7 +23,7 @@ That being said, the mentorship program here at Sourcegraph is brand new, and an
 
 In order to keep the mentors bulletin board up-to-date when there is a team member departure, an item will be added to the People Ops offboarding checklist to ensure they are also removed from the bulletin board.
 
-The People Ops team is also always available as a resource in case of personal issues or disputes between mentors and mentees. [Inés Roitman](../../team/index.md#inés-roitman) is our program’s official champion from within People Ops.
+The People Ops team (people-ops@sourcegraph.com) is also always available as a resource in case of personal issues or disputes between mentors and mentees.
 
 ## Measuring Outcomes
 
