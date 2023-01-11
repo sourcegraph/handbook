@@ -18,7 +18,7 @@
 | Eng Functional Lead             |        ???        |          ???          | Represent Eng, help craft sales reports / review, help ensure financial metrics are integrated and correct with other departments.                                                                                                                                |
 | Finance Functional Lead         |  Kendrick Morris  |     FP&A Manager      | Represent finance, help craft finance reports / review, help ensure financial metrics are integrated and correct with other departments. Act as liaison between Ops and department leadership.                                                                    |
 | People & Talent Functional Lead |        ???        |          ???          | Represent People & Talent, help craft sales reports / review, help ensure financial metrics are integrated and correct with other departments.                                                                                                                    |
-| Sales Functional Lead           | Mason Manorothkul | Sales Finance Manager | Represent sales, help craft sales report / review, help ensure financial metrics are integrated and correct with other departments.                                                                                                                               |
+| Sales Functional Lead           | ??? | Sales Finance Manager | Represent sales, help craft sales report / review, help ensure financial metrics are integrated and correct with other departments.                                                                                                                               |
 
 ## Why?
 
