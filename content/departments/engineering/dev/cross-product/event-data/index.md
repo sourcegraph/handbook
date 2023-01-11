@@ -18,7 +18,7 @@ Our working group is a cross-functional group of people from across Sourcegraph.
 - Exec Sponsor: Dan Adler
 - PM: Ryan Phillips
 - Data Engineer: Nathan Downs
-- Legal Partner: Collette Tesauro
+- Legal Partner: Tammy Zhu
 - Lead Engineer: Coury Clark
 
 ## Principles
