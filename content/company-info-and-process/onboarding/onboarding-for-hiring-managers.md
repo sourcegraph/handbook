@@ -126,4 +126,4 @@ You will use Lattice to take notes during the Milestones. You will be notified v
 </tr>
 </table>
 
-For any extra context, information or suggestions, please contact Inés Roitman (@Ines)
+For any extra context, information or suggestions, please contact people-ops@sourcegraph.com
