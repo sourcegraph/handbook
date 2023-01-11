@@ -4,14 +4,14 @@ Welcome to our growing distributed team! We're excited to have you along for the
 
 ## Home office and desk setup
 
-- **Separate work and home:** Try working in a separate space to where you relax/sleep - Keegan 
+- **Separate work and home:** Try working in a separate space to where you relax/sleep - Keegan
 - **Ergonomics are key:** Consider getting an ergo friendly chair and standing desk – Christina
-- **Change the scenery:** Try working "offsite" at a coffee shop, library, or friend's house once a week 
+- **Change the scenery:** Try working "offsite" at a coffee shop, library, or friend's house once a week
 - **Get a loud keyboard:** You can use a loud keyboard, unlike in an office environment - Keegan
 
 ## Schedule
 
-- **Stick to a schedule:** When working from home, it’s VERY important to have a set schedule and the discipline to respect it, or you risk blurring the lines between work and life to an unhealthy degree. 
+- **Stick to a schedule:** When working from home, it’s VERY important to have a set schedule and the discipline to respect it, or you risk blurring the lines between work and life to an unhealthy degree.
 - **Triage:** Morning I catch up on slack/github. I usually stick to triaging (recording in org-mode slack/issues to get back to). Smaller stuff I respond/review instantly. Then I create a plan for the rest of the day. - Keegan
 - **Timebox:** I work from around 8:30am to 5:30pm, sometimes starting 30min earlier and other times working a little bit longer. I personally need a schedule, because my productivity thrives with timeboxes. “I have two hours until lunch” or “I have one hour until the day is over” works much better for me than “let’s start working on this and see how long it takes”. - Thorsten
 
