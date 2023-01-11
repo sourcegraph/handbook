@@ -130,7 +130,13 @@ Below you can find a subset of the common tasks and how to complete them:
 
 To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
-First, ensure that you have the sourcegraph helm chart installed:
+First, authenticate yourself to the cluser using the following command:
+
+```shell
+gcloud container clusters get-credentials scaletesting --region us-central1 --project sourcegraph-scaletesting
+```
+
+Then check that you have the sourcegraph helm chart installed:
 
 ```bash
 helm repo add insiders https://helm.sourcegraph.com/insiders
@@ -138,13 +144,13 @@ helm repo update
 helm search repo insiders --devel
 ```
 
-Then, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
+Finally, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
 ```bash
 helm repo update
 
 # If you want to deploy using the same chart version:
-SG_CHART_VERSION=$(helm history sourcegraph -o json | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
+SG_CHART_VERSION=$(helm history sourcegraph -o json -n scaletesting | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
 # If you want to deploy using a newer chart version ('helm search repo insiders --devel --versions' lists all available versions):
 SG_CHART_VERSION=<new chart version>
 
