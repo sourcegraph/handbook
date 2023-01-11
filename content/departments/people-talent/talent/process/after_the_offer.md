@@ -64,7 +64,7 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 You need approval to bring a candidate on via Deel from People Ops.
 
 Process for approvals:
-Post in #peo-visa-hiring-exceptions with the candidate’s name, country, and situation/need for exception and tag Debbie Johnstone or Marija Petrovic.
+Post in #peo-visa-hiring-exceptions with the candidate’s name, country, and situation/need for exception and tag Marija Petrovic.
 Once the candidate has received approval to proceed with Deel fill out this [form](https://forms.gle/ocipGysWCPZ5TytL7) so that Marija Petrovic can create the candidate’s contract in Deel
 
 PEO contract process:
@@ -120,7 +120,7 @@ PEO contract process:
 
 If a new hire needs to change their start date, the Recruiter follows the below steps:
 
-**Step 1**: Send the below Slack to Ines & Carly in the #onboarding-internal Slack channel to request approval to change the start date.
+**Step 1**: Send the below Slack to Kemper & Carly in the #onboarding-internal Slack channel to request approval to change the start date.
 
 - **Please note:** All requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard.
 
