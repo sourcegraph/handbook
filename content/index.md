@@ -16,6 +16,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 - [Strategy](strategy-goals/strategy/index.md)
 - [Cross-functional projects](strategy-goals/cross-functional-projects/index.md)
 - [Communication](company-info-and-process/communication/index.md)
+  - [The Git Down](https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
 - [Handbook](handbook/index.md)
