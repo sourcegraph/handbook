@@ -435,21 +435,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.52.17%20AM.png"
-            alt="Picture of Frey Andersson"
-            style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Frey Andersson</div>
-        <div style="text-align: center; font-size: 12px">Technical Recruiter</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1">
-      <div>
-        <div style="text-align: center">
           <a href="../../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/KemperBitmoji.png"
@@ -525,22 +510,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
   </div>
-  <div class="row" style="display: flex">
-    <div class="col" style="flex: 1">
-      <div>
-        <div style="text-align: center">
-          <a href="../../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
-            alt="Picture of Inés Roitman"
-            style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Inés Roitman</div>
-        <div style="text-align: center; font-size: 12px">Onboarding and Training Manager</div>
-      </div>
-    </div>
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
