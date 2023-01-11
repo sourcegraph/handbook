@@ -114,7 +114,7 @@ Internship plans
 
 Finalizing the onboarding checklist
 
-- Each manager will confirm the necessary onboarding checklist items with Inés to ensure the interns have a smooth and effective remote onboarding experience.
+- Each manager will confirm the necessary onboarding checklist items with People Ops to ensure the interns have a smooth and effective remote onboarding experience.
 
 Wage and hour guidelines
 
@@ -136,8 +136,7 @@ Payroll
 
 - [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
 - [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
-- [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
-- [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
+- [Kemper](../../../../team/index.md#kemper-hamilton) - for all onboarding and internship program questions
 
 ## 2022 internship cohort
 
