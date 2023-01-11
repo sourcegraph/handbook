@@ -210,7 +210,7 @@ If an intern decides not to join us after being marked as Hired in Greenhouse bu
 
 The Internship Program Manager needs to complete the following actions prior to the internship start date
 
-- Send People Ops and Tec hOps the final list of intern names, teams, managers, and locations (by Country)
+- Send People Ops and Tech Ops the final list of intern names, teams, managers, and locations (by Country)
   - Greenhouse integration will add to Bamboo
   - People Ops will onboard
   - Tech Ops will ship laptops
@@ -221,7 +221,7 @@ The Internship Program Manager needs to complete the following actions prior to 
   - Have obtained an I-20 form from their university - This can take a couple of weeks, so please reach out to the interns at least 2-3 weeks prior to their start date
   - Are prepared to show one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of their I-9 check within their first 2 days.
 - Confirm with PeopleOps that avatars have been created for each intern
-- Work with our external video partner to create the interns’ new hire video compilation. If the interns are not starting on a [cohort start date](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0), the intern program manager will send their video compilation in the #teammateannounce slack channel on their first day.
+- Create the interns’ new hire video compilation. If the interns are not starting on a [cohort start date](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0), the intern program manager will send their video compilation in the #teammateannounce slack channel on their first day.
 - Finalize the social events and learning opportunities that will be included in the internship program
 - Finalize internship schedule. Our goal is to have the interns connect for each of the below items once per week:
   - 1:1 with manager
