@@ -8,10 +8,12 @@ The Talent Team is responsible for conducting reference checks and sharing the r
 
 ## **Process:**
 
-- Once the interview process has concluded and the Hiring Manager has confirmed they want to proceed, the Recruiter will request two references from the candidate.
+- Once the interview process reaches the "Final Interview" stage, the Recruiting Operations Specialist will send the Reference Check Information form through Greenhouse. 
+  - When the candidate fills out the form, their references' contact information will automatically be submitted to Greenhouse. 
 - Once references are received, the Recruiter will send an email to schedule a reference check.
   - Note: Verbal references are preferred, however if time doesn’t permit, written references are also acceptable.
-- Recruiter will add reference check notes onto the candidate page in Greenhouse.
+- Recruiter will add the reference check responses as an attachment under the candidate's "details" tab in Greenhouse. 
+  - A PDF download of the email or a screenshot of the reference's response will suffice 
 - Once references are complete, Recruiter will share the results with the Hiring Manager using the Slack template.
 - Once positive references are confirmed and approved by the Hiring Manager, the Recruiter will proceed as normal to the [offer stage](extending_an_offer.md#offer-stage)
 
