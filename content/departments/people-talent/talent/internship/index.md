@@ -134,10 +134,9 @@ Payroll
 
 #### Points of contact
 
-- [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
+- [Tammy](../../../../team/index.md#tammy-zhu) - for legal questions
 - [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
-- [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
-- [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
+- [Kemper](../../../../team/index.md#kemper-hamilton) - for onboarding and all other internship program questions
 
 ## 2022 internship cohort
 
