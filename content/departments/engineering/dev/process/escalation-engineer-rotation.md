@@ -49,7 +49,7 @@ If you have questions or want to participate, please post in #escalation-enginee
 - When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
 - Post some updates in the thread where the original ask came from (e.g. "I got in touch with X", "we think we may have a solution", etc)
 - Your own team is your primary circle, so don't hesitate to solicit them for help / feedback, but don't limit yourself to just your team. Anyone can help you.
-- The request coming from execs does not mean you can't say "no", actually that's often one of the biggest mistake that can be made with them, i.e saying yes to everything just because of their position. They're expecting to be said no if something is not possible, like anyone else.
+- If a request is coming from execs, it does not mean you can't say "no"; in fact, that's often one of the biggest mistake that can be made with them, i.e saying yes to everything just because of their position. They're expecting to be told "no" if something is not possible, as you would with anyone else.
 - Don't overthink it, even if you're finding yourself in a position where you can't implement the solution for a request because it's out of your reach technically, you can still be the one coordinating others into solving it. And that's very very helpful: it means you're owning the problem, but getting help for the solution.
 
 ## FAQ
