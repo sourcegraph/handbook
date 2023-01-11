@@ -45,4 +45,4 @@ All Engineers are eligible to use Plato. If you are part of the Product team or 
 
 If you are interested in getting a seat, plese fill out [this form](https://platohq.typeform.com/to/k6H6wFRR). If there are no seats available you will be added to the waitlist.
 
-The People Ops team is responsible for Onboarding teammates to Plato. If you are have any questions, please reach out to Inés or your People Partner.
+The People Ops team is responsible for Onboarding teammates to Plato. If you are have any questions, please reach out to people-ops@sourcegraph.com or your People Partner.
