@@ -17,3 +17,6 @@ See the [Operations roles](../roles/index.md) page.
 ## Goals
 
 TODO
+
+## Resources
+- [Prospecting resources](prospecting.md)
