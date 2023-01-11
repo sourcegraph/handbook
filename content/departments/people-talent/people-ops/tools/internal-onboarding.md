@@ -95,7 +95,7 @@ Hiring managers should:
 
 Because they will be added to Google Groups by Tech Ops, they will be automatically added to company events and team specific ones. We should schedule some events in the new teammate's calendar:
 
-- Schedule 15min meeting on 1 month mark (with Inés)
+- Schedule 15min meeting on 1 month mark (with a PeopleOps teammate)
 
   - Invite description:
 
@@ -136,7 +136,7 @@ Teammates must have the elegible documents available for us to corroborate their
 
 There are two main onboarding feedback instances:
 
-- **One Month check in**: 15 min check-in with Inés (or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process.
+- **One Month check in**: 15 min check-in with a People Ops team member to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process.
 - **Onboarding survey**: sent out monthly on the three month mark. Based on the [standards of success](../../../../company-info-and-process/onboarding/index.md#onboarding-standards-and-success) the teammate’s survey is focused on experience, content, and format, and presentation.
 
 ### Onboarding survey
