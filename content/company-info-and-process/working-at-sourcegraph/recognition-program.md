@@ -1,3 +1,0 @@
-# Recognition Program
-
-TODO
