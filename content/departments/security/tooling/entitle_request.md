@@ -13,7 +13,7 @@ Entitle is available through a Slack integration as well as web interface.
 
 - Slack interface is available by typing /entitle or /access_request in any slack window
 
-## There are three ways of requesting access via Slack or Web Interface.
+## There are three types of requests in the form.
 
 - [Search for Permissions](entitle_request.md#search-for-permission-request)
 - [Permission Sets](entitle_request.md#permission-sets-request)
@@ -88,6 +88,10 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 #### How do I start using Entitle?
 
 - Just type in “/entitle” into a slack message and you can get started with it.
+
+#### What if there is an incident and I need access?
+
+- In case of an incident or on-call access request, please submit the access request and then reach out to security via our incident response process outlined [here](../security-incident-response.md#reporting)
 
 #### Which applications can I request access to via Entitle?
 
