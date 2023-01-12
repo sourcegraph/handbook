@@ -36,3 +36,6 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 
 - [Logo files](https://www.figma.com/file/522fTKlS2R6fzzs9EGNvpk/Logos?node-id=0%3A1)
 - [Icons](https://www.figma.com/file/gh8Pnk0XowDq55RmqUkO7k/Icon-library?node-id=0%3A9)
+- [Slides](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d)
+- [Product imagery](https://www.figma.com/file/VkNYkLBsxhtrhOHRuje28p/Product-Imagery?node-id=0%3A1&t=8EaDRxtvEuC7kXxZ-0)
+- [Starship brand assets](https://www.figma.com/file/lXvp8a2qoAU5L5sm4Woisu/STARSHIP-brand-assets?node-id=91%3A1816&t=8EaDRxtvEuC7kXxZ-0)
