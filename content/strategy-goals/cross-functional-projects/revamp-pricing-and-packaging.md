@@ -17,7 +17,7 @@
 | Accounting support        | Desene Sterling  | Controller            | Help with analysis to understand the impact of potential pricing and packaging changes. Help with operationalizing billing, quote to cash, deal desk, etc.                                                                     |
 | Sales Finance support     |  Kendrick Moore  | ???                   | Perform analysis into pricing and packaging changes to the business.                                                                                                                                                           |
 | Product marketing support | Andy Schumeister | ???                   | Help with pricing and packaging rolled out. Updates to website, sales content, etc. General pricing and packaging strategy.                                                                                                    |
-| Product marketing support |       ???       | ???                   | Help with pricing and packaging rolled out. Updates to website, sales content, etc. General pricing and packaging strategy.                                                                                                    |
+| Product marketing support |       ???        | ???                   | Help with pricing and packaging rolled out. Updates to website, sales content, etc. General pricing and packaging strategy.                                                                                                    |
 
 ## Why?
 
