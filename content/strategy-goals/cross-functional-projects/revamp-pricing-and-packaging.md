@@ -17,7 +17,7 @@
 | Accounting support        | Desene Sterling  | Controller            | Help with analysis to understand the impact of potential pricing and packaging changes. Help with operationalizing billing, quote to cash, deal desk, etc.                                                                     |
 | Sales Finance support     |  Kendrick Moore  | ???                   | Perform analysis into pricing and packaging changes to the business.                                                                                                                                                           |
 | Product marketing support | Andy Schumeister | ???                   | Help with pricing and packaging rolled out. Updates to website, sales content, etc. General pricing and packaging strategy.                                                                                                    |
-| Product marketing support |       Lori       | ???                   | Help with pricing and packaging rolled out. Updates to website, sales content, etc. General pricing and packaging strategy.                                                                                                    |
+| Product marketing support |       ???       | ???                   | Help with pricing and packaging rolled out. Updates to website, sales content, etc. General pricing and packaging strategy.                                                                                                    |
 
 ## Why?
 
@@ -266,7 +266,7 @@ Soft launch where we sell earlier and then adjust customers after the launch
 Stripe has premium support at 1200 per month
 What’s the threshold for getting support?
 
-Chat with Lori - Migration Fees?
+Chat - Migration Fees?
 This should be a one-time fee / price to help migrate from free to enterprise.
 If it is a ton of work.
 Price tag + approval for selling on-prem (often waived) for deployment fees on enterprise
