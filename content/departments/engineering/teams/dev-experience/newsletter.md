@@ -22,7 +22,7 @@ _Coury Clark, David Veszelovszki, Eric Fritz, Indradhanush Gupta, Jean-Hadrien C
 
 **[Records slow GraphQL requests and andds an UI to browse them](https://github.com/sourcegraph/sourcegraph/pull/45063)** to passively discover quick wins and strange behaviour.
 
-## SG goodies
+### SG goodies
 
 **[Migrator: prints more details on failure](https://github.com/sourcegraph/sourcegraph/pull/45711)**:
 
