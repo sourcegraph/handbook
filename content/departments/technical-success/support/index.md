@@ -84,7 +84,7 @@ Downtime excludes the following:
 
 #### Scheduled Downtime
 
-Sometimes we need to perform maintenance to keep your Sourcegraph Cloud instance working correctly. If scheduled downtime is necessary, we’ll give you at least 48 hours advance notice.In a quarter, scheduled downtime won’t exceed 10 hours.
+Sometimes we need to perform maintenance to keep your Sourcegraph Cloud instance working correctly. If scheduled downtime is necessary, we’ll give you at least 48 hours advance notice. In a quarter, scheduled downtime won’t exceed 10 hours.
 
 #### Uptime Commitment
 

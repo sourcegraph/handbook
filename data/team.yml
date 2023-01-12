@@ -1889,17 +1889,6 @@ gronk:
   location: Hamburg, Germany 🇩🇪
   description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
 
-lori_colston:
-  name: Lori Colston
-  email: lori.colston@sourcegraph.com
-  github: lcolston08
-  pronouns: she/her
-  role: Product Marketing Lead
-  reports_to: director_product_marketing
-  location: Denver, Colorado
-  links: '[LinkedIn](https://www.linkedin.com/in/loricolston/)'
-  description: Lori lives in sunny Denver, Colorado with her husband and two young children. Lori was a Senior Product Marketing Manager at Stack Overflow before joining Sourgraph, and she enjoys working towards a common goal with teammates across product, sales, and engineering. Outside of work, Lori can be found hiking, rafting, biking, and snowboarding with her family.
-
 kalan_chan:
   name: Kalan Chan
   pronouns: he/him
