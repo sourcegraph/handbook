@@ -6,7 +6,7 @@ See [strategy](../../../../strategy-goals/strategy/growth-team/index.md)
 
 ## Members
 
-- Malo Marrec, product manager
+- Taylor Sperry, product manager
 - TBD, engineering manager
   - Erzhan Torokulov, software engineer
   - Kelli Rockwell (temp), software engineer
