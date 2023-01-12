@@ -91,7 +91,7 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 
 #### What if there is an incident and I need access?
 
-- In case of an incident or on-call access request, please submit the access request and then reach out to security via our incident response process outlined [here](../security-incident-response/.md#reporting)
+- In case of an incident or on-call access request, please submit the access request and then reach out to security via our incident response process outlined [here](../security/security-incident-response/.md#reporting)
 
 #### Which applications can I request access to via Entitle?
 
