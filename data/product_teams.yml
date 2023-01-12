@@ -7,7 +7,6 @@ search_product:
   pm: steve_yegge
   em: interim_head_of_search
   design: paulo_almeida
-  pmm: lori_colston
   issue_labels:
     - team/search-product
 
@@ -17,7 +16,6 @@ search_core:
   strategy_link: /strategy-goals/strategy/search/core/index.md
   em: interim_head_of_search
   design: rob_rhyne
-  pmm: lori_colston
   issue_labels:
     - team/search-core
 
@@ -37,7 +35,6 @@ batch_changes:
   pm: malo_marrec
   em: chris_pine
   design: daniel_marques
-  pmm: lori_colston
   issue_labels:
     - team/batchers
 
