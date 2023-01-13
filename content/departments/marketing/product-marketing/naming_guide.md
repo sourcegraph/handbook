@@ -101,7 +101,7 @@ An example naming scorecard:
 - [Google](https://www.google.com/) (start here!) - You know how to use it.
 - [Wikipedia](https://www.wikipedia.org/) - see if something similar exists as a standardized term or phrase.
 - [WIPO Global Brand Database](http://www.wipo.int/branddb/en/index.jsp) - Search trademarks across international jurisdictions.
-- [TESS: Trademark Electronic Search System](http://tmsearch.uspto.gov) - The United States Patent and Trademark Office’s official trademark search tool. Go to "free form" search. If you want to check if Sourcegraph is trademarked, you can enter:  ((Sourcegraph)[BI] and (software)[GS] and (live)[LD])[ALL]
+- [TESS: Trademark Electronic Search System](http://tmsearch.uspto.gov) - The United States Patent and Trademark Office’s official trademark search tool. Go to "free form" search. If you want to check if Sourcegraph is trademarked, you can enter: ((Sourcegraph)[BI] and (software)[GS] and (live)[LD])[ALL]
 - [Canadian Trademarks Database](http://www.ic.gc.ca/app/opic-cipo/trdmrks/srch/home) - The Government of Canada’s office trademark search tool.
 - [Markify](https://www.markify.com/) - A paid trademark search engine. It delivers more sophisticated tools than free offerings.
 - [Panabee](https://www.panabee.com/) - Search for domain names, app names, and company names all at once.
