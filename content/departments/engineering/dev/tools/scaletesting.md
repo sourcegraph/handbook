@@ -337,3 +337,22 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 The following repositories are available to test against repositories with a massive amount of commits:
 
 - `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)
+
+## Scaletesting internals
+
+This section covers where to find the code behind the ScaleTesting initiative. 
+
+- [Deployments](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting)
+- [Tools](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/scaletesting) 
+- [Scratch Logs](https://sourcegraph.com/github.com/sourcegraph/devx-scratch/-/blob/2022/scaletesting/log.snb.md) 
+
+### Creating a scenario runner
+
+While not implemented at this stage, creating a runner is very similar to how the end-to-end test runner is working on the main repo, you set up your client and reach the instance to perform your requests. 
+
+There are a few various approaches, depending on what you want to test: 
+
+- You could simply work at the API level, by creating a GraphQL client 
+  - [Example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/codeintel-qa).
+- You can work at the browser level, by mimicking what we do in smoke-tests and end-to-end tests. 
+  - [Example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/smoke-tests) and [example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/smoke-tests/run-infra.sh) 
