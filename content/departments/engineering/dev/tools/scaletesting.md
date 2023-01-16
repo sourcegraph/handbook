@@ -350,7 +350,7 @@ This section covers where to find the code behind the ScaleTesting initiative.
 
 While not implemented at this stage, creating a runner is very similar to how the end-to-end test runner is working on the main repo, you set up your client and reach the instance to perform your requests.
 
-There are a few various approaches, depending on what you want to test:
+Depending on what you want to test, there are a few approaches you can take:
 
 - You could simply work at the API level, by creating a GraphQL client
   - [Example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/codeintel-qa).
