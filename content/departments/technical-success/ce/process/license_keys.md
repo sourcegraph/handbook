@@ -39,7 +39,7 @@ Visit the **Site-admin > Subscriptions** page, find the existing subscription, c
 
 > NOTE: Licenses for Cloud trial received through signup.sourcegraph.com are not linked to salesforce. Therefore, if the cloud trial converts, we need to follow this workflow just, as if it were a new customer.
 
-> NOTE: For a new trial deployment, the admin should be sent a license key for the initial deployment setup and configuration process. This should be a short-term key (1-2 weeks) for a small number of users (5-10) until the full license key is provided later in the POC process. 
+> NOTE: For a new trial deployment, the admin should be sent a license key for the initial deployment setup and configuration process. This should be a short-term key (1-2 weeks) for a small number of users (5-10) until the full license key is provided later in the POC process.
 
 The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
 
