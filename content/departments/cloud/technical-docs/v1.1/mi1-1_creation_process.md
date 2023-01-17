@@ -31,7 +31,6 @@ For basic operations like accessing an instance for these steps, see [managed in
      -f instance_type=[production|trial|internal] \
      -f instance_size=[small|medium|large] \
      -f user_level_telemetry=[true|false] \
-     -f dry_run=false \
      -f plg_trial=false
    ```
 
