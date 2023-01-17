@@ -21,6 +21,8 @@ Every instance has a default Sourcegraph admin user added during the [instance i
 
 > WARNING: Always have the customer consent prior to request UI access to a managed instance.
 
+> WARNING: Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
+
 <!--
 Use the slash command in Slack, type `/access_request` anywhere.
 
