@@ -98,8 +98,9 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 - Currently we are using Entitle to request permissions to
 
   1.  Google Cloud
-  2.  Github
-  3.  OKTA
+  2.  GitHub
+  3.  Okta
+  4.  Managed instance UI access
 
 #### If my team uses a group of permissions regularly, how can these be requested more easily?
 
