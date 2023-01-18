@@ -279,30 +279,63 @@ You'll meet with a potential peer in an adjacent team with whom we want to under
 
 You'll meet with two individual contributors on the CE team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
-### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
+### Customer Engineering Leadership Working Session 
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. The scope of your responses should focus on pre-sales only - net new and expansion.
+For this interview round, you will have a 45-min long working session with the Customer Engineering leadership team. This working session is intended to give us a sense of what it’d be like to work together and help us understand what impact you’d make on the organization right away and get a sense of what new ideas you have for improving our team. The format of this working session is very laid back; bring any notes, prepared talking points, or visual cues that you feel are useful, and be prepared to discuss your ideas with interviewers. Of course feel free to ask questions during the session, too! Plan to spend roughly 30 minutes on the topic in an open, collaborative manner, and leave 15 minutes at the end for you to ask questions of the team.
 
-A summary of the 4 prompts are provided below:
+**Topic: your near-term impact and priorities to elevate the CE team**
 
-1. **Pipeline Review:** A core responsibility as a pre-sales technical leader is to have a pulse on deals and make technical/strategic suggestions to mitigate risks and unblock issues that arise. As a leader, how do you keep a pulse on pipeline? What information do you expect your team to provide you and how? What do you look at and at what frequency?
+Hopefully by this point, you’ve learned quite a bit from the individuals you’ve talked to about the team, company, and product. Additionally, we’ve provided more information in this prompt about the CE team, sales process, org operating cadences, and current metrics. Using all of the information you’ve learned so far, we’d like you to brainstorm where you’d start and what impact you’d expect to make on the team right away. For the purpose of this exercise, assume you’re past the 30 day mark of being in-seat and you’re up-to-speed on the team. 
+ 
+Some questions to guide your brainstorming and the working session:
 
-2. **Assessing the Business:** As a growing team and business, we are constantly assessing our business to identify and anticipate needs. As a leader, how will you go about doing this and on what cadence? What is your approach at varying levels: within your team, within the organization, within the context of the company?
+1. What are your ideas and plans for improving the team and our ability to positively impact the business and our prospective and current customers?
+2. What gaps exist in our current process? What are the greatest opportunities for improvement? How might you address those?
+3. What would you need from your direct peer, Gronk (CE RD EMEA), your team leads, Alex and Dan, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering? 
 
-3. **KPIs and Metrics:** KPIs and metrics provide a standardized, consistent way to measure and assess individual and team performance. What KPIs and metrics are important for assessing individual performance and team performance? On what cadence do you expect to review this and how?
+**Background information**
 
-4. **Coaching and Feedback:** The role of a CE is extremely autonomous, in that the majority of the work CEs do is with their sales counterpart rather than with internal teammates. How will you go about inspecting the teams’ work and actively coaching and providing feedback to them?
+Below is some background information and context about the journey and current state of the team to help aid you in your preparation and proposed plan.
 
-The agenda for the meeting will go as follows:
+**CE team structure context**
 
-- 0-2 mins: Intros and recap of this interview stage
-- 2-14 mins: Prompt 1
-- 14-26 mins: Prompt 2
-- 26-38 mins: Prompt 3
-- 38-50 mins: Prompt 4
-- 50-60 mins: Feedback and Q&A
+In November, the organization split into dedicated pre- and post-sales, with CEs paired 1:3 with AEs based on region. Previously CEs were pre- and post-sales paired stably 1:1 with an AE. We have one individual in APAC, 4 individuals based in US-West (including 1 dual IC / team lead), 3 individuals based in US-East (including 1 dual IC / team lead), a CE RD in EMEA, and two individuals in EMEA reporting into that CE RD.
 
-**Important Notes**: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. It is up to your discretion whether to use visual aids to guide this conversation or not.
+**Sourcegraph sales process context**
+
+CEs attend any / every pre-sales call with prospective customers, as early as Stage 0 - prospecting. Often CEs will do product demos in introductory meetings, and subsequent meetings as well. A key part of our sales cycle is the trial. As the majority of our customers use our self-hosted on-premise deployment option, before a trial can begin the CE must help the customer deploy and configure an instance. Our trials typically run 30 days. During trials, CEs tend to lead 4 training sessions. Trial success is mostly measured based on user surveys.
+
+CEs are also involved in PLG-led cloud prospects, separate from our sales-led motion. We perform outreach and nurture prospects to try and help them activate their cloud trial, answering any technical or product questions along the way. These may or may not advance as a PQL into our standard sales process.
+
+**Organizational operating cadences**
+
+Today, we operate on the following cadences:
+* Weekly
+    * Deal technical risk and status inspection ([Tech Win Mgmt ](../../../departments/technical-success/ce/process/tech-win-process.md))
+    * Sales forecast
+    * Forecast debrief / roll-up
+    * 1:1s
+* Bi-Weekly
+    * Technical Success leadership sync
+    * CE regional team meetings
+* Monthly
+    * CE Global team meeting
+* Quarterly
+    * Internal Revenue QBRs
+    * Quarterly Kick-offs
+    * Technical Success departmental meeting
+
+Asynchronous [team norms](../../../departments/technical-success/ce/team-culture/working-with-customers.md)
+
+**Current team metrics and actuals**
+
+[Technical Closure of Trials](../../../departments/technical-success/ce/#technical-closure-of-trials.md)
+* Goal: 80%
+* Actual: 77%
+
+Time in Stage 4 (Trial)
+* Goal: 30 days
+* Actual: 49 days
 
 ## Engineering
 
