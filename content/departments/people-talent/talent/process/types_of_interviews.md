@@ -312,7 +312,7 @@ CEs are also involved in PLG-led cloud prospects, separate from our sales-led mo
 Today, we operate on the following cadences:
 
 - Weekly
-  - Deal technical risk and status inspection ([Tech Win Mgmt ](../../technical-success/ce/process/tech-win-process.md))
+  - Deal technical risk and status inspection ([Tech Win Mgmt ](../../../technical-success/ce/process/tech-win-process.md))
   - Sales forecast
   - Forecast debrief / roll-up
   - 1:1s
@@ -326,11 +326,11 @@ Today, we operate on the following cadences:
   - Quarterly Kick-offs
   - Technical Success departmental meeting
 
-Asynchronous [team norms](../../technical-success/ce/team-culture/working-with-customers.md)
+Asynchronous [team norms](../../../technical-success/ce/team-culture/working-with-customers.md)
 
 **Current team metrics and actuals**
 
-[Technical Closure of Trials](../../technical-success/ce/#technical-closure-of-trials.md)
+[Technical Closure of Trials](../../../technical-success/ce/#technical-closure-of-trials/index.md)
 
 - Goal: 80%
 - Actual: 77%
