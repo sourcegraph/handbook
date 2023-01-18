@@ -132,7 +132,7 @@ business:
   - term: SLA
     definition: Service level agreement
   - term: GoLink
-    definition: Canonical, internal-only link for a piece of information in the form of "go/..." link (ex. go/glossary)
+    definition: Canonical, internal-only link for a piece of information in the form of "go/..." link (ex. [go/glossary](https://go/glossary))
 
 role:
   - term: AE
