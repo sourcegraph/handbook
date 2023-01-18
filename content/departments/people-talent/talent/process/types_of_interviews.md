@@ -279,19 +279,19 @@ You'll meet with a potential peer in an adjacent team with whom we want to under
 
 You'll meet with two individual contributors on the CE team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
-### Customer Engineering Leadership Working Session 
+### Customer Engineering Leadership Working Session
 
 For this interview round, you will have a 45-min long working session with the Customer Engineering leadership team. This working session is intended to give us a sense of what it’d be like to work together and help us understand what impact you’d make on the organization right away and get a sense of what new ideas you have for improving our team. The format of this working session is very laid back; bring any notes, prepared talking points, or visual cues that you feel are useful, and be prepared to discuss your ideas with interviewers. Of course feel free to ask questions during the session, too! Plan to spend roughly 30 minutes on the topic in an open, collaborative manner, and leave 15 minutes at the end for you to ask questions of the team.
 
 **Topic: your near-term impact and priorities to elevate the CE team**
 
-Hopefully by this point, you’ve learned quite a bit from the individuals you’ve talked to about the team, company, and product. Additionally, we’ve provided more information in this prompt about the CE team, sales process, org operating cadences, and current metrics. Using all of the information you’ve learned so far, we’d like you to brainstorm where you’d start and what impact you’d expect to make on the team right away. For the purpose of this exercise, assume you’re past the 30 day mark of being in-seat and you’re up-to-speed on the team. 
- 
+Hopefully by this point, you’ve learned quite a bit from the individuals you’ve talked to about the team, company, and product. Additionally, we’ve provided more information in this prompt about the CE team, sales process, org operating cadences, and current metrics. Using all of the information you’ve learned so far, we’d like you to brainstorm where you’d start and what impact you’d expect to make on the team right away. For the purpose of this exercise, assume you’re past the 30 day mark of being in-seat and you’re up-to-speed on the team.
+
 Some questions to guide your brainstorming and the working session:
 
 1. What are your ideas and plans for improving the team and our ability to positively impact the business and our prospective and current customers?
 2. What gaps exist in our current process? What are the greatest opportunities for improvement? How might you address those?
-3. What would you need from your direct peer, Gronk (CE RD EMEA), your team leads, Alex and Dan, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering? 
+3. What would you need from your direct peer, Gronk (CE RD EMEA), your team leads, Alex and Dan, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering?
 
 **Background information**
 
@@ -310,32 +310,35 @@ CEs are also involved in PLG-led cloud prospects, separate from our sales-led mo
 **Organizational operating cadences**
 
 Today, we operate on the following cadences:
-* Weekly
-    * Deal technical risk and status inspection ([Tech Win Mgmt ](../../../departments/technical-success/ce/process/tech-win-process.md))
-    * Sales forecast
-    * Forecast debrief / roll-up
-    * 1:1s
-* Bi-Weekly
-    * Technical Success leadership sync
-    * CE regional team meetings
-* Monthly
-    * CE Global team meeting
-* Quarterly
-    * Internal Revenue QBRs
-    * Quarterly Kick-offs
-    * Technical Success departmental meeting
+
+- Weekly
+  - Deal technical risk and status inspection ([Tech Win Mgmt ](../../../departments/technical-success/ce/process/tech-win-process.md))
+  - Sales forecast
+  - Forecast debrief / roll-up
+  - 1:1s
+- Bi-Weekly
+  - Technical Success leadership sync
+  - CE regional team meetings
+- Monthly
+  - CE Global team meeting
+- Quarterly
+  - Internal Revenue QBRs
+  - Quarterly Kick-offs
+  - Technical Success departmental meeting
 
 Asynchronous [team norms](../../../departments/technical-success/ce/team-culture/working-with-customers.md)
 
 **Current team metrics and actuals**
 
 [Technical Closure of Trials](../../../departments/technical-success/ce/#technical-closure-of-trials.md)
-* Goal: 80%
-* Actual: 77%
+
+- Goal: 80%
+- Actual: 77%
 
 Time in Stage 4 (Trial)
-* Goal: 30 days
-* Actual: 49 days
+
+- Goal: 30 days
+- Actual: 49 days
 
 ## Engineering
 
