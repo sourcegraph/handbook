@@ -131,7 +131,7 @@ business:
     definition: '[Marketing qualified lead](../../departments/bizops/process/product_led_growth.md)'
   - term: SLA
     definition: Service level agreement
-  - term: GoLink
+  - term: Golink
     definition: Canonical, internal-only link for a piece of information in the form of "go/..." link (ex. [go/glossary](https://go/glossary))
 
 role:
