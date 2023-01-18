@@ -22,6 +22,7 @@ Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cl
 - `target_src_version` - use the latest tested sourcegraph version, e.g. `4.2.1` (no `v` prefix)
 - `customer_admin_email` - (optional) the customer admin email
 - `instance_domain` - (optional) override the instance domain instead of infering from customer slug
+- `gcp_region` - GCP region to deploy instance, one of [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/apis/sourcegraphcloud/types.go?L28)
 - `cdktf_deploy` - (optional) whether to deploy GCP resources, false for fast re-run when resources are already created.
 
 or via command line:
@@ -34,6 +35,7 @@ gh workflow run -R github.com/sourcegraph/cloud  \
   -f target_src_version=$TARGET_SRC_VERSION \
   -f instance_domain=$DOMAIN \
   -f customer_admin_email=$CUSTOMER_ADMIN_EMAIL \
+  -f gcp_region=us-central1 \
   -f cdktf_deploy=[true|false]
 ```
 
@@ -138,8 +140,10 @@ git checkout -b $SLUG/create-instance
 ### Init instance config
 
 ```sh
-mi2 instance create -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+mi2 instance create -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG [--region <GCP_REGION>]
 ```
+
+> Note: `--region` flag is optional, value must be from [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/apis/sourcegraphcloud/types.go?L28). Without specifying flag `--region`, default instance GCP region is `us-central1`
 
 ```sh
 export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
