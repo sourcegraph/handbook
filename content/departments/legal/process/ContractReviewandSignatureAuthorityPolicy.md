@@ -163,6 +163,12 @@ people-ops@sourcegraph.com
     - Watch this [3-minute Powerform NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing) to walk you through how to send out our Powerform NDA via DocuSign.
   - Send our [pre-signed NDA](https://drive.google.com/file/d/1GQn3z-LA42KT7t6mvIRngynmxo_f2rnV/view?usp=sharing)
 
+**TIPS**
+
+- Set expectations for prospect to sign our NDA no later than a few days before your next scheduled call. 
+- If a few days before your next scheduled call, the prospect still has not signed our NDA, check in with them. If they don't quickly commit to sign our NDA before the next call, let them know:  "In effort to keep our scheduled call and move the POC forward, our legal team has made an exception to review your NDA."
+- Our goal is to get NDAs in place efficiently so we can move deals forward. Don't let the NDA process delay your deals. 
+
 ### Do I need another internal team to review or approve the NDA before it is signed?
 
 ![Changes to NDAs require Legal review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview4.png)
