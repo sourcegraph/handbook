@@ -62,7 +62,7 @@ Top feedback patterns we're hearing from customers and prospects across the boar
 For the remainder of FY23 we'll be focusing on improvements that enable us to confidently support our largest existing customers. The finalized roadmap for this work is still TBD, but some of the areas we'll be investing in are:
 
 **Improve current precise language support**
-We now offer precise code navigation for a total of 9 languages. As adoption grows, we'll be focusing on making our existing indexers more mature by closing feature and performance gaps that exist between languages.  With the launch of our own indexing protocol [SCIP](https://github.com/sourcegraph/scip) we'll continue to support LSIF based indexers but will be adding SCIP support to all currently supported languages and all future indexers. For a deeper look at the motivations behind SCIP you can check out our [SCIP announcement](https://about.sourcegraph.com/blog/announcing-scip).
+We now offer precise code navigation for a total of 9 languages. As adoption grows, we'll be focusing on making our existing indexers more mature by closing feature and performance gaps that exist between languages. With the launch of our own indexing protocol [SCIP](https://github.com/sourcegraph/scip) we'll continue to support LSIF based indexers but will be adding SCIP support to all currently supported languages and all future indexers. For a deeper look at the motivations behind SCIP you can check out our [SCIP announcement](https://about.sourcegraph.com/blog/announcing-scip).
 
 **Iterate on auto-indexing UX:**
 
@@ -96,8 +96,8 @@ These are all currently in early stages of development and discussion. Read more
 
 ### What's next and why
 
-- **Improving C++ support:** Given the fragmented nature of the C/C++ environment we've held off in investing in improving C/C++ language support or scaling in the last year.  We're now actively working on a new C/C++ indexer using [SCIP](https://github.com/sourcegraph/scip).  We're expecting to land an initial MVP that will be at parity with our old [lsif-clang](https://github.com/sourcegraph/lsif-clang) indexer by mid-March to mid-April 2023.
-- **Adding precise C# support:**  Work is underway for C# precise support with an initial delivery date being by April 2023.
+- **Improving C++ support:** Given the fragmented nature of the C/C++ environment we've held off in investing in improving C/C++ language support or scaling in the last year. We're now actively working on a new C/C++ indexer using [SCIP](https://github.com/sourcegraph/scip). We're expecting to land an initial MVP that will be at parity with our old [lsif-clang](https://github.com/sourcegraph/lsif-clang) indexer by mid-March to mid-April 2023.
+- **Adding precise C# support:** Work is underway for C# precise support with an initial delivery date being by April 2023.
 - **Incremental indexing for large monorepos:** This feature has been on our mid-term roadmap for quite some time now, pain points have been worked through workarounds like spacing LSIF upload frequencies depending on the customer’s repo size and commit frequency. We're currently doing the foundational work required to unlock this feature.
 
 ### What we're not working on & why
