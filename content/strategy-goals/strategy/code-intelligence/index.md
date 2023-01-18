@@ -102,4 +102,4 @@ These are all currently in early stages of development and discussion. Read more
 
 ### What we're not working on & why
 
-- **Add support for a wider set of package hosts:** We currently support Maven, PyPi, crates, NPM and RubyGems packages. In the near future we want to expand our support to cover NuGet. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
+- **Add support for a wider set of package hosts:** We currently support Maven, PyPI, crates, NPM and RubyGems packages. In the near future we want to expand our support to cover NuGet. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
