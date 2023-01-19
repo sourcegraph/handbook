@@ -23,11 +23,11 @@ If you'd like to add a channel to the company-wide list, please reach out to the
 
 ### Slack Retention
 
-Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, only 90 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels.
+Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, only 180 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels.
 
-**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 90-day rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** Exception requests will be reviewed and approved on a case-by-case basis.
+**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 180-day rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** Exception requests will be reviewed and approved on a case-by-case basis.
 
-Exceptions to the 90-day rule include the following channels:
+Exceptions to the 180-day rule include the following channels:
 
 - #security-monitoring retains messages for 5 years for auditing purposes in our security monitoring tooling.
 - #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
