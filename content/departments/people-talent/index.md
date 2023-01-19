@@ -123,6 +123,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Sponsorship policy](people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
 
 ### Email Changes
+
 - [Requesting an email change](email-changes.md)
 
 ### Verifications
