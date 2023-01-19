@@ -130,6 +130,7 @@ In addition to the company-wide channels that are outlined at the top of this pa
 
 #### **Social**
 
+- #sourcegram - Our internal Instagram
 - #3dprinting - Discussion and photos about your three-dimensional creations
 - #anime - All things related to anime
 - #art-and-crafting - For teammates to share and discuss their artistics and crafting endeavors!
