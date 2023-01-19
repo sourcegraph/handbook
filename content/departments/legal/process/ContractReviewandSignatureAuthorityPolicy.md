@@ -267,12 +267,12 @@ Changes to the above signing authorities require written approval by the CEO.
 
 ### For standalone MSAs, what is the signature process?
 
-1. Approver:  Commercial counsel POC approves clean MSA via Slack or email, cc'ing VP Legal or Financial Controller. No Deal Desk stamp needed. 
-2. Signer:  VP Legal or Financial Controller
+1. Approver: Commercial counsel POC approves clean MSA via Slack or email, cc'ing VP Legal or Financial Controller. No Deal Desk stamp needed.
+2. Signer: VP Legal or Financial Controller
 
 ### How to get Customer contracts signed?
 
-Set the below process expectation with your customer. 
+Set the below process expectation with your customer.
 
 1. You will send clean contract via Docusign
 2. Customer will sign first
