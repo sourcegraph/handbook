@@ -11,7 +11,7 @@
 
 ## Current time and days:
 
-- Option A) CS Collab time! 50:00 UTC edition (7–8am PT) Wednesday
+- Option A) CS Collab time! 15:00 UTC edition (7–8am PT) Wednesday
 - Option B) CS Collab time! 19:30 UTC edition (12:30–1:30pm PT) Wednesday
 
 ## How to participate:
