@@ -29,6 +29,12 @@ _See also [Working with Customers](../team-culture/working-with-customers.md)_
 - [Demo repo contribution](../process/demo-repo-contribution.md)
 - [Code Insights Go to Market content](../../../engineering/teams/code-insights/go_to_market.md)
 
+## Helpful Guides
+
+- [Creating GraphQL API queries and scripts](https://docs.google.com/document/d/144ORgwHuCXGMMJC4p5oP3716wYm7oG61rVXMrJJJHYs/edit#)
+- [Deploying OpenGrok](https://docs.google.com/document/d/1o2IuiZp1oJlengeLrKGk3zFHHvhpmqQH7eWRzLQGC1g/edit#heading=h.o06qg7x6nqom)
+- [Creating relevant feature examples to new Sourcegraph instances](https://docs.google.com/document/d/1GWNE8lhlXFVMc7Z9Hueyewa5VWCxJkxFXxJ9T79GVSU/edit)
+
 ## CE Tools
 
 List of commonly used and recommended tooling for Customer Engineers.

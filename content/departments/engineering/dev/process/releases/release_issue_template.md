@@ -1,5 +1,5 @@
 <!--
-DO NOTE COPY THIS ISSUE TEMPLATE MANUALLY. Use `yarn release tracking:issues` in the `sourcegraph/sourcegraph` repository.
+DO NOTE COPY THIS ISSUE TEMPLATE MANUALLY. Use `pnpm run release tracking:issues` in the `sourcegraph/sourcegraph` repository.
 
 Arguments:
 - $MAJOR
@@ -35,7 +35,7 @@ Perform these steps three days before the release date to generate a stable rele
 - [ ] Post a release status update to Slack - [review all release-blocking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-blocker), and ensure someone is resolving each.
 
   ```sh
-  yarn release release:status
+  pnpm run release release:status
   ```
 
 Do the [branch cut](./index.md#release-branches) for the release:
@@ -43,24 +43,24 @@ Do the [branch cut](./index.md#release-branches) for the release:
 - [ ] Update the changelog and create pull requests:
 
   ```sh
-  yarn release changelog:cut
+  pnpm run release changelog:cut
   ```
 
 - [ ] Manually review the pull requests created in the previous step and merge.
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
 
   ```sh
-  yarn release release:branch-cut
+  pnpm run release release:branch-cut
   ```
 
-- [ ] To support the multi-version upgrade utility, update [the `maxVersionString` constant](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40main+file:upgradedata+const+maxVersionString&patternType=lucky) to `$MAJOR.$MINOR.0` on the `main` branch, then cherry-pick this change into the `$MAJOR.$MINOR` branch. Bumping this version will require the `$MAJOR.$MINOR` branch to exist, and `go generate` will need to be invoked ([example](https://github.com/sourcegraph/sourcegraph/pull/43152)).
+- [ ] To support the multi-version upgrade utility, update [the `maxVersionString` constant](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40main+file:data/cmd/generator/consts.go+const+maxVersionString&patternType=lucky) to `$MAJOR.$MINOR.0` on the `main` branch, then cherry-pick this change into the `$MAJOR.$MINOR` branch. Bumping this version will require the `$MAJOR.$MINOR` branch to exist, and `go generate` will need to be invoked ([example](https://github.com/sourcegraph/sourcegraph/pull/43152)).
 
 Upon branch cut, create and test release candidates:
 
 - [ ] Tag the first release candidate:
 
   ```sh
-  N=1; yarn release release:create-candidate $N
+  N=1; pnpm run release release:create-candidate $N
   ```
 
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.N` tag:
@@ -77,7 +77,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 - [ ] Post a release status update to Slack:
 
   ```sh
-  yarn release release:status
+  pnpm run release release:status
   ```
 
 - [ ] Edit the following message to reflect the correct release candidate number, and post the message to the #cloud channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
@@ -99,7 +99,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Tag the final release:
 
   ```sh
-  yarn release release:create-candidate final
+  pnpm run release release:create-candidate final
   ```
 
 - [ ] Ensure that the following pipelines all pass for the `v$MAJOR.$MINOR.$PATCH` tag:
@@ -108,7 +108,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes)):
 
   ```sh
-  yarn release release:stage
+  pnpm run release release:stage
   ```
 
 ### Finalize release
@@ -126,7 +126,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Finalize and announce that the release is live:
 
   ```sh
-  yarn release release:announce
+  pnpm run release release:announce
   ```
 
 ### Post-release
@@ -141,14 +141,14 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
 
   ```sh
-  yarn run release tracking:issues
-  yarn run release tracking:timeline
+  pnpm run release tracking:issues
+  pnpm run release tracking:timeline
   ```
 
 - [ ] Close the release.
 
   ```sh
-  yarn run release release:close
+  pnpm run release release:close
   ```
 
 **Note:** If a patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.

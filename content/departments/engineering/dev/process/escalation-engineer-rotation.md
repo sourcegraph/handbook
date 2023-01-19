@@ -10,13 +10,14 @@ Discuss escalation engineering rotation in #escalation-engineering.
 
 ## Rotations
 
-| Rotation                 | Engineers                                                                                            |
-| ------------------------ | ---------------------------------------------------------------------------------------------------- |
-| 2022-08-10 to 2022-09-06 | [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide) |
-| 2022-09-07 to 2022-10-09 | [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov) |
-| 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                 |
-| 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                           |
-| 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                  |
+| Rotation                 | Engineers                                                                                                                                     |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2022-08-10 to 2022-09-06 | [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide)                                          |
+| 2022-09-07 to 2022-10-09 | [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov)                                          |
+| 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                                                          |
+| 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                                                    |
+| 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                                           |
+| 2022-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani) ,[Manuel Ucles](https://github.com/mucles) |
 
 ## Benefits
 
@@ -40,6 +41,16 @@ This is a new program, so any and all of these points are flexible, but here is 
 ## How to participate
 
 If you have questions or want to participate, please post in #escalation-engineering.
+
+## Tips for new escalation engineers
+
+- Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
+- Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
+- When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
+- Post some updates in the thread where the original ask came from (e.g. "I got in touch with X", "we think we may have a solution", etc)
+- Your own team is your primary circle, so don't hesitate to solicit them for help / feedback, but don't limit yourself to just your team. Anyone can help you.
+- If a request is coming from execs, it does not mean you can't say "no"; in fact, that's often one of the biggest mistake that can be made with them, i.e saying yes to everything just because of their position. They're expecting to be told "no" if something is not possible, as you would with anyone else.
+- Don't overthink it, even if you're finding yourself in a position where you can't implement the solution for a request because it's out of your reach technically, you can still be the one coordinating others into solving it. And that's very very helpful: it means you're owning the problem, but getting help for the solution.
 
 ## FAQ
 
@@ -82,3 +93,7 @@ Yes, sometimes (time permitting and when it makes sense). Sometimes it will make
 ### Who do EEs report to?
 
 This is a temporary rotation so EEs continue to report to their existing engineering manager.
+
+### As an escalation engineer, what happens when I'm not on rotation anymore to the things I did?
+
+The standard approach to ownership applies here: you're owning the solution and if you don't want to or can't anymore, you're expected to find a new owner.

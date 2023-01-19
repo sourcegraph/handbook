@@ -104,7 +104,7 @@ Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using 
 ### Insertion Order Process
 
 1. We negotiate insertion orders/contracts for our advertising placements with our media partners
-2. Electronic copies of the insertion orders are sent to Nick Gage (Head of Sales Development) for electronic signature
+2. Electronic copies of the insertion orders are sent to sales leadership for electronic signature
 3. Copies of signed insertion orders are loaded to the [Google drive](https://drive.google.com/drive/u/1/folders/1TChjJOeg94NxUc7pUbSdm6vTFNvYaG27) (internal link only).
 
 ### Billing Process

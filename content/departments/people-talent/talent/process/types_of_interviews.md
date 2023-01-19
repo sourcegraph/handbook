@@ -243,7 +243,7 @@ For this interview, you'll meet with several members of the team to lead a live 
 
 ### Enterprise Technical Advisor Leadership Panel Interview
 
-The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios.
+The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios and demonstrate how you have handled those situations in the past.
 
 The prompt and instructions below will help you prepare for this session. The interview itself will run for 60 mins: 50 mins for the interview content (agenda driven by you) with 10 mins of general Q&A at the very end. Each prompt should last approximately 12 mins. The agenda of the meeting will run as follows:
 
@@ -260,10 +260,10 @@ The prompt and instructions below will help you prepare for this session. The in
 
 A summary of the 4 prompts are provided below:
 
-1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do?
-2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets?
-3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why.
-4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential?
+1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do? Please provide practical examples of how you have built champions like this in the past.
+2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets? Please provide practical examples of times when you have been able to put these strategies into action.
+3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why. Please provide practical examples of how your QBR's have gone in the past.
+4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential? Please provide practical examples of times you have been able to identify these situations that led to a successful customer expansion.
 
 ## Customer Engineering (Leadership)
 
@@ -279,9 +279,66 @@ You'll meet with a potential peer in an adjacent team with whom we want to under
 
 You'll meet with two individual contributors on the CE team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
-### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
+### Customer Engineering Leadership Working Session
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session will cover 4 prompts provided to candidates prior and is intended to help us understand how you approach both organizational and customer scenarios as a leader, spanning topics such as pipeline review, assessing the business, KPIs/metrics, and coaching & feedback.
+For this interview round, you will have a 45-min long working session with the Customer Engineering leadership team. This working session is intended to give us a sense of what it’d be like to work together and help us understand what impact you’d make on the organization right away and get a sense of what new ideas you have for improving our team. The format of this working session is very laid back; bring any notes, prepared talking points, or visual cues that you feel are useful, and be prepared to discuss your ideas with interviewers. Of course feel free to ask questions during the session, too! Plan to spend roughly 30 minutes on the topic in an open, collaborative manner, and leave 15 minutes at the end for you to ask questions of the team.
+
+**Topic: your near-term impact and priorities to elevate the CE team**
+
+Hopefully by this point, you’ve learned quite a bit from the individuals you’ve talked to about the team, company, and product. Additionally, we’ve provided more information in this prompt about the CE team, sales process, org operating cadences, and current metrics. Using all of the information you’ve learned so far, we’d like you to brainstorm where you’d start and what impact you’d expect to make on the team right away. For the purpose of this exercise, assume you’re past the 30 day mark of being in-seat and you’re up-to-speed on the team.
+
+Some questions to guide your brainstorming and the working session:
+
+1. What are your ideas and plans for improving the team and our ability to positively impact the business and our prospective and current customers?
+2. What gaps exist in our current process? What are the greatest opportunities for improvement? How might you address those?
+3. What would you need from your direct peer, Gronk (CE RD EMEA), your team leads, Alex and Dan, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering?
+
+**Background information**
+
+Below is some background information and context about the journey and current state of the team to help aid you in your preparation and proposed plan.
+
+**CE team structure context**
+
+In November, the organization split into dedicated pre- and post-sales, with CEs paired 1:3 with AEs based on region. Previously CEs were pre- and post-sales paired stably 1:1 with an AE. We have one individual in APAC, 4 individuals based in US-West (including 1 dual IC / team lead), 3 individuals based in US-East (including 1 dual IC / team lead), a CE RD in EMEA, and two individuals in EMEA reporting into that CE RD.
+
+**Sourcegraph sales process context**
+
+CEs attend any / every pre-sales call with prospective customers, as early as Stage 0 - prospecting. Often CEs will do product demos in introductory meetings, and subsequent meetings as well. A key part of our sales cycle is the trial. As the majority of our customers use our self-hosted on-premise deployment option, before a trial can begin the CE must help the customer deploy and configure an instance. Our trials typically run 30 days. During trials, CEs tend to lead 4 training sessions. Trial success is mostly measured based on user surveys.
+
+CEs are also involved in PLG-led cloud prospects, separate from our sales-led motion. We perform outreach and nurture prospects to try and help them activate their cloud trial, answering any technical or product questions along the way. These may or may not advance as a PQL into our standard sales process.
+
+**Organizational operating cadences**
+
+Today, we operate on the following cadences:
+
+- Weekly
+  - Deal technical risk and status inspection ([Tech Win Mgmt ](../../../technical-success/ce/process/tech-win-process.md))
+  - Sales forecast
+  - Forecast debrief / roll-up
+  - 1:1s
+- Bi-Weekly
+  - Technical Success leadership sync
+  - CE regional team meetings
+- Monthly
+  - CE Global team meeting
+- Quarterly
+  - Internal Revenue QBRs
+  - Quarterly Kick-offs
+  - Technical Success departmental meeting
+
+Asynchronous [team norms](../../../technical-success/ce/team-culture/working-with-customers.md)
+
+**Current team metrics and actuals**
+
+[Technical Closure of Trials](../../../technical-success/ce/#technical-closure-of-trials/index.md)
+
+- Goal: 80%
+- Actual: 77%
+
+Time in Stage 4 (Trial)
+
+- Goal: 30 days
+- Actual: 49 days
 
 ## Engineering
 
@@ -399,6 +456,39 @@ For this interview round, you will have an hour-long working session with the Cu
   - What, if anything, might be changed internally based on this situation arising?
 - We will provide the detailed scenarios via email 24 hours before your scheduled interview.
 - Note: you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
+
+### Senior People Operations Generalist working session
+
+**Working Session Agenda (45m):**
+
+- Prompt 1 (15m)
+- Prompt 2 (15m)
+- Q&A (15m)
+
+**Purpose of this exercise**
+
+As our new Senior People Ops Generalist, you will be building processes and programs, and supporting our business objectives through key people initiatives. Our culture is built on transparency, and our [handbook](../../../../index.md) is the pilar to providing all teammates access to the who, what, why, and how as it relates to People resources and processes. We want you to poke holes in our handbook and help us make it better (because we know we still have room to grow and improve!)
+
+**Prompt 1:**
+
+1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../../../company-info-and-process/onboarding/index.md)
+2. Come up with ideas on how you would improve this page and/or process for our teammates. _Things to consider:_
+   1. Does the content set clear expectations on what to expect?
+   2. Have we accounted for common questions teammates may have? If not, what’s missing? Is the answer located elsewhere in the handbook?
+   3. What could be better from a process perspective?
+   4. What people data or analytics would you incorporate as part of your recommendation to improve this process?
+3. **Deliverable:** Put together a brief sample of content (4-5 sentences) that relates to _one_ of the improvements you would suggest and add to this handbook page on day 1! (Please send this via email prior to the live working session)
+4. **Working Session:** During the live working session, we expect you to share your feedback and recommendations in any format that you chose. This is a collaborative exercise where you can come in with your perspectives and any questions you have for us regarding the handbook page you chose!
+
+**Prompt 2:**
+
+1. Review the [Resources for Teammates Section](../../index.md#resources-for-teammates) in the handbook. (you can consider this the source of truth for all resources the people team has compiled to best support our teammates)
+2. During the working session, we expect you to provide us with your feedback on how it could be better.
+   _Things to consider:_
+   1. Are you able to easily find an answer to common ‘people’ related questions? If not, what’s missing?
+   2. Is there a “coming soon” section or missing HR pillar that you would prioritize adding to the handbook?
+3. **Deliverable:** If you had the ability to re-organize this section in any way you wanted, what would your ideal Table of Contents look like? Share your idea with us in any format you chose prior to the working session!
+4. **Working Session:** During the live working session, we expect you to walk us through why you chose the structure that you did and also share your overall feedback on how to improve our “source of truth”.
 
 ## Product
 

@@ -36,6 +36,12 @@ Teardown request issue: <issue link>
 
 **Important!** Always start with a fresh terminal session to ensure you do not have any conflicting environment variables.
 
+## (Preferred) Use the MI Deletion GH Action
+
+This is the preferred method of deleting a managed instance. It will automatically run the steps below.
+
+Link to [action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_delete.yml)
+
 ### Setup
 
 Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
@@ -79,13 +85,10 @@ source tfvars.env
 
 By default, the KMS Crypto Key and CloudS QL instance is prevented from being deleted. This must be changed in order for Terraform to remove all resources.
 
-- Disable Cloud SQL delete protection by editing the `infrastructure.tf`:
+- Disable Cloud SQL delete protection by running:
 
-  ```diff
-  module "managed_instance" {
-  +  cloud_sql_deletion_protection  = false
-     source                         = "../modules/terraform-managed-instance-new"
-  }
+  ```sh
+  mi tf-remove-delete-protection
   ```
 
 - Disable KMS key delete protection:

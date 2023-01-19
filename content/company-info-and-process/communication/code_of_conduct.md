@@ -149,6 +149,7 @@ Here are some areas where conflicts of interest could arise:
 
   - You want to work for or provide services to a third party that (a) impairs your ability to do your work for Sourcegraph or (b) otherwise creates a conflict of interest. If you are unsure or have a borderline scenario, get written approval from your manager first.
   - A conflict is especially likely if the third party is (i) an actual or potential competitor or (ii) a supplier or contractor with which Sourcegraph does a material amount of business, such as the equivalent of $10,000 USD or more per year.
+  - See our [Outside Employment, Projects, and Potentially Conflicting Activities Policy](../../departments/people-talent/outside-employment.md).
 
 - **Financial interest and investments**
 

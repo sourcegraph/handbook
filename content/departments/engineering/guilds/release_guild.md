@@ -13,11 +13,11 @@ For the time being, captains are selected on a volunteer basis. The guild will d
 
 The current schedule is shown below:
 
-| Date           | Release Tag | Captain                                                 |
-| -------------- | ----------- | ------------------------------------------------------- |
-| November, 2022 | 4.2.0       | [Coury Clark](../../../team/index.md#coury-clark)       |
-| December, 2022 | 4.3.0       | [Dax McDonald](../../../team/index.md#dax-mcdonald)     |
-| January, 2023  | 4.4.0       | [Bolaji Olajide](../../../team/index.md#bolaji-olajide) |
+| Date           | Release Tag | Captain                                                                   |
+| -------------- | ----------- | ------------------------------------------------------------------------- |
+| January, 2023  | 4.4.0       | [Bolaji Olajide](../../../team/index.md#bolaji-olajide)                   |
+| February, 2023 | 4.5.0       | [Keegan Carruthers Smith](../../../team/index.md#keegan-carruthers-smith) |
+| March, 2023    | 5.0.0       | [Mohammad Umer Alam](../../../team/index.md#mohammad-umer-alam)           |
 
 ## Guild Leader Responsibilities
 

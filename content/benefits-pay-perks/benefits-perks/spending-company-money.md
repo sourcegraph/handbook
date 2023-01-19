@@ -23,7 +23,6 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 #### Team-specific totals
 
 - We expect new [Design team](../../departments/engineering/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/technical-success/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -44,6 +43,11 @@ The estimated spend for interns is **$925\***.
 
 Note: Our policy is that all teammates have a sourcegraph-managed laptop to perform all work pertaining to their role at Sourcegraph and we only support Mac computers at this time, so teammates are not able to expense a PC. See below for more information on computers and ordering your laptop.
 
+### Desk set up suggestions from teammates!
+
+- Carly - I highly recommend this [portable monitor!](https://www.amazon.com/gp/product/B097MZGZ2Y/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- MORE SUGGESTIONS COMING SOON!
+
 ## Computers
 
 All Sourcegraph teammates are required to have, and to work from, a company machine that is set up accoring to our [device requirements](../../departments/tech-ops/tools/computer-setup.md). Computers are considered property of the company.
@@ -58,11 +62,12 @@ Please place an order for your Sourcegraph computer immediately after signing yo
 
 **US/Canada/UK-based teammates**
 
-Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK.
+- Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase your laptop through CDW US/CA or our partner in the UK.
 
-**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple ID). All MacBooks and Apple Care insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
+**Teammates based in other countries**
 
-Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
+- Purchase and expense your own Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple ID). All MacBooks and Apple Care insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
+- Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required depending on your role, please see below for necessary specs corresponding to your role.
 
@@ -74,7 +79,7 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 ### Laptop Specs
 
-#### Customer Engineering team laptops:
+#### Technical Success team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
@@ -91,11 +96,6 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 - Apple MacBook Pro - 16.2" M1 Max - 64 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-mbp-16-m1m-10c32c-64-1tb-sg/6740562?enkwrd=6740562)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
-
-#### Customer Support team laptops:
-
-- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 
 #### Data & Analytics team laptops:
 

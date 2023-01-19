@@ -5,6 +5,10 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## Option I - automated creation via GitHub Action
 
+## Steps
+
+### Create the instance
+
 Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cloud/actions/workflows/mi_create.yml) with given parameters:
 
 - `customer` - customer slug
@@ -25,7 +29,7 @@ or via command line:
 ```
 gh workflow run -R github.com/sourcegraph/cloud  \
   -f environment=[dev|prod] \
-  -f customer=$CUSTOMER \
+  -f customer=$SLUG \
   -f instance_type=[production|trial|internal] \
   -f target_src_version=$TARGET_SRC_VERSION \
   -f instance_domain=$DOMAIN \
@@ -34,6 +38,48 @@ gh workflow run -R github.com/sourcegraph/cloud  \
 ```
 
 Then watch out for notification in #cloud-notifications or tail logs in GitHub Actions run.
+
+### Wrapping up
+
+> NOTE: This is temporary, learn more: https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1671034214541469
+
+Check out to the PR, and update `config.yaml` of the new instance to allow CE access to the instance
+
+```yaml
+spec:
+  debug:
+    additionalAdminEmails:
+      - <insert assigned CE email>
+```
+
+```sh
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce okta.instance-group
+```
+
+Once it's finished, merge the Pull Request opened by GitHub Actions, then manually apply the license key:
+
+> make sure you pull the latest change from `main`
+
+```sh
+# For PLG instances
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key siteconfig.license-key
+
+# For CE/AE driven instances, a standalone license key should be included in the creation request
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY siteconfig.license-key
+
+# For internal/dev instances, use the the internal-or-dev-src-license-key license key
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/internal-or-dev-src-license-key siteconfig.license-key
+```
+
+In the GitHub issue, tag the assigned CE/AE the instance is ready with the following message. Also notify the assigned CE/AE in the Slack thread:
+
+```
+Hi,
+
+The instance has been provisioned and set password email has been sent to the mentioned customer admin
+```
+
+(PLG manual triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## Option II - manual playbook
 
@@ -137,7 +183,8 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.3 deploy tfc
+cd terraform/stacks/tfc
+erraform init && terraform apply -auto-approve
 ```
 
 ### Init deployment - deploy cdktf stacks
@@ -149,7 +196,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
 ```sh
-npx --yes cdktf-cli@0.13.3 deploy project network gke sql app sqlschema waf security executors monitoring output --auto-approve --parallelism 8
+mi2 instance tfc deploy -auto-approve
 ```
 
 ### Init deployment - generate kustomize artifacts
@@ -189,19 +236,26 @@ mi2 instance sync --slug $SLUG -e $ENVIRONMENT
 
 ### Wrapping up
 
-Revert back up VCS-driven mode
-
-```sh
-mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)' --slug $SLUG -e $ENVIRONMENT
-```
-
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 ```
 
+Enable uptime monitoring
+
 ```sh
-npx --yes cdktf-cli@0.13.3 deploy tfc
+mi2 instance edit --query '.spec.debug.enableAlerting=true'
+mi2 instance tfc deploy -auto-approve -force-ignore-stack-dependencies -target monitoring
 ```
+
+Revert back up VCS-driven mode
+
+```sh
+mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)'
+cd terraform/stacks/tfc
+erraform init && terraform apply -auto-approve
+```
+
+Finish the [remaining work](#wrapping-up)
 
 ### Commit your changes
 
@@ -213,6 +267,22 @@ git commit -m "$SLUG: create instance"
 Create a new pull request and merge it
 
 ## Troubleshooting
+
+### Terraform failed to deploy via TFC
+
+You might be seeing the error message of from GitHub Actions logs
+
+```
+Error: 022-12-14T22:35:54.704] [ERROR] default - Error in Deploy: {"message":"Request failed with status code 409","name":"Error","stack":"Error: Request failed with status code 409\n    at WGe.exports (/home/runner/work/cloud/cloud/terraform-cdk/packages/cdktf-cli/bundle/bin/cmds/handlers.js:199:4283)\n    at GGe.exports (/home/runner/work/cloud/cloud/terraform-cdk/packages/cdktf-cli/bundle/bin/cmds/handlers.js:199:4461)\n    at IncomingMessage.<anonymous> (/home/runner/work/cloud/cloud/terraform-cdk/packages/cdktf-cli/bundle/bin/cmds/handlers.js:200:8212)\n    at IncomingMessage.emit (node:events:525:35)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1358:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)","config":{"url":"/runs/<redacted>/actions/apply","method":"post","data":"{}","headers":{"Authorization":"REDACTED","Accept":"application/json","Content-Type":"application/vnd.api+json","User-Agent":"terraform-cloud/1.15.0","Content-Length":2},"baseURL":"https://app.terraform.io/api/v2","transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false}}}
+```
+
+```
+Deploy: Request to Terraform Cloud failed with status 409: {"status":"409","title":"transition not allowed"}
+```
+
+This is happening because `cdktf` is trying to confirm a plan before it is ready to be confirmed. It is a known issue and we deem not worth fixing since we have already [went pretty far preventing it from haappen](https://github.com/sourcegraph/terraform-cdk/commits/fix/tfc-planned-status).
+
+When this happened, locate the workspace of the affected instance on Terraform Cloud. Use the `INSTANCE_ID` as tag to filter workspaces, and there should be a workspace that requires manual confirmation. Confirm it and wait for it to finish, then re-run the failed GitHub Actions run.
 
 ### PVC is stuck at `Pending`
 

@@ -31,7 +31,6 @@ For basic operations like accessing an instance for these steps, see [managed in
      -f instance_type=[production|trial|internal] \
      -f instance_size=[small|medium|large] \
      -f user_level_telemetry=[true|false] \
-     -f dry_run=false \
      -f plg_trial=false
    ```
 
@@ -46,7 +45,9 @@ Note:
 - GCP metrics monitoring and alerting is applied automatically via scheduled [GitHub Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 - Security audit logging is applied automatically via a scheduled [GitHub Actions Worflow](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml)
 
-## Optional: customise instance size
+## Wrapping up
+
+### Optional: customise instance size
 
 When based on the issue customer requires customisation (diffferent instance/DB/disk size or more executors), Cloud Team will modify the instance BEFORE giving access for customer!
 
@@ -59,23 +60,32 @@ Customisation is done via:
 
 ### Giving customer access
 
-Generate password reset link for customer:
+An automatic password reset email is always sent out for customers:
+
+1. For standard instances, [managed SMTP](../managed-smtp/index.md) will be configured before a user is created. When the user is created, they will receive an email from the instance to reset their password.
+1. For PLG pre-provisioned instances, currently a custom welcome email is sent with the password reset URL. [Managed SMTP](../managed-smtp/index.md) is only configured after the user is created.
+
+The customer admin can use the delivered password reset link to configure access for themselves.
+
+#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
+
+```sh
+Hi,
+
+The instance is ready. The customer admin should have received an email to reset their password.
+```
+
+#### Manual password reset
+
+If the customer takes too long to reset their password, or if they fail to receive the automated email for whatever reason, a manual password reset is required:
 
 ```bash
 mi reset-customer-password --email <customer admin email>
 ```
 
-#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
+This should generate a link to the password and also send it via email if [managed SMTP](../managed-smtp/index.md) is enabled.
 
-```
-Hi,
-
-The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
-
-Here's the link to the password reset link <>. Please note the link will expire after 72 hours.
-```
-
-### Enable "private" mode
+### Optional: enable "private" mode
 
 Some customers opt to restrict access to Sourcegraph instance to a limitied number of IP ranges (e.g. corporate VPN). Ensure CE has provided the customer IP allowlist. This is a prereq in the instance creation form.
 

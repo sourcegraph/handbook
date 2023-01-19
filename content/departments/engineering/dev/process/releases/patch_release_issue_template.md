@@ -1,5 +1,5 @@
 <!--
-DO NOT COPY THIS ISSUE TEMPLATE MANUALLY. Use `yarn release tracking:issues` in the `sourcegraph/sourcegraph` repository.
+DO NOT COPY THIS ISSUE TEMPLATE MANUALLY. Use `pnpm run release tracking:issues` in the `sourcegraph/sourcegraph` repository.
 
 Arguments:
 - $MAJOR
@@ -55,7 +55,7 @@ Create and test the first release candidate:
 
 - [ ] Push a release candidate tag:
   ```sh
-  N=1; yarn release release:create-candidate $N
+  N=1; pnpm run release release:create-candidate $N
   ```
 
 **Note**: Ensure that you've pulled both main and release branches before running this command.
@@ -79,7 +79,7 @@ Create and test the first release candidate:
 - [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on `main` and `$MAJOR.$MINOR` are accurate.
 - [ ] Tag the final release:
   ```sh
-  yarn release release:create-candidate final
+  pnpm run release release:create-candidate final
   ```
 - [ ] Ensure that the following pipelines all pass for the `v$MAJOR.$MINOR.$PATCH` tag:
 
@@ -88,7 +88,7 @@ Create and test the first release candidate:
 - [ ] Wait for the `v$MAJOR.$MINOR.$PATCH` release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags)
 - [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes)):
   ```sh
-  yarn release release:stage
+  pnpm run release release:stage
   ```
 
 ## Finalize release
@@ -108,8 +108,8 @@ Create and test the first release candidate:
     - [ ] Cherry-pick the release-publishing PR from the release branch into `main`
 - [ ] Finalize and announce that the release is live:
   ```sh
-  yarn release release:announce
-  yarn release release:close
+  pnpm run release release:announce
+  pnpm run release release:close
   ```
 
 ## Post-release

@@ -163,6 +163,12 @@ people-ops@sourcegraph.com
     - Watch this [3-minute Powerform NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing) to walk you through how to send out our Powerform NDA via DocuSign.
   - Send our [pre-signed NDA](https://drive.google.com/file/d/1GQn3z-LA42KT7t6mvIRngynmxo_f2rnV/view?usp=sharing)
 
+**TIPS**
+
+- Set expectations for prospect to sign our NDA no later than a few days before your next scheduled call.
+- If a few days before your next scheduled call, the prospect still has not signed our NDA, check in with them. If they don't quickly commit to sign our NDA before the next call, let them know: "In effort to keep our scheduled call and move the POC forward, our legal team has made an exception to review your NDA."
+- Our goal is to get NDAs in place efficiently so we can move deals forward. Don't let the NDA process delay your deals.
+
 ### Do I need another internal team to review or approve the NDA before it is signed?
 
 ![Changes to NDAs require Legal review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview4.png)
@@ -251,7 +257,7 @@ Submit a request in the #deal-desk channel in Slack to Sourcegraph's Legal POC f
 
 Good rule of thumb: When in doubt, get a Deal Desk stamp!
 
-2.  Signature: Financial Controller
+2.  Signer: Financial Controller
 
 Back-Up Signers: VP Legal and VP Finance/Operations
 
@@ -259,11 +265,20 @@ Note: the above signature authority also applies to Evaluation or Proof of Conce
 
 Changes to the above signing authorities require written approval by the CEO.
 
-### Who sends out the Customer contract for signature?
+### For standalone MSAs, what is the signature process?
 
-If you have DocuSign access, you do! If you do not have DocuSign access, please contact #it-tech-ops team.
+1. Approver: Commercial counsel POC approves clean MSA via Slack or email, cc'ing VP Legal or Financial Controller. No Deal Desk stamp needed.
+2. Signer: VP Legal or Financial Controller
 
-You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it also simplifies our stamping procedure.
+### How to get Customer contracts signed?
+
+Set the below process expectation with your customer.
+
+1. You will send clean contract via Docusign
+2. Customer will sign first
+3. Sourcegraph will countersign (remember to get the Deal Desk stamp!)
+
+The benefit of us initiating and controlling the signature process as it allows us to track the envelope, send reminders to signers, and it also simplifies our stamping procedure.
 
 ### Where do I save the Customer contract once it’s signed?
 

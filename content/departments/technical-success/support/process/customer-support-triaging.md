@@ -49,9 +49,9 @@ If the other ticket is still open, merge the new ticket into it and alert our te
 
 No. Hopefully in the future, Zendesk will give us this feature; for now, we can link to the other ticket and be sure the requestor is correct.
 
-### 4. What do I do when I see a company update in the triage queue?
+### 4. What do I do when I see a company update or solicitation in the triage queue?
 
-We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perspective, please go ahead and delete them.
+We sometimes get all company updates or solicitation emails delivered to support mailbox. When you come across these, please go ahead and delete them.
 
 ### 5.What if we are close to missing SLA?
 

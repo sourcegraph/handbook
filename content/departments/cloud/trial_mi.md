@@ -9,6 +9,7 @@ All processes are the same as for paid Managed Instances (for paying customers):
 - [upgrade process](./technical-docs/index.md#release-process)
 - [security](./technical-docs/index.md#security)
 - [monitoring](./technical-docs/index.md#monitoring-and-alerting)
+- [list trials](./technical-docs/index.md#list-trials)
 
 ## Difference from paid instances
 
@@ -122,9 +123,9 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
    - checkout `<CUSTOMER>/create-instance` branch in`deploy-sourcegraph-managed` repository
    - need to set the license on the instance (the license key should be added to the issue, unless it is default PLG licence)
-     - run `mi set-license -license-key "$LICENSE_KEY"` (for PLG trials flag `--plg-default` instead of `-license-key` should be used - will use shared PLG licence key)
-   - obtain customer reset link via `mi reset-customer-password --email <customer admin email>` and paste it into the GitHub issue
+     - run `mi set-license --license-key "$LICENSE_KEY"` (for PLG trials flag `--plg-default` instead of `--license-key` should be used - will use shared PLG licence key)
    - when [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
+   - you can check if the password reset email was sent using SMTP provider [dashboard](https://app.eu.sparkpost.com/reports/message-events)
    - (PLG triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## Automated PLG pre-provisioned Managed Instance flow
@@ -148,6 +149,7 @@ The flow:
 - opens PR in `deploy-sourcegraph-managed` repository
 
 [Automated PLG Flow](https://excalidraw.com/#json=9j9s-5ByiRR4y5SdcF5F3,fYozCz5zwCEt6QoC_Y_Fww)
+[Automated PLG Flow from Cloud POV](https://app.excalidraw.com/s/4Dr1S6qmmY7/5KOQ2afKonA)
 
 > When issue with automated flow occurs, fallback to [manual flow](#trial-managed-instance-creation-flow-manual)
 

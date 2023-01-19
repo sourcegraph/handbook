@@ -130,7 +130,13 @@ Below you can find a subset of the common tasks and how to complete them:
 
 To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
-First, ensure that you have the sourcegraph helm chart installed:
+First, authenticate yourself to the cluser using the following command:
+
+```shell
+gcloud container clusters get-credentials scaletesting --region us-central1 --project sourcegraph-scaletesting
+```
+
+Then check that you have the sourcegraph helm chart installed:
 
 ```bash
 helm repo add insiders https://helm.sourcegraph.com/insiders
@@ -138,13 +144,13 @@ helm repo update
 helm search repo insiders --devel
 ```
 
-Then, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
+Finally, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
 ```bash
 helm repo update
 
 # If you want to deploy using the same chart version:
-SG_CHART_VERSION=$(helm history sourcegraph -o json | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
+SG_CHART_VERSION=$(helm history sourcegraph -o json -n scaletesting | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
 # If you want to deploy using a newer chart version ('helm search repo insiders --devel --versions' lists all available versions):
 SG_CHART_VERSION=<new chart version>
 
@@ -273,9 +279,17 @@ sg client codehost add-github \
 See https://ghe.sgdev.org/testing which is a replica of https://github.com/londonappbrewery on our GitHub instance.
 They are owned by the `testing` user, who can write on those repos.
 
-#### Organization with 200k blank repos (single initial commit with `README.md`)
+#### 200k blank repos
 
-See https://ghe.sgdev.org/scaletesting-blank200k for the repos.
+- Single initial commit with `README.md`
+- 198k repositories assigned to `main-org`: https://ghe-scaletesting.sgdev.org/main-org
+  - 4750 teams have permissions on 27 or 28 repositories (teams `main-org/teams/team-000000000` through `main-org/teams/team-000004749`)
+  - 200 teams have permissions on 78 repositories (teams `main-org/teams/team-000004750` through `main-org/teams/team-000004949`)
+  - 50 teams have permissions on 985 repositories (teams `main-org/teams/team-000004950` through `main-org/teams/team-000004999`)
+  - 1000 repositories each have 3 users assigned as collaborators who are the only users with access (repos `main-org/repo000000000` through `main-org/repo000000999`)
+- 400 repositories each assigned to `sub-org-000000000` through `sub-org-000000004`: https://ghe-scaletesting.sgdev.org/sub-org-000000000 and up
+  - These have org-wide permissions for the members of each org (2k members per org)
+
 See https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/scaletesting/bulkrepocreate/README.md for the tool powering the creation.
 
 #### Large binary files
@@ -323,3 +337,22 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 The following repositories are available to test against repositories with a massive amount of commits:
 
 - `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)
+
+## Scaletesting internals
+
+This section covers where to find the code behind the ScaleTesting initiative.
+
+- [Deployments](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting)
+- [Tools](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/scaletesting)
+- [Scratch Logs](https://sourcegraph.com/github.com/sourcegraph/devx-scratch/-/blob/2022/scaletesting/log.snb.md)
+
+### Creating a scenario runner
+
+While not implemented at this stage, creating a runner is very similar to how the end-to-end test runner is working on the main repo, you set up your client and reach the instance to perform your requests.
+
+Depending on what you want to test, there are a few approaches you can take:
+
+- You could simply work at the API level, by creating a GraphQL client
+  - [Example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/codeintel-qa).
+- You can work at the browser level, by mimicking what we do in smoke-tests and end-to-end tests.
+  - [Example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/smoke-tests) and [example](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/smoke-tests/run-infra.sh)

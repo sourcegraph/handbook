@@ -9,12 +9,12 @@ The People team is responsible for sending gifts for:
 - [New hires](internal-swag.md#New-hire-gifting)
 - [Promotions](internal-swag.md#Promotion-gifting)
 - [New babies](internal-swag.md#New-baby-gifting)
+- [Birthdays](internal-swag.md#Work-anniversary-and-birthday-gifting)
+- [Work anniversaries](internal-swag.md#Work-anniversary-and-birthday-gifting)
 - Company offsites
 
 Managers are responsible for sending gifts for:
 
-- [Birthdays](internal-swag.md#Work-anniversary-and-birthday-gifting)
-- [Work anniversaries](internal-swag.md#Work-anniversary-and-birthday-gifting)
 - [Team accomplishments](internal-swag.md#Additional-Gifting/Swag)
 
 ## Who we partner with to send gifts to teammates
@@ -78,21 +78,24 @@ The People team sends a new baby gift at the beginning of a teammates' parental 
 
 ## Work anniversary and birthday gifting
 
-Managers are responsible for sending anniversary and birthday gifts to their teammates. Our recommendation is for managers to use [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie), which will be put onto a company card and then later reclassed into the correct team’s budget.
+The People team is responsible for sending anniversary and birthday gifts to their teammates. Managers are responsible for sending the teammates a note via Slack.
 
-**People Team actions:**
+Each week, the People-Ops Team pulls the Birthday/Anniversary report from Bamboo. The People-Ops Team will audit the report and complete these two actions:
 
-- Each week, the People-Ops Team pulls the Birthday/Anniversary report from Bamboo
-- The People-Ops Team will audit the report and send reminders to managers via slack.
+1. Send a Slack reminder to each manager who has a direct report with a birthday or anniversary that week. Remind them to post in the #thanks channel if their teammate is celebrating a work anniversary, or to post in the team channel or 1:1 if their teammate is celebrating a birthday.
 
-  Message Template: \_Hi [Manager Name]! Friendly reminder that it is [Teammate’s Name]’s [Birthday/Anniversary] on [Date].
-  _Please:_
+- Slack message: Hi managers, we have XX celebrations this week.
+  - Work Anniversaries - The People team will order a gift, but we need you to please make a post in #thanks (suggestions can be found here).
+    - teammate name - xx years on xx date - @ manager name
+    - teammate name - xx years on xx date - @ manager name
+  - Birthdays - The People team will order a gift, but we need you to please send a celebratory Slack message in your team channel or directly to the teammate! Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should ask the teammate personally if they’d like their birthday to be celebrated.
+    - teammate name - birthday on xx date - @ manager name
+    - teammate name - birthday on xx date - @ manager name
+  - Pro Tip: You can schedule the slack messages to send on the correct dates.
 
-  - _Make a post in #thanks if you haven’t already (suggestions can be found here)_
-  - _[Order a Loop & Tie gift](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie)_
-  - _Respond with a :white_check_mark: when both of the above actions are completed!_
+2. Order a [Loop & Tie](../../../../benefits-pay-perks/benefits-perks/celebrate.md#loop--tie) gift for each teammate who is celebrating a birthday or anniversary that week. The Loop & Tie ordering process is outlined in [this loom](https://loom.com/share/c8141e51d8494e28840c16cd6f3839e1).
 
-- On the 1st of each month, the People-Ops team will send an email to finance@sourcegraph.com with a breakdown of the charges that have been placed on the Loop & Tie card by each team.
+On the 1st of each month, the People-Ops team will send an email to finance@sourcegraph.com with a breakdown of the charges that have been placed on the Loop & Tie card by each team.
 
 ## Additional Gifting/Swag
 

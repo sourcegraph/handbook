@@ -52,7 +52,6 @@ Top feedback patterns we're hearing from customers and prospects across the boar
 
 <!-- ### Analyst landscape
 
-- If you are not currently involved with analyst discussions for your product area, you can reach out to Steve Fisher for context here and to stay in the loop in the future.
 - Are there analysts tracking this product area?
 - How are analysts positioning the product? What are areas of improvement? -->
 
@@ -63,7 +62,7 @@ Top feedback patterns we're hearing from customers and prospects across the boar
 For the remainder of FY23 we'll be focusing on improvements that enable us to confidently support our largest existing customers. The finalized roadmap for this work is still TBD, but some of the areas we'll be investing in are:
 
 **Improve current precise language support**
-We now offer precise code navigation for a total of 9 languages. As adoption grows, we'll be focusing on making our existing indexers more mature by closing feature and performance gaps that exist between languages.
+We now offer precise code navigation for a total of 9 languages. As adoption grows, we'll be focusing on making our existing indexers more mature by closing feature and performance gaps that exist between languages. With the launch of our own indexing protocol [SCIP](https://github.com/sourcegraph/scip) we'll continue to support LSIF based indexers but will be adding SCIP support to all currently supported languages and all future indexers. For a deeper look at the motivations behind SCIP you can check out our [SCIP announcement](https://about.sourcegraph.com/blog/announcing-scip).
 
 **Iterate on auto-indexing UX:**
 
@@ -73,7 +72,7 @@ Our next step is to do research on our existing UI, identify issues and gaps, an
 
 **Make code navigation feel fast and reliable**
 
-We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving known navigation issues while also adding quality of life improvements such as shipping an improved version of the reference panel and working on a more performant version of the blob view.
+We are committed to making our navigation feel fast and reliable to users. Our current focus is in solving known navigation issues while also adding quality of life improvements such as shipping an improved version of the reference panel and working on a more performant version of the blob view.
 
 **Code intelligence API**
 
@@ -97,12 +96,10 @@ These are all currently in early stages of development and discussion. Read more
 
 ### What's next and why
 
-- **Improving C++ support:** Given the fragmented nature of the C/C++ environment we've held off in investing in improving C/C++ language support or scaling in the last year. However, we're currently looking into implementation strategies that will help us uncover the level of effort it would require the team to improve our current support.
-
+- **Improving C++ support:** Given the fragmented nature of the C/C++ environment we've held off in investing in improving C/C++ language support or scaling in the last year. We're now actively working on a new C/C++ indexer using [SCIP](https://github.com/sourcegraph/scip). We're expecting to land an initial MVP that will be at parity with our old [lsif-clang](https://github.com/sourcegraph/lsif-clang) indexer by mid-March to mid-April 2023.
+- **Adding precise C# support:** Work is underway for C# precise support with an initial delivery date being by April 2023.
 - **Incremental indexing for large monorepos:** This feature has been on our mid-term roadmap for quite some time now, pain points have been worked through workarounds like spacing LSIF upload frequencies depending on the customer’s repo size and commit frequency. We're currently doing the foundational work required to unlock this feature.
 
 ### What we're not working on & why
 
-- **Adding precise C# support:** Based on our team's bandwidth and skill set, we are not planning to work on these languages this quarter.
-
-- **Add support for a wider set of package hosts:** We currently support Maven, PyPi, crates and NPM packages. In the near future we want to expand our support to cover NuGet and RubyGems. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
+- **Add support for a wider set of package hosts:** We currently support Maven, PyPI, crates, NPM and RubyGems packages. In the near future we want to expand our support to cover NuGet. See [Unlock dependency navigation theme](#themes) for strategic reasoning.

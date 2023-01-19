@@ -2,7 +2,8 @@
 
 For Employment Verification requests we use TrueWork:
 
-- We direct people to our [handbook page](../process/employment_verification.md).
+We direct people to our [handbook page](../process/employment_verification.md).
+
 - Email template:
 
   Hello,
@@ -26,5 +27,3 @@ For Employment Verification requests we use TrueWork:
   Thank you,
 
 For more information on this, People Partners and People Ops teammates, please refer to [this doc](https://docs.google.com/document/d/1129c1iENV1VEfwFlMuHQRre3G0VPXASzdpelQc_-I_0/edit).
-
--

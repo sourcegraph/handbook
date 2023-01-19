@@ -96,11 +96,11 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Perks](../../benefits-pay-perks/benefits-perks/#perks.md)
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
   - [Open enrollment](../../benefits-pay-perks/benefits-perks/#2023-open-enrollment)
-  - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
+  - [Lumity - access your benefits cards](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
     - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my dental card](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my vision card](../../benefits-pay-perks/benefits-perks/benefits.md)
-  - [Rippling](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
+  - [Rippling - access your payroll & insurance info](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Medical leave & accommodation](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
@@ -162,7 +162,15 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Leaving Sourcegraph
 
-- [Leaving Sourcegraph](people-ops/process/leaving.md)
+- [How to give notice (voluntary resignations)](people-ops/process/leaving.md)
+- [Mutual seperations](people-ops/process/leaving.md)
+- [Involuntary seperations](people-ops/process/leaving.md)
+- [Severance information & getting paid](people-ops/process/leaving.md)
+- [Cobra](people-ops/process/leaving.md)
+
+### Misc
+
+- [Our policy on having jobs outside of Sourcegraph](outside-employment.md)
 
 ## RESOURCES FOR MANAGERS
 
@@ -302,7 +310,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
-  - [Exit interviews](people-ops/process/performance-coaching/exit-interview.md)
+  - [Exit interviews](people-ops/process/leaving.md/#exit-interviews)
   - [Offboarding process]COMING SOON
 
 ### Teammate swag
@@ -427,21 +435,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.52.17%20AM.png"
-            alt="Picture of Frey Andersson"
-            style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Frey Andersson</div>
-        <div style="text-align: center; font-size: 12px">Technical Recruiter</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1">
-      <div>
-        <div style="text-align: center">
           <a href="../../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/KemperBitmoji.png"
@@ -517,22 +510,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
   </div>
-  <div class="row" style="display: flex">
-    <div class="col" style="flex: 1">
-      <div>
-        <div style="text-align: center">
-          <a href="../../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
-            alt="Picture of Inés Roitman"
-            style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Inés Roitman</div>
-        <div style="text-align: center; font-size: 12px">Onboarding and Training Manager</div>
-      </div>
-    </div>
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
