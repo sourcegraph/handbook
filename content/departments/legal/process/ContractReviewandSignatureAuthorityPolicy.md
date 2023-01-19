@@ -257,7 +257,7 @@ Submit a request in the #deal-desk channel in Slack to Sourcegraph's Legal POC f
 
 Good rule of thumb: When in doubt, get a Deal Desk stamp!
 
-2.  Signature: Financial Controller
+2.  Signer: Financial Controller
 
 Back-Up Signers: VP Legal and VP Finance/Operations
 
@@ -265,11 +265,20 @@ Note: the above signature authority also applies to Evaluation or Proof of Conce
 
 Changes to the above signing authorities require written approval by the CEO.
 
-### Who sends out the Customer contract for signature?
+### For standalone MSAs, what is the signature process?
 
-If you have DocuSign access, you do! If you do not have DocuSign access, please contact #it-tech-ops team.
+1. Approver:  Commercial counsel POC approves clean MSA via Slack or email, cc'ing VP Legal or Financial Controller. No Deal Desk stamp needed. 
+2. Signer:  VP Legal or Financial Controller
 
-You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it also simplifies our stamping procedure.
+### How to get Customer contracts signed?
+
+Set the below process expectation with your customer. 
+
+1. You will send clean contract via Docusign
+2. Customer will sign first
+3. Sourcegraph will countersign (remember to get the Deal Desk stamp!)
+
+The benefit of us initiating and controlling the signature process as it allows us to track the envelope, send reminders to signers, and it also simplifies our stamping procedure.
 
 ### Where do I save the Customer contract once it’s signed?
 
