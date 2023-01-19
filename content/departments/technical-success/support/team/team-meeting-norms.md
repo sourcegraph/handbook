@@ -21,9 +21,11 @@ We want to have a global team where folks can work anywhere in the world. We nev
 
 ## Team meetings
 
-For both weekly planning/retros and ad-hoc team meetings, each manager or lead will facilitate a session on Wednesday at 15:00 UTC and 21:00 UTC. The support engineers in attendance at each session will change monthly based on what works best for each support engineer that month. Each support engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
+For both bi-weekly planning/retros and ad-hoc team meetings, each manager or lead will facilitate a session on Wednesday at 15:00 UTC and 19:30 UTC. The support engineers in attendance at each session will change monthly based on what works best for each support engineer that month. Each support engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
 
-Each week, the agenda will have some items that every manager will cover to ensure alignment across the entire team, and they will have space to put their spin on it to keep this synchronous time interesting and engaging.
+Each meeting, the agenda will have some items managers will cover to ensure alignment across the entire team, and they will have space to put their spin on it to keep this synchronous time interesting and engaging.
+
+On off-weeks from planning/retros a collaboration meeting happens at the same times (Wednesday 15:00 UTC and 19:30 UTC) where the team can chat about tickets and issues they can bring up.
 
 ## Team announcements/initiatives
 
@@ -42,6 +44,6 @@ For team initiatives, various support engineers will need to collaborate togethe
 We will continue to have several optional ways for the team to engage socially:
 
 - Asynchronously in our #cs-social channel
-- Synchronously 1:1 via the random #weekly #customer-support-weekly pairing donut app pairing
+- Synchronously 1:1 via the random #customer-support-weekly-pairing donut app pairing
 - Synchronously on Friday via two afternoon/end of day social sessions that are scheduled at 15:00 UTC and 21:00 UTC. Everyone is invited as optional and whoever shows up for the session gets to decide how they want to enjoy each other’s company.
 - Asynchronously and/or synchronously during quarterly virtual events (until we are able to move to consistent in-person)
