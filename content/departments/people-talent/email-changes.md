@@ -6,14 +6,14 @@ The Tech Ops team is responsible for creating and managing teammate emails. This
 
 Prior to a new teammate's first day at Sourcegraph, the Tech Ops team will create their email address using this standard naming convention: _PreferredFirstName.PreferredSurname@sourcegraph.com_.
 
-Emails are typically created on the Wednesday before a new hire's start date. This email will be used to create the new Okta user, which allows access to all of our tools/systems. 
+Emails are typically created on the Wednesday before a new hire's start date. This email will be used to create the new Okta user, which allows access to all of our tools/systems.
 
 ### Reasons to change an email
 
 There are occasionally times that a teammate needs to change their email after it has been created. This is not an easy change to make because it requires manually changing user information in all applications where the email is used. Therefore, reasons for changing an email are limited. Typically, this happens when:
 
 - A teammate legally changes their first or last name
-- A teammate needs to change their email for security reasons 
+- A teammate needs to change their email for security reasons
 
 ### Reasons to request an email alias be created
 
