@@ -45,6 +45,7 @@ We want to meet our SLA (service level agreement) response 100% of the time. Mee
 
 - [How we work with other teams](process/engaging-other-teams.md)
 - [Assigned support engineers](team/assigned-app-eng.md)
+- [Team README](team/index.md)
 - [Business continuity](process/business-continuity-plan.md)
 
 ## SLAs
