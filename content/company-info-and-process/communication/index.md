@@ -115,7 +115,7 @@ Do not use URL shorteners (not even ones that we pay for or that use a custom do
 ### (Internally) Use Golinks
 
 Use [Golinks](https://app.golinks.io/) as canonical, easily discoverable URL for content you create. Also, create additional Golinks that make sense to you (ex. go/expenses in addition to go/expense-policy).
-Golinks are editable - prefer updating existing Golinks to createing new, non-conflicting ones.
+Golinks are editable - prefer updating existing Golinks to creating new, non-conflicting ones.
 
 ## Google Docs
 
