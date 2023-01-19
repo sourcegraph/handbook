@@ -27,11 +27,9 @@ I like to approach problems (tickets or otherwise) in three steps:
 
 3. Validate solution/further clarify and go back to step 2 until resolved.
 
-
 ### Preferred way to be recognized
 
 I'm open to any type of recognition as long as its deserved and genuine.
-
 
 ### What I enjoy at work
 
@@ -73,7 +71,6 @@ Small, confined spaces
 ### Current personal project
 
 Pretend I am a handy-man and try to fix my old home.
-
 
 ### What I fear
 
