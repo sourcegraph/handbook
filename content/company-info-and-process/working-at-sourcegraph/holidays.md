@@ -26,4 +26,4 @@ Also, there is no company meeting on or between December 23 and January 1. Most 
 3. Click 'Add a calendar' (on the navigation bar to the left)
 4. Select 'Browse calendars of interest'
 5. Under Regional holidays, click 'Browse all'
-6. Select the country you'd like to add 
+6. Select the country you'd like to add
