@@ -74,19 +74,27 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
   - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03 and 2022-10-10
   - Compensation changes will be visible in Bamboo 2022-10-14 (they retro go into effect 2022-10-01)
 
-**Anticipated FEBRUARY FY24 Review Process Schedule** (6 weeks total)
+**Anticipated FEBRUARY FY24 Review Process Schedule** (9 weeks total)
 
 - **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
-  - 2023-02-01 to 2023-02-07 (1 week)
-- **Phase 2: Self, Peer, & Upward Review Writing**
-  - 2023-02-08 to 2023-02-22 (2 weeks)
-- **Phase 3: Manager Review Writing**
-  - 2023-02-23 to 2023-03-03 (1 week)
-- **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
-  - 2023-03-04 to 2023-03-20 (2 weeks)
+  - All Teams: 2023-02-01 to 2023-02-07 (1 week)
+- **Phase 2: Self, Peer, & Upward Review Writing, Manager Review Writing**
+  - All Teams: 2023-02-08 to 2023-03-22 (6 weeks)  - We added 2 extra weeks for buffer because we know this is a busy time! 
+- **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
+  - All Teams: 2023-03-22 to 2023-04-5 (2 weeks)
+  - Engineering Team Extension: 2023-03-22 to 2023-04-17 (3 weeks; the extra week accommodates for the starship launch)
 - **Phase 5: Impact Review Cycle Ends**
-  - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-01
-  - Compensation changes will go into effect 2023-04-01
+  - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10; Compensation changes will be backdated to 2023-04-01 
+  - Engineering Team Extension: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-17; Compensation changes will be backdated to 2023-04-01 
+
+## **Enablement Schedule**
+
+* Weekly starting Feb 1: 2x weekly open Office Hours with the People Team.
+    * We're here to answer any questions from writing reviews, giving feedback, all things  Lattice, and career growth conversations!
+* Feb 1: Handbook Update - Writing great reviews: example reviews for each category.
+* February 16th - Writing reviews workshop
+* March 16th  - Calibration live training.
+* March 31st - Delivering feedback live training.
 
 ## Impact Review process
 
@@ -101,56 +109,75 @@ Lattice resources:
 
 ### Questions we ask in the Impact Review
 
-**Teammate self review:**
+**Teammate self-review:**
 
-- **Required questions**
 
-  - What were your most impactful accomplishments over the past 6 months?
-    - Note: we recommend sharing up to 3 examples
-  - To what extent did you meet your commitments or goals in the past 6 months?
-  - What are you looking to achieve in your next 6 months at Sourcegraph? (Please describe)
-
-- **Optional questions:**
-  - What elements of your job do you find challenging?
-  - Describe how you’ve showcased 1-2 competencies over the past 6 months. (Please share specific examples of how these map to your team’s career framework).
-  - Describe how you’ve showcased 1-2 values over the past 6 months. (Please share specific examples).
-  - Which 1-2 competencies would you like to focus on in the coming 6 months? (These can be from either your current role or one you aspire to and are actively discussing with your Manager).
-  - Please share any additional feedback that may be helpful as a part of your self-review assessment.
+1. **Performance:** Looking back over the past performance period, how would you rate your level of success in achieving your commitments or goals as it relates to your role and level? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide examples in the comment field that support your rating. 
+2. **Values:** Looking back over the past performance period, how would you rate your level of success in showcasing our values? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. Please provide supporting examples in the comment field that best describe how you exhibited Sourcegraph values over the past performance period.
+3. **Growth Opportunities:** I have showcased the expected domain knowledge, skills, and execution in alignment with my role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree ] Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.  
+4. **Goal Setting:** What goals are you setting for yourself over the next 6 months to be successful? 
+5. **Additional Feedback (Optional): **Please share any additional feedback that may be helpful for your manager to review as a part of your self-review assessment.
 
 **Peer review:**
 
-- **Required questions:**
 
-  - How have this Teammate’s contributions impacted your ability to deliver on your goals?
-  - To what extent does this person follow through on commitments? (Please provide examples).
+1. **Performance:** This teammate consistently delivers quality work in line with their role/level.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. 
 
-- **Optional questions:**
-  - Based on your interactions with this person, which role-specific competency or values would you recommend they focus on in order to grow professionally?
-  - Please share any additional feedback that may help this Teammate grow in their career.
+    (Response is only visible to this teammates Manager) 
+
+2. **Values: **This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period. 
+
+    (Response is only visible to teammates Manager) 
+
+3. **Growth Opportunities:** This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.  
+
+    (Response is only visible to this teammates Manager) 
+
+4. **Goal Setting**: How can this teammate better support you over the next 6 months?  
+
+    (Response is visible to this teammate) 
+
+5. **Additional Feedback (Optional): **Please share any additional feedback that may help this teammate grow in the next review period. 
+
+    (Response is visible to Reviewee) 
+
+
+**Direct Report-to-Manager review (skip-level feedback):**
+
+
+1. **Performance:** My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period. 
+
+    (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.) 
+
+2. **Values: **My manager consistently showcased our values over the past review period.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  Please provide supporting examples that best describe if and how your manager exhibited Sourcegraph values over the past performance period. 
+
+    (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.) 
+
+3. **Growth Opportunities:** My Manager showcased the expected domain knowledge, skills, and execution required to effectively manage me. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what your manager should start, stop, or continue doing to amplify performance.  
+1. (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.) **Goal Setting**: What support do you need from your manager to be successful in the next 6-months?
+
+    (Response is visible to your manager) 
+
+4. **Additional Feedback (Optional): **Please share any additional feedback that may help your manager grow in the next review period. 
+
+    (Response is visible to your manager) 
+
 
 **Manager-to-Direct Report review:**
 
-- **Required questions:**
-  - How has this Teammate’s performance mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
-  - What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).
-  - How does this person’s behavior align with our values? (Provide 2-3 specific examples).
-  - How do you see this person’s role evolving over the next 6 months? What are the key competencies that they should focus on?
-- **Optional questions:**
-  - Describe how this Teammate’s motivation and effort align with their future potential.
-  - Please share any additional feedback that may help this Teammate grow in their career.
 
-**Direct Report-to-Manager review (skip-level feedback)**:
+1. **Performance:** What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.  
+2. **Values: **What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
 
-- **Required questions:**
+    (Response will not visible to the teammate)
 
-  - How has your Manager enabled you to do your best work over the past 6 months?
-  - Does your Manager foster a healthy, productive, and collaborative team environment? (Please provide specific examples).
-  - How did your Manager embody our values in the last 6 months? (Please provide examples for 2-3 values).
+3. **Growth Opportunities:** This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance. 
+4. **Goal Setting**: What goals do you want this teammate to achieve over the next 6 months?
+5. **Promotion Readiness: **I am recommending this teammate for promotion. [Yes/No] 
 
-- **Optional questions:**
-  - What type of coaching or support do you need from your Manager to continue to grow professionally?
-  - I would always want to work for this Manager (Rating Scale).
-  - Please share any additional feedback that may help this Teammate grow in their career.
+    (Response is not visible to teammate and will only be used as part of calibration)
+
+6. **Additional Feedback (Optional): **Please share any additional feedback that may help this teammate grow in the next review period. 
 
 ## The Talent Assessment using the 9-box
 
