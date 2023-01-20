@@ -136,7 +136,7 @@ Lattice resources:
    (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
 
 3. **Growth Opportunities:** My Manager showcased the expected domain knowledge, skills, and execution required to effectively manage me. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what your manager should start, stop, or continue doing to amplify performance.
- (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.) 
+   (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
 4. **Goal Setting**: What support do you need from your manager to be successful in the next 6-months?
 
    (Response is visible to your Manager)
