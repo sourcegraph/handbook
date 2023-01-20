@@ -50,7 +50,7 @@ To achieve this, our monitoring architecture is designed with the goal of provid
 - **Ship understandable and actionable signals** - we want ensure that the metrics and dashboards we ship provide a clear indicator of whether something is wrong and what admins or Sourcegraph engineers can do to diagnose issues.
 - **Provide engineers at Sourcegraph the tooling to easily build monitoring** - our monitoring tooling is not just for customers or the Distribution team: they should also serve the engineers by making it easy to create consistent and useful insights into the behaviour of both Sourcegraph Cloud and customer instances.
 - **Make alert notifications painless to configure** - we want to minimize the number of Sourcegraph instances that lack alerting. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
-- **Dogfood the monitoring we ship as much as possible** - without the heavy reliance brough about by dogfooding, monitoring components have proven to be difficult to use or completely broken.
+- **Dogfood the monitoring we ship as much as possible** - without the heavy reliance brought about by dogfooding, monitoring components have proven to be difficult to use or completely broken.
 
 To see the architectural decisions made to support these goals, refer to the [Sourcegraph monitoring architecture](./monitoring_architecture.md#metrics).
 
@@ -76,18 +76,9 @@ You can think of the restrictions we impose as a linter for preventing the issue
 Monitoring tooling at Sourcegraph supports the following pillars:
 
 - [Dashboards should be created only with the monitoring generator](#dashboards-should-be-created-only-with-the-monitoring-generator)
-  - [Explanation](#explanation)
-  - [What you should do](#what-you-should-do)
 - [Dashboards should describe a single service](#dashboards-should-describe-a-single-service)
-  - [Explanation](#explanation-1)
-  - [What you should do](#what-you-should-do-1)
 - [Graphs should have less than 5 cardinality](#graphs-should-have-less-than-5-cardinality)
-  - [Explanation](#explanation-2)
-  - [Exceptions](#exceptions)
-  - [What you should do](#what-you-should-do-2)
 - [Only the most useful and simple graphs should be visible by default](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
-  - [Explanation](#explanation-3)
-  - [What you should do](#what-you-should-do-3)
 
 Before trying to circumvent the guidelines enforced by our monitoring tooling, please keep in mind that these pillars are defined to help us achieve our [goals](#long-term-vision) and eliminate [pain points we have encountered in the past](#history). Each of the above pillars are documented with detailed explanations, recommendations for what you can do, and exceptions where applicable.
 
