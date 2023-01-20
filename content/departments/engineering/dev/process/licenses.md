@@ -35,7 +35,7 @@ We intend all of Sourcegraph to be source available so that anyone can view our 
 
 ### Allowed licenses: Permissive Licenses
 
-You may use any code licensed under any permissive license, such as Apache, MIT, BSD. If you aren’t sure whether a license is permissive, you can use any license rated Bronze or better on the [permissive license list](https://blueoakcouncil.org/list) compiled by Blue Oak Council.
+You may use any code licensed under any permissive license, such as Apache, MIT, BSD. If you aren’t sure whether a license is permissive, you can use any license **rated Bronze or better** on the [permissive license list](https://blueoakcouncil.org/list) compiled by Blue Oak Council.
 
 ### Not allowed licenses: Copyleft Licenses
 
