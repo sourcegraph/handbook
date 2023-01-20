@@ -30,8 +30,8 @@ There are 3 main components to this use case:
 This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
 
 - The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
-- The opp must upcoming Fiscal Year revenue
-- The opp must be reviewed by CE and Sales leadership and selected from the implementation request backlog
+- The opportunity must be expected to contribute to upcoming fiscal year revenue
+- The opportunity must be reviewed by CE and Sales leadership and selected from the implementation request backlog
 
 <em>Note - for more information about the implementation request and backlog review process, review</em> [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md).
 
@@ -39,17 +39,17 @@ This is generally not recommended. A majority of trials should consist of quick,
 
 The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
 
-#### CE / Sales
+#### Customer Engineering (CE) / Sales
 
 Visit [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md) to better understand this relationship.
 
-#### TA
+#### Technical Advisory (TA)
 
 Visit [TA-Implementation Collaboration Overview](implementation-ta-handoff.md) to better understand this relationship.
 
-#### CS
+#### Customer Support (CS)
 
-For the majority of implementations, the default process will be for CS to only be engaged once the customer is fully live. From there, the CS will follow standard support practices. The documentation created by the implementation team during the hand-off to the TA should be sufficient for future CS to better support the customers' needs.
+For the majority of implementations, the default process will be for CS to only be engaged once the customer is fully live. From there, the CS engineer will follow standard support practices. The documentation created by the implementation team during the hand-off to the TA should be sufficient for future CS engineers to better support the customers' needs.
 
 #### Engineering
 
@@ -63,7 +63,7 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 
 - Confirmation of the production technical deployment design as captured by the CE
 - Build internal replica environment based on expected requirements for production deployment
-- Deploy customer non-production environment(s) for confirmation of deployment design and use as a dedicated testing environment
+- Deploy customer non-production environment(s) for confirmation of deployment design and to use as a dedicated testing environment
 - Configure code hosts on non-production environment(s) to confirm no issues cloning and indexing repos at scale
 - Onboard testing users into non-production environment(s) and confirm Sourcegraph performance is optimal
 - Build and configure production environment and code hosts
@@ -75,13 +75,13 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 - Set milestones for deployment and develop project plan (starts prior to contract finalization)
 - Ensure leadership engagement and buy in for the implementation
 - Confirm appropriate project staffing
-- Track progress towards key milestones and implementation Exit Criteria
-- Track Open Issues and Risks
+- Track progress towards key milestones and implementation exit criteria
+- Track open issues and risks
 - Provide project reports to key internal and external stakeholders
 - Engage cross-functional teams for additional assistance where needed
 - Remove blockers for IEs and customer teams to accomplish project tasks
 
-# Internal steps taken to support implementation efforts
+# Internal Steps Taken to Support Implementation Efforts
 
 - Customer facing project plan developed
   - The Implementation Project Manager will begin development of the project plan before the customer has officially signed, but will have it fully developed at the time of the initial implementation kickoff call.
@@ -111,7 +111,7 @@ While others may be directly or indirectly involved with specific implementation
 
 ## External Stakeholders
 
-This stakeholders will vary by customer depending on their organizational structure, needs, and processes. Still, external stakeholders can largely be broken down into the below categories.
+These stakeholders will vary by customer depending on their organizational structure, needs, and processes. Still, external stakeholders can largely be broken down into the below categories.
 
 - Project Champion - usually an internal leader invested in distributing Sourcegraph to developers
 - Project Team - developers, admins, DevX team members, etc. dedicated to standing up Sourcegraph
@@ -154,7 +154,7 @@ In addition, the implementation team is responsible for ensuring that the timeli
 
 # Exit Criteria for the Implementation to be Considered Complete
 
-Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes completion of the necessary infrastructure for all customer environments, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration). While the long-term support resource will likely be executing a subset of tasks in parallel with the implementation (such as UAT and onboarding planning), the end of the implementation indicates the point at which the account will fully transition technical ownership to the Customer Engineers (or TAM if one exists). Once transitioned, the Customer Engineer will continue with long-term customer success activities such as user onboarding, training, expansion, account health management, and general support.
+Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes completion of the necessary infrastructure for all customer environments, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration). While the long-term support resource will likely be executing a subset of tasks in parallel with the implementation (such as UAT and onboarding planning), the end of the implementation indicates the point at which the account will fully transition technical ownership to the Technical Advisor. Once transitioned, the Technical Advisor will continue with long-term customer success activities such as user onboarding, training, expansion, account health management, and general support.
 
 The list of tasks to be accomplished before considering an implementation complete include, but are not limited to:
 
@@ -172,6 +172,7 @@ The list of tasks to be accomplished before considering an implementation comple
 
 Below are a number of standardized tools used for managing larger implementation projects.
 
-- [Standard Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/1bS5IBfkrYMKR2sCkDKpxorbcv2bLNUNb01_Jv8AgF3Y/edit#gid=0)
-- [Trial Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/11NNbKykn79Zw7iBGREepqaEWhB-iN57Y_Tc0YwzmMhE/edit#gid=0)
-- [Monthly Progress Report Template](https://docs.google.com/document/d/1p6zuk-SR4WN5M_5pN9qstPcZhW2GS60dVeT3AJGMbiI/edit)
+- [Implementation Playbook Template](https://docs.google.com/spreadsheets/d/1k5-jUMnnV8AMBqtQU6-v8YUbzyiqHE1m9LJ0ofL2RtM)
+- [Standard Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/1bS5IBfkrYMKR2sCkDKpxorbcv2bLNUNb01_Jv8AgF3Y)
+- [Trial Implementation Project Plan Template](https://docs.google.com/spreadsheets/d/11NNbKykn79Zw7iBGREepqaEWhB-iN57Y_Tc0YwzmMhE)
+- [Monthly Progress Report Template](https://docs.google.com/document/d/1p6zuk-SR4WN5M_5pN9qstPcZhW2GS60dVeT3AJGMbiI)
