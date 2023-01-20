@@ -57,31 +57,16 @@ Results from the semi-annual impact review process support the growth and develo
 - [Compensation philosophy](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
 
-## Impact Review timeline
+## Impact Review Schedule - FY24
 
-**AUGUST FY23** (7 weeks total)
-
-_Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
-
-- **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
-- **Phase 2: Self, Peer, & Upward Review Writing**
-  - Note: we estimate that each review should take, on average, 15-30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review
-- **Phase 3: Manager Review Writing**
-  - Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review
-- **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
-  - Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](../../compensation-and-leveling/preparing-for-calibrations.md)\_
-- **Phase 5: Impact Review Cycle Ends**
-  - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03 and 2022-10-10
-  - Compensation changes will be visible in Bamboo 2022-10-14 (they retro go into effect 2022-10-01)
-
-**Anticipated FEBRUARY FY24 Review Process Schedule** (9 weeks total)
-
+**FEBRUARY FY24 Review Process Schedule** (9 weeks total)
+(Review Period: August 1st to January 31st)
 - **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
   - All Teams: 2023-02-01 to 2023-02-07 (1 week)
 - **Phase 2: Self, Peer, & Upward Review Writing, Manager Review Writing**
   - All Teams: 2023-02-08 to 2023-03-22 (6 weeks) - We added 2 extra weeks for buffer because we know this is a busy time!
 - **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
-  - All Teams: 2023-03-22 to 2023-04-5 (2 weeks)
+  - All Teams: 2023-03-22 to 2023-04-05 (2 weeks)
   - Engineering Team Extension: 2023-03-22 to 2023-04-17 (3 weeks; the extra week accommodates for the starship launch)
 - **Phase 5: Impact Review Cycle Ends**
   - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10; Compensation changes will be backdated to 2023-04-01
