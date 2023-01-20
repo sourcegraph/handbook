@@ -1,14 +1,28 @@
 # Sourcegraph monitoring pillars
 
-This document describes the background and pillars that drive how we development of our monitoring infrastructure at Sourcegraph.
-Once you are convinced, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability) for development-related documentation.
+This document describes the background and pillars that drive development of our monitoring infrastructure at Sourcegraph.
+For further information, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability) for development-related documentation.
 
+- [Overview](#overview)
 - [Long-term vision](#long-term-vision)
   - [History](#history)
 - [Monitoring pillars](#monitoring-pillars)
+  - [Dashboards should be created only with the monitoring generator](#dashboards-should-be-created-only-with-the-monitoring-generator)
+    - [Explanation](#explanation)
+    - [What you should do](#what-you-should-do)
+  - [Dashboards should describe a single service](#dashboards-should-describe-a-single-service)
+    - [Explanation](#explanation-1)
+    - [What you should do](#what-you-should-do-1)
+  - [Graphs should have less than 5 cardinality](#graphs-should-have-less-than-5-cardinality)
+    - [Explanation](#explanation-2)
+    - [Exceptions](#exceptions)
+    - [What you should do](#what-you-should-do-2)
+  - [Only the most useful and simple graphs should be visible by default](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
+    - [Explanation](#explanation-3)
+    - [What you should do](#what-you-should-do-3)
 - [Next steps](#next-steps)
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
+> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability). For Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
 
 ## Overview
 
@@ -27,63 +41,59 @@ Because of this, monitoring is just one piece of Sourcegraph's observability—s
 
 ## Long-term vision
 
-A traditional user of a monitoring stack is going to have a lot of context about things like what dashboards are showing, what metrics and alerts mean, how to use the components in the stack, since they will either have set the thing up themselves OR have people who did.
+The traditional user of a monitoring stack is going to have a lot of context about things like what dashboards are showing, what metrics and alerts mean, and how to use the components in the stack, since they will either have set up the stack themselves or work with the people who did.
 
 In stark contrast, we're putting together a monitoring system for people with zero context about how Sourcegraph works, what our metrics and alerts mean, and in many cases it may be their first time interacting with components used in our monitoring stack at all. In many cases, our metrics and alerts may not give the site admin any useful information that they themselves can act on other than "I should contact support and ask why this is happening".
 
 To achieve this, our monitoring architecture is designed with the goal of providing a robust out-of-the-box monitoring experience that deployment admins can easily leverage. This goal includes:
 
 - **Ship understandable and actionable signals** - we want ensure that the metrics and dashboards we ship provide a clear indicator of whether something is wrong and what admins or Sourcegraph engineers can do to diagnose issues.
-- **Provide engineers at Sourcegraph the tooling to easily build monitoring** - our monitoring tooling is not just for customers, or the Distribution team: they should also serve the engineers by making it easy to create consistent and useful insights into the behaviour of both Sourcegraph Cloud and customer instances.
-- **Make alert notifications painless to configure** - we want minimize the number of Sourcegraph instances without any alerting set up. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
-- **Dogfood the monitoring we ship as much as possible** - in the past, monitoring components have been difficult to use or completely broken since we do not rely on them heavily.
+- **Provide engineers at Sourcegraph the tooling to easily build monitoring** - our monitoring tooling is not just for customers or the Distribution team: they should also serve the engineers by making it easy to create consistent and useful insights into the behaviour of both Sourcegraph Cloud and customer instances.
+- **Make alert notifications painless to configure** - we want to minimize the number of Sourcegraph instances that lack alerting. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
+- **Dogfood the monitoring we ship as much as possible** - without the heavy reliance brough about by dogfooding, monitoring components have proven to be difficult to use or completely broken.
 
 To see the architectural decisions made to support these goals, refer to the [Sourcegraph monitoring architecture](./monitoring_architecture.md#metrics).
 
 ### History
 
-Before the recommendations we make start to make sense, you need to understand the history of monitoring at Sourcegraph and the (extremely difficult) problem we're trying to solve with it. For the first five years of Sourcegraph:
+Before the recommendations we make start to make sense, you need to understand the history of monitoring at Sourcegraph and the (extremely difficult) problem we're trying to solve with it.
 
-- Metrics have been too numerous for anyone to reason about on their own
-- Dashboards have been completely broken for customers because we do not rely on them heavily.
-- Dashboards have been so complex that only the author of the dashboard could interpret what it means.
+For the first five years of Sourcegraph:
+
+- Metrics were too numerous for anyone to reason about on their own
+- Dashboards were completely broken for customers because we did not rely on them heavily.
+- Dashboards were so complex that only the author of the dashboard could interpret it.
 - We recieved support requests like "is this dashboard showing it is healthy or not?" and it was difficult to answer
-- It has been impossible/painful for site admins to define meaningful alerting for Sourcegraph. Many admins would fall back to poor external checks like "does a search query work and is it fast?"
-- It has been impossible for us to debug customer's instances through monitoring, and often we would just write one-off Prometheus queries for customers to run.
+- It was impossible/painful for site admins to define meaningful alerting for Sourcegraph. Many admins would fall back to poor external checks like "does a search query work and is it fast?"
+- It was impossible for us to debug customer's instances through monitoring, and often we would just write one-off Prometheus queries for customers to run.
 
-We can and should do better with monitoring than we have in the past, so we introduce strict restrictions on how we develop monitoring. This helps keep the entire engineering team aligned with what our customers and users need from us—even if monitoring is often an afterthought or the last thing an engineer working on some feature adds.
+We can and should do better with monitoring than we have in the past, so we introduced strict restrictions on how we develop monitoring. This helps keep the entire engineering team aligned with what our customers and users need from us — even if monitoring is often an afterthought or the last thing an engineer working on some feature adds.
 
 You can think of the restrictions we impose as a linter for preventing the issues described above. And, in many cases, our tooling does already prevent these issues by imposing these restrictions!
 
 ## Monitoring pillars
 
-Monitoring tooling at Sourcegraph is developed to encourage the following guidelines:
+Monitoring tooling at Sourcegraph supports the following pillars:
 
-- [Sourcegraph monitoring pillars](#sourcegraph-monitoring-pillars)
-  - [Overview](#overview)
-  - [Long-term vision](#long-term-vision)
-    - [History](#history)
-  - [Monitoring pillars](#monitoring-pillars)
-    - [Dashboards should only be created with the monitoring generator](#dashboards-should-only-be-created-with-the-monitoring-generator)
-      - [Explanation](#explanation)
-      - [What you should do](#what-you-should-do)
-    - [Dashboards should describe a single service](#dashboards-should-describe-a-single-service)
-      - [Explanation](#explanation-1)
-      - [What you should do](#what-you-should-do-1)
-    - [Graphs should have less than 5 cardinality](#graphs-should-have-less-than-5-cardinality)
-      - [Explanation](#explanation-2)
-      - [Exceptions](#exceptions)
-      - [What you should do](#what-you-should-do-2)
-    - [Only the most useful and simple graphs should be visible by default](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
-      - [Explanation](#explanation-3)
-      - [What you should do](#what-you-should-do-3)
-  - [Next steps](#next-steps)
+- [Dashboards should be created only with the monitoring generator](#dashboards-should-be-created-only-with-the-monitoring-generator)
+  - [Explanation](#explanation)
+  - [What you should do](#what-you-should-do)
+- [Dashboards should describe a single service](#dashboards-should-describe-a-single-service)
+  - [Explanation](#explanation-1)
+  - [What you should do](#what-you-should-do-1)
+- [Graphs should have less than 5 cardinality](#graphs-should-have-less-than-5-cardinality)
+  - [Explanation](#explanation-2)
+  - [Exceptions](#exceptions)
+  - [What you should do](#what-you-should-do-2)
+- [Only the most useful and simple graphs should be visible by default](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
+  - [Explanation](#explanation-3)
+  - [What you should do](#what-you-should-do-3)
 
-Before trying to circumvent the guidelines enforced by our monitoring tooling, please keep in mind that these pillars are defined to help us achieve our [goals](#long-term-vision) and alleviate [pain points we have encountered in the past](#history). Each of the above pillars are documented with detailed explanations, recommendations for what you can do, and exceptions where applicable.
+Before trying to circumvent the guidelines enforced by our monitoring tooling, please keep in mind that these pillars are defined to help us achieve our [goals](#long-term-vision) and eliminate [pain points we have encountered in the past](#history). Each of the above pillars are documented with detailed explanations, recommendations for what you can do, and exceptions where applicable.
 
 To make significant changes to the monitoring tooling, please reach out to the DevExp team or open a PR to this page!
 
-### Dashboards should only be created with the monitoring generator
+### Dashboards should be created only with the monitoring generator
 
 Creating dashboards outside of the monitoring generator, such as with the Grafana WYSIWYG editor, is discouraged. All metrics should be presented in a set of uniform, standard ways that every site admin can understand.
 
@@ -92,7 +102,7 @@ Creating dashboards outside of the monitoring generator, such as with the Grafan
 Using the Grafana WYSIWYG editor, or otherwise operating outside the constraints of [the monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring) makes it:
 
 - Much harder to integrate with our [monitoring architecture](./monitoring_architecture.md): generated dashboard integration, generated documentation, alerting support, and more.
-- Extremely easy to introduce dashboards that have inconsistency errors through mistakes that are easy to make (e.g. not using UTC time on dashboards, the preset timeframe being inconsistent, it not self-describing to admins what it does, etc.)
+- Extremely easy to introduce dashboards that have inconsistency errors through mistakes that are easy to make (e.g. not using UTC time on dashboards, the preset timeframe being inconsistent, it not self-describing to admins what it does, etc...)
 - Difficult for others to modify and review without introducing regressions (e.g. due to Grafana schema version changes, which happen frequently, producing large diffs)
 
 #### What you should do
@@ -162,7 +172,7 @@ We expect `update_commits` to be taking ~50ms and need to confirm that. Is it ~5
 
 Some graphs will require more granularity. For example, per-container or per-Gitserver replica graphs might be rendered entirely unhelpful if we do not have the ability to observe the behaviour of each individual instance.
 
-When creating high-cardinality graphs, please consider how understandable the graph is in terms of how easy it is to grok as human.
+When creating high-cardinality graphs, please consider how understandable the graph is in terms of how easy it is to grok as a human.
 
 #### What you should do
 
