@@ -101,29 +101,29 @@ Lattice resources:
 2. **Values:** Looking back over the past performance period, how would you rate your level of success in showcasing our values? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. Please provide supporting examples in the comment field that best describe how you exhibited Sourcegraph values over the past performance period.
 3. **Growth Opportunities:** I have showcased the expected domain knowledge, skills, and execution in alignment with my role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree ] Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.
 4. **Goal Setting:** What goals are you setting for yourself over the next 6 months to be successful?
-5. **Additional Feedback (Optional): **Please share any additional feedback that may be helpful for your manager to review as a part of your self-review assessment.
+5. **Additional Feedback (Optional):** Please share any additional feedback that may be helpful for your manager to review as a part of your self-review assessment.
 
 **Peer review:**
 
-1. **Performance:** This teammate consistently delivers quality work in line with their role/level. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period.
+1. **Performance:** This teammate consistently delivers quality work in line with their role/level. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide specific examples in the comment field that supports how this teammate contributed to the success of a project, team, or initiative over the past review period.
 
-   (Response is only visible to this teammates Manager)
+   (Response is only visible to this teammate's Manager)
 
-2. **Values: **This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
+2. **Values:** This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
 
-   (Response is only visible to teammates Manager)
+   (Response is only visible to teammate's Manager)
 
 3. **Growth Opportunities:** This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
 
-   (Response is only visible to this teammates Manager)
+   (Response is only visible to this teammate's Manager)
 
 4. **Goal Setting**: How can this teammate better support you over the next 6 months?
 
    (Response is visible to this teammate)
 
-5. **Additional Feedback (Optional): **Please share any additional feedback that may help this teammate grow in the next review period.
+5. **Additional Feedback (Optional):** Please share any additional feedback that may help this teammate grow in the next review period.
 
-   (Response is visible to Reviewee)
+   (Response is visible to this teammate)
 
 **Direct Report-to-Manager review (skip-level feedback):**
 
@@ -131,33 +131,31 @@ Lattice resources:
 
    (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
 
-2. **Values: **My manager consistently showcased our values over the past review period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe if and how your manager exhibited Sourcegraph values over the past performance period.
+2. **Values:** My manager consistently showcased our values over the past review period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe if and how your manager exhibited Sourcegraph values over the past performance period.
 
    (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
 
 3. **Growth Opportunities:** My Manager showcased the expected domain knowledge, skills, and execution required to effectively manage me. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what your manager should start, stop, or continue doing to amplify performance.
-4. (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.) **Goal Setting**: What support do you need from your manager to be successful in the next 6-months?
+   (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
+4. **Goal Setting**: What support do you need from your manager to be successful in the next 6-months?
 
-   (Response is visible to your manager)
+   (Response is visible to your Manager)
 
-5. **Additional Feedback (Optional): **Please share any additional feedback that may help your manager grow in the next review period.
+5. **Additional Feedback (Optional):** Please share any additional feedback that may help your manager grow in the next review period.
 
-   (Response is visible to your manager)
+   (Response is visible to your Manager)
 
 **Manager-to-Direct Report review:**
 
 1. **Performance:** What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
-2. **Values: **What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-
-   (Response will not visible to the teammate)
-
+2. **Values:** What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
 3. **Growth Opportunities:** This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
 4. **Goal Setting**: What goals do you want this teammate to achieve over the next 6 months?
-5. **Promotion Readiness: **I am recommending this teammate for promotion. [Yes/No]
+5. **Promotion Readiness:** I am recommending this teammate for promotion. [Yes/No]
 
    (Response is not visible to teammate and will only be used as part of calibration)
 
-6. **Additional Feedback (Optional): **Please share any additional feedback that may help this teammate grow in the next review period.
+6. **Additional Feedback (Optional):** Please share any additional feedback that may help this teammate grow in the next review period.
 
 ## The Talent Assessment using the 9-box
 
