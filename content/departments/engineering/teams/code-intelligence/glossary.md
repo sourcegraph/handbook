@@ -16,7 +16,7 @@ Examples:
 
 ### Code navigation popover
 
-A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code navigation](#precise-code-intel). Depending on the context, it may have (as of 2022 Apr 08):
+A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code navigation](#precise-code-navigation). Depending on the context, it may have (as of 2022 Apr 08):
 
 - The [doc comment](#doc-comment) for the [symbol](#symbol) corresponding to the identifier.
 - Buttons for [code navigation](#code-navigation).
@@ -164,7 +164,7 @@ TODO
 
 A tool that does [indexing](#indexing).
 
-In the context of code navigation, this usually refers to a _precise_ indexer, i.e. something which emits [precise code navigation](#precise-code-intel) about a language. However, this is sometimes used as shorthand for "some tool that emits [LSIF Typed](#lsif-typed)".
+In the context of code navigation, this usually refers to a _precise_ indexer, i.e. something which emits [precise code navigation](#precise-code-navigation) about a language. However, this is sometimes used as shorthand for "some tool that emits [LSIF Typed](#lsif-typed)".
 
 ### indexing
 
@@ -337,7 +337,7 @@ const b = makePair(a) // 'b' is inferred to have type '[]number'
 
 This example might be misleading in its simplicity; you might think that there isn't anything more to type inference other than "propagating" the types from constant values (like `10`) and based on annotations (such as on `makePair`). However, in practice, type inference for most industrial languages is quite complicated, and is not implementable in a language-agnostic way.
 
-Techniques such as GitHub's "stack graphs" that are largely language-agnostic can only approximate type inference. This is why our strategy for [precise code navigation](#precise-code-intel) relies on leveraging language-specific [compiler](#compiler)s/[type checker](#type-checker)s, which include a complete implementation of type inference.
+Techniques such as GitHub's "stack graphs" that are largely language-agnostic can only approximate type inference. This is why our strategy for [precise code navigation](#precise-code-navigation) relies on leveraging language-specific [compiler](#compiler)s/[type checker](#type-checker)s, which include a complete implementation of type inference.
 
 ### type checker
 
