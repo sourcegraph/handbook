@@ -65,6 +65,13 @@ Our five customer tiers are:
 | Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
 | Tech Nurtured | Any customer below 500 estimated devs |
 
+### Ideal customer profile
+
+We want Sourcegraph to be easy to adopt for every developer in the world. We're pursuing a bottoms-up adoption strategy, driven by the Sourcegraph App.
+
+Our Ideal Customer Profile (ICP), the company archetype that is the perfect fit for Sourcegraph, are companies from the Strategic segment. That's because the largest companies in the world have so much code, developers, heterogenous codehosts that they benefit the most from Sourcegraph.
+
+
 ## This year (FY23)
 
 Our strategy for FY23 is: **iterate with existing customers first to grow ARR.** ([Last year's strategy](history.md#what-we-learned-from-fy22s-strategy) was about serving larger and smaller customers.)
