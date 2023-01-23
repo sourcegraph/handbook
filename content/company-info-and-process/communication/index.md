@@ -106,9 +106,16 @@ See [1-1 meetings](1-1.md).
 
 See [Announcements](announcements.md).
 
-## Don't use URL shorteners
+## Shortening URLs
+
+### (Externally) Don't use URL shorteners
 
 Do not use URL shorteners (not even ones that we pay for or that use a custom domain). Devs don't like or trust them.
+
+### (Internally) Use Golinks
+
+Use [Golinks](https://app.golinks.io/) as canonical, easily discoverable URL for content you create. Also, create additional Golinks that make sense to you (ex. go/expenses in addition to go/expense-policy).
+Golinks are editable - prefer updating existing Golinks to creating new, non-conflicting ones.
 
 ## Google Docs
 
