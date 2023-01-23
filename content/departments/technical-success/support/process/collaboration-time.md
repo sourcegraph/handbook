@@ -5,15 +5,14 @@
 - Synchronous time for support engineers on the Customer Support team to discuss current and past tickets, other items that we need help on or anything you learned that you’re excited about and would like to share with the group!
 - Facilitate learning and team bonding, and many virtual high fives!
 - Attendance is encouraged, but not required. **Additionally, you do not need to attend all three sessions. Ideally you would join the one that best aligns with your work schedule.**
-- There is no official facilitator. Instead, individual support engineer have set up the recurring meeting.
+- There is no official facilitator. Instead, individual support engineers have set up the recurring meeting.
 - This is **not** for time sensitive issues. Use your best judgement—if the issue cannot wait for collaboration time, then seek help before the meeting.
 - Time and days subject to future adjustment as needed by the group.
 
 ## Current time and days:
 
-- Option A) CS Collab time! 13:00 UTC edition (6–7am pst) Monday, Wednesday and Thursday
-- Option B) CS Collab time! 16:00 UTC edition (9–10am pst) Monday and Wednesday
-- Option C) CS Collab time! 20:00 UTC edition (1pm–2pm pst) Tuesday and Thursday
+- Option A) CS Collab time! 15:00 UTC edition (7–8am PT) Wednesday
+- Option B) CS Collab time! 19:30 UTC edition (12:30–1:30pm PT) Wednesday
 
 ## How to participate:
 

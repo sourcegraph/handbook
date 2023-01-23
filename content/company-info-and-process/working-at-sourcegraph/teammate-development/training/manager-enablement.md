@@ -1,3 +1,0 @@
-# Manager Enablement
-
-TODO

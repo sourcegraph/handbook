@@ -15,6 +15,15 @@ We will reschedule any [company meetings](../../company-info-and-process/communi
 - Labor Day (US/Canada) - observed first Monday in September
 - **Christmas Eve and Christmas** - observed December 24th and 25th
 
-Also, there is no company meeting on or between December 23 and January 1. (Most team members will take that time off.)
+Also, there is no company meeting on or between December 23 and January 1. Most team members will take that time off.
 
-(List of holidays based on current team observation. If you believe a widely-observed holiday is missing from this list, please reach out to @people-ops)
+(List of holidays based on current team observation. If you believe a widely-observed holiday is missing from this list, please reach out to people-ops@sourcegraph.com)
+
+**How to add other countries' holidays to your Google calendar:**
+
+1. Go to [Google calendar](https://calendar.google.com/)
+2. Click 'Settings' (top right)
+3. Click 'Add a calendar' (on the navigation bar to the left)
+4. Select 'Browse calendars of interest'
+5. Under Regional holidays, click 'Browse all'
+6. Select the country you'd like to add
