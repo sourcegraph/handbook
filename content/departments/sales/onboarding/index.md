@@ -14,7 +14,7 @@ Read about Sales onboarding Mentor program:
   - Salesforce
   - LinkedIn Sales Naviagtor
   - Chorus
-    - Note: To properly use Chorus make sure you are signed in to Zoom (You can use Zoom without being logged in, but Chorus may not work properly, so it is good to double check). You also need to be signed in to stop Chorus from recording if requested from a customer. Also see [this link for additional details on stopping Chorus recordings.](https://docs.chorus.ai/hc/en-us/articles/360051549574-How-can-I-stop-recording-or-turn-recording-off-for-a-call-)
+    - Note: To properly use Chorus make sure you are signed in to Zoom (You can use Zoom without being logged in, but Chorus may not work properly, so it is good to double check). You also need to be signed in to stop Chorus from recording if requested from a customer. Also see [this link for additional details on stopping Chorus recordings.](https://university.zoominfo.com/learn/article/how-to-stop-recording-a-call)
   - Docusign
   - Outreach (Optional)
   - Looker
