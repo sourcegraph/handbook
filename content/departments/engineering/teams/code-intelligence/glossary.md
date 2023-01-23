@@ -16,7 +16,7 @@ Examples:
 
 ### Code navigation popover
 
-A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code navigation](#precise-code-navigation). Depending on the context, it may have (as of 2022 Apr 08):
+A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-navigation) or [precise code navigation](#precise-code-navigation). Depending on the context, it may have (as of 2023 Jan 23):
 
 - The [doc comment](#doc-comment) for the [symbol](#symbol) corresponding to the identifier.
 - Buttons for [code navigation](#code-navigation).
@@ -91,7 +91,7 @@ In the context of code navigation , the most important bit to know about a DAG i
 
 Shorthand for documentation comment, sometimes called a "docstring."
 
-A code comment that is intended to be surfaced by documentation tools, as a description of an entity like a function, a type etc. The [Code navigation popover](#code-intel-popover) surfaces a doc comment when possible.
+A code comment that is intended to be surfaced by documentation tools, as a description of an entity like a function, a type etc. The [Code navigation popover](#code-navigation-popover) surfaces a doc comment when possible.
 
 In code, these are often written directly above or below an entity's definition, and typically colored in a more dull shade. Here is an example in TypeScript:
 
@@ -129,7 +129,7 @@ Examples:
 
 ### hover tooltip
 
-Same as [Code navigation popover](#code-intel-popover), which is the preferred term.
+Same as [Code navigation popover](#code-navigation-popover), which is the preferred term.
 
 ### keyword
 
