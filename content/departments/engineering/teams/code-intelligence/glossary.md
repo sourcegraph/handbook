@@ -308,7 +308,7 @@ Precise code navigation makes [cross-repository code navigation](#cross-reposito
 
 Sometimes also referred to as "precise code intelligence", which is a somewhat broader term that can (depending on context) be describing [indexer](#indexer) support for a specific language, [code graph data](#code-graph-data), or the actual navigation itself.
 
-See also: [type inference](#type-inference), which is a feature that cannot be reliably by approximated by GitHub's "precise code navigation."
+See also: [type inference](#type-inference), which is a feature that cannot be reliably approximated by GitHub's "precise code navigation."
 
 ### reference
 
