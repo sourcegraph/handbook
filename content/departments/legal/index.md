@@ -59,6 +59,15 @@ When to engage legal:
 1. [Naming new products, features, and programs](../marketing/product-marketing/naming_guide.md)
 1. Feature deprecation or other changes (see Product inception link above) that may affect ToS or Privacy Policy
 
+### Legal checklist for contract review
+
+Every redline is a cost to the company. Redlines cost company resources and slow deal cycles and revenue growth. Given that, we only make redlines that create useful benefits or reduce actual risks for the company. This checklist captures our top 4 redline priorities:
+
+1. Limit company liability for data breaches and other common existential lawsuits
+1. Retain company IP
+1. Protect revenue from churn (termination for convenience, warranties, cure periods)
+1. Remove unnecessary obligations that we don't have in place (reporting obligations, customer-specific SLAs)
+
 ## Policy updates
 
 ### Privacy policy
