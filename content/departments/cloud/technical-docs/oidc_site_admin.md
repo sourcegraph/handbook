@@ -126,6 +126,8 @@ SELECT * FROM security_event_logs WHERE argument @> '{"sourcegraph_operator": tr
 
 ### How to enable/disable SOAP for a managed instance?
 
+Go to the `$CUSTOMER` direcotry.
+
 For v1 instances:
 
 1. Remove or add the following line in the `$CUSTOMER/config.yaml` file to enable or disable SOAP respectively:
@@ -134,8 +136,9 @@ For v1 instances:
    disableSourcegraphManagementAccess: true
    ```
 
-2. Run `terraform apply` on the `$CUSTOMER` directory, or trigger an apply on the Terraform Cloud.
-3. [Reload the manage instance](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml).
+1. Update the GSM value of the secret `CLOUD_SITE_CONFIG` by running `mi sync cloud-site-config`.
+1. Pull down the new GSM value to the VM by running `terraform apply` or trigger an apply on the Terraform Cloud.
+1. [Reload the manage instance](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml).
 
 For v2 instances:
 
