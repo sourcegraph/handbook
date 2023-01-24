@@ -309,6 +309,10 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - Informing PEO re: comp increases (COMING SOON)
 - Template letters:
   - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
+  - [Equity spot bonus template](https://docs.google.com/document/d/1mIgxiE0I9rYlhkA4-jMDFVoLpqJ-oLdm6I0qOWMxU4M/edit)
+  - [Cash spot bonus template](https://docs.google.com/document/d/1MDoZdIiQ5CiddD28__9w-llnax2M8NHVYNq83kKzypE/edit)
+  - [Annual equity refresh template](https://docs.google.com/document/d/1UYU_nXtdTTOCfam_kvhm4TQLi9jfyoZqaQ5J6DqB9rM/edit)
+  - [Merit increase template](https://docs.google.com/document/d/1vVXijmLlAfTVYrNXWmRXOZXADeLJoA78__Xu3dgKe8k/edit)
 
 ### Teammate support
 
