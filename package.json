@@ -81,7 +81,7 @@
     "hast": "^1.0.0",
     "hast-util-find-and-replace": "^4.0.0",
     "hast-util-is-element": "^2.1.1",
-    "hast-util-select": "^5.0.1",
+    "hast-util-select": "^5.0.5",
     "hast-util-to-string": "^2.0.0",
     "hastscript": "^7.1.0",
     "highlight.js": "^11.3.1",

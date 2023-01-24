@@ -3300,10 +3300,10 @@ hast-util-raw@^7.2.0:
     web-namespaces "^2.0.0"
     zwitch "^2.0.0"
 
-hast-util-select@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/hast-util-select/-/hast-util-select-5.0.1.tgz#ed3788ad1a8d2d7f16a6bf8153ce9378edbe9d6d"
-  integrity sha512-cxnImmR/tN/ipvbwGrKtEErmy83K1xWx8Bu7nImiwTOJ7X/fW1X6L1241ux+MYUXDwx8GxrE4LVmXRlEnbQsQA==
+hast-util-select@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/hast-util-select/-/hast-util-select-5.0.5.tgz#be9ccb71d2278681ca024727f12abd4f93b3e9bc"
+  integrity sha512-QQhWMhgTFRhCaQdgTKzZ5g31GLQ9qRb1hZtDPMqQaOhpLBziWcshUS0uCR5IJ0U1jrK/mxg35fmcq+Dp/Cy2Aw==
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/unist" "^2.0.0"
@@ -3312,7 +3312,6 @@ hast-util-select@^5.0.1:
     css-selector-parser "^1.0.0"
     direction "^2.0.0"
     hast-util-has-property "^2.0.0"
-    hast-util-is-element "^2.0.0"
     hast-util-to-string "^2.0.0"
     hast-util-whitespace "^2.0.0"
     not "^0.1.0"
