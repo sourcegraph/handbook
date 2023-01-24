@@ -68,7 +68,6 @@
 
         ul {
             display: none;
-            
             @media (min-width: 900px) {
                 &.active {
                     display: block;
