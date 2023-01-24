@@ -124,6 +124,23 @@ Run the following SQL query for security event logs:
 SELECT * FROM security_event_logs WHERE argument @> '{"sourcegraph_operator": true}';
 ```
 
+### How to enable/disable SOAP for a managed instance?
+
+For v1 instances:
+
+1. Remove or add the following line in the `$CUSTOMER/config.yaml` file to enable or disable SOAP respectively:
+
+   ```yaml
+   disableSourcegraphManagementAccess: true
+   ```
+
+2. Run `terraform apply` on the `$CUSTOMER` directory, or trigger an apply on the Terraform Cloud.
+3. [Reload the manage instance](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml).
+
+For v2 instances:
+
+1. TODO
+
 ### How to enable SOAP locally?
 
 1. Create a temporary JSON file (`site-config.json`) with the following content, the credentials can be obtained from the **Okta test instance admin** in 1Password and the [OpenID Connect (sourcegraph.test:3443)](https://dev-433675-admin.oktapreview.com/admin/app/oidc_client/instance/0oa1ecwm8ttNnJggl0h8) Okta application :
