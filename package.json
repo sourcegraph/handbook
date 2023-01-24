@@ -103,7 +103,7 @@
     "remark-gfm": "^3.0.1",
     "remark-github": "^11.2.1",
     "remark-parse": "^10.0.0",
-    "remark-rehype": "^10.0.0",
+    "remark-rehype": "^10.1.0",
     "retext": "^8.1.0",
     "retext-smartypants": "^5.1.0",
     "tippy.js": "^6.3.5",
