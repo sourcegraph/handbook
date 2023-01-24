@@ -144,7 +144,7 @@ For v2 instances:
 
 <!-- TODO(@michaellzc): update docs after it is implemented -->
 
-Disabling SOAP is not supported on v2
+Disabling SOAP is currently not supported on v2.
 
 ### How to enable SOAP locally?
 
