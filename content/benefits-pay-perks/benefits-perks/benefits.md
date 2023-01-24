@@ -9,44 +9,37 @@ US-based teammates can use this [Rippling tool](https://app.rippling.com/benefit
 Health:
 
 - UnitedHealthcare EPO
-  - 2022 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1BsvNoewWmrM3qc9aNN7A6UPVeBt12wDE/view?usp=sharing)
-  - 2022 [Plan Summary](https://drive.google.com/file/d/1ZsLNhMQ1FBMlsHWRswh7XWW0zDAH8sAu/view?usp=sharing)
-  - 2023 summary coming soon (2022-11-01)
+  - 2023 [Summary of Benefits and Coverage]COMING SOON
+  - 2023 [Plan Summary](https://drive.google.com/file/d/1c2QoMlgz2Xrwz7bxNzS-MiYWaYdCqu7z/view?usp=sharing)
 - UnitedHealthcare PPO 250
-  - 2022 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GgWZjukPEtcVit_07_MDD75ZKTFtr4Es/view?usp=sharing)
-  - 2022 [Plan Summary](https://drive.google.com/file/d/1ikczSsErm7rGO5QLaCLhOk1DHimAVsDE/view?usp=sharing)
-  - 2023 summary coming soon (2022-11-01)
-- UnitedHealthcare HSA 1400
-  - 2022 [Summary of Benefits and Coverage](https://drive.google.com/file/d/15DY9I2qm903iJ9ShlmJLVguWK3z3j6SX/view?usp=sharing)
-  - 2022 [Plan Summary](https://drive.google.com/file/d/16pzdyUH4AXJ5Lb3qzCiLMIu8EtIvc5EE/view?usp=sharing)
-  - 2023 summary coming soon (2022-11-01)
+  - 2023 [Summary of Benefits and Coverage]COMING SOON
+  - 2023 [Plan Summary](https://drive.google.com/file/d/1_UInCXYibFlG_EY9yCcc7mCNyeADF9I9/view?usp=sharing)
+- UnitedHealthcare HSA 1500
+  - 2023 [Summary of Benefits and Coverage]COMING SOON
+  - 2023 [Plan Summary](https://drive.google.com/file/d/1Fco1hEvPGYO7ycRoUAlouf3d8G3gKfRD/view?usp=sharing)
 - Kaiser HMO
-  - 2022 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1ZY1TGB3wawTpjTM1LDfrG902RtB3m3jD/view?usp=sharing)
-  - 2022 [Plan Summary](https://drive.google.com/file/d/1nHjrhKMyifQJHdjH6ZQq-F5DbMvre6AE/view?usp=sharing)
-  - 2023 summary coming soon (2022-11-01)
-- Kaiser HSA 2800
-  - 2022 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1aEEszv62rnxflUklSpDefAQv-ylc3kaG/view?usp=sharing)
-  - 2022 [Plan Summary](https://drive.google.com/file/d/1WVCj7HEuyiGqIwDFLp6uXUOtiDX_jtbK/view?usp=sharing)
-  - 2023 summary coming soon (2022-11-01)
+  - 2023 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1mOqIGOy3azcfhV9WmQbn8FxPFZCoCuE6/view?usp=sharing)
+  - 2022 [Plan Summary]COMING SOON
+- Kaiser HSA 3000
+  - 2023 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1CtUg58qlrKH8G9tjWeJFB3cb9CyXbMtb/view?usp=sharing)
+  - 2022 [Plan Summary]COMING SOON
 
 Dental:
 
-- 2022 [Cigna DPPO](https://drive.google.com/file/d/1srWmxhMrCtfLVso48qbjUYehj8eAg7vl/view?usp=sharing) Summary
-- 2023 summary coming soon (2022-11-01)
+- 2023 [Cigna DPPO] Summary COMING SOON
 
 Vision:
 
-- 2022 [Equitable Vision](https://drive.google.com/file/d/18hsyxSJqwI2Uyoy0iS1xk2k0AiY88zNb/view?usp=sharing) Summary
-- 2023 summary coming soon (2022-11-01)
+- 2023 [Equitable Vision] Summary COMING SOON
 
 Life:
 
-- 2023 summary coming soon (2022-11-01)
+- 2023 summary COMING SOON
 
 HSA, FSA, and Dependent Care FSA:
 
 - HSA, FSA and Dependent Care FSA accounts are administered by [Rippling][https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)).
-- 2023 summary coming soon (2022-11-01)
+- 2023 summary COMING SOON
 
 401K:
 
@@ -72,7 +65,7 @@ You can waive your insurance coverage through [Rippling](https://help.rippling.c
 
 **What:** open enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.
 
-**When:** Sourcegraph’s 2023 US Benefits open enrollment takes place from 2022-11-01 to 2022-11-15.
+**When:** Sourcegraph’s 2023 US Benefits open enrollment took place from 2022-11-01 to 2022-11-15.
 
 How: To make changes to current benefit elections, or confirm existing elections, please follow instructions in your [Rippling](https://app.rippling.com/) account (use the taskbar on the left-hand side to navigate to the heart icon labeled “insurance and benefits.” From here, you should see the option to start your plan selections). Any plan changes, or confirmations, will become effective as of 2023-01-01.
 
