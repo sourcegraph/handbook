@@ -12,7 +12,7 @@ jobs:
       - id: nvmrc
         name: Read .nvmrc
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         name: Set up NodeJS
         with:
           node-version: '${{ steps.nvmrc.outputs.NODE_VERSION }}'
