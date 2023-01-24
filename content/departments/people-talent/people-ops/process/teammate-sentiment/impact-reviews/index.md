@@ -390,7 +390,7 @@ Each People Partner will coach Managers on how to deliver Teammate reviews.
 
 ### Teammate development & coaching
 
-At Sourcegraph, we empower high performers. [Learn more about Teammate Development at Sourcegraph.] (../company-info-and-process/working-at-sourcegraph/teammate-development.md)
+At Sourcegraph, we empower high performers. [Learn more about Teammate Development at Sourcegraph.](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 
 ## RESOURCES FOR PEOPLE TEAM
 
