@@ -150,6 +150,7 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 - Year 3: $150 USD
 - Year 4: $200 USD
 - Year 5+: $250 USD
+- Year 8+: $1,000 USD
 
 ## Promotions
 
