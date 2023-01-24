@@ -12,7 +12,7 @@ jobs:
         name: Checkout repository
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-      - uses: sourcegraph/codenotify@v0.4
+      - uses: sourcegraph/codenotify@v0.5
         name: Notify teammates listed in CODENOTIFY files of the changes
         env:
           GITHUB_TOKEN: ${{ secrets.CODENOTIFY_GITHUB_TOKEN }}
