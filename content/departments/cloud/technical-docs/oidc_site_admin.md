@@ -142,7 +142,9 @@ For v1 instances:
 
 For v2 instances:
 
-1. TODO
+<!-- TODO(@michaellzc): update docs after it is implemented -->
+
+Disabling SOAP is not supported on v2
 
 ### How to enable SOAP locally?
 
