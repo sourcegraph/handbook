@@ -130,7 +130,7 @@ Go to the `$CUSTOMER` direcotry.
 
 For v1 instances:
 
-1. Remove or add the following line in the `$CUSTOMER/config.yaml` file to enable or disable SOAP respectively:
+1. Remove or add the following line in the `config.yaml` file to enable or disable SOAP respectively:
 
    ```yaml
    disableSourcegraphManagementAccess: true
