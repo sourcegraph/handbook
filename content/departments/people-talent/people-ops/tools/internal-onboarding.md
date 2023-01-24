@@ -128,30 +128,29 @@ We create a channel for the cohort. We add all new teammates, the onboarding tea
 
 ### Form I-9s
 
-
-All US Teammates must complete an I-9 Verification meeting within their first three days at Sourcegraph.  We use [Workbright](https://sourcegraph.workbright.com/) as our remote I-9 and E-verify vendor. 
+All US Teammates must complete an I-9 Verification meeting within their first three days at Sourcegraph. We use [Workbright](https://sourcegraph.workbright.com/) as our remote I-9 and E-verify vendor.
 
 #### How our teammates use Workbright
-On your first day at Sourcegraph, you will receive an email from WorkBright that includes all instructions on how to complete your I9 via your mobile phone. Through Workbright, new hires will join a video meeting to fill out the I-9 form in-person alongside an authorized representative. 
+
+On your first day at Sourcegraph, you will receive an email from WorkBright that includes all instructions on how to complete your I9 via your mobile phone. Through Workbright, new hires will join a video meeting to fill out the I-9 form in-person alongside an authorized representative.
 
 Workbright Tutorial Videos can be found [here](https://workbrightsupport.com/videos/).
 
 Please let #ask-people-team or people-ops@sourcegraph.com know if you have any questions!
 
-
 #### How the People Ops team uses Workbright
 
 Setting Up Users
+
 1. On each new hire’s first day at Sourcegraph, log into [Workbright](https://sourcegraph.workbright.com/) and select ‘Add Staff Member’
 2. Select the Employee Type - Employee/W-2 (W-4 & I-9)
 3. Fill in the employee’s personal Email and Legal Name
-4. Click ‘Next’ 
+4. Click ‘Next’
 5. Leave the custom field checkbox blank and click ‘Next’
 6. Leave the groups field blank and click ‘Next’
 7. Insert the teammate’s start date and click ‘Send Notifications Now’
 8. Remote Verification should be toggled ON
 9. Click ‘Finish’
-
 
 ## Onboarding Feedback
 
