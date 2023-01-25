@@ -111,6 +111,7 @@ or that we have accepted as low risk. You can find more details about these belo
 
 ### 4.4
 
+- [4.4.1](./4-4-1.md)
 - [4.4.0](./4-4-0.md)
 
 ### 4.3
