@@ -1,6 +1,6 @@
 # Dogfood Perforce server
 
-Perforce is a version control system like Git, subversion, or mercurial. While git is based on a distributed, decentralised model, Perforce is centralised. For testing purposes, you may use our [Perforce dogfood server](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/tree/dogfood/kubernetes/tooling/perforce).
+Perforce is a version control system like Git, subversion, or mercurial. While git is based on a distributed, decentralised model, Perforce is centralised. For testing purposes, you may use our [Perforce dogfood server](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/dogfood/kubernetes/tooling/perforce).
 
 ## Setting up
 
