@@ -35,7 +35,7 @@ The hostname of the Dogfood Perforce server is `perforce.sgdev.org`.
 
 # Local Perforce server
 
-[Joe](https://handbook.sourcegraph.com/team/#joe-chen) has developed an awesome Perforce server [image](https://github.com/sourcegraph/helix-docker/blob/main/helix-p4d/Dockerfile) that allows for local deployment of a Perforce server using Docker.
+[Joe](../../../../team/index.md#joe-chen) has developed an awesome Perforce server [image](https://github.com/sourcegraph/helix-docker/blob/main/helix-p4d/Dockerfile) that allows for local deployment of a Perforce server using Docker.
 
 To run the image, use the following command, which persists the data on disk, runs the container in the background, and removes the container when it exits. See the [helix-docker project](https://github.com/sourcegraph/helix-docker) for other options when running the container.
 
