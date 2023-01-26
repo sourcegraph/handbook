@@ -73,7 +73,7 @@ for both servers: `export P4USER=admin`
 
 ### P4EDITOR
 
-`p4` has some commands that open forms to collect aditional information. These forms open in `vi` by default (on Linux and macOS; Notepad on Windows); if you want to specify a different editor, set `P4EDITOR`. For example, if you want to use VSCode to edit `p4` forms, use `export P4EDITOR="code --wait"`.
+`p4` has some commands that open forms to collect aditional information. These forms open in `vi` by default on Linux, TextEdit on macOS, and Notepad on Windows. If you want to specify a different editor, set `P4EDITOR`. For example, if you want to use VSCode to edit `p4` forms, use `export P4EDITOR="code --wait"`. On macOS, when using TextEdit, in order to return control to the Terminal after running a `p4` command that launches the editor, you have to completely quit TextEdit, not just the window that is editing the `p4` file, so you probably want to set `P4EDITOR`.
 
 ### Sample dotfile entries
 
