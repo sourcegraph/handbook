@@ -227,7 +227,7 @@ To learn more about general p4 commands checkout this resource:
 
 # Helpful p4 flags
 
-You can use `-c` in commands like `p4 add` to specify the client.
+You can use `p4 -c <client name>` in commands like `p4 add` to specify the client.
 
 # GUI tools
 
