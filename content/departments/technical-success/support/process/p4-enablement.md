@@ -1,6 +1,7 @@
 # Perforce Enablement
 
-Perforce is a version control system like Git, subversion, or mercurial. While git is based on a distributed, decentralised model, Perforce is centralised.
+Perforce is a version control system like Git, Subversion, andf Mercurial.
+While Git is based on a distributed, decentralised model, Perforce is centralised.
 
 For testing purposes, you may use our [Dogfood Perforce server](#dogfood-perforce-server) or set up a [Local Perforce server](#local-perforce-server).
 
@@ -53,11 +54,13 @@ sourcegraph/helix-p4d:2020.2
 
 ## Install
 
-To connect to the Perforce server, you'll need the Perforce CLI installed locally. Install with `brew install --cask perforce`
+To connect to the Perforce server, you'll need the Perforce CLI installed locally.
+Install with `brew install --cask perforce`
 
 ## Configure
 
-The Perforce CLI expects some environment variables to be set in order to connect to the server. You can set them either in the shell using `export`, or add them to your dot file (`.bashrc`, `.zshrc`, or the appropriate one for your shell).
+The Perforce CLI expects some environment variables to be set in order to connect to the server.
+You can set them either in the shell using `export`, or add them to your dotfile (`.bashrc`, `.zshrc`, or the appropriate one for your shell).
 
 ### P4PORT
 
@@ -75,8 +78,6 @@ for both servers: `export P4USER=admin`
 ### Sample dotfile entries
 
 ```
-# .zshrc or .bashrc
-
 export P4PORT=perforce.sgdev.org:1666 # use "1666" if you're using the local perforce server
 export P4USER=admin                   # sets your user
 export P4EDITOR=/usr/bin/vim          # specifies the editor opened by some p4 commands
@@ -84,7 +85,8 @@ export P4EDITOR=/usr/bin/vim          # specifies the editor opened by some p4 c
 
 ## Generate a session ticket
 
-Interaction with the Perforce server requires authentication. Once you've set up your shell environment you'll need to generate a session ticket with your user's password so that you are not prompted for the password every time you run `p4`.
+Interaction with the Perforce server requires authentication.
+Once you've set up your shell environment you'll need to generate a session ticket with your user's password so that you are not prompted for the password every time you run `p4`.
 
 For the Dogfood server, you can find the [admin password](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/fac6hoq3ujb3xpxtllbijzyxta) and others in our shared 1Password account.
 
@@ -92,13 +94,18 @@ For the Local Perforce server, the `admin` password defaults to `pass12349ers`.
 
 Once your environment is set, run `p4 ping`, which will prompt you for the admin password and is a good way to test your connection to the server.
 
-With your connection confirmed, generate a session ticket with the following command: `p4 -u ${P4USER:-admin} login -a`. You'll be prompted for a password. Once you've entered it, a session ticket will be written to the file `~/.p4tickets`.
+With your connection confirmed, generate a session ticket with the following command: `p4 -u ${P4USER:-admin} login -a`.
+You'll be prompted for a password.
+Once you've entered it, a session ticket will be written to the file `~/.p4tickets`.
 
 `p4` commands should no longer require a password. Note, this ticket expires every 12 hours unless configured to do otherwise.
 
 ## Create new depot
 
-Perforce uses depots rather than repos; the concept is functionally equivalent. To see all the depots on the perforce server run `p4 depots`. To create a new depot on the server, run `p4 depot <depot name>`. This will open a file similar to:
+Perforce uses depots rather than repos; the concept is functionally equivalent.
+To see all the depots on the perforce server run `p4 depots`.
+To create a new depot on the server, run `p4 depot <depot name>`.
+This will open a file similar to:
 
 ```
 Depot:  support-tools
@@ -133,7 +140,7 @@ You may see a warning about no files. Create a basic text file then run:
 
 ## Create a client workspace
 
-Perforce is different from git in that it utilizes a concept called client workspaces, which is a subset of files on your machine that mirrors files on the Perforce server. The `p4 client <name>` command will open a client spec file with an editor specified by the `P4EDITOR` env variable. Below is an example:
+Perforce is different from Git in that it utilizes a concept called client workspaces, which is a subset of files on your machine that mirrors files on the Perforce server. The `p4 client <name>` command will open a client spec file with an editor specified by the `P4EDITOR` env variable. Below is an example:
 
 ```
 Client: warren
@@ -178,7 +185,7 @@ Note that the client name is mapped to your `Root:` setting in the client spec.
 
 ### Add files and submit
 
-Once you've created a depot on the server, and created a client spec, adding files is a lot like git. To add files, run `p4 add <relative path to files>/...` for example while in `/Users/warrengifford` I could run `p4 add ./LifeBox/...`. This will open a change spec for which you must provide a description:
+Once you've created a depot on the server and created a client spec, adding files is a lot like Git. To add files, run `p4 add <relative path to files>/...` for example while in `/Users/warrengifford` I could run `p4 add ./LifeBox/...`. This will open a change spec for which you must provide a description:
 
 ```
 Change: new
