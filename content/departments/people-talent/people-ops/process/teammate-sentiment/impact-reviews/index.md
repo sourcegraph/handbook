@@ -66,10 +66,10 @@ Results from the semi-annual impact review process support the growth and develo
   - All Teams: 2023-02-01 to 2023-02-07 (1 week)
 - **Phase 2: Self, Peer, & Upward Review Writing, Manager Review Writing**
   - All Teams: 2023-02-08 to 2023-03-22 (6 weeks) - We added 2 extra weeks for buffer because we know this is a busy time!
-- **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
+- **Phase 3: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
   - All Teams: 2023-03-22 to 2023-04-05 (2 weeks)
   - Engineering Team Extension: 2023-03-22 to 2023-04-17 (3 weeks; the extra week accommodates for the starship launch)
-- **Phase 5: Impact Review Cycle Ends**
+- **Phase 4: Impact Review Cycle Ends**
   - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10; Compensation changes will be backdated to 2023-04-01
   - Engineering Team Extension: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-17; Compensation changes will be backdated to 2023-04-01
 
