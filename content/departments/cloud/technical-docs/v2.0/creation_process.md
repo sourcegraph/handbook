@@ -148,13 +148,13 @@ export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.met
 Change the Terraform Cloud run mode to CLI-driven
 
 ```sh
-mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
 ```
 
 Configure the target Sourcegraph version
 
 ```sh
-mi2 instance edit --query '.spec.sourcegraphApplicationVersion = "'$TARGET_SRC_VERSION'"' --slug $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.sourcegraphApplicationVersion = "'$TARGET_SRC_VERSION'"' --slug $SLUG -e $ENVIRONMENT
 ```
 
 Verify domain is unique across all environments
@@ -243,14 +243,14 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 Enable uptime monitoring
 
 ```sh
-mi2 instance edit --query '.spec.debug.enableAlerting=true'
+mi2 instance edit --jq '.spec.debug.enableAlerting=true'
 mi2 instance tfc deploy -auto-approve -force-ignore-stack-dependencies -target monitoring
 ```
 
 Revert back up VCS-driven mode
 
 ```sh
-mi2 instance edit --query 'del(.spec.debug.tfcRunsMode)'
+mi2 instance edit --jq 'del(.spec.debug.tfcRunsMode)'
 cd terraform/stacks/tfc
 erraform init && terraform apply -auto-approve
 ```
