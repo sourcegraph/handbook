@@ -11,10 +11,10 @@ If you want just the headlines see the [Consolidated MSEM](https://docs.google.c
 Let’s break down each section of the VSEM framework to better understand how it works
 
 - Mission
-Our very long-term (10+-year) ambition and purpose. The substance of the mission will not change, but the specific way we describe it will be reviewed annually to ensure it is compelling, relevant, and motivating.
+  Our very long-term (10+-year) ambition and purpose. The substance of the mission will not change, but the specific way we describe it will be reviewed annually to ensure it is compelling, relevant, and motivating.
 
 - Strategy
-The strategy is Sourcegraph’s medium-term (1-2 year) plan for how to achieve our mission. It highlights the key strategic focus areas the company must execute against in order to make our mission a reality. The strategy will be revisited annually and likely evolve over time. 
+  The strategy is Sourcegraph’s medium-term (1-2 year) plan for how to achieve our mission. It highlights the key strategic focus areas the company must execute against in order to make our mission a reality. The strategy will be revisited annually and likely evolve over time.
 
 -Execution
 The execution plan is the process for how we will implement Sourcegraph’s strategy and highlight the necessary actions needed to achieve our mission. Each execution plan typically comprises a number of important projects and initiatives, critical decisions that need to be made, the allocation of resources, etc.
@@ -41,24 +41,30 @@ Sourcegraph has not been good about focusing, measuring, tracking, and sharing p
 We need to use this framework Every. Single. Day. Tools are great, but they are only as effective as they are used and used effectively. If we aren’t looking at, talking about, or using the VSEM every day, we aren’t doing our job (this includes telling the exec team we aren’t using it enough!). Culture shifts are hard and they are all about creating new habits and expectations.
 
 # Operationalizing the MSEM
+
 The execution plan is the process for how we will implement Sourcegraph’s strategy and highlight the necessary actions needed to achieve our mission. Each execution plan typically comprises a number of important projects and initiatives, critical decisions that need to be made, the allocation of resources, etc.
 
-The MSEM will work if / when we focus our work, attention, time, and resources on the execution plan. 
+The MSEM will work if / when we focus our work, attention, time, and resources on the execution plan.
 
 ## Expectations, Roles, and Responsibilities
+
 Each Execution Plan has a DRI and an Executive Sponsor who are ultimately accountable for the success or failure of the project.
 
 ### Expectations
+
 Each project must have a clear:
+
 - Problem that needs to be solved that betters the experience of our customers, company, or sourcegraph teammates
 - Measureable, trackable and self-sustaining solution
 - Set of ‘exit criteria’ that clearly indicate when the project has reached its conclusion
 
 ### Directly Responsible Individuals (DRIs)
+
 DRIs are responsible for:
+
 - Setting the vision, strategy, and goals of the project
 - Working with the executive team to decide on attainable and aspirational goals / targets.
-- Deciding on which metrics their execution plan will directly affect.  
+- Deciding on which metrics their execution plan will directly affect.
 - Creating and maintaining a high-functioning, execution plan working group
 - Leading planning and managing dependencies for the project
 - Creating scalable, repeatable processes for tracking and managing data
@@ -66,7 +72,9 @@ DRIs are responsible for:
 - Reporting to executive leadership on a weekly basis
 
 ### Executive Sponsors
+
 The exec team member who sponsors the project is responsible for:
+
 - Supporting the DRI in securing and aligning resources and removing bottlenecks
 - Supporting escalations as needed
 - Ensuring appropriate insight and alignment to other projects, initiatives, or programs
@@ -75,9 +83,10 @@ The exec team member who sponsors the project is responsible for:
 ## Reporting cadence and updates for the company
 
 ### Async weekly progress reports
-- **When:** Submitted every Friday COB (12:00am UTC) 
-- **Who:** Exec Sponsor / DRI / Appropriate execution plan project teammate(s) 
-- **What:** 
+
+- **When:** Submitted every Friday COB (12:00am UTC)
+- **Who:** Exec Sponsor / DRI / Appropriate execution plan project teammate(s)
+- **What:**
   - A summary of the week's work / color commentary on the project as a whole.
   - Update on the status of the project (Red / Yellow / Green).
   - What went well this week?
@@ -89,13 +98,14 @@ The exec team member who sponsors the project is responsible for:
   - #msem-progress slack channel
 
 ### Synchronous company updates
+
 - When: Company Meetings / Quarter Kick Offs / Merge / etc.
 - Who: Exec Sponsor / DRI / Appropriate execution plan project teammate(s)
-- What: 
-  - As relevant, certain execution plan teams will be highlighted to present their progress, key milestones, etc. 
+- What:
+  - As relevant, certain execution plan teams will be highlighted to present their progress, key milestones, etc.
 - Where:
-  - Zoom meetings, on stage at Merge, etc. 
+  - Zoom meetings, on stage at Merge, etc.
 
 # How to suggest / reprioritize an execution plan
-The MSEM Backlog is for capturing upcoming and / or currently deprioritized company-wide execution plans (things we are saying ‘no’ to). If you believe we should incorporate an execution plan into the MSEM, please create a PRFAQ or write up a project proposal (aka RFC) and include it under the appropriate strategy.
 
+The MSEM Backlog is for capturing upcoming and / or currently deprioritized company-wide execution plans (things we are saying ‘no’ to). If you believe we should incorporate an execution plan into the MSEM, please create a PRFAQ or write up a project proposal (aka RFC) and include it under the appropriate strategy.
