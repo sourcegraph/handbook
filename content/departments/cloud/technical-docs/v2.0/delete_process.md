@@ -65,7 +65,7 @@ Change the Terraform Cloud run mode to CLI-driven
 Note: this will remove VCS trigger from Terraform Cloud workspaces for this instance!
 
 ```sh
-mi2 instance edit --query '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRONMENT
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
 terraform init && terraform apply -auto-approve
 ```
@@ -84,8 +84,8 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl
 
 ```sh
 # delete sql protection
-mi2 instance edit --query '.spec.debug.enableDeletionProtection = false' -s $SLUG -e $ENVIRONMENT
-mi2 instance edit --query '.spec.debug.enableAlerting = false' -s $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.debug.enableDeletionProtection = false' -s $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.debug.enableAlerting = false' -s $SLUG -e $ENVIRONMENT
 mi2 instance tfc deploy -s $SLUG -e $ENVIRONMENT -auto-approve -force-ignore-stack-dependencies -target sql -target monitoring
 ```
 
