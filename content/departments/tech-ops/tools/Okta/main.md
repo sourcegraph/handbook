@@ -44,7 +44,7 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 ## Which MFA options are available?
 
-Okta Verify should be used as the default MFA option and if you want to add others, they are in addition to Okta Verify.
+Phishing resistant MFA options are the prefered method of authentication. These are either Okta Verify with biometrics enabled or FIDO2.
 
 1. Okta Verify - Okta Verify is an app available through the app store on macOS, iOS, and Android devices. Using Okta Verify you can authenticate using any of the following methods:
    - Push notification
@@ -63,6 +63,14 @@ Okta Verify should be used as the default MFA option and if you want to add othe
 4. Scroll to the bottom and under Extra Verification
 5. Select “Set up” next to the MFA option you would like to add
 6. Select “Enroll” and follow the steps prompted by your browser
+
+  <img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="300" height="350">  <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="300" height="350">  <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="300" height="350">
+
+Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
+
+To change between MFA options click on the arrow next to the label when prompted for MFA
+
+<img src="https://storage.googleapis.com/sourcegraph-assets/switch%20between.png" alt="Okta MFA options" width="300" height="350">
 
 ## What are the most secure authentication methods?
 
