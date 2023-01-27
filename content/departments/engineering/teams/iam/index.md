@@ -173,10 +173,6 @@ See "[So you’re about to help us with user testing](../../product/process/user
 
 ### Working agreements
 
-#### Decision log
-
-[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the IAM team in reverse-chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
-
 #### Team internal communication
 
 We are a globally distributed team with 16+ hours of time zone difference. Asynchronous communication is a key for achieving high visibility and close collaboration within the team. In addition to [general Sourcegraph async communication guidelines](../../../../company-info-and-process/communication/asynchronous-communication.md), we agreed to the following recommendations within the IAM team.
@@ -237,7 +233,7 @@ Each sprint is followed by a short sprint review meeting on Google Meet. During 
 
 #### Retrospectives
 
-The team is doing retrospectives on a biweekly basis at the end of each sprint. We are using [Retrium](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d) and changing the format of the retrospective from time to time, experimenting with [different techniques available within Retrium tool](https://www.retrium.com/retrospective-techniques).
+The team is doing retrospectives on a biweekly basis at the end of each sprint. We are using [Google Docs](https://docs.google.com/document/d/10Gr8gBVtq939E-v0UKPp_IvAXuyr35qWQYS-uDt7N9I/edit?usp=sharing) to capture feedback and action items.
 
 ##### Retrospective action items
 
@@ -245,27 +241,9 @@ The action items from the retrospective are migrated to GitHub and usually have 
 
 We review the backlog of action items during each [sprint review](#sprint-reviews). We discuss the outcomes of the items from this list completed in given sprint and the team makes recommendations about what action items should be added to the next iteration.
 
-#### Groomings
-
-To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
-
-- Each Monday, the new async grooming session should be created within [ZenHub board](https://app.zenhub.com/workspaces/iamerience-627aebcc9f8b7c00128a8ab6/board).
-- Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
-- Thursday and Friday are reserved for the whole team async estimation based on the planning poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
-- Each story point represents a single developer day.
-
-The "grooming" label is used for marking tickets to be included in the upcoming grooming session.
-
-#### Team calendar
-
-All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
-
-- Please add `iam-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
-- For reminders, you don’t need to add participants
-
 #### Paid Time Off
 
-Our team tracks paid time off (PTO) using our [a shared Google Doc](https://docs.google.com/spreadsheets/d/1TelNUYufAcYe6pq4NtmmnlaNji_OCq70qklkHoiRIDE/edit?usp=sharing). This transparency ensures that we accurately plan sprints and on-call rotations. We encourage team members to add their PTO to this calendar as early as possible. Please make sure you [submit PTO via Roots](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) as well.
+Our team tracks paid time off (PTO) using our [PTO by Roots](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) and sharing transparently with the team via our #iam-internal slack channel. This transparency ensures that we accurately plan sprints and on-call rotations. We encourage team members to add their PTO to this calendar as early as possible.
 
 We encourage our team to take as much time off to feel refreshed and energized at work, as outlined in our [benefits section](../../../../benefits-pay-perks/benefits-perks/time-off/index.md). Sick days and other urgent PTO does not need to be added to this document.
 
@@ -273,14 +251,6 @@ We encourage our team to take as much time off to feel refreshed and energized a
 
 - Everyone (including engineers, EM, PM, PD) should set up a reliable way to receive pull request review notifications, examples are emails, Slack notifications (through GitHub Scheduled reminders). In some cases, direct pinging required reviewers could inform reviewers about the urgency and may help expedite receiving reviews.
 - Pull requests in the draft state indicate work in progress and not ready for review, while occasionally the author may ask for early feedback in explicit forms, examples are direct pings, mentioned on the pull requests.
-
-#### Definition of Done (DoD)
-
-TBD
-
-#### Definition of Ready (DoR)
-
-TBD
 
 #### On-call and support rotation
 
@@ -291,10 +261,6 @@ We use the same OpsGenie schedule for both on-call and support rotation, and use
 - #iam-internal - internal channel for IAM team for all day to day communication within the team.
 - #iam - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
 - #repo-iam-team-internal - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
-
-## Product and technical documentation
-
-Please go to [IAM Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true).
 
 ## [Playbooks](playbooks/index.md) and procedures
 
@@ -367,9 +333,3 @@ If the answer is not available below, your buddy and the whole team will share t
 - [Database schema overview](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md)
 - [How do we deal with incidents?](../../dev/process/incidents/index.md)
 - What is our on-call strategy?
-
-## Useful links
-
-- [IAM Team GitHub Project](https://github.com/orgs/sourcegraph/projects/259)
-- [IAM Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
-- [IAM Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
