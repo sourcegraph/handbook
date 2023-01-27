@@ -22,7 +22,7 @@ Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cl
 - `target_src_version` - use the latest tested sourcegraph version, e.g. `4.2.1` (no `v` prefix)
 - `customer_admin_email` - (optional) the customer admin email
 - `instance_domain` - (optional) override the instance domain instead of infering from customer slug
-- `gcp_region` - GCP region to deploy instance, one of [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/apis/sourcegraphcloud/types.go?L28)
+- `gcp_region` - GCP region to deploy instance, one of [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/cloud/-/blob/.github/workflows/mi_create.yml?L44)
 - `cdktf_deploy` - (optional) whether to deploy GCP resources, false for fast re-run when resources are already created.
 
 or via command line:
