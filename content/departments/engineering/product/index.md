@@ -11,7 +11,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
-- [Roadmap tracker](https://docs.google.com/document/d/1XNrbBtkS8_lsjKxV8zvNfb1sn1Ug9Zhc24LFLCOa-Ic/edit?usp=sharing)
+- [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/302)
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
 
@@ -35,19 +35,9 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 - [User metrics definitions](../../bizops/process/user_definitions.md)
 - [How to add metrics](../../bizops/analytics/index.md#How-to)
 
-## Product team initiatives
-
-The product team takes on special initiatives that are not strictly tied to product delivery and they are tracked [in GitHub](https://github.com/sourcegraph/engineering-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22Product+Initiative%22).
-
-To create a new initiative, go to the [new issue screen](https://github.com/sourcegraph/engineering-tracker/issues/new/choose) for the [engineering-tracker repo](https://github.com/sourcegraph/engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
-
-## Product/design sync
-
-The product and design team meets weekly to discuss the most important cross-team product topics that need synchronous conversations. See the [logistics and working agreements](product-design-sync.md).
-
 ## References
 
-- [Beta and experimental feature labels](process/gtm/beta_and_experimental_feature_labels.md)
+- [Beta and experimental feature labels](process/gtm/beta_and_experimental_feature_labels.md) (internal only)
 - [Personas](../../marketing/process/personas.md)
 - [Sourcegraph messaging](../../marketing/process/messaging.md)
 - Product documents (PDs)
