@@ -5,7 +5,16 @@ Region must be selected during instance creation, as modifying it aftewards woul
 
 ## Supported GCP regions
 
-[List of GCP regions supported by Sourcegraph](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/apis/sourcegraphcloud/types.go?L28)
+1. North America (United States, Iowa) - `us-central1`
+
+1. Europe
+
+- European Union (Germany, Frankfurt) - `europe-west3`
+- United Kingdom (London) - `europe-west2`
+
+1. Asia (Tokyo, Japan) - `asia-northeast1`
+
+1. Austrialia (Sydney) - `australia-southeast1`
 
 ## Storing data outside of deployment region
 
@@ -13,10 +22,7 @@ Although Cloud Instance is deployed to selected region (country), Sourcegraph us
 
 1. Metrics
    Sourcegraph uses [GCP scoped project](https://cloud.google.com/monitoring/settings) to collect aggregated metrics from all dedicated customer GCP projects.
-   Sourcegraph uses [Federated GCP Prometheus]() to collect Sourcegraph application metrics from all dedicated customer GCP projects
 1. Logs
-   Audit logs from customer instances are collected and exported to a single dedicated GCP Project.
+   Audit logs from customer instances are collected and exported to a single dedicated GCP Project in US.
 1. Emails
-   All Cloud instances uses [Managed SMTP](../managed-smtp/index.md), which stores emails by [PostMark](https://postmarkapp.com/support/article/917-is-postmark-secure-and-redundant).
-1. Instance customer data (customer email domain, customer Sourcegraph subdomain)
-   Every customer instance has generated `config.yaml` file, stored in [sourcegraph/cloud](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/cloud) repository. This file contains customer `displayName`, `domain`
+   All Cloud instances uses [Managed SMTP](../managed-smtp/index.md), which stores emails by [PostMark](https://postmarkapp.com/support/article/917-is-postmark-secure-and-redundant) in Europe.
