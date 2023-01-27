@@ -333,4 +333,3 @@ If the answer is not available below, your buddy and the whole team will share t
 - [Database schema overview](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md)
 - [How do we deal with incidents?](../../dev/process/incidents/index.md)
 - What is our on-call strategy?
-
