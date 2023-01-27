@@ -241,13 +241,6 @@ The action items from the retrospective are migrated to GitHub and usually have 
 
 We review the backlog of action items during each [sprint review](#sprint-reviews). We discuss the outcomes of the items from this list completed in given sprint and the team makes recommendations about what action items should be added to the next iteration.
 
-#### Team calendar
-
-All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
-
-- Please add `iam-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
-- For reminders, you don’t need to add participants
-
 #### Paid Time Off
 
 Our team tracks paid time off (PTO) using our [PTO by Roots](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) and sharing transparently with the team via our #iam-internal slack channel. This transparency ensures that we accurately plan sprints and on-call rotations. We encourage team members to add their PTO to this calendar as early as possible.
