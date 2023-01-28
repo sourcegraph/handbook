@@ -20,7 +20,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Premium SLAs for faster response times and dedicated technical support & expertise
    </td>
-   <td>FY23 Q4
+   <td>Available
    </td>
   </tr>
   <tr>
@@ -32,17 +32,17 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
   </tr>
   <tr>
-   <td>Custom Development
+   <td>Implementation & Managed Services
    </td>
-   <td>Sprint-based execution of development projects which extend Sourcegraph's capabilities through API-based integrations, custom batch specs, and more
+   <td>Expert hands-on implementation services for self-hosted customers, including initial install and configuration, migration services, managed and maintenance services, and more
    </td>
-   <td>FY24 Q2+
+   <td>FY24 Q1
    </td>
   </tr>
   <tr>
-   <td>Implementation & Migration Services
+   <td>Custom Development
    </td>
-   <td>Expert hands-on implementation services for self-hosted customers, including initial install and configuration, migration services, managed and maintenance services, and more
+   <td>Sprint-based execution of development projects which extend Sourcegraph's capabilities through API-based integrations, custom batch specs, and more
    </td>
    <td>FY24 Q2+
    </td>
