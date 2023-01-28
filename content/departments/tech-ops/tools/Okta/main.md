@@ -64,7 +64,7 @@ Phishing resistant MFA options are the prefered method of authentication. These 
 5. Select “Set up” next to the MFA option you would like to add
 6. Select “Enroll” and follow the steps prompted by your browser
 
-  <img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="300" height="350">  <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="300" height="350">  <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="300" height="350">
+<img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="300" height="350"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="300" height="350"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="300" height="350">
 
 Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
 
