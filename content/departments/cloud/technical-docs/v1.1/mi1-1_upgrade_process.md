@@ -41,6 +41,8 @@ Then, create a pull request with your changes, and include a reference to the up
 
 Example pull request: https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/1778
 
+Finally, upon finish upgrading internal instances, bump the `LATEST_VERSION` in `mi_create` github actions workflow, e.g. https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/3499/files
+
 ### Upgrade instances
 
 #### Automated Upgrade (recommended)
