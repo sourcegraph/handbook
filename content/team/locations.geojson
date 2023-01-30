@@ -860,6 +860,16 @@
                 "type": "Point",
                 "coordinates": [-122.27461863535325, 37.87072968199783]
             }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Steve Yegge"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-122.203362, 47.675510]
+          }
         }
     ]
 }
