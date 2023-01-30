@@ -18,7 +18,6 @@ For basic operations like accessing an instance for these steps, see [managed in
      - `internal` - for internal Sourcegraph usage
    - `instance_size` - bundle size of this intance
    - `user_level_telemetry` - if user-level telemetr is enabled (provided in the issue)
-   - `plg_trial` - if this is coming from automated PLG flow
 
    via command line:
 
@@ -30,8 +29,7 @@ For basic operations like accessing an instance for these steps, see [managed in
      -f email_domain=$EMAIL_DOMAIN \
      -f instance_type=[production|trial|internal] \
      -f instance_size=[small|medium|large] \
-     -f user_level_telemetry=[true|false] \
-     -f plg_trial=false
+     -f user_level_telemetry=[true|false]
    ```
 
    or via [GitHub Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml).
@@ -63,7 +61,6 @@ Customisation is done via:
 An automatic password reset email is always sent out for customers:
 
 1. For standard instances, [managed SMTP](../managed-smtp/index.md) will be configured before a user is created. When the user is created, they will receive an email from the instance to reset their password.
-1. For PLG pre-provisioned instances, currently a custom welcome email is sent with the password reset URL. [Managed SMTP](../managed-smtp/index.md) is only configured after the user is created.
 
 The customer admin can use the delivered password reset link to configure access for themselves.
 

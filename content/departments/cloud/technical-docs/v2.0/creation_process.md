@@ -61,9 +61,6 @@ Once it's finished, merge the Pull Request opened by GitHub Actions, then manual
 > make sure you pull the latest change from `main`
 
 ```sh
-# For PLG instances
-mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/plg-licence-key siteconfig.license-key
-
 # For CE/AE driven instances, a standalone license key should be included in the creation request
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY siteconfig.license-key
 
@@ -78,8 +75,6 @@ Hi,
 
 The instance has been provisioned and set password email has been sent to the mentioned customer admin
 ```
-
-(PLG manual triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## Option II - manual playbook
 
