@@ -1,6 +1,23 @@
 # Delete a Cloud instance
 
-## Prereq
+## Option 1 - automated deletion (recommended)
+
+```sh
+export SLUG=company
+export ENVIRONMENT=prod
+```
+
+```sh
+gh workflow run mi_delete.yml -f environment=$ENVIRONMENT -f customer=$SLUG
+```
+
+Upon completion, edit the PR desciprtion and reference the teardown GitHub issue. Then merge it.
+
+## Option 2 - manual deletion
+
+This is the fallback option when GitHub Actions is experiencing an outage or the automated operation failed and require manual actions.
+
+### Prereq
 
 Follow https://github.com/sourcegraph/controller#installation to install `mi2`
 
@@ -15,7 +32,7 @@ Install `mi2` binary
 go install ./cmd/mi2/
 ```
 
-## Steps
+### Steps
 
 > See flow chart https://app.excalidraw.com/s/4Dr1S6qmmY7/2wUSD4kIxRo
 
@@ -29,7 +46,7 @@ go install ./cmd/mi2/
 1. [Delete TFC workspaces](#delete-tfc-workspaces)
 1. [Commit your changes](#commit-your-changes)
 
-### Set environment variables
+#### Set environment variables
 
 > Sharing `TF_TOKEN_app_terraform_io` is only temporary, this is expected to change in the future.
 
@@ -53,13 +70,13 @@ set -x TF_TOKEN_app_terraform_io (gcloud secrets versions access latest --projec
 set -x INSTANCE_ID (mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
 ```
 
-### Check out a new branch
+#### Check out a new branch
 
 ```sh
 git checkout -b $SLUG/delete-instance
 ```
 
-### Modify instance config to use TFC cli mode
+#### Modify instance config to use TFC cli mode
 
 Change the Terraform Cloud run mode to CLI-driven
 Note: this will remove VCS trigger from Terraform Cloud workspaces for this instance!
@@ -70,7 +87,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
 terraform init && terraform apply -auto-approve
 ```
 
-### Remove workload
+#### Remove workload
 
 ```sh
 # gracefully remove unmanaged resources, e.g. GKE Backup
@@ -80,7 +97,7 @@ mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl delete -f -
 ```
 
-### Disable delete protection
+#### Disable delete protection
 
 ```sh
 # delete sql protection
@@ -89,7 +106,7 @@ mi2 instance edit --jq '.spec.debug.enableAlerting = false' -s $SLUG -e $ENVIRON
 mi2 instance tfc deploy -s $SLUG -e $ENVIRONMENT -auto-approve -force-ignore-stack-dependencies -target sql -target monitoring
 ```
 
-### Destroy infrastructure - destroy cdktf stacks
+#### Destroy infrastructure - destroy cdktf stacks
 
 > the stack list may be out-of-date, run `npx --yes cdktf-cli@0.13.3` under the instance root in case things are not working as intented
 
@@ -98,14 +115,14 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 mi2 instance tfc destroy-all -auto-approve
 ```
 
-### Delete TFC workspaces
+#### Delete TFC workspaces
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
 terraform init && terraform destroy -auto-approve
 ```
 
-### Commit your changes
+#### Commit your changes
 
 ```sh
 rm -rf environments/$ENVIRONMENT/deployments/$INSTANCE_ID
