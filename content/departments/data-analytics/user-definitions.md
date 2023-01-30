@@ -77,3 +77,10 @@ In each ping, instances will send a site_activity.DAUs, site_activity.WAUs, and 
 Our metrics infrastructure (Looker) gets active user counts from our event_logs table (either directly or indirectly). We use the same method as on-premise for calculating active user counts, pulling from the Sourcegraph Cloud `event_logs` table. We track unauthenticated active users using their `anonymous_user_id`. This is a separate column which contains an anonymous ID, which is stored in a cookie for active users that visit Sourcegraph.com. Therefore, for all charts that track Cloud active users, unauthenticated users are included in these counts.
 
 There are shortcomings to this. For one, when an active user converts into a registered active user, their events conducted with their anonymous ID are still in the DB, so we would count two different active users rather than a single active user. For analytics purposes in Amplitude, this is also not ideal because we are not able to connect the actions of an active user before and after they've converted.
+
+### Sourcegraph Operators
+
+See the [Sourcegraph Operators page](../cloud/technical-docs/oidc_site_admin/) for specifics on how Sourcegraph teammates access managed instances.  
+
+- All metrics (MAUs, user accounts) EXCLUDE Sourcegraph Operators (internal Sourcegraph teammates who are admins on a managed instance)
+- No events (eventLogger) are triggered by Sourcegraph Operators, so these are also excluded from ping data and event stream data in Amplitude
