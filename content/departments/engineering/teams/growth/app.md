@@ -31,6 +31,7 @@ Because you can’t search and browse remote code in your IDE, devs wind up usin
 ## What metrics are we using to measure usage and track success?
 
 Key metrics for App are:
+
 - Number of downloads
 - Number of trial starts (any deployment)
 - CTA activity (e.g. talk to sales)
