@@ -10,7 +10,7 @@ We’re working closely with Marketing and Design to polish our positioning, lea
 
 ## Why are we building it?
 
-Sourcegraph App is the engine powering our [Growth strategy](../../../../../content/strategy-goals/strategy/growth-team/index.md). We want to get Sourcegraph into devs’ hands easily so that they can get to “wow” quickly. We know that Sourcegraph is most powerful when you can use it on private code, and we’ve learned that there’s a lot of red tape that prevents people from doing that through Cloud trials and that our self-hosted options can be cumbersome. App solves both of those problems.
+Sourcegraph App is the engine powering our [Growth strategy](../../../../strategy-goals/strategy/growth-team/index.md). We want to get Sourcegraph into devs’ hands easily so that they can get to “wow” quickly. We know that Sourcegraph is most powerful when you can use it on private code, and we’ve learned that there’s a lot of red tape that prevents people from doing that through Cloud trials and that our self-hosted options can be cumbersome. App solves both of those problems.
 
 The user journey we’re building toward is:
 
