@@ -85,4 +85,4 @@ See the [Sourcegraph Operators page](../cloud/technical-docs/oidc_site_admin/) f
 - All metrics (MAUs, user accounts) EXCLUDE Sourcegraph Operators (internal Sourcegraph teammates who are admins on a managed instance)
 - No events (eventLogger) are triggered by Sourcegraph Operators, so these are also excluded from ping data and event stream data in Amplitude
 
-This update was part of 4.3, so any managed instance on 4.3+ will have this new methodology. 
+This update was part of 4.3, so any managed instance on 4.3+ will have this new methodology.
