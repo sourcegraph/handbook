@@ -80,7 +80,7 @@ There are shortcomings to this. For one, when an active user converts into a reg
 
 ### Sourcegraph Operators
 
-See the [Sourcegraph Operators page](../cloud/technical-docs/oidc_site_admin) for specifics on how Sourcegraph teammates access managed instances.
+See the [Sourcegraph Operators page](../../cloud/technical-docs/oidc_site_admin.md) for specifics on how Sourcegraph teammates access managed instances.
 
 - All metrics (MAUs, user accounts) EXCLUDE Sourcegraph Operators (internal Sourcegraph teammates who are admins on a managed instance)
 - No events (eventLogger) are triggered by Sourcegraph Operators, so these are also excluded from ping data and event stream data in Amplitude
