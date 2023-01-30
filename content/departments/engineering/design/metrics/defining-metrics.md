@@ -45,6 +45,5 @@ UTM parameters work on the following websites:
 - docs.sourcegraph.com
 - about.sourcegraph.com
 - sourcegraph.com
-- learn.sourcegraph.com
 
 To develop reporting for these links, log into Google Analytics and use the [Campaigns > All campaigns](https://analytics.google.com/analytics/web/?utm_source=GA_Monthly_Snapshot&utm_medium=email&utm_campaign=GA_Monthly_Snapshot_January&utm_content=See_My_Full_Report#/report/trafficsources-campaigns/a40540747w150533180p155508056/_u.date00=20220129&_u.date01=20220207/) feature of the application.
