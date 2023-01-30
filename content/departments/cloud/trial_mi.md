@@ -122,64 +122,10 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 4. Finalisation (Cloud Team member)
 
    - checkout `<CUSTOMER>/create-instance` branch in`deploy-sourcegraph-managed` repository
-   - need to set the license on the instance (the license key should be added to the issue, unless it is default PLG licence)
-     - run `mi set-license --license-key "$LICENSE_KEY"` (for PLG trials flag `--plg-default` instead of `--license-key` should be used - will use shared PLG licence key)
+   - need to set the license on the instance (the license key should be added to the issue)
+     - run `mi set-license --license-key "$LICENSE_KEY"`
    - when [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
    - you can check if the password reset email was sent using SMTP provider [dashboard](https://app.eu.sparkpost.com/reports/message-events)
-   - (PLG triel only) add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
-
-## Automated PLG pre-provisioned Managed Instance flow
-
-For PLG trials (requested by [Signup](https://signup.sourcegraph.com/)), customers from [pre-qualified domain list](https://github.com/sourcegraph/console/blob/afd5ed5e9c24d16c26a6923487f64b0680585844/src/server/api/trial/verify/lib/pre-approved-domains.json) are automatically qualified and given an instance.
-
-The flow:
-
-1. Customer is requesting a trial via [Signup](https://signup.sourcegraph.com/)
-2. Signup Application invokes actions on Instance from the pre-provisioned Managed Instance pool:
-
-- creates admin user with customer email
-- sends reset password to customer for given instance
-- notifies [PLG GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_plg_create.yml) that instance was given to the customer
-
-3. When notified via webhook, [PLG GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_plg_create.yml) invokes given steps:
-
-- triggers new PLG trial Managed instance creation via [Managed Instance create GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
-- resets initial admin token in an instance given to the customer
-- adds customer email domain to GCP project labels
-- opens PR in `deploy-sourcegraph-managed` repository
-
-[Automated PLG Flow](https://excalidraw.com/#json=9j9s-5ByiRR4y5SdcF5F3,fYozCz5zwCEt6QoC_Y_Fww)
-[Automated PLG Flow from Cloud POV](https://app.excalidraw.com/s/4Dr1S6qmmY7/5KOQ2afKonA)
-
-> When issue with automated flow occurs, fallback to [manual flow](#trial-managed-instance-creation-flow-manual)
-
-### Automated PLG flow monitoring
-
-As the flow is automated and webhook based, Slack notifications in `#cloud-notifications` are informing about:
-
-- failures of notifying [Signup Application](https://signup.sourcegraph.com/) when new PLG trial instances was created
-- failures of finalizing PLG trial instance that was given to the customer (at when token was re-created and GCP label was added)
-- PLG trial pool is below expected number (2 in the begining)
-
-To take actions on any of Slack notifications:
-
-- check the link in notitifcation to understand the issue
-
-  - for [create new PLG trial](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml), it is safe to re-run action
-  - for [finalise customer instance](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_plg_create.yml), given steps should be invoked
-    - checkout main branch from `deploy-sourcegraph-managed`
-    - invoke `mi --customer $CUSTOMER reset-init-token` (if not working, `gcloud config unset account` is needed)
-    - invoke steps to update GCP label - [steps](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_plg_create.yml#L118)
-    - open Pull Request
-  - when pool is too small, pls verify why new instances are not created [here](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
-
-All new PLG trials created by this flow can be listed via:
-
-```sh
-gcloud projects list --filter='name~sourcegraph-managed-src' --format="json(projectId,labels)"
-```
-
-where `emain-domain=unknown` means instance is not given to the customer yet.
 
 ## FAQ
 
