@@ -154,7 +154,6 @@ A few pointers:
   - Data sources:
     - Websites
       - About.sourcegraph.com: Sourcegraph’s marketing website (pages include: a splash homepage, our blog, about us, contact us, press, careers, terms of service, etc.)
-      - Learn.sourcegraph.com (learning and tutorials about code search)
       - Docs.sourcegraph.com (documentation)
       - Custom SEO landing pages
       - And more…
