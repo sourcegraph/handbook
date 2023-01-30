@@ -7,15 +7,15 @@ See [strategy](../../../../strategy-goals/strategy/growth-team/index.md)
 ## Members
 
 - Taylor Sperry, product manager
-- TBD, engineering manager
+- Raf Leszczynski, engineering manager
   - Erzhan Torokulov, software engineer
-  - Kelli Rockwell (temp), software engineer
-- Daniel Marques (temp), product designer
+  - Becca Steinbrecher, software engineer
+- Paulo Almeida, product designer
 - Alex Isken, product marketing manager
 
-## Guides
+## Key projects
 
-- [Cloud trial operations](./cloud-trial-operations.md)
+- [Sourcegraph App](app.md)
 
 ## Contact
 
