@@ -21,11 +21,13 @@ Region must be selected during instance creation, as modifying it aftewards woul
 Although Cloud Instance is deployed to selected region (country), Sourcegraph uses different external tools, which might keep some of customer data outside of instance deployment country:
 
 1. Metrics
-   
+
    Sourcegraph uses [GCP scoped project](https://cloud.google.com/monitoring/settings) to collect aggregated metrics from all dedicated customer GCP projects.
+
 1. Logs
-   
+
    Audit logs from customer instances are collected and exported to a single dedicated GCP Project in US.
+
 1. Emails
-   
+
    All Cloud instances uses [Managed SMTP](../managed-smtp/index.md), which stores emails by [PostMark](https://postmarkapp.com/support/article/917-is-postmark-secure-and-redundant) in Europe.
