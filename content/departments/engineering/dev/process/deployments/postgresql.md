@@ -101,14 +101,8 @@ See additional Postgres tips in our [incident docs](../incidents/playbooks/index
 
 ## Dogfood specific
 
-[Dogfood](https://k8s.sgdev.org) runs Sourcegraph completely on Kubernetes. You can port-forward the pgsql deployment:
+[Dogfood](https://k8s.sgdev.org) runs Sourcegraph completely on Kubernetes.
 
-```
-  kubectl port-forward -n dogfood-k8s deploy/pgsql 8080:5432
-```
-
-And access it locally:
-
-```
-  pgcli -h localhost -p 8080 -d sg -U 'sg'
-```
+1. First, [connect to the cluster](./instances.md#k8ssgdevorg).
+2. Then you can port-forward the pgsql deployment: `kubectl port-forward -n dogfood-k8s pgsql-0 8080:5432`
+3. Then access it locally: `pgcli -h localhost -p 8080 -d sg -U 'sg'`
