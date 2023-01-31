@@ -80,7 +80,7 @@ Nominations will be considered based on but not limited to the criteria below:
 **How teammates are selected:**
 
 - The executive team reviews all nominations async and selects award winners.
-- We recognize that not everyone likes to receive an award publicly and on the spot, so award winners and their managers are notified privately via Slack in advance of being announced to the company.
+- Managers are notified privately via Slack if a member of their team is selected in advance of being announced to the company.
 - Award winners are announced at our quarterly kick off meeting.
 
 ## New hires
