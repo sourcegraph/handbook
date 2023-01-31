@@ -9,8 +9,8 @@ Region must be selected during instance creation, as modifying it aftewards woul
 
 1. Europe
 
-- European Union (Germany, Frankfurt) - `europe-west3`
-- United Kingdom (London) - `europe-west2`
+   - European Union (Germany, Frankfurt) - `europe-west3`
+   - United Kingdom (London) - `europe-west2`
 
 1. Asia (Tokyo, Japan) - `asia-northeast1`
 
