@@ -104,7 +104,12 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 
 #### How to break glass if encounters problems with Entitle?
 
-For members of Cloud and Security teams, the Slack command `break-glass` is available to grant 1h of editor role in the **GCP > Managed Instances** folder for infrastructure-level access.
+For members of Cloud and Security teams, the Slack command `break-glass` is available to grant 1h of SG_Editor access in the following GCP folders:
+- Managed Instances
+- Sourcegraph Cloud V2 Dev
+- Sourcegraph Cloud V2 Prod
+
+You can find more information [here](https://github.com/sourcegraph/infrastructure/tree/main/security/tooling/break-glass-access).
 
 #### If my team uses a group of permissions regularly, how can these be requested more easily?
 
