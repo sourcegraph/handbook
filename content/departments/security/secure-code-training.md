@@ -4,7 +4,7 @@ This document contains required and optional reading materials for software engi
 ## Secure coding guidelines
 We have [internal secure coding guidelines](https://sourcegraph.sourcegraph.com/notebooks/Tm90ZWJvb2s6Njc=) published. Here you will find examples of how to prevent certain vulnerabilities. It is mandatory for a software engineer to have read the guidelines.
 
-After having read the guidelines, please complete the Continue item 'Secure coding assessment'.
+After having read the guidelines, please complete the Continue item 'Secure Coding - Assessment'.
 
 ## Optional resources
 
