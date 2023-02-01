@@ -28,7 +28,7 @@ If you have a set of documents to be shared publicly, Tech Ops will create a dri
 
 Collaborating on files with people outside of Sourcegraph is available to everyone through the use of allowlists. Any folder or file can be shared with people at an organization whose domain has been added to our allowlist. After adding an email account, Drive will either allow the invite to be sent (meaning the domain is already on the allowlist) or else Drive will send a warning stating that this domain is not on our allowlist.
 
-To request a domain be added, please post in #it-tech-ops. Domains will be reviewed periodically to ensure they are still active collaborators.
+To request a domain be added, please post in #ask-it-tech-ops. Domains will be reviewed periodically to ensure they are still active collaborators.
 
 ## Using Google service accounts
 
