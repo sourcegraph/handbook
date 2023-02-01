@@ -10,6 +10,10 @@ The purpose of this handbook page is to outline our **formal semi-annual feedbac
 
 To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
+### What is an impact review?
+
+Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
+
 ### When do they take place?
 
 Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
