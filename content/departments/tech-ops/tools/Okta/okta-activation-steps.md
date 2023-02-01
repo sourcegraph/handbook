@@ -29,7 +29,7 @@ Your new account is now available in the Okta Verify app.
 
 After setting up your Okta password you may need to enroll your Sourcegraph laptop in our endpoint management system, Jamf. If your device was purchased by Sourcegraph, when booting up your machine you will be prompted with a Remote Management screen. This will kick off the Jamf enrollment process and no further action is needed.
 
-If you have purchased and expensed your Sourcegraph Laptop, you will need to reach out in the #it-tech-ops Slack channel to get an email invitation to join Jamf.
+If you have purchased and expensed your Sourcegraph Laptop, you will need to reach out in the #ask-it-tech-ops Slack channel to get an email invitation to join Jamf.
 
 ## Third: open the Okta Dashboard
 
@@ -37,6 +37,6 @@ Once signed in to your Okta Account, you will be taken to the Apps Dashboard (sh
 
 ![Okta dashboard view](https://storage.googleapis.com/sourcegraph-assets/handbook/Okta-activation-steps/step3.png)
 
-_Do you have any questions?_ Please email tech-ops@sourcegraph.com or Slack #it-tech-ops.
+_Do you have any questions?_ Please email tech-ops@sourcegraph.com or Slack #ask-it-tech-ops.
 
 **Please remember to log in to [Process St](https://app.process.st/) and use your onboarding checklist, you can find the direct link in the Welcome email sent the Friday before your first day**.
