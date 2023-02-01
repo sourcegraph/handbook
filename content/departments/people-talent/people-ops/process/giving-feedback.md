@@ -17,7 +17,7 @@ This page contains guidance on:
   - **Situation:** what did you or the teammate do?
   - **Behavior:** how you or the teammate did it
   - **Impact:** what was the impact or ROI of the work product or action?
-- **Provide balance**: strike a balance between being positive and constructive. Acknowledge your and/or another teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement.
+- **Provide balance**: when providing a self-review, It's important to be specific and provide concrete examples to support your rating, and to strike a balance between being confident and self-assured, and being humble and open to feedback.  When writing reviews on other teammates, strike a balance between being positive and constructive. Acknowledge your teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement. 
 - **Make it actionable**: use language that is clear, concise, and non-judgmental. Avoid using negative or accusatory language, and instead, focus on objective and actionable feedback.
 - **Be concise**: reviews don’t have to be long to be impactful. We recommend anywhere from 300-1000 words max. Anything longer is unnecessary.
 - **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review. You can also use technology, like ChatGPT, to help speed up the review writing process.
