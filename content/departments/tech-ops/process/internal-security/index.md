@@ -2,7 +2,7 @@
 
 One of Sourcegraph's top-level principles is to keep our customers' data private. In the same way, maintaining the integrity and security of our internal data, employee information, and systems is critical.
 
-As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. These are the steps we are taking internally to proactively prevent malicious attacks and threats and protect our resources.
+As we grow we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. These are the steps we are taking internally to proactively prevent malicious attacks and threats and protect our resources.
 
 ## Required security measures for all full-time teammates, interns, and temporary contractors:
 

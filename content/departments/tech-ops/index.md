@@ -8,6 +8,15 @@ Tech Ops is excited to announce that we will also be adding a compliance functio
 
 {{generator:reporting_structure.tech_ops_manager}}
 
+## Geting in touch
+
+#ask-it-tech-ops - all IT and/or access related questions or requests should be directed here
+#announce-it-tech-ops - follow this channel for important IT-related announcements such as outages, Okta updates, Jamf announcements, and other IT notifications that impact the entire company
+#announce-operations - follow this channel if you want to hear about what Tech Ops is working on
+email: techops@sourcegraph.com
+
+Please keep contacting us through Slack DMs to a minimum. We want to promote transparency as well as make sure your issue is tracked and responded to as quickly as possible and our public channel is the best method of reaching a teammate for assistance.
+
 ### Roles
 
 We are hiring for positions in Tech Ops! See our [careers page](https://boards.greenhouse.io/sourcegraph91) to see all roles.

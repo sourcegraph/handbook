@@ -24,4 +24,4 @@ Having network connection issues (eg. WiFi not working)?
 
 - Try another location and/or device
 - Restart your computer, try connecting again
-- If you cannot connect after a restart, please reach out to the Tech Ops team in the #it-tech-ops channel via Slack on your phone or email to techops@sourcegraph.com. Please include as much detail as you can (screenshots, error codes, where you are, how you are connecting, etc.)
+- If you cannot connect after a restart, please reach out to the Tech Ops team in the #ask-it-tech-ops channel via Slack on your phone or email to techops@sourcegraph.com. Please include as much detail as you can (screenshots, error codes, where you are, how you are connecting, etc.)

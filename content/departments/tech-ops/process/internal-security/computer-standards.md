@@ -27,4 +27,4 @@ Additionally, all machines should be set up with an antivirus.
 
 Complete steps for setting up your computer are [here](../../tools/computer-setup.md).
 
-If you run into any issues or have any questions about the above please reach out to the #it-tech-ops Slack Channel!
+If you run into any issues or have any questions about the above please reach out to the #ask-it-tech-ops Slack Channel!

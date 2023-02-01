@@ -52,7 +52,7 @@ Phishing resistant MFA options are the prefered method of authentication. These 
    - App-generated passcode (aka. One-time passcode)
 2. FIDO2 [WebAuthn](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)- use a security key or biometric authenticator (such as YubiKey, Google Titan, or Touch ID)
    - Touch ID: Each browser must verify and register Touch ID, so if you use multiple browsers, you must set this up on each one.
-   - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #it-tech-ops the generated CSV
+   - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #ask-it-tech-ops the generated CSV
 3. Google Authentication - in some cases you can use Google Authentication to set up your one-time passcode using 1Password
 
 ## Adding a new MFA option
@@ -96,11 +96,11 @@ We recommend that you store your Okta password in 1Password as well as your Secu
 
 ## I forgot my Security Questions, how do I reset my password?
 
-Ask #it-help-ops for a temporary password to be issued. You will be given a temporary password at which point you can reset your access.
+Ask #ask-it-help-ops for a temporary password to be issued. You will be given a temporary password at which point you can reset your access.
 
 ## I changed my phone and now can't do MFA, what do I do?
 
-If you no longer have your phone: ask the it-tech-ops channel for an MFA reset.
+If you no longer have your phone: ask the #ask-it-tech-ops channel for an MFA reset.
 
 If you still have your old phone: you can reset your own MFA code:
 
@@ -114,11 +114,11 @@ Once your MFAs have been reset, please set up MFA again.
 
 ## My Okta account has been locked out because of failed attempts, what do I do?
 
-Being locked out of Okta will also mean you are locked out of Google and Slack. Tech-Ops-Admin@sourcegraph.com will receive an email saying you have been lock out but please send us a confirmation email from your personal email account so we know it was you. As a precaution, you will also need to change your Okta Password.
+Being locked out of Okta will also mean you are locked out of Google and Slack. The Tech Ops team will receive an email saying you have been locked out but please send us a confirmation email from your personal email account so we know it was you. As a precaution, you will also need to change your Okta password.
 
 ## Why isn't an application I need available in Okta?
 
-Most likely because that system doesn't offer an SSO option or because we need to upgrade in order to enable the feature. Please feel free to ask us about it in the #it-tech-ops channel.
+Most likely because that system doesn't offer an SSO option or because we need to upgrade in order to enable the feature. Please feel free to ask us about it in the #ask-it-tech-ops channel.
 
 ## I'm getting asked to MFA authenticate a lot, is that normal?
 
@@ -126,8 +126,8 @@ The way we have Okta set-up should require you to authenticate once with MFA eve
 
 For some applications, we will enforce an additional MFA step periodically because of the sensitivity of the data in them.
 
-If you are having problems with being asked for multiple MFA authentications during the day, please contact #it-tech-ops and we can look into it.
+If you are having problems with being asked for multiple MFA authentications during the day, please contact #ask-it-tech-ops and we can look into it.
 
 ## Where do I go if I have any questions?
 
-For Okta help, setup, and integration questions: #it-tech-ops Slack channel or <tech-ops-admin@sourcegraph.com>
+For Okta help, setup, and integration questions: #ask-it-tech-ops Slack channel or <techops@sourcegraph.com>
