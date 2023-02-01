@@ -34,7 +34,7 @@ You may install Jamf Pro and Jamf Protect on as many devices as necessary to ens
 
 **Removing Jamf Pro and Jamf Protect from a personal computer**
 
-In order to remove Jamf Pro and Jamf Protect from your personal device, please reach out to the Tech Ops team in the #it-tech-ops Slack channel.
+In order to remove Jamf Pro and Jamf Protect from your personal device, please reach out to the Tech Ops team in the #ask-it-tech-ops Slack channel.
 
 Jamf Pro and Jamf Protect should never be removed from a Sourcegraph computer. If there is a circumstance where this needs would to occur please let #ask-it-tech-ops know so that they are aware it is the owner who is performing the removal and for what reasons.
 
