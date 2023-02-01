@@ -5,7 +5,7 @@
 - A portal to store details about our Saas contracts (expiration dates, costs, contacts, etc)
 - A trusted partner who will provide valuable insights into our Saas suppliers and ensure that we are getting the advantageous pricing and terms
 
-## Why we teamed up with a procurement partner in 2021:
+## Why we teamed up with a procurement partner:
 
 - Designated buyers (employees who are responsible for the spend) can better monitor contract end dates or renewal dates
 - Renegotiations can commence in a timely manner, in advance of cessation or renewal
@@ -14,7 +14,7 @@
 
 ## What we hope to achieve through a partnership with Vendr:
 
-- Cost savings of at least 36K in the first year (Sept 2021–Sept 2022)
+- Cost savings through benchmarks and negotiation
 - Time back for system owners (time previously spent negotiating with vendors)
 - Streamlined process for negotiated contracts
 - Organization of existing and future contracts
