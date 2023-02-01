@@ -39,11 +39,11 @@ If you are a temporary contractor or if there has been some damage or circumstan
 
 If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
 
-Please reached out to the Tech Ops team in the #it-tech ops channel if you will be using a personal device for any reason.
+Please reached out to the Tech Ops team in the #ask-it-tech ops channel if you will be using a personal device for any reason.
 
 ## Damaged computers
 
-If something has happened to your Sourcegraph device please contact #it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care.
+If something has happened to your Sourcegraph device please contact #ask-it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care.
 
 For repairs under warranty in the US, a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warranty please contact #it-tech-ops to have it sent to ComputerCare to be evaluated and repaired/replaced.
 
