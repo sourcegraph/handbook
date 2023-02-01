@@ -17,7 +17,7 @@ If you haven't done so already please configure your laptop in accordance with o
 **How to Enroll in Jamf**
 
 - If your device was purchased by Sourcegraph your computer will be prompted to enroll in Jamf on the Remote Management screen during your new laptop's setup process.
-- If you have purchased your Sourcegraph device from an Apple Certified Reseller, please reach out to the #it-tech-ops Slack Channel to receive an enrollment invitation via email.
+- If you have purchased your Sourcegraph device from an Apple Certified Reseller, please reach out to the #ask-it-tech-ops Slack Channel to receive an enrollment invitation via email.
 
 **What Jamf will automatically install on new devices**
 
@@ -36,7 +36,7 @@ You may install Jamf Pro and Jamf Protect on as many devices as necessary to ens
 
 In order to remove Jamf Pro and Jamf Protect from your personal device, please reach out to the Tech Ops team in the #it-tech-ops Slack channel.
 
-Jamf Pro and Jamf Protect should never be removed from a Sourcegraph computer. If there is a circumstance where this needs would to occur please let #it-tech-ops know so that they are aware it is the owner who is performing the removal and for what reasons.
+Jamf Pro and Jamf Protect should never be removed from a Sourcegraph computer. If there is a circumstance where this needs would to occur please let #ask-it-tech-ops know so that they are aware it is the owner who is performing the removal and for what reasons.
 
 When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from our system.
 
