@@ -18,6 +18,9 @@ If you want to document sensitive information, you can either:
 We use Terraform Cloud to manage the deployment of cloud infrastructure across Sourcegraph. You can
 find more information on using the platform [here](./terraform-cloud.md).
 
+Notifications for changes to Terraform in folders of interest to the Security team go to #security-terraform.
+The configuration of notification settings can be found in `infrastructure/terraform-cloud`.
+
 ## SAST scanning
 
 We use a combination of tools within the team to cover a number of different types
