@@ -1,59 +1,23 @@
 # Health benefits at Sourcegraph
 
-US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis.
+US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [here](https://guides.lumity.com/90A7tyfs/Sourcegraph/benefits-wellness/medical/medical-plans). Request the password in the `#ask-people-team` Slack channel.
 
-## Benefit plans
 
-US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
+## Eligibility 
 
-Health:
+All US-based full-time employees and their dependents are eligible for health benefits through Sourcegraph.
 
-- UnitedHealthcare EPO
-  - 2023 [Summary of Benefits and Coverage]COMING SOON
-  - 2023 [Plan Summary](https://drive.google.com/file/d/1c2QoMlgz2Xrwz7bxNzS-MiYWaYdCqu7z/view?usp=sharing)
-- UnitedHealthcare PPO 250
-  - 2023 [Summary of Benefits and Coverage]COMING SOON
-  - 2023 [Plan Summary](https://drive.google.com/file/d/1_UInCXYibFlG_EY9yCcc7mCNyeADF9I9/view?usp=sharing)
-- UnitedHealthcare HSA 1500
-  - 2023 [Summary of Benefits and Coverage]COMING SOON
-  - 2023 [Plan Summary](https://drive.google.com/file/d/1Fco1hEvPGYO7ycRoUAlouf3d8G3gKfRD/view?usp=sharing)
-- Kaiser HMO
-  - 2023 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1mOqIGOy3azcfhV9WmQbn8FxPFZCoCuE6/view?usp=sharing)
-  - 2022 [Plan Summary]COMING SOON
-- Kaiser HSA 3000
-  - 2023 [Summary of Benefits and Coverage](https://drive.google.com/file/d/1CtUg58qlrKH8G9tjWeJFB3cb9CyXbMtb/view?usp=sharing)
-  - 2022 [Plan Summary]COMING SOON
+## Health benefits we offer
 
-Dental:
+Medical / Dental / Vision Benefits
+- We offer high-quality medical, dental, and vision care for all US-based full-time employees and their dependents. Sourcegraph covers 100% of premiums for medical, dental, and vision insurance for employees and dependents (for US-based full-time employees).
 
-- 2023 [Cigna DPPO] Summary COMING SOON
+Life Insurance Benefits
+- We offer basic life insurance and cover the full premium for all US-based full-time employees.
 
-Vision:
+## Enrollment
 
-- 2023 [Equitable Vision] Summary COMING SOON
-
-Life:
-
-- 2023 summary COMING SOON
-
-HSA, FSA, and Dependent Care FSA:
-
-- HSA, FSA and Dependent Care FSA accounts are administered by [Rippling][https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)).
-- 2023 summary COMING SOON
-
-401K:
-
-- Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
-
-## **Digital ID Cards:**
-
-All digital insurance cards are located in Lumity, which is our benefits broker. All health insurance cards and coverage questions are handled by Lumity. You will receive physical medical cards, but dental and vision will only be available through the Lumity app.
-
-US-based Teammates can access virtual insurance member IDs in the [Lumity](https://www.lumity.com/) mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
-
-If you have not received your insurance member IDs, please reach out to Lumity at support@lumity.com or 1-844-2-LUMITY
-
-## **New Hire Benefits Enrollment:**
+#### New Hire Benefits Enrollment:
 
 All full-time, US-based Teammates are eligible for benefits. Insurance benefits for US-based Teammates become active on your start date.
 
@@ -61,7 +25,7 @@ US-based new hires have 30 days from their start date to enroll in insurance cov
 
 You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
 
-## **2023 Open Enrollment:**
+#### 2023 Open Enrollment:
 
 **What:** open enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.
 
@@ -72,6 +36,63 @@ How: To make changes to current benefit elections, or confirm existing elections
 **What’s changing? **There are no major changes to our benefit offerings. If you make no changes to your benefit elections, you'll be automatically renewed and your existing 2022 benefits selections (medical, dental and vision) will roll over to 2023.
 
 Teammates wishing to continue Flexible Spending Account contributions are required to re-enroll. All other elections for medical, dental, and vision will “rollover” as-is if no changes are made during the open enrollment period.
+
+## Qualifying Events
+
+Qualifying Life events are changes in your situation that warrant updating your health insurance information, such as getting married or having a baby. These events  can make you eligible to enroll in health insurance outside of Sourcegraph’s annual Open Enrollment period. 
+
+Read more about qualifying events and how to report them [here](https://help.rippling.com/s/article/360056299533).
+
+## 2023 Benefit plans
+
+US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
+
+Medical:
+
+- UnitedHealthcare EPO
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/10_I16tYpiGQvIwoU3PnA3tkWx-w690TW/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/1c2QoMlgz2Xrwz7bxNzS-MiYWaYdCqu7z/view?usp=sharing)
+- UnitedHealthcare PPO 250
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1lGMCh9hmH6IRrIxh5EqCg4CbLL0ybIg6/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/1_UInCXYibFlG_EY9yCcc7mCNyeADF9I9/view?usp=sharing)
+- UnitedHealthcare HSA 1400
+  - [Summary of Benefits and Coverage](https://drive.google.com/drive/folders/1ViXqyh9EZ_qG3w03JkKYmlIlrhuSswhY)
+  - [Plan Summary](https://drive.google.com/file/d/1Fco1hEvPGYO7ycRoUAlouf3d8G3gKfRD/view?usp=sharing)
+- Kaiser HMO
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1mOqIGOy3azcfhV9WmQbn8FxPFZCoCuE6/view?usp=sharing)
+- Kaiser HSA 2800
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1CtUg58qlrKH8G9tjWeJFB3cb9CyXbMtb/view?usp=sharing)
+
+Dental:
+
+- [Cigna DPPO](https://drive.google.com/file/d/1MVKpFhIXKe7ctna9uqnQKE5-HPD62L7Q/view?usp=sharing)
+
+Vision:
+
+- [Equitable Vision](https://drive.google.com/file/d/1JCNdCEOJdyL0IN5Z1IIxg55YC9dp29R8/view?usp=sharing)
+
+Life:
+
+- [Equitable Life Insurance](https://drive.google.com/file/d/1ut8sgf_M4pCwOfRB1ltuZEeHmUWBrOUa/view?usp=sharing)
+
+HSA, FSA, and Dependent Care FSA:
+
+- HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)).
+- [HSA Overview and Eligibility](https://guides.lumity.com/90A7tyfs/Sourcegraph/tax-advantaged-accts/hsa)
+- [FSA Overview and Eligibility](https://guides.lumity.com/90A7tyfs/Sourcegraph/tax-advantaged-accts/fsa)
+
+401K:
+
+- Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
+
+## Digital ID Cards:
+
+All digital insurance cards are located in Lumity, which is our benefits broker. All health insurance cards and coverage questions are handled by Lumity. You will receive physical medical cards, but dental and vision will only be available through the Lumity app.
+
+US-based Teammates can access virtual insurance member IDs in the [Lumity](https://www.lumity.com/) mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
+
+If you have not received your insurance member IDs, please reach out to Lumity at support@lumity.com or 1-844-2-LUMITY
+
 
 ## FAQ:
 
