@@ -13,6 +13,7 @@ Sourcegraph as a whole uses Slack heavily for daily communication - our team als
 - **#security** - This is our public channel where other teams can contact us with questions / support requests.
 - **#security-internal** - This is our teams "private" channel (all channels are visible to all) where our team can collaborate with each other asynchronously, share interesting news, ocassional memes, or to just say hello 😄
 - **#security-monitoring** - This is where our automated monitoring alerts are posted.
+- **#security-terraform** - Our infrastructure is managed using Terraform, and notifications regarding changes to security-related infrastructure go here.
 - **#incidents** - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context.
 
 ## Github Setup
