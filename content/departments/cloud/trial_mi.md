@@ -23,6 +23,18 @@ The difference from paid Managed Instances:
 - [convert to paying customer](#convert-trial-to-paying-customer)
 - [teardown the Trial Managed Instance](#teardown-trial-managed-instance)
 
+## Cloud Trial Requests from [signup.sourcegraph.com](https://signup.sourcegraph.com)
+
+Due to the high costs of infrastructure & human resources, along with the low activation rates in the self-service cloud trial experiment, we are no longer automatically provisioning cloud trial instances.
+Effective February 1, 2023, SDRs are responsible for the initial follow up and qualification for cloud trial requests. SDRs should seek to schedule an introduction meeting between the prospective Sourcegraph cloud customer and the Sourcegraph account team (appropriate AE & CE) to qualify the technical and security requirements. If, following that conversation, there is mutual fit for a Sourcegraph cloud trial, CEs are responsible for requesting the trial via the workflow documented below:
+
+1. Prospect fills out web form requesting trial at [signup.sourcegraph.com](https://signup.sourcegraph.com).
+1. Request is captured, and lead is generated and tagged with appropriate campaign info (PR - Trial - Cloud - 9.27.22).
+1. If lead is from AE-owned/named account, lead is routed to the Outbound SDR owner of that account.
+1. If lead is from unnamed account, lead is routed to Inbound SDR.
+1. SDR lead owner follows up with lead to qualify interest and schedule introductory call with appropriate AE & CE.
+1. If it is determined that a trial managed instance is appropriate for the prospect, the CE requests a trial via the [Trial managed instance request issue from signup](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D) outlined in the Request Trial Managed Instance section of the handbook.
+
 ## Request Trial Managed Instance
 
 [Trial Managed Instance Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
@@ -59,16 +71,6 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 - [convert to paying customer](#convert-trial-to-paying-customer)
 - [teardown Trial Managed Instance](#teardown-trial-managed-instance)
 
-## End of trial
-
-After 30 days of trial, the [Growth Team](../engineering/teams/growth/index.md) (DRI [Malo Marrec](../../team/index.md#sts=Malo%20Marrec)) will be responsible for making sure one of the three following next step is triggered, after consultation with the account owner (if any):
-
-- extend trial managed instance
-- convert trial to paid customer
-- teardown the managed instance
-
-Picking one of those three next steps is due with 5 days after the end of the 30 day trial period. In the future, this process will be automated.
-
 ## Extend Trial Managed Instance
 
 When trial expires and should be extended (by default 30 days), the instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will add `trialAdditionalDays` to customer `config.yaml` to ensure extended trial period is monitored.
@@ -83,7 +85,6 @@ When a customer has decided to sign the deal, the instance requestor will create
 
 ### Requesting to change the subdomain
 
-Self-serve trial instances that come inbound through www.signup.sourcegraph.com and are [prequalified](../engineering/teams/growth/cloud-trial-operations.md#case-2-acme-corpcom-is-pre-qualified) have a random subdomain (eg. `xyz.sourcegraph.com`).
 Upon conversion (or potentially earlier), you can request to change the domain name to a vanity subdomain (eg. `acme-corp.sourcegraph.com`). To do so, raise a [Change cloud instance subdomain request](https://github.com/sourcegraph/customer/issues/new/choose).
 
 Note that changing the subdomain will require the admin to:
