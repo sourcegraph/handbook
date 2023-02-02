@@ -2,17 +2,18 @@
 
 US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [here](https://guides.lumity.com/90A7tyfs/Sourcegraph/benefits-wellness/medical/medical-plans). Request the password in the `#ask-people-team` Slack channel.
 
-
-## Eligibility 
+## Eligibility
 
 All US-based full-time employees and their dependents are eligible for health benefits through Sourcegraph.
 
 ## Health benefits we offer
 
 Medical / Dental / Vision Benefits
+
 - We offer high-quality medical, dental, and vision care for all US-based full-time employees and their dependents. Sourcegraph covers 100% of premiums for medical, dental, and vision insurance for employees and dependents (for US-based full-time employees).
 
 Life Insurance Benefits
+
 - We offer basic life insurance and cover the full premium for all US-based full-time employees.
 
 ## Enrollment
@@ -39,7 +40,7 @@ Teammates wishing to continue Flexible Spending Account contributions are requir
 
 ## Qualifying Events
 
-Qualifying Life events are changes in your situation that warrant updating your health insurance information, such as getting married or having a baby. These events  can make you eligible to enroll in health insurance outside of Sourcegraph’s annual Open Enrollment period. 
+Qualifying Life events are changes in your situation that warrant updating your health insurance information, such as getting married or having a baby. These events can make you eligible to enroll in health insurance outside of Sourcegraph’s annual Open Enrollment period.
 
 Read more about qualifying events and how to report them [here](https://help.rippling.com/s/article/360056299533).
 
@@ -77,7 +78,7 @@ Life:
 
 HSA, FSA, and Dependent Care FSA:
 
-- HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)).
+- HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](<https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)>).
 - [HSA Overview and Eligibility](https://guides.lumity.com/90A7tyfs/Sourcegraph/tax-advantaged-accts/hsa)
 - [FSA Overview and Eligibility](https://guides.lumity.com/90A7tyfs/Sourcegraph/tax-advantaged-accts/fsa)
 
@@ -92,7 +93,6 @@ All digital insurance cards are located in Lumity, which is our benefits broker.
 US-based Teammates can access virtual insurance member IDs in the [Lumity](https://www.lumity.com/) mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
 
 If you have not received your insurance member IDs, please reach out to Lumity at support@lumity.com or 1-844-2-LUMITY
-
 
 ## FAQ:
 
