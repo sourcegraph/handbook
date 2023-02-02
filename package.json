@@ -111,7 +111,7 @@
     "tippy.js": "^6.3.5",
     "ts-node": "^10.4.0",
     "unified": "^10.1.0",
-    "unist-util-visit": "^4.1.0",
+    "unist-util-visit": "^4.1.2",
     "vfile": "^5.2.0"
   },
   "devDependencies": {
