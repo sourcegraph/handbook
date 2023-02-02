@@ -22,8 +22,6 @@ The scope of the marketing launch will consist of:
 
 Use the [self-service swag sheet](https://docs.google.com/spreadsheets/d/16NIEh92wuQh58ckJkHEafFKsm7JSCyEDdcxRl2brCIU/edit#gid=0). Ask any questions in `#swag`.
 
-## FAQ
-
 ### Where can I learn more about Starship?
 
 Join the #starship-march-2023 channel to ask questions and receive updates about Starship.
