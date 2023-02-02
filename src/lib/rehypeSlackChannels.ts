@@ -1,5 +1,6 @@
 import { ElementContent } from 'hast'
-import { defaultIgnore, findAndReplace, Node } from 'hast-util-find-and-replace'
+import { defaultIgnore, findAndReplace } from 'hast-util-find-and-replace'
+import type { Node } from 'hast-util-find-and-replace/lib/index'
 import { h } from 'hastscript'
 import { Plugin } from 'unified'
 

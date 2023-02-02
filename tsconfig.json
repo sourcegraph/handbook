@@ -1,8 +1,8 @@
 {
   "extends": "@sourcegraph/tsconfig",
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ES2020",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "node",
     "allowJs": true,
     "jsx": "preserve",
