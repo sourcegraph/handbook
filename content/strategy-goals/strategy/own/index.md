@@ -12,7 +12,7 @@ Sourcegraph Own is a revolutionary way to manage code ownership for all your cod
 
 ## Vision
 
-In 3 years, nobody will have to worry about codeowners being out of date. Devs will be able to quickly understand who owns what code and service, and how all the pieces fit together, and collaboration will be so much easier. The People Graph and the Source Graph will be merged.
+In 3 years, nobody will have to worry about CODEOWNERS being out of date. Devs will be able to quickly understand who owns what code and service, and how all the pieces fit together, and collaboration will be so much easier. The People Graph and the Source Graph will be merged.
 
 ## Mission
 
