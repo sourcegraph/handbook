@@ -10,7 +10,7 @@ Visit the [Tools we use](../working-at-sourcegraph/teammate-development/training
 
 _All teammates should join these channels and check them regularly_
 
-- #announcements - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
+- #announce-company - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
   - Note: Posting permissions are limited to keep the signal-to-noise ratio high. Teammates should use emojis and threads to engage with content.
   - If you need access to post in #announcements, please send a message to #internal-comms and tag Madison Clark.
 - #exec-ama - This channel makes it easy to ask Sourcegraph leadership any question and get an answer. Responses will be shared within 48 hours. [Follow these instructions ](https://github.com/sourcegraph/handbook/edit/main/content/company-info-and-process/communication/team_chat.md#more-on-exec-ama)when submitting a question.
@@ -33,7 +33,7 @@ Exceptions to the 180-day rule include the following channels:
 - #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
 - #feedback retains messages for 5 years because it provides a good source of user testimonials.
 - #engaging-external-engineers retains for 5 years because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn’t make sense to try to make this more organized.
-- #it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
+- #ask-it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
 - #sales-prospecting retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
 - #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
 - #sales-resources retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
