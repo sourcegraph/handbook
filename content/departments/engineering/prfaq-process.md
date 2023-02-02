@@ -1,5 +1,7 @@
 # PRFAQ Process Tips and Tricks
 
+Also see how to [submit a PR-FAQ](./adding-to-roadmap.md).
+
 ## Quick Tips
 
 Consider this the TL;DR; with full details outlined somewhere in this page.
