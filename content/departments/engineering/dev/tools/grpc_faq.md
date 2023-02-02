@@ -8,20 +8,22 @@ Wireshark can provide more meaningful message decoding if it has access to the u
 
 You can give Wireshark access by:
 
- 1. Telling Wireshark where to find Sourcegraph's .proto files:
+1.  Telling Wireshark where to find Sourcegraph's .proto files:
 
     ![Screenshot of @ggilmore's Protobuf search paths pane](https://storage.googleapis.com/sourcegraph-assets/ProtobufSearchPaths.png)
-    1. Navgivate to Preferences > Protocols >  ProtoBuf > "Protobuf search paths"
+
+    1. Navgivate to Preferences > Protocols > ProtoBuf > "Protobuf search paths"
     1. Add the folder that contains your Sourcegraph checkout and check "Load all files."
        - Example: `/Users/ggilmore/dev/go/src/github.com/sourcegraph/sourcegraph`
     1. Add the folder that contains your local copy of Protobufs [well-known types](https://protobuf.dev/reference/protobuf/google.protobuf/) and check "Load all files."
-      - If you have installed Protobuf with homebrew, you can use `brew info protobuf` to find the installation folder (example: `/opt/homebrew/Cellar/protobuf/21.12`). From there, the "include" folder in the standard Protobuf installation contains the well-known types (example: `/opt/homebrew/Cellar/protobuf/21.12/include`)
-        !["brew info protobuf" output](https://storage.googleapis.com/sourcegraph-assets/BrewInfoProtobuf.png)
 
- 1. Tell Wireshark to load all the `.proto` files on startup.
+    - If you have installed Protobuf with homebrew, you can use `brew info protobuf` to find the installation folder (example: `/opt/homebrew/Cellar/protobuf/21.12`). From there, the "include" folder in the standard Protobuf installation contains the well-known types (example: `/opt/homebrew/Cellar/protobuf/21.12/include`)
+      !["brew info protobuf" output](https://storage.googleapis.com/sourcegraph-assets/BrewInfoProtobuf.png)
+
+1.  Tell Wireshark to load all the `.proto` files on startup.
     ![Screenshot of Preferences > Protocols > ProtoBuf](https://storage.googleapis.com/sourcegraph-assets/ProtobufPreferencesPane.png)
 
-  - Navigate to Preferences > Protocols > ProtoBuf and check "Load .proto files on startup."
+- Navigate to Preferences > Protocols > ProtoBuf and check "Load .proto files on startup."
 
 ### Set port traffic type
 
@@ -44,7 +46,6 @@ Each different has a different method for configuring the ports it listens on, s
 Now, you can filter your packet capture for `http2` traffic, which should show the gRPC communication between your services:
 
 ![example gRPC communcation using http2 filter in Wireshark](https://storage.googleapis.com/sourcegraph-assets/WiresharkgRPCExample.png)
-
 
 ## When implementing a gRPC server, why do I need to embed an "Unimplemented[...]Server" in my go struct?
 
@@ -75,6 +76,7 @@ Strongly prefer using the [standard error codes](https://cloud.google.com/apis/d
 See [avinassh/grpc-errors@master/go](https://github.com/avinassh/grpc-errors/tree/master/go) for an example of how this interface works:
 
 Server implementation (sending an error)
+
 ```go
 package main
 
