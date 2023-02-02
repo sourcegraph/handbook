@@ -44,7 +44,7 @@ Today the Sourcegraph App lets you quickly start searching and browsing remote c
 
 ## How can I try it out?
 
-[README.md](https://gist.github.com/slimsag/dc860b17ecca155013b419691a77e396)
+[Read the installation docs.](https://docs.sourcegraph.com/app)
 
 ## Where should I share feedback?
 
