@@ -18,7 +18,6 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                                                    |
 | 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                                           |
 | 2022-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani) ,[Manuel Ucles](https://github.com/mucles) |
-| 2022-02-04 to 2023-04-04 | [Peter Guy](https://github.com/peterguy)                                                                                                      |
 
 ## Benefits
 
