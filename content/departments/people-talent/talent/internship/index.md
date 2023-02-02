@@ -1,8 +1,8 @@
 # Sourcegraph internship program
 
-We completed our first-ever internship program! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
+We completed our first-ever internship program in 2022! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
-We currently plan to post 2023 summer internship roles in early 2023 and we will update this page accordingly.
+We plan to run our next internship program in 2024 and we will update this page accordingly.
 
 We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
@@ -14,7 +14,7 @@ As a Sourcegraph intern, you will take initiative on hands-on, impactful project
 
 ### Open positions
 
-We will be hiring for interns across various business departments. Recruiting will begin in early 2023 and our open roles will be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
+We will be hiring for interns across various business departments. Recruiting will begin in early 2024 and our open roles will be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
 ### Job boards we’re using
 
@@ -86,7 +86,7 @@ While 2022 was our first internship program, it won’t be our last! We welcome 
 
 ### How to request an intern for your team
 
-The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
+The Talent team plans to survey leadership in January 2024 by sending out a Google Form to determine interest and business needs for 2024 interns.
 
 The process for requesting an intern for your team and opening an intern role is documented [here](internship-recruiting-and-offers.md#opening-an-intern-role). Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 
@@ -144,34 +144,11 @@ Payroll
 
 ### Internship projects
 
-Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
+Prior to the end of the internship, each intern will complete a final project in the form of a LinkedIn post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
 
-- The video submission is due to Kemper on 2022-07-18.
-- The blog post will be emailed to Kemper by COB 2022-08-01 and shared from your personal LinkedIn by COB 2022-08-05.
+### Internship events
 
-### 2022 internship events
-
-In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
-
-- 2022-05-16 Welcome Meeting with HR
-- 2022-05-19 Meet the Founders
-- 2022-05-25 Virtual Game Event
-- 2022-05-31 Cohort Meeting
-- 2022-06-01 Exec Q&A - Carly Jones
-- 2022-06-07 Joining early stage companies early in your career
-- 2022-06-08 LinkedIn Workshop
-- 2022-06-14 Yoga/Meditation
-- 2022-06-15 Q&A - Dan Adler
-- 2022-06-29 Q&A - Aimee Menne
-- 2022-07-05 Cohort Meeting
-- 2022-07-06 Interviewing Workshop
-- 2022-07-14 Virtual Escape Room
-- 2022-07-19 Q&A - Christina/Nick
-- 2022-07-20 Q&A - Connor O'Brien
-- 2022-07-20 Optional Q&A - Ben Horowitz
-- 2022-07-26 Cohort Meeting
-- 2022-07-28 Exec Q&A - Gregg
-- 2022-08-03 Virtual Cooking Class
+In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites will be sent for each of the events when dates are determined. If the event dates/times are updated, your google calendar invites will also be updated.
 
 ### Payroll FAQs
 
