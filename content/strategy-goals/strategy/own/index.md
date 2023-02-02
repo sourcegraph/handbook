@@ -27,7 +27,7 @@ Own is an emerging product, that we plan to release as an MVP at Starship in Mar
   - We need to remove AuthParser from the codebase. Who owns code that uses it? Search for `AuthParser select:owner`, get a list of all the owners, quickly contact them.
   - Search for files without owner
 - Second, we'll make ownership 10x easier and 10x more valuable.
-  - We'll make it so ownership can be inferred automatically, and be evegreen, removing the need for maintenace and solving a major pain point. We'll make it easy to answer both "who's accountable for this code" and "who owns this code", and provide escalation paths.
+  - We'll make it so ownership can be inferred automatically, and be evergreen, removing the need for maintenance and solving a major pain point. We'll make it easy to answer both "who's accountable for this code" and "who owns this code", and provide escalation paths.
   - Sourcegraph Own will power existing Sourcegraph features, increasing the power of the Code Intelligence platform.
 - Third, we'll integrate with the most common communication systems (email, Slack, ticketing, pagerduty), and provide a way for Sourcegraph features (including Own) to notify developers.
 - Fourth, we'l make it so Own knows about services, applications and artifacts
