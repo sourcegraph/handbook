@@ -1,6 +1,10 @@
 [build]
-command = "yarn run netlify-build"
-publish = "out"
+  publish = "out"
+  command = "pnpm run netlify-build"
+
+[build.environment]
+# Keep this in sync with package.json "engines".
+  NODE_VERSION = "18.9.0"
 
 # https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
 # If skip_processing = true, all other settings are ignored

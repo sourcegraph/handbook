@@ -80,7 +80,7 @@ The following bookmarks are useful to add to your browser's bookmark bar if you'
 
 - [GitHub Project Board](https://github.com/orgs/sourcegraph/projects/118?fullscreen=true) (fullscreen)
 - [New code insights issue](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights&projects=sourcegraph/118) (pre-fills labels and project)
-- <a href="javascript:location.search='?expand=1&template=developer_insights.md&labels=team/code-insights'">Use Developer Insights PR template</a> (bookmarklet, run on the open-PR GitHub page to add our checklist template)
+- Bookmarklet for **Use Developer Insights PR template** (URL: `javascript:location.search='?expand=1&template=developer_insights.md&labels=team/code-insights'`). Run on the open-PR GitHub page to add our checklist template.
 - [Code Insights GDrive folder](https://drive.google.com/drive/folders/16DrxdYnJAQ-fCIy3n1DXheReqWNV5U12) (all our documents are here or linked from here)
 - [Code Insights Roadmap](https://sourcegraph.productboard.com/roadmap/3362047-code-insights-beta-to-ga)
 

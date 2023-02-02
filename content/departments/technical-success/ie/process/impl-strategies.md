@@ -22,7 +22,7 @@ There are several potential deployment and implementation strategies that may be
    <td>
 <ul>
 <li>Preferred deployment strategy
-<li>Once it is determined that the customer qualifies for Cloud, the CE or Sales will submit a <a href="https://handbook.sourcegraph.com/departments/cloud/#managed-instance-requests">Managed Instance Request</a> to the Cloud Team to kick off the process
+<li>Once it is determined that the customer qualifies for Cloud, the CE or Sales will submit a <a href="../../../cloud/index.md#managed-instance-requests">Managed Instance Request</a> to the Cloud Team to kick off the process
 </li>
 </ul>
    </td>
@@ -51,7 +51,7 @@ CE
    </td>
    <td>
 <ul>
-<li>If Cloud and CE-Owned Deployments are not options for the customer (i.e. they are deploying with Kubernetes), the CE will <a href="https://handbook.sourcegraph.com/departments/technical-success/ce/ie/ce-implementation-handoff/#initiating-an-ie-request">Initiate an IE Request</a>
+<li>If Cloud and CE-Owned Deployments are not options for the customer (i.e. they are deploying with Kubernetes), the CE will <a href="ce-implementation-handoff.md#initiating-an-ie-request">Initiate an IE Request</a>
 <li>Upon reviewing the request, the implementation team qualifies the customer for a jointly deployed instance and kicks off the process with the CE and Sales
 <li>This method is primarily used for on-prem Kubernetes deployments
 </li>
@@ -71,7 +71,7 @@ TPM
 <ul>
 <li>This method is only used by customers that would like a production environment stood up quickly and their initial user set can be supported by a simpler deployment method, but a full Kubernetes instance will be needed for expansion to the full set of users
 <li>The CE will stand up an initial production environment (likely with a One-Click Machine Image or Docker Compose) and transition the customer to the TA for continued support
-<li>As the deployment reaches scalability or technical limits, the TA engages the implementation team to coordinate a post-live, jointly deployed Kubernetes instance 
+<li>As the deployment reaches scalability or technical limits, the TA engages the implementation team to coordinate a post-live, jointly deployed Kubernetes instance
 </li>
 </ul>
    </td>

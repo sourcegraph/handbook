@@ -5,7 +5,7 @@ import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
 import { Node, Root } from 'hast'
 import { isElement } from 'hast-util-is-element'
 import { select } from 'hast-util-select'
-import { HastNode } from 'hast-util-select/lib/types'
+import { Node as HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
 import { h } from 'hastscript'
 import { Root as MdastRoot, Content as MdastContent } from 'mdast'
@@ -18,7 +18,7 @@ import rehypeUrl, { UrlMatch } from 'rehype-url-inspector'
 import remarkGfm from 'remark-gfm'
 import remarkGitHub from 'remark-github'
 import remarkParse from 'remark-parse'
-import remarkRehype, { HastRoot } from 'remark-rehype'
+import remarkRehype from 'remark-rehype'
 import { unified, Plugin } from 'unified'
 import { visit } from 'unist-util-visit'
 import { VFile } from 'vfile'
@@ -200,7 +200,7 @@ const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
  * Wraps all `<table>`s in `<div class="table-responsive">` for horizontal scrolling.
  */
 // eslint-disable-next-line unicorn/consistent-function-scoping
-const rehypeResponsiveTables: Plugin<[], HastRoot> = () => tree => {
+const rehypeResponsiveTables: Plugin<[], Root> = () => tree => {
     visit(tree, (node, index, parent) => {
         if (isElement(node, 'table')) {
             // Note: Matches breakpoint used for th.sticky CSS class

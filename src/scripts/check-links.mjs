@@ -5,7 +5,7 @@ import { promisify } from 'util'
 
 import * as githubAction from '@actions/core'
 import chalk from 'chalk'
-import glob from 'globby'
+import globby from 'globby'
 import lineColumn from 'line-column'
 import _checkMarkdownLinks from 'markdown-link-check'
 import RelateUrl from 'relateurl'
@@ -20,7 +20,7 @@ const repoBasePath = path.resolve(fileURLToPath(import.meta.url), '../../..')
 const contentFolderPath = path.join(repoBasePath, 'content')
 const contentFolderFileUrl = pathToFileURL(contentFolderPath)
 
-const filePaths = await glob('**/*.md', { cwd: contentFolderPath })
+const filePaths = await globby('**/*.md', { cwd: contentFolderPath })
 
 const allLinkDestinations = new Set()
 

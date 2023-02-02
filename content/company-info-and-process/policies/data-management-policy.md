@@ -172,17 +172,17 @@ Any known violations of this policy should be reported to [report-policy-violati
    </td>
    <td>Nicky Van Maneen
    </td>
-   <td>First Version 
+   <td>First Version
    </td>
   </tr>
   <tr>
-   <td>2.0 
+   <td>2.0
    </td>
    <td>2022-03-22
    </td>
    <td>Dora Neumeier
    </td>
-   <td>Additions to Classification Matrix and retention Matrix 
+   <td>Additions to Classification Matrix and retention Matrix
    </td>
   </tr>
   <tr>
@@ -237,11 +237,11 @@ Any known violations of this policy should be reported to [report-policy-violati
    </td>
   </tr>
   <tr>
-   <td>Managed Instances 
+   <td>Managed Instances
    </td>
    <td>Customer Data, Partial Customer Code
    </td>
-   <td>SLA is 15 days from contract termination - according to handbook guidance 
+   <td>SLA is 15 days from contract termination - according to handbook guidance
    </td>
   </tr>
   <tr>
@@ -326,13 +326,13 @@ host (asset) data is retained until removed and purged from Qualys
    </td>
    <td>Opportunity, Sales, and Customer feedback Data
    </td>
-   <td>Indefinite 
+   <td>Indefinite
    </td>
   </tr>
   <tr>
    <td><a href="https://workspace.google.com/products/vault/">Google Vault</a>
    </td>
-   <td>Google Vault (gmail, drive, chat, and groups) 
+   <td>Google Vault (gmail, drive, chat, and groups)
    </td>
    <td>Indefinite
    </td>
@@ -340,12 +340,12 @@ host (asset) data is retained until removed and purged from Qualys
   <tr>
    <td><a href="https://slack.com/help/articles/203457187-Customize-message-and-file-retention">Slack</a>
    </td>
-   <td>Company wide communication tool (data ranges from confidential to public) 
+   <td>Company wide communication tool (data ranges from confidential to public)
    </td>
    <td>
 <ul>
 
-<li><a href="https://handbook.sourcegraph.com/company-info-and-process/communication/team_chat">https://handbook.sourcegraph.com/company-info-and-process/communication/team_chat</a> 
+<li><a href="../communication/team_chat.md">https://handbook.sourcegraph.com/company-info-and-process/communication/team_chat</a>
     (above channels retained for 5 years, all other Public channels set to delete after 90 days)
 <ul>
 
@@ -359,7 +359,7 @@ host (asset) data is retained until removed and purged from Qualys
   <tr>
    <td><a href="https://help.lattice.com/hc/en-us/articles/1500001262262-Lattice-Data-Exports-and-Data-Retention-Period">Lattice</a>
    </td>
-   <td>Employee feedback forms (performance 360 reviews) 
+   <td>Employee feedback forms (performance 360 reviews)
    </td>
    <td>Auto-delete 90 days after a person is terminated
    </td>
@@ -375,7 +375,7 @@ host (asset) data is retained until removed and purged from Qualys
   <tr>
    <td>Sourcegraph alerting system(OpsGenie)
    </td>
-   <td>Uptime and performance check for Managed Instances, internal data 
+   <td>Uptime and performance check for Managed Instances, internal data
    </td>
    <td>Indefinitely
    </td>
@@ -389,9 +389,9 @@ host (asset) data is retained until removed and purged from Qualys
    </td>
   </tr>
   <tr>
-   <td>Sourcegraph Employee Google Profile  
+   <td>Sourcegraph Employee Google Profile
    </td>
-   <td>Private data 
+   <td>Private data
    </td>
    <td>Up to a year after termination - once the manager has been reassigned all business documentation
    </td>
@@ -422,31 +422,31 @@ host (asset) data is retained until removed and purged from Qualys
     <strong>Restricted</strong>
    </td>
    <td>
-    Major Impact. 
-    Loss or damage will seriously impede the organization’s future. 
-    Public or internal disclosure could cause harm to on-going business operations. 
+    Major Impact.
+    Loss or damage will seriously impede the organization’s future.
+    Public or internal disclosure could cause harm to on-going business operations.
    </td>
    <td>
-    Encrypted and / or Physical Access controls 
+    Encrypted and / or Physical Access controls
    </td>
    <td>
     Electronic storage media must be irretrievably erased, degaussed and/or disposed of in a secure fashion
    </td>
    <td>
-    Recommendation: Media – External and internal labels. 
-    or 
-    Hard copy – each page or file to be labeled. 
-    or 
+    Recommendation: Media – External and internal labels.
+    or
+    Hard copy – each page or file to be labeled.
+    or
     Mail – address of specific person. Label on inside only.
    </td>
    <td>
-    Asset Owner or Exec approval and Non-disclosure agreement for external parties. 
+    Asset Owner or Exec approval and Non-disclosure agreement for external parties.
     Business need-to-know required for approved business functions or asset owners only. Manager and data owner approval required
    </td>
    <td>
     Distribution must be protected at all times.
-    Asset Owner, Security and Legal approval required for sharing externally. 
-    Email – encrypted email only 
+    Asset Owner, Security and Legal approval required for sharing externally.
+    Email – encrypted email only
    </td>
   </tr>
   <tr>
@@ -454,30 +454,30 @@ host (asset) data is retained until removed and purged from Qualys
     <strong>Confidential </strong>
    </td>
    <td>
-    Considerable Impact. 
-    Loss or damage COULD seriously impede the organization’s future. Public or internal disclosure could cause harm to on-going business operations. 
+    Considerable Impact.
+    Loss or damage COULD seriously impede the organization’s future. Public or internal disclosure could cause harm to on-going business operations.
    </td>
    <td>
-    Encrypted and / or Physical Access controls 
+    Encrypted and / or Physical Access controls
    </td>
    <td>
      Disposal – shredding or secure disposal boxes for physical assets.
    </td>
    <td>
     Recommendation:Media – External and internal labels.
-    or 
-    Hard copy – each page or file to be labeled. 
-    or 
+    or
+    Hard copy – each page or file to be labeled.
+    or
     Mail – address of specific person. Label on inside only.
    </td>
    <td>
-    Asset Owner or Exec approval and Non-disclosure agreement for external parties. 
-    Highly restricted access or asset owner only. 
+    Asset Owner or Exec approval and Non-disclosure agreement for external parties.
+    Highly restricted access or asset owner only.
    </td>
    <td>
-    Distribution must be protected at all times. 
+    Distribution must be protected at all times.
     Asset Owner or Exec approval for sharing.
-    Email – encrypted email only 
+    Email – encrypted email only
    </td>
   </tr>
   <tr>
@@ -486,16 +486,16 @@ host (asset) data is retained until removed and purged from Qualys
    </td>
    <td>
     Minor Impact.
-    Loss or damage could cause minor concerns to the organization’s future. Public or internal disclosure could cause little or no harm to on-going business operations. 
+    Loss or damage could cause minor concerns to the organization’s future. Public or internal disclosure could cause little or no harm to on-going business operations.
    </td>
    <td>
-    Encryption optional and / or Physical Access controls 
+    Encryption optional and / or Physical Access controls
    </td>
    <td>
      Disposal – shredding or secure disposal boxes Disposal – shredding or secure disposal boxes for physical assets.
    </td>
    <td>
-    Recommendation: Hard copy – each page or file to be labeled. 
+    Recommendation: Hard copy – each page or file to be labeled.
     Soft copy - share on internal communication channels only.
    </td>
    <td>
@@ -503,30 +503,30 @@ host (asset) data is retained until removed and purged from Qualys
     Access by any member of Sourcegraph
    </td>
    <td>
-     No restrictions. 
+     No restrictions.
    </td>
   </tr>
   <tr>
    <td>
-    <strong>Public</strong> 
+    <strong>Public</strong>
    </td>
    <td>
-    No impact 
+    No impact
    </td>
    <td>
-    Encryption not necessary – no physical protection required 
+    Encryption not necessary – no physical protection required
    </td>
    <td>
-    Disposal – no special process required 
+    Disposal – no special process required
    </td>
    <td>
-    No restrictions 
+    No restrictions
    </td>
    <td>
-    No restrictions 
+    No restrictions
    </td>
    <td>
-    No restrictions 
+    No restrictions
    </td>
   </tr>
 </table>

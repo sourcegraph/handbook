@@ -1,8 +1,8 @@
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
 import { useRouter } from 'next/router'
+import { NextSeo } from 'next-seo'
 import React, { useEffect, useRef } from 'react'
 
 import { Banner } from '../components/Banner'

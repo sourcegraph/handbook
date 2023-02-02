@@ -121,7 +121,7 @@ Store Completed Success Plans in the Customer folder.
    </td>
    <td>This page is intended as a reference of features by code host compatibility; each item will link to further documentation on the feature.
 <p>
-<a href="https://handbook.sourcegraph.com/departments/engineering/product/tools/feature_compatibility">Link to Product Feature Compatibility Page</a>
+<a href="../../../engineering/product/tools/feature_compatibility.md">Link to Product Feature Compatibility Page</a>
    </td>
    <td>3
    </td>
@@ -133,7 +133,7 @@ Store Completed Success Plans in the Customer folder.
    </td>
    <td>This page is intended as a reference of features by maturity level; each item will link to further documentation on the feature.
 <p>
-<a href="https://handbook.sourcegraph.com/departments/engineering/product/tools/feature_maturity">Link to Product Feature Maturity Page</a>
+<a href="../../../engineering/product/tools/feature_maturity.md">Link to Product Feature Maturity Page</a>
    </td>
    <td>3
    </td>

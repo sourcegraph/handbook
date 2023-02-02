@@ -4,7 +4,7 @@ import redirects from './src/scripts/redirects.mjs'
 const nextConfig = {
     // WARNING: Redirects defined only in next.config.js will NOT work when deployed in Netlify.
     // They also need to be added to Netlify's _redirects file.
-    // Redirects here are only for `yarn dev`/`yarn start`.
+    // Redirects here are only for `pnpm dev`/`pnpm start`.
     // See src/scripts/generate-redirects.js
     redirects: async () =>
         (await redirects()).map(({ source, destination }) => ({

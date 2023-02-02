@@ -318,7 +318,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
-  - [Exit interviews](people-ops/process/leaving.md/#exit-interviews)
+  - [Exit interviews](people-ops/process/leaving.md#exit-interviews)
   - [Offboarding process]COMING SOON
 
 ### Teammate swag
@@ -413,7 +413,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#carly-jones" target="_blank" rel="noopener">
+          <a href="../../team/index.md#carly-jones" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
             alt="Picture of Carly Jones"
@@ -428,7 +428,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
+          <a href="../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Devon-Bitmoji.jpg"
             alt="Picture of Devon Coords"
@@ -443,7 +443,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+          <a href="../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/KemperBitmoji.png"
             alt="Picture of Kemper Hamilton"
@@ -460,7 +460,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
+          <a href="../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-%20Bitmoji.jpg"
             alt="Picture of Kelsey Nagel"
@@ -475,7 +475,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+          <a href="../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png"
             alt="Picture of Marija Petrovic"
@@ -490,7 +490,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+          <a href="../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg"
             alt="Picture of Grace Bohl"
@@ -505,7 +505,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+          <a href="../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg"
             alt="Picture of Trevor Houghton"
@@ -521,7 +521,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+          <a href="../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
             alt="Picture of Jonathan Ayers"
@@ -536,7 +536,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
      <div class="col" style="flex: 1">
       <div>
         <div style="text-align: center">
-          <a href="../../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+          <a href="../../team/index.md#sarah-um" target="_blank" rel="noopener">
           <img
             src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
             alt="Picture of Sarah Um"

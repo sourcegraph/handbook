@@ -1,5 +1,6 @@
 import { parse } from 'chrono-node'
-import { findAndReplace, Node } from 'hast-util-find-and-replace'
+import { findAndReplace } from 'hast-util-find-and-replace'
+import type { Node } from 'hast-util-find-and-replace/lib/index'
 import { h } from 'hastscript'
 import { Element } from 'hastscript/lib/core'
 import { Plugin } from 'unified'
@@ -46,6 +47,7 @@ const datePattern = new RegExp(
  */
 // eslint-disable-next-line unicorn/consistent-function-scoping
 export const rehypeMarkupDates: Plugin = () => root =>
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
     findAndReplace(root as Node, datePattern, (argument1: unknown): Element | string => {
         const match = argument1 as string
         const fiscalInterval = parseFiscalInterval(match)

@@ -137,7 +137,7 @@ Promotions from one level to another are considered in impact reviews conducted 
 <p>
 • You troubleshoot and resolve common customer issues with guidance.
 <p>
-• You demonstrate the essentials needed to do work in our domain (as outlined in our<a href="https://handbook.sourcegraph.com/departments/technical-success/support/#our-guiding-principles"> guiding principle</a><span style="text-decoration:underline;">s</span>).
+• You demonstrate the essentials needed to do work in our domain (as outlined in our<a href="../../support/index.md#our-guiding-principles"> guiding principle</a><span style="text-decoration:underline;">s</span>).
 <p>
 • You willingly receive feedback from teammates to deliver positive outcomes for customers and the team.
 <p>
@@ -161,7 +161,7 @@ Promotions from one level to another are considered in impact reviews conducted 
 <p>
 • You solve customer issues, sometimes with guidance, and are able to collaborate with your teammates to help them troubleshoot problems.
 <p>
-• You consistently embody our<a href="https://handbook.sourcegraph.com/departments/technical-success/support/#our-guiding-principles"> guiding principles</a> in the cases that you take responsibility for.
+• You consistently embody our <a href="../index.md#our-guiding-principles">guiding principles</a> in the cases that you take responsibility for.
 <p>
 • Externally, you are able to effectively and proactively communicate with customers, facilitating collaboratively as appropriate.
 <p>

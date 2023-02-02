@@ -128,7 +128,6 @@ YAMLException: bad indentation of a mapping entry (19:21)
 It's also possible for the YAML schema validation job to fail. This will result in a log like the following:
 
 ```
-yarn run v1.22.15
 $ find data -name *.yml | sed -E "s/data\/(.*).yml/\1/" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text
 data/code_hosts.yml valid
 data/maturity_levels.yml valid
