@@ -28,9 +28,9 @@
   <tr>
    <td><strong>Scope</strong>
    </td>
-   <td>Manages<a href="https://handbook.sourcegraph.com/departments/marketing/product-marketing/marketing_launch_tiers/#l2-launch"> L2</a> launches mostly autonomously, with minor guidance from manager.
+   <td>Manages<a href="../product-marketing/marketing_launch_tiers.md#l2-launch"> L2</a> launches mostly autonomously, with minor guidance from manager.
    </td>
-   <td>Manages<a href="https://handbook.sourcegraph.com/departments/marketing/product-marketing/marketing_launch_tiers/#l1-launch"> L1</a> launches, mostly autonomously. Manages day-to-day projects independently and leads holistic planning initiatives specific to their product area, with minor support from manager.
+   <td>Manages<a href="../product-marketing/marketing_launch_tiers.md#l1-launch"> L1</a> launches, mostly autonomously. Manages day-to-day projects independently and leads holistic planning initiatives specific to their product area, with minor support from manager.
    </td>
    <td>Drives strategic initiatives and programs across the entire organization. Proactively identifies and prioritizes impactful opportunities and secures the resources to execute.
    </td>

@@ -75,7 +75,7 @@ See below for an overview of our current First Touchpoint types:
   <tr>
    <td> Contact/Demo Form
    </td>
-   <td>A prospect submitted any form on our site related to a “Contact us” or “Request a demo”. Look at the first or most recent content field in the marketing touchpoint section to understand exactly which form submission occurred. 
+   <td>A prospect submitted any form on our site related to a “Contact us” or “Request a demo”. Look at the first or most recent content field in the marketing touchpoint section to understand exactly which form submission occurred.
    </td>
   </tr>
   <tr>
@@ -101,13 +101,13 @@ Example: <a href="https://about.sourcegraph.com/guides/continuous-developer-onbo
   <tr>
    <td>Feedback Form
    </td>
-   <td>A product user has given product feedback from a form within the product. Tread lightly. When this type of lead is created the product team is likely already following up with that product user. You can search using the user’s email address within the <a href="https://about.sourcegraph.com/handbook/product/surfacing_product_feedback">#feedback</a> slack channel to see the user’s specific feedback.
+   <td>A product user has given product feedback from a form within the product. Tread lightly. When this type of lead is created the product team is likely already following up with that product user. You can search using the user’s email address within the #feedback slack channel to see the user’s specific feedback.
    </td>
   </tr>
   <tr>
    <td>Inbound Email (support, contact)
    </td>
-   <td> 
+   <td>
    </td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@ Example: <a href="https://about.sourcegraph.com/guides/continuous-developer-onbo
   <tr>
    <td>Referral
    </td>
-   <td> 
+   <td>
    </td>
   </tr>
   <tr>
@@ -137,13 +137,13 @@ Example: <a href="https://about.sourcegraph.com/guides/continuous-developer-onbo
   <tr>
    <td>Subscription
    </td>
-   <td> 
+   <td>
    </td>
   </tr>
   <tr>
     <td>Third-Party Vendor
    </td>
-   <td>A prospect was sourced to us from a third-party vendor. To see which vendor, you can look at the first/most recent source field. 
+   <td>A prospect was sourced to us from a third-party vendor. To see which vendor, you can look at the first/most recent source field.
 <p>
 Example: SimplyDirect Survey- These prospects filled out a survey offered by SimplyDirect. SimplyDirect will send them swag and send us the prospect. These are considered hot prospects.
    </td>
