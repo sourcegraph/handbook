@@ -72,9 +72,34 @@ To change between MFA options click on the arrow next to the label when prompted
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/switch%20between.png" alt="Okta MFA options" width="300" height="350">
 
+### Adding a YubiKey as an MFA option
+
+1. Sign in to your Okta Dashboard
+2. Go to your name > Settings
+3. Under 'Security Key or Biometric', click 'Set Up Another'
+4. Enter password and verify with Okta Verify/Fastpass
+5. Click 'Set Up' and then select USB security key when prompted:
+
+<img width="368" alt="Screenshot 2023-02-03 at 12 34 53" src="https://user-images.githubusercontent.com/106968986/216598274-c91f1d7d-cc17-4c78-b97a-df0464f290a9.png">
+
+6. When prompted, touch the gold part of the YubiKey to verify, and then click 'Allow':
+
+<img width="365" alt="Screenshot 2023-02-03 at 12 36 50" src="https://user-images.githubusercontent.com/106968986/216598507-a38f72b4-3c54-422c-ab33-08bf3181b547.png">
+
+7. Repeat these steps for your second YubiKey, if applicable. Best practice is to set up both YubiKeys at the same time.
+
+**Optional steps:**
+
+8. Download [YubiKey Manager](http://yubico.com/support/download/yubikey-manager/)
+9. In YubiKey Manager, go to Applications > FIDO2 and configure a PIN (this will require you to input the PIN every time you use the YubiKey):
+
+<img width="544" alt="Screenshot 2023-02-03 at 13 06 29" src="https://user-images.githubusercontent.com/106968986/216599897-c408a622-d8c9-4018-8dad-bb9274e3585f.png">
+
+11. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it.
+
 ## What are the most secure authentication methods?
 
-- Physical tokens (Yubikeys or similar) or biometrics (TouchID or similar)
+- Physical tokens (YubiKeys or similar) or biometrics (TouchID or similar)
 - Push notifications on a trusted device, such as Okta or Gmail
 - App-generated 2FA codes, like Google Authenticator
   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
