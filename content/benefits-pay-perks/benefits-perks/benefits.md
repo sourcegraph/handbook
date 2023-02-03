@@ -1,10 +1,15 @@
 # Health benefits at Sourcegraph
 
-US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [here](https://guides.lumity.com/90A7tyfs/Sourcegraph/benefits-wellness/medical/medical-plans). Request the password in the `#ask-people-team` Slack channel.
+US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [here](https://guides.lumity.com/bzW18but/Sourcegraph). Request the password in the [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) Slack channel.
 
 ## Eligibility
 
-All US-based full-time employees and their dependents are eligible for health benefits through Sourcegraph.
+All US-based full-time employees and their dependents are eligible for health benefits through Sourcegraph. Benefits are effective on your date of hire.
+
+Others eligible for benefits include:
+- Your legal spouse or domestic partner,
+- Your unmarried dependent children up until age 26 (including legally adopted and stepchildren), and/or
+- Any dependent child who reaches the limiting age and is incapable of self-support because of a mental or physical disability.
 
 ## Health benefits we offer
 
@@ -18,7 +23,16 @@ Life Insurance Benefits
 
 ## Enrollment
 
-#### New Hire Benefits Enrollment:
+This is your once-a-year chance to enroll in or make changes to your employer-sponsored health plan. You must enroll either upon joining Sourcegraph and/or during Sourcegraph's annual open enrollment period. 
+
+During enrollment
+- You must elect or decline benefits
+- You may add or drop dependents
+- You may set contributions to tax-advantaged accounts
+
+You cannot make changes outside of open enrollment unless you have a qualifying life event (QLE).
+
+#### New hire benefits enrollment:
 
 All full-time, US-based Teammates are eligible for benefits. Insurance benefits for US-based Teammates become active on your start date.
 
@@ -26,7 +40,7 @@ US-based new hires have 30 days from their start date to enroll in insurance cov
 
 You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
 
-#### 2023 Open Enrollment:
+#### 2023 Open enrollment:
 
 **What:** open enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.
 
@@ -38,9 +52,16 @@ How: To make changes to current benefit elections, or confirm existing elections
 
 Teammates wishing to continue Flexible Spending Account contributions are required to re-enroll. All other elections for medical, dental, and vision will “rollover” as-is if no changes are made during the open enrollment period.
 
-## Qualifying Events
+## Qualifying life events
 
-Qualifying Life events are changes in your situation that warrant updating your health insurance information, such as getting married or having a baby. These events can make you eligible to enroll in health insurance outside of Sourcegraph’s annual Open Enrollment period.
+Qualifying Life events are canges in circumstance that make you eligible for a special enrollment period (outside of Sourcegraph's annual open enrollment). Examples include starting a new job, getting married or divorced, having or adopting a baby, or losing health insurance coverage.
+
+Experiencing a QLE is the exception to the once-a-year rule about making health and benefits changes. You have up to 30 days after the qualifying life event to submit a QLE request to your benefits administrator.
+
+ 
+The insurance carrier will require:
+- Supporting documentation
+- The date the change occurred
 
 Read more about qualifying events and how to report them [here](https://help.rippling.com/s/article/360056299533).
 
@@ -51,36 +72,36 @@ US-based teammates can use this [Rippling tool](https://app.rippling.com/benefit
 Medical:
 
 - UnitedHealthcare EPO
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/10_I16tYpiGQvIwoU3PnA3tkWx-w690TW/view?usp=sharing)
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1G18wzLAxelrmUdjN-IKyMroDM8-DmBCV/view?usp=sharing)
   - [Plan Summary](https://drive.google.com/file/d/1c2QoMlgz2Xrwz7bxNzS-MiYWaYdCqu7z/view?usp=sharing)
 - UnitedHealthcare PPO 250
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1lGMCh9hmH6IRrIxh5EqCg4CbLL0ybIg6/view?usp=sharing)
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/16keAAT080vqgpduTWB394pjgpGa9Dq1d/view?usp=sharing)
   - [Plan Summary](https://drive.google.com/file/d/1_UInCXYibFlG_EY9yCcc7mCNyeADF9I9/view?usp=sharing)
-- UnitedHealthcare HSA 1400
-  - [Summary of Benefits and Coverage](https://drive.google.com/drive/folders/1ViXqyh9EZ_qG3w03JkKYmlIlrhuSswhY)
+- UnitedHealthcare HSA 1500
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GjMU2lAeDp0IvHYyb1WJqUeC6Ajx_Zob/view?usp=sharing)
   - [Plan Summary](https://drive.google.com/file/d/1Fco1hEvPGYO7ycRoUAlouf3d8G3gKfRD/view?usp=sharing)
 - Kaiser HMO
   - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1mOqIGOy3azcfhV9WmQbn8FxPFZCoCuE6/view?usp=sharing)
-- Kaiser HSA 2800
+- Kaiser HSA 3000
   - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1CtUg58qlrKH8G9tjWeJFB3cb9CyXbMtb/view?usp=sharing)
 
 Dental:
 
-- [Cigna DPPO](https://drive.google.com/file/d/1MVKpFhIXKe7ctna9uqnQKE5-HPD62L7Q/view?usp=sharing)
+- [Cigna DPPO](https://drive.google.com/file/d/1o61HSqUV8vBbpldFE4fLkcxTQyjE9Mi9/view?usp=sharing)
 
 Vision:
 
-- [Equitable Vision](https://drive.google.com/file/d/1JCNdCEOJdyL0IN5Z1IIxg55YC9dp29R8/view?usp=sharing)
+- [Equitable Vision](https://drive.google.com/file/d/1OokiJfH5WSMAhaC8LEYvLrWctHxgfFmL/view?usp=sharing)
 
 Life:
 
-- [Equitable Life Insurance](https://drive.google.com/file/d/1ut8sgf_M4pCwOfRB1ltuZEeHmUWBrOUa/view?usp=sharing)
+- [Equitable Life Insurance](https://drive.google.com/file/d/1Hv_2mCAN3YX8FNKd1-U3T_6ag8KQaJ9I/view?usp=sharing)
 
 HSA, FSA, and Dependent Care FSA:
 
 - HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](<https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)>).
-- [HSA Overview and Eligibility](https://guides.lumity.com/90A7tyfs/Sourcegraph/tax-advantaged-accts/hsa)
-- [FSA Overview and Eligibility](https://guides.lumity.com/90A7tyfs/Sourcegraph/tax-advantaged-accts/fsa)
+- [HSA Overview and Eligibility](https://guides.lumity.com/bzW18but/Sourcegraph/tax-advantaged-accts/hsa)
+- [FSA Overview and Eligibility](https://guides.lumity.com/bzW18but/Sourcegraph/tax-advantaged-accts/fsa)
 
 401K:
 
