@@ -75,7 +75,6 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
 
-
 ### Adding a YubiKey as an MFA option
 
 1. Sign in to your Okta Dashboard
@@ -101,7 +100,7 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 
 11. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it.
 
-## Use a different MFA option 
+## Use a different MFA option
 
 To change between MFA options click on the arrow next to the label when prompted for MFA
 
