@@ -95,7 +95,7 @@ To change between MFA options click on the arrow next to the label when prompted
 
 <img width="544" alt="Screenshot 2023-02-03 at 13 06 29" src="https://user-images.githubusercontent.com/106968986/216599897-c408a622-d8c9-4018-8dad-bb9274e3585f.png">
 
-11. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it. 
+11. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it.
 
 ## What are the most secure authentication methods?
 
