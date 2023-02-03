@@ -83,7 +83,7 @@ This section documents the process used to create releases at Sourcegraph.
 
 The release captain is _responsible_ for managing the release process and ensuring that the release happens on time. The release captain may _delegate_ work to other teammates, but such delegation does not absolve the release captain of their responsibility to ensure that delegated work gets done.
 
-The release captain should create a tracking issue using the [release issue template](release_issue_template.md) at the beginning of the release cycle.
+The release captain should create a tracking issue using the [release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md) at the beginning of the release cycle.
 
 Release captain responsibilities are currently owned by the [Release guild](../../../guilds/release_guild.md).
 
@@ -98,8 +98,8 @@ The retrospective document should be shared in #release-guild.
 The [Sourcegraph release tool] is used to generate releases as associated materials (such as tracking issues).
 It leverages the following issue templates, which list all individual steps that needs to be performed, for each type of release:
 
-- [Release issue template](release_issue_template.md)
-- [Patch release issue template](patch_release_issue_template.md)
+- [Release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md)
+- [Patch release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/patch_release_issue_template.md)
 
 ### Release branches
 
@@ -235,6 +235,6 @@ In the future, we may introduce continuous releases if these issues become surmo
 [sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
 [delivery]: ../../admin-exp/delivery/index.md
-[release issue template]: release_issue_template.md
-[patch release issue template]: patch_release_issue_template.md
+[release issue template]: https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md
+[patch release issue template]: https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/patch_release_issue_template.md
 [changelog.md]: https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md
