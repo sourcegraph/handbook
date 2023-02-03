@@ -4,13 +4,7 @@
 
 ## Admin Persona Overview
 
-Before we define the vision, strategy, execution, and metrics, we should describe more about who we mean when we say 'admin'. For the purposes of this document, we are describing any site-admin within the Sourcegraph application. This breaks down into 3 main groups:
-
-First, an individual developer who is setting up Sourcegraph after installing. This person likely will choose to stay in single-player mode of Sourcegraph running locally. They are mainly searching for individual value.
-
-Second, an admin at a mid-market company (roughly 500 - 10,000 developers). This person likely sits on a Developer Experience team and their sole responsibility is to act as the admin for various developer-focused tooling. This admin is responsible for monitoring all parts of Sourcegraph from user management to underlying infrastructure. The security team is constantly bugging them to ensure Sourcegraph is deployed in a secure way and the finance teams are constantly bugging them to reduce spend across dev tools. They act as the main conduit between Sourcegraph and the developers within the organization.
-
-Third, an admin at a large, strategic-size company (\>10,000 developers). This person likely sits on a Developer Experience team and their sole responsibility is to act as the admin for a single tool. They often work with other admins to run said tool. For example, this admin will own user/license management with another admin owning the underlying infrastructure. A significant part of this admin's role is navigating internal bureaucracy to ensure Sourcegraph stays running. For example, an admin at a large strategic account might need to file various security reviews for each new version of Sourcegraph before deployments can happen.
+Before we define the vision, strategy, execution, and metrics, we should describe more about who we mean when we say 'admin'. For the purposes of this document, we are describing [three distinct types of admins](./admin-exp-personas.md).
 
 ## Vision
 

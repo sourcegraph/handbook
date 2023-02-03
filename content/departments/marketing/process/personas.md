@@ -5,6 +5,7 @@ Here are Sourcegraph's core personas along with a few example titles for each pe
 - [Developer/Engineer (IC):](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0) Senior Software Engineer, Senior Developer, Frontend Developer, Backend Developer, Full stack Developer, Software Engineer
 - [Dev Productivity/Experience Lead](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_19): Dir. / Sr Manager of Dev Services; Dev Productivity; Dev Experience; Productivity Eng; Tech Enablement; Infrastructure Eng; Developer Platform
 - [Engineering Leader](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46): VP Engineering; Sr. Director of Engineering, Engineering Manager, Engineering Leader
+- [Admin Personas](../../../strategy-goals/strategy/admin-exp/admin-exp-personas.md): DevExperience Lead, Software Engineer of Infrastructure, Director of Infrastructure
 
 ## What are "personas"?
 
