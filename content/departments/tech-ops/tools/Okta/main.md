@@ -36,7 +36,7 @@ Sourcegraph is using Okta for a few key goals:
 
 ## How do I get my Okta account set up?
 
-All Sourcegraph team members have an Okta account set up as part of their onboarding process. Okta activation emails are valid for 7 days.
+All Sourcegraph team members have an Okta account set up as part of their onboarding process. Okta activation emails are valid for 7 days and are sent on the morning of a teammate's start date.
 
 Expect the sign-up process to take around 10 minutes. You will need to create login credentials, and set up Okta Verify on your mobile and/or desktop device for MFA.
 
@@ -55,7 +55,16 @@ Phishing resistant MFA options are the prefered method of authentication. These 
    - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #ask-it-tech-ops the generated CSV
 3. Google Authentication - in some cases you can use Google Authentication to set up your one-time passcode using 1Password
 
-## Adding a new MFA option
+## What are the most secure authentication methods?
+
+- Physical tokens (YubiKeys or similar) or biometrics (TouchID or similar)
+- Push notifications on a trusted device
+- App-generated 2FA codes, like Google Authenticator
+  - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
+
+## Adding Touch ID as a new MFA option
+
+Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
 
 1. Sign in to your Okta Dashboard
 2. Go to your name > Settings
@@ -64,13 +73,8 @@ Phishing resistant MFA options are the prefered method of authentication. These 
 5. Select “Set up” next to the MFA option you would like to add
 6. Select “Enroll” and follow the steps prompted by your browser
 
-<img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="300" height="325"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="300" height="325"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="300" height="325">
+<img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
 
-Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
-
-To change between MFA options click on the arrow next to the label when prompted for MFA
-
-<img src="https://storage.googleapis.com/sourcegraph-assets/switch%20between.png" alt="Okta MFA options" width="300" height="350">
 
 ### Adding a YubiKey as an MFA option
 
@@ -97,12 +101,11 @@ To change between MFA options click on the arrow next to the label when prompted
 
 11. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it.
 
-## What are the most secure authentication methods?
+## Use a different MFA option 
 
-- Physical tokens (YubiKeys or similar) or biometrics (TouchID or similar)
-- Push notifications on a trusted device, such as Okta or Gmail
-- App-generated 2FA codes, like Google Authenticator
-  - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
+To change between MFA options click on the arrow next to the label when prompted for MFA
+
+<img src="https://storage.googleapis.com/sourcegraph-assets/switch%20between.png" alt="Okta MFA options" width="300" height="350">
 
 ## I forgot my password/my login doesn't work, what do I do?
 
