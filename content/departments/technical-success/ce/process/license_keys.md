@@ -74,9 +74,10 @@ In select circumstances, such as a bridge extension being requested due to the r
 
 Below is a list of our license key tags along with a description of each which you may need to include:
 
-- `plan:enterprise-0` or `plan:team-0` for Enterprise or Teams customers, respectively.
+- `plan:enterprise-1` or `plan:business-0` for Enterprise or Business customers, respectively.
 - `true-up` to allow the company to go over the user limit on the license. No tag is needed for hard cap.
 - `mau` to indicate that the company is on a monthly usage-based billing model.
+  - Note: For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.
 - `trial` to show an indicate in Sourcegraph that the company is on a trial.
 - `batch-changes` for Batch Changes (formerly `campaigns`)
 - `code-insights` for Code Insights
@@ -90,14 +91,16 @@ Below is a list of our license key tags along with a description of each which y
 
 Example license key tags:
 
-- **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.
+- **Enterprise Licenses**: `plan:enterprise-1`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
 
 See our [Sourcegraph License Builder](https://docs.google.com/spreadsheets/d/1F7ifjLEiFi86JOLXeT7U_BuhC-gFAtFH3ol3zFYtPyg/edit#gid=0) for more information or help compiling the correct license tag values.
 
 #### Legacy tags
 
-The `enterprise` tag is a legacy tag that should not be used anymore. It gives access to all features, including `batch-changes`. Similarly, a license with no `plan:` tag (no `plan:team-0`, `plan:enterprise-0`) allows access to all features.
+The `enterprise` tag is a legacy tag that should not be used anymore. It gives access to all features, including `batch-changes`. Similarly, a license with no `plan:` tag (no `plan:team-0`, `plan:enterprise-1`) allows access to all features.
+
+`plan:enterprise-0` represents our legacy pricing plan. `plan:enterprise-1` was launched in with [Sourcegraph 4.0](https://about.sourcegraph.com/pricing).
 
 #### License tags future state
 
