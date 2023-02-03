@@ -9,7 +9,7 @@
 
 - For general questions or concerns, #ask-own channel or @own-team on Slack.
 - For engineering support requests, customer questions, or anything else, @own-team on Slack.
-- @sourcegraph/batchers team or [own label](https://github.com/sourcegraph/sourcegraph/issues?q=is:issue+is:open+label:own) on GitHub.
+- @sourcegraph/own team or [own label](https://github.com/sourcegraph/sourcegraph/issues?q=is:issue+is:open+label:own) on GitHub.
 
 ## Process
 
