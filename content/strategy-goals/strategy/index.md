@@ -49,6 +49,10 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 > Sourcegraph team members can view the internal [Mission, Strategy, Execution, and Metrics doc](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit). We will move the content to the handbook soon.
 
+### Admin Experience Vision
+
+A core foundation of the FY24 plan is ensuring we provide admins with a world-class experience. Big companies with big code will only be successful if they can configure Sourcegraph. Product-led companies only work if users can effectively set up their instance. Etc! You can read more about our vision and how we plan to accomplish this in our [Admin Experience vision](./admin-exp/index.md).
+
 ### Big Code
 
 Big Code is when you have to deal with tons of code, complexity, and devs. Sourcegraph solves Big Code problems: problems that devs and engineering teams face when working in big codebases. As consumers demand more from software and code piles up, more and more devs and engineering teams face Big Code problems.
