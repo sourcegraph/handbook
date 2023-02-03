@@ -16,7 +16,7 @@
   - [Product documentation](process/product_documentation.md)
   - [Continuous releasability](tools/continuous_releasability.md)
   - [Releases](process/releases/index.md)
-    - [Release issue template](process/releases/release_issue_template.md)
+    - [Release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md)
   - [External contributions](process/external_contributions.md)
   - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
