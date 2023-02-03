@@ -1,4 +1,6 @@
-# Admin Experience Vision, Strategy, Execution and Metrics - Draft v0.1
+# Admin Experience Vision, Strategy, Execution and Metrics
+
+> Note: This page is a WIP and should not yet be treated as final.
 
 **Goal:** Build on top of the [Company-Wide VSEM document](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit?usp=sharing) with a specific focus on the Admin user persona to define Vision, Strategy, Execution plan and Metrics for the Sourcegraph admin experience.
 
@@ -71,7 +73,7 @@ Note: Anything above the — line has already been greenlit and staffed. Things 
 
 - Tier 1 ADO ([Job Fair Project](https://github.com/sourcegraph/pr-faqs/issues/43))
 - Gerrit Permissions syncing ([Job Fair Project](https://github.com/sourcegraph/pr-faqs/issues/41)) and batch changes (Job Fair Project TBD)
-- —
+- — Below this line is not yet approved/in-progress and could change.
 - Introduce support for GitHub's fine-grain auth tokens (currently Beta, GA date TBD)
 - Notify customers of ending support for non-expiring GitLab PATs (Release 16.0 of GitLab happens on May 22, 2023)
 - Introduce GitHub App as a site-level code host (PRFAQ TBD)
@@ -79,14 +81,14 @@ Note: Anything above the — line has already been greenlit and staffed. Things 
 #### Introduce first class support for non-git code hosts:
 
 - Launch a first-class Perforce integration (validated by TAM estimate [here](https://docs.google.com/spreadsheets/d/12Z9Oozn1SWsQ6LRYq5MDBc_bAqDvJZgzSF_iqbGl43k/edit?usp=sharing) as well as [Top-10 asks from GTM](https://docs.google.com/spreadsheets/d/10RIKcT_MTK_f5f6cyFtlvdxGvUOjppT5W2vaNF2BkBU/edit#gid=246402443)). Key existing product gaps include changelist and streams support.
-- —
+- — Below this line is not yet approved/in-progress and could change.
 - Fast follow first-class Perforce with first-class SVN (validated by TAM estimate [here](https://docs.google.com/spreadsheets/d/1SguvCbf7oqVWCnJqa7Io98lppIn4shwEQOmmuke_d70/edit?usp=sharing) as well as [Top-10 asks from GTM](https://docs.google.com/spreadsheets/d/10RIKcT_MTK_f5f6cyFtlvdxGvUOjppT5W2vaNF2BkBU/edit#gid=246402443))
 
 #### Build more for our ICP (Strategic customers):
 
 - Permissions should work efficiently at 2XL scale ([Job Fair Project](https://github.com/sourcegraph/pr-faqs/issues/42))
 - SCIM ([Job Fair Project](https://github.com/sourcegraph/pr-faqs/issues/66))
-- —
+- — Below this line is not yet approved/in-progress and could change.
 - Repository syncing at 2XL scale (Job Fair Project TBD)
 - Reduce the operational cost of running Sourcegraph (PRFAQ TBD) including deduping git objects across forks ([GitHub Ticket](https://github.com/sourcegraph/sourcegraph/issues/40448), Job Fair Project TBD) including adding automated infra cost alerting to Sourcegraph
 - Enterprise level User management (Fast follow of SCIM to solve [these gaps](https://docs.google.com/document/d/1wTLxhLHulU_agWMAB8AiGfFZTUyUpWvBc5p1fLCu_SI/edit#bookmark=id.85ekzccm66x9) with a goal of 'delightful User Management at 2XL scale'
@@ -97,7 +99,7 @@ Note: Anything above the — line has already been greenlit and staffed. Things 
 
 - Permissions should be debuggable, observable, etc ([Job Fair Project](https://github.com/sourcegraph/pr-faqs/issues/23))
 - Permissions syncing should be debuggable, observable, etc ([Job Fair Project](https://github.com/sourcegraph/pr-faqs/issues/23))
-- —
+- — Below this line is not yet approved/in-progress and could change.
 - Display SLAs/SLOs/SLIs to admins in the site-admin UI (PRFAQ TBD)
 - Health checking tooling to give customers confidence the deployment is successful ([past SDD](https://docs.google.com/document/d/1shS8DZkZXMB-T4rKwLMogU70N4mSyOpDG1G7ElkjHD4/edit?usp=sharing))
 - Revamp enterprise license generation and introduce proper upsell-based gating between packaging tiers (PRFAQ TBD)
