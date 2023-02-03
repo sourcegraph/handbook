@@ -7,6 +7,7 @@ US-based Teammates are eligible for health benefits, which are determined jointl
 All US-based full-time employees and their dependents are eligible for health benefits through Sourcegraph. Benefits are effective on your date of hire.
 
 Others eligible for benefits include:
+
 - Your legal spouse or domestic partner,
 - Your unmarried dependent children up until age 26 (including legally adopted and stepchildren), and/or
 - Any dependent child who reaches the limiting age and is incapable of self-support because of a mental or physical disability.
@@ -23,9 +24,10 @@ Life Insurance Benefits
 
 ## Enrollment
 
-This is your once-a-year chance to enroll in or make changes to your employer-sponsored health plan. You must enroll either upon joining Sourcegraph and/or during Sourcegraph's annual open enrollment period. 
+This is your once-a-year chance to enroll in or make changes to your employer-sponsored health plan. You must enroll either upon joining Sourcegraph and/or during Sourcegraph's annual open enrollment period.
 
 During enrollment
+
 - You must elect or decline benefits
 - You may add or drop dependents
 - You may set contributions to tax-advantaged accounts
@@ -58,8 +60,8 @@ Qualifying Life events are canges in circumstance that make you eligible for a s
 
 Experiencing a QLE is the exception to the once-a-year rule about making health and benefits changes. You have up to 30 days after the qualifying life event to submit a QLE request to your benefits administrator.
 
- 
 The insurance carrier will require:
+
 - Supporting documentation
 - The date the change occurred
 
