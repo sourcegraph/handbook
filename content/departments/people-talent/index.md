@@ -41,7 +41,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Who to go to
 
 - Emergency
-  - In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
+  - In case of emergency, the VP People & Talent and the Director, People-Ops are available 24/7 via their cell phone number which is listed in their Slack profile.
 - People support
   - [Who is my People Partner?](teamalignment.md)
 - Recruiting support
