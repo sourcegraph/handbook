@@ -50,7 +50,6 @@ You can waive your insurance coverage through [Rippling](https://help.rippling.c
 
 **How**: To make changes to current benefit elections, or confirm existing elections, please follow instructions in your [Rippling](https://app.rippling.com/) account (use the taskbar on the left-hand side to navigate to the heart icon labeled “insurance and benefits.” From here, you should see the option to start your plan selections). Any plan changes, or confirmations, will become effective as of 2023-01-01.
 
-
 ## 2023 Benefit plans
 
 US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
