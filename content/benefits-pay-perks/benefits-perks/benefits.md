@@ -44,28 +44,11 @@ You can waive your insurance coverage through [Rippling](https://help.rippling.c
 
 #### 2023 Open enrollment:
 
-**What:** open enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.
+**What:** Open Enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.
 
 **When:** Sourcegraph’s 2023 US Benefits open enrollment took place from 2022-11-01 to 2022-11-15.
 
-How: To make changes to current benefit elections, or confirm existing elections, please follow instructions in your [Rippling](https://app.rippling.com/) account (use the taskbar on the left-hand side to navigate to the heart icon labeled “insurance and benefits.” From here, you should see the option to start your plan selections). Any plan changes, or confirmations, will become effective as of 2023-01-01.
-
-**What’s changing? **There are no major changes to our benefit offerings. If you make no changes to your benefit elections, you'll be automatically renewed and your existing 2022 benefits selections (medical, dental and vision) will roll over to 2023.
-
-Teammates wishing to continue Flexible Spending Account contributions are required to re-enroll. All other elections for medical, dental, and vision will “rollover” as-is if no changes are made during the open enrollment period.
-
-## Qualifying life events
-
-Qualifying Life events are canges in circumstance that make you eligible for a special enrollment period (outside of Sourcegraph's annual open enrollment). Examples include starting a new job, getting married or divorced, having or adopting a baby, or losing health insurance coverage.
-
-Experiencing a QLE is the exception to the once-a-year rule about making health and benefits changes. You have up to 30 days after the qualifying life event to submit a QLE request to your benefits administrator.
-
-The insurance carrier will require:
-
-- Supporting documentation
-- The date the change occurred
-
-Read more about qualifying events and how to report them [here](https://help.rippling.com/s/article/360056299533).
+**How**: To make changes to current benefit elections, or confirm existing elections, please follow instructions in your [Rippling](https://app.rippling.com/) account (use the taskbar on the left-hand side to navigate to the heart icon labeled “insurance and benefits.” From here, you should see the option to start your plan selections). Any plan changes, or confirmations, will become effective as of 2023-01-01.
 
 ## 2023 Benefit plans
 
