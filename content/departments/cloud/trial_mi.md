@@ -35,12 +35,6 @@ Effective February 1, 2023, SDRs are responsible for the initial follow up and q
 5. SDR lead owner follows up with lead to qualify interest and schedule introductory call with appropriate AE & CE.
 6. If it is determined that a trial managed instance is appropriate for the prospect, the CE requests a trial via the [Trial Managed Instance Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
 
-## Request Trial Managed Instance
-
-[Trial Managed Instance Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
-
-> NOTE: The "cloud-trial" label added to the instance creation request GH issue from [signup](https://signup.sourcegraph.com/) is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
-
 ## New Trial Managed Instance create SLA (since 27th of September 2022)
 
 [SLA for trial Managed Instance creation](./index.md#slas-for-managed-instances)
