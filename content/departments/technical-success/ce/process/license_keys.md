@@ -21,8 +21,6 @@ For a new Sales-led trial, create a _new_ subscription. You will only use this f
 
 A note on Sales-led cloud (managed instance) trials: as part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../cloud/technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) we ask CE to create the license.
 
-For a new PLG Cloud trials submitted through signup.sourcegraph.com are handled [differently](../../../engineering/teams/growth/cloud-trial-operations.md).
-
 ## Converting a Prospect to a New Customer
 
 When the prospect converts to a customer, create a _new_ subscription; **do not** reuse the trial subscription. (Follow the instructions for [issuing a new license](#creating-a-new-license-key) from start to finish.) This is to ensure data accuracy for the Sales Ops team.
