@@ -117,7 +117,7 @@ Note: Anything above the — line has already been greenlit and staffed. Things 
 - Radical improvements to in-product analytics. The spike in 2022 continues to show value to customers and has yet to generate any significant product gap blockers from customers. Feature teams will own adding new analytics if they desire (i.e. own)
 - We will not meaningfully solve the RBAC tech-debt in 2023 (Described in RFC 617). This is a significant effort that needs to be driven by end-user value. Today, this pain does not reach customers often.
 - Zero downtime deployments. We started moving to Rendezvous hashing in 2022 and have not heard meaningful customer requirements for zero downtime recently.
-- CVS support. This has been requested by Goldman Sachs and JPMC. In 2023, we will focus on Perforce and SVN as they have higher overall addressable markets. We will revisit this if mid-year we have a simpler way to integrate non-git code hosts.
+- CVS support. This has been requested by several customers. In 2023, we will focus on Perforce and SVN as they have higher overall addressable markets. We will revisit this if mid-year we have a simpler way to integrate non-git code hosts.
 
 ## **2023 Key Metrics**
 
