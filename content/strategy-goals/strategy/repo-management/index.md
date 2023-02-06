@@ -12,7 +12,7 @@ Our mission is to ensure that Sourcegraph "just works" with the code hosts that 
 
 # Strategy, Execution Plan, and Metrics
 
-Internal employees can read our working [Vision, Strategy, Execution Plan, and Metrics](https://docs.google.com/document/d/1VIkf38olBSVD-WpOSM0EIHqysvSPhsTCgK2FV_bbPXI/edit?usp=sharing). We're working on an externally-visible version.
+Currently we are supporting the [admin experience vision](../admin-exp/index.md) by implementing core parts of the 2023 execution plan.
 
 # Detailed Roadmap
 
