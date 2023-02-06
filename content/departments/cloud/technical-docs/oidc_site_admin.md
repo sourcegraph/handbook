@@ -23,27 +23,25 @@ Every instance has a default Sourcegraph admin user added during the [instance i
 
 > WARNING: Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
 
-<!--
-Use the slash command in Slack, type `/access_request` anywhere.
+1. Use the slash command in Slack, type `/access_request` anywhere.
 
-Select the following and click `Send Request`.
+   Select the following and click `Send Request`.
 
-- **Request type**: `Permission set`
-- **Permissions set**: `Sourcegraph Cloud Org2Org`
-- **Permission duration**: `1 Hour`
-- **Add justification**: I need access to the cloud instance UI (Yes, you can just use canned response here)
+   - **Request type**: Permission set
+   - **Permissions set**: Sourcegraph Cloud Org2Org
+   - **Permission duration**: 1 Hour
+   - **Add justification**: I need access to the cloud instance UI (Yes, you can just use canned response here)
 
-The request will be approved automatically. Once you have received confirmation from the `Entitle` slack app, process to the next step.
--->
+   The request will be approved automatically. Once you have received confirmation from the `Entitle` slack app, process to the next step.
 
-Use the `/access_request` slash command on Slack, and select the following:
+2. Use the `/access_request` slash command on Slack, and select the following:
 
-- **Search permission**: company.sourcegraph.com
-- **Grant method**: Direct
-- **Permission duration**: 1 Hour
-- **Add justification**: Please explain in detail why do you need access to the Cloud instance UI. It will be best to include relevant links to issues, slack thread to provide more context.
+   - **Search permission**: company.sourcegraph.com
+   - **Grant method**: Direct
+   - **Permission duration**: 1 Hour
+   - **Add justification**: Please explain in detail why do you need access to the Cloud instance UI. It will be best to include relevant links to issues, slack thread to provide more context.
 
-The request will be routed to #cloud, #security, and your direct manager for approval. Any of the approvers can review and approve the access request.
+   The request will be routed to #cloud, #security, and your direct manager for approval. Any of the approvers can review and approve the access request.
 
 Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if the request is time sensitive.
 
