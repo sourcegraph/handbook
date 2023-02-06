@@ -97,7 +97,7 @@ type HelloServer struct {
 func (s *HelloServer) SayHelloStrict(ctx context.Context, req *api.HelloReq) (*api.HelloResp, error) {
 	if len(req.GetName()) >= 10 {
 		return nil, status.Errorf(codes.InvalidArgument,
-			"  Length of `Name` cannot be more than 10 characters")
+			"Length of `Name` cannot be more than 10 characters")
 	}
 
 	return &api.HelloResp{Result: fmt.Sprintf("Hey, %s!", req.GetName())}, nil
@@ -127,7 +127,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("Did not connect: %v", err)
 	}
-
 	defer conn.Close()
 
 	c := api.NewHelloServiceClient(conn)
@@ -138,17 +137,19 @@ func main() {
 
 	if err != nil {
 		// ouch!
-		// lets print the gRPC error message
-		// which is "Length of `Name` cannot be more than 10 characters"
-
+		// Let's print the gRPC error message which should be:
+		// "Length of `Name` cannot be more than 10 characters"
+		// The error returned directly from a gRPC client is always
+		// guaranteed to be a status error, so we can assume this
+		// will always succeed
 		errStatus, _ := status.FromError(err)
 		fmt.Println(errStatus.Message())
 
-		// lets print the error code which is `INVALID_ARGUMENT`
+		// Let's print the error code which is `INVALID_ARGUMENT`
 		fmt.Println(errStatus.Code())
 
 		// Want its int version for some reason?
-		// you shouldn't actullay do this, but if you need for debugging,
+		// You shouldn't actually do this, but if you need for debugging,
 		// you can do `int(status_code)` which will give you `3`
 		//
 		// Want to take specific action based on specific error?
@@ -161,3 +162,11 @@ func main() {
 	fmt.Println(resp.GetResult())
 }
 ```
+
+If you want to add structured information to your error responses, arbitrary
+protobuf messages can be added to a Status using
+[`(*Status).WithDetails()`](https://pkg.go.dev/google.golang.org/grpc@v1.52.0/internal/status#Status.WithDetails).
+These details can be extracted by the client using
+[`(*Status).Details()`](https://pkg.go.dev/google.golang.org/grpc@v1.52.0/internal/status#Status.Details),
+which will allow you to iterate over the deserialized messages you attached to
+the error.
