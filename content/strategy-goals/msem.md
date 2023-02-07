@@ -22,8 +22,6 @@ Let’s break down each section of the VSEM framework to better understand how i
 - Metrics
   These are the measures or indicators that Sourcegraph will use to track our progress towards our goals. They should be closely tied to the mission and strategy and will be used to gauge the effectiveness of the execution plan to make our strategy successful.
 
-
-
 # How will Sourcegraph use the MSEM?
 
 ### Align and bring clarity to our mission and strategy
