@@ -260,7 +260,7 @@ If you contract COVID-19 before company-sponsored travel, in addition to self-is
 **During/After:**
 If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately afterwards:
 
-- You must notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Jonathan Ayers directly so that we can advise on next steps for notifying other potentially affected teammates. _Please note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
+- You must notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) so that we can advise on next steps for notifying other potentially affected teammates. _Please note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
   - **Information to share:**
     - Date symptoms began
     - Start and end date of company event and or company travel
