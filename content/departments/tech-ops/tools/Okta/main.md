@@ -62,7 +62,7 @@ Phishing resistant MFA options are the prefered method of authentication. These 
 - App-generated 2FA codes, like Google Authenticator
   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
-## Adding Touch ID as a new MFA option
+## Adding Touch ID as a phishing resistent MFA option
 
 Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
 
@@ -75,7 +75,7 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
 
-### Adding a YubiKey as an MFA option
+### Adding a YubiKey as a phishing resistant MFA option
 
 1. Sign in to your Okta Dashboard
 2. Go to your name > Settings
@@ -105,6 +105,18 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 To change between MFA options click on the arrow next to the label when prompted for MFA
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/switch%20between.png" alt="Okta MFA options" width="300" height="350">
+
+## Using phishing resistant MFA options on mobile devices
+
+Using your mobile devices to access [company data](../computer-setup.md#company-data) is limited to just a few applications, such as Gmail, Calendar, Zoom, Slack, and Airbase. If you are going to be accessing any of these apps from your phone please log into the applications using phishing resistant methods. 
+
+Once you add a Yubikey in the steps noted above to your laptop this method will also be available on your mobile device through the use of passkeys.
+
+1. Log into Okta with username and password 
+1. Select 'Security Key or Biometric Authenticator'
+1. Select 'Verify'
+1. Tap and hold your key towards the tops of the device, if NFC compatible, or insert your Yubikey 
+1. You will be logged in
 
 ## I forgot my password/my login doesn't work, what do I do?
 
