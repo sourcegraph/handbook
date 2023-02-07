@@ -12,7 +12,7 @@ Our mission is to ensure that Sourcegraph "just works" with the code hosts that 
 
 # Strategy, Execution Plan, and Metrics
 
-Currently we are supporting the admin experience vision by implementing core parts of the 2023 execution plan.
+Currently we are supporting the [Admin Experience Vision](../admin-experience/index.md) by implementing core parts of the 2023 execution plan.
 
 # Detailed Roadmap
 
