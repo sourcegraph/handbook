@@ -4,8 +4,6 @@ The Mission, Strategy, Execution, and Metrics (VSEM) framework is a tool for org
 
 If you want the complete version with context / background see the [Mission, Strategy, Execution, and Metrics (MSEM)](https://docs.google.com/document/u/0/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit).
 
-If you want just the headlines see the [Consolidated MSEM](https://docs.google.com/document/u/0/d/1B5RXpMB3GbE44BgQh1gEH2QwT2EX_eVLw6Opw3y4WHY/edit).
-
 # Breakdown of each section
 
 Let’s break down each section of the VSEM framework to better understand how it works
