@@ -6,6 +6,7 @@ Internal tools used at Sourcegraph.
 - [Observability](observability/index.md)
 - [Infrastructure](infrastructure/index.md)
 - [ScaleTesting Instance](./scaletesting.md)
+- [gRPC](./grpc_faq.md)
 
 In-house tools:
 
