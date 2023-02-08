@@ -28,4 +28,4 @@ When you create a pull request, you should see a button titled "Enable auto-merg
 
 ![Enable automerge](https://storage.googleapis.com/sourcegraph-assets/handbook/enable%20auto%20merge.png)
 
-Clicking this button means your change will automatically be merged in for you once all checks have passed. If any checks fail, you'll get an email notification if your Github account is set up to do so. This is a great way to "set it and forget it" after you make changes in the Handbook, to avoid leaving a PR open for a long time and running into merge conflicts.
+Clicking this button means your change will automatically be merged in for you once all checks have passed. If any checks fail, you'll get an email notification if your GitHub account is set up to do so. This is a great way to "set it and forget it" after you make changes in the Handbook, to avoid leaving a PR open for a long time and running into merge conflicts.

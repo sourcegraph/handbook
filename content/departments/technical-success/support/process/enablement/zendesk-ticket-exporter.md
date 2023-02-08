@@ -19,7 +19,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 
 ## Growth Areas
 
-- If this product proves useful, we can improve the data transfer process from Zendesk to GitHub with more automation. For example, a way of automatically exporting summaries to Github.
+- If this product proves useful, we can improve the data transfer process from Zendesk to GitHub with more automation. For example, a way of automatically exporting summaries to GitHub.
 
 ## How to Write a Well Formatted Ticket Summary
 

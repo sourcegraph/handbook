@@ -23,8 +23,8 @@ Template table for all sections! :)
 | ------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------ | ---------------- |
 | Access token creation failure                           | N/A   | Frotend logs, Access token page in SG UI(look for any errors)                                          | N/A              |
 | Certificate signed by unknown authority error           | N/A   | Frotend logs, Access token page in SG UI(look for any errors)                                          | N/A              |
-| Issues with the connection and authentication to Github | N/A   | Access token(permissions scopes)                                                                       | N/A              |
-| Github permissions not being reinforced                 | N/A   | can't sync GitHub permissions without using GH as the auth provider                                    | N/A              |
+| Issues with the connection and authentication to GitHub | N/A   | Access token(permissions scopes)                                                                       | N/A              |
+| GitHub permissions not being reinforced                 | N/A   | can't sync GitHub permissions without using GH as the auth provider                                    | N/A              |
 | User is linked to multiple emails                       | N/A   | Look at "user_external_account" table in postgres db and make sure data is expected with no duplicates | N/A              |
 
 ### Batch Changes related issues

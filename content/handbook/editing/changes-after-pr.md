@@ -4,7 +4,7 @@
 
 ### Steps:
 
-1. Viewing your PR in Github, click the "Files Changed" tab.
+1. Viewing your PR in GitHub, click the "Files Changed" tab.
 1. Click the three dots in the top right corner of the editor and select "Edit this file"
 1. Make your edits.
 1. Scroll to the bottom of the page, and commit your changes directly to your branch. You'll be directed back to your PR.

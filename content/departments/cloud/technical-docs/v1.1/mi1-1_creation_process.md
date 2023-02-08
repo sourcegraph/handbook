@@ -36,7 +36,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 
    Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
 
-1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
+1. PR will be open automatically by GitHub Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
 
 Note:
 

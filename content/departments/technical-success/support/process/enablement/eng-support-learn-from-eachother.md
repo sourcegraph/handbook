@@ -53,8 +53,8 @@ Whenever a software engineer or an support engineer has the desire/time to creat
 
 We have a shared responsibility to maintain and improve docs.sourcegraph.com. Whenever an support engineer identifies a gap or something that needs to be updated, we will either:
 
-- Make the edit on (or create) the actual docs page (in Github) and seek review from the appropriate engineering team
-- File a docs issue in Github for the appropriate engineering team explaining what is missing, and tag it as `docs` as well as tagging the appropriate engineering team to fill in the gaps/needs we have identified
+- Make the edit on (or create) the actual docs page (in GitHub) and seek review from the appropriate engineering team
+- File a docs issue in GitHub for the appropriate engineering team explaining what is missing, and tag it as `docs` as well as tagging the appropriate engineering team to fill in the gaps/needs we have identified
 
 When we work on documentation, we…
 
@@ -67,7 +67,7 @@ When we work on documentation, we…
 
 ## Projects
 
-Some engineering teams have a way for an support engineer to take on a scope-bound project (like taking responsibility for a small Github issue). This isn’t easy for all teams and it’s better if we start with a conversation than jumping in. Also consider the following…
+Some engineering teams have a way for an support engineer to take on a scope-bound project (like taking responsibility for a small GitHub issue). This isn’t easy for all teams and it’s better if we start with a conversation than jumping in. Also consider the following…
 
 ### If you are interested in frontend development...
 

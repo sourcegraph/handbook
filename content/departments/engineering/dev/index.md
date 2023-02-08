@@ -80,7 +80,7 @@ Sourcegraph has a lot of repositories!
 - [storybook.sgdev.org](http://storybook.sgdev.org) is a design system built with Storybook.
 - [gerrit.sgdev.org](https://gerrit.sgdev.org) is a Gerrit test instance.
 - [gitlab.sgdev.org](./tools/infrastructure/index.md#gitlab) is a Gitlab test instance.
-- [github.sgdev.org](https://github.sgdev.org) is a Github test instance.
+- [github.sgdev.org](https://github.sgdev.org) is a GitHub test instance.
 - [bitbucket.sgdev.org](https://bitbucket.sgdev.org) is a Bitbucket test instance.
 
 ## Slack channels

@@ -81,8 +81,8 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 1. Verify all necessary information is in the request
 1. Determine urgency and priority against other work
 1. Set expectations with stakeholder/requester. The Content Platform team work in two-week sprints and will confirm what will be added to next or future sprint after the [bi-weekly planning meeting](#bi-weekly-planning-meeting).
-1. Create a Github issue (may automate this, TBD) and link the issue in the request thread in the #content-platform channel. You can see an example [here](https://sourcegraph.slack.com/archives/C02PSJF0QLU/p1647386134658749).
-1. If this is a marketing request, add the `marketing-request` label to the Github issue.
+1. Create a GitHub issue (may automate this, TBD) and link the issue in the request thread in the #content-platform channel. You can see an example [here](https://sourcegraph.slack.com/archives/C02PSJF0QLU/p1647386134658749).
+1. If this is a marketing request, add the `marketing-request` label to the GitHub issue.
 1. If applicable, assign to a developer. Otherwise put into the team [Kanban board](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22) according to priority determined in step 2.
 
 ### Creating Issues
@@ -98,7 +98,7 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
     - [Docsite](https://github.com/sourcegraph/docsite/issues/new) for application level
   - Note: After issues are created, they must be added to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1) to be prioritized
 - Anyone can request help from the Content Platform team according to [this process](#requests)
-  - Issues are then [triaged](#triaging-incoming-requests) and added to the proper repo in Github (and to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1))
+  - Issues are then [triaged](#triaging-incoming-requests) and added to the proper repo in GitHub (and to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1))
 - Anyone can [create an issue directly in the project](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-project-board-note)
 
 ### Prioritizing Issues
@@ -108,7 +108,7 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 
 ### Issue Status + Updating Issues
 
-- All work tracked in the Content Platform [Github project](https://github.com/orgs/sourcegraph/projects/227/views/1)
+- All work tracked in the Content Platform [GitHub project](https://github.com/orgs/sourcegraph/projects/227/views/1)
 - **Views:**
   - **[All Issues](https://github.com/orgs/sourcegraph/projects/227/views/1)** contains issues that fall under the [responsibilities](#responsibilities) of the content platform team, regardless of repo or site.
   - **[Handbook](https://github.com/orgs/sourcegraph/projects/227/views/5)** contains issues in the [Handbook repo](https://github.com/sourcegraph/handbook).
@@ -193,7 +193,7 @@ You can view our [Current Sprint](https://github.com/orgs/sourcegraph/projects/2
 - Marketing will continue to track work in Asana, while the Content Platform team is tracking work in GitHub. Details of how this will work:
   - Marketing Project Manager is responsible for keeping Asana up to date.
   - Content Platform Product Manager is responsible for keeping GitHub up to date.
-  - GitHub issue contains a link to the Asana card, and Asana card contains a link to Github issue.
+  - GitHub issue contains a link to the Asana card, and Asana card contains a link to GitHub issue.
   - Content Platform team provides updates to their work in GitHub, including but no limited to:
     - QA links
     - Questions for stakeholders

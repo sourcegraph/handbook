@@ -37,7 +37,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Talk about the teams we interact with the most
 - Discuss the Handbook
 - Discuss CS day to day
-- Discuss main CS tools like Slack(main channels) and Github
+- Discuss main CS tools like Slack(main channels) and GitHub
 - What is your learning style?
 - How do you feel about your knowledge of Sourcegraph so far?
 - What are you really looking forward to learning about the product?

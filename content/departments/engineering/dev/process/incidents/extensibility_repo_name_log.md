@@ -1,6 +1,6 @@
 ## Background:
 
-The extension team within Sourcegraph’s cloud organization was working on a feature called Browser Extension fallback to Sourcegraph.com (Github: link).
+The extension team within Sourcegraph’s cloud organization was working on a feature called Browser Extension fallback to Sourcegraph.com (GitHub: link).
 
 Our goal is to create useful extensions for Sourcegraph users, whether they are using on-prem enterprise instances or Sourcegraph.com. Recently, we launched a new version of the Chrome and Firefox extension (version 21.10.15.1603) which introduced a bug that resulted in the Chrome and Firefox extensions defaulting to Sourcegraph Cloud, rather than checking on-prem.
 
@@ -37,7 +37,7 @@ We are committed to learning in an open and transparent way from this incident. 
 In an effort to be open and transparent, we are publishing answers to commonly asked questions from our enterprise customers here. We will continue to update this page as additional questions arise.
 
 **Was this just private repo names from GitHub.com or did it also include usage in GitHub Enterprise?**
-It also included Github Enterprise.
+It also included GitHub Enterprise.
 
 **I've checked managed Chrome instance logs, and it would appear nobody from our team has updated their browser extension since 2021-10-15. Does that mean we're unlikely to be impacted?**
 Correct, you were not impacted.
