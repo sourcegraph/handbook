@@ -12,7 +12,7 @@
 
 ### Sourcegraph architecture
 
-Sourcegraph is essentially built from many different **services** that are deployed from **docker images**. Each **service** has its own resource allocation, configuration, and other **services** it talks to. Some services communicate to **external services** like Github through API's, while others communicate to **internal services**, such as a database, or the client aka **browser**. Each service generates its own **logging data.** All services collect at the **frontend** service. See the [Sourcegraph Architecture page](https://docs.sourcegraph.com/dev/background-information/architecture) for a visual of each service.
+Sourcegraph is essentially built from many different **services** that are deployed from **docker images**. Each **service** has its own resource allocation, configuration, and other **services** it talks to. Some services communicate to **external services** like GitHub through API's, while others communicate to **internal services**, such as a database, or the client aka **browser**. Each service generates its own **logging data.** All services collect at the **frontend** service. See the [Sourcegraph Architecture page](https://docs.sourcegraph.com/dev/background-information/architecture) for a visual of each service.
 
 ### Site administrators
 
@@ -40,12 +40,12 @@ Each service has its own logging data. Conceptually, logs are records of service
 
 Typically in logs you will see records of HTTP requests made to internal and external services. For example:
 
-- Sourcegraph's Gitserver sends an external request via Github's API to Github.
-- If the request is successful, Github's API should send back an HTTP response with the requested data.
+- Sourcegraph's Gitserver sends an external request via GitHub's API to GitHub.
+- If the request is successful, GitHub's API should send back an HTTP response with the requested data.
 - The request and response has an HTTP response header associated with it
 - All this corresponds to how that API was designed by the service provider.
 
-Extrapolating on API's, this is why knowing which **External service code host(s)** (Github, Gitlab, etc) a customer has configured is important because _that external services_ documentation should have API docs for what each status code means. Also, outages for an _exteral service_ could affect a customer's Sourcegraph instance as well.
+Extrapolating on API's, this is why knowing which **External service code host(s)** (GitHub, Gitlab, etc) a customer has configured is important because _that external services_ documentation should have API docs for what each status code means. Also, outages for an _exteral service_ could affect a customer's Sourcegraph instance as well.
 
 ### Log request timing concepts
 

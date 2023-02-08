@@ -103,7 +103,7 @@ Management approval is required prior to the installation or use of any ad hoc o
 
 The risk to avoid is the introduction of new code in our open source Sourcegraph code by external people, therefore access to program source code and associated items, including designs, specifications, verification plans, and validation plans should be strictly controlled in order to prevent the introduction of unauthorized functionality into software, avoid unintentional changes, and protect Sourcegraph intellectual property.
 
-All access to private source code shall follow our [Github Access & Permission Policy.](https://docs.google.com/document/d/1PHu0LhiybXdBenivkZy5l3A9Pq300L_YH8s0lavxLcE/edit)
+All access to private source code shall follow our [GitHub Access & Permission Policy.](https://docs.google.com/document/d/1PHu0LhiybXdBenivkZy5l3A9Pq300L_YH8s0lavxLcE/edit)
 
 ### Exceptions
 

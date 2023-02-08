@@ -58,7 +58,7 @@ Outdated or inaccurate content should be removed from the handbook whenever it's
 - **Confusion:** Which version of the content is correct?
 - **Bloated handbook pages:** Long pages are hard to consume, and should only contain the necessary content.
 
-When deleting content or a page that you don't normally maintain, it's best to double check with the content owners to be sure what you're deleting is no longer needed. To see who has contributed to a page, look for the "contributors" section on the right side of any handbook page and click on an avatar to see that person's Github profile:
+When deleting content or a page that you don't normally maintain, it's best to double check with the content owners to be sure what you're deleting is no longer needed. To see who has contributed to a page, look for the "contributors" section on the right side of any handbook page and click on an avatar to see that person's GitHub profile:
 
 ![Handbook contributors](https://storage.googleapis.com/sourcegraph-assets/handbook/handbook-contributors.png)
 

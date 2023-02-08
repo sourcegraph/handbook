@@ -22,7 +22,7 @@
   - [ ] Product and/or engineering provide direction and/or feedback
 
   ### Define
-  - [ ] Github issue
+  - [ ] GitHub issue
   - [ ] Design challenge
 
   ### Design

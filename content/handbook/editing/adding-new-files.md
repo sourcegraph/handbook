@@ -8,11 +8,11 @@ A screen recording of how to make a new file and include it for review in the we
 
 ### Steps:
 
-_This is just one path for creating a new page in the Handbook. These steps can be completed in a different order, or outside of the Github web interface._
+_This is just one path for creating a new page in the Handbook. These steps can be completed in a different order, or outside of the GitHub web interface._
 
 1. Navigate to the directory where you want to create your new page.
 
-   - If you aren't sure how to get there in Github, click "Edit This Page" on the Handbook page where you'd like to add your new page. Then, look for the file path towards the top of your Github page to click up into the directory:
+   - If you aren't sure how to get there in GitHub, click "Edit This Page" on the Handbook page where you'd like to add your new page. Then, look for the file path towards the top of your GitHub page to click up into the directory:
 
    ![Navigate to Directory](https://storage.googleapis.com/sourcegraph-assets/handbook/navigate-to-directory.png)
 
@@ -41,7 +41,7 @@ _This is just one path for creating a new page in the Handbook. These steps can 
 
 ## macOS
 
-### Github Desktop version
+### GitHub Desktop version
 
 Here's a screen recording of the steps (written out below) for macOS:
 

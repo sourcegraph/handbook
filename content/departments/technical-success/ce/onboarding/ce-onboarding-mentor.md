@@ -69,15 +69,15 @@ Week four intends to take what the mentee has learned about the Sourcegraph prod
 
 They will focus on:
 
-- Github Search
+- GitHub Search
 - Grep
 - OpenGrok
 
-We are looking for them to be able to demonstrate an advantage / differentiator between Sourcegraph and Github Search, OpenGrok, and Grep.
+We are looking for them to be able to demonstrate an advantage / differentiator between Sourcegraph and GitHub Search, OpenGrok, and Grep.
 
 In the check-in's during week 4, mentors should focus on confirming any misconceptions on product knowledge and specific use cases and how we perform these activities differently / what's the advantage and business benefit.
 
-- Mentee familiar with Github Search and how we are different
+- Mentee familiar with GitHub Search and how we are different
 - Mentee familiar with Grep and how we are different
 - Mentee familiar with OpenGrok and how we are different
 
