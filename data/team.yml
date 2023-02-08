@@ -55,17 +55,6 @@ stephen_gutekanst:
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stephen-gutekanst)'
   description: 'Stephen enjoys spending time with his numerous [kittos](https://github.com/slimsag/slimsag/blob/master/CATS.md) while solving some of the most critical and technically challenging issues he can get his hands on. Prior to Sourcegraph, he worked 3 years full-time on a game engine in Go while in school. Over the past ~6 years he has been working directly with some of our largest customers and relentlessly advocating for users, and today focuses on high-value low-cost wins across the board.'
 
-ryan_slade:
-  name: Ryan Slade
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_repo
-  location: Valencia, Spain 🇪🇸
-  email: rslade@sourcegraph.com
-  github: ryanslade
-  links: '[@frefity](https://twitter.com/frefity), [LinkedIn](https://www.linkedin.com/in/ryan-slade-1bb36bb/)'
-  description: Ryan enjoys spending time with his family, mountain biking and playing squash. Prior to Sourcegraph he helped develop a real time bidding system for online advertisers at Avocet and worked for a taxi hailing company in London, Hailo. He studied Computer Science at the University of Cape Town and has lived in the South Africa, the UK, Singapore the US and Spain.
-
 eric_fritz:
   name: Eric Fritz
   pronouns: he/him
@@ -1405,15 +1394,6 @@ desene_sterling:
   role: Financial Controller
   reports_to: vp_operations
   manager_role_slug: financial_controller
-
-feroz_salam:
-  name: Feroz Salam
-  email: feroz.salam@sourcegraph.com
-  github: ferozsalam
-  role: Security Engineer
-  reports_to: engineering_manager_security
-  location: Bristol and London, UK
-  description: Feroz has been working in security engineering for most of his career, initially as a developer of anti-phishing products and more recently within application security and incident response for banking infrastructure. His LinkedIn profile also claims that his skills include French Horn, Dairy Science, and Immigration Issues; some of these might be true.
 
 shawntee_harris:
   name: Shawnteé Harris
