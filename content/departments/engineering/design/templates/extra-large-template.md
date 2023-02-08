@@ -36,7 +36,7 @@
   ### Define
   - [ ] Product document or RFC - Link
   - [ ] Design challenge - Link
-  - [ ] Github issue
+  - [ ] GitHub issue
 
   ### Design
   - [ ] user journey map - Link

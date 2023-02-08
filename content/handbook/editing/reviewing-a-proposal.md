@@ -10,7 +10,7 @@ Frequently used links:
 
 ### How do I know if I'm being asked to review someone's proposal?
 
-If someone has selected you as a reviewer or an approver, you will receive a notification from Github. You can also visit [this link](https://github.com/sourcegraph/about/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+review-requested%3A%40me) to see proposed Handbook changes waiting on a review from you.
+If someone has selected you as a reviewer or an approver, you will receive a notification from GitHub. You can also visit [this link](https://github.com/sourcegraph/about/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+review-requested%3A%40me) to see proposed Handbook changes waiting on a review from you.
 
 ### Can I review and comment on a proposal, even if I wasn't asked?
 

@@ -20,7 +20,7 @@
   - [ ] Product and/or engineering provide direction and/or feedback
 
   ### Define
-  - [ ] Github issue
+  - [ ] GitHub issue
 
   ### Design
   - [ ] High fidelity design using design system or low fidelity design as

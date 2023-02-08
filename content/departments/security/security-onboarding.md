@@ -16,9 +16,9 @@ Sourcegraph as a whole uses Slack heavily for daily communication - our team als
 - **#security-terraform** - Our infrastructure is managed using Terraform, and notifications regarding changes to security-related infrastructure go here.
 - **#incidents** - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context.
 
-## Github Setup
+## GitHub Setup
 
-If you haven't been given access to Sourcegraph's Organization on Github yet reach out to **#it-tech-ops** on Slack and provide your Github username.
+If you haven't been given access to Sourcegraph's Organization on GitHub yet reach out to **#it-tech-ops** on Slack and provide your GitHub username.
 
 We are an all-remote company and favor asynchronous communication, it is important to configure your notifications correctly so that you receive and read notifications that are important (e.g. someone makes a comment on one of your PRs, someone adds you as a reviewer to a PR) without being overwhelmed by notifications that don’t involve you.
 

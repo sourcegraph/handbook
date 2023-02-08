@@ -46,7 +46,7 @@ The Handbook is part of the [Content Platform team strategy](../../strategy-goal
 
 **Owner:** Handbook Team
 
-**Contributions:** The Handbook team aggregates feedback on the Handbook publishing process and logs issues in [Github](https://github.com/sourcegraph/handbook/issues). Work on these issues occur as part of the [Content Platform team strategy](../../strategy-goals/strategy/content-platform/index.md). Raise any questions, feedback or concerns in the #handbook channel.
+**Contributions:** The Handbook team aggregates feedback on the Handbook publishing process and logs issues in [GitHub](https://github.com/sourcegraph/handbook/issues). Work on these issues occur as part of the [Content Platform team strategy](../../strategy-goals/strategy/content-platform/index.md). Raise any questions, feedback or concerns in the #handbook channel.
 
 ### Product Engineering & Deployment
 
@@ -54,4 +54,4 @@ The Handbook is part of the [Content Platform team strategy](../../strategy-goal
 
 **Owner:** Handbook Team
 
-**Contributions:** The Handbook team aggregates feedback on the technical foundation of the Handbook and logs issues in [Github](https://github.com/sourcegraph/handbook/issues). Work on these issues may occur ad hoc during [Handbook Hacking Hours](../index.md#handbook-hacking-hours) or as part of the [Content Platform team strategy](../../strategy-goals/strategy/content-platform/index.md). Raise any questions, feedback or concerns in the #handbook channel.
+**Contributions:** The Handbook team aggregates feedback on the technical foundation of the Handbook and logs issues in [GitHub](https://github.com/sourcegraph/handbook/issues). Work on these issues may occur ad hoc during [Handbook Hacking Hours](../index.md#handbook-hacking-hours) or as part of the [Content Platform team strategy](../../strategy-goals/strategy/content-platform/index.md). Raise any questions, feedback or concerns in the #handbook channel.

@@ -12,7 +12,7 @@ From our first initial conversation, CEs will share these environments with pros
 
 To start, we will begin with building this structure for environments representing the below two common “flavors” of complex customer:
 
-1. Customers with a large monorepo across major code hosts (Github, Gitlab, Bitbucket, Perforce)
-2. Customers with many repos and complex permissioning across major code hosts (Github, Gitlab, Bitbucket, Perforce)
+1. Customers with a large monorepo across major code hosts (GitHub, Gitlab, Bitbucket, Perforce)
+2. Customers with many repos and complex permissioning across major code hosts (GitHub, Gitlab, Bitbucket, Perforce)
 
 We'll expand these environments over time.

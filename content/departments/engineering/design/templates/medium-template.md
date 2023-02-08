@@ -32,7 +32,7 @@
 
   ### Define
   - [ ] Product document or RFC - Link
-  - [ ] Github issue
+  - [ ] GitHub issue
   - [ ] Design challenge
 
   ### Design

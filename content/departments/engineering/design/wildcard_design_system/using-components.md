@@ -15,7 +15,7 @@ When a new component is required, the designer who discovered the gap is respons
   - A clear verbal description of why a new component is needed
 - @ mention a frontend engineer in the Figma file to request the addition to the component system. Engineering will approve, requests changes, or request that the designer uses an existing component
 - @ mention a designer and request a review
-- Create a GitHub issue for the component. Designers should use the Github issue template, labeled "Propose a new Wildcard component".
+- Create a GitHub issue for the component. Designers should use the GitHub issue template, labeled "Propose a new Wildcard component".
 - When the GitHub issue is complete:
   - Remove the '\_' from the component name
   - Add the component to the Figma component system
@@ -36,7 +36,7 @@ When a change to an existing component is required, the designer who is proposin
   - A clear verbal description of the suggested changes
 - @ mention a frontend engineer in the Figma file to request a change to an existing component. Engineering will approve, requests changes, or request that the designer uses an existing component
 - @ mention a designer and request a review
-- Create a GitHub issue for the component. Designers should use the Github issue template, labeled "Propose a new Wildcard component".
+- Create a GitHub issue for the component. Designers should use the GitHub issue template, labeled "Propose a new Wildcard component".
 - When the GitHub issue is complete:
   - Remove the '\_' from the component name
   - Modify the main instance of the component in Wildcard
