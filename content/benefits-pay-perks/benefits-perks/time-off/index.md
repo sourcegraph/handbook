@@ -6,7 +6,7 @@ This balance looks different from person to person and may be reliant on a numbe
 
 Here are some basic guidelines to help our teammates navigate their paid time off for rest, paid time off for reasons other than rest, and working hours.
 
-- **Important**: please record all of your PTO (including public holidays) in Roots as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
+- **Important**: please record all of your PTO (including public holidays) in PTO by Deel as far in advance as possible to notify your manager. If you have any questions about recording PTO in Deel, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
 ## Paid time off policy:
 
@@ -27,13 +27,13 @@ As always, please ensure you comply with your resident country’s legislated ti
 While you don’t need to ask for formal PTO approval for short-term time off, we do have some expectations and ground rules that we expect Teammates to follow:
 
 - Inform your Manager:
-  - As a rule of thumb, you should inform your Manager a minimum of 5 business days before your upcoming leave, if practicable. All PTO must be documented in PTO by Roots at this time, and you can alert your Manager with a calendar invite, a Slack message, or both. Where advanced notice is not reasonably possible, you should inform your manager as soon as possible.
+  - As a rule of thumb, you should inform your Manager a minimum of 5 business days before your upcoming leave, if practicable. All PTO must be documented in PTO by Deel at this time, and you can alert your Manager with a calendar invite, a Slack message, or both. Where advanced notice is not reasonably possible, you should inform your manager as soon as possible.
   - If you are paid through Remote.com, you also need to submit your PTO request directly in the Remote.com system.
 - Ensure the business is supported & get coverage:
   - Unless you have an emergency, taking time off should never be at the expense of your teammates or the business. This means that you must ensure that your work is supported by your team before you take leave. At the end of the day, teammates are still responsible for their goals/objectives. You need to either (1) make sure there's a plan for accomplishing them, or (2) have a direct discussion with your manager about changes to goals and make a joint decision. It's your responsibility to figure out how to make that all work.
-  - If leaving town for more than 5 business days, Teammates are encouraged to utilize the PTO by ROOTS Assign Roles feature - it allows a person to add multiple people to delegate their responsibilities to and each person has to approve taking this responsibility (step by step instructions are listed below). To Assign Roles while you’re out of office, navigate to the PTO by Roots app within Slack and follow these steps:
-    - 1. Click ‘+ Create OOO’ if you have not yet added your upcoming PTO into Roots.
-    - 2. Click ‘...’ next to your upcoming OOO dates and select ‘Assign Roles’. Note: Your upcoming OOO dates will be visible on the Home tab of the Roots app when ‘Your Events’ is the selected dashboard.
+  - If leaving town for more than 5 business days, Teammates are encouraged to utilize the PTO by ROOTS Assign Roles feature - it allows a person to add multiple people to delegate their responsibilities to and each person has to approve taking this responsibility (step by step instructions are listed below). To Assign Roles while you’re out of office, navigate to the PTO by Deel app within Slack and follow these steps:
+    - 1. Click ‘+ Create OOO’ if you have not yet added your upcoming PTO into Deel.
+    - 2. Click ‘...’ next to your upcoming OOO dates and select ‘Assign Roles’. Note: Your upcoming OOO dates will be visible on the Home tab of the Deel app when ‘Your Events’ is the selected dashboard.
     - 3. Select whether you are delegating responsibilities to a specific coworker or to an entire channel.
     - 4. Update the Assignee field with the correct coworker or channel name
     - 5. Enter in the Roles/Responsibilities the coworker or channel will be covering while you’re OOO. Additional details and any other helpful information can be added into the Role Description field.
@@ -51,55 +51,55 @@ While you don’t need to ask for formal PTO approval for short-term time off, w
 
 ## Recording PTO
 
-Please record all of your PTO (including public holidays) in [Roots](submitting-time-off.md) as far in advance as possible to notify your manager (ideally 5+ business days). Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about Roots and how it works. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
+Please record all of your PTO (including public holidays) in [Deel](submitting-time-off.md) as far in advance as possible to notify your manager (ideally 5+ business days). Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about PTO by Deel and how it works. If you have any questions about recording PTO in Deel, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
-We want to capture your time off in Roots so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
+We want to capture your time off in Deel so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
 
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, please seek guidance from your People Partner and Manager so we can understand how to support you.
 
-**Using Roots - step-by-step breakdown**
+**Using PTO by Deel - step-by-step breakdown**
 
 1. Go to your Slack app and scroll down to "Apps" on the left-hand side
-2. Click on "PTO by Roots" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
+2. Click on "PTO by Deel" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
 3. Click "Create OOO" and you will be prompted with a new screen with fields to fill out
 4. Select your type of leave (vacation, wellbeing, life, religious holiday, public holiday, parental, medical)
 5. Enter a name for your PTO event if you choose (this is optional)
 6. Select the dates you will be out for that particular PTO event
-7. You will receive a message from Roots prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
+7. You will receive a message from Deel prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
 8. Select "coworker" or "channel" based on who you would like to cover you while you're away
 9. Select the teammate or channel in the dropdown that you'd need to cover for you
 10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
-11. You will also receive a message from Roots asking you if you would like Roots to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
+11. You will also receive a message from Deel asking you if you would like Deel to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
 12. Record your time off in GCalendar
 
 ## Submitting paid time off (PTO)
 
-### Recording paid time off via Roots
+### Recording paid time off via Deel
 
-We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack.
+We submit and record all PTO using [Deel](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack.
 
-Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about Roots and how it works.
+Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about PTO by Deel and how it works.
 
 Please see below for a step by step breakdown:
 
 1. Go to your Slack app and scroll down to "Apps" on the left-hand side
-2. Click on "PTO by Roots" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
+2. Click on "PTO by Deel" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
 3. Click "Create OOO" and you will be prompted with a new screen with fields to fill out
 4. Select your type of leave (vacation, wellbeing, life, religious holiday, public holiday, parental, medical)
 5. Enter a name for your PTO event if you choose (this is optional)
 6. Select the dates you will be out for that particular PTO event
-7. You will receive a message from Roots prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
+7. You will receive a message from Deel prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
 8. Select "coworker" or "channel" based on who you would like to cover you while you're away
 9. Select the teammate or channel in the dropdown that you'd need to cover for you
 10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
-11. You will also receive a message from Roots asking you if you would like Roots to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
+11. You will also receive a message from Deel asking you if you would like Deel to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
 12. Record your time off in GCalendar
 
 ## Adding PTO to your calendar
 
-Roots creates an event for you in your calendar that lasts through the time you've requested. We encourage you to invite your team and people you are collaborating with to the event.
+PTO by Deel creates an event for you in your calendar that lasts through the time you've requested. We encourage you to invite your team and people you are collaborating with to the event.
 
-Keep in mind the event that Roots creates is not an OOO type event. This means that meetings you've accepted or that you are invited to won't be rejected automatically. This means you have to go to Google Calendar and create an OOO event for the length of the time you will be out.
+Keep in mind the event that Deel creates is not an OOO type event. This means that meetings you've accepted or that you are invited to won't be rejected automatically. This means you have to go to Google Calendar and create an OOO event for the length of the time you will be out.
 
 ## Adding an OOO alert in Gmail
 
