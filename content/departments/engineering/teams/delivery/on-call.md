@@ -95,7 +95,7 @@ This is section is not designed to be prescriptive. You should use your best jud
 
 Delivery engineers who are _not_ support rotation do not need to respond to questions, instead they should defer to the Engineer On-Call (EOC). This is intended to promote knowledge transfer from subject matter experts (SMEs) to the rest of the Delivery team.
 
-While the EOC may not provide the final resolution, the expectation is to provide an initial response, triage, and ensure that issues are captured in the [Delivery Github Project](https://github.com/orgs/sourcegraph/projects/205).
+While the EOC may not provide the final resolution, the expectation is to provide an initial response, triage, and ensure that issues are captured in the [Delivery GitHub Project](https://github.com/orgs/sourcegraph/projects/205).
 
 > Anything we are not doing today or not documented in our handbook is most likely a feature request.
 

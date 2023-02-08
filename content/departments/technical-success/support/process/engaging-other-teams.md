@@ -10,9 +10,9 @@ When we need help, we seek it consistently, following the steps outlined here. W
 
 With the introduction of the [escalation engineering rotation](../../../engineering/dev/process/escalation-engineer-rotation.md) Slack channel, we have the latitude to engage with engineering directly and get responses faster from engineering. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
 
-1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into Github helps us suss out our performance as well as room for growth.
+1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into GitHub helps us suss out our performance as well as room for growth.
 2. To help reduce time to resolution for customer issues, we'd like to remain agile and make use of the #escalation-engineering channel to get eyes on it as soon as possible. If required, and for some of the issues that we judge that are related to a specific team input, we then use GitHub RFHs given that those would require a deeper subject matter level of attention.
-3. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the Github issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
+3. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the GitHub issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
 
 At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-engineering Slack channel is for.
 
@@ -20,7 +20,7 @@ Any support engineer can use the #ask-engineering, #ask-implementation and #esca
 
 - ...for your own curiosity as you are learning (a question you have)
 - ...as you work on a cross-functional project
-- ...maybe if you get curious after posting in #escalation-engineering or filing a Github issue and you have a tangentially related issue -- just say that when you post
+- ...maybe if you get curious after posting in #escalation-engineering or filing a GitHub issue and you have a tangentially related issue -- just say that when you post
 
 And now that this is all clear, here is our practice:
 
@@ -150,9 +150,9 @@ If the docs site is unavilable, route to the [Content Platform team](../../../en
 
 For a more detailed breakdown of codebase ownership please see the [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) matrix
 
-## Step 4: File a Github issue
+## Step 4: File a GitHub issue
 
-Filing a Github issue allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.
+Filing a GitHub issue allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.
 
 ### Select the right issue tracker
 
@@ -175,7 +175,7 @@ If it turns out to be a general issue affecting multiple deployments, create an 
 
 ### Add the priority label
 
-Add a prioritization label to the Github issue based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
+Add a prioritization label to the GitHub issue based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
 
 - `cs/p1`: All customer reported issues per our contractual p1 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
 - `cs/p2`: All customer reported issues per our contractual p2 service level agreement definition [here](../index.md#our-service-level-agreements-slas), including all feature requests.
@@ -186,7 +186,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 ### Requests for help (RFHs)
 
-After you post in #escalation-engineering or file a Github issue, keep it simple and always provide 1) a brief description of the issue you need help on, 2) link to the Github issue(if you chose this route), and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
+After you post in #escalation-engineering or file a GitHub issue, keep it simple and always provide 1) a brief description of the issue you need help on, 2) link to the GitHub issue(if you chose this route), and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
 - When posting in the Delivery team's Slack channel, use @delivery-support
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
@@ -207,13 +207,13 @@ If the issue is a defect, we trust our teammates in product and engineering to s
 
 Ask the engineer helping you to see if they would like to work directly with the customer. If so, we can add them in cc on the Zendesk ticket (if the origin was the support@ email) or @ them in the relevant customer-facing Slack thread. We never want to be an unnecessary go-between, but depending on the issue, we also don't want to erode the customer's trust in your ability. It's okay that you need help and it's also okay to position that as your desire to talk with your teammates (as described in step 1).
 
-It's also okay to share with the engineering helping you that you would appreciate chatting over Slack more casually or that you would appreciate a Zoom call. You are working with them, it's okay to collaborate like you would any member of the team! If you want to learn more about something that comes up, just share that. Our teammates in engineering will be happy to engage in more robust ways than just the back and forth in the Github issue.
+It's also okay to share with the engineering helping you that you would appreciate chatting over Slack more casually or that you would appreciate a Zoom call. You are working with them, it's okay to collaborate like you would any member of the team! If you want to learn more about something that comes up, just share that. Our teammates in engineering will be happy to engage in more robust ways than just the back and forth in the GitHub issue.
 
 ### Resolution
 
 Even when engineering is helping, you are accountable for the work and it is your job to reach resolution as outlined in our [workflow](support-workflow.md).
 
-And in some cases, the customer resolves the issue or you figure it out on your own, after all. Please be sure to share in the Github issue all the details so our engineering teammates can learn, too!
+And in some cases, the customer resolves the issue or you figure it out on your own, after all. Please be sure to share in the GitHub issue all the details so our engineering teammates can learn, too!
 
 ## And sometimes, we need help from teams outside of engineering ...
 

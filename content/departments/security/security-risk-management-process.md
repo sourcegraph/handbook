@@ -92,7 +92,7 @@ the risk owner to identify treatments that would achieve this goal, and a
 realistic timeline in which this can happen.
 
 Once this is done, the risk entry in the register should be updated with links
-to specific issues in relevant trackers (Github, Jira, etc.) where the
+to specific issues in relevant trackers (GitHub, Jira, etc.) where the
 treatment actions will occur, as well as the due date. The Security team member
 must notify the risk owner of this change and receive written confirmation that
 they are satisfied with the status of the risk register entry.

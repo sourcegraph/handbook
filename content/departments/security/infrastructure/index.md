@@ -19,7 +19,7 @@ These are the security team's current GCP projects, and what they do:
 #### sourcegraph-security-logging
 
 - Ingests audit logging from various sources for monitoring and review. See the
-  Github documentation linked above for detailed technical documentation of
+  GitHub documentation linked above for detailed technical documentation of
   exactly which sources are consumed, through which pipelines, and how the data
   is managed and monitored once it is in the cluster.
 - Currently ingests all published SCC (Security Command Center) findings and posts critical / highs to internal slack channel #security-monitoring.

@@ -167,7 +167,7 @@ git add . && git commit -m "$CUSTOMER: update docker-compose.yaml"
 Create a pull request:
 
 ```sh
-gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "Part of <link to release tracking Github ticket>\n## Test plan: <paste mi check results>\n"
+gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "Part of <link to release tracking GitHub ticket>\n## Test plan: <paste mi check results>\n"
 ```
 
 ## Post-upgrade healthcheck

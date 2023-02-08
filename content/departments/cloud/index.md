@@ -152,7 +152,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/suppor
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 | Add IP(s) to Managed Instance                 | Add new list of IPs to MI allowlist                    | 1 working day                                 | Within 3 days                                 |
 
-_Agreement here is the date specified within the required Github issue_
+_Agreement here is the date specified within the required GitHub issue_
 
 ### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
@@ -272,7 +272,7 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 
 You can either use:
 
-- [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
+- [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
 - `mi cli` via command:
 
 ```

@@ -63,7 +63,7 @@ The release process is performed in steps:
 
 1. New version is released via [release guild](../../engineering/guilds/release_guild.md)
 2. GitHub issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the managed instances upgrade template.
-3. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
+3. GitHub issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
 
 - for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
@@ -80,7 +80,7 @@ After upgrade of every single instances [Uptime checks](./v1.1/mi1-1_upgrade_pro
 Sample upgrade:
 
 - [tracking issue - 3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
-- Github Pull Requests for [3.40.1 upgrade](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls?q=is%3Apr+is%3Aclosed++upgrade+v3.40.1)
+- GitHub Pull Requests for [3.40.1 upgrade](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls?q=is%3Apr+is%3Aclosed++upgrade+v3.40.1)
 
 ### Known limitations of managed instances
 

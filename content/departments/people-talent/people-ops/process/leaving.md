@@ -73,7 +73,7 @@ Depending on the nature of your departure, you may be asked to create a transiti
 3. **Re-assign meetings:** please make sure to delete or re-assign any meetings you have scheduled. These could include recurring team/client meetings, or future meetings that you have scheduled.
 4. **Meet with Tech Ops.** You will be responsible for scheduling time with Tech Ops to wipe your laptop, ideally on your last day. Once you leave, your laptop will remain locked until a time is arranged for the complete device wipe.
 5. **Reassign system ownership.** If you are a system owner, please ensure Finance and Tech Ops are aware of who the new system owner(s) is/are before your last day of work.
-6. **Transfer integrations.** Do you have any integrations set up that need to be transferred before you leave? Contact Tech Ops if this is the case. Examples include active API tokens, Github/Slack and Zapier integrations.
+6. **Transfer integrations.** Do you have any integrations set up that need to be transferred before you leave? Contact Tech Ops if this is the case. Examples include active API tokens, GitHub/Slack and Zapier integrations.
 
 ## **Exit Interviews**
 
