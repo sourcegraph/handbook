@@ -1,0 +1,23 @@
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a.block {
+    border: 2px solid var(--gray-05);
+    background-color: white;
+    border-radius: 9px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 150px;
+    flex: 0 0 auto;
+    display: block;
+}
+
+.block img {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
