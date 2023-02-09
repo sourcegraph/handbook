@@ -62,7 +62,7 @@ Phishing resistant MFA options are the prefered method of authentication. These 
 - App-generated 2FA codes, like Google Authenticator
   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
-## Adding Touch ID as a phishing resistent MFA option
+## Adding Touch ID as a phishing resistant MFA option
 
 Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
 
@@ -98,7 +98,7 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 
 <img width="544" alt="Screenshot 2023-02-03 at 13 06 29" src="https://user-images.githubusercontent.com/106968986/216599897-c408a622-d8c9-4018-8dad-bb9274e3585f.png">
 
-11. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it.
+10. In YubiKey Manager, click 'Interfaces' and uncheck the 'OTP' option. This will prevent the YubiKey from randomly typing an OTP code if you accidentally touch it.
 
 ## Use a different MFA option
 
