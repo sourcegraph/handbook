@@ -38,6 +38,8 @@ for (const filePath of filePaths) {
     const results = await checkMarkdownLinks(content, {
         baseUrl: pathToFileURL(path.dirname(absoluteFilePath)).href,
         ignorePatterns: [
+            // Ignore assets in public static directory
+            { pattern: /^\/static/ },
             {
                 // Ignore external links as they would cause irreproducable builds
                 // Exception: our Google Cloud Storage URLs, as only admins are allowed to delete files so the chance of builds breaking is low.
