@@ -8,6 +8,41 @@ The Sourcegraph handbook describes how Sourcegraph team members work together at
 
 Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 
+<div class="blocks">
+  <a href="company-info-and-process/about-sourcegraph/index.md" class="block">
+    <img src="/static/icons/about.svg">
+    About Sourcegraph
+  </a>
+  <a href="strategy-goals/strategy/index.md" class="block">
+    <img src="/static/icons/strategy.svg">
+    Strategy
+  </a>
+  <a href="departments/index.md" class="block">
+    <img src="/static/icons/departments.svg">
+    Departments
+  </a>
+  <a href="https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b" class="block">
+    <img src="/static/icons/the-git-down.svg">
+    The Git Down
+  </a>
+  <a href="team/index.md" class="block">
+    <img src="/static/icons/bios.svg">
+    Teammate Bios
+  </a>
+  <a href="handbook/editing/index.md" class="block">
+    <img src="/static/icons/handbook.svg">
+    Handbook Basics
+  </a>
+  <a href="benefits-pay-perks/benefits-perks/index.md" class="block">
+    <img src="/static/icons/pay-and-benefits.svg">
+    Pay and Benefits
+  </a>
+  <a href="company-info-and-process/index.md" class="block">
+    <img src="/static/icons/policies.svg">
+    Company Processes
+  </a>
+</div>
+
 ## Company information
 
 - [About Sourcegraph](company-info-and-process/about-sourcegraph/index.md)
