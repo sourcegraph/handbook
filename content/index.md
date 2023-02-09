@@ -9,11 +9,11 @@ The Sourcegraph handbook describes how Sourcegraph team members work together at
 Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 
 <div class="blocks">
-  <a href="/company-info-and-process/about-sourcegraph/index.md" class="block">
+  <a href="company-info-and-process/about-sourcegraph/index.md" class="block">
     <img src="/static/icons/about.svg">
     About Sourcegraph
   </a>
-  <a href="/strategy-goals/strategy/index.md" class="block">
+  <a href="strategy-goals/strategy/index.md" class="block">
     <img src="/static/icons/strategy.svg">
     Strategy
   </a>
