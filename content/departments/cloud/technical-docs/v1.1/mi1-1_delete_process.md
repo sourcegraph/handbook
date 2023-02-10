@@ -150,7 +150,7 @@ Make sure to include this in the pull request.
 
 ```
 git add $CUSTOMER
-git commit -m "managed-instance-${CUSTOMER}: Remove GCP infrastructure and project"
+git commit -m "${CUSTOMER}: Remove GCP infrastructure and project"
 git push origin HEAD
 ```
 
