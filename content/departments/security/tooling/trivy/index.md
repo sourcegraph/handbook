@@ -47,7 +47,7 @@ $ python3 trivy-diff.py --release 4.1.0 --threads 10
 
 The command above will fetch the accepted vulnerabilities from the markdown table in our handbook. You need to specify the release using the `--release` option. It then uses 10 threads to scan the container images. When the scan is done it will output vulnerabilities that are not on the handbook page, and those that are on the handbook page but not found by Trivy. Keep in mind that you should not put tags in the container justification document. This confuses the tool, and is unnecessary as the title of the justification page already indicates the version.
 
-`trivy-diff` also supports result caching with `--cache` and you can point it to the markdown file you are updating with `--local-table`. This makes it easier to check if the justification table is complete when you are updating it.
+`trivy-diff` also supports result caching with `--cache` and you can point it to the markdown file you are updating with `--local-table`. This makes it easier to check if the justification table is complete when you are updating it. If you use the latest version of `trivy-diff` when you use the `--local-table` option, it will now create a new file in the directory where you run it. That file contains an updated table with newly detected issues and without the resolved vulnerabilities.
 
 ## Accepted vulnerabilities and false positives
 
@@ -66,6 +66,13 @@ trivy image --severity "HIGH,CRITICAL" -f json {IMAGE}
 ```
 
 grep the results and you will find the exact version of the component the image has. It's often useful to exec into a running container with the image and run the binary to check versions.
+You will need to calculate the environmental CVSS score for vulnerabilities that you want to add to the 'Accepted CVEs' table. For the attack vector, customers instances usually not directly available on the internet. Therefore we use attack vector 'Adjacent Network' in the 'Environmental Score Metrics'. In additional to changing the attack vector, also add the 'Impact Subscore Modifiers' and set:
+
+- Confidentiality Requirement (CR) to 'High'
+- Integrity Requirement (IR) to 'Medium'
+- Availability Requirement (AR) to 'Low'
+
+The score that comes out of it (Overall CVSS Score) is the modified score for our product.
 
 ### Fixing
 
