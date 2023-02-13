@@ -84,7 +84,8 @@ While you're waiting, you should [set up Okta with Touch/Face ID on your MacBook
 ### How do I set up my Yubikey?
 
 #### Okta
-* [Okta setup instructions](../../../departments/tech-ops/tools/Okta/main.md#adding-touch-id-as-a-phishing-resistant-mfa-option)
+
+- [Okta setup instructions](../../../departments/tech-ops/tools/Okta/main.md#adding-touch-id-as-a-phishing-resistant-mfa-option)
 
 <div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/5a78ffa19e604aeb8997bbb42d581ebd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
