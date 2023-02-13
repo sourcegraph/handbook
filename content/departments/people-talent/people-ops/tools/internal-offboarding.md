@@ -15,7 +15,7 @@ People Ops, Payroll, Tech Ops, and Security use the checklist to track the follo
 
 ### Internal Team Tasks
 
-#### COMING SOON: Manager tasks
+#### Manager tasks
 
 The departing teammates' manager is responsible for:
 
@@ -78,7 +78,7 @@ Security deactivates the departing teammate from these systems:
 - Atlassian Admin - Jira, OpsGenie, StatusPage
 - Buildkite
 - Sourcegraph.com
-- S2/ Dogfood (https://k8s.sgdev.org/search)
+- S2/ Dogfood
 - Cloudflare
 - AWS
 
