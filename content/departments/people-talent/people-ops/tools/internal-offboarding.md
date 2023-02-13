@@ -21,17 +21,20 @@ The departing teammates' manager is responsible for:
 
 - Announcing the teammates' departure
   - Within 24 hours of notice, announce the teammates' departure in #manager-team, following our [announcement protocol](../../../../company-info-and-process/communication/announcements.md#departures)
-  - Once that's done, make sure to notify your team.
+  - Once that's done, the manager will notify their team
 - Removing any recurring 1-1s with teammate
 - Removing teammate from any team meetings
 
 #### Payroll tasks
 
-The Payroll team is responsible for scheduling the departing teammates' final paycheck and removing the teammate from Payroll upon departure.
+The Payroll team is responsible for:
+
+- Scheduling the departing teammates' final paycheck
+- Removing the teammate from Payroll upon departure
 
 #### Tech Ops tasks
 
-Tech Ops removes departing teammates from the following tools:
+Tech Ops is responsible for removing departing teammates from the following tools:
 
 - Jamf/Workspace One
 - Okta
@@ -64,7 +67,7 @@ Tech Ops removes departing teammates from the following tools:
 - Docker hub
 - NPM
 
-Other Tech Ops tasks
+Other Tech Ops tasks"
 
 - Set up email Forwarding (if needed)
 - Ask manager to rotate passwords in shared vault
@@ -73,7 +76,7 @@ Other Tech Ops tasks
 
 #### Security Tasks
 
-Security deactivates the departing teammate from these systems:
+Security is responsible for deactivating the departing teammate from these systems:
 
 - Atlassian Admin - Jira, OpsGenie, StatusPage
 - Buildkite
@@ -84,7 +87,7 @@ Security deactivates the departing teammate from these systems:
 
 #### People Ops tasks
 
-Prior to the teammates last day, the People Partner will
+Prior to the teammates last day, the People Partner is responsible for:
 
 - Schedule the teammate's profile termination in BambooHR.
 - Update the BambooHR reporting structure (if the departing teammate is a people manager)
@@ -94,7 +97,7 @@ Prior to the teammates last day, the People Partner will
 - Send exit survey in Lattice
 - Schedule and complete an exit interview with the departing teammate
 
-On the teammates' final working day, the People Ops team will
+On the teammates' final working day, the People Ops team is responsible for:
 
 - Remove any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
 - Remove the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
