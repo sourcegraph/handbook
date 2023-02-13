@@ -9,19 +9,87 @@ We send these agreements via the People-ops@sourcegraph.com Docusign account usi
 
 ## Offboarding checklist
 
-The departing teammate's People partner will create the teammate's offboarding checklist in Process St. These checklists are for internal use only, the teammate does not need to complete any Process St. tasks.
+The departing teammate's People partner will create the teammate's offboarding checklist in Process St. These checklists are for internal use only, the teammate does not need to complete any Process St. tasks. 
 
-COMING SOON:
+People Ops, Payroll, Tech Ops, and Security use the checklist to track the following offboarding tasks.
 
-### Tasks and due dates
+### Internal Team Tasks
 
-- Manager tasks
-- Payroll tasks
-- Tech Ops tasks
-- Security tasks
-- People team tasks
+#### COMING SOON: Manager tasks
+The departing teammates' manager is responsible for:
+- Announcing the teammates' departure
+  - Within 24 hours of notice, announce the teammates' departure in #manager-team, following our [announcement protocol](../../../../company-info-and-process/communication/announcements.md#departures)
+  - Once that's done, make sure to notify your team. 
+- Removing any recurring 1-1s with teammate
+- Removing teammate from any team meetings
 
-### Offboarding variations by employment type
+#### Payroll tasks
+The Payroll team is responsible for scheduling the departing teammates' final paycheck and removing the teammate from Payroll upon departure.
+
+#### Tech Ops tasks
+Tech Ops removes departing teammates from the following tools:
+- Jamf/Workspace One 
+- Okta 
+- 1Password
+- GitHub (Sourcegraph) 
+- Slack 
+- Google groups
+- Brighthire
+- Greenhouse
+- TalentWall
+- Zoom
+- Asana
+- Chorus
+- Miro
+- Krisp
+- Calendly
+- Figma
+- Buildkite
+- Productboard
+- Looker
+- Highspot
+- Zapier
+- Jetbrains
+- Jira
+- Grammarly
+- Continu
+- Contentful
+- Excalidraw
+- Sentry
+- Docker hub
+- NPM
+
+Other Tech Ops tasks
+- Set up email Forwarding (if needed)
+- Ask manager to rotate passwords in shared vault
+- Alert department ops team to remove them from any ad-hoc systems
+- Transfer GDrive to direct manager 
+
+#### Security Tasks
+Security deactivates the departing teammate from these systems:
+- Atlassian Admin - Jira, OpsGenie, StatusPage
+- Buildkite
+- Sourcegraph.com
+- S2/ Dogfood (https://k8s.sgdev.org/search)
+- Cloudflare
+- AWS
+
+#### People Ops tasks
+Prior to the teammates last day, the People Partner will
+- Schedule the teammate's profile termination in BambooHR.
+- Update the BambooHR reporting structure (if the departing teammate is a people manager)
+- Send the departing teammate an email with offboarding information/instructions
+- Trigger the #announce-teammate-departures notification
+- Send the departing teammate a severance agreement via docusign (if applicable)
+- Send exit survey in Lattice
+- Schedule and complete an exit interview with the departing teammate
+
+On the teammates' final working day, the People Ops team will
+- Remove any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
+- Remove the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
+- Remove the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
+
+### COMING SOON: Offboarding variations by employment type
 
 - Temporary contractors
 - PEO
