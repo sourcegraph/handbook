@@ -77,7 +77,7 @@ There isn’t yet a firm timeline for this change. This policy will first be enf
 
 We want to get Yubikeys to everyone as soon as possible! We decided to perform a staged rollout so we can receive feedback and iterate on making the next batch of Yubikeys easier to set up. For example, this FAQ was created to answer the questions we received during the first stage of the rollout at Merge 2023.02!
 
-While you're waiting, you should [set up Okta with Touch/Face ID on your MacBook and phone](../../tech-ops/tools/okta/main/.md#adding-touch-id-as-a-phishing-resistant-mfa-option). This only takes a couple of minutes, and can save you time every time you log into Okta.
+While you're waiting, you should [set up Okta with Touch/Face ID on your MacBook and phone](../../tech-ops/tools/okta/main.md#adding-touch-id-as-a-phishing-resistant-mfa-option). This only takes a couple of minutes, and can save you time every time you log into Okta.
 
 ## Troubleshooting
 
