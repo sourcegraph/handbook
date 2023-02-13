@@ -1,0 +1,91 @@
+### Why do I need two Yubikeys?
+
+Having two Yubikeys means you have a spare in case you lose one, and you'll still be able to access all your accounts while we ship you a new one.
+
+We provide two different types of Yubikey for convenience - a 5C Nano which can be left in your laptop, and a larger NFC key that can be used with your phone.
+
+### Where should I keep my Yubikeys?
+
+We recommend leaving the Nano in your MacBook's USB C port, and attaching the NFC to your keyring or keeping it in a safe place.
+
+### How are Yubikeys more secure than Okta notifications or the six-digit OTP codes?
+
+Using notifications on your phone or one-time codes does help improve security, but they can both be phished. For example, if you visited a fake Sourcegraph login page and entered your username, password, and one-time code, an attacker could quickly enter these details into a real login page.
+
+Yubikeys, Touch ID, and Face ID are all **phishing resistant** forms of authentication - even if an attacker obtains your username and password and gets you to tap a Yubikey on a phishing site, they still won't be able to log in as you (but still please let us know in #security if this happens!).
+
+More technically, Yubikeys and Touch/Face ID use [FIDO U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor). This uses a signed challenge/response that's tied to the domain you're on, so a phishing site will have a different domain and so any response will not be valid on the real login site.
+
+### Are Touch ID and Face ID as secure as Yubikeys?
+
+Yep! We suggest you set up both Yubikeys and Touch/Face ID on Okta and Github, as biometrics can provide a very convenient way of signing in - especially on mobile.
+
+Both Touch/Face ID and Yubikeys use [FIDO U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor), so are equivalent in terms of the security they provide.
+
+### If Touch/Face ID is just as good, why do we need Yubikeys?
+
+Touch ID isn't convenient for everyone's setup; for example, if you use your laptop while closed then you can't use Touch ID. A Yubikey can be attached to a USB port or USB hub so should always be easily accessible.
+
+Touch/Face ID is also tied to a single device. If you get a new laptop, you won't be able to sign into Okta using Touch ID until you log in. Currently, you can perform the initial login using a mobile notification, but we plan to enforce only Yubikeys and Touch/Face ID later this year. Having a Yubikey will allow you to perform the initial login and set up Touch ID.
+
+### Can I use my Yubikey for personal accounts?
+
+Yes! In addition to adding your Yubikeys to Okta, we encourage you to add them to any personal accounts that support them. This not only makes you more secure online but will mean you’re more familiar with how Yubikeys work.
+
+Yubico maintains a [list of supported services](https://www.yubico.com/works-with-yubikey/catalog/?sort=popular). Some common ones include:
+
+- GitHub
+- Google
+- 1Password
+- Facebook
+
+Note that providers all implement Yubikey support slightly differently.
+
+To encourage everyone to use strong multi-factor authentication in as many places as possible, you will be able to keep your Yubikeys in the event that you leave Sourcegraph (😢).
+
+### I already have a personal Yubikey. Do I need new ones?
+
+You can absolutely use personal Yubikeys with your Sourcegraph Okta account! You can add them to your Okta and Github accounts now even if you weren't in the first wave of rollouts.
+
+When you receive a message about receiving Yubikeys, you can let us know and only request the keys you need. You should ensure you meet the following criteria though:
+
+- Your Yubikeys will need to support FIDO U2F (Yubikey 4 and newer)
+- You have at least two Yubikeys
+- You have at least one Yubikey with NFC support
+
+### Which browsers are supported?
+
+We've tested and confirmed Yubikey support in the following browsers on Mac:
+
+- Chrome
+- Firefox
+- Safari
+- Chromium-based browsers (Brave, Arc, ...)
+- Qutebrowser
+  - Qutebrowser has a UI bug and won't show a prompt to tap the Yubikey. When logging in, tap the Yubikey when it flashes.
+  - Due to this bug, we recommend you add the Yubikeys to Okta in a different browser, after which you can sign in with them in Qutebrowser.
+
+### How is signing into Okta going to change?
+
+Currently, we support several forms of multi-factor authentication when signing into Okta. This could be a notification on your phone, a six-digit one-time code, or Touch ID.
+
+We plan to require a strong, phishing-resistant multi-factor method to log into Okta later this year. Methods that meet this requirement are Yubikey, Touch ID, and Face ID. The old notification and one-time code based methods will no longer be supported as they can be bypassed in sophisticated phishing campaigns.
+
+There isn’t yet a firm timeline for this change. This policy will first be enforced for the Security team to test usability, and we may decide to roll it out to high-risk teams ahead of a company-wide rollout.
+
+### When can I get a Yubikey?
+
+We want to get Yubikeys to everyone as soon as possible! We decided to perform a staged rollout so we can receive feedback and iterate on making the next batch of Yubikeys easier to set up. For example, this FAQ was created to answer the questions we received during the first stage of the rollout at Merge 2023.02!
+
+While you're waiting, you should [set up Okta with Touch/Face ID on your MacBook and phone](../../../departments/tech-ops/tools/Okta/main.md#adding-touch-id-as-a-phishing-resistant-mfa-option). This only takes a couple of minutes, and can save you time every time you log into Okta.
+
+## Troubleshooting
+
+### I’ve set up my Yubikeys but I still receive a notification on my phone when I sign in to Okta
+
+At the point where you receive the notification, click "
+Verify with something else" on the login page and select "Security Key or Biometric Authenticator". It should remember this in the future.
+
+### I’ve set up my Yubikeys but Github never prompts me for it when logging in
+
+Go to Settings > Password and authentication > and select "Set as preferred method" next to Security keys.
