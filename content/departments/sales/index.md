@@ -18,6 +18,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Process docs](process/index.md)
 - [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
 - [Forecasting Overview](forecasting.md)
+- [Tools](tools/index.md)
 
 ## Goals
 
