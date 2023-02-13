@@ -51,9 +51,8 @@ Phishing resistant MFA options are the prefered method of authentication. These 
    - Fast Pass (coming soon)
    - App-generated passcode (aka. One-time passcode)
 2. FIDO2 [WebAuthn](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)- use a security key or biometric authenticator (such as YubiKey, Google Titan, or Touch ID)
-   - Touch ID: Each browser must verify and register Touch ID, so if you use multiple browsers, you must set this up on each one.
-   - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #ask-it-tech-ops the generated CSV
-3. Google Authentication - in some cases you can use Google Authentication to set up your one-time passcode using 1Password
+   - Instructions for setting up Touch ID and Yubikeys below
+3. Google Authentication - in some rare cases you can use Google Authentication to set up your one-time passcode using 1Password.
 
 ## What are the most secure authentication methods?
 
