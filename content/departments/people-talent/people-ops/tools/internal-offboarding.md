@@ -18,6 +18,7 @@ People Ops, Payroll, Tech Ops, and Security use the checklist to track the follo
 #### Manager tasks
 
 The departing teammates' manager is responsible for:
+
 - Announcing the teammates' departure
   - Within 24 hours of notice, announce the teammates' departure in #manager-team, following our [announcement protocol](../../../../company-info-and-process/communication/announcements.md#departures)
   - Once that's done, the manager will notify their team
@@ -27,12 +28,14 @@ The departing teammates' manager is responsible for:
 #### Payroll tasks
 
 The Payroll team is responsible for:
-- Scheduling the departing teammates' final paycheck 
+
+- Scheduling the departing teammates' final paycheck
 - Removing the teammate from Payroll upon departure
 
 #### Tech Ops tasks
 
 Tech Ops is responsible for removing departing teammates from the following tools:
+
 - Jamf/Workspace One
 - Okta
 - 1Password
@@ -65,6 +68,7 @@ Tech Ops is responsible for removing departing teammates from the following tool
 - NPM
 
 Other Tech Ops tasks"
+
 - Set up email Forwarding (if needed)
 - Ask manager to rotate passwords in shared vault
 - Alert department ops team to remove them from any ad-hoc systems
@@ -73,6 +77,7 @@ Other Tech Ops tasks"
 #### Security Tasks
 
 Security is responsible for deactivating the departing teammate from these systems:
+
 - Atlassian Admin - Jira, OpsGenie, StatusPage
 - Buildkite
 - Sourcegraph.com
@@ -93,6 +98,7 @@ Prior to the teammates last day, the People Partner is responsible for:
 - Schedule and complete an exit interview with the departing teammate
 
 On the teammates' final working day, the People Ops team is responsible for:
+
 - Remove any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
 - Remove the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
 - Remove the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
