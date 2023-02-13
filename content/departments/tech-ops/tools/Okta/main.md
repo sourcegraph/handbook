@@ -79,6 +79,8 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 
 **Still have questions after setup? See the [Yubikey FAQ](../../../security/knowledge-base/yubikey-faq.md)**
 
+[**Video instructions**](https://www.loom.com/share/5a78ffa19e604aeb8997bbb42d581ebd)
+
 1. Sign in to your Okta Dashboard
 2. Go to your name > Settings
 3. Under 'Security Key or Biometric', click 'Set Up Another'
