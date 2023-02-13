@@ -38,3 +38,5 @@ Proper Access Control prevents user accounts, application processes, and applica
 >
 > - Missing backend validation that allows a user to tamper a parameter adding another users account number resulting in returning that users data.
 > - Allowing an unprivileged user to access an admin only feature without validating that the user session belongs to a true admin.
+
+### [Yubikey FAQ](./yubikey-faq.md)
