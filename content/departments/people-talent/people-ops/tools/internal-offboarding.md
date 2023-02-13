@@ -2,14 +2,9 @@
 
 This page outlines the process our internal teams complete once a teammate has let their manager and the People team know they are leaving Sourcegraph.
 
-## Severance agreements
-
-If the teammates' departure involves severance, the People Partner will create a severance agreement for the teammate and send it via Docusign.
-We send these agreements via the People-ops@sourcegraph.com Docusign account using the Severance Agreement Docusign template. Once the People Partner and the departing teammate have signed the agreement, Payroll is sent a cc copy.
-
 ## Offboarding checklist
 
-The departing teammate's People partner will create the teammate's offboarding checklist in Process St. These checklists are for internal use only, the teammate does not need to complete any Process St. tasks.
+We track offboarding tasks by creating a Process St checklist for each departing teammate. The departing teammate's People partner will create the teammate's offboarding checklist. These checklists are for internal use only, the teammate does not need to complete any Process St. tasks.
 
 People Ops, Payroll, Tech Ops, and Security use the checklist to track the following offboarding tasks.
 
@@ -94,6 +89,7 @@ Prior to the teammates last day, the People Partner is responsible for:
 - Send the departing teammate an email with offboarding information/instructions
 - Trigger the #announce-teammate-departures notification
 - Send the departing teammate a severance agreement via docusign (if applicable)
+  - See 'How we send severance agreements' below for details
 - Send exit survey in Lattice
 - Schedule and complete an exit interview with the departing teammate
 
@@ -102,6 +98,10 @@ On the teammates' final working day, the People Ops team is responsible for:
 - Remove any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
 - Remove the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
 - Remove the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
+
+##### How we send severance agreements
+- If the teammates' departure involves severance, the People Partner will create a severance agreement for the teammate and send it via Docusign.
+We send these agreements via the People-ops@sourcegraph.com Docusign account using the Severance Agreement Docusign template. Once the People Partner and the departing teammate have signed the agreement, Payroll is sent a cc copy.
 
 ### COMING SOON: Offboarding variations by employment type
 
