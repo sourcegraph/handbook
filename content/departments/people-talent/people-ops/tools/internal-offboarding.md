@@ -100,8 +100,9 @@ On the teammates' final working day, the People Ops team is responsible for:
 - Remove the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
 
 ##### How we send severance agreements
+
 - If the teammates' departure involves severance, the People Partner will create a severance agreement for the teammate and send it via Docusign.
-We send these agreements via the People-ops@sourcegraph.com Docusign account using the Severance Agreement Docusign template. Once the People Partner and the departing teammate have signed the agreement, Payroll is sent a cc copy.
+  We send these agreements via the People-ops@sourcegraph.com Docusign account using the Severance Agreement Docusign template. Once the People Partner and the departing teammate have signed the agreement, Payroll is sent a cc copy.
 
 ### COMING SOON: Offboarding variations by employment type
 
