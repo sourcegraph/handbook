@@ -89,3 +89,15 @@ Verify with something else" on the login page and select "Security Key or Biomet
 ### I’ve set up my Yubikeys but Github never prompts me for it when logging in
 
 Go to Settings > Password and authentication > and select "Set as preferred method" next to Security keys.
+
+## Yubikey Setup
+
+### How do I set up Yubikeys with Okta?
+
+- [Okta setup instructions](../../../departments/tech-ops/tools/Okta/main.md#adding-touch-id-as-a-phishing-resistant-mfa-option)
+
+<div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/5a78ffa19e604aeb8997bbb42d581ebd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### How do I set up Yubikeys with GitHub?
+
+<div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/08d3a45016dd433e9e3377cf48db05da" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
