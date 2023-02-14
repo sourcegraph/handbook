@@ -331,6 +331,7 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 - Change count 2937 (commits)
 
 ##### `devx-80k-files`
+
 - Size ~15 GB
 - Change count ~ 8500 (commits)
 - 80 000 files. Each file is 128 KB in size
