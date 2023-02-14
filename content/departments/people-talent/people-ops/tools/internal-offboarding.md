@@ -19,6 +19,8 @@ The departing teammates' manager is responsible for:
   - Once that's done, the manager will notify their team
 - Removing any recurring 1-1s with teammate
 - Removing teammate from any team meetings
+- Removing teammate from any ad-hoc systems that the team provisions outside of Tech Ops
+- Rotating any shared team passwords in 1Password
 
 #### Payroll tasks
 
