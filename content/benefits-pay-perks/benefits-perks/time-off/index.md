@@ -31,7 +31,7 @@ While you don’t need to ask for formal PTO approval for short-term time off, w
   - If you are paid through Remote.com, you also need to submit your PTO request directly in the Remote.com system.
 - Ensure the business is supported & get coverage:
   - Unless you have an emergency, taking time off should never be at the expense of your teammates or the business. This means that you must ensure that your work is supported by your team before you take leave. At the end of the day, teammates are still responsible for their goals/objectives. You need to either (1) make sure there's a plan for accomplishing them, or (2) have a direct discussion with your manager about changes to goals and make a joint decision. It's your responsibility to figure out how to make that all work.
-  - If leaving town for more than 5 business days, Teammates are encouraged to utilize the PTO by ROOTS Assign Roles feature - it allows a person to add multiple people to delegate their responsibilities to and each person has to approve taking this responsibility (step by step instructions are listed below). To Assign Roles while you’re out of office, navigate to the PTO by Deel app within Slack and follow these steps:
+  - If leaving town for more than 5 business days, Teammates are encouraged to utilize the PTO by DEEL Assign Roles feature - it allows a person to add multiple people to delegate their responsibilities to and each person has to approve taking this responsibility (step by step instructions are listed below). To Assign Roles while you’re out of office, navigate to the PTO by Deel app within Slack and follow these steps:
     - 1. Click ‘+ Create OOO’ if you have not yet added your upcoming PTO into Deel.
     - 2. Click ‘...’ next to your upcoming OOO dates and select ‘Assign Roles’. Note: Your upcoming OOO dates will be visible on the Home tab of the Deel app when ‘Your Events’ is the selected dashboard.
     - 3. Select whether you are delegating responsibilities to a specific coworker or to an entire channel.
@@ -76,7 +76,7 @@ If you need extended time that will impact your ability to deliver your work or 
 
 ### Recording paid time off via Deel
 
-We submit and record all PTO using [Deel](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack.
+We submit and record all PTO using [Deel](https://www.deel.com/engage/pto), which allows you to submit all PTO events directly in Slack.
 
 Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about PTO by Deel and how it works.
 
