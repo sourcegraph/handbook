@@ -192,7 +192,7 @@ To resolve this, do the following:
 1. Check the `migrator` logs in the frontend pod for a successful migration
 1. **Remove the `args` key/value from `values.yaml` and apply the values again!** If the flag remains on the migrator pod, the database may be corrupted on subsequent deploys.
 
-## Testing Data
+# Testing Data
 
 ## GitHub Enterprise for Scale Testing
 
@@ -253,7 +253,7 @@ To access the machine execute the following command:
 gcloud compute ssh --zone "us-central1-a" "devx"  --tunnel-through-iap --project "sourcegraph-scaletesting"
 ```
 
-### Git
+## Git
 
 #### Over 100k repositories
 
@@ -329,6 +329,13 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 
 - Size ~20 GB
 - Change count 2937 (commits)
+
+##### `devx-80k-files`
+
+- Size ~15 GB
+- Change count ~ 8500 (commits)
+- 80 000 files. Each file is 128 KB in size
+- 5000 files. Each file is 256 KB in size
 
 ### GitLab
 
