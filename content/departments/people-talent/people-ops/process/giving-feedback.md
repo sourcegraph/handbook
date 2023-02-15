@@ -20,7 +20,7 @@ This page contains guidance on:
 - **Provide balance**: when providing a self-review, It's important to be specific and provide concrete examples to support your rating, and to strike a balance between being confident and self-assured, and being humble and open to feedback. When writing reviews on other teammates, strike a balance between being positive and constructive. Acknowledge your teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement.
 - **Make it actionable**: use language that is clear, concise, and non-judgmental. Avoid using negative or accusatory language, and instead, focus on objective and actionable feedback.
 - **Be concise**: reviews don’t have to be long to be impactful. We recommend anywhere from 300-1000 words max. Anything longer is unnecessary.
-- **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review. 
+- **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review.
   - Please feel free to use technology, like ChatGPT and Anthropic, to help speed up the review writing process!
 - **Rating scale**: you can read more about our rating scale definitions in the handbook [here](../teammate-sentiment/impact-reviews/index.md)
 
@@ -29,6 +29,7 @@ This page contains guidance on:
 A self review is your chance to celebrate and reflect on your performance over the past six months. It is also an opportunity to showcase ways in which you live our values through your work, communicate how you’d like to grow in the next six months, and indicate to your manager where you need support.
 
 **Example - self review**
+
 <table>
   <tr>
    <td><strong>Self Review Question</strong>
@@ -91,7 +92,7 @@ Throughout the past 6-months, I made a concerted effort to consistently apply my
 To amplify my performance in the next review period…
 <ul>
 
-<li><strong>Start:</strong> I should [insert specific action, e.g. seek out opportunities for professional development to stay current with industry trends and developments]. I also think it would be beneficial for me to [insert specific action, e.g. work on improving my time management skills to better balance competing priorities]. 
+<li><strong>Start:</strong> I should [insert specific action, e.g. seek out opportunities for professional development to stay current with industry trends and developments]. I also think it would be beneficial for me to [insert specific action, e.g. work on improving my time management skills to better balance competing priorities].
 
 <li><strong>Stop</strong>: I will benefit from focusing more on [insert areas to focus on] and stop doing [insert what you would like to stop doing to make yourself better].
 
@@ -137,13 +138,12 @@ To be successful in achieving these goals, I also need [insert specific support 
   </tr>
 </table>
 
-
-
 ### Writing effective peer reviews
 
 Feedback from teammates we work closely with is some of the most valuable we will give, and receive, during the impact review process. We encourage teammates to give each other direct and actionable feedback regularly throughout the year, but the bi-annual impact review is a chance to give specific feedback in a more formal way.
 
 **Example - peer review**
+
 <table>
   <tr>
    <td><strong>Peer Review Question</strong>
@@ -239,8 +239,6 @@ To amplify performance in the next 6-moths:
   </tr>
 </table>
 
-
-
 ### Writing effective manager-to-teammate reviews
 
 People leaders at Sourcegraph play a vital role in shaping the experiences of their team members. While we encourage managers to provide [continuous feedback throughout the year](INSERT LINK TO CONTINUOUS FEEDBACK HB PAGE COMING SOON), whether it be via Regular 1:1s or career conversations, our bi-annual impact reviews provide a great opportunity where in-depth, formal feedback can be provided both ways: teammate-to-manager, as well as manager-to-teammate.
@@ -250,6 +248,7 @@ When it comes time for a manager to write performance reviews about their direct
 Once all reviews are written and the manager has gone through the [calibration process](COMING SOON) with the people team, it is necessary that you deliver the feedback in an effective way. You can read more about delivering impact review feedback [here](COMING SOON).
 
 **Example - manager-to-teammate review**
+
 <table>
   <tr>
    <td><strong>Manager-to-teammate Review Question</strong>
@@ -368,9 +367,9 @@ Below is what your peers said about you:
    <td>To be successful in the next 6-months, I would like to see [Teammate name] focus on: 
 <ul>
 
-<li>1. Insert goal 2. Why is this goal important 3. How do you expect the teammate to achieve the goal? What support will you provide? 
+<li>1. Insert goal 2. Why is this goal important 3. How do you expect the teammate to achieve the goal? What support will you provide?
 
-<li>1. Insert goal 2. Why is this goal important 3. How do you expect the teammate to achieve the goal? What support will you provide? 
+<li>1. Insert goal 2. Why is this goal important 3. How do you expect the teammate to achieve the goal? What support will you provide?
 
 <li>1. Insert goal 2. Why is this goal important 3. How do you expect the teammate to achieve the goal? What support will you provide? 
 </li>
@@ -393,13 +392,12 @@ Below is what your peers said about you:
   </tr>
 </table>
 
-
-
 ### Writing effective teammate-to-manager review
 
 Gathering feedback from a manager's direct reports is important in the performance review process because it provides a more comprehensive and well-rounded view of the manager's performance. Direct reports are in a unique position to observe the manager's day-to-day behavior, communication style, and leadership skills, and can provide valuable insights into areas of strength and areas for improvement. This feedback can help managers understand how they are perceived by their team and make necessary changes to improve their management style and overall effectiveness. Additionally, involving direct reports in the performance review process can increase their engagement and sense of ownership in the company, and promote a culture of open communication and continuous improvement.
 
 **Example - manager-to-teammate review**
+
 <table>
   <tr>
    <td><strong>Teammate-to-manager Review Question</strong>
@@ -478,9 +476,9 @@ To amplify performance in the next 6-moths:
    <td>To be successful in the next 6-months, I need my manager’s support in the following ways: 
 <ul>
 
-<li>1. Insert goal 2. Why is this goal important 3. In what ways do you need your manager’s support to achieve the goal? 
+<li>1. Insert goal 2. Why is this goal important 3. In what ways do you need your manager’s support to achieve the goal?
 
-<li>1. Insert goal 2. Why is this goal important 3. In what ways do you need your manager’s support to achieve the goal? 
+<li>1. Insert goal 2. Why is this goal important 3. In what ways do you need your manager’s support to achieve the goal?
 
 <li>1. Insert goal 2. Why is this goal important 3. In what ways do you need your manager’s support to achieve the goal? 
 </li>
@@ -496,6 +494,3 @@ To amplify performance in the next 6-moths:
    </td>
   </tr>
 </table>
-
-
-
