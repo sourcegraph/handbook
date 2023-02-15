@@ -2,58 +2,253 @@
 
 ### Overview
 
-We use Slack for team chat and real-time announcements. While Slack isn’t a source of truth, it is an important internal communication tool that helps us stay connected in real-time. All teammates are encouraged to join the following company-wide channels to stay informed on news happening across the company. Read on for best practices, channels to join, and processes we follow as a company.
+We use Slack for team chat and real-time announcements. While Slack isn’t a source of truth, it is an important internal communication tool that helps us stay connected and informed. All teammates are encouraged to join the following company-wide channels to stay informed on news happening across the company. Read on for best practices and processes we follow as a company.
 
-Visit the [Tools we use](../working-at-sourcegraph/teammate-development/training/index.md) handbook page for resources on how to use Slack.
+## Slack Guidelines
 
-### Company-Wide Channels
+### Retention policy
 
-_All teammates should join these channels and check them regularly_
+Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, only 180 days of Slack activity in public channels is retained. 
+- <sub>**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 180-day rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** Exception requests will be reviewed and approved on a case-by-case basis.</sub>
 
-- #announce-company - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
-  - Note: Posting permissions are limited to keep the signal-to-noise ratio high. Teammates should use emojis and threads to engage with content.
-  - If you need access to post in #announcements, please send a message to #internal-comms and tag Madison Clark.
-- #exec-ama - This channel makes it easy to ask Sourcegraph leadership any question and get an answer. Responses will be shared within 48 hours. [Follow these instructions ](https://github.com/sourcegraph/handbook/edit/main/content/company-info-and-process/communication/team_chat.md#more-on-exec-ama)when submitting a question.
-- #progress - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
-- #thanks - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
-- #handbook-announce - Announcements of important changes to the Handbook.
-- #feedback-dogfood - Internal product feedback
+### Naming conventions
+To help with navigation and discoverability, follow these naming conventions for channels. If you see find a channel that does not follow these, request to rename it in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
 
-If you'd like to add a channel to the company-wide list, please reach out to the Tech Ops team in #it-tech-ops.
+<table>
+  <tr>
+   <td><strong>Prefix</strong>
+   </td>
+   <td><strong>Purpose</strong>
+   </td>
+   <td><strong>Examples</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#team-
+   </td>
+   <td>For teams to coordinate work and activities among themselves.
+   </td>
+   <td>#team-design, #team-support, #team-sales
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-
+   </td>
+   <td>To ask questions or find information from other teams or departments.
+   </td>
+   <td>#ask-sales, #ask-marketing, #ask-people
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-
+   </td>
+   <td>For important announcements your team needs to know.
+   </td>
+   <td>#announce-company, #announce-sales, #announce-eng
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-
+   </td>
+   <td>Stands for “working group” For cross-functional teams working together. 
+   </td>
+   <td>#wg-swag, #wg-impact-reviews
+   </td>
+  </tr>
+  <tr>
+   <td>#location-
+   </td>
+   <td>For teammates in the same location to connect. 
+   </td>
+   <td>#location-bayarea, #location-london, #location-nyc
+   </td>
+  </tr>
+  <tr>
+   <td>#customer-
+   </td>
+   <td>For sourcegraph teammates to discuss important issues related to that customer.
+   </td>
+   <td>#customer-ibm, #customer-databricks, #customer-salesforce
+   </td>
+  </tr>
+  <tr>
+   <td>#prospect-
+   </td>
+   <td>For conversations about prospective customers.
+   </td>
+   <td>#prospect-bofa, #prospect-cruise
+   </td>
+  </tr>
+  <tr>
+   <td>#ext-
+   </td>
+   <td>To connect with EXTERNAL customers, consultants, etc. 
+   </td>
+   <td>#ext-splunk-sourcegraph, #ext-indeed-management, #ext-video-prod
+   </td>
+  </tr>
+  <tr>
+   <td>#trial-
+   </td>
+   <td>EXTERNAL communication with companies considering Sourcegraph
+   </td>
+   <td>#trial-pandora, #trial-tmobile, #trial-nvidia
+   </td>
+  </tr>
+  <tr>
+   <td>#event-
+   </td>
+   <td>To plan and execute events, large and small.
+   </td>
+   <td>#event-aws, #event-slush, #event-rubyconf
+   </td>
+  </tr>
+  <tr>
+   <td>#chat-
+   </td>
+   <td>Chatter about a specific topic (typically not related to Sourcegraph work)
+   </td>
+   <td>#chat-book, #chat-chess, #chat-cars, #chat-clothes
+   </td>
+  </tr>
+  <tr>
+   <td>#job-fair
+   </td>
+   <td>For in-flight project that are part of the Job Fair program.
+   </td>
+   <td>#job-fair-own, #job-fair-ranking
+   </td>
+  </tr>
+</table>
 
-### Slack Retention
 
-Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, only 180 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels.
+### Manadatory channels for all teammates
 
-**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 180-day rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** Exception requests will be reviewed and approved on a case-by-case basis.
+_All teammates are automatically added to these channels when they join Sourcegraph, and they should check them regularly._
 
-Exceptions to the 180-day rule include the following channels:
+<table>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/general">#announce-company </a>
+   </td>
+   <td>Critical information that all Sourcegraph teammates need to stay on top of. 
+<p>
+Messages here are applicable to 75% of the company and posting permissions are limited.
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/C0379USFD7E">#exec-ama</a>
+   </td>
+   <td>Ask Sourcegraph leadership any question and get an answer. 
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/C04MDQ4A63Y">#announce-people-team</a>
+   </td>
+   <td>Important announcements from the People & Talent team.
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-it-tech-ops
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/progress">#progress</a> 
+   </td>
+   <td>Celebrations for milestone moments and progress that impact our company strategy. 
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/C01UPDNPGP4">#teammate-announce</a>
+   </td>
+   <td>Welcome newly hired teammates and celebrate promotions and new roles.
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#teammate-departures</a> 
+   </td>
+   <td>Stay informed about teammates who are leaving Sourcegraph. 
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/thanks">#thanks</a>
+   </td>
+   <td>Say thank you to teammates for big moments and small ones. 
+   </td>
+  </tr>
+</table>
 
-- #security-monitoring retains messages for 5 years for auditing purposes in our security monitoring tooling.
-- #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
-- #feedback retains messages for 5 years because it provides a good source of user testimonials.
-- #engaging-external-engineers retains for 5 years because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn’t make sense to try to make this more organized.
-- #ask-it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
-- #sales-prospecting retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
-- #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
-- #sales-resources retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
-- Channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages for 5 years to preserve context for support or audit-related purposes.
-- #marketintel retains messages for 5 years to keep a long-term overview of market information around the field of developer tools.
-- #seo retains messages for 5 years to keep a record of historical SEO efforts, numbers & screenshots, etc.
 
-### Use of private channels
+### Mandatory for people managers
 
-By default all Slack channels are public. This is in line with our company's[ value to be open and transparent](../values/index.md#open-and-transparent) and facilitates collaboration and [async learning](asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who’s already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
+
+<table>
+  <tr>
+   <td><a href="https://sourcegraph.slack.com/archives/C01B6F2F1G8">#team-people-managers</a>
+   </td>
+   <td>Private channel - Discussion among people managers and 
+   </td>
+  </tr>
+</table>
+
+
+## Slack best practices
+
+### Keep you profile up to date and easy to find
+
+Help your teammates learn more about you by completing your profile. As you fill out your profile, don't forget to upload a profile photo. Your photo makes it easier for your teammates to know who you are in Slack. All teammates should add the following to their profile:
+
+- Full name: First and Last Name
+- Display name: First and Last Name
+- Title: Your role at Sourcegraph
+- Time zone: Keep this up to date so teammates know when to reach you
+
+ _Consider also adding:_
+  
+  - Pronouns
+  - Name recording 
+  - Name pronunciation 
+ 
+### Set a channel description and conversation topic
+
+When you create a Slack channel (regardless of if it's public or private) you should add a description to your conversations to let people know what kind of information they can expect to find there. 
+
+Any member of a channel can add or edit a description or topic to let people know what the channel is used for and what is currently being discussed. Descriptions are visible when viewing channel details, or when searching for channels on your desktop. Topics are visible in the conversation header.
+
+### Use emoji reactions to reduce the noise in Slack
+
+An emoji reaction can often replace the need for a follow-up message. You can hover over or tap and hold reactions in a conversation to see who added them. We use the following emojis at Sourcegraph to quickly acknowledge and respond to requests in Slack.
+ 
+  -  `Ack` = I acknowledge I’ve seen this. Action not needed.
+  -   👀 = I’ve seen it, I’m reviewing it
+  -    ✅ = I’ve seen it, my action is complete
+  -    👍 = I agree 
+
+### Use threads to organize discussions and reduce noise
+
+Threads help you create organized discussions around specific messages. They let you discuss a topic in more detail without adding clutter to a channel or direct message (DM) conversation.
+
+When a thread reaches a point where a decision is made and that information would be useful to the entire channel, be sure to communicate that decision back to the channel by using the “also send to #channel” button.
+
+If you need to start a new topic of conversation, post directly in the channel to start a new thread. 
+
+### Default to Public channels
+
+Sourcegraph is an all remote and asynchronous-first company, amd we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
 
 Private channels will automatically be created for the following categories of conversations:
-
 - Recruiting: Channels used for discussing specific positions where private candidate feedback and details will be discussed.
 - Management: Channels where managers can communicate about specific private or sensitive team situations.
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
 - Affinity groups: Channels for affinity groups that prefer a private space.
-- Internal: While we strongly encourage that every team keep these public by default and to use our "TEAMNAME-internal" naming convention to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals’ privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)to make a channel private. 
+
+
+### Organize Slack to make it work for you
+
+To help you keep track of important conversations, you can star a channel or direct message (DM). Starred conversations appear in the Starred section of your sidebar. You can also organize your channels, direct messages (DMs), and apps into custom sections within your sidebar. Your custom sections are only visible to you and won't affect what your teammates see, so set them up however you’d like. [Watch this video for a few examples.](https://slack.com/help/articles/4411352432275-Video--Organize-your-conversations-in-Slack)
 
 ### Send (and read) messages any time
 
@@ -63,119 +258,11 @@ In turn, you are free to read your message whenever it is convenient for you. Th
 
 Make sure to set up Slack to only send you notifications when you want to see them!
 
-### Slack Best Practices
-
-**1. Engage with messages by following emoji norms**
-
-Use these emoji reactions to quickly engage with messages in Slack and help with asynchronous alignment:
-
-- :acknowledge: = I acknowledge I’ve seen this. Action not needed.
-- 👀 = I’ve seen it, I’m reviewing it
-- ✅ Green Check = I’ve seen it, my action is complete
-- 👍 👎 = Agreement / Disagreement but non-blocking
-- ❌ = Blocking disagreement
-- 📣 Megaphone = Discuss in team meeting
-
-All teammates are able to upload their own custom emoji to our Slack Workspace. When adding a new animated emoji, keep in mind that rapidly changing or flashing emoji, such as party parrot, may not be friendly for teammates who are [impacted by photosensitivity or susceptible to seizures](https://www.reddit.com/r/Epilepsy/comments/jzmjdx/seizure_inducing_emojis/).
-
-If you spot a custom emoji that may be a bit too animated, report it to #it-tech-ops so it can be removed.
-
-####
-
-**2. Default to public channels**
-
-- When using Slack for work-related purposes, avoid private messages. Use a public channel and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
-- Move work-related private messages to public channels. . The process might look something like this:
-  - In the private message: “Thanks for reaching out. That’s a great question/idea that I think the rest of the team could benefit from. I’m going to move this to #public-channel. Is that okay with you?”
-  - In the appropriate public channel: “@person asked “question” via a DM and I’m sharing it here in case others have input to add.”
-
-####
-
-**3. Use threads to keep conversations focused**
-
-- While working in a Slack channel, use the “thread” feature to reply to messages instead of replying directly in the channel. This keeps the signal-to-noise ratio in the channel high. ​​When a thread reached a point where a decision is made and that information would be useful to the entire channel you can check the “also send to #channel” button to make that message visible to the main channel.
-- If you need to start a new topic of conversation, post directly in the channel to start a new thread.
-
-####
-
-**4. Share complete thoughts**
-
-- Rather than sending a stream of consciousness through multiple messages in a row, collect your thoughts and share one clear message. Doing this protects your teammates’ workflow.
-
-####
-
-**5. Follow Naming Conventions**
-
-**Profile Name:**
-
-To avoid confusion, set your Slack display name as First Name (or preferred name) Last Name.
-
-**Channel naming conventions:**
-
-As an asynchronous-first company, there are many public Slack channels at Sourcegraph, all with different intentions and audiences. It can be easy to feel overwhelmed with the volume of information shared and challenging to keep up with where to look. To improve the discoverability of Slack channels, follow these naming conventions:
-
-1. ${TEAMNAME} is the default channel for discussing work that the team is doing and fielding questions from outside of the team. If you have a question to ask another team, ask it in their default channel.
-2. {$TEAMNAME}-internal is a secondary channel that the team can use to communicate about topics that are not related to the work of the team and clearly only relevant to members of the team itself. The team should treat this as their own channel, even if non-teammates have joined. We encourage teams to keep this channel public for transparency.
-3. {$TEAMNAME}-topic if teams require additional channels specific to a segment of the team, they should follow the convention of prefixing the channel name with their team name. For example: marketing-content
-
-####
-
-**6. Archive old and unused channels**
+###  Archive old and unused channels
 
 To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
 
-### Join channels to stay connected and informed
-
-In addition to the company-wide channels that are outlined at the top of this page, here is a list of popular channels at Sourcegraph. Don’t see a channel you’re looking for? Search for it on Slack and create it yourself it doesn’t exist.
-
-#### **Social**
-
-- #sourcegram - Our internal Instagram
-- #3dprinting - Discussion and photos about your three-dimensional creations
-- #anime - All things related to anime
-- #art-and-crafting - For teammates to share and discuss their artistics and crafting endeavors!
-- #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
-- #best-timezone - Hangout channel for the European time zone. GIFs allowed!
-- #bikes - For all your cycling-related conversations and ride photos.
-- #books - Read books recommended by teammates and discuss them.
-- #cars - For all things cars!
-- #chess - For all chess lovers
-- #clothing - Chit-chatting about clothes
-- #coffee - For the love of coffee
-- #cooking - All things cooking and food
-- #desksetup - Discussion about your WFH setup, show off your desk!
-- #fantasyfootball
-- #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
-- #gaming - For all gamers
-- #golf - To all those golf fans here
-- #great-bandname - “That’s a great band name” — all the things we find that would make a great band name
-- #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
-- #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
-- #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!
-- #mixology - To talk about the art of making drinks/drinks we enjoy
-- #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.
-- #music - Share your tunes.
-- #nomad-life - For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
-- #peloton - For conversation around bikes that don’t move
-- #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
-- #photography-chat - For photo-takey types
-- #plants-of-sourcegraph - 🌲🌻
-- #seattle-gang - For any Sourcegraphers in, around, and visiting the Seattle area
-- #sourcegraph-cascadia - Hangout channel for everyone in the beautiful region of Cascadia (from northern California to British Columbia)
-- #sourcegraph-latam - Hangout channel for anyone in or from Latin America
-- #side-project - Working on a cool/challenging/fun side project? Tell us all about it here!
-- #ted-talks - Share impactful ted talks here, with a brief description and time of the talk
-- #today-i-learned - Anything you learn or think is fascinating, please share.
-- #trash-tv - For discussing TV and movies, but especially the stuff that’s not good.
-- #us-personal-finance - Discussions related to personal finance topics in the US
-- #virtual-coworking - 60 minute sessions to work quietly in tandem
-- #yelling - FOR WHEN YOU NEED A PLACE TO VENT
-
-#### Employee Resource/Identity
-
-- #gender-diversity-allies - ([group page](../diversity-equity-and-inclusion/gender-diversity.md)) For folks who do not identify as cisgender male. Allies welcome!
-- #gender-diversity-internal - Private counterpart to the above. We ask allies refrain from joining. Submit your email address to [this form](https://forms.gle/71YXaxz8WX1Mmbkw5) to be automatically added.
-- #queer - ([group page](../diversity-equity-and-inclusion/queer.md)) For LGBTQIA2+ folks—questioning welcome! Submit your email address to [this form](https://forms.gle/JABVzFYqkFkpU21u5) to be automatically added.
+## Channel lists by department
 
 #### Product
 
@@ -228,26 +315,5 @@ All engineers should join the following channels (feel free to adjust your notif
 
 You should also join channels mentioned in [your team’s documentation](../../departments/engineering/dev/index.md#teams)
 
-### More on #exec-ama
 
-Transparency and high agency are core company value at Sourcegraph, that’s why Sourcegraph teammates are encouraged to ask direct questions of leadership, management, and their peers. If you have a question or feedback you want to share with the exec team, you can:
 
-- Message them directly, or share it with your manager
-- Submit it via Slack in the [#exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) channel (visible to the whole company)
-- Ask it anonymously via Lattice Pulse surveys (which allows anonymous two-way dialogue)
-
-As a reminder, if presenting a problem, please follow the below guidance:
-
-- What's the feedback or problem? (be specific)
-- Why is this a problem for you? (provide context)
-- What's your recommendation on how to fix the problem? (high agency)
-
-To submit a question in #exec-ama, use the workflow outlined below. Questions will be answered within 48 hours and all answers will also be documented [here](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit#) to allow for long-term documentation.
-
-#### Instructions
-
-1. Check the [AMA Log](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit) to see if your question has already been asked/answered.
-2. If you have a new question, navigate to #exec-ama and select the “attachments and shortcuts” button and choose “submit a question”.
-3. Type your question, and (if applicable) identify who you’d like to have answer the question. Once ready, hit “submit”.
-4. A member of the leadership team will review your question and approve it so it appears in the channel.
-5. Expect to see a reply via thread within 48 hours, and feel free to continue the conversation in the thread.
