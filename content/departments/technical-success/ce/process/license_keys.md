@@ -12,6 +12,7 @@ This page covers the following related to license key management:
 - - [License Key Tags](#license-key-tags)
 - [Handling Renewals or Upgrades](#handling-renewals-or-upgrades)
 - [Reissuing an Expired License](#reissuing-expired-licenses)
+- [License key sharing policy](#license-key-sharing-policy)
 - [Out of contract license extensions](#out-of-contract-license-extensions)
 - [Internal Licensing FAQ](#internal-licensing-faq)
 
@@ -63,6 +64,15 @@ In most circumstances, license keys match the renewal dates on an account contra
 2. Grab the contract end date by going to the Account page in Salesforce to look up the `"Active Contract Period End"`.
 3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags and user count as the existing key (make sure to comma separate each tag) and use the `"Active Contract Period End"` as the expiration date.
 4. Send the new license key to the customer (follow the process outlined below).
+
+## License Key Sharing Policy
+
+Within Sourcegraph we use 1Password for managing our credentials, including license keys. Follow these steps for safely sharing licensing credentials with customers.
+
+1. Create a new record in your private Vault (type = software license).
+2. Name the entry the customers' name, enter the license key, and enter the admin's email address. Click Save.
+3. Go to the newly created record and click Share. A prompt will be displayed with sharing options. Set the link to expire after 7 days, make it available only to some people, check the box for "Can be viewed only 1 time per person", and enter the admin's email address. Click Get Link to Share.
+4. Copy the private link that is generated and send to the admin. (Note: they must verify their email address to access the link).
 
 ## Out of Contract License Extensions
 
