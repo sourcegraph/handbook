@@ -2082,6 +2082,18 @@ enrique_gonzalez:
   description: Enrique is originally from Mexico but has been in the Bay Area for more than 10 years. He loves solving technical problems and has a passion for teaching and mentoring other technical professionals. He enjoys playing video games, playing with his dog Bennie and cooking Mexican food.
   manager_role_slug: manager_support
 
+nikki_golding:
+  name: Nikki Golding
+  email: Nikki.Golding@sourcegraph.com
+  github: NikkiGolding
+  pronouns: she/her
+  role: Regional Director, Customer Engineering
+  reports_to: vp_customer_engineering
+  location: Ponte Vedra Beach,Fl USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/nikki-golding/)'
+  description: Nikki loves all things outdoors, is a self-proclaimed music nerd,  has the best mut named Humphrey, two amazing kiddos who challenge her on the daily and one day hopes to be a Dive Master and prof Yogi.  
+ 
+  
 James Ghaedi:
   name: James Ghaedi
   email: james.ghaedi@sourcegraph.com
