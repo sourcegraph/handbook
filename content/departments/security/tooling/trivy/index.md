@@ -117,6 +117,7 @@ packages that are either false positives considering the way in which we run Sou
 or that we have accepted as low risk. You can find more details about these below:
 
 ### 4.5
+
 - [4.5.0](./4-5-0.md)
 
 ### 4.4
