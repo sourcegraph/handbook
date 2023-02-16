@@ -97,7 +97,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 ### [Marketing](departments/marketing/index.md)
 
 - [Product Marketing](departments/marketing/product-marketing/index.md)
-- [Communications](departments/marketing/comms/index.md) 
+- [Communications](departments/marketing/comms/index.md)
 - [Creative Ops](departments/marketing/creative-ops.md)
 
 ### [Sales](departments/sales/index.md)
