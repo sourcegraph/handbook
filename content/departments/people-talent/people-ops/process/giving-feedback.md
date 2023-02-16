@@ -1,4 +1,4 @@
-### Impact review writing guidelines & examples
+# Impact review writing - guidelines & examples
 
 Delivering feedback in writing to fellow teammates during our impact review process is just one of the ways in which we put into practice Sourcegraph's value of Continuous Growth. On this page, you'll find suggestions on how to write clear, actionable feedback.
 
@@ -7,8 +7,8 @@ This page contains guidance on:
 - [Tips for writing effective reviews](#tips-for-writing-great-reviews)
 - [Writing an effective self review](#writing-an-effective-self-review)
 - [Writing effective peer reviews](#writing-effective-peer-reviews)
-- [Writing effective Manager-to-Teammate reviews](#writing-effective-manager-to-teammate-reviews)
-- [Writing effective Direct Report-to-Manager reviews](#writing-effective-Direct-Report-to-Manager)
+- [Writing effective manager-to-teammate reviews](#writing-effective-manager-to-teammate-reviews)
+- [Writing effective direct report-to-manager reviews](#writing-effective-Direct-Report-to-Manager)
 
 ### **Tips for writing great reviews**
 
@@ -17,7 +17,6 @@ This page contains guidance on:
 
   - **Situation:** what did you or the teammate do?
   - **Behavior:** how you or the teammate did it(what you observed directly, not your interpretation or bias)
-
   - **Impact:** what was the impact or ROI of the work product or action?
 
 - **Provide balance**: when providing a self-review, it's important to be specific and provide concrete examples to support your rating, and to strike a balance between being confident and self-assured, and being humble and open to feedback. When writing reviews on other teammates, strike a balance between being positive and constructive. Acknowledge your teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement.
