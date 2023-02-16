@@ -67,7 +67,7 @@ Results from the semi-annual impact review process support the growth and develo
 (Review Period: August 1st to January 31st)
 
 - **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
-  - All Teams: 2023-02-01 to 2023-02-07 (1 week)
+  - All Teams: 2023-02-01 to 2023-02-011 (1.5 weeks)
 - **Phase 2: Self, Peer, & Upward Review Writing, Manager Review Writing**
   - All Teams: 2023-02-08 to 2023-03-22 (6 weeks) - We added 2 extra weeks for buffer because we know this is a busy time!
 - **Phase 3: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
