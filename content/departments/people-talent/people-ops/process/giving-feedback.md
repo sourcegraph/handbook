@@ -25,7 +25,7 @@ This page contains guidance on:
 - **Be concise**: reviews don’t have to be long to be impactful. We recommend anywhere from 300-1000 words max. Anything longer is unnecessary.
 - **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review.
   - Please feel free to use technology, like ChatGPT and Anthropic, to help speed up the review writing process!
-- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](../teammate-sentiment/impact-reviews/index.md).
+- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](teammate-sentiment/impact-reviews/index.md).
 
 ### **Writing an effective self review**
 
