@@ -20,7 +20,12 @@ Once the incident has been declared, the incident manager must coordinate the wo
 
 The incident manager is not expected to carry out all of this work themselves – they should bring in relevant team members as required.
 
-For communication, a Zoom call should be created with the members of the team involved in dealing with the incident. All tracking of progress should be done via the incident tracking document.
+For communication:
+
+- Either use the #security-incidents private Slack channel or a Zoom call to coordinate dealing with
+  the incident.
+- All tracking of significant changes should be done via the incident tracking document in Google
+  Drive.
 
 ### Escalation and internal notification
 
