@@ -2106,3 +2106,14 @@ Jamie_Oconnell:
   github: jkoconne
   pronouns: she/her
   description: I have a passion for helping people and operations! My background includes various People roles at 6 start-ups. I am based in Phoenix, Arizona where I have spent the majority of my life. Outside of work I enjoy being outdoors, hiking, traveling, cooking and spending time with friends and family.
+
+Ryan_Aznar:
+  name: Ryan Aznar
+  email: ryan.aznar@sourcegraph.com
+  github: raznar
+  pronouns: he/him/they
+  role: Enterprise Technical Advisor
+  reports_to: manager_technical_advisory
+  location: Denver, Colorado, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/raznar/)'
+  description: Ryan has spent his career helping large enterprises adopt and utilize bleeding-edge technology solutions. As a recent transplant to Colorado from North Carolina, he has taken up a lot of outdoorsy hobbies such as skiing, rock climbing, and hiking. Ryan also enjoys learning new languages and currently has over a 1000+ day streak on Duolingo learning German! 
