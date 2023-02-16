@@ -8,7 +8,7 @@ This page contains guidance on:
 - [Writing an effective self review](#writing-an-effective-self-review)
 - [Writing effective peer reviews](#writing-effective-peer-reviews)
 - [Writing effective manager-to-teammate reviews](#writing-effective-manager-to-teammate-reviews)
-- [Writing effective direct report-to-manager reviews](#writing-effective-Direct-Report-to-Manager)
+- [Writing effective direct report-to-manager reviews](#writing-effective-direct-report-to-manager-reviews)
 
 ### **Tips for writing great reviews**
 
