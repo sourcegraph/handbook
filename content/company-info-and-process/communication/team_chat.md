@@ -771,3 +771,26 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
 </table>
+
+### Legal
+
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#team-legal
+   </td>
+   <td>All legal teammates
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-legal
+   </td>
+   <td>Legal + people with legal questions
+   </td>
+  </tr>
+</table>
