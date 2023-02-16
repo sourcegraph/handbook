@@ -677,7 +677,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
   </tr>
 </table>
 
-## Operations
+### Operations
 
 <table>
   <tr>
