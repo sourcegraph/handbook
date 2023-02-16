@@ -53,6 +53,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 - [Communication](company-info-and-process/communication/index.md)
   - [The Git Down](https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
+  - [Slack guidelines](https://handbook.sourcegraph.com/company-info-and-process/communication/team_chat/)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
 - [Handbook](handbook/index.md)
   - [Editing the handbook](handbook/editing/index.md)
