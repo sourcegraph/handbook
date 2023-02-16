@@ -262,9 +262,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
 
 ## Channel lists by department
 
-
 ### Sales
-
 
 <table>
   <tr>
@@ -359,9 +357,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
   </tr>
 </table>
 
-
 ### Technical Success
-
 
 <table>
   <tr>
@@ -474,9 +470,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
   </tr>
 </table>
 
-
 ### Engineering, Product, Design
-
 
 <table>
   <tr>
@@ -583,9 +577,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
   </tr>
 </table>
 
-
 ### People & Talent
-
 
 <table>
   <tr>
@@ -626,9 +618,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
   </tr>
 </table>
 
-
 ### Marketing
-
 
 <table>
   <tr>
@@ -687,9 +677,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
   </tr>
 </table>
 
-
 ## Operations
-
 
 <table>
   <tr>
@@ -783,5 +771,3 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
 </table>
-
-
