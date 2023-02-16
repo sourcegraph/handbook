@@ -8,7 +8,7 @@ This page contains guidance on:
 - [Writing an effective self review](#writing-an-effective-self-review)
 - [Writing effective peer reviews](#writing-effective-peer-reviews)
 - [Writing effective Manager-to-Teammate reviews](#writing-effective-manager-to-teammate-reviews)
-- [Writing effective Direct Report-to-Manager reviews](#Writing-effective-Direct-Report-to-Manager)
+- [Writing effective Direct Report-to-Manager reviews](#writing-effective-Direct-Report-to-Manager)
 
 ### **Tips for writing great reviews**
 
@@ -25,7 +25,7 @@ This page contains guidance on:
 - **Be concise**: reviews don’t have to be long to be impactful. We recommend anywhere from 300-1000 words max. Anything longer is unnecessary.
 - **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review.
   - Please feel free to use technology, like ChatGPT and Anthropic, to help speed up the review writing process!
-- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](teammate-sentiment/impact-reviews/index.md).
+- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](teammate-sentiment/impact-reviews/index.md#rating-definitions).
 
 ### **Writing an effective self review**
 
@@ -423,7 +423,7 @@ Below is what your peers said about you:
   </tr>
 </table>
 
-### Writing effective teammate-to-manager review
+### Writing effective Direct Report-to-manager reviews
 
 Gathering feedback from a manager's direct reports is important in the performance review process because it provides a more comprehensive and well-rounded view of the manager's performance. Direct reports are in a unique position to observe the manager's day-to-day behavior, communication style, and leadership skills, and can provide valuable insights into areas of strength and areas for improvement. This feedback can help managers understand how they are perceived by their team and make necessary changes to improve their management style and overall effectiveness. Additionally, involving direct reports in the performance review process can increase their engagement and sense of ownership in the company, and promote a culture of open communication and continuous improvement.
 
