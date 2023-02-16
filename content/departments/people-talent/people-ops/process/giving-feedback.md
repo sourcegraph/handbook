@@ -427,7 +427,7 @@ Below is what your peers said about you:
 
 Gathering feedback from a manager's direct reports is important in the performance review process because it provides a more comprehensive and well-rounded view of the manager's performance. Direct reports are in a unique position to observe the manager's day-to-day behavior, communication style, and leadership skills, and can provide valuable insights into areas of strength and areas for improvement. This feedback can help managers understand how they are perceived by their team and make necessary changes to improve their management style and overall effectiveness. Additionally, involving direct reports in the performance review process can increase their engagement and sense of ownership in the company, and promote a culture of open communication and continuous improvement.
 
-**Example - manager-to-teammate review**
+**Example - direct report-to-manager review**
 
 <table>
   <tr>
