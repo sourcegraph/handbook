@@ -14,16 +14,18 @@ This page contains guidance on:
 
 - **No surprises**: what you write in your review should never be a surprise to the teammate receiving the feedback. We believe in direct and [continuous feedback](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#2-continuous-feedback), so please ensure you don’t wait until the impact review process to share feedback on how a teammate should improve.
 - **Be specific**: focus on specific and concrete examples to support your ratings and feedback. This will make your review more impactful and memorable. You should never give feedback without providing supporting examples. The [SBI model](https://docs.google.com/document/d/1R6c78xV9GpMdOX3jnZBg7GxUbcPJcABfJgUsdpU-m-U/edit?usp=sharing) can be helpful to leverage in delivering great feedback.
+
   - **Situation:** what did you or the teammate do?
   - **Behavior:** how you or the teammate did it(what you observed directly, not your interpretation or bias)
 
   - **Impact:** what was the impact or ROI of the work product or action?
+
 - **Provide balance**: when providing a self-review, it's important to be specific and provide concrete examples to support your rating, and to strike a balance between being confident and self-assured, and being humble and open to feedback. When writing reviews on other teammates, strike a balance between being positive and constructive. Acknowledge your teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement.
 - **Make it actionable**: use language that is clear, concise, and non-judgmental. Avoid using negative or accusatory language, and instead, focus on objective and actionable feedback.
 - **Be concise**: reviews don’t have to be long to be impactful. We recommend anywhere from 300-1000 words max. Anything longer is unnecessary.
 - **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review.
   - Please feel free to use technology, like ChatGPT and Anthropic, to help speed up the review writing process!
-- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](../teammate-sentiment/impact-reviews/index.md). 
+- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](../teammate-sentiment/impact-reviews/index.md).
 
 ### **Writing an effective self review**
 
@@ -42,12 +44,14 @@ A self review is your chance to celebrate and reflect on your performance over t
    <td><strong>Performance:</strong> Looking back over the past performance period, how would you rate your level of success in achieving your commitments or goals as it relates to your role and level? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
 <p>
 
-Please provide examples in the comment field that support your rating. 
+Please provide examples in the comment field that support your rating.
+
    </td>
    <td>I would rate my performance over the past 6-months as: ____.  <em>[Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. </em>
 <p>
 
-At a high level, I have demonstrated my ability to contribute to the company in a meaningful way and have accomplished several projects that I’m proud of and have contributed to the success of the business. Here are some key areas where I feel I successfully achieved my commitments in the past 6-months: 
+At a high level, I have demonstrated my ability to contribute to the company in a meaningful way and have accomplished several projects that I’m proud of and have contributed to the success of the business. Here are some key areas where I feel I successfully achieved my commitments in the past 6-months:
+
 <ul>
 
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how you achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
@@ -65,11 +69,13 @@ Overall, I feel that I have effectively fulfilled my commitments and demonstrate
 <p>
 
 Please provide supporting examples in the comment field that best describe how you exhibited Sourcegraph values over the past performance period.
+
    </td>
    <td>I would rate my level of success in showcasing Sourcegraph values over the past 6-months as: ____  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations].
 <p>
 
-During the past performance period, I consistently aimed to embody the company's values in my work and interactions with teammates. 
+During the past performance period, I consistently aimed to embody the company's values in my work and interactions with teammates.
+
 <ul>
 
 <li><strong>Situation</strong>: I have frequently displayed [insert value]. <strong>Behavior</strong>: [provide concrete example of how you have embodied the value]. <strong>Impact</strong>: [explain the impact or significance of your values alignment].
@@ -83,12 +89,14 @@ During the past performance period, I consistently aimed to embody the company's
    <td><strong>Growth Opportunities:</strong> I have showcased the expected domain knowledge, skills, and execution in alignment with my role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree ] 
 <p>
 
-Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.  
+Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.
+
    </td>
    <td>I would rate my level of success in showcasing expected domain knowledge, skills, and execution as: ____ [insert rating, e.g. 1, 2 or 3. Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree]. 
 <p>
 
 Throughout the past 6-months, I made a concerted effort to consistently apply my skills and knowledge in line with my role and level expectations. For example:
+
 <ul>
 
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how you achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
@@ -160,7 +168,8 @@ Feedback from teammates we work closely with is some of the most valuable we wil
    <td><strong>Performance:</strong> This teammate consistently delivers quality work in line with their role/level.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
 <p>
 
-Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. 
+Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period.
+
 <p>
 <em>* Note: Response is only visible to this teammate’s Manager.</em>
    </td>
@@ -178,7 +187,8 @@ Please provide specific examples in the comment field that supports how this Tea
    <td><strong>Values: </strong>This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  
 <p>
 
-Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period. 
+Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
+
 <p>
 <em>* Note: Response is only visible to teammates Manager.</em>
    </td>
@@ -196,7 +206,8 @@ Please provide supporting examples that best describe how this teammate exhibite
    <td><strong>Growth Opportunities:</strong> This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
 <p>
 
-Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.  
+Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
+
 <p>
 <em>* Note: Response is only visible to this teammates Manager.</em>
    </td>
@@ -226,7 +237,8 @@ To amplify performance in the next 6-moths:
    <td><strong>Goal Setting</strong>: How can this teammate better support you over the next 6 months?  
 <p>
 
-<em>* Note: Response is visible to this teammate.</em>
+<em>\* Note: Response is visible to this teammate.</em>
+
    </td>
    <td>In general, [Teammate name] is a great teammate and is very collaborative and supportive. This[Teammate name] could better support me by: 
 <ul>
@@ -269,12 +281,14 @@ Once all reviews are written and the manager has gone through the [calibration p
    <td><strong>Performance:</strong> What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar] 
 <p>
 
-Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.  
+Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
+
    </td>
    <td>9-box performance score = ____.  <em> [Please leverage<a href=../teammate-sentiment/impact-reviews.index.md#the-talent-assessment-using-the-9-box"> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
 <p>
 
-Over the past 6-months, [Teammate name] has [exceeded high bar, met high bar, or did not meet high bar]. Here are some examples that justify this performance rating: 
+Over the past 6-months, [Teammate name] has [exceeded high bar, met high bar, or did not meet high bar]. Here are some examples that justify this performance rating:
+
 <ul>
 
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how they achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
@@ -305,6 +319,7 @@ Below is what your peers said about your performance:
 <p>
 
 Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
+
 <p>
 <em>* Note: Response will not visible to the teammate.</em>
    </td>
@@ -336,7 +351,8 @@ Below is what your peers said about your values alignment:
    <td><strong>Growth Opportunities:</strong> This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
 <p>
 
-Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance. 
+Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
+
    </td>
    <td>[Teammate name] has demonstrated a [strong, average, or below average] understanding of their role and the required domain knowledge/skills. Below are examples that justify why I rated them a: ____  [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
 <ul>
@@ -393,7 +409,8 @@ Below is what your peers said about you:
    <td><strong>Promotion Readiness: </strong>I am recommending this teammate for promotion. [Yes/No] 
 <p>
 
-<em>* Note: Response is not visible to teammate and will only be used as part of calibration.</em>
+<em>\* Note: Response is not visible to teammate and will only be used as part of calibration.</em>
+
    </td>
    <td><em>[Select Yes or No…]</em>
    </td>
