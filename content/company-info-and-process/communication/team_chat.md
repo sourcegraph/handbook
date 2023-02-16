@@ -774,7 +774,6 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
 
 ### Legal
 
-
 <table>
   <tr>
    <td><strong>New Channel Name</strong>
