@@ -427,13 +427,13 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#team-support
+   <td>#team-customer-support
    </td>
    <td>Support
    </td>
   </tr>
   <tr>
-   <td>#ask-support
+   <td>#ask-customer-support
    </td>
    <td>Support
    </td>
