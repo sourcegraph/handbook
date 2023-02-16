@@ -8,21 +8,22 @@ This page contains guidance on:
 - [Writing an effective self review](#writing-an-effective-self-review)
 - [Writing effective peer reviews](#writing-effective-peer-reviews)
 - [Writing effective Manager-to-Teammate reviews](#writing-effective-manager-to-teammate-reviews)
-- [Writing effective Direct Report-to-Manager reviews](#Writing effective Direct Report-to-Manager)
+- [Writing effective Direct Report-to-Manager reviews](#Writing-effective-Direct-Report-to-Manager)
 
 ### **Tips for writing great reviews**
 
-- **No surprises**: what you write in your review should never be a surprise to the teammate receiving the feedback. We believe in direct and [continuous feedback] [../../company-info-and-process/working-at-sourcegraph/teammate-development/#2-continuous-feedback], so please ensure you don’t wait until the impact review process to share feedback on how a teammate should improve.
+- **No surprises**: what you write in your review should never be a surprise to the teammate receiving the feedback. We believe in direct and [continuous feedback](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#2-continuous-feedback), so please ensure you don’t wait until the impact review process to share feedback on how a teammate should improve.
 - **Be specific**: focus on specific and concrete examples to support your ratings and feedback. This will make your review more impactful and memorable. You should never give feedback without providing supporting examples. The [SBI model](https://docs.google.com/document/d/1R6c78xV9GpMdOX3jnZBg7GxUbcPJcABfJgUsdpU-m-U/edit?usp=sharing) can be helpful to leverage in delivering great feedback.
   - **Situation:** what did you or the teammate do?
-  - **Behavior:** how you or the teammate did it
+  - **Behavior:** how you or the teammate did it(what you observed directly, not your interpretation or bias)
+
   - **Impact:** what was the impact or ROI of the work product or action?
-- **Provide balance**: when providing a self-review, It's important to be specific and provide concrete examples to support your rating, and to strike a balance between being confident and self-assured, and being humble and open to feedback. When writing reviews on other teammates, strike a balance between being positive and constructive. Acknowledge your teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement.
+- **Provide balance**: when providing a self-review, it's important to be specific and provide concrete examples to support your rating, and to strike a balance between being confident and self-assured, and being humble and open to feedback. When writing reviews on other teammates, strike a balance between being positive and constructive. Acknowledge your teammate's strengths and successes, while also providing constructive feedback & specific areas for improvement.
 - **Make it actionable**: use language that is clear, concise, and non-judgmental. Avoid using negative or accusatory language, and instead, focus on objective and actionable feedback.
 - **Be concise**: reviews don’t have to be long to be impactful. We recommend anywhere from 300-1000 words max. Anything longer is unnecessary.
 - **Don’t overthink**: the time it takes to write a review can vary depending on the person. Some teammates can write a review in 15-minutes, and others need an hour. If you are taking more than an hour to write one review, please reach out to your People Partner for support. It is likely that you are writing too much or overthinking the review.
   - Please feel free to use technology, like ChatGPT and Anthropic, to help speed up the review writing process!
-- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](../teammate-sentiment/impact-reviews/index.md)
+- **Rating scale**: you can read more about our rating scale definitions in the handbook [here](../teammate-sentiment/impact-reviews/index.md). 
 
 ### **Writing an effective self review**
 
@@ -40,10 +41,12 @@ A self review is your chance to celebrate and reflect on your performance over t
   <tr>
    <td><strong>Performance:</strong> Looking back over the past performance period, how would you rate your level of success in achieving your commitments or goals as it relates to your role and level? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
 <p>
+
 Please provide examples in the comment field that support your rating. 
    </td>
    <td>I would rate my performance over the past 6-months as: ____.  <em>[Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. </em>
 <p>
+
 At a high level, I have demonstrated my ability to contribute to the company in a meaningful way and have accomplished several projects that I’m proud of and have contributed to the success of the business. Here are some key areas where I feel I successfully achieved my commitments in the past 6-months: 
 <ul>
 
@@ -60,10 +63,12 @@ Overall, I feel that I have effectively fulfilled my commitments and demonstrate
   <tr>
    <td><strong>Values:</strong> Looking back over the past performance period, how would you rate your level of success in showcasing our values? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. 
 <p>
+
 Please provide supporting examples in the comment field that best describe how you exhibited Sourcegraph values over the past performance period.
    </td>
    <td>I would rate my level of success in showcasing Sourcegraph values over the past 6-months as: ____  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations].
 <p>
+
 During the past performance period, I consistently aimed to embody the company's values in my work and interactions with teammates. 
 <ul>
 
@@ -77,10 +82,12 @@ During the past performance period, I consistently aimed to embody the company's
   <tr>
    <td><strong>Growth Opportunities:</strong> I have showcased the expected domain knowledge, skills, and execution in alignment with my role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree ] 
 <p>
+
 Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.  
    </td>
    <td>I would rate my level of success in showcasing expected domain knowledge, skills, and execution as: ____ [insert rating, e.g. 1, 2 or 3. Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree]. 
 <p>
+
 Throughout the past 6-months, I made a concerted effort to consistently apply my skills and knowledge in line with my role and level expectations. For example:
 <ul>
 
@@ -88,9 +95,7 @@ Throughout the past 6-months, I made a concerted effort to consistently apply my
 
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how you achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
 
-<p>
-To amplify my performance in the next review period…
-<ul>
+<p>To amplify my performance in the next review period…<ul>
 
 <li><strong>Start:</strong> I should [insert specific action, e.g. seek out opportunities for professional development to stay current with industry trends and developments]. I also think it would be beneficial for me to [insert specific action, e.g. work on improving my time management skills to better balance competing priorities].
 
@@ -154,6 +159,7 @@ Feedback from teammates we work closely with is some of the most valuable we wil
   <tr>
    <td><strong>Performance:</strong> This teammate consistently delivers quality work in line with their role/level.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
 <p>
+
 Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. 
 <p>
 <em>* Note: Response is only visible to this teammate’s Manager.</em>
@@ -171,6 +177,7 @@ Please provide specific examples in the comment field that supports how this Tea
   <tr>
    <td><strong>Values: </strong>This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  
 <p>
+
 Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period. 
 <p>
 <em>* Note: Response is only visible to teammates Manager.</em>
@@ -188,6 +195,7 @@ Please provide supporting examples that best describe how this teammate exhibite
   <tr>
    <td><strong>Growth Opportunities:</strong> This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
 <p>
+
 Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.  
 <p>
 <em>* Note: Response is only visible to this teammates Manager.</em>
@@ -203,7 +211,7 @@ Please provide specific examples in the comment field that support what this tea
 To amplify performance in the next 6-moths: 
 <ul>
 
-<li><strong>Start:</strong> [teammate name] should [insert specific actions or behaviors that this teammate should start to become better].
+<li><strong>Start:</strong> [teammate name] should [insert specific actions or behaviors that this teammate should start to become stronger].
 
 <li><strong>Stop</strong>: we all have areas for improvement, and I believe [teammate name] will be even more impactful if they stop doing [insert what you would like them to stop doing to become more impactful].  The reason I believe they should stop doing [insert what you mentioned above] is because [insert the reason for he feedback].
 
@@ -217,9 +225,10 @@ To amplify performance in the next 6-moths:
   <tr>
    <td><strong>Goal Setting</strong>: How can this teammate better support you over the next 6 months?  
 <p>
+
 <em>* Note: Response is visible to this teammate.</em>
    </td>
-   <td>In general, [Teammate name] is a great teammate and is very collaborative and supportive. However,  This[Teammate name] could better support me by: 
+   <td>In general, [Teammate name] is a great teammate and is very collaborative and supportive. This[Teammate name] could better support me by: 
 <ul>
 
 <li><strong>Situation</strong>: [insert a way in which this teammate can better support you] <strong>Behavior</strong>: [provide concrete example of how they can support you]. <strong>Impact</strong>: [explain why this is important to you and the impact it will make if they begin supporting you in this way].
@@ -241,7 +250,7 @@ To amplify performance in the next 6-moths:
 
 ### Writing effective manager-to-teammate reviews
 
-People leaders at Sourcegraph play a vital role in shaping the experiences of their team members. While we encourage managers to provide [continuous feedback throughout the year](INSERT LINK TO CONTINUOUS FEEDBACK HB PAGE COMING SOON), whether it be via Regular 1:1s or career conversations, our bi-annual impact reviews provide a great opportunity where in-depth, formal feedback can be provided both ways: teammate-to-manager, as well as manager-to-teammate.
+People leaders at Sourcegraph play a vital role in shaping the experiences of their team members. While we encourage managers to provide [continuous feedback throughout the year](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#2-continuous-feedback), whether it be via Regular 1:1s or career conversations, our bi-annual impact reviews provide a great opportunity where in-depth, formal feedback can be provided both ways: teammate-to-manager, as well as manager-to-teammate.
 
 When it comes time for a manager to write performance reviews about their direct reports, many come to realize that it is much easier said than done. Successfully drafting and delivering a meaningful review to a teammate is no small feat, but it is incredibly important to provide thoughtful feedback to help guide and support teammate growth and development. The key to a successful review is to be thorough, honest, and clear, while also focusing on both strengths and areas for improvement. By taking the time to carefully consider the teammate's performance and by actively engaging in an open dialogue, a manager can help foster a culture of continuous improvement and growth, and create a foundation for future success.
 
@@ -259,10 +268,12 @@ Once all reviews are written and the manager has gone through the [calibration p
   <tr>
    <td><strong>Performance:</strong> What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar] 
 <p>
+
 Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.  
    </td>
-   <td>9-box performance score = ____.  <em> [Please leverage<a href="https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/#the-talent-assessment-using-the-9-box"> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
+   <td>9-box performance score = ____.  <em> [Please leverage<a href=../teammate-sentiment/impact-reviews.index.md#the-talent-assessment-using-the-9-box"> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
 <p>
+
 Over the past 6-months, [Teammate name] has [exceeded high bar, met high bar, or did not meet high bar]. Here are some examples that justify this performance rating: 
 <ul>
 
@@ -292,6 +303,7 @@ Below is what your peers said about your performance:
   <tr>
    <td><strong>Values: </strong>What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar]  
 <p>
+
 Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
 <p>
 <em>* Note: Response will not visible to the teammate.</em>
@@ -323,6 +335,7 @@ Below is what your peers said about your values alignment:
   <tr>
    <td><strong>Growth Opportunities:</strong> This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
 <p>
+
 Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance. 
    </td>
    <td>[Teammate name] has demonstrated a [strong, average, or below average] understanding of their role and the required domain knowledge/skills. Below are examples that justify why I rated them a: ____  [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
@@ -379,6 +392,7 @@ Below is what your peers said about you:
   <tr>
    <td><strong>Promotion Readiness: </strong>I am recommending this teammate for promotion. [Yes/No] 
 <p>
+
 <em>* Note: Response is not visible to teammate and will only be used as part of calibration.</em>
    </td>
    <td><em>[Select Yes or No…]</em>
