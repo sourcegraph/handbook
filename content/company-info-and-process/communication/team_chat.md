@@ -262,53 +262,526 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
 
 ## Channel lists by department
 
-#### Product
 
-All Product teammates should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
+### Sales
 
-- #design - How Sourcegraph looks visually
-- #feedback - Feedback directly from our users & customers
-- #product - Product questions, ideas, and thoughts
-- #prod-eng-announce belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 
-#### Operations
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-sales
+   </td>
+   <td>All Sales
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-sales
+   </td>
+   <td>All Sales, Marketing
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-sales-ops
+   </td>
+   <td>All Sales
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-sales-enablement
+   </td>
+   <td>All Sales
+   </td>
+  </tr>
+  <tr>
+   <td>#sales-prospecting
+   </td>
+   <td>All Sales
+   </td>
+  </tr>
+  <tr>
+   <td>#team-superare
+   </td>
+   <td>SDR
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ae-west
+   </td>
+   <td>AE West
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ae-east
+   </td>
+   <td>AE East
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ae-emea
+   </td>
+   <td>AE EMEA
+   </td>
+  </tr>
+  <tr>
+   <td>#team-sales-leadership
+   </td>
+   <td>Sales Leadership
+   </td>
+  </tr>
+  <tr>
+   <td>#gtm-ops-review
+   </td>
+   <td>Sales Leadership
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-commissions
+   </td>
+   <td>Accounting and Sales Team
+   </td>
+  </tr>
+  <tr>
+   <td>#eoq-closing
+   </td>
+   <td>Deal Desk, Sales, Legal Teams
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-deal-desk
+   </td>
+   <td>Deal Desk, Legal, Sales
+   </td>
+  </tr>
+</table>
 
-All teammates in Operations should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- #business-ops - Strategy, operations, and project management support
-- #ask-people-team - Onboarding, team satisfaction, reviews, and much more
-- #hiring - Candidate hiring
-- #it-tech-ops - IT, software, and access questions
-- #finance - Dollars and cents
-- #legal - Legal questions
-- #marketintel - Market and industry intelligence - products, funding, competition
-- #payments - Customer payment notifications
-- #analytics - All things data
+### Technical Success
 
-#### Go-to-market
 
-All teammates in Sales and Marketing should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#team-technical-success
+   </td>
+   <td>All TS
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-technical-success
+   </td>
+   <td>All TS
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-technical-success
+   </td>
+   <td>All TS
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ce
+   </td>
+   <td>CE
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-ce
+   </td>
+   <td>CE and cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ce-west
+   </td>
+   <td>CE West
+   </td>
+  </tr>
+  <tr>
+   <td>#team-implementation
+   </td>
+   <td>Implementation
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-implementation
+   </td>
+   <td>Implementation
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ta
+   </td>
+   <td>TA
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-ta
+   </td>
+   <td>TA
+   </td>
+  </tr>
+  <tr>
+   <td>#team-support
+   </td>
+   <td>Support
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-support
+   </td>
+   <td>Support
+   </td>
+  </tr>
+  <tr>
+   <td>#team-ts-leads
+   </td>
+   <td>TS Leadership
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-sales-ts-leadership
+   </td>
+   <td>Sales & TS Leadership
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-commissions
+   </td>
+   <td>Accounting and Sales Team
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-deal-desk
+   </td>
+   <td>Deal Desk, Legal, Sales
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-customer-updates
+   </td>
+   <td>CEs, AEs
+   </td>
+  </tr>
+</table>
 
-- #marketing - [Marketing](../../departments/marketing/index.md)
-- #sales - [Sales](../../departments/sales/index.md)
-- #customer-updates - Updates on the status of customers
-- #ce - Helping devs use Sourcegraph effectively
 
-#### Engineering
+### Engineering, Product, Design
 
-All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- #eng-announce - Announcements that are relevant to all of the Engineering department belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
-- #dev-chat - Anything generally related to Sourcegraph development.
-- #dev-frontend - Anything related to frontend development.
-- #dev-backend - Anything related to backend development.
-- #dev-ops - Discussing incidents and any other ops-related work.
-- #dev-learn - Share and discuss learning resources such as articles, books, and courses.
-- #buildkite - Notifications about Buildkite / CI failures.
-- #opsgenie - Pager notifications get sent to Slack.
-- #alerts-cloud - Alertmanager alerts and warnings for our Cloud deployment.
-- #alerts-dogfood-k8s - Alertmanager alerts and warnings for our Dogfood deployment.
-- #bots-production - Kubernetes bot notifications.
-- #alerts-external - External system notifications which might impact our deployments.
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-engineering
+   </td>
+   <td>All engineering, cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-engineering
+   </td>
+   <td>All eng, cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#team-engineering
+   </td>
+   <td>All engineering
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-dev-ops
+   </td>
+   <td>Anyone having question about deployments
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-eng-updates?
+   </td>
+   <td>Anyone interested in updates from Eng teams?
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-release-guild
+   </td>
+   <td>People who have questions and updates about releases
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-incidents
+   </td>
+   <td>Anyone who needs to be aware of incidents
+   </td>
+  </tr>
+  <tr>
+   <td>#team-dev-backend
+   </td>
+   <td>All engineers working on Backend code
+   </td>
+  </tr>
+  <tr>
+   <td>#team-dev-frontend
+   </td>
+   <td>All engineers working on frontend code
+   </td>
+  </tr>
+  <tr>
+   <td>#chat-dev-learn
+   </td>
+   <td>Anybody wanting to chart about dev related topics and learn new things
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-product
+   </td>
+   <td>All Product teammates, cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#team-product
+   </td>
+   <td>All Product teammates
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-product-research
+   </td>
+   <td>All Product teammates, Design team
+   </td>
+  </tr>
+  <tr>
+   <td>#feedback-dogfood
+   </td>
+   <td>All Product teammates
+   </td>
+  </tr>
+  <tr>
+   <td>#team-design
+   </td>
+   <td>Design team
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-design
+   </td>
+   <td>Design team
+   </td>
+  </tr>
+</table>
 
-You should also join channels mentioned in [your team’s documentation](../../departments/engineering/dev/index.md#teams)
+
+### People & Talent
+
+
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-people-team
+   </td>
+   <td>Whole company
+   </td>
+  </tr>
+  <tr>
+   <td>#team-people-and-talent
+   </td>
+   <td>All People & Talent teammates
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-people-team
+   </td>
+   <td>People & Talent, teammates w/ HR questions
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-talent-scheduling-and-offers
+   </td>
+   <td>Talent teammates
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-hiring
+   </td>
+   <td>People & Talent, anybody with hiring questions
+   </td>
+  </tr>
+</table>
+
+
+### Marketing
+
+
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#team-marketing
+   </td>
+   <td>All Marketing teammates
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-marketing
+   </td>
+   <td>All Marketing teammates + cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-marketing
+   </td>
+   <td>All Marketing teammates + cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#team-comms
+   </td>
+   <td>Comms team
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-internal-comms
+   </td>
+   <td>Internal comms + people looking for support on internal comms
+   </td>
+  </tr>
+  <tr>
+   <td>#team-social
+   </td>
+   <td>Social media team
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-events
+   </td>
+   <td>Events team + cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#team-pmm
+   </td>
+   <td>Product Marketing team
+   </td>
+  </tr>
+</table>
+
+
+## Operations
+
+
+<table>
+  <tr>
+   <td><strong>New Channel Name</strong>
+   </td>
+   <td><strong>Members/Audience</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>#team-operations
+   </td>
+   <td>All Operations
+   </td>
+  </tr>
+  <tr>
+   <td>#team-operations-leadership
+   </td>
+   <td>Ops Managers
+   </td>
+  </tr>
+  <tr>
+   <td>#benefits-payroll-private
+   </td>
+   <td>Payroll and People Team
+   </td>
+  </tr>
+  <tr>
+   <td>#bamboo-org-updates
+   </td>
+   <td>Payroll and People Team
+   </td>
+  </tr>
+  <tr>
+   <td>#team-finance
+   </td>
+   <td>Finance and Accounting team
+   </td>
+  </tr>
+  <tr>
+   <td>#team-accounting
+   </td>
+   <td>Accounting and Sales Team
+   </td>
+  </tr>
+  <tr>
+   <td>#team-deal-desk
+   </td>
+   <td>Deal Desk and Legal Teams
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-deal-desk
+   </td>
+   <td>Deal Desk, Legal, Sales
+   </td>
+  </tr>
+  <tr>
+   <td>#team-deal-desk
+   </td>
+   <td>Deal Desk and Legal Teams
+   </td>
+  </tr>
+  <tr>
+   <td>#team-data-analytics
+   </td>
+   <td>Data & Analytics
+   </td>
+  </tr>
+  <tr>
+   <td>#ask-analytics
+   </td>
+   <td>Data + cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#announce-analytics
+   </td>
+   <td>Data + cross functional partners
+   </td>
+  </tr>
+  <tr>
+   <td>#alerts-dataops
+   </td>
+   <td>Data & Analytics
+   </td>
+  </tr>
+  <tr>
+   <td>#team-data-eng
+   </td>
+   <td>Data & Analytics
+   </td>
+  </tr>
+</table>
+
+
