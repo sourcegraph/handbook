@@ -284,7 +284,7 @@ Once all reviews are written and the manager has gone through the [calibration p
 Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
 
    </td>
-   <td>9-box performance score = ____.  <em> [Please leverage<a href=../teammate-sentiment/impact-reviews.index.md#the-talent-assessment-using-the-9-box"> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
+   <td>9-box performance score = ____.  <em> [Please leverage<a href=../teammate-sentiment/impact-reviews/index.md#the-talent-assessment-using-the-9-box> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
 <p>
 
 Over the past 6-months, [Teammate name] has [exceeded high bar, met high bar, or did not meet high bar]. Here are some examples that justify this performance rating:
