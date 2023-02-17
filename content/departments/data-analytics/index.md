@@ -32,10 +32,10 @@ Partner with the organization to build scalable data solutions and insights to h
 
 The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook paged. Don’t see what you are looking for? Ask a question in one of our Slack channels.
 
-- #data-analytics-internal for internal Data & Analytics communication
-- #analytics for anything related to analytics; not just the Data & Analytics team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask).
-- #analytics-review for help with self-service and WIP data projects (questions about the data, requests for peer review). Although we do expect to be involved in this quite a bit, it’s not just meant to get feedback from Data & Analytics. We will also be using this channel to have our work peer reviewed and collaborate with other folks from different parts of the business! Anybody comfortable enough with data can be a peer reviewer or answer questions
-- #data-eng for Data Engineering communication
+- #team-data-analytics for internal Data & Analytics communication
+- #ask-analytics for anything related to analytics; not just the Data & Analytics team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask).
+- #team-data-eng for Data Engineering communication
+- #announce-operations for announcements and general updates
 
 There is an analyst on support each week that will be answering questions and triaging requests that come through these channels.
 
