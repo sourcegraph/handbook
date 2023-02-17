@@ -1,4 +1,4 @@
-The CEO Team is comprised of the [CEO](../../team/ceo/index.md), the [Chief of Staff to the CEO](../../team/index.md#connor-obrien), and the [Executive Business Partner to the CEO](../../team/index.md#sally-voisen).
+The CEO Team is comprised of the [CEO](../../team/ceo/index.md), the [Chief of Staff to the CEO](../../team/index.md#connor-obrien), and the [Sr. Executive Business Partner to the CEO](../../team/index.md#sally-voisen).
 
 The CEO Team supports and augments the CEO helping to connect company strategy to operations to day-to-day tactical execution.
 
