@@ -149,7 +149,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 ### Step 6: post to #hiring
 
-The Recruiter posts an announcement about the new role in #hiring. Example below:
+The Recruiter posts an announcement about the new role in #announce-people-team. Example below:
 
 Hi team! We're excited to announce that we're kicking off a new search on the [department name] team. Please help us find candidates by spreading the word to your network and sending any referrals! And as always, we welcome internal applicants, too! If you're interested, talk to your Manager and follow [these steps](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams) in the Handbook.
 
