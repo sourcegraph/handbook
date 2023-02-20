@@ -57,9 +57,9 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
 - Become the single point of contact for the entire duration of your involvement.
   - You providing regular updates.
   - You check on whoever is involved, making sure they have whatever they need.
-  - Remember anyone involved that this is an escalation engeneering issue and explain what is at stake.
-- Seek help if needed, reaching out whoever can help.
-  - You provide them the full context and help them to understand why it matters and get they buy in to help.
+  - Remind everyone involved that this is an escalation engeneering issue and explain what is at stake.
+- Seek help if needed, reaching out whomever can help.
+  - You provide them the full context and help them to understand why it matters and get the buy in to help.
   - You escalate as soon as possible if you're cornered and cannot get the help you need. If something is in the way, find a solution. Do not stop moving.
 - Lead the implementation effort.
   - If you're stuck, get some help! If you someone who knows this topic very well, make it easy for them to help you.
