@@ -64,7 +64,7 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
 - Lead the implementation effort.
   - If you're stuck, get some help! If you someone who knows this topic very well, make it easy for them to help you.
   - Even if you're not familiar with the topic, you can still lead and take away that burden from others, allowing them to focus on solving the technical detail while you keep everyone synchronized.
-  - If you find yourself to not be able to lead, you are responsible to finding out a person to replace you.
+  - If you find yourself to not be able to lead, you are responsible for finding a person to replace you.
   - You keep the support request alive, you raise the alarm if it's stagnating or ask to close the support request if the context changes.
 
 ### Tips for new escalation engineers
