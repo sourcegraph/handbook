@@ -319,7 +319,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
   - [Exit interviews](people-ops/process/leaving.md#exit-interviews)
-  - [Offboarding process]COMING SOON
+  - [Offboarding process](people-ops/tools/internal-offboarding.md#offboarding-checklist)
 
 ### Teammate swag
 
