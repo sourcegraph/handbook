@@ -45,9 +45,9 @@ If you have questions or want to participate, please post in #escalation-enginee
 
 ## What does an Escalation Engineer do?
 
-An Escalation engineer role is to spearhead efforts on a support issue that is critical for the company and get it resolved, regardless of the ongoing context and current organization. In essence, an escalation engineer act as a joker card, that gets pulled when the current organization and processes are not sufficient to provide a solution quickly enough and the risks are big enough to justify their involvement.
+The idea behind the Escalation Engineer role is to spearhead efforts on support issues that are critical for the company and get them resolved, regardless of the ongoing context and current organization. In essence, an Escalation Engineer act as a joker card, that gets pulled when the current organization and processes are not sufficient to provide a solution quickly enough and the risks are big enough to justify their involvement.
 
-This means that ultimately, the escalation engineer is responsible to solving the issue, and it's on them to mobilize others to ensure enough resources are allocated for it to succeed. They effectively become the DRI for the support request and do whatever is necessary to get it done. They may have to explain to other teams whose involvement is needed why this is an important matter, feeding them enough context so they can repriorize their backlog for example.
+This means that ultimately, the Escalation Engineer is responsible for solving the issue, and it's on them to mobilize others to ensure enough resources are allocated for it to succeed. They effectively become the DRI for the support request and do whatever is necessary to get it done. They may have to explain to other teams whose involvement is needed why this is an important matter, feeding them enough context so they can repriorize their backlog for example.
 
 As an escalation engineer, you're effectively becoming the DRI (and tech lead) of a support request when you accept it. This means you:
 
