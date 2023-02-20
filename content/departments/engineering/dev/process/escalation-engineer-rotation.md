@@ -43,7 +43,31 @@ This is a new program, so any and all of these points are flexible, but here is 
 
 If you have questions or want to participate, please post in #escalation-engineering.
 
-## Tips for new escalation engineers
+## What does an Escalation Engineer do?
+
+The idea behind the Escalation Engineer role is to spearhead efforts on support issues that are critical for the company and get them resolved, regardless of the ongoing context and current organization. In essence, an Escalation Engineer act as a joker card, that gets pulled when the current organization and processes are not sufficient to provide a solution quickly enough and the risks are big enough to justify their involvement.
+
+This means that ultimately, the Escalation Engineer is responsible for solving the issue, and it's on them to mobilize others to ensure enough resources are allocated for it to succeed. They effectively become the DRI for the support request and do whatever is necessary to get it done. They may have to explain to other teams whose involvement is needed why this is an important matter, feeding them enough context so they can repriorize their backlog for example.
+
+As an escalation engineer, you're effectively becoming the DRI (and tech lead) of a support request when you accept it. This means you:
+
+- Own the support request.
+  - It is now your issue. You're not helping someone to fix their issue, you're helping them by taking it out from them.
+  - The person who reported it may still work with you, but you're helping them by taking the lead.
+- Become the single point of contact for the entire duration of your involvement.
+  - You providing regular updates.
+  - You check on whoever is involved, making sure they have whatever they need.
+  - Remind everyone involved that this is an escalation engeneering issue and explain what is at stake.
+- Seek help if needed, reaching out whomever can help.
+  - You provide them the full context and help them to understand why it matters and get the buy in to help.
+  - You escalate as soon as possible if you're cornered and cannot get the help you need. If something is in the way, find a solution. Do not stop moving.
+- Lead the implementation effort.
+  - If you're stuck, get some help! If you someone who knows this topic very well, make it easy for them to help you.
+  - Even if you're not familiar with the topic, you can still lead and take away that burden from others, allowing them to focus on solving the technical detail while you keep everyone synchronized.
+  - If you find yourself to not be able to lead, you are responsible for finding a person to replace you.
+  - You keep the support request alive, you raise the alarm if it's stagnating or ask to close the support request if the context changes.
+
+### Tips for new escalation engineers
 
 - Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
