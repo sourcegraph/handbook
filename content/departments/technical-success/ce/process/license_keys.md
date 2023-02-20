@@ -41,11 +41,11 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 3. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
 4. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). For new prospects during trial and / or a new customer, click **Create product subscription**. Search for the user you just created.
 5. Click **Generate new license manually**.
-    1. Fill out the customer name, lowercase, fill spaces with `-` character
-    1. Fill out the license subscription plan name [see the plans](#plans) section
-    1. Fill out the licensed number of users. (Note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning).
-    1. Fill out the number of days the license should be valid (most typically to match the end date of the contract itself)
-    1. Fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) section. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If tag is not recognized, it will be red and a warning will appear.
+   1. Fill out the customer name, lowercase, fill spaces with `-` character
+   1. Fill out the license subscription plan name [see the plans](#plans) section
+   1. Fill out the licensed number of users. (Note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning).
+   1. Fill out the number of days the license should be valid (most typically to match the end date of the contract itself)
+   1. Fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) section. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If tag is not recognized, it will be red and a warning will appear.
 6. Click **Generate license**.
 7. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
@@ -86,6 +86,7 @@ In select circumstances, such as a bridge extension being requested due to the r
 ### Plans
 
 Below is a list of supported plans:
+
 - `enterprise-1` (from 4.0 onwards) for Enterprise customers, `code-insights` and `batch-changes` included
   > Note: this should be the **default** plan for most of the enterprise customers.
 - `enterprise-0` (until 4.0) for Enterprise customers, features above only included if tags of same name are added
@@ -121,11 +122,12 @@ Example license key tags:
 
 - **Enterprise Licenses**: `acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, should be added to every Enterprise license.
 
-    - Optionally add `true-up`, `mau`, `trial` based on the context of the license.
-    - `batch-changes` and `code-insights` tags should only be added to legacy `enterprise-0` plan or other plans that do not automatically add the feature. `enterprise-1` plan alreadty contains both.
+  - Optionally add `true-up`, `mau`, `trial` based on the context of the license.
+  - `batch-changes` and `code-insights` tags should only be added to legacy `enterprise-0` plan or other plans that do not automatically add the feature. `enterprise-1` plan alreadty contains both.
 
 - **Non-enterprise Licenses**: these depend on the contract & specified features.
-    > Note: **only add** `batch-changes` and `code-insights` tags if the contract specifies **unlimited usage** of these features.
+
+  > Note: **only add** `batch-changes` and `code-insights` tags if the contract specifies **unlimited usage** of these features.
 
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
 
