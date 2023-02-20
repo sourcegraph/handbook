@@ -86,7 +86,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 **How far back do our background checks run?**
 
-- Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law.
+- Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
 
 **How long does it take to complete a background check?**
 
@@ -95,7 +95,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 **Do we conduct background checks in all countries?**
 
-- Sourcegraph will only conduct background checks in countries where such checks are permitted by applicable law.
+- Sourcegraph will only conduct background checks in countries where such checks are permitted by applicable law. More information can be found [here.](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings)
 
 **What vendor do we use for background checks?**
 
