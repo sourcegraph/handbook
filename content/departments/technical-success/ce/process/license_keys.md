@@ -41,11 +41,11 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 3. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
 4. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). For new prospects during trial and / or a new customer, click **Create product subscription**. Search for the user you just created.
 5. Click **Generate new license manually**.
-   1. Fill out the customer name, lowercase, fill spaces with `-` character
-   1. Fill out the license subscription plan name [see the plans](#plans) section
-   1. Fill out the licensed number of users. (Note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning).
-   1. Fill out the number of days the license should be valid (most typically to match the end date of the contract itself)
-   1. Fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) section. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If tag is not recognized, it will be red and a warning will appear.
+   1. Fill out the customer name in lowercase. Fill spaces with the `-` character.
+   1. Fill out the license subscription plan name. See the [plans](#plans) section.
+   1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
+   1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
+   1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
 6. Click **Generate license**.
 7. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
