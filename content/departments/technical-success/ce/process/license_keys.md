@@ -40,8 +40,13 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 2. If the customer does not have a license yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
 3. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
 4. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). For new prospects during trial and / or a new customer, click **Create product subscription**. Search for the user you just created.
-5. Click **Generate new license manually**. Fill out the license end date (most typically to match the contract terms) and fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) for a list you can just copy. Remember: Tags must be separated by commas, with no spaces!
-6. Set the licensed number of users (note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
+5. Click **Generate new license manually**.
+   1. Fill out the customer name in lowercase. Fill spaces with the `-` character.
+   1. Fill out the license subscription plan name. See the [plans](#plans) section.
+   1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
+   1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
+   1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
+6. Click **Generate license**.
 7. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
 ## Handling renewals or upgrades
@@ -78,39 +83,65 @@ Within Sourcegraph we use 1Password for managing our credentials, including lice
 
 In select circumstances, such as a bridge extension being requested due to the renewal process not aligning with license expiration, Sales must receive approval from the VP of Finance and VP of Sales to issue a licensing exception. This approval is granted via request in #deal-desk. If an AE requests a deviation from their contract licensing terms, please validate that the necessary approvals have been granted _before_ making any changes to a customers' license key.
 
+### Plans
+
+Below is a list of supported plans:
+
+- `enterprise-1` (from 4.0 onwards) for Enterprise customers, `code-insights` and `batch-changes` included
+  > Note: this should be the **default** plan for most of the enterprise customers.
+- `enterprise-0` (until 4.0) for Enterprise customers, features above only included if tags of same name are added
+- `business-0` for Business customers, `code-insights` and `batch-changes` included
+- `team-0` (until 4.0) for a handful of customers on the Team plan
+- `free-0` for legacy Free plan (until 4.5) customers, for which we need to generate a license to keep them using the existing feature set
+- `free-1` for new Free plan (from 4.5 onwards). We should not generate licenses with this plan
+  at the moment, because it is automatically assigned when no license key is given
+
 ### License key tags
 
-Below is a list of our license key tags along with a description of each which you may need to include:
+Below is a list of our license key tags along with a description of each which you may need to include.
 
-- `plan:enterprise-1` or `plan:business-0` for Enterprise or Business customers, respectively.
+First the tags that relate to license itself:
+
 - `true-up` to allow the company to go over the user limit on the license. No tag is needed for hard cap.
 - `mau` to indicate that the company is on a monthly usage-based billing model.
-  - Note: For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.
+  > Note: For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.
 - `trial` to show an indicate in Sourcegraph that the company is on a trial.
-- `batch-changes` for Batch Changes (formerly `campaigns`)
-- `code-insights` for Code Insights
+- `dev` for internal developer licenses
+- `internal` for licenses used for internal sites (dotcom, k8s, etc.)
+
+Second, the tags that enable specific features:
+
 - `acls` for external Permission syncing from the code host. (Add this to all licenses.)
+- `batch-changes` for unlimited Batch Changes (formerly `campaigns`)
+- `code-insights` for unlimited Code Insights
 - `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
 - `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions. All Enterprise licenses should have this added.
 - `monitoring` - Monitoring. All licenses should have this added.
-- `internal` for licenses used for internal sites (dotcom, k8s, etc.)
-- `dev` for internal developer licenses
-- The company's name (with dashes instead of spaces), to make it easy to search for a given license key in the future.
 
 Example license key tags:
 
-- **Enterprise Licenses**: `plan:enterprise-1`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.
+- **Enterprise Licenses**: `acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, should be added to every Enterprise license.
+
+  - Optionally add `true-up`, `mau`, `trial` based on the context of the license.
+  - `batch-changes` and `code-insights` tags should only be added to legacy `enterprise-0` plan or other plans that do not automatically add the feature. `enterprise-1` plan alreadty contains both.
+
+- **Non-enterprise Licenses**: these depend on the contract & specified features.
+
+  > Note: **only add** `batch-changes` and `code-insights` tags if the contract specifies **unlimited usage** of these features.
+
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
 
 See our [Sourcegraph License Builder](https://docs.google.com/spreadsheets/d/1F7ifjLEiFi86JOLXeT7U_BuhC-gFAtFH3ol3zFYtPyg/edit#gid=0) for more information or help compiling the correct license tag values.
 
 #### Legacy tags
 
+We used to tag each license with the customer name. Since the form to create licenses was revamped, we expect the customer tag to be in the format of `customer:customer-name`. However this tag is now autogenerated from the form, if the customer name is filled in. No need to fill it in manually as a tag anymore.
+
+Similarly, we now add a tag for the license subscription plan automatically, no need to specify that as a tag anymore.
+
 The `enterprise` tag is a legacy tag that should not be used anymore. It gives access to all features, including `batch-changes`. Similarly, a license with no `plan:` tag (no `plan:team-0`, `plan:enterprise-1`) allows access to all features.
 
-`plan:enterprise-0` represents our legacy pricing plan. `plan:enterprise-1` was launched in with [Sourcegraph 4.0](https://about.sourcegraph.com/pricing).
-
-#### License tags future state
+`plan:enterprise-0` represents our legacy enterprise pricing plan. `plan:enterprise-1` was launched in with [Sourcegraph 4.0](https://about.sourcegraph.com/pricing).
 
 These tags are supported but not currently saleable: - `branding`: Whether custom branding of this Sourcegraph instance has been purchased. - `backup-and-restore`: Whether builtin backup and restore on this Sourcegraph instance has been purchased.
 
