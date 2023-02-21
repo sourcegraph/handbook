@@ -160,24 +160,25 @@ rob_rhyne:
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
   description: Rob is a designer, developer, and accidental salesman with a penchant for solving business problems with usable design and code. When not making products, he is raising two boys with his wife, working on his boat, or fishing offshore for anything that makes good poke.
 
-felix_becker:
-  name: Felix Becker
+chris_pine_code_insights:
+  name: Chris Pine
+  pronouns: he/she/they/Chris
   role: Engineering Manager, Code Insights
   reports_to: eng_lead
   manager_role_slug: engineering_manager_code_insights
-  location: ~~Bremen, Germany 🇩🇪~~ San Francisco, California 🇺🇸
-  github: felixfbecker
-  email: felix@sourcegraph.com
-  links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
-  description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
+  location: Portland, OR, USA 🇺🇸
+  github: chrispine
+  email: chrispine@sourcegraph.com
 
-felix_becker_code_exploration:
-  name: Felix Becker
+owen_convey_code_exploration:
+  name: Owen Convey
   pronouns: he/him
   role: Engineering Manager, Code Exploration
   reports_to: eng_lead
   manager_role_slug: engineering_manager_code_exploration
-  hide_on_team_page: true
+  location: Barcelona, Spain 🇪🇸
+  github: scalabilitysolved
+  email: oconvey@sourcegraph.com
 
 dave_try:
   name: Dave Try
