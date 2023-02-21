@@ -203,7 +203,7 @@ Please provide specific examples in the comment field that support what this tea
 <p>
 <em>* Note: Response is only visible to this teammates Manager.</em>
    </td>
-   <td>I [insert Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] that [Teammate name] has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. 
+   <td>I [insert Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] that [Teammate name] has showcased the expected domain knowledge, skills, and execution in alignment with their role/level.
 
 <p>
 To amplify performance in the next 6-moths: 
