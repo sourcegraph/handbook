@@ -98,8 +98,9 @@ Please provide specific examples in the comment field that support what you shou
 <p>
 
 Throughout the past 6-months, I made a concerted effort to consistently apply my skills and knowledge in line with my role and exepctations. For Example:
-  - **Situation**: Successful implementation of [insert project, process etc.]. **Behavior**: In order to launch this, it was critical to leverage my skills [insert skills and knowledge applied]. **The impact** in executing was critical to [explain the outcome]. 
-  
+
+- **Situation**: Successful implementation of [insert project, process etc.]. **Behavior**: In order to launch this, it was critical to leverage my skills [insert skills and knowledge applied]. **The impact** in executing was critical to [explain the outcome].
+
 <p>To amplify my performance in the next review period…<ul>
 
 <li><strong>Start:</strong> I should [insert specific action, e.g. seek out opportunities for professional development to stay current with industry trends and developments]. I also think it would be beneficial for me to [insert specific action, e.g. work on improving my time management skills to better balance competing priorities].
