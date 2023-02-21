@@ -62,6 +62,10 @@ Factor in as much time to spend together during the trip and leave room for solo
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 - Visit the [sample team offsites](sample-team-offsites.md) handbook page to view offsite itineraries used by other teams in the past.
 
+#### Engineering team travel
+
+Individuals in the engineering org are responsible for working with their direct Managers to determine how they will use their team travel budget. It is up to the individual and their Manager to decide if they would like to join their job fair team trip or their original team trip.
+
 ### 3. Business/customer travel
 
 For Teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/exec approval in addition to above budgets. Please note you cannot combine the [teammate in-person gathering budget](../celebrate.md#teammate-in-person-gatherings) with 4 trips.
