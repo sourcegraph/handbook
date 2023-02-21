@@ -308,6 +308,25 @@ owen_convey:
   links: '[LinkedIn](https://www.linkedin.com/in/owenconvey/)'
   description: "Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza."
 
+owen_convey:
+  name: Owen Convey
+  pronouns: he/him
+  role: Interim Engineering Manager, Code Insights
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_code_insights
+  location: Barcelona, Spain 🇪🇸
+  github: scalabilitysolved
+  email: oconvey@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/owenconvey/)'
+ 
+felix_becker_code_exploration:
+  name: Felix Becker
+  pronouns: he/him
+  role: Engineering Manager, Code Exploration
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_code_exploration
+  hide_on_team_page: true
+  
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
