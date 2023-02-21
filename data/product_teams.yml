@@ -42,7 +42,7 @@ code_insights:
   title: Code Insights
   brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
   strategy_link: /strategy-goals/strategy/code-insights/index.md
-  em: felix_becker
+  em: chris_pine_code_insights
   pmm: victoria_yunger
   issue_labels:
     - team/code-insights
@@ -51,7 +51,7 @@ code_exploration:
   title: Code Exploration
   brief: The code exploration team owns our code exploration UI and third-party integrations (including our IDE and browser extensions).
   strategy_link: /strategy-goals/strategy/integrations/index.md
-  em: felix_becker_code_exploration
+  em: owen_convey_code_exploration
   issue_labels:
     - team/code-exploration
 
