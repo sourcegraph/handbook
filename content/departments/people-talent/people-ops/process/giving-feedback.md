@@ -312,7 +312,6 @@ Below is what your peers said about your performance:
 Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
 
 <p>
-<em>* Note: Response will not visible to the teammate.</em>
    </td>
    <td>[Teammate name] consistently embodies our company values, specifically [insert value] and [insert value]: 
 <ul>
