@@ -27,9 +27,9 @@ If the answer to any one of these questions is "yes", it's probably a good idea 
 
 ### Ticket Tagging
 
-Ticket tags should be added to your ticket to accurately depict the theme of the issue within the ticket. A ticket theme helps us to identify what part of the product was the point of focus discovered through the triaging process. Ticket tags are used to identify recurring themes that our customers are seeing. When these themes are identifed, it enables us to present detailed data to engineering teams on what our customers are experiencing.
+Ticket tags should be added to your ticket to accurately depict the theme of the issue within the ticket. A ticket theme helps us to identify which part of the product area was the point of focus discovered through the triaging process. Ticket tags are used to identify recurring themes that our customers are seeing. When these themes are identifed, it enables us to present detailed data to engineering teams on what our customers are experiencing.
 
 Example: A question about batch changes resulted in there being an issue with the executors.
-Batch changes would be the tag to identify the product area, executors would identify the theme.
+`batch_changes` would be the tag to identify the product area, `executors` would identify the theme.
 
 [^1]: While RFH's are a valuable tool when dealing with complex issues, they introduce overhead and complexity that isn't necessary for "How-To" questions. Furthermore, they limit visibility, and collaboration between teams that happens in public, shared channels.
