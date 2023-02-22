@@ -51,9 +51,37 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
 
-### Process and Roles & Responsibilities
+### Process Overview
 
-Our renewal process is a 5 step process that begins 180 days prior to renewal date.
+Our renewal process is a 5 step process that begins 120 days prior to renewal date. The process lifecycle is as follows:
+
+
+
+### Renewal Process Phases
+
+╔══════════════════════════════╤════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════════════════╗
+║ Phase                        │ Event                                                                          │ Steps                                                                                        │ Output                                                                       ║
+╠══════════════════════════════╪════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════════════════╣
+║ Health Assessment            │ Vitally triggers Health Assessment project 120 days before renewal             │ 1) TA completes Health Assessment note template in Vitally with AE                           │ If red or yellow, elevate to Get Well track                                  ║
+║                              │                                                                                │ 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green, yellow, red) │ If green, monitor                                                            ║
+╟──────────────────────────────┼────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────╢
+║ Get Well (Yellow & Red only) │ TA leadership hosts weekly deep dives for SAles/TA leadership and account team │ 1) Prior to meeting, TA & AE fill-in Customer Renewal Health Assessment                      │ Follow up on action plans from meeting for yellow & red accounts             ║
+║                              │                                                                                │ 2) During meeting, TA presents assessment and plan, with input from AE                       │ - Review again 30 days later                                                 ║
+║                              │                                                                                │    1) Alignment on risk, opportunity, needs, and next steps                                  │ Monitor green accounts                                                       ║
+╟──────────────────────────────┼────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────╢
+║ Renewal Plan                 │ AE leadership: weekly forecast                                                 │ Yellow & Red:                                                                                │ AE: Project initial renewal outcome: Full churn, partial churn, flat renewal ║
+║                              │ TA leadership: bi-weekly inspection to monitor progress of get-well plans      │ - TA: Check-in on plan progress, additional corrective action as required                    │                                                                              ║
+║                              │                                                                                │ Green:                                                                                       │                                                                              ║
+║                              │                                                                                │ - Continue monitoring                                                                        │                                                                              ║
+╟──────────────────────────────┼────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────╢
+║ Renewal Forecast             │ AE & TA leadership: weekly forecast                                            │ Yellow & Red:                                                                                │ Quarterly forecast                                                           ║
+║                              │                                                                                │ - AE: Renewal outcome negative (Full or partial churn)                                       │                                                                              ║
+║                              │                                                                                │ Green:                                                                                       │                                                                              ║
+║                              │                                                                                │ - AE: Renewal outcome neutral or positive (Flat or incremental)                              │                                                                              ║
+╟──────────────────────────────┼────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────╢
+║ Process Renewal              │ AE & TA leadership: weekly forecast                                            │ AE: Renewal opportunity processed accordingly                                                │ Renewal event complete                                                       ║
+╚══════════════════════════════╧════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════════════════╝
+
 
 You can read about the process and roles & responsibilities [here](https://docs.google.com/presentation/d/1TguV96BTdC6AuXX5DLoMDG1yWLe5HU5qmyWZD79Odjo/edit?usp=sharing).
 
