@@ -58,14 +58,13 @@ Our renewal process is a 5 step process that begins 120 days prior to renewal da
 
 ### Renewal Process Phases
 
-| Phase                        | Event                                                                                                         | Steps                                                                                                                                                                                                  | Output                                                                                                                            |
-|------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Health Assessment            | Vitally triggers Health Assessment project 120 days before renewal                                            | 1) TA completes Health Assessment note template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green, yellow, red)                                   | If red or yellow, elevate to Get Well track <br> If green, monitor                                                                |
-| Get Well (Yellow & Red only) | TA leadership hosts weekly deep dives for SAles/TA leadership and account team                                | 1) Prior to meeting, TA & AE fill-in Customer Renewal Health Assessment <br> 2) During meeting, TA presents assessment and plan, with input from AE, align on risk, opportunity, needs, and next steps | Follow up on action plans from meeting for yellow & red accounts <br>   -  Review again 30 days later <br> Monitor green accounts |
-| Renewal Plan                 | AE leadership: weekly forecast <br> TA leadership: bi-weekly inspection to monitor progress of get-well plans | Yellow & Red: <br>   -  TA: Check-in on plan progress, additional corrective action as required <br> Green: <br>   -   Continue monitoring                                                             | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                      |
-| Renewal Forecast             | AE & TA leadership: weekly forecast                                                                           | Yellow & Red: <br>   -  AE: Renewal outcome negative (Full or partial churn) <br> Green: <br>   -  AE: Renewal outcome neutral or positive (Flat or incremental)                                       | Quarterly forecast                                                                                                                |
-| Process Renewal              | AE & TA leadership: weekly forecast                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                                                          | Renewal event complete                                                                                                            |
-
+| Phase                        | Event                                                                                                         | Steps                                                                                                                                                                                                  | Output                                                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Health Assessment            | Vitally triggers Health Assessment project 120 days before renewal                                            | 1) TA completes Health Assessment note template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green, yellow, red)                                   | If red or yellow, elevate to Get Well track <br> If green, monitor                                                             |
+| Get Well (Yellow & Red only) | TA leadership hosts weekly deep dives for SAles/TA leadership and account team                                | 1) Prior to meeting, TA & AE fill-in Customer Renewal Health Assessment <br> 2) During meeting, TA presents assessment and plan, with input from AE, align on risk, opportunity, needs, and next steps | Follow up on action plans from meeting for yellow & red accounts <br> - Review again 30 days later <br> Monitor green accounts |
+| Renewal Plan                 | AE leadership: weekly forecast <br> TA leadership: bi-weekly inspection to monitor progress of get-well plans | Yellow & Red: <br> - TA: Check-in on plan progress, additional corrective action as required <br> Green: <br> - Continue monitoring                                                                    | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                   |
+| Renewal Forecast             | AE & TA leadership: weekly forecast                                                                           | Yellow & Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)                                             | Quarterly forecast                                                                                                             |
+| Process Renewal              | AE & TA leadership: weekly forecast                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                                                          | Renewal event complete                                                                                                         |
 
 ## Red Accounts
 
@@ -161,14 +160,16 @@ This [View](https://sourcegraph.vitally.io/views/598e039e-947e-4c04-9b0d-b98f388
 ## Post-Sales Partnership Kickoff
 
 ### TA Assignment
+
 Approximately 45 days before closure, TA leadership will assign the Technical Advisor Support Level on the Salesforce account to determine the customer segmentation for the customer. Once assigned, an account is created in Vitally, segmented as a Prospect. 35 days before closure, TA leadership assigns a TA to the Salesforce account record and to the Vitally record.
 
 ### Hand-off from pre-to-post sales
+
 35 days before closure, a Vitally playbook initiates and tasks the CE to create a pre-to-post sales handoff note. Once created, the CE scheduled a hand-off meeting with the AE, TA, and IE (if IE will be helping with the production implementation).
 
 The TA begins to plan and prepare for the kick-off and begins to prepare for new user onboarding. They do this by working with the AE and CE to understand how many seats have been purchased, where these teams are located, and by identifying customer contacts to help coordinate onboarding.
 
-Once a customer signs on with Sourcegraph, the TA will 
+Once a customer signs on with Sourcegraph, the TA will
 
 - Generate a full license key.
 - Schedule a kickoff call with our main contact(s) to plan the engagement.
@@ -240,7 +241,6 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 - [Example QBR Deck](https://docs.google.com/presentation/d/1bWjDHA5U6luV4h6jNDo9fyj11tkpf_nHi9DhbLsPxr0/edit#slide=id.g96a3fc9b53_0_0)
 - [Example QBR Survey](https://www.surveymonkey.com/results/SM-K6LMJQMZ7/)
 - [Sample QBR Recording on Chorus](https://chorus.ai/meeting/36928A0D99694DCB8E0AC9D028E44A1D?search=qbr&recordingsOnly=true&transcript=false)
-
 
 # Playbooks
 
