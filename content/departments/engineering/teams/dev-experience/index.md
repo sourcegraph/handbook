@@ -97,8 +97,8 @@ We also maintain various instances of Sourcegraph which include:
 
 - [sourcegraph.com (dotCom)](https://sourcegraph.com)
   - [Continuously deployed](../../dev/process/deployments/index.md#continuous-deployment-process) on the following schedule "09:00 UTC on Monday, 06:00 UTC rest of weekdays". To trigger a deployment refer to the [Deploying a code change to DotCom](../devops/deploy-code-change.md) document.
-- [S2](golinks.io/s2)
-  - Managed instance which is continuously deployed with a [GitHub action](golinks.io/s2-deploy) that runs every hour between 8am and 10pm UTC on weekdays.
+- [S2](https://golinks.io/s2)
+  - Managed instance which is continuously deployed with a [GitHub action](https://golinks.io/s2-deploy) that runs every hour between 8am and 10pm UTC on weekdays.
   - For more information see [S2](../../dev/process/deployments/instances.md#sourcegraphsourcegraphcom-s2)
 - [k8s](https://k8s.sgdev.com) aka "dogfood" for more information refer to the [Instances document](../../dev/process/deployments/instances.md)
 - [Scaletesting](https://scaletesting.sgdev.org) for more information see [scaletesting](../../dev/tools/scaletesting.md)
