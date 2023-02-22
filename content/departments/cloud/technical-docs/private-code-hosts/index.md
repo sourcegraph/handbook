@@ -48,14 +48,14 @@ this will generate `awsvpc` and `awsvpn` stacks.
 Creation process detail walkthrough:
 
 1. AWS VPC is created in customer dedicated Sourcegraph AWS Account.
-1. High Available VPN Gateway is created in Managed Instance GCP VPC with 2 public IP intrefaces.
-1. Cloud Router with BGP GCP-side ASN number is created in Managed Instance VPC.
-1. AWS VPN Gateway with BGP AWS-side ASN number is created. It is attached to VPC and uses all VPC route tables propagated.
-1. AWS Customer Gateway tight to GCP VPN Gateway interface is created (uses GCP-side BGP ASN). For high available options 2 gateways are created.
+1. Cloud Router with GCP-side BGP ASN number is created in Managed Instance VPC.
+1. AWS VPN Gateway with BGP AWS-side ASN number is created. It is attached to VPC and uses VPC route tables to propagate BPG sessions.
+1. High Available GCP VPN Gateway is created in Managed Instance GCP VPC with 2 interfaces.
+1. AWS Customer Gateway is created (uses GCP-side BGP ASN). For high available options 2 gateways are created.
 1. AWS VPN connection is created with 2 tunnel options (every tunnel uses different 32B PreSharedKey). For high available options 2 VPC connections are created.
 1. GCP External VPN Gateway is created with interfaces correspoding for each AWS VPN connection tunnel. For high available options External VPN Gateway has 4 interfaces, for non high-available 2.
 1. For each External VPN Gateway interface GCP VPN Tunnel is created. It uses dedicated PreSharedKey (same in on AWS VPN Connection(s)).
-1. For each GCP VPN Tunnel interface is added to Cloud Router. It uses IP rnage correspoding to AWS VPN Connection tunnel internal address.
+1. For each GCP VPN Tunnel interface is added to Cloud Router. It uses IP range correspoding to AWS VPN Connection tunnel internal address.
 1. For each AWS VPN Connection tunnel internal address BGP peer is added to Cloud Router.
 
 For more details, go to [Google documentation](https://cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)
