@@ -28,6 +28,8 @@ We are a [high agency](../../../company-info-and-process/values/index.md#high-ag
 
 Travel budgets are not transferable between types and are based on our [fiscal calendar](../../../departments/finance/index.md#fiscal-year-2022) year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
 
+Unsure how much budget you have left? [Click here!](https://docs.google.com/document/d/1XXAKh2DHitaFCFmNCEqpYBPbknhJ8IC0r-deDSFlht4/edit?usp=sharing)
+
 **Our company-wide travel perks for FY24 include:**
 
 - Company-wide trips twice a year (intended for you to build relationships with teammates in the wider company)
