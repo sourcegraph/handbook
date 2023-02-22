@@ -20,7 +20,7 @@ The common vocabulary being used to talk about scaling from the persective of a 
 
 The services are deployed the Google Cloud projects `sourcegraph-scaletesting` and `sourcegraph-dogfood`, and are maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
-> 💡 There is *no* alerting enabled on the instance. You are expected to observe how it behaves and reach out for help if you notice something erratic with the deployment itself.
+> 💡 There is _no_ alerting enabled on the instance. You are expected to observe how it behaves and reach out for help if you notice something erratic with the deployment itself.
 
 ## TL;DR to conduct a test
 
@@ -48,8 +48,9 @@ The code for this environment can be found in the following locations, depending
 #### Infrastructure
 
 The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure@main) repository. The configuration is defined in the following directories:
-  - `scaletesting`: Here you will find configuration for the project, Cloud SQL instances, secrets and anything else related to the configuration of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, although contributions are always welcome.
-  - `dogfood`: although this directory does not contain direct references to scaletesting resources, it manages the kubernetes cluster on which the Sourcegraph instance is deployed.
+
+- `scaletesting`: Here you will find configuration for the project, Cloud SQL instances, secrets and anything else related to the configuration of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, although contributions are always welcome.
+- `dogfood`: although this directory does not contain direct references to scaletesting resources, it manages the kubernetes cluster on which the Sourcegraph instance is deployed.
 
 A seperate compute instance also exists for the purpose of running long-running and/or client-side intensive tests. Its configuration exists in the same [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/scaletesting/devx.tf?L1:37) repository.
 
@@ -105,7 +106,7 @@ The possibility of using isolated code hosts solely for the purpose of these tes
 
 In order to gather meaningful results of running tests against the scale testing instance, you can gather the following resources to help you come to a conclusion:
 
-- Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](https://console.cloud.google.com/traces/list?referrer=search&authuser=2&project=sourcegraph-dogfood&pageState=(%22traceFilter%22:(%22chips%22:%22%255B%257B_22k_22_3A_22net.host.name_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22scaletesting.sgdev.org_5C_22_22%257D%255D%22))). To use tracing all you have to add is `&trace=1` to you url the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
+- Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](<https://console.cloud.google.com/traces/list?referrer=search&authuser=2&project=sourcegraph-dogfood&pageState=(%22traceFilter%22:(%22chips%22:%22%255B%257B_22k_22_3A_22net.host.name_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22scaletesting.sgdev.org_5C_22_22%257D%255D%22))>). To use tracing all you have to add is `&trace=1` to you url the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
 - Sentry: [`scaletesting`](https://sentry.io/organizations/sourcegraph/issues/?project=6735436)
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
 - You can authenticate yourself to the dogfood cluster using the following command:
