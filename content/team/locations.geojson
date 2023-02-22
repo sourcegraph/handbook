@@ -94,16 +94,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Felix Becker"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [8.8017, 53.0793]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Noah Santschi-Cooney"
             },
             "geometry": {
@@ -869,6 +859,16 @@
           "geometry": {
             "type": "Point",
             "coordinates": [-122.203362, 47.675510]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Dominic Cooney"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [139.69048315180066, 35.68977201990178]
           }
         }
     ]
