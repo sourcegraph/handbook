@@ -2117,3 +2117,15 @@ Ryan_Aznar:
   location: Denver, Colorado, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/raznar/)'
   description: Ryan has spent his career helping large enterprises adopt and utilize bleeding-edge technology solutions. As a recent transplant to Colorado from North Carolina, he has taken up a lot of outdoorsy hobbies such as skiing, rock climbing, and hiking. Ryan also enjoys learning new languages and currently has over a 1000+ day streak on Duolingo learning German!
+
+dominic_cooney:
+  name: Dominic Cooney
+  email: dominic.cooney@sourcegraph.com
+  github: dominiccooney
+  reports_to: engineering_manager_code_intelligence
+  location: Tokyo, Japan 🇯🇵
+  links: '[@dominiccooney](https://twitter.com/dominiccooney), [LinkedIn](https://www.linkedin.com/in/dominiccooney)'
+  pronouns: he/him
+  role: Software Engineer
+  description: "Dominic's [first PC](https://en.wikipedia.org/wiki/PC1512) had 640K of RAM, which turned out to be not enough for anybody. Prior to joining Sourcegraph in 2023 he implemented web browsers at Google and Meta. Outside work he's into Pilates, trading Japanese equities, and baking [delicious cookies.](https://blog.dpc.dev/chocolate-chip-cookies)"
+  
