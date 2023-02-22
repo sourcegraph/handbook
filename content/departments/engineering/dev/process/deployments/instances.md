@@ -7,7 +7,7 @@ Information about Sourcegraph's different instances.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demosourcegraphcom) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanagedsourcegraphcom) is a managed instance used for managed instances development.
-  - [sourcegraph.sourcegraph.com](instances.md#sourcegraphsourcegraphcom-s2) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2". This instance is jointly owned by #team-dev-experience and #team-cloud. We [continously deploy](golinks.io/s2-deploy) the latest unreleased version of Sourcegraph every one hour on weekdays, and you may also [force rolling out a new deployment](golinks.io/s2-deploy) by clicking the `run workflow` button and using `sg` as the customer slug.
+  - [sourcegraph.sourcegraph.com](instances.md#sourcegraphsourcegraphcom-s2) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2". This instance is jointly owned by #team-dev-experience and #team-cloud. We [continously deploy](https://golinks.io/s2-deploy) the latest unreleased version of Sourcegraph every one hour on weekdays, and you may also [force rolling out a new deployment](https://golinks.io/s2-deploy) by clicking the `run workflow` button and using `sg` as the customer slug.
 
 For deployments of Sourcegraph we manage for customers, see [managed instances](../../../../cloud/index.md).
 
@@ -74,11 +74,11 @@ We also maintain some internal managed instances for various use cases.
 
 This deployment is also colloquially referred to as "dogfood S2", or just "S2", it was spun up as a response to our change in product direction and becoming Cloud (managed instances) first. We use S2 as our primary dogfooding instance now, and feedback gets shared in [#feedback-dogfood](https://sourcegraph.slack.com/archives/C03CSAER9LK).
 
-S2 gets deployed every hour between 8am and 10pm UTC on weekdays using a [GitHub Actions workflow](golinks.io/s2-deploy) that updates the images, creates the PR, and merge the changes. The instance contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images).
+S2 gets deployed every hour between 8am and 10pm UTC on weekdays using a [GitHub Actions workflow](https://golinks.io/s2-deploy) that updates the images, creates the PR, and merge the changes. The instance contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images).
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-sg)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/sg)
-- [Operations](golinks.io/s2-ops)
+- [Operations](https://golinks.io/s2-ops)
 
 ### demo.sourcegraph.com
 
