@@ -88,6 +88,12 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 - Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
 
+**How far back should I provide my employment history?**
+
+- Please provide 5 years of employment history in your background check
+
+- Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
+
 **How long does it take to complete a background check?**
 
 - The length of time to complete a check will vary depending on which check(s) are run and which country. For example, the typical turnaround time for a basic background check in the US takes approximately 24-48 hours. However, if additional screens are required such as education or prior employment verifications, the time it takes to complete may extend up to 2-3 weeks. In general, international background checks will take a greater amount of time to reach completion.
@@ -107,7 +113,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 **When filling out my background check, who should I list as my 'Most Recent Employer'?**
 
-- Please list your most recent employers within the past 5 years, starting with your current role at Sourcegraph (Sourcegraph contact: people-ops@sourcegraph.com). Select the 'Current Position' checkbox for your current role.
+- Please list your most recent employers within the past 5 years, starting with your current role at Sourcegraph (Sourcegraph contact: Marija Petrovic, people-ops@sourcegraph.com). Select the 'Current Position' checkbox for your current role.
 
 **I do not have contact information for my previous employer. What should I do?**
 
