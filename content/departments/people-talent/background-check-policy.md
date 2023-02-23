@@ -117,9 +117,9 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 - Please do one of the following:
   - Submit your W-2 or paystubs as proof of employment
-  - Reach out to your previous company's support team to ask who to list as a contact for new employment background checks
+  - Reach out to your previous company’s support team to ask who to list as a contact for new employment background checks
 
-You are able to put a standard info@company/HR-email or other contact. If Checkr reaches out and is not able to verify via the provided contact (ie the email/phone you provided is not valid bc the contact is no longer there or company does not exist), you will be asked to submit supporting documents, including W-2, 1099, or paystub.
+You are able to put a standard info@company/HR-email, direct contact or N/A. If Checkr is not able to verify directly; you will be asked to submit supporting documents, including W-2, 1099, or paystub.
 
 **Can I re-open my background check after submitting it?**
 
