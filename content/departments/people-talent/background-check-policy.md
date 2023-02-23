@@ -109,6 +109,13 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 - Please list your most recent employers within the past 5 years, starting with your current role at Sourcegraph (Sourcegraph contact: people-ops@sourcegraph.com). Select the 'Current Position' checkbox for your current role.
 
+**I do not have contact information for my previous employer. What should I do?**
+- Please do one of the following:
+  - Submit your W-2 or paystubs as proof of employment
+  - Reach out to your previous company's support team to ask who to list as a contact for new employment background checks
+
+You are able to put a standard info@company/HR-email or other contact. If Checkr reaches out and is not able to verify via the provided contact (ie the email/phone you provided is not valid bc the contact is no longer there or company does not exist), you will be asked to submit supporting documents, including W-2, 1099, or paystub.
+
 **What happens if something shows up on my background check?**
 
 - Upon receipt of a Teammate’s background check results, Sourcegraph will conduct an individualized assessment of Covered Teammates with criminal convictions on a case-by-case basis. The fact that someone has a prior conviction does not automatically mean their working relationship with Sourcegraph will not commence or will be terminated. Sourcegraph considers relevant factors when reviewing results, including:
