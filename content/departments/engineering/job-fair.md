@@ -15,9 +15,9 @@ See [PRFAQ guidelines](prfaq-process.md).
 
 ## Communications
 
-Job Fair updates are posted weekly in the #job-fair slack channel to communicate the progress of projects and action items that are needed. 
+Job Fair updates are posted weekly in the #job-fair slack channel to communicate the progress of projects and action items that are needed.
 
-As projects progress throughout each iteration of Job Fair, any staffing or prioritization changes will be determined by the Job Fair leadership team. These changes will be communicated to the Technical Program Manager, Tech Leads and any other DRIs involved with that project. 
+As projects progress throughout each iteration of Job Fair, any staffing or prioritization changes will be determined by the Job Fair leadership team. These changes will be communicated to the Technical Program Manager, Tech Leads and any other DRIs involved with that project.
 
 ## Related
 
