@@ -18,31 +18,28 @@ The common vocabulary being used to talk about scaling from the persective of a 
 
 ➡️ If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
 
-It is deployed in its own Google Cloud Project and is maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
+The services are deployed in the Google Cloud projects `sourcegraph-scaletesting` and `sourcegraph-dogfood`, and are maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
-> 💡 There are zero alerting enabled on that instance, you are on your own and are expected to reach out for help if you notice something erratic with the deployment itself.
+> 💡 There is _no_ alerting enabled on the instance. You are expected to observe how it behaves and reach out for help if you notice something erratic with the deployment itself.
 
 ## TL;DR to conduct a test
 
 > ⚠️ Under no circumstances should the instance ever be populated with customer data. **Only use open source or synthetic data.**
 
-1. Have access to the Google Project: TODO
+1. Have access to the GCP projects by requesting access through Entitle.
 2. Be familiar with our Observability stack.
 3. Be familiar with our Infrastructure code.
 4. Join #wg-test-at-scale and announce yourself.
-5. Adjust the infrastructure to the customer tier you're targeting.
-   1. Open a PR against [the Terraform definitions](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) for that cluster. In particular the nodes count, which is often set to the lowest value to avoid consuming resouces when not using the instance.
-   2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
-6. Make sure to deploy the right commit you want to test on that intance.
-   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use. This will create a pull request that you can merge.
-   2. NOTE: pin-tag input field accepts both semver format `$MAJOR.$MINOR.$PATCH` as well as sourcegraph tag format `[build_number]_[date]_[short git SHA1]`
-   3. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
-7. Populate the code hosts with your test data.
-   1. `TODO`
-8. Perform actions to test that deployment, from the perpective of your business domain.
-9. Announce on the channel that you're finished with your test.
+5. Adjust the infrastructure to the customer tier you're targeting. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
+6. Make sure to deploy the right commit you want to test on the instance.
+   - When testing a specific verison, manually trigger the update docker images GitHub action with a pin tag for the version you would like to use. This will create a pull request that you can merge.
+   - NOTE: pin-tag input field accepts both semver format `$MAJOR.$MINOR.$PATCH` as well as sourcegraph tag format `[build_number]_[date]_[short git SHA1]`
+   - See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
+7. Use the available [test data](#Testing-data), or populate the code hosts with your test data.
+   - We do not have any recommended methods on how to set up test data. Feel free to discuss your test cases in #wg-test-at-scale, where we are happy to explore possible solutions.
+8. Perform actions to test your deployed changes from the perspective of your business domain.
+9. Announce in the channel that you're finished with your test.
 10. Share your experience and results on that channel to help others to understand how we can improve the scale testing process.
-11. Downscale the cluster to zero nodes.
 
 ### Environment
 
@@ -50,16 +47,19 @@ The code for this environment can be found in the following locations, depending
 
 #### Infrastructure
 
-The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository. Here you will find configuration for the project, GKE cluster, Cloud SQL instances, secrets and anything else related to the configuraion of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, however contributions are always welcomed.
+The configuration for the Google Cloud infrastructure can be found in the [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure@main) repository. The configuration is defined in the following directories:
 
-A seperate compute instance also exists for the purpose of running long running and/or client-side intensive tests. The configration for which exists in the same [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository.
+- `scaletesting`: Here you will find configuration for the project, Cloud SQL instances, secrets and anything else related to the configuration of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, although contributions are always welcome.
+- `dogfood`: although this directory does not contain direct references to scaletesting resources, it manages the kubernetes cluster on which the Sourcegraph instance is deployed.
+
+A seperate compute instance also exists for the purpose of running long-running and/or client-side intensive tests. Its configuration exists in the same [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/scaletesting/devx.tf?L1:37) repository.
 
 To access this instance, run the following command:
 `gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
 #### Database
 
-We use Cloud SQL to host our scaltesting databases. To connect to one you need to use the cloud sql proxy, for example:
+We use Cloud SQL to host our scaletesting databases. To connect to one you need to use the cloud sql proxy, for example:
 
 In terminal 1:
 
@@ -73,13 +73,13 @@ In terminal 2:
 psql -h localhost -p 5555 -d sg -U 'dev-readonly'
 ```
 
-> The password can be found in 1password
+> The password can be found in 1password.
 
 #### Application
 
-All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
+All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scaletesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
-> 💡 Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](../process/deployments/kubernetes.md#scaling-kubernetes-clusters) handbook page.
+> 💡 Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed on Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](../process/deployments/kubernetes.md#scaling-kubernetes-clusters) handbook page.
 
 ### Code hosts
 
@@ -106,13 +106,13 @@ The possibility of using isolated code hosts solely for the purpose of these tes
 
 In order to gather meaningful results of running tests against the scale testing instance, you can gather the following resources to help you come to a conclusion:
 
-- Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](https://console.cloud.google.com/traces/overview?project=sourcegraph-scaletesting). To use tracing all you have to add is `&trace=1` to you url the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
+- Tracing: Selective tracing is enabled and traces are exported to GCP. You can see all traces by going to the [GCP tracing dashboard](<https://console.cloud.google.com/traces/list?referrer=search&authuser=2&project=sourcegraph-dogfood&pageState=(%22traceFilter%22:(%22chips%22:%22%255B%257B_22k_22_3A_22net.host.name_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22scaletesting.sgdev.org_5C_22_22%257D%255D%22))>). To use tracing all you have to add is `&trace=1` to the url and the UI will show a `View trace` link, which takes you to the GCP dashboard for your particular trace.
 - Sentry: [`scaletesting`](https://sentry.io/organizations/sourcegraph/issues/?project=6735436)
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
-- You can authenticate yourself to the cluster using the following command:
+- You can authenticate yourself to the dogfood cluster using the following command:
 
 ```shell
-gcloud container clusters get-credentials scaletesting --region us-central1 --project sourcegraph-scaletesting
+gcloud container clusters get-credentials dogfood --region us-central1 --project sourcegraph-dogfood
 ```
 
 If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes.md#kubectl-cheatsheet) for useful `kubectl` commands.
@@ -121,24 +121,24 @@ If you have already configured and authenticated to the cluster, you can of cour
 
 ## Prerequisites
 
-- Access to the `sourcegraph-scaletesting` google project.
+- Access to the `sourcegraph-scaletesting` and `sourcegraph-dogfood` google projects.
 - [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/delivery/deployment/helm.md#helm) configured.
 
 Below you can find a subset of the common tasks and how to complete them:
 
 ### Deploying code
 
-To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
+To make changes to images, environment variables or other configuration, all updates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
-First, authenticate yourself to the cluser using the following command:
+First, authenticate yourself to the cluster using the following command:
 
 ```shell
-gcloud container clusters get-credentials scaletesting --region us-central1 --project sourcegraph-scaletesting
+gcloud container clusters get-credentials dogfood --region us-central1 --project sourcegraph-dogfood
 ```
 
-Then check that you have the sourcegraph helm chart installed:
+Then check that you have the Sourcegraph Helm chart installed:
 
-```bash
+```shell
 helm repo add insiders https://helm.sourcegraph.com/insiders
 helm repo update
 helm search repo insiders --devel
@@ -146,32 +146,26 @@ helm search repo insiders --devel
 
 Finally, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
-```bash
+```shell
 helm repo update
 
 # If you want to deploy using the same chart version:
-SG_CHART_VERSION=$(helm history sourcegraph -o json -n scaletesting | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
+SG_CHART_VERSION=$(helm history scaletesting -o json -n scaletesting | jq -r 'reverse | .[0].chart | sub("^sourcegraph-"; "")')
 # If you want to deploy using a newer chart version ('helm search repo insiders --devel --versions' lists all available versions):
 SG_CHART_VERSION=<new chart version>
 
-helm upgrade --install --values ./helm/sourcegraph/values.yaml --version ${SG_CHART_VERSION} sourcegraph insiders/sourcegraph -n scaletesting
+helm upgrade --install --values ./helm/sourcegraph/values.yaml --version ${SG_CHART_VERSION} scaletesting insiders/sourcegraph -n scaletesting
 ```
 
 ### Scale the infrastructure down when not in use
 
-To ensure the cluster is not left running, set the `node_count` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39)
-
-Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
-
-Once the cluster has been scaled down please make an announcement in [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) that the cluster has been scaled down.
-
 To stop the `devx` compute instance when it is not in use, run the following:
 
-`gcloud compute instances stop devx --zone us-central1-a --project sourcegraph-scaletest`
+`gcloud compute instances stop devx --zone us-central1-a --project sourcegraph-scaletesting`
 
 or to start it:
 
-`gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
+`gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletesting`
 
 ### Pods in `CrashLoopBackOff` due to failed migration
 
@@ -196,7 +190,7 @@ To resolve this, do the following:
 
 ## GitHub Enterprise for Scale Testing
 
-A GitHub enterprise instance has been deployed in the same project as [`sourcegraph-scaletesting`](https://console.cloud.google.com/welcome?project=sourcegraph-scaletesting) and can be accessed at https://ghe-scaletesting.sgdev.org. It is initially set up to handle 10k users, with the ability to scale up and down as needed. Please shut down the instance if you are done with testing and is not needed anymore.
+A GitHub enterprise instance has been deployed in the project [`sourcegraph-scaletesting`](https://console.cloud.google.com/welcome?project=sourcegraph-scaletesting) and can be accessed at https://ghe-scaletesting.sgdev.org. It is initially set up to handle 10k users, with the ability to scale up and down as needed. Please shut down the instance if you are done with testing and is not needed anymore.
 
 ### Instance start up and shut down
 
@@ -213,7 +207,7 @@ The instance has been set up to handle 10k users based off of the [recommended s
 
 It can also be scaled up or down with the following steps:
 
-**Note:** Be cautious when scaling up, as we can only scale up and down CPU/Mem but not disk. To avoid overprovisioning, only increase disk size when needed.
+**Note:** Be cautious when scaling up, as we can only scale up and down CPU/Mem but not disk. To avoid over-provisioning, only increase disk size when needed.
 
 #### Increase/Decrease CPU and Memory
 
@@ -263,7 +257,7 @@ The `rctest.sgdev.org` uses the following list of GitHub organizations to popula
 - `github.com/londonappbrewery` (28k repos)
 - `github.com/wp-plugins` (52k repos)
 
-In order to add them to a scale testing instance, you can run the following command:
+In order to add them to a scaletesting instance, you can run the following command:
 
 ```
 sg client codehost add-github \
