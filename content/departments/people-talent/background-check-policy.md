@@ -107,7 +107,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 **When filling out my background check, who should I list as my 'Most Recent Employer'?**
 
-- Please list your employer _immediately prior_ to Sourcegraph.
+- Please list your most recent employers within the past 5 years, starting with your current role at Sourcegraph (Sourcegraph contact: people-ops@sourcegraph.com). Select the 'Current Position' checkbox for your current role.
 
 **What happens if something shows up on my background check?**
 
