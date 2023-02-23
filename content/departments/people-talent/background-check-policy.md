@@ -110,6 +110,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 - Please list your most recent employers within the past 5 years, starting with your current role at Sourcegraph (Sourcegraph contact: people-ops@sourcegraph.com). Select the 'Current Position' checkbox for your current role.
 
 **I do not have contact information for my previous employer. What should I do?**
+
 - Please do one of the following:
   - Submit your W-2 or paystubs as proof of employment
   - Reach out to your previous company's support team to ask who to list as a contact for new employment background checks
