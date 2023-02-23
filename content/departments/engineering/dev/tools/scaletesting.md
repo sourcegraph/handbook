@@ -136,7 +136,7 @@ First, authenticate yourself to the cluster using the following command:
 gcloud container clusters get-credentials dogfood --region us-central1 --project sourcegraph-dogfood
 ```
 
-Then check that you have the Sourcegraph Gelm chart installed:
+Then check that you have the Sourcegraph Helm chart installed:
 
 ```shell
 helm repo add insiders https://helm.sourcegraph.com/insiders
