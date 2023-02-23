@@ -106,6 +106,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 - We will provide Checkr with your legal name and E-mail address, so Checkr can contact you. Checkr will reach out directly to collect the necessary pieces of information to conduct the relevant background screens. You can see the information Checkr collects and how they use it in their [privacy policy](https://checkr.com/privacy-policy).
 
 **When filling out my background check, who should I list as my 'Most Recent Employer'?**
+
 - Please list your employer _immediately prior_ to Sourcegraph.
 
 **What happens if something shows up on my background check?**
