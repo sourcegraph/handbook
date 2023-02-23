@@ -47,7 +47,7 @@ The code for this environment can be found in the following locations, depending
 
 #### Infrastructure
 
-The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure@main) repository. The configuration is defined in the following directories:
+The configuration for the Google Cloud infrastructure can be found in the [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure@main) repository. The configuration is defined in the following directories:
 
 - `scaletesting`: Here you will find configuration for the project, Cloud SQL instances, secrets and anything else related to the configuration of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, although contributions are always welcome.
 - `dogfood`: although this directory does not contain direct references to scaletesting resources, it manages the kubernetes cluster on which the Sourcegraph instance is deployed.
