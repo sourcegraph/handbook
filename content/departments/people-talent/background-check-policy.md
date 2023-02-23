@@ -45,8 +45,6 @@ Verification of educational achievement, including but not limited to the awardi
 
 The Covered Teammate’s hiring manager or People Team will directly contact professional references identified by the Covered Teammate. Applicants must inform their professional references in advance and must obtain the referee’s consent to share their contact information with Sourcegraph.
 
-Sourcegraph will not retroactively conduct such verifications for current Teammates, absent a business requirement, such as to fulfill a customer contractual obligation.
-
 The People Team will review and analyze third-party vendor verification results and store the record of the completed verification in the Teammate’s file.
 
 ### Results review
