@@ -49,7 +49,7 @@ While you don’t need to ask for formal PTO approval for short-term time off, w
 
 **Performance issues as a result of PTO:** if at any point your manager determines that your absence is negatively impacting your team (including but not limited to, they are unable to achieve their own business goals because they are focused on supporting your out-of-office plan) or negatively impacting the business (including but not limited to, our customers or business health is suffering due to your time off), your Manager and the People Team will schedule a meeting to discuss next steps as this directly links to a performance issue.
 
-## Recording PTO
+## Submitting paid time off (PTO)
 
 Please record all of your PTO (including public holidays) in [Deel](submitting-time-off.md) as far in advance as possible to notify your manager (ideally 5+ business days). Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about PTO by Deel and how it works. If you have any questions about recording PTO in Deel, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
@@ -57,24 +57,7 @@ We want to capture your time off in Deel so we can stay compliant with countries
 
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, please seek guidance from your People Partner and Manager so we can understand how to support you.
 
-**Using PTO by Deel - step-by-step breakdown**
-
-1. Go to your Slack app and scroll down to "Apps" on the left-hand side
-2. Click on "PTO by Deel" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
-3. Click "Create OOO" and you will be prompted with a new screen with fields to fill out
-4. Select your type of leave (vacation, wellbeing, life, religious holiday, public holiday, parental, medical)
-5. Enter a name for your PTO event if you choose (this is optional)
-6. Select the dates you will be out for that particular PTO event
-7. You will receive a message from Deel prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
-8. Select "coworker" or "channel" based on who you would like to cover you while you're away
-9. Select the teammate or channel in the dropdown that you'd need to cover for you
-10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
-11. You will also receive a message from Deel asking you if you would like Deel to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
-12. Record your time off in GCalendar
-
-## Submitting paid time off (PTO)
-
-### Recording paid time off via Deel
+### Recording paid time off via Deel - step-by-step breakdown
 
 We submit and record all PTO using [Deel](https://www.deel.com/engage/pto), which allows you to submit all PTO events directly in Slack.
 
