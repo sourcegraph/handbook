@@ -123,6 +123,9 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 You are able to put a standard info@company/HR-email or other contact. If Checkr reaches out and is not able to verify via the provided contact (ie the email/phone you provided is not valid bc the contact is no longer there or company does not exist), you will be asked to submit supporting documents, including W-2, 1099, or paystub.
 
+**Can I re-open my background check after submitting it?**
+- We are not able to reopen a background check once it has been submitted, but we will reach out to you directly if any further information is needed to complete your background check.
+
 **What happens if something shows up on my background check?**
 
 - Upon receipt of a Teammate’s background check results, Sourcegraph will conduct an individualized assessment of Covered Teammates with criminal convictions on a case-by-case basis. The fact that someone has a prior conviction does not automatically mean their working relationship with Sourcegraph will not commence or will be terminated. Sourcegraph considers relevant factors when reviewing results, including:
