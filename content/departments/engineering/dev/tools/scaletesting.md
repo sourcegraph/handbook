@@ -18,7 +18,7 @@ The common vocabulary being used to talk about scaling from the persective of a 
 
 ➡️ If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
 
-The services are deployed the Google Cloud projects `sourcegraph-scaletesting` and `sourcegraph-dogfood`, and are maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
+The services are deployed in the Google Cloud projects `sourcegraph-scaletesting` and `sourcegraph-dogfood`, and are maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
 > 💡 There is _no_ alerting enabled on the instance. You are expected to observe how it behaves and reach out for help if you notice something erratic with the deployment itself.
 
