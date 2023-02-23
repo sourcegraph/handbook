@@ -61,6 +61,7 @@ This is our production environment and consists of internal and customer instanc
 Below is a list of long-lived internal instances:
 
 - [clouddev.sourcegraph.com](https://clouddev.sourcegraph.com)
+- [sourcegraph.sourcegraph.com](https://sourcegraph.sourcegraph.com)
 - [~demo.sourcegraph.com~](https://demo.sourcegraph.com) (we will migrate `demo` to v2 soon)
 
 Internal instances are created for various testing purposes:
@@ -114,11 +115,14 @@ We utilize Entitle to provide time-bound access to GCP infrastructure for both p
 
 Use the slash command in Slack, type `/access_request` in any chat window and hit enter. Fill out the following values:
 
-- **Search permission**: One of `Cloud V2 Dev Access`, `Cloud V2 Prod Access`
+- **Search permission**: One of `Cloud V2 Dev Access`, `Cloud V2 Prod Access`, or `Cloud V2 Internal Access`.
+  - `Cloude V2 Prod access` - access to external production instances in the [production](#production-prod-environment) environment
+  - `Cloud V2 Internal Access` - access to internal production instances in [production](#production-prod-environment) environment, e.g., `s2`, `demo`
+  - `Cloud V2 Dev Access` - access to [development](#development-dev-environment) environment
 - **Permission duration**: Preferably to request the minimal amount of time
 - **Add justification**: Add a note to provide context why access is needed
 
-The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request.
+The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request. For internal access, access will be granted automatically for engineering teammates.
 
 Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](../../../engineering/dev/process/incidents/index.md), please [page Cloud on-call engineer using OpsGenie](../../../engineering/dev/process/incidents/index.md#incident-lead).
 
