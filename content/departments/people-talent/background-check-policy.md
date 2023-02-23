@@ -89,6 +89,7 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 - Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
 
 **How far back should I provide my employment history?**
+
 - Please provide 5 years of employment history in your background check
 
 - Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
