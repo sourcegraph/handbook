@@ -12,7 +12,7 @@ Teammates should submit expenses at the end of every month.
 
 We prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses before the month ends simplifies our jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
 
-Any expenses more than 90 days old require approval by Finance. Itemized receipts must be included for any reimbursement requests over $25.
+Any expenses more than 90 days old require approval by Finance. Itemized receipts must be included for any reimbursement requests over $25. 
 
 ## US based teammates
 
@@ -29,7 +29,8 @@ Reimbursement requests are processed on Airbase, which can be accessed via Okta.
 ## Internet, phone, and wellness benefits
 
 - For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Airbase.
-- For teammates based outside the US: you can have these as fixed line items on your invoices and you will be paid for the full amount every month (receipts are not required for these fixed line items).
+- For PEO teammates, these fringe benefits must be added to Deel.
+- For teammates based outside the US: you can submit these through the Airbase reimbursement process (receipts are not required for these fixed line items and you can use the categories Wellness Benefits and Telephone/Internet).
 - Fringe benefit amount (per month):
   - Internet: $50
   - Phone: $75
