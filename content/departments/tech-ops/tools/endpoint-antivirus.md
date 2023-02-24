@@ -32,15 +32,16 @@ Jamf will also install several profiles: including Jamf Protect, Firevault and F
 If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md).
 
 ## Installing Jamf Pro and Jamf Protect on a personal computer
+
 You may install Jamf Pro and Jamf Protect on as many devices as necessary to ensure our company and client data is protected, including personal devices if you are still waiting for your Sourcegraph device to arrive.
 
 ## Removing Jamf
- 
-**Removing Jamf Pro and Jamf Protect from your Sourcegraph computer** 
+
+**Removing Jamf Pro and Jamf Protect from your Sourcegraph computer**
 
 Jamf Pro and Jamf Protect should never be removed from a Sourcegraph computer. If there is a circumstance where this needs would to occur please let #ask-it-tech-ops know so that they are aware it is the owner who is performing the removal and for what reasons.
 
-**Removing Jamf Pro and Jamf Protect from a personal computer
+\*\*Removing Jamf Pro and Jamf Protect from a personal computer
 
 When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from our system.
 
