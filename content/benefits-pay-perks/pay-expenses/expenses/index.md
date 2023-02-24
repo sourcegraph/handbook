@@ -29,7 +29,8 @@ Reimbursement requests are processed on Airbase, which can be accessed via Okta.
 ## Internet, phone, and wellness benefits
 
 - For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Airbase.
-- For teammates based outside the US: you can have these as fixed line items on your invoices and you will be paid for the full amount every month (receipts are not required for these fixed line items).
+- For PEO teammates, these fringe benefits must be added to Deel.
+- For teammates based outside the US: you can submit these through the Airbase reimbursement process (receipts are not required for these fixed line items and you can use the categories Wellness Benefits and Telephone/Internet).
 - Fringe benefit amount (per month):
   - Internet: $50
   - Phone: $75
