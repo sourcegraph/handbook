@@ -1,25 +1,21 @@
-# **Jamf Pro**
+# **Jamf**
 
-### **What is Jamf Pro?**
+## Jamf Pro
 
-Jamf Pro is an Endpoint Management system that provides Tech Ops with the ability to manage Sourcegraph devices (computers) remotely. More information about Jamf Pro can be found [here](https://www.jamf.com/products/jamf-pro/?v=3)
+Jamf Pro is a mobile endpoint management (MDM) system that provides Tech Ops with the ability to manage Sourcegraph devices (computers) remotely. More information about Jamf Pro can be found [here](https://www.jamf.com/products/jamf-pro/?v=3)
 
-**Jamf Protect**
+## Jamf Protect
 
-**What is Jamf Protect?**
+Jamf Protect is an antivirus software that we deploy to all our managed devices. Protect monitors for malicious software and adware that may present security risks and notifies Tech Ops and Security in the event any suspicious activity is found.
 
-Jamf Protect is an antivirus software that we are deploying to all eligible Sourcegraph devices (laptops). Protect monitors for malicious software and adware that may present security risks.
-
-**What you can do prior to Jamf Enrollment**:
-
-If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md).
-
-**How to Enroll in Jamf**
+## How to Enroll in Jamf
 
 - If your device was purchased by Sourcegraph your computer will be prompted to enroll in Jamf on the Remote Management screen during your new laptop's setup process.
 - If you have purchased your Sourcegraph device from an Apple Certified Reseller, please reach out to the #ask-it-tech-ops Slack Channel to receive an enrollment invitation via email.
 
-**What Jamf will automatically install on new devices**
+After installing Jamf (or turning on your computer for the first time) we recommend first checking for software updates, downloading them if needed, and then restarting your laptop immediately.
+
+## What Jamf will automatically install on new devices
 
 Jamf Pro will look for a certain set of applications on your computer and push them out automatically if they are not present, they are:
 
@@ -29,14 +25,23 @@ Jamf Pro will look for a certain set of applications on your computer and push t
 - Slack
 - Zoom
 
-**Installing Jamf Pro and Jamf Protect on a personal computer**
+Jamf will also install several profiles: including Jamf Protect, Firevault and Firewall enforcement, a screen lock requirement, as well as a complex password for the device.
+
+## What you can do prior to Jamf Enrollment:
+
+If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md).
+
+## Installing Jamf Pro and Jamf Protect on a personal computer
+
 You may install Jamf Pro and Jamf Protect on as many devices as necessary to ensure our company and client data is protected, including personal devices if you are still waiting for your Sourcegraph device to arrive.
 
-**Removing Jamf Pro and Jamf Protect from a personal computer**
+## Removing Jamf
 
-In order to remove Jamf Pro and Jamf Protect from your personal device, please reach out to the Tech Ops team in the #ask-it-tech-ops Slack channel.
+**Removing Jamf Pro and Jamf Protect from your Sourcegraph computer**
 
 Jamf Pro and Jamf Protect should never be removed from a Sourcegraph computer. If there is a circumstance where this needs would to occur please let #ask-it-tech-ops know so that they are aware it is the owner who is performing the removal and for what reasons.
+
+\*\*Removing Jamf Pro and Jamf Protect from a personal computer
 
 When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from our system.
 
