@@ -117,11 +117,12 @@ That said, here’s a rough guideline for evaluating impact of customer-facing f
 Projects are in the [Job Fair project](https://github.com/orgs/sourcegraph/projects/302/views/18).
 Projects are assigned using the planning cadence abovem and on a rolling basis. Feel free to drop a comment in PR-FAQ issues and let your manager know if you're interested in joining a project.
 
-## Why job fair
+## Known trade-offs
 
-### Benefits of job fair
+Job fair allows us to avoid over-relying on a rigid org chart and team structures. That said, it comes with a few trade-offs:
 
-#### Known trade-offs
+- Bug fixes and small tweaks are less visible, and may fall through the cracks. We rely on a lightweight ownership model to solve for this: engineers are still part of teams. We're building code ownership tooling to help address this.
+- 3 to 6-months roadmap: job fair makes it so we're continuously reallocating resources to projects. This additional flexibility comes at the expense of having longer term predictability. We compensate for this by building a customer facing roadmap that is fine-grained in the short term (3 to 6 months), and focused on higher-level problems in the longer term (12 months). Focusing on outcomes and problems vs features for longer term horizons avoid overpromising or deviating from solving real customer problems.
 
 ## Communications
 
