@@ -7,6 +7,7 @@ Sourcegraph assigns work using a Job Fair system, treating all engineering work 
 - Projects are described in PR-FAQs (Press release-FAQ). PR-FAQs describe ambitious goals that take several quarters of work of several engineers to complete.
 - We mostly plan in 3-month cycles, with off-cycle adjustments as needed. In each planning cycle, we build an actionable plan for the next 3 months, and a more tentative plan for the 3 months after that. We aim to have a high certainty 3-month roadmap, and a low-certainty 6-month roadmap.
 - Before each cycle, we ask everyone at Sourcegraph to propose new projects (by raising a PR-FAQ) or to propose continuing an existing project (by adding a scoped step to an existing PR-FAQ).
+- Look our for updates in #job-fair.
 
 ## Roadmap planning
 
@@ -32,7 +33,7 @@ Here's our planning cycle:
 - **D-45**: Reminder that planning will start soon!
   - Reminder to the go-to-market leadership to collect top 10 asks from customers
   - Reminder to everybody else to create PR-FAQs. Note that PR-FAQs can be raised on an ongoing basis, this is just a reminder.
-- **D-30 days**: top 10 asks from GTM are ready and shared publicly
+- **D-30 days**: top 10 asks from GTM are ready and shared in #job-fair
 - **D-23**: Deadline to submit projects for job fair prioritisation. Projects are submitted by [raising a ticket](https://github.com/sourcegraph/pr-faqs/issues/new/choose). A project is either a new PR-FAQ, or a new milestone in an existing PR-FAQ. In both cases, the proposal needs to include a definition of a milestone that can be achieved in one quarter, and the staffing requirements.
 - **D-23 to D-17**:
   - The prioritization team (PM/EMs/HoX) reads PR-FAQs and creates a recommendation (or set of!) based on MSEM, revenue goals, and technical goals.
