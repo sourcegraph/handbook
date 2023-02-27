@@ -51,7 +51,7 @@ Note that as we go, prioritization will be easier and easier as we’ll have pla
 
 ### Roles and responsibilities
 
-- TPMs are responsible for coordinating the cycle: sending calendar invites, reminders, organizing job fair meetings).
+- TPMs are responsible for coordinating the cycle: sending calendar invites, reminders, organizing Job Fair meetings).
 - PMs are responsible for the overal quality level of PR-FAQs (clear success criteria).
 - The prioritization team (PM/EMs/HoX/VPEng) are responsible for prioritization and staffing
 
@@ -61,7 +61,7 @@ Projects can be submitted on a rolling basis. To submit a project, make sure you
 
 - You can use this [template](https://docs.google.com/document/d/1Stwe26NWoh0r_LOeA3sUqwDZlrmZ2qBEcdV0Sd1KP1o/edit#).
 - All PR-FAQs are stored in the [PR-FAQ folder](https://drive.google.com/drive/folders/1cOXPKDIQ3O3ZEq9oP6WZBTizgwnoZI9l).
-- If you need help putting your PR-FAQ together, post in #product to request help from a PM.
+- If you need help putting your PR-FAQ together, post in #ask-product to request help from a PM.
 
 Most of prioritisation takes place on a [3-month cadence](#planning-sequence). Notify an EM/PM if you think your PR-FAQ needs to be prioritized sooner.
 
@@ -83,26 +83,26 @@ PR-FAQs should cover work that is at least 3 weeks for 1 engineer, either in the
 - **Staffing needed**. PR-FAQs include the team needed to deliver the proposed one-quater (or less) milestone. Providing several options is encouraged! Eg. with 3 eng we might do x next cycle, with 2 eng we might do y, with 1 we won’t get anything valuable out.
 - **Authors**. Most PR-FAQs should include design, engineering, and product authors to provide a well rounded perspective from each of the disciplines. One way to do that is to write the PR-FAQ, then quickly involve counterparts to make sure the approach, design, and scope make sense.
 - **Validation**. PR-FAQs should be backed by user or customer insight: either through research, direct conversation with customers, or input from the GTM team.
-- **Metrics** and measurable goals. PR-FAQs need to set metrics as part of the success criteria of a milestone. We understand that given our release and adoption cycle, it may be hard to measure things quarterly, so here’s a few tips:
+- **Metrics** and measurable goals. PR-FAQs need to set metrics as part of the success criteria of a milestone. We understand that given our release and adoption cycle, it may be hard to measure things quarterly, so here are a few tips:
   - Feel free to scope down metrics to single-tenant Cloud only, because the adoption cycle is much faster there.
   - Feel free to define targets to be attained in 6 or 12 months if it’s impossible to measure 3-month results (preferred).
 - "Umbrella projects" are deprecated and will not be used anymore.
 - **Duplicates**. Try to avoid duplicate proposals or proposals about work already on some team’s roadmap. It’s a good idea to quickly survey what’s already on the roadmap before raising a proposal.
-- Here are two examples of good PR-FAQ: [Job Fair](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#) and [Sourcergaph Own](https://docs.google.com/document/d/1NeokrfnZq7iLzRCIwvzZ9vhD6O3xYCv4trmu24w7m-E/edit#).
+- Here are two examples of good PR-FAQs: [Job Fair](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#) and [Sourcergaph Own](https://docs.google.com/document/d/1NeokrfnZq7iLzRCIwvzZ9vhD6O3xYCv4trmu24w7m-E/edit#).
 
 ### Backend/invisible/cleanup work
 
 - For non-customer-facing work, such as “I want to replace the XYZ engine/library/layer”, if it’s longer than a month of work in 2023, then it has to go through the PR-FAQ process.
   - Head of Engineering is the business sponsor and will assign biz impact.
   - This is a way we can show the business the importance of the work we sponsor.
-- Easiest way to get backend work approved is to tie it to a greenlit project by making it a prerequisite. If you can convince me, then I’ll greenlight it.
+- Easiest way to get backend work approved is to tie it to a greenlit project by making it a prerequisite. 
 - There’s a fixed 20% budget of ALL Eng resources (i.e. 16 people at any time) allocated to “Infrastructure”, meaning they’re just doing the highest-priority tech cleanup.
   - This work will be in the Job Board under the umbrella project of Infrastructure.
-  - My current recommendation is to write an RFC for any work you want in this bucket that takes longer than about a week, and we’ll prioritize it against all other open work (cross-functionally).
+  - The current recommendation is to write an RFC for any work you want in this bucket that takes longer than about a week, and we’ll prioritize it against all other open work (cross-functionally).
 
 ### PM review
 
-PMs (or Steve for non-customer facing/platform proposals) are in charge of reviewing PR-FAQs. This is non-blocking and just a way to ensure there's a high standard for PR-FAQ and that the exec team can focus on reviewing the most impactful proposals first in case there are too many of them.
+PMs (or Head of Engineering for non-customer facing/platform proposals) are in charge of reviewing PR-FAQs. This is non-blocking and just a way to ensure there's a high standard for PR-FAQs and that the exec team can focus on reviewing the most impactful proposals first in case there are too many of them.
 
 We don't use a formal/complicated framework for evaluating impact for now, in order to keep things lightweight. We might someday introduce a more complicated [opportunity canvas](https://docs.google.com/document/d/1pTEMcwH10xWilQEnVc65oC6PdC3VMjn2XoARfNTaHkc/edit#) later on.
 
@@ -115,14 +115,14 @@ That said, here’s a rough guideline for evaluating impact of customer-facing f
 ## Finding a project to work on
 
 Projects are in the [Job Fair project](https://github.com/orgs/sourcegraph/projects/302/views/18).
-Projects are assigned using the planning cadence abovem and on a rolling basis. Feel free to drop a comment in PR-FAQ issues and let your manager know if you're interested in joining a project.
+Projects are assigned using the planning cadence above and on a rolling basis. Feel free to drop a comment in PR-FAQ issues and let your manager know if you're interested in joining a project.
 
 ## Known trade-offs
 
 Job fair allows us to avoid over-relying on a rigid org chart and team structures. That said, it comes with a few trade-offs:
 
 - Bug fixes and small tweaks are less visible, and may fall through the cracks. We rely on a lightweight ownership model to solve for this: engineers are still part of teams. We're building code ownership tooling to help address this.
-- 3 to 6-months roadmap: job fair makes it so we're continuously reallocating resources to projects. This additional flexibility comes at the expense of having longer term predictability. We compensate for this by building a customer facing roadmap that is fine-grained in the short term (3 to 6 months), and focused on higher-level problems in the longer term (12 months). Focusing on outcomes and problems vs features for longer term horizons avoid overpromising or deviating from solving real customer problems.
+- 3 to 6-months roadmap: Job Fair makes it so we're continuously reallocating resources to projects. This additional flexibility comes at the expense of having longer term predictability. We compensate for this by building a customer facing roadmap that is fine-grained in the short term (3 to 6 months), and focused on higher-level problems in the longer term (12 months). Focusing on outcomes and problems vs features for longer term horizons helps us avoid overpromising or deviating from solving real customer problems.
 
 ## Communications
 
@@ -133,9 +133,9 @@ As projects progress throughout each iteration of Job Fair, any staffing or prio
 ## Glossary
 
 - PR-FAQ – Press Release / FAQ, a [popular way](https://www.optimizeforoutcomes.com/the-PR-FAQ/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
-- Roadmap – Our [WIP Product vision & direction document](https://docs.google.com/document/d/1tzfLimS4et3SnC07ZS7ncSeojsEV6UJ5ppvS47WGgg8/edit), which is finalized and is now being used to generate Roadmap projects, by ensuring that our “green-lit” projects have sufficient coverage of our Roadmap goals.
+- Roadmap – Our [WIP Product vision & direction document](https://docs.google.com/document/d/1tzfLimS4et3SnC07ZS7ncSeojsEV6UJ5ppvS47WGgg8/edit), which is finalized and is now being used to generate Roadmap projects, by ensuring that our “greenlit” projects have sufficient coverage of our Roadmap goals.
 - Roadmap Project - a project that has been green-lit as something we will be committing to delivering and resourcing for success. Also known as a Job Board project; see below.
-- Job Board – conceptually, a spreadsheet that tracks all greenlit projects, each of which has gone through a PR-FAQ review and prioritization into the project list. Managed by Ryan Phillips. The first iteration, which takes us through March Starship, will be finalized by Dec 20th.
+- Job Board – conceptually, a spreadsheet that tracks all greenlit projects, each of which has gone through a PR-FAQ review and prioritization into the project list. Managed by Ryan Phillips. The first iteration takes us through March Starship.
 - Job Fair – ([PR-FAQ](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#)). A new way of defining project work that forces everything through a lens of business prioritization and alignment with our Roadmap. All projects receive KPIs for estimated impact to ARR/DAU, and even internal/technical/maintenance work can be fitted into the Job Fair framework with very little overhead.
 
 ## Related
