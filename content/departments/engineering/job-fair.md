@@ -18,7 +18,7 @@ We plan in 3-months cycles, that are organized in the following way:
 1. Call for input from sales and strategy updates
 2. Call for projects (PR-FAQs or a new step in an existing PR-FAQ)
 3. Call for staffing preferences of engineers
-4. Global prioritization against the [MSEM](../../strategy-goals/msem), ARR opportunities, and technical goals, so as to saturate engineering capacity.
+4. Global prioritization against the [MSEM](../../strategy-goals/msem.md), ARR opportunities, and technical goals, so as to saturate engineering capacity.
 5. Cycle starts! Off-cycle PR-FAQs are welcome, either to be considered for the next cycle or to make off-cycle adjustments.
 
 ### Planning sequence
