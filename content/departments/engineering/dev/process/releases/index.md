@@ -13,7 +13,7 @@ This document describes how we release Sourcegraph.
 As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
 
 | Version | Release Date       |
-|---------|--------------------|
+| ------- | ------------------ |
 | 4.6     | March 22, 2023     |
 | 4.7     | June 13, 2023      |
 | 4.8     | September 12, 2023 |
@@ -30,6 +30,7 @@ Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major vers
 #### Selecting Release Dates
 
 Generally speaking when selecting release dates consider the following criteria:
+
 1. Prefer tuesdays near the middle of the month, giving plenty of time during the week to respond to issues that may arise
 2. Avoid releasing anywhere near the end of November or December to avoid common holiday seasons
 
@@ -40,7 +41,7 @@ A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0
 Patches are scheduled regularly throughout the release quarter once every other week, with 5 patches per release cycle. For example if a release was scheduled on June 13, 2023, the patch schedule would be:
 
 | Patch Date |
-|------------|
+| ---------- |
 | 2023-06-27 |
 | 2023-07-11 |
 | 2023-07-25 |
