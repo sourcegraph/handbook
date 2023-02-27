@@ -23,6 +23,7 @@ Planning works in 3-months cycles, that are organized in the following way:
 ### Planning sequence
 
 In what follows:
+
 - a **cycle** is 3 months of work leading to a quarterly release (eg. Starship). Note that the release cycle is decorrelated from our financial planning cycle.
 - **D** is the day the (development) cycle starts, and **D+90** is the Starship release date.
 
@@ -33,11 +34,11 @@ In what follows:
   - The prioritization team (PM/EMs/HoX) reads PR-FAQs and creates a recommendation (or set of!) based on MSEM, revenue goals, and technical goals.
   - In parallel, engineers express their preferences on a set of PRFAQs they’d like to join if prioritized.
 - **D-17 to D-10**: prioritization week: prioritize the quarter ahead. 1 hour of job fair prioritization meeting every day until done
-- **D-10 to D-3**: staffing week 
+- **D-10 to D-3**: staffing week
   - We start by prioritizing the next release
   - Then the release after that (more uncertain as will be re-assessed in the next cycle)
 - **D-3 to D**: buffer, cycle starts
-- **D((: Steve (or delegate) posts in #announce-company to share projects that have been greenlit.
+- \*\*D((: Steve (or delegate) posts in #announce-company to share projects that have been greenlit.
 - **D+7**: Updates to the customer facing roadmap by PMs and marketing are done.
 
 This cadence will apply to most of PR-FAQs. A minority of PR-FAQs will also be greenlit on a rolling basis. If this process looks rigid, it isn’t. We’ll make adjustments in cycle if we have good reasons to make them. But having a planning cadence provides visibility to the team on when to submit PR-FAQs ideally (before planning!), when and how prioritization happens, and how far ahead we plan the roadmap and why.
@@ -47,20 +48,13 @@ Note that as we go, prioritization will be easier and easier as we’ll have pla
 
 TPMs are responsible for coordinating the cycle:sending calendar invites, reminders, organizing job fair meetings). PMs are responsible for the overal quality level of PR-FAQs (clear success criteria).
 
-
 ## PR-FAQs
-
-
 
 ## Why job fair
 
 ### Benefits of job fair
 
 #### Known trade-offs
-
-
-
-
 
 #### Finding a project to work on
 
