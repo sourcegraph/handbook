@@ -84,24 +84,28 @@ Security is responsible for deactivating the departing teammate from these syste
 
 #### People Ops tasks
 
+The full People team offboarding process can be found [here](https://docs.google.com/document/d/13dkDp2P-f1GGotxONdObB918TybxYFDK4t6N0avcpPo/edit#).
+
 Prior to the teammates last day, the People Partner is responsible for:
 
-- Schedule the teammate's profile termination in BambooHR.
-- Update the BambooHR reporting structure (if the departing teammate is a people manager)
-- Send the departing teammate an email with offboarding information/instructions
-- Trigger the #announce-teammate-departures notification
-- Send the departing teammate a severance agreement via docusign (if applicable)
+- Scheduling the teammate's profile termination in BambooHR.
+- Updating the BambooHR reporting structure (if the departing teammate is a people manager)
+- Sending the departing teammate an email with offboarding information/instructions
+- Sending the departing teammate a severance agreement via docusign (if applicable)
   - See 'How we send severance agreements' below for details
-- Send exit survey in Lattice
-- Schedule and complete an exit interview with the departing teammate
+- Sending exit survey in Lattice
+- Scheduling and complete an exit interview with the departing teammate
+
+As soon as the People Partner confirms the manager has communicated the upcoming departure to the manager Slack channel and to their team, the People Ops team is responsible for:
+
+- Triggering the #announce-teammate-departures notification
 
 On the teammates' final working day, the People Ops team is responsible for:
 
-- Remove any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
-- Remove the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
-- Remove the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
-
-The full People team offboarding process can be found [here](https://docs.google.com/document/d/13dkDp2P-f1GGotxONdObB918TybxYFDK4t6N0avcpPo/edit#).
+- Triggering the #announce-teammate-departures notification
+- Removing any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
+- Removing the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
+- Removing the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
 
 ##### How we send severance agreements
 
