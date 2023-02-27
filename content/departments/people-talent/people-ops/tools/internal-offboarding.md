@@ -101,6 +101,8 @@ On the teammates' final working day, the People Ops team is responsible for:
 - Remove the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
 - Remove the departing teammates' department specific accounts: Process St account, Deel (if applicable), etc.
 
+The full People team offboarding process can be found [here](https://docs.google.com/document/d/13dkDp2P-f1GGotxONdObB918TybxYFDK4t6N0avcpPo/edit#).
+
 ##### How we send severance agreements
 
 - If the teammates' departure involves severance, the People Partner will create a severance agreement for the teammate and send it via Docusign.
