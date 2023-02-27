@@ -40,10 +40,12 @@ A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0
 
 A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`). 
 
-Generally speaking patches will only include bug fixes for previously released features. In some occasions we may release improvements to address issues that may not technically be considered a bug fix, and in some occasions we may backport features provided they are:
+Generally speaking patches will only include bug fixes for previously released features. In some occasions we may release improvements to address issues that may not technically a bug fix, and in some occasions we may backport features provided they are:
 
 1. Behind a feature flag
 2. Low risk and well tested (with flag on and flag off)
+
+#### Patch Schedule
 
 Patches are scheduled regularly throughout the release quarter once every other week, with 5 patches per release cycle. For example if a release was scheduled on June 13, 2023, the patch schedule would be:
 
