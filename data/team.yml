@@ -1153,7 +1153,7 @@ rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
   role: Software Engineer
-  reports_to: ceo
+  reports_to: eng_lead
   manager_role_slug: engineering_manager_cloud
   location: Warsaw, Poland 🇵🇱
   github: rafax
