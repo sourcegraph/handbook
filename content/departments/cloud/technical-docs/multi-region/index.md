@@ -16,7 +16,7 @@ Region must be selected during instance creation, as modifying it aftewards woul
 
 1. Austrialia (Sydney) - `australia-southeast1`
 
-If you have a customer that would strongly prefer a different region (regulations, latency) please let us know in #ask-cloud.
+If there's a specific need (regulations, latency) to support regions other than the ones listed above please let us know in #ask-cloud.
 
 ## Storing data outside of deployment region
 
