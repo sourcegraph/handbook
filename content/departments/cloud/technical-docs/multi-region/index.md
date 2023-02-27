@@ -26,7 +26,7 @@ Although Cloud Instance is deployed to selected region (country), Sourcegraph us
 
    Sourcegraph uses [GCP scoped project](https://cloud.google.com/monitoring/settings) to collect aggregated metrics from all dedicated customer GCP projects.
 
-1. Logs
+1. Audit logs
 
    Audit logs from customer instances are collected and exported to a single dedicated GCP Project in US.
 
