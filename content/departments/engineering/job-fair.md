@@ -30,20 +30,20 @@ In what follows:
 
 Here's our planning cycle:
 
-- **D-45**: Reminder that planning will start soon!
+- **D-45**: TPMs send reminders that planning will start soon!
   - Reminder to the go-to-market leadership to collect top 10 asks from customers
   - Reminder to everybody else to create PR-FAQs. Note that PR-FAQs can be raised on an ongoing basis, this is just a reminder.
-- **D-30 days**: top 10 asks from GTM are ready and shared in #job-fair
+- **D-30 days**: GTM leadership share the top 10 asks from customrs in #job-fair
 - **D-23**: Deadline to submit projects for job fair prioritisation. Projects are submitted by [raising a ticket](https://github.com/sourcegraph/pr-faqs/issues/new/choose). A project is either a new PR-FAQ, or a new milestone in an existing PR-FAQ. In both cases, the proposal needs to include a definition of a milestone that can be achieved in one quarter, and the staffing requirements.
 - **D-23 to D-17**:
-  - The prioritization team (PM/EMs/HoX) reads PR-FAQs and creates a recommendation (or set of!) based on MSEM, revenue goals, and technical goals.
+  - The prioritization team (PM/EMs/HoX/VPEng) reads PR-FAQs and creates a recommendation (or set of!) based on MSEM, revenue goals, and technical goals.
   - In parallel, engineers express their preferences on a set of PRFAQs they’d like to join if prioritized.
 - **D-17 to D-10**: prioritization week: prioritize the quarter ahead. 1 hour of job fair prioritization meeting every day until done
-- **D-10 to D-3**: staffing week
-  - We start by prioritizing the next release
+- **D-10 to D-3**: staffing week.
+  - The prioritization team (PM/EMs/HoX/VPEng) start by prioritizing the next release
   - Then the release after that (more uncertain as will be re-assessed in the next cycle)
 - **D-3 to D**: buffer, cycle starts
-- \*\*D((: Steve (or delegate) posts in #announce-company to share projects that have been greenlit.
+  - VPEng (or delegate) posts in #announce-company to share projects that have been greenlit.
 - **D+7**: Updates to the customer facing roadmap by PMs and marketing are done.
 
 This cadence will apply to most of PR-FAQs. A minority of PR-FAQs will also be greenlit on a rolling basis. If this process looks rigid, it isn’t. We’ll make adjustments in cycle if we have good reasons to make them. But having a planning cadence provides visibility to the team on when to submit PR-FAQs ideally (before planning!), when and how prioritization happens, and how far ahead we plan the roadmap and why.
