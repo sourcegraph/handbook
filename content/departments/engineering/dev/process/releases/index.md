@@ -38,7 +38,7 @@ A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0
 
 ### Patch releases
 
-A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`). 
+A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
 
 Generally speaking patches will only include bug fixes for previously released features. In some occasions we may release improvements to address issues that may not technically a bug fix, and in some occasions we may backport features provided they are:
 
