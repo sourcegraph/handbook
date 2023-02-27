@@ -95,7 +95,7 @@ PR-FAQs should cover work that is at least 3 weeks for 1 engineer, either in the
 - For non-customer-facing work, such as “I want to replace the XYZ engine/library/layer”, if it’s longer than a month of work in 2023, then it has to go through the PR-FAQ process.
   - Head of Engineering is the business sponsor and will assign biz impact.
   - This is a way we can show the business the importance of the work we sponsor.
-- Easiest way to get backend work approved is to tie it to a greenlit project by making it a prerequisite. 
+- Easiest way to get backend work approved is to tie it to a greenlit project by making it a prerequisite.
 - There’s a fixed 20% budget of ALL Eng resources (i.e. 16 people at any time) allocated to “Infrastructure”, meaning they’re just doing the highest-priority tech cleanup.
   - This work will be in the Job Board under the umbrella project of Infrastructure.
   - The current recommendation is to write an RFC for any work you want in this bucket that takes longer than about a week, and we’ll prioritize it against all other open work (cross-functionally).
