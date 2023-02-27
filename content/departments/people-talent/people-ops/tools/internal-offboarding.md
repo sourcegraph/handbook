@@ -97,9 +97,11 @@ Prior to the teammates last day, the People Partner is responsible for:
 - Scheduling and complete an exit interview with the departing teammate
 
 As soon as the People Partner confirms the manager has communicated the upcoming departure to the manager Slack channel and to their team, the People Ops team is responsible for:
+
 - Triggering the #announce-teammate-departures notification
 
 On the teammates' final working day, the People Ops team is responsible for:
+
 - Triggering the #announce-teammate-departures notification
 - Removing any mentions of the departing teammate from the handbook and replace their name with the updated contact name.
 - Removing the departing teammates' LinkedIn Recruiter License has been parked (if applicable)
