@@ -27,6 +27,8 @@ In what follows:
 - a **cycle** is 3 months of work leading to a quarterly release (eg. Starship). Note that the release cycle is decorrelated from our financial planning cycle.
 - **D** is the day the (development) cycle starts, and **D+90** is the Starship release date.
 
+Here's our planning cycle:
+
 - **D-45**: Reminder to GTM to collect top 10asks/reminder to everybody else to create PR-FAQs. Note that PR-FAQs can be raised on an ongoing basis, this is just a reminder.
 - **D-30 days**: top 10 asks from GTM are ready and shared publicly
 - **D-23**: Deadline to submit projects for job fair prioritisation. Projects are submitted by [raising a ticket](https://github.com/sourcegraph/pr-faqs/issues/new/choose). A project is either a new PR-FAQ, or a new milestone in an existing PR-FAQ. In both cases, the proposal needs to include a definition of a milestone that can be achieved in one quarter, and the staffing requirements.
