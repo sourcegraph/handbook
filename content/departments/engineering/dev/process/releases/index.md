@@ -8,31 +8,44 @@ This document describes how we release Sourcegraph.
 > The [Release Guild](../../../guilds/release_guild.md) is now the entity that owns the release process. Read more details about release
 > responsibilities in the [Releases](#releases) section below.
 
-### Releases
+### Release Schedule
 
-**Sourcegraph minor releases are monthly.**
-A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
+As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
+
+| Version | Release Date       |
+|---------|--------------------|
+| 4.6     | March 22, 2023     |
+| 4.7     | June 13, 2023      |
+| 4.8     | September 12, 2023 |
+| 4.9     | December 12, 2023  |
+| 4.10    | March 12, 2024     |
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-These releases always ship on time, even if they're missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
-
-Minor releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
+Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
 
-### When we release
+Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major version (`3.0.0` -> `4.0.0`). Releases are published with [semantic versioning syntax](https://semver.org/) syntax, though Sourcegraph releases do not necessarily follow the versioning semantics.
 
-We create releases by 10am US Pacific Time on the 22nd day of each month. If the 22nd falls on a non-working day, the release captain will shift the release earlier to the last working day before the 22nd. The calendar events will reflect this.
+#### Selecting Release Dates
 
-The release branch will be cut exactly (and no more than) 72 weekday-hours prior to the release date and time (using the commit ledger if necessary). This aims to prevent surprise release cuts and ensure teammates can always know how much time is left until the release branch is prepared.
+Generally speaking when selecting release dates consider the following criteria:
+1. Prefer tuesdays near the middle of the month, giving plenty of time during the week to respond to issues that may arise
+2. Avoid releasing anywhere near the end of November or December to avoid common holiday seasons
 
-For example if the 22nd of the month was on a Thursday, we would cut the build on Monday the 19th.
-
-If the 22nd of the month was on a Monday, the release cut would be on Wednesday the 17th.
-
-If the 22nd of the month was on a Sunday, the release would become the 20th and the release cut would be on Tuesday the 17th.
+A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
 
 ### Patch releases
+
+Patches are scheduled regularly throughout the release quarter once every other week, with 5 patches per release cycle. For example if a release was scheduled on June 13, 2023, the patch schedule would be:
+
+| Patch Date |
+|------------|
+| 2023-06-27 |
+| 2023-07-11 |
+| 2023-07-25 |
+| 2023-08-08 |
+| 2023-08-22 |
 
 **Sourcegraph patch releases are created as required.**
 A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
@@ -81,17 +94,11 @@ This section documents the process used to create releases at Sourcegraph.
 
 ### Release captain
 
-The release captain is _responsible_ for managing the release process and ensuring that the release happens on time. The release captain may _delegate_ work to other teammates, but such delegation does not absolve the release captain of their responsibility to ensure that delegated work gets done.
+The release captain is _responsible_ for managing the release process and ensuring release happens on time. The release captain may _delegate_ work to other teammates, but such delegation does not absolve the release captain of their responsibility to ensure that delegated work gets done.
 
 The release captain should create a tracking issue using the [release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md) at the beginning of the release cycle.
 
 Release captain responsibilities are currently owned by the [Release guild](../../../guilds/release_guild.md).
-
-#### Release Retrospective
-
-The release captain is responsible to start an async release retrospective for every release. Typically this will be in a google document located in the [Release Guild folder in Google Drive](https://drive.google.com/drive/folders/1KMGL2iS8yuBHU-fJsTqb8lIqyHcO75nB?usp=sharing). We perform these retrospectives so that we can understand and grow. The long term vision is to improve this release process, and to do so we need to gather information about each release.
-
-The retrospective document should be shared in #release-guild.
 
 ### Release tooling
 
