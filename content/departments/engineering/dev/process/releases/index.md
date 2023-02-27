@@ -13,7 +13,7 @@ This document describes how we release Sourcegraph.
 As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
 
 | Version | Release Date       |
-| ------- | ------------------ |
+|---------|--------------------|
 | 4.6     | March 22, 2023     |
 | 4.7     | June 13, 2023      |
 | 4.8     | September 12, 2023 |
@@ -25,7 +25,7 @@ These releases **may** require [manual migration steps](https://docs.sourcegraph
 Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
 
-Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major version (`3.0.0` -> `4.0.0`). Releases are published with [semantic versioning syntax](https://semver.org/) syntax, though Sourcegraph releases do not necessarily follow the versioning semantics.
+Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major version (`3.0.0` -> `4.0.0`). Releases are published with [semantic versioning syntax](https://semver.org/), though Sourcegraph releases do not necessarily follow the versioning semantics.
 
 #### Selecting Release Dates
 
@@ -50,7 +50,7 @@ Generally speaking patches will only include bug fixes for previously released f
 Patches are scheduled regularly throughout the release quarter once every other week, with 5 patches per release cycle. For example if a release was scheduled on June 13, 2023, the patch schedule would be:
 
 | Patch Date |
-| ---------- |
+|------------|
 | 2023-06-27 |
 | 2023-07-11 |
 | 2023-07-25 |
