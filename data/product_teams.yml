@@ -106,6 +106,6 @@ security:
 
 cloud:
   title: Cloud
-  em: rafal_leszczynski
+  em: rafal_gajdulewicz
   issue_labels:
     - team/cloud
