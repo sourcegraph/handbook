@@ -691,7 +691,6 @@ rafal_leszczynski:
   pronouns: he/him
   role: Engineering Manager, Cloud
   reports_to: ceo
-  manager_role_slug: engineering_manager_cloud
   location: Jelonek (Poznan), Poland 🇵🇱
   github: RafLeszczynski
   email: rafal@sourcegraph.com
@@ -1165,7 +1164,8 @@ rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_cloud
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
