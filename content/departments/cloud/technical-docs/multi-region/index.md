@@ -17,6 +17,7 @@ Region must be selected during instance creation, as modifying it aftewards woul
 1. Austrialia (Sydney) - `australia-southeast1`
 
 If you have a customer that would strongly prefer a different region (regulations, latency) please let us know in #ask-cloud.
+
 ## Storing data outside of deployment region
 
 Although Cloud Instance is deployed to selected region (country), Sourcegraph uses different external tools, which might keep some of customer data outside of instance deployment country:
