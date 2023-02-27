@@ -37,7 +37,7 @@ Here's our planning cycle:
 - **D-23**: Deadline to submit projects for job fair prioritisation. Projects are submitted by [raising a ticket](https://github.com/sourcegraph/pr-faqs/issues/new/choose). A project is either a new PR-FAQ, or a new milestone in an existing PR-FAQ. In both cases, the proposal needs to include a definition of a milestone that can be achieved in one quarter, and the staffing requirements.
 - **D-23 to D-17**:
   - The prioritization team (PM/EMs/HoX/VPEng) reads PR-FAQs and creates a recommendation (or set of!) based on MSEM, revenue goals, and technical goals.
-  - In parallel, engineers express their preferences on a set of PRFAQs they’d like to join if prioritized.
+  - In parallel, engineers express their preferences on a set of PR-FAQs they’d like to join if prioritized.
 - **D-17 to D-10**: prioritization week: prioritize the quarter ahead. 1 hour of job fair prioritization meeting every day until done
 - **D-10 to D-3**: staffing week.
   - The prioritization team (PM/EMs/HoX/VPEng) start by prioritizing the next release
@@ -51,7 +51,9 @@ Note that as we go, prioritization will be easier and easier as we’ll have pla
 
 ### Roles and responsibilities
 
-TPMs are responsible for coordinating the cycle:sending calendar invites, reminders, organizing job fair meetings). PMs are responsible for the overal quality level of PR-FAQs (clear success criteria).
+- TPMs are responsible for coordinating the cycle: sending calendar invites, reminders, organizing job fair meetings).
+- PMs are responsible for the overal quality level of PR-FAQs (clear success criteria).
+- The prioritization team (PM/EMs/HoX/VPEng) are responsible for prioritization and staffing
 
 ## Submitting to the roadmap
 
@@ -65,9 +67,9 @@ Most of prioritisation takes place on a [3-month cadence](#planning-sequence). N
 
 ### PR-FAQs
 
-PRFAQ stands for Press Release / FAQ. It's a [popular way](https://www.optimizeforoutcomes.com/the-prfaq/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
+PR-FAQ stands for Press Release / FAQ. It's a [popular way](https://www.optimizeforoutcomes.com/the-PR-FAQ/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
 
-PRFAQs should cover work that is at least 3 weeks for 1 engineer, either in the form of a standalone PR-FAQ, or in the form of a milestone defined in an existing PR-FAQ.
+PR-FAQs should cover work that is at least 3 weeks for 1 engineer, either in the form of a standalone PR-FAQ, or in the form of a milestone defined in an existing PR-FAQ.
 
 - **Milestones and scope**. PR-FAQs need to include a milestone to be delivered in one quarter, with a definition of its scope.
   - **New PR-FAQs** are often ambitious initiatives that will take several cycles to deliver. That’s great! However, we also want planning to be actionable and to deliver value to customers as fast as possible.
@@ -90,7 +92,7 @@ PRFAQs should cover work that is at least 3 weeks for 1 engineer, either in the 
 
 ### Backend/invisible/cleanup work
 
-- For non-customer-facing work, such as “I want to replace the XYZ engine/library/layer”, if it’s longer than a month of work in 2023, then it has to go through the PRFAQ process.
+- For non-customer-facing work, such as “I want to replace the XYZ engine/library/layer”, if it’s longer than a month of work in 2023, then it has to go through the PR-FAQ process.
   - Head of Engineering is the business sponsor and will assign biz impact.
   - This is a way we can show the business the importance of the work we sponsor.
 - Easiest way to get backend work approved is to tie it to a greenlit project by making it a prerequisite. If you can convince me, then I’ll greenlight it.
@@ -129,11 +131,11 @@ As projects progress throughout each iteration of Job Fair, any staffing or prio
 
 ## Glossary
 
-- PRFAQ – Press Release / FAQ, a [popular way](https://www.optimizeforoutcomes.com/the-prfaq/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
+- PR-FAQ – Press Release / FAQ, a [popular way](https://www.optimizeforoutcomes.com/the-PR-FAQ/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
 - Roadmap – Our [WIP Product vision & direction document](https://docs.google.com/document/d/1tzfLimS4et3SnC07ZS7ncSeojsEV6UJ5ppvS47WGgg8/edit), which is finalized and is now being used to generate Roadmap projects, by ensuring that our “green-lit” projects have sufficient coverage of our Roadmap goals.
 - Roadmap Project - a project that has been green-lit as something we will be committing to delivering and resourcing for success. Also known as a Job Board project; see below.
-- Job Board – conceptually, a spreadsheet that tracks all greenlit projects, each of which has gone through a PRFAQ review and prioritization into the project list. Managed by Ryan Phillips. The first iteration, which takes us through March Starship, will be finalized by Dec 20th.
-- Job Fair – ([PRFAQ](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#)). A new way of defining project work that forces everything through a lens of business prioritization and alignment with our Roadmap. All projects receive KPIs for estimated impact to ARR/DAU, and even internal/technical/maintenance work can be fitted into the Job Fair framework with very little overhead.
+- Job Board – conceptually, a spreadsheet that tracks all greenlit projects, each of which has gone through a PR-FAQ review and prioritization into the project list. Managed by Ryan Phillips. The first iteration, which takes us through March Starship, will be finalized by Dec 20th.
+- Job Fair – ([PR-FAQ](https://docs.google.com/document/d/1X9j_wkKlCE9xTwRWefZaOE8OCeisQx6p6gzZTe9aQsI/edit#)). A new way of defining project work that forces everything through a lens of business prioritization and alignment with our Roadmap. All projects receive KPIs for estimated impact to ARR/DAU, and even internal/technical/maintenance work can be fitted into the Job Fair framework with very little overhead.
 
 ## Related
 
