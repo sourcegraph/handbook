@@ -72,13 +72,12 @@ We run a weekly support rotation, help can be reached by tagging `@code-explorat
 #### Responsibilities of the support rotation
 
 1. Handle all incoming requests for help and questions that are directed at the `@code-exploration-support` handle or general questions in #code-exploration.
-2. If the issue is deemed a P0 then the person on support must consider it their only priority to resolve.  They may pull in additional team members as needed.  If a P0 lasts longer than the rotation, the support person on rotation when it is raised will continue to be the DRI until the issue is resolved.
+2. If the issue is deemed a P0 then the person on support must consider it their only priority to resolve. They may pull in additional team members as needed. If a P0 lasts longer than the rotation, the support person on rotation when it is raised will continue to be the DRI until the issue is resolved.
 3. If the issue is not a P0 then the support person must:
    1. Work out an appropriate priority rating for the issue.
    2. Create a high quality GitHub issue (high quality being screenshots, high level investigation and description, reproducible URLs or videos of the problem). This may require communication with the person that originally raised the issue.
    3. Put the issue into the backlog to be tackled in a future iteration.
 4. Communicate in the initial thread where the help was requested either notifying them of the immediate work (in the case of a P0) or a link to the created issue and an indication of when we'd tackle this.
-
 
 ### Weekly sync
 
