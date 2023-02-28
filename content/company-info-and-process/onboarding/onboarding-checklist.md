@@ -1,10 +1,12 @@
 # Onboarding Checklist
 
-TODO
+This page is for teammates who want details about the onboarding checklist. See [Onboarding](../onboarding) for the philosophy and details of the entire onboarding process.
+
+The onboarding checklist is list of tasks in Process St. People Ops shares a link to Process St in an email welcoming new teammates. In practice, new teammates first [set up Okta](/departments/tech-ops/tools/okta/okta-activation-steps), then sign in to Process St to work through the onboarding checklist.
 
 ## Mandatory tasks
 
-Current onboarding mandatory tasks are:
+Some parts of the onboarding process are mandatory. Current onboarding mandatory tasks are:
 
 ### Set up
 
@@ -16,7 +18,8 @@ No due date.
 
 ### Security
 
-Due date: one month after start date.
+Due date: One month after start date.
+
 If the task was not completed by the due date you will receive a reminder alert via email. The grace period for completing the task will be two weeks after the original due date. In the event the task is not completed by the end of the grace period an escalation notification will be sent to your manager and the People Ops team.
 
 - Watch Security Awareness training
@@ -25,10 +28,16 @@ If the task was not completed by the due date you will receive a reminder alert 
 - Sign security policy acknowledgment
 - Enable 2FA on GitHub
 - Enable 2FA on GSuite
+- Review the Code of Conduct
 
-### Code of Conduct
+### Preventing Harassment and Discrimination Training
 
-Due date: one month after start date.
-If the task was not completed by the due date you will receive a reminder alert via email. The grace period for completing the task will be two weeks after the original due date. In the event the task is not completed by the end of the grace period an escalation notification will be sent to your manager and the People Ops team.
+Due date: Two weeks after start date.
 
-- Review the code of conduct
+This mandatory training is refreshed annually on the anniversary of your start date.
+
+### One-Month Feedback Milestone Meeting
+
+Due date: One month after start date.
+
+You will schedule a meeting with your hiring manager to get feedback. See [Onboarding review process](onboarding-reviews).
