@@ -112,7 +112,7 @@ The exit interview is broken into two steps:
 
 #### Do I need to return my equipment?
 
-- Laptops can be purchased by all leavers, at a discounted rate. Please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
+- [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate. Please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
 
 #### How do I submit my final expenses?
 

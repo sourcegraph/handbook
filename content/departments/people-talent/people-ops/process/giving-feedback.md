@@ -97,13 +97,9 @@ Please provide specific examples in the comment field that support what you shou
    <td>I would rate my level of success in showcasing expected domain knowledge, skills, and execution as: ____ [insert rating, e.g. 1, 2 or 3. Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree]. 
 <p>
 
-Throughout the past 6-months, I made a concerted effort to consistently apply my skills and knowledge in line with my role and level expectations. For example:
+Throughout the past 6-months, I made a concerted effort to consistently apply my skills and knowledge in line with my role and exepctations. For Example:
 
-<ul>
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how you achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how you achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
+- **Situation**: Successful implementation of [insert project, process etc.]. **Behavior**: In order to launch this, it was critical to leverage my skills [insert skills and knowledge applied]. **The impact** in executing was critical to [explain the outcome].
 
 <p>To amplify my performance in the next review period…<ul>
 
@@ -133,9 +129,7 @@ Specifically, I aim to:
 <li>[Insert specific goal, e.g. meet or exceed performance targets by utilizing my time management and organizational skills to effectively prioritize and manage my responsibilities].
 
 <p>
-I believe that by focusing on these goals, I will not only be able to achieve my personal objectives, but also make a meaningful contribution to the success of the company. I am committed to continuing my professional development and leveraging my skills and knowledge to drive results for the team. 
-<p>
-To be successful in achieving these goals, I also need [insert specific support or guidance needed from your manager or team].
+To be successful over the next review period, I need support and/or training in the following ways: [insert anything your manager or the People Team can do to support you].  
 </li>
 </ol>
    </td>
@@ -213,12 +207,7 @@ Please provide specific examples in the comment field that support what this tea
 <p>
 <em>* Note: Response is only visible to this teammates Manager.</em>
    </td>
-   <td>[Teammate name] has demonstrated a [strong, average, or below average] understanding of their role and the required domain knowledge/skills. Below are examples that justify why I rated them a: ____  [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<ul>
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how they achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]. <strong>Behavior</strong>: [provide concrete example of how they achieved the goal]. <strong>Impact</strong>: [explain the impact or significance of the accomplishment].
+   <td>I [insert Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] that [Teammate name] has showcased the expected domain knowledge, skills, and execution in alignment with their role/level.
 
 <p>
 To amplify performance in the next 6-moths: 
@@ -323,7 +312,6 @@ Below is what your peers said about your performance:
 Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
 
 <p>
-<em>* Note: Response will not visible to the teammate.</em>
    </td>
    <td>[Teammate name] consistently embodies our company values, specifically [insert value] and [insert value]: 
 <ul>

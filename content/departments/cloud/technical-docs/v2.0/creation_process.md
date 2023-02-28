@@ -153,7 +153,7 @@ mi2 instance edit --jq '.spec.debug.tfcRunsMode = "cli"' --slug $SLUG -e $ENVIRO
 Configure the target Sourcegraph version
 
 ```sh
-mi2 instance edit --jq '.spec.sourcegraphApplicationVersion = "'$TARGET_SRC_VERSION'"' --slug $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.sourcegraphVersion = "'$TARGET_SRC_VERSION'"' --slug $SLUG -e $ENVIRONMENT
 ```
 
 Verify domain is unique across all environments

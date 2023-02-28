@@ -7,7 +7,7 @@ See [strategy](../../../../strategy-goals/strategy/growth-team/index.md)
 ## Members
 
 - Taylor Sperry, product manager
-- Raf Leszczynski, engineering manager
+- Rafal Gajdulewicz, engineering manager
   - Erzhan Torokulov, software engineer
   - Becca Steinbrecher, software engineer
 - Paulo Almeida, product designer

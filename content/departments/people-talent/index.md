@@ -314,6 +314,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Cash spot bonus template](https://docs.google.com/document/d/1MDoZdIiQ5CiddD28__9w-llnax2M8NHVYNq83kKzypE/edit)
   - [Annual equity refresh template](https://docs.google.com/document/d/1UYU_nXtdTTOCfam_kvhm4TQLi9jfyoZqaQ5J6DqB9rM/edit)
   - [Merit increase template](https://docs.google.com/document/d/1vVXijmLlAfTVYrNXWmRXOZXADeLJoA78__Xu3dgKe8k/edit)
+  - [Impact award letter template](https://docs.google.com/document/d/13N9phJmNuM9wK956MZk1gtfsj55-BCYyDAuYRJ-q0jk/edit)
 
 ### Teammate support
 

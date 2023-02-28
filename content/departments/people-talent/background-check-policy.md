@@ -45,8 +45,6 @@ Verification of educational achievement, including but not limited to the awardi
 
 The Covered Teammate’s hiring manager or People Team will directly contact professional references identified by the Covered Teammate. Applicants must inform their professional references in advance and must obtain the referee’s consent to share their contact information with Sourcegraph.
 
-Sourcegraph will not retroactively conduct such verifications for current Teammates, absent a business requirement, such as to fulfill a customer contractual obligation.
-
 The People Team will review and analyze third-party vendor verification results and store the record of the completed verification in the Teammate’s file.
 
 ### Results review
@@ -88,6 +86,12 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 
 - Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
 
+**How far back should I provide my employment history?**
+
+- Please provide 5 years of employment history in your background check
+
+- Sourcegraph will ensure checks meet the minimum requirements to the extent consistent with applicable law. Additional details regarding international background checks can be found [here](https://help.checkr.com/hc/en-us/articles/360056108714-International-screenings).
+
 **How long does it take to complete a background check?**
 
 - The length of time to complete a check will vary depending on which check(s) are run and which country. For example, the typical turnaround time for a basic background check in the US takes approximately 24-48 hours. However, if additional screens are required such as education or prior employment verifications, the time it takes to complete may extend up to 2-3 weeks. In general, international background checks will take a greater amount of time to reach completion.
@@ -104,6 +108,22 @@ Sourcegraph has the right to amend, change or update this Policy in its sole dis
 **What personal information of mine will Sourcegraph share with Checkr?**
 
 - We will provide Checkr with your legal name and E-mail address, so Checkr can contact you. Checkr will reach out directly to collect the necessary pieces of information to conduct the relevant background screens. You can see the information Checkr collects and how they use it in their [privacy policy](https://checkr.com/privacy-policy).
+
+**When filling out my background check, who should I list as my 'Most Recent Employer'?**
+
+- Please list your most recent employers within the past 5 years, starting with your current role at Sourcegraph (Sourcegraph contact: Marija Petrovic, people-ops@sourcegraph.com). Select the 'Current Position' checkbox for your current role.
+
+**I do not have contact information for my previous employer. What should I do?**
+
+- Please do one of the following:
+  - Submit your W-2 or paystubs as proof of employment
+  - Reach out to your previous company’s support team to ask who to list as a contact for new employment background checks
+
+You are able to put a standard info@company/HR-email, direct contact or N/A. If Checkr is not able to verify directly; you will be asked to submit supporting documents, including W-2, 1099, or paystub.
+
+**Can I re-open my background check after submitting it?**
+
+- We are not able to reopen a background check once it has been submitted, but we will reach out to you directly if any further information is needed to complete your background check.
 
 **What happens if something shows up on my background check?**
 
