@@ -17,6 +17,7 @@ Authentic and vulnerable. Overcommunicator. I want everyone in the room to feel 
 ### Collaboration style
 
 A mix between:
+
 - Medium-sized group discussion for brainstorming, discovering, teaching, making decisions, collecting feedback
 - Small groups (2-3 people) for working
 - Documents for more detailed planning, collecting longer notes
@@ -53,12 +54,14 @@ Problems get solved much faster when people ask for help when they get stuck, ra
 We also need to protect IC focus time from Slack noise.
 
 We have several methods in place to strike this balance between supporting each other efficiently, and distracting people from deep focus work:
+
 - Post in #team- and #ask- channels
 - Tag the channel’s support team in a threaded reply to your post, if no one replies to your post quickly enough
--- This support team should be the minimal number of people required in the channel, to distract the fewest people in deep focus or meetings
+  -- This support team should be the minimal number of people required in the channel, to distract the fewest people in deep focus or meetings
 - Reply in the weekly and daily Slack threads (weekly planning, daily captain’s log, weekly reflection time, etc.)
 
 Anti-patterns that get answers slower, and annoy people:
+
 - DMing someone with questions that more than one person can answer
 - @here / @channel tags
 
