@@ -95,7 +95,7 @@ curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```sh
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
 # returns actual CloudSQL zone
-mi2 instance edit --jq '.spec.gcpZone = "'$FAILOVER_ZONE'"' --slug $SLUG -e $ENVIRONMENT
+mi2 instance edit --jq '.spec.infrastructure.gcp.zone = "'$FAILOVER_ZONE'"' --slug $SLUG -e $ENVIRONMENT
 mi2 generate cdktf -e $ENVIRONMENT --slug $SLUG
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
 terraform init && terraform apply
