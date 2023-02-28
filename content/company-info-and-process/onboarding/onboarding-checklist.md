@@ -1,8 +1,8 @@
 # Onboarding Checklist
 
-This page is for teammates who want details about the onboarding checklist. See [Onboarding](../onboarding) for the philosophy and details of the entire onboarding process.
+This page is for teammates who want details about the onboarding checklist. See [Onboarding](index.md) for the philosophy and details of the entire onboarding process.
 
-The onboarding checklist is list of tasks in Process St. People Ops shares a link to Process St in an email welcoming new teammates. In practice, new teammates first [set up Okta](/departments/tech-ops/tools/okta/okta-activation-steps), then sign in to Process St to work through the onboarding checklist.
+The onboarding checklist is list of tasks in Process St. People Ops shares a link to Process St in an email welcoming new teammates. In practice, new teammates first [set up Okta](../../departments/tech-ops/tools/okta/okta-activation-steps.md), then sign in to Process St to work through the onboarding checklist.
 
 ## Mandatory tasks
 
@@ -40,4 +40,4 @@ This mandatory training is refreshed annually on the anniversary of your start d
 
 Due date: One month after start date.
 
-You will schedule a meeting with your hiring manager to get feedback. See [Onboarding review process](onboarding-reviews).
+You will schedule a meeting with your hiring manager to get feedback. See [Onboarding review process](onboarding-reviews.md).
