@@ -67,7 +67,7 @@ As the largest frontend team, we also recognize our responsibility to be a stewa
 
 ### Support
 
-We run a weekly support rotation, help can be reached by tagging `@code-exploration-support` within Slack.
+We run a weekly support rotation, help can be reached by tagging `@code-exploration-support` within Slack. The engineer on rotation is expected to comply with these responsibilities only **_within their usual working hours_**. There is no on-call, 24x7-watch expectation on these tasks. The async nature of Sourcegraph allows us to properly support the organization without having to be in front of the computer all day.
 
 #### Responsibilities of the support rotation
 
