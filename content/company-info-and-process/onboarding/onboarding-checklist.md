@@ -2,7 +2,7 @@
 
 This page is for teammates who want details about the onboarding checklist. See [Onboarding](index.md) for the philosophy and details of the entire onboarding process.
 
-The onboarding checklist is list of tasks in Process St. People Ops shares a link to Process St in an email welcoming new teammates. In practice, new teammates first [set up Okta](../../departments/tech-ops/tools/okta/okta-activation-steps.md), then sign in to Process St to work through the onboarding checklist.
+The onboarding checklist is list of tasks in Process St. People Ops shares a link to Process St in an email welcoming new teammates. In practice, new teammates first [set up Okta](../../departments/tech-ops/tools/Okta/okta-activation-steps.md), then sign in to Process St to work through the onboarding checklist.
 
 ## Mandatory tasks
 
