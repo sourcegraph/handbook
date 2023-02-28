@@ -939,13 +939,13 @@ max_wiederholt:
 victoria_yunger:
   name: Victoria Yunger
   pronouns: She/Her
-  role: Product Marketing Lead, Enterprise
+  role: Principal PMM
   reports_to: director_product_marketing
   location: San Francisco, CA, USA 🇺🇸
   github: thisisvic
   email: victoria.yunger@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/victoriayunger/)'
-  description: "Victoria was born in Ukraine, grew up in Israel, and then moved to the U.S. to pursue her Master's degree at UChicago. As of three years, she calls San Francisco her (foggy) home. Pre-Sourcegraph, Victoria worked as a product marketer at Zendesk. Back in Israel a.k.a Startup Nation, she held several marketing roles and served in the Israeli Defense Forces for 2 years that felt like 20. She is passionate about pitch slides that resonate with a buyer, Sonoma wines that elevate a dinner, and true crime podcasts."
+  description: "Victoria was born in Ukraine, grew up in Israel, and then moved to the U.S. to pursue her Master's degree at UChicago. As of five years, she calls San Francisco her (foggy) home. Pre-Sourcegraph, Victoria worked as a product marketer at Zendesk and held several marketing roles in Israel."
 
 luke_taylor:
   name: Luke Taylor
