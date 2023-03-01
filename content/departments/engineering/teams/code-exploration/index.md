@@ -65,6 +65,20 @@ As the largest frontend team, we also recognize our responsibility to be a stewa
 
 ## Processes
 
+### Support
+
+We run a weekly support rotation, help can be reached by tagging `@code-exploration-support` within Slack. The engineer on rotation is expected to comply with these responsibilities only **_within their usual working hours_**. There is no on-call, 24x7-watch expectation on these tasks. The async nature of Sourcegraph allows us to properly support the organization without having to be in front of the computer all day.
+
+#### Responsibilities of the support rotation
+
+1. Handle all incoming requests for help and questions that are directed at the `@code-exploration-support` handle or general questions in #code-exploration.
+2. If the issue is deemed a P0 then the person on support must consider it their only priority to resolve. They may pull in additional team members as needed. If a P0 lasts longer than the rotation, the support person on rotation when it is raised will continue to be the DRI until the issue is resolved.
+3. If the issue is not a P0 then the support person must:
+   1. Work out an appropriate priority rating for the issue.
+   2. Create a high quality GitHub issue (high quality being screenshots, high level investigation and description, reproducible URLs or videos of the problem). This may require communication with the person that originally raised the issue.
+   3. Put the issue into the backlog to be tackled in a future iteration.
+4. Communicate in the initial thread where the help was requested either notifying them of the immediate work (in the case of a P0) or a link to the created issue and an indication of when we'd tackle this.
+
 ### Weekly sync
 
 We hold a weekly sync with notes and pre-filled agenda in our [team sync notes doc](https://docs.google.com/document/d/1teUwDotZy1qgZivPkt7ga62lzhdmNNl5_NGSrdyNl8A/edit).
