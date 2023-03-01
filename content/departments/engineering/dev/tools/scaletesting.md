@@ -133,7 +133,7 @@ To make changes to images, environment variables or other configuration, all upd
 First, authenticate yourself to the cluster using the following command:
 
 ```shell
-gcloud container clusters get-credentials dogfood --region us-central1 --project sourcegraph-dogfood
+gcloud container clusters get-credentials dogfood --region us-central1-f --project sourcegraph-dogfood
 ```
 
 Then check that you have the Sourcegraph Helm chart installed:
