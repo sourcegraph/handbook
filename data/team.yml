@@ -1468,7 +1468,7 @@ andrew_norrish:
 
 felix_kling:
   name: Felix Kling
-  reports_to: search_lead
+  reports_to: engineering_manager_code_exploration
   role: Software Engineer
   github: fkling
 
