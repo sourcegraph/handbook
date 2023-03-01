@@ -517,7 +517,7 @@ repository_permissions:
   title: Repository Permissions
   product_team: repo_management
   maturity: ga
-  documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
+  documentation_link: https://docs.sourcegraph.com/admin/permissions
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
