@@ -33,7 +33,7 @@ Here is a strategy for handling this question live (for simplicity, this assumes
 
 ## Does Sourcegraph respect GitHub (or other code host) permissions?
 
-> Yes, see repository permissions documentation (https://docs.sourcegraph.com/admin/repo/permissions).
+> Yes, see repository permissions documentation (https://docs.sourcegraph.com/admin/permissions).
 
 ## Why should I pay for Sourcegraph and not just use the open source version?
 
