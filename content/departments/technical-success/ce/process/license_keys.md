@@ -58,7 +58,7 @@ Visit the **Site-admin > Subscriptions** page, find the existing subscription, c
 1. Sign in to sourcegraph.com and visit the **Site-admin > Subscriptions** page.
 2. Search for the user associated with the company, and click into the existing subscription ID (left-most column). (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
 3. Click **Generate new license manually**. Fill out the license end date (most typically to match the contract terms) and fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) for a list you can just copy. Remember: Tags must be separated by commas, with no spaces!
-4. Set the licensed number of users (note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
+4. Set the licensed number of users (note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning) and the end date for which the license should be valid, and click **Generate license**.
 5. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
 ## Reissuing Expired Licenses
@@ -111,7 +111,7 @@ First the tags that relate to license itself:
 
 Second, the tags that enable specific features:
 
-- `acls` for external Permission syncing from the code host. (Add this to all licenses.)
+- `acls` for repository permissions from the code host. (Add this to all licenses.)
 - `batch-changes` for unlimited Batch Changes (formerly `campaigns`)
 - `code-insights` for unlimited Code Insights
 - `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
