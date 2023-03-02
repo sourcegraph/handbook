@@ -2129,7 +2129,7 @@ dominic_cooney:
   pronouns: he/him
   role: Software Engineer
   description: "Dominic's [first PC](https://en.wikipedia.org/wiki/PC1512) had 640K of RAM, which turned out to be not enough for anybody. Prior to joining Sourcegraph in 2023 he implemented web browsers at Google and Meta. Outside work he's into Pilates, trading Japanese equities, and baking [delicious cookies.](https://blog.dpc.dev/chocolate-chip-cookies)"
-  
+
 john_wesonga:
   name: John Wesonga
   email: john.wesonga@sourcegraph.com
@@ -2139,4 +2139,3 @@ john_wesonga:
   links: '[LinkedIn](https://www.linkedin.com/in/johnwesonga)'
   role: Technical Program Manager
   description: I started out as web & mobile (android) developer and eventually transitioned into program management because I enjoy the intersection of product & engineering, fast forward and 12 years later I'm still doing it! Outside work I enjoy running, kettlebell workouts and cooking for my family!
-
