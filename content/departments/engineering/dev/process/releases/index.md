@@ -18,7 +18,7 @@ As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https:/
 | 5.1     | June 13, 2023      |
 | 5.2     | September 12, 2023 |
 | 5.3     | December 12, 2023  |
-| 5.4    | March 12, 2024     |
+| 5.4     | March 12, 2024     |
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
