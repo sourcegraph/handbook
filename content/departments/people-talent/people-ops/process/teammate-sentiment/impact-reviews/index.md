@@ -70,7 +70,7 @@ Results from the semi-annual impact review process support the growth and develo
   - All Teams: 2023-02-01 to 2023-02-011 (1.5 weeks)
 - **Phase 2: Self, Peer, & Upward Review Writing, Manager Review Writing**
   - All ICs: 2023-02-08 to 2023-03-29 (7 weeks) - We added 3 extra weeks for buffer because we know this is a busy time!
-  - All Managers 2023-02-08 to 2023-03-31 - We added 2 days to accommodate the IC extension! 
+  - All Managers 2023-02-08 to 2023-03-31 - We added 2 days to accommodate the IC extension!
 - **Phase 3: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
   - All Teams: 2023-04-03 to 2023-04-07 (1 week)
   - Engineering Team Extension: 2023-04-10 to 2023-04-14 (the extra week accommodates for the starship launch)
