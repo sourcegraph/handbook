@@ -26,7 +26,7 @@ Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16
 
 - If you live in a country where a statutory Parental and/or Birthing Parent/Maternity Leave benefit is available (which may include disability leave for birthing parents), you will be required to claim statutory Parental and/or Birthing Parent/Maternity Leave pay (if you are eligible) and, if such leave is offered at less than full pay, Sourcegraph will supplement any gaps in total unpaid leave for up to 16 weeks. Please see guidance below for International Teammates.
 
-#### Who is eligible for Sourcegraph’s paid parental leave?
+### Who is eligible for Sourcegraph’s paid parental leave?
 
 **Teammates are eligible if:**
 
@@ -36,38 +36,59 @@ Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16
 
 **Note:** There is no minimum tenure required to be eligible for Parental Leave. In other words, all teammates are eligible for Parental Leave on day 1.
 
-#### Planning to go on Parental Leave? Follow the below steps…
+### Planning to go on Parental Leave? Follow the below steps…
 
-**Step 1:** Notify your Manager & the People Team
+**Step 1: Notify your Manager & the People Team**
 
 Teammates planning to take parental leave should begin discussions with their Manager & the People Team **no later than** 1 month prior to the expected leave start date.
 
 Please work with your Manager to discuss your parental leave date and return-to-work date so that you can both plan for your absence in advance.
 
-Please notify the People Team via email ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) with answers to the following questions.
+**Step 2: Formally kick off leave process**
 
-1. What date are you planning on starting your leave?
-2. Are you a birthing caregiver or non-birthing caregiver?
-3. Which country and/or state will you be based in during your leave? (Please ensure your BambooHR and Rippling profile reflect the correct location)
-4. Do you plan on taking 16 weeks (or more/less), as well as any other time off before and/or after your leave?
-5. Will you be taking your leave consecutively or non-consecutively? If non-consecutively, how do you plan on structuring your leave?
-6. Are there any questions or concerns you have for the People Team regarding your leave?
+To formally request leave, please fill out [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe33JhiE5hW2ksMTyqD7Ax-7G9XRt1cczqfKG0zhayhBl5YJw/viewform?usp=sf_link) to provide necessary information about your leave request.
 
-Once you’ve notified the People Team via email, someone will follow up with next steps:
+Once you’ve completed the Google Form, someone on the People Team will follow up with next steps:
 
-- **US Teammates:** someone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. The Sparrow team will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
-- **Contractor Teammates**: someone on the People Team will reach out to you and will work with you to prepare for your upcoming parental leave.
-- **PEO Teammates:** one of our People teammates will work with your PEO to gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
+- **All other Teammates:** omeone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. The Sparrow team will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
+- **PEO Teammates:** the People Team will work with your PEO to gather information on the leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
+- **Contractor Teammates:** one of our People teammates will work with your PEO to gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
 
-**Step 2:** Log your parental leave
+**Step 3: Log your parental leave**
 
 Once you’ve communicated and confirmed your leave dates with the People Team and your Manager, please use [Roots](https://www.tryroots.io/pto) (select the Parental Leave category) to record your leave and return-to-work dates
 
 We understand that your Leave dates may change, so you can adjust your Roots dates at a later date if needed.
 
-**Step 3:** Make your out of office plan & communicate it with your team
+**Step 4: Create & communicate your out of office plan with your team**
 
 See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
+
+**Step 5: Take your leave**
+
+While you are out on leave your focus should be on taking care of yourself or family member. Please do not feel the need to check work related platforms, or complete projects. Your team will use your coverage plan to ensure work continues while you are out.
+
+The People Team may be in touch with you from time to time to check in and ensure your return to work plan is on track. Please do your best to respond to the People Team.
+
+If you feel or receive pressure to complete work related tasks, please reach out to People-Ops@sourcegraph.com.
+
+**Step 6: Prepare to return to work**
+
+The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to People-Ops@sourcegraph.com with your confirmed return date.
+
+**IMPORTANT:** If your return-to-work date needs to be changed, please notify your Manager and the People Team via email (People-Ops@sourcegraph.com) as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack. Any extensions will need to be approved by your manager and confirmed by the People Team.
+
+**Step 7: Returning from medical leave**
+
+Preparing for your first day back:
+
+- Update availability and systems
+  - Your Slack status may still be set as OOO – don’t forget to update this to signal to folks that you’re back
+  - If you set up an auto-response or email forwarding for your email, make sure to update your email settings
+  - Revisit your calendar availability and make adjustments, if needed
+- Check in with your manager
+  - Your manager will set up a 1:1 for your first day back to check in, provide updates, and discuss priorities.
+  - Review the [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit) that you and your manager put together prior to your leave as well as your 1-1 doc to catch up on in-progress projects and priorities.
 
 ### Resources for Teammates with a commission plan (Sales & CE)
 
