@@ -278,6 +278,22 @@ Opportunities in Salesforce can be created either manually from scratch or from 
    1. If within 60 or fewer days prior to creation of the converted lead any pre-existing contact on the account selected to carry the new opportunity had a Lead Source reflecting outbound efforts (i.e., AE created or SDR created), the Opportunity Source will revert to taking that Lead Source in place of the source of the converted lead. This is to reflect a scenario that we frequently encounter where an SDR or AE will outbound prospect into a specific individual within a company, have no follow-up correspondence with that particular lead, but then receive an inbound inquiry (typically through completion of a marketing form or product sign-up) from a separate individual at the same company that heard about Sourcegraph from the lead originally contacted. Without this rule in Salesforce, we would materially undercount the impact of our outbound prospecting efforts while overstating the influence of marketing content on pipeline generation.
    2. Even with the above, we still retain data on the converted lead and where it was originally sourced - see the "Lead Source" field within an opportunities report.
 
+### New Logo Credit
+
+In FY24, a New Logo is defined as a closed contract that an Account Executive is directly responsible for that meets the following criteria:
+
+1. Minimum New ACV of $5,000 AND one of the following:
+   a. 100+ employees in Engineering (based on LinkedIn data) for a company that Sourcegraph has no existing open contract with; OR
+   b. A valid purchase order is generated with a new department of an existing customer with an autonomous purchasing department (“Business Unit”) that Sourcegraph has no current contract with; OR
+   c. The associated opportunity record in Salesforce has a new contact in the Executive Buyer field, wherein said contact has no prior purchasing relationship with Sourcegraph; OR
+   d. A new instance is provisioned by Sourcegraph
+
+In order to receive New Logo credit, the Account executive must include documentation that the opportunity meets the above criteria, either through a LinkedIn screenshot or a pdf copy of the purchase order for A & B respectively.
+
+Upon deal closure, Sales Operations shall review the available documentation and determine if New Logo credit is warranted by checking or leaving blank the New Logo (Commission Controller) field in the Salesforce Opportunity record.
+
+Should you have any questions about New Logo credit, please reach out to Ajay Uppaluri or the Ask-sals-ops slack channel
+
 ### Recording outbound activity
 
 TBD
