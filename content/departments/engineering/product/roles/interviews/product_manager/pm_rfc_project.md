@@ -26,15 +26,15 @@ Please write a PR-FAQ in a Google Doc for a Sourcegraph AI coding assistant powe
 
 It should include:
 
- - A press release section
- - A success criteria section that defines what success looks like for this project
- - A FAQ section that includes:
-   - Answers to these 3 pre-defined questions:
-   - What's the MVP of this project?
-   - What metrics would you measure?
-   - How can this feature differentiate from GitHub Copilot?
- - And the top 3 questions you think are the most important for the project (and answers)
+- A press release section
+- A success criteria section that defines what success looks like for this project
+- A FAQ section that includes:
+  - Answers to these 3 pre-defined questions:
+  - What's the MVP of this project?
+  - What metrics would you measure?
+  - How can this feature differentiate from GitHub Copilot?
+- And the top 3 questions you think are the most important for the project (and answers)
 
-We expect this to take you ~1 hour. What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way. 
+We expect this to take you ~1 hour. What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
 
 Please send link to your Google doc using the link below when you are finished.
