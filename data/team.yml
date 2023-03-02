@@ -686,17 +686,6 @@ carly_jones:
   github: carlyj0nes
   description: Carly is a Denver native who went to college in Vermont (Middlebury), lived in Washington, DC for 5 years, and has since returned home to Colorado. Prior to Sourcegraph, she gained experience leading talent teams at high growth startups and is passionate about all things talent acquisition. When not working, you can find Carly tackling a DIY project, practicing her golf game, spending time outdoors, and traveling.
 
-rafal_leszczynski:
-  name: Rafal Leszczynski
-  pronouns: he/him
-  role: Engineering Manager, Cloud
-  reports_to: ceo
-  location: Jelonek (Poznan), Poland 🇵🇱
-  github: RafLeszczynski
-  email: rafal@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/rleszcz/)'
-  description: Raf lives with his family outside of Poznan (Poland), surrounded by forests, boars, deers, and other wildlife.
-
 kelli_rockwell:
   name: Kelli Rockwell
   pronouns: she/her
@@ -1163,7 +1152,7 @@ taylor_sperry:
 rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
-  role: Software Engineer
+  role: Engineering Manager, Cloud
   reports_to: eng_lead
   manager_role_slug: engineering_manager_cloud
   location: Warsaw, Poland 🇵🇱
@@ -1655,7 +1644,7 @@ chris_warwick:
 
 becca_steinbrecher:
   name: Becca Steinbrecher
-  reports_to: engineering_manager_cloud
+  reports_to: engineering_manager_code_insights
   role: Software Engineer
   location: Mesa County, CO, USA 🇺🇸
   github: st0nebraker
