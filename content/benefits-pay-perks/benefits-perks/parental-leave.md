@@ -46,9 +46,10 @@ Please work with your Manager to discuss your parental leave date and return-to-
 
 **Step 2: Formally kick off leave process**
 
-To formally request leave, please fill out [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe33JhiE5hW2ksMTyqD7Ax-7G9XRt1cczqfKG0zhayhBl5YJw/viewform?usp=sf_link) to provide necessary information about your leave request. 
+To formally request leave, please fill out [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe33JhiE5hW2ksMTyqD7Ax-7G9XRt1cczqfKG0zhayhBl5YJw/viewform?usp=sf_link) to provide necessary information about your leave request.
 
 Once you’ve completed the Google Form, someone on the People Team will follow up with next steps:
+
 - **All other Teammates:** omeone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. The Sparrow team will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
 - **PEO Teammates:** the People Team will work with your PEO to gather information on the leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
 - **Contractor Teammates:** one of our People teammates will work with your PEO to gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
@@ -65,21 +66,22 @@ See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhK
 
 **Step 5: Take your leave**
 
-While you are out on leave your focus should be on taking care of yourself or family member. Please do not feel the need to check work related platforms, or complete projects. Your team will use your coverage plan to ensure work continues while you are out. 
+While you are out on leave your focus should be on taking care of yourself or family member. Please do not feel the need to check work related platforms, or complete projects. Your team will use your coverage plan to ensure work continues while you are out.
 
-The People Team may be in touch with you from time to time to check in and ensure your return to work plan is on track. Please do your best to respond to the People Team. 
+The People Team may be in touch with you from time to time to check in and ensure your return to work plan is on track. Please do your best to respond to the People Team.
 
-If you feel or receive pressure to complete work related tasks, please reach out to People-Ops@sourcegraph.com. 
+If you feel or receive pressure to complete work related tasks, please reach out to People-Ops@sourcegraph.com.
 
 **Step 6: Prepare to return to work**
 
-The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to People-Ops@sourcegraph.com with your confirmed return date. 
+The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to People-Ops@sourcegraph.com with your confirmed return date.
 
-**IMPORTANT:** If your return-to-work date needs to be changed, please notify your Manager and the People Team via email (People-Ops@sourcegraph.com) as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack.  Any extensions will need to be approved by your manager and confirmed by the People Team.
+**IMPORTANT:** If your return-to-work date needs to be changed, please notify your Manager and the People Team via email (People-Ops@sourcegraph.com) as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack. Any extensions will need to be approved by your manager and confirmed by the People Team.
 
 **Step 7: Returning from medical leave**
 
 Preparing for your first day back:
+
 - Update availability and systems
   - Your Slack status may still be set as OOO – don’t forget to update this to signal to folks that you’re back
   - If you set up an auto-response or email forwarding for your email, make sure to update your email settings
