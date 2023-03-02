@@ -14,7 +14,7 @@ Region must be selected during instance creation, as modifying it aftewards woul
 
 1. Asia (Tokyo, Japan) - `asia-northeast1`
 
-1. Austrialia (Sydney) - `australia-southeast1`
+1. Australia (Sydney) - `australia-southeast1`
 
 ## Storing data outside of deployment region
 
