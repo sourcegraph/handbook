@@ -5,13 +5,17 @@ This document outlines the processes for collaborating with Implementation Engin
 # Evaluation for IE-led Deployments and Migrations
 
 ### Production Deployments
+
 Throughout the pre-sales processes, particulary Solutions Mapping, the CE should be determining the expected deployment method and overally expected complexity of the deployment for their prospective customers. While reasons for pulling IE into a customer deployment can vary, the typical situation will be:
+
 - Sourcegraph Cloud is not a viable option.
 - The customer is expected to have a particularly large or complex instance.
 - There is a high probability the instance will require a Kubernetes deployment.
 
 ### Production Migrations
+
 IE can also be pulled in if the customer is going through a Production Instance Migration. Applicable migrations include:
+
 - Moving from a simple self-hosted deployment (i.e. Machine Image or Docker Compose) to a more complex self-hosted deployment (i.e. Kubernetes)
 - Moving from a self-hosted deployment to Sourcegraph Cloud
 
