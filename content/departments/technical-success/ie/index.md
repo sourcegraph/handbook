@@ -26,7 +26,6 @@ Implementation duration is the time it takes to install, setup, and configure a 
 
 ### Processes
 
-- [CE and Implementation Handoff Process](process/ce-implementation-handoff.md)
+- [Implemenation Cross-Team Collaboration](process/implementation-cross-team-collaboration.md)
 - [Implementation Processes](process/ie-process.md)
 - [Implementation Strategies and Recommendations](process/impl-strategies.md)
-- [Implementation and TA Integration Overview](process/implementation-ta-handoff.md)
