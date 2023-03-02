@@ -4,126 +4,44 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 
 ## Before first day
 
-<table>
-<tr>
-<td>
+**People Team responsibilities**
 
-Once the teammate signs the contract, they will complete [this form asking for certain information we need to get them onboarded](https://docs.google.com/forms/d/e/1FAIpQLSfW4N-YNAoGo5LW0bBs5AM_2xLlwmEEY650qxuQlSMVoM0rtQ/viewform?usp=sf_link):
+Once the teammate signs the contract, People Ops will send the new teammate a BambooHR onboarding kit that guides them through completing several necessary tasks prior to day 1 at Sourcegraph. These tasks include proving personal information, uploading an image for their avatar, submitting their laptop request, etc.
 
-- We confirm start date
-- We ask for a selfie
-- We ask for their phone number, for account setup
+The People Team will also trigger a Procoess St. onboarding workflow for each new teammate. Hiring managers are responsible for several tasks within that onboarding workflow.
 
-And GitHub username, if they have one.
+**Hiring Manager responsibilities**
 
-</td>
-<td>PeopleOps</td>
-</tr>
+Managers are responsible for completing both the 'Hiring Manager - Monday Tasks' and 'Hiring Manager - Thursday Tasks' in Process St. These tasks include
+- Selecting an Onboarding buddy (and onboarding mentor, depending on the role)
+  - Please take the time to confirm with the buddy that they are willing and available before selecting them
+- Confirming with tools, channels, and groups the new hire will need access to
+- Adding the new teammate to a recurring 1:1 and any relevant team meetings
 
-<tr>
-<td>
+**Tech Ops responsibilities**
 
-About a week before the first day, the Hiring Manager needs to fill out [this Google Form with all the relevant tools, channels and groups the new hire needs to be added](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform?usp=sf_link) to be able to start on day one. Also, here is where the Onboarding buddy is informed. **Please take the time to confirm with the buddy that they are willing and available before nominating them**.
+Tech Ops will then create their Sourcegraph email and add them to the necessary tools.
 
-</td>
-<td>Hiring Manager</td>
-</tr>
+**People Ops responsiblities:**
 
-<tr>
-<td>
-
-Tech Ops will create their Sourcegraph email and add them to the basic onboarding tools:
-
-- Slack
-- Zoom
-- 1password
-- Greenhouse
-- Lattice
-- Process St.
-
-</td>
-<td>Tech Ops</td>
-</tr>
-
-<tr>
-<td>
-
-PeopleOps will communicate in #teammate-announce all new teammates starting the following week, including their role and live email.
-
-They will also be added to these calendar events: Meet the founders, New teammate happy hour, Meet & Greet - New cohort, and a check in with PeopleOps on their one month mark.
-
-</td>
-<td>PeopleOps</td>
-
-<tr>
-<td>
-
-Now that you have your new teammate's email you should:
-
-- Create recurring 1:1 with new teammate
-- Add new teammate to any team/role specific meetings and calls
-
-You must also make sure to provide documentation and context for ongoing projects your team is working on.
-
-Having this done before day one will make it easier for the new hire and an overall better experience.
-
-</td>
-<td>Hiring Manager</td>
-</tr>
-
-<tr>
-<td>
-
-The Friday before they start, we will send an email. Here they will have the login details to start on their first day, the link to their Process St checklist and useful information (Onboarding buddy program, the Monday’s company meeting where they will be introduced, we are handbook first, etc.).
-
-</td>
-<td>PeopleOps</td>
-</tr>
-</table>
+- Communicate in #announce-new-teammates any new teammates starting the following week
+- Add the teammate to HR calendar events such as Meet the founders, Meet the People team, Cohort Meet & Greet, and a 1 month check in with PeopleOps
+- Send an email one business day before the start date with information to prepare the new hire for their first day, such as the link to their Process St checklist, Onboarding buddy program information, etc.
 
 ## First day
 
-<table>
-  <tr>
-   <td>You should notify new hires of any 1:1s they should have (any people on their team, or adjacent teams they will work closely with) so they can set them up.
-   </td>
-   <td>Hiring Manager</td>
-  </tr>
-</table>
+**Manager responsibilites:** 
 
-## Checklist
+You should meet with the new hire to welcome them and set expectations about onboarding and their new role. Additionally, notify new hires of any 1:1s they should set up with people on their team, or adjacent teams they will work closely with.
 
-<table>
-  <tr>
-   <td>PeopleOps and Hiring Manager will have certain tasks assigned to them on Process St. and they'll be able to follow the new hire’s progress in there, too.
-   </td>
-   <td>Hiring Manager & PeopleOs
-   </td>
-  </tr>
-  <tr>
-   <td>Reviewing the checklist beforehand, will help keep in mind the content new hires will find there: the information they will be linked to, the tasks they have to complete and how much of the handbook they’ll cover.
-   </td>
-   <td>Hiring Manager</td>
-  </tr>
-</table>
+It is also helpful to provide documentation and context for ongoing projects your team is working on.
 
-## Impact review cycles
-
-<table>
-<tr>
-<td>
+## Milestones and Impact review cycles
 
 New teammates will go through their [Onboarding Feedback Milestones](./onboarding-feedback-milestones.md) on their first, second and third month with us. Please read the handbook page that walks you through what they are and why we find them valuable.
 
 You will use Lattice to take notes during the Milestones. You will be notified via email and through the Slack integration when it's time for you to have them. As per their onboarding checklist, teammates are responsible to schedule the meetings for you both to have the conversation.
 
-</td>
-<td>Hiring Manager</td>
-</tr>
-<tr>
-<td>On the teammates 6 month mark, and every six months after that, manager and teammate will be part of the 360 Impact review cycle.</td>
-<td>Hiring Manager & Teammate</td>
-</tr>
-</table>
+On the teammates 6 month mark, and every six months after that, manager and teammate will be part of the 360 Impact review cycle.
 
 For any extra context, information or suggestions, please contact people-ops@sourcegraph.com
