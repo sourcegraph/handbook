@@ -13,6 +13,7 @@ The People Team will also trigger a Procoess St. onboarding workflow for each ne
 **Hiring Manager responsibilities**
 
 Managers are responsible for completing both the 'Hiring Manager - Monday Tasks' and 'Hiring Manager - Thursday Tasks' in Process St. These tasks include
+
 - Selecting an Onboarding buddy (and onboarding mentor, depending on the role)
   - Please take the time to confirm with the buddy that they are willing and available before selecting them
 - Confirming with tools, channels, and groups the new hire will need access to
@@ -30,7 +31,7 @@ Tech Ops will then create their Sourcegraph email and add them to the necessary 
 
 ## First day
 
-**Manager responsibilites:** 
+**Manager responsibilites:**
 
 You should meet with the new hire to welcome them and set expectations about onboarding and their new role. Additionally, notify new hires of any 1:1s they should set up with people on their team, or adjacent teams they will work closely with.
 
