@@ -57,11 +57,13 @@ At a high level, I have demonstrated my ability to contribute to the company in 
 <ul>
 
 Example 1
+
 <li><strong>Situation</strong>: [Explain the situation]   
 <li><strong>Behavior</strong>: [Provide concrete example of how you achieved the goal, project, etc.]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
 
 Example 2
+
 <li><strong>Situation</strong>: [Explain the situation]   
 <li><strong>Behavior</strong>: [Provide concrete example of how you achieved the goal, project, etc.]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
@@ -87,11 +89,13 @@ During the past performance period, I consistently aimed to embody the company's
 <ul>
 
 [Insert value]
+
 <li><strong>Situation</strong>: I have frequently displayed [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how you have embodied the value]
 <li><strong>Impact</strong>: [explain the impact or significance of your values alignment]
 
 [Insert value]
+
 <li><strong>Situation</strong>: I have frequently displayed [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how you have embodied the value]
 <li><strong>Impact</strong>: [explain the impact or significance of your values alignment]
@@ -187,11 +191,13 @@ Please provide specific examples in the comment field that supports how this Tea
 <ul>
 
 Example 1
+
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
 <li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
 
 Example 2
+
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
 <li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
@@ -212,11 +218,13 @@ Please provide supporting examples that best describe how this teammate exhibite
 <ul>
 
 [Insert value]
+
 <li><strong>Situation</strong>: [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
 <li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
 
 [Insert value]
+
 <li><strong>Situation</strong>: [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
 <li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
@@ -261,11 +269,13 @@ To amplify performance in the next 6-moths:
 <ul>
 
 Example 1
+
 <li><strong>Situation</strong>: [insert a way in which this teammate can better support you] 
 <li><strong>Behavior</strong>: [provide concrete example of how they can support you]
 <li><strong>Impact</strong>: [explain why this is important to you and the impact it will make if they begin supporting you in this way]
 
 Example 2
+
 <li><strong>Situation</strong>: [insert a way in which this teammate can better support you] 
 <li><strong>Behavior</strong>: [provide concrete example of how they can support you]
 <li><strong>Impact</strong>: [explain why this is important to you and the impact it will make if they begin supporting you in this way]
@@ -323,7 +333,8 @@ Example 2
 <li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
 
-Example SBI response: 
+Example SBI response:
+
 <li></strong>Situation: I asked Charlie to develop a new marketing campaign for our upcoming product launch 
 <li></strong>Behavior: Charlie immediately took on the open-ended task with enthusiasm and creativity, and delivered a comprehensive campaign strategy that included detailed plans for social media, email marketing, and event promotions 
 <li></strong>Impact: The impact of this project has been huge, specifically in terms of our return on investment. Since implementing Charlie's marketing campaign, we have seen a 20% increase in pre-orders for our new product. Additionally, their creative approach to the campaign has received positive feedback from our customers and helped to strengthen our brand image <em>(<strong>impact</strong></em>).
@@ -357,11 +368,13 @@ Please provide supporting examples that best describe how this teammate exhibite
 <ul>
 
 Value 1
+
 <li><strong>Situation</strong>: [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how they embody the value] 
 <li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
 
 Value 2
+
 <li><strong>Situation</strong>: [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how they embody the value] 
 <li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
@@ -394,11 +407,13 @@ Please provide specific examples in the comment field that support what this tea
 <ul>
 
 Example 1
+
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
 <li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
 
 Example 2
+
 <li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
 <li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
 <li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
@@ -489,11 +504,13 @@ Please provide specific examples in the comment field that supports if and how y
 <ul>
 
 Example 1
+
 <li><strong>Situation</strong>: [insert specific way your manager has enabled your success]
 <li><strong>Behavior</strong>: [provide concrete example of <em>how</em> they helped you be successful / achieve a goal]
 <li><strong>Impact</strong>: [explain the impact or significance of their management and/or support]
 
 Example 2
+
 <li><strong>Situation</strong>: [insert specific way your manager has enabled your success]
 <li><strong>Behavior</strong>: [provide concrete example of <em>how</em> they helped you be successful / achieve a goal]
 <li><strong>Impact</strong>: [explain the impact or significance of their management and/or support]
@@ -512,11 +529,13 @@ Please provide supporting examples that best describe if and how your manager ex
 <ul>
 
 Value 1
+
 <li><strong>Situation</strong>: [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
 <li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
 
 Value 2
+
 <li><strong>Situation</strong>: [insert value]
 <li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
 <li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
@@ -535,11 +554,13 @@ Please provide specific examples in the comment field that support what your man
 <ul>
 
 Example 1
+
 <li><strong>Situation</strong>: [manager name] helped me [insert details of how your manager supported you to achieve a goal, overcome a barrier, and/or achieve success]
 <li><strong>Behavior</strong>: [provide concrete example of how they helped you be successful]
 <li><strong>Impact</strong>: [explain the impact or significance of their support]
 
 Example 2
+
 <li><strong>Situation</strong>: [manager name] helped me [insert details of how your manager supported you to achieve a goal, overcome a barrier, and/or achieve success]
 <li><strong>Behavior</strong>: [provide concrete example of how they helped you be successful]
 <li><strong>Impact</strong>: [explain the impact or significance of their support]
