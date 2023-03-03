@@ -39,9 +39,9 @@ Here's our planning cycle:
   - The prioritization team (PM/EMs/HoX/VPEng) reads PR-FAQs and creates a recommendation (or set of!) based on MSEM, revenue goals, and technical goals.
   - In parallel, engineers express their preferences on a set of PR-FAQs they’d like to join if prioritized.
 - **D-17 to D-10**: prioritization week: prioritize the quarter ahead. 1 hour of job fair prioritization meeting every day until done
-- **D-10 to D-3**: staffing week.
   - The prioritization team (PM/EMs/HoX/VPEng) start by prioritizing the next release
   - Then the release after that (more uncertain as will be re-assessed in the next cycle)
+- **D-10 to D-3**: staffing week.
 - **D-3 to D**: buffer, cycle starts
   - VPEng (or delegate) posts in #announce-company to share projects that have been greenlit.
 - **D+7**: Updates to the customer facing roadmap by PMs and marketing are done.
