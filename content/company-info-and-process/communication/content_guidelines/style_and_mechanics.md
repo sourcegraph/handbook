@@ -996,7 +996,7 @@ Be careful to only capitalize the word "Cloud" in certain situations:
 
 When talking about the Sourcegraph app, we should:
 
-- Use `Sourcegraph App` as the formal product name. Avoid referring to the product as `App`. 
+- Use `Sourcegraph App` as the formal product name. Avoid referring to the product as `App`.
 - Only use the formal name, `Souregraph App`, when trying to convey the difference between this product and other Sourcegraph products.
 - When generally talking about or describing the product otherwise, refer to it in simple human language, such as `the Sourcegraph app` or `the app`.
 
