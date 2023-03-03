@@ -163,6 +163,20 @@ SG_CHART_VERSION=<new chart version>
 helm upgrade --install --values ./helm/sourcegraph/values.yaml --version ${SG_CHART_VERSION} scaletesting insiders/sourcegraph -n scaletesting
 ```
 
+#### Deployment progress
+
+Watch how the change is being applied to the scaletesting environment:
+
+```shell
+kubectl get pod -n scaletesting --watch
+```
+
+Verify which version is deployed on scaletesting environment with:
+
+```shell
+sg live scaletesting
+```
+
 ### Scale the infrastructure down when not in use
 
 To stop the `devx` compute instance when it is not in use, run the following:
