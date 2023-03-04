@@ -5,7 +5,7 @@ search_product:
   brief: The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results
   strategy_link: /strategy-goals/strategy/search/product/index.md
   pm: steve_yegge
-  em: head_of_search
+  em: erika_rice_scherpelz
   design: paulo_almeida
   issue_labels:
     - team/search-product
@@ -14,7 +14,7 @@ search_core:
   title: Search Core
   brief: The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results
   strategy_link: /strategy-goals/strategy/search/core/index.md
-  em: head_of_search
+  em: erika_rice_scherpelz
   design: rob_rhyne
   issue_labels:
     - team/search-core
