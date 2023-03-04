@@ -26,13 +26,6 @@ interim_delivery_lead:
   manager_role_slug: engineering_manager_delivery
   hide_on_team_page: true
 
-interim_head_of_search:
-  name: Steve Yegge
-  role: Interim Head of Search
-  reports_to: ceo
-  manager_role_slug: search_lead
-  hide_on_team_page: true
-
 beyang_liu:
   name: Beyang Liu
   role: CTO, co-founder, Board of Directors
@@ -368,7 +361,7 @@ rok_novosel:
   name: Rok Novosel
   pronouns: he/him
   role: Software Engineer
-  reports_to: search_lead
+  reports_to: eng_lead
   location: Trebnje, Slovenia 🇸🇮
   github: novoselrok
   email: rok@sourcegraph.com
@@ -2139,3 +2132,15 @@ john_wesonga:
   links: '[LinkedIn](https://www.linkedin.com/in/johnwesonga)'
   role: Technical Program Manager
   description: I started out as web & mobile (android) developer and eventually transitioned into program management because I enjoy the intersection of product & engineering, fast forward and 12 years later I'm still doing it! Outside work I enjoy running, kettlebell workouts and cooking for my family!
+
+erika_rice_scherpelz:
+  name: Erika Rice Scherpelz
+  email: erikars@sourcegraph.com
+  github: erikars
+  pronouns: she/her
+  role: Head of Search
+  reports_to: eng_lead
+  location: Bellevue, Washington, USA 🇺🇸
+  links: '[The FLUX Review](https://read.fluxcollective.org/), [LinkedIn](https://www.linkedin.com/in/erikars)'
+  manager_role_slug: search_lead
+  description: "I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport)."
