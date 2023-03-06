@@ -98,7 +98,7 @@ When you get scheduled for any interview, you are going to receive a calendar in
 
 - Please accept the calendar invite to indicate that you can attend.
 - If you cannot make the interview, please decline the calendar invite and message whoever sent you the invitation to let them know.
-- Very important: if you decline the same day as the interview, please slack the #hiring channel as well and we'll find a replacement or reschedule immediately.
+- Very important: if you decline the same day as the interview, please slack the [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) channel as well and we'll find a replacement or reschedule immediately.
 
 How to prepare for your interview:
 
@@ -187,6 +187,6 @@ Every candidate is going to get surveyed with these questions, which are automat
 
 ![Slide stating "Questions?"](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2829%29.png)
 
-**Any questions?** Please do not hesitate to reach out to us in the #hiring Slack channel.
+**Any questions?** Please do not hesitate to reach out to us in the [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) Slack channel.
 
 **Need practice?** Please reach out to @hiring and we can either mock interview or lead an interview and you can shadow.

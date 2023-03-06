@@ -82,7 +82,7 @@ At the end of an internship, a full time position is not guaranteed, but may be 
 
 ### Future internship cohorts
 
-While 2022 was our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring Slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of each internship program.
+While 2022 was our first internship program, it won’t be our last! We welcome questions and feedback in the [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) Slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of each internship program.
 
 ### How to request an intern for your team
 
