@@ -22,7 +22,8 @@ You can find resources on how to use each of the main tools [here](../../../comp
 3. Make the second line your role, include any additional information you like on subsequent lines (socials, etc.)
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/Sourcegraph_Logo_FullColor_light.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
-6. Your signature should now look something like the one above, and clicking the Sourcegraph logo should bring you to sourcegraph.com.
+7. Your signature should now look something like the one above, and clicking the Sourcegraph logo should bring you to sourcegraph.com.
+8. Update the "Signature defaults" options to match your preferences for using your signature on new emails and on reply/forward.
 
 ### Google Calendar
 
