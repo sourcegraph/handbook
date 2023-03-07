@@ -94,13 +94,13 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 - [Sourcegraph PTO policy](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
 
-### TripActions
+### Navan
 
-[TripActions](https://tripactions.com/) is the platform we use for booking all company-sponsored travel and accommodations. As a manager, you will be able to view your team's travel budget usage, review travel requests, and receive alerts for any out of policy bookings for your direct reports.
+[Navan](https://navan.com/) is the platform we use for booking all company-sponsored travel and accommodations. As a manager, you will be able to view your team's travel budget usage, review travel requests, and receive alerts for any out of policy bookings for your direct reports.
 
 **Resources:**
 
-- [Booking travel through TripActions](../../../../benefits-pay-perks/benefits-perks/travel/TripActions.md#booking-travel-through-tripactions)
+- [Booking travel through Navan](../../../../benefits-pay-perks/benefits-perks/travel/Navan.md#booking-travel-through-tripactions)
 
 ### Assemble [WIP]
 
