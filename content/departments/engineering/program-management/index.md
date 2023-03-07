@@ -2,7 +2,7 @@
 
 ### Welcome to program management at Sourcegraph!
 
-The technical program management team 
+The technical program management team
 
 ## Technical Program Management Team
 
@@ -11,6 +11,6 @@ The technical program management team
 
 ## Contact
 
-You can reach us at the #tpm channel or @tpm-team on Slack. 
+You can reach us at the #tpm channel or @tpm-team on Slack.
 
 ## How we work
