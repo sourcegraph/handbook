@@ -204,7 +204,7 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Score: 2:2
   - Skill: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
   - Values: exceeds in some, exhibits most.
-  - Expected distribution: ~70% of Teammates will fall in the **“Highly Valued”** (strong performance) category.
+  - Expected distribution: ~70% of Teammates will fall in the **“Meeting High Bar”** (strong performance) category.
   - Recommended merit increase: 3-5%
   - Merit increase frequency: Teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
 - **Not Meeting High Bar**
