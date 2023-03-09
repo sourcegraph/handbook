@@ -62,6 +62,49 @@ Creation process detail walkthrough:
 
 For more details, go to [Google documentation](https://cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)
 
+### VPN Verification
+
+For each customer using private code host, additional section to dashboard.md is added.
+Can be generated on deman via:
+
+```sh
+mi2 instance dashboard --output <FILE_NAME>.md
+```
+
+Secction example:
+
+#### Verify setup from GCP side
+
+Get name of GCP VPN router:
+
+```bash
+export GCP_ROUTER_NAME=$(gcloud compute routers list --project <PROJECT_ID> --filter="bgp.advertiseMode: CUSTOM"  --format=json | jq -r '.[0].name')
+```
+
+Verify GCP router status:
+
+```bash
+gcloud compute routers get-status $GCP_ROUTER_NAME --project <PROJECT_ID>  --region <GCP_REGION>  --format='flattened(result.bgpPeerStatus[].name, result.bgpPeerStatus[].ipAddress, result.bgpPeerStatus[].peerIpAddress)
+```
+
+List VPN tunnels:
+
+```bash
+gcloud compute vpn-tunnels list --project <PROJECT_ID>
+```
+
+Check tunnel status:
+
+```bash
+gcloud compute vpn-tunnels describe <TUNNEL_ID> --project <PROJECT_ID> --region <GCP_REGION> --format='flattened(status,detailedStatus)'
+```
+
+List dynamic routes:
+
+```bash
+gcloud compute routers get-status $GCP_ROUTER_NAME --project <PROJECT_ID> --region <GCP_REGION> --format="flattened(result.bestRoutes)"
+```
+
 ## [Optional] Private code host domain
 
 Every Cloud customer using private DNS domain for code hosts requires additional dns-proxy sidecar.
@@ -103,49 +146,6 @@ mi2 instance tfc deploy -auto-approve
 mi2 generate kustomize
 cd kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
-```
-
-### Verification
-
-For each customer using private code host, additional section to dashboard.md is added.
-Can be generated on deman via:
-
-```sh
-mi2 instance dashboard --output <FILE_NAME>.md
-```
-
-Secction example:
-
-#### Verify setup from GCP side
-
-Get name of GCP VPN router:
-
-```bash
-export GCP_ROUTER_NAME=$(gcloud compute routers list --project <PROJECT_ID> --filter="bgp.advertiseMode: CUSTOM"  --format=json | jq -r '.[0].name')
-```
-
-Verify GCP router status:
-
-```bash
-gcloud compute routers get-status $GCP_ROUTER_NAME --project <PROJECT_ID>  --region <GCP_REGION>  --format='flattened(result.bgpPeerStatus[].name, result.bgpPeerStatus[].ipAddress, result.bgpPeerStatus[].peerIpAddress)
-```
-
-List VPN tunnels:
-
-```bash
-gcloud compute vpn-tunnels list --project <PROJECT_ID>
-```
-
-Check tunnel status:
-
-```bash
-gcloud compute vpn-tunnels describe <TUNNEL_ID> --project <PROJECT_ID> --region <GCP_REGION> --format='flattened(status,detailedStatus)'
-```
-
-List dynamic routes:
-
-```bash
-gcloud compute routers get-status $GCP_ROUTER_NAME --project <PROJECT_ID> --region <GCP_REGION> --format="flattened(result.bestRoutes)"
 ```
 
 ### AWS Private Link playbook
