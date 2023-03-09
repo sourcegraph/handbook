@@ -22,34 +22,34 @@ It will also add the labels `failed-backport-to-<target-version>` , `release-blo
 
 you can manually create one by running the following command in your terminal:
 
-### Fetch latest updates from GitHub",
+### Fetch latest updates from GitHub
 
 `git fetch`
 
 ### Create a new working tree
 
-`git worktree add ${worktreePath} ${base}`,
+`git worktree add ${worktreePath} ${base}`
 
 ### Navigate to the new working tree
 
-`cd ${worktreePath}`,
+`cd ${worktreePath}`
 
 ### Create a new branch
 
-`git switch --create ${head}`,
+`git switch --create ${head}`
 
 ### Cherry-pick the merged commit of this pull request and resolve the conflicts
 
-`git cherry-pick -x --mainline 1 ${commitSha}`,
+`git cherry-pick -x --mainline 1 ${commitSha}`
 
 ### Push it to GitHub
 
-`git push --set-upstream origin ${head}`,
+`git push --set-upstream origin ${head}`
 
 ### Go back to the original working tree
 
 `cd ../..`
 
-### Delete the working tree"
+### Delete the working tree
 
 `git worktree remove ${worktreePath}`
