@@ -208,7 +208,7 @@ You can read more about benefits and see the plan options [here](../../../../ben
 
 - Not applicable.
 
-### Q. What fo I do if my medication or procedure is not covered by our insurance plan?
+### Q. What do I do if my medication or procedure is not covered by our insurance plan?
 
 - Our insurance plan cannot be augmented to cover specific medications. Please work with your healthcare provider and contact Lumity to verify.
 
