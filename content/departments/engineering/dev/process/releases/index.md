@@ -122,7 +122,7 @@ A---B---C---D---E---F---G---H---I---J---K---L (main branch)
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
 
-> NOTE: cherry-picks can be automated using the [backporting tool](../../tools/backporting.md) by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
+> NOTE: cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
 
 ### Issues
 
