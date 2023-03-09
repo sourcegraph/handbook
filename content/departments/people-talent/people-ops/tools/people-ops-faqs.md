@@ -273,7 +273,7 @@ You can read more about benefits and see the plan options [here](../../../../ben
 
 - On a monthly basis through Airbase or a PEO. If not on a PEO, to be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../../../../benefits-pay-perks/pay-expenses/invoices.md).
 
-#### Q. Where can I view a digital copy of my W2?
+### Q. Where can I view a digital copy of my W2?
 
 **US teammates:**
 
