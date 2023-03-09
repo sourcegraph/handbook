@@ -1,6 +1,6 @@
 # Marketing Operations
 
-Sales Ops is currently the interim owner of all marketing operations tools and processes. Please direct all questions and requests to #ask-sales-ops. 
+Sales Ops is currently the interim owner of all marketing operations tools and processes. Please direct all questions and requests to #ask-sales-ops.
 
 ## UTM Tracking
 
