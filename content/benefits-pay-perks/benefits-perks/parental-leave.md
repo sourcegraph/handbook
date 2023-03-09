@@ -89,6 +89,7 @@ Preparing for your first day back:
 - Check in with your manager
   - Your manager will set up a 1:1 for your first day back to check in, provide updates, and discuss priorities.
   - Review the [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit) that you and your manager put together prior to your leave as well as your 1-1 doc to catch up on in-progress projects and priorities.
+- Complete the Return to Work Survey that you will receive from the People Team. We appreciate your candid feedback about your leave experience.
 
 ### Resources for Teammates with a commission plan (Sales & CE)
 
