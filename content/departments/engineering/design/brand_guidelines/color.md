@@ -10,7 +10,7 @@
 
 ### Primary colors
 
-Our colors express our commitment to being a welcoming, vibrant, and accessible brand. The palette is simple and flexible allowing for application across business segments while maintaining unity.
+Our colors express our commitment to being an inspiring, vibrant, and accessible brand. The palette is simple and flexible allowing for application across business segments while maintaining unity.
 
 <style>
   .color-palette {
@@ -199,6 +199,10 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <code>#6112a3</code>
       <small>Violet 600</small>
     </div>
+     <div class="color color-sm" style="--color: #270741; color: white">
+      <code>#270741</code>
+      <small>Violet 700</small>
+    </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #dbdbff">
@@ -277,140 +281,37 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Grayscale 50</small>
     </div>
     <div class="color color-sm" style="--color: #F5F7FB">
-      <code>#f5f7fb</code>
+      <code>#F5F7FB</code>
       <small>Grayscale 100</small>
     </div>
-    <div class="color color-sm" style="--color: #dbe2f0;">
-      <code>#dbe2f0</code>
+    <div class="color color-sm" style="--color: #DBE2F0;">
+      <code>#DBE2F0</code>
       <small>Grayscale 200</small>
     </div>
-    <div class="color color-sm" style="--color: #ABB3C1;">
-      <code>#abb3c1</code>
+    <div class="color color-sm" style="--color: #A6B6D9;">
+      <code>#A6B6D9</code>
       <small>Grayscale 300</small>
     </div>
-    <div class="color color-sm" style="--color: #696B71; color: white">
-      <code>#696b71</code>
+    <div class="color color-sm" style="--color: #5E6E8C; color: white">
+      <code>#5E6E8C</code>
       <small>Grayscale 400</small>
     </div>
-    <div class="color color-sm" style="--color: #484b51; color: white">
-      <code>#484b51</code>
+    <div class="color color-sm" style="--color: #343A4D; color: white">
+      <code>#343A4D</code>
       <small>Grayscale 500</small>
     </div>
-    <div class="color color-sm" style="--color: #313131; color: white">
-      <code>#313131</code>
+    <div class="color color-sm" style="--color: #16181F; color: white">
+      <code>#16181F</code>
       <small>Grayscale 600</small>
     </div>
-    <div class="color color-sm" style="--color: #000000; color: white">
-      <code>#000000</code>
-      <small>Black</small>
+    <div class="color color-sm" style="--color: #0F111A; color: white">
+      <code>#0F111A</code>
+      <small>Grayscale 700</small>
     </div>
   </div>
 </div>
 
-### Colors for website UI
 
-Use supporting colors for added tonality and awareness within website UI.
-
-<!-- IF ANY OF THESE COLORS ARE UPDATED, THEY NEED TO BE UPDATED IN ./colors.scss -->
-<div class="color-palette interactive" style="max-width: 54rem">
-  <div class="color color-lg" style="--color: #f9fafb">
-    <h5>Sourcegraph Light Gray</h5>
-    <p>Our light gray can add tonality to and create space within layouts.</p>
-    <div>
-      <code>#f9fafb</code>
-      <br />
-      <small>Grayscale 50</small>
-    </div>
-  </div>
-   <div class="color color-lg" style="--color: #DBE2F0; color: black">
-    <h5>Sourcegraph Medium Gray</h5>
-    <p>Our medium gray can be used for borders and lines.</p>
-    <div>
-      <code>#dbe2f0</code>
-      <br />
-      <small>Grayscale 200</small>
-    </div>
-  </div>
-  <div class="color color-lg" style="--color: #484B51; color: white">
-    <h5>Sourcegraph Dark Gray</h5>
-    <p>Our dark gray can add tonality and depth to typographical layouts.</p>
-    <div>
-      <code>#484b51</code>
-      <br />
-      <small>Grayscale 500</small>
-    </div>
-  </div>
-  <div class="color color-lg" style="--color: black; color: white">
-    <h5>Sourcegraph Black</h5>
-    <p>Our black is a true black to provide maximum contrast.</p>
-    <div>
-      <code>#000000</code>
-      <br />
-      <small>Black</small>
-    </div>
-  </div>
-  <div class="color color-lg" style="--color: var(--sg-blurple); color: white">
-    <h5>Sourcegraph Blurple</h5>
-    <p>Use for button and CTA messages in website UI.</p>
-    <div>
-      <code>#5033e1</code>
-      <br />
-      <small>Blurple 400</small>
-    </div>
-  </div>
-  <div class="color color-lg" style="--color: var(--sg-action-green); color: white">
-    <h5>Sourcegraph Action Green</h5>
-    <p>Use for check marks and to signal positive messages in website UI.</p>
-    <div>
-      <code>#17ab52</code>
-      <br />
-      <small>Green 400</small>
-    </div>
-  </div>
-  <div class="color color-lg" style="--color: var(--sg-alert-red); color: white">
-    <h5>Sourcegraph Alert Red</h5>
-    <p>Use for alerts and to signal error messages in website UI.</p>
-    <div>
-      <code>#ed2e20</code>
-      <br />
-      <small>Vermillion 400</small>
-    </div>
-  </div>
-</div>
-
-## Color use
-
-When creating a layout, the logo should be the primary object that informs the rest of the layout.
-Once the logo is placed, add appropriate colors keeping in mind that our vibrant colors can quickly become visually overwhelming.
-
-<object role="image" data="color/color_use_1.svg" style="max-width: 22rem" alt="Example 1 of Sourcegraph color usage in marketing material"></object>
-<object role="image" data="color/color_use_2.svg" style="max-width: 22rem" alt="Example 2 of Sourcegraph color usage in marketing material"></object>
-
-### Color use for website UI
-
-When applying color to website UI elements use Sourcegraph Red, Green, Dark Gray, and Blurple from our secondary palette. Violet can be used for icons.
-
-<style>
-  .inline-color-box {
-    background: var(--color);
-    width: 0.9em;
-    height: 0.9em;
-    display: inline-block;
-    border-radius: 2px;
-  }
-</style>
-
-#### <span class="inline-color-box middle" style="--color: var(--sg-blurple)"></span> <span class="middle">SG Blurple</span>
-
-Blurple is used for button elements and CTA text.
-
-#### <span class="inline-color-box middle" style="--color: var(--sg-action-green)"></span> <span class="middle">SG Action Green</span>
-
-Green is used for check mark elements and to signal positive messages.
-
-#### <span class="inline-color-box middle" style="--color: var(--sg-alert-red)"></span> <span class="middle">SG Alert Red</span>
-
-Red is used to signal serious alerts and error warnings.
 
 ### Color misuse
 
@@ -455,100 +356,6 @@ Do not alter existing colors or add new colors to the palette. Use color to your
     <figcaption>Do not set the logo on a color or gradient that does not have sufficient contrast.</figcaption>
     <object role="image" data="color/color_misuse_contrast.svg"></object>
   </figure>
-</div>
-
-### Gradients
-
-Our gradients provide visual interest to backgrounds or container shapes. Gradients should be used sparingly.
-
-<style>
-  .color-gradient {
-    display: flex;
-    justify-content: space-between;
-  }
-  .color-gradient h5 {
-    margin: 0;
-  }
-</style>
-<div class="color-palette" style="max-width: 54rem">
-  <div>
-    <h4>Aquamarine</h4>
-    <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-aquamarine); color: white">
-      <div>
-        <h5>Blue 300</h5>
-        <div><code>#00cbec</code></div>
-      </div>
-      <div>
-        <h5>Blurple 400</h5>
-        <div><code>#5033e1</code></div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h4>Infrared</h4>
-    <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-infrared); color: white">
-      <div>
-        <h5>Violet 400</h5>
-        <div><code>#a112ff</code></div>
-      </div>
-      <div>
-        <h5>Vermillion 300</h5>
-        <div><code>#ff5543</code></div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h4>Aurora</h4>
-    <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-aurora); color: white">
-      <div>
-        <h5>Blue 300</h5>
-        <div><code>#00cbec</code></div>
-      </div>
-      <div>
-        <h5>Violet 400</h5>
-        <div><code>#a112ff</code></div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h4>Mars</h4>
-    <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-mars)">
-      <div>
-        <h5>Vermillion 200</h5>
-        <div><code>#ffc9c9</code></div>
-      </div>
-      <div>
-        <h5>Violet 100</h5>
-        <div><code>#e8d1ff</code></div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h4>Saturn</h4>
-    <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-saturn)">
-      <div>
-        <h5>Violet 100</h5>
-        <div><code>#e8d1ff</code></div>
-      </div>
-      <div>
-        <h5>Blue 200</h5>
-        <div><code>#c7ffff</code></div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h4>Venus</h4>
-    <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-venus)">
-      <div>
-        <h5>Blue 200</h5>
-        <div><code>#c7ffff</code></div>
-      </div>
-      <div>
-        <h5>Green 200</h5>
-        <div><code>#c4ffe8</code></div>
-      </div>
-    </div>
-  </div>
 </div>
 
 ### Gradient use
