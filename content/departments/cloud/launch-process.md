@@ -33,7 +33,14 @@ Further discussion in [RFC 739](https://docs.google.com/document/d/1Pe1n8VHfDvpY
 
 Please use [this as a template](https://docs.google.com/document/d/1oE2PJSdgqcX3ZRApWXwabgDtzFK4-0PZ3js5PTxsavw/edit).
 
-If you think it should be improved make suggestions in the doc, if you have questions, please let us know in [#cloud](https://app.slack.com/client/T02FSM7DL/C03JR7S7KRP)
+If you think it should be improved make suggestions in the doc, if you have questions, please let us know in #ask-cloud.
+
+## How does it work?
+
+- Copy and complete the [questionnaire](#questionnaire)
+- Please drop the link in #ask-cloud and tag @cloud-team
+
+Please do reach out if you have any question even before start working on the questionnaire in #ask-cloud, we are happy to chat.
 
 ### Past launches
 
