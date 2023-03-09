@@ -277,7 +277,7 @@ You can read more about benefits and see the plan options [here](../../../../ben
 
 **US teammates:**
 
-- You can view this information under the Finance/Payroll folder in [Rippling](https://app.rippling.com/payroll/employee/paystubs). 
+- You can view this information under the Finance/Payroll folder in [Rippling](https://app.rippling.com/payroll/employee/paystubs).
 
 **Non-US teammates:**
 
