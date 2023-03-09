@@ -311,8 +311,6 @@ Primary logo colors have been marked. The secondary colors, along with shades an
   </div>
 </div>
 
-
-
 ### Color misuse
 
 Color should be used consistently to communicate a cohesive system.<br>
