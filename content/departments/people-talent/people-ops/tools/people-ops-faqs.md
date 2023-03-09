@@ -127,7 +127,7 @@ You can read more about benefits and see the plan options [here](../../../../ben
 
 - Not applicable.
 
-#### Q. When will I receive my insurance member IDs?
+### Q. When will I receive my insurance member IDs?
 
 - You can access your virtual insurance member IDs in the [Lumity](https://www.lumity.com/) mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
   - If you have not received your insurance member IDs, please reach out to Lumity at support@lumity.com or 1-844-2-LUMITY
@@ -136,7 +136,7 @@ You can read more about benefits and see the plan options [here](../../../../ben
 
 - Not applicable.
 
-#### Q. What is Lumity??
+### Q. What is Lumity??
 
 - Lumity is our benefits broker. All health insurance cards and coverage questions are handled by Lumity.
 
@@ -149,9 +149,8 @@ You can read more about benefits and see the plan options [here](../../../../ben
 **Non-US teammates:**
 
 - Not applicable.
--
 
-#### Q. What if I never received an invite to Lumity?
+### Q. What if I never received an invite to Lumity?
 
 - Please reach out to support@lumity.com or 1-844-2-LUMITY.
 
@@ -209,11 +208,11 @@ You can read more about benefits and see the plan options [here](../../../../ben
 
 - Not applicable.
 
-#### Q. What fo I do if my medication or procedure is not covered by our insurance plan?
+### Q. What fo I do if my medication or procedure is not covered by our insurance plan?
 
 - Our insurance plan cannot be augmented to cover specific medications. Please work with your healthcare provider and contact Lumity to verify.
 
-#### Q. How can I confirm if something is covered by our insurance plans?
+### Q. How can I confirm if something is covered by our insurance plans?
 
 - Please work with your healthcare provider and contact Lumity to verify.
 
@@ -273,6 +272,16 @@ You can read more about benefits and see the plan options [here](../../../../ben
 **Non-US teammates:**
 
 - On a monthly basis through Airbase or a PEO. If not on a PEO, to be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../../../../benefits-pay-perks/pay-expenses/invoices.md).
+
+#### Q. Where can I view a digital copy of my W2?
+
+**US teammates:**
+
+- You can view this information under the Finance/Payroll folder in [Rippling](https://app.rippling.com/payroll/employee/paystubs). 
+
+**Non-US teammates:**
+
+- Not applicable.
 
 ## Retirement
 
