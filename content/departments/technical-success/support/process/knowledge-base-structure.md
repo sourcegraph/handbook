@@ -1,6 +1,6 @@
-# Create a Knowledge Base Article 
+# Create a Knowledge Base Article
 
-We want our knowldege base to be organized and structured. Below is the outline to follow when creating your knowledge base articles. 
+We want our knowldege base to be organized and structured. Below is the outline to follow when creating your knowledge base articles.
 
 Search
 -Article #1 (Structure continues to each article)
