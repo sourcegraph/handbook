@@ -1,6 +1,6 @@
 # Marketing Operations
 
-TBU
+Sales Ops is currently the interim owner of all marketing operations tools and processes. Please direct all questions and requests to #ask-sales-ops.
 
 ## UTM Tracking
 
@@ -10,8 +10,8 @@ Sourcegraph uses UTM parameters to understand the source of online traffic to ou
 
 ## SFDC Campaigns
 
-TBU
+To come
 
 ## Weighted Campaign Attribution
 
-TBU
+To come
