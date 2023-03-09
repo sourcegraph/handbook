@@ -7,10 +7,12 @@ Every [v2.0 Cloud Instance](../v2.0/index.md) is deployed in Google Cloud Platfo
 
 **Private Code Host** is a code host deployed in a private network (for example AWS EC2 instance within VPC). To connect to this code host a user has to have access to the private network usually via VPC Peering, VPN, or tunneling.
 
-## Managed Instance public IP allowlist solution (recommended)
+## Managed Instance NAT IP allowlist solution (recommended)
 
-This solution is recommended by Cloud Team, but only possible if customers' code host can be accessible publically or customer is able to allow incoming traffic from Sourcegraph-owned static IP addresses.
-Cloud Manage Instance is using NAT to ensure only given IP will access customer code hosts.
+This solution is recommended by Cloud Team, but only possible if customers' code hosts can be accessible publicly and customer is able to allow incoming traffic from Sourcegraph-owned static IP addresses.
+Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
+[More informations about IP allowlist](../../index.md#faq-what-is-the-cloud-instance-ip)
+
 If customer is not able to meet these requirements, Sourcegraph can propose [VPN solution for code hosts deployed on AWS](#aws-gcp-site-to-site-vpn-solution)
 
 ## AWS GCP site to site VPN solution (AWS code hosts only)
