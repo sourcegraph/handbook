@@ -137,8 +137,8 @@ This section captures our Zendesk protocol and configuration decisions.
 - Support engineers have agent access
 - CS leadership and Tech Ops have admin access
 - Only Shawnteé can modify billing related items
-- We have an admin level service account support engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
-- Tickets are also rendered via an iFrame in Salesforce for CE and sales access.
+- We have an admin level service account support engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #team-customer-support Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
+- Tickets are also rendered via an iFrame in Salesforce for CE and Sales access.
 
 ### Web vs desktop vs mobile app
 
@@ -146,7 +146,7 @@ The best way to use Zendesk as an agent is via the web app. The mobile app is ni
 
 ### When to be logged in and monitoring the queue
 
-Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday–Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](../process/support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-internal Slack channel so we can coordinate and make sure to have you covered!
+Due to us being a global team and covering 24x5 we all work different schedules. You are expected to work your normal defined schedule unless a heads up has been given to the team. Our shift process allows for specific members of the team keep track of tickets coming in while the rest concentrate on their current workload.
 
 ### Notifications
 
@@ -223,8 +223,8 @@ We use the following apps to streamline our workflow:
 
 This page is only open for customers who want to login into Zendesk to see all support requests for their organization.
 
-- When folks try to access this page and have not been granted access as outlined in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit), they see this message: "This page is for Sourcegraph customers who would like to view all support requests in one place. The page will not function without a little configuration first. Email support@sourcegraph.com to get set-up."
-- When folks have permission to login as noted in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit), they see this message: "To view all support requests from your organization in one place, select "my activities" from the menu under your profile avatar."
+Any user can create an account using their email. By default only tickets that they've created or be cc'd on will be visible.
+There is an option to allow specific users to view all tickets in their org. If this is needed, please ping @cs-leadership or a Zendesk admin to make this change.
 
 ### Guide customizations
 
