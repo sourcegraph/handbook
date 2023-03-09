@@ -20,7 +20,7 @@ See the [Operations roles](../roles/index.md) page.
 
 ## Marketing operations
 
-- See details on marketing operations systems and processes [here](marketing-ops.md) 
+- See details on marketing operations systems and processes [here](marketing-ops.md)
 
 ## Resources
 
