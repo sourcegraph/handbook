@@ -6,14 +6,23 @@ This tool is currently being used for [Sourcegraph releases](../process/releases
 
 It is developed in [`sourcegraph/backport`](https://github.com/sourcegraph/backport).
 
-To use it, check out the `sourcegraph/sourcegraph` repository. Find the merged commit pull request you want to backport and label it with `backport <target-branch>`. This will trigger a github action that will run backporting tool and create a new pull request with the backported changes onto the target branch.
+To use it, check out the `sourcegraph/sourcegraph` repository. Find the merged commit pull request you want to backport and label it on GitHub with `backport <target-branch>`. This will trigger a github action that will run backporting tool and create a new pull request with the backported changes onto the target branch. Merge the pull request into the release branch.
 
 ## Prerequisite
 
-This tool requires the following dependencies in your system `PATH`
+To run locally, this tool requires the following dependencies in your system `PATH`
 
 - [node](https://github.com/nvm-sh/nvm)
 - [yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable)
+
+## How should I use the backporting tool?
+
+Backporting is how you move changes from `main` into a release branch. There are a few scenarios this might be used:
+1. Moving a commit from `main` to the release during the code freeze period. This should only be done for low-risk changes, and not significant feature changes.
+2. Fixing an issue present on the release branch.
+3. Backporting to an older release branch for a patch.
+
+It is your responsibility to ensure any backports that you open are merged during the code freeze period of a release. Release captains will get a notification that backports are opened as a release blocker, but the best case scenario is all backports are closed promptly. A good practice it to backport and merge your change if necessary as soon as possible after merging into `main`.
 
 ## Issues
 
@@ -22,34 +31,34 @@ It will also add the labels `failed-backport-to-<target-version>` , `release-blo
 
 you can manually create one by running the following command in your terminal:
 
-### Fetch latest updates from GitHub
+1. Fetch latest updates from GitHub
 
 `git fetch`
 
-### Create a new working tree
+2. Create a new working tree
 
 `git worktree add ${worktreePath} ${base}`
 
-### Navigate to the new working tree
+3. Navigate to the new working tree
 
 `cd ${worktreePath}`
 
-### Create a new branch
+4. Create a new branch
 
 `git switch --create ${head}`
 
-### Cherry-pick the merged commit of this pull request and resolve the conflicts
+5. Cherry-pick the merged commit of this pull request and resolve the conflicts
 
 `git cherry-pick -x --mainline 1 ${commitSha}`
 
-### Push it to GitHub
+6. Push it to GitHub
 
 `git push --set-upstream origin ${head}`
 
-### Go back to the original working tree
+7. Go back to the original working tree
 
 `cd ../..`
 
-### Delete the working tree
+8. Delete the working tree
 
 `git worktree remove ${worktreePath}`
