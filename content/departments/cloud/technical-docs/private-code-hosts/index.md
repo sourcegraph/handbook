@@ -1,7 +1,6 @@
 # Managed Instance Private Code Hosts support
 
-> **Warning**
-> This is still work in progress!
+WARNING: This is still work in progress!
 
 Every [v2.0 Cloud Instance](../v2.0/index.md) is deployed in Google Cloud Platform.
 
@@ -9,13 +8,13 @@ Every [v2.0 Cloud Instance](../v2.0/index.md) is deployed in Google Cloud Platfo
 
 ## Managed Instance NAT IP allowlist solution (recommended)
 
-This solution is recommended by Cloud Team, but only possible if customers' code hosts can be accessible publicly and customer is able to allow incoming traffic from Sourcegraph-owned static IP addresses.
+This solution is recommended by Cloud Team, but only possible if customers' code hosts can be accessible publicly and customer is able to allow incoming traffic from Sourcegraph-owned IP addresses.
 Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
 [More informations about IP allowlist](../../index.md#faq-what-is-the-cloud-instance-ip)
 
-If customer is not able to meet these requirements, Sourcegraph can propose [VPN solution for code hosts deployed on AWS](#aws-gcp-site-to-site-vpn-solution)
+## AWS GCP site-to-site VPN solution (AWS code hosts only)
 
-## AWS GCP site to site VPN solution (AWS code hosts only)
+This option is for customers who want to connect to a private code host that is hosted on AWS infrastructure.
 
 ### Architecture
 
@@ -64,46 +63,8 @@ For more details, go to [Google documentation](https://cloud.google.com/network-
 
 ### VPN Verification
 
-For each customer using private code host, additional section to dashboard.md is added.
-Can be generated on deman via:
-
-```sh
-mi2 instance dashboard --output <FILE_NAME>.md
-```
-
-Secction example:
-
-#### Verify setup from GCP side
-
-Get name of GCP VPN router:
-
-```bash
-export GCP_ROUTER_NAME=$(gcloud compute routers list --project <PROJECT_ID> --filter="bgp.advertiseMode: CUSTOM"  --format=json | jq -r '.[0].name')
-```
-
-Verify GCP router status:
-
-```bash
-gcloud compute routers get-status $GCP_ROUTER_NAME --project <PROJECT_ID>  --region <GCP_REGION>  --format='flattened(result.bgpPeerStatus[].name, result.bgpPeerStatus[].ipAddress, result.bgpPeerStatus[].peerIpAddress)
-```
-
-List VPN tunnels:
-
-```bash
-gcloud compute vpn-tunnels list --project <PROJECT_ID>
-```
-
-Check tunnel status:
-
-```bash
-gcloud compute vpn-tunnels describe <TUNNEL_ID> --project <PROJECT_ID> --region <GCP_REGION> --format='flattened(status,detailedStatus)'
-```
-
-List dynamic routes:
-
-```bash
-gcloud compute routers get-status $GCP_ROUTER_NAME --project <PROJECT_ID> --region <GCP_REGION> --format="flattened(result.bestRoutes)"
-```
+For each customer using private code host, additional section to our generated operation dashboard is added.
+Upon enabling the private code host support, follow the process [to update the dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md#update-all-generated-dashboards)
 
 ## [Optional] Private code host domain
 
