@@ -18,6 +18,7 @@ To run locally, this tool requires the following dependencies in your system `PA
 ## How should I use the backporting tool?
 
 Backporting is how you move changes from `main` into a release branch. There are a few scenarios this might be used:
+
 1. Moving a commit from `main` to the release during the code freeze period. This should only be done for low-risk changes, and not significant feature changes.
 2. Fixing an issue present on the release branch.
 3. Backporting to an older release branch for a patch.
