@@ -35,6 +35,8 @@ An in-band compensation increase (while staying at the same level) can happen at
 
 To learn more, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
 
+## IC1 - IC6 Framework
+
 ![IC Framework Axis](https://storage.googleapis.com/sourcegraph-assets/Eng%20IC%20Career%20Framework%20Axis.png)
 
 <style>
@@ -139,7 +141,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC1 -->
     <tr>
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
-      <td colspan="3" class="level-summary">An engineer focused on learning, growth, and establishing themselves as a contributing teammate.</td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
@@ -193,7 +194,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC2 -->
     <tr>
       <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
-      <td colspan="3" class="level-summary">A solid and autonomous contributor, executor, and collaborator.</td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
@@ -271,7 +271,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC3 -->
     <tr>
       <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
-      <td colspan="3" class="level-summary">An experienced, strong individual contributor (<q>Senior</q> equivalent).</td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
@@ -358,9 +357,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC4 -->
     <tr>
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
-      <td colspan="3" class="level-summary">
-        A particularly experienced, impactful contributor.
-      </td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
@@ -423,9 +419,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC5 -->
     <tr>
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
-      <td colspan="3" class="level-summary">
-        A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems.
-      </td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
