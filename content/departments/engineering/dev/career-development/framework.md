@@ -35,7 +35,7 @@ An in-band compensation increase (while staying at the same level) can happen at
 
 To learn more, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
 
-## IC1 - IC6 Framework 
+## IC1 - IC6 Framework
 
 ![IC Framework Axis](https://storage.googleapis.com/sourcegraph-assets/Eng%20IC%20Career%20Framework%20Axis.png)
 
