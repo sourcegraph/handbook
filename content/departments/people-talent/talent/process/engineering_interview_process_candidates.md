@@ -171,7 +171,7 @@ We want to find engineers who are:
 
 - **Duration:** 45-minutes
 
-- **How to prepare:** During this interview, we will focus on systems you've built and dive into your views on machine learning and its potential.
+- **How to prepare:** During this interview, we will focus on systems you've built and dive into your views on machine learning and its potential. Please come prepared to share your vision for AI at Sourcegraph.
 
 #### Technical Deep Dive
 
