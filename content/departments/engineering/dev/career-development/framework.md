@@ -6,9 +6,9 @@ Our career development framework is here to help you understand the expectations
 
 There are currently six levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
-- Proficiency
-- Execution
-- Teamwork
+- Proficiency: This is your demonstrated expertise on the skills relevant to your role and level. Proficiency changes in two ways as you progress in your career. You will increase your technical skills in both depth and breadth — often more heavily leaning on one or the other, but still growing both over time. Technical skills include, but are not limited to, quality of code and code reviews; knowledge of relevant technologies, code bases and tools; technical design skills. You will also add and grow other skills that make you a more effective contributor such as providing directional feedback within a relevant scope, giving feedback to others, and over time, setting scope by mapping between business goals, user needs, and technical solutions.
+- Execution: This is knowing how and acting on what it takes to be productive and achieve the right outcomes for Sourcegraph. Effective execution is generally accompanied by achieving impactful outcomes, but the key element is the skills and consistency you demonstrate to achieve the outcomes, not the specifics of an individual outcome. As you grow in your career, your focus will move from personal productivity and impact within your team to helping broader groups productively reach broader goals.
+- Teamwork: This is how you collaborate with others to make both them and yourself more effective. Teamwork includes how we interact with both teammates at Sourcegraph and external stakeholders such as our clients. At all levels we expect a professional and collaborative approach to teamwork. As you grow in your career, the span of people you regularly interact with will increase from your working group to multiple groups to stakeholders across and outside of the company. Your influence on our culture will grow from practitioner to champion to shaper.
 
 It's important to understand that what is listed in the level descriptions are example behaviors, and not checkboxes for promotion. Doing everything listed there is neither necessary nor sufficient for a promotion.
 The expectation is that you demonstrate a _level of impact_ consistent with each of the category descriptions for your level.
@@ -34,6 +34,8 @@ Promotions from one level to another are considered in our twice-yearly [talent 
 An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
 To learn more, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
+
+![IC Framework Axis](https://storage.googleapis.com/sourcegraph-assets/Eng%20IC%20Career%20Framework%20Axis.png)
 
 <style>
   .container {
