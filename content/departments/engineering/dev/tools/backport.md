@@ -21,7 +21,7 @@ Backporting is how you move changes from `main` into a release branch. There are
 2. Fixing an issue present on the release branch.
 3. Backporting to an older release branch for a patch.
 
-It is your responsibility to ensure any backports that you open are merged during the code freeze period of a release. Release captains will get a notification that backports are opened as a release blocker, but the best case scenario is all backports are closed promptly. A good practice it to backport and merge your change if necessary as soon as possible after merging into `main`. 
+It is your responsibility to ensure any backports that you open are merged during the code freeze period of a release. Release captains will get a notification that backports are opened as a release blocker, but the best case scenario is all backports are closed promptly. A good practice it to backport and merge your change if necessary as soon as possible after merging into `main`.
 
 ### Can I approve the backport PR?
 
