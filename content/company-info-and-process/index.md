@@ -43,7 +43,6 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Remote work tips](remote/tips.md)
 - [Productivity hacks](remote/teammate-recommended_productivity_hacks.md)
 - [Remote hackathons](remote/remote_hackathons.md)
-- [Social calendar](remote/social_calendar.md)
 
 ## [Onboarding](onboarding/index.md)
 

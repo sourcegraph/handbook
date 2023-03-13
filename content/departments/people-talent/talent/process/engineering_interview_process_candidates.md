@@ -163,6 +163,32 @@ We want to find engineers who are:
 
   </details>
 
+### AI/ML Interviews
+
+#### Technical Background
+
+- **Interviewers:** Beyang Liu, co-founder and CTO
+
+- **Duration:** 45-minutes
+
+- **How to prepare:** During this interview, we will focus on systems you've built and dive into your views on machine learning and its potential. Please come prepared to share your vision for AI at Sourcegraph.
+
+#### Technical Deep Dive
+
+- **Interviewers:** two engineers
+
+- **Duration:** 45-minutes
+
+- **How to prepare:** During this interview, we will ask you to give us a source-level tour of code you've written.
+
+#### Pairing Exercise
+
+- **Interviewers:** Beyang Liu, co-founder and CTO
+
+- **Duration:** 60-minutes minimum.
+
+- **How to prepare:** Prior to the interview, please share your GitHub handle with your Recruiter. The Recruiter and/or Hiring Manager will then share a GitHub repo with you ahead of the interview. During the interview, we will ask you to spin up the dev environment and add a new Recipe to Cody. This Recipe should add the ability to generate a unit test using the surrounding code as context.
+
 ### Leadership Interview Process
 
 #### Hiring Manager Interview

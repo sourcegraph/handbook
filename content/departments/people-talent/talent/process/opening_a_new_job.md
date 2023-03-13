@@ -23,7 +23,7 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
    - Hiring managers are encouraged to partner with their assigned recruiter to experiment to learn how to improve their hiring process.
-   - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack #hiring.
+   - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack #ask-hiring.
 
 ## The Hiring Manager's actions
 
@@ -96,7 +96,7 @@ The Recruiter opens the job in Greenhouse:
 
 ### Step 4: post the job
 
-The Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
+The Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #ask-hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
 
 - The recruiter follows [these instructions](./recruitment_branding.md#before-posting-to-a-job-board) before posting a role to any given job board in order to track the source of applicants and help measure the job board's return on investment.
 
@@ -147,9 +147,9 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-### Step 6: post to #hiring
+### Step 6: post to #announce-people-talent-team
 
-The Recruiter posts an announcement about the new role in #announce-people-team. Example below:
+The Recruiter posts an announcement about the new role in #announce-people-talent-team. Example below:
 
 Hi team! We're excited to announce that we're kicking off a new search on the [department name] team. Please help us find candidates by spreading the word to your network and sending any referrals! And as always, we welcome internal applicants, too! If you're interested, talk to your Manager and follow [these steps](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams) in the Handbook.
 

@@ -2,7 +2,7 @@
 
 The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack #hiring or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent.
 
@@ -55,7 +55,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
 - [How to set up BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
-- [Background Checks]
+- [Background Checks](background-check-policy.md)
 - [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Managing remote work](../../company-info-and-process/remote/index.md)
@@ -314,6 +314,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Cash spot bonus template](https://docs.google.com/document/d/1MDoZdIiQ5CiddD28__9w-llnax2M8NHVYNq83kKzypE/edit)
   - [Annual equity refresh template](https://docs.google.com/document/d/1UYU_nXtdTTOCfam_kvhm4TQLi9jfyoZqaQ5J6DqB9rM/edit)
   - [Merit increase template](https://docs.google.com/document/d/1vVXijmLlAfTVYrNXWmRXOZXADeLJoA78__Xu3dgKe8k/edit)
+  - [Impact award letter template](https://docs.google.com/document/d/13N9phJmNuM9wK956MZk1gtfsj55-BCYyDAuYRJ-q0jk/edit)
 
 ### Teammate support
 

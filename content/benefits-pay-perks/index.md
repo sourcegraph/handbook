@@ -5,7 +5,7 @@
 - [Mental Health](benefits-perks/mental-health/index.md)
   - [Modern Health](benefits-perks/mental-health/modern-health.md)
 - [Travel](benefits-perks/travel/index.md)
-  - [TripActions](benefits-perks/travel/TripActions.md)
+  - [Navan](benefits-perks/travel/Navan.md)
 - [Time Off](benefits-perks/time-off/index.md)
   - [Submitting time off](benefits-perks/time-off/submitting-time-off.md)
 - [Spending Company Money](benefits-perks/spending-company-money.md)

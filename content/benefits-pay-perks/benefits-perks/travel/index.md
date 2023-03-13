@@ -7,13 +7,13 @@ Travel budgets are for full time Teammates.
 ## Travel planning guidelines
 
 - Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your Teammates. If you're not sure, consult your Manager.
-- Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, People Ops, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responsibility of the teammate.
+- Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, People Ops, or Navan do not cancel these bookings. Any bookings that were not cancelled will be the monetary responsibility of the teammate.
 - Our high agency value works because we all make responsible decisions in the best interests of the whole team and the business — **please treat company money how you would treat your own**.
 - Tracking the fiscal year spend is the responsibility of each individual Teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 - When planning a trip with another Teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
 - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all Teammates must feel included, whether or not they are joining in person.
 - All meetups are to remain completely optional for all attendees.
-  - Due to the current circumstances of COVID-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper COVID-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
+  - Due to the current circumstances of COVID-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper COVID-19 protocols during your trip planning, please review the Sherpa feature in Navan.
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees and restrictions you may need to abide by.
 - When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../../../company-info-and-process/values/index.md)**, we encourage a lens of inclusion in creating an equitable meetup for all Teammates.
 - Assume people don't want to shake hands, hug, high-five etc.
@@ -27,6 +27,8 @@ We are a [high agency](../../../company-info-and-process/values/index.md#high-ag
 > _For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!_
 
 Travel budgets are not transferable between types and are based on our [fiscal calendar](../../../departments/finance/index.md#fiscal-year-2022) year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
+
+Unsure how much budget you have left? [Click here!](https://docs.google.com/document/d/1XXAKh2DHitaFCFmNCEqpYBPbknhJ8IC0r-deDSFlht4/edit?usp=sharing)
 
 **Our company-wide travel perks for FY24 include:**
 
@@ -61,6 +63,10 @@ Factor in as much time to spend together during the trip and leave room for solo
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 - Visit the [sample team offsites](sample-team-offsites.md) handbook page to view offsite itineraries used by other teams in the past.
+
+#### Engineering team travel
+
+Individuals in the engineering org are responsible for working with their direct Managers to determine how they will use their team travel budget. It is up to the individual and their Manager to decide if they would like to join their job fair team trip or their original team trip.
 
 ### 3. Business/customer travel
 
@@ -183,9 +189,9 @@ Approval to use this perk is **required** prior to any travel:
 - To get approval, please email People Ops (people-ops@sourcegraph.com) and finance (finance@sourcegraph.com).
 - Once you have approval, you may request reimbursement through Airbase with a copy of the receipt and a copy of the prior approval obtained via email.
 
-## How to book your trip in TripActions
+## How to book your trip in Navan
 
-TripActions is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [TripActions](TripActions.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc.
+Navan is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [Navan](Navan.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc.
 
 For any additional questions, please reach out to Finance and the people Team at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
@@ -225,7 +231,7 @@ This category of guidance also includes casual, local meet-ups that are company-
 
 All of the above guidelines still apply for team travel and meet-ups, but we will be taking additional precautions for meet-ups that require travel.
 
-Note that these guidelines are not inclusive of all travel requirements that are specific to the locations you may be travelling to or the activities you may engage in as part of your meet-up. The Sherpa feature on TripActions can be helpful in your planning stages.
+Note that these guidelines are not inclusive of all travel requirements that are specific to the locations you may be travelling to or the activities you may engage in as part of your meet-up. The Sherpa feature on Navan can be helpful in your planning stages.
 
 ### In-person meet-ups which require travel
 
@@ -250,7 +256,7 @@ If you or anyone attending a company-sponsored event suspects a COVID-19 exposur
 **Before:**
 If you contract COVID-19 before company-sponsored travel, in addition to self-isolating:
 
-- Please postpone or cancel your travel through TripActions.
+- Please postpone or cancel your travel through Navan.
   - Your safety is our number one priority. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we travel to.
   - Reach out to the People team in #ask-people-team and we will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
 - Get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
@@ -265,7 +271,7 @@ If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately
     - Date symptoms began
     - Start and end date of company event and or company travel
     - List of company event attendees/potentially exposed teammates
-    - If you are still onsite at your hotel and have tested positive before returning home, please let us know; we will reach out to you and book any extended stays for you through TripActions.
+    - If you are still onsite at your hotel and have tested positive before returning home, please let us know; we will reach out to you and book any extended stays for you through Navan.
 - If you need to take additional time off work to recover, first and foremost: we hope you feel better soon! Please submit your time off under 'Wellbeing leave' in Roots (though Slack); this will trigger a notification to your manager. We recommend talking through your time off plan with them in case you need a longer recovery time than expected.
 
 If you have any questions or concerns, please reach out to the People Team in #ask-people-team in Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.

@@ -2,6 +2,7 @@
 
 - All full-time teammates must have a Sourcegraph computer
 - All teammates must work from their Sourcegraph computer
+- All Sourcegraph computers must be [managed](../tools/endpoint-antivirus.md) and be in compliance with our [endpoint standards](../process/internal-security/computer-standards.md)
 - All teammates must only use their Sourcegraph computer for accessing [company data](#company-data)
 - Sourcegraph approves the use of Apple macOS only (you may work with Windows and Linux devices for work that does not involve internal, private or confidential company data, such as open source coding)
 - All teammates should adhere to our related usage and access policies:
@@ -17,9 +18,9 @@ We are currently improving our Acceptable Use Policy, which will give further de
 
 ## Setting up your computer
 
-1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
-2. Install [Jamf Pro and Protect](../tools/endpoint-antivirus.md)
-3. Check that your warrenty information is reflected on your [Apple device](https://support.apple.com/en-us/HT202741)
+1. Install [Jamf Pro and Protect](../tools/endpoint-antivirus.md). All laptops are required to be managed through Jamf.
+2. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md). All standards are mandatory.
+3. Check that your warrenty information is reflected on your [Apple device](https://support.apple.com/en-us/HT202741).
 
 Note: All devices purchased through our partners will have been purchased with a warranty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warranty please do so within 30 days.
 

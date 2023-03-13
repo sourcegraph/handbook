@@ -113,12 +113,12 @@ To change between MFA options click on the arrow next to the label when prompted
 
 Using your mobile devices to access [company data](../computer-setup.md#company-data) is limited to just a few applications, such as Gmail, Calendar, Zoom, Slack, and Airbase. If you are going to be accessing any of these apps from your phone please log into the applications using phishing resistant methods.
 
-Once you add a Yubikey in the steps noted above to your laptop this method will also be available on your mobile device through the use of passkeys.
+Once you add a Yubikey to your Okta account in the steps noted above, you will be able to use that Yubikey on your computer or phone as a form of mfa. You will not need to create a new registration entry per device, it is tied directly to your Okta account.
 
 1. Log into Okta with username and password
 1. Select 'Security Key or Biometric Authenticator'
 1. Select 'Verify'
-1. Tap and hold your key towards the tops of the device, if NFC compatible, or insert your Yubikey
+1. Tap and hold your key towards the tops of the device, if NFC compatible, or insert your Yubikey and tap the gold part
 1. You will be logged in
 
 ## I forgot my password/my login doesn't work, what do I do?

@@ -26,13 +26,6 @@ interim_delivery_lead:
   manager_role_slug: engineering_manager_delivery
   hide_on_team_page: true
 
-interim_head_of_search:
-  name: Steve Yegge
-  role: Interim Head of Search
-  reports_to: ceo
-  manager_role_slug: search_lead
-  hide_on_team_page: true
-
 beyang_liu:
   name: Beyang Liu
   role: CTO, co-founder, Board of Directors
@@ -160,24 +153,25 @@ rob_rhyne:
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
   description: Rob is a designer, developer, and accidental salesman with a penchant for solving business problems with usable design and code. When not making products, he is raising two boys with his wife, working on his boat, or fishing offshore for anything that makes good poke.
 
-felix_becker:
-  name: Felix Becker
+chris_pine_code_insights:
+  name: Chris Pine
+  pronouns: he/she/they/Chris
   role: Engineering Manager, Code Insights
   reports_to: eng_lead
   manager_role_slug: engineering_manager_code_insights
-  location: ~~Bremen, Germany 🇩🇪~~ San Francisco, California 🇺🇸
-  github: felixfbecker
-  email: felix@sourcegraph.com
-  links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
-  description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
+  location: Portland, OR, USA 🇺🇸
+  github: chrispine
+  email: chrispine@sourcegraph.com
 
-felix_becker_code_exploration:
-  name: Felix Becker
+owen_convey_code_exploration:
+  name: Owen Convey
   pronouns: he/him
   role: Engineering Manager, Code Exploration
   reports_to: eng_lead
   manager_role_slug: engineering_manager_code_exploration
-  hide_on_team_page: true
+  location: Barcelona, Spain 🇪🇸
+  github: scalabilitysolved
+  email: oconvey@sourcegraph.com
 
 dave_try:
   name: Dave Try
@@ -286,14 +280,6 @@ owen_brennan:
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
 
-chris_surdi:
-  name: Chris Surdi
-  role: Account Executive
-  reports_to: rsd_west
-  location: San Francisco, Ca, USA, 🇺🇸
-  email: chris.surdi@sourcegraph.co
-  description: "I’m a serial entrepreneur and angel employee with a passion for disruptive technology and sales. I live north of San Francisco with my wife Meliza and three kids - Truson, Kaison and Crimson. I'm originally from back East and moved out to the West Coast in 2003 to be involved in startups, technology, and innovation. I'm grateful to say I'm doing everything I've set myself out to achieve at this point."
-
 joe_kirscher:
   name: Joe Kirscher
   pronouns: he/him
@@ -367,7 +353,7 @@ rok_novosel:
   name: Rok Novosel
   pronouns: he/him
   role: Software Engineer
-  reports_to: search_lead
+  reports_to: eng_lead
   location: Trebnje, Slovenia 🇸🇮
   github: novoselrok
   email: rok@sourcegraph.com
@@ -685,18 +671,6 @@ carly_jones:
   github: carlyj0nes
   description: Carly is a Denver native who went to college in Vermont (Middlebury), lived in Washington, DC for 5 years, and has since returned home to Colorado. Prior to Sourcegraph, she gained experience leading talent teams at high growth startups and is passionate about all things talent acquisition. When not working, you can find Carly tackling a DIY project, practicing her golf game, spending time outdoors, and traveling.
 
-rafal_leszczynski:
-  name: Rafal Leszczynski
-  pronouns: he/him
-  role: Engineering Manager, Cloud
-  reports_to: ceo
-  manager_role_slug: engineering_manager_cloud
-  location: Jelonek (Poznan), Poland 🇵🇱
-  github: RafLeszczynski
-  email: rafal@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/rleszcz/)'
-  description: Raf lives with his family outside of Poznan (Poland), surrounded by forests, boars, deers, and other wildlife.
-
 kelli_rockwell:
   name: Kelli Rockwell
   pronouns: she/her
@@ -939,13 +913,13 @@ max_wiederholt:
 victoria_yunger:
   name: Victoria Yunger
   pronouns: She/Her
-  role: Product Marketing Lead, Enterprise
+  role: Principal PMM
   reports_to: director_product_marketing
   location: San Francisco, CA, USA 🇺🇸
   github: thisisvic
   email: victoria.yunger@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/victoriayunger/)'
-  description: "Victoria was born in Ukraine, grew up in Israel, and then moved to the U.S. to pursue her Master's degree at UChicago. As of three years, she calls San Francisco her (foggy) home. Pre-Sourcegraph, Victoria worked as a product marketer at Zendesk. Back in Israel a.k.a Startup Nation, she held several marketing roles and served in the Israeli Defense Forces for 2 years that felt like 20. She is passionate about pitch slides that resonate with a buyer, Sonoma wines that elevate a dinner, and true crime podcasts."
+  description: "Victoria was born in Ukraine, grew up in Israel, and then moved to the U.S. to pursue her Master's degree at UChicago. As of five years, she calls San Francisco her (foggy) home. Pre-Sourcegraph, Victoria worked as a product marketer at Zendesk and held several marketing roles in Israel."
 
 luke_taylor:
   name: Luke Taylor
@@ -1163,8 +1137,9 @@ taylor_sperry:
 rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_cloud
+  role: Engineering Manager, Cloud
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_cloud
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
@@ -1467,7 +1442,7 @@ andrew_norrish:
 
 felix_kling:
   name: Felix Kling
-  reports_to: search_lead
+  reports_to: engineering_manager_code_exploration
   role: Software Engineer
   github: fkling
 
@@ -1596,17 +1571,6 @@ todd_herskovitz:
   github: toddherskovitz
   email: todd@sourcegraph.com
 
-ryan_stott:
-  name: Ryan Stott
-  pronouns: he/him
-  role: Enterprise Account Exective
-  reports_to: rsd_west
-  location: Salt Lake City, UT, USA 🇺🇸
-  github: r-stott
-  email: ryan.stott@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/rayden8/)'
-  description: 'Ryan lives in Salt Lake City where he enjoys the outdoor lifestyle. He has a diverse range of passions, including snowboarding, climbing, guitar, wildlife photography, and travel.  He has a goal of seeing all 7 continents, all 63 national parks and 60 countries.'
-
 sander_ginn:
   name: Sander Ginn
   email: sander.ginn@sourcegraph.com
@@ -1665,7 +1629,7 @@ chris_warwick:
 
 becca_steinbrecher:
   name: Becca Steinbrecher
-  reports_to: engineering_manager_cloud
+  reports_to: engineering_manager_code_insights
   role: Software Engineer
   location: Mesa County, CO, USA 🇺🇸
   github: st0nebraker
@@ -1748,7 +1712,7 @@ naman_kumar:
   reports_to: engineering_manager_iam
   location: New Delhi, IN
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
-  description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Source Graph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
+  description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Sourcegraph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
 
 josé_taylor:
   name: José Taylor
@@ -2117,3 +2081,58 @@ Ryan_Aznar:
   location: Denver, Colorado, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/raznar/)'
   description: Ryan has spent his career helping large enterprises adopt and utilize bleeding-edge technology solutions. As a recent transplant to Colorado from North Carolina, he has taken up a lot of outdoorsy hobbies such as skiing, rock climbing, and hiking. Ryan also enjoys learning new languages and currently has over a 1000+ day streak on Duolingo learning German!
+
+lauren_ross:
+  name: Lauren Ross
+  email: lauren.ross@sourcegraph.com
+  github: lauren-ross
+  pronouns: she/her
+  role: Senior People Partner
+  reports_to: vp_talent
+  location: Seattle, WA
+  links: '[LinkedIn](https://www.linkedin.com/in/laurcolby/)'
+  description: I live in Seattle, WA with my 2 children, husband, and goldendoodle! In my spare time I love adventuring in the outdoors, reading, and spending time with my loved ones.
+
+Marc_LeBlanc:
+  name: Marc LeBlanc
+  email: marc.leblanc@sourcegraph.com
+  github: marcleblanc2
+  pronouns: he/him
+  role: Senior Support Engineer
+  reports_to: manager_support
+  location: Calgary, Alberta, Canada 🇨🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/leblancit/), [MarcPhoto.ca](https://marcphoto.ca/)'
+  description: I rise to challenges with enthusiasm, a happy-to-help attitude, and a customer-service mindset. I am driven to make my positive contribution to the world, with high-level strategic vision, systems and design thinking, and hands-on-keyboard implementation. I was the service owner for the Code Search service and a Sourcegraph customer admin for two years before joining the company. My team and I implemented Sourcegraph from end to end, from discovering user issues with OpenGrok, finding Sourcegraph, implementing it, operating it, and contributing to it. I am also a photographer, adventure motorcyclist, and active volunteer.
+
+dominic_cooney:
+  name: Dominic Cooney
+  email: dominic.cooney@sourcegraph.com
+  github: dominiccooney
+  reports_to: engineering_manager_code_intelligence
+  location: Tokyo, Japan 🇯🇵
+  links: '[@dominiccooney](https://twitter.com/dominiccooney), [LinkedIn](https://www.linkedin.com/in/dominiccooney)'
+  pronouns: he/him
+  role: Software Engineer
+  description: "Dominic's [first PC](https://en.wikipedia.org/wiki/PC1512) had 640K of RAM, which turned out to be not enough for anybody. Prior to joining Sourcegraph in 2023 he implemented web browsers at Google and Meta. Outside work he's into Pilates, trading Japanese equities, and baking [delicious cookies.](https://blog.dpc.dev/chocolate-chip-cookies)"
+
+john_wesonga:
+  name: John Wesonga
+  email: john.wesonga@sourcegraph.com
+  github: johnwesonga
+  reports_to: eng_lead
+  location: Concord, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/johnwesonga)'
+  role: Technical Program Manager
+  description: I started out as web & mobile (android) developer and eventually transitioned into program management because I enjoy the intersection of product & engineering, fast forward and 12 years later I'm still doing it! Outside work I enjoy running, kettlebell workouts and cooking for my family!
+
+erika_rice_scherpelz:
+  name: Erika Rice Scherpelz
+  email: erikars@sourcegraph.com
+  github: erikars
+  pronouns: she/her
+  role: Head of Search
+  reports_to: eng_lead
+  location: Bellevue, Washington, USA 🇺🇸
+  links: '[The FLUX Review](https://read.fluxcollective.org/), [LinkedIn](https://www.linkedin.com/in/erikars)'
+  manager_role_slug: search_lead
+  description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'

@@ -11,7 +11,7 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 
 - Reshare company updates/articles from our [company LinkedIn Profile](https://www.linkedin.com/company/sourcegraph)
 - When sharing our open roles on your LinkedIn, please use the following URL so that Greenhouse can track the number of applicants that apply through our personal LinkedIn posts: https://grnh.se/6c3034d74us
-  - If you prefer to share a specific role rather than the entire job board, please send a Slack message to #hiring and a member of the talent team will create a tracking link for you to use
+  - If you prefer to share a specific role rather than the entire job board, please send a Slack message to [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) and a member of the talent team will create a tracking link for you to use
 - Post ideas for LinkedIn
   - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
@@ -74,7 +74,7 @@ You are welcome to use these prompts to get ideas flowing for your review:
 - A day in the life of a Sourcegraph employee includes...
 - Since starting at Sourcegraph, I have learned...
 
-If you want to make a suggestion or notice outdated company details on any of our profiles, please let your recruiter know or send a slack in the #hiring channel.
+If you want to make a suggestion or notice outdated company details on any of our profiles, please let your recruiter know or send a slack in the [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) channel.
 
 ## Job boards
 
@@ -86,7 +86,7 @@ In order to assess the return on investment for any given job board, it is criti
 
 Please follow these instructions:
 
-- Step 1: Send a Slack message to #hiring outlining the job board(s) you would like to post to and the job(s) you would like to see posted.
+- Step 1: Send a Slack message to [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) outlining the job board(s) you would like to post to and the job(s) you would like to see posted.
 
 - Step 2: A talent team member will 1) [create a custom source](https://support.greenhouse.io/hc/en-us/articles/200721664-Add-Custom-Source) in Greenhouse for that job board and 2) [create a tracking link for a single job post](https://support.greenhouse.io/hc/en-us/articles/4405093302427-Create-a-tracking-link-for-a-single-job-post) and/or [create a tracking link for the entire job board](https://support.greenhouse.io/hc/en-us/articles/201823760-Create-Tracking-Link-for-Job-Board).
 
@@ -118,7 +118,7 @@ Please follow these instructions:
 
 ### Future job boards:
 
-We welcome suggestions for more places that we can post our open roles! Please reach out to your recruiter or post in the #hiring slack channel to suggest a new job board.
+We welcome suggestions for more places that we can post our open roles! Please reach out to your recruiter or post in the [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) slack channel to suggest a new job board.
 
 We want to make sure our job postings reach a wide audience and that we're posting in multiple places without a large overlap in members from our existing job postings.
 

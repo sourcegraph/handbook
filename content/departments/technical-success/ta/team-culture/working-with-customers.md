@@ -1,6 +1,6 @@
 # Technical Advisors: Working with Customers
 
-A TA, being both a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
+A TA, being a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
 - [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
   - [Internal](#internal)
@@ -10,9 +10,9 @@ A TA, being both a post-sales technical account manager, works with customers in
   - [Red Accounts](#red-accounts)
   - [Customer Health](#customer-health)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
-  - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
+  - [Post-Sales Engagement Kickoff](#post-sales-partnership-kickoff)
   - [New User Onboarding](#user-onboarding)
-  - [Webinars / Trainings / Q&A Sessions](#webinars--trainings--qa-sessions)
+  - [Developer Enablement](#developer-enablement)
   - [QBRs](#qbrs)
   - [Expansions and Renewals](#expansions-and-renewals)
   - [Account Management](#account-management)
@@ -51,11 +51,20 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
 
-### Process and Roles & Responsibilities
+### Process Overview
 
-Our renewal process is a 5 step process that begins 180 days prior to renewal date.
+Our renewal process is a 5 step process that begins 120 days prior to renewal date. The process lifecycle is as follows:
+![Renewal Process](https://user-images.githubusercontent.com/7228359/220760306-60b90fc3-3701-44e2-aad9-f61c386ffee8.jpg)
 
-You can read about the process and roles & responsibilities [here](https://docs.google.com/presentation/d/1TguV96BTdC6AuXX5DLoMDG1yWLe5HU5qmyWZD79Odjo/edit?usp=sharing).
+### Renewal Process Phases
+
+| Phase                        | Event                                                                                                         | Steps                                                                                                                                                                                                  | Output                                                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Health Assessment            | Vitally triggers Health Assessment project 120 days before renewal                                            | 1) TA completes Health Assessment note template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green, yellow, red)                                   | If red or yellow, elevate to Get Well track <br> If green, monitor                                                             |
+| Get Well (Yellow & Red only) | TA leadership hosts weekly deep dives for SAles/TA leadership and account team                                | 1) Prior to meeting, TA & AE fill-in Customer Renewal Health Assessment <br> 2) During meeting, TA presents assessment and plan, with input from AE, align on risk, opportunity, needs, and next steps | Follow up on action plans from meeting for yellow & red accounts <br> - Review again 30 days later <br> Monitor green accounts |
+| Renewal Plan                 | AE leadership: weekly forecast <br> TA leadership: bi-weekly inspection to monitor progress of get-well plans | Yellow & Red: <br> - TA: Check-in on plan progress, additional corrective action as required <br> Green: <br> - Continue monitoring                                                                    | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                   |
+| Renewal Forecast             | AE & TA leadership: weekly forecast                                                                           | Yellow & Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)                                             | Quarterly forecast                                                                                                             |
+| Process Renewal              | AE & TA leadership: weekly forecast                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                                                          | Renewal event complete                                                                                                         |
 
 ## Red Accounts
 
@@ -148,43 +157,39 @@ This [View](https://sourcegraph.vitally.io/views/598e039e-947e-4c04-9b0d-b98f388
 
 # Post-Sales Customer Touchpoints
 
-## Post-Sales Engagement Kickoff
+## Post-Sales Partnership Kickoff
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+### TA Assignment
 
-Once a customer signs on with Sourcegraph, we need to:
+Approximately 45 days before closure, TA leadership will assign the Technical Advisor Support Level on the Salesforce account to determine the customer segmentation for the customer. Once assigned, an account is created in Vitally, segmented as a Prospect. 35 days before closure, TA leadership assigns a TA to the Salesforce account record and to the Vitally record.
+
+### Hand-off from pre-to-post sales
+
+35 days before closure, a Vitally playbook initiates and tasks the CE to create a pre-to-post sales handoff note. Once created, the CE scheduled a hand-off meeting with the AE, TA, and IE (if IE will be helping with the production implementation).
+
+The TA begins to plan and prepare for the kick-off and begins to prepare for new user onboarding. They do this by working with the AE and CE to understand how many seats have been purchased, where these teams are located, and by identifying customer contacts to help coordinate onboarding.
+
+Once a customer signs on with Sourcegraph, the TA will
 
 - Generate a full license key.
-- Plan a kickoff call with our main contact(s) to plan the engagement.
+- Schedule a kickoff call with our main contact(s) to plan the engagement.
 
-On the kickoff call we plan our ongoing engagement with the customer. Different customers have different needs, so it's important to talk through topics such as:
-
-- How often do they want to have check-in calls?
-- What types of trainings, webinars, or Q&A sessions could their team use? When?
-- Would they like any assistance or resources to integrate Sourcegraph into their developer onboarding process?
-- Anything else we can look to help them out with? Upcoming initiatives they could use Sourcegraph for?
-
-### Resources
-
-- [Post Sales Engagement Sheet Template](https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0)
-- [Post-Sales Kickoff Deck Template](https://docs.google.com/presentation/d/1eTis1XiS3U1M1M1a35wBw5qwTnJSMozXcz_gXJcGXhk/edit)
-- [Sample Chorus Recording](https://chorus.ai/meeting/066B000C659C4F1D83AA465576444924)
+The TA uses [this deck](https://docs.google.com/presentation/d/1q2oPqCOO8XuCC0F2DuVdNpDh30OuIdMpKz9gNAqHces/edit#slide=id.g1e638d9bd88_1_379) for the partnership kick-off.
 
 ## User Onboarding
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
-
-A critical part of the customer experience is user onboarding. After deal close, once the customers' production infrastructure is setup and configured, CEs are responsible for driving adoption of users onto Sourcegraph. During engagement kick-off, CE works with our customer stakeholders to create a plan to onboard their users.
+A critical part of the customer experience is user onboarding. After deal close, and once the customers' production infrastructure is setup and configured, TAs are responsible for driving adoption of users onto Sourcegraph. During this phase, the TA is executing a user roll out plan to onboard the users onto Sourcegraph.
 
 ### Resources
 
 - [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
 
-## Webinars / Trainings / Q&A Sessions
+## Developer Enablement
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+We have a 6-prong approach to developer enablement so that are able to meet each customer and each dev culture where they are. You can see an overview of our methods below:
+![enablement program](https://user-images.githubusercontent.com/7228359/220773126-cbd243f0-045f-4072-83ce-e31839e836cf.jpg)
 
-A standard customer engagement should include three core trainings, as well as optional topics customized to customer needs or requests, or demos of new features or use cases that are relevant to the team. These webinars may be run repeatedly if, for example, you're expanding into a new business unit within an existing customer.
+For synchronous webinars, a standard customer engagement should include three core trainings, as well as optional topics customized to customer needs or requests, or demos of new features or use cases that are relevant to the team. These webinars may be run repeatedly if, for example, you're expanding into a new business unit within an existing customer.
 
 ### Standard trainings
 
@@ -200,22 +205,6 @@ A standard customer engagement should include three core trainings, as well as o
 
 - [Training Webinar Recording](https://chorus.ai/meeting/8FEAE02538644AA3ABB22149750E6308?)
 - [Customer Training Engineer repo](https://github.com/sourcegraph/customer-training/tree/main/trainings)
-
-## QBRs
-
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
-
-We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an Executive Business Review), with our customers which recaps how Sourcegraph has been integrated into and creating value for their organization over the past quarter. These QBRs are typically created and presented by the CE assigned to the account, in conjunction with the account’s AE. They are typically presented in a slide deck format to executive-level leadership, and highlight usage metrics and use cases for their org. Additionally, they are used to gather feedback and comments from leadership regarding Sourcegraph.
-
-### Resources
-
-- The [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#) details how CEs should execute a QBR.
-- [QBR Quickstart video](https://www.loom.com/share/fb63d3286cda43a3b57913c5bdcc9806)
-- [QBR Deck Template](https://docs.google.com/presentation/d/10TTvP3_U9-z_40vyqo1Bi_f0lD2s8TclFLnqvXIdU1s/edit#slide=id.gc868ddee9e_0_0)
-- [QBR Deck Template (with value realization)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE)
-- [Example QBR Deck](https://docs.google.com/presentation/d/1bWjDHA5U6luV4h6jNDo9fyj11tkpf_nHi9DhbLsPxr0/edit#slide=id.g96a3fc9b53_0_0)
-- [Example QBR Survey](https://www.surveymonkey.com/results/SM-K6LMJQMZ7/)
-- [Sample QBR Recording on Chorus](https://chorus.ai/meeting/36928A0D99694DCB8E0AC9D028E44A1D?search=qbr&recordingsOnly=true&transcript=false)
 
 ## Expansions and Renewals
 
@@ -239,6 +228,22 @@ As TAs we are responsible for the technical success of our customers. Post-sales
 
 - [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
 - [Instance overview dashboard](https://sourcegraph.looker.com/dashboards-next/167)
+
+## QBRs
+
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+
+We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an Executive Business Review), with our customers which recaps how Sourcegraph has been integrated into and creating value for their organization over the past quarter. These QBRs are typically created and presented by the CE assigned to the account, in conjunction with the account’s AE. They are typically presented in a slide deck format to executive-level leadership, and highlight usage metrics and use cases for their org. Additionally, they are used to gather feedback and comments from leadership regarding Sourcegraph.
+
+### Resources
+
+- The [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#) details how CEs should execute a QBR.
+- [QBR Quickstart video](https://www.loom.com/share/fb63d3286cda43a3b57913c5bdcc9806)
+- [QBR Deck Template](https://docs.google.com/presentation/d/10TTvP3_U9-z_40vyqo1Bi_f0lD2s8TclFLnqvXIdU1s/edit#slide=id.gc868ddee9e_0_0)
+- [QBR Deck Template (with value realization)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE)
+- [Example QBR Deck](https://docs.google.com/presentation/d/1bWjDHA5U6luV4h6jNDo9fyj11tkpf_nHi9DhbLsPxr0/edit#slide=id.g96a3fc9b53_0_0)
+- [Example QBR Survey](https://docs.google.com/document/d/1v3JhUOECfBmE9HHEEYZKPQY_jLllcismWZoaRPkVei4/edit?usp=sharing)
+- [Sample QBR Recording on Chorus](https://chorus.ai/meeting/36928A0D99694DCB8E0AC9D028E44A1D?search=qbr&recordingsOnly=true&transcript=false)
 
 # Playbooks
 
