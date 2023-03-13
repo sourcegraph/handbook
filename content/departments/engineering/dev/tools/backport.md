@@ -6,8 +6,6 @@ This tool is currently being used for [Sourcegraph releases](../process/releases
 
 It is developed in [`sourcegraph/backport`](https://github.com/sourcegraph/backport).
 
-To use it, check out the `sourcegraph/sourcegraph` repository. Find the merged commit pull request you want to backport and label it on GitHub with `backport <target-branch>`. This will trigger a github action that will run backporting tool and create a new pull request with the backported changes onto the target branch. Merge the pull request into the release branch.
-
 ## Prerequisite
 
 To run locally, this tool requires the following dependencies in your system `PATH`
@@ -24,6 +22,15 @@ Backporting is how you move changes from `main` into a release branch. There are
 3. Backporting to an older release branch for a patch.
 
 It is your responsibility to ensure any backports that you open are merged during the code freeze period of a release. Release captains will get a notification that backports are opened as a release blocker, but the best case scenario is all backports are closed promptly. A good practice it to backport and merge your change if necessary as soon as possible after merging into `main`.
+
+## I want to backport my change, what do I do?
+
+To backport to a specific branch, simply attach the relevant backport label on Github to your pull request corresponding to the desired target branch. Once your original pull request is merged a GitHub action will attempt the cherry-pick and if successful another pull request will be opened to backport your change into the target branch.
+
+Backport labels can also be applied after merge, so you don't need to worry if you didn't include the label before you merged your pull request.
+
+As an example, say you wanted to backport into the 5.0 release branch. Attach the `backport 5.0` label to your pull request, and merge. Open the backport pull request, wait for CI to pass, and merge into the release branch.
+
 
 ## Issues
 
