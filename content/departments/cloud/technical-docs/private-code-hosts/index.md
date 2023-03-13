@@ -89,7 +89,7 @@ spec:
         privateDnsEnabled: false
 ```
 
-1. Generate additional resources in cdktf and apply
+2. Generate additional resources in cdktf and apply
 
 ```sh
 mi2 generate cdktf
@@ -98,7 +98,7 @@ mi2 instance cdktf deploy -auto-approve
 
 > If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) for VPC Endpoint Service and accepted VPC Endpoint connection:
 
-1. enable Private DNS in VPC Endpoint
+3. enable Private DNS in VPC Endpoint
 
 ```yaml
 spec:
@@ -109,7 +109,7 @@ spec:
         privateDnsEnabled: true
 ```
 
-1. Generate additional resources in cdktf and apply
+4. Generate additional resources in cdktf and apply
 
 ```sh
 mi2 generate cdktf
@@ -144,7 +144,7 @@ spec:
           - https://www.googleapis.com/auth/devstorage.read_only
 ```
 
-1. Generate and apply cdktf
+2. Generate and apply cdktf
 
 ```sh
 mi2 generate cdktf
@@ -152,7 +152,7 @@ mi2 generate cdktf
 mi2 instance tfc deploy -auto-approve
 ```
 
-1. Generate dns-proxy sidecars
+3. Generate dns-proxy sidecars
 
 ```sh
 # generate sidecars and copy dns-proxy from control plane project to customer project artifact registry repository
