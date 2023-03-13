@@ -31,7 +31,6 @@ Backport labels can also be applied after merge, so you don't need to worry if y
 
 As an example, say you wanted to backport into the 5.0 release branch. Attach the `backport 5.0` label to your pull request, and merge. Open the backport pull request, wait for CI to pass, and merge into the release branch.
 
-
 ## Issues
 
 if the backporting tool fails to create a pull request, it will add a comment to the original pull request with the error message and instructions on how to manually create a backport pull request.
