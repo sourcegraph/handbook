@@ -22,7 +22,7 @@ This option is for customers who want to connect to a private code host that is 
 
 ### Creation process
 
-AWS GCP VPN extension is connecting existing Cloud Instance with customer dedicated AWS account (maintaned by Cloud Team).
+AWS GCP VPN extension connects an existing Cloud Instance with customer dedicated AWS account (maintained by Cloud Team).
 
 #### 1. Modify `config.yaml` with additional section:
 
