@@ -9,7 +9,7 @@ Every [v2.0 Cloud Instance](../v2.0/index.md) is deployed in Google Cloud Platfo
 ## Managed Instance NAT IP allowlist solution (recommended)
 
 This solution is recommended by Cloud Team, but only possible if customers' code hosts can be accessible publicly and customer is able to allow incoming traffic from Sourcegraph-owned IP addresses.
-Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
+Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reserved exclusively on a per customer basis.
 [More informations about IP allowlist](../../index.md#faq-what-is-the-cloud-instance-ip)
 
 ## AWS GCP site-to-site VPN solution (AWS code hosts only)
