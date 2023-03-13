@@ -66,6 +66,33 @@ For more details, go to [Google documentation](https://cloud.google.com/network-
 For each customer using private code host, additional section to our generated operation dashboard is added.
 Upon enabling the private code host support, follow the process [to update the dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md#update-all-generated-dashboards)
 
+### AWS VPC Endpoint Service (aka AWS Private Link)
+
+[AWS Private Link](https://aws.amazon.com/privatelink/) is secure method to expose single endpoint (i.e. code host) from AWS VPC to specific AWS Principals (IAM in specific AWS VPC).
+This solution ensures code host is not exposed from AWS and only given principal can access it.
+
+When customer exposes code host via VPC Endpoint Service, Cloud Instance needs to create [AWS VPC Endpoint](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html) to expose connection inside Sourcegraph Managed AWS VPC.
+
+1. Add addtional field to `privateCodeHost` section
+
+```yaml
+spec:
+  infrastructure:
+    privateCodeHost:
+      aws:
+        # domain used to access customer VPC Endpoint Service
+        privateLinkDomain: <CUSTOMER_PRIVATE_LINK_DOMAIN>
+```
+
+1. Generate additional resources in cdktf and apply
+
+```sh
+mi2 generate cdktf
+mi2 instance cdktf deploy -auto-approve
+```
+
+> If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) for AWS Private Link, [DNS proxy sidecar](#optional-private-code-host-domain) also needs to be used in Cloud Instance.
+
 ## [Optional] Private code host domain
 
 Every Cloud customer using private DNS domain for code hosts requires additional dns-proxy sidecar.
@@ -109,6 +136,49 @@ cd kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
-### AWS Private Link playbook
+### AWS Private Link playbook for customer
 
-**TBD**
+When customer has private code host inside AWS VPC and needs to expose it for Sourcegraph managed AWS VPC, customer can use [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/privatelink/create-endpoint-service.html) or follow the steps:
+
+1. Create Network Loadbalancer, VPC Endpoint Service and VPC Endpoint Service via terraform file:
+
+> Important: if https/ssl is used on NLB (recommended), customer has to create [AWS Certificate](https://docs.aws.amazon.com/acm/latest/userguide/gs.html) and set `certificate_arn` and `ssl_policy` field in `aws_lb_listener` resources before apply.
+
+```json
+resource "aws_lb" "nlb" {
+  name               = "${var.customer_id}-nlb"
+  internal           = true
+  load_balancer_type = "network"
+  subnets            = module.customer_vpc.public_subnets
+
+  enable_deletion_protection = true
+
+  tags = {
+   // customer tags
+  }
+}
+
+resource "aws_lb_listener" "tls" {
+  load_balancer_arn = aws_lb.nlb.arn
+  port              = "443"
+  protocol          = "TLS"
+  ssl_policy        = "ELBSecurityPolicy-TLS13-1-2-2021-06"
+  certificate_arn   = "arn:aws:acm:us-east-1:592536413916:certificate/1b94c626-8464-4d2c-878e-3e61686c6895"
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.customer_gitlab.arn
+  }
+}
+
+resource "aws_vpc_endpoint_service" "customer_gitlab" {
+  acceptance_required        = true
+  network_load_balancer_arns = [aws_lb.nlb.arn]
+
+  tags = {
+   // customer tags
+  }
+}
+```
+
+2. For private VPC Endpoint Service domain, customer has to follow [verification steps](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) to prove customer owns the domain.
