@@ -166,7 +166,7 @@ When customer has private code host inside AWS VPC and needs to expose it for So
 
 > Important: if https/ssl is used on NLB (recommended), customer has to create [AWS Certificate](https://docs.aws.amazon.com/acm/latest/userguide/gs.html) and set `certificate_arn` and `ssl_policy` field in `aws_lb_listener` resources before apply.
 
-```json
+```hcl
 resource "aws_lb" "nlb" {
   name               = "${var.customer_id}-nlb"
   internal           = true
