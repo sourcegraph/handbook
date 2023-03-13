@@ -149,7 +149,7 @@ resource "aws_lb" "nlb" {
   name               = "${var.customer_id}-nlb"
   internal           = true
   load_balancer_type = "network"
-  subnets            = module.customer_vpc.public_subnets
+  subnets            = var.customer_vpc_public_subnets
 
   enable_deletion_protection = true
 
@@ -174,6 +174,10 @@ resource "aws_lb_listener" "tls" {
 resource "aws_vpc_endpoint_service" "customer_gitlab" {
   acceptance_required        = true
   network_load_balancer_arns = [aws_lb.nlb.arn]
+
+  allowed_principals = [
+    "arn:aws:iam::<SOURCEGRAPH_MANAGED_CUSTOMER_AWS_ACCOUNT_ID>:root"
+  ]
 
   tags = {
    // customer tags
