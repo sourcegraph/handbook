@@ -80,8 +80,11 @@ spec:
   infrastructure:
     privateCodeHost:
       aws:
-        #
+        # vpcEndpointService aka AWS Private Link is VPC Endpoint Service name exposed by customer
         vpcEndpointService: com.amazonaws.vpce.<REGION>.<VPC_ENDPOINT_SERVICE_ID>
+        # vpcEndpointPorts list of TCP ports to open for GKE in AWS Security Group, by default only 443
+        vpcEndpointPorts:
+          - 443
         # enabled only if customer uses Private DNS Domain, this can be done only after customers accepts VPC Endpoint
         privateDnsEnabled: false
 ```
