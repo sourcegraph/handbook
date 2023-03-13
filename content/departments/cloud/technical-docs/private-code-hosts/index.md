@@ -80,8 +80,10 @@ spec:
   infrastructure:
     privateCodeHost:
       aws:
-        # domain used to access customer VPC Endpoint Service
-        privateLinkDomain: <CUSTOMER_PRIVATE_LINK_DOMAIN>
+        #
+        vpcEndpointService: com.amazonaws.vpce.<REGION>.<VPC_ENDPOINT_SERVICE_ID>
+        # enabled only if customer uses Private DNS Domain, this can be done only after customers accepts VPC Endpoint
+        privateDnsEnabled: false
 ```
 
 1. Generate additional resources in cdktf and apply
@@ -91,7 +93,27 @@ mi2 generate cdktf
 mi2 instance cdktf deploy -auto-approve
 ```
 
-> If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) for AWS Private Link, [DNS proxy sidecar](#optional-private-code-host-domain) also needs to be used in Cloud Instance.
+> If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) for VPC Endpoint Service and accepted VPC Endpoint connection:
+
+1. enable Private DNS in VPC Endpoint
+
+```yaml
+spec:
+  infrastructure:
+    privateCodeHost:
+      aws:
+        # enabled only if customer uses Private DNS Domain, this can be done only after customers accepts VPC Endpoint
+        privateDnsEnabled: true
+```
+
+1. Generate additional resources in cdktf and apply
+
+```sh
+mi2 generate cdktf
+mi2 instance cdktf deploy -auto-approve
+```
+
+> If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html), addtional [DNS proxy sidecar](#optional-private-code-host-domain) also needs to be used in Cloud Instance.
 
 ## [Optional] Private code host domain
 
@@ -163,7 +185,7 @@ resource "aws_lb_listener" "tls" {
   port              = "443"
   protocol          = "TLS"
   ssl_policy        = "ELBSecurityPolicy-TLS13-1-2-2021-06"
-  certificate_arn   = "arn:aws:acm:us-east-1:592536413916:certificate/1b94c626-8464-4d2c-878e-3e61686c6895"
+  certificate_arn   = "arn:aws:acm:<REGION>:<ACCOUNT:certificate/<CERTIFICATE_ID"
 
   default_action {
     type             = "forward"
