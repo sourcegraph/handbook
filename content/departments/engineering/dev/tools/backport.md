@@ -31,6 +31,10 @@ Backport labels can also be applied after merge, so you don't need to worry if y
 
 As an example, say you wanted to backport into the 5.0 release branch. Attach the `backport 5.0` label to your pull request, and merge. Open the backport pull request, wait for CI to pass, and merge into the release branch.
 
+## I want to merge to `main` during freeze, but NOT backport. What do I do?
+
+If you want to merge some changes to `main` that do **not** belong in the release branch during the code freeze, simply add the label `confirm-no-backport`. This is just a simple mechanism to remind all mergers that the code freeze is in progress, and make sure we are being deliberate about merging.
+
 ## Issues
 
 if the backporting tool fails to create a pull request, it will add a comment to the original pull request with the error message and instructions on how to manually create a backport pull request.
