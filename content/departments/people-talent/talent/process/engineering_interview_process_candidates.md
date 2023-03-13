@@ -30,11 +30,13 @@ We want to find engineers who are:
 - (30m-60m) [Hiring Manager Screen](types_of_interviews.md#hiring-manager-screen)
 - (60m) [Resume Deep Dive](types_of_interviews.md#resume-deep-dive)
 - Team Interview
-  - (60m) Technical Interview
-  - (60m) Technical Interview
+  - (45-60m) Technical Interview (examples below)
+  - (45-60m) Technical Interview (examples below)
   - (60m) [Cross-functional Team Collaboration](types_of_interviews.md#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
 - (30m) [Values Interview](types_of_interviews.md#values-interview)
 - (30m) [Leadership Interview](types_of_interviews.md#leadership-interview)
+- References check
+- Offer
 
 ### Types of Technical Interviews
 
