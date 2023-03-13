@@ -71,7 +71,7 @@ cat upgrade-prs.txt | xargs -n1 gh pr merge --squash
 
 Finally, update the tracking issue.
 
-## Option 2 - maual upgrade
+## Option 2 - manual upgrade
 
 ### Prereq
 
