@@ -20,17 +20,16 @@ Our most important MarTech tools are as follows:
 Sourcegraph uses UTM parameters to understand the source of online traffic to our various sites and products. This data is useful for understanding which sources are best at driving traffic / awareness and informs our marketing investment strategy. Examples of content that should include UTM parameters include links to our product in a LinkedIn feed post, and a Google paid search ad linking to our homepage, among others. All external links to Sourcegraph web properties should include UTM parameters for source and medium. Other possible parameters to include are campaign, content, and term. See definitions for these parameters below:
 
 - **UTM Source -** Identifies which site sent the traffic (e.g., Google, Reddit, etc.)
-- **UTM Medium -** Identifies what type of link was used, such as cost per click or email 
+- **UTM Medium -** Identifies what type of link was used, such as cost per click or email
 - **UTM Campaign -** Identifies a specific product promotion or strategic campaign (note that this is distinct from a Salesforce campaign)
 - **UTM Content -** Identifies what specifically was clicked to bring the user to the site, such as a banner ad or a text link
 - **UTM Term -** Identifies search terms (e.g., code-search, developer-tools, etc.)
 
 [UTM.io](https://web.utm.io) is our internal tool for building webpage links with correct conventions for UTMs. If you do not have access to the Sourcegraph workspace, please request it on Slack. New links can be created using the Create Link button in the top left of the Links sub-page. Currently, values for UTM medium and UTM source are restricted to values aligning with this [framework](https://docs.google.com/spreadsheets/d/1xKusTq98rHWtv1N_5t4FhF-f7OAXnH3GXj9zloA7P9k/edit#gid=435040517). If there is a value for either field you feel is missing, please post your requested medium and source values in the #ask-sales-ops channel and we will add them. Multiple Hubspot workflows are dependent on these values, so this standardization ensures all dependencies continue to properly function.
 
+## HubSpot
 
-## HubSpot 
-
-HubSpot is our marketing automation tool. It’s where we run all automated email marketing campaigns, track engagement, determine campaign membership, score marketing qualified leads, and manage parts of the lead lifecycle. 
+HubSpot is our marketing automation tool. It’s where we run all automated email marketing campaigns, track engagement, determine campaign membership, score marketing qualified leads, and manage parts of the lead lifecycle.
 
 ### HubSpot Access
 
