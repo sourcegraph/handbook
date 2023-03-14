@@ -144,7 +144,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th scope="col" class="category-title execution sticky">Execution</th>
       <th scope="col" class="category-title teamwork sticky">Teamwork</th>
       <th scope="col" class="category-title prerequisites sticky">Pre-requisites</th>
-      <th scope="col" class="category-title years-experience sticky">Years Experience</th>
       <th scope="col" class="category-title additional-notes sticky">Additional Notes/Key Points/Examples</th>
     </tr>
   </thead>
@@ -155,7 +154,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
+      <td class="category-summary" colspan="5">
         <div class="wrapper">
           An engineer focused on learning, growth, and establishing themselves as a contributing teammate.
           Entry level.
@@ -196,9 +195,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <td class="behaviors prerequisites">
         Minimum relevant bachelor degree, or equivalent related experience.
       </td>
-      <td class="behaviors years-experience">
-        Typically 0-2 years relevant experience.
-      </td>
       <td class="behaviors additional-notes">
         <ul>
           <li>Entry level for professional careers. Still learning the role.</li>
@@ -213,7 +209,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
+      <td class="category-summary" colspan="5">
         <div class="wrapper">
           A solid and autonomous contributor, executor, and collaborator.<br />Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
         </div>
@@ -277,9 +273,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <td class="behaviors prerequisites">
         Knows the organization and understands the group’s basic terminology and techniques.
       </td>
-      <td class="behaviors years-experience">
-        Typically 2-5 years relevant experience.
-      </td>
       <td class="behaviors additional-notes">
         <ul>
           <li>Task oriented, but gaining/demonstrating independence.Core skills functional.</li>
@@ -294,7 +287,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
+      <td class="category-summary" colspan="5">
         <div class="wrapper">
         An experienced, strong individual contributor (Senior equivalent).<br />Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
         </div>
@@ -367,9 +360,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <td class="behaviors prerequisites">
         Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
       </td>
-      <td class="behaviors years-experience">
-        Typically 5-8 years relevant experience.
-      </td>
       <td class="behaviors additional-notes">
         <ul>
           <li>Problem solver. Operates autonomously.</li>
@@ -383,7 +373,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
+      <td class="category-summary" colspan="5">
         <div class="wrapper">
         A particularly experienced, impactful contributor.<br />Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
         </div>
@@ -432,9 +422,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <td class="behaviors prerequisites">
       Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
       </td>
-      <td class="behaviors years-experience">
-      Typically 8+ years relevant experience.
-      </td>
       <td class="behaviors additional-notes">
         <ul>
           <li>“Go-to” expert. Usually project leader.</li>
@@ -449,7 +436,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
+      <td class="category-summary" colspan="5">
         <div class="wrapper">
           A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems.<br />Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
         </div>
@@ -505,7 +492,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="6" class="tbd">
+      <td colspan="5" class="tbd">
         <p>
           Senior Staff Engineer. We haven't yet finalized the description of this level at Sourcegraph.
         </p>
