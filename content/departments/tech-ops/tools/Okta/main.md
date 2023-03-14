@@ -61,9 +61,9 @@ Phishing resistant MFA options are the prefered method of authentication. These 
 - App-generated 2FA codes, like Google Authenticator
   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
-## Adding Touch ID as a phishing resistant MFA option
+## Adding Apple Touch ID as a phishing resistant MFA option
 
-Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
+Apple Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one. Note: At this time, only Chrome and Safari support this method.
 
 1. Sign in to your Okta Dashboard
 2. Go to your name > Settings
