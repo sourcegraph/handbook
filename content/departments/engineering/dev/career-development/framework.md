@@ -59,6 +59,15 @@ To learn more, see ["Considerations for promotion" in our talent review process]
   .teamwork {
     --category-color: var(--teamwork-color);
   }
+  .prerequisites {
+    --category-color: var(--proficiency-color);
+  }
+  .years-experience {
+    --category-color: var(--execution-color);
+  }
+  .additional-notes {
+    --category-color: var(--teamwork-color);
+  }
   .levels-table :is(td, th) {
     vertical-align: top;
     background: white;
@@ -75,7 +84,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     border-color: white;
     background: var(--category-color);
   }
-  thead th:is(.proficiency, .teamwork) {
+  thead th:is(.proficiency, .teamwork, .prerequisites, .additional-notes) {
     color: white;
   }
   /*
@@ -134,6 +143,9 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th scope="col" class="category-title proficiency sticky">Proficiency</th>
       <th scope="col" class="category-title execution sticky">Execution</th>
       <th scope="col" class="category-title teamwork sticky">Teamwork</th>
+      <th scope="col" class="category-title prerequisites sticky">Pre-requisites</th>
+      <th scope="col" class="category-title years-experience sticky">Years Experience</th>
+      <th scope="col" class="category-title additional-notes sticky">Additional Notes/Key Points/Examples</th>
     </tr>
   </thead>
 
@@ -143,19 +155,10 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary" colspan="6">
         <div class="wrapper">
-          Possesses and demonstrates core technical skills, while focusing on learning and improving in everything they do.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Able to achieve positive outcomes on small well defined problems.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          An engaged member of their team.
+          An engineer focused on learning, growth, and establishing themselves as a contributing teammate.
+          Entry level.
         </div>
       </td>
     </tr>
@@ -190,25 +193,29 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Reacts well to feedback and is able to quickly learn from it.</li>
         </ul>
       </td>
+      <td class="behaviors prerequisites">
+        Minimum relevant bachelor degree, or equivalent related experience.
+      </td>
+      <td class="behaviors years-experience">
+        Typically 0-2 years relevant experience.
+      </td>
+      <td class="behaviors additional-notes">
+        <ul>
+          <li>Entry level for professional careers. Still learning the role.</li>
+          <li>Core skills limited; requires detailed direction.</li>
+          <li>Focused on learning, growth, and establishing themselves as a contributing teammate.</li>
+          <li>Analogy: rode in a boat once; knows what sailing is.</li>
+        </ul>
+      </td>
     </tr>
     <!-- IC2 -->
     <tr>
       <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary" colspan="6">
         <div class="wrapper">
-          A solid technical contributor who produces high-quality code.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Autonomously executes on the team’s short-term goals and actively contributes to project planning.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          A solid communicator and proactive collaborator.
+          A solid and autonomous contributor, executor, and collaborator.<br />Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
         </div>
       </td>
     </tr>
@@ -267,25 +274,29 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Upholds team culture and levels the technical proficiency on the team up.</li>
         </ul>
       </td>
+      <td class="behaviors prerequisites">
+        Knows the organization and understands the group’s basic terminology and techniques.
+      </td>
+      <td class="behaviors years-experience">
+        Typically 2-5 years relevant experience.
+      </td>
+      <td class="behaviors additional-notes">
+        <ul>
+          <li>Task oriented, but gaining/demonstrating independence.Core skills functional.</li>
+          <li>Requires some direction.</li>
+          <li>Effectively delivers work without a paint, communicated being blocked, seeks “help, and communicates outcome.</li>
+          <li>Analogy: learns about sailing; takes orders on specific tasks (grab that rope).</li>
+        </ul>
+      </td>
     </tr>
     <!-- IC3 -->
     <tr>
       <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary" colspan="6">
         <div class="wrapper">
-          An experienced, versatile technical contributor who demonstrates foresight in technical decision making.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Independently scopes and implements solutions to complex, loosely-defined problems.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          A strong, clear communicator, making collaboration happen where it should to move their team forward and a particularly valuable contributor to discussions.
+        An experienced, strong individual contributor (Senior equivalent).<br />Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
         </div>
       </td>
     </tr>
@@ -353,25 +364,28 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Actively unblocks teammates.</li>
         </ul>
       </td>
+      <td class="behaviors prerequisites">
+        Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
+      </td>
+      <td class="behaviors years-experience">
+        Typically 5-8 years relevant experience.
+      </td>
+      <td class="behaviors additional-notes">
+        <ul>
+          <li>Problem solver. Operates autonomously.</li>
+          <li>Strong core skills, requires minimal direction.</li>
+          <li>Analogy: helps sail the boat; knows basic roping techniques, does basic tasks without help.</li>
+        </ul>
+      </td>
     </tr>
     <!-- IC4 -->
     <tr>
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary" colspan="6">
         <div class="wrapper">
-          An engineer whose technical expertise benefits their entire team.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Supports the EM and PM in ensuring that the team is always working on the right problems with the right scope given higher level goals, and that the team is reliably delivering on time.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          A very strong communicator who drives cross-functional collaboration efforts and the long-term direction of their team.
+        A particularly experienced, impactful contributor.<br />Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
         </div>
       </td>
     </tr>
@@ -415,25 +429,29 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Ability to delegate and clearly communicate capacity needed to work on those areas.</li>
         </ul>
       </td>
+      <td class="behaviors prerequisites">
+      Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
+      </td>
+      <td class="behaviors years-experience">
+      Typically 8+ years relevant experience.
+      </td>
+      <td class="behaviors additional-notes">
+        <ul>
+          <li>“Go-to” expert. Usually project leader.</li>
+          <li>Contributes outside direct area of responsibility.</li>
+          <li>Can hand off projects to other team members successfully</li>
+          <li>Analogy: sails smaller sailboats solo; knows advanced rigging techniques, confident sailor in most weather.</li>
+        </ul>
+      </td>
     </tr>
     <!-- IC5 -->
     <tr>
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary" colspan="6">
         <div class="wrapper">
-          A respected technical leader, on and off their team.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Defines deep or broad goals that align with top level company goals, and ensures delivery to meet business needs.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          An extremely strong communicator doing outstanding stakeholder management.
+          A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems.<br />Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
         </div>
       </td>
     </tr>
@@ -469,16 +487,29 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Proactively provides feedback and flags concerns that are going on within the org.</li>
         </ul>
       </td>
+      <td class="behaviors prerequities">
+        Has unique knowledge and the ability to apply that knowledge to a broader context.
+      </td>
+      <td class="behaviors years-experience">
+        Years of experience not essential.
+      </td>
+      <td class="behaviors additional-notes">
+        <ul>
+          <li>Deep expertise/unique knowledge.Broad impact, broad context.</li>
+          <li>Provides breakthroughs & requires no direction.</li>
+          <li>Partners regularly with the exec team.</li>
+          <li>Analogy: occasionally takes the helm; navigates rough waters; knows how to sail different types of boats.</li>
+        </ul>
+      </td>
     </tr>
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="3" class="tbd">
+      <td colspan="6" class="tbd">
         <p>
           Senior Staff Engineer. We haven't yet finalized the description of this level at Sourcegraph.
         </p>
       </td>
     </tr>
   </tbody>
-
 </table>
