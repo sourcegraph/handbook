@@ -163,7 +163,7 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl
 
 ### AWS Private Link playbook for customer
 
-When customer has private code host inside AWS VPC and needs to expose it for Sourcegraph managed AWS VPC, customer can use [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/privatelink/create-endpoint-service.html) or follow the steps:
+When a customer has private code hosts inside the AWS VPC and needs to expose it for Sourcegraph managed AWS VPC, customers can use [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/privatelink/create-endpoint-service.html) or follow these steps:
 
 1. Create Network Loadbalancer, VPC Endpoint Service and VPC Endpoint Service via terraform file:
 
