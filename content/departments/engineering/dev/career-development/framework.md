@@ -133,6 +133,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
   }
 </style>
 
+
 ## Levels
 
 <table class="levels-table">
@@ -476,9 +477,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       </td>
       <td class="behaviors prerequities">
         Has unique knowledge and the ability to apply that knowledge to a broader context.
-      </td>
-      <td class="behaviors years-experience">
-        Years of experience not essential.
       </td>
       <td class="behaviors additional-notes">
         <ul>
