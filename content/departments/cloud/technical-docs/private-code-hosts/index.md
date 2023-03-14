@@ -71,7 +71,7 @@ Upon enabling the private code host support, follow the process [to update the d
 [AWS Private Link](https://aws.amazon.com/privatelink/) is a secure method to expose a single endpoint (i.e. code host) from AWS VPC to specific AWS Principals (IAM in specific AWS VPC).
 This solution ensures code the host is not exposed from AWS and only a given principal can access it.
 
-When customer exposes code host via VPC Endpoint Service, Cloud Instance needs to create [AWS VPC Endpoint](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html) to expose connection inside Sourcegraph Managed AWS VPC.
+When a customer exposes the code host via VPC Endpoint Service, the Cloud Instance needs to create an [AWS VPC Endpoint](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html) to expose connections inside the Sourcegraph Managed AWS VPC.
 
 1. Add addtional field to `privateCodeHost` section
 
