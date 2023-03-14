@@ -425,8 +425,6 @@ The amount specified as compensation in your Deel contract is based on an exchan
   </tr>
 </table>
 
-
-
 #### What does the onboarding process look like?
 
 Learn about the [process of being onboarded in Deel](https://help.letsdeel.com/hc/en-gb/sections/8266345839249-Onboarding-Guide).
