@@ -59,6 +59,15 @@ To learn more, see ["Considerations for promotion" in our talent review process]
   .teamwork {
     --category-color: var(--teamwork-color);
   }
+  .prerequisites {
+    --category-color: var(--proficiency-color);
+  }
+  .years-experience {
+    --category-color: var(--execution-color);
+  }
+  .additional-notes {
+    --category-color: var(--teamwork-color);
+  }
   .levels-table :is(td, th) {
     vertical-align: top;
     background: white;
@@ -75,7 +84,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     border-color: white;
     background: var(--category-color);
   }
-  thead th:is(.proficiency, .teamwork) {
+  thead th:is(.proficiency, .teamwork, .prerequisites, .additional-notes) {
     color: white;
   }
   /*
@@ -134,9 +143,9 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th scope="col" class="category-title proficiency sticky">Proficiency</th>
       <th scope="col" class="category-title execution sticky">Execution</th>
       <th scope="col" class="category-title teamwork sticky">Teamwork</th>
-      <th scope="col" class="category-title proficiency sticky">Pre-requisites</th>
-      <th scope="col" class="category-title execution sticky">Years Experience</th>
-      <th scope="col" class="category-title teamwork sticky">Additional Notes/Key Points/Examples</th>
+      <th scope="col" class="category-title prerequisites sticky">Pre-requisites</th>
+      <th scope="col" class="category-title years-experience sticky">Years Experience</th>
+      <th scope="col" class="category-title additional-notes sticky">Additional Notes/Key Points/Examples</th>
     </tr>
   </thead>
 
@@ -184,13 +193,13 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Reacts well to feedback and is able to quickly learn from it.</li>
         </ul>
       </td>
-      <td class="behaviors proficiency">
+      <td class="behaviors prerequisites">
         Minimum relevant bachelor degree, or equivalent related experience.
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors years-experience">
         Typically 0-2 years relevant experience.
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors additional-notes">
         <ul>
           <li>Entry level for professional careers. Still learning the role.</li>
           <li>Core skills limited; requires detailed direction.</li>
@@ -265,13 +274,13 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Upholds team culture and levels the technical proficiency on the team up.</li>
         </ul>
       </td>
-      <td class="behaviors proficiency">
+      <td class="behaviors prerequisites">
         Knows the organization and understands the group’s basic terminology and techniques.
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors years-experience">
         Typically 2-5 years relevant experience.
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors additional-notes">
         <ul>
           <li>Task oriented, but gaining/demonstrating independence.Core skills functional.</li>
           <li>Requires some direction.</li>
@@ -355,13 +364,13 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Actively unblocks teammates.</li>
         </ul>
       </td>
-      <td class="behaviors proficiency">
+      <td class="behaviors prerequisites">
         Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors years-experience">
         Typically 5-8 years relevant experience.
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors additional-notes">
         <ul>
           <li>Problem solver. Operates autonomously.</li>
           <li>Strong core skills, requires minimal direction.</li>
@@ -420,13 +429,13 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Ability to delegate and clearly communicate capacity needed to work on those areas.</li>
         </ul>
       </td>
-      <td class="behaviors">
+      <td class="behaviors prerequisites">
       Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
       </td>
-      <td class="behaviors">
+      <td class="behaviors years-experience">
       Typically 8+ years relevant experience.
       </td>
-      <td class="behaviors">
+      <td class="behaviors additional-notes">
         <ul>
           <li>“Go-to” expert. Usually project leader.</li>
           <li>Contributes outside direct area of responsibility.</li>
@@ -478,13 +487,13 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Proactively provides feedback and flags concerns that are going on within the org.</li>
         </ul>
       </td>
-      <td class="behaviors">
+      <td class="behaviors prerequities">
         Has unique knowledge and the ability to apply that knowledge to a broader context.
       </td>
-      <td class="behaviors">
+      <td class="behaviors years-experience">
         Years of experience not essential.
       </td>
-      <td class="behaviors">
+      <td class="behaviors additional-notes">
         <ul>
           <li>Deep expertise/unique knowledge.Broad impact, broad context.</li>
           <li>Provides breakthroughs & requires no direction.</li>
