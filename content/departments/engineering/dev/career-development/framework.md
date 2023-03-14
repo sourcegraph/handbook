@@ -133,7 +133,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
   }
 </style>
 
-
 ## Levels
 
 <table class="levels-table">
