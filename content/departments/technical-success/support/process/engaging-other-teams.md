@@ -126,7 +126,10 @@ Any questions about Batch Changes should be routed to the [Batch Changes team](.
 
 **Keywords**: `cloud`, `Open Source Search`, `sourcegraph.com`
 
-Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../../engineering/teams/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
+Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../../engineering/teams/index.md) via the #team-cloud channel.
+
+Cloud gets cc'd on all cloud related tickets (i.e. Engineering Team field is set to Cloud).
+Cloud team has also agreed to ping Support on P3/P5 alerts on #team-customer-support so we can more proactively help customers that are experiencing issues on their cloud managed instance.
 
 ### IAM
 
