@@ -2,7 +2,7 @@
 
 Sourcegraph is a high-trust and [high-agency](../../../company-info-and-process/values/index.md#high-agency) company. We must trust one another to be operating in the best interests of the team.
 
-Privacy is a right that we believe deeply in, both for our customers (e.g. see our [philosophy on data collection from self-hosted Sourcegraph instances](https://docs.sourcegraph.com/dev/background-information/adding_ping_data#ping-philosophy)) and for our teammates. Please see our [Acceptable Use Policy](../../../company-info-and-process/policies/acceptable-use-policy.md) that outlines some of the activities that are prohibited on company devices. 
+Privacy is a right that we believe deeply in, both for our customers (e.g. see our [philosophy on data collection from self-hosted Sourcegraph instances](https://docs.sourcegraph.com/dev/background-information/adding_ping_data#ping-philosophy)) and for our teammates. Please see our [Acceptable Use Policy](../../../company-info-and-process/policies/acceptable-use-policy.md) that outlines some of the activities that are prohibited on company devices.
 
 We (Tech Ops, Security, and company leadership) all personally care deeply about individual privacy, autonomy, and trust, and will not access or use private teammate information for any reason other than ensuring company and customer data security and legal compliance.
 
