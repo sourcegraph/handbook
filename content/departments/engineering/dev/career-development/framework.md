@@ -109,113 +109,23 @@ As an IC you'll progress on several axis:
 - From "has a hard time dealing with ambiguity" to god-like-world-building-powers
 - From practitioner to champion to shaper in regards to the influence on our culture
 
+## Levels
+
 <style>
   .container {
     --width: 1300px;
   }
-  .levels-table {
-    --proficiency-color: var(--sg-vivid-violet);
-    --execution-color: var(--sg-sky-blue);
-    --teamwork-color: var(--sg-vermillion);
-
-    table-layout: fixed;
-  }
-  .proficiency {
-    --category-color: var(--proficiency-color);
-  }
-  .execution {
-    --category-color: var(--execution-color);
-  }
-  .teamwork {
-    --category-color: var(--teamwork-color);
-  }
-  .prerequisites {
-    --category-color: var(--proficiency-color);
-  }
-  .years-experience {
-    --category-color: var(--execution-color);
-  }
-  .additional-notes {
-    --category-color: var(--teamwork-color);
-  }
-  .levels-table :is(td, th) {
-    vertical-align: top;
-    background: white;
-  }
-  .levels-table [id] {
-    /* Account for sticky table header */
-    scroll-margin-top: calc(var(--header-height) + 2.25rem);
-  }
-  thead th:first-child {
-    width: 8ch;
-  }
-  thead th.category-title {
-    text-align: center;
-    border-color: white;
-    background: var(--category-color);
-  }
-  thead th:is(.proficiency, .teamwork, .prerequisites, .additional-notes) {
-    color: white;
-  }
-  /*
-  Repeat the category color as a border color after each category summary.
-  Safari doesn't respect different border colors below a cell spanning multiple columns,
-  so we need to draw borders on wrapper elements instead.
-  */
-  .levels-table .category-summaries-row {
-    border-top: none;
-  }
-  .levels-table .category-summary {
-    border-top: none;
-    padding: 0;
-  }
-  .category-summary > .wrapper {
-    /* Note that absolute positioning wouldn't work here because <td>s can't be position: relative in Firefox. */
-    width: 100%;
-    height: 100%;
-    padding: 6px 13px;
-    display: block;
-    border-top: 1px solid var(--category-color);
-  }
-  .level {
-    white-space: nowrap;
-  }
-  .levels-table td[colspan] {
-    text-align: center;
-  }
-  .level-summary, .category-summaries-row {
-    font-style: italic;
-  }
-  .level-summary {
-    border-bottom: none !important;
-  }
-  .levels-table td.tbd {
-    vertical-align: middle;
-    text-align: left;
-    padding: 2.5rem;
-  }
-  /*
-  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
-  Note that min-height also doesn't work.
-  */
-  th#ic6 {
-    height: 11rem;
-  }
 </style>
-
-## Levels
 
 <table class="levels-table">
 
   <thead>
     <tr>
-      <th scope="col" class="sticky">Level</th>
-      <th scope="col" class="category-title proficiency sticky">Proficiency</th>
-      <th scope="col" class="category-title execution sticky">Execution</th>
-      <th scope="col" class="category-title teamwork sticky">Teamwork</th>
-      <th scope="col" class="category-title prerequisites sticky">Pre-requisites</th>
-      <th scope="col" class="category-title years-experience sticky">Years Experience</th>
-      <th scope="col" class="category-title additional-notes sticky">Additional Notes/Key Points/Examples</th>
+      <th scope="col">Level</th>
+      <th scope="col" class="category-title">Proficiency</th>
+      <th scope="col" class="category-title">Execution</th>
+      <th scope="col" class="category-title">Teamwork</th>
+      <th scope="col" class="category-title">Additional Notes/Key Points/Examples</th>
     </tr>
   </thead>
 
@@ -224,16 +134,17 @@ As an IC you'll progress on several axis:
     <tr>
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
-        <div class="wrapper">
-          An engineer focused on learning, growth, and establishing themselves as a contributing teammate.
-          Entry level.
-        </div>
+    <tr>
+      <td class="level-summary" colspan="4">
+          <p>An engineer focused on learning, growth, and establishing themselves as a contributing teammate. Entry level.</p>
+          <ul>
+            <li><strong>Prerequisites:</strong> Minimum relevant bachelor degree, or equivalent related experience.</li>
+            <li><strong>Years of experience:</strong> Typically 0-2</li>
+          </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Contributes technical solutions to well-scoped tasks, with guidance.</li>
           <li>Demonstrates the essentials needed to do work in their domain.</li>
@@ -244,7 +155,7 @@ As an IC you'll progress on several axis:
           <li>Understands how Sourcegraoh works @ the highest level.</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Manages their own time and wellbeing, meeting commitments while finding balance and creating rest.</li>
           <li>Asks for guidance in unfamiliar areas or for underspecified tasks. Speaks up if not comfortable with the scopes or timelines.</li>
@@ -253,7 +164,7 @@ As an IC you'll progress on several axis:
           <li>Eager to learn and solve problems.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Actively asks teammates questions to seek feedback and clarify, including cross-functionally (e.g. Design and Product).</li>
           <li>Participates and demonstrates curiosity in team meetings.</li>
@@ -263,13 +174,7 @@ As an IC you'll progress on several axis:
           <li>Reacts well to feedback and is able to quickly learn from it.</li>
         </ul>
       </td>
-      <td class="behaviors prerequisites">
-        Minimum relevant bachelor degree, or equivalent related experience.
-      </td>
-      <td class="behaviors years-experience">
-        Typically 0-2 years relevant experience.
-      </td>
-      <td class="behaviors additional-notes">
+      <td class="behaviors">
         <ul>
           <li>Entry level for professional careers. Still learning the role.</li>
           <li>Core skills limited; requires detailed direction.</li>
@@ -282,15 +187,17 @@ As an IC you'll progress on several axis:
     <tr>
       <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
-        <div class="wrapper">
-          A solid and autonomous contributor, executor, and collaborator.<br />Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
-        </div>
+    <tr>
+      <td class="level-summary" colspan="4">
+          <p>A solid and autonomous contributor, executor, and collaborator. Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.</p>
+          <ul>
+            <li><strong>Prerequisites:</strong> Knows the organization and understands the group’s basic terminology and techniques.</li>
+            <li><strong>Years of experience:</strong> Typically 2-5</li>
+          </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>
             Proficient in core technical skills of their primary focus area, while
@@ -304,7 +211,7 @@ As an IC you'll progress on several axis:
           <li>Able to manage their time appropriately to encourage efficiency.</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Breaks down tasks, plans, estimates and cuts scope as appropriate to deliver reliably.</li>
           <li>Prioritizes their own work in alignment with team goals.</li>
@@ -315,7 +222,7 @@ As an IC you'll progress on several axis:
           <li>Self-sufficient and able to deliver without much guidance including being able to seek and lead smaller projects.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>
             Communicates clearly (in meetings and asynchronously), escalating blockers
@@ -344,13 +251,7 @@ As an IC you'll progress on several axis:
           <li>Upholds team culture and levels the technical proficiency on the team up.</li>
         </ul>
       </td>
-      <td class="behaviors prerequisites">
-        Knows the organization and understands the group’s basic terminology and techniques.
-      </td>
-      <td class="behaviors years-experience">
-        Typically 2-5 years relevant experience.
-      </td>
-      <td class="behaviors additional-notes">
+      <td class="behaviors">
         <ul>
           <li>Task oriented, but gaining/demonstrating independence.Core skills functional.</li>
           <li>Requires some direction.</li>
@@ -363,15 +264,17 @@ As an IC you'll progress on several axis:
     <tr>
       <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
-        <div class="wrapper">
-        An experienced, strong individual contributor (Senior equivalent).<br />Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
-        </div>
+    <tr>
+      <td class="level-summary" colspan="4">
+        <p>An experienced, strong individual contributor (Senior equivalent). Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.</p>
+        <ul>
+          <li><strong>Prerequisites:</strong> Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.</li>
+          <li><strong>Years of experience:</strong> Typically 5-8</li>
+        </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>
             Expert in their domain: deep understanding of their team’s code, debugs
@@ -400,7 +303,7 @@ As an IC you'll progress on several axis:
           <li>Exposed and comfortable in leading larger projects.</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Independently scopes and implements solutions to complex, loosely-defined problems.</li>
           <li>
@@ -423,7 +326,7 @@ As an IC you'll progress on several axis:
           <li>Communicates progress and status updates to stakeholders.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Communicates technical issues and decisions clearly, brings clarity to discussions and helps drive them forward.</li>
           <li>Routinely drives improvements in team/company processes (retros, testing, on-call, planning, etc.)</li>
@@ -434,13 +337,7 @@ As an IC you'll progress on several axis:
           <li>Actively unblocks teammates.</li>
         </ul>
       </td>
-      <td class="behaviors prerequisites">
-        Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
-      </td>
-      <td class="behaviors years-experience">
-        Typically 5-8 years relevant experience.
-      </td>
-      <td class="behaviors additional-notes">
+      <td class="behaviors">
         <ul>
           <li>Problem solver. Operates autonomously.</li>
           <li>Strong core skills, requires minimal direction.</li>
@@ -452,15 +349,17 @@ As an IC you'll progress on several axis:
     <tr>
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
-        <div class="wrapper">
-        A particularly experienced, impactful contributor.<br />Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
-        </div>
+    <tr>
+      <td class="level-summary" colspan="4">
+        <p>A particularly experienced, impactful contributor. Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.</p>
+        <ul>
+          <li><strong>Prerequisites:</strong> Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.</li>
+          <li><strong>Years of experience:</strong> Typically 8+</li>
+        </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>High-quality technical decision making, leading team-sized tasks that affect one or more complex systems or mission-critical areas.</li>
           <li>Consistently incorporates non-technical factors into technical decisions and weights them appropriately.</li>
@@ -478,7 +377,7 @@ As an IC you'll progress on several axis:
           <li>Able to make trade-offs knowing the impact that it will have.</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Supports the EM and PM in ensuring that the team is always working on the right problems with the right scope given higher level goals, and that the team is reliably delivering on time.</li>
           <li>Accountable for the team's work quality and professionalism to ensure the team delivers high quality and work diligently to limit the problems for our customers or other teams.</li>
@@ -490,7 +389,7 @@ As an IC you'll progress on several axis:
           <li>Identifies problems that need to be solved and executes on them.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Effectively able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.</li>
           <li>Actively seeks dissenting opinions, disconfirming evidence, etc.</li>
@@ -499,13 +398,7 @@ As an IC you'll progress on several axis:
           <li>Ability to delegate and clearly communicate capacity needed to work on those areas.</li>
         </ul>
       </td>
-      <td class="behaviors prerequisites">
-      Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
-      </td>
-      <td class="behaviors years-experience">
-      Typically 8+ years relevant experience.
-      </td>
-      <td class="behaviors additional-notes">
+      <td class="behaviors">
         <ul>
           <li>“Go-to” expert. Usually project leader.</li>
           <li>Contributes outside direct area of responsibility.</li>
@@ -518,15 +411,17 @@ As an IC you'll progress on several axis:
     <tr>
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary" colspan="6">
-        <div class="wrapper">
-          A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems.<br />Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
-        </div>
+    <tr>
+      <td class="level-summary" colspan="4">
+          <p>A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems. Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.</p>
+          <ul>
+            <li><strong>Prerequisites:</strong> Has unique knowledge and the ability to apply that knowledge to a broader context.</li>
+            <li><strong>Years of experience:</strong> Not essential</li>
+          </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Sets the technical vision for their team, and influences the broader technical vision.</li>
           <li>Initiates and drives projects with broad/deep impact that enable higher quality work.</li>
@@ -536,7 +431,7 @@ As an IC you'll progress on several axis:
           <li>Responsible for working on the right thing.</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Proactively identifies areas for improvement across engineering. Suggests process and methodology improvements.</li>
           <li>Works closely with Engineering/Product leadership to validate alignment of team roadmaps within their org.</li>
@@ -547,7 +442,7 @@ As an IC you'll progress on several axis:
           <li>Accountable for the team's work quality and professionalism to ensure the team delivers high quality and work diligently to limit the problems for our customers or other teams.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Provides technical expertise internally and externally, informing what can be achieved.</li>
           <li>Regularly shares knowledge to influence and up-level large and/or senior audiences.</li>
@@ -557,13 +452,7 @@ As an IC you'll progress on several axis:
           <li>Proactively provides feedback and flags concerns that are going on within the org.</li>
         </ul>
       </td>
-      <td class="behaviors prerequities">
-        Has unique knowledge and the ability to apply that knowledge to a broader context.
-      </td>
-      <td class="behaviors years-experience">
-        Years of experience not essential.
-      </td>
-      <td class="behaviors additional-notes">
+      <td class="behaviors">
         <ul>
           <li>Deep expertise/unique knowledge.Broad impact, broad context.</li>
           <li>Provides breakthroughs & requires no direction.</li>
@@ -575,7 +464,7 @@ As an IC you'll progress on several axis:
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="6" class="tbd">
+      <td colspan="4" class="tbd">
         <p>
           Senior Staff Engineer. We haven't yet finalized the description of this level at Sourcegraph.
         </p>

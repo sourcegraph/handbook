@@ -26,374 +26,303 @@ Promotion discussions occur when your manager can make the case that you’ve ha
 
 Promotions from one level to another are considered in impact reviews conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
+## Levels
+
 <style>
   .container {
     --width: 1300px;
   }
-  .levels-table {
-    --proficiency-color: var(--sg-vivid-violet);
-    --delivery-color: var(--sg-sky-blue);
-    --teamwork-color: var(--sg-vermillion);
-
-    table-layout: fixed;
-  }
-  .proficiency {
-    --category-color: var(--proficiency-color);
-  }
-  .delivery {
-    --category-color: var(--delivery-color);
-  }
-  .teamwork {
-    --category-color: var(--teamwork-color);
-  }
-  .levels-table :is(td, th) {
-    vertical-align: top;
-    background: white;
-  }
-  .levels-table [id] {
-    /* Account for sticky table header */
-    scroll-margin-top: calc(var(--header-height) + 2.25rem);
-  }
-  thead th:first-child {
-    width: 8ch;
-  }
-  thead th.category-title {
-    text-align: center;
-    border-color: white;
-    background: var(--category-color);
-  }
-  thead th:is(.proficiency, .teamwork) {
-    color: white;
-  }
-  /*
-  Repeat the category color as a border color after each category summary.
-  Safari doesn't respect different border colors below a cell spanning multiple columns,
-  so we need to draw borders on wrapper elements instead.
-  */
-  .levels-table .category-summaries-row {
-    border-top: none;
-  }
-  .levels-table .category-summary {
-    border-top: none;
-    padding: 0;
-  }
-  .category-summary > .wrapper {
-    /* Note that absolute positioning wouldn't work here because <td>s can't be position: relative in Firefox. */
-    width: 100%;
-    height: 100%;
-    padding: 6px 13px;
-    display: block;
-    border-top: 1px solid var(--category-color);
-  }
-  .level {
-    white-space: nowrap;
-  }
-  .levels-table td[colspan] {
-    text-align: center;
-  }
-  .level-summary, .category-summaries-row {
-    font-style: italic;
-  }
-  .level-summary {
-    border-bottom: none !important;
-  }
-  .levels-table td.tbd {
-    vertical-align: middle;
-    text-align: left;
-    padding: 2.5rem;
-  }
-  /*
-  Safari doesn't make the two IC6/IC7 rows equal size automatically, so give them explicit heights
-  Note that min-height also doesn't work.
-  */
-  th#ic6, th#ic7 {
-    height: 11rem;
-  }
 </style>
 
-## Levels
+<table class="levels-table">
 
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>IC 1: An individual new to the field with no prior industry experience; focused on learning, growth, and establishing themselves as a contributing member of the team (Entry Level)</strong>
-   </td>
-   <td><strong>IC 2: An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills (Associate)</strong>
-   </td>
-   <td><strong>IC 3: A mid-level individual contributor beginning to independently solve for more complex customer issues (Specialist)</strong>
-   </td>
-   <td><strong>IC 4: A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently (Senior)</strong>
-   </td>
-   <td><strong>IC 5: A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s (Lead)</strong>
-   </td>
-   <td><strong>IC 6: A subject matter expert with a visible external brand/presence; equivalent in impact to a Manager, and acts as a mentor to preceding IC level team members (Principal)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Proficiency
-   </td>
-   <td><strong>Non-Technical</strong>:
-<p>
-• You troubleshoot and resolve common customer issues with guidance.
-<p>
-• You demonstrate the essentials needed to do work in our domain (as outlined in our<a href="../../support/index.md#our-guiding-principles"> guiding principle</a><span style="text-decoration:underline;">s</span>).
-<p>
-• You willingly receive feedback from teammates to deliver positive outcomes for customers and the team.
-<p>
-• You increase your knowledge of Sourcegraph, our customers, team, general processes and workflows through reading, observing, and doing.
-<p>
-<strong>Technical</strong>:
-<p>
-• You have a basic understanding of Linux.
-<p>
-• You have a basic understanding of Git.
-<p>
-• You have a basic understanding of databases.
-<p>
-• You have limited working proficiency with codehosts.
-<p>
-• You are familiar with containerized runtimes like Docker and Kubernetes.
-<p>
-• You have a basic understanding of Sourcegraph main product areas.
-   </td>
-   <td><strong>Non-Technical:</strong>
-<p>
-• You solve customer issues, sometimes with guidance, and are able to collaborate with your teammates to help them troubleshoot problems.
-<p>
-• You consistently embody our <a href="../index.md#our-guiding-principles">guiding principles</a> in the cases that you take responsibility for.
-<p>
-• Externally, you are able to effectively and proactively communicate with customers, facilitating collaboratively as appropriate.
-<p>
-• You integrate feedback from teammates to deliver high-quality solutions.
-<p>
-• You increase your communication, product, technical (dev or ops), collaboration, and facilitation knowledge/skills through reading, observing, and doing.
-<p>
-<strong>Technical:</strong>
-<p>
-• You are proficient in the primary elements of deployment types (Docker and Kubernetes).
-<p>
-• You have professional working proficiency of Git.
-<p>
-• You have professional working proficiency of all codehosts - GitHub (Cloud or Self-hosted), GitLab (Cloud or Self-hosted), Bitbucket Server, Bitbucket Data Center, or Perforce.
-<p>
-• You have a strong understanding of Sourcegraph main product areas (Search, Batch Changes, Insights, Monitoring, etc)
-<p>
-• You have a strong understanding of databases.
-<p>
-• You have a strong understanding of containerized runtimes like Docker and Kubernetes.
-<p>
-• You have a strong understanding of cloud technologies.
-   </td>
-   <td><strong>Non-Technical:</strong>
-<p>
-• You are able to effectively facilitate troubleshooting calls with customers independently.
-<p>
-• At any point in time, anyone can review your cases alongside our guiding principles and definitions of success and you meet these at least 95% of the time.
-<p>
-• Externally, you lead all plans for issue resolution, maintaining clear and transparent communications with customers throughout; you identify next steps and followthrough to completion.
-<p>
-• You are skilled at diffusing customer frustrations/escalations.
-<p>
-• You write validated customer-facing documentation updates related to the dev ops aspects of our product.
-<p>
-• You can explain the reasoning and trade-offs behind your decisions, including technical decisions.
-<p>
-• You provide helpful, timely case documentation and/or code reviews.
-<p>
-• You invest in your own growth; willingly exploring new tools, skills, areas of the codebase, etc.
-<p>
-<strong>Technical:</strong>
-<p>
-• You are an expert in all deployment types.
-<p>
-• You have advanced knowledge of Sourcegraph main product areas and are a subject matter expert in at least one product area (Search, Batch Changes, Insights, Monitoring, etc)
-<p>
-• You have advanced knowledge of cloud technologies.
-<p>
-• You have full professional proficiency of Git.
-<p>
-• You have a working understanding of 1 or more of Sourcegraph's codebase languages (Go, Javascript, Python, Typescript) while developing proficiency in the rest.
-   </td>
-   <td><strong>Non-Technical</strong>:
-<p>
-• You are an expert in your domain: you have a deep understanding of our product and codebase/dev ops practices, and are a skilled communicator, collaborator and facilitator.
-<p>
-• You have in depth knowledge of the existing codebase and stay abreast of new refactors, omissions, etc.
-<p>
-• You find technical solutions to open-ended, ambiguously defined problems (in our product or centered on the support team/workflow).
-<p>
-• When finding solutions, you identify the core problems that need to be solved, as well as goals, risks, trade-offs, customer impact, technical debt, non-technical factors, etc.
-<p>
-• You give insightful feedback on higher-level aspects (architecture, scalability, customer-focus, etc.) in case/code reviews and RFCs, holding teammates to the same high standard you set for yourself.
-<p>
-• You maintain awareness of approaches outside of Sourcegraph that we’re not using, and use this to help define best practices for the team/domain.
-<p>
-<strong>Technical</strong>:
-<p>
-• You are a subject matter expert in all deployment types, and act as a mentor to IC1s and IC2s.
-<p>
-• You are an expert in cloud technologies.
-<p>
-• You are well-versed in all Sourcegraph features and contextual concepts.
-<p>
-• You are an expert in Git.
-<p>
-• You have full proficiency in all codehosts and have working knowledge of, at least, one other codehost apart from GitHub, GitLab, BitBucket or Perforce.
-<p>
-• You are proficient in writing code in Go, Javascript, Python or any of our core programming languages.
-<p>
-• You write maintainable, well-tested code (for our product or for team tooling) that aligns with the style and practices of the team/codebase.
-   </td>
-   <td><strong>Non-Technical</strong>:
-<p>
-• You make high-quality technical, and non-technical, decisions leading team-sized tasks that affect one or more complex systems or mission-critical areas.
-<p>
-• You consistently incorporate non-technical factors into technical decisions and weigh them appropriately.
-<p>
-• You have proficiency beyond your domain areas, understanding more about business operations and/or engineering scope/efforts.
-<p>
-• You invest in technology, tools, and processes that benefit your entire team.
-<p>
-• You lift your teammates through feedback, mentorship, and sharing reusable patterns.
-<p>
-<strong>Technical</strong>:
-<p>
-• You are a subject matter expert in all Sourcegraph features and contextual concepts and regularly help unblock and enable your teammates.
-<p>
-• You have full proficiency in all codehosts and have working knowledge of multiple other codehosts apart from GitHub, GitLab, BitBucket or Perforce.
-<p>
-• You are an expert in writing code in Go, Javascript, Python or any of our core programming languages.
-   </td>
-   <td><strong>Non-Technical</strong>:
-<p>
-• You help set the vision for the team and influence the broader vision beyond the team.
-<p>
-• You lead cross functional projects that impact aspects of the business both within, and outside, your primary domain.
-<p>
-• You provide oversight, coaching, and guidance through case/code reviews and other activities, both on or off the team.
-<p>
-<strong>Technical</strong>:
-<p>
-• You contribute at least 10 PRs per quarter in support of Product and Engineering defined needs.
-   </td>
-  </tr>
-  <tr>
-   <td>Delivery
-   </td>
-   <td>• Under the guidance of your manager, you create a plan to consistently deliver on your commitments, while creating space to allow for learning, growth and rest.
-<p>
-• You exercise profound compassion, with colleagues and customers.
-<p>
-• You recognize when you are blocked and ask for support.
-   </td>
-   <td>• You manage your day-to-day workflow appropriately to reliably deliver on your commitments, adhering to all defined team processes and workflows.
-<p>
-• You ask for guidance in unfamiliar areas or for underspecified tasks and speak up if you are not at ease with what you understand you need to do.
-<p>
-• You have a general understanding of how users interact with our product/infrastructure.
-<p>
-• You are able to establish rapport with customers and colleagues to achieve meaningful and productive conversation.
-<p>
-• Your tickets are maintained and kept up-to-date to allow for accurate team-level reporting.
-   </td>
-   <td>• You prioritize your work in alignment with team/company goals and objectives.
-<p>
-• You scope and implement solutions to pre-defined problems, with guidance.
-<p>
-• You detect problems (in the product or our processes) that could erode the customer experience and actively engage to resolve them.
-<p>
-• You firmly grasp how users interact with our product/infrastructure.
-<p>
-• You are skilled in establishing rapport with customers and colleagues, and consistently deliver results on time.
-   </td>
-   <td>• You independently scope and implement solutions to complex, loosely-defined problems.
-<p>
-• You estimate methodically, based on iterative learning and set realistic expectations/timelines that drive effort and support healthy work habits.
-<p>
-• When faced with roadblocks, you identify appropriate courses of action, engaging others or unblocking yourself as appropriate.
-<p>
-• You are accountable end-to-end on everything for which you take responsibility.
-<p>
-• You proactively identify areas for improvement and balance new work with the necessary day-to-day tasks needed to keep the team operating well to provide a positive customer experience.
-   </td>
-   <td>• You independently scope and implement solutions to extremely complex and/or vague customer issues, and identify the problems to be solved.
-<p>
-• You remain composed in: ambiguous situations, challenging situations, situations involving multiple stakeholders, etc.
-<p>
-• You intentionally and proactively align your work around a deep understanding of how people use the products/customer experience.
-<p>
-• You proactively identify areas for improvement beyond the scope of our team and contribute meaningfully to solutions while continuing to deliver on our team’s goals.
-   </td>
-   <td>• You proactively identify areas for improvement at the org/company level.
-<p>
-• You suggest process and methodology improvements.
-<p>
-• You work closely with engineering and CE leadership to validate alignment between teams.
-<p>
-• You are highly skilled at scoping, designing, and delivering solutions for large, complex challenges.
-   </td>
-  </tr>
-  <tr>
-   <td>Teamwork
-   </td>
-   <td>• You actively ask teammates, including cross-functional (e.g. engineering), questions to seek feedback and clarity.
-<p>
-• You participate and demonstrate curiosity in team meetings.
-<p>
-• You follow documented team processes and seek clarification when in doubt.
-<p>
-• You communicate with candor and transparency.
-   </td>
-   <td>• You actively participate and are able to initiate conversation in team and cross-functional meetings.
-<p>
-• You suggest improvements to team processes and help keep the handbook up-to-date.
-<p>
-• You communicate thoughtfully and intentionally, both synchronously and asynchronously.
-<p>
-• You are flexible to change.
-<p>
-• You resist group think and help the team maintain productive, healthy dialogues.
-   </td>
-   <td>• You communicate clearly, both synchronously and asynchronously, escalating blockers quickly, clarifying requirements and sharing assumptions and context.
-<p>
-• You set the example on defining/modifying team processes; participating in identifying problems, suggesting improvements, and helping with solutions.
-<p>
-• You proactively add and edit handbook documentation to help others.
-<p>
-• You offer timely, helpful feedback to others and trust them to decide to what extent to incorporate it.
-<p>
-• You help onboarding and orienting new team members.
-<p>
-• You participate in the hiring process where possible, conducting interviews (with training) and writing helpful feedback.
-   </td>
-   <td>• You communicate technical and non-technical issues and decisions clearly, bringing clarity to discussions, and help to drive the process forward.
-<p>
-• You routinely drive improvements in team/company processes (retros, planning, etc).
-<p>
-• You consider the effects of your work and words on other teams and represent the Support team well in discussions with cross-functional teammates, customers, and stakeholders.
-<p>
-• You share your experience and expertise to help others grow, through mentoring and coaching where possible.
-<p>
-• You proactively propose additions and changes to the team’s forward plans.
-   </td>
-   <td>• You are thoughtfully (and with empathy) able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.
-<p>
-• You actively seek dissenting opinions, disconfirming evidence, etc.
-<p>
-• You share a long-term vision that influences the team’s go forward plans.
-<p>
-• You operate in a way that demonstrates self-awareness (you often identify feedback before anyone has to give it to you) and active intentionality (you have a plan before you communicate/act).
-   </td>
-   <td>• You provide domain/technical expertise internally and externally, informing what can be achieved.
-<p>
-• You actively coach others on effective communication, collaboration and conflict resolution skills.
-<p>
-• You regularly share knowledge and mentor teammates
-<p>
-• You possess a visible external presence and willingly present to large and/or senior audiences to represent the Support team.
-<p>
-• You persuade and challenge customers and internal stakeholders, using valid expertise and respectful communication.
-   </td>
-  </tr>
+  <thead>
+    <tr>
+      <th scope="col">Level</th>
+      <th scope="col" class="category-title">Non-Technical Proficiency</th>
+      <th scope="col" class="category-title">Technical Proficiency</th>
+      <th scope="col" class="category-title">Delivery</th>
+      <th scope="col" class="category-title">Teamwork</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <!-- IC1 -->
+    <tr>
+      <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        An individual new to the field with no prior industry experience; focused on learning, growth, and establishing themselves as a contributing member of the team. Entry Level.</li>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+          <li>Troubleshoots and resolves common customer issues with guidance.</li>
+          <li>Demonstrates the essential needed to do work in our domain (as outlined in our<a href="../../support/index.md#our-guiding-principles"> guiding principles</a>).</li>
+          <li>Willingly receives feedback from teammates to delivers positive outcomes for customers and the team.</li>
+          <li>Increases their knowledge of Sourcegraph, our customers, team, general processes and workflows through reading, observing, and doing.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Has a basic understanding of Linux.</li>
+          <li>Has a basic understanding of Git.</li>
+          <li>Has a basic understanding of databases.</li>
+          <li>Has limited working proficiency with code hosts.</li>
+          <li>Is familiar with containerized runtimes like Docker and Kubernetes.</li>
+          <li>Has a basic understanding of Sourcegraph main product areas.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Under the guidance of their manager, can create a plan to consistently deliver on their commitments, while creating space to allow for learning, growth and rest.</li>
+          <li>Exercises profound compassion, with colleagues and customers.</li>
+          <li>Recognizes when they are blocked and asks for support.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Actively asks teammates, including cross-functional (e.g. engineering), questions to seek feedback and clarity.</li>
+          <li>Participates and demonstrates curiosity in team meetings.</li>
+          <li>Follows documented team processes and seeks clarification when in doubt.</li>
+          <li>Communicates with candor and transparency.</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- IC2 -->
+    <tr>
+      <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills. Associate.</li>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+          <li>Solves customer issues, sometimes with guidance, and is able to collaborate with their teammates to help them troubleshoot problems.</li>
+          <li>Consistently embodies our <a href="../index.md#our-guiding-principles">guiding principles</a> in the cases that they take responsibility for.</li>
+          <li>Externally, is able to effectively and proactively communicate with customers, facilitating collaboratively as appropriate.</li>
+          <li>Integrates feedback from teammates to deliver high-quality solutions.</li>
+          <li>Increases their communication, product, technical (dev or ops), collaboration, and facilitation knowledge/skills through reading, observing, and doing.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Is proficient in the primary elements of deployment types (Docker and Kubernetes).</li>
+          <li>Has professional working proficiency of Git.</li>
+          <li>Has professional working proficiency of all code hosts - GitHub (Cloud or Self-hosted), GitLab (Cloud or Self-hosted), Bitbucket Server, Bitbucket Data Center, or Perforce.</li>
+          <li>Has a strong understanding of Sourcegraph main product areas (Search, Batch Changes, Insights, Monitoring, etc)
+          <li>Has a strong understanding of databases.</li>
+          <li>Has a strong understanding of containerized runtimes like Docker and Kubernetes.</li>
+          <li>Has a strong understanding of cloud technologies.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Manages their day-to-day workflow appropriately to reliably deliver on their commitments, adhering to all defined team processes and workflows.</li>
+          <li>Asks for guidance in unfamiliar areas or for underspecified tasks and speaks up if is not at ease with what they understand they need to do.</li>
+          <li>Has a general understanding of how users interact with our product/infrastructure.</li>
+          <li>Is able to establish rapport with customers and colleagues to achieve meaningful and productive conversation.</li>
+          <li>Their tickets are maintained and kept up-to-date to allow for accurate team-level reporting.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Actively participates and is able to initiate conversation in team and cross-functional meetings.</li>
+          <li>Suggests improvements to team processes and helps keep the handbook up-to-date.</li>
+          <li>Communicates thoughtfully and intentionally, both synchronously and asynchronously.</li>
+          <li>Is flexible to change.</li>
+          <li>Resists group think and helps the team maintain productive, healthy dialogues.</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- IC3 -->
+    <tr>
+      <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        A mid-level individual contributor beginning to independently solve for more complex customer issues. Specialist.</li>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+          <li>Is able to effectively facilitate troubleshooting calls with customers independently.</li>
+          <li>At any point in time, anyone can review their cases alongside our guiding principles and definitions of success, and they meet these at least 95% of the time.</li>
+          <li>Externally, they lead all plans for issue resolution, maintaining clear and transparent communications with customers throughout; they identify next steps and followthrough to completion.</li>
+          <li>Is skilled at diffusing customer frustrations/escalations.</li>
+          <li>Writes validated customer-facing documentation updates related to the dev ops aspects of our product.</li>
+          <li>Can explain the reasoning and trade-offs behind their decisions, including technical decisions.</li>
+          <li>Provides helpful, timely case documentation and/or code reviews.</li>
+          <li>Invests in their own growth; willingly exploring new tools, skills, areas of the codebase, etc.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Is an expert in all deployment types.</li>
+          <li>Has advanced knowledge of Sourcegraph main product areas and is a subject matter expert in at least one product area (Search, Batch Changes, Insights, Monitoring, etc)
+          <li>Has advanced knowledge of cloud technologies.</li>
+          <li>Has full professional proficiency of Git.</li>
+          <li>Has a working understanding of 1 or more of Sourcegraph's codebase languages (Go, Javascript, Python, Typescript) while developing proficiency in the rest.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Prioritizes their work in alignment with team/company goals and objectives.</li>
+          <li>Scopes and implements solutions to pre-defined problems, with guidance.</li>
+          <li>Detects problems (in the product or our processes) that could erode the customer experience and actively engages to resolve them.</li>
+          <li>Firmly grasps how users interact with our product/infrastructure.</li>
+          <li>Is skilled in establishing rapport with customers and colleagues, and consistently delivers results on time.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Communicates clearly, both synchronously and asynchronously, escalating blockers quickly, clarifying requirements and sharing assumptions and context.</li>
+          <li>Sets the example on defining/modifying team processes; participating in identifying problems, suggesting improvements, and helping with solutions.</li>
+          <li>Proactively adds and edits handbook documentation to help others.</li>
+          <li>Offers timely, helpful feedback to others and trusts them to decide to what extent to incorporate it.</li>
+          <li>Helps onboarding and orienting new team members.</li>
+          <li>Participates in the hiring process where possible, conducting interviews (with training) and writing helpful feedback.</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- IC4 -->
+    <tr>
+      <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently. Senior.</li>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+          <li>Is an expert in their domain: they have a deep understanding of our product and codebase/dev ops practices, and are a skilled communicator, collaborator and facilitator.</li>
+          <li>Has in-depth knowledge of the existing codebase and stays abreast of new refactors, omissions, etc.</li>
+          <li>Finds technical solutions to open-ended, ambiguously-defined problems (in our product or centered on the support team/workflow).</li>
+          <li>When finding solutions, identifies the core problems that need to be solved, as well as goals, risks, trade-offs, customer impact, technical debt, non-technical factors, etc.</li>
+          <li>Gives insightful feedback on higher-level aspects (architecture, scalability, customer-focus, etc.) in case/code reviews and RFCs, holding teammates to the same high standard they set for themself.</li>
+          <li>Maintains awareness of approaches outside of Sourcegraph that we’re not using, and uses this to help define best practices for the team/domain.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Is a subject matter expert in all deployment types, and acts as a mentor to IC1s and IC2s.</li>
+          <li>Is an expert in cloud technologies.</li>
+          <li>Is well-versed in all Sourcegraph features and contextual concepts.</li>
+          <li>Is an expert in Git.</li>
+          <li>Has full proficiency in all code hosts and working knowledge of at least one other code host apart from GitHub, GitLab, BitBucket or Perforce.</li>
+          <li>Is proficient in writing code in Go, Javascript, Python or any of our core programming languages.</li>
+          <li>Writes maintainable, well-tested code (for our product or for team tooling) that aligns with the style and practices of the team/codebase.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Independently scopes and implements solutions to complex, loosely-defined problems.</li>
+          <li>Estimates methodically, based on iterative learning, and sets realistic expectations/timelines that drive effort and support healthy work habits.</li>
+          <li>When faced with roadblocks, identifies appropriate courses of action, engaging others or unblocking themself as appropriate.</li>
+          <li>Is accountable end-to-end on everything for which they take responsibility.</li>
+          <li>Proactively identifies areas for improvement and balances new work with the necessary day-to-day tasks needed to keep the team operating well to provide a positive customer experience.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Communicates technical and non-technical issues and decisions clearly, bringing clarity to discussions, and helps to drive the process forward.</li>
+          <li>Routinely drives improvements in team/company processes (retros, planning, etc).</li>
+          <li>Considers the effects of their work and words on other teams, and represents the Support team well in discussions with cross-functional teammates, customers, and stakeholders.</li>
+          <li>Shares their experience and expertise to help others grow, through mentoring and coaching where possible.</li>
+          <li>Proactively proposes additions and changes to the team’s forward plans.</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- IC5 -->
+    <tr>
+      <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s. Lead.</li>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+          <li>Makes high-quality technical and non-technical decisions leading team-sized tasks that affect one or more complex systems or mission-critical areas.</li>
+          <li>Consistently incorporates non-technical factors into technical decisions and weighs them appropriately.</li>
+          <li>Has proficiency beyond their domain areas, understanding more about business operations and/or engineering scope/efforts.</li>
+          <li>Invests in technology, tools, and processes that benefit their entire team.</li>
+          <li>Lifts their teammates through feedback, mentorship, and sharing reusable patterns.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Is a subject matter expert in all Sourcegraph features and contextual concepts, and regularly helps unblock and enable their teammates.</li>
+          <li>Has full proficiency in all code hosts and working knowledge of multiple other code hosts apart from GitHub, GitLab, BitBucket or Perforce.</li>
+          <li>Is an expert in writing code in Go, Javascript, Python or any of our core programming languages.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Independently scopes and implements solutions to extremely complex and/or vague customer issues, and identifies the problems to be solved.</li>
+          <li>Remains composed in: ambiguous situations, challenging situations, situations involving multiple stakeholders, etc.</li>
+          <li>Intentionally and proactively aligns their work around a deep understanding of how people use the products/customer experience.</li>
+          <li>Proactively identifies areas for improvement beyond the scope of our team and contributes meaningfully to solutions while continuing to deliver on our team’s goals.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Is thoughtfully (and with empathy) able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.</li>
+          <li>Actively seeks dissenting opinions, disconfirming evidence, etc.</li>
+          <li>Shares a long-term vision that influences the team’s go forward plans.</li>
+          <li>Operates in a way that demonstrates self-awareness (often identifies feedback before anyone has to give it to them) and active intentionality (has a plan before they communicate/act).</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- IC6 -->
+    <tr>
+      <th id="ic6" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        A subject matter expert with a visible external brand/presence; equivalent in impact to a Manager, and acts as a mentor to preceding IC level team members. Principal.</li>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+          <li>Helps set the vision for the team and influences the broader vision beyond the team.</li>
+          <li>Leads cross functional projects that impact aspects of the business both within, and outside, their primary domain.</li>
+          <li>Provides oversight, coaching, and guidance through case/code reviews and other activities, both on or off the team.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Contributes at least 10 PRs per quarter in support of Product and Engineering defined needs.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Proactively identifies areas for improvement at the org/company level.</li>
+          <li>Suggests process and methodology improvements.</li>
+          <li>Works closely with engineering and CE leadership to validate alignment between teams.</li>
+          <li>Is highly skilled at scoping, designing, and delivering solutions for large, complex challenges.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Provides domain/technical expertise internally and externally, informing what can be achieved.</li>
+          <li>Actively coaches others on effective communication, collaboration and conflict resolution skills.</li>
+          <li>Regularly shares knowledge and mentors teammates.</>
+          <li>Possesses a visible external presence and willingly presents to large and/or senior audiences to represent the Support team.</li>
+          <li>Persuades and challenges customers and internal stakeholders, using valid expertise and respectful communication.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
