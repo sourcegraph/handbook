@@ -203,8 +203,7 @@ const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
 const rehypeResponsiveTables: Plugin<[], Root> = () => tree => {
     visit(tree, (node, index, parent) => {
         if (isElement(node, 'table')) {
-            // Note: Matches breakpoint used for th.sticky CSS class
-            parent!.children[index!] = h('div.table-responsive-sm', node)
+            parent!.children[index!] = h('div.table-responsive', node)
         }
     })
 }
