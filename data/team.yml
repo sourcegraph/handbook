@@ -280,16 +280,6 @@ owen_brennan:
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
 
-joe_kirscher:
-  name: Joe Kirscher
-  pronouns: he/him
-  role: Strategy & Operations Manager
-  reports_to: director_sales_ops
-  manager_role_slug: strategy_operations_manager
-  location: Mountain View, CA, USA 🇺🇸
-  email: joe.kirscher@sourcegraph.com
-  description: "Joe grew up in Nebraska before coming out to California for college. He has grown to love the mild weather and wine country around the Bay Area, which is fortunate, because he doesn't play football so they won't let him back into Nebraska. After a couple years of consulting, he then spent a total of 10 years working in Sales Operations at Yahoo and FireEye and is now excited to help Sourcegraph scale up!"
-
 jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
@@ -420,7 +410,7 @@ seth_hoover:
   name: Seth Hoover
   pronouns: he/him
   role: Senior Salesforce Administrator
-  reports_to: strategy_operations_manager
+  reports_to: director_sales_ops
   location: Menifee, CA, USA 🇺🇸
   github: seth-sourcegraph
   email: seth@sourcegraph.com
