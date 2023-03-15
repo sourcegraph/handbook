@@ -172,6 +172,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Involuntary seperations](people-ops/process/leaving.md)
 - [Severance information & getting paid](people-ops/process/leaving.md)
 - [Cobra](people-ops/process/leaving.md)
+- [Equity FAQs](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph)
 
 ### Misc
 
