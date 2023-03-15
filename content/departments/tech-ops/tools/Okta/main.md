@@ -61,7 +61,7 @@ Phishing resistant MFA options are the preferred method of authentication. These
 - App-generated 2FA codes, like Google Authenticator
   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
-## Enrolling your account with Okta Verify and FastPass
+## Enrolling your account with Okta Verify and FastPass on your laptop
 
 [**Video instructions**](https://www.loom.com/share/638bfd8b9c1d4843b632d113ef6b167d)
 
@@ -70,6 +70,23 @@ Phishing resistant MFA options are the preferred method of authentication. These
 - Our url is sourcegraph.okta.com
 - Link the app with your Okta account by logging into your account by following the prompts
 - Enroll in Touch ID (preferred) or push notifications (required)
+
+## Registering your account with Okta Verify and FastPass on you mobile device
+
+This is essentially just re-enrolling your Okta Verify account with Okta. This is necessary to access certain apps from your mobile devices.
+
+[**Video instructions**](https://www.loom.com/share/e8fc333236944a76924bcf467c813de1)
+
+- From your laptop log into your Okta Dashboard
+- Go to settings and click add new next to Okta Verify (ignore the fact that you might already have your phone or tablet listed here)
+- Authenticate again
+- Add Okta Verify
+- A QR code will appear
+- Open the Okta Verify app on your phone or tablet
+- Click the + sign to add a new account
+- Scan QR code and follow the directions for enabling Face ID and/or push notifications
+
+That's it. You won't see any change to your account, however you can now use FastPass on your mobile device as an authentication method.
 
 ## Adding Apple Touch ID as a phishing resistant MFA option (WebAuthn)
 
