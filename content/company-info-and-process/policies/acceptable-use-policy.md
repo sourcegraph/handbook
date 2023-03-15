@@ -35,7 +35,7 @@ Users shall **not** use IT or other company resources to:
 - Engage in activities that are of a personal business or for-profit nature, including online gambling.
 - Disseminate fraudulent offers for products or services.
 - Engage in copyright infringement, install or distribute unlicensed or "pirated" software or any software not approved by the organization.
-- Access work-related data or perform any work-related activities while traveling to any country deemed as high-risk by the United States and our customers. This includes, but is not limited to, accessing company networks or systems, sending or receiving work-related emails, or accessing work-related documents on personal or company-owned devices.The reference list for prohibited countries can be found [here](../../benefits-pay-perks/benefits-perks/nomad-life.md). 
+- Access work-related data or perform any work-related activities while traveling to any country deemed as high-risk by the United States and our customers. This includes, but is not limited to, accessing company networks or systems, sending or receiving work-related emails, or accessing work-related documents on personal or company-owned devices.The reference list for prohibited countries can be found [here](../../benefits-pay-perks/benefits-perks/nomad-life.md).
 
 Using organization-owned or organization-provided computer systems to circumvent any security systems, authentication systems, user-based systems, or escalating privileges is expressly prohibited. Knowingly taking any actions to bypass or circumvent security, or otherwise access information for unauthorized purposes is expressly prohibited.
 
