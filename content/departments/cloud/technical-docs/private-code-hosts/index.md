@@ -18,7 +18,7 @@ This option is for customers who want to connect to a private code host that is 
 
 ### Architecture
 
-[AWS VPN architecture](https://app.excalidraw.com/s/4Dr1S6qmmY7/4L5TAaxiYAy)
+![AWS VPN architecture](https://storage.googleapis.com/sourcegraph-assets/handbook/private-code-host-solution-vpn-aws-private-link.png)
 
 ### Creation process
 
