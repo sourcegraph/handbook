@@ -17,6 +17,8 @@ Our most important MarTech tools are as follows:
 
 ## UTM Tracking
 
+### Overview
+
 Sourcegraph uses UTM parameters to understand the source of online traffic to our various sites and products. This data is useful for understanding which sources are best at driving traffic / awareness and informs our marketing investment strategy. Examples of content that should include UTM parameters include links to our product in a LinkedIn feed post, and a Google paid search ad linking to our homepage, among others. All external links to Sourcegraph web properties should include UTM parameters for source and medium. Other possible parameters to include are campaign, content, and term. See definitions for these parameters below:
 
 - **UTM Source -** Identifies which site sent the traffic (e.g., Google, Reddit, etc.)
@@ -25,7 +27,18 @@ Sourcegraph uses UTM parameters to understand the source of online traffic to ou
 - **UTM Content -** Identifies what specifically was clicked to bring the user to the site, such as a banner ad or a text link
 - **UTM Term -** Identifies search terms (e.g., code-search, developer-tools, etc.)
 
+While UTMs can be found on multiple Salesforce objects, reports should default to analyzing campaigns with campaign members. This report type will enable the viewer to analyze which sources are driving visitors to specific campaigns and account for the fact that one visitor can be a member of multiple different campaigns, each with distinct UTM parameters.
+
+### UTM Builder
+
 [UTM.io](https://web.utm.io) is our internal tool for building webpage links with correct conventions for UTMs. If you do not have access to the Sourcegraph workspace, please request it on Slack. New links can be created using the Create Link button in the top left of the Links sub-page. Currently, values for UTM medium and UTM source are restricted to values aligning with this [framework](https://docs.google.com/spreadsheets/d/1xKusTq98rHWtv1N_5t4FhF-f7OAXnH3GXj9zloA7P9k/edit#gid=435040517). If there is a value for either field you feel is missing, please post your requested medium and source values in the #ask-sales-ops channel and we will add them. Multiple Hubspot workflows are dependent on these values, so this standardization ensures all dependencies continue to properly function.
+
+### UTM Workflows in HubSpot and Salesforce
+
+In order to categorize specific UTM parameters under broader person source umbrella categories, we utilize the following custom workflows and automations:
+
+- [HubSpot Person Source Workflow](https://app.hubspot.com/workflows/2762526/platform/flow/234673967/edit): Checks for a `utm_source` value that aligns with pre-existing [framework](https://docs.google.com/spreadsheets/d/1xKusTq98rHWtv1N_5t4FhF-f7OAXnH3GXj9zloA7P9k/edit#gid=435040517) source values and auto-fills corresponding categories for Person Source Detail (e.g., Paid Google), Person Source (e.g., Paid Search), and Person Source Category (e.g., Inbound).
+- Salesforce Automations: Categorizes Person Source Fields for visitors with no known UTM parameters. TBU - automation details TO COME
 
 ## HubSpot
 
