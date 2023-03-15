@@ -68,8 +68,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <tr>
       <td class="level-summary" colspan="6">
-          An engineer focused on learning, growth, and establishing themselves as a contributing teammate.
-          Entry level.
+          An engineer focused on learning, growth, and establishing themselves as a contributing teammate. Entry level.
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -124,7 +123,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <tr>
       <td class="level-summary" colspan="6">
-          A solid and autonomous contributor, executor, and collaborator.<br />Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
+          A solid and autonomous contributor, executor, and collaborator. Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -203,7 +202,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <tr>
       <td class="level-summary" colspan="6">
-        An experienced, strong individual contributor (Senior equivalent).<br />Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
+        An experienced, strong individual contributor (Senior equivalent). Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -290,7 +289,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <tr>
       <td class="level-summary" colspan="6">
-        A particularly experienced, impactful contributor.<br />Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
+        A particularly experienced, impactful contributor. Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -354,7 +353,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <tr>
       <td class="level-summary" colspan="6">
-          A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems.<br />Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
+          A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems. Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
       </td>
     </tr>
     <tr class="behaviors-row">
