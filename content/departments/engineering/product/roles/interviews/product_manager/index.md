@@ -16,7 +16,7 @@ _Total interview time: 4.5 hours + ~1 hour project_
 
 **Final Interviews**
 
-- [30 min] **[Values interview](../../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, BizOps)
+- [30 min] **[Values interview](../../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, Operations)
 - [30 min] **Final interview** with [Beyang Liu](../../../../../../team/index.md#beyang-liu), CTO
 - We make you a job offer!
 
