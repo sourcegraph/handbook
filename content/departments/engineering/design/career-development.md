@@ -125,17 +125,17 @@ It’s important to understand that what is listed in the level descriptions are
     <tr class="category-summaries-row">
       <td class="category-summary">
         <div class="wrapper">
-          Understand the importance of strategy and delivering on it
+          Understands the importance of strategy and delivering on it
         </div>
       </td>
       <td class="category-summary">
         <div class="wrapper">
-          Autonomously deliver on assigned work
+          Autonomously delivers on assigned work
         </div>
       </td>
       <td class="category-summary">
         <div class="wrapper">
-          Functioning as a valued team member
+          Functions as a valued team member
         </div>
       </td>
     </tr>
@@ -204,7 +204,7 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
       <td class="category-summary">
         <div class="wrapper">
-          Independently driving key work with team
+          Independently drives key work with team
         </div>
       </td>
       <td class="category-summary">
