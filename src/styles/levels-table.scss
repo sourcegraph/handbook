@@ -54,14 +54,20 @@ thead th.category-title {
     padding: 6px 13px;
 }
 .category-summary {
-    &:nth-of-type(n) > .wrapper {
+    &:nth-of-type(5n + 1) {
         border-top: 1px solid var(--category-color-1);
     }
-    &:nth-of-type(2n) > .wrapper {
+    &:nth-of-type(5n + 2) {
         border-top: 1px solid var(--category-color-2);
     }
-    &:nth-of-type(3n) > .wrapper {
+    &:nth-of-type(5n + 3) {
         border-top: 1px solid var(--category-color-3);
+    }
+    &:nth-of-type(5n + 4) {
+        border-top: 1px solid var(--category-color-4);
+    }
+    &:nth-of-type(5n) {
+        border-top: 1px solid var(--category-color-5);
     }
 }
 .level {
