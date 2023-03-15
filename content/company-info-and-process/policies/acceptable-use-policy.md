@@ -1,10 +1,8 @@
 # Acceptable Use Policy
 
-
-
 ## Purpose
 
-The purpose of this policy is to define the acceptable use of Sourcegraph’s  Information Technology (IT) resources.
+The purpose of this policy is to define the acceptable use of Sourcegraph’s Information Technology (IT) resources.
 
 ## Background
 
@@ -24,20 +22,20 @@ Our aim is to ensure IT resources are available and used for productive business
 
 Users shall **not** use IT or other company resources to:
 
-* Engage in activity that is illegal or otherwise prohibited under local, provincial, federal, national, international, or other applicable laws.
-* Engage in any activities that may cause embarrassment, loss of reputation, or other harm to the organization.
-* Engage in activities that cause disruption to the workplace environment or create a hostile workplace.
-* Disseminate defamatory, discriminatory, vilifying, sexist, racist, abusive, rude, annoying, insulting, threatening, obscene or otherwise inappropriate messages or media.
-* Engage in activities that cause an invasion of privacy or are an unauthorized collection, use or disclosure of personal information.
-* Access or attempt to access systems they are not authorized to use.
-* Perform any of the following: port scanning, security scanning, network sniffing, keystroke logging, or other IT information gathering techniques when not part of the user’s job function.
-* Sharing your credentials for any Sourcegraph-managed computer or 3rd party service that Sourcegraph uses with others, or allowing use of your account or a Sourcegraph-managed computer by others. This prohibition does not apply to single-sign-on or similar technologies, the use of which is approved.
-* Forwarding of confidential business emails or documents to personal external email addresses.
-* Introduce any viruses or malware, or maliciously tamper with any resources.
-* Engage in activities that are of a personal business or for-profit nature, including online gambling.
-* Disseminate fraudulent offers for products or services.
-* Engage in copyright infringement, install or distribute unlicensed or "pirated" software or any software not approved by the organization.
-* Access work-related data or perform any work-related activities while traveling to any country deemed as high-risk by the United States and our customers. This includes, but is not limited to, accessing company networks or systems, sending or receiving work-related emails, or accessing work-related documents on personal or company-owned devices.
+- Engage in activity that is illegal or otherwise prohibited under local, provincial, federal, national, international, or other applicable laws.
+- Engage in any activities that may cause embarrassment, loss of reputation, or other harm to the organization.
+- Engage in activities that cause disruption to the workplace environment or create a hostile workplace.
+- Disseminate defamatory, discriminatory, vilifying, sexist, racist, abusive, rude, annoying, insulting, threatening, obscene or otherwise inappropriate messages or media.
+- Engage in activities that cause an invasion of privacy or are an unauthorized collection, use or disclosure of personal information.
+- Access or attempt to access systems they are not authorized to use.
+- Perform any of the following: port scanning, security scanning, network sniffing, keystroke logging, or other IT information gathering techniques when not part of the user’s job function.
+- Sharing your credentials for any Sourcegraph-managed computer or 3rd party service that Sourcegraph uses with others, or allowing use of your account or a Sourcegraph-managed computer by others. This prohibition does not apply to single-sign-on or similar technologies, the use of which is approved.
+- Forwarding of confidential business emails or documents to personal external email addresses.
+- Introduce any viruses or malware, or maliciously tamper with any resources.
+- Engage in activities that are of a personal business or for-profit nature, including online gambling.
+- Disseminate fraudulent offers for products or services.
+- Engage in copyright infringement, install or distribute unlicensed or "pirated" software or any software not approved by the organization.
+- Access work-related data or perform any work-related activities while traveling to any country deemed as high-risk by the United States and our customers. This includes, but is not limited to, accessing company networks or systems, sending or receiving work-related emails, or accessing work-related documents on personal or company-owned devices.
 
 Using organization-owned or organization-provided computer systems to circumvent any security systems, authentication systems, user-based systems, or escalating privileges is expressly prohibited. Knowingly taking any actions to bypass or circumvent security, or otherwise access information for unauthorized purposes is expressly prohibited.
 
@@ -47,11 +45,9 @@ The individual right to privacy may, when personal files may need to be accessed
 
 Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits.
 
-
 ## Exceptions
 
 Requests for an exception to this policy must be submitted to the owner of this policy for approval and will be reviewed on a case by case basis.
-
 
 ## Violations & Enforcement
 
