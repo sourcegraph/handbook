@@ -81,3 +81,31 @@ you can manually create one by running the following command in your terminal:
 8. Delete the working tree
 
 `git worktree remove ${worktreePath}`
+
+# PRs with migration changes
+
+If the PR contains a migration change, a manual update of the stiched migration files is required.
+
+## How to update the stitched migration files
+
+on the release branch, run the following commands :
+
+1. sg migration leaves <latest-commit-release-branch>
+
+this will output a list of leaf migrations for the release branch. e.g.:
+
+Leaf migrations for "frontend" defined at commit "c982f23f27addb337836b650ab943037628d8a0d"
+1675296942: (add column to changesets for external fork name)
+1676996650: (package_repos_separate_versions_table_patch1)
+1675864432: (add code_host_states to permission_sync_jobs table)
+...
+
+2. switch back to the backported branch
+
+3. rewrite the parent field with the leaf migrations from above in the metadata.yaml file for the migration you want to backport
+
+4. sg generate
+
+5. git add, git commit, git push changes to the backported branch.
+
+6. Wait for CI to go Green, and merge the backport PR.
