@@ -55,8 +55,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th scope="col" class="category-title">Proficiency</th>
       <th scope="col" class="category-title">Execution</th>
       <th scope="col" class="category-title">Teamwork</th>
-      <th scope="col" class="category-title">Pre-requisites</th>
-      <th scope="col" class="category-title">Years Experience</th>
       <th scope="col" class="category-title">Additional Notes/Key Points/Examples</th>
     </tr>
   </thead>
@@ -67,8 +65,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
     </tr>
     <tr>
-      <td class="level-summary" colspan="6">
-          An engineer focused on learning, growth, and establishing themselves as a contributing teammate. Entry level.
+      <td class="level-summary" colspan="4">
+          <p>An engineer focused on learning, growth, and establishing themselves as a contributing teammate. Entry level.</p>
+          <ul>
+            <li><strong>Prerequisites:</strong> Minimum relevant bachelor degree, or equivalent related experience.</li>
+            <li><strong>Years of experience:</strong> Typically 0-2</li>
+          </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -103,12 +105,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
         </ul>
       </td>
       <td class="behaviors">
-        Minimum relevant bachelor degree, or equivalent related experience.
-      </td>
-      <td class="behaviors">
-        Typically 0-2 years relevant experience.
-      </td>
-      <td class="behaviors">
         <ul>
           <li>Entry level for professional careers. Still learning the role.</li>
           <li>Core skills limited; requires detailed direction.</li>
@@ -122,8 +118,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
     </tr>
     <tr>
-      <td class="level-summary" colspan="6">
-          A solid and autonomous contributor, executor, and collaborator. Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.
+      <td class="level-summary" colspan="4">
+          <p>A solid and autonomous contributor, executor, and collaborator. Completes assignments which have clear, near-term objectives. Operates independently to perform routine tasks.</p>
+          <ul>
+            <li><strong>Prerequisites:</strong> Knows the organization and understands the group’s basic terminology and techniques.</li>
+            <li><strong>Years of experience:</strong> Typically 2-5</li>
+          </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -182,12 +182,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
         </ul>
       </td>
       <td class="behaviors">
-        Knows the organization and understands the group’s basic terminology and techniques.
-      </td>
-      <td class="behaviors">
-        Typically 2-5 years relevant experience.
-      </td>
-      <td class="behaviors">
         <ul>
           <li>Task oriented, but gaining/demonstrating independence.Core skills functional.</li>
           <li>Requires some direction.</li>
@@ -201,8 +195,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
     </tr>
     <tr>
-      <td class="level-summary" colspan="6">
-        An experienced, strong individual contributor (Senior equivalent). Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.
+      <td class="level-summary" colspan="4">
+        <p>An experienced, strong individual contributor (Senior equivalent). Represents an area of specialization within the organization. Independently resolves complex problems. Contributes to cross-functional projects. Trains others.</p>
+        <ul>
+          <li><strong>Prerequisites:</strong> Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.</li>
+          <li><strong>Years of experience:</strong> Typically 5-8</li>
+        </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -270,12 +268,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
         </ul>
       </td>
       <td class="behaviors">
-        Key differentiator from IC2 is the ability to prioritize and work under broad direction. Can resolve new and complex problems within an area of specialization.
-      </td>
-      <td class="behaviors">
-        Typically 5-8 years relevant experience.
-      </td>
-      <td class="behaviors">
         <ul>
           <li>Problem solver. Operates autonomously.</li>
           <li>Strong core skills, requires minimal direction.</li>
@@ -288,8 +280,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
     </tr>
     <tr>
-      <td class="level-summary" colspan="6">
-        A particularly experienced, impactful contributor. Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
+      <td class="level-summary" colspan="4">
+        <p>A particularly experienced, impactful contributor. Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.</p>
+        <ul>
+          <li><strong>Prerequisites:</strong> Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.</li>
+          <li><strong>Years of experience:</strong> Typically 8+</li>
+        </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -333,12 +329,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
         </ul>
       </td>
       <td class="behaviors">
-      Has domain-specific knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
-      </td>
-      <td class="behaviors">
-      Typically 8+ years relevant experience.
-      </td>
-      <td class="behaviors">
         <ul>
           <li>“Go-to” expert. Usually project leader.</li>
           <li>Contributes outside direct area of responsibility.</li>
@@ -352,8 +342,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
     </tr>
     <tr>
-      <td class="level-summary" colspan="6">
-          A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems. Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.
+      <td class="level-summary" colspan="4">
+          <p>A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems. Provides innovative breakthroughs to toughest challenges. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.</p>
+          <ul>
+            <li><strong>Prerequisites:</strong> Has unique knowledge and the ability to apply that knowledge to a broader context.</li>
+            <li><strong>Years of experience:</strong> Not essential</li>
+          </ul>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -389,12 +383,6 @@ To learn more, see ["Considerations for promotion" in our talent review process]
         </ul>
       </td>
       <td class="behaviors">
-        Has unique knowledge and the ability to apply that knowledge to a broader context.
-      </td>
-      <td class="behaviors">
-        Years of experience not essential.
-      </td>
-      <td class="behaviors">
         <ul>
           <li>Deep expertise/unique knowledge.Broad impact, broad context.</li>
           <li>Provides breakthroughs & requires no direction.</li>
@@ -406,7 +394,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="6" class="tbd">
+      <td colspan="4" class="tbd">
         <p>
           Senior Staff Engineer. We haven't yet finalized the description of this level at Sourcegraph.
         </p>
