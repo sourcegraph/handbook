@@ -76,8 +76,9 @@ Phishing resistant MFA options are the preferred method of authentication. These
 This is essentially just re-enrolling your Okta Verify account with Okta. This is necessary to access certain apps from your mobile devices.
 
 [**Video instructions**](https://www.loom.com/share/e8fc333236944a76924bcf467c813de1)
+
 - From your laptop log into your Okta Dashboard
-- Go to settings and click add new next to Okta Verify (ignore the fact that you might already have your phone or tablet listed here) 
+- Go to settings and click add new next to Okta Verify (ignore the fact that you might already have your phone or tablet listed here)
 - Authenticate again
 - Add Okta Verify
 - A QR code will appear
@@ -86,7 +87,6 @@ This is essentially just re-enrolling your Okta Verify account with Okta. This i
 - Scan QR code and follow the directions for enabling Face ID and/or push notifications
 
 That's it. You won't see any change to your account, however you can now use FastPass on your mobile device as an authentication method.
-
 
 ## Adding Apple Touch ID as a phishing resistant MFA option (WebAuthn)
 
