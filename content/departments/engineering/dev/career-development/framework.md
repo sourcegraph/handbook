@@ -98,7 +98,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
   </div>
 </div>
 
-<small>_* Coming soon_</small>
+<small>_\* Coming soon_</small>
 
 As an IC you'll progress on several axis:
 
