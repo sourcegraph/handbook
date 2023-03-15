@@ -9,108 +9,26 @@ There are currently six levels for designers at Sourcegraph. A level is composed
 <ul>
   <li>Strategy</li>
   <li>Execution</li>
-  <li>Teamwork and behaviors</li>
+  <li>Teamwork</li>
 </ul>
 It’s important to understand that what is listed in the level descriptions are examples, and not checkboxes for promotion. The expectation is that you demonstrate a level of impact consistent with each of the category descriptions for your level.
+
+## Levels
 
 <style>
   .container {
     --width: 1300px;
   }
-  .levels-table {
-    --proficiency-color: var(--sg-vivid-violet);
-    --execution-color: var(--sg-sky-blue);
-    --teamwork-color: var(--sg-vermillion);
-
-    table-layout: fixed;
-  }
-  .proficiency {
-    --category-color: var(--proficiency-color);
-  }
-  .execution {
-    --category-color: var(--execution-color);
-  }
-  .teamwork {
-    --category-color: var(--teamwork-color);
-  }
-  .levels-table :is(td, th) {
-    vertical-align: top;
-    background: white;
-  }
-  .levels-table [id] {
-    /* Account for sticky table header */
-    scroll-margin-top: calc(var(--header-height) + 2.25rem);
-  }
-  thead th:first-child {
-    width: 8ch;
-  }
-  thead th.category-title {
-    text-align: center;
-    border-color: white;
-    background: var(--category-color);
-  }
-  thead th:is(.proficiency, .teamwork) {
-    color: white;
-  }
-  /*
-  Repeat the category color as a border color after each category summary.
-  Safari doesn't respect different border colors below a cell spanning multiple columns,
-  so we need to draw borders on wrapper elements instead.
-  */
-  .levels-table .category-summaries-row {
-    border-top: none;
-  }
-  .levels-table .category-summary {
-    border-top: none;
-    padding: 0;
-  }
-  .category-summary > .wrapper {
-    /* Note that absolute positioning wouldn't work here because <td>s can't be position: relative in Firefox. */
-    width: 100%;
-    height: 100%;
-    padding: 6px 13px;
-    display: block;
-    border-top: 1px solid var(--category-color);
-  }
-  .level {
-    white-space: nowrap;
-  }
-  .levels-table td[colspan] {
-    text-align: center;
-  }
-  .levels-table td ul {
-     text-align: left;
-  }
-  .level-summary, .category-summaries-row {
-    font-style: italic;
-  }
-  .level-summary {
-    border-bottom: none !important;
-  }
-  .levels-table td.tbd {
-    vertical-align: middle;
-    text-align: left;
-    padding: 2.5rem;
-  }
-  /*
-  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
-  Note that min-height also doesn't work.
-  */
-  th#ic6 {
-    height: 11rem;
-  }
 </style>
-
-## Levels
 
 <table class="levels-table">
 
   <thead>
     <tr>
-      <th scope="col" class="sticky">Level</th>
-      <th scope="col" class="category-title proficiency sticky">Strategy</th>
-      <th scope="col" class="category-title execution sticky">Execution</th>
-      <th scope="col" class="category-title teamwork sticky">Teamwork and behaviors</th>
+      <th scope="col">Level</th>
+      <th scope="col" class="category-title">Strategy</th>
+      <th scope="col" class="category-title">Execution</th>
+      <th scope="col" class="category-title">Teamwork</th>
     </tr>
   </thead>
 
@@ -130,24 +48,24 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary">
         <div class="wrapper">
           Learning what strategy is
         </div>
       </td>
-      <td class="category-summary execution">
+      <td class="category-summary">
         <div class="wrapper">
           Should be able to execute on essential design skills
         </div>
       </td>
-      <td class="category-summary teamwork">
+      <td class="category-summary">
         <div class="wrapper">
           Learning how to be on a team
         </div>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Understand your product</li>
           <li>Know our competitors, their solutions, and gaps</li>
@@ -158,7 +76,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Know the metrics and outcomes we aim for in your product area</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Learn from team how to understand customer and business problems</li>
           <li>Ask for and use existing research to inform your solutions</li>
@@ -172,7 +90,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Work closely with engineers to understand and work around constraints</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Know and learn to apply our Design principles</li>
           <li>Understand and apply our company values</li>
@@ -205,24 +123,24 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary">
         <div class="wrapper">
           Understand the importance of strategy and delivering on it
         </div>
       </td>
-      <td class="category-summary execution">
+      <td class="category-summary">
         <div class="wrapper">
           Autonomously deliver on assigned work
         </div>
       </td>
-      <td class="category-summary teamwork">
+      <td class="category-summary">
         <div class="wrapper">
           Functioning as a valued team member
         </div>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Understand your product</li>
           <li>Know our competitors, their solutions, and gaps</li>
@@ -233,7 +151,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Know the metrics and outcomes we aim for in your product area</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Consistently leverage knowledge of your product area and competition to make decisions</li>
           <li>Actively seek out new and deeper insights about customers to deeply understand their needs, make decisions, and increase confidence</li>
@@ -246,7 +164,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Understands the value of makring decisions with data over opinions.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Know and learn to apply our Design principles</li>
           <li>Understand and apply our company values</li>
@@ -279,24 +197,24 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary">
         <div class="wrapper">
           Starting to contribute to strategy work within team
         </div>
       </td>
-      <td class="category-summary execution">
+      <td class="category-summary">
         <div class="wrapper">
           Independently driving key work with team
         </div>
       </td>
-      <td class="category-summary teamwork">
+      <td class="category-summary">
         <div class="wrapper">
           Part of the connective tissue within the team
         </div>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Consistently leverage knowledge of your product area and competition to make decisions</li>
           <li>Actively seek new and deeper insights about customers to deeply understand their needs, make decisions, and increase confidence</li>
@@ -309,7 +227,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Begins to utilizes metrics to analyze the results of their projects and discover where they can be improved</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Understand the underlying motivations for our customers</li>
           <li>Challenge and influence your team's understanding of the problem</li>
@@ -338,7 +256,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Consistently move projects forward with data over opinions.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Consistently use the Design principles to make decisions</li>
           <li>Proficiently run projects with the R&D toolkit</li>
@@ -382,24 +300,24 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary">
         <div class="wrapper">
           Drives strategy with triad
         </div>
       </td>
-      <td class="category-summary execution">
+      <td class="category-summary">
         <div class="wrapper">
           Drive execution for business within team
         </div>
       </td>
-      <td class="category-summary teamwork">
+      <td class="category-summary">
         <div class="wrapper">
           Leading team culture within triad
         </div>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Show deep understanding of your team’s products and competitors in your solution design</li>
           <li>Actively seek new and deeper insights about customers to deeply understand their needs, make decisions, and increase confidence</li>
@@ -411,7 +329,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Effectively uses product analytics to identify how products can be altered to deliver better outcomes for the business</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Understand the underlying motivations for our customers</li>
           <li>Challenge and influence your team's understanding of the problem</li>
@@ -430,7 +348,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Models moving projects forward with data over opinions.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Role model our principles and values within your team</li>
           <li>Is a person who other design team members proactively reach out to for feedback and mentorship</li>
@@ -479,24 +397,24 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
     </tr>
     <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
+      <td class="category-summary">
         <div class="wrapper">
           Drive strategy across group (engineering)
         </div>
       </td>
-      <td class="category-summary execution">
+      <td class="category-summary">
         <div class="wrapper">
           Leading standards and key business initiatives across group
         </div>
       </td>
-      <td class="category-summary teamwork">
+      <td class="category-summary">
         <div class="wrapper">
           Helps to establish and model team behaviors across the group
         </div>
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+      <td class="behaviors">
         <ul>
           <li>Deeply understand your group’s products and competition</li>
           <li>Identify gaps and opportunities in customer understanding for your group</li>
@@ -507,7 +425,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Promotes accountability for design efforts via advocating and mentoring designers in the use of product metrics. Data over opinions.</li>
         </ul>
       </td>
-      <td class="behaviors execution">
+      <td class="behaviors">
         <ul>
           <li>Identify new problems and opportunities for your group to solve</li>
           <li>Question and fill knowledge gaps for our strategic projects</li>
@@ -522,7 +440,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Models how to move complex work forward with data over opinions.</li>
         </ul>
       </td>
-      <td class="behaviors teamwork">
+      <td class="behaviors">
         <ul>
           <li>Role model our principles and values for other designers</li>
           <li>Contribute to refining our values, principles, and how we interpret them</li>
