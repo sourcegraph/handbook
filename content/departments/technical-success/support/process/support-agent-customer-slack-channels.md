@@ -11,7 +11,7 @@ Below are the steps required to enable either option.
 
 ### Embedding the Create Request option to the Channel
 
-**Step 1**: Once the customer slack channel has been created, please reach out to support in #ask-customer-support. This will allow CS leadership to integrate the Support Agent to the customer channel. 
+**Step 1**: Once the customer slack channel has been created, please reach out to support in #ask-customer-support. This will allow CS leadership to integrate the Support Agent to the customer channel.
 
 **Step 2**: Once the integration is completed the customer will be able to submit request using the box labeled <Create Request>
 
