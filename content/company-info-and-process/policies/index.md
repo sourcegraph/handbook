@@ -1,5 +1,6 @@
 # Sourcegraph Information Security Policies
 
+- [Acceptable use policy](../policies/acceptable-use-policy.md)
 - [Access control policy](../policies/access-control-policy.md)
 - [Asset management policy](../policies/asset-management-policy.md)
 - [Business continuity and disaster recovery plan](business-continuity-policy.md)
