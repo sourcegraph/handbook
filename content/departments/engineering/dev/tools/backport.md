@@ -102,12 +102,10 @@ Leaf migrations for "frontend" defined at commit "c982f23f27addb337836b650ab9430
 ...
 ```
 
-2. switch back to the backported branch
+2. rewrite the parent field with the leaf migrations from above in the metadata.yaml file for the migration within the backport PR and main. Ensure that the main branch is updated to have the same parents as the backport branch at the same time.
 
-3. rewrite the parent field with the leaf migrations from above in the metadata.yaml file for the migration you want to backport
+3. sg generate
 
-4. sg generate
+4. git add, git commit, git push changes to the backported branch as well as the PR that will merge to main for the drift fix.
 
-5. git add, git commit, git push changes to the backported branch.
-
-6. Wait for CI to go Green, and merge the backport PR.
+5. Wait for CI to go Green, and merge the PRs.
