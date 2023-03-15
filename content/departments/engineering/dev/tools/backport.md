@@ -93,6 +93,7 @@ on the release branch, run the following commands :
 1. sg migration leaves <latest-commit-release-branch>
 
 this will output a list of leaf migrations for the release branch. e.g.:
+
 ```
 Leaf migrations for "frontend" defined at commit "c982f23f27addb337836b650ab943037628d8a0d"
 1675296942: (add column to changesets for external fork name)
