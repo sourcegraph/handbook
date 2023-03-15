@@ -37,7 +37,77 @@ To learn more, see ["Considerations for promotion" in our talent review process]
 
 ## IC1 - IC6 Framework
 
-![IC Framework Axis](https://storage.googleapis.com/sourcegraph-assets/Eng%20IC%20Career%20Framework%20Axis.png)
+<style>
+.ic-arrows {
+  display: flex;
+  gap: 1rem;
+}
+
+.ic-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 85px;
+  position: relative;
+  background: black;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.ic-arrow:not(:first-child) {
+  margin-left: -2rem;
+}
+
+.ic-arrow:before {
+  content: "";
+  background: var(--sg-sky-blue);
+  height: calc(100% - 2px);
+  width: calc(100% - 3px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.ic-arrow span {
+  z-index: 2;
+  color: white;
+  position: relative;
+}
+</style>
+
+<div class="ic-arrows" aria-label="Levels axis from IC1 to IC6">
+  <div class="ic-arrow">
+    <span>IC1</span>
+  </div>
+  <div class="ic-arrow">
+    <span>IC2</span>
+  </div>
+  <div class="ic-arrow">
+    <span>IC3</span>
+  </div>
+  <div class="ic-arrow">
+    <span>IC4</span>
+  </div>
+  <div class="ic-arrow">
+    <span>IC5</span>
+  </div>
+  <div class="ic-arrow">
+    <span>IC6*</span>
+  </div>
+</div>
+
+<small>_\* Coming soon_</small>
+
+As an IC you'll progress on several axis:
+
+- From individual contributions to team contributions to departments to company
+- From tactical thinking to strategic thinking
+- From "Can work alone for X days" to "can work along with 3 others for X months"
+- From "Solves small problems" to "solves big problems" to "finds problems we need to solve"
+- From "has a hard time dealing with ambiguity" to god-like-world-building-powers
+- From practitioner to champion to shaper in regards to the influence on our culture
 
 <style>
   .container {
