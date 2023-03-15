@@ -265,3 +265,19 @@ You can also refer to the [Loom walkthrough "how to find out if a CI failure is 
 3. Check [dispatcher logs](https://console.cloud.google.com/logs/query;lfeCustomFields=jsonPayload%252FexpectDispatch;query=resource.type%3D%22k8s_container%22%0Aresource.labels.project_id%3D%22sourcegraph-ci%22%0Aresource.labels.location%3D%22us-central1-c%22%0Aresource.labels.cluster_name%3D%22default-buildkite%22%0Aresource.labels.namespace_name%3D%22buildkite%22%0Aresource.labels.container_name%3D%22buildkite-job-dispatcher%22;summaryFields=jsonPayload%252FrunID,jsonPayload%252Fmsg,jsonPayload%252F%2522metric.agentsDispatched%2522,jsonPayload%252F%2522metric.freeAgents%2522,jsonPayload%252F%2522metric.scheduledJobs%2522,jsonPayload%252F%2522metric.totalAgents%2522:false:18:end:true;timeRange=PT30M?project=sourcegraph-ci) for details
 
 For more details, see the source: [buildkite-job-dispatcher](https://github.com/sourcegraph/infrastructure/blob/main/buildkite/kubernetes/buildkite-job-dispatcher/README.md)
+
+### Agents stuck in `ContainerCreating`
+
+- Gravity: _major_
+- Impact: Builds stuck in "waiting for agent"
+- Possible cause:
+  - Missing `buildkite-git-references` disk.
+  - Failed to attach volume - missing disk.
+
+#### Actions
+
+1. Scale `buildkite-job-dispatcher` to 0. This will ensure that there are no new agents are launched while we fix the missing disk issue.
+2. Delete all `buildkite-agent-stateless` jobs. Their `volume attachment` is referring to the missing disk still so it's best to remove it.
+3. Delete the CronJob named `buildkite-job-prune`.
+4. The [`buildkite-git-references` pipeline](https://buildkite.com/sourcegraph/buildkite-git-references) pipeline creates the `buildkite-git-references` disk. So we can following the same steps the pipeline executes. Look in [`pipeline.yaml`](https://github.com/sourcegraph/infrastructure/blob/main/buildkite/buildkite-git-references/pipeline.yaml) for all the steps, and execute them manually. The reason we don't just rerun the pipeline is because there are no agents to execute the jobs of the pipeline.
+5. Once the disk has been recreated, scale `buildkite-job-dispatcher` back up to 1. The job dispatcher should be creating new stateless agants and the agents should be transitioning from `ContainerCreating` to `Running`
