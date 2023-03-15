@@ -39,7 +39,7 @@ Users shall **not** use IT or other company resources to:
 
 Using organization-owned or organization-provided computer systems to circumvent any security systems, authentication systems, user-based systems, or escalating privileges is expressly prohibited. Knowingly taking any actions to bypass or circumvent security, or otherwise access information for unauthorized purposes is expressly prohibited.
 
-The individual right to privacy may, when personal files may need to be accessed for troubleshooting purposes or to investigate a reported incident, be overridden by authorized personnel at Sourcegraph to protect the integrity of our and our customer’s data. Further details on notification and scope of such access can be found in our [handbook](../departments/tech-ops/process/team_device_usage_privacy.md).
+The individual right to privacy may, when personal files may need to be accessed for troubleshooting purposes or to investigate a reported incident, be overridden by authorized personnel at Sourcegraph to protect the integrity of our and our customer’s data. Further details on notification and scope of such access can be found in our [handbook](../../departments/tech-ops/process/team_device_usage_privacy.md).
 
 ## Policy Compliance
 
