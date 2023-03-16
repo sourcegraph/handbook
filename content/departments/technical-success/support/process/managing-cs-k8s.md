@@ -45,17 +45,17 @@ We are currently deployed using this [deploy-sourcegraph-cse-kustomize](https://
 7. After merging, you're likely to encounter some merge conflicts. Please resolve them(most of them require clicking on `Accept Incoming Change` - if you're using MS Studio as your code editor.
 8. You can then add and commit the changes by running `git add .` followed by `git commit -m "$YOUR_COMMIT_MESSAGE"`
 9. Build new manifests with Kustomize  
-Generate a new set of manifests locally using your current overlay instances/my-sourcegraph without applying to the cluster.  
-`kubectl kustomize instances/my-sourcegraph -o cluster.yaml`  
-Review the generated manifests to ensure they match your intended configuration and have the images for the $NEW_VERSION version.  
-`less cluster.yaml`
+   Generate a new set of manifests locally using your current overlay instances/my-sourcegraph without applying to the cluster.  
+   `kubectl kustomize instances/my-sourcegraph -o cluster.yaml`  
+   Review the generated manifests to ensure they match your intended configuration and have the images for the $NEW_VERSION version.  
+   `less cluster.yaml`
 10. Deploy the generated manifests  
-Apply the new manifests from the ouput file cluster.yaml to your cluster:  
-`kubectl -n ns-sourcegraph apply --prune -l deploy=sourcegraph -f cluster.yaml`
+    Apply the new manifests from the ouput file cluster.yaml to your cluster:  
+    `kubectl -n ns-sourcegraph apply --prune -l deploy=sourcegraph -f cluster.yaml`
 11. Monitor the status of the deployment to determine its success.  
-`kubectl -n ns-sourcegraph get pods --watch`.
-11. Confirm the new version [here](https://cse-k8s.sgdev.org/site-admin/updates)
-12. Please don't forget to `git push` to our repo to give folks a head up that you made the upgrade!
+    `kubectl -n ns-sourcegraph get pods --watch`.
+12. Confirm the new version [here](https://cse-k8s.sgdev.org/site-admin/updates)
+13. Please don't forget to `git push` to our repo to give folks a head up that you made the upgrade!
 
 Video on how upgrading the instance looks like: [https://drive.google.com/file/d/1aWsXejG2qeFKGrY5BGzpSabwGuU1gLM3/view](https://drive.google.com/file/d/1aWsXejG2qeFKGrY5BGzpSabwGuU1gLM3/view)
 
