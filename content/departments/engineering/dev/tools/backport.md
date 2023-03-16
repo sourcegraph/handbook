@@ -81,3 +81,31 @@ you can manually create one by running the following command in your terminal:
 8. Delete the working tree
 
 `git worktree remove ${worktreePath}`
+
+# PRs with migration changes
+
+If the PR contains a migration change, a manual update of the stiched migration files is required.
+
+## How to update the stitched migration files
+
+on the release branch, run the following commands :
+
+1. sg migration leaves <latest-commit-release-branch>
+
+this will output a list of leaf migrations for the release branch. e.g.:
+
+```
+Leaf migrations for "frontend" defined at commit "c982f23f27addb337836b650ab943037628d8a0d"
+1675296942: (add column to changesets for external fork name)
+1676996650: (package_repos_separate_versions_table_patch1)
+1675864432: (add code_host_states to permission_sync_jobs table)
+...
+```
+
+2.  identify which schema your migration is in e.g. frontend, codeintel, codeinsights. Once you have identified the schema, you can find the leaf migrations for that schema in the output of the previous command. Create a two PR's one to be merged to backport branch and the other to main. For both PR's, copy the leaf migrations numbers from the step above into the parents field of metadata.yaml file for that migration. Ensure that the main branch is updated to have the same parents as the backport branch at the same time.
+
+3.  sg generate
+
+4.  git add, git commit, git push changes to the backported branch as well as the PR that will merge to main for the drift fix.
+
+5.  Wait for CI to go Green, and merge the PRs.
