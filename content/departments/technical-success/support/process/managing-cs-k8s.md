@@ -24,32 +24,36 @@ To access the CS-GKE instance and run Kubernetes commands locally, you'll need t
 
 > WARNING: All your kubectl commands from now on are connected to the CS-GKE Kubernetes Instance.
 
-## Configuring instance resources
-
-To make changes to the replicas and container resources on this instance, update the [resources](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s/blob/release/overlays/namespaced/resources.yaml) file in the namespaced overlay. Apply the changes by running `./overlay-generate-cluster.sh namespaced generated-cluster`, followed by `kubectl apply -n ns-sourcegraph --prune -l deploy=sourcegraph -f generated-cluster --recursive`
-
 ## Upgrading CS-GKE Kubernetes Instance
 
-We are currently deployed using this [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s). To upgrade the instance:
+We are currently deployed using this [deploy-sourcegraph-cse-kustomize](https://github.com/sourcegraph/deploy-sourcegraph-cse-kustomize) repository. To upgrade the instance:
 
-### [https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s)
+### [https://github.com/sourcegraph/deploy-sourcegraph-cse-kustomize](https://github.com/sourcegraph/deploy-sourcegraph-cse-kustomize)
 
-1. Clone the [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s) to your local machine.
+1. Clone the [deploy-sourcegraph-cse-kustomize repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-kustomize) to your local machine.
 2. `cd` into the newly cloned directory.
-3. Make sure you are on the main branch: `git checkout master`
-4. Get the latest version of Sourcegraph from the [upstream](https://github.com/sourcegraph/deploy-sourcegraph/) by running `git fetch upstream`
+3. Make sure you are on the main branch: `git checkout main`
+4. Get the latest version of Sourcegraph from the [upstream](https://github.com/sourcegraph/deploy-sourcegraph-k8s) by running `git fetch upstream`
    > _Note: you may need to set the upstream origin on your master branch_
 
 ```
- git remote add upstream https://github.com/sourcegraph/deploy-sourcegraph
+ git remote add upstream https://github.com/sourcegraph/deploy-sourcegraph-k8s
 ```
 
 5. Merge the latest update from upstream to the release branch: `git checkout release`
-6. Choose which version you want to deploy from the [Sourcegraph release page](https://github.com/sourcegraph/deploy-sourcegraph/releases) then run: `git merge $NEW_VERSION`.
+6. Choose which version you want to deploy from the [Sourcegraph release page](https://github.com/sourcegraph/deploy-sourcegraph-k8s/releases) then run: `git merge $NEW_VERSION`.
 7. After merging, you're likely to encounter some merge conflicts. Please resolve them(most of them require clicking on `Accept Incoming Change` - if you're using MS Studio as your code editor.
 8. You can then add and commit the changes by running `git add .` followed by `git commit -m "$YOUR_COMMIT_MESSAGE"`
-9. You can confirm if the merge was successful, if it was, then run `./overlay-generate-cluster.sh namespaced generated-cluster`, followed by `kubectl apply -n ns-sourcegraph --prune -l deploy=sourcegraph -f generated-cluster --recursive`.
-10. Check the status of the pods to confirm that everything is running properly by executing `kubectl get pods -n ns-sourcegraph`.
+9. Build new manifests with Kustomize  
+Generate a new set of manifests locally using your current overlay instances/my-sourcegraph without applying to the cluster.  
+`kubectl kustomize instances/my-sourcegraph -o cluster.yaml`  
+Review the generated manifests to ensure they match your intended configuration and have the images for the $NEW_VERSION version.  
+`less cluster.yaml`
+10. Deploy the generated manifests  
+Apply the new manifests from the ouput file cluster.yaml to your cluster:  
+`kubectl -n ns-sourcegraph apply --prune -l deploy=sourcegraph -f cluster.yaml`
+11. Monitor the status of the deployment to determine its success.  
+`kubectl -n ns-sourcegraph get pods --watch`.
 11. Confirm the new version [here](https://cse-k8s.sgdev.org/site-admin/updates)
 12. Please don't forget to `git push` to our repo to give folks a head up that you made the upgrade!
 
