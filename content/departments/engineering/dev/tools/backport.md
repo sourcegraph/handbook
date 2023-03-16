@@ -102,10 +102,10 @@ Leaf migrations for "frontend" defined at commit "c982f23f27addb337836b650ab9430
 ...
 ```
 
-2. rewrite the parent field with the leaf migrations from above in the metadata.yaml file for the migration within the backport PR and main. Ensure that the main branch is updated to have the same parents as the backport branch at the same time.
+2.  identify which schema your migration is in e.g. frontend, codeintel, codeinsights. Once you have identified the schema, you can find the leaf migrations for that schema in the output of the previous command. Create a two PR's one to be merged to backport branch and the other to main. For both PR's, copy the leaf migrations numbers from the step above into the parents field of metadata.yaml file for that migration. Ensure that the main branch is updated to have the same parents as the backport branch at the same time.
 
-3. sg generate
+3.  sg generate
 
-4. git add, git commit, git push changes to the backported branch as well as the PR that will merge to main for the drift fix.
+4.  git add, git commit, git push changes to the backported branch as well as the PR that will merge to main for the drift fix.
 
-5. Wait for CI to go Green, and merge the PRs.
+5.  Wait for CI to go Green, and merge the PRs.
