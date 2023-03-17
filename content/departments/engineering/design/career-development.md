@@ -17,7 +17,7 @@ It’s important to understand that what is listed in the level descriptions are
 
 <style>
   .container {
-    --width: 1300px;
+    --width: var(--container-width);
   }
 </style>
 
