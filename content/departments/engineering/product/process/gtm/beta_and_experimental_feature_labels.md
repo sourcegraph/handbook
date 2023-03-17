@@ -58,11 +58,18 @@ Ask yourself:
 
 We use the term GA to refer to features that are complete and ready for broad use. GA features:
 
-- Are stable and can be used across our entire customer base
+- Are stable and can be used across our entire customer base including scaling
 - Are high-quality with no known bugs or issues
 - Are commercially ready for customers to adopt (and purchase if it's an add-on product or feature)
 - Have established product-market fit
 - Have clear pricing and packaging
+
+To understand if the feature you're working on is ready for GA, ask yourself these questions:
+
+- Can the user self-service learn about how to use my feature?
+- Can the user or admin self-service debug my feature when something goes wrong? Does my feature have error messages the users can see, understand, and are empowered to take corrective action?
+- Does my feature have customer facing technical docs that are accurate for each release of the product, and are easy to find for the version they're on?
+- Did I provide the necessary enablement to help our technical success teams assist customers?
 
 For [L1 product launches](../../../../marketing/product-marketing/marketing_launch_tiers.md#l1-launch), the PM and PMM for the product should work together to establish GA criteria before the launch happens and should mutually decide when the product is ready for GA.
 
