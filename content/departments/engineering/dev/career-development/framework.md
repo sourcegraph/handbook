@@ -113,7 +113,7 @@ As an IC you'll progress on several axis:
 
 <style>
   .container {
-    --width: 1300px;
+    --width: var(--container-width);
   }
 </style>
 

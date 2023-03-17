@@ -1,3 +1,8 @@
+:root {
+    // Enough to show 4 full columns and a peek of a 5th column, if there is one.
+    --container-width: 210ch;
+}
+
 .levels-table {
     --category-color-1: var(--sg-vivid-violet);
     --category-color-2: var(--sg-sky-blue);
