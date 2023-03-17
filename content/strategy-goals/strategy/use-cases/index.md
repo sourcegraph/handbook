@@ -1,3 +1,7 @@
 # Use cases
 
-See [parent page](../index.md#use-cases) for the index of use cases and related resources.
+- [Developer onboarding](dev-onboarding/)
+- [Code reuse](code-reuse/)
+- [Code health](code-health/)
+- [Code security](code-security/)
+- [Incident response](incident-response/)
