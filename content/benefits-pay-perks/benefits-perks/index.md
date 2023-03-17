@@ -67,3 +67,7 @@ We offer basic life insurance and cover the full premium for all US-based full-t
 We offer a 401(k) for US-based employees with both traditional (pre-tax) and Roth options to help you save for retirement while saving on taxes. The 401(k) is administered by [Human Interest](https://humaninterest.com/) and has several low-fee Vanguard funds available as investment options.
 
 For a more detailed breakout of our benefits and perks, see [this page](../index.md)
+
+### Leave of Absence
+
+We offer medical leave policies to all full-time teammates, providing them with time off to care for themselves or a family member as they recover from a serious health condition. you can read more about our Leave of Absence policy [here](leave-of-absence.md).
