@@ -13,7 +13,7 @@ Some examples of incidents:
 
 Additionally, on big announcement days (funding, product launch, campaign launch, etc.), all incidents warrant more immediate attention from marketing so we can hold off on planned activities/be prepared to respond to issues. On these days, the person in marketing leading the announcement is responsible for looping #customer-support and engineering/product in ahead of time to ensure they are aware of planned activities. The person leading the announcement will work with #customer-support on the ad-hoc plan for incidents (which may involve on-call rotation).
 
-All incidents are announced in the #incidents channel automatically through incident.<unlink></unlink>io, and past incidents are available in the [incidents.io dashboard](https://app.incident.io/incidents) and our [past incident postmortems](#past-incident-post-mortems).
+All incidents are announced in the #announce-incidents channel automatically through incident.<unlink></unlink>io, and past incidents are available in the [incidents.io dashboard](https://app.incident.io/incidents) and our [past incident postmortems](#past-incident-post-mortems).
 
 ## Process
 
