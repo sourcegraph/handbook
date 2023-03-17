@@ -178,7 +178,7 @@ Preparing for your first day back:
 
 ##### **Q: Can I use PTO after 4 weeks of medical leave?**
 
-- A: No, while you’re out on medical leave your first 4 weeks will be paid and any additional time off up to 8 additional weeks is unpaid, unless your local statutory annual leave provides otherwise. Once you return to work you can use PTO in alignment with our [Paid Time Off policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off/).
+- A: No, while you’re out on medical leave your first 4 weeks will be paid and any additional time off up to 8 additional weeks is unpaid, unless your local statutory annual leave provides otherwise. Once you return to work you can use PTO in alignment with our [Paid Time Off policy](time-off/index.md).
 
 ##### **Q: I just joined recently. Am I eligible for medical leave even though I haven’t been here for a year?**
 
