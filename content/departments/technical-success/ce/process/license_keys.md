@@ -26,6 +26,8 @@ A note on Sales-led cloud (managed instance) trials: as part of the Managed Inst
 
 When the prospect converts to a customer, create a _new_ subscription; **do not** reuse the trial subscription. (Follow the instructions for [issuing a new license](#creating-a-new-license-key) from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
+Note: if the prospect was a PLG Cloud trial customer, do _not_ reuse the `plg-trial` tag on their production, paid license. This is for prospects only.
+
 ### Creating a new license key
 
 > NOTE: CEs should always consult with Sales before creating license keys for prospects (i.e., companies that have not yet officially become customers).
