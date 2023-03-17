@@ -25,7 +25,7 @@ At Sourcegraph, we believe that our employees' well-being is a top priority. Tha
 
 We understand that unexpected medical situations can be stressful and challenging to navigate. That's why we provide resources for teammates and their immediate family members who are dealing with a planned or unforeseen medical event.
 
-If you're expecting the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/parental-leave/#resources-for-teammates-with-a-commission-plan-sales--ce). We recognize the unique needs of new parents and strive to provide support during this important time.
+If you're expecting the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](parental-leave.md). We recognize the unique needs of new parents and strive to provide support during this important time.
 
 ### **LOA TL;DR**
 
@@ -109,7 +109,7 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 
 **Step 3: Log your medical leave**
 
-- Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO ](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off/#recording-pto)in Slack (select the Medical Leave category).
+- Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO](time-off/index.md#recording-pto".) in Slack (select the Medical Leave category).
 
 **Step 4: Create & communicate your out of office plan with your team**
 
@@ -150,7 +150,7 @@ Preparing for your first day back:
 
 #### **FAQ for all Teammates (regardless of location)**
 
-**Q: We have an [unlimited Paid Time Off (PTO) Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off/). What is the difference and when should I take a LOA instead of Sick Time/PTO?**
+**Q: We have an [unlimited Paid Time Off (PTO) Policy](time-off/index.md). What is the difference and when should I take a LOA instead of Sick Time/PTO?**
 
 - A: The main differentiators of using Sick Time/PTO vs. a LOA for a medical concern/condition are 1) the length of time away from work and 2) a doctor’s note requirement
 
@@ -210,7 +210,7 @@ Preparing for your first day back:
 
 ##### **Q: I’m expecting a new child, is that covered by our LOA policy?**
 
-- A: Yes, our LOA policy covers any medical or disability leave during pregnancy. For post-birth parental leave, see our [Sourcegraph’s Paid Parental Leave Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/parental-leave/).
+- A: Yes, our LOA policy covers any medical or disability leave during pregnancy. For post-birth parental leave, see our [Sourcegraph’s Paid Parental Leave Policy](parental-leave.md).
 
 #### **FAQ for US-based Teammates**
 
