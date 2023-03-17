@@ -30,7 +30,7 @@ Promotions from one level to another are considered in impact reviews conducted 
 
 <style>
   .container {
-    --width: 1300px;
+    --width: var(--container-width);
   }
 </style>
 
