@@ -3,23 +3,23 @@
 _The below guide applies to all full-time Teammates globally. Please reach out to the People Team (people-team@sourcegraph.com) if you require further guidance._
 
 - _Resources for Teammates (<– you are here)_
-- _Resources for Managers_
+- _[Resources for Managers](https://docs.google.com/document/d/1SAlUEd_YOTQdQsDrkPrvAZTvupub5Nfcru7iJK_Zl68/edit)_
 - _[Resources for People Team](https://docs.google.com/document/d/1SAlUEd_YOTQdQsDrkPrvAZTvupub5Nfcru7iJK_Zl68/edit)_
 
 **On this page:**
 
-- Reason for the policy
-- LOA TL;DR
-- Who is eligible
-- Your pay while on LOA
+- [Reason for the policy](leave-of-absence.md#reason-for-the-policy)
+- [LOA TL;DR](leave-of-absence.md#LOA-TLDR)
+- [Who is eligible](leave-of-absence.md#Who-is-eligible-for-a-LOA)
+- [Your pay while on LOA](leave-of-absence.md#Your-pay-while-on-LOA)
   - Paid leave
   - Unpaid leave
   - Commission-based teammates
-- How to request LOA
-- Additional resources
-- Teammate FAQ
+- [How to request LOA](leave-of-absence.md#How-to-request-LOA)
+- [Additional resources](leave-of-absence.md#Additional-resources)
+- [Teammate FAQ](leave-of-absence.md#FAQ)
 
-### **Reason for the policy**
+### Reason for the policy
 
 At Sourcegraph, we believe that our employees' well-being is a top priority. That's why we offer medical leave policies to all full-time teammates, providing them with time off to care for themselves or a family member as they recover from a serious health condition. Our goal is to create a teammate-friendly culture that fosters professional growth and development while prioritizing the health of our employees and their families.
 
@@ -27,7 +27,7 @@ We understand that unexpected medical situations can be stressful and challengin
 
 If you're expecting the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](parental-leave.md). We recognize the unique needs of new parents and strive to provide support during this important time.
 
-### **LOA TL;DR**
+### LOA TL;DR
 
 - **Eligibility (personal):** any teammate requiring **more than 1-week of leave** to tend to a personal physical or mental condition is eligible for paid leave at Sourcegraph. To be eligible, a medical professional must advise a leave of absence from work and a note from a medical care provider must be submitted to the People Team.
 - **Eligibility (family member):** any teammate who requires more than one week of leave to care for an ill immediate family member is eligible for paid leave at Sourcegraph. To be eligible, the teammate must be the primary caregiver during the medical condition. Additionally, a medical professional must advise a leave of absence from work, and a note from a medical care provider must be submitted to the People Team.
@@ -38,12 +38,12 @@ If you're expecting the birth or adoption of a child, please refer to our [Sourc
   - In total, a teammate can take up to 12 weeks of Medical leave per year (12 months from initial leave).
   - Medical leave must be taken consecutively per medical event. If intermittent leaves are medically necessary, Sourcegraph will work with you per our ADA process.
   - Anything over 12 weeks is not eligible under the medical leave policy. However, Sourcegraph may grant additional unpaid time off to reasonably accommodate teammates where medically necessary.
-  - If non-commissioned teammate, [click here](#bookmark=id.2zraren6x77i) for more information
-  - If commissioned teammate, [click here](#bookmark=id.n4dwkzvkn266) for more information
-- **Local laws:** This policy-including eligibility criteria, leave duration, and amount of paid leave–is subject to applicable local laws, which may provide different benefits. In those cases, the teammate will receive the greater entitlement. Where local laws entitle a teammate to a portion of leave paid for by the local government, Sourcegraph will work with the teammate to adjust Sourcegraph’s coverage, so that the total amount received by the teammate is consistent with but not duplicative of the entitlements under Sourcegraph’s policy and applicable local laws. See [FAQ ](#bookmark=id.evkh4nm3tf8z)for Non-US/statutory variances below.
-- **How to request LOA:** to request a LOA, please alert your Manager and People Partner as soon as possible. You can read more about our step by step request process [here].
+  - If non-commissioned teammate, [click here](leave-of-absence.md#Your-pay-while-on-LOA) for more information
+  - If commissioned teammate, [click here](leave-of-absence.md#Resources-for-Quota-Carrying-Teammates-Sales-CE) for more information
+- **Local laws:** This policy-including eligibility criteria, leave duration, and amount of paid leave–is subject to applicable local laws, which may provide different benefits. In those cases, the teammate will receive the greater entitlement. Where local laws entitle a teammate to a portion of leave paid for by the local government, Sourcegraph will work with the teammate to adjust Sourcegraph’s coverage, so that the total amount received by the teammate is consistent with but not duplicative of the entitlements under Sourcegraph’s policy and applicable local laws. See [FAQ](leave-of-absence.md#FAQ) for Non-US/statutory variances below.
+- **How to request LOA:** to request a LOA, please alert your Manager and People Partner as soon as possible. You can read more about our step by step request process [here](leave-of-absence.md#How-to-request-LOA).
 
-### **Who is eligible for a LOA?**
+### Who is eligible for a LOA?
 
 Eligibility starts on day 1 of employment. Teammates are eligible if they meet all the requirements below:
 
@@ -58,7 +58,7 @@ Eligibility starts on day 1 of employment. Teammates are eligible if they meet a
   - Whether the teammate needs a return-to-work release from the doctor
   - The dates of requested leave.
 
-### **Your pay while on LOA**
+### Your pay while on LOA
 
 - **Paid leave**: Eligible teammates are paid 100% of their base salary for up to 4 weeks of continuous absence for approved leaves of absence. If you live in a location that has statutory benefits, Sourcegraph will cover the difference between any country or state-sponsored benefits and your full salary. You must sign up for any country or state-sponsored leave benefits if available.
 - **Unpaid leave:** If your LOA exceeds 4 weeks, you may take up to an additional 8 weeks of unpaid leave, or in alignment with statutory medical benefits and leave policies (dependent on location). This policy allows for a maximum of 12 weeks of medical leave, unless otherwise entitled under applicable statutory rights.
@@ -66,7 +66,7 @@ Eligibility starts on day 1 of employment. Teammates are eligible if they meet a
 
 Contact [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) to start the process and for assistance during your leave.
 
-### **How to request LOA**
+### How to request LOA
 
 **Before leave:**
 
@@ -138,7 +138,7 @@ Preparing for your first day back:
   - Your manager will set up a 1:1 for your first day back to check in, provide updates, and discuss priorities.
   - Review the [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit) that you and your manager put together prior to your leave as well as your 1-1 doc to catch up on in-progress projects and priorities.
 
-### **Additional resources**
+### Additional resources
 
 - [Modern Health](https://circles.modernhealth.com/): our mental health platform, Modern Health, has resources for many tough life situations
 - On-demand meditations include:
@@ -146,7 +146,7 @@ Preparing for your first day back:
   - [Relax Your Body](https://my.joinmodernhealth.com/meditation/relax-your-body)
   - [Deep Breathing](https://my.joinmodernhealth.com/meditation/deep-breathing)
 
-### **FAQ**
+### FAQ
 
 #### **FAQ for all Teammates (regardless of location)**
 
@@ -250,7 +250,7 @@ If you are engaged as an International Contractor:
 
 - Each country has varying requirements that dictate eligibility for statutory medical/sick benefits. This is dependent on the working relationship type including, independent contractors and those who are self-employed. Given the varying country specific regulations, please contact people-ops@sourcegraph.com to receive guidance regarding statutory requirements you are eligible for and how Sourcegraph will cover any variances in total applicable paid leave to ensure you are getting the full 4 weeks of paid medical/sick leave.
 
-### **Resources for Quota-Carrying Teammates (Sales & CE)**
+### Resources for Quota-Carrying Teammates (Sales & CE)
 
 We want our quota-carrying teammates to feel supported while out on medical leave. This includes Account Executives, Sales Development Representatives, Customer Engineers and quota-carrying Managers. Please contact people-ops@sourcegraph.com to confirm if your role qualifies as a quota-based position.
 
