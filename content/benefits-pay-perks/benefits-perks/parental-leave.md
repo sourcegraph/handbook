@@ -105,14 +105,15 @@ For team members taking >2 weeks of leave:
 - Any deals closed during this period will be measured against attainment based on the below criteria
 - Should attainment exceed 100% of prorated OTE, rep will be entitled to the full amount of compensation based on attainment, including any applicable multipliers.
 - Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member.
- * Quota Relief While On Parental Leave: Sales Quota will be zero during leave months. This includes New Annual Contract Value (ACV) and New Logo Generation (NLG). Gross Retention Rate (GRR) target will remain unchanged; the annualized variable amount will be prorated based on the number of months on leave. 
-    * **GRR Example**: A rep with variable pay of $150K takes 12 weeks off. GRR component represents 20% of variable, or $30K. The AE will be guaranteed the prorated amount of variable pay, or $7.5K. At the end of the year, when the rep’s GRR calculation takes place, attainment & payment will be based on the remaining variable compensation ($22.5K)
-    * **New Logo Quota Example:** This will be prorated based on the leave period and deducted from the semi-annual targets.  Example: The AE takes 12 weeks off in 1H where the new logo quota is 4. This would result in a reduction of quota from 4 to 2 for that period. 
-    * **ACV Quota Example:** This will be prorated based on the leave period and deducted from the full-year target. Example: Rep takes 11 weeks off, which would result in $317,307.69 off a $1.5M annual quota. Dropping annual quota to $1,182,692.31. 
+
+* Quota Relief While On Parental Leave: Sales Quota will be zero during leave months. This includes New Annual Contract Value (ACV) and New Logo Generation (NLG). Gross Retention Rate (GRR) target will remain unchanged; the annualized variable amount will be prorated based on the number of months on leave.
+  - **GRR Example**: A rep with variable pay of $150K takes 12 weeks off. GRR component represents 20% of variable, or $30K. The AE will be guaranteed the prorated amount of variable pay, or $7.5K. At the end of the year, when the rep’s GRR calculation takes place, attainment & payment will be based on the remaining variable compensation ($22.5K)
+  - **New Logo Quota Example:** This will be prorated based on the leave period and deducted from the semi-annual targets. Example: The AE takes 12 weeks off in 1H where the new logo quota is 4. This would result in a reduction of quota from 4 to 2 for that period.
+  - **ACV Quota Example:** This will be prorated based on the leave period and deducted from the full-year target. Example: Rep takes 11 weeks off, which would result in $317,307.69 off a $1.5M annual quota. Dropping annual quota to $1,182,692.31.
 * In addition, for team members taking >50% of leave in one block, Sourcegraph shall provide the team member with a 3-month ramp period of 50% of prorated quota upon return (New Annual Contract Value (ACV) and New Logo Generation (NLG) only) . Quota shall revert to 100% attainment in month 4 of return. The ramp period will begin on the 1st of the month following the teammate’s return.
-    * **New Logo Quota Ramp Example:** AE takes 12 weeks in 1H with a New Logo quota of 4. AE would receive zero quota for the period of time on leave and 50% quota for the first three months upon return. Therefore, the quota would be reduced from 4 new logos to 1
-    * **ACV Quota Ramp Example:** AE takes 12 weeks off on a $1.2M quota. The AE would receive a reduction in quota of $300K due to the total amount of leave taken, as well as a further reduction in quota of $150K over the ramp period. Therefore, the new annual quota would be $750K
-    
+  - **New Logo Quota Ramp Example:** AE takes 12 weeks in 1H with a New Logo quota of 4. AE would receive zero quota for the period of time on leave and 50% quota for the first three months upon return. Therefore, the quota would be reduced from 4 new logos to 1
+  - **ACV Quota Ramp Example:** AE takes 12 weeks off on a $1.2M quota. The AE would receive a reduction in quota of $300K due to the total amount of leave taken, as well as a further reduction in quota of $150K over the ramp period. Therefore, the new annual quota would be $750K
+
 #### Commission payout scenarios for Account Executives
 
 _Applies for any period of parental leave that is >2 weeks. Deal stage is locked at the date of the start of team member’s parental leave, with additional validation by current Pre-Sales Customer Engineer._
@@ -176,12 +177,12 @@ _Examples:_
 
 **Account Coverage and Opportunity Assignment Process:**
 
-* Ownership of opportunities and account coverage will be assigned prior to an AE’s leave as part of the leave plan and will be determined in partnership with the  AE’s Manager, Sales-ops, and People Partner. 
+- Ownership of opportunities and account coverage will be assigned prior to an AE’s leave as part of the leave plan and will be determined in partnership with the AE’s Manager, Sales-ops, and People Partner.
 
 **GRR and Renewals:**
 
-* The Account Executive on leave retains direct ownership for renewal up to the leave date. If the renewal is not finalized prior to the leave date, the Manager will be responsible for stewarding the renewal process. The Manager has the discretion to assign the renewal to a covering AE or retain full accountability for the renewal. In both cases, the outcome of the renewal process shall impact the AE on leave’s GRR calculation.
-_For any period of leave &lt;2 weeks, please consult your manager._
+- The Account Executive on leave retains direct ownership for renewal up to the leave date. If the renewal is not finalized prior to the leave date, the Manager will be responsible for stewarding the renewal process. The Manager has the discretion to assign the renewal to a covering AE or retain full accountability for the renewal. In both cases, the outcome of the renewal process shall impact the AE on leave’s GRR calculation.
+  _For any period of leave &lt;2 weeks, please consult your manager._
 
 #### Commission payout while on leave for Sales Development Representatives
 
