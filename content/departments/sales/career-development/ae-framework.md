@@ -10,7 +10,7 @@
    </td>
    <td><strong>Commercial (P2)</strong>
    </td>
-   <td><strong>Sr. Commercial (P3)</strong>
+   <td><strong>Mid-market (P3)</strong>
    </td>
    <td><strong>Enterprise (P4)</strong>
    </td>
@@ -22,7 +22,7 @@
   <tr>
    <td><strong>Competency Execution</strong>
    </td>
-   <td>Skill: Knows and understands key competencies, but is more task-oriented, and continuing to develop. Is gaining independence in managing Account Teams. Drives deal execution with very regular assistance from leadership. Deal complexity is primarily low and volume high.
+   <td>Skill: Knows and understands key competencies but is more task-oriented, and continuing to develop. Is gaining independence in managing Account Teams. Drives deal execution with very regular assistance from leadership. Deal complexity is primarily low and volume high.
 <p>
 Meeting Expectations across majority of competencies (Rating=2). May Need Improvement (Rating=1) in those that are more complex, particularly when new in role.
 <p>
@@ -50,35 +50,94 @@ Mentors AE3-5 and brings new ideas and approaches to the Enterprise team.
 <p>
 Expert across all or majority of competencies (Rating=1)
 <p>
-Drives company-wide alignment and enablement to win and retain our largest strategic accounts.
+Drives cross-functional alignment and enablement to win and retain our largest strategic accounts. And takes part in company-wide initiatives.
    </td>
   </tr>
   <tr>
    <td><strong>Territory Profile</strong>
    </td>
-   <td>Quota: &lt;$800k
+   <td>N/A - This level is not currently applicable.
    </td>
-   <td>Quota: &lt;$1 M per year
+   <td>Most number of overall accounts.
+<p>
+Nearly all accounts fall into the "Mid-Market" (1.5k - 4.5k employees) profile.
+<p>
+Some accounts in "Small Enterprise" (4.5k - 9k).
+<p>
+No "Large Enterprise" or "Strategic" accounts.
    </td>
-   <td>Quota > $1.5M per year
+   <td>Second most number of overall accounts.
+<p>
+Most accounts fall into the "Small Enterprise" (4.5k - 9k employees) profile.
+<p>
+Fewer accounts fall into the "Large Enterprise" (9k - 30k employees) profile.
+<p>
+May contain some accounts in the "Mid-market" (1.5k - 4.5k) profile.
+<p>
+Territory may include "Strategic" profile accounts, but these are exceptions.
    </td>
-   <td>Quota >$1.56M per year
+   <td>Second fewest overall accounts.
+<p>
+Most accounts fall into the "Large Enterprise" profile (10k - 30k employees).
+<p>
+Fewer accounts fall into the "Strategic" (30k+ employees) profile.
+<p>
+Fewest accounts fall into the "Small Enterprise" (4.5k - 9k employees) profile.
+<p>
+Territory may include "Mid-Market" profile accounts, but these are exceptions.*
    </td>
-   <td>Quota >$1.67 per year
+   <td>Fewest overall accounts.
+<p>
+Most accounts fall into the "Strategic" Territory Profile (30k+ employees).
+<p>
+Fewer accounts fall into the "Large Enterprise" Territory Profile (10K+ employees).
+<p>
+Fewest accounts in "Small Enterprise", and must be rationalized on the basis of tenure within the company or account-specific advantages of assignment.
+<p>
+No accounts in the "Mid-Market" (1.5k - 4.5k employees) profile.
    </td>
   </tr>
   <tr>
    <td><strong>Promotion Eligibility (to the next level)</strong>
    </td>
-   <td>1 full year achieving above 100% Quota Attainment
+   <td>N/A
    </td>
-   <td>2 full years achieving 100% Quota Attainment
+   <td>combined two year attainment above 100% or over 120% in the most recent full quota year
    </td>
-   <td>1 full year achieving above 100% Quota Attainment
+   <td>combined two-year attainment above 100% or over 120% in the most recent full quota year
    </td>
-   <td>2 full years achieving above 100% Quota Attainment
+   <td>combined two-year attainment above 100% or 120% in the most recent full quota year
    </td>
-   <td>Highest- IC Band - Next track could be IC Account Director (Future Level) or Leadership
+   <td>combined two year attainment above 100% or over 120% in the most recent full quota year
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Quota Target</strong>
+   </td>
+   <td>N/A
+   </td>
+   <td>TBD - Coming Soon
+   </td>
+   <td>TBD - Coming Soon
+   </td>
+   <td>TBD - Coming Soon
+   </td>
+   <td>TBD - Coming Soon
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Impact Review Rating</strong>
+   </td>
+   <td>N/A
+   </td>
+   <td>Must have "2" rating or above in Skill and Values
+   </td>
+   <td>Must have "2" rating or above in Skill and Values
+   </td>
+   <td>Must have "2" rating or above in Skill and Values
+   </td>
+   <td>Must have "2" rating or above in Skill and Values
    </td>
   </tr>
 </table>
+
