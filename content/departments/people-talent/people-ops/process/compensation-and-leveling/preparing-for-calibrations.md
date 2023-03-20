@@ -6,18 +6,17 @@
 
 In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
 
-1. In Lattice, complete draft reviews for your direct reports utilizing the [SBI model](../giving-feedback.md) by Sept 19th
-2. In your Team’s Calibration Roster, fill-in Rating Details (Columns H-I) for every Teammate up for review
+1. In Lattice, complete draft reviews for your direct reports utilizing the [SBI model](../giving-feedback.md) 
+2. Completet the Rating Details for every Teammate up for review
 
 - _Note: While we don’t force distribution, we anticipate the following distribution on average:_
   - _20% “Exceeding High Bar” [1:1, 1:2 or 2:1]_
   - _70% “Meeting High Bar” [2:2s]_
   - _10% “Not Meeting High Bar” [3:1, 3:2, 2:3, 1:3 or 3:3]_
 - Managers will be required to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
-- While not required, we highly encourage managers to write notes in the section “M” of the Calibration Roster in preparation for their calibration presentation. You are [highly encouraged to copy/paste examples](#part-1-discussion) from your Lattice reviews.
+- While not required, we highly encourage managers to write notes in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes).
 
-1. On the same roster, mark “**Y**” - yes or “**N**” - no (Columns K-L) to indicate if the Teammate is being nominated for a promotion, and if yes, link the completed Promotion Form
-2. [Thoroughly prepare to discuss](#example-calibration-notes-see-doc) Teammate ratings with your peer calibration participants in a group setting
+3. [Thoroughly prepare to discuss](#example-calibration-notes-see-doc) Teammate ratings with your peer calibration participants in a group setting
 
 ## Calibration Session Agenda
 
