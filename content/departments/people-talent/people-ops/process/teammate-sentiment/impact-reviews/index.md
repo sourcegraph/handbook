@@ -84,7 +84,7 @@ Results from the semi-annual impact review process support the growth and develo
   - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
 - Feb 1: Handbook Update - Writing great reviews: example reviews for each category.
 - February 16th - Writing reviews workshop
-- March 16th - Calibration live training.
+- March 21st/23rd - Calibration live training.
 - March 31st - Delivering feedback live training.
 
 ## Impact Review process
