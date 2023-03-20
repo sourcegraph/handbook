@@ -189,4 +189,4 @@ Disabling SOAP is currently not supported on v2.
    echo "eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M..." | base64 --decode
    ```
 
-3. Use `base64` to decode the `siteConfig` again to get the actual content.
+3. Use `base64` to decode the `siteConfig` field again to get the actual content.
