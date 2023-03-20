@@ -6,7 +6,7 @@
 
 In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
 
-1. In Lattice, complete draft reviews for your direct reports utilizing the [SBI model](../giving-feedback.md) 
+1. In Lattice, complete draft reviews for your direct reports utilizing the [SBI model](../giving-feedback.md)
 2. Completet the Rating Details for every Teammate up for review
 
 - _Note: While we don’t force distribution, we anticipate the following distribution on average:_
