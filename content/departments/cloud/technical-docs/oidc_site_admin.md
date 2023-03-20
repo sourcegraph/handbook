@@ -177,3 +177,16 @@ Disabling SOAP is currently not supported on v2.
 4. Start the local Sourcegraph instance and sign in with **Continue with Sourcergaph Operators** using the same Okta account used in the step 1.
 
 > NOTE: If you are not using `sg` to start your Sourcegraph instance, make sure the environment variable `SRC_CLOUD_SITE_CONFIG` is set for `frontend`/`sourcegraph-frontend` and `worker` services.
+
+### How debug SOAP configuration?
+
+> WARNING: Do not use any online base64 tool to decode `SRC_CLOUD_SITE_CONFIG` because its value is only encoded but not encrypted!
+
+1. Grab the value of the environment variable `SRC_CLOUD_SITE_CONFIG`, e.g. `eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M...`.
+2. Use `base64` to decode to get its signature and signed content (`siteConfig`):
+   
+   ```sh
+   echo "eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M..." | base64 --decode
+   ```
+
+3. Use `base64` to decode the `siteConfig` again to get the actual content.
