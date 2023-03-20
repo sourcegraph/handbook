@@ -181,7 +181,7 @@ We want to find engineers who are:
 
 - **Duration:** 45-minutes
 
-- **How to prepare:** During this interview, we will ask you to explain a recent project, including how you led it and approached different challenges. Please be prepared to answer questions around your technical approach and architecture. 
+- **How to prepare:** During this interview, we will ask you to explain a recent project, including how you led it and approached different challenges. Please be prepared to answer questions around your technical approach and architecture.
 
 #### Pairing Exercise
 
