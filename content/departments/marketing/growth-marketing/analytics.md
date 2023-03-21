@@ -6,25 +6,25 @@
 - **Why this metric:** Because there are multiple ways to install the app, this metric shows a consistent view of the intent to download and install the app.
 - **Related metrics:**
   - Downloads by type - Same definition with the ability to see if the download was linus, mac, or brew.
-- **Source of truth:** This data is logged by eventlogger, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “App downloaders” chart)
+- **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/440) (see: “App downloaders” chart)
 
 **Metric: App DAU**
 
 - **Definition:** The number of active users of the app each day
 - **Why this metric:** Tracking DAU over time show the engagement users have with the app
-- **Source of truth:** This data is logged by pings, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “DAU” chart)
+- **Source of truth:** This data is logged by pings, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/440) (see: “DAU” chart)
 
 **Metric: App total repos**
 
 - **Definition:** The number of repos synced in apps
 - **Why this metric:** Tracking repos over time show the engagement users have with the app
-- **Source of truth:** This data is logged by pings, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “Total repos” chart)
+- **Source of truth:** This data is logged by pings, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/440) (see: “Total repos” chart)
 
 **Metric: % active apps**
 
 - **Definition:** The percentage of all apps whos users was active that day
 - **Why this metric:** Tracking % active apps over time show how engaged our app users are as our app base grows.
-- **Source of truth:** This data is logged by pings, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “% active apps)
+- **Source of truth:** This data is logged by pings, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/440) (see: “% active apps)
 
 **Metric: Visitors**
 
