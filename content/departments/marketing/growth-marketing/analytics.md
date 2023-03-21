@@ -1,7 +1,29 @@
 ## Key Metrics and Definitions
 
-**Metric: Visitors**
+**Metric: App downloads**
+- **Definition:** The number of **distinct users** that click the download button or copy the brew install code snippet on the about or docs site.
+- **Why this metric:** Because there are multiple ways to install the app, this metric shows a consistent view of the intent to download and install the app.
+- **Related metrics:**
+  - Downloads by type - Same definition with the ability to see if the download was linus, mac, or brew.
+- **Source of truth:** This data is logged by eventlogger, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “App downloaders” chart)
 
+**Metric: App DAU**
+- **Definition:** The number of active users of the app each day
+- **Why this metric:** Tracking DAU over time show the engagement users have with the app 
+- **Source of truth:** This data is logged by pings, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “DAU” chart)
+
+**Metric: App total repos**
+- **Definition:** The number of repos synced in apps
+- **Why this metric:** Tracking repos over time show the engagement users have with the app 
+- **Source of truth:** This data is logged by pings, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “Total repos” chart)
+
+**Metric: % active apps**
+- **Definition:** The percentage of all apps whos users was active that day
+- **Why this metric:** Tracking % active apps over time show how engaged our app users are as our app base grows.
+- **Source of truth:** This data is logged by pings, and accessed via [Looker]([https://sourcegraph.looker.com/dashboards/440]) (see: “% active apps)
+
+
+**Metric: Visitors**
 - **Definition:** The number of unique hits to our website. Visitor numbers exclude users who used Sourcegraph via an extension only (since these users did not actually visit our website). Unless otherwise specified, visitor numbers include traffic to both the product and marketing sites.
 - **Why this metric:** Tracking quantitative information about visitors will help us measure how many people are aware of our product. Qualitative info about visitors will help us understand who our traffic is and how they found us, so we can assess what's working.
 - **Related metrics:**
