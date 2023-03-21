@@ -3,7 +3,7 @@
 _The below guide applies to all full-time Teammates globally. Please reach out to the People Team (people-team@sourcegraph.com) if you require further guidance._
 
 - _Resources for Teammates (<– you are here)_
-- _[Resources for Managers](https://docs.google.com/document/d/1SAlUEd_YOTQdQsDrkPrvAZTvupub5Nfcru7iJK_Zl68/edit)_
+- _[Resources for Managers](leave-of-absence.md#resources-for-managers)_
 - _[Resources for People Team](https://docs.google.com/document/d/1SAlUEd_YOTQdQsDrkPrvAZTvupub5Nfcru7iJK_Zl68/edit)_
 
 **On this page:**
@@ -409,7 +409,7 @@ For Quota Carrying Managers taking greater than 3 months (12-weeks) of leave:
 
 ---
 
-## **Resources for managers**
+## Resources for managers
 
 ### **Before the leave happens**
 
