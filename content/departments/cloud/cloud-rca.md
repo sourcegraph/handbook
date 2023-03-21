@@ -4,7 +4,7 @@ While the Cloud team strives to keep Sourcegraph Cloud running smoothly, occassi
 outages do happen. When they do, we should respond with a clear post-mortem.
 
 This is an industry norm and clear, high quality post-mortems can improve a company's
-[trustworthess](https://cloud.google.com/blog/products/gcp/fearless-shared-postmortems-cre-life-lessons)
+[trustworthess](https://cloud.google.com/blog/products/gcp/fearless-shared-postmortems-cre-life-lessons).
 
 ## Template
 
