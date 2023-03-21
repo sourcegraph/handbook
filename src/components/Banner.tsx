@@ -16,7 +16,8 @@ export function Banner({ path }: { path: string }): JSX.Element {
             <aside className="warning">
                 <div>
                     <b>
-                        To learn more about the Sourcegraph Cloud product, please refer to our{' '}
+                        To learn more about the{' '}
+                        <a href="https://about.sourcegraph.com/cloud">Sourcegraph Cloud product</a>, please refer to our{' '}
                         <a href="https://docs.sourcegraph.com/cloud">user-facing documentation</a>.
                     </b>{' '}
                     The documentation here is meant for internal Sourcegraph use, and may represent unreleased,
