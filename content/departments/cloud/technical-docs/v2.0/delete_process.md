@@ -39,7 +39,7 @@ go install ./cmd/mi2/
 1. [Set environment variables](#Set-environment-variables)
 1. [Check out a new branch](#Check-out-a-new-branch)
 1. [Modify instance config to use TFC cli mode](#modify-instance-config-to-use-tfc-cli-mode)
-1. [Remove namespace](#remove-namespace)
+1. [Remove workload](#remove-workload)
 1. [Disable delete protection](#disable-delete-protection)
 1. [Remove GKE backups and restores](#removes-gke-backups-and-restores)
 1. [Destroy infrastructure - destroy cdktf stacks](#destroy-infrastructure---destroy-cdktf-stacks)
@@ -93,6 +93,7 @@ terraform init && terraform apply -auto-approve
 # gracefully remove unmanaged resources, e.g. GKE Backup
 mi2 instance destroy --slug $SLUG -e $ENVIRONMENT -auto-approve
 # deletes namespace and Network Endpoint Group Health check
+cd kubernetes
 mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl delete -f -
 ```
