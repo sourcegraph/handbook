@@ -38,5 +38,5 @@ with Sourcegraph's [Open And Transparent Culture](../../company-info-and-process
 
 ### Prior Art
 
-- [Gitlab post-mortem about db deletion](https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/)
+- [GitLab post-mortem about db deletion](https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/)
 - [Cloudflare edge servers had a memory leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/)
