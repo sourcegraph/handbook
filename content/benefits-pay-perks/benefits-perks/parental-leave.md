@@ -56,9 +56,9 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 
 **Step 3: Log your parental leave**
 
-Once you’ve communicated and confirmed your leave dates with the People Team and your Manager, please use [Roots](https://www.tryroots.io/pto) (select the Parental Leave category) to record your leave and return-to-work dates
+Once you’ve communicated and confirmed your leave dates with the People Team and your Manager, please use [Deel](https://www.tryroots.io/pto) (select the Parental Leave category) to record your leave and return-to-work dates
 
-We understand that your Leave dates may change, so you can adjust your Roots dates at a later date if needed.
+We understand that your Leave dates may change, so you can adjust your Deel dates at a later date if needed.
 
 **Step 4: Create & communicate your out of office plan with your team**
 
