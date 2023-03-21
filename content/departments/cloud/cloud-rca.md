@@ -34,7 +34,7 @@ the document.
 If the document is intened to be viewed by customers, request a review from our communications team (#ask-internal-comms)
 
 High-quality or interesting post-mortems should be also considered to be published to align
-with Sourcegraph's [Open And Transparent Culture](../../company-info-and-process/about-sourcegraph/index.md##sourcegraph-open-product-open-company-open-source)
+with Sourcegraph's [Open And Transparent Culture](../../company-info-and-process/about-sourcegraph/index.md##sourcegraph-open-product-open-company-open-source).
 
 ### Prior Art
 
