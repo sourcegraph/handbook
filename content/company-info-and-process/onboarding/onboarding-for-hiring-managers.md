@@ -2,6 +2,8 @@
 
 As the company grows, new hires are joining almost every week. The onboarding process the new hire goes through requires actions from both PeopleOps and the Hiring Manager. Some Hiring Managers are doing this for the first time and they don’t know what the process looks like, here they will find the necessary information.
 
+**Please note**: When your department's onboarding content changes, it is the Manager's responsibility to provide the necessary updates to the People Team for actioning.
+
 ## Before first day
 
 **People Team responsibilities**
