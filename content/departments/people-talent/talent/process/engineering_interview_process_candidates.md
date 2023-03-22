@@ -174,7 +174,7 @@ We want to find engineers who are:
 - **Duration:** 45-minutes
 
 - **How to prepare:** This describes the walkthrough stage of the application security interview
-process, which is used instead of a take home exercise.
+  process, which is used instead of a take home exercise.
 
 **The day-to-day experience of an application security engineer**
 
