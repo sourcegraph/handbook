@@ -66,3 +66,7 @@ The period of code freeze can be a high stress time and requires extra care with
 Any material changes (procedure, tooling, policy, etc.) to the release process should be communicated ahead of the code freeze to engineering and engineering leadership to ensure there are no contradictions in messaging as we enter the code freeze period. 
 
 If there is any doubt that you should communicate something, prefer sending a communication.
+
+## Scheduled patches
+
+To include changes in a scheduled path
