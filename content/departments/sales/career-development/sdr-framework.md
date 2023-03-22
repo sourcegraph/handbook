@@ -2,57 +2,168 @@
 
 <table>
   <tr>
-   <td colspan="4" ><strong>SDR Career Levels</strong>
+   <td colspan="4" ><strong>SDR Career Levels V2</strong>
    </td>
   </tr>
   <tr>
    <td><strong>Job Level</strong>
    </td>
-   <td><strong>SDR (P1)</strong>
+   <td>SDR (P1)
    </td>
-   <td><strong>Senior SDR (P2)</strong>
+   <td>Senior SDR (P2)
    </td>
-   <td><strong>Team Lead (P3)</strong>
+   <td>Team Lead (P3)
    </td>
   </tr>
   <tr>
    <td><strong>Competency Execution</strong>
    </td>
-   <td>Skill: Knows and understands key competencies, but is more task-oriented, and continuing to develop. Is developing confidence in independently driving pipeline. Regularly requests/requires leadership assistance.
+   <td>Skill: Knows and understands key competencies, but is more task-oriented and continuing to develop. Is developing confidence in independently driving pipeline. Regularly requests/requires leadership assistance.
 <p>
-Meeting Expectations across majority of competencies (Rating=2). May Need Improvement (Rating=1) in those that are more complex, particularly when new in role.
+Meeting Expectations across majority of competencies. May Need Improvement in those that are more complex, particularly when new in role.
    </td>
    <td>Skill: Knows and understands key competencies and is continuing to develop in those that are most complex. Is confident in independently driving pipeline. Occasionally requests/requires leadership assistance.
 <p>
-Meeting Expectations across majority of competencies (Rating=2). May be an Expert (Rating=2) in others, most likely when preparing for a P2 AE promotion.
+Meeting Expectations across majority of competencies. May be an expert in others, most likely when preparing for a promotion.
+<p>
+Mentors SDR1s and brings new ideas and approaches to the SDR team.
    </td>
-   <td>Player/Coach
+   <td>Skill: Mastery of key competencies. Capable of independently driving pipeline while also coaching less senior SDRs to independently drive pipeline. Occasionally requests/requires leadership assistance to develop coaching and people management skills.
+<p>
+Expert across majority of competencies.
+<p>
+Mentors and/or directly manages SDR1-2s and brings new ideas and approaches to the SDR team.
    </td>
   </tr>
   <tr>
    <td><strong>Account Profile</strong>
    </td>
-   <td>Mid-market/Enterprise
+   <td>Mid-market/Enterprise/Large
    </td>
-   <td>Enterprise/Strategic
+   <td>Enterprise/Large/Strategic
    </td>
-   <td>Will be outlined in V2
+   <td>Mid-market/Enterprise/Large/Strategic
    </td>
   </tr>
   <tr>
-   <td><strong>Promotion Eligibility (to the next level)</strong>
+   <td><strong>Promotion Eligibility</strong>
    </td>
-   <td>Rolling 6--Month Period: Cumulative Attainment of at least 100% (30 SAOs)
-<p>
-<em>(e.g. if an SDR achieved 13 SAOs in January, February and March, and then 17 in April, May and June, he/she would be eligible for promotion due to meeting the cumulative target of 30)</em>
-<p>
-*SDRs are eligible from their first day of employment, however, their attainment must equal at least the standard SAO target during their ramp period
+   <td>100% quota attainment over the 6 month period reviewed.
    </td>
-   <td>Rolling 6--Month Period: Cumulative Attainment of at least 100% (36 SAOs)
-<p>
-(e.g. if an SDR achieved 17 SAOs in January, February and March, and then 19 in April, May and June, he/she would be eligible for promotion due to meeting the cumulative target of 36)
+   <td>100% quota attainment over the 6 month period reviewed.
    </td>
-   <td>Will be outlined in V2
+   <td>100% quota attainment over the 6 month period reviewed.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Crossfunctional Eligibility</strong>
+   </td>
+   <td>Only eligible for Senior SDR promotion. Ineligible for crossfunctional promotion and/or role change.
+   </td>
+   <td>Senior SDRs are eligible for crossfunctional promotion and/or role change.
+<p>
+Promotion options include Team Lead (SDR, P3), AE1, and TA1.
+<p>
+Promotion is subject to head count (HC) opening for a desired role. Once HC has been opened, Senior SDRs that are eligible for promotion may apply and enter the interviw process.
+   </td>
+   <td>Team Leads are eligible for crossfunctional promotion and/or role change.
+<p>
+Promotion options include 1st line SDR management, AE1, and TA1.
+<p>
+Promotion is subject to head count (HC) opening for a desired role. Once HC has been opened, Team Leads that are eligible for promotion may apply and enter the interviw process.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>OTE</strong>
+   </td>
+   <td>$100k (70/30 split)
+   </td>
+   <td>$120k (70/30 split)
+   </td>
+   <td>$140k (70/30 split)
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td colspan="4" ><strong>VCBOD Career Levels V2</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Job Level</strong>
+   </td>
+   <td>Program Lead, VCBOD (P1)
+   </td>
+   <td>Senior Program Lead, VCBOD (P2)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Competency Execution</strong>
+   </td>
+   <td>Skill: Knows and understands key competencies, but is more task-oriented and continuing to develop. Is developing confidence in driving pipeline through referral channels. Organizes internal stakeholders (AEs and execs) and external stakeholders (VCs and members of the board) to generate high quality introductions to key stakeholders in strategic accounts.
+<p>
+Meeting Expectations across majority of competencies. May Need Improvement in those that are more complex, particularly when new in role.
+   </td>
+   <td>Skill: Knows and understands key competencies and is continuing to develop in those that are most complex. Is confident in driving pipeline through referral channels. Expertly organizes internal stakeholders (AEs and execs) and external stakeholders (VCs and members of the board) to generate high quality introductions to key stakeholders in strategic accounts.
+<p>
+Expert in majority of competencies. Generates high quality ideas for streamlining referrals, increasing EBCs and referral pipeline, and landing new logos in our largest strategic prospective companies.
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Promotion Eligibility</strong>
+   </td>
+   <td>100% quota attainment over the 6 month period reviewed.
+   </td>
+   <td>100% quota attainment over the 6 month period reviewed.
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Crossfunctional Eligibility</strong>
+   </td>
+   <td>Only eligible for Senior Program Lead, VCBOD. Ineligible for crossfunctional promotion and/or role change.
+   </td>
+   <td>Senior Program Leads are eligible for crossfunctional promotion and/or role change.
+<p>
+Promotion options include Team Lead (SDR, P3), AE1, and TA1.
+<p>
+Promotion is subject to head count (HC) opening for a desired role. Once HC has been opened, Senior Program Leads that are eligible for promotion may apply and enter the interviw process.
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>OTE</strong>
+   </td>
+   <td>$100-$120k (75/25 split)
+   </td>
+   <td>$140k (75/25 split)
+   </td>
+   <td>
    </td>
   </tr>
 </table>
+
