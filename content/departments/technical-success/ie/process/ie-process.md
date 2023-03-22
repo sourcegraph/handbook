@@ -1,12 +1,12 @@
 # Implementation Overview
 
-This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for customers utilizing the _Jointly Deployed_ offering with assistance from the Implementation Team. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in specific scenarios.
+This document is an overview of the processes followed by the Implementation Team when involved in a customer implementation project. It is specific to the process for customers utilizing the _Jointly Deployed_ offering with assistance from the Implementation Team. Ad-hoc requests for support from the Implementation Team do not follow this process, but the Implementation Team may require pieces of this process to be completed in specific scenarios.
 
 For information on recommended deployment types and strategies, visit [Implementation Strategies](impl-strategies.md).
 
 # Jointly Deployed vs. Jointly Managed
 
-- _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The implementation team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, primarily in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access into customer environments.
+- _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The Implementation Team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, specifically in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access to customer environments.
 - _Jointly Managed_: This will be a paid offering for self-hosted customers as part of a premium support offering (often with environment badged access) for dedicated post-deployment work such as upgrades, feature expansions, and environment management. The goal of this offering is to reduce or eliminate the need for dedicated customer admins while ensuring a high quality instance and priority Sourcegraph support.
 
 # Implementation Team Use Cases
@@ -15,25 +15,23 @@ What is the main scope of work for the Implementation Team?
 
 #### Complex Production Deployments
 
-This is will be the primary use case for the implementation team. Following a simple trial, the CE should identify that the customer will require a complex self-hosted deployment and follows the processes to engage the implementation team. If the customer is selected for implementation services, the implementation team should be engaged leading up to contract closure, at which point the implementation team takes full ownership of the implementation and the customer from a technical perspective.
+This is will be the primary use case for the Implementation Team. Following a simple trial, the CE should identify that the customer will require a complex self-hosted deployment and follows the processes to engage the Implementation Team. If the customer is selected for implementation services, the Implementation Team should be engaged leading up to contract closure, at which point the Implementation Team takes full ownership of the implementation and the customer from a technical perspective.
 
 #### Production Instance Migrations or Feature Expansions
 
 There are 3 main components to this use case:
 
 - <em>Self-Hosted to Cloud Migration</em> - when an existing on-prem customer migrates to a Managed Instance with our Cloud offering
-- <em>Self-Hosted to Different Self-Hosted Instance Migration</em> - when an existing self-hosted customer needs to transition to a different self-hosted instance (ex. expanding from a single-node to a multi-node instance or migrating from on-prem to cloud self-hosted)
-- <em>Self-Hosted Feature Expansion</em> - when an existing self-hosted customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (ex. IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
+- <em>Self-Hosted to Different Self-Hosted Instance Migration</em> - when an existing self-hosted customer needs to transition to a different self-hosted instance (e.g., expanding from a single-node to a multi-node instance or migrating from on-prem to cloud self-hosted)
+- <em>Self-Hosted Feature Expansion</em> - when an existing self-hosted customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (e.g., IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
 
 #### Production Ready Trial Deployments
 
-This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the implementation team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
+This is generally not recommended. A majority of trials should consist of quick, simple deployments. If the CE determines that the customer will require a complex, production ready deployment for their trial and the CE feels the customer would benefit from implementation services, the Implementation Team should be notified via a formal implementation request. In current state, in order for a trial to be selected for implementation services:
 
 - The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
 - The opportunity must be expected to contribute to upcoming fiscal year revenue
 - The opportunity must be reviewed by CE and Sales leadership and selected from the implementation request backlog
-
-<em>Note - for more information about the implementation request and backlog review process, review</em> [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md).
 
 # Cross-Functional Collaboration
 
@@ -41,7 +39,7 @@ The Implementation Team will have a variety of integration and collaboration poi
 
 #### Customer Engineering (CE) / Sales
 
-Visit [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md) to better understand this relationship.
+Visit [Implemenation Cross-Team Collaboration Overview](implementation-cross-team-collaboration.md) to better understand this relationship.
 
 #### Technical Advisory (TA)
 
@@ -49,26 +47,23 @@ Visit [TA-Implementation Collaboration Overview](implementation-ta-handoff.md) t
 
 #### Customer Support (CS)
 
-For the majority of implementations, the default process will be for CS to only be engaged once the customer is fully live. From there, the CS engineer will follow standard support practices. The documentation created by the implementation team during the hand-off to the TA should be sufficient for future CS engineers to better support the customers' needs.
+For the majority of implementations, the default process will be for CS to only be engaged once the customer is fully live. From there, the CS engineer will follow standard support practices. The documentation created by the Implementation Team during the hand-off to the TA should be sufficient for future CS engineers to better support the customer's needs.
 
 #### Engineering
 
-Similarly to CE, implementation will identify product issues, submit corresponding GitHub issues, submit Product Gaps identified by customers, and collaborate with engineering teams to properly priorities resolutions and feature request.
+Similarly to CE, implementation will identify product issues, submit corresponding GitHub issues, submit product gaps identified by customers, and collaborate with engineering teams to properly priorities resolutions and feature request.
 
 # Implementation Team Tasks and Responsibilities
 
-The steps below detail, on a high level, the steps that the Sourcegraph implementation teams will work on both internally and directly with the customers:
+The steps below detail, on a high level, the steps that the Sourcegraph Implementation Teams will work on both internally and directly with the customers:
 
 [Implementation Engineers](../index.md)
 
 - Confirmation of the production technical deployment design as captured by the CE
-- Build internal replica environment based on expected requirements for production deployment
 - Deploy customer non-production environment(s) for confirmation of deployment design and to use as a dedicated testing environment
 - Configure code hosts on non-production environment(s) to confirm no issues cloning and indexing repos at scale
-- Onboard testing users into non-production environment(s) and confirm Sourcegraph performance is optimal
+- Confirm Sourcegraph performance is optimal
 - Build and configure production environment and code hosts
-- Execute load testing in replica environment
-- Onboard full scope of users
 
 [Implementation Project Managers](../tpm/index.md)
 
@@ -86,11 +81,11 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 - Customer facing project plan developed
   - The Implementation Project Manager will begin development of the project plan before the customer has officially signed, but will have it fully developed at the time of the initial implementation kickoff call.
 - Replica environment built
-  - Building a replica environment is especially important for new deployments with unique considerations (exceptional number of repos, exceptionally large monorepos, exceptionally high seat count). This will help validate the resourcing estimations for the customer’s deployment.
+  - In certain cases with unique considerations (e.g., non-standard environment constraints, exceptional number of repositories, an untested system integration), the Implementation Team may build a replica environment to validate that a customer's use cases can be accomplished using Sourcegraph.
 - Validate resourcing estimations for customer environments
-  - Using the replica environment, run k6 load testing to ensure the instance can handle user traffic at scale and maintain high levels of performance.
+  - Using the replica environment, run k6 load testing to ensure the instance can handle user traffic at scale and maintain high levels of performance. This will help validate the resourcing estimations for the customer’s deployment.
 - Internal status reporting and blockers removal
-  - The Implementation Project Manager will report on the status of the project to internal stakeholders while assisting the Implementation Engineer to remove any implementation blockers they may be running into.
+  - The Implementation Project Manager will report on the status of the project to internal stakeholders while assisting the Implementation Engineer(s) to remove any implementation blockers they may be running into.
 
 # High Level Implementation Project Plan
 
@@ -100,29 +95,29 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 
 ## Internal Stakeholders
 
-While others may be directly or indirectly involved with specific implementations and customers, the below list accounts for the primary internal stakeholders. It is important that these stakeholders have direct and clear access to any and all information pertaining to the deployment. This is primarily achieved through regular maintenance of the project plan documents.
+While others may be directly or indirectly involved with specific implementations and customers, the below list accounts for the common stakeholders involved in a implementation project from Sourcegraph's side. It is important that these stakeholders have direct and clear access to any and all information pertaining to the deployment. This is primarily achieved through regular maintenance of the project plan documents.
 
 - Implementation Engineer
 - Implementation Project Manager
-- Customer Success Manager (Technical Account Manager)
+- Technical Account Manager
 - Customer Engineer
 - Account Executive
 - Leadership (particularly for Strategic Accounts)
 
 ## External Stakeholders
 
-These stakeholders will vary by customer depending on their organizational structure, needs, and processes. Still, external stakeholders can largely be broken down into the below categories.
+The external stakeholders on the customer side will vary depending on the customer's organizational structure, needs, and internal processes. External stakeholders can largely be broken down into the below categories.
 
-- Project Champion - usually an internal leader invested in distributing Sourcegraph to developers
+- Project Sponsor/ Champion - usually a leader invested in distributing Sourcegraph to developers
 - Project Team - developers, admins, DevX team members, etc. dedicated to standing up Sourcegraph
 - Project Manager - someone responsible for tracking progress, delegating tasks, and communication related to the implementation
 - Engineering Leadership - managers, directors, etc. directly overseeing developers that will be impacted by Sourcegraph
 - Engineers - end users providing feedback throughout UAT and user group roll-outs
-- External Vendors - representatives of tools and products used by the customer may need to be engaged ins certain scenarios
+- External Vendors - representatives of tools and products used by the customer may need to be engaged in certain scenarios
 
 # Implementation Documentation
 
-For ongoing support and account management, the implementation team is responsible for creating an internal document that details the following:
+For ongoing support and account management, the Implementation Team is responsible for creating an internal document that details the following:
 
 - Final Production Design (with specific emphasis on any deviations from standard, recommended deployment)
 - Resourcing for the customer environment
@@ -150,11 +145,11 @@ For ongoing support and account management, the implementation team is responsib
   - Other unique aspects of deployment
   - Current usage information and any expansion requirements
 
-In addition, the implementation team is responsible for ensuring that the timeline information, deadlines, issues, risks, and statuses of any tasks are accurate and up to date in the project plan.
+In addition, the Implementation Team is responsible for ensuring that the timeline information, deadlines, issues, risks, and statuses of any tasks are accurate and up to date in the project plan.
 
 # Exit Criteria for the Implementation to be Considered Complete
 
-Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes completion of the necessary infrastructure for all customer environments, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration). While the long-term support resource will likely be executing a subset of tasks in parallel with the implementation (such as UAT and onboarding planning), the end of the implementation indicates the point at which the account will fully transition technical ownership to the Technical Advisor. Once transitioned, the Technical Advisor will continue with long-term customer success activities such as user onboarding, training, expansion, account health management, and general support.
+Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes deployment of the necessary infrastructure for all customer environments, the Sourcegraph application deployment, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration). While the long-term support resource will likely be executing a subset of tasks in parallel with the implementation (such as UAT and onboarding planning), the end of the implementation indicates the point at which the account will fully transition technical ownership to the Technical Advisor. Once transitioned, the Technical Advisor will continue with long-term customer success activities such as user onboarding, training, expansion, account health management, and general support.
 
 The list of tasks to be accomplished before considering an implementation complete include, but are not limited to:
 
