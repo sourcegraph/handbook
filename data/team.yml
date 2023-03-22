@@ -94,8 +94,9 @@ joe_chen:
 thorsten_ball:
   name: Thorsten Ball
   pronouns: he/him
-  role: Software Engineer
+  role: Head of Source
   reports_to: eng_lead
+  manager_role_slug: source_lead
   location: Aschaffenburg, Bavaria, Germany 🇩🇪
   github: mrnugget
   email: thorsten@sourcegraph.com
@@ -596,8 +597,8 @@ stompy_mwendwa:
 indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_repo
+  role: Software Engineer, repo-management
+  reports_to: source_lead
   location: Kolkata, India 🇮🇳
   github: indradhanush
   email: indradhanush@sourcegraph.com
@@ -925,8 +926,8 @@ luke_taylor:
 milan_freml:
   name: Milan Freml
   pronouns: He/Him
-  role: Software Engineer
-  reports_to: engineering_manager_iam
+  role: Software Engineer, IAM
+  reports_to: source_lead
   location: Ružomberok, Žilinský, Slovakia 🇸🇰
   github: kopancek
   email: milan.freml@sourcegraph.com
@@ -959,8 +960,8 @@ ajay_sridhar:
 erzhan_torokulov:
   name: Erzhan Torokulov
   pronouns: he/him
-  role: Software Engineer
-  reports_to: eng_lead
+  role: Software Engineer, IAM
+  reports_to: source_lead
   location: Bishkek, Kyrgyzstan 🇰🇬
   github: erzhtor
   email: erzhan.torokulov@sourcegraph.com
@@ -1220,8 +1221,8 @@ Daniel_Gwyn:
 alex_ostrikov:
   name: Alexander Ostrikov
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_repo
+  role: Software Engineer, repo-management
+  reports_to: source_lead
   location: Dubai, UAE 🇦🇪
   github: sashaostrikov
   email: alex.ostrikov@sourcegraph.com
@@ -1305,8 +1306,8 @@ rohan_gupta:
 david_veszelovszki:
   name: David Veszelovszki
   pronunciation: '[ˈdeɪvɪd ˈveselovski](http://ipa-reader.xyz/?text=%CB%88de%C9%AAv%C9%AAd%20%CB%88veselovski&voice=Joey'
-  role: Software Engineer, Growth and Integrations
-  reports_to: eng_lead
+  role: Software Engineer, IAM
+  reports_to: source_lead
   location: Budapest, Hungary 🇭🇺
   pronouns: he/him
   email: david.veszelovszki@sourcegraph.com
@@ -1399,8 +1400,8 @@ michael_lin:
 petri_last:
   name: Petri-Johan Last
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_iam
+  role: Software Engineer, IAM
+  reports_to: source_lead
   location: Stellenbosch, Western Cape, South Africa 🇿🇦
   github: pjlast
   pronunciation: '[pɪətʁɪ lɑst](http://ipa-reader.xyz/?text=p%C9%AA%C9%99t%CA%81%C9%AA%20l%C9%91st&voice=Joey)'
@@ -1472,8 +1473,8 @@ idan_varsano:
   email: idan.varsano@sourcegraph.com
   github: varsanojidan
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_repo
+  role: Software Engineer, repo-management
+  reports_to: source_lead
   location: Toronto, Canada 🇨🇦
   links: '[GitHub](https://github.com/varsanojidan)'
   description: Idan is software enginerr living in Toronto Canada. He enjoys working out, spending time with friends and family, and looking for new fried chicken/donut places to try out. Feel free to chat to him about anything gaming or garbage reality TV related.
@@ -1698,8 +1699,8 @@ naman_kumar:
   email: naman.kumar@sourcegraph.com
   github: thenamankumar
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_iam
+  role: Software Engineer, IAM
+  reports_to: source_lead
   location: New Delhi, IN
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
   description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Sourcegraph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
@@ -1976,8 +1977,8 @@ cezary_bartoszuk:
   email: cezary.bartoszuk@sourcegraph.com
   github: cbart
   pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_repo
+  role: Software Engineer, repo-management
+  reports_to: source_lead
   location: Long Grove, IL, USA 🇺🇸
   description: Cezary tries to spend as much time as possible with his wife and three kids. He enjoys parenting, learning about religion and philosophy, reading books and making music.
 
@@ -2007,8 +2008,8 @@ peter_guy:
   email: peter.guy@sourcegraph.com
   github: peterguy
   pronouns: he/him
-  role: Software Engineer
-  reports_to: eng_lead
+  role: Software Engineer, repo-management
+  reports_to: source_lead
   location: Grants Pass, OR, USA 🇺🇸
   links: '[LinkedIn](https://linkedin.com/in/peter-guy)'
   description: Peter enjoys crafting beautiful code and finding elegant solutions to difficult problems. Since both of those are somewhat rare occurances, he satisfies himself with shippable code and pragmatic solutions.😄 Outside of programming, he enjoys his family, pets, and small ranch in the beautiful Siskiyous of Southern Oregon.
