@@ -1,6 +1,6 @@
 # Code navigation Glossary
 
-[CI]: https://en.wikipedia.org/wiki/Continuous_integration
+[ci]: https://en.wikipedia.org/wiki/Continuous_integration
 
 ### auto-indexing
 
