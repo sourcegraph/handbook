@@ -114,7 +114,7 @@ Internship plans
 
 Finalizing the onboarding checklist
 
-- Each manager will confirm the necessary onboarding checklist items with Inés to ensure the interns have a smooth and effective remote onboarding experience.
+- Each manager will confirm the necessary onboarding checklist items with Internship Program Manager to ensure the interns have a smooth and effective remote onboarding experience.
 
 Wage and hour guidelines
 
