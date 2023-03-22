@@ -21,7 +21,7 @@ Open Okta Verify and follow the instructions.
    1. Organization: Add a multifactor authentication (MFA) account for your work, school, or business that uses Okta as an authentication provider.
 8. Tap “Scan a QR code” and point your camera at the QR code displayed in the browser on your computer. Note: this can be done using the Okta Verify app on your laptop as well.
 9. If prompted, allow push notifications on your device so that you can approve future sign-in notifications without opening the Okta Verify app.
-10. If prompted, enable Face ID or Touch ID. 
+10. If prompted, enable Face ID or Touch ID.
 11. Tap Done to complete the account enrollment.
 
 Your new account is now available in the Okta Verify app.
@@ -39,8 +39,11 @@ Once signed in to your Okta Account, you will be taken to the Apps Dashboard (sh
 ![Okta dashboard view](https://storage.googleapis.com/sourcegraph-assets/handbook/Okta-activation-steps/step3.png)
 
 ## Fourth: Set up Okta Verify on your computer
+
 1. Download the Okta Verify app from the Jamf Self Service application
-  - Open Finder > go to Applications > double click 'Self Service' > click install on the Okta Verify app
+
+- Open Finder > go to Applications > double click 'Self Service' > click install on the Okta Verify app
+
 2. Open Okta Verify on your computer
 3. Click Add an Account
 4. Enter our sign-in URL, **sourcegraph.okta.com**
@@ -50,13 +53,15 @@ Once signed in to your Okta Account, you will be taken to the Apps Dashboard (sh
 8. Once you see your account on the Okta Verify app home screen, this is complete!
 
 ## Fifth: Add a Phishing Resistant Multi Factor Authentication to your Okta account
+
 1. Log in to your Okta dashboard
 2. Click your name in the upper right, then click settings
 3. Under the Security Methods window, on the right, go to the Security Key or Biometric section
 4. Click Set Up/Set Up Another
 5. Follow the prompts to add your mfa of choice
-  - [Apple Touch ID instructions](https://handbook.sourcegraph.com/departments/tech-ops/tools/okta/main/#adding-apple-touch-id-as-a-phishing-resistant-mfa-option-webauthn)
-  - [Yubikey instructions](https://handbook.sourcegraph.com/departments/tech-ops/tools/okta/main/#adding-a-yubikey-as-a-phishing-resistant-mfa-option-webauthn)
+
+- [Apple Touch ID instructions](main#adding-apple-touch-id-as-a-phishing-resistant-mfa-option-webauthn)
+- [Yubikey instructions](main#adding-a-yubikey-as-a-phishing-resistant-mfa-option-webauthn)
 
 _Do you have any questions?_ Please email tech-ops@sourcegraph.com or Slack #ask-it-tech-ops.
 
