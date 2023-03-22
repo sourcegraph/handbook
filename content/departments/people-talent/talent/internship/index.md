@@ -47,7 +47,6 @@ Payroll
 - 🏖️ PTO - We offer flexible Paid Time Off (PTO). Given that this is an internship, we expect that you will work with your Manager and the People Team via Slack before confirming your PTO and travel details.
   - We do not allow hourly employees to work federal holidays.
 
-
 **Interns are only eligible for the perks listed above. Any other company perks will not apply to the internship program.**
 
 #### Equipment
