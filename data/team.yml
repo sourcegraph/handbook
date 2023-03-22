@@ -373,18 +373,6 @@ camden_cheek:
   links: '[LinkedIn](https://www.linkedin.com/in/camdencheek/)'
   description: Camden is originally from Michigan, but recently moved to Colorado, where he enjoys spending his time hiking, playing cello, and perfecting his dev environment. Before joining the Sourcegraph team, Camden worked on building a logging agent in Go at observIQ. Before that, Camden got a degree in Biomedical Engineering before deciding that the only thing he really liked about it was the coding.
 
-andy_schumeister:
-  name: Andy Schumeister
-  pronouns: he/him
-  role: Director of Product Marketing
-  reports_to: marketing_lead
-  manager_role_slug: director_product_marketing
-  location: Minneapolis, MN, USA 🇺🇸
-  github: abschu
-  email: andy@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/andy-schumeister/)'
-  description: Andy lives in Minneapolis, MN with his husband and daughter. After spending nearly a decade in the Bay Area, he decided he was ready for freezing winters again. Andy worked at General Mills and Google before getting his MBA at Stanford. From there, he joined Segment where he fell in love with marketing technical products. In his free time, Andy loves spending time with his family, being active/working out, and eating Sour Patch Kids.
-
 tom_ross:
   name: Tom Ross
   pronouns: he/him
@@ -847,7 +835,7 @@ alex_isken:
   name: Alex Isken
   pronouns: He/Him
   role: Product Marketing Manager
-  reports_to: director_product_marketing
+  reports_to: marketing_lead
   location: Milwaukee, WI, USA 🇺🇸
   github: iskyOS
   email: alex.isken@sourcegraph.com
@@ -905,7 +893,7 @@ victoria_yunger:
   name: Victoria Yunger
   pronouns: She/Her
   role: Principal PMM
-  reports_to: director_product_marketing
+  reports_to: marketing_lead
   location: San Francisco, CA, USA 🇺🇸
   github: thisisvic
   email: victoria.yunger@sourcegraph.com
