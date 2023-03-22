@@ -3,7 +3,6 @@
 Our READMEs expands on our profile in [the company team directory](../../../team/index.md) and are meant to help us orient to one another.
 
 - Alex README
-- Andy README
 - Victoria README
 
 ---
