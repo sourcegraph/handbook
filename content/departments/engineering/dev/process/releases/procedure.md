@@ -52,8 +52,17 @@ The release captain for a feature release should assume a substantial amount of 
 
 In general, the release guild will strive to ensure release responsibilities don't interfere with PTO and other OOO requirements for release captains by finding backup captains as necessary. However, it **is the responsibility** of the captain to ensure there is a backup captain available for any extended periods of unavailability, even if this requires reaching out to the wider engineering group.
 
-Common tasks will include:
+#### Common release tasks
 1. Cutting candidate builds
 2. Unblocking the release branch
 3. Answering questions and supporting teammates that are interacting with the release
 4. Coordinating with engineering leadership, marketing, and any other groups necessary to ensure a successful release
+5. Communicating release progress and status to the engineering org and wider company
+
+#### Communication
+
+The period of code freeze can be a high stress time and requires extra care with communication. Assume that over-communicating will yield a better result than under-communicating. Additionally, assume you will need multiple channels of communication and repetition to reach the full audience. As a good practice, coordinate with the internal comms team to ensure messaging is reaching everyone as necessary.
+
+Any material changes (procedure, tooling, policy, etc.) to the release process should be communicated ahead of the code freeze to engineering and engineering leadership to ensure there are no contradictions in messaging as we enter the code freeze period. 
+
+If there is any doubt that you should communicate something, prefer sending a communication.
