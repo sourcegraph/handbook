@@ -60,8 +60,8 @@ Once signed in to your Okta Account, you will be taken to the Apps Dashboard (sh
 4. Click Set Up/Set Up Another
 5. Follow the prompts to add your mfa of choice
 
-- [Apple Touch ID instructions](./main#adding-apple-touch-id-as-a-phishing-resistant-mfa-option-webauthn)
-- [Yubikey instructions](./main#adding-a-yubikey-as-a-phishing-resistant-mfa-option-webauthn)
+- [Apple Touch ID instructions](main#adding-apple-touch-id-as-a-phishing-resistant-mfa-option-webauthn)
+- [Yubikey instructions](main#adding-a-yubikey-as-a-phishing-resistant-mfa-option-webauthn)
 
 _Do you have any questions?_ Please email tech-ops@sourcegraph.com or Slack #ask-it-tech-ops.
 
