@@ -4,13 +4,19 @@
 
 The goal of code freeze is to stabilize the release for the final build, and to mitigate risk with each change by fixing bugs caught during the QA process, or making improvements that increase stability and quality in the final build.
 
+During the code freeze we will typically cut a new candidate each day and deploy it to the test instance for additional QA. If additional candidates are necessary, reach out to the release guild.
+
 There are 3 distinct sections of code freeze:
 
 1. open code freeze
 2. closed code freeze
 3. final build freeze
 
+### Open code freeze
+
 During open code freeze, the release branch is open to changes and will require changes to be backported from `main` using our backport tooling. It is up to the individuals discretion to determine whether a change should be included in the final build. Release captains may monitor the backported changes for anything that seems risky and may reach out to understand more about the requirements. It is not a given that every change can be backported during this period. Substantial changes should be completed and merged **before** the code freeze period has started.
+
+### Closed code freeze
 
 A few days before the release the branch will be closed to changes and will require a member of the release guild to merge backports. The goal of this step is to stabalize a final build. During this period release captains will exercise discretion whether a change warrants backport. Some guidelines for things that are eligible:
 
@@ -18,6 +24,8 @@ A few days before the release the branch will be closed to changes and will requ
 2. Bug fixes
 3. Release infrastructure (lint, generate fixup, etc)
 4. Low risk changes (copy, colors, etc)
+
+### Final build freeze
 
 A short time before the release the branch will be closed entirely for the final build freeze. At this point we will apply standard patch principles to determine if a change should warrant a backport. This is done so that the final build has an opportunity to be deployed to the test instance, security scanners can be run for a final time, and we can ensure the final build is ready to ship on time for release day. During this period backporting has a significant impact on our ability to ship stable releases on time, so we will exercise increased discretion and may not include your change unless absolutely necessary.
 
@@ -44,4 +52,8 @@ The release captain for a feature release should assume a substantial amount of 
 
 In general, the release guild will strive to ensure release responsibilities don't interfere with PTO and other OOO requirements for release captains by finding backup captains as necessary. However, it **is the responsibility** of the captain to ensure there is a backup captain available for any extended periods of unavailability, even if this requires reaching out to the wider engineering group.
 
-
+Common tasks will include:
+1. Cutting candidate builds
+2. Unblocking the release branch
+3. Answering questions and supporting teammates that are interacting with the release
+4. Coordinating with engineering leadership, marketing, and any other groups necessary to ensure a successful release
