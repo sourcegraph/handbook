@@ -308,9 +308,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td>
-      This role has not yet been defined
-      </td>
+      This role has not yet been defined.
     </tr>
   </tbody>
 </table>
