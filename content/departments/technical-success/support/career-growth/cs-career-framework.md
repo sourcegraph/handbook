@@ -308,34 +308,8 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
       </td>
     </tr>
     <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Helps set the vision for the team and influences the broader vision beyond the team.</li>
-          <li>Leads cross functional projects that impact aspects of the business both within, and outside, their primary domain.</li>
-          <li>Provides oversight, coaching, and guidance through case/code reviews and other activities, both on or off the team.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Contributes at least 10 PRs per quarter in support of Product and Engineering defined needs.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Proactively identifies areas for improvement at the org/company level.</li>
-          <li>Suggests process and methodology improvements.</li>
-          <li>Works closely with engineering and CE leadership to validate alignment between teams.</li>
-          <li>Is highly skilled at scoping, designing, and delivering solutions for large, complex challenges.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Provides domain/technical expertise internally and externally, informing what can be achieved.</li>
-          <li>Actively coaches others on effective communication, collaboration and conflict resolution skills.</li>
-          <li>Regularly shares knowledge and mentors teammates.</>
-          <li>Possesses a visible external presence and willingly presents to large and/or senior audiences to represent the Support team.</li>
-          <li>Persuades and challenges customers and internal stakeholders, using valid expertise and respectful communication.</li>
-        </ul>
+      <td>
+      This role has not yet been defined
       </td>
     </tr>
   </tbody>
