@@ -111,7 +111,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills. Associate.</li>
+        An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills. Support Engineer.</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -160,7 +160,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A mid-level individual contributor beginning to independently solve for more complex customer issues. Specialist.</li>
+        A mid-level individual contributor beginning to independently solve for more complex customer issues. Senior Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -211,7 +211,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently. Senior.</li>
+        A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently. Senior Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -261,7 +261,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s. Lead.</li>
+        A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s. Staff Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -304,38 +304,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A subject matter expert with a visible external brand/presence; equivalent in impact to a Manager, and acts as a mentor to preceding IC level team members. Principal.</li>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Helps set the vision for the team and influences the broader vision beyond the team.</li>
-          <li>Leads cross functional projects that impact aspects of the business both within, and outside, their primary domain.</li>
-          <li>Provides oversight, coaching, and guidance through case/code reviews and other activities, both on or off the team.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Contributes at least 10 PRs per quarter in support of Product and Engineering defined needs.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Proactively identifies areas for improvement at the org/company level.</li>
-          <li>Suggests process and methodology improvements.</li>
-          <li>Works closely with engineering and CE leadership to validate alignment between teams.</li>
-          <li>Is highly skilled at scoping, designing, and delivering solutions for large, complex challenges.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Provides domain/technical expertise internally and externally, informing what can be achieved.</li>
-          <li>Actively coaches others on effective communication, collaboration and conflict resolution skills.</li>
-          <li>Regularly shares knowledge and mentors teammates.</>
-          <li>Possesses a visible external presence and willingly presents to large and/or senior audiences to represent the Support team.</li>
-          <li>Persuades and challenges customers and internal stakeholders, using valid expertise and respectful communication.</li>
-        </ul>
+        This role has not yet been defined. Principal Support Engineer</li>
       </td>
     </tr>
   </tbody>
