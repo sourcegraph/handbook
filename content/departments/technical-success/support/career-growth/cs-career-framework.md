@@ -304,11 +304,8 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A subject matter expert with a visible external brand/presence; equivalent in impact to a Manager, and acts as a mentor to preceding IC level team members. Principal Support Engineer</li>
+        This role has not yet been defined. Principal Support Engineer</li>
       </td>
-    </tr>
-    <tr class="behaviors-row">
-      This role has not yet been defined.
     </tr>
   </tbody>
 </table>
