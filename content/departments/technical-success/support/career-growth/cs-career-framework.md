@@ -111,7 +111,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills. Associate.</li>
+        An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills. Support Engineer.</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -160,7 +160,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A mid-level individual contributor beginning to independently solve for more complex customer issues. Specialist.</li>
+        A mid-level individual contributor beginning to independently solve for more complex customer issues. Senior Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -211,7 +211,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently. Senior.</li>
+        A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently. Senior Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -261,7 +261,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s. Lead.</li>
+        A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s. Staff Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
@@ -304,7 +304,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
     </tr>
     <tr>
       <td class="level-summary" colspan="4">
-        A subject matter expert with a visible external brand/presence; equivalent in impact to a Manager, and acts as a mentor to preceding IC level team members. Principal.</li>
+        A subject matter expert with a visible external brand/presence; equivalent in impact to a Manager, and acts as a mentor to preceding IC level team members. Principal Support Engineer</li>
       </td>
     </tr>
     <tr class="behaviors-row">
