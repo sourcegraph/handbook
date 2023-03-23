@@ -1,4 +1,4 @@
-# Customer support career levels
+# Customer support career framework
 
 Our career level framework is meant to help you understand the expectations of your role and provide a common vocabulary for you and your manager to discuss and plan your career development on the CS team (in addition to where you might want to take your career in the future as outlined in our career roadmap practice). Having shared and visible expectations (as well as a common vocabulary) gives us an accountability framework to reduce bias in promotions/hiring and ensures that we are equitably recognizing everyone for their impact.
 
@@ -25,6 +25,20 @@ In line with our _continuously grow_ company value, we expect you to understand 
 Promotion discussions occur when your manager can make the case that you’ve had at least 6 months of consistent high performance at your current level, and at least 3 months performing consistently at the next level, in all three of the categories. Again, it takes time to demonstrate the “consistently” implicit in the expectations and we want to ensure that you are set up for success to perform at your current level.
 
 Promotions from one level to another are considered in impact reviews conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
+
+## SE Regional Team Leads
+
+Team Leads are designated senior ICs that are elevated within the team to take on additional responsibilities in support of the overall success of the team and individuals. These individuals are not full-time managers but are intentionally given less IC scope than their peers so that they can contribute to higher level initiatives within the team and organization.
+
+As a Team Lead, you will have additional responsibilities beyond those your IC level, including:
+
+**Facilitator**: Ensure adherence to established processes and facilitate team meetings. Act as a leader for the Support team in the absence of the Manager.
+
+**Coordinator**: Coordinate changes or requests, ensuring they are properly facilitated and communicated between teams.
+
+**Mentor**: Provide technical and soft skills mentorship to engineers. Assist with resolving complex technical issues and develop the customer service skills of the team.
+
+**Liaison**: Listen to feedback and concerns from team members and customers, and bring them to the appropriate parties. Conduct regular 1:1 meetings and other ad hoc communication to stay aware of potential areas for improvement.
 
 ## Levels
 
