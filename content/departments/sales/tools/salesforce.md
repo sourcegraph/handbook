@@ -47,7 +47,7 @@ Lead Source values include:
 - **Inbound** - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
 - **Referral** - any lead that was referred by a partner, investor, customer, employee, etc.
 - **SDR Created** - any lead created by an SDR
-- **Event** - lead attended an event, webinar, or similar
+- **Event** - lead attended an event, webinar, or similar; note that events are considered Inbound for handling under the assumption that they’ve opted to contact us at an event, rather than us reaching out to them and in this case, associated opportunities will be sourced to Inbound
 - **Feedback Form** - NPS Form Submissions
 - **Other**
 
@@ -55,7 +55,7 @@ Lead Source values include:
 
 First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot. First Touchpoint fields hold info about the first marketing interaction a prospect has taken. It is used to reflect an individual’s first interaction with either Sourcegraph’s gated (i.e., email submission required) marketing content _or_ initial sign-up for the free product offering. While we also use cookies to track user behavior prior to email submission, First Touchpoint only reflects the original source of contact info collection by marketing.
 
-The only time these fields should be blank is when a lead or contact has not had any interactions with marketing content (e.g., an SDR uses LeadIQ to import leads from a target account into SFDC for outreach, etc.). We leave First Touchpoint blank for these leads to account for any future marketing site interactions taken after initial sales outreach.
+The only time these fields should be blank is when a lead or contact has not had any interactions with marketing content (e.g., an SDR uses LeadIQ to import leads from a target account into SFDC for outreach, etc.). We leave First Touchpoint blank for these leads to account for any future marketing site interactions taken after initial sales outreach. **Please note that we no longer actively report on First Touchpoint.**
 
 See below for an overview of our current First Touchpoint types:
 
@@ -243,9 +243,11 @@ This also means that if a meeting is held, but no Opportunity is created, it doe
 
 ### Qualified Pipeline
 
-Any opportunity in Salesforce that reaches stage 2 or beyond is considered to be a Qualified Opportunity. Our pipeline metrics and reporting only consider Qualified Opportunities -- opportunities in Stage 0 or 1 do not count in our pipeline metrics.
+Any opportunity in Salesforce that reaches stage 2 or beyond is considered to be a Qualified Opportunity. Our pipeline metrics and reporting only consider Qualified Opportunities -- opportunities in Stage 0 or 1 do not count in our pipeline metrics. The `Entered Qualification Flag` filter should be used for filtering Salesforce reports for qualified opportunities as some qualified opportunities will skip Stage 2 and accordingly lack a date within the `Entered Qualification Date` field.
 
 The date an opportunity becomes qualified is the date it moves into Stage 2 or beyond -- this date, and not the create date of the opportunity, is the date that is used for cycle time and other pipeline analysis.
+
+We only consider qualification for New Business opportunities as organic expansions will qualify and close on the same day (so a 0 day time to close), throwing off reporting on statistics related to average days to close for all expansions.
 
 ### Associating contacts to opportunities
 
@@ -264,8 +266,8 @@ If a deal comes through a referral or introduction, tell [BizOps](../../bizops/i
 
 ### When a deal is lost
 
-1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../../bizops/index.md) about adding one.
-1. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
+1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to #ask-sales-ops about adding one.
+2. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
 
 ### Opportunity Source
 
@@ -277,6 +279,8 @@ Opportunities in Salesforce can be created either manually from scratch or from 
 4. The newly created opportunity will populate Opportunity Source to match the converted lead’s Lead Source with one important exception:
    1. If within 60 or fewer days prior to creation of the converted lead any pre-existing contact on the account selected to carry the new opportunity had a Lead Source reflecting outbound efforts (i.e., AE created or SDR created), the Opportunity Source will revert to taking that Lead Source in place of the source of the converted lead. This is to reflect a scenario that we frequently encounter where an SDR or AE will outbound prospect into a specific individual within a company, have no follow-up correspondence with that particular lead, but then receive an inbound inquiry (typically through completion of a marketing form or product sign-up) from a separate individual at the same company that heard about Sourcegraph from the lead originally contacted. Without this rule in Salesforce, we would materially undercount the impact of our outbound prospecting efforts while overstating the influence of marketing content on pipeline generation.
    2. Even with the above, we still retain data on the converted lead and where it was originally sourced - see the "Lead Source" field within an opportunities report.
+
+**Note that we are in the process of transitioning to a weighted campaign attribution report for evaluating the various sources of qualified pipeline. This report will ensure that any campaigns attached to contacts on an opportunity prior to the opportunity creation date receive attribution, enabling us to evaluate our best sources of pipeline generation. More details to follow.**
 
 ### New Logo Credit
 
@@ -297,6 +301,31 @@ Should you have any questions about New Logo credit, please reach out to Ajay Up
 ### Recording outbound activity
 
 TBD
+
+## Campaign Object
+
+We use Salesforce [campaigns](https://sourcegraph2020.lightning.force.com/lightning/o/Campaign/list?filterName=00B3t000008NLSaEAO) to understand how individuals engage with Sourcegraph forms and events. Campaigns live in Salesforce and membership details are determined through HubSpot workflows (in the case of form fills like signing up for the product, requesting to talk to a developer, etc.) and retrospective Salesforce uploads (in the case of event attendance with no sign-up form required e.g., someone visits a booth at a tradeshow and gives us their information live). We use the `Campaigns with Campaign Members` report type in Salesforce to analyze campaign performance.
+
+Key SFDC campaign fields to note for reporting include:
+
+- **Campaign Name:** Describes the type and name of form, event, etc. as well as the date the campaign was launched
+- **Campaign Type:** Describes the classification of the campaign. This field can be amended for each campaign within the object manager.
+- **Member First Responded Date:** This signifies the date of the form fill or event attendance. If this field is null, we do not classify the campaign member as a respondent.
+- **Reporting Responded Date:** This is a reporting field that was utilized to correct for legacy missing or erroneous product sign-up campaign data. If no data correction was needed for a campaign respondent, this field will be blank. If this field and `Member First Responded Date` contain values, defer to the value in this field.
+- **Responded:** This field can be used to filter whether a campaign member has responded to a campaign or not. For reporting purposes, we only care about members with `Responded = TRUE`.
+
+Examples of key SFDC campaigns:
+
+- [PR - Private Install - Private Install - 11.01.20](https://sourcegraph2020.lightning.force.com/lightning/r/Campaign/7013t000001ew5FAAQ/view): This is a campaign that records all sign-ups for our free private instance product. Membership is determined through a [workflow](https://app.hubspot.com/workflows/2762526/platform/flow/42642517/edit) in HubSpot and recorded in Salesforce.
+- [CS - Demo Request - Main Demo Request - 12.10.21](https://sourcegraph2020.lightning.force.com/lightning/r/Campaign/7015b000005h9ZgAAI/view): This campaign records all submissions of the various contact/demo request forms linked on our sites. Membership is determined through a [workflow](https://app.hubspot.com/workflows/2762526/platform/flow/150486428/edit) in HubSpot and recorded in Salesforce.
+
+A note on reporting SFDC campaigns:
+
+- We currently utilize one SFDC campaign exclusively for internal reporting, [OP - Lead & Contact Reporting Campaign](https://sourcegraph2020.lightning.force.com/lightning/r/Campaign/7015b000005d5pcAAA/view). Members are added to this campaign in [HubSpot](https://app.hubspot.com/workflows/2762526/platform/flow/265918090/edit), but they are not assigned a `First Responded Date`, which is how we differentiate this campaign from one involving active campaign member participation.
+
+### Determining where campaign members originate
+
+We utilize [UTM parameters](../sales-ops/marketing-ops.md) on external links to Sourcegraph web properties to determine where campaign members originate from. This process works by temporarily stamping the lead with associated UTM parameters, passing these UTM parameters to the campaign membership, then clearing the UTM parameters from the lead record. If a campaign membership does not have any values for UTM fields, this means that they either found us organically or through the use of a link without UTM parameters included.
 
 ## HubSpot and Salesforce
 

@@ -1,0 +1,105 @@
+:root {
+    // Enough to show 4 full columns and a peek of a 5th column, if there is one.
+    --container-width: 210ch;
+}
+
+.levels-table {
+    --category-color-1: var(--sg-vivid-violet);
+    --category-color-2: var(--sg-sky-blue);
+    --category-color-3: var(--sg-vermillion);
+    --category-color-4: var(--sg-mint);
+    --category-color-5: var(--sg-lemon);
+
+    table-layout: fixed;
+}
+.levels-table :is(td, th) {
+    vertical-align: top;
+    background: white;
+}
+thead th:first-child {
+    width: 8ch;
+}
+thead th.category-title {
+    width: 36ch;
+    text-align: center;
+    border-color: white;
+    &:nth-of-type(5n + 2) {
+        color: white;
+        background: var(--category-color-1);
+    }
+    &:nth-of-type(5n + 3) {
+        background: var(--category-color-2);
+    }
+    &:nth-of-type(5n + 4) {
+        color: white;
+        background: var(--category-color-3);
+    }
+    &:nth-of-type(5n) {
+        background: var(--category-color-4);
+    }
+    &:nth-of-type(5n + 1) {
+        background: var(--category-color-5);
+    }
+}
+/*
+  Repeat the category color as a border color after each category summary.
+  Safari doesn't respect different border colors below a cell spanning multiple columns,
+  so we need to draw borders on wrapper elements instead.
+  */
+.levels-table .category-summaries-row {
+    border-top: none;
+}
+.levels-table .category-summary {
+    border-top: none;
+    padding: 0;
+}
+.category-summary > .wrapper {
+    /* Note that absolute positioning wouldn't work here because <td>s can't be position: relative in Firefox. */
+    width: 100%;
+    padding: 6px 13px;
+}
+.category-summary {
+    &:nth-of-type(5n + 1) {
+        border-top: 1px solid var(--category-color-1);
+    }
+    &:nth-of-type(5n + 2) {
+        border-top: 1px solid var(--category-color-2);
+    }
+    &:nth-of-type(5n + 3) {
+        border-top: 1px solid var(--category-color-3);
+    }
+    &:nth-of-type(5n + 4) {
+        border-top: 1px solid var(--category-color-4);
+    }
+    &:nth-of-type(5n) {
+        border-top: 1px solid var(--category-color-5);
+    }
+}
+.level {
+    white-space: nowrap;
+}
+.level-summary,
+.category-summaries-row {
+    font-style: italic;
+}
+.level-summary {
+    border-bottom: none !important;
+    ul {
+        text-align: left;
+    }
+    li {
+        margin-top: 0.25em;
+    }
+}
+.levels-table td.tbd {
+    vertical-align: middle;
+    text-align: left;
+    padding: 2.5rem;
+}
+/*
+  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
+  Note that min-height also doesn't work.
+  */
+th#ic6 {
+    height: 11rem;
+}

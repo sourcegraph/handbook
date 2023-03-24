@@ -2,17 +2,18 @@
 
 ## Purpose & Use
 
-The IE team is creating and will maintain reference sandbox environments that emulate complex customer environments. This allows us to more quickly demonstrate Sourcegraph’s value proposition to prospective customers.
+The IE team is creating and maintaining snapshots of Sourcegraph configurations and cloned/indexed code to quickly and efficiently be able to spin up replicas of customer environments in tandem with Terraform repos for quickly deploying clusters.
 
-These environments will be stored in open-source repositories on https://github.com/sourcegraph/ and publicly available to be quickly installed either in our GCP instance or within a prospective customers' instance. If a prospective customer is unable or unwilling to stand up their own environment, we'll spin up the reference sandbox environment on Sourcegraph’s infrastructure and send login credentials to the prospective customer. The CE will monitor use and be responsible for tearing down the instance to minimize costs.
+These instances will be, by default, limited in the resourcing allocated to them, and will be based on the Terraform repos managed by the Delivery team in the [Sourcegraph GitHub organization](https://github.com/sourcegraph). The Terraform deployments can be adjusted to be scalable to the customer's required specs on GCP and AWS, should proof of infrastructure be required. The Terraform shown in these repos is intended to quickly stand up the infrastructure to install Sourcegraph on. If the prospective customer does not want to install into their own cloud, a CE can share login details with prospective customers and allow access to explore a replica environment hosted by Sourcegraph.
 
-From our first initial conversation, CEs will share these environments with prospective customers early on. Though prospective customers may still elect to run a formal trial, CE will give every prospect access to a representative environment so that they are able to quickly and easily begin experiencing Sourcegraph.
+In addition to customer use cases, IE and Customer Support may wish to leverage these Terraform repos to build out environments to troubleshoot customer issues in a close replica setting.
 
-## Initial Environments
+### Lifecycle of Sandboxes
 
-To start, we will begin with building this structure for environments representing the below two common “flavors” of complex customer:
+By default, sandboxes being used on a prospective customer use case and deployed in Sourcegraph's cloud will be time-boxed for 2 weeks. In these cases, sandboxes are employed to give a customer a quick example of what a private Sourcegraph instance will look and feel like.
 
-1. Customers with a large monorepo across major code hosts (GitHub, Gitlab, Bitbucket, Perforce)
-2. Customers with many repos and complex permissioning across major code hosts (GitHub, Gitlab, Bitbucket, Perforce)
+For customer troubleshooting use cases, sandboxes should be destroyed after each deployment, and Velero backups will be available in the Implementation AWS account and GCP project for quick configuration of an instance after the infrastructure is deployed.
 
-We'll expand these environments over time.
+## Environments
+
+Terraform repos are available to deploy clusters on EKS (AWS), GKE (GCP), and AKS (Azure). There are snapshots in the Implementation GCP and AWS accounts for GitHub, GitLab, BitBucket, and Perforce. At the current moment, there are no snapshots available for AKS.

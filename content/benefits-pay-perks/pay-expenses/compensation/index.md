@@ -2,15 +2,20 @@
 
 We pay competitively in order to attract the best possible talent to Sourcegraph and reward Teammates for the work that they do. We are committed to keeping compensation competitive, merit-based, and non-discriminatory, to make sure all Teammates have a financial stake in the success of Sourcegraph and that contributions are rewarded.
 
-**Our compensation pillars:**
+**Overview:**
 
-- Market competitive: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. In instances where Radford doesn't provide a strong role match, we may leverage other data sources (eg market data, Option Impact) to determine a final compensation band.
+- **Market competitive**: we use a data-driven approach to set our salary bands, leveraging Radford salary survey data as our source of truth. In instances where Radford doesn't provide a strong role match, we may leverage other data sources to determine a final compensation band.
 
-- Transparent and equitable: we publish salary bands in [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
+  - We target the 75th percentile of the salary range as the bottom of our compensation ranges, meaning the “mid point” of every band begins at the 75th percentile of the broader market. This ensures that from the get go, all teammates are paid well above average.
+  - We re-evaluate our ranges every 6-months. If a teammate's compensation falls below the 75th percentile, we automatically increase their pay, regardless of performance. This ensures that teammate's compensation stays competitve and fair, and as the market moves, their compensation moves with it.
 
-- Performance based: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, and spot bonuses. [Read more about our merit process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy).
+- **Transparent and equitable**: we publish every single salary band in our job descriptions and [Assemble](https://app.assemble.inc/) to provide visibility into all roles and levels. This means that every teammate can see the salary bands for all roles across the company. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across levels and performance.
+- **Performance based**: we pay for performance in order to retain and motivate our talent to do their best work. We reward performance through merit increases, promotions, annual equity refreshes, and spot bonuses. [You can read more about our merit process here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy).
 
-- Location independent: we pay the same, globally. We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
+  - We are committed to pay equity, meaning that we aim to bring all teammates in at the 75th percentile of the range when they first join us.
+  - We use our bi-annual [performance review process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) (we call the impact reviews) to evaluate teammate performance, which directly influences compensation increases. In other words, teammates who recieve a higher rating score will receive a larger compensation increase, meaning that some teammates may increase their compensation faster than others based entirely on objective data. You can [read more about expected compensation increases here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#rating-definitions).
+
+- **Location independent**: we pay the same, globally. We do not take location into account when determining cash and equity compensation. No matter where you live, you will get the same cash and equity compensation. To ensure our compensation is competitive even for people in high-salary/high-cost markets, we target a high percentile (from our compensation benchmarks) across the board.
 
 ## Components of compensation
 

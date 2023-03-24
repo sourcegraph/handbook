@@ -2,7 +2,7 @@
 
 The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack #hiring or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack #ask-people-team or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your [People Partner](teamalignment.md) or the VP People & Talent.
 
@@ -55,7 +55,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
 - [How to set up BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
-- [Background Checks]
+- [Background Checks](background-check-policy.md)
 - [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Managing remote work](../../company-info-and-process/remote/index.md)
@@ -104,7 +104,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Rippling - access your payroll & insurance info](people-ops/tools/people-ops-faqs.md#q-where-and-when-do-i-receive-my-rippling-invitation)
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
-- [Medical leave & accommodation](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
+- [Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 - [Mental health resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
   - [Modern Health](../../benefits-pay-perks/benefits-perks/mental-health/modern-health.md)
 
@@ -172,6 +172,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Involuntary seperations](people-ops/process/leaving.md)
 - [Severance information & getting paid](people-ops/process/leaving.md)
 - [Cobra](people-ops/process/leaving.md)
+- [Equity FAQs](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph)
 
 ### Misc
 

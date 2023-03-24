@@ -103,7 +103,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Marketing
    </td>
-   <td>Andy Schumeister
+   <td>Quinn Slack (interim)
    </td>
    <td>TBD
    </td>

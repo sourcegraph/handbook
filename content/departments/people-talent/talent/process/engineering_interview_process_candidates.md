@@ -30,11 +30,13 @@ We want to find engineers who are:
 - (30m-60m) [Hiring Manager Screen](types_of_interviews.md#hiring-manager-screen)
 - (60m) [Resume Deep Dive](types_of_interviews.md#resume-deep-dive)
 - Team Interview
-  - (60m) Technical Interview
-  - (60m) Technical Interview
+  - (45-60m) Technical Interview (examples below)
+  - (45-60m) Technical Interview (examples below)
   - (60m) [Cross-functional Team Collaboration](types_of_interviews.md#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
 - (30m) [Values Interview](types_of_interviews.md#values-interview)
 - (30m) [Leadership Interview](types_of_interviews.md#leadership-interview)
+- References check
+- Offer
 
 ### Types of Technical Interviews
 
@@ -162,6 +164,120 @@ We want to find engineers who are:
   ```
 
   </details>
+
+### Security Interviews
+
+#### Application security walkthrough
+
+- **Interviewers:** two Security Engineers
+
+- **Duration:** 45-minutes
+
+- **How to prepare:** This describes the walkthrough stage of the application security interview
+  process, which is used instead of a take home exercise.
+
+**The day-to-day experience of an application security engineer**
+
+At Sourcegraph, application security engineers:
+
+- Are often reading code that they haven't written.
+- Are functioning in an asynchronous environment where clear communication is key.
+- Are assisting other members of Sourcegraph's team in understanding complex
+  security-related issues, and developing creative solutions to those issues.
+
+**The aims of this interview**
+
+- Allow you as a candidate to focus on an area that you are comfortable in.
+- Allows a dialogue that simulates a technical discussion between you and your
+  future peers.
+- Use the discussion as a proxy for assessing your application security skills
+- Have a time-efficient process for yourself and Sourcegraph.
+
+**We want to find engineers who are:**
+
+- Good communicators.
+- Confident in identifying application security weaknesses that stem from
+  a variety of sources.
+- Creative and pragmatic about finding solutions to these issues.
+- Able to advocate for better security practices across the organization.
+
+**The process**
+
+During the interview, you will guide us through a project or library of your
+choice.
+
+It is important that you choose a project or a library that you are comfortable
+with. You don't have to choose a project with known vulnerabilities – we're more
+interested in understanding your thought process and the way you would work your
+way through an application during a security assessment. If you aren't sure about
+the application you wish to use, the [Sourcegraph](https://github.com/sourcegraph/sourcegraph)
+platform might be a good choice!
+
+- Interview length: 45 minutes
+  - 5 minutes of introductions
+  - 30 minute walkthrough
+  - 10 minutes of questions that you have for us about working at Sourcegraph
+
+Be prepared to share your screen and walk us through the code.
+
+For the interview, we will expect you to carry out an application security
+assessment of the project's code. We do not expect you to carry out any live
+testing against the project. Instead, by examining code, we would like to work
+through:
+
+- The purpose of the project and any logic-based security concerns that might
+  arise
+- Technical security concerns, for example those deriving from the OWASP Top 10
+- The use of dependencies within the project and how you would assess them
+  for security issues
+- Tooling or processes you would put in place to assess the application on an
+  ongoing basis
+
+We do not have to assess every part of the application during the call – it is
+preferable to focus on a single area of functionality and cover it from a
+variety of security perspectives. If there are areas that we are particularly
+interested in, we might ask you to dive further into them and assess how
+specific aspects of functionality might work.
+
+For any security concerns identified we are also interested in knowing how you
+would solve them, both in the immediate case and on an ongoing basis. How would
+you automatically catch vulnerabilities which might be introduced in the future?
+How would you ensure that developers are aware of the potential risks when they
+are working on this piece of code?
+
+#### Security Operations Case Study
+
+- **Interviewers:** two Security Engineers
+
+- **Duration:** 45-minutes
+
+- **How to prepare:** The aim of this exercise is to gauge your general, non-AppSec security skills, in areas that a junior security engineer might be exposed to on a regular basis. This case study covers generic phishing attempts and discusses how you would identify and protect against them.
+
+### AI/ML Interviews
+
+#### Technical Background
+
+- **Interviewers:** Beyang Liu, co-founder and CTO
+
+- **Duration:** 45-minutes
+
+- **How to prepare:** During this interview, we will focus on systems you've built and dive into your views on machine learning and its potential. Please come prepared to share your vision for AI at Sourcegraph.
+
+#### Technical Deep Dive
+
+- **Interviewers:** two engineers
+
+- **Duration:** 45-minutes
+
+- **How to prepare:** During this interview, we will ask you to explain a recent project, including how you led it and approached different challenges. Please be prepared to answer questions around your technical approach and architecture.
+
+#### Pairing Exercise
+
+- **Interviewers:** Beyang Liu, co-founder and CTO
+
+- **Duration:** 60-minutes minimum.
+
+- **How to prepare:** Prior to the interview, please share your GitHub handle with your Recruiter. The Recruiter and/or Hiring Manager will then share a GitHub repo with you ahead of the interview. During the interview, we will ask you to spin up the dev environment and add a new Recipe to Cody. This Recipe should add the ability to generate a unit test using the surrounding code as context.
 
 ### Leadership Interview Process
 

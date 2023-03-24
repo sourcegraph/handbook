@@ -5,7 +5,7 @@ This section of the Handbook holds all documentation related to specific departm
 - [CEO Team](ceo-team/index.md)
 - [Office of the CTO](cto/index.md)
 - [Technical Success](technical-success/index.md)
-- [Data & Analytics](bizops/index.md)
+- [Data & Analytics](data-analytics/index.md)
 - [Finance](finance/index.md)
 - [Legal](legal/index.md)
 - [Marketing](marketing/index.md)
