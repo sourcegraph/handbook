@@ -36,9 +36,11 @@ Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/a
 ### Executors
 
 `cse-aws` uses executors to process codeintel. During upgrades use the `docker-compose` command:
+
 ```
 docker-compose -f docker-compose.yaml -f executors/executor.docker-compose.yaml up -d
 ```
+
 Learn more in the standard [README.md](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws/tree/release/docker-compose/executors), and find a note on our secrets in a [OnePassword Secure Note](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/335rrus23htduvlyikqkgpzr6u). Remember not to commit these to the remote during upgrades!
 
 ## DNS
