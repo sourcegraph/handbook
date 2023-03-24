@@ -23,13 +23,3 @@ The **Campaigns group** is primarily responsible for the strategy and activation
 
 - [Account-Based Experiences](./account_based_experience.md) aka ABX
 - [Digital Marketing Programs](./digital_marketing_programs.md)
-
-The **Operations group** is responsible for systems and analytics which support the marketing organization.
-
-- [Marketing Operations](./marketing_operations.md)
-
-## Meet the team
-
-{{generator:reporting_structure.director_demand_generation}}
-
-For information about teammate preferences, check out our individual [READMEs](demand-gen-bios.md).

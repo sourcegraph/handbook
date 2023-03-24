@@ -70,13 +70,13 @@ The CEO Shadow Program is designed to provide a unique and compelling opportunit
 
 Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. If traveling a long distance and lodging is needed beyond the rotation, please clear it with the Sr. EBP to the CEO (@sally voisen) first.
 
-Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions.
+Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use Navan.
 
 We typically suggest CEO Shadows stay in San Francisco, but CEO Shadows should work with the Sr. EBP to the CEO (@sally voisen) on where to stay to minimize travel and expense based on Quinn's calendar.
 
 #### Airfare
 
-Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions.
+Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use Navan.
 
 #### Transportation to / from the airport
 

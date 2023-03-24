@@ -82,7 +82,7 @@ The Recruitment Operations specialist will schedule all remaining interviews in 
 
 Ideally, each interview will include two teammates. However, there may be circumstances where only one teammate is scheduled to participate in an interview. In that scenario, the teammate who is participating in the interview asks all interview questions. If only one person is able to attend, a second person is required to watch the BrightHire and provide feedback.
 
-- If you unable to make an interview, please Slack #hiring immediately so that we can work on finding a replacement interviewer, or reschedule. Please do you best to provide a minimum of 24-hours notice if you are unable to attend.
+- If you unable to make an interview, please Slack [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) immediately so that we can work on finding a replacement interviewer, or reschedule. Please do you best to provide a minimum of 24-hours notice if you are unable to attend.
 
 Following your interview, please provide interview feedback immediately, no later than 24-hours after your interview, to ensure we are able to move quickly and provide a positive candidate experience.
 

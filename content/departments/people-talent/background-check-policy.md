@@ -146,3 +146,7 @@ Before taking any adverse action on the basis of a criminal background check (su
 ### Contact
 
 If you have any questions about this Policy, contact the People Team (people-ops@sourcegraph.com) or via your People Partner.
+
+### Resources for People Team
+
+[People Team Background Check Process](https://docs.google.com/document/d/1Xjk5SCeFjsG7XqemOkVgzFDG_mAqzstH1wOUxg0tlso/edit)

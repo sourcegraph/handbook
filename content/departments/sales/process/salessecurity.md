@@ -2,17 +2,11 @@
 
 ### Security questionnaires
 
-The CE team should take the first pass on inbound questionnaires using the [list of reference questionnaires](https://drive.google.com/drive/folders/11X8xoX9lK7aHY-UqZQIwQl_aQ8NQFu1D) we have collected in our shared drive and our "Knowledge Base" in our Security Trust Portal (https://app.safebase.io/knowledge).
+The CE team should take the first pass on inbound questionnaires using our [Knowledge Base](https://app.safebase.io/knowledge).
 
 Once the first pass is done, sign up for a security questionnaire review in [this signup sheet](https://docs.google.com/document/d/1Q6J8ZwPYDX-jJ0YU2l2CWXX3qboKD2XTbIeg5Q-NBAk/edit#).
 
-> 💡 **Top Tip!** Add a search engine to Chrome to specifically search the folder of reference questionnaires.
->
-> 1. Go into the Chrome settings
-> 2. Go to "Managed Search Engines"
-> 3. Add a new one
-> 4. Name it "Search security questionnaires", give it shortcut you'll remember, and a URL of `https://drive.google.com/drive/search?q=parent:11X8xoX9lK7aHY-UqZQIwQl_aQ8NQFu1D%20%s`
-> 5. Open a new tab and type your shortcut, then a space, then the search term you want to find!
+> 💡 **Top Tip!** See the handbook page [here](../../security/security-trust-center.md) on how to access our Security Portal as an internal user.
 
 ### Customer security questions
 

@@ -1,6 +1,6 @@
 # Onboarding Feedback Milestones
 
-The People Ops team wants to better support new teammates and managers by opening a two-way conversation between them throughout the [onboarding process](./index.md) about what’s on track and what needs action, both on the new teammates' contribution and how well they’re living our shared values.
+The People Team wants to support new teammates and managers by opening a two-way conversation between them throughout the [onboarding process](./index.md) about what’s on track and what needs action, both on the new teammates' contribution and how well they’re living our shared values.
 
 Feedback check-ins are part of the onboarding process. We want to help teammates succeed by having structured monthly feedback sessions with their managers during their first 3 months.
 
@@ -27,7 +27,7 @@ Following our [standards of success](./index.md#onboarding-standards-and-success
 
 ## Lattice reviews
 
-The manager and the Direct Report will receive a review to complete 25 and 85 days after start date. The questions for these forms are different, but the answers will be shared with both parties after it's closed.
+The manager and the direct report will receive a review to complete 25 and 85 days after start date. The questions for these forms are different, but the answers will be shared with both parties after it's closed.
 
 Once the reviews are complete, manager and direct report will meet synchronously to talk about what is going well, what needs attention, and what the next steps are. You must complete both reviews before meeting.
 
@@ -41,9 +41,9 @@ New teammates will receive a review form a month and 3 months after joining. The
 
 **Teammate prep**
 
-- check onboarding checklist,
-- have list of values and examples ready,
-- have examples ready,
+- check onboarding checklist
+- have list of values and examples ready
+- have examples ready
 - think about examples of what your manager can do to support you better
 
 ### Managers: What to expect
@@ -56,9 +56,9 @@ Keep in mind managers may define expectations differently to fit the team, the m
 
 **Manager prep**
 
-- check onboarding checklist,
-- have list of values and examples ready,
-- have examples ready,
+- check onboarding checklist
+- have list of values and examples ready
+- have examples ready
 - think about the project in which the teammate is participating and their performance
 
 ### Review Questions

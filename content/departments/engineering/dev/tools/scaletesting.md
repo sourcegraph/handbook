@@ -144,6 +144,12 @@ helm repo update
 helm search repo insiders --devel
 ```
 
+Make changes to values.yaml by running the following script (this will update to latest main):
+
+```shell
+sg ops update-images -k helm ./helm/sourcegraph
+```
+
 Finally, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
 
 ```shell
@@ -155,6 +161,20 @@ SG_CHART_VERSION=$(helm history scaletesting -o json -n scaletesting | jq -r 're
 SG_CHART_VERSION=<new chart version>
 
 helm upgrade --install --values ./helm/sourcegraph/values.yaml --version ${SG_CHART_VERSION} scaletesting insiders/sourcegraph -n scaletesting
+```
+
+#### Deployment progress
+
+Watch how the change is being applied to the scaletesting environment:
+
+```shell
+kubectl get pod -n scaletesting --watch
+```
+
+Verify which version is deployed on scaletesting environment with:
+
+```shell
+sg live scaletesting
 ```
 
 ### Scale the infrastructure down when not in use

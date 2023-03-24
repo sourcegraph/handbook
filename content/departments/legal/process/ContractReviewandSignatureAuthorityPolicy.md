@@ -186,7 +186,7 @@ For customer contracts: Share our NDA form with the prospect. If a customer insi
 
 ### Who signs the NDA for Sourcegraph?
 
-- VP Legal or other VP or Director
+- VP Legal, Commercial Counsel, or other VP or Director
 
 Changes to the above signing authorities require written approval by the CEO.
 

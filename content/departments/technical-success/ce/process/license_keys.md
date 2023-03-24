@@ -26,6 +26,8 @@ A note on Sales-led cloud (managed instance) trials: as part of the Managed Inst
 
 When the prospect converts to a customer, create a _new_ subscription; **do not** reuse the trial subscription. (Follow the instructions for [issuing a new license](#creating-a-new-license-key) from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
+Note: if the prospect was a PLG Cloud trial customer, do _not_ reuse the `plg-trial` tag on their production, paid license. This is for prospects only.
+
 ### Creating a new license key
 
 > NOTE: CEs should always consult with Sales before creating license keys for prospects (i.e., companies that have not yet officially become customers).
@@ -45,7 +47,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
    1. Fill out the license subscription plan name. See the [plans](#plans) section.
    1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
    1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
-   1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
+   1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
 6. Click **Generate license**.
 7. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
@@ -106,6 +108,7 @@ First the tags that relate to license itself:
 - `mau` to indicate that the company is on a monthly usage-based billing model.
   > Note: For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.
 - `trial` to show an indicate in Sourcegraph that the company is on a trial.
+- `plg-trial` to indicate that a Cloud trial managed instance has been requested through signup.sourcegraph.com.
 - `dev` for internal developer licenses
 - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
 

@@ -398,16 +398,6 @@ kbd {
         overflow: auto;
     }
 
-    // Can be applied to <th> table header cells
-    // Only apply above small size, because on small we use scrolling table wrappers that conflict with sticky headers.
-    @include media-breakpoint-up(sm) {
-        th.sticky {
-            position: sticky;
-            top: calc(var(--header-height) - 1px);
-            z-index: 2;
-        }
-    }
-
     table {
         th {
             font-weight: 600;

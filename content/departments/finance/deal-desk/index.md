@@ -41,3 +41,4 @@ Others:
 
 - [Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit#)
 - [Change Order Form Process](https://docs.google.com/document/d/1dVbbMmad94eeKHGNqM3IU4h-c4ky2Bdt53EPrGzzB9Y/edit)
+- [Product Migration: Free Batch Changes and Code Insights](https://docs.google.com/document/d/1sQmxjMSx9o0Dy8sHP_MEHQ3wl6zWZBJPRmgADDnqOcY/edit)
