@@ -33,6 +33,16 @@ ssh -i .ssh/cse-aws.pem ec2-user@ec2-3-133-49-142.us-east-2.compute.amazonaws.co
 
 Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws). Any customizations should be applied to the [override](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws/blob/release/docker-compose/docker-compose.override.yaml) file rather than the default `docker-compose.yaml` file. Learn more about [docker compose override](https://docs.sourcegraph.com/admin/deploy/docker-compose/configuration#what-is-an-override-file) files.
 
+### Executors
+
+`cse-aws` uses executors to process codeintel. During upgrades use the `docker-compose` command:
+
+```
+docker-compose -f docker-compose.yaml -f executors/executor.docker-compose.yaml up -d
+```
+
+Learn more in the standard [README.md](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws/tree/release/docker-compose/executors), and find a note on our secrets in a [OnePassword Secure Note](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/335rrus23htduvlyikqkgpzr6u). Remember not to commit these to the remote during upgrades!
+
 ## DNS
 
 DNS for cse-aws is handled by our GCP terraform infrastructure: [https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338](https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338) application of changes here requires `terraform apply` to take effect on our GCP infrastructure
