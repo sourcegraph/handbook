@@ -13,7 +13,7 @@ If you’re looking for high-level data about how our user base interacts with o
 - [Instances by deployment type](https://sourcegraph.looker.com/looks/1520)
 - [DAU/MAU ](https://sourcegraph.looker.com/looks/1521)
 - [Average seat consumption (MAU/Total Seats)](https://sourcegraph.looker.com/looks/1522)) - customers only
-- [Technical health score](https://sourcegraph.looker.com/dashboards/389?Customer%20Name=&Account%20Executive=&Customer%20Engineer=&Customer%20Tenure%20(days)=%5B0,2000%5D&Telemetry%20Status=)
+- [Technical health score](<https://sourcegraph.looker.com/dashboards/389?Customer%20Name=&Account%20Executive=&Customer%20Engineer=&Customer%20Tenure%20(days)=%5B0,2000%5D&Telemetry%20Status=>)
 
 **Customer-level metrics**
 If you’re looking for product usage data for a specific customer(s), below are links to charts for some commonly requested data points. Please note that if you want to see a full overview of a specific instance’s usage, the dashboards in the “Full instance overview” section may be more useful.
@@ -28,13 +28,13 @@ If you’re looking for product usage data for a specific customer(s), below are
 - [Code hosts by customer](https://sourcegraph.looker.com/looks/1528)
 - [Total repos by customer](https://sourcegraph.looker.com/looks/1529)
 - [NPS score by customer](https://sourcegraph.looker.com/looks/1530)
-- [Customer support metrics by customer](https://sourcegraph.looker.com/dashboards/421?Organization=&Assignee%20ID=&Ticket%20priority=None,p1,p2,p0,p3&Created%20Date=90%20day&Lifecycle=) 
+- [Customer support metrics by customer](https://sourcegraph.looker.com/dashboards/421?Organization=&Assignee%20ID=&Ticket%20priority=None,p1,p2,p0,p3&Created%20Date=90%20day&Lifecycle=)
 
 **Full instance overview**
 If you’re looking for a full breakdown of usage on a server or for a particular customer, below are links to a few widely used dashboards that contain a variety of usage metrics.
 
 - [Server instances dashboard:](https://sourcegraph.looker.com/dashboards/409?Account%20name=Chime&Installer%20email=) This dashboard is much more comprehensive than the customer account overview, but not every metric on here will be important/relevant for every user/customer. However, you can find free and prospect instances on this dashboard
-- [Technical health dashboard:](https://sourcegraph.looker.com/dashboards/389?Customer%20Name=&Account%20Executive=&Customer%20Engineer=&Customer%20Tenure%20(days)=%5B0,2000%5D&Telemetry%20Status=) This dashboard contains the account’s technical health score and the metrics that are included as a part of that score.
+- [Technical health dashboard:](<https://sourcegraph.looker.com/dashboards/389?Customer%20Name=&Account%20Executive=&Customer%20Engineer=&Customer%20Tenure%20(days)=%5B0,2000%5D&Telemetry%20Status=>) This dashboard contains the account’s technical health score and the metrics that are included as a part of that score.
 
 **Feature specific dashboards and charts**
 
