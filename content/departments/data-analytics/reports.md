@@ -1,40 +1,42 @@
 # Reports and dashboards at Sourcegraph
 
-The Data & Analytics team uses two primary tools for dashboards and reporting - Looker and Amplitude. Other tooling is used across the org (ex. Redash, Google Analytics, Google Sheets, etc) but these two tools house the majority of the enterprise reporting content owned by D&A. 
-
+The Data & Analytics team uses two primary tools for dashboards and reporting - Looker and Amplitude. Other tooling is used across the org (ex. Redash, Google Analytics, Google Sheets, etc) but these two tools house the majority of the enterprise reporting content owned by D&A.
 
 ## **Looker**
 
-### **What is Looker?** 
-Looker is a business intelligence tool used for standard enterprise reporting and ad hoc reporting and analysis. All Sourcegraph employees can have View access to Looker. Some groups have the ability to create reports/explore datasets. If you need help getting access to Looker, please reach out to #ask-it-tech-ops
+### **What is Looker?**
 
+Looker is a business intelligence tool used for standard enterprise reporting and ad hoc reporting and analysis. All Sourcegraph employees can have View access to Looker. Some groups have the ability to create reports/explore datasets. If you need help getting access to Looker, please reach out to #ask-it-tech-ops
 
 #### **What data can I find in Looker?**
 
-Looker is essentially the frontend interface for our BigQuery data warehouse. The data available in BigQuery/Looker is evolving all the time, but here are a few of the primary data sources: 
-- [Pings](https://docs.sourcegraph.com/admin/pings) data from free, on-prem instances, customer managed/on-prem instances, and Sourcegraph.com 
+Looker is essentially the frontend interface for our BigQuery data warehouse. The data available in BigQuery/Looker is evolving all the time, but here are a few of the primary data sources:
+
+- [Pings](https://docs.sourcegraph.com/admin/pings) data from free, on-prem instances, customer managed/on-prem instances, and Sourcegraph.com
 - [Eventlogger's](https://sourcegraph.com/search?q=context%3Aglobal+repo%3Asourcegraph%2Fsourcegraph+eventLogger.log%28&patternType=lucky&groupBy=repo) event-stream usage data for sourcegraph.com and about.sourcegraph.com (for customer event-stream data, please see Amplitude)
 - Sourcegraph app data
-- Salesforce data, like information about accounts, opportunities, leads, etc. 
-- Zendesk 
+- Salesforce data, like information about accounts, opportunities, leads, etc.
+- Zendesk
 - Outreach.io
 - Hubspot
 
-Using these data sources, we use Looker to answer questions such as: 
-- Which customers are using batch changes, and how often? 
-- Which language should we index for precise code intel next? 
-- Which campaigns brought in the most leads? 
-- Which referrers are driving traffic to sourcegraph.com? 
+Using these data sources, we use Looker to answer questions such as:
+
+- Which customers are using batch changes, and how often?
+- Which language should we index for precise code intel next?
+- Which campaigns brought in the most leads?
+- Which referrers are driving traffic to sourcegraph.com?
 
 #### **How often is data in Looker updated?**
-It depends on the dataset, but most of our data pipelines/transformations run anywhere from once a day to once an hour. So assuming we're still getting data from these sources, you should always be seeing the most up-to-date data in Looker. However, we do have a few datasets (specifically customer telemetry status, and linking a customer to their instance identifiers) that are currently updated manually, and therefore a bit less frequently. 
 
+It depends on the dataset, but most of our data pipelines/transformations run anywhere from once a day to once an hour. So assuming we're still getting data from these sources, you should always be seeing the most up-to-date data in Looker. However, we do have a few datasets (specifically customer telemetry status, and linking a customer to their instance identifiers) that are currently updated manually, and therefore a bit less frequently.
 
 ### **How to use Looker**
 
-We've created a few training videos to help you navigate our Looker project:  
+We've created a few training videos to help you navigate our Looker project:
+
 - Overview of data in Looker
-- Best practices for navigating our Looker project (and finding content you care about) 
+- Best practices for navigating our Looker project (and finding content you care about)
 - [Using our dashboards](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD)
 - [Using our looks](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD)
 - ["Exploring" our datasets](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD) - note that "View" users do not have access to explore content
@@ -43,6 +45,7 @@ We've created a few training videos to help you navigate our Looker project:
 #### **Additional training videos/documentation from Looker**
 
 Looker also puts out guides and training videos that may be useful if you're looking for a more general tutorial about using the tool. Here are a few that we like in particular:
+
 - [Looker introduction](https://cloud.google.com/looker/docs/intro)
 - [Find and organize content](https://connect.looker.com/library/video/find-and-organize-content?_ga=2.48790688.703451167.1679794488-276166785.1639170296)
 - [Send alerts and share content](https://connect.looker.com/library/video/sending-and-sharing-content?_ga=2.215891345.703451167.1679794488-276166785.1639170296)
@@ -50,7 +53,8 @@ Looker also puts out guides and training videos that may be useful if you're loo
 - [Create dashboards](https://connect.looker.com/library/video/create-reports-and-dashboards?_ga=2.11491506.703451167.1679794488-276166785.1639170296) - note that "View" users do not have access to create dashboards content
 
 ### **Notable reports**
-Below you'll find links to Looker reports containing frequently requested data that many teams find useful. This doesn't represent all the reports available, but should give you a good idea of the types of reports that can be found in Looker. 
+
+Below you'll find links to Looker reports containing frequently requested data that many teams find useful. This doesn't represent all the reports available, but should give you a good idea of the types of reports that can be found in Looker.
 
 **Company level metrics**
 If you’re looking for high-level data about how our user base interacts with our product generally, below are links to charts for some commonly requested data points. Unless otherwise noted, these charts include data for both free and paying users.
@@ -101,8 +105,7 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 
 ## **Amplitude**
 
-Amplitude is a business intelligence tool specifically for product analytics, unlike Looker, which visualizes many different types of data. Amplitude is where we visualize user-level, event-stream data for both customers and for Sourcegraph.com. It can be used to create reports, perform ad-hoc analysis, and understand the user journey, and is therfore often most useful for designers and product managers. 
-
+Amplitude is a business intelligence tool specifically for product analytics, unlike Looker, which visualizes many different types of data. Amplitude is where we visualize user-level, event-stream data for both customers and for Sourcegraph.com. It can be used to create reports, perform ad-hoc analysis, and understand the user journey, and is therfore often most useful for designers and product managers.
 
 ### **Notable reports: **
 
