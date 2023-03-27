@@ -216,6 +216,7 @@ that we maintain.
 More detailed description of our responsibilities and what we do, can be found [here](what-we-do.md).
 
 ---
+
 ## Security Policies
 
 We are responsible for maintaining company-wide security policies. You can find them [here](../../company-info-and-process/policies).
@@ -224,17 +225,17 @@ We are responsible for maintaining company-wide security policies. You can find 
 
 The secure coding guidelines contain information on how to address and prevent certain types of vulnerabilities. It's a required read for engineers at Sourcegraph and is finished by completing a short assessment. The training and guidelines can be found [here](./secure-code-training.md).
 
-## Data Sharing Best Practise 
+## Data Sharing Best Practise
 
-It is essential for Sourcegraph to establish clear data sharing guidelines to protect our and our client's sensitive information. We understand that sometimes it is necessary for the smooth functioning of our business operations and hence we want to provide the following data sharing guidelines to help do so securely and responsibility: 
+It is essential for Sourcegraph to establish clear data sharing guidelines to protect our and our client's sensitive information. We understand that sometimes it is necessary for the smooth functioning of our business operations and hence we want to provide the following data sharing guidelines to help do so securely and responsibility:
 
-It is essential for Sourcegraph to establish clear data sharing guidelines to protect our and our client's sensitive information. We understand that sometimes sharing information externally is necessary for the smooth functioning of our business operations and hence we want to provide the following data sharing guidelines to help do so securely and responsibility: 
+It is essential for Sourcegraph to establish clear data sharing guidelines to protect our and our client's sensitive information. We understand that sometimes sharing information externally is necessary for the smooth functioning of our business operations and hence we want to provide the following data sharing guidelines to help do so securely and responsibility:
 
 - Our Policy: Familiarise yourself with our [data classifications](../../company-info-and-process/policies/data-management-policy.md#data-classification) and the type of data that falls into each so you can make better decisions on the [data handling](../../company-info-and-process/policies/data-management-policy.md#data-handling) of each piece of information that you interact with.
 
-- Necessity: Sensitive data may be shared with third parties only when it is necessary to perform a specific business function, such as providing a cloud instance to clients in GCP that will hold customer information. For any **research and testing purposes** use **test data** (i.e. no real personal or customer data should be used for queries in AI chatbots or similar 3rd parties for such activities and without a specific business need). 
+- Necessity: Sensitive data may be shared with third parties only when it is necessary to perform a specific business function, such as providing a cloud instance to clients in GCP that will hold customer information. For any **research and testing purposes** use **test data** (i.e. no real personal or customer data should be used for queries in AI chatbots or similar 3rd parties for such activities and without a specific business need).
 
-- Legitimacy: Our approved vendors undergo a rigorous review process before onboarding and  must be legitimate and reputable organizations that have agreed to abide by the same data privacy and security standards as our organization. Hence, no sensitive information (like customer and personal data) should be shared with any 3rd party that has not been approved by this process. 
+- Legitimacy: Our approved vendors undergo a rigorous review process before onboarding and must be legitimate and reputable organizations that have agreed to abide by the same data privacy and security standards as our organization. Hence, no sensitive information (like customer and personal data) should be shared with any 3rd party that has not been approved by this process.
 
 # Misc Links
 
