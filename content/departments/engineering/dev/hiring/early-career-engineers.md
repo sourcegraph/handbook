@@ -170,7 +170,7 @@ To further train your bias-catching muscle, check out [Pamela Fuller's The Leade
 
 ### Resources for onboarding and beyond
 
-- [PR Checklist](../onboarding/pr-checklist.md)
+- [PR Checklist](../process/pull-requests.md)
 
 ### Define what success looks like
 
