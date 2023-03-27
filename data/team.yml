@@ -285,7 +285,7 @@ jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Seattle, WA, USA 🇺🇸
   github: justdueck
   email: jonah@sourcegraph.com
@@ -333,7 +333,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Principal Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -542,7 +542,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -695,7 +695,7 @@ aimee_menne:
   pronouns: she/her
   role: VP of Technical Success
   reports_to: ceo
-  manager_role_slug: vp_customer_engineering
+  manager_role_slug: vp_technical_success
   location: Denver, CO USA 🇺🇸
   github: amenne
   email: aimee@sourcegraph.com
@@ -846,7 +846,7 @@ bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
   role: Manager, Technical Advisory
-  reports_to: vp_customer_engineering
+  reports_to: vp_technical_success
   manager_role_slug: manager_technical_advisory
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
@@ -938,7 +938,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: manager_customer_engineering_emea
+  reports_to: rd_ce_emea
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -999,7 +999,7 @@ andrew_hsu:
   name: Andrew Hsu
   pronouns: he/him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Los Angeles, California, United States 🇺🇸
   github: superhsu
   email: andrew.hsu@sourcegraph.com
@@ -1095,7 +1095,7 @@ simon_waterer:
   name: Simon Waterer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: manager_customer_engineering_emea
+  reports_to: rd_ce_emea
   location: London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   github: simoncwaterer
   email: simon.waterer@sourcegraph.com
@@ -1161,7 +1161,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Whitefish, MT
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -1173,7 +1173,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -1253,7 +1253,7 @@ isuru_fonseka:
   name: Isuru Fonseka
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   location: Sydney, Australia 🇦🇺
   github: Isuru-F
   email: isuru.fonseka@sourcegraph.com
@@ -1352,7 +1352,7 @@ desene_sterling:
 shawntee_harris:
   name: Shawnteé Harris
   email: shawntee.harris@sourcegraph.com
-  reports_to: vp_customer_engineering
+  reports_to: vp_technical_success
   github: shawnteeharris
   pronouns: she/her
   role: Program Manager
@@ -1414,7 +1414,7 @@ andrew_norrish:
   github: anorrish
   pronouns: he/him
   role: Senior Implementation Project Manager
-  reports_to: vp_customer_engineering
+  reports_to: vp_technical_success
   location: Denver, CO, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
   description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
@@ -1776,8 +1776,8 @@ gronk:
   github: gronk-sg
   pronouns: he/him
   role: Manager, Enterprise EMEA
-  manager_role_slug: manager_customer_engineering_emea
-  reports_to: vp_customer_engineering
+  manager_role_slug: rd_ce_emea
+  reports_to: vp_technical_success
   location: Hamburg, Germany 🇩🇪
   description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
 
@@ -1819,7 +1819,7 @@ chris_concannon:
   pronouns: he/him/his
   location: San Francisco, CA, USA 🇺🇸
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: rd_ce_us_apj
   email: chris.concannon@sourcegraph.com
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
@@ -1887,7 +1887,7 @@ sam_johns:
   name: Sam Johns
   email: sam.johns@sourcegraph.com
   role: Senior Implementation Engineer
-  reports_to: vp_customer_engineering
+  reports_to: vp_technical_success
   location: Arlington, VA, USA 🇺🇸
   github: scjohns
   links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
@@ -1964,7 +1964,7 @@ louis_jarvis:
   github: loujar
   pronouns: he/him
   role: Implementation Lead
-  reports_to: vp_customer_engineering
+  reports_to: vp_technical_success
   location: Wailuku, HI, USA 🇺🇸
   description: Louis loves working with companies to help them realize the greatest business value out of the software solutions they adopt. When not in front of a computer, Louis likes to spend his free time out on the water surfing, kiteboarding, or wing foiling.
 
@@ -2007,7 +2007,7 @@ enrique_gonzalez:
   github: enriquegh
   pronouns: he/him
   role: Senior Manager, Customer Support
-  reports_to: vp_customer_engineering
+  reports_to: vp_technical_success
   location: Berkeley, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/enriquegh4/)'
   description: Enrique is originally from Mexico but has been in the Bay Area for more than 10 years. He loves solving technical problems and has a passion for teaching and mentoring other technical professionals. He enjoys playing video games, playing with his dog Bennie and cooking Mexican food.
@@ -2103,3 +2103,15 @@ erika_rice_scherpelz:
   links: '[The FLUX Review](https://read.fluxcollective.org/), [LinkedIn](https://www.linkedin.com/in/erikars)'
   manager_role_slug: search_lead
   description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'
+
+nikki_golding:
+  name: Nikki Golding
+  email: Nikki.Golding@sourcegraph.com
+  github: NikkiGolding
+  pronouns: she/her
+  role: Regional Director, Customer Engineering
+  reports_to: vp_technical_success
+  manager_role_slug: rd_ce_us_apj
+  location: Ponte Vedra Beach,Fl USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/nikki-golding/)'
+  description: Nikki loves all things outdoors, is a self-proclaimed music nerd,  has the best mut named Humphrey, two amazing kiddos who challenge her on the daily and one day hopes to be a Dive Master and prof Yogi.  
