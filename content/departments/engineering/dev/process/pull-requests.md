@@ -103,8 +103,8 @@ As a stamper, you should:
 1. Review the PR to your usual standards, even if it's a request for a "quick stamp."
 2. Feel free to approve trivial changes, like fixing typos, documentation updates, or reverts.
 3. Use your judgment to determine if you have enough context and confidence to approve the PR. If you lack context or do not feel confident, practice caution and either:
-    - a.) Wait for someone more knowledgeable in the specific area to review the PR, or
-    - b.) Inform the requester that you cannot stamp the PR right away and that you can review it thoroughly when there's time.
+   - a.) Wait for someone more knowledgeable in the specific area to review the PR, or
+   - b.) Inform the requester that you cannot stamp the PR right away and that you can review it thoroughly when there's time.
 
 Remember, no one should ever blindly approve a PR. It is always up to the reviewer to maintain their review standards and ensure the changes are appropriate.
 
