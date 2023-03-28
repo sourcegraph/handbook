@@ -203,4 +203,4 @@ For Okta help, setup, and integration questions: #ask-it-tech-ops Slack channel 
 
 ## I have setup my MFA in AWS but I am still getting errors on aws cli
 
-Please follow these instructions: [AWS CLI MFA setup](../../../security/knowledge-base/aws-cli-mfa.md)
+Please follow these instructions: [AWS CLI MFA setup](../../../security/knowledge-base/AWS-CLI-MFA.md)
