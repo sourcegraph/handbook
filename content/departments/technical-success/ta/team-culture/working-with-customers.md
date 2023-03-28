@@ -97,7 +97,7 @@ Account-level characteristics that trigger elevation to a Red Account, include b
 
 An account may trigger for the Red Accounts program manually or programmatically based on attributes about the account. A TA or AE may elevate an account to the Red Account program at anytime by updating the `ACCOUNT - RED ACCOUNT?` field in Vitally to true.
 
-For any customer that is tagged as a Red Account, a notification will be posted in #red-accounts via the Vitally integration. The account TA, in close partnership with the AE, will initiate a thread on the post in the #red-accounts channel providing relevant information about the current state of the account, needs, and the intended action plan. Any asks or needs against the intended action plan should be initiated via a thread on the slack post to allow for visibility and transparency. 
+For any customer that is tagged as a Red Account, a notification will be posted in #red-accounts via the Vitally integration. The account TA, in close partnership with the AE, will initiate a thread on the post in the #red-accounts channel providing relevant information about the current state of the account, needs, and the intended action plan. Any asks or needs against the intended action plan should be initiated via a thread on the slack post to allow for visibility and transparency.
 
 Based on the needs of the situation, Technical Success and Sales leadership will review the request and the account team will align on the action plan forward.
 
