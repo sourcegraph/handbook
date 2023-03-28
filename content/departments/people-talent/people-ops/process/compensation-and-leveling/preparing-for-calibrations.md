@@ -145,7 +145,7 @@ _Note: If Managers are unable to align, the VP of the division is responsible fo
 
 ### Part 4: Discuss promotion nominations
 
-- Following calibration discussions, we will review promotion nominations. Managers with promotion nominations will be asked to submit a completed [promotion nomination form](https://docs.google.com/document/d/1veg7-O23st6ValEZzR3iEoZUZ6vYWfxpvicV_3GxUbI/edit#) to their People Partner prior to the meeting, which will be shared with meeting attendees.
+- Following calibration discussions, we will review promotion nominations. Managers with promotion nominations will be asked to submit the promotion recommendation in Lattice. Please ensure the Impact Review packet and notes are submitted and provide detailed examples that support the promotion recommendation, as these will be shared with calibration attendees.
 - During the calibration session, Managers will be asked to:
   1. Confirm they would still like to proceed with the promotion conversation, based on earlier performance/values calibration
   2. For individuals whose promotions we will move forward with, we will ask the group to **raise concerns** about promoting that individual
