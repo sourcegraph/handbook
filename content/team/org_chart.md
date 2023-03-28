@@ -18,7 +18,7 @@ Our Engineering department includes design, product management, and development.
 
 ## [Technical Success](../departments/technical-success/index.md#current-team-members)
 
-{{generator:reporting_structure.vp_customer_engineering}}
+{{generator:reporting_structure.vp_technical_success}}
 
 ## [Marketing](../departments/marketing/index.md)
 
