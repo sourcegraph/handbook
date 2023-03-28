@@ -198,7 +198,7 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Skill: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
   - Values: exceeds in many, exhibits all, deficient in none.
   - Expected distribution: ~20% of Teammates will fall in the **“Exceeding High Bar”** (high performance) category.
-  - Recommended merit increase: 7.5-10%
+  - Recommended merit increase: 5.5-10%
   - Merit increase frequency: Teammates rated as “Exceeding High Bar” are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
 - **Meeting High Bar**
   - Score: 2:2
