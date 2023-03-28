@@ -74,7 +74,7 @@ As the team accountable for our customers' technical success, including consumpt
 
 A customer may become a Red Account based on events or account-level characteristics that elevate it to a concerning state.
 
-Events within the company that trigger elevation to a Red Account:
+Events within the company that trigger elevation to a Red Account, include but aren't limited to:
 
 - Macro
   - Massive Layoffs (manually tracked)
@@ -83,7 +83,7 @@ Events within the company that trigger elevation to a Red Account:
 - Major Acquisition (manually tracked)
 - Migration to GitHub (specifically, GitHub Cloud) (manually tracked)
 
-Account-level characteristics that trigger elevation to a Red Account:
+Account-level characteristics that trigger elevation to a Red Account, include but aren't limited to:
 
 - Customer fails to deploy their Production Infrastructure within 60 days of contract signature (automatically tracked)
 - Health Score at or below 5 (automatically tracked)
@@ -97,7 +97,9 @@ Account-level characteristics that trigger elevation to a Red Account:
 
 An account may trigger for the Red Accounts program manually or programmatically based on attributes about the account. A TA or AE may elevate an account to the Red Account program at anytime by updating the `ACCOUNT - RED ACCOUNT?` field in Vitally to true.
 
-For any customer that is tagged as a Red Account, a notification will be posted in #red-accounts via the Vitally integration. The account TA, in close partnership with the AE, will initiate a thread on the post in the #red-accounts channel providing relevant information about the current state of the account, needs, and the intended action plan. Any asks or needs against the intended action plan should be initiated via a thread on the slack post to allow for visibility and transparency. Technical Success and Sales leadership will review the request and the account team will align on the action plan forward.
+For any customer that is tagged as a Red Account, a notification will be posted in #red-accounts via the Vitally integration. The account TA, in close partnership with the AE, will initiate a thread on the post in the #red-accounts channel providing relevant information about the current state of the account, needs, and the intended action plan. Any asks or needs against the intended action plan should be initiated via a thread on the slack post to allow for visibility and transparency. 
+
+Based on the needs of the situation, Technical Success and Sales leadership will review the request and the account team will align on the action plan forward.
 
 ### Roles and Responsibilities
 
@@ -106,6 +108,8 @@ The TA will monitor the overall account and where applicable update the Vitally 
 Should either an AE or TA feel that an account which isn't automatically categorized as red, is in fact red for any reason, they should align and the TA should update the Vitally account record.
 
 Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
+
+If and where Engineering work is required, an Engineering Technical Project Manager (TPM) will manage the action plan and coordinate resources.
 
 ## Customer Health
 
