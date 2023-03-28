@@ -1,5 +1,7 @@
 # Acceptable Use Policy
 
+Effective from: 1st April 2023
+
 ## Purpose
 
 The purpose of this policy is to define the acceptable use of Sourcegraph’s Information Technology (IT) resources.
