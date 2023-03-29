@@ -62,7 +62,7 @@ Below is a list of long-lived internal instances:
 
 - [clouddev.sourcegraph.com](https://clouddev.sourcegraph.com)
 - [sourcegraph.sourcegraph.com](https://sourcegraph.sourcegraph.com)
-- [~demo.sourcegraph.com~](https://demo.sourcegraph.com) (we will migrate `demo` to v2 soon)
+- [demo.sourcegraph.com](https://demo.sourcegraph.com)
 
 Internal instances are created for various testing purposes:
 
