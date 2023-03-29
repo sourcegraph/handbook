@@ -49,23 +49,23 @@ export AWS_SESSION_TOKEN=$(echo $aws_session_token | jq .Credentials.SessionToke
 ### For Yubikey MFA
 To setup yubikey as your MFA, you will have to also configure your yubikey as a virtual MFA device in AWS
 
- - Download and install the Yubico Authenticator app on your computer or mobile device from the official Yubico website: https://www.yubico.com/products/services-software/download/yubico-authenticator/
+ 1. Download and install the Yubico Authenticator app on your computer or mobile device from the official Yubico website: https://www.yubico.com/products/services-software/download/yubico-authenticator/
 
- - Open the Yubico Authenticator app and insert your YubiKey into your computer or connect it to your mobile device.
+ 2. Open the Yubico Authenticator app and insert your YubiKey into your computer or connect it to your mobile device.
 
- - In the AWS Management Console, go to the IAM service and navigate to the "Security credentials" tab of the user you want to enable MFA for.
+ 3. In the AWS Management Console, go to the IAM service and navigate to the "Security credentials" tab of the user you want to enable MFA for.
 
- - Click on "Manage" in the "Assigned MFA device" section.
+ 4. Click on "Manage" in the "Assigned MFA device" section.
 
- - Select "Virtual MFA device" and click on "Next".
+ 5. Select "Virtual MFA device" and click on "Next".
 
- - When prompted to "Scan the QR code", click on "Show secret key for manual configuration" instead.
+ 6. When prompted to "Scan the QR code", click on "Show secret key for manual configuration" instead.
 
- - Copy the secret key.
+ 7. Copy the secret key.
 
- - In Yubico Authenticator, click on the "+" button to add a new credential.
+ 8. In Yubico Authenticator, click on the "+" button to add a new credential.
 
- - Enter the following details:
+ 9. Enter the following details:
 
       - Issuer: AWS or any other name to help you identify the account.
       - Account name: Your AWS IAM username or any other identifier.
