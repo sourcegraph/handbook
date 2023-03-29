@@ -704,3 +704,43 @@ This likely means our admin user account was deleted. To verify
 - run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
 - if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
 - login should now work correctly
+
+### FAQ: Trigger a resync of repositories
+
+If you need to trigger a resync of repositories, you can do so by running the following command:
+
+```shell
+src api -query='query ExternalServices($first: Int, $after: String) {
+  externalServices(first: $first, after: $after) {
+    nodes {
+      ...ListExternalServiceFields
+      __typename
+    }
+    totalCount
+    pageInfo {
+      endCursor
+      hasNextPage
+      __typename
+    }
+    __typename
+  }
+}
+
+fragment ListExternalServiceFields on ExternalService {
+  id
+  kind
+  displayName
+  __typename
+}'
+```
+
+Then you can use the `id` of the external service to trigger a resync:
+
+```shell
+src api -query='mutation SyncExternalService($id: ID!) {
+  syncExternalService(id: $id) {
+    alwaysNil
+    __typename
+  }
+}' -vars '{"id":"<EXTERNAL_SERVICE_ID>"}'
+```
