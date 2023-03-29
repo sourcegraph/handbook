@@ -10,7 +10,7 @@ Looker is a business intelligence tool used for standard enterprise reporting an
 
 **March 2022 update**
 
-Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#)for more details about these changes and how to navigate the new project. 
+Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#)for more details about these changes and how to navigate the new project.
 
 #### **What data can I find in Looker?**
 
@@ -24,12 +24,13 @@ Looker is essentially the frontend interface for our BigQuery data warehouse. Th
 - Outreach.io
 - Hubspot
 
-To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks related to a specific team or initative. We've curated these boards to make it easy for you to browse content for the teams/iniatives you're interested in. 
+To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks related to a specific team or initative. We've curated these boards to make it easy for you to browse content for the teams/iniatives you're interested in.
 
-A few of these boards are listed below, but our boards are evolving every day, so we recommend browsing our boards in Looker directly. You can do this by going to your looker homepage (from wherever you are in looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select  “Browse all boards” 
+A few of these boards are listed below, but our boards are evolving every day, so we recommend browsing our boards in Looker directly. You can do this by going to your looker homepage (from wherever you are in looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select “Browse all boards”
 
 **Team boards**
-- [AE/CE team board](https://sourcegraph.looker.com/boards/49): This board contains a variety of dashboards and looks that might be relevant to AEs and CEs, mostly pertaining to customer/prospect product usage (daily active users, batch changes activity, support tickets, etc) 
+
+- [AE/CE team board](https://sourcegraph.looker.com/boards/49): This board contains a variety of dashboards and looks that might be relevant to AEs and CEs, mostly pertaining to customer/prospect product usage (daily active users, batch changes activity, support tickets, etc)
 - [SDR team board](https://sourcegraph.looker.com/boards/57):This board contains dashboards that are relevant to SDRs / anyone doing prospecting, such as a dashboard that enables you to see if any target accounts have existing sourcegraph instances
 - [Technical advisor team board](https://sourcegraph.looker.com/boards/50):The board contains content that TAs will find particularly useful, such as detailed information about product usage on customer instances, customer support tickets, seat consumption data, etc.
 - [Customer support team board](https://sourcegraph.looker.com/boards/54): This board contains dashboards that might be helpful for debugging customer issues. It contains data about deployment types, code hosts, dependency versions, etc
@@ -38,22 +39,21 @@ A few of these boards are listed below, but our boards are evolving every day, s
 
 We don't have boards for every team yet, but we're working on it!
 
-
 **Initiative boards**
+
 - [Product-led growth board](https://sourcegraph.looker.com/boards/52): Contains data on PLG efforts, such as Sourcegraph App KPIs
 - [Instance configuration board](https://sourcegraph.looker.com/boards/56): Contains data on things like instance deployment methods, postrges dependency versions, customer telemetry status, etc. We recommend engineers subscribe to this board
-- [Sourcegraph.com traffic analytics board](https://sourcegraph.looker.com/boards/55): Contains web traffic data for sourcegraph websites (ex pageviews,sessions, clicks, etc) 
+- [Sourcegraph.com traffic analytics board](https://sourcegraph.looker.com/boards/55): Contains web traffic data for sourcegraph websites (ex pageviews,sessions, clicks, etc)
 - [Company-wide metrics board](https://sourcegraph.looker.com/boards/58): This board contains data for company metrics that are top-of-mind, such as DAUs, DAU/MAU ratio, seat consumption ratio, and how many customers are on the most recent version. We recommend everyone add this board! You never know, what you learn may come in handy during Sourcegraph trivia at Merge :)
-
-
 
 #### **How often is data in Looker updated?**
 
 It depends on the dataset, but most of our data pipelines/transformations run anywhere from once a day to once an hour. So you should always be seeing near real-time data in Looker. However, we do have a few datasets (specifically customer telemetry status, and linking a customer to their instance identifiers) that are currently updated manually, and therefore a bit less frequently.
 
 If you suspect you're looking at stale data on a dashboard or look, be sure to:
+
 - Check the filters: most of our charts are filtered by date, often with filters such as "the last complete week" or "the last complete day." If the data you're seeing is not filtered to the timeframe you need, you may have to adjust the filters.
-- Clear the cache: Sometimes looker will cache the results of a query to avoid querying the database multiple times. If you think you're seeing stale data on a dashboard, select the gear button in the top right corner and choose "clear cache and refresh" from the drop-down menu options. 
+- Clear the cache: Sometimes looker will cache the results of a query to avoid querying the database multiple times. If you think you're seeing stale data on a dashboard, select the gear button in the top right corner and choose "clear cache and refresh" from the drop-down menu options.
 
 ### **How to use Looker**
 
@@ -80,14 +80,11 @@ Looker also puts out guides and training videos that may be useful if you're loo
 
 - Almost all of our Looker content is filterable by `Account name`, `installer email`, and (where relevant) `Date`. To find a customer instance, we recommend filtering by account name. However, to find a propsect's instance or an instance belonging to a free user, you should filter using the installer_email. If you don't a prospect's installer_email, you can look it up in salesforce (Account > Instance > unique_server_id). This is because we don't currently automatically associate all instances to a salesforce account automatically (this functionality is coming soon)
 - Most of our dashboards/looks filter to `Account type = Customer` by default. To search for a prospect or free instance, change the filter to `Account type = Free`
-- To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks. You can subscribe to boards by going to your looker homepage (from wherever you are in looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select  “Browse all boards” 
-- Many (though not all) dashboards offer the ability to "drill-down" into data points by clicking on values. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453), you can click any data point in the top chart to see a full list of the data that comprises the data point. 
+- To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks. You can subscribe to boards by going to your looker homepage (from wherever you are in looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select “Browse all boards”
+- Many (though not all) dashboards offer the ability to "drill-down" into data points by clicking on values. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453), you can click any data point in the top chart to see a full list of the data that comprises the data point.
 - Many dashboards and charts offer the ability to navigate to other dashboards by clicking on an `Account name`/`installer_email`. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453) you can click on any account name in the last chart and then select "Single-Instance Overview" from the drop-down menu to navigate to a dashboard that will give you more detailed usage data for that account
 - Keep track of the content you like by "favoriting" it! You can favorite content by clicking the "heart" icon next to the name of any dashboard or look. View favorited content by clicking "Favorites" in the left-hand menu
--  
-
-
-
+-
 
 ### **Notable reports**
 
@@ -134,7 +131,6 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 - [Search - all customers](https://sourcegraph.looker.com/dashboards/424?Account%20Type=Customer&%20Date=90%20day&Account%20name=&Installer%20email=)
 - [Search - single customer](https://sourcegraph.looker.com/dashboards/423?Account%20name=Databricks&Installer%20email=&%20Date=90%20day&Account%20Type=)
 - [App Performance KPIs](https://sourcegraph.looker.com/dashboards/440)
-
 
 **Related useful links**
 
