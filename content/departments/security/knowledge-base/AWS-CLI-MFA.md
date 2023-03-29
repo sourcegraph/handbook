@@ -1,9 +1,9 @@
-## Permission error using AWS CLI
+## If you get permission errors using AWS CLI
 
 If you are seeing permission errors while using aws cli and it worked for you in the past:
 
-1. please ensure your access credentials are setup properly
-2. you have MFA enabled in the aws console
+1. Please ensure your access credentials are setup properly
+2. You have MFA enabled in the aws console
 
 If you have done the above steps and you still see errors, you will need to generate session token to work with awscli
 
@@ -47,7 +47,8 @@ export AWS_SESSION_TOKEN=$(echo $aws_session_token | jq .Credentials.SessionToke
 ```
 
 ### For Yubikey MFA
-To setup yubikey as your MFA, you will have to also configure your yubikey as a virtual MFA device in AWS
+
+To setup yubikey as your MFA for cli session token, you will have to also configure your yubikey as a virtual MFA device in AWS
 
  1. Download and install the Yubico Authenticator app on your computer or mobile device from the official Yubico website: https://www.yubico.com/products/services-software/download/yubico-authenticator/
 
