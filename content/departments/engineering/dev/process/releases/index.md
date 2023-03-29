@@ -24,14 +24,14 @@ These releases **may** require [manual migration steps](https://docs.sourcegraph
 
 #### Current patch schedule
 
-| Patch date |
-| ------- |
-| April 5, 2023 |
-| April 19, 2023  |
-| May 3, 2023 |
-| May 17, 2023 |
-| May 31, 2023 |
-| June 14, 2023 |
+| Patch date     |
+| -------------- |
+| April 5, 2023  |
+| April 19, 2023 |
+| May 3, 2023    |
+| May 17, 2023   |
+| May 31, 2023   |
+| June 14, 2023  |
 
 Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
