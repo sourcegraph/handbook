@@ -79,7 +79,7 @@ Depending on the nature of your departure, you may be asked to create a transiti
 
 In order to deepen our understanding of Teammates’ experience at Sourcegraph and reasons for leaving, the People Team will conduct an exit interview for all Teammates who leave Sourcegraph voluntarily. Any information gathered during the exit interview process is confidential, and a Teammate’s responses will never be shared outside the People Team.
 
-Participating in an exit interview is not mandatory; however, , we strongly encourage exiting Teammates to provide honest, actionable feedback for us so we can learn and improve.
+Participating in an exit interview is not mandatory; however, we strongly encourage exiting Teammates to provide honest, actionable feedback for us so we can learn and improve.
 
 The exit interview is broken into two steps:
 
@@ -88,13 +88,13 @@ The exit interview is broken into two steps:
 
 ## **FAQ for Departing Teammates**
 
-#### Q. When will I receive my last paycheck for time worked?
+#### When will I receive my last paycheck for time worked?
 
 - **US Teammates:** You will receive your last paycheck on your separation date, provided that Sourcegraph has sufficient notice to process the payment. Otherwise, you will receive your final pay as soon as feasible, in accordance with applicable laws.
 - **Contractors:** Please submit an invoice as usual covering time worked through your last day of work.
 - **PEO Teammates:** You should check with your PEO company on the timing of your final pay.
 
-#### Q: When will I receive my outstanding commission?
+#### When will I receive my outstanding commission?
 
 - Any commissions will be processed with our usual pay cycle, or otherwise as required by applicable law.
 
@@ -113,6 +113,10 @@ The exit interview is broken into two steps:
 #### Do I need to return my equipment?
 
 - [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate. Please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
+
+#### What should I do if I am an Airbase cardholder?
+
+- Make sure any recurring subscriptions are cancelled. Your Airbase card will be deactivated on your last day and you can destroy it.
 
 #### How do I submit my final expenses?
 
