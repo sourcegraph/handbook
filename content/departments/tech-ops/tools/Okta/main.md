@@ -200,3 +200,7 @@ If you are having problems with being asked for multiple MFA authentications dur
 ## Where do I go if I have any questions?
 
 For Okta help, setup, and integration questions: #ask-it-tech-ops Slack channel or <techops@sourcegraph.com>
+
+## I have setup my MFA in AWS but I am still getting errors on aws cli
+
+Please follow these instructions: [AWS CLI MFA setup](../../../security/knowledge-base/AWS-CLI-MFA.md)
