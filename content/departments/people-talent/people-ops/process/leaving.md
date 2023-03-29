@@ -116,7 +116,7 @@ The exit interview is broken into two steps:
 
 #### What should I do if I am an Airbase cardholder?
 
-- Make sure any recurring subscriptions are cancelled. Your Airbase card will be deactivated on your last day and you can destroy it. 
+- Make sure any recurring subscriptions are cancelled. Your Airbase card will be deactivated on your last day and you can destroy it.
 
 #### How do I submit my final expenses?
 
