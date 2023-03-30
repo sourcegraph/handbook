@@ -2,137 +2,166 @@
 
 ## Pre onboarding
 
+This process occurs prior to a new teammate’s first day, as we set them up for joining Sourcegraph.
+
 ### After accepting the offer
 
 Once someone accepts the offer and signs the contract, the Talent team marks them as hired. This creates the profile in BambooHR and sends a **Greenhouse summary email** to onboarding@sourcegraph.com
 
 This email contains all relevant information that we need to complete the person's [BambooHR profile](bamboohr.md#how-to-create-a-profile) and fill the Teammate tracking sheet.
 
-**Teammate Tracking Spreadsheet**
+**Step 1: Teammate Tracking Spreadsheet**
 
-In order to make sure we are using the correct and most updated data we use the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311). Even though the source of truth is _always_ BambooHR, it is an easy way to keep track on what we have and are missing. Once we receive the Greenhouse summary email, we need to addd a line for the person joining with the information needed.
+- In order to make sure we are using the correct and most updated data we use the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311). Even though the source of truth is _always_ BambooHR, it is an easy way to keep track on what we have and are missing. Once we receive the Greenhouse summary email, we need to add a line for the person joining with the information needed.
 
-The second tab in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311) contains the responses to the [pre onboarding form](https://forms.gle/V7HyGf2WUdQNvzXd9) sent to teammates on the **Welcome email**. We use the information in that form for Payroll purposes, tool setup and more.
+**Step 2: Upload signed document to the contracts folder**
 
-**Welcome email**
-
-After marking someone as hired, the Talent team sends a Welcome email to the new teammate with onboarding@sourcegraph and the manager in CC.
-
-The Onboarding team responds to that thread, see the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#). These two emails ask teammates to complete certain tasks that they have to do before their start date. You can see the [Before start date handbook page](../../../../company-info-and-process/working-at-sourcegraph/before-start.md).
-
-### Setting everything on the backend
-
-- [Working with other teams](working-with-other-teams.md)
-
-There are some tasks we cannot complete until the person's email has been created. This happens automatically through the Okta/BambooHR integration 5 days (the Wednesday) before someone starts. The integration runs daily, so if someone is added to BambooHR after that, the user will still be created. We can also manually run the integration if needed. You should contact Tech Ops for this.
-
-#### Before email creation
-
-**BambooHR**
-
+**Step 3: Complete BambooHR Profile**
 Make sure the person's profile exists and is complete. See the [BambooHR profile section](bamboohr.md#how-to-create-a-profile).
 
 The two most important fields are the "Work email" and the "Timezone TZ". Via the Okta integration, the email will be created using the value written in the "Work email" field (make sure to follow preferredname.preferredsurname@sourcegraph.com convention); and Okta access will be sent to the new hire considering their timezone.
 
-**Onboarding Checklist**
+On the personal tab, complete only these fields:
 
-A week before someones start date, make sure to run their checklist. We use Process St as our onboarding tool. Go to our [Internal Process St hanbook page](process-st.md) to see how to run a checklist and complete them.
+- Name: Make sure the full legal name is in BambooHR
+- Timezone TZ: Select the teammate’s timezone. This is one of the most important fields to complete because Okta activation for new teammates is scheduled based on this Timezone field.
+- Region: Select the teammate’s region
+- Work Email: Completed by People team later in the onboarding process. Leave blank for now.
+- Personal email: Integrated via Greenhouse. If not, manually entered by People team
 
-The checklist is integrated with Slack and it notifies the Tech Ops team in the #onboarding-internal channel when a checklist is run. The main reason we create them the week before someone starts is because it is enough time for all internal teams to set everything up.
+On the job tab, complete only these fields
 
-Keep in mind that the person's email won't exist yet, but we can add it to the checklist all the same, as we already know the format.
+- Hire Date: This information is automatically assigned based on the information listed in Greenhouse. Verify that it is correct.
+- People Manager: Select Yes/No, then click Save Changes.
+- People Partner: Select the appropriate People Partner using this as a guide.
+- Employee Status:
+  - Effective date: Same as start date
+  - Employee Status: Each teammates should be one of either:
+  - Comment: Initial data load into Bamboo
+- Compensation:
+  - Effective date: Same as start date
+  - Pay Schedule: Monthly for Non US teammates or Twice Monthly for US teammates
+  - Pay Type: This field is linked to Lattice, so it’s important to give the right type
+  - Pay Rate
+  - Overtime Status: Exempt for all teammates and Non-Exempt for Interns, Temporary & Part time contractors. Make sure to add the correct cost of extra hours.
+  - Change reason: Initial data load into Bamboo
+  - Comment: Add insight
+  - Compensation Category and Level: Confirm with Talent if you don’t know.
+  - Radford Job Code: This can be found in the Offer Details in Greenhouse
+    Note: The offer details is the source of truth, not the job details
+- Job Information:
+  - Effective date: Same as start date
+  - Location: Remote
+  - Division: The division is listed in Greenhouse. Check with the recruiter if it’s missing.Flag to tech ops if you create a new Division
+  - Department
+  - Job Title
+  - Reports to
+  - Cost Center: we use this field to sync with our financial systems through Okta.
+- Options
+  - Status: Proposed, Not Yet Granted
+  - Number of options
+  - Vesting Date: Same as start date
+  - Equity Notes: ‘New Hire Grant’
+- Commission (only fill this out if applicable)
+  - Commission date: same as start date
+  - Commission amount: in USD
+  - Paid per: Year
+  - Commission Pay Type: Commission
+  - Pay Schedule: Monthly
+  - Overtime Status: Exempt
+  - Commision Change Reason: Initial data load into Bamboo
+  - Comments: Initial data load into Bamboo
+- Bonus (only fill this out if applicable- when needed, complete all fields.)
 
-**Payroll**
+If the new teammate will be a people manager, confirm with the HM who the new teammate’s direct reports will be, and update their BambooHR profiles accordingly
 
-As a next step, a week before their start date, we send Payroll an email with all US teammates starting, see the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#).
+- Click ‘+Update Job Information’, select the new managers’ start date, enter the new managers’ name in, leave all other fields as-is, click ‘Save’.
 
-All other teammates get access to Deel (if applicable) and Airbase via Okta.
+**Step 4: Send BambooHR Onboarding Kit**
 
-**Hiring Managers**
+1. Open the new teammate’s BambooHR Profile, select the ‘More’ tab, then select ‘Onboarding’.
+2. Click the ‘Create New Hire Packet’ button, then select the appropriate template (based on the new teammate’s location - US or non-US). The information should auto-populate and the Location field should be the only one left blank, since we’re remote.
+3. Import the onboarding kit tasks: ordering swag, submitting your new hire video and photo for avatar, completing your background check, and filling out your BambooHR profile
+4. Select ‘Preview and send’, review the information and select ‘Continue’ through the packet. When ready, click ‘Send New Hire Packet’.
 
-Managers should work with Tech Ops so that new hires have the necessary tools by day one. Once we assign them the onboarding checklist, they should inform the Onboarding team of any changes they'd like to make. Note that the week prior to start date we can only make minor tweaks, big changes should be asked for in advance.
+**Step 5: Create Avatar**
 
-**Onboarding Buddy and Mentor**
+After the offer letter is signed, new hires will email a photo to people-ops@sourcegraph.com. We turn that photo into their avatar and add the original photo + avatar photo to [this avatar folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA).
 
-Hiring managers should tell the onboarding team who the teammate's [buddy](../../../../company-info-and-process/onboarding/buddy-program.md) and [mentor](../../../../company-info-and-process/onboarding/onboarding-mentor.md) (for relevant teams) are. We must complete the onboarding checklist with the correct names so they populate for the new teammate.
+**Step 6: Run Process St. onboarding checklists**
+Both the Universal Workflow and Department Specific Workflow need to be run.
+(PROCESS COMING SOON)
 
-**Avatar**
+**Step 7: Complete the Teammate's information 👤**
 
-Before someone starts, we use the image provided by them [here](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit#gid=1270378260) to create an avatar. For each person, we create a folder in the [Automated Avatars folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA) called "YYYY-MM _Preferred Name+Surname_ Avatar" that contains the original image and three versions of the avatar. You can follow the instructions [here to create an avatar](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit).
+This must be done on both the Universal and Department Specific Workflow.
+Once this section has been marked ‘Complete’, two automated slack messages will be sent
 
-Teammates are encouraged to create a new one or change the background color themselves if they want to.
+If the teammate will be located in the US, the Payroll Communication task will be visible. Under Payroll Communication, ensure the teammate’s name, start date, and work email are correct, then click Click on Complete Task.
 
-**Swag**
+**Step 8: Begin the _People Ops - before day 1_ section of the onboarding checklist**
+Complete all tasks that are marked as ‘prior to the teammate's work email being created’ and mark them as ‘Complete’ in Process St.
 
-We use Printfection for onboarding swag. You can read more about how we order [swag here](internal-swag.md).
+**Step 9: Confirm Manager completed the Process St tasks assigned to them**
 
-We send a link to teammates in the Welcome email thread, that allows them to order the type of swag they want (unisex or form-fitted) and put the address they want for shipping. You can see the email in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#).
+The People Ops team will check Process Street on the Thursday before each cohort start date to confirm if Hiring Managers have completed their onboarding tasks. If the information is not complete, People Ops will slack each manager directly to remind them to complete the information ASAP so their new hire will be ready for their first day.
 
-#### After email creation
+### Once Sourcegraph email is created
 
-Once the email is created, there are several things we need to do.
+The rest of the onboarding tasks can only be completed after the person's work email has been created. This happens automatically through the Okta/BambooHR integration 5 days (the Wednesday) before someone starts. The integration runs daily, so if someone is added to BambooHR after that, the user will still be created. We can also manually run the integration if needed. You should contact Tech Ops for this.
 
-**Notify the company**
+**Step 10: Notify the company**
+Send a message to #announce-new-teammates letting everyone know that a new teammate is joining and that their emails are now live. The sooner we do this the better. Combine this message for any other teammates in the same onboarding cohort.
 
-We send a message to #teammate-announce letting everyone know that new teammate are joining and that their emails are now live. The sooner we do this the better. Here is a template message:
+**Step 11: Add to relevant calendar meetings**
+Here are the events we must manually invite the new teammate to
 
-        Hello everyone! :tada:
-        New teammates are starting next week and their emails are now live:
+- 1 Month Check In - 15 min meeting with Kemper on each new teammate’s 1 month mark
+- Meet the Founders (just once)
+- Meet the People Team (just once)
+- Meet & Greet (just once)
 
-        Role/Title
-        - Teammate's preferred name + surname - teammate's email
+Tech Ops will add each new hire to Google Groups, which will automatically add them to other company and team specific events.
 
-        Tag the manager
+**Step 12: Schedule the First Day Prep email**
+The Friday before a new hire’s start date, we send an email in the Welcome email thread started by the recruiter when they were hired. You can see the email template in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#).
 
-**Hiring Manager**
+**Step 13: Schedule the 3 month Onboarding Survey slack message**
+Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role. [Here](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit) is the survey.
 
-Hiring managers should:
+Step 14: Update BambooHR settings
+Open the new teammate’s BambooHR profile, click Settings, hover over ‘BambooHR Access Level’, then select ‘Everyone’. If the teammate is a People Manager, select ‘Managers’
 
-- Create recurring 1:1 with new teammate
-- Add new teammate to any team/role specific meetings and calls
+- Do not do this before the new hire’s email address has been created
+- You need full admin access in BambooHR to complete this step. The People team can grant this access if needed.
 
-**Calendar**
+**Step 15: Assign Compliance training in Continu**
+Create user in Continu. Go to Admin → Users → Add User. Complete all fields except for Language and Level
 
-Because they will be added to Google Groups by Tech Ops, they will be automatically added to company events and team specific ones. We should schedule some events in the new teammate's calendar:
+- Groups: It is important you add teammates to the correct groups. We use groups to create rules that assign courses. One person can be in more than one group, if that’s the case, please include all of them. These are the current groups:
+  - Manager
+  - Individual Contributor
+  - International
+  - People Ops
 
-- Schedule 15min meeting on 1 month mark (with a PeopleOps teammate)
+Automatically assigned trainings:
 
-  - Invite description:
+- The Security Awareness training is assigned to everyone automatically.
+- Preventing Harrassment and Discrimination training is assigned by rules based on location and role. All international teammates go through the “International” training. US teammates will be assigned a training based on role (IC or Manager) and state. Certain states have specific versions of the trainin, so it is important we add teammates to the correct Groups as the rule will check groups and state.
 
-    Hi! I've created this meeting to catch up and talk about how your first month at Sourcegraph went. Feel free to change the time of the meeting.
+**Step 16: Complete the People Ops - before day 1 section of the onboarding checklist**
+Confirm ALL People Ops - before day 1 tasks are marked as complete in Process St.
 
-    Feedback is super important for us. Please take some time before the meeting to think of the highlights and lowlights of your onboarding process.
-    Have a great day!
+**Step 17: ‘Hide rows’ in Teammate Tracking Spreadsheet**
+Now that the tasks are completed, hide the teammate's row in the tracking spreadsheet, but don’t delete it in case we need to reference the data in the future.
 
-- Add all new teammates in cohort to:
-  - the next "Meet the Founders" event - in the Events calendar (just once)
-  - the next "Meet the People Team" event - in the Events calendar (just once)
-  - the next "Meet & Greet" event - in the Events calendar (just once). This event should happen the day after start date (Tuesday)
-- Schedule a 15min i-9 meeting for US teammates on their first or second day.
+### Once the teammate has joined Sourcegraph
 
-**Welcome email**
+**Step 18: I9 and E-verify**
 
-The Friday before someone starts, we send the Friday email in the Welcome email thread started by the recruiter when they were hired. You can see the email in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#). A good practise is to schedule send this email for Friday 6am UTC.
+#### How our teammates use Workbright - US teammates only
 
-**Slack channel**
-
-We create a channel for the cohort. We add all new teammates, the onboarding team and payroll.
-
-- Channel name: new-teammate-cohort-monthday (example: new-teammate-cohort-may12)
-- Channel description: A channel for teammates joining MONTH DAY to get to know each other, ask questions and share experiences :tada:
-- Welcome message: Schedule send the message for Monday morning (7am UTC). - Message: Hi @here! Welcome! :blob-dancer:
-  Please use this channel to connect with other teammates starting today, ask any question you have and even share information.
-  I will be here all week, and then leave this channel for you
-
-## Onboarding
-
-### Form I-9s
-
-All US Teammates must complete an I-9 Verification meeting within their first three days at Sourcegraph. We use [Workbright](https://sourcegraph.workbright.com/) as our remote I-9 and E-verify vendor.
-
-#### How our teammates use Workbright
-
-On your first day at Sourcegraph, you will receive an email from WorkBright that includes all instructions on how to complete your I9 via your mobile phone. Through Workbright, new hires will join a video meeting to fill out the I-9 form in-person alongside an authorized representative.
+On US teammates' first day at Sourcegraph, they will receive an email from WorkBright that includes all instructions on how to complete the I9 via their mobile phone. Through Workbright, new hires will join a video meeting to fill out the I-9 form in-person alongside an authorized representative.
 
 Workbright Tutorial Videos can be found [here](https://workbrightsupport.com/videos/).
 
@@ -151,6 +180,8 @@ Setting Up Users
 7. Insert the teammate’s start date and click ‘Send Notifications Now’
 8. Remote Verification should be toggled ON
 9. Click ‘Finish’
+
+Steps to complete E-verify can be found [here](https://docs.google.com/document/d/1BWouWHj3WAlglyt7ZunnjMlev4XnFzTuVcUoa95LNnc/edit#heading=h.f31huogsqa18)
 
 ## Onboarding Feedback
 
