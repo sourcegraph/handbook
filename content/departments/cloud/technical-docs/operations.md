@@ -1,5 +1,7 @@
 # Managed instances operations
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 > NOTE: For v2 instances, please refer to [v2 operation guide](./v2.0/index.md). Not sure which version a customer is on, [find it](#how-to-locate-a-customer-instance).
 
 Operations guides for [managed instances](./index.md).
