@@ -86,6 +86,8 @@ The following processes only apply to Cloud v2.0:
 
 > NOTE: This is the prereq for all things related to Cloud. Please review this section carefully. If you have questions, please reach out to #cloud and tag `@cloud-support`.
 
+> NOTE: If you're here just to operate S2 (sourcegraph.sourcegraph.com), it is [documented here](go/s2-ops)
+
 Below is the bare minimal prereq before you can work with Cloud instances
 
 - [sourcegraph/cloud]: deployment repo where we persist all Cloud instances config and deployment artifacts
