@@ -287,7 +287,7 @@ Use cases:
 - The customer would like to maintain an IP allowlist to permit traffic to their code hosts
 - The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
 
-Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
+__Outgoing__ traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
 
 There are two groups of IP.
 
@@ -307,6 +307,18 @@ terraform output -json | jq -r '.cloud_nat_ips.value'
 # Executors outgoing IPs
 terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.address == "module.managed_instance.module.executors[0].module.networking.google_compute_address.nat[0]") and (.mode == "managed")) | .values.address'
 ```
+
+### FAQ: Can customers restrict access to their Cloud instances to VPN-only/specific IP adddresses?
+
+Use cases:
+
+- The customer would like to only permit access to the Cloud instance from their VPN
+
+__Incoming__ traffic of Cloud instances first go through our WAF provider, Cloudflare, and we are able to utilize Cloudflare to filter incoming traffic based on the IP list provided by customer.
+
+For #ce teammates, please request a list of IP address of IP ranges (CIDR) from customers and include them in the creation request.
+
+For #cloud teammates, add the IP addresses to the instance `config.yaml`.
 
 ### FAQ: What code-hosts does Cloud support?
 
