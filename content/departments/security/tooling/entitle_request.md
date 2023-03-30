@@ -90,7 +90,8 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 - Just type in “/entitle” into a slack message and you can get started with it.
 
 #### How do I know which project is where?
-- Here is the [project mapping](https://docs.google.com/spreadsheets/d/1Sn7CWAdfUl8nQxFq-o2z8p5m-0fJH8y3NSQq2eUq1ng/edit?usp=sharing). 
+
+- Here is the [project mapping](https://docs.google.com/spreadsheets/d/1Sn7CWAdfUl8nQxFq-o2z8p5m-0fJH8y3NSQq2eUq1ng/edit?usp=sharing).
 
 - Please let Security Team know if there is a project missing that you want included in the mapping
 
