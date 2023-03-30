@@ -34,6 +34,10 @@ Teammates who have completed **4-months tenure** in the given review period are 
 - **2nd review (Q3) eligibility rule**
   - Must be hired on or before April 1st of the current calendar year
 
+To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least 4-months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
+
+Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below.
+
 ### Who provides feedback?
 
 During an Impact Review, you will be asked to give and receive the following reviews.
@@ -222,12 +226,6 @@ We believe in performance-based pay, meaning merit increases (inclusive of cash 
 Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
 More information about our commitment to Pay Transparency and our overall compensation philosophy may be found in our [how we pay at Sourcegraph](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) Handbook page.
-
-### What is our eligibility process for merit increases?
-
-To be eligible for a merit increase, a Teammate must have worked at least 4-months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
-
-Teammates can receive increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar"), but the **expectation is that Teammates receive a comp review 1x per year** if they are scores "Meeting High Bar" or above.
 
 ### How do we determine merit increases?
 
