@@ -74,7 +74,7 @@ Results from the semi-annual impact review process support the growth and develo
 - **Phase 3: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
   - All Teams: 2023-04-03 to 2023-04-07 (1 week)
 - **Phase 4: Impact Review Cycle Ends**
-  - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10 through 2023-04-26; Compensation changes will be backdated to 2023-04-01 and all teammates will see compensation adjustments reflected in the 2023-04-30 pay period. 
+  - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10 through 2023-04-26; Compensation changes will be backdated to 2023-04-01 and all teammates will see compensation adjustments reflected in the 2023-04-30 pay period.
 
 ## **Enablement Schedule**
 
