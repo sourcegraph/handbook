@@ -99,7 +99,7 @@ Apple Touch ID is authenticated through your browser, so if you use multiple bro
 5. Select “Set up” next to the MFA option you would like to add
 6. Select “Enroll” and follow the steps prompted by your browser
 
-<img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
+<img src="https://storage.googleapis.com/sourcegraph-assets/settings14.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
 
 ## Adding a YubiKey as a phishing resistant MFA option (WebAuthn)
 
