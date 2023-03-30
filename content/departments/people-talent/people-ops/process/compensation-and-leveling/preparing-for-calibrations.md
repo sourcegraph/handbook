@@ -1,6 +1,7 @@
 # Preparing for Calibrations: Manager Guide
 
 ## Calibration process overview
+
 The purpose of a calibration session during our impact review process is to ensure that evaluations of teammate performance are fair and consistent across the organization. Calibration sessions typically involve a group of managers or supervisors who meet to review and discuss individual teammate performance ratings, in order to reach a consensus on the accuracy and fairness of those ratings. The goal is to identify any potential biases or discrepancies in the ratings, and to make adjustments as necessary to ensure that all employees are evaluated fairly and objectively.
 
 Calibration sessions can also help identify areas where additional training or development may be needed for teammates, as well as opportunities for recognition and rewards for exceptional performance. Ultimately, the goal of a calibration session is to ensure that the performance review process is transparent, consistent, and fair, and that teammates are evaluated based on their actual job performance, rather than any personal biases or perceptions of their work.
@@ -10,6 +11,7 @@ Calibration sessions can also help identify areas where additional training or d
 In preparation for your Calibration Session with your People Partner, all Managers are required to complete the following pre-work:
 
 1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting.
+
 - Review writing for the 1H FY24 impact review cycle ends March 31st, 2023.
 - Note: While we don’t force distribution, we anticipate the following distribution on average. Please keep this in mind when writing your reviews.
   - _20% “Exceeding High Bar” [1:1, 1:2 or 2:1]_
@@ -18,12 +20,12 @@ In preparation for your Calibration Session with your People Partner, all Manage
 
 2. Log into Lattice and use the tag/note function in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes). You can find instructions on how to use the tag/notes section in [this training video](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
 3. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
-4. Review the below resources: 
+4. Review the below resources:
+
 - Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
 - Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box
 - Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
-- Review your team's [career framework](INSERT LINK) to ensure you're well versed on levels. You can also review our [company-wide level framework here](INSERT LINK). 
-
+- Review your team's [career framework](INSERT LINK) to ensure you're well versed on levels. You can also review our [company-wide level framework here](INSERT LINK).
 
 ## Calibration Session Agenda
 
