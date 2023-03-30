@@ -47,6 +47,18 @@ kbd {
         }
     }
 
+    .go-link {
+        border-radius: 3px;
+        background: rgba(48, 149, 192, 0.1);
+        color: rgb(18, 100, 163);
+        padding: 0 2px 1px 2px;
+        &:hover {
+            text-decoration: none;
+            background: rgba(29, 155, 209, 0.2);
+            color: rgb(11, 76, 140);
+        }
+    }
+
     .octicon {
         display: inline-block;
         vertical-align: text-top;
