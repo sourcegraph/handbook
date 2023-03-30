@@ -11,7 +11,8 @@ Once someone accepts the offer and signs the contract, the Talent team marks the
 This email contains all relevant information that we need to complete the person's [BambooHR profile](bamboohr.md#how-to-create-a-profile) and fill the Teammate tracking sheet.
 
 **Step 1: Teammate Tracking Spreadsheet**
-  - In order to make sure we are using the correct and most updated data we use the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311). Even though the source of truth is _always_ BambooHR, it is an easy way to keep track on what we have and are missing. Once we receive the Greenhouse summary email, we need to add a line for the person joining with the information needed.
+
+- In order to make sure we are using the correct and most updated data we use the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311). Even though the source of truth is _always_ BambooHR, it is an easy way to keep track on what we have and are missing. Once we receive the Greenhouse summary email, we need to add a line for the person joining with the information needed.
 
 **Step 2: Upload signed document to the contracts folder**
 
@@ -21,17 +22,19 @@ Make sure the person's profile exists and is complete. See the [BambooHR profile
 The two most important fields are the "Work email" and the "Timezone TZ". Via the Okta integration, the email will be created using the value written in the "Work email" field (make sure to follow preferredname.preferredsurname@sourcegraph.com convention); and Okta access will be sent to the new hire considering their timezone.
 
 On the personal tab, complete only these fields:
+
 - Name: Make sure the full legal name is in BambooHR
-- Timezone TZ: Select the teammate’s timezone. This is one of the most important fields to complete because Okta activation for new teammates is scheduled based on this Timezone field. 
+- Timezone TZ: Select the teammate’s timezone. This is one of the most important fields to complete because Okta activation for new teammates is scheduled based on this Timezone field.
 - Region: Select the teammate’s region
 - Work Email: Completed by People team later in the onboarding process. Leave blank for now.
 - Personal email: Integrated via Greenhouse. If not, manually entered by People team
 
 On the job tab, complete only these fields
-- Hire Date:  This information is automatically assigned based on the information listed in Greenhouse. Verify that it  is correct. 
+
+- Hire Date: This information is automatically assigned based on the information listed in Greenhouse. Verify that it is correct.
 - People Manager: Select Yes/No, then click Save Changes.
 - People Partner: Select the appropriate People Partner using this as a guide.
-- Employee Status: 
+- Employee Status:
   - Effective date: Same as start date
   - Employee Status: Each teammates should be one of either:
   - Comment: Initial data load into Bamboo
@@ -45,7 +48,7 @@ On the job tab, complete only these fields
   - Comment: Add insight
   - Compensation Category and Level: Confirm with Talent if you don’t know.
   - Radford Job Code: This can be found in the Offer Details in Greenhouse
-Note: The offer details is the source of truth, not the job details
+    Note: The offer details is the source of truth, not the job details
 - Job Information:
   - Effective date: Same as start date
   - Location: Remote
@@ -54,11 +57,11 @@ Note: The offer details is the source of truth, not the job details
   - Job Title
   - Reports to
   - Cost Center: we use this field to sync with our financial systems through Okta.
- - Options 
-   - Status: Proposed, Not Yet Granted
-   - Number of options
-   - Vesting Date: Same as start date
-   - Equity Notes: ‘New Hire Grant’
+- Options
+  - Status: Proposed, Not Yet Granted
+  - Number of options
+  - Vesting Date: Same as start date
+  - Equity Notes: ‘New Hire Grant’
 - Commission (only fill this out if applicable)
   - Commission date: same as start date
   - Commission amount: in USD
@@ -71,13 +74,15 @@ Note: The offer details is the source of truth, not the job details
 - Bonus (only fill this out if applicable- when needed, complete all fields.)
 
 If the new teammate will be a people manager, confirm with the HM who the new teammate’s direct reports will be, and update their BambooHR profiles accordingly
+
 - Click ‘+Update Job Information’, select the new managers’ start date, enter the new managers’ name in, leave all other fields as-is, click ‘Save’.
 
 **Step 4: Send BambooHR Onboarding Kit**
-1. Open the new teammate’s BambooHR Profile, select the ‘More’ tab, then select ‘Onboarding’. 
-2. Click the ‘Create New Hire Packet’ button, then select the appropriate template (based on the new teammate’s location - US or non-US). The information should auto-populate and the Location field should be the only one left blank, since we’re remote. 
+
+1. Open the new teammate’s BambooHR Profile, select the ‘More’ tab, then select ‘Onboarding’.
+2. Click the ‘Create New Hire Packet’ button, then select the appropriate template (based on the new teammate’s location - US or non-US). The information should auto-populate and the Location field should be the only one left blank, since we’re remote.
 3. Import the onboarding kit tasks: ordering swag, submitting your new hire video and photo for avatar, completing your background check, and filling out your BambooHR profile
-4. Select ‘Preview and send’, review the information and select ‘Continue’ through the packet. When ready, click ‘Send New Hire Packet’. 
+4. Select ‘Preview and send’, review the information and select ‘Continue’ through the packet. When ready, click ‘Send New Hire Packet’.
 
 **Step 5: Create Avatar**
 
@@ -92,7 +97,7 @@ Both the Universal Workflow and Department Specific Workflow need to be run.
 This must be done on both the Universal and Department Specific Workflow.
 Once this section has been marked ‘Complete’, two automated slack messages will be sent
 
-If the teammate will be located in the US, the Payroll Communication task will be visible. Under Payroll Communication, ensure the teammate’s name, start date, and work email are correct, then click Click on Complete Task. 
+If the teammate will be located in the US, the Payroll Communication task will be visible. Under Payroll Communication, ensure the teammate’s name, start date, and work email are correct, then click Click on Complete Task.
 
 **Step 8: Begin the _People Ops - before day 1_ section of the onboarding checklist**
 Complete all tasks that are marked as ‘prior to the teammate's work email being created’ and mark them as ‘Complete’ in Process St.
@@ -102,33 +107,37 @@ Complete all tasks that are marked as ‘prior to the teammate's work email bein
 The People Ops team will check Process Street on the Thursday before each cohort start date to confirm if Hiring Managers have completed their onboarding tasks. If the information is not complete, People Ops will slack each manager directly to remind them to complete the information ASAP so their new hire will be ready for their first day.
 
 ### Once Sourcegraph email is created
+
 The rest of the onboarding tasks can only be completed after the person's work email has been created. This happens automatically through the Okta/BambooHR integration 5 days (the Wednesday) before someone starts. The integration runs daily, so if someone is added to BambooHR after that, the user will still be created. We can also manually run the integration if needed. You should contact Tech Ops for this.
 
 **Step 10: Notify the company**
-Send a message to #announce-new-teammates letting everyone know that a new teammate is joining and that their emails are now live. The sooner we do this the better.  Combine this message for any other teammates in the same onboarding cohort.
+Send a message to #announce-new-teammates letting everyone know that a new teammate is joining and that their emails are now live. The sooner we do this the better. Combine this message for any other teammates in the same onboarding cohort.
 
 **Step 11: Add to relevant calendar meetings**
 Here are the events we must manually invite the new teammate to
+
 - 1 Month Check In - 15 min meeting with Kemper on each new teammate’s 1 month mark
 - Meet the Founders (just once)
-- Meet the People Team  (just once)
-- Meet & Greet (just once) 
+- Meet the People Team (just once)
+- Meet & Greet (just once)
 
-Tech Ops will add each new hire to Google Groups, which will automatically add them to other company and team specific events. 
+Tech Ops will add each new hire to Google Groups, which will automatically add them to other company and team specific events.
 
 **Step 12: Schedule the First Day Prep email**
-The Friday before a new hire’s start date, we send an email in the Welcome email thread started by the recruiter when they were hired. You can see the email template in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#). 
+The Friday before a new hire’s start date, we send an email in the Welcome email thread started by the recruiter when they were hired. You can see the email template in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#).
 
 **Step 13: Schedule the 3 month Onboarding Survey slack message**
 Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role. [Here](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit) is the survey.
 
-Step 14: Update BambooHR settings 
+Step 14: Update BambooHR settings
 Open the new teammate’s BambooHR profile, click Settings, hover over ‘BambooHR Access Level’, then select ‘Everyone’. If the teammate is a People Manager, select ‘Managers’
+
 - Do not do this before the new hire’s email address has been created
 - You need full admin access in BambooHR to complete this step. The People team can grant this access if needed.
 
 **Step 15: Assign Compliance training in Continu**
 Create user in Continu. Go to Admin → Users → Add User. Complete all fields except for Language and Level
+
 - Groups: It is important you add teammates to the correct groups. We use groups to create rules that assign courses. One person can be in more than one group, if that’s the case, please include all of them. These are the current groups:
   - Manager
   - Individual Contributor
@@ -136,14 +145,15 @@ Create user in Continu. Go to Admin → Users → Add User. Complete all fields 
   - People Ops
 
 Automatically assigned trainings:
-- The Security Awareness training is assigned to everyone automatically. 
+
+- The Security Awareness training is assigned to everyone automatically.
 - Preventing Harrassment and Discrimination training is assigned by rules based on location and role. All international teammates go through the “International” training. US teammates will be assigned a training based on role (IC or Manager) and state. Certain states have specific versions of the trainin, so it is important we add teammates to the correct Groups as the rule will check groups and state.
 
 **Step 16: Complete the People Ops - before day 1 section of the onboarding checklist**
 Confirm ALL People Ops - before day 1 tasks are marked as complete in Process St.
 
 **Step 17: ‘Hide rows’ in Teammate Tracking Spreadsheet**
-Now that the tasks are completed, hide the teammate's row in the tracking spreadsheet, but don’t delete it in case we need to reference the data in the future. 
+Now that the tasks are completed, hide the teammate's row in the tracking spreadsheet, but don’t delete it in case we need to reference the data in the future.
 
 ### Once the teammate has joined Sourcegraph
 
@@ -236,5 +246,3 @@ Once that's done, change the start date in the [Teammate tracking spreadsheet](h
 When someone rescinds their offer, the Onboarding team needs to be informed as soon as possible. Considering onboarding involves many moving parts and teams, time is of the esense. The Onboarding team will notify Payroll, Tech Ops, the managers, and anyone else involved in the process.
 
 We also need to deactivate the user in BambooHR. Go to [this page](bamboohr.md#rescinded-offersacceptances) to follow the steps in BambooHR.
-
-
