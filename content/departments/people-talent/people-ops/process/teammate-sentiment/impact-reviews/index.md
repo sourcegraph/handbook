@@ -36,7 +36,7 @@ Teammates who have completed **4-months tenure** in the given review period are 
 
 To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least 4-months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
 
-Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below. 
+Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below.
 
 ### Who provides feedback?
 
