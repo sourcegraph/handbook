@@ -25,7 +25,7 @@ In preparation for your Calibration Session with your People Partner, all Manage
 - Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
 - Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box
 - Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
-- Review your team's [career framework](INSERT LINK) to ensure you're well versed on levels. You can also review our [company-wide level framework here](INSERT LINK).
+- Review your team's [career framework](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/career-frameworks/) to ensure you're well versed on levels. You can also review our [company-wide level framework here](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/career-frameworks/).
 
 ## Calibration Session Agenda
 
