@@ -1,24 +1,29 @@
 # Preparing for Calibrations: Manager Guide
 
 ## Calibration process overview
+The purpose of a calibration session during our impact review process is to ensure that evaluations of teammate performance are fair and consistent across the organization. Calibration sessions typically involve a group of managers or supervisors who meet to review and discuss individual teammate performance ratings, in order to reach a consensus on the accuracy and fairness of those ratings. The goal is to identify any potential biases or discrepancies in the ratings, and to make adjustments as necessary to ensure that all employees are evaluated fairly and objectively.
 
-## Manager Pre-Work
+Calibration sessions can also help identify areas where additional training or development may be needed for teammates, as well as opportunities for recognition and rewards for exceptional performance. Ultimately, the goal of a calibration session is to ensure that the performance review process is transparent, consistent, and fair, and that teammates are evaluated based on their actual job performance, rather than any personal biases or perceptions of their work.
 
-In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
+## Manager Pre-Work (required before calibration)
 
-1. In Lattice, complete draft reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting.
-2. Complete the Rating Details for every Teammate up for review
+In preparation for your Calibration Session with your People Partner, all Managers are required to complete the following pre-work:
 
-- _Note: While we don’t force distribution, we anticipate the following distribution on average:_
+1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting.
+- Review writing for the 1H FY24 impact review cycle ends March 31st, 2023.
+- Note: While we don’t force distribution, we anticipate the following distribution on average. Please keep this in mind when writing your reviews.
   - _20% “Exceeding High Bar” [1:1, 1:2 or 2:1]_
   - _70% “Meeting High Bar” [2:2s]_
   - _10% “Not Meeting High Bar” [3:1, 3:2, 2:3, 1:3 or 3:3]_
-- Managers will be required to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
-- While not required, we highly encourage managers to write notes and use tags in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes).
 
-3. [Thoroughly prepare to discuss](#example-calibration-notes-see-doc) Teammate ratings with your peer calibration participants in a group setting
+2. Log into Lattice and use the tag/note function in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes). You can find instructions on how to use the tag/notes section in [this training video](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
+3. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
+4. Review the below resources: 
+- Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
+- Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box
+- Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
+- Review your team's [career framework](INSERT LINK) to ensure you're well versed on levels. You can also review our [company-wide level framework here](INSERT LINK). 
 
-- Please review calibration training [here](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
 
 ## Calibration Session Agenda
 
@@ -27,21 +32,13 @@ In preparation for your Calibration Session with your People Partner, we expect 
 - Department Managers, Directors, and VPs
 - People Partner
 - (Optional) VP, People and Director, Recruiting
-- (Optional) Cross-functional Leaders
+- (Optional, as invited) Cross-functional Leaders
 
 Meetings are facilitated by the People Team in partnership with each department head.
 
 ### Agenda:
 
 The following is a typical calibration session agenda. Sessions may slightly differ depending on the size of the group being calibrated, as well as the number of calibration meeting participants.
-
-_Note: we expect all Managers to complete their [pre-work](#manager-pre-work) prior to the calibration meeting._
-
-- Step 1: Overview of the calibration process
-- Step 2: The role of calibration participants
-- Step 3: Building awareness and mitigating unconscious bias
-- Step 4: Performance calibration
-- Step 5: Promotion calibration
 
 ## What to expect during the Calibration Session
 
@@ -160,42 +157,6 @@ Following calibration sessions, People Partners will work with VP+ level leaders
 It’s crucial that we adhere as closely as possible to expected distributions because our merit increase budgets are based on distribution assumptions listed below. The purpose of calibration sessions are to hold a high bar for “Exceeding High Bar” scores, and reward teammates accordingly.
 
 Likewise, final promotion decisions rest with VP+ level leaders. The calibration session is a time for VP+ level leaders to gather information they need to approve, or delay, promotion requests. VP+ level leaders are expected to follow up with Managers by the start of Phase 5 (see the [Impact Review Timeline](../teammate-sentiment/impact-reviews/index.md#impact-review-timeline) for details on phases) with final decisions, so Managers may communicate to their teams accordingly.
-
-## Rating definitions and expected distributions
-
-We rate on two dimensions: performance & values. Each dimension is assigned a score of 1 to 3. [The Impact Review Handbook page](../teammate-sentiment/impact-reviews/index.md) defines our review philosophy in greater detail.
-
-### Ratings
-
-- 1 - Exceeding High Bar
-  - _Skill_: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
-  - _Values_: exceeds in many, exhibits all, deficient in none.
-  - _Distribution_: we expect ~20% of Teammates to fall in the “Top Tier” (high performance) category.
-    - Top Tier score = 1:1, 1:2 or 2:1
-    - Typically ~15% rated 1 in Skill, ~7% rated 1 in Values, with ~2% rated 1 in both.
-  - _Merit_: Teammates who receive “exceeding high bar” rating can receive an increase twice a year.
-    - Recommended merit increase:
-      - 1:1 = 7.5-10%
-      - 1:2 = 7.50%
-      - 2:1 = 7.50%
-    - Note: The above merit increase recommendations are based on the expected distribution of 20/70/10 and are subject to change dependent on final distribution.
-- 2 - Meeting High Bar
-  - _Skill_: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
-  - _Values_: exceeds in some, exhibits most.
-  - _Distribution_: we expect ~70% of Teammates will fall in the “Highly Valued” (strong performance) category
-    - Highly-Valued score = 2:2
-  - _Merit_: Teammates who receive “meeting high bar” are eligible to receive a compensation increase **_once a year_**, either in the February or August merit cycle. Your People Partner will inform you about a Teammate’s eligibility.
-    - Recommended merit increase:
-      - 2:2 = 3-5%
-    - Note: The above merit increase recommendations are based on the expected distribution of 20/70/10 and are subject to change dependent on final distribution.
-- 3 - Not Meeting High Bar
-  - _Skill_: your contributions are below expectations for your current level and must immediately improve.
-  - _Values_: exhibits some, lacks in some, deficient in some.
-  - _Distribution_: we expect 10% of Teammates will fall in the “Least Effective” (low performance) category.
-    - Least Effective score = 3:1, 3:2, 2:3, 1:3 or 3:3
-  - _Merit_: Teammates who receive “not meeting high bar” are **_not eligible_** for a compensation increase or a promotion.
-
-![Ratings in chart view](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
 
 ## Mitigating unconscious bias
 
