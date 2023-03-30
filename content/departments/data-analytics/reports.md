@@ -86,6 +86,10 @@ Looker also puts out guides and training videos that may be useful if you're loo
 - Keep track of the content you like by "favoriting" it! You can favorite content by clicking the "heart" icon next to the name of any dashboard or look. View favorited content by clicking "Favorites" in the left-hand menu
 -
 
+### **Looker developers**
+
+For best practices for writing LookML, adding new tables to our project, creating content, etc. please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
+
 ### **Notable reports**
 
 Below you'll find links to Looker reports containing frequently requested data that many teams find useful. This doesn't represent all the reports available, but should give you a good idea of the types of reports that can be found in Looker.
