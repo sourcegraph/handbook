@@ -1,5 +1,7 @@
 # Deleting a managed instance
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 <span class="badge badge-note">SOC2/CI-41</span>
 
 ## How to request

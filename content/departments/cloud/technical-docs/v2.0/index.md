@@ -1,9 +1,5 @@
 # Managed Instance v2.0
 
-> NOTE: as of 2022-12-14, v2 is live. We will be supporting both instances for the time being.
-
-> NOTE: as of 2022-10-27, any teammate is able to provision their own v2 instances. please reach out to #cloud for guidance.
-
 This documentation details significant changes of Managed Instance v2.0 comparing to the previous version.
 
 Unless we explictly call it out, you may assume things are unchanged.
@@ -61,7 +57,7 @@ This is our production environment and consists of internal and customer instanc
 Below is a list of long-lived internal instances:
 
 - [clouddev.sourcegraph.com](https://clouddev.sourcegraph.com)
-- [sourcegraph.sourcegraph.com](https://sourcegraph.sourcegraph.com)
+- [sourcegraph.sourcegraph.com](#s2-instance)
 - [demo.sourcegraph.com](https://demo.sourcegraph.com)
 
 Internal instances are created for various testing purposes:
@@ -71,6 +67,14 @@ Internal instances are created for various testing purposes:
 - long-lived instances for product teams to test important product changes, e.g. scaletesting.
 
 All customer instances are considered part of the `prod` environment and all changes applied to these customers should be well-tested in the `dev` environment and internal instances.
+
+##### [s2 instance](https://sourcegraph.sourcegraph.com/)
+
+This is the internal Cloud dogfood instance for the entire company. #dev-experience is responsible for rolling out nightly builds on this instance and #cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
+
+Operation playbook: go/s2-ops
+
+Deployment status: go/s2-deploy
 
 ## Playbook
 
@@ -86,45 +90,11 @@ The following processes only apply to Cloud v2.0:
 
 > NOTE: This is the prereq for all things related to Cloud. Please review this section carefully. If you have questions, please reach out to #cloud and tag `@cloud-support`.
 
-Below is the bare minimal prereq before you can work with Cloud instances
+Please visit go/cloud-ops to locate the instance you would like to access, then you will find instructions for:
 
-- [sourcegraph/cloud]: deployment repo where we persist all Cloud instances config and deployment artifacts
-- [sourcegraph/controller]: mi2 - cloud controller source code
-- Install `mi2` by following [sourcegraph/controller#installation](https://github.com/sourcegraph/controller#installation)
-- Sufficient access to GCP projects, see below FAQ to learn how to request access.
-
-Let's walkthrough the process of accessing a Cloud instance:
-
-First [locate the instance you are looking for](#how-to-locate-a-cloud-instance-in-the-deployment-repo)
-
-- `gh repo clone sourcegraph/cloud`
-- `cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID`
-
-Then you can start running various `mi2` commands to work with a specific Cloud Instance (where we will infer the current instance base on current working directory).
-
-```sh
-# start a proxy to the database instance
-mi2 instance db proxy
-```
-
-Learn more from the `mi2` cli [reference](https://github.com/sourcegraph/controller/blob/main/reference.md) for detail usage and examples.
-
-### How to request access to Cloud instances infrastructure?
-
-We utilize Entitle to provide time-bound access to GCP infrastructure for both production and development environment.
-
-Use the slash command in Slack, type `/access_request` in any chat window and hit enter. Fill out the following values:
-
-- **Search permission**: One of `Cloud V2 Dev Access`, `Cloud V2 Prod Access`, or `Cloud V2 Internal Access`.
-  - `Cloude V2 Prod access` - access to external production instances in the [production](#production-prod-environment) environment
-  - `Cloud V2 Internal Access` - access to internal production instances in [production](#production-prod-environment) environment, e.g., `s2`, `demo`
-  - `Cloud V2 Dev Access` - access to [development](#development-dev-environment) environment
-- **Permission duration**: Preferably to request the minimal amount of time
-- **Add justification**: Add a note to provide context why access is needed
-
-The request will be routed to #cloud, #security, or your direct manager for approval. We will review the request and approve the access request. For internal access, access will be granted automatically for engineering teammates.
-
-Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if it is time sensitive. If the request is related to an ongoing [incident](../../../engineering/dev/process/incidents/index.md), please [page Cloud on-call engineer using OpsGenie](../../../engineering/dev/process/incidents/index.md#incident-lead).
+- access database
+- view logs
+- work with the k8s deployments and access containers to troubleshoot problem
 
 ### How to request access to Cloud instances UI?
 
@@ -132,75 +102,15 @@ Learn more from [Request access to Cloud instances UI](../oidc_site_admin.md#req
 
 ### How to locate a Cloud instance in the deployment repo?
 
-There are two ways
-
-If you not sure about the `slug` or `environment` of an instance, go to [s2](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/cloud$+file:config.yaml&patternType=standard&sm=1&groupBy=path)
-
-```
-repo:^github\.com/sourcegraph/cloud$ file:config.yaml <insert customer name or domain name as keyword to filter>
-```
-
-`INSTANCE_ID` is the value of `.metadata.name` in `config.yaml`
-
-If you know the slug of the instance, run below at the root of the [sourcegraph/cloud] deployment repo to retrieve the instance ID
-
-```sh
-mi2 instance get -e $ENVIRONMENT --slug $CUSTOMER | jq -r '.metadata.name'
-```
-
-Then `cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID`
-
-### How do I work with `mi2` CLI?
-
-Learn more from [CLI reference](https://github.com/sourcegraph/controller/blob/main/reference.md).
-
-### How to work with k8s deployment of a Cloud instance
-
-Run below command to retrieve the credentials and configure the proper `kubectl` context.
-
-```sh
-mi2 instance workon -exec
-```
-
-Then run the typical `kubectl` command to interact with the cluster. Additinoally, you can always use the GKE UI on GCP Console if you prefer.
+Please visit go/cloud-ops to locate the instance.
 
 ### How to update & apply terraform modules?
 
-In v2, we use `cdktf` via `mi2` cli to dynamically generate the cdktf stacks for each modules.
-
-In `cloud` repo, run the following:
-
-```sh
-mi2 workflow run -e $ENVIRONMENT -exec -exec.concurrency 4 generate-cdktf
-```
-
-Commit the changes and open a pull request.
-
-The following modules have auto-apply enabled, hence when they're changed, no action is required once they are merged
-
-- `monitoring`
-- `executors`
-- `security`
-
-For other modules, it's recommended to utilize below process.
-
-```sh
-# retrieve status of the plan
-# make sure to run `--help` to learn more about different output format options
-mi2 instance tfc check $module_name
-
-# confirm the plan and apply it
-mi2 instance tfc confirm
-```
-
-> We will add more step-by-step instruction in the future
-
-Depending on how complex and the blast radius of the change, you may consider sample plan outputs of a few instances,
-and use the `mi2 workflow` command to apply across all instances at once.
-You can also utilize the `mi2 workflow` command to aggregate the raw plan output of all instances and perform precise check on them to ensure
-the plan output is exactly what you are looking for.
+Please visit go/cloud-ops, and follow instruction from `Deploy terraform changes` section.
 
 ### How to use a fork of `cdktf-cli`?
+
+> WARNING: This process is deprecated, and we no longer use `cdktf-cli` directly.
 
 Sometime there is bugs (e.g. https://github.com/hashicorp/terraform-cdk/pull/2397, https://github.com/hashicorp/terraform-cdk/pull/2398) in the upstream and we have to maintain our own [fork](https://github.com/sourcegraph/terraform-cdk/tree/fix/tfc-planned-status) of `cdktf-cli`.
 

@@ -1,5 +1,7 @@
 # MI v1.1 on-prem data migration
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 > NOTE: This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
 
 This process describes the current state of how to do a full data migration of an on-prem instance to a MI v1.1 Cloud instance.
