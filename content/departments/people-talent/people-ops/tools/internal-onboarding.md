@@ -1,6 +1,8 @@
 # Internal Onboarding Process
 
-## Pre onboarding
+This page outlines the steps the People Team takes to onboard a new teammate, from the time they sign their offer to the time they join us.
+
+## Onboarding Tasks
 
 This process occurs prior to a new teammate’s first day, as we set them up for joining Sourcegraph.
 
