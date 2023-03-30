@@ -6,7 +6,7 @@
 
 In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
 
-1. In Lattice, complete draft reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting. 
+1. In Lattice, complete draft reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting.
 2. Complete the Rating Details for every Teammate up for review
 
 - _Note: While we don’t force distribution, we anticipate the following distribution on average:_
@@ -18,7 +18,7 @@ In preparation for your Calibration Session with your People Partner, we expect 
 
 3. [Thoroughly prepare to discuss](#example-calibration-notes-see-doc) Teammate ratings with your peer calibration participants in a group setting
 
-* Please review calibration training [here](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) 
+- Please review calibration training [here](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
 
 ## Calibration Session Agenda
 
