@@ -1,5 +1,7 @@
 # MI 1.1 Upgrade process
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 ## Prerequisites
 
 - install `go`

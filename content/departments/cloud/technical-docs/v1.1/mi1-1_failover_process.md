@@ -1,5 +1,7 @@
 # Failover a managed instance v1.1 to another zone
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 <span class="badge badge-note">SOC2/CI-110</span>
 
 In MI v1.1, all resources are still zonal, and managed instances are not automatically resilient to zone-wide failures. It's possible to failover resources to another zone in the event of GCP zonal failure, but it's a tedious and manual process. Perform the failover in the following order.
