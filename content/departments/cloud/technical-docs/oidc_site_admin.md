@@ -17,45 +17,13 @@ Every instance has a default Sourcegraph admin user added during the [instance i
 
 ## Request UI access to managed instances
 
-> NOTE: UI access to managed instances by Sourcegraph employess is only available when the customer does not request to [disable Sourcegraph management access](./operations.md#disable-sourcegraph-management-access). You can check the [list of customers that have Sourcegraph management access disabled](https://sourcegraph.sourcegraph.com/search?q=context%3Aglobal+repo%3A%5Egithub%5C.com%2Fsourcegraph%2Fdeploy-sourcegraph-managed%24+disableSourcegraphManagementAccess%3A+true&patternType=standard&sm=1&groupBy=path).
-
 > WARNING: Always have the customer consent prior to request UI access to a managed instance.
 
 > WARNING: Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
 
-1. Use the slash command in Slack, type `/access_request` anywhere.
-
-   Select the following and click `Send Request`.
-
-   - **Request type**: Permission set
-   - **Permissions set**: Sourcegraph Cloud Org2Org
-   - **Permission duration**: 1 Hour
-   - **Add justification**: I need access to the cloud instance UI (Yes, you can just use canned response here)
-
-   The request will be approved automatically. Once you have received confirmation from the `Entitle` slack app, process to the next step.
-
-2. Use the `/access_request` slash command on Slack, and select the following:
-
-   - **Search permission**: company.sourcegraph.com
-   - **Grant method**: Direct
-   - **Permission duration**: 1 Hour
-   - **Add justification**: Please explain in detail why do you need access to the Cloud instance UI. It will be best to include relevant links to issues, slack thread to provide more context.
-
-   The request will be routed to #cloud, #security, and your direct manager for approval. Any of the approvers can review and approve the access request.
-
-Please tag `@cloud-support` or `@security-support` in #cloud for immediate attention if the request is time sensitive.
-
-> NOTE: If the request is related to an ongoing [incident](../../engineering/dev/process/incidents/index.md), please also [page Cloud on-call engineer using Opsgenie](../../engineering/dev/process/incidents/index.md#incident-lead) using `/genie alert I need UI access to company.sourcegraph.com for incident`.
-
-The Entitle Slack app will notify you both when you make the request and when the request is approved. You will then have UI access to the requested managed instance for **1 hour** (the **Permission duration** from the previous step). Once the access period ends, you will be logged-out from the managed instance and have to request access again through the Entitle.
-
-To sign in to the requested managed instance:
-
-1. Visit `https://company.sourcegraph.com/sign-in?sourcegraph-operator` in your browser
-1. Click on the **Continue with Sourcegraph Operators** sign-in option
-1. Complete the authentication flow with Okta
-
 > NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules/#sharedList/1670019946529-Michael-shared-list-12-2-2022) on the sign-in page of any managed instance.
+
+Please visit go/cloud-ops to locate the instance you would like to access, and follow the instruction under `Log in to the instance UI` section.
 
 ### UI access to private managed instances
 

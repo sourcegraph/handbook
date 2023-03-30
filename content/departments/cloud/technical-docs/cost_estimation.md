@@ -1,5 +1,7 @@
 # Managed instances: cost estimation
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context
+
 ## How to calculate the cost of a managed instance
 
 > ⚠️ **IMPORTANT:** This provides a _rough estimate_ to the best of our ability, infrastructure pricing estimates are not trivial to do accurately and actual costs are always subject to change. The goal of this is to give you a rough estimate of costs, not an exact amount.<br><br>ℹ️ If unsure about anything with pricing for a managed instance, message `@devops-support` in the [#cloud-devops] – ensure you include all the information needed for the resource calculator and any extra information about why you need help.
