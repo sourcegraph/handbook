@@ -77,19 +77,17 @@ Results from the semi-annual impact review process support the growth and develo
   - All Managers 2023-02-08 to 2023-03-31 - We added 2 days to accommodate the IC extension!
 - **Phase 3: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
   - All Teams: 2023-04-03 to 2023-04-07 (1 week)
-  - Engineering Team Extension: 2023-04-10 to 2023-04-14 (1 week)
 - **Phase 4: Impact Review Cycle Ends**
-  - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10; Compensation changes will be backdated to 2023-04-01
-  - Engineering Team Extension: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-17; Compensation changes will be backdated to 2023-04-01
+  - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10 through 2023-04-26; Compensation changes will be backdated to 2023-04-01 and all teammates will see compensation adjustments reflected in the 2023-04-30 pay period.
 
 ## **Enablement Schedule**
 
 - Weekly starting Feb 1: 2x weekly open Office Hours with the People Team.
   - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
-- Feb 1: Handbook Update - Writing great reviews: example reviews for each category.
-- February 16th - Writing reviews workshop
-- March 21st/23rd - Calibration live training.
-- March 31st - Delivering feedback live training.
+- Feb 1 2023: Handbook Update - Writing great reviews: example reviews for each category.
+- February 16 2023 - Writing reviews workshop
+- March 21/23 2023 - Calibration live training.
+- April 7 2023 - Delivering feedback live training.
 
 ## Impact Review process
 
