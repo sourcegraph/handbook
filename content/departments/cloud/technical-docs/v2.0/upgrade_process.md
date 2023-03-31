@@ -38,6 +38,12 @@ for trial instances:
 mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
 ```
 
+all instances
+
+```sh
+mi2 env workflow run -e prod -filter '.spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
+```
+
 This automated workflow will generate a pull request for each instance to represent the upgrade that:
 
 1. Links to full logs of the automated upgrade process (retained for 90 days)
