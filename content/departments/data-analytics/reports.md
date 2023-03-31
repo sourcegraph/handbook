@@ -10,7 +10,7 @@ Looker is a business intelligence tool used for standard enterprise reporting an
 
 **March 2022 update**
 
-Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#) for more details about these changes and how to navigate the new project. We've also created a [video demo](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f) to help you find old content in the new project. 
+Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#) for more details about these changes and how to navigate the new project. We've also created a [video demo](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f) to help you find old content in the new project.
 
 #### **What data can I find in Looker?**
 
