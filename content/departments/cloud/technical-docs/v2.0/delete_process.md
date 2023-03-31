@@ -92,6 +92,7 @@ terraform init && terraform apply -auto-approve
 ```sh
 # gracefully remove unmanaged resources, e.g. GKE Backup
 mi2 instance destroy --slug $SLUG -e $ENVIRONMENT -auto-approve
+
 # deletes namespace and Network Endpoint Group Health check
 cd kubernetes
 mi2 instance workon -e $ENVIRONMENT --slug $SLUG -exec
@@ -115,6 +116,8 @@ mi2 instance tfc deploy -s $SLUG -e $ENVIRONMENT -auto-approve -force-ignore-sta
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 mi2 instance tfc destroy-all -auto-approve
 ```
+
+> **NOTE**: If you encounter errors like `Unsupported attribute`, do `mi2 instance tfc deploy -auto-approve` and try again.
 
 #### Delete TFC workspaces
 
