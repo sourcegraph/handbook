@@ -54,7 +54,7 @@ On the job tab, complete only these fields
 - Job Information:
   - Effective date: Same as start date
   - Location: Remote
-  - Division: The division is listed in Greenhouse. Check with the recruiter if it’s missing.Flag to tech ops if you create a new Division
+  - Division: The division is listed in Greenhouse. Check with the recruiter if it’s missing. Flag to tech ops if you create a new Division
   - Department
   - Job Title
   - Reports to
@@ -73,7 +73,7 @@ On the job tab, complete only these fields
   - Overtime Status: Exempt
   - Commision Change Reason: Initial data load into Bamboo
   - Comments: Initial data load into Bamboo
-- Bonus (only fill this out if applicable- when needed, complete all fields.)
+- Bonus (only fill this out if applicable and complete all fields.)
 
 If the new teammate will be a people manager, confirm with the HM who the new teammate’s direct reports will be, and update their BambooHR profiles accordingly
 
@@ -118,7 +118,7 @@ Send a message to #announce-new-teammates letting everyone know that a new teamm
 **Step 11: Add to relevant calendar meetings**
 Here are the events we must manually invite the new teammate to
 
-- 1 Month Check In - 15 min meeting with Kemper on each new teammate’s 1 month mark
+- 1 Month Check In - 15 min meeting with People Ops team member on each new teammate’s 1 month mark
 - Meet the Founders (just once)
 - Meet the People Team (just once)
 - Meet & Greet (just once)
@@ -131,7 +131,7 @@ The Friday before a new hire’s start date, we send an email in the Welcome ema
 **Step 13: Schedule the 3 month Onboarding Survey slack message**
 Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role. [Here](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit) is the survey.
 
-Step 14: Update BambooHR settings
+**Step 14: Update BambooHR settings**
 Open the new teammate’s BambooHR profile, click Settings, hover over ‘BambooHR Access Level’, then select ‘Everyone’. If the teammate is a People Manager, select ‘Managers’
 
 - Do not do this before the new hire’s email address has been created
@@ -196,17 +196,7 @@ There are two main onboarding feedback instances:
 
 Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role.
 
-[Here](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit) is the survey.
-
-On the last Monday of each month, we send a Slack message to each person asking them to complete the survey. Here is an example of the message:
-
-_Hey! Hope you are doing great!_
-
-_One of my biggest projects at the moment is making the onboarding process as rich and structured as possible, so as to build every new teammate up for success. To do this, I constantly meet with new hires, managers, and teammates to listen to their feedback and experience._
-_This time, I wanted to listen to your input in this. I’ve created a **[survey](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit)** to collect feedback from all teammates that have been with us since [MONTH] to ask if their onboarding experience has properly equipping you with the support and resources necessary for you to be successful in your new role._
-_It is a simple survey, most of the questions are multiple choice and some require some input. Would you mind taking 10 minutes to complete it? :pray:_
-_Could you please submit it by XXX?_
-_Thank you! Have a great day :)_
+On teammates' 3 month mark, we send a Slack message asking them to complete [this survey](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit).
 
 [Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
 
