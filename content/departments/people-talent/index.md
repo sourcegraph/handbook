@@ -298,6 +298,9 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [PEO](people-ops/tools/peo.md)
 - [New Hire Videos](new-hire-videos.md)
 
+### Legal support
+- [External counsel contacts](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit#heading=h.3y1aln9nb8gr)
+
 ### Teammate development
 
 - [Merit](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
