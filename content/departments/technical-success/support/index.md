@@ -69,11 +69,10 @@ For our Enterprise Starter plans the SLAs are as follows:
 
 | Severity Level | Description                                                                                                                                          | Response time                                           | Support Availability   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------- |
-| 0              | Emergency: total loss of service or security-related issue (includes POCs)                                                                           | Within 2 business hours of becoming aware of the issue  | 24x5 (Monday - Friday) |
-| 1              | Severe impact: service significantly limited for 60%+ of users; core features are unavailable or extremely slowed down with no acceptable workaround | Within 4 business hours of becoming aware of the issue  | 24x5 (Monday - Friday) |
-| 2              | Medium impact: core features are unavailable or somewhat slowed; workaround exists                                                                   | Within 6 business hours of becoming aware of the issue  | 24x5 (Monday - Friday) |
-| 3              | Minimal impact: questions or clarifications around features, documentation, or deployments                                                           | Within 16 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
-| 4              | General inquiries: non-critical questions, feedback, or feature requests                                                                             | Within 3 business days of becoming aware of the issue   | 24x5 (Monday - Friday) |
+| 0              | Emergency: total loss of service or security-related issue (includes POCs)                                                                           | Within 4 business hours of becoming aware of the issue  | 24x5 (Monday - Friday) |
+| 1              | Severe impact: service significantly limited for 60%+ of users; core features are unavailable or extremely slowed down with no acceptable workaround | Within 6 business hours of becoming aware of the issue  | 24x5 (Monday - Friday) |
+| 2              | Medium impact: core features are unavailable or somewhat slowed; workaround exists                                                                   | Within 16 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 3              | Minimal impact: questions or clarifications around features, documentation, or deployments                                                           | Within 3 business days of becoming aware of the issue   | 24x5 (Monday - Friday) |
 
 **Note:** premium support / enhanced SLAs are available as an add-on for our Enterprise plans.
 **Note:** The business hours which, due to 24x5, are defined as:
