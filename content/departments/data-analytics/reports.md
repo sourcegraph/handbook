@@ -10,7 +10,7 @@ Looker is a business intelligence tool used for standard enterprise reporting an
 
 **March 2022 update**
 
-Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#)for more details about these changes and how to navigate the new project.
+Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#) for more details about these changes and how to navigate the new project. We've also created a [video demo](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f) to help you find old content in the new project. 
 
 #### **What data can I find in Looker?**
 
@@ -59,8 +59,8 @@ If you suspect you're looking at stale data on a dashboard or look, be sure to:
 
 We've created a few training videos to help you navigate our Looker project:
 
-- Overview of data in Looker
-- Best practices for navigating our Looker project (and finding content you care about)
+- [Finding content in the new Looker project](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f)
+- [Navigating our Looker project](https://www.loom.com/share/d7bd9e551d8649f7980857c6f84f2b39)
 - [Using our dashboards](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD)
 - [Using our looks](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD)
 - ["Exploring" our datasets](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD) - note that "View" users do not have access to explore content
@@ -84,11 +84,10 @@ Looker also puts out guides and training videos that may be useful if you're loo
 - Many (though not all) dashboards offer the ability to "drill-down" into data points by clicking on values. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453), you can click any data point in the top chart to see a full list of the data that comprises the data point.
 - Many dashboards and charts offer the ability to navigate to other dashboards by clicking on an `Account name`/`installer_email`. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453) you can click on any account name in the last chart and then select "Single-Instance Overview" from the drop-down menu to navigate to a dashboard that will give you more detailed usage data for that account
 - Keep track of the content you like by "favoriting" it! You can favorite content by clicking the "heart" icon next to the name of any dashboard or look. View favorited content by clicking "Favorites" in the left-hand menu
--
 
 ### **Looker developers**
 
-For best practices for writing LookML, adding new tables to our project, creating content, etc. please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
+- For best practices for writing LookML, adding new tables to our project, creating content, etc. please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
 
 ### **Notable reports**
 
