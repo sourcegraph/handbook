@@ -23,9 +23,9 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 **Base pay**:
 
-Each [job level](leveling-guide.md) has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. **We re-set salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive.
+Each [job level](leveling-guide.md) has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. **We re-set salary bands every six months** in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) to ensure our compensation remains up to date and market competitive. This means that every 6-months, our band entry point may go up, down, or stay the same. And if our band goes down, we will never decrease our teammate's pay.
 
-If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify and/or adjust the band.
+If we are given reason to believe that Radford data doesn't match existing market rates, we may leverage other data sources to verify and/or adjust the band. In addition, the People Team reserves the right to manually adjust any band at any time to benefit the business and our teammates.
 
 **Commission**:
 
