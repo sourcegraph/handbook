@@ -195,21 +195,21 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Skill: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
   - Values: exceeds in many, exhibits all, deficient in none.
   - Expected distribution: ~20% of Teammates will fall in the **“Exceeding High Bar”** (high performance) category.
-  - * Recommended merit increase: 7.5-10%
+  - - Recommended merit increase: 7.5-10%
   - Merit increase frequency: Teammates rated as “Exceeding High Bar” are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
 - **Meeting High Bar**
   - Score: 2:2
   - Skill: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
   - Values: exceeds in some, exhibits most.
   - Expected distribution: ~70% of Teammates will fall in the **“Meeting High Bar”** (strong performance) category.
-  - * Recommended merit increase: 3-5%
+  - - Recommended merit increase: 3-5%
   - Merit increase frequency: Teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
 - **Not Meeting High Bar**
   - Score: 3:1, 3:2, 2:3, 1:3 or 3:3
   - Skill: your contributions are below expectations for your current level and must immediately improve.
   - Values: exhibits some, lacks in some, deficient in some.
   - Expected distribution: ~10% of Teammates will fall in the **“Not Meeting High Bar”** category.
-  - * Recommended merit increase: 0%
+  - - Recommended merit increase: 0%
   - Merit increase frequency: Teammates rated “Not Meeting High Bar” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
 
 * These merit increase ranges are just recommendations, not guarantees
