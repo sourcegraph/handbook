@@ -14,29 +14,24 @@ To read more about how we provide continuous feedback and our performance improv
 
 Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
 
-### When do they take place?
+### When do they take place & who is eligible?
 
 Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
 
-On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting and/or exceeding expectations. Teammates can receive an increase twice a year if they are a top-performer, or if they have fallen below the 75th percentile of their respective compensation band.
+To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
 
-- **1st review period: Q1**
-  - Launches February (corresponding promotion and/or pay increase goes into effect April 1st)
-- **2nd review period: Q3**
-  - Launches August (corresponding promotion and/or pay increase goes into effect October 1st)
+- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting and/or exceeding expectations.
+- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below.
+- Teammates can also receive an increase if they have fallen below the 75th percentile of their respective compensation band.
 
-### Who is eligible?
-
-Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
-
-- **1st review (Q1) eligibility rule**
-  - Must be hired on or before October 1st of the prior calendar year
-- **2nd review (Q3) eligibility rule**
-  - Must be hired on or before April 1st of the current calendar year
-
-To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least 4-months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
-
-Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below.
+- **1st review period of the year: 1H FY24**
+  - Launches February (corresponding promotion and/or pay increase goes into effect April 1st).
+  - This review period reviews a teammates performance between August 1st to January 31st.
+  - **Who is eligible:** Must be hired on or before October 1st, 2022.
+- **2nd review period of the year: 2H FY24**
+  - Launches August (corresponding promotion and/or pay increase goes into effect October 1st).
+  - This review period reviews a teammates performance between February 1st and July 31st.
+  - **Who is eligible:** Must be hired on or before April 1st, 2023.
 
 ### Who provides feedback?
 
