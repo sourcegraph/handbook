@@ -19,8 +19,9 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
 
 To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
-- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting and/or exceeding expectations. 
-- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below. 
+
+- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting and/or exceeding expectations.
+- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below.
 - Teammates can also receive an increase if they have fallen below the 75th percentile of their respective compensation band.
 
 - **1st review period of the year: 1H FY24**
@@ -31,7 +32,6 @@ To be eligible for a merit increase during the impact review cycle, a Teammate m
   - Launches August (corresponding promotion and/or pay increase goes into effect October 1st).
   - This review period reviews a teammates performance between February 1st and July 31st.
   - **Who is eligible:** Must be hired on or before April 1st, 2023.
-
 
 ### Who provides feedback?
 
