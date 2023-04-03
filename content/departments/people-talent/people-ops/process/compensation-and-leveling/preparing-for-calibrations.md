@@ -22,7 +22,7 @@ In preparation for your Calibration Session with your People Partner, all Manage
 3. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
 4. Review the below resources:
 
-- Review [rating definitions](../teammate-sentiment/impact-reviews/index.md#rating-definitions) to ensure you have a clear understanding of the differences between a 1, 2 and 3 rating 
+- Review [rating definitions](../teammate-sentiment/impact-reviews/index.md#rating-definitions) to ensure you have a clear understanding of the differences between a 1, 2 and 3 rating
 - Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
 - Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box
 - Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
