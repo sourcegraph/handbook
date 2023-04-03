@@ -8,12 +8,17 @@ Sourcegraph uses solely Cloud-based infrastructure and is moving towards holding
 
 This document covers all Cloud assets owned and/or managed by Sourcergaph in any Cloud provider. The responsibilities and requirements are broken into the following areas:
 
+- Ownership
 - Disaster recovery
 - Access controls
 - Infrastructure-as-code and change management
 - Secure baselines
 - Data protection
 - Logging, monitoring and incident response
+
+## Ownership
+
+All Cloud assets must have defined owners internally. The owner is responsible for ensuring that the asset is compliant with internal policies. An owner can be an individual (DRI) or a team. The creator of an asset is its owner unless clearly stated otherwise.
 
 ## Disaster recovery
 
