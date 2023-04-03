@@ -97,9 +97,9 @@ Remember:
   - Watch [Figma for Sourcegraphers part 2 (intro to the Wildcard Design System)](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view)
   - Read [Figma developers guide](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
 - Looker
-  - [How Sourcegraph uses Looker](../../../bizops/analytics/index.md#using-looker)
+  - [How Sourcegraph uses Looker](../../../data-analytics/looker.md)
 - Amplitude
-  - We use Amplitude for analytics on Sourcegraph Cloud. [More on Amplitude here](../../../bizops/tools/amplitude.md).
+  - We use Amplitude for analytics on Sourcegraph Cloud. [More on Amplitude here](../../../data-analytics/amplitude.md).
 - UserTesting.com
   - Walk through UserTesting.com with one of the designers on the team
 

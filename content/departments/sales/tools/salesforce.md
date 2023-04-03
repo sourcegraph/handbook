@@ -255,8 +255,6 @@ All of the contacts important to an opportunity should be linked. This should in
 
 This ensures that all deal-related communication is visible within the deal timeline for teammates to quickly get context surrounding the deal. This also allows us to evaluate the effectiveness of marketing channels and sales touchpoints that our team has with an organization. How we reached the person(s) who introduced Sourcegraph to their organization is one of the most important factors in evaluating the success of marketing activities.
 
-If a deal comes through a referral or introduction, tell [BizOps](../../bizops/index.md) so an adjustment can be made in the database to reflect this.
-
 ### When a deal is won
 
 1. On 'New Business', make sure you have added products to the Opportunity following the linked demo: [Add Products Demo](https://screenrec.com/share/5EQcvILwON)

@@ -31,9 +31,8 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Metrics
 
-- [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
-- [User metrics definitions](../../bizops/process/user_definitions.md)
-- [How to add metrics](../../bizops/analytics/index.md#How-to)
+- [User metrics definitions](../../data-analytics/documentation.md)
+- [How to add metrics](../../data-analytics/documentation.md#how-to)
 
 ## References
 
