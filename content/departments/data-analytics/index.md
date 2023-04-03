@@ -39,7 +39,7 @@ The Data and Analytics team will strive to be Handbook first. Have a question? L
 
 There is an analyst on support each week that will be answering questions and triaging requests that come through these channels.
 
-See all [FAQs here](faq.md). 
+See all [FAQs here](faq.md).
 
 **How to know what we are working on:**
 
