@@ -242,12 +242,12 @@ It is essential for Sourcegraph to establish clear data sharing guidelines to pr
   - Our approved vendors undergo a rigorous review process before onboarding and must be legitimate and reputable organizations that have agreed to abide by the same data privacy and security standards as our organization.
   - Hence, no sensitive information (like customer and personal data) should be shared with any 3rd party that has not been approved by this process.
 
-### When using AI chatbots such as Claude, ChatGPT, or others:
+### When using third-party AI chatbots such as ChatGPT, Claude, or others:
 
-- Do not submit any customer information
-- Do not submit any personal data. This includes individual users, teammates, candidates, etc.
-- Do not submit submit any “restricted” or “private” information per the [Data Classification Categories](../../company-info-and-process/policies/data-management-policy.md#data-classification)
-- Opt out of data use by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLScrnC-_A7JFs4LbIuzevQ_78hVERlNqqCPCt3d8XqnKOfdRdQ/viewform) and entering our organization ID.
+- Do **not** submit any customer information
+- Do **not** submit any personal data. This includes individual users, teammates, candidates, etc.
+- Do **not** submit submit any “restricted” or “private” or "internal" information per the [Data Classification Categories](../../company-info-and-process/policies/data-management-policy.md#data-classification)
+- Opt out of data use by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLScrnC-_A7JFs4LbIuzevQ_78hVERlNqqCPCt3d8XqnKOfdRdQ/viewform).
 
 # Misc Links
 
