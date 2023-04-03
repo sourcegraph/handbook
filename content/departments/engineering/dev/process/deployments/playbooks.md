@@ -17,6 +17,7 @@
       - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
     - [Restarting docs.sourcegraph.com](#restarting-docssourcegraphcom)
     - [Creating banners for maintenance tasks](#creating-banners-for-maintenance-tasks)
+    - [Gitserver disk space related maintenance](#gitserver-disk-space-related-maintenance)
   - [k8s.sgdev.org](#k8ssgdevorg)
     - [Manage users in k8s.sgdev.org](#manage-users-in-k8ssgdevorg)
   - [PostgreSQL](#postgresql)
@@ -200,6 +201,111 @@ You may be unable to perform some write actions during this time, such as updati
     },
 ]
 ```
+
+### Gitserver disk space related maintenance
+
+We clone a public GitHub.com repo on dotcom if a user visits it and it is not already cloned. This means over time, dotcom accumulates a lot of repos that are visited maybe a long time ago and do not need to be stored on disk - especially if gitserver's free disk space if running low. As a result, it usually doesn't hurt to delete these repos, most of which happen to be 0 stars. 
+
+In the last round of cleanup in March 2023, we removed 1.8 million 0 star repos that used up a cumulative disk space of 65TB across all gitserver shards. This cleanup also ensured that we do not need to increase the disk size immediately as we were had only about ~10% free disk space prior to the cleanup.
+
+Increasing the disk space is costly ([30TB costs ~$5k per month for the current tier of disk we use in gitserver on dotcom](https://cloud.google.com/products/calculator#id=47a69a3f-3841-46fb-8695-ac40e7094ac6)), both in immediate expenses for extra storage and future costs in terms of efforts and risk should we need to reduce the disk size. Reducing disk size is time consuming, risky and potentially incurs downtime and can also lead to data loss. All of this indicates that we should do our best to stay within the currently allocated disk sizes as best as we can and only increase disk space if we really are sure that it is the right choice and have weighed in all other options in depth.
+
+Dotcom lazily syncs GitHub.com repositories, which also makes it safe to delete those repositories since they will not be cloned automatically the next time the code host connection completes a sync.
+
+At the time of writing this doc, we do not store information on when a last repository was visited by a user although adding this is planned but not promised. If you are reading this doc and last visited information is now available, you should factor that into deciding which repos should be deleted. Currently, we delete 0 star repos to start with and if that is not enough then we delete 1 star repos, however the more the number of stars increases, the gains in recovered disk space start reducing down, for example all 0 star repos when we did the last cleanup amounted to ~65TB, and all 1 star repos amounted to ~11TB while 2 star repos amounted to just ~5GB.
+
+To find out disk space used by repos you may use a query like the following for example, where we find the count and total disk space used by all 0 star repos synced with GitHub.com:
+
+```sql
+SELECT
+	count(*),
+	pg_size_pretty(sum(repo_size_bytes))
+FROM (
+	SELECT
+		*
+	FROM
+		repo
+		JOIN gitserver_repos gr ON repo.id = gr.repo_id
+		JOIN external_service_repos esr ON esr.repo_id = repo.id
+			AND esr.external_service_id = 4
+	WHERE
+		repo.stars < 1
+		AND repo.external_service_type = 'github'
+		AND repo.deleted_at IS NULL
+		AND repo.blocked IS NULL
+		AND gr.clone_status = 'cloned') repo;
+```
+
+Once you've arrived at the final query that gives you right selection for the repos to deleted, you should use it to delete the repos in batches of 10000. The last time we ran the cleanup, deleting 10k repos took anywhere between 20-40 seconds depending on the usage of the `repo` table. As a result running in short batches is a good approach to quickly cancel and stop operations in case the need arises. Also incremental feedback every half a minute is great versus running a query for 10 hours and staring at a command not knowing if its still running or if its stuck.
+
+If the above query accurately reflects the set of repos to be deleted, then you can "mark the repo as deleted" by running the following query:
+
+```sql
+UPDATE repo
+SET name = soft_deleted_repository_name(name), deleted_at = now()
+WHERE id IN ((
+	SELECT
+		repo.id
+	FROM
+		repo
+		JOIN gitserver_repos gr ON repo.id = gr.repo_id
+		JOIN external_service_repos esr ON esr.repo_id = repo.id
+			AND esr.external_service_id = 4
+	WHERE
+		repo.stars < 1
+		AND repo.external_service_type = 'github'
+		AND repo.deleted_at IS NULL
+		AND repo.blocked IS NULL
+		AND gr.clone_status = 'cloned'
+	LIMIT 10000)); \watch 5;
+```
+
+This will delete 10000 repositories at a time and sleep for 5 seconds between each successful batch.
+
+Once the repos are marked as deleted, the [purge worker](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@05ccd17626361dc78ad76428c8734ac61dedf888/-/blob/internal/repos/purge.go?L23-66) will eventually recover the disk space that is occupied by these deleted repos.
+
+#### Blocked repos
+
+You might have noticed above that we do not delete blocked repos. This is essential because marking them as deleted means if the repository matches the filter patterns of any of the code hosts configured on dotcom, or if the repository is visited by a user on the website it will be cloned again, thereby defeating the purpose of blocking it in the first place.
+
+##### Outlandishly sized repos 
+
+Some repos contain data sets, binaries that are rarely useful for code search and do nothing but occupy a ton of disk space. You may want to list the largest repos that are on disk and not blocked and either block or deleted them on a case by case basis.
+
+For example, the following query will list the id, name, gitserver shard and the disk space used by the 100 largest repos in descending order:
+
+```sql
+SELECT
+	r.id,
+	r.name,
+	gr.shard_id,
+	pg_size_pretty(gr.repo_size_bytes)
+FROM
+	repo AS r
+	JOIN gitserver_repos AS gr ON r.id = gr.repo_id
+WHERE
+	r.deleted_at IS NULL
+	AND r.blocked IS NULL
+	AND gr.repo_size_bytes IS NOT NULL
+ORDER BY
+	repo_size_bytes DESC
+LIMIT 100;
+```
+
+##### Blocking a repo
+
+Get the current timestamp from [epochconverter.com](https://www.epochconverter.com/) and use it to mark the repo as blocked:
+
+```
+UPDATE
+	repo
+SET
+	blocked = '{"at": "<insert-timestamp>", "reason": "<add an appropriate reason>"}'
+WHERE
+	id = <ID-OF-REPO>;
+```
+
+Gitserver will then [select the repo](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@05ccd17626361dc78ad76428c8734ac61dedf888/-/blob/internal/database/gitserver_repos.go?L228) to be purged from disk.
 
 ## k8s.sgdev.org
 
