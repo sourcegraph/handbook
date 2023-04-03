@@ -1616,17 +1616,6 @@ laura_hacker:
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
   description: 'Laura lives in Grand Rapids, Michigan with her husband and their cat. In addition to her computer science degree, she also spent several years studying zoology and still has plenty of random animal facts to share. Outside of work, she likes to try out different art mediums and crafts, experiment with baking new recipes, and spend time with her family and friends.'
 
-david_james_johnson:
-  name: David James Johnson
-  email: davidjames.johnson@sourcegraph.com
-  role: Enterprise Account Executive
-  pronouns: he/him
-  reports_to: regional_director_sales_east
-  location: Atlanta, GA, USA 🇺🇸
-  github: davidjamesjohnson
-  links: '[LinkedIn](https://www.linkedin.com/in/david-james-johnson)'
-  description: David James lives in Atlanta with his cat (Luna) and dog (Hugo). He aims to help customers solve complex problems while exceeding their sales process expectations. During his free time, David James enjoys cooking while listening to jazz, soul, or bluegrass music, and traveling whenever possible. He loves to visit New Orleans and New York, and hopes to one day go to New Zealand - he hates old places.
-
 tracey_johnson:
   name: Tracey Johnson
   email: tracey.johnson@sourcegraph.com
