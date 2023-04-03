@@ -283,11 +283,11 @@ are working on this piece of code?
 
 #### Hiring Manager Interview
 
-- **Interviewers:** Quinn Slack, co-founder and CEO
+- **Interviewers:** Steve Yegge, Head of Engineering
 
 - **Duration:** 30-minutes.
 
-- **Details:** During this stage in the interview process, Quinn will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you.
+- **Details:** During this stage in the interview process, Steve will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you.
 
 #### Interview with Beyang Liu
 
