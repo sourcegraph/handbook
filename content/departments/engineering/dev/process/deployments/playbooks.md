@@ -204,7 +204,7 @@ You may be unable to perform some write actions during this time, such as updati
 
 ### Gitserver disk space related maintenance
 
-We clone a public GitHub.com repo on dotcom if a user visits it and it is not already cloned. This means over time, dotcom accumulates a lot of repos that are visited maybe a long time ago and do not need to be stored on disk - especially if gitserver's free disk space if running low. As a result, it usually doesn't hurt to delete these repos, most of which happen to be 0 stars. 
+We clone a public GitHub.com repo on dotcom if a user visits it and it is not already cloned. This means over time, dotcom accumulates a lot of repos that are visited maybe a long time ago and do not need to be stored on disk - especially if gitserver's free disk space if running low. As a result, it usually doesn't hurt to delete these repos, most of which happen to be 0 stars.
 
 In the last round of cleanup in March 2023, we removed 1.8 million 0 star repos that used up a cumulative disk space of 65TB across all gitserver shards. This cleanup also ensured that we do not need to increase the disk size immediately as we were had only about ~10% free disk space prior to the cleanup.
 
@@ -268,7 +268,7 @@ Once the repos are marked as deleted, the [purge worker](https://sourcegraph.com
 
 You might have noticed above that we do not delete blocked repos. This is essential because marking them as deleted means if the repository matches the filter patterns of any of the code hosts configured on dotcom, or if the repository is visited by a user on the website it will be cloned again, thereby defeating the purpose of blocking it in the first place.
 
-##### Outlandishly sized repos 
+##### Outlandishly sized repos
 
 Some repos contain data sets, binaries that are rarely useful for code search and do nothing but occupy a ton of disk space. You may want to list the largest repos that are on disk and not blocked and either block or deleted them on a case by case basis.
 
