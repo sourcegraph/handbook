@@ -8,14 +8,14 @@ Sourcegraph uses solely Cloud-based infrastructure and is moving towards holding
 
 This document covers all Cloud assets owned and/or managed by Sourcergaph in any Cloud provider. The responsibilities and requirements are broken into the following areas:
 
-- Disaster Recovery
+- Disaster recovery
 - Access controls
 - Infrastructure-as-code and change management
 - Secure baselines
 - Data protection
 - Logging, monitoring and incident response
 
-## Disaster Recovery
+## Disaster recovery
 
 We will maintain a documented Disaster Recovery plan for Cloud assets containing Restricted data, or any assets under compliance that requires so. The Disaster Recovery plans are tested on an annual basis and tests properly documented.
 
@@ -23,7 +23,7 @@ We will maintain a documented Disaster Recovery plan for Cloud assets containing
 
 Our Cloud IAM is designed to enforce the principles of least privilege and segregation of duties. Access to any non-public data must require MFA options. Access to Restricted and Private data must require approval. Wherever possible access logs should be collected and monitored.
 
-## Infrastructure-as-code and Change Management
+## Infrastructure-as-code and change management
 
 All assets containing Private or Restricted data should be defined and config through Infrastructure-as-Code (IaC). All changes to the infrastructure must be approved. Wherever possible changes should be made through automation and manual operations limited.
 
@@ -41,7 +41,7 @@ We enforce data encryption at-rest and in-transit for assets containing Restrict
 
 Assets containing Restricted or Private data should be logged. Logs should be monitored and designed to be alerted upon through detection mechanisms. Sourcegraph shall maintain trained Incident Response teams with documented playbooks and incident management practices. The [Security Incident Response Policy](../../departments/security/security-incident-response.md) defines who should report incidents and how.
 
-## Policy Compliance
+## Policy compliance
 
 Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits.
 
@@ -49,7 +49,7 @@ Sourcegraph will measure and verify compliance to this policy through various me
 
 Exceptions to this policy must be documented in the Risk Register and approved by the Policy Owner.
 
-## Violations & Enforcement
+## Violations and enforcement
 
 Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
