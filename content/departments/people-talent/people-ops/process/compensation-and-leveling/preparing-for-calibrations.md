@@ -24,9 +24,9 @@ In preparation for your Calibration Session with your People Partner, all Manage
 
 - Review the [rating definitions](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/#rating-definitions) to ensure you have a clear understanding of what the differentiators are between ratings
 - Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
-- Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box
+- Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box and the difference between meeting, exceeding, and not exceeding our high bar
 - Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
-- Review your team's [career framework](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) to ensure you're well versed on levels. You can also review our [company-wide level framework here](../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#job-levels-at-sourcegraph).
+- Review your team's [career framework](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) to ensure you're well versed on levels... you can also review our [company-wide level framework here](../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#job-levels-at-sourcegraph)
 
 ## Calibration Session Agenda
 
