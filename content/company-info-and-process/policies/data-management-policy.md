@@ -83,7 +83,7 @@ There is currently no internal requirement to label data according to this polic
 
 ### **Restricted Data Handling**
 
-Restricted data is subject to the following protection and handling requirements as well as the full list under “Confidential Data Handling”:
+Restricted data is subject to the following protection and handling requirements as well as the full list under “Private Data Handling”:
 
 - Business need-to-know required for approved business functions
 - Logging and monitoring of access required
@@ -92,21 +92,21 @@ Restricted data is subject to the following protection and handling requirements
 - Restricted data shall be encrypted in transit over public networks and at rest
 - NDA required (if disclosed to a 3rd party)
 
-### **Confidential Data Handling**
+### **Private Data Handling**
 
-Confidential data is subject to the following protection and handling requirements:
+Private data is subject to the following protection and handling requirements:
 
 - Access is restricted to specific employees, roles and/or departments
-- Confidential systems shall not allow unauthenticated or anonymous access
-- Confidential Customer Data shall not be used or stored in non-production systems/environments
-- Confidential data shall be encrypted in transit over public networks
-- Mobile device hard drives containing confidential data, including laptops, shall be encrypted
-- Mobile devices storing or accessing confidential data shall be protected by a log-on password or passcode and shall be configured to lock the screen after five (5) minutes of non-use
+- Private systems shall not allow unauthenticated or anonymous access
+- Private Customer Data shall not be used or stored in non-production systems/environments
+- Private data shall be encrypted in transit over public networks
+- Mobile device hard drives containing private data, including laptops, shall be encrypted
+- Mobile devices storing or accessing private data shall be protected by a log-on password or passcode and shall be configured to lock the screen after five (5) minutes of non-use
 - Backups shall be encrypted
-- Confidential data shall not be stored on personal phones or devices or removable media including USB drives, CD’s, or DVD’s
-- Paper records shall be labeled “confidential” and securely stored and disposed
-- Hard drives and mobile devices used to store confidential information must be securely wiped prior to disposal or physically destroyed
-- Transfer of confidential data to people or entities outside the company shall only be done in accordance with a legal contract or arrangement, and the explicit written permission of management or the data owner
+- Private data shall not be stored on personal phones or devices or removable media including USB drives, CD’s, or DVD’s
+- Paper records shall be labeled “Private” and securely stored and disposed
+- Hard drives and mobile devices used to store private information must be securely wiped prior to disposal or physically destroyed
+- Transfer of rivate data to people or entities outside the company shall only be done in accordance with a legal contract or arrangement, and the explicit written permission of management or the data owner
 
 ### **Internal Data Handling**
 
@@ -128,9 +128,9 @@ Sourcegraph shall retain data as long as the company has a need for its use, or 
 
 ## **Data & Device Disposal**
 
-Data classified as confidential shall be securely deleted when no longer needed. Sourcegraph shall assess the data and disposal practices of third-party vendors in accordance with the Third-Party Management Policy. Only third-parties who meet Sourcegraph requirements for secure data disposal shall be used for storing and processing confidential data.
+Data classified as private shall be securely deleted when no longer needed. Sourcegraph shall assess the data and disposal practices of third-party vendors in accordance with the Third-Party Management Policy. Only third-parties who meet Sourcegraph requirements for secure data disposal shall be used for storing and processing private data.
 
-Sourcegraph shall ensure that all confidential data is securely deleted from company devices prior to, or at the time of disposal.
+Sourcegraph shall ensure that all private data is securely deleted from company devices prior to, or at the time of disposal.
 
 ## **Annual Data Review**
 
@@ -451,7 +451,7 @@ host (asset) data is retained until removed and purged from Qualys
   </tr>
   <tr>
    <td>
-    <strong>Confidential </strong>
+    <strong>Private </strong>
    </td>
    <td>
     Considerable Impact.
