@@ -8,6 +8,7 @@ Sourcegraph uses solely Cloud-based infrastructure and is moving towards holding
 
 This document covers all Cloud assets owned and/or managed by Sourcergaph in any Cloud provider. The responsibilities and requirements are broken into the following areas:
 
+- Disaster Recovery
 - Access controls
 - Infrastructure-as-code and change management
 - Secure baselines
