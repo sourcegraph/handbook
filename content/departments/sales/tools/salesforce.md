@@ -260,29 +260,39 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 #### New Taxonomy:
 
 New Business: New Customer, New Business Unit, New Team if multiple buying teams within a single business unit
+
 Account Name - Business Unit - Team - New Business - Enterprise OR Enterprise Starter - CIP # of Seats
+
 Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats
 
 Flat Renewal: No Change to Contract
+
 Account Name - Business Unit - Team - Renewal - [ProductName] # of Seats
 ProductName = Search Only, Search + Batch, Search + Insights, CIP
+
 Ex. Oracle - Hospitality Group - Renewal - Search Only - 16 Seats
 
 Expansions: Sale of New Product, Upgrade to CIP
+
 Account Name - Business Unit - Team - Expansion - [NewProductName] # of Seats
 NewProductName = Search Only, Search + Batch, Search + Insights, CIP Enterprise, CIP Enterprise Starter
+
 Ex. Wayfair - Expansion - Search + Batch - 50 Seats
 
 Expansions: Increase in Number of Seats
+
 Account Name - Business Unit - Team - Expansion - [ProductName] [Add’l # of Seats]
 ProductName = Search Only, Search + Batch, Search + Insights, CIP
 Add’l # of Seats – Additional number of licenses being purchased
+
 Ex. Apple - SPG - Search Only - 35 Users
 
 Churn: Used Only When iARR is Negative
+
 Account Name - Business Unit - Team - Churn - [ProductName] [ChurnPotential]
 ProductName = Search Only, Search + Batch, Search + Insights, CIP Enterprise, CIP Enterprise Starter
 ChurnPotential = Partial, Full
+
 Ex. Uber - Search Only - Churn - Full
 
 #### Unique Tagging:
@@ -290,13 +300,21 @@ Ex. Uber - Search Only - Churn - Full
 ##### Opportunities Related to Cody
 
 Cody remains in the experimental stage, however we are actively gauging market interest. There are two ways to tag Cody opportunities:
+
 For existing customers:
+
 Append Cody Interest to the name of the opportunity
+
 Ex. Wayfair - Expansion - Search + Batch - 50 Seats - Cody Interest
+
 For new prospects:
+
 If a prospect is interested in Cody as part of the overall Sourcegraph CIP, append Cody Interest to the name of the opportunity
+
 Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats - Cody Interest
+
 If a prospect is interested in Cody as a VS extension only and is not interested in purchasing Sourcegraph, append VS Cody (No SG) to the name of the opportunity
+
 Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats - VS Cody (No SG)
 
 ### Associating contacts to opportunities
