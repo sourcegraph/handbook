@@ -36,3 +36,16 @@ We use Entitle as our permission management system.
 
 - An Intro on [Entitle](entitle.md)
 - [How To Guide](entitle_request.md)
+
+## Cloudflare Token
+
+We use Cloudflare tokens to manage access to our Cloudflare account.
+
+The token is used by our Terraform code to manage DNS records and other Cloudflare services
+
+Update the token [here](https://console.cloud.google.com/security/secret-manager/secret/CLOUDFLARE_API_TOKEN/versions?project=sourcegraph-ci)
+and [here](https://console.cloud.google.com/security/secret-manager/secret/CLOUDFLARE_API_TOKEN/versions?project=sourcegraph-secrets)
+
+We typically set a 1 year expiry on the token.
+
+Make sure to test that the token works by running `terraform plan` in the `infrastructure` repository on the relevant code
