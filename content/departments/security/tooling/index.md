@@ -43,8 +43,7 @@ We use Cloudflare tokens to manage access to our Cloudflare account.
 
 The token is used by our Terraform code to manage DNS records and other Cloudflare services
 
-Update the token [here](https://console.cloud.google.com/security/secret-manager/secret/CLOUDFLARE_API_TOKEN/versions?project=sourcegraph-ci)
-and [here](https://console.cloud.google.com/security/secret-manager/secret/CLOUDFLARE_API_TOKEN/versions?project=sourcegraph-secrets)
+Update the token [here](https://console.cloud.google.com/security/secret-manager/secret/CLOUDFLARE_API_TOKEN/versions?project=sourcegraph-ci), [here](https://console.cloud.google.com/security/secret-manager/secret/CLOUDFLARE_API_TOKEN/versions?project=sourcegraph-secrets) and in the [Terraform Cloud varset](https://app.terraform.io/app/sourcegraph/settings/varsets/varset-HYQK3eJLUcgQ3ZF5).
 
 We typically set a 1 year expiry on the token.
 
