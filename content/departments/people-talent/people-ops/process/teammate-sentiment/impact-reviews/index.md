@@ -216,6 +216,8 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
 
 - The Teammate is already paid at the top end of the band
 - The Teammate received an off cycle increase prior to the impact cycle
+- The Teammate receives a spot bonus instead of a base increase
+- The Teammate got equity in lieu of a cash increase
 - Pay equity reasons
 
 ## Merit Philosophy
