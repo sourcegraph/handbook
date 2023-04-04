@@ -21,4 +21,4 @@ To reach out to individuals who are part of a Cloud organization, we need to che
 
 ## Process
 
-If you have a segment of users you'd like to reach out to (most commonly on Amplitude, where we have all emails hidden), please follow the guidelines on [how to work with the BizOps/Data & Analytics team](../../../../bizops/index.md#how-to-work-with-us).
+If you have a segment of users you'd like to reach out to (most commonly on Amplitude, where we have all emails hidden), please follow the guidelines on [how to work with the Data & Analytics team](../../../../data-ananlytics/index.md).
