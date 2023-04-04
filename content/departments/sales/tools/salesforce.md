@@ -268,10 +268,10 @@ Account Name - Business Unit - Team - Renewal - [ProductName] # of Seats
 ProductName = Search Only, Search + Batch, Search + Insights, CIP
 Ex. Oracle - Hospitality Group - Renewal - Search Only - 16 Seats
 
-Expansions:  Sale of New Product, Upgrade to CIP
+Expansions: Sale of New Product, Upgrade to CIP
 Account Name - Business Unit - Team - Expansion - [NewProductName] # of Seats
 NewProductName = Search Only, Search + Batch, Search + Insights, CIP Enterprise, CIP Enterprise Starter
-Ex. Wayfair - Expansion - Search + Batch - 50 Seats 
+Ex. Wayfair - Expansion - Search + Batch - 50 Seats
 
 Expansions: Increase in Number of Seats
 Account Name - Business Unit - Team - Expansion - [ProductName] [Add’l # of Seats]
@@ -298,7 +298,6 @@ If a prospect is interested in Cody as part of the overall Sourcegraph CIP, appe
 Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats - Cody Interest
 If a prospect is interested in Cody as a VS extension only and is not interested in purchasing Sourcegraph, append VS Cody (No SG) to the name of the opportunity
 Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats - VS Cody (No SG)
-
 
 ### Associating contacts to opportunities
 
