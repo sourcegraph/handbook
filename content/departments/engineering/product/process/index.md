@@ -36,7 +36,6 @@ The assigned sponsors for each use case are listed on the individual [use case p
   - [Product feedback monitoring](feedback/product_feedback_monitoring.md) - how we respond to user feedback for the feedback channels the product team owns.
   - [Surfacing feedback to the product team](feedback/surfacing_product_feedback.md) - how other teams surface feedback
 - Metrics
-  - [How to add metrics](../../../bizops/analytics/#How-to)
 
 ### Prioritize & build
 
@@ -74,7 +73,7 @@ Unless the change is extremely wide in impact (a large about site update, a majo
 - [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../../strategy-goals/strategy/index.md), covering vision, strategy and short term direction.
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
-- [Amplitude](../../../bizops/tools/amplitude.md)
+- [Amplitude](../../../data-analytics/amplitude.md)
 - [Running remote hackathons](../../../../company-info-and-process/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ### Product data
@@ -126,7 +125,7 @@ It's important to keep in mind that, when multiple parties are disagreeing on th
 
 - [Onboarding to the product team](../onboarding/index.md)
 - [Sourcegraph messaging](../../../marketing/process/messaging.md)
-- [Working with BizOps](../../../bizops/index.md#how-to-work-with-us)
+- [Working with Data & Analytics](../../../data-analytics/index.md#communicationsasking-a-question)
 - [Recommended reading](../onboarding/recommended_reading.md)
 
 ## Deprecated
