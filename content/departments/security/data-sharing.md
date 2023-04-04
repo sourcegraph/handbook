@@ -15,22 +15,13 @@ It is essential for Sourcegraph to establish clear data sharing guidelines to pr
   - Our approved vendors undergo a rigorous [review process]() before onboarding and must be legitimate and reputable organizations that have agreed to abide by the same data privacy and security standards as our organization.
   - Hence, no sensitive information (like customer and personal data) should be shared with any 3rd party that has not been approved by this process.
 
-
-
-
-# AI third party data sharing 
+# AI third party data sharing
 
 In today's era of advancing AI, the use of LLM and chatbots has become widespread. As an innovative company, we want to empower our teams with the latest technology to maximize productivity, including enabling them to utilize AI tools responsibly and legally.
 
-Below you can find a matrix to help you make informed decisions about what data is appropriate to share with AI-powered tools: 
+Below you can find a matrix to help you make informed decisions about what data is appropriate to share with AI-powered tools:
 
-
-
-
->**NOTE** - Do **NOT** submit any **credentials** to a 3rd party
-
-
-
+> **NOTE** - Do **NOT** submit any **credentials** to a 3rd party
 
 <table>
   <tr>
@@ -95,15 +86,15 @@ Below you can find a matrix to help you make informed decisions about what data 
   </tr>
 </table>
 
+#### Reasoning:
 
-
-#### Reasoning: 
-- Contract governing Cody queries to Anthropic and OpenAI include zero retention policy & exclusion of data for training of LLMs 
+- Contract governing Cody queries to Anthropic and OpenAI include zero retention policy & exclusion of data for training of LLMs
 - PII is governed by legal obligations and therefore should never be processed without consent
-- Empowering you to be productive is important, so we trust that you will make sound judgements using these guidelines on what to share 
-- Customers are using Cody for their sensitive information, so it is only right if we showcase them that we do too!  
+- Empowering you to be productive is important, so we trust that you will make sound judgements using these guidelines on what to share
+- Customers are using Cody for their sensitive information, so it is only right if we showcase them that we do too!
 
 ---
+
 **NOTE**
 
 When using **third-party AI chatbots** such as ChatGPT, Claude, or others:
@@ -112,5 +103,3 @@ When using **third-party AI chatbots** such as ChatGPT, Claude, or others:
 - Do **not** submit any personal data. This includes individual users, teammates, candidates, etc.
 - Do **not** submit submit any “restricted” or “private” or "internal" information per the [Data Classification Categories](../../company-info-and-process/policies/data-management-policy.md#data-classification)
 - **Opt out of data use by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLScrnC-_A7JFs4LbIuzevQ_78hVERlNqqCPCt3d8XqnKOfdRdQ/viewform).**
-
-
