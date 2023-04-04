@@ -43,6 +43,10 @@ Any analysis we conducted in Looker before we started using Amplitude we can con
 2. Events are formatted to fit Amplitude's schema, enhanced with user properties (company name, company region, etc) in [this scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/6319611b-0000-203e-8729-94eb2c0924fc/runs?project=telligentsourcegraph), and a JSON is created in a [GCS bucket](<https://console.cloud.google.com/storage/browser/event-usage-to-amplitude/data?project=telligentsourcegraph&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false>).
 3. Every hour Amplitude checks for new data in the GCS bucket to ingest.
 
+### Adding events to the data usage pipeline
+
+Usage events are filtered by an allowlist for egress which is documented [here](https://docs.sourcegraph.com/dev/background-information/data-usage-pipeline).
+
 ### Adding events to Amplitude
 
 WIP
