@@ -47,11 +47,11 @@ Below you can find a matrix to help you make informed decisions about what data 
   <tr>
    <td><strong>Restricted Data</strong>
    </td>
-   <td>Yes
+   <td>No
    </td>
    <td>No
    </td>
-   <td>Customer private source code snippets (for support purposes)
+   <td>Customer private source code, credentials
    </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ Below you can find a matrix to help you make informed decisions about what data 
    </td>
    <td>No
    </td>
-   <td>Customer roadmaps, customer number of codebases, customer challenges, private repository names, legal contracts, company financials, incident reports for security issues, private repository names, legal contracts, company financials, incident reports for security issues 
+   <td>Customer roadmaps, customer number of codebases, customer challenges, customer repository names, private repository names, legal contracts, company financials, incident reports for security issues, private repository names, legal contracts, company financials, incident reports for security issues 
    </td>
   </tr>
   <tr>
