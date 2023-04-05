@@ -4,10 +4,9 @@
 
 The CE team should take the first pass on inbound questionnaires using our [Knowledge Base](https://app.safebase.io/knowledge).
 
-Once the first pass is done but questions remain open, please use the slaack workflow **"Ask security a question"** in the #ask-security slack channel. (click the lightning bolt sign on the bottom left hand corner). 
+Once the first pass is done but questions remain open, please use the slaack workflow **"Ask security a question"** in the #ask-security slack channel. (click the lightning bolt sign on the bottom left hand corner).
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/Slack-ask-security-a-question-workflow.png" width="450" height="500">
-
 
 > 💡 **Top Tip!** See the handbook page [here](../../security/security-trust-center.md) on how to access our Security Portal as an internal user.
 
