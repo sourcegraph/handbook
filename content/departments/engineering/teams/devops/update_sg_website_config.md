@@ -8,8 +8,8 @@ Site configuration for sourcegraph.com is split into two files. One contains non
 
 ### Non-sensitive configurations
 
-Non-sensitive configurations and env vars are stored in an [overlay](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/overlays/prod/frontend/files/site.json).
-Other config files can be found in the [overlay folder](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-cloud%24+file:%5Eoverlays/prod/frontend&patternType=literal)
+Non-sensitive configurations and env vars are stored in an [overlay](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/overlays/prod/frontend/files/site.json).
+Other config files can be found in the [overlay folder](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-cloud%24+file:%5Eoverlays/prod/frontend&patternType=literal).
 
 To update the non-sensitive configuration, follow these steps:
 
@@ -21,17 +21,29 @@ To update the non-sensitive configuration, follow these steps:
 
 ### Sensitive configurations
 
-Our site configuration contains many secrets like OAuth credentials. It is [stored in GSM](https://console.cloud.google.com/security/secret-manager/secret/SITE_JSON/versions?project=sourcegraph-dev) in the `sourcegraph-dev` project. To update secrets in site config for our Cloud deployment, follow these steps:
+Our site configuration contains many secrets like OAuth credentials. It is [stored in GSM](https://console.cloud.google.com/security/secret-manager/secret/SITE_JSON/versions?project=sourcegraph-dev) in the `sourcegraph-dev` project. The secrets are synced to the cluster using [Terraform](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/gsm-secrets.tf), and is managed in the [dotcom workspace](https://app.terraform.io/app/sourcegraph/workspaces/dotcom) on Terraform Cloud.
+
+> NOTE: syncing new secret versions requires access to Terraform Cloud. Reach out to #ask-security to get access, or request #ask-dev-experience or #ask-security to run the workspace for you.
+
+To update secrets in site config for our Dotcom deployment, follow these steps:
 
 1. In GSM, copy the contents of the latest version of the secret and make the necessary changes.
 1. Create a new secret version with the updated site configuration. Disable all previous versions.
-1. Run `terraform plan` in `sourcegraph/infrastructure/cloud`. You should see only the `frontend-secrets` resource being changed.
-1. Run `terraform apply` to apply the changes in our Cloud cluster
-1. Run `kubectl rollout restart -n prod deployments/sourcegraph-frontend` and `kubectl rollout restart -n prod deployments/sourcegraph-frontend-internal`. Make sure you are connected to the Cloud cluster with `kubectl config current-context`.
+1. Start a new run in the [dotcom workspace](https://app.terraform.io/app/sourcegraph/workspaces/dotcom)
+   1. Click **Actions** &rarr; **Start a new run**
+   1. Specify that the reason for running is to sync secrets
+   1. Select the run type **Plan and apply (standard)**
+   1. Press **Start run**
+1. Request access to the permissions set **Sourcegraph Dot Com projects** using Entitle
+1. Once the Terraform run has applied and the Entitle request has been approved, make sure you are connected to the Dotcom cluster with `kubectl config current-context`, then run the following commands:
+   ```shell
+   kubectl rollout restart -n prod deployments/sourcegraph-frontend
+   kubectl rollout restart -n prod deployments/sourcegraph-frontend-internal
+   ```
 
 ### External services connections
 
-External service connections are handled through the sourcegraph.com UI. The only credentials managed through GSM are for the Cloud default GitHub and GitLab connections. To rotate those tokens follow these steps:
+External service connections are handled through the sourcegraph.com UI. The only credentials managed through GSM are for the Dotcom default GitHub and GitLab connections. To rotate those tokens follow these steps:
 
 1. Generate a new API token from the code host. Make sure it's properly documented in 1password.
 1. On the external service configuration, replace `REDACTED` by the new token and save changes.
@@ -40,4 +52,4 @@ External service connections are handled through the sourcegraph.com UI. The onl
 
 ### Note:
 
-Changes to the notices section can be merged by the author without explicit approval from the DevOps team.
+Changes to the notices section can be merged by the author without explicit approval from the DevEx team.
