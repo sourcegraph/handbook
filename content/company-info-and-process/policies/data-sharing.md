@@ -51,7 +51,7 @@ Below you can find a matrix to help you make informed decisions about what data 
    </td>
    <td>No
    </td>
-   <td>Customer private source code
+   <td>Customer private source code snippets (for support purposes)
    </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ Below you can find a matrix to help you make informed decisions about what data 
    </td>
    <td>No
    </td>
-   <td>private repository names, legal contracts, company financials, incident reports for security issues 
+   <td>Customer roadmaps, customer number of codebases, customer challenges, private repository names, legal contracts, company financials, incident reports for security issues, private repository names, legal contracts, company financials, incident reports for security issues 
    </td>
   </tr>
   <tr>
