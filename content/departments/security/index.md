@@ -227,7 +227,7 @@ The secure coding guidelines contain information on how to address and prevent c
 
 ## Data Sharing
 
-Please read about our data sharing practises and guidelines [here](data-sharing.md).
+Please read about our data sharing practises and guidelines [here](../../company-info-and-process/policies/data-sharing.md).
 
 # Misc Links
 
