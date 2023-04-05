@@ -201,11 +201,13 @@ However, in order to preserve site admin access for Sourcegraph operators, we ne
 To restart the frontend for a customer, you can either execute:
 
 #### Automated (recommended)
+
 1. Navigate to the [Reload Instance Frontend](https://github.com/sourcegraph/cloud/actions/workflows/mi_reload_frontend.yml) GitHub Actions page
 1. Click the "Run Workflow" button
 1. Enter in the customer slug and select `prod` as the environment. If you do not know the slug, refer to the `Name` field of the table at http://go/cloud-ops.
 
 #### Manually (requires [Cloud V2 Prod Access](https://app.entitle.io/request?bundleId=ce56e0e6-15d6-4f3a-93df-dd2418d378ec&targetType=bundle))
+
 ```sh
 mi2 instance workon -e prod -s <customer slug> -exec
 mi2 instance check pods-health
