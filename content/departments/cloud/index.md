@@ -198,16 +198,19 @@ However, in order to preserve site admin access for Sourcegraph operators, we ne
 
 > NOTE: If you are a Cloud teammate, follow the regular operation playbook.
 
-Are you a member of our CE & CS teams?
+To restart the frontend for a customer, you can either execute:
 
-- Visit [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
-- Locate the `slug` of the customer instance from list of folders
-- Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
-- Click `Run workflow` and input the `slug` of customer instance
-- Click the `Run workflow` green button
-- Done! It shouldn't take more than 2 minutes
+#### Automated (recommended)
+1. Navigate to the [Reload Instance Frontend](https://github.com/sourcegraph/cloud/actions/workflows/mi_reload_frontend.yml) GitHub Actions page
+1. Click the "Run Workflow" button
+1. Enter in the customer slug and select `prod` as the environment. If you do not know the slug, refer to the `Name` field of the table at http://go/cloud-ops.
 
-<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+#### Manually (requires [Cloud V2 Prod Access](https://app.entitle.io/request?bundleId=ce56e0e6-15d6-4f3a-93df-dd2418d378ec&targetType=bundle))
+```sh
+mi2 instance workon -e prod -s <customer slug> -exec
+mi2 instance check pods-health
+kubectl rollout restart deployments/sourcegraph-frontend
+```
 
 ### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
 
