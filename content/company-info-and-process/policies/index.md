@@ -17,5 +17,5 @@
 - [Third-party management policy](third-party-management-policy.md)
 
 ## Guidelines
-- [Data Sharing](data-sharing.md)
 
+- [Data Sharing](data-sharing.md)
