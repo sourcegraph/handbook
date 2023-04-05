@@ -15,3 +15,7 @@
 - [Secure development policy](secure-development-policy.md)
 - [Security incident response policy](../../departments/security/security-incident-response.md)
 - [Third-party management policy](third-party-management-policy.md)
+
+## Guidelines
+
+- [Data Sharing](data-sharing.md)
