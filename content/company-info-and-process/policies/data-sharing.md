@@ -23,68 +23,9 @@ Below you can find a matrix to help you make informed decisions about what data 
 
 > **NOTE** - Do **NOT** submit any **credentials** to a 3rd party
 
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Cody</strong>
-   </td>
-   <td><strong>AI Chatbot (Claude on Slack, ChatGPT)</strong>
-   </td>
-   <td><strong>Example Data</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>PII</strong>
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>Full Name, Phone Number, Email, Address, Social Security Number, DOB, Credit Card Details
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Restricted Data</strong>
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>Customer private source code, credentials
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Private </strong>
-   </td>
-   <td>Yes
-   </td>
-   <td>No
-   </td>
-   <td>Customer roadmaps, customer number of codebases, customer challenges, customer repository names, private repository names, legal contracts, company financials, incident reports for security issues, private repository names, legal contracts, company financials, incident reports for security issues 
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Internal </strong>
-   </td>
-   <td>Yes
-   </td>
-   <td>No
-   </td>
-   <td>Sourcegraph private code, Private RFCs, slack channel content discussing internal matters, SOC 2 report
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Public </strong>
-   </td>
-   <td>Yes
-   </td>
-   <td>Yes
-   </td>
-   <td>Handbook, externally facing documentation, security portal general information
-   </td>
-  </tr>
-</table>
+
+<img src="https://storage.googleapis.com/sourcegraph-assets/AI%20data%20sharing.png" alt="A beautiful sunset over the ocean" width="600" height="400">
+
 
 #### Reasoning:
 
