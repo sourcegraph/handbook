@@ -23,9 +23,7 @@ Below you can find a matrix to help you make informed decisions about what data 
 
 > **NOTE** - Do **NOT** submit any **credentials** to a 3rd party
 
-
 <img src="https://storage.googleapis.com/sourcegraph-assets/AI%20data%20sharing.png" alt="A beautiful sunset over the ocean" width="600" height="400">
-
 
 #### Reasoning:
 
