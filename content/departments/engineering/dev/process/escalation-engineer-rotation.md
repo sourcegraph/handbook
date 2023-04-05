@@ -11,16 +11,16 @@ Discuss escalation engineering rotation in #escalation-engineering.
 ## Rotations
 
 | Rotation                 | Engineers                                                                                                                                     |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2022-08-10 to 2022-09-06 | [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide)                                          |
 | 2022-09-07 to 2022-10-09 | [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov)                                          |
-| 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                                               |
-| 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                                                                   |
-| 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                                                         |
+| 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                                                          |
+| 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                                                    |
+| 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                                           |
 | 2022-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani) ,[Manuel Ucles](https://github.com/mucles) |
-| 2022-02-03 to 2023-03-03 | [Beatrix Woo](https://github.com/abeatrix), [Jacob Pleiness](https://github.com/jdpleiness) ,[Manuel Ucles](https://github.com/mucles)  |
-| 2022-03-03 to 2023-04-05 | ?                                                                                                                                                           |
-| 2022-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek)                                               |
+| 2022-02-03 to 2023-03-03 | [Beatrix Woo](https://github.com/abeatrix), [Jacob Pleiness](https://github.com/jdpleiness) ,[Manuel Ucles](https://github.com/mucles)        |
+| 2022-03-03 to 2023-04-05 | ?                                                                                                                                             |
+| 2022-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek)                                                   |
 
 ## Benefits
 
