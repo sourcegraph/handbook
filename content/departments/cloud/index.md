@@ -192,6 +192,8 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
+[Sourcegraph teammate access to Cloud instances](technical-docs/oidc_site_admin.md) is configured separately at the infrastructure and lives outside the regular Sourcegraph site configuration.
+
 ### FAQ: How do I restart the frontend after changing the site-config?
 
 > NOTE: If you are a Cloud teammate, follow the regular operation playbook.
