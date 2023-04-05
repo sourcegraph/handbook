@@ -281,7 +281,7 @@ Expansions: Increase in Number of Seats
 - _Account Name - Business Unit - Team - Expansion - (ProductName)(Add’l # of Seats)_
   - _ProductName = Search Only, Search + Batch, Search + Insights, CIP_
   - _Add’l # of Seats – Additional number of licenses being purchased_
-- Ex. Apple - SPG - Search Only - 35 Users
+- Ex. Apple - SPG - Expansion - Search Only - 35 Users
 
 Churn: Used Only When iARR is Negative
 
