@@ -6,7 +6,7 @@ _A guide for Sourcegraph engineers_
 
 Tech lead (TL) is a role a Sourcegraph engineer can fulfil on a [Job Fair Project](https://docs.google.com/spreadsheets/d/1jP5atmrBSJKubvk3rFuwXiXKLwfyxCGFDE4fqbpVmvU/edit#gid=283720203). So what does that mean?
 
-The TL of a project is the Directly Responsible Individual (DRI) and as such [owns the engineering success](https://handbook.sourcegraph.com/departments/engineering/dev/process/principles-and-practices/#ownership).
+The TL of a project is the Directly Responsible Individual (DRI) and as such [owns the engineering success](./dev/process/principles-and-practices/#ownership).
 
 Here is a subset of the things a TL does:
 
@@ -24,7 +24,7 @@ Here are some ideas and guidelines for how to do these things as a TL at Sourceg
 
 ## Set the engineering vision
 
-Anything goes here, really. You can write a Google Doc, a [tracking issue](https://handbook.sourcegraph.com/departments/engineering/dev/process/tracking_issues/), an [RFC](https://handbook.sourcegraph.com/company-info-and-process/communication/rfcs/), or a normal GitHub issue.
+Anything goes here, really. You can write a Google Doc, a [tracking issue](./dev/process/tracking_issues/), an [RFC](../../company-info-and-process/communication/rfcs/), or a normal GitHub issue.
 
 What’s important is that you have something you can share with your team members, your EM, Product, Design, and other stakeholders to communicate
 
