@@ -2,7 +2,7 @@
 
 A good partnership between the EM and PM is fundamental to the success of any product engineering team. This means understanding the responsibilities of the EM and PM, and who's accountable for what.
 
-Being accountable means you must ensure the work gets done. It doesn't mean *you* must do all of the work yourself.
+Being accountable means you must ensure the work gets done. It doesn't mean _you_ must do all of the work yourself.
 
 ## Summary
 
