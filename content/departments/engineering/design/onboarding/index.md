@@ -79,6 +79,12 @@ Slack is a big place. Make sure you read [How we use Slack](https://handbook.sou
 - [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7)
   - We use Chromatic to access and collaborate on our Storybook components. You can access the React components library by:
   - Log into Chromatic with your GitHub account and open Sourcegraph library
+- [Chorus.ai](https://www.chorus.ai/)
+  - Watch a few customer calls, especially product introductions and demos
+- [Amplitude](https://analytics.amplitude.com/)
+  - Self service metrics for a subset of customer and Sourcegraph .com events
+- [Looker](https://sourcegraph.looker.com/browse/favorites)
+  - Helps us understand the health and activity in our on prem instances
 
 ### Get familiar with product artifacts
 
