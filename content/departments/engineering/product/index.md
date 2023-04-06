@@ -7,7 +7,7 @@ We strive to make the following true:
 
 ## Contact
 
-You can reach us at the #product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](process/feedback/surfacing_product_feedback.md) page.
+You can reach us at the #ask-product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](process/feedback/surfacing_product_feedback.md) page.
 
 ## Roadmap & Strategy
 

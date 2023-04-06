@@ -1,19 +1,8 @@
 # Product manager + engineering manager: partnership responsibilities
 
-An effective partnership between the EM and PM is fundamental to the success of any product engineering team. At the core of having an effective partnership is having a clear understanding of the responsibilities in the team, who is accountable for it, and the expectation of what each party will contribute towards that responsibility. If both parties fulfill their role’s expectations, trust develops – not only between each other, but in the team as a whole.
+A good partnership between the EM and PM is fundamental to the success of any product engineering team. This means understanding the responsibilities of the EM and PM, and who's accountable for what.
 
-## Definitions
-
-**Accountable**: The accountability for the responsibility stops with this person. Being accountable doesn’t mean you have to do all the tasks yourself; however, you should ensure it gets done.
-
-**Expectations**: This outlines the expectation that the EM/PM agrees to _proactively_ fulfill in relation to the responsibility in the team. The EM/PM is encouraged to delegate and/or share these tasks with other teammates for the following reasons:
-
-- Share the load
-- Encourage collective ownership of the success of the team
-- Reduce the bus factor risk
-- Facilitate career development growth of teammates
-
-**Stakeholders**: These are the teammates that either have domain accountability, knowledge or insight related to the responsibility and who should be consulted and informed on the efforts of the team.
+Being accountable means you must ensure the work gets done. It doesn't mean *you* must do all of the work yourself.
 
 ## Summary
 
@@ -56,9 +45,9 @@ A quick crash course for anyone unfamiliar:
       <ul>
         <li>Speak to customers about upcoming features</li>
         <li>Promote new features internally in the company</li>
-        <li>Communicate with marketing + sales around upcoming or recent feature releases</li>
+        <li>Communicate with Marketing and Sales about upcoming or recent feature releases</li>
         <li>Reach out to customers when heavily requested features are released</li>
-        <li>Make sure the CE + Sales team understands and is excited to sell new features</li>
+        <li>Make sure the TS and Sales team understands and is excited to sell new features</li>
       </ul>
     </td>
     <td>
@@ -96,7 +85,7 @@ A quick crash course for anyone unfamiliar:
   <tr>
     <td>
       <ul>
-        <li>Keep the team’s goals page up-to-date in the handbook, which included progress updates at the end of iterations</li>
+        <li>Keep the team’s goals page up-to-date in the handbook, which includes progress updates at the end of iterations</li>
         <li>Communicating team goals internally and externally</li>
         <li>Continually validate that team goals are right and that we are making progress on those goals at a metrics level</li>
         <li>Make sure we have data and feedback to prioritize our roadmap</li>
