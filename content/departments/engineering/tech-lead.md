@@ -6,7 +6,7 @@ _A guide for Sourcegraph engineers_
 
 Tech lead (TL) is a role a Sourcegraph engineer can fulfil on a [Job Fair Project](https://docs.google.com/spreadsheets/d/1jP5atmrBSJKubvk3rFuwXiXKLwfyxCGFDE4fqbpVmvU/edit#gid=283720203). So what does that mean?
 
-The TL of a project is the Directly Responsible Individual (DRI) and as such [owns the engineering success](./dev/process/principles-and-practices/#ownership).
+The TL of a project is the Directly Responsible Individual (DRI) and as such [owns the engineering success](./dev/process/principles-and-practices.md#ownership).
 
 Here is a subset of the things a TL does:
 
@@ -24,7 +24,7 @@ Here are some ideas and guidelines for how to do these things as a TL at Sourceg
 
 ## Set the engineering vision
 
-Anything goes here, really. You can write a Google Doc, a [tracking issue](./dev/process/tracking_issues/), an [RFC](../../company-info-and-process/communication/rfcs/), or a normal GitHub issue.
+Anything goes here, really. You can write a Google Doc, a [tracking issue](./dev/process/tracking_issues.md), an [RFC](../../company-info-and-process/communication/rfcs/), or a normal GitHub issue.
 
 What’s important is that you have something you can share with your team members, your EM, Product, Design, and other stakeholders to communicate
 
@@ -136,7 +136,7 @@ When and how much status should you report? It depends:
 Here’s the communication that’s expected for Tech Leads:
 
 - Provide an update once a week…
-- … in the [PR-FAQ issue](https://github.com/orgs/sourcegraph/projects/302/views/2) tracking your project
+- … in the [PR-FAQ issue](https://github.com/orgs/sourcegraph/projects/302/views/18) tracking your project
 - … and x-post the update in the slack channel for your project
 - … tagging the EM, TPM, involved PMs, designers, team members
 - … stakeholders (could be the Head of Eng, customer support, PM, Kalan…)
@@ -164,7 +164,7 @@ Don’t think of feedback as “users testing this and filling out a form”. Th
 - sharing progress in #dogfood-feedback and in #progress to get colleagues to try out your project
 - asking involved EMs
 
-Most importantly: talk to customers. Yes, you. Get on a call with a customer. Before you do anything you need to ensure you know what customer pain you’re solving. [You own this project.](https://handbook.sourcegraph.com/departments/engineering/dev/process/principles-and-practices/#ownership)
+Most importantly: talk to customers. Yes, you. Get on a call with a customer. Before you do anything you need to ensure you know what customer pain you’re solving. [You own this project.](./dev/process/principles-and-practices.md#ownership)
 
 ## Lead by example
 
