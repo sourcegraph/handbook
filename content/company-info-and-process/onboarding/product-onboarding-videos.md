@@ -11,6 +11,7 @@ We created these videos as an intro to educate the team on our product. The goal
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1150d831914f4257ac1eee42a2de6b8f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## App
+
 View the app video on the about site at: [https://about.sourcegraph.com/app](https://about.sourcegraph.com/app)
 
 ## Search Videos
