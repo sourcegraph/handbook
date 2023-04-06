@@ -27,4 +27,3 @@ We created these videos as an intro to educate the team on our product. The goal
 ## Delivery Video
 
 <div style="position: relative; padding-bottom: 66.33906633906635%; height: 0;"><iframe src="https://www.loom.com/embed/7ca5f943d95a47ff9052a29cb3095866" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
