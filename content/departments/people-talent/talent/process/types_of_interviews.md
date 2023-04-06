@@ -558,15 +558,13 @@ Please send link to your Google doc using the link below when you are finished.
 
 - Interviewer(s): [Two Product Designers](../../../engineering/product/index.md).
 - Duration: 1 hour
-- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../../engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
+- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
 
 #### Design exercise
 
 - Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
 - Duration: 1.5 hours
-- Details: The interview simulates a real-life design collaboration as closely as possible. The goals are to explore problems and solutions together, to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
-- Below is the prompt:
-- Part 2: (~75 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
+- Details: The interview simulates a real-life design collaboration as closely as possible. The goal is to build something together and to understand the way you think about design in practice. We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
 
 ### Product Design Intern
 
