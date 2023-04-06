@@ -491,17 +491,54 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 ## Product
 
-### Product manager
+### Product Manager
 
-#### Async writing project [(RFC Project)](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
+#### Async writing project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
-- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
+- Details: This is a take home writing assignment to see how you communicate and think about product problems.
+
+**What we want to measure**
+
+Will the candidate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, GitHub issues, pull request and commit messages).
+
+- Is the candidate able to see and communicate the big picture in an inspiring way?
+- Does the PR-FAQ communicate the product vision and explain why this is an important problem to solve?
+- Does the PR-FAQ have clear writing with correct spelling and grammar? That means: short and non-convoluted sentences, simple words instead of jargon when possible, no mixture of past and present tense, etc.
+- Does it demonstrate empathy with the reader and anticipate what the reader might not know?
+
+Key competencies:
+- Communication
+- Strategic thinking/visioning
+
+Note that this exercise is intended more to result in an early-stage PR-FAQ that focuses primarily on communicating the product vision and why it's an important problem to solve. Should the candidate move forward to the followup product call, the focus will be on what collaboration would look like, how they would talk about the PR-FAQ, and how they'd work through getting it implemented.
+
+**Prompt**
+
+Candidates are sent the following prompt after they pass the intro call:
+
+We are excited to move you to the next step in the interview process! The next step of our interview process is to have you complete a take home writing exercise.
+
+Please write a PR-FAQ in a Google Doc for a Sourcegraph AI coding assistant powered by large language models (LLMs).
+
+It should include:
+- A press release section
+- A success criteria section that defines what success looks like for this project
+- A FAQ section that includes:
+  - Answers to these 3 pre-defined questions:
+  - What's the MVP of this project?
+  - What metrics would you measure?
+  - How can this feature differentiate from GitHub Copilot?
+- And the top 3 questions you think are the most important for the project (and answers)
+
+We expect this to take you ~1 hour. What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
+
+Please send link to your Google doc using the link below when you are finished.
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the PR-FAQ.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -511,7 +548,9 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 - Duration: 30 min
 - Details: In this interview, you will meet with the Engineering Manager from the team you’re interviewing for, your counterpart in the PM-EM responsibilities. We will be evaluating how you collaborate and work within a team, specifically how you partner with Engineering to drive the product vision of your team. We will focus on your technical background, as you will need to be able to discuss the technical aspects of our product with customers and communicate feedback and technical insight to the team. It is important that you demonstrate enthusiasm and understanding for the product and problem space, identifying and communicating the pain that Sourcegraph solves for developers.
 
-### Product designer
+## Design
+
+### Product Designer
 
 #### Portfolio review
 
