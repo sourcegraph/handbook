@@ -262,6 +262,11 @@ are working on this piece of code?
 - **Duration:** 45-minutes
 
 - **How to prepare:** During this interview, we will focus on systems you've built and dive into your views on machine learning and its potential. Please come prepared to share your vision for AI at Sourcegraph.
+ - Please complete these steps prior to the interview:
+    - Have a working VS Code installation on your local machine
+    - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
+    - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
+    - If you get stuck, we will go over it on the call 
 
 #### Technical Deep Dive
 
