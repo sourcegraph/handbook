@@ -2,7 +2,7 @@
 
 ## Preparing to deliver impact reviews
 
-Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report. Each Manager is responsible for scheduling a 30 - 60 minute (recommended) meeting with each Teammate to deliver their review packet, along with any corresponding promotion or compensation increases. All conversations must take place no later than **April 26, 2023 for H1 FY24 Impact Review Cycle*
+Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report. Each Manager is responsible for scheduling a 30 - 60 minute (recommended) meeting with each Teammate to deliver their review packet, along with any corresponding promotion or compensation increases. All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Impact Review Cycle_
 
 ### Checklist: before the impact review conversation
 
