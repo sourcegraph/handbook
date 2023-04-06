@@ -509,6 +509,7 @@ Will the candidate be successful in our all-remote environment in which the majo
 - Does it demonstrate empathy with the reader and anticipate what the reader might not know?
 
 Key competencies:
+
 - Communication
 - Strategic thinking/visioning
 
@@ -523,6 +524,7 @@ We are excited to move you to the next step in the interview process! The next s
 Please write a PR-FAQ in a Google Doc for a Sourcegraph AI coding assistant powered by large language models (LLMs).
 
 It should include:
+
 - A press release section
 - A success criteria section that defines what success looks like for this project
 - A FAQ section that includes:
