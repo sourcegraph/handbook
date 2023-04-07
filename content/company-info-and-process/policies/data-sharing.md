@@ -18,24 +18,26 @@ It is essential for Sourcegraph to establish clear data sharing guidelines to pr
 <br>
 <br>
 
-> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **Watch our Data Security training video [here](https://www.loom.com/share/86cb36fb04d44fcdacb8ce3dead8bb62).**
-  <br>
-  <br>
-  
+> ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Watch our Data Security training video [here](https://www.loom.com/share/86cb36fb04d44fcdacb8ce3dead8bb62).**
+>
+>   <br>
+>   <br>
+
 # AI third party data sharing
 
 In today's era of advancing AI, the use of LLM and chatbots has become widespread. As an innovative company, we want to empower our teams with the latest technology to maximize productivity, including enabling them to utilize AI tools responsibly and legally.
 
 Below you can find a matrix to help you make informed decisions about what data is appropriate to share with AI-powered tools:
-<br> 
 <br>
-> **REMINDER** 
-> 
+<br>
+
+> **REMINDER**
+>
 > - Do **NOT** submit any **credentials** to a 3rd party
-> 
+>
 > - Take the time to **review** the data before you send it to make sure no PII/Restircted data is included in the thread (i.e. slack threads should be reviewed for sensitive data and celeared of it before being shared)
-  <br>
-<img src="https://storage.googleapis.com/sourcegraph-assets/AI%20data%20sharing.png" alt="A beautiful sunset over the ocean" width="600" height="400">
+>   <br>
+>   <img src="https://storage.googleapis.com/sourcegraph-assets/AI%20data%20sharing.png" alt="A beautiful sunset over the ocean" width="600" height="400">
 
 #### Reasoning:
 
