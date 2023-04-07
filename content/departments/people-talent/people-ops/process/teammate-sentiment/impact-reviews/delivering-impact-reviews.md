@@ -15,11 +15,10 @@ All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Im
 3. Send a Slack message to your direct report:
    “Hi [Teammate Name] - I just sent you a calendar invite to walk through your impact review. I'm looking forward to discussing your self-review, along with the feedback that you received from me and your peers. Before the meeting, please review about our [impact review process](index.md)to set the stage for a meaningful conversation. Looking forward to it!
 
-Agenda:
-
-- **Overview of [Impact Review Process](index.md)**
-- **Alignment on performance:** We will discuss your strengths, your development areas, and your impact review score. I will answer your questions and gather your perspective on your performance.
-- **Discuss future development**: We will work together to plan ways in which you can meet development and career aspirations moving forward.
+- Agenda:
+  - Overview of [Impact Review Process](index.md)
+  - Alignment on performance: We will discuss your strengths, your development areas, and your impact review score. I will answer your questions and gather your perspective on your performance.
+  - Discuss future development: We will work together to plan ways in which you can meet development and career aspirations moving forward.
 
 3. Review each Teammate’s full review packet
 
@@ -181,11 +180,11 @@ Our [Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-
 
 ### Q: How often does Sourcegraph provide merit increases?
 
-- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates who are meeting or exceeding our high bar can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we [regularly evaluate the external job market](INSERT LINK) and may issue market increases to remain competitive. You can read more about our [anticipated corresponding compensation increase % for each impact review score](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions). Please note that these are estimates and we reserve the right to change these at any time.
+- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates who are meeting or exceeding our high bar can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we [regularly evaluate the external job market](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md#compensation--pay-transparency-at-sourcegraph) and may issue market increases to remain competitive. You can read more about our [anticipated corresponding compensation increase % for each impact review score](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions). Please note that these are estimates and we reserve the right to change these at any time.
 
 ### Q: How do I know if I’m eligible for a merit increase?
 
-- A: You can read about merit eligibility [HERE](INSERT LINK). Teammates can receive increases 2x per year for exceptional performance (a Skill or Values-based performance rating of "1"), but the expectation is that Teammates receive a comp review 1x per year.
+- A: You can read about merit eligibility [HERE](index.md#when-do-they-take-place--who-is-eligible). Teammates can receive increases 2x per year for exceptional performance (a Skill or Values-based performance rating of "1"), but the expectation is that Teammates receive a comp review 1x per year.
 
 ### Q: How do I know if I’m eligible for a promotion?
 
@@ -224,4 +223,8 @@ A: You should discuss your feedback with your Manager and People Partner. Your l
 
 ### Q: How can I see all compensation ranges?
 
-A: You can access all compensation ranges in [Assemble](INSERT LINK)
+A: You can access all compensation ranges in Assemble.
+
+### Q: Why did some compensation ranges go down?
+
+A: We re-run compensation ranges every 6-months, and our ranges move as the market moves. This means that sometimes ranges decrease. We never decrease Teammate's compensation as a result.
