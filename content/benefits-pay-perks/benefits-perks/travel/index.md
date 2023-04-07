@@ -220,7 +220,7 @@ This category of guidance also includes casual, local meet-ups that are company-
 - **Gauge your own personal comfort level when choosing to attend an in-person meet-up, whether a local meetup or a meetup involving travel.** Don't feel pressured; remember, these are optional events and there will be more.
 
 - **Practice good respiratory hygiene.** When coughing and sneezing, cover your mouth and nose with flexed elbow or tissue. Use hand sanitizer and wash your hands frequently.
-- **Choose outdoor meet-ups and activities instead of indoor, if applicable.** Minimize indoor events when possible, and if your group is indoors, masks must be worn.
+- **Choose outdoor meet-ups and activities instead of indoor, if applicable.** Minimize indoor events when possible.
 
 - **Respect physical boundaries.** Ask permission for touching/greeting types. It is safe to assume that when you see people you likely won’t
   engage in physical greetings such as a handshake or high five.
