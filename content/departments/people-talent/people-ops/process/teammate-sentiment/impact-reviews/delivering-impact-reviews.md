@@ -227,4 +227,5 @@ A: You should discuss your feedback with your Manager and People Partner. Your l
 A: You can access all compensation ranges in Assemble. New bands will be uploaded the week of April 10th.
 
 ### Q: Why did some compensation ranges go down?
-A: We re-run compensation ranges every 6-months, and our ranges move as the market moves. This means that sometimes ranges decrease.  We never decrease Teammate's compensation as a result. 
+
+A: We re-run compensation ranges every 6-months, and our ranges move as the market moves. This means that sometimes ranges decrease. We never decrease Teammate's compensation as a result.
