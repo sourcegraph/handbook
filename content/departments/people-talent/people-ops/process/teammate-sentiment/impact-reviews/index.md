@@ -220,6 +220,8 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
 - The Teammate got equity in lieu of a cash increase
 - Pay equity reasons
 
+   ** Note: We maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. This ensures pay equity for all quota-carrying teammates. 
+
 ## Merit Philosophy
 
 We believe in performance-based pay, meaning merit increases (inclusive of cash and equity) will be driven by performance. We believe in hiring all Teammates at an equitable starting point within their respective band and we want to provide opportunities for Teammates to grow within their salary band that is in alignment with their performance.
