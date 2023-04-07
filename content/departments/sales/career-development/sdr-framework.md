@@ -74,26 +74,6 @@ Promotion is subject to head count (HC) opening for a desired role. Once HC has 
    </td>
   </tr>
   <tr>
-   <td><strong>OTE</strong>
-   </td>
-   <td>$100k (70/30 split)
-   </td>
-   <td>$120k (70/30 split)
-   </td>
-   <td>$140k (70/30 split)
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
    <td>
    </td>
    <td>
@@ -151,16 +131,6 @@ Expert in majority of competencies. Generates high quality ideas for streamlinin
 Promotion options include Team Lead (SDR, P3), AE1, and TA1.
 <p>
 Promotion is subject to head count (HC) opening for a desired role. Once HC has been opened, Senior Program Leads that are eligible for promotion may apply and enter the interviw process.
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>OTE</strong>
-   </td>
-   <td>$100-$120k (75/25 split)
-   </td>
-   <td>$140k (75/25 split)
    </td>
    <td>
    </td>
