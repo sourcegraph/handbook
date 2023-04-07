@@ -26,7 +26,7 @@ Looker is essentially the frontend interface for our BigQuery data warehouse. Th
 
 To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks related to a specific team or initative. We've curated these boards to make it easy for you to browse content for the teams/iniatives you're interested in.
 
-A few of these boards are listed below, but our boards are evolving every day, so we recommend browsing our boards in Looker directly. You can do this by going to your looker homepage (from wherever you are in looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select “Browse all boards”
+A few of these boards are listed below, but our boards are evolving every day, so we recommend browsing our boards in Looker directly. You can do this by going to the menu (from wherever you are in looker, click the three lines in the top left to go to the menu!) then click the “+” next to “Boards” in the left navigation menu and select “Browse all boards”
 
 **Team boards**
 
@@ -44,7 +44,7 @@ We don't have boards for every team yet, but we're working on it!
 - [Product-led growth board](https://sourcegraph.looker.com/boards/52): Contains data on PLG efforts, such as Sourcegraph App KPIs
 - [Instance configuration board](https://sourcegraph.looker.com/boards/56): Contains data on things like instance deployment methods, postrges dependency versions, customer telemetry status, etc. We recommend engineers subscribe to this board
 - [Sourcegraph.com traffic analytics board](https://sourcegraph.looker.com/boards/55): Contains web traffic data for sourcegraph websites (ex pageviews,sessions, clicks, etc)
-- [Company-wide metrics board](https://sourcegraph.looker.com/boards/58): This board contains data for company metrics that are top-of-mind, such as DAUs, DAU/MAU ratio, seat consumption ratio, and how many customers are on the most recent version. We recommend everyone add this board! You never know, what you learn may come in handy during Sourcegraph trivia at Merge :)
+- [Company-wide metrics board]:(https://sourcegraph.looker.com/boards/58): This board contains data for company metrics that are top-of-mind, such as DAUs, DAU/MAU ratio, seat consumption ratio, and how many customers are on the most recent version. We recommend everyone add this board! You never know, what you learn may come in handy during Sourcegraph trivia at Merge :)
 
 #### **How often is data in Looker updated?**
 
