@@ -120,7 +120,7 @@ Customer Engineers (CE) or Sales may request to:
 - **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
   - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 - **Enable Cody on a Managed Instancet** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)
-  - For existing customers and you would like to enable Cody for them.
+  - To enable Cody for an existing managed instance customer or prospect in trial
 
 #### Workflow
 
