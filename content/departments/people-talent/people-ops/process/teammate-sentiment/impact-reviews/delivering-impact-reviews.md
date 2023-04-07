@@ -1,5 +1,9 @@
 # Manager Guide - Delivering the Impact Review
 
+Performance review feedback is crucial for any organization's talent management strategy. It helps teammates understand their strengths and identify areas for improvement, increasing their job satisfaction and motivation. Additionally, it enables managers to identify top performers, provide targeted training opportunities, and address performance issues proactively.
+
+Performance review feedback fosters a culture of continuous learning and improvement within the organization, promoting growth and development for all teammates. By providing constructive feedback, teammates can improve their skills, increase their productivity, and contribute to the overall success of the team and organization.
+
 ## Preparing to deliver impact reviews
 
 1H FY24 Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report.
