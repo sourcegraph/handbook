@@ -193,7 +193,7 @@ Approval to use this perk is **required** prior to any travel:
 
 Navan is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [Navan](Navan.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc.
 
-For any additional questions, please reach out to Finance and the people Team at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
+For any additional questions, please reach out to Finance and the people Team at travel@sourcegraph.com. Also, you can post in #ask-finance via Slack.
 
 ## Budget template
 
