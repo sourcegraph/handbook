@@ -181,11 +181,11 @@ Our [Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-
 
 ### Q: How often does Sourcegraph provide merit increases?
 
-- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates who are meeting or exceeding our high bar can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we [regularly evaluate the external job market](INSERT LINK) and may issue market increases to remain competitive. You can read more about our [anticipated corresponding compensation increase % for each impact review score](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions). Please note that these are estimates and we reserve the right to change these at any time.
+- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates who are meeting or exceeding our high bar can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we [regularly evaluate the external job market](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/#compensation--pay-transparency-at-sourcegraph) and may issue market increases to remain competitive. You can read more about our [anticipated corresponding compensation increase % for each impact review score](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions). Please note that these are estimates and we reserve the right to change these at any time.
 
 ### Q: How do I know if I’m eligible for a merit increase?
 
-- A: You can read about merit eligibility [HERE](INSERT LINK). Teammates can receive increases 2x per year for exceptional performance (a Skill or Values-based performance rating of "1"), but the expectation is that Teammates receive a comp review 1x per year.
+- A: You can read about merit eligibility [HERE](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/#when-do-they-take-place--who-is-eligible). Teammates can receive increases 2x per year for exceptional performance (a Skill or Values-based performance rating of "1"), but the expectation is that Teammates receive a comp review 1x per year.
 
 ### Q: How do I know if I’m eligible for a promotion?
 
@@ -224,4 +224,7 @@ A: You should discuss your feedback with your Manager and People Partner. Your l
 
 ### Q: How can I see all compensation ranges?
 
-A: You can access all compensation ranges in [Assemble](INSERT LINK)
+A: You can access all compensation ranges in Assemble. New bands will be uploaded the week of April 10th.
+
+### Q: Why did some compensation ranges go down?
+A: We re-run compensation ranges every 6-months, and our ranges move as the market moves. This means that sometimes ranges decrease.  We never decrease Teammate's compensation as a result. 
