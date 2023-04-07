@@ -107,6 +107,12 @@ At the conclusion of the review read through, **share the Teammate’s calibrate
 
 ### Discussing the performance/value score
 
+Best practices for delivering feedback:
+- Be specific.
+- No suprises. 
+- Be an active listener, and ask open ended questions.
+- Don't be defensive.
+
 #### Teammates receiving a 1 in either category (values or performance) - talking points:
 
 - Sourcegraph holds a high bar for performance and demonstration of our values
@@ -152,6 +158,7 @@ During the meeting:
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
 - I am committed to supporting you in meeting our high bar over the course of the next six months, however I need to make it clear that I must see your performance improve.
 - Let’s now discuss ways in which I can support you moving forward.
+- Important: we recognize that by the time you're delivering feedback, several weeks/months may have passed since the review period. If you've seen improvements since the review cycle, be sure to recognize and celebrate!  
 
 Note: if the Teammate gets a 3:3, this can be cause for an immediate PIP. Please be sure to be crystal clear in your communication that skill and values alignment must improve immediately.
 
