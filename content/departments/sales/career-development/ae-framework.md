@@ -2,13 +2,13 @@
 
 <table>
   <tr>
-   <td colspan="6" ><strong>Account Executive Career Levels</strong>
+   <td colspan="6" ><strong>Account Executive Career Levels V2</strong>
    </td>
   </tr>
   <tr>
    <td><strong>Job Level</strong>
    </td>
-   <td><strong>Commercial (P2)</strong>
+   <td><strong>Commercial (P2) (not in use)</strong>
    </td>
    <td><strong>Mid-market (P3)</strong>
    </td>
@@ -22,7 +22,7 @@
   <tr>
    <td><strong>Competency Execution</strong>
    </td>
-   <td>Skill: Knows and understands key competencies but is more task-oriented, and continuing to develop. Is gaining independence in managing Account Teams. Drives deal execution with very regular assistance from leadership. Deal complexity is primarily low and volume high.
+   <td>Skill: Knows and understands key competencies, but is more task-oriented, and continuing to develop. Is gaining independence in managing Account Teams. Drives deal execution with very regular assistance from leadership. Deal complexity is primarily low and volume high.
 <p>
 Meeting Expectations across majority of competencies (Rating=2). May Need Improvement (Rating=1) in those that are more complex, particularly when new in role.
 <p>
@@ -56,7 +56,7 @@ Drives cross-functional alignment and enablement to win and retain our largest s
   <tr>
    <td><strong>Territory Profile</strong>
    </td>
-   <td>N/A - This level is not currently applicable.
+   <td>N/A
    </td>
    <td>Most number of overall accounts.
 <p>
@@ -102,13 +102,13 @@ No accounts in the "Mid-Market" (1.5k - 4.5k employees) profile.
    </td>
    <td>N/A
    </td>
-   <td>combined two year attainment above 100% or over 120% in the most recent full quota year
+   <td>combined two year attainment above 100% or over 120% in the most recent year
    </td>
-   <td>combined two-year attainment above 100% or over 120% in the most recent full quota year
+   <td>combined two-year attainment above 100% or over 120% in the most recent year
    </td>
-   <td>combined two-year attainment above 100% or 120% in the most recent full quota year
+   <td>combined two year attainment above 100% or Full-year 120% in the most recent year
    </td>
-   <td>combined two year attainment above 100% or over 120% in the most recent full quota year
+   <td>combined two year attainment above 100% or over 120% in the most recent year
    </td>
   </tr>
   <tr>
@@ -116,13 +116,13 @@ No accounts in the "Mid-Market" (1.5k - 4.5k employees) profile.
    </td>
    <td>N/A
    </td>
-   <td>TBD - Coming Soon
+   <td>$885K; New Logos: 8; 95% Renewal Target
    </td>
-   <td>TBD - Coming Soon
+   <td>$1.154M; New Logos: 8; 95% Renewal Target
    </td>
-   <td>TBD - Coming Soon
+   <td>$1.269M; New Logos: 8; 95% Renewal Target
    </td>
-   <td>TBD - Coming Soon
+   <td>$1.385M; New Logos: 8; 95% Renewal Target
    </td>
   </tr>
   <tr>
