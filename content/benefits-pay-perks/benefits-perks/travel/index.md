@@ -222,8 +222,6 @@ This category of guidance also includes casual, local meet-ups that are company-
 - **Practice good respiratory hygiene.** When coughing and sneezing, cover your mouth and nose with flexed elbow or tissue. Use hand sanitizer and wash your hands frequently.
 - **Choose outdoor meet-ups and activities instead of indoor, if applicable.** Minimize indoor events when possible, and if your group is indoors, masks must be worn.
 
-- **Wear a mask.** Please use a mask when using public transit, commuting through airports, and when applicable, in indoor
-  environments, and around large crowds.
 - **Respect physical boundaries.** Ask permission for touching/greeting types. It is safe to assume that when you see people you likely won’t
   engage in physical greetings such as a handshake or high five.
 
