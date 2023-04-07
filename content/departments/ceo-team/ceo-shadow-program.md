@@ -35,6 +35,7 @@ Are you curious about how other shadow's experiences? Hear from them yourself ab
 - [Rok Novosel](https://docs.google.com/document/d/1X-kPQQqemgP7cs7nO-5z0BYY2v8a8ZBoQtVh2Ar4GOs/edit): Our first international CEO shadow!
 - [Alex Isken](https://docs.google.com/document/d/1aCRrBq54_wRnd1zrWdCJv_IlykWMF-T_4UsaxBriAN8/edit#): 4.0 planning and some other interesting experiences.
 - [Taylor Sperry](https://docs.google.com/document/d/10nvclrclyCaQCVBFIfmk8qMQ-boeFPhooXzRaBkNriU/edit): Earthquakes, AMAs, and how to better understand working with Quinn
+- [Keely Aguayo](https://docs.google.com/document/d/1dojeUsOAvz7yatPVt5Y5an2-vgDS0nw9H65PKYtkUxs/edit?usp=sharing): Starship launch planning, Cody, and meet-ups with teammates
 
 ## Eligibility & Participation
 
@@ -104,7 +105,7 @@ Part of your job as a CEO Shadow is to create a blog / vlog post about your time
 
 ### When is your content due?
 
-Your content must be completed by the Friday following the conmpletion of your rotation.
+Your content must be completed by the Friday following the conmpletion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
 
 ### How is content submitted?
 
