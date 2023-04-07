@@ -24,7 +24,7 @@ This design club is open to anyone, but is first for the product design team.
 
 ## Design board review
 
-All design issues are tracked in GitHub issues and added to the [design board](https://github.com/orgs/sourcegraph/projects/278/views/1). Once a week we review the board as a team to help us all stay aware of each other's efforts and request collaboration and reviews. 
+All design issues are tracked in GitHub issues and added to the [design board](https://github.com/orgs/sourcegraph/projects/278/views/1). Once a week we review the board as a team to help us all stay aware of each other's efforts and request collaboration and reviews.
 
 ## Design critiques
 
