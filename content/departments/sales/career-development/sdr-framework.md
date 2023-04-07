@@ -74,26 +74,6 @@ Promotion is subject to head count (HC) opening for a desired role. Once HC has 
    </td>
   </tr>
   <tr>
-   <td><strong>OTE</strong>
-   </td>
-   <td>$100k (70/30 split)
-   </td>
-   <td>$120k (70/30 split)
-   </td>
-   <td>$140k (70/30 split)
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
    <td>
    </td>
    <td>
@@ -155,14 +135,5 @@ Promotion is subject to head count (HC) opening for a desired role. Once HC has 
    <td>
    </td>
   </tr>
-  <tr>
-   <td><strong>OTE</strong>
-   </td>
-   <td>$100-$120k (75/25 split)
-   </td>
-   <td>$140k (75/25 split)
-   </td>
-   <td>
-   </td>
-  </tr>
 </table>
+
