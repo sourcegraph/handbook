@@ -176,11 +176,11 @@ A: Your manager will share your promo/comp change letter with you. After October
 
 **Q: When will my compensation and/or promotion go into effect?**
 
-A: **10/1**
+A: **2023-04-01**
 
 ### Q: When will I be able to see my compensation and/or promotion in Bamboo?
 
-A: **10/14**
+A: **2023-05-01**
 
 ### Q: I disagree with my Impact Review rating. What should I do?
 
