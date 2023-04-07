@@ -16,13 +16,13 @@ All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Im
    “Hi [Teammate Name] - I just sent you a calendar invite to walk through your impact review. I'm looking forward to discussing your self-review, along with the feedback that you received from me and your peers. Before the meeting, please review about our [impact review process](index.md)to set the stage for a meaningful conversation. Looking forward to it!
 
 - Agenda:
-    - Overview of [Impact Review Process](index.md)
-    - Alignment on performance: We will discuss your strengths, your development areas, and your impact review score. I will answer your questions and gather your perspective on your performance.
-    - Discuss future development: We will work together to plan ways in which you can meet development and career aspirations moving forward.
+  - Overview of [Impact Review Process](index.md)
+  - Alignment on performance: We will discuss your strengths, your development areas, and your impact review score. I will answer your questions and gather your perspective on your performance.
+  - Discuss future development: We will work together to plan ways in which you can meet development and career aspirations moving forward.
 
 3. Review each Teammate’s full review packet
 
-  - Here are [instructions](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks) on how to access the Teammate review packet
+- Here are [instructions](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks) on how to access the Teammate review packet
 
 5. Review [Manager Guide: Delivering Performance Feedback and Having Difficult Conversations](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit?usp=sharing)
 6. Review the [Manager FAQ,](#faq) where we’ve tried to anticipate any and all questions you may receive from a Teammate
@@ -226,4 +226,5 @@ A: You should discuss your feedback with your Manager and People Partner. Your l
 A: You can access all compensation ranges in Assemble.
 
 ### Q: Why did some compensation ranges go down?
-A: We re-run compensation ranges every 6-months, and our ranges move as the market moves. This means that sometimes ranges decrease.  We never decrease Teammate's compensation as a result. 
+
+A: We re-run compensation ranges every 6-months, and our ranges move as the market moves. This means that sometimes ranges decrease. We never decrease Teammate's compensation as a result.
