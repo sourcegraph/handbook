@@ -21,10 +21,25 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
     <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/icons/departments.svg">
     Departments
   </a>
-  <a href="https://us8.campaign-archive.com/home/?u=df2a46502c53acf0b7771317f&id=e8e7daeb55" class="block">
+<a href="https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b" class="block">
+<table style="border-collapse: collapse">
+  <tr background-color="transparent">
+  <td><a href="https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b">
     <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/icons/the-git-down.svg">
+  </a></td>
+  </tr>
+  <tr>
+  <td><a href="https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b">
     The Git Down
-  </a>
+  </a></td>
+  </tr>
+  <tr>
+  <td><a href="https://us8.campaign-archive.com/home/?u=df2a46502c53acf0b7771317f&id=e8e7daeb55">
+    (external link)
+  </a></td>
+  </tr>
+</table>
+</a>
   <a href="team/index.md" class="block">
     <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/icons/bios.svg">
     Teammate Bios
