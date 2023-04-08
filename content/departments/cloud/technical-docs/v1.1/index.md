@@ -1,5 +1,7 @@
 # Managed Instance v1.1
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 This documentation details significant changes of Managed Instance v1.1 comparing to the previous version.
 
 Unless we explictly call it out, you may assume things are unchanged.

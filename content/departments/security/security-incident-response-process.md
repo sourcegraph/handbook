@@ -10,6 +10,10 @@ If you believe that the event report is a valid incident, then formally raise an
 
 You will need to choose a severity for the incident – use the guidelines from the [Security Incident Response Policy](./security-incident-response.md#severity) to guide you. The severity of the incident will determine escalation and reporting requirements.
 
+### Responding to Falco alerts
+
+Follow up actions and rule explanations are documented in the [Falco playbooks](https://github.com/sourcegraph/infrastructure/blob/main/security/docs/incident-response/playbooks/falco/README.md) section in the incident response directory.
+
 ## Investigation, containment, and neutralization
 
 Once the incident has been declared, the incident manager must coordinate the work required to:

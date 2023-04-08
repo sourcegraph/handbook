@@ -44,12 +44,12 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 ## Which MFA options are available?
 
-Phishing resistant MFA options are the prefered method of authentication. These are either Okta Verify with biometrics enabled or FIDO2.
+Phishing resistant MFA options are the preferred method of authentication. These are either Okta Verify with biometrics enabled or FIDO2.
 
 1. Okta Verify - Okta Verify is an app available through the app store on macOS, iOS, and Android devices. Using Okta Verify you can authenticate using any of the following methods:
    - Push notification
-   - Fast Pass (coming soon)
-   - App-generated passcode (aka. One-time passcode)
+   - Okta Verify app on your device (aka FastPass)
+   - App-generated passcode (aka One-time passcode)
 2. FIDO2 [WebAuthn](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)- use a security key or biometric authenticator (such as YubiKey, Google Titan, or Touch ID)
    - Instructions for setting up Touch ID and Yubikeys below
 3. Google Authentication - in some rare cases you can use Google Authentication to set up your one-time passcode using 1Password.
@@ -61,9 +61,36 @@ Phishing resistant MFA options are the prefered method of authentication. These 
 - App-generated 2FA codes, like Google Authenticator
   - Do not Copy/Paste from your password manager. Autocompletion should work if it is the legitimate site otherwise you could be falling into a trap if the URL is malicious.
 
-## Adding Touch ID as a phishing resistant MFA option
+## Enrolling your account with Okta Verify and FastPass on your laptop
 
-Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one.
+[**Video instructions**](https://www.loom.com/share/638bfd8b9c1d4843b632d113ef6b167d)
+
+- Download the Okta Verify app (you can download it from the App store or go to the Self Service app on your laptop and download it from there)
+- Follow the instructions
+- Our url is sourcegraph.okta.com
+- Link the app with your Okta account by logging into your account by following the prompts
+- Enroll in Touch ID (preferred) or push notifications (required)
+
+## Registering your account with Okta Verify and FastPass on you mobile device
+
+This is essentially just re-enrolling your Okta Verify account with Okta. This is necessary to access certain apps from your mobile devices.
+
+[**Video instructions**](https://www.loom.com/share/e8fc333236944a76924bcf467c813de1)
+
+- From your laptop log into your Okta Dashboard
+- Go to settings and click add new next to Okta Verify (ignore the fact that you might already have your phone or tablet listed here)
+- Authenticate again
+- Add Okta Verify
+- A QR code will appear
+- Open the Okta Verify app on your phone or tablet
+- Click the + sign to add a new account
+- Scan QR code and follow the directions for enabling Face ID and/or push notifications
+
+That's it. You won't see any change to your account, however you can now use FastPass on your mobile device as an authentication method.
+
+## Adding Apple Touch ID as a phishing resistant MFA option (WebAuthn)
+
+Apple Touch ID is authenticated through your browser, so if you use multiple browsers you will have to go through the above steps for each one. Note: At this time, only Chrome and Safari support this method.
 
 1. Sign in to your Okta Dashboard
 2. Go to your name > Settings
@@ -72,9 +99,9 @@ Touch ID is authenticated through your browser, so if you use multiple browsers 
 5. Select “Set up” next to the MFA option you would like to add
 6. Select “Enroll” and follow the steps prompted by your browser
 
-<img src="https://storage.googleapis.com/sourcegraph-assets/settings3.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
+<img src="https://storage.googleapis.com/sourcegraph-assets/settings14.png" alt="Okta settings page" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/set%20up.png" alt="Okta FIDO2 setup" width="250" height="300"> <img src="https://storage.googleapis.com/sourcegraph-assets/touch%20ID.png" alt="Okta Touch ID" width="250" height="300">
 
-## Adding a YubiKey as a phishing resistant MFA option
+## Adding a YubiKey as a phishing resistant MFA option (WebAuthn)
 
 **Still have questions after setup? See the [Yubikey FAQ](../../../security/knowledge-base/yubikey-faq.md)**
 
@@ -113,12 +140,12 @@ To change between MFA options click on the arrow next to the label when prompted
 
 Using your mobile devices to access [company data](../computer-setup.md#company-data) is limited to just a few applications, such as Gmail, Calendar, Zoom, Slack, and Airbase. If you are going to be accessing any of these apps from your phone please log into the applications using phishing resistant methods.
 
-Once you add a Yubikey in the steps noted above to your laptop this method will also be available on your mobile device through the use of passkeys.
+Once you add a Yubikey to your Okta account in the steps noted above, you will be able to use that Yubikey on your computer or phone as a form of mfa. You will not need to create a new registration entry per device, it is tied directly to your Okta account.
 
 1. Log into Okta with username and password
 1. Select 'Security Key or Biometric Authenticator'
 1. Select 'Verify'
-1. Tap and hold your key towards the tops of the device, if NFC compatible, or insert your Yubikey
+1. Tap and hold your key towards the tops of the device, if NFC compatible, or insert your Yubikey and tap the gold part
 1. You will be logged in
 
 ## I forgot my password/my login doesn't work, what do I do?
@@ -126,7 +153,7 @@ Once you add a Yubikey in the steps noted above to your laptop this method will 
 If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password.
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
 
-1. Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com)
+1. Go to the [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com)
 1. Click the "Need help signing in?" button on the login screen
 1. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
 1. Enter your personal email address
@@ -162,7 +189,7 @@ Being locked out of Okta will also mean you are locked out of Google and Slack. 
 
 Most likely because that system doesn't offer an SSO option or because we need to upgrade in order to enable the feature. Please feel free to ask us about it in the #ask-it-tech-ops channel.
 
-## I'm getting asked to MFA authenticate a lot, is that normal?
+## I'm getting asked to authenticate a lot, is that normal?
 
 The way we have Okta set-up should require you to authenticate once with MFA every 12 hours. It's recommended that you log in via the Okta dashboard at the beginning of your day, and then use either the dashboard or the Okta plugin for applications during your workday.
 
@@ -173,3 +200,7 @@ If you are having problems with being asked for multiple MFA authentications dur
 ## Where do I go if I have any questions?
 
 For Okta help, setup, and integration questions: #ask-it-tech-ops Slack channel or <techops@sourcegraph.com>
+
+## I have setup my MFA in AWS but I am still getting errors on aws cli
+
+Please follow these instructions: [AWS CLI MFA setup](../../../security/knowledge-base/AWS-CLI-MFA.md)

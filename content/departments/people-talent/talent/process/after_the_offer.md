@@ -55,7 +55,7 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 **Step 8**: The Recruiter archives the channel after people respond
 
-**Step 9**: The Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #teammate-announce channel.
+**Step 9**: The Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #announce-teammate-hires channel.
 
 **Step 10**: The People Operations team then works with the candidate to onboard them and get them set up for their first day!
 

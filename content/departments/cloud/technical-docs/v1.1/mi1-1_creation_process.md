@@ -1,5 +1,7 @@
 # Creating a managed instance
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 

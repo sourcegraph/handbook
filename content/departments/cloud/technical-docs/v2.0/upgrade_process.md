@@ -23,19 +23,25 @@ Using `mi2` you can generate commands to trigger automated upgrades for all inst
 for internal instances:
 
 ```sh
-mi2 workflow run -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
+mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
 ```
 
 for production instances:
 
 ```sh
-mi2 workflow run -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
+mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
 ```
 
 for trial instances:
 
 ```sh
-mi2 workflow run -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphApplicationVersion != "$TARGET_VERSION"' upgrade-instances
+mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
+```
+
+all instances
+
+```sh
+mi2 env workflow run -e prod -filter '.spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
 ```
 
 This automated workflow will generate a pull request for each instance to represent the upgrade that:
@@ -71,7 +77,7 @@ cat upgrade-prs.txt | xargs -n1 gh pr merge --squash
 
 Finally, update the tracking issue.
 
-## Option 2 - maual upgrade
+## Option 2 - manual upgrade
 
 ### Prereq
 

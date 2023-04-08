@@ -12,15 +12,26 @@ This document describes how we release Sourcegraph.
 
 As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
 
-| Version | Release Date       |
-| ------- | ------------------ |
-| 5.0     | March 22, 2023     |
-| 5.1     | June 13, 2023      |
-| 5.2     | September 12, 2023 |
-| 5.3     | December 12, 2023  |
-| 5.4     | March 12, 2024     |
+| Version | Code Freeze Date  | Release Date       |
+| ------- | ----------------- | ------------------ |
+| 5.0     | March 13, 2023    | March 22, 2023     |
+| 5.1     | June 14, 2023     | June 28, 2023      |
+| 5.2     | September 6, 2023 | September 20, 2023 |
+| 5.3     | November 29, 2023 | December 12, 2023  |
+| 5.4     | February 27, 2024 | March 12, 2024     |
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
+
+#### Current patch schedule
+
+| Patch date     |
+| -------------- |
+| April 5, 2023  |
+| April 19, 2023 |
+| May 3, 2023    |
+| May 17, 2023   |
+| May 31, 2023   |
+| June 14, 2023  |
 
 Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
@@ -121,6 +132,8 @@ A---B---C---D---E---F---G---H---I---J---K---L (main branch)
        \
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
+
+> NOTE: cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
 
 ### Issues
 

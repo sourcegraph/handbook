@@ -61,7 +61,7 @@ All teammates who join us after May 2021 will have ten (10) years from the date 
 For teammates who joined us May 2021 or earlier:
 
 - NSOs: ten (10) years from the date of grant to exercise vested NSOs
-- ISOs: three (3) months after leaving to exercise vested ISOs, which Sourcegraph at its discretion may extend on a case-by-case basis.
+- ISOs: three (3) months after leaving to exercise vested ISOs, which Sourcegraph at its discretion may extend on a case-by-case basis. If you are granted an extension, you will receive an email from Sourcegraph within about 2 months of your last day. For any questions, reach out to legal@sourcegraph.com.
 
 ### So, exactly how valuable are my options today?
 

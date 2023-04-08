@@ -27,6 +27,11 @@ All communication around the decision to proceed with an opportunity based on te
 - Think of this like an RFC for our customers when we have found ourselves in a situation where input/comments/buy in/decisions are needed to move something forward.
 - When cross-functional alignment and a decision or commitment is needed from Product/Eng/Customer Support/CE/TA/Sales for a customer.
 - If technical and business context needs to be provided to EPS to either gain alignment on a solution and go forward plan in support of a customers’ (or multiple customers) needs, or if tradeoff / prioritization conversations need to be had to align on timelines amongst leadership.
+- Some common scenarios when we want to perform a tech review prior to proceeding to a trial:
+  - Airgapped instances
+  - Anything using docker-compose + batch changes
+  - Support risks or considerations (eg language barriers, no access to screen share)
+  - A permission model dependent on Explicit permissions API
 
 ## What the tech review process is not / when not to employ it
 

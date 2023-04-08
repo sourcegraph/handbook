@@ -2,9 +2,9 @@
 
 As an asynchronous-first, globally-distributed design team, our team rituals help bring us together as a design team and build stronger trust, physiological safety, and connections.
 
-## Design club
+## Design sync
 
-The design club is our weekly sync to help us keep the pulse of product design at Sourcegraph. We use this time to:
+The design sync is our weekly sync to help us keep the pulse of product design at Sourcegraph. We use this time to:
 
 - Share updates and highlights, and request feedback on work in progress
 - Discuss design-related issues with peers
@@ -21,6 +21,10 @@ A typical design club includes:
 - Sharing design inspiration
 
 This design club is open to anyone, but is first for the product design team.
+
+## Design board review
+
+All design issues are tracked in GitHub issues and added to the [design board](https://github.com/orgs/sourcegraph/projects/278/views/1). Once a week we review the board as a team to help us all stay aware of each other's efforts and request collaboration and reviews.
 
 ## Design critiques
 

@@ -1,5 +1,7 @@
 # MI 1.1 Managed SMTP
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 See [managed SMTP](../managed-smtp/index.md) for more details.
 
 ## Enabling managed SMTP

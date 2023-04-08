@@ -13,6 +13,7 @@
 - Practices & Philosophy
   - [Customer Issues](../../technical-success/support/process/engaging-other-teams.md)
   - [Incidents](process/incidents/index.md)
+  - [Pull requests](process/pull-requests.md)
   - [Product documentation](process/product_documentation.md)
   - [Continuous releasability](tools/continuous_releasability.md)
   - [Releases](process/releases/index.md)

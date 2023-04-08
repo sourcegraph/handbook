@@ -1,5 +1,7 @@
 # Restore a managed instance v1.1 when it is completely gone
 
+> WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
+
 <span class="badge badge-note">SOC2/CI-110</span>
 
 > Are you experiencing a zonal failure? Follow the [failover process](./mi1-1_failover_process.md)

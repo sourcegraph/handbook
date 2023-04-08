@@ -1,4 +1,4 @@
-# Contact, business, and general office information
+# Address, Phone Number, Tax ID, and other general office information
 
 ### Contact information
 

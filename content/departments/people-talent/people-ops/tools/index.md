@@ -23,7 +23,6 @@
 - [Internal PEO/EOR use](peo.md)
 - [Internal Process St use](process-st.md)
 - [Internal Radford use](radford.md)
-- [Internal Ring Central use](ringcentral.md)
 - [Internal Roots use](roots.md)
 - [Internal Sparrow use](sparrow.md)
 - [Internal True Works use](trueworks.md)
