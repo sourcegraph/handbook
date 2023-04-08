@@ -1,20 +1,29 @@
 # Personas
 
-Here are Sourcegraph's core personas along with a few example titles for each persona. It is worth noting that these are not the only personas or titles that use or get value from Sourcegraph.
+At Sourcegraph, we make the distinction between two types of personas: The individual developer (referred to as "dev" below) and the buyer. Here are Sourcegraph's core personas along with a few example titles for each persona. It is worth noting that these are not the only personas or title of roles that use Sourcegraph or get value from the platform. Here is Sourcegraph's Go-to-Market (GTM) approach to these different personas:
 
-- [Developer/Engineer (IC):](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0) Senior Software Engineer, Senior Developer, Frontend Developer, Backend Developer, Full stack Developer, Software Engineer
-- [Dev Productivity/Experience Lead](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_19): Dir. / Sr Manager of Dev Services; Dev Productivity; Dev Experience; Productivity Eng; Tech Enablement; Infrastructure Eng; Developer Platform
-- [Engineering Leader](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46): VP Engineering; Sr. Director of Engineering, Engineering Manager, Engineering Leader
-- [Admin Personas](../../../strategy-goals/strategy/admin-experience/admin-experience-personas.md): DevExperience Lead, Software Engineer of Infrastructure, Director of Infrastructure
+**Dev**:
+
+Sourcegraph caters to any developer with Big Code pains: At a big company / enterprise, most devs experience Big Code pains; at a smaller company, only some developers experience Big Code pains. This persona self-selects and the pain criteria is hard to gauge, so we cannot rely on a-priori criteria of company size alone. **Example roles**: Sr Software Engineer, Senior Developer, Frontend Developer, Backend Developer, Full stack Developer, Software Engineer. [Additional directional info in this slide.](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0)
+
+**Buyer**:
+
+- Security Engineering Leader: Usually experiences the most acute pain, but also operates in a more crowded space and more compartmentalized vs. the rest of Eng (so they are more likely to only look at a narrow value prop).
+
+- Platform/Infrasctracture Leader: Probably experiences the pain slightly less acutely, but still very seriously. Not all companies have a clear platform/infra leader, but that is changing; This function is much better integrated with the rest of Engineering, so more likely to see resonance by broader value prop. **Example roles:** Dir of Platform Eng; Sr Manager of Infrastructure Eng; Developer Platform. Also connects to [Admin Personas](../../../strategy-goals/strategy/admin-experience/admin-experience-personas.md).
+
+- Head of Engineering: Crucial part of the relationship Sourcegraph has with the Engineering org. Usually, the engagemenet takes place via EBC, intros, and other executive-level interactions. **Example roles:** SVP Eng; VP Eng. [Additional directional info in this slide](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46).
+
+## The persona / customer journeys:
+
+The two types of personas, devs and buyers, have different customer journeys on their path of awareness and experience of Sourcegraph. The two journeys are depicted [here](https://docs.google.com/presentation/d/1yDJvLJunOl7ltFagadJhBk8es6KxxNyinMQSBLveYFA/edit#slide=id.g1d7f573b6dc_3_5). Different team members across Product, Marketing, and other departments are aligned to each persona and each stage of the journey to make it the best experience for the personas.
+
+## Frequently Asked Questions (FAQ):
 
 ## What are "personas"?
 
-A persona is a set of people who share common problems and other traits. Instead of writing a blog post for a single specific person, or building a feature for a single specific person, we target broad sets of people ("personas"). For general information about personas, see "[Personas for Product Management](https://svpg.com/personas-for-product-management/)".
+A persona is a set of people who share common problems and other traits. Instead of writing a blog post for a single specific person, or building a feature for a single specific person, we target broad sets of people ("personas"). For general information about personas, see "[Personas for Product Management](https://svpg.com/personas-for-product-management/)". The different personas have different customer journeys.
 
 ## Why are personas important?
 
-It is crucial that as a customer-centric growing startup, we always keep our target audiences in mind, across all activities in the company. No matter the role, each of us are designing for, building for, huddling around, and interacting with our personas and as such, we must all be aligned in our understanding of the key characteristics, pain points, and motivations of the people we are trying our best to delight.
-
-## How can I learn more about Sourcegraph's personas?
-
-[We define our core personas in this deck](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.gea500549b8_1_6). We invite you to watch this introductory [recording about our core personas](https://drive.google.com/file/d/1jH2aQdShBHjGEzTmi8Tn64QKJY66arop/view?usp=sharing) that is an important resource for every Sourcegraph team member. These resources outline the personas as well as the ways you can further enrich our understanding of them, and we look forward to hearing your insights and integrating them into the assets.
+It is crucial that as a customer-centric growing company, we always keep our target audiences in mind, across all activities in the company. No matter the role, each of us are designing for, building for, huddling around, and interacting with our personas and as such, we must all be aligned in our understanding of the key characteristics, pain points, and motivations of the people we are trying our best to delight.

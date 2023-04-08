@@ -13,6 +13,7 @@ Our README expands on our profile in [the company team directory](../../../../te
 - Shawnteé [README](shawntee-readme.md)
 - Rakesh [README](rakesh-readme.md)
 - Enrique [README](enrique-readme.md)
+- Marc [README](marc-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following to the degree you feel at ease to do so; feel free to add/remove as you see fit:
 

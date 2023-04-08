@@ -53,6 +53,11 @@ No. Hopefully in the future, Zendesk will give us this feature; for now, we can 
 
 We sometimes get all company updates or solicitation emails delivered to support mailbox. When you come across these, please go ahead and delete them.
 
+If the email is clearly spam mark them as such (this can be done by clicking the three vertical dots on a ticket and selecting `Mark as Spam`) which will delete the ticket and make sure we don't get a similar email again.
+
+If the email is around something that could be of interest to another team (examples could be a bill for a service that is about to expire or some security update) forward those to the appropriate team via Slack (or email group if its known).
+For employment verification emails see above for steps.
+
 ### 5.What if we are close to missing SLA?
 
 When SLA is close to expiring, we view the teams' cases we ask those SEs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.

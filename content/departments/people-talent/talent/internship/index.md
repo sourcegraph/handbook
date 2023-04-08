@@ -44,8 +44,8 @@ Payroll
 - 🌐 Internet - A fixed reimbursement for $50 of internet expenses monthly
 - 📱 Mobile phone - A fixed reimbursement for $75 of mobile phone expenses monthly
 - 🧘 Well-being Leave - We trust you to practice agency over your wellbeing, and we provide wellbeing leave to take if you are ill (sick) or need time away from work to regulate your mental or physical wellbeing. If you are sick or need time away, please alert your Manager and the People Team via Slack.
-- 🏖️ PTO - We offer flexible Paid Time Off (PTO). Given that this is a 3-month internship, we expect that on average, interns will not take anymore than a week off in total. If you need PTO, please work with your Manager and the People Team via Slack before confirming your travel details.
-  - As a global company, we're not prescriptive about offering "Company-wide holidays" because the holidays are vastly different in every country! We empower our teammates to use their high agency and decide which days they'd like to use their PTO for.
+- 🏖️ PTO - We offer flexible Paid Time Off (PTO). Given that this is an internship, we expect that you will work with your Manager and the People Team via Slack before confirming your PTO and travel details.
+  - We do not allow hourly employees to work federal holidays.
 
 **Interns are only eligible for the perks listed above. Any other company perks will not apply to the internship program.**
 
@@ -82,7 +82,7 @@ At the end of an internship, a full time position is not guaranteed, but may be 
 
 ### Future internship cohorts
 
-While 2022 was our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring Slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of each internship program.
+While 2022 was our first internship program, it won’t be our last! We welcome questions and feedback in the [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) Slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of each internship program.
 
 ### How to request an intern for your team
 
@@ -114,7 +114,7 @@ Internship plans
 
 Finalizing the onboarding checklist
 
-- Each manager will confirm the necessary onboarding checklist items with Inés to ensure the interns have a smooth and effective remote onboarding experience.
+- Each manager will confirm the necessary onboarding checklist items with Internship Program Manager to ensure the interns have a smooth and effective remote onboarding experience.
 
 Wage and hour guidelines
 

@@ -102,8 +102,6 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
-  - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 - **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For new customers or prospects who currently do not have a managed instance.
   - After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
@@ -119,6 +117,10 @@ Customer Engineers (CE) or Sales may request to:
   - For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
 - **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
+- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
+  - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
+- **Enable Cody on a Managed Instances** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)
+  - To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
 
 #### Workflow
 
@@ -184,6 +186,7 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 - [Cloud team working aggrements](./working-agreements.md)
 - [Cloud launch process](./launch-process.md)
 - [Technical documentation](technical-docs/index.md)
+- [Post Mortem Template / RCA](cloud-rca.md)
 
 ## FAQ
 
@@ -191,22 +194,27 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](technical-docs/oidc_site_admin.md) as an authentication provider. Please reach out to our team prior to disabling the builtin provider.
+[Sourcegraph teammate access to Cloud instances](technical-docs/oidc_site_admin.md) is configured separately at the infrastructure and lives outside the regular Sourcegraph site configuration.
 
 ### FAQ: How do I restart the frontend after changing the site-config?
 
 > NOTE: If you are a Cloud teammate, follow the regular operation playbook.
 
-Are you a member of our CE & CS teams?
+To restart the frontend for a customer, you can either execute:
 
-- Visit [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
-- Locate the `slug` of the customer instance from list of folders
-- Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
-- Click `Run workflow` and input the `slug` of customer instance
-- Click the `Run workflow` green button
-- Done! It shouldn't take more than 2 minutes
+#### Automated (recommended)
 
-<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+1. Navigate to the [Reload Instance Frontend](https://github.com/sourcegraph/cloud/actions/workflows/mi_reload_frontend.yml) GitHub Actions page
+1. Click the "Run Workflow" button
+1. Enter in the customer slug and select `prod` as the environment. If you do not know the slug, refer to the `Name` field of the table at http://go/cloud-ops.
+
+#### Manually (requires [Cloud V2 Prod Access](https://app.entitle.io/request?bundleId=ce56e0e6-15d6-4f3a-93df-dd2418d378ec&targetType=bundle))
+
+```sh
+mi2 instance workon -e prod -s <customer slug> -exec
+mi2 instance check pods-health
+kubectl rollout restart deployments/sourcegraph-frontend
+```
 
 ### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
 
@@ -226,7 +234,7 @@ Sourcegraph-owned instances are continuously deployed (with versions that weren'
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
-Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+Future work in this area is owned by [Data & Analytics team](../data-analytics/index.md).
 
 ### FAQ: Does Cloud support data migrations?
 
@@ -266,7 +274,7 @@ Read through our [Cloud Cost Policy](cloud-cost.md)
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
-Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+Future work in this area is owned by [Analytics team](../data-analytics/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
 
 ### FAQ: How to list trial, production or internal instances?
 
@@ -286,7 +294,7 @@ Use cases:
 - The customer would like to maintain an IP allowlist to permit traffic to their code hosts
 - The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
 
-Outgoing traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
+**Outgoing** traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
 
 There are two groups of IP.
 
@@ -306,6 +314,18 @@ terraform output -json | jq -r '.cloud_nat_ips.value'
 # Executors outgoing IPs
 terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.address == "module.managed_instance.module.executors[0].module.networking.google_compute_address.nat[0]") and (.mode == "managed")) | .values.address'
 ```
+
+### FAQ: Can customers restrict access to their Cloud instances to VPN-only/specific IP adddresses?
+
+Use cases:
+
+- The customer would like to only permit access to the Cloud instance from their VPN
+
+**Incoming** traffic of Cloud instances first go through our WAF provider, Cloudflare, and we are able to utilize Cloudflare to filter incoming traffic based on the IP list provided by customer.
+
+For #ce teammates, please request a list of IP address of IP ranges (CIDR) from customers and include them in the creation request.
+
+For #cloud teammates, add the IP addresses to the instance `config.yaml`.
 
 ### FAQ: What code-hosts does Cloud support?
 

@@ -38,4 +38,4 @@ If a phone call is required, please share our company phone number, [+1 (650) 27
 
 If you have any questions about Truework, you can reach out to the People Team in #ask-people-team in Slack or people-ops@sourcegraph.com.
 
-For Sourcegraph teammates, if the letter provided is not what you need, and you are looking for a special type of verification letter, please reach out to peopl-ops@sourcegraph.com explaining what you need and the information required in it.
+For Sourcegraph teammates, if the letter provided is not what you need, and you are looking for a special type of verification letter, please reach out to people-ops@sourcegraph.com explaining what you need and the information required in it.

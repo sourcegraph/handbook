@@ -49,7 +49,7 @@ Expectations for the EM/PM:
 - Ensure the content is technically precise and accurate
 - Help ensure the content will resonate with devs
 
-4. **Final review:** Once Marketing and Eng/Product feel the content meets our high bar, share with a marketing leader (Amie, Nick, Andy) for final review. By this stage, the content should be:
+4. **Final review:** Once Marketing and Eng/Product feel the content meets our high bar, share with a marketing leader (Amie) for final review. By this stage, the content should be:
    1. Be free of typos and grammatical errors
    2. Be technically precise and accurate
    3. Resonate with devs

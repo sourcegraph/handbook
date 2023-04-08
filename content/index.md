@@ -124,6 +124,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 
 ## Other company information
 
+- [High performance culture](company-info-and-process/working-at-sourcegraph/teammate-development)
 - [Pay and benefits](benefits-pay-perks/benefits-perks/index.md)
   - [Compensation](benefits-pay-perks/pay-expenses/compensation/index.md)
   - [Submitting expenses](benefits-pay-perks/pay-expenses/expenses/index.md)
@@ -131,7 +132,6 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
   - [Travel benefits](benefits-pay-perks/benefits-perks/travel/index.md)
   - [Time off](benefits-pay-perks/benefits-perks/time-off/index.md)
   - [Mental health](benefits-pay-perks/benefits-perks/mental-health/index.md)
-- [Community](company-info-and-process/community/index.md)
 - [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
 - [Mentorship](company-info-and-process/mentorship/index.md)
 - [Policies](company-info-and-process/policies/index.md)

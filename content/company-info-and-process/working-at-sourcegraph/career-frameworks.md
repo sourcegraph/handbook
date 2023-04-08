@@ -12,7 +12,7 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 - **Customer Support**
   - [Support Career Growth](../../departments/technical-success/support/career-growth/index.md)
-  - [Customer support career levels](../../departments/technical-success/support/career-growth/cs-career-levels.md)
+  - [Customer support career framework & levels](../../departments/technical-success/support/career-growth/cs-career-framework.md)
 - **Customer Engineering**
   - [Customer engineering framework & levels](../../departments/technical-success/ce/career-growth/index.md)
 

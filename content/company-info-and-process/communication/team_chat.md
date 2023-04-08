@@ -38,7 +38,7 @@ To help with navigation and discoverability, follow these naming conventions for
    </td>
    <td>To ask questions or find information from other teams or departments.
    </td>
-   <td>#ask-sales, #ask-marketing, #ask-people
+   <td>#ask-sales, #ask-marketing, #ask-people-team
    </td>
   </tr>
   <tr>
@@ -137,7 +137,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C0379USFD7E">#exec-ama</a>
+   <td><a href="https://sourcegraph.slack.com/archives/C0379USFD7E">#ask-exec-team</a>
    </td>
    <td>Ask Sourcegraph leadership any question and get an answer. 
    </td>
@@ -161,13 +161,13 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C01UPDNPGP4">#teammate-announce</a>
+   <td><a href="https://sourcegraph.slack.com/archives/C01UPDNPGP4">#announce-teammate-hires</a>
    </td>
    <td>Welcome newly hired teammates and celebrate promotions and new roles.
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#teammate-departures</a> 
+   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#announce-teammate-departures</a> 
    </td>
    <td>Stay informed about teammates who are leaving Sourcegraph. 
    </td>

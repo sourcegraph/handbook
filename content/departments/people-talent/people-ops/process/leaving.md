@@ -2,7 +2,7 @@
 
 We value the contributions of every Teammate, and are committed to providing the most rewarding career experiences at Sourcegraph. We also recognize that Teammates may choose to move on, which can happen in a variety of ways. To make transitions as seamless as possible, we have outlined all possible scenarios below.
 
-This guide applies to all Teammates globally, including temporary and part-time contractors. Please reach out to the People Team ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) if you require further guidance.
+This guide applies to all Teammates globally, including temporary and part-time contractors. Please reach out to the People Team ([people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)) if you require further guidance.
 
 - Resources for Teammates (&lt;-- you are here)
 - [Resources for Managers](https://docs.google.com/document/d/1IGPWnYOZTknxPZLgGZULJEjzDFBuRa77LyufAzttEBA/edit#heading=h.exe40mn701hw)
@@ -18,13 +18,13 @@ Teammates can leave us in 3 ways:
 
 ### 1. Voluntary Resignations
 
-Woluntary exits occur when a Teammate chooses to resign from their role at Sourcegraph. These exits are generally initiated by the Teammate, not Sourcegraph. If you decide that resigning is the best course of action, please confirm your last day of work with your manager and follow the steps below. If you are considering resigning or have any questions about the resignation process, please contact your People Partner or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+Woluntary exits occur when a Teammate chooses to resign from their role at Sourcegraph. These exits are generally initiated by the Teammate, not Sourcegraph. If you decide that resigning is the best course of action, please confirm your last day of work with your manager and follow the steps below. If you are considering resigning or have any questions about the resignation process, please contact your People Partner or send an email to [people-teams@sourcegraph.com](mailto:people-team@sourcegraph.com).
 
 ### **Voluntary Resignation Process**
 
 1. **Tell your manager:** the first step in resigning is to tell your manager. We suggest that you schedule a meeting to tell them directly, but an email or Slack also suffices if in person communication is not possible.
-2. **Confirm last day:** the Teammate confirms their last day of work with their manager. We expect contractual notice periods to be honored (if applicable), unless you and your manager agree otherwise. If you are unsure of your notice period, please refer to your contract or offer letter, or contact [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) if further clarification is needed. In rare cases, a change to the departing Teammate’s last day may be requested by the Teammate or their manager. Any extensions of a Teammate’s last day must be approved by their manager and all changes to the separation date must be communicated to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) immediately (but in no event later than 24 hours after the request is made). The Teammate’s People Partner will update those involved in the offboarding process and complete all system updates.
-3. **Send resignation email:** once the last day is confirmed, the Teammate sends a resignation email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with the subject line: [“Teammate name” - Resignation Email]. If the departing Teammate is employed via a PEO, they should also copy the relevant Support Team (Remote: [userhappiness@remote.com](mailto:userhappiness@remote.com); Deel: ​​[support@deel.com](mailto:support@deel.com)). Depending on the circumstances of the Teammate’s exit, access to internal systems may be removed prior to their separation date. Managers and/or People Partners will confirm the exact date and time of access removal with the departing Teammate when discussing their [transition plan](#creating-a-transition-plan).
+2. **Confirm last day:** the Teammate confirms their last day of work with their manager. We expect contractual notice periods to be honored (if applicable), unless you and your manager agree otherwise. If you are unsure of your notice period, please refer to your contract or offer letter, or contact [people-team@sourcegraph.com](mailto:people-team@sourcegraph.com) if further clarification is needed. In rare cases, a change to the departing Teammate’s last day may be requested by the Teammate or their manager. Any extensions of a Teammate’s last day must be approved by their manager and all changes to the separation date must be communicated to [people-team@sourcegraph.com](mailto:people-team@sourcegraph.com) immediately (but in no event later than 24 hours after the request is made). The Teammate’s People Partner will update those involved in the offboarding process and complete all system updates.
+3. **Send resignation email:** once the last day is confirmed, the Teammate sends a resignation email to [people-team@sourcegraph.com](mailto:people-team@sourcegraph.com) with the subject line: [“Teammate name” - Resignation Email]. If the departing Teammate is employed via a PEO, they should also copy the relevant Support Team (Remote: [userhappiness@remote.com](mailto:userhappiness@remote.com); Deel: ​​[support@deel.com](mailto:support@deel.com)). Depending on the circumstances of the Teammate’s exit, access to internal systems may be removed prior to their separation date. Managers and/or People Partners will confirm the exact date and time of access removal with the departing Teammate when discussing their [transition plan](#creating-a-transition-plan).
 4. **Offboarding process begins:** the Teammate’s People Partner will initiate the offboarding process within 24 hours of receiving the resignation email. If the departing Teammate is employed via a PEO, the People Partner will work directly with the PEO vendor to complete the offboarding processes.
 5. **Offboarding email is sent:** the departing Teammate will receive an offboarding follow-up email, including details about payroll, benefits, equity, returning of equipment and expenses. You can find an example of the offboarding email [here](https://docs.google.com/document/d/1YznrIoaI8JtKFckn-_zN1UKexyjFX9hyjuURp5a9qKY/edit).
 6. **Create your transition plan:** departing Teammates are expected to work with their managers to create a [transition plan](#creating-a-transition-plan) during their notice period, if applicable. Transition plans take into account notice period length, as well as the departing Teammate’s current workload, and the overall impact of their exit on others and the organization.
@@ -79,7 +79,7 @@ Depending on the nature of your departure, you may be asked to create a transiti
 
 In order to deepen our understanding of Teammates’ experience at Sourcegraph and reasons for leaving, the People Team will conduct an exit interview for all Teammates who leave Sourcegraph voluntarily. Any information gathered during the exit interview process is confidential, and a Teammate’s responses will never be shared outside the People Team.
 
-Participating in an exit interview is not mandatory; however, , we strongly encourage exiting Teammates to provide honest, actionable feedback for us so we can learn and improve.
+Participating in an exit interview is not mandatory; however, we strongly encourage exiting Teammates to provide honest, actionable feedback for us so we can learn and improve.
 
 The exit interview is broken into two steps:
 
@@ -88,19 +88,19 @@ The exit interview is broken into two steps:
 
 ## **FAQ for Departing Teammates**
 
-#### Q. When will I receive my last paycheck for time worked?
+#### When will I receive my last paycheck for time worked?
 
 - **US Teammates:** You will receive your last paycheck on your separation date, provided that Sourcegraph has sufficient notice to process the payment. Otherwise, you will receive your final pay as soon as feasible, in accordance with applicable laws.
 - **Contractors:** Please submit an invoice as usual covering time worked through your last day of work.
 - **PEO Teammates:** You should check with your PEO company on the timing of your final pay.
 
-#### Q: When will I receive my outstanding commission?
+#### When will I receive my outstanding commission?
 
 - Any commissions will be processed with our usual pay cycle, or otherwise as required by applicable law.
 
 #### When will my benefits coverage end?
 
-- **US Teammates:** Your medical, dental, and vision benefits will remain active through the end of the month in which your employment ends. You will receive an email from Rippling within two weeks of your termination date, regarding options for continuation of coverage under[ COBRA](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra). This is an important/time sensitive email, so please let the People Team ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) know if you do not receive it.
+- **US Teammates:** Your medical, dental, and vision benefits will remain active through the end of the month in which your employment ends. You will receive an email from Rippling within two weeks of your termination date, regarding options for continuation of coverage under[ COBRA](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra). This is an important/time sensitive email, so please let the People Team ([people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)) know if you do not receive it.
 
 #### How long do I have to exercise vested options?
 
@@ -114,6 +114,10 @@ The exit interview is broken into two steps:
 
 - [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate. Please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
 
+#### What should I do if I am an Airbase cardholder?
+
+- Make sure any recurring subscriptions are cancelled. Your Airbase card will be deactivated on your last day and you can destroy it.
+
 #### How do I submit my final expenses?
 
 - If you have any outstanding expenses and no longer have access to Airbase, please use the following instructions for getting reimbursed:
@@ -125,8 +129,8 @@ The exit interview is broken into two steps:
 
 #### How can I obtain a reference?
 
-- Our policy is to provide standard references only (name, position held, start date and end date). Reference requests can be directed to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
+- Our policy is to provide standard references only (name, position held, start date and end date). Reference requests can be directed to [people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)
 
 #### How is my work history verified after I leave?
 
-- Work history or employment verification requests should be directed to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+- Work history or employment verification requests should made via Truework.

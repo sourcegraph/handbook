@@ -14,9 +14,13 @@ The Sales strategy & operations (Sales Ops) team is responsible for helping our 
 
 See the [Operations roles](../roles/index.md) page.
 
-## Goals
+## Sales operations
 
-TODO
+- See details on sales operations systems and processes [here](../tools/salesforce.md)
+
+## Marketing operations
+
+- See details on marketing operations systems and processes [here](marketing-ops.md)
 
 ## Resources
 

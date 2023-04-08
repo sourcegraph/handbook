@@ -8,72 +8,75 @@ This document describes how we release Sourcegraph.
 > The [Release Guild](../../../guilds/release_guild.md) is now the entity that owns the release process. Read more details about release
 > responsibilities in the [Releases](#releases) section below.
 
-### Releases
+### Release Schedule
 
-**Sourcegraph minor releases are monthly.**
-A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
+As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
+
+| Version | Code Freeze Date  | Release Date       |
+| ------- | ----------------- | ------------------ |
+| 5.0     | March 13, 2023    | March 22, 2023     |
+| 5.1     | June 14, 2023     | June 28, 2023      |
+| 5.2     | September 6, 2023 | September 20, 2023 |
+| 5.3     | November 29, 2023 | December 12, 2023  |
+| 5.4     | February 27, 2024 | March 12, 2024     |
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-These releases always ship on time, even if they're missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
+#### Current patch schedule
 
-Minor releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
+| Patch date     |
+| -------------- |
+| April 5, 2023  |
+| April 19, 2023 |
+| May 3, 2023    |
+| May 17, 2023   |
+| May 31, 2023   |
+| June 14, 2023  |
+
+Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
 
-### When we release
+Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major version (`3.0.0` -> `4.0.0`). Releases are published with [semantic versioning syntax](https://semver.org/), though Sourcegraph releases do not necessarily follow the versioning semantics.
 
-We create releases by 10am US Pacific Time on the 22nd day of each month. If the 22nd falls on a non-working day, the release captain will shift the release earlier to the last working day before the 22nd. The calendar events will reflect this.
+#### Selecting Release Dates
 
-The release branch will be cut exactly (and no more than) 72 weekday-hours prior to the release date and time (using the commit ledger if necessary). This aims to prevent surprise release cuts and ensure teammates can always know how much time is left until the release branch is prepared.
+Generally speaking when selecting release dates consider the following criteria:
 
-For example if the 22nd of the month was on a Thursday, we would cut the build on Monday the 19th.
+1. Prefer tuesdays near the middle of the month, giving plenty of time during the week to respond to issues that may arise
+2. Avoid releasing anywhere near the end of November or December to avoid common holiday seasons
 
-If the 22nd of the month was on a Monday, the release cut would be on Wednesday the 17th.
-
-If the 22nd of the month was on a Sunday, the release would become the 20th and the release cut would be on Tuesday the 17th.
+A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
 
 ### Patch releases
 
-**Sourcegraph patch releases are created as required.**
 A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
+
+Generally speaking patches will only include bug fixes for previously released features. In some occasions we may release improvements to address issues that may not technically a bug fix, and in some occasions we may backport features provided they are:
+
+1. Behind a feature flag
+2. Low risk and well tested (with flag on and flag off)
+
+#### Patch Schedule
+
+Patches are scheduled regularly throughout the release quarter once every other week, with 5 patches per release cycle. For example if a release was scheduled on June 13, 2023, the patch schedule would be:
+
+| Patch Date |
+| ---------- |
+| 2023-06-27 |
+| 2023-07-11 |
+| 2023-07-25 |
+| 2023-08-08 |
+| 2023-08-22 |
 
 These releases **never** require any manual migration steps.
 
-Patch releases are ultimately the responsibility of the requesting entity (for example a feature team). The release guild will coordinate
-and facilitate any internal communications required, and will make a best effort to perform the patch release. If for some reason
-the release guild is unable to release a patch, the responsibility to do so will fall back to the requestor.
-
-#### Release guild SLA
-
-The release guild operates with the following SLA:
-
-1. 2 working days after patch request to accept or deny the patch release responsibility
-2. 3 working days after accepting responsibility to perform the patch release
-
-> NOTE: Patch releases are not free, and we currently enforce certain requirements before a patch release is conducted.
+We will also release patches out of band from the schedule above if there are urgent incidents to resolve, such as a
+security incident or other critical issue affecting the usage of Sourcegraph.
 
 #### Requesting a patch
 
 1. To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
-2. Notify the release guild (#release-guild). One of the guild members will respond within 2 working days and confirm if the guild is
-   able to perform the patch release.
-   1. If the guild SLA is too long or otherwise insufficient, the patch requestor is free to notify the guild and perform the patch as long as the patch meets the overall requirements for a Sourcegraph patch.
-      We require that the guild still be notified about any patch requests to be aware of any patches that are currently in progress.
-      > In most cases, waiting until the next [full release](#releases) is the best approach.
-
-#### Patch request process
-
-The release guild will evaluate this patch process at the end of Q2 FY23 with the goal to make the patch requestor
-the first and primary party responsible to cut the patch ([read more in RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit)). Some critiera that we will use to measure success
-will be:
-
-1. Only include absolute necessary changes to address issues introduced in the corresponding minor release, and no disruption to the overall customer upgrade experience.
-2. Enough internal experience in the release guild such that the guild can be a resource to help with patches (aiming for at least 1 more patch captain)
-
-### Other
-
-On rare occasions we may decide to increase the major version number (e.g. `2.13.x` -> `3.0.0`).
-These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
+2. Notify the release guild (#release-guild)
 
 ## Key concepts and components
 
@@ -81,17 +84,11 @@ This section documents the process used to create releases at Sourcegraph.
 
 ### Release captain
 
-The release captain is _responsible_ for managing the release process and ensuring that the release happens on time. The release captain may _delegate_ work to other teammates, but such delegation does not absolve the release captain of their responsibility to ensure that delegated work gets done.
+The release captain is _responsible_ for managing the release process and ensuring release is executed successfully. The release captain may _delegate_ work to other teammates, but such delegation does not absolve the release captain of their responsibility to ensure that delegated work gets done.
 
 The release captain should create a tracking issue using the [release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md) at the beginning of the release cycle.
 
 Release captain responsibilities are currently owned by the [Release guild](../../../guilds/release_guild.md).
-
-#### Release Retrospective
-
-The release captain is responsible to start an async release retrospective for every release. Typically this will be in a google document located in the [Release Guild folder in Google Drive](https://drive.google.com/drive/folders/1KMGL2iS8yuBHU-fJsTqb8lIqyHcO75nB?usp=sharing). We perform these retrospectives so that we can understand and grow. The long term vision is to improve this release process, and to do so we need to gather information about each release.
-
-The retrospective document should be shared in #release-guild.
 
 ### Release tooling
 
@@ -135,6 +132,8 @@ A---B---C---D---E---F---G---H---I---J---K---L (main branch)
        \
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
+
+> NOTE: cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
 
 ### Issues
 
@@ -211,22 +210,6 @@ The Release Captain should review and follow the instruction in the patch releas
 ### 3) Revisit patch request issue
 
 Now it's a good time to go back to the original [patch release request] and close it.
-
-## FAQ
-
-### Why the 22nd?
-
-There is nothing particularly special about using this date for releases. Historically the 20th was release date, which was changed as a result of [RFC 695](https://docs.google.com/document/d/1HedzJIzcNR5Ihy_h0PgEqfdAE0z3sSSyZL5IOw2O8qk/edit#).
-
-### Why aren't releases continuous?
-
-Although [Sourcegraph.com](https://sourcegraph.com) is [continuously deployed](../deployments/instances.md), the version of Sourcegraph that customers use is not continuously released or updated.
-This is because:
-
-- We don't think customers would be comfortable with a continuously updated service running on their own infrastructure, for security and stability reasons.
-- We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
-
-In the future, we may introduce continuous releases if these issues become surmountable.
 
 [patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
 [revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197

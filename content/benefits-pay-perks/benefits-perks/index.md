@@ -20,7 +20,7 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ### 👪 Family planning support
 
-We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing, morning after pill, abortion services, etc). Receipts for any expense over $25 are required.
+We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing, morning after pill, abortion services, etc). Receipts for any expense over $25 are required. Family planning services apply to all teammates, their spouse, and/or domestic partner.
 
 ### 📚 Professional development
 
@@ -67,3 +67,7 @@ We offer basic life insurance and cover the full premium for all US-based full-t
 We offer a 401(k) for US-based employees with both traditional (pre-tax) and Roth options to help you save for retirement while saving on taxes. The 401(k) is administered by [Human Interest](https://humaninterest.com/) and has several low-fee Vanguard funds available as investment options.
 
 For a more detailed breakout of our benefits and perks, see [this page](../index.md)
+
+### Leave of Absence
+
+We offer medical leave policies to all full-time teammates, providing them with time off to care for themselves or a family member as they recover from a serious health condition. you can read more about our Leave of Absence policy [here](leave-of-absence.md).

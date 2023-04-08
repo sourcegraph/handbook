@@ -133,7 +133,7 @@ To make changes to images, environment variables or other configuration, all upd
 First, authenticate yourself to the cluster using the following command:
 
 ```shell
-gcloud container clusters get-credentials dogfood --region us-central1 --project sourcegraph-dogfood
+gcloud container clusters get-credentials dogfood --region us-central1-f --project sourcegraph-dogfood
 ```
 
 Then check that you have the Sourcegraph Helm chart installed:
@@ -142,6 +142,12 @@ Then check that you have the Sourcegraph Helm chart installed:
 helm repo add insiders https://helm.sourcegraph.com/insiders
 helm repo update
 helm search repo insiders --devel
+```
+
+Make changes to values.yaml by running the following script (this will update to latest main):
+
+```shell
+sg ops update-images -k helm ./helm/sourcegraph
 ```
 
 Finally, merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
@@ -155,6 +161,20 @@ SG_CHART_VERSION=$(helm history scaletesting -o json -n scaletesting | jq -r 're
 SG_CHART_VERSION=<new chart version>
 
 helm upgrade --install --values ./helm/sourcegraph/values.yaml --version ${SG_CHART_VERSION} scaletesting insiders/sourcegraph -n scaletesting
+```
+
+#### Deployment progress
+
+Watch how the change is being applied to the scaletesting environment:
+
+```shell
+kubectl get pod -n scaletesting --watch
+```
+
+Verify which version is deployed on scaletesting environment with:
+
+```shell
+sg live scaletesting
 ```
 
 ### Scale the infrastructure down when not in use

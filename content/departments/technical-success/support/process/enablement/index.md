@@ -6,14 +6,14 @@ The following is available to help us honor our [ethos and guiding principles](.
 
 This table correlates to our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit#gid=0) and offers enablement materials meant to help folks reach sentiment level 3 for each area.
 
-| Competency                      | Crash course                                                                                                                                                                          | Hands-on |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Code Intel                      | [Go here](https://docs.google.com/presentation/d/1DpKx6lW6kFwOv9BJVS9u69cA93EHiXMmzeSVbA1xzgE/edit?usp=sharing)                                                                       |          |
-| Docker/docker-compose migration | [Go Here](docker-compose-migrations.md)                                                                                                                                               |          |
-| Go Programming Language         | [Go Here](https://go.dev/tour/welcome/1)                                                                                                                                              |          |
-| GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing)                                                                       |          |
-| Kubernetes migration            | [Go here](k8-migration.md)                                                                                                                                                            |          |
-| Marketplace extensions          | [Go here](https://www.loom.com/share/ccee20f548c54b328951427bb00874e6) & [here](https://docs.google.com/presentation/d/1pxMoWaVUbFg80_YpnHZRNZ3kzJzaNs0FHAH9QvIVcz8/edit?usp=sharing) |
+| Competency                      | Crash course                                                                                                                                                                                                                                  | Hands-on |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Code Intel                      | [Go here](https://docs.google.com/presentation/d/1DpKx6lW6kFwOv9BJVS9u69cA93EHiXMmzeSVbA1xzgE/edit?usp=sharing) & [here](https://docs.google.com/presentation/d/18AClDSUmxACWobAfLCCTKJpbRKWYncDGX3BNza2yGrY/edit#slide=id.g207225e43b1_0_64) |          |
+| Docker/docker-compose migration | [Go Here](docker-compose-migrations.md)                                                                                                                                                                                                       |          |
+| Go Programming Language         | [Go Here](https://go.dev/tour/welcome/1)                                                                                                                                                                                                      |          |
+| GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing)                                                                                                                               |          |
+| Kubernetes migration            | [Go here](k8-migration.md)                                                                                                                                                                                                                    |          |
+| Marketplace extensions          | [Go here](https://www.loom.com/share/ccee20f548c54b328951427bb00874e6) & [here](https://docs.google.com/presentation/d/1pxMoWaVUbFg80_YpnHZRNZ3kzJzaNs0FHAH9QvIVcz8/edit?usp=sharing)                                                         |
 
 ## Docs
 
