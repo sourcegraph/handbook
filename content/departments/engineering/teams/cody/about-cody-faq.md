@@ -42,7 +42,7 @@ To provide responses to requests, Cody does the following:
 1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-![How cody works with keywords search]([Image URL](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-keywords.png))
+![How cody works with keywords search](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-keywords.png)
 
 ([image source](https://app.excalidraw.com/s/4Dr1S6qmmY7/3TiB7SbYTmm))
 
