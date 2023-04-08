@@ -12,8 +12,8 @@ We cannot support or employ candidates or teammates in any of these countries du
 - Sudan
 - Syria
 - Crimea
-- China (case by case - notify People Ops)
-- Russia (case by case - notify People Ops)
-- Ukraine (case by case - notify People Ops)
+- China
+- Russia
+- Ukraine
 
 Any questions? Contact the People team in #ask-people-team in Slack or people-ops@sourcegraph.com via email!

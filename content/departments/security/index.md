@@ -217,13 +217,17 @@ More detailed description of our responsibilities and what we do, can be found [
 
 ---
 
+## Security Policies
+
+We are responsible for maintaining company-wide security policies. You can find them [here](../../company-info-and-process/policies).
+
 ## Secure coding guidelines
 
 The secure coding guidelines contain information on how to address and prevent certain types of vulnerabilities. It's a required read for engineers at Sourcegraph and is finished by completing a short assessment. The training and guidelines can be found [here](./secure-code-training.md).
 
-## Security Policies
+## Data Sharing
 
-We are responsible for maintaining company-wide security policies. You can find them [here](../../company-info-and-process/policies).
+Please read about our data sharing practises and guidelines [here](../../company-info-and-process/policies/data-sharing.md).
 
 # Misc Links
 

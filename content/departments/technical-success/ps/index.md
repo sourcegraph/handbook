@@ -24,14 +24,6 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
   </tr>
   <tr>
-   <td>Onboarding Jumpstarts
-   </td>
-   <td>Expedite time to value through dedicated and custom user onboarding against customer-defined goals
-   </td>
-   <td>FY24 Q1
-   </td>
-  </tr>
-  <tr>
    <td>Implementation & Managed Services
    </td>
    <td>Expert hands-on implementation services for self-hosted customers, including initial install and configuration, migration services, managed and maintenance services, and more
@@ -40,17 +32,25 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
   </tr>
   <tr>
-   <td>Custom Development
+   <td>Onboarding Jumpstarts
    </td>
-   <td>Sprint-based execution of development projects which extend Sourcegraph's capabilities through API-based integrations, custom batch specs, and more
+   <td>Expedite time to value through dedicated and custom user onboarding against customer-defined goals
+   </td>
+   <td>FY24 Q2
+   </td>
+  </tr>  
+  <tr>
+   <td>Paid Training
+   </td>
+   <td>Expert-led, live or remote training designed to upskill dev workflows and abilities 
    </td>
    <td>FY24 Q2+
    </td>
   </tr>
   <tr>
-   <td>Paid Training
+   <td>Custom Development
    </td>
-   <td>Expert-led, live or remote training designed to upskill dev workflows and abilities 
+   <td>Sprint-based execution of development projects which extend Sourcegraph's capabilities through API-based integrations, custom batch specs, and more
    </td>
    <td>FY24 Q3+
    </td>

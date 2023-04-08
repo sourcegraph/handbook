@@ -29,7 +29,6 @@
 - [PEO](people-ops/tools/peo.md)
 - [Process St](people-ops/tools/process-st.md)
 - [Radford](people-ops/tools/radford.md)
-- [RingCentral](people-ops/tools/ringcentral.md)
 - [Roots](people-ops/tools/roots.md)
 - [Sparrow](people-ops/tools/sparrow.md)
 - [TrueWorks](people-ops/tools/trueworks.md)

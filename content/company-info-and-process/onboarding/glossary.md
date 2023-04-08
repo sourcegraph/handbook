@@ -4,7 +4,7 @@ data_source: [/data/glossary.yml, glossary]
 
 # Glossary of terms
 
-[go/glossary](https://go/glossary)
+go/glossary
 
 This is a glossary of terms you might hear working at Sourcegraph. Although we try to minimize the use of acronyms, they do appear from time to time and this can be a helpful resource to figure out what people are talking about. In your day to day, try to avoid using them, or at least explain them the first time you use them.
 

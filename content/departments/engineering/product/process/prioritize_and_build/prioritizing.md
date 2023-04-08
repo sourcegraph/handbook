@@ -103,7 +103,7 @@ Important questions to ask while re-prioritizing and proposing solutions for cri
 
 ## How to reference customer names in public tickets
 
-Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../../../bizops/tools/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).
+Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../../../data-analytics/documentation.md#how-to).
 
 ## Experimentation and improvements to prioritization
 

@@ -81,32 +81,32 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 #### Technical Success team laptops:
 
-- Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - 16.2" M2 Pro - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Product & Design team laptops:
 
-- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - 16.2" M2 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Engineering team laptops:
 
-- Apple MacBook Pro - 16.2" M1 Max - 64 GB RAM, 1 TB SSD
+- Apple MacBook Pro - 16.2" M2 Max - 64 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-mbp-16-m1m-10c32c-64-1tb-sg/6740562?enkwrd=6740562)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Data & Analytics team laptops:
 
-- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - 16.2" M2 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 
 #### All other teams laptops:
 
-- Apple MacBook Pro - 14.2" M1 Pro - 16 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 14.2" M2 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-14-apple-m1-pro-chip-16-gb-ram-512-gb-ssd-spac/6738971?enkwrd=6738971)
-- Apple MacBook Pro - 16.2" M1 Pro - 16 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 16.2" M2 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-512-gb-ssd-us/6738963?enkwrd=6738963)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
@@ -122,7 +122,7 @@ Please refer to the [computer setup](../../departments/tech-ops/tools/computer-s
 
 If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop.
 
-If you would like to upgrade to the new M1 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
+If you would like to upgrade to the new M2 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
 
 ## Recurring expenses
 

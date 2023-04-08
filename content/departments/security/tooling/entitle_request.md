@@ -89,6 +89,12 @@ Or if you click "I want a specific permission" on the bottom of the web interfac
 
 - Just type in “/entitle” into a slack message and you can get started with it.
 
+#### How do I know which project is where?
+
+- Here is the [project mapping](https://docs.google.com/spreadsheets/d/1Sn7CWAdfUl8nQxFq-o2z8p5m-0fJH8y3NSQq2eUq1ng/edit?usp=sharing).
+
+- Please let Security Team know if there is a project missing that you want included in the mapping
+
 #### What if there is an incident and I need access?
 
 - In case of an incident or on-call access request, please submit the access request and then reach out to security via our incident response process outlined [here](../security-incident-response.md#reporting)

@@ -23,12 +23,12 @@ The difference from paid Managed Instances:
 - [convert to paying customer](#convert-trial-to-paying-customer)
 - [teardown the Trial Managed Instance](#teardown-trial-managed-instance)
 
-## Cloud Trial Requests from [signup.sourcegraph.com](https://signup.sourcegraph.com)
+## Cloud Trial Requests
 
 Due to the high costs of infrastructure & human resources, along with the low activation rates in the self-service cloud trial experiment, we are no longer automatically provisioning cloud trial instances.
 Effective February 1, 2023, SDRs are responsible for the initial follow up and qualification for cloud trial requests. SDRs should seek to schedule an introduction meeting between the prospective Sourcegraph cloud customer and the Sourcegraph account team (appropriate AE & CE) to qualify the technical and security requirements. If, following that conversation, there is mutual fit for a Sourcegraph cloud trial, CEs are responsible for requesting the trial via the workflow documented below:
 
-1. Prospect fills out web form requesting trial at [signup.sourcegraph.com](https://signup.sourcegraph.com).
+1. Prospect fills out web form requesting trial at [about.sourcegraph.com/get-started](https://about.sourcegraph.com/get-started?t=enterprise).
 2. Request is captured, and lead is generated and tagged with appropriate campaign info (PR - Trial - Cloud - 9.27.22).
 3. If lead is from AE-owned/named account, lead is routed to the Outbound SDR owner of that account.
 4. If lead is from unnamed account, lead is routed to Inbound SDR.

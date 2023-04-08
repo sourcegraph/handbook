@@ -47,6 +47,18 @@ kbd {
         }
     }
 
+    .go-link {
+        border-radius: 3px;
+        background: rgba(48, 149, 192, 0.1);
+        color: rgb(18, 100, 163);
+        padding: 0 2px 1px 2px;
+        &:hover {
+            text-decoration: none;
+            background: rgba(29, 155, 209, 0.2);
+            color: rgb(11, 76, 140);
+        }
+    }
+
     .octicon {
         display: inline-block;
         vertical-align: text-top;
@@ -396,16 +408,6 @@ kbd {
     table {
         width: 100%;
         overflow: auto;
-    }
-
-    // Can be applied to <th> table header cells
-    // Only apply above small size, because on small we use scrolling table wrappers that conflict with sticky headers.
-    @include media-breakpoint-up(sm) {
-        th.sticky {
-            position: sticky;
-            top: calc(var(--header-height) - 1px);
-            z-index: 2;
-        }
     }
 
     table {

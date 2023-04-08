@@ -24,6 +24,7 @@ import { visit } from 'unist-util-visit'
 import { VFile } from 'vfile'
 
 import * as generatedMarkdown from './generatedMarkdown'
+import { rehypeGoLinks } from './rehypeGoLinks'
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
 import { rehypeSmartypants } from './rehypeSmartypants'
@@ -81,6 +82,7 @@ export default async function markdownToHtml(
         .use(rehypeSmartypants, { backticks: false, dashes: 'oldschool' })
         .use(rehypeMarkupDates)
         .use(rehypeSlackChannels)
+        .use(rehypeGoLinks)
         // Wrap all tables in Bootstrap's responsive helper to make them scroll instead of overflowing
         .use(rehypeResponsiveTables)
         // Trim .md suffix from links
@@ -203,8 +205,7 @@ const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
 const rehypeResponsiveTables: Plugin<[], Root> = () => tree => {
     visit(tree, (node, index, parent) => {
         if (isElement(node, 'table')) {
-            // Note: Matches breakpoint used for th.sticky CSS class
-            parent!.children[index!] = h('div.table-responsive-sm', node)
+            parent!.children[index!] = h('div.table-responsive', node)
         }
     })
 }

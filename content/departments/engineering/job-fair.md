@@ -54,6 +54,7 @@ Note that as we go, prioritization will be easier and easier as we’ll have pla
 - TPMs are responsible for coordinating the cycle: sending calendar invites, reminders, organizing Job Fair meetings).
 - PMs are responsible for the overal quality level of PR-FAQs (clear success criteria).
 - The prioritization team (PM/EMs/HoX/VPEng) are responsible for prioritization and staffing
+- The Tech Lead is responsible for success of a PR-FAQ. See [How to be a Tech Lead](./tech-lead.md).
 
 ## Submitting to the roadmap
 

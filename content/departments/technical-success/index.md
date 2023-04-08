@@ -14,4 +14,4 @@ To lead the technical success of prospective & existing customers by guiding the
 
 ## Team Members
 
-{{generator:reporting_structure.vp_customer_engineering}}
+{{generator:reporting_structure.vp_technical_success}}

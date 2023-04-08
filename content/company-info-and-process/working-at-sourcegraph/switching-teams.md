@@ -44,7 +44,7 @@ Because of these, we encourage our hiring managers to consider internal candidat
 
 If a hiring manager from a team would like to invite someone from another team to consider an open role they have, they should follow the below steps:
 
-1. In order to also ensure an equitable process and account for the reality that no one hiring manager would know the career ambitions of everyone at Sourcegraph, the hiring manager should post in #hiring that they are hiring for a role and, as with any role, we are happy to consider internal candidates, and that anyone interested should let them and their current manager know.
+1. In order to also ensure an equitable process and account for the reality that no one hiring manager would know the career ambitions of everyone at Sourcegraph, the hiring manager should post in [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) that they are hiring for a role and, as with any role, we are happy to consider internal candidates, and that anyone interested should let them and their current manager know.
 1. If you, as a hiring manager, have a specific teammate in mind for the role, the next step is to schedule time with the person’s existing manager to confirm 1) that they are supportive, 2) ensure they are in good standing, and 3) align on transition timing plan assuming the teammate is offered the new job.
 1. Alert the talent team and ask them to set up time with the teammate to discuss the role in further detail.
 1. The talent team will schedule them for all [remaining interview steps](../../departments/people-talent/talent/process/interview_process.md) (with the exception of the values interview) just as they would with any other candidate.
