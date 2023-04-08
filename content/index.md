@@ -40,7 +40,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
     <tr>
       <td>
         <a href="https://us8.campaign-archive.com/home/?u=df2a46502c53acf0b7771317f&id=e8e7daeb55">
-      (external link)
+        (external link)
         </a>
       </td>
     </tr>
