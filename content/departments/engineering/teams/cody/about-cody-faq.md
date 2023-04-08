@@ -111,7 +111,7 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
   - See [docs]()
   - Approval of [Cody terms](https://about.sourcegraph.com/terms/cody-notice). The very first step is to make sure customers can agree to terms and know that Cody uses third-party services (Anthropic and optionally OpenAI). There is **no paperwork required**: customers will agree to terms by turning Cody on in the admin UI. But we need to make sure that they are aware and have the right expectations.
 - Instructions for Cloud customers
-  - See the cloud team [handbook](../../../cloud/index#managed-instance-requests) (“Enable Cody on a Managed Instance”)
+  - See the cloud team [handbook](../../../cloud#managed-instance-requests) (“Enable Cody on a Managed Instance”)
   - Also see the [customer facing docs](https://docs.sourcegraph.com/cloud#cody)
 - Instructions for self-hosted customers:
   - See [docs](https://docs.sourcegraph.com/cody#cody-on-your-self-hosted-sourcegraph-enterprise-instance)
