@@ -30,7 +30,7 @@ To provide responses to requests, Cody does the following:
 1. The Large Language Model uses the contextual info from Sourcegraph to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-TODO:img
+![How cody works with embeddings](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-embeddings.png)
 
 ### How does Cody work (locally)?
 
@@ -42,7 +42,7 @@ To provide responses to requests, Cody does the following:
 1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-TODO:img
+![How cody works with keywords search]([Image URL](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-keywords.png))
 
 ([image source](https://app.excalidraw.com/s/4Dr1S6qmmY7/3TiB7SbYTmm))
 
@@ -255,9 +255,7 @@ See this [post](https://towardsdatascience.com/what-is-embedding-and-what-can-yo
 
 To disable access to Cody, you must revoke the Anthropic/OpenAI API keys provided to the customer that they apply to the instance. Once the API key is revoked, the Cody extension becomes unusable.
 
-For example to revoke the Anthropic API Key, from the Anthropic Console find the API Key specific to the customer and disable:
-
-<img:todo>
+For example to revoke the Anthropic API Key, from the Anthropic Console find the API Key specific to the customer and disable it.
 
 ## Cody security standards
 
