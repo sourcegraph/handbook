@@ -182,14 +182,6 @@ Teammate performance is evaluated through two complementary lenses:
 
 The overall **Performance Rating** is a combination of Skills and Values-based performance.
 
-### Rating definitions
-
-Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
-
-You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
-
-We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
-
 ## Rating definitions
 
 Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
@@ -205,6 +197,7 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
 #### Score definition: 1:1 (values:skills); ‘Star Performer’
 
 - **TL;DR:** teammates who receive a score with a 1 in values and a 1 are our highest performing teammates. This score indicates that a teammate consistently exceeds our high bar both in values and skill.
+- **Expected distribution:** top 3-5% of the company. Getting this score is a big deal!
 - **Examples:**
   - Values (1): exceeds in many, exhibits all, deficient in none.
     - This teammate consistently exhibits our values and consistently raises the high bar set for individuals at the level.
@@ -225,7 +218,7 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Eligible for merit increase; recommended merit increase: 7.5-10% \*
   - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency: **Teammates rated a 1:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
+- **Merit increase frequency:** Teammates rated a 1:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
 
 #### Score definition: 2:1 (values:skills)
 
@@ -245,7 +238,7 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Eligible for merit increase; recommended merit increase: 7.5-10% \*
   - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency: ** teammates rated a 2:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
+- **Merit increase frequency:** Teammates rated a 2:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
 
 #### Score definition: 1:2 (values:skills)
 
@@ -257,13 +250,13 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
     - Consistently takes initiative to identify problems and provide innovative solutions.
     - Builds strong relationships with colleagues and stakeholders and collaborates effectively to achieve team goals.
     - Challenges and debates when needed/appropriate, but in a tactful and helpful manner.
-  - Skills (2): contributions are in line with expectations at current level and sometimes exceed them. .
+  - Skills (2): contributions are in line with expectations at current level and sometimes exceed them.
     - Consistently meets deadlines and delivers work that meets our high bar, but doesn’t necessarily go above and beyond or seek out opportunities for growth and development.
     - Meets expectations for assigned tasks, but doesn’t consistently proactively take on additional responsibilities or projects
     - Demonstrates solid technical skills, but may be lacking some soft skills such as communication, teamwork, or leadership
     - Is a reliable and consistent contributor to the team, but not necessarily standing out or taking initiative to innovate or problem-solve
 - **Recommended manager action**: to support a teammate who exceeds high bar for values and meets high bar for skills, a manager should recognize and appreciate their commitment to organizational values, encourage further development of skills through training or coaching, provide opportunities for growth and advancement, demonstrate trust and autonomy by delegating more responsibility, and offer the necessary support and resources to help the employee continue to excel. By providing support in these ways, a manager can encourage the employee to maintain their strong values while also continuing to develop their skills and contribute to the organization's success.
-- **Promotion & merit eligibility: **
+- **Promotion & merit eligibility:**
   - Eligible for merit increase; recommended merit increase: 5.5-7.5% \* (note: the merit increase for getting an "exceeding" in values may be slightly less that getting an "exceeding" score in skill)
   - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
 - **Merit increase frequency:** Teammates rated a 1:2 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
@@ -290,7 +283,7 @@ _Expected distribution: during a review cycle, ~70% of Teammates will fall in th
 - **Promotion & merit eligibility**
   - Eligible for merit increase if no increase in >9 months; recommended merit increase: 3-5% \*
   - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency:** teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
+- **Merit increase frequency:** Teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
 
 ### “Not Meeting High Bar” Definitions
 
@@ -354,7 +347,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Not eligible for a compensation increase; recommended merit increase: 0% \*
   - Not eligible for a promotion
-- **Merit increase frequency:** teammates rated a 3:2 are not eligible for a compensation increase and need to show immediate improvement.
+- **Merit increase frequency:** Teammates rated a 3:2 are not eligible for a compensation increase and need to show immediate improvement.
 
 #### Score definition:3:1 (values:skills)
 
@@ -378,7 +371,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Not eligible for a compensation increase; recommended merit increase: 0% \*
   - Not eligible for a promotion
-- **Merit increase frequency:** teammates rated a 3:1 are not eligible for a compensation increase and need to show immediate improvement.
+- **Merit increase frequency:** Teammates rated a 3:1 are not eligible for a compensation increase and need to show immediate improvement.
 
 #### **Score definition**: 3:3 (values:skills); ‘Low Performer’
 
@@ -400,7 +393,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Not eligible for a compensation increase; recommended merit increase: 0% \*
   - Not eligible for a promotion
-- **Merit increase frequency:** teammates rated a 3:3 are not eligible for a compensation increase and need to show immediate improvement.
+- **Merit increase frequency:** Teammates rated a 3:3 are not eligible for a compensation increase and need to show immediate improvement.
 
 ## Merit Philosophy
 
@@ -412,8 +405,6 @@ DISCLAIMER: The above "recommended merit increase" ranges are just recommendatio
 - The Teammate got equity in lieu of a cash increase
 - Pay equity reasons
 
-  \*\* Note: We maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. This ensures pay equity for all quota-carrying teammates.
-
 ### How we approach compensation decisions
 
 We believe in performance-based pay, meaning merit increases (inclusive of cash and equity) will be driven by performance. We believe in hiring all Teammates at an equitable starting point within their respective band and we want to provide opportunities for Teammates to grow within their salary band that is in alignment with their performance.
@@ -424,7 +415,9 @@ More information about our commitment to Pay Transparency and our overall compen
 
 ### How do we determine merit increases?
 
-The recommendation will be calibrated by Leadership and their respective People Partner. The calibration will consider:
+**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increases unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates.
+
+**Non sales increases** compensation increase recommendations will be calibrated by Leadership and their respective People Partner. The calibration will consider:
 
 - The Teammate’s performance as calibrated in the Impact Review cycle.
 - The appropriate pay level within the range for the Teammate, considering their performance and the performance of others in the same range.
