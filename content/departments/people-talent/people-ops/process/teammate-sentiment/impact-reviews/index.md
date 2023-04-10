@@ -415,7 +415,7 @@ More information about our commitment to Pay Transparency and our overall compen
 
 ### How do we determine merit increases?
 
-**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increases unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates.
+**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increases unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates. Sales quota-carrying teammates cannot receive both a merit-based promotion increase and a spot bonus in the same review period. Given our Sales team territories are carved at the beginning of the year, promotions will be reflected at the start of each fiscal year instead of during the impact review cycle.
 
 **Non sales increases** compensation increase recommendations will be calibrated by Leadership and their respective People Partner. The calibration will consider:
 
