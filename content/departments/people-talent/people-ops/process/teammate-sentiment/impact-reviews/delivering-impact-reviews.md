@@ -47,13 +47,14 @@ During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
 2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. You are welcome to share your screen and walk through the review packet live.
-3. Share compensation increase (if any)\_
+  1. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
+4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
-   2. _[Review](index.md#what-is-our-eligibility-process-for-merit-increases) answer the question “how often is my compensation reviewed” _
+   2. _[Review](index.md#what-is-our-eligibility-process-for-merit-increases) answer the question “how often is my compensation reviewed”_
       1. _[Review ](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md#general-compensation-questions)supporting detail on how to answer the question “why is my increase less than the rate of inflation”_
-4. Celebrate promotion (if any)_ 3. \_Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)_
-5. Have a forward-looking discussion: review your vision for your Team over the next 6-months, how the Teammate fits into that work, and longer-term (1+ year) exploration of Teammate’s career growth priorities and objectives. Discuss what you need to see from them to maintain, or improve their score. 3. If your Teammate is scored as “not meeting high bar” you will have a clear performance conversation. Read more about [navigating performance conversations.
-6. Leave 10-minutes to answer any questions from the Teammate](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164).
+5. Celebrate promotion (if any)
+6. Have a forward-looking discussion: review your vision for your Team over the next 6-months, how the Teammate fits into that work, and longer-term (1+ year) exploration of Teammate’s career growth priorities and objectives. Discuss what you need to see from them to maintain, or improve their score. 3. If your Teammate is scored as “not meeting high bar” you will have a clear performance conversation. Read more about [navigating performance conversations.
+7. Leave 10-minutes to answer any questions from the Teammate](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164).
 
 Talking points for each topic listed above (overview of process, impact review read-through, compensation increase, and promotion, as well as discussing career growth) may be found in more detail at the bottom of this page.
 
