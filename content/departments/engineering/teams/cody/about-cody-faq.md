@@ -266,6 +266,7 @@ See this internal [doc](https://docs.google.com/document/d/1KW9IwEMRLouU4fvYlwsD
 See this internal [doc](https://docs.google.com/document/d/1KW9IwEMRLouU4fvYlwsDhx_SyeLMQ-caSIfCzdbecIY/edit#heading=h.v8v0tbchdh0e)
 
 #### Would setting up Cody internally require us to get a separate usage license from Anthropic/OpenAI for internal use?
+
 no -- they would be accessing the LLM via Cody (us), our licenses permit their use
 
 #### As a GTM team member, how can I set up Cody locally to run demos?
@@ -274,10 +275,10 @@ See this [thread](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1679514141
 
 #### Which Cody offering is best for my prospects and customers to use?
 
-|                 | **Have executors setup**                                  | **Don't have executors setup**                                                |
-|-----------------|-----------------------------------------------------------|-------------------------------------------------------------------------------|
-| **MI**          | Run batch spec button on top. Download for src-cli below  | Download for src-cli below                                                    |
-| **Self-hosted** | Run batch spec button on top.  Download for src-cli below | Download for src-cli on top. Run batch spec below, that opens SSBC info modal |
+|                 | **Have executors setup**                                 | **Don't have executors setup**                                                |
+| --------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **MI**          | Run batch spec button on top. Download for src-cli below | Download for src-cli below                                                    |
+| **Self-hosted** | Run batch spec button on top. Download for src-cli below | Download for src-cli on top. Run batch spec below, that opens SSBC info modal |
 
 #### When should we position Cody to create pipeline?
 
@@ -288,12 +289,15 @@ See [this question](https://docs.google.com/document/d/1KW9IwEMRLouU4fvYlwsDhx_S
 Yes
 
 #### Who can we prospect into for Cody?
+
 - All Customers (AE & TA led).
 - All Prospects (AE & CE led).
 - All contacts are eligible, per the existing ROE (including ICs who are already on the approved list)
 
 #### How will Inbound leads for Cody be managed?
+
 Inbound leads are being routed to the Account Teams (for Named Accounts), and to Casi for Unassigned. Named SDRs work to triage and prioritize with your AE, CE & TA partners.
+
 - SDR job # 1: effectively convert, triage all inbound leads.
 - SDR job # 2: work with AE to prioritize outreach to all named prospects.
 
@@ -303,6 +307,7 @@ ALL LEADS MUST BE CONTACTED FOR FIRST TOUCH WITHIN 24 HOURS OF ENTERING SALESFOR
 
 The goal of the initial outreach from the SDR is to provide helpful onboarding materials via the Sourcegraph docs, and establish a meeting with the AE & CE (or AE & TA in Customer meetings) to walk through questions, help with orientation, and unblock the Prospect or Customer from using Cody.
 There are Salesforce reports that show your (AE) leads from prospects, and inbounds from customer accounts:
+
 - [“For Work” - prospect](https://sourcegraph2020.lightning.force.com/lightning/o/Lead/list?filterName=00B5b000005dhseEAA)
 - [“For Personal” - prospect](https://sourcegraph2020.lightning.force.com/lightning/o/Lead/list?filterName=00B5b000005dhsjEAA)
 - [“For Work” - existing customer](https://sourcegraph2020.lightning.force.com/lightning/o/Contact/list?filterName=00B5b000005dht8EAA)
@@ -317,9 +322,3 @@ See [this question](https://docs.google.com/document/d/1KW9IwEMRLouU4fvYlwsDhx_S
 ### Pricing and Packaging (private)
 
 See this [document](https://docs.google.com/document/d/1KW9IwEMRLouU4fvYlwsDhx_SyeLMQ-caSIfCzdbecIY/edit#heading=h.skqeosldgnl1)
-
-
-
-
-
-
