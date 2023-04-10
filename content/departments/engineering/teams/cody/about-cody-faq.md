@@ -63,7 +63,7 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 | Code generation      | :white_check_mark:                         | :red_circle:    | Waitlist        |
 | Autocompletion       | Experimental                               | :red_circle:    | Waitlist        |
 | Context              | Local and remote repositories (embeddings) | Local           | Local           |
-| Code and metadata    | All the code graph coming soon.            | Code only       | Code only       |
+| Code and metadata    | All the code graph (own, metadata, etc) coming soon.            | Code only       | Code only       |
 | Zero retention       | On model inputs and outputs                | On model inputs | On model inputs |
 | Bring your own model | Coming soon (experimental)                 | :red_circle:    | :red_circle:    |
 
