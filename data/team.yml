@@ -2113,3 +2113,14 @@ nikki_golding:
   location: Ponte Vedra Beach,Fl USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/nikki-golding/)'
   description: Nikki loves all things outdoors, is a self-proclaimed music nerd,  has the best mut named Humphrey, two amazing kiddos who challenge her on the daily and one day hopes to be a Dive Master and prof Yogi.
+
+auguste_rame:
+  name: Auguste Rame
+  email: auguste.rame@sourcegraph.com
+  github: SuperAuguste
+  pronouns: he/him
+  role: Software Engineering Intern, Code Intelligence
+  reports_to: engineering_manager_code_intelligence
+  location: Washington, DC
+  links: '[Website](https://augustera.me/), [LinkedIn](https://www.linkedin.com/in/auguste-rame/), [Twitter](https://twitter.com/hackeroftacos)'
+  description: 'I started my programming journey writing Minecraft plugins for my friends, then taught kids programming for a non-profit and volunteered at a vaporwave magazine, a school satire publication, and Libraries Without Borders. My most recent work has revolved around the [Zig Language Server](https://github.com/zigtools/zls) and wider Zig community. In my free time, I love handmaking pasta and running.'
