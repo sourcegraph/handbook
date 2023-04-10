@@ -60,8 +60,8 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 |                      | Cody                                       | Copilot            | Copilot Chat |
 | -------------------- | ------------------------------------------ | ------------------ |--------------|
 | Question answering   | :white_check_mark:                         | Waitlist           | NA           |
-| Code generation      | :white_check_mark:                         | Waitlist           | Waitlist     |
-| Autocompletion       | Experimental                               | :white_check_mark: | Waitlist     |
+| Code generation      | :white_check_mark:                         | NA                 | Waitlist     |
+| Autocompletion       | Experimental                               | NA                 | Waitlist     |
 | Context              | Local and remote repositories (embeddings) | Local              | Local        |
 | Code and metadata    | All the code graph coming soon.            | Code only          | Code only    |
 | Zero retention       | On model inputs and outputs                | On model inputs    | On model inputs |
