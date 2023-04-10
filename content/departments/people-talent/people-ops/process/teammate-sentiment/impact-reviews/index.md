@@ -196,8 +196,8 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
 
 #### Score definition: 1:1 (values:skills); ‘Star Performer’
 
-- **TL;DR:** teammates who receive a score with a 1 in values and a 1 are our highest performing teammates. This score indicates that a teammate consistently exceeds our high bar both in values and skill. 
-- **Expected distribution:** top 3-5% of the company. Getting this score is a big deal! 
+- **TL;DR:** teammates who receive a score with a 1 in values and a 1 are our highest performing teammates. This score indicates that a teammate consistently exceeds our high bar both in values and skill.
+- **Expected distribution:** top 3-5% of the company. Getting this score is a big deal!
 - **Examples:**
   - Values (1): exceeds in many, exhibits all, deficient in none.
     - This teammate consistently exhibits our values and consistently raises the high bar set for individuals at the level.
