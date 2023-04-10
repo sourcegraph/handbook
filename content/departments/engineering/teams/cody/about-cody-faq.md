@@ -58,7 +58,7 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 - Future state: Cody autocomplete vs Copilot. Copilot makes use of a LLM (Large Language Model) to generate these completions. Because Copilot doesn’t use a powerful search, a common criticism of Copilot is that it generates correct code only for boilerplate tasks. In the future, Cody will use Sourcegraph’s code intelligence to provide autocomplete tailored to a customer’s code.
 
 |                      | Sourcegraph                                | Copilot            |
-|----------------------|--------------------------------------------|--------------------|
+| -------------------- | ------------------------------------------ | ------------------ |
 | Question answering   | :white_check_mark:                         | Waitlist           |
 | Code generation      | :white_check_mark:                         | Waitlist           |
 | Autocompletion       | Experimental                               | :white_check_mark: |
