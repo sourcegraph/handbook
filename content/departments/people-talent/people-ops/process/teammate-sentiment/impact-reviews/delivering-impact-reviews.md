@@ -128,7 +128,7 @@ Best practices for delivering feedback:
 - _If promotion:_ Recognizing your contributions, and that you’re performing at the next level, I’m happy to share that you are receiving a promotion to [new title]
   - [Highlight 2-3 specific examples that factored into the promotion decision]
 
-A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! After the feedback period is complete (October 14th, 2022 for FY23/Mid-year), Managers will [share the good news with Teammates](../../../../../../company-info-and-process/communication/announcements.md#promotions) in #teammate-announce by highlighting the promoted Teammate and their accomplishments that supported their promotion.
+A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! Starting May 1st, Managers will [share the good promotion news with Teammates](../../../../../../company-info-and-process/communication/announcements.md#promotions) in #teammate-announce by highlighting the promoted Teammate and their accomplishments that supported their promotion.
 
 #### Teammates receiving 2:2 scores - talking points:
 
