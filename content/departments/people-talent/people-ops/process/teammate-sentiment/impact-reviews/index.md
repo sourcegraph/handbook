@@ -245,7 +245,7 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Eligible for merit increase; recommended merit increase: 7.5-10% \*
   - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency: ** teammates rated a 2:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
+- **Merit increase frequency:** Teammates rated a 2:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
 
 #### Score definition: 1:2 (values:skills)
 
@@ -257,7 +257,7 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
     - Consistently takes initiative to identify problems and provide innovative solutions.
     - Builds strong relationships with colleagues and stakeholders and collaborates effectively to achieve team goals.
     - Challenges and debates when needed/appropriate, but in a tactful and helpful manner.
-  - Skills (2): contributions are in line with expectations at current level and sometimes exceed them. .
+  - Skills (2): contributions are in line with expectations at current level and sometimes exceed them.
     - Consistently meets deadlines and delivers work that meets our high bar, but doesn’t necessarily go above and beyond or seek out opportunities for growth and development.
     - Meets expectations for assigned tasks, but doesn’t consistently proactively take on additional responsibilities or projects
     - Demonstrates solid technical skills, but may be lacking some soft skills such as communication, teamwork, or leadership
@@ -290,7 +290,7 @@ _Expected distribution: during a review cycle, ~70% of Teammates will fall in th
 - **Promotion & merit eligibility**
   - Eligible for merit increase if no increase in >9 months; recommended merit increase: 3-5% \*
   - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency:** teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
+- **Merit increase frequency:** Teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
 
 ### “Not Meeting High Bar” Definitions
 
@@ -354,7 +354,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Not eligible for a compensation increase; recommended merit increase: 0% \*
   - Not eligible for a promotion
-- **Merit increase frequency:** teammates rated a 3:2 are not eligible for a compensation increase and need to show immediate improvement.
+- **Merit increase frequency:** Teammates rated a 3:2 are not eligible for a compensation increase and need to show immediate improvement.
 
 #### Score definition:3:1 (values:skills)
 
@@ -378,7 +378,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Not eligible for a compensation increase; recommended merit increase: 0% \*
   - Not eligible for a promotion
-- **Merit increase frequency:** teammates rated a 3:1 are not eligible for a compensation increase and need to show immediate improvement.
+- **Merit increase frequency:** Teammates rated a 3:1 are not eligible for a compensation increase and need to show immediate improvement.
 
 #### **Score definition**: 3:3 (values:skills); ‘Low Performer’
 
@@ -400,7 +400,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Promotion & merit eligibility:**
   - Not eligible for a compensation increase; recommended merit increase: 0% \*
   - Not eligible for a promotion
-- **Merit increase frequency:** teammates rated a 3:3 are not eligible for a compensation increase and need to show immediate improvement.
+- **Merit increase frequency:** Teammates rated a 3:3 are not eligible for a compensation increase and need to show immediate improvement.
 
 ## Merit Philosophy
 
