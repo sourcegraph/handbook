@@ -228,6 +228,8 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
     - Consistently exhibits our values and exceeds in some, but does not necessarily set an example for the team.
     - Values embodiment is sometimes, but not always, felt beyond their immediate team and/or department.
   - Skill (1): contributions consistently raise the high bar set for individuals at their level. Execution, both individually and cross-functionally, is consistently excellent.
+    - This teammate consistently executes above expected targets and goals.
+    - This teammates is performing at the next level on their respective career framework or delivering on a project above and beyond the expected results.
     - This teammate’s contributions consistently raise the high bar set for individuals at the level.
     - The impact of their work is felt beyond their immediate team and/or department.
     - Being a subject matter expert in their area of work and providing valuable insights to the team.
