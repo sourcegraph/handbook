@@ -47,7 +47,7 @@ During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
 2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. You are welcome to share your screen and walk through the review packet live.
-  1. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
+3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
    2. _[Review](index.md#what-is-our-eligibility-process-for-merit-increases) answer the question “how often is my compensation reviewed”_
