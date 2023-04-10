@@ -1,6 +1,5 @@
 ## Key prospecting inputs
 
-
 ### Assessing prospecting efforts by rep, team, and account
 
 - [General Prospecting KPIs](https://sourcegraph.looker.com/boards/59): Links to all relevant prospecting dashboards currently in Looker.
@@ -8,14 +7,12 @@
 
 ## Engaged prospects
 
-
 ### Determining which accounts are already engaged with Sourcegraph
 
 - [Account Level Lead Stats Dashboard](https://sourcegraph.looker.com/dashboards/467?Account+Owner+Name=&Account+Owner+Title=AE+APAC%2CAE+EMEA%2CAE+East%2CAE+West+1%2CAE+West+2): Toggle the filters on the top left of the dashboard to see how a specific rep or team's owned accounts are engaging with Sourcegraph products and content as well as how reps are engaging with prospects through outbound messaging. Click into specific numbers to determine which prospects have engaged.
 - [Open Pipeline](https://sourcegraph.looker.com/dashboards/471?Opportunity+Type=Expansion%2CNew+Business%2CRenewal&Account+Owner+Title=AE+APAC%2CAE+EMEA%2CAE+East%2CAE+West+1%2CAE+West+2&Account+Owner+Name=): Displays all accounts with at least 1 open qualified opportunity. Use Opportunity Type filter at the top of dashboard to exclude select opportunity types.
 
 ## New outbound prospects
-
 
 ### Determining which accounts should be prioritized for targeted outreach
 
