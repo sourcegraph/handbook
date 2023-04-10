@@ -57,14 +57,15 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 - GitHub Copilot's main feature is autocomplete, while Cody is focused on question answering. Cody's main feature today is a chat interface where you can ask it to (1) find, (2) explain, and (3) write code. You can ask Cody questions about the code, which you can't do with Copilot (because it’s autocomplete only). The closest feature to Copilot would be if you asked Cody to write code matching a description. Cody is able to give better answers and write better code snippets because Cody can fetch additional context from your codebase with the request to enrich it, so it is capable of writing code beyond the boilerplate use cases that Copilot is good for.
 - Future state: Cody autocomplete vs Copilot. Copilot makes use of a LLM (Large Language Model) to generate these completions. Because Copilot doesn’t use a powerful search, a common criticism of Copilot is that it generates correct code only for boilerplate tasks. In the future, Cody will use Sourcegraph’s code intelligence to provide autocomplete tailored to a customer’s code.
 
-|                    | Sourcegraph                                | Copilot              |
-|--------------------|--------------------------------------------|----------------------|
-| Question answering | :white_check_mark:                         | Waitlist             |
-| Code generation    | :white_check_mark:                         | Waitlist             |
-| Autocompletion     | Experimental                               | :white_check_mark:   |
-| Context            | Local and remote repositories (embeddings) | Local                |
-| Code and metadata  | :white_check_mark: all the code graph      | Code only            |
-| Zero-retention     | On model inputs and outputs                | On model inputs only |
+|                      | Sourcegraph                                | Copilot            |
+|----------------------|--------------------------------------------|--------------------|
+| Question answering   | :white_check_mark:                         | Waitlist           |
+| Code generation      | :white_check_mark:                         | Waitlist           |
+| Autocompletion       | Experimental                               | :white_check_mark: |
+| Context              | Local and remote repositories (embeddings) | Local              |
+| Code and metadata    | :white_check_mark:                         | Code only          |
+| Zero retention       | On model inputs and outputs                | On model inputs    |
+| Bring your own model | Coming soon                                | :red_circle:       |
 
 ## Can Cody …?
 
