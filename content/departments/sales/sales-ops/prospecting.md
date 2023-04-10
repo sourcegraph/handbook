@@ -20,7 +20,7 @@
 
 ### Determining what outreach is already working
 
-- [Platform & Integrations Sequence Dashboard](https://sourcegraph.looker.com/dashboards/468?Sequence+Last+Used+Date=3+months&Sequence+Owner+Name=-Casi+Neff%2C-Andrew+Reed%2C-Jordan+Bushong%2C-Nicholas+Gage&Sequence+Name=): Displays performance for all Outreach sequences used within the past 3 months. Change the "Sequence Name" filter in the top left to see performance by specific sequence names.
+- [Outreach Sequence Dashboard](https://sourcegraph.looker.com/dashboards/468?Sequence+Last+Used+Date=3+months&Sequence+Owner+Name=-Casi+Neff%2C-Andrew+Reed%2C-Jordan+Bushong%2C-Nicholas+Gage&Sequence+Name=): Displays message performance (e.g., bounce/open/reply rate) for all Outreach sequences used within the past 3 months. Change the "Sequence Name" filter in the top left to see performance by specific sequence names.
 
 ## Overall pipeline
 
