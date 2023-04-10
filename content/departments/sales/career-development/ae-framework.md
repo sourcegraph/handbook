@@ -102,13 +102,13 @@ No accounts in the "Mid-Market" (1.5k - 4.5k employees) profile.
    </td>
    <td>N/A
    </td>
-   <td>combined two year attainment above 100% or over 120% in the most recent year
-   </td>
-   <td>combined two-year attainment above 100% or over 120% in the most recent year
+   <td>combined two year attainment above 100% or Full-year 120% in the most recent year
    </td>
    <td>combined two year attainment above 100% or Full-year 120% in the most recent year
    </td>
-   <td>combined two year attainment above 100% or over 120% in the most recent year
+   <td>combined two year attainment above 100% or Full-year 120% in the most recent year
+   </td>
+   <td>combined two year attainment above 100% or Full-year 120% in the most recent year
    </td>
   </tr>
   <tr>
