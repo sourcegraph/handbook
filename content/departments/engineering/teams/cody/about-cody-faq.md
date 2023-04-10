@@ -4,20 +4,20 @@ Submit [feedback from the field here](https://docs.google.com/document/d/1LD6t01
 
 ## What is Cody?
 
-### What is Cody (ELI5)?
+#### What is Cody (ELI5)?
 
 Cody is an AI coding assistant that lives in your editor that can find, explain, and write code. Cody uses a combination of AI (specifically Large Language Models or LLMs), Sourcegraph search, and Sourcegraph code intelligence to provide answers that eliminate toil and keep human programmers in flow. You can think of Cody as your programmer buddy who has read through all the code on GitHub, all the questions on StackOverflow, and all your organization's private code, and is always there to answer questions you might have or suggest ways of doing something based on prior knowledge.
 
-### Is Cody for Enterprise customers? Or for individual devs?
+#### Is Cody for Enterprise customers? Or for individual devs?
 
 There are two ways to use Cody:
 
-- As an individual dev, using Cody with sourcegraph.com. Follow the instructions here. Note that enterprise users might want to try Cody using sourcegraph.com, but Sourcegraph.com is NOT SOC2, and not suitable for private data. Individual devs should only use Cody with sourcegraph.com on public code.
+- As an individual dev, using Cody with sourcegraph.com. Follow the instructions here. Note that users might want to try Cody using sourcegraph.com on private com, which is possible as long as they agree to our [terms]()
 - As a Sourcegraph Enterprise user, connect Cody to your Sourcegraph Enterprise instance. Instructions are here.
 
 > Note: There used to be two distinct VS Code extensions (Cody community and Cody enterprise) but they were merged into a single one.
 
-### How does Cody work (integration with CIP)?
+#### How does Cody work (integration with CIP)?
 
 To provide responses to requests, Cody does the following:
 
@@ -46,13 +46,13 @@ To provide responses to requests, Cody does the following:
 
 ([image source](https://app.excalidraw.com/s/4Dr1S6qmmY7/3TiB7SbYTmm))
 
-### How is Cody different from ChatGPT?
+#### How is Cody different from ChatGPT?
 
 Cody uses a ChatGPT-like model as a component in its architecture (today we use Claude, but we could alternatively use ChatGPT or a similar Large Language Model). ChatGPT lacks the ability to search for contextual code snippets and docs, so its knowledge is therefore limited to open source it was trained on.
 It does not know about recent changes to code or your private codebase.
 Rather than telling you when it doesn't know, ChatGPT will just confidently make stuff up that sounds correct but is false. The contextual snippets that Cody fetches from Sourcegraph are crucial to enabling Cody to generate factually accurate responses.
 
-### How is Cody different from GitHub Copilot?
+#### How is Cody different from GitHub Copilot?
 
 - GitHub Copilot's main feature is autocomplete, while Cody is focused on question answering. Cody's main feature today is a chat interface where you can ask it to (1) find, (2) explain, and (3) write code. You can ask Cody questions about the code, which you can't do with Copilot (because it’s autocomplete only). The closest feature to Copilot would be if you asked Cody to write code matching a description. Cody is able to give better answers and write better code snippets because Cody can fetch additional context from your codebase with the request to enrich it, so it is capable of writing code beyond the boilerplate use cases that Copilot is good for.
 - Future state: Cody autocomplete vs Copilot. Copilot makes use of a LLM (Large Language Model) to generate these completions. Because Copilot doesn’t use a powerful search, a common criticism of Copilot is that it generates correct code only for boilerplate tasks. In the future, Cody will use Sourcegraph’s code intelligence to provide autocomplete tailored to a customer’s code.
@@ -61,27 +61,27 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 
 In general, a good idea is to give use cases a try. LLMs are very powerful and generic, and we add new recipes all the time. Here’s a few answers:
 
-### How does Sourcegraph’s CIP capabilities augment Cody? Aka why is it better to use Cody with CIP?
+#### How does Sourcegraph’s CIP capabilities augment Cody? Aka why is it better to use Cody with CIP?
 
 Cody Enterprise uses the Sourcegraph API to fetch contextual code snippets and docs that are relevant to answering a user's query, using embeddings and soon other APIs. One way to think about Cody is that it is a natural language layer on top of Sourcegraph that uses many of the same search and code navigation features a human might, and then synthesizes the results from these features into an answer to the user's question or code-writing request.
 
 (As an analogy, consider how ChatGPT is pretty smart on its own for stuff that happened in public in the past, but it doesn't know about anything in the present or any specifics about stuff from your email or private documents, for example.)
 
-### Can Cody understand code in any programming language?
+#### Can Cody understand code in any programming language?
 
 Cody can read and write code in any major programming language. More esoteric languages might not work out of the box.
 
-### Can Cody speak human languages other than English?
+#### Can Cody speak human languages other than English?
 
 Yes, Cody can speak many languages, including Spanish, French, German, Italian, Chinese, Japanese, Korean, Latin, and Esperanto.
 
-### Can Cody write code referencing other parts of the codebase (Ex. Write a new function calling an existing function in another repo)?
+#### Can Cody write code referencing other parts of the codebase (Ex. Write a new function calling an existing function in another repo)?
 
 Yes, that’s the type of things Cody can do. Mileage may vary though, and Cody sometimes hallucinates!
 
 ## Demoing
 
-### What are demo paths for Cody?
+#### What are demo paths for Cody?
 
 - [Short demo video](https://sourcegraph.slack.com/archives/C04MSD3DP5L/p1677050171642469)
 - [Longer demo video](https://drive.google.com/drive/u/0/folders/1C1Tb4I2Jdgfp0ECl_4aBeM7SiOEENSfM)
@@ -105,7 +105,7 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
 
 ## Turning Cody on for a Sourcegraph Enterprise instance (customer or prospect)
 
-### How do we turn on Cody for a Sourcegraph Enterprise customer?
+#### How do we turn on Cody for a Sourcegraph Enterprise customer?
 
 - Prerequisites
   - See [docs]()
@@ -125,20 +125,20 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
   - On top of that, and **optionally**, customers can set up OpenAI embeddings to improve the quality of context fed to Cody and the quality of Cody answers. We recommend TAs to ignore embeddings at first when talking to customers, because that requires sending out their entire codebase (or at least all the repos they want to search) to OpenAI.
   - We should focus on getting them to turn on Cody, which only requires Anthropic.
 
-## Prerequisites, dependencies, limitations
+### Prerequisites, dependencies, limitations
 
-### Does Cody require Sourcegraph to function (technical dependencies)?
+#### Does Cody require Sourcegraph to function (technical dependencies)?
 
 Yes. See [docs](https://docs.sourcegraph.com/cody/faq#does-cody-require-sourcegraph-to-function)
 
-### Can Cody work with self-hosted Sourcegraph?
+#### Can Cody work with self-hosted Sourcegraph?
 
 Yes, Cody can work with self-hosted Sourcegraph instances. It's important to note that Cody on self-hosted Sourcegraph has third-party dependencies:
 
 - snippets of code (up to 28 KB per request) will be sent to a third party cloud service (Anthropic) on each request. This will be fine for some security teams, but others may opt to wait for a version that does not require sending any code to a third party service.
 - if embeddings are used, the whole codebase (or at least a subset of repositories) will be sent to OpenAI.
 
-### Are there third party dependencies?
+#### Are there third party dependencies?
 
 Yes:
 
@@ -147,7 +147,7 @@ Yes:
 
 See details and security information below.
 
-### Having code snippets sent to third-party services will be a problem for <customer>. Do we have a plan to address that? What if a customer or prospect is fully air-gapped?
+#### Having code snippets sent to third-party services will be a problem for <customer>. Do we have a plan to address that? What if a customer or prospect is fully air-gapped?
 
 - Short term
   - We don’t have a short term plan to provide a completely self-hostable version of Cody. That’s because the LLM we use to generate the answers is provided by a third-party, and costs a few million dollars to train.
@@ -158,46 +158,46 @@ See details and security information below.
     - Anthropic (or another LLM provider) provides a single-tenant offering that can be used by customers with constraining security requirements. In that case, the code snippets will still be sent to a third-party service, but on an instance dedicated to the customer. We are currently discussing this with Anthropic, but don’t have a timeline.
   - We’re building a long-term plan to use a smaller, self-hosted model for code completion only (no conversational features). This doesn’t have a timeline yet but it’s likely we’re gonna do this over the next year, and we’re hiring a Head of AI to drive this effort.
 
-### What snippets are sent to Anthropic?
+#### What snippets are sent to Anthropic?
 
 The snippets that are sent are determined using Sourcegraph search, embeddings, or any other method that maximizes the relevance of the context fed to the LLM.
 
-### Does Cody train on customer code? How does Cody answer questions about your code if it does not train on customer’s code?
+#### Does Cody train on customer code? How does Cody answer questions about your code if it does not train on customer’s code?
 
 No, Cody doesn't train on customer code. See [docs](https://docs.sourcegraph.com/cody/faq#does-cody-train-on-my-code)
 
-### Is there a list/explanations of where the model trains in open source code?
+#### Is there a list/explanations of where the model trains in open source code?
 
 Please reference the [Cody notice](https://about.sourcegraph.com/terms/cody-notice).
 
-### Does Cody send code outside of a customer’s network?
+#### Does Cody send code outside of a customer’s network?
 
 Yes. Cody uses a third party large-language model. When a user asks Cody a question, Sourcegraph sends relevant code snippets out to a LLM cloud provider as context to generate answers.
 Our current third party large language model is provided by Anthropic. Anthropic has a zero-retention policy. Code snippets are only processed by Anthropic the length of time required to return the answer, and are removed permanently after that.
 Cody can also be setup to use embeddings. If setup, Cody will send data out to OpenAI.
 
-### Are there any limitations of Cody supporting non-git code hosts?
+#### Are there any limitations of Cody supporting non-git code hosts?
 
 Cody should work with Git code hosts. @beyang is working on verifying that.
 
-### What's on the roadmap for Cody?
+#### What's on the roadmap for Cody?
 
 See [Cody roadmap](https://docs.google.com/document/d/1HpKuHHt0Bh2QEAgrWG93d3S3X12pCKRMSohB0jh2F9M/edit#).
 
-### When’s GA?
+#### When’s GA?
 
 We don’t have a GA date so far. For reference, the Gmail beta lasted more than a year. Cody is available to any prospect and customer today in its experimental state.
 
-### Are metrics available for Cody on Sourcegraph Enterprise instances?
+#### Are metrics available for Cody on Sourcegraph Enterprise instances?
 
 Yes, here's the [dashboard](https://analytics.amplitude.com/sourcegraph/dashboard/4n7yl67).
 But…! See this [thread](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1680877846166199).
 
-### Can we offer Cody to an entire team of engineers at certain customers - are pilots limited to only a few users?
+#### Can we offer Cody to an entire team of engineers at certain customers - are pilots limited to only a few users?
 
 Yes, all customer users are able to access Cody
 
-### How can I communicate which Cody offering is best for my prospects and customers to use?
+#### How can I communicate which Cody offering is best for my prospects and customers to use?
 
 - The VS Code extension used with sourcegraph.com: allows you to search one local code base at a time + the repo you have embeddings for on .com.
 - [Not yet available] App + Cody: allows you to search everything that you connect to your app instance to (local files and remote repos).
@@ -205,23 +205,23 @@ Yes, all customer users are able to access Cody
 
 ## The future
 
-### Is search going to be replaced by embedding search?
+#### Is search going to be replaced by embedding search?
 
 Usually people think of embeddings / vector search as complementary to other strategies. While it matches really well semantically ("what is this code about, what does it do?"), it drops syntax and other important precise matching info. So the results are often combined with exact/ precise approaches to get the "best of both worlds".
 
 Also see [AI reading list](https://docs.google.com/document/d/1nuJsd6vRjKcP4sHRbO7F6NXe38iyKOrt8PTdVhca-JE/edit#heading=h.98jii17cexrv)
 
-### Is Souregraph going to offer its own embeddings service?
+#### Is Souregraph going to offer its own embeddings service?
 
 Yes. Before the end of Q2, Sourcegraph will offer a self-hosted embeddings service.
 Note that there will still be a third party dependency on Anthropic.
 
-### Is there a timeline of when Cody will help with search queries?
+#### Is there a timeline of when Cody will help with search queries?
 
 There’s a prototype live on s2: https://sourcegraph.sourcegraph.com/search/cody
 There’s no timeline yet for shipping this and future iterations to customers, but we are working on a [further iteration](https://docs.google.com/document/d/10RZCwcKz-I0NbdEW9finkvpo2vDGSqZRaOVPMtDmseg/edit#heading=h.55yagbmk4s13) on sourcegraph.com.
 
-### Will Cody support other LLM providers?
+#### Will Cody support other LLM providers?
 
 Yes. Cody we will be modular so people can use their own contractually agreed to LLM(s) ([WIP](https://github.com/orgs/sourcegraph/projects/331?pane=issue&itemId=24616071)).
 As of today, Cody by default supports the following models: [docs](https://docs.sourcegraph.com/cody#configuring-embeddings), [docs](https://docs.sourcegraph.com/cody#step-1-enable-cody-on-your-sourcegraph-instance).
@@ -229,7 +229,7 @@ As of today, Cody by default supports the following models: [docs](https://docs.
 We are in early conversations with Google and Cohere to be able to be able to provide our customers with more options for their LLM use.
 There is no clear timeline for when these will be officially available, but by the end of Q2 is highly likely.
 
-### Do we log Cody queries, in a way that either our customer support team or their site admins can read user queries?
+#### Do we log Cody queries, in a way that either our customer support team or their site admins can read user queries?
 
 - On sourcegraph.com, we may log queries in order to provide the service and to improve the product.
 - On Sourcegraph Enterprise, we don’t log cody queries.
@@ -245,13 +245,13 @@ There is no clear timeline for when these will be officially available, but by t
 
 ## Technology primers
 
-### Can you explain embeddings?
+#### Can you explain embeddings?
 
 See this [post](https://towardsdatascience.com/what-is-embedding-and-what-can-you-do-with-it-61ba7c05efd8).
 
 ## Administration
 
-### How do we (Sourcegraph) revoke, disable, or turn off access to Cody?
+#### How do we (Sourcegraph) revoke, disable, or turn off access to Cody?
 
 To disable access to Cody, you must revoke the Anthropic/OpenAI API keys provided to the customer that they apply to the instance. Once the API key is revoked, the Cody extension becomes unusable.
 
