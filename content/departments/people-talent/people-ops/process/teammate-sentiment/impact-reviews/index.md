@@ -182,14 +182,6 @@ Teammate performance is evaluated through two complementary lenses:
 
 The overall **Performance Rating** is a combination of Skills and Values-based performance.
 
-### Rating definitions
-
-Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
-
-You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
-
-We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
-
 ## Rating definitions
 
 Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
@@ -204,7 +196,8 @@ _Expected distribution: during a review cycle, ~20% of Teammates will fall in th
 
 #### Score definition: 1:1 (values:skills); ‘Star Performer’
 
-- **TL;DR:** teammates who receive a score with a 1 in values and a 1 are our highest performing teammates. This score indicates that a teammate consistently exceeds our high bar both in values and skill.
+- **TL;DR:** teammates who receive a score with a 1 in values and a 1 are our highest performing teammates. This score indicates that a teammate consistently exceeds our high bar both in values and skill. 
+- **Expected distribution:** top 3-5% of the company. Getting this score is a big deal! 
 - **Examples:**
   - Values (1): exceeds in many, exhibits all, deficient in none.
     - This teammate consistently exhibits our values and consistently raises the high bar set for individuals at the level.
