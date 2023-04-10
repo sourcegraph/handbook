@@ -54,7 +54,7 @@ During these meetings, you’ll cover the following with each Teammate:
       1. _[Review ](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md#general-compensation-questions)supporting detail on how to answer the question “why is my increase less than the rate of inflation”_
 5. Celebrate promotion (if any)
 6. Have a forward-looking discussion: review your vision for your Team over the next 6-months, how the Teammate fits into that work, and longer-term (1+ year) exploration of Teammate’s career growth priorities and objectives. Discuss what you need to see from them to maintain, or improve their score. 3. If your Teammate is scored as “not meeting high bar” you will have a clear performance conversation. Read more about [navigating performance conversations.
-7. Leave 10-minutes to answer any questions from the Teammate](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164).
+7. Leave 10-minutes to answer any [questions from the Teammate](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164).
 
 Talking points for each topic listed above (overview of process, impact review read-through, compensation increase, and promotion, as well as discussing career growth) may be found in more detail at the bottom of this page.
 
