@@ -28,7 +28,7 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years w
     - Self-hostable embeddings
     - Sourcegraph hosted embeddings GA
   - **Bring your own model**
-    - We start by making it so you can use your own Anthropic or OpenAI (chatGPT) contract
+    - We start by making it so you can use your own Anthropic or OpenAI (chatGPT) contract. To do so, we'll also need to make it so customers can completely customize the prompts.
     - Meanwhile, we partner with one large customer to experiment with plugging in a model they bring.
   - Filters/policies: allow for filtering out copyleft code, at least on a best effort basis.
 - **Prove out VS Code extension usage**
