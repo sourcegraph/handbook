@@ -35,6 +35,7 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years w
   - We choose to focus on VS Code only until we get to [criteria](https://analytics.amplitude.com/sourcegraph/dashboard/4n7yl67)
   - We'll iterate on [VS Code improvements](https://github.com/orgs/sourcegraph/projects/331/views/1?filterQuery=label%3A%22cody%2Fvscode%22) based on user feedback.
   - This will likely include:
+    - Autocomplete
     - Adding more recipes, and/or allowing customers to define their own
     - Adding metadata and ownership data into Cody
     - Adding refactors recipe
