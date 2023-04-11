@@ -250,13 +250,14 @@ We are in early conversations with Google and Cohere to be able to be able to pr
 There is no clear timeline for when these will be officially available, but by the end of Q2 is highly likely.
 
 #### Will fite-tuning replace context fetching in the future?
-  
+
 This is a dynamic space, and we're watching evolutions closely. We will use whatever techniques give the best results for users.
 That said, so far, we think that context-fetching has a few key advantages over fine-tuning:
-  - there's no readily available solution for fine-tuning yet
-  - context-fetching works out of the box, whereas fine-tuning requires training (on GPUs)
-  - context-fetching is always up to date (or as up to date as the index), whereas fine-tuning requires training every time the codebase changes. That could become prohibitively expensive (eg. training after each commit).
-  
+
+- there's no readily available solution for fine-tuning yet
+- context-fetching works out of the box, whereas fine-tuning requires training (on GPUs)
+- context-fetching is always up to date (or as up to date as the index), whereas fine-tuning requires training every time the codebase changes. That could become prohibitively expensive (eg. training after each commit).
+
 ### Marketing material
 
 #### Where can I find additional assets for Cody?
