@@ -79,10 +79,10 @@ Results from the semi-annual impact review process support the growth and develo
 
 - Weekly starting Feb 1: 2x weekly open Office Hours with the People Team.
   - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
-- Feb 1 2023: Handbook Update - Writing great reviews: example reviews for each category.
-- February 16 2023 - Writing reviews workshop
-- March 21/23 2023 - Calibration live training.
-- April 7 2023 - Delivering feedback live training.
+- Feb 1 2023: Handbook Update - [Writing great reviews](#writing-effective-feedback--self-reviews): example reviews for each category
+- February 16 2023 - [Writing reviews workshop](https://drive.google.com/file/d/1y0Vx3lzSZRXvteYYJmvmSo64j4QEbVZ5/view?usp=sharing)
+- March 21/23 2023 - [Calibration live training](https://drive.google.com/file/d/1ErYZm3LsK1GEV9tSog4iMUA59D1Hjmld/view?usp=sharing)
+- April 7 2023 - Delivering feedback live training
 
 ## Impact Review process
 
