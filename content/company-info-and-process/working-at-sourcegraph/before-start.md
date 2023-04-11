@@ -31,7 +31,7 @@ You are responsible for obtaining your laptop. You can find instructions [here](
 
 ### 📦 **An exciting delivery**
 
-We love our swag, and know you will, too! You will be receiving an email from someone in the People team a few days before your start date—please provide the requested information so that we can send you your Sourcegraph swag pack!
+We love our swag, and know you will, too! In your BambooHR onboarding checklist you will find a link to the form you need to fill out. Please provide the requested information so that we can send you your Sourcegraph swag pack!
 
 ### 🪑 **Start getting your home office set up**
 
