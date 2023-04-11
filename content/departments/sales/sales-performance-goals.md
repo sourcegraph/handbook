@@ -57,8 +57,8 @@ Please reference these reports as the ‘source of truth’ for goal attainment:
 
 #### Definitions:
 
-- **SAO:** Sales Accepted Opportunity, defined [here](https://handbook.sourcegraph.com/departments/sales/#sales-accepted-opportunity-sao) in the Handbook.
-- **New Business Meeting:** Initial meeting for a new business opportunity (these can be net new customers or expansions on existing customers), defined [here](https://handbook.sourcegraph.com/departments/sales/tools/salesforce/#new-business-meetings) in the Handbook.
+- **SAO:** Sales Accepted Opportunity, defined [here](.md#sales-accepted-opportunity-sao) in the Handbook.
+- **New Business Meeting:** Initial meeting for a new business opportunity (these can be net new customers or expansions on existing customers), defined [here](tools/salesforce.md#new-business-meetings) in the Handbook.
 - **6-Month Rolling Attainment Average:** The average of your monthly performances over the past 6 months review period.
 
 #### FY24 Goal Outline and Target Timelines:
@@ -86,6 +86,6 @@ Please reference these reports as the ‘source of truth’ for goal attainment:
 If a teammate is not tracking toward their expected performance goals there are several potential opportunities as to how we support them to ensure they are set up for success and continue to grow their career at Sourcegraph!
 
 - **Coaching and training:** Our goal is to ensure that all teammates receive continuous coaching; however, if there is a consistent gap in goal execution, the teammate may receive additional formal coaching and training to help them improve their performance and meet their goals. _The expectation is that at any given time during the Quarter, top performing Reps will be at 100% of each of the weighted targets. Managers will engage in active coaching with Reps who are not meeting at least two of their weighted targets at any time during the Quarter._
-- **Performance improvement plan:** If a teammate is consistently not delivering after continued coaching and training guidance, they may be placed on a performance improvement plan, which outlines specific areas for improvement and provides a timeline for meeting the expected performance goals. Additional PIP guidance can be found [here](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/teammate-development/#addressing-underperformance).
+- **Performance improvement plan:** If a teammate is consistently not delivering after continued coaching and training guidance, they may be placed on a performance improvement plan, which outlines specific areas for improvement and provides a timeline for meeting the expected performance goals. Additional PIP guidance can be found [here](../../../company-info-and-process/working-at-sourcegraph/teammate-development.md#addressing-underperformance).
 
 Performance benchmarks are used to ensure expectations are communicated effectively and that all teammates are held to the same standards. We recognize that as a company, we _must_ provide sufficient support and resources to help sales teammates improve their performance and meet their goals whenever possible, which is why these additional guidelines will be helpful in prioritizing coaching, training, and investment in resources for the team and measuring the success of these in enabling the teammate’s ability to hit their goals.
