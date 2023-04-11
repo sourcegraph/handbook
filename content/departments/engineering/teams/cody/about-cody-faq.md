@@ -218,6 +218,11 @@ Yes, all customer users are able to access Cody
 - [Not yet available] App + Cody: allows you to search everything that you connect to your app instance to (local files and remote repos).
 - Cloud trial / enterprise: allows you to set up embeddings for your entire codebase.
 
+#### Do we log Cody queries, in a way that either our customer support team or their site admins can read user queries?
+
+- On sourcegraph.com, we may log queries in order to provide the service and to improve the product.
+- On Sourcegraph Enterprise, we don’t log cody queries.
+
 ## The future
 
 #### Is search going to be replaced by embedding search?
@@ -244,10 +249,14 @@ As of today, Cody by default supports the following models: [docs](https://docs.
 We are in early conversations with Google and Cohere to be able to be able to provide our customers with more options for their LLM use.
 There is no clear timeline for when these will be officially available, but by the end of Q2 is highly likely.
 
-#### Do we log Cody queries, in a way that either our customer support team or their site admins can read user queries?
+#### Will fine-tuning replace context fetching in the future?
 
-- On sourcegraph.com, we may log queries in order to provide the service and to improve the product.
-- On Sourcegraph Enterprise, we don’t log cody queries.
+This is a dynamic space, and we're watching evolutions closely. We will use whatever techniques give the best results for users.
+That said, so far, we think that context-fetching has a few key advantages over fine-tuning:
+
+- there's no readily available solution for fine-tuning yet
+- context-fetching works out of the box, whereas fine-tuning requires training (on GPUs)
+- context-fetching is always up to date (or as up to date as the index), whereas fine-tuning requires training every time the codebase changes. That could become prohibitively expensive (eg. training after each commit).
 
 ### Marketing material
 
