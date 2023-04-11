@@ -337,7 +337,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is. 
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
     - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
     - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong. We have zero tolerance for this behavior.
   - Skills (2):
@@ -358,7 +358,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.    
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
     - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
     - This teammate violates company policies or industry regulations, potentially putting the company at risk of legal or reputational harm.
     - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong.
