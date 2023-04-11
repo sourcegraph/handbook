@@ -249,7 +249,7 @@ As of today, Cody by default supports the following models: [docs](https://docs.
 We are in early conversations with Google and Cohere to be able to be able to provide our customers with more options for their LLM use.
 There is no clear timeline for when these will be officially available, but by the end of Q2 is highly likely.
 
-#### Will fite-tuning replace context fetching in the future?
+#### Will fine-tuning replace context fetching in the future?
 
 This is a dynamic space, and we're watching evolutions closely. We will use whatever techniques give the best results for users.
 That said, so far, we think that context-fetching has a few key advantages over fine-tuning:
