@@ -59,9 +59,9 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 
 |                      | Cody                                                 | Copilot              | Copilot Chat         |
 | -------------------- | ---------------------------------------------------- | -------------------- | -------------------- |
-| Chat interface / Q&A | ✅                                                   | Waitlist             | NA                   |
+| Chat interface / Q&A | ✅                                                   | Waitlist             | Waitlist             |
 | Code generation      | ✅                                                   | Waitlist             | Waitlist             |
-| Autocompletion       | Experimental (internal)                              | ✅                   | Waitlist             |
+| Autocompletion       | Experimental (internal)                              | ✅                   | NA.                  |
 | Context              | Local and remote repositories (embeddings)           | Local                | Local                |
 | Code and metadata    | All the code graph (own, metadata, etc) coming soon. | Code only            | Code only            |
 | Zero retention       | On model inputs and outputs                          | On model inputs only | On model inputs only |
