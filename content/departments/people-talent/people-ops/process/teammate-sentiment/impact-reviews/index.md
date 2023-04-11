@@ -337,7 +337,8 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate consistently exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is. 
+    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
     - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong. We have zero tolerance for this behavior.
   - Skills (2):
     - This teammate’s contributions consistently meet (and sometimes exceed) expectations for their current level.
@@ -357,12 +358,13 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate consistently exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate regularly violates company policies or industry regulations, potentially putting the company at risk of legal or reputational harm.
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.    
+    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
+    - This teammate violates company policies or industry regulations, potentially putting the company at risk of legal or reputational harm.
     - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong.
     - This teammate fails to uphold the company's standards of diversity, equity, and inclusion, such as by exhibiting bias or exclusionary behavior towards certain groups of people.
   - Skill (1):
-    - This teammate’s skills exceed expectations of their current level, but their values misalignment is negatively affecting their team and/or customers, inhibiting their ability to perform at their current level. Values misalignment is not tolerated and must be turned around immediately.
+    - This teammate’s skills exceed expectations of their current level, but their values misalignment is negatively affecting their team and/or customers, inhibiting their ability to perform at their current level.
     - This teammate’s contributions consistently raise the high bar set for individuals at the level.
     - The impact of their work is felt beyond their immediate team and/or department.
     - Being a subject matter expert in their area of work and providing valuable insights to the team.
@@ -381,11 +383,12 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate consistently exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong. We have zero tolerance for this behavior.
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
+    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
+    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination. We have zero tolerance for this behavior.
   - Skill (3):
     - This teammate’s skills are below expectations and are inhibiting their ability to perform at their current level. They need to work with their manager immediately to improve their skillset. Their values adherence meet or exceed expectations.
-    - Skill inconsistency: this teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results. Their values adherence meet or exceed expectations.
+    - Skill inconsistency: this teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results.
     - Consistently missing deadlines or failing to deliver work of an acceptable quality.
     - Displaying a lack of accountability for their actions and not taking responsibility for mistakes or errors.
     - Failing to collaborate effectively with colleagues or contributing to a negative team environment.
