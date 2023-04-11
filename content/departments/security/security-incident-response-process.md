@@ -4,7 +4,7 @@ The aim of this document is to define the key steps required as part of respondi
 
 ## Triaging a reported event and declaring an incident
 
-When triaging a security event, follow the documented [security event response process](https://github.com/sourcegraph/infrastructure/blob/main/security/docs/incident-response/security-event-handling.md).
+When triaging a security event, follow the documented [security event response process](https://github.com/sourcegraph/security-monitoring/blob/main/docs/security-event-handling.md).
 
 If you believe that the event report is a valid incident, then formally raise an incident by opening an incident tracking document in the [‘Security Incidents’ Google Drive](https://drive.google.com/drive/folders/0AJU1BuioR4F-Uk9PVA), based off the template provided [here](https://docs.google.com/document/d/1Yqp6ATFYtPZJslVzh-ataaBFtUz6jeU1Wt41ovWa8E4/edit?usp=drive_web&ouid=103293650779250413488). Access to this document should initially be tightly limited to those who are involved in investigating the incident, until the full scope of the intrusion is known. Assume that the attacker has visibility of your actions in public channels. Keep in mind that some incidents may also involve sensitive information about employees, and treat this data carefully.
 
@@ -12,7 +12,7 @@ You will need to choose a severity for the incident – use the guidelines from 
 
 ### Responding to Falco alerts
 
-Follow up actions and rule explanations are documented in the [Falco playbooks](https://github.com/sourcegraph/infrastructure/blob/main/security/docs/incident-response/playbooks/falco/README.md) section in the incident response directory.
+Follow up actions and rule explanations are documented in the [Falco playbooks](https://github.com/sourcegraph/security-monitoring/tree/main/docs/playbooks/falco) section in the incident response directory.
 
 ## Investigation, containment, and neutralization
 
