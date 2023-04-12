@@ -91,6 +91,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Company-travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
 - [Equity](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
   - [Carta](people-ops/tools/people-ops-faqs.md#equity-plan)
+  - [Equity refresh and retention program](equity-refresh-program.md)
 - [Paid Time Off (PTO) policy](../../benefits-pay-perks/benefits-perks/time-off/index.md)
   - [Submitting time off](../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
   - [Public holidays](../../company-info-and-process/working-at-sourcegraph/holidays.md)
