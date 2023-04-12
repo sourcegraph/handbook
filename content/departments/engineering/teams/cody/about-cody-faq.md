@@ -214,9 +214,9 @@ Yes, all customer users are able to access Cody
 
 #### How can I communicate which Cody offering is best for my prospects and customers to use?
 
-- The VS Code extension used with sourcegraph.com: allows you to search one local code base at a time + the repo you have embeddings for on .com.
-- [Not yet available] App + Cody: allows you to search everything that you connect to your app instance to (local files and remote repos).
-- Cloud trial / enterprise: allows you to set up embeddings for your entire codebase.
+| The VS Code extension (with sourcegraph.com) | Allows you to search one local code base at a time + the repo you have embeddings for on .com. |
+| (Not yet available) App + Cody               | Allows you to search everything that you connect to your app instance to (local files and remote repos). |
+| Cloud trial / enterprise                     | Allows you to set up embeddings for your entire codebase.                                                |  
 
 #### Do we log Cody queries, in a way that either our customer support team or their site admins can read user queries?
 
