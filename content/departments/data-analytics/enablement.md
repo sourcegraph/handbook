@@ -43,11 +43,9 @@ We also load data to the BigQuery from:
 
 ## **Tool Specific Resources**
 
-[Onboarding to Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
+[Onboarding to Looker](reports.md)
 
 [Onboarding to Amplitude](amplitude.md)
-
-[Other Looker Resources](looker.md)
 
 # **Support Model**
 
