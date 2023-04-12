@@ -300,7 +300,7 @@ See this [thread](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1679514141
 #### Which Cody offering is best for my prospects and customers to use?
 
 | Distribution model                           | Benefit                                                                                                  |
-| -------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------- | 
 | The VS Code extension (with sourcegraph.com) | Allows you to search one local code base at a time + the repo you have embeddings for on .com.           |
 | (Not yet available) App + Cody               | Allows you to search everything that you connect to your app instance to (local files and remote repos). |
 | Cloud trial / enterprise                     | Allows you to set up embeddings for your entire codebase.                                                |
