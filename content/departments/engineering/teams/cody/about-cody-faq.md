@@ -299,10 +299,11 @@ See this [thread](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1679514141
 
 #### Which Cody offering is best for my prospects and customers to use?
 
-|                 | **Have executors setup**                                 | **Don't have executors setup**                                                |
-| --------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| **MI**          | Run batch spec button on top. Download for src-cli below | Download for src-cli below                                                    |
-| **Self-hosted** | Run batch spec button on top. Download for src-cli below | Download for src-cli on top. Run batch spec below, that opens SSBC info modal |
+| Distribution model                           | Benefit                                                                                                  |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| The VS Code extension (with sourcegraph.com) | Allows you to search one local code base at a time + the repo you have embeddings for on .com.           |
+| (Not yet available) App + Cody               | Allows you to search everything that you connect to your app instance to (local files and remote repos). |
+| Cloud trial / enterprise                     | Allows you to set up embeddings for your entire codebase.                                                |
 
 #### When should we position Cody to create pipeline?
 
