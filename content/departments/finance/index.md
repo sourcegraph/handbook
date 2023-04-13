@@ -166,6 +166,7 @@ Additional Links:
 ### Accounts Receivable
 
 - [AR Policy](process/ar.md)
+- [Collections Policy](process/collections.md)
 
 ### Fixed Assets
 
