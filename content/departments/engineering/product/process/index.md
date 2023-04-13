@@ -52,7 +52,8 @@ In particular an experiment does not require:
 
 - Discoverability
 - A polished design
-- Approvals, as long as it meets the criteria above.
+- Approvals, as long as it meets the criteria above
+- A/B testing, although A/B testing can be used
 
 When you experiment on .com you commit to:
 
