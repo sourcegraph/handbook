@@ -2,21 +2,40 @@
 
 A TA, being a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
+- [Technical Advisors: Working with Customers](#technical-advisors-working-with-customers)
 - [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
   - [Internal](#internal)
   - [External](#external)
-- [Process](#processes)
-  - [Renewals](#renewal-process)
+- [Processes](#processes)
+  - [Renewal Process](#renewal-process)
+    - [Process Overview](#process-overview)
+    - [Renewal Process Phases](#renewal-process-phases)
   - [Red Accounts](#red-accounts)
+    - [Criteria](#criteria)
+    - [Process](#process)
+    - [Roles and Responsibilities](#roles-and-responsibilities)
   - [Customer Health](#customer-health)
+    - [Processes](#processes-1)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
-  - [Post-Sales Engagement Kickoff](#post-sales-partnership-kickoff)
-  - [New User Onboarding](#user-onboarding)
+  - [Post-Sales Partnership Kickoff](#post-sales-partnership-kickoff)
+    - [TA Assignment](#ta-assignment)
+    - [Hand-off from pre-to-post sales](#hand-off-from-pre-to-post-sales)
+  - [User Onboarding](#user-onboarding)
+    - [Resources](#resources)
   - [Developer Enablement](#developer-enablement)
-  - [QBRs](#qbrs)
+    - [Standard trainings](#standard-trainings)
+    - [Resources](#resources-1)
   - [Expansions and Renewals](#expansions-and-renewals)
+  - [Voice of the Customer](#voice-of-the-customer)
+    - [Resources](#resources-2)
   - [Account Management](#account-management)
+    - [Resources](#resources-3)
+  - [QBRs](#qbrs)
+    - [Resources](#resources-4)
 - [Playbooks](#playbooks)
+  - [Low Utilization](#low-utilization)
+    - [Planning](#planning)
+    - [Execution](#execution)
   - [Account Health](#account-health)
 
 ---
@@ -200,10 +219,6 @@ For synchronous webinars, a standard customer engagement should include three co
 - [Sourcegraph 101](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-101) ([Video training](https://drive.google.com/file/d/1emSuz6Q871OC2YOadcfkrUXfuopn6JCB/view?usp=sharing)) - The basic "how to use Sourcegraph search" webinar. This should take a new users from 0 to able to use the tool competently. The repo includes a fully scripted talk track, a lesson plan version of the talk track for those who prefer that format to a script, a Slack follow up message to send to customers, test exercises for customers to run, and the content formatted for inclusion in a customer's LMS for self-directed learning.
 - [Sourcegraph 102](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-102) ([Video training](https://drive.google.com/file/d/1813s6MTmFqtWJ5IYVc6ivkX3mKlY6X7T/view?usp=sharing)) - This should take a customer from being a general Sourcegraph user through being able to use the majority of Sourcegraph's advanced search features.
 - [Admin training webinar](https://github.com/sourcegraph/customer-training/tree/main/trainings/admin-webinar) - This should take an admin for the instance through all of the elements of the admin area of the app, and leave them feeling confident with instance and user management training. This is not intended for cluster admins, and so does not cover sizing the cluster, etc.
-
-### Other trainings
-
-- Security use case training - Currently in progress with ETA for completion of EOQ Q2FY23. This should walk customers through how to use Sourcegraph for the [security use case](https://about.sourcegraph.com/use-cases#find-and-fix-security-vulnerabilities).
 
 ### Resources
 
