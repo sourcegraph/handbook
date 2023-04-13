@@ -24,7 +24,7 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years, 
 - **Enterprise adoption**: So far, we know that customers are fine with an LLM dependency, but large enterprises don't want to send their whole codebase out to create embeddings. Letting Cody answer questions about the entire codebase and not just local context or a single repo is a key differentiator. We've also gotten signal that basic filtering (together with indemnification) is going to be table stakes in conversations.
   - **Multi-repo context fetching**: Cody answers questions about multiple repos (vs 1 at a time today).
   - **[Supply code intelligence context to Cody](https://docs.google.com/document/d/1b4nLWa8pc74xC3MmtZjVQhE1nXe_xWyWmwF-aoumeVw/edit)**.
-  - **Sourcegraph Embeddings**: remove the dependency on third party for embeddings. We focus on embeddings (vs LLM) because it's easier to do, and sending an entire codebase to a third party is a blocker for many customers
+  - **Sourcegraph Embeddings**: remove the dependency on a third party for embeddings. We focus on embeddings (vs. LLM) because it's easier to do, and sending an entire codebase to a third party is a blocker for many customers
     - Self-hostable embeddings
     - Sourcegraph hosted embeddings GA
   - **Bring your own model**
