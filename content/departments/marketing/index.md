@@ -19,7 +19,6 @@
 - [Sending swag](swag.md)
 - [Brand Guidelines](../engineering/design/brand_guidelines/index.md)
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
-- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [Process docs](process/index.md)
   - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
   - [Marketing content review process](process/marketing-content-review-process.md)
