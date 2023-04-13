@@ -15,7 +15,7 @@ Developers can find, understand, write, improve, and secure code 100x faster tha
 Sourcegraph is uniquely positioned to build this because for the past 10 years, we've been working on the key building blocks:
 
 - The Code Graph: a representation of code and metadata around it that powers code search and AI.
-- Big Code: Sourcegraph is built to work for companies with Big Code. We'll continue integrating deeply with our customer's platform, and allowing them to build on top of Sourcegraph.
+- Big Code: Sourcegraph is built to work for companies with Big Code. We'll continue integrating deeply with our customer's environment and allowing them to build on top of Sourcegraph.
 
 ## Strategy & plans
 
