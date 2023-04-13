@@ -25,10 +25,6 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
 
-## Making a referral
-
-Current employees can refer a candidate in Greenhouse by following [these instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page. We do not offer referral bonuses at this time.
-
 ## Preparing for an interview
 
 **Training:** all interviewers must review and complete [interview training](../tools/interview_training.md) before participating in any interviews.
