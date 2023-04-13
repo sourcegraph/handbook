@@ -46,7 +46,7 @@ A [detailed page about issues](working-with-issues.md) is available.
 
 To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues:
 
-- [PR-FAQ](../engineering/job-fair) to communicate high-level product problems that need to be solved.
+- [PR-FAQ](../engineering/job-fair.md) to communicate high-level product problems that need to be solved.
 - [Request For Comments](../../company-info-and-process/communication/rfcs/index.md) to communicate around specific problems and make decisions.
 
 ## Workflow
