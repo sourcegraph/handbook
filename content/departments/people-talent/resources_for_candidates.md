@@ -138,7 +138,7 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
   - A: We are a casual company and we encourage you to dress comfortably!
 - Q: Does Sourcegraph check references?
 
-  - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent. You can read more about our reference check process [here](talent/process/reference_check_questions.md).
+  - A: Yes. We will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent. You can read more about our reference check process [here](talent/process/reference_check_questions.md).
 
 - Q: Do you provide Visa sponsorship?
 
