@@ -223,6 +223,12 @@ Yes, all customer users are able to access Cody
 - On sourcegraph.com, we may log queries in order to provide the service and to improve the product.
 - On Sourcegraph Enterprise, we don’t log cody queries.
 
+#### What does it technically mean to use Cody+Sourcegraph.com on private code? Does that mean you are pasting a private code snippet into a query? Or is it possible that Cody will send/log private code if you simply have it open in your editor when you submit a query?
+
+No, it means using sourcegraph.com as the backend for the VS Code extension (see docs).
+Cody will 100% send private code out (to Anthropic).
+We reserve the right to log all private code in that setup (when connected to .com), but do a best effort not to log private code. No guarantees, however, and our terms allow us to log it all in that case (see terms). If you want enterprise-friendly terms get a Sourcegraph Enterprise instance!
+
 ## The future
 
 #### Is search going to be replaced by embedding search?
