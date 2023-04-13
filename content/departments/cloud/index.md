@@ -274,7 +274,7 @@ Read through our [Cloud Cost Policy](cloud-cost.md)
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
-Future work in this area is owned by [Analytics team](../data-analytics/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+Future work in this area is owned by [Analytics team](../data-analytics/index.md).
 
 ### FAQ: How to list trial, production or internal instances?
 

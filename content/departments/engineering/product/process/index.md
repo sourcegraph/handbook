@@ -12,20 +12,6 @@ See [principles](product_principles.md) for our core beliefs in how we build pro
 
 See [strategy](../../../../strategy-goals/index.md).
 
-#### Use case sponsorship
-
-Our [use cases](../../../../strategy-goals/strategy/use-cases/index.md) help us align our platform, products, features, and roadmap to the most important value drivers for our customers. The use cases are problems that our customers encounter that our product helps solve, and in Engineering we’re building for these scenarios, demonstrating a clear progression of solving our customers' (and potential customers') pain points over time. When we talk about what’s coming next on the roadmap, we think about how we’re enhancing the product to better solve these use cases. They provide general alignment and focus that the team is constantly thinking about, across the organization and within our product teams and features. When we package together Sourcegraph’s products like search, code insights, code intelligence, batch changes, notebooks - we’re able to create a cohesive and compelling narrative and solution in a particular use case for the end-user.
-
-To support the ongoing maintenance and improvement of each use case, each can have a designated product, design, and engineering sponsor. That group is responsible for:
-
-- Working just like a team-based design/product/engineering triad, but with a focus on a specific use case
-- Being a point of contact for people with product, design, and/or engineering ideas/questions about the use case
-- Facilitating flow of ideas to owning teams backlogs as necessary
-- Including designers and researchers as needed to make sure that the features for use cases have a coherent flow and user experience, and that the voice of the customer is properly included.
-- Maintaining the use case strategy pages, including ensuring they are ready for planning. This can include talking to customers, internal teams, stakeholders or other kinds of research. This does NOT include maintaining a use case backlog, but just making sure ideas, trends, and important design/engineering concepts associated with the use case are documented on (or linked to from) the strategy page and captured in an actionable format (i.e., RFC, PD).
-
-The assigned sponsors for each use case are listed on the individual [use case pages](../../../../strategy-goals/strategy/use-cases/index.md).
-
 ### Learn
 
 - Research
@@ -39,7 +25,7 @@ The assigned sponsors for each use case are listed on the individual [use case p
 
 ### Prioritize & build
 
-- [Product documents](prioritize_and_build/product_documents.md) - how we communicate plans for new product areas
+- [PR-FAQs](../../../engineering/job-fair.md) to share high level business ideas
 - [Prioritizing](prioritize_and_build/prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Feature deprecation](prioritize_and_build/deprecation_process.md) - how we deprecate features when necessary.
 
@@ -102,10 +88,6 @@ There is also a [company-wide glossary of terms](../../../../company-info-and-pr
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
 Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Engineering of [welcoming contributions](../../cross-team-collab.md).
-
-### Cross-team owners
-
-Priorities that consistently require the collaboration of multiple engineering teams are given [cross-product owners](prioritize_and_build/cross-product_owners.md).
 
 ### Executive decisions
 

@@ -229,8 +229,6 @@ This section lists use cases that are related to this product team, along with t
 
 Some resources that other teammates have also found very helpful:
 
-- [How Code Insights currently maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
-- [Code Insights x FY23 Use Cases](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit#slide=id.g1161442b32e_0_787) section of the sales enablement presentation
 - Live dashboards of example insights sorted by use case and maintained by the Code Insights team:
   - [Code Reuse](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzN30=)
   - [Code Health](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzNn0=)

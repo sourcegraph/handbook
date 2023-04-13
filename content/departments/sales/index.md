@@ -14,7 +14,6 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Sales Resources](tools/salesresources.md)
 - [Engaging with Legal](process/saleslegal.md)
 - [Engaging with Security](process/salessecurity.md)
-- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [Process docs](process/index.md)
 - [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
 - [Forecasting Overview](forecasting.md)

@@ -566,7 +566,7 @@ Note that when a placeholder is used for an example, it does not replace the inp
 
 ##### Yes
 
-- Input label: Search snippet  
+- Input label: Search snippet
   Placeholder: Such as “repo:sourcegraph/sourcegraph”
 
 </div>
@@ -602,20 +602,6 @@ This is particularly important for helper messages on input fields.
 
 </div>
 </div>
-
-### Writing about use cases
-
-When prompting users about or writing about our 5 company uses cases, we can't assume that users are familiar with our terminology: a developer does not necessarily have in mind that they are using Sourcegraph for “Code Health”.
-
-Instead we can use this more intuitive (but less accurate) language:
-
-| Sourcegraph use case                                                                 | "You are using Sourcegraph to..."     |
-| ------------------------------------------------------------------------------------ | ------------------------------------- |
-| [Developer Onboarding](../../../strategy-goals/strategy/use-cases/dev-onboarding.md) | Understand a new part of the codebase |
-| [Code Health](../../../strategy-goals/strategy/use-cases/code-health.md)             | Improve codebase quality              |
-| [Code Reuse](../../../strategy-goals/strategy/use-cases/code-reuse.md)               | Find code to reuse                    |
-| [Incident response](../../../strategy-goals/strategy/use-cases/incident-response.md) | Respond to incidents                  |
-| [Code security](../../../strategy-goals/strategy/use-cases/code-security.md)         | Fix security vulnerabilities          |
 
 ## Providing additional resources for troubleshooting
 
