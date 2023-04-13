@@ -44,7 +44,7 @@ We welcome experimentations on sourcegraph.com. It should be very easy to experi
 
 The bar for an experiment on .com is the following:
 
-- Break nothing
+- Break nothing (new UIs and public data APIs are low risk, anything involving sensitive data or critical APIs is high risk)
 - Don't disrupt the main flows
 - Add basic usage metrics to know what's going on
 
