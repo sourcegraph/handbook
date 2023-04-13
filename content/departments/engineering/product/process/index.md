@@ -40,7 +40,7 @@ See [strategy](../../../../strategy-goals/index.md).
 
 #### Experimenting on sourcegraph.com
 
-We welcome experimentations on sourcegraph.com. It should be very easy to experiment on .com, send a tweet or email campaign out, and get some feedback in.
+We welcome experimentations on sourcegraph.com. It should be very easy to experiment on .com, send a tweet or email campaign out to get some traffics, and get early feedback in.
 
 The bar for an experiment on .com is the following:
 
