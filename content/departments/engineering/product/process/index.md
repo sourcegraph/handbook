@@ -39,7 +39,7 @@ The assigned sponsors for each use case are listed on the individual [use case p
 
 ### Prioritize & build
 
-- [Product documents](prioritize_and_build/product_documents.md) - how we communicate plans for new product areas
+- [PR-FAQs](../../../engineering/job-fair.md) to share high level business ideas
 - [Prioritizing](prioritize_and_build/prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Feature deprecation](prioritize_and_build/deprecation_process.md) - how we deprecate features when necessary.
 

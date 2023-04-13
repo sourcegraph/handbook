@@ -7,7 +7,7 @@ We strive to make the following true:
 
 ## Contact
 
-You can reach us at the #product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](process/feedback/surfacing_product_feedback.md) page.
+You can reach us at the #ask-product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](process/feedback/surfacing_product_feedback.md) page.
 
 ## Roadmap & Strategy
 
@@ -39,9 +39,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 - [Beta and experimental feature labels](process/gtm/beta_and_experimental_feature_labels.md) (internal only)
 - [Personas](../../marketing/process/personas.md)
 - [Sourcegraph messaging](../../marketing/process/messaging.md)
-- Product documents (PDs)
-  - [All PDs](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx) (Google Drive)
-  - [How we use PDs](process/prioritize_and_build/product_documents.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
