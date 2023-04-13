@@ -23,7 +23,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
   </a>
   <a href="https://docs.google.com/document/d/1WqyffCTaPKp9G1kpPFryEi2eiPZzwfF7Gmo2mAjSq40/edit#heading=h.kso9gsaecr0b" class="block">
     <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/icons/the-git-down.svg">
-    The Git Down
+    The Git Down (internal only)
   </a>
   <a href="team/index.md" class="block">
     <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/icons/bios.svg">
