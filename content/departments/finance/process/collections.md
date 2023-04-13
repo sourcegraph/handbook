@@ -28,7 +28,7 @@ Accounts Receivable: the funds that customers owe your company for products or s
 
   - Customer use of any 3rd party supplier management platforms for invoice submission, (such as Ariba, Coupa, Etc)
   - **PO number if required by the customer** If a customer requires a PO, an invoice cannot be issued until it has been obtained
-  - **Completion of any new vendor set-up requirements.** The information and documents usually required by customers can be found in the [Sales Resources](salesresources.md) handbook page. Any documentation required that cannot be found on the Sales Resources Handbook page, should be requested within the #deal-desk Slack channel.
+  - **Completion of any new vendor set-up requirements.** The information and documents usually required by customers can be found in the handbook page. Any documentation required that cannot be found on the Sales Resources Handbook page, should be requested within the #deal-desk Slack channel.
   - **Any changes in contact information.** If this is a new customer we must have the customer’s AP email address/Contact
   - Sharing any verbal communication with the customer regarding AR as applicable.
     Account Executives will be accountable for proactively addressing A/R issues once assigned and based on the class outlined in the CCM, and regularly communicating with the Deal Desk and Accounting Team on efforts made.
