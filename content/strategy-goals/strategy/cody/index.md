@@ -8,7 +8,7 @@
 
 ## Vision
 
-Developers can find, understand, write, improve and seure code 100x faster thanks to the power of AI that knows about their company's code, systems, brest practices and policies. Basic, repetitive tasks are gone, and time can be spent on designing and building high value software. Any developer can adopt AI for code because there are guardrails to make it secure and reliable even for the largest regulated enteprises.
+Developers can find, understand, write, improve, and secure code 100x faster thanks to the power of AI which knows about their company's code, systems, best practices, and policies. Basic, repetitive tasks are gone, and time can be spent designing and building high-value software. Any developer can adopt AI for code because there are guardrails to make it secure and reliable even for the largest regulated enterprises.
 
 ### Why Sourcegraph
 
