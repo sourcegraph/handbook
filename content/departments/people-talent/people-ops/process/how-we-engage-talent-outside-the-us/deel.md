@@ -32,7 +32,12 @@ You can check who employs you in [this page](https://help.letsdeel.com/hc/en-gb/
 
 #### How often does the exchange rate get updated for compensation?
 
-The amount specified as compensation in your Deel contract is based on an exchange rate calculated based on the 12-month trailing average. Please reference the FY23 YTD row in the below table when calculating your expected salary from USD to local currency. Compensation bands are calibrated every 6-months and we will account for exchange rates when there is a change to compensation, such as a Merit or Promotion or Band adjustment.
+The amount specified as compensation in your Deel contract is based on an exchange rate calculated based on the 12-month trailing average. Please reference the FY23 YTD row in the below table when calculating your expected salary from USD to local currency. Compensation bands are calibrated every 6-months and we will account for exchange rates when there is a change to compensation bands; All merit increases for teammates on Deel are based on their compensation rate per their Deel contract; it's very difficult to account for continous FX rate changes after the salary has been converted from USD to local currency at the time of offer or transfer to PEO.
+\*Why we can't benchmark on USD offer at time of conversion when calculating merit:
+
+- We can't and will not reduce someone's current salary in local currency. For example if FX rates swing in the opposite direction for a teammate - we would never say "you are paid now more than what we offered you in USD and we will ask that you make less than the rate in your contract in local currency"
+- Currently, the best way for us to account for increases is to calculate merit adjustments based on their compensation in local currency per their Deel contract.
+- We will evaluate the bands every 12-months to benchmark if any additional adjustments are needed due to extreme FX changes. These will be accounted as part of band related adjustments - not within the merit adjustment.
 
 <table>
   <tr>
