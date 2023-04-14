@@ -38,6 +38,31 @@ See [strategy](../../../../strategy-goals/index.md).
 - [Pricing and tiering/packaging](gtm/pricing.md)
 - [Licensing](gtm/licensing.md)
 
+#### Experimenting on sourcegraph.com
+
+We welcome experimentations on sourcegraph.com. It should be very easy to experiment on .com, send a tweet or email campaign out to get some traffics, and get early feedback in.
+
+The bar for an experiment on .com is the following:
+
+- Break nothing (new UIs and public data APIs are low risk, anything involving sensitive data or critical APIs is high risk)
+- Don't disrupt the main flows
+- Add basic usage metrics to know what's going on
+
+In particular an experiment does not require:
+
+- Discoverability
+- A polished design
+- Approvals, as long as it meets the criteria above
+- A/B testing, although A/B testing can be used
+
+When you experiment on .com you commit to:
+
+- Make a small announcement in #progress when you start the experiment
+- Following our [feature labelling](https://docs.sourcegraph.com/admin/beta_and_experimental_features) guidelines
+- Maintaining and supporting it (until removed or removed)
+- No later than one moth after the experiment started, either remove the experiment or decide to work on progressing it to Beta/GA. Note that this doesn't require to progress to Beta/GA within one month, it just required to have an actionable and staffed plan.
+- Notifying teams that might be affected by your experiment or work on related features.
+
 #### Talking to customers and stakeholders
 
 In general, product team members are empowered to communicate directly with customers and stakeholders. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
