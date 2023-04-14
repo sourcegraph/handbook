@@ -4,7 +4,7 @@ Surveys and other forms related to the _Find a mentor, Be a mentor_ program live
 
 ## Champions
 
-The committee of mentorship program champions are the designated owners and maintainers of the [_Find a mentor, Be a mentor_ program](./index.md). As it is inherently cross-functional, the committee is composed of representatives from engineering, product, CS, and people ops. The current representatives are:
+The committee of mentorship program champions are th designated owners and maintainers of the [_Find a mentor, Be a mentor_ program](./index.md). As it is inherently cross-functional, the committee is composed of representatives from engineering, product, CS, and people ops. The current representatives are:
 
 - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa) (CS)
 - [Kelli Rockwell](../../team/index.md#kelli-rockwell) (Engineering)
