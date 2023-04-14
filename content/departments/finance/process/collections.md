@@ -76,3 +76,6 @@ Tactics that may be included in a CAP:
 ## Uncollectible Invoices
 
 In the event that a Customer is unable to pay due to insolvency or dissolution, or for any other circumstance that is a bona fide event outside of an Account Executives control, there will be no effect to Account Executives performance or commissions. For additional guidelines related to collections and write-offs, please refer to the Allowance for Doubtful Accounts & Write Offs Policy
+
+## Current AR Balance and Statuses
+Current AR balances, collection notes, AR metrics, etc are compiled in the AR Analysis and Dashboards file that can be found [here](https://docs.google.com/spreadsheets/d/1DuhtAdXm3ObyDnqLVUNOpfXvLwCotPQe/edit?usp=sharing&ouid=103354719202547830590&rtpof=true&sd=true). This file is updated weekly on a rolling basis and has all the information and notes related to our open AR and collections
