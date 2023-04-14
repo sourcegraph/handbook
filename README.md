@@ -8,7 +8,7 @@ All content is in [Markdown](https://www.markdownguide.org/getting-started/#what
 
 ### Need help editing?
 
-Ask in the [#handbook channel](https://app.slack.com/client/T02FSM7DL/CQ44Y7F4G) (for Sourcegraph team members), and/or [post an issue](https://github.com/sourcegraph/handbook/issues).
+Ask in the [#handbook channel](https://app.slack.com/client/T02FSM7DL/CQ44Y7F4G) (for Sourcegraph team members), and/or [post an issue](https://github.com/sourcegraph/handbook/issues.
 
 ## Run or develop locally
 
