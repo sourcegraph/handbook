@@ -6,6 +6,7 @@ While Git is based on a distributed, decentralised model, Perforce is centralise
 For testing purposes, you may use our [Dogfood Perforce server](#dogfood-perforce-server) or set up a [Local Perforce server](#local-perforce-server).
 
 - [Dogfood Perforce server](#dogfood-perforce-server)
+- [Integration Testing Perforce server](#integration-testing-perforce-server)
 - [Local Perforce server](#local-perforce-server)
 - [Client setup](#client-setup)
   - [Install](#install)
@@ -33,6 +34,12 @@ For testing purposes, you may use our [Dogfood Perforce server](#dogfood-perforc
 Perforce is a service on our Sourcegraph dogfood cluster. For more info see its GCP [service details](https://console.cloud.google.com/kubernetes/service/us-central1-f/dogfood/tooling/perforce-server/overview?authuser=1&project=sourcegraph-dogfood) and the [Kubernetes configuration](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/dogfood/kubernetes/tooling/perforce).
 
 The hostname of the Dogfood Perforce server is `perforce.sgdev.org`.
+
+# Integration Testing Perforce server
+
+Perforce service on our sourcegraph-ci cluster soley used for integration tests. For more info see its GCP [service details](https://console.cloud.google.com/kubernetes/service/us-central1-c/default-buildkite/tooling/perforce-server/overview?authuser=0&project=sourcegraph-ci) and the [Kubernetes configuration](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/buildkite/kubernetes/tooling/perforce).
+
+The hostname of the Integration Testing Perforce server is `perforce-tests.sourcegraph.com`.
 
 # Local Perforce server
 
