@@ -102,6 +102,7 @@ Yes, that’s the type of things Cody can do. Mileage may vary though, and Cody 
 - [Longer demo video](https://drive.google.com/drive/u/0/folders/1C1Tb4I2Jdgfp0ECl_4aBeM7SiOEENSfM)
 - [Cody background info and demo notes from SQS](https://docs.google.com/document/d/1M7F9n4uNjlQOuUley6EubRjOw9D3meKwgFfvd7yHkMA/edit#)
 - [Tips on Demoing an LLM-based application from SQS](https://slack.org/llm-demo-tips)
+- [Transcript of a great demo](https://docs.google.com/document/d/1c5VG1gCbAE8Vtf3ey7CFL5S1RQgX8l2soPyfkjLS9GM)
 
 You can also use this simple demo flow:
 
