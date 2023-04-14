@@ -167,6 +167,7 @@ Additional Links:
 
 - [AR Policy](process/ar.md)
 - [Collections Policy](process/collections.md)
+- [Collections Class Matrix](process/collections class matrix.md)
 
 ### Fixed Assets
 
