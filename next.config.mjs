@@ -23,6 +23,21 @@ const nextConfig = {
         // We don't rely on linting errors to break to stop the Neltify build
         ignoreDuringBuilds: true,
     },
+    webpack: config => {
+        config.devtool = process.env.DEVTOOL
+        // camelCase style names from css modules
+        config.module.rules
+            .find(({ oneOf }) => !!oneOf)
+            .oneOf.filter(({ use }) => JSON.stringify(use)?.includes('css-loader'))
+            .reduce((acc, { use }) => acc.concat(use), [])
+            .forEach(({ options }) => {
+                if (options.modules) {
+                    options.modules.exportLocalsConvention = 'camelCase'
+                }
+            })
+
+        return config
+    },
 }
 
 export default nextConfig

@@ -11,6 +11,7 @@ import { TableOfContents } from '../components/TableOfContents'
 import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
+import { KBarWrapper } from '../components/KBarWrapper'
 
 export interface Author {
     name: string
@@ -101,6 +102,7 @@ export default function Page({ page }: PageProps): JSX.Element {
     return (
         <>
             <NextSeo title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
+            <KBarWrapper />
             <div className="container">
                 {!page.frontMatter?.hide_sidebar && (
                     <nav id="right-sidebar">

@@ -10,6 +10,7 @@ node_modules/
 # Next.js build output
 .next
 out
+.env.local
 
 # macOS
 .DS_Store

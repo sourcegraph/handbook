@@ -1,0 +1,16 @@
+.positioner {
+    padding: 4vh 16px 16px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.animator {
+    max-width: 600px;
+    width: 100%;
+    background: var(--background);
+    color: var(--foreground);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
