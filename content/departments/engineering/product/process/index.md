@@ -57,9 +57,10 @@ In particular an experiment does not require:
 
 When you experiment on .com you commit to:
 
+- Make a small announcement in #progress when you start the experiment
 - Following our [feature labelling](https://docs.sourcegraph.com/admin/beta_and_experimental_features) guidelines
 - Maintaining and supporting it (until removed or removed)
-- Working on progressing the feature to Beta/GA or removing it no more than 1 month after the experiment started.
+- No later than one moth after the experiment started, either remove the experiment or decide to work on progressing it to Beta/GA. Note that this doesn't require to progress to Beta/GA within one month, it just required to have an actionable and staffed plan.
 - Notifying teams that might be affected by your experiment or work on related features.
 
 #### Talking to customers and stakeholders
