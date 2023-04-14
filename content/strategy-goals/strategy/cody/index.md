@@ -32,7 +32,7 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years, 
     - Meanwhile, we partner with one large customer to experiment with plugging in a model they bring.
   - Filters/policies: allow for filtering out copyleft code, at least on a best effort basis.
 - **Prove out IDE extension usage**
-  - We're going to expriment with a set of extensions in parallel. In particular, we won't bring a unified extension experience. We will iterate on each extension independently to find the UX that works, then ultimately bring learnings back in.
+  - We're going to expriment with a set of extensions in parallel. We will iterate fast on several IDEs at the same time, and we won't try to create a unitifed experience. Intead, we will iterate on each extension independently to find the UX that works, then ultimately bring learnings back in. Also see this [doc](https://docs.google.com/document/d/1szCZ0D1YH3hj5fIYj4SrhomVl7AQKlX4IUkHQcZUmkM/edit#heading=h.v8dqtp19rsmr).
   - So far, we've started with VS Code ([Amplitude](https://analytics.amplitude.com/sourcegraph/dashboard/4n7yl67))
   - Features will likely include:
     - Autocomplete
