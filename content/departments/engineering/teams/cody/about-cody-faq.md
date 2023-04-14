@@ -135,6 +135,7 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
     - Head to the [anthropic console](https://console.anthropic.com/account/keys)
     - Click “generate key”
     - Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure.
+  - If the customer/prospects wants to setup embeddings, you'll have to generate an OpenAI key for them, using the [OpenAI console](https://platform.openai.com/account/api-keys). Ask in #it-tech-ops if you don't have access.
 - Adoption strategy
   - Cody Enterprise Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure. sending code snippets out to a third party provider, Anthropic.
   - On top of that, and **optionally**, customers can set up OpenAI embeddings to improve the quality of context fed to Cody and the quality of Cody answers. We recommend TAs to ignore embeddings at first when talking to customers, because that requires sending out their entire codebase (or at least all the repos they want to search) to OpenAI.
