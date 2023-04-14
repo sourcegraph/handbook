@@ -110,7 +110,9 @@ If you have an underperforming Teammate, the next step to get them back on track
 2. **Have a coaching conversation**: Once you have alerted your People Partner to the performance issue, they will assist you in conducting a coaching conversation.
    [Guide on how to deliver clear, actionable feedback](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
 3. **Regular documentation during 1:1s:** once the coaching conversation is complete, you will used regular 1:1s to clearly document expectations, where the teammate is meeting those expectations, and where opportunities to improve still exist.
-4. **Ongoing coaching:** coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Employees should be engaged in formal coaching for on average 2-4 weeks[^1] before moving to a PIP.
+4. **Ongoing coaching:** coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Employees should be engaged in formal coaching for on average 2-4 weeks[^1] before determining next steps.
+   - **Next Steps (PIP) - Didn't meet goals outlined:** If someone after their coaching period is not meeting the goals outlined; please work with your People Partner to deliver [this update](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit?usp=sharing).
+   - **Next Steps - Met goals outlined:** If someone after their coaching period is meeting the goals outlined; please work with your People Partner to deliver [this update](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing).
    - **Required:** Managers are required to have weekly meetings with the Teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
 
 **Stage 3:** Performance Improvement Plan (PIP)
