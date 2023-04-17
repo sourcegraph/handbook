@@ -163,7 +163,7 @@ Lattice resources:
 
 In addition to asking the above questions during the Impact Review process, we also ask our Managers to submit a Talent Assessment score in alignment with our **9-box guidance.**
 
-![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Talent%20Assessment%209-box.png)
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/9-box.png)
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
