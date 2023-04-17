@@ -126,8 +126,7 @@ If you have an underperforming Teammate and their performance has not improved w
 5. **Contact your People Partner:** Provide an update on how the conversation went after it has taken place.
 6. **Send a follow up email:** Once the PIP conversation is complete, you will send your follow up email using the [follow-up PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) within 24-hours of the conversation. Please always CC [people-ops@sourcegraph.com](mailto:?cc=people-ops@sourcegraph.com).
 7. **Ongoing meetings:** Have regular (weekly or bi-weekly depending on PIP length) progress meetings or check-ins with the underperforming Teammate for the duration of the PIP.
-   - **Required:** Managers are required to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations during the PIP process.
-   - **Required:** Managers are required to provide a weekly PIP update after their 1:1 to their Teammate by using the [PIP update template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit).
+   - **Required:** Managers are required to provide a weekly PIP update after their 1:1 to their Teammate by using the [PIP update template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit). This is expected to be sent weekly for the duration of the PIP process.
 
 There are two outcomes of a PIP:
 
