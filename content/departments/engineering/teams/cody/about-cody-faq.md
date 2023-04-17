@@ -269,7 +269,7 @@ That said, so far, we think that context-fetching has a few key advantages over 
 
 ## Marketing material
 
-See [Cody Marketing page](/content/departments/engineering/teams/cody/cody-marketing.md).
+See [Cody Marketing page](/cody-marketing.md).
 
 #### Where can I find additional assets for Cody?
 
