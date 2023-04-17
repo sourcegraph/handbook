@@ -42,7 +42,6 @@ To provide responses to requests, Cody does the following:
 1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-
 #### How is Cody different from ChatGPT?
 
 Cody uses a ChatGPT-like model as a component in its architecture (today we use Claude, but we could alternatively use ChatGPT or a similar Large Language Model). ChatGPT lacks the ability to search for contextual code snippets and docs, so its knowledge is therefore limited to open source it was trained on.
