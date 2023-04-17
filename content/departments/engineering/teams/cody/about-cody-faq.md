@@ -2,6 +2,7 @@
 
 Submit [feedback from the field here](https://docs.google.com/document/d/1LD6t01TdxPT1LSbzmS2FN_a8tifhBiUOn9YpzJKORWo/edit).
 
+
 ## What is Cody?
 
 #### What is Cody (ELI5)?
@@ -266,7 +267,9 @@ That said, so far, we think that context-fetching has a few key advantages over 
 - context-fetching works out of the box, whereas fine-tuning requires training (on GPUs)
 - context-fetching is always up to date (or as up to date as the index), whereas fine-tuning requires training every time the codebase changes. That could become prohibitively expensive (eg. training after each commit).
 
-### Marketing material
+## Marketing material
+
+See [Cody Marketing page](/content/departments/engineering/teams/cody/cody-marketing.md).
 
 #### Where can I find additional assets for Cody?
 
