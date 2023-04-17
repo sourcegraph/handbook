@@ -39,3 +39,15 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 - [Slides](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d)
 - [Product imagery](https://www.figma.com/file/VkNYkLBsxhtrhOHRuje28p/Product-Imagery?node-id=0%3A1&t=8EaDRxtvEuC7kXxZ-0)
 - [Starship brand assets](https://www.figma.com/file/lXvp8a2qoAU5L5sm4Woisu/STARSHIP-brand-assets?node-id=91%3A1816&t=8EaDRxtvEuC7kXxZ-0)
+
+## Cody brand assets
+
+[**Self-serve assets: Cody** (Figma)](https://www.figma.com/file/2XpWfh4GVreBPH6TgPK5Fe/%F0%9F%98%89-Cody)
+
+The following assets (exported from that Figma file) are available at public URLs that you can use to embed/reference from anywhere:
+
+- Logo (black text, for light backgrounds): [PNG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default-text-black.png) [SVG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default-text-black.svg)
+- Logo (white text, for dark backgrounds): [PNG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default-text-white.png) [SVG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default-text-white.svg)
+- Icon (black, for light backgrounds): [PNG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-black.png) [SVG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-black.svg)
+- Icon (color): [PNG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default.png) [SVG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default.svg)
+- Icon (white, for dark backgrounds): [PNG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-white.png) [SVG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-white.svg)
