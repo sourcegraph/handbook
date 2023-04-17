@@ -41,10 +41,13 @@ Please [submit questions and feedback for this page here](https://sourcegraph.sl
 ## Cody differentiators
 
 ### Context-aware
+
 Cody understands your codebase. When you submit a query, Cody uses Sourcegraph search to reference context from the user’s codebase. This allows Cody to answer questions about the codebase or provide answers that take a codebase’s context into account.
 
 ### Universal
+
 Cody is not locked to any specific code host. The enterprise version of Cody can utilize the entire Sourcegraph code graph from the user's instance including code from multiple code hosts.
 
 ### Secure
+
 Cody has a zero-retention policy, meaning that code snippets sent to the LLM provider (Anthropic) are processed for the length of time required to return the answer and are removed permanently after that. Cody is also [open source](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/client/cody).

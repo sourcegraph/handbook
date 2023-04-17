@@ -2,7 +2,6 @@
 
 Submit [feedback from the field here](https://docs.google.com/document/d/1LD6t01TdxPT1LSbzmS2FN_a8tifhBiUOn9YpzJKORWo/edit).
 
-
 ## What is Cody?
 
 #### What is Cody (ELI5)?
