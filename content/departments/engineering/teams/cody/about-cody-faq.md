@@ -30,7 +30,7 @@ To provide responses to requests, Cody does the following:
 1. The Large Language Model uses the contextual info from Sourcegraph to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-![How cody works with embeddings](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-embeddings.png)
+![How cody works with embeddings](https://mermaid.ink/img/pako:eNqFks1u2zAQhF9lwVOL2OhdKNyDjPaiBikE96TLmpxYRCRS5Y9TI8i7d2kZVR0HqI67387sjviitDdQlYr4leE0tpYPgcfOkXwTh2S1ndgl2hFH2kWE21ZdWrU3J4KxyQfC7wQXrXe3bFvY1uegIT5Tf0s0hWia73Pn3ieQPyJQXdFXJN1TwIBjIQeveaByAEVnpwkp0tup9mbqmrfuXNhzBH3eh08b-vCE07MPhiI46H5FGPcwxrpDXEpJf7zg3-AQWOym4McpvfVvqoVwnHKQjQd2h8wHELv4LMzFV4LTIjEgSXKzx6y2W282d3J-p7YessSSHvV8FJlZYSseD1Y_iWIA63RW8w4ufenUrFQXJYnkR0YsLnT3Xogz2xZW1n843_WXZGeWxK4nGplYi_r9-3cusuv6P9DV__vJgzUlv38JtVIjwsjWyON9KbVOpR4jOlWCMnjkPKRy96ugnJNvT06rKoWMlcpTEby8dVU98hDx-gfONAcS?type=png)
 
 ### How does Cody work (locally)?
 
@@ -41,10 +41,6 @@ To provide responses to requests, Cody does the following:
 1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT.
 1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
-
-![How cody works with keywords search](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-keywords.png)
-
-([image source](https://app.excalidraw.com/s/4Dr1S6qmmY7/3TiB7SbYTmm))
 
 #### How is Cody different from ChatGPT?
 
