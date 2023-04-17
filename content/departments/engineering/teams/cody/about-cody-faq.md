@@ -22,7 +22,7 @@ There are two ways to use Cody:
 To provide responses to requests, Cody does the following:
 
 1. A user asks Cody a question (or to write some code).
-1. Cody fetches code snippets and docs from Sourcegraph related to the user request via OpenAI. (This is accomplished through embeddings which are used to fetch additional context). OpenAI orchestrates this today.
+1. Cody fetches relevant code snippets.
    1. Unlike Copilot, Cody knows about all your company’s private code and fetches snippets directly relevant to you.
    2. Sourcegraph uses a combination of code search, code graph (SCIP), intelligent ranking, and an AI vector database to respond with snippets that are relevant to the user's request.
    3. If OpenAI embeddings are not on, then a search is ran locally to provide context.
