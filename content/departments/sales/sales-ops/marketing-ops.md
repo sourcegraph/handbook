@@ -79,7 +79,7 @@ Most HubSpot contacts are synced to Salesforce, usually within 15 minutes. The c
 - MQL date and checkbox
 - NPS survey results attached to the contact
 
-Select contacts are added to a suppression list and blocked from syncing from HubSpot to Salesforce. These contacts and the list's associated qualification filters can be found in our master suppression list [here](https://app.hubspot.com/contacts/2762526/lists/2452/filters). 
+Select contacts are added to a suppression list and blocked from syncing from HubSpot to Salesforce. These contacts and the list's associated qualification filters can be found in our master suppression list [here](https://app.hubspot.com/contacts/2762526/lists/2452/filters).
 
 ### Salesforce to HubSpot sync
 
