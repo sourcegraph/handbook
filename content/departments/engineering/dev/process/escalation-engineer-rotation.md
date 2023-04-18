@@ -21,7 +21,7 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | 2022-02-03 to 2023-03-03 | [Beatrix Woo](https://github.com/abeatrix), [Jacob Pleiness](https://github.com/jdpleiness) ,[Manuel Ucles](https://github.com/mucles)        |
 | 2022-03-03 to 2023-04-05 | ?                                                                                                                                             |
 | 2022-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
-| 2022-05-05 to 2023-06-05 | [Taras Yemets](https://github.com/taras-yemets)                                                                                               |
+| 2022-05-05 to 2023-06-05 | [Noah Santschi-Cooney](https://github.com/Strum355), [Gary Lee](https://github.com/gl-srgr), [Taras Yemets](https://github.com/taras-yemets)  |
 
 ## Benefits
 
