@@ -25,7 +25,7 @@ To provide responses to requests, Cody does the following:
 1. Cody fetches relevant code snippets.
    1. Unlike Copilot, Cody knows about all your company’s private code and fetches snippets directly relevant to you.
    2. Sourcegraph uses a combination of code search, code graph (SCIP), intelligent ranking, and an AI vector database to respond with snippets that are relevant to the user's request.
-   3. If OpenAI embeddings are not on, then a search is ran locally to provide context.
+   3. If OpenAI embeddings are NOT on, then a search is ran locally to provide context.
 1. Sourcegraph passes a selection of these results along with the original question to a Large Language Model like Claude or OpenAI’s ChatGPT.
 1. The Large Language Model uses the contextual info from Sourcegraph to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
