@@ -229,6 +229,11 @@ We reserve the right to log all private code in that setup (when connected to .c
 
 ## The future
 
+Quick links:
+
+- [Cody strategy](../../../../strategy-goals/strategy/cody/index.md)
+- [Roadmap deck](https://www.golinks.io/customer-facing-roadmap)
+
 #### Is search going to be replaced by embedding search?
 
 Usually people think of embeddings / vector search as complementary to other strategies. While it matches really well semantically ("what is this code about, what does it do?"), it drops syntax and other important precise matching info. So the results are often combined with exact/ precise approaches to get the "best of both worlds".
