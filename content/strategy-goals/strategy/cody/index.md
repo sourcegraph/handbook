@@ -5,6 +5,7 @@
 - [Metrics](https://analytics.amplitude.com/sourcegraph/dashboard/4n7yl67)
 - [Cody FAQ](../../../departments/engineering/teams/cody/about-cody-faq.md)
 - [Cody stories](https://docs.google.com/document/d/1LD6t01TdxPT1LSbzmS2FN_a8tifhBiUOn9YpzJKORWo)
+- [Board](https://github.com/orgs/sourcegraph/projects/331)
 
 ## Vision
 
