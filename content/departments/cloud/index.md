@@ -216,6 +216,10 @@ mi2 instance check pods-health
 kubectl rollout restart deployments/sourcegraph-frontend
 ```
 
+### FAQ: Do you support custom domain?
+
+Yes. Learn more about [custom domain support](./technical-docs/custom_domain.md).
+
 ### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
 
 Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces).
