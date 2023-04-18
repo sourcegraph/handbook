@@ -22,24 +22,24 @@ Bank Name: JPMorgan Chase Bank, N.A.
 
 Bank Address: JPMorgan  Chase  New York, NY  10017
 
-Bank Account Name: Sourcegraph, Inc. 
+Bank Account Name: Sourcegraph, Inc.
 
 Account Currency: USD
 
 [Bank Detail Letter](https://drive.google.com/file/d/17KLmr_6OanWpWfr_vIY_OrxO8gdUgmB1/view?usp=sharing)
 
-#### For ACH delivery: 
-Bank Routing  Number: 322271627
+#### For ACH delivery:
+Bank Routing  Number: 32_2271627
 
-Account Number: 936960100
+Account Number: 93_6960100
 
 Account Name: Sourcegraph, Inc.
 
-#### For Wire Transfers: 
-Bank Routing  Number: 021000021
+#### For Wire Transfers:
+Bank Routing  Number: 02_1000021
 
 SWIFT  Code: CHASUS33
 
-Account Number: 936960100
+Account Number: 93_6960100
 
 Account Name: Sourcegraph,  Inc. - Receivables account
