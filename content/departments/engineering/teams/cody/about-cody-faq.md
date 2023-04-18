@@ -38,8 +38,8 @@ To provide responses to requests, Cody does the following:
 
 1. A user asks Cody a question (or to write some code).
 1. Cody fetches code snippets from the users’ current workspace.
-1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT.
-1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
+1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT, through the Sourcegraph instance acting as a proxy.
+1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to the Sourcegraph instance, that proxies it back to the editor extension.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
 #### How is Cody different from ChatGPT?
