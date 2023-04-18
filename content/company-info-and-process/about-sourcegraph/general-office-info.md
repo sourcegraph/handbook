@@ -10,7 +10,7 @@ Phone number: (650) 273-5591
 
 Tax ID: For the Tax ID, refer to your Sourcegraph W-9.
 
-DUNS number: #117775232
+DUNS number: 11_7775232
 
 NAICS code: 541512
 
@@ -20,26 +20,28 @@ SIC code: 7373
 
 Bank Name: JPMorgan Chase Bank, N.A.
 
-Bank Address: JPMorgan  Chase  New York, NY  10017
+Bank Address: JPMorgan Chase New York, NY 10017
 
-Bank Account Name: Sourcegraph, Inc. 
+Bank Account Name: Sourcegraph, Inc.
 
 Account Currency: USD
 
 [Bank Detail Letter](https://drive.google.com/file/d/17KLmr_6OanWpWfr_vIY_OrxO8gdUgmB1/view?usp=sharing)
 
-#### For ACH delivery: 
-Bank Routing  Number: 322271627
+#### For ACH delivery:
 
-Account Number: 936960100
+Bank Routing Number: 32_2271627
+
+Account Number: 93_6960100
 
 Account Name: Sourcegraph, Inc.
 
-#### For Wire Transfers: 
-Bank Routing  Number: 021000021
+#### For Wire Transfers:
 
-SWIFT  Code: CHASUS33
+Bank Routing Number: 02_1000021
 
-Account Number: 936960100
+SWIFT Code: CHASUS33
 
-Account Name: Sourcegraph,  Inc. - Receivables account
+Account Number: 93_6960100
+
+Account Name: Sourcegraph, Inc. - Receivables account
