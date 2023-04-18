@@ -14,16 +14,17 @@ To read more about how we provide continuous feedback and our performance improv
 
 Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
 
-### Who is eligible for a review / compensation increase? 
+### Who is eligible for a review / compensation increase?
 
 To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
 
-- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations. 
+- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
 - Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year**
 - Teammates who recieve a 3 are not eligible for a compensation increase.
 - Teammates can also receive a compensation increase if they have fallen below the 75th percentile of their respective compensation band.
 
 ### When do impact reviews take place?
+
 Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
 
 - **1st review period of the year: 1H FY24**
@@ -35,9 +36,9 @@ Formal performance reviews take place **twice a year,** aligning with our promot
   - This review period reviews a teammates performance between February 1st and July 31st.
   - **Who is eligible:** Must be hired on or before April 1st.
 
-### Impact Review Schedule - 2H FY24 review 
+### Impact Review Schedule - 2H FY24 review
 
-**2H FY24 Review Process Schedule** 
+**2H FY24 Review Process Schedule**
 (Review Period: August 1st to January 31st)
 
 - [Reviewer selection](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit): 2023-07-17 to 2023-07-25
@@ -46,7 +47,7 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 - Calibrations: Aug 14 - 18th
 - People team week (to finalize increases): Aug 21 - 25th
 - Review delivery period: Aug 28 - Sept 8th
-- All compensation increases and/or promotions effective Sept 1st 
+- All compensation increases and/or promotions effective Sept 1st
 
 ## **Enablement Schedule**
 
