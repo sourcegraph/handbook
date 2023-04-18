@@ -10,7 +10,7 @@ Phone number: (650) 273-5591
 
 Tax ID: For the Tax ID, refer to your Sourcegraph W-9.
 
-DUNS number: #117775232
+DUNS number: 11_7775232
 
 NAICS code: 541512
 
@@ -29,17 +29,17 @@ Account Currency: USD
 [Bank Detail Letter](https://drive.google.com/file/d/17KLmr_6OanWpWfr_vIY_OrxO8gdUgmB1/view?usp=sharing)
 
 #### For ACH delivery: 
-Bank Routing  Number: 322271627
+Bank Routing  Number: 32_2271627
 
-Account Number: 936960100
+Account Number: 93_6960100
 
 Account Name: Sourcegraph, Inc.
 
 #### For Wire Transfers: 
-Bank Routing  Number: 021000021
+Bank Routing  Number: 02_1000021
 
 SWIFT  Code: CHASUS33
 
-Account Number: 936960100
+Account Number: 93_6960100
 
 Account Name: Sourcegraph,  Inc. - Receivables account
