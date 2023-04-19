@@ -442,6 +442,7 @@ preview.sgdev.dev -> kubectl get services -n ingress-nginx sg-nginx-ingress-ngin
 ```
 
 ## Deployments are stuck and Volumes won't mount
+
 In the event that the host machines on GKE change, and the nodes are having troubles mounting the volumes listed in the [Sourcegraph.com](https://github.com/sourcegraph/deploy-sourcegraph-cloud) deployment manifests. We can manually delete the Persistent Volume Claim, the deployment files associated and manually redeploy each service. The Volumes are set to `retain` so no data will be loss, it is just in the Kubernetes abstraction layer that the claim will be deleted from, the underlying storage will be kept in GCP. If services are failing to mount volumes, proceed with the following steps:
 
 1. Ensure Retain is set
@@ -452,7 +453,7 @@ Deletion occurs, PV and PVC gets deleted BUT the underlying disk is okay because
 The pod gets recreated but is blocked on startup because it can’t find the disk that fulfills requirement.
 
 4. Run `kustomize build base/$pod | kubectl apply -f -`
-    
+
 Note: Check whether the deployment has kustomize options, if not it is sufficient to just run `kubectl apply -f .` in the directory of the desired service.
 
 If you find that the deployment is not being rolled out, you can delete that deployment file first before re-applying.
