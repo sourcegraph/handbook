@@ -1,6 +1,7 @@
 This document is to help CE/TA's migrate existing customers to cloud. The migration is executed by the cloud team (#ask-cloud channel).
 
 > NOTE: It is the responsibility of the TA/CE to own the customer relationship, co-ordinate all the internal/external resources and activities for a successful cloud migration.
+
 > NOTE: If you are working with a strategic customer with complex migration needs, the CE/TA can request help from the implementation team. To request assistance, post in #ask-implementation channel
 
 > WARNING: The customer must agree to our cloud TOS before going on cloud, this is generally handled by the AE. Work with your AE before starting the process
