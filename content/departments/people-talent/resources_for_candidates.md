@@ -87,28 +87,31 @@ We encourage you to read about the [different types of interviews](talent/proces
 
 ### How we give candidate feedback
 
-We recognize that a lot of time and effort goes into the interview process, and we understand how difficult it can be to find out that you will not be moving forward. As an [open and transparent](https://handbook.sourcegraph.com/company-info-and-process/values/#open-and-transparent) company, we want to provide you as much valuable feedback as possible so that you can learn, grow, and be set up for success in future interviews. However, given that we interview a high volume of candidates, we are unable to give individualized feedback to everyone. 
+We recognize that a lot of time and effort goes into the interview process, and we understand how difficult it can be to find out that you will not be moving forward. As an [open and transparent](https://handbook.sourcegraph.com/company-info-and-process/values/#open-and-transparent) company, we want to provide you as much valuable feedback as possible so that you can learn, grow, and be set up for success in future interviews. However, given that we interview a high volume of candidates, we are unable to give individualized feedback to everyone.
 
 Here’s when you can expect to receive feedback:
 
-**Application stage:** 
-* How you’ll hear from us: email
-* If you apply and get a rejection email, we do not provide feedback as to why you didn’t make it into the interview process. We receive a high volume of applicants and unfortunately we don’t have the bandwidth to provide a customized response to every applicant. We encourage you to re-apply if you see another job that intrigues you!
+**Application stage:**
 
-**[Recruiter Screen](talent/process/types_of_interviews.md#recruiter-screen) stage:** 
-* How you’ll hear from us: email
-* If you complete a Recruiter Screen and are not selected for the role, the Recruiter will send a follow up email to let you know the team is not moving forward. In situations where the Recruiter concludes during the Recruiter Screen that a candidate does not meet the criteria on the job description, they will provide this feedback while on the call.
+- How you’ll hear from us: email
+- If you apply and get a rejection email, we do not provide feedback as to why you didn’t make it into the interview process. We receive a high volume of applicants and unfortunately we don’t have the bandwidth to provide a customized response to every applicant. We encourage you to re-apply if you see another job that intrigues you!
+
+**[Recruiter Screen](talent/process/types_of_interviews.md#recruiter-screen) stage:**
+
+- How you’ll hear from us: email
+- If you complete a Recruiter Screen and are not selected for the role, the Recruiter will send a follow up email to let you know the team is not moving forward. In situations where the Recruiter concludes during the Recruiter Screen that a candidate does not meet the criteria on the job description, they will provide this feedback while on the call.
 
 **[Hiring Manager Screen](talent/process/types_of_interviews.md#hiring-manager-screen) stage:**
-* How you’ll hear from us: phone call (email if you don’t answer the call)
-* If you make it to the Hiring Manager Screen stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward. If they are not able to reach you via phone, the Recruiter will send a follow-up email letting you know the team is not moving forward. This email will include a link to book a fully optional, additional 5 minute call with your recruiter in the event you have outstanding questions you need addressed.
+
+- How you’ll hear from us: phone call (email if you don’t answer the call)
+- If you make it to the Hiring Manager Screen stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward. If they are not able to reach you via phone, the Recruiter will send a follow-up email letting you know the team is not moving forward. This email will include a link to book a fully optional, additional 5 minute call with your recruiter in the event you have outstanding questions you need addressed.
 
 **[Team Interview & Final Interview](talent/process/types_of_interviews.md#types-of-interviews) stages:**
-* How you’ll hear from us: phone call (email if you don’t answer the call)
-* If you make it to the Team Interview and/or Final Interview stage and are not selected for the role, the Recruiter will call you to provide feedback about why the team is not moving forward. 
+
+- How you’ll hear from us: phone call (email if you don’t answer the call)
+- If you make it to the Team Interview and/or Final Interview stage and are not selected for the role, the Recruiter will call you to provide feedback about why the team is not moving forward.
 
 All feedback will be given verbally. We do not provide written feedback.
-
 
 ## Helpful links
 
