@@ -87,7 +87,7 @@ We encourage you to read about the [different types of interviews](talent/proces
 
 ### How we give candidate feedback
 
-We recognize that a lot of time and effort goes into the interview process, and we understand how difficult it can be to find out that you will not be moving forward. As an [open and transparent](https://handbook.sourcegraph.com/company-info-and-process/values/#open-and-transparent) company, we want to provide you as much valuable feedback as possible so that you can learn, grow, and be set up for success in future interviews. However, given that we interview a high volume of candidates, we are unable to give individualized feedback to everyone.
+We recognize that a lot of time and effort goes into the interview process, and we understand how difficult it can be to find out that you will not be moving forward. As an open and transparent company, we want to provide you as much valuable feedback as possible so that you can learn, grow, and be set up for success in future interviews. However, given that we interview a high volume of candidates, we are unable to give individualized feedback to everyone.
 
 Here’s when you can expect to receive feedback:
 
