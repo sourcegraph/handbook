@@ -22,7 +22,7 @@ Once the commercials are squared away, the migration can begin.
 - have direct database access
 - have a site-admin access token for their instance
 
-4. Request a cloud instance [as per our handbook page](<[https://github.com/sourcegraph/src-cli/releases](https://handbook.sourcegraph.com/departments/cloud/#managed-instance-requests)>)
+4. Request a cloud instance [as per our handbook page](../departments/cloud/#managed-instance-requests)
 5. Cloud/Sourcegraph enablement - work with customer to provide cloud or Sourcegraph enablement and training as required, to make sure all the users are onboarded.
 
 Different stratergies for cloud migration
