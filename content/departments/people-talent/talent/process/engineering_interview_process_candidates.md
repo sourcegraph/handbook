@@ -262,11 +262,6 @@ are working on this piece of code?
 - **Duration:** 45-minutes
 
 - **How to prepare:** During this interview, we will focus on systems you've built and dive into your views on machine learning and its potential. Please come prepared to share your vision for AI at Sourcegraph.
-- Please complete these steps prior to the interview:
-  - Have a working VS Code installation on your local machine
-  - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
-  - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
-  - If you get stuck, we will go over it on the call
 
 #### Technical Deep Dive
 
@@ -282,7 +277,11 @@ are working on this piece of code?
 
 - **Duration:** 60-minutes minimum.
 
-- **How to prepare:** Prior to the interview, please share your GitHub handle with your Recruiter. The Recruiter and/or Hiring Manager will then share a GitHub repo with you ahead of the interview. During the interview, we will ask you to spin up the dev environment and add a new Recipe to Cody. This Recipe should add the ability to generate a unit test using the surrounding code as context.
+- **How to prepare:** Prior to the interview, please share your GitHub handle with your Recruiter. The Recruiter and/or Hiring Manager will then share a GitHub repo with you ahead of the interview. During the interview, we will ask you to spin up the dev environment and add a new Recipe to Cody. This Recipe should add the ability to generate a unit test using the surrounding code as context. Please complete these steps prior to the interview:
+  - Have a working VS Code installation on your local machine
+  - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
+  - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
+  - If you get stuck, we will go over it on the call
 
 ### Leadership Interview Process
 
