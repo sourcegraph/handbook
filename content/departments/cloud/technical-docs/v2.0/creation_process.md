@@ -43,7 +43,7 @@ Then watch out for notification in #cloud-notifications or tail logs in GitHub A
 
 ### Wrapping up
 
-Manually apply the license key:
+Merge the Pull Request opened by GitHub Actions, then manually apply the license key:
 
 > make sure you pull the latest change from `main`
 
