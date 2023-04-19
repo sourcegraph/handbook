@@ -16,7 +16,7 @@ Disaster Recovery process contains playbooks for different components:
     - [Scheduled backup steps](#scheduled-backup-steps)
   - [GKE Kubernetes restore process](#gke-kubernetes-backup-process)
   - [Update nginx ingress controller](#update-nginx-ingress-controller)
-  - Deployments are stuck and Volumes won't mount
+  - [Deployments are stuck and Volumes won't mount](#deployments-are-stuck-and-volumes-wont-mount)
 
 # DotCom base infrastructure
 
