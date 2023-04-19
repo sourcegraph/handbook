@@ -210,7 +210,7 @@ mi2 generate kustomize -e $ENVIRONMENT --slug $SLUG
 
 ### [Optional] Kustomize application resources
 
-Create kustomize file `values.yaml`
+Create kustomize file `values.yaml` with application resource kustomization
 
 Add file to config.yaml and re-generate kustomization files
 
