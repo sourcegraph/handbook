@@ -33,7 +33,7 @@
 
 **Step 5**: Once the offer is **fully approved** in Greenhouse, Recruiter schedules an [offer summary call](extending_an_offer.md#offer-summary-call) using the email template in Greenhouse.
 
-- The offer summary should be downloaded as a Microsoft Word document to ensure that it contains the correct formatting. Recruiters, please download Microsoft Word prior to sharing the offer summary with candidates. 
+- The offer summary should be downloaded as a Microsoft Word document to ensure that it contains the correct formatting. Recruiters, please download Microsoft Word prior to sharing the offer summary with candidates.
 
 **Step 6**: Following the offer summary call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
 
