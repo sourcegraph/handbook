@@ -22,7 +22,7 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | 2023-03-03 to 2023-04-05 | ?                                                                                                                                             |
 | 2023-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
 | 2023-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
-| 2023-05-05 to 2023-06-05 | [Noah Santschi-Cooney](https://github.com/strum355), [Gary Lee](https://github.com/gl-srgr)  
+| 2023-05-05 to 2023-06-05 | [Noah Santschi-Cooney](https://github.com/strum355), [Gary Lee](https://github.com/gl-srgr)                                                   |
 
 ## Benefits
 
@@ -70,7 +70,7 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
   - Even if you're not familiar with the topic, you can still lead and take away that burden from others, allowing them to focus on solving the technical detail while you keep everyone synchronized.
   - If you find yourself to not be able to lead, you are responsible for finding a person to replace you.
   - You keep the support request alive, you raise the alarm if it's stagnating or ask to close the support request if the context changes.
-  
+
 Escalation Engineers will also **work on low effort ["paper cuts"](https://github.com/orgs/sourcegraph/projects/336/views/1) projects, typically scoped to 2-3 weeks maximum**. These projects will primarily consist of product gaps identified and prioritized by GTM with input from Engingeering & PM. Customer ad hoc issues still remain the P0 for the EE, with the projects as a P1.
 
 ### Tips for new escalation engineers
