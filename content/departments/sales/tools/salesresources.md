@@ -54,6 +54,7 @@ To update a template place the new template in the main Sales Template folder, n
 - [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
 - [Sales / Privacy Prospecting Guidelines](https://docs.google.com/document/d/1XMU2eKnDVweTwsMwo5oSSSmCVP9DIsSBeMiR4qufK1U/edit?usp=sharing)
 - [Sales & Marketing Privacy FAQs](https://docs.google.com/document/d/1rN1iW1za_Jk7ZdWe7vogPzucHk2FCe43eW5zGvIn9mA/edit?usp=sharing)
+- [Commission Processing and Plan Information](../../../departments/finance/process/commissions.md)
 
 ## Customer Notes
 
