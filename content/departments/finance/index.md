@@ -176,6 +176,7 @@ Additional Links:
 ### Commission Processing
 
 - [Commission Processing & Plan Information](process/commissions.md)
+- [CaptivateIQ Information](process/Captivate.md)
 
 ## Deal Desk
 
