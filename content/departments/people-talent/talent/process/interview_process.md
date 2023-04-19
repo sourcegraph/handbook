@@ -184,21 +184,47 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 
 `Stop` You are **very** certain that this candidate does not embody this attribute.
 
-## Declining candidates
+## Providing feedback to candidates - for recruiters
 
-**Who receives a written rejection:**
+Not all candidates want to receive feedback, but for those that do, we want to help them improve for their next interview, whether that is here at Sourcegraph or somewhere else.
 
-- Any candidate who applies to Sourcegraph but doesn't make it to the Recruiter Screen stage.
-- Any candidate who has a Recruiter Screen, but isn't progressed to the Hiring Manager Screen stage.
+Our goal is to provide an excellent candidate experience for _all_ candidates even if they aren’t the best fit for a role. In all feedback conversations, be tactful and aim to help.
 
-Follow [these steps](https://support.greenhouse.io/hc/en-us/articles/360025225732-Reject-candidate-or-prospect) on how to send candidates a written rejection using a standardized rejection template in Greenhouse.
+### When we do and don’t give feedback:
 
-**Who receives a phone call rejection:**
+We either send an email or make a phone call depending on the stage the candidate gets to in the interview process. [Click here](../../resources_for_candidates.md#what-to-expect-after-an-interview) to see when we send an email, and when we make a phone call.
 
-- Any candidate who makes it past the Hiring Manager Screen stage.
+### Best practices for giving candidate feedback
 
-If you make it to or past the Hiring Manager stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward.
+- **Be prompt.** Respect the candidate’s time by providing feedback as soon as possible.
 
-### How to keep feedback legal
+- **Provide feedback verbally, not in writing.** Providing verbal feedback gives the candidate one final personal touch-point with you. It also reduces the likelihood of having your exact words used against you. We never provide individualized feedback in writing.
 
-### Best practices for giving feedback
+- **Thank the candidate.** Applying for jobs and participating in interviews takes a substantial amount of time and energy. Let the candidate know we’re grateful for their time and interest in Sourcegraph. Always make sure to communicate the feedback in a respectful and professional manner.
+
+- **Start by discussing the positives.** Did the team provide positive feedback about the candidate’s behaviors, skills, or knowledge? Start with the positives before providing constructive insights.
+
+- **Feedback MUST tie back to the job description:** focus on the job-related qualifications and skills that the candidate lacked. Be specific and provide examples to help the candidate understand where they fell short. Feedback should never tie back to anything other than the job description.
+
+- **Be specific when providing feedback to candidates.** We want to clearly highlight the thing(s) candidates can build upon or improve. Avoid general feedback like “The team liked that you’re proactive” and instead use a specific example such as “The team really liked the in-depth company research you did and how you explained ways you’d contribute toward the team’s Q3 initiatives if given an offer.” Another example is instead of saying “it wasn’t a fit”, say “this role will require advanced reporting skills and we didn’t get the sense that you have a lot of experience with this. While this role isn’t the right fit now, if you build on your reporting skills, we would be happy to consider you in the future.” All feedback should tie back to specific requirements of the job.
+
+- **Focus on facts and behaviors**. Give feedback that candidates can realistically improve upon such as skills and behaviors. Never comment on opinions, feelings, or personal factors. Commenting on emotional connection such as “you were my favorite candidate” or “I thought it was rude that you didn’t make eye contact when speaking” is not acceptable. We want to ensure an unbiased hiring process and avoid legal action.
+
+- **Do not disclose any proprietary or incriminating information.**
+
+- **Invite them to stay in touch.** For candidates who might be a good fit for future roles, we can keep them in our pipeline and invite them to stay in touch via LinkedIn and email in case a future opportunity arises.
+
+Note: If a candidate does not agree with the feedback you provide, approach the situation from a calm/curious standpoint that aims to understand. Actively listen to the candidate’s point of view and remain objective, and then thank them for their time. Share feedback with the hiring team in the role’s private slack channel afterward.
+
+### Collecting Candidate Feedback
+
+The interviewers will [provide feedback](interview_process.md#providing-interview-feedback) via a [Greenhouse scorecard](https://support.greenhouse.io/hc/en-us/articles/115002226826-Interviewer-guide-Using-interview-kits) after each interview.
+
+**All** **interviewers** must include the following in the Key Takeaways section of their Greenhouse scorecard:
+
+- What is the [overall hiring decision](interview_process.md#overall-hiring-recommendation) [strong yes, yes, neutral, no, strong no]
+- What were the key contributors for making this decision **(MUST include at least 1 specific reason that ties back to the job description)**
+  - ‘Strong Yes’ Example: “I am giving Sarah a Strong Yes. I believe she will be successful in this position because she exhibited proficiency with our technologies and she has the experience presenting data, which is required for this role.”
+  - ‘No’ Example: “I am giving Mike a ‘No’ because I am not confident that he has the CSS skills required to be successful in this role. During the live-coding exercise, he was not able to use CSS knowledge to implement the UI.”
+
+If a scorecard does not include sufficient feedback to share with the candidate, the Recruiter will immediately reach out via the dedicated hiring slack channel to request the interviewer(s) update their scorecard to include more information. The Talent Team will hold interviewers accountable to this by not moving forward until sufficient feedback information is provided in the interview scorecard.
