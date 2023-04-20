@@ -333,7 +333,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 
 #### Score definition: 3:2 (values:skills)
 
-- **TL;DR:** teammates who receive a score with a 3 in values and a 2 in skill are eligible for immediate performance management and/or a PIP. Despite the fact that their performance meets expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
+- **TL;DR:** teammates who receive a score with a 3 in values and a 2 in skill have concrete growth areas that they need to improve upon. Despite the fact that their performance meets expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
@@ -354,7 +354,7 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 
 #### Score definition:3:1 (values:skills)
 
-- **TL;DR:** teammates who receive a score with a 3 in values and a 1 in skill are eligible for immediate performance management and/or a PIP. Despite the fact that their performance exceeds expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
+- **TL;DR:** teammates who receive a score with a 3 in values and a 1 in skill have concrete growth areas that they need to improve upon. Despite the fact that their performance exceeds expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
