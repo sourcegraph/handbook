@@ -173,6 +173,11 @@ Additional Links:
 
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)
 
+### Commission Processing
+
+- [Commission Processing & Plan Information](process/commissions.md)
+- [CaptivateIQ Information](process/Captivate.md)
+
 ## Deal Desk
 
 Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components. We coordinate internal approvals of paperwork with other internal stakeholders in order to deliver compliant documents and we support throughout the deal closing process.

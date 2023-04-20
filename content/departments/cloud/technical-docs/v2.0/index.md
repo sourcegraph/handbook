@@ -17,6 +17,8 @@ Learn more from:
 
 The largest architecture changes are moving from a standalone VM to GKE. Learn more from our [Cloud v2 diagrams](https://app.excalidraw.com/s/4Dr1S6qmmY7/4yUYgWaRxYx).
 
+<iframe src="https://link.excalidraw.com/readonly/9LCNZzAsx43zvMgTZRl5" width="100%" height="100%" style="border: none;"></iframe>
+
 ### Postgres
 
 <span class="badge badge-note">SOC2/CI-79</span>

@@ -6,6 +6,7 @@
 - [Cody FAQ](../../../departments/engineering/teams/cody/about-cody-faq.md)
 - [Cody stories](https://docs.google.com/document/d/1LD6t01TdxPT1LSbzmS2FN_a8tifhBiUOn9YpzJKORWo)
 - [Board](https://github.com/orgs/sourcegraph/projects/331)
+- [Job fair tracker](https://github.com/orgs/sourcegraph/projects/302/views/18?filterQuery=type%3ACody)
 
 ## Vision
 
@@ -31,12 +32,12 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years, 
   - **Bring your own model**
     - We start by making it so you can use your own Anthropic or OpenAI (ChatGPT) contract. To do so, we'll also need to make it so customers can completely customize the prompts.
     - Meanwhile, we partner with one large customer to experiment with plugging in a model they bring.
-  - Filters/policies: allow for filtering out copyleft code, at least on a best effort basis.
+  - Filters/policies: allow for filtering out copyleft code, at least on a best effort basis ([PR-FAQ](https://docs.google.com/document/d/1c5VG1gCbAE8Vtf3ey7CFL5S1RQgX8l2soPyfkjLS9GM/edit))
 - **Prove out IDE extension usage**
-  - We're going to expriment with a set of extensions in parallel. We will iterate fast on several IDEs at the same time, and we won't try to create a unitifed experience. Intead, we will iterate on each extension independently to find the UX that works, then ultimately bring learnings back in. Also see this [doc](https://docs.google.com/document/d/1szCZ0D1YH3hj5fIYj4SrhomVl7AQKlX4IUkHQcZUmkM/edit#heading=h.v8dqtp19rsmr).
+  - We're going to expriment with a set of editor extensions in parallel. We will iterate fast on several IDEs at the same time, and we won't try to create a unitifed experience. Intead, we will iterate on each extension independently to find the UX that works, then ultimately bring learnings back in. Also see this [doc](https://docs.google.com/document/d/1szCZ0D1YH3hj5fIYj4SrhomVl7AQKlX4IUkHQcZUmkM#heading=h.v8dqtp19rsmr).
   - So far, we've started with VS Code ([Amplitude](https://analytics.amplitude.com/sourcegraph/dashboard/4n7yl67))
   - Features will likely include:
-    - Autocomplete
+    - [Autocomplete](https://docs.google.com/document/d/12eO60kiaGwhjZr1Z3Ny-4GBfHXZJUWHhgu9op0QDOUY)
     - Adding more recipes, and/or allowing customers to define their own
     - Adding metadata and ownership data into Cody
     - Adding refactors recipe
