@@ -81,13 +81,11 @@ Managers should designate at least one conversation per quarter that includes in
 
 Learn more about [how to lead effective career conversations at Sourcegraph](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit).
 
-## Addressing underperformance
+## Addressing underperformance - best practices for managers
 
 We want all Teammates to succeed at Sourcegraph and will provide them with every opportunity to do so. There are, however, instances when a Teammate is underperforming. In these instances, it is the Manager's responsibility to manage low performance in a timely manner and provide clear feedback to the Teammate (with the support of the People Team).
 
 Below is additional information to help Managers and Teammates navigate performance issues.
-
-**Best Practices for Managers:**
 
 - Have difficult conversations early to avoid lag in addressing performance concerns.
 - Avoid favoritism (for example, assigning a certain Teammate more favorable tasks, giving them special attention/coaching, or sharing work-related information with only certain employees).
@@ -96,13 +94,13 @@ Below is additional information to help Managers and Teammates navigate performa
 - Anchor expectations to objective performance requirements based on established career frameworks.
   - _[Career frameworks across all roles at Sourcegraph](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) are in development. If no career framework is in place for the role, align on expectations with your Manager._
 
-**Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance.
+If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance.
 
 Once you contact your People Partner, they will guide you through next steps. Every circumstance is different and depending on the nature / seriousness of the performance issues, the recommended performance management process may differ. In some cases, it may be appropriate to follow all of the Stages of the below process in order, and in other cases it may be appropriate to skip to a later stage or to handle the performance issue outside of the PIP process altogether.
 
 Managers **are required** to work with their People Partner to determine the appropriate performance management process for a particular teammate. The standard process to manage underperformance is as follows:
 
-**Step 2:** Formal coaching (pre-PIP):
+#### **Step 1:** Formal coaching (pre-PIP):
 
 If you have an underperforming Teammate, the next step to get them back on track is **formal coaching.** Formal coaching involves regular, structured coaching and regular documentation following each conversation. Teammates struggling to meet the expectations of their role should be told clearly what those expectations are, and what success looks like, based on objective and measurable criteria.
 
@@ -115,7 +113,7 @@ If you have an underperforming Teammate, the next step to get them back on track
    - **Next Steps - Met goals outlined:** If someone after their coaching period is meeting the goals outlined; please work with your People Partner to deliver [this update](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing).
    - **Required:** Managers are required to have weekly meetings with the Teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
 
-**Stage 3:** Performance Improvement Plan (PIP)
+#### **Stage 2:** Performance Improvement Plan (PIP)
 
 If you have an underperforming Teammate and their performance has not improved with formal coaching or circumstances warrant skipping formal coaching, the next step is to move to a formal Performance Improvement Plan (PIP). The goal of a PIP should always be to provide Teammates with a fair opportunity to understand performance expectations and have a real opportunity to be successful.
 
@@ -127,6 +125,8 @@ If you have an underperforming Teammate and their performance has not improved w
 6. **Send a follow up email:** Once the PIP conversation is complete, you will send your follow up email using the [follow-up PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) within 24-hours of the conversation. Please always CC [people-ops@sourcegraph.com](mailto:?cc=people-ops@sourcegraph.com).
 7. **Ongoing meetings:** Have regular (weekly or bi-weekly depending on PIP length) progress meetings or check-ins with the underperforming Teammate for the duration of the PIP.
    - **Required:** Managers are required to provide a weekly PIP update after their 1:1 to their Teammate by using the [PIP update template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit). This is expected to be sent weekly for the duration of the PIP process.
+
+#### **Stage 3: PIP decision**
 
 There are two outcomes of a PIP:
 
