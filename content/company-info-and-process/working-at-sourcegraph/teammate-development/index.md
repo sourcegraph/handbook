@@ -81,13 +81,11 @@ Managers should designate at least one conversation per quarter that includes in
 
 Learn more about [how to lead effective career conversations at Sourcegraph](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit).
 
-## Addressing underperformance
+## Addressing underperformance - Best Practices for Managers
 
 We want all Teammates to succeed at Sourcegraph and will provide them with every opportunity to do so. There are, however, instances when a Teammate is underperforming. In these instances, it is the Manager's responsibility to manage low performance in a timely manner and provide clear feedback to the Teammate (with the support of the People Team).
 
 Below is additional information to help Managers and Teammates navigate performance issues.
-
-**Best Practices for Managers:**
 
 - Have difficult conversations early to avoid lag in addressing performance concerns.
 - Avoid favoritism (for example, assigning a certain Teammate more favorable tasks, giving them special attention/coaching, or sharing work-related information with only certain employees).
@@ -96,26 +94,49 @@ Below is additional information to help Managers and Teammates navigate performa
 - Anchor expectations to objective performance requirements based on established career frameworks.
   - _[Career frameworks across all roles at Sourcegraph](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) are in development. If no career framework is in place for the role, align on expectations with your Manager._
 
-**Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance.
+If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance.
 
 Once you contact your People Partner, they will guide you through next steps. Every circumstance is different and depending on the nature / seriousness of the performance issues, the recommended performance management process may differ. In some cases, it may be appropriate to follow all of the Stages of the below process in order, and in other cases it may be appropriate to skip to a later stage or to handle the performance issue outside of the PIP process altogether.
 
 Managers **are required** to work with their People Partner to determine the appropriate performance management process for a particular teammate. The standard process to manage underperformance is as follows:
 
-**Step 2:** Formal coaching (pre-PIP):
+#### **Stage 1:** Formal coaching (pre-PIP):
 
-If you have an underperforming Teammate, the next step to get them back on track is **formal coaching.** Formal coaching involves regular, structured coaching and regular documentation following each conversation. Teammates struggling to meet the expectations of their role should be told clearly what those expectations are, and what success looks like, based on objective and measurable criteria.
+If you have an underperforming Teammate, the next step to get them back on track is **formal coaching.** Formal coaching involves regular, structured coaching and regular documentation **following each conversation**. Teammates struggling to meet the expectations of their role should be told clearly what those expectations are, and what success looks like, based on objective and measurable criteria.
 
-1. **Contact your People Partner:** The first step of a formal coaching phase is to contact your People Parter and alert them about the performance issue. Together, you will develop a thoughful coaching plan, and they will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
-2. **Have a coaching conversation**: Once you have alerted your People Partner to the performance issue, they will assist you in conducting a coaching conversation.
-   [Guide on how to deliver clear, actionable feedback](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
-3. **Regular documentation during 1:1s:** once the coaching conversation is complete, you will used regular 1:1s to clearly document expectations, where the teammate is meeting those expectations, and where opportunities to improve still exist.
-4. **Ongoing coaching:** coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Employees should be engaged in formal coaching for on average 2-4 weeks[^1] before determining next steps.
-   - **Next Steps (PIP) - Didn't meet goals outlined:** If someone after their coaching period is not meeting the goals outlined; please work with your People Partner to deliver [this update](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit?usp=sharing).
-   - **Next Steps - Met goals outlined:** If someone after their coaching period is meeting the goals outlined; please work with your People Partner to deliver [this update](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing).
-   - **Required:** Managers are required to have weekly meetings with the Teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
+Coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Teammates should be engaged in formal coaching for 2-4 weeks before determining next steps (either improved performance or PIP).
 
-**Stage 3:** Performance Improvement Plan (PIP)
+To move to the coaching phase:
+
+1. **Contact your People Partner:** contact your People Parter and alert them about the performance issue. Together, you will develop a thoughful coaching plan, and they will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
+2. **Let the teammate know they're in a formal coaching stage**: once you have alerted your People Partner to the performance issue, they will assist you in letting the teammate know they are moving into formal coaching.
+
+- [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
+
+3. **Send formal coaching email following the conversation**: the manager is responsible for sending an email immediately following the first coaching conversation.
+
+- Please draft an email [using this email template](COMING SOON). You must share the draft with your People Partner before sending.
+
+5. **Regular documentation during 1:1s:** once the first coaching conversation is complete and the formal coaching email has been sent, you will use regular 1:1s to discuss where the teammate is meeting expectations, and where opportunities to improve still exist.
+
+- Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
+- Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
+- Please draft an email [using this email template](COMING SOON). You must share the draft with your People Partner before sending.
+
+There are 2 possible outcomes after the coaching phase is complete:
+
+1. Didn't pass the coaching phase: if the teammate is still not meeting expectations, we will move to a PIP (outlined below).
+
+- Please work with your People Partner to deliver the news that the teammate is moving to a PIP.
+- Managers are required to alert the teammate that they are moving to a PIP via email.
+- Please draft an email [using this email template](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit?usp=sharing). You must share the draft with your People Partner before sending.
+
+2. Passed the coaching phase: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
+
+- Managers are required to alert the teammate that they have passed the coaching phase via email.
+- Please draft an email [using this email template](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing). You must share the draft with your People Partner before sending.
+
+#### **Stage 2:** Performance Improvement Plan (PIP)
 
 If you have an underperforming Teammate and their performance has not improved with formal coaching or circumstances warrant skipping formal coaching, the next step is to move to a formal Performance Improvement Plan (PIP). The goal of a PIP should always be to provide Teammates with a fair opportunity to understand performance expectations and have a real opportunity to be successful.
 
