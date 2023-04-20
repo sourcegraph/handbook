@@ -70,7 +70,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 [ARR Definitions](arr-definitions.md)
 
-[GTM Operations Review](Gtmopsreview.md)
+[GTM Operations Review](departments/finance/Gtmopsreview.md)
 
 ## FY23 Budget
 
