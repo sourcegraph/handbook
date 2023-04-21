@@ -2,7 +2,7 @@
 
 ## Quicklinks
 
-- [App FAQ](../../../departments/engineering/teams/app/app.md)
+- [App FAQ](../../../departments/engineering/teams/app/app-faq.md)
 - [Product marketing brief](https://docs.google.com/document/d/1bdpImO3e4kwC65HYU2woDE5tXwNgrjWVEGzcXs1YSoM/edit)
 - [Key metrics and definitions](../../../departments/marketing/growth-marketing/analytics.md)
 - [Looker dashboard](https://sourcegraph.looker.com/dashboards/440)
