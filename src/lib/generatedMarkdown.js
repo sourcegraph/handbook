@@ -201,9 +201,6 @@ export async function generateTeamMembersList() {
     if (teamMember.description) {
       pageContent += `${String(teamMember.description)}\n`
     }
-    if (teamMember.email) {
-      pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
-    }
     if (teamMember.github) {
       pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
     }
