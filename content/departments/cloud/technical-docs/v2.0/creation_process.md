@@ -66,7 +66,8 @@ In the GitHub issue, tag the assigned CE/AE the instance is ready with the follo
 ```
 Hi,
 
-The instance has been provisioned and set password email has been sent to the mentioned customer admin
+The instance has been provisioned and set password email has been sent to the mentioned customer admin.
+For instance operations, please go to http://go/cloud-ops.
 ```
 
 ## Option II - manual playbook
@@ -274,6 +275,13 @@ mi2 instance edit --jq 'del(.spec.debug.tfcRunsMode)'
 mi2 generate cdktf
 cd terraform/stacks/tfc
 terraform init && terraform apply -auto-approve
+```
+
+Add new instance to dashboard
+
+```sh
+cd sourcegraph/cloud
+mi2 env dashboard -e prod --output prod.dashboard.md
 ```
 
 Finish the [remaining work](#wrapping-up)
