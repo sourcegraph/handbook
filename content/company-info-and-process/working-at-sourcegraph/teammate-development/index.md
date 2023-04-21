@@ -109,23 +109,24 @@ Coaching is an ongoing process, and helping Teammates meet expectations takes ti
 To move to the coaching phase:
 
 1. **Contact your People Partner:** contact your People Parter and alert them about the performance issue. Together, you will develop a thoughful coaching plan, and they will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
-2. **Let the teammate know they're in a formal coaching stage**: once you have alerted your People Partner to the performance issue, they will assist you in letting the teammate know in a 1:1 conversation that they are moving into formal coaching. 
+2. **Let the teammate know they're in a formal coaching stage**: once you have alerted your People Partner to the performance issue, they will assist you in letting the teammate know in a 1:1 conversation that they are moving into formal coaching.
 
-  - [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
+- [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
 
 3. **Send formal coaching email following the conversation**: the manager is responsible for sending an email **immediately following** the first coaching conversation.
 
-  - Please draft a "moving to formal coaching" email [using this email template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit). You must share the draft with your People Partner before sending.
+- Please draft a "moving to formal coaching" email [using this email template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit). You must share the draft with your People Partner before sending.
 
 5. **Regular documentation during 1:1s:** once the first coaching conversation is complete and the formal "moving to coaching email" has been sent, you will use regular 1:1s to discuss where the teammate is meeting expectations, and where opportunities to improve still exist.
 
-  - Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
-  - Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
-  - Please draft an email [using this email template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit). You must share the draft with your People Partner before sending.
+- Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
+- Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
+- Please draft an email [using this email template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit). You must share the draft with your People Partner before sending.
 
 There are 2 possible outcomes after the coaching phase is complete:
 
 1. **Didn't pass the coaching phase**: if the teammate is still not meeting expectations, we will move to a PIP (please follow instructions outlined below).
+
 - On the last day of the coaching phase, the Manager must send [this email](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit) explaining that the teammate did not pass the coaching phase.
 
 2. **Passed the coaching phase**: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
