@@ -113,8 +113,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - [sourcegraph/symbols](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/symbols)
 - [sourcegraph/syntax-highlighter](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/syntax-highlighter)
 
-## [Growth Marketing](../../../marketing/growth-marketing/index.md)
-
 ### General
 
 - Product-oriented features that generate inbound traffic and lead to qualified trials
