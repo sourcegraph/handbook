@@ -23,7 +23,7 @@ We expect Managers to foster a high-performance culture and provide performance 
 1. Formal performance reviews
 2. Ongoing feedback
 
-### 1. Formal performance reviews
+#### 1. Formal performance reviews (impact reviews)
 
 At Sourcegraph, we have a formal performance review process that takes place **twice a year.**
 
@@ -37,7 +37,7 @@ The purpose of our semi-annual reviews, which take place via Lattice, is to gath
 
 Reviews coincide with our [semi-annual promotion and compensation review cycles](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
-### 2. Continuous feedback
+#### 2. Continuous feedback
 
 We expect our Managers to provide ongoing, continuous feedback in the following ways:
 
@@ -45,7 +45,7 @@ We expect our Managers to provide ongoing, continuous feedback in the following 
 2. Regular 1:1s
 3. Quarterly career development conversations
 
-### Direct communication & immediate feedback / coaching
+#### Direct communication & immediate feedback / coaching
 
 Our expectations for Managers:
 
@@ -55,7 +55,7 @@ Our expectations for Managers:
 - **Understand career goals**: when Managers understand a Teammate’s career & development goals, they can help better coach them to get where they want to go.
 - **Be a coach:** Managers are encouraged to view their primary role as coaching Teammates to consistently improve their performance over time.
 
-### Regular 1:1s
+#### Regular 1:1s
 
 Expectations during 1:1:
 
@@ -75,13 +75,13 @@ Topics to cover during 1:1:
 
 Read more about [how to lead an effective 1:1 at Sourcegraph](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit).
 
-### Quarterly career-development conversations
+#### Quarterly career-development conversations
 
 Managers should designate at least one conversation per quarter that includes intentional focus time to discuss career growth. Creating intentional time for forward-looking conversations helps Teammates explore their careers on their own terms, and engage with their Manager in identifying opportunities to grow, learn, and be curious within our own organization.
 
 Learn more about [how to lead effective career conversations at Sourcegraph](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit).
 
-## Addressing underperformance - Best Practices for Managers
+# Addressing underperformance - Best Practices for Managers
 
 We want all Teammates to succeed at Sourcegraph and will provide them with every opportunity to do so. There are, however, instances when a Teammate is underperforming. In these instances, it is the Manager's responsibility to manage low performance in a timely manner and provide clear feedback to the Teammate (with the support of the People Team).
 
@@ -109,29 +109,26 @@ Coaching is an ongoing process, and helping Teammates meet expectations takes ti
 To move to the coaching phase:
 
 1. **Contact your People Partner:** contact your People Parter and alert them about the performance issue. Together, you will develop a thoughful coaching plan, and they will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
-2. **Let the teammate know they're in a formal coaching stage**: once you have alerted your People Partner to the performance issue, they will assist you in letting the teammate know they are moving into formal coaching.
+2. **Let the teammate know they're in a formal coaching stage**: once you have alerted your People Partner to the performance issue, they will assist you in letting the teammate know in a 1:1 conversation that they are moving into formal coaching. 
 
-- [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
+  - [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
 
-3. **Send formal coaching email following the conversation**: the manager is responsible for sending an email immediately following the first coaching conversation.
+3. **Send formal coaching email following the conversation**: the manager is responsible for sending an email **immediately following** the first coaching conversation.
 
-- Please draft an email [using this email template](COMING SOON). You must share the draft with your People Partner before sending.
+  - Please draft a "moving to formal coaching" email [using this email template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit). You must share the draft with your People Partner before sending.
 
-5. **Regular documentation during 1:1s:** once the first coaching conversation is complete and the formal coaching email has been sent, you will use regular 1:1s to discuss where the teammate is meeting expectations, and where opportunities to improve still exist.
+5. **Regular documentation during 1:1s:** once the first coaching conversation is complete and the formal "moving to coaching email" has been sent, you will use regular 1:1s to discuss where the teammate is meeting expectations, and where opportunities to improve still exist.
 
-- Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
-- Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
-- Please draft an email [using this email template](COMING SOON). You must share the draft with your People Partner before sending.
+  - Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
+  - Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
+  - Please draft an email [using this email template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit). You must share the draft with your People Partner before sending.
 
 There are 2 possible outcomes after the coaching phase is complete:
 
-1. Didn't pass the coaching phase: if the teammate is still not meeting expectations, we will move to a PIP (outlined below).
+1. **Didn't pass the coaching phase**: if the teammate is still not meeting expectations, we will move to a PIP (please follow instructions outlined below).
+- On the last day of the coaching phase, the Manager must send [this email](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit) explaining that the teammate did not pass the coaching phase.
 
-- Please work with your People Partner to deliver the news that the teammate is moving to a PIP.
-- Managers are required to alert the teammate that they are moving to a PIP via email.
-- Please draft an email [using this email template](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit?usp=sharing). You must share the draft with your People Partner before sending.
-
-2. Passed the coaching phase: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
+2. **Passed the coaching phase**: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
 
 - Managers are required to alert the teammate that they have passed the coaching phase via email.
 - Please draft an email [using this email template](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing). You must share the draft with your People Partner before sending.
@@ -145,7 +142,7 @@ If you have an underperforming Teammate and their performance has not improved w
 3. **Meet with your People Partner**: Once your email is drafted, your People Partner will coach you on [how to lead an effective PIP conversation](https://docs.google.com/document/d/1CqMkLOQfj-0EVs9DK7WUBOCQ0u80ffDRMVnt_bZxH_s/edit).
 4. **Have the PIP conversation**: Schedule and conduct the PIP meeting. Your People Partner must be in attendance.
 5. **Contact your People Partner:** Provide an update on how the conversation went after it has taken place.
-6. **Send a follow up email:** Once the PIP conversation is complete, you will send your follow up email using the [follow-up PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) within 24-hours of the conversation. Please always CC [people-ops@sourcegraph.com](mailto:?cc=people-ops@sourcegraph.com).
+6. **Send a follow up email:** Once the PIP conversation is complete, you will send your follow up email that you drafted in step #2 above using the [follow-up PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) within 24-hours of the conversation. Please always CC [people-ops@sourcegraph.com](mailto:?cc=people-ops@sourcegraph.com).
 7. **Ongoing meetings:** Have regular (weekly or bi-weekly depending on PIP length) progress meetings or check-ins with the underperforming Teammate for the duration of the PIP.
    - **Required:** Managers are required to provide a weekly PIP update after their 1:1 to their Teammate by using the [PIP update template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit). This is expected to be sent weekly for the duration of the PIP process.
 
