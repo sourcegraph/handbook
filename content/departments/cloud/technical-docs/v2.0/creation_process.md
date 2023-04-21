@@ -67,7 +67,7 @@ In the GitHub issue, tag the assigned CE/AE the instance is ready with the follo
 Hi,
 
 The instance has been provisioned and set password email has been sent to the mentioned customer admin.
-For instance operations, please go to [production instances](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md).
+For instance operations, please go to [production instances](http://go/cloud-ops).
 ```
 
 ## Option II - manual playbook
