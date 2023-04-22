@@ -37,7 +37,7 @@ The technology pillar embodies the skills necessary to solve customer problems.
 Within the technology pillar there exists two core responsibility areas:
 
 - Sourcegraph Product: The ability to learn about our product capabilities and limitations; apply that knowledge to help customers; extend the boundaries of our capabilities; serve as a voice of the customer back to internal teams.
-- Solving Technical Problems: The expected technical understanding and skillset required in order to deliver value and solutions to prospective customers. 
+- Solving Technical Problems: The expected technical understanding and skillset required in order to deliver value and solutions to prospective customers.
 
 ## When do I get promoted?
 
