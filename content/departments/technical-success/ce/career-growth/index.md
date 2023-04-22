@@ -16,11 +16,10 @@ We think of these three core competencies that every CE must demonstrate in orde
 
 The leadership pillar embodies both the external and internal interpersonal relationships we build and nurture, the way in which we lead customers to value, and how we drive more value and better ways of doing business.
 
-Within the leadership pillar there exists three core responsibility areas:
+Within the leadership pillar there exists two core responsibility areas:
 
-- Customer Interactions: The ability to uncover, understand, and influence our customers needs; the application of interpersonal skills required to appropriately manage and nurture relationships; navigating business and / or political considerations.
-- Achieve the Technical Win: The activities that CEs perform to lead prospective customers to achieving the Technical Win during the sales cycle.
-- Technical Customer Success: The activities that you perform, and the mentorship and influence you use, to ensure your customers' technical health and technical success as measured by business outcomes.
+- Relationship Management:The application of interpersonal skills required to appropriately manage and nurture relationships; navigating business and / or political considerations.
+- Outcomes: The activities that CEs perform to lead prospective customers to intended and desired outcomes.
 
 ### Business
 
@@ -38,13 +37,11 @@ The technology pillar embodies the skills necessary to solve customer problems.
 Within the technology pillar there exists two core responsibility areas:
 
 - Sourcegraph Product: The ability to learn about our product capabilities and limitations; apply that knowledge to help customers; extend the boundaries of our capabilities; serve as a voice of the customer back to internal teams.
-- Domain Subject Matter Expertise: Understanding our prospective customer personas, competitors, and the developer ecosystem as a whole.
+- Solving Technical Problems: The expected technical understanding and skillset required in order to deliver value and solutions to prospective customers. 
 
 ## When do I get promoted?
 
-When you have demonstrated consistently achieving at least 4 consecutive quarters (1 year min) of high performance at your current level, and one quarter performing at the next level, in all three of the core competencies. It takes time to demonstrate the “consistently” implicit in the expectations, and we don’t want to promote anyone to a level in which they will struggle.
-
-Promotions from one level to another are considered in our bi-annual impact review process.
+See guidance on promotions [here](../../../people-talent/people-ops/process/teammate-sentiment/impact-reviews/#promotion-philosophy).
 
 ## CE Regional Team Leads
 
