@@ -6,8 +6,6 @@ We want all Teammates to succeed at Sourcegraph and will provide them with every
 
 Although every circumstance is different, and some circumstances may warrant handling a particular situation in a unique way, the standard process to manage underperformance is as follows:
 
-
-
 Each step of the process is detailed below:
 
 1. [Ongoing Feedback](index.md#ongoing-feedback)
@@ -21,19 +19,19 @@ Refer to [this page](index.md#direct-communication) for Manager expectations on 
 
 ### **Step 2:** Contact your People Partner
 
-If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner. They will work with and coach you through managing Teammate underperformance, while trying to help the Teammate succeed. Your People Partner will guide you through the process. 
+If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner. They will work with and coach you through managing Teammate underperformance, while trying to help the Teammate succeed. Your People Partner will guide you through the process.
 
 **Note:** Every circumstance is different and depending on the nature / seriousness of the performance issues, the recommended performance management process may differ. In some cases, it may be appropriate to follow all of the Stages of the below process in order, and in other cases it may be appropriate to skip to a later stage or to handle the performance issue outside of the PIP process altogether. Your People Partner is equipped to guide you on a path forward.
 
-Managers **are required** to work with their People Partner to determine the appropriate performance management process for a particular teammate. 
+Managers **are required** to work with their People Partner to determine the appropriate performance management process for a particular teammate.
 
 ### **Step 3:** Formal coaching plan
 
-If you have an underperforming Teammate, who has received feedback but has not adequately improved their performance to meet expectations, to get them back on track we may need to initiate **formal coaching.** 
+If you have an underperforming Teammate, who has received feedback but has not adequately improved their performance to meet expectations, to get them back on track we may need to initiate **formal coaching.**
 
 ### What's formal coaching
 
-Formal coaching involves structured, formal coaching through documented expectations and progress, with regular documentating **following each conversation**. 
+Formal coaching involves structured, formal coaching through documented expectations and progress, with regular documentating **following each conversation**.
 
 A formal coaching plan describes where a Teammate is not meeting expectations, defines what the expectations are, and defines what success looks like, based on objective and measurable criteria.
 
@@ -45,40 +43,42 @@ Coaching is an ongoing process, and helping Teammates meet expectations takes ti
 
 The formal coaching process is as follows:
 
-| Process Step No. | Process Step                            | Step Description | Resources |
-| :--------------: | :-------------------------------------- | :--------------- | :-------- |
-| 1                | Develop coaching plan                   | Working with the People team, Managers will develop a comprehensive coaching plan  | [Link to Template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit) |
-| 2                | Communicate plan to teammate            | The Manager and Teammate will meet to review the coaching plan together | [Conversation Script](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit) |
-| 3                | Send formal coaching email to teammate  | The Manager will send the Teammate (cc-ing their People Partner) a copy of the coaching plan | [Link to Template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit) |
-| 4                | Regular documentation during 1:1s       | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates. |  [Link to Template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit) |
-| 5                | Conclusion of coaching plan             | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.  | None. |
+| Process Step No. | Process Step                           | Step Description                                                                                           | Resources                                                                                                   |
+| :--------------: | :------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+|        1         | Develop coaching plan                  | Working with the People team, Managers will develop a comprehensive coaching plan                          | [Link to Template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit)    |
+|        2         | Communicate plan to teammate           | The Manager and Teammate will meet to review the coaching plan together                                    | [Conversation Script](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit) |
+|        3         | Send formal coaching email to teammate | The Manager will send the Teammate (cc-ing their People Partner) a copy of the coaching plan               | [Link to Template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit)    |
+|        4         | Regular documentation during 1:1s      | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates. | [Link to Template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit)    |
+|        5         | Conclusion of coaching plan            | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.        | None.                                                                                                       |
 
 You can read more about each step of the coaching plan process below:
 
 1. **Develop coaching plan with your People Partner:** together with your People Partner, you will develop a thoughful, clear, and comprehensive coaching plan. Your People Partner will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
 
 2. **Communicate with the teammate that they are moving to a formal coaching stage**: once you and your People Partner have created a coaching plan together, you'll let the teammate know in a 1:1 conversation that they are moving into formal coaching and you'll review it with them.
-    - [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
+
+   - [Here is a script on how to deliver clear, actionable feedback during your conversation with the teammate](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit)
 
 3. **Send formal coaching email following the conversation**: the manager is responsible for sending an email **immediately following** the first coaching conversation.
-    - Please draft a "moving to formal coaching" email [using this email template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit). You must share the draft with your People Partner before sending and cc them on the email so that they are able to follow up and directly support the Teammate as needed.
+
+   - Please draft a "moving to formal coaching" email [using this email template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit). You must share the draft with your People Partner before sending and cc them on the email so that they are able to follow up and directly support the Teammate as needed.
 
 4. **Regular documentation during 1:1s:** once the first coaching conversation is complete and the formal "moving to coaching email" has been sent, you will use regular 1:1s to discuss where the teammate is meeting expectations, and where opportunities to improve still exist.
 
-    - Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
-    - Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
-    - Please draft an email [using this email template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit). You must share the draft with your People Partner before sending.
+   - Managers are **required** to have weekly meetings with the teammate during the coaching phase, and to keep a 1:1 doc with clear documentation of feedback, coaching, and weekly expectations.
+   - Following each 1:1, the manager is responsible for sending an email letting the teammate know how much time is left in the coaching period, and how they're trending.
+   - Please draft an email [using this email template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit). You must share the draft with your People Partner before sending.
 
 5. **Concluding the coaching plan:** There are 2 possible outcomes after the coaching phase is complete:
-- **Passed the coaching phase**: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
-    - Managers are required to alert the teammate that they have passed the coaching phase via email.
-    - Please draft an email [using this email template](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing). You must share the draft with your People Partner before sending.
-- **Didn't pass the coaching phase**: if the teammate is still not meeting expectations, we will move to a [PIP](#step-4-performance-improvement-plan-pip) (please follow instructions outlined below). On the last day of the coaching phase, the Manager must send [this email](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit) explaining that the teammate did not pass the coaching phase.
 
+- **Passed the coaching phase**: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
+  - Managers are required to alert the teammate that they have passed the coaching phase via email.
+  - Please draft an email [using this email template](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing). You must share the draft with your People Partner before sending.
+- **Didn't pass the coaching phase**: if the teammate is still not meeting expectations, we will move to a [PIP](#step-4-performance-improvement-plan-pip) (please follow instructions outlined below). On the last day of the coaching phase, the Manager must send [this email](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit) explaining that the teammate did not pass the coaching phase.
 
 ### **Step 4:** Performance Improvement Plan (PIP)
 
-If you have an underperforming Teammate and their performance has not improved with formal coaching, or if circumstances warrant skipping formal coaching, the next step is to move to a formal Performance Improvement Plan (PIP). 
+If you have an underperforming Teammate and their performance has not improved with formal coaching, or if circumstances warrant skipping formal coaching, the next step is to move to a formal Performance Improvement Plan (PIP).
 
 The goal of a PIP is to clarify performance expectations, provide clear guidance and support by documenting specific expectations, motivate behavioral changes, provide a path back to good standing, and outline consequences should performance not improve. The goal of a PIP should always be to provide Teammates with a fair opportunity to understand performance expectations and have a real opportunity to be successful.
 
@@ -95,7 +95,7 @@ The PIP process is as follows:
 7. **Ongoing meetings:** Have regular (weekly or bi-weekly depending on PIP length) progress meetings or check-ins with the underperforming Teammate for the duration of the PIP.
    - **Required:** Managers are required to provide a weekly PIP update after their 1:1 to their Teammate by using the [PIP update template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit). This is expected to be sent weekly for the duration of the PIP process.
 8. **Concluding the PIP:** There are two outcomes of a PIP:
-    - If the Teammate passes a PIP, they will be notified in person and in writing via email of successful completion.
-    - If the Teammate’s performance does not improve to the necessary level, the Manager will work with their People Partner to part ways amicably.
+   - If the Teammate passes a PIP, they will be notified in person and in writing via email of successful completion.
+   - If the Teammate’s performance does not improve to the necessary level, the Manager will work with their People Partner to part ways amicably.
 
 [^1]: This can vary depending on the situation, please work with your People Partner.

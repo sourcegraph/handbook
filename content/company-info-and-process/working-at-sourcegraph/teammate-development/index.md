@@ -10,7 +10,7 @@ Our Teammates should understand what's expected of them, have the resources nece
 
 ## Why is a high performance culture important?
 
-Members of high-performing teams share a mutual purpose, are goal-oriented, collaborative with stromg teamwork and partnership, and are hyper-focused on achieving clear, outstanding results. Being surrounded by high-performers makes all of us better. We want to give Managers and Teammates resources to build a high-performing team. 
+Members of high-performing teams share a mutual purpose, are goal-oriented, collaborative with stromg teamwork and partnership, and are hyper-focused on achieving clear, outstanding results. Being surrounded by high-performers makes all of us better. We want to give Managers and Teammates resources to build a high-performing team.
 
 We **hold our Managers accountable** to foster high-performing teams by giving clear feedback early and often, and providing explicit direction on what is expected of Teammates in their role.
 
@@ -34,7 +34,7 @@ At Sourcegraph, we have a formal performance (impact) review process that takes 
 - 1st review period of the year: launches in February
 - 2nd review period of the year: launches in August
 
-The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers. 
+The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers.
 
 Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 
@@ -49,8 +49,6 @@ We expect our Managers to provide ongoing, continuous feedback in the following 
 #### Direct communication
 
 The follow describes our expectations for how Managers champion a culture of continuous feedback:
-
-
 
 #### Regular 1:1s
 
@@ -80,7 +78,7 @@ In sitations of underperformance, which may be identified during ongoing feedack
 
 The following are best practice intended to help both Managers and Teammates navigate performance issues:
 
-- Have difficult conversations early to avoid a lag in addressing performance concerns. 
+- Have difficult conversations early to avoid a lag in addressing performance concerns.
 - Be direct and have specific, concrete examples to share with the Teammate while communicating clear expectations.
 - Avoid favoritism (for example, assigning a certain Teammate more favorable tasks, giving them special attention/coaching, or sharing work-related information with only certain employees).
 - Ask yourself - would you hire this person again?
