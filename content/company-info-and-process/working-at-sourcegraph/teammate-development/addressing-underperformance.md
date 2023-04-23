@@ -12,8 +12,8 @@ Each step of the process is detailed below:
 
 1. [Ongoing Feedback](index.md#ongoing-feedback)
 2. [Contact your People Partner](#contact-your-people-partner)
-3. [Stage 1: Formal coaching (pre-PIP)](#stage-1-formal-coaching-pre-pip)
-4. [Stage 2: Performance Improvement Plan (PIP)](#stage-2-performance-improvement-plan-pip)
+3. [Formal coaching (pre-PIP)](#stage-1-formal-coaching-pre-pip)
+4. [Performance Improvement Plan (PIP)](#stage-2-performance-improvement-plan-pip)
 
 ### **Step 1:** Ongoing Feedback
 
