@@ -31,17 +31,17 @@ Managers **are required** to work with their People Partner to determine the app
 
 If you have an underperforming Teammate, who has received feedback but has not adequately improved their performance to meet expectations, to get them back on track we may need to initiate **formal coaching.**
 
-### What's formal coaching
+#### What is formal coaching?
 
-Formal coaching involves structured, formal coaching through documented expectations and progress, with regular documentating **following each conversation**.
+Formal coaching involves structured, formal coaching through documented expectations and progress, with regular documentation **following each conversation**.
 
 A formal coaching plan describes where a Teammate is not meeting expectations, defines what the expectations are, and defines what success looks like, based on objective and measurable criteria.
 
-### How long does formal coaching typically last
+#### How long does formal coaching typically last?
 
 Coaching is an ongoing process, and helping Teammates meet expectations takes time and intention. Teammates should be engaged in formal coaching for 2-4 weeks before determining next steps (either improved performance or PIP).
 
-### Formal coaching process
+#### Formal coaching process
 
 The formal coaching process is as follows:
 
@@ -53,7 +53,7 @@ The formal coaching process is as follows:
 |        4         | Regular documentation during 1:1s      | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates. | [Link to Template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit)    |
 |        5         | Conclusion of coaching plan            | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.        | None.                                                                                                       |
 
-You can read more about each step of the coaching plan process below:
+You can read more about each step of the formal coaching plan process below:
 
 1. **Develop coaching plan with your People Partner:** together with your People Partner, you will develop a thoughful, clear, and comprehensive coaching plan. Your People Partner will guide you on how to deliver clear, actionable feedback based on objective and measurable criteria.
 
@@ -73,30 +73,46 @@ You can read more about each step of the coaching plan process below:
 
 5. **Concluding the coaching plan:** There are 2 possible outcomes after the coaching phase is complete:
 
-- **Passed the coaching phase**: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
-  - Managers are required to alert the teammate that they have passed the coaching phase via email.
-  - Please draft an email [using this email template](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing). You must share the draft with your People Partner before sending.
-- **Didn't pass the coaching phase**: if the teammate is still not meeting expectations, we will move to a [PIP](#step-4-performance-improvement-plan-pip) (please follow instructions outlined below). On the last day of the coaching phase, the Manager must send [this email](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit) explaining that the teammate did not pass the coaching phase.
+   - **Passed the coaching phase**: if the teammate met the goals outlined during the coaching phase, they will move to our "monitoring" phase, during which we will continue to monitor their feedback to ensure they continue to meet expectations.
+     - Managers are required to alert the teammate that they have passed the coaching phase via email.
+     - Please draft an email [using this email template](https://docs.google.com/document/d/1_HNuTayx9oAfx19gw3up-SJGqzgqhqUpUrwcrnJJo-g/edit?usp=sharing). You must share the draft with your People Partner before sending.
+   - **Didn't pass the coaching phase**: if the teammate is still not meeting expectations, we will move to a [PIP](#step-4-performance-improvement-plan-pip) (please follow instructions outlined below). On the last day of the coaching phase, the Manager must send [this email](https://docs.google.com/document/d/1ju9h7Xz0rqpSVrcktRx6NLvlUUuBxCTlzifip7D5fzA/edit) explaining that the teammate did not pass the coaching phase.
 
 ### **Step 4:** Performance Improvement Plan (PIP)
 
-If you have an underperforming Teammate and their performance has not improved with formal coaching, or if circumstances warrant skipping formal coaching, the next step is to move to a formal Performance Improvement Plan (PIP).
+If you have an underperforming Teammate and their performance has not improved with formal coaching, or if circumstances warrant skipping the formal coaching step, the next step is to move to a formal Performance Improvement Plan (PIP).
+
+#### What is a PIP?
+
+A PIP is a formal document that outlines specific areas where an employee's performance is not meeting expectations and provides a structured plan for improvement. Throughout the PIP process, the Manager and Teammate meet weekly to discuss progress with regular documentation **following each conversation**.
 
 The goal of a PIP is to clarify performance expectations, provide clear guidance and support by documenting specific expectations, motivate behavioral changes, provide a path back to good standing, and outline consequences should performance not improve. The goal of a PIP should always be to provide Teammates with a fair opportunity to understand performance expectations and have a real opportunity to be successful.
 
-### PIP process
+#### How long does a PIP typically last?
+
+Although each circumstance is unique, the typical PIP process lasts for 4 weeks (30 days), with weekly check-ins, before determining next steps. Working with the People Team, the Manager and People Partner will establish a plan and duration that is reasonable to allow the Teammate with a fair opportunity to succeed against the plan.
+
+#### PIP process
 
 The PIP process is as follows:
 
-1. **Contact your People Partner**: If formal coaching has not resolved performance issues, your People Partner will guide you on the PIP process
-2. **Draft your PIP email:** Share the draft email using the [PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) with your People Partner _before_ having a PIP conversation and/or sending an email. Your People Partner will provide feedback on the PIP email.
-3. **Meet with your People Partner**: Once your email is drafted, your People Partner will coach you on [how to lead an effective PIP conversation](https://docs.google.com/document/d/1CqMkLOQfj-0EVs9DK7WUBOCQ0u80ffDRMVnt_bZxH_s/edit).
-4. **Have the PIP conversation**: Schedule and conduct the PIP meeting. Your People Partner must be in attendance.
-5. **Contact your People Partner:** Provide an update on how the conversation went after it has taken place.
-6. **Send a follow up email:** Once the PIP conversation is complete, you will send your follow up email that you drafted in step #2 above using the [follow-up PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) within 24-hours of the conversation. Please always CC [people-ops@sourcegraph.com](mailto:?cc=people-ops@sourcegraph.com).
-7. **Ongoing meetings:** Have regular (weekly or bi-weekly depending on PIP length) progress meetings or check-ins with the underperforming Teammate for the duration of the PIP.
+| Process Step No. | Process Step                      | Step Description                                                                                                       | Resources                                                                                                   |
+| :--------------: | :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+|        1         | Draft PIP                         | Working with the People team, Managers will develop a PIP                                                              | [Link to Template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit)    |
+|        2         | Communicate PIP to teammate       | The Manager, Teammate, and People Partner will meet to review the PIP together                                         | [Conversation Script](https://docs.google.com/document/d/1CqMkLOQfj-0EVs9DK7WUBOCQ0u80ffDRMVnt_bZxH_s/edit) |
+|        3         | Send PIP email to teammate        | The Manager will send the Teammate (cc-ing their People Partner) a copy of the PIP within 24 hours of the conversation | [Link to Template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit)    |
+|        4         | Regular documentation during 1:1s | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates.             | [Link to Template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit)    |
+|        5         | Conclusion of PIP                 | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.                    | None.                                                                                                       |
+
+You can read more about each step of the PIP process below:
+
+1. **Draft your PIP email:** Share the draft email using the [PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) with your People Partner _before_ having a PIP conversation and/or sending an email. Your People Partner will provide feedback on the PIP email.
+2. **Have the PIP conversation**: Schedule and conduct the PIP meeting. Your People Partner must be in attendance.
+   - [Here is a script on how to lead an effective PIP conversation](https://docs.google.com/document/d/1CqMkLOQfj-0EVs9DK7WUBOCQ0u80ffDRMVnt_bZxH_s/edit).
+3. **Send a follow up email:** Once the PIP conversation is complete, you will send your follow up email that you drafted in step #1 above using the [follow-up PIP email template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit) within 24-hours of the conversation. Please always CC [people-partners@sourcegraph.com](mailto:?cc=people-partners@sourcegraph.com).
+4. **Ongoing meetings:** Have regular (weekly or bi-weekly depending on PIP length) progress meetings or check-ins with the underperforming Teammate for the duration of the PIP.
    - **Required:** Managers are required to provide a weekly PIP update after their 1:1 to their Teammate by using the [PIP update template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit). This is expected to be sent weekly for the duration of the PIP process.
-8. **Concluding the PIP:** There are two outcomes of a PIP:
+5. **Concluding the PIP:** There are two outcomes of a PIP:
    - If the Teammate passes a PIP, they will be notified in person and in writing via email of successful completion.
    - If the Teammate’s performance does not improve to the necessary level, the Manager will work with their People Partner to part ways amicably.
 
