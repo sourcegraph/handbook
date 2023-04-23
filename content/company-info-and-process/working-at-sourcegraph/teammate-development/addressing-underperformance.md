@@ -96,13 +96,13 @@ Although each circumstance is unique, the typical PIP process lasts for 4 weeks 
 
 The PIP process is as follows:
 
-| Process Step No. | Process Step                           | Step Description                                                                                           | Resources                                                                                                   |
-| :--------------: | :------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-|        1         | Draft PIP                  | Working with the People team, Managers will develop a PIP                          | [Link to Template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit)    |
-|        2         | Communicate PIP to teammate           | The Manager, Teammate, and People Partner will meet to review the PIP together                                    | [Conversation Script](https://docs.google.com/document/d/1CqMkLOQfj-0EVs9DK7WUBOCQ0u80ffDRMVnt_bZxH_s/edit) |
-|        3         | Send PIP email to teammate | The Manager will send the Teammate (cc-ing their People Partner) a copy of the PIP within 24 hours of the conversation            | [Link to Template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit)    |
-|        4         | Regular documentation during 1:1s      | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates. | [Link to Template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit)    |
-|        5         | Conclusion of PIP            | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.        | None.                                                                                                       |
+| Process Step No. | Process Step                      | Step Description                                                                                                       | Resources                                                                                                   |
+| :--------------: | :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+|        1         | Draft PIP                         | Working with the People team, Managers will develop a PIP                                                              | [Link to Template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit)    |
+|        2         | Communicate PIP to teammate       | The Manager, Teammate, and People Partner will meet to review the PIP together                                         | [Conversation Script](https://docs.google.com/document/d/1CqMkLOQfj-0EVs9DK7WUBOCQ0u80ffDRMVnt_bZxH_s/edit) |
+|        3         | Send PIP email to teammate        | The Manager will send the Teammate (cc-ing their People Partner) a copy of the PIP within 24 hours of the conversation | [Link to Template](https://docs.google.com/document/d/1Tmld2qhXSb5CehUjqvcGnFc0LRQ-g0zzFjCLA8VF0x4/edit)    |
+|        4         | Regular documentation during 1:1s | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates.             | [Link to Template](https://docs.google.com/document/d/1HA2dL3ECXr1gM2N4958-FtprnBDX1Fo9vebtukKP-fA/edit)    |
+|        5         | Conclusion of PIP                 | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.                    | None.                                                                                                       |
 
 You can read more about each step of the PIP process below:
 
