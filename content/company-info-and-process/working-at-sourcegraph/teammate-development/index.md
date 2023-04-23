@@ -50,6 +50,8 @@ We expect our Managers to provide ongoing, continuous feedback in the following 
 
 The follow describes our expectations for how Managers champion a culture of continuous feedback:
 
+![Direct Communication Expectations](https://user-images.githubusercontent.com/7228359/233812769-d5e9ef06-4a6e-4a98-bea0-05840f303f86.jpg)
+
 #### Regular 1:1s
 
 We **expect Managers** to host regular, recurring 1:1s with their team. 1:1s are a great forum tp facilitate ongoing, direct communication, engagement, and trust-building between Managers and their direct reports. We highly recommend that Managers meet with their direct reports either weekly or bi-weekly.
