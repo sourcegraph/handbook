@@ -1,4 +1,4 @@
-# High Performance Culture & Teammate Development at Sourcegraph
+# High Performance Culture & Teammate Development
 
 The purpose of this Handbook Page is to provide Managers and Teammates with the resources needed to foster a high performing culture at Sourcegraph. We believe that our team thrives when we have a high bar for excellence, and when all Teammates receive feedback early and often.
 
@@ -10,7 +10,7 @@ Our Teammates should understand what's expected of them, have the resources nece
 
 ## Why is a high performance culture important?
 
-Members of high-performing teams share a mutual purpose, are goal-oriented, collaborative with stromg teamwork and partnership, and are hyper-focused on achieving clear, outstanding results. Being surrounded by high-performers makes all of us better. We want to give Managers and Teammates resources to build a high-performing team.
+Members of high-performing teams share a mutual purpose, are goal-oriented, collaborative through strong teamwork and partnership, and are hyper-focused on achieving clear, outstanding results. Being surrounded by high-performers makes all of us better. We want to give Managers and Teammates resources to build a high-performing team.
 
 We **hold our Managers accountable** to foster high-performing teams by giving clear feedback early and often, and providing explicit direction on what is expected of Teammates in their role.
 
@@ -36,7 +36,7 @@ At Sourcegraph, we have a formal performance (impact) review process that takes 
 
 The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers.
 
-Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
+Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 
 #### Ongoing feedback
 
@@ -46,13 +46,13 @@ We expect our Managers to provide ongoing, continuous feedback in the following 
 2. [Regular 1:1s](#regular-11s)
 3. [Quarterly career development conversations](#quarterly-career-development-conversations)
 
-#### Direct communication
+##### Direct communication
 
 The follow describes our expectations for how Managers champion a culture of continuous feedback:
 
 ![Direct Communication Expectations](https://user-images.githubusercontent.com/7228359/233812769-d5e9ef06-4a6e-4a98-bea0-05840f303f86.jpg)
 
-#### Regular 1:1s
+##### Regular 1:1s
 
 We **expect Managers** to host regular, recurring 1:1s with their team. 1:1s are a great forum tp facilitate ongoing, direct communication, engagement, and trust-building between Managers and their direct reports. We highly recommend that Managers meet with their direct reports either weekly or bi-weekly.
 
@@ -68,7 +68,7 @@ We expect Managers to cover the following topics during 1:1s:
 
 Read more about [how to lead an effective 1:1 at Sourcegraph](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit).
 
-#### Quarterly career-development conversations
+##### Quarterly career-development conversations
 
 Managers should designate at least one conversation per quarter that includes intentional focus time to discuss Teammate career growth. Creating intentional time for forward-looking conversations helps Teammates explore their careers on their own terms, and engage with their Manager in identifying opportunities to grow, learn, and be curious within our own organization.
 
@@ -76,9 +76,9 @@ Learn more about [how to lead effective career conversations at Sourcegraph](htt
 
 ## Addressing Underperformance
 
-In sitations of underperformance, which may be identified during ongoing feedack or formal impact reviews, Managers should consult with their People Partner and follow [this guidance for addressing underperformance](addressing-underperformance.md).
+In situations of underperformance, which may be identified during ongoing feedback or formal impact reviews, Managers should consult with their People Partner and follow [this guidance for addressing underperformance](addressing-underperformance.md).
 
-The following are best practice intended to help both Managers and Teammates navigate performance issues:
+The following are best practice intended to help both Managers and Teammates navigate performance concerns early on:
 
 - Have difficult conversations early to avoid a lag in addressing performance concerns.
 - Be direct and have specific, concrete examples to share with the Teammate while communicating clear expectations.
