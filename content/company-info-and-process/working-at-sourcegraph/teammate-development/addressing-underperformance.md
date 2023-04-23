@@ -6,6 +6,8 @@ We want all Teammates to succeed at Sourcegraph and will provide them with every
 
 Although every circumstance is different, and some circumstances may warrant handling a particular situation in a unique way, the standard process to manage underperformance is as follows:
 
+![Underperformance Process](https://user-images.githubusercontent.com/7228359/233812766-3584c5ee-cea8-4baa-844e-0e10d6c2b7c6.jpg)
+
 Each step of the process is detailed below:
 
 1. [Ongoing Feedback](index.md#ongoing-feedback)
