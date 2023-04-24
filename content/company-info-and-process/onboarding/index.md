@@ -28,6 +28,7 @@ There 5 tasks new hires must complete within 48 hours of signing your offer lett
 
 - **Fill out your BambooHR profile**. You will receive an email from BambooHR titled “Welcome to Sourcegraph” prompting you to complete your profile information. This ensures our People Team will have everything ready for your first day!
 - **Upload a photo of yourself to your Bamboo profile.** We will use this photo to create an Avatar for your Sourcegraph accounts, like Slack. Please submit a color image that is not blurry or pixelated (selfies work great!) Please upload the photo directly to this task using the attachment feature.
+- **Complete your background check.** You will receive an email from Checkr to complete a background check. Please provide all the required information as soon as possible to ensure the background check results are returned prior to your first day, which is a requirement to start.
 - **Place an order for your Sourcegraph computer** immediately after signing your contract. You can find instructions [here](../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).
   - FYI, our Tech Ops team will create your work email using our standard naming convention: "PreferredFirstName.PreferredLastName@sourcegraph.com". You can read more about this [here](../../departments/people-talent/email-changes.md#sts=Email%20Changes).
 - **Make your welcome video.** We have a company meeting every other week, during which we introduce our new hires via a video! In the next 48-hours, please record and submit a ~30 second video (recorded horizontally), you can find details [here](../working-at-sourcegraph/before-start.md#-make-your-welcome-video). Please submit the final version using this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfH6DQORMhFO7CLzqYaOCSFKE79QAdSW_Sr1WLzk4hhtpCFpw/viewform?usp=sf_link).
@@ -112,13 +113,10 @@ Onboarding format and presentation - Survey questions:
 
 Many teams also have their own team specific onboarding pages that are important to review, such as:
 
-- Customer Engineering Onboarding
-- Customer Support Onboarding
-- Engineering Onboarding
-- Security Onboarding
-- Talent Onboarding
-- Product Onboarding
-- Designer Onboarding
-- People Onboarding
-- Sales Onboarding
-  ^COMING SOON!
+- [Customer Engineering Onboarding](../../departments/technical-success/ce/onboarding/index.md)
+- [Customer Support Onboarding](../../departments/technical-success/support/onboarding/index.md)
+- [Engineering Onboarding](../../departments/engineering/dev/onboarding/index.md)
+- [Security Onboarding](../../departments/security/security-onboarding.md#security-onboarding)
+- [People & Talent Onboarding](../../departments/people-talent/onboarding/index.md)
+- [Product Onboarding](../../departments/engineering/product/onboarding/index.md)
+- [Sales Onboarding](../../departments/sales/onboarding/index.md#sales-team-onboarding)
