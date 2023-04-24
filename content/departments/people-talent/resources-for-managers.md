@@ -55,7 +55,6 @@
   - [Offers](people-ops/process/compensation-and-leveling/index.md)
   - [Approvals](people-ops/process/compensation-and-leveling/index.md)
 - Performance coaching
-  - [Coaching conversations](people-ops/process/performance-coaching/coaching.md)
   - [Exit interview](../people-talent/people-ops/process/leaving.md#exit-interviews)
     - Lattice
     - Questions we ask live
