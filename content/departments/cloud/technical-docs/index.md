@@ -37,7 +37,7 @@ Sample upgrade:
 
 #### Release process for patch releases
 
-With [bi-weekly patch release schedule](../../engineering/dev/process/releases/index.md#patch-schedule), Cloud Team is using simpliefied release process to ensure Cloud customers can obtain patch as soon as possible.
+With [bi-weekly patch release schedule](../../engineering/dev/process/releases/index.md#patch-schedule), Cloud Team is using simplified release process to ensure Cloud customers can obtain patch as soon as possible.
 
 | Stage | Working days since release | Action                                                                                                                                                                            |
 | ----- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
