@@ -120,4 +120,3 @@ Many teams also have their own team specific onboarding pages that are important
 - [People & Talent Onboarding](../../departments/people-talent/onboarding/index.md)
 - [Product Onboarding](../../departments/engineering/product/onboarding/index.md)
 - [Sales Onboarding](../../departments/sales/onboarding/index.md#sales-team-onboarding)
-
