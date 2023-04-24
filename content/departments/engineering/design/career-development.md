@@ -380,7 +380,7 @@ It’s important to understand that what is listed in the level descriptions are
     <tr>
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
-        <p>Expert: Provides innovative breakthroughs to toughest challenges and acts as a force multiplier for product teams while also increasing design quality and speed of execution. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.</p>
+        <p>Staff designer: Provides innovative breakthroughs to toughest challenges and acts as a force multiplier for product teams while also increasing design quality and speed of execution. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.</p>
         <ul>
           <li>Spanning the engineering team (group level)</li>
           <li>Leads design delivery across the group</li>
