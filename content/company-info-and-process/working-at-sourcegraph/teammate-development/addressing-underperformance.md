@@ -43,12 +43,12 @@ Coaching is an ongoing process, and helping Teammates meet expectations takes ti
 
 #### Formal coaching process
 
-The formal coaching process is as follows. Please note the People Partner needs to be in the conversation when we communicate the coaching plan. 
+The formal coaching process is as follows. Please note the People Partner needs to be in the conversation when we communicate the coaching plan.
 
 | Process Step No. | Process Step                           | Step Description                                                                                           | Resources                                                                                                   |
 | :--------------: | :------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
 |        1         | Develop coaching plan                  | Working with the People team, Managers will develop a comprehensive coaching plan                          | [Link to Template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit)    |
-|        2         | Communicate plan to teammate           | The Manager, Teammate and People Partner will meet to review the coaching plan together                                    | [Conversation Script](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit) |
+|        2         | Communicate plan to teammate           | The Manager, Teammate and People Partner will meet to review the coaching plan together                    | [Conversation Script](https://docs.google.com/document/d/1Qb8CATQUc-Q4nLkiDbfuSC9JSPMDiln2LYa4orhw43Y/edit) |
 |        3         | Send formal coaching email to teammate | The Manager will send the Teammate (cc-ing their People Partner) a copy of the coaching plan               | [Link to Template](https://docs.google.com/document/d/1B2euKoBJAuQclZ0XFV6-iwJnZL8aL_LZ-kxKRZjeISs/edit)    |
 |        4         | Regular documentation during 1:1s      | Weekly, the Manager and Teammate will meet and check-in on progress against the plan, documenting updates. | [Link to Template](https://docs.google.com/document/d/19xepq4RmQ7vTmWUs-q0jLn_PVYPDL5_Ea2613BFD4zY/edit)    |
 |        5         | Conclusion of coaching plan            | The Manager, Teammate, and People Partner will need to discuss the conclusion of the coaching plan.        | None.                                                                                                       |
