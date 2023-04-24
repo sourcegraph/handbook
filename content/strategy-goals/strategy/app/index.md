@@ -2,9 +2,9 @@
 
 ## Quicklinks
 
-- [App FAQ](../../../departments/engineering/teams/app/app.md)
+- [App FAQ](../../../departments/engineering/teams/app/app-faq.md)
 - [Product marketing brief](https://docs.google.com/document/d/1bdpImO3e4kwC65HYU2woDE5tXwNgrjWVEGzcXs1YSoM/edit)
-- [Key metrics and definitions](../../../departments/marketing/growth-marketing/analytics.md)
+- [Key metrics and definitions](../../../departments/engineering/teams/app/analytics.md)
 - [Looker dashboard](https://sourcegraph.looker.com/dashboards/440)
 - [Pricing and packaging](https://docs.google.com/document/d/1KBFzC3HX_eOwq-K1lAE-LND5y6X9xpFY2WzDh84QRmA/edit#heading=h.trqab8y0kufp)
 - [Github board](https://github.com/orgs/sourcegraph/projects/306/views/1)
