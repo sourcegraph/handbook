@@ -25,12 +25,8 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
   - [Typography](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A5452&node-id=366%3A7352&viewport=350%2C579%2C0.05&scaling=contain)
   - [Iconography](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=360%3A6555&node-id=366%3A7377&viewport=423%2C417%2C0.12&scaling=contain)
   - [STARSHIP](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=144%3A2377&node-id=366%3A7380&viewport=244%2C425%2C0.04&scaling=contain)
-  - [Photography (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=54)
   - [Data visualization (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=57)
-- Application
-  - [Social media (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=66)
-  - [Business templates (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=69)
-  - [Branded items (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=79)
+
 
 ## Self-serve assets
 
