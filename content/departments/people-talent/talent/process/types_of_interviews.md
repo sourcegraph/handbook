@@ -60,7 +60,7 @@ All departments are likely to have some or all of the below universal interview 
 ## Networking Meeting
 
 - Interviewer(s): Any Sourcegraph teammate that the candidate would benefit from meeting with.
-- Duration: 30-minutes on average. 
+- Duration: 30-minutes on average.
 - Details: the networking meeting is an optional step in the interview process designed to introduce passive candidates to Sourcegraph. A passive candidate is someone who is not actively seeking new job opportunities but may be open to casually meet with teammates to learn more about the company. During the meeting, introduce yourself and provide an overview of Sourcegraph's product, mission, culture, and values. Ask the candidate about their background, experience, and career aspirations. Listen intently and try to genuinely tie back why the open roles at Sourcegraph would be meaningful to the candidate and their career. Ultimately, the goal of the networking meeting is to establish a relationship with the candidate and answer any questions they have.
 
 ## Resume Deep Dive
