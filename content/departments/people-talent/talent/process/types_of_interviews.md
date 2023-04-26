@@ -59,9 +59,9 @@ All departments are likely to have some or all of the below universal interview 
 
 ## Networking Meeting
 
-- Interviewer(s): Any Sourcegraph teammate that the candidate would benefit from meeting with.
+- Interviewer: Any Sourcegraph teammate that the candidate would benefit from meeting with.
 - Duration: 30-minutes on average.
-- Details: the networking meeting is an optional step in the interview process designed to introduce passive candidates to Sourcegraph. A passive candidate is someone who is not actively seeking new job opportunities but may be open to casually meet with teammates to learn more about the company. During the meeting, introduce yourself and provide an overview of Sourcegraph's product, mission, culture, and values. Ask the candidate about their background, experience, and career aspirations. Listen intently and try to genuinely tie back why the open roles at Sourcegraph would be meaningful to the candidate and their career. Ultimately, the goal of the networking meeting is to establish a relationship with the candidate and answer any questions they have.
+- Details: the networking meeting is an optional step in the interview process designed to introduce passive candidates to Sourcegraph. A passive candidate is someone who is not actively seeking new job opportunities but may be open to casually meet with teammates to learn more about the company. During the meeting, introduce yourself and ask the candidate about their background, experience, career aspirations, and why they were open to a discussion. Listen intently and try to genuinely tie back why Sourcegraph's open roles, product, mission, culture, values, etc. could be meaningful to the candidate and their career. Ultimately, the goal of the networking meeting is to establish a relationship with the candidate and answer any questions they have. If you need clarity around the context of the meeting or any questions that the candidate may ask, please reach out to the [primary recruiter](https://docs.google.com/spreadsheets/d/1HaLmhYEqopD322_97GR172x4E_pvvEGmwXMiWaCwakY/edit#gid=528022648) for the role. 
 
 ## Resume Deep Dive
 
