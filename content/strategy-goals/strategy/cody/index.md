@@ -21,7 +21,6 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years, 
 
 Besides, we're building Cody so that it's modular: customers can plug their own model, tools, and data sources in. This reinforces how deeply integrated Cody is into a customer's stack, and breaks the dependency and lock-up on a single model provider.
 
-
 ## Strategy & plans
 
 ## Next 3 months
