@@ -109,7 +109,7 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 
 **Step 3: Log your medical leave**
 
-- Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO](time-off/index.md#recording-pto".) in Slack (select the Medical Leave category).
+- Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO](time-off/index.md#recording-pto".) in Slack (select the Medical Leave category). Be sure to 'Assign your role' to your Manager.
 
 **Step 4: Create & communicate your out of office plan with your team**
 
