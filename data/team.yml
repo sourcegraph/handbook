@@ -2135,3 +2135,14 @@ anton_sviridov:
   location: London, UK 🇬🇧
   links: '[Blog](https://blog.indoorvivants.com), [Twitter](https://twitter.com/velvetbaldmime)'
   description: 'As a software engineer I peaked in school, developing and running a Harry Potter-esque school of "magic". Since then it has all been downhill with mostly Scala and its various flavours. When not programming I enjoy spending time with my family and not going to the gym'
+
+tim_lucas:
+  name: Tim Lucas
+  email: tim.lucas@sourcegraph.com
+  github: toolmantim
+  pronouns: he/him
+  role: Staff Product Designer
+  reports_to: director_design
+  location: Melbourne, Australia 🇦🇺
+  links: '[@toolmantim](https://mastodon.au/toolmantim), [LinkedIn](https://www.linkedin.com/in/toolmantim), [toolmantim.com](https://toolmantim.com)'
+  description: 'Tim is a designer-slash-developer who loves design, creating open-source software, and building developer tools. Prior to Sourcegraph, he co-founded [Buildkite](https://buildkite.com/). Away from the screen he likes take photos, travel, and head out of Melbourne to rock climb, mountain bike, and spend time with his partner and kids.'
