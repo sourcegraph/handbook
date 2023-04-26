@@ -2,8 +2,6 @@
 
 Welcome to digital marketing at Sourcegraph! We’re thrilled you’ve stumbled upon our humble corner of the handbook. Let us show you around…
 
-In FY23, it’s all about **use cases**. (If this is news to you, [start here first](../../../strategy-goals/strategy/index.md#use-cases), then come back – it’ll make more sense.)
-
 Digital campaigns all start with a project brief to ensure campaign strategy aligns with our overall marketing strategy and [company strategy](../../../strategy-goals/strategy/index.md#this-year-fy23). We have two kinds of campaign brief templates:
 
 - [Project brief template (**_make a copy_**)](https://docs.google.com/document/d/1tu9TcDCsSIIjZnSndThVKPhd4C99YVlhU1MUTEoq8Qo/edit?usp=sharing)

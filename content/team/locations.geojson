@@ -870,6 +870,16 @@
             "type": "Point",
             "coordinates": [139.69048315180066, 35.68977201990178]
           }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tim Lucas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [144.963056, -37.813611]
+            }
         }
     ]
 }

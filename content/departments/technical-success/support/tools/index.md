@@ -43,6 +43,11 @@ There are some test environments created specifically for the CS team to run tes
 
 #### External DNS Sourcegraph Instances
 
+- [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
+- [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
+
+> Note: For the above test instances Oauth based sign-in methods may be subject to change during testing. If you've signed up for an account via Oauth make sure to create a password for use with the builtin sign-in method. You can accomplish this under your user settings at _https://cse-aws-test.sgdev.org/users/$username/settings/security_. This interface is under your user settings.
+
 Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) to the Global settings if you are testing, experimenting or upgrading [cse-k8s](https://cse-k8s.sgdev.org) or [cse-aws-test](https://cse-aws-test.sgdev.org).
 
 ```
@@ -52,9 +57,6 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
         "message": "This instance is down for maintenance."
     },
 ```
-
-- [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
-- [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
 
 #### Local Sourcegraph Instances
 

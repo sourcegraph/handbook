@@ -34,8 +34,6 @@ There is no formal process for creating a working group, but here are a few guid
 - **add the above to a draft charter** to share the outcome, identify participants and roadmap widely. In some cases, writing an RFC first can help determine if the working group is needed.
 - **collect feedback on your charter/RFC** and then kick off the working group.
 
-You can see examples of charters (internal only) for [use cases](https://docs.google.com/document/d/15OatUU6KwkHlX5ZYFIkcw9ijy3HHWnQ-Dg1hcdmbN-8/edit#heading=h.r0xhzyhlvu20) or a more complex example (also internal only) for a [competition working group](https://docs.google.com/document/d/1bdLf6le1Xt_9-6b-MgbtSXyQwvRYf26Lg1MavIihoVk/edit#heading=h.wvia5fk3nk9z).
-
 ### Communication channels
 
 If you decide to go forward with the working group, announce it widely. Set up a dedicated communication channel to make sure that all impacted teams are informed and bought into the initiative, and to ask for frequent input. A **slack channel**, named with a `wg-` prefix, is recommended.

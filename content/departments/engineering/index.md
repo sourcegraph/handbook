@@ -43,7 +43,7 @@ We use [PR-FAQs](./job-fair.md#pr-faqs) to submit roadmap proposals. Once a proj
 - Ship
   - [Delivery](teams/delivery/index.md)
   - [Dev Experience](teams/dev-experience/index.md)
-  - [Growth](teams/growth/index.md)
+  - [App](teams/app/index.md)
 - [Source](teams/source/index.md)
   - [IAM](teams/iam/index.md)
   - [Repo Management](teams/repo-management/index.md)

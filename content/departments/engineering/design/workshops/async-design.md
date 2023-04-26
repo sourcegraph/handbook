@@ -43,7 +43,7 @@ Some people are inspired by working together sync, and may miss having real-time
 
 This is an example of a real agenda that was used using this methodology. We ran two concurrent workshops (we were focused on iterating on use cases) and created two Slack channels to run them. This ended up being a little overcomplicated - a lesson learned was to keep each day as simple and straightforward as possible to encourage participation - but it is here as an example.
 
-> If you’re interested in participating in this workshop, the first step is to choose which use cases you'd like to work on; you can sign up for one or both. You can participate individually, or as a group if you’d like to collaborate with a few others; in that case, you’ll prepare each day as a group and can have live sessions if you like. To join, head over to #workshop-use-case-onboarding #workshop-use-case-code-health (or both).
+> If you’re interested in participating in this workshop, the first step is to choose which use cases you'd like to work on; you can sign up for one or both. You can participate individually, or as a group if you’d like to collaborate with a few others; in that case, you’ll prepare each day as a group and can have live sessions if you like.
 >
 > From there, starting on Monday we’ll have several days of creativity and sharing; there’s a lot of flexibility here, so if you feel stuck and are unsure how to approach the work for the day just reach out in the Slack channel.
 >

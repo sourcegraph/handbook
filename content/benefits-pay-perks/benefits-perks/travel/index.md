@@ -1,4 +1,4 @@
-# Company sponsored travel
+# Company sponsored travel and meetups
 
 Sourcegraph is an [all-remote](../../../company-info-and-process/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other Teammates all around the world.
 

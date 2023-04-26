@@ -12,8 +12,8 @@ Cody is an AI coding assistant that lives in your editor that can find, explain,
 
 There are two ways to use Cody:
 
-- As an individual dev, using Cody with sourcegraph.com. Follow the instructions here. Note that users might want to try Cody using sourcegraph.com on private com, which is possible as long as they agree to our [terms]()
-- As a Sourcegraph Enterprise user, connect Cody to your Sourcegraph Enterprise instance. Instructions are here.
+- As an individual dev, using Cody with sourcegraph.com. Follow the instructions [here](https://docs.sourcegraph.com/cody#cody-on-sourcegraph-com). Note that users might want to try Cody using sourcegraph.com on private com, which is possible as long as they agree to our [terms](https://about.sourcegraph.com/terms/cody-notice).
+- As a Sourcegraph Enterprise user, connect Cody to your Sourcegraph Enterprise instance. Instructions are [here](https://docs.sourcegraph.com/cody#cody-on-your-self-hosted-sourcegraph-enterprise-instance).
 
 > Note: There used to be two distinct VS Code extensions (Cody community and Cody enterprise) but they were merged into a single one.
 
@@ -22,15 +22,15 @@ There are two ways to use Cody:
 To provide responses to requests, Cody does the following:
 
 1. A user asks Cody a question (or to write some code).
-1. Cody fetches code snippets and docs from Sourcegraph related to the user request via OpenAI. (This is accomplished through embeddings which are used to fetch additional context). OpenAI orchestrates this today.
+1. Cody fetches relevant code snippets.
    1. Unlike Copilot, Cody knows about all your company’s private code and fetches snippets directly relevant to you.
    2. Sourcegraph uses a combination of code search, code graph (SCIP), intelligent ranking, and an AI vector database to respond with snippets that are relevant to the user's request.
-   3. If OpenAI embeddings are not on, then a search is ran locally to provide context.
+   3. If OpenAI embeddings are NOT on, then a search is ran locally to provide context.
 1. Sourcegraph passes a selection of these results along with the original question to a Large Language Model like Claude or OpenAI’s ChatGPT.
 1. The Large Language Model uses the contextual info from Sourcegraph to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-![How cody works with embeddings](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-embeddings.png)
+![How cody works with embeddings](https://mermaid.ink/img/pako:eNqFk81u2zAQhF9lwVOL2OhdKNyDjPaiBikE96TLmpxYRCRS5Y9TI8i7d2kZFRwHiI7cb2d2h9SL0t5AVSriT4bT2Fo-BB47R_JNHJLVdmKXaEccaRcRbkt1KdXenAjGJh8IfxNctN7dsm1hW5-DhvhM_S3RFKJpfs6Ve59A_ohAdUXfkXRPAQOOhRy85oHKAhSdnSakSG-72puua96688GeI-jrPnzZ0KcnnJ59MBTBQfcrwriHMdYd4nKU9OcL_gMOgcVuCn6c0lv_ploIxykHmXhgd8h8ALGLz8JcfCU4LRIDkiQ3e8xqu_Vmcyfrd2rrIUMs6VHPR5GZFbbi8WD1kygGsE5nNe_g0rdOzUp1UZJIfmXE4kJ374U4s21hZfyH817_SXZmSey6o5GOtajfv7_nIruuP4DKnOvdB9DVJf_mwZoS8kyolRoRRrZG3vZL4TuVeozoVMnR4JHzkEosr4JyTr49Oa2qFDJWKk9F6vIrqOqRh4jXf0UwEcU?type=png)
 
 ### How does Cody work (locally)?
 
@@ -38,13 +38,9 @@ To provide responses to requests, Cody does the following:
 
 1. A user asks Cody a question (or to write some code).
 1. Cody fetches code snippets from the users’ current workspace.
-1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT.
-1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
+1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT, through the Sourcegraph instance acting as a proxy.
+1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to the Sourcegraph instance, that proxies it back to the editor extension.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
-
-![How cody works with keywords search](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-keywords.png)
-
-([image source](https://app.excalidraw.com/s/4Dr1S6qmmY7/3TiB7SbYTmm))
 
 #### How is Cody different from ChatGPT?
 
@@ -102,6 +98,7 @@ Yes, that’s the type of things Cody can do. Mileage may vary though, and Cody 
 - [Longer demo video](https://drive.google.com/drive/u/0/folders/1C1Tb4I2Jdgfp0ECl_4aBeM7SiOEENSfM)
 - [Cody background info and demo notes from SQS](https://docs.google.com/document/d/1M7F9n4uNjlQOuUley6EubRjOw9D3meKwgFfvd7yHkMA/edit#)
 - [Tips on Demoing an LLM-based application from SQS](https://slack.org/llm-demo-tips)
+- [Transcript of a great demo](https://docs.google.com/document/d/1c5VG1gCbAE8Vtf3ey7CFL5S1RQgX8l2soPyfkjLS9GM)
 
 You can also use this simple demo flow:
 
@@ -135,6 +132,7 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
     - Head to the [anthropic console](https://console.anthropic.com/account/keys)
     - Click “generate key”
     - Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure.
+  - If the customer/prospects wants to setup embeddings, you'll have to generate an OpenAI key for them, using the [OpenAI console](https://platform.openai.com/account/api-keys). Ask in #it-tech-ops if you don't have access.
 - Adoption strategy
   - Cody Enterprise Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure. sending code snippets out to a third party provider, Anthropic.
   - On top of that, and **optionally**, customers can set up OpenAI embeddings to improve the quality of context fed to Cody and the quality of Cody answers. We recommend TAs to ignore embeddings at first when talking to customers, because that requires sending out their entire codebase (or at least all the repos they want to search) to OpenAI.
@@ -214,16 +212,27 @@ Yes, all customer users are able to access Cody
 
 #### How can I communicate which Cody offering is best for my prospects and customers to use?
 
-- The VS Code extension used with sourcegraph.com: allows you to search one local code base at a time + the repo you have embeddings for on .com.
-- [Not yet available] App + Cody: allows you to search everything that you connect to your app instance to (local files and remote repos).
-- Cloud trial / enterprise: allows you to set up embeddings for your entire codebase.
+| The VS Code extension (with sourcegraph.com) | Allows you to search one local code base at a time + the repo you have embeddings for on .com. |
+| (Not yet available) App + Cody | Allows you to search everything that you connect to your app instance to (local files and remote repos). |
+| Cloud trial / enterprise | Allows you to set up embeddings for your entire codebase. |
 
 #### Do we log Cody queries, in a way that either our customer support team or their site admins can read user queries?
 
 - On sourcegraph.com, we may log queries in order to provide the service and to improve the product.
 - On Sourcegraph Enterprise, we don’t log cody queries.
 
+#### What does it technically mean to use Cody+Sourcegraph.com on private code? Does that mean you are pasting a private code snippet into a query? Or is it possible that Cody will send/log private code if you simply have it open in your editor when you submit a query?
+
+No, it means using sourcegraph.com as the backend for the VS Code extension (see docs).
+Cody will 100% send private code out (to Anthropic).
+We reserve the right to log all private code in that setup (when connected to .com), but do a best effort not to log private code. No guarantees, however, and our terms allow us to log it all in that case (see terms). If you want enterprise-friendly terms get a Sourcegraph Enterprise instance!
+
 ## The future
+
+Quick links:
+
+- [Cody strategy](../../../../strategy-goals/strategy/cody/index.md)
+- [Roadmap deck](https://www.golinks.io/customer-facing-roadmap)
 
 #### Is search going to be replaced by embedding search?
 
@@ -299,10 +308,11 @@ See this [thread](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1679514141
 
 #### Which Cody offering is best for my prospects and customers to use?
 
-|                 | **Have executors setup**                                 | **Don't have executors setup**                                                |
-| --------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| **MI**          | Run batch spec button on top. Download for src-cli below | Download for src-cli below                                                    |
-| **Self-hosted** | Run batch spec button on top. Download for src-cli below | Download for src-cli on top. Run batch spec below, that opens SSBC info modal |
+| Distribution model                           | Benefit                                                                                                  |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| The VS Code extension (with sourcegraph.com) | Allows you to search one local code base at a time + the repo you have embeddings for on .com.           |
+| (Not yet available) App + Cody               | Allows you to search everything that you connect to your app instance to (local files and remote repos). |
+| Cloud trial / enterprise                     | Allows you to set up embeddings for your entire codebase.                                                |
 
 #### When should we position Cody to create pipeline?
 

@@ -49,10 +49,40 @@ Mentors and/or directly manages SDR1-2s and brings new ideas and approaches to t
    <td><strong>Promotion Eligibility</strong>
    </td>
    <td>100% quota attainment over the 6 month period reviewed.
+<p>
+Promotion eligibility will be reviewed bi-annually:
+<p>
+- February 1st (review period is August through January)
+<p>
+- August 1st (review period is February through July)
+<p>
+Promotion is not dependent on the impact review process timeline, meaning promotions will be effective on February 1st or August 1st for those that are eligible.
+<p>
+Reps who receive a 3 over the prior review period will have to show meaningful improvement in displaying sales foundation skills and/or values alignment during the current review period in order to be considered for promotion.
    </td>
    <td>100% quota attainment over the 6 month period reviewed.
+<p>
+Promotion eligibility will be reviewed bi-annually:
+<p>
+- February 1st (review period is August through January)
+<p>
+- August 1st (review period is February through July)
+<p>
+Promotion is not dependent on the impact review process timeline, meaning promotions will be effective on February 1st or August 1st for those that are eligible.
+<p>
+Reps who receive a 3 over the prior review period will have to show meaningful improvement in displaying sales foundation skills and/or values alignment during the current review period in order to be considered for promotion.
    </td>
    <td>100% quota attainment over the 6 month period reviewed.
+<p>
+Promotion eligibility will be reviewed bi-annually:
+<p>
+- February 1st (review period is August through January)
+<p>
+- August 1st (review period is February through July)
+<p>
+Promotion is not dependent on the impact review process timeline, meaning promotions will be effective on February 1st or August 1st for those that are eligible.
+<p>
+Reps who receive a 3 over the prior review period will have to show meaningful improvement in displaying sales foundation skills and/or values alignment during the current review period in order to be considered for promotion.
    </td>
   </tr>
   <tr>
@@ -115,8 +145,28 @@ Expert in majority of competencies. Generates high quality ideas for streamlinin
    <td><strong>Promotion Eligibility</strong>
    </td>
    <td>100% quota attainment over the 6 month period reviewed.
+<p>
+Promotion eligibility will be reviewed bi-annually:
+<p>
+- February 1st (review period is August through January)
+<p>
+- August 1st (review period is February through July)
+<p>
+Promotion is not dependent on the impact review process timeline, meaning promotions will be effective on February 1st or August 1st for those that are eligible.
+<p>
+Reps who receive a 3 over the prior review period will have to show meaningful improvement in displaying sales foundation skills and/or values alignment during the current review period in order to be considered for promotion.
    </td>
    <td>100% quota attainment over the 6 month period reviewed.
+<p>
+Promotion eligibility will be reviewed bi-annually:
+<p>
+- February 1st (review period is August through January)
+<p>
+- August 1st (review period is February through July)
+<p>
+Promotion is not dependent on the impact review process timeline, meaning promotions will be effective on February 1st or August 1st for those that are eligible.
+<p>
+Reps who receive a 3 over the prior review period will have to show meaningful improvement in displaying sales foundation skills and/or values alignment during the current review period in order to be considered for promotion.
    </td>
    <td>
    </td>

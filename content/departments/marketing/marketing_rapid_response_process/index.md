@@ -19,7 +19,7 @@ While each response will be a custom plan, the rapid response team may include t
 ## Owners
 
 - Communications & Social: Amie Rotherham
-- PMM: Alex Isken and Victoria Yunger
+- PMM: Alex Isken
 - Product: Quinn Slack
 - Community: Justin Dorfman
 - Customer Engineering: Aimee Menne

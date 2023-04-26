@@ -14,24 +14,48 @@ To read more about how we provide continuous feedback and our performance improv
 
 Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
 
-### When do they take place & who is eligible?
-
-Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
+### Who is eligible for a review / compensation increase?
 
 To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
 
-- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting and/or exceeding expectations.
-- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year** if they are scored "Meeting High Bar" or below.
-- Teammates can also receive an increase if they have fallen below the 75th percentile of their respective compensation band.
+- On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
+- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year**
+- Teammates who recieve a 3 are not eligible for a compensation increase.
+- Teammates can also receive a compensation increase if they have fallen below the 75th percentile of their respective compensation band.
+
+### When do impact reviews take place?
+
+Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
 
 - **1st review period of the year: 1H FY24**
-  - Launches February (corresponding promotion and/or pay increase goes into effect April 1st).
+  - Launches at the end of January (corresponding promotion and/or pay increase goes into effect March 1st).
   - This review period reviews a teammates performance between August 1st to January 31st.
-  - **Who is eligible:** Must be hired on or before October 1st, 2022.
+  - **Who is eligible:** Must be hired on or before October 1st.
 - **2nd review period of the year: 2H FY24**
-  - Launches August (corresponding promotion and/or pay increase goes into effect October 1st).
+  - Launches at the end of July (corresponding promotion and/or pay increase goes into effect September 1st).
   - This review period reviews a teammates performance between February 1st and July 31st.
-  - **Who is eligible:** Must be hired on or before April 1st, 2023.
+  - **Who is eligible:** Must be hired on or before April 1st.
+
+### Impact Review Schedule - 2H FY24 review
+
+**2H FY24 Review Process Schedule**
+(Review Period: August 1st to January 31st)
+
+- [Reviewer selection](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit): 2023-07-17 to 2023-07-25
+- Review writing for ICs: July 26 - Aug 8th
+- Review writing for Managers: July 26 - Aug 11th
+- Calibrations: Aug 14 - 18th
+- People team week (to finalize increases): Aug 21 - 25th
+- Review delivery period: Aug 28 - Sept 8th
+- All compensation increases and/or promotions effective Sept 1st
+
+## **Enablement Schedule**
+
+- 1x weekly open office hours with the People Team.
+  - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
+- [Writing great reviews](#writing-effective-feedback--self-reviews): example reviews for each category
+- [Writing reviews workshop](https://drive.google.com/file/d/1y0Vx3lzSZRXvteYYJmvmSo64j4QEbVZ5/view?usp=sharing)
+- [Calibration live training](https://drive.google.com/file/d/1ErYZm3LsK1GEV9tSog4iMUA59D1Hjmld/view?usp=sharing)
 
 ### Who provides feedback?
 
@@ -47,7 +71,7 @@ Reviews a Teammate receives:
 - **Peer review:** you will select and receive reviews from 2 Peers who can speak to your contributions and values alignment.
 - **Manager review:** your Manager will reflect on your contribution to your team, including how you’ve made an impact and embodied our values.
 
-### What we do with Impact Review feedback
+### What we do with impact review feedback
 
 Results from the semi-annual impact review process support the growth and development of our Teammates in the following ways:
 
@@ -59,30 +83,6 @@ Results from the semi-annual impact review process support the growth and develo
 
 - [Compensation philosophy](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
-
-## Impact Review Schedule - FY24
-
-**FEBRUARY FY24 Review Process Schedule** (9 weeks total)
-(Review Period: August 1st to January 31st)
-
-- **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
-  - All Teams: 2023-02-01 to 2023-02-11 (1.5 weeks)
-- **Phase 2: Self, Peer, & Upward Review Writing, Manager Review Writing**
-  - All ICs: 2023-02-08 to 2023-03-29 (7 weeks) - We added 3 extra weeks for buffer because we know this is a busy time!
-  - All Managers 2023-02-08 to 2023-03-31 - We added 2 days to accommodate the IC extension!
-- **Phase 3: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and merit increases)
-  - All Teams: 2023-04-03 to 2023-04-07 (1 week)
-- **Phase 4: Impact Review Cycle Ends**
-  - All Teams: Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-10 through 2023-04-26; Compensation changes will be backdated to 2023-04-01 and all teammates will see compensation adjustments reflected in the 2023-04-30 pay period.
-
-## **Enablement Schedule**
-
-- Weekly starting Feb 1: 2x weekly open Office Hours with the People Team.
-  - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
-- Feb 1 2023: Handbook Update - Writing great reviews: example reviews for each category.
-- February 16 2023 - Writing reviews workshop
-- March 21/23 2023 - Calibration live training.
-- April 7 2023 - Delivering feedback live training.
 
 ## Impact Review process
 
@@ -163,7 +163,7 @@ Lattice resources:
 
 In addition to asking the above questions during the Impact Review process, we also ask our Managers to submit a Talent Assessment score in alignment with our **9-box guidance.**
 
-![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/9-box.png)
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
@@ -333,11 +333,12 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 
 #### Score definition: 3:2 (values:skills)
 
-- **TL;DR:** teammates who receive a score with a 3 in values and a 2 in skill are eligible for immediate performance management and/or a PIP. Despite the fact that their performance meets expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
+- **TL;DR:** teammates who receive a score with a 3 in values and a 2 in skill have concrete growth areas that they need to improve upon. Despite the fact that their performance meets expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate consistently exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
+    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
     - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong. We have zero tolerance for this behavior.
   - Skills (2):
     - This teammate’s contributions consistently meet (and sometimes exceed) expectations for their current level.
@@ -353,16 +354,17 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 
 #### Score definition:3:1 (values:skills)
 
-- **TL;DR:** teammates who receive a score with a 3 in values and a 1 in skill are eligible for immediate performance management and/or a PIP. Despite the fact that their performance exceeds expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
+- **TL;DR:** teammates who receive a score with a 3 in values and a 1 in skill have concrete growth areas that they need to improve upon. Despite the fact that their performance exceeds expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate consistently exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate regularly violates company policies or industry regulations, potentially putting the company at risk of legal or reputational harm.
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
+    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
+    - This teammate violates company policies or industry regulations, potentially putting the company at risk of legal or reputational harm.
     - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong.
     - This teammate fails to uphold the company's standards of diversity, equity, and inclusion, such as by exhibiting bias or exclusionary behavior towards certain groups of people.
   - Skill (1):
-    - This teammate’s skills exceed expectations of their current level, but their values misalignment is negatively affecting their team and/or customers, inhibiting their ability to perform at their current level. Values misalignment is not tolerated and must be turned around immediately.
+    - This teammate’s skills exceed expectations of their current level, but their values misalignment is negatively affecting their team and/or customers, inhibiting their ability to perform at their current level.
     - This teammate’s contributions consistently raise the high bar set for individuals at the level.
     - The impact of their work is felt beyond their immediate team and/or department.
     - Being a subject matter expert in their area of work and providing valuable insights to the team.
@@ -381,11 +383,12 @@ _Expected distribution: during a review cycle, ~10% of Teammates will fall in th
 - **Examples:**
   - Values (3):
     - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate consistently exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong. We have zero tolerance for this behavior.
+    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
+    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
+    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination. We have zero tolerance for this behavior.
   - Skill (3):
     - This teammate’s skills are below expectations and are inhibiting their ability to perform at their current level. They need to work with their manager immediately to improve their skillset. Their values adherence meet or exceed expectations.
-    - Skill inconsistency: this teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results. Their values adherence meet or exceed expectations.
+    - Skill inconsistency: this teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results.
     - Consistently missing deadlines or failing to deliver work of an acceptable quality.
     - Displaying a lack of accountability for their actions and not taking responsibility for mistakes or errors.
     - Failing to collaborate effectively with colleagues or contributing to a negative team environment.

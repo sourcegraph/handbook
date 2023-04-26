@@ -216,6 +216,10 @@ mi2 instance check pods-health
 kubectl rollout restart deployments/sourcegraph-frontend
 ```
 
+### FAQ: Do you support custom domain?
+
+Yes. Learn more about [custom domain support](./technical-docs/custom_domain.md).
+
 ### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
 
 Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces).
@@ -274,7 +278,7 @@ Read through our [Cloud Cost Policy](cloud-cost.md)
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
-Future work in this area is owned by [Analytics team](../data-analytics/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+Future work in this area is owned by [Analytics team](../data-analytics/index.md).
 
 ### FAQ: How to list trial, production or internal instances?
 
