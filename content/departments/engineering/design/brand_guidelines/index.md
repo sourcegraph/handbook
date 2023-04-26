@@ -27,7 +27,6 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
   - [STARSHIP](https://www.figma.com/proto/FgyGEwbhLuXgIKOh3If74s/Brand-Guidelines?page-id=144%3A2377&node-id=366%3A7380&viewport=244%2C425%2C0.04&scaling=contain)
   - [Data visualization (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=57)
 
-
 ## Self-serve assets
 
 - [Logo files](https://www.figma.com/file/522fTKlS2R6fzzs9EGNvpk/Logos?node-id=0%3A1)
