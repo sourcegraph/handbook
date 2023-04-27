@@ -51,11 +51,13 @@ You’ll meet 1:1 with each of your direct reports to deliver the results of our
 During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
-2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. 
-  - Guidance for sharing review packet based on rating:
-    - For **meeting and exceeding**: You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
-    - For **not meeting (3s)**: Walk through the feedback live and share the packet afterwards.
-  - Whatever you do, if you share your screen, please make sure you are sharing the teammate version (do not share the manager version).
+2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**.
+
+- Guidance for sharing review packet based on rating:
+  - For **meeting and exceeding**: You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
+  - For **not meeting (3s)**: Walk through the feedback live and share the packet afterwards.
+- Whatever you do, if you share your screen, please make sure you are sharing the teammate version (do not share the manager version).
+
 3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
