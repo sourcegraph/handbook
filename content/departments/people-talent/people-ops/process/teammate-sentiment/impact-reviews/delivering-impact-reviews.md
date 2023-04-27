@@ -35,14 +35,14 @@ All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Im
 
 6. Review [Manager Guide: Delivering Performance Feedback and Having Difficult Conversations](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit?usp=sharing)
 7. Review the [Manager FAQ,](#faq) where we’ve tried to anticipate any and all questions you may receive from a Teammate
+8. Prepare talking points for your 1-1 
+  - Each review conversation will be different, and we expect all Managers to spend time in advance of the 1:1 preparing for the conversation. The written impact review will support the conversation, but thinking through these questions in advance will help you arrive prepared for an impactful discussion.
+  
+    - What questions do you anticipate each Teammate might bring?
+    - What accomplishments do you want to be sure to highlight?
+    - How will you share growth opportunities clearly and in a way that is actionable?
 
-Please remember - our Teammates are all unique - and they are what makes Sourcegraph unique! Consider key messages about each Teammate’s performance you want to impart during the review meeting.
-
-- What questions do you anticipate each Teammate might bring?
-- What accomplishments do you want to be sure to highlight?
-- How will you share growth opportunities clearly and in a way that is actionable?
-
-The written impact review will support the conversation, but thinking through these questions in advance will help you arrive prepared for an impactful discussion.
+- For more on giving feedback to your direct reports in a clear, concise way, check out our page on [Teammate Development](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
 ## Delivering the impact review
 
@@ -92,11 +92,7 @@ It’s not uncommon for questions to arise as you deliver the impact review to T
 
 Feedback and career growth [conversations are ongoing](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), and not limited to our twice-yearly impact review cycles. We expect all Managers to provide continuous feedback, so incorporating feedback given and received during an impact review into regular 1:1s presents a great opportunity to support Teammates making meaningful contributions to the Sourcegraph team, and to intentionally invest in their career development.
 
-### Talking points for your 1:1
-
-Each review conversation will be different, and we expect all Managers to spend time in advance of the 1:1 preparing for the conversation.Consider how you will approach each conversation in advance - you may want to write a few bullet points leading up to the conversation to help you prepare.
-
-For more on giving feedback to your direct reports in a clear, concise way, check out our page on [Teammate Development](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
+# Additional resources 
 
 ## Overview of our impact review process
 
