@@ -32,9 +32,9 @@ Please post in #wg-fy24-cody-spiffs if you want to request credit for a Cody bon
 
 To request a credit, please share:
 
-Customer name
-Link to the Salesforce opportunity (if you have access to Salesforce, we can find it if not)
-Link to the post in #progress where the deal closing and IARR was announced
-Short description of your role/impact
+- Customer name
+- Link to the Salesforce opportunity (if you have access to Salesforce, we can find it if not)
+- Link to the post in #progress where the deal closing and IARR was announced
+- Short description of your role/impact
 
 Bonus tracker (limited access): [Cody Bonus Tracker](https://docs.google.com/spreadsheets/d/1KqxbJdRQxw8k9zACjqGPuLZk3a0dyFqsq6At-9TBMFg/edit#gid=0)
