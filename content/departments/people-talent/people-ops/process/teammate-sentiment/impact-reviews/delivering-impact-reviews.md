@@ -30,8 +30,8 @@ All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Im
 
 - Here are [instructions](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks) on how to access the Teammate review packet
 
-4. Review the promo/merit letter, if applicable, to ensure accuracy before sharing. Make sure the compensation is correct! Reach out to your People Partner if you have any access issues or notice any errors.
-5. Review the equity refresh letter, if applicable, to ensure accuracy before sharing. Reach out to your People Partner if you have any access issues or notice any errors.
+4. Review the promo/merit letter, if applicable, to ensure accuracy before sharing. Make sure the compensation is correct! Reach out to [your People Partner](../../../../teamalignment.md). if you have any access issues or notice any errors.
+5. Review the equity refresh letter, if applicable, to ensure accuracy before sharing. Reach out to [your People Partner](../../../../teamalignment.md). if you have any access issues or notice any errors.
 
 6. Review [Manager Guide: Delivering Performance Feedback and Having Difficult Conversations](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit?usp=sharing)
 7. Review the [Manager FAQ,](#faq) where we’ve tried to anticipate any and all questions you may receive from a Teammate
@@ -51,7 +51,11 @@ You’ll meet 1:1 with each of your direct reports to deliver the results of our
 During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
-2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
+2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. 
+  - Guidance for sharing review packet based on rating:
+    - For **meeting and exceeding**: You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
+    - For **not meeting (3s)**: Walk through the feedback live and share the packet afterwards.
+  - Whatever you do, if you share your screen, please make sure you are sharing the teammate version (do not share the manager version).
 3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
@@ -70,7 +74,7 @@ Immediately following the 1:1, please:
 1. [Share the impact review packet](https://help.lattice.com/hc/en-us/articles/360061983593-Share-Your-Team-s-Review-Packets-With-Summary-Remarks) with the Teammate in Lattice
 2. Follow up via Slack message to the Teammate and your People Partner informing them that you've shared the review packet and also **share promo/compensation letters**, if applicable.
 
-- The People Team will send each manager a folder in Google Drive with their team's merit letters. It is **very important** than you review each one for accuracy before sending to the teammate.
+- The People Team will send each manager a folder in Google Drive with their team's merit letters. It is **very important** that you review each one for accuracy before sending to the teammate.
   1.  Sample Slack message for “Meeting or Exceeding High Bar” Teammates:
       > “Hi [Teammate name] - thank you for meeting with me today to go over your impact review. [Add optional specifics for great work.]
       > I’ve shared your impact review packet with you in Lattice [_and, if applicable_ - and am also sharing here a letter outlining your compensation change].
