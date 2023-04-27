@@ -38,6 +38,7 @@ Besides, we're building Cody so that it's modular: customers can plug their own 
 - **Prove out IDE extension usage**
   - We're going to expriment with a set of editor extensions in parallel. We will iterate fast on several IDEs at the same time, and we won't try to create a unitifed experience. Intead, we will iterate on each extension independently to find the UX that works, then ultimately bring learnings back in. Also see this [doc](https://docs.google.com/document/d/1szCZ0D1YH3hj5fIYj4SrhomVl7AQKlX4IUkHQcZUmkM#heading=h.v8dqtp19rsmr).
   - So far, we've started with VS Code ([Amplitude](https://analytics.amplitude.com/sourcegraph/dashboard/4n7yl67))
+  - Cody will be extensible, and users can add their own recipes and plugins to make Cody even more powerful and deeply integrated into their workflow ([doc](https://docs.google.com/document/d/1TrBbCxpLNxIupeUIb9aOTMNgOyDIgK7Uc7ooP-DGmgg/edit#)).
   - Features will likely include:
     - [Autocomplete](https://docs.google.com/document/d/12eO60kiaGwhjZr1Z3Ny-4GBfHXZJUWHhgu9op0QDOUY)
     - Adding more recipes, and/or allowing customers to define their own
