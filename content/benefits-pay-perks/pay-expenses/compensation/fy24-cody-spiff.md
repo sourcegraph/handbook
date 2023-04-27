@@ -8,7 +8,7 @@ Every Cody-driven deal that closes (at least Enterprise Starter pricing and at a
 
 ## AEs + TAs: Expansion
 
-Any customer where we see usage increases that would cause an IARR expansion that is clearly attributable to Cody usage is eligible for a bonus of $1k to $4k per AE and TA. The bonus will be calculated on a sliding scale, based on the size of the expansion: $1k + [size of expansion] * 15%, up to a maximum bonus of $4k per person.
+Any customer where we see usage increases that would cause an IARR expansion that is clearly attributable to Cody usage is eligible for a bonus of $1k to $4k per AE and TA. The bonus will be calculated on a sliding scale, based on the size of the expansion: $1k + [size of expansion] \* 15%, up to a maximum bonus of $4k per person.
 
 ## SDRs: New business
 
