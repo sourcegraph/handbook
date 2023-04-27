@@ -51,13 +51,11 @@ You’ll meet 1:1 with each of your direct reports to deliver the results of our
 During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
-2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**.
-
-- Guidance for sharing review packet based on rating:
-  - For **meeting and exceeding**: You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
-  - For **not meeting (3s)**: Walk through the feedback live and share the packet afterwards.
-- Whatever you do, if you share your screen, please make sure you are sharing the teammate version (do not share the manager version).
-
+2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. 
+  - Guidance for sharing review packet based on rating:
+    - For **meeting and exceeding**: You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
+    - For **not meeting (3s)**: Walk through the feedback live and share the packet afterwards.
+  - Whatever you do, if you share your screen, please make sure you are sharing the teammate version (do not share the manager version).
 3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
@@ -77,13 +75,16 @@ Immediately following the 1:1, please:
 2. Follow up via Slack message to the Teammate and your People Partner informing them that you've shared the review packet and also **share promo/compensation letters**, if applicable.
 
 - The People Team will send each manager a folder in Google Drive with their team's merit letters. It is **very important** that you review each one for accuracy before sending to the teammate.
-  1.  Sample Slack message for “Meeting or Exceeding High Bar” Teammates:
-      > “Hi [Teammate name] - thank you for meeting with me today to go over your impact review. [Add optional specifics for great work.]
-      > I’ve shared your impact review packet with you in Lattice [_and, if applicable_ - and am also sharing here a letter outlining your compensation change].
-  2.  Sample Slack message for “Not Meeting High Bar” Teammates”:
-      > Hi [Teammate name] - thank you again
-      > I’ve shared your impact review packet with you in Lattice. We discussed some areas I’d like to see you improve in over the coming weeks and months.
-      > I’m looking forward to continuing our discussion in our future 1:1s, and helping you do great work here.
+  1.  Sample Slack message for $ merit increase ONLY
+      >[Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. Looking forward to an incredible FY24 with you! You can find your merit letter here (insert PDF).  Carly & [People Partner name] Lauren are also included on this message to answer any questions you may have. Congratulations again!
+  2.  Sample Slack message for $ merit increase AND equity refresh
+      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. Looking forward to an incredible FY24 with you! I've attached your merit letter  (insert PDF) and your equity refresh letter (insert PDF) .  Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+  3.  Sample Slack message for No $ merit increase, no promo, no equity refresh 
+      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. Please let me know if you have any issues accessing your Lattice review packet.  I'm looking forward to an incredible FY24 with you! Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+  4.  Sample Slack message for No $ merit increase, YES equity refresh
+      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. I'm looking forward to an incredible FY24 with you! To recognize you for your performance, we are pleased to present you with an equity refresh, outlined here (insert PDF) .  Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+  5.  Sample Slack message for “Not Meeting High Bar” Teammates”:
+      > Hi [Teammate name] - thank you for our conversation today. I know receiving feedback is never easy, but I believe in you and am excited to work with you to improve. [Feel free to insert specifics on where you need to see improvement/feel free to be firm if you need to see immediate turn around in certain areas]. Please let me know if you have any questions as you read through your impact review packet, which has been shared via Lattice, and I look forward to talking about the ways in which I can support your growth in our next 1:1. I’m also looping in [People Partner name], who is here to help you as well.
 
 It’s not uncommon for questions to arise as you deliver the impact review to Teammates. Make a note of any questions or follow up needed, and commit to circling back. If unsure of an answer to a question, please contact [your People Partner](../../../../teamalignment.md).
 
