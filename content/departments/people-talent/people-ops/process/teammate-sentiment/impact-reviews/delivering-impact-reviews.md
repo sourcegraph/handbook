@@ -17,19 +17,22 @@ All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Im
 1. Schedule a 30-60 minute 1:1 between 2023-04-12 and 2023-04-26
 2. Add their final score to the impact review packet in Lattice
 3. Send a Slack message to your direct report:
-   “Hi [Teammate Name] - I just sent you a calendar invite to walk through your impact review. I'm looking forward to discussing your self-review, along with the feedback that you received from me and your peers. Before the meeting, please review about our [impact review process](index.md)to set the stage for a meaningful conversation. Looking forward to it!
+  
+    *“Hi [Teammate Name] - I just sent you a calendar invite to walk through your impact review. I'm looking forward to discussing your self-review, along with the feedback that you received from me and your peers. Before the meeting, please review about our [impact review process](index.md) to set the stage for a meaningful conversation. Looking forward to it!*
 
-- Agenda:
-  - Overview of [Impact Review Process](index.md)
-  - Alignment on performance: We will discuss your strengths, your development areas, and your impact review score. I will answer your questions and gather your perspective on your performance.
-  - Discuss future development: We will work together to plan ways in which you can meet development and career aspirations moving forward.
+     *Agenda:*
+      - *Overview of [Impact Review Process](index.md)*
+      - *Alignment on performance: We will discuss your strengths, your development areas, and your impact review score. I will answer your questions and gather your perspective on your performance.*
+      - *Discuss future development: We will work together to plan ways in which you can meet development and career aspirations moving forward.*
 
 3. Review each Teammate’s full review packet
 
 - Here are [instructions](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks) on how to access the Teammate review packet
+4. Review the promo/merit letter, if applicable, to ensure accuracy before sharing. Make sure the compensation is correct! Reach out to your People Partner if you have any access issues or notice any errors.
+5.  Review the equity refresh letter, if applicable, to ensure accuracy before sharing. Reach out to your People Partner if you have any access issues or notice any errors.
 
-5. Review [Manager Guide: Delivering Performance Feedback and Having Difficult Conversations](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit?usp=sharing)
-6. Review the [Manager FAQ,](#faq) where we’ve tried to anticipate any and all questions you may receive from a Teammate
+6. Review [Manager Guide: Delivering Performance Feedback and Having Difficult Conversations](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit?usp=sharing)
+7. Review the [Manager FAQ,](#faq) where we’ve tried to anticipate any and all questions you may receive from a Teammate
 
 Please remember - our Teammates are all unique - and they are what makes Sourcegraph unique! Consider key messages about each Teammate’s performance you want to impart during the review meeting.
 
@@ -46,7 +49,7 @@ You’ll meet 1:1 with each of your direct reports to deliver the results of our
 During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
-2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. You are welcome to share your screen and walk through the review packet live.
+2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**. You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
 3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
