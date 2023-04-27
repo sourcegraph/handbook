@@ -59,9 +59,9 @@ In business-critical cases, we may make exceptions and allow an offer above the 
 
 ## Pay transparency
 
-At Sourcegraph, all Teammates are able to view every single compensation band we use in our organization, including their own. We believe that full transparency of our compensation bands creates clear accountability for all compensation decisions, and ensures pay parity.  
+At Sourcegraph, all Teammates are able to view every single compensation band we use in our organization, including their own. We believe that full transparency of our compensation bands creates clear accountability for all compensation decisions, and ensures pay parity.
 
-We use a tool called [Assemble](https://www.assemble.inc/) to share compensation data.  Every teammate has access to Assemble when they join.
+We use a tool called [Assemble](https://www.assemble.inc/) to share compensation data. Every teammate has access to Assemble when they join.
 
 1. Navigate to: [https://app.assemble.inc/](https://app.assemble.inc/)
 
