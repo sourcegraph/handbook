@@ -35,7 +35,8 @@ of vulnerability.
 We use Entitle as our permission management system.
 
 - An Intro on [Entitle](entitle.md)
-- [How To Guide](entitle_request.md)
+- [How To Guide](entitle_request.md) using GCP as an example
+- [Entitle for GitHub](entitle_github.md) teams and elevated permissions access for teammates and managers
 
 ## Cloudflare Token
 
