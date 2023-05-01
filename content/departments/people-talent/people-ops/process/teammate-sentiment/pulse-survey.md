@@ -6,7 +6,7 @@ Our People Team runs Pulse surveys as a way to check in with Teammates on a regu
 
 ### Why do we have pulse surveys?
 
-Pulse surveys allow us to ‘bridge the gap’ between our annual engagement surveys and hone in on what is important in the here-and-now. 
+Pulse surveys allow us to ‘bridge the gap’ between our annual engagement surveys and hone in on what is important in the here-and-now.
 
 ### Who receives the survey?
 
@@ -36,8 +36,7 @@ Surveys remain open for the entire 2-week cycle and reminders are also sent via 
 
 ### How many questions are on a pulse survey?
 
-Each teammate receives 3 questions, which come from a list of questions we use in the anual engagement survey so that we can measure progress. You may answer the same question multiple times. This helps us see how Teammate sentiment changes over time. 
-
+Each teammate receives 3 questions, which come from a list of questions we use in the anual engagement survey so that we can measure progress. You may answer the same question multiple times. This helps us see how Teammate sentiment changes over time.
 
 ### How do we respond to pulse survey results and take action?
 
@@ -53,13 +52,12 @@ Our overarching philosophy is simple: take meaningful actions, based on in-depth
 
 ### Where can I see survey results?
 
-Survey results are included in the weekly update in #announce-people-talent. 
+Survey results are included in the weekly update in #announce-people-talent.
 
 ### Who will be able to see my responses?
 
 All responses are submitted **anonymously**. The People Team can view department-specific themes when 5 or more Teammates from a given organization (Sales, Engineering, Operations, etc.) respond to the survey. All comments are submitted anonymously, and the People Team can respond to them but cannot see who submitted the comment.
 
-
 ### Are we still doing an annual engagement survey?
 
-Yes! The pulse survey does not replace the annual engagement surveys. The engagement survey provides an important baseline for pulse surveys, and helps inform questions we ask in pulse surveys. 
+Yes! The pulse survey does not replace the annual engagement surveys. The engagement survey provides an important baseline for pulse surveys, and helps inform questions we ask in pulse surveys.
