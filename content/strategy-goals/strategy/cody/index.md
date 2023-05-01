@@ -19,7 +19,7 @@ Sourcegraph is uniquely positioned to build this because for the past 10 years, 
 - The Code Graph: a representation of code and metadata around it that powers code search and AI.
 - Big Code: Sourcegraph is built to work for companies with Big Code. We'll continue integrating deeply with our customer's environment and allowing them to build on top of Sourcegraph.
 
-Besides, we're building Cody so that it's modular: customers can plug their own model, tools, and data sources in. This reinforces how deeply integrated Cody is into a customer's stack, and breaks the dependency and lock-up on a single model provider.
+Besides, we're building Cody so that it's a modular platform: customers can plug their own model, tools, and data sources in. Sourcegraph, users and third parties can add new functionalities in the form of plugins. This reinforces how deeply integrated Cody is into a customer's stack, and breaks the dependency and lock-up on a single model provider.
 
 ## Strategy & plans
 
