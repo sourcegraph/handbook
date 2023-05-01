@@ -6,8 +6,9 @@ expose them to pain points, and allow them to bring that experience back to thei
 ## How it works
 
 - Each rotation is 1 week long and may consist of n+1 calls. By limiting it to one week we ensure that all engineers get to undertake at least one rotation in one calendar year.
-- AE identifies calls they'd like engineers to attend and adds them to this sheet.
-- Engineer signs up and indicates availability.
+- AE identifies calls they'd like engineers to attend and adds them to this [sheet](https://docs.google.com/spreadsheets/d/1Wap3SnDEUJTgMmsWXHz1E4NnGB2JDJedEh9udrQxom4/edit#gid=0).
+- Engineer [signs up](https://docs.google.com/spreadsheets/d/1Wap3SnDEUJTgMmsWXHz1E4NnGB2JDJedEh9udrQxom4/edit#gid=0) and indicates availability.
+- Engineer is added to a weekly rotation.
 
 ## Expectations
 
@@ -16,11 +17,11 @@ expose them to pain points, and allow them to bring that experience back to thei
 ### Pre Call
 
 - AE will send calendar invite to the engineer.
-- AE to provide as much context to the engineer as well as set expectations.
+- AE to provide as much context (share previous meeting notes, add engineer to relevant slack channels) to the engineer as well as set expectations.
 
 ### Post Call
 
-- Engineer shares any notable insights
+- Engineer shares any notable insights post meeting with AE.
 
 ## Rotations
 
