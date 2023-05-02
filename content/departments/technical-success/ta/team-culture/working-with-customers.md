@@ -224,6 +224,7 @@ For synchronous webinars, a standard customer engagement should include three co
 
 - [Training Webinar Recording](https://chorus.ai/meeting/8FEAE02538644AA3ABB22149750E6308?)
 - [Customer Training Engineer repo](https://github.com/sourcegraph/customer-training/tree/main/trainings)
+- [Working with the Sourcegraph GraphQL API](working-with-the-sourcegraph-graphql-api.md)
 
 ## Expansions and Renewals
 
