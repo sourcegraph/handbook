@@ -4,19 +4,23 @@
 This document is mainly geared towards __external__ users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
 
 ## What GraphQL is and isn't
+
 It is:
-* A query language for APIs
-* Provides **exactly** what you ask for. No more, no less.
-  * This is called over/underfetching data
-* Strongly typed
-* Versionless
+
+- A query language for APIs
+- Provides **exactly** what you ask for. No more, no less.
+  - This is called over/underfetching data
+- Strongly typed
+- Versionless
 
 It isn't:
-* A query language for **databases**
-  * It isn't a language for Graph Databases (like Neo4j)
-* A solution for world hunger...unfortunately
+
+- A query language for **databases**
+  - It isn't a language for Graph Databases (like Neo4j)
+- A solution for world hunger...unfortunately
 
 ## Anatomy of a GraphQL Query/Operation
+
 ![Anatomy of a GraphQL Query/Operation](https://storage.googleapis.com/sourcegraph-assets/anatomy-of-a-graphql-query.png)
 
 **Operation Type**: Query, Mutation, or Subscription. Describes the type of operation you’re trying to do.
@@ -31,21 +35,23 @@ It isn't:
 
 **Fields**: Building blocks that represent the data being returned
 
-**Arguments**: Either pulled in from a **Variable Definition** or in-line, these specify key-value pairs that affect how a **Field**  is resolved
+**Arguments**: Either pulled in from a **Variable Definition** or in-line, these specify key-value pairs that affect how a **Field** is resolved
 
 **(Inline) Fragments**: Encapsulated pieces of shared query logic
 
 ## Sourcegraph's GraphQL Schema & Documentation
+
 Sourcegraph's GraphQL API is defined by its schema or SDL (Schema Definition Language).
 
 Explore the Sourcegraph GraphQL API documentation [here](https://docs.sourcegraph.com/api/graphql/api-docs)
 
-* These docs are auto-generated, for more details join [#wg-graphql-docs](https://sourcegraph.slack.com/archives/C04PUHSBVDG)
-* There are some types, fields, and fragments that exist in the API but are undocumented, raise it to that Slack channel
+- These docs are auto-generated, for more details join [#wg-graphql-docs](https://sourcegraph.slack.com/archives/C04PUHSBVDG)
+- There are some types, fields, and fragments that exist in the API but are undocumented, raise it to that Slack channel
 
 <hr>
 
 ## Setting up your GraphQL IDE
+
 Apollo Sandbox is great for navigating through a complex GraphQL schema and has great developer experience for crafting queries
 
 1. Navigate to [studio.apollographql.com/sandbox](studio.apollographql.com/sandbox) and click Open Connection Settings in the top left corner
@@ -66,7 +72,7 @@ Apollo Sandbox is great for navigating through a complex GraphQL schema and has 
 
 ## Navigating the Schema
 
-When you've set up your Apollo Sandbox environment successfully, you should have access to the [GraphQL schema reference page](https://studio.apollographql.com/sandbox/schema/reference). 
+When you've set up your Apollo Sandbox environment successfully, you should have access to the [GraphQL schema reference page](https://studio.apollographql.com/sandbox/schema/reference).
 
 This page is incredibly instrumental in being able to understand and navigate the objects and types that are available in the API.
 
@@ -81,9 +87,11 @@ By searching for a [Batch](https://studio.apollographql.com/sandbox/schema/refer
 Clicking into [BatchChange](https://studio.apollographql.com/sandbox/schema/reference/objects/BatchChange) gives me all the fields that are available under that object and also how to access it.
 
 ## Understanding Fragments
+
 A Fragment is a power filtering mechanism that takes advantage of the strongly typed nature of GraphQL schemas
 
 Consider the below operation:
+
 ```graphql
 query Search($query: String!) {
   search(query: $query, version: V3) {
@@ -98,24 +106,23 @@ query Search($query: String!) {
 }
 
 fragment FileMatchFields on FileMatch {
-    repository {
-        name
-        url
-    }
-    file {
-        name
-        path
-        url
-    }
+  repository {
+    name
+    url
+  }
+  file {
+    name
+    path
+    url
+  }
 }
 ```
-
 
 ```graphql
 ... on File Match
 ```
 
-The above notation takes advantage of the strongly typed nature of GraphQL. 
+The above notation takes advantage of the strongly typed nature of GraphQL.
 
 What this means is "of the returned data from the parent, if the type is of `FileMatch`, return the following fields..."
 
@@ -124,21 +131,21 @@ What this means is "of the returned data from the parent, if the type is of `Fil
 ```
 
 This fragment notation is a way to improve readability of your GraphQL operation.
-It is a shorthand way to add fields into an operation. The `fragment FileMatchFields on FileMatch` later on in the operation body defines the fields that are to be requested. 
-
+It is a shorthand way to add fields into an operation. The `fragment FileMatchFields on FileMatch` later on in the operation body defines the fields that are to be requested.
 
 ## Understanding Pagination
+
 There are some objects in the API that return lots of data. Sourcegraph utilizes a cursor based pagination pattern somewhat based on the [Relay-spec](https://relay.dev/docs/guides/graphql-server-specification/).
 
 Consider the below operation:
-```graphql
+```
 //Get the first 10 insights' IDs
 query Insights($first: Int, $after: String) {
     insightViews(first: $first, after: $after) {
         pageInfo {
             hasNextPage
             endCursor
-        }   
+        }
         nodes {
             id
         }
@@ -150,7 +157,8 @@ query Insights($first: Int, $after: String) {
     "first": 10,
     "after": null
 }
- ```
+```
+
 Paginated data is accessed through `nodes`
 
 Pass the `nodes.id` field into subsequent calls in the `$after` variable to paginate through data that occurs _after_ that Object. See operation below for an example.
@@ -164,7 +172,7 @@ query Insights($first: Int, $after: String) {
         pageInfo {
             hasNextPage
             endCursor
-        }   
+        }
         nodes {
             id
         }
@@ -181,6 +189,7 @@ query Insights($first: Int, $after: String) {
 `endCursor` will always return the _last_ ID in your call so you can use that in subsequent calls until `hasNextPage` is `false`.
 
 ## Tips & Tricks
+
 1. Make use of your browser's developer tools to determine the GraphQL operation within Sourcegraph's web app.
 
 ![](https://storage.googleapis.com/sourcegraph-assets/get-graphql-operation-devtools.png)
@@ -191,8 +200,8 @@ query Insights($first: Int, $after: String) {
 
 ![](https://storage.googleapis.com/sourcegraph-assets/copy-operation-link.png)
 
-
 ## Example GraphQL Operations
+
 > The below operations will use `demo.sourcegraph.com`. Adjust to your connection details and variables as necessary
 
 [File contents from default branch](https://studio.apollographql.com/sandbox/explorer?endpoint=https%3A%2F%2Fdemo.sourcegraph.com%2F.api%2Fgraphql&explorerURLState=N4IgJg9gxgrgtgUwHYBcQC4QGIBKCUwBOSAzgARQSrIrkQBmZAhmSQJZIDmANgmfW14AdJAEcYCQgE8yAMUEIAwlRQ0SswhDgARBPSYxuKAEKEmSKAAsAFABIADkxSX0ZAMopCHTgEIANGS2SEyIrh5eXACUZMAiZGSECPYQ7CgQ0tbBoYFZCNGxSPHxYHoGRqbmVjFxRfEoTISc%2BNWFtUWUcHBsKC1tbQBG3BD91o7Org5Olvk1fbWU1KizcwC%2By7VrrRvLm-GbKyB%2BIABuDWxMgwgkGCAF8UIgY5YPrg84AKIAgtoAsu8AdHAwA8-DUHrkXmQHpxupYYP1-h0APQkCBEKAIThmeyWFFowgYrFMHEPEQHFZAA)
