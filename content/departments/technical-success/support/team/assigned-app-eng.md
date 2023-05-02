@@ -11,7 +11,7 @@ All customers with an assigned support engineer (whether internal in nature only
 - The support engineer is always up to speed when an issue arises, no context building necessary
 - The support engineer maintains emulation of customer’s environment for faster testing (that CE has access to and is accessible by other support engineers on the team if backup is needed); at the support engineer's discretion if this is value-add.
 - The support engineer attends regular and ad-hoc customer meetings to streamline communication (this should be discussed with CE for pre-sales assignments)
-- The support engineer updates the [technical design documentation](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#) when they learn of new information/changes (and informs the CE of the update)
+- The support engineer updates the [technical design documentation](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) when they learn of new information/changes (and informs the CE of the update, so that the CE can ensure that Salesforce is also updated)
 - The support engineer has a recurring weekly check-in with the CE; some good standing questions:
   - What is going well with the customer?
   - What, if anything, is causing frustration for the customer?

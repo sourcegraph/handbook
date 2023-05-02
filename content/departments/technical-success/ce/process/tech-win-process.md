@@ -4,7 +4,6 @@
 - [Assets](#assets)
 - [Process](#process)
   - [Gates for Progressing Through Technical Win Phases](#gates-for-progressing-through-technical-win-phases)
-  - [Technical Design Document Creation and Review](#technical-design-document-creation-and-review)
   - [Tech Review Process](#tech-review-process)
   - [Surfacing Product Feedback](#surfacing-product-feedback)
   - [Weekly Tech Win Review](#weekly-tech-win-review)
@@ -85,22 +84,6 @@ It also provides key areas for CEs to consider and specific steps to take to ens
    </td>
   </tr>
   <tr>
-   <td>Technical Design Document
-<p>
-<strong>(Internal)</strong>
-   </td>
-   <td>A living document that is used to track information about customers - their needs, their technical environment, use cases, etc. At first, this document captures details about the customer prior to Sourcegraph, then during the trial phase, and subsequently as they move to production.
-<p>
-<a href="https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit">Link To Template</a>
-<p>
-Store Completed TDDs <a href="https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC">Here</a>
-   </td>
-   <td>2-4
-   </td>
-   <td>Published
-   </td>
-  </tr>
-  <tr>
    <td>Joint Success Plan
 <p>
 <strong>(External)</strong>
@@ -157,21 +140,34 @@ The following criteria are used to determine whether a technical win should prog
   - As defined by the [Customer Engagement Process](https://docs.google.com/spreadsheets/d/1nhxUAkooEx1JZV4ZAwyN0Ck9BrK-VUzObNp_IRAf_OE/edit#gid=0), the champion typically confirms use cases, identifies the business/technical validation process and confirms the technical win.
 - Has the CE confirmed the top 2-3 use cases for the customer?
 - Does the CE understand the customer’s technical landscape and current tools?
-- Has the CE provided the prospect with a Reference Sandbox environment?
 
-#### Tech Design & Trial Planning (Sales Stage: 3)
+#### Tech Design & Trial Design (Sales Stage: 3)
+
+- Has the CE completed technical qualification of the customer’s usage scenario?
+- Has the CE recorded the technical landscape information (on the account level) and the trial technical landscape information (on the opportunity level) in Salesforce?
+- Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
+- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed? *Note: the definitions of non-standard and high-risk change with each release of Sourcegraph, and it is the responsibility of the CE to be aware of the definitions at any point in time.*
+
+Not all opportunities will require a trial of Sourcegraph. The CE should be prepared to achieve a technical win by performing customized demos or workshops when possible. If the customer *must* perform a trial, use the criteria below.
+
+##### Additional Criteria for all trials
 
 - Has the CE designed the trial according to [The Sourcegraph Trial](https://docs.google.com/document/d/1O8Tjx9diPg0_Qb4nWY1HUgFcvJFFBD371KSGlfa8l5M/edit?usp=sharing) guidelines?
-- Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
-- Has the CE completed technical qualification of the customer’s usage scenario?
-- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed?
-- CE has completed the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
+
+Most trials should be on Sourcegraph-managed Cloud instances. If the trial *must* be performed on a customer's self-hosted environment (whether cloud or on-prem), see below for additional requirements.
+
+Any artifacts created to support a prospective customer's Sourcegraph deployment (i.e. architecture diagrams, custom Kubernetes configurations, etc). should be stored in the shared [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) folder and linked from the "Trial Technical Landscape" information in Salesforce.
+
+##### Additional Criteria for Self-hosted trials
+
+- Has the CE completed the [Implementation Discovery Questions (copy & rename to Sourcegraph/Technical Success/Customer engineering/Technical Design Documents/{CustomerName - Implementation Discovery Questions})](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) and linked to the document from the "Trial Technical Landscape" field of Salesforce?
+- Has the CE provided the prospect with a [Reference Sandbox environment](/handbook/departments/technical-success/ie/reference-sandboxes/)?
 
 #### Trial Deployment (Sales Stages: 3-4)
 
 - Do the success criteria adhere to the recommendations in [The Sourcegraph Trial](https://docs.google.com/document/d/1O8Tjx9diPg0_Qb4nWY1HUgFcvJFFBD371KSGlfa8l5M/edit?usp=sharing)?
-- CE has updated the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
-- CE has completed the Trial and Deployment portions of the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268)
+- Has the CE updated Salesforce with trial technical landscape information, with links to any supporting artifacts?
+- If the AE is using the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268), has the CE completed the Trial and Deployment portions of the document?
 - Is the trial or evaluation environment successfully deployed?
 
 #### Trial Execution (Stage 4)
@@ -184,16 +180,8 @@ The following criteria are used to determine whether a technical win should prog
 
 - Tag TA leadership for TA assignment
 - Confirm whether IE will be performing the Production Implementation
-- CE has updated the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) with details about the customer’s production deployment plans (unless IE is leading the Production Implementation)
+- For complex deployments, CE has updated artifacts in the the [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) folder with details about the customer’s production deployment plans (unless IE is leading the Production Implementation)
 - Introduce TA to the customer
-
-### Technical Design Document Creation and Review
-
-As early as the Qualification stage (Stage 2), CEs begin to collect information about and work to understand the needs of prospective customers. The learnings from these discussions (business and technical challenges, current environment, and technical and functional requirements) are recorded in a Technical Design Document.
-
-- Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, and Engineering.
-- All TDDs for [Tier 1 accounts](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit) must be reviewed by a peer on the CE team.
-- All TDDs with [non-standard technical requirements](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279) must be reviewed by a peer on the CE team.
 
 ### Tech Review Process
 
@@ -203,12 +191,12 @@ Deals flagged as having non-standard or high-risk requirements must go through t
 
 When a Tech Review is needed, the CE initiates this process by doing the following:
 
-1. Completes a peer review of the TDD and opportunity with a peer CE.
+1. Completes a peer review of the opportunity with a peer CE.
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asks of Product, Engineering, and Support.
-3. Initiates the request in the #tech-deal-reviews channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to the TDD.
-4. Documents the results of the Tech Review in the TDD.
+3. Initiates the request in the #tech-reviews channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to technical design artifacts (i.e. the Implementation Discovery Questions, architecture diagrams, etc.).
+4. Documents the results of the Tech Review in Salesforce under Open Issues & Risks.
 
-[Product Directors](../../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD. This asynchronous review should be completed within 3 business days.
+[Product Directors](../../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the video and artifacts. This asynchronous review should be completed within 3 business days.
 
 If there are additional questions, the Product Team member can request a synchronous review. That review will be recorded and documented to show the decision-making process and provide additional context. CEs are responsible for scheduling the synchronous review and including the appropriate stakeholders.
 
@@ -216,11 +204,12 @@ If there are additional questions, the Product Team member can request a synchro
 
 ##### Customer Engineer
 
-- Responsible for creating the Technical Design Document (TDD) for each new customer.
+- Responsible for understanding and documenting the technical landscape and trial design details in Salesforce.
+- Responsible for storing any technical review artifacts (such as Implementation Discovery Questions and architecture diagrams) in the shared Technical Design Documents folder.
 - Responsible for identifying any non-standard or high-risk requirements.
 - Responsible for registering Product Gaps against non-standard or high-risk requirements as required.
 - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
-- Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
+- Responsible for initiating the tech review process, when appropriate.
 - If a request is made for a synchronous review, the CE will schedule and facilitate.
 
 ##### Product, Engineering and Support
@@ -309,12 +298,6 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
    <td>Mutual Action Plan
    </td>
    <td>URL for the Joint Success Plan which includes the Mutual Action Plan (AE) as well as the Trial Success Criteria and Deployment Plan (CE).
-   </td>
-  </tr>
-  <tr>
-   <td>Technical Design Document
-   </td>
-   <td>URL for the Technical Design Document for this customer opportunity that captures details about the Trial design.
    </td>
   </tr>
   <tr>
