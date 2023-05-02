@@ -161,7 +161,7 @@ Any artifacts created to support a prospective customer's Sourcegraph deployment
 ##### Additional Criteria for Self-hosted trials
 
 - Has the CE completed the [Implementation Discovery Questions (copy & rename to Sourcegraph/Technical Success/Customer engineering/Technical Design Documents/{CustomerName - Implementation Discovery Questions})](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) and linked to the document from the "Trial Technical Landscape" field of Salesforce?
-- Has the CE provided the prospect with a [Reference Sandbox environment](/handbook/departments/technical-success/ie/reference-sandboxes/)?
+- Has the CE provided the prospect with a Reference Sandbox environment?
 
 #### Trial Deployment (Sales Stages: 3-4)
 
