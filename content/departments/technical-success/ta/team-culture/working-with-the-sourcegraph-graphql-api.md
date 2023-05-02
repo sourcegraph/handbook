@@ -17,7 +17,7 @@ It isn't:
 * A solution for world hunger...unfortunately
 
 ## Anatomy of a GraphQL Query/Operation
-//TODO: Insert `anatomy-of-a-graphql-query.png`
+![Anatomy of a GraphQL Query/Operation](https://storage.googleapis.com/sourcegraph-assets/anatomy-of-a-graphql-query.png)
 
 **Operation Type**: Query, Mutation, or Subscription. Describes the type of operation you’re trying to do.
 
@@ -48,19 +48,19 @@ Explore the Sourcegraph GraphQL API documentation [here](https://docs.sourcegrap
 ## Setting up your GraphQL IDE
 Apollo Sandbox is great for navigating through a complex GraphQL schema and has great developer experience for crafting queries
 
-//TODO: Add Loom
+![](https://storage.googleapis.com/sourcegraph-assets/open-connection-settings.png)
 
 1. Navigate to [studio.apollographql.com/sandbox](studio.apollographql.com/sandbox) and click Open Connection Settings in the top left corner
 
-//TODO: Add Image
+![](https://storage.googleapis.com/sourcegraph-assets/connection-settings.png)
 
 2. Under **Endpoint** input `https://demo.sourcegraph.com/.api/graphql` and click **Save**
 
-//TODO: Add Image
+![](https://storage.googleapis.com/sourcegraph-assets/new-header.png)
 
 3. On the bottom of the IDE, click **Headers** and create an `Authorization` header key with the value in the format: `token-sudo user="Your Demo Usename", token="Your Demo Token"`
 
-//TODO: Add Image
+![](https://storage.googleapis.com/sourcegraph-assets/create-operation.gif)
 
 4. Now you have easy one-click crafting of your GraphQL queries and Schema reference! 🎉
 
@@ -70,9 +70,11 @@ When you've set up your Apollo Sandbox environment successfully, you should have
 
 This page is incredibly instrumental in being able to understand and navigate the objects and types that are available in the API.
 
-//TODO: add `apollo-sandbox-schema-reference.png`
+![](https://storage.googleapis.com/sourcegraph-assets/apollo-sandbox-schema-reference.png)
 
 Simply search for the objects or types you're looking for to see how to access them.
+
+![](https://storage.googleapis.com/sourcegraph-assets/schema-navigation.gif)
 
 By searching for a [Batch](https://studio.apollographql.com/sandbox/schema/reference?query=batch) under the `Query` root type, you can see all objects that are available with "batch" in the name or documentation
 
@@ -179,15 +181,15 @@ query Insights($first: Int, $after: String) {
 `endCursor` will always return the _last_ ID in your call so you can use that in subsequent calls until `hasNextPage` is `false`.
 
 ## Tips & Tricks
-1. Make use of the your browser's developer tools to determine the GraphQL operation within Sourcegraph's web app.
+1. Make use of your browser's developer tools to determine the GraphQL operation within Sourcegraph's web app.
 
-//TODO: Insert `get-graphql-operation-devtools.png`
+![](https://storage.googleapis.com/sourcegraph-assets/get-graphql-operation-devtools.png)
 
 2. Check out the [`Node`](https://studio.apollographql.com/sandbox/schema/reference/interfaces/Node?query=node) documentation to see what parts of the API require pagination
 
 3. Use the _Copy Operation Link_ when right clicking into Sandbox to collaborate with other folks who have the IDE configured
 
-//TODO: Insert `copy-operation-link.png`
+![](https://storage.googleapis.com/sourcegraph-assets/copy-operation-link.png)
 
 
 ## Example GraphQL Operations
