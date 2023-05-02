@@ -146,15 +146,15 @@ The following criteria are used to determine whether a technical win should prog
 - Has the CE completed technical qualification of the customer’s usage scenario?
 - Has the CE recorded the technical landscape information (on the account level) and the trial technical landscape information (on the opportunity level) in Salesforce?
 - Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
-- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed? *Note: the definitions of non-standard and high-risk change with each release of Sourcegraph, and it is the responsibility of the CE to be aware of the definitions at any point in time.*
+- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed? _Note: the definitions of non-standard and high-risk change with each release of Sourcegraph, and it is the responsibility of the CE to be aware of the definitions at any point in time._
 
-Not all opportunities will require a trial of Sourcegraph. The CE should be prepared to achieve a technical win by performing customized demos or workshops when possible. If the customer *must* perform a trial, use the criteria below.
+Not all opportunities will require a trial of Sourcegraph. The CE should be prepared to achieve a technical win by performing customized demos or workshops when possible. If the customer _must_ perform a trial, use the criteria below.
 
 ##### Additional Criteria for all trials
 
 - Has the CE designed the trial according to [The Sourcegraph Trial](https://docs.google.com/document/d/1O8Tjx9diPg0_Qb4nWY1HUgFcvJFFBD371KSGlfa8l5M/edit?usp=sharing) guidelines?
 
-Most trials should be on Sourcegraph-managed Cloud instances. If the trial *must* be performed on a customer's self-hosted environment (whether cloud or on-prem), see below for additional requirements.
+Most trials should be on Sourcegraph-managed Cloud instances. If the trial _must_ be performed on a customer's self-hosted environment (whether cloud or on-prem), see below for additional requirements.
 
 Any artifacts created to support a prospective customer's Sourcegraph deployment (i.e. architecture diagrams, custom Kubernetes configurations, etc). should be stored in the shared [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) folder and linked from the "Trial Technical Landscape" information in Salesforce.
 
