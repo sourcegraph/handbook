@@ -139,6 +139,7 @@ It is a shorthand way to add fields into an operation. The `fragment FileMatchFi
 There are some objects in the API that return lots of data. Sourcegraph utilizes a cursor based pagination pattern somewhat based on the [Relay-spec](https://relay.dev/docs/guides/graphql-server-specification/).
 
 Consider the below operation:
+
 ```graphql
 //Get the first 10 insights' IDs
 query Insights($first: Int, $after: String) {
