@@ -1,7 +1,8 @@
 # Technical Advisors: Working with the Sourcegraph GraphQL API
 
 ## Intended Audience
-This document is mainly geared towards __external__ users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
+
+This document is mainly geared towards **external** users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
 
 ## What GraphQL is and isn't
 
@@ -138,6 +139,7 @@ It is a shorthand way to add fields into an operation. The `fragment FileMatchFi
 There are some objects in the API that return lots of data. Sourcegraph utilizes a cursor based pagination pattern somewhat based on the [Relay-spec](https://relay.dev/docs/guides/graphql-server-specification/).
 
 Consider the below operation:
+
 ```
 //Get the first 10 insights' IDs
 query Insights($first: Int, $after: String) {
