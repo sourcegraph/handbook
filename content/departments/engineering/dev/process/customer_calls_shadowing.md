@@ -25,12 +25,12 @@ expose them to pain points, and allow them to bring that experience back to thei
 
 ## Rotations
 
-|  Rotation   |  Engineer    |
-| ----------- | ------------ |
-|  2024-05-08 |              |
-|  2024-05-15 |              |
-|  2024-05-22 |              |
-|  2024-05-29 |              |
+| Rotation   | Engineer |
+| ---------- | -------- |
+| 2024-05-08 |          |
+| 2024-05-15 |          |
+| 2024-05-22 |          |
+| 2024-05-29 |          |
 
 ## How to participate
 
