@@ -1,7 +1,7 @@
 # Technical Advisors: Working with the Sourcegraph GraphQL API
 
 ## Intended Audience
-This document is mainly geared towards __**external**__ users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
+This document is mainly geared towards __external__ users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
 
 ## What GraphQL is and isn't
 It is:
@@ -48,21 +48,21 @@ Explore the Sourcegraph GraphQL API documentation [here](https://docs.sourcegrap
 ## Setting up your GraphQL IDE
 Apollo Sandbox is great for navigating through a complex GraphQL schema and has great developer experience for crafting queries
 
-![](https://storage.googleapis.com/sourcegraph-assets/open-connection-settings.png)
-
 1. Navigate to [studio.apollographql.com/sandbox](studio.apollographql.com/sandbox) and click Open Connection Settings in the top left corner
 
-![](https://storage.googleapis.com/sourcegraph-assets/connection-settings.png)
+![](https://storage.googleapis.com/sourcegraph-assets/open-connection-settings.png)
 
 2. Under **Endpoint** input `https://demo.sourcegraph.com/.api/graphql` and click **Save**
 
-![](https://storage.googleapis.com/sourcegraph-assets/new-header.png)
+![](https://storage.googleapis.com/sourcegraph-assets/connection-settings.png)
 
 3. On the bottom of the IDE, click **Headers** and create an `Authorization` header key with the value in the format: `token-sudo user="Your Demo Usename", token="Your Demo Token"`
 
-![](https://storage.googleapis.com/sourcegraph-assets/create-operation.gif)
+![](https://storage.googleapis.com/sourcegraph-assets/new-header.png)
 
 4. Now you have easy one-click crafting of your GraphQL queries and Schema reference! 🎉
+
+![](https://storage.googleapis.com/sourcegraph-assets/create-operation.gif)
 
 ## Navigating the Schema
 
@@ -111,7 +111,7 @@ fragment FileMatchFields on FileMatch {
 ```
 
 
-```
+```graphql
 ... on File Match
 ```
 
@@ -119,7 +119,7 @@ The above notation takes advantage of the strongly typed nature of GraphQL.
 
 What this means is "of the returned data from the parent, if the type is of `FileMatch`, return the following fields..."
 
-```
+```graphql
 ...FileMatchFields
 ```
 
@@ -131,7 +131,7 @@ It is a shorthand way to add fields into an operation. The `fragment FileMatchFi
 There are some objects in the API that return lots of data. Sourcegraph utilizes a cursor based pagination pattern somewhat based on the [Relay-spec](https://relay.dev/docs/guides/graphql-server-specification/).
 
 Consider the below operation:
-```
+```graphql
 //Get the first 10 insights' IDs
 query Insights($first: Int, $after: String) {
     insightViews(first: $first, after: $after) {
@@ -157,7 +157,7 @@ Pass the `nodes.id` field into subsequent calls in the `$after` variable to pagi
 
 `pageInfo` and `totalCount` can tell you how much data is left
 
-```
+```graphql
 //Get the next 5 insights after a specific insight
 query Insights($first: Int, $after: String) {
     insightViews(first: $first, after: $after) {
@@ -185,7 +185,7 @@ query Insights($first: Int, $after: String) {
 
 ![](https://storage.googleapis.com/sourcegraph-assets/get-graphql-operation-devtools.png)
 
-2. Check out the [`Node`](https://studio.apollographql.com/sandbox/schema/reference/interfaces/Node?query=node) documentation to see what parts of the API require pagination
+2. Check out the [`Node` documentation](https://studio.apollographql.com/sandbox/schema/reference/interfaces/Node?query=node) to see what parts of the API require pagination
 
 3. Use the _Copy Operation Link_ when right clicking into Sandbox to collaborate with other folks who have the IDE configured
 
