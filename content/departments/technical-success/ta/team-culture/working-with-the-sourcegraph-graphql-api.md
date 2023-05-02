@@ -2,7 +2,7 @@
 
 ## Intended Audience
 
-This document is mainly geared towards ****external**** users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
+This document is mainly geared towards \***\*external\*\*** users of the Sourcegraph GraphQL API, not for internal Sourcegraph developers. Some external users are folks in Technical Success or even customers themselves.
 
 ## What GraphQL is and isn't
 
