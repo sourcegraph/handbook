@@ -23,7 +23,8 @@ You can find resources on how to use each of the main tools [here](../../../comp
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/Sourcegraph_Logo_FullColor_light.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like the one above, and clicking the Sourcegraph logo should bring you to sourcegraph.com.
-7. Update the "Signature defaults" options to match your preferences for using your signature on new emails and on reply/forward.
+7. Many teammates also add '[What is Code Intelligence?](https://about.sourcegraph.com/) | [We're Hiring!](https://about.sourcegraph.com/jobs?_ga=2.114747136.600672713.1644344374-539125958.1632800152)' into their signature below the Sourcegraph logo.
+8. Update the "Signature defaults" options to match your preferences for using your signature on new emails and on reply/forward.
 
 ### Google Calendar
 
