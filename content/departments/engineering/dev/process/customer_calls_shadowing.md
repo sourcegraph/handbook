@@ -2,7 +2,7 @@
 
 Customer Calls shadowing is intended to give engineers more first hand experience working with customers,
 expose them to pain points, and allow them to bring that experience back to their teams to increase our ability to deliver better products.
-Hearing directly from the customer how our products are used, the different challenges faced and various uses cases should lead to a much deeper understanding of what we need to build and prioritize for our customers.  
+Hearing directly from the customer how our products are used, the different challenges faced and various uses cases should lead to a much deeper understanding of what we need to build and prioritize for our customers.
 
 ## How it works
 
