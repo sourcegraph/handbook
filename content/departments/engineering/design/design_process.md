@@ -29,7 +29,6 @@ While asynchronous communication is a core attribute of remote work, key moments
   - Figjam is often used to collaborate on ideas and concepts
   - Figma can be used to generate wireframes, mood boards, and other artifacts
 
-
 ### Research
 
 - Interview internal users
