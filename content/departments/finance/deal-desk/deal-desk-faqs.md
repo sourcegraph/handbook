@@ -48,14 +48,15 @@ A detailed step by step guide can be found here: [Signature Process](https://doc
 
 #### Can we allow the Customer to submit and initiate the contract signature on their end?
 
-Although we loose visibility and control over the signature process (specilly during Quarter End), the Customer can initiate the signature process. Please send them the Order Form in PDF format with Deal Desk´s stamp on it. You can request the stamped document in our #deal-desk channel, or send a stamp request through a Docusign envelope. 
+Although we loose visibility and control over the signature process (specilly during Quarter End), the Customer can initiate the signature process. Please send them the Order Form in PDF format with Deal Desk´s stamp on it. You can request the stamped document in our #deal-desk channel, or send a stamp request through a Docusign envelope.
 
-#### Is there any minimum package amount for seats increments? 
+#### Is there any minimum package amount for seats increments?
 
-When signing an Order Form, the lowest package size should be 5 users. We should not sell additional seats in increments of 1 user for several reasons: 
-- Customer experience: Customers that are billed too frequently will have a poor customer experiece. 
+When signing an Order Form, the lowest package size should be 5 users. We should not sell additional seats in increments of 1 user for several reasons:
+
+- Customer experience: Customers that are billed too frequently will have a poor customer experiece.
 - Time: Every expansion deal requires admin processing time for both the Sales and Finance teams, so we should not go though the operational process to just bill the customer for 1 user.
-- Stretegy: We want to land small and grow fast, so allowing True-Ups in increments of 1 seat does not help us expand. 
+- Stretegy: We want to land small and grow fast, so allowing True-Ups in increments of 1 seat does not help us expand.
 
 #### For soft cap expansion deals, do I require a signed Order Form? What documents do I need to book the opportunity?
 
