@@ -21,7 +21,7 @@ Every instance has a default Sourcegraph admin user added during the [instance i
 
 > WARNING: Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
 
-> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules/#sharedList/1670019946529-Michael-shared-list-12-2-2022) on the sign-in page of any managed instance.
+> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules#sharedList/1683145438462-Sourcegraph-Operator-Login) on the sign-in page of any managed instance.
 
 Please visit go/cloud-ops to locate the instance you would like to access, and follow the instruction under `Log in to the instance UI` section.
 
