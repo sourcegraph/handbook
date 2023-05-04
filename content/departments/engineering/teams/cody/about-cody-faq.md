@@ -268,7 +268,7 @@ That said, so far, we think that context-fetching has a few key advantages over 
 
 ## Marketing material
 
-See [Cody Marketing page](cody-marketing.md).
+See [Cody Marketing page](cody-marketing.md) for Cody messaging, one-pagers, and other marketing assets.
 
 #### Where can I find additional assets for Cody?
 
