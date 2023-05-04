@@ -1,6 +1,6 @@
 # Cody Marketing
 
-Please [submit questions and feedback for this page here](https://sourcegraph.slack.com/archives/C04QTJDTH70).
+Please submit questions and feedback for this page at #wg-selling-cody
 
 For technical Cody information, see the [About Cody FAQ](about-cody-faq.md).
 
