@@ -117,6 +117,8 @@ export CF_API_EMAIL="$(op item get 'https://start.1password.com/open/i?a=HEDEDSL
 export CF_API_TOKEN=$(gcloud secrets versions access latest --secret CLOUDFLARE_API_TOKEN --project sourcegraph-secrets)
 ```
 
+You should `echo` above env var to make sure they are set correctly.
+
 You will also need UI access to Cloudflare.
 
 #### Set up env var
@@ -219,12 +221,12 @@ flarectl dns update --zone $OLD_ZONE --id $OLD_DNS_NAME_RECORD_ID --proxy=false 
 
 #### Backfill more terraform resources
 
-Continue on https://github.com/sourcegraph/infrastructure/pull/4893
-
-and uncomment the block, then import the resources
+Pikcup the `TODO` from https://github.com/sourcegraph/infrastructure/pull/4893 and uncomment the block, then import the resources
 
 ```sh
 terraform import 'cloudflare_record.sourcegraph_com_sourcegraph' "$OLD_ZONE_ID/$OLD_DNS_NAME_RECORD_ID"
 ```
 
-Commit the changes, and inspect the terraform plan. If everything work correctly, you should see no drift.
+Commit the changes, your PR should look something like: https://github.com/sourcegraph/infrastructure/pull/4894
+
+Inspect the terraform plan. If everything work correctly, you should see no changes from the plan.
