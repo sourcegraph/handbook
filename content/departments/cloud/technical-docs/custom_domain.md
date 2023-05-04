@@ -138,15 +138,13 @@ export OLD_DNS_NAME_RECORD_ID=$(flarectl -json dns list --zone $OLD_ZONE --name 
 export NEW_DNS_NAME_RECORD_ID=$(flarectl -json dns list --zone $NEW_ZONE --name $NEW_DNS_NAME | jq -r '.[0].ID')
 ```
 
-````
-
 #### Add `A` record for the new domain
 
 Locate the existing A record for `$OLD_DNS_NAME` from `$OLD_ZONE` zone. Note the IP address. This is the IP of GCP Load Balancer.
 
 ```sh
 flarectl dns list --zone $OLD_ZONE -name $OLD_DNS_NAME
-````
+```
 
 Add an `A` record for the new domain with the following settings.
 
