@@ -11,9 +11,26 @@ You can reach us at the #ask-product channel or @product-team on Slack. If you h
 
 ## Roadmap & Strategy
 
-- [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/302)
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
+- [Roadmap tracker](https://docs.google.com/spreadsheets/d/1566aEzzW0em8t-9aY9zSjDEaDPmiaJHX3jMt8xbGQq8/edit#gid=0)
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
+
+### Roadmap principles
+
+Building a public or customer-facing roadmap means trading-off flexibility vs predictability. One extreme is to have no customer-facing roadmap at all, and be able to change direction without any impact. The other is to have a 12-month or more committed roadmap and not being able to change plans without costly communication to reset expectations. Our strategy, engineering capacity, and customer and market feedback are the inputs that drive the roadmap. If one of those changes, the roadmap will change as well.
+
+We value flexibility over predictability, because that allows us to react faster to customer feedback and market changes. That said, we also want to give our largest customers visibility into key stable areas of our enterprise-readiness plans.
+
+Here are the principles we apply for our roadmap:
+
+- **Focus on the direction and high level 1-year narrative**. This helps our customers understand what problems we want to solve for them, independently of the specific feeatures we're building.
+- **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](../job-fair.md) cycle, and smaller updates as changes happen during a cycle.
+- **Best effort 6-month+ roadmap for enterprise readiness**. For mature features, we strive to build a longer-term roadmap for enterprise-readiness
+
+Examples:
+
+- Cody is experimental. Its roadmap will be a 3-month outlook, subject to change as we focus on iterating to deliver the best product to our users.
+- Codehost support has less customer and market unknowns. The main factor of uncertainty is engineering capacity. So we will strive to provide a longer term roadmap to inform our customers and go-to-market effort, provided that we get the go-ahead from capacity planning (VP Eng is the ultimate decision maker).
 
 ## Product team
 

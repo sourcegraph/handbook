@@ -42,7 +42,7 @@ This scans an image for High/Critical CVEs. The `-f json` flag can be used to ou
 The steps above can become a bit tedious if you need to scan all images during a release cut. We've written a script that you can find in the [infrastructure repo](https://github.com/sourcegraph/infrastructure/tree/main/security/tooling/trivy). You can run the script as follows:
 
 ```
-$ python3 trivy-diff.py --release 4.1.0 --threads 10
+$ python3 trivy-diff.py --last-release 4.1.0 --threads 10
 ```
 
 The command above will fetch the accepted vulnerabilities from the markdown table in our handbook. You need to specify the release using the `--release` option. It then uses 10 threads to scan the container images. When the scan is done it will output vulnerabilities that are not on the handbook page, and those that are on the handbook page but not found by Trivy. Keep in mind that you should not put tags in the container justification document. This confuses the tool, and is unnecessary as the title of the justification page already indicates the version.
@@ -118,6 +118,8 @@ or that we have accepted as low risk. You can find more details about these belo
 
 ### 5.0
 
+- [5.0.3](./5-0-3.md)
+- [5.0.2](./5-0-2.md)
 - [5.0.1](./5-0-1.md)
 - [5.0.0](./5-0-0.md)
 

@@ -16,11 +16,10 @@ We think of these three core competencies that every CE must demonstrate in orde
 
 The leadership pillar embodies both the external and internal interpersonal relationships we build and nurture, the way in which we lead customers to value, and how we drive more value and better ways of doing business.
 
-Within the leadership pillar there exists three core responsibility areas:
+Within the leadership pillar there exists two core responsibility areas:
 
-- Customer Interactions: The ability to uncover, understand, and influence our customers needs; the application of interpersonal skills required to appropriately manage and nurture relationships; navigating business and / or political considerations.
-- Achieve the Technical Win: The activities that CEs perform to lead prospective customers to achieving the Technical Win during the sales cycle.
-- Technical Customer Success: The activities that you perform, and the mentorship and influence you use, to ensure your customers' technical health and technical success as measured by business outcomes.
+- Relationship Management:The application of interpersonal skills required to appropriately manage and nurture relationships; navigating business and / or political considerations.
+- Outcomes: The activities that CEs perform to lead prospective customers to intended and desired outcomes.
 
 ### Business
 
@@ -38,13 +37,11 @@ The technology pillar embodies the skills necessary to solve customer problems.
 Within the technology pillar there exists two core responsibility areas:
 
 - Sourcegraph Product: The ability to learn about our product capabilities and limitations; apply that knowledge to help customers; extend the boundaries of our capabilities; serve as a voice of the customer back to internal teams.
-- Domain Subject Matter Expertise: Understanding our prospective customer personas, competitors, and the developer ecosystem as a whole.
+- Solving Technical Problems: The expected technical understanding and skillset required in order to deliver value and solutions to prospective customers.
 
 ## When do I get promoted?
 
-When you have demonstrated consistently achieving at least 4 consecutive quarters (1 year min) of high performance at your current level, and one quarter performing at the next level, in all three of the core competencies. It takes time to demonstrate the “consistently” implicit in the expectations, and we don’t want to promote anyone to a level in which they will struggle.
-
-Promotions from one level to another are considered in our bi-annual impact review process.
+See guidance on promotions [here](../../../people-talent/people-ops/process/teammate-sentiment/impact-reviews/#promotion-philosophy).
 
 ## CE Regional Team Leads
 
@@ -76,19 +73,12 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
   <thead>
     <tr>
       <th scope="col">Level</th>
-      <th scope="col" class="category-title">Customer Interactions</th>
-      <th scope="col" class="category-title">Achieve the Technical Win</th>
-      <th scope="col" class="category-title">Technical Customer Success</th>
+      <th scope="col" class="category-title">Relationship Management</th>
+      <th scope="col" class="category-title">Outcomes</th>
       <th scope="col" class="category-title">Contextual Understanding</th>
       <th scope="col" class="category-title">Operational Excellence</th>
       <th scope="col" class="category-title">Sourcegraph Product</th>
-      <th scope="col" class="category-title">Domain Subject Matter Expertise</th>
-      <th scope="col" class="category-title">Customer Drive</th>
-      <th scope="col" class="category-title">High Agency</th>
-      <th scope="col" class="category-title">High Quality</th>
-      <th scope="col" class="category-title">Open & Transparent</th>
-      <th scope="col" class="category-title">Continuously Grow</th>
-      <th scope="col" class="category-title">Work as a Team / Be Welcoming & Inclusive</th>
+      <th scope="col" class="category-title">Solving Technical Problems</th>
     </tr>
   </thead>
 
@@ -99,77 +89,27 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     </tr>
     <tr>
       <td class="level-summary" colspan="13">
-          A Customer Engineer focused on learning, growth, and establishing themselves as a contributing teammate.
+          A Customer Engineer focused on learning, growth, and establishing themselves as a contributing teammate
       </td>
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors">
-        <ul>
-          <li>Can identify high-level customer business and technical needs, mapping their needs to defined use cases.</li>
-          <li>Ability to select the correct communication medium and profile for each communication type and purpose. When communicating with customers, does not over-promise or avoid questions or topics. Provides clear timelines and follows through on commitments.</li>
-          <li>Identify the need for help navigating customers political situations.</li>
-        </ul>
+          Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        With assistance, builds plans for achieving a technical win and can capture technical design.
+        Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Plays an assisting role in producing deliverables that benefit customer needs (eg onboarding plans, collateral, QBR decks, etc). Follows playbooks and templates to guide the customer.</li>
-          <li>Learns how to enable customers against their use cases and business value.</li>
-        </ul>
+          Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Learns different functions and roles internally and externally and appropriately manages relationships and seeks advice and support as appropriate.</li>
-        </ul>
+          Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Learns Sourcegraph processes, templates, and tools. As instructed, with guidance and support, able to complete required activities.</li>
-          <li>Ability to manage own time, providing feedback and asking for guidance as appropriate.</li>
-          <li>Learns Sourcegraph value prop is able to pitch to customers.</li>
-        </ul>
+        Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Learns core out-of-the-box features: what they are, how they work, how to demo and explain them to customers.</li>
-          <li>Ability to assist customers with questions that they have on Sourcegraph.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Learns about our core buying personas, core use cases and value drivers.</li>
-          <li>Can name our primary competitors.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Curious about how our customers work and how we can deliver value to them.
-      </td>
-      <td class="behaviors"></td>
-      <td class="behaviors">
-        <ul>
-          <li>Receives guidance and support to create high-quality outcomes.</li>
-          <li>Takes ownership of tasks - internal and / or external.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Communicates openly where support / assistance is desired.</li>
-          <li>Proactively communicates timelines and status on tasks.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Open and receptive to feedback and new / different ways of accomplishing a task.</li>
-          <li>Looks for opportunities to improve own processes and workflows.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Treats everyone with respect and empathy, and consistently works well with others to get work done well.</li>
-          <li>Learning to appreciate and different perspectives, and ask for those perspectives when developing solutions.</li>
-        </ul>
+        Not currently defined; will be defined based on future business need.
       </td>
     </tr>
     <!-- IC2 -->
@@ -183,81 +123,22 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors">
-        <ul>
-          <li>Can ask open-ended questions that validate use cases and uncover new opportunities.</li>
-          <li>Maintains clear communication to internal and external stakeholders. In customer interactions, seeks additional context to confirm understanding where appropriate. Shows an ability to influence customer (scope, use cases) towards best practices.</li>
-          <li>Demonstrated ability to navigate customers political situations in partnership and with guidance from Leadership.</li>
-        </ul>
+          Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        With limited direction or assistance, can build a clear technical win and define the technical design for customer solution. Able to identify non-standard or high-risk requirements.
+        Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>With assistance defines customers' business outcomes. Performs activities (demos, trials, webinars) that center around customer stated needs.</li>
-          <li>Participates in internal projects that help fill gaps, mature processes, and deliver more value to our business and our customers.</li>
-        </ul>
+          Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Uses different functions and roles internally and externally to drive success with accounts and internal projects.</li>
-          <li>Can identify a Champion by understanding ways to test if someone is a Champion.</li>
-          <li>Identifies new and potential advocates - builds relationships with them.</li>
-        </ul>
+          Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Adopts Sourcegraph processes, templates, and tools; completes deliverables and activities according to process.</li>
-          <li>Ability to manage own time and prioritize across multiple accounts, providing feedback and asking for guidance as appropriate.</li>
-          <li>Understands and applies Sourcegraph value prop and is able to tailor customer pitch and match value prop to stakeholders' unique needs.</li>
-        </ul>
+        Not currently defined; will be defined based on future business need.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Understands how core out-of-the-box features provide value and is able to explain them to customers against their needs.</li>
-          <li>Ability to assist customers with questions that they have on Sourcegraph.</li>
-          <li>Identifies potential issues/limitations of our product or features against the customer's need / stack, and raises them as product gaps when they impact the customer.</li>
-          <li>Voice of the customer: Provides timely and accurate feedback to Product to drive improvements to Sourcegraph.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Demonstrated understanding of our core buying personas, core use cases and value drivers.</li>
-          <li>Basic up-to-date understanding of competitors' high-level capabilities on Sourcegraph's competitive landscape.</li>
-          <li>Knows the developer ecosystem enough to be able to speak to tools companies use and how they use them.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Understands how our customers work and how we can deliver value to them, enjoys commercial and strategic discussions and shares insights with others.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Applies agency over their work by looking for solutions to challenges, applying good thinking and seeking clarity and direction when needed.</li>
-          <li>Applies agency over their wellbeing by managing their own time while finding balance and creating rest.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Gets clarity to understand what’s required to deliver high-quality outcomes: what good looks like and what the timelines are.</li>
-          <li>Owns their own delivery, managing expectations and owning setbacks effectively.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Communicates the right information at the right time by effectively using synchronous and asynchronous channels, so everyone is involved and informed.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Owns their own development: asks for feedback and direction on developmental priorities, and resources to learn from.</li>
-          <li>Is composed under pressure and flexible to change, able to unlearn/relearn with ease, and asks the necessary questions to clarify ambiguity.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Seeks out different perspectives, and consistently calls for those perspectives when developing solutions.</li>
-          <li>Volunteers to support teams or groups outside of their own team.</li>
-        </ul>
+        Not currently defined; will be defined based on future business need.
       </td>
     </tr>
     <!-- IC3 -->
@@ -266,84 +147,46 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     </tr>
     <tr>
       <td class="level-summary" colspan="13">
-        An individual contributor that demonstrates required and desired capabilities; a Senior CE.</td>
+        An individual contributor that demonstrates required and desired capabilities.</td>
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors">
         <ul>
-          <li>Can ask strategic questions that both articulate customer pain and quantify the impact of it.</li>
-          <li>Handles customer objections, diffuses situations, and serves as a steady and calm representative of Sourcegraph to the customer especially in complex and political situations. Communicate and negotiate to drive successful client interactions. Escalates properly and in a timely manner.</li>
-          <li>Demonstrated ability to navigate political situations with customers to achieve desired outcomes with no guidance needed.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Entirely self-directed, can build a clear technical win plan and technical design for customers. Able to raise requests to internal teams on behalf of customer needs.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Responsible for defining and subsequently orienting activities against customers' business outcomes. Leads the readout via QBRs. Influences and adapts plans to changing conditions while driving execution to deliver value. Appropriately adapts workflows to the customers' needs; displays the appropriate sense of urgency on behalf of the customers' needs.</li>
-          <li>Demonstrated ability to connect Sourcegraph capabilities to client's use cases.</li>
+          <li>Customer Relationships & Influence: Engages with prospective customers in a technical consultancy role during the pre-sales process while providing technical assistance and solution guidance. Builds relationships with key stakeholders to enable them to be Sourcegraph advocates and champions.</li>
+          <li>Soft-skills: Able to establish personal, product, and company-level credibility through communication. Demonstrated ability to mirror the tone of conversations. Ability to create confidence and excitement in Sourcegrah's capabilities. Negotiates to drive successful client interactions, overcoming common objections; escalates properly and in a timely manner with clear communication throughout.</li>
+          <li>Discovery: Ability to ask open-ended strategic questions that articulates customer pain and can quantify the impact of it.</li>
+          <li>Voice of the Customer: Serve as an advocate to Sourcegraph engineering and marketing teams representing prospective customer needs. Provide insights and input into feature development that may impact team or customer experience.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Ability to properly and timely identify stakeholders and roles and to address them appropriately.</li>
-          <li>Ensures necessary roles are proactively involved on accounts and projects.</li>
-          <li>Nurtures Champion relationship by building plans to strengthen rapport, enable their ability to effectively sell Sourcegraph internally, and align Sourcegraph's success against their personal win.</li>
+          <li>Trial & Technical Win: Able to build a clear and comprehensive trial plan (with complete success criteria) and technical design document. Leads the customer technical evaluations entirely self-directed.</li>
+          <li>Delivery: Ensures timely resolution of issues by managing technical support responses and escalations, communicating priority and urgency appropriately.</li>
+          <li> Value: Applies Sourcegraph Value Framework throughout the sale, tying activities back to outcomes and value.</li>
+          <li>Internal Impact: Creates and shares content based on customer needs.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>While adhering to process, able to identify and provide timely feedback and updates on identified blockers, delays, and risks identified or raised.</li>
-          <li>When creating trial / deployment plans, able to identify interruptions and identify potential paths to keep activities on schedule.</li>
-          <li>Applies Sourcegraph value prop throughout the sale and entire customer journey.</li>
+          <li>External: Able to properly identify stakeholders and roles, and able to tailor messaging to each appropriately. Can correlate our core uses cases and value drivers per stakeholder persona (IC Eng, IC DevOps, IC Security Analyst, EM, VP, etc).</li>
+          <li>Competitive Landscape: Firm understanding of competitors’ high-level capabilities (including a 'do nothing' mentality) and applies knowledge of these capabilities into objection-handling and solution positioning through differentiation.</li>
+          <li>Domain Ecosystem: Possesses comprehensive knowledge of the Sourcegraph platform and associated domain knowledge, educates prospective customers of all sizes on the value proposition of Sourcegraph while participating in discussions throughout the organization to ensure successful Sourcegraph deployment and adoption.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Understands how core out-of-the-box features are used by other customers in a similar team / vertical / space.</li>
-          <li>Can guide the customer on how to configure parts of the product based on known best practices.</li>
-          <li>Identifies potential issues/limitations of our product or features against the customer's need / stack, and raises them as product gaps when they impact the customer.</li>
-          <li>Voice of the customer: Provide insights and input into feature development and other RFCs that may impact team or customer experience.</li>
-          <li>Understands the various technical concepts that go into deciding to build or buy something like Sourcegraph.</li>
+          Process & Deliverables: While adhering to process, provides timely feedback and updates on identified blockers, delays, and risks identified or raised. When creating trial / deployment plans, able to identify interruptions and identify potential paths to keep activities on schedule. Keeps systems up-to-date.
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Can correlate core uses cases and value drivers per persona (IC Eng, IC Dev Ops, IC Security Analyst, EM, VP, etc).</li>
-          <li>Firm understanding of competitors' high-level capabilities on Sourcegraph's competitive landscape and weaves this knowledge into objection handling and solution positioning.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Thinks beyond day-to-day tasks and contributes insights of strategic and commercial value, that help us deliver value to customers.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Proactively analyses challenges and consults to get relevant input, before generating a variety of solutions, and selecting the right one with confidence.</li>
-          <li>Applies agency over their wellbeing by managing their own time while finding balance and rest.</li>
-          <li>Guides and mentors junior less experienced teammates accordingly.</li>
+          <li> Features & Architecture: Understands how core out-of-the-box features are used by other customers in a similar team / vertical / space. Can guide the customer on how to configure parts of the product based on known best practices. Identifies potential issues/limitations of our product or features against the customer’s need / stack, and raises them as product gaps when they impact the customer.</li>
+          <li>Internal: Regularly improves Sourcegraph documentation for clarity and accuracy, adding new explanations, examples, and sections based on experience.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>May mentor junior employees and each other.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Communicates effectively and is learning to present internally and externally.</li>
-          <li>Viewed as approachable and builds trust easily with internal and external teams.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Owns their own development and is receptive to challenges and feedback.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Works and interacts effectively with people from diverse backgrounds, preferences and perspectives, and understands how to weave these to create better solutions.</li>
-          <li>Rarely encounters someone they can't work with, and proactively initiates contact with others to solve conflict.</li>
+          Able to identify the need for creative solutioning, can fully vet non-typical customer requirements and raises within the team to deliver a workable solution.
         </ul>
       </td>
     </tr>
@@ -353,87 +196,49 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     </tr>
     <tr>
       <td class="level-summary" colspan="13">
-        A particularly experienced individual contributor that has mastered capabilities especially in complex circumstances; a Senior CE.
+        A particularly experienced individual contributor that has mastered capabilities especially in complex circumstances
       </td>
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors">
         <ul>
-          <li>Masters asking strategic questions that uncover new use cases, validate existing use cases, uncovers latent customer pain and educates the customer on their needs.</li>
-          <li>Can appropriately push back with clients and negotiate mutually agreed outcomes in contentious situations with the customer. Communicates and negotiates to drive successful and repeatable client interactions.</li>
-          <li>Reliably and consistently delivers in the midst of political situations with customers to achieve desired outcomes.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Designs solutions and phased roll out plans / technical design plans against customer needs. Negotiates and influences customer needs and design according to best practices, owning the technical design for customer solutions.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Proactively manages customer activities and constantly aligns clients expectations to schedule and deliverables. Creates playbooks, processes that improve the consistency and level of customer success. Mentors CE's on how to effectively apply playbooks and templates. Possess both technical acumen, but also ability to mentor on soft skills in leading by example.</li>
-          <li>Demonstrated ability to understand the client's value measurement and overarching objectives, and articulate and highlight Sourcegraph business value accordingly.</li>
+          <li>Customer Relationships & Influence: Engages with prospective customers in a technical thought-leadership role. Leverages existing Champions to gain wider access into an account. Uses champions to mitigate detractors, gain access to Economic Buyers (EBs), and find new teams and use-cases to drive expansion.</li>
+          <li>Soft-skills: Able to set the tone of conversations. Able to positively persuade new prospects of Sourcegrah's value and capabilities. Able to appropriately push back with prospects and negotiate mutually agreed outcomes in contentious situations, reliably and consistently delivers in the midst of political situations with customers to achieve desired outcomes.</li>
+          <li>Discovery: Masters asking open-ended strategic questions; doing so uncovers new use cases, validates existing use cases, and uncovers latent customer pain.</li>
+          <li>Voice of the Customer: Serves as an active collaborator with Sourcegraph engineering and marketing teams to deliver solutions that address customer needs. Speaks directly to the impact / benefit of gaps, features, and needs to internal teams.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Leverages existing Champions to gain wider access into an account.</li>
-          <li>Uses champions to mitigate detractors, gain access to Economic Buyers (EBs), and find new teams and use-cases to drive expansion.</li>
+          <li>Trial & Technical Win: Able to design a phased trial plan and technical design documents against complex customer needs. Negotiates and influences scope, plan, and design according to best practices with proven risk mitigation.</li>
+          <li>Delivery: Works with cross-functional teams to align product solutions to meet customer needs in complex scenarios and resolves integration issues as part of initial technical win. Ensures timely resolution of technical issues by coordinating across multiple internal stakeholders to ensure successful resolution of customer needs.</li>
+          <li>Value: Applies Sourcegraph's Value Framework to influence higher close rates are seen (with unsuccessful ops qualified out earlier).</li>
+          <li>Internal Impact: Anticipates a need or disconnect by which custom content can clarify and progress the relationship, delivering against the need.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Proactively raises blockers, delays, and risks and also establishes proposed solutions or workarounds. Looks for abilities to modify scope / use cases to ensure forward progress against defined process.</li>
-          <li>Creates complex trial and deployment plans and executes against schedule.</li>
+          <li>External: Correlates complex uses cases and value drivers per persona (IC Eng, IC Dev Ops, IC Security Analyst, EM, VP, etc).</li>
+          <li>Internal: Provide mentorship for team members and serves as an active contributor to team-learning initiatives and activities.</li>
+          <li>Competitive Landscape: Advanced up-to-date knowledge of competitors' high-level capabilities on Sourcegraph's competitive landscape and their key value propositions, strengths and weaknesses. Able to articulate a before and after scenario that favorably positions Sourcegraph for success.</li>
+          <li>Domain Ecosystem: Drawing from own experience, and knowledge of the developer ecosystem speaks to tools companies use, how they use them, limitations of them, and how Sourcegraph fits in.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Understands advanced features to deliver customer value through extensibility and customization</li>
-          <li>Leads the customer on best practices for configuring and using the product, steering clear of less ideal designs in complex customer environments.</li>
-          <li>Can consistently technically advise a path forward when an issue/limitation has been identified.</li>
-          <li>Voice of the customer: Speaks directly to the impact / benefit of gaps, features, and needs to internal teams.</li>
-          <li>Can articulate technical concepts that go into deciding to build or buy something like Sourcegraph and influences accordingly.</li>
+          <li>Process & Deliverables: Proactively anticipates, identifies, and raises blockers, delays, and risks while also establishing proposed solutions or workarounds. Looks for abilities to modify scope / use cases to ensure forward progress against defined process. Creates complex trial and deployment plans and executes against schedule.</li>
+          <li>Internal: Leads clear communications to internal stakeholders, tailored appropriately for the audience. Makes clear asks and communicates clear next steps with committed dates.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Correlates complex uses cases and value drivers per persona (IC Eng, IC Dev Ops, IC Security Analyst, EM, VP, etc).</li>
-          <li>Advanced up-to-date knowledge of competitors' high-level capabilities on Sourcegraph's competitive landscape and their key value propositions, strengths and weaknesses.</li>
-          <li>Draws from own experience, and knowledge of the developer ecosystem speaks to tools companies use, how they use them, limitations of them, and how Sourcegraph fits in.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Challenges whether goals are customer-oriented.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Pre-empts challenges to manage risk, and steps in early to ensure they are resolved quickly and avoid escalation.</li>
-          <li>Consults to get relevant input, before generating a variety of solutions, and selecting the right one with confidence.</li>
-          <li>Applies agency over their wellbeing by managing their own time while finding balance and rest.</li>
-          <li>Guides and mentors junior less experienced teammates accordingly.</li>
+          <li>Features & Architecture: Understands advanced features to deliver customer value through extensibility and customization. Leads the customer on best practices for configuring and using the product, steering clear of less ideal designs in complex customer environments. Can consistently technically advise a path forward when an issue/limitation has been identified.</li>
+          <li>Internal: Maintain a positive personal brand through Sourcegraph-relevant participation channels. Mentor and support junior teammates.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Leads by example in producing quality work and is a trusted and reliable source on the team for guidance on what good work looks like.</li>
-          <li>Leans in to help managers keep work on track.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Thinks on their feet and can articulate and communicate a point of view while building trust and rapport.</li>
-          <li>Learning to persuade and challenge clients and internal stakeholders, using valid expertise and respectful communication.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Is a role model for personal development and two-way feedback.</li>
-          <li>Challenges the status quo and highlights potential opportunities in change.</li>
-          <li>Is a beacon of composure through change and ambiguity, taking things in their stride but challenging where appropriate.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Guides others on effective collaboration, conflict resolution and improved communication.</li>
+          Able to deliver a custom solution to meet a stated customer need.
         </ul>
       </td>
     </tr>
@@ -443,86 +248,48 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     </tr>
     <tr>
       <td class="level-summary" colspan="13">
-        An individual who excels in their capabilities and emphasizes leadership and growth; a Principal CE.</td>
+        An individual who excels in their capabilities and emphasizes leadership and growth.</td>
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors">
         <ul>
-          <li>Uses broad and deep technical knowledge along with proven ability to ask strategic questions that uncover new use cases, validate existing use cases and uncovers latent customer pain, but can tie impact of Sourcegraph to customer's business outcomes.</li>
-          <li>Capable of selecting the appropriate engagement style (light touch, consultative, deep technical handholding, ..) and changing it based on context.</li>
-          <li>Situational awareness and capability to involve the right resources based on cultural/personality aspects that match client expectations / fit context.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Turns gaps into opportunities by formulating a plan for success and driving activity against that plan on behalf of customers.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Builds playbooks, processes, and templates for customers.</li>
-          <li>Influences and actively contributes to team decisions and actively champions change, setting a positive example for others to emulate.</li>
-          <li>Scales outcomes by improving current, and helping define new, standards for driving customer outcomes for the team through the development and communication of best practices, improved processes, etc.</li>
+          <li>Customer Relationships & Influence: Builds and maintains relationships with customer executives (VP level+) as an industry SME, and uses those relationships to progress our position and relationship. Situational awareness and capability to involve the right resources based on cultural/personality aspects that match client expectations / fit context. Can reference examples of where we have uncovered new opportunities to make Sourcegraph stickier and more widely used.</li>
+          <li>Soft-skills: Capable of selecting the appropriate engagement style (light touch, consultative, deep technical handholding, ..) and changing it based on context.</li>
+          <li>Discovery: Uses broad and deep technical knowledge, along with proven ability to ask strategic questions, to uncover new use cases, validate existing use cases, and uncover latent customer pain, and can tie impact of Sourcegraph to customer's business outcomes.</li>
+          <li>Voice of the Customer: Collaborates with engineering, marketing, sales, and management on strategies that result in an improved win rate. Demonstrated ability to manage project and product changes by re-aligning internal and external teams to customer needs and business value.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Mentors junior ICs on how to best engage various functions and roles.</li>
-          <li>Able to go into an account and find new advocates; able to identify potential champions for AE to lead the effort to establish a relationship.</li>
+          <li>Trial & Technical Win: Turns gaps into opportunities by formulating a plan for success and technical design while leading activity against the trial plan on behalf of customers. Leads complex, large-scale technical wins.</li>
+          <li>Delivery: Provide assistance to Sourcegraph teammates as a pre-sales and technical solutions subject matter expert across top ARR customers and top iARR expansion opportunities.</li>
+          <li>Value: Applies Sourcegraph's Value Framework to such an extent that subsequent expansions are achieved within the account.</li>
+          <li>Internal Impact: Identifies patterns of needs and subsequently delivers high-value, reusable content (both enablement and customer-facing) that measurably improves the team's effectiveness and execution.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Documents setups and customizations to enable other teams. Identifies and mitigate or escalates risks prior to becoming issues.</li>
-          <li>Acts as role model for more junior/new team members for managing time. Makes proposals to improve operating model and tools.</li>
-          <li>Applies Sourcegraph's Value Framework to such an extent that deals have closed for larger amounts, higher close rates are seen (with unsuccessful ops qualified out earlier), and greater ongoing success and expansion of accounts as a result of application.</li>
+          <li>External: Able to go into an account and find new advocates; able to identify potential champions for AE to lead the effort to establish a relationship. Enables and excites advocates (both customer and external/industry) on Sourcegraph technologies and solutions.</li>
+          <li>Internal: Actively mentors junior ICs on how to best engage various functions and roles and can point to positive outcomes in other opportunities as a result of direct mentorship.</li>
+          <li>Competitive Landscape: Through expertise and experience, brings insights back to internal teams to help Sourcegraph further differentiate our capabilities both rooted in customer scenarios and broader industry trends.</li>
+          <li>Domain Ecosystem: Use technical and market knowledge to create new solutions with customers that can influence expansion opportunities of products to broader Sourcegraph customer base. Able to articulate industry trends including use cases and challenges, and how they relate to Sourcegraph. Build and maintain select subject matter expertise related to Sourcegraph targeted industries through monitoring and / or participation in external working groups or committees.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Understands advanced features to deliver customer value through extensibility and customization</li>
-          <li>Ability to guide a technical audience towards good engineering disciplines and demonstrated experience in what it takes to incorporate Sourcegraph into a customer architecture.</li>
-          <li>Voice of the customer: Demonstrated ability to manage project and product changes by re-aligning internal and external teams to customer needs and business value.</li>
+          <li>Process & Deliverables: Documents setups and customizations to enable other teams. Creates reference architectures for complex architectures and effectively communicate the design and it's value to customers and Sourcegraph team members. Is the shining example for all others to emulate, particularly in complex and high-stakes situations.</li>
+          <li>Internal: Acts as role model for more junior/new team members for managing time. Influences process improvements and directly iterates on existing deliverables. Champions change directly and leads team enablement.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Correlates complex uses cases and value drivers per persona (IC Eng, IC Dev Ops, IC Security Analyst, EM, VP, etc).</li>
-          <li>Advanced up-to-date knowledge of competitors' high-level capabilities on Sourcegraph's competitive landscape and their key value propositions, strengths and weaknesses.</li>
-          <li>Enables and excites advocates (both customer and external/industry) on Sourcegraph technologies and solutions.</li>
-          <li>Able to articulate industry trends including use cases and challenges, and how they relate to Sourcegraph.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        Acts as a trusted advisor, drawing on functional expertise to inform customer-driven strategy and commercial thinking.
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Applies agency over their own workload but also the expertise and scalability of the team.</li>
-          <li>Plans ahead to anticipate and act on the needs of own team, internal and external stakeholders.</li>
-          <li>Applies technical expertise to proactively analyze challenges and is consulted to find the right decisions for complex problems.</li>
+          <li>Features & Architecture: Understands advanced features to deliver customer value through extensibility and customization. Anticipates issues and limitations and either descopes or delivers a custom solution to address the need. Ability to guide a technical audience towards good engineering disciplines and demonstrated experience in what it takes to incorporate Sourcegraph into a customer architecture.</li>
+          <li>Internal: Shares subject matter expertise through Slack posts, documentation updates, internal technical collaboration, and other common collaboration mechanisms.</li>
         </ul>
       </td>
       <td class="behaviors">
         <ul>
-          <li>Leads quality by providing technical expertise internally and externally, informing what can be achieved and providing structured educational leadership for the team.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Effectively able to persuade and challenge clients and internal stakeholders, using valid expertise and respectful communication.</li>
-          <li>Regularly shares knowledge and is effective at presenting to large and/or senior audiences.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Advocates personal development and two-way feedback for the entire team.</li>
-          <li>Challenges the status quo and highlights potential opportunities in change.</li>
-          <li>Is a beacon of composure through change and ambiguity, taking things in their stride but challenging where appropriate.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Welcomes and works effectively with people from diverse backgrounds, preferences and perspectives, and understands how to weave these to create better solutions.</li>
-          <li>Advocates for others, recognizes and creates space for less vocal members.</li>
+          Proactively identifies opportunities or gaps where a custom solution can solve a need, able to deliver a working solution to address need.
         </ul>
       </td>
     </tr>
@@ -536,64 +303,23 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors">
-        <ul>
-          <li>Can reference examples of where we have uncovered new opportunities to make Sourcegraph stickier and more widely used.</li>
-          <li>Strong interpersonal skills and influence interfacing directly with Director, VP, C-level audiences and also at DevOps, architect and dev team levels, too</li>
-        </ul>
+        We haven't defined this level at Sourcegraph yet, which would be equivalent in impact to a Director. Like IC5, this is a different role than the levels preceding it based not only on performance, but also company need, and (like IC5) what impact at this level looks like may vary more from person to person than at preceding levels.
       </td>
       <td class="behaviors">
-        Recognized as an industry influencer and thought leader around code search.
+        We haven't defined this level at Sourcegraph yet, which would be equivalent in impact to a Director. Like IC5, this is a different role than the levels preceding it based not only on performance, but also company need, and (like IC5) what impact at this level looks like may vary more from person to person than at preceding levels.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Plays reference role on the team and leads initiatives.</li>
-          <li>Secures team buy-in and organizational readiness on new initiatives.</li>
-        </ul>
+        We haven't defined this level at Sourcegraph yet, which would be equivalent in impact to a Director. Like IC5, this is a different role than the levels preceding it based not only on performance, but also company need, and (like IC5) what impact at this level looks like may vary more from person to person than at preceding levels.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Ability to build executive champions and get their buy-in on Sourcegraph providing a significant impact on their development organizations, and their company as a whole.</il>
-        </ul>
-      </td>
-      <td class="behaviors"></td>
-      <td class="behaviors">
-        <ul>
-          <li>Understands advanced features to deliver customer value through extensibility and customization</li>
-          <li>As a thought leader, creates architectural best practices on development ecosystems that leverage Sourcegraph. These best practices are recognized by customers and used to drive competitive advantage for organizations.</li>
-        </ul>
+        We haven't defined this level at Sourcegraph yet, which would be equivalent in impact to a Director. Like IC5, this is a different role than the levels preceding it based not only on performance, but also company need, and (like IC5) what impact at this level looks like may vary more from person to person than at preceding levels.
       </td>
       <td class="behaviors">
-        <ul>
-          <li>Correlates complex uses cases and value drivers per persona (IC Eng, IC Dev Ops, IC Security Analyst, EM, VP, etc).</li>
-          <li>Advanced up-to-date knowledge of competitors' high-level capabilities on Sourcegraph's competitive landscape and their**** key value propositions, strengths and weaknesses.</li>
-          <li>Can advise customers on how to build a developer ecosystem with Sourcegraph.</li>
-        </ul>
+        We haven't defined this level at Sourcegraph yet, which would be equivalent in impact to a Director. Like IC5, this is a different role than the levels preceding it based not only on performance, but also company need, and (like IC5) what impact at this level looks like may vary more from person to person than at preceding levels.
       </td>
       <td class="behaviors">
-        Showcases influence over customers through trust.
+        We haven't defined this level at Sourcegraph yet, which would be equivalent in impact to a Director. Like IC5, this is a different role than the levels preceding it based not only on performance, but also company need, and (like IC5) what impact at this level looks like may vary more from person to person than at preceding levels.
       </td>
-      <td class="behaviors">
-        <ul>
-          <li>Applies agency over their own workload but balances against the most pressing needs of the business and our customers.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Sets the standard for what high quality looks like by providing technical expertise internally and externally, informing what can be achieved and providing structured educational leadership for the team.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Regularly shares knowledge, coordinates cross-sharing internal and across teams.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Advocates means for creating growth opportunities across the team.</li>
-          <li>As an individual, seeks out feedback from others and showcases leadership.</li>
-        </ul>
-      </td>
-      <td class="behaviors"></td>
     </tr>
   </tbody>
 </table>

@@ -5,7 +5,7 @@ Google drive is the main repository for sales resources and the sales folder can
 ## Frequently Requested Files
 
 - [Sourcegraph Contract Packet for Customers](https://drive.google.com/file/d/1w0utoZD0bXEgZXRRa1n8cNguZ1IAITWv/view?usp=sharing)
-- [Sourcegraph W9](https://drive.google.com/u/0/uc?id=1M_facxwZwfVU0iAP7rXemPcZNkwjL8Dn&export=download)
+- [Sourcegraph W-9](https://drive.google.com/u/0/uc?id=1M_facxwZwfVU0iAP7rXemPcZNkwjL8Dn&export=download)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download)
 - [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download) To add a customer's name to our COI, reach out to Steve.Moore@newfront.com with the customer's request and information and cc legal@sourcegraph.com.
 - [Corporate Information for Customer/Vendor/Partner Questionnaires](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
@@ -54,6 +54,8 @@ To update a template place the new template in the main Sales Template folder, n
 - [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
 - [Sales / Privacy Prospecting Guidelines](https://docs.google.com/document/d/1XMU2eKnDVweTwsMwo5oSSSmCVP9DIsSBeMiR4qufK1U/edit?usp=sharing)
 - [Sales & Marketing Privacy FAQs](https://docs.google.com/document/d/1rN1iW1za_Jk7ZdWe7vogPzucHk2FCe43eW5zGvIn9mA/edit?usp=sharing)
+- [Commission Processing and Plan Information](../../../departments/finance/process/commissions.md)
+- [CaptivateIQ Information](../../../departments/finance/process/Captivate.md)
 
 ## Customer Notes
 

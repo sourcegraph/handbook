@@ -70,6 +70,8 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 [ARR Definitions](arr-definitions.md)
 
+[GTM Operations Review](Gtmopsreview.md)
+
 ## FY23 Budget
 
 The FY23 plan was communicated, and approved, by the Board, at January 22, 2022. You can see the details of the plan [Here](https://docs.google.com/presentation/d/1lpLVcSnMQxtShbrB2w4GfX_V70mPkiS12lFHsRDCGgk/edit#slide=id.g7d2aea8729_0_0). At the time of completing this plan, the expected company headcount as of year end FY22 was 252. The plan approved for an addition of 130 heads in FY23 meaning that we will exit FY23 with 382. The plan also captures significant growth for year on year investment in our marketing program spend, software spend, and professional services spend. The plan was built following detailed consultation and input from our Leadership team. We focused on the key questions:
@@ -172,6 +174,11 @@ Additional Links:
 ### Fixed Assets
 
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)
+
+### Commission Processing
+
+- [Commission Processing & Plan Information](process/commissions.md)
+- [CaptivateIQ Information](process/Captivate.md)
 
 ## Deal Desk
 

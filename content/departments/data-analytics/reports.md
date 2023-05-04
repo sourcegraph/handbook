@@ -8,9 +8,9 @@ The Data & Analytics team uses two primary tools for dashboards and reporting - 
 
 Looker is a business intelligence tool used for standard enterprise reporting and ad hoc reporting and analysis. All Sourcegraph employees can have View access to Looker. Some groups have the ability to create reports/explore datasets. If you need help getting access to Looker, please reach out to #ask-it-tech-ops.
 
-**March 2022 update**
+**March 2023 update**
 
-Please be advised that on March 31, 2022 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#) for more details about these changes and how to navigate the new project. We've also created a [video demo](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f) to help you find old content in the new project.
+Please be advised that on March 31, 2023 we transitioned to to a new project in Looker in order to improve performance, deprecate outdated content, add new content, and give existing content a refresh. As a result, a lot of content was changed and re-organized, and links to content from the old project have broken. Please see the [FAQ](https://docs.google.com/document/d/1YifxeTcNdAVYT9Kiq2-O0pK7qBKBKW0gyiuoLhNI2v0/edit#) for more details about these changes and how to navigate the new project. We've also created a [video demo](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f) to help you find old content in the new project.
 
 #### **What data can I find in Looker?**
 
@@ -144,7 +144,7 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 
 Amplitude is a business intelligence tool specifically for product analytics, unlike Looker, which visualizes many different types of data. Amplitude is where we visualize user-level, event-stream data for both customers and for Sourcegraph.com. It can be used to create reports, perform ad-hoc analysis, and understand the user journey, and is therfore often most useful for designers and product managers.
 
-### **Notable reports: **
+### **Notable reports**
 
 - [Cloud growth metrics](https://analytics.amplitude.com/sourcegraph/dashboard/ya9aoy7?source=search): high-level growth metrics such as traffic, activation, and retention for Sourcegraph cloud
 - [Organizations on cloud overview](https://analytics.amplitude.com/sourcegraph/dashboard/8towezl?source=search)**: **high-level growth metrics for organizations participating in our beta program on cloud

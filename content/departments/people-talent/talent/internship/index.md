@@ -125,7 +125,7 @@ Wage and hour guidelines
 Payroll
 
 - We use Rippling to report/approve internship working hours.
-- When your intern submits their hours in Rippling each pay-period, you will receive an email letting you know that there is a timecard waiting for your approval. Simply open the email, review the information, and select the 'Review and Approve' button. This will direct you to the Rippling platform where you can review more timecard details and approve them if accurate. If you have any payroll/Rippling questions, please reach out to Keely Aguayo.
+- When your intern submits their hours in Rippling each pay-period, you will receive an email letting you know that there is a timecard waiting for your approval. Simply open the email, review the information, and select the 'Review and Approve' button. This will direct you to the Rippling platform where you can review more timecard details and approve them if accurate. If you have any payroll/Rippling questions, please reach out to payroll@sourcegraph.com.
 - Note: The required 30 minute lunch break is unpaid, but the required 10 minute breaks should be paid and do not need to be tracked on timesheets.
 
 1:1 Meetings
@@ -135,7 +135,7 @@ Payroll
 #### Points of contact
 
 - [Tammy](../../../../team/index.md#tammy-zhu) - for legal questions
-- [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
+- payroll@sourcegraph.com - for payroll questions
 - [Kemper](../../../../team/index.md#kemper-hamilton) - for onboarding and all other internship program questions
 
 ## 2022 internship cohort

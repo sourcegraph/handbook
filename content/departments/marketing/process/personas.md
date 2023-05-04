@@ -8,11 +8,13 @@ Sourcegraph caters to any developer with Big Code pains: At a big company / ente
 
 **Buyer**:
 
+- Head of Engineering: Crucial part of the relationship Sourcegraph has with the Engineering org. Usually, the engagemenet takes place via EBC, intros, and other executive-level interactions. **Example roles:** SVP Eng; VP Eng. [Additional directional info in this slide](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46).
+
+The following 2 buyers will probably be less relevant as buyers per se when selling Cody:
+
 - Security Engineering Leader: Usually experiences the most acute pain, but also operates in a more crowded space and more compartmentalized vs. the rest of Eng (so they are more likely to only look at a narrow value prop).
 
-- Platform/Infrasctracture Leader: Probably experiences the pain slightly less acutely, but still very seriously. Not all companies have a clear platform/infra leader, but that is changing; This function is much better integrated with the rest of Engineering, so more likely to see resonance by broader value prop. **Example roles:** Dir of Platform Eng; Sr Manager of Infrastructure Eng; Developer Platform. Also connects to [Admin Personas](../../../strategy-goals/strategy/admin-experience/admin-experience-personas.md).
-
-- Head of Engineering: Crucial part of the relationship Sourcegraph has with the Engineering org. Usually, the engagemenet takes place via EBC, intros, and other executive-level interactions. **Example roles:** SVP Eng; VP Eng. [Additional directional info in this slide](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46).
+- Platform/Infrastructure Leader: Probably experiences the pain slightly less acutely, but still very seriously. Not all companies have a clear platform/infra leader, but that is changing; This function is much better integrated with the rest of Engineering, so more likely to see resonance by broader value prop. **Example roles:** Dir of Platform Eng; Sr Manager of Infrastructure Eng; Developer Platform. Also connects to [Admin Personas](../../../strategy-goals/strategy/admin-experience/admin-experience-personas.md).
 
 ## The persona / customer journeys:
 

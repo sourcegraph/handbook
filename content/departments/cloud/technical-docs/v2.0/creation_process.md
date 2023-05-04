@@ -43,22 +43,7 @@ Then watch out for notification in #cloud-notifications or tail logs in GitHub A
 
 ### Wrapping up
 
-> NOTE: This is temporary, learn more: https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1671034214541469
-
-Check out to the PR, and update `config.yaml` of the new instance to allow CE access to the instance
-
-```yaml
-spec:
-  debug:
-    additionalAdminEmails:
-      - <insert assigned CE email>
-```
-
-```sh
-mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce okta.instance-group
-```
-
-Once it's finished, merge the Pull Request opened by GitHub Actions, then manually apply the license key:
+Merge the Pull Request opened by GitHub Actions, then manually apply the license key:
 
 > make sure you pull the latest change from `main`
 
@@ -70,12 +55,19 @@ mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_K
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key gsm://projects/sourcegraph-secrets/secrets/internal-or-dev-src-license-key siteconfig.license-key
 ```
 
+[Optional - only for manual process] Add customer admin to the instance
+
+```sh
+mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -customer-admin-email $CUSTOMER_ADMIN_EMAIL
+```
+
 In the GitHub issue, tag the assigned CE/AE the instance is ready with the following message. Also notify the assigned CE/AE in the Slack thread:
 
 ```
 Hi,
 
-The instance has been provisioned and set password email has been sent to the mentioned customer admin
+The instance has been provisioned and set password email has been sent to the mentioned customer admin.
+For instance operations, please go to http://go/cloud-ops.
 ```
 
 ## Option II - manual playbook
@@ -164,12 +156,23 @@ mi2 instance list -e dev | jq -erM 'any(.[]; (.spec.domain == "'$DOMAIN'") and (
 mi2 instance list -e prod | jq -erM 'any(.[]; (.spec.domain == "'$DOMAIN'") and (.metadata.name != "'$INSTANCE_ID'")) | not'
 ```
 
+### [Optional] Increase infastructure resources
+
+i.e. change VM size in `config.yaml`
+
+```sh
+gcp:
+  gke:
+    blue:
+      machineType: n2-highmem-8
+```
+
 ### Init deployment - generate cdktf stacks artifacts
 
 Generate the terraform (cdktf) modules (stacks) and prompt you to apply the terraform module
 
 ```sh
-mi2 generate cdktf -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+mi2 generate cdktf -e $ENVIRONMENT --slug $SLUG
 ```
 
 ### Init deployment - create terraform cloud workspaces
@@ -183,7 +186,7 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/
 
 ```sh
 cd terraform/stacks/tfc
-erraform init && terraform apply -auto-approve
+terraform init && terraform apply -auto-approve
 ```
 
 ### Init deployment - deploy cdktf stacks
@@ -203,7 +206,18 @@ mi2 instance tfc deploy -auto-approve
 Go back to the repo root directory, rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
 
 ```sh
-mi2 generate kustomize -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+mi2 generate kustomize -e $ENVIRONMENT --slug $SLUG
+```
+
+### [Optional] Kustomize application resources
+
+Create kustomize file `values.yaml` with application resource kustomization
+
+Add file to config.yaml and re-generate kustomization files
+
+```sh
+mi2 instance edit --jq '.spec.cluster.values.valuesFiles += ["./values.yaml"]'
+mi2 generate kustomize -e $ENVIRONMENT --slug $SLUG
 ```
 
 ### Init deployment - deploy apps
@@ -224,13 +238,21 @@ cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
-### Enable backup
+```sh
+cd ..
+mi2 instance check pods-health
+```
 
-Enable daily backup for GKE cluster
+### Generate dashboard
 
 ```sh
-cd sourcegraph/cloud
-mi2 instance sync --slug $SLUG -e $ENVIRONMENT
+mi2 instance dashboard --output dashboard.md
+```
+
+### Enforce invariants
+
+```sh
+mi2 instance check -enforce
 ```
 
 ### Wrapping up
@@ -250,8 +272,16 @@ Revert back up VCS-driven mode
 
 ```sh
 mi2 instance edit --jq 'del(.spec.debug.tfcRunsMode)'
+mi2 generate cdktf
 cd terraform/stacks/tfc
-erraform init && terraform apply -auto-approve
+terraform init && terraform apply -auto-approve
+```
+
+Add new instance to dashboard
+
+```sh
+cd sourcegraph/cloud
+mi2 env dashboard -e prod --output prod.dashboard.md
 ```
 
 Finish the [remaining work](#wrapping-up)

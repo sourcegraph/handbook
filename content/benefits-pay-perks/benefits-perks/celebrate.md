@@ -74,7 +74,7 @@ Nominations will be considered based on but not limited to the criteria below:
 
 **How to nominate a teammate:**
 
-- To nominate a peer, please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVivNJmAycRX3HVGD2PwBR2ATzxfOgwEiB7FFFkA2LBVAs_Q/viewform?usp=sf_link). It should take approximately 5-10 mins to fill out this form for each submission.
+- To nominate a peer, please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLSeY3r_XbnypGecPqdSAiaFznyKkmpHm4Bu7Td073thi-iam9Q/viewform?usp=sf_link). It should take approximately 5-10 mins to fill out this form for each submission.
 - Nomination period opens and remains open for about ~2-3 weeks. The people team will announce the open and close dates for nominations each quarter.
 
 **How teammates are selected:**
@@ -154,10 +154,9 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 
 ## Promotions
 
-At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, managers are responsible for recognizing promoted teammates by:
+At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is responsible for sending a custom promotion gift to promoted teammates, and managers are responsible for recognizing promoted teammates by:
 
-- [Sending a Loop & Tie gift!](celebrate.md#loop--tie) - we recommend $150
-- Sending a Slack in `#teammate-announce` and cross-post in `#thanks`. At minimum, these posts should cover:
+- Sending a Slack in `#teammate-announce` and cross-post in `#thanks` after promotions have been announced in the company kickoff meeting. At minimum, these posts should cover:
   - recognizing the hard work of the individual being promoted
   - providing insight into the individual’s new responsibilities
   - how the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)

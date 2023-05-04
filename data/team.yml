@@ -889,17 +889,6 @@ max_wiederholt:
   links: '[LinkedIn](https://www.linkedin.com/in/maxwiederholt/), [Twitter](https://twitter.com/maxwiederholt)'
   description: "Max was born and raised in the San Francisco Bay Area. Prior to Sourcegraph, Max founded [Mischief](https://www.mischief.app/), a social network that helps anyone make a movie or TV series, then license that work to a streaming service. Max has worked on Google's developer relations team and Confluent's sales team. He graduated from UCLA with a BA in Political Science, before learning to code via [Harvard's CS50x online course](https://cs50.harvard.edu/x/2021/) and [San Jose's Coding Dojo](https://www.codingdojo.com/)."
 
-victoria_yunger:
-  name: Victoria Yunger
-  pronouns: She/Her
-  role: Principal PMM
-  reports_to: marketing_lead
-  location: San Francisco, CA, USA 🇺🇸
-  github: thisisvic
-  email: victoria.yunger@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/victoriayunger/)'
-  description: "Victoria was born in Ukraine, grew up in Israel, and then moved to the U.S. to pursue her Master's degree at UChicago. As of five years, she calls San Francisco her (foggy) home. Pre-Sourcegraph, Victoria worked as a product marketer at Zendesk and held several marketing roles in Israel."
-
 luke_taylor:
   name: Luke Taylor
   pronouns: He/Him
@@ -2135,3 +2124,14 @@ anton_sviridov:
   location: London, UK 🇬🇧
   links: '[Blog](https://blog.indoorvivants.com), [Twitter](https://twitter.com/velvetbaldmime)'
   description: 'As a software engineer I peaked in school, developing and running a Harry Potter-esque school of "magic". Since then it has all been downhill with mostly Scala and its various flavours. When not programming I enjoy spending time with my family and not going to the gym'
+
+tim_lucas:
+  name: Tim Lucas
+  email: tim.lucas@sourcegraph.com
+  github: toolmantim
+  pronouns: he/him
+  role: Staff Product Designer
+  reports_to: director_design
+  location: Melbourne, Australia 🇦🇺
+  links: '[@toolmantim](https://mastodon.au/toolmantim), [LinkedIn](https://www.linkedin.com/in/toolmantim), [toolmantim.com](https://toolmantim.com)'
+  description: 'Tim is a designer-slash-developer who loves design, creating open-source software, and building developer tools. Prior to Sourcegraph, he co-founded [Buildkite](https://buildkite.com/). Away from the screen he likes take photos, travel, and head out of Melbourne to rock climb, mountain bike, and spend time with his partner and kids.'

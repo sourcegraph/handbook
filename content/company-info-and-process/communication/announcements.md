@@ -22,7 +22,7 @@ When a teammate [switches teams](../working-at-sourcegraph/switching-teams.md), 
 
 ## Departures
 
-When a teammate [leaves Sourcegraph](../../departments/people-talent/people-ops/process/leaving.md), their manager will communicate the news to that person's department and the broader people manager group. Everyone else in the company can follow deparutres in the #teammate-departures channel where notifications are sent automically within 48 hours of notice being given. If the person leaving wants to share a more personal goodbye on their last day, they can share a brief message in #thanks.
+When a teammate [leaves Sourcegraph](../../departments/people-talent/people-ops/process/leaving.md), their manager will communicate the news to that person's department and the broader people manager group. Everyone else in the company can follow departures in the #teammate-departures channel where notifications are sent atomically within 48 hours of notice being given. If the person leaving wants to share a more personal goodbye on their last day, they can share a brief message in #thanks.
 
 **For Director and above roles:** The Comms team and People Partners will be more heavily involved with messaging development and comms strategy. This will likely include broader communication to the full company via #announcements. Please loop them in before comms are shared. [See comms template here](https://docs.google.com/document/d/1v2eULF91g_ad6ZpMNzvVP6CKE5vf8YXP4pVVj6TcE54/edit)
 

@@ -17,10 +17,11 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), [Thorsten Ball](https://github.com/mrnugget)                                                          |
 | 2022-11-08 to 2022-12-05 | [@jhchabran](https://github.com/jhchabran)                                                                                                    |
 | 2022-12-06 to 2023-01-03 | [William Bezuidenhout](https://github.com/burmudar)                                                                                           |
-| 2022-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani) ,[Manuel Ucles](https://github.com/mucles) |
-| 2022-02-03 to 2023-03-03 | [Beatrix Woo](https://github.com/abeatrix), [Jacob Pleiness](https://github.com/jdpleiness) ,[Manuel Ucles](https://github.com/mucles)        |
-| 2022-03-03 to 2023-04-05 | ?                                                                                                                                             |
-| 2022-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
+| 2023-01-03 to 2023-02-03 | [Camden Cheek](https://github.com/camdencheek), [Julie Tibshirani](https://github.com/jtibshirani) ,[Manuel Ucles](https://github.com/mucles) |
+| 2023-02-03 to 2023-03-03 | [Beatrix Woo](https://github.com/abeatrix), [Jacob Pleiness](https://github.com/jdpleiness) ,[Manuel Ucles](https://github.com/mucles)        |
+| 2023-03-03 to 2023-04-05 | ?                                                                                                                                             |
+| 2023-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
+| 2022-05-05 to 2023-06-05 | [Gary Lee](https://github.com/gl-srgr), [Taras Yemets](https://github.com/taras-yemets)                                                       |
 
 ## Benefits
 
@@ -33,9 +34,9 @@ Discuss escalation engineering rotation in #escalation-engineering.
 
 This is a new program, so any and all of these points are flexible, but here is what the initial sketch is.
 
-- ~3 software engineers are on the escalation engineer rotation at any given time.
+- ~2 software engineers are on the escalation engineer rotation at any given time.
   - It's preferred for us to have broad timezone coverage (and not have all current EEs in/near the same timezone).
-- Rotations are 4-10 weeks (negotiable depending on business/team/individual circumstances)
+- Rotations are 4 weeks (negotiable depending on business/team/individual circumstances)
 - Becoming an EE is voluntary for any given engineer at any given time; however, it's imperative to our customers and business so performing a support rotation (or current/future equivalents) will become a periodic expectation for all engineers and necessary for promotions (e.g., from IC3 to IC4) in the future.
   - We won't let the number of opportunities to perform a support rotation limit the throughput of promotions.
   - We'll formalize this expectation in the future as we learn about what works best.
@@ -43,7 +44,7 @@ This is a new program, so any and all of these points are flexible, but here is 
 
 ## How to participate
 
-If you have questions or want to participate, please post in #escalation-engineering.
+If you have questions or want to participate, please post in #escalation-engineering or add yourself to the [ee rotation sheet](https://docs.google.com/spreadsheets/d/1U3eAhQnLaYwe8-_vE11hnLaiS638zLyDwGrzKpnxrrM/edit#gid=0).
 
 ## What does an Escalation Engineer do?
 
@@ -69,12 +70,15 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
   - If you find yourself to not be able to lead, you are responsible for finding a person to replace you.
   - You keep the support request alive, you raise the alarm if it's stagnating or ask to close the support request if the context changes.
 
+Escalation Engineers will also **work on low effort ["paper cuts"](https://github.com/orgs/sourcegraph/projects/336/views/1) projects, typically scoped to 2-3 weeks maximum**. These projects will primarily consist of product gaps identified and prioritized by GTM with input from Engingeering & PM. Customer ad hoc issues still remain the P0 for the EE, with the projects as a P1.
+
 ### Tips for new escalation engineers
 
 - Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
 - When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
 - Post some updates in the thread where the original ask came from (e.g. "I got in touch with X", "we think we may have a solution", etc)
+- Keep track of issues that you're working on using this running [doc](http://go/ee-status-doc) this will ensure that everyone has some context on what is being worked on and help with transitions from one rotation to another.
 - Your own team is your primary circle, so don't hesitate to solicit them for help / feedback, but don't limit yourself to just your team. Anyone can help you.
 - If a request is coming from execs, it does not mean you can't say "no"; in fact, that's often one of the biggest mistake that can be made with them, i.e saying yes to everything just because of their position. They're expecting to be told "no" if something is not possible, as you would with anyone else.
 - Don't overthink it, even if you're finding yourself in a position where you can't implement the solution for a request because it's out of your reach technically, you can still be the one coordinating others into solving it. And that's very very helpful: it means you're owning the problem, but getting help for the solution.

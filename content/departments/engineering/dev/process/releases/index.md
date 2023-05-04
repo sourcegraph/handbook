@@ -165,6 +165,14 @@ When releasing a new version, the Release Captain may need to manually update th
 - [ ] Create a new H2 title named `{major}.{minor}.{patch}` (the new version) after the `Unreleased` section if it doesn't already exist.
 - [ ] Copy all changelog entries of the commits belong to this patch release into the new H2 title `## {major}.{minor}.{patch}`, grouped into the types they were originally in (e.g. `### Added`, `### Changed`, `### Fixed`, `### Removed`).
 
+## Support for older versions
+
+At Sourcegraph, we're committed to providing the best support possible for our users. As such, we offer support for the latest version (N) and its previous major version (N-1). For instance, if version 5.x is the most recent release, we provide support for both 5.x and 4.x. However, once we release a new major version (e.g., 6.x), we will discontinue support for 4.x.
+
+Please note that if you encounter any issues that can be resolved with an upgrade or are caused by using an outdated version, we will be unable to provide support. We recommend keeping up-to-date with the latest features and improvements to ensure the best experience.
+
+> NOTE: It's important to note that we do not backport bug fixes or other improvements into older versions. Our team is focused on resolving issues in the latest versions of our products.
+
 ## Minor release process
 
 ### 1) Start a minor release

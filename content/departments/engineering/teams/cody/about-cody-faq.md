@@ -12,8 +12,8 @@ Cody is an AI coding assistant that lives in your editor that can find, explain,
 
 There are two ways to use Cody:
 
-- As an individual dev, using Cody with sourcegraph.com. Follow the instructions here. Note that users might want to try Cody using sourcegraph.com on private com, which is possible as long as they agree to our [terms]()
-- As a Sourcegraph Enterprise user, connect Cody to your Sourcegraph Enterprise instance. Instructions are here.
+- As an individual dev, using Cody with sourcegraph.com. Follow the instructions [here](https://docs.sourcegraph.com/cody#cody-on-sourcegraph-com). Note that users might want to try Cody using sourcegraph.com on private com, which is possible as long as they agree to our [terms](https://about.sourcegraph.com/terms/cody-notice).
+- As a Sourcegraph Enterprise user, connect Cody to your Sourcegraph Enterprise instance. Instructions are [here](https://docs.sourcegraph.com/cody#cody-on-your-self-hosted-sourcegraph-enterprise-instance).
 
 > Note: There used to be two distinct VS Code extensions (Cody community and Cody enterprise) but they were merged into a single one.
 
@@ -22,15 +22,15 @@ There are two ways to use Cody:
 To provide responses to requests, Cody does the following:
 
 1. A user asks Cody a question (or to write some code).
-1. Cody fetches code snippets and docs from Sourcegraph related to the user request via OpenAI. (This is accomplished through embeddings which are used to fetch additional context). OpenAI orchestrates this today.
+1. Cody fetches relevant code snippets.
    1. Unlike Copilot, Cody knows about all your company’s private code and fetches snippets directly relevant to you.
    2. Sourcegraph uses a combination of code search, code graph (SCIP), intelligent ranking, and an AI vector database to respond with snippets that are relevant to the user's request.
-   3. If OpenAI embeddings are not on, then a search is ran locally to provide context.
+   3. If OpenAI embeddings are NOT on, then a search is ran locally to provide context.
 1. Sourcegraph passes a selection of these results along with the original question to a Large Language Model like Claude or OpenAI’s ChatGPT.
 1. The Large Language Model uses the contextual info from Sourcegraph to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
 
-![How cody works with embeddings](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-embeddings.png)
+![How cody works with embeddings](https://mermaid.ink/img/pako:eNqFk81u2zAQhF9lwVOL2OhdKNyDjPaiBikE96TLmpxYRCRS5Y9TI8i7d2kZFRwHiI7cb2d2h9SL0t5AVSriT4bT2Fo-BB47R_JNHJLVdmKXaEccaRcRbkt1KdXenAjGJh8IfxNctN7dsm1hW5-DhvhM_S3RFKJpfs6Ve59A_ohAdUXfkXRPAQOOhRy85oHKAhSdnSakSG-72puua96688GeI-jrPnzZ0KcnnJ59MBTBQfcrwriHMdYd4nKU9OcL_gMOgcVuCn6c0lv_ploIxykHmXhgd8h8ALGLz8JcfCU4LRIDkiQ3e8xqu_Vmcyfrd2rrIUMs6VHPR5GZFbbi8WD1kygGsE5nNe_g0rdOzUp1UZJIfmXE4kJ374U4s21hZfyH817_SXZmSey6o5GOtajfv7_nIruuP4DKnOvdB9DVJf_mwZoS8kyolRoRRrZG3vZL4TuVeozoVMnR4JHzkEosr4JyTr49Oa2qFDJWKk9F6vIrqOqRh4jXf0UwEcU?type=png)
 
 ### How does Cody work (locally)?
 
@@ -38,13 +38,9 @@ To provide responses to requests, Cody does the following:
 
 1. A user asks Cody a question (or to write some code).
 1. Cody fetches code snippets from the users’ current workspace.
-1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT.
-1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to Cody.
+1. The additional context collected is passed along with the original question to a Large Language Model like Claude or ChatGPT, through the Sourcegraph instance acting as a proxy.
+1. The Large Language Model uses the contextual info provided to generate a factual answer and sends it to the Sourcegraph instance, that proxies it back to the editor extension.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
-
-![How cody works with keywords search](https://storage.googleapis.com/sourcegraph-assets/handbook/cody/how-cody-works-keywords.png)
-
-([image source](https://app.excalidraw.com/s/4Dr1S6qmmY7/3TiB7SbYTmm))
 
 #### How is Cody different from ChatGPT?
 
@@ -139,7 +135,7 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
   - If the customer/prospects wants to setup embeddings, you'll have to generate an OpenAI key for them, using the [OpenAI console](https://platform.openai.com/account/api-keys). Ask in #it-tech-ops if you don't have access.
 - Adoption strategy
   - Cody Enterprise Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure. sending code snippets out to a third party provider, Anthropic.
-  - On top of that, and **optionally**, customers can set up OpenAI embeddings to improve the quality of context fed to Cody and the quality of Cody answers. We recommend TAs to ignore embeddings at first when talking to customers, because that requires sending out their entire codebase (or at least all the repos they want to search) to OpenAI.
+  - On top of that, and **optionally**, customers can set up OpenAI embeddings to improve the quality of context fed to Cody and the quality of Cody answers. We want to optimize for the path to least resistance in getting a prospect up and running so we recommend CEs ignore embeddings _initially_ when talking to prospects, because that requires sending out their entire codebase (or at least all the repos they want to search) to OpenAI and this will likely either be a blocker or raise the need for additional reviews / approvals. TAs, however, should feel comfortable discussing this option early with customers given the relationship and agreements we already have in place. But, if embeddings are going to slow or block progress we should consider them as a follow-on.
   - We should focus on getting them to turn on Cody, which only requires Anthropic.
 
 ### Prerequisites, dependencies, limitations
@@ -232,6 +228,11 @@ Cody will 100% send private code out (to Anthropic).
 We reserve the right to log all private code in that setup (when connected to .com), but do a best effort not to log private code. No guarantees, however, and our terms allow us to log it all in that case (see terms). If you want enterprise-friendly terms get a Sourcegraph Enterprise instance!
 
 ## The future
+
+Quick links:
+
+- [Cody strategy](../../../../strategy-goals/strategy/cody/index.md)
+- [Roadmap deck](https://www.golinks.io/customer-facing-roadmap)
 
 #### Is search going to be replaced by embedding search?
 

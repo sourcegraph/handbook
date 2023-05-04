@@ -72,14 +72,14 @@ Any time a web visitor fills out any [form](https://app.hubspot.com/forms/276252
 
 ### HubSpot to Salesforce sync
 
-All HubSpot contacts are synced to Salesforce, usually within 15 minutes. The complete settings are in HubSpot [here](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/contacts), but the most important of the synced fields are:
+Most HubSpot contacts are synced to Salesforce, usually within 15 minutes. The complete settings are in HubSpot [here](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/contacts), but the most important of the synced fields are:
 
 - Basic contact info (name, email)
 - Their lead source based on First Page Seen
 - MQL date and checkbox
 - NPS survey results attached to the contact
 
-Contacts are synced as Leads in Salesforce, and become Opportunity/Account/Contact if the Lead is an MQL (based on MQL_checkbox = TRUE/YES)
+Select contacts are added to a suppression list and blocked from syncing from HubSpot to Salesforce. These contacts and the list's associated qualification filters can be found in our master suppression list [here](https://app.hubspot.com/contacts/2762526/lists/2452/filters).
 
 ### Salesforce to HubSpot sync
 

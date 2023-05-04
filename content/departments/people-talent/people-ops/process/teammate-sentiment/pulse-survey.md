@@ -4,9 +4,9 @@ Our People Team runs Pulse surveys as a way to check in with Teammates on a regu
 
 ## FAQs
 
-### Why are we implementing pulse surveys now?
+### Why do we have pulse surveys?
 
-We are launching pulse surveys as a 90 day pilot program. We know pulse surveys are effective, but our focus in the past has been on traditional engagement surveys, where feedback is collected on a bi-annual basis. Pulse surveys allow us to ‘bridge the gap’ between our bi-annual surveys and hone in on what is important in the here-and-now. Given recent changes in our organization and our collective focus on taking Sourcegraph to the next level, there is no better time to roll them out and will be taking an experimental approach to figure out the best cadence for us as an organization.
+Pulse surveys allow us to ‘bridge the gap’ between our annual engagement surveys and hone in on what is important in the here-and-now.
 
 ### Who receives the survey?
 
@@ -36,15 +36,7 @@ Surveys remain open for the entire 2-week cycle and reminders are also sent via 
 
 ### How many questions are on a pulse survey?
 
-Each teammate receives 3 questions, out of a possible 5, every two weeks. You may answer the same question multiple times. This helps us see how Teammate sentiment changes over time. The questions we currently ask are:
-
-- I can influence improvements in the company, regardless of my role or team. (team culture, high agency)
-- My team has clear objectives that are prioritized effectively. (manager effectiveness, collaboration and productivity)
-- The work I do contributes to fulfilling our organizational goals. (fit and belonging, feeling valued)
-- When the organization makes changes, I am aware and understand why the change is being made. (openness and transparency, also timely)
-- In general, things are better at Sourcegraph than they were a month ago. (Use the comment box to share one thing that is going better, or worse, in the last month)
-
-During the pilot program period, we will run pulse surveys until October 1, 2022. If the pilot is successful, we will switch to a new set of questions, reflecting the priorities of the organization at that point in time.
+Each teammate receives 3 questions, which come from a list of questions we use in the anual engagement survey so that we can measure progress. You may answer the same question multiple times. This helps us see how Teammate sentiment changes over time.
 
 ### How do we respond to pulse survey results and take action?
 
@@ -60,16 +52,12 @@ Our overarching philosophy is simple: take meaningful actions, based on in-depth
 
 ### Where can I see survey results?
 
-Survey results are published to the handbook following the Company Meeting in which they were announced. A link to the handbook will be posted in Slack.
+Survey results are included in the weekly update in #announce-people-talent.
 
 ### Who will be able to see my responses?
 
 All responses are submitted **anonymously**. The People Team can view department-specific themes when 5 or more Teammates from a given organization (Sales, Engineering, Operations, etc.) respond to the survey. All comments are submitted anonymously, and the People Team can respond to them but cannot see who submitted the comment.
 
-### When does the pilot period end?
+### Are we still doing an annual engagement survey?
 
-The pilot period ends October 1, 2022. At the conclusion of the pilot, the People Team will work with the Executive Leadership Team to evaluate the program’s effectiveness, and to choose new questions, if needed.
-
-### Are we still doing a twice-annual engagement survey?
-
-Yes! The pulse survey does not replace the twice-annual engagement survey. The engagement survey provides an important baseline for pulse surveys, and helps inform questions we ask in pulse surveys. We are currently working to establish a regular cadence for the engagement survey, but all Teammates will be asked to participate in the engagement survey in the next month or so.
+Yes! The pulse survey does not replace the annual engagement surveys. The engagement survey provides an important baseline for pulse surveys, and helps inform questions we ask in pulse surveys.
