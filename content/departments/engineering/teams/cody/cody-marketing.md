@@ -2,6 +2,8 @@
 
 Please [submit questions and feedback for this page here](https://sourcegraph.slack.com/archives/C04QTJDTH70).
 
+For technical Cody information, see the [About Cody FAQ](about-cody-faq.md).
+
 ## Marketing assets
 
 - [Cody datasheet for Enterprise](https://drive.google.com/file/d/1aBvueBm1CfzTorkb0aumU0Pa_W4VHFYo/view?usp=sharing)
