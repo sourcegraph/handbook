@@ -55,7 +55,7 @@ Explore the Sourcegraph GraphQL API documentation [here](https://docs.sourcegrap
 
 Apollo Sandbox is great for navigating through a complex GraphQL schema and has great developer experience for crafting queries
 
-1. Navigate to [studio.apollographql.com/sandbox](studio.apollographql.com/sandbox) and click Open Connection Settings in the top left corner
+1. Navigate to [Apollo Studio Sandbox](studio.apollographql.com/sandbox) and click Open Connection Settings in the top left corner
 
 ![](https://storage.googleapis.com/sourcegraph-assets/open-connection-settings.png)
 
