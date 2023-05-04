@@ -154,10 +154,9 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 
 ## Promotions
 
-At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, managers are responsible for recognizing promoted teammates by:
+At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is responsible for sending a custom promotion gift to promoted teammates, and managers are responsible for recognizing promoted teammates by:
 
-- [Sending a Loop & Tie gift!](celebrate.md#loop--tie) - we recommend $150
-- Sending a Slack in `#teammate-announce` and cross-post in `#thanks`. At minimum, these posts should cover:
+- Sending a Slack in `#teammate-announce` and cross-post in `#thanks` after promotions have been announced in the company kickoff meeting. At minimum, these posts should cover:
   - recognizing the hard work of the individual being promoted
   - providing insight into the individual’s new responsibilities
   - how the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)
