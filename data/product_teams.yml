@@ -43,7 +43,6 @@ code_insights:
   brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
   strategy_link: /strategy-goals/strategy/code-insights/index.md
   em: chris_pine_code_insights
-  pmm: victoria_yunger
   issue_labels:
     - team/code-insights
 
