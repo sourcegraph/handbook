@@ -173,6 +173,21 @@ Finally, click `Add Custom Hostname` to submit the form.
 
 #### Add neccessary DNS records for the old domain
 
+Edit `config.yaml`:
+
+```yaml
+spec:
+  domain:
+    customDomains:
+      - dnsName: $OLD_DNS_NAME
+        primary: true
+    primaryDNSName: $NEW_DNS_NAME
+```
+
+```sh
+mi2 instance dashboard --output dashboard.md
+```
+
 Open the operation dashboard of the instance, and pick up half-way through the custom domain setup process:
 
 ```sh
