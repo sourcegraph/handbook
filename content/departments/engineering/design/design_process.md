@@ -26,8 +26,8 @@ While asynchronous communication is a core attribute of remote work, key moments
   - Customers if available
   - Stakeholders as required
 - Tools
-  - We are experimenting with [miro.com](https://miro.com/) as an ideation tool
-  - Figma.com can be used to generate mood boards
+  - Figjam is often used to collaborate on ideas and concepts
+  - Figma can be used to generate wireframes, mood boards, and other artifacts
 
 ### Research
 

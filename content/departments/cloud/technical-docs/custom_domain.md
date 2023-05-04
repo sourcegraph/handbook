@@ -92,3 +92,158 @@ It is worth nothing it does not make us any less secure. Our origin server still
 No. Certificate issuance and renewal is DNS-based, so we can ask customers to create the DNS records at any time. Meanwhile, the previous `*.sourcegraph.com` domain will continue to work as it is. Once the DNS records are created and confirmed by Cloudflare, the customer can start accessing the Sourcegraph instance via the custom domain.
 
 In fact, the `*.sourcegraph.com` domain will continue to work even after custom domain is switched over. However, due to the application limitation, we only recommend customers to use custom domain to access the Sourcegraph instance once it has been turned on.
+
+## Operation
+
+### Migrate current instances as a custom domain of the new Cloud domain
+
+As of 2023-05-03, new Cloud instances are provisioned with new domains of `sourcegraphcloud.com` or `sgdev.dev`. This seciton will walk you through the process of migrating `customer.sourcegraph.com` as a custom domain of `customer.sourcegraphcloud.com`.
+
+In the following example, we will migrate `sourcegraph.sourcegraph.com` as a custom domain of the managed `sourcegraph.sourcegraphcloud.com`.
+
+#### Prereq
+
+Install the Cloudflare CLI,
+
+```sh
+go install github.com/cloudflare/cloudflare-go/cmd/flarectl@latest
+```
+
+Configure env var
+
+> You will need to [setup 1Password CLI](https://developer.1password.com/docs/cli/get-started/)
+
+```sh
+export CF_API_KEY="$(op item get 'https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=qxzajcksgc3givogl3r6qjbimu&i=oeirz3a43aoeuk2nkruemwlnw4&h=team-sourcegraph.1password.com' --fields label=CLOUDFLARE_USER_API_KEY)"
+export CF_API_EMAIL="$(op item get 'https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=qxzajcksgc3givogl3r6qjbimu&i=oeirz3a43aoeuk2nkruemwlnw4&h=team-sourcegraph.1password.com' --fields label=username)"
+export CF_API_TOKEN=$(gcloud secrets versions access latest --secret CLOUDFLARE_API_TOKEN --project sourcegraph-secrets)
+```
+
+You should `echo` above env var to make sure they are set correctly.
+
+You will also need UI access to Cloudflare.
+
+#### Set up env var
+
+Notes `SLUG` is the the customer slug not the entire dns name. For example, `sourcegraph` for `sourcegraph.sourcegraph.com`.
+
+```sh
+export OLD_ZONE=sourcegraph.com
+export NEW_ZONE=sourcegraphcloud.com
+export SLUG=$CUSTOMER
+export OLD_DNS_NAME="$SLUG.$OLD_ZONE"
+export NEW_DNS_NAME="$SLUG.$NEW_ZONE"
+```
+
+```sh
+export OLD_ZONE_ID=$(flarectl -json zone list | jq -r '.[] | select(.Name == "'$OLD_ZONE'") | .ID')
+export NEW_ZONE_ID=$(flarectl -json zone list | jq -r '.[] | select(.Name == "'$NEW_ZONE'") | .ID')
+export OLD_DNS_NAME_RECORD_ID=$(flarectl -json dns list --zone $OLD_ZONE --name $OLD_DNS_NAME | jq -r '.[0].ID')
+export NEW_DNS_NAME_RECORD_ID=$(flarectl -json dns list --zone $NEW_ZONE --name $NEW_DNS_NAME | jq -r '.[0].ID')
+```
+
+#### Add `A` record for the new domain
+
+Locate the existing A record for `$OLD_DNS_NAME` from `$OLD_ZONE` zone. Note the IP address. This is the IP of GCP Load Balancer.
+
+```sh
+flarectl dns list --zone $OLD_ZONE -name $OLD_DNS_NAME
+```
+
+Add an `A` record for the new domain with the following settings.
+
+```sh
+flarectl dns create --zone $NEW_ZONE --type A --proxy --name $NEW_DNS_NAME --content $IP
+```
+
+#### Add old dns domain as custom domain in the new zone
+
+Navigate to the new zone in Cloudflare UI. Following the navbar on the left, click `SSL/TLS` -> `Custom Hostnames`, then click `Add Custom Hostname` button.
+
+Provide the following information:
+
+- Custom Hostname: `$OLD_DNS_NAME`
+- Minimum TLS version: `TLS 1.2`
+- Certificate type: `Provided by Cloudflare` (default)
+- SSL Certificate Authority: `Let's Encrypt`
+- Certificate validation method: `TXT Validation`
+- Wildcard: **DO NOT ENABLE** (default)
+- Custom origin server: `$NEW_DNS_NAME`
+- Origin SNI value: `Origin server name`
+
+Finally, click `Add Custom Hostname` to submit the form.
+
+#### Add neccessary DNS records for the old domain
+
+Edit `config.yaml`:
+
+```yaml
+spec:
+  domain:
+    customDomains:
+      - dnsName: $OLD_DNS_NAME
+        primary: true
+    primaryDNSName: $NEW_DNS_NAME
+```
+
+```sh
+mi2 instance dashboard --output dashboard.md
+```
+
+Open the operation dashboard of the instance, and pick up half-way through the custom domain setup process:
+
+```sh
+export CLOUDFLARE_CUSTOM_HOSTNAME_ID=$(curl -sSLf -H "Authorization: Bearer $CF_API_TOKEN" "https://api.cloudflare.com/client/v4/zones/$NEW_ZONE_ID/custom_hostnames" | jq -r '.result[] | select( .hostname == "'$OLD_DNS_NAME'") | .id')
+export CLOUDFLARE_ZONE_ID=$NEW_ZONE_ID
+export CLOUDFLARE_API_TOKEN=$(gcloud secrets versions access latest --secret CLOUDFLARE_API_TOKEN --project sourcegraph-secrets)
+export DCV_RECORD="$(curl -sSLf -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/custom_hostnames/$CLOUDFLARE_CUSTOM_HOSTNAME_ID" | jq -rM '.result.ssl.dcv_delegation_records[0]')"
+export OWNERSHIP_RECORD="$(curl -sSLf -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/custom_hostnames/$CLOUDFLARE_CUSTOM_HOSTNAME_ID" | jq -rM '.result.ownership_verification')"
+```
+
+Then, starting from editing the `.status` field in `config.yaml` and complete the rest of the process to create all the neccessary DNS records on the old domain
+
+You changes will look like this PR: https://github.com/sourcegraph/infrastructure/pull/4893
+
+#### Backfil resources to terraform
+
+```sh
+cd terraform/stacks/network
+```
+
+```sh
+terraform import 'cloudflare_custom_hostname.network_ingresscustomhostname_2963CBB2' "$NEW_ZONE_ID/$CLOUDFLARE_CUSTOM_HOSTNAME_ID"
+```
+
+```sh
+terraform state rm cloudflare_record.network_ingresspublicipdns_B5ED0649
+terraform import 'cloudflare_record.network_ingresspublicipdns_B5ED0649' "$NEW_ZONE_ID/$NEW_DNS_NAME_RECORD_ID"
+```
+
+> You will see `cloudflare_record.network_ingresspublicipdns_B5ED0649` must be replaced but that's okay.
+> It's an unfortunate side effect of the way we pass the full DNS name as `name` instead of just the prefix of the subdomain.
+> Terraform will simply re-create the record with our desired name.
+> No downtime is expected
+
+```sh
+terraform apply -auto-approve
+```
+
+#### Cut over
+
+Update the existing dns record as a CNAME record for the new domain.
+
+```sh
+flarectl dns update --zone $OLD_ZONE --id $OLD_DNS_NAME_RECORD_ID --proxy=false --type CNAME --name $SLUG --content $NEW_DNS_NAME
+```
+
+#### Backfill more terraform resources
+
+Pikcup the `TODO` from https://github.com/sourcegraph/infrastructure/pull/4893 and uncomment the block, then import the resources
+
+```sh
+terraform import 'cloudflare_record.sourcegraph_com_sourcegraph' "$OLD_ZONE_ID/$OLD_DNS_NAME_RECORD_ID"
+```
+
+Commit the changes, your PR should look something like: https://github.com/sourcegraph/infrastructure/pull/4894
+
+Inspect the terraform plan. If everything work correctly, you should see no changes from the plan.
