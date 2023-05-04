@@ -111,6 +111,8 @@ go install github.com/cloudflare/cloudflare-go/cmd/flarectl@latest
 
 Configure env var
 
+> You will need to [setup 1Password CLI](https://developer.1password.com/docs/cli/get-started/)
+
 ```sh
 export CF_API_KEY="$(op item get 'https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=qxzajcksgc3givogl3r6qjbimu&i=oeirz3a43aoeuk2nkruemwlnw4&h=team-sourcegraph.1password.com' --fields label=CLOUDFLARE_USER_API_KEY)"
 export CF_API_EMAIL="$(op item get 'https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=qxzajcksgc3givogl3r6qjbimu&i=oeirz3a43aoeuk2nkruemwlnw4&h=team-sourcegraph.1password.com' --fields label=username)"
