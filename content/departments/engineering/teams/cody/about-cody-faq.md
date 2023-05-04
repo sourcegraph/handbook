@@ -270,13 +270,6 @@ That said, so far, we think that context-fetching has a few key advantages over 
 
 See [Cody Marketing page](cody-marketing.md) for Cody messaging, one-pagers, and other marketing assets.
 
-#### Where can I find additional assets for Cody?
-
-- [Cody One-Pager for Enterprise [DRAFT]](https://docs.google.com/document/d/11bUFF0e5Hyec94bJCdvwM8zgHHdoBLs7X_hugFGp4VY/edit#)
-- Social videos to come first week of April
-- [Background info and demonstration notes](https://docs.google.com/document/d/1M7F9n4uNjlQOuUley6EubRjOw9D3meKwgFfvd7yHkMA/edit#heading=h.mgur8fhhngdv)
-- [[INTERNAL, DRAFT] Cody and GitHub Copilot for Business comparison](https://docs.google.com/document/d/1x1Z8ewbCwciVj0cA5aRLt5ziVHuE7LbdBcfNcVEPk-U/edit?usp=sharing)
-
 ## Technology primers
 
 #### Can you explain embeddings?

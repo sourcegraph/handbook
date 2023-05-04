@@ -2,6 +2,12 @@
 
 Please [submit questions and feedback for this page here](https://sourcegraph.slack.com/archives/C04QTJDTH70).
 
+## Marketing assets
+
+- [Cody datasheet for Enterprise](https://drive.google.com/file/d/1aBvueBm1CfzTorkb0aumU0Pa_W4VHFYo/view?usp=sharing)
+- [Background info and demo tips](https://docs.google.com/document/d/1M7F9n4uNjlQOuUley6EubRjOw9D3meKwgFfvd7yHkMA/edit#heading=h.mgur8fhhngdv)
+- [[Draft] Cody competitive comparisons](https://docs.google.com/document/d/1x1Z8ewbCwciVj0cA5aRLt5ziVHuE7LbdBcfNcVEPk-U/edit?usp=sharing)
+
 ## Describing Cody
 
 **Product name:** Cody (or "Sourcegraph Cody" when clarity is needed)
@@ -36,9 +42,3 @@ Cody is not locked to any specific code host. The enterprise version of Cody can
 ### Secure
 
 Cody has a zero-retention policy, meaning that code snippets sent to the LLM provider (Anthropic) are processed for the length of time required to return the answer and are removed permanently after that. Cody is also [open source](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/client/cody).
-
-## Marketing assets
-
-- [Cody datasheet for Enterprise](https://drive.google.com/file/d/1aBvueBm1CfzTorkb0aumU0Pa_W4VHFYo/view?usp=sharing)
-- [Background info and demo tips](https://docs.google.com/document/d/1M7F9n4uNjlQOuUley6EubRjOw9D3meKwgFfvd7yHkMA/edit#heading=h.mgur8fhhngdv)
-- [[Draft] Cody competitive comparisons](https://docs.google.com/document/d/1x1Z8ewbCwciVj0cA5aRLt5ziVHuE7LbdBcfNcVEPk-U/edit?usp=sharing)
