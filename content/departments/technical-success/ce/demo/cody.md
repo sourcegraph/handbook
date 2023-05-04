@@ -15,27 +15,27 @@ If you're looking for some tips on where to start in a demo, here are some ways 
 - [Link to Loom](https://www.loom.com/share/85747012c0f34e808f9143a665b9b840)
 - Prompt: `where do we use caching in {codebase}` i.e. `where do we use caching in sourcegraph`
 - Follow-up prompt: `show me how we use {example from Cody's response}` i.e. `show me how we use redis to cache search results`
-- *watch out for hallucinations - sometimes Cody's responses contain filenames or code that doesn't exist in the codebase, but it's often close enough to be actionable and useful*
+- _watch out for hallucinations - sometimes Cody's responses contain filenames or code that doesn't exist in the codebase, but it's often close enough to be actionable and useful_
 
 ## Adding a component to a web UI
 
 - [Link to Loom](https://www.loom.com/share/19ea873ba8b64073ae1a68df3384869a)
 - Prompt: `how do i add a nav component to the sourcegraph ui`
-- *watch out for hallucinations - sometimes Cody's responses contain filenames or code that doesn't exist in the codebase, but it's often close enough to be actionable and useful*
+- _watch out for hallucinations - sometimes Cody's responses contain filenames or code that doesn't exist in the codebase, but it's often close enough to be actionable and useful_
 - Follow-up prompt in case of a hallucination: `the {x} file doesn't exist - can you try again`
 
 ## Recipes on open files
 
 - [Link to Loom](https://www.loom.com/share/60fc98555e7b4e2f9a5ae18158f8457c)
 - Useful recipes to show in a demo:
-    - Explain selected code
-    - Generate unit test
-    - Generate docstring
-    - Smell code
+  - Explain selected code
+  - Generate unit test
+  - Generate docstring
+  - Smell code
 
 ## Querying API data
 
 - [Link to Loom](https://www.loom.com/share/76b61988b4004a77bd0eb2e48be3c573)
 - Prompt: `how do i query the {codebase} api for {topic}` i.e. `how do i query the sourcegraph api for a list of active users`
-- *watch out for hallucinations - sometimes Cody's responses contain filenames or code that doesn't exist in the codebase, but it's often close enough to be actionable and useful*
+- _watch out for hallucinations - sometimes Cody's responses contain filenames or code that doesn't exist in the codebase, but it's often close enough to be actionable and useful_
 - Follow-up prompt in case of a hallucination: `the {thing} isn't valid - can you try again`
