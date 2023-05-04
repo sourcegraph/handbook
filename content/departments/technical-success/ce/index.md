@@ -36,6 +36,7 @@ During the sales cycle CE's typically lead a customer through a technical valida
 - [New CE Onboarding](onboarding/index.md)
 - [Educational Materials](onboarding/education.md)
 - [Career Development](career-growth/index.md)
+- [Demo Tips](demo/index.md)
 
 ## How to Reach Us
 
