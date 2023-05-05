@@ -473,7 +473,7 @@ As an IC you'll progress on several axis:
   </tbody>
 </table>
 
-##  Management Levels
+## Management Levels
 
 <style>
   .container {
