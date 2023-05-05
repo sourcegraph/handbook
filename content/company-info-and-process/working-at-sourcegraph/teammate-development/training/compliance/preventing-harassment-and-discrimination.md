@@ -14,7 +14,7 @@ Preventing Harassment and Discrimination training is just one of the ways we cre
 
 We are committed to providing an environment free of harassment and discrimination of all types.
 
-Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. Refer to our [Global Respectful Workplace Policy](../../../../diversity-equity-and-inclusion/respectful-workplace-policy.md#reporting-suspected-misconduct-under-this-policy) or our [Code of Conduct](../../../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns) for more information on raising concerns.
+Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. Refer to our [Global Respectful Workplace Policy](../../../../respectful-workplace-policy.md#reporting-suspected-misconduct-under-this-policy) or our [Code of Conduct](../../../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns) for more information on raising concerns.
 
 ### Who is assigned harassment and discrimination prevention training at Sourcegraph?
 
@@ -50,7 +50,7 @@ If you are not in a location that has a minimum required time, you can complete 
 
 ### Is there a policy we need to review?
 
-Yes. As part of our efforts to ensure everyone within Sourcegraph, and who interacts with Sourcegraph teammates, feels welcomed and included, regardless of their background, we have a policy in place: [Global Respectful Workplace and Harassment, Discrimination and Bullying Prevention Policy](../../../../diversity-equity-and-inclusion/respectful-workplace-policy.md)(we generally refer to this as our Global Respectful Workplace Policy).
+Yes. As part of our efforts to ensure everyone within Sourcegraph, and who interacts with Sourcegraph teammates, feels welcomed and included, regardless of their background, we have a policy in place: [Global Respectful Workplace and Harassment, Discrimination and Bullying Prevention Policy](../../../../respectful-workplace-policy.md)(we generally refer to this as our Global Respectful Workplace Policy).
 
 The purpose of this Global Respectful Workplace Policy is to be clear about the way all teammates should treat each other and third parties who interact with Sourcegraph, and the remedies available in the event anyone feels they are not being treated with respect.
 
@@ -81,4 +81,4 @@ This part of the training is **completely optional.** You can skip any or all of
 
 ### Is there anything else I should know about the training?
 
-The training provides a lot of examples of scenarios and interactions, many of which are set in an office or co-working space. Although our workspace is primarily virtual and teammates do not share a physical space when performing day-to-day work, the concepts and examples in these trainings still have important take-aways for our workplace. As you take the training, consider how those same principles apply to your interactions with other teammates in our virtual workspace. Refer to the [workplace definition](../../../../diversity-equity-and-inclusion/respectful-workplace-policy.md#scope) in our Global Respectful Workplace Policy for more information about how these concepts apply to our workplace.
+The training provides a lot of examples of scenarios and interactions, many of which are set in an office or co-working space. Although our workspace is primarily virtual and teammates do not share a physical space when performing day-to-day work, the concepts and examples in these trainings still have important take-aways for our workplace. As you take the training, consider how those same principles apply to your interactions with other teammates in our virtual workspace. Refer to the [workplace definition](../../../../respectful-workplace-policy.md#scope) in our Global Respectful Workplace Policy for more information about how these concepts apply to our workplace.
