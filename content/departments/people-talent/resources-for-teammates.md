@@ -13,10 +13,12 @@
 
 - [How we communicate asynchronously](../../company-info-and-process/communication/asynchronous-communication.md)
   - [Using Slack](../../company-info-and-process/communication/team_chat.md)
-- [Diversity, equity and inclusion](../../company-info-and-process/diversity-equity-and-inclusion/index.md)
-  - [Personal pronouns](../../company-info-and-process/diversity-equity-and-inclusion/personal-pronouns.md)
+- [Equality of opportunity](../../company-info-and-process/equality-of-opportunity.md)
 - [Raising concerns](../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
   - [Convercent](../../company-info-and-process/communication/convercent.md)
+- [Gender Diversity Allies cohort](../../company-info-and-process/gender-diversity.md)
+- [Queer and Trans cohort](../../company-info-and-process/queer.md)
+- [Personal pronouns](../../company-info-and-process/personal-pronouns.md)
 
 ## Working at Sourcegraph
 
