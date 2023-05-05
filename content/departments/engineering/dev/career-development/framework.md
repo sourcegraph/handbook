@@ -472,3 +472,244 @@ As an IC you'll progress on several axis:
     </tr>
   </tbody>
 </table>
+##  Management Levels
+
+<style>
+  .container {
+    --width: var(--container-width);
+  }
+</style>
+
+<table class="levels-table">
+
+  <thead>
+    <tr>
+      <th scope="col">Level</th>
+      <th scope="col" class="category-title">Proficiency</th>
+      <th scope="col" class="category-title">Execution</th>
+      <th scope="col" class="category-title">Teamwork</th>
+      <th scope="col" class="category-title">Additional Notes/Key Points/Examples</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <!-- M3 -->
+    <tr>
+      <th id="m3" scope="row" rowspan="3" class="level"><a class="anchor" href="#m3"></a><abbr title="Manager">M</abbr>3</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+          <p>Accountable for the performance and results of a small team of professional individual contributors..</p>
+          <ul>
+            <li><strong>Years of experience:</strong> Typically 0-2</li>
+          </ul>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+<li>Has IC4 equivalent technical knowledge.</li>
+<li>Understands the technical aspects of the team they manage.</li>
+<li>Provides technical guidance to the team.</li>
+<li>Still writes some code.</li>
+<li>Ensures work is done to a high technical standard.</li>
+<li>Follows management best practices including regular 1:1s, team meetings, planning and retrospectives.</li>
+<li>Delivers feedback on career growth and impact review results.</li>
+<li>Assists reports in setting goals for both impact and personal growth.</li>
+<li>Builds their team through effective hiring and onboarding.</li>
+<li>Proactively manages reports who do not meet our high performance standards.</li>
+<li>Establishes a culture and processes that promote good decision-making.</li>
+<li>Delegates work effectively and sets clear expectations for ownership and execution.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+     <li>Operates a single area or a couple of smaller areas of our services, with one or two teams with several individual contributors who report to you.</li>
+<li>Responsible for the operational, people, and roadmap aspects of your area.</li>
+<li>Focused on the operational details of your area, understanding the needs of your customers, and ensuring your team is performing effectively to serve those needs.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Proactively builds teams by implementing team processes and creating opportunities for teammates to connect.</li>
+<li>Ensures team members are happy and engaged, as measured by impact reviews.
+<li>Proactively resolves interpersonal conflicts.</li>
+<li>Collaborates with cross-functional partners to balance product needs with technical feasibility.</li>
+
+plus IC 4 teamwork expectations
+
+<li>Effectively able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.</li>
+<li>Actively seeks dissenting opinions, disconfirming evidence, etc.</li>
+<li>Shares a long-term vision that influences the team’s roadmap.</li>
+<li>Helps retain customer relationships and incorporates solutions/suggestions from them.</li>
+<li>Ability to delegate and clearly communicate capacity needed to work on those areas.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+   <li>Manages a one or two teams team of individual contributor professionals.Greater than 50% of time spent on manager duties vs. individual contribution.<\li>
+<li>Responsible for managing teammates performance and annual impact reviews.<\li>
+<li>Analogy: captain of a smaller crew; takes people on day trips.<\li>
+        </ul>
+      </td>
+    </tr>
+    <!-- M4 -->
+    <tr>
+      <th id="m4" scope="row" rowspan="3" class="level"><a class="anchor" href="#m4"></a><abbr title="Management">M</abbr>4</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+          <p>Accountable for performance and results of a medium sized team or multiple small teams.</p>
+          <ul>
+            <li><strong>Years of experience:</strong> Typically 2+</li>
+          </ul>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+<li>Has IC5 equivalent technical knowledge.</li>
+<li>Possesses a strong technical understanding of their team's systems and a high-level understanding of our technical systems.</li>
+<li>Provides technical guidance to their teams and other teams.</li>
+<li>Ensures work is done to a high technical standard and helps define those standards.</li>
+<li>Still writes code (per the Sourcegraph expectation that everyone writes code) but not necessarily on the critical path for projects.</li>
+<li>Establishes high standards for development and architecture.</li>
+<li>Develops team capabilities through training and strategic hiring goals.</li>
+<li>Proactively cultivates leadership skills in team members.</li>
+<li>Defines team goals and strategies that align with broader organizational goals.</li>
+<li>Translates those goals and strategies into effective roadmaps for the team.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Operates a single complex area or a couple of medium sized areas of our services, with one or two teams with several individual contributors who report to you.</li>
+<li>Continually improve and expand the operational footprint of your area as complexity/scope increases.</li>
+<li>Effective at driving debate and goal setting with the manager team.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+          <li>Set the bar for operational, people, and roadmap aspects of your area and advise/coach other managers effectively on the process.</li>
+<li>Coordinates priorities and commitments between teams to ensure the successful delivery of goals.</li>
+<li>Develops strong technical leads to oversee the day-to-day of their teams.</li>
+
+<li>plus IC5 teamwork expectations</li>
+<li>Provides technical expertise internally and externally, informing what can be achieved.</li>
+<li>Regularly shares knowledge to influence and up-level large and/or senior audiences.</li>
+<li>Persuades and challenges clients and internal stakeholders, using valid expertise and respectful communication.</li>
+<li>Responsive to a variety of unexpected requests for advice or consultation; gracefully handles more frequent context-switching.</li>
+<li>Enables those around them to be successful.</li>
+<li>Proactively provides feedback and flags concerns that are going on within the org.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Leads a medium-to-large sized team.</li>
+<li>Responsible for managing teammates performance and annual impact reviews.</li>
+<li>ndividuals are more seasoned and have broader influence than M3.</li>
+<li>Analogy: captain of a ship; takes mid-sized vessels on longer voyages through bumpy water (strong tactical decision-maker, handles unforeseen issues).</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- M5 -->
+    <tr>
+      <th id="M5" scope="row" rowspan="3" class="level"><a class="anchor" href="#m5"></a><abbr title="Manager">M</abbr>5</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        <p>Accountable for the performance, results and strategic direction of a department.</p>
+        <ul>
+          <li><strong>Years of experience:</strong> Typically 4+</li>
+        </ul>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+        <li>Technical expectations in line with M4.</li>
+<li>Stays up-to-date on industry trends and their impact on the business.</li>
+<li>Generally manages managers.</li>
+<li>Define goals and strategies for achieving those goals in a thoughtful and persuasive way.</li>
+<li>Translates goals and strategies into effective roadmaps that coordinate efforts across teams, including those outside of their direct management.</li>
+<li>Analyzes and communicates engineering and business tradeoffs.</li>
+<li>Occasionally represents the company externally.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Accountable for the performance and results of a large organization, such as a regional function, a large product line, large sales areas or a global job family.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Provides leadership and mentoring to expert level individual contributors.</li>
+<li>Hire and develop your teammates effectively.</li>
+<li>Primarily focuses on cross-functional and cross-team collaboration.</li>
+<li>Accountable for team building within teams, but effectively delegates most of it to managers or TLs.</li>
+<li>Coaches managers and technical leads in team-building skills.</li>
+<li>Adapts organizational structures to make teams most effective at meeting goals
+<li>Proactively minimizes organizational friction.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Typically reports to M6 or VP-level. Usually will be a “manager of other managers.</li>
+<li>Sets priorities and the strategic direction of the department.</li>
+<li>Role may have complexity such as multi-site/ country/ regions, or large team size.</li>
+<li>Responsible for managing teammates performance and annual impact reviews.</li>
+<li>Sizable financial responsibility relative to other roles within the function.</li>
+<li>Requires very little direction.</li>
+<li>Analogy: captain of a large ship; takes large vessels on long voyages through treacherous waters (strategic battle-tested leader, directs operational units).</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- M6 -->
+    <tr>
+      <th id="m6" scope="row" rowspan="3" class="level"><a class="anchor" href="#m6"></a><abbr title="Manager">M</abbr>6</th>
+    </tr>
+    <tr>
+      <td class="level-summary" colspan="4">
+        <p>Accountable for the performance and results of a large organization, such as a regional function, a large product line, large sales areas or a global job family.</p>
+        <ul>
+          <li><strong>Years of experience:</strong> Typically 6+</li>
+        </ul>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors">
+        <ul>
+<li>Technical expectations in line with M4.</li>
+<li>Embraces and drives change; stays up-to-date on industry trends and their impact on the business.</li>
+<li>Understands the current landscape of our business; plans with business needs in mind.</li>
+<li>Establishes processes and structures that promote effective execution and accountability.</li>
+<li>Develops a high-level technical vision aligned with business needs and secures buy-in.</li>
+<li>Represents the company externally on a regular basis.</li>
+<li>Defines growth and hiring goals.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Own a significant business area - entire service or multiple services.</li>
+<li>Set the goals for and own the operational responsibility for the entire business area.</li> <li>Focus is on driving outcomes with significant impact through others.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Develop leaders in your area and you raise the bar on quality across the company.</li>
+<li>Drive significant org changes across the company to improve throughput, retention and customer outcomes.</li>
+<li>Collaborates with peers across the company to align goals across departments and disciplines.</li>
+<li>Uses their visibility to set a strong example of our culture and values.</li>
+        </ul>
+      </td>
+      <td class="behaviors">
+        <ul>
+<li>Likely reports to head of a major org (SVP or VP level).Often has very large team relative to the function.</li>
+<li>Usually has global responsibility.</li>
+<li>Likely has major financial oversight or influence on operational expenses.</li>
+<li>Role is very strategic in nature with long-term impact.</li>
+<li>Analogy: oversees several boat captains; capable of directing a fleet of large ships safely through a tropical storm (inspires action, coordinates simultaneous initiatives). Directs efforts of both air and ground search parties (Inspires action, coordinates simultaneous initiatives).</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
