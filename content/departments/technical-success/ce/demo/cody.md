@@ -41,10 +41,12 @@ If you're looking for some tips on where to start in a demo, here are some ways 
 - Follow-up prompt in case of a hallucination: `the {thing} isn't valid - can you try again`
 
 ## Demo Chat Predictions
+
 - [Link to video](https://sourcegraph.slack.com/files/U01P83L3CDT/F055BRT4RLJ/screen_recording_2023-04-27_at_15.51.29.mov)
 - Enable chat predictions in cody config
 
 ## Demo Auto Completion
+
 - [Link to video](https://sourcegraph.slack.com/files/U02STMJDCKF/F0565QHM885/suggestions-dogfooding.mov)
 - Add the following to your Visual Studio Config:
 
@@ -54,15 +56,15 @@ If you're looking for some tips on where to start in a demo, here are some ways 
 
 `"cody.experimental.suggestions": true,`
 
-
 ## Customising Cody demo
+
 Add embeddings for customer's public repo on Github/Gitlab
+
 - Go to [Soucegraph Site Admin -> Cody](https://sourcegraph.com/site-admin/cody) page and add customer repo as embeddings (Make sure the repo is actually indexed in Sourcegraph, Cody lets you add embeddings even when a repo is not indexed in Sourcegraph)
 - You can demo Cody working with customers repo in 2 ways
-  - Go to Customer opensource Github repo in Sourcegraph (`https://sourcegraph.com/github.com/<org>/<repo>`) and ask questions about the repo. 
+  - Go to Customer opensource Github repo in Sourcegraph (`https://sourcegraph.com/github.com/<org>/<repo>`) and ask questions about the repo.
   - Or update the VS Code plugin extension config and update the _Cody: Codebase_ to point to customer repo on Github
   - Useful prompts:
     - What is this repo for and who owns it?
     - How do I get started with this repo?
     - Generally speaking, understand what the repo does - for instance if its a Go library repo, then ask it generate some examples on how to write code to do XYZ
-  
