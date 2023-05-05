@@ -537,6 +537,7 @@ As an IC you'll progress on several axis:
 <li>Collaborates with cross-functional partners to balance product needs with technical feasibility.</li>
 
 plus IC 4 teamwork expectations
+
 <li>Effectively able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.</li>
 <li>Actively seeks dissenting opinions, disconfirming evidence, etc.</li>
 <li>Shares a long-term vision that influences the team’s roadmap.</li>
@@ -712,5 +713,3 @@ plus IC 4 teamwork expectations
     </tr>
   </tbody>
 </table>
-
-
