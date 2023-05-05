@@ -109,7 +109,7 @@ As an IC you'll progress on several axis:
 - From "has a hard time dealing with ambiguity" to god-like-world-building-powers
 - From practitioner to champion to shaper in regards to the influence on our culture
 
-## Levels
+## IC Levels
 
 <style>
   .container {
@@ -472,6 +472,7 @@ As an IC you'll progress on several axis:
     </tr>
   </tbody>
 </table>
+
 ##  Management Levels
 
 <style>
