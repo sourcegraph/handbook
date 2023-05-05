@@ -76,12 +76,7 @@ You make people from all groups and backgrounds feel comfortable belonging to ou
 - In order for us to realize our purpose, our team must have diverse perspectives that are truly heard.
 - In order for everyone to feel safe sharing their perspective, truly having a voice, and being heard, we must all continuously confront our unconscious biases by identifying them ourselves, graciously accepting when they are identified for us, and doing the work to ensure our biases do not inform our conduct and decision-making.
 
-We view equity and inclusion as foundational elements to our culture, our success, and our ability to realize our purpose. We understand that:
-
-- We all have unconscious biases we need to confront.
-- Good people can say and do biased or racist things (and this doesn’t automatically make them bad people).
-- Diversity supports our moral values and practical goals and we cannot truly have diversity without also having equity and inclusion.
-- We consider a focus on [diversity, equity, and inclusion](../diversity-equity-and-inclusion/index.md) a critical job function of all leaders at Sourcegraph.
+We view [equality of opportunity](../equality-of-opportunity.md) as a foundation of our culture, our success, and our ability to realize our purpose.
 
 ### Open and transparent
 
