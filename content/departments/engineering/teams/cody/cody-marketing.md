@@ -8,7 +8,9 @@ For technical Cody information, see the [About Cody FAQ](about-cody-faq.md).
 
 - [Cody datasheet for Enterprise](https://drive.google.com/file/d/1aBvueBm1CfzTorkb0aumU0Pa_W4VHFYo/view?usp=sharing)
 - [Background info and demo tips](https://docs.google.com/document/d/1M7F9n4uNjlQOuUley6EubRjOw9D3meKwgFfvd7yHkMA/edit#heading=h.mgur8fhhngdv)
-- [[Draft] Cody competitive comparisons](https://docs.google.com/document/d/1x1Z8ewbCwciVj0cA5aRLt5ziVHuE7LbdBcfNcVEPk-U/edit?usp=sharing)
+- Competitor comparisons
+  - [[Draft] Cody competitive comparisons](https://docs.google.com/document/d/1x1Z8ewbCwciVj0cA5aRLt5ziVHuE7LbdBcfNcVEPk-U/edit?usp=sharing)
+  - [Cody vs. GitHub Copilot](GitHub  
 
 ## Describing Cody
 
@@ -44,3 +46,15 @@ Cody is not locked to any specific code host. The enterprise version of Cody can
 ### Secure
 
 Cody has a zero-retention policy, meaning that code snippets sent to the LLM provider (Anthropic) are processed for the length of time required to return the answer and are removed permanently after that. Cody is also [open source](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/client/cody).
+
+## Cody vs. GitHub Copilot
+
+|**Category**|**Sourcegraph Cody for Enterprise**|**GitHub Copilot for Business**|**GitHub Copilot Chat** | 
+|:-:|:-:|:-:|:-:|
+|Main interface|Chat|Suggestions|Chat|
+|Model|Anthropic Claude or OpenAI GPT-3.5/GPT-4|Open AI Codex|OpenAI GPT-4|
+|Context|Sourcegraph’s code graph (10+ years of development)|Limited local context|Local IDE context|
+|Input retention|Zero retention|Zero retention|Assumed same as Copilot for Business|
+|Output retention|Zero retention|Retains suggestions for up to 30 days|Assumed same as Copilot for Business|
+|Bring Your Own LLM|Yes|No|No|        
+|Open Source|Yes (Apache 2)|No|No|
