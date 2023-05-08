@@ -6,7 +6,6 @@ Is there anything missing? Please reach out to [onboarding@sourcegraph.com](mail
 
 ## All new teammates
 
-
 ### 💌 **Email**
 
 By default, your company email will follow this format: **PreferredName.PreferredSurname@sourcegraph.com**. If you have any concerns, please reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com).
