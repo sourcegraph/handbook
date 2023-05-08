@@ -26,12 +26,12 @@ Hearing directly from the customer how our products are used, the different chal
 
 ## Rotations
 
-| Rotation   | Engineer                                                    | Customer |
-| ---------- | ----------------------------------------------------------- | -------- |
+| Rotation   | Engineer                           | Customer |
+| ---------- | ---------------------------------- | -------- |
 | 2023-05-08 | [@Joe](https://github.com/unknwon) | 676      |
-| 2023-05-15 |                                                             |          |
-| 2023-05-22 |                                                             |          |
-| 2023-05-29 |                                                             |          |
+| 2023-05-15 |                                    |          |
+| 2023-05-22 |                                    |          |
+| 2023-05-29 |                                    |          |
 
 ## How to participate
 
