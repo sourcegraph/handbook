@@ -26,12 +26,12 @@ Hearing directly from the customer how our products are used, the different chal
 
 ## Rotations
 
-| Rotation   | Engineer                                                    | Customer  |
-| ---------- | ------------------------------------------------------------|---------- |
-| 2023-05-08 | [Joe Chen](https://handbook.sourcegraph.com/team/#joe-chen)| 676       |             
-| 2023-05-15 |                                                             |           |
-| 2023-05-22 |                                                             |           |
-| 2023-05-29 |                                                             |           |
+| Rotation   | Engineer                                                    | Customer |
+| ---------- | ----------------------------------------------------------- | -------- |
+| 2023-05-08 | [Joe Chen](https://handbook.sourcegraph.com/team/#joe-chen) | 676      |
+| 2023-05-15 |                                                             |          |
+| 2023-05-22 |                                                             |          |
+| 2023-05-29 |                                                             |          |
 
 ## How to participate
 
