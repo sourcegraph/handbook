@@ -6,9 +6,6 @@ Is there anything missing? Please reach out to [onboarding@sourcegraph.com](mail
 
 ## All new teammates
 
-### ✍️ **Tell us more about YOU**
-
-Please fill out [this form](https://forms.gle/sxidvRGbPpPQJin28) within the first **24 hours** after you sign your contract. _This is an important step so that we can begin your onboarding process and systems setup._
 
 ### 💌 **Email**
 
@@ -31,7 +28,7 @@ You are responsible for obtaining your laptop. You can find instructions [here](
 
 ### 📦 **An exciting delivery**
 
-We love our swag, and know you will, too! You will be receiving an email from someone in the People team a few days before your start date—please provide the requested information so that we can send you your Sourcegraph swag pack!
+We love our swag, and know you will, too! Instructions for ordering your new hire swag are located within your Bamboo Onboarding kit.
 
 ### 🪑 **Start getting your home office set up**
 
