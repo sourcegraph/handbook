@@ -42,7 +42,7 @@ If you want to convert an existing issue into a tracking issue:
 
 ## Populating and maintaining a tracking issue
 
-An open tracking issue is populated and kept up to date with the GitHub issues and pull requests labeled the same as the tracking issue (minus the `tracking` label) that belong to any repositories of the `sourcegraph` organization. Optionally, a milestone can also be set. The tracking issue will be updated as these issues and pull requests are opened, changed, closed, merged, etc.
+An open tracking issue is populated and kept up to date with the GitHub issues and pull requests labeled the same as the tracking issue (minus the `tracking` label) that belong to any repositories of the `sourcegraph` organization. Optionally, a milestone can also be set. If a milestone is set, all linked issues must also belong to the same milestone. The tracking issue will be updated as these issues and pull requests are opened, changed, closed, merged, etc.
 
 This is done automatically by the [tracking-issue tool](#contributing-to-the-tracking-issue-tool) which [runs in response to GitHub issue events](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/tracking-issue.yml#L6) happening in [https://github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph).
 
