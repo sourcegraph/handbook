@@ -382,7 +382,7 @@ It’s important to understand that what is listed in the level descriptions are
       <td colspan="3" class="level-summary">
         <p>Staff designer: Provides innovative breakthroughs to toughest challenges and acts as a force multiplier for product teams while also increasing design quality and speed of execution. Influences management on strategic direction. Will have an impact on multiple organizations, countries/regions and disciplines as well as outside companies. Not all career paths include level 5.</p>
         <ul>
-          <li>Spanning the engineering team (group level)</li>
+          <li>Spanning the design team (group level)</li>
           <li>Leads design delivery across the group</li>
           <li>Helps drive group's product vision in collaboration with group leads</li>
           <li>Leads design within a product team if it's short-staffed</li>
