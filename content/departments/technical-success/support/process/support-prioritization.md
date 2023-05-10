@@ -14,7 +14,7 @@ If a CE needs help on behalf of a customer, they can either email support@source
 - What was the prospect attempting to do and what is the expected result?
 - What steps have been taken to resolve the issue already?
 - What is the impact of the issue (is it blocking full use, select users, etc?)
-- Link to the Technical Design Document
+- Link to any relevant [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC)
 - Context about where in the sales cycle the prospect is and any key dates to be aware of in resolving the issue
 
 ### Pre-sales Ticket Severity

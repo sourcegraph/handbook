@@ -6,7 +6,7 @@ This document is a work in progress to give an overview of the integration and c
 
 Implementation should input values to fill out the production deployment information in the account's dashboard in Vitally. This information includes the following:
 
-- Link to the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc)
+- Link to any [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC)
 - Start date of implementation of production infrastructure
 - Completion date of implementation of production infrastructure
 - Sourcegraph instance URL
