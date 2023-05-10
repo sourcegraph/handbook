@@ -2135,3 +2135,14 @@ tim_lucas:
   location: Melbourne, Australia 🇦🇺
   links: '[@toolmantim](https://mastodon.au/toolmantim), [LinkedIn](https://www.linkedin.com/in/toolmantim), [toolmantim.com](https://toolmantim.com)'
   description: 'Tim is a designer-slash-developer who loves design, creating open-source software, and building developer tools. Prior to Sourcegraph, he co-founded [Buildkite](https://buildkite.com/). Away from the screen he likes take photos, travel, and head out of Melbourne to rock climb, mountain bike, and spend time with his partner and kids.'
+
+silky_desailly:
+ name: Silky De Sailly
+ email: silky.desailly@sourcegraph.com
+ github: sdsailly
+ pronouns: she/her
+ role: Enterprise Technical Advisor
+ reports_to: manager_techical_advisory
+ location: Sydney, Australia 🇦🇺
+ links: '[LinkedIn](https://www.linkedin.com/in/silkysachdeva)'
+ description: 'I'm a spirited adventurer, fueled by a passion for travel, a thirst for challenges, and a firm belief that change is the only constant in life.'
