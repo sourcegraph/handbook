@@ -26,7 +26,6 @@ Partner with the organization to build scalable data solutions and insights to h
 | [Support/Enablement](enablement.md)                  | [Tool Administration](tools.md)                 |
 | [Metric Definitions/Documentation](documentation.md) | Monitoring/Alerts                               |
 | [Testing/Experimentation](testing.md)                |                                                 |
-| [Event-level data](event-level-data.md)              |                                                 |
 
 ## **Communications/Asking a Question**
 
@@ -41,6 +40,6 @@ There is an analyst on support each week that will be answering questions and tr
 
 See all [FAQs here](faq.md).
 
-**How to know what we are working on:**
+## **How to know what we are working on:**
 
 Data and Analytics Project Board ([Here](https://github.com/orgs/sourcegraph/projects/246))
