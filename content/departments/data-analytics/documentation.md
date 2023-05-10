@@ -20,6 +20,9 @@ An overview of web traffic data and metrics definitions (session, referrer, UTM 
 [Customer Data Policy](customer-data-policy.md):
 How we treat customer data at Sourcegraph.
 
+[Event-level data](event-level-data.md):
+What event level data do we track.
+
 # How to
 
 - Add metrics on [Sourcegraph Cloud](amplitude.md#adding-events-to-amplitude)?
