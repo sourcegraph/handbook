@@ -30,7 +30,7 @@ To initiate an implementation request, the 'Implementation Request' Slack Workfl
 - Expected Deployment Method:
 - Expected Hosting Provider:
 - Link to Salesforce Opportunity:
-- Link to TDD:
+- Links to Technical Design artifacts:
 - Additional Information (if needed):
 
 From there, the customer request will be added to the [Implementation Services Account Backlog](https://docs.google.com/spreadsheets/d/1-79Q5RwAizDY3jBXSWQwmV9G6Jv5nrHzmcvemm4KffQ/edit#gid=0) where the account/opportunity will be triaged and prioritized. All requests will be reviewed by the implementation team and, if needed, Sales/TS leadership before being selected for implementation services. The triage will take into consideration:
