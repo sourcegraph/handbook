@@ -1,6 +1,6 @@
 # Legal
 
-The legal team helps Sourcegraph grow responsibly.
+Our mission is to accelerate Sourcegraph's growth through legal strategy.
 
 We provide high-quality legal advice to every team. High-quality legal advice at Sourcegraph is:
 
