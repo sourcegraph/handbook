@@ -72,11 +72,13 @@ _Quota credit is subject for review in the event a customer churns in one month 
 
 ### Early Subscription Renewals
 
-- Sourcegraph supports early renewals as it (1) increases visibility in future revenue (2) reduces churn risk and (3) improves internal resource utilization / productivity
+- Sourcegraph supports early renewals as it (1) increases visibility in future revenue (2) reduces churn risk and (3) improves internal resource utilization / productivity.
 
-- An early renewal agreement requires an amend & extend commitment where a customer’s existing contract is completed in full and the renewal commitment is for 12+ months of service beginning on the subsequent day of a Customer’s existing contract’s end date.
+- An early renewal agreement requires an early termination of an existing contract with a revision to a new, 12+ month commitment.
 
-- An early termination of an existing contract with a revision to a new, 12+ month commitment requires VP of Finance and VP of Sales approval. Additionally, quota credit will be subject to review.
+- A credit is applied to the new License fee to reflect the days of unused service. Deal Desk approval is required.
+
+-ARR/IARR should be calculated as follows: Early Renewal Contract ARR - Current Contract ARR.
 
 ### Other Commercial Considerations and Proposed ARR Treatment:
 
