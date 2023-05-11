@@ -78,7 +78,7 @@ _Quota credit is subject for review in the event a customer churns in one month 
 
 - A credit is applied to the new License fee to reflect the days of unused service. Deal Desk approval is required.
 
--ARR/IARR should be calculated as follows: Early Renewal Contract ARR - Current Contract ARR.
+- ARR/IARR should be calculated as follows: Early Renewal Contract ARR - Current Contract ARR.
 
 ### Other Commercial Considerations and Proposed ARR Treatment:
 
