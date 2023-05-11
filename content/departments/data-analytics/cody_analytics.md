@@ -18,7 +18,7 @@
 - **Why this metric:** As we continue to ship improvements to Cody, retention will be key to understanding how much value users are getting from the Cody.
 - **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: “Cody Day 1 Vs Day 7 Retention” chart)
 
-## Data Capture Mechanisms
+## Cody Data Capture Mechanisms
 
 There are two mechanisms in which we collect Cody usage data. Through the eventlogger on sourcegraph.com and through Pings
 
@@ -27,3 +27,18 @@ Data in the eventlogger is populated at the event level. An anonymous user id is
 
 \*\*Pings
 Data in pings follows our normal pings mechanism which provides aggregated and anonymized usage data for both self-hosted and managed instances.
+
+## Cody Reporting Tools
+
+Cody data is available in Looker and Amplitude. Below we explain when to use which tool.
+
+\*\*Looker
+
+Looker is the source of truth for all shareable Cody KPIs and metrics. See [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) KPIs.
+
+Looker also contains reporting via Pings from our customers.
+
+\*\*Amplitude
+
+Amplitude contains Cody events from the Eventlogger. See [Amplitude](https://analytics.amplitude.com/sourcegraph/space/mrlfrgi/all) Cody project for examples of analyses.
+Use Amplitude for adhoc analysis, funnel analytics, and other analytics outside of performance metrics.
