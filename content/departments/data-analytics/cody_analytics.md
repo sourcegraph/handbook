@@ -8,7 +8,7 @@
 
 **Metric: Cody DAUs**
 
-- **Definition:** The number of active users of Cody each day.  A Cody user is defined as any user that fires any Cody event.
+- **Definition:** The number of active users of Cody each day. A Cody user is defined as any user that fires any Cody event.
 - **Why this metric:** Tracking DAU over time show the consistent engagement users have with Cody
 - **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: “Cody DAUs” chart)
 
@@ -19,10 +19,11 @@
 - **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: “Cody Day 1 Vs Day 7 Retention” chart)
 
 ## Data Capture Mechanisms
-There are two mechanisms in which we collect Cody usage data.  Through the eventlogger on sourcegraph.com and through Pings
 
-**Eventlogger
-Data in the eventlogger is populated at the event level.  An anonymous user id is assigned to a user in order to track individual usage.  There is a server endpoint in the pubic argument that can be associated with a cloud instance so that we may bucket usage to an instance.  
+There are two mechanisms in which we collect Cody usage data. Through the eventlogger on sourcegraph.com and through Pings
 
-**Pings
+\*\*Eventlogger
+Data in the eventlogger is populated at the event level. An anonymous user id is assigned to a user in order to track individual usage. There is a server endpoint in the pubic argument that can be associated with a cloud instance so that we may bucket usage to an instance.
+
+\*\*Pings
 Data in pings follows our normal pings mechanism which provides aggregated and anonymized usage data for both self-hosted and managed instances.
