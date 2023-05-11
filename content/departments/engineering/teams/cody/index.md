@@ -6,4 +6,4 @@ Placeholder page for the cody team.
 
 Managed Cody services:
 
-- [LLM-proxy](llm-proxy/index.md) (completions.sourcegraph.com and completions.sgdev.org)
+- [LLM proxy](llm-proxy/index.md) (completions.sourcegraph.com and completions.sgdev.org)
