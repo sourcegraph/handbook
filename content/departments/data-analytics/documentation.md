@@ -7,6 +7,7 @@ A list of top line metrics, ownership, and where to find the source of truth rep
 A list of the various user definitions, engagement metrics, NPS, and technical health score and how they are calculated.
 
 ## Documentation
+
 [Cody](cody_analytics.md):
 An overview of Cody analytics and data tracking and reporting mechanisms.
 
