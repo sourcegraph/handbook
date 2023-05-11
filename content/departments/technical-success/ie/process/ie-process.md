@@ -36,7 +36,7 @@ If the IE team needs to prioritize or make trade-offs we will approach prioritiz
 2. Multi-version upgrades (pre 5.0 to help drive Cody adoption)
 3. Precise adoption
 4. Trial deployment
-5. Self-hosted to self-hosted instance migration 
+5. Self-hosted to self-hosted instance migration
 6. Self-hosted to cloud instance migration (with db migration)
 
 # Cross-Functional Collaboration
