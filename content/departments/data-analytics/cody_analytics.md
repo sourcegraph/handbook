@@ -22,25 +22,23 @@
 
 There are two mechanisms in which we collect Cody usage data. Through the eventlogger on sourcegraph.com and through Pings
 
-**Eventlogger
+\*\*Eventlogger
 Data in the eventlogger is populated at the event level. An anonymous user id is assigned to a user in order to track individual usage. There is a server endpoint in the pubic argument that can be associated with a cloud instance so that we may bucket usage to an instance.
 
-**Pings
+\*\*Pings
 Data in pings follows our normal pings mechanism which provides aggregated and anonymized usage data for both self-hosted and managed instances.
-
 
 ## Cody Reporting Tools
 
 Cody data is available in Looker and Amplitude. Below we explain when to use which tool.
 
-**Looker
+\*\*Looker
 
-Looker is the source of truth for all shareable Cody KPIs and metrics.  See [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) KPIs.
+Looker is the source of truth for all shareable Cody KPIs and metrics. See [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) KPIs.
 
 Looker also contains reporting via Pings from our customers.
 
-**Amplitude
+\*\*Amplitude
 
-Amplitude contains Cody events from the Eventlogger.  See [Amplitude](https://analytics.amplitude.com/sourcegraph/space/mrlfrgi/all) Cody project for examples of analyses.
+Amplitude contains Cody events from the Eventlogger. See [Amplitude](https://analytics.amplitude.com/sourcegraph/space/mrlfrgi/all) Cody project for examples of analyses.
 Use Amplitude for adhoc analysis, funnel analytics, and other analytics outside of performance metrics.
-
