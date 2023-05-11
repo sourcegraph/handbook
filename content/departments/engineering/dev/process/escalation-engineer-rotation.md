@@ -128,3 +128,7 @@ This is a temporary rotation so EEs continue to report to their existing enginee
 ### As an escalation engineer, what happens when I'm not on rotation anymore to the things I did?
 
 The standard approach to ownership applies here: you're owning the solution and if you don't want to or can't anymore, you're expected to find a new owner.
+
+### What are the availability expectations for EEs?
+
+Escalation engineers are expected to be available during their normal working hours. They are entitled to normal time off (PTO, sick days, etc) and should not be expected to be available during those times. However, we try to pick EEs so that they are not away for long periods during their rotation, and also in a way that they cover normal AMER and EMEA hours as a pair.
