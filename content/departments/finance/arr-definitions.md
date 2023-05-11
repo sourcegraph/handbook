@@ -75,7 +75,7 @@ _Quota credit is subject for review in the event a customer churns in one month 
 - Sourcegraph supports early renewals as it (1) increases visibility in future revenue (2) reduces churn risk and (3) improves internal resource utilization / productivity.
 
 - An early renewal agreement requires an early termination of an existing contract with a revision to a new, 12+ month commitment.
- 
+
 - A credit is applied to the new License fee to reflect the days of unused service. Deal Desk approval is required.
 
 -ARR/IARR should be calculated as follows: Early Renewal Contract ARR - Current Contract ARR.
