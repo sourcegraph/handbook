@@ -4,11 +4,6 @@ This document is an overview of the processes followed by the Implementation Tea
 
 For information on recommended deployment types and strategies, visit [Implementation Strategies](impl-strategies.md).
 
-# Jointly Deployed vs. Jointly Managed
-
-- _Jointly Deployed_: This offering encompasses any self-hosted deployment projects for which the Implementation Team is directly engaged. The Implementation Team provides dedicated implementation expertise and at-the-elbow support to reduce the time to install Sourcegraph, specifically in particularly complex deployment scenarios. In the future, this offering may include paid implementation support and badged access to customer environments.
-- _Jointly Managed_: This will be a paid offering for self-hosted customers as part of a premium support offering (often with environment badged access) for dedicated post-deployment work such as upgrades, feature expansions, and environment management. The goal of this offering is to reduce or eliminate the need for dedicated customer admins while ensuring a high quality instance and priority Sourcegraph support.
-
 # Implementation Team Use Cases
 
 What is the main scope of work for the Implementation Team?
@@ -32,6 +27,17 @@ This is generally not recommended. A majority of trials should consist of quick,
 - The CE and customer must be able to prove that the customer cannot move forward with a simpler trial environment
 - The opportunity must be expected to contribute to upcoming fiscal year revenue
 - The opportunity must be reviewed by CE and Sales leadership and selected from the implementation request backlog
+
+# Implementation Engineering Prioritization
+
+If the IE team needs to prioritize or make trade-offs we will approach prioritization in the following order:
+
+1. Prod deployment
+2. Multi-version upgrades (pre 5.0 to help drive Cody adoption)
+3. Precise adoption
+4. Trial deployment
+5. Self-hosted to self-hosted instance migration 
+6. Self-hosted to cloud instance migration (with db migration)
 
 # Cross-Functional Collaboration
 
