@@ -4,7 +4,7 @@
 - All teammates must work from their Sourcegraph computer
 - All Sourcegraph computers must be [managed](../tools/endpoint-antivirus.md) and be in compliance with our [endpoint standards](../process/internal-security/computer-standards.md)
 - All teammates must only use their Sourcegraph computer for accessing [company data](#company-data)
-- Sourcegraph approves the use of Apple macOS only (you may work with Windows and Linux devices for work that does not involve internal, private or confidential company data, such as open source coding)
+- Sourcegraph primarily supports the use of Apple MacOS for work involving internal, private, or confidential company data. (Windows and Linux devices can be used for work that does not involve such sensitive data, like open source coding, please note that we do have partial Linux support. Exceptions can be made on a case-by-case basis, subject to approval by the security team.)
 - All teammates should adhere to our related usage and access policies:
   - [Device usage and privacy policy](../process/team_device_usage_privacy.md)
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
@@ -79,3 +79,7 @@ To return a Sourcegraph device that is no longer needed, please contact Tech Ops
 - We are all-remote: our teammates work all over the world, from the office of their choosing, and this has inherent risks for device management (such as unauthorized access, an increased likelihood that a device is lost/stolen, and wireless network attacks). We feel that Macs, and the tools we can install on Macs, can provide us with the greatest ability to protect these devices and the data accessed while continuing to support our global teammates.
 - We are customer-first: we have an obligation to protect our clients' and teammates' data and privacy. Standardizing to Mac and restricting our access policy is part of adhering to this promise.
 - We are growing: as we grow we have begun standardizing across all areas of our business. Having a standardized device that all teammates use will provide a platform on which we can all build and deploy more efficiently across Sourcegraph.
+
+## Linux device exceptions
+
+Sourcegraph primarily supports the use of Apple MacOS. However, we understand that certain circumstances and business needs may necessitate the use of Linux for product development and other tasks. In recognition of this, we extend partial support to Ubuntu-based Linux. This support involves a set of mandatory security measures to protect sensitive data. These include full disk encryption, the use of a managed Chrome browser, and endpoint security. Our security team will oversee the installation of the endpoint security, which incorporates a Mobile Device Management (MDM) solution to verify device compliance. These safeguards are essential to uphold our commitment to data security and integrity. Contact the security team to apply for an exception. Keep in mind that each request will be evaluated individually and approval will be at the discretion of the head of security.
