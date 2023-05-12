@@ -221,6 +221,15 @@ kubectl rollout restart deployments/sourcegraph-frontend
 
 Yes. Learn more about [custom domain support](./technical-docs/custom_domain.md).
 
+### FAQ: Does Cloud support SSBC and precise code navigation?
+
+Yes. All Cloud instances have executors enabled by default (varies concurrency limit depends on the deal size).
+
+Key facts:
+
+- [SSBC](https://docs.sourcegraph.com/batch_changes/explanations/server_side) is enabled by default
+- [Auto-indexing](https://docs.sourcegraph.com/code_navigation/explanations/auto_indexing) are enabled on all repos by default so customer can benefit from [precise code navigation](https://docs.sourcegraph.com/code_navigation/explanations/precise_code_navigation). However, this relies on [inference](https://docs.sourcegraph.com/code_navigation/explanations/auto_indexing_inference) to work on the customer repo. For unsupported repo or repo that uses private registry (e.g., private NPM), the customer will have to work with Support or #ask-code-intel to figure out the custom auto-indexing configuration.
+
 ### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
 
 Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces).
