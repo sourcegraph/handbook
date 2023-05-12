@@ -6,10 +6,18 @@ Sometimes you may encounter issues when using Okta Verify. This short guide will
 
 A quick way to identify the issue might be to check the health of the device in the Okta Verify settings.
 
-1. Right-click the Okta Verify icon in your taskbar.
+1. Right-click the Okta Verify icon in your taskbar (top right of your window next to the power/search/wifi icons)
 2. Click 'Settings'.
 3. In the settings menu, click 'Device Health'.
 4. Observe any indications of issues. If a recommendation is provided, follow the given steps to resolve the problem.
+
+## Restart Okta Verify
+
+Sometimes Okta Verify window can get lost behind tabs or stuck and not prompt. Closing and trying again can resolve the issue.
+
+1. Right-click the Okta Verify icon in your taskbar.
+2. Click 'Quit Okta Verify'.
+3. Reopen the browser and try reaccessing Okta Verify.
 
 ## Restart the Browser
 
