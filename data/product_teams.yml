@@ -90,15 +90,6 @@ repo_management:
   issue_labels:
     - team/repo-management
 
-content_platform:
-  title: Content Platform Team
-  brief: The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
-  strategy_link: /strategy-goals/strategy/content-platform
-  pm: steve_yegge
-  em: steve_yegge
-  issue_labels:
-    - team/content-platform
-
 security:
   title: Security
   em: diego_comas

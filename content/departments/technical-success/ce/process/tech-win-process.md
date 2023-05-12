@@ -116,12 +116,6 @@ Store Completed Success Plans in the Customer folder.
    </td>
    <td>This page is intended as a reference of features by maturity level; each item will link to further documentation on the feature.
 <p>
-<a href="../../../engineering/product/tools/feature_maturity.md">Link to Product Feature Maturity Page</a>
-   </td>
-   <td>3
-   </td>
-   <td>Published
-   </td>
   </tr>
 </table>
 
