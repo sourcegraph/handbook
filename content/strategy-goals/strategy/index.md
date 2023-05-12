@@ -51,7 +51,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 ### Admin Experience Vision
 
-A core foundation of the FY24 plan is ensuring we provide admins with a world-class experience. Big companies with big code will only be successful if they can configure Sourcegraph. Product-led companies only work if users can effectively set up their instance. Etc! You can read more about our vision and how we plan to accomplish this in our [Admin Experience vision](./admin-experience/index.md).
+A core foundation of the FY24 plan is ensuring we provide admins with a world-class experience. Big companies with big code will only be successful if they can configure Sourcegraph. Product-led companies only work if users can effectively set up their instance. Etc! You can read more about our vision and how we plan to accomplish this in our Admin Experience vision.
 
 ### Big Code
 

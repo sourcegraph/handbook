@@ -93,7 +93,6 @@ We made many exceptions for customers in the earlier days before the inception o
 In addition, each CE is responsible for determining whether a customer’s technical requirements are supported by Sourcegraph. Properly performing technical qualification for new customers prevents them from ending up in an unsupported scenario. There a few assets which are available to help properly qualify an opportunity:
 
 - [Product feature compatibility documentation](../../../../departments/engineering/product/tools/feature_compatibility.md): This page is intended as a reference of features by code host compatibility; each item will link to further documentation on the feature.
-- [Product feature maturity documentation](../../../../departments/engineering/product/tools/feature_maturity.md): This page is intended as a reference of features by maturity level; each item will link to further documentation on the feature.
 - [What is supported in Sourcegraph?](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279): Guidance provided by Engineering teams documenting supported features and functionality as well as feature limitations. This is used by CEs to perform technical qualification of customer use cases and configurations during trial planning and prior to trial kickoff.
 
 ## What should I do if our customer reaches out to me asking me to follow-up on, or for an update on, something an support engineer is responsible for?

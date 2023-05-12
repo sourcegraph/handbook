@@ -14,7 +14,7 @@ The following 2 buyers will probably be less relevant as buyers per se when sell
 
 - Security Engineering Leader: Usually experiences the most acute pain, but also operates in a more crowded space and more compartmentalized vs. the rest of Eng (so they are more likely to only look at a narrow value prop).
 
-- Platform/Infrastructure Leader: Probably experiences the pain slightly less acutely, but still very seriously. Not all companies have a clear platform/infra leader, but that is changing; This function is much better integrated with the rest of Engineering, so more likely to see resonance by broader value prop. **Example roles:** Dir of Platform Eng; Sr Manager of Infrastructure Eng; Developer Platform. Also connects to [Admin Personas](../../../strategy-goals/strategy/admin-experience/admin-experience-personas.md).
+- Platform/Infrastructure Leader: Probably experiences the pain slightly less acutely, but still very seriously. Not all companies have a clear platform/infra leader, but that is changing; This function is much better integrated with the rest of Engineering, so more likely to see resonance by broader value prop. **Example roles:** Dir of Platform Eng; Sr Manager of Infrastructure Eng; Developer Platform. Also connects to Admin Personas.
 
 ## The persona / customer journeys:
 

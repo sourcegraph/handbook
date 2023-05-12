@@ -10,10 +10,6 @@ This page outlines the vision, strategy, and goals of the [Repository Management
 
 Our mission is to ensure that Sourcegraph "just works" with the code hosts that our customers use. Whether customers use GitHub, Gitlab, Bitbucket, Perforce, or the many other code hosts that exist, we ensure their code syncs with Sourcegraph without them worrying about it.
 
-# Strategy, Execution Plan, and Metrics
-
-Currently we are supporting the [Admin Experience Vision](../admin-experience/index.md) by implementing core parts of the 2023 execution plan.
-
 # Detailed Roadmap
 
 The Repository Management team work in the [Job Fair](../../../departments/engineering/job-fair.md) model of prioritization for planning work. Internal Sourcegraph employees can see the [full set of Job Fair projects](https://github.com/orgs/sourcegraph/projects/302) currently approved.
