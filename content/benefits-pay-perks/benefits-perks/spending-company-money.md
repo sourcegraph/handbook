@@ -124,6 +124,8 @@ If your laptop is 2 years or older, you are eligible for a new laptop (same budg
 
 If you would like to upgrade to the new M2 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
 
+Decommissioning of your previous laptop will be handled through Tech Ops and our device management platform. This will involve data wiping the device, completing the buyback process, or retrieving the laptop to be stored at our hardware vendor.
+
 ## Recurring expenses
 
 **Software/SaaS/cloud:** please check with the appropriate team and manager to ask if we already have a subscription or licenses to the software. If not, please get @sourcegraph/people-ops's approval for software or a subscription that would cost more than $500 per year.
