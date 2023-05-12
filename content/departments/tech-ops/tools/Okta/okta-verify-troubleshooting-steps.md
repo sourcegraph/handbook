@@ -1,6 +1,6 @@
 # Troubleshooting Issues with Okta Verify
 
-Sometimes you may encounter issues when using Okta Verify. This short guide will help you troubleshoot and resolve common problems. 
+Sometimes you may encounter issues when using Okta Verify. This short guide will help you troubleshoot and resolve common problems.
 
 ## Check Device Health in Okta Verify Settings
 
@@ -38,4 +38,3 @@ If none of the previous steps helped, try rebooting your machine. This can solve
 ---
 
 If you're still encountering issues with Okta Verify after trying all of these steps, consider reaching out to Tech Ops support.
-
