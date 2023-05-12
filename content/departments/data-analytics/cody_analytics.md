@@ -23,7 +23,7 @@
 There are two mechanisms in which we collect Cody usage data. Through the eventlogger on sourcegraph.com and through Pings
 
 \*\*Eventlogger
-Data in the eventlogger is populated at the event level. An anonymous user id is assigned to a user in order to track individual usage. There is a server endpoint in the pubic argument that can be associated with a cloud instance so that we may bucket usage to an instance.
+Data in the eventlogger is populated at the event level. An anonymous user id is assigned to a user in order to track individual usage. There is a server endpoint in the pubic argument that can be associated with an instance.
 
 \*\*Pings
 Data in pings follows our normal pings mechanism which provides aggregated and anonymized usage data for both self-hosted and managed instances.
