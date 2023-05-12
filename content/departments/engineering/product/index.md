@@ -39,7 +39,6 @@ Examples:
 
 ## Feature matrices
 
-- [Features by maturity](tools/feature_maturity.md)
 - [Features by code host compatibility](tools/feature_compatibility.md)
 - [Features by deployment options](tools/deployment_options.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
