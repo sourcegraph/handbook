@@ -264,23 +264,6 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
-export async function generateCPList() {
-  const owners = await readYamlFile('data/cross-product_owners.yml')
-  const teamMembers = await readYamlFile('data/team.yml')
-  let pageContent = ''
-  for (const owner of Object.values(owners)) {
-    pageContent += `\n\n### ${String(owner.title)} owner\n`
-    if (owner.handbook_link) {
-      pageContent += `- [Handbook Page](${String(owner.handbook_link)})\n`
-    }
-    if (owner.owner) {
-      const bioLink = createBioLink(teamMembers[owner.owner].name)
-      pageContent += `- Owner: [${String(teamMembers[owner.owner].name)}](${String(bioLink)})\n`
-    }
-  }
-  return pageContent
-}
-
 export async function generateProductTeamUseCaseList(product_team) {
   const features = await readYamlFile('data/features.yml')
   const useCases = await readYamlFile('data/use_cases.yml')

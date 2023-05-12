@@ -296,11 +296,6 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
 
-        markdown = markdown.replace(
-            /{{generator:cross-product_owners_list}}/gi,
-            await Promise.resolve(generatedMarkdown.generateCPList())
-        )
-
         markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
         markdown = await replaceAsync(markdown, /({{generator:product_team.)(\w+)(}})/gi, replaceMatchedProductTeam)
         markdown = await replaceAsync(
