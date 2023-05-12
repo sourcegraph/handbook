@@ -64,6 +64,12 @@ Customers under a soft cap do not require a new countersigned OF because they ag
 
 Please attach the customer´s confirmation email to your SFDC Opportunity under the “Files” section.
 
+#### For customers migrating to Cloud, do I need to sign a new Order Form?
+
+Customers migrating to Cloud need to sign a Change Order Form, as they need to accept our Cloud online terms. Per revenue recognition purposes, we also need to sign this to make sure the new deployment is reflected in the contract. For customers on Self-Hosted online terms, we will default to referencing our Cloud online terms.
+
+Additional information on the step by step process can be found [here](https://docs.google.com/document/d/1dVbbMmad94eeKHGNqM3IU4h-c4ky2Bdt53EPrGzzB9Y/edit).
+
 #### If the signed Agreement does not include any Excess Usage language, do I need a new Order Form to book an expansion opportunity?
 
 If the agreement does not include any Excess Usage language, we should send them an Order Form prior to invoicing any additional seat (hard cap is assumed in the absence of this wording). The Order Form ensures we have a contractual commitment and allows us to recognize revenue and measure ARR.
