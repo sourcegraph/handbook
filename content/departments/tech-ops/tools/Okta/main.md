@@ -20,7 +20,7 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 ## Which verification methods are available?
 
-Depending on the classification of data, Okta has different requirements for access. We recommend that you always use a phishing-resistant method for authentication; these are either Okta Verify with biometrics or WebAuthn (TouchID or Security Key). 
+Depending on the classification of data, Okta has different requirements for access. We recommend that you always use a phishing-resistant method for authentication; these are either Okta Verify with biometrics or WebAuthn (TouchID or Security Key).
 
 1. Okta Verify - Okta Verify is an app available through the app store on macOS, iOS, and Android devices. Registration of Okta Verify is required on all devices (mobile AND laptop). Once registered, you can use Okta Verify in the following ways:
    - Okta Verify FastPass - phishing-resistant
