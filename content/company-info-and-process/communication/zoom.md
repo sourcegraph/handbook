@@ -81,4 +81,4 @@ When you join a scheduled meeting, you should see Q&A as an option in your Zoom 
 **Meeting Hosts**
 As the meeting host, you can modify several settings for Q&A. Because we’re a direct and open company, we recommend defaulting to non-anonymous Q&A and that all questions are visible to participants.
 
-- [Schedule and manage a meeting with Q&A](https://support.zoom.us/hc/en-us/articles/11400566807693-Using-Q-and-A-in-Zoom-Meetings)  
+- [Schedule and manage a meeting with Q&A](https://support.zoom.us/hc/en-us/articles/11400566807693-Using-Q-and-A-in-Zoom-Meetings)
