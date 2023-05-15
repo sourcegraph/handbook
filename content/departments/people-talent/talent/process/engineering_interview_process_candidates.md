@@ -286,7 +286,13 @@ are working on this piece of code?
   - If you get stuck, we will go over it on the call
   - You'll get invite by the Recruiter to a shared Slack channel in which you can ask questions
 
-- **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too. Then we'll ask you to add one feature of your choosing to Cody, using Cody. You can ask questions in a shared Slack chat and share your final results as a pull request.
+- **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too. 
+
+  Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Acody%2Fvscode) as possible source of inspiration.
+
+  You can ask questions in a shared Slack chat.
+
+  Share your final results as a pull request in the Slack channel.
 
 ### Leadership Interview Process
 
