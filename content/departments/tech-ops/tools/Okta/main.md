@@ -20,7 +20,7 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 ## Which verification methods are available?
 
-Depending on the classification of data, Okta has different requirements for access. We recommend that you always use a phishing-resistant method for authentication; these are either Okta Verify with biometrics or WebAuthn (TouchID or Security Key). If you choose to enroll in a non-phishing-resistant method for your account, you will need to verify your account first with a phishing-resistant method to set it up.
+Depending on the classification of data, Okta has different requirements for access. We recommend that you always use a phishing-resistant method for authentication; these are either Okta Verify with biometrics or WebAuthn (TouchID or Security Key). 
 
 1. Okta Verify - Okta Verify is an app available through the app store on macOS, iOS, and Android devices. Registration of Okta Verify is required on all devices (mobile AND laptop). Once registered, you can use Okta Verify in the following ways:
    - Okta Verify FastPass - phishing-resistant
@@ -33,6 +33,8 @@ Depending on the classification of data, Okta has different requirements for acc
 
 ## Enrolling your account with Okta Verify and FastPass on your laptop
 
+You will need your Yubikey to enroll a new laptop. If you do not have a Yubikey, you will need to have OTP or Push Notifications set up on your mobile device in order to authenticate into your account and set up Okta Verify on your laptop.
+
 [**Video instructions**](https://www.loom.com/share/638bfd8b9c1d4843b632d113ef6b167d)
 
 - Download the Okta Verify app (you can download it from the App Store or go to the Self Service app on your laptop and download it from there)
@@ -43,16 +45,20 @@ Depending on the classification of data, Okta has different requirements for acc
 
 ## Registering your account with Okta Verify and FastPass on your mobile device
 
+Using your mobile devices to access [company data](../computer-setup.md#company-data) is limited to a few applications, such as Gmail, Calendar, Zoom, Slack, and Airbase.
+
 [**Video instructions**](https://www.loom.com/share/e8fc333236944a76924bcf467c813de1)
 
 - From your laptop, log into your Okta Dashboard
 - Go to settings and click add new next to Okta Verify (ignore the fact that you might already have your phone or tablet listed here)
-- Authenticate again (with Okta FastPass or FIDO2 (WebAuthn))
+- Authenticate again
 - Add Okta Verify
 - A QR code will appear
 - Open the Okta Verify app on your phone or tablet
 - Click the + sign to add a new account
 - Scan QR code and follow the directions for enabling Face ID and/or push notifications.
+
+After you enroll with Okta Verify, the mobile app will also be set up for Push Notifications and one-time passwords (OTP).
 
 For those teammates who were enrolled before April 1, 2023, this is essentially just re-enrolling in Okta Verify to register the device with Okta. This is necessary to access certain apps from your mobile devices. You won't see any change to your account. However, you can now use FastPass on your mobile device as an authentication method.
 
@@ -89,6 +95,8 @@ Apple Touch ID is authenticated through your browser, so if you use multiple bro
 
 7. Repeat these steps for your second YubiKey, if applicable. Best practice is to set up both YubiKeys at the same time.
 
+Once you add a Yubikey to your Okta account in the steps noted above, you will be able to use that Yubikey on your computer or phone as a form of MFA. You will not need to create a new registration entry per device, it is tied directly to your Okta account.
+
 **Optional steps:**
 
 8. Download [YubiKey Manager](http://yubico.com/support/download/yubikey-manager/)
@@ -103,30 +111,6 @@ Apple Touch ID is authenticated through your browser, so if you use multiple bro
 To change between MFA options, click on the arrow next to the label when prompted for MFA
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/switch%20between.png" alt="Okta MFA options" width="300" height="350">
-
-## Using phishing-resistant MFA options on mobile devices
-
-Using your mobile devices to access [company data](../computer-setup.md#company-data) is limited to a few applications, such as Gmail, Calendar, Zoom, Slack, and Airbase. If you are accessing any of these apps from your phone, please log into the applications using phishing-resistant methods.
-
-Once you add a Yubikey to your Okta account in the steps noted above, you will be able to use that Yubikey on your computer or phone as a form of mfa. You will not need to create a new registration entry per device, it is tied directly to your Okta account.
-
-1. Log into Okta with username and password
-1. Select 'Security Key or Biometric Authenticator'
-1. Select 'Verify'
-1. Tap and hold your key towards the top of the device if NFC compatible, or insert your Yubikey and tap the gold part
-1. You will be logged in
-
-## Enroll in MFA on a new laptop or desktop with a phishing-resistant factor
-
-When you attempt to enroll in MFA on another device, you may only use a security key or Okta FastPass to verify your identity on the other laptop or desktop. If you use a security key, it must be the same one used when enrolling on your first device.
-
-After you authenticate with your security key or Okta FastPass, Okta presents the other authenticators you can enroll in using your new device.
-
-If you have yet to enroll in a roaming authenticator (non-phishing resistant method), you may not be able to complete enrollment on other devices, depending on the device type.
-
-## Enroll in additional non-phishing-resistant factors
-
-You can enroll in other authenticators on your mobile device by going to the dashboard > settings > security settings. You will be prompted to authenticate with your phishing-resistant authenticator before you can add the additional authenticators.
 
 ## I forgot my password/my login doesn't work. What do I do?
 
@@ -147,21 +131,6 @@ We recommend that you store your Okta password and your Security Questions in 1P
 ## I forgot my Security Questions. How do I reset my password?
 
 Ask #ask-it-help-ops for a temporary password, to be issued. You will be given a temporary password at which point you can reset your access.
-
-## I changed my phone and now can't do MFA. What do I do?
-
-If you no longer have your phone: ask the #ask-it-tech-ops channel for an MFA reset.
-
-If you still have your old phone: you can reset your own MFA code:
-
-1. Sign in to your Okta webpage by going to <https://www.sourcegraph.okta.com> on your old phone
-2. Use your email, password, and the MFA code on your old phone
-3. Once you're on the Okta webpage, click on your name and then click settings
-4. Scroll down until you see "Extra Verification"
-5. Click "remove" to disable that instance of Okta Verify
-6. Configure the new MFA code on your new phone
-
-Once your MFAs have been reset, please set up MFA again.
 
 ## My Okta account has been locked out because of failed attempts. What do I do?
 
