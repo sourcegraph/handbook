@@ -278,6 +278,7 @@ are working on this piece of code?
 - **Duration:** 15-minute setup call, then candidate works asynchronously on exercise, with ability to ask questions in a Slack chat. Expectation is that candidate finishes project after ~1d (independent of hours actually worked on it)
 
 - **How to prepare:** Please complete these steps prior to the interview:
+
   - Create sourcegraph.com account and an access token for it
   - Have a working VS Code installation on your local machine
   - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
