@@ -286,7 +286,7 @@ are working on this piece of code?
   - If you get stuck, we will go over it on the call
   - You'll get invite by the Recruiter to a shared Slack channel in which you can ask questions
 
-- **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too. 
+- **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
   Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Acody%2Fvscode) as possible source of inspiration.
 
