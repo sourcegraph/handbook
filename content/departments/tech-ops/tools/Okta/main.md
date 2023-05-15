@@ -157,7 +157,7 @@ If you still have your old phone: you can reset your own MFA code:
 1. Sign in to your Okta webpage by going to <https://www.sourcegraph.okta.com> on your old phone
 2. Use your email, password, and the MFA code on your old phone
 3. Once you're on the Okta webpage, click on your name and then click settings
-4. Scroll down until you see "Extra Verification" 
+4. Scroll down until you see "Extra Verification"
 5. Click "remove" to disable that instance of Okta Verify
 6. Configure the new MFA code on your new phone
 
