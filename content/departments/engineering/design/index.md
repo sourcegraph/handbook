@@ -81,7 +81,23 @@ These discovery and delivery phases can be as large or as small as needed for th
 
 We avoid siloed work as much as possible. Instead of design and development phases, each discipline is involved end-to-end, and it’s likely that one discipline will be more involved than the others at different moments along the way. Similarly, we avoid hard handoffs as much as possible. When the Discovery phase is complete, every team member should have a deep understanding and agreement around what will move forward into Delivery and is responsible for shipping the project outcome.
 
-[Design project templates](./templates/index.md) are used to help structure our efforts.
+### Tracking design projects
+
+Design projects are tracked as GitHub issues, which are included on the [design projects board](https://github.com/orgs/sourcegraph/projects/278/views/1). Each issue may also be included in related project team boards.
+
+To include an issue on the design board:
+
+- Work with your team to create a process that will fit the scope of the effort
+- Select a [design project templates](./templates/index.md)
+- Create an issue using the appropriate ticket
+- Add yourself as the assignee
+- Add the design label
+- Add a design scoping label like design-estimated-s that fits the template size
+- Under projects, select the design project board
+- Submit the issue
+- Under projects select the Status and add yourself as a designer.
+  - The issue will not show on the board until you complete this step
+  - We do this because multiple people may be assigned the ticket and we need to be able to split the board into individual designers
 
 #### Process
 
