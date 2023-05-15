@@ -14,11 +14,11 @@ Discuss the process in #ask-dev-experience.
 
 ### For all teammates
 
-1. If a PR is considered to be an exception, a GitHub issue is automatically created over [a GitHub repository dedicated to track them](https://github.com/sourcegraph/sec-pr-audit-trail/issues), and the teammate who caused it is assigned to it.
-1. When assigned such an issue, the teammate (or a peer) has to post an explanation for the exception as well as to justify how it was reviewed and/or tested, and close it.
+1. If a PR is considered to be an exception, a GitHub issue is automatically created over [a GitHub repository dedicated to track them](https://github.com/sourcegraph/sec-pr-audit-trail/issues), and the teammate who is responsible will be assigned.
+1. When assigned such an issue, the teammate (or a peer) is required to post an explanation for the exception as well as to justify how it was reviewed and/or tested, and close it.
 1. If the issue is reopened by @dev-experience-support, the teammate must update the explanation until considered valid by @dev-experience-support.
 
-### For engineer on dev-experience-support roation
+### For engineer on dev-experience-support rotation
 
 > All issues prior to 2023-05-22 have been reviewed manually, even if they do not carry the `approved` label.
 
