@@ -273,15 +273,19 @@ are working on this piece of code?
 
 #### Pairing Exercise
 
-- **Interviewers:** Beyang Liu, co-founder and CTO
+- **Interviewers:** Thorsten Ball, Head of Source and Cody tech lead
 
-- **Duration:** 60-minutes minimum.
+- **Duration:** 15-minute setup call, then candidate works asynchronously on exercise, with ability to ask questions in a Slack chat. Expectation is that candidate finishes project after ~1d (independent of hours actually worked on it)
 
-- **How to prepare:** Prior to the interview, please share your GitHub handle with your Recruiter. The Recruiter and/or Hiring Manager will then share a GitHub repo with you ahead of the interview. During the interview, we will ask you to spin up the dev environment and add a new Recipe to Cody. This Recipe should add the ability to generate a unit test using the surrounding code as context. Please complete these steps prior to the interview:
+- **How to prepare:** Please complete these steps prior to the interview:
+  - Create sourcegraph.com account and an access token for it
   - Have a working VS Code installation on your local machine
   - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
   - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
   - If you get stuck, we will go over it on the call
+  - You'll get invite by the Recruiter to a shared Slack channel in which you can ask questions
+
+- **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too. Then we'll ask you to add one feature of your choosing to Cody, using Cody. You can ask questions in a shared Slack chat and share your final results as a pull request.
 
 ### Leadership Interview Process
 
