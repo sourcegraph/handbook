@@ -72,3 +72,17 @@ To roll out a new LLM Proxy build:
 - `completions.sgdev.org`: [Go to the "Deploy revision" page of the Cloud Run service](https://console.cloud.google.com/run/deploy/us-central1/llm-proxy?project=llm-proxy-dev) and click "Deploy" without changing any configuration - this will redeploy the service with the latest `llm-proxy:insiders` image.
   - This will also happen whenever a Terraform change happens to the `cloudrun` module.
 
+### Service accounts
+
+LLM-proxy access Sourcegraph.com through standard Sourcegraph.com users that are configured with feature flags to enable special access to GraphQL queries and mutations related to product subscriptions.
+
+The current accounts are as follows:
+
+- [`llm-proxy-readonly`](https://team-sourcegraph.1password.com/vaults/all/allitems/3pedoq4kuocyey273nxykwlecy) - this account is the default one provisioned for LLM-proxy instances, and should have read-only access to product subscriptions.
+  - Feature flag: [`product-subscriptions-reader-service-account`](https://sourcegraph.com/site-admin/feature-flags/configuration/product-subscriptions-reader-service-account)
+- [`llm-proxy`](https://team-sourcegraph.1password.com/vaults/all/allitems/gkxxq4jdpgfu2zoynwtjjf3vxy) - this account should have read and write access on LLM-proxy-related resources. This is primarily used for Sourcegraph Cloud integration, where we ened to be able to manage LLM-proxy access for product subscriptions.
+  - Feature flag: [`product-subscriptions-service-account`](https://sourcegraph.com/site-admin/feature-flags/configuration/product-subscriptions-service-account)
+
+More details for each account are available in the 1password entries linked above.
+
+> WARNING: All the above feature flags should be configured as **boolean, default off**.
