@@ -35,6 +35,15 @@ Sample upgrade:
 - [tracking issue - 3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
 - GitHub Pull Requests for [3.40.1 upgrade](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls?q=is%3Apr+is%3Aclosed++upgrade+v3.40.1)
 
+#### Release process for patch releases
+
+With [bi-weekly patch release schedule](../../engineering/dev/process/releases/index.md#patch-schedule), Cloud Team is using simplified release process to ensure Cloud customers can obtain patch as soon as possible.
+
+| Stage | Working days since release | Action                                                                                                                                                                            |
+| ----- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | 0-2                        | Patch internal instances by Cloud Team (incl. [demo](https://demo.sourcegraph.com/), [clouddev](https://clouddev.sourcegraph.com/) and [rctest](https://rctest.sourcegraph.com/)) |
+| 2     | 3-5                        | Patch trials and customer instances.                                                                                                                                              |
+
 ### Known limitations of managed instances
 
 Sourcegraph managed instances are now running on Kubernetes, specifically GKE, today.
