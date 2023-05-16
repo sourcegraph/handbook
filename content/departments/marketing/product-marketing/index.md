@@ -93,8 +93,6 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
   </tr>
 </table>
 
-Also see our [Q4 plan](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toySthUMvOxZnCtdw0/edit)
-
 ## Working with other teams
 
 | **Team**                | **Where PMM can add value**                                                                                                                                                                                                            | **How we collaborate**                                                                                                                                                                                                                                       |
