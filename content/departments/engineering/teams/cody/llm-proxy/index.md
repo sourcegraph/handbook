@@ -45,7 +45,7 @@ On the Sourcegraph instance, configure `llmproxy` as the completions provider:
     "enabled": true,
     "model": "claude-v1",
     "provider": "llmproxy"
-  },
+  }
 }
 ```
 
