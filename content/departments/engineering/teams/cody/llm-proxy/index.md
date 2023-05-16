@@ -45,7 +45,7 @@ On the Sourcegraph instance, configure `llmproxy` as the completions provider:
     "enabled": true,
     "model": "claude-v1",
     "provider": "llmproxy"
-  },
+  }
 }
 ```
 
@@ -71,4 +71,3 @@ To roll out a new LLM Proxy build:
 - `completions.sourcegraph.com`: Make a PR that updates [`llm-proxy/envs/prod/cloudrun/main.tf`](https://github.com/sourcegraph/infrastructure/blob/main/llm-proxy/envs/prod/cloudrun/main.tf) to point to the new build. The image must be in the standard `main`-branch tag format e.g. `218287_2023-05-10_5.0-5bd03cd18e71`.
 - `completions.sgdev.org`: [Go to the "Deploy revision" page of the Cloud Run service](https://console.cloud.google.com/run/deploy/us-central1/llm-proxy?project=llm-proxy-dev) and click "Deploy" without changing any configuration - this will redeploy the service with the latest `llm-proxy:insiders` image.
   - This will also happen whenever a Terraform change happens to the `cloudrun` module.
-
