@@ -29,7 +29,7 @@ The image gets built the same as any other Sourcegraph service, i.e. with `insid
 
 Access to `completions.sourcegraph.com` can be provisioned with the following steps:
 
-1. Go to [site admin: product subscriptions](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. Go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
 3. Under "Cody services":
    1. Enable access to hosted completions
