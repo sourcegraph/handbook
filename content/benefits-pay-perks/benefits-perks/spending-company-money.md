@@ -118,7 +118,7 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 Please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations .
 
-### Laptop upgrade
+### Laptop refresh
 
 If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop.
 
