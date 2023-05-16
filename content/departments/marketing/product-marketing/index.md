@@ -56,42 +56,36 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
    </td>
    <td>
 <ul>
-
 <li>Primary: Cody for Devs
-
-
 <li>Cross-product: Strategic
-
 <li>Emerging products
-
 <li>Release comms
 </li>
 </ul>
    </td>
    <td>
 <ul>
-
 <li>Growth marketing
-
 <li>Demo
 </li>
 </ul>
    </td>
   </tr>
+
   <tr>
    <td><strong>Eric</strong>
    </td>
    <td>
 <ul>
-
 <li>Primary: Cody for Enterprise
-
-<li>Customer-facing product roadmap
 </li>
 </ul>
    </td>
    <td>
 <ul>
+<li>Sales support
+<li>Customer-facing product roadmap
+</li>
 </ul>
    </td>
   </tr>
