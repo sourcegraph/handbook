@@ -59,7 +59,6 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 
 <li>Primary: Cody for Devs
 
-
 <li>Cross-product: Strategic
 
 <li>Emerging products
