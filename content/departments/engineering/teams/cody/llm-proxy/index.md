@@ -9,14 +9,49 @@ In general, we have two LLM Proxy instances running:
 - `completions.sourcegraph.com` - for production usage
 - `completions.sgdev.org` - for development and testing
 
+Contents:
+
+- [Architecture](#architecture)
+- [Service images](#service-images)
+- [Access](#access)
+- [Operation](#operation)
+
 ## Architecture
 
 See [LLM Proxy: working design](https://docs.google.com/document/d/1fAKuYM02vRfn-QAmcu38QWmtQ797g1TA3L6CNs0rFps/edit#) for the current state of LLM proxy architecture.
 
-## Images
+## Service images
 
 Source code for LLM Proxy is in [`sourcegraph/sourcegraph/enterprise/cmd/llm-proxy`](https://github.com/sourcegraph/sourcegraph/tree/main/enterprise/cmd/llm-proxy).
 The image gets built the same as any other Sourcegraph service, i.e. with `insiders` and the standard `main`-branch tags.
+
+## Access
+
+Access to `completions.sourcegraph.com` can be provisioned with the following steps:
+
+1. Go to [site admin: product subscriptions](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+2. Find and open a subscription of interest
+3. Under "Cody services":
+   1. Enable access to hosted completions
+   2. If desired, configure a custom rate limit
+   3. Copy the generated access token
+
+On the Sourcegraph instance, configure `llmproxy` as the completions provider:
+
+```json
+{
+  "completions": {
+    "accessToken": "REDACTED",
+    "enabled": true,
+    "model": "claude-v1",
+    "provider": "llmproxy"
+  },
+}
+```
+
+> NOTE: Changes in product subscription, such as enabling access and configuring custom rate limits, may take some time to propagate.
+
+Access to `completions.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` tag.
 
 ## Operation
 
@@ -36,3 +71,4 @@ To roll out a new LLM Proxy build:
 - `completions.sourcegraph.com`: Make a PR that updates [`llm-proxy/envs/prod/cloudrun/main.tf`](https://github.com/sourcegraph/infrastructure/blob/main/llm-proxy/envs/prod/cloudrun/main.tf) to point to the new build. The image must be in the standard `main`-branch tag format e.g. `218287_2023-05-10_5.0-5bd03cd18e71`.
 - `completions.sgdev.org`: [Go to the "Deploy revision" page of the Cloud Run service](https://console.cloud.google.com/run/deploy/us-central1/llm-proxy?project=llm-proxy-dev) and click "Deploy" without changing any configuration - this will redeploy the service with the latest `llm-proxy:insiders` image.
   - This will also happen whenever a Terraform change happens to the `cloudrun` module.
+
