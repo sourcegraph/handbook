@@ -49,7 +49,7 @@ On the Sourcegraph instance, configure `llmproxy` as the completions provider:
 }
 ```
 
-> NOTE: Changes in product subscription, such as enabling access and configuring custom rate limits, may take some time to propagate.
+> NOTE: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
 
 Access to `completions.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` tag.
 
