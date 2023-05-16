@@ -69,6 +69,7 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 <ul>
 <li>Growth marketing
 <li>Demo
+<li>Developer competitive intel
 </li>
 </ul>
    </td>
@@ -87,6 +88,7 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 <ul>
 <li>Sales support
 <li>Customer-facing product roadmap
+<li>Enterprise competitive intel
 </li>
 </ul>
    </td>
