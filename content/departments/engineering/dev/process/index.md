@@ -10,3 +10,4 @@
 - [Tracking issues](tracking_issues.md)
 - [Escalation Engineering Rotation](escalation-engineer-rotation.md)
 - [Pull-Request compliance and requirements](pullrequest-compliance.md)
+- [Code quality in the age of AI assistants](code-quality-ai.md)
