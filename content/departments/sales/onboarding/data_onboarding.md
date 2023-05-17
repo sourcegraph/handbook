@@ -1,6 +1,6 @@
 # Sales and CE Looker onboarding
 
-Follow onboarding on this page [Looker onboarding](../data-analytics/reports.md) to learn how our sales and CE teams use Looker. It includes a Looker overview (including how to set your Looker account up), common use-cases, context around what data we collect and Q&A.
+Follow onboarding on this page [Looker onboarding](../content/departments/data-analytics/reports.md) to learn how our sales and CE teams use Looker. It includes a Looker overview (including how to set your Looker account up), common use-cases, context around what data we collect and Q&A.
 
 ## Looker configuration and entry-points
 
