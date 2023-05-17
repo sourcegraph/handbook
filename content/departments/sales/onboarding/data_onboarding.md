@@ -1,26 +1,27 @@
 # Sales and CE Looker onboarding
 
-Watch [this short video](https://drive.google.com/file/d/1Z0zQlZcJFWNJrNAXJkigWs-srlugq_8N/view?usp=sharing) to learn how our sales and CE teams use Looker. It includes a Looker overview (including how to set your Looker account up), common use-cases, context around what data we collect and Q&A.
+Follow onboarding on this page [Looker onboarding](/data-analytics/reports.md) to learn how our sales and CE teams use Looker. It includes a Looker overview (including how to set your Looker account up), common use-cases, context around what data we collect and Q&A.
 
 ## Looker configuration and entry-points
 
 Most, if not all, relevant data to any given team can be found in boards. Adding these to your Looker instance will make navigating Looker _much_ easier.
 
-- [Sales](https://sourcegraph.looker.com/browse/boards/2)
-- [Customer Engineering](https://sourcegraph.looker.com/browse/boards/8)
-- [Product/Engineering](https://sourcegraph.looker.com/browse/boards/5)
+- [Technical Advisor](https://sourcegraph.looker.com/boards/50)
+- [AE/CE](https://sourcegraph.looker.com/boards/49)
+- [Customer Support](https://sourcegraph.looker.com/browse/boards/54)
+- [Instance configuration details](https://sourcegraph.looker.com/browse/boards/56)
 
 There are links within Salesforce that go to a Looker dashboard for each account’s Sourcegraph instance.
 
-- Within each account’s Account Summary there’s a ‘Looker Report’ link. This will take you to [this report](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=Uber&Site%20ID=&Salesforce%20Unique%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Uber%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Salesforce%20Unique%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D), unless the account does not have a Sourcegraph instance. This will be true for any prospect that has not yet at the POC stage.
+- Within each account’s Account Summary there’s a ‘Looker Report’ link. This will take you to [this report](https://sourcegraph.looker.com/dashboards/409?Account%20name=Databricks&Installer%20email=&Account%20ID=&Month=12%20month), unless the account does not have a Sourcegraph instance. This will be true for any prospect that has not yet at the POC stage.
 - There’s a [Salesforce report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006jfbmEAA/view?queryScope=userFolders) that lists all of your accounts and their Looker links.
 
 **Typical use cases are:**
 
-- How is the trial going? → [Server instances overview](https://sourcegraph.looker.com/dashboards/94)
-- What feedback are we getting from an account? → [NPS](https://sourcegraph.looker.com/dashboards/128)
-- Who has set up an instance in this company before? → [All instances filtered by an email domain](https://sourcegraph.looker.com/looks/750)
-- What are the deployment characteristics of an account? → [Server instances](https://sourcegraph.looker.com/looks/436)
+- How is the trial going? → [Server instances overview](https://sourcegraph.looker.com/dashboards/409?Account%20name=Databricks&Installer%20email=&Account%20ID=&Month=12%20month)
+- What feedback are we getting from an account? → [NPS](https://sourcegraph.looker.com/looks/1530)
+- Who has set up an instance in this company before? → [All instances filtered by an email domain](https://sourcegraph.looker.com/dashboards/410?Technical%20Advisor=&Account%20Type=Customer&Account%20Executive=&Account%20name=&Customer%20Engineer=&Installer%20email=)
+- What are the deployment characteristics of an account? → [Server instances overview](https://sourcegraph.looker.com/dashboards/409?Account%20name=Databricks&Installer%20email=&Account%20ID=&Month=12%20month)
 
 **Two notes on using Looker:**
 
