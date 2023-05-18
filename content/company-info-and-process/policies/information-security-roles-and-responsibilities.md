@@ -84,7 +84,7 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
   
 <li>Policy development and enforcement: Establish information security policies, standards, and procedures that align with industry best practices and regulatory requirements. 
  
-<li>Security awareness and training: Develop and deliver information security awareness programs to educate employees about potential security risks, best practices, and their roles and responsibilities in safeguarding information. 
+<li>Security awareness and training: Develop and deliver information security awareness programs to educate employees about potential security risks, best practices, and their roles and responsibilities in safeguarding information.
 
 <li>Security audits and assessments: Conduct periodic security audits and assessments to evaluate the effectiveness of security controls and identify areas for improvement. Collaborate with internal and external auditors to ensure compliance with regulatory requirements and industry standards.
   
