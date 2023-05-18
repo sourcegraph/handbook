@@ -48,7 +48,7 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
    </td>
   </tr>
   <tr>
-   <td><strong>Security Lead</strong>
+   <td><strong>Head of Security</strong>
    </td>
    <td>
 <ul>
@@ -80,7 +80,19 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
 
 <li>Builds and maintains an Information Security & Enterprise Risk Management Framework
 
-<li>Responsible for compliance to policies and internal controls. 
+<li>Risk assessment and management: Identify and assess potential risks and vulnerabilities to the organization's information systems and assets. Develop and implement risk mitigation strategies and controls to minimize the impact of security incidents or breaches.
+  
+<li>Policy development and enforcement: Establish information security policies, standards, and procedures that align with industry best practices and regulatory requirements. 
+ 
+<li>Security awareness and training: Develop and deliver information security awareness programs to educate employees about potential security risks, best practices, and their roles and responsibilities in safeguarding information. 
+
+<li>Security audits and assessments: Conduct periodic security audits and assessments to evaluate the effectiveness of security controls and identify areas for improvement. Collaborate with internal and external auditors to ensure compliance with regulatory requirements and industry standards.
+  
+<li>Vendor and third-party risk management: Evaluate the security posture of third-party vendors and partners to assess potential risks to the organization. Establish guidelines and processes for assessing, selecting, and monitoring vendors based on their security capabilities and compliance with information security standards.
+
+<li>Security governance and compliance monitoring: Monitor and measure compliance with security policies, controls, and regulatory requirements. Conduct regular internal assessments and audits to ensure adherence to established security frameworks and standards.
+
+<li>Continuous improvement and industry trends: Stay informed about the latest security threats, trends, and regulatory changes. Continuously improve information security practices and processes based on industry advancements and lessons learned from security incidents.
 </li>
 </ul>
    </td>
@@ -187,6 +199,17 @@ Any known violations of this policy should be reported to report-policy-violatio
    <td>09-Jun-2022
    </td>
    <td>Updated Roles & Resp matrix 
+   </td>
+   <td>Dora Neumeier
+   </td>
+   <td>Diego Comas
+   </td>
+      </tr>
+     <tr>
+   <td>2.1
+    <td>18-May-2023
+   </td>
+   <td>Updated Head of Security title & Compliance manager responsibilities 
    </td>
    <td>Dora Neumeier
    </td>
