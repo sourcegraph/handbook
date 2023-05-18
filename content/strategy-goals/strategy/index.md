@@ -41,27 +41,26 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 **Win devs' hearts and minds** by solving their [Big Code](#big-code) pains. **Get paid by their companies** for sustained, business-critical usage.
 
-- Build the code intelligence platform
+- Launch Cody as the most enterprise focused coding assistant
+- Build a differentiated AI platform to power Cody and Code Search
 - Become more product-led
 - Win in big companies with Big Code
 - Prefer cloud over self-hosted
 - Operate efficiently
 
-> Sourcegraph team members can view the internal [Mission, Strategy, Execution, and Metrics doc](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit). We will move the content to the handbook soon.
-
-### Admin Experience Vision
-
-A core foundation of the FY24 plan is ensuring we provide admins with a world-class experience. Big companies with big code will only be successful if they can configure Sourcegraph. Product-led companies only work if users can effectively set up their instance. Etc! You can read more about our vision and how we plan to accomplish this in our Admin Experience vision.
+Sourcegraph team members can view the internal [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing) and [Mission, Strategy, Execution, and Metrics doc](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products. We will move the content to the handbook soon.
 
 ### Big Code
 
 Big Code is when you have to deal with tons of code, complexity, and devs. Sourcegraph solves Big Code problems: problems that devs and engineering teams face when working in big codebases. As consumers demand more from software and code piles up, more and more devs and engineering teams face Big Code problems.
 
-From the [Big Code survey (2020)](https://info.sourcegraph.com/hubfs/CTA%20assets/sourcegraph-big-code-survey-report.pdf):
+From the [Big Code in the AI Era report](https://about.sourcegraph.com/blog/big-code-in-ai-era):
 
-- 94% of respondents said they're affected by Big Code
-- 51% have 100x more code than 10 years ago
-- 60% reported a significant increase in development complexity in the last 10 years
+- **Big Code’s getting bigger.** 77% of devs say their codebase grew 5x over the past three years.
+- **AI is taking software by storm.** 95% of devs report using AI tools to write code, and 76% say they are worried about being able to manage the new code AI will generate.
+- **This is a “do or die” moment for companies.** 72% of devs say Big Code presents a real risk to their company’s ability to innovate and compete.
+
+The kicker? Only 65% of devs say their company has a plan to address Big Code prior to the rise of AI.
 
 ### Market segmentation
 
