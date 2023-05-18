@@ -2,6 +2,12 @@
 
 <span class="badge badge-note">SOC2/CI-108</span>
 
+First, create the upgrade tracking issue. Following the instruction provided by the command below.
+
+```sh
+mi2 env create-tracking-issue -e prod $TARGET_VERSION
+```
+
 ## Option 1 - automated upgrade
 
 ### To upgrade a specific instance
