@@ -23,6 +23,40 @@ More recently, around 1976, just 0.2% of the world's population used computers. 
 
 Today, only about 0.1% of the world's population can code. That tiny group has built software that runs the modern world and improves the lives of billions of people. Think of the possibilities if everyone was able to code. All around the world, more people would be able to solve problems and improve their lives by building software. We don't know exactly what these billions of coders will create, but we know that billions of coders means faster and more broadly beneficial technological progress.
 
+### Our product framework
+
+#### Product Principles
+
+The principles apply to our company and products:
+
+- Universal: Across all code, all code hosts, and all tools that know things about code. Works with all LLMs. Unlike Microsoft/GitHub, which only works with their vendor locked-in suite.
+- Scalable: Proven to scale over 10+ years to the world's biggest codebases and companies.
+- Open: Cody is open source. At Sourcegraph, our code is public and we operate transparently. Sourcegraph is the open code AI platform, vs. Microsoft/GitHub's closed/faux-open platform.
+- Trustworthy: We're trusted by the most discerning devs and companies (unlike startups), we won't compete with you (unlike Microsoft), and we won't retain your data (unlike Copilot). And you can trust Codyx to not hallucinate or give unsafe answers (better than anything else).
+
+#### Our products:
+
+- Cody: The best AI coding assistant, which helps devs write features and fix bugs faster. In the future, we will segment out Cody’s functionality into more specific Packages tied to persona’s and will update this doc accordingly.
+- Code search: This is the current code search product that all our customers and users use. It's valuable and will remain so for a long time. We'll incrementally improve it with AI.
+- There is no longer a product called "Sourcegraph".
+- We're talking to customers to learn what new security, compliance, governance, legal, and safety problems will be created when they're heavily using AI coding tools—and how we can solve them with a new product here that is symbiotic with Cody demand and GTM motion.
+
+#### The AI Platform
+
+These products all rest on a single AI platform that is the foundation of our differentiation:
+
+- Code graph: All your code and code hosts, comprehensive precise code nav, ownership, and all other code info from your tools. A huge differentiator in code search today that becomes more important when this is fed to an LLM. Replaces the term "code intelligence". (Also, to be clear, today Cody only uses a fraction of this information, but that will change soon.)
+- Workflows: The differentiated capabilities of Cody and code search that make them more powerful than the competition: batch changes, code insights, full API, etc. These are big differentiators today in code search whose value gets bigger when Cody learns to use them.
+- Embeddings: The magic that allows Sourcegraph to customize LLM responses to your code.
+- LLM (Large Language Model): Almost everything in our products will become smarter and better by using a commodity LLM. We are not differentiated on the capability or quality of any foundation model, but we are differentiated in that Sourcegraph gives you the freedom to choose the best or preferred LLM for your needs, unlike Microsoft GitHub OpenAI, which locks you in.
+- Plugin & API: These will allow other tools to plug data into our AI Platform and for other tools to build ontop of our unique code graph, embeddings, and workflows.
+
+#### How we package and ship these products
+
+- Cody App: App will be the fastest way for individual developers to use Cody and Code Search on local code.
+- Sourcegraph Enterprise {Cloud, Server}:A single instance with all of our products (Cody and code search), built for enterprises to deploy at scale.
+- Editor Extensions: Historically, these have been add-on features to Sourcegraph enterprise. In the future, these will act as standalone ways to get access to Cody quickly. [Note: These are not yet fully standalone and more engineering work is required to achieve this vision]
+
 #### FAQ
 
 <dl>
@@ -39,7 +73,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 ## This year (FY24)
 
-**Win devs' hearts and minds** by solving their [Big Code](#big-code) pains. **Get paid by their companies** for sustained, business-critical usage.
+**Win devs' hearts and minds** by solving their [Big Code](#big-code) pains. **Get paid by their companies** for sustained, business-critical usage. We will do this by...
 
 - Launch Cody as the most enterprise focused coding assistant
 - Build a differentiated AI platform to power Cody and Code Search
