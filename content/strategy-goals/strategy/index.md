@@ -29,10 +29,10 @@ Today, only about 0.1% of the world's population can code. That tiny group has b
 
 The principles apply to our company and products:
 
-- **Universal:** Across all code, all code hosts, and all tools that know things about code. Works with all LLMs. Unlike Microsoft/GitHub, which only works with their vendor locked-in suite.
+- **Universal:** Across all code, all code hosts, and all tools that know things about code. Works with all LLMs. Unlike competitors, which only works with their vendor locked-in suite.
 - **Scalable:** Proven to scale over 10+ years to the world's biggest codebases and companies.
-- **Open:** Cody is open source. At Sourcegraph, our code is public and we operate transparently. Sourcegraph is the open code AI platform, vs. Microsoft/GitHub's closed/faux-open platform.
-- **Trustworthy:** We're trusted by the most discerning devs and companies (unlike startups), we won't compete with you (unlike Microsoft), and we won't retain your data (unlike Copilot). And you can trust Codyx to not hallucinate or give unsafe answers (better than anything else).
+- **Open:** At Sourcegraph, our code is public and we operate transparently. Sourcegraph is the open code AI platform, vs. competitors closed/faux-open platform.
+- **Trustworthy:** We're trusted by the most discerning devs and companies (unlike startups), we won't compete with you (unlike Microsoft), and we won't retain your data (unlike Copilot). And you can trust Cody to not hallucinate or give unsafe answers (better than anything else).
 
 #### Our products:
 
