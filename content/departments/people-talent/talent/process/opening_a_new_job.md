@@ -78,7 +78,7 @@ Example topics to cover during intake meeting:
 - Selling points
 - Any additional information
 - Job description
-- Potential qualifying questions that we can utilize on our job application to [automatically reject](https://support.greenhouse.io/hc/en-us/articles/360000653472-Auto-reject) inbound applicants that don't meet our minimum requirements 
+- Potential qualifying questions that we can utilize on our job application to [automatically reject](https://support.greenhouse.io/hc/en-us/articles/360000653472-Auto-reject) inbound applicants that don't meet our minimum requirements
 
 ### Step 2: Greenhouse
 
@@ -87,8 +87,8 @@ The Recruiter opens the job in Greenhouse by clicking "Add" at the top, then "Cr
 - Copy the existing "Template" job.
 - Input all required fields into "Job Info", including the Radford code. The compensation can be confirmed in Assemble. You can read more on how to view our internal compensation bands [here](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands.md).
   - **Note:** Please put the top of band for the finance budget.
-- Input all required fields for the "Hiring team", "Job kickoff", "Scorecard", "Interview plan", "Job Post" and "Email notifications". 
-  - Make sure to build out the interview plan by adding behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage. Each section should include the interviewers and interview duration. 
+- Input all required fields for the "Hiring team", "Job kickoff", "Scorecard", "Interview plan", "Job Post" and "Email notifications".
+  - Make sure to build out the interview plan by adding behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage. Each section should include the interviewers and interview duration.
   - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding interview steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 - Turn on [Slack notifications](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack) for the role.
 
