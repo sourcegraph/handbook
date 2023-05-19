@@ -83,10 +83,16 @@ LLM Proxy infrastructure is defined in Terraform in [`sourcegraph/infrastructure
 We have several tiers of alerting for each LLM Proxy instance to help notify engineers if something has gone wrong:
 
 1. **Error reporting**
-   1. **Sentry**: All error-level application logs with errors attached
-   1. **GCP Error Reporting**: All GCP-generated events, such as Cloud Run errors
-1. **Metrics alerting**
-   1. **GCP Alerting Policies**: [Policies provisioned through Terraform](https://github.com/sourcegraph/infrastructure/tree/main/llm-proxy/modules/monitoring)
+   1. **Sentry**: All error-level application logs with errors attached, such as:
+      1. Internal or background errors
+      2. 5xx response details
+   2. **GCP Error Reporting**: All GCP-generated events, such as:
+      1. Cloud Run instance panics or failure to start
+      2. Unable to route request to a Cloud Run instance (e.g. if no instance is available)
+2. **Metrics alerting**
+   1. **GCP Alerting Policies**: [Policies provisioned through Terraform](https://github.com/sourcegraph/infrastructure/tree/main/llm-proxy/modules/monitoring), covering facets such as:
+      1. Cloud Run service health: startup latency, CPU utilization, memory utilization, instance count, request latency, etc.
+      2. Cloud Redis service health: CPU utilization, memory utilization, etc.
 
 All alerts from all environments currently go to #alerts-llm-proxy.
 
@@ -97,11 +103,18 @@ All alerts from all environments currently go to #alerts-llm-proxy.
 
 See [above for links](#operation) to each resource for each of the following resources for each deployment.
 
+#### Metrics
+
 Each deployment's Cloud Run metrics overview provides basic observability into the service provided out-of-the-box by Cloud Run. Logs are also available in Cloud Logging.
 
+#### Tracing
+
 Each instance also collects and exports traces to Google Cloud Trace.
-Of note is that each HTTP request trace can be correlated with the corresponding originating Sourcegraph.com trace through a span link - this will give you the trace ID that you can use to find the corresponding trace in the `sourcegraph-dev` project for Sourcegraph.com.
-Ignore the automatically generated traces from `/component: AppServer`
+Common ways of approaching traces:
+
+- Each HTTP request trace can be correlated with the corresponding originating Sourcegraph.com trace through a span link - this will give you the trace ID that you can use to find the corresponding trace in the `sourcegraph-dev` project for Sourcegraph.com.
+  - Note: For now, ignore the automatically generated traces from `/component: AppServer`, as those currently aren't attached to our application spans.
+- Log entries and Sentry error events will generally have trace IDs attached to them, which can be used to find the corresponding trace in Cloud Trace.
 
 ### Deployment
 
