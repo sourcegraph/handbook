@@ -248,21 +248,21 @@ For this interview we want to give candidates an opportunity to learn about our 
 
 **What we’re measuring**
 
-* Ability to lead a compelling product demonstration
-    * Ability to use the notes given
-    * Focusing on value and not just features
-* Ability to perform discovery, and both manage and engage participants
-* Ability to write code and illustrate developer empathy
+- Ability to lead a compelling product demonstration
+  - Ability to use the notes given
+  - Focusing on value and not just features
+- Ability to perform discovery, and both manage and engage participants
+- Ability to write code and illustrate developer empathy
 
 **Interview structure**
 
-* 20-30 minute live demo for a prospect based on notes from account team
-* 5-10 minute Q&A from interviewer on technical topics
-* 10 minute open Q&A from the candidate
+- 20-30 minute live demo for a prospect based on notes from account team
+- 5-10 minute Q&A from interviewer on technical topics
+- 10 minute open Q&A from the candidate
 
 **20-30 minute live demo scenario prompt**
 
-You have been tasked with designing and presenting a 20-30 minute **discovery & demo** session for a prospect. 
+You have been tasked with designing and presenting a 20-30 minute **discovery & demo** session for a prospect.
 
 For the demo, use sourcegraph.com - it's our free open source version of our product with millions of open source repositories on it from GitHub & GitLab. Below are some raw notes from the AE & SDR’s first call. You are encouraged to do additional discovery during the session.
 
@@ -270,61 +270,49 @@ For the demo, use sourcegraph.com - it's our free open source version of our pro
 
 <span style="text-decoration:underline;">Team Size</span>:
 
-
-
-* Planet Express is a shipping logistics tech company with 1000 developers 
-* 250 engineers came from a recent acquisition
+- Planet Express is a shipping logistics tech company with 1000 developers
+- 250 engineers came from a recent acquisition
 
 <span style="text-decoration:underline;">Tech Stack</span>:
 
-
-
-* Most of their code is in GitLab
-    * They also have code in GitHub from an acquisition
-* Mostly run on microservices but have a legacy app that is a large monorepo
-* Languages used:
-    * “Just about everything” including Python, Java, Go, Javascript, etc 
+- Most of their code is in GitLab
+  - They also have code in GitHub from an acquisition
+- Mostly run on microservices but have a legacy app that is a large monorepo
+- Languages used:
+  - “Just about everything” including Python, Java, Go, Javascript, etc
 
 <span style="text-decoration:underline;">Developer Productivity</span>:
 
-
-
-* Since the acquisition there has been a deep focus on code reuse practices 
-    * new developers are currently “reinventing the wheel”
-* Slowed down hiring => focus on developer productivity / do more with less
-* Due to the acquisition and migration projects, their devops team has spent a lot of time making small changes across many different configurations
+- Since the acquisition there has been a deep focus on code reuse practices
+  - new developers are currently “reinventing the wheel”
+- Slowed down hiring => focus on developer productivity / do more with less
+- Due to the acquisition and migration projects, their devops team has spent a lot of time making small changes across many different configurations
 
 <span style="text-decoration:underline;">Compliance</span>:
 
-
-
-* Write a script that can be run monthly which will create a list of users in the Sourcegraph instance, ordered by the number of search activities that they have performed. This will be used for auditing purposes to watch for abnormal usage spikes
+- Write a script that can be run monthly which will create a list of users in the Sourcegraph instance, ordered by the number of search activities that they have performed. This will be used for auditing purposes to watch for abnormal usage spikes
 
 <span style="text-decoration:underline;">Security</span>:
 
-
-
-* After the acquisition, they need to go through and audit third party libraries to make sure they meet compliance requirements
-* Leadership is committed to security practices. “need to up level tooling”
+- After the acquisition, they need to go through and audit third party libraries to make sure they meet compliance requirements
+- Leadership is committed to security practices. “need to up level tooling”
 
 <span style="text-decoration:underline;">Management Initiatives</span>:
 
-
-
-* Migrate all code to GitLab from GitHub
-* Improve code security practices 
-* Increase productivity by reusing code
+- Migrate all code to GitLab from GitHub
+- Improve code security practices
+- Increase productivity by reusing code
 
 **Demo Tips**
 
-* Remember, don’t focus too much on specific features or how to navigate the UI, it is more important to describe the value of solving these problems with Sourcegraph and how it will help the prospect. 
-* There is always more information to gain from the prospect, ask questions!
-* Here are some repos you could use
-    * [https://sourcegraph.com/github.com/sourcegraph/sourcegraph](https://sourcegraph.com/github.com/sourcegraph/sourcegraph)
-    * [https://sourcegraph.com/gitlab.com/gitlab-org/gitlab-runner](https://sourcegraph.com/gitlab.com/gitlab-org/gitlab-runner) 
-    * [https://sourcegraph.com/github.com/vuejs/vue](https://sourcegraph.com/github.com/vuejs/vue) 
-    * Or use any repo or language you feel comfortable with.
-* We don’t expect you to make slides - this can be more conversational and product-focused.
+- Remember, don’t focus too much on specific features or how to navigate the UI, it is more important to describe the value of solving these problems with Sourcegraph and how it will help the prospect.
+- There is always more information to gain from the prospect, ask questions!
+- Here are some repos you could use
+  - [https://sourcegraph.com/github.com/sourcegraph/sourcegraph](https://sourcegraph.com/github.com/sourcegraph/sourcegraph)
+  - [https://sourcegraph.com/gitlab.com/gitlab-org/gitlab-runner](https://sourcegraph.com/gitlab.com/gitlab-org/gitlab-runner)
+  - [https://sourcegraph.com/github.com/vuejs/vue](https://sourcegraph.com/github.com/vuejs/vue)
+  - Or use any repo or language you feel comfortable with.
+- We don’t expect you to make slides - this can be more conversational and product-focused.
 
 ### Enterprise Technical Advisor Leadership Panel Interview
 
