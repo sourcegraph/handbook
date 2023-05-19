@@ -15,6 +15,10 @@ Contents:
 - [Service images](#service-images)
 - [Access](#access)
 - [Operation](#operation)
+  - [Alerting](#alerting)
+  - [Observability](#observability)
+  - [Deployment](#deployment)
+  - [Service accounts](#service-accounts)
 
 ## Architecture
 
@@ -59,18 +63,71 @@ LLM Proxy infrastructure is defined in Terraform in [`sourcegraph/infrastructure
 
 - `llm-proxy/envs/prod`: `completions.sourcegraph.com`
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?tag=llm-proxy,prod)
-  - [Cloud Run service](https://console.cloud.google.com/run/detail/us-central1/llm-proxy/metrics?project=llm-proxy-prod)
+  - [Cloud Run service (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/llm-proxy/metrics?project=llm-proxy-prod)
   - [Service logs](https://cloudlogging.app.goo.gl/M9Kcbue8zGtMwpdf8)
+  - [Service traces](https://console.cloud.google.com/traces/overview?project=llm-proxy-prod)
+  - [Sentry events](https://sourcegraph.sentry.io/projects/llm-proxy-prod/)
+  - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=llm-proxy-prod)
+  - [GCP errors](https://console.cloud.google.com/errors?project=llm-proxy-dev)
 - `llm-proxy/envs/dev`: `completions.sgdev.org`
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?tag=llm-proxy,dev)
-  - [Cloud Run service](https://console.cloud.google.com/run/detail/us-central1/llm-proxy/metrics?project=llm-proxy-dev)
+  - [Cloud Run service (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/llm-proxy/metrics?project=llm-proxy-dev)
   - [Service logs](https://cloudlogging.app.goo.gl/yFRNbj3pKjtZZqb2A)
+  - [Service traces](https://console.cloud.google.com/traces/overview?project=llm-proxy-dev)
+  - [Sentry events](https://sourcegraph.sentry.io/projects/llm-proxy-dev/)
+  - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=llm-proxy-dev)
+  - [GCP errors](https://console.cloud.google.com/errors?project=llm-proxy-dev)
+
+### Alerting
+
+We have several tiers of alerting for each LLM Proxy instance to help notify engineers if something has gone wrong:
+
+1. **Error reporting**
+   1. **Sentry**: All error-level application logs with errors attached, such as:
+      1. Internal or background errors
+      2. 5xx response details
+   2. **GCP Error Reporting**: All GCP-generated events, such as:
+      1. Cloud Run instance panics or failure to start
+      2. Unable to route request to a Cloud Run instance (e.g. if no instance is available)
+2. **Metrics alerting**
+   1. **GCP Alerting Policies**: [Policies provisioned through Terraform](https://github.com/sourcegraph/infrastructure/tree/main/llm-proxy/modules/monitoring), covering facets such as:
+      1. Cloud Run service health: startup latency, CPU utilization, memory utilization, instance count, request latency, etc.
+      2. Cloud Redis service health: CPU utilization, memory utilization, etc.
+
+All alerts from all environments currently go to #alerts-llm-proxy.
+
+> NOTE: OpsGenie alerts to #ask-cloud are slated to be configured for the production instance.
+> For now, #wg-llm-proxy will monitor alerts for any issues.
+
+### Observability
+
+See [above for links](#operation) to each resource for each of the following resources for each deployment.
+
+#### Metrics
+
+Each deployment's Cloud Run metrics overview provides basic observability into the service provided out-of-the-box by Cloud Run. Logs are also available in Cloud Logging.
+
+#### Tracing
+
+Each instance also collects and exports traces to Google Cloud Trace.
+Common ways of approaching traces:
+
+- Each HTTP request trace can be correlated with the corresponding originating Sourcegraph.com trace through a span link - this will give you the trace ID that you can use to find the corresponding trace in the `sourcegraph-dev` project for Sourcegraph.com.
+  - Note: For now, ignore the automatically generated traces from `/component: AppServer`, as those currently aren't attached to our application spans.
+- Log entries and Sentry error events will generally have trace IDs attached to them, which can be used to find the corresponding trace in Cloud Trace.
+
+### Deployment
 
 To roll out a new LLM Proxy build:
 
 - `completions.sourcegraph.com`: Make a PR that updates [`llm-proxy/envs/prod/cloudrun/main.tf`](https://github.com/sourcegraph/infrastructure/blob/main/llm-proxy/envs/prod/cloudrun/main.tf) to point to the new build. The image must be in the standard `main`-branch tag format e.g. `218287_2023-05-10_5.0-5bd03cd18e71`.
 - `completions.sgdev.org`: [Go to the "Deploy revision" page of the Cloud Run service](https://console.cloud.google.com/run/deploy/us-central1/llm-proxy?project=llm-proxy-dev) and click "Deploy" without changing any configuration - this will redeploy the service with the latest `llm-proxy:insiders` image.
   - This will also happen whenever a Terraform change happens to the `cloudrun` module.
+
+To configure [alerting](#alerting), some initial setup outside of the Terraform module are required as Terraform modules may not be available or configured:
+
+1. In Sentry, under each Project, set up an alert rule for all issues that sends notifications to the desired channels.
+2. In GCP Error Reporting, set up alerting through the notification channel(s) provisioned through Terraform.
 
 ### Service accounts
 
