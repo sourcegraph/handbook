@@ -4,7 +4,6 @@
 - [Switching teams](switching-teams.md)
 - [Impact reviews](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 - [Leaving](../../departments/people-talent/people-ops/process/leaving.md)
-- [Before your start date](before-start.md)
 - [Teammate development](teammate-development/index.md)
   - [Training](teammate-development/training/index.md)
 - [Recognition and #thanks Channel best practices](../../benefits-pay-perks/benefits-perks/celebrate.md#regular-thanks-and-recognition-via-our-thanks-channel)
