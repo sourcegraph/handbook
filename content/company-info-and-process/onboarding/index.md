@@ -39,6 +39,7 @@ The People team will send additional information to prepare you for Day 1 at Sou
 ## After Day 1 at Sourcegraph
 
 **Guiding Principles**
+
 Everyone is here to support you as you onboard.
 
 - Joining a new company can be overwhelming—there’s a lot to learn! As you navigate your first few weeks at Sourcegraph, we want you to know that everyone on the team is here to help and will gladly drop anything to answer any question you have.
@@ -48,6 +49,32 @@ Everyone is here to support you as you onboard.
 
 - At Sourcegraph, we don’t think of teammates as resources—we think of them as owners of their work, who constantly reevaluate how to use their talents to be as impactful as possible. We value your opinions and ideas. You should always feel empowered to identify potential improvements and act upon them, whether they be improvements to processes (like onboarding), our handbook and general documentation, our codebase and tooling, or our product.
   Never assume that a problem is somebody else’s to fix!
+
+### US Teammates
+
+🔍 **Employment verification**
+
+US Teammates will complete an I-9 form remotely through Workbright within their first 3 days at Sourcegraph. More information and instructions will be provided during onboarding, but please be aware that you will need to present valid employment documents to complete the I-9 form (you can find a list of acceptable documents [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents).
+
+⚖️ **Benefits**
+
+Benefit eligibility begins on your first day. Keep in mind that when you get your credentials will depend on when you set everything up.
+
+💸 **Getting Paid**
+
+US-based Sourcegraph teammates are on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](../../departments/people-talent/people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
+
+Keep in mind that teammates starting on the day before any given payday will receive their first paycheck on the following payday.
+
+### Non-US Teammates
+
+💸 **Getting Paid**
+
+Non-US based teammates are on a monthly payroll cycle, whether they are hired through a PEO or as a contractor. Contractors will submit an invoice at the end of each month. Please read more about the invoicing process and find resources [here](../../benefits-pay-perks/pay-expenses/invoices.md).
+
+🗺 **Talent outside the US**
+
+You can read more about [how we engage talent outside the US here](../../departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md).
 
 ### Onboarding expectations
 
@@ -62,6 +89,7 @@ This is a basic breakdown of our expectations for providing a smooth onboarding 
 ### Onboarding experience
 
 **Onboarding checklist**
+
 Before your first day, we will email you a link to your onboarding checklist. This will serve as a guide for you to navigate your first weeks with us. You will be provided tasks, context, and will be pointed to the right resources.
 
 We don’t expect you to know everything by the time stated in each task. We know this is a process. But we want you to have the resources available and to know where the information is for you to come back to them later.
@@ -71,6 +99,7 @@ For the most part, this is a self paced process, tasks and content is presented 
 Please reach out in #ask-people-team or tag Kemper Hamilton directly in the Process St comment section if you have any questions or would like to request updates to any onboarding information.
 
 **Onboarding buddy program**
+
 Creating a positive and successful onboarding experience for our teammates is a top priority. One way we ensure new hires are supported is through our [Onboarding buddy program](../onboarding/buddy-program.md), which connects new teammates to a current Sourcegraph teammate that can share their experiences and advice to help make onboarding a little smoother.
 
 ### Onboarding Feedback
@@ -78,14 +107,17 @@ Creating a positive and successful onboarding experience for our teammates is a 
 We welcome feedback about how we can improve our onboarding process for future new hires. Here are some of the ways we [collect onboarding feedback](../onboarding/onboarding-reviews.md).
 
 **Onboarding Feedback Milestones**
+
 [Onboarding Feedback Milestones](../onboarding/onboarding-feedback-milestones.md) help us to enhance new teammates’ performance and wellbeing. These milestones help managers gather insight about teammate’s progress and development, as well as support teammates in avoiding burnout, clarifying expectations, giving feedback on progress and stimulating confidence in new teammates during the first few months.
 
 We conduct milestone surveys via Lattice at the one month and three month mark.
 
 **One month check-in**
-People Ops sets upa 15 minute zoom meeting with each new hire at the 1-month mark to collect live feedback and address any questions or concerns.
+
+People Ops sets up a 15 minute zoom meeting with each new hire at the 1-month mark to collect live feedback and address any questions or concerns.
 
 **Onboarding survey**
+
 Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role.
 
 Onboarding experience - Survey questions:
