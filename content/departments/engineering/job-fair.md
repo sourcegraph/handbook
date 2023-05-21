@@ -5,7 +5,8 @@ Sourcegraph assigns work using a Job Fair system, treating all engineering work 
 ## Summary
 
 - Projects are described in PR-FAQs (Press release-FAQ). PR-FAQs describe ambitious goals that take several quarters of work of several engineers to complete.
-- We mostly plan in 3-month cycles, with off-cycle adjustments as needed. In each planning cycle, we build an actionable plan for the next 3 months, and a more tentative plan for the 3 months after that. We aim to have a high certainty 3-month roadmap, and a low-certainty 6-month roadmap.
+- We globally prioritize work in 3-month cycles, with off-cycle adjustments as needed. In each planning cycle, we build an actionable plan for the next 3 months with staffed engineeres to the top projects, and a more tentative plan for the 3 months after that.
+- When a feature has shown clear product-market fit, it becomes pre-approved for job fair staffing. This pre-greenlighting lasts for 2-4 quarters, or as long as needed for the feature to work for our [strategic customers](../../strategy-goals/strategy/index.md#market-segmentation). Projects which are pre-greenlit should have a 2-4 quarter roadmap for strategic customers.
 - Before each cycle, we ask everyone at Sourcegraph to propose new projects (by raising a PR-FAQ) or to propose continuing an existing project (by adding a scoped step to an existing PR-FAQ).
 - Look our for updates in #job-fair.
 
@@ -20,6 +21,17 @@ We plan in 3-months cycles, that are organized in the following way:
 3. Call for staffing preferences of engineers
 4. Global prioritization against the [MSEM](../../strategy-goals/msem.md), ARR opportunities, and technical goals, so as to saturate engineering capacity.
 5. Cycle starts! Off-cycle PR-FAQs are welcome, either to be considered for the next cycle or to make off-cycle adjustments.
+
+### Pre-Greelit Projects
+
+Pre-greenlit projects are our way to creating focus to ensure that features have the time to fully become strategic ready. This also helps produce longer customer-facing roadmaps. Below is specifically how it works...
+
+- The PMs, EMs, and Designers identify several features to receive consistent engineering investment for up to 4 consecutive quarters. (Example: Own will need 3 engineers for ~4 quarters to be fully GA for strategic customers).
+- The rest of the engineers stay in the normal job fair prioritization process to ensure flexibility. We expect 20-40% of the engineering organization to be flexible.
+- PM / Tech Lead will own creating 8-12 month high confidence roadmap for these features including definition of done
+- PM / Tech Lead will continue to submit projects via Job Fair process even though greenlighting is already agreed
+
+Sourcegraph employees can read the full [decision document](https://docs.google.com/document/d/1xFoNhiWP4OQwBoYwsjtUXkS8xVRVhhwU6-0uu6rWEdM/edit?usp=sharing) for introducing pre-greenlit projects. Current projects can be found in our [FY24 strategy](../../strategy-goals/strategy/index.md#fy24-pre-greenlit-featuers).
 
 ### Planning sequence
 

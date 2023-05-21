@@ -73,16 +73,18 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 ## This year (FY24)
 
-**Win devs' hearts and minds** by solving their [Big Code](#big-code) pains. **Get paid by their companies** for sustained, business-critical usage. We will do this by...
+Within our [Job Fair Planning Process](../../departments/engineering/job-fair.md), features which have shown strong product-market fit recieve approval for longer investment. For FY24, those features currently are...
 
-- Launch Cody as the most enterprise focused coding assistant
-- Build a differentiated AI platform to power Cody and Code Search
-- Become more product-led
-- Win in big companies with Big Code
-- Prefer cloud over self-hosted
-- Operate efficiently
+- **Cody:** Generative AI represents a significant market shift. Cody has already proven valuable to developers within dozens of companies and we will continue investing in Cody.
+- **Cloud & Self-hosted Delivery:** Customers must be able to use the latest version of Sourcegraph within their environment or via our single-tenant cloud product.
+- **Tools for Cody:** Sourcegraph has built a set of search-powered tools that we must integrate into Cody to expand Cody's capabilities.
+- **Repository and Permissions Syncing, incl. Perforce:** Our largest customers must be able to reliably and efficiently sync their code and permissions to Sourcegraph.
+- **Precise Code Intelligence:** Sourcegraph's Code Search and Cody products are highly differentiated due to our compiler-accurate code intelligence and we'll continue to invest in furthering this lead
+- **Strategic Ready Ownership:** In Q1, we launched Sourcegraph Own as an experimental new feature. We'll continue to invest in building out an ownership data layer
 
 Sourcegraph team members can view the internal [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing) and [Mission, Strategy, Execution, and Metrics doc](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products. We will move the content to the handbook soon.
+
+### FY24 Pre-Greenlit Featuers
 
 ### Big Code
 
