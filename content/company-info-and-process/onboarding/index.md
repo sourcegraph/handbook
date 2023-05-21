@@ -54,7 +54,7 @@ Everyone is here to support you as you onboard.
 
 🔍 **Employment verification**
 
-US Teammates will complete an I-9 form remotely through Workbright within their first 3 days at Sourcegraph. More information and instructions will be provided during onboarding, but please be aware that you will need to present valid employment documents to complete the I-9 form (you can find a list of acceptable documents [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents). 
+US Teammates will complete an I-9 form remotely through Workbright within their first 3 days at Sourcegraph. More information and instructions will be provided during onboarding, but please be aware that you will need to present valid employment documents to complete the I-9 form (you can find a list of acceptable documents [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents).
 
 ⚖️ **Benefits**
 
