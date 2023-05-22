@@ -9,6 +9,12 @@ If you want to document sensitive information, you can either:
 - Add it to the `docs` folder in the [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/docs).
   This option is better for technical documentation.
 
+## Wolfi
+
+- [Overview of Wolfi](./wolfi/index.md)
+- [Wolfi packages](./wolfi/packages.md)
+- [Wolfi base images](./wolfi/images.md)
+
 ## Processes
 
 - [Blocking IPs in Cloudflare](https://docs.google.com/document/d/17FV8pjbJNrhAtW9lvGIbJ1jSkXe0mRw4ci7w0084RBE/edit#heading=h.jpz7uaphhdtk)
