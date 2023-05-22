@@ -10,7 +10,6 @@
 
 ## Once you've decided to join us
 
-- [Before your first day](../../../company-info-and-process/working-at-sourcegraph/before-start.md)
 - [Onboarding](../../../company-info-and-process/onboarding/index.md)
   - [Onboarding checklist](../../../company-info-and-process/onboarding/onboarding-checklist.md)
   - [Onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md)
