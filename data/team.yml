@@ -178,7 +178,7 @@ dave_try:
   name: Dave Try
   role: Software Engineer
   reports_to: engineering_manager_batch_changes
-  location: Ibague, Colombia 🇨🇴/ Sydney, Australia 🇦🇺
+  location: Bogotá, Colombia 🇨🇴
   github: davejrt
   email: dave@sourcegraph.com
   description: Dave likes riding his bike up hill, drinking coffee and travelling. After graduating University and getting his start as a Unix system administrator, he still has a soft spot for Solaris and enjoys solving problems on large scale infrastructure.
