@@ -31,7 +31,14 @@ There 5 tasks new hires must complete within 48 hours of signing your offer lett
 - **Complete your background check.** You will receive an email from Checkr to complete a background check. Please provide all the required information as soon as possible to ensure the background check results are returned prior to your first day, which is a requirement to start.
 - **Place an order for your Sourcegraph computer** immediately after signing your contract. You can find instructions [here](../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).
   - FYI, our Tech Ops team will create your work email using our standard naming convention: "PreferredFirstName.PreferredLastName@sourcegraph.com". You can read more about this [here](../../departments/people-talent/email-changes.md#sts=Email%20Changes).
-- **Make your welcome video.** We have a company meeting every other week, during which we introduce our new hires via a video! In the next 48-hours, please record and submit a ~30 second video (recorded horizontally), you can find details [here](../working-at-sourcegraph/before-start.md#-make-your-welcome-video). Please submit the final version using this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfH6DQORMhFO7CLzqYaOCSFKE79QAdSW_Sr1WLzk4hhtpCFpw/viewform?usp=sf_link).
+- **Make your welcome video.** We have a company meeting every other week, during which we introduce our new hires via a video! In the next 48-hours, please record and submit a ~30 second video (recorded horizontally) and submit the final version using this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfH6DQORMhFO7CLzqYaOCSFKE79QAdSW_Sr1WLzk4hhtpCFpw/viewform?usp=sf_link).
+Details to include in the video:
+  - Your name
+  - Where you are located
+  - Your role / who you report to / what you’ll be doing
+  - How you heard about Sourcegraph (feel free to only include if you heard about us in a cool way, if you were referred by someone, or if your Sourcegraph Recruiter did a great job recruiting you)
+  - What you are most excited to work on at Sourcegraph
+  - A fun fact about yourself 🎉
 - **Order your Sourcegraph swag pack.** We love our swag and think you will, too! Use this link to provide your shipping address and place your order.
 
 The People team will send additional information to prepare you for Day 1 at Sourcegraph. You will receive this email by the end of the business day prior to your start date.
