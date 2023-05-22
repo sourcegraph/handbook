@@ -32,7 +32,7 @@ There 5 tasks new hires must complete within 48 hours of signing your offer lett
 - **Place an order for your Sourcegraph computer** immediately after signing your contract. You can find instructions [here](../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).
   - FYI, our Tech Ops team will create your work email using our standard naming convention: "PreferredFirstName.PreferredLastName@sourcegraph.com". You can read more about this [here](../../departments/people-talent/email-changes.md#sts=Email%20Changes).
 - **Make your welcome video.** We have a company meeting every other week, during which we introduce our new hires via a video! In the next 48-hours, please record and submit a ~30 second video (recorded horizontally) and submit the final version using this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfH6DQORMhFO7CLzqYaOCSFKE79QAdSW_Sr1WLzk4hhtpCFpw/viewform?usp=sf_link).
-Details to include in the video:
+  Details to include in the video:
   - Your name
   - Where you are located
   - Your role / who you report to / what you’ll be doing
