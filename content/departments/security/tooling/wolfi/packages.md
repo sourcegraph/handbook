@@ -6,13 +6,13 @@ Linux packages are bundles of software and related files that are designed to be
 
 As well as using common packages from the Wolfi repository, we package all our third-party dependencies. This makes it easier to add and modify dependencies, reduces build times, and increases security. This page focuses on how we package these third-party dependencies.
 
-For full details on why we package third-party dependencies, see [RFC 769: Package container build dependencies as Alpine packages](https://docs.google.com/document/d/1VFxBECDErU5bR5uPDsiYREC_qfHDEDyOSaDTaH83nZU/edit#).
+For full details on why we use packages, see [RFC 769: Package container build dependencies as Alpine packages](https://docs.google.com/document/d/1VFxBECDErU5bR5uPDsiYREC_qfHDEDyOSaDTaH83nZU/edit#).
 
 ## Finding and building packages
 
-Sourcegraph's container images use Wolfi, and the [Wolfi package repository](https://github.com/wolfi-dev/os) contains most common packages. If you need to add a new dependency to an image, you can search this repository by using `apk search`.
+Sourcegraph's container images use Wolfi, and the [Wolfi package repository](https://github.com/wolfi-dev/os) contains many common packages. If you need to add a new dependency to an image, you can search this repository by using `apk search`.
 
-If we require a less common dependency such as `ctags` or `p4-fusion`, we also build our own packages. All third-party dependencies should be packaged, rather than fetching and building dependencies in Dockerfiles. This reduces build times, helps protect against supply-chain attacks, and prevents build failures caused by download timeouts or URL changes.
+If we require a less common dependency such as `ctags` or `p4-fusion`, we can also build our own packages. All third-party dependencies should be packaged, rather than fetching and building dependencies in Dockerfiles.
 
 Dependencies are packaged using [Melange](https://github.com/chainguard-dev/melange), using a declarative YAML file. Melange follows a sequence of build instructions (known as "pipelines"), and runs in a sandbox to ensure isolation.
 
@@ -25,7 +25,9 @@ Dependencies are typically packaged in one of two ways:
 - Binary releases: download a precompiled binary of the dependency at a specific version, check its SHA checksum, and then move it to the final directory path. See the [p4cli package](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@760db946dd9c3b23af69f2036b7a8c11e38307b4/-/blob/wolfi-packages/p4cli.yaml?L20-29) for an example.
 - Source releases: download the source code of the dependency at a specific version, check its SHA checksum, build the binary, then move it to the final directory. See the [syntect-server](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@321e0e9d01fa23b83bef57c1e69076866094af20/-/blob/wolfi-packages/syntect-server.yaml?L29-45) package for an example.
 
-## Updating an existing packaged dependency
+## How to...
+
+### Update an existing packaged dependency
 
 It's common to need to update a package to the most recent release in order to pull in new features or security patches.
 
@@ -39,7 +41,7 @@ It's common to need to update a package to the most recent release in order to p
 
 4. Push your branch and create a PR. Buildkite will build the new version of the package, which you can [test](#testing-packages). Once merged to `main`, it will be added to the [Sourcegraph package repository](#sourcegraph-package-repository).
 
-## Creating a new package
+### Create a new package
 
 Creating a new package should be an infrequent activity. Search the Wolfi package repository first, and if you're looking to build a common package then consider asking Chainguard to add it to the Wolfi repository. Feel free to reach out to #ask-security for assistance.
 

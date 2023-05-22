@@ -2,7 +2,7 @@
 
 Sourcegraph is in the process of migrating from Alpine-based Docker images to Wolfi-based images. This page covers the migration, and highlight changes to our images build process.
 
-For information on how to build packages and base images, see the Handbook.
+For information on how to build and update packages and base images, see [More Information](#more-information).
 
 ## What is Wolfi?
 

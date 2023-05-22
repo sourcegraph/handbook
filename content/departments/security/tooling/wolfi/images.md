@@ -1,4 +1,4 @@
-# Wolfi base images
+# Wolfi Base Images
 
 When writing a Dockerfile, you typically base your image on an upstream release such as Alpine. Historically, we've used our [alpine-3.14](https://github.com/sourcegraph/sourcegraph/blob/main/docker-images/alpine-3.14/Dockerfile) base image for this purpose.
 
@@ -10,9 +10,9 @@ Base images are defined using an apko YAML configuration file, found under [wolf
 
 These configuration files can be processed with apko, which will generate a base image. You can build these locally using [`local-build.sh <image-name>.yaml`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/wolfi-images/local-build.sh).
 
-## Making Changes
+## How to...
 
-### Updating base image packages
+### Update base image packages
 
 In order to pull in updated packages with new features or fixed vulnerabilities, we need to periodically rebuild the base images.
 
@@ -22,7 +22,7 @@ This is currently a two-step process, but will be automated in the future:
   - This will trigger Buildkite to rebuild the base images and publish them.
 - Currently we use the `latest` label, but we will switch to using a `sha256` tag once deployed in production. Update the relevant Dockerfiles with the new base image's `sha256` hash, commit the change, and merge to main.
 
-### Modifying an existing base image
+### Modify an existing base image
 
 To modify a base image to add packages, users, or directories:
 
@@ -32,7 +32,7 @@ To modify a base image to add packages, users, or directories:
 - Once happy with changes, create a PR and merge to main. Buildkite will detect the changes and rebuild the base image.
 - Currently we use the `latest` label on Wolfi images, but we will switch to using a `sha256` tag once deployed in production. Update the relevant Dockerfiles with the new base image's `sha256` hash, commit the change, and merge to main.
 
-### Creating a new base image
+### Create a new base image
 
 If your new image does not have any dependencies, use the [`sourcegraph`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/wolfi-images/sourcegraph.yaml) base image.
 
