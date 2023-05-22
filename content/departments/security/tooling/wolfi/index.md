@@ -8,9 +8,9 @@ For information on how to build packages and base images, see the Handbook.
 
 [Wolfi](https://github.com/wolfi-dev) is a stripped-down open Linux distro designed for cloud-native containers. It has several key features that make it a good fit for distributing Sourcegraph:
 
-* A distroless build system that lets us build containers with only the precise dependencies we need, reducing attack surface area and the number of components that need to be kept patched.
-* A package repository that receives fast security patches and splits larger dependencies into smaller packages, keeping our images minimal and secure.
-* High quality build-time SBOM (software bill of materials) support, allowing us to be transparent about our image composition.
+- A distroless build system that lets us build containers with only the precise dependencies we need, reducing attack surface area and the number of components that need to be kept patched.
+- A package repository that receives fast security patches and splits larger dependencies into smaller packages, keeping our images minimal and secure.
+- High quality build-time SBOM (software bill of materials) support, allowing us to be transparent about our image composition.
 
 ## Why have we adopted Wolfi?
 

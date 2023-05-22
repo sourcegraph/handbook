@@ -21,8 +21,9 @@ All Sourcegraph package configs are stored in [sourcegraph.git/wolfi-packages](h
 ## How dependencies are packaged
 
 Dependencies are typically packaged in one of two ways:
-* Binary releases: download a precompiled binary of the dependency at a specific version, check its SHA checksum, and then move it to the final directory path. See the [p4cli package](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@760db946dd9c3b23af69f2036b7a8c11e38307b4/-/blob/wolfi-packages/p4cli.yaml?L20-29) for an example.
-* Source releases: download the source code of the dependency at a specific version, check its SHA checksum, build the binary, then move it to the final directory. See the [syntect-server](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@321e0e9d01fa23b83bef57c1e69076866094af20/-/blob/wolfi-packages/syntect-server.yaml?L29-45) package for an example.
+
+- Binary releases: download a precompiled binary of the dependency at a specific version, check its SHA checksum, and then move it to the final directory path. See the [p4cli package](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@760db946dd9c3b23af69f2036b7a8c11e38307b4/-/blob/wolfi-packages/p4cli.yaml?L20-29) for an example.
+- Source releases: download the source code of the dependency at a specific version, check its SHA checksum, build the binary, then move it to the final directory. See the [syntect-server](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@321e0e9d01fa23b83bef57c1e69076866094af20/-/blob/wolfi-packages/syntect-server.yaml?L29-45) package for an example.
 
 ## Updating an existing packaged dependency
 
@@ -32,7 +33,7 @@ It's common to need to update a package to the most recent release in order to p
 
 2. Update the [`package.version`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@321e0e9d01fa23b83bef57c1e69076866094af20/-/blob/wolfi-packages/comby.yaml?L3) field to the latest version. This is usually substituted in a URL within the pipeline's [`fetch` step](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@321e0e9d01fa23b83bef57c1e69076866094af20/-/blob/wolfi-packages/comby.yaml?L30) as `${{package.version}}`. You will also need to update the [`expected-sha256`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@321e0e9d01fa23b83bef57c1e69076866094af20/-/blob/wolfi-packages/comby.yaml?L31), which can be found by downloading the release and running `sha256sum <file_name>`.
 
-  *  Depending on the package, this step may download a binary or source code. Projects release code in different ways, so the pipeline may check out a Git repository on a specific branch or download a `.tar.gz` file containing source code.
+- Depending on the package, this step may download a binary or source code. Projects release code in different ways, so the pipeline may check out a Git repository on a specific branch or download a `.tar.gz` file containing source code.
 
 3. Try building the package locally with the [`local-build.sh`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/wolfi-packages/local-build.sh) script. If successful, it will generate an `.apk` file under `wolfi-packages/packages/x86_64/`.
 
@@ -41,8 +42,6 @@ It's common to need to update a package to the most recent release in order to p
 ## Creating a new package
 
 Creating a new package should be an infrequent activity. Search the Wolfi package repository first, and if you're looking to build a common package then consider asking Chainguard to add it to the Wolfi repository. Feel free to reach out to #ask-security for assistance.
-
-
 
 When creating a new package, the rough workflow is:
 
