@@ -90,7 +90,7 @@ _This professional development budget includes:_
 
 - **Educational experiences:** Courses, workshops, and/or exhibitions, both digital or in-person _(including transportation)_. Extended educational degrees, university classes, and certifications
 
-- **Conferences**: Attending conferences relevant to your role (the attendance and travel fees associated with them
+- **Conferences**: Attending conferences relevant to your role (including the attendance and travel fees associated with them)
 
 - **Leadership/professional coaching:** obtaining certified professional coaching outside of our organization or continuing to work with your Modern Health coach beyond our given 10 annual coaching credits
 
