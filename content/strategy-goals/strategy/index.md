@@ -84,8 +84,6 @@ Within our [Job Fair Planning Process](../../departments/engineering/job-fair.md
 
 Sourcegraph team members can view the internal [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing) and [Mission, Strategy, Execution, and Metrics doc](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products. We will move the content to the handbook soon.
 
-### FY24 Pre-Greenlit Featuers
-
 ### Big Code
 
 Big Code is when you have to deal with tons of code, complexity, and devs. Sourcegraph solves Big Code problems: problems that devs and engineering teams face when working in big codebases. As consumers demand more from software and code piles up, more and more devs and engineering teams face Big Code problems.
