@@ -94,9 +94,10 @@ HSA, FSA, and Dependent Care FSA:
 
 ## **Benefits Support:**
 
-We use Sequoia Consulting Group as our benefits & perks broker. They work with our People Team and carriers to provide the best possible benefits to our teammates. Sequoia’s advocate team works directly with Teammates and/or their dependents to answer questions, provide guidance, and work with the carriers on the teammates behalf when possible. 
+We use Sequoia Consulting Group as our benefits & perks broker. They work with our People Team and carriers to provide the best possible benefits to our teammates. Sequoia’s advocate team works directly with Teammates and/or their dependents to answer questions, provide guidance, and work with the carriers on the teammates behalf when possible.
 
 A few examples of what to reach out to the advocate team include:
+
 - All benefits questions. Including common questions such as:
   - Is a particular service covered on my plan?
   - How do I access my insurance coverage information?
@@ -107,11 +108,12 @@ A few examples of what to reach out to the advocate team include:
 - Assistance and guidance on the financial impacts of:
   - Benefits election options
   - Claims processing and in vs. out of network care
-- Assistance with issue resolution across carriers and providers 
+- Assistance with issue resolution across carriers and providers
 - Education on Perks & Discounts
 - Support for transition of care, authorizations, appeals, & denials
 
 You or you dependents can reach the advocate team three ways:
+
 1. Sequoia mobile app
 2. Email: [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com)
 3. Phone: 1-844-891-3044
@@ -142,7 +144,7 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 **US teammates:**
 
 - You have 30 days from your start date to enroll in insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693).
-- You can change benefits within 30 calendar days of a [Qualifying Life Event (QLE)](#bookmark=id.kovn7r5guhoc). 
+- You can change benefits within 30 calendar days of a [Qualifying Life Event (QLE)](#bookmark=id.kovn7r5guhoc).
 
 **Non-US teammates:**
 
@@ -150,19 +152,19 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 
 **Q. When are my benefits effective?**
 
-US teammates: 
+US teammates:
 
-* Benefits are effective on your date of hire. You have 30 days from the date of your hire to elect your benefits and they will be retroactively effective to your start date. 
-* If you have a [Qualifying Life Event](#bookmark=id.kovn7r5guhoc),  you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
+- Benefits are effective on your date of hire. You have 30 days from the date of your hire to elect your benefits and they will be retroactively effective to your start date.
+- If you have a [Qualifying Life Event](#bookmark=id.kovn7r5guhoc), you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
 
 Non-US teammates:
 
-- Not applicable. 
+- Not applicable.
 
 #### **Q. When will I receive my insurance member IDs?**
 
-* You can access your virtual insurance member IDs in the Sequoia mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
-    * If you have not received your insurance member IDs, please reach out to Sequoia’s Advocate Team through the app, [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com), or 1-844-891-3044.
+- You can access your virtual insurance member IDs in the Sequoia mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
+  - If you have not received your insurance member IDs, please reach out to Sequoia’s Advocate Team through the app, [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com), or 1-844-891-3044.
 
 Non-US teammates:
 
@@ -170,8 +172,8 @@ Non-US teammates:
 
 #### **Q: How do I see my benefits selections?**
 
-* To view your active benefits selections, please visit either the Sequoia app or Rippling. 
-* To view your pending benefits selections (open enrollment), please log into Rippling.
+- To view your active benefits selections, please visit either the Sequoia app or Rippling.
+- To view your pending benefits selections (open enrollment), please log into Rippling.
 
 Non-US teammates:
 
@@ -187,96 +189,126 @@ Non-US teammates:
 
 ### **Q. What is Sequoia Consulting Group?**
 
-* Sequoia Consulting Group is our benefits and perks broker for US based insurance. All health insurance cards and coverage questions are handled by Sequoia's advocate Team.
-* Contact methods:
-    * The Sequoia app - support chat
-    * Email: [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com)
-    * Phone: 1-844-891-3044
+- Sequoia Consulting Group is our benefits and perks broker for US based insurance. All health insurance cards and coverage questions are handled by Sequoia's advocate Team.
+- Contact methods:
+  - The Sequoia app - support chat
+  - Email: [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com)
+  - Phone: 1-844-891-3044
 
 #### **Q. Will I receive an invite from Sequoia?**
+
 US teammates:
-* Unlike Rippling, you do **not** need an invite to login to Sequoia. Please download the Sequoia app and create an account with your <span style="text-decoration:underline;">work email</span>. 
-    * [Apple Store](https://apps.apple.com/us/app/sequoia-mobile/id1185900896)
-    * [Google Play Store](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)
-* You can also login to the web browser version through Okta.
+
+- Unlike Rippling, you do **not** need an invite to login to Sequoia. Please download the Sequoia app and create an account with your <span style="text-decoration:underline;">work email</span>.
+  - [Apple Store](https://apps.apple.com/us/app/sequoia-mobile/id1185900896)
+  - [Google Play Store](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)
+- You can also login to the web browser version through Okta.
 
 Non-US teammates:
-- Not applicable. 
+
+- Not applicable.
 
 #### **Q. How do I access the Sequoia app?**
+
 US teammates:
-* Please use the links below to download the app on your phone and create an account using your Sourcegraph email. 
-    * [Apple Store](https://apps.apple.com/us/app/sequoia-mobile/id1185900896)
-    * [Google Play Store](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)
-* You can also access the web browser version through your Okta tile
+
+- Please use the links below to download the app on your phone and create an account using your Sourcegraph email.
+  - [Apple Store](https://apps.apple.com/us/app/sequoia-mobile/id1185900896)
+  - [Google Play Store](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)
+- You can also access the web browser version through your Okta tile
 
 Non-US teammates:
+
 - Not applicable.
 
 #### **Q. What information can I find on the Sequoia app?**
+
 US teammates:
-* Access to the advocate team
-* Virtual insurance cards (yourself and/or dependents)
-* Benefits plans & summaries
-* Finding a doctor feature
-* View balances to your FSA/HSA account. 
+
+- Access to the advocate team
+- Virtual insurance cards (yourself and/or dependents)
+- Benefits plans & summaries
+- Finding a doctor feature
+- View balances to your FSA/HSA account.
 
 Non-US teammates:
+
 - Not applicable.
 
 #### Q. How do I make changes to my insurance in the case of a qualifying life event (QLE)?
+
 US teammates:
+
 - A [Qualifying Life Event (QLE)](https://support.rippling.com/hc/en-us/articles/360056299533) is a change in your situation, such as getting married or having a baby, that can make you eligible to enroll in health insurance outside of Sourcegraph’s annual Open Enrollment period. If you have experienced a Qualifying Life Event (QLE) and need to update your insurance, you will initiate this process via [Rippling](https://app.rippling.com/insurance/employee/qle/init). Note: the People Team cannot make updates to benefits on behalf of teammates outside of new hire and open enrollment periods.
 
 Non-US teammates:
+
 - Not applicable.
 
 #### Q. What do I do if I have a gap in insurance coverage? (US teammates)
 
-* If you are joining  Sourcegraph, meaning you’ve accepted an offer with Sourcegraph, and  have a gap between your start date and the end the benefit coverage period w/prior employer. Please contact your prior employer regarding their COBRA benefits. 
-* If you are leaving Sourcegraph, benefits will expire at the end of the month that you leave Sourcegraph. If you want to avoid having a gap in coverage, you can explore [COBRA](https://drive.google.com/file/d/1iXHjHpg4I1SRrnsicg9h0WArCboiz2Fl/view?usp=sharing) options. If you have dental and vision insurance at the time you leave Sourcegraph, you will continue receiving those same benefits through COBRA.e benefits through COBRA. Benefits through COBRA will expire at the end of the month that you leave Sourcegraph.
+- If you are joining Sourcegraph, meaning you’ve accepted an offer with Sourcegraph, and have a gap between your start date and the end the benefit coverage period w/prior employer. Please contact your prior employer regarding their COBRA benefits.
+- If you are leaving Sourcegraph, benefits will expire at the end of the month that you leave Sourcegraph. If you want to avoid having a gap in coverage, you can explore [COBRA](https://drive.google.com/file/d/1iXHjHpg4I1SRrnsicg9h0WArCboiz2Fl/view?usp=sharing) options. If you have dental and vision insurance at the time you leave Sourcegraph, you will continue receiving those same benefits through COBRA.e benefits through COBRA. Benefits through COBRA will expire at the end of the month that you leave Sourcegraph.
 
 #### Q. What do I do if my medication or procedure is not covered by our insurance plan?
+
 US teammates:
+
 - Our insurance plan cannot be augmented to cover specific medications. Please work with your healthcare provider and contact Sequoia's advocate team to verify.
 
 Non-US teammates:
+
 - Not applicable.
 
 #### Q. How can I confirm if something is covered by our insurance plans?
+
 US teammates:
-* Please work with your healthcare provider and contact Sequoia’s advocate team to verify. Please reach out to Sequoia through the app, sourcegraph@help.sequoia.com or 1-844-891-3044.
+
+- Please work with your healthcare provider and contact Sequoia’s advocate team to verify. Please reach out to Sequoia through the app, sourcegraph@help.sequoia.com or 1-844-891-3044.
 
 Non-US teammates:
+
 - Not applicable.
 
 #### **Q. How can I confirm if something is covered by our insurance plans?**
+
 US teammates:
-* Please work with your healthcare provider and contact Sequoia’s advocate team to verify. Please reach out to Sequoia through the app, sourcegraph@help.sequoia.com or 1-844-891-3044.
+
+- Please work with your healthcare provider and contact Sequoia’s advocate team to verify. Please reach out to Sequoia through the app, sourcegraph@help.sequoia.com or 1-844-891-3044.
 
 Non-US teammates:
+
 - Not applicable.
 
 #### **Q. How can I get support for denied or pending claims?**
+
 US teammates:
-* Please work with Sequoia’s advocate team. Please reach out to Sequoia through the app, sourcegraph@help.sequoia.com or 1-844-891-3044.
+
+- Please work with Sequoia’s advocate team. Please reach out to Sequoia through the app, sourcegraph@help.sequoia.com or 1-844-891-3044.
 
 Non-US teammates:
+
 - Not applicable.
 
 #### **Q. How do I waive insurance?**
+
 US teammates:
-* You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
+
+- You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
 
 Non-US teammates:
--  Not applicable.
+
+- Not applicable.
 
 #### **Q. Where can I view my health, dental, and vision insurance cards?**
+
 US teammates:
-* All virtual insurance cards are located in the Sequoia app ([Apple](https://apps.apple.com/us/app/sequoia-mobile/id1185900896), [Google](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)). You will receive physical medical card(s) but dental and vision will only be available through the app.
+
+- All virtual insurance cards are located in the Sequoia app ([Apple](https://apps.apple.com/us/app/sequoia-mobile/id1185900896), [Google](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)). You will receive physical medical card(s) but dental and vision will only be available through the app.
 
 Non-US teammates:
--  Not applicable.
+
+- Not applicable.
 
 #### Q. Does Sourcegraph match my 401k?
 
@@ -284,11 +316,14 @@ Non-US teammates:
 
 #### **Q. Who handles our 401k?**
 
-* Human Interest for US based teammates. You will receive an invite shortly after enrolling in Rippling. You can find instructions to enroll inHuman Interest [here](https://support.humaninterest.com/s/article/23-how-do-i-enroll-in-my-companys-plan).
+- Human Interest for US based teammates. You will receive an invite shortly after enrolling in Rippling. You can find instructions to enroll inHuman Interest [here](https://support.humaninterest.com/s/article/23-how-do-i-enroll-in-my-companys-plan).
 
 #### **Q: When can I enroll in my 401k plan?**
+
 US teammates:
-* You are eligible to enroll immediately upon hire and can make changes or updates at any point. You will enroll in Human Interest ([after receiving your invite](https://github.com/sourcegraph/handbook/new/main/content/people-ops#q-where-and-when-do-i-receive-my-human-interest-invitation)) or via Rippling (if you see a Human Interest single-sign-in option on your [dashboard](https://app.rippling.com/dashboard)).
+
+- You are eligible to enroll immediately upon hire and can make changes or updates at any point. You will enroll in Human Interest ([after receiving your invite](https://github.com/sourcegraph/handbook/new/main/content/people-ops#q-where-and-when-do-i-receive-my-human-interest-invitation)) or via Rippling (if you see a Human Interest single-sign-in option on your [dashboard](https://app.rippling.com/dashboard)).
 
 Non-US teammates:
+
 - Not appllicable.
