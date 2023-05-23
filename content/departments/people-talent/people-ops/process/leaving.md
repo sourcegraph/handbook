@@ -112,7 +112,7 @@ The exit interview is broken into two steps:
 
 #### Do I need to return my equipment?
 
-- [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate. Please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
+- [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate, please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> via email or in the [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) Slack channel prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
 
 #### What should I do if I am an Airbase cardholder?
 
