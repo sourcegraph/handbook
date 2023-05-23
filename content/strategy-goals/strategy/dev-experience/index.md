@@ -38,9 +38,3 @@ Linking a step to any scripts that may be run, should not be a tedious task that
 #### CI is predictable, then fast
 
 What is being run, how and when must be very clear. Otherwise, it introduces friction that prevents new engineers from debugging existing steps, which puts pressure on the engineers who have been around longer.
-
-## Roadmap
-
-[Dev Experience roadmap view](https://github.com/orgs/sourcegraph/projects/214/views/57)
-
-See also our [completed goals](../../../departments/engineering/teams/dev-experience/goals_completed.md).
