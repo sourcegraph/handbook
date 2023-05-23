@@ -2157,3 +2157,14 @@ sara_dam:
   location: Morrison, CO, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/saradam)'
   description: Sara lives in Morrison, CO with her Golden Retriever, Finley. Prior to Sourcegraph, Sara worked in customer success roles at Postman and PagerDuty. When she’s not focused on improving the developer experience, you can find her training for triathlons, hiking, skiing, reading, and enjoying shows at Red Rocks.
+
+shivasurya_sankarapandian:
+  name: Shivasurya Sankarapandian
+  email: shiva@sourcegraph.com
+  github: shivasurya
+  pronouns: he/him
+  role: Security Engineer
+  reports_to: engineering_manager_security
+  location: Waterloo, ON, Canada 🇨🇦
+  links: '[@sshivasurya](https://twitter.com/sshivasurya), [LinkedIn](https://www.linkedin.com/in/shivasurya), [shivasurya.me](https://shivasurya.me)'
+  description: Shiva is a passionate security engineer who loves finding and fixing vulnerabilities. He started his career as a mobile software engineer, but got hooked on security after playing capture the flag (CTF) competitions and learning about vulnerability research. Prior to Sourcegraph, He has worked as a security engineer at Dropbox, Yelp and Zoho, where he built features and products with security in mind.
