@@ -47,7 +47,6 @@ These products all rest on a single AI platform that is the foundation of our di
 
 - **Code graph:** All your code and code hosts, comprehensive precise code nav, ownership, and all other code info from your tools. A huge differentiator in code search today that becomes more important when this is fed to an LLM. Replaces the term "code intelligence". (Also, to be clear, today Cody only uses a fraction of this information, but that will change soon.)
 - **Tools:** The atomic capabilities of Cody and code search that make them more powerful than the competition: 'submit a PR', 'create a visualization', etc. These will be linked together in unique and creative ways to increase Cody's capabilities.
-- **Embeddings:** The magic that allows Sourcegraph to customize LLM responses to your code.
 - **LLM (Large Language Model):** Almost everything in our products will become smarter and better by using a commodity LLM. We are not differentiated on the capability or quality of any foundation model, but we are differentiated in that Sourcegraph gives you the freedom to choose the best or preferred LLM for your needs, unlike Microsoft GitHub OpenAI, which locks you in.
 - **Plugin & API:** Our AI platform will provide a standard interface to plug data such as JIRA tickets, documentation, etc and allow other tools to leverage our unique code graph, embeddings, and workflows.
 
