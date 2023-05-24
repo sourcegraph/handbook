@@ -98,7 +98,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Perks](../../benefits-pay-perks/benefits-perks/#perks.md)
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
   - [Open enrollment](../../benefits-pay-perks/benefits-perks/#2023-open-enrollment)
-  - [Lumity - access your benefits cards](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
+  - [Health benefits](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my healthcare card](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my dental card](../../benefits-pay-perks/benefits-perks/benefits.md)
     - [How to access my vision card](../../benefits-pay-perks/benefits-perks/benefits.md)
