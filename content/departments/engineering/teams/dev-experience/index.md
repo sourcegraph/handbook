@@ -31,6 +31,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`internal/trace`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/trace), [`internal/tracer`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/tracer): tracing infrastructure and libraries
   - Packaging infrastructure (e.g. base Docker images)
   - [SOC2 compliance](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=) regarding software development lifecycles, testing, and continuous integration
+  - [`*.(bazel|bzl)`](https://sourcegraph.com/search?q=context%3Aglobal+lang%3AStarlark+repo%3Agithub.com%2Fsourcegraph%2Fsourcegraph&patternType=regexp&sm=0&groupBy=repo)
 - Continuous integration (also see [CI support responsibilities](processes.md#ci-support-responsibilities))
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
     - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
@@ -38,6 +39,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [Continuous integration infrastructure](../../dev/tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
     - [buildkite-job-dispatcher](../../dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher)
   - [Continuous integration playbook](../../dev/process/incidents/playbooks/ci.md)
+  - [Bazel support](https://docs.sourcegraph.com/dev/background-information/bazel)
 - Other
   - [Maintaining various instances of Sourcegraph](#sourcegraph-instances-operated-by-us)
   - [Developer experience newsletter](./newsletter.md)
@@ -107,3 +109,4 @@ We also maintain various instances of Sourcegraph which include:
 
 - We primarily build tools and libraries in Go, with a dash of bash scripting in between.
 - We also operate [CI infrastructure](../../dev/tools/infrastructure/ci/index.md) with Kubernetes and Terraform.
+- We're the reference point for any Bazel related effort.
