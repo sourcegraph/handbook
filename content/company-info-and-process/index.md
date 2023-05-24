@@ -39,7 +39,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Productivity hacks](remote/teammate-recommended_productivity_hacks.md)
 - [Remote hackathons](remote/remote_hackathons.md)
 
-## [Onboarding](onboarding/index.md)
+## Onboarding
 
 - [Buddy program](onboarding/buddy-program.md)
 - [Feedback milestones](onboarding/onboarding-feedback-milestones.md)
