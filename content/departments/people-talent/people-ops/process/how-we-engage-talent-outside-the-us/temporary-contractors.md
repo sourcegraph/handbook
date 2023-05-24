@@ -48,9 +48,8 @@ Keep in mind, the onboarding process includes the onboarding checklist and resou
 
 **Short term contractors** will have limited access to our Slack (they will only be added as "multi-channel guests") and will only be added to the specific channels designated by the Hiring Manager and will only be added to the specific tools required by the role and team. This goes for GitHub as well, they will only be added to specific repositories designated by the Hiring Manager. Short term contractors will not have access to Greenhouse and Lattice.
 
-**Temp to perm contractors** will have access to the same basic tools permanent teammates have access to with the exception of GitHub, where they will solely have access to necessary repositories. 
-Hourly teammates are manually added into Lattice, along with start date, manager, department, and title 
-
+**Temp to perm contractors** will have access to the same basic tools permanent teammates have access to with the exception of GitHub, where they will solely have access to necessary repositories.
+Hourly teammates are manually added into Lattice, along with start date, manager, department, and title
 
 ### Budget
 
@@ -62,6 +61,7 @@ Hourly teammates are manually added into Lattice, along with start date, manager
 
 BambooHR is our source of truth. All contractors who work for Sourcegraph must have a profile in BambooHR, but are not given BambooHR access or sent an onboarding kit.
 BambooHR profile only needs:
+
 - Legal and Preferred first and last name
 - Teammate personal email and work email
 - Start Date
@@ -72,4 +72,3 @@ BambooHR profile only needs:
   - Typically no division
 - Compensation info
   - Typically no options, bonuses, or commission
-
