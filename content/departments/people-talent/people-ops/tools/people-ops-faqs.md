@@ -89,7 +89,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **Looking for health benefits FAQ?**
 
-- Check out [Health benefits at sourcegraph page](../benefits-pay-perks/benefits-perks/benefits/.md).
+- Check out [Health benefits at sourcegraph page](../../benefits-pay-perks/benefits-perks/benefits.md).
 
 ## Immigration support
 
