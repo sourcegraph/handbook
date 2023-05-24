@@ -181,7 +181,7 @@ Non-US teammates:
 
 #### Q. Does Sourcegraph offer short term disability and long term disability?
 
-- At this time, Sourcegraph does not offer STD and LTD but we are always evaluating our benefit options. Please review our [Medical Leave of Absence Policy](/leave-of-absence.md).
+- At this time, Sourcegraph does not offer STD and LTD but we are always evaluating our benefit options. Please review our [Medical Leave of Absence Policy](../leave-of-absence.md).
 
 #### Q. Do our health benefits cover us while traveling internationally?
 
