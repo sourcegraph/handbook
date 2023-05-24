@@ -144,7 +144,7 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 **US teammates:**
 
 - You have 30 days from your start date to enroll in insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693).
-- You can change benefits within 30 calendar days of a [Qualifying Life Event (QLE)](#bookmark=id.kovn7r5guhoc).
+- You can change benefits within 30 calendar days of a Qualifying Life Event (QLE).
 
 **Non-US teammates:**
 
@@ -155,7 +155,7 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 US teammates:
 
 - Benefits are effective on your date of hire. You have 30 days from the date of your hire to elect your benefits and they will be retroactively effective to your start date.
-- If you have a [Qualifying Life Event](#bookmark=id.kovn7r5guhoc), you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
+- If you have a Qualifying Life Event, you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
 
 Non-US teammates:
 
@@ -181,7 +181,7 @@ Non-US teammates:
 
 #### Q. Does Sourcegraph offer short term disability and long term disability?
 
-- At this time, Sourcegraph does not offer STD and LTD but we are always evaluating our benefit options. Please review our [Medical Leave of Absence Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/leave-of-absence/).
+- At this time, Sourcegraph does not offer STD and LTD but we are always evaluating our benefit options. Please review our [Medical Leave of Absence Policy](/leave-of-absence.md).
 
 #### Q. Do our health benefits cover us while traveling internationally?
 
