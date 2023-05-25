@@ -29,6 +29,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 The estimated spend for interns is **$925\***.
 
 ### Desk items
+This not an exhaustive list. Please ask #ask-finance if you have questions about what items can be reimbursed using the desk set up budget.
 
 - Monitor
 - Headphones
