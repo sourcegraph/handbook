@@ -39,23 +39,39 @@ Before you jump in and start building projects and sending inmails, become famil
 - [How Recruiters and Sourcers partner together](how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-recruiters)
 - [How Recruiters and Sourcers partner with Hiring Managers](how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-hiring-managers)
 
-### How to create Projects for new job openings:
+### How to create LinkedIn Recruiter projects for new job openings:
 
 - **Step 1**: The Recruiter or Sourcer will [create the project](https://www.linkedin.com/help/recruiter/answer/a417035/create-a-project-in-recruiter-and-recruiter-lite?lang=en) for a new job opening (be sure to coordinate with each other to avoid duplication of effort).
 - **Step 2**: The Recruiter or Sourcer will name the project so that project collaborators know exactly which role this project is for.
 
-  - Standard naming convention: TeamorOrgName_TitleofRole_DateOfOpening (DD/MM/YYYY)
-    - Example 1: Delivery_SeniorSoftwareEngineer_16/2/2022
+  - Standard naming convention: {DepartmentName}_{TitleofRole}_{DateOfOpening} (DD/MM/YYYY)
+    - Example 1: Engineering_SeniorSoftwareEngineer_16/2/2022
     - Example 2: Product_ProductManager_24/1/2022
 
 - **Step 3**: Under **Project Settings > Project Details**, the Recruiter or Sourcer will add relevant information gathered from the intake call, such as scope of work, ideal experience, etc. This is to create a point of reference for project collaborators.
-
-- **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Sourcer, Hiring Manager, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
-
-- **Step 5**: Recruiter, Sourcer, and Hiring Manager discuss a [LinkedIn engagement strategy](linkedin.md#engagement-strategy).
+- **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Hiring Manager, Recruiting Operations Specialist/Sourcer, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
+- **Step 5**: Recruiter, Sourcer, and Hiring Manager (optional depending on bandwidth) discuss a [LinkedIn engagement strategy](linkedin.md#engagement-strategy) and draft 7 messages in accordance with the suggestions in [Building a 7 Touch Recruiting Campaign](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit). They should utulize the [standard naming convention](linkedin.md#how-to-name-your-messaging-templates-in-linkedin-recruiter) for all messages. 
 - **Step 6**: Recruiter and Sourcer will start running high quality searches
 
-### Additional Resources:
+### How to name your messaging templates in LinkedIn Recruiter 
+
+Using the suggestions in [Building a 7 Touch Recruiting Campaign](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit), the Recruiter and Sourcer should  draft 7 messages for each role and develop an [engagement strategy](linkedin.md#engagement-strategy). 
+
+It is critical to continously test new templates, iterate, and improve messaging based on what is working and what isn't. In order to capture this data, we use a standard naming convention so that we can compare how the following variables impact the candidate response rate for our messaging templates: 
+
+1) The role we're sourcing for 
+2) The touch point (1-7) 
+3) Whether or not we use a personal introduction. For example, "I saw that you also went to Duke. Go Bluedevils!" 
+4) The subject line
+
+The standard naming convention that Sourcegraph uses for LinkedIn Recruiter messaging templates is: 
+
+- "_{Job Title} - Touch Point {X} - {with vs without} personal intro - {subject line}_”
+
+  - Example 1: _Payroll Manager - Touch Point 3 - without personal intro - {NAME}, quick question_
+  - Example 2: _Enterprise Technical Advisor - Touch Point 5 - with personal intro - {NAME} + Sourcegraph = winning combo_
+
+### Recommended LinkedIn Recruiter user course 
 
 - Sharpen your LinkedIn Recruiter skills and maximize your time by taking this [Experienced User Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Fleverage-the-full-power-of-linkedin-recruiter-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=agxl%2B4%2BMf5nGXhHMDCfq%2F5cP2Ecw3qVW9%2B%2BKQrY%2FFSM%3D&reserved=0)
 
