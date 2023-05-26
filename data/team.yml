@@ -63,7 +63,7 @@ eric_fritz:
 eric_brody-moore:
   name: Eric Brody-Moore
   role: Business Operations Manager
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   manager_role_slug: business_operations_manager
   location: Nashville, TN, USA 🇺🇸
   github: ebrodymoore
@@ -610,7 +610,7 @@ kelsey_brown:
   name: Kelsey Brown
   pronouns: she/her
   role: Senior Business Operations Analyst
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   location: Arlington, VA, USA 🇺🇸
   github: kelsey-brown
   email: kelsey@sourcegraph.com
@@ -1466,18 +1466,6 @@ maureen_loughrey:
   location: Austin, TX, USA 🇺🇸
   description: Maureen lives in Austin, TX with her partner, two shih tzus, and two loveable goldfish. When not tinkering with computers she can often be found recreating recipes from the Great British Bake Off or meandering about the Austin library.
 
-lauren_anderson:
-  name: Lauren Anderson
-  email: lauren.anderson@sourcegraph.com
-  github: andersonlauren
-  pronouns: she/her
-  role: Director of Data & Analytics
-  reports_to: vp_operations
-  manager_role_slug: director_data_analytics
-  location: Pacifica, CA, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/laurenaanderson1/)'
-  description: Lauren lives at the beach in Pacifica, CA with her husband, daugther, and dog.  She has a passion for all things data and has spent most of her career building data warehouses and reporting platforms.  Lauren likes to listen to music, cook, travel, and spend time outdoors (especially at the beach) and loves to combine the latter two by spending as much time at the beach in Southern Baja California.
-
 madison clark:
   name: Madison Clark
   email: madison.clark@sourcegraph.com
@@ -1711,7 +1699,7 @@ nathan_downs:
   github: nathan-downs
   pronouns: he/him
   role: Lead Data Engineer
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   location: Portland, OR
   description: When he isn't tackling data engineering challenges, Nathan enjoys home improvement and woodworking projects. Originally from the East Coast, the allure of the Pacific Northwest outdoors and delicious vegan food of Portland were too strong a draw to ignore!
 
@@ -1742,7 +1730,7 @@ aditya_kalie:
   github: akalia25
   pronouns: he/him
   role: Data Engineer
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   location: San Jose, California 🇺🇸/ Toronto, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/aditya-kalia/)'
   description: Aditya is a data enthusiast who enjoys solving big data problems and connecting data from A to B. Previously, he led data engineering at a health-focused startup, enabling consumers to shop for their dietary preferences on retailer websites. Outside of work, Aditya enjoys staying active and playing sports with friends. He likes to split his time between Canada and USA to spend time with his close friends and family in both countries.
