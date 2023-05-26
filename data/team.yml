@@ -1219,7 +1219,7 @@ Nate_Freng:
 Nate_Freng:
   name: Nate Freng
   pronouns: he/him
-  role: director_data_analytics
+  manager_role_slug: director_data_analytics
   reports_to: VP Operations
   hide_on_team_page: true
 
