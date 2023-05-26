@@ -610,7 +610,7 @@ kelsey_brown:
   name: Kelsey Brown
   pronouns: she/her
   role: Senior Business Operations Analyst
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   location: Arlington, VA, USA 🇺🇸
   github: kelsey-brown
   email: kelsey@sourcegraph.com
@@ -1215,13 +1215,6 @@ Nate_Freng:
   email: nate.freng@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
   description: Nate lives in Fargo, ND with his wife (Chelsey) and their four kids (Avery, Auden, Alder, and Addison). A great variety of jobs have led to where he is now from driving forklift, in-home healthcare, implementing insurance benefits plans to finally landing in IT where he has had an interest since he was young. Originally graduation college with a B.S. in Human Development and Family Science, Nate has been working almost the past 10 years doing IT work for organizations of various sizes ranging from 100 to 1000 users. Outside of work he spends most of his time  doing things with his family or working on home DIY projects. When left up to his own devices he enjoys podcasts, reading, video games, and all things fitness. Also food, cannot forget food!
-  
-  nate_freng_data_analytics:
-  name: Nate Freng
-  reports_to: VP Operations
-  role: Interim Director Data Analytics
-  manager_role_slug: director_data_analytics
-  hide_on_team_page: true
 
 filip_haftek:
   name: Filip Haftek
@@ -1706,7 +1699,7 @@ nathan_downs:
   github: nathan-downs
   pronouns: he/him
   role: Lead Data Engineer
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   location: Portland, OR
   description: When he isn't tackling data engineering challenges, Nathan enjoys home improvement and woodworking projects. Originally from the East Coast, the allure of the Pacific Northwest outdoors and delicious vegan food of Portland were too strong a draw to ignore!
 
@@ -1737,7 +1730,7 @@ aditya_kalie:
   github: akalia25
   pronouns: he/him
   role: Data Engineer
-  reports_to: director_data_analytics
+  reports_to: vp_operations
   location: San Jose, California 🇺🇸/ Toronto, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/aditya-kalia/)'
   description: Aditya is a data enthusiast who enjoys solving big data problems and connecting data from A to B. Previously, he led data engineering at a health-focused startup, enabling consumers to shop for their dietary preferences on retailer websites. Outside of work, Aditya enjoys staying active and playing sports with friends. He likes to split his time between Canada and USA to spend time with his close friends and family in both countries.
