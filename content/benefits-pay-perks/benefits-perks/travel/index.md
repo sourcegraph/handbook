@@ -282,7 +282,7 @@ This is separate from Sourcegraph’s travel budgets above and co-working budget
 
 _We would love to see photos from your meetups in `#sourcegram`!_
 
-## Recommended activities
+### Recommended activities
 
 This budget can be used for a wide array of activities including but not limited to:
 
@@ -292,11 +292,11 @@ This budget can be used for a wide array of activities including but not limited
 - Coffee meetups
 - Purchasing tickets to a live event (comedy show, trivia night, sporting event, cooking class, etc.)
 
-## Who is responsible for planning virtual events?
+### Who is responsible for planning virtual events?
 
 Teammates are responsible for utilizing this local meetup budget quarterly.
 
-## Planning best practices
+### Planning best practices
 
 Leverage the Slack channel for your city to gather feedback from local teammates about when they’re available and what events people are interested in. You can browse existing city channels by searching “#location-” in the Slack channel directory. Add any local teammates who are not already in the channel, or create a new one if one doesn’t exist yet and you have teammates in your area.
 
@@ -304,7 +304,7 @@ Send a calendar invite to the appropriate teammates to block the meet up timefra
 
 If the event isn’t recurring, set up a monthly watercooler message in your city’s Slack channel. This message can serve as a reminder to plan a meetup, and it can ask local teammates to provide ideas for dates and activities in the thread.
 
-## Submitting receipts
+### Submitting receipts
 
 Receipts are required and can be submitted for reimbursement in Airbase under the “Team Travel” category. Include in the note that this was a local meetup, and which teammate(s) you met with.
 
@@ -316,11 +316,11 @@ If you have questions about how to use this budget, please reach out in #ask-peo
 
 This section refers to virtual events and gatherings with your direct team. As an all-remote company, we encourage teams to connect virtually outside of company and team trips. As such, each teammate has $150 per person per quarter to spend on virtual gatherings of the team’s choice. This budget can be split up into more than one event, but does not roll over to the next quarter. Our recommended virtual event cadence is 1-2 events per quarter.
 
-## Who is responsible for planning virtual events?
+### Who is responsible for planning virtual events?
 
 Have a designated team event planner. _Managers_ are responsible for utilizing this virtual event budget quarterly. Managers can either plan activities themselves or ask for 1-2 team volunteers to be responsible for this. All virtual events must have manager approval prior to booking.
 
-## Planning best practices
+### Planning best practices
 
 Send a calendar hold to the appropriate teammates to block the meet up time frame. Add in the event details (location, time, etc.) when they’re ready. Link the meetup handbook guidance in the calendar invite.
 
@@ -328,7 +328,7 @@ If the event isn’t recurring, the manager and/or designated event planner shou
 
 Keep a record of successful virtual events and reusable resources. This allows you to revisit and reuse activities, templates, or ideas to optimize costs and save time in future event planning.
 
-## Recommended activities and vendors
+### Recommended activities and vendors
 
 We recommend planning a variety of events to cater to diverse interests and preferences within the team. Some of the most beneficial team building events are ones where teammates can collaborate. This budget can be used for a wide array of activities including but not limited to:
 
