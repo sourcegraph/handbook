@@ -1210,11 +1210,19 @@ Nate_Freng:
   name: Nate Freng
   pronouns: he/him
   role: Tech Ops Engineer
-  reports_to: tech_ops_manager
+  reports_to: VP Operations
   location: Fargo, ND, USA 🇺🇸
   email: nate.freng@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
   description: Nate lives in Fargo, ND with his wife (Chelsey) and their four kids (Avery, Auden, Alder, and Addison). A great variety of jobs have led to where he is now from driving forklift, in-home healthcare, implementing insurance benefits plans to finally landing in IT where he has had an interest since he was young. Originally graduation college with a B.S. in Human Development and Family Science, Nate has been working almost the past 10 years doing IT work for organizations of various sizes ranging from 100 to 1000 users. Outside of work he spends most of his time  doing things with his family or working on home DIY projects. When left up to his own devices he enjoys podcasts, reading, video games, and all things fitness. Also food, cannot forget food!
+
+interim_director_data_analytics:
+  name: Nate Freng
+  reports_to: VP Operations
+  role: Interim Director of Data Analytics
+  manager_role_slug: director_data_analytics
+  hide_on_team_page: true
+
 
 filip_haftek:
   name: Filip Haftek
@@ -1465,18 +1473,6 @@ maureen_loughrey:
   reports_to: tech_ops_manager
   location: Austin, TX, USA 🇺🇸
   description: Maureen lives in Austin, TX with her partner, two shih tzus, and two loveable goldfish. When not tinkering with computers she can often be found recreating recipes from the Great British Bake Off or meandering about the Austin library.
-
-lauren_anderson:
-  name: Lauren Anderson
-  email: lauren.anderson@sourcegraph.com
-  github: andersonlauren
-  pronouns: she/her
-  role: Director of Data & Analytics
-  reports_to: vp_operations
-  manager_role_slug: director_data_analytics
-  location: Pacifica, CA, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/laurenaanderson1/)'
-  description: Lauren lives at the beach in Pacifica, CA with her husband, daugther, and dog.  She has a passion for all things data and has spent most of her career building data warehouses and reporting platforms.  Lauren likes to listen to music, cook, travel, and spend time outdoors (especially at the beach) and loves to combine the latter two by spending as much time at the beach in Southern Baja California.
 
 madison clark:
   name: Madison Clark
