@@ -46,12 +46,12 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 - Review writing for ICs: 2023-07-26 to 2023-08-04 (8 business days)
   - 2023-08-03 and 2023-08-04 are no meeting days/blocked for review writing
 - Review writing for Managers: 2023-07-26 to 2023-08-09 (11 business days)
-- Calibrations: 2023-08-10 to 2023-08-18  
+- Calibrations: 2023-08-10 to 2023-08-18
   - Live dept calibrations: 2023-08-10 to 2023-08-15 (4 business days)
   - Exec team calibration: 2023-08-16 (1 business day)
-  - Finalize Calibration Async: 2023-08-17 to 2023-08-18  (2 business days)
+  - Finalize Calibration Async: 2023-08-17 to 2023-08-18 (2 business days)
 - People team admin time to confirm increases/create letters/update systems: 2023-08-18 to 2023-09-04
-- Review delivery period: 2023-09-04 to 2023-09-14 (9 business days) 
+- Review delivery period: 2023-09-04 to 2023-09-14 (9 business days)
 - All compensation increases and/or promotions effective Sept 1st (retroactive)
 
 ## **Enablement Schedule**
