@@ -10,6 +10,7 @@ Do not:
 - Use a single word, for example, **password**, or a commonly-used phrase like **Iloveyou** or a string of numbers/letters, such as **abc123**
 - Use identifiable information about yourself, such as the names and birthdays of your friends and family, your favorite bands, or phrases you tend to use
 - Mix personal and work-related passwords
+- Use the browser based auto-fill, the 1Password browser extension should be used
 
 Do:
 
@@ -18,5 +19,5 @@ Do:
 - Create a new password for every system - the primary goal is password diversity
 - Make passwords hard to guess, even by those who know a lot about you.
 - Use a mix of numbers, letters (upper and lower case), and special characters
-- Create a password that is ideally 15 characters long
-- When cerating your own, we recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
+- Create a password that is ideally 15 characters or longer
+- When creating your own, we recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
