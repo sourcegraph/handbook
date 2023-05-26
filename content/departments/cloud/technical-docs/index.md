@@ -75,8 +75,9 @@ Every customer managed instance has alerts configured:
 
 - cloud provider-managed uptime check is configured in dedicated GCP managed instance project
   - [v2.0](https://github.com/sourcegraph/controller/blob/0091a3b6fdad81297580499f26764befb7b72d21/internal/resource/monitoring/monitoring.go#L76-L114)
-- [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
-- [application performance metrics](./operations.md#performance-checks) - configured in customer intance [site-config.json](https://docs.sourcegraph.com/admin/config/site_config) via `mi cli` during instance creation
+- [instance performance metricc alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances, every v.2.0 instance is added via [code](https://github.com/sourcegraph/controller/blob/main/internal/resource/monitoring/monitoring.go#L727)
+- [additional v2.0 infrastructure pefrormance metrics](https://github.com/sourcegraph/controller/blob/main/internal/resource/monitoring/monitoring.go#L218) configured per instance
+- [application performance metrics](https://github.com/sourcegraph/controller/blob/main/internal/resource/monitoring/monitoring.go#L513) - based on application log events
 
 Alerting flow:
 
