@@ -54,7 +54,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [Slack guidelines](company-info-and-process/communication/team_chat.md)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
-- [Company Calendar](https://docs.google.com/spreadsheets/d/1ATcjpNG9Tuqnik4Fiv_-C8DFb9zNJHWpYk-aDftJ_vw/edit#gid=0)
+- [Company Calendar](https://calendar.google.com/calendar/render?cid=c_3f34e49a02208b4b854804745d4eb54b73a4c5fa7b8c67e50657cf918cdc9fff@group.calendar.google.com)
 - [Handbook](handbook/index.md)
   - [Editing the handbook](handbook/editing/index.md)
   - [Recent handbook diffs](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/handbook%24+type:diff)
