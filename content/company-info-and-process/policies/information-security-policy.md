@@ -68,4 +68,16 @@ Any known violations of this policy should be reported to report-policy-violatio
     <td>CEO review/approval</td>
     <td>Quinn Slack</td>
   </tr>
+  <tr>
+    <td>2.0</td>
+    <td>2023-05-12</td>
+    <td>Annual Compliance Review - no changes required</td>
+    <td>Dora Neumeier</td>
+  </tr>
+  <tr>
+    <td>2.0</td>
+    <td>2023-05-12</td>
+    <td>Head of Security annual review/approval</td>
+    <td>Diego Comas</td>
+  </tr>
 </table>
