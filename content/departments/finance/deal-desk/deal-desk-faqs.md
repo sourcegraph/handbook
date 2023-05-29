@@ -25,6 +25,12 @@ You can check the executed contracts in our google drive folder: [Customer Contr
 
 Yes, please attach the Customer´s PO to the SFDC Opportunity under “Files” section.
 
+#### Do I need to enter into an evaluation agreement with my Prospect?
+
+For free POCs, we do not require to enter into separate evaluation agreements. Instead, at the customer’s request, we can prepare an
+Order Form governed by our online terms, which cover trials and POCs.
+For paid POCs, we do need to enter into an agreement to reflect the fee charged, the POC term, expansion price, among other terms. We can also prepare an Order Form governed by our online terms to cover these elements.
+
 ## Approvals & Processes
 
 #### When shall I submit an Order Form for approval?
