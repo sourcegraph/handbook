@@ -14,9 +14,9 @@ This policy describes the rules for the acquisition and development of software 
 
 ## **System Change Control Procedures**
 
-Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures. Change control procedures and requirements are described in the Sourcegraph Operations Security Policy.
+Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures.
 
-Significant code changes must be reviewed and approved by at least one other Sourcegraph employee before being merged into any production branch in accordance with Sourcegraph SDLC policy.
+Significant code changes must be reviewed and approved by at least one other Sourcegraph employee before being merged into any production branch.
 
 ## **Software Version Control**
 
