@@ -70,7 +70,7 @@ Sourcegraph will measure and verify compliance to this policy through various me
 
 Any known violations of this policy should be reported to [report-policy-violation@sourcegraph.com](mailto:report-policy-violation@sourcegraph.com). Failure to follow this policy can result in disciplinary action, up to and including termination.
 
-**Policy Owner:** Security Engineering Manager
+**Policy Owner:** Head of Security
 
 | Version | Date        | Description   | Author          | Approved by     |
 | ------- | ----------- | ------------- | --------------- | --------------- |
