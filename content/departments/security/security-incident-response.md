@@ -101,9 +101,7 @@ Any known violations of this policy should be reported to the Director of Platfo
 
 **Policy Owner:** Head of Security
 
-| Version | Date        | Description   | Author          | Approved by     |
-| ------- | ----------- | ------------- | --------------- | --------------- |
-| 1.0     | 31-Jul-2021 | First version | André Eleuterio     | Diego Comas     |
-| 1.1     | 30-May-2023 | 2023 review - no updates   | André Eleuterio | Diego Comas |
-
-
+| Version | Date        | Description              | Author          | Approved by |
+| ------- | ----------- | ------------------------ | --------------- | ----------- |
+| 1.0     | 31-Jul-2021 | First version            | André Eleuterio | Diego Comas |
+| 1.1     | 30-May-2023 | 2023 review - no updates | André Eleuterio | Diego Comas |
