@@ -154,7 +154,6 @@ Access to monitoring and telemetry data such as Grafana, etc.
 
 - All teammates with automatic approval.
 
-
 ## Exceptions
 
 Requests for an exception to this Policy must be submitted to the Security for approval.
@@ -169,8 +168,7 @@ Any known violations of this policy should be reported to [report-policy-violati
 
 **Policy Owner**: Head of Security
 
-
 | Version | Date        | Description              | Author          | Approved by |
 | ------- | ----------- | ------------------------ | --------------- | ----------- |
-| 1.0     | 08-Sep-2022 | First version            | André Eleuterio     | Diego Comas |
+| 1.0     | 08-Sep-2022 | First version            | André Eleuterio | Diego Comas |
 | 1.1     | 30-May-2023 | 2023 review - no updates | André Eleuterio | Diego Comas |
