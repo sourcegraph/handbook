@@ -14,7 +14,6 @@ No due date.
 
 - Enabling [Jamf](../../departments/tech-ops/tools/endpoint-antivirus.md)
 - Completing BambooHR profile
-- Confirm BambooHR information: number of options and vesting date
 
 ### Security
 
@@ -32,7 +31,7 @@ If the task was not completed by the due date you will receive a reminder alert 
 
 ### Preventing Harassment and Discrimination Training
 
-Due date: Two weeks after start date.
+Due date: One month after start date.
 
 This mandatory training is refreshed annually on the anniversary of your start date.
 
