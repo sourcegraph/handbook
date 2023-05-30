@@ -137,9 +137,14 @@ cody-gateway access Sourcegraph.com through standard Sourcegraph.com users that 
 
 The current accounts are as follows:
 
-- [`cody-gateway-readonly`](https://team-sourcegraph.1password.com/vaults/all/allitems/3pedoq4kuocyey273nxykwlecy) - this account is the default one provisioned for cody-gateway instances, and should have read-only access to product subscriptions.
+<!--
+Renaming accounts is a bit tricky on Sourcegraph.com, so let's just leave them with the legacy names for now,
+there should be no need to interact with the accounts directly for the most part.
+-->
+
+- [`llm-proxy-readonly`](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=33qlfie6epzm7vxa24ixrczcfi&v=dnrhbauihkhjs5ag6vszsme45a) - this account is the default one provisioned for cody-gateway instances, and should have **read-only** access to product subscriptions.
   - Feature flag: [`product-subscriptions-reader-service-account`](https://sourcegraph.com/site-admin/feature-flags/configuration/product-subscriptions-reader-service-account)
-- [`cody-gateway`](https://team-sourcegraph.1password.com/vaults/all/allitems/gkxxq4jdpgfu2zoynwtjjf3vxy) - this account should have read and write access on cody-gateway-related resources. This is primarily used for Sourcegraph Cloud integration, where we ened to be able to manage cody-gateway access for product subscriptions.
+- [`llm-proxy`](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=gkxxq4jdpgfu2zoynwtjjf3vxy&v=dnrhbauihkhjs5ag6vszsme45a) - this account should have **read and write** access on cody-gateway-related resources. This is primarily used for Sourcegraph Cloud integration, where we ened to be able to manage cody-gateway access for product subscriptions.
   - Feature flag: [`product-subscriptions-service-account`](https://sourcegraph.com/site-admin/feature-flags/configuration/product-subscriptions-service-account)
 
 More details for each account are available in the 1password entries linked above.
