@@ -73,6 +73,6 @@ Any known violations of this policy should be reported to [report-policy-violati
 **Policy Owner:** Security Engineering Manager
 
 | Version | Date        | Description   | Author          | Approved by     |
-|---------|-------------|---------------|-----------------|-----------------|
+| ------- | ----------- | ------------- | --------------- | --------------- |
 | 1.0     | 29-Apr-2022 | First version | Diego Comas     | Diego Comas     |
 | 1.1     | 30-May-2023 | 2023 review   | André Eleuterio | André Eleuterio |
