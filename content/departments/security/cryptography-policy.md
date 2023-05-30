@@ -79,8 +79,6 @@ Any known violations of this policy should be reported to the #security slack ch
 
 **Policy Owner**: Head of Security
 
-
-
 | Version | Date        | Description              | Author          | Approved by |
 | ------- | ----------- | ------------------------ | --------------- | ----------- |
 | 1.0     | 27-Jan-2022 | First version            | David Sandy     | Diego Comas |
