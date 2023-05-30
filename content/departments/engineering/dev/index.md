@@ -35,7 +35,6 @@
   - [Early-career engineers](hiring/early-career-engineers.md)
 - [Career development](career-development/index.md)
   - [Career development framework](career-development/framework.md)
-  - [Talent review process](career-development/talent-review-process.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 
 <video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
