@@ -97,7 +97,7 @@ Requests for an exception to this Policy must be submitted to and authorized by 
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the Director of Platform and Infrastructure. Violations of this policy may result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
 **Policy Owner:** Head of Security
 
