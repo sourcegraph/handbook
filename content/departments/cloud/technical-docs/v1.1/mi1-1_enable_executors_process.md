@@ -2,7 +2,7 @@
 
 > WARNING: This page is **DEPRECATED**, and only retain to provide historical context.
 
-All managed instances will have executors enabled by default. #ce is responsible for providing the ARR to help us determine the compute resources we allocate to executors, [learn more](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.md#executors).
+All managed instances will have executors enabled by default. #ce is responsible for providing the ARR to help us determine the compute resources we allocate to executors, [learn more](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.yml).
 
 ## Deploy executors
 

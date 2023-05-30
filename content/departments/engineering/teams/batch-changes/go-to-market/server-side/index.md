@@ -100,7 +100,7 @@ Executors are provided by default to every cloud customer. What that means is th
 #### Are there pricing implications for executors?
 
 - For self-hosted customers, executors are provided free of charge. Customers will have to self-host them though, which will cause infrastructure costs.
-- For cloud customers, 1 or more executors are included in their deployment by default, [depending on their ARR](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D). If customers need more executors that included, this will come at an extra charge as defined in the Sourcegraph billing page.
+- For cloud customers, 1 or more executors are included in their deployment by default, [depending on their ARR](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.yml&title=New+Cloud+Instance+request%3A+%5BCUSTOMER+NAME%5D). If customers need more executors that included, this will come at an extra charge as defined in the Sourcegraph billing page.
 
 #### What are the most common complications/issues with deploying & using executors?
 
