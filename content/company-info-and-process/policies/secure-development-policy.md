@@ -72,41 +72,7 @@ Any known violations of this policy should be reported to [report-policy-violati
 
 **Policy Owner:** Security Engineering Manager
 
-<table>
-  <tr>
-   <td><strong>Version</strong>
-   </td>
-   <td><strong>Date</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-   <td><strong>Author</strong>
-   </td>
-   <td><strong>Approved by</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>1.0
-   </td>
-   <td>29-Apr-2022
-   </td>
-   <td>First Version
-   </td>
-   <td>Diego Comas
-   </td>
-   <td>Diego Comas
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+| Version | Date        | Description   | Author          | Approved by     |
+|---------|-------------|---------------|-----------------|-----------------|
+| 1.0     | 29-Apr-2022 | First version | Diego Comas     | Diego Comas     |
+| 1.1     | 30-May-2023 | 2023 review   | André Eleuterio | André Eleuterio |
