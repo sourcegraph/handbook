@@ -1,8 +1,5 @@
 # Cryptography Policy
 
-- Policy Owner: Security Engineering Manager
-- Effective Date: 31-Jan-2022
-
 ## Purpose
 
 To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information. This policy establishes requirements for the use and protection of cryptographic keys throughout their entire lifecycle.
@@ -79,6 +76,10 @@ Requests for an exception to this policy must be submitted to Security for appro
 ## Violations & Enforcement
 
 Any known violations of this policy should be reported to the #security slack channel. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+
+**Policy Owner**: Head of Security
+
+
 
 | Version | Date        | Description              | Author          | Approved by |
 | ------- | ----------- | ------------------------ | --------------- | ----------- |
