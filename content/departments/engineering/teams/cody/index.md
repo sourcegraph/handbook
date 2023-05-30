@@ -6,4 +6,4 @@ Placeholder page for the cody team.
 
 Managed Cody services:
 
-- [Cody Gateway](llm-proxy/index.md) (cody-gateway.sourcegraph.com and cody-gateway.sgdev.org)
+- [Cody Gateway](cody-gateway/index.md) (cody-gateway.sourcegraph.com and cody-gateway.sgdev.org)
