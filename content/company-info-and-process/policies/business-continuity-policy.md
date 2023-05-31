@@ -185,4 +185,14 @@ Any known violations of this policy should be reported to [report-policy-violati
    <td>Reviewed & Approved
    </td>
   </tr>
+  <tr>
+   <td>2.0
+   </td>
+   <td>31-05-23
+   </td>
+   <td>Dora Neumeier
+   </td>
+   <td>Annual review (also reviewed as part of the BC testing)
+   </td>
+  </tr>
 </table>
