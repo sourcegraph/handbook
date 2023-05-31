@@ -209,7 +209,7 @@ Any known violations of this policy should be reported to report-policy-violatio
    <td>2.1
     <td>18-May-2023
    </td>
-   <td>Updated Head of Security title & Compliance manager responsibilities 
+   <td>Updated Head of Security title & Compliance manager responsibilities + Annual Review
    </td>
    <td>Dora Neumeier
    </td>
