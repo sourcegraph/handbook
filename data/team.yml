@@ -1070,16 +1070,6 @@ michal_sennett:
   email: michal.sennett@sourcegraph.com
   description: Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences. She loves traveling and learning about new cultures, especially by eating their cuisine.
 
-keely_aguayo:
-  name: Keely Aguayo
-  pronouns: she/her
-  role: Payroll Manager
-  reports_to: financial_controller
-  location: New Orleans, LA, USA 🇺🇸
-  github: keelyaguayo
-  email: keely.aguayo@sourcegraph.com
-  description: 'Keely lives in New Orleans with her husband, Chris, their four sons: Sullivan, Anderson, Miller, and Wilder, and a 14 year old Bichon Frise named Elle.'
-
 simon_waterer:
   name: Simon Waterer
   pronouns: he/him
