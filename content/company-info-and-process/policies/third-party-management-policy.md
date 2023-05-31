@@ -176,4 +176,14 @@ Any known violations of this policy should be reported to [report-policy-violati
    <td>Reviewed
    </td>
   </tr>
+   <tr>
+   <td>1.1
+   </td>
+   <td>31-05-23
+   </td>
+   <td>Dora Neumeier
+   </td>
+   <td>Annual review (no changes required) 
+   </td>
+  </tr>
 </table>
