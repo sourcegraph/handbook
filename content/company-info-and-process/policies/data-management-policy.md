@@ -60,8 +60,8 @@ Following items are examples of such data:
 - Sourcegraph private code (infrastructure, deploy-\* repositories)
 - Private RFCs
 - Internal policies or processes containing sensitive business, teammate, or customer information
-- Teammate Personal Data, including data that teammates share internally (such as in open 
-channels), and that does not fall within the Private data category.
+- Teammate Personal Data, including data that teammates share internally (such as in open
+  channels), and that does not fall within the Private data category.
 
 ### **Public**
 
