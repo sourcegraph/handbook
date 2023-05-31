@@ -367,7 +367,7 @@ Time in Stage 4 (Trial)
 - Goal: 30 days
 - Actual: 49 days
 
-### Enterprise Technical Advisor 
+### Enterprise Technical Advisor
 
 #### Leadership Panel Interview
 
@@ -399,12 +399,10 @@ A summary of the 4 prompts are provided below:
 
 You'll meet with two individual contributors on the TA team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
-
 ## Engineering
 
 - [Resources for Candidates](engineering_interview_process_candidates.md)
 - [Resources for Hiring Managers and Teammates](engineering_interview_process.md)
-
 
 ## Marketing
 
