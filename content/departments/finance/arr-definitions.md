@@ -21,8 +21,8 @@ Furthermore, if the Company enters into a multi-year contract with a customer an
 
 ### Defining Subscription Revenue:
 
-- Subscription revenue must be re-occurring; any one-time revenue/service does not qualify
-- Subscription revenue does include any on-going professional services: Managed Services and Premium support qualify as ARR and Implementation Services will not qualify as ARR as they are a one-time sale.
+- Subscription revenue must be re-occurring; any one-time revenue/service does not qualify.
+- Subscription revenue does include any on-going professional services; Managed Services and Premium support qualify as ARR as they contribute to the recurring revenue stream. Implementation services are categorized as a one-time sale and do not qualify as ARR as they are typically provided to set up or deploy a solution initially but do not have an ongoing, recurring nature.
 
 ### ARR Timing Recognition:
 
