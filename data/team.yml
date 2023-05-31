@@ -743,18 +743,6 @@ kevin_quigley:
   links: '[LinkedIn](https://www.linkedin.com/in/kevinquigley18/)'
   description: Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
 
-nicky_van_maanen:
-  name: Nicky Van Maanen
-  pronouns: she/her
-  role: Tech Ops Manager
-  reports_to: vp_operations
-  manager_role_slug: tech_ops_manager
-  location: Costa Mesa, California, USA 🇺🇸
-  github: NickyVM
-  email: nicky@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/nvanmaanen/)'
-  description: Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
-
 nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
@@ -1048,18 +1036,6 @@ kemper_hamilton:
   links: '[LinkedIn](https://www.linkedin.com/in/kemperhamilton/)'
   description: Kemper has been an Austinite for ten years. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, HR operations, and recruitment.
 
-nancy_shah:
-  name: Nancy Shah
-  pronouns: she/her
-  role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
-  location: Oakton, VA, United States 🇺🇸
-  github: nancy4dev
-  email: nancy@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/nancy-s-97b71859/)'
-  pronunciation: 'How to say my last name: [Shah](https://www.howtopronounce.com/shah)'
-  description: Nancy grew up in upstate New York, but has lived in the DC Metro Area for most of her life. You can find Nancy rock climbing most evenings.  She also enjoys trying out new coffee shops, tyring out vegan recipes, drinking tea, binge watching TV shows, and spending time outdoors.
-
 michal_sennett:
   name: Michal Sennett
   pronouns: she/her
@@ -1201,6 +1177,7 @@ Nate_Freng:
   pronouns: he/him
   role: Tech Ops Engineer
   reports_to: tech_ops_manager
+  manager_role_slug: tech_ops_manager
   location: Fargo, ND, USA 🇺🇸
   email: nate.freng@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
