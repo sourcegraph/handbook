@@ -47,4 +47,30 @@ Requests for an exception to this policy must be submitted to the Tech Ops manag
 
 **Violations & Enforcement**
 
-Any known violations of this policy should be reported to the Tech Ops Team. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
+
+<table>
+  <tr>
+    <th>Version</th>
+    <th>Date</th>    
+    <th>Comments</th>
+    <th>Author</th>
+  </tr>
+  <tr>
+    <td>1.0</td>
+    <td>2022-03-15</td>
+    <td>First Version</td>
+    <td>Nicky Van Maanen</td>
+  </tr>  
+  <tr>
+    <td>1.1</td>
+    <td>2022-06-25</td>
+    <td>Review & Approval</td>
+    <td>Nicky Van Maanen</td>
+  </tr>
+  <tr>
+    <td>1.1</td>
+    <td>2023-05-31</td>
+    <td>Annual Review</td>
+    <td>Dora Neumeier</td>
+  </tr>
