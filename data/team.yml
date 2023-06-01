@@ -2137,7 +2137,7 @@ shivasurya_sankarapandian:
 
 nelson_araujo:
   name: Nelson Araujo
-  reports_to: steve_yegge
+  reports_to: eng_lead
   role: Head of Ship
   manager_role_slug: head_ship
   github: nelsonjr
