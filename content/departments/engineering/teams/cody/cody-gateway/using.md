@@ -38,7 +38,7 @@ Access to `cody-gateway.sgdev.org` is the same as the above, but requires that t
 
 A brief summary of Cody Gateway usage is available in each subscription's "Cody services" section:
 
-1. Go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. On sourcegraph.com, go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. View data in "Cody services" section
