@@ -8,7 +8,7 @@ Cody Gateway can be configured as a provider for [Cody completions](https://docs
 
 Access to the production Cody Gateway instance can be provisioned with the following steps:
 
-1. Go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. On sourcegraph.com, go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. Under "Cody services":
