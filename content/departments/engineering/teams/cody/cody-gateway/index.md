@@ -5,19 +5,24 @@
 Cody Gateway is a managed proxy service that routes requests to various LLM backends such as Anthropic and OpenAI (coming soon).
 Additionally, the service is slated to serve embeddings backends too - [learn more](https://docs.google.com/document/d/1N1S-WUejRIwyJlM5wCxX6vFTrYX-hW6ITX-kvBKggl8/edit).
 It is intended for use by both Sourcegraph.com and individual Sourcegraph instances such as Sourcegraph Cloud and on-premises instances.
-In general, we have two Cody Gateway instances running:
+
+In general, we have two Cody Gateway deployments running:
 
 - `cody-gateway.sourcegraph.com` - for production usage
 - `cody-gateway.sgdev.org` - for development and testing
+
+> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about *using* Cody Gateway, see [Using Cody Gateway](./using.md).
 
 Contents:
 
 - [Architecture](#architecture)
 - [Service images](#service-images)
-- [Access](#access)
 - [Operation](#operation)
+  - [Infrastructure access](#infrastructure-access)
   - [Alerting](#alerting)
   - [Observability](#observability)
+    - [Metrics](#metrics)
+    - [Tracing](#tracing)
   - [Deployment](#deployment)
   - [Service accounts](#service-accounts)
 
@@ -29,35 +34,6 @@ See [Cody Gateway: working design](https://docs.google.com/document/d/1fAKuYM02v
 
 Source code for Cody Gateway is in [`sourcegraph/sourcegraph/enterprise/cmd/cody-gateway`](https://github.com/sourcegraph/sourcegraph/tree/main/enterprise/cmd/cody-gateway).
 The image gets built the same as any other Sourcegraph service, i.e. with `insiders` and the standard `main`-branch tags.
-
-## Access
-
-Access to the production Cody Gateway instance can be provisioned with the following steps:
-
-1. Go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
-2. Find and open a subscription of interest
-3. Under "Cody services":
-   1. Enable access to Cody Gateway
-   2. If desired, configure a custom rate limit for the desired features
-   3. Copy the generated access token
-
-On the Sourcegraph instance, configure `sourcegraph` as the completions provider:
-
-```json
-{
-  "completions": {
-    "enabled": true,
-    "provider": "sourcegraph",
-    "accessToken": "<replace with token here>",
-    "chatModel": "anthropic/claude-v1",
-    "completionModel": "anthropic/claude-instant-v1"
-  }
-}
-```
-
-> NOTE: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
-
-Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
 
 ## Operation
 
@@ -79,6 +55,15 @@ Cody Gateway infrastructure is defined in Terraform in [`sourcegraph/infrastruct
   - [Sentry events](https://sourcegraph.sentry.io/projects/cody-gateway-dev/)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=cody-gateway-dev)
   - [GCP errors](https://console.cloud.google.com/errors?project=cody-gateway-dev)
+
+### Infrastructure access
+
+The following Entitle requests can be used to get access to Cody Gateway infrastructure:
+
+- [Cody Gateway Prod](https://app.entitle.io/request?targetType=bundle&duration=10800&justification=Justification%20here&bundleId=63869d4c-ed13-402d-86c4-8e8c4e55ef61)
+  - [Prod BigQuery events](https://app.entitle.io/request?targetType=resource&duration=10800&justification=Justification%20here&integrationId=52e29e01-d551-4186-88a3-65ff4f28b8c3&resourceId=9f4053b0-1c5d-41a4-9ec7-ec6d49e51559&roleId=a13816c2-dd8e-4f1b-a61f-342c5f9af546&grantMethodId=000ea096-f19c-4e70-9300-976acccf1054)
+- [Cody Gateway Dev](https://app.entitle.io/request?targetType=bundle&duration=10800&justification=Justification%20here&bundleId=e6e88341-bbfd-4b2f-9ece-633ac873725a)
+  - [Dev BigQuery events](https://app.entitle.io/request?targetType=resource&duration=10800&justification=Justification%20here&integrationId=52e29e01-d551-4186-88a3-65ff4f28b8c3&resourceId=e8c5df92-b494-4668-b53a-61c8b309c1fd&roleId=b8c397ee-0527-4e0f-8188-598340742669&grantMethodId=b8c397ee-0527-4e0f-8188-598340742669)
 
 ### Alerting
 
@@ -130,6 +115,16 @@ To configure [alerting](#alerting), some initial setup outside of the Terraform 
 
 1. In Sentry, under each Project, set up an alert rule for all issues that sends notifications to the desired channels.
 2. In GCP Error Reporting, set up alerting through the notification channel(s) provisioned through Terraform.
+
+### Usage events
+
+Usage data is collected on a variety of events going through Cody Gateway, which is then sent to BigQuery.
+BigQuery data can be found in the `events` table of the following datasets:
+
+- Prod: [`TelligentSourcegraph/cody_gateway`](https://console.cloud.google.com/bigquery?referrer=search&project=telligentsourcegraph&ws=!1m4!1m3!3m2!1stelligentsourcegraph!2scody_gateway)
+- Dev: [`cody-gateway-dev/cody_gateway`](https://console.cloud.google.com/bigquery?project=cody-gateway-dev&ws=!1m4!1m3!3m2!1scody-gateway-dev!2scody_gateway)
+
+See [`enterprise/internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/internal/codygateway/consts.go) for the list of events types that are currently tracked.
 
 ### Service accounts
 
