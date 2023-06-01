@@ -143,7 +143,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C04MDQ4A63Y">#announce-people-team</a>
+   <td><a href="https://sourcegraph.slack.com/archives/C04MDQ4A63Y">#announce-people-talent-team</a>
    </td>
    <td>Important announcements from the People & Talent team.
    </td>
