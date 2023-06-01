@@ -18,4 +18,4 @@
 - [Support Agent and Customer Slack Channels](support-agent-customer-slack-channels.md)
 - [Triaging](customer-support-triaging.md)
 - [Workflow](support-workflow.md)
-- [Knowledge Base Format](knowledge-base-structure.md)
+- [Knowledge Base](knowledge-base.md)
