@@ -10,7 +10,7 @@ On-prem-to-Cloud data migrations are currently owned by [Implementation Engineer
 
 To qualify for a data migration, the customer must:
 
-- have a Sourcegraph instance on v3.20.0 or later
+- have a Sourcegraph instance on v3.20.0 or later (limitation of [multi-version upgrades](https://docs.sourcegraph.com/admin/updates#upgrade-types))
   - note: where possible, strongly encourage the customer to upgrade to their on-prem instance to the latest version of Sourcegraph first.
 - use databases on Postgres 12 or later
 - _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
@@ -204,7 +204,7 @@ If the imported version is less than 2 versions behind Cloud, then you [should b
 # TODO: No equivalent in Cloud V2 currently.
 ```
 
-Otherwise, you may need to run a [multi-version upgrade](https://docs.sourcegraph.com/admin/deploy/docker-compose/upgrade#multi-version-upgrades):
+Otherwise, you may need to run a [Helm multi-version upgrade](https://docs.sourcegraph.com/admin/deploy/kubernetes/helm#multi-version-upgrades):
 
 ```sh
 # TODO: No equivalent in Cloud V2 currently - keeping old instructions here for reference.
