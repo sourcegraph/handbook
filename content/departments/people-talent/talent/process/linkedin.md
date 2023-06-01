@@ -57,7 +57,7 @@ Before you jump in and start building projects and sending inmails, become famil
 
 Using the suggestions in [Building a 7 Touch Recruiting Campaign](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit), the Recruiter and Sourcer should draft 7 messages for each role and develop an [engagement strategy](linkedin.md#engagement-strategy).
 
-It is critical to continously test new templates, iterate, and improve messaging based on what is working and what isn't. In order to capture this data, we use a standard naming convention so that we can compare how the following variables impact the candidate response rate for our messaging templates:
+It is critical to continously test new templates, iterate, and improve messaging based on what is working and what isn't. In order to capture this data, we make all templates [viewable to "anyone at my organization"](linkedin.md#how-to-make-messaging-templates-viewable-to-"anyone-at-my-organization") and use a standard naming convention so that we can compare how the following variables impact the candidate response rate for our messaging templates:
 
 1. The role we're sourcing for
 2. The touch point (1-7)
@@ -70,6 +70,18 @@ The standard naming convention that Sourcegraph uses for LinkedIn Recruiter mess
 
   - Example 1: _Payroll Manager - Touch Point 3 - without personal intro - {NAME}, quick question_
   - Example 2: _Enterprise Technical Advisor - Touch Point 5 - with personal intro - {NAME} + Sourcegraph = winning combo_
+
+#### How to make messaging templates viewable to "anyone at my organization" 
+
+We make all messaging templates viewable to "anyone at my organization" so that we can run a report and compare the response rate of our teams' messaging templates all in one place. If you are creating a new messaging template from scratch, always make it visible to "Anyone in my organization". 
+
+Please follow these steps to ensure any templates you've made in the past are viewable to anyone at the organization (and not private): 
+
+1. Hover over your profile photo in the upper right hand corner
+2. Click "product settings" 
+3. Click "messaging templates" 
+4. On each of your templates, click the pensil icon
+5. At the bottom of your messaging template, under "Make this template visible to", select the “Anyone in my organization” option. 
 
 ### Recommended LinkedIn Recruiter user course
 
