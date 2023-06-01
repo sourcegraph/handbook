@@ -1,19 +1,18 @@
-# MI v1.1 on-prem data migration
+# On-prem data migration to Cloud v2
 
-> WARNING: This page is **DEPRECATED**, and only retain to provide historical context. A newer version of this page is available in [the Cloud V2 pages](../v2.0/onprem_data_migration.md).
+> WARNING: This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
+> This page was adapted only on a best-effort basis for Cloud v2 from [the legacy MI v1.1 page](../v1.1/index.md) - it has currently not yet been thoroughly tested for Cloud v2.
 
-<br />
-
-> NOTE: This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
-
-This process describes the current state of how to do a full data migration of an on-prem instance to a MI v1.1 Cloud instance.
+This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
+On-prem-to-Cloud data migrations are currently owned by [Implementation Engineering](../../../technical-success/ie/index.md), but the process is documented in Cloud as it pertains to Cloud infrastructure.
 
 ## Requirements
 
 To qualify for a data migration, the customer must:
 
-- have a Sourcegraph instance on v3.20.0 or later
-- use databases on Postgres 11 or later
+- have a Sourcegraph instance on v3.20.0 or later (limitation of [multi-version upgrades](https://docs.sourcegraph.com/admin/updates#upgrade-types))
+  - note: where possible, strongly encourage the customer to upgrade to their on-prem instance to the latest version of Sourcegraph first.
+- use databases on Postgres 12 or later
 - _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
 - have the [latest release](https://github.com/sourcegraph/src-cli/releases) of [`src`](https://github.com/sourcegraph/src-cli)
 - have direct database access
@@ -46,7 +45,14 @@ The customer should add a non-dismissible site notice to their instance in globa
 
 #### Databases
 
-The customer should first be asked to create `pg_dump` exports of their Sourcegraph databases. Template commands can be generated with `src snapshot databases` for various configurations:
+The customer should first be asked to create `pg_dump` exports of their Sourcegraph databases.
+`pg_dump` is designed to be [usable while the database is in use](https://www.postgresql.org/docs/current/app-pgdump.html):
+
+> It makes consistent backups even if the database is being used concurrently. pg_dump does not block other users accessing the database (readers or writers).
+
+Note that [we ask the customer to configure a notice](#prepare-instance) to let their users know that any actions taken after the point of the dump will not remain consistent on their new Cloud instance.
+
+Template commands for running `pg_dump` can be generated with `src snapshot databases` for various configurations:
 
 ```sh
 $ src snapshot databases --help
@@ -97,10 +103,10 @@ This will generate a JSON file at `src-snapshot/summary.json`. See `src snapshot
 
 ### Create migration resources
 
-First, the operator must [create an instance](mi1-1_creation_process.md) with the configuration for the desired final Cloud instance and freeze it:
+First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance and freeze it:
 
 ```sh
-mi ssh-exec 'cd /deployment/docker-compose && docker-compose down'
+mi2 instance scale-down
 ```
 
 In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository:
@@ -161,16 +167,16 @@ gcloud components install cloud_sql_proxy
 
 > NOTE: This may not work due to some path jankness - we will have better tooling when Cloud V2 is GA.
 
-Get the following data from the Cloud v1.1 instance created in `deploy-sourcegraph-managed`:
+Get the following data from the Cloud v2 instance created in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud):
 
 ```sh
 # from GCP project
-export TARGET_INSTANCE_PROJECT="sourcegraph-managed-migration"
-export TARGET_INSTANCE_DB="main-47cc60a2"
-# in deployment dir
-export INSTANCE_ADMIN_PASSWORD=$(terraform show -json | jq -r '.values.root_module.child_modules[].resources[] | select(.address == "module.managed_instance.random_password.db_main_admin_password") | .values.result')
+export TARGET_INSTANCE_PROJECT=$(mi2 instance get -jq '.status.gcp.projectId')
+export TARGET_INSTANCE_DB=$(mi2 instance get -jq '.status.gcp.cloudSQL[0].name')
+# in deployment dir - TODO: No equivalent in Cloud V2 currently, we need to propagate password to output stack
+export INSTANCE_ADMIN_PASSWORD="..."
 # from migration resources output
-export DB_DUMP_BUCKET=""
+export DB_DUMP_BUCKET="..."
 ```
 
 Then in `cloud-data-migrations`, drop all database contents:
@@ -191,23 +197,24 @@ gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_INSTANCE_DB gs:
 
 ### Upgrade databases
 
-> NOTE: This step requires additional validation ([#1650](https://github.com/sourcegraph/customer/issues/1650)).
+> NOTE: This step requires additional validation ([#1650](https://github.com/sourcegraph/customer/issues/1650)). It may also be skipped if the customer upgraded to the latest version before creating their snapshot.
 
-Start the database proxy on the instance:
+Start the database proxy (`cloud-sql-proxy`) on the instance:
 
 ```sh
-mi ssh-exec 'cd /deployment/docker-compose && docker-compose up -d cloud-sql-proxy'
+# TODO: No equivalent in Cloud V2 currently.
 ```
 
 If the imported version is less than 2 versions behind Cloud, then you [should be able to simply run the migrator](https://docs.sourcegraph.com/admin/how-to/manual_database_migrations#up):
 
 ```sh
-mi ssh-exec 'cd /deployment/docker-compose && docker-compose up migrator'
+# TODO: No equivalent in Cloud V2 currently.
 ```
 
-Otherwise, you may need to run a [multi-version upgrade](https://docs.sourcegraph.com/admin/deploy/docker-compose/upgrade#multi-version-upgrades):
+Otherwise, you may need to run a [Helm multi-version upgrade](https://docs.sourcegraph.com/admin/deploy/kubernetes/helm#multi-version-upgrades):
 
 ```sh
+# TODO: No equivalent in Cloud V2 currently - keeping old instructions here for reference.
 mi ssh-exec 'cd /deployment/docker-compose && docker run --env-file .env --network docker-compose_sourcegraph sourcegraph/migrator:$TO upgrade -from=$FROM -to=$TO'
 ```
 
@@ -220,19 +227,23 @@ mi ssh-exec 'cd /deployment/docker-compose && docker run --env-file .env --netwo
 If all upgrades succeed, spin up the instance:
 
 ```sh
-mi ssh-exec 'cd /deployment/docker-compose && docker-compose up -d'
+mi2 generate kustomize
+# Compare
+kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/ | kubectl --kubeconfig=$(mi2 instance kubeconfig) diff -f -
+# Apply
+kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/ | kubectl --kubeconfig=$(mi2 instance kubeconfig) apply -f -
 ```
 
 Sync configuration:
 
 ```sh
-mi init-instance
+mi2 instance check -enforce
 ```
 
 Run a health check:
 
 ```sh
-mi check --executors
+mi2 instance check
 ```
 
 Run an acceptance test using the downloaded `summary.json` from the snapshot bucket:

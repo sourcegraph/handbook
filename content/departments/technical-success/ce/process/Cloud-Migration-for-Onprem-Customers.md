@@ -24,17 +24,19 @@ Once the commercials are squared away, the migration can begin. The Cloud will c
 3. If a data migration is required, contact the IE team to own. As the src snapshot utility tool will be used to perform the migration, customers must qualify for a data migration. To qualify, they must:
 
    - have a Sourcegraph instance on v3.20.0 or later (<b><em>in most circumstances, IE will recommend upgrading the self-hosted instance to the most recent version of Sourcegraph before migrating</em></b>
-   - use databases on Postgres 11 or later
+   - use databases on Postgres 12 or later
    - _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
    - have the [latest release](https://github.com/sourcegraph/src-cli/releases) of [`src`](https://github.com/sourcegraph/src-cli)
    - have direct database access
    - have a site-admin access token for their instance
 
+   See [On-prem data migration to Cloud v2: Requirements](../../../cloud/technical-docs/v2.0/onprem_data_migration.md#requirements) for more details.
+
 4. Request a cloud instance [as per our handbook page](../../..//cloud/#managed-instance-requests) (CE/TA owned)
 
 5. Perform the data migration and/or instance configuration (IE owned)
 
-6. Cloud/Sourcegraph enablement - work with customer to provide cloud or Sourcegraph enablement and training as required, to make sure all the users are onboarded. (CE/TA owned)
+6. Cloud/Sourcegraph enablement - work with customer to provide cloud or Sourcegraph enablement and training as required, to make sure all the users are onboarded (CE/TA owned). See [On-prem data migration to Cloud v2: Process](../../../cloud/technical-docs/v2.0/onprem_data_migration.md#process) for more details.
 
 ### Different strategies for cloud migration
 
