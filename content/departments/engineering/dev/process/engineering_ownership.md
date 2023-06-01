@@ -161,8 +161,9 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### General
 
 - [Continuous integration tooling, support, pipelines, infrastructure, and playbook](../tools/infrastructure/ci/index.md)
+- Bazel Support
 - Error types, logging, alerts, and monitoring for backend services
-- Backend testing standards, libraries, and infrastructure
+- Backend testing standards, libraries, scale-testing, and infrastructure
 - Packaging infrastructure
 - SOC2 compliance around the software development lifecycle, testing, and CI
 - GCP cost savings
@@ -172,6 +173,22 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Code host QA instances
 - DNS
 
+### Repositories
+
+- sourcegraph/asdf-cache-buildkite-plugin
+- sourcegraph/aspect-cli-plugin-buildkite
+- sourcegraph/cache-buildkite-plugin
+- sourcegraph/clabot-config
+- sourcegraph/deploy-sourcegraph-cloud
+- sourcegraph/deploy-sourcegraph-scaletesting
+- sourcegraph/dev-private
+- sourcegraph/infrastructure
+- sourcegraph/log
+- sourcegraph/repoplicant
+- sourcegraph/sg
+- sourcegraph/step-slack-notify-buildkite-plugin
+- sourcegraph/stylelint-config
+
 ### Tooling
 
 - [sg](https://docs.sourcegraph.com/dev/background-information/sg)
@@ -179,9 +196,11 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
 - GitHub and GitHub Applications
 - Buildkite
-- OkayHQ
 - Sentry.io
 - Geekbot
+- Bazel
+- HoneyComb
+- CLA Bot
 
 ### Container images
 
@@ -190,6 +209,12 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - [sourcegraph/jaeger-agent](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/jaeger-agent)
 - [sourcegraph/jaeger-all-in-one](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/jaeger-all-in-one)
 - [sourcegraph/prometheus](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/prometheus)
+- [infrastructure/buildkite-agent-bazel](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-bazel)
+- [infrastructure/buildkite-agent-metrics](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-metrics)
+- [infrastructure/buildkite-agent-stateless](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-stateless)
+- [infrastructure/buildkite-autoscaler](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-autoscaler)
+- [infrastructure/buildkite-job-dispatcher](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-job-dispatcher)
+- [infrastructure/sgping](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/sgping)
 
 ### General
 

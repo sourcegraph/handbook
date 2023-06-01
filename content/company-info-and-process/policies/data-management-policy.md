@@ -60,7 +60,8 @@ Following items are examples of such data:
 - Sourcegraph private code (infrastructure, deploy-\* repositories)
 - Private RFCs
 - Internal policies or processes containing sensitive business, teammate, or customer information
-- Teammate Personal Data, including data that teammates share internally (such as in open Slack channels), and that does not fall within the Private data category.
+- Teammate Personal Data, including data that teammates share internally (such as in open
+  channels), and that does not fall within the Private data category.
 
 ### **Public**
 
@@ -205,6 +206,16 @@ Any known violations of this policy should be reported to [report-policy-violati
    <td>New classification was added as per Security “zero trust” framework requirements
    </td>
   </tr>
+   <tr>
+   <td>2.3
+   </td>
+   <td>2023-05-31
+   </td>
+   <td>Dora Neumeier
+   </td>
+   <td>Annual review (amendments to some data retention periods)
+   </td>
+  </tr>
   <tr>
    <td>
    </td>
@@ -334,7 +345,7 @@ host (asset) data is retained until removed and purged from Qualys
    </td>
    <td>Google Vault (gmail, drive, chat, and groups)
    </td>
-   <td>Indefinite
+   <td>6 months
    </td>
   </tr>
   <tr>
@@ -346,11 +357,8 @@ host (asset) data is retained until removed and purged from Qualys
 <ul>
 
 <li><a href="../communication/team_chat.md">https://handbook.sourcegraph.com/company-info-and-process/communication/team_chat</a>
-    (above channels retained for 5 years, all other Public channels set to delete after 90 days)
+    General retention is for 180 days (exceptions channels can be found in link above)
 <ul>
-
-<li>DMs and Private channel messages are retained indefinitely
-</li>
 </ul>
 </li>
 </ul>
@@ -393,7 +401,7 @@ host (asset) data is retained until removed and purged from Qualys
    </td>
    <td>Private data
    </td>
-   <td>Up to a year after termination - once the manager has been reassigned all business documentation
+   <td> 6 months
    </td>
   </tr>
 </table>

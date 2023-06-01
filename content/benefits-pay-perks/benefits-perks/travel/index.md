@@ -274,10 +274,84 @@ If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately
 
 If you have any questions or concerns, please reach out to the People Team in #ask-people-team in Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
 
-# In-person gatherings that don't require travel
+# Local Meetups
 
-As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. As such, each teammate has $150 per person per quarter to spend on a gathering of their choice (in addition to travel budgets). This budget can be used for a wide array of activities including meals, transportation, etc. We will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts. This can be expensed under the "Team Travel" categories.
+This section refers to in-person gatherings with local teammates that do not require travel. As an all-remote company, we encourage teammates who have peers in their area to connect outside of company and team trips. Each teammate has $150 per person per quarter to spend on local gatherings of their choice. This budget can be split up into more than one event, but does not roll over to the next quarter.
+
+This is separate from Sourcegraph’s travel budgets above and co-working budget. The people team and managers will not hold teammates accountable to using this budget quarterly. It is each teammate’s responsibility to use this budget if they desire.
+
+_We would love to see photos from your meetups in `#sourcegram`!_
+
+**Recommended activities**
+
+This budget can be used for a wide array of activities including but not limited to:
+
+- Meeting up with local teammate(s) for dinner
+- Taking a train to meet up with teammate(s) in a neighboring city
+- Reserving a court to play squash or pickleball with local teammates
+- Coffee meetups
+- Purchasing tickets to a live event (comedy show, trivia night, sporting event, cooking class, etc.)
+
+**Who is responsible for planning virtual events?**
+
+Teammates are responsible for utilizing this local meetup budget quarterly.
+
+**Planning best practices**
+
+Leverage the Slack channel for your city to gather feedback from local teammates about when they’re available and what events people are interested in. You can browse existing city channels by searching “#location-” in the Slack channel directory. Add any local teammates who are not already in the channel, or create a new one if one doesn’t exist yet and you have teammates in your area.
+
+Send a calendar invite to the appropriate teammates to block the meet up timeframe and provide event details such as location, time, parking info, etc. Link the meetup handbook guidance in the calendar invite.
+
+If the event isn’t recurring, set up a monthly watercooler message in your city’s Slack channel. This message can serve as a reminder to plan a meetup, and it can ask local teammates to provide ideas for dates and activities in the thread.
+
+**Submitting receipts**
+
+Receipts are required and can be submitted for reimbursement in Airbase under the “Team Travel” category. Include in the note that this was a local meetup, and which teammate(s) you met with.
+
+Please note that we will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts.
+
+If you have questions about how to use this budget, please reach out in #ask-people-team.
 
 # Virtual Gatherings
 
-In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $150 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com). This can be expensed under the "Team Travel" categories. Gift cards should not be purchased.
+This section refers to virtual events and gatherings with your direct team. As an all-remote company, we encourage teams to connect virtually outside of company and team trips. As such, each teammate has $150 per person per quarter to spend on virtual gatherings of the team’s choice. This budget can be split up into more than one event, but does not roll over to the next quarter. Our recommended virtual event cadence is 1-2 events per quarter.
+
+**Who is responsible for planning virtual events?**
+
+Have a designated team event planner. _Managers_ are responsible for utilizing this virtual event budget quarterly. Managers can either plan activities themselves or ask for 1-2 team volunteers to be responsible for this. All virtual events must have manager approval prior to booking.
+
+**Planning best practices**
+
+Send a calendar hold to the appropriate teammates to block the meet up time frame. Add in the event details (location, time, etc.) when they’re ready. Link the meetup handbook guidance in the calendar invite.
+
+If the event isn’t recurring, the manager and/or designated event planner should put a recurring reminder in their calendar to plan something. Other teammates are welcome to provide suggestions for dates/activities in the team channel.
+
+Keep a record of successful virtual events and reusable resources. This allows you to revisit and reuse activities, templates, or ideas to optimize costs and save time in future event planning.
+
+**Recommended activities and vendors**
+
+We recommend planning a variety of events to cater to diverse interests and preferences within the team. Some of the most beneficial team building events are ones where teammates can collaborate. This budget can be used for a wide array of activities including but not limited to:
+
+- Expensing teammates’ meal during a virtual event
+- Purchasing a virtual game night prize
+- Booking a virtual cooking class or online workshop
+- Booking a virtual escape room
+- Wellness and mental health related activities such as virtual yoga or meditation sessions
+
+**Recommended vendors:**
+
+- [Confetti](https://www.withconfetti.com/) (team building experiences)
+- [Kahoot](https://kahoot.com/)
+- [Jackbox Games](https://www.jackboxgames.com/)
+- [Airbnb online experiences](https://www.airbnb.com/s/experiences/online?c=.pi0.pk9835339438_103139153674&gclid=Cj0KCQjwr82iBhCuARIsAO0EAZz6-efDWv8NUiC7osF21Xq8CNKz-8zedhIlfEX5s53yb35GtgzK5iYaAl2_EALw_wcB)
+- [Escape Experiences](https://www.escapeexperience.com/) (virtual escape room)
+
+Seek input from team members to understand their preferences and expectations for virtual events by using surveys or polls to gather feedback and suggestions.
+
+**Submitting Receipts**
+
+Receipts are required and can be submitted for reimbursement in Airbase under the “Team Travel” category. Include in the note that this was a virtual meetup, and which teammate(s) you met with.
+
+Total budget is $150 per person per quarter. Please remember that any single, team events with expenditures above $1,500 require pre-approval from the finance team (finance@sourcegraph.com) via email or via #ask-finance.
+
+If you have questions about how to use this budget, please reach out in #ask-people-team.

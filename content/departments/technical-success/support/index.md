@@ -9,15 +9,15 @@ Aid the technical success of our customers by resolving their problems and makin
 ## Team KPIs / Measures of Success
 
 - Customer Satisfaction (CSAT)
-- SLA Achievement
+- SLA Achievement (Time to First Response)
 
 ### Customer Satisfaction (CSAT)
 
 We want to deliver our customers with an exceptional customer experience. Customer Satisfaction (CSAT) is the most important measurement of our success. Questions and issues will always arise - the experience that we provide to our customers in those moments is our ultimate north star.
 
-### SLA Achievement
+### SLA Achievement (Time to First Response)
 
-We want to meet our SLA (service level agreement) response 100% of the time. Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA.
+Our main SLA (service level agreement) on tickets is time to first response (TTFR). We aim to meet this 95% of the time. Meeting the SLA requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done or will do, as well as next steps. A response of “we are on it” is not be sufficient for us to count as successfully meeting SLA.
 
 ## Our guiding principles:
 

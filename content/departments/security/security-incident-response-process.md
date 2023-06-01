@@ -41,7 +41,7 @@ Aside from the team working on investigation and containment, other members of S
 
 ### Client notification
 
-Clients must be notified if Sourcegraph has any reason to believe that their data has been impacted during an incident. Clients should be notified:
+Clients must be notified if Sourcegraph has confirmed that their data has been impacted during an incident. Clients should be notified:
 
 - Within 24 hours of discovering that their data has been impacted to tell them as much
 - Within 72 hours of the first notification with a detailed report on exactly what data has been compromised according to known information at the time.

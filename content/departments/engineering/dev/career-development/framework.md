@@ -30,10 +30,8 @@ It is the responsibility of your manager to track this, and to ensure that you a
 
 When your manager can make the case that you’ve had at least one quarter of high performance at your current level, and one quarter performing at the next level, in all three of the categories. It takes time to demonstrate the “consistently” implicit in the expectations, and we don’t want to promote anyone to a level in which they will struggle.
 
-Promotions from one level to another are considered in our twice-yearly [talent review](talent-review-process.md).
+Promotions from one level to another are considered in our twice-yearly talent review.
 An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
-
-To learn more, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
 
 ## IC1 - IC6 Framework
 
