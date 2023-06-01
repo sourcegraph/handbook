@@ -45,7 +45,14 @@ The customer should add a non-dismissible site notice to their instance in globa
 
 #### Databases
 
-The customer should first be asked to create `pg_dump` exports of their Sourcegraph databases. Template commands can be generated with `src snapshot databases` for various configurations:
+The customer should first be asked to create `pg_dump` exports of their Sourcegraph databases.
+`pg_dump` is designed to be [usable while the database is in use](https://www.postgresql.org/docs/current/app-pgdump.html):
+
+> It makes consistent backups even if the database is being used concurrently. pg_dump does not block other users accessing the database (readers or writers).
+
+Note that [we ask the customer to configure a notice](#prepare-instance) to let their users know that any actions taken after the point of the dump will not remain consistent on their new Cloud instance.
+
+Template commands for running `pg_dump` can be generated with `src snapshot databases` for various configurations:
 
 ```sh
 $ src snapshot databases --help
