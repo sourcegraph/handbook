@@ -11,7 +11,7 @@ In general, we have two Cody Gateway deployments running:
 - `cody-gateway.sourcegraph.com` - for production usage
 - `cody-gateway.sgdev.org` - for development and testing
 
-> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about *using* Cody Gateway, see [Using Cody Gateway](./using.md).
+> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [Using Cody Gateway](./using.md).
 
 Contents:
 
