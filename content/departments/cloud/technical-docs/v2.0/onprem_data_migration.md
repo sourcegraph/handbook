@@ -12,7 +12,7 @@ To qualify for a data migration, the customer must:
 
 - have a Sourcegraph instance on v3.20.0 or later
   - note: where possible, strongly encourage the customer to upgrade to their on-prem instance to the latest version of Sourcegraph first.
-- use databases on Postgres 11 or later
+- use databases on Postgres 12 or later
 - _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
 - have the [latest release](https://github.com/sourcegraph/src-cli/releases) of [`src`](https://github.com/sourcegraph/src-cli)
 - have direct database access
