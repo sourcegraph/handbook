@@ -12,7 +12,7 @@ Cody is an AI coding assistant that lives in your editor that can find, explain,
 
 There are two ways to use Cody:
 
-- As an individual dev, using Cody with sourcegraph.com. Follow the instructions [here](https://docs.sourcegraph.com/cody#cody-on-sourcegraph-com). Note that users might want to try Cody using sourcegraph.com on private com, which is possible as long as they agree to our [terms](https://about.sourcegraph.com/terms/cody-notice).
+- As an individual dev, using Cody with sourcegraph.com. Follow the instructions [here](https://docs.sourcegraph.com/cody#cody-on-sourcegraph-com). Note that users might want to try Cody using sourcegraph.com on private code, which is possible as long as they agree to our [terms](https://about.sourcegraph.com/terms/cody-notice).
 - As a Sourcegraph Enterprise user, connect Cody to your Sourcegraph Enterprise instance. Instructions are [here](https://docs.sourcegraph.com/cody#cody-on-your-self-hosted-sourcegraph-enterprise-instance).
 
 > Note: There used to be two distinct VS Code extensions (Cody community and Cody enterprise) but they were merged into a single one.
