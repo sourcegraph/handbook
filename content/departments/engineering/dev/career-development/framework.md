@@ -546,9 +546,9 @@ plus IC 4 teamwork expectations
       </td>
       <td class="behaviors">
         <ul>
-   <li>Manages a one or two teams team of individual contributor professionals.Greater than 50% of time spent on manager duties vs. individual contribution.<\li>
-<li>Responsible for managing teammates performance and annual impact reviews.<\li>
-<li>Analogy: captain of a smaller crew; takes people on day trips.<\li>
+   <li>Manages a one or two teams team of individual contributor professionals.Greater than 50% of time spent on manager duties vs. individual contribution.</li>
+<li>Responsible for managing teammates performance and annual impact reviews.</li>
+<li>Analogy: captain of a smaller crew; takes people on day trips.</li>
         </ul>
       </td>
     </tr>
