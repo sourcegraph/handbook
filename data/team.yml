@@ -999,7 +999,7 @@ jh_chabran:
   name: JH Chabran
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: head_ship
   pronunciation: 'Name Pronunciation: [/ʒiaʃ/](https://www.name-coach.com/jh-chabran)'
   location: Lyon, France 🇫🇷
   github: jhchabran
@@ -1084,7 +1084,7 @@ rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
   role: Engineering Manager, Cloud
-  reports_to: eng_lead
+  reports_to: head_ship
   manager_role_slug: engineering_manager_cloud
   location: Warsaw, Poland 🇵🇱
   github: rafax
@@ -1687,7 +1687,7 @@ randell_callahan:
   github: Piszmog
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: head_ship
   location: Denver, CO, USA 🇺🇸
   description: Randell is a Colorado Native. He grew up in a small mountain town before getting a culture shock in Boulder, Colorado. Randell enjoys going for runs (when it is not snowing), playing with his daughter, and throwing the ball for his little Yorkie.
 
@@ -1697,7 +1697,7 @@ william_bezuidenhout:
   github: burmudar
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: head_ship
   location: Cape Town, South Africa 🇿🇦
   links: '[LinkedIn](https://www.linkedin.com/in/williambezuidenhout/), [Twitter](https://twitter.com/BurmudarFTL)'
   description: William lives in the beautiful Cape Town, South Africa. He enjoys running and moutain biking and when the weather permits (and his motivation) he can be out riding some trail at a wine farm or taking a leisure run. Besides the outdoor stuff, he loves to tinker and can often be found working on one of his side projects and reading up a storm on either tech, sci-fi, or fantasy! He loves animals and can easily be distracted by a dog.
@@ -1801,7 +1801,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: head_ship
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
@@ -2134,3 +2134,17 @@ shivasurya_sankarapandian:
   location: Waterloo, ON, Canada 🇨🇦
   links: '[@sshivasurya](https://twitter.com/sshivasurya), [LinkedIn](https://www.linkedin.com/in/shivasurya), [shivasurya.me](https://shivasurya.me)'
   description: Shiva is a passionate security engineer who loves finding and fixing vulnerabilities. He started his career as a mobile software engineer, but got hooked on security after playing capture the flag (CTF) competitions and learning about vulnerability research. Prior to Sourcegraph, He has worked as a security engineer at Dropbox, Yelp and Zoho, where he built features and products with security in mind.
+
+nelson_araujo:
+  name: Nelson Araujo
+  reports_to: eng_lead
+  role: Head of Ship
+  manager_role_slug: head_ship
+  github: nelsonjr
+  pronouns: he/him
+  location: Redmond, WA, USA 🇺🇸
+  links: |
+    [LinkedIn](https://www.linkedin.com/in/nelsonjr)
+  description: |
+    Nelson joined Sourcegraph in 2023.
+    Nelson loves to tinker with technology in his spare time.
