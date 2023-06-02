@@ -2134,3 +2134,18 @@ shivasurya_sankarapandian:
   location: Waterloo, ON, Canada 🇨🇦
   links: '[@sshivasurya](https://twitter.com/sshivasurya), [LinkedIn](https://www.linkedin.com/in/shivasurya), [shivasurya.me](https://shivasurya.me)'
   description: Shiva is a passionate security engineer who loves finding and fixing vulnerabilities. He started his career as a mobile software engineer, but got hooked on security after playing capture the flag (CTF) competitions and learning about vulnerability research. Prior to Sourcegraph, He has worked as a security engineer at Dropbox, Yelp and Zoho, where he built features and products with security in mind.
+
+nelson_araujo:
+  name: Nelson Araujo
+  reports_to: steve_yegge
+  role: Head of Ship
+  manager_role_slug: head_ship
+  github: nelsonjr
+  pronouns: he/him
+  location: Redmond, WA, USA 🇺🇸
+  links: |
+    [LinkedIn](https://www.linkedin.com/in/nelsonjr),
+    [GitHub](https://www.github.com/nelsonjr)
+  description: |
+    Nelson joined Sourcegraph in 2023.
+    Nelson loves to tinker with technology in his spare time.
