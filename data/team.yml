@@ -177,7 +177,7 @@ owen_convey_code_exploration:
 dave_try:
   name: Dave Try
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: head_ship
   location: Bogotá, Colombia 🇨🇴
   github: davejrt
   email: dave@sourcegraph.com
@@ -453,7 +453,7 @@ tj_devries:
 manuel_ucles:
   name: Manuel Ucles
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: head_ship
   location: Phoenix, AZ, USA 🇺🇸
   github: mucles
   email: manuel@sourcegraph.com
@@ -1499,7 +1499,7 @@ sander_ginn:
   github: sanderginn
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: head_ship
   location: Amsterdam, The Netherlands 🇳🇱
   links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
   description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
@@ -1865,7 +1865,7 @@ jacob_pleiness:
   github: jdpleiness
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: head_ship
   location: Ann Arbor, MI, USA 🇺🇸
   links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
   description: 'Jacob started his career working in systems administration while getting his degree in computer science. Eventually he got tired of repetitive work and started automating more and more of his job until he became a software engineer.'
