@@ -743,18 +743,6 @@ kevin_quigley:
   links: '[LinkedIn](https://www.linkedin.com/in/kevinquigley18/)'
   description: Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
 
-nicky_van_maanen:
-  name: Nicky Van Maanen
-  pronouns: she/her
-  role: Tech Ops Manager
-  reports_to: vp_operations
-  manager_role_slug: tech_ops_manager
-  location: Costa Mesa, California, USA 🇺🇸
-  github: NickyVM
-  email: nicky@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/nvanmaanen/)'
-  description: Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
-
 nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
@@ -1187,8 +1175,9 @@ alex_ostrikov:
 Nate_Freng:
   name: Nate Freng
   pronouns: he/him
-  role: Tech Ops Engineer
-  reports_to: tech_ops_manager
+  role: Tech Ops Manager
+  reports_to: vp_operations
+  manager_role_slug: tech_ops_manager
   location: Fargo, ND, USA 🇺🇸
   email: nate.freng@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
