@@ -103,6 +103,7 @@ The exit interview is broken into two steps:
 - **US Teammates:** Your medical, dental, and vision benefits will remain active through the end of the month in which your employment ends. You will receive an email from Rippling within two weeks of your termination date, regarding options for continuation of coverage under[ COBRA](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra). This is an important/time sensitive email, so please let the People Team ([people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)) know if you do not receive it.
 
 #### US Teammates - links to bookmark
+
 - [Rippling](https://app.rippling.com/login?next=%2Fdashboard) - Benefits, Payroll
 - [Carta](https://carta.com/) - Equity
 - [Human Interest](https://app.humaninterest.com/login) - 401k
