@@ -382,6 +382,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Partnering with your Sourcer](talent/process/identifying_candidates.md)
   - [Using external recruiting agencies](talent/process/identifying_candidates.md#recruiting-agencies)
   - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md)
+- [Candidate rejection reasons in Greenhouse](talent/process/candidate-rejection-reasons.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ### Interviewing
