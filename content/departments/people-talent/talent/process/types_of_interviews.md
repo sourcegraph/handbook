@@ -205,7 +205,7 @@ The goal of the assignment is to give you a chance to demonstrate how you think,
 
 The technical interview should be approximately:
 
-- 25 min for questions from Nicky and Dan M
+- 25 min for questions from Manager and VP 
 - 10 min questions from you to us
 - 10 min to discuss a short take-home project (3 min presentation and 7 min discussion)
 
