@@ -25,7 +25,6 @@ To provide responses to requests, Cody does the following:
 1. Cody fetches relevant code snippets.
    1. Unlike Copilot, Cody knows about all your company’s private code and fetches snippets directly relevant to you.
    2. Sourcegraph uses a combination of code search, code graph (SCIP), intelligent ranking, and an AI vector database to respond with snippets that are relevant to the user's request.
-   3. If OpenAI embeddings are NOT on, then a search is ran locally to provide context.
 1. Sourcegraph passes a selection of these results along with the original question to a Large Language Model like Claude or OpenAI’s ChatGPT.
 1. The Large Language Model uses the contextual info from Sourcegraph to generate a factual answer and sends it to Cody.
 1. Cody then validates the output of the Large Language Model and sends the answer back to the user.
@@ -121,7 +120,7 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
 
 - Prerequisites
   - See [docs]()
-  - Approval of [Cody terms](https://about.sourcegraph.com/terms/cody-notice). The very first step is to make sure customers can agree to terms and know that Cody uses third-party services (Anthropic and optionally OpenAI). There is **no paperwork required**: customers will agree to terms by turning Cody on in the admin UI. But we need to make sure that they are aware and have the right expectations.
+  - Approval of [Cody terms](https://about.sourcegraph.com/terms/cody-notice). The very first step is to make sure customers can agree to terms and know that Cody uses third-party services (Anthropic and OpenAI). There is **no paperwork required**: customers will agree to terms by turning Cody on in the admin UI. But we need to make sure that they are aware and have the right expectations.
 - Instructions for Cloud customers
   - See the cloud team [handbook](../../../cloud#managed-instance-requests) (“Enable Cody on a Managed Instance”)
   - Also see the [customer facing docs](https://docs.sourcegraph.com/cloud#cody)
@@ -132,11 +131,9 @@ For the first demo, we recommend that Technical Success takes the lead. As your 
     - Head to the [anthropic console](https://console.anthropic.com/account/keys)
     - Click “generate key”
     - Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure.
-  - If the customer/prospects wants to setup embeddings, you'll have to generate an OpenAI key for them, using the [OpenAI console](https://platform.openai.com/account/api-keys). Ask in #it-tech-ops if you don't have access.
+  - Until we launch our cloud embeddings, you'll also have to generate an OpenAI key for the customer (to create OpenAI embeddings) using the [OpenAI console](https://platform.openai.com/account/api-keys). Ask in #it-tech-ops if you don't have access.
 - Adoption strategy
   - Cody Enterprise Use the MI hostname as the key name - the instance url is more accurate from MI's perspective, and we don't store customer's name directly anywhere in our Cloud infrastructure. sending code snippets out to a third party provider, Anthropic.
-  - On top of that, and **optionally**, customers can set up OpenAI embeddings to improve the quality of context fed to Cody and the quality of Cody answers. We want to optimize for the path to least resistance in getting a prospect up and running so we recommend CEs ignore embeddings _initially_ when talking to prospects, because that requires sending out their entire codebase (or at least all the repos they want to search) to OpenAI and this will likely either be a blocker or raise the need for additional reviews / approvals. TAs, however, should feel comfortable discussing this option early with customers given the relationship and agreements we already have in place. But, if embeddings are going to slow or block progress we should consider them as a follow-on.
-  - We should focus on getting them to turn on Cody, which only requires Anthropic.
 
 ### Prerequisites, dependencies, limitations
 
@@ -146,17 +143,17 @@ Yes. See [docs](https://docs.sourcegraph.com/cody/faq#does-cody-require-sourcegr
 
 #### Can Cody work with self-hosted Sourcegraph?
 
-Yes, Cody can work with self-hosted Sourcegraph instances. It's important to note that Cody on self-hosted Sourcegraph has third-party dependencies:
+Technically, Cody can work with self-hosted Sourcegraph instances **but there are strict requirements set by the product team**. Check with the product team for current requirement and the exception process. It's important to note that Cody on self-hosted Sourcegraph has third-party dependencies:
 
 - snippets of code (up to 28 KB per request) will be sent to a third party cloud service (Anthropic) on each request. This will be fine for some security teams, but others may opt to wait for a version that does not require sending any code to a third party service.
-- if embeddings are used, the whole codebase (or at least a subset of repositories) will be sent to OpenAI.
+- the whole codebase (or at least a subset of repositories) will be sent to the embeddings endpoint (OpenAI or Sourcegraph Cloud)
 
 #### Are there third party dependencies?
 
 Yes:
 
-- Anthropic (mandatory) for the LLM
-- OpenAI (optional) for embeddings
+- Anthropic for the LLM
+- OpenAI for embeddings
 
 See details and security information below.
 
@@ -187,7 +184,7 @@ Please reference the [Cody notice](https://about.sourcegraph.com/terms/cody-noti
 
 Yes. Cody uses a third party large-language model. When a user asks Cody a question, Sourcegraph sends relevant code snippets out to a LLM cloud provider as context to generate answers.
 Our current third party large language model is provided by Anthropic. Anthropic has a zero-retention policy. Code snippets are only processed by Anthropic the length of time required to return the answer, and are removed permanently after that.
-Cody can also be setup to use embeddings. If setup, Cody will send data out to OpenAI.
+Cody can also be setup to use embeddings. Cody will send data out to OpenAI or the Sourcegraph cloud embeddings endpoint for the creation of embeddings.
 
 #### Are there any limitations of Cody supporting non-git code hosts?
 
