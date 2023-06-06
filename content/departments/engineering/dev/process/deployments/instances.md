@@ -66,7 +66,7 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 - Alerts: #alerts-dogfood-k8s
 - [Playbooks](./playbooks.md#k8ssgdevorg)
 
-## Cody Dev {#codydev}
+## Cody Dev
 
 This deployment was spun up to provide an instance that is always on our latest patch release. Because of Cody, the amount of functionality included in patch releases was more substantial, so we needed to be able to do more robust testing.
 
