@@ -31,7 +31,7 @@ Mutual separation conversations can be started in a variety of ways. For example
 
 If you initiate the conversation with your People Partner, be prepared to discuss the rationale for separating and think about potential alternatives to retain the Teammate, if appropriate. You (and/or your People Partner) may also need to meet with other stakeholders in order to determine the best course of action.
 
-If we decide to move forward, you will work closely with your People Partner to determine the Teammate’s last working day, effective separation date, [transition plan] and [communications](../../../../company-info-and-process/communication/announcements.md/#departures).
+If we decide to move forward, you will work closely with your People Partner to determine the Teammate’s last working day, effective separation date, [transition plan] and [communications](../../../../company-info-and-process/communication/announcements.md).
 
 You will lead the conversation with the Teammate in which you’ll set out the terms of their separation. Your People Partner will also attend this meeting. If the Teammate agrees to move forward, your People Partner will handle the remainder of the process, keeping you informed as necessary. They will also confirm when you are able to communicate the Teammate’s exit, as per our [Communicating Departures](../../../../company-info-and-process/communication/announcements.md/#departures) process.
 
@@ -39,7 +39,7 @@ Lastly, you will be assigned a number of tasks to action in Process Street, incl
 
 ## 3. Navigating an involuntary termination
 
-If a Teammate is involuntarily terminated, your People Partner will work closely with you throughout the process and provide guidance regarding their last working day, separation date, [transition plan] and [communications](../../../../company-info-and-process/communication/announcements.md/#departures). As each exit will be handled on a case-by-case basis, it is not possible to provide more in-depth guidance than the above. Involuntary terminations are sensitive, please handle them with care and discretion.
+If a Teammate is involuntarily terminated, your People Partner will work closely with you throughout the process and provide guidance regarding their last working day, separation date, [transition plan] and [communications](../../../../company-info-and-process/communication/announcements.md). As each exit will be handled on a case-by-case basis, it is not possible to provide more in-depth guidance than the above. Involuntary terminations are sensitive, please handle them with care and discretion.
 
 ## Communicating Departures
 
