@@ -1,8 +1,5 @@
 # Cloud Access Control Policy
 
-Policy Owner: Security Lead
-[Approved by](https://github.com/sourcegraph/handbook/pull/4820): Security Lead
-
 ## Introduction
 
 This Access Control Policy defines which Sourcegraph employees have access to each production asset and under which conditions. It is not in scope to define how to enforce these policies. It targets the Cloud product (formerly known as Managed Instances), running single-tenant Sourcegraph instances Docker Compose instances on GCP (later to be substituted by Kubernetes deployments on GKE).
@@ -156,3 +153,22 @@ Access to monitoring and telemetry data such as Grafana, etc.
 #### Sourcegraph instances
 
 - All teammates with automatic approval.
+
+## Exceptions
+
+Requests for an exception to this Policy must be submitted to the Security for approval.
+
+## Policy Compliance
+
+Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits.
+
+## Violations & Enforcement
+
+Any known violations of this policy should be reported to [report-policy-violation@sourcegraph.com](mailto:report-policy-violation@sourcegraph.com). Failure to follow this policy can result in disciplinary action, up to and including termination.
+
+**Policy Owner**: Head of Security
+
+| Version | Date        | Description              | Author          | Approved by |
+| ------- | ----------- | ------------------------ | --------------- | ----------- |
+| 1.0     | 08-Sep-2022 | First version            | André Eleuterio | Diego Comas |
+| 1.1     | 30-May-2023 | 2023 review - no updates | André Eleuterio | Diego Comas |
