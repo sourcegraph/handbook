@@ -12,3 +12,5 @@
 | Average Revenue Per User (ARPU) | ARR / Total number of committed users in a given period                                                                                                                                               |
 | Gross Renewal Rate %            | The dollar amount of ARR renewed divided by the total dollar amount of ARR up for renewal in a given period; excluding expansion IARR                                                                 |
 | Net Dollar Retention (NDR %)    | Dividing ARR balance at the end of a period by the ARR balance of the same group of customers at the beginning of the period, net of downsizes and cancellations and excluding ARR from new customers |
+| Gross ARR Retention %    | Dividing ARR balance at the end of a period by the ARR balance of the same group of customers at the beginning of the period, net of downsizes and cancellations and excluding ARR from new customers and expansions |
+| Contract Retention %    | The contract count renewed divided by the total contract count up for renewal in a given period  |
