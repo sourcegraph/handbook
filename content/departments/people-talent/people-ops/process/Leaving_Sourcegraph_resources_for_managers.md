@@ -33,7 +33,7 @@ If you initiate the conversation with your People Partner, be prepared to discus
 
 If we decide to move forward, you will work closely with your People Partner to determine the Teammate’s last working day, effective separation date, [transition plan] and [communications](../../../../company-info-and-process/communication/announcements.md).
 
-You will lead the conversation with the Teammate in which you’ll set out the terms of their separation. Your People Partner will also attend this meeting. If the Teammate agrees to move forward, your People Partner will handle the remainder of the process, keeping you informed as necessary. They will also confirm when you are able to communicate the Teammate’s exit, as per our [Communicating Departures](../../../../company-info-and-process/communication/announcements.md/#departures) process.
+You will lead the conversation with the Teammate in which you’ll set out the terms of their separation. Your People Partner will also attend this meeting. If the Teammate agrees to move forward, your People Partner will handle the remainder of the process, keeping you informed as necessary. They will also confirm when you are able to communicate the Teammate’s exit, as per our [Communicating Departures](../../../../company-info-and-process/communication/announcements.md#departures) process.
 
 Lastly, you will be assigned a number of tasks to action in Process Street, including removing the departing Teammate from the handbook. Please action these as soon as possible and connect with your People Partner if you have any questions.
 
@@ -43,9 +43,9 @@ If a Teammate is involuntarily terminated, your People Partner will work closely
 
 ## Communicating Departures
 
-When a Teammate leaves Sourcegraph, their departure is shared by their manager with the people they work most closely with (immediate Teammates, broader department, and cross-functional partners). More details on how to communicate departures, including templates, are outlined on the [Announcements handbook page.](../../../../company-info-and-process/communication/announcements.md/#departures)
+When a Teammate leaves Sourcegraph, their departure is shared by their manager with the people they work most closely with (immediate Teammates, broader department, and cross-functional partners). More details on how to communicate departures, including templates, are outlined on the [Announcements handbook page.](../../../../company-info-and-process/communication/announcements.md#departures)
 
-- **Director and above roles:** The Comms Team and People Partners will be more heavily involved with messaging development and comms strategy. This will likely include broader communication to the full company via #announcements. Please loop in your appropriate People Partner and Madison Clark (Internal Comms) via DM before comms are shared. The [Announcements handbook page ](../../../../company-info-and-process/communication/announcements.md/#departures)gives additional details on communicating these types of changes.
+- **Director and above roles:** The Comms Team and People Partners will be more heavily involved with messaging development and comms strategy. This will likely include broader communication to the full company via #announcements. Please loop in your appropriate People Partner and Madison Clark (Internal Comms) via DM before comms are shared. The [Announcements handbook page ](../../../../company-info-and-process/communication/announcements.md#departures)gives additional details on communicating these types of changes.
 
 **Cadence / Checklist:**
 
@@ -116,7 +116,7 @@ I’d love to stay in touch - you can reach me on LinkedIn [add link] or via ema
 
 **Q: I have questions about communicating a Teammate’s departure - where can I find more information on how to do so?**
 
-- **A**: Our Communications & People Teams have created guidance for [communicating departures ](../../../../company-info-and-process/communication/announcements.md/#departures)clearly and to appropriate audiences. This page also contains a list of FAQs specific to Teammate departures.
+- **A**: Our Communications & People Teams have created guidance for [communicating departures ](../../../../company-info-and-process/communication/announcements.md#departures)clearly and to appropriate audiences. This page also contains a list of FAQs specific to Teammate departures.
 
 **Q: Can you provide details about someone’s departure?**
 
@@ -140,7 +140,7 @@ I’d love to stay in touch - you can reach me on LinkedIn [add link] or via ema
 
 **Q: How soon after receiving a resignation should I communicate the news?**
 
-- _A:_ Information about communicating departures may be found on the [Announcements handbook page](../../../../company-info-and-process/communication/announcements.md/#departures). **Note:** Occasionally, abrupt departures warrant swift communication. In such cases, connect with your People Partner for assistance on communications.
+- _A:_ Information about communicating departures may be found on the [Announcements handbook page](../../../../company-info-and-process/communication/announcements.md#departures). **Note:** Occasionally, abrupt departures warrant swift communication. In such cases, connect with your People Partner for assistance on communications.
 
 **Q: How to kick off a backfill search**
 
