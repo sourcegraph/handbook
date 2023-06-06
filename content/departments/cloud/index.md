@@ -63,15 +63,6 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 - supporting customers smaller than [X1](https://docs.google.com/document/d/1jJq_-arjzjsBDFWV5VlHi01KrxTXYd8NV5UV-fmMtCE/edit#bookmark=id.kjizf2bpwb0f) ARR
 - optimizing cost below [X2](https://docs.google.com/document/d/1jJq_-arjzjsBDFWV5VlHi01KrxTXYd8NV5UV-fmMtCE/edit#bookmark=id.pqt5n89wdcan) $/month
 
-## Roadmap
-
-The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/d/1H01OTNxXb2eobXLtgypJueVxqSz8Dh0IkgY9x5F8cBg/edit#gid=0).
-
-### Q3FY23 goals
-
-- Support the initiative to [make the Cloud a preferred deployment method](https://docs.google.com/document/d/1IUFb2JkwqdLCf8B-FkiF40PyAFg50xfWnB6gQO2ViRQ/edit) from the platform and infrastructure perspective
-- [Cloud v2](https://docs.google.com/document/d/1GiOPJjuYrUahrZnENSLUCsujo2MCu2v_gw23SKNzE6E/edit#) - migrate current the Cloud (managed instances) from single-VM, Docker Compose based architecture to multi-node, GKE based architecture
-
 ## How to contact the team and ask for help
 
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
