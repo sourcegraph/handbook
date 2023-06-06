@@ -5,7 +5,7 @@ We value the contributions of every Teammate, and are committed to providing the
 This guide applies to all Teammates globally, including temporary and part-time contractors. Please reach out to the People Team ([people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)) if you require further guidance.
 
 - Resources for Teammates (&lt;-- you are here)
-- [Resources for Managers](https://docs.google.com/document/d/1IGPWnYOZTknxPZLgGZULJEjzDFBuRa77LyufAzttEBA/edit#heading=h.exe40mn701hw)
+- [Resources for Managers](Leaving_Sourcegraph_resources_for_managers.md)
 - [Resources for People Team](https://docs.google.com/document/d/13dkDp2P-f1GGotxONdObB918TybxYFDK4t6N0avcpPo/edit)
 
 ## **Ways a Teammate can leave us**
