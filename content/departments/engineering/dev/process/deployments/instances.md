@@ -66,17 +66,6 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 - Alerts: #alerts-dogfood-k8s
 - [Playbooks](./playbooks.md#k8ssgdevorg)
 
-## Cody Dev
-
-This deployment was spun up to provide an instance that is always on our latest patch release. Because of Cody, the amount of functionality included in patch releases was more substantial, so we needed to be able to do more robust testing.
-
-Cody Dev gets deployed hourly with the latest commit on the current release branch. It is set up to have access to various LLM providers so it can be used for Cody testing.
-
-- [Cody Dev](https://cody-dev.sgdev.dev/) - also at [go/cody-dev](https://go/cody-dev
-- [Troubleshoot and access](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-35c4eac008b3c659327c/dashboard.md) - also at [go/cody-dev-ops](https://go/cody-dev-ops)
-- [Monitor rollout or forceully trigger an upgrade](https://github.com/sourcegraph/cloud/actions/workflows/mi_upgrade_cody.yml) - also at [go/cody-dev-deploy](https://go/cody-dev-deploy)
-- [GCP project](https://console.cloud.google.com/home/dashboard?project=cody-dev)
-
 ## Managed instances
 
 [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
@@ -107,3 +96,14 @@ This deployment is a [managed instance](../../../../cloud/index.md) used by Dist
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
 - [Operations](../../../../cloud/technical-docs/operations.md)
+
+### Cody Dev
+
+This deployment was spun up to provide an instance that is always on our latest patch release. Because of Cody, the amount of functionality included in patch releases was more substantial, so we needed to be able to do more robust testing.
+
+Cody Dev gets deployed hourly with the latest commit on the current release branch. It is set up to have access to various LLM providers so it can be used for Cody testing.
+
+- [Cody Dev](https://cody-dev.sgdev.dev/) - also at [go/cody-dev](https://go/cody-dev
+- [Troubleshoot and access](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-35c4eac008b3c659327c/dashboard.md) - also at [go/cody-dev-ops](https://go/cody-dev-ops)
+- [Monitor rollout or forceully trigger an upgrade](https://github.com/sourcegraph/cloud/actions/workflows/mi_upgrade_cody.yml) - also at [go/cody-dev-deploy](https://go/cody-dev-deploy)
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=cody-dev)
