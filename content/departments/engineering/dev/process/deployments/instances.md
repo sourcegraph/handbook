@@ -4,6 +4,7 @@ Information about Sourcegraph's different instances.
 
 - [sourcegraph.com](instances.md#dotcom) (or 'DotCom') is our public, free-to-use deployment.
 - [k8s.sgdev.org](instances.md#k8ssgdevorg) is a dogfood deployment that replicates the scale of our largest on-prem customers. This deployment also contains all of our private code.
+- [cody-dev.sgdev.dev](instances.md#codydev) is a dogfood deployment that always runs the latest patch release. It was originally created for Cody testing but can be used for any patch release testing.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demosourcegraphcom) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanagedsourcegraphcom) is a managed instance used for managed instances development.
@@ -64,6 +65,17 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
 - Alerts: #alerts-dogfood-k8s
 - [Playbooks](./playbooks.md#k8ssgdevorg)
+
+## Cody Dev {#codydev}
+
+This deployment was spun up to provide an instance that is always on our latest patch release. Because of Cody, the amount of functionality included in patch releases was more substantial, so we needed to be able to do more robust testing.
+
+Cody Dev gets deployed hourly with the latest commit on the current release branch. It is set up to have access to various LLM providers so it can be used for Cody testing.
+
+- [Cody Dev](https://cody-dev.sgdev.dev/) - also at [go/cody-dev](https://go/cody-dev
+- [Troubleshoot and access](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-35c4eac008b3c659327c/dashboard.md) - also at [go/cody-dev-ops](https://go/cody-dev-ops)
+- [Monitor rollout or forceully trigger an upgrade](https://github.com/sourcegraph/cloud/actions/workflows/mi_upgrade_cody.yml) - also at [go/cody-dev-deploy](https://go/cody-dev-deploy)
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=cody-dev)
 
 ## Managed instances
 
