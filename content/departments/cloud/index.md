@@ -353,4 +353,5 @@ More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJ
 - **Public Code Host** is the code host that is publicly accessible on internet - a user can CURL it via IP or open the URL in the browser. This also includes a code host with a public interface but restricts access to IP allowlist. The Sourcegraph instance can access this code host without using VPC Peering, VPN or other methods. Of course, accessing this code host is protected by authentication and authorization mechanisms
 
 ### FAQ: How do I figure out the GCP Project ID for a customer?
+
 To identify the Project ID for a given customer, refer to the table found at http://go/cloud-ops.
