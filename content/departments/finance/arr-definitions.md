@@ -189,6 +189,7 @@ Existing Sourcegraph customer (Customer A) closed a one-year subscription on Dec
 - November 30, 2022, ARR balance = $150,000
 
 **Partnership-related ARR guidance:**
+
 - Channel partnership/referrals influenced ARR is recognized, net of fees.
 - Cloud partnership influenced ARR is recognized, gross of fees, with a cap set at 8%.
 - ISV & Codehost partnership ARR is recognized as is - given there are no fees.
