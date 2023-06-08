@@ -26,7 +26,7 @@ We provide two different types of training: one for managers and one for ICs. Wh
 
 Teammates complete harassment training annually on their anniversary at Sourcegraph. New hires complete training within their first two weeks 30 days of hire as part of their onboarding.
 
-In August 2022, we are asking all Teammates to complete the training. Starting in January 2023, Teammates will be assigned a refresher training on their anniversary date. Training must be completed within 2 weeks of being assigned.
+In 2023, we are asking all Teammates to complete the annual training. Starting in January 2024, Teammates will be assigned a refresher training on their anniversary date. Training must be completed within 2 weeks of being assigned.
 
 ### How do I complete harassment prevention training?
 
