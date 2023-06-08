@@ -39,7 +39,7 @@ Before you jump in and start building projects and sending inmails, become famil
 - [How Recruiters and Sourcers partner together](how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-recruiters)
 - [How Recruiters and Sourcers partner with Hiring Managers](how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-hiring-managers)
 
-### How to create LinkedIn Recruiter projects for new job openings:
+### How to create and manage LinkedIn Recruiter projects for new job openings:
 
 - **Step 1**: The Recruiter or Sourcer will [create the project](https://www.linkedin.com/help/recruiter/answer/a417035/create-a-project-in-recruiter-and-recruiter-lite?lang=en) for a new job opening (be sure to coordinate with each other to avoid duplication of effort).
 - **Step 2**: The Recruiter or Sourcer will name the project so that project collaborators know exactly which role this project is for.
@@ -51,7 +51,8 @@ Before you jump in and start building projects and sending inmails, become famil
 - **Step 3**: Under **Project Settings > Project Details**, the Recruiter or Sourcer will add relevant information gathered from the intake call, such as scope of work, ideal experience, etc. This is to create a point of reference for project collaborators.
 - **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Hiring Manager, Recruiting Operations Specialist/Sourcer, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
 - **Step 5**: Recruiter, Sourcer, and Hiring Manager (optional depending on bandwidth) discuss a [LinkedIn engagement strategy](linkedin.md#engagement-strategy) and draft 7 messages in accordance with the suggestions in [Building a 7 Touch Recruiting Campaign](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit). They should utulize the [standard naming convention](linkedin.md#how-to-name-your-messaging-templates-in-linkedin-recruiter) for all messages.
-- **Step 6**: Recruiter and Sourcer will start running high quality searches
+- **Step 6**: Recruiter and Sourcer will start running high quality searches and add qualified candidates to the project.
+- **Step 7**: Starting on the day that the recruiter sends the first outreach to the candidates, they will set a recurring weekly calendar reminder to follow up with the candidates in that particular project. One week later, the recruiter will send the 2nd touchpoint. One week after that, they will send the 3rd, and so on until they've sent 7 touchpoints. 
 
 ### How to name your messaging templates in LinkedIn Recruiter
 
