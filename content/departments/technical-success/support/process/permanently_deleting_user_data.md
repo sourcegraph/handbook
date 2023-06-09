@@ -31,10 +31,10 @@ _If no teammates with site admin access are available, then notify the customer 
 
 3. Locate the user at e.g. https://sourcegraph.com/site-admin/users?query=theusername, click the three dots under the `Actions` column and select the 'Delete Forever' option:
 
-<img width="933" alt="image" src="https://user-images.githubusercontent.com/3173176/136848800-f31e214a-0025-4e15-8be3-0b6caf9e3e92.png">
+<img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-forever-action.png">
 
 4. Select OK on the warning prompt that appears:
 
-<img width="394" alt="image" src="https://user-images.githubusercontent.com/3173176/136848928-d474b16d-a80f-4bfe-be20-3e64c6d3a254.png">
+<img width="394" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-forever-check.png">
 
 5. All data associated with that user has now been deleted!
