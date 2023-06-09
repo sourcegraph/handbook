@@ -2,10 +2,6 @@
 
 The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
 
-## Members
-
-{{generator:product_team.content_platform}}
-
 ## Our Strategy
 
 [Mission & Vision](../../../../strategy-goals/strategy/content-platform/index.md)

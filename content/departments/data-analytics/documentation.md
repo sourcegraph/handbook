@@ -8,6 +8,9 @@ A list of the various user definitions, engagement metrics, NPS, and technical h
 
 ## Documentation
 
+[Cody](cody_analytics.md):
+An overview of Cody analytics and data tracking and reporting mechanisms.
+
 [Product-led growth](product-led-growth.md):
 An overview of product-led growth and the analytics and tracking we have in place.
 
@@ -19,6 +22,9 @@ An overview of web traffic data and metrics definitions (session, referrer, UTM 
 
 [Customer Data Policy](customer-data-policy.md):
 How we treat customer data at Sourcegraph.
+
+[Event-level data](event-level-data.md):
+What event level data do we track.
 
 # How to
 

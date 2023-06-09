@@ -5,9 +5,9 @@ Google drive is the main repository for sales resources and the sales folder can
 ## Frequently Requested Files
 
 - [Sourcegraph Contract Packet for Customers](https://drive.google.com/file/d/1w0utoZD0bXEgZXRRa1n8cNguZ1IAITWv/view?usp=sharing)
-- [Sourcegraph W9](https://drive.google.com/u/0/uc?id=1M_facxwZwfVU0iAP7rXemPcZNkwjL8Dn&export=download)
+- [Sourcegraph W-9](https://drive.google.com/u/0/uc?id=1M_facxwZwfVU0iAP7rXemPcZNkwjL8Dn&export=download)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download)
-- [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download) To add a customer's name to our COI, reach out to Steve.Moore@newfront.com with the customer's request and information and cc legal@sourcegraph.com.
+- [Insurance Certificate](https://drive.google.com/file/d/1B5qXi8KFlFZZ9-chVlO1P7XOy_4AfV7Y/view?usp=sharing) To add a customer's name to our COI, reach out to Steve.Moore@newfront.com with the customer's request and information and cc legal@sourcegraph.com.
 - [Corporate Information for Customer/Vendor/Partner Questionnaires](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
 
 Please reach out to Deal Desk if you require assistance in completing the vendor onboaring process for our new customers, or if you require any information that is not included above. You can forward any correspondence to dealdesk@sourcegraph.com, or you can connect with the Deal Desk team on the #deal-desk channel. Where a vendor directs you to complete vendor onboarding templates, or complete detail on a vendor onboarding portal, deal desk are happy to assist.
@@ -20,6 +20,7 @@ Order Forms and MSAs:
 
 - [Sourcegraph Cloud (Managed Instance) MSA](https://docs.google.com/document/d/1pOktD4-MdZcJOU4hbKLfqpkN2UsH259N/edit)
 - [Sourcegraph On-Prem MSA](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/edit)
+- [Sourcegraph CPQ Order Form](https://docs.google.com/document/d/1lh2kNzlrKXky6CzHypyrohzkoi7YrxE0PcAo4jf915Y/edit)
 - [Sourcegraph Code Intelligent Platform Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
 - [Sourcegraph Enterprise Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
 - [Sourcegraph Offline Order Form and MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)

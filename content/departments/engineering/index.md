@@ -55,7 +55,7 @@ The following functional teams work across the above dev teams:
 
 ## Slack channels
 
-- #engineering
+- #team-engineering
 - #eng-announce
 - #eng-leads
 - #ask-engineering

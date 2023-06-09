@@ -5,7 +5,7 @@ We value the contributions of every Teammate, and are committed to providing the
 This guide applies to all Teammates globally, including temporary and part-time contractors. Please reach out to the People Team ([people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)) if you require further guidance.
 
 - Resources for Teammates (&lt;-- you are here)
-- [Resources for Managers](https://docs.google.com/document/d/1IGPWnYOZTknxPZLgGZULJEjzDFBuRa77LyufAzttEBA/edit#heading=h.exe40mn701hw)
+- [Resources for Managers](Leaving_Sourcegraph_resources_for_managers.md)
 - [Resources for People Team](https://docs.google.com/document/d/13dkDp2P-f1GGotxONdObB918TybxYFDK4t6N0avcpPo/edit)
 
 ## **Ways a Teammate can leave us**
@@ -102,6 +102,12 @@ The exit interview is broken into two steps:
 
 - **US Teammates:** Your medical, dental, and vision benefits will remain active through the end of the month in which your employment ends. You will receive an email from Rippling within two weeks of your termination date, regarding options for continuation of coverage under[ COBRA](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra). This is an important/time sensitive email, so please let the People Team ([people-team@sourcegraph.com](mailto:people-team@sourcegraph.com)) know if you do not receive it.
 
+#### US Teammates - links to bookmark
+
+- [Rippling](https://app.rippling.com/login?next=%2Fdashboard) - Benefits, Payroll
+- [Carta](https://carta.com/) - Equity
+- [Human Interest](https://app.humaninterest.com/login) - 401k
+
 #### How long do I have to exercise vested options?
 
 - See [here](../../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph) for further details.
@@ -112,7 +118,7 @@ The exit interview is broken into two steps:
 
 #### Do I need to return my equipment?
 
-- [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate. Please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
+- [Laptops can be purchased](../../../tech-ops/process/buyback.md) by all leavers, at a discounted rate, please see here for further details. However, if you do not wish to purchase your laptop, you will need to ship it back to us. Instructions are provided in offboarding follow-up emails. In either scenario, please contact [techops@sourcegraph.com](mailto:techops@sourcegraph.com)<span style="text-decoration:underline;">,</span> via email or in the [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) Slack channel prior to your shut off date, in order to schedule a wipe of your laptop. If this does not happen before then, the device will remain locked and unusable.
 
 #### What should I do if I am an Airbase cardholder?
 

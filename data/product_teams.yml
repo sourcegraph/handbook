@@ -43,7 +43,6 @@ code_insights:
   brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
   strategy_link: /strategy-goals/strategy/code-insights/index.md
   em: chris_pine_code_insights
-  pmm: victoria_yunger
   issue_labels:
     - team/code-insights
 
@@ -90,15 +89,6 @@ repo_management:
   em: diego_comas_repo
   issue_labels:
     - team/repo-management
-
-content_platform:
-  title: Content Platform Team
-  brief: The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
-  strategy_link: /strategy-goals/strategy/content-platform
-  pm: steve_yegge
-  em: steve_yegge
-  issue_labels:
-    - team/content-platform
 
 security:
   title: Security

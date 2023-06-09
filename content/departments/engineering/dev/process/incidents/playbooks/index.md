@@ -286,6 +286,48 @@ select pg_terminate_backend(pid), now() - pg_stat_activity.query_start AS durati
 
 In each case, the column containing the results of the `pg_*_backend(pid)` call will have a `t` for successes and an `f` for failures. Note that even a terminated process may not disappear instantaneously. (Failures should not happen if your database role is a superuser, which is the configuration we document and support, and is what we use on prod.)
 
+#### Cancel auto vaccuum
+
+Auto vacuum can sometimes run for a long time and hold a lock on a table, which blocks other queries or applications like migrator from running if they want to alter the table. You can safely kill the auto vacuum with the following queries:
+
+1. Get the pid of the auto vacuum
+
+```
+select pid, now() - pg_stat_activity.query_start AS duration, query, state from pg_stat_activity where (now() - pg_stat_activity.query_start) > interval '1 minute';
+   pid   |        duration        |                                           query                                            | state
+---------+------------------------+--------------------------------------------------------------------------------------------+--------
+ 1357675 | 01:20:17.586733        | -- query hash: 2912539462                                                                 +| active
+         |                        | -- query length: 270 (0 args)                                                             +|
+         |                        | -- (could not infer source)                                                               +|
+         |                        | AlTER TABLE codeintel_ranking_definitions ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ;+|
+         |                        | AlTER TABLE codeintel_ranking_references ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ; +|
+         |                        | AlTER TABLE codeintel_initial_path_ranks ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ;  |
+ 1457786 | 4 days 06:28:14.352962 | autovacuum: VACUUM public.codeintel_ranking_definitions (to prevent wraparound)            | active
+     312 | 01:19:07.321368        | SELECT                                                                                    +| active
+         |                        |     CURRENT_CATALOG AS datname,                                                           +|
+         |                        |     r.relname AS relname,                                                                 +|
+         |                        |     pg_total_relation_size(r.oid) AS bytes,                                               +|
+         |                        |     pg_relation_size(r.oid) AS relsize,                                                   +|
+         |                        |     pg_indexes_size(r.oid) AS indexsize,                                                  +|
+         |                        |     pg_total_relation_size(r.reltoastrelid) AS toastsize                                  +|
+         |                        | FROM pg_class r                                                                           +|
+         |                        | JOIN pg_namespace n ON n.oid = r.relnamespace                                             +|
+         |                        | WHERE                                                                                     +|
+         |                        |     r.relkind = 'r' AND n.nspname NOT IN ('pg_catalog', 'information_schema');            +|
+         |                        |                                                                                            |
+(3 rows
+```
+
+2. From the above output, the auto vacuum has the pid 1457786 which we will use to cancel the auto vacuum. We cancel the query instead of terminating it, since cancel is considered safer.
+
+```
+SELECT pg_cancel_backend(1457786);
+ pg_cancel_backend
+-------------------
+ t
+(1 row)
+```
+
 #### Check/fix migration table
 
 When migrations run, the `schema_migrations` table is updated to show the state of migrations. The `dirty` column indicates whether a migration is in-process, and the `version` column indicates the version of the migration the database is on or converting to. On startup, frontend will abort if the `dirty` column is set to true. (The table has only one row.)

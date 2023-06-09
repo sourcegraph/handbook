@@ -38,17 +38,18 @@ Keep in mind, temporary contractors’ start date should align with the cohort c
 
 ### Onboarding
 
-**Short term contractors** will not go through an onboarding process, and are not announced at the company meeting, given that they are considered an external partner and their stint is not long-term. They will be granted access to necessary systems (i.e. Gmail, Slack, etc.) based on the needs of the role, but they will not participate in a formal onboarding process.
+**Short term contractors** will not go through an onboarding process, and are not announced at the company meeting or given swag, given that they are considered an external partner and their stint is not long-term. They will be granted access to necessary systems (i.e. Gmail, Slack, etc.) based on the needs of the role, but they will not participate in a formal onboarding process.
 
-**Temp to perm contractors** will go through the same (or slightly modified) onboarding process that new teammates go through. This is in an effort to create a positive and thorough onboarding process for anyone who may potentially become a permanent teammate. This way, this potential future teammate is fully equipped with the necessary knowledge and connections to be a successful Sourcegraph teammate that can easily integrate with the team and company expectations should they join permanently.
+**Temp to perm contractors** will go through a modified version of the onboarding process that full time teammates go through. This is in an effort to create a positive and thorough onboarding process for anyone who may potentially become a permanent teammate. This way, this potential future teammate is fully equipped with the necessary knowledge and connections to be a successful Sourcegraph teammate that can easily integrate with the team and company expectations should they join permanently.
 
-Keep in mind, the onboarding process includes the onboarding checklist and resources, but also all of the onboarding activities, such as introducing new teammates in the company meeting, Meet&Greet, New teammate happy hour, one-month check in with People Ops, Onboarding Feedback Milestones and more.
+Keep in mind, the onboarding process includes the onboarding checklist and resources, but also all of the onboarding activities, such as introducing new teammates in the company meeting, Onboarding Feedback Milestones and more.
 
 ### Tools
 
 **Short term contractors** will have limited access to our Slack (they will only be added as "multi-channel guests") and will only be added to the specific channels designated by the Hiring Manager and will only be added to the specific tools required by the role and team. This goes for GitHub as well, they will only be added to specific repositories designated by the Hiring Manager. Short term contractors will not have access to Greenhouse and Lattice.
 
 **Temp to perm contractors** will have access to the same basic tools permanent teammates have access to with the exception of GitHub, where they will solely have access to necessary repositories.
+Hourly teammates are manually added into Lattice, along with start date, manager, department, and title
 
 ### Budget
 
@@ -58,4 +59,16 @@ Keep in mind, the onboarding process includes the onboarding checklist and resou
 
 ### BambooHR
 
-BambooHR is our source of truth. Everyone who works for Sourcegraph, no matter the type of employment, must have a profile in BambooHR. Which means anyone who engages a contractor, **must notify People Operations of the contractor**.
+BambooHR is our source of truth. All contractors who work for Sourcegraph must have a profile in BambooHR, but are not given BambooHR access or sent an onboarding kit.
+BambooHR profile only needs:
+
+- Legal and Preferred first and last name
+- Teammate personal email and work email
+- Start Date
+- State/Country
+- Time Zone and Region
+- Employment Status
+- Job Info: Role Title, Department, Cost Center, Hiring Manager
+  - Typically no division
+- Compensation info
+  - Typically no options, bonuses, or commission

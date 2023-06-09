@@ -54,7 +54,7 @@ The follow describes our expectations for how Managers champion a culture of con
 
 ##### Regular 1:1s
 
-We **expect Managers** to host regular, recurring 1:1s with their team. 1:1s are a great forum tp facilitate ongoing, direct communication, engagement, and trust-building between Managers and their direct reports. We highly recommend that Managers meet with their direct reports either weekly or bi-weekly.
+We **expect Managers** to host regular, recurring 1:1s with their team. 1:1s are a great forum to facilitate ongoing, direct communication, engagement, and trust-building between Managers and their direct reports. We highly recommend that Managers meet with their direct reports either weekly or bi-weekly.
 
 We **expect Teammates** to ask for critical feedback and whether they are meeting or exceeding expectations during every 1:1. There should never be any question with respect to how a Teammate is performing, and whether or not they are meeting expectations.
 

@@ -14,9 +14,9 @@ This policy describes the rules for the acquisition and development of software 
 
 ## **System Change Control Procedures**
 
-Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures. Change control procedures and requirements are described in the Sourcegraph Operations Security Policy.
+Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures.
 
-Significant code changes must be reviewed and approved by at least one other Sourcegraph employee before being merged into any production branch in accordance with Sourcegraph SDLC policy.
+Significant code changes must be reviewed and approved by at least one other Sourcegraph employee before being merged into any production branch.
 
 ## **Software Version Control**
 
@@ -70,43 +70,9 @@ Sourcegraph will measure and verify compliance to this policy through various me
 
 Any known violations of this policy should be reported to [report-policy-violation@sourcegraph.com](mailto:report-policy-violation@sourcegraph.com). Failure to follow this policy can result in disciplinary action, up to and including termination.
 
-**Policy Owner:** Security Engineering Manager
+**Policy Owner:** Head of Security
 
-<table>
-  <tr>
-   <td><strong>Version</strong>
-   </td>
-   <td><strong>Date</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-   <td><strong>Author</strong>
-   </td>
-   <td><strong>Approved by</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>1.0
-   </td>
-   <td>29-Apr-2022
-   </td>
-   <td>First Version
-   </td>
-   <td>Diego Comas
-   </td>
-   <td>Diego Comas
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+| Version | Date        | Description   | Author          | Approved by |
+| ------- | ----------- | ------------- | --------------- | ----------- |
+| 1.0     | 29-Apr-2022 | First version | Diego Comas     | Diego Comas |
+| 1.1     | 30-May-2023 | 2023 review   | André Eleuterio | Diego Comas |

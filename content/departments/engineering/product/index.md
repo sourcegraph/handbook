@@ -12,8 +12,8 @@ You can reach us at the #ask-product channel or @product-team on Slack. If you h
 ## Roadmap & Strategy
 
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
-- [Roadmap tracker](https://docs.google.com/spreadsheets/d/1566aEzzW0em8t-9aY9zSjDEaDPmiaJHX3jMt8xbGQq8/edit#gid=0)
-- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
+- [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/302/views/18)
+- The [PMM roadmap deck](https://docs.google.com/presentation/d/1BRgZ9cuwFmmmRBqfnz61NKsZkmH5WqGBlUO4sWyJwFo/edit#slide=id.g1df8462b1e6_0_0) (internal only) which contains upcoming and recently launched important customer-facing features
 
 ### Roadmap principles
 
@@ -25,6 +25,8 @@ Here are the principles we apply for our roadmap:
 
 - **Focus on the direction and high level 1-year narrative**. This helps our customers understand what problems we want to solve for them, independently of the specific feeatures we're building.
 - **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](../job-fair.md) cycle, and smaller updates as changes happen during a cycle.
+  - The roadmap includes experimental, beta and GA features, as defined in [docs](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
+  - We aim for 90% confidence in our 3-month roadmap: typically, out of 10 planned features, 1 will be dropped.
 - **Best effort 6-month+ roadmap for enterprise readiness**. For mature features, we strive to build a longer-term roadmap for enterprise-readiness
 
 Examples:
@@ -39,7 +41,6 @@ Examples:
 
 ## Feature matrices
 
-- [Features by maturity](tools/feature_maturity.md)
 - [Features by code host compatibility](tools/feature_compatibility.md)
 - [Features by deployment options](tools/deployment_options.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)

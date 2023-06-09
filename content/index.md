@@ -54,12 +54,14 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [Slack guidelines](company-info-and-process/communication/team_chat.md)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
+- [Company Calendar](https://calendar.google.com/calendar/render?cid=c_3f34e49a02208b4b854804745d4eb54b73a4c5fa7b8c67e50657cf918cdc9fff@group.calendar.google.com)
 - [Handbook](handbook/index.md)
   - [Editing the handbook](handbook/editing/index.md)
   - [Recent handbook diffs](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/handbook%24+type:diff)
 - Team
   - [Team bios](team/index.md)
   - [Org chart](team/org_chart.md)
+- [Equality of opportunity](company-info-and-process/equality-of-opportunity.md)
 
 ## Departments
 
@@ -131,7 +133,6 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
   - [Travel benefits](benefits-pay-perks/benefits-perks/travel/index.md)
   - [Time off](benefits-pay-perks/benefits-perks/time-off/index.md)
   - [Mental health](benefits-pay-perks/benefits-perks/mental-health/index.md)
-- [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
 - [Mentorship](company-info-and-process/mentorship/index.md)
 - [Policies](company-info-and-process/policies/index.md)
 - [Contact and business information](company-info-and-process/about-sourcegraph/general-office-info.md)

@@ -117,3 +117,5 @@ You can read more about each step of the PIP process below:
    - If the Teammate’s performance does not improve to the necessary level, the Manager will work with their People Partner to part ways amicably.
 
 [^1]: This can vary depending on the situation, please work with your People Partner.
+
+**IMPORTANT NOTE:** If a teammate has 2 PIPs in a 12-month period, they will not be eligible for another PIP over the next 12 months after the succefull completion of the second PIP. If their performance is not sustained in alignment with the expectations outlined in the recap of the PIP outcome, they may be subject to immediate termination.

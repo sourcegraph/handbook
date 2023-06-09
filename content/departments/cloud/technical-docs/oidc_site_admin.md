@@ -4,7 +4,7 @@ Sourcegraph teammates access to Cloud instances application interface (Web UI) i
 
 The Cloud team manages a separate Cloud Okta account (separate from the company-wide Sourcegraph Okta account) to manage UI access to Cloud instances. The Cloud Okta account is federated by the parent Sourcegraph Okta account to ensure access control is consistent across all our systems. For example, if an account is deactivated from the Sourcegraph Okta account, the user will loss access to Cloud Okta as well.
 
-Each Cloud instance equals to an Okta OAuth application. For each Okta application, an Okta group is created and assign access to the Okta application. By default, no teammate has UI access to any customer Cloud instances, hence the Okta group is empty. We will then grant time-bound access to the group as needed.
+Each Cloud instance equals to an Okta application. For each Okta application, an Okta group is created and assign access to the Okta application. By default, no teammate has UI access to any customer Cloud instances, hence the Okta group is empty. We will then grant time-bound access to the group as needed.
 
 You can learn more about the detail from the following RFCs:
 
@@ -21,20 +21,27 @@ Every instance has a default Sourcegraph admin user added during the [instance i
 
 > WARNING: Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
 
-> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules/#sharedList/1670019946529-Michael-shared-list-12-2-2022) on the sign-in page of any managed instance.
+> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules#sharedList/1683145438462-Sourcegraph-Operator-Login) on the sign-in page of any managed instance.
 
-Please visit go/cloud-ops to locate the instance you would like to access, and follow the instruction under `Log in to the instance UI` section.
+Please visit go/cloud-ops to locate the instance you would like to access, and follow the instruction under **Log in to the instance UI** section.
 
 ### UI access to private managed instances
 
 > NOTE: The steps described here is a current workaround until we have properly implemented an auth proxy solution.
 
-Private managed instances refer to managed instances that [have enabled private mode](./v1.1/mi1-1_creation_process.md#optional-enable-private-mode), additonal steps are required to be able to visit the instance UI after you have completed the steps to grant UI access.
+Private managed instances refer to managed instances that [have enabled private mode](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/cloud%24+content:%22public:+false%22&patternType=standard&sm=0&groupBy=path), additonal steps are required to be able to visit the instance UI after you have completed the steps to grant UI access.
 
-1. [Set up a port forwarding to the managed instance](./operations.md#port-forwarding):
+1. Go to the directory of the instance, e.g. `environments/prod/deployments/src-96ed006bb45d656784e4`
+1. Set up the cluster credentials:
 
-   ```sh
-   mi forward 80 4444
+   ```
+   mi2 instance workon -exec
+   ```
+
+1. Pick any of the `sourcegraph-frontend` pods for port forwarding:
+
+   ```
+   kubectl port-forward sourcegraph-frontend-{hash} 4444:3080
    ```
 
 1. Visit http://localhost:4444/sign-in?sourcegraph-operator
@@ -63,7 +70,7 @@ SOAP creates special user accounts that are refered as "Sourcegraph operators", 
 
 Sourcegraph operators often have the prefix `sourcegraph-operator-` in their usernames, however, having such username prefix does not automatically make those users become Sourcegraph operators.
 
-To pull out the list of Sourcegraph operators on a given managed instance, [set up a Cloud SQL proxy to the managed instance](./operations.md#accessing-the-cloud-sql).
+To pull out the list of Sourcegraph operators on a given managed instance, first visit go/cloud-ops to locate the instance you would like to access, then follow the instruction under the **Connect to the database** section.
 
 Run the following SQL query:
 
@@ -76,7 +83,7 @@ WHERE users.id IN (
 
 ### How to identify user activities of Sourcegraph operators on a managed instance?
 
-To pull out user activities of Sourcegraph operators on a given managed instance, [set up a Cloud SQL proxy to the managed instance](./operations.md#accessing-the-cloud-sql).
+To pull out user activities of Sourcegraph operators on a given managed instance, first visit go/cloud-ops to locate the instance you would like to access, then follow the instruction under the **Connect to the database** section.
 
 Run the following SQL query for event logs:
 
@@ -92,25 +99,9 @@ SELECT * FROM security_event_logs WHERE argument @> '{"sourcegraph_operator": tr
 
 ### How to enable/disable SOAP for a managed instance?
 
-Go to the `$CUSTOMER` direcotry.
-
-For v1 instances:
-
-1. Remove or add the following line in the `config.yaml` file to enable or disable SOAP respectively:
-
-   ```yaml
-   disableSourcegraphManagementAccess: true
-   ```
-
-1. Update the GSM value of the secret `CLOUD_SITE_CONFIG` by running `mi sync cloud-site-config`.
-1. Pull down the new GSM value to the VM by running `terraform apply` or trigger an apply on the Terraform Cloud.
-1. [Reload the manage instance](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml).
-
-For v2 instances:
-
 <!-- TODO(@michaellzc): update docs after it is implemented -->
 
-Disabling SOAP is currently not supported on v2.
+All managed instances have SOAP enabled and disabling is currently not supported on v2. Double check with the customer before trying to request UI access.
 
 ### How to enable SOAP locally?
 

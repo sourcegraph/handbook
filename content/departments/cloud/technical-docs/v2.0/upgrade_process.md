@@ -2,7 +2,19 @@
 
 <span class="badge badge-note">SOC2/CI-108</span>
 
-## Option 1 - automated upgrade
+First, create the upgrade tracking issue. Following the instruction provided by the command below.
+
+```sh
+mi2 env create-tracking-issue -e prod $TARGET_VERSION
+```
+
+## Option 1 - GitHub Action
+
+An automated upgrade can be initiated via the [Upgrade Instance](https://github.com/sourcegraph/cloud/actions/workflows/mi_upgrade.yml) GitHub action workflow.
+
+A pull request will be created and link to the upgrade tracking issue automatically upon successful completion of the job run.
+
+## Option 2 - Batch automate upgrade
 
 ### To upgrade a specific instance
 
@@ -77,7 +89,7 @@ cat upgrade-prs.txt | xargs -n1 gh pr merge --squash
 
 Finally, update the tracking issue.
 
-## Option 2 - manual upgrade
+## Option 3 - Manual upgrade
 
 ### Prereq
 

@@ -102,7 +102,7 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+- **Create a Cloud instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%255BCUSTOMER+NAME%255D)]
   - For new customers or prospects who currently do not have a managed instance.
   - After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
 - **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
@@ -117,10 +117,11 @@ Customer Engineers (CE) or Sales may request to:
   - For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
 - **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
-- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
+- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)]
   - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
-- **Enable Cody on a Managed Instances** - [[Issue Template]](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)
+- **Enable Cody on a Managed Instances** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)]
   - To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
+- **Enable custom domain on a Managed Instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/add-custom-domain&template=managed-instances-custom-domain.md&title=Add+custom+domain+to+%5BCUSTOMER%5D+Instance)]
 
 #### Workflow
 
@@ -219,6 +220,15 @@ kubectl rollout restart deployments/sourcegraph-frontend
 ### FAQ: Do you support custom domain?
 
 Yes. Learn more about [custom domain support](./technical-docs/custom_domain.md).
+
+### FAQ: Does Cloud support SSBC and precise code navigation?
+
+Yes. All Cloud instances have executors enabled by default (varies concurrency limit depends on the deal size).
+
+Key facts:
+
+- [SSBC](https://docs.sourcegraph.com/batch_changes/explanations/server_side) is enabled by default
+- [Auto-indexing](https://docs.sourcegraph.com/code_navigation/explanations/auto_indexing) are enabled on all repos by default so customer can benefit from [precise code navigation](https://docs.sourcegraph.com/code_navigation/explanations/precise_code_navigation). However, this relies on [inference](https://docs.sourcegraph.com/code_navigation/explanations/auto_indexing_inference) to work on the customer repo. For unsupported repo or repo that uses private registry (e.g., private NPM), the customer will have to work with Support or #ask-code-intel to figure out the custom auto-indexing configuration.
 
 ### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
 
@@ -344,18 +354,4 @@ More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJ
 
 ### FAQ: How do I figure out the GCP Project ID for a customer?
 
-The best way to determine the project ID for a given customer is to look up the customer in the `deploy-sourcegraph-managed` repo using the following query on S2:
-
-```
-repo:^github\.com/sourcegraph/deploy-sourcegraph-managed$ file:config\.yaml lang:yaml customer: :[_\n]
-```
-
-The `customer` field should allow you identify the correct GCP project. If it's still unclear, a Cloud team member can help on Slack in the [#cloud](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel.
-
-Alternatively, users with `gcloud` access can run:
-
-```
-gcloud projects list --filter='labels.mi-security=true' --format="json(projectId,labels)"
-```
-
-and search the results for the customer name. The `domain` field should include the customer's domain name allowing the project ID to be identified.
+To identify the Project ID for a given customer, refer to the table found at http://go/cloud-ops.

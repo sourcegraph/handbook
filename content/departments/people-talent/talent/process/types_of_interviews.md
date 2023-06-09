@@ -205,7 +205,7 @@ The goal of the assignment is to give you a chance to demonstrate how you think,
 
 The technical interview should be approximately:
 
-- 25 min for questions from Nicky and Dan M
+- 25 min for questions from Manager and VP
 - 10 min questions from you to us
 - 10 min to discuss a short take-home project (3 min presentation and 7 min discussion)
 
@@ -214,77 +214,99 @@ Project:
 - We have a fully remote team. Tech Ops wants to ensure that our Team Members are appropriately protected from security threats. As part of the onboarding process we want to provide all new hires with a Security Checklist. What would you put on this checklist?
 - Please be prepared to present this recommendation on a detailed level in 3 minutes.
 
-## Customer Support (Leadership)
+## Technical Success
 
-### Hiring Manager
+### Support Engineering (Leadership)
 
-During this interview you will meet with the hiring manager on the team. They will seek to gain an understanding of your customer-facing experience. Specifically, your pre-sales technical experience as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
-
-### Cross-Functional Peer Collaboration
-
-You'll meet with a potential peer in an adjacent team with whom we want to understand how you build relationships and partner with other leaders and how you manage across adjacent teams.
-
-### Technical Interview
+#### Technical Interview
 
 As a leader for a technical team, we'll get a sense of how you approach technical problems and challenges as well as your working knowledge of the developer ecosystem.
 
-### Leadership & Team Management with 2 IC team members
+#### Leadership & Team Management with 2 IC team members
 
 You'll meet with two individual contributors on the team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
-## Customer Engineering (Individual Contributor)
+### Customer Engineering (Individual Contributor)
 
-### Hiring Manager Interview
+#### Live Panel Demo and Q&A
 
-During this interview you will meet with the hiring manager on the Customer Engineering team. They will seek to gain an understanding of your customer-facing experience. Specifically, your pre-sales technical experience as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
+**Goal:** Assess presentation skills and technical understanding
 
-### Take Home & Live Interview with a Customer Engineer
+**What we’re measuring**
 
-For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities—it’s connected to public GitHub repositories. We’ll use this instance to guide the live project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team. You'll also have a chance to ask them questions about the role, team, and company!
+- Ability to lead a compelling product demonstration
+  - Ability to use the notes given
+  - Focusing on value and not just features
+- Ability to perform discovery, and both manage and engage participants
+- Ability to write code and illustrate developer empathy
 
-### Panel interview: live product demonstration
+**Interview structure**
 
-For this interview, you'll meet with several members of the team to lead a live product demonstration.
+- 20-30 minute live demo for a prospect based on notes from account team
+- 5-10 minute Q&A from interviewer on technical topics
+- 10 minute open Q&A from the candidate
 
-### Enterprise Technical Advisor Leadership Panel Interview
+**20-30 minute live demo scenario prompt**
 
-The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios and demonstrate how you have handled those situations in the past.
+You have been tasked with designing and presenting a 20-30 minute **discovery & demo** session for a prospect.
 
-The prompt and instructions below will help you prepare for this session. The interview itself will run for 60 mins: 50 mins for the interview content (agenda driven by you) with 10 mins of general Q&A at the very end. Each prompt should last approximately 12 mins. The agenda of the meeting will run as follows:
+For the demo, use sourcegraph.com - it's our free open source version of our product with millions of open source repositories on it from GitHub & GitLab. Below are some raw notes from the AE & SDR’s first call. You are encouraged to do additional discovery during the session.
 
-- 0-2 mins: Intros
-- 2-14 mins: Prompt 1
-- 14-26 mins: Prompt 2
-- 26-38 mins: Prompt 3
-- 38-50 mins: Prompt 4
-- 50-60 mins: Feedback and Q&A
+**Raw notes**
 
-**Note:** Keeping the timing of the interview is your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. Visual aids are recommended, but not required, to help keep the conversation on track.
+<span style="text-decoration:underline;">Team Size</span>:
 
-**Interview Prompts**
+- Planet Express is a shipping logistics tech company with 1000 developers
+- 250 engineers came from a recent acquisition
 
-A summary of the 4 prompts are provided below:
+<span style="text-decoration:underline;">Tech Stack</span>:
 
-1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do? Please provide practical examples of how you have built champions like this in the past.
-2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets? Please provide practical examples of times when you have been able to put these strategies into action.
-3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why. Please provide practical examples of how your QBR's have gone in the past.
-4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential? Please provide practical examples of times you have been able to identify these situations that led to a successful customer expansion.
+- Most of their code is in GitLab
+  - They also have code in GitHub from an acquisition
+- Mostly run on microservices but have a legacy app that is a large monorepo
+- Languages used:
+  - “Just about everything” including Python, Java, Go, Javascript, etc
 
-## Customer Engineering (Leadership)
+<span style="text-decoration:underline;">Developer Productivity</span>:
 
-### Hiring Manager Screen
+- Since the acquisition there has been a deep focus on code reuse practices
+  - new developers are currently “reinventing the wheel”
+- Slowed down hiring => focus on developer productivity / do more with less
+- Due to the acquisition and migration projects, their devops team has spent a lot of time making small changes across many different configurations
 
-During this stage of the interview, you will meet with the hiring manager. During this conversation they'll seek to understand both your exposure to a technical product and audiences and how you lead in a fast-growth organization.
+<span style="text-decoration:underline;">Compliance</span>:
 
-### Cross-Functional Peer Collaboration
+- Write a script that can be run monthly which will create a list of users in the Sourcegraph instance, ordered by the number of search activities that they have performed. This will be used for auditing purposes to watch for abnormal usage spikes
 
-You'll meet with a potential peer in an adjacent team with whom we want to understand how you build relationships and partner with other leaders and how you manage across adjacent teams.
+<span style="text-decoration:underline;">Security</span>:
 
-### Leadership & Team Management with 2 IC CEs
+- After the acquisition, they need to go through and audit third party libraries to make sure they meet compliance requirements
+- Leadership is committed to security practices. “need to up level tooling”
+
+<span style="text-decoration:underline;">Management Initiatives</span>:
+
+- Migrate all code to GitLab from GitHub
+- Improve code security practices
+- Increase productivity by reusing code
+
+**Demo Tips**
+
+- Remember, don’t focus too much on specific features or how to navigate the UI, it is more important to describe the value of solving these problems with Sourcegraph and how it will help the prospect.
+- There is always more information to gain from the prospect, ask questions!
+- Here are some repos you could use
+  - [https://sourcegraph.com/github.com/sourcegraph/sourcegraph](https://sourcegraph.com/github.com/sourcegraph/sourcegraph)
+  - [https://sourcegraph.com/gitlab.com/gitlab-org/gitlab-runner](https://sourcegraph.com/gitlab.com/gitlab-org/gitlab-runner)
+  - [https://sourcegraph.com/github.com/vuejs/vue](https://sourcegraph.com/github.com/vuejs/vue)
+  - Or use any repo or language you feel comfortable with.
+- We don’t expect you to make slides - this can be more conversational and product-focused.
+
+### Customer Engineering (Leadership)
+
+#### Leadership & Team Management with 2 IC CEs
 
 You'll meet with two individual contributors on the CE team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
-### Customer Engineering Leadership Working Session
+#### Customer Engineering Leadership Working Session
 
 For this interview round, you will have a 45-min long working session with the Customer Engineering leadership team. This working session is intended to give us a sense of what it’d be like to work together and help us understand what impact you’d make on the organization right away and get a sense of what new ideas you have for improving our team. The format of this working session is very laid back; bring any notes, prepared talking points, or visual cues that you feel are useful, and be prepared to discuss your ideas with interviewers. Of course feel free to ask questions during the session, too! Plan to spend roughly 30 minutes on the topic in an open, collaborative manner, and leave 15 minutes at the end for you to ask questions of the team.
 
@@ -344,6 +366,38 @@ Time in Stage 4 (Trial)
 
 - Goal: 30 days
 - Actual: 49 days
+
+### Enterprise Technical Advisor
+
+#### Leadership Panel Interview
+
+The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios and demonstrate how you have handled those situations in the past.
+
+The prompt and instructions below will help you prepare for this session. The interview itself will run for 60 mins: 50 mins for the interview content (agenda driven by you) with 10 mins of general Q&A at the very end. Each prompt should last approximately 12 mins. The agenda of the meeting will run as follows:
+
+- 0-2 mins: Intros
+- 2-14 mins: Prompt 1
+- 14-26 mins: Prompt 2
+- 26-38 mins: Prompt 3
+- 38-50 mins: Prompt 4
+- 50-60 mins: Feedback and Q&A
+
+**Note:** Keeping the timing of the interview is your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. Visual aids are recommended, but not required, to help keep the conversation on track.
+
+**Interview Prompts**
+
+A summary of the 4 prompts are provided below:
+
+1. **Champion Building:** A key part of the Technical Advisor (Customer Success) role is identifying, building, and nurturing champions. What types of strategies have you, or would you, employ to build and nurture champions? What would you do - what actions would you take - if your existing champion left? How would you strategize with your AE to nurture your champion relationships; what would you expect your AE to do vs what would you do? Please provide practical examples of how you have built champions like this in the past.
+2. **Account Corrective Actions:** While we intend to be as proactive as possible, monitoring and inspecting accounts is a reality of our role. What would your approach be to various kinds of corrective actions that you identify? For example, what if use has declined over the past 3 months? What if our points of contact no longer want to talk or meet with us on a regular basis? What if you’re seeing that your customer has had an influx of support tickets? Please provide practical examples of times when you have been able to put these strategies into action.
+3. **QBRs**: As the team responsible for ensuring we’re delivering value and positive outcomes to our customers we expect to utilize regular business reviews with our champion stakeholders. Talk us through your expected agenda and what other internal stakeholders from Sourcegraph might you want to include in these, and why. Please provide practical examples of how your QBR's have gone in the past.
+4. **Identifying Expansion Opportunities:** A significant part of responsibility for this role will be identifying expansion opportunities based on uncovering new needs within our existing customers. What strategies would you employ personally to uncover and identify potential opportunity areas where we can solve new and additional problems for our customers? When thinking about qualifying a lead or opportunities what criteria would you personally use to assess the potential? Please provide practical examples of times you have been able to identify these situations that led to a successful customer expansion.
+
+### Technical Advisor (Leadership)
+
+#### Leadership & Team Management with 2 ICs
+
+You'll meet with two individual contributors on the TA team to learn about how you build relationships within a team and how you lead, mentor, and develop others.
 
 ## Engineering
 

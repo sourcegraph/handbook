@@ -154,16 +154,15 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 
 ## Promotions
 
-At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is currently working to develop a custom promotion gift, but in the meantime, managers are responsible for recognizing promoted teammates by:
+At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is responsible for sending a custom promotion gift to promoted teammates, and managers are responsible for recognizing promoted teammates by:
 
-- [Sending a Loop & Tie gift!](celebrate.md#loop--tie) - we recommend $150
-- Sending a Slack in `#teammate-announce` and cross-post in `#thanks`. At minimum, these posts should cover:
+- Sending a Slack in `#announce-teammate-hires` and cross-post in `#thanks` after promotions have been announced in the company kickoff meeting. At minimum, these posts should cover:
   - recognizing the hard work of the individual being promoted
   - providing insight into the individual’s new responsibilities
   - how the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)
   - serving as aspirational to others who strive to be promoted in the future
 - Sample Slack message:
-  - Hi Team! I am thrilled to announce that (TEAMMATE NAME) has been promoted to (NEW TITLE)! For the past (PERIOD OF TIME), (TEAMMATE NAME) has been responsible for (PREVIOUS ROLE/RESPONSIBILITIES/ACCOMPLISHMENTS) that have resulted in (BUSINESS IMPACT/OUTCOME). Going forward, (TEAMMATE NAME) will bring (their/his/her) knowledge, skills and experience into their new role as (NEWLY PROMOTED TITLE) doing (NEWLY PROMOTED RESPONSIBILITIES). Please join me in congratulating (TEAMMATE NAME) on (their/his/her) well-deserved promotion and wish (them/him/her) best of luck in (their/him/her) new role!
+  - Hi Team! I am thrilled to announce that [TEAMMATE NAME] has been promoted to [NEW TITLE/LEVEL]! For the past {PERIOD OF TIME], [TEAMMATE NAME] has been responsible for [PREVIOUS ROLE/RESPONSIBILITIES/ACCOMPLISHMENTS] that have resulted in [BUSINESS IMPACT/OUTCOME]. Going forward, [TEAMMATE NAME] will bring (their/his/her) knowledge, skills and experience into their new role as [NEWLY PROMOTED TITLE/LEVEL] doing [NEWLY ROLE RESPONSIBILITIES IF ANY]. Please join me in congratulating [TEAMMATE NAME] on their well-deserved promotion and wish them best of luck in their new role!
 
 ## Growing family
 

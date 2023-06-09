@@ -880,6 +880,29 @@
                 "type": "Point",
                 "coordinates": [144.963056, -37.813611]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shivasurya Sankarapandian"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.523911, 43.464951]
+            }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "name": "Nelson Araujo"
+          },
+          "geometry": {
+            "coordinates": [
+              -122.03538631262782,
+              47.684910219715846
+            ],
+            "type": "Point"
+          }
         }
     ]
 }

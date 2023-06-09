@@ -113,3 +113,16 @@ Remember, no one should ever blindly approve a PR. It is always up to the review
 The GitHub "stampers" team is a group of reviewers who can be reached for reviewing PRs across multiple time zones. This team is particularly helpful when you need a review urgently, for example, when fixing the main branch early in the morning. By being part of the "stampers" team, you are not only helping to ensure smooth and efficient PR approvals but also fostering a culture of thorough and responsible reviewing.
 
 To join the stampers, drop a message on #ask-engineering or #dev-chat, and someone will add you.
+
+## 5. Cody-related PRs
+
+Cody-related PRs are a bit special because we want to release Cody often, without breaking our Search product. For a near-term solution, we’ve decided to tag each Cody-related PR with either `backport 5.0` or `confirm-no-backport`.
+
+What you as an engineer need to do:
+
+- Remember that it may not always be clear-cut what “Cody-related” means. Use your best judgment.
+- For the same reason, this process can’t be easily automated. → There is unfortunately no reminder to add the label.
+- When creating a PR, **assign one of the labels**. (Forgot it? You can do it even after merging. Unsure which one to add? Ask around for opinions.)
+- If your PR is labeled for backporting, **backport soon** after merging, to catch the next patch.
+- If you see a Cody-related PR without a label, **send a friendly ping** to the author. If it’s an OSS contribution, add the label yourself.
+- **Think QA:** We switched from a monthly release cadence to quarterly + biweekly patches to improve the quality of our search product. With the above-suggested process, Cody kind of abuses patch releases. Be mindful of this, and in your PRs, be conservative if you see that your changes could interfere with the main product.

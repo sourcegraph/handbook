@@ -21,7 +21,7 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | 2023-02-03 to 2023-03-03 | [Beatrix Woo](https://github.com/abeatrix), [Jacob Pleiness](https://github.com/jdpleiness) ,[Manuel Ucles](https://github.com/mucles)        |
 | 2023-03-03 to 2023-04-05 | ?                                                                                                                                             |
 | 2023-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
-| 2022-05-05 to 2023-06-05 | [Gary Lee](https://github.com/gl-srgr), [Taras Yemets](https://github.com/taras-yemets)                                                       |
+| 2023-05-05 to 2023-06-05 | [Gary Lee](https://github.com/gl-srgr) [AMER], [Taras Yemets](https://github.com/taras-yemets) [EMEA]                                         |
 
 ## Benefits
 
@@ -128,3 +128,7 @@ This is a temporary rotation so EEs continue to report to their existing enginee
 ### As an escalation engineer, what happens when I'm not on rotation anymore to the things I did?
 
 The standard approach to ownership applies here: you're owning the solution and if you don't want to or can't anymore, you're expected to find a new owner.
+
+### What are the availability expectations for EEs?
+
+Escalation engineers are expected to be available during their normal working hours. They are entitled to normal time off (PTO, sick days, etc) and should not be expected to be available during those times. However, we try to pick EEs so that they are not away for long periods during their rotation, and also in a way that they cover normal AMER and EMEA hours as a pair.

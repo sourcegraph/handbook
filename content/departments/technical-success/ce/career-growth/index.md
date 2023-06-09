@@ -160,7 +160,7 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       </td>
       <td class="behaviors">
         <ul>
-          <li>Trial & Technical Win: Able to build a clear and comprehensive trial plan (with complete success criteria) and technical design document. Leads the customer technical evaluations entirely self-directed.</li>
+          <li>Trial & Technical Win: Able to build a clear and comprehensive trial plan (with complete success criteria), including in situations of non-standard and high-risk requirements. Leads the customer technical evaluations entirely self-directed.</li>
           <li>Delivery: Ensures timely resolution of issues by managing technical support responses and escalations, communicating priority and urgency appropriately.</li>
           <li> Value: Applies Sourcegraph Value Framework throughout the sale, tying activities back to outcomes and value.</li>
           <li>Internal Impact: Creates and shares content based on customer needs.</li>
@@ -210,7 +210,7 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       </td>
       <td class="behaviors">
         <ul>
-          <li>Trial & Technical Win: Able to design a phased trial plan and technical design documents against complex customer needs. Negotiates and influences scope, plan, and design according to best practices with proven risk mitigation.</li>
+          <li>Trial & Technical Win: Able to design a phased trial plan against complex customer needs. Negotiates and influences scope, plan, and design according to best practices with proven risk mitigation.</li>
           <li>Delivery: Works with cross-functional teams to align product solutions to meet customer needs in complex scenarios and resolves integration issues as part of initial technical win. Ensures timely resolution of technical issues by coordinating across multiple internal stakeholders to ensure successful resolution of customer needs.</li>
           <li>Value: Applies Sourcegraph's Value Framework to influence higher close rates are seen (with unsuccessful ops qualified out earlier).</li>
           <li>Internal Impact: Anticipates a need or disconnect by which custom content can clarify and progress the relationship, delivering against the need.</li>

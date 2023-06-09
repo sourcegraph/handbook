@@ -33,7 +33,7 @@ Effective February 1, 2023, SDRs are responsible for the initial follow up and q
 3. If lead is from AE-owned/named account, lead is routed to the Outbound SDR owner of that account.
 4. If lead is from unnamed account, lead is routed to Inbound SDR.
 5. SDR lead owner follows up with lead to qualify interest and schedule introductory call with appropriate AE & CE.
-6. If it is determined that a trial managed instance is appropriate for the prospect, the CE requests a trial via the [Trial Managed Instance Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
+6. If it is determined that a trial managed instance is appropriate for the prospect, the CE requests a trial via the [New Cloud instance issue template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%255BCUSTOMER+NAME%255D)
 
 ## New Trial Managed Instance create SLA (since 27th of September 2022)
 

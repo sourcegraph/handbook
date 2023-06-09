@@ -55,6 +55,7 @@ We use Google Workspace (previously known as G Suite) pack for office productivi
 - [Sheets](https://support.google.com/a/users/answer/9282959)
 - [Slides](https://support.google.com/a/users/answer/9282488)
 - [Forms](https://support.google.com/a/users/answer/9991170?visit_id=637907124835426610-3948163530&rd=1)
+- [Bard](https://support.google.com/bard/answer/13275745)
 
 ## Zoom
 

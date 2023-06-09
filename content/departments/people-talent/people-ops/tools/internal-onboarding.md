@@ -79,6 +79,8 @@ If the new teammate will be a people manager, confirm with the HM who the new te
 
 - Click ‘+Update Job Information’, select the new managers’ start date, enter the new managers’ name in, leave all other fields as-is, click ‘Save’.
 
+Note: Lattice and Continu are integrated with Bamboo and will auto-create users and auto-assign surveys/reviews/trainings based on teammates' start dates, role, and location.
+
 **Step 4: Send BambooHR Onboarding Kit**
 
 1. Open the new teammate’s BambooHR Profile, select the ‘More’ tab, then select ‘Onboarding’.
@@ -136,20 +138,6 @@ Open the new teammate’s BambooHR profile, click Settings, hover over ‘Bamboo
 
 - Do not do this before the new hire’s email address has been created
 - You need full admin access in BambooHR to complete this step. The People team can grant this access if needed.
-
-**Step 15: Assign Compliance training in Continu**
-Create user in Continu. Go to Admin → Users → Add User. Complete all fields except for Language and Level
-
-- Groups: It is important you add teammates to the correct groups. We use groups to create rules that assign courses. One person can be in more than one group, if that’s the case, please include all of them. These are the current groups:
-  - Manager
-  - Individual Contributor
-  - International
-  - People Ops
-
-Automatically assigned trainings:
-
-- The Security Awareness training is assigned to everyone automatically.
-- Preventing Harrassment and Discrimination training is assigned by rules based on location and role. All international teammates go through the “International” training. US teammates will be assigned a training based on role (IC or Manager) and state. Certain states have specific versions of the trainin, so it is important we add teammates to the correct Groups as the rule will check groups and state.
 
 **Step 16: Complete the People Ops - before day 1 section of the onboarding checklist**
 Confirm ALL People Ops - before day 1 tasks are marked as complete in Process St.

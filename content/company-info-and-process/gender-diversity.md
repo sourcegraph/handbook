@@ -16,11 +16,11 @@ The group is opt-in, so no one is required to join the cohort or stick around if
 
 Allies who want to listen and learn are also encouraged to join the group. We ask that allies take extra care to consider how and why they want to show up in the group as well as the space they are taking up as they participate in it. As an ally, it is healthy to feel uneasy, uncertain, or uncomfortable in these spaces, and we encourage allies to orient their “why” around this discomfort and resisting the tendency to center themselves when being present feels hard. If you are interested in exploring how you can better serve the group as an ally, here are two good places to start: [[1](https://careerfoundry.com/en/blog/career-change/ally-women-in-tech/)] [[2](https://greatergood.berkeley.edu/article/item/nine_tips_for_being_a_male_ally_at_work)].
 
-As with anything here, anyone who participates in the cohort is expected to abide by Sourcegraph’s [code of conduct](../communication/code_of_conduct.md).
+As with anything here, anyone who participates in the cohort is expected to abide by Sourcegraph’s [code of conduct](communication/code_of_conduct.md).
 
 ## What is the mission of the cohort?
 
-Supporting diversity at Sourcegraph does not start and end with diversifying the talent pipeline. The mission of this cohort is to embrace our value of “[be welcoming and inclusive](../values/index.md#be-welcoming-and-inclusive)” by amplifying the voices of those who are systemically minimized and pressured to leave the industry on account of their gender identity or gender expression. In practice, this translates primarily to promoting a community where it is safe to acknowledge our adversities, celebrate our victories, and come together over our shared experiences. This also means providing structure to facilitate cross-team interactions and connections, as well as advocating for resources, practices, and policies that promote inclusion and equity for folks of every gender identity here at Sourcegraph.
+Supporting diversity at Sourcegraph does not start and end with diversifying the talent pipeline. The mission of this cohort is to embrace our value of “[be welcoming and inclusive](values/index.md#be-welcoming-and-inclusive)” by amplifying the voices of those who are systemically minimized and pressured to leave the industry on account of their gender identity or gender expression. In practice, this translates primarily to promoting a community where it is safe to acknowledge our adversities, celebrate our victories, and come together over our shared experiences. This also means providing structure to facilitate cross-team interactions and connections, as well as advocating for resources, practices, and policies that promote inclusion and equity for folks of every gender identity here at Sourcegraph.
 
 This group serves the needs of its members first and foremost. However, other positive outcomes of the group may include:
 
@@ -33,7 +33,7 @@ This group serves the needs of its members first and foremost. However, other po
 
 ## How is the cohort operated?
 
-The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Carly Jones](../../team/index.md#carly-jones), VP of Talent and People.
+The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Carly Jones](../team/index.md#carly-jones), VP of Talent and People.
 
 The cohort primarily operates out of its public slack channel, #gender-diversity-allies. The cohort also has an opt-in private Discord server to function as a dedicated safe space for its members who aren’t participating as allies. The Discord server includes a channel for keeping in touch with alums from the group, as well.
 

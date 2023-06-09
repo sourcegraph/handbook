@@ -1,11 +1,5 @@
 # Security Incident Response Policy
 
-**Policy Owner:** security@sourcegraph.com
-**Policy Authors:** André Eleuterio, Dan Mckean, Feroz Salam
-**Approved by:** Diego Comas, Security Lead
-**Effective Date:** July 31st 2021
-**Last Revised:** July 1st, 2022
-
 ## Purpose
 
 This document establishes the plan for managing information security incidents and events, and offers guidance for employees or incident responders who believe they have discovered, or are responding to, a security incident.
@@ -93,14 +87,21 @@ Every employee and user of any Sourcegraph information resources has responsibil
 
 Sourcegraph management has approved this policy and commits to providing the resources, tools and training needed to reasonably respond to identified security events and incidents with the potential to adversely affect the company or its customers.
 
+## Contact information
+
+Contacts for IT and Engineering Management as well as executive staff and can be found in Sourcegraph’s Slack, on Bamboo, or in the Handbook.
+
 ## Exceptions
 
 Requests for an exception to this Policy must be submitted to and authorized by the Director of Platform and Infrastructure for approval. Exceptions shall be documented.
 
 ## Violations & Enforcement
 
-Any known violations of this policy should be reported to the Director of Platform and Infrastructure. Violations of this policy may result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
-## Contact information
+**Policy Owner:** Head of Security
 
-Contacts for IT and Engineering Management as well as executive staff and can be found in Sourcegraph’s Slack, on Bamboo, or in the Handbook.
+| Version | Date        | Description              | Author          | Approved by |
+| ------- | ----------- | ------------------------ | --------------- | ----------- |
+| 1.0     | 31-Jul-2021 | First version            | André Eleuterio | Diego Comas |
+| 1.1     | 30-May-2023 | 2023 review - no updates | André Eleuterio | Diego Comas |

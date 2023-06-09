@@ -125,7 +125,7 @@ The company’s ability to maintain a respectful workplace and prevent prohibite
 - directly to your People Partner (via email, Slack, or phone);
 - by emailing [People-ops@sourcegraph.com](mailto:People-ops@sourcegraph.com);
 - to [Legal@sourcegraph.com](mailto:Legal@sourcegraph.com); or
-- anonymously through [Convercent](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296) (more details on how to use Convercent [here](../communication/convercent.md).
+- anonymously through [Convercent](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296) (more details on how to use Convercent [here](communication/convercent.md).
 
 ### People Manager & Supervisor Reporting Obligations
 

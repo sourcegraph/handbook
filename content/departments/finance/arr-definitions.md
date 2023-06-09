@@ -21,8 +21,8 @@ Furthermore, if the Company enters into a multi-year contract with a customer an
 
 ### Defining Subscription Revenue:
 
-- Subscription revenue must be re-occurring; any one-time revenue/service does not qualify
-- Subscription revenue does include any on-going professional services
+- Subscription revenue must be re-occurring; any one-time revenue/service does not qualify.
+- Subscription revenue does include any on-going professional services; Managed Services and Premium support qualify as ARR as they contribute to the recurring revenue stream. Implementation services are categorized as a one-time sale and do not qualify as ARR as they are typically provided to set up or deploy a solution initially but do not have an ongoing, recurring nature.
 
 ### ARR Timing Recognition:
 
@@ -72,17 +72,20 @@ _Quota credit is subject for review in the event a customer churns in one month 
 
 ### Early Subscription Renewals
 
-- Sourcegraph supports early renewals as it (1) increases visibility in future revenue (2) reduces churn risk and (3) improves internal resource utilization / productivity
+- Sourcegraph supports early renewals as it (1) increases visibility in future revenue (2) reduces churn risk and (3) improves internal resource utilization / productivity.
 
-- An early renewal agreement requires an amend & extend commitment where a customer’s existing contract is completed in full and the renewal commitment is for 12+ months of service beginning on the subsequent day of a Customer’s existing contract’s end date.
+- An early renewal agreement requires an early termination of an existing contract with a revision to a new, 12+ month commitment.
 
-- An early termination of an existing contract with a revision to a new, 12+ month commitment requires VP of Finance and VP of Sales approval. Additionally, quota credit will be subject to review.
+- A credit is applied to the new License fee to reflect the days of unused service. Deal Desk approval is required.
+
+- ARR/IARR should be calculated as follows: Early Renewal Contract ARR - Current Contract ARR.
 
 ### Other Commercial Considerations and Proposed ARR Treatment:
 
 - Sourcegraph only sells contracts in increments of 12 months up to 36 months on an initial, new business customer commitment.
 
-  - Any other contract lengths, including sub-12 month contracts, will need deal desk approval and VP-level approval from both Finance and Sales. Finance believes this will help simplify our sales motion.
+  - Sub-12 month contracts, will need deal desk approval and VP-level approval from both Finance and Sales. Finance believes this will help simplify our sales motion.
+  - For >12 month contracts, not sold in increments of 12 months deal desk approval is required, as well as FP&A approval and VP-level approval from Sales.
   - For some large enterprise accounts with many subsidiaries, we expect to have multiple contracts. ARR recognition for these contracts is consistent with our outlined ARR guidance above. We will accept a sub-12 month contract with a subsidiary account as ARR if it is co-termed with a parent account's contract and (1) the parent account is a signing entity OR (2) the parent account provides written approval that the subsidiary's contract will be absorbed into the parent account’s contract upon renewal.
   - Allowing any other term lengths (such as a 13-month contract) may create confusion around the calculation of ARR and an administrative burden resulting in delayed delivery times for internal financials, increased costs and unexplainable volatility in our forecasts. Simply said, we want to align contract structuring as close as possible to our current systems and processes (currently limited at this point).
 
@@ -184,6 +187,12 @@ Existing Sourcegraph customer (Customer A) closed a one-year subscription on Dec
 - July 31, 2022, ARR balance = $100,000
 - August 1, 2022 ARR balance = $150,000
 - November 30, 2022, ARR balance = $150,000
+
+**Partnership-related ARR guidance:**
+
+- Channel partnership/referrals influenced ARR is recognized, net of fees.
+- Cloud partnership influenced ARR is recognized, gross of fees, with a cap set at 8%.
+- ISV & Codehost partnership ARR is recognized as is - given there are no fees.
 
 ### Process for communicating and reporting on, out of Period Adjustments
 

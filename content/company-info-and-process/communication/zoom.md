@@ -72,3 +72,13 @@ If you want to disable this option, you can change it in the advanced meeting se
 - Disable “Automated captions”, “Full Transcipt” and “Save Captions”
 
 <img width="918" alt="Settings" src="https://user-images.githubusercontent.com/64257673/173246420-9594bf2a-9dd4-4f75-b383-349cc0e9aca2.png">
+
+### Q&A feature in Zoom meetings
+
+**Users**
+When you join a scheduled meeting, you should see Q&A as an option in your Zoom menu bar. You can use this rather than the chat to submit questions. This feature allows hosts to organize questions, mark which questions have been answered, and you can up-vote other team members' questions to avoid duplicative questions.
+
+**Meeting Hosts**
+As the meeting host, you can modify several settings for Q&A. Because we’re a direct and open company, we recommend defaulting to non-anonymous Q&A and that all questions are visible to participants.
+
+- [Schedule and manage a meeting with Q&A](https://support.zoom.us/hc/en-us/articles/11400566807693-Using-Q-and-A-in-Zoom-Meetings)

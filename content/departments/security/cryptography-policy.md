@@ -1,8 +1,5 @@
 # Cryptography Policy
 
-- Policy Owner: Security Engineering Manager
-- Effective Date: 31-Jan-2022
-
 ## Purpose
 
 To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information. This policy establishes requirements for the use and protection of cryptographic keys throughout their entire lifecycle.
@@ -74,25 +71,15 @@ The following table includes the recommended usage for cryptographic keys:
 
 ## Exceptions
 
-Requests for an exception to this policy must be submitted to the #security slack channel for approval.
+Requests for an exception to this policy must be submitted to Security for approval.
 
 ## Violations & Enforcement
 
 Any known violations of this policy should be reported to the #security slack channel. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
 
-<table>
-  <tr>
-    <th>Version</th>
-    <th>Date</th>
-    <th>Description</th>
-    <th>Author</th>
-    <th>Approved by</th>
-  </tr>
-  <tr>
-    <td>1.0</td>
-    <td>27-Jan-2022</td>
-    <td>First Version</td>
-    <td>David Sandy</td>
-    <td>Diego Comas</td>
-  </tr>
-</table>
+**Policy Owner**: Head of Security
+
+| Version | Date        | Description              | Author          | Approved by |
+| ------- | ----------- | ------------------------ | --------------- | ----------- |
+| 1.0     | 27-Jan-2022 | First version            | David Sandy     | Diego Comas |
+| 1.1     | 30-May-2023 | 2023 review - no updates | André Eleuterio | Diego Comas |

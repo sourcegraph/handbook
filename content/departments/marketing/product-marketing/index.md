@@ -56,101 +56,43 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
    </td>
    <td>
 <ul>
-
-<li>Primary: Cloud
-
-<li>Secondary: Source, Security
+<li>Primary: Cody for Devs
 
 <li>Cross-product: Strategic
-  
 <li>Emerging products
-
 <li>Release comms
 </li>
 </ul>
    </td>
    <td>
 <ul>
-
 <li>Growth marketing
-
 <li>Demo
+<li>Developer competitive intel
 </li>
 </ul>
    </td>
   </tr>
+
   <tr>
-   <td><strong>Lindsay</strong>
-   </td>
-   <td colspan="2" >
-<ul>
-
-<li>Customer Advisory Board
-
-<li>Product Advisory Board
-
-<li>Customer stories 
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Lori</strong>
+   <td><strong>Eric</strong>
    </td>
    <td>
 <ul>
-
-<li>Primary: Code Search
+<li>Primary: Cody for Enterprise
 </li>
 </ul>
    </td>
    <td>
 <ul>
-
-<li>Primary: CE
-
-<li>Competitive intel
-
-<li>Professional services
-
-<li>Analyst relations
-
-<li>Pitch deck (support)
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Victoria</strong>
-   </td>
-   <td>
-<ul>
-
-<li>Primary: Graph
-
-<li>Cross-product: Code intelligence platform
-
+<li>Sales support
 <li>Customer-facing product roadmap
-</li>
-</ul>
-   </td>
-   <td>
-<ul>
-
-<li>Primary: Sales
-
-<li>Pitch deck (driver)
-
-<li>Platform positioning/category creation
-
-<li>Partner marketing
+<li>Enterprise competitive intel
 </li>
 </ul>
    </td>
   </tr>
 </table>
-
-Also see our [Q4 plan](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toySthUMvOxZnCtdw0/edit)
 
 ## Working with other teams
 

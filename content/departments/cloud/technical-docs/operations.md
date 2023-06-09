@@ -365,11 +365,14 @@ To modify label:
 
 ### Modifying IP Allowlists
 
-Customer provided IP Allowlists should be provided as either a single iPv4 ip address or a ipv4 CIDR.
-If provided as an ipv4 CIDR then the block MUST start at the beginning of the subnet.
-For example, `14.98.238.59/29` would be an invalid CIDR. It should start at the begining of the subnet
-The correct value would be: `14.98.76.90/30`
-https://cidr.xyz/ is a helpful site to ensure the host bits are all zero
+IP Allowlists should be provided by the customer as individual IPv4 addresses (ex. `142.250.217.110`) or IPv4 address ranges in CIDR notation (ex. `142.250.217.104/29`).
+If an address range is provided in CIDR notation, the range must be provided by the customer in a valid format, using the correct network address of the subnet before the slash, and the correct mask bits after the slash.
+For example, `142.250.217.110/29` is not a valid range, because the address provided is not the network address for this subnet. Subnets with 29 bit subnet masks are ranges of 8 IP addresses, and the network address is the first address of these 8, thus a binary multiple of 8. The correct CIDR notation for the `/29` subnet that includes `142.250.217.110` is `142.250.217.104/29`.
+[This](https://www.manageengine.com/products/oputils/ip-subnetting.html) is a decent introduction to CIDR subnetting.
+IP addressing is complex, typos are easy to make and hard to spot, and accuracy is imperative to protecting our customers, so we must validate the addresses we receive before we implement them.
+Enterprise network planning software, such as [SolarWind's subnet calculator](https://www.solarwinds.com/free-tools/advanced-subnet-calculator), is helpful to validate customer provided ranges.
+If the addresses we receive are not valid, we need customer confirmation of the corrected subnet before implementing it.
+It is critical that we use exact addresses that customers provided or agreed to, and PR reviews must catch any differences.
 
 For applying, follow the normal steps to apply terraform changes
 
