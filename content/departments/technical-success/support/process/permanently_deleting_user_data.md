@@ -29,7 +29,7 @@ _If no teammates with site admin access are available, then notify the customer 
    a. Confirm the email address shown matches the email address the request came from.
    b. Confirm the email address is marked as _verified_. If it is not, the request could be a malicious request and the user will need to sign into Sourcegraph and verify the email address in order for us to verify the account is owned by them before we can proceeed with deletion.
 
-3. Locate the user at e.g. https://sourcegraph.com/site-admin/users?query=theusername and select the 'Nuke' option:
+3. Locate the user at e.g. https://sourcegraph.com/site-admin/users?query=theusername, click the three dots under the `Actions` column and select the 'Delete Forever' option:
 
 <img width="933" alt="image" src="https://user-images.githubusercontent.com/3173176/136848800-f31e214a-0025-4e15-8be3-0b6caf9e3e92.png">
 
