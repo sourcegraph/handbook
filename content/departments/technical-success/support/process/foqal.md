@@ -10,9 +10,9 @@ This allows us to have an automated way to create tickets on Slack but keep our 
 Please post in #ask-customer-support and tell us what channel Support Agent needs to be added in and that this is for trial support.
 We will then confirm once its setup.
 
-> NOTE: The Slack admin on their end will need to accept the Support Agent app on their workspace in order for this to work. They do not have to pay for this just ensure it is allowed on their end.
+**For Support Admins:**
 
-**For Support:**
+> NOTE: You need to be an admin to do this if you don't have access reach out to your Manager or Lead and they will be able to assist.
 
 1. Join the channel that needs Support Agent enabled (ex. #customer-acme-sourcegraph)
 1. Go to the channel settings (top right) and under Integrations click `Add App`
@@ -30,11 +30,9 @@ We will then confirm once its setup.
 - Ignore Internal Messages - leave blank
 - Chat integration - Inherit from global settings
 - Request Types - leave blank
-- Channel Menu (click the button)
-  - Action - Disabled
   - The rest can be left as-is
 
-Once this is done customers will be able to create ticket by reacting to a message with the :admission_tickets: emoji.
+Once this is done customers will be able to create ticket by reacting to a message with the ❓ emoji.
 
 ## Setting up a new customer with Foqal for post-sales engagement
 
@@ -44,8 +42,6 @@ Once this is done customers will be able to create ticket by reacting to a messa
 
 Please post in #ask-customer-support and tell us what channel Support Agent needs to be added in.
 We will then confirm once its setup.
-
-> NOTE: The Slack admin on their end will need to accept the Support Agent app on their workspace in order for this to work. They do not have to pay for this just ensure it is allowed on their end.
 
 **For Support:**
 
