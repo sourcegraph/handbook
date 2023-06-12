@@ -72,6 +72,20 @@ In most circumstances, license keys match the renewal dates on an account contra
 3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags and user count as the existing key (make sure to comma separate each tag) and use the `"Active Contract Period End"` as the expiration date.
 4. Send the new license key to the customer (follow the process outlined below).
 
+## Revoking an active license
+
+In extreme circumstances, it may be required to revoke a customer's active Sourcegraph license. This will mark the license as invalid on Sourcegraph.com, and license verification checks from the customer's Sourcegraph instance will fail, ultimately disabling all Sourcegraph Enterprise features.
+
+To revoke an active license, follow these steps:
+
+1. Sign in to sourcegraph.com and visit the **Site-admin > Subscriptions** page.
+2. Navigate to the license that needs to be revoked.
+3. Click on the red **Revoke** button and provide a reason for the revocation.
+
+The next time the customer's instance performs a license verification check, the verification will fail and the customer's Enterprise features will be disabled.
+
+> Note: This will not work on licenses with the `allow-air-gapped` tag applied, as these license do not need to do any license verification checks.
+
 ## License Key Sharing Policy
 
 Within Sourcegraph we use 1Password for managing our credentials, including license keys. Follow these steps for safely sharing licensing credentials with customers.
@@ -111,6 +125,7 @@ First the tags that relate to license itself:
 - `plg-trial` to indicate that a Cloud trial managed instance has been requested through signup.sourcegraph.com.
 - `dev` for internal developer licenses
 - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
+- `allow-air-gapped` for licenses where periodic license verification is not required. This is essential for customers that run Sourcegraph in a sandboxed environment without an external internet connection.
 
 Second, the tags that enable specific features:
 
