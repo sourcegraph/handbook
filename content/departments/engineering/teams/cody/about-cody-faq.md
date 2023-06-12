@@ -49,7 +49,7 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 
 #### How is Cody different from GitHub Copilot?
 
-See our [internal comparison](https://docs.google.com/document/d/1EjWgnzoEHhJC-T3lRCeNQWNb-atrwd9qDKwjFZfpobM/edit). 
+See our [internal comparison](https://docs.google.com/document/d/1EjWgnzoEHhJC-T3lRCeNQWNb-atrwd9qDKwjFZfpobM/edit).
 
 ## Can Cody …?
 
