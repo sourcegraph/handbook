@@ -179,14 +179,14 @@ Redash allows you to:
 
 Redash is connected to our BigQuery data warehouse, so you'll be able to query any table that lives there. There are a lot of tables in our data warehouse and many may not be relevant. Here are the ones we'd suggest you use Redash to query. If you need data that doesn't live in one of these tables, you may want to reach out to our team so we can point you in the right direction.
 
-- dotcom_evemts.events: dotcom click data
-- dotcom_events.events_usage: managed instance data)
+- dotcom_events.events: dotcom click data
+- dotcom_events.events_usage: managed instance data
 - sourcegraph_analytics.update_checks: pings
 - dotcom_events.cody: all cody-specific event data
 
 ### **Is this for me?**
 
-This is really only useful for those who have experience with where our data lives and have strong understanding of SQL. If that is you, then this tool can enable you to answer one of questions and create simple charts. All other users will be better served by Looker and Amplitude
+This is really only useful for those who have experience with where our data lives and have strong understanding of SQL. If that is you, then this tool can enable you to answer one-off questions and create simple charts. All other users will be better served by Looker and Amplitude
 
 ### **How do I get access?**
 
