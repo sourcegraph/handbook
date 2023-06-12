@@ -114,7 +114,7 @@ The exit interview is broken into two steps:
 
 #### When will my system access be removed?
 
-- Sourcegraph accounts will typically be shut off on your last working day at 10pm UTC, unless a different approach is appropriate under the circumstances. The exact shut off date and time will be confirmed in your Offboarding email.
+- Sourcegraph accounts will typically be shut off on your last working day at 7pm UTC/noon PST, unless a different approach is appropriate under the circumstances. The exact shut off date and time will be confirmed in your Offboarding email.
 
 #### Do I need to return my equipment?
 
