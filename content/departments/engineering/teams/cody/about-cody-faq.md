@@ -49,23 +49,7 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 
 #### How is Cody different from GitHub Copilot?
 
-- GitHub Copilot's main feature is autocomplete, while Cody is focused on question answering. Cody's main feature today is a chat interface where you can ask it to (1) find, (2) explain, and (3) write code. You can ask Cody questions about the code, which you can't do with Copilot (because it’s autocomplete only). The closest feature to Copilot would be if you asked Cody to write code matching a description. Cody is able to give better answers and write better code snippets because Cody can fetch additional context from your codebase with the request to enrich it, so it is capable of writing code beyond the boilerplate use cases that Copilot is good for.
-- Future state: Cody autocomplete vs Copilot. Copilot makes use of a LLM (Large Language Model) to generate these completions. Because Copilot doesn’t use a powerful search, a common criticism of Copilot is that it generates correct code only for boilerplate tasks. In the future, Cody will use Sourcegraph’s code intelligence to provide autocomplete tailored to a customer’s code.
-
-|                      | Cody                                                 | Copilot              | Copilot Chat         |
-| -------------------- | ---------------------------------------------------- | -------------------- | -------------------- |
-| Chat interface / Q&A | ✅                                                   | Waitlist             | Waitlist             |
-| Code generation      | ✅                                                   | Waitlist             | Waitlist             |
-| Autocompletion       | Experimental (internal)                              | ✅                   | NA.                  |
-| Context              | Local and remote repositories (embeddings)           | Local                | Local                |
-| Code and metadata    | All the code graph (own, metadata, etc) coming soon. | Code only            | Code only            |
-| Zero retention       | On model inputs and outputs                          | On model inputs only | On model inputs only |
-| Bring your own model | Coming soon (experimental)                           | ❌                   | ❌                   |
-
-Notes:
-
-- Copilot for Business retains ‘Suggestions’ (also known as completions or model outputs derived from your code) for up to 30 days.
-- Cody context fetching is based on embeddings. So far, it retrieves relevant code for a single repository at a time. Multi-repo context fetching is scheduled for Q2.
+See our [internal comparison](https://docs.google.com/document/d/1EjWgnzoEHhJC-T3lRCeNQWNb-atrwd9qDKwjFZfpobM/edit). 
 
 ## Can Cody …?
 
