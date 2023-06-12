@@ -144,16 +144,19 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 
 ### **What is Amplitude?**
 
-Amplitude is a business intelligence tool specifically for product analytics, unlike Looker, which visualizes many different types of data. Amplitude is where we visualize user-level, event-stream data for both customers and for Sourcegraph.com. 
+Amplitude is a business intelligence tool specifically for product analytics, unlike Looker, which visualizes many different types of data. Amplitude is where we visualize user-level, event-stream data for both customers and for Sourcegraph.com.
 
 #### **What data can I find in Amplitude?**
-Amplitude contains data from some managed instance customers, and from dotcom. 
+
+Amplitude contains data from some managed instance customers, and from dotcom.
 
 #### **How do I get access?**
+
 Request access from #ask-it-tech-ops
 
 #### **Is this for me?**
-Amplitude is best used to perform product-specific analyses and to better understand the user journey, and is therfore often most useful for designers or product managers with an understanding of those types of analyses. 
+
+Amplitude is best used to perform product-specific analyses and to better understand the user journey, and is therfore often most useful for designers or product managers with an understanding of those types of analyses.
 
 ### **Notable reports**
 
@@ -162,29 +165,33 @@ Amplitude is best used to perform product-specific analyses and to better unders
 ## **Redash**
 
 ### **What is Redash?**
+
 Redash is a data analysis tool to enable power users of our data to query our data warehouse directly using SQL.
 
 Redash allows you to:
+
 - Query our data tables & create saved queries that can be easily revisited and shared with your colleagues.
 - Have queries auto-refresh, so whenever you go back to it, it'll have the most up-to-date data
 - Create customizable queries that you can update parameters to (example here)
 - Create simple charts/visualizations (example here)
 
-
 ### **What data can I find in Redash?**
 
 Redash is connected to our BigQuery data warehouse, so you'll be able to query any table that lives there. There are a lot of tables in our data warehouse and many may not be relevant. Here are the ones we'd suggest you use Redash to query. If you need data that doesn't live in one of these tables, you may want to reach out to our team so we can point you in the right direction.
+
 - dotcom_evemts.events: dotcom click data
-- dotcom_events.events_usage: managed instance data) 
+- dotcom_events.events_usage: managed instance data)
 - sourcegraph_analytics.update_checks: pings
-- dotcom_events.cody: all cody-specific event data 
+- dotcom_events.cody: all cody-specific event data
 
 ### **Is this for me?**
+
 This is really only useful for those who have experience with where our data lives and have strong understanding of SQL. If that is you, then this tool can enable you to answer one of questions and create simple charts. All other users will be better served by Looker and Amplitude
 
 ### **How do I get access?**
+
 We've configured Redash to authenticate you with your Sourcegraph Google account, so no need to request access. Just click [here](https://redash.sgdev.org/)!
 
 ### **How do I use it?**
 
-Here's a quick [loom overview](https://www.loom.com/share/f4473f4930d947cc9514d39c8fba46ea) to get you started. 
+Here's a quick [loom overview](https://www.loom.com/share/f4473f4930d947cc9514d39c8fba46ea) to get you started.
