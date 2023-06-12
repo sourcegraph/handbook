@@ -284,7 +284,7 @@ are working on this piece of code?
   - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
   - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
   - If you get stuck, we will go over it on the call
-  - You'll get invite by the Recruiter to a shared Slack channel in which you can ask questions
+  - During the call, you'll get invited by the interviewer to a shared Slack channel in which you can ask questions
 
 - **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
