@@ -47,7 +47,7 @@ BambooHR is integrated with multiple systems (Lattice, Rippling, Okta). If Bambo
 
 [Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
-- [Onboarding feedback milestones](../../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
+- [Onboarding feedback milestones](../../onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
 - [360 Impact reviews](../process/teammate-sentiment/impact-reviews/index.md), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
 Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
