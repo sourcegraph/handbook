@@ -16,7 +16,7 @@
   - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
   - [Onboarding events](../../../company-info-and-process/onboarding/onboarding-events.md)
   - [Onboarding reviews](../../../company-info-and-process/onboarding/onboarding-reviews.md)
-    - [Onboarging Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
+    - [Onboarging Feedback Milestones](../../../departments/people-talent/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
 - [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)
 - [Swag](../swag.md)
