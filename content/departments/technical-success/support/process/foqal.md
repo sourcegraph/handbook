@@ -1,4 +1,4 @@
-# Foqal
+# Setting Up Foqal
 
 We use Foqal.io as the glue between Zendesk and individual Slack channels that are shared between customers and Sourcegraph.
 This allows us to have an automated way to create tickets on Slack but keep our SLAs, processes and other tools on Zendesk.
