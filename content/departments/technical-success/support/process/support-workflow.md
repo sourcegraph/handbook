@@ -13,12 +13,10 @@
 5. **The support engineer builds context.** Upon taking a case, you build context to determine how to proceed. You do this by:
 
    1. Determining who the customer is and where they are at in their lifecycle
-   2. Review any applicable #stripe-alerts (in the event that it is a self-service customer who does not have a CE assigned)
-   3. Reviewing relevant deployment and/or account info docs found in the [customer notes folder](https://drive.google.com/drive/u/0/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0) or in Salesforce.
-   4. Talking with the CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned. Depending on where the case originated, you may want to check with internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
-   5. Looking for special notes about the customer in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
-   6. Relevant Looker dashboards (for example [the customer version board](https://sourcegraph.looker.com/dashboards-next/163))
-   7. Looking at other recent cases. A good starting point is the [database of resolved tickets](https://github.com/sourcegraph/support-tools-internal/tree/main/resolved-tickets).
+   2. Reviewing relevant deployment and/or account info docs found in Vitally or in Salesforce.
+   3. Talking with the TA or CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned. Depending on where the case originated, you may want to check with internal teammates to ensure we have full context. For example, again, a quick check with the CE/TA might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
+   4. Relevant Looker dashboards (for example [the customer version board](https://sourcegraph.looker.com/dashboards-next/163))
+   5. Looking at other recent cases. A good starting point is the [database of resolved tickets](https://github.com/sourcegraph/support-tools-internal/tree/main/resolved-tickets).
 
 6. **The support engineer does two extra things ASAP if the ticket originated from Slack.**
 
@@ -36,20 +34,20 @@
       - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](../../../engineering/product#feature-matrices).
       - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
 
-9. **The support engineer ensures all appropriate tags are added to the ticket in Zendesk.** Ticket tags should be added to your ticket to accurately depict the theme of the issue within the ticket. A ticket theme helps us to identify which part of the product area was the point of focus discovered through the triaging process. Ticket tags are used to identify recurring themes that our customers are seeing. When these themes are identifed, it enables us to present detailed data to engineering teams on what our customers are experiencing.
+9. **The support engineer ensures all appropriate tags are added to the ticket in Zendesk.** Ticket tags should be added to your ticket to accurately depict the theme of the issue within the ticket. A ticket theme helps us to identify which part of the product area was the point of focus discovered through the triaging process. Ticket tags are used to identify recurring themes that our customers are seeing. When these themes are identifed, it enables us to present detailed data to product and engineering teams on what our customers are experiencing.
 
    - **Example:** A question about batch changes resulted in there being an issue with the executors. `batch_changes` would be the tag to identify the product area, `executors` would identify the theme.
 
-10. **The support engineer resolves the issue.** We don't consider something resolved unless the customer does/would. Resolution happens in a few ways. Only when one of these is true do we designate a case "closed" in Zendesk -- and if we were working in Slack, we leave that channel.
+10. **The support engineer resolves the issue.** We don't consider something resolved unless the customer does/would. When one of these is true do we designate a case "closed" in Zendesk.
 
     1. We help the customer figure out what they need to do and they confirm they have done it and agree the issue is resolved `AND` we complete any internal tasks born from working on the ticket (like updating documentation or filing a GitHub issue for a docs update).
     2. We identify a workaround to get the customer on their way `AND` we file a defect or product improvement (in the public GitHub tracker) to address the underlying root cause and share the link with the customer.
     3. We help the customer figure out what they need to do and they stop responding. After a couple of attempts, if we are confident the issue would be solved, `AND` we complete any internal tasks born from working on the ticket (like updating documentation), we go ahead and consider it resolved. Often in these situations we give the CE a heads-up of our decision.
     4. We identify a defect, engineering fixes it, the customer confirms the issue is resolved `OR` we share the public defect link with the customer (always do this when possible instead of keeping the case open) `AND` we complete any internal tasks born from working on the ticket (like updating documentation). Until then, we consider the case open and while engineering prioritizes the defect for a fix, we place the case "on-hold" in Zendesk.
-    5. We confirm the issue is a feature request and tag in the CE to handle the request if there is a CE assigned to the customer. Otherwise, you can file the issue yourself. Before doing so, however, make sure that the request you're making does not reveal any security vulnerabilities. If we are unsure, we start a thread in #customer-support-internal and ask. If the issue does NOT reveal a security vulnerability, we file the issue in the [public repo](https://github.com/sourcegraph/sourcegraph) and share the link with the customer `AND` we complete any internal tasks born from working on the ticket (like updating documentation). If the issue DOES reveal a security vulnerability, file the issue in [the security-issues repository](https://github.com/sourcegraph/security-issues). We do not share security issues with the customer, but we do inform them that the issue has been filed.
+    5. We confirm the issue is a feature request and tag in the CE to handle the request if there is a CE assigned to the customer. Otherwise, you can file the issue yourself. Before doing so, however, make sure that the request you're making does not reveal any security vulnerabilities. If we are unsure, we start a thread in #team-customer-support and ask. If the issue does NOT reveal a security vulnerability, we file the issue in the [public repo](https://github.com/sourcegraph/sourcegraph) and share the link with the customer `AND` we complete any internal tasks born from working on the ticket (like updating documentation). If the issue DOES reveal a security vulnerability, file the issue in [the security-issues repository](https://github.com/sourcegraph/security-issues). We do not share security issues with the customer, but we do inform them that the issue has been filed.
     6. If we are still working on finding the answer and the customer stops responding, we email a couple more times to see if they had a chance to look at our last response. If they still don't respond, and they have a CE, talk with them to see if they have another way to get in touch and see what's going on. If not, or if the customer does not have a CE, `AND` we complete any internal tasks born from working on the ticket (like updating documentation), then it's okay to close the ticket at this point.
 
-11. **While we work, we keep Zendesk, Slack, and/or Salesforce up-to-date.** If a ticket originates in Slack, you'll still need to keep Zendesk up to date. Switch the requestor to the person asking for help in Slack so that the issue ties to the right customer. Assign ticket priority and estimated level-of-effort(LoE) tags. The level-of-effort is dynamic and can change over a tickets' lifetime. Use the internal notes function in Zendesk to leave notes for yourself to track your progress and decisions (these will also appear in Salesforce for others to see). A summary of what happened should be obvious in Zendesk even if all the work happened in Slack. Also, we will often learn details about a customer's environment, etc that we should keep in Salesforce. We update it in the account info doc in [the customer notes folder](https://drive.google.com/drive/u/0/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0), if one exists (be sure to talk to the CE as part of updating it, in the event that what you are updating ends up being invaluable information to them for what else may be happening with the account). This data is then rendered in Zendesk so we don't have to ask the customer for it again. Zendesk also always reflects where we are at in our process by using the status function.
+11. **While we work, we keep Zendesk, Slack, and/or Salesforce up-to-date.** If a ticket originates in Slack, you'll still need to keep Zendesk up to date. Switch the requestor to the person asking for help in Slack so that the issue ties to the right customer. Assign ticket priority and estimated level-of-effort(LoE) tags. The level-of-effort is dynamic and can change over a tickets' lifetime. Use the internal notes function in Zendesk to leave notes for yourself to track your progress and decisions (these will also appear in Salesforce for others to see). A summary of what happened should be obvious in Zendesk even if all the work happened in Slack. Also, we will often learn details about a customer's environment, etc that we should keep in Salesforce and Vitally. We update it in the account info doc in [the customer notes folder](https://drive.google.com/drive/u/0/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0), if one exists (be sure to talk to the CE as part of updating it, in the event that what you are updating ends up being invaluable information to them for what else may be happening with the account). This data is then rendered in Zendesk so we don't have to ask the customer for it again. Zendesk also always reflects where we are at in our process by using the status function.
 
 ### Zendesk statuses and what they mean
 
@@ -91,17 +89,18 @@ As explained above, our customers are able to initiate conversations for help vi
 ### Customer Slack channels (internal or external)
 
 - **Purpose:** Provided to enterprise customers during trial (pre-sales) and converted to a support channel (post-sales) for ongoing communications via an easy, familiar method
-- **Those involved:** AE + CE + support > (Engineering) + Product
-- **Details:** We use Foqal.io to automate support within any customer channel. As long as we are able to add the Foqal Agent to the slack channel - whether our channel or customer-owned - and enable the form widget so that customers can create a request for Support we are able to support the customer via slack. We do not monitor all activity in the channel and require the customer to submit a request. Once submitted, it automatically creates a ticket in Zendesk. SEs, when picking up a ticket, must do so out of the slack Foqal agent. This assigns them to the ticket in Zendesk. CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
+- **Those involved:** AE + CE + TA + support > (Engineering) + Product
+- **Details:** We use Foqal.io to automate support within any customer channel. As long as we are able to add the Foqal Agent to the slack channel - whether our channel or customer-owned - and enable the form widget so that customers can create a request for Support we are able to support the customer via slack. We do not monitor all activity in the channel and require the customer to submit a request. Once submitted, it automatically creates a ticket in Zendesk. TAs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
+
 - **_Important note_: CS only supports slack channels that our support Agent can be added to. Customers who are not able to do so can engage support via support@sourcegraph.com. Customer Engineers and Account Excutives can also create a Zendesk ticket on behalf of the customer, setting the customer as the requestor and inserting the relative slack link into the ticket.**
 
-### #help channel in Community Slack account
+### help (https://discord.com/channels/969688426372825169/981588434315522048) channel in Community Discord
 
 - **Purpose:** Provided as an avenue for our community members (champions, open source, SaaS offering users) to get help.
 - **Those involved:** Support, product, marketing (especially our community team)
-- **Details:** This is the one channel in our Community Slack account that is linked to Zendesk to create a ticket for each post. Support's role is to make sure no post gets left behind. Others at Sourcegraph may jump in and help, and that is great! We just want to make sure everyone gets the help they need.
+- **Details:** This is the one channel in our Community Discord account that is linked to Zendesk to create a ticket for each post. Support's role is to make sure no post gets left behind. Others at Sourcegraph may jump in and help, and that is great! We just want to make sure everyone gets the help they need.
 
-### Internal Slack channel #customer-support
+### Internal Slack channel #ask-customer-support
 
 - **Purpose:** Where the customer support team communicates with folks outside the team and vice versa. Always okay to ask questions here, collaborate on a customer issue, etc
 - **Those involved:** Support + anyone who has questions, needs to collaborate
@@ -123,7 +122,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Official support email address for customers and that anyone internally can copy in if they are emailing with a customer and a support issue/question comes up.
 - **Those involved:** Support > CE, product, etc
-- **Details:** These emails feed into Zendesk and are triaged and handled by support. If anything is more relevant for a CE, product, etc, then support will alert that team/person in the most appropriate Slack channel to coordinate. Similarly, if anyone defers to support using this email, they are also welcome to create such a thread with more context in the Slack #customer-support channel.
+- **Details:** These emails feed into Zendesk and are triaged and handled by support. If anything is more relevant for a CE, product, etc, then support will alert that team/person in the most appropriate Slack channel to coordinate. Similarly, if anyone defers to support using this email, they are also welcome to create such a thread with more context in the Slack #ask-customer-support channel.
 
 ### feedback@ email
 
@@ -142,10 +141,3 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
 - **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_monitoring.md) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
-
-### Slack developer communities
-
-- **Purpose:** Developer relations
-- **Those involved:** Marketing > Support
-- **Details:** Support team members join via personal email addresses. Marketing monitors posts a link to anything they need us to handle in the #customer-support Slack channel. Support will also create a ticket in Zendesk to track these so we get a better understanding of volume over time. Currently we join the following:
-  - Gophers
