@@ -1,6 +1,6 @@
 ## How to Create and Transfer Tickets for Support Engineering
 
-We currently offer Support via Slack Channels for Enterprise customers through a Support Agent integration that must be integrated into the Slack Channel. This integration is a requirement to ensure we can provide a consistent support experience to our customers in accordance with our Service Level Agreements (SLAs).
+We currently offer Support via Slack Channels for Enterprise customers through a Support Agent integration that must be integrated into the Slack Channel as well as email at support@sourcegraph.com. The following are steps that are set to ensure we can provide a consistent support experience to our customers in accordance with our Service Level Agreements (SLAs).
 
 There are two methods for the Support Agent integration:
 
@@ -28,4 +28,4 @@ If a customer sends an email and it requires support engineering to take over th
 
 **Step 2**: Go into Zendesk, select the ticket that was just created by your email that was forwarded or CC'd support.
 
-**Step 3**: `Apply Macro` select `Customer Ticket Request` , fill out the request details and <Submit as `New`
+**Step 3**: `Apply Macro` select `Customer Ticket Request` , fill out the request details and `Submit as New`
