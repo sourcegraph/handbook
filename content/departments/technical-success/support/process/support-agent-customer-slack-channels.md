@@ -24,6 +24,7 @@ The emoji reaction will only create a ticket if the emoji is added to the messag
 ### If an email with a customer needs to be transfered to a Support Engineer
 
 If a customer sends an email and it requires support engineering to take over there are a few steps to take.
+
 **Step 1**: Add support@sourcegraph.com in cc (keeping the customer in copy, too) and share that you have copied in our support team to help out.
 
 **Step 2**: Go into Zendesk, select the ticket that was just created by your email that was forwarded or CC'd support.
