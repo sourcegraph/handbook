@@ -14,9 +14,9 @@
 
    1. Determining who the customer is and where they are at in their lifecycle
    2. Reviewing relevant deployment and/or account info docs found in Vitally or in Salesforce.
-   4. Talking with the TA or CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned. Depending on where the case originated, you may want to check with internal teammates to ensure we have full context. For example, again, a quick check with the CE/TA might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
-   5. Relevant Looker dashboards (for example [the customer version board](https://sourcegraph.looker.com/dashboards-next/163))
-   6. Looking at other recent cases. A good starting point is the [database of resolved tickets](https://github.com/sourcegraph/support-tools-internal/tree/main/resolved-tickets).
+   3. Talking with the TA or CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned. Depending on where the case originated, you may want to check with internal teammates to ensure we have full context. For example, again, a quick check with the CE/TA might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
+   4. Relevant Looker dashboards (for example [the customer version board](https://sourcegraph.looker.com/dashboards-next/163))
+   5. Looking at other recent cases. A good starting point is the [database of resolved tickets](https://github.com/sourcegraph/support-tools-internal/tree/main/resolved-tickets).
 
 6. **The support engineer does two extra things ASAP if the ticket originated from Slack.**
 
@@ -38,7 +38,7 @@
 
    - **Example:** A question about batch changes resulted in there being an issue with the executors. `batch_changes` would be the tag to identify the product area, `executors` would identify the theme.
 
-10. **The support engineer resolves the issue.** We don't consider something resolved unless the customer does/would. When one of these is true do we designate a case "closed" in Zendesk. 
+10. **The support engineer resolves the issue.** We don't consider something resolved unless the customer does/would. When one of these is true do we designate a case "closed" in Zendesk.
 
     1. We help the customer figure out what they need to do and they confirm they have done it and agree the issue is resolved `AND` we complete any internal tasks born from working on the ticket (like updating documentation or filing a GitHub issue for a docs update).
     2. We identify a workaround to get the customer on their way `AND` we file a defect or product improvement (in the public GitHub tracker) to address the underlying root cause and share the link with the customer.
