@@ -2,7 +2,7 @@
 
 Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2–4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
 
-**[Onboarding buddy](../../../../company-info-and-process/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
+**[Onboarding buddy](../../../people-talent/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
 
 ## Manager checklist
 
