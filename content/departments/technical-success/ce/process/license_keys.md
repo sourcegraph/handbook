@@ -84,7 +84,7 @@ To revoke an active license, follow these steps:
 
 The next time the customer's instance performs a license verification check, the verification will fail and the customer's Enterprise features will be disabled.
 
-> Note: This will not work on licenses with a license that has the `allow-air-gapped` tag applied or the `enterprise-air-gap-0` license, as these license do not need to do any license verification checks.
+> Note: This will not work on special licenses with the `allow-air-gapped` tag, or the `enterprise-air-gap-0` plan, as these licenses do not execute verification checks.
 
 ## License Key Sharing Policy
 
@@ -126,7 +126,7 @@ First the tags that relate to license itself:
 - `plg-trial` to indicate that a Cloud trial managed instance has been requested through signup.sourcegraph.com.
 - `dev` for internal developer licenses
 - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
-- `allow-air-gapped` for licenses where periodic license verification is not required. This is essential for customers that run Sourcegraph in a sandboxed environment without an external internet connection.
+- `allow-air-gapped` for licenses where periodic license verification is not required. This is essential for customers that run Sourcegraph in an air-gapped environment without an external internet connection. For the `enterprise-air-gap-0` plan, this tag is not required as it is included in the plan.
 
 Second, the tags that enable specific features:
 
