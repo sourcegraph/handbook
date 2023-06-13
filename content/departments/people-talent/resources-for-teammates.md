@@ -7,7 +7,6 @@
 - [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
 - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
 - [Skip level]
-- [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
 ## Company information and processes
 
@@ -37,7 +36,6 @@
   - [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
   - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
   - [Skip level]
-  - [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
   ## [Benefits, Perks and Pay](../../benefits-pay-perks/benefits-perks/index.md)
 
