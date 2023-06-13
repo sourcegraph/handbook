@@ -58,6 +58,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Background Checks](background-check-policy.md)
 - [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
 - [Our values](../../company-info-and-process/values/index.md)
+- Buddy Program
 - [Managing remote work](../../company-info-and-process/remote/index.md)
 - [Working asynchronously](../../company-info-and-process/communication/asynchronous-communication.md)
 
