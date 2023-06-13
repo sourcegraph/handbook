@@ -1,6 +1,6 @@
 # Onboarding Mentor
 
-In addition to an Onboarding Buddy, some teams have Onboarding Mentors. New teammates will be paired up with an Onboarding Mentor. The mentor will be someone from their own team who will act as a point of contact for role-related support during their ramp period. As a peer, mentors will provide support and guidance while teammates are learning and practicing role specific tasks and skills.
+In addition to an [Onboarding Buddy](../../departments/people-talent/buddy-program.md), some teams have Onboarding Mentors. New teammates will be paired up with an Onboarding Mentor. The mentor will be someone from their own team who will act as a point of contact for role-related support during their ramp period. As a peer, mentors will provide support and guidance while teammates are learning and practicing role specific tasks and skills.
 
 Mentors are colleagues that accompany new teammates. They provide insight, context and help teammates understand who and where to go to for whatever they need.
 
