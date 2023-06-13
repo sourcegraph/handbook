@@ -12,7 +12,7 @@
 
 - [Onboarding](../../../company-info-and-process/onboarding/index.md)
   - [Onboarding checklist](../../../company-info-and-process/onboarding/onboarding-checklist.md)
-  - Onboarding buddy
+  - [Onboarding buddy](../buddy-program.md)
   - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
   - [Onboarding events](../../../company-info-and-process/onboarding/onboarding-events.md)
   - [Onboarding reviews](../../../company-info-and-process/onboarding/onboarding-reviews.md)

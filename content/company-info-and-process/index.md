@@ -41,7 +41,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 ## Onboarding
 
-- [Buddy program](onboarding/buddy-program.md)
+- Buddy program
 - [Feedback milestones](onboarding/onboarding-feedback-milestones.md)
 - [For hiring managers](onboarding/onboarding-for-hiring-managers.md)
 - [Glossary](onboarding/glossary.md)
