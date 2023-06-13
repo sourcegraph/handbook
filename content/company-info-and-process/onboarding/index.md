@@ -107,7 +107,7 @@ Please reach out in #ask-people-team or tag Kemper Hamilton directly in the Proc
 
 **Onboarding buddy program**
 
-Creating a positive and successful onboarding experience for our teammates is a top priority. One way we ensure new hires are supported is through our [Onboarding buddy program](../onboarding/buddy-program.md), which connects new teammates to a current Sourcegraph teammate that can share their experiences and advice to help make onboarding a little smoother.
+Creating a positive and successful onboarding experience for our teammates is a top priority. One way we ensure new hires are supported is through our Onboarding buddy program, which connects new teammates to a current Sourcegraph teammate that can share their experiences and advice to help make onboarding a little smoother.
 
 ### Onboarding Feedback
 
