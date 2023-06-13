@@ -4,9 +4,9 @@
 
 **Step 2:** Notification is in Slack under Support Agent or in Zendesk
 
-**Step 3:** While under Support Agent select _Home_ and see incoming tickets under _Waiting for Help_ or in Zendesk in the _unassigned tickets_ queue. 
+**Step 3:** While under Support Agent select _Home_ and see incoming tickets under _Waiting for Help_ or in Zendesk in the _unassigned tickets_ queue.
 
-**Step 4:** To assign the ticket to yourself in Slack select ‘…’ and then select Start. In Zendesk select the ticket and update the Assignee. 
+**Step 4:** To assign the ticket to yourself in Slack select ‘…’ and then select Start. In Zendesk select the ticket and update the Assignee.
 
 **Step 5:** Identify if there is action for CS or not if it's not clear, post in #team-customer-support and brainstorm the best path.
 
@@ -19,16 +19,16 @@ There is an action for CS if the action is to:
 - handle anything related to security for a customer without a TA
 - handle a feature request for a customer without a TA
 
-If there is no action for CS go to  **Step 9**, There is no action for CS if the action is to:
+If there is no action for CS go to **Step 9**, There is no action for CS if the action is to:
 
 - handle anything related to security for a customer with a TA
 - handle a feature request for a customer with a TA
 - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
 - for employment verifications, we can reply and send the requestor to [our Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/) where they can get what they need.
 
-**Step 6:** Update the Ticket Subject in Zendesk, the subjects needs to highlight the root of the question/issue submitted, this can always be updated later if changes need to be made. 
+**Step 6:** Update the Ticket Subject in Zendesk, the subjects needs to highlight the root of the question/issue submitted, this can always be updated later if changes need to be made.
 
-**Step 7:** Selecting _View Thread_ within the Slack Agent or selecting the url in the Zendesk ticket wiin will allow you to respond to the customer within the slack thread. 
+**Step 7:** Selecting _View Thread_ within the Slack Agent or selecting the url in the Zendesk ticket wiin will allow you to respond to the customer within the slack thread.
 
 **Step 8:** Take appropraite actions on the ticket and update with the proper Zendesk [status](https://handbook.sourcegraph.com/departments/technical-success/support/process/support-workflow/#zendesk-statuses-and-what-they-mean)
 **Step 9:** If there is no action for CS, use the "no action for CS macro" in Zendesk and leave a reason why not then submit the ticket as solved.
@@ -37,7 +37,7 @@ If there is no action for CS go to  **Step 9**, There is no action for CS if the
 
 ### 1. What if a new ticket is related to another ticket?
 
-If the other ticket is still open, reach out to the SE who is currently assigned notifiy them of the new ticket and if applicable merge the new ticket into the exsisting ticket. 
+If the other ticket is still open, reach out to the SE who is currently assigned notifiy them of the new ticket and if applicable merge the new ticket into the exsisting ticket.
 
 ### 2. Can I merge a ticket into one that I closed in the past?
 
@@ -54,7 +54,7 @@ For employment verification emails see above for steps.
 
 ### 4.What if we are close to missing SLA?
 
-When SLA is close to expiring, we will see a notification posted from Zendesk Notifier in the #team-customer-support channel that will provide a link to the ticket that is close to breach.  
+When SLA is close to expiring, we will see a notification posted from Zendesk Notifier in the #team-customer-support channel that will provide a link to the ticket that is close to breach.
 
 ### 5. How to triage post in the customer support channel.
 
