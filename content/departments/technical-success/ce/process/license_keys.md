@@ -84,7 +84,7 @@ To revoke an active license, follow these steps:
 
 The next time the customer's instance performs a license verification check, the verification will fail and the customer's Enterprise features will be disabled.
 
-> Note: This will not work on licenses with the `allow-air-gapped` tag applied, as these license do not need to do any license verification checks.
+> Note: This will not work on licenses with a license that has the `allow-air-gapped` tag applied or the `enterprise-air-gap-0` license, as these license do not need to do any license verification checks.
 
 ## License Key Sharing Policy
 
@@ -103,6 +103,7 @@ In select circumstances, such as a bridge extension being requested due to the r
 
 Below is a list of supported plans:
 
+- `enterprise-air-gap-0` (from 5.1 onwards) for Enterprise customers that need to run Sourcegraph in an air-gapped environment
 - `enterprise-1` (from 4.0 onwards) for Enterprise customers, `code-insights` and `batch-changes` included
   > Note: this should be the **default** plan for most of the enterprise customers.
 - `enterprise-0` (until 4.0) for Enterprise customers, features above only included if tags of same name are added
