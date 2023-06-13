@@ -36,14 +36,17 @@ Note: if the prospect was a PLG Cloud trial customer, do _not_ reuse the `plg-tr
 
 > NOTE: For a new trial deployment, the admin should be sent a license key for the initial deployment setup and configuration process. This should be a short-term key (1-2 weeks) for a small number of users (5-10) until the full license key is provided later in the trial process.
 
+> NOTE: Starting with Sourcegraph 5.1+, we require each customer instance to have a unique site_id and license key pair.
+
 The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
 
 1. Sign in to sourcegraph.com.
-2. If the customer does not have a license yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
+2. If the customer instance does not have an account yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
 3. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
 4. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). For new prospects during trial and / or a new customer, click **Create product subscription**. Search for the user you just created.
 5. Click **Generate new license manually**.
    1. Fill out the customer name in lowercase. Fill spaces with the `-` character.
+   1. Fill out the Salesforce Subscription ID and Salesforce Opportunity ID based on the data for this customer/opportunity from Salesforce. Filling these fields will allow automated billing.
    1. Fill out the license subscription plan name. See the [plans](#plans) section.
    1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
    1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
@@ -59,7 +62,7 @@ Visit the **Site-admin > Subscriptions** page, find the existing subscription, c
 
 1. Sign in to sourcegraph.com and visit the **Site-admin > Subscriptions** page.
 2. Search for the user associated with the company, and click into the existing subscription ID (left-most column). (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
-3. Click **Generate new license manually**. Fill out the license end date (most typically to match the contract terms) and fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) for a list you can just copy. Remember: Tags must be separated by commas, with no spaces!
+3. Click **Generate new license manually**. Fill out the license end date (most typically to match the contract terms) and fill in the appropriate license tags. For tags, see [License Key Tags](#license-key-tags) section. Tags must be separated by comma (spaces are ignored).
 4. Set the licensed number of users (note that if you added the `true-up` tag, the company will be able to exceed this count, but administrators will see a warning) and the end date for which the license should be valid, and click **Generate license**.
 5. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
@@ -115,9 +118,7 @@ Below is a list of supported plans:
 
 ### License key tags
 
-Below is a list of our license key tags along with a description of each which you may need to include.
-
-First the tags that relate to license itself:
+The tags that relate to license itself (you might need to add these to the license, depending on the customer contract)
 
 - `true-up` to allow the company to go over the user limit on the license. No tag is needed for hard cap.
 - `mau` to indicate that the company is on a monthly usage-based billing model.
@@ -126,23 +127,26 @@ First the tags that relate to license itself:
 - `plg-trial` to indicate that a Cloud trial managed instance has been requested through signup.sourcegraph.com.
 - `dev` for internal developer licenses
 - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
-- `allow-air-gapped` for licenses where periodic license verification is not required. This is essential for customers that run Sourcegraph in an air-gapped environment without an external internet connection. For the `enterprise-air-gap-0` plan, this tag is not required as it is included in the plan.
+- `allow-air-gapped` for licenses where periodic license verification is not required and pings are not sent back to sourcegraph.com. This is essential for customers that run Sourcegraph in an air-gapped environment without an external internet connection. For the `enterprise-air-gap-0` plan, this tag is not required as it is included in the plan. Prefer selecting the `enterprise-air-gap-0` plan instead of adding the tag.
 
-Second, the tags that enable specific features:
+> NOTE: most of the new license plans already have all the features needed encoded in the plan, so adding additional feature tags might not be necessary at all.
 
-- `acls` for repository permissions from the code host. (Add this to all licenses.)
-- `batch-changes` for unlimited Batch Changes (formerly `campaigns`)
-- `code-insights` for unlimited Code Insights
-- `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
-- `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions. All Enterprise licenses should have this added.
-- `monitoring` - Monitoring. All licenses should have this added.
+Feature override tags are listed below. These tags enable specific features on top of what the license plan allows:
+
+- `acls` for repository permissions from the code host.
+- `batch-changes` for unlimited Batch Changes (formerly `campaigns`).
+- `code-insights` for unlimited Code Insights.
+- `private-extension-registry` to allow for a private Extension registry.
+- `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions.
+- `monitoring` - Adds support for running Grafana monitoring. **DEPRECATED as of Sourcegraph 5.0**
 
 Example license key tags:
 
-- **Enterprise Licenses**: `acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, should be added to every Enterprise license.
+- **Enterprise Licenses**: usually no need to add additional tags for Sourcegraph 5.0+
 
   - Optionally add `true-up`, `mau`, `trial` based on the context of the license.
   - `batch-changes` and `code-insights` tags should only be added to legacy `enterprise-0` plan or other plans that do not automatically add the feature. `enterprise-1` plan alreadty contains both.
+  - `monitoring` tag should only be added for instances on version 4.x and lower.
 
 - **Non-enterprise Licenses**: these depend on the contract & specified features.
 
