@@ -19,3 +19,4 @@
 - [Triaging](customer-support-triaging.md)
 - [Workflow](support-workflow.md)
 - [Knowledge Base](knowledge-base.md)
+- [Foqal](foqal.md)
