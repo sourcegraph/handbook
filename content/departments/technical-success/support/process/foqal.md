@@ -77,4 +77,4 @@ We will then confirm once its setup.
 
 Once all of this is done an pop-up should show up at the bottom of the channel that allows customers to create requests.
 
-They are also able to create ticket by reacting to a message with the :tickets: emoji.
+They are also able to create ticket by reacting to a message with the 🎟️ emoji.
