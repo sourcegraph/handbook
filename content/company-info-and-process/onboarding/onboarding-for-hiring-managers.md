@@ -41,7 +41,7 @@ It is also helpful to provide documentation and context for ongoing projects you
 
 ## Milestones and Impact review cycles
 
-New teammates will go through their [Onboarding Feedback Milestones](./onboarding-feedback-milestones.md) on their first, second and third month with us. Please read the handbook page that walks you through what they are and why we find them valuable.
+New teammates will go through their [Onboarding Feedback Milestones](../../departments/people-talent/onboarding-feedback-milestones.md) on their first, second and third month with us. Please read the handbook page that walks you through what they are and why we find them valuable.
 
 You will use Lattice to take notes during the Milestones. You will be notified via email and through the Slack integration when it's time for you to have them. As per their onboarding checklist, teammates are responsible to schedule the meetings for you both to have the conversation.
 
