@@ -35,9 +35,9 @@ Managers will assign a buddy to their new hires and new hires will set up the re
 
 Thank you for accepting being an onboarding buddy! You are an essential part of helping a new teammate navigate a new company and get acclimated during their first weeks. If you haven’t had much practice or don’t know where to start, here are some ideas for topics you can cover in your buddy syncs:
 
-- **Talk about what “handbook first” means.** The handbook is super important at Sourcegraph and it’s extremely useful. Help the new hire understand what it is, how we use it and give them some tips on how to navigate it (like how to search in it). You can check out before the meeting or redirect the new hire to [How to use the handbook](../handbook/index.md).
+- **Talk about what “handbook first” means.** The handbook is super important at Sourcegraph and it’s extremely useful. Help the new hire understand what it is, how we use it and give them some tips on how to navigate it (like how to search in it). You can check out before the meeting or redirect the new hire to [How to use the handbook](../../index.md).
 
-- **For company policies questions** such as vacation, payroll, time and expenses, redirect them to [People Ops](people-talent/index.md) where they will find information under Benefits and Teammate experience. You can also check it out beforehand to help answer their questions, and if any questions are still left unanswered, you can always redirect the new teammate to our #ask-people-team channel in Slack.
+- **For company policies questions** such as vacation, payroll, time and expenses, redirect them to [People Ops](../people-talent/index.md) where they will find information under Benefits and Teammate experience. You can also check it out beforehand to help answer their questions, and if any questions are still left unanswered, you can always redirect the new teammate to our #ask-people-team channel in Slack.
 
 - **Talk about day to day routines.** It’s hard to get the hang of an all remote job if you’ve never done it before. Talk about your experience at Sourcegraph, how you manage asynchronous communication and flexible working hours (we have unlimited vacation and flexible schedules, what has this looked like in practice for you and others?). You can also share some [Tips for working remotely](../company-info-and-process/remote/tips.md).
 
