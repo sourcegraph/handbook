@@ -115,7 +115,7 @@ We welcome feedback about how we can improve our onboarding process for future n
 
 **Onboarding Feedback Milestones**
 
-[Onboarding Feedback Milestones](../onboarding/onboarding-feedback-milestones.md) help us to enhance new teammates’ performance and wellbeing. These milestones help managers gather insight about teammate’s progress and development, as well as support teammates in avoiding burnout, clarifying expectations, giving feedback on progress and stimulating confidence in new teammates during the first few months.
+[Onboarding Feedback Milestones](../../departments/people-talent/onboarding-feedback-milestones.md) help us to enhance new teammates’ performance and wellbeing. These milestones help managers gather insight about teammate’s progress and development, as well as support teammates in avoiding burnout, clarifying expectations, giving feedback on progress and stimulating confidence in new teammates during the first few months.
 
 We conduct milestone surveys via Lattice at the one month and three month mark.
 
