@@ -44,4 +44,4 @@ Others:
 - [Change Order Form Process](https://docs.google.com/document/d/1dVbbMmad94eeKHGNqM3IU4h-c4ky2Bdt53EPrGzzB9Y/edit)
 - [Product Migration: Free Batch Changes and Code Insights](https://docs.google.com/document/d/1sQmxjMSx9o0Dy8sHP_MEHQ3wl6zWZBJPRmgADDnqOcY/edit)
 - [Requesting exceptions to Cody Cloud Deployment](https://docs.google.com/document/d/1x-GeJQ8l-dMclFK1P7q6fUPGImIfGmQ-dTtEf8KCOis/edit)
-- [Deals through GCP / AWS Marketplace](https://docs.google.com/document/d/1hNAeneSwOMNqGJXGhpiiMnj08ObiYpmIVW2Lb0p4abI/edit) 
+- [Deals through GCP / AWS Marketplace](https://docs.google.com/document/d/1hNAeneSwOMNqGJXGhpiiMnj08ObiYpmIVW2Lb0p4abI/edit)
