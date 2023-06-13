@@ -156,7 +156,7 @@ Synchronous activities are great for building good relationships, which in turn 
 This is why we have different synchronous social activities that help us build connections with our teammates:
 
 - Donut: the tool we use to schedule 1:1s between random teammates each week. It is a great tool for teammates to meet other people they might not interact with on a regular basis.
-- [Onboarding buddy program](../onboarding/buddy-program.md)
+- [Onboarding buddy program](../../departments/people-talent/buddy-program.md)
 - Meet & Greet: for new teammates to get to know their new teammate cohort.
 - New teammate happy hour: with all other teammates. Once a month, new and existing teammates meet and talk. It’s a way for new teammates to get to know other people in the company and for teammates to get to know new people better.
 - Monthly team bonding activities
