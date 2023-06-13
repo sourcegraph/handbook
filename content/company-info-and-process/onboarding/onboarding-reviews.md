@@ -22,7 +22,7 @@ We want our new teammates and managers to be supported through frameworks that e
 
 During these meetings, managers will help new Teammates understand their role in the team and company and what’s expected of them. In order for this to work, managers must define expectations, goals, and responsibilities for each Teammate before they join, in alignment with our department-specific career ladders. New Teammates benefit from as much clarity as possible and if there are any changes, should be guided through these as soon as possible. The framework above should be used as a guide at every meeting.
 
-Read more about [Onboarding Feedback Milestones here](onboarding-feedback-milestones.md).
+Read more about [Onboarding Feedback Milestones here](../../departments/people-talent/onboarding-feedback-milestones.md).
 
 ## Cadence
 
