@@ -39,14 +39,6 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Productivity hacks](remote/teammate-recommended_productivity_hacks.md)
 - [Remote hackathons](remote/remote_hackathons.md)
 
-## Onboarding
-
-- Buddy program
-- Feedback milestones
-- For hiring managers
-- Glossary
-- Intro to Git
-
 ## [Working at Sourcegraph](working-at-sourcegraph/index.md)
 
 - [PTO](../benefits-pay-perks/benefits-perks/time-off/index.md)
