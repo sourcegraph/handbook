@@ -32,7 +32,7 @@ _DRI:_ Manager of departing teammate
 
 1. ASAP: Manager and teammate align on the final day and transition plan
 2. Within 24 hours: Manager drafts messaging points and shares with the departing teammate for alignment
-3. Within 48 hours: Manager notifies #manager-team as FYI.
+3. Within 48 hours: Manager notifies #team-people-managers as FYI.
 4. Within 48 hours (after people managers have been informed):
    - **If they are a people manager:** Departing person notifies direct reports (this can happen live via Zoom call, but should also include written follow-up via slack to align with async focus)
      - Manager of departing person then follows up with the team to show their support.
@@ -41,7 +41,7 @@ _DRI:_ Manager of departing teammate
 5. Within 48 hours of notice: Manager of departing person notifies broader department (via slack message to public department channel). [Use this message template ](https://docs.google.com/document/d/1Kg7RUN5nlM5eN5kUK-ZDQbSicLeljl6D-dQyUSpHbrs/edit#bookmark=id.752a8p5f7c9f)
    - Departing person follows up in the thread of the above message to express support and commitment to a smooth transition. [Use this message template](https://docs.google.com/document/d/1Kg7RUN5nlM5eN5kUK-ZDQbSicLeljl6D-dQyUSpHbrs/edit#bookmark=id.mzgrfexmnuvp)
 6. Within 48 hours of notice: Departing person notifies their cross-functional partners and includes manager as FYI (This should happen via slack wherever possible)
-7. Once all above steps have been completed (and marked as complete by the manager in Process.st) an automatic message will be sent in #teammate-departures to notify all other teammates.
+7. Once all above steps have been completed (and marked as complete by the manager in Process.st) an automatic message will be sent in #announce-teammate-departures to notify all other teammates.
 8. Optional on last day: Departing person sends brief message in #thanks to say farewell and share contact details (like Linkedin and email).
    - [Message template](https://docs.google.com/document/d/1Kg7RUN5nlM5eN5kUK-ZDQbSicLeljl6D-dQyUSpHbrs/edit#bookmark=id.7qrey4qxv65s)
 
