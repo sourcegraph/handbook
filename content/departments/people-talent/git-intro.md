@@ -19,7 +19,7 @@ This guide is a resource for learning both git and GitHub, both of which are ext
 
 - [Git intro](https://guides.github.com/introduction/git-handbook/)
 - Hackernoon git intro [Part 1](https://hackernoon.com/understanding-git-fcffd87c15a3) and [Part 2](https://hackernoon.com/understanding-git-2-81feb12b8b26).
-- Configuring [GitHub Notifications](github-notifications/index.md)
+- Configuring [GitHub Notifications](../../company-info-and-process/onboarding/git-intro/github-notifications/index.md) 
 
 To visualize the git flow, there's [an article version](https://guides.github.com/introduction/flow/) and [a video version](https://www.youtube.com/watch?v=47E-jcuQz5c&index=1&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4).
 
