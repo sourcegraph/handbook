@@ -101,7 +101,7 @@ Before your first day, we will email you a link to your onboarding checklist. Th
 
 We don’t expect you to know everything by the time stated in each task. We know this is a process. But we want you to have the resources available and to know where the information is for you to come back to them later.
 
-For the most part, this is a self paced process, tasks and content is presented in sequence, but you are free to organize your own time. However, some tasks are mandatory. 
+For the most part, this is a self paced process, tasks and content is presented in sequence, but you are free to organize your own time. However, some tasks are mandatory.
 Mandatory Tasks
 
 Some parts of the onboarding process are mandatory. Current onboarding mandatory tasks are:
@@ -110,7 +110,7 @@ Some parts of the onboarding process are mandatory. Current onboarding mandatory
 - Enabling Jamf
 - Completing BambooHR profile
 - Security Training - Due one month after start date.
-  
+
   - Watch Security Awareness training
   - Complete Security Awareness training assessment (form)
   - Read the security policy
@@ -119,7 +119,9 @@ Some parts of the onboarding process are mandatory. Current onboarding mandatory
   - Enable 2FA on GSuite
   - Review the Code of Conduct
   - If the task was not completed by the due date you will receive a reminder alert via email. The grace period for completing the task will be two weeks after the original due date. In the event the task is not completed by the end of the grace period an escalation notification will be sent to your manager and the People Ops team.
+
 - Preventing Harassment and Discrimination Training - Due one month after start date.
+
   - This mandatory training is refreshed annually on the anniversary of your start date.
 
 - One-Month Feedback Milestone Meeting - Due one month after start date.
