@@ -23,7 +23,11 @@ Access to the production Cody Gateway instance can be provisioned with the follo
 
 Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
 
-## Configuring completions
+## Configuration
+
+> WARNING: **For Sourcegraph Cloud customers, please use the [Cody enablement issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fenable-cody-request&projects=&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D) to request configuration** instead of applying configuration changes yourself or asking the customer to do so.
+
+### Configuring completions
 
 First, [provision access](#provisioning-access) for the customer.
 Then, on the Sourcegraph instance, configure `sourcegraph` as the completions provider:
@@ -43,7 +47,7 @@ For `cody-gateway.sgdev.org`, the `endpoint` should be `https://cody-gateway.sgd
 
 > NOTE: The generated access token from [provisioning access](#provisioning-access) is not required, but can optionally be configured as `accessToken` if explicitness is desired.
 
-## Configuring embeddings
+### Configuring embeddings
 
 First, [provision access](#provisioning-access) for the customer.
 Then, on the Sourcegraph instance, configure `sourcegraph` as the embeddings provider:
