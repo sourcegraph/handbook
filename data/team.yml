@@ -1195,17 +1195,6 @@ cory_dobson:
   links: '[LinkedIn](https://www.linkedin.com/in/cory-dobson-12530826/)'
   description: 'Cory is an Enterprise Account Executive based in Portland, OR. Prior to Sourcegraph, Cory worked in different Solutions Engineering roles at developer-focused companies like GitHub, Stripe, and Algolia. Outside of work, he likes playing music, taking photos, and exploring new places.'
 
-isuru_fonseka:
-  name: Isuru Fonseka
-  pronouns: he/him
-  role: Senior Customer Engineer
-  reports_to: rd_ce_us_apj
-  location: Sydney, Australia 🇦🇺
-  github: Isuru-F
-  email: isuru.fonseka@sourcegraph.com
-  links: '[LinkedIn](https://linkedin.com/in/isurufonseka)'
-  description: 'Isuru lives in Sydney, Australia. In his free time he is hanging out with his wife and two cats, fishing, or playing squash'
-
 daniel_dides:
   name: Daniel Dides
   role: Software Engineer
