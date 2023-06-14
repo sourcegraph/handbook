@@ -45,7 +45,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - Feedback milestones
 - For hiring managers
 - Glossary
-- [Intro to Git](onboarding/git-intro/index.md)
+- Intro to Git
 
 ## [Working at Sourcegraph](working-at-sourcegraph/index.md)
 
