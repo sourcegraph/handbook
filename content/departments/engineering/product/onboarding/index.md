@@ -6,7 +6,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 
 ## Manager checklist
 
-- Visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
+- Visit the [Onboarding process for Hiring Managers](../../../people-talent/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
 - Create an onboarding Google doc for the new teammate
   - Link to this page and relevant team specific pages such as [designer onboarding](../../design/onboarding/index.md)
   - Customize your teammates onboarding tasks as required
