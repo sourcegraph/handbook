@@ -34,7 +34,7 @@
 
 ## Managing people
 
-- [Onboarding direct reports as hiring manager](../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md)
+- [Onboarding direct reports as hiring manager](../../departments/people-talent/onboarding-for-hiring-managers.md)
 
   - [Scenario: There's a trip planned and I want my soon to be direct report to come and need a Guest TripAction invite](../../benefits-pay-perks/benefits-perks/travel/Navan.md#new-teammates-joining-trips)
   - [2022 Cohort calendar start dates](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0)
