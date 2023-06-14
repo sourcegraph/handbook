@@ -118,6 +118,7 @@ or that we have accepted as low risk. You can find more details about these belo
 
 ### 5.0
 
+- [5.0.6](./5-0-6.md)
 - [5.0.5](./5-0-5.md)
 - [5.0.4](./5-0-4.md)
 - [5.0.3](./5-0-3.md)
