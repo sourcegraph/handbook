@@ -16,7 +16,7 @@ You'll have to get some basics set up in your first few days:
 
 ## Manager checklist
 
-For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page.
+For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../../people-talent/onboarding-for-hiring-managers.md) page.
 
 Your manager should complete the following steps when you join:
 
