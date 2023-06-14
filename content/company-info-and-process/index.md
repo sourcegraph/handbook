@@ -43,7 +43,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 - Buddy program
 - Feedback milestones
-- [For hiring managers](onboarding/onboarding-for-hiring-managers.md)
+- For hiring managers
 - [Glossary](onboarding/glossary.md)
 - [Intro to Git](onboarding/git-intro/index.md)
 
