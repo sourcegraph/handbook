@@ -18,7 +18,7 @@ Teammates can leave us in 3 ways:
 
 ### 1. Voluntary Resignations
 
-Woluntary exits occur when a Teammate chooses to resign from their role at Sourcegraph. These exits are generally initiated by the Teammate, not Sourcegraph. If you decide that resigning is the best course of action, please confirm your last day of work with your manager and follow the steps below. If you are considering resigning or have any questions about the resignation process, please contact your People Partner or send an email to [people-teams@sourcegraph.com](mailto:people-team@sourcegraph.com).
+Voluntary exits occur when a Teammate chooses to resign from their role at Sourcegraph. These exits are generally initiated by the Teammate, not Sourcegraph. If you decide that resigning is the best course of action, please confirm your last day of work with your manager and follow the steps below. If you are considering resigning or have any questions about the resignation process, please contact your People Partner or send an email to [people-teams@sourcegraph.com](mailto:people-team@sourcegraph.com).
 
 ### **Voluntary Resignation Process**
 
