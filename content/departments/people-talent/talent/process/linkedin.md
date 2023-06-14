@@ -44,7 +44,7 @@ Before you jump in and start building projects and sending inmails, become famil
 - **Step 1**: The Recruiter or Sourcer will [create the project](https://www.linkedin.com/help/recruiter/answer/a417035/create-a-project-in-recruiter-and-recruiter-lite?lang=en) for a new job opening (be sure to coordinate with each other to avoid duplication of effort).
 - **Step 2**: The Recruiter or Sourcer will name the project so that project collaborators know exactly which role this project is for.
 
-  - Standard naming convention: {DepartmentName} - {TitleofRole} - {DateOfOpening} (DD/MM/YYYY) ({Recruiter's Name}) 
+  - Standard naming convention: {DepartmentName} - {TitleofRole} - {DateOfOpening} (DD/MM/YYYY) ({Recruiter's Name})
     - Example 1: Engineering - Senior Software Engineer - 16/2/2022 (Kelsey)
     - Example 2: Product - ProductManager - 24/1/2022 (Devon)
 
