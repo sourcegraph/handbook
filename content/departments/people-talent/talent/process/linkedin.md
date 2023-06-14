@@ -44,9 +44,9 @@ Before you jump in and start building projects and sending inmails, become famil
 - **Step 1**: The Recruiter or Sourcer will [create the project](https://www.linkedin.com/help/recruiter/answer/a417035/create-a-project-in-recruiter-and-recruiter-lite?lang=en) for a new job opening (be sure to coordinate with each other to avoid duplication of effort).
 - **Step 2**: The Recruiter or Sourcer will name the project so that project collaborators know exactly which role this project is for.
 
-  - Standard naming convention: {DepartmentName}_{TitleofRole}_{DateOfOpening} (DD/MM/YYYY)
-    - Example 1: Engineering_SeniorSoftwareEngineer_16/2/2022
-    - Example 2: Product_ProductManager_24/1/2022
+  - Standard naming convention: {DepartmentName} - {TitleofRole} - {DateOfOpening} (DD/MM/YYYY) ({Recruiter's Name})
+    - Example 1: Engineering - Senior Software Engineer - 16/2/2022 (Kelsey)
+    - Example 2: Product - ProductManager - 24/1/2022 (Devon)
 
 - **Step 3**: Under **Project Settings > Project Details**, the Recruiter or Sourcer will add relevant information gathered from the intake call, such as scope of work, ideal experience, etc. This is to create a point of reference for project collaborators.
 - **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Hiring Manager, Recruiting Operations Specialist/Sourcer, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
