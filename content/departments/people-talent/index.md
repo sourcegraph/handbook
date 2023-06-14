@@ -231,7 +231,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Onboarding your new hire
 
-- [Onboarding for Hiring Managers]
+- [Onboarding for Hiring Managers](onboarding-for-hiring-managers.md)
 
 ### Teammate development & mobility
 
