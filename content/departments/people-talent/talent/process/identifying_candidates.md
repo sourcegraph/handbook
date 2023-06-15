@@ -38,7 +38,7 @@ If you are a Sourcegraph teammate and you receive an email and/or resume from a 
 
 - Current teammates can refer a candidate directly in Slack! There are two ways to do this:
   - Use the Slack commands `/booster` or `/referrals-deel` to trigger the referral form
-  - Join `#ask-hiring`, where we’ll regularly highlight open roles and include a ‘click to refer’ button. 
+  - Join `#ask-hiring`, where we’ll regularly highlight open roles and include a ‘click to refer’ button.
 
 There is no need for your referral to apply through our careers page once you have referred them via Slack. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page. We do not offer referral bonuses at this time.
 
