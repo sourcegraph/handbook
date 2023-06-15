@@ -59,6 +59,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Buddy Program](buddy-program.md)
+- [Onboarding Mentors](onboarding-mentor.md)
 - [Onboarding Feedback Milestones](onboarding-feedback-milestones.md)
 - [Glossary of Terms](../../company-info-and-process/onboarding/glossary.md)
 - [Intro to Git]
