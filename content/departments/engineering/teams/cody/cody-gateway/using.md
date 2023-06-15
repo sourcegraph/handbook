@@ -5,7 +5,7 @@ This page provides enablement to help Sourcegraph teammates grant customers acce
 
 For customers who adopted Cody completions prior to Sourcegraph 5.1.0, see [Migrating from Anthropic/OpenAI completions](#migrating-from-anthropicopenai-completions).
 
-> NOTE: Cody Gateway is only available to instances on Sourcegraph 5.1.0 and above.
+> NOTE: Cody Gateway is only available to instances on Sourcegraph 5.1.0 and above. This guidance is not relevant to customers on any previous Sourcegraph release.
 
 ## Provisioning access
 
@@ -34,8 +34,8 @@ Then, on the Sourcegraph instance, configure `sourcegraph` as the completions pr
 
 ```json
 {
+  "cody.enabled": true,
   "completions": {
-    "enabled": true,
     "provider": "sourcegraph",
     "chatModel": "anthropic/claude-v1",
     "completionModel": "anthropic/claude-instant-v1"
@@ -54,8 +54,8 @@ Then, on the Sourcegraph instance, configure `sourcegraph` as the embeddings pro
 
 ```json
 {
+  "cody.enabled": true,
   "embeddings": {
-    "enabled": true,
     "provider": "sourcegraph",
     "model": "openai/text-embedding-ada-002",
     "dimensions": 1536
@@ -98,15 +98,14 @@ A full migration example:
 
 ```json
 {
+  "cody.enabled": true,
   "completions": {
-    "enabled": true,
     "provider": "anthropic",
     "accessToken": "REDACTED",
     "chatModel": "claude-v1",
     "completionModel": "claude-instant-v1"
   },
   "embeddings": {
-    "enabled": true,
     "provider": "openai",
     "accessToken": "REDACTED",
     "model": "text-embedding-ada-002",
@@ -120,14 +119,13 @@ A full migration example:
 
 ```json
 {
+  "cody.enabled": true,
   "completions": {
-    "enabled": true,
     "provider": "sourcegraph",
     "chatModel": "anthropic/claude-v1",
     "completionModel": "anthropic/claude-instant-v1"
   },
   "embeddings": {
-    "enabled": true,
     "provider": "sourcegraph",
     "model": "openai/text-embedding-ada-002",
     "dimensions": 1536
