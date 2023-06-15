@@ -13,7 +13,7 @@ As a company, we use [Process Street](https://app.process.st/reports/) to guide 
 Each new team member is paired with two individuals during their onboarding time. Both of these assignments will be indicated in your Process Street checklist.
 
 - An [onboarding buddy](../buddy-program.md): your onboarding buddy is assigned as part of our company-wide onboarding program. For the Talent team, this will be a peer from an adjacent team with whom you'll work closely.
-- An onboarding mentor: your onboarding mentor will be someone from your team who will regularly check-in with you and help guide you throughout onboarding.
+- An [onboarding mentor](../onboarding-mentor.md): your onboarding mentor will be someone from your team who will regularly check-in with you and help guide you throughout onboarding.
 
 ## Talent Onboarding
 
