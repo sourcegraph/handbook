@@ -116,17 +116,17 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 - If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
 
-### Temporary laptop options
+### Temporary Computer options
 
 Please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations .
 
-### Laptop refresh
+### Computer refresh
 
 If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop.
 
-If you would like to upgrade to the new M2 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
+If you would like to upgrade to the new M2 Pro but you have had your current computer for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
 
-Decommissioning of your previous laptop will be handled through Tech Ops and our device management platform. This will involve data wiping the device, completing the buyback process, or retrieving the laptop to be stored at our hardware vendor.
+Decommissioning of your previous computer will be handled through Tech Ops and our device management platform. This will involve data wiping the device, [completing the buyback process](https://handbook.sourcegraph.com/departments/tech-ops/process/buyback/#computer-buyback-program), or retrieving the computer to be stored at our hardware vendor for continued company use.
 
 ## Recurring expenses
 
