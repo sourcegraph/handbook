@@ -4,7 +4,7 @@ For CE's, in addition to the company-wide onboarding buddy program, we assign ne
 
 Our [goal](index.md) is to get CE's fully ready to lead their first customer meeting starting on week 5. Mentors are most critical to helping make this happen!
 
-You can read more about [Onboarding Mentors here](../../../../company-info-and-process/onboarding/onboarding-mentor.md).
+You can read more about [Onboarding Mentors here](../../../people-talent/onboarding-mentor.md).
 
 ## Mentor Checklist
 
