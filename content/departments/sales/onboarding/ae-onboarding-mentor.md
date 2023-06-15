@@ -2,7 +2,7 @@
 
 In addition to an Onboarding Buddy, AEs will be paired up with an Onboarding Mentor. The mentor will be someone from the sales team who will act as a point of contact for role-related support during an AEs ramp period. As a peer, mentors will provide support and guidance while AEs are learning and practicing the sales pitch and sales process. They will also help AEs determine who to go to in the company for various Sales related tasks or partnerships.
 
-You can read more about [Onboarding Mentors here](../../../company-info-and-process/onboarding/onboarding-mentor.md)
+You can read more about [Onboarding Mentors here](../../people-talent/onboarding-mentor.md)
 
 ## Why We Have Onboarding Mentors
 
