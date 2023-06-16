@@ -598,7 +598,7 @@ We expect this to take you ~1 hour. What’s important is that the writing is cl
 
 Please send link to your Google doc using the link below when you are finished.
 
-#### Product Manager, Growth overview of past projects 
+#### Product Manager, Growth overview of past projects
 
 Please bring an overview of one or two past project(s) we can use to dig deep in to understand your thought process. This overview can be any format (PDF, Google Slides, written document with screenshots, etc) which helps you clearly outline the project. Ideally, this project...
 
