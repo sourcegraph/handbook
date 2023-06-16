@@ -175,9 +175,9 @@ Please note that if you encounter any issues that can be resolved with an upgrad
 
 ### Cody clients and backwards compatibility
 
-Cody client extensions, such as the VS Code extension, need to maintain backwards compatibility with Sourcegraph servers back to 5.0.0. The Sourcegraph server has no backward compatibility requirements with respect to the clients. However, the server should try to maintain it on a best effort basis.
+Cody client extensions, such as the VS Code extension, need to maintain backwards compatibility with Sourcegraph servers back to 5.0.0. The Sourcegraph server has no backward compatibility requirements with respect to the clients. However, the server should try to maintain backwards compatibility with clients on a best effort basis.
 
-Why only back to 5.0 instead of our standard policy of latest version and previous major version? That will be our eventually policy. However, since Cody was new to 5.0.0, it's a necessary exception to that policy.
+Why only back to 5.0 instead of our standard policy of latest version and previous major version? That will eventually be our policy. However, since Cody was new to 5.0.0, it's a necessary exception to that policy.
 
 ## Minor release process
 
