@@ -97,13 +97,12 @@ The kicker? Only 65% of devs say their company has a plan to address Big Code pr
 
 ### Market segmentation
 
-We segment our customers into 5 tiers to help ensure we give the appropriate kind of support to each organization. Having a single market segmentation helps teams and processes across Sourcegraph stay consistent.
+We segment our customers into 3 tiers, or segments, to help ensure we give the appropriate kind of support to each organization. Having a single market segmentation helps teams and processes across Sourcegraph stay consistent.
 
-Our five customer tiers are:
-| Customer tier | Tier criteria |
+Our three customer segments are:
+
+| Customer Segment | Segment criteria |
 | ---------------- | ---------------------------------------------- |
 | Strategic | 10k+ devs OR $1m+ ARR |
-| Large Enterprise | 3k - 10k devs OR $500k - $1m ARR |
-| Small Enterprise | 1.5k - 3k devs OR $100k - $500k ARR |
-| Mid-Market | 500 - 1.5k devs AND less than $100k ARR |
-| Tech Nurtured | Any customer below 500 estimated devs |
+| Enterprise | 1.5k - 10k devs OR $100k - $1m ARR |
+| Commercial | 0 - 1.5k devs AND less than $100k ARR |
