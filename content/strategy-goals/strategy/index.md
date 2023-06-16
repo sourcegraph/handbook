@@ -101,8 +101,8 @@ We segment our customers into 3 tiers, or segments, to help ensure we give the a
 
 Our three customer segments are:
 
-| Customer Segment | Segment criteria |
-| ---------------- | ---------------------------------------------- |
-| Strategic | 10k+ devs OR $1m+ ARR |
-| Enterprise | 1.5k - 10k devs OR $100k - $1m ARR |
-| Commercial | 0 - 1.5k devs AND less than $100k ARR |
+| Customer Segment | Segment criteria                      |
+| ---------------- | ------------------------------------- |
+| Strategic        | 10k+ devs OR $1m+ ARR                 |
+| Enterprise       | 1.5k - 10k devs OR $100k - $1m ARR    |
+| Commercial       | 0 - 1.5k devs AND less than $100k ARR |
