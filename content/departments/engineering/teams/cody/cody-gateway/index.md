@@ -11,7 +11,7 @@ In general, we have two Cody Gateway deployments running:
 - `cody-gateway.sourcegraph.com` - for production usage
 - `cody-gateway.sgdev.org` - for development and testing
 
-> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [Using Cody Gateway](./using.md).
+> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [Using Cody Gateway](./using.md), or refer to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/cody_gateway).
 
 Contents:
 
@@ -34,6 +34,8 @@ See [Cody Gateway: working design](https://docs.google.com/document/d/1fAKuYM02v
 
 Source code for Cody Gateway is in [`sourcegraph/sourcegraph/enterprise/cmd/cody-gateway`](https://github.com/sourcegraph/sourcegraph/tree/main/enterprise/cmd/cody-gateway).
 The image gets built the same as any other Sourcegraph service, i.e. with `insiders` and the standard `main`-branch tags.
+
+For local development, refer to [How to set up Cody Gateway locally](https://docs.sourcegraph.com/dev/how-to/cody_gateway).
 
 ## Operation
 

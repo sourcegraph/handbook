@@ -1,5 +1,7 @@
 # Using Cody Gateway
 
+> NOTE: This page is for internal Sourcegraph reference - for customer-facing documentation, please refer to [Sourcegraph Cody Gateway](https://docs.sourcegraph.com/cody/cody_gateway) instead.
+
 Cody Gateway can be configured as a provider for [Cody completions](https://docs.sourcegraph.com/cody/completions) and [Cody embeddings](https://docs.sourcegraph.com/cody/explanations/code_graph_context#embeddings).
 This page provides enablement to help Sourcegraph teammates grant customers access to Cody Gateway and analyze usage.
 
@@ -17,7 +19,6 @@ Access to the production Cody Gateway instance can be provisioned with the follo
 3. Under "Cody services":
    1. Enable access to Cody Gateway
    2. If desired, configure a custom rate limit for the desired features
-   3. Copy the generated access token
 
 > NOTE: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
 
@@ -27,45 +28,10 @@ Access to `cody-gateway.sgdev.org` is the same as the above, but requires that t
 
 > WARNING: **For Sourcegraph Cloud customers, please use the [Cody enablement issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fenable-cody-request&projects=&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D) to request configuration** instead of applying configuration changes yourself or asking the customer to do so.
 
-### Configuring completions
-
 First, [provision access](#provisioning-access) for the customer.
-Then, on the Sourcegraph instance, configure `sourcegraph` as the completions provider:
+Once access has been provisioned, please point them to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/cody_gateway) to enable Cody and self-serve configuration for completions and embeddings.
 
-```json
-{
-  "cody.enabled": true,
-  "completions": {
-    "provider": "sourcegraph",
-    "chatModel": "anthropic/claude-v1",
-    "completionModel": "anthropic/claude-instant-v1"
-  }
-}
-```
-
-For `cody-gateway.sgdev.org`, the `endpoint` should be `https://cody-gateway.sgdev.org`.
-
-> NOTE: The generated access token from [provisioning access](#provisioning-access) is not required, but can optionally be configured as `accessToken` if explicitness is desired.
-
-### Configuring embeddings
-
-First, [provision access](#provisioning-access) for the customer.
-Then, on the Sourcegraph instance, configure `sourcegraph` as the embeddings provider:
-
-```json
-{
-  "cody.enabled": true,
-  "embeddings": {
-    "provider": "sourcegraph",
-    "model": "openai/text-embedding-ada-002",
-    "dimensions": 1536
-  }
-}
-```
-
-For `cody-gateway.sgdev.org`, the `endpoint` should be `https://cody-gateway.sgdev.org/v1/embeddings`.
-
-> NOTE: The generated access token from [provisioning access](#provisioning-access) is not required, but can optionally be configured as `accessToken` if explicitness is desired.
+> NOTE: The generated access token from [provisioning access](#provisioning-access) is generally not required - tokens are automatically generated based on the Sourcegraph instance's license token.
 
 ## Analyzing usage
 
