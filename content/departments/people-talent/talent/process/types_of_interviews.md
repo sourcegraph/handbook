@@ -598,6 +598,16 @@ We expect this to take you ~1 hour. What’s important is that the writing is cl
 
 Please send link to your Google doc using the link below when you are finished.
 
+#### Product Manager, Growth overview of past projects 
+
+Please bring an overview of one or two past project(s) we can use to dig deep in to understand your thought process. This overview can be any format (PDF, Google Slides, written document with screenshots, etc) which helps you clearly outline the project. Ideally, this project...
+
+- is something that you played a key role in from inception to delivery
+- had a number of iterations to get to the outcome
+- leverages data to make decisions along the way
+
+This interview will include a PM and designer from our team who have been focusing on growth. They will use the hour to dig into the project info you prepared to understand how you think about running growth projects.
+
 #### Product interview
 
 - Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the PR-FAQ.
