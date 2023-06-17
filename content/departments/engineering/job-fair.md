@@ -68,7 +68,7 @@ Most of prioritisation takes place on a [3-month cadence](#planning-sequence). N
 
 ### PR-FAQs
 
-PR-FAQ stands for Press Release / FAQ. It's a [popular way](https://www.optimizeforoutcomes.com/the-PR-FAQ/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
+PR-FAQ stands for Press Release / FAQ. It's a [popular way](https://www.optimizeforoutcomes.com/the-prfaq/) to define projects by working backwards from the customer; there are many [resources online](https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167) with [templates](https://medium.com/agileinsider/press-releases-for-product-managers-everything-you-need-to-know-942485961e31) and discussions.
 
 PR-FAQs should cover work that is at least 3 weeks for 1 engineer, either in the form of a standalone PR-FAQ, or in the form of a milestone defined in an existing PR-FAQ.
 
