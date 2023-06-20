@@ -76,7 +76,7 @@ security incident or other critical issue affecting the usage of Sourcegraph.
 #### Requesting a patch
 
 1. To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
-2. Notify the release guild (#release-guild)
+2. Notify the release guild (#ask-release-guild)
 
 ## Key concepts and components
 
