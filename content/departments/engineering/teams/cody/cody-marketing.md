@@ -71,4 +71,4 @@ Cody works on all your code from all code hosts, and will integrate with all oth
 
 ### Scalable & secure
 
-Sourcegraph is trusted by the most discerning devs and companies, including ⅘ FAANG, 4/10 to US banks, Uber and GE. The same scalability and security practices extend to Cody: a zero retention policy on both inputs and outputs, respecting all code host permissions, and industry-leading indemnity.
+Sourcegraph is trusted by the most discerning devs and companies, including ⅘ FAANG, 4/10 top US banks, Uber and GE. The same scalability and security practices extend to Cody: a zero retention policy on both inputs and outputs, respecting all code host permissions, and industry-leading indemnity.
