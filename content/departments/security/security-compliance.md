@@ -8,15 +8,15 @@ GRC (Governance, Risk, and Compliance) is a critical component of a comprehensiv
 
 By implementing a GRC (Governance, Risk, and Compliance) program, Sourcegraph has established a structured approach to managing governance, risk, and compliance activities, providing several key benefits:
 
-* Our security policies help employees to perform their tasks with security in mind and with consistent security practices.
-* Our security risk register provides an overview of the most vulnerable areas, enabling Sourcegraph to prioritize its resources effectively.
-* Our control compliance was verified by an external party in the form of the SOC 2 attestation, which provides additional assurance to customers that Sourcegraph's controls are effective and aligned with industry best practices.
-* Our GRC tool provides us with continuous visibility into the compliance (aka health) of our security controls , which gives us improved decision-making capabilities through the ability to track, analyze and report on GRC-related activities, data, and metrics.
-* By implementing and maintaining a GRC program we have improved our overall organizational reputation due to a well-managed and effective GRC program.
+- Our security policies help employees to perform their tasks with security in mind and with consistent security practices.
+- Our security risk register provides an overview of the most vulnerable areas, enabling Sourcegraph to prioritize its resources effectively.
+- Our control compliance was verified by an external party in the form of the SOC 2 attestation, which provides additional assurance to customers that Sourcegraph's controls are effective and aligned with industry best practices.
+- Our GRC tool provides us with continuous visibility into the compliance (aka health) of our security controls , which gives us improved decision-making capabilities through the ability to track, analyze and report on GRC-related activities, data, and metrics.
+- By implementing and maintaining a GRC program we have improved our overall organizational reputation due to a well-managed and effective GRC program.
 
-## Tooling we use for GRC 
+## Tooling we use for GRC
 
-Anecdotes is a tool we use internally for our risk register and  control library 
+Anecdotes is a tool we use internally for our risk register and control library
 
 Our new GRC tool, Anecdotes, is helping us in the following ways:
 
@@ -26,4 +26,4 @@ Our new GRC tool, Anecdotes, is helping us in the following ways:
 4. Reporting: Anecdotes provides advanced reporting capabilities, enabling us to generate reports quickly and easily. This means that we can easily identify areas of risk and compliance gaps and take corrective action. It also allows us to share reports with key stakeholders to demonstrate our commitment to security and compliance.
 5. Scalability: As our organization grows and evolves, Anecdotes can scale to accommodate new risks, controls, and compliance requirements. This means we can stay on top of our GRC responsibilities without needing to constantly adjust our processes and tools.
 
-Overall, Anecdotes has helped us establish a more streamlined and efficient approach to GRC activities. It allows us to focus on the most important areas of risk and compliance, while providing auditors and other stakeholders (customers)  with the evidence they need to ensure our controls are effective and aligned with best practices.
+Overall, Anecdotes has helped us establish a more streamlined and efficient approach to GRC activities. It allows us to focus on the most important areas of risk and compliance, while providing auditors and other stakeholders (customers) with the evidence they need to ensure our controls are effective and aligned with best practices.
