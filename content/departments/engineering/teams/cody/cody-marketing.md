@@ -14,17 +14,17 @@ For technical Cody information, see the [About Cody FAQ](about-cody-faq.md).
 - [[INTERNAL] Cody now vs June launch](https://docs.google.com/document/d/1aeURAVcEFL8h7Ty12zynQqGAAxMIrQPjxtBHt2eWEi4/edit#heading=h.bjeta1wz1jyr)
 - [Sourcegraph Cody: security and legal whitepaper](https://docs.google.com/document/d/1uU6g-NuHZJgoQ54o4bxd1aYUJLE01czc8sj7-F2tUcM/edit#heading=h.lojlxex806s0)
 
-## Describing Sourcegraph 
+## Describing Sourcegraph
 
 Sourcegraph is a code AI platform: “software that builds software”. Our code graph powers Cody, the most powerful and accurate code AI for writing, fixing, and maintaining code, and Code Search, helping devs explore their entire codebase and make large-scale migrations and security fixes. Our customers include 4 of the top 10 banks, 4/5 FAANG companies, government organizations, Uber, Plaid, and many other companies building the software that pushes the world forward.
 
 ## Describing the code AI platform
 
-The code AI platform is a combination of the code graph, Sourcegraph tools and LLMs which collectively power Cody and Code Search, giving devs and engineering leaders a complete understanding of their codebase. The code AI platform has four foundational elements: the code graph, tools, APIs and Large Language Models (LLMs). 
+The code AI platform is a combination of the code graph, Sourcegraph tools and LLMs which collectively power Cody and Code Search, giving devs and engineering leaders a complete understanding of their codebase. The code AI platform has four foundational elements: the code graph, tools, APIs and Large Language Models (LLMs).
 
 ### Code graph
 
-The code graph contains all your code, and all the info about your code. Sourcegraph’s technology turns the unstructured nature of code and code metadata into structured data to power Cody’s best-in-class contextual awareness. 
+The code graph contains all your code, and all the info about your code. Sourcegraph’s technology turns the unstructured nature of code and code metadata into structured data to power Cody’s best-in-class contextual awareness.
 
 ### Tools
 
@@ -37,7 +37,6 @@ Developers can build their own custom tools on top of the Sourcegraph platform v
 ### Large Language Models (LLMs)
 
 Sourcegraph gives teams the freedom to choose the best large language model to fit their needs.
-
 
 ## Describing Cody
 
@@ -64,7 +63,7 @@ Sourcegraph gives teams the freedom to choose the best large language model to f
 
 ### Powerful & accurate
 
-Cody leverages Sourcegraph’s code graph to fetch code context, resulting in more precise outputs in line with an organization’s codebase and best practices. This accuracy is applied to a wider range of AI coding assistant functionality and use cases. 
+Cody leverages Sourcegraph’s code graph to fetch code context, resulting in more precise outputs in line with an organization’s codebase and best practices. This accuracy is applied to a wider range of AI coding assistant functionality and use cases.
 
 ### Universal
 
