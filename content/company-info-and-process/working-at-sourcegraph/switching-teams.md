@@ -24,12 +24,12 @@ For now, any member of the Sourcegraph team is eligible to request to take on a 
 
 Whether hiring an internal candidate (someone who already works at Sourcegraph) or an external candidate, we always want to follow best practice. What does that mean?
 
-- All candidates go through the same [interview process](../../departments/people-talent/talent/process/interview_process.md), regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
+- Internal candidates may go through an adjusted interview plan that does not necessarily mirror external candidates. 
 - The role should be kicked off following the steps outlined [here](../../departments/people-talent/talent/process/opening_a_new_job.md). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
 - The team and interviewers are aligned on role expectations and how we are going to measure those things. An interview plan must be created and predetermined structured interview questions should be asked to all candidates.
 - We ensure that the person we hire meets the expectations of the role.
 
-We can’t skip any of these steps for internal transfers; we maintain our usual high standards and expectations every step of the way for both internal and external candidates.
+We maintain our usual high standards and expectations every step of the way for both internal and external candidates.
 
 Having said that, internal candidates do have advantages in satisfying the requirements if they are interested in a role:
 
