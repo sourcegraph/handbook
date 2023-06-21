@@ -202,7 +202,7 @@ US teammates:
 - Unlike Rippling, you do **not** need an invite to login to Sequoia. Please download the Sequoia app and create an account with your <span style="text-decoration:underline;">work email</span>.
   - [Apple Store](https://apps.apple.com/us/app/sequoia-mobile/id1185900896)
   - [Google Play Store](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)
-- You can also login to the web browser version through Okta.
+- You can also login to the web browser version through [their website](https://login.sequoia.com/?redirect=https://px.sequoia.com/home)
 
 Non-US teammates:
 
@@ -215,7 +215,7 @@ US teammates:
 - Please use the links below to download the app on your phone and create an account using your Sourcegraph email.
   - [Apple Store](https://apps.apple.com/us/app/sequoia-mobile/id1185900896)
   - [Google Play Store](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)
-- You can also access the web browser version through your Okta tile
+- You can also access the web browser version through [their website](https://login.sequoia.com/?redirect=https://px.sequoia.com/home)
 
 Non-US teammates:
 
