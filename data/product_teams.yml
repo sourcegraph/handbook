@@ -32,7 +32,6 @@ batch_changes:
   title: Batch Changes
   brief: Batch Changes is a tool to find code that needs to be changed and change it at scale by running code.
   strategy_link: /strategy-goals/strategy/batch-changes/index.md
-  pm: malo_marrec
   em: chris_pine
   design: daniel_marques
   issue_labels:
