@@ -95,7 +95,13 @@ In fact, the `*.sourcegraph.com` domain will continue to work even after custom 
 
 ## Operation
 
+### Enable custom domain
+
+Learn more from [how to setup a custom domain](#how-to-set-up-a-custom-domain).
+
 ### Migrate current instances as a custom domain of the new Cloud domain
+
+> WARNING: you most likely are looking to enable custom domain instead of migrating `customer.sourcegraph.com` as custom domain of `customer.sourcegraphcloud.com`. this is only needed when we decided to deprecate `sourcegraph.com` on Cloud completely.
 
 As of 2023-05-03, new Cloud instances are provisioned with new domains of `sourcegraphcloud.com` or `sgdev.dev`. This seciton will walk you through the process of migrating `customer.sourcegraph.com` as a custom domain of `customer.sourcegraphcloud.com`.
 
