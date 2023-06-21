@@ -128,6 +128,9 @@ BigQuery data can be found in the `events` table of the following datasets:
 
 See [`enterprise/internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/internal/codygateway/consts.go) for the list of events types that are currently tracked.
 
+Data can be queried directly in BigQuery tables above, or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. A sample query with some basic visualizations is available for use: [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72).
+A simple overview can also be seen in each product subscription's licenses page - see [Using Cody Gateway: Analyzing usage](./using.md#analyzing-usage).
+
 ### Service accounts
 
 cody-gateway access Sourcegraph.com through standard Sourcegraph.com users that are configured with feature flags to enable special access to GraphQL queries and mutations related to product subscriptions.

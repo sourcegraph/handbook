@@ -42,7 +42,7 @@ A brief summary of Cody Gateway usage is available in each subscription's "Cody 
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. View data in "Cody services" section
 
-Usage data is collected on a variety of events going through Cody Gateway, which is then sent to BigQuery. To learn more, see [Usage events](./index.md#usage-events).
+Usage data is collected on a variety of events going through Cody Gateway, which is then sent to BigQuery. For more advanced use cases, see [Usage events](./index.md#usage-events) for more details.
 
 ## Migrating from Anthropic/OpenAI completions
 
