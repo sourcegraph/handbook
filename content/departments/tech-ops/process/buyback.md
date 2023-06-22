@@ -2,7 +2,7 @@
 
 Sourcegraph teammates have the opportunity to purchase their previously used device after they have gone through a [device upgrade](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#laptop-upgrade). The entire buyback process, including a full wipe, should be completed within two weeks of receiving a new device.
 
-Tech Ops will source the current trade-in or fair market value of the device and offer a 50/50 purchase price to keep the device as a personal device (please no haggling). Tech Ops will then work with the teammate to finalize payment and perform a factory reset on the device through our endpoint security software. For legal reasons, resets must be performed by Tech Ops and be full factory reset.
+Tech Ops will source the fair market value of the device and offer a 50/50 purchase price to keep the device as a personal device (please no haggling). Tech Ops will then work with the teammate to finalize payment and perform a factory reset on the device through our endpoint security software. For legal reasons, resets must be performed by Tech Ops and be full factory reset.
 
 ## Steps for processing a purchase:
 
