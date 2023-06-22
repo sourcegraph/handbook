@@ -23,7 +23,7 @@
 
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Safety]
-- [Required workplace postings/posters - US](required-posting-page/.md)
+- [Required workplace postings/posters - US](Required-posting-page.md)
 - [Teammate development](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Training](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md)
   - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
