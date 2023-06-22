@@ -296,7 +296,7 @@ A: Each parent is individually eligible for paid parental leave. The leave can b
 
 A: Please notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with your updated leave start date or return-to-work-date as soon as possible, and we will guide you on who else you need to inform depending on your location and employment status (PEO or Contractor), and whether approval is required.
 
-#### If I adopt or foster more than one child in a year (12 months) can I take multiple parental leaves? 
+#### If I adopt or foster more than one child in a year (12 months) can I take multiple parental leaves?
 
 A: Yes, however you are allowed a **total** of 16 weeeks per 12 months of parental leave - no matter the number of adoptions or foster-placements. You will need to choose how to distribute those weeks between adoption or foster-placecment events.
 
