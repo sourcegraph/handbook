@@ -62,14 +62,13 @@ eric_fritz:
 
 eric_brody-moore:
   name: Eric Brody-Moore
-  role: Business Operations Manager
-  reports_to: vp_operations
-  manager_role_slug: business_operations_manager
+  role: Product Marketing Manager
+  reports_to: ceo
   location: Nashville, TN, USA 🇺🇸
   github: ebrodymoore
   email: ericbm@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/ericbm/)'
-  description: Eric enjoys golfing, snowboarding and just about anything else outdoors. Prior to Sourcegraph, Eric has worked across strategy & ops, finance and analytics at Drift and Deloitte Consulting. He was going to end his bio here, but had to mention his deep, deep love for his hometown Michigan Wolverines.
+  description: Eric enjoys golfing, snowboarding and just about anything else outdoors. Prior to Sourcegraph, Eric has worked across strategy & ops, finance and analytics at Drift and Deloitte Consulting.
 
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
