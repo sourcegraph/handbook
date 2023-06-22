@@ -8,9 +8,9 @@ We support teammates at all stages of life, including during family planning. Pr
 
 ### Paid parental leave policy at Sourcegraph
 
-Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16 weeks per birth, adoption or placement event, covering the difference between any country or state-sponsored benefits and your full salary. (Teammates must sign up for any country or state-sponsored leave benefits if available. _Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section](#resources-for-teammates-with-a-commission-plan-sales--ce)._
+Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16 weeks per birth, and up to 16 weeks for one or multiple adoption or placement event(s) per 12 months, covering the difference between any country or state-sponsored benefits and your full salary. (Teammates must sign up for any country or state-sponsored leave benefits if available. _Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section](#resources-for-teammates-with-a-commission-plan-sales--ce)._
 
-**Adoption or Foster-placement leave** may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding.
+**Adoption or Foster-placement leave** PTO may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding. For post-placement bonding, we offer a **total** of 16 weeks per 12 months for adoption(s) or multiple foster-placements.
 
 **Leave preceding the birth of the child** is available to teammates as PTO, medical leave or statutory maternity benefits (dependent on location) . This is an additional benefit on top of the paid parental leave policy, which ensures up to 16 weeks of paid leave after the birth event. The People Team is available to consult on options for pre-birth and disability leave policies.
 
@@ -295,6 +295,10 @@ A: Each parent is individually eligible for paid parental leave. The leave can b
 ##### Q: What if my parental leave start date or return-to-work date changes?
 
 A: Please notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with your updated leave start date or return-to-work-date as soon as possible, and we will guide you on who else you need to inform depending on your location and employment status (PEO or Contractor), and whether approval is required.
+
+#### If I adopt or foster more than one child in a year (12 months) can I take multiple parental leaves?
+
+A: Yes, however you are allowed a **total** of 16 weeeks per 12 months of parental leave - no matter the number of adoptions or foster-placements. You will need to choose how to distribute those weeks between adoption or foster-placecment events.
 
 #### FAQ for US-based Teammates
 
