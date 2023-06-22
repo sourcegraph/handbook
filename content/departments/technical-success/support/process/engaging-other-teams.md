@@ -69,6 +69,12 @@ Any other questions about monitoring and performance for self-hosted customers s
 
 Any other questions about monitoring and performance for managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/../../cloud/index.md).
 
+### Cody
+
+**Keywords**: `embeddings`, `LLMs`, `anthropic`, `openAI`
+
+At the moment, Cody as a single entity exists as various products (Cody for web, Cody for VS Code, Cody App, etc...), and which issues go where is not cut and dry. For the time being, summarize your question in #ask-cody and they will send you in the right direction.
+
 ### Code host connections
 
 **Keywords**: `code host`, `cloning`, `syncing`, `token`, `GitHub`, `GitLab`, `Bitbucket`, `Phabricator`, `Gerrit`, `repository`, `project`, `Perforce`, `src-expose`, `src serve-git`
