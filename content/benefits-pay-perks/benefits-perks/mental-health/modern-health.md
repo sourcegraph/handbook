@@ -71,7 +71,6 @@ No, the people team will approve the stipend requests. Your manager is not part 
 There is not a one-size fits all solution to mental health resources. We recommend reviewing the recommended apps and find one that’s overview resonates with you.
 For US-based teammates: You can also reach out to our [benefits advocate team](../benefits.md#q-what-is-sequoia-consulting-group) to learn what therapy resources are available through your insurance plans.
 
-
 If you have questions not answered here, please reach out to the People Team through #ask-people-team or people-ops@sourcegraph.com.
 
 ### People team resources:
@@ -90,4 +89,3 @@ Internal process:
    2. Non-US based teammates: People Ops will send teammate an approval email requesting a one-time yearly stipend of $250USD be added to their next invoice
 5. Yearly a reminder is sent out to all teammates to submit the Google form to receive the stipend.
 6. [Here](https://docs.google.com/spreadsheets/d/1tDpZzByUFF_KTZxnlLoQJafOL7s7xdRRbIpILcPlpsE/edit?usp=sharing) is the tracker (access only provided to people team members)
-
