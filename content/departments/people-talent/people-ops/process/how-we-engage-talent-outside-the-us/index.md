@@ -104,6 +104,8 @@ To read more about Temporary contractors and how they are defined visit [this pa
 
 Since our teammates can generally work from anywhere in the world, we sponsor visas for only roles that require the presence in a particular country as part of the job responsibilities. In such cases we will work to support teammates as much as possible, but if our PEOs do not sponsor the visa, an alternative solution may take multiple months to implement. We encourage hiring managers to let the Talent and People Ops teams know as early as possible, before the role is even opened, if such requirements exist.
 
+**note**: We post all required LCA postings [here](../../../Required-posting-page.md)
+
 #### For role-required reasons
 
 In cases where a candidate or teammate's role within Sourcegraph would require their presence in a particular country, we will cover the costs of immigration assistance and work to support the candidate as much as possible. However, it is dependent on whether we, or our PEO partner, have the ability to sponsor the particular visa or immigration process. We encourage hiring managers to let the Talent and People Ops teams know as early as possible, even before the role is opened, if such requirements exist.
