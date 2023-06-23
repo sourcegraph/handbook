@@ -1,6 +1,6 @@
 # Using Cody Gateway
 
-> NOTE: This page is for internal Sourcegraph reference - for customer-facing documentation, please refer to [Sourcegraph Cody Gateway](https://docs.sourcegraph.com/cody/cody_gateway) instead.
+> NOTE: This page is for internal Sourcegraph reference - for customer-facing documentation, please refer to [**Sourcegraph Cody Gateway docs**](https://docs.sourcegraph.com/cody/explanations/cody_gateway) instead.
 
 Cody Gateway can be configured as a provider for [Cody completions](https://docs.sourcegraph.com/cody/completions) and [Cody embeddings](https://docs.sourcegraph.com/cody/explanations/code_graph_context#embeddings).
 This page provides enablement to help Sourcegraph teammates grant customers access to Cody Gateway and analyze usage.

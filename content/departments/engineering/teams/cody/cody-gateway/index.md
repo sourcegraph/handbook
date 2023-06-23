@@ -1,17 +1,17 @@
 # Cody Gateway
 
-> WARNING: This project is currently a work in progress - reach out to #wg-cody-gateway for more information.
-
-Cody Gateway is a managed proxy service that routes requests to various LLM backends such as Anthropic and OpenAI (coming soon).
-Additionally, the service is slated to serve embeddings backends too - [learn more](https://docs.google.com/document/d/1N1S-WUejRIwyJlM5wCxX6vFTrYX-hW6ITX-kvBKggl8/edit).
-It is intended for use by both Sourcegraph.com and individual Sourcegraph instances such as Sourcegraph Cloud and on-premises instances.
+Sourcegraph Cody Gateway powers the default `"provider": "sourcegraph"` Cody completions and embeddings for Sourcegraph Enterprise customers on Sourcegraph 5.1 or later, both on-prem and in Sourcegraph Cloud.
+It supports a variety of upstream LLM providers, such as Anthropic and OpenAI, with rate limits, quotas, and model availability tied to Sourcegraph Enterprise product subscriptions.
+Sourcegraph App users with Sourcegraph.com accounts will also be able to use Sourcegraph Cody Gateway.
 
 In general, we have two Cody Gateway deployments running:
 
 - `cody-gateway.sourcegraph.com` - for production usage
 - `cody-gateway.sgdev.org` - for development and testing
 
-> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [Using Cody Gateway](./using.md), or refer to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/cody_gateway).
+> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [**Using Cody Gateway**](./using.md), or refer to the [**customer-facing Sourcegraph Cody Gateway docs**](https://docs.sourcegraph.com/cody/explanations/cody_gateway).
+>
+> If you need any assistance, please reach out to #wg-cody-gateway.
 
 Contents:
 
