@@ -20,9 +20,11 @@ Access to the production Cody Gateway instance can be provisioned with the follo
    1. Enable access to Cody Gateway
    2. If desired, configure a custom rate limit for the desired features
 
-> NOTE: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
+> WARNING: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
 
-Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
+<br />
+
+> NOTE: Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
 
 ## Configuration
 
@@ -43,6 +45,10 @@ A brief summary of Cody Gateway usage is available in each subscription's "Cody 
 3. View data in "Cody services" section
 
 Usage data is collected on a variety of events going through Cody Gateway, which is then sent to BigQuery. For more advanced use cases, see [Usage events](./index.md#usage-events) for more details.
+
+### Quota usage notifications
+
+We have quota usage notifications when a customer consumes various percentages of their rate limit quota (currently 90, 95, 100) delivered to Slack in #cody-usage-notifications.
 
 ## Migrating from Anthropic/OpenAI completions
 
