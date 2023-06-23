@@ -35,6 +35,8 @@ See [Cody Gateway: working design](https://docs.google.com/document/d/1fAKuYM02v
 Source code for Cody Gateway is in [`sourcegraph/sourcegraph/enterprise/cmd/cody-gateway`](https://github.com/sourcegraph/sourcegraph/tree/main/enterprise/cmd/cody-gateway).
 The image gets built the same as any other Sourcegraph service, i.e. with `insiders` and the standard `main`-branch tags.
 
+### Local development
+
 For local development, refer to [How to set up Cody Gateway locally](https://docs.sourcegraph.com/dev/how-to/cody_gateway).
 
 ## Operation
@@ -57,6 +59,8 @@ Cody Gateway infrastructure is defined in Terraform in [`sourcegraph/infrastruct
   - [Sentry events](https://sourcegraph.sentry.io/projects/cody-gateway-dev/)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=cody-gateway-dev)
   - [GCP errors](https://console.cloud.google.com/errors?project=cody-gateway-dev)
+
+To get access to most resources, you'll need to [request infrastructure access](#infrastructure-access).
 
 ### Infrastructure access
 
@@ -91,6 +95,7 @@ All alerts from all environments currently go to #alerts-cody-gateway.
 ### Observability
 
 See [above for links](#operation) to each resource for each of the following resources for each deployment.
+In all cases, you'll need to [request infrastructure access](#infrastructure-access).
 
 #### Metrics
 
@@ -104,6 +109,22 @@ Common ways of approaching traces:
 - Each HTTP request trace can be correlated with the corresponding originating Sourcegraph.com trace through a span link - this will give you the trace ID that you can use to find the corresponding trace in the `sourcegraph-dev` project for Sourcegraph.com.
   - Note: For now, ignore the automatically generated traces from `/component: AppServer`, as those currently aren't attached to our application spans.
 - Log entries and Sentry error events will generally have trace IDs attached to them, which can be used to find the corresponding trace in Cloud Trace.
+
+Cody Gateway traces can give you tons of useful information about a request, including:
+
+- Rate limit information (concurrent requests, consumed quota, current consumption, reason for rejection, and more)
+- What happened in requests to upstream providers
+- Full [BigQuery event](#usage-events) that was collected
+- Whether a [quota usage notification](./using.md#quota-usage-notifications) was sent
+
+See [above for links to Cloud Trace](#operation).
+
+##### Tracing from a Sourcegraph instance
+
+Cody Gateway is configured to accept all incoming trace contexts as its parent.
+For Sourcegraph instances in GCP, this means that simply collecting a trace for a request will automatically link up with any corresponding trace in Cloud Trace for Cody Gateway when a trace is viewed in GCP.
+
+The trace that Cody Gateway collects is returned as `x-trace` and `x-span` headers in all requests - these are also set as attributes (`cody-gateway.x-trace` and `cody-gateway.x-span` respecitvely) on one of the outgoing spans in Sourcegraph. This can be used to find the Cody Gateway side of the trace in Cloud Trace.
 
 ### Deployment
 
@@ -126,10 +147,12 @@ BigQuery data can be found in the `events` table of the following datasets:
 - Prod: [`TelligentSourcegraph/cody_gateway`](https://console.cloud.google.com/bigquery?referrer=search&project=telligentsourcegraph&ws=!1m4!1m3!3m2!1stelligentsourcegraph!2scody_gateway)
 - Dev: [`cody-gateway-dev/cody_gateway`](https://console.cloud.google.com/bigquery?project=cody-gateway-dev&ws=!1m4!1m3!3m2!1scody-gateway-dev!2scody_gateway)
 
-See [`enterprise/internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/internal/codygateway/consts.go) for the list of events types that are currently tracked.
+See [`internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/codygateway/consts.go) for the list of events types that are currently tracked.
 
-Data can be queried directly in BigQuery tables above, or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. A sample query with some basic visualizations is available for use: [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72).
+Data can be queried directly in BigQuery tables above (requires [infrastructure access](#infrastructure-access)), or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. A sample query with some basic visualizations is available for use: [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72).
 A simple overview can also be seen in each product subscription's licenses page - see [Using Cody Gateway: Analyzing usage](./using.md#analyzing-usage).
+
+> WARNING: Because the dev Cody Gateway instance sends data to a different dataset, usage of dev subscriptions (for example, during in local Sourcegraph developmenmt) will not render in Sourcegraph.com's product subscription pages, which queries the production dataset.
 
 ### Service accounts
 
@@ -150,3 +173,4 @@ there should be no need to interact with the accounts directly for the most part
 More details for each account are available in the 1password entries linked above.
 
 > WARNING: All the above feature flags should be configured as **boolean, default off**.
+
