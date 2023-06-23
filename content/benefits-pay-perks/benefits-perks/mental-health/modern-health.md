@@ -32,7 +32,7 @@ We understand the significance of prioritizing mental well-being, especially in 
 
 **Q: How do I submit the annual one-time stipend for my choice of mental health resource?**
 
-All teammates (US and non-US based) will submit the request for the stipend through [this google form](https://docs.google.com/forms/d/e/1FAIpQLSfr1C6di-gz9CL5HB8MmC1YBqlhd56nGMrxNXXOTqDvc1g4wg/viewform?usp=sf_link). The people team will approve within 3 business days.
+A: All teammates (US and non-US based) will submit the request for the stipend through [this google form](https://docs.google.com/forms/d/e/1FAIpQLSfr1C6di-gz9CL5HB8MmC1YBqlhd56nGMrxNXXOTqDvc1g4wg/viewform?usp=sf_link). The people team will approve within 3 business days.
 
 US-teammates: Expect the stipend on your paycheck within 1 month of approval
 
@@ -40,11 +40,11 @@ Non-US teammates: Please add a one-time $250USD stipend to your next invoice
 
 **Q: Is the mental health stipend a taxable benefit?**
 
-Yes, like all stipends it will be taxed.
+A: Yes, like all stipends it will be taxed.
 
 **Q: If my mental health services cost more than $250 annually can I request a stipend for the full amount?**
 
-Unfortunately, not at this time. The maximum annual amount is $250/per teammate
+A: Unfortunately, not at this time. The maximum annual amount is $250/per teammate
 
 **Q: How can I use the stipend for mental health?**
 
@@ -56,19 +56,19 @@ A: Yes. While the stipend is primarily intended for mental health purposes, phys
 
 **Q: Can I use the stipend for a family member's mental health support?**
 
-No, at this time the $250 benefit is focused on our teammates' mental health.
+A: No, at this time the $250 benefit is focused on our teammates' mental health.
 
 **Q: Why are we not offering a larger budget per teammate with how expensive therapy services can be?**
 
-The People Team is always evaluating our benefits and perks while working within a tight budget. We are very excited we have been able to repurpose our Modern Health budget to support a variety of mental health services.
+A: The People Team is always evaluating our benefits and perks while working within a tight budget. We are very excited we have been able to repurpose our Modern Health budget to support a variety of mental health services.
 
 **Q: Will my manager need to approve my reimbursement request?**
 
-No, the people team will approve the stipend requests. Your manager is not part of the approval workflow.
+A: No, the people team will approve the stipend requests. Your manager is not part of the approval workflow.
 
 **Q: How do I know what resource is best for me?**
 
-There is not a one-size fits all solution to mental health resources. We recommend reviewing the recommended apps and find one that’s overview resonates with you.
+A: There is not a one-size fits all solution to mental health resources. We recommend reviewing the recommended apps and find one that’s overview resonates with you.
 For US-based teammates: You can also reach out to our [benefits advocate team](../benefits.md#q-what-is-sequoia-consulting-group) to learn what therapy resources are available through your insurance plans.
 
 If you have questions not answered here, please reach out to the People Team through #ask-people-team or people-ops@sourcegraph.com.
