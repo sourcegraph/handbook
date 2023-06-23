@@ -17,13 +17,16 @@ Contents:
 
 - [Architecture](#architecture)
 - [Service images](#service-images)
+  - [Local development](#local-development)
 - [Operation](#operation)
   - [Infrastructure access](#infrastructure-access)
   - [Alerting](#alerting)
   - [Observability](#observability)
     - [Metrics](#metrics)
     - [Tracing](#tracing)
+      - [Tracing from a Sourcegraph instance](#tracing-from-a-sourcegraph-instance)
   - [Deployment](#deployment)
+  - [Usage events](#usage-events)
   - [Service accounts](#service-accounts)
 
 ## Architecture
