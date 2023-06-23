@@ -176,4 +176,3 @@ there should be no need to interact with the accounts directly for the most part
 More details for each account are available in the 1password entries linked above.
 
 > WARNING: All the above feature flags should be configured as **boolean, default off**.
-
