@@ -19,19 +19,16 @@ Based on the initial state of Cloud instance, CloudSQL migration consist of 3 st
 
 All steps modify terraform resources and it is recommended to use TFC cli mode:
 
-- switch to cli mode:
-  in config.yaml
-
-```
-  debug:
-    tfcRunsMode: cli
-```
-
-- apply changes
+1. Enable TFC cli mode
 
 ```sh
-mi2 generate cdktf
-cd terraform/stacks/tfc && terraform init && terraform apply -auto-approve
+mi2 instance workflow -exec enable-tfc-cli-run-mode
+```
+
+2. After migration, switch to TFC VCS mode
+
+```sh
+mi2 instance workflow -exec disable-tfc-cli-run-mode
 ```
 
 ### Blue Only - default
@@ -45,7 +42,7 @@ If this mode is used after `Green Primary`, destroy additional Green database an
 ```yaml
 metadata:
   annotations:
-    cloud.sourcegraph.com/cloudsql-mode: cloudSQLModeBlueOnly
+    cloud.sourcegraph.com/cloudsql-mode: blueOnly
 ```
 
 - generate cdktf and kustomize
@@ -74,7 +71,7 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
   Instance can be found via:
   `cd terraform/stacks/sql && terraform state list | grep sql_self_ | xargs terraform state show | grep id`
 
-- cleanup terraform state
+- cleanup terraform state, since we've removed the instance directly via web console
 
 ```sh
 cd terraform/stacks/sqlschema
@@ -94,7 +91,7 @@ Creates additional Green database and migration bucket.
 ```yaml
 metadata:
   annotations:
-    cloud.sourcegraph.com/cloudsql-mode: cloudSQLModeBluePrimary
+    cloud.sourcegraph.com/cloudsql-mode: bluePrimary
 ```
 
 - generate cdktf
@@ -119,7 +116,7 @@ Destroy Blue database and migration bucket.
 ```yaml
 metadata:
   annotations:
-    cloud.sourcegraph.com/cloudsql-mode: cloudSQLModeGreenOnly
+    cloud.sourcegraph.com/cloudsql-mode: greenOnly
 ```
 
 - generate cdktf and kustomize
@@ -148,7 +145,7 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
   Instance can be found via:
   `cd terraform/stacks/sql && terraform state list | grep sql_sqlsecondary_self | xargs terraform state show | grep id`
 
-- cleanup terraform state
+- cleanup terraform state, since we've removed the instance directly via web console
 
 ```sh
 cd terraform/stacks/sqlschema
@@ -168,7 +165,7 @@ Creates additional Blue database and migration bucket.
 ```yaml
 metadata:
   annotations:
-    cloud.sourcegraph.com/cloudsql-mode: cloudSQLModeGreenPrimary
+    cloud.sourcegraph.com/cloudsql-mode: greenPrimary
 ```
 
 - generate cdktf
