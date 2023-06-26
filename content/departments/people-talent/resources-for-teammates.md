@@ -60,8 +60,7 @@
 
 - [Benefits FAQs for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
   - We offer Health, Dental, and Vision with 100% employer paid premiums for teammates, spouse, and depdenents. We also offer Life insurance for teammates.
-  - Access to Modern Health for 6 coaching and 6 therapy sessions per year
-  - 401K account
+  - A mental health stipend of $250USD per year
   - HSA, FSA, and Dependent Care FSA options
 - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
