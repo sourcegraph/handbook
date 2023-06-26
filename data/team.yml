@@ -416,17 +416,6 @@ seth_hoover:
   links: '[Twitter](https://twitter.com/olafurpg), [LinkedIn](https://linkedin.com/in/olafurpg).'
   description: Olaf is an Icelander who was born in Sweden and lives in Norway with his wife who he met at a sauna in Finland. Prior to Sourcegraph, Olaf worked on Scala developer tooling such as Scalafmt (code formatter), Scalafix (refactoring and linting tool), Metals (language server), BSP (Build Server Protocol) and SemanticDB (data model about code). In his spare time, Olaf likes to make delicious food and run in the woods.
 
-malo_marrec:
-  name: Malo Marrec
-  reports_to: eng_lead
-  pronouns: he/him
-  role: Product Manager, Batch Changes
-  location: Paris, France 🇫🇷
-  email: malo@sourcegraph.com
-  github: malomarrec
-  links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
-  description: Malo lives in Paris, France after some time in the Bay Area. Prior to Sourcegraph, he bounced around a few early stage startups building infrastucture and developer tools. Malo graduated with an MS from Stanford, and an MS from Ecole Centrale Paris. Outside of work, he kite surfs and reads a ton of books.
-
 james_clifford:
   name: James Clifford
   pronouns: he/him
