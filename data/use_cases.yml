@@ -18,19 +18,16 @@ code_health:
   title: Code Health
   link: /strategy-goals/strategy/use_cases/code_health
   sponsors:
-    product: malo_marrec
     engineering: joe_chen
 
 code_security:
   title: Code security
   link: /strategy-goals/strategy/use_cases/code_security
   sponsors:
-    product: malo_marrec
     engineering: thorsten_ball
 
 incident_response:
   title: Incident Response
   link: /strategy-goals/strategy/use_cases/incident_response
   sponsors:
-    product: malo_marrec
     engineering: dax_mcdonald
