@@ -27,6 +27,7 @@ We understand the significance of prioritizing mental well-being, especially in 
   - [Open](https://o-p-e-n.com/): $150/year
   - [Breathwrk](https://www.breathwrk.com/class-pricing): $200/10 classes
   - [Talkspace](https://try.talkspace.com/affiliate?irclickid=R8QR180uCxyPRAT3t427rWKIUkFxr-XkCV-yQk0&irgwc=1&utm_medium=affiliate&utm_campaign=Affiliate_Impact&utm_source=Healthline%20Media%20Inc.&utm_keyword=ONLINE_TRACKING_LINK&utm_term=411371&utm_content=Online%20Tracking%20Link&utr_adid=1164659&utr_adgroup=411371#testimonials): w/insurance sessions start at $25/session
+  - [Wakingup.com](http://wakingup.com/): $120/yr
 
 ### FAQ:
 
