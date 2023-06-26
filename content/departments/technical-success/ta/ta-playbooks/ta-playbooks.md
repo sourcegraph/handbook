@@ -99,7 +99,7 @@
 
 - Review the traits that make up the health score
 - Going to the account and expanding the health sections will tell you which traits are causing the issues
-- These traits are explained in more detail here (https://handbook.sourcegraph.com/departments/technical-success/ta/team-culture/working-with-customers/#customer-health)
+- These traits are explained in more detail here (../team-culture/working-with-customers/.md#customer-health)
 
 ## My customer has a low TA Pulse:
 
