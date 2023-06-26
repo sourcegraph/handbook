@@ -23,7 +23,6 @@ The World Health Organization [defines mental health](https://www.who.int/news-r
 
 We understand the significance of prioritizing mental well-being, especially in challenging times. We value and support our teammates’ mental health and wellbeing. Sourcegraph offers Mental Health support through multiple avenues to meet each teammate's individual needs. We offer a reimbursement up to $250 annually, recommended applications/services, and health insurance plan benefits. Our reimbursement program does not require receipts to be submitted. In addition to general mental health support, our Family Planning vendor, Maven, offers 24/7 support to teammates with family concerns.
 
-
 ## Resources
 
 - Find a mental health provider through our benefits plans
@@ -125,7 +124,6 @@ A: Please reach out to our [benefits advocate team](../benefits.md#q-what-is-seq
 A: If at any point you feel as though you or your teammate is in crisis or dealing with a mental health issue which you are unsure of how to deal with, please reach out to any member of the People Ops team immediately either on Slack or confidentially at People-ops@sourcegraph.com. We will work with you to assess the situation and triage it accordingly with proper resources and support.
 
 If you have questions not answered here, please reach out to the People Team through #ask-people-team or people-ops@sourcegraph.com.
-
 
 ## People team resources:
 
