@@ -113,7 +113,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 - [Mental health resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
-  - [Modern Health](../../benefits-pay-perks/benefits-perks/mental-health/modern-health.md)
 
 ### How we measure culture
 
