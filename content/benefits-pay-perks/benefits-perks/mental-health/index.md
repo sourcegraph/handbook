@@ -21,26 +21,6 @@ The World Health Organization [defines mental health](https://www.who.int/news-r
 
 ---
 
-## Mental health roadmap
-
-This section will be used in future wellbeing planning as a brainstorm list for wellbeing initiatives.
-
-| **Sequence order** | **Session/Event**                                                                                    | **Structure**                    | **Audience**             | **Proposed Timeline** | **Status**                                                                                                 |
-| ------------------ | ---------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------ | --------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1                  | _#mental-health_ Slack channel for events, resources                                                 | Slack forum                      | All team members; opt-in | June 2021             | Complete                                                                                                   |
-| 2                  | External Speaker on Mental Health (recorded)                                                         | Fireside chat with Q&A           | All team members         | July 2021             | Complete                                                                                                   |
-| 3                  | Modern Health launch                                                                                 | Employee assistance program      | All team members         | August 2021           | Complete                                                                                                   |
-| 4                  | Modern Health information session (recorded)                                                         | Company-wide information session | All team members; opt-in | August 2021           | Complete - [view here](https://drive.google.com/file/d/1xA479OHsthciuRk1VR7xaqI0gGIaNsl3/view?usp=sharing) |
-| 5                  | Async mental health book club                                                                        | Async book club                  | All team members         | October 2021          | In progress: sourcing ideas                                                                                |
-| 6                  | Leadership Panel: Managing and Identifying Burnout and Fatigue on your team, sharing vulnerabilities | Internal panel                   | Managers+ above          | Date TBD              | Not yet started                                                                                            |
-| 7                  | Manager Panel: Enabling your teams to take time off                                                  | Internal Panel                   | Managers+ above          | Date TBD              | Not yet started                                                                                            |
-
-_Did we miss anything?_
-
-[Leave recommendations or suggestions for future programming here](https://docs.google.com/forms/d/e/1FAIpQLSciB1Xt5fPixHChfANKIfOUwAn2MukWbhV1KT5keAeAEVwaEg/viewform?usp=sf_link).
-
----
-
 ## Resources
 
 **_Sourcegraph-specific toolkits:_**
@@ -48,7 +28,6 @@ _Did we miss anything?_
 - [**Manager Wellbeing One Pager**](https://docs.google.com/presentation/d/1b922F2o4cUoluIx-lOzQph_LZSas2Jl1dNdJ4awyAls/edit?usp=sharing) - For people managers to begin unpacking how to have conversations around mental wellbeing and to model best practices in regeneration and taking time off.
 - [**Employee Wellbeing One Pager**](https://docs.google.com/presentation/d/147Fh7XKy2VvNWZmtyLLpQb1tei1A1267nUTlhKuj2xM/edit?usp=sharing) - For teammates to assess if they might be falling into patterns of burnout, and how to triage effectively by escalating to your manager and others.
 
-- [**How to use Modern Health: Sourcegraph Demo**](https://drive.google.com/file/d/1xA479OHsthciuRk1VR7xaqI0gGIaNsl3/view?usp=sharing) - For teammates to understand more about our Employee Assistance Program, Modern Health.
 
 **_Preventative resources:_**
 
