@@ -1,6 +1,6 @@
-# Sourcegraph mental health resources
+# Sourcegraph Mental Health Resources
 
-## Overview Mental Health Perks:
+## Overview mental health perks:
 
 We understand the significance of prioritizing mental well-being, especially in challenging times. We value and support our teammates’ mental health and wellbeing. Sourcegraph offers Mental Health support through multiple avenues to meet each teammate's individual needs. We offer a reimbursement up to $250 annually, recommended applications/services, and health insurance plan benefits. Our reimbursement program does not require receipts to be submitted. In addition to general mental health support, our Family Planning vendor, Maven, offers 24/7 support to teammates with family concerns.
 
