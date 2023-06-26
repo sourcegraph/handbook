@@ -28,7 +28,6 @@ The World Health Organization [defines mental health](https://www.who.int/news-r
 - [**Manager Wellbeing One Pager**](https://docs.google.com/presentation/d/1b922F2o4cUoluIx-lOzQph_LZSas2Jl1dNdJ4awyAls/edit?usp=sharing) - For people managers to begin unpacking how to have conversations around mental wellbeing and to model best practices in regeneration and taking time off.
 - [**Employee Wellbeing One Pager**](https://docs.google.com/presentation/d/147Fh7XKy2VvNWZmtyLLpQb1tei1A1267nUTlhKuj2xM/edit?usp=sharing) - For teammates to assess if they might be falling into patterns of burnout, and how to triage effectively by escalating to your manager and others.
 
-
 **_Preventative resources:_**
 
 - _Burnout Index Test:_ [**Global IT Burnout Index**](https://burnoutindex.yerbo.co/) - Take a quick quiz to see how at-risk for burnout you might be.
