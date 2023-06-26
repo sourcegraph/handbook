@@ -73,7 +73,7 @@ For US-based teammates: You can also reach out to our [benefits advocate team](.
 
 **Q: How do I know what mental health resouces my health insurance covers?**
 
-A: Please reach out to our [benefits advocate team](../benefits.md#q-what-is-sequoia-consulting-group) who can outline exactly what your insurance plan offers, and how to find a provider. 
+A: Please reach out to our [benefits advocate team](../benefits.md#q-what-is-sequoia-consulting-group) who can outline exactly what your insurance plan offers, and how to find a provider.
 
 If you have questions not answered here, please reach out to the People Team through #ask-people-team or people-ops@sourcegraph.com.
 
