@@ -41,6 +41,7 @@ Everything a TA does should positively influence the long-term relationship we h
 
 - [New TA Onboarding](onboarding/ta-onboarding.md)
 - [Career Development](career-growth/ta-career-development.md)
+- [TA Playbooks](ta-playbooks/ta-playbooks.md)
 
 ## How to Reach Us
 
