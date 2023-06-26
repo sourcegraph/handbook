@@ -131,13 +131,16 @@ Program owner: People-Ops
 
 DRI: Jamie O’Connell
 
-Internal process:
+Internal process overview:
 
 1. Teammate submits Google form
 2. People Ops is notified of new submission and reviews
 3. Teammate is notified of approval
 4. Stipend is provided within 30-days (1 month)
-   1. US-based teammates: People Ops sends email to Payroll@sourcegraph to have yearly stipend issued
-   2. Non-US based teammates: People Ops will send teammate an approval email requesting a one-time yearly stipend of $250USD be added to their next invoice
+   1. US-based teammates: People Ops sends email to Payroll@sourcegraph to have yearly stipend issued in payroll
+   2. Non-US based PEO Teammates: People Ops sends email to Payroll@sourcegraph to have yearly stipend issued in Deel
+   3. Non-US based contractor teammates: People Ops will send teammate an approval email requesting a one-time yearly stipend of $250USD be added to their next invoice
 5. Yearly a reminder is sent out to all teammates to submit the Google form to receive the stipend.
 6. [Here](https://docs.google.com/spreadsheets/d/1tDpZzByUFF_KTZxnlLoQJafOL7s7xdRRbIpILcPlpsE/edit?usp=sharing) is the tracker (access only provided to people team members)
+
+[Detailed process & teamplates for People Team](https://docs.google.com/document/d/1nWy-6X2C0LyYwGR-6HtSNU7EeUODHf-RWsT0sHNhGT0/edit?usp=sharing)
