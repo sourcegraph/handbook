@@ -71,6 +71,10 @@ A: No, the people team will approve the stipend requests. Your manager is not pa
 A: There is not a one-size fits all solution to mental health resources. We recommend reviewing the recommended apps and find one that’s overview resonates with you.
 For US-based teammates: You can also reach out to our [benefits advocate team](../benefits.md#q-what-is-sequoia-consulting-group) to learn what therapy resources are available through your insurance plans.
 
+**Q: How do I know what mental health resouces my health insurance covers?**
+
+A: Please reach out to our [benefits advocate team](../benefits.md#q-what-is-sequoia-consulting-group) who can outline exactly what your insurance plan offers, and how to find a provider. 
+
 If you have questions not answered here, please reach out to the People Team through #ask-people-team or people-ops@sourcegraph.com.
 
 ### People team resources:
