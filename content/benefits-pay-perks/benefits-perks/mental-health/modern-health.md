@@ -1,4 +1,4 @@
-# Sourcegraph Mental Health Resources
+# Sourcegraph mental health resources
 
 ## Overview Mental Health Perks:
 
