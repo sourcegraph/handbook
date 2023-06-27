@@ -29,9 +29,9 @@ The new hire's manager selects the onboarding buddy. When selecting a buddy, the
 
 **Role:** buddies will be able to assist with role related questions
 
-**Sourcegraph tenure:** buddies will ideally have been at Sourcegraph for 3+ months, with satisfactory performance 
+**Sourcegraph tenure:** buddies will ideally have been at Sourcegraph for 3+ months, with satisfactory performance
 
-**Time Zone:** the buddy and new hire will ideally be in the same time zone, but **must have at least 2 hours of overlap in working hours** 
+**Time Zone:** the buddy and new hire will ideally be in the same time zone, but **must have at least 2 hours of overlap in working hours**
 
 **Availability:** buddies should be able to devote time toward assisting the ne whire
 
