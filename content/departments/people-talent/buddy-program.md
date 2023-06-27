@@ -21,19 +21,25 @@ An onboarding buddy is essentially a new teammate’s first friend– someone to
 **Length and frequency**
 
 - 1 month, meeting once a week.
-
-Managers will assign a buddy to their new hires and new hires will set up the recurring invite for dates/times that work best for them and their buddy.
+- Additional meetings can be scheduled as needed, if appropriate the role
 
 ## Buddy selection
 
-- Can be on the same team or on a different team.
-- Will ideally have been at Sourcegraph for at least 3 months.
-- Will ideally be on the same timezone so they can be easily accessible.
-- Managers should consult the [buddy assignments doc](https://docs.google.com/spreadsheets/d/1ubFurMGdd0jclOR-o-HVr3xdhygUTuHmLf8jB_egcr0/edit#gid=0) to see the team members that are available to be a buddy.
+The new hire's manager selects the onboarding buddy. When selecting a buddy, the following are taken into account:
+
+**Role:** buddies will be able to assist with role related questions
+
+**Sourcegraph tenure:** buddies will ideally have been at Sourcegraph for 3+ months, with satisfactory performance 
+
+**Time Zone:** the buddy and new hire will ideally be in the same time zone, but **must have at least 2 hours of overlap in working hours** 
+
+**Availability:** buddies should be able to devote time toward assisting the ne whire
+
+People Ops will confirm with the manager via Process St that the chosen buddy meets these criteria prior to a new hire’s first day.
 
 ## Once you've been selected as a buddy
 
-Thank you for accepting being an onboarding buddy! You are an essential part of helping a new teammate navigate a new company and get acclimated during their first weeks. If you haven’t had much practice or don’t know where to start, here are some ideas for topics you can cover in your buddy syncs:
+Thank you for accepting being an onboarding buddy! You are an essential part of helping a new teammate navigate a new company and get acclimated during their first weeks. The People team will send you a Process St Checklist that guides you through the onboarding buddy process, as well as topics to cover in your weekly buddy syncs, such as:
 
 - **Talk about what “handbook first” means.** The handbook is super important at Sourcegraph and it’s extremely useful. Help the new hire understand what it is, how we use it and give them some tips on how to navigate it (like how to search in it). You can check out before the meeting or redirect the new hire to [How to use the handbook](../../index.md).
 
