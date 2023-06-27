@@ -27,7 +27,7 @@ An onboarding buddy is essentially a new teammate’s first friend– someone to
 
 The new hire's manager selects the onboarding buddy. When selecting a buddy, the following are taken into account:
 
-**Role:** buddies will be able to assist with role related questions
+**Role:** buddies will ideally be able to assist with role and team related questions
 
 **Sourcegraph tenure:** buddies will ideally have been at Sourcegraph for 3+ months, with satisfactory performance
 
