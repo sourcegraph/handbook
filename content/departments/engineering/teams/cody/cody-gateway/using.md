@@ -4,8 +4,11 @@
 
 Cody Gateway can be configured as a provider for [Cody completions](https://docs.sourcegraph.com/cody/completions) and [Cody embeddings](https://docs.sourcegraph.com/cody/explanations/code_graph_context#embeddings).
 This page provides enablement to help Sourcegraph teammates grant customers access to Cody Gateway and analyze usage.
+If you prefer a video format, you can also check out the [Intro to Sourcegraph Cody Gateway (5.1) video](https://www.loom.com/share/6b944060a0fb40dcb4499751c54bd316), which includes some background context as well.
 
 For customers who adopted Cody completions prior to Sourcegraph 5.1.0, see [Migrating from Anthropic/OpenAI completions](#migrating-from-anthropicopenai-completions).
+
+To learn more about Cody Gateway, refer to the [main Cody Gateway page](./index.md) and the [customer-facing documentation](https://docs.sourcegraph.com/cody/explanations/cody_gateway).
 
 > NOTE: Cody Gateway is only available to instances on Sourcegraph 5.1.0 and above. This guidance is not relevant to customers on any previous Sourcegraph release.
 
