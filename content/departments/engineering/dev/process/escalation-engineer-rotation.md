@@ -75,6 +75,7 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
 Escalation Engineers will **work on low effort ["paper cuts"](https://github.com/orgs/sourcegraph/projects/336/views/1) projects, typically scoped to 2-3 weeks maximum**. These projects will primarily consist of product gaps identified and prioritized by GTM with input from Engingeering & PM. Customer ad hoc issues still remain the P0 for the EE, with the projects as a P1.
 
 ### Tips for new escalation engineers
+
 - A good starting point to get context on existing customer issues is the [GH board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619). Start here and reach out to SE for latest info.
 - Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
@@ -86,11 +87,13 @@ Escalation Engineers will **work on low effort ["paper cuts"](https://github.com
 - Don't overthink it, even if you're finding yourself in a position where you can't implement the solution for a request because it's out of your reach technically, you can still be the one coordinating others into solving it. And that's very very helpful: it means you're owning the problem, but getting help for the solution.
 
 ## Rotation Handover
+
 - Each rotation is responsible for ensuring a smooth handover.
 - Include SE in the handover sync given they own the support side of the customer issue.
 
-## Important Links 
-- [Customer Issues GH Board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619) 
+## Important Links
+
+- [Customer Issues GH Board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619)
 
 ## FAQ
 
