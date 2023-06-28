@@ -76,7 +76,7 @@ Escalation Engineers will **work on low effort ["paper cuts"](https://github.com
 
 ### Tips for new escalation engineers
 
-- A good starting point to get context on existing customer issues is the [GH board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619). Start here and reach out to SE for latest info.
+- A good starting point to get context on existing customer issues is the [GH board](https://github.com/orgs/sourcegraph/projects/342/). Start here and reach out to SE for latest info.
 - Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
 - When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
@@ -93,7 +93,7 @@ Escalation Engineers will **work on low effort ["paper cuts"](https://github.com
 
 ## Important Links
 
-- [Customer Issues GH Board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619)
+- [Customer Issues GH Board](https://github.com/orgs/sourcegraph/projects/342/)
 
 ## FAQ
 
