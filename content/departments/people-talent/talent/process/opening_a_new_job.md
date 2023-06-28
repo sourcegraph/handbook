@@ -59,7 +59,9 @@ If the role is approved, the Hiring Manager creates a job description & intervie
 
 ### Step 1: the intake meeting
 
-The Recruiter schedules a 30-minute intake meeting with the Hiring Manager and Recruiting Operations Specialist to kick off the search and review the responses to the intake form. The intake meeting is intended for the three of them to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
+The Recruiter schedules a 30-minute intake meeting with the Hiring Manager and Recruiting Operations Specialist to kick off the search and review the responses to the intake form. The intake meeting is intended for the three of them to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success. 
+
+Every intake meeting should be recorded via BrightHire by including #brighthire anywhere in the body of the invite when scheduling the meeting, then by clicking the green "Interview with BrightHire" option at the top of the invite when joining the meeting. 
 
 Example topics to cover during intake meeting:
 
