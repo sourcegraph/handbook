@@ -45,7 +45,7 @@ This is a new program, so any and all of these points are flexible, but here is 
 
 ## How to participate
 
-If you have questions or want to participate, please post in #escalation-engineering or add yourself to the [ee rotation sheet](https://docs.google.com/spreadsheets/d/1U3eAhQnLaYwe8-_vE11hnLaiS638zLyDwGrzKpnxrrM/edit#gid=0).
+If you have questions or want to participate, please post in #escalation-engineering or add yourself to the [ee rotation sheet](https://docs.google.com/spreadsheets/d/1U3eAhQnLaYwe8-_vE11hnLaiS638zLyDwGrzKpnxrrM/edit#gid=0) and update the handbook page.
 
 ## What does an Escalation Engineer do?
 
@@ -58,6 +58,7 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
 - Own the support request.
   - It is now your issue. You're not helping someone to fix their issue, you're helping them by taking it out from them.
   - The person who reported it may still work with you, but you're helping them by taking the lead.
+  - Transition support requests to the next rotation in partnership with SE.
 - Become the single point of contact for the entire duration of your involvement.
   - You providing regular updates.
   - You check on whoever is involved, making sure they have whatever they need.
@@ -71,10 +72,10 @@ As an escalation engineer, you're effectively becoming the DRI (and tech lead) o
   - If you find yourself to not be able to lead, you are responsible for finding a person to replace you.
   - You keep the support request alive, you raise the alarm if it's stagnating or ask to close the support request if the context changes.
 
-Escalation Engineers will also **work on low effort ["paper cuts"](https://github.com/orgs/sourcegraph/projects/336/views/1) projects, typically scoped to 2-3 weeks maximum**. These projects will primarily consist of product gaps identified and prioritized by GTM with input from Engingeering & PM. Customer ad hoc issues still remain the P0 for the EE, with the projects as a P1.
+Escalation Engineers will **work on low effort ["paper cuts"](https://github.com/orgs/sourcegraph/projects/336/views/1) projects, typically scoped to 2-3 weeks maximum**. These projects will primarily consist of product gaps identified and prioritized by GTM with input from Engingeering & PM. Customer ad hoc issues still remain the P0 for the EE, with the projects as a P1.
 
 ### Tips for new escalation engineers
-
+- A good starting point to get context on existing customer issues is the [GH board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619). Start here and reach out to SE for latest info.
 - Ask around, everyone is thankful that you are taking ownership of this role and will be more than happy to assist. You do not have to come up with the answer or understand the context entirely on your own.
 - Asking what happens if the request is not addressed is a good way of getting to the importance of an ask. It will help you to delegate the task if you need to, because you'll be able to convey that context to the new owners.
 - When you do (since you're wearing the esc-eng hat) link back to the original ask, this will help others to understand that what you're asking is important.
@@ -83,6 +84,13 @@ Escalation Engineers will also **work on low effort ["paper cuts"](https://githu
 - Your own team is your primary circle, so don't hesitate to solicit them for help / feedback, but don't limit yourself to just your team. Anyone can help you.
 - If a request is coming from execs, it does not mean you can't say "no"; in fact, that's often one of the biggest mistake that can be made with them, i.e saying yes to everything just because of their position. They're expecting to be told "no" if something is not possible, as you would with anyone else.
 - Don't overthink it, even if you're finding yourself in a position where you can't implement the solution for a request because it's out of your reach technically, you can still be the one coordinating others into solving it. And that's very very helpful: it means you're owning the problem, but getting help for the solution.
+
+## Rotation Handover
+- Each rotation is responsible for ensuring a smooth handover.
+- Include SE in the handover sync given they own the support side of the customer issue.
+
+## Important Links 
+- [Customer Issues GH Board](https://github.com/orgs/sourcegraph/projects/342/views/1?filterQuery=merca&pane=issue&itemId=29087619) 
 
 ## FAQ
 
