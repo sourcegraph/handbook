@@ -35,7 +35,7 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 - [Product imagery](https://www.figma.com/file/VkNYkLBsxhtrhOHRuje28p/Product-Imagery?node-id=0%3A1&t=8EaDRxtvEuC7kXxZ-0)
 - [Starship brand assets](https://www.figma.com/file/lXvp8a2qoAU5L5sm4Woisu/STARSHIP-brand-assets?node-id=91%3A1816&t=8EaDRxtvEuC7kXxZ-0)
 
-## Cody brand assets
+## Cody logos
 
 [**Self-serve assets: Cody** (Figma)](https://www.figma.com/file/2XpWfh4GVreBPH6TgPK5Fe/%F0%9F%98%89-Cody)
 
