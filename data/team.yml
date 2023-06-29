@@ -1272,10 +1272,10 @@ connor_obrien:
 interim_sales_lead:
   name: Connor OBrien
   reports_to: ceo
-  role: Interim Sales Lead 
+  role: Interim Sales Lead
   manager_role_slug: vp_sales
   hide_on_team_page: true
-  
+
 michael_lin:
   name: Michael Lin
   pronouns: he/him
