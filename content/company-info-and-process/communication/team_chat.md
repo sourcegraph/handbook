@@ -233,7 +233,7 @@ If you need to start a new topic of conversation, post directly in the channel t
 
 ### Default to Public channels
 
-Sourcegraph is an all remote and asynchronous-first company, amd we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
+Sourcegraph is an all remote and asynchronous-first company, and we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
 
 Private channels will automatically be created for the following categories of conversations:
 
