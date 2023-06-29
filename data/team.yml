@@ -295,7 +295,7 @@ scott_campbell:
   name: Scott Campbell
   pronouns: he/him
   role: Regional Director of Sales, East
-  reports_to: vp_sales
+  reports_to: rsd_west
   manager_role_slug: regional_director_sales_east
   location: Asheville, North Carolina, United States 🇺🇸
   github: spc74
@@ -369,18 +369,6 @@ tom_ross:
   github: umpox
   email: tom@sourcegraph.com
   description: Tom lives in York, UK with his girlfriend (also a developer) and their two cats (Gus & Leo). He stumbled upon his love for the web when starting an internship, before realising that he had to support Internet Explorer 8. Since then, Tom has enjoyed building powerful web-applications and, prior to Sourcegraph, has been a developer at DAZN and Sky. In his free time, he enjoys supporting his soccer team Liverpool FC, swimming, and following various forms of motorsport.
-
-greg_bastis:
-  name: Greg Bastis
-  pronouns: he/him
-  role: VP, Sales
-  reports_to: ceo
-  manager_role_slug: vp_sales
-  location: San Francisco, CA, USA
-  github: gb1228
-  email: gb@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/gregbastis/)'
-  description: Greg (“GB” to limit confusion with Sourcegraph’s first Gregg, Stone) lives San Francisco’s Outer Sunset neighborhood with his wife, Brenda, who he met working at Boulder, Colorado’s landmark The Sink Bar & Restaurant in 2005. He first moved to San Francisco in 2008 for a job with Salesforce, before heading over to Optimizely where he spent 6 years helping enterprise Product & Engineering teams deliver exceptional digital experiences through Full Stack experimentation. When not working, you can find GB on his 90’s era steel bicycles, exploring all that Northern California has to offer (usually wearing lots and lots of pink).
 
 seth_hoover:
   name: Seth Hoover
@@ -631,7 +619,7 @@ kelli_rockwell:
 khoshal_wial:
   name: Khoshal Wial
   role: Regional Director Sales EMEA
-  reports_to: vp_sales
+  reports_to: rsd_west
   manager_role_slug: regional_director_sales_emea
   email: khoshal@sourcegraph.com
 
@@ -852,7 +840,7 @@ luke_taylor:
   github: iamluketaylor
   email: luke.taylor@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/iamluketaylor/)'
-  description: "Working on the EMEA Sales Team. A Brit based out of beautiful Amsterdam. After bouncing around tiny start ups for a few years in London, I did 5 years at Optimizely, working with a bunch of folks here (James Clifford, Greg Bastis, Jon Kishpaugh, Khoshal Wial and co.). Outside of work my day-to-day is mostly just filler, killing time in between meals. When I'm not eating I love to train, play hockey, surf (badly), play my bass guitar and game (PC). I am also always trying to find new ways to grow and develop myself - happiness is the goal! Always down to talk about all things personal and professional growth."
+  description: "Working on the EMEA Sales Team. A Brit based out of beautiful Amsterdam. After bouncing around tiny start ups for a few years in London, I did 5 years at Optimizely, working with a bunch of folks here (James Clifford, GB, Jon Kishpaugh, Khoshal Wial and co.). Outside of work my day-to-day is mostly just filler, killing time in between meals. When I'm not eating I love to train, play hockey, surf (badly), play my bass guitar and game (PC). I am also always trying to find new ways to grow and develop myself - happiness is the goal! Always down to talk about all things personal and professional growth."
 
 milan_freml:
   name: Milan Freml
@@ -1281,6 +1269,13 @@ connor_obrien:
   location: San Franciso, CA, USA 🇺🇸
   description: Connor lives in the Lonely Mountain neighborhood in SF, 1 block away from Golden Gate Park with his wife, daughter, two dogs, and pet Crawdad. Prior to Sourcegraph, Connor worked at Anaplan for 7.5 years where he played critical roles across PreSales, Ops, and Sales where he helped craft and execute GTM strategy. Before Anaplan, Connor was running a small IT Consulting company and worked in the United States Senate. Connor and his wife love challenging, outdoorsy activities like scuba diving, hiking, and long-distance running, biking, and swimming. The fastest way to my heart is through the Denver Nuggets.
 
+interim_sales_lead:
+  name: Connor OBrien
+  reports_to: ceo
+  role: Interim Sales Lead 
+  manager_role_slug: vp_sales
+  hide_on_team_page: true
+  
 michael_lin:
   name: Michael Lin
   pronouns: he/him
@@ -1475,7 +1470,7 @@ brock_perko:
   name: Brock Perko
   pronouns: he/him
   role: Regional Sales Director, West
-  reports_to: vp_sales
+  reports_to: ceo
   manager_role_slug: rsd_west
   location: Mill Valley, CA USA 🇺🇸
   github: 0xPerko
