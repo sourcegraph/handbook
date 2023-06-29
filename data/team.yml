@@ -224,18 +224,6 @@ stefan_hengl:
   email: stefan@sourcegraph.com
   description: Stefan lives in Berlin with his wife and two children. Prior to Sourcegraph, Stefan was a software engineer at Zalando and SAP, where he worked on data pipelines and low-latency, high-throughput microservices. He graduated in Physics but eventually realized that software engineering is his true passion. In his free time, Stefan enjoys cooking, plays chess with his daughter, and dreams about building a house in the wilderness of Norway.
 
-juliana_peña:
-  name: Juliana Peña
-  pronouns: she/her
-  role: Software Engineer
-  reports_to: search_lead
-  location: Redmond, WA, USA 🇺🇸
-  github: limitedmage
-  email: juliana@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/julianapena/), [Twitter](https://twitter.com/limitedmage)'
-  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/julip)'
-  description: "Juliana is originally from Cali, Colombia 🇨🇴 and went to college in Mexico City 🇲🇽 before moving to the Seattle area. She loves building powerful and beautiful web applications that improve people's lives. Before Sourcegraph, Juliana worked at Microsoft building successful startup projects, and is now very excited to be working in a real startup company. Outside of work, Juliana loves cyling, collecting Lego, playing video games, and traveling."
-
 chris_pine:
   name: Chris Pine
   pronouns: he/she/they/Chris
@@ -1782,16 +1770,6 @@ jessie_seidler:
   email: jessie.seidler@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jessieseidler/)'
   description: "A recent Denver transplant, Jessie spent the last 8 years in San Francisco establishing a career in sales with companies like Optimizely and Twilio. Jessie graduated from Boston College with an Honors BA in Sociology and Spanish. When she's not whipping up dank Italian food, you can find her outside biking, running, or backpacking. Jessie has been to 50 countries and counting! "
-
-sam_johns:
-  name: Sam Johns
-  email: sam.johns@sourcegraph.com
-  role: Senior Implementation Engineer
-  reports_to: vp_technical_success
-  location: Arlington, VA, USA 🇺🇸
-  github: scjohns
-  links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
-  description: 'A native to the hills of Upstate NY, Sam has lived in the DC metro area for most of his professional career, relocating shortly after graduating from Syracuse University with a degree in music. He loves golfing, smoking BBQ, drinking whisky, and watching sports.'
 
 will_dollman:
   name: Will Dollman
