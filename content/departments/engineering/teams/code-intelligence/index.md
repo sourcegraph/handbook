@@ -57,6 +57,8 @@ There is no "that's not my responsibility" with the use of streams, we just have
 - Olaf
 - TJ
 - Varun
+- Anton
+- Auguste
 
 ##### Focus and ownership
 
@@ -83,8 +85,8 @@ Language Platform's focus is split into two distinct areas, the creation of data
 
 - Eric
 - Noah
-- Chris
 - Cesar
+- Valery
 
 ##### Focus and ownership
 
