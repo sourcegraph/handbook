@@ -8,7 +8,7 @@ This document provides an overview and documentation for Sourcegraph-Specific gR
 
 1. [gRPC Services](#grpc-services)
 2. [Monitoring](#monitoring)
-3. [Common Issues](#common-issues)
+3. [Known Issues](#known-Issues)
 4. [Additional Resources](#additional-resources)
 
 ## gRPC Services
