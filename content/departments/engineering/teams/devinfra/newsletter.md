@@ -1,6 +1,6 @@
 # 🗞 Developer experience newsletter
 
-Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevInfra team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevInfra team focuses on but is owned by everyone](../../../../strategy-goals/strategy/devinfra/index.md#guiding-principles).
+Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevInfra team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevInfra team focuses on but is owned by everyone](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
 
 To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #devinfra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
@@ -362,7 +362,7 @@ We've also extended the existing [`internal/observation`](https://sourcegraph.co
 This enables you to easily write logs that includes helpful context like traces, metadata, observation context, and more.
 To learn more, check out [How to add observability](https://docs.sourcegraph.com/dev/how-to/add_observability).
 
-The DevInfra team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #devinfra for feedback and questions!
+The DevInfra team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #dev-experience for feedback and questions!
 
 ### `sg` experience ✨
 
@@ -481,7 +481,7 @@ A new bot, `pr-auditor`, is now live in `sourcegraph/sourcegraph` and is rolling
 
 **Pull request reviews are now also required by default**. Branch protections have been enabled in `sourcegraph/sourcegraph`. In other repositories with `pr-auditor` review checks must be opted out of by including `No review required: ...` within a pull request's test plan.
 
-To learn more, refer to [our updated testing guidance](https://docs.sourcegraph.com/dev/background-information/testing_principles). You can find DevInfra SOC compliance documentation by control point in [this search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=). If you have any questions or feedback, please do not hesitate to reach out in #devinfra or in our [GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)!
+To learn more, refer to [our updated testing guidance](https://docs.sourcegraph.com/dev/background-information/testing_principles). You can find DevInfra SOC compliance documentation by control point in [this search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=). If you have any questions or feedback, please do not hesitate to reach out in #dev-experience or in our [GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)!
 
 ### Internal tools and libraries
 

@@ -1,7 +1,7 @@
 # Continuous integration infrastructure
 
 This page consolidates resources regarding our CI _infrastucture_, namely our [Buildkite agents fleet](#buildkite-agents).
-This infrastructure is maintained by the [DevInfra team](../../../../teams/devinfra/index.md).
+This infrastructure is maintained by the [DevInfra team](../../../../teams/dev-experience/index.md).
 
 Related resources:
 

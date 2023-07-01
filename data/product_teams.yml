@@ -69,6 +69,7 @@ ship_release:
   brief: TBD
   strategy_link: /strategy-goals/strategy/release/index.md
   em: interim_ship_release
+  tl: jacob_pleiness
   issue_labels:
     - team/release
 
@@ -77,18 +78,21 @@ ship_devinfra:
   brief: TBD
   strategy_link: /strategy-goals/strategy/devinfra
   em: interim_ship_devinfra
+  tl: jh_chabran
   issue_labels:
     - team/devinfra
 
 ship_cloudops:
   title: Cloud Operations
   em: interim_ship_cloudops
+  tl: rafal_gajdulewicz
   issue_labels:
     - team/cloud
 
 ship_coresvc:
   title: Core Services
   em: interim_ship_coresvc
+  tl: rafal_gajdulewicz
   issue_labels:
     - team/coresvc
 

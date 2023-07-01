@@ -1,13 +1,11 @@
 # Core Services Team
 
-## Mission
-
 TBD
+
+## Leadership
+
+{{generator:product_team_leads.ship_coresvc}}
 
 ## Members
 
 {{generator:product_team.ship_coresvc}}
-
-## Responsibilities
-
-TBD

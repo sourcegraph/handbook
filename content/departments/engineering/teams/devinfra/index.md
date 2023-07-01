@@ -6,18 +6,22 @@ The Developer Infrastructure team, or DevInfra for short, is a team focused on i
 
 Need DevInfra help or support? Jump to the [Contact section](#contact).
 
+## Leadership
+
+{{generator:product_team_leads.ship_devinfra}}
+
 ## Members
 
 {{generator:product_team.ship_devinfra}}
 
 ## Strategy
 
-Find out more about the Developer Infrastructure team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/devinfra/index.md).
+Find out more about the Developer Infrastructure team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/dev-experience/index.md).
 
 ## Responsibilities
 
 - General
-  - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx) and [project board](processes.md#updating-the-devinfra-project-board)
+  - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx) and [project board](processes.md#updating-the-dev-experience-project-board)
   - [Developer Infrastructure support](processes.md#support)
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg) ([`dev/sg`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/sg))
@@ -54,9 +58,9 @@ For **questions** and **discussions** about anything related to developer experi
 
 For **urgent requests** or if you're **blocked** on something important, add the `@devinfra-support` tag in your message.
 
-- The `@devinfra-support` tag will ping an on-call member of the DevInfra team.
-- Requests tagged with `@devinfra-support` will get priority support.
-- Please use the `@devinfra-support` tag only for issues that require immediate attention.
+- The `@dev-experience-support` tag will ping an on-call member of the DevInfra team.
+- Requests tagged with `@dev-experience-support` will get priority support.
+- Please use the `@dev-experience-support` tag only for issues that require immediate attention.
 
 You can also interact with us on **GitHub**:
 
@@ -88,7 +92,7 @@ Read more about [how this team works](./processes.md).
 
 - Tools and languages updates feed is available in #devinfra-notifications
 - GitHub issues and pull-requests feed is available in #dx-github-feed
-- Alerts in #devinfra-alerts
+- Alerts in #dev-experience-alerts
 - [DevInfra initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
 - [DevInfra-scratch](processes.md#DevInfra-scratch)
 - Playbook for [CI Incidents](../../dev/process/incidents/playbooks/ci.md)

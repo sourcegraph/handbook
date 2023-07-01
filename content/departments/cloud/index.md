@@ -1,8 +1,12 @@
-# Cloud Operations Team
+# Cloud Opreations Team
 
 > NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
 
 The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed) and building the next generation of them. The Cloud team has no other responsibilities.
+
+## Leadership
+
+{{generator:product_team_leads.ship_cloudops}}
 
 ## Members
 
@@ -218,7 +222,7 @@ Long-term, we will collaborate with [Developer Infrastructure team](../engineeri
 
 Cloud instances provisioned for customers run [released](../engineering/dev/process/releases/index.md#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
 
-Sourcegraph-owned instances can opt-in to receive continuous upgrades with versions that weren't officially released, e.g., the latest commit on `main` branch, release branches. We own continuous deployment to those environments.
+Sourcegraph-owned instances are continuously deployed (with versions that weren't officially released), [Developer Infrastructure team](../engineering/teams/devinfra/index.md) owns continuous deployment to those environments.
 
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
