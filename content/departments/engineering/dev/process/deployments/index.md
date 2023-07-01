@@ -128,7 +128,7 @@ In order to mimic the same workflow that we tell our customers to follow:
 
 ## DotCom
 
-As [DotCom](instances.md#dotcom) has matured into our public, free-to-use product its needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Dev Experience](../../../teams/dev-experience/index.md) team.
+As [DotCom](instances.md#dotcom) has matured into our public, free-to-use product its needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Developer Infrastructure](../../../teams/dev-experience/index.md) team.
 
 Similarly, the code-release process for sourcegraph.com has changed. Unlike customer instances, DotCom operates a release cycle where code changes are deployed once a day.
 

@@ -238,6 +238,9 @@ const replaceMatchedTeam = async (match: string, group1: string, group2: string)
 const replaceMatchedProductTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateTeamOrgChart(group2)
 
+const replaceMatchedProductTeamLeads = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateProductTeamLeadsList(group2)
+
 const replaceMatchedUseCaseFeatureList = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateUseCaseFeatureList(group2)
 
@@ -298,6 +301,7 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
 
         markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
         markdown = await replaceAsync(markdown, /({{generator:product_team.)(\w+)(}})/gi, replaceMatchedProductTeam)
+        markdown = await replaceAsync(markdown, /({{generator:product_team_leads.)(\w+)(}})/gi, replaceMatchedProductTeamLeads)
         markdown = await replaceAsync(
             markdown,
             /({{generator:product_team_use_case_list.)(\w+)(}})/gi,

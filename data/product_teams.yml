@@ -63,23 +63,37 @@ iam:
     - team/iam
     - team/admin-exp
 
-delivery:
-  title: Delivery
-  brief: Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides.
-  strategy_link: /strategy-goals/strategy/delivery/index.md
-  pm: beyang_liu
-  em: beyang_liu
+ship_release:
+  title: Releases
+  brief: TBD
+  strategy_link: /strategy-goals/strategy/release/index.md
+  em: interim_ship_release
+  tl: jacob_pleiness
   issue_labels:
-    - team/delivery
+    - team/release
 
-dev_experience:
-  title: Dev Experience
-  brief: The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
-  strategy_link: /strategy-goals/strategy/dev-experience
-  pm: chris_pine
-  em: chris_pine
+ship_devinfra:
+  title: Developer Infrastructure
+  brief: TBD
+  strategy_link: /strategy-goals/strategy/devinfra
+  em: interim_ship_devinfra
+  tl: jh_chabran
   issue_labels:
-    - team/dev-experience
+    - team/devinfra
+
+ship_cloudops:
+  title: Cloud Operations
+  em: interim_ship_cloudops
+  tl: rafal_gajdulewicz
+  issue_labels:
+    - team/cloud
+
+ship_coresvc:
+  title: Core Services
+  em: interim_ship_coresvc
+  tl: rafal_gajdulewicz
+  issue_labels:
+    - team/coresvc
 
 repo_management:
   title: Repo Management
@@ -92,9 +106,3 @@ repo_management:
 security:
   title: Security
   em: diego_comas
-
-cloud:
-  title: Cloud
-  em: rafal_gajdulewicz
-  issue_labels:
-    - team/cloud

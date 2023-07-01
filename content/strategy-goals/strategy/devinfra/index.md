@@ -1,6 +1,6 @@
-# Dev Experience team strategy
+# Developer Infrastructure Team Strategy
 
-This page outlines the vision, strategy, and goals of the [Dev Experience team](../../../departments/engineering/teams/dev-experience/index.md).
+This page outlines the vision, strategy, and goals of the [Developer Infrastructure team](../../../departments/engineering/teams/devinfra/index.md).
 
 ## Mission
 

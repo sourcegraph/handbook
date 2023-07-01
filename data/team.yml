@@ -84,7 +84,7 @@ joe_chen:
   name: Joe Chen
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: ship_coresvc_lead
   github: unknwon
   email: joe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
@@ -176,7 +176,7 @@ owen_convey_code_exploration:
 dave_try:
   name: Dave Try
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_devinfra_lead
   location: Bogotá, Colombia 🇨🇴
   github: davejrt
   email: dave@sourcegraph.com
@@ -186,7 +186,7 @@ dax_mcdonald:
   name: Dax McDonald
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: ship_cloudops_lead
   location: Phoenix, AZ, USA 🇺🇸
   github: daxmc99
   email: dax@sourcegraph.com
@@ -196,7 +196,7 @@ dax_mcdonald:
 robert_lin:
   name: Robert Lin
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: ship_coresvc_lead
   location: Burnaby, Canada 🇨🇦
   pronouns: he/him
   github: bobheadxi
@@ -417,7 +417,7 @@ tj_devries:
 manuel_ucles:
   name: Manuel Ucles
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_devinfra_lead
   location: Phoenix, AZ, USA 🇺🇸
   github: mucles
   email: manuel@sourcegraph.com
@@ -471,7 +471,7 @@ warren_gifford:
   name: Warren Gifford
   pronouns: he/him
   role: Support Engineer
-  reports_to: manager_support
+  reports_to: ship_release_lead
   location: Portland, OR, USA 🇺🇸
   github: DaedalusG
   email: warren@sourcegraph.com
@@ -941,7 +941,7 @@ jh_chabran:
   name: JH Chabran
   pronouns: he/him
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_devinfra_lead
   pronunciation: 'Name Pronunciation: [/ʒiaʃ/](https://www.name-coach.com/jh-chabran)'
   location: Lyon, France 🇫🇷
   github: jhchabran
@@ -1025,9 +1025,9 @@ taylor_sperry:
 rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
-  role: Engineering Manager, Cloud
-  reports_to: head_ship
-  manager_role_slug: engineering_manager_cloud
+  role: Software Engineer
+  tech_lead: true
+  reports_to: ship_coresvc_lead
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
@@ -1141,7 +1141,7 @@ filip_haftek:
   name: Filip Haftek
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: ship_cloudops_lead
   location: Kraków, Poland 🇵🇱
   github: filiphaftek
   email: filip.haftek@sourcegraph.com
@@ -1162,7 +1162,7 @@ cory_dobson:
 daniel_dides:
   name: Daniel Dides
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: ship_cloudops_lead
   location: Flint, TX, USA 🇺🇸
   email: daniel.dides@sourcegraph.com
   github: danieldides
@@ -1281,7 +1281,7 @@ michael_lin:
   pronouns: he/him
   location: Richmond, BC, Canada 🇨🇦
   role: Software Engineer
-  reports_to: engineering_manager_cloud
+  reports_to: ship_cloudops_lead
   email: michael.lin@sourcegraph.com
   github: michaellzc
   links: '[LinkedIn](https://www.linkedin.com/in/mlzc/), [@_mlzc](https://twitter.com/_mlzc)'
@@ -1438,7 +1438,7 @@ sander_ginn:
   github: sanderginn
   pronouns: he/him
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_release_lead
   location: Amsterdam, The Netherlands 🇳🇱
   links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
   description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
@@ -1626,7 +1626,7 @@ randell_callahan:
   github: Piszmog
   pronouns: he/him
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: source_lead
   location: Denver, CO, USA 🇺🇸
   description: Randell is a Colorado Native. He grew up in a small mountain town before getting a culture shock in Boulder, Colorado. Randell enjoys going for runs (when it is not snowing), playing with his daughter, and throwing the ball for his little Yorkie.
 
@@ -1636,7 +1636,7 @@ william_bezuidenhout:
   github: burmudar
   pronouns: he/him
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_devinfra_lead
   location: Cape Town, South Africa 🇿🇦
   links: '[LinkedIn](https://www.linkedin.com/in/williambezuidenhout/), [Twitter](https://twitter.com/BurmudarFTL)'
   description: William lives in the beautiful Cape Town, South Africa. He enjoys running and moutain biking and when the weather permits (and his motivation) he can be out riding some trail at a wine farm or taking a leisure run. Besides the outdoor stuff, he loves to tinker and can often be found working on one of his side projects and reading up a storm on either tech, sci-fi, or fantasy! He loves animals and can easily be distracted by a dog.
@@ -1740,7 +1740,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_coresvc_lead
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
@@ -1794,7 +1794,7 @@ jacob_pleiness:
   github: jdpleiness
   pronouns: he/him
   role: Software Engineer
-  reports_to: head_ship
+  reports_to: ship_release_lead
   location: Ann Arbor, MI, USA 🇺🇸
   links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
   description: 'Jacob started his career working in systems administration while getting his degree in computer science. Eventually he got tired of repetitive work and started automating more and more of his job until he became a software engineer.'
@@ -2077,3 +2077,31 @@ nelson_araujo:
   description: |
     Nelson joined Sourcegraph in 2023.
     Nelson loves to tinker with technology in his spare time.
+
+interim_ship_cloudops:
+  name: Rafal Gajdulewicz
+  reports_to: head_ship
+  role: Interim Cloud Operations Lead (and Core Services TL)
+  manager_role_slug: ship_cloudops_lead
+  hide_on_team_page: true
+
+interim_ship_release:
+  name: Nelson Araujo
+  reports_to: head_ship
+  role: Interim Releases Lead (and Head of Ship)
+  manager_role_slug: ship_release_lead
+  hide_on_team_page: true
+
+interim_ship_coresvc:
+  name: Nelson Araujo
+  reports_to: head_ship
+  role: Interim Core Services Lead (and Head of Ship)
+  manager_role_slug: ship_coresvc_lead
+  hide_on_team_page: true
+
+interim_ship_devinfra:
+  name: Nelson Araujo
+  reports_to: head_ship
+  role: Interim Developer Infrastructure Lead (and Head of Ship)
+  manager_role_slug: ship_devinfra_lead
+  hide_on_team_page: true

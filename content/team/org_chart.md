@@ -8,10 +8,6 @@ Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.eng_lead}}
 
-## Cloud
-
-{{generator:reporting_structure.engineering_manager_cloud}}
-
 ## [Security](../departments/security/index.md#members)
 
 {{generator:reporting_structure.engineering_manager_security}}

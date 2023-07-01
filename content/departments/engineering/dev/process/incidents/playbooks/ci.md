@@ -1,10 +1,10 @@
 # Continuous integration playbook
 
-- **Maintainers**: [DevX Team](../../../../teams/dev-experience/index.md).
+- **Maintainers**: [DevInfra Team](../../../../teams/dev-experience/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
-Sourcegraph's [continuous integration (CI)](https://docs.sourcegraph.com/dev/background-information/continuous_integration) is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
+Sourcegraph's [continuous integration (CI)](https://docs.sourcegraph.com/dev/background-information/continuous_integration) is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevInfra team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
 
 This page lists common failure scenarios and provides a step by step guide to get the CI back in an operational state.
 

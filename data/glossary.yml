@@ -169,7 +169,7 @@ role:
     definition: Developer relations, they post on Hacker News, Reddit, and Twitter about how cool we are. They give talks and go to conferences
   - term: DevExp
     definition: Developer experience, improving lives of devs working on sourcegraph
-  - term: devx
+  - term: DevInfra
     definition: Developer experience, improving lives of devs working on sourcegraph
   - term: dx
     definition: Developer experience, improving lives of devs working on sourcegraph
