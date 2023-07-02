@@ -122,7 +122,7 @@ If you have already configured and authenticated to the cluster, you can of cour
 ## Prerequisites
 
 - Access to the `sourcegraph-scaletesting` and `sourcegraph-dogfood` google projects.
-- [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/delivery/deployment/helm.md#helm) configured.
+- [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/release/deployment/helm.md#helm) configured.
 
 Below you can find a subset of the common tasks and how to complete them:
 
@@ -234,7 +234,7 @@ It can also be scaled up or down with the following steps:
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Edit the machine type in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L40) - We recommended staying within the `n2-highmem-xx` [family](https://cloud.google.com/compute/docs/general-purpose-machines#n2-high-mem) as it's configuration best suits GitHub's requirements.
-3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+3. Create a PR and tag [devinfra](https://github.com/orgs/sourcegraph/teams/devinfra/members) for review.
 
 #### Increase Disk
 
@@ -246,7 +246,7 @@ Increasing disk is a 2 part process - you have to increase disk on the VM, and t
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Identify which disk you want to increase in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L19)
    ![increase-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk-terraform.png)
-3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+3. Create a PR and tag [devinfra](https://github.com/orgs/sourcegraph/teams/devinfra/members) for review.
 4. After it has been approved and applied, follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
 
 ### Logging in

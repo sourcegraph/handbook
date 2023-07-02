@@ -23,7 +23,7 @@ For more detailed information on the Delivery team members, check out our [READM
 ## Contact
 
 - #delivery channel, or `@delivery-support` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
-- [team/delivery](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdelivery) label and [@sourcegraph/delivery](https://github.com/orgs/sourcegraph/teams/delivery) team on GitHub.
+- [team/delivery](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdelivery) label and [@sourcegraph/delivery](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
 
 ## Support
 

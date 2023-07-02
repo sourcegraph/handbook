@@ -58,7 +58,7 @@ Compute Engine lets you purchase committed use contracts in return for deeply di
 
 ### Current commitments
 
-We do not have any ongoing commitments as of right now since the most recent commitment expired. The [DevExp](../../../teams/dev-experience/index.md) team is currently investigating resource usage as part of an effort to rightsize GCP consumption.
+We do not have any ongoing commitments as of right now since the most recent commitment expired. The [DevExp](../../../teams/devinfra/index.md) team is currently investigating resource usage as part of an effort to rightsize GCP consumption.
 
 ### Assessing commitments
 

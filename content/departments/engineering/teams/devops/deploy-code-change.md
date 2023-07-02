@@ -35,7 +35,7 @@ In case an image needs to be deployed faster than the daily release cycle allows
    - Typically, the image will need to be updated in a `Deployment` or `StatefulSet` file
 
 1. Create a pull request
-1. Request a review from the dev-experience GitHub team (preferable) or another member of the engineering department.
+1. Request a review from the devinfra GitHub team (preferable) or another member of the engineering department.
 
    - Note: _1 approval is required before merging_
 

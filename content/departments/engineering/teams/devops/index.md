@@ -1,6 +1,6 @@
 # Cloud DevOps Team
 
-> NOTE: The DevOps team was disbanded. The [Cloud team](../../../cloud/index.md) takes full E2E ownership of managed instances. [Developer Experience team](../dev-experience/index.md) took full ownership of all other DevOps team responsibilities. This handbook page is deprecated.
+> NOTE: The DevOps team was disbanded. The [Cloud team](../../../cloud/index.md) takes full E2E ownership of managed instances. [Developer Experience team](../devinfra/index.md) took full ownership of all other DevOps team responsibilities. This handbook page is deprecated.
 
 > NOTE: This page contains shared Ops related resources that do not belong to a specific team
 

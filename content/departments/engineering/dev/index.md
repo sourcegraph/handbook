@@ -91,7 +91,7 @@ The current channels are:
 
 - #dev-chat
 - #dev-ops
-- #dev-experience
+- #devinfra
 - #dev-frontend
 - #dev-databases
 - #dev-urandom

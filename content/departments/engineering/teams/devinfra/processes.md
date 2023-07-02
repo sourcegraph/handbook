@@ -43,7 +43,7 @@ Note that teammates can also support a work lead on all of the above - it is not
 
 ### Unplanned work
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../strategy-goals/strategy/dev-experience/index.md#roadmap), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../strategy-goals/strategy/devinfra/index.md#roadmap), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
@@ -127,7 +127,7 @@ Concrete, permanent artefacts should be created from them, e.g. via the [planned
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #devinfra channel is the best way to reach us. Tag the `@devinfra-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 #### Raising an issue
 
@@ -178,13 +178,13 @@ If a tool or test is behaving in an unstable manner, the team using the tool or 
 
 The team leading the investigation should either fix the issue directly, or if the issue requires changes in the [DevInfra team's ownership/responsibility areas](#responsibilities) (e.g. increasing resource limits for build agents, or making significant changes to the pipeline generator), request the desired changes through an issue tagged `team/DevInfra`.
 
-For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
+For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../strategy-goals/strategy/devinfra/index.md#guiding-principles).
 
 ## Team roles
 
 ### Support rotation
 
-We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@dev-experience-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
+We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@devinfra-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
 ### Work leads
 
@@ -216,19 +216,19 @@ Every week we hold an informal, totally optional coffee break to connect sociall
 
 There is a weekly `sg` hack hour that Thorsten Ball and the DevInfra team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
 
-When the hack hour starts, a meeting link will be posted in #dev-experience.
+When the hack hour starts, a meeting link will be posted in #devinfra.
 
 To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
 
 ### Slack
 
-Teammates communicate in #dev-experience, #dev-experience-internal, and #dev-experience-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #dev-experience-updates.
+Teammates communicate in #devinfra, #devinfra-internal, and #devinfra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #devinfra-updates.
 
 ## Housekeeping
 
 ### Weekly reminders
 
-At the start of each week, the PM posts a reminder in `#dev-experience-internal` indicating who is on support and who is leading meetings.
+At the start of each week, the PM posts a reminder in `#devinfra-internal` indicating who is on support and who is leading meetings.
 
 ### Updating the Developer Infrastructure project board
 
