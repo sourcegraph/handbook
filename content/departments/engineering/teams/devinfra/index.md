@@ -6,10 +6,6 @@ The Developer Infrastructure team, or DevInfra for short, is a team focused on i
 
 Need DevInfra help or support? Jump to the [Contact section](#contact).
 
-## Leadership
-
-{{generator:product_team_leads.ship_devinfra}}
-
 ## Members
 
 {{generator:product_team.ship_devinfra}}

@@ -4,10 +4,6 @@
 
 Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Make it as easy as possible to access this value, and to maintain it going forwards by easily staying up to date with Sourcegraph's latest developments.
 
-## Leadership
-
-{{generator:product_team_leads.ship_release}}
-
 ## Members
 
 {{generator:product_team.ship_release}}

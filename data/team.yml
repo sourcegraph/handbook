@@ -940,7 +940,7 @@ andrew_hsu:
 jh_chabran:
   name: JH Chabran
   pronouns: he/him
-  role: Software Engineer
+  role: Software Engineer, Tech Lead
   reports_to: ship_devinfra_lead
   pronunciation: 'Name Pronunciation: [/ʒiaʃ/](https://www.name-coach.com/jh-chabran)'
   location: Lyon, France 🇫🇷
@@ -1025,7 +1025,7 @@ taylor_sperry:
 rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
-  role: Software Engineer
+  role: Software Engineer, Tech Lead
   tech_lead: true
   reports_to: ship_coresvc_lead
   location: Warsaw, Poland 🇵🇱
@@ -1793,7 +1793,7 @@ jacob_pleiness:
   email: jacob.pleiness@sourcegraph.com
   github: jdpleiness
   pronouns: he/him
-  role: Software Engineer
+  role: Software Engineer, Tech Lead
   reports_to: ship_release_lead
   location: Ann Arbor, MI, USA 🇺🇸
   links: '[@jacobpleiness](https://twitter.com/jacobpleiness), [LinkedIn](https://linkedin.com/in/jacobpleiness), [jacobpleiness.com](https://www.jacobpleiness.com)'
@@ -2081,27 +2081,27 @@ nelson_araujo:
 interim_ship_cloudops:
   name: Rafal Gajdulewicz
   reports_to: head_ship
-  role: Interim Cloud Operations Lead (and Core Services TL)
+  role: Interim Cloud Operations Lead
   manager_role_slug: ship_cloudops_lead
   hide_on_team_page: true
 
 interim_ship_release:
   name: Nelson Araujo
   reports_to: head_ship
-  role: Interim Releases Lead (and Head of Ship)
+  role: Interim Releases Lead
   manager_role_slug: ship_release_lead
   hide_on_team_page: true
 
 interim_ship_coresvc:
   name: Nelson Araujo
   reports_to: head_ship
-  role: Interim Core Services Lead (and Head of Ship)
+  role: Interim Core Services Lead
   manager_role_slug: ship_coresvc_lead
   hide_on_team_page: true
 
 interim_ship_devinfra:
   name: Nelson Araujo
   reports_to: head_ship
-  role: Interim Developer Infrastructure Lead (and Head of Ship)
+  role: Interim Developer Infrastructure Lead
   manager_role_slug: ship_devinfra_lead
   hide_on_team_page: true
