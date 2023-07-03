@@ -10,7 +10,7 @@ The Cloud team is the special focus team reporting directly to CEO modeled on _â
 
 ## Mission statement
 
-Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) support 200+ customers** using **dedicated** Sourcegraph instances, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
+Build a **fully managed platform** for using Sourcegraph, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
 
 **Fully managed**
 
@@ -27,30 +27,14 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 - Reliable (ability to offer SLA, internal SLO of 99.9%)
 - Automatable (in due time, feature releases / billing / upgrades / analytics are built-in)
 
-**Support 200+ customers**
-
-- Targeting 200+ customers in FY23 to invest in supporting 1000 in FY24
-  - Support 300 production-grade instances (accommodating trials / testing)
-- Compatible with current MI use cases
-  - Infrastructure / Domain / Isolation boundary per customer
-
-**Dedicated Sourcegraph instances**
-
-- One Sourcegraph instance serves a single customer
-- (FY23/FY24) Dedicated, Sourcegraph-provided Cloud infrastructure
-- (FY23/FY24) GCP only
-
 **Feature compatibility**
 
-- Feature set on-par with self-hosted
-  - With time, getting more powerful than self-hosted
-- Features are opt-in (for a fee)
+- Feature set on-par (or more powerful) than self-hosted
 - New features available on Cloud before self-hosted
 - Existing features have higher adoption on Cloud than self-hosted
 
 **Cost-efficiency**
 
-- Expected to support teams from 50 to 5000 users (EOFY23) at 500$/month minimal infrastructure cost
 - Infrastructure cost covered by Sourcegraph
 - Administration / operations provided by Sourcegraph
 - (FY24) Self service provisioning / release channels for upgrades
@@ -66,30 +50,30 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 ## How to contact the team and ask for help
 
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
-- For internal Sourcegraph teammates, join us in #cloud slack channel to ask questions or request help from our team.
+- For internal Sourcegraph teammates, join us in #ask-cloud-ops slack channel to ask questions or request help from our team.
 - For [managed instance requests](#managed-instance-requests) or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the #cloud slack channel
-- You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle, this is to try and protect their focus.
+- You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle.
 
-## Managed Instance
+## Cloud Instances
 
-### When to offer a Managed Instance
+### When to offer a Cloud Instance
 
 > NOTE: Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) for any answers or information missing from this page.
+Please message [`#ask-cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) for any answers or information missing from this page.
 
-When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
+When offering customers a Cloud Instance, CE and Sales should communicate and gather information for the following topics
 
 - Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
-- Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. _(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)_
+- Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. _(Notes: we do not have GA support for other connectivity methods, e.g. site-to-site VPN)_
 
 ### Trial Managed Instances (aka PoC)
 
 [Documentation](./trial_mi.md)
 
-### Managed Instance Requests
+### Cloud Instance Requests
 
 Customer Engineers (CE) or Sales may request to:
 
@@ -124,7 +108,7 @@ Customer Engineers (CE) or Sales may request to:
 3. If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Cloud team using the corresponding [issue template](#managed-instance-requests) in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Cloud team.
-4. Message the team in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
+4. Message the team in [`#ask-cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
 5. If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
 ## Supporting Manage Instance
@@ -150,7 +134,7 @@ _Agreement here is the date specified within the required GitHub issue_
 
 ### Recovery Time Objective and Recovery Point Objective (RTO & RPO)
 
-We have a maximum Recovery Point Time objective of 24 hours. Snapshots are performed at-least daily on managed instances. Some components may have lower RPOs (e.g. database).
+We have a maximum Recovery Point Objective of 24 hours. Snapshots are performed at-least daily on managed instances. Some components may have lower RPOs (e.g. database).
 
 Our maximum Recovery Time Objective is defined by our [support SLAs](../technical-success/support/index.md#slas) for P1 & P2 incidents.
 
@@ -171,11 +155,11 @@ Incidents which affect managed instances are handled according to our [incidents
 | Login to customer Grafana   | Cloud/CE/CS/Engineering                               | DONT, use centralized observability                                                                              | learn more from [centralized o11y](./technical-docs/observability/index.md#common-operations)                                                                                                                                                                                       |
 | List Managed Instances      | Cloud/CE                                              | List Managed Instances, filtered by instance type (trial/production/internal) and (optionally) by responsible CE | [list Managed Instances](#faq-how-do-i-list-trial,-production-or-internal-instances)                                                                                                                                                                                                |
 
-More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
+More contex on accessing the Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
 ## Processes
 
-- [Cloud team working aggrements](./working-agreements.md)
+- [Cloud team working agreements](./working-agreements.md)
 - [Cloud launch process](./launch-process.md)
 - [Technical documentation](technical-docs/index.md)
 - [Post Mortem Template / RCA](cloud-rca.md)
@@ -208,13 +192,13 @@ mi2 instance check pods-health
 kubectl rollout restart deployments/sourcegraph-frontend
 ```
 
-### FAQ: Do you support custom domain?
+### FAQ: Do you support custom domains?
 
 Yes. Learn more about [custom domain support](./technical-docs/custom_domain.md).
 
-### FAQ: Does Cloud support SSBC and precise code navigation?
+### FAQ: Does Cloud support Server Side Batch Changes and precise code navigation?
 
-Yes. All Cloud instances have executors enabled by default (varies concurrency limit depends on the deal size).
+Yes. All Cloud instances have executors enabled by default, enabling the use of Server Side Batch Changes and Code Intel auto-indexing.
 
 Key facts:
 
@@ -247,12 +231,6 @@ Cloud instances are generally created without any customer data (repos / code-ho
 
 The Cloud team has an experimental process for importing data from on-premises / jointly-managed Sourcegraph instances, described [here for MI v1.1](technical-docs/v1.1/mi1-1_onprem_data_migration.md).
 
-### FAQ: How to use mi cli for Managed Instances operations?
-
-Follow [sourcegraph/deploy-sourcegraph-managed/README.md](https://github.com/sourcegraph/deploy-sourcegraph-managed#deploy-sourcegraph-managed)
-
-> NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
-
 ### FAQ: How do I generate a password reset link for customer admin?
 
 > For #cloud engineers, run `mi reset-customer-password -email <>` and it will generate a 1password share link for you.
@@ -275,22 +253,6 @@ This ensures only the customer admin is able to gain access to the password rese
 ### FAQ: I have a new feature I want to deploy to Cloud, how do I do that?
 
 Read through our [Cloud Cost Policy](cloud-cost.md)
-
-### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
-
-Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
-Future work in this area is owned by [Analytics team](../data-analytics/index.md).
-
-### FAQ: How to list trial, production or internal instances?
-
-You can either use:
-
-- [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
-- `mi cli` via command:
-
-```
-mi info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
-```
 
 ### FAQ: What is the Cloud instance IP?
 
