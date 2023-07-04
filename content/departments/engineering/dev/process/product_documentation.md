@@ -27,6 +27,8 @@ cd sourcegraph
 ./dev/docsite.sh -config doc/docsite.json serve -http=localhost:5080
 ```
 
+Make sure that `Go` is installed locally. You can follow the steps [here →](https://go.dev/doc/install)
+
 Navigate the browser to [https://localhost:5080](https://localhost:5080) to view the documentation.
 
 ## Best practices
