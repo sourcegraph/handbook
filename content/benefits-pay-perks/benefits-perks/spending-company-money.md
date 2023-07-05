@@ -24,10 +24,6 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 - We expect new [Design team](../../departments/engineering/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
 
-### Interns
-
-The estimated spend for interns is **$925\***.
-
 ### Desk items
 
 This not an exhaustive list. Please ask #ask-finance if you have questions about what items can be reimbursed using the desk set up budget.
