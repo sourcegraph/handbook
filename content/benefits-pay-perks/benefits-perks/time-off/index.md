@@ -51,7 +51,7 @@ While you don’t need to ask for formal PTO approval for short-term time off, w
 
 ## Submitting paid time off (PTO)
 
-Please record all of your PTO (including public holidays) in [Deel](submitting-time-off.md) as far in advance as possible to notify your manager (ideally 5+ business days). Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about PTO by Deel and how it works. If you have any questions about recording PTO in Deel, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
+Please record all of your PTO (including public holidays) via [Deel](submitting-time-off.md) plugin as far in advance as possible to notify your manager (ideally 5+ business days). Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about PTO by Deel and how it works. If you have any questions about recording PTO in Deel, please contact people-ops@sourcegraph.com or drop your question in #ask-people-team in Slack.
 
 We want to capture your time off in Deel so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
 
