@@ -1,4 +1,4 @@
-# Sourcegraph Enterprise vs. Code which is Open Source
+# Sourcegraph Enterprise vs. Cody which is Open Source
 
 ## Background
 
