@@ -9,15 +9,7 @@ The release guild can be found in the slack channel #ask-release-guild.
 
 ## Release captain selection
 
-For the time being, captains are selected on a volunteer basis. The guild will decide on a format going forward as soon as possible.
-
-The current schedule is shown below:
-
-| Date           | Release Tag | Captain                                                                   |
-| -------------- | ----------- | ------------------------------------------------------------------------- |
-| January, 2023  | 4.4.0       | [Bolaji Olajide](../../../team/index.md#bolaji-olajide)                   |
-| February, 2023 | 4.5.0       | [Keegan Carruthers Smith](../../../team/index.md#keegan-carruthers-smith) |
-| March, 2023    | 5.0.0       | [Coury Clark](../../../team/index.md#coury-clark)                         |
+The guild leader is responsible for selecting release captains. The current schedule can be found [here](https://docs.google.com/spreadsheets/d/1UqR0CnnSpMjYRxypx8zJb3WGx6F5TUiySRANmYmFp4c/edit#gid=0).
 
 ## Guild Leader Responsibilities
 
