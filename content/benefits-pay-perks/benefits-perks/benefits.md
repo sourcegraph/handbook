@@ -155,7 +155,7 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 US teammates:
 
 - Benefits are effective on your date of hire. You have 30 days from the date of your hire to elect your benefits and they will be retroactively effective to your start date.
-- If you have a [Qualifying Life Event](../#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle.md), you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
+- If you have a [Qualifying Life Event](../#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle), you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
 
 Non-US teammates:
 
