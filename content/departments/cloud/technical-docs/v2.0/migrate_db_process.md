@@ -69,15 +69,15 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
   Note:
   CloudSQL delete protection and schema dependcy is blocking from clean terraform apply.
   Instance can be found via:
-  `cd terraform/stacks/sql && terraform state list | grep sql_self_ | xargs terraform state show | grep id`
+  `cd terraform/stacks/sql && terraform state list | grep sql_sqlsecondary_self | xargs terraform state show | grep id`
 
 - cleanup terraform state, since we've removed the instance directly via web console
 
 ```sh
 cd terraform/stacks/sqlschema
-terraform state list | grep -v secondary | grep -v remote | xargs terraform state rm
+terraform state list | grep secondary | xargs terraform state rm
 cd terraform/stacks/sql
-terraform state list | grep sql_self_  | xargs terraform state rm
+terraform state list | grep sql_sqlsecondary_self | xargs terraform state rm
 ```
 
 - apply stacks in order: app, sql, sqlschema
@@ -143,15 +143,15 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
   Note:
   CloudSQL delete protection and schema dependcy is blocking from clean terraform apply.
   Instance can be found via:
-  `cd terraform/stacks/sql && terraform state list | grep sql_sqlsecondary_self | xargs terraform state show | grep id`
+  `cd terraform/stacks/sql && terraform state list | grep sql_self_ | xargs terraform state show | grep id`
 
 - cleanup terraform state, since we've removed the instance directly via web console
 
 ```sh
 cd terraform/stacks/sqlschema
-terraform state list | grep secondary | xargs terraform state rm
+terraform state list | grep -v secondary | grep -v remote | xargs terraform state rm
 cd terraform/stacks/sql
-terraform state list | grep sql_sqlsecondary_self | xargs terraform state rm
+terraform state list | grep sql_self_  | xargs terraform state rm
 ```
 
 - apply stacks in order: app, sql, sqlschema
