@@ -1,6 +1,6 @@
 # Health benefits at Sourcegraph
 
-US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [Sequoia](../../../../../../#q-what-is-sequoia-consulting-group.md). Request the password in the [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) Slack channel.
+US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [Sequoia](../#benefits-support.md). Request the password in the [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) Slack channel.
 
 ## Eligibility
 
@@ -144,7 +144,7 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 **US teammates:**
 
 - You have 30 days from your start date to enroll in insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693).
-- You can change benefits within 30 calendar days of a [Qualifying Life Event (QLE)](../../../../../../#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle.md).
+- You can change benefits within 30 calendar days of a [Qualifying Life Event (QLE)](https://help.rippling.com/s/article/360056299533).
 
 **Non-US teammates:**
 
@@ -155,7 +155,7 @@ If you have not received your insurance member IDs, please reach out to Sequoia 
 US teammates:
 
 - Benefits are effective on your date of hire. You have 30 days from the date of your hire to elect your benefits and they will be retroactively effective to your start date.
-- If you have a [Qualifying Life Event](../../../../../../#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle.md), you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
+- If you have a [Qualifying Life Event](https://help.rippling.com/s/article/360056299533), you have 30 calendar days to change your benefits, and they will be effective on the date of the qualifying event.
 
 Non-US teammates:
 
@@ -248,7 +248,7 @@ Non-US teammates:
 #### Q. What do I do if I have a gap in insurance coverage? (US teammates)
 
 - If you are joining Sourcegraph, meaning you’ve accepted an offer with Sourcegraph, and have a gap between your start date and the end the benefit coverage period w/prior employer. Please contact your prior employer regarding their COBRA benefits.
-- If you are leaving Sourcegraph, benefits will expire at the end of the month that you leave Sourcegraph. If you want to avoid having a gap in coverage, you can explore [COBRA](https://drive.google.com/file/d/1iXHjHpg4I1SRrnsicg9h0WArCboiz2Fl/view?usp=sharing) options. If you have dental and vision insurance at the time you leave Sourcegraph, you will continue receiving those same benefits through COBRA.e benefits through COBRA. Benefits through COBRA will expire at the end of the month that you leave Sourcegraph.
+- If you are leaving Sourcegraph, benefits will expire at the end of the month that you leave Sourcegraph. If you want to avoid having a gap in coverage, you can explore [COBRA](https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra) options. If you have dental and vision insurance at the time you leave Sourcegraph, you will continue receiving those same benefits through COBRA.e benefits through COBRA. Benefits through COBRA will expire at the end of the month that you leave Sourcegraph.
 
 #### Q. What do I do if my medication or procedure is not covered by our insurance plan?
 
