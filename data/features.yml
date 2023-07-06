@@ -497,7 +497,7 @@ soc_ii_type_ii:
 
 repository_syncing:
   title: Repository Syncing
-  product_team: repo_management
+  product_team: source
   maturity: ga
   compatibility:
     gitlab_com: true
@@ -515,7 +515,7 @@ repository_syncing:
 
 repository_permissions:
   title: Repository Permissions
-  product_team: repo_management
+  product_team: source
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/permissions
   compatibility:
@@ -534,7 +534,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: iam
+  product_team: source
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   compatibility:
@@ -572,7 +572,7 @@ browser_extension:
 
 native_integration:
   title: Native Integration
-  product_team: repo_management
+  product_team: source
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
   compatibility:

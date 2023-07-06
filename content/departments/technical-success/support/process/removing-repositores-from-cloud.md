@@ -1,6 +1,6 @@
 # Removing repositores from cloud
 
-This document is a guide on how to completely remove repositories from Sourcegraph Cloud. (Requests for repo deletion should be routed to #repo-management).
+This document is a guide on how to completely remove repositories from Sourcegraph Cloud. (Requests for repo deletion should be routed to #ask-source).
 
 ## Prerequisites
 

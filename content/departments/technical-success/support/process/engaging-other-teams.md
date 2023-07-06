@@ -81,8 +81,8 @@ At the moment, Cody as a single entity exists as various products (Cody for web,
 
 Any questions about code host connections and repository syncing should be routed to the Repository Management team.
 
-- `Perforce` should be routed to the [Repo Management](../../../engineering/teams/repo-management/index.md)
-- `permission syncing` should be routed to [IAM](../../../engineering/teams/iam/index.md)
+- `Perforce` should be routed to the [Source](../../../engineering/teams/source/index.md)
+- `permission syncing` should be routed to [Source](../../../engineering/teams/source/index.md)
 - `CVS` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md) (though these should always go through the CE)
 
@@ -92,7 +92,7 @@ Note that this section applies to backend connections with code hosts, such as r
 
 **Keywords**: `indexing`, `gitserver`, `code host syncing`, `repo updates`
 
-Any questions about repository updating, indexing, or code host syncing should be routed to the [Repository Management team](../../../engineering/teams/repo-management/index.md).
+Any questions about repository updating, indexing, or code host syncing should be routed to the [Source](../../../engineering/teams/source/index.md).
 
 ### Code Intelligence
 
@@ -141,7 +141,7 @@ Cloud team has also agreed to ping Support on P3/P5 alerts on #team-customer-sup
 
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM team](../../../engineering/teams/iam/index.md) via the [#iam slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
+Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [Source team](../../../engineering/teams/source/index.md) via the `#ask-source` slack channel.
 
 ### Code Insights
 
@@ -199,7 +199,7 @@ After you post in #escalation-engineering or file a GitHub issue, keep it simple
 
 - When posting in the Delivery team's Slack channel, use @delivery-support
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
-- When posting for Repository Management, be sure to do so in the #repo-management channel and use @core-app-support (if @repo-management-support doesn't exist)
+- When posting for Repository Management, be sure to do so in the #ask-source channel and use @source-support
 - When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas
 - When posting for Search, use @search-core-support or @search-product-support ... depending which team within Search you need
 - Whenever we have more work than any one engineering team can handle via their support process, we prioritize issues holistically. We try to catch this before the engineering team has to alert us.

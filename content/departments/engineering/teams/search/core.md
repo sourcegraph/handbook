@@ -99,7 +99,7 @@ This is good enough to see our changes in an upcoming release, but if you want t
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
-- [How gitserver works](../../teams/repo-management/how-gitserver-works.md)
+- [How gitserver works](../../teams/source/how-gitserver-works.md)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
