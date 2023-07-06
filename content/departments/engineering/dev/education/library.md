@@ -71,6 +71,7 @@ We use GraphQL as our API protocol, build on a backend in Go.
 <img src="https://images-na.ssl-images-amazon.com/images/I/31MMS6yrIbS._SX384_BO1,204,203,200_.jpg" style="max-width: 120px"/>
 
 [The Road to GraphQL](https://www.amazon.com/gp/product/1730853935)
+[Walkthrough: adding a property and mutation to GraphQL, from schema to database, including tests](https://www.loom.com/share/efbd9db40d184ac99bea40dc50e53d19?sid=4621cebb-ed5a-456b-a77c-56d5d74efe67)
 
 ## Recommended CSS Course
 
