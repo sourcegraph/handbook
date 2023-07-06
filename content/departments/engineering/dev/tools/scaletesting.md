@@ -334,17 +334,17 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 
 #### Depots (repos)
 
-##### `DevInfra-small-10GB`
+##### `devx-small-10GB`
 
 - Size ~10 GB
 - Change count 589 (commits)
 
-##### `DevInfra-large-20GB`
+##### `devx-large-20GB`
 
 - Size ~20 GB
 - Change count 2937 (commits)
 
-##### `DevInfra-80k-files`
+##### `devx-80k-files`
 
 - Size ~15 GB
 - Change count ~ 8500 (commits)
