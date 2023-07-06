@@ -10,5 +10,5 @@ Coming soon
 
 ## LCA postings
 
-- [LCA - 04701](https://docs.google.com/document/d/1QY8o12nKIKSnYhzL0knrP2VzThww6Um1/edit?usp=sharing&ouid=117604448966777770436&rtpof=true&sd=true)
-- Historical postings (coming soon)
+- No active LCA postings
+- [Historical postings[(https://drive.google.com/drive/folders/1bkZW26OQ7Kv1G2JU8FKacF9KfGjmZdtA?usp=sharing)
