@@ -903,6 +903,20 @@
             ],
             "type": "Point"
           }
-        }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Alex Kemper"
+            },
+            "geometry": {
+              "coordinates": [
+                -82.99338561109022,
+                39.94870633896397
+              ],
+              "type": "Point"
+      }
+    }
+
     ]
 }
