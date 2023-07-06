@@ -214,13 +214,13 @@ Every week we hold an informal, totally optional coffee break to connect sociall
 
 ### Slack
 
-Teammates communicate in #devinfra, #devinfra-internal, and #devinfra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #devinfra-updates.
+Teammates communicate in #team-dev-infra, and #team-dev-infra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #dev-infra-notifications.
 
 ## Housekeeping
 
 ### Weekly reminders
 
-At the start of each week, the PM posts a reminder in `#devinfra-internal` indicating who is on support and who is leading meetings.
+At the start of each week, the TL posts a reminder in `#team-dev-infra` indicating who is on support and who is leading meetings.
 
 ### Updating the Developer Infrastructure project board
 
