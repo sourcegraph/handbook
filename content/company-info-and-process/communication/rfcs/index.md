@@ -3,12 +3,22 @@
 **Quickstart**
 
 - Create a new RFC:
-  - via Automation [sg tool] (ensures unique ID, format, and title match).
-    Tool [reference](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/background-information/sg/reference.md#sg-rfc).
-    Command:
-    ```
-    sg rfc [--private] --type <type> create "rfc title"
-    ```
+  - Automatically, via `sg` tool
+    - Benefits
+      1. Ensures unique ID across public and private RFCs
+      2. Creates the document and update title and content
+      3. (for private RFC) creates a breadcrumb doc in the public RFC folder, to
+         redirect to the private RFC and not leave a gap in the public view
+    - Command:
+      ```
+      sg rfc [--private] create --type <type> "rfc title"
+      ```
+      Example:
+      ```
+      sg rfc --private create --type solution "Cody on Apple Watch"
+      ```
+    - More information:
+      Tool [reference](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/background-information/sg/reference.md#sg-rfc).
   - Manually
     - The default format — [View](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/edit) or [Duplicate](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/copy)
     - Framing problems, proposing solutions, and making decisions—[View](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/edit) or [Duplicate](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/copy)
