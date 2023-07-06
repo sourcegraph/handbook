@@ -53,15 +53,16 @@ code_exploration:
   issue_labels:
     - team/code-exploration
 
-iam:
-  title: Identity and Access Management (IAM)
-  brief: The IAM team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
-  strategy_link: /strategy-goals/strategy/iam/index.md
+source:
+  title: Source
+  brief: The Source team is responsible for code host integrations, gitserver, repo-updater, authentication & authorization to Sourcegraph, user management, and admin experience.
+  strategy_link: /strategy-goals/strategy/source/index.md
   pm: ryan_phillips
-  em: diego_comas_iam
+  em: thorsten_ball
   issue_labels:
     - team/iam
     - team/admin-exp
+    - team/repo-management
 
 delivery:
   title: Delivery
@@ -80,14 +81,6 @@ dev_experience:
   em: chris_pine
   issue_labels:
     - team/dev-experience
-
-repo_management:
-  title: Repo Management
-  strategy_link: /strategy-goals/strategy/repo-management
-  pm: ryan_phillips
-  em: diego_comas_repo
-  issue_labels:
-    - team/repo-management
 
 security:
   title: Security

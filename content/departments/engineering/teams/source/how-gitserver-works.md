@@ -1,15 +1,14 @@
 # How [gitserver](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/tree/cmd/gitserver) works
 
-- [How gitserver works](#how-gitserver-works)
-  - [Purpose](#purpose)
-    - [Overview](#overview)
-      - [Scheduling repository updates](#scheduling-repository-updates)
-  - [Miscellaneous](#miscellaneous)
-    - [Production instances](#production-instances)
-    - [Command timeouts](#command-timeouts)
-    - [Concurrency control](#concurrency-control)
-    - [Cleanup tasks](#cleanup-tasks)
-    - [Useful metrics](#useful-metrics)
+- [Purpose](#purpose)
+  - [Overview](#overview)
+    - [Scheduling repository updates](#scheduling-repository-updates)
+- [Miscellaneous](#miscellaneous)
+  - [Production instances](#production-instances)
+  - [Command timeouts](#command-timeouts)
+  - [Concurrency control](#concurrency-control)
+  - [Cleanup tasks](#cleanup-tasks)
+  - [Useful metrics](#useful-metrics)
 
 ## Purpose
 
