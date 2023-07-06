@@ -15,7 +15,7 @@ This applies for both [planned work](#planned-work) and [unplanned work](#unplan
 
 ### Planned work
 
-We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views/33) and [scratch documents](#scratch-documents) to asynchronously discuss our roadmap.
+We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/354) and [scratch documents](#scratch-documents) to asynchronously discuss our roadmap.
 
 When planning work, the [relevant work lead](#work-leads) should:
 
@@ -110,7 +110,7 @@ They should have the `team/DevInfra` and `roadmap` label, one (or more) appropri
 <!-- OPTIONAL LABEL: roadmap -->
 ```
 
-> NOTE: Be sure to add _all_ your desired labels (including at least one `DevInfra/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
+> NOTE: Be sure to add _all_ your desired labels (including at least one `dev-infra/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
 
 A project board view for roadmap tracking issues is also available [here](https://github.com/orgs/sourcegraph/projects/212/views/33).
 
@@ -137,7 +137,7 @@ If you think Developer Infrastructure is the right team to address a bug or othe
 - A more detailed explanation of the background, context, and problem that needs solving
 - Any guidance related to the impact of this issue
 - Any extra information that will help us solve or prioritize the issue
-- The label `team/DevInfra`
+- The label `team/dev-infra`
 
 ### Providing support
 
@@ -212,23 +212,15 @@ We connect bi-weekly to celebrate wins from the past two weeks, give cheers to o
 
 Every week we hold an informal, totally optional coffee break to connect socially and hang out together as humans.
 
-### `sg` hack hour
-
-There is a weekly `sg` hack hour that Thorsten Ball and the DevInfra team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
-
-When the hack hour starts, a meeting link will be posted in #devinfra.
-
-To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
-
 ### Slack
 
-Teammates communicate in #devinfra, #devinfra-internal, and #devinfra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #devinfra-updates.
+Teammates communicate in #team-dev-infra, and #team-dev-infra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #dev-infra-notifications.
 
 ## Housekeeping
 
 ### Weekly reminders
 
-At the start of each week, the PM posts a reminder in `#devinfra-internal` indicating who is on support and who is leading meetings.
+At the start of each week, the TL posts a reminder in `#team-dev-infra` indicating who is on support and who is leading meetings.
 
 ### Updating the Developer Infrastructure project board
 
@@ -246,7 +238,7 @@ The status field for each issue in the project board roughly represents the foll
 
 ### Updating the Engineering roadmap
 
-The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2FDevInfra+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
+The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdev-infra+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
 
 ### Updating our Strategy page
 

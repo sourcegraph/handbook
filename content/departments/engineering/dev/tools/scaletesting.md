@@ -52,10 +52,10 @@ The configuration for the Google Cloud infrastructure can be found in the [sourc
 - `scaletesting`: Here you will find configuration for the project, Cloud SQL instances, secrets and anything else related to the configuration of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, although contributions are always welcome.
 - `dogfood`: although this directory does not contain direct references to scaletesting resources, it manages the kubernetes cluster on which the Sourcegraph instance is deployed.
 
-A seperate compute instance also exists for the purpose of running long-running and/or client-side intensive tests. Its configuration exists in the same [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/scaletesting/DevInfra.tf?L1:37) repository.
+A seperate compute instance also exists for the purpose of running long-running and/or client-side intensive tests. Its configuration exists in the same [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/scaletesting/devx.tf?L1:37) repository.
 
 To access this instance, run the following command:
-`gcloud compute ssh --zone "us-central1-a" "DevInfra" --tunnel-through-iap --project "sourcegraph-scaletesting"`
+`gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
 #### Database
 
@@ -179,13 +179,13 @@ sg live scaletesting
 
 ### Scale the infrastructure down when not in use
 
-To stop the `DevInfra` compute instance when it is not in use, run the following:
+To stop the `DevX` compute instance when it is not in use, run the following:
 
-`gcloud compute instances stop DevInfra --zone us-central1-a --project sourcegraph-scaletesting`
+`gcloud compute instances stop devx --zone us-central1-a --project sourcegraph-scaletesting`
 
 or to start it:
 
-`gcloud compute instances start DevInfra --zone us-central1-a --project sourcegraph-scaletesting`
+`gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletesting`
 
 ### Pods in `CrashLoopBackOff` due to failed migration
 
@@ -234,7 +234,7 @@ It can also be scaled up or down with the following steps:
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Edit the machine type in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L40) - We recommended staying within the `n2-highmem-xx` [family](https://cloud.google.com/compute/docs/general-purpose-machines#n2-high-mem) as it's configuration best suits GitHub's requirements.
-3. Create a PR and tag [devinfra](https://github.com/orgs/sourcegraph/teams/devinfra/members) for review.
+3. Create a PR and tag [team-dev-infra](https://github.com/orgs/sourcegraph/teams/team-dev-infra/members) for review.
 
 #### Increase Disk
 
@@ -246,7 +246,7 @@ Increasing disk is a 2 part process - you have to increase disk on the VM, and t
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Identify which disk you want to increase in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L19)
    ![increase-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk-terraform.png)
-3. Create a PR and tag [devinfra](https://github.com/orgs/sourcegraph/teams/devinfra/members) for review.
+3. Create a PR and tag [team-dev-infra](https://github.com/orgs/sourcegraph/teams/team-dev-infra/members) for review.
 4. After it has been approved and applied, follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
 
 ### Logging in
@@ -334,17 +334,17 @@ A small tool named [Synthforce](https://github.com/sourcegraph/synthforce) has b
 
 #### Depots (repos)
 
-##### `DevInfra-small-10GB`
+##### `devx-small-10GB`
 
 - Size ~10 GB
 - Change count 589 (commits)
 
-##### `DevInfra-large-20GB`
+##### `devx-large-20GB`
 
 - Size ~20 GB
 - Change count 2937 (commits)
 
-##### `DevInfra-80k-files`
+##### `devx-80k-files`
 
 - Size ~15 GB
 - Change count ~ 8500 (commits)
@@ -365,7 +365,7 @@ This section covers where to find the code behind the ScaleTesting initiative.
 
 - [Deployments](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting)
 - [Tools](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/scaletesting)
-- [Scratch Logs](https://sourcegraph.com/github.com/sourcegraph/DevInfra-scratch/-/blob/2022/scaletesting/log.snb.md)
+- [Scratch Logs](https://sourcegraph.com/github.com/sourcegraph/dev-infra-scratch/-/blob/2022/scaletesting/log.snb.md)
 
 ### Creating a scenario runner
 

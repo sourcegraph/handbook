@@ -17,8 +17,9 @@ We maintain a shared fleet of Buildkite agents for continuous integration across
 - [Active agents](https://buildkite.com/organizations/sourcegraph/agents)
 - [Terraform and Kubernetes manifests](https://github.com/sourcegraph/infrastructure/tree/main/buildkite)
 - Images:
-  - [`buildkite-agent`](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent)
+  - [`buildkite-agent-bazel`](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-bazel)
   - [`buildkite-agent-stateless`](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-stateless)
+  - [`buildkite-agent-macos`](https://github.com/sourcegraph/infrastructure/tree/main/buildkite/app-macos)
   - [`buildkite-job-dispatcher`](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/docker-images/buildkite-job-dispatcher)
 - Specific resources:
   - [Gain access to the CI cluster](../../../process/deployments/debugging/tutorial.md#ci-cluster)
@@ -30,7 +31,11 @@ We have several different types of agents available. We recommend explicitly dec
 
 The currently available queues:
 
-- `standard`: our default Buildkite agents, currently Docker-in-Docker agents running in Kubernetes
+- `standard`: our default Buildkite agents, which are _stateless_, currently Docker-in-Docker agents running in Kubernetes
+  - Use those for any non Bazel task, as they ensure that any state leak won't affect further builds by design.
+- `bazel`: our Bazel Buildkite agents, which are _stateful_, currently Docker-in-Docker agents running in Kubernetes
+  - Use those for any Bazel task, as Bazel guarantees hermeticity, meaning that a given build won't affect subsequent build on the same agent.
+- `macos`: a _stateful_ agent currently backed by a single host running MacOS. GCP does not provide instances which run MacOS which is why the host for this agent can be found in AWS `us-ohio-2` region.
 - `vagrant`: special Buildkite agents desgined to run resource intensive test on docker deployments.
 
 ### `buildkite-job-dispatcher`
