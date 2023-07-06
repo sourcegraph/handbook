@@ -212,14 +212,6 @@ We connect bi-weekly to celebrate wins from the past two weeks, give cheers to o
 
 Every week we hold an informal, totally optional coffee break to connect socially and hang out together as humans.
 
-### `sg` hack hour
-
-There is a weekly `sg` hack hour that Thorsten Ball and the DevInfra team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
-
-When the hack hour starts, a meeting link will be posted in #devinfra.
-
-To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
-
 ### Slack
 
 Teammates communicate in #devinfra, #devinfra-internal, and #devinfra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #devinfra-updates.
