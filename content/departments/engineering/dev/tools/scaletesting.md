@@ -365,7 +365,7 @@ This section covers where to find the code behind the ScaleTesting initiative.
 
 - [Deployments](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting)
 - [Tools](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/scaletesting)
-- [Scratch Logs](https://sourcegraph.com/github.com/sourcegraph/DevInfra-scratch/-/blob/2022/scaletesting/log.snb.md)
+- [Scratch Logs](https://sourcegraph.com/github.com/sourcegraph/dev-infra-scratch/-/blob/2022/scaletesting/log.snb.md)
 
 ### Creating a scenario runner
 
