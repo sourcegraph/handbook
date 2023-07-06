@@ -52,10 +52,10 @@ The configuration for the Google Cloud infrastructure can be found in the [sourc
 - `scaletesting`: Here you will find configuration for the project, Cloud SQL instances, secrets and anything else related to the configuration of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, although contributions are always welcome.
 - `dogfood`: although this directory does not contain direct references to scaletesting resources, it manages the kubernetes cluster on which the Sourcegraph instance is deployed.
 
-A seperate compute instance also exists for the purpose of running long-running and/or client-side intensive tests. Its configuration exists in the same [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/scaletesting/DevInfra.tf?L1:37) repository.
+A seperate compute instance also exists for the purpose of running long-running and/or client-side intensive tests. Its configuration exists in the same [sourcegraph/infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/scaletesting/devx.tf?L1:37) repository.
 
 To access this instance, run the following command:
-`gcloud compute ssh --zone "us-central1-a" "DevInfra" --tunnel-through-iap --project "sourcegraph-scaletesting"`
+`gcloud compute ssh --zone "us-central1-a" "devx" --tunnel-through-iap --project "sourcegraph-scaletesting"`
 
 #### Database
 
