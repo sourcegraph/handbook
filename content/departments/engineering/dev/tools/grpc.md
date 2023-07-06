@@ -1,27 +1,8 @@
 # gRPC
 
-## Introduction
-
 This document provides an overview and documentation for Sourcegraph-Specific gRPC usage, including information about gRPC services, monitoring, common issues, and additional resources. The purpose of this document is to assist developers in understanding and working with gRPC.
 
-## Table of Contents
-
-1. [gRPC Services](#grpc-services)
-2. [Monitoring](#monitoring)
-3. [Known Issues](#known-Issues)
-4. [Additional Resources](#additional-resources)
-
-## gRPC Services
-
-### Gitserver
-
-[gitserver](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/cmd/gitserver/README.md) has been migrated to use gRPC. The see the following for more information: [gRPC: migrate gitserver](https://github.com/sourcegraph/sourcegraph/issues/46522)
-
-### Frontend
-
-[frontend](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/cmd/frontend/README.md) is still in progress of being migrated to use gRPC yet. The see the following for more information: [gRPC: migrate internal frontend APIs](https://github.com/sourcegraph/sourcegraph/issues/46525)
-
-## Monitoring
+## GRPC Monitoring Guide
 
 to view the gRPC metrics, go to the built-in Grafana dashboard. The goal of these metrics is to identify specific types of errors that we are aware of, which originate from the grpc/protobuf libraries we employ. Such errors often hint at potential configuration issues or bugs related to our grpc-specific application logic. By implementing these additions, we aim to gain better insights into these errors and investigate any necessary adjustments or fixes.
 
@@ -30,6 +11,35 @@ example dashboard:
 [gitserver](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?orgId=1) for example. Within that dashboard, there are two sections with panels for gRPC metrics called `GRPC server metrics` and `GRPC "interanl errors" metrics`.
 
 There is also a filter to only view metrics for a specific rpc method at the top of the datchboard. e.g. https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?orgId=1&var-alert_level=All&var-shard=All&var-method=Archive
+
+### Metrics
+
+#### GRPC server metrics
+
+- `Request rate per-method over 2m` - This is a good indicator of wether or not the rpc method is being used if at all.
+- `Error percentage per-method over 2m` - Captures server side errors that are not related to grpc itself. For example, if the rpc method is called and later given a cancellation signal, then it is expected that the rpc method will fail. In this case, the error percentage will be high, but it is not a cause for concern because the failures are unrelated to grpc itself.
+
+the following helps you track the 99th, 90th, 75th percentile response time for each rpc method over a 2-minute interval. By monitoring this metric, you can identify any performance issues or outliers that may affect user experience or indicate areas for optimization.
+
+- `99th percentile response time per method over 2m`
+- `90th percentile response time per method over 2m`
+- `75th percentile response time per method over 2m`
+
+#### GRPC "internal errors" metrics
+
+- `Client baseline error percentage per-method over 2m` - captures the percentage of errors that are related to grpc itself. For example, if the rpc method is called and later given a cancellation signal, then it is expected that the rpc method will fail. In this case, the error percentage will be high, but it is not a cause for concern because the failures are unrelated to grpc itself.
+- `Client baseline response codes rate per-method over 2m` - This gives you a generally idea of how often a status code is returned. For example, if you see a high percentage of `InvalidArgument` status codes, then it is likely there is something wrong with the request being sent to the grpc server.
+
+- `Client-observed gRPC internal error percentage per-method over 2m` - This capture the percentage of errors that we know originate from the grpc / protobuf libraries we use
+- `Client-observed gRPC internal error response code rate per-method over 2m` - This gives you a generally idea of how often a specific grpc status code is returned.
+
+Here are the posssible [grpc status codes](https://grpc.github.io/grpc/core/md_doc_statuscodes.html) that can be returned by a rpc method.
+
+#### More on internal errors
+
+The GRPC "internal errors" metrics flags specific types of errors that we can attribute to the grpc/protobuf libraries we use. Usually, these errors might hint at some configuration or application logic issues specific to grpc that may need further investigation.
+
+This errors are currently being captured through the use of a grpc feature called [Interceptors](https://github.com/grpc/grpc-go/blob/master/examples/features/interceptor/README.md).
 
 ## Known Issues
 
@@ -43,3 +53,9 @@ gRPC has a default message size limit of 4mb. You may encounter the following er
 ```
 
 This can be changed by setting the `SRC_GRPC_CLIENT_MAX_MESSAGE_SIZE` environment variable.
+
+## Services currently not using gRPC
+
+### Frontend
+
+[frontend](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/cmd/frontend/README.md) is still in progress of being migrated to use gRPC yet. The see the following for more information: [gRPC: migrate internal frontend APIs](https://github.com/sourcegraph/sourcegraph/issues/46525)
