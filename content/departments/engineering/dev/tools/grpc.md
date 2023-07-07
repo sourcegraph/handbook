@@ -41,6 +41,21 @@ The GRPC "internal errors" metrics flags specific types of errors that we can at
 
 This errors are currently being captured through the use of a grpc feature called [Interceptors](https://github.com/grpc/grpc-go/blob/master/examples/features/interceptor/README.md).
 
+How can we determine if an error is coming from grpc-go?
+
+The go-grpc library has a tendency to prefix most gRPC client/server errors with "grpc: ...". Our new interceptors are designed to detect this string pattern.
+
+Some of the limitations of this approach are:
+
+- The error strings used by https://github.com/grpc/grpc-go could be modified in the future.
+- Not all errors from https://github.com/grpc/grpc-go are necessarily transmitted over the network.
+- It's possible for someone to inadvertently create an application-level error that starts with "grpc: ...".
+- Errors originating from the library may not always be the library's fault, such as when encountering an application bug like sending a 5GB symbols response (see [gRPC 4mb message size limit](#grpc-4mb-message-size-limit)).
+
+See the this [sourcegraph search](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/grpc/internalerrs/common.go?L160-166) to see the current list of errors that are being captured as "internal errors"
+
+Despite these limitations, implementing such checks (which may need to be modified or removed later) enhance our monitoring capabilities as we further develop the gRPC implementation.
+
 ## Known Issues
 
 ### gRPC 4mb message size limit
