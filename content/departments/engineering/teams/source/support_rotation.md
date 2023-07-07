@@ -6,7 +6,7 @@ In the Source team we run a support rotation.
 
 When you are on support rotation, you are the team's first responder to support requests.
 
-It does *not* mean that you are alone and should fix every issue completely and by yourself. It means that you triage incoming issues, take a first stab at them and, if necessary, call the rest of the team for help, or escalate the issue further.
+It does _not_ mean that you are alone and should fix every issue completely and by yourself. It means that you triage incoming issues, take a first stab at them and, if necessary, call the rest of the team for help, or escalate the issue further.
 
 Here are the expectations when you are on support rotation:
 
@@ -17,9 +17,10 @@ Here are the expectations when you are on support rotation:
 1. Ask for help when you are stuck! Don't spend too much time trying to troubleshoot an issue alone and you get stuck, especially if it's high priority. Do your best, ask the team, and resolve the issue.
 1. If you have too many support requests, ask in #team-source for help or tag the EM.
 1. After resolving an issue, possibly do one of the following things:
-  - Create a ticket if there is follow-up work to be done that is not urgent.
-  - Extend the documentation if that would've prevented the issue.
-  - Create a backlog issue for an improvement, feature, tool, etc. that would have been useful to troubleshoot and solve the problem and find an owner for the issue.
+
+- Create a ticket if there is follow-up work to be done that is not urgent.
+- Extend the documentation if that would've prevented the issue.
+- Create a backlog issue for an improvement, feature, tool, etc. that would have been useful to troubleshoot and solve the problem and find an owner for the issue.
 
 ## Rotation
 
