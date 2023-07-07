@@ -261,8 +261,8 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 
 New Business: New Customer, New Business Unit, New Team if multiple buying teams within a single business unit
 
-- _Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
- - _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
+- \_Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
+- _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
 
 Flat Renewal: No Change to Contract
