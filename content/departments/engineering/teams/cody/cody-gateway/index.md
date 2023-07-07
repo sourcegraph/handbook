@@ -49,7 +49,7 @@ Cody Gateway infrastructure is defined in Terraform in [`sourcegraph/infrastruct
 - `cody-gateway/envs/prod`: `cody-gateway.sourcegraph.com`
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?tag=cody-gateway,prod)
   - [Cloud Run service (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/cody-gateway/metrics?project=cody-gateway-prod)
-  - [Service logs](https://cloudlogging.app.goo.gl/DdxNvZqGrzg5W4yc7)
+  - [Service logs](https://cloudlogging.app.goo.gl/pJbPob8qMtiYDvCX6)
   - [Service traces](https://console.cloud.google.com/traces/overview?project=cody-gateway-prod)
   - [Sentry events](https://sourcegraph.sentry.io/projects/cody-gateway-prod/)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=cody-gateway-prod)
