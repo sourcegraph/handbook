@@ -16,7 +16,3 @@ If a new hire is a re-hire (whether intern or otherwise) and previously complete
 
 This also applies for onboarded contractors who need to align with out training compliance policies.
 
-TODO
-
-- Labor & Employment notices (mandatory US postings)
-- Soc 2
