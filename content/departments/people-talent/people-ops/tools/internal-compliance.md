@@ -15,4 +15,3 @@ If a new hire is a re-hire (whether intern or otherwise) and previously complete
 - they need to take a different version of the training (such as someone who worked for us as an international teammate previously but is re-hired as a U.S. employee - they would have to take a different version of the harassment training and should be assigned that course).
 
 This also applies for onboarded contractors who need to align with out training compliance policies.
-
