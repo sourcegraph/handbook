@@ -2064,6 +2064,17 @@ shivasurya_sankarapandian:
   links: '[@sshivasurya](https://twitter.com/sshivasurya), [LinkedIn](https://www.linkedin.com/in/shivasurya), [shivasurya.me](https://shivasurya.me)'
   description: Shiva is a passionate security engineer who loves finding and fixing vulnerabilities. He started his career as a mobile software engineer, but got hooked on security after playing capture the flag (CTF) competitions and learning about vulnerability research. Prior to Sourcegraph, He has worked as a security engineer at Dropbox, Yelp and Zoho, where he built features and products with security in mind.
 
+alex_kemper:
+  name: Alex Kemper
+  email: alex.kemper@sourcegraph.com
+  github: ajkemps
+  pronouns: he/him
+  role: Enterprise Technical Advisor
+  reports_to: manager_technical_advisory
+  location: Columbus, OH, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/alexjkemper/)'
+  description: Alex lives in the German Village neighborhood of Columbus, OH with his partner Laura and their pug, Gilbert. Prior to joining Sourcegraph, he worked in various sales, partnerships, and software engineering roles at Guideline. Outside of the office, you can find him staying active with sports like golf and pickleball, or busy around the house trying a new recipe or working on home improvement projects. If you really want to get him talking, ask about college football.
+
 nelson_araujo:
   name: Nelson Araujo
   reports_to: eng_lead
