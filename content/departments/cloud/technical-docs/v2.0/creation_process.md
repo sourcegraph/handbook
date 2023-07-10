@@ -68,8 +68,6 @@ Hi,
 
 The instance has been provisioned and set password email has been sent to the mentioned customer admin.
 For instance operations, please go to http://go/cloud-ops.
-
-Cody has been setup by default, please instruct customer admin to configure `"cody.enabled": true` in site config.
 ```
 
 ## Option II - manual playbook
