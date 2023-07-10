@@ -53,7 +53,6 @@
 - Ad-hoc customer calls
   - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with sourcegraph.
 
-
 ## As Needed
 
 ### New Customers
@@ -65,9 +64,9 @@
 
 - As new business closes TA's will be assigned to accounts to lead them through the Onboarding and Enablement process.
 
-
 # General Customer Interaction
-  - Email, Slack, Zoom, or even in-person are all potential ways that you'll be interacting with your customers. Every customer should be contacted in some form at least once a month.
-  - Customer check-ins, these will take varying forms depending on the relationship with the customer, the idea is to make sure we are maintaining a high level of engagement with each customer.
-    - These would be a weekly, bi-weekly, monthly, bi-monthly all the way to quarterly 30-60 minute call, depending on the customer
-    - For healthy accounts this could be a quick email or slack message
+
+- Email, Slack, Zoom, or even in-person are all potential ways that you'll be interacting with your customers. Every customer should be contacted in some form at least once a month.
+- Customer check-ins, these will take varying forms depending on the relationship with the customer, the idea is to make sure we are maintaining a high level of engagement with each customer.
+  - These would be a weekly, bi-weekly, monthly, bi-monthly all the way to quarterly 30-60 minute call, depending on the customer
+  - For healthy accounts this could be a quick email or slack message
