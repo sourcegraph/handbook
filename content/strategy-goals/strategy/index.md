@@ -29,31 +29,34 @@ Sourcegraph is a code AI platform.
 
 #### Products
 
-- **Cody:** The best AI coding assistant, which helps devs write features and fix bugs faster.
-- **Code Search:** This is the current code search product that all our customers and users use. It's valuable and will remain so for a long time. We'll incrementally improve it with AI.
+- **Cody:** Code AI that writes code and answers questions for you by reading your entire codebase and the code graph.
+- **Code Search:** Code search, plus features such as batch changes, code insights, and code monitoring.
+
+Notes:
+
 - There is no longer a product called "Sourcegraph". Sourcegraph is the company that makes Cody and Code Search.
-- We're talking to customers to learn what new security, compliance, governance, legal, and safety problems will be created when they're heavily using AI coding tools—and how we can solve them with a new product here that is symbiotic with Cody demand and GTM motion.
+- We no longer use the term "code intelligence platform".
+- In the future, we're likely to introduce a product to help with the security, compliance, governance, legal, and safety problems created when a company starts heavily using AI coding tools.
 
-#### Foundations
+#### Concepts
 
-- **Code graph:** All your code and all info about your code. This includes data from code hosts, comprehensive precise code nav, ownership, and all other code info from your tools. A huge differentiator in code search today that becomes more important when this is fed to an LLM. Replaces the term "code intelligence". (Also, to be clear, today Cody only uses a fraction of this information, but that will change soon.)
-- **Tools:** The atomic capabilities of Cody and Code Search that make them more powerful than the competition: 'submit a PR', 'create a visualization', etc. These will be linked together in unique and creative ways to increase Cody's capabilities.
-- **LLM (Large Language Model):** Our products use existing best-in-class foundation models and give you the freedom to choose the best or preferred LLM for your needs, unlike Microsoft/GitHub, which locks you in.
+- **Code graph:** All your code and any context (info about your code). Both Cody and Code Search use the code graph (in various ways). Today this includes repositories from code hosts, code ownership information, code navigation data, etc. In the future this will include information from issue tracking tools, observability tools, documentation, runtime, security tolos, etc.
+- **LLM (Large Language Model):** Our products use existing best-in-class foundation models and give you the freedom to choose the best or preferred LLM for your needs.
 
 #### How we package and ship these products
 
 - **Cody app:** The Cody app will be the fastest way for individual developers to get Cody's full power and accuracy on their private code.
 - **Editor extensions**
-- **Sourcegraph Enterprise {Cloud, Server}:** A single instance with all of our products (Cody and code search), built for enterprises to deploy at scale.
+- **Sourcegraph Enterprise {Cloud, Server}:** A single instance with all of our products (Cody and Code Search), built for enterprises to deploy at scale.
 
 #### Principles
 
 The principles apply to our company and products:
 
 - **Universal:** Across all code, all code hosts, and all tools that know things about code. Works with all LLMs. Unlike competitors, which only works with their vendor locked-in suite.
-- **Scalable:** Proven to scale over 10+ years to the world's biggest codebases and companies.
-- **Open:** At Sourcegraph, our code is public and we operate transparently. Sourcegraph is the open code AI platform, vs. competitors closed/faux-open platform.
 - **Powerful and accurate**
+- **Scalable and secure:** Proven on the world's biggest codebases and trusted by the world's most discerning companies.
+- **Open:** At Sourcegraph, our code is public and we operate transparently. Sourcegraph is the open code AI platform, vs. competitors closed/faux-open platform.
 
 #### FAQ
 

@@ -25,7 +25,6 @@
 - [Convercent](people-ops/tools/convercent.md)
 - [HumanInterest](people-ops/tools/humaninterest.md)
 - [Lattice](people-ops/tools/lattice.md)
-- [Modern Health](people-ops/tools/modern-health.md)
 - [PEO](people-ops/tools/peo.md)
 - [Process St](people-ops/tools/process-st.md)
 - [Radford](people-ops/tools/radford.md)

@@ -1,12 +1,43 @@
-# Source Department
+# Source Team
 
-The Source department consists of a related set of teams who manage nearly all aspects of interfacing with code hosts. These teams will grow in time, but are small and scrappy, with some in maintenance-mode for now. Source is taking on tremendous challenges in the coming year, expanding our native support beyond Git for huge industry customers on Perforce, SVN and CVS.
+The Source team owns everything related to
 
-We provide value to Sourcegraph by ensuring Sourcegraph can reliably index code from any code hosts. For more details, read our [Source Department strategy](strategy.md)
+- licensing
+- IAM
+- code host connections
+- gitserver
+- repo-updater
 
-## Teams in Source
+We provide value to Sourcegraph by ensuring Sourcegraph can reliably index code from any code hosts, with the proper authentication and authorization in place. For more details, read our [Source Department strategy](strategy.md)
 
-- [Identity and Access Management](../iam/index.md)
-- [Repository Management](../repo-management/index.md)
-- (To-be-staffed in FY24) Licensing & Billing
-- (To-be-staffed in FY24) Site Admin Experience
+## Members
+
+{{generator:product_team.source}}
+
+## Contact
+
+- #ask-source channel or @source-support in Slack.
+
+## Emergency Contact
+
+We run an internal support rotation (see [Support Rotation in Team Source](support_rotation.md)]).
+
+You can page the person on support (and possibly wake them up in the middle of the night).
+
+But here are the rules:
+
+- If the issue is caused by an upgrade, the guidance is to downgrade first. (Cloud handled by Cloud team, self-hosted handled by CS, Delivery, and customer)
+- If the issue is caused by new setup with existing customer, wait until next business day.
+- If the issue is caused by new setup with prospect, wait until next business day.
+
+If you still think it's an emergency and the rules above won't be broken by contacting the person on support rotation:
+
+In Slack, use:
+
+```
+/genie alert "your emergency message" for source-support
+```
+
+## Internal Processes
+
+- [Support rotation](support_rotation.md)

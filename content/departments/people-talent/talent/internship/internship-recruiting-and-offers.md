@@ -101,7 +101,7 @@ using the below offer data
 - Equity options - “0”
 - For all other offer fields, follow the standard process.
 
-Approval chain: Talent Team Manager (if applicable) > VP People + Talent > Hiring Manager > Department Head > VP Operations.
+Approval chain: VP People & Talent > Hiring Manager > Department Head > VP Operations or Financial Planning and Analysis Manager > CEO (Quinn Slack)
 
 We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` and `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).

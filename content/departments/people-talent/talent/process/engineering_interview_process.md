@@ -12,7 +12,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 [Internal Documentation - Backend Systems](https://github.com/sourcegraph/interviews/blob/master/engineering/software-engineer/architecture/backend-systems/backend-systems.md)
 
-[Internal Documentation - Repository Management](https://github.com/sourcegraph/interviews/blob/master/engineering/software-engineer/architecture/repo-management/README.md)
+[Internal Documentation - Source/Repo management](https://github.com/sourcegraph/interviews/blob/master/engineering/software-engineer/architecture/repo-management/README.md)
 
 - **Interviewers:** two members of the team they are interviewing for
 

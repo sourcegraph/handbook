@@ -1,13 +1,12 @@
 # How [repo-updater](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/tree/cmd/repo-updater) works
 
-- [How repo-updater works](#how-repo-updater-works)
-  - [Purpose](#purpose)
-    - [Overview](#overview)
-  - [Miscellaneous](#miscellaneous)
-    - [Production instances](#production-instances)
-    - [General dependencies](#general-dependencies)
-    - [Cloud-specific dependencies](#cloud-specific-dependencies)
-    - [Useful metrics](#useful-metrics)
+- [Purpose](#purpose)
+  - [Overview](#overview)
+- [Miscellaneous](#miscellaneous)
+  - [Production instances](#production-instances)
+  - [General dependencies](#general-dependencies)
+  - [Cloud-specific dependencies](#cloud-specific-dependencies)
+  - [Useful metrics](#useful-metrics)
 
 ## Purpose
 

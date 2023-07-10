@@ -249,10 +249,13 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Storybook
 - Webpack
 
-## [Identity and Access Management (IAM)](../../teams/iam/index.md)
+## [Source](../../teams/source/index.md)
 
 ### General
 
+- Code host connections (GitHub, GitLab, BitBucket, Perforce, CVS, Gerrit)
+- Code replication into Sourcegraph\* Code storage within Sourcegraph
+- CVS importer
 - E2E Permissions (RBAC for features and Repo Permissions)
 - Repository permission syncing
 - Permission caching
@@ -270,6 +273,10 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ### User journeys
 
+- Add new codehost connection
+- Add repositories
+- Sync public repositories
+- Sync all or individual repositories
 - Sign-up through email, GitHub, GitLab
 - Sign-in through email, GitHub, GitLab
 - Global configuration notifications and repo syncing notifications
@@ -279,39 +286,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Organization settings
 - Organization members
 - Organization invitations
-
-### General
-
-- Sourcegraph extension API
-- Third-party extensions
-- Extensions registry and toolsets
-- Code host integrations
-- Browser extensions
-- IDE and third-party code view integrations
-
-### User journeys
-
-- Create and manage extensions from the extensions registry
-- Search and filter extensions
-- Activate/deactivate and enable/disable extensions
-- Extension action items panel, extension line and file decorations, status bar
-- Command palette
-
-## [Repo Management](../../teams/repo-management/index.md)
-
-### General
-
-- Code host connections (GitHub, GitLab, BitBucket, Perforce, CVS, Gerrit)
-- Code replication into Sourcegraph\* Code storage within Sourcegraph
-- CVS importer
-- Red accounts
-
-### User journeys
-
-- Add new codehost connection
-- Add repositories
-- Sync public repositories
-- Sync all or individual repositories
 
 ## Container images
 

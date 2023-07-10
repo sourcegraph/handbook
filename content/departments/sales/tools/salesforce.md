@@ -251,42 +251,43 @@ We only consider qualification for New Business opportunities as organic expansi
 
 ### Opportunity Taxonomy (How to Name Your Opportunities)
 
-#### Rules of Engagement:
+#### Rules of Engagement
 
 AE’s shall be responsible for taxonomy of Salesforce opportunities and shall follow the below guidelines once an opportunity moves to Stage 2.
 
 AEs are welcome to add additional tags or information to the opportunity name, however any additional information must be appended after the required taxonomy.
 
-#### New Taxonomy:
+#### Taxonomy Guidelines
 
 New Business: New Customer, New Business Unit, New Team if multiple buying teams within a single business unit
 
-- _Account Name - Business Unit - Team - New Business - Enterprise OR Enterprise Starter - CIP # of Seats_
-- Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats
+- \_Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
+- _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
+- Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
 
 Flat Renewal: No Change to Contract
 
 - _Account Name - Business Unit - Team - Renewal - (ProductName) # of Seats_
-  - _ProductName = Search Only, Search + Batch, Search + Insights, CIP_
+  - _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. Oracle - Hospitality Group - Renewal - Search Only - 16 Seats
 
-Expansions: Sale of New Product, Upgrade to CIP
+Expansions: Sale of New Product, Upgrade to Code Search
 
 - _Account Name - Business Unit - Team - Expansion - (NewProductName) # of Seats_
-  - _NewProductName = Search Only, Search + Batch, Search + Insights, CIP Enterprise, CIP Enterprise Starter_
+  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. Wayfair - Expansion - Search + Batch - 50 Seats
 
 Expansions: Increase in Number of Seats
 
 - _Account Name - Business Unit - Team - Expansion - (ProductName)(Add’l # of Seats)_
-  - _ProductName = Search Only, Search + Batch, Search + Insights, CIP_
+  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
   - _Add’l # of Seats – Additional number of licenses being purchased_
 - Ex. Apple - SPG - Expansion - Search Only - 35 Users
 
 Churn: Used Only When iARR is Negative
 
 - _Account Name - Business Unit - Team - Churn - (ProductName)(ChurnPotential)_
-  - _ProductName = Search Only, Search + Batch, Search + Insights, CIP Enterprise, CIP Enterprise Starter_
+  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
   - _ChurnPotential = Partial, Full_
 - Ex. Uber - Search Only - Churn - Full
 
@@ -294,16 +295,7 @@ Churn: Used Only When iARR is Negative
 
 ##### Opportunities Related to Cody
 
-Cody remains in the experimental stage, however we are actively gauging market interest. There are two ways to tag Cody opportunities:
-
-- 1\. For existing customers:
-  - a\. Append _Cody Interest_ to the name of the opportunity
-    - i\. Ex. Wayfair - Expansion - Search + Batch - 50 Seats - Cody Interest
-- 2\. For new prospects:
-  - a\. If a prospect is interested in Cody as part of the overall Sourcegraph CIP, append _Cody Interest_ to the name of the opportunity
-    - i\. Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats - Cody Interest
-  - b\. If a prospect is interested in Cody as a VS extension only and is not interested in purchasing Sourcegraph, append _VS Cody (No SG)_ to the name of the opportunity
-    - i\. Ex. JPMC - AWM - Application Portal Team - New Business - Enterprise - CIP 50 Seats - VS Cody (No SG)
+Now that Cody is generally available for sale, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines
 
 ### Associating contacts to opportunities
 

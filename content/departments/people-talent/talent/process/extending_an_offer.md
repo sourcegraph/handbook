@@ -27,7 +27,7 @@
 - The offer start date **must** align with a [cohort start date](https://calendar.google.com/calendar/u/0?cid=Y182OTdwMnZyMnA3cmJnYzNrMTRiODAwc2gxZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), which take place every 2-weeks.
   - If you need to start a Teammate on a non-cohort date, you must receive approval from VP People & Talent. To receive approval, please send a Slack to VP People & Talent, Director, People and Onboarding Manager with business case for starting on a non-cohort date.
 - Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
-- Approval chain: Director, Technical Recruiting (if applicable) > VP People & Talent > Hiring Manager > Department Head > VP Operations and/or Manager, Financial Planning & Analysis.
+- Approval chain: VP People & Talent > Hiring Manager > Department Head > VP Operations and/or Manager, Financial Planning & Analysis > CEO (Quinn Slack)
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` or `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
   - If the candidate received a `No` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 

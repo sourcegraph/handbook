@@ -21,9 +21,10 @@ Order Forms and MSAs:
 - [Sourcegraph Cloud (Managed Instance) MSA](https://docs.google.com/document/d/1pOktD4-MdZcJOU4hbKLfqpkN2UsH259N/edit)
 - [Sourcegraph On-Prem MSA](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/edit)
 - [Sourcegraph CPQ Order Form](https://docs.google.com/document/d/1lh2kNzlrKXky6CzHypyrohzkoi7YrxE0PcAo4jf915Y/edit)
-- [Sourcegraph Code Intelligent Platform Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
-- [Sourcegraph Enterprise Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
+- [Sourcegraph Code Search Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
+- [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
 - [Sourcegraph Offline Order Form and MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
+- [Sourcegraph $0 POC Order Form](https://docs.google.com/document/d/1EWZL-xYP3Q26GXtonwXVf1RfEeL-Fv8K/edit)
 
 Partner Contracts:
 
@@ -32,7 +33,7 @@ Partner Contracts:
 
 Other Resources:
 
-- [Change Order Form](https://docs.google.com/document/d/1HP_zvh95QahN5me3IDT2AEnkEXutmKUV/copy)
+- [Change Order Form](https://docs.google.com/document/d/1HP_zvh95QahN5me3IDT2AEnkEXutmKUV/edit)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)

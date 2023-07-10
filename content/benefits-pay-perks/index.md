@@ -2,8 +2,6 @@
 
 ## [Benefits and Perks](benefits-perks/index.md)
 
-- [Mental Health](benefits-perks/mental-health/index.md)
-  - [Modern Health](benefits-perks/mental-health/modern-health.md)
 - [Travel](benefits-perks/travel/index.md)
   - [Navan](benefits-perks/travel/Navan.md)
 - [Time Off](benefits-perks/time-off/index.md)

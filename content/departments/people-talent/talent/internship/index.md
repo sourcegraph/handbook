@@ -40,7 +40,6 @@ Payroll
 
 #### Perks
 
-- 🎧 [Desk Set Up](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
 - 🌐 Internet - A fixed reimbursement for $50 of internet expenses monthly
 - 📱 Mobile phone - A fixed reimbursement for $75 of mobile phone expenses monthly
 - 🧘 Well-being Leave - We trust you to practice agency over your wellbeing, and we provide wellbeing leave to take if you are ill (sick) or need time away from work to regulate your mental or physical wellbeing. If you are sick or need time away, please alert your Manager and the People Team via Slack.

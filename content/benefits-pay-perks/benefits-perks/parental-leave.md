@@ -222,27 +222,6 @@ For team members taking >2 weeks of leave
 
 - Family planning resources:
   - We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth, adoption or placement of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing). Please submit any family planning related receipts directly into Airbase, just as you would for any other reimbursement. Receipts for any expense over $25 are required.
-- [Modern Health](https://circles.modernhealth.com/): our mental health platform, Modern Health, has resources for current & future parents:
-  - [Developing Parenting Skills](https://my.joinmodernhealth.com/topic/develop-parenting-skills)
-  - [Building Family Resilience](https://my.joinmodernhealth.com/program/building-family-resilience)
-  - [Covid-19 Conversations with Kids](https://my.joinmodernhealth.com/program/covid-19-conversations-with-kids)
-  - [Helping Kids Cope with Stress](https://my.joinmodernhealth.com/program/helping-kids-cope-with-stress)
-- On-demand meditations include:
-  - [The Values Reset](https://my.joinmodernhealth.com/meditation/the-reset-values)
-  - [Relax Your Body](https://my.joinmodernhealth.com/meditation/relax-your-body)
-  - [Mindful Breathing for Kids](https://my.joinmodernhealth.com/meditation/relax-your-body)
-  - [Deep Breathing](https://my.joinmodernhealth.com/meditation/deep-breathing)
-- Modern Health also offers [provider-led Circles ](https://circles.modernhealth.com/series/foundations)to join communities in conversations and learning which may be beneficial as a new parent. You can sign up for these directly in your Modern Health platform through SSO. Some examples of these Circles include both workshops and learning sessions for:
-  - Sleep, Emotional Resilience, Habits, Gratitude, Self Compassion
-- All parents can utilize 6 therapy + 6 coaching sessions
-  - There is also couples counseling sessions and couples therapy available for use
-- Dependent care coverage
-  - Up to 3 dependents can access their own 6 therapy + 6 coaching sessions
-  - Children and teenagers are able to access coaching as your dependents:
-    - Therapy:
-      - Ages 6+ US, ages 13+ elsewhere,
-    - Coaching:
-      - Ages 18+
 
 ### Returning from parental leave
 
@@ -398,7 +377,6 @@ Steps to follow once informed of a leave:
     - #kids-of-sourcegraph
     - #parenting
   - Additional resources
-    - Modern Health [link to resources above]
 
 - Professional check-in
   - Review their [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit) and 1-1 doc to catch them up to speed.
