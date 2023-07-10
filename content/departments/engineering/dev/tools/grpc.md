@@ -16,22 +16,23 @@ There is also a filter to only view metrics for a specific rpc method at the top
 
 #### GRPC server metrics
 
-- `Request rate per-method over 2m` - This is a good indicator of wether or not the rpc method is being used if at all.
-- `Error percentage per-method over 2m` - Captures server side errors that are not related to grpc itself. For example, if the rpc method is called and later given a cancellation signal, then it is expected that the rpc method will fail. In this case, the error percentage will be high, but it is not a cause for concern because the failures are unrelated to grpc itself.
+- [`Request rate per-method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100701&orgId=1&var-alert_level=All&var-shard=All) - This is a good indicator of wether or not the rpc method is being used if at all.
+- [`Error percentage per-method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100711&orgId=1&var-alert_level=All&var-shard=All) - Captures server side errors that include normal application logic errors and errors that could be related to the gRPC implementation of the method. There are several reason a method could fail that are unrelated to grpc/ transport mechanism itself. For example, cloning a repo that doesn't exist is possible error being capture that doesn't necessarily indicate a problem with grpc itself. Their are also some failure modes that are expected and not a cause for concern. For example status.DeadlineExceeded or status.Canceled is frequently returned when the caller intentionally cancels a operation and could be entirely intentional (e.g. there is no need to continue streaming the output of a git archive call if user cancels a search request)
 
 the following helps you track the 99th, 90th, 75th percentile response time for each rpc method over a 2-minute interval. By monitoring this metric, you can identify any performance issues or outliers that may affect user experience or indicate areas for optimization.
 
-- `99th percentile response time per method over 2m`
-- `90th percentile response time per method over 2m`
-- `75th percentile response time per method over 2m`
+- [`99th percentile response time per method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100720&orgId=1&var-alert_level=All&var-shard=All)
+- [`90th percentile response time per method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100721&orgId=1&var-alert_level=All&var-shard=All)
+- [`75th percentile response time per method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100722&orgId=1&var-alert_level=All&var-shard=All)
 
 #### GRPC "internal errors" metrics
 
-- `Client baseline error percentage per-method over 2m` - captures the percentage of errors that are related to grpc itself. For example, if the rpc method is called and later given a cancellation signal, then it is expected that the rpc method will fail. In this case, the error percentage will be high, but it is not a cause for concern because the failures are unrelated to grpc itself.
-- `Client baseline response codes rate per-method over 2m` - This gives you a generally idea of how often a status code is returned. For example, if you see a high percentage of `InvalidArgument` status codes, then it is likely there is something wrong with the request being sent to the grpc server.
+- [`Client baseline error percentage per-method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100801&orgId=1&var-alert_level=All&var-shard=All) - Captures client side errors that include normal application logic errors and errors that could be related to the gRPC implementation of the method. similarily to the server side errors percentage metric,There are several reason a method could fail that are unrelated to grpc/ transport mechanism itself. there are also some failure modes that are expected and not a cause for concern. For example status.DeadlineExceeded or status.Canceled is frequently returned when the caller intentionally cancels a operation and could be entirely intentional (e.g. there is no need to continue streaming the output of a git archive call if user cancels a search request)
 
-- `Client-observed gRPC internal error percentage per-method over 2m` - This capture the percentage of errors that we know originate from the grpc / protobuf libraries we use
-- `Client-observed gRPC internal error response code rate per-method over 2m` - This gives you a generally idea of how often a specific grpc status code is returned.
+- [`Client baseline response codes rate per-method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100802&orgId=1&var-alert_level=All&var-shard=All) - This gives you a generally idea of how often a status code is returned. For example, if you see a high percentage of `InvalidArgument` status codes, then it is likely there is something wrong with the request being sent to the grpc server.
+
+- [`Client-observed gRPC internal error percentage per-method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100811&orgId=1&var-alert_level=All&var-shard=All) - This capture the percentage of errors that we know originate from the grpc / protobuf libraries we use
+- [`Client-observed gRPC internal error response code rate per-method over 2m`](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?viewPanel=100812&orgId=1&var-alert_level=All&var-shard=All) - This gives you a generally idea of how often a specific grpc status code is returned.
 
 Here are the posssible [grpc status codes](https://grpc.github.io/grpc/core/md_doc_statuscodes.html) that can be returned by a rpc method.
 
@@ -39,11 +40,9 @@ Here are the posssible [grpc status codes](https://grpc.github.io/grpc/core/md_d
 
 The GRPC "internal errors" metrics flags specific types of errors that we can attribute to the grpc/protobuf libraries we use. Usually, these errors might hint at some configuration or application logic issues specific to grpc that may need further investigation.
 
-This errors are currently being captured through the use of a grpc feature called [Interceptors](https://github.com/grpc/grpc-go/blob/master/examples/features/interceptor/README.md).
-
 How can we determine if an error is coming from grpc-go?
 
-The go-grpc library has a tendency to prefix most gRPC client/server errors with "grpc: ...". Our new interceptors are designed to detect this string pattern.
+The go-grpc library has a tendency to prefix most gRPC client/server errors with "grpc: ...". Our new interceptors are designed to detect this string pattern. This errors are also logged with the special log scope `grpc.internal.error.reporter` which can be used to filter out these errors in the GCP logs.
 
 Some of the limitations of this approach are:
 
@@ -52,7 +51,7 @@ Some of the limitations of this approach are:
 - It's possible for someone to inadvertently create an application-level error that starts with "grpc: ...".
 - Errors originating from the library may not always be the library's fault, such as when encountering an application bug like sending a 5GB symbols response (see [gRPC 4mb message size limit](#grpc-4mb-message-size-limit)).
 
-See the this [sourcegraph search](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/grpc/internalerrs/common.go?L160-166) to see the current list of errors that are being captured as "internal errors"
+See the this [sourcegraph search](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@7d573eeef696d3f5422e49ad9b64584c3c972c18/-/blob/internal/grpc/internalerrs/common.go?L160-166) to see the current list of errors that are being captured as "internal errors"
 
 Despite these limitations, implementing such checks (which may need to be modified or removed later) enhance our monitoring capabilities as we further develop the gRPC implementation.
 
