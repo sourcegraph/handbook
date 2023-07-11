@@ -159,35 +159,48 @@ Audit logs are generated for bucket access in the project's logs, under log entr
 
 ### Reset databases
 
-First, prepare the Cloud database for import:
+First, prepare the Cloud database for import. Make sure all resources are scaled down:
 
 ```sh
-gcloud components install cloud_sql_proxy
+mi2 instance scale-down
 ```
 
-> NOTE: This may not work due to some path jankness - we will have better tooling when Cloud V2 is GA.
-
-Get the following data from the Cloud v2 instance created in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud):
+In a separate terminal window, set up a connection to the Cloud SQL database:
 
 ```sh
-# from GCP project
-export TARGET_INSTANCE_PROJECT=$(mi2 instance get -jq '.status.gcp.projectId')
-export TARGET_INSTANCE_DB=$(mi2 instance get -jq '.status.gcp.cloudSQL[0].name')
-# in deployment dir - TODO: No equivalent in Cloud V2 currently, we need to propagate password to output stack
-export INSTANCE_ADMIN_PASSWORD="..."
-# from migration resources output
-export DB_DUMP_BUCKET="..."
+mi2 instance db proxy -session.timeout 0 -download
 ```
 
-Then in `cloud-data-migrations`, drop all database contents:
+Then, connect to the database as the admin user:
 
 ```sh
-cmd/cdi/recreate_dbs.sh
+# Extract the database
+export INSTANCE_ADMIN_PASSWORD="$(cd terraform/stacks/sql && terraform output -json | jq -r '.sql_crossstackoutputgooglesqlusersqlsqladminuserCE5B87EApassword_209B7378.value')"
+# Connect to database
+psql postgres://sourcegraph-admin:"$INSTANCE_ADMIN_PASSWORD"@localhost:5433/postgres
+```
+
+Drop and recreate all databases:
+
+```sql
+DROP DATABASE IF EXISTS pgsql;
+CREATE DATABASE pgsql;
+DROP DATABASE IF EXISTS "codeintel-db";
+CREATE DATABASE "codeintel-db";
+DROP DATABASE IF EXISTS "codeinsights-db";
+CREATE DATABASE "codeinsights-db";
 ```
 
 ### Import databases
 
 Ensure [databases have been reset](#reset-databases). Then, one by one, import each database from the bucket the customer has uploaded to:
+
+```sh
+export TARGET_INSTANCE_PROJECT=$(mi2 instance get -jq '.status.gcp.projectId')
+export TARGET_INSTANCE_DB=$(mi2 instance get -jq '.status.gcp.cloudSQL[0].name')
+# from migration resources output
+export DB_DUMP_BUCKET="..."
+```
 
 ```sh
 gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_INSTANCE_DB gs://$DB_DUMP_BUCKET/primary.sql --database=pgsql
@@ -197,25 +210,12 @@ gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_INSTANCE_DB gs:
 
 ### Upgrade databases
 
-> NOTE: This step requires additional validation ([#1650](https://github.com/sourcegraph/customer/issues/1650)). It may also be skipped if the customer upgraded to the latest version before creating their snapshot.
+> NOTE: This step may be skipped if the customer upgraded to the latest version (equivalent to the active Cloud instance) before creating their snapshot.
 
-Start the database proxy (`cloud-sql-proxy`) on the instance:
-
-```sh
-# TODO: No equivalent in Cloud V2 currently.
-```
-
-If the imported version is less than 2 versions behind Cloud, then you [should be able to simply run the migrator](https://docs.sourcegraph.com/admin/how-to/manual_database_migrations#up):
+If the Sourcegraph version of the imported database is behind Cloud, then you must run a database migration:
 
 ```sh
-# TODO: No equivalent in Cloud V2 currently.
-```
-
-Otherwise, you may need to run a [Helm multi-version upgrade](https://docs.sourcegraph.com/admin/deploy/kubernetes/helm#multi-version-upgrades):
-
-```sh
-# TODO: No equivalent in Cloud V2 currently - keeping old instructions here for reference.
-mi ssh-exec 'cd /deployment/docker-compose && docker run --env-file .env --network docker-compose_sourcegraph sourcegraph/migrator:$TO upgrade -from=$FROM -to=$TO'
+mi2 instance debug migrate-db --from-version="$FROM_VERSION" --auto-approve
 ```
 
 > NOTE: If anything goes horribly wrong, you can [reset databases](#reset-databases) and continue again from there with adjusted steps as needed.
@@ -234,16 +234,26 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/ | kubectl --kubeconfig=$(mi2 instance kubeconfig) apply -f -
 ```
 
-Sync configuration:
+Set up SOAP configuration:
+
+```sh
+mi2 instance check -enforce soap
+```
+
+Request Entitle access to log in to the UI and log in to the instance.
+Create the Sourcegraph service account manually:
+
+- Username: `cloud-admin`
+- Email: `managed+<instance-display-name>@sourcegraph.com`
+- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` password in the Cloud V2 instance project**.
+
+<!-- Automated version: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33 -->
+
+Enforce all invariants, now that the service account has been set up:
 
 ```sh
 mi2 instance check -enforce
-```
-
-Run a health check:
-
-```sh
-mi2 instance check
+mi2 instance check # verify again
 ```
 
 Run an acceptance test using the downloaded `summary.json` from the snapshot bucket:
