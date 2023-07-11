@@ -9,24 +9,23 @@ We segment our customers into [three discrete tiers](../../../../strategy-goals/
 Our Tech Nurtured function will serve customers who do not qualify for a dedicated Technical Advisor. This motion includes:
 
 - An onboarding email to the instance admin detailing how to properly configure their instance, an introduction to our Discord community and our Support team email, and pointing them to our existing onboarding materials.
-- A second email to the instance admin to be forwarded directly to the new end users.  This email will include the training materials needed for an end user to ramp up on Sourcegraph.
+- A second email to the instance admin to be forwarded directly to the new end users. This email will include the training materials needed for an end user to ramp up on Sourcegraph.
 - Monthly usage recap emails to the instance admin detailing feature usage.
-- Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade. 
+- Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade.
 
-We are utilizing Vitally to target and send our Tech Nurtured communications.  
+We are utilizing Vitally to target and send our Tech Nurtured communications.
 
 #### V2+
 
-This motion is being iterated on quickly.  Immediate next steps to improve the experience are:
+This motion is being iterated on quickly. Immediate next steps to improve the experience are:
 
 - Dedicated training video playlists for every Sourcegraph Code Search and Cody feature
-
 
 ## Tooling
 
 ### Vitally
 
-We use Vitally to stay organized internally around our customers. Your account should be able to look at just your book of business or the entire customer base.  
+We use Vitally to stay organized internally around our customers. Your account should be able to look at just your book of business or the entire customer base.
 
 ### Salesforce
 
