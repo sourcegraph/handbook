@@ -65,9 +65,7 @@ Here's an example log in the GCP log viewer for sourcegraph.com with the above f
       "initialRequestJSON": "{\"repo\":\"github.com/apxxxxxxe/Bouyomi\",\"revisions\":[{\"rev_spec\":\"61437390bd6aa21dc660ad55260750e38456fcf1\"}],\"limit\":500,\"include_diff\":true,\"query\":{\"Value\":{\"DiffMatches\":{\"expr\":\"xxx\",\"ignore_case\":true}}}}",
       "grpcService": "gitserver.v1.GitserverService",
       "grpcCode": "Internal",
-      "nonUTF8StringFields": [
-        "match.diff.content"
-      ],
+      "nonUTF8StringFields": ["match.diff.content"],
       "grpcMethod": "Search",
       "messageJSON": "{\"Message\":{\"Match\":{\"oid\":\"858432d4219bb57582255dd4806026b294d00df2\",\"author\":{\"name\":\"apxxxxxxe\",\"email\":\"calcium629@gmail.com\",\"date\":{\"seconds\":1653432698}},\"committer\":{\"name\":\"apxxxxxxe\",\"email\":\"calcium629@gmail.com\",\"date\":{\"seconds\":1653432747}},\"parents\":[\"cc2a177f8483eb0320a3ea6fa7ba2563158c8b1a\"],\"refs\":[\"\"],\"source_refs\":[\"61437390bd6aa21dc660ad55260750e38456fcf1\"],\"message\":{\"content\":\"add: delete.txt\"},\"diff\":{\"content\":\"descript.txt descript.txt\\n@@ -28,2 +1,1 @@ \\n-//\\ufffdX\\ufffdVURL\\n-homeurl,https://raw.githubusercontent.com/apxxxxxxe/Bouyomi/main/\\n+//文字コード\\n@@ -30,0 +28,3 @@ \\n+//更新URL\\n+homeurl,https://raw.githubusercontent.com/apxxxxxxe/Bouyomi/main/\\n+\\n\",\"ranges\":[{\"start\":{\"offset\":100,\"line\":3,\"column\":45},\"end\":{\"offset\":103,\"line\":3,\"column\":48}},{\"start\":{\"offset\":103,\"line\":3,\"column\":48},\"end\":{\"offset\":106,\"line\":3,\"column\":51}},{\"start\":{\"offset\":218,\"line\":7,\"column\":45},\"end\":{\"offset\":221,\"line\":7,\"column\":48}},{\"start\":{\"offset\":221,\"line\":7,\"column\":48},\"e...(truncated 45 bytes)"
     },
@@ -81,12 +79,12 @@ Here's an example log in the GCP log viewer for sourcegraph.com with the above f
     "Caller": "internalerrs/logging.go:228",
     "Body": "grpc: error while marshaling: string field contains invalid UTF-8",
     "Timestamp": 1689090895508038100
-  },
+  }
 }
-
 ```
 
 ##### limitations
+
 The go-grpc library tends to prefix most gRPC client/server errors with "grpc: ...". Our new interceptors are designed to detect this string pattern. These errors are also logged with the special log scope `grpc.internal.error.reporter`, which can be used to filter out these errors in the GCP logs.
 
 Some of the limitations of this approach are:
@@ -107,6 +105,7 @@ Despite these limitations, implementing such checks (which may need to be modifi
 gRPC isn't optimized for sending large messages. Quoting from [Microsoft's "Performance Best Practices with gRPC" page](https://learn.microsoft.com/en-us/aspnet/core/grpc/performance)
 
 > gRPC is a message-based RPC framework, which means:
+>
 > - The entire message is loaded into memory before gRPC can send it.
 > - When the message is received, the entire message is deserialized into memory.
 
@@ -132,9 +131,10 @@ If you see this issue pop up, you should:
 - `SRC_GRPC_SERVER_MAX_MESSAGE_SIZE` - example: `SRC_GRPC_SERVER_MAX_MESSAGE_SIZE=1GB`
 
 1. Open an issue and contact the gRPC team so that we can investigate it and can see what the proper resolution should be:
-  - Manually increase the default message limits (see [this custom value for the gitserver gRPC server](https://github.com/sourcegraph/sourcegraph/blob/d131c8d1570d822912bfead51da996e9c2c389a5/internal/gitserver/addrs.go#L298))
-  - Fix the underlying application logic to prevent large responses in the first place (Example: Should it be possible for the symbols service to return .5GB responses?)
-  - Change the underlying implementation of the RPC method in question to "chunk" its response into smaller messages.
+
+- Manually increase the default message limits (see [this custom value for the gitserver gRPC server](https://github.com/sourcegraph/sourcegraph/blob/d131c8d1570d822912bfead51da996e9c2c389a5/internal/gitserver/addrs.go#L298))
+- Fix the underlying application logic to prevent large responses in the first place (Example: Should it be possible for the symbols service to return .5GB responses?)
+- Change the underlying implementation of the RPC method in question to "chunk" its response into smaller messages.
 
 Setting these environment variables allows the instance to continue operating and using gRPC _before_ we can cut a new patch release that provides a more-permanent fix.
 
