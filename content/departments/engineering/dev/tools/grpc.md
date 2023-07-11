@@ -42,7 +42,51 @@ The GRPC "internal errors" metrics flags specific types of errors that we can at
 
 How can we determine if an error is coming from grpc-go?
 
-The go-grpc library has a tendency to prefix most gRPC client/server errors with "grpc: ...". Our new interceptors are designed to detect this string pattern. This errors are also logged with the special log scope `grpc.internal.error.reporter` which can be used to filter out these errors in the GCP logs.
+The go-grpc library has a tendency to prefix most gRPC client/server errors with "grpc: ...". Our new interceptors are designed to detect this string pattern.
+
+##### logs
+
+These errors are also logged with the special log scope `grpc.internal.error.reporter`, we can be used to specifically highlight only these kinds errors in the GCP logs.
+
+Here's the GCP log filter that you would use:
+
+```
+jsonPayload.InstrumentationScope=~"gRPC.internal.error.reporter"
+```
+
+Here's an example log in the GCP log viewer for sourcegraph.com with the above filter applied (accessible via [go/prod-logs-grpc-errors](https://app.golinks.io/prod-logs-grpc-errors))
+
+```jsonc
+// https://console.cloud.google.com/logs/query;cursorTimestamp=2023-07-11T15:54:55.508217567Z;duration=P7D;query=resource.type%3D%22k8s_container%22%0Aresource.labels.project_id%3D%22sourcegraph-dev%22%0Aresource.labels.location%3D%22us-central1-f%22%0Aresource.labels.cluster_name%3D%22cloud%22%0Aresource.labels.namespace_name%3D%22prod%22%0AjsonPayload.InstrumentationScope%3D~%22gRPC.internal.error.reporter%22%0Atimestamp%3D%222023-07-11T15:54:55.508217567Z%22%0AinsertId%3D%22l9sph96a3klqpmah%22?project=sourcegraph-dev
+{
+  "jsonPayload": {
+    "Function": "github.com/sourcegraph/sourcegraph/internal/grpc/internalerrs.doLog",
+    "Attributes": {
+      "initialRequestJSON": "{\"repo\":\"github.com/apxxxxxxe/Bouyomi\",\"revisions\":[{\"rev_spec\":\"61437390bd6aa21dc660ad55260750e38456fcf1\"}],\"limit\":500,\"include_diff\":true,\"query\":{\"Value\":{\"DiffMatches\":{\"expr\":\"xxx\",\"ignore_case\":true}}}}",
+      "grpcService": "gitserver.v1.GitserverService",
+      "grpcCode": "Internal",
+      "nonUTF8StringFields": [
+        "match.diff.content"
+      ],
+      "grpcMethod": "Search",
+      "messageJSON": "{\"Message\":{\"Match\":{\"oid\":\"858432d4219bb57582255dd4806026b294d00df2\",\"author\":{\"name\":\"apxxxxxxe\",\"email\":\"calcium629@gmail.com\",\"date\":{\"seconds\":1653432698}},\"committer\":{\"name\":\"apxxxxxxe\",\"email\":\"calcium629@gmail.com\",\"date\":{\"seconds\":1653432747}},\"parents\":[\"cc2a177f8483eb0320a3ea6fa7ba2563158c8b1a\"],\"refs\":[\"\"],\"source_refs\":[\"61437390bd6aa21dc660ad55260750e38456fcf1\"],\"message\":{\"content\":\"add: delete.txt\"},\"diff\":{\"content\":\"descript.txt descript.txt\\n@@ -28,2 +1,1 @@ \\n-//\\ufffdX\\ufffdVURL\\n-homeurl,https://raw.githubusercontent.com/apxxxxxxe/Bouyomi/main/\\n+//文字コード\\n@@ -30,0 +28,3 @@ \\n+//更新URL\\n+homeurl,https://raw.githubusercontent.com/apxxxxxxe/Bouyomi/main/\\n+\\n\",\"ranges\":[{\"start\":{\"offset\":100,\"line\":3,\"column\":45},\"end\":{\"offset\":103,\"line\":3,\"column\":48}},{\"start\":{\"offset\":103,\"line\":3,\"column\":48},\"end\":{\"offset\":106,\"line\":3,\"column\":51}},{\"start\":{\"offset\":218,\"line\":7,\"column\":45},\"end\":{\"offset\":221,\"line\":7,\"column\":48}},{\"start\":{\"offset\":221,\"line\":7,\"column\":48},\"e...(truncated 45 bytes)"
+    },
+    "SeverityText": "ERROR",
+    "InstrumentationScope": "gitserver.gRPC.internal.error.reporter.streamingMethod.postMessageSend",
+    "Resource": {
+      "service.instance.id": "gitserver-1",
+      "service.version": "233748_2023-07-11_5.1-f4a4232130c6",
+      "service.name": "gitserver"
+    },
+    "Caller": "internalerrs/logging.go:228",
+    "Body": "grpc: error while marshaling: string field contains invalid UTF-8",
+    "Timestamp": 1689090895508038100
+  },
+}
+
+```
+
+##### limitations
 
 Some of the limitations of this approach are:
 
@@ -57,16 +101,41 @@ Despite these limitations, implementing such checks (which may need to be modifi
 
 ## Known Issues
 
-### gRPC 4mb message size limit
+### gRPC message size limit
 
-gRPC has a default message size limit of 4mb. You may encounter the following error if the payload is larger than the allowed message size:
+gRPC isn't optimized for sending large messages. Quoting from [Microsoft's "Performance Best Practices with gRPC" page](https://learn.microsoft.com/en-us/aspnet/core/grpc/performance)
+
+> gRPC is a message-based RPC framework, which means:
+> - The entire message is loaded into memory before gRPC can send it.
+> - When the message is received, the entire message is deserialized into memory.
+
+As such, large messages can cause a lot of memory allocations for both the client and server. For this reason, the Go GRPC implementation has the following default limits
+
+- [sending](https://pkg.go.dev/google.golang.org/grpc#MaxSendMsgSize): maximum ~2.1 GB (2^32-1 bytes) message
+- [receiving](https://pkg.go.dev/google.golang.org/grpc#MaxRecvMsgSize): maximum 4 MB message
+
+If these limits are ever tripped in the application, the internal error logger (described [above](#logs)) will emit logs similar to the following:
 
 ```
 [ gitserver-0] ERROR gitserver.gRPC.internal.error.reporter.streamingMethod.postMessageReceive internalerrs/logging.go:226 grpc: received message larger than max (1073741881 vs. 4194304) {"grpcService": "gitserver.v1.GitserverService", "grpcMethod": "Search", "grpcCode": "ResourceExhausted"}
 [ frontend] ERROR gitserver.client.gRPC.internal.error.reporter.streamingMethod.postMessageReceive internalerrs/logging.go:226 grpc: received message larger than max (1073741891 vs. 4194304) {"grpcService": "gitserver.v1.GitserverService", "grpcMethod": "Search", "grpcCode": "ResourceExhausted"}
 ```
 
-This can be changed by setting the `SRC_GRPC_CLIENT_MAX_MESSAGE_SIZE` environment variable.
+[Here is an example of such a log on sourcegraph.com](https://console.cloud.google.com/logs/query;cursorTimestamp=2023-07-10T03:49:36.647758779Z;duration=P7D;query=resource.type%3D%22k8s_container%22%0Aresource.labels.project_id%3D%22sourcegraph-dev%22%0Aresource.labels.location%3D%22us-central1-f%22%0Aresource.labels.cluster_name%3D%22cloud%22%0Aresource.labels.namespace_name%3D%22prod%22%0AjsonPayload.InstrumentationScope:%22gRPC.internal.error.reporter%22%0A-jsonPayload.Body%3D%22grpc:%20error%20while%20marshaling:%20string%20field%20contains%20invalid%20UTF-8%22%0Atimestamp%3D%222023-07-10T03:49:36.647758779Z%22%0AinsertId%3D%22015qxg2kh29wmy5b%22?project=sourcegraph-dev).
+
+If you see this issue pop up, you should:
+
+1. "work around" this by setting the following environment variables on **each** deployment:
+
+- `SRC_GRPC_CLIENT_MAX_MESSAGE_SIZE` - example: `SRC_GRPC_CLIENT_MAX_MESSAGE_SIZE=400MB`
+- `SRC_GRPC_SERVER_MAX_MESSAGE_SIZE` - example: `SRC_GRPC_SERVER_MAX_MESSAGE_SIZE=1GB`
+
+1. Open an issue and contact the gRPC team so that we can investigate it and can see what the proper resolution should be:
+  - Manually increase the default message limits (see [this custom value for the gitserver gRPC server](https://github.com/sourcegraph/sourcegraph/blob/d131c8d1570d822912bfead51da996e9c2c389a5/internal/gitserver/addrs.go#L298))
+  - Fix the underlying application logic to prevent large responses in the first place (Example: Should it be possible for the symbols service to return .5GB responses?)
+  - Change the underlying implementation of the RPC method in question to "chunk" its response into smaller messages.
+
+Setting these environment variables allows the instance to continue operating and using gRPC _before_ we can cut a new patch release that provides a more-permanent fix.
 
 ## Services currently not using gRPC
 
