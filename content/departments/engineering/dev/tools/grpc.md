@@ -131,6 +131,7 @@ If you see this issue pop up, you should:
 - `SRC_GRPC_SERVER_MAX_MESSAGE_SIZE` - example: `SRC_GRPC_SERVER_MAX_MESSAGE_SIZE=1GB`
 
 1. Open an issue and contact the gRPC team so that we can investigate it and can see what the proper resolution should be:
+
 - Manually increase the default message limits (see [this custom value for the gitserver gRPC server](https://github.com/sourcegraph/sourcegraph/blob/d131c8d1570d822912bfead51da996e9c2c389a5/internal/gitserver/addrs.go#L298))
 - Fix the underlying application logic to prevent large responses in the first place (Example: Should it be possible for the symbols service to return .5GB responses?)
 - Change the underlying implementation of the RPC method to "chunk" its response into smaller messages.
@@ -153,10 +154,8 @@ On sourcegraph.com, we've observed many logs from the [internal error reporter](
     "Attributes": {
       "grpcService": "gitserver.v1.GitserverService",
       "grpcCode": "Internal",
-      "nonUTF8StringFields": [
-        "match.diff.content"
-      ],
-      "grpcMethod": "Search",
+      "nonUTF8StringFields": ["match.diff.content"],
+      "grpcMethod": "Search"
     },
     "SeverityText": "ERROR",
     "InstrumentationScope": "gitserver.gRPC.internal.error.reporter.streamingMethod.postMessageSend",
@@ -168,7 +167,7 @@ On sourcegraph.com, we've observed many logs from the [internal error reporter](
     "Caller": "internalerrs/logging.go:228",
     "Body": "grpc: error while marshaling: string field contains invalid UTF-8",
     "Timestamp": 1689090895508038100
-  },
+  }
 }
 ```
 
@@ -177,7 +176,6 @@ These logs tell us that we have utf-8 strings leaking throughout our application
 @ggilmore believes that's unlikely we'll encounter this issue on managed instances to any significant degree. sourcegraph.com is uniquely exposed since it's a public service, managed instances should be less likely to have non-utf8 repositories, etc. .
 
 When encountering this issue on a managed instance, please file an issue and ping the gRPC team so that we can investigate. We'll likely need to pull in the general engineering team to determine the best course of action.
-
 
 #### logging the request/response message
 
@@ -192,9 +190,7 @@ If the `SRC_GRPC_INTERNAL_ERROR_LOGGING_LOG_NON_UTF8_PROTOBUF_MESSAGES_ENABLED` 
       "initialRequestJSON": "{\"repo\":\"github.com/apxxxxxxe/Bouyomi\",\"revisions\":[{\"rev_spec\":\"61437390bd6aa21dc660ad55260750e38456fcf1\"}],\"limit\":500,\"include_diff\":true,\"query\":{\"Value\":{\"DiffMatches\":{\"expr\":\"xxx\",\"ignore_case\":true}}}}",
       "grpcService": "gitserver.v1.GitserverService",
       "grpcCode": "Internal",
-      "nonUTF8StringFields": [
-        "match.diff.content"
-      ],
+      "nonUTF8StringFields": ["match.diff.content"],
       "grpcMethod": "Search",
       "messageJSON": "{\"Message\":{\"Match\":{\"oid\":\"858432d4219bb57582255dd4806026b294d00df2\",\"author\":{\"name\":\"apxxxxxxe\",\"email\":\"calcium629@gmail.com\",\"date\":{\"seconds\":1653432698}},\"committer\":{\"name\":\"apxxxxxxe\",\"email\":\"calcium629@gmail.com\",\"date\":{\"seconds\":1653432747}},\"parents\":[\"cc2a177f8483eb0320a3ea6fa7ba2563158c8b1a\"],\"refs\":[\"\"],\"source_refs\":[\"61437390bd6aa21dc660ad55260750e38456fcf1\"],\"message\":{\"content\":\"add: delete.txt\"},\"diff\":{\"content\":\"descript.txt descript.txt\\n@@ -28,2 +1,1 @@ \\n-//\\ufffdX\\ufffdVURL\\n-homeurl,https://raw.githubusercontent.com/apxxxxxxe/Bouyomi/main/\\n+//文字コード\\n@@ -30,0 +28,3 @@ \\n+//更新URL\\n+homeurl,https://raw.githubusercontent.com/apxxxxxxe/Bouyomi/main/\\n+\\n\",\"ranges\":[{\"start\":{\"offset\":100,\"line\":3,\"column\":45},\"end\":{\"offset\":103,\"line\":3,\"column\":48}},{\"start\":{\"offset\":103,\"line\":3,\"column\":48},\"end\":{\"offset\":106,\"line\":3,\"column\":51}},{\"start\":{\"offset\":218,\"line\":7,\"column\":45},\"end\":{\"offset\":221,\"line\":7,\"column\":48}},{\"start\":{\"offset\":221,\"line\":7,\"column\":48},\"e...(truncated 45 bytes)"
     },
@@ -208,10 +204,9 @@ If the `SRC_GRPC_INTERNAL_ERROR_LOGGING_LOG_NON_UTF8_PROTOBUF_MESSAGES_ENABLED` 
     "Caller": "internalerrs/logging.go:228",
     "Body": "grpc: error while marshaling: string field contains invalid UTF-8",
     "Timestamp": 1689090895508038100
-  },
+  }
 }
 ```
-
 
 This feature is **off by default** for privacy purposes. (logging the exact request and response messages might contain PII / /other sensitive information). Sourcegraph.com is the only internal environment that we have that has `SRC_GRPC_INTERNAL_ERROR_LOGGING_LOG_NON_UTF8_PROTOBUF_MESSAGES_ENABLED` permanently enabled since it doesn't contain any private code. See [deploy-sourcegraph-cloud/grpc: enable utf-8 full protobuf message logging#17936](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/17936) for the PR that enabled this.
 
@@ -224,6 +219,7 @@ When printing the debug non-uft8 messages, the message text in the log will be t
 gRPC is off by default for all customers.
 
 You can enable gRPC by:
+
 - **All non-Zoekt services**: You have two ways (https://github.com/sourcegraph/sourcegraph/blob/main/internal/grpc/grpc.go#L42 ) to enable gRPC.
   - Setting the `"experimentalFeatures.enableGRPC"` site configuration setting to "true": https://github.com/sourcegraph/sourcegraph/blob/dd478a2cc99c4ddb17bbd85cfb835b79db8cad2d/schema/site.schema.json#L360-L363
   - Setting the `"SG_FEATURE_FLAG_GRPC"` environment variable
@@ -231,7 +227,6 @@ You can enable gRPC by:
 - **Zoekt**: You can only enable gRPC by setting the `GRPC_ENABLED` environment variable to "true": https://github.com/sourcegraph/zoekt/blob/f818d968ddad0bb708b958cfb66ab08ee6ec4aa5/cmd/zoekt-sourcegraph-indexserver/main.go#L1189 .
   You can see an example of this getting set here: https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/b56c35e51191e9ebdde9c607b80b991e30d2c1ce/base/indexed-search/indexed-search.StatefulSet.yaml#L108-L109
   - Note: Zoekt does not read from Sourcegraph's site configuration, so communicating gRPC's enablement status through that mechanism wouldn't work here.
-
 
 ## Services currently not using gRPC
 
