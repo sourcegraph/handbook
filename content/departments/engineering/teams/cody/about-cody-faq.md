@@ -53,7 +53,7 @@ See our [internal comparison](https://docs.google.com/document/d/1EjWgnzoEHhJC-T
 
 ## Cody Access & Exception Process
 
-See [here](/cody-exceptions.md) for the access conditions and exception process around customers using Cody.
+See [here](cody-exceptions.md) for the access conditions and exception process around customers using Cody.
 
 ## Can Cody …?
 
