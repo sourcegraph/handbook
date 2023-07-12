@@ -201,6 +201,16 @@ This format helps us to keep the handbook our source of truth and makes the next
 
 [View the template](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/edit) • [Duplicate](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/copy)
 
-## External contributors
+Here is how I would rewrite the external contributing section with the Markdown links:
 
-We invite external contributors to create and share RFCs with us. If you aren’t a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or tweeting [@sourcegraph](https://twitter.com/sourcegraph)) to create a new RFC in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access.
+## Contributing as an external contributor
+
+We welcome contributions from developers outside of Sourcegraph and Cody! Here are some tips for external contributors: 
+
+### Contributing to Sourcegraph
+
+If you want to contribute an RFC to Sourcegraph, reach out to the Sourcegraph team on Twitter [@sourcegraph](https://twitter.com/sourcegraph) or by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) on GitHub. A Sourcegraph team member can then give you edit access to the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) so you can submit your proposal.
+
+### Contributing to Cody
+
+To contribute an RFC to Cody, connect with the Cody team on Twitter [@sourcegraphcody](https://twitter.com/sourcegraphcody) or [GitHub](https://github.com/sourcegraph/cody/issues). A Cody team member can provide you edit access to add your RFC to the shared [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).  
