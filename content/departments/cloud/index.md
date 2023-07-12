@@ -296,29 +296,17 @@ mi info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] 
 
 Use cases:
 
-- The customer would like to maintain an IP allowlist to permit traffic to their code hosts
-- The customer would like to maintain an IP allowlist to permit the use of their own SMTP service.
+- The customer wants to maintain an IP allowlist to permit traffic to their code hosts
+- The customer wants to maintain an IP allowlist to permit the use of their own SMTP service.
+- The customer wants to permit Cloud instance access to their private registry for [code navigation auto-indexing](https://docs.sourcegraph.com/code_navigation/how-to/enable_auto_indexing), e.g, NPM Enterprise, [JFrog Artifactory](https://jfrog.com/artifactory/).
+- The customer wants to use container images from a private container registry in build steps during auto-indexing or SSBC.
+- The customer wants to communicate directly with private resources in [server-side batch changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side).
 
-**Outgoing** traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reservered exclusively on a per customer basis.
-
-There are two groups of IP.
-
-1. Primary outgoing IPs: This set of IPs is used by Sourcegraph to communicate directly with customer systems such as code hosts, authentication service, or SMTP service.
-2. (Optional) Executors outgoing IPs: This set of IPs is used by [executors](https://docs.sourcegraph.com/admin/deploy_executors) for all outgoing traffic. Executors is the technology that powers features like [server-side batch changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) and [code navigation auto-indexing](https://docs.sourcegraph.com/code_navigation/how-to/enable_auto_indexing). Under normal circumstances, executors do not communicate directly with custoemr systems. When do customers need to add executors IP to their IP allowlist.
-   - Customers are writing a batch change that commmunicates directly with the code host, e.g. run a custom script that invokes their on-prem GitLab instance API. If customers are only using SSBC to modify source code and allow Sourcegraph to handle the rest - commit and open PRs, they DO NOT need to whitelist executors IP.
-   - Customers are using auto-indexing to index repos that use packages from private registries, e.g. NPM packages from self-hosted [JFrog Artifactory](https://jfrog.com/artifactory/), Go packages from self-hosted code hosts. (Notes, we do not support indexing repo that uses private packages yet, this is here for future reference)
-   - Customers are using container images from private container registry in build steps during auto-indexing or SSBC. (Notes, we do not support private container registry yet, this is here for future referneces)
+**Outgoing** traffic of Cloud instances goes through Cloud NAT with stable IPs. All IPs are reserved exclusively on a per-customer basis. Those IPs are used by Sourcegraph Cloud to communicate directly with customer systems such as code hosts, authentication service, or SMTP service.
 
 For #ce teammates, please review above content and reach out to #cloud with sufficient context.
 
-For #cloud teammates, please run:
-
-```sh
-# Primary outgoing IPs
-terraform output -json | jq -r '.cloud_nat_ips.value'
-# Executors outgoing IPs
-terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.address == "module.managed_instance.module.executors[0].module.networking.google_compute_address.nat[0]") and (.mode == "managed")) | .values.address'
-```
+For #cloud teammates, please run follow the operation dashboard.
 
 ### FAQ: Can customers restrict access to their Cloud instances to VPN-only/specific IP adddresses?
 
