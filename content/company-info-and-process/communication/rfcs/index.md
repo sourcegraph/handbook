@@ -205,7 +205,7 @@ Here is how I would rewrite the external contributing section with the Markdown 
 
 ## Contributing as an external contributor
 
-We welcome contributions from developers outside of Sourcegraph and Cody! Here are some tips for external contributors: 
+We welcome contributions from developers outside of Sourcegraph and Cody! Here are some tips for external contributors:
 
 ### Contributing to Sourcegraph
 
@@ -213,4 +213,4 @@ If you want to contribute an RFC to Sourcegraph, reach out to the Sourcegraph te
 
 ### Contributing to Cody
 
-To contribute an RFC to Cody, connect with the Cody team on Twitter [@sourcegraphcody](https://twitter.com/sourcegraphcody) or [GitHub](https://github.com/sourcegraph/cody/issues). A Cody team member can provide you edit access to add your RFC to the shared [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).  
+To contribute an RFC to Cody, connect with the Cody team on Twitter [@sourcegraphcody](https://twitter.com/sourcegraphcody) or [GitHub](https://github.com/sourcegraph/cody/issues). A Cody team member can provide you edit access to add your RFC to the shared [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).
