@@ -218,7 +218,7 @@ Long-term, we will collaborate with [Developer Infrastructure team](../engineeri
 
 Cloud instances provisioned for customers run [released](../engineering/dev/process/releases/index.md#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
 
-Sourcegraph-owned instances are continuously deployed (with versions that weren't officially released), [Developer Infrastructure team](../engineering/teams/devinfra/index.md) owns continuous deployment to those environments.
+Sourcegraph-owned instances can opt-in to receive continuous upgrades with versions that weren't officially released, e.g., the latest commit on `main` branch, release branches. We own continuous deployment to those environments.
 
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
