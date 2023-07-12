@@ -40,7 +40,7 @@ Notes:
 
 #### Concepts
 
-- **Code graph:** All your code and any context (info about your code). Both Cody and Code Search use the code graph (in various ways). Today this includes repositories from code hosts, code ownership information, code navigation data, etc. In the future this will include information from issue tracking tools, observability tools, documentation, runtime, security tolos, etc.
+- **Code graph:** All your code and any context (info about your code). Both Cody and Code Search use the code graph (in various ways). Today this includes repositories from code hosts, code ownership information, code navigation data, etc. In the future this will include information from issue tracking tools, observability tools, documentation, runtime, security tools, etc.
 - **LLM (Large Language Model):** Our products use existing best-in-class foundation models and give you the freedom to choose the best or preferred LLM for your needs.
 
 #### How we package and ship these products
