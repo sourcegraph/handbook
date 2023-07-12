@@ -442,13 +442,15 @@ You can see this information in [this handbook page](../../../../../benefits-pay
 
 Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), but you will be required to take the minimum mandatory ones for your country in order for us to be compliant with Deel and your country’s laws.
 
+The Deel team is aware of our flexible PTO policy and will honor it. Please submit your time off using the PTO by Deel Slack App as usual - it will sync with the Deel platform and you will not be limited to the number of statutory days based on your country.
+
 #### How do I submit time off?
 
 You can check [this article](https://help.letsdeel.com/hc/en-gb/articles/4409044013201-How-do-I-request-time-off-) on how to ask for time off through Deel’s platform.
 
 Sourcegraph uses Roots to submit PTO. There is an integration set up with Roots and Deel, so you will be able to submit time off via Roots and it will automatically sync to Deel. For this to work, your Deel email will need to match your Roots email (your Sourcegraph email). Make sure you change your Deel email to your corporate one if you wish this integration to apply to you.
 
-You can read more about submitting time off via [Roots here](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md).
+You can read more about submitting time off via [Deel here](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md).
 
 #### How can I get an Employment Verification Letter from Deel?
 
