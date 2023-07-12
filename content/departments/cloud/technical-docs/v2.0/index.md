@@ -72,7 +72,7 @@ All customer instances are considered part of the `prod` environment and all cha
 
 ##### [s2 instance](https://sourcegraph.sourcegraph.com/)
 
-This is the internal Cloud dogfood instance for the entire company. #devinfra is responsible for rolling out nightly builds on this instance and #cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
+This is the internal Cloud dogfood instance for the entire company. #ask-cloud-ops is responsible for rolling out nightly builds on this instance. Additionally, they are responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
 
 Operation playbook: go/s2-ops
 
