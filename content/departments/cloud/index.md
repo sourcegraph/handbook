@@ -285,7 +285,9 @@ For #cloud teammates, add the IP addresses to the instance `config.yaml`.
 ### FAQ: What code-hosts does Cloud support?
 
 Cloud supports all code-hosts types (self-managed and Cloud-managed), but it currently requires the code-host to have a public IP.
-More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJFoIFJjM-3ZA1qIyIl7o/edit)
+More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJFoIFJjM-3ZA1qIyIl7o/edit).
+
+If your prospect have the need for private code hosts, please reach out to #discuss-cloud-ops, and we would love to partner with them to develop a solution.
 
 ### FAQ: What is the difference between air-gapped, private and public code hosts?
 
