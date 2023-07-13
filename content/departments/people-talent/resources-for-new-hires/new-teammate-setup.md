@@ -44,8 +44,6 @@ You can find resources on how to use each of the main tools [here](../../../comp
 
 - Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?)
 
-- Also join the [social calendar](../../../company-info-and-process/remote/social_calendar.md)
-
 - See the Communication handbook for [more on scheduling meetings](../../../company-info-and-process/communication/index.md#scheduling-meetings-with-google-calendar).
 
 ## Slack

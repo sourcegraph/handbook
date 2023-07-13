@@ -294,6 +294,34 @@ are working on this piece of code?
 
   Share your final results as a pull request in the Slack channel.
 
+#### AI Coding Exercise
+
+This exercise is designed to provide us a snapshot of your approach to designing and implementing AI-based systems. It covers a range of the essential skills such as problem selection, design and architecture of AI systems, understanding and selecting appropriate metrics, working with large datasets, and implementing scalable solutions.
+
+Your task is to create a framework for evaluating a critical aspect of Cody's response quality. Cody, which you are free to download and try, assists developers by conversing about their code, generating code, and offering completions. The specific aspect of Cody response quality you focus on is up to you.
+
+Here are the main phases of the exercise:
+
+**Design the Evaluation:** Define the objectives and evaluation rubric, and decide on what factors you're seeking to measure. Choose a dataset, or design one by creatively reusing resources like commit history, the code graph, bug databases, documentation, etc. Finally, decide on effective metrics.
+
+**Implementation:** Create a prototype of the framework that is as close as possible to a production-level solution, demonstrating good coding practices, error handling, and efficiency. We encourage you to use a data parallel framework you're comfortable with, ensuring the solution is scalable to large benchmarks and automated evaluations. If your framework needs to invoke Cody, use a mock or a stub at that point. Example JSON of a Cody response “completion” is included below.
+
+While crafting your solution, consider the following:
+
+- How the system handles large-scale data
+
+- How it ensures reliable and consistent results across different runs
+
+- How the system could be extended for different types of evaluations in the future
+
+- How the system could be integrated with other systems/processes
+
+We will provide you with a modest budget for cloud compute services if needed to exercise your prototype. Please remember not to use equipment, proprietary tools or designs that you can’t share with Sourcegraph.
+
+In order to evaluate all candidates fairly, we request you to limit the time spent on this exercise to a few hours. If there are areas you wish to improve but couldn't due to time constraints, feel free to discuss potential improvements during the follow-up interview.
+
+Finally, you'll walk us through your solution in a 45-minute review session. Begin with a high-level overview of your approach and then delve into specific technical details by screen sharing your code live.
+
 ### Leadership Interview Process
 
 #### Hiring Manager Interview
