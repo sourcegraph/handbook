@@ -101,24 +101,76 @@ src snapshot summary
 
 This will generate a JSON file at `src-snapshot/summary.json`. See `src snapshot summary --help` for more details.
 
-### Create migration resources
+### Set up the target Cloud instance
 
-First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance and freeze it:
+First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance.
+If alerting is not disabled, make sure to disable it by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows:
+
+```diff
+spec:
+  debug:
+-    enableAlerting: true
++    enableAlerting: false
+```
+
+Then regenerate Terraform manifests:
+
+```sh
+mi2 generate cdktf
+```
+
+Commit and submit your changes as a pull request.
 
 ```sh
 mi2 instance scale-down
 ```
 
-In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository:
+### Create migration resources
 
-> NOTE: The TFC workspace requires special configuration to properly set it up, we will document this in the future. For now, just ask in #cloud-internal.
+In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository, copy the `template/` directory, naming it corresponding to the customer.
+Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented.
+Commit your changes and open a pull request in `cloud-data-migrations`.
 
-1. Copy the `template/` directory, naming it corresponding to the customer
-2. For `project/`:
-   1. Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented
-   2. Commit and push your changes
-   3. Create Terraform Cloud workspace for the directory and apply
-3. Then do the same for `resources/`, using the outputs of `project/`
+Then, create Terraform Cloud workspaces for the migration resources in [`sourcegraph/infrastructure`'s `terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
+
+```terraform
+#### $CUSTOMER
+
+module "cloud-data-migration-project-$CUSTOMER" {
+  source             = "../modules/tfcworkspace"
+  organization       = data.tfe_organization.sourcegraph.name
+  vcs_oauth_token_id = tfe_oauth_client.github.oauth_token_id
+
+  name              = "cloud-data-migration-project-$CUSTOMER"
+  vcs_repo          = local.sourcegraph_cloud_data_migrations_repo_name
+  working_directory = "$CUSTOMER/project"
+  trigger_patterns  = ["poc/project/*"]
+  tags              = ["cloud-tooling"]
+  terraform_version = "1.3.6"
+
+  team_access = local.allow_cloud_team_write_access
+}
+
+module "cloud-data-migration-resources-$CUSTOMER" {
+  source             = "../modules/tfcworkspace"
+  organization       = data.tfe_organization.sourcegraph.name
+  vcs_oauth_token_id = tfe_oauth_client.github.oauth_token_id
+
+  name              = "cloud-data-migration-resources-$CUSTOMER"
+  vcs_repo          = local.sourcegraph_cloud_data_migrations_repo_name
+  working_directory = "$CUSTOMER/resources"
+  trigger_patterns  = ["$CUSTOMER/resources/*"]
+  tags              = ["cloud-tooling"]
+  terraform_version = "1.3.6"
+
+  team_access = local.allow_cloud_team_write_access
+}
+```
+
+Commit your changes and open a pull request.
+
+Make sure that your Terraform Cloud workspaces are created, then schedule a run for the created `-project` workspace.
+Once that succeeds, do the same for the created `-resources` workspace.
 
 Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. [Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
 
@@ -222,8 +274,6 @@ mi2 instance debug migrate-db --from-version="$FROM_VERSION" --auto-approve
 
 ### Spin up instance
 
-> NOTE: This step requires additional validation ([#1651](https://github.com/sourcegraph/customer/issues/1651)).
-
 If all upgrades succeed, spin up the instance:
 
 ```sh
@@ -245,7 +295,7 @@ Create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
-- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` password in the Cloud V2 instance project**.
+- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**.
 
 <!-- Automated version: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33 -->
 
