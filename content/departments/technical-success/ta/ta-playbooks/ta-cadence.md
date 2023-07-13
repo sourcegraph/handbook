@@ -8,7 +8,7 @@
   - Vitally will auto-assign a number of tasks based on the playbooks we have configured. You also have the ability to set these tasks on your own based on your conversations with customers. You should be driving this list to completion as much as possible.
 - Account teams comms
   - Be a good teammate! Make sure to update your Account Executive, Customer Engineer or SDR with any information that could effect their work, even if it is just a status update.
-  - Collaborate with your team on activities that would help the goals you have with customers like feature adoption or upgrading.
+  - Collaborate with your team on activities that would help the goals you have for customers like feature adoption or upgrading.
 
 ### External
 
@@ -20,7 +20,7 @@
 ### Internal
 
 - Bi-Weekly Team Check In
-  - TA Team Meeting will be held on a bi-weekly basis. Topics will include team announcements, training of new processes as we roll things out, and active discussion amongst the team on customer situations.
+  - TA Team Meeting will be held on a bi-weekly basis. Topics will include team announcements, trainings and new processes as we roll them out, and active discussion amongst the team on customer situations.
 - Yellow/Red Renewals Meeting
   - 180 days out from renewal, we check each accounts health. If it falls into our red or yellow categories, the account will be raised for review at the Yellow/Red Renewals meeting. The goal here is to get the customer healthy and protect the renewal as much as possible.
 - Vitally Traits
@@ -51,15 +51,16 @@
 
 - Sourcegraph QBR's
   - Sourcegraph traditionally holds QBR's with customers team during the first few weeks of the quarter on a case by case basis.
-  - [QBR resources](../team-culture/working-with-customers.md/#qbrs)
-- Prepare for [renewals](../team-culture/working-with-customers.md/#renewal-process)
+  - [QBR resources](../team-culture/working-with-customers.md#qbrs)
+- Prepare for [renewals](../team-culture/working-with-customers.md#renewal-process)
 
 ## As Needed
 
 ### New Customers
 
 - Knowledge transfer with sales team
-- [Partnership kickoff](../team-culture/working-with-customers.md/#post-sales-partnership-kickoff)
+- [Partnership kickoff](../team-culture/working-with-customers.md#post-sales-partnership-kickoff)
+- [Customer onboarding](../team-culture/working-with-customers.md#user-onboarding)
 
 ### Account Transitions
 
