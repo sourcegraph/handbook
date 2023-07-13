@@ -48,7 +48,7 @@
 - Relate those improvements back to their engineering goals.
 - Ensure they are aware of multi-version upgrades.
 - Evaluate the deployment and see if they are set up for long-term success. A deployment change might be useful based on our updated methods.
-- Relay the benefits of precise code intelligence and understand any barriers to deploying executors. 
+- Relay the benefits of precise code intelligence and understand any barriers to deploying executors.
 - Reach out to Implementation Engieering for support with upgrading/deploying executors.
 - Sync with the AE and evaluate if a switch to Cloud makes sense.
 
