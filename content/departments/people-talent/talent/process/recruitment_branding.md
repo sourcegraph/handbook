@@ -37,7 +37,7 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 
 #### LinkedIn Spotlights
 
-Each month we share a Teammate Spotlight and/or New Hire Spotlight on the company LinkedIn page. The calendar/posting cadence is determined by Bachi and the spotlight content is collected by Kemper Hamilton.
+Each month we share a Teammate Spotlight and/or New Hire Spotlight on the company LinkedIn page. The calendar/posting cadence is determined by Marketing and the spotlight content is collected by the People Team.
 
 - New Hire Spotlights feature new teammates. The question template and previous responses can be found [here](https://drive.google.com/drive/folders/1d8SuwX9oh4NJlPl0V6_mqnlDjhq8jylj).
 - Teammate Spotlights feature a current teammate, ideally in a role that we are currently hiring for. This helps us to attract potential candidates. The question template and previous responses can be found [here](https://drive.google.com/drive/folders/1l41Uuz8iC32v_2zY-Xc73L8eKkqS-5hA).

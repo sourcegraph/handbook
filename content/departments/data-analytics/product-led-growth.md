@@ -30,6 +30,8 @@ To see how individual teams fit into the flywheel, please see [the full deck](ht
 
 # Lead Scoring at Sourcegraph
 
+**Note: Lead scoring at Sourcegraph is actively being overhauled. The below guidance is from our legacy framework and will be updated following the new release.**
+
 Lead scoring is a framework we have put in place across HubSpot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase. If you have any questions or feedback on anything pertaining to lead scoring, please post them in the #lead-lifecycle channel in Slack.
 
 Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below.

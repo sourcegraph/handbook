@@ -185,7 +185,9 @@ Non-US teammates:
 
 #### Q. Do our health benefits cover us while traveling internationally?
 
-- They do not, we recommend using a travel insurance for the duration of your trip and expensing this. A common one used for US teammates is GeoBlue.
+- They do not. However, we do have separate insurance covering if you are traveling internationally for work (sourcegraph sponsored travel). Please see the details below.
+  - **Traveling for work:** If you are traveling on behalf of Sourcegraph for work, we have a corporate policy to provide insurance to all teammates (not just US-based). The insurance covers any travel you are doing for Sourcegraph in a business capacity and includes: medical assistance and travel assistance (lost baggage, travel alerts, etc.). Please review the[ information here](https://drive.google.com/drive/folders/1p7tgpKZ7nBa_LVIUCBpfzUQVYfLrVH7_?usp=sharing) for complete details.
+  - **Traveling for fun/vacation:** We recommend using a travel insurance for the duration of your trip and expensing this. A common one used for US teammates is[ GeoBlue.](https://go.geobluetravelinsurance.com/4Qs?product=trekker&inbound_utm=utm_source=bing&utm_medium=cpc&utm_campaign=Blue%20Cross%20Blue%20Shield%20-%20Branded&utm_content={AdID}&utm_term=global-blue%20insurance&AffinityPartner=&AffinityPlanID=&link_id=298863)
 
 ### **Q. What is Sequoia Consulting Group?**
 

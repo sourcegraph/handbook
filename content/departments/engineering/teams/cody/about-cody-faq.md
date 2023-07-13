@@ -51,6 +51,10 @@ Rather than telling you when it doesn't know, ChatGPT will just confidently make
 
 See our [internal comparison](https://docs.google.com/document/d/1EjWgnzoEHhJC-T3lRCeNQWNb-atrwd9qDKwjFZfpobM/edit).
 
+## Cody Access & Exception Process
+
+See [here](cody-exceptions.md) for the access conditions and exception process around customers using Cody.
+
 ## Can Cody …?
 
 In general, a good idea is to give use cases a try. LLMs are very powerful and generic, and we add new recipes all the time. Here’s a few answers:
