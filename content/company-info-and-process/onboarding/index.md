@@ -134,7 +134,7 @@ Creating a positive and successful onboarding experience for our teammates is a 
 
 ### Onboarding Feedback
 
-We welcome feedback about how we can improve our onboarding process for future new hires. Here are some of the ways we [collect onboarding feedback](../onboarding/onboarding-reviews.md).
+We welcome feedback about how we can improve our onboarding process for future new hires. Here are some of the ways we collect onboarding feedback:
 
 **Onboarding Feedback Milestones**
 
