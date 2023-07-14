@@ -2,7 +2,7 @@
 
 _If you have any questions about the Impact Review process, or need help in general, please Slack #ask-people-team_
 
-## Impact Reviews explained
+## Impact Reviews Explained
 
 We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
 
@@ -202,26 +202,33 @@ In addition to asking the above questions during the Impact Review process, we a
 
 **Talent Assessment Scale**
 
+
+
 <table>
   <tr>
    <td>
 <h4><strong>Rating</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Label</strong></h4>
+
 
    </td>
    <td>
 <h4><strong>Description</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>% Increase</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Coaching Categories</strong></h4>
+
 
    </td>
   </tr>
@@ -229,17 +236,21 @@ In addition to asking the above questions during the Impact Review process, we a
    <td>
 <h4><strong>1</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Distinguished Performance &lt; 5%</strong></h4>
+
 
    </td>
    <td>
 <h4>Role Model status. Performed above and beyond expectations during the review period. Generally recognized in top 5% ranking among peer group and is performing beyond scope of their responsibilities. Potential successor to immediate supervisor.</h4>
 
+
    </td>
    <td>
 <h4><strong>8%</strong></h4>
+
 
    </td>
    <td><strong>Motivate: </strong>focus on ways in which Teammates who are superior performers can continue to strive to model our values and execution in an exceptional way.
@@ -249,17 +260,21 @@ In addition to asking the above questions during the Impact Review process, we a
    <td>
 <h4><strong>2</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Superior Performance~ 30%</strong></h4>
+
 
    </td>
    <td>
 <h4>Overall excellent performer. An exceptional contributor who exceeded teammates’ expectations  –could be on track for promotion but may need more time in their current role to grow and develop/gain additional exposure.</h4>
 
+
    </td>
    <td>
 <h4><strong>5%</strong></h4>
+
 
    </td>
    <td><strong>Empower: </strong>create opportunities for our highest performing Teammates to step into, or elevate, their leadership presence at Sourcegraph.
@@ -269,17 +284,21 @@ In addition to asking the above questions during the Impact Review process, we a
    <td>
 <h4><strong>3</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Meets Performance Expectations ~ 50%</strong></h4>
+
 
    </td>
    <td>
 <h4>Consistently performs well,  meeting the high bar for performance expectations. Proactive in acquiring new skills and consistently contributes to the department’s efforts. May not stand out as a rarity among peers but is a valuable member of the team. </h4>
 
+
    </td>
    <td>
 <h4><strong>3%</strong></h4>
+
 
    </td>
    <td><strong>Guide: </strong>foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in role that allow for opportunities to stretch skills, and demonstrate superior performance.
@@ -289,21 +308,26 @@ In addition to asking the above questions during the Impact Review process, we a
    <td>
 <h4><strong>4</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Partially Successful Performance ~10%</strong></h4>
+
 
    </td>
    <td>
 <h4>Fails to consistently meet performance expectations or lacks responsibility with values or conduct expectations. May appear to lack motivation. Lacks requisite technical skills or knowledge relating to aspects of their role. May perform well, but lacks conduct in alignment with our values.</h4>
 
+
    </td>
    <td>
 <h4><strong>0%</strong></h4>
 
+
    </td>
    <td>
-<h4><strong>Coaching:  </strong>Teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.</h4>
+<h4><strong>Coaching: </strong>teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.</h4>
+
 
    </td>
   </tr>
@@ -311,17 +335,21 @@ In addition to asking the above questions during the Impact Review process, we a
    <td>
 <h4><strong>5</strong></h4>
 
+
    </td>
    <td>
 <h4><strong>Unsuccessful Performance &lt;5%</strong></h4>
+
 
    </td>
    <td>
 <h4>Fails to meet minimum performance or conducts themselves contrary to our values. The performance review may be accompanied by corrective action documentation stating that failure to demonstrate immediate and sustained improvement may result in termination. No merit increase eligibility. </h4>
 
+
    </td>
    <td>
 <h4><strong>0%</strong></h4>
+
 
    </td>
    <td><strong>Immediate PIP: </strong>used for Teammates who do not exemplify our values, and who do not meet performance expectations. These teammates must focus on immediate improvement.
@@ -329,7 +357,9 @@ In addition to asking the above questions during the Impact Review process, we a
   </tr>
 </table>
 
-#### **\* **Unless promoted, Teammates cannot exceed 15% increases in a given 12-month period.
+
+#### *** **Unless promoted, Teammates cannot exceed 15% increases in a given 12-month period.
+
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
