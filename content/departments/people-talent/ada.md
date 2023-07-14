@@ -121,7 +121,7 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 
 ### **Additional resources**
 
-- US Teammates: [Benefits advocate team](../../benefits-pay-perks/benefits-perks/benefits/#q-what-is-sequoia-consulting-group.md) can help you find an in-network provider for your condition
+- US Teammates: [Benefits advocate team](../../benefits-pay-perks/benefits-perks/benefits/#benefits-support.md) can help you find an in-network provider for your condition
 - All Teammates: Our mental health [resources](../../benefits-pay-perks/benefits-perks/mental-health/#resources.md) and annual [stipend program](../../benefits-pay-perks/benefits-perks/mental-health/#overview-mental-health-perks.md)
 
 ## **FAQ**
