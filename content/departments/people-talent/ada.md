@@ -50,11 +50,11 @@ If you're expecting to be away from work for more than one week, please review o
   - Limited working schedule
   - Specific software or hardware for certain disabilities
 - **Eligibility (personal):** any US teammate needing a reasonable accommodation to complete their work while experiencing a health condition creating a disability. To be eligible, a medical professional must complete the ADA Accommodation Request Form. The medical professional or teammate must submit the completed paperwork to the People Team via email [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com).
-  - Candidates are also eligible for reasonable accommodations during the interview process. Please connect with your Recruiter to submit a request.
+  - #### Candidates are also eligible for reasonable accommodations during the interview process. Please connect with your Recruiter to submit a request.
 - **Eligibility (family member):** Unfortunately, the ADA does **not** provide accommodations or leaves to care for family members.
-- **Local laws: **This policy-including eligibility criteria, reasonable accommodation request, and duration –is subject to applicable local laws, which may provide different benefits. In those cases, the teammate will receive the greater entitlement. Where local laws entitle a teammate to a portion of leave paid for by the local government, Sourcegraph will work with the teammate to adjust Sourcegraph’s coverage, so that the total amount received by the teammate is consistent with but not duplicative of the entitlements under Sourcegraph’s policy and applicable local laws.
+- **Local laws:** This policy-including eligibility criteria, reasonable accommodation request, and duration –is subject to applicable local laws, which may provide different benefits. In those cases, the teammate will receive the greater entitlement. Where local laws entitle a teammate to a portion of leave paid for by the local government, Sourcegraph will work with the teammate to adjust Sourcegraph’s coverage, so that the total amount received by the teammate is consistent with but not duplicative of the entitlements under Sourcegraph’s policy and applicable local laws.
   - Although the ADA is specific to the US, many countries have disability leaves or accommodations available. Please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) for more information.
-- **How to request an ADA Accommodation:** The process to request an accommodation is interactive, and each individual case is unique. The first two steps are 1) To alert your People Partner you’re going to request an accommodation and 2) formally begin the process by submitting our[ google intake form](https://docs.google.com/forms/d/e/1FAIpQLSfWZdQLZHrVai3FnCgY5s31FJFKwgISFnCSPglNz3S_oxPILw/viewform?usp=sf_link). You can find the [full process below].
+- **How to request an ADA Accommodation:** The process to request an accommodation is interactive, and each individual case is unique. The first two steps are 1) To alert your People Partner you’re going to request an accommodation and 2) formally begin the process by submitting our[ google intake form](https://docs.google.com/forms/d/e/1FAIpQLSfWZdQLZHrVai3FnCgY5s31FJFKwgISFnCSPglNz3S_oxPILw/viewform?usp=sf_link). You can find the [full process below](ada.md#how-to-request-an-ada-accommodation).
 
 ## **Who is eligible for ADA Accomodations?**
 
@@ -72,13 +72,13 @@ Commission payments and/or quota relief will be handled case-by-case and dependa
 
 ## **How to request an ADA Accommodation**
 
-1. Notify Manager & People Team
-2. Formally request accommodation process to start
-3. Complete required paperwork
-4. Decision & notification
-5. Plan creation
-6. Utilize accommodation
-7. End of accommodation
+1. [Notify Manager & People Team](ada.md#step-1-notify-the-people-team)
+2. [Formally request accommodation process to start](ada.md#step-2-formally-kick-off-leave-process)
+3. [Complete required paperwork](ada.md#step-3-have-your-medical-provider-complete-paperwork)
+4. [Decision & notification](ada.md#step-4-review-decision--notification)
+5. [Plan creation](ada.md#step-5-create-a-plan-with-your-manager--people-partner)
+6. [Utilize accommodation](ada.md#step-6-begin-using-your-accommodation)
+7. [End of accommodation](ada.md#step-7-end-of-accommodation)
 
 ### **Step 1: Notify the People Team**
 
@@ -144,7 +144,7 @@ A: Discuss your concerns with your People Partner. In some circumstances a tempo
 
 A: Yes, as a remote company we have remote interviews and will offer reasonable accommodations to candidates. This can be visual and audio support or other reasonable requests. Please ask your Recruiter for an accommodation and they will loop in The People Team.
 
-**Q: How do I know** **if my health concern qualifies for an ADA accommodation? **
+**Q: How do I know** **if my health concern qualifies for an ADA accommodation?**
 
 A: Your health concern qualified for an ADA accommodation if it meets the following criteria:
 
@@ -209,7 +209,7 @@ A: The main differentiators of using Sick Time/PTO vs. a LOA for a medical conce
 - PTO (sick time) should be used for medical concerns (for yourself or a dependent) requiring you to be away from work for 1 week or less in length (unless statutory guidance differs). A doctor’s note is not required.
 - LOA should be used for medical concerns that cause you to be out of office for more than 1 week consecutively. A doctor’s note is required.
 
-**Q: Why is paperwork from a medical professional required? **
+**Q: Why is paperwork from a medical professional required?**
 
 A: First, for clarity and consistency. We want to make sure that we understand your medical needs. Second, because taking a LOA often triggers other benefits and rights under federal or local laws, and we cannot evaluate those issues without medical information.
 
@@ -227,7 +227,7 @@ A: If your leave will be intermittent, we will need an updated ADA request form 
 
 ##### **Q: Can I use PTO to cover my intermittent leave?**
 
-\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../../benefits-pay-perks/benefits-perks/time-off/index.md) and [Medical Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md) guidelines.
+A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../../benefits-pay-perks/benefits-perks/time-off/index.md) and [Medical Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md) guidelines.
 
 ##### **Q: I just joined recently. Am I eligible for ADA accommodations or intermittent leave even though I haven’t been here for a year?**
 
@@ -235,18 +235,18 @@ A: Yes! We do not have a waiting period for an ADA accommodation.
 
 ##### **Q: I’ve been working with a therapist, can they write me the required doctor's note?**
 
-##### A: To be eligible for leave under this policy, you need to submit a note from a licensed healthcare provider. If you have a note from a licensed therapist, we will consider it in determining an appropriate accommodation.
+###### A: To be eligible for leave under this policy, you need to submit a note from a licensed healthcare provider. If you have a note from a licensed therapist, we will consider it in determining an appropriate accommodation.
 
 ##### **Q: Can my mental health condition/concerns be a disability that qualifies for accommodation?**
 
-A: Yes, ADA covers both mental and physical health conditions .
+A: Yes, ADA covers both mental and physical health conditions.
 
 ##### **Q: What happens to my promotion eligibility and Impact Review score?**
 
 A: Time taken for ADA accommodations will not be factored into (e.g. not counted toward, nor negatively impact) internal mobility and/or promotion eligibility. Please work with your Manager and People Partner to align on expectations and timeline based on your role and segment. If over the 6-month review period, there are fewer than 4-months of on-the-job performance to assess, the Teammate will retain the rating from the immediately previous cycle. Please reach out to your People Partner for questions related to Teammates with ADA accommodations.
 
-**Q:** **What happens to my Performance Improvement Plan (PIP) while I have an ADA accommodation? \
-**A:\*\* \*\*The progression of your PIP will be based on the accommodation requested and the expectations in place during your accommodation period.
+**Q: What happens to my Performance Improvement Plan (PIP) while I have an ADA accommodation?**
+\*\*A:\*\* \*\*The progression of your PIP will be based on the accommodation requested and the expectations in place during your accommodation period.
 
 ##### **Q: Does the same ADA policy apply to me if I’m a caregiver for a family member experiencing a medical condition?**
 
