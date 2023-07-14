@@ -38,8 +38,8 @@ We understand that medical situations can be stressful and challenging to naviga
 
 If you're expecting to be away from work for more than one week, please review our consecutive leave options:
 
-- For an illness impacting you or your immediate family member, please refer to our [Leave of Absence Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/leave-of-absence/).
-- For the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/parental-leave/#resources-for-teammates-with-a-commission-plan-sales--ce).
+- For an illness impacting you or your immediate family member, please refer to our [Leave of Absence Policy](../benefits-pay-perks/benefits-perks/leave-of-absence.md).
+- For the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](../benefits-pay-perks/benefits-perks/parental-leave/#resources-for-teammates-with-a-commission-plan-sales--ce.md).
 
 ## **ADA TL;DR**
 
@@ -54,7 +54,7 @@ If you're expecting to be away from work for more than one week, please review o
 - **Eligibility (family member):** Unfortunately, the ADA does **not** provide accommodations or leaves to care for family members.
 - **Local laws: **This policy-including eligibility criteria, reasonable accommodation request, and duration –is subject to applicable local laws, which may provide different benefits. In those cases, the teammate will receive the greater entitlement. Where local laws entitle a teammate to a portion of leave paid for by the local government, Sourcegraph will work with the teammate to adjust Sourcegraph’s coverage, so that the total amount received by the teammate is consistent with but not duplicative of the entitlements under Sourcegraph’s policy and applicable local laws.
   - Although the ADA is specific to the US, many countries have disability leaves or accommodations available. Please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) for more information.
-- **How to request an ADA Accommodation:** The process to request an accommodation is interactive, and each individual case is unique. The first two steps are 1) To alert your People Partner you’re going to request an accommodation and 2) formally begin the process by submitting our[ google intake form](https://docs.google.com/forms/d/e/1FAIpQLSfWZdQLZHrVai3FnCgY5s31FJFKwgISFnCSPglNz3S_oxPILw/viewform?usp=sf_link). You can find the [full process below](#bookmark=id.n30239lh4yqu).
+- **How to request an ADA Accommodation:** The process to request an accommodation is interactive, and each individual case is unique. The first two steps are 1) To alert your People Partner you’re going to request an accommodation and 2) formally begin the process by submitting our[ google intake form](https://docs.google.com/forms/d/e/1FAIpQLSfWZdQLZHrVai3FnCgY5s31FJFKwgISFnCSPglNz3S_oxPILw/viewform?usp=sf_link). You can find the [full process below].
 
 ## **Who is eligible for ADA Accomodations?**
 
@@ -121,8 +121,8 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 
 ### **Additional resources**
 
-- US Teammates: [Benefits advocate team](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/benefits/#q-what-is-sequoia-consulting-group) can help you find an in-network provider for your condition
-- All Teammates: Our mental health [resources](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/mental-health/#resources) and annual [stipend program](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/mental-health/#overview-mental-health-perks)
+- US Teammates: [Benefits advocate team](../benefits-pay-perks/benefits-perks/benefits/#q-what-is-sequoia-consulting-group.md) can help you find an in-network provider for your condition
+- All Teammates: Our mental health [resources](../benefits-pay-perks/benefits-perks/mental-health/#resources.md) and annual [stipend program](../benefits-pay-perks/benefits-perks/mental-health/#overview-mental-health-perks.md)
 
 ## **FAQ**
 
@@ -200,9 +200,9 @@ A: We offer accommodations under the ADA and [PWFA](https://www.eeoc.gov/wysk/wh
 
 ##### **Q: I’m expecting a new child, is that covered by our ADA policy?**
 
-A: Yes, during your time working while pregnant you can request an accommodation. At the same time, as you prepare for birth you will need to review our [Sourcegraph’s Paid Parental Leave Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/parental-leave/), we recommend doing this at least 2 months prior to your expected birth date.
+A: Yes, during your time working while pregnant you can request an accommodation. At the same time, as you prepare for birth you will need to review our [Sourcegraph’s Paid Parental Leave Policy](../benefits-pay-perks/benefits-perks/parental-leave.md), we recommend doing this at least 2 months prior to your expected birth date.
 
-**Q: We have an [unlimited Paid Time Off (PTO) Policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off/). What is the difference and when should I take a LOA instead of Sick Time/PTO?**
+**Q: We have an [unlimited Paid Time Off (PTO) Policy](../benefits-pay-perks/benefits-perks/time-off.md). What is the difference and when should I take a LOA instead of Sick Time/PTO?**
 
 A: The main differentiators of using Sick Time/PTO vs. a LOA for a medical concern/condition are 1) the length of time away from work and 2) a doctor’s note requirement
 
@@ -223,11 +223,11 @@ A: Yes, if you reach the end of a 90-day accommodation and are still in need of 
 
 **Q: What if I need to go out on leave?**
 
-A: If your leave will be intermittent, we will need an updated ADA request form from your medical professional. If you need consecutive leave, please refer to our [Medical Leave of Absence policy.](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/leave-of-absence/)
+A: If your leave will be intermittent, we will need an updated ADA request form from your medical professional. If you need consecutive leave, please refer to our [Medical Leave of Absence policy.](../benefits-pay-perks/benefits-perks/leave-of-absence/.md)
 
 ##### **Q: Can I use PTO to cover my intermittent leave?**
 
-\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off/) and [Medical Leave of Absence](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/leave-of-absence/) guidelines.
+\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../benefits-pay-perks/benefits-perks/time-off/.md) and [Medical Leave of Absence](../benefits-pay-perks/benefits-perks/leave-of-absence/.md) guidelines.
 
 ##### **Q: I just joined recently. Am I eligible for ADA accommodations or intermittent leave even though I haven’t been here for a year?**
 
