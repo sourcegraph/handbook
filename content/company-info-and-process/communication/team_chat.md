@@ -504,12 +504,6 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#announce-eng-updates
-   </td>
-   <td>Anyone interested in updates from Eng teams?
-   </td>
-  </tr>
-  <tr>
    <td>#ask-release-guild
    </td>
    <td>People who have questions and updates about releases
