@@ -2065,3 +2065,14 @@ nelson_araujo:
   description: |
     Nelson joined Sourcegraph in 2023.
     Nelson loves to tinker with technology in his spare time.
+
+alex_bildner:
+  name: Alex Bildner
+  email: alex.bildner@sourcegraph.com
+  github: AlexB3939
+  pronouns: he/him
+  role: Software Engineer Intern
+  reports_to: search_lead
+  location: New Jersey, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/alex-bildner)'
+  description: Alex is a student at Duke University studying Computer Science and Economics. Outside of programming, he likes music, going to the beach, travelling, cooking, and hanging out with his dog Coco 🐶.
