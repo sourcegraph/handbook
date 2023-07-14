@@ -85,8 +85,8 @@ Life:
 HSA, FSA, and Dependent Care FSA:
 
 - HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](<https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)>).
-- [HSA Overview and Eligibility](https://guides.lumity.com/bzW18but/Sourcegraph/tax-advantaged-accts/hsa)
-- [FSA Overview and Eligibility](https://guides.lumity.com/bzW18but/Sourcegraph/tax-advantaged-accts/fsa)
+- [HSA Overview and Eligibility](https://help.rippling.com/s/topic/0TO4o000000HsnmGAC/hsa-overview)
+- [FSA Overview and Eligibility](https://help.rippling.com/s/article/360056730253)
 
 401K:
 
