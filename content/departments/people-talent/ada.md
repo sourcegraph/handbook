@@ -3,17 +3,17 @@
 _The below guide applies to all full-time Teammates globally. Please reach out to the People-Ops Team (people-ops@sourcegraph.com) if you require further guidance._
 
 - _Resources for Teammates (&lt;– you are here)_
-- _Resources for Managers_
-- _Resources for People Team_
+- _[Resources for Managers](#resources-for-managers)_
+- _[Resources for People Team](#resources-for-people-team)_
 
 ## **On this page:**
 
 - Reason for the policy
-- LOA TL;DR
-- Who is eligible
-- How to request an accommodation
-- Additional resources
-- Teammate FAQ
+- [LOA TL;DR](ada.md#ada-tldr)
+- [Who is eligible](ada.md#who-is-eligible-for-ada-accomodations)
+- [How to request an accommodation](ada.md#how-to-request-an-ada-accommodation)
+- [Additional resources](ada.md#additional-resources)
+- [Teammate FAQ](ada.md#faq)
   - Candidates requesting an accommodation
 
 ## **Reason for the policy**
