@@ -121,8 +121,8 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 
 ### **Additional resources**
 
-- US Teammates: [Benefits advocate team](../../benefits-pay-perks/benefits-perks/benefits/#benefits-support.md) can help you find an in-network provider for your condition
-- All Teammates: Our mental health [resources](../../benefits-pay-perks/benefits-perks/mental-health/#resources.md) and annual [stipend program](../../benefits-pay-perks/benefits-perks/mental-health/#overview-mental-health-perks.md)
+- US Teammates: [Benefits advocate team](../../benefits-pay-perks/benefits-perks/benefits.md#benefits-support) can help you find an in-network provider for your condition
+- All Teammates: Our mental health [resources](../../benefits-pay-perks/benefits-perks/mental-health.md#resources) and annual [stipend program](../../benefits-pay-perks/benefits-perks/mental-health.md#overview-mental-health-perks)
 
 ## **FAQ**
 
@@ -202,7 +202,7 @@ A: We offer accommodations under the ADA and [PWFA](https://www.eeoc.gov/wysk/wh
 
 A: Yes, during your time working while pregnant you can request an accommodation. At the same time, as you prepare for birth you will need to review our [Sourcegraph’s Paid Parental Leave Policy](../../benefits-pay-perks/benefits-perks/parental-leave.md), we recommend doing this at least 2 months prior to your expected birth date.
 
-**Q: We have an [unlimited Paid Time Off (PTO) Policy](../../benefits-pay-perks/benefits-perks/time-off.md). What is the difference and when should I take a LOA instead of Sick Time/PTO?**
+**Q: We have an [unlimited Paid Time Off (PTO) Policy](../../benefits-pay-perks/benefits-perks/time-off/index.md). What is the difference and when should I take a LOA instead of Sick Time/PTO?**
 
 A: The main differentiators of using Sick Time/PTO vs. a LOA for a medical concern/condition are 1) the length of time away from work and 2) a doctor’s note requirement
 
@@ -227,7 +227,7 @@ A: If your leave will be intermittent, we will need an updated ADA request form 
 
 ##### **Q: Can I use PTO to cover my intermittent leave?**
 
-\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../../benefits-pay-perks/benefits-perks/time-off.md) and [Medical Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md) guidelines.
+\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../../benefits-pay-perks/benefits-perks/time-off.index.md) and [Medical Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md) guidelines.
 
 ##### **Q: I just joined recently. Am I eligible for ADA accommodations or intermittent leave even though I haven’t been here for a year?**
 
