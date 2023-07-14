@@ -38,8 +38,8 @@ We understand that medical situations can be stressful and challenging to naviga
 
 If you're expecting to be away from work for more than one week, please review our consecutive leave options:
 
-- For an illness impacting you or your immediate family member, please refer to our [Leave of Absence Policy](../benefits-pay-perks/benefits-perks/leave-of-absence.md).
-- For the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](../benefits-pay-perks/benefits-perks/parental-leave/#resources-for-teammates-with-a-commission-plan-sales--ce.md).
+- For an illness impacting you or your immediate family member, please refer to our [Leave of Absence Policy](handbook/benefits-pay-perks/benefits-perks/leave-of-absence.md).
+- For the birth or adoption of a child, please refer to our [Sourcegraph’s Paid Parental Leave Policy](handbook/benefits-pay-perks/benefits-perks/parental-leave/#resources-for-teammates-with-a-commission-plan-sales--ce.md).
 
 ## **ADA TL;DR**
 
