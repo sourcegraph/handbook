@@ -28,17 +28,17 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#team-
    </td>
-   <td>For teams to coordinate work and activities among themselves.
+   <td>For teams to coordinate work and activities among themselves. Strict channel membership for only people on that team.
    </td>
    <td>#team-design, #team-support, #team-sales
    </td>
   </tr>
   <tr>
-   <td>#ask-
+   <td>#discuss-
    </td>
-   <td>To ask questions or find information from other teams or departments.
+   <td>To discuss topics related to that department or team.
    </td>
-   <td>#ask-sales, #ask-marketing, #ask-people-team
+   <td>#discuss-sales, #discuss-marketing
    </td>
   </tr>
   <tr>
@@ -272,7 +272,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-sales
+   <td>#discuss-sales
    </td>
    <td>All Sales
    </td>
@@ -284,13 +284,13 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-sales-ops
+   <td>#discuss-sales-ops
    </td>
    <td>All Sales
    </td>
   </tr>
   <tr>
-   <td>#ask-sales-enablement
+   <td>#discuss-sales-enablement
    </td>
    <td>All Sales
    </td>
@@ -338,7 +338,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-commissions
+   <td>#discuss-commissions
    </td>
    <td>Accounting and Sales Team
    </td>
@@ -350,7 +350,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-deal-desk
+   <td>#discuss-deal-desk
    </td>
    <td>Deal Desk, Legal, Sales
    </td>
@@ -379,7 +379,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-technical-success
+   <td>#discuss-technical-success
    </td>
    <td>All TS
    </td>
@@ -391,7 +391,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-ce
+   <td>#discuss-ce
    </td>
    <td>CE and cross functional partners
    </td>
@@ -409,7 +409,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-implementation
+   <td>#discuss-implementation
    </td>
    <td>Implementation
    </td>
@@ -421,7 +421,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-ta
+   <td>#discuss-ta
    </td>
    <td>TA
    </td>
@@ -433,7 +433,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-customer-support
+   <td>#discuss-customer-support
    </td>
    <td>Support
    </td>
@@ -451,13 +451,13 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-commissions
+   <td>#discuss-commissions
    </td>
    <td>Accounting and Sales Team
    </td>
   </tr>
   <tr>
-   <td>#ask-deal-desk
+   <td>#discuss-deal-desk
    </td>
    <td>Deal Desk, Legal, Sales
    </td>
@@ -486,7 +486,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-engineering
+   <td>#discuss-engineering
    </td>
    <td>All eng, cross functional partners
    </td>
@@ -498,7 +498,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-dev-ops
+   <td>#discuss-dev-ops
    </td>
    <td>Anyone having question about deployments
    </td>
@@ -510,7 +510,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-release-guild
+   <td>#discuss-release-guild
    </td>
    <td>People who have questions and updates about releases
    </td>
@@ -540,7 +540,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-product
+   <td>#discuss-product
    </td>
    <td>All Product teammates, cross functional partners
    </td>
@@ -570,7 +570,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-design
+   <td>#discuss-design
    </td>
    <td>Design team
    </td>
@@ -640,7 +640,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-marketing
+   <td>#discuss-marketing
    </td>
    <td>All Marketing teammates + cross functional partners
    </td>
@@ -652,7 +652,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-internal-comms
+   <td>#discuss-internal-comms
    </td>
    <td>Internal comms + people looking for support on internal comms
    </td>
@@ -729,7 +729,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-deal-desk
+   <td>#discuss-deal-desk
    </td>
    <td>Deal Desk, Legal, Sales
    </td>
@@ -747,7 +747,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-analytics
+   <td>#discuss-analytics
    </td>
    <td>Data + cross functional partners
    </td>
@@ -788,7 +788,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-legal
+   <td>#discuss-legal
    </td>
    <td>Legal + people with legal questions
    </td>
