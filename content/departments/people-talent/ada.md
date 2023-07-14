@@ -122,7 +122,7 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 ### **Additional resources**
 
 - US Teammates: [Benefits advocate team](../../benefits-pay-perks/benefits-perks/benefits.md#benefits-support) can help you find an in-network provider for your condition
-- All Teammates: Our mental health [resources](../../benefits-pay-perks/benefits-perks/mental-health.md#resources) and annual [stipend program](../../benefits-pay-perks/benefits-perks/mental-health.md#overview-mental-health-perks)
+- All Teammates: Our mental health [resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md#resources) and annual [stipend program](../../benefits-pay-perks/benefits-perks/mental-health/index.md#overview-mental-health-perks)
 
 ## **FAQ**
 
@@ -227,7 +227,7 @@ A: If your leave will be intermittent, we will need an updated ADA request form 
 
 ##### **Q: Can I use PTO to cover my intermittent leave?**
 
-\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../../benefits-pay-perks/benefits-perks/time-off.index.md) and [Medical Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md) guidelines.
+\*\*A: In most cases, no. However each case will be evaluated case-by-case while considering our [Paid Time Off policy](../../benefits-pay-perks/benefits-perks/time-off/index.md) and [Medical Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md) guidelines.
 
 ##### **Q: I just joined recently. Am I eligible for ADA accommodations or intermittent leave even though I haven’t been here for a year?**
 
