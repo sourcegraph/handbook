@@ -1,3 +1,0 @@
-# Onboarding events
-
-TODO
