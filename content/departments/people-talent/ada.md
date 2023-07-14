@@ -147,6 +147,7 @@ A: Yes, as a remote company we have remote interviews and will offer reasonable 
 **Q: How do I know** **if my health concern qualifies for an ADA accommodation?**
 
 A: Your health concern qualified for an ADA accommodation if it meets the following criteria:
+
 - has a physical or mental impairment that substantially limits one or more major life activities
   - Substantially limits is interpreted broadly
   - Major life activities are the kind of activities that you do every day, including your body’s own internal process. There are many major life activities in addition to the examples included here:
@@ -245,7 +246,7 @@ A: Yes, ADA covers both mental and physical health conditions.
 A: Time taken for ADA accommodations will not be factored into (e.g. not counted toward, nor negatively impact) internal mobility and/or promotion eligibility. Please work with your Manager and People Partner to align on expectations and timeline based on your role and segment. If over the 6-month review period, there are fewer than 4-months of on-the-job performance to assess, the Teammate will retain the rating from the immediately previous cycle. Please reach out to your People Partner for questions related to Teammates with ADA accommodations.
 
 **Q: What happens to my Performance Improvement Plan (PIP) while I have an ADA accommodation?**
-**A:\*\* \*\*The progression of your PIP will be based on the accommodation requested and the expectations in place during your accommodation period.
+\*\*A:\*\* \*\*The progression of your PIP will be based on the accommodation requested and the expectations in place during your accommodation period.
 
 ##### **Q: Does the same ADA policy apply to me if I’m a caregiver for a family member experiencing a medical condition?**
 
@@ -270,10 +271,12 @@ A: International teammates are entitled to take any statutorily-provided sick le
 ##### **Q: Where can I find additional information on accommodation benefits for my specific country? _(International teammates only)_**
 
 A: If you are employed through Deel:
+
 - [Deel’s global hiring guide](https://www.letsdeel.com/global-hiring-guide) provides details for all country specific employment requirements and regulations.
 - Contact: support@deel.com for any additional information or clarification of your country specific policy. Please Cc people-ops@sourcegraph.com on your support request.
 
 If you are engaged as an International Contractor:
+
 - Each country has varying requirements that dictate eligibility for statutory medical/sick benefits. This is dependent on the working relationship type including, independent contractors and those who are self-employed. Given the varying country specific regulations, please contact people-ops@sourcegraph.com to receive guidance regarding statutory requirements you are eligible for
 
 ## **Resources for managers**
