@@ -14,6 +14,7 @@
 
 - Ad-hoc customer calls
   - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
+- As requests come in from customers make sure you [surface feedback to the product team](../../../engineering/product/process/feedback/surfacing_product_feedback/)
 
 ## Weekly
 
