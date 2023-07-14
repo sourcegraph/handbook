@@ -22,8 +22,8 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | 2023-03-03 to 2023-04-05 | ?                                                                                                                                             |
 | 2023-04-05 to 2023-05-05 | [David Veszelovszki](https://github.com/vdavid), [Milan Freml](https://github.com/kopancek), [Idan Varsano](https://github.com/varsanojidan)  |
 | 2023-05-05 to 2023-06-05 | [Gary Lee](https://github.com/gl-srgr) [AMER], [Taras Yemets](https://github.com/taras-yemets) [EMEA]                                         |
-| 2023-06-05 to 2023-07-05 | [Marek Zaluski](https://github.com/marekweb), [Dave Try](https://github.com/davejrt)                                                          | 
-| 2023-07-05 to 2023-08-05 | [Noah Santschi-Cooney](https://github.com/strum355), [Petri-Johan Last](https://github.com/pjlast) 
+| 2023-06-05 to 2023-07-05 | [Marek Zaluski](https://github.com/marekweb), [Dave Try](https://github.com/davejrt)                                                          |
+| 2023-07-05 to 2023-08-05 | [Noah Santschi-Cooney](https://github.com/strum355), [Petri-Johan Last](https://github.com/pjlast)                                            |
 
 ## Benefits
 
