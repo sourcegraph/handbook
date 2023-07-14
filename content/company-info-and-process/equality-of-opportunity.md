@@ -14,4 +14,4 @@ Equality of opportunity at Sourcegraph means we support our team with the follow
 - Candidate screenings that evaluate individual skillsets, past accomplishments, and contributions to building strong company culture.
 - Clear guidelines and enforced minimums for paid time off, which account for a variety of PTO reasons like well-being, religion, life, holidays, etc.
 - Anonymous surveys for all teammates aimed at collecting feedback about our culture, strategies, and ways of working.
-- Access to counseling and coaching sessions through Modern Health.
+- An annual $250 mental health stipend that can be utilized for a wide range of mental health-related expenses, such as therapy sessions, counseling services, consultations, mindfulness and meditation classes, mental health apps or subscriptions, and self-help books.
