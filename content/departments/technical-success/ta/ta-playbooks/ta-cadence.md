@@ -7,14 +7,17 @@
 - Check your list of Vitally Tasks
   - Vitally will auto-assign a number of tasks based on the playbooks we have configured. You also have the ability to set these tasks on your own based on your conversations with customers. You should be driving this list to completion as much as possible.
 - Account teams comms
-  - Be a good teammate! Make sure to update your Account Executive, Customer Engineer or SDR with any information that could effect their work, even if it is just a status update.
+  - Be a good teammate! Make sure to update your Account Executive, Customer Engineer or SDR with any information that could impact their work, even if it is just a status update.
   - Collaborate with your team on activities that would help the goals you have for customers like feature adoption or upgrading.
+  - Utilize internal customer slack channels to keep internal stakeholders informed of what's going on. This doesn't mean provide a daily update, but daily be thinking about whether or tnot there's relevant happenings that would benefit posting a proactive update in the internal customer channel.
 
 ### External
 
-- Ad-hoc customer calls
+- Ad-hoc customer meetings
   - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
 - As requests come in from customers make sure you [surface feedback to the product team](../../../engineering/product/process/feedback/surfacing_product_feedback.md)
+- Customer slack channel communication
+  - Be mindful of customers with shared slack channels. Ensure you're monitoring the requests coming in and that they are getting appropriate responses in a timely manner.
 
 ## Weekly
 
@@ -26,10 +29,13 @@
   - 180 days out from renewal, we check each accounts health. If it falls into our red or yellow categories, the account will be raised for review at the Yellow/Red Renewals meeting. The goal here is to get the customer healthy and protect the renewal as much as possible.
 - Vitally Traits
   - Vitally is where we keep the state of a customer, including information around deployment, new feature adoption and customer comms. Make sure that you are keeping this up to date and reviewing your accounts weekly to make sure that the information is up to date for leadership
+- Account Team Sync
+  - Make sure that you are connecting with your AEs either weekly or bi-weekly. Use this time to strategize, coordinate, and align on your plans and activities for each customer account.
 
 ### External
 
-- Review customer pings and data to determine what could be done to help improve their health, see [TA Activites](./ta-scenarios.md), and strategize with your champion.
+- Customer syncs
+  - Review customer pings and data to determine what could be done to help improve their health, see [TA Activites](./ta-scenarios.md), and strategize with your champion.
 
 ## Monthly
 
@@ -40,13 +46,16 @@
 
 ### External
 
-- Announce version and patch updates to customers, if an issue or feature request a customer has reported is included in an upgrade or patch make sure they know!
+- Customer Communications
+  - Announce version and patch updates to customers, if an issue or feature request a customer has reported is included in an upgrade or patch make sure they know!
+  - Think about relevant tips & tricks that would be helpful to share out to increase usage and value.
 
 ## Quarterly
 
 ### Internal
 
-- Review accounts with your manager, this can be done ad-hoc weekly/monthly but make sure that you are maintaining visability into all of your accounts with your manager.
+- Account Success PLanning
+  - Review accounts with your manager; this can be done ad-hoc weekly/monthly but make sure that you are maintaining visability into all of your accounts with your manager.
 
 ### External
 
@@ -55,11 +64,11 @@
   - [QBR resources](../team-culture/working-with-customers.md#qbrs)
 - Prepare for [renewals](../team-culture/working-with-customers.md#renewal-process)
 
-## As Needed
+## As Needed, Ad-Hoc
 
 ### New Customers
 
-- Knowledge transfer with sales team
+- Knowledge transfer with sales & CE team
 - [Partnership kickoff](../team-culture/working-with-customers.md#post-sales-partnership-kickoff)
 - [Customer onboarding](../team-culture/working-with-customers.md#user-onboarding)
 
