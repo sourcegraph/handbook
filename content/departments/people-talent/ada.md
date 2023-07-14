@@ -14,7 +14,7 @@ _The below guide applies to all full-time Teammates globally. Please reach out t
 - [How to request an accommodation](ada.md#how-to-request-an-ada-accommodation)
 - [Additional resources](ada.md#additional-resources)
 - [Teammate FAQ](ada.md#faq)
-  - Candidates requesting an accommodation
+  - [Candidates requesting an accommodation](ada.md#q-does-sourcegraph-offer-accommodations-for-candidates-interviewing)
 
 ## **Reason for the policy**
 
@@ -140,7 +140,7 @@ A: A teammate request that is unrelated to documented medical issues, such as a 
 
 A: Discuss your concerns with your People Partner. In some circumstances a temporary accommodation can be provided for a short period of time while the medical information is pending.
 
-**Q: Does Sourcegraph offer accommodations for candidates interviewing?**
+#### **Q: Does Sourcegraph offer accommodations for candidates interviewing?**
 
 A: Yes, as a remote company we have remote interviews and will offer reasonable accommodations to candidates. This can be visual and audio support or other reasonable requests. Please ask your Recruiter for an accommodation and they will loop in The People Team.
 
