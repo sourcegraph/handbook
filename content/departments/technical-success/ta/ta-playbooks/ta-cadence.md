@@ -28,7 +28,7 @@
 
 ### External
 
-- Review customer pings and data to determine what could be done to help improve their health, see [TA Activites](../ta-scenarios.md), and strategize with your champion.
+- Review customer pings and data to determine what could be done to help improve their health, see [TA Activites](./ta-scenarios.md), and strategize with your champion.
 
 ## Monthly
 
