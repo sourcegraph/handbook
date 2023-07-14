@@ -2,7 +2,7 @@
 
 _If you have any questions about the Impact Review process, or need help in general, please Slack #ask-people-team_
 
-## Impact Reviews explained
+## Impact Reviews Explained
 
 We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
 
@@ -303,7 +303,7 @@ In addition to asking the above questions during the Impact Review process, we a
 
    </td>
    <td>
-<h4><strong>Coaching:  </strong>Teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.</h4>
+<h4><strong>Coaching: </strong>teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.</h4>
 
    </td>
   </tr>
