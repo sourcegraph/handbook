@@ -13,7 +13,7 @@
 - [Onboarding](../../../company-info-and-process/onboarding/index.md)
   - [Onboarding buddy](../buddy-program.md)
   - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
-  - [Onboarding reviews](../../../company-info-and-process/onboarding/onboarding-reviews.md)
+  - Onboarding reviews
     - [Onboarging Feedback Milestones](../../../departments/people-talent/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
 - [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)
