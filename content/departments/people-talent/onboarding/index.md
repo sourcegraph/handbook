@@ -73,7 +73,7 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Gain strong familiarity with Greenhouse, our Applicant Tracking system; be able to successfully navigate the system, create candidate profiles, schedule interviews, and much more.
 - Schedule interviews using Google Calendar and Greenhouse, consistently ensuring an outstanding candidate experience through consistent follow-up communication.
 - Run and analyze recruiting metrics on a weekly basis.
-- Own programs related to: diversity & inclusion, recruitment marketing, summer internship program & campus recruiting; partner with your team on existing programs and identify opportunities for improvement.
+- Own programs related to: non-biased hiring practices, recruitment marketing, summer internship program & campus recruiting; partner with your team on existing programs and identify opportunities for improvement.
 - Organize and maintain documentation in Greenhouse, Google Drive, and our public-facing Handbook.
 - Dive into internal processes and suggest opportunities for improvement; teach us a thing or two we don’t know!
 - Continuously looking for opportunities to improve the recruiting function at Sourcegraph, with a focus on automation and scalability.
