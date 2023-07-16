@@ -291,11 +291,11 @@ In addition to asking the above questions during the Impact Review process, we a
 
    </td>
    <td>
-<h4><strong>Partially Successful Performance ~10%</strong></h4>
+<h4><strong>Partially Meets Performance Expectations ~10%</strong></h4>
 
    </td>
    <td>
-<h4>Fails to consistently meet performance expectations or lacks responsibility with values or conduct expectations. May appear to lack motivation. Lacks requisite technical skills or knowledge relating to aspects of their role. May perform well, but lacks conduct in alignment with our values.</h4>
+<h4> Does not consistently meet performance expectations or lacks responsibility with values or conduct expectations. May appear to lack motivation. Lacks requisite technical skills or knowledge relating to aspects of their role.</h4>
 
    </td>
    <td>
@@ -303,7 +303,7 @@ In addition to asking the above questions during the Impact Review process, we a
 
    </td>
    <td>
-<h4><strong>Coaching: </strong>teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.</h4>
+<strong>Coaching: </strong> teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.
 
    </td>
   </tr>
