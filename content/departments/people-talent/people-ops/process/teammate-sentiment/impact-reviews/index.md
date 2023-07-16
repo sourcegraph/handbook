@@ -125,7 +125,7 @@ Lattice resources:
 
 <table>
   <tr>
-   <td><strong>Past 6-months: </strong>In the past 6-months, This teammate consistently delivers quality work in line with the expectations of their role/level/values.   [Rating Scale: 1-10]
+   <td><strong>Past 6-months: </strong>In the past 6-months, This teammate consistently delivers quality work in line with the expectations of their role/level/values.   [Rating Scale: 1-5]
 <p>
 Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?
 <p>
@@ -150,7 +150,7 @@ Please provide specific examples in the comment field that supports how this Tea
 
 <table>
   <tr>
-   <td><strong>1. Past 6-months:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1-10] 
+   <td><strong>1. Past 6-months:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1-5] 
 <p>
 Please provide specific examples in the comment field that support if and how your manager enabled your success over the past review period. 
 <p>
@@ -177,7 +177,7 @@ Where did they excel? Where do they need improvement?
 
 <table>
   <tr>
-   <td>1.<strong> Past 6-months:</strong> Looking back over the past review period<strong>, </strong>how would you rate this teammate’s performance against the expectations of their  role, level and our values [Rating scale: 1-5):
+   <td>1.<strong> Past 6-months:</strong> Looking back over the past review period<strong>, </strong>how would you rate this teammate’s performance against the expectations of their  role, level and our values [Rating scale: 1-5]:
 <p>
 In 2-3 sentences, please provide justification for selected performance rating. Additionally, Where did they excel? Where do they need improvement?
    </td>
