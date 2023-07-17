@@ -102,29 +102,37 @@ Tech Reviews are employed in both pre-sales scenarios and post-sales scenarios.
 - Tech reviews in pre-sales situations are documented as part of the [CE Technical Win Management Process](../process/tech-win-process.md).
 - Tech reviews in post-sales situations are documented as part of the [Customer Success Process](../process/tech-reviews.md).
 
-## Creating Trial Support Tickets 
-Customer Engineering is responsible for creating tickets on behalf of the customer, tickets should be created when the resolution requires additional troubleshooting. 
+## Creating Trial Support Tickets
+
+Customer Engineering is responsible for creating tickets on behalf of the customer, tickets should be created when the resolution requires additional troubleshooting.
 
 #### 1. Create Tickets for Trial Customers
+
 > Note: To create the ticket in Slack use the ❓on the corresponding Slack message or email trialsupport@sourcegraph.com
 
-
 #### 2. To begin, access the Support Agent in Slack to view the created tickets. Follow these steps:
+
 - Go to Slack and navigate to the Support Agent integration.
 - Select the `Home` tab within Support Agent to see the list of incoming tickets under the `Waiting for Help` section.
 
 #### 3. Assigning Tickets
+
 To take ownership of a ticket and determine the appropriate action, follow these steps:
+
 - Locate the ticket you want to handle within the `Waiting for Help` section.
 - Click on the three dots `...` next to the ticket and select `Start` to assign the ticket to yourself.
 
 #### 4. Responding to Customers within Slack or Foqal
-- Select `View Thread` to respond to the customer within the Slack thread or the Foqal ticket number located on the left to open the Foqal web browser. 
+
+- Select `View Thread` to respond to the customer within the Slack thread or the Foqal ticket number located on the left to open the Foqal web browser.
 
 #### 5. Handling Chat Status - End Chat
+
 To manage the chat status and effectively organize your workflow, follow these steps:
-- When the communication with the customer is complete, go back to Support Agent and choose `End Chat`. 
+
+- When the communication with the customer is complete, go back to Support Agent and choose `End Chat`.
 
 #### 6. Transferring Trial ticket to Support Engineering
+
 In some cases, tickets originating from trial support may require additional guidance from our Support Engineers. In such cases, the Customer Engineering (CE) team should create a post in #discuss-customer-support to request a Support Engineer (SE) to take ownership of the ticket. Once the SE has confirmed, the CE can transfer ticket ownership from themselves to the appropriate Support Engineer (SE).
 -To transfer the ticket from Slack, select `...` under the `Home` tab in Support Agent, select transfer, and select the appropriate Support Engineer (SE)
