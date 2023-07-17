@@ -127,4 +127,4 @@ Slack is included with the purchase of various Professional Services packages as
 - <strong>Slack Support</strong>
   - Slack Account Management Included
 
-** If your customer has opted out of our Slack offerings, please follow the [Slack Deprovisioning Steps](https://docs.google.com/document/d/133Cn0cGetSTo_aBF9xLp26elegcuN_uZBrzWuoi16cs/edit).**
+### ** If your customer has opted out of our Slack offerings, please follow the [Slack Deprovisioning Steps](https://docs.google.com/document/d/133Cn0cGetSTo_aBF9xLp26elegcuN_uZBrzWuoi16cs/edit).**
