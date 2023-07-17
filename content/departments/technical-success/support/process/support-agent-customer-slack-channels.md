@@ -1,32 +1,34 @@
-## How to Create and Transfer Tickets for Support Engineering
+## How to Engage with Support
 
-We currently offer Support via Slack Channels for Enterprise customers through a Support Agent integration that must be integrated into the Slack Channel as well as email at support@sourcegraph.com. The following are steps that are set to ensure we can provide a consistent support experience to our customers in accordance with our Service Level Agreements (SLAs).
+We provide support to Enterprise customers through Slack Channels and email at support@sourcegraph.com. To ensure a consistent support experience aligned with our Service Level Agreements (SLAs), please follow these best practices:
 
-There are two methods for the Support Agent integration:
+### Best practices
 
-1. Embedding a Create Request option at the bottom of the channel (preferred option)
-2. By adding a 🎟️ emoji on the message
+1. **Avoid Blind Forwarding:** Please refrain from blindly forwarding tickets to support@sourcegraph.com. If you need to forward an email into support, include the following information to help us assist you efficiently:
+   - Customer details
+   - Link to the specific issue
+   - Detailed summary of the issue or question
+   - Consequences of not taking the desired action
+   - Any time considerations and their significance
+   - Any additional relevant information that can assist us
 
-Below are the steps required to enable either option.
+2. **Create a Ticket within Zendesk:** You can also create a ticket on behalf of the customer in Zendesk. Set the customer as the requestor, select ```Apply Macro``` at the bottom left of the screen, and apply the ```Customer Support Ticket Request``` macro. Fill out the requested information to provide comprehensive context.
 
-### Embedding the Create Request option to the Channel
+3. **Customers without Slack Agent:** If you need help for a customer who doesn't have our Slack agent installed, please create a ticket for them using the steps mentioned above. Alternatively, you can have the customer reach out to us directly via support@sourcegraph.com.
 
-**Step 1**: Once the customer slack channel has been created, please reach out to support in #ask-customer-support. This will allow CS leadership to integrate the Support Agent to the customer channel.
 
-**Step 2**: Once the integration is completed the customer will be able to submit request using the box labeled <Create Request>
+### Other Teams and Support Engineering
 
-**Step 3**: Send a message in the channel explaining how the customer can utilize the Support Agent: Hi team, we wanted to share the best way to reach our support team if you run into any questions. There will be a message and a button at the bottom of the channel that reads “Question for Support? Create Request.” The Create Request button will open a form where you can fill out information for a Question or Issue. Let us know if you have any questions, Thank you!”
+In order to deliver exceptional customer support, it's important for Sales, Customer Engineering, and Technical Advisors to establish effective interactions with Support Engineering to best support our customers.
 
-### Utilizing the Ticket Emoji to generate a request
+## Sales and Customer Engineering:
 
-The emoji reaction will only create a ticket if the emoji is added to the message. This allows customers to post their question in the slack and following up with a 🎟️ reaction. Doing so will trigger the post to create a ticket and fill out a support form for our support engineering team.
+**Trial Customers:** To create tickets for trial customers, use the ❓ emoji in Slack or send an email to trialsupport@sourcegraph.com. This will notify our Customer Engineering team about any issues or questions from trial customers.
 
-### If an email with a customer needs to be transfered to a Support Engineer
+**Post-sale Customers:** For post-sales customers, tickets can be created using the 🎟️ emoji in Slack, sending an email to support@sourcegraph.com, or directly creating a ticket in Zendesk. In some cases, tickets originating from trial support may require additional guidance from our Support Engineers. In such cases, the Customer Engineering (CE) team should create a post in #discuss-customer-support to request a Support Engineer (SE) to take ownership of the ticket. Once the SE has confirmed, the CE can transfer ticket ownership from themselves to the appropriate SE.
 
-If a customer sends an email and it requires support engineering to take over there are a few steps to take.
+## Technical Advisors:
 
-**Step 1**: Add support@sourcegraph.com in cc (keeping the customer in copy, too) and share that you have copied in our support team to help out.
+Technical Advisors (TAs) and Support Engineers (SEs) collaborate closely in supporting our post-sales customers. If an existing conversation with a customer requires engagement from Support Engineering, please follow the [best practices](https://github.com/sourcegraph/handbook/edit/main/content/departments/technical-success/support/process/support-agent-customer-slack-channels.md#best-practices) for involving SEs to ensure a smooth and effective resolution.
 
-**Step 2**: Go into Zendesk, select the ticket that was just created by your email that was forwarded or CC'd support.
 
-**Step 3**: `Apply Macro` select `Customer Ticket Request` , fill out the request details and `Submit as New`
