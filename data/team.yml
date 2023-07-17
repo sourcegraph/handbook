@@ -2076,3 +2076,14 @@ alex_bildner:
   location: New Jersey, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/alex-bildner)'
   description: Alex is a student at Duke University studying Computer Science and Economics. Outside of programming, he likes music, going to the beach, travelling, cooking, and hanging out with his dog Coco 🐶.
+
+kevin_chen:
+  name: Kevin Chen
+  email: kevin.chen@sourcegraph.com
+  github: chenkc805
+  pronouns: he/him
+  role: Product Manager
+  reports_to: Chris Sells
+  location: Oakland, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/kevinlchen)'
+  description: Kevin is a product manager who is passionate about helping business grow through creating easy to use and valuable product experiences. Outside of product and tech, he likes reading about stocks, road biking, mountain biking, eating delicious food with his with Kathleen, and playing with his dog Tesla 🐶.
