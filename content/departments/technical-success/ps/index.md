@@ -118,7 +118,7 @@ Sourcegraph account and support teams can communicate with the customer via Slac
   - New release messages and upgrade planning
   - Direct line to provide product feedback
 
-Also, Commercial Customers (based on our [market segmentation](https://handbook.sourcegraph.com/strategy-goals/strategy/#market-segmentation)) who would not otherwise have a dedicated TA will get one with the purchase of Slack Account Management.
+Also, Commercial Customers (based on our [market segmentation](../../../strategy-goals/strategy/index.md#market-segmentation)) who would not otherwise have a dedicated TA will get one with the purchase of Slack Account Management.
 
 Slack is included with the purchase of various Professional Services packages as follows:
 
