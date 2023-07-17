@@ -150,7 +150,7 @@ As an IC you'll progress on several axis:
           <li>Integrates feedback from teammates to deliver high-quality solutions.</li>
           <li>Increases their technical knowledge through reading, observing, and doing.</li>
           <li>Familiar with our docs and knows how to efficiently acquire knowledge.</li>
-          <li>Understands how Sourcegraoh works @ the highest level.</li>
+          <li>Understands how Sourcegraph works @ the highest level.</li>
         </ul>
       </td>
       <td class="behaviors">
