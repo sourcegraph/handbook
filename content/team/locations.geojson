@@ -644,6 +644,16 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Kevin Chen"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.25, 37.80]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Leo Papaloizos"
             },
             "geometry": {
