@@ -3,9 +3,11 @@
 The following outlines the deprovisioning process for customers not purchasing a Slack offering.
 
 **Step 1: Identify Upcoming Renewal**
+
 - Prior to renewal please identify if the customer will be purchasing Slack Support or Slack Account Management. If they will be discontinuing with either please follow the following steps:
 
 **Step 2: Customer Conversation**
+
 - The AE and TA assigned to the customer should reach out via Slack or schedule a meeting to discuss the deprecation of the channel.
 
 **Step 3: Channel Announcement**
