@@ -38,7 +38,7 @@ While you don’t need to ask for formal PTO approval for short-term time off, w
     - 4. Update the Assignee field with the correct coworker or channel name
     - 5. Enter in the Roles/Responsibilities the coworker or channel will be covering while you’re OOO. Additional details and any other helpful information can be added into the Role Description field.
     - 6. Click ‘Submit’
-  - Any PTO that exceeds 15 business days within a 30 day period requires additional approval/permission, as this type of prolonged absence could have significant impact on the business and your team. To obtain approval, please send a Slack message to your Manager, Department Head, and People Partner.
+  - Any PTO that **exceeds 10 business days** within a 30 day period requires additional approval/permission, as this type of prolonged absence could have significant impact on the business and your team. To obtain approval, please send a Slack message to your Manager, Department Head, and People Partner.
 - Respect your team and the business needs:
   - Please be sure to be extra communicative with your Manager and team during popular or official holidays so that we can ensure we don’t negatively impact the business. In these situations, we need to ensure we have the necessary coverage and prevent situations where we have most/all of the Team out at the same time. This is particularly important for departments that have specific working windows or where the team’s presence is critical to accomplishing key business results.
   - For situations such as global holidays, team events, or other cases where the whole team might be unavailable, we recommend the following:
