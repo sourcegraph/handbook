@@ -14,6 +14,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [CE Technical Win Management](#ce-technical-win-management)
   - [Tech Reviews](#tech-reviews)
   - [Creating Tickets -Trial Support]
+
 ---
 
 # Pre-Sales Customer Touchpoints
