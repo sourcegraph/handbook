@@ -5,6 +5,7 @@ We provide support to Enterprise customers through Slack Channels and email at s
 ### Best practices
 
 1. **Avoid Blind Forwarding:** Please refrain from blindly forwarding tickets to support@sourcegraph.com. If you need to forward an email into support, include the following information to help us assist you efficiently:
+
    - Customer details
    - Link to the specific issue
    - Detailed summary of the issue or question
@@ -12,10 +13,9 @@ We provide support to Enterprise customers through Slack Channels and email at s
    - Any time considerations and their significance
    - Any additional relevant information that can assist us
 
-2. **Create a Ticket within Zendesk:** You can also create a ticket on behalf of the customer in Zendesk. Set the customer as the requestor, select ```Apply Macro``` at the bottom left of the screen, and apply the ```Customer Support Ticket Request``` macro. Fill out the requested information to provide comprehensive context.
+2. **Create a Ticket within Zendesk:** You can also create a ticket on behalf of the customer in Zendesk. Set the customer as the requestor, select `Apply Macro` at the bottom left of the screen, and apply the `Customer Support Ticket Request` macro. Fill out the requested information to provide comprehensive context.
 
 3. **Customers without Slack Agent:** If you need help for a customer who doesn't have our Slack agent installed, please create a ticket for them using the steps mentioned above. Alternatively, you can have the customer reach out to us directly via support@sourcegraph.com.
-
 
 ### Other Teams and Support Engineering
 
@@ -30,5 +30,3 @@ In order to deliver exceptional customer support, it's important for Sales, Cust
 ## Technical Advisors:
 
 Technical Advisors (TAs) and Support Engineers (SEs) collaborate closely in supporting our post-sales customers. If an existing conversation with a customer requires engagement from Support Engineering, please follow the [best practices](https://github.com/sourcegraph/handbook/edit/main/content/departments/technical-success/support/process/support-agent-customer-slack-channels.md#best-practices) for involving SEs to ensure a smooth and effective resolution.
-
-
