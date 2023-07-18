@@ -83,7 +83,7 @@ Results from the semi-annual impact review process support the growth and develo
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
   - Growth & promotion philosophy
-    - [Leveling guide]
+    - [Leveling guide](../../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#individual-contributor-leveling)
     - [Career development frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
 - [Compensation philosophy](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)
@@ -329,7 +329,7 @@ In addition to asking the above questions during the Impact Review process, we a
   </tr>
 </table>
 
-#### **\* **Unless promoted, Teammates cannot exceed 15% increases in a given 12-month period.
+#### Unless promoted, Teammates should not exceed 15% increases in a given 12-month period.
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
