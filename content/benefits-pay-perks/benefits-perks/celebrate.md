@@ -74,7 +74,7 @@ Nominations will be considered based on but not limited to the criteria below:
 
 **How to nominate a teammate:**
 
-- To nominate a peer, please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLSeY3r_XbnypGecPqdSAiaFznyKkmpHm4Bu7Td073thi-iam9Q/viewform?usp=sf_link). It should take approximately 5-10 mins to fill out this form for each submission.
+- To nominate a peer, please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLScMsu9Kh3yFKHjBdSM4-y2i8ElCigha5LHiqQpfG25CgCB3Bw/viewform?usp=sf_link). It should take approximately 5-10 mins to fill out this form for each submission.
 - Nomination period opens and remains open for about ~2-3 weeks. The people team will announce the open and close dates for nominations each quarter.
 
 **How teammates are selected:**
