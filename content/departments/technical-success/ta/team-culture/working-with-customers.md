@@ -3,9 +3,9 @@
 A TA, being a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
 - [Technical Advisors: Working with Customers](#technical-advisors-working-with-customers)
-- [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
+<!-- - [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
   - [Internal](#internal)
-  - [External](#external)
+  - [External](#external) -->
 - [Processes](#processes)
   - [Renewal Process](#renewal-process)
     - [Process Overview](#process-overview)
@@ -40,7 +40,11 @@ A TA, being a post-sales technical account manager, works with customers in a nu
 
 ---
 
-# Recurring Daily Responsibilities
+# Recurring Responsibilities
+
+- see [TA Cadence](../ta-playbooks/ta-cadence.md)
+
+<!-- # Recurring Daily Responsibilities
 
 The following are a sample of the activities that a TA is responsible for on a daily basis:
 
@@ -60,7 +64,7 @@ The following are a sample of the activities that a TA is responsible for on a d
   - Incident response
   - Product updates
   - Product research
-- Usage & Value Reporting on a quarterly basis
+- Usage & Value Reporting on a quarterly basis -->
 
 # Processes
 

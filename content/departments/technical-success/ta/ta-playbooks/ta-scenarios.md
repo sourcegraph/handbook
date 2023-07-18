@@ -68,13 +68,13 @@
 
 - Never reach out just to reach out, always work to bring something of value to the customer. This could be a new feature we have released, a new blog post or piece of collateral we’ve created, or some piece of industry news (Log4J) that you believe might affect them PAIRED with some guidance from Sourcegraph.
 
-## My customer has a low Usage Score:
+<!-- ## My customer has a low Usage Score:
 
 - \*\* Usage Score is DAU/MAU, weighted based on customer tenure, along a scale from 0-100. Technical health score is calculated monthly on the first of the month, using data from the previous month. So we calculated scores on Dec 1 for the month of November. DAU is an average of the daily active users for the month of November. MAU is the total MAUs for the month of November.
 - Usage Score is a direct reflection of how active the MAU’s are. You could have 100% MAU / Seats but if everyone only logged in once, your Usage Score would be low.
 - Dig into the customer's day to day activies. Build out an org chart to identify all the teams using sourcegraph and what they specifically do in the engineering or. With this information you will be able to help understand where sourcegraph can help in achieveing their KPIs and help developers add Sourcegraph to their daily workflows
 - This is more of a responsive approach (You can use Batch Changes to help with any migrations, do you have any migrations coming up? Vs. “We’re working through a project now where we need to upgrade our terraform packages across teams.”)
-- Listen and advise.
+- Listen and advise. -->
 
 ## My customer has low MAU / Seats:
 
