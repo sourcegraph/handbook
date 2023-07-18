@@ -21,7 +21,7 @@ To be eligible for a merit increase during the impact review cycle, a Teammate m
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
 - Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
 - Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
-- Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated. 
+- Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated.
 
 ### When do impact reviews take place?
 
