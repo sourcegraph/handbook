@@ -15,7 +15,7 @@
 
 ## My customer is renewing in the next six months, and their health score in Vitally is either Red or Yellow:
 
-- Account will be flagged into a Red/Yellow Renewals Review process for extra help and attention.
+- Account will be flagged into a [Red/Yellow Renewals](../team-culture/working-with-customers.md#red-accounts) Review process for extra help and attention.
 
 ## My customer is renewing in the next 180 days:
 
@@ -55,14 +55,14 @@
 ## My customer does not have an active champion:
 
 - Customers as of Jan 1, 2023 without an active champion have been identified and are being paired with exec sponsors to help reengage.
-- If a customer falls into this category after the fact, mark the customer as a Red Account via the Account - Red Account? trait on the Vitally account. This will trigger a thread in #red-accounts so that we can strategize on a plan to identify and build new champions.
+- If a customer falls into this category after the fact, mark the customer as a [Red Account](../team-culture/working-with-customers.md#red-accounts) via the Account - Red Account? trait on the Vitally account. This will trigger a thread in #red-accounts so that we can strategize on a plan to identify and build new champions.
 - Champions are customer points of contact who will advocate on behalf of sourcegraph. To build champions it is important to understand what an indivduals goal with sourcegraph might be, and help them realize it. If you are able to make a customer contact successful they will be more likely to help you achieve your goals with that company.
 
 ## My customer does not have an active buyer that we have access to:
 
 - Sync as an account team and escalate as needed to get Sourcegraph exec help rebuilding that connection.
 - Work with your champion to collect internal wins that came from using Sourcegraph along with feedback.
-- Create a QBR style presentation for your champion showing that value so that they can present Sourcegraph internally and gain support for their initiatives.
+- Create a [QBR](../team-culture/working-with-customers.md#qbrs) style presentation for your champion showing that value so that they can present Sourcegraph internally and gain support for their initiatives.
 
 ## My customer has not been contacted in X number of days:
 
@@ -83,3 +83,32 @@
 - Not having precise code intelligence configured could lead to a bad code intelligence user experience.
 - Lacking a champion might mean Sourcegraph is not being vocalized internally
 - Low usage score might mean we do not have enough power users to evanglize Sourcegraph internally. The more people who use Sourcegraph regularly, the easier it will be to see big customer wins and spread naturally.
+
+## Low Utilization
+
+Any customer whose utilization score (Monthly Active Users / Total Seats Purchased) is below 80% 45+ days into their tenure as a customer triggers a Low Utilization Project in [Vitally](https://sourcegraph.vitally.io/) and is assigned to the TA. The projects consists of two parts: planning and execution.
+
+### Planning
+
+The TA fills out the `Account - Context on Low Utilization field` in Vitally, providing a brief overview about: Why is utilization below 80%? Are there any in-progress activities occurring right now to directly impact adoption? The TA also completes a Get Well Plan to align with the Account Team and Sales and TS leadership on the go forward plan. The TA provides the following as part of the initial plan:
+
+- Current State of the Account, Relationship
+  - Description: What's the overall pulse of the account? Who do we have relationships with and how have things been going?
+- Are we in their dev onboarding flow?
+  - Description: We want every new dev to learn about Sourcegraph as they onboard to their company so it's important that we try and get our stakeholders to include links and licensing provisioning for Sourcegraph as part of their new employee onboarding program.
+- Do we have documentation in their CMS?
+  - Description: We want to meet our customers where they are at. Most every company have their own internal documentation solution and we want Sourcegraph to be linked and referenced there to make it easy for devs to learn about and self-service their questions and needs.
+- Do you have recurring syncs with biz stakeholders?
+  - Description: How actively engaged are we and the stakeholders that we are talking to, are they able to connect us and help us with enablement and training?
+- What are your plans for driving Utilization?
+  - Description: This asks the TA and Account Team to lay out their specific plan and actions for increasing utilization to the 80% threshold or above.
+- Where are you stuck / where do you need help?
+  - Description: This is an opportunity for the TA and Account Team to call out risks or blockers and ask for help from other teams or leadership in order to execute the plan successfully.
+
+### Execution
+
+After plan creation, the execute phase of the projects consists of bi-weekly updates from the TA via the Get Well Plan in Vitally which is reviewed by TA leadership.
+
+## Account Health
+
+The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit) offers a repeatable framework for mitigating the risk of low adoption scores by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the [Customer Health Dashboard - Individual Customer](https://sourcegraph.looker.com/dashboards-next/194?Unique+Server+ID=Eventbrite) and mature over time to provide more refined resources to support Customer Engineers.
