@@ -44,7 +44,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Expedite time to value through dedicated and custom user onboarding against customer-defined goals
    </td>
-   <td>FY24 Q2
+   <td>FY24 Q4+
    </td>
   </tr>  
   <tr>
@@ -52,7 +52,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Expert-led, live or remote training designed to upskill dev workflows and abilities 
    </td>
-   <td>FY24 Q2+
+   <td>FY24 Q4+
    </td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Sprint-based execution of development projects which extend Sourcegraph's capabilities through API-based integrations, custom batch specs, and more
    </td>
-   <td>FY24 Q3+
+   <td>FY24 Q4+
    </td>
   </tr>
 </table>
