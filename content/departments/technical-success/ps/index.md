@@ -44,7 +44,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Expedite time to value through dedicated and custom user onboarding against customer-defined goals
    </td>
-   <td>FY24 Q2
+   <td>FY24 Q4+
    </td>
   </tr>  
   <tr>
@@ -52,7 +52,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Expert-led, live or remote training designed to upskill dev workflows and abilities 
    </td>
-   <td>FY24 Q2+
+   <td>FY24 Q4+
    </td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>Sprint-based execution of development projects which extend Sourcegraph's capabilities through API-based integrations, custom batch specs, and more
    </td>
-   <td>FY24 Q3+
+   <td>FY24 Q4+
    </td>
   </tr>
 </table>
@@ -111,8 +111,14 @@ Premium Support Resources:
 
 Sourcegraph account and support teams can communicate with the customer via Slack only if the appropriate Slack services offering has been purchased. The available Slack services are:
 
-- Slack Support - Access to Support Engineering via Slack with better visibility into the Support ticketing process.
-- Slack Account Management - Improved communications with the account team via Slack, with the ability to discuss and distribute account related items, training and enablement resources, new release information, and more.
+- Slack Support - Access to Support Engineering via Slack with better visibility into the Support ticketing process. With Slack Support, support tickets can be created directly from the Slack channel, and the customer will have a direct line to the Support Engineers reviewing their issues.
+- Slack Account Management - Improved communications with the account team via Slack. The following are included with this offering:
+  - Standardized Training and Enablement Materials through Slack, including the ability for users to directly ask questions during their Sourcegraph onboarding
+  - Monthly usage reports sent via Slack (for non airgapped customers)
+  - New release messages and upgrade planning
+  - Direct line to provide product feedback
+
+Also, Commercial Customers (based on our [market segmentation](../../../strategy-goals/strategy/index.md#market-segmentation)) who would not otherwise have a dedicated TA will get one with the purchase of Slack Account Management.
 
 Slack is included with the purchase of various Professional Services packages as follows:
 
