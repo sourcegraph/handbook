@@ -56,7 +56,7 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 
 ## **Enablement Schedule**
 
-- 1x weekly open office hours with the People Team.
+- 1x monthly open office hours with the People Team.
   - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
 - [Writing great reviews](#writing-effective-feedback--self-reviews): example reviews for each category
 - [Writing reviews workshop](https://drive.google.com/file/d/1y0Vx3lzSZRXvteYYJmvmSo64j4QEbVZ5/view?usp=sharing)
