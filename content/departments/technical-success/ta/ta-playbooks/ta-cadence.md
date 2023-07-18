@@ -9,7 +9,7 @@
 - Account teams comms
   - Be a good teammate! Make sure to update your Account Executive, Customer Engineer or SDR with any information that could impact their work, even if it is just a status update.
   - Collaborate with your team on activities that would help the goals you have for customers like feature adoption or upgrading.
-  - Utilize internal customer slack channels to keep internal stakeholders informed of what's going on. This doesn't mean provide a daily update, but daily be thinking about whether or tnot there's relevant happenings that would benefit posting a proactive update in the internal customer channel.
+  - Utilize internal customer slack channels to keep internal stakeholders informed of what's going on. This doesn't mean provide a daily update, be thinking about whether or not there's relevant happenings that would benefit posting a proactive update in the internal customer channel.
 
 ### External
 
@@ -54,7 +54,7 @@
 
 ### Internal
 
-- Account Success PLanning
+- Account Success Planning
   - Review accounts with your manager; this can be done ad-hoc weekly/monthly but make sure that you are maintaining visability into all of your accounts with your manager.
 
 ### External
