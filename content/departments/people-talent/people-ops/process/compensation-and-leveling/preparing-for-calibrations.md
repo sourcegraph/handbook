@@ -11,13 +11,6 @@ Calibration sessions can also help identify areas where additional training or d
 In preparation for your Calibration Session with your People Partner, all Managers are required to complete the following pre-work:
 
 1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting.
-
-- Review writing for the 1H FY24 impact review cycle ends March 31st, 2023.
-- Note: While we don’t force distribution, we anticipate the following distribution on average. Please keep this in mind when writing your reviews.
-  - _20% “Exceeding High Bar” [1:1, 1:2 or 2:1]_
-  - _70% “Meeting High Bar” [2:2s]_
-  - _10% “Not Meeting High Bar” [3:1, 3:2, 2:3, 1:3 or 3:3]_
-
 2. Log into Lattice and use the tag/note function in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes). You can find instructions on how to use the tag/notes section in [this training video](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
 3. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
 4. Review the below resources:
@@ -71,13 +64,12 @@ _Note: The purpose of a performance calibration is not to be adversarial, but to
 
 ### Part 1: Discussion
 
-- Our calibration discussions are an opportunity to focus on aligning on what **Exceeding High Bar** means at Sourcegraph. During calibration, Managers will be asked to highlight _specific instances_ where Teammates demonstrate exceptional performance.
+- Our calibration discussions are an opportunity to focus on aligning on what the rating definitions mean at Sourcegraph. During calibration, Managers will be asked to highlight _specific instances_ where Teammates demonstrate exceptional performance.
 - Of the four required questions on our Manager-to-Direct Report Impact Review, we will focus on two as part of the Manager presentation:
   - How has this Teammate’s **performance** mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
-  - How does this person’s behavior align with our **values**? (Provide 2-3 specific examples).
 - Our conversations will focus specifically on the area(s) in which the Teammate was exceeding our high bar: performance, values, or both.
 - **Managers will be asked to discuss on individuals who report to them and should come prepared to _verbally_ share the following:**
-  - Performance and Values rating
+  - Performance rating
 - 2-3 examples of work that supports the rating (the 2 questions bulleted above are a great source for providing these examples!)
 - Explanation for **why** each example supports the rating
 - Pro Tips:
@@ -85,27 +77,6 @@ _Note: The purpose of a performance calibration is not to be adversarial, but to
   2. When possible, Managers should support their tangible evidence by tying it back to the expectations outlined in the [career framework](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
   3. While not required, we highly encourage Managers to write notes in the [Calibration Roster](https://drive.google.com/drive/folders/1-mezcInNzjWjQ13S-Kog-4r5mqr5Jo1-) in preparation for their calibration presentation (see example below).
 - Each calibration presentation should be sufficiently detailed that peer Managers can make an informed judgment on the score with no first hand knowledge of the work beforehand.
-
-#### Example calibration notes (see doc):
-
-**[Skills and Values Rating]**
-
-**Hermione** is an **IC1 Wizard**. I am rating them a **1 - Exceeding High Bar** in skill and **2 - Meeting High Bar** in values this period.
-
-_(Examples of work that supports the rating)_ Examples of work that exceeded my expectations this period include:
-
-1. **Polyjuice Potion solution on the Chamber of Secrets Project**
-
-   _(Situation:)_ Hermione worked on the Chamber of Secrets project with two IC1 Wizards, Ron and Harry. When she joined the project, the team was blocked trying to figure out how to find the chamber of secrets, and the project was at risk.
-   _(Behavior:)_ Hermione joined the project, came up with the idea of brewing polyjuice potion, researched how to do it, and successfully brewed it autonomously.
-   _(Impact:)_ As a result, the team was able to take the potion, learn the location of the chamber of secrets, and destroy Tom Riddle’s diary successfully, saving the school.
-
-   _(Explanation for why each example supports the rating:)_ This **exceeded my expectations** in **Proficiency** and **Execution** for an **IC1 Wizard** because of the technical complexity and precision required to brew the potion. This potion is not taught until IC3, takes 21 days to prep and one month total to brew, and contains 6 complex components to create. Hermione scoped out all of the requirements to this complex, ambiguously defined task, explained the reasoning and trade-offs behind their technical decisions to the other wizards on the team, created all 6 components, and delivered the potion ahead of schedule, which exceeded my expectations for an IC1.
-
-2. _Additional example (as needed)_
-3. _Additional example (as needed)_
-
-Additional resources: Looking for more guidance on crafting a compelling example? Our [Handbook page on giving great feedback](../giving-feedback.md) using the Situation-Behavior-Impact model is a great place to start.
 
 ### Part 2: Participant expectations
 
