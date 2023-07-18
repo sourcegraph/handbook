@@ -202,7 +202,7 @@ In addition to asking the above questions during the Impact Review process, we a
 
 **Talent Assessment Scale**
 
-![image](https://storage.googleapis.com/sourcegraph-assets/image%20(30).png)
+![image](<https://storage.googleapis.com/sourcegraph-assets/image%20(30).png>)
 
 #### Unless promoted, Teammates should not exceed 15% increases in a given 12-month period.
 
