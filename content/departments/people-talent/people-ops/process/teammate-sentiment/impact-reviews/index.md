@@ -19,9 +19,9 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
 
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
-- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year**
-- Teammates who recieve a 3 are not eligible for a compensation increase.
-- Teammates can also receive a compensation increase if they have fallen below the 75th percentile of their respective compensation band.
+- Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
+- Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
+- Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated.
 
 ### When do impact reviews take place?
 
@@ -56,7 +56,7 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 
 ## **Enablement Schedule**
 
-- 1x weekly open office hours with the People Team.
+- 1x monthly open office hours with the People Team.
   - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
 - [Writing great reviews](#writing-effective-feedback--self-reviews): example reviews for each category
 - [Writing reviews workshop](https://drive.google.com/file/d/1y0Vx3lzSZRXvteYYJmvmSo64j4QEbVZ5/view?usp=sharing)
@@ -83,7 +83,7 @@ Results from the semi-annual impact review process support the growth and develo
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
   - Growth & promotion philosophy
-    - [Leveling guide]
+    - [Leveling guide](../../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#individual-contributor-leveling)
     - [Career development frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
 - [Compensation philosophy](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)
@@ -202,134 +202,9 @@ In addition to asking the above questions during the Impact Review process, we a
 
 **Talent Assessment Scale**
 
-<table>
-  <tr>
-   <td>
-<h4><strong>Rating</strong></h4>
+![image](<https://storage.googleapis.com/sourcegraph-assets/image%20(30).png>)
 
-   </td>
-   <td>
-<h4><strong>Label</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Description</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>% Increase</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Coaching Categories</strong></h4>
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<h4><strong>1</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Distinguished Performance &lt; 5%</strong></h4>
-
-   </td>
-   <td>
-<h4>Role Model status. Performed above and beyond expectations during the review period. Generally recognized in top 5% ranking among peer group and is performing beyond scope of their responsibilities. Potential successor to immediate supervisor.</h4>
-
-   </td>
-   <td>
-<h4><strong>8%</strong></h4>
-
-   </td>
-   <td><strong>Motivate: </strong>focus on ways in which Teammates who are superior performers can continue to strive to model our values and execution in an exceptional way.
-   </td>
-  </tr>
-  <tr>
-   <td>
-<h4><strong>2</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Superior Performance~ 30%</strong></h4>
-
-   </td>
-   <td>
-<h4>Overall excellent performer. An exceptional contributor who exceeded teammates’ expectations  –could be on track for promotion but may need more time in their current role to grow and develop/gain additional exposure.</h4>
-
-   </td>
-   <td>
-<h4><strong>5%</strong></h4>
-
-   </td>
-   <td><strong>Empower: </strong>create opportunities for our highest performing Teammates to step into, or elevate, their leadership presence at Sourcegraph.
-   </td>
-  </tr>
-  <tr>
-   <td>
-<h4><strong>3</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Meets Performance Expectations ~ 50%</strong></h4>
-
-   </td>
-   <td>
-<h4>Consistently performs well,  meeting the high bar for performance expectations. Proactive in acquiring new skills and consistently contributes to the department’s efforts. May not stand out as a rarity among peers but is a valuable member of the team. </h4>
-
-   </td>
-   <td>
-<h4><strong>3%</strong></h4>
-
-   </td>
-   <td><strong>Guide: </strong>foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in role that allow for opportunities to stretch skills, and demonstrate superior performance.
-   </td>
-  </tr>
-  <tr>
-   <td>
-<h4><strong>4</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Partially Meets Performance Expectations ~10%</strong></h4>
-
-   </td>
-   <td>
-<h4> Does not consistently meet performance expectations or lacks responsibility with values or conduct expectations. May appear to lack motivation. Lacks requisite technical skills or knowledge relating to aspects of their role.</h4>
-
-   </td>
-   <td>
-<h4><strong>0%</strong></h4>
-
-   </td>
-   <td>
-<strong>Coaching: </strong> teammates in this category must focus on improvement. They engage in a meaningful way, but may struggle to meet expectations consistently. They work closely with their manager to improve immediately.
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<h4><strong>5</strong></h4>
-
-   </td>
-   <td>
-<h4><strong>Unsuccessful Performance &lt;5%</strong></h4>
-
-   </td>
-   <td>
-<h4>Fails to meet minimum performance or conducts themselves contrary to our values. The performance review may be accompanied by corrective action documentation stating that failure to demonstrate immediate and sustained improvement may result in termination. No merit increase eligibility. </h4>
-
-   </td>
-   <td>
-<h4><strong>0%</strong></h4>
-
-   </td>
-   <td><strong>Immediate PIP: </strong>used for Teammates who do not exemplify our values, and who do not meet performance expectations. These teammates must focus on immediate improvement.
-   </td>
-  </tr>
-</table>
-
-#### **\* **Unless promoted, Teammates cannot exceed 15% increases in a given 12-month period.
+#### Unless promoted, Teammates should not exceed 15% increases in a given 12-month period.
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
@@ -389,7 +264,7 @@ Our Teammates can pursue promotion opportunities in two ways:
 - Through our promotion process to move up their specific Career Framework or Leadership track.
 - By applying and interviewing for open positions that are approved in our headcount plan. This type of promotion may occur outside of a review cycle, but eligibility is determined by prior Impact Assessment.
 
-### What criteria determines promotions?
+### What criteria determine promotions?
 
 The following criteria support promotions:
 
@@ -427,7 +302,7 @@ Q: **How do I know if I'm eligible for an Impact Review**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't received a seperate compensation increase in the past 9-months are eligible for a compensation increase.
+- Teammates who receive a '1' or '2' rating are eligible for a compensation increase. All Teammates who receive a rating of "3" AND haven't received a separate compensation increase in the past 9-months are eligible for a compensation increase.
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
