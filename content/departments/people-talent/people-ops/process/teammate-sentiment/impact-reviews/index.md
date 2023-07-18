@@ -19,9 +19,9 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
 
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
-- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year**
-- Teammates who recieve a 3 are not eligible for a compensation increase.
-- Teammates can also receive a compensation increase if they have fallen below the 75th percentile of their respective compensation band.
+- Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
+- Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
+- Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated.
 
 ### When do impact reviews take place?
 
@@ -389,7 +389,7 @@ Our Teammates can pursue promotion opportunities in two ways:
 - Through our promotion process to move up their specific Career Framework or Leadership track.
 - By applying and interviewing for open positions that are approved in our headcount plan. This type of promotion may occur outside of a review cycle, but eligibility is determined by prior Impact Assessment.
 
-### What criteria determines promotions?
+### What criteria determine promotions?
 
 The following criteria support promotions:
 
@@ -427,7 +427,7 @@ Q: **How do I know if I'm eligible for an Impact Review**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't received a seperate compensation increase in the past 9-months are eligible for a compensation increase.
+- Teammates who receive a '1' or '2' rating are eligible for a compensation increase. All Teammates who receive a rating of "3" AND haven't received a separate compensation increase in the past 9-months are eligible for a compensation increase.
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
