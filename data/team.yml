@@ -60,16 +60,6 @@ eric_fritz:
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/eric-fritz)'
   description: Eric received a PhD in Computer Science from the University of Wisconsin - Milwaukee where he published research on compiler construction and taught courses in compilers and software engineering. Prior to Sourcegraph, Eric built infrastructure for UCaaS products. While not programming, Eric enjoys cooking while muttering Gordon Ramsay deep cuts to himself.
 
-eric_brody-moore:
-  name: Eric Brody-Moore
-  role: Product Marketing Manager
-  reports_to: ceo
-  location: Nashville, TN, USA 🇺🇸
-  github: ebrodymoore
-  email: ericbm@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ericbm/)'
-  description: Eric enjoys golfing, snowboarding and just about anything else outdoors. Prior to Sourcegraph, Eric has worked across strategy & ops, finance and analytics at Drift and Deloitte Consulting.
-
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
   role: Software Engineer
