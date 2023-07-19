@@ -67,13 +67,13 @@ Below is our high-level prioritized roadmap as of FY23Q4:
 
 ## Implementation Services
 
-Overview - Dedicated, paid Implementation Services to design, plan, and provide hands-on assistance for Sourcegraph self-hosted production deployments projects. This service will:
+<strong>Overview</strong> - Dedicated, paid Implementation Services to design, plan, and provide hands-on assistance for Sourcegraph self-hosted production deployments projects. This service will:
 
 - Reduce time-to-value by expediting initial installs and user onboarding, providing direct access to to the environment, and giving advanced technical admin training to our -customers
 - Provide dedicated technical expertise in implementation project management and engineering with deep technical infrastructure knowledge
 - Reduce resource burden on customers installing Sourcegraph through hands-on assistance and expertise
 
-Implementation Services Customer Profiles
+<strong>Implementation Services Customer Profiles</strong>
 
 - Implementation Services will be considered mandatory for the following customers, unless otherwise exempt by the Implementation Team and GTM Leadership:
   - Any organization planning to deploy self-hosted or on-prem with Kubernetes
@@ -82,7 +82,7 @@ Implementation Services Customer Profiles
   - Any organization the pre-sales team feels will be particularly complex or would strategically benefit from the additional support provided by Implementation Services
   - Any organization that does not have the necessary resources or expertise required to successfully implement Sourcegraph
 
-Implementation Services Resources:
+<strong>Implementation Services Resources:</strong>
 
 - [Implementation Services about.sourcegraph.com Page](https://about.sourcegraph.com/terms/implementation-services)
 - [Implementation Services Internal Documentation](https://docs.google.com/document/d/1n02gaGA0Imvy42-8m1NI9AwqiYKmqCMsczycRU7EFO4/edit)
@@ -90,16 +90,16 @@ Implementation Services Resources:
 
 ## Managed Services
 
-Overview - Sourcegraph management of self-hosted customer instances. Use of Managed Services will typically entail badged and/or VPN access for the Sourcegraph team to oversee management of existing customer’s instances. This service will:
+<strong>Overview</strong> - Sourcegraph management of self-hosted customer instances. Use of Managed Services will typically entail badged and/or VPN access for the Sourcegraph team to oversee management of existing customer’s instances. This service will:
 
 - Provide dedicated experts with deep technical and infrastructure knowledge
 - Reduce resource burden by offloading maintenance of self-hosted Sourcegraph instances, providing quarterly instance tuning, and handling ongoing maintenance, upgrades, migration, configuration, and infrastructure related projects
 
-Managed Services Customer Profiles
+<strong>Managed Services Customer Profiles</strong>
 
 - Enterprise and Strategic, self-hosted customers with the ability to grant the necessary acccess to Sourcegraph that would benefit from the hands-on instance support provided by this service.
 
-Managed Services Resources:
+<strong>Managed Services Resources:</strong>
 
 - [Managed Services about.sourcegraph.com Page](https://about.sourcegraph.com/terms/managed-services)
 - [Managed Services Internal Documentation](https://docs.google.com/document/d/1lCxT_D_vpkhKe_VUdkMcQ7pzpmaF-WZ8JYyKbfTYd54/edit)
@@ -107,14 +107,14 @@ Managed Services Resources:
 
 ## Premium Support
 
-Overview - A variety of packages designed to enhance the support experience provided to our customers including:
+<strong>Overview</strong> - A variety of packages designed to enhance the support experience provided to our customers including:
 
 - Priority Support with 24x7 SLAs
 - Dedicated Support Engineers
 - Slack Support
 - Slack Account Management
 
-Premium Support Resources:
+<strong>Premium Support Resources:</strong>
 
 - [Premium Support about.sourcegraph.com Page](https://about.sourcegraph.com/terms/premium-support)
 - [Premium Support Internal Documentation](https://docs.google.com/document/d/17h8TnsDAeEI8wWPa_8rAcx1HPQG6avUQvq6QIc8mmZ4/edit)
