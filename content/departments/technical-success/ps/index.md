@@ -74,6 +74,7 @@ Overview - Dedicated, paid Implementation Services to design, plan, and provide 
 - Reduce resource burden on customers installing Sourcegraph through hands-on assistance and expertise
 
 Implementation Services Customer Profiles
+
 - Implementation Services will be considered mandatory for the following customers, unless otherwise exempt by the Implementation Team and GTM Leadership:
   - Any organization planning to deploy self-hosted or on-prem with Kubernetes
   - Any organization planning to deploy using external (i.e. not built-in) infrastructure/services
@@ -87,7 +88,6 @@ Implementation Services Resources:
 - [Implementation Services Internal Documentation](https://docs.google.com/document/d/1n02gaGA0Imvy42-8m1NI9AwqiYKmqCMsczycRU7EFO4/edit)
 - [Implementation Services Customer-Facing Deck](https://docs.google.com/presentation/d/1GH35JdjCJtgHdgkksuTA9AJh0onN9WJmtxlahS_TJtI/edit#slide=id.g21443514529_0_297)
 
-
 ## Managed Services
 
 Overview - Sourcegraph management of self-hosted customer instances. Use of Managed Services will typically entail badged and/or VPN access for the Sourcegraph team to oversee management of existing customer’s instances. This service will:
@@ -96,6 +96,7 @@ Overview - Sourcegraph management of self-hosted customer instances. Use of Mana
 - Reduce resource burden by offloading maintenance of self-hosted Sourcegraph instances, providing quarterly instance tuning, and handling ongoing maintenance, upgrades, migration, configuration, and infrastructure related projects
 
 Managed Services Customer Profiles
+
 - Enterprise and Strategic, self-hosted customers with the ability to grant the necessary acccess to Sourcegraph that would benefit from the hands-on instance support provided by this service.
 
 Managed Services Resources:
