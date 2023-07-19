@@ -109,7 +109,7 @@ Part of your participation as a CEO Shadow is to create a blog / vlog post about
 
 ### When is your content due?
 
-Your content must be completed by the Friday following the conmpletion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
+Your content must be completed by the Friday following the completion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
 
 ### How is content submitted?
 
