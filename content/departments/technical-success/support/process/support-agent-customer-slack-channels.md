@@ -31,4 +31,4 @@ In order to deliver exceptional customer support, it's important for Sales, Cust
 
 ## Technical Advisors:
 
-Technical Advisors (TAs) and Support Engineers (SEs) collaborate closely in supporting our post-sales customers. If an existing conversation with a customer requires engagement from Support Engineering, please follow the [best practices](https://github.com/sourcegraph/handbook/edit/main/content/departments/technical-success/support/process/support-agent-customer-slack-channels.md#best-practices) for involving SEs to ensure a smooth and effective resolution.
+Technical Advisors (TAs) and Support Engineers (SEs) collaborate closely in supporting our post-sales customers. If an existing conversation with a customer requires engagement from Support Engineering, please follow the [best practices](support-agent-customer-slack-channels/.md#best-practices) for involving SEs to ensure a smooth and effective resolution.
