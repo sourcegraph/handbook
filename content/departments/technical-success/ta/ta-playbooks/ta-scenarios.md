@@ -2,7 +2,9 @@
 
 ## My customer is just now signing with Sourcegraph:
 
-- Complete the New Customer Onboarding and Enablement Project
+- [Knowledge transfer](../team-culture/working-with-customers.md#post-sales-customer-touchpoints) with sales & CE team
+- [Partnership kickoff](../team-culture/working-with-customers.md#post-sales-partnership-kickoff)
+- [Customer onboarding](../team-culture/working-with-customers.md#user-onboarding)
 - Achieve 80% MAU/Seats within 45 days of implementation\*
   - Implementation is expected to be completed within the first few weeks for non-Implementation Engineering involved accounts or Managed Instances.
 
