@@ -25,7 +25,7 @@ In order to deliver exceptional customer support, it's important for Sales, Cust
 
 **Trial Customers:** To create tickets for trial customers, use the ❓ emoji in Slack or send an email to trialsupport@sourcegraph.com. This will notify our Customer Engineering team about any issues or questions from trial customers.
 
-**Post-sale Customers:** For post-sales customers, tickets can be created using the 🎟️ emoji in Slack, sending an email to support@sourcegraph.com, or directly creating a ticket in Zendesk. In some cases, tickets originating from trial support may require additional guidance from our Support Engineers. In such cases, the Customer Engineering (CE) team should create a post in #discuss-customer-support to request a Support Engineer (SE) to take ownership of the ticket. Once the SE has confirmed, the CE can transfer ticket ownership from themselves to the appropriate SE.
+**Post-sales Customers:** For post-sales customers, tickets can be created using the 🎟️ emoji in Slack, sending an email to support@sourcegraph.com, or directly creating a ticket in Zendesk. In some cases, tickets originating from trial support may require additional guidance from our Support Engineers. In such cases, the Customer Engineering (CE) team should create a post in #discuss-customer-support to request a Support Engineer (SE) to take ownership of the ticket. Once the SE has confirmed, the CE can transfer ticket ownership from themselves to the appropriate SE.
 
 ## Technical Advisors:
 
