@@ -1,4 +1,4 @@
-# TA Cadences 
+# TA Cadences
 
 ## Daily
 
