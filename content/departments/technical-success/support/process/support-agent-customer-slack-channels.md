@@ -17,6 +17,8 @@ We provide support to Enterprise customers through Slack Channels and email at s
 
 3. **Customers without Slack Agent:** If you need help for a customer who doesn't have our Slack agent installed, please create a ticket for them using the steps mentioned above. Alternatively, you can have the customer reach out to us directly via support@sourcegraph.com.
 
+> NOTE: If you do not have Light Agent access in Zendesk an account can be requested via #ask-it-tech-ops.
+
 ### Other Teams and Support Engineering
 
 In order to deliver exceptional customer support, it's important for Sales, Customer Engineering, and Technical Advisors to establish effective interactions with Support Engineering to best support our customers.
