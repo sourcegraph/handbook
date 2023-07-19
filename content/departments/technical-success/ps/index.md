@@ -5,7 +5,7 @@ We have introduced a variety of Professional Service offerings for our Enterpris
 For services-specific documentation and resources, see below.
 For high-level Professional Services documentation, see:
 
-- [Professional Services Exhibit](https://about.sourcegraph.com/terms/professional-services).
+- [Professional Services Exhibit](https://about.sourcegraph.com/terms/professional-services)
 - [Professional Services Enablement Deck](https://docs.google.com/presentation/d/14q5VSRiB8Y31ihxNtkqHmE_eN3Me3kfcUiLZSNB5zSI/edit#slide=id.g242d0bbe59f_0_18)
 - [Professional Services One-Pager](https://about.sourcegraph.com/guides/professional-services-offerings.pdf)
 - [Professional Services Highspot](https://sourcegraph.highspot.com/spots/624474ec6dd9f4a6da405eb0?list=646d09a00e5e4628e9dc8217&overview=false)
@@ -73,11 +73,20 @@ Overview - Dedicated, paid Implementation Services to design, plan, and provide 
 - Provide dedicated technical expertise in implementation project management and engineering with deep technical infrastructure knowledge
 - Reduce resource burden on customers installing Sourcegraph through hands-on assistance and expertise
 
+Implementation Services Customer Profiles
+- Implementation Services will be considered mandatory for the following customers, unless otherwise exempt by the Implementation Team and GTM Leadership:
+  - Any organization planning to deploy self-hosted or on-prem with Kubernetes
+  - Any organization planning to deploy using external (i.e. not built-in) infrastructure/services
+- Implementation Services is also good for:
+  - Any organization the pre-sales team feels will be particularly complex or would strategically benefit from the additional support provided by Implementation Services
+  - Any organization that does not have the necessary resources or expertise required to successfully implement Sourcegraph
+
 Implementation Services Resources:
 
 - [Implementation Services about.sourcegraph.com Page](https://about.sourcegraph.com/terms/implementation-services)
 - [Implementation Services Internal Documentation](https://docs.google.com/document/d/1n02gaGA0Imvy42-8m1NI9AwqiYKmqCMsczycRU7EFO4/edit)
 - [Implementation Services Customer-Facing Deck](https://docs.google.com/presentation/d/1GH35JdjCJtgHdgkksuTA9AJh0onN9WJmtxlahS_TJtI/edit#slide=id.g21443514529_0_297)
+
 
 ## Managed Services
 
@@ -85,6 +94,9 @@ Overview - Sourcegraph management of self-hosted customer instances. Use of Mana
 
 - Provide dedicated experts with deep technical and infrastructure knowledge
 - Reduce resource burden by offloading maintenance of self-hosted Sourcegraph instances, providing quarterly instance tuning, and handling ongoing maintenance, upgrades, migration, configuration, and infrastructure related projects
+
+Managed Services Customer Profiles
+- Enterprise and Strategic, self-hosted customers with the ability to grant the necessary acccess to Sourcegraph that would benefit from the hands-on instance support provided by this service.
 
 Managed Services Resources:
 
