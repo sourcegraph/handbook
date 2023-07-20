@@ -84,7 +84,7 @@ If all is well, approve and merge each instance upgrade:
 cat upgrade-prs.txt | xargs -n1 gh pr review --approve
 
 # Merge each PR
-cat upgrade-prs.txt | xargs -n1 gh pr merge --squash
+cat upgrade-prs.txt | xargs -n1 gh pr merge --squash --auto
 ```
 
 Finally, update the tracking issue.
