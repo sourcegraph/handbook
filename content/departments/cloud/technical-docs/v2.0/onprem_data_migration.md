@@ -227,6 +227,7 @@ Then, connect to the database as the admin user:
 
 ```sh
 # Extract the database
+cd terraform/stacks/sql && terraform init && cd -
 export INSTANCE_ADMIN_PASSWORD="$(cd terraform/stacks/sql && terraform output -json | jq -r '.sql_crossstackoutputgooglesqlusersqlsqladminuserCE5B87EApassword_209B7378.value')"
 # Connect to database
 psql postgres://sourcegraph-admin:"$INSTANCE_ADMIN_PASSWORD"@localhost:5433/postgres
@@ -287,8 +288,10 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
 Set up SOAP configuration:
 
 ```sh
-mi2 instance check -enforce soap
+mi2 instance check -enforce -force-apply soap
 ```
+
+The instance will need `externalURL` set to the instance domain for SOAP to work - follow [this guide](https://docs.sourcegraph.com/admin/config/site_config#editing-your-site-configuration-if-you-cannot-access-the-web-ui) to directly edit the instance's site configuration.
 
 Request Entitle access to log in to the UI and log in to the instance.
 Create the Sourcegraph service account manually:
@@ -298,6 +301,8 @@ Create the Sourcegraph service account manually:
 - Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**.
 
 <!-- Automated version: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33 -->
+
+Then **delete** the `SOURCEGRAPH_ADMIN_TOKEN` GSM secret in the Cloud V2 instance project, as it is no longer valid.
 
 Enforce all invariants, now that the service account has been set up:
 
@@ -310,6 +315,8 @@ Run an acceptance test using the downloaded `summary.json` from the snapshot buc
 
 ```sh
 src login # to the instance
+export SRC_ACCESS_TOKEN=$(gcloud secrets versions access --project=$TARGET_INSTANCE_PROJECT --secret=SOURCEGRAPH_ADMIN_TOKEN latest)
+export SRC_ENDPOINT="..." # set to instance URL
 src snapshot test -snapshot-summary="./summary.json"
 ```
 
