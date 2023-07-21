@@ -262,7 +262,7 @@ jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
   role: Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   location: Seattle, WA, USA 🇺🇸
   github: justdueck
   email: jonah@sourcegraph.com
@@ -310,7 +310,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Principal Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -496,7 +496,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -908,7 +908,7 @@ andrew_hsu:
   name: Andrew Hsu
   pronouns: he/him
   role: Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   location: Los Angeles, California, United States 🇺🇸
   github: superhsu
   email: andrew.hsu@sourcegraph.com
@@ -1048,7 +1048,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   location: Whitefish, MT
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -1060,7 +1060,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -1297,8 +1297,8 @@ andrew_norrish:
   email: andrew.norrish@sourcegraph.com
   github: anorrish
   pronouns: he/him
-  role: Senior Implementation Project Manager
-  reports_to: vp_technical_success
+  role: GTM Technical Project Manager
+  reports_to: dr_ce_ie
   location: Denver, CO, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
   description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
@@ -1680,7 +1680,7 @@ chris_concannon:
   pronouns: he/him/his
   location: San Francisco, CA, USA 🇺🇸
   role: Senior Customer Engineer
-  reports_to: rd_ce_us_apj
+  reports_to: dr_ce_ie
   email: chris.concannon@sourcegraph.com
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
@@ -1813,7 +1813,7 @@ louis_jarvis:
   github: loujar
   pronouns: he/him
   role: Implementation Lead
-  reports_to: vp_technical_success
+  reports_to: dr_ce_ie
   location: Wailuku, HI, USA 🇺🇸
   description: Louis loves working with companies to help them realize the greatest business value out of the software solutions they adopt. When not in front of a computer, Louis likes to spend his free time out on the water surfing, kiteboarding, or wing foiling.
 
@@ -1958,9 +1958,9 @@ nikki_golding:
   email: Nikki.Golding@sourcegraph.com
   github: NikkiGolding
   pronouns: she/her
-  role: Regional Director, Customer Engineering
+  role: Director, Customer & Implementation Engineering
   reports_to: vp_technical_success
-  manager_role_slug: rd_ce_us_apj
+  manager_role_slug: dr_ce_ie
   location: Ponte Vedra Beach,Fl USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/nikki-golding/)'
   description: Nikki loves all things outdoors, is a self-proclaimed music nerd,  has the best mut named Humphrey, two amazing kiddos who challenge her on the daily and one day hopes to be a Dive Master and prof Yogi.
