@@ -317,7 +317,7 @@ Run an acceptance test using the downloaded `summary.json` from the snapshot buc
 src login # to the instance
 export SRC_ACCESS_TOKEN=$(gcloud secrets versions access --project=$TARGET_INSTANCE_PROJECT --secret=SOURCEGRAPH_ADMIN_TOKEN latest)
 export SRC_ENDPOINT="..." # set to instance URL
-src snapshot test -sumary-path="./summary.json"
+src snapshot test -summary-path="./summary.json"
 ```
 
 Remove the migration notice that was added previously.
