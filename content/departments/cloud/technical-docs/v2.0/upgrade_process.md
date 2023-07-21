@@ -35,25 +35,25 @@ Using `mi2` you can generate commands to trigger automated upgrades for all inst
 for internal instances:
 
 ```sh
-mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
+mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "internal" and .spec.sourcegraphVersion != "'$TARGET_VERSION'" and .spec.releaseChannel != "insiders" and .spec.releaseChannel != "pause"' -format text upgrade-instance
 ```
 
 for production instances:
 
 ```sh
-mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
+mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "production" and .spec.sourcegraphVersion != "'$TARGET_VERSION'" and .spec.releaseChannel != "insiders" and .spec.releaseChannel != "pause"' -format text upgrade-instance
 ```
 
 for trial instances:
 
 ```sh
-mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
+mi2 env workflow run -e prod -filter '.metadata.labels."instance-type" == "trial" and .spec.sourcegraphVersion != "'$TARGET_VERSION'" and .spec.releaseChannel != "insiders" and .spec.releaseChannel != "pause"' -format text upgrade-instance
 ```
 
 all instances
 
 ```sh
-mi2 env workflow run -e prod -filter '.spec.sourcegraphVersion != "'$TARGET_VERSION'"' -format text upgrade-instance
+mi2 env workflow run -e prod -filter '.spec.sourcegraphVersion != "'$TARGET_VERSION'" and .spec.releaseChannel != "insiders" and .spec.releaseChannel != "pause"' -format text upgrade-instance
 ```
 
 This automated workflow will generate a pull request for each instance to represent the upgrade that:
