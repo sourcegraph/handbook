@@ -138,7 +138,7 @@ In some cases, tickets originating from trial support may require additional gui
 
 To transfer the ticket from Slack, select `...` under the `Home` tab in Support Agent, select transfer, and select the appropriate Support Engineer (SE)
 
-Before transferring a ticket to support please ensure that you include the following information as an internal note: 
+Before transferring a ticket to support please ensure that you include the following information as an internal note:
 
 - Customer details
 - Link to the specific issue
@@ -147,10 +147,10 @@ Before transferring a ticket to support please ensure that you include the follo
 - Any time considerations and their significance
 - Any additional relevant information that can assist u
 
-Ways to add these internal notes: 
+Ways to add these internal notes:
 
-- **Slack:** In Support Agent, under `home` > `Your current chats` > select the dropdown `Options`, and `Add Ticket Notes` 
+- **Slack:** In Support Agent, under `home` > `Your current chats` > select the dropdown `Options`, and `Add Ticket Notes`
 
 - **Zendesk:** In Zendesk, in the view `Trial Customers`, you can select your existing ticket, `Apply Macro`, select `Customer Support Ticket Request`, and add the internal notes.
 
-Check out our [best practices](https://handbook.sourcegraph.com/departments/technical-success/support/process/support-agent-customer-slack-channels/#best-practices) to learn more about how to enagage with support, to create a postive customer experiance! 
+Check out our [best practices](https://handbook.sourcegraph.com/departments/technical-success/support/process/support-agent-customer-slack-channels/#best-practices) to learn more about how to enagage with support, to create a postive customer experiance!
