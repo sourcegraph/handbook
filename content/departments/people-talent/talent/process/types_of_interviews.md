@@ -620,6 +620,52 @@ This interview will include a PM and designer from our team who have been focusi
 - Duration: 30 min
 - Details: In this interview, you will meet with the Engineering Manager from the team you’re interviewing for, your counterpart in the PM-EM responsibilities. We will be evaluating how you collaborate and work within a team, specifically how you partner with Engineering to drive the product vision of your team. We will focus on your technical background, as you will need to be able to discuss the technical aspects of our product with customers and communicate feedback and technical insight to the team. It is important that you demonstrate enthusiasm and understanding for the product and problem space, identifying and communicating the pain that Sourcegraph solves for developers.
 
+### Product Marketing 
+
+#### Product Marketing Working Session
+
+The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the PMM role and goals. This is not meant to be stressful or require excessive preparation.
+
+For this session, we will walk through the process of planning a product launch together. In advance of this session, we ask that you:
+
+* **Consider the product launch prompt and gather ideas for how you would plan this launch.**
+* **Bring a document with those ideas for launch activities. We will use this as a working document throughout the session.**
+
+**The Product** 
+
+Today, Sourcegraph offers 2 products, each with separate SKUs: 
+
+* Code Search, a tool for finding and fixing code across an enterprise-scale codebase.
+* Cody, a powerful AI coding assistant to help engineers write & fix code quickly.
+
+Today, one barrier to user adoption for the Code Search product is it’s query language, which can be difficult to learn. Next quarter, Sourcegraph will release a new feature as part of the Code Search product: **natural language search**. This will allow users to search their codebase with human language queries (e.g. “Where is log4j v2.0 used across my codebase?”). 
+
+Pricing is still being determined for this new feature. It is possible it will be an upsell for existing Code Search buyers, but we’re also open to including it as part of the base Code Search SKU at no charge.
+
+**Launch preparation**
+
+Imagine you’re the PMM supporting the natural language search. What would your launch plan look like and what would you need to be successful? Please prepare a document with:
+
+1. A proposal for messaging to use for this launch (a short 2-3 sentence elevator pitch for the feature is ideal).
+2. A list of launch activities you would like to plan for this launch.
+3. Your general plan for sales enablement to make this launch successful.
+4. Thoughts on anything else you will need to be successful in this launch.
+
+Some things to consider: 
+
+* What, if any, top-of-funnel activities would you prioritize to reach the dev community?
+* What, if any, activities would you plan to reach existing customers?
+* How might sales enablement look different depending on whether this feature is free or not?
+* What other resources, cross-collaboration, tools, etc. do you need to be successful? 
+
+As a reference point, we recently had a product launch in June (Sourcegraph 5.1). The launch included updates to both Code Search and Cody. Here are some materials from that launch: 
+
+* [Cody June 2023 release: Better codegen, more recipes, more context, more editors](https://about.sourcegraph.com/blog/cody-in-sourcegraph-5-1)
+* [Sourcegraph 5.1 release](https://about.sourcegraph.com/blog/release/5.1)
+* [Cody 5.1 release video](https://youtu.be/o5eB8J2HvAk) 
+
+Please don't go overboard on preparation, plans, or detail. A simple Google Doc outline is ideal, and we will use that to go through your ideas together. We intend this to be a casual back and forth conversation, not a formal presentation. Also, feel free to make any assumptions about the hypothetical product and include them in your document. 
+
 ## Design
 
 ### Product Designer
