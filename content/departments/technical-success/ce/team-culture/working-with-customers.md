@@ -137,7 +137,6 @@ To manage the chat status and effectively organize your workflow, follow these s
 In some cases, tickets originating from trial support may require additional guidance from our Support Engineers. In such cases, the Customer Engineering (CE) team should create a post in #discuss-customer-support to request a Support Engineer (SE) to take ownership of the ticket. Once the SE has confirmed, the CE can transfer ticket ownership from themselves to the appropriate Support Engineer (SE).
 -To transfer the ticket from Slack, select `...` under the `Home` tab in Support Agent, select transfer, and select the appropriate Support Engineer (SE)
 
-
 Before transferring a ticket to support please ensure that you include the following information as an internal note:
 
 - Customer details
