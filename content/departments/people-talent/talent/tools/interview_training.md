@@ -48,7 +48,7 @@ In interviewing, the question becomes: how do we prevent bias from impacting our
 
 Research has shown, time and time again, that establishing a consistent set of interview questions and a structured process not only helps us hire people that are going to be more successful in the role, but it actually speeds up the process in which we can make a hiring decision. Building a structured interview plan aligns us on what we're looking for early on, allowing us to make a decision and push candidates through the process faster.
 
-All of our questions are written in a behavioral-based, open-ended format, and **all candidates are asked the exact same questions**. The best way to create an open ended question is to just put, “tell me” in front of every single question you ask. For example, “tell me a time when, tell me how, or tell me why.” It is important to ensure they’re behavioral based questions that are specific about past experiences. This helps us predict future behavior. At Sourcegraph, we should try to avoid any hypothetical questions.
+All of our questions are written in a behavioral-based, open-ended format, and **all candidates are asked the exact same questions**. Interviewers can access the questions in Greenhouse as well as Brighthire. The best way to create an open ended question is to just put, “tell me” in front of every single question you ask. For example, “tell me a time when, tell me how, or tell me why.” It is important to ensure they’re behavioral based questions that are specific about past experiences. This helps us predict future behavior. At Sourcegraph, we should try to avoid any hypothetical questions.
 
 All teammates at Sourcegraph leverage a recording tool called Brighthire to standardize our process and reduce bias. [This video](https://www.loom.com/share/8be5ba749fc045faafd577998bdeabf7) explains the benefits of BrightHire. We believe that candidates should be assessed based on their merits, not our memories. BrightHire allows us to recall key details, revise initial impressions, and replace implicit bias with explicit evidence. BrightHire rides along in your phone and Zoom interviews with an interactive notepad. All you need is the Chrome extension and Zoom and you’re all set. It allows us to pull all of those structured questions that our hiring manager created right into your Zoom meeting.
 
@@ -109,7 +109,7 @@ When you get scheduled for any interview, you are going to receive a calendar in
 
 How to prepare for your interview:
 
-- Click on the Greenhouse scorecard in the notes section of your calendar invite. Here, you can review:
+- Review the following information by clicking on the Greenhouse scorecard in the notes section of your calendar invite.
   - The candidate's resume
   - The interview prep section, including the job description
   - The scorecard, containing the structured interview questions that you will ask during the interview
