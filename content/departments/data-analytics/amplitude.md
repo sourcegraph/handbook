@@ -1,5 +1,6 @@
 # Amplitude
-NOTE: we are currenlty only sending `dotcom_events.events` data to Amplitude and are not supporting our Managed Instance event-level data pipeline to Amplitude. This will change after August 31th, 2023 once we've decided to either continue using Amplitude or another alternative. 
+
+NOTE: we are currenlty only sending `dotcom_events.events` data to Amplitude and are not supporting our Managed Instance event-level data pipeline to Amplitude. This will change after August 31th, 2023 once we've decided to either continue using Amplitude or another alternative.
 
 ## How do I get started?
 
@@ -47,6 +48,7 @@ Any analysis we conducted in Looker before we started using Amplitude we can con
 Usage events are filtered by an allowlist for egress which is documented [here](https://docs.sourcegraph.com/dev/background-information/data-usage-pipeline).
 
 ### Adding events to Amplitude
+
 WIP
 
 ## Using Amplitude FAQs
