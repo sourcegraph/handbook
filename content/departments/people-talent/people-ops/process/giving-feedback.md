@@ -295,7 +295,8 @@ Gathering feedback from a manager's direct reports is important in the performan
 <p>
 Please provide specific examples in the comment field that support if and how your manager enabled your success over the past review period.
 
-Where did they excel? Where do they need improvement? 
+Where did they excel? Where do they need improvement?
+
 <p>
 <em>* Note: Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.</em>
    </td>
