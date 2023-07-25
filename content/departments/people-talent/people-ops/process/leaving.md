@@ -110,7 +110,7 @@ The exit interview is broken into two steps:
 
 #### How long do I have to exercise vested options?
 
-- See [here](../../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph) for further details.
+- Equity/options details can be found [here](../../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph). If the departing teammate is a full-time US-based teammate who has vested incentive stock options (ISOs) and joined Sourcegraph before May 14, 2021, see additional options FAQs [here](https://docs.google.com/document/d/1H_OlUxebnCgGCjXOtEUlw1Ol6pshwGzu2Pjli-HEhpk/edit).
 
 #### When will my system access be removed?
 
