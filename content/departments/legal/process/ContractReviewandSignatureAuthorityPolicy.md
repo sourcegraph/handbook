@@ -330,7 +330,7 @@ If the Vendor is providing us services (not software), use our template. If the 
 We have three main templates for Vendor services contracts:
 
 1. [Services contract - no SOW exhibits](https://docs.google.com/document/d/1hNb-Pern62UtpLrRQKwsittrzfixZDAY/edit?usp=drive_link&ouid=102587480642964455412&rtpof=true&sd=true) - use this form if the Vendor has already prepared a separate SOW with payment amounts and due dates.
-2. [Services contract - with SOW exhibits]([https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view](https://docs.google.com/document/d/1zUWHUOXgFeb1aNFZGMMJ5xq7GQRcappy/edit?usp=drive_link&ouid=102587480642964455412&rtpof=true&sd=true)) - use this form if you don’t have a separate SOW with payment amounts or due dates.
+2. [Services contract - with SOW exhibits](<[https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view](https://docs.google.com/document/d/1zUWHUOXgFeb1aNFZGMMJ5xq7GQRcappy/edit?usp=drive_link&ouid=102587480642964455412&rtpof=true&sd=true)>) - use this form if you don’t have a separate SOW with payment amounts or due dates.
 3. [Services contract for individuals - with SOW exhibits](https://docs.google.com/document/d/119quszd5YMjavuW_pocIIrOOD3SI_9DL/edit?usp=drive_link&ouid=102587480642964455412&rtpof=true&sd=true) - use this form to directly engage a consultant or contractor on a short-term, part-time basis (temporary contractors).
 
 For software (including SaaS) contracts, ask the Vendor for their template.
