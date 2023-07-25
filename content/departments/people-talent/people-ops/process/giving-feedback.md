@@ -121,7 +121,7 @@ Feedback from teammates we work closely with is some of the most valuable we wil
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> This teammate consistently delivers quality work in line with their role/level.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
+   <td><strong>Performance:</strong> In the past 6-months, this teammate consistently delivers quality work in line with the expectations of their role/level/values. Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period.
@@ -129,7 +129,7 @@ Please provide specific examples in the comment field that supports how this Tea
 <p>
 <em>* Note: Response is only visible to this teammate’s Manager.</em>
    </td>
-   <td>[Teammate name] consistently delivers quality work that aligns with their role.  Below are some examples that help explain why I rated them as a _____.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
+   <td>[Teammate name] consistently delivers quality work that aligns with their role.  Below are some examples that help explain why I rated them as a _____.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <ul>
 
 Example 1
@@ -148,60 +148,7 @@ Example 2
    </td>
   </tr>
   <tr>
-   <td><strong>Values: </strong>This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  
-<p>
-
-Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-
-<p>
-<em>* Note: Response is only visible to teammates Manager.</em>
-   </td>
-   <td>[Teammate name] consistently embodies our company values, specifically [insert value] and [insert value]: 
-<ul>
-
-[Insert value]
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-[Insert value]
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Growth Opportunities:</strong> This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<p>
-
-Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
-
-<p>
-<em>* Note: Response is only visible to this teammates Manager.</em>
-   </td>
-   <td>I [insert Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] that [Teammate name] has showcased the expected domain knowledge, skills, and execution in alignment with their role/level.
-
-<p>
-To amplify performance in the next 6-moths: 
-<ul>
-
-<li><strong>Start:</strong> [teammate name] should [insert specific actions or behaviors that this teammate should start to become stronger].
-
-<li><strong>Stop</strong>: we all have areas for improvement, and I believe [teammate name] will be even more impactful if they stop doing [insert what you would like them to stop doing to become more impactful].  The reason I believe they should stop doing [insert what you mentioned above] is because [insert the reason for he feedback].
-
-<li><strong>Continue:</strong> finally, I believe it would be valuable for [teammate name] to [insert specific action(s)], as this has been impactful in the past.
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Goal Setting</strong>: How can this teammate better support you over the next 6 months?  
+   <td><strong>Goal Setting</strong>: How can this teammate better support you, your team, and the company over the next 6 months? 
 <p>
 
 <em>\* Note: Response is visible to this teammate.</em>
@@ -253,16 +200,15 @@ Once all reviews are written and the manager has gone through the [calibration p
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar] 
+   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate this teammate’s performance against the expectations of their role, level and our values. In 2-3 sentences, please provide justification for selected performance rating. Additionally, Where did they excel? Where do they need improvement? [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
 
-   </td>
-   <td>9-box performance score = ____.  <em> [Please leverage<a href=teammate-sentiment/impact-reviews/index.md#the-talent-assessment-using-the-9-box> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
 <p>
-
-Over the past 6-months, [Teammate name] has [exceeded high bar, met high bar, or did not meet high bar]. Here are some examples that justify this performance rating:
+  
+  </td>
+   <td>Over the past 6-months, [Teammate name] has shown [Distinguished Performance, Superior Performance, Met Performance Expectations, Partially Successful Performance, Unsuccessful Performance]. Here are some examples that justify this performance rating:
 
 <ul>
 Example 1
@@ -292,97 +238,6 @@ Below is what your peers said about your performance:
 <li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
 
 <li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Values: </strong>What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar]  
-<p>
-
-Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-
-<p>
-   </td>
-   <td>[Teammate name] consistently embodies our company values, specifically [insert value] and [insert value]: 
-<ul>
-
-Value 1
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value] 
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-Value 2
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value] 
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-<p>
-—-------------------- 
-<p>
-Below is what your peers said about your values alignment: 
-<ul>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Growth Opportunities:</strong> This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<p>
-
-Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
-
-   </td>
-   <td>[Teammate name] has demonstrated a [strong, average, or below average] understanding of their role and the required domain knowledge/skills. Below are examples that justify why I rated them a: ____  [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<ul>
-
-Example 1
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
-<li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
-<li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
-
-Example 2
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
-<li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
-<li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
-
-<p>
-To amplify performance in the next 6-moths: 
-<ul>
-
-<li><strong>Start:</strong> [teammate name] should [insert specific actions or behaviors that this teammate should start to become better].
-
-<li><strong>Stop</strong>: we all have areas for improvement, and I believe [teammate name] will be even more impactful if they stop doing [insert what you would like them to stop doing to become more impactful].  The reason I believe they should stop doing [insert what you mentioned above] is because [insert the reason for the feedback].
-
-<li><strong>Continue:</strong> finally, I believe it would be valuable for [teammate name name] to continue to [insert specific action(s)], as this has been impactful in the past [explain why this behavior is helpful / impactful and provide positive reinforcement].
-
-<p>
-—-------------------- 
-<p>
-Below is what your peers said about you: 
-<ul>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-</li>
-</ul>
 </li>
 </ul>
 </li>
