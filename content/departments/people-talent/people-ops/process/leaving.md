@@ -117,7 +117,7 @@ The exit interview is broken into two steps:
   - If Sourcegraph decides to extend your post-termination exercise period (PTEP) to the maximum limit of 10 years after the initial grant date, you will receive a Docusign from Sourcegraph to the personal email address we have on file for you within 2 months of your last day of employment.
   - Once you sign the PTEP agreement, your ISOs immediately convert to NSOs.
   - You do not need to do anything to receive a 10-year PTEP. You do not need to ask anyone for it. Nor do we make upfront guarantees of extending PTEP. Due to US tax regulations of ISOs, Sourcegraph must maintain full discretion to extend your PTEP.
-  - If you don’t hear from Sourcegraph within 2 months of your last day of employment, feel free to reach out to the People team at people@sourcegraph.com. 
+  - If you don’t hear from Sourcegraph within 2 months of your last day of employment, feel free to reach out to the People team at people@sourcegraph.com.
 
 #### When will my system access be removed?
 
