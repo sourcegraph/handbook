@@ -140,14 +140,6 @@ Contract management should include:
 - Ensuring the key terms (price, term, owner) are stored in the contract register (discussed below)
 - Processing invoices for payment on a timely basis in line with agreed provisions in the contract
 
-##### Supplier Folder & Vendr
-
-Once a vendor agreement is signed, please create a new folder for the vendor in the [Suppliers drive](https://drive.google.com/drive/u/0/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) and upload the agreement.
-
-For SaaS vendor contracts greater than $5,000, we utilize Vendr as a contract management tool. Please refer to our [Vendr](../../tech-ops/tools/Vendr/index.md) guide which covers topics including: background, platform offerings, how-to-steps, etc. For any questions on Vendr, please reach out to TechOps via email (techops@sourcegraph.com) or Slack (#it-tech-ops).
-
-Furthermore, the Sourcegraph Finance department will maintain a contract register to record expenditures valued at greater than $10,000 (annualized amount).
-
 ##### Logo Rights or Case Study
 
 Must be approved by the business champion and marketing.
