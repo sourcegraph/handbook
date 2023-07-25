@@ -110,12 +110,6 @@ Please see below the responsibilities of a system/relationship owner:
 - Produce usage guidance for tool to users (please reach out to compliance about security and compliance guidance on usage)
 - Help provide/extract data from vendor when requested (for instance compliance reasons (evidence), security reviews, and other data collection efforts)
 
-### Procurement Partner
-
-You are encouraged to use our procurement partner Vendr to secure advantageous pricing when negotiating with vendors and help with certain commercial aspects. More information on when to engage Vendr and what type of support they offer can be found [here](../tools/Vendr/index.md).
-
-**However, using Vendr for vendor procurements does NOT replace our internal vendor request processes. Please make sure to raise a Vendor Request for any vendor engagements through the process described here.**
-
 ### Due Diligence
 
 Once a vendor request is submitted, we perform a set of reviews depending on the sensitivity of the data shared with the third party.
