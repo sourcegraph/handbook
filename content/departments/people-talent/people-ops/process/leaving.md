@@ -110,7 +110,14 @@ The exit interview is broken into two steps:
 
 #### How long do I have to exercise vested options?
 
-- Equity/options details can be found [here](../../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph). If the departing teammate is a full-time US-based teammate who has vested incentive stock options (ISOs) and joined Sourcegraph before May 14, 2021, see additional options FAQs [here](https://docs.google.com/document/d/1H_OlUxebnCgGCjXOtEUlw1Ol6pshwGzu2Pjli-HEhpk/edit).
+- Equity/options details can be found [here](../../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph).
+
+- For full-time US-based teammates who have vested incentive stock options (ISOs) and joined Sourcegraph before May 14, 2021:
+  - You have 3 months after your last day of employment to exercise your ISOs.
+  - If Sourcegraph decides to extend your post-termination exercise period (PTEP) to the maximum limit of 10 years after the initial grant date, you will receive a Docusign from Sourcegraph to the personal email address we have on file for you within 2 months of your last day of employment.
+  - Once you sign the PTEP agreement, your ISOs immediately convert to NSOs.
+  - You do not need to do anything to receive a 10-year PTEP. You do not need to ask anyone for it. Nor do we make upfront guarantees of extending PTEP. Due to US tax regulations of ISOs, Sourcegraph must maintain full discretion to extend your PTEP.
+  - If you don’t hear from Sourcegraph within 2 months of your last day of employment, feel free to reach out to the People team at people@sourcegraph.com.
 
 #### When will my system access be removed?
 
