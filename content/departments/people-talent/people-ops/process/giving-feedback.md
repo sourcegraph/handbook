@@ -291,13 +291,15 @@ Gathering feedback from a manager's direct reports is important in the performan
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period. [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
-Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period. 
+Please provide specific examples in the comment field that support if and how your manager enabled your success over the past review period.
+
+Where did they excel? Where do they need improvement? 
 <p>
 <em>* Note: Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.</em>
    </td>
-   <td>Over the past 6-months, my manager has helped me be successful in my role in the following ways: 
+   <td>Over the past 6-months, my manager has enabled me to do my best work in the following ways: 
 <ul>
 
 Example 1
