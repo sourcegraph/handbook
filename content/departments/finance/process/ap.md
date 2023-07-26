@@ -146,7 +146,7 @@ Must be approved by the business champion and marketing.
 
 ##### Contract Renewals
 
-For SaaS vendor contracts greater than $5,000, we utilize Vendr as a renewal management tool. For all other contracts, designated buyers (employees who are responsible for the spend) should monitor contract end dates or renewal dates to ensure that:
+For all  contracts, designated buyers (employees who are responsible for the spend) should monitor contract end dates or renewal dates to ensure that:
 
 - Renegotiations can commence in a timely manner, in advance of cessation or renewal
 - Sourcegraph employees can go to market to request additional quotes from alternative suppliers (if required)
