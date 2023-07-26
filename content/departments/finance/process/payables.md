@@ -10,7 +10,7 @@ Vacation or Out of Office Mode: Allow approvers to set up an approval delegate f
 
 ## Guided Procurement (fka Vendor Setup)
 
-In order for us to be able to evaluate, maintain and monitor vendor relationships to reduce risks, we require everyone to use Airbase when dealing with a vendor engagement. Specific directions on engagement a new vendor, renewal, or simply submitting for a PO for an existing vendor an be found on the Sourcegraph Procurement Policy [page](https://handbook.sourcegraph.com/departments/finance/process/ap/)
+In order for us to be able to evaluate, maintain and monitor vendor relationships to reduce risks, we require everyone to use Airbase when dealing with a vendor engagement. Specific directions on engagement a new vendor, renewal, or simply submitting for a PO for an existing vendor an be found on the Sourcegraph Procurement Policy [page](https://handbook.sourcegraph.com/departments/finance/process/ap.md)
 
 ## Airbase Limits
 
