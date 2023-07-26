@@ -16,7 +16,7 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 
 ### Who is eligible for a review / compensation increase?
 
-To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
+To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of at least “2”. Teammates who receive a “3" AND haven’t received a separate compensation increase in the past 9-months are also eligible.
 
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
 - Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
