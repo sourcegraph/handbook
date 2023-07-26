@@ -29,7 +29,7 @@ a. Evaluation stage
 
 b. Go-to-market stage
 
-c. Airbase Guided Procurement: Contract Execution/Vendor Request 
+c. Airbase Guided Procurement: Contract Execution/Vendor Request
 
 #### Evaluation stage
 
@@ -39,7 +39,6 @@ Best practice procurement processes should commence with the following steps:
 - assessing other strategies such as utilizing existing period contract arrangements
 - obtaining financial & Legal approval
 - obtaining Security approval to assess vendor risk, perform due diligence and be in line with our [Third-party Management Policy](../../../company-info-and-process/policies/third-party-management-policy.md)
-
 
 #### Go-to-market Stage
 
@@ -98,8 +97,9 @@ The table below highlights different commercial terms of a procurement negotiati
 | Price               | New contracts: Requesting quotes / pricing <br> - Communicate that we are requesting quotes from other suppliers and considering the supplier with the best pricing / fit for our needs <br> - Can we obtain a new customer discount for the first year? <br> <br> New contracts: One-time vs recurring fees <br> - Best practice is to negotiate discounts on the recurring cost as that will generate greater savings for Sourcegraph over a 2/3 year period. <br> - If we can not negotiate better pricing on recurring fees, can we ask to have setup fees /on-board Sourcegraph fees waived? <br> <br> Renewals <br> - What is the % increase from prior year and what justifies this increase? <br> - Were there any service issues in the prior year? If so, we should communicate to the vendor and explain such issues warrant a discount for renewal period. <br> - If the supplier explains price increases are due to new features, we should consider if we are using these features? If not, we should ask the vendor why we need to pay for these features? <br> - Are we at Sourcegraph adding more volume? If so, is there a discount for every new user added? What is the trend of the cost per unit compared to last year? <br> |
 | Value               | - If we cannot negotiate better pricing, can we negotiate to receive additional services for the same price (i.e., achieve better value)? For example, could we ask for extra training days for free or a one/ two/ three month free period at the end of the term? <br> - For vendors with engineering teams, would the vendor contact be willing to connect our sales team for a product demonstration?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Negotiation Tactics | - Check if any Sourcegraph teammates know people at the vendor company that they can connect us with (i.e. LinkedIn connections) <br> - For larger items of spend it may be worth scheduling a face-to-face meeting with the supplier. <br> - Partnering – if we provide a customer testimonial / case study, could it result in better pricing? <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Payment terms       | - Our standard payment terms are net 30. Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-#### Airbase Guided Procurement: Contract Execution/Vendor Request 
+| Payment terms       | - Our standard payment terms are net 30. Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+#### Airbase Guided Procurement: Contract Execution/Vendor Request
 
 ##### When should I use this process?
 
@@ -109,9 +109,9 @@ If cost = 0 and classification is PUBLIC or INTERNAL -> no ticket needs to be ra
 If cost = 0 and classification is PRIVATE or RESTRICTED but LOCALLY* -> no ticket needs to be raised
 If cost = 0 and classification is PRIVATE or RESTRICTED but ONLINE* -> raise a ticket
 If cost >0 and classification is PUBLIC or INTERNAL or PRIVATE or RESTRICTED -> raise a ticket
-*Locally - meaning the data is not leaving your laptop (for instance text editor)
+\*Locally - meaning the data is not leaving your laptop (for instance text editor)
 
-*Online - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
+\*Online - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
 
 ##### What counts as a vendor?
 
@@ -124,30 +124,30 @@ We categorize our vendors into the following groups:
 ##### How do I submit a request in Airbase?
 
 Step 1: Visit [Airbase](https://dashboard.airbase.io/home)
-    -Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
+-Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
 Step 2: Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
-    -01. Primary Information: Select your type of purchase category
-          -Software Subscription
-            -Individual (i.e. a single ChatGPT subscription for yourself)
-            -Org Level New
-            -Org Level Renewal
-          -Hire a Contractor (temporary contractor)
-          -Sales/Marketing events (sponsorships, event space, etc)
-          -Hardware (computers, servers, peripherals)
-    -02. Vendor and Budget Details
-          -Vendor name
-          -Description of services
-          -Vendor website
-          -TCV (total contract value) of goods or services being purchased
-          -Attach a copy of the MSA, Order form/SOW that has the amounts included
-    -03. Data Classification
-          -Select the correct data management security which will route to Security team for review depending on answer.
-    -04. Has this vendor gone through JIRA review previously? 
-          -If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously     
-           completed a full vendor review in JIRA.
-          -If no is selected, process will continue as normal.
-    -05. Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
-    -06. Save and next step!
+-01. Primary Information: Select your type of purchase category
+-Software Subscription
+-Individual (i.e. a single ChatGPT subscription for yourself)
+-Org Level New
+-Org Level Renewal
+-Hire a Contractor (temporary contractor)
+-Sales/Marketing events (sponsorships, event space, etc)
+-Hardware (computers, servers, peripherals)
+-02. Vendor and Budget Details
+-Vendor name
+-Description of services
+-Vendor website
+-TCV (total contract value) of goods or services being purchased
+-Attach a copy of the MSA, Order form/SOW that has the amounts included
+-03. Data Classification
+-Select the correct data management security which will route to Security team for review depending on answer.
+-04. Has this vendor gone through JIRA review previously?
+-If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously  
+ completed a full vendor review in JIRA.
+-If no is selected, process will continue as normal.
+-05. Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
+-06. Save and next step!
 Step 3: Notification that your manager will be sent your request for approval.
 Step 4: Budget approval
 Step 5: Legal review questions (if applicable, review happens in tandem with TechOps and Security reviews)
@@ -155,22 +155,22 @@ Step 6: TechOps review questions (if applicable, review happens in tandem with L
 Step 7: Security review questions (if applicable, review happens in tandem with TechOps and Legal reviews)
 Step 8: Notification that your exec lead will be sent your request for approval if the amount is greater than or equal to 50K.
 Step 9: Select how you want to pay your vendor
-    -01. If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review 
-        and Finance has requested you enter a PO.3
-    -02. Services start/end date - this would be the start/end of your software or contractor services       
-    -03. Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
-    -04. Update cost center if applicable. This will default to the requestors cost center.
-Step 10: Submit for approval!    
+-01. If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
+and Finance has requested you enter a PO.3
+-02. Services start/end date - this would be the start/end of your software or contractor services  
+ -03. Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
+-04. Update cost center if applicable. This will default to the requestors cost center.
+Step 10: Submit for approval!
 
-You can watch the linked Loom videos for additional help/clarification or reach out in #discuss-finance.   
-   
+You can watch the linked Loom videos for additional help/clarification or reach out in #discuss-finance.
+
 ##### SLA
 
 Requests are approved within 10 business days. Please ensure you are requesting your spend as soon as you decide on a vendor. You can view the progress of your request at anytime in Airbase under "Requests".
 
 ##### What are the reviewers looking for?
 
-**Security** 
+**Security**
 -What type of information is being shared with the vendor: customer data, sourcegraph data, both?
 -Security compliance certifications like ISO27001 or SOC 2.
 -Encryption standards of data at rest and in transit (transport layer security).
