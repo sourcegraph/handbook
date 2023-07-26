@@ -123,13 +123,13 @@ We categorize our vendors into the following groups:
 
 ##### How do I submit a request in Airbase?
 
-Step 1: Visit [Airbase](https://dashboard.airbase.io/home)
+**Step 1:** Visit [Airbase](https://dashboard.airbase.io/home)
 
 - Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
 
-Step 2: Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
+**Step 2:** Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
 
-- 1.  Primary Information: Select your type of purchase category
+1.  Primary Information: Select your type of purchase category
 - Software Subscription
 - Individual (i.e. a single ChatGPT subscription for yourself)
 - Org Level New
@@ -137,42 +137,42 @@ Step 2: Enter your Purchase Request Details (note these may change order dependi
 - Hire a Contractor (temporary contractor)
 - Sales/Marketing events (sponsorships, event space, etc)
 - Hardware (computers, servers, peripherals)
-- 2.  Vendor and Budget Details
+2.  Vendor and Budget Details
 - Vendor name
 - Description of services
 - Vendor website
 - TCV (total contract value) of goods or services being purchased
 - Attach a copy of the MSA, Order form/SOW that has the amounts included
-- 3.  Data Classification
+3.  Data Classification
 - Select the correct data management security which will route to Security team for review depending on answer.
-- 4.  Has this vendor gone through JIRA review previously?
+4.  Has this vendor gone through JIRA review previously?
 - If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously  
   completed a full vendor review in JIRA.
 - If no is selected, process will continue as normal.
-- 5.  Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
-- 6.  Save and next step!
+5.  Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
+6.  Save and next step!
 
-Step 3: Notification that your manager will be sent your request for approval.
+**Step 3:** Notification that your manager will be sent your request for approval.
 
-Step 4: Budget approval
+**Step 4:** Budget approval
 
-Step 5: Legal review questions (if applicable, review happens in tandem with TechOps and Security reviews)
+**Step 5:** Legal review questions (if applicable, review happens in tandem with TechOps and Security reviews)
 
-Step 6: TechOps review questions (if applicable, review happens in tandem with Legal and Security reviews)
+**Step 6:** TechOps review questions (if applicable, review happens in tandem with Legal and Security reviews)
 
-Step 7: Security review questions (if applicable, review happens in tandem with TechOps and Legal reviews)
+**Step 7:** Security review questions (if applicable, review happens in tandem with TechOps and Legal reviews)
 
-Step 8: Notification that your exec lead will be sent your request for approval if the amount is greater than or equal to 50K.
+**Step 8:** Notification that your exec lead will be sent your request for approval if the amount is greater than or equal to 50K.
 
-Step 9: Select how you want to pay your vendor
+**Step 9:** Select how you want to pay your vendor
 
-- 1.  If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
+- If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
       and Finance has requested you enter a PO.3
-- 2.  Services start/end date - this would be the start/end of your software or contractor services
-- 3.  Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
-- 4.  Update cost center if applicable. This will default to the requestors cost center.
+- Services start/end date - this would be the start/end of your software or contractor services
+- Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
+- Update cost center if applicable. This will default to the requestors cost center.
 
-Step 10: Submit for approval!
+**Step 10:** Submit for approval!
 
 You can watch the linked Loom videos for additional help/clarification or reach out in #discuss-finance.
 
@@ -183,27 +183,27 @@ Requests are approved within 10 business days. Please ensure you are requesting 
 ##### What are the reviewers looking for?
 
 **Security**
--What type of information is being shared with the vendor: customer data, sourcegraph data, both?
--Security compliance certifications like ISO27001 or SOC 2.
--Encryption standards of data at rest and in transit (transport layer security).
--Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
--Clear process in case of a security incident and the reporting to Sourcegraph.
--Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
--Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
+- What type of information is being shared with the vendor: customer data, sourcegraph data, both?
+- Security compliance certifications like ISO27001 or SOC 2.
+- Encryption standards of data at rest and in transit (transport layer security).
+- Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
+- Clear process in case of a security incident and the reporting to Sourcegraph.
+- Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
+- Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
 
 **Legal**
--MSA, DPA, Order form or SOW
--Review when annual spend is over $100,000, or annual spend is over $1,000 and vendor receives (a) customer data or (b) teammate personal data
--Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
--Typical teammate personal data includes login information, username, email, name, address, etc.
+- MSA, DPA, Order form or SOW
+- Review when annual spend is over $100,000, or annual spend is over $1,000 and vendor receives (a) customer data or (b) teammate personal data
+- Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
+- Typical teammate personal data includes login information, username, email, name, address, etc.
 
 **TechOps**
--Okta provisioning and/or SAML available?
--If no, how is access protected
+- Okta provisioning and/or SAML available?
+- If no, how is access protected
 
 **Finance/Budget**
--Amount
--Contract and Commercial Terms
+- Amount
+- Contract and Commercial Terms
 
 ##### System/Relationship Owner Responsibilities
 
@@ -238,16 +238,6 @@ For all contracts, designated buyers (employees who are responsible for the spen
 For procurement that exceeds the equivalent of 5,000 USD, a Purchase Order (PO) will be required in Airbase. Please attach the quote, estimate, or contractual draft to the PO prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](./ap.md#contractual-execution) section below.
 
 POs are not required for our FT international teammates, but will be required for any temporary contractors.
-
-**PO Steps**
-
-1. Obtain quote or estimate from vendor
-2. Create PO to align with quote or estimate (dates for PO should match the service dates, amount should be for the entirety of the service or goods)
-3. PO goes through approvals
-4. When PO is fully approved, contract can be signed
-5. Vendor invoices ap@sourcegraph.com and accounting applies the invoice(s) against the PO.
-
-You can find screen shot and a more indepth explanation [here](https://docs.google.com/document/d/1_-WDaW1qWXv-5hrcmYP4o8-VSZzBKM4e4MrDk_jNzi0/edit)
 
 ##### Managing Conflicts of Interest
 
