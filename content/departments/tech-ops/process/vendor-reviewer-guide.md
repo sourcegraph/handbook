@@ -1,3 +1,3 @@
 # Vendor Reviewer Guide
 
-This information has been relocated to the AP Process Page 
+This information has been relocated to the AP Process Page
