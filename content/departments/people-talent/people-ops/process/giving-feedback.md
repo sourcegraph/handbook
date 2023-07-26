@@ -44,9 +44,10 @@ A self review is your chance to celebrate and reflect on your performance over t
   </tr>
   <tr>
    <td><strong>Performance:</strong> Looking back over the past review period, how would you rate your performance against the expectations of your role, level and our values? Please provide specific examples in the comment field that justifies your performance rating. Where did you excel? Where do you need improvement? 
-<p>  
+<p>
 
-[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance]
+
 <p>
 
 Please provide examples in the comment field that support your rating.
@@ -303,7 +304,8 @@ Gathering feedback from a manager's direct reports is important in the performan
    <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  
 <p>
 
-[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance]
+
 <p>
 Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period. 
 <p>
