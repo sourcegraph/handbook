@@ -29,7 +29,7 @@ a. Evaluation stage
 
 b. Go-to-market stage
 
-c. Contract execution
+c. Airbase Guided Procurement: Contract Execution/Vendor Request
 
 #### Evaluation stage
 
@@ -39,32 +39,6 @@ Best practice procurement processes should commence with the following steps:
 - assessing other strategies such as utilizing existing period contract arrangements
 - obtaining financial & Legal approval
 - obtaining Security approval to assess vendor risk, perform due diligence and be in line with our [Third-party Management Policy](../../../company-info-and-process/policies/third-party-management-policy.md)
-
-##### Approval Levels
-
-The table below presents the approval levels required for expenditure, based on $ amounts. Amounts below are in US dollars, inclusive of all taxes and charges..
-
-| Amount (Annual Equivalent) | Approval Required                                       | Recommend Method of Payment |
-| -------------------------- | ------------------------------------------------------- | --------------------------- |
-| $0–$10,000                 | Direct Manager                                          | Airbase                     |
-| $10,000 – $50,000          | Direct Manager, Department Head, FP&A                   | Airbase                     |
-| $50,000 or greater         | Direct Manager, Department Head, FP&A, VP of Operations | Airbase                     |
-
-##### Purchase Order Process
-
-For procurement that exceeds the equivalent of 5,000 USD, a Purchase Order (PO) will be required in Airbase. Please attach the quote, estimate, or contractual draft to the PO prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](./ap.md#contractual-execution) section below.
-
-POs are not required for our FT international teammates, but will be required for any temporary contractors.
-
-**PO Steps**
-
-1. Obtain quote or estimate from vendor
-2. Create PO to align with quote or estimate (dates for PO should match the service dates, amount should be for the entirety of the service or goods)
-3. PO goes through approvals
-4. When PO is fully approved, contract can be signed
-5. Vendor invoices ap@sourcegraph.com and accounting applies the invoice(s) against the PO.
-
-You can find screen shot and a more indepth explanation [here](https://docs.google.com/document/d/1_-WDaW1qWXv-5hrcmYP4o8-VSZzBKM4e4MrDk_jNzi0/edit)
 
 #### Go-to-market Stage
 
@@ -125,20 +99,99 @@ The table below highlights different commercial terms of a procurement negotiati
 | Negotiation Tactics | - Check if any Sourcegraph teammates know people at the vendor company that they can connect us with (i.e. LinkedIn connections) <br> - For larger items of spend it may be worth scheduling a face-to-face meeting with the supplier. <br> - Partnering – if we provide a customer testimonial / case study, could it result in better pricing? <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Payment terms       | - Our standard payment terms are net 30. Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-#### Contractual Execution
+#### Airbase Guided Procurement: Contract Execution/Vendor Request
 
-##### Contract Management
+##### When should I use this process?
 
-Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with our legal team's [contract review policy](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
+Airbase will guide you through the required fields and approval necessary depending on your purchase inputs. Before creating an Airbase request, take a look at the table below to determine if this is needed.
 
-Contract management should include:
+If cost = 0 and classification is PUBLIC or INTERNAL -> no ticket needs to be raised
+If cost = 0 and classification is PRIVATE or RESTRICTED but LOCALLY* -> no ticket needs to be raised
+If cost = 0 and classification is PRIVATE or RESTRICTED but ONLINE* -> raise a ticket
+If cost >0 and classification is PUBLIC or INTERNAL or PRIVATE or RESTRICTED -> raise a ticket
+\*Locally - meaning the data is not leaving your laptop (for instance text editor)
 
-- Ensuring contracts are reviewed by appropriate personnel to assess legal and commercial impact.
-- Ensuring roles and responsibilities for managing the contract have been identified and understood by the relevant parties
-- Ensuring the contract is effectively implemented and that the supplier delivers the requirements of the contract
-- Addressing any issues that arise during the contract term
-- Ensuring the key terms (price, term, owner) are stored in the contract register (discussed below)
-- Processing invoices for payment on a timely basis in line with agreed provisions in the contract
+\*Online - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
+
+##### What counts as a vendor?
+
+We categorize our vendors into the following groups:
+
+**Software**: this can be SaaS or non-SaaS products
+**Services**: Consulting services; any company that is commissioned to perform knowledge enhancing project-based work for Sourcegraph. Examples of this include any work that concludes with a report issued to the company, product development work, training development, sales & marketing projects and regulatory consulting work.
+**Temporary contractors** : Individuals that have been contracted for a limited amount of time to enhance/assist/deliver project base work (they are a separate group since their access level to data will most likely be different to a ‘Service’ engagement)
+
+##### How do I submit a request in Airbase?
+
+Step 1: Visit [Airbase](https://dashboard.airbase.io/home)
+-Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
+Step 2: Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
+-01. Primary Information: Select your type of purchase category
+-Software Subscription
+-Individual (i.e. a single ChatGPT subscription for yourself)
+-Org Level New
+-Org Level Renewal
+-Hire a Contractor (temporary contractor)
+-Sales/Marketing events (sponsorships, event space, etc)
+-Hardware (computers, servers, peripherals)
+-02. Vendor and Budget Details
+-Vendor name
+-Description of services
+-Vendor website
+-TCV (total contract value) of goods or services being purchased
+-Attach a copy of the MSA, Order form/SOW that has the amounts included
+-03. Data Classification
+-Select the correct data management security which will route to Security team for review depending on answer.
+-04. Has this vendor gone through JIRA review previously?
+-If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously  
+ completed a full vendor review in JIRA.
+-If no is selected, process will continue as normal.
+-05. Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
+-06. Save and next step!
+Step 3: Notification that your manager will be sent your request for approval.
+Step 4: Budget approval
+Step 5: Legal review questions (if applicable, review happens in tandem with TechOps and Security reviews)
+Step 6: TechOps review questions (if applicable, review happens in tandem with Legal and Security reviews)
+Step 7: Security review questions (if applicable, review happens in tandem with TechOps and Legal reviews)
+Step 8: Notification that your exec lead will be sent your request for approval if the amount is greater than or equal to 50K.
+Step 9: Select how you want to pay your vendor
+-01. If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
+and Finance has requested you enter a PO.3
+-02. Services start/end date - this would be the start/end of your software or contractor services  
+ -03. Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
+-04. Update cost center if applicable. This will default to the requestors cost center.
+Step 10: Submit for approval!
+
+You can watch the linked Loom videos for additional help/clarification or reach out in #discuss-finance.
+
+##### SLA
+
+Requests are approved within 10 business days. Please ensure you are requesting your spend as soon as you decide on a vendor. You can view the progress of your request at anytime in Airbase under "Requests".
+
+##### What are the reviewers looking for?
+
+**Security**
+-What type of information is being shared with the vendor: customer data, sourcegraph data, both?
+-Security compliance certifications like ISO27001 or SOC 2.
+-Encryption standards of data at rest and in transit (transport layer security).
+-Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
+-Clear process in case of a security incident and the reporting to Sourcegraph.
+-Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
+-Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
+
+**Legal**
+-MSA, DPA, Order form or SOW
+-Review when annual spend is over $100,000, or annual spend is over $1,000 and vendor receives (a) customer data or (b) teammate personal data
+-Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
+-Typical teammate personal data includes login information, username, email, name, address, etc.
+
+**TechOps**
+-Okta provisioning and/or SAML available?
+-If no, how is access protected
+
+**Finance/Budget**
+-Amount
+-Contract and Commercial Terms
 
 ##### Logo Rights or Case Study
 
@@ -152,13 +205,21 @@ For all contracts, designated buyers (employees who are responsible for the spen
 - Sourcegraph employees can go to market to request additional quotes from alternative suppliers (if required)
 - If desired, that a vendor / contractor can be terminated by Sourcegraph allowing for any required notice period
 
-##### New Supplier Form
+##### Purchase Order Process
 
-Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form](https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit).
+For procurement that exceeds the equivalent of 5,000 USD, a Purchase Order (PO) will be required in Airbase. Please attach the quote, estimate, or contractual draft to the PO prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](./ap.md#contractual-execution) section below.
 
-##### Hourly-Based Contract Threshold
+POs are not required for our FT international teammates, but will be required for any temporary contractors.
 
-For hourly-based contracts, such as with a third-party contractor, please notify the Finance team when billing exceeds $5,000 in a given month.
+**PO Steps**
+
+1. Obtain quote or estimate from vendor
+2. Create PO to align with quote or estimate (dates for PO should match the service dates, amount should be for the entirety of the service or goods)
+3. PO goes through approvals
+4. When PO is fully approved, contract can be signed
+5. Vendor invoices ap@sourcegraph.com and accounting applies the invoice(s) against the PO.
+
+You can find screen shot and a more indepth explanation [here](https://docs.google.com/document/d/1_-WDaW1qWXv-5hrcmYP4o8-VSZzBKM4e4MrDk_jNzi0/edit)
 
 ##### Managing Conflicts of Interest
 
