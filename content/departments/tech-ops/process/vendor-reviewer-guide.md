@@ -4,7 +4,7 @@ This page describes the different vendor management process flows from a reviewe
 
 # Background
 
-Our current vendor management process is bulky and poorly documented. We need to centralize our process so that our teammates and reviewers have all the information in one system and can better prepare for onboarding, reviewing and offboarding systems and services. For compliance reasons - as well as better traceability/decision log - we need to have an auditable record for each SaaS vendor, from its initial onboarding to the annual risk reviews. At the moment we have many different workflows (Slack, Vendr, DMs) for our vendor management process but are aiming to implement a unified process in Jira as our source of truth, by leveraging Slack and Vendr.
+Our current vendor management process is bulky and poorly documented. We need to centralize our process so that our teammates and reviewers have all the information in one system and can better prepare for onboarding, reviewing and offboarding systems and services. For compliance reasons - as well as better traceability/decision log - we need to have an auditable record for each SaaS vendor, from its initial onboarding to the annual risk reviews. At the moment we have many different workflows (Slack, DMs) for our vendor management process but are aiming to implement a unified process in Jira as our source of truth.
 
 # Who is responsible for what?
 
@@ -101,7 +101,6 @@ Our process captures the baseline information needed to process vendor requests 
 - Data Classification and Description
 - Budget Requirements
 - Cost Center Information
-- Procurement Partner Engagement (i.e. Vendr )
 - System/Relationship Owner
 - Documentation (incl. DPA, MSA, etc.)
 
@@ -310,14 +309,6 @@ Finance approval - information needed and reviewed:
 - Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables.md#airbase-limits)
 - Contract & commercial terms
 - W-9
-
-# Vendr
-
-We currently don’t support an integration between Jira and our procurement partner Vendr.
-
-Please make sure to manually check any updates/documents in Vendr itself when performing a vendor review in Jira to make sure no up-to-date information is missed.
-
-More information on Vendr can be found [here](../tools/Vendr/index.md).
 
 # Additional information
 
