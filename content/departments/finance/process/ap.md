@@ -130,6 +130,7 @@ We categorize our vendors into the following groups:
 **Step 2:** Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
 
 1.  Primary Information: Select your type of purchase category
+
 - Software Subscription
 - Individual (i.e. a single ChatGPT subscription for yourself)
 - Org Level New
@@ -137,18 +138,25 @@ We categorize our vendors into the following groups:
 - Hire a Contractor (temporary contractor)
 - Sales/Marketing events (sponsorships, event space, etc)
 - Hardware (computers, servers, peripherals)
+
 2.  Vendor and Budget Details
+
 - Vendor name
 - Description of services
 - Vendor website
 - TCV (total contract value) of goods or services being purchased
 - Attach a copy of the MSA, Order form/SOW that has the amounts included
+
 3.  Data Classification
+
 - Select the correct data management security which will route to Security team for review depending on answer.
+
 4.  Has this vendor gone through JIRA review previously?
+
 - If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously  
   completed a full vendor review in JIRA.
 - If no is selected, process will continue as normal.
+
 5.  Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
 6.  Save and next step!
 
@@ -167,7 +175,7 @@ We categorize our vendors into the following groups:
 **Step 9:** Select how you want to pay your vendor
 
 - If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
-      and Finance has requested you enter a PO.3
+  and Finance has requested you enter a PO.3
 - Services start/end date - this would be the start/end of your software or contractor services
 - Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
 - Update cost center if applicable. This will default to the requestors cost center.
@@ -183,6 +191,7 @@ Requests are approved within 10 business days. Please ensure you are requesting 
 ##### What are the reviewers looking for?
 
 **Security**
+
 - What type of information is being shared with the vendor: customer data, sourcegraph data, both?
 - Security compliance certifications like ISO27001 or SOC 2.
 - Encryption standards of data at rest and in transit (transport layer security).
@@ -192,16 +201,19 @@ Requests are approved within 10 business days. Please ensure you are requesting 
 - Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
 
 **Legal**
+
 - MSA, DPA, Order form or SOW
 - Review when annual spend is over $100,000, or annual spend is over $1,000 and vendor receives (a) customer data or (b) teammate personal data
 - Typical customer data includes customer source code, repo names, support tickets, customer logs, incident data, etc.
 - Typical teammate personal data includes login information, username, email, name, address, etc.
 
 **TechOps**
+
 - Okta provisioning and/or SAML available?
 - If no, how is access protected
 
 **Finance/Budget**
+
 - Amount
 - Contract and Commercial Terms
 
