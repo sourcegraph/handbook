@@ -1,4 +1,4 @@
-# Airbase - Spend Management and Guided Procurement (fka Vendor Setup)
+# Airbase
 
 ## What is Airbase?
 
