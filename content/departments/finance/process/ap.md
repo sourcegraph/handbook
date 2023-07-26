@@ -124,42 +124,54 @@ We categorize our vendors into the following groups:
 ##### How do I submit a request in Airbase?
 
 Step 1: Visit [Airbase](https://dashboard.airbase.io/home)
--Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
+
+- Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
+
 Step 2: Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
--01. Primary Information: Select your type of purchase category
--Software Subscription
--Individual (i.e. a single ChatGPT subscription for yourself)
--Org Level New
--Org Level Renewal
--Hire a Contractor (temporary contractor)
--Sales/Marketing events (sponsorships, event space, etc)
--Hardware (computers, servers, peripherals)
--02. Vendor and Budget Details
--Vendor name
--Description of services
--Vendor website
--TCV (total contract value) of goods or services being purchased
--Attach a copy of the MSA, Order form/SOW that has the amounts included
--03. Data Classification
--Select the correct data management security which will route to Security team for review depending on answer.
--04. Has this vendor gone through JIRA review previously?
--If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously  
- completed a full vendor review in JIRA.
--If no is selected, process will continue as normal.
--05. Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
--06. Save and next step!
+
+- 1.  Primary Information: Select your type of purchase category
+- Software Subscription
+- Individual (i.e. a single ChatGPT subscription for yourself)
+- Org Level New
+- Org Level Renewal
+- Hire a Contractor (temporary contractor)
+- Sales/Marketing events (sponsorships, event space, etc)
+- Hardware (computers, servers, peripherals)
+- 2.  Vendor and Budget Details
+- Vendor name
+- Description of services
+- Vendor website
+- TCV (total contract value) of goods or services being purchased
+- Attach a copy of the MSA, Order form/SOW that has the amounts included
+- 3.  Data Classification
+- Select the correct data management security which will route to Security team for review depending on answer.
+- 4.  Has this vendor gone through JIRA review previously?
+- If yes is selected, the request will move directly to Manager and Finance approval (and Exec approval if over 50K USD). Please only select this option if you have previously  
+  completed a full vendor review in JIRA.
+- If no is selected, process will continue as normal.
+- 5.  Contractor Prerequisite Questions (applicable only if requesting a temporary contractor)
+- 6.  Save and next step!
+
 Step 3: Notification that your manager will be sent your request for approval.
+
 Step 4: Budget approval
+
 Step 5: Legal review questions (if applicable, review happens in tandem with TechOps and Security reviews)
+
 Step 6: TechOps review questions (if applicable, review happens in tandem with Legal and Security reviews)
+
 Step 7: Security review questions (if applicable, review happens in tandem with TechOps and Legal reviews)
+
 Step 8: Notification that your exec lead will be sent your request for approval if the amount is greater than or equal to 50K.
+
 Step 9: Select how you want to pay your vendor
--01. If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
-and Finance has requested you enter a PO.3
--02. Services start/end date - this would be the start/end of your software or contractor services  
- -03. Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
--04. Update cost center if applicable. This will default to the requestors cost center.
+
+- 1.  If the vendor will be sending us an invoice rather than you paying for this on a virual credit card, please select "Purchase Order" or if you have already completed the vendor review
+      and Finance has requested you enter a PO.3
+- 2.  Services start/end date - this would be the start/end of your software or contractor services
+- 3.  Select spend categories (i.e. Software, Consultants and other Professional Services, Events)
+- 4.  Update cost center if applicable. This will default to the requestors cost center.
+
 Step 10: Submit for approval!
 
 You can watch the linked Loom videos for additional help/clarification or reach out in #discuss-finance.
@@ -192,6 +204,22 @@ Requests are approved within 10 business days. Please ensure you are requesting 
 **Finance/Budget**
 -Amount
 -Contract and Commercial Terms
+
+##### System/Relationship Owner Responsibilities
+
+Every vendor we use at Sourcegraph has an internal system/relationship owner assigned to them. By assigning a Sourcegraph system owner, we have a designated point of contact for all communication with the vendor, which will facilitate turnaround times on any matters during our engagement with the vendor as well as any internal process that require vendor input/output.
+
+The system/relationship owner is typically the person who initiates the engagement with the vendor (i.e. vendor onboarding requestor), however, in certain cases the vendor request might have been delegated to a team member but the ongoing system owner duties will be taken on by a team lead (please make sure to discuss system/relationship ownership with your team/prospective users before logging a vendor request).
+
+Please see below the responsibilities of a system/relationship owner:
+
+- Liaise with the vendor as the main point of contact for any engagement/partnership matters
+- Working with finance to ensure the product or service is accurately budgeted for
+- Keeping billing information up to date and uploading receipts as needed into Airbase
+- Negotiate and request contracts/upgrades/renewals
+- Onboarding and offboarding of users if not behind Okta or supported by Tech Ops (including annual access reviews for systems)
+- Produce usage guidance for tool to users (please reach out to compliance about security and compliance guidance on usage)
+- Help provide/extract data from vendor when requested (for instance compliance reasons (evidence), security reviews, and other data collection efforts)
 
 ##### Logo Rights or Case Study
 
