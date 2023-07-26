@@ -82,7 +82,7 @@ Results from the semi-annual impact review process support the growth and develo
 
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
-  - Growth & promotion philosophy
+  - [Growth & promotion philosophy](#promotion-philosophy)
     - [Leveling guide](../../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#individual-contributor-leveling)
     - [Career development frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
@@ -286,7 +286,7 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
-To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../process/giving-feedback.md)
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reviews](../../../process/giving-feedback.md)
 
 Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
 
