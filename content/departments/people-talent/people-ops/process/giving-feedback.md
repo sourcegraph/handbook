@@ -43,7 +43,10 @@ A self review is your chance to celebrate and reflect on your performance over t
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate your performance against the expectations of your role, level and our values? Please provide specific examples in the comment field that justifies your performance rating. Where did you excel? Where do you need improvement? [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate your performance against the expectations of your role, level and our values? Please provide specific examples in the comment field that justifies your performance rating. Where did you excel? Where do you need improvement? 
+<p>  
+
+[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide examples in the comment field that support your rating.
@@ -121,7 +124,10 @@ Feedback from teammates we work closely with is some of the most valuable we wil
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> In the past 6-months, this teammate consistently delivers quality work in line with the expectations of their role/level/values. Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> In the past 6-months, this teammate consistently delivers quality work in line with the expectations of their role/level/values. Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?.  
+<p>
+  
+[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period.
@@ -200,7 +206,10 @@ Once all reviews are written and the manager has gone through the [calibration p
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate this teammate’s performance against the expectations of their role, level and our values. In 2-3 sentences, please provide justification for selected performance rating. Additionally, Where did they excel? Where do they need improvement? [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate this teammate’s performance against the expectations of their role, level and our values. In 2-3 sentences, please provide justification for selected performance rating. Additionally, Where did they excel? Where do they need improvement? 
+<p>
+  
+[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
@@ -291,7 +300,10 @@ Gathering feedback from a manager's direct reports is important in the performan
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  
+<p>
+
+[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period. 
 <p>
