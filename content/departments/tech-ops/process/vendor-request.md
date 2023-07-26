@@ -66,13 +66,11 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 <ins>Optional Step:</ins>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Contact Vendr to assist with vendor price negotiations
-
-**Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
+**Step 5:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
 
 - [Review submitted requests](https://www.loom.com/share/643ceeb88b8c44fea1ea9a713f64d5e5) Loom video
 
-**Step 7:**
+**Step 6:**
 
 > If ‘Approved’ -
 >
