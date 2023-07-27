@@ -5,7 +5,7 @@ The purpose of this Handbook Page is to provide Managers and Teammates with the 
 ## **On this page:**
 
 - [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture?)
-- [Formal reviews](#Formal-performance-(impact)-reviews)
+- [Formal reviews](<#Formal-performance-(impact)-reviews>)
 - [Continuous feedback](#Continuous-feedback)
   - [Thanks/Praise feedback](#hanks/praise:)
   - [General feedback](#General-feedback)
@@ -34,7 +34,7 @@ We foster a high performance culture by recruiting high performers, setting clea
 
 We expect Managers and Teammates to foster a high-performance culture and provide feedback in the following ways through Lattice:
 
-1. [Formal performance (impact) reviews](#Formal-performance-(impact)-reviews)
+1. [Formal performance (impact) reviews](<#Formal-performance-(impact)-reviews>)
 2. [Continuous feedback](#Continuous-feedback)
    1. [Thanks/Praise feedback](#hanks/praise:)
    2. [General feedback](#General-feedback)
@@ -174,7 +174,7 @@ Teammates and Managers are expected to share feedback regularly in a timely mann
 - **Teammate to Manager:** This is where a teammate gives upward feedback to their leader
 - **Manager to Teammate:** This is where Managers give general feedback around their Teammates performance, skills, values alignment, and behaviors
 
-**Who will see the general feedback I give a Peer, Manager or Teammate?** 
+**Who will see the general feedback I give a Peer, Manager or Teammate?**
 Lattice will give you the option of who you want to see the general feedback. As a reminder general feedback should be given in private and only praise/thanks feedback should be public. In Lattice you can choose one of the following visibility options when giving feedback:
 _ **Private** - This will only go to the teammate you have selected
 _ **Private + Manager** - This will go to the teammate you selected and their direct manager \* **Manager** - This will only go to the manager of the teammate you selected
