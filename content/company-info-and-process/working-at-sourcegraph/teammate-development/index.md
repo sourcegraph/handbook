@@ -423,7 +423,7 @@ Be direct and have specific, concrete examples to share with the Teammate while 
 
 ## **OTHER HANDBOOK PAGES:**
 
-[How we celebrate Teammates HB page](../../../../../benefits-pay-perks/benefits-perks/celebrate.md)
+[How we celebrate Teammates HB page](../../../benefits-pay-perks/benefits-perks/celebrate.md)
 
 ## **Regular thanks and recognition via our #thanks channel**
 
