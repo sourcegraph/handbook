@@ -4,15 +4,15 @@ The purpose of this Handbook Page is to provide Managers and Teammates with the 
 
 ## **On this page:**
 
-- What, why, and how we foster a high performance culture
-- Formal reviews
-- Continuous feedback
-  - Thanks/Praise feedback
-  - General feedback
-  - Regular 1:1s
-  - Growth & career development conversations
-- Lattice support articles
-- Addressing underperformance
+- [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture?)
+- [Formal reviews](#Formal-performance-(impact)-reviews)
+- [Continuous feedback](#Continuous-feedback)
+  - [Thanks/Praise feedback](#hanks/praise:)
+  - [General feedback](#General-feedback)
+  - [Regular 1:1s](#Regular-1:1s)
+  - [Growth & career development conversations](#Growth-&-career-development-conversations)
+- [Lattice support articles](#Lattice-support-articles)
+- [Addressing underperformance](#addressing-underperformance)
 
 ## What is a high performance culture?
 
@@ -34,13 +34,13 @@ We foster a high performance culture by recruiting high performers, setting clea
 
 We expect Managers and Teammates to foster a high-performance culture and provide feedback in the following ways through Lattice:
 
-1. [Formal performance (impact) reviews]
-2. [Continuous feedback]
-   1. [Thanks/Praise feedback]
-   2. [General feedback]
-   3. [Regular 1:1s]
-   4. [Growth & career development conversations]
-3. [Note to self]
+1. [Formal performance (impact) reviews](#Formal-performance-(impact)-reviews)
+2. [Continuous feedback](#Continuous-feedback)
+   1. [Thanks/Praise feedback](#hanks/praise:)
+   2. [General feedback](#General-feedback)
+   3. [Regular 1:1s](#Regular-1:1s)
+   4. [Growth & career development conversations](#Growth-&-career-development-conversations)
+3. [Note to self](#Note-to-self)
 
 In situations of underperformance, which may be identified during ongoing feedback or formal impact reviews, Managers should consult with their People Partner and follow [this guidance for addressing underperformance](addressing-underperformance.md).
 
@@ -66,16 +66,16 @@ At Sourcegraph, we have a formal performance (impact) review process that takes 
 
 The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers. The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers.
 
-Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
+Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 
 ### **Continuous feedback**
 
 The purpose of continuous feedback is to promote a culture of feedback and high performing culture. We expect our all Teammates to provide ongoing feedback to Managers, their Teammates, and Peers. The following ways to provide feedback are staples to a continuous feedback and a high performing culture. Each will be discussed in detail further down the page.
 
-1. [Thanks/praise feedback]
-2. [General feedback]
-3. [Regular 1:1s]
-4. [Growth & career-development conversations]
+1. [Thanks/praise feedback](#Thanks/praise:)
+2. [General feedback](#General-feedback:)
+3. [Regular 1:1s](#Regular-1:1s)
+4. [Growth & career-development conversations](#Growth-&-career-development-conversations)
 
 ### **Thanks/praise:**
 
@@ -166,15 +166,15 @@ It’s important to always provide feedback in private, not publicly. Praise/tha
 
 #### **How do we use feedback?**
 
-Teammates and Managers are expected to share feedback regularly in a timely manner. The goal is to keep general feedback in private through the Lattice tool and [regular 1:1s.](#bookmark=id.mf6z0184eyhp) Lattice allows for quick, real-time feedback to be given in both directions (lateral, upwards, & down). The feedback can then be discussed in the next 1:1 or a specific meeting, if necessary.
+Teammates and Managers are expected to share feedback regularly in a timely manner. The goal is to keep general feedback in private through the Lattice tool and [regular 1:1s.](#regular-1:1s). Lattice allows for quick, real-time feedback to be given in both directions (lateral, upwards, & down). The feedback can then be discussed in the next 1:1 or a specific meeting, if necessary.
 
 #### **What types of general feedback can I give in Lattice?**
 
-- **Peer feedback: **This is when a teammate gives someone on their team or a cross-functional team feedback around their work or behavior to help them improve their skills.
-- **Teammate to Manager: **This is where a teammate gives upward feedback to their leader
+- **Peer feedback:** This is when a teammate gives someone on their team or a cross-functional team feedback around their work or behavior to help them improve their skills.
+- **Teammate to Manager:** This is where a teammate gives upward feedback to their leader
 - **Manager to Teammate:** This is where Managers give general feedback around their Teammates performance, skills, values alignment, and behaviors
 
-**Who will see the general feedback I give a Peer, Manager or Teammate?** \
+**Who will see the general feedback I give a Peer, Manager or Teammate?** 
 Lattice will give you the option of who you want to see the general feedback. As a reminder general feedback should be given in private and only praise/thanks feedback should be public. In Lattice you can choose one of the following visibility options when giving feedback:
 _ **Private** - This will only go to the teammate you have selected
 _ **Private + Manager** - This will go to the teammate you selected and their direct manager \* **Manager** - This will only go to the manager of the teammate you selected
@@ -183,7 +183,7 @@ _ **Private + Manager** - This will go to the teammate you selected and their di
 
 Lattice allows us to centralize general feedback and track updates. There are two main ways to share feedback through Lattice. Please see detailed instructions below and/or our Loom training.
 
-Giving feedback is not to create or resolve conflict. If you are experiencing any form of conflict at work please review our handbook page on [conflict resolution](../../../index.md). Your People Partner is always a resource as well.
+Giving feedback is not to create or resolve conflict. If you are experiencing any form of conflict at work please review our handbook page on [conflict resolution](../../../company-info-and-process/communication/conflicts.md). Your People Partner is always a resource as well.
 
 1. **Submit your feedback in Lattice ([Loom](https://www.loom.com/share/550f86d9d4e14befb68f64ea220179d2?sid=51d0f537-db98-4c06-8c94-4c4e2e7d3ef8))**
    1. Login to Lattice
@@ -212,14 +212,14 @@ Giving feedback is not to create or resolve conflict. If you are experiencing an
 
 #### **What we expect from Teammates**
 
-- Follow the general feedback [best practices]
+- Follow the general feedback [best practices](#Best-practices-for-general-feedback:)
 - It’s important that managers receive feedback from their team. We expect Teammates to share specific and actionable feedback with their manager. Have examples of the behavior, work, process, or concern ready to share.
 - We expect Teammates to share feedback with their peers in a kind, direct, timely and thoughtful manner.
 - Ideally, Teammates share feedback with each other prior to looping in management unless the concern is large and/or egregious.
 
 #### **What we expect from managers**
 
-- Follow the general feedback [best practices]
+- Follow the general feedback [best practices](#Best-practices-for-general-feedback:)
 - Direct communication & immediate feedback / coaching
 - **Understand career goals:** when Managers understand a Teammate’s career & development goals, they can help better coach them to get where they want to go.
 
@@ -423,7 +423,7 @@ Be direct and have specific, concrete examples to share with the Teammate while 
 
 ## **OTHER HANDBOOK PAGES:**
 
-[How we celebrate Teammates HB page](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/celebrate/)
+[How we celebrate Teammates HB page](../../../../../benefits-pay-perks/benefits-perks/celebrate.md)
 
 ## **Regular thanks and recognition via our #thanks channel**
 
