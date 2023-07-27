@@ -130,13 +130,13 @@ No accounts in the "Mid-Market" (1.5k - 4.5k employees) profile.
    </td>
    <td>N/A
    </td>
-   <td>Must have "2" rating or above in Skill and Values
+   <td>Must have "3" rating or above in Impact Review Process
    </td>
-   <td>Must have "2" rating or above in Skill and Values
+   <td>Must have "3" rating or above in Impact Review Process
    </td>
-   <td>Must have "2" rating or above in Skill and Values
+   <td>Must have "3" rating or above in Impact Review Process
    </td>
-   <td>Must have "2" rating or above in Skill and Values
+   <td>Must have "3" rating or above Impact Review Process
    </td>
   </tr>
 </table>
