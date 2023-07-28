@@ -41,22 +41,3 @@ In case an image needs to be deployed faster than the daily release cycle allows
 
 1. Merge the pull request
 1. Once built and deployed verify change was successful
-
-## Large releases to DotCom (Rollup releases)
-
-These releases should not be different from our normal release process as long as
-the below assumptions are true:
-
-- The rollup release does not span a 'MAJOR' release (ie v3.32.0 to v3.34.0) would violate
-  our [update policy](https://docs.sourcegraph.com/admin/updates#update-policy) of only
-  upgrading one major release at a time.
-- There are not a large (>2) number of migrations between the previous version and the
-  current version of Sourcegraph. This needs to be manually verified by checking the
-  [migrations folder](https://github.com/sourcegraph/sourcegraph/tree/main/migrations) of the Sourcegraph repo. The engineer
-  performing the release is responsible for getting the sign-off of the engineers who wrote the migrations.
-
-If the above are true, it is safe to simply update **all** images to the new
-release.
-
-Else, releases should be staggered. Either update **all** images to the next 'MAJOR'
-release or the first release that contains a questionable migration.
