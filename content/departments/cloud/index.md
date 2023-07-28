@@ -1,4 +1,4 @@
-# Cloud Opreations Team
+# Cloud Operations Team
 
 > NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
 
@@ -54,7 +54,7 @@ Build a **fully managed platform** for using Sourcegraph, providing **feature co
 ## How to contact the team and ask for help
 
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
-- For internal Sourcegraph teammates, join us in #ask-cloud-ops slack channel to ask questions or request help from our team.
+- For internal Sourcegraph teammates, join us in #discuss-cloud-ops slack channel to ask questions or request help from our team.
 - For [managed instance requests](#managed-instance-requests) or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the #cloud slack channel
 - You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle.
 
@@ -66,7 +66,7 @@ Build a **fully managed platform** for using Sourcegraph, providing **feature co
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message [`#ask-cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) for any answers or information missing from this page.
+Please message [`#discuss-cloud-ops`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) for any answers or information missing from this page.
 
 When offering customers a Cloud Instance, CE and Sales should communicate and gather information for the following topics
 
