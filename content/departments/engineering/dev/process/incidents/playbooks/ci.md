@@ -1,6 +1,6 @@
 # Continuous integration playbook
 
-- **Maintainers**: [DevInfra Team](../../../../teams/dev-experience/index.md).
+- **Maintainers**: [DevInfra Team](../../../../teams/devinfra/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
