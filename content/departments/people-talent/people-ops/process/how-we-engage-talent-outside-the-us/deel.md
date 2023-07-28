@@ -456,11 +456,11 @@ Go to [this article ](https://help.letsdeel.com/hc/en-gb/articles/4906891050769-
 
 #### If I move will I be able to switch countries and still use Deel?
 
-This will be dependent on the country you are relocating to and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process. 
+This will be dependent on the country you are relocating to and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
 #### Will I be able to change my contract relationship later on if needed? (from EOR to something else?)
 
-This is dependent on local regulations and compliance laws. You will need to reach out to people-ops@sourcegraph.com to initiate this process. 
+This is dependent on local regulations and compliance laws. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
 #### What if my circumstances change?
 
@@ -468,8 +468,6 @@ Please be sure to keep us informed of any life events. You can read more [here](
 
 #### Will Sourcegraph automatically approve employment via Deel if I am currently a contractor?
 
-This will be dependent on the country you are located in and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process. 
+This will be dependent on the country you are located in and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
-* Note: Only teammates who are in good performance standing and not currently on a Performance Improvement Plan (PIP) or formal coaching will be eligible for relocation support or EOR onboarding.
-
-
+- Note: Only teammates who are in good performance standing and not currently on a Performance Improvement Plan (PIP) or formal coaching will be eligible for relocation support or EOR onboarding.
