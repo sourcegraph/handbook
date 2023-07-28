@@ -158,7 +158,7 @@ In order to handle problems with the CI, the following elements are necessary:
 - Is this a Docker image build step?
   - 💡 This should really not be happening.
   - Is the error about the Docker daemon?
-    - **Yes**, this is a CI infrastructure flake. Ping `@devinfra-support` on Slack in the #buildkite-main or #devinfra channels.
+    - **Yes**, this is a CI infrastructure flake. Ping `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
     - **No**: reach out to the team owning that Docker image _immediately_.
 - Anything else
   - Take note of the failing step and go to next point.
