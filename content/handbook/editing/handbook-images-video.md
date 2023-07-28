@@ -7,7 +7,7 @@
 ### Adding Images to Google Cloud Storage
 
 1. View the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
-   - If you don’t have permission to view the contents of this link, request Google Cloud Storage permissions to add images to the Handbook in Entitle. [Here is a direct link to the request type needed](https://app.entitle.io/request?targetType=bundle&duration=3600&justification=Upload%20image%20to%20handbook&bundleId=560006e3-bc10-46ed-b4e8-a72cf820a59a), please edit the duration and justification for your specific purpose.
+   - If you don’t have permission to view the contents of this link, request Google Cloud Storage permissions to add images to the Handbook in Entitle. [Here is a direct link to the request type needed](https://app.entitle.io/request?targetType=bundle&duration=3600&justification=reason&bundleId=560006e3-bc10-46ed-b4e8-a72cf820a59a), please edit the duration and justification for your specific purpose.
 2. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Cloud Storage, and you want to be able to identify yours easily.
 
    **Important: make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.**
