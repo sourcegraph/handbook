@@ -54,9 +54,9 @@ Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.m
 
 ## Contact
 
-For **questions** and **discussions** about anything related to developer experience, post a message in the [#devinfra channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
+For **questions** and **discussions** about anything related to developer experience, post a message in the [#discuss-dev-infra channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
 
-For **urgent requests** or if you're **blocked** on something important, add the `@devinfra-support` tag in your message.
+For **urgent requests** or if you're **blocked** on something important, add the `@dev-infra-support` tag in your message.
 
 - The `@dev-experience-support` tag will ping an on-call member of the DevInfra team.
 - Requests tagged with `@dev-experience-support` will get priority support.
@@ -90,7 +90,7 @@ Read more about [how this team works](./processes.md).
 
 ## Useful resources
 
-- Tools and languages updates feed is available in #devinfra-notifications
+- Tools and languages updates feed is available in #dev-infra-notifications
 - GitHub issues and pull-requests feed is available in #dx-github-feed
 - Alerts in #dev-experience-alerts
 - [DevInfra initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
