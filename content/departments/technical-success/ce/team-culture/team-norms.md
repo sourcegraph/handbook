@@ -18,7 +18,7 @@ Prior to taking time off, CEs should:
 ## CE-Specific Slack Channels
 
 | Slack Channel              | Description                                                                |
-| -----------------------    | -------------------------------------------------------------------------- |
+| -------------------------- | -------------------------------------------------------------------------- |
 | #team-ce                   | Internal channel the CE team uses to touch base with each other.           |
 | #discuss-ce                | External channel for other teams to ask CEs a question.                    |
 | #discuss-customer-support  | Where support collaborates with everyone outside of support.               |
