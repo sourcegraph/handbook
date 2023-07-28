@@ -39,7 +39,7 @@ In order to handle problems with the CI, the following elements are necessary:
 
 #### Actions
 
-`buildchecker` will still allow the authors of the last few failed builds, as well as the @devinfra team, to push to the `main` branch so as to make any changes necessary to restore the pipeline to a healthy state.
+`buildchecker` will still allow the authors of the last few failed builds, as well as the @dev-infra team, to push to the `main` branch so as to make any changes necessary to restore the pipeline to a healthy state.
 
 1. Follow the ["Build has failed on the `main` branch" guide](#build-has-failed-on-the-main-branch).
 2. If the issue has been resolved, wait for `buildchecker` to unlock the branch or [manually trigger a run (click "Run workflow")](https://github.com/sourcegraph/sourcegraph/actions/workflows/buildchecker.yml).
