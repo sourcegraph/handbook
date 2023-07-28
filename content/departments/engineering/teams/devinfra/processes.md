@@ -95,16 +95,16 @@ As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
 #### Developer Infrastructure project
 
-For a lower level view of our day-to-day progress, we use the [Developer Infrastructure GitHub project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/DevInfra` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
+For a lower level view of our day-to-day progress, we use the [Developer Infrastructure GitHub project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/dev-infra` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
 
 > NOTE: Be _very_ careful when deleting things from the GitHub project, especially board views, labels, custom fields, and so on.
 
 #### Roadmap tracking issues
 
-[Roadmap tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2FDevInfra+sort%3Aupdated-desc) are what we communicate to teammates outside of the Developer Infrastructure team what we are working on and what we plan on working on.
+[Roadmap tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdev-infra+sort%3Aupdated-desc) are what we communicate to teammates outside of the Developer Infrastructure team what we are working on and what we plan on working on.
 Roadmap issues should be scoped to a bet period, and be a [tracking issue](../../dev/process/tracking_issues.md) that encapsulates everything outlined in the [planned work process](#planned-work).
 
-They should have the `team/DevInfra` and `roadmap` label, one (or more) appropriate `DevInfra/...` label(s), as well as the following text in the description to help the tracking issue bot find relevant issues:
+They should have the `team/dev-infra` and `roadmap` label, one (or more) appropriate `dev-infra/...` label(s), as well as the following text in the description to help the tracking issue bot find relevant issues:
 
 ```md
 <!-- OPTIONAL LABEL: roadmap -->
@@ -127,7 +127,7 @@ Concrete, permanent artefacts should be created from them, e.g. via the [planned
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #devinfra channel is the best way to reach us. Tag the `@devinfra-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #discuss-dev-infra channel is the best way to reach us. Tag the `@dev-infra-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 #### Raising an issue
 
@@ -137,7 +137,7 @@ If you think Developer Infrastructure is the right team to address a bug or othe
 - A more detailed explanation of the background, context, and problem that needs solving
 - Any guidance related to the impact of this issue
 - Any extra information that will help us solve or prioritize the issue
-- The label `team/DevInfra`
+- The label `team/dev-infra`
 
 ### Providing support
 
@@ -184,7 +184,7 @@ For a higher-level understanding of our responsibilities, see our [guiding princ
 
 ### Support rotation
 
-We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@devinfra-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
+We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@dev-infra-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
 ### Work leads
 
@@ -246,7 +246,7 @@ The status field for each issue in the project board roughly represents the foll
 
 ### Updating the Engineering roadmap
 
-The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2FDevInfra+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
+The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdev-infra+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
 
 ### Updating our Strategy page
 
@@ -268,7 +268,7 @@ Verify the output looks good, and email it to engineering-team@sourcegraph.com.
 
 ### DevInfra-scratch
 
-We maintain a repository with experiments and notes from the DevInfra team, [`sourcegraph/DevInfra-scratch`](https://github.com/sourcegraph/DevInfra-scratch), in an effort to improve knowledge-sharing and log our explorations and trends.
+We maintain a repository with experiments and notes from the DevInfra team, [`sourcegraph/dev-infra-scratch`](https://github.com/sourcegraph/dev-infra-scratch), in an effort to improve knowledge-sharing and log our explorations and trends.
 We encourage you to log anything you want in this repository, particularly insights from pairing sessions and so on!
 
-Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/DevInfra-scratch/blob/main/2022/ce-support/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).
+Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/dev-infra-scratch/blob/main/2022/ce-support/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).
