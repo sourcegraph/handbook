@@ -55,7 +55,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`
 
-Any questions about self-hosted deployment should be routed to the [Delivery team](../../../engineering/teams/release/index.md).
+Any questions about self-hosted deployment should be routed to the [Release team](../../../engineering/teams/release/index.md).
 
 Any questions about managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/).
 
