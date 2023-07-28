@@ -112,7 +112,7 @@ Customer Engineers (CE) or Sales may request to:
 3. If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Cloud team using the corresponding [issue template](#managed-instance-requests) in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Cloud team.
-4. Message the team in [`#ask-cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
+4. Message the team in [`#discuss-cloud-ops`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
 5. If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
 ## Supporting Manage Instance
