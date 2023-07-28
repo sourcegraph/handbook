@@ -461,32 +461,6 @@ You'll meet with two individual contributors on the TA team to learn about how y
 - Duration: 60-minutes.
 - During this stage in the interview process, we try to get a sense of your approach and thought process about curriculum and writing. You will be given a curriculum and short tutorial draft to review for the first 30 minutes of the session, after which you and Lisa will take the last 30 minutes to go through your thoughts about that approach and talk about your feedback and what you would add.
 
-### Product Marketing Manager working session
-
-- Duration: 60-minutes.
-- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
-- First, we'd like to cover some general stuff:
-  - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me, etc.)
-- Then we'd like to hear, at a high level, how you would approach putting together a GTM plan for the [TBD Product] GA launch.
-- This could easily take several hours, but we're just looking for a 60-min conversation total (including the general stuff above). _You don't need to put together a full plan!_
-- Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
-- Feel free to reach out to Andy with any questions.
-
-### Senior Customer Marketing Manager working session
-
-- Duration: 60-minutes.
-- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals.
-
-  - Part 1: Driving engagement with our Customer Advisory Board members
-    The first part of the meeting will be with Andy Schumeister (Director of Product Marketing), Victoria Yunger (Product Marketing Lead, Enterprise), and Alex Isken (Product Marketing Manager, Cloud).
-  - First, you’ll share your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-  - Then, we’d like to hear your ideas for how we can drive engagement with our Customer Advisory Board members in-between meetings in order to provide even more value for members.
-  - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're also looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation. You’ll also have an opportunity to ask the team questions during this portion.
-
-  - Part 2: Setting you up for success
-  - Then, you’ll meet 1:1 with Andy where you’ll have a chance to discuss the role and share what you need to be successful: tools, resources/special budget for anything, specific commitments from other teams, anything from Andy, etc.)
-
 ### Manager of Internal Communications working session
 
 - Duration: 60-minutes.
@@ -619,6 +593,52 @@ This interview will include a PM and designer from our team who have been focusi
 - Interviewer(s): Engineering Manager.
 - Duration: 30 min
 - Details: In this interview, you will meet with the Engineering Manager from the team you’re interviewing for, your counterpart in the PM-EM responsibilities. We will be evaluating how you collaborate and work within a team, specifically how you partner with Engineering to drive the product vision of your team. We will focus on your technical background, as you will need to be able to discuss the technical aspects of our product with customers and communicate feedback and technical insight to the team. It is important that you demonstrate enthusiasm and understanding for the product and problem space, identifying and communicating the pain that Sourcegraph solves for developers.
+
+### Product Marketing
+
+#### Product Marketing Working Session
+
+The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the PMM role and goals. This is not meant to be stressful or require excessive preparation.
+
+For this session, we will walk through the process of planning a product launch together. In advance of this session, we ask that you:
+
+- **Consider the product launch prompt and gather ideas for how you would plan this launch.**
+- **Bring a document with those ideas for launch activities. We will use this as a working document throughout the session.**
+
+**The Product**
+
+Today, Sourcegraph offers 2 products, each with separate SKUs:
+
+- Code Search, a tool for finding and fixing code across an enterprise-scale codebase.
+- Cody, a powerful AI coding assistant to help engineers write & fix code quickly.
+
+Today, one barrier to user adoption for the Code Search product is it’s query language, which can be difficult to learn. Next quarter, Sourcegraph will release a new feature as part of the Code Search product: **natural language search**. This will allow users to search their codebase with human language queries (e.g. “Where is log4j v2.0 used across my codebase?”).
+
+Pricing is still being determined for this new feature. It is possible it will be an upsell for existing Code Search buyers, but we’re also open to including it as part of the base Code Search SKU at no charge.
+
+**Launch preparation**
+
+Imagine you’re the PMM supporting the natural language search. What would your launch plan look like and what would you need to be successful? Please prepare a document with:
+
+1. A proposal for messaging to use for this launch (a short 2-3 sentence elevator pitch for the feature is ideal).
+2. A list of launch activities you would like to plan for this launch.
+3. Your general plan for sales enablement to make this launch successful.
+4. Thoughts on anything else you will need to be successful in this launch.
+
+Some things to consider:
+
+- What, if any, top-of-funnel activities would you prioritize to reach the dev community?
+- What, if any, activities would you plan to reach existing customers?
+- How might sales enablement look different depending on whether this feature is free or not?
+- What other resources, cross-collaboration, tools, etc. do you need to be successful?
+
+As a reference point, we recently had a product launch in June (Sourcegraph 5.1). The launch included updates to both Code Search and Cody. Here are some materials from that launch:
+
+- [Cody June 2023 release: Better codegen, more recipes, more context, more editors](https://about.sourcegraph.com/blog/cody-in-sourcegraph-5-1)
+- [Sourcegraph 5.1 release](https://about.sourcegraph.com/blog/release/5.1)
+- [Cody 5.1 release video](https://youtu.be/o5eB8J2HvAk)
+
+Please don't go overboard on preparation, plans, or detail. A simple Google Doc outline is ideal, and we will use that to go through your ideas together. We intend this to be a casual back and forth conversation, not a formal presentation. Also, feel free to make any assumptions about the hypothetical product and include them in your document.
 
 ## Design
 

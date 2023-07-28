@@ -10,7 +10,7 @@ This document describes how we release Sourcegraph.
 
 ### Release Schedule
 
-As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
+As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows (version numbers are subject to change):
 
 | Version | Code Freeze Date   | Release Date      |
 | ------- | ------------------ | ----------------- |
@@ -24,14 +24,14 @@ These releases **may** require [manual migration steps](https://docs.sourcegraph
 
 #### Current patch schedule
 
-| Patch date     |
-| -------------- |
-| April 5, 2023  |
-| April 19, 2023 |
-| May 3, 2023    |
-| May 17, 2023   |
-| May 31, 2023   |
-| June 14, 2023  |
+| Patch date         |
+| ------------------ |
+| July 12, 2023      |
+| July 26, 2023      |
+| August 09, 2023    |
+| August 23, 2023    |
+| September 06, 2023 |
+| September 20, 2023 |
 
 Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.

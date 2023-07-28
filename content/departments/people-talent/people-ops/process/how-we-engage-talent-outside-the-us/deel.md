@@ -440,7 +440,7 @@ You can see this information in [this handbook page](../../../../../benefits-pay
 
 #### The PTO policy in my country of residence is different from Sourcegraph’s PTO policy, which one should I follow?
 
-Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), but you will be required to take the minimum mandatory ones for your country in order for us to be compliant with Deel and your country’s laws.
+You are required to take the minimum statutory PTO days in your country in order for us to be compliant with Deel and your country’s laws. However you are not _limited to_ the minimum statutory PTO days in your country. Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), which the Deel team is aware of. Please submit your time off using the PTO by Deel Slack App as usual and it will sync with the Deel platform.
 
 The Deel team is aware of our flexible PTO policy and will honor it. Please submit your time off using the PTO by Deel Slack App as usual - it will sync with the Deel platform and you will not be limited to the number of statutory days based on your country.
 
@@ -456,14 +456,20 @@ You can read more about submitting time off via [Deel here](../../../../../benef
 
 Go to [this article ](https://help.letsdeel.com/hc/en-gb/articles/4906891050769-How-do-I-download-an-Employment-Verification-Letter-)for more information on this topic.
 
-#### If I move will I be able to switch countries and still use deel?
+#### If I move will I be able to switch countries and still use Deel?
 
-COMING SOON
+This will be dependent on the country you are relocating to and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
 #### Will I be able to change my contract relationship later on if needed? (from EOR to something else?)
 
-COMING SOON
+This is dependent on local regulations and compliance laws. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
 #### What if my circumstances change?
 
 Please be sure to keep us informed of any life events. You can read more [here](https://help.letsdeel.com/hc/en-gb/articles/4403918136209-What-if-my-circumstances-change-)
+
+#### Will Sourcegraph automatically approve employment via Deel if I am currently a contractor?
+
+This will be dependent on the country you are located in and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
+
+- Note: Only teammates who are in good performance standing and not currently on a Performance Improvement Plan (PIP) or formal coaching will be eligible for relocation support or EOR onboarding.
