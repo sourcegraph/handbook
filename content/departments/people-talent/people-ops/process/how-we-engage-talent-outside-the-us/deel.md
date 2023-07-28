@@ -442,6 +442,8 @@ You can see this information in [this handbook page](../../../../../benefits-pay
 
 You are required to take the minimum statutory PTO days in your country in order for us to be compliant with Deel and your country’s laws. However you are not _limited to_ the minimum statutory PTO days in your country. Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), which the Deel team is aware of. Please submit your time off using the PTO by Deel Slack App as usual and it will sync with the Deel platform.
 
+The Deel team is aware of our flexible PTO policy and will honor it. Please submit your time off using the PTO by Deel Slack App as usual - it will sync with the Deel platform and you will not be limited to the number of statutory days based on your country.
+
 #### How do I submit time off?
 
 You can check [this article](https://help.letsdeel.com/hc/en-gb/articles/4409044013201-How-do-I-request-time-off-) on how to ask for time off through Deel’s platform.

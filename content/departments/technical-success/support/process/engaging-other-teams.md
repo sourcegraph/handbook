@@ -55,7 +55,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`
 
-Any questions about self-hosted deployment should be routed to the [Delivery team](../../../engineering/teams/delivery/index.md).
+Any questions about self-hosted deployment should be routed to the [Release team](../../../engineering/teams/release/index.md).
 
 Any questions about managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/).
 
@@ -65,7 +65,7 @@ Any questions about managed instance deployment should be routed to the [Cloud t
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance for self-hosted customers should be routed to the [Delivery team](../../../engineering/teams/delivery/index.md).
+Any other questions about monitoring and performance for self-hosted customers should be routed to the [Release team](../../../engineering/teams/release/index.md).
 
 Any other questions about monitoring and performance for managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/../../cloud/index.md).
 

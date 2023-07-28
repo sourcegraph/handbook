@@ -1,24 +1,28 @@
-# Dev Experience team
+# Developer Infrastruture Team
 
-<img align="right" src="https://user-images.githubusercontent.com/23356519/166327839-472252c9-e3aa-460e-8c11-5655b0451ae2.png" height="300" alt="Sourcegraph dev experience temporary team logo"></img>
+<img align="right" src="https://user-images.githubusercontent.com/23356519/166327839-472252c9-e3aa-460e-8c11-5655b0451ae2.png" height="300" alt="Sourcegraph Developer Infrastructure temporary team logo"></img>
 
-The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
+The Developer Infrastructure team, or DevInfra for short, is a team focused on improving the developer experience of Sourcegraph.
 
-Need DevX help or support? Jump to the [Contact section](#contact).
+Need DevInfra help or support? Jump to the [Contact section](#contact).
+
+## Leadership
+
+{{generator:product_team_leads.ship_devinfra}}
 
 ## Members
 
-{{generator:product_team.dev_experience}}
+{{generator:product_team.ship_devinfra}}
 
 ## Strategy
 
-Find out more about the Dev Experience team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/dev-experience/index.md).
+Find out more about the Developer Infrastructure team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/devinfra/index.md).
 
 ## Responsibilities
 
 - General
   - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx) and [project board](processes.md#updating-the-dev-experience-project-board)
-  - [Dev experience support](processes.md#support)
+  - [Developer Infrastructure support](processes.md#support)
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg) ([`dev/sg`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/sg))
   - [CLA bot](https://github.com/sourcegraph/clabot-config)
@@ -50,26 +54,26 @@ Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.m
 
 ## Contact
 
-For **questions** and **discussions** about anything related to developer experience, post a message in the [#dev-experience channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
+For **questions** and **discussions** about anything related to developer experience, post a message in the [#discuss-dev-infra channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
 
-For **urgent requests** or if you're **blocked** on something important, add the `@dev-experience-support` tag in your message.
+For **urgent requests** or if you're **blocked** on something important, add the `@dev-infra-support` tag in your message.
 
-- The `@dev-experience-support` tag will ping an on-call member of the DevX team.
+- The `@dev-experience-support` tag will ping an on-call member of the DevInfra team.
 - Requests tagged with `@dev-experience-support` will get priority support.
 - Please use the `@dev-experience-support` tag only for issues that require immediate attention.
 
 You can also interact with us on **GitHub**:
 
-- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label
-- To request a code review from us, tag the @sourcegraph/dev-experience team.
-- We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#dev-experience-project).
+- [team/devinfra](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdevinfra) label
+- To request a code review from us, tag the @sourcegraph/devinfra team.
+- We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#devinfra-project).
 - We have a public [GitHub Discussions board](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience). You can also create a discussion directly on our board with the command `sg feedback`
 
-> NOTE: When referring to this team, prefer to use _Dev Experience_ or _DevX_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
+> NOTE: When referring to this team, prefer to use _Developer Infrastructure_ or _DevInfra_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
+We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md). In addition, the following principles guide the work we do in Developer Infrastructure. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
 
 - **We don't own the developer experience at Sourcegraph – we simply focus on it.** Sourcegraph engineers own the developer experience as a collective.
 - **We ship open products.** Our products are open to contributions to anyone in the company, documented, and provide migration paths if necessary. Our decisions are clearly and publicly communicated for everyone to understand our reasoning. We want to make it simple for everyone to benefit from and work on Sourcegraph’s developer experience.
@@ -86,11 +90,11 @@ Read more about [how this team works](./processes.md).
 
 ## Useful resources
 
-- Tools and languages updates feed is available in #dev-experience-notifications
+- Tools and languages updates feed is available in #dev-infra-notifications
 - GitHub issues and pull-requests feed is available in #dx-github-feed
 - Alerts in #dev-experience-alerts
-- [DevX initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
-- [devx-scratch](processes.md#devx-scratch)
+- [DevInfra initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
+- [DevInfra-scratch](processes.md#DevInfra-scratch)
 - Playbook for [CI Incidents](../../dev/process/incidents/playbooks/ci.md)
 
 ## Sourcegraph instances operated by us
