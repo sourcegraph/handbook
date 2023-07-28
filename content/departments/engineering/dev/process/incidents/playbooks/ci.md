@@ -169,7 +169,7 @@ In order to handle problems with the CI, the following elements are necessary:
   - Docker daemon not being reachable.
   - Missing tools that we use to run the steps, such as `go`, `node`, `comby`, ...
   - Errors from `asdf`, which is used to manage the above tools.
-- **Yes**: ping `@devinfra-support` on Slack in the #buildkite-main or #devinfra channels.
+- **Yes**: ping `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
   - If nodoby is online to help:
     - Reach out for help in #dev-chat
 
@@ -218,7 +218,7 @@ You can also refer to the [Loom walkthrough "how to find out if a CI failure is 
 #### Actions
 
 1. Inspect [webhooks status](https://github.com/sourcegraph/sourcegraph/settings/hooks) on the `sourcegraph/sourcegraph` repository settings
-1. If you're not authorized to see this page, ping `@devinfra-support` or escalate to `@github-owners`.
+1. If you're not authorized to see this page, ping `@dev-infra-support` or escalate to `@github-owners`.
 1. Check the status of the webhook, if it's not green, something is wrong. However, if it is green it is no guarantee that the webhook is operating as usual! If GitHub Webhooks is experiencing degraded performance, it might not be emitting events to the endpoint at all any more, and the green status was the last submission before the outage started. See the next step to verify the status of Webhooks.
 1. Check [GitHub Status](https://www.githubstatus.com/)
 1. Check [Buildkite Status](https://www.buildkitestatus.com/)

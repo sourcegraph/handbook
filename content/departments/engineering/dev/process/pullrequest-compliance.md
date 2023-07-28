@@ -2,7 +2,7 @@
 
 All pull requests must provide [a test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) and be reviewed by a teammate. If for situational reasons, it needs to be exempted, an [exception is automatically recorded](https://docs.sourcegraph.com/dev/background-information/testing_principles#exceptions).
 
-Exceptions are periodically reviewed by the @devinfra-team on a weekly basis.
+Exceptions are periodically reviewed by the @dev-infra-team infra-team on a weekly basis.
 
 ## Contact
 
