@@ -16,7 +16,7 @@ Need DevInfra help or support? Jump to the [Contact section](#contact).
 
 ## Strategy
 
-Find out more about the Developer Infrastructure team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/dev-experience/index.md).
+Find out more about the Developer Infrastructure team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/devinfra/index.md).
 
 ## Responsibilities
 
