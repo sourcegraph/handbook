@@ -5,7 +5,7 @@ The purpose of this Handbook Page is to provide Managers and Teammates with the 
 ## **On this page:**
 
 - [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture?)
-- [Formal reviews](<#Formal-performance-(impact)-reviews>)
+- [Formal reviews](#formal-performance-impact-reviews)
 - [Continuous feedback](#Continuous-feedback)
   - [Thanks/Praise feedback](#hanks/praise:)
   - [General feedback](#General-feedback)

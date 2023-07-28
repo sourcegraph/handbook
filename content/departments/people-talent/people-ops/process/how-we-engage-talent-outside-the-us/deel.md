@@ -454,14 +454,20 @@ You can read more about submitting time off via [Deel here](../../../../../benef
 
 Go to [this article ](https://help.letsdeel.com/hc/en-gb/articles/4906891050769-How-do-I-download-an-Employment-Verification-Letter-)for more information on this topic.
 
-#### If I move will I be able to switch countries and still use deel?
+#### If I move will I be able to switch countries and still use Deel?
 
-COMING SOON
+This will be dependent on the country you are relocating to and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
 #### Will I be able to change my contract relationship later on if needed? (from EOR to something else?)
 
-COMING SOON
+This is dependent on local regulations and compliance laws. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
 
 #### What if my circumstances change?
 
 Please be sure to keep us informed of any life events. You can read more [here](https://help.letsdeel.com/hc/en-gb/articles/4403918136209-What-if-my-circumstances-change-)
+
+#### Will Sourcegraph automatically approve employment via Deel if I am currently a contractor?
+
+This will be dependent on the country you are located in and Finance approval. You will need to reach out to people-ops@sourcegraph.com to initiate this process.
+
+- Note: Only teammates who are in good performance standing and not currently on a Performance Improvement Plan (PIP) or formal coaching will be eligible for relocation support or EOR onboarding.
