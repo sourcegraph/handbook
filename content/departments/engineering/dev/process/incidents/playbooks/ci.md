@@ -137,7 +137,7 @@ In order to handle problems with the CI, the following elements are necessary:
 #### Actions
 
 1. Escalate by creating an incident (`/incident` on Slack).
-1. Get some help by pinging `@devinfra-support` on Slack in the #buildkite-main or #devinfra channels.
+1. Get some help by pinging `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
 
 ### Spotted a flake
 
