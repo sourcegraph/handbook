@@ -94,7 +94,7 @@ ship_coresvc:
   em: interim_ship_coresvc
   tl: rafal_gajdulewicz
   issue_labels:
-    - team/coresvc
+    - team/core-services
 
 security:
   title: Security
