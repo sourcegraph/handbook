@@ -115,7 +115,7 @@ While others may be directly or indirectly involved with specific implementation
 The external stakeholders on the customer side will vary depending on the customer's organizational structure, needs, and internal processes. External stakeholders can largely be broken down into the below categories.
 
 - Project Sponsor/ Champion - usually a leader invested in distributing Sourcegraph to developers
-- Project Team - developers, admins, DevX team members, etc. dedicated to standing up Sourcegraph
+- Project Team - developers, admins, DevInfra team members, etc. dedicated to standing up Sourcegraph
 - Project Manager - someone responsible for tracking progress, delegating tasks, and communication related to the implementation
 - Engineering Leadership - managers, directors, etc. directly overseeing developers that will be impacted by Sourcegraph
 - Engineers - end users providing feedback throughout UAT and user group roll-outs

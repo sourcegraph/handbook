@@ -1,14 +1,18 @@
-# Delivery team
+# Release Team
 
 ## Mission
 
 Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Make it as easy as possible to access this value, and to maintain it going forwards by easily staying up to date with Sourcegraph's latest developments.
 
+## Leadership
+
+{{generator:product_team_leads.ship_release}}
+
 ## Members
 
-{{generator:product_team.delivery}}
+{{generator:product_team.ship_release}}
 
-For more detailed information on the Delivery team members, check out our [README page](./team/index.md) which expands on our profile.
+For more detailed information on the Release team members, check out our [README page](./team/index.md) which expands on our profile.
 
 ## Responsibilities
 
@@ -23,7 +27,7 @@ For more detailed information on the Delivery team members, check out our [READM
 ## Contact
 
 - #delivery channel, or `@delivery-support` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
-- [team/delivery](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdelivery) label and [@sourcegraph/delivery](https://github.com/orgs/sourcegraph/teams/delivery) team on GitHub.
+- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
 
 ## Support
 

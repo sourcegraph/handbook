@@ -1,8 +1,8 @@
 # 🗞 Developer experience newsletter
 
-Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevX team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevX team focuses on but is owned by everyone](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
+Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevInfra team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevInfra team focuses on but is owned by everyone](../../../../strategy-goals/strategy/devinfra/index.md#guiding-principles).
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 To learn more about components of Sourcegraph's developer experience, check out the [developer documentation](https://docs.sourcegraph.com/dev).
 
@@ -158,7 +158,7 @@ Additionally, the web app can now be instrumented with OpenTelemetry as well, wi
 
 To get started with testing out OpenTelemetry locally, refer to our [OpenTelemetry development docs](https://docs.sourcegraph.com/dev/how-to/opentelemetry_local_dev) and refer to our [tracing for site admins guidance](https://docs.sourcegraph.com/admin/observability/tracing).
 
-If you are interested in learning more about OpenTelemetry in general and the specifics of the engineering work required to make this happen, check out [this recording of a DevX team Q&A about OpenTelemetry](https://drive.google.com/drive/folders/1z_Uf_Stp3frDKB_UXFtenbQJdYB4LikO)!
+If you are interested in learning more about OpenTelemetry in general and the specifics of the engineering work required to make this happen, check out [this recording of a DevInfra team Q&A about OpenTelemetry](https://drive.google.com/drive/folders/1z_Uf_Stp3frDKB_UXFtenbQJdYB4LikO)!
 
 ### Frontend news
 
@@ -240,7 +240,7 @@ The default buildkite failures Slack messages are not the most actionnable ones,
 
 ## Insights
 
-Now that [S2](https://sourcegraph.sourcegraph.com) is our default instance, all [DevX insights](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxfQ==) have been ported over there. While a few of those relate mostly to what the DevX team is doing (for example the [logging migration](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMH0=)) others insights maybe quite interesting to take a look at, such at [the insight tracking the evolution of tests in the codebase](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMX0=).
+Now that [S2](https://sourcegraph.sourcegraph.com) is our default instance, all [DevInfra insights](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxfQ==) have been ported over there. While a few of those relate mostly to what the DevInfra team is doing (for example the [logging migration](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMH0=)) others insights maybe quite interesting to take a look at, such at [the insight tracking the evolution of tests in the codebase](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMX0=).
 
 ![Testing code insight](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/test_insights.png)
 
@@ -263,7 +263,7 @@ You can find the new docs in [How to add logging](https://docs.sourcegraph.com/d
 
 [![how to find out if a CI failure is a recurring flake](https://cdn.loom.com/sessions/thumbnails/58cedf44d44c45a292f650ddd3547337-1655933919745-with-play.gif)](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337)
 
-More details are available in the handbook: [Grafana Cloud - CI logs](../../dev/tools/observability/dotcom.md#ci-logs), and if you have any questions please reach out in #dev-experience!
+More details are available in the handbook: [Grafana Cloud - CI logs](../../dev/tools/observability/dotcom.md#ci-logs), and if you have any questions please reach out in #discuss-dev-infra!
 
 ### Observability features
 
@@ -293,7 +293,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ### `sg` goodies
 
-**`sg [cmd...] --feedback`**: Love (or hate) `sg`? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag on _all_ commands, we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
+**`sg [cmd...] --feedback`**: Love (or hate) `sg`? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag on _all_ commands, we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [Developer Infrastructure category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
 
 **Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
 
@@ -316,7 +316,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
 
-**`sg` analytics**: The DevX team is experimenting with collecting analytics on `sg` usage and issues! For now this is a manual process, so if you'd like to contribute you data to our explorations, you can submit your data with `sg analytics submit [username]`, or check out what data has been collected with `sg analytics view`!
+**`sg` analytics**: The DevInfra team is experimenting with collecting analytics on `sg` usage and issues! For now this is a manual process, so if you'd like to contribute you data to our explorations, you can submit your data with `sg analytics submit [username]`, or check out what data has been collected with `sg analytics view`!
 
 **ADRs ❤️ `sg`**: You will soon be able to list, search, view, and create [Architecture Decision Records](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions) directly from `sg`! [#37718](https://github.com/sourcegraph/sourcegraph/pull/37718)
 
@@ -330,11 +330,11 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 You can browse this month [tech-radar](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/sourcegraph/sourcegraph/main/doc/dev/radar/tech-radar.csv) to get a bird's-eye view of Sourcegraph tech stack! Check this [guide](https://docs.sourcegraph.com/dev/how-to/maintain-tech-radar) to learn about how updating it with your team initiatives.
 
-### DevOps and DevX team merge
+### DevOps and DevInfra team merge
 
-As you may have heard, the Cloud DevOps team is splitting up into a new Cloud team, with the remaining teammates merging into the DevX team - so we're happy to welcome 3 new teammates to the DevX team!
+As you may have heard, the Cloud DevOps team is splitting up into a new Cloud team, with the remaining teammates merging into the DevInfra team - so we're happy to welcome 3 new teammates to the DevInfra team!
 
-A consequence of this change will be a shift in ownership of various domains - this is still a work in progress, but you can see an overview [in the Cloud DevOps handoff plan](https://docs.google.com/document/d/1byFDrIMzPS4Dp9jzQhLcS-RpvZV-gPmc2cpSfaxVBII/edit#heading=h.e8f9rqf2cnkm). Broadly speaking, the main changes are that the DevX team will soon own and lead initatives on the following fronts:
+A consequence of this change will be a shift in ownership of various domains - this is still a work in progress, but you can see an overview [in the Cloud DevOps handoff plan](https://docs.google.com/document/d/1byFDrIMzPS4Dp9jzQhLcS-RpvZV-gPmc2cpSfaxVBII/edit#heading=h.e8f9rqf2cnkm). Broadly speaking, the main changes are that the DevInfra team will soon own and lead initatives on the following fronts:
 
 - observability (including internal tooling and external services like Grafana Cloud, Sentry, etc)
 - the operation of sourcegraph.com
@@ -362,11 +362,11 @@ We've also extended the existing [`internal/observation`](https://sourcegraph.co
 This enables you to easily write logs that includes helpful context like traces, metadata, observation context, and more.
 To learn more, check out [How to add observability](https://docs.sourcegraph.com/dev/how-to/add_observability).
 
-The DevX team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #dev-experience for feedback and questions!
+The DevInfra team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #dev-experience for feedback and questions!
 
 ### `sg` experience ✨
 
-The [`sg`](https://docs.sourcegraph.com/dev/background-information/sg) experience has been a major focus for the DevX team and we have been working towards a variety of improvements for both users and contributers of `sg`!
+The [`sg`](https://docs.sourcegraph.com/dev/background-information/sg) experience has been a major focus for the DevInfra team and we have been working towards a variety of improvements for both users and contributers of `sg`!
 
 First up, usage improvements:
 
@@ -388,7 +388,7 @@ For developers wanting to streamline their developer experience with `sg` functi
 - `sg.config.yaml` can now leverage external secrets (we currently support `gcloud` only) with the new `secrets:` field, and `sg` commands can use the [`secretsStore.GetExternal(...)` API](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9d34772e9d1156c8b0738d1b0b831089d9e45833/-/blob/dev/sg/sg_analytics.go?L37:29-37:40).
   - This is used by `sg test frontend-e2e`, which you can use to run Sourcegraph's E2E tests with ease! ([#34627](https://github.com/sourcegraph/sourcegraph/pull/34627))
 - The output API has been overhauled to be centralized in `std.Out`, which now centralizes the exports of a variety of `sg`-specific utilities for incorporating ✨ _fancy_ ✨ output for some added bling. ([#35269](https://github.com/sourcegraph/sourcegraph/pull/35269))
-- Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevX team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go. ([#35417](https://github.com/sourcegraph/sourcegraph/pull/35417))
+- Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevInfra team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go. ([#35417](https://github.com/sourcegraph/sourcegraph/pull/35417))
 
 ### Following your code from PR to production 🚢
 
@@ -462,7 +462,7 @@ Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 ### SOC2 compliance processes
 
@@ -481,7 +481,7 @@ A new bot, `pr-auditor`, is now live in `sourcegraph/sourcegraph` and is rolling
 
 **Pull request reviews are now also required by default**. Branch protections have been enabled in `sourcegraph/sourcegraph`. In other repositories with `pr-auditor` review checks must be opted out of by including `No review required: ...` within a pull request's test plan.
 
-To learn more, refer to [our updated testing guidance](https://docs.sourcegraph.com/dev/background-information/testing_principles). You can find DevX SOC compliance documentation by control point in [this search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=). If you have any questions or feedback, please do not hesitate to reach out in #dev-experience or in our [GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)!
+To learn more, refer to [our updated testing guidance](https://docs.sourcegraph.com/dev/background-information/testing_principles). You can find DevInfra SOC compliance documentation by control point in [this search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=). If you have any questions or feedback, please do not hesitate to reach out in #dev-experience or in our [GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)!
 
 ### Internal tools and libraries
 
@@ -632,7 +632,7 @@ It now powers the Docker check in CI as well! ([#31217](https://github.com/sourc
 
 Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 ### Internal tools and libraries
 
@@ -668,7 +668,7 @@ Actors (used to identify a request in the context of a user or internal actor) a
 
 #### Subsequent `main` pipeline failures will now result in a branch lock
 
-In response to a variety of CI incidents (including [INC-21](https://github.com/sourcegraph/sourcegraph/issues/25482) at the end of September) we have introduced automated branch locks via a tool called [`buildchecker`](https://github.com/sourcegraph/sourcegraph/tree/main/dev/buildchecker). When `buildchecker` detects a series of CI failures, it will now automatically restrict push access to `main` to authors of recent failed builds and the DevX team until it sees a passed build, at which point it will unlock the branch. A notification will be posted in Slack to #buildkite-main as well mentioning the relevant teammates.
+In response to a variety of CI incidents (including [INC-21](https://github.com/sourcegraph/sourcegraph/issues/25482) at the end of September) we have introduced automated branch locks via a tool called [`buildchecker`](https://github.com/sourcegraph/sourcegraph/tree/main/dev/buildchecker). When `buildchecker` detects a series of CI failures, it will now automatically restrict push access to `main` to authors of recent failed builds and the DevInfra team until it sees a passed build, at which point it will unlock the branch. A notification will be posted in Slack to #buildkite-main as well mentioning the relevant teammates.
 
 It is the responsibility of authors of recently failed builds to investigate what might have gone wrong, seek help if needed, and help get the pipeline back green. We hope this will prevent long periods of time where many commits to `main` go untested due to failing jobs. To learn more, check out the [branch lock playbook](../../dev/process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch)
 
@@ -725,7 +725,7 @@ If you have ideas of other features that would be great, don't hesitate to join 
 
 Hello everyone, and welcome to another iteration of the Developer Experience newsletter!
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 ### Onboarding
 
@@ -733,15 +733,15 @@ Significant progress has been made with sg setup, a new command that is slated t
 
 ### Continuous integration
 
-The Dev Experience team is proposing a "build sheriff" rotation in [RFC 515](https://docs.google.com/document/d/1rHOOgvWmBB5c4aS_wWPogNCAWT6_tww8tceSy6nzFy8/edit), with the goal of distributing knowledge and responsibilities around our CI infrastructure to all of engineering through regular rotations of "build sheriffs".
+The Developer Infrastructure team is proposing a "build sheriff" rotation in [RFC 515](https://docs.google.com/document/d/1rHOOgvWmBB5c4aS_wWPogNCAWT6_tww8tceSy6nzFy8/edit), with the goal of distributing knowledge and responsibilities around our CI infrastructure to all of engineering through regular rotations of "build sheriffs".
 
-You may have noticed a daily update in #dev-experience providing an overview of how CI has behaved that day—this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
+You may have noticed a daily update in #discuss-dev-infra providing an overview of how CI has behaved that day—this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
 
 ![image](https://user-images.githubusercontent.com/23356519/143134471-85e5cea1-a1a2-44cd-96ff-36f06b7fe125.png)
 
 This dashboard is powered by build logs that are now parsed from Buildkite output and uploaded to Loki, a log database available for query in Grafana Cloud using [LogQL](https://grafana.com/docs/loki/latest/logql/). [Try it out here](https://sourcegraph.grafana.net/goto/LZur5Hpnz?orgId=1)! This can be especially useful when seeing if a build issue is a common recurrence.
 
-We are also trialing a number of additional annotations for build failures that should serve to help surface actionable errors more easily, and are working towards exporting an API for it that will enable more checks to easily add digestible output to builds. Let us know in #dev-experience if you have any ideas for how this could be improved!
+We are also trialing a number of additional annotations for build failures that should serve to help surface actionable errors more easily, and are working towards exporting an API for it that will enable more checks to easily add digestible output to builds. Let us know in #discuss-dev-infra if you have any ideas for how this could be improved!
 
 ![image](https://user-images.githubusercontent.com/23356519/143134415-bc30233b-3d2e-4eb9-a3e6-99add60e839d.png)
 
@@ -761,13 +761,13 @@ On a similar note, tests have been undergoing [incremental updates](https://gith
 
 ## Nov 2, 2021
 
-Hello everyone! Welcome back to the Developer Experience newsletter. It is a compilation of announcements related to development experience at Sourcegraph. DevX is a global effort
+Hello everyone! Welcome back to the Developer Experience newsletter. It is a compilation of announcements related to development experience at Sourcegraph. DevInfra is a global effort
 
 To be mentioned here in the next iteration, please tag your PR or issue with dx-announce!
 
-### DevX team mission statement
+### DevInfra team mission statement
 
-Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/dev-experience](../../../../strategy-goals/strategy/dev-experience/index.md)
+Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/devinfra](../../../../strategy-goals/strategy/devinfra/index.md)
 
 ### Buildkite incident post-mortem(s)
 
@@ -881,4 +881,4 @@ Just sign up via GSuite SSO on [https://sourcegraph.grafana.net](https://sourceg
 
 Metrics and parity with /-/debug/grafana is on the roadmap—follow [#25407](https://github.com/sourcegraph/sourcegraph/issues/25407) for updates on that!
 
-**Shoutouts to teammates that improved our dev experience in September** [**Robert Lin, Valery Bugakov, Thorsten Ball, JH, Camden Cheek, Erik Seliger, Coury Clark and Quinn Slack**](https://github.com/sourcegraph/sourcegraph/pulls?page=2&q=is%3Apr+is%3Amerged+label%3Adx) **.**
+**Shoutouts to teammates that improved our Developer Infrastructure in September** [**Robert Lin, Valery Bugakov, Thorsten Ball, JH, Camden Cheek, Erik Seliger, Coury Clark and Quinn Slack**](https://github.com/sourcegraph/sourcegraph/pulls?page=2&q=is%3Apr+is%3Amerged+label%3Adx) **.**
