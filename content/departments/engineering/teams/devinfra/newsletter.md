@@ -2,7 +2,7 @@
 
 Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevInfra team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevInfra team focuses on but is owned by everyone](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #devinfra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 To learn more about components of Sourcegraph's developer experience, check out the [developer documentation](https://docs.sourcegraph.com/dev).
 
@@ -217,17 +217,17 @@ Flaky tests happen, which is why the docs have [a specific section](https://docs
 
 **All builds on the main branch are now faster by about 6 to 8 minutes**. This is achieved by [caching the client bundle build](https://github.com/sourcegraph/sourcegraph/pull/38940) in the job that builds the _server_ container that is later used to run e2e tests.
 
-![builds duration heatmap over july](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/DevInfra/newsletter/july2022/heatmap_duration.png)
+![builds duration heatmap over july](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/heatmap_duration.png)
 
 The caching mechanism is disabled on releases, to be 100% sure we are shipping the right client bundle. When the caching is used, an annotation such as the one below is displayed, making it explicit from when the client bundle was cached, so we can easily see if it should have been invalidated. Those two extra precautions are taken because the caching is done externally and do not rely on any client tooling, therefore invalidation depends on how careful we are at not missing files that could change the build result.
 
-![annotation showing a client bundle cache hit](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/DevInfra/newsletter/july2022/client_bundle_cache.png)
+![annotation showing a client bundle cache hit](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/client_bundle_cache.png)
 
 **Stability improvement for frontend steps**: Npm has became increasingly unstable over the past weeks, which caused an increase in client flakes when fetching packages that our code depends on. The CI now wraps `yarn install` in [a retrying loop](https://github.com/sourcegraph/sourcegraph/pull/39454) to mitigate those. Oldest trick in the book!
 
 **Build notifications:** We've rolled out new build notifications! What was wrong with the old ones you might ask? Well, they just took you to the build and you were on your own from then on. With the new build notifications, we show what job failed on your build! We provide a link for you to go straight to the jobs output! If that wasn't enough, we've also added a way for you to see all the logs of your build in Grafana. All of this from the comfort of Slack. We've aimed to make the notifications more actionable and since we're now in control of the notifications we aim to make more improvements.
 
-![slack notification for a build failure](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/DevInfra/newsletter/july2022/build_tracker.png)
+![slack notification for a build failure](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/build_tracker.png)
 
 **More annotations!**: We've added a custom Mocha reporter which will upon any E2E and QA test failures generate a annotation on Buildkite with the relevant failures. Now you don't have to doom scroll through a bunch of lines just to find the failures!
 The default buildkite failures Slack messages are not the most actionnable ones, so we have decided to replace them with our in-house notifications which we have total control on:
@@ -242,7 +242,7 @@ The default buildkite failures Slack messages are not the most actionnable ones,
 
 Now that [S2](https://sourcegraph.sourcegraph.com) is our default instance, all [DevInfra insights](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxfQ==) have been ported over there. While a few of those relate mostly to what the DevInfra team is doing (for example the [logging migration](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMH0=)) others insights maybe quite interesting to take a look at, such at [the insight tracking the evolution of tests in the codebase](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMX0=).
 
-![Testing code insight](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/DevInfra/newsletter/july2022/test_insights.png)
+![Testing code insight](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/test_insights.png)
 
 ## June 24, 2022
 
@@ -263,7 +263,7 @@ You can find the new docs in [How to add logging](https://docs.sourcegraph.com/d
 
 [![how to find out if a CI failure is a recurring flake](https://cdn.loom.com/sessions/thumbnails/58cedf44d44c45a292f650ddd3547337-1655933919745-with-play.gif)](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337)
 
-More details are available in the handbook: [Grafana Cloud - CI logs](../../dev/tools/observability/dotcom.md#ci-logs), and if you have any questions please reach out in #devinfra!
+More details are available in the handbook: [Grafana Cloud - CI logs](../../dev/tools/observability/dotcom.md#ci-logs), and if you have any questions please reach out in #discuss-dev-infra!
 
 ### Observability features
 
@@ -441,7 +441,7 @@ Since the end of March, 100% of our CI builds are now run on stateless agents. I
 
 To try and maintain parity with the stateful agents of old, we have implemented a variety of measures to keep CI times down:
 
-- [Cross-node git repository mirrors](https://github.com/sourcegraph/DevInfra-scratch/blob/main/2022/stateless-agents/log.snb.md#2022-04-08-repository-clone-optimization) means that repository cloning is consistently just as fast - if not faster! - than stateful builds.
+- [Cross-node git repository mirrors](https://github.com/sourcegraph/devx-scratch/blob/main/2022/stateless-agents/log.snb.md#2022-04-08-repository-clone-optimization) means that repository cloning is consistently just as fast - if not faster! - than stateful builds.
 - `asdf` caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well.
 - We have enabled [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s, which means lower wait times for your CI builds. ([infrastructure#3296](https://github.com/sourcegraph/infrastructure/pull/3296))
 
@@ -462,7 +462,7 @@ Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #devinfra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 ### SOC2 compliance processes
 
@@ -632,7 +632,7 @@ It now powers the Docker check in CI as well! ([#31217](https://github.com/sourc
 
 Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #devinfra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 ### Internal tools and libraries
 
@@ -725,7 +725,7 @@ If you have ideas of other features that would be great, don't hesitate to join 
 
 Hello everyone, and welcome to another iteration of the Developer Experience newsletter!
 
-To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #devinfra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #discuss-dev-infra or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
 ### Onboarding
 
@@ -735,13 +735,13 @@ Significant progress has been made with sg setup, a new command that is slated t
 
 The Developer Infrastructure team is proposing a "build sheriff" rotation in [RFC 515](https://docs.google.com/document/d/1rHOOgvWmBB5c4aS_wWPogNCAWT6_tww8tceSy6nzFy8/edit), with the goal of distributing knowledge and responsibilities around our CI infrastructure to all of engineering through regular rotations of "build sheriffs".
 
-You may have noticed a daily update in #devinfra providing an overview of how CI has behaved that day—this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
+You may have noticed a daily update in #discuss-dev-infra providing an overview of how CI has behaved that day—this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
 
 ![image](https://user-images.githubusercontent.com/23356519/143134471-85e5cea1-a1a2-44cd-96ff-36f06b7fe125.png)
 
 This dashboard is powered by build logs that are now parsed from Buildkite output and uploaded to Loki, a log database available for query in Grafana Cloud using [LogQL](https://grafana.com/docs/loki/latest/logql/). [Try it out here](https://sourcegraph.grafana.net/goto/LZur5Hpnz?orgId=1)! This can be especially useful when seeing if a build issue is a common recurrence.
 
-We are also trialing a number of additional annotations for build failures that should serve to help surface actionable errors more easily, and are working towards exporting an API for it that will enable more checks to easily add digestible output to builds. Let us know in #devinfra if you have any ideas for how this could be improved!
+We are also trialing a number of additional annotations for build failures that should serve to help surface actionable errors more easily, and are working towards exporting an API for it that will enable more checks to easily add digestible output to builds. Let us know in #discuss-dev-infra if you have any ideas for how this could be improved!
 
 ![image](https://user-images.githubusercontent.com/23356519/143134415-bc30233b-3d2e-4eb9-a3e6-99add60e839d.png)
 
