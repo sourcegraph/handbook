@@ -14,7 +14,7 @@ Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/
 
 ### Naming conventions
 
-To help with navigation and discoverability, follow these naming conventions for channels. If you see find a channel that does not follow these, request to rename it in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
+To help with navigation and discoverability, follow these naming conventions for channels. If you see find a channel that does not follow these, request to rename it in #ask-it-tech-ops.
 
 <table>
   <tr>
@@ -52,7 +52,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#wg-
    </td>
-   <td>Stands for “working group” For cross-functional teams working together. 
+   <td>Stands for “working group” For cross-functional teams working together.
    </td>
    <td>#wg-swag, #wg-impact-reviews
    </td>
@@ -60,7 +60,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#location-
    </td>
-   <td>For teammates in the same location to connect. 
+   <td>For teammates in the same location to connect.
    </td>
    <td>#location-bayarea, #location-london, #location-nyc
    </td>
@@ -84,7 +84,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#ext-
    </td>
-   <td>To connect with EXTERNAL customers, consultants, etc. 
+   <td>To connect with EXTERNAL customers, consultants, etc.
    </td>
    <td>#ext-splunk-sourcegraph, #ext-indeed-management, #ext-video-prod
    </td>
@@ -131,7 +131,7 @@ _All teammates are automatically added to these channels when they join Sourcegr
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/general">#announce-company </a>
    </td>
-   <td>Critical information that all Sourcegraph teammates need to stay on top of. 
+   <td>Critical information that all Sourcegraph teammates need to stay on top of.
 <p>
 Messages here are applicable to 75% of the company and posting permissions are limited.
    </td>
@@ -139,7 +139,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/C0379USFD7E">#ask-exec-team</a>
    </td>
-   <td>Ask Sourcegraph leadership any question and get an answer. 
+   <td>Ask Sourcegraph leadership any question and get an answer.
    </td>
   </tr>
   <tr>
@@ -155,9 +155,9 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/progress">#progress</a> 
+   <td><a href="https://sourcegraph.slack.com/archives/progress">#progress</a>
    </td>
-   <td>Celebrations for milestone moments and progress that impact our company strategy. 
+   <td>Celebrations for milestone moments and progress that impact our company strategy.
    </td>
   </tr>
   <tr>
@@ -167,15 +167,15 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#announce-teammate-departures</a> 
+   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#announce-teammate-departures</a>
    </td>
-   <td>Stay informed about teammates who are leaving Sourcegraph. 
+   <td>Stay informed about teammates who are leaving Sourcegraph.
    </td>
   </tr>
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/thanks">#thanks</a>
    </td>
-   <td>Say thank you to teammates for big moments and small ones. 
+   <td>Say thank you to teammates for big moments and small ones.
    </td>
   </tr>
 </table>
@@ -186,7 +186,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/C01B6F2F1G8">#team-people-managers</a>
    </td>
-   <td>Private channel - Discussion among people managers and 
+   <td>Private channel - Discussion among people managers and
    </td>
   </tr>
 </table>
@@ -223,6 +223,12 @@ An emoji reaction can often replace the need for a follow-up message. You can ho
 - ✅ = I’ve seen it, my action is complete
 - 👍 = I agree
 
+#### Custom emoji
+
+All teammates are able to upload their own custom emoji to our Slack Workspace. When adding a new animated emoji, keep in mind that rapidly changing or flashing emoji, such as the iconic party parrot, may not be friendly for teammates who are [impacted by photosensitivity or susceptible to seizures](https://www.reddit.com/r/Epilepsy/comments/jzmjdx/seizure_inducing_emojis/).
+
+If you spot a custom emoji that may be a bit too animated, report it to #ask-it-tech-ops so it can be removed.
+
 ### Use threads to organize discussions and reduce noise
 
 Threads help you create organized discussions around specific messages. They let you discuss a topic in more detail without adding clutter to a channel or direct message (DM) conversation.
@@ -242,7 +248,7 @@ Private channels will automatically be created for the following categories of c
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
 - Affinity groups: Channels for affinity groups that prefer a private space.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)to make a channel private.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #ask-it-tech-ops to make a channel private.
 
 ### Organize Slack to make it work for you
 
