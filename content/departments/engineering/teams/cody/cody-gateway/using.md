@@ -43,7 +43,7 @@ First, [provision access](#provisioning-access) for the customer.
 Once access has been provisioned, for self-hosted customers please point them to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/explanations/cody_gateway) to enable Cody and self-serve configuration for completions and embeddings.
 
 > NOTE: The generated access token from [provisioning access](#provisioning-access) is generally not required - tokens are automatically generated based on the Sourcegraph instance's license token.
-> In site configuration, we recommend *not* setting an access token explicitly when using Cody Gateway to take advantage of automatic defaults.
+> In site configuration, we recommend _not_ setting an access token explicitly when using Cody Gateway to take advantage of automatic defaults.
 
 ## Analyzing usage
 
