@@ -4,9 +4,15 @@ The org chart is generated automatically from data files in the handbook reposit
 
 ## [Engineering](../departments/engineering/index.md)
 
-Our Engineering department includes design, product management, and development.
+Our Engineering department includes design, and development.
 
 {{generator:reporting_structure.eng_lead}}
+
+## Product
+
+Our Product team includes product management (PM) and technical project management (TPM).
+
+{{generator:reporting_structure.product_lead}}
 
 ## Cloud
 

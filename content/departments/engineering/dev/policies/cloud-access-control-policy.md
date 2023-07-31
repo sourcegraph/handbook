@@ -111,7 +111,7 @@ Making changes to the infrastructure via Terraform or deployment (Buildkite, Arg
 
 #### Sourcegraph instances
 
-- Cloud, Security, DevX can approve changes.
+- Cloud, Security, DevInfra can approve changes.
 - All engineers can apply changes through CD.
 
 ### Desired end-state
@@ -122,11 +122,11 @@ Making changes to the infrastructure via Terraform or deployment (Buildkite, Arg
 - Changes are performed by a Terraform Cloud-like solution.
 - Cloud, Security teams can approve changes to instances (updating terraform code).
 - Cloud, Security on-call teammates can request elevated access to apply Terraform changes outside CI with automatic approval.
-- Cloud, Devx, Security teams can approve changes to CI/CD configurations (ArgoCD, Buildkite).
+- Cloud, DevInfra, Security teams can approve changes to CI/CD configurations (ArgoCD, Buildkite).
   Sourcegraph instances
 - Changes are performed by a Terraform Cloud-like solution.
-- Cloud, Devx, Security teams can approve changes.
-- Cloud, Devx on-call teammates can request elevated access to apply Terraform changes outside. CI with automatic approval.
+- Cloud, DevInfra, Security teams can approve changes.
+- Cloud, DevInfra on-call teammates can request elevated access to apply Terraform changes outside. CI with automatic approval.
 
 ## Telemetry and monitoring
 

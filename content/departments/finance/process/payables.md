@@ -2,27 +2,25 @@
 
 ## What is Airbase?
 
-Airbase is an all-in-one spend management platform. At Sourcegraph we use Airbase for Purchase Orders, vendor and international contractor invoice processing, vendor and international contractor payments, physical credit cards for our worldwide team, virtual cards for our worldwide team, and expense reimbursements for our US team. Essentially any spend you do on behalf of Sourcegraph will run through Airbase!
+Airbase is an all-in-one spend management and procurement platform. At Sourcegraph we use Airbase for Vendor Onboarding Requests, Purchase Orders, vendor and international contractor invoice processing, vendor and international contractor payments, physical credit cards for our worldwide team, virtual cards for our worldwide team, and expense reimbursements for our US team. Essentially any spend you do on behalf of Sourcegraph will run through Airbase!
 
 Airbase gives our department leads and Finance visibilty into spend in real time on the Airbase platform. Additionally we are able to route all expenses through the proper approvals to make sure we are in compliance for audits.
 
 Vacation or Out of Office Mode: Allow approvers to set up an approval delegate for themselves when going out of office. Once the delegation period starts, all the requests that were meant for the approver will be routed to the delegate. Admins will also be able to set up delegates for users that they know are out of office but forgot to delegate their approvals. Read the help (https://help.airbase.com/hc/en-us/articles/13158925441556-Set-up-Approval-Delegates) center article here to learn more.
 
+## Guided Procurement (fka Vendor Setup)
+
+In order for us to be able to evaluate, maintain and monitor vendor relationships to reduce risks, we require everyone to use Airbase when dealing with a vendor engagement. Specific directions on engagement a new vendor, renewal, or simply submitting for a PO for an existing vendor an be found on the Sourcegraph Procurement Policy page.
+
 ## Airbase Limits
 
 Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../../../benefits-pay-perks/benefits-perks/spending-company-money.md)).
 
-Specific categories of purchases that are listed on the [spending company money page](../../../benefits-pay-perks/benefits-perks/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](../../../benefits-pay-perks/pay-expenses/expenses/index.md) directly.
+Specific categories of purchases that are listed on the [spending company money page](../../../benefits-pay-perks/benefits-perks/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the guided proceument approval process. They are pre-approved and can be [submitted for reimbursement](../../../benefits-pay-perks/pay-expenses/expenses/index.md) directly.
 
 However, if you intend to make any other purchase that falls above the limits below, please refer to our [Company accounts payable policy](ap.md).
 
-| Amount (Annual Equivalent) | Approval Required                                       | Recommend Method of Payment |
-| -------------------------- | ------------------------------------------------------- | --------------------------- |
-| $0–$10,000                 | Direct Manager                                          | Airbase                     |
-| $10,000 – $50,000          | Direct Manager, Department Head, FP&A                   | Airbase                     |
-| $50,000 or greater         | Direct Manager, Department Head, FP&A, VP of Operations | Airbase                     |
-
-## Airbase Corporate credit cards
+## Airbase Corporate Credit Cards
 
 We offer corporate credit cards for team purchases. We use [Airbase](https://dashboard.airbase.io/home), which allows you to receive a physical card, or to use a vendor specific virtual card if desired.
 

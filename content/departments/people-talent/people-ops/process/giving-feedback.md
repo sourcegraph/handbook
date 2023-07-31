@@ -43,13 +43,13 @@ A self review is your chance to celebrate and reflect on your performance over t
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> Looking back over the past performance period, how would you rate your level of success in achieving your commitments or goals as it relates to your role and level? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
+   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate your performance against the expectations of your role, level and our values? Please provide specific examples in the comment field that justifies your performance rating. Where did you excel? Where do you need improvement? [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide examples in the comment field that support your rating.
 
    </td>
-   <td>I would rate my performance over the past 6-months as: ____.  <em>[Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. </em>
+   <td>I would rate my performance over the past 6-months as: ____.  <em>[Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance]. </em>
 <p>
 
 At a high level, I have demonstrated my ability to contribute to the company in a meaningful way and have accomplished several projects that I’m proud of and have contributed to the success of the business. Here are some key areas where I feel I successfully achieved my commitments in the past 6-months:
@@ -70,64 +70,6 @@ Example 2
 
 <p>
 Overall, I feel that I have effectively fulfilled my commitments and demonstrated my ability to contribute to the company in a meaningful way. Despite facing some challenges and obstacles such as [insert challenges], I overcame them by [insert any actions taken]. I am confident in my abilities and open to feedback to continue growing and improving in my role.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Values:</strong> Looking back over the past performance period, how would you rate your level of success in showcasing our values? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. 
-<p>
-
-Please provide supporting examples in the comment field that best describe how you exhibited Sourcegraph values over the past performance period.
-
-   </td>
-   <td>I would rate my level of success in showcasing Sourcegraph values over the past 6-months as: ____  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations].
-<p>
-
-During the past performance period, I consistently aimed to embody the company's values in my work and interactions with teammates.
-
-<ul>
-
-[Insert value]
-
-<li><strong>Situation</strong>: I have frequently displayed [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how you have embodied the value]
-<li><strong>Impact</strong>: [explain the impact or significance of your values alignment]
-
-[Insert value]
-
-<li><strong>Situation</strong>: I have frequently displayed [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how you have embodied the value]
-<li><strong>Impact</strong>: [explain the impact or significance of your values alignment]
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Growth Opportunities:</strong> I have showcased the expected domain knowledge, skills, and execution in alignment with my role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree ] 
-<p>
-
-Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.
-
-   </td>
-   <td>I would rate my level of success in showcasing expected domain knowledge, skills, and execution as: ____ [insert rating, e.g. 1, 2 or 3. Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree]. 
-<p>
-
-Throughout the past 6-months, I made a concerted effort to consistently apply my skills and knowledge in line with my role and exepctations. For Example:
-
-- **Situation**: Successful implementation of [insert project, process etc.]
-- **Behavior**: In order to launch this, it was critical to leverage my skills [insert skills and knowledge applied]
-- **Impact** in executing was critical to [explain the outcome].
-
-<p>To amplify my performance in the next review period…<ul>
-
-<li><strong>Start:</strong> I should [insert specific action, e.g. seek out opportunities for professional development to stay current with industry trends and developments]. I also think it would be beneficial for me to [insert specific action, e.g. work on improving my time management skills to better balance competing priorities].
-
-<li><strong>Stop</strong>: I will benefit from focusing more on [insert areas to focus on] and stop doing [insert what you would like to stop doing to make yourself better].
-
-<li><strong>Continue:</strong> finally, I believe it would be valuable for me to [insert specific action, e.g. continue to seek out and act on feedback from my manager and colleagues to further develop my skills and knowledge].
-</li>
-</ul>
 </li>
 </ul>
    </td>
@@ -179,7 +121,7 @@ Feedback from teammates we work closely with is some of the most valuable we wil
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> This teammate consistently delivers quality work in line with their role/level.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
+   <td><strong>Performance:</strong> In the past 6-months, this teammate consistently delivers quality work in line with the expectations of their role/level/values. Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period.
@@ -187,7 +129,7 @@ Please provide specific examples in the comment field that supports how this Tea
 <p>
 <em>* Note: Response is only visible to this teammate’s Manager.</em>
    </td>
-   <td>[Teammate name] consistently delivers quality work that aligns with their role.  Below are some examples that help explain why I rated them as a _____.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
+   <td>[Teammate name] consistently delivers quality work that aligns with their role.  Below are some examples that help explain why I rated them as a _____.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <ul>
 
 Example 1
@@ -206,60 +148,7 @@ Example 2
    </td>
   </tr>
   <tr>
-   <td><strong>Values: </strong>This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]  
-<p>
-
-Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-
-<p>
-<em>* Note: Response is only visible to teammates Manager.</em>
-   </td>
-   <td>[Teammate name] consistently embodies our company values, specifically [insert value] and [insert value]: 
-<ul>
-
-[Insert value]
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-[Insert value]
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Growth Opportunities:</strong> This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<p>
-
-Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
-
-<p>
-<em>* Note: Response is only visible to this teammates Manager.</em>
-   </td>
-   <td>I [insert Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] that [Teammate name] has showcased the expected domain knowledge, skills, and execution in alignment with their role/level.
-
-<p>
-To amplify performance in the next 6-moths: 
-<ul>
-
-<li><strong>Start:</strong> [teammate name] should [insert specific actions or behaviors that this teammate should start to become stronger].
-
-<li><strong>Stop</strong>: we all have areas for improvement, and I believe [teammate name] will be even more impactful if they stop doing [insert what you would like them to stop doing to become more impactful].  The reason I believe they should stop doing [insert what you mentioned above] is because [insert the reason for he feedback].
-
-<li><strong>Continue:</strong> finally, I believe it would be valuable for [teammate name] to [insert specific action(s)], as this has been impactful in the past.
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Goal Setting</strong>: How can this teammate better support you over the next 6 months?  
+   <td><strong>Goal Setting</strong>: How can this teammate better support you, your team, and the company over the next 6 months? 
 <p>
 
 <em>\* Note: Response is visible to this teammate.</em>
@@ -299,7 +188,7 @@ People leaders at Sourcegraph play a vital role in shaping the experiences of th
 
 When it comes time for a manager to write performance reviews about their direct reports, many come to realize that it is much easier said than done. Successfully drafting and delivering a meaningful review to a teammate is no small feat, but it is incredibly important to provide thoughtful feedback to help guide and support teammate growth and development. The key to a successful review is to be thorough, honest, and clear, while also focusing on both strengths and areas for improvement. By taking the time to carefully consider the teammate's performance and by actively engaging in an open dialogue, a manager can help foster a culture of continuous improvement and growth, and create a foundation for future success.
 
-Once all reviews are written and the manager has gone through the [calibration process](COMING SOON) with the people team, it is necessary that you deliver the feedback in an effective way. You can read more about delivering impact review feedback [here](COMING SOON).
+Once all reviews are written and the manager has gone through the [calibration process](compensation-and-leveling/preparing-for-calibrations.md) with the people team, it is necessary that you deliver the feedback in an effective way. You can read more about delivering impact review feedback [here](teammate-sentiment/impact-reviews/index.md#delivering-the-review-to-teammates).
 
 **Example - manager-to-teammate review**
 
@@ -311,16 +200,15 @@ Once all reviews are written and the manager has gone through the [calibration p
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar] 
+   <td><strong>Performance:</strong> Looking back over the past review period, how would you rate this teammate’s performance against the expectations of their role, level and our values. In 2-3 sentences, please provide justification for selected performance rating. Additionally, Where did they excel? Where do they need improvement? [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 
 Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
 
-   </td>
-   <td>9-box performance score = ____.  <em> [Please leverage<a href=teammate-sentiment/impact-reviews/index.md#the-talent-assessment-using-the-9-box> the 9-box </a>to determine this teammates performance score, either 1, 2 or 3].</em>
 <p>
-
-Over the past 6-months, [Teammate name] has [exceeded high bar, met high bar, or did not meet high bar]. Here are some examples that justify this performance rating:
+  
+  </td>
+   <td>Over the past 6-months, [Teammate name] has shown [Distinguished Performance, Superior Performance, Met Performance Expectations, Partially Successful Performance, Unsuccessful Performance]. Here are some examples that justify this performance rating:
 
 <ul>
 Example 1
@@ -350,97 +238,6 @@ Below is what your peers said about your performance:
 <li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
 
 <li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Values: </strong>What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeding High Bar, 2 Meeting High Bar, 3 Not Meeting High Bar]  
-<p>
-
-Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-
-<p>
-   </td>
-   <td>[Teammate name] consistently embodies our company values, specifically [insert value] and [insert value]: 
-<ul>
-
-Value 1
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value] 
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-Value 2
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value] 
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-<p>
-—-------------------- 
-<p>
-Below is what your peers said about your values alignment: 
-<ul>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Growth Opportunities:</strong> This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<p>
-
-Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
-
-   </td>
-   <td>[Teammate name] has demonstrated a [strong, average, or below average] understanding of their role and the required domain knowledge/skills. Below are examples that justify why I rated them a: ____  [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<ul>
-
-Example 1
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
-<li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
-<li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
-
-Example 2
-
-<li><strong>Situation</strong>: successful completion of [specific accomplishment or goal]
-<li><strong>Behavior</strong>: [provide concrete example of how they achieved the goal]
-<li><strong>Impact</strong>: [explain the impact or significance of the accomplishment]
-
-<p>
-To amplify performance in the next 6-moths: 
-<ul>
-
-<li><strong>Start:</strong> [teammate name] should [insert specific actions or behaviors that this teammate should start to become better].
-
-<li><strong>Stop</strong>: we all have areas for improvement, and I believe [teammate name] will be even more impactful if they stop doing [insert what you would like them to stop doing to become more impactful].  The reason I believe they should stop doing [insert what you mentioned above] is because [insert the reason for the feedback].
-
-<li><strong>Continue:</strong> finally, I believe it would be valuable for [teammate name name] to continue to [insert specific action(s)], as this has been impactful in the past [explain why this behavior is helpful / impactful and provide positive reinforcement].
-
-<p>
-—-------------------- 
-<p>
-Below is what your peers said about you: 
-<ul>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-
-<li><em>Insert quote from peer reviews  (but maintain peer anonymity) </em>
-</li>
-</ul>
 </li>
 </ul>
 </li>
@@ -494,7 +291,7 @@ Gathering feedback from a manager's direct reports is important in the performan
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
+   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
 <p>
 Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period. 
 <p>
@@ -517,69 +314,6 @@ Example 2
 </li>
 </ul>
    </td>
-  </tr>
-  <tr>
-   <td><strong>Values: </strong>My manager consistently showcased our values over the past review period.  [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] 
-<p>
-Please provide supporting examples that best describe if and how your manager exhibited Sourcegraph values over the past performance period. 
-<p>
-<em>* Note: Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.</em>
-   </td>
-   <td>[Manager name] consistently embodies our company values, specifically [insert value] and [insert value]: 
-<ul>
-
-Value 1
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-
-Value 2
-
-<li><strong>Situation</strong>: [insert value]
-<li><strong>Behavior</strong>: [provide concrete example of how they embody the value]
-<li><strong>Impact</strong>: [explain the impact or significance of their values alignment and how it positively impacts the team/company]
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Growth Opportunities:</strong> My Manager showcased the expected domain knowledge, skills, and execution required to effectively manage me. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree]
-<p>
-Please provide specific examples in the comment field that support what your manager should start, stop, or continue doing to amplify performance.  
-<p>
-<em>* Note: Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.</em>
-   </td>
-   <td>[Manager name] [has OR does not have] the knowledge and skill necessary to support me and our team.  Below are examples that justify why I rated them a: ____  [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] 
-<ul>
-
-Example 1
-
-<li><strong>Situation</strong>: [manager name] helped me [insert details of how your manager supported you to achieve a goal, overcome a barrier, and/or achieve success]
-<li><strong>Behavior</strong>: [provide concrete example of how they helped you be successful]
-<li><strong>Impact</strong>: [explain the impact or significance of their support]
-
-Example 2
-
-<li><strong>Situation</strong>: [manager name] helped me [insert details of how your manager supported you to achieve a goal, overcome a barrier, and/or achieve success]
-<li><strong>Behavior</strong>: [provide concrete example of how they helped you be successful]
-<li><strong>Impact</strong>: [explain the impact or significance of their support]
-
-<p>
-To amplify performance in the next 6-moths: 
-<ul>
-
-<li><strong>Start:</strong> [manager name] should [insert specific actions or behaviors that manager should start doing to better support you and the team].
-
-<li><strong>Stop</strong>: we all have areas for improvement, and I believe [manager name] will be even more impactful if they stop doing [insert what you would like them to stop doing to become more impactful].  The reason I believe they should stop doing [insert what you mentioned above] is because [insert the reason for the feedback].
-
-<li><strong>Continue:</strong> finally, I believe it would be valuable for [manager name] to continue to [insert specific action(s)], as this has been impactful in the past [explain why this behavior is helpful / impactful and provide positive reinforcement].
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-  </tr>
   <tr>
    <td><strong>Goal Setting</strong>: What support do you need from your manager to be successful in the next 6-months?
 <p>

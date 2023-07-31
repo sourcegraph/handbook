@@ -217,51 +217,68 @@ export async function generateTeamMembersList() {
   return pageContent
 }
 
+export function generateProductTeamLeads(productTeam, teamMembers) {
+  let pageContent = ''
+  if (productTeam.strategy_link) {
+    pageContent += `- [Strategy Page](${String(productTeam.strategy_link)})\n`
+  }
+  if (productTeam.pm) {
+    const bioLink = createBioLink(teamMembers[productTeam.pm].name)
+    pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
+  }
+  if (productTeam.em) {
+    const bioLink = createBioLink(teamMembers[productTeam.em].name)
+    pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
+  }
+  if (productTeam.tl) {
+    const bioLink = createBioLink(teamMembers[productTeam.tl].name)
+    pageContent += `- Tech Lead: [${String(teamMembers[productTeam.tl].name)}](${String(bioLink)})\n`
+  }
+  if (productTeam.design) {
+    const bioLink = createBioLink(teamMembers[productTeam.design].name)
+    pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
+  }
+  if (productTeam.pmm) {
+    const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
+    pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)})\n`
+  }
+  if (productTeam.issue_labels) {
+    for (let index = 0; index < productTeam.issue_labels.length; index++) {
+      if (index === 0) {
+        pageContent += '- Issue labels: '
+      }
+      if (index < productTeam.issue_labels.length - 1) {
+        pageContent += `[${String(
+          productTeam.issue_labels[index]
+        )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])}), `
+      }
+      if (index === productTeam.issue_labels.length - 1) {
+        pageContent += `[${String(
+          productTeam.issue_labels[index]
+        )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])})`
+        pageContent += '\n'
+      }
+    }
+  }
+  return pageContent
+}
+
 export async function generateProductTeamsList() {
   const productTeams = await readYamlFile('data/product_teams.yml')
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const productTeam of Object.values(productTeams)) {
     pageContent += `\n\n### ${String(productTeam.title)} team\n`
-    if (productTeam.strategy_link) {
-      pageContent += `- [Strategy Page](${String(productTeam.strategy_link)})\n`
-    }
-    if (productTeam.pm) {
-      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
-      pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
-    }
-    if (productTeam.em) {
-      const bioLink = createBioLink(teamMembers[productTeam.em].name)
-      pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
-    }
-    if (productTeam.design) {
-      const bioLink = createBioLink(teamMembers[productTeam.design].name)
-      pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
-    }
-    if (productTeam.pmm) {
-      const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
-      pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)})\n`
-    }
-    if (productTeam.issue_labels) {
-      for (let index = 0; index < productTeam.issue_labels.length; index++) {
-        if (index === 0) {
-          pageContent += '- Issue labels: '
-        }
-        if (index < productTeam.issue_labels.length - 1) {
-          pageContent += `[${String(
-            productTeam.issue_labels[index]
-          )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])}), `
-        }
-        if (index === productTeam.issue_labels.length - 1) {
-          pageContent += `[${String(
-            productTeam.issue_labels[index]
-          )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])})`
-          pageContent += '\n'
-        }
-      }
-    }
+    pageContent += generateProductTeamLeads(productTeam, teamMembers)
   }
   return pageContent
+}
+
+export async function generateProductTeamLeadsList(teamId) {
+  const productTeams = await readYamlFile('data/product_teams.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+  const productTeam = productTeams[teamId]
+  return generateProductTeamLeads(productTeam, teamMembers)
 }
 
 export async function generateProductTeamUseCaseList(product_team) {

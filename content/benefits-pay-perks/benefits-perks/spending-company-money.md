@@ -56,15 +56,11 @@ Please see below how to get your computer and which specs to get depending on yo
 
 ### Full-time teammates
 
-Please place an order for your Sourcegraph computer immediately after signing your contract. You are responsible for ordering your laptop through one of the following ways:
+Please place an order for your Sourcegraph computer immediately after signing your contract. You are responsible for ordering your laptop through [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase your laptop through our local partner in your country.
 
-**US/Canada/UK-based teammates**
+**Teammates based outside of the US/Canada/UK**
 
-- Place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase your laptop through CDW US/CA or our partner in the UK.
-
-**Teammates based in other countries**
-
-- Purchase and expense your own Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple ID). All MacBooks and Apple Care insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
+- For some countries, we do not have a local partner to order through yet. In this case, the Tech Ops team will reach out and request that you purchase and expense your own Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple Business Org ID). All MacBooks and AppleCare insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
 - Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required depending on your role, please see below for necessary specs corresponding to your role.

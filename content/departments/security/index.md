@@ -134,7 +134,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
   </tr>
   <tr>
-   <td>Dev Experience
+   <td>Developer Infrastructure
    </td>
    <td>Mohammad
    </td>
