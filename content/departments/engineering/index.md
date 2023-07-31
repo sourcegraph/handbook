@@ -39,7 +39,7 @@ We use [PR-FAQs](./job-fair.md#pr-faqs) to submit roadmap proposals. Once a proj
   - [Code Insights](teams/code-insights/index.md)
   - [Code Exploration](teams/code-exploration/index.md)
   - [Code Intelligence](teams/code-intelligence/index.md)
-- Ship
+- [Ship](ship/index.md)
   - [Cloud Operations](../../departments/cloud/index.md)
   - [Core Services](teams/coresvc/index.md)
   - [Developer Infrastructure](teams/devinfra/index.md)
