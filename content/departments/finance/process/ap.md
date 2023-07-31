@@ -123,13 +123,13 @@ We categorize our vendors into the following groups:
 
 ##### How do I submit a request in Airbase?
 
+You can find a how to video [here](https://www.loom.com/share/487a4cc9432b441db8835e1f5ca82435) and for existing vendors missing a PO [here](https://www.loom.com/share/2fbc680dfa224e24801acf2d7eced92f).
+
 **Step 1:** Visit [Airbase](https://dashboard.airbase.io/home)
 
 - Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
 
 **Step 2:** Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
-
-You can find a how to video [here](https://www.loom.com/share/487a4cc9432b441db8835e1f5ca82435) and for existing vendors missing a PO [here](https://www.loom.com/share/2fbc680dfa224e24801acf2d7eced92f).
 
 1.  Primary Information: Select your type of purchase category
 
