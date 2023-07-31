@@ -4,20 +4,23 @@
 
 We segment our customers into [three discrete tiers](../../../../strategy-goals/strategy/index.md#market-segmentation). This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using both the estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
 
-### Tech Nurtured
+### Scaled Success Program
 
-Our Tech Nurtured function will serve customers who do not qualify for a dedicated Technical Advisor. This motion includes:
+Our Scaled Success program serves customers who do not qualify for a dedicated Technical Advisor in digital-first, tech-nurtured manner. This motion includes:
 
-- An onboarding email to the instance admin detailing how to properly configure their instance, an introduction to our Discord community and our Support team email, and pointing them to our existing onboarding materials.
-- A second email to the instance admin to be forwarded directly to the new end users. This email will include the training materials needed for an end user to ramp up on Sourcegraph.
-- Monthly usage recap emails to the instance admin detailing feature usage.
-- Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade.
+- Onboarding:
+  - Admin: emails detailing how to properly configure their instance, an introduction to our Discord community and our Support team email, and pointing them to our existing onboarding materials.
+  - End users: sent to the account point of contact, to be forwarded directly to the new end users. This email will include the training materials needed for an end user to ramp up on Sourcegraph.
+- Ongoing Communication:
+  - Monthly usage recap emails to the instance admin detailing feature usage.
+  - Release notices and product updates.
+  - Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade.
 
-We are utilizing Vitally to target and send our Tech Nurtured communications.
+We are utilizing Vitally to target and send all communications.
 
 #### V2+
 
-This motion is being iterated on quickly. Immediate next steps to improve the experience are:
+Our Scaled Success program is being iterated on quickly. Immediate next steps to improve the experience are:
 
 - Dedicated training video playlists for every Sourcegraph Code Search and Cody feature
 

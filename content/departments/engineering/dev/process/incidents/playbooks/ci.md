@@ -1,10 +1,10 @@
 # Continuous integration playbook
 
-- **Maintainers**: [DevX Team](../../../../teams/dev-experience/index.md).
+- **Maintainers**: [DevInfra Team](../../../../teams/devinfra/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
-Sourcegraph's [continuous integration (CI)](https://docs.sourcegraph.com/dev/background-information/continuous_integration) is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
+Sourcegraph's [continuous integration (CI)](https://docs.sourcegraph.com/dev/background-information/continuous_integration) is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevInfra team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
 
 This page lists common failure scenarios and provides a step by step guide to get the CI back in an operational state.
 
@@ -39,7 +39,7 @@ In order to handle problems with the CI, the following elements are necessary:
 
 #### Actions
 
-`buildchecker` will still allow the authors of the last few failed builds, as well as the @dev-experience team, to push to the `main` branch so as to make any changes necessary to restore the pipeline to a healthy state.
+`buildchecker` will still allow the authors of the last few failed builds, as well as the @dev-infra team, to push to the `main` branch so as to make any changes necessary to restore the pipeline to a healthy state.
 
 1. Follow the ["Build has failed on the `main` branch" guide](#build-has-failed-on-the-main-branch).
 2. If the issue has been resolved, wait for `buildchecker` to unlock the branch or [manually trigger a run (click "Run workflow")](https://github.com/sourcegraph/sourcegraph/actions/workflows/buildchecker.yml).
@@ -137,7 +137,7 @@ In order to handle problems with the CI, the following elements are necessary:
 #### Actions
 
 1. Escalate by creating an incident (`/incident` on Slack).
-1. Get some help by pinging `@dev-experience-support` on Slack in the #buildkite-main or #dev-experience channels.
+1. Get some help by pinging `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
 
 ### Spotted a flake
 
@@ -158,7 +158,7 @@ In order to handle problems with the CI, the following elements are necessary:
 - Is this a Docker image build step?
   - 💡 This should really not be happening.
   - Is the error about the Docker daemon?
-    - **Yes**, this is a CI infrastructure flake. Ping `@dev-experience-support` on Slack in the #buildkite-main or #dev-experience channels.
+    - **Yes**, this is a CI infrastructure flake. Ping `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
     - **No**: reach out to the team owning that Docker image _immediately_.
 - Anything else
   - Take note of the failing step and go to next point.
@@ -169,7 +169,7 @@ In order to handle problems with the CI, the following elements are necessary:
   - Docker daemon not being reachable.
   - Missing tools that we use to run the steps, such as `go`, `node`, `comby`, ...
   - Errors from `asdf`, which is used to manage the above tools.
-- **Yes**: ping `@dev-experience-support` on Slack in the #buildkite-main or #dev-experience channels.
+- **Yes**: ping `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
   - If nodoby is online to help:
     - Reach out for help in #dev-chat
 
@@ -218,7 +218,7 @@ You can also refer to the [Loom walkthrough "how to find out if a CI failure is 
 #### Actions
 
 1. Inspect [webhooks status](https://github.com/sourcegraph/sourcegraph/settings/hooks) on the `sourcegraph/sourcegraph` repository settings
-1. If you're not authorized to see this page, ping `@dev-experience-support` or escalate to `@github-owners`.
+1. If you're not authorized to see this page, ping `@dev-infra-support` or escalate to `@github-owners`.
 1. Check the status of the webhook, if it's not green, something is wrong. However, if it is green it is no guarantee that the webhook is operating as usual! If GitHub Webhooks is experiencing degraded performance, it might not be emitting events to the endpoint at all any more, and the green status was the last submission before the outage started. See the next step to verify the status of Webhooks.
 1. Check [GitHub Status](https://www.githubstatus.com/)
 1. Check [Buildkite Status](https://www.buildkitestatus.com/)

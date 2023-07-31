@@ -17,6 +17,10 @@ The guild leader is responsible for selecting release captains. The current sche
 - Organizing and adminstrating the release guild, such as establishing policies, procedures, and documenting how we work
 - Being a point of contact for the guild, and being responsible for overall communications to the rest of the guild
 
+## Release schedule
+
+As a release captain, you are expected to only be running non-emergency releases during your standard working hours. That means you should alert the guild leader to any timezone conflicts when you are assigned as a captain to a release, and work to find a new time that works for your timezone. The standard release time is 10 AM PST / PDT. You should suggest a replacement time with enough hours to work on the release, typically a full work day in the worst case.
+
 ## FAQ
 
 ### I am not sure whether I am the best person to be dedicating time to it?

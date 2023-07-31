@@ -1,4 +1,4 @@
-# Dev Experience processes
+# Developer Infrastructure processes
 
 ## Planning and tracking work
 
@@ -15,7 +15,7 @@ This applies for both [planned work](#planned-work) and [unplanned work](#unplan
 
 ### Planned work
 
-We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views/33) and [scratch documents](#scratch-documents) to asynchronously discuss our roadmap.
+We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/354) and [scratch documents](#scratch-documents) to asynchronously discuss our roadmap.
 
 When planning work, the [relevant work lead](#work-leads) should:
 
@@ -43,12 +43,12 @@ Note that teammates can also support a work lead on all of the above - it is not
 
 ### Unplanned work
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../strategy-goals/strategy/dev-experience/index.md#roadmap), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../strategy-goals/strategy/devinfra/index.md#roadmap), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
 
-We encourage you to log unplanned work in [GitHub issues](#tracking), the [devx-scratch repository](#devx-scratch), or in [the daily Geekbot updates](#slack).
+We encourage you to log unplanned work in [GitHub issues](#tracking), the [DevInfra-scratch repository](#DevInfra-scratch), or in [the daily Geekbot updates](#slack).
 If the work is a response to an active problem or urgent request that must be prioritized outside of our [planned work](#planned-work), create an issue and add the `reactive` label so that we can prioritize the work and review our reactive work load at the end of a bet period.
 
 Note that even unplanned work should take into account a [rollout strategy](#rollout-strategy), especially if it is implementing improvements based on feedback.
@@ -64,7 +64,7 @@ For each work item, we ask the following questions:
 From the answers, we extend the Definition of Done for the item to include these steps:
 
 - Create an announement about the change in immediate channels (relevant Slack channels)
-- Add an entry to the Dev Experience newsletter
+- Add an entry to the Developer Infrastructure newsletter
 - Update documentation if applicable
 - Create resources to help engineers adopt the change
 - Create content to educate engineers about the background and reason for the change
@@ -93,24 +93,24 @@ On top of [the company wide process for reviewing pull requests](https://docs.so
 
 As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
-#### Dev Experience project
+#### Developer Infrastructure project
 
-For a lower level view of our day-to-day progress, we use the [Dev Experience GitHub project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/devx` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
+For a lower level view of our day-to-day progress, we use the [Developer Infrastructure GitHub project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/dev-infra` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
 
 > NOTE: Be _very_ careful when deleting things from the GitHub project, especially board views, labels, custom fields, and so on.
 
 #### Roadmap tracking issues
 
-[Roadmap tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) are what we communicate to teammates outside of the Dev Experience team what we are working on and what we plan on working on.
+[Roadmap tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdev-infra+sort%3Aupdated-desc) are what we communicate to teammates outside of the Developer Infrastructure team what we are working on and what we plan on working on.
 Roadmap issues should be scoped to a bet period, and be a [tracking issue](../../dev/process/tracking_issues.md) that encapsulates everything outlined in the [planned work process](#planned-work).
 
-They should have the `team/devx` and `roadmap` label, one (or more) appropriate `devx/...` label(s), as well as the following text in the description to help the tracking issue bot find relevant issues:
+They should have the `team/dev-infra` and `roadmap` label, one (or more) appropriate `dev-infra/...` label(s), as well as the following text in the description to help the tracking issue bot find relevant issues:
 
 ```md
 <!-- OPTIONAL LABEL: roadmap -->
 ```
 
-> NOTE: Be sure to add _all_ your desired labels (including at least one `devx/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
+> NOTE: Be sure to add _all_ your desired labels (including at least one `DevInfra/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
 
 A project board view for roadmap tracking issues is also available [here](https://github.com/orgs/sourcegraph/projects/212/views/33).
 
@@ -127,17 +127,17 @@ Concrete, permanent artefacts should be created from them, e.g. via the [planned
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #discuss-dev-infra channel is the best way to reach us. Tag the `@dev-infra-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 #### Raising an issue
 
-If you think Dev Experience is the right team to address a bug or other request, please [create an issue](https://github.com/sourcegraph/sourcegraph/issues). The issue should include:
+If you think Developer Infrastructure is the right team to address a bug or other request, please [create an issue](https://github.com/sourcegraph/sourcegraph/issues). The issue should include:
 
 - A short description of the ask
 - A more detailed explanation of the background, context, and problem that needs solving
 - Any guidance related to the impact of this issue
 - Any extra information that will help us solve or prioritize the issue
-- The label `team/devx`
+- The label `team/dev-infra`
 
 ### Providing support
 
@@ -151,12 +151,12 @@ General tips:
 
 Tips for [tracking](#tracking) support work:
 
-1. Make sure to [update devx-scratch](#devx-scratch) for any notable support efforts and problems you ran into.
+1. Make sure to [update DevInfra-scratch](#DevInfra-scratch) for any notable support efforts and problems you ran into.
 2. If a sizeable amount of work is surfaced (e.g. an active problem or urgent request), follow the [unplanned work tracking](#unplanned-work) guidance to help us keep track of how much reactive work we are tackling, and to ensure the work gets prioritized as needed.
 
 #### Build pipeline support
 
-> NOTE: The DevX team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure. Learn more: [CI reponsibilities](#ci-support-responsibilities)
+> NOTE: The DevInfra team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure. Learn more: [CI reponsibilities](#ci-support-responsibilities)
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration). The goal of this process is to identify the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 
@@ -172,19 +172,19 @@ If there are any issues, ensure issues are followed up on:
 
 ##### CI support responsibilities
 
-The DevX team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure.
+The DevInfra team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure.
 
-If a tool or test is behaving in an unstable manner, the team using the tool or test (see [build pipeline support](#build-pipeline-support) for how we infer ownership) has the responsibility of leading an investigation into what might be causing said instability, with the _assistance_ of the DevX team if helpful.
+If a tool or test is behaving in an unstable manner, the team using the tool or test (see [build pipeline support](#build-pipeline-support) for how we infer ownership) has the responsibility of leading an investigation into what might be causing said instability, with the _assistance_ of the DevInfra team if helpful.
 
-The team leading the investigation should either fix the issue directly, or if the issue requires changes in the [DevX team's ownership/responsibility areas](#responsibilities) (e.g. increasing resource limits for build agents, or making significant changes to the pipeline generator), request the desired changes through an issue tagged `team/devx`.
+The team leading the investigation should either fix the issue directly, or if the issue requires changes in the [DevInfra team's ownership/responsibility areas](#responsibilities) (e.g. increasing resource limits for build agents, or making significant changes to the pipeline generator), request the desired changes through an issue tagged `team/DevInfra`.
 
-For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
+For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../strategy-goals/strategy/devinfra/index.md#guiding-principles).
 
 ## Team roles
 
 ### Support rotation
 
-We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@dev-experience-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
+We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@dev-infra-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
 ### Work leads
 
@@ -214,7 +214,7 @@ Every week we hold an informal, totally optional coffee break to connect sociall
 
 ### `sg` hack hour
 
-There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
+There is a weekly `sg` hack hour that Thorsten Ball and the DevInfra team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
 
 When the hack hour starts, a meeting link will be posted in #dev-experience.
 
@@ -222,17 +222,17 @@ To learn more about contributing to `sg`, check out the [contribution guide](htt
 
 ### Slack
 
-Teammates communicate in #dev-experience, #dev-experience-internal, and #dev-experience-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #dev-experience-updates.
+Teammates communicate in #team-dev-infra, and #team-dev-infra-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #dev-infra-notifications.
 
 ## Housekeeping
 
 ### Weekly reminders
 
-At the start of each week, the PM posts a reminder in `#dev-experience-internal` indicating who is on support and who is leading meetings.
+At the start of each week, the TL posts a reminder in `#team-dev-infra` indicating who is on support and who is leading meetings.
 
-### Updating the Dev Experience project board
+### Updating the Developer Infrastructure project board
 
-All engineers update the [Dev Experience project board](https://github.com/orgs/sourcegraph/projects/212) in advance of the weekly sync.
+All engineers update the [Developer Infrastructure project board](https://github.com/orgs/sourcegraph/projects/212) in advance of the weekly sync.
 
 The status field for each issue in the project board roughly represents the following:
 
@@ -246,7 +246,7 @@ The status field for each issue in the project board roughly represents the foll
 
 ### Updating the Engineering roadmap
 
-The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
+The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdev-infra+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
 
 ### Updating our Strategy page
 
@@ -254,7 +254,7 @@ The PM updates this page at the start of each month.
 
 ### Newsletter
 
-The DevX team is responsible for a **monthly** (ish) newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
+The DevInfra team is responsible for a **monthly** (ish) newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
 
 To prepare a new issue of the newsletter, create a PR for the latest newsletter issue here following the conventions in the [previous newsletters](./newsletter.md). Some tips:
 
@@ -266,9 +266,9 @@ Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the
 
 Verify the output looks good, and email it to engineering-team@sourcegraph.com.
 
-### devx-scratch
+### DevInfra-scratch
 
-We maintain a repository with experiments and notes from the DevX team, [`sourcegraph/devx-scratch`](https://github.com/sourcegraph/devx-scratch), in an effort to improve knowledge-sharing and log our explorations and trends.
+We maintain a repository with experiments and notes from the DevInfra team, [`sourcegraph/dev-infra-scratch`](https://github.com/sourcegraph/dev-infra-scratch), in an effort to improve knowledge-sharing and log our explorations and trends.
 We encourage you to log anything you want in this repository, particularly insights from pairing sessions and so on!
 
-Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/devx-scratch/blob/main/2022/ce-support/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).
+Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/dev-infra-scratch/blob/main/2022/ce-support/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).

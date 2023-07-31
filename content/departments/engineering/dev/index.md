@@ -85,16 +85,15 @@ Sourcegraph has a lot of repositories!
 
 ## Slack channels
 
-Slack channels for non-team-specific engineering interests typically start with a #dev- prefix
+Slack channels for non-team-specific engineering interests typically start with a `#chat-dev-` prefix
 
 The current channels are:
 
-- #dev-chat
-- #dev-ops
-- #dev-experience
-- #dev-frontend
-- #dev-databases
-- #dev-urandom
+- #chat-dev
+- #chat-dev-frontend
+- #chat-dev-backend
+- #chat-databases
+- #chat-dev-urandom
 
 ## IC5 mandate
 

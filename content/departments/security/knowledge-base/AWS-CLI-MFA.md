@@ -34,16 +34,19 @@ If you have done the above steps and you still see errors, you will need to gene
 ```
 
 6. These values need to be exported into your terminal variables
-7. A sample script of how to do all this:
+7. A sample script that will generate 3 export commands that you can run in your CLI to set the environment variables:
 
 ```
 #!/bin/bash
 aws_mfa_arn = "arn:aws:iam::111111111111:mfa/user" #replace with your own
 read -p "Enter MFA token: " aws_mfa_token
 aws_session_token = $(aws sts get-session-token --serial-number $aws_mfa_arn --token-code $aws_mfa_token)
-export AWS_ACCESS_KEY_ID=$(echo $aws_session_token | jq .Credentials.AccessKeyId -r)
-export AWS_SECRET_ACCESS_KEY=$(echo $aws_session_token | jq .Credentials.SecretAccessKey -r)
-export AWS_SESSION_TOKEN=$(echo $aws_session_token | jq .Credentials.SessionToken -r)
+Access_Key=$(echo "$aws_session_token" | jq .Credentials.AccessKeyId -r)
+echo export AWS_ACCESS_KEY_ID="$Access_Key"
+Secret_Key=$(echo "$aws_session_token" | jq .Credentials.SecretAccessKey -r)
+echo export AWS_SECRET_ACCESS_KEY="$Secret_Key"
+Session_Token=$(echo "$aws_session_token" | jq .Credentials.SessionToken -r)
+echo export AWS_SESSION_TOKEN="$Session_Token"
 ```
 
 ### For Yubikey MFA
