@@ -59,7 +59,7 @@ Yes, Cody can speak many languages, including Spanish, French, German, Italian, 
 
 #### Can Cody write code referencing other parts of the codebase (Ex. Write a new function calling an existing function in another repo)?
 
-Yes. 
+Yes.
 
 ## Demoing
 
