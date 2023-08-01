@@ -43,7 +43,7 @@ Performance calibrations provide an opportunity to review and calibrate performa
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
-  
+
 2. **Calibrate `2` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Superior Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
@@ -59,14 +59,14 @@ Performance calibrations provide an opportunity to review and calibrate performa
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
 
-3. **Calibrate Potential Outliers:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _3 - Meets Performance Expectations_ category that may be on the fringe of either Superior Performance or Partially Successful Performance 
+5. **Calibrate Potential Outliers:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _3 - Meets Performance Expectations_ category that may be on the fringe of either Superior Performance or Partially Successful Performance
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
 
-4. **Calibrate Promotion Nominations:** Managers will explain any “Yes” submissions for promotions and reach final recommendation in partnership with calibrations participants. See [details on promotion calibration](#part-4-discuss-promotion-nominations).
+6. **Calibrate Promotion Nominations:** Managers will explain any “Yes” submissions for promotions and reach final recommendation in partnership with calibrations participants. See [details on promotion calibration](#part-4-discuss-promotion-nominations).
 
-5. **Validate Final Performance Rating Submissions and Promotions**
+7. **Validate Final Performance Rating Submissions and Promotions**
 
 _Note: The purpose of a performance calibration is not to be adversarial, but to work together to align on a set of standards to be applied to all employees during reviews ensuring the same bar is applied consistently across all teams and individuals. Additionally, the VP within the team will ultimately determine the outcome of promotion nominations in partnership with their People Partner._
 
