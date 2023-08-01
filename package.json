@@ -76,7 +76,7 @@
     "@stefanprobst/rehype-extract-toc": "^2.1.1",
     "@types/js-yaml": "4.0.5",
     "@types/mkdirp": "1.0.2",
-    "@types/unist": "2.0.6",
+    "@types/unist": "2.0.7",
     "bootstrap": "^5.1.3",
     "chrono-node": "^2.3.2",
     "date-fns": "^2.25.0",
