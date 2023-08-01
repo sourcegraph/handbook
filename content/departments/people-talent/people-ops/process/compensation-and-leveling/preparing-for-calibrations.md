@@ -10,13 +10,13 @@ Calibration sessions can also help identify areas where additional training or d
 
 In preparation for your Calibration Session with your People Partner, all Managers are required to complete the following pre-work:
 
-1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writting.
+1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writing.
 2. Log into Lattice and use the tag/note function in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes). You can find instructions on how to use the tag/notes section in [this training video](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
-3. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
+3. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for [Performance](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Distinguised Performance, Superior Performance, Meets Performance Expectations, Partially Successful Performance, Unsuccessful Performance. Additionally, Managers will be required to note who they are considering putting up for promotion.
 4. Review the below resources:
 
 - Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
-- Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of our 9-box and the difference between meeting, exceeding, and not exceeding our high bar
+- Review our ["rating definitions"](../teammate-sentiment/impact-reviews/index.md#rating-definitions) and have a clear understanding of the difference between Distinguised Performance, Superior Performance, Meets Performance Expectations, Partially Successful Performance, and Unsuccessful Performance.
 - Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
 - Review your team's [career framework](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) to ensure you're well versed on levels... you can also review our [company-wide level framework here](../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#job-levels-at-sourcegraph)
 
@@ -39,17 +39,27 @@ The following is a typical calibration session agenda. Sessions may slightly dif
 
 Performance calibrations provide an opportunity to review and calibrate performance of all Teammates within a specific department or function, as a collective group. Calibration sessions are interactive discussions where:
 
-1. **Calibrate `1` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Exceeding High Bar_ category for values and performance, validating the placement with tangible examples. [More details](#part-1-discussion).
+1. **Calibrate `1` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Distinguished Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
+
+   1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
+   2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
+  
+2. **Calibrate `2` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Superior Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
 
-2. **Calibrate `3` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _3 - Not Meeting High Bar_ category for values and performance, validating the placement with tangible examples. [More details](#part-1-discussion).
+3. **Calibrate `4` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Partially Successful Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
 
-3. **Calibrate Potential Outliers:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _2 - Meeting High Bar_ category that may be on the fringe of either Exceeding or Not Meeting
+4. **Calibrate `5` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _5 - Unsuccessful Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
+
+   1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
+   2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
+
+3. **Calibrate Potential Outliers:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _3 - Meets Performance Expectations_ category that may be on the fringe of either Superior Performance or Partially Successful Performance 
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
@@ -67,7 +77,7 @@ _Note: The purpose of a performance calibration is not to be adversarial, but to
 - Our calibration discussions are an opportunity to focus on aligning on what the rating definitions mean at Sourcegraph. During calibration, Managers will be asked to highlight _specific instances_ where Teammates demonstrate exceptional performance.
 - Of the four required questions on our Manager-to-Direct Report Impact Review, we will focus on two as part of the Manager presentation:
   - How has this Teammate’s **performance** mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
-- Our conversations will focus specifically on the area(s) in which the Teammate was exceeding our high bar: performance, values, or both.
+- Our conversations will focus specifically on the area(s) in which the Teammate had Distinguished Performance, Partially Successful Performance or Unsuccessful Performance.
 - **Managers will be asked to discuss on individuals who report to them and should come prepared to _verbally_ share the following:**
   - Performance rating
 - 2-3 examples of work that supports the rating (the 2 questions bulleted above are a great source for providing these examples!)
