@@ -19,6 +19,14 @@ The release process is performed in steps:
 3. GitHub issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
 
+  Stage | Working days since release | Action | Condition not met?
+  --- | --- | --- | --- |
+  1 | 0-2 | Upgrade internal instances by Cloud Team (incl. [demo](https://demo.sourcegraph.com/) and [rctest](https://rctest.sourcegraph.com/)) |
+  2 | 3-4 | Time for verification by Sourcegraph teams | New patch created -> start from 1st stage
+  3 | 5-6 | Upgrade: 30% trials 10% customers | New patch created -> upgrade internal in 1 working day and start from 2nd stage
+  4 | 7-8 | Upgrade: 100% trials 40% customers | New patch created -> upgrade internal in 1 working day and start from 3rd stage
+  5 | 9-10 | Upgrade: 100% customers | New patch created -> upgrade internal in 1 working day and start from 3rd stage
+
 Sample upgrade:
 
 - [tracking issue - 5.1.4](https://github.com/sourcegraph/customer/issues/2251).
