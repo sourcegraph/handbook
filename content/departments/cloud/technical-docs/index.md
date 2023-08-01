@@ -27,6 +27,8 @@ The release process is performed in steps:
 | 4     | 7-8                        | Upgrade: 100% trials 40% customers                                                                                                   | New patch created -> upgrade internal in 1 working day and start from 3rd stage |
 | 5     | 9-10                       | Upgrade: 100% customers                                                                                                              | New patch created -> upgrade internal in 1 working day and start from 3rd stage |
 
+After upgrade of every single instances uptime checks are verified. This includes [automated monitoring](#monitoring-and-alerting)
+
 Sample upgrade:
 
 - [tracking issue - 5.1.4](https://github.com/sourcegraph/customer/issues/2251).
