@@ -127,7 +127,7 @@ You can find a how to video [here](https://www.loom.com/share/487a4cc9432b441db8
 
 **Step 1:** Visit [Airbase](https://dashboard.airbase.io/home)
 
-- Click "Request with Approvers" from your dashboard and in the dropdown select "Purchase"
+- Click "Request Purchase" from your dashboard and in the dropdown select "Purchase"
 
 **Step 2:** Enter your Purchase Request Details (note these may change order depending on input details in 01. and .02)
 
