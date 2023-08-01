@@ -115,4 +115,3 @@ This deployment is a [managed instance](../../../../cloud/index.md) used by the 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=src-51df2b4222042ecd2ff9)
 - [Infrastructure configuration](https://github.com/sourcegraph/cloud/tree/main/environments/prod/deployments/src-96ed006bb45d673944e4)
 - [Operations](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-175b55452764019c9455/dashboard.md)
-
