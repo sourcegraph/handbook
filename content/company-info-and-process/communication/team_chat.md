@@ -264,7 +264,7 @@ Make sure to set up Slack to only send you notifications when you want to see th
 
 ### Archive old and unused channels
 
-To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
+To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
 
 ## Channel lists by department
 

@@ -42,7 +42,7 @@ Every creator has the ability to share videos publicly. Please be mindful of the
 
 ## Workspace
 
-For current users who have content in a separate “personal” workspace (even if it’s with your Sourcegrpah email), you have to transfer videos to the Sourcegraph workspace, make Sourcegraph the default workspace and leave the personal workspace.
+For current users who have content in a separate “personal” workspace (even if it’s with your Sourcegraph email), you have to transfer videos to the Sourcegraph workspace, make Sourcegraph the default workspace and leave the personal workspace.
 
 Please follow these steps for moving content from personal to Sourcegraph:
 
