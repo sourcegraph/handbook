@@ -13,7 +13,7 @@ You can learn more about the detail from the following RFCs:
 
 ## The default admin user on managed instances
 
-Every instance has a default Sourcegraph admin user added during the [instance initialisation](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33-57). The [username, password and access token](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L124-138) of the admin user is stored in Google Secret Manager (GSM) in the GCP project of the managed instance. The access token is used to access the managed instance by our services programmatically.
+Every instance has a default Sourcegraph admin user added during the [instance initialisation](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller@3888a606795a32823dd5376cc2a6fdc1eed2b378/-/blob/internal/instances/init.go?L33-57). The [username, password and access token](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller@3888a606795a32823dd5376cc2a6fdc1eed2b378/-/blob/internal/instances/init.go?L124-138) of the admin user is stored in Google Secret Manager (GSM) in the GCP project of the managed instance. The access token is used to access the managed instance by our services programmatically.
 
 ## Request UI access to managed instances
 
