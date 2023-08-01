@@ -1,4 +1,4 @@
-## How to triage like a pro
+## How to Triage like a Pro
 
 **Step 1:** Conversation initiated by the customer
 
@@ -34,6 +34,22 @@ If there is no action for CS, go to back to step 4 select ‘…’ and then sel
 - **End Chat:** This is the same information that is filled out when closing a Zendesk ticket and is automatically transferred over to the Zendesk.
 
 **Step 8:** If there is no action for CS, use the "no action for CS macro" in Zendesk and leave a reason why not then submit the ticket as solved.
+
+## Zendesk Ticket Standards
+
+It is important that we have consistant quality accross our support tickets to ensure we collect the valuable data that can be shared with our Product and Engineering Teams.
+
+### Ticket Subject
+
+The Zendesk ticket subject should be clear, concise, and structured with relevant keywords to enable both product and engineering teams to read and understand the issue and or question quickly.
+
+### Ticket Tagging
+
+It's crucial to thoughtfully select ticket tags for quick and efficient categorization of the ticket's content. Use relevant keywords and phrases as tags to aid in seamless search and filtering, benefiting both our product and engineering teams. To enhance overall ticket management, it's best to avoid using overly generic or ambiguous tags and instead maintain a consistent and organized tagging system that aligns with Sourcegraph's specific support needs.
+
+### Ticket Organizations and User
+
+To ensure that we have the correct infromation for both users and the organization we need to make sure that these are accurately set. When you see `create` next to the organiztion you will need to select the organization and then update the domain section in Zendesk. If the user is not tied to an organization you need to selete the users name and update the organization in section in Zendesk.
 
 ## FAQs
 
