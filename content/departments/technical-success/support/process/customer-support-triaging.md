@@ -45,11 +45,11 @@ The Zendesk ticket subject should be clear, concise, and structured with relevan
 
 ### Ticket Tagging
 
-It is crucial to thoughtfully select ticket tags for the quick and efficient categorization of the ticket's content. Use relevant keywords and phrases as tags to aid in seamless search and filtering. This practice benefits both our product and engineering teams. To enhance overall ticket management, avoid using overly generic or ambiguous tags. Instead, maintain a consistent and organized tagging system that aligns with Sourcegraph's specific support needs. Examples: ```embeddings``` ```multi_version_upgrades``` ```query_syntax_issues```
+It is crucial to thoughtfully select ticket tags for the quick and efficient categorization of the ticket's content. Use relevant keywords and phrases as tags to aid in seamless search and filtering. This practice benefits both our product and engineering teams. To enhance overall ticket management, avoid using overly generic or ambiguous tags. Instead, maintain a consistent and organized tagging system that aligns with Sourcegraph's specific support needs. Examples: `embeddings` `multi_version_upgrades` `query_syntax_issues`
 
 ### Ticket Organizations and Users
 
-To ensure accurate information for both users and organizations, it's important to verify and update these details. When you encounter ```create``` next to the organization, please select the appropriate organization and then update the domain section in Zendesk. If the user is not associated with an organization, select the user's name and update the organization section in Zendesk accordingly.
+To ensure accurate information for both users and organizations, it's important to verify and update these details. When you encounter `create` next to the organization, please select the appropriate organization and then update the domain section in Zendesk. If the user is not associated with an organization, select the user's name and update the organization section in Zendesk accordingly.
 
 ## FAQs
 
