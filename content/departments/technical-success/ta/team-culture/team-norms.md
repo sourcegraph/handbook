@@ -28,7 +28,17 @@ Our Scaled Success program is being iterated on quickly. Immediate next steps to
 
 ### Vitally
 
-We use Vitally to stay organized internally around our customers. Your account should be able to look at just your book of business or the entire customer base.
+We use Vitally to stay organized internally around our customers. This is the central tool and source of truth for TAs across their customers and book of business. TAs should use Vitally to plan and organize their strategy and activities across their customers.
+
+Vitally calculates our customer health score and is the mechanism by which we facilitate:
+
+- pre-to-post sales handoff from CE to TA
+- scaled customer success communications
+- our renewal process
+- quarterly success plans for customer goals & expected outcomes
+- the lighthouse program for corrective action on accounts
+
+This [Dashboard](https://sourcegraph.vitally.io/work/team/dashboards/eee503ef-886f-4eba-b416-866f0aef71bb) can be used to see the current state of these traits for your accounts all in one spot.
 
 ### Salesforce
 
@@ -48,7 +58,7 @@ Team meetings are held weekly.
 
 Prior to taking time off, TAs should:
 
-1. [Log time off request in Roots PTO](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
+1. [Log time off request in Deel PTO](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
 1. Work with their manager and peers to create a coverage plan
 1. Notify their customers through the appropriate channel of their upcoming OOO
 1. Update their slack status accordingly with OOO dates indicated
