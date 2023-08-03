@@ -31,6 +31,7 @@ Our Scaled Success program is being iterated on quickly. Immediate next steps to
 We use Vitally to stay organized internally around our customers. This is the central tool and source of truth for TAs across their customers and book of business. TAs should use Vitally to plan and organize their strategy and activities across their customers.
 
 Vitally calculates our customer health score and is the mechanism by which we facilitate:
+
 - pre-to-post sales handoff from CE to TA
 - scaled customer success communications
 - our renewal process
@@ -38,7 +39,6 @@ Vitally calculates our customer health score and is the mechanism by which we fa
 - the lighthouse program for corrective action on accounts
 
 This [Dashboard](https://sourcegraph.vitally.io/work/team/dashboards/eee503ef-886f-4eba-b416-866f0aef71bb) can be used to see the current state of these traits for your accounts all in one spot.
-
 
 ### Salesforce
 

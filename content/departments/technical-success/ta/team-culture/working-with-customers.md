@@ -92,7 +92,6 @@ After the knowledge transfer session, either the TPM will be introduced to the c
 
 Once a customer signs on with Sourcegraph, the TA will [generate a full license key](../../ce/process/license_keys.md) via Sourcegraph.com site admin based on the details of the contract.
 
-
 ## Renewal Process
 
 Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
@@ -104,13 +103,13 @@ Our renewal process is a 5 step process that begins 120 days prior to renewal da
 
 ### Renewal Process Phases
 
-| Phase                        | Event                                                                                                         | Steps                                                                                                                                                                                                                                                     | Output                                                                                                                         |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Health Assessment            | Vitally triggers Health Assessment doc 120 days before renewal                                            | 1) TA completes Health Assessment doc template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green or yellow / red)                                                                                      | If yellow / red, elevate to Lighthouse program <br> If green, monitor                                                             |
-| Lighthouse Program (Yellow / Red only) | To be filled in                                | To be filled in | To be filled in <br> Monitor green accounts |
-| Renewal Plan                 | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                                                                                                       | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                   |
-| Renewal Forecast             | AE & TA leadership: weekly forecast                                                                           | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)                                                                                                | Quarterly forecast                                                                                                             |
-| Process Renewal              | AE & TA leadership: weekly forecast                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                                                                                                             | Renewal event complete                                                                                                         |
+| Phase                                  | Event                                                                                                                     | Steps                                                                                                                                                                  | Output                                                                       |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Health Assessment                      | Vitally triggers Health Assessment doc 120 days before renewal                                                            | 1) TA completes Health Assessment doc template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green or yellow / red) | If yellow / red, elevate to Lighthouse program <br> If green, monitor        |
+| Lighthouse Program (Yellow / Red only) | To be filled in                                                                                                           | To be filled in                                                                                                                                                        | To be filled in <br> Monitor green accounts                                  |
+| Renewal Plan                           | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                         | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal |
+| Renewal Forecast                       | AE & TA leadership: weekly forecast                                                                                       | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)             | Quarterly forecast                                                           |
+| Process Renewal                        | AE & TA leadership: weekly forecast                                                                                       | AE: Renewal opportunity processed accordingly                                                                                                                          | Renewal event complete                                                       |
 
 ## Red Accounts
 
@@ -142,8 +141,8 @@ Those categories are made up of the following data points:
 | ---------------- | ---------------------------------------------- | --- |
 | Last Month Versions Behind | At the end of each calendar month, we look at the version that the instance is currently on compared to the most recent version of Sourcegraph. This is that difference. | Sourcegraph generated (BigQuery) |
 | Precise Intel Status | Whether or not precise code navigation is enabled on at least one language. This is either active or inactive. | Sourcegraph generated (BigQuery) |
- Last 90 Days Defect Tickets | The number of defect support tickets in the last 90 days. Less than 2 is considered healthy, 5 or more is considered poor. | Sourcegraph generated (BigQuery) |
-  Last 90 Days Help Tickets | The number of questions or general help support tickets in the last 90 days. Less than 10 is considered healthy, 15 or more is considered poor. | Sourcegraph generated (BigQuery) |
+Last 90 Days Defect Tickets | The number of defect support tickets in the last 90 days. Less than 2 is considered healthy, 5 or more is considered poor. | Sourcegraph generated (BigQuery) |
+Last 90 Days Help Tickets | The number of questions or general help support tickets in the last 90 days. Less than 10 is considered healthy, 15 or more is considered poor. | Sourcegraph generated (BigQuery) |
 
 **Relationships & Engagements**
 | Trait | Description | Source |
@@ -157,7 +156,6 @@ Those categories are made up of the following data points:
 | ---------------- | ---------------------------------------------- | --- |
 | Usage Score (Last 4 Wk DAU / Last Month MAU) | This looks at the rolling 4 week average of daily active users over last months monthly active users. 30% or higher (.3) is considered healthy, 20% or less is considered poor (.2). | Sourcegraph generated (BigQuery) |
 | Last Month Mau Over Seats | At the end of each calendar month we look at the Monthly Active Users of an instance for that month. We then divide that by the number of seats they have purchased. 80% is considered healthy (.8), less than 50% (.5) is considered poor. | Sourcegraph generated (BigQuery) |
-
 
 # Post-Sales Customer Lifecycle
 
@@ -208,6 +206,7 @@ As TAs we are responsible for the technical success of our customers. Post-sales
 ## Customer Data & Analytics
 
 Looker is our source for customer data & analytics. Two key dashboards we use are:
+
 - [Customer Health TS Dashboard](https://sourcegraph.looker.com/dashboards/484)
 - [Instance Overview Dashboard](https://sourcegraph.looker.com/dashboards/409?Account+name=Apex+Clearing+Corp&Installer+email=))
 
