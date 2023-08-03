@@ -41,3 +41,9 @@ In Slack, use:
 ## Internal Processes
 
 - [Support rotation](support_rotation.md)
+
+## Onboarding
+
+- [Repositories sync walkthrough](https://drive.google.com/file/d/1pSkypoDBKOz32eFqEOZirsgLHNz0mvmr/view)
+- [Interaction between the repo-updater and gitserver](https://drive.google.com/file/d/1YkNCwQPsgWV98i2Y6qfM75EHA8lrjqgX/view)
+- [Repositories indexing/mirroring](https://drive.google.com/file/d/181pPnqQIHhUEvxvg7Dp5_K6yV24CbxaV/view)
