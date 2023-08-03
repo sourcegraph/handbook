@@ -7,36 +7,26 @@ A TA, being a post-sales technical account manager, works with customers in a nu
   - [Internal](#internal)
   - [External](#external) -->
 - [Processes](#processes)
+  - [Pre-to-Post-Sales Handoff](#post-sales-handoff)
+    - [TA Assignment](#ta-assignment)
+    - [Hand-off from pre-to-post sales](#hand-off-from-pre-to-post-sales)
   - [Renewal Process](#renewal-process)
     - [Process Overview](#process-overview)
     - [Renewal Process Phases](#renewal-process-phases)
   - [Red Accounts](#red-accounts)
-    - [Criteria](#criteria)
-    - [Process](#process)
-    - [Roles and Responsibilities](#roles-and-responsibilities)
-  - [Customer Health](#customer-health)
-    - [Processes](#processes-1)
-- [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
-  - [Post-Sales Partnership Kickoff](#post-sales-partnership-kickoff)
-    - [TA Assignment](#ta-assignment)
-    - [Hand-off from pre-to-post sales](#hand-off-from-pre-to-post-sales)
+- [Customer Health](#customer-health)
+  - [Processes](#processes-1)
+- [Post-Sales Customer Journey](#post-sales-customer-lifecycle)
   - [User Onboarding](#user-onboarding)
     - [Resources](#resources)
   - [Developer Enablement](#developer-enablement)
     - [Standard trainings](#standard-trainings)
     - [Resources](#resources-1)
-  - [Expansions and Renewals](#expansions-and-renewals)
+- [Account Management](#account-management)
+  - [Customer Data & Analytics](#customer-data-analytics)
   - [Voice of the Customer](#voice-of-the-customer)
-    - [Resources](#resources-2)
-  - [Account Management](#account-management)
-    - [Resources](#resources-3)
+  - [Champion Building & Relationship Management](#champion-building--relationship-management)
   - [QBRs](#qbrs)
-    - [Resources](#resources-4)
-- [Playbooks](#playbooks)
-  - [Low Utilization](#low-utilization)
-    - [Planning](#planning)
-    - [Execution](#execution)
-  - [Account Health](#account-health)
 
 ---
 
@@ -70,6 +60,39 @@ The following are a sample of the activities that a TA is responsible for on a d
 
 Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the TA team either drives or heavily contributes to are outlined below.
 
+## Post Sales Handoff
+
+This process occurs through both Salesforce and Vitally. Below is an overview of the process along with additional details about tooling automation that facilitates the process.
+
+### Process Overview
+
+The pre-to-post sales handoff process consists of the following steps:
+
+1. Technical Advisor Support Level is [manually assigned](#ta-assignment) on the Salesforce Account by TA leadership
+2. The account is created in Vitally automatically once Support Level is set
+3. Customer Segmentation Assignment Vitally Playbook runs to assign account segment attribute of: Strategic, Enterprise, or Commercial.
+4. Assign Scaled Success Accounts Vitally Playbook runs to check if Account is in the commercial segment and is less than $50k ARR. If so, account is assigned segment of "Scaled Success"
+5. Customer Lifecycle Stages Vitally Playbook runs to assign account as "0. Propsect", the first step in the customer lifecycle. At this point the account is created and all initial attributes about the new customer are assigned in Vitally.
+6. 30 days out from expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
+7. Once the deal closes, the TA issues a [production license](#production-license) and initiates their onboarding.
+
+You can read more about each step below.
+
+### TA Assignment
+
+Approximately 45 days before closure, TA leadership will assign the Technical Advisor Support Level on the Salesforce account to determine the customer segmentation for the customer. Once assigned, an account is created in Vitally and segmented as a Prospect. 35 days before closure, TA leadership assigns a TA to the Salesforce account record which is then updated on the Vitally record. The TA is notified of the assignment via Vitally.
+
+### Hand-off process
+
+35 days before closure the Pre to Post-Sales Hand-off and Planning Vitally playbook runs which creates the Handoff Doc template in Vitally and assigns the CE a task to fill out and schedule the knowledge transfer / handoff with the assigned TA and AE. If IE will be helping with the production implementation, they should attend too.
+
+After the knowledge transfer session, either the TPM will be introduced to the customer to being planning their production deployment or if IE will not be involved, the TA begins to plan and prepare for the [partnership kick-off](https://docs.google.com/presentation/d/1q2oPqCOO8XuCC0F2DuVdNpDh30OuIdMpKz9gNAqHces/edit#slide=id.g1e638d9bd88_1_379) and begins to prepare for new user onboarding. They do this by working with the AE and CE to understand how many seats have been purchased, where these teams are located, and by identifying customer contacts to help coordinate onboarding.
+
+### Production License
+
+Once a customer signs on with Sourcegraph, the TA will [generate a full license key](../../ce/process/license_keys.md) via Sourcegraph.com site admin based on the details of the contract.
+
+
 ## Renewal Process
 
 Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
@@ -77,68 +100,28 @@ Finance, TA, Sales, and Value Engineering all play a key role in customer renewa
 ### Process Overview
 
 Our renewal process is a 5 step process that begins 120 days prior to renewal date. The process lifecycle is as follows:
-![Renewal Process](https://user-images.githubusercontent.com/7228359/220760306-60b90fc3-3701-44e2-aad9-f61c386ffee8.jpg)
+![Renewal Process](https://user-images.githubusercontent.com/7228359/220760306-60b90fc3-3701-44e2-aad9-f61c386ffee8.jpg). The Renewal Playbook Vitally playbook triggers the renewal process.
 
 ### Renewal Process Phases
 
 | Phase                        | Event                                                                                                         | Steps                                                                                                                                                                                                                                                     | Output                                                                                                                         |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Health Assessment            | Vitally triggers Health Assessment project 120 days before renewal                                            | 1) TA completes Health Assessment note template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green, yellow, red)                                                                                      | If red or yellow, elevate to Get Well track <br> If green, monitor                                                             |
-| Get Well (Yellow & Red only) | TA leadership hosts weekly deep dives for Sales/TA leadership and account team                                | 1) Prior to meeting, TA & AE fill-in Customer Renewal Health Assessment <br> 2) TA Mgr reviews with TA prior to meeting <br> 3) During meeting, TA presents assessment and plan, with input from AE, aligning on risk, opportunity, needs, and next steps | Follow up on action plans from meeting for yellow & red accounts <br> - Review again 30 days later <br> Monitor green accounts |
-| Renewal Plan                 | AE leadership: weekly forecast <br> TA leadership: bi-weekly inspection to monitor progress of get-well plans | Yellow & Red: <br> - TA: Check-in on plan progress, additional corrective action as required <br> Green: <br> - Continue monitoring                                                                                                                       | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                   |
-| Renewal Forecast             | AE & TA leadership: weekly forecast                                                                           | Yellow & Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)                                                                                                | Quarterly forecast                                                                                                             |
+| Health Assessment            | Vitally triggers Health Assessment doc 120 days before renewal                                            | 1) TA completes Health Assessment doc template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green or yellow / red)                                                                                      | If yellow / red, elevate to Lighthouse program <br> If green, monitor                                                             |
+| Lighthouse Program (Yellow / Red only) | To be filled in                                | To be filled in | To be filled in <br> Monitor green accounts |
+| Renewal Plan                 | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                                                                                                       | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                   |
+| Renewal Forecast             | AE & TA leadership: weekly forecast                                                                           | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)                                                                                                | Quarterly forecast                                                                                                             |
 | Process Renewal              | AE & TA leadership: weekly forecast                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                                                                                                             | Renewal event complete                                                                                                         |
 
 ## Red Accounts
 
-As the team accountable for our customers' technical success, including consumption and utilization, TAs must keep a close pulse on the overall health of our customers. The Red Accounts Program exists to ensure we are assessing customer health at all times and collectively taking corrective steps to improve customer health as needed.
+** To be updated, Lighthouse program to succeed this **
 
-### Criteria
-
-A customer may become a Red Account based on events or account-level characteristics that elevate it to a concerning state.
-
-Events within the company that trigger elevation to a Red Account, include but aren't limited to:
-
-- Macro
-  - Massive Layoffs (manually tracked)
-  - Budget Cuts (manually tracked)
-- Champion Departure (manually tracked)
-- Major Acquisition (manually tracked)
-- Migration to GitHub (specifically, GitHub Cloud) (manually tracked)
-
-Account-level characteristics that trigger elevation to a Red Account, include but aren't limited to:
-
-- Customer fails to deploy their Production Infrastructure within 60 days of contract signature (automatically tracked)
-- Health Score at or below 5 (automatically tracked)
-- No interaction with customer within the last 40 days based on Salesforce (automatically tracked)
-- 5%+ decline in search and code intelligence across two consecutive months (automatically tracked)
-- Non-use (or inconsistent/infrequent use) of products purchased (manual; automatic in the future)
-  - Code Insights
-  - Batch Changes
-
-### Process
-
-An account may trigger for the Red Accounts program manually or programmatically based on attributes about the account. A TA or AE may elevate an account to the Red Account program at anytime by updating the `ACCOUNT - RED ACCOUNT?` field in Vitally to true.
-
-For any customer that is tagged as a Red Account, a notification will be posted in #red-accounts via the Vitally integration. The account TA, in close partnership with the AE, will initiate a thread on the post in the #red-accounts channel providing relevant information about the current state of the account, needs, and the intended action plan. Any asks or needs against the intended action plan should be initiated via a thread on the slack post to allow for visibility and transparency.
-
-Based on the needs of the situation, Technical Success and Sales leadership will review the request and the account team will align on the action plan forward.
-
-### Roles and Responsibilities
-
-The TA will monitor the overall account and where applicable update the Vitally account record to indicate a `ACCOUNT - RED ACCOUNT?` is true.
-
-Should either an AE or TA feel that an account which isn't automatically categorized as red, is in fact red for any reason, they should align and the TA should update the Vitally account record.
-
-Both the AE and TA are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
-
-If and where Engineering work is required, an Engineering Technical Project Manager (TPM) will manage the action plan and coordinate resources.
-
-## Customer Health
+# Customer Health
 
 A Customer Health Score is used to give us a view into the wellbeing of our customer base.
 
-Vitally is the tool we use to calculate this score using the following categories:
+Vitally is the tool we use to calculate this score. Vitally will update this score once an hour, but the underlying traits still need to be maintained.
+The customer health score is calculated using the following standard categories:
 
 | Customer Tier              | Weight |
 | -------------------------- | ------ |
@@ -158,50 +141,34 @@ Those categories are made up of the following data points:
 | Trait | Description | Source |
 | ---------------- | ---------------------------------------------- | --- |
 | Last Month Versions Behind | At the end of each calendar month, we look at the version that the instance is currently on compared to the most recent version of Sourcegraph. This is that difference. | Sourcegraph generated (BigQuery) |
+| Precise Intel Status | Whether or not precise code navigation is enabled on at least one language. This is either active or inactive. | Sourcegraph generated (BigQuery) |
+ Last 90 Days Defect Tickets | The number of defect support tickets in the last 90 days. Less than 2 is considered healthy, 5 or more is considered poor. | Sourcegraph generated (BigQuery) |
+  Last 90 Days Help Tickets | The number of questions or general help support tickets in the last 90 days. Less than 10 is considered healthy, 15 or more is considered poor. | Sourcegraph generated (BigQuery) |
 
 **Relationships & Engagements**
 | Trait | Description | Source |
 | ---------------- | ---------------------------------------------- | --- |
-| Relationship - Active Champion? | This trait indicates that we have an active champion built inside the customer. | Manually set by TA |
+| Relationship - Active Champion? | This trait indicates that we have an [active champion](#champion-building--relationship-management) built inside the customer. | Manually set by TA |
 | Relationship - Access to buyer? | This trait indicates that we currently have a line of communication to the buyer of Sourcegraph or the buyer for the renewal. | Manually set by TA |
-| Last Activity | Looks at last contact as logged in by Salesforce | Salesforce |
+| Last Activity | Looks at last contact as logged in by Salesforce. 14 or less days is considered healthy, 30 or more days of inactivity is considered poor. | Salesforce |
 
 **Utilization**
 | Trait | Description | Source |
 | ---------------- | ---------------------------------------------- | --- |
-| Usage Score | This is a metric generated by the Sourcegraph analytics team | Sourcegraph generated (BigQuery) |
-| Last Month Mau Over Seats | At the end of each calendar month we look at the Monthly Active Users of an instance for that month. We then divide that by the number of seats they have purchased. Number between 0 (bad) and 1 (good)| Sourcegraph generated (BigQuery) |
+| Usage Score (Last 4 Wk DAU / Last Month MAU) | This looks at the rolling 4 week average of daily active users over last months monthly active users. 30% or higher (.3) is considered healthy, 20% or less is considered poor (.2). | Sourcegraph generated (BigQuery) |
+| Last Month Mau Over Seats | At the end of each calendar month we look at the Monthly Active Users of an instance for that month. We then divide that by the number of seats they have purchased. 80% is considered healthy (.8), less than 50% (.5) is considered poor. | Sourcegraph generated (BigQuery) |
 
-### Processes
 
-Vitally will update this score once an hour, but the underlying traits still need to be maintained.
+# Post-Sales Customer Lifecycle
 
-This [Project](https://sourcegraph.vitally.io/settings/projects/project-templates/23608733-771d-46f4-ae7f-f2f9fd603b39) will remind the TA team once a month to keep these traits up to date.
+Our customer lifecycle is set and maintained through the Customer Lifecycle Stages playbook in Vitally.
 
-The remaining traits will be automatically imported to Vitally from BigQuery and Salesforce.
-
-This [View](https://sourcegraph.vitally.io/views/598e039e-947e-4c04-9b0d-b98f38821159) can be used to see the current state of these traits for your accounts all in one spot.
-
-# Post-Sales Customer Touchpoints
-
-## Post-Sales Partnership Kickoff
-
-### TA Assignment
-
-Approximately 45 days before closure, TA leadership will assign the Technical Advisor Support Level on the Salesforce account to determine the customer segmentation for the customer. Once assigned, an account is created in Vitally, segmented as a Prospect. 35 days before closure, TA leadership assigns a TA to the Salesforce account record and to the Vitally record.
-
-### Hand-off from pre-to-post sales
-
-35 days before closure, a Vitally playbook initiates and tasks the CE to create a pre-to-post sales handoff note. Once created, the CE scheduled a hand-off meeting with the AE, TA, and IE (if IE will be helping with the production implementation).
-
-The TA begins to plan and prepare for the kick-off and begins to prepare for new user onboarding. They do this by working with the AE and CE to understand how many seats have been purchased, where these teams are located, and by identifying customer contacts to help coordinate onboarding.
-
-Once a customer signs on with Sourcegraph, the TA will
-
-- Generate a full license key.
-- Schedule a kickoff call with our main contact(s) to plan the engagement.
-
-The TA uses [this deck](https://docs.google.com/presentation/d/1q2oPqCOO8XuCC0F2DuVdNpDh30OuIdMpKz9gNAqHces/edit#slide=id.g1e638d9bd88_1_379) for the partnership kick-off.
+Our customer lifecycle is comprised of the following stages:
+`0. Prospect` - a late-stage new business prospect that is 45- days out from closing. During this phase, CE is handing off and transferring knowledge to TA, if IE will be helping with the production deployment they will begin planning for that, the TA is preparing for partnership kick-off.
+`1. Onboarding` - when the deal closes, the account enters the [onboarding phase](#user-onboarding) of the lifecycle. Customers remain in this phase for the first 60 days of the partnership. During this time, the team is focused on ensuring their production instance is complete and onboarding end users. The goal is to get to 80% consumption of seats by the end of the first 60 days.
+`2. Adopting` - after the initial onboarding phase, the account enters the [adoption](#adoption) phase. The focus in this phase is on driving greater consumption and engagement with the product. The team works with the customer to identify and implement best practices & enable on use cases that drive greater adoption and daily use. Customers remain in this phase until they hit our utilization targets of 30% Daily Active Use / Monthly Active use and 80% Monthly Active use / Total seats purchased.
+`3. Nurturing` - once the customer hits their utilization targets, % consumption, they enter the nurturing phase. The focus in this phase shifts to maximizing the value the customer is getting from Sourcegraph. This includes identifying and implementing advanced product features, custom integrations, or new use cases. At this point in the journey we want to also be looking for co-marketing opportunities.
+`4. Renewing` - 120 days out from contract renewal, the account transitions into the renewing phase. The team focuses on ensuring the customer remains happy with the product and we are well-positioned for a strong renewal. The [renewal process](#renewal-process) kicks off to facilitate the renewal.
 
 ## User Onboarding
 
@@ -211,7 +178,7 @@ A critical part of the customer experience is user onboarding. After deal close,
 
 - [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
 
-## Developer Enablement
+## Adoption
 
 We have a 6-prong approach to developer enablement so that are able to meet each customer and each dev culture where they are. You can see an overview of our methods below:
 ![enablement program](https://user-images.githubusercontent.com/7228359/220773126-cbd243f0-045f-4072-83ce-e31839e836cf.jpg)
@@ -230,41 +197,43 @@ For synchronous webinars, a standard customer engagement should include three co
 - [Customer Training Engineer repo](https://github.com/sourcegraph/customer-training/tree/main/trainings)
 - [Working with the Sourcegraph GraphQL API](working-with-the-sourcegraph-graphql-api.md)
 
-## Expansions and Renewals
+# Voice of the Customer
 
-Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. The TA is not expected to directly lead the expansion opportunity itself,as that is a CE responsibility. However, the TA will be engaged and consulted throughout.
+A key role we play for our customers is serving as an advocate on their behalf back to internal product teams. As requests or feedback is shared from our customers, we share that with our product teams serving as a liaison on the customers' behalf. We do so by logging their feedback in Salesforce on the [Product Feedback Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders).
 
-A basic renewal (no expansion) would not involve a CE. The TA will assist the Account Executive through the renewal activities and process.
-
-## Voice of the Customer
-
-A key role we play for our customers is serving as an advocate on their behalf back to internal product teams. As requests or feedback is shared from our customers, we share that with our product teams serving as a liaison on the customers' behalf.
-
-### Resources
-
-- [Product Feedback Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
-
-## Account Management
+# Account Management
 
 As TAs we are responsible for the technical success of our customers. Post-sales we nurture these relationships and manage the accounts by paying attention to customer health metrics. Usage, adoption, and customer sentiment are important indicators that we monitor and address. It is recommended that TAs routinely monitor this to keep a pulse on customer metrics. There is also a link to this from the Salesforce Account record.
 
-### Resources
+## Customer Data & Analytics
 
-- [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
-- [Instance overview dashboard](https://sourcegraph.looker.com/dashboards-next/167)
+Looker is our source for customer data & analytics. Two key dashboards we use are:
+- [Customer Health TS Dashboard](https://sourcegraph.looker.com/dashboards/484)
+- [Instance Overview Dashboard](https://sourcegraph.looker.com/dashboards/409?Account+name=Apex+Clearing+Corp&Installer+email=))
+
+## Champion Building & Relationship Management
+
+A core responsibility of the TA is to identify, build, and maintain strong relationships with customers. We define a champion as someone who:
+
+1. Has power and influence within their company
+2. Actively sells and promotes on our behalf
+3. Has a vested interest in our success, and see it as their success
+
+All three of these aspects must be true in order to be a true champion. TAs must constantly be testing their champions to ensure they remain true champions, and where necessary either build up existing champions or identify new ones.
+
+See more of our champion training [here](https://docs.google.com/presentation/d/1RPqSkCgKU0za85fe2QCOuhlzoy6a2fJBlRgZbbz6ceU/edit#slide=id.g1eeb416435b_0_56) and on [Highspot](https://sourcegraph.highspot.com/).
 
 ## QBRs
 
-_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
+An important dimension of relationship management and ensuring that our customers are getting the expected value and outcomes from Sourcegraph is understood and shared through Quarterly Business Reviews (QBRs). We ideally want to lead these conversations with customers on a quarterly basis, but at times may hold them bi-annually. TAs are responsible for leading the planning and execution of customer QBRs with close input from internal team members such as Sales.
 
-We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an Executive Business Review), with our customers which recaps how Sourcegraph has been integrated into and creating value for their organization over the past quarter. These QBRs are typically created and presented by the CE assigned to the account, in conjunction with the account’s AE. They are typically presented in a slide deck format to executive-level leadership, and highlight usage metrics and use cases for their org. Additionally, they are used to gather feedback and comments from leadership regarding Sourcegraph.
+The format of QBRs is as follows:
 
-### Resources
+- Intros
+- Partnership reap
+- Understanding customer upcoming strategy, initiatives, and priorities
+- Past quarter progress & outcomes
+- Value realization & capability maturity model
+- Product roadmap, demo, & feedback
 
-- The [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#) details how CEs should execute a QBR.
-- [QBR Quickstart video](https://www.loom.com/share/fb63d3286cda43a3b57913c5bdcc9806)
-- [QBR Deck Template](https://docs.google.com/presentation/d/10TTvP3_U9-z_40vyqo1Bi_f0lD2s8TclFLnqvXIdU1s/edit#slide=id.gc868ddee9e_0_0)
-- [QBR Deck Template (with value realization)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE)
-- [Example QBR Deck](https://docs.google.com/presentation/d/1bWjDHA5U6luV4h6jNDo9fyj11tkpf_nHi9DhbLsPxr0/edit#slide=id.g96a3fc9b53_0_0)
-- [Example QBR Survey](https://docs.google.com/document/d/1v3JhUOECfBmE9HHEEYZKPQY_jLllcismWZoaRPkVei4/edit?usp=sharing)
-- [Sample QBR Recording on Chorus](https://chorus.ai/meeting/36928A0D99694DCB8E0AC9D028E44A1D?search=qbr&recordingsOnly=true&transcript=false)
+[(Deck)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE/edit#slide=id.g239a2137c1c_0_2240)
