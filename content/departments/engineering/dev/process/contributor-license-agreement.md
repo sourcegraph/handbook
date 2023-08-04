@@ -1,6 +1,6 @@
 # CLA
 
-CLA stands for Contributor License Agreement. It is a [legal document](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/CLA.txt) that some open source projects require contributors to sign before they can contribute code. \
+CLA stands for Contributor License Agreement. It is a [legal document](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/CLA.txt) that some open source projects require contributors to sign before they can contribute code.
 
 The primary purposes of a CLA are:
 
@@ -12,7 +12,7 @@ The primary purposes of a CLA are:
 
 ### Which Sourcegraph repositories DO NOT require a CLA?
 
-For permissively licensed projects, contributors do **not** need to sign a CLA given that permissive license terms govern the use of such contributions. Read more about permissive licenses [here](https://handbook.sourcegraph.com/departments/engineering/dev/process/licenses/#allowed-licenses-permissive-licenses).
+For permissively licensed projects, contributors do **not** need to sign a CLA given that permissive license terms govern the use of such contributions. Read more about permissive licenses [here](/departments/engineering/dev/process/licenses/#allowed-licenses-permissive-licenses).
 
 ### Examples of Sourcegraph repositories that DO NOT require CLAs:
 
@@ -24,7 +24,7 @@ For permissively licensed projects, contributors do **not** need to sign a CLA g
 
 For all (a) proprietary or (b) copyleft-licensed projects, contributors need to sign a CLA. To reduce the burden on contributors, limiting the CLA requirement to only contributions or changes involving 10 or more lines of code is ok.
 
-Read more about copyleft licenses [here](https://handbook.sourcegraph.com/departments/engineering/dev/process/licenses/#not-allowed-licenses-copyleft-licenses).
+Read more about copyleft licenses [here](/departments/engineering/dev/process/licenses/#not-allowed-licenses-copyleft-licenses).
 
 ### What repository owned by Sourcegraph requires a CLA?
 
