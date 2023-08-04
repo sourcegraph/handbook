@@ -425,7 +425,7 @@ As an IC you'll progress on several axis:
           <li>Initiates and drives projects with broad/deep impact that enable higher quality work.</li>
           <li>Provides oversight, coaching, and guidance through code and design reviews, both on and off the team.</li>
           <li>Acts as a trusted advisor, drawing on functional expertise to inform customer-driven strategy.</li>
-          <li>Demonstrates deep domain knowledge where teammates seek their advice on doman/code.</li>
+          <li>Demonstrates deep domain knowledge where teammates seek their advice on domain/code.</li>
           <li>Responsible for working on the right thing.</li>
         </ul>
       </td>
@@ -530,13 +530,11 @@ As an IC you'll progress on several axis:
       </td>
       <td class="behaviors">
         <ul>
+<li>Has IC4 equivalent teamwork expectations.</li>
 <li>Proactively builds teams by implementing team processes and creating opportunities for teammates to connect.</li>
 <li>Ensures team members are happy and engaged, as measured by impact reviews.
 <li>Proactively resolves interpersonal conflicts.</li>
 <li>Collaborates with cross-functional partners to balance product needs with technical feasibility.</li>
-
-plus IC 4 teamwork expectations
-
 <li>Effectively able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.</li>
 <li>Actively seeks dissenting opinions, disconfirming evidence, etc.</li>
 <li>Shares a long-term vision that influences the team’s roadmap.</li>
@@ -588,11 +586,10 @@ plus IC 4 teamwork expectations
       </td>
       <td class="behaviors">
         <ul>
-          <li>Set the bar for operational, people, and roadmap aspects of your area and advise/coach other managers effectively on the process.</li>
+<li>Has IC5 equivalent teamwork expectations.</li>
+<li>Set the bar for operational, people, and roadmap aspects of your area and advise/coach other managers effectively on the process.</li>
 <li>Coordinates priorities and commitments between teams to ensure the successful delivery of goals.</li>
 <li>Develops strong technical leads to oversee the day-to-day of their teams.</li>
-
-<li>plus IC5 teamwork expectations</li>
 <li>Provides technical expertise internally and externally, informing what can be achieved.</li>
 <li>Regularly shares knowledge to influence and up-level large and/or senior audiences.</li>
 <li>Persuades and challenges clients and internal stakeholders, using valid expertise and respectful communication.</li>
@@ -605,7 +602,7 @@ plus IC 4 teamwork expectations
         <ul>
 <li>Leads a medium-to-large sized team.</li>
 <li>Responsible for managing teammates performance and annual impact reviews.</li>
-<li>ndividuals are more seasoned and have broader influence than M3.</li>
+<li>Individuals are more seasoned and have broader influence than M3.</li>
 <li>Analogy: captain of a ship; takes mid-sized vessels on longer voyages through bumpy water (strong tactical decision-maker, handles unforeseen issues).</li>
         </ul>
       </td>
