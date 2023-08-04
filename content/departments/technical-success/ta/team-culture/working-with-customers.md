@@ -6,7 +6,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Internal](#internal)
   - [External](#external) -->
 
-- [TA Processes](#processes)
+- [TA Processes](#ta-processes)
   - [Pre-to-Post-Sales Handoff](#post-sales-handoff)
     - [TA Assignment](#ta-assignment)
     - [Hand-off from pre-to-post sales](#hand-off-process)
@@ -28,6 +28,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [QBRs](#qbrs)
 - [Playbooks](#playbooks)
   - [Recurring TA Responsibilities](#ta-cadence)
+  - [TA Scenarios](#ta-scenarios)
 
 ---
 
@@ -240,3 +241,7 @@ The following are a sample of the activities that a TA is responsible for on a d
   - Product updates
   - Product research
 - Usage & Value Reporting on a quarterly basis -->
+
+## TA Scenarios
+
+To learn more about best practices and how to handle certain situations that may arise on your accounts, see the [TA Scenarios Playbook](../ta-playbooks/ta-scenarios.md).
