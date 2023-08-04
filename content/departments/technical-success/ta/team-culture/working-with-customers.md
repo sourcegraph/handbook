@@ -5,6 +5,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
 <!-- - [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
   - [Internal](#internal)
   - [External](#external) -->
+
 - [Processes](#processes)
   - [Pre-to-Post-Sales Handoff](#post-sales-handoff)
     - [TA Assignment](#ta-assignment)
