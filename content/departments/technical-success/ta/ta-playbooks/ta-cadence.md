@@ -68,9 +68,7 @@
 
 ### New Customers
 
-- [Knowledge transfer](../team-culture/working-with-customers.md#post-sales-customer-touchpoints) with sales & CE team
-- [Partnership kickoff](../team-culture/working-with-customers.md#post-sales-partnership-kickoff)
-- [Customer onboarding](../team-culture/working-with-customers.md#user-onboarding)
+- [Post-sales handoff](../team-culture/working-with-customers.md#post-sales-handoff)
 
 ### Account Transitions
 
