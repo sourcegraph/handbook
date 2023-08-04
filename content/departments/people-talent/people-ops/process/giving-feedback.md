@@ -121,7 +121,7 @@ Feedback from teammates we work closely with is some of the most valuable we wil
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> In the past 6-months, this teammate consistently delivers quality work in line with the expectations of their role/level/values. Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> In the past 6-months, this teammate consistently delivers quality work in line with the expectations of their role/level/values. Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?.[Rating Scale: 1 Truly Oustanding, 2 Exceeds Expectations, 3 Meets Expectations, 4 Partially Successful Performance, 5 Below Expecations]
 <p>
 
 Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period.
@@ -129,7 +129,7 @@ Please provide specific examples in the comment field that supports how this Tea
 <p>
 <em>* Note: Response is only visible to this teammate’s Manager.</em>
    </td>
-   <td>[Teammate name] consistently delivers quality work that aligns with their role.  Below are some examples that help explain why I rated them as a _____.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td>[Teammate name] consistently delivers quality work that aligns with their role.  Below are some examples that help explain why I rated them as a _____.  [Rating Scale: 1 Truly Oustanding, 2 Exceeds Expectations, 3 Meets Expectations, 4 Partially Successful Performance, 5 Below Expecations] 
 <ul>
 
 Example 1
@@ -291,7 +291,7 @@ Gathering feedback from a manager's direct reports is important in the performan
    </td>
   </tr>
   <tr>
-   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Distinguished Performance, 2 Superior Performance, 3 Meets Performance Expectations, 4 Partially Successful Performance, 5 Unsuccessful Performance] 
+   <td><strong>Performance:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1 Truly Oustanding, 2 Exceeds Expectations, 3 Meets Expectations, 4 Partially Successful Performance, 5 Below Expecations] 
 <p>
 Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period. 
 <p>
