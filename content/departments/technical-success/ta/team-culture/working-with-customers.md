@@ -6,7 +6,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Internal](#internal)
   - [External](#external) -->
 
-- [Processes](#processes)
+- [TA Processes](#processes)
   - [Pre-to-Post-Sales Handoff](#post-sales-handoff)
     - [TA Assignment](#ta-assignment)
     - [Hand-off from pre-to-post sales](#hand-off-process)
@@ -26,38 +26,14 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Voice of the Customer](#voice-of-the-customer)
   - [Champion Building & Relationship Management](#champion-building--relationship-management)
   - [QBRs](#qbrs)
+- [Playbooks](#playbooks)
+  - [Recurring TA Responsibilities](#ta-cadence)
 
 ---
 
-# Recurring Responsibilities
+# TA Processes
 
-To understand more the kinds of activities TAs perform daily, weekly, monthly, quarterly, and on an ad-hoc basis see the [TA Cadence Playbook](../ta-playbooks/ta-cadence.md).
-
-<!-- # Recurring Daily Responsibilities
-
-The following are a sample of the activities that a TA is responsible for on a daily basis:
-
-## Internal
-
-- Establish up-to-date account map / plan
-  - Org, roles & responsibilities, learn the state of things, intros to folks
-- Account Monitoring: flag and schedule internal meetings, work with customer on corrective action, customer health
-
-## External
-
-- Account Monitoring: flag and schedule internal meetings, work with customer on corrective action, customer health
-- Relationship building
-  - Champion identification/building/nurture activities
-  - Tech advocate identification/building/nurture activities
-- Standardized customer communications
-  - Incident response
-  - Product updates
-  - Product research
-- Usage & Value Reporting on a quarterly basis -->
-
-# Processes
-
-Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the TA team either drives or heavily contributes to are outlined below.
+Processes exist to ensure consistent practices amongst teams. Processes that the TA team either drives or heavily contributes to are outlined below.
 
 ## Post Sales Handoff
 
@@ -70,9 +46,9 @@ The pre-to-post sales handoff process consists of the following steps:
 1. Technical Advisor Support Level is [manually assigned](#ta-assignment) on the Salesforce Account by TA leadership
 2. The account is created in Vitally automatically once Support Level is set
 3. Customer Segmentation Assignment Vitally Playbook runs to assign account segment attribute of: Strategic, Enterprise, or Commercial.
-4. Assign Scaled Success Accounts Vitally Playbook runs to check if Account is in the commercial segment and is less than $50k ARR. If so, account is assigned segment of "Scaled Success"
-5. Customer Lifecycle Stages Vitally Playbook runs to assign account as "0. Propsect", the first step in the customer lifecycle. At this point the account is created and all initial attributes about the new customer are assigned in Vitally.
-6. 30 days out from expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
+4. Assign Scaled Success Accounts Vitally Playbook runs to check if Account is in the commercial segment and is less than $50k ARR. If so, the account is assigned segment of "Scaled Success"
+5. Customer Lifecycle Stages Vitally Playbook runs to assign account as "0. Prospect", the first step in the customer lifecycle. At this point, the account is created and all initial attributes about the new customer are assigned in Vitally.
+6. 30 days out from the expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
 7. Once the deal closes, the TA issues a [production license](#production-license) and initiates their onboarding.
 
 You can read more about each step below.
@@ -85,7 +61,7 @@ Approximately 45 days before closure, TA leadership will assign the Technical Ad
 
 35 days before closure the Pre to Post-Sales Hand-off and Planning Vitally playbook runs which creates the Handoff Doc template in Vitally and assigns the CE a task to fill out and schedule the knowledge transfer / handoff with the assigned TA and AE. If IE will be helping with the production implementation, they should attend too.
 
-After the knowledge transfer session, either the TPM will be introduced to the customer to being planning their production deployment or if IE will not be involved, the TA begins to plan and prepare for the [partnership kick-off](https://docs.google.com/presentation/d/1q2oPqCOO8XuCC0F2DuVdNpDh30OuIdMpKz9gNAqHces/edit#slide=id.g1e638d9bd88_1_379) and begins to prepare for new user onboarding. They do this by working with the AE and CE to understand how many seats have been purchased, where these teams are located, and by identifying customer contacts to help coordinate onboarding.
+After the knowledge transfer session, either the TPM will be introduced to the customer to begin planning their production deployment or if IE will not be involved, the TA begins to plan and prepare for the [partnership kick-off](https://docs.google.com/presentation/d/1q2oPqCOO8XuCC0F2DuVdNpDh30OuIdMpKz9gNAqHces/edit#slide=id.g1e638d9bd88_1_379) and begins to prepare for new user onboarding. They do this by working with the AE and CE to understand how many seats have been purchased, where these teams are located, and by identifying customer contacts to help coordinate onboarding.
 
 ### Production License
 
@@ -97,7 +73,7 @@ Finance, TA, Sales, and Value Engineering all play a key role in customer renewa
 
 ### Process Overview
 
-Our renewal process is a 5 step process that begins 120 days prior to renewal date. The process lifecycle is as follows:
+Our renewal process is a 5 step process that begins 120 days prior to the renewal date. The process lifecycle is as follows:
 ![Renewal Process](https://user-images.githubusercontent.com/7228359/220760306-60b90fc3-3701-44e2-aad9-f61c386ffee8.jpg). The Renewal Playbook Vitally playbook triggers the renewal process.
 
 ### Renewal Process Phases
@@ -106,7 +82,7 @@ Our renewal process is a 5 step process that begins 120 days prior to renewal da
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Health Assessment                      | Vitally triggers Health Assessment doc 120 days before renewal                                                            | 1) TA completes Health Assessment doc template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green or yellow / red) | If yellow / red, elevate to Lighthouse program <br> If green, monitor        |
 | Lighthouse Program (Yellow / Red only) | To be filled in                                                                                                           | To be filled in                                                                                                                                                        | To be filled in <br> Monitor green accounts                                  |
-| Renewal Plan                           | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                         | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal |
+| Renewal Plan                           | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor the progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                         | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal |
 | Renewal Forecast                       | AE & TA leadership: weekly forecast                                                                                       | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)             | Quarterly forecast                                                           |
 | Process Renewal                        | AE & TA leadership: weekly forecast                                                                                       | AE: Renewal opportunity processed accordingly                                                                                                                          | Renewal event complete                                                       |
 
@@ -116,7 +92,7 @@ Our renewal process is a 5 step process that begins 120 days prior to renewal da
 
 # Customer Health
 
-A Customer Health Score is used to give us a view into the wellbeing of our customer base.
+A Customer Health Score is used to give us a view into the well-being of our customer base.
 
 Vitally is the tool we use to calculate this score. Vitally will update this score once an hour, but the underlying traits still need to be maintained.
 The customer health score is calculated using the following standard categories:
@@ -153,7 +129,7 @@ Last 90 Days Help Tickets | The number of questions or general help support tick
 **Utilization**
 | Trait | Description | Source |
 | ---------------- | ---------------------------------------------- | --- |
-| Usage Score (Last 4 Wk DAU / Last Month MAU) | This looks at the rolling 4 week average of daily active users over last months monthly active users. 30% or higher (.3) is considered healthy, 20% or less is considered poor (.2). | Sourcegraph generated (BigQuery) |
+| Usage Score (Last 4 Wk DAU / Last Month MAU) | This looks at the rolling 4 week average of daily active users over last month's monthly active users. 30% or higher (.3) is considered healthy, 20% or less is considered poor (.2). | Sourcegraph generated (BigQuery) |
 | Last Month Mau Over Seats | At the end of each calendar month we look at the Monthly Active Users of an instance for that month. We then divide that by the number of seats they have purchased. 80% is considered healthy (.8), less than 50% (.5) is considered poor. | Sourcegraph generated (BigQuery) |
 
 # Post-Sales Customer Lifecycle
@@ -164,13 +140,13 @@ Our customer lifecycle is comprised of the following stages:
 
 - `0. Prospect` - a late-stage new business prospect that is 45- days out from closing. During this phase, CE is handing off and transferring knowledge to TA, if IE will be helping with the production deployment they will begin planning for that, the TA is preparing for partnership kick-off.
 - `1. Onboarding` - when the deal closes, the account enters the [onboarding phase](#user-onboarding) of the lifecycle. Customers remain in this phase for the first 60 days of the partnership. During this time, the team is focused on ensuring their production instance is complete and onboarding end users. The goal is to get to 80% consumption of seats by the end of the first 60 days.
-- `2. Adopting` - after the initial onboarding phase, the account enters the [adoption](#adoption) phase. The focus in this phase is on driving greater consumption and engagement with the product. The team works with the customer to identify and implement best practices & enable on use cases that drive greater adoption and daily use. Customers remain in this phase until they hit our utilization targets of 30% Daily Active Use / Monthly Active use and 80% Monthly Active use / Total seats purchased.
+- `2. Adopting` - after the initial onboarding phase, the account enters the [adoption](#adoption) phase. The focus in this phase is on driving greater consumption and engagement with the product. The team works with the customer to identify and implement best practices & enable on use cases that drive greater adoption and daily use. Customers remain in this phase until they hit our utilization targets of 30% Daily Active Use / Monthly Active Use and 80% Monthly Active Use / Total seats purchased.
 - `3. Nurturing` - once the customer hits their utilization targets, % consumption, they enter the nurturing phase. The focus in this phase shifts to maximizing the value the customer is getting from Sourcegraph. This includes identifying and implementing advanced product features, custom integrations, or new use cases. At this point in the journey we want to also be looking for co-marketing opportunities.
 - `4. Renewing` - 120 days out from contract renewal, the account transitions into the renewing phase. The team focuses on ensuring the customer remains happy with the product and we are well-positioned for a strong renewal. The [renewal process](#renewal-process) kicks off to facilitate the renewal.
 
 ## User Onboarding
 
-A critical part of the customer experience is user onboarding. After deal close, and once the customers' production infrastructure is setup and configured, TAs are responsible for driving adoption of users onto Sourcegraph. During this phase, the TA is executing a user roll out plan to onboard the users onto Sourcegraph.
+A critical part of the customer experience is user onboarding. After the deal close, and once the customers' production infrastructure is setup and configured, TAs are responsible for driving adoption of users onto Sourcegraph. During this phase, the TA is executing a user roll out plan to onboard the users onto Sourcegraph.
 
 ### Resources
 
@@ -229,10 +205,38 @@ An important dimension of relationship management and ensuring that our customer
 The format of QBRs is as follows:
 
 - Intros
-- Partnership reap
+- Partnership recap
 - Understanding customer upcoming strategy, initiatives, and priorities
 - Past quarter progress & outcomes
 - Value realization & capability maturity model
 - Product roadmap, demo, & feedback
 
 [(Deck)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE/edit#slide=id.g239a2137c1c_0_2240)
+
+# Playbooks
+
+## TA Cadence
+
+To learn more about the kinds of activities TAs perform daily, weekly, monthly, quarterly, and on an ad-hoc basis see the [TA Cadence Playbook](../ta-playbooks/ta-cadence.md).
+
+<!-- # Recurring Daily Responsibilities
+
+The following are a sample of the activities that a TA is responsible for on a daily basis:
+
+## Internal
+
+- Establish up-to-date account map / plan
+  - Org, roles & responsibilities, learn the state of things, intros to folks
+- Account Monitoring: flag and schedule internal meetings, work with customers on corrective action, customer health
+
+## External
+
+- Account Monitoring: flag and schedule internal meetings, work with customers on corrective action, customer health
+- Relationship building
+  - Champion identification/building/nurture activities
+  - Tech advocate identification/building/nurture activities
+- Standardized customer communications
+  - Incident response
+  - Product updates
+  - Product research
+- Usage & Value Reporting on a quarterly basis -->
