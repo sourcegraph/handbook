@@ -16,9 +16,9 @@ For permissively licensed projects, contributors do **not** need to sign a CLA g
 
 ### Examples of Sourcegraph repositories that DO NOT require CLAs:
 
-* [sourcegraph/cody](https://sourcegraph.com/github.com/sourcegraph/cody)
-* [sourcegraph/zoekt](https://github.com/sourcegraph/zoekt)
-* [sourcegraph/conc](https://github.com/sourcegraph/conc)
+- [sourcegraph/cody](https://sourcegraph.com/github.com/sourcegraph/cody)
+- [sourcegraph/zoekt](https://github.com/sourcegraph/zoekt)
+- [sourcegraph/conc](https://github.com/sourcegraph/conc)
 
 ### Which Sourcegraph repositories DO require a CLA?
 
@@ -28,7 +28,7 @@ Read more about copyleft licenses [here](../licenses/#not-allowed-licenses-copyl
 
 ### What repository owned by Sourcegraph requires a CLA?
 
-* [sourcegraph/sourcegraph](https://sourcegraph.com/github.com/sourcegraph/sourcegraph)
+- [sourcegraph/sourcegraph](https://sourcegraph.com/github.com/sourcegraph/sourcegraph)
 
 ### Why do some projects require a CLA and others don’t?
 
