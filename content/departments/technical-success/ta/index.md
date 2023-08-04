@@ -24,7 +24,7 @@ We consider healthy adoption / utilization to comprise of at least 80% consumpti
 
 ### Consumption (Usage)
 
-TAs seek to educate and enable customer devs on how to integrate Sourcegraph into their workflows so that they are using it multiple times every single day. Today we calculate usage based on a 4 week average lookback of daily active users / last month's monthly active users. 
+TAs seek to educate and enable customer devs on how to integrate Sourcegraph into their workflows so that they are using it multiple times every single day. Today we calculate usage based on a 4 week average lookback of daily active users / last month's monthly active users.
 
 ### Retention
 
