@@ -1,29 +1,27 @@
 # Technical Advisors: Working with Customers
 
-A TA, being a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
+A TA, being a post-sales technical success manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with and on behalf of our customers
 
-- [Technical Advisors: Working with Customers](#technical-advisors-working-with-customers)
 <!-- - [Recurring Daily Responsibilities](#recurring-daily-responsibilities)
   - [Internal](#internal)
   - [External](#external) -->
 - [Processes](#processes)
   - [Pre-to-Post-Sales Handoff](#post-sales-handoff)
     - [TA Assignment](#ta-assignment)
-    - [Hand-off from pre-to-post sales](#hand-off-from-pre-to-post-sales)
+    - [Hand-off from pre-to-post sales](#hand-off-process)
   - [Renewal Process](#renewal-process)
     - [Process Overview](#process-overview)
     - [Renewal Process Phases](#renewal-process-phases)
   - [Red Accounts](#red-accounts)
-- [Customer Health](#customer-health)
-  - [Processes](#processes-1)
 - [Post-Sales Customer Journey](#post-sales-customer-lifecycle)
   - [User Onboarding](#user-onboarding)
     - [Resources](#resources)
-  - [Developer Enablement](#developer-enablement)
+  - [Adoption](#adoption)
     - [Standard trainings](#standard-trainings)
     - [Resources](#resources-1)
-- [Account Management](#account-management)
-  - [Customer Data & Analytics](#customer-data-analytics)
+- [Account Management Activities](#account-management)
+  - [Customer Health](#customer-health)
+  - [Customer Data & Analytics](#customer-and-data-analytics)
   - [Voice of the Customer](#voice-of-the-customer)
   - [Champion Building & Relationship Management](#champion-building--relationship-management)
   - [QBRs](#qbrs)
@@ -32,7 +30,7 @@ A TA, being a post-sales technical account manager, works with customers in a nu
 
 # Recurring Responsibilities
 
-- see [TA Cadence](../ta-playbooks/ta-cadence.md)
+To understand more the kinds of activities TAs perform daily, weekly, monthly, quarterly, and on an ad-hoc basis see the [TA Cadence Playbook](../ta-playbooks/ta-cadence.md).
 
 <!-- # Recurring Daily Responsibilities
 
@@ -204,7 +202,7 @@ A key role we play for our customers is serving as an advocate on their behalf b
 
 As TAs we are responsible for the technical success of our customers. Post-sales we nurture these relationships and manage the accounts by paying attention to customer health metrics. Usage, adoption, and customer sentiment are important indicators that we monitor and address. It is recommended that TAs routinely monitor this to keep a pulse on customer metrics. There is also a link to this from the Salesforce Account record.
 
-## Customer Data & Analytics
+## Customer and Data Analytics
 
 Looker is our source for customer data & analytics. Two key dashboards we use are:
 
