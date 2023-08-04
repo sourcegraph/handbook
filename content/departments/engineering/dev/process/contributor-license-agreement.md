@@ -12,7 +12,7 @@ The primary purposes of a CLA are:
 
 ### Which Sourcegraph repositories DO NOT require a CLA?
 
-For permissively licensed projects, contributors do **not** need to sign a CLA given that permissive license terms govern the use of such contributions. Read more about permissive licenses [here](./licenses#allowed-licenses-permissive-licenses).
+For permissively licensed projects, contributors do **not** need to sign a CLA given that permissive license terms govern the use of such contributions. Read more about permissive licenses [here](licenses#allowed-licenses-permissive-licenses).
 
 ### Examples of Sourcegraph repositories that DO NOT require CLAs:
 
@@ -24,7 +24,7 @@ For permissively licensed projects, contributors do **not** need to sign a CLA g
 
 For all (a) proprietary or (b) copyleft-licensed projects, contributors need to sign a CLA. To reduce the burden on contributors, limiting the CLA requirement to only contributions or changes involving 10 or more lines of code is ok.
 
-Read more about copyleft licenses [here](./licenses#not-allowed-licenses-copyleft-licenses).
+Read more about copyleft licenses [here](licenses#not-allowed-licenses-copyleft-licenses).
 
 ### What repository owned by Sourcegraph requires a CLA?
 
