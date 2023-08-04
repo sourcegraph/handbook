@@ -44,7 +44,7 @@ For Sourcegraph Cloud Managed customers:
 For Self-Hosted customers:
 
 - Must be a standard, healthy deployment, certified by internal teams
-- ust agree to use Cloud embeddings
+- Must agree to use Cloud embeddings
 - Must agree to use either OpenAI or Anthropic LLMs (our token or theirs)
 - Must receive manual approval in order to proceed
 
