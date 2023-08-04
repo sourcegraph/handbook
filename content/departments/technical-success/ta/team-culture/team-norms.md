@@ -40,6 +40,22 @@ Vitally calculates our customer health score and is the mechanism by which we fa
 
 This [Dashboard](https://sourcegraph.vitally.io/work/team/dashboards/eee503ef-886f-4eba-b416-866f0aef71bb) can be used to see the current state of these traits for your accounts all in one spot.
 
+##### Other Helpful Vitally Dashboards
+
+###### Easy Book Of Business Breakdown
+
+- https://sourcegraph.vitally.io/views/d3aceeb1-143d-48b9-afef-7fb0c679cb9a
+- Use the CSM filter at the bottom right to pick the TA
+
+###### List of Health Score Category Changes
+
+- https://sourcegraph.vitally.io/views/99ca793f-c005-4e50-b842-71490f52013a
+- Gives you the Account that changed, the date it changes, it’s current green/yellow/red status and it’s old green/yellow/red status
+
+###### Other helpful links and tools
+
+- Make sure you have enabled the Gmail Integration with Vitaly - [Link](https://docs.vitally.io/pushing-data-to-vitally/integrations/gmail) and your SFDC Gmail connector
+
 ### Salesforce
 
 As the Sales system of record, we use Salesforce (and the data we bring into Vitally from Salesforce) as the source of contractual information such as revenue, licensing, and renewal & expansion opportunities.
