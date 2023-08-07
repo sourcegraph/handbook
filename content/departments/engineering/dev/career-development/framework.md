@@ -253,7 +253,7 @@ As an IC you'll progress on several axis:
         <ul>
           <li>Task oriented, but gaining/demonstrating independence.Core skills functional.</li>
           <li>Requires some direction.</li>
-          <li>Effectively delivers work without a paint, communicated being blocked, seeks “help, and communicates outcome.</li>
+          <li>Effectively delivers work without complaint; communicates being blocked; seeks help and communicates outcome.</li>
           <li>Analogy: learns about sailing; takes orders on specific tasks (grab that rope).</li>
         </ul>
       </td>
