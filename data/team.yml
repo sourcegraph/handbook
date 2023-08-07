@@ -1157,17 +1157,6 @@ nicolas_hernandez:
   links: '[LinkedIn](https://www.linkedin.com/in/nicolas-hernandez-70242033/), [Why I Joined Sourcegraph](https://medium.com/@doktanick/why-i-am-joining-sourcegraph-99fba51df985)'
   description: Nick grew up in San Francisco and is currently in Miami. He graduated from Stanford where he studied Comp Lit and then took a fellowship to study law in Germany. He started his career in Enteprise Software at MuleSoft where he held a number of different sales roles. After that, he built the sales team at Vivian, a healthcare labor marketplace owned by IAC. Nick likes to read books, drink tea, and explore on foot. He is taking music recommendations.
 
-rohan_gupta:
-  name: Rohan Gupta
-  role: Sales Development Representative - (USA)
-  reports_to: head_sales_development
-  location: Austin, TX, USA 🇺🇸
-  pronouns: he/him
-  email: rohan.gupta@sourcegraph.com
-  github: rohanguptatx
-  links: '[LinkedIn](https://www.linkedin.com/in/rohanguptatx/), [@rguptatech](https://twitter.com/rguptatech), [Why I Joined](https://medium.com/@rohanguptatx/sourcegraph-the-future-of-big-code-1de9adbeca36)'
-  description: Rohan is a Boston-ite turned Austin-ite. He enjoys running, finding the next best food truck or music festival, and helping customers solve unique business challenges.
-
 david_veszelovszki:
   name: David Veszelovszki
   pronunciation: '[ˈdeɪvɪd ˈveselovski](http://ipa-reader.xyz/?text=%CB%88de%C9%AAv%C9%AAd%20%CB%88veselovski&voice=Joey'
@@ -2095,6 +2084,17 @@ alex_bildner:
   links: '[LinkedIn](https://www.linkedin.com/in/alex-bildner)'
   description: Alex is a student at Duke University studying Computer Science and Economics. Outside of programming, he likes music, going to the beach, travelling, cooking, and hanging out with his dog Coco 🐶.
 
+kevin_chen:
+  name: Kevin Chen
+  email: kevin.chen@sourcegraph.com
+  github: chenkc805
+  pronouns: he/him
+  role: Product Manager
+  reports_to: Chris Sells
+  location: Oakland, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/kevinlchen)'
+  description: Kevin is a product manager who is passionate about helping business grow through creating easy to use and valuable product experiences. Outside of product and tech, he likes reading about stocks, road biking, mountain biking, eating delicious food with his with Kathleen, and playing with his dog Tesla 🐶.
+  
 chris_sells:
   name: Chris Sells
   role: VP, Head of Product
