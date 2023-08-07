@@ -23,8 +23,7 @@ The level descriptions correspond to the start of the level, so that if an IC ha
 
 These are the expectations for ICs _after they have completed their onboarding_. Some of these expectations (such as around communication) would start on day 1, but others (such as expertise in the codebase) would not be expected until they are fully ramped up.
 
-In line with our _continuously grow_ company value, we expect every engineer to eventually reach at least level 3.
-It is the responsibility of your manager to track this, and to ensure that you are given the support and opportunities needed for career growth.
+We expect every engineer to eventually reach at least level 3. It is the responsibility of your manager to track this, and to ensure that you are given the support and opportunities needed for career growth.
 
 ## When do I get promoted?
 
