@@ -17,7 +17,7 @@ In preparation for your Calibration Session with your People Partner, all Manage
 5. Review the below resources:
 
 - Read this entire handbook page start to finish and educate yourself on ["mitigating unconcious bias"](#mitigating-unconscious-bias)
-- Review our [rating definitions](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/) and have a clear understanding of the difference between Distinguised Performance, Superior Performance, Meets Performance Expectations, Partially Successful Performance, and Unsuccessful Performance.
+- Review our [new rating definitions](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/) and have a clear understanding of the difference between Distinguised Performance, Superior Performance, Meets Performance Expectations, Partially Successful Performance, and Unsuccessful Performance.
 - Watch this [calibration training](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a) video
 - Review your team's [career framework](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) to ensure you're well versed on levels... you can also review our [company-wide level framework here](../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#job-levels-at-sourcegraph)
 
