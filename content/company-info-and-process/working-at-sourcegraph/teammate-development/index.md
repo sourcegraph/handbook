@@ -49,7 +49,7 @@ In situations of underperformance, which may be identified during ongoing feedba
 We aim to always work smarter, not harder - Lattice’s feedback tools allow us to do this when it comes to performance reviews by also utilizing their general feedback, praise, and growth conversation tools.
 
 - **Thanks/Praise feedback:** This tool allows anyone in the company to provide positive feedback to another teammate in Lattice and send it to the #thanks channel. The feedback will be stored in their personal Lattice profile for the teammate and their manager to reflect on during performance review.
-  - Lattice Slack integration makes it easy to provide quick Thanks while ensuring it gets stored in Lattice for later use!
+  - Lattice Slack integration makes it easy to provide quick Thanks while tagging our values and ensuring it gets stored in Lattice for later use!
 - **General feedback:** Collecting all forms of feedback is crucial in fostering a culture of continuous growth. Storing general feedback in Lattice allows Teammates and Manager to review the feedback, create action plans, and follow up on progress. It provides content to add to reviews on either areas that improved or needs improvement.
   - The Slack integration enables you to send feedback in 3 easy steps to ensure we’re giving timely and specific feedback in a timely manner.
 - **Regular 1:1s:** We expect all Managers to host 1:1s with their Teammates. Hosting the agenda and notes in Lattice allow for a quick look back when writing your formal reviews.
