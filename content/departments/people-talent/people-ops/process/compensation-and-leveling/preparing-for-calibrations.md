@@ -86,9 +86,9 @@ _Note: The purpose of a performance calibration is not to be adversarial, but to
 - Summary of feedback from peers
 - Explanation for **why** each example supports the rating
 - If putting them up for promotion:
--   Prior performance rating
--   2-3 examples that demonstrate their performance with the next level from their career ladder
-If they are not ready right now,how can we set them up for success in the future?
+- Prior performance rating
+- 2-3 examples that demonstrate their performance with the next level from their career ladder
+  If they are not ready right now,how can we set them up for success in the future?
 - Pro Tips:
   1. Utilizing [the SBI model](../giving-feedback.md) when writing reviews, will better prepare Managers to present tangible evidence to support their ratings during the calibration session
   2. When possible, Managers should support their tangible evidence by tying it back to the expectations outlined in the [career framework](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
