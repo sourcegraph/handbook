@@ -10,7 +10,7 @@ Calibration sessions can also help identify areas where additional training or d
 
 In preparation for your Calibration Session with your People Partner, all Managers are required to complete the following pre-work:
 
-1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writing. Ensure you have reviewed the peer feedback that they received to incorporate into your review. 
+1. Complete all downward reviews for your direct reports utilizing the SBI model. Click [here](../giving-feedback.md) to review best practices for Impact Review writing. Ensure you have reviewed the peer feedback that they received to incorporate into your review.
 2. Review [new rating guides](../teammate-sentiment/impact-reviews/index.md#the-talent-assessment-framework) along with expected distribution of each new rating.
 3. Log into Lattice and use the tag/note function in the Lattice [calibration module](https://help.lattice.com/hc/en-us/articles/4414854692119-Add-and-Manage-Calibration-Notes). You can find instructions on how to use the tag/notes section in [this training video](https://sourcegraph.continu.co/#/view/videos/642213c5bfa8373fc261ed6a)
 4. In Lattice, Managers are expected to place each of their direct reports into one of the following categories for [Performance](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Distinguised Performance, Superior Performance, Meets Performance Expectations, Partially Successful Performance, Unsuccessful Performance. Additionally, Managers will be required to note who they are considering putting up for promotion.
