@@ -38,6 +38,7 @@ Are you curious about how other shadow's experiences? Hear from them yourself ab
 - Diego Comas: My CEO shadow experience [blog](https://docs.google.com/document/d/1CkYiIPR1NMjTXHUIbE2pcn2im6x4O81A5M6F7cjTIQA/edit?usp=drive_link) and [video](https://drive.google.com/file/d/1lcpj291eu4SexYSecfmVVYSSxH82KHts/view?usp=drive_link)
 - [Marija Petrovic](https://docs.google.com/document/d/1_BrCUWpWNmcbobV6j5aUTlY_9gaaLsPj4zsa9yaVrV8/edit?usp=drive_link): CEO shadow recap
 - [Todd Herskovitz](https://docs.google.com/document/d/1oza4d1sUS8IzXPfTMC8o47IgDQ5EcmOnD15zLUfslQw/edit?usp=drive_link): Key takeaways and feedback
+- [Marc LeBlanc](https://docs.google.com/document/d/1kSK-nzL2VJreBViLi5ys1TCX8TE7JIASUH8IwTreOnI/edit?usp=sharing): Adventures of a CEO shadow
 
 ## Eligibility & Participation
 
