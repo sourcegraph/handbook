@@ -327,10 +327,10 @@ Q. **What changed from the prior Impact Review process?**
 Q. **What if a Teammate is on leave during the review period?**
 
 - If over the 6-month review period, there are fewer than 4-months of on-the-job performance to assess, the Teammate will retain the rating from the immediately previous cycle. Please reach out to your People Partner for questions related to Teammates on leave.
-  * Given recent changes in our Talent Assessment Framework the ratings will transfer as follows:
-      * [1:1, 2:1, 1:2] = 2 Superior Performance
-      * [2:2] = 3 Meeting Performance Expectations
-      * [3:2, 2:3, 3:3] = 4 Partially Successful Performance
+  - Given recent changes in our Talent Assessment Framework the ratings will transfer as follows:
+    - [1:1, 2:1, 1:2] = 2 Superior Performance
+    - [2:2] = 3 Meeting Performance Expectations
+    - [3:2, 2:3, 3:3] = 4 Partially Successful Performance
 
 Q. **What if a Teammate recently transferred in from another team or the Manager is new?**
 
