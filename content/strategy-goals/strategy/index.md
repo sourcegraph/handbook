@@ -76,8 +76,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 **Win devs' hearts and minds** by solving their [Big Code](#big-code) pains. **Get paid by their companies** for sustained, business-critical usage. We will do this by...
 
-- Launch Cody as the most enterprise focused coding assistant
-- Build a differentiated AI platform to power Cody and Code Search
+- Build the code AI platform
 - Become more product-led
 - Win in big companies with Big Code
 - Prefer cloud over self-hosted
