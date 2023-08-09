@@ -30,7 +30,7 @@ Examples of typical tasks and responsibilities of a CEO Shadow:
 
 ## Past CEO Shadow experiences
 
-Are you curious about how other shadow's experiences? Hear from them yourself about their experiences and takeaways.
+Are you curious about other shadows' experiences? Read about their experiences and takeaways below.
 
 - [Rok Novosel](https://docs.google.com/document/d/1X-kPQQqemgP7cs7nO-5z0BYY2v8a8ZBoQtVh2Ar4GOs/edit): Our first international CEO shadow!
 - [Alex Isken](https://docs.google.com/document/d/1aCRrBq54_wRnd1zrWdCJv_IlykWMF-T_4UsaxBriAN8/edit#): 4.0 planning and some other interesting experiences.
