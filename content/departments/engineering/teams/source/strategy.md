@@ -20,4 +20,4 @@ What we build is reliable, predictable, maintainable, debuggable.
 
 Sourcegraph site-admins trust the tools we build for them. They enjoy using them, because they help them get their job done faster and more easily, with less ambiguity. Our goal is to provide a smooth, intuitive product that just works.
 
-Engineers at Sourcegraph love to use our APIs because they are reliable and never leak: users of our APIs don't have to worry about how gitserver, or repo-updater, authz providers, or anything else works.
+Engineers at Sourcegraph love to use our APIs because they are reliable and never leak: users of our APIs don't have to worry about how gitserver, repo-updater, authz providers, or anything else works.
