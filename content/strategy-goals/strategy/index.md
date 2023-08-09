@@ -1,6 +1,6 @@
 # Sourcegraph strategy
 
-- [Mission](#mission) (long-term): Make it so everyone can code
+- [Mission](#mission) (long-term): Make it so everyone codes
 - [Strategy](#strategy) (for FY24, this year): Win devs' hearts and minds by solving their [Big Code](#big-code) pains. Get paid by their companies for sustained, business-critical usage.
 
 ---
