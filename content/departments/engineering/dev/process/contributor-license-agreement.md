@@ -22,7 +22,7 @@ For permissively licensed projects, contributors do **not** need to sign a CLA g
 
 ### Which Sourcegraph repositories DO require a CLA?
 
-For all other repositories, including (a) proprietary or (b) copyleft-licensed projects, contributors need to sign a CLA. 
+For all other repositories, including (a) proprietary or (b) copyleft-licensed projects, contributors need to sign a CLA.
 
 Read more about copyleft licenses [here](licenses.md#not-allowed-licenses-copyleft-licenses).
 
