@@ -77,25 +77,25 @@ This deployment is also colloquially referred to as "dogfood S2", or just "S2", 
 
 S2 gets deployed every hour between 8am and 10pm UTC on weekdays using a [GitHub Actions workflow](https://golinks.io/s2-deploy) that updates the images, creates the PR, and merge the changes. The instance contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images).
 
-- [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-sg)
-- [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/sg)
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=src-747bc765eb31a4873e4b)
+- [Infrastructure configuration](https://github.com/sourcegraph/cloud/tree/main/environments/prod/deployments/src-bd02273f6b90d1d1beee)
 - [Operations](https://golinks.io/s2-ops)
 
 ### demo.sourcegraph.com
 
 This deployment is used by Sourcegraph CE for demos.
 
-- [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-demo)
-- [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/demo)
-- [Operations](../../../../cloud/technical-docs/operations.md)
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=src-5cfbf5b26a15d81a2b89)
+- [Infrastructure configuration](https://github.com/sourcegraph/cloud/tree/main/environments/prod/deployments/src-7fd1fea1fa73202e8bda)
+- [Operations](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-7fd1fea1fa73202e8bda/dashboard.md)
 
-### devmanaged.sourcegraph.com
+### clouddev.horsegraph.com
 
-This deployment is a [managed instance](../../../../cloud/index.md) used by Distribution for experimenting with managed instances in general.
+This deployment is a [managed instance](../../../../cloud/index.md) used by the Cloud team as a sandbox for experimenting with managed instances.
 
-- [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
-- [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
-- [Operations](../../../../cloud/technical-docs/operations.md)
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=src-51df2b4222042ecd2ff9)
+- [Infrastructure configuration](https://github.com/sourcegraph/cloud/tree/main/environments/prod/deployments/src-96ed006bb45d673944e4)
+- [Operations](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-96ed006bb45d673944e4/dashboard.md)
 
 ### Cody Dev
 
@@ -107,3 +107,11 @@ Cody Dev gets deployed hourly with the latest commit on the current release bran
 - [Troubleshoot and access](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-35c4eac008b3c659327c/dashboard.md) - also at [go/cody-dev-ops](https://go/cody-dev-ops)
 - [Monitor rollout or forceully trigger an upgrade](https://github.com/sourcegraph/cloud/actions/workflows/mi_upgrade_cody.yml) - also at [go/cody-dev-deploy](https://go/cody-dev-deploy)
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=cody-dev)
+
+### rctest.sourcegraph.com
+
+This deployment is a [managed instance](../../../../cloud/index.md) used by the Cloud team to test release candidate images into.
+
+- [GCP project](https://console.cloud.google.com/home/dashboard?project=src-51df2b4222042ecd2ff9)
+- [Infrastructure configuration](https://github.com/sourcegraph/cloud/tree/main/environments/prod/deployments/src-96ed006bb45d673944e4)
+- [Operations](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-175b55452764019c9455/dashboard.md)
