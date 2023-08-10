@@ -3,14 +3,6 @@
 Trial Managed Instances (aka PoC) are private, dedicated Sourcegraph instances provisioned and managed by Sourcegraph - [more](https://docs.sourcegraph.com/cloud).
 The purpose is to provide free of charge Managed Instances for future customers for a trial period (default is 30 days).
 
-All processes are the same as for paid Managed Instances (for paying customers):
-
-- [creation process](./technical-docs/v1.1/mi1-1_creation_process.md)
-- [upgrade process](./technical-docs/index.md#release-process)
-- [security](./technical-docs/index.md#security)
-- [monitoring](./technical-docs/index.md#monitoring-and-alerting)
-- [list trials](./technical-docs/index.md#list-trials)
-
 ## Difference from paid instances
 
 The difference from paid Managed Instances:
@@ -51,27 +43,20 @@ Trial managed instances default to **small** and reasonable defaults (see issue 
 | ----- | --------------- | ----------------- |
 | small | n2-highmem-4    | db-custom-1-4096  |
 
-[Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
+[Technical details](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller@3888a606795a32823dd5376cc2a6fdc1eed2b378/-/blob/internal/apis/sourcegraphcloud/types.go?L96-165)
 
 ## Monitoring Trial Managed Instances
 
-Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](././index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](././index.md#team) will notify instance requestor and ask for choosing one of the options:
-
-- [extend the trial period](#extend-trial-managed-instance)
-- [convert to paying customer](#convert-trial-to-paying-customer)
-- [teardown Trial Managed Instance](#teardown-trial-managed-instance)
-
-## Extend Trial Managed Instance
-
-When trial expires and should be extended (by default 30 days), the instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) GitHub issue. [Cloud Team](././index.md#team) will add `trialAdditionalDays` to customer `config.yaml` to ensure extended trial period is monitored.
+Trial instances are handled the same as production instances. To view metrics, logs, or other information, find the trial instance on go/cloud-ops and select the `Observability` section.
 
 ## Convert trial to paying customer
 
-When a customer has decided to sign the deal, the instance requestor will create a [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) GitHub issue. This is important so that the doesn't get terminated after a time period as a trial instance would, and for cost attribution to trial vs production instances. Once the issue is raised, the [Cloud Team](././index.md#team) will:
+When a customer has decided to sign the deal, the instance requestor will create a [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) GitHub issue. Once the issue is raised, the [Cloud Team](././index.md#team) will:
 
-- cd `deploy-sourcegraph-managed/CUSTOMER`
-- modify GCP label '`instanceType: production`' in `config.yaml`
-- follow [modify GCP customer label](./technical-docs/operations.md#modify-customer-specific-gcp-managed-instance-labels)
+- cd `cloud/environments/production/CUSTOMER`
+- modify `.metadata.labels.instance-type` annotation to `production`' in `config.yaml`
+- `mi2 generate cdktf` to regenerate Terraform assets
+- commit the changes to allow Terraform Cloud to update the GCP labels
 
 ### Requesting to change the subdomain
 
@@ -99,32 +84,12 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
 3. Create Trial Managed Instance
 
-   Trial Managed Instance should be created according to the [Managed Instance create process](./technical-docs/v1.1/mi1-1_creation_process.md).
+   Trial Managed Instance should be created according to the [Managed Instance create process](./technical-docs/v2.0/creation_process.md).
 
    Important:
 
    - Instance type should be trial
    - Instance size should be small
-   - Customer name has to be max 10 characters (GCP project name limit - `sourcegraph-managed-SLUG` cannot execeed 30 characters). If customer SLUG has more characters:
-     - set `customer endpoint` to `SLUG.sourcegraph.com`
-     - set `customer` with SLUG trimmed to 10 characters
    - Other parameters should be used from New Trial Managed Instance request.
-
-4. Finalisation (Cloud Team member)
-
-   - checkout `<CUSTOMER>/create-instance` branch in`deploy-sourcegraph-managed` repository
-   - need to set the license on the instance (the license key should be added to the issue)
-     - run `mi set-license --license-key "$LICENSE_KEY"`
-   - when [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
-   - you can check if the password reset email was sent using SMTP provider [dashboard](https://app.eu.sparkpost.com/reports/message-events)
-
-## FAQ
-
-1. How to check trial Managed Instances owned by Customer Engineer
-
-- open [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml)
-- click `Run workflow`
-- choose `Instance type` -> `trial` (required)
-- type `CE email responsible for Managed Instances` -> CE email (optional, without it will list all trials)
 
 For other questions please use [Managed Instance FAQ](./index.md#faq)

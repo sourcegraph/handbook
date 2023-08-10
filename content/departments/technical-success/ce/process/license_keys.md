@@ -20,7 +20,7 @@ This page covers the following related to license key management:
 
 For a new Sales-led trial, create a _new_ subscription. You will only use this for the trial. (Follow the instructions for [issuing a new license](#creating-a-new-license-key) from start to finish.).
 
-A note on Sales-led cloud (managed instance) trials: as part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../cloud/technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) we ask CE to create the license.
+A note on Sales-led cloud (managed instance) trials: as part of the Managed Instance creation process, the CE should create a license key for the new instance.
 
 ## Converting a Prospect to a New Customer
 
