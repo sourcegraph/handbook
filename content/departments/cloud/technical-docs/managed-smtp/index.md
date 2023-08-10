@@ -14,18 +14,20 @@ In this document:
 
 ## Enabling managed SMTP for a Cloud instance
 
-Generally, managed SMTP will be enabled by default, as long as existing configuration is not present.
+Generally, managed SMTP will be enabled by default.
 
-Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](../v1.1/mi1-1_managed_smtp.md#enabling-managed-smtp).
+To manually enable SMTP, enforce the `smtp` invariant with:
+```sh
+
+mi2 instance check -enforce smtp
+```
 
 ## Disabling managed SMTP for a Cloud instance
 
-Generally, a customer should reach out to the account representative to have managed SMTP disabled.
+A customer should reach out to the account representative to have managed SMTP disabled.
 
-Alternatively, a customer could also simply [override the SMTP configuration with their own](https://docs.sourcegraph.com/admin/config/email), as long as it is non-empty and from a non-`sourcegraph.com` sending domain.
-Note that in even in this case, managed SMTP should be explicitly configured afterwards by the Cloud team.
+Sourcegraph engineers can disable SMTP by setting the `managedSMTP.disabled` to `true` in the instance's `config.yaml`.
 
-Managed SMTP is currently only available for Cloud v1.1 - see [the guide here](../v1.1/mi1-1_managed_smtp.md#disabling-managed-smtp).
 
 ## Vendor management
 
@@ -54,13 +56,9 @@ Dashboards are available [in the SparkPost web application](https://app.eu.spark
     - Disabling managed SMTP for the account.
     - Provisioning a [custom sending domain](#custom-sending-domains) or [dedicated IP pool](#dedicated-ip-pools).
 
-For MI 1.1, `mi check` will also report some statistics - see [MI 1.1 managed SMTP](../v1.1/mi1-1_managed_smtp.md).
-
 No alerting is available yet - see [future work: vendor-side alerting](#vendor-side-alerting).
 
 ## Vendor integration
-
-A reference implementation for MI v1.1 is available under `mi sync smtp`.
 
 All integrations will send emails from the same sending domain, `@cloud.sourcegraph.com`, and default IP pool provided by SparkPost.
 
