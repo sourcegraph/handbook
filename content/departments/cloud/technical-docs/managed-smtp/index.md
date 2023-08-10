@@ -18,7 +18,6 @@ Generally, managed SMTP will be enabled by default.
 
 To manually enable SMTP, enforce the `smtp` invariant with:
 ```sh
-
 mi2 instance check -enforce smtp
 ```
 
