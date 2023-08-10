@@ -1,7 +1,7 @@
 # Creating a Cloud instance
 
 Creating a new [managed instance](./index.md) involves following the steps below.
-For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
+For basic operations like accessing an instance for these steps, see http://go/cloud-ops.
 
 ## Option I - automated creation via GitHub Action
 

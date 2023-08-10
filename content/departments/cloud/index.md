@@ -222,7 +222,7 @@ Future work in this area is owned by [Data & Analytics team](../data-analytics/i
 
 Cloud instances are generally created without any customer data (repos / code-host connections / code / user accounts / code insights etc.).
 
-The Cloud team has an experimental process for importing data from on-premises / jointly-managed Sourcegraph instances, described [here for MI v1.1](technical-docs/v1.1/mi1-1_onprem_data_migration.md).
+The Cloud team has an experimental process for importing data from on-premises / jointly-managed Sourcegraph instances, described [here](technical-docs/v2.0/onprem_data_migration.md).
 
 ### FAQ: How do I generate a password reset link for customer admin?
 
