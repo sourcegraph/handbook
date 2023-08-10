@@ -17,6 +17,7 @@ In this document:
 Generally, managed SMTP will be enabled by default.
 
 To manually enable SMTP, enforce the `smtp` invariant with:
+
 ```sh
 mi2 instance check -enforce smtp
 ```
@@ -26,7 +27,6 @@ mi2 instance check -enforce smtp
 A customer should reach out to the account representative to have managed SMTP disabled.
 
 Sourcegraph engineers can disable SMTP by setting the `.spec.managedSMTP.disabled` to `true` in the instance's `config.yaml`.
-
 
 ## Vendor management
 
