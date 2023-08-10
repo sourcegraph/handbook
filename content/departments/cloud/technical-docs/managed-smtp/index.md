@@ -25,7 +25,7 @@ mi2 instance check -enforce smtp
 
 A customer should reach out to the account representative to have managed SMTP disabled.
 
-Sourcegraph engineers can disable SMTP by setting the `managedSMTP.disabled` to `true` in the instance's `config.yaml`.
+Sourcegraph engineers can disable SMTP by setting the `.spec.managedSMTP.disabled` to `true` in the instance's `config.yaml`.
 
 
 ## Vendor management
