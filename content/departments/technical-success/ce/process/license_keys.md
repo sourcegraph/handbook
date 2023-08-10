@@ -53,6 +53,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
    1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
 6. Click **Generate license**.
 7. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
+8. Repeat steps 4-7 for each Sourcegraph environment the customer has. Each environment must have a unique Sourcegraph subscription ID and a unique license key.
 
 ## Handling renewals or upgrades
 
