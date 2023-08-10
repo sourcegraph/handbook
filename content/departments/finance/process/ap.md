@@ -105,10 +105,11 @@ The table below highlights different commercial terms of a procurement negotiati
 
 Airbase will guide you through the required fields and approval necessary depending on your purchase inputs. Before creating an Airbase request, take a look at the table below to determine if this is needed.
 
-If cost = 0 and classification is PUBLIC or INTERNAL -> no ticket needs to be raised
-If cost = 0 and classification is PRIVATE or RESTRICTED but LOCALLY* -> no ticket needs to be raised
-If cost = 0 and classification is PRIVATE or RESTRICTED but ONLINE* -> raise a ticket
-If cost >0 and classification is PUBLIC or INTERNAL or PRIVATE or RESTRICTED -> raise a ticket
+- If cost = 0 and classification is PUBLIC or INTERNAL -> no ticket needs to be raised
+- If cost = 0 and classification is PRIVATE or RESTRICTED but LOCALLY* -> no ticket needs to be raised
+- If cost = 0 and classification is PRIVATE or RESTRICTED but ONLINE* -> raise a ticket
+- If cost >0 and classification is PUBLIC or INTERNAL or PRIVATE or RESTRICTED -> raise a ticket
+
 \*Locally - meaning the data is not leaving your laptop (for instance text editor)
 
 \*Online - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
@@ -117,9 +118,11 @@ If cost >0 and classification is PUBLIC or INTERNAL or PRIVATE or RESTRICTED -> 
 
 We categorize our vendors into the following groups:
 
-**Software**: this can be SaaS or non-SaaS products
-**Services**: Consulting services; any company that is commissioned to perform knowledge enhancing project-based work for Sourcegraph. Examples of this include any work that concludes with a report issued to the company, product development work, training development, sales & marketing projects and regulatory consulting work.
-**Temporary contractors** : Individuals that have been contracted for a limited amount of time to enhance/assist/deliver project base work (they are a separate group since their access level to data will most likely be different to a ‘Service’ engagement)
+- **Software**: this can be SaaS or non-SaaS products
+
+- **Services**: Consulting services; any company that is commissioned to perform knowledge enhancing project-based work for Sourcegraph. Examples of this include any work that concludes with a report issued to the company, product development work, training development, sales & marketing projects and regulatory consulting work.
+
+- **Temporary contractors** : Individuals that have been contracted for a limited amount of time to enhance/assist/deliver project base work (they are a separate group since their access level to data will most likely be different to a ‘Service’ engagement)
 
 ##### How do I submit a request in Airbase?
 
