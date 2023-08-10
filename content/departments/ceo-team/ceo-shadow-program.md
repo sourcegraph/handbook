@@ -39,6 +39,7 @@ Are you curious about other shadows' experiences? Read about their experiences a
 - [Marija Petrovic](https://docs.google.com/document/d/1_BrCUWpWNmcbobV6j5aUTlY_9gaaLsPj4zsa9yaVrV8/edit?usp=drive_link): CEO shadow recap
 - [Todd Herskovitz](https://docs.google.com/document/d/1oza4d1sUS8IzXPfTMC8o47IgDQ5EcmOnD15zLUfslQw/edit?usp=drive_link): Key takeaways and feedback
 - [Marc LeBlanc](https://docs.google.com/document/d/1kSK-nzL2VJreBViLi5ys1TCX8TE7JIASUH8IwTreOnI/edit?usp=sharing): Adventures of a CEO shadow
+- [Eric Fritz](https://docs.google.com/document/d/1lcn9jllAV82vmH-Flr6itLoshdYViX07ualnMJZdizE/edit?usp=sharing):A Glimpse at the Top
 
 ## Eligibility & Participation
 
