@@ -56,7 +56,7 @@ Merge the Pull Request opened by GitHub Actions, then manually apply the license
 The license key should be generated before the instance is created and passed to the action in the `license_key` field.
 
 - For CE/AE driven instances, a standalone license key should be included in the instance creation issue
-- For internal/dev instances, generate a new license key following [these instructions](../../../technical-success/ce/process/license_keys/#internal-licensing-faq)
+- For internal/dev instances, generate a new license key following [these instructions](../../../technical-success/ce/process/license_keys.md#internal-licensing-faq)
 
 If for some reason the key was not successfully applied during creation, it can manually be set with:
 
