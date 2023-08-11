@@ -1521,17 +1521,6 @@ naman_kumar:
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
   description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Sourcegraph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
 
-paulo_almeida:
-  name: Paulo Almeida
-  reports_to: director_design
-  pronouns: he/him
-  role: Product Designer, Search
-  location: São Paulo, Brazil 🇧🇷
-  github: almeidapaulooliveira
-  links: '[Website](https://paulo.digital), [LinkedIn](https://www.linkedin.com/in/paul--almeida/)'
-  email: paulo.almeida@sourcegraph.com
-  description: 'Paulo is a designer that endeavors to produce unique experiences and elegant designs. He worked in branding, packaging, and graphic design and has been dedicated to UX disciplines in the last decade, from strategy to visual and interface design. Paulo is also a coding designer who thinks end-to-end the entire process. When not working, he is running on some adventure traveling the world. As a restless observer of the human being, he is always excited about developing thoughtful products that enhance life, work, and play.'
-
 ajay_uppaluri:
   name: Ajay Uppaluri
   email: ajay.uppaluri@sourcegraph.com
