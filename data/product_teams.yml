@@ -6,7 +6,6 @@ search_product:
   strategy_link: /strategy-goals/strategy/search/product/index.md
   pm: steve_yegge
   em: erika_rice_scherpelz
-  design: paulo_almeida
   issue_labels:
     - team/search-product
 
