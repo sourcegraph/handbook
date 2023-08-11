@@ -128,6 +128,8 @@ All-caps should be used sparingly and only for specific purposes (all-caps copy 
 
 Render proper nouns as their creators/trademarks prefer: Docker, Bitbucket, GitLab, GitHub, React, Git, JavaScript, TypeScript.
 
+If it's displayed within another product (e.g. a VS Code extension or Slack App) match the capitalization norms of that product.
+
 ## Contractions
 
 Use contractions like “we’ll” or “there’s!” They make our writing more conversational.
