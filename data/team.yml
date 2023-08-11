@@ -1360,16 +1360,6 @@ madison clark:
   location: San Francisco, CA, USA 🇺🇸
   description: Madison lives in San Francisco, CA, with her partner Julian and two very floofy cats, Loaf and Grandpa. She works on the Sourcegraph communications team, focused on building effective internal communication strategies that inform, engage, and inspire our global team. Outside of work, you can find Madison testing new recipes/making cooking videos, exploring new cafes and restaurants, and taking excercise classes on her Peloton bike.
 
-michael mcmahan:
-  name: Michael McMahan
-  email: michael.mcmahan@sourcegraph.com
-  github: mjmcmahan
-  pronouns: he/him
-  role: Enterprise Account Executive
-  reports_to: rsd_west
-  location: Austin, TX, USA 🇺🇸
-  description: Michael lives in Austin with his partner Danielle and their two dogs Lucy and Lady. He has spent the last 3 years of his career helping build A Cloud Guru, a cloud focused edtech startup. He is passionate about self development and loves to learn about technology, fitness, and investing. Outside of work and self improvement Michael can be found enjoying live music around Austin or watching his Pacers/Colts/Hoosiers play.
-
 justin dorfman:
   name: Justin Dorfman
   role: Open Source Program Manager
@@ -1530,18 +1520,6 @@ naman_kumar:
   location: New Delhi, IN
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
   description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Sourcegraph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
-
-josé_taylor:
-  name: José Taylor
-  email: jose.taylor@sourcegraph.com
-  github: josetaylor06
-  pronouns: he/him
-  role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
-  location: San Antonio, TX
-  links: '[Personal Website](https://iamjttaylor.com), [LinkedIn](https://www.linkedin.com/in/josetaylor06/)'
-  pronunciation: Hose-a
-  description: José has 5+ years experience in technical account management, pre/post sales customer success and strategic planning. As a non-traditional student and IT professional, he appreciates others who come from a diverse background and are passionate about what they do. Outside of work, he enjoys the outdoors, travelling, challenging himself by trying new/different things, motivating/mentoring others and being a father. Feel free to recommend any music you listen to at work or collaborate on a playlist.
 
 paulo_almeida:
   name: Paulo Almeida
