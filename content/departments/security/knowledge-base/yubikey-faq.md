@@ -100,19 +100,19 @@ Go to Settings > Password and authentication > and select "Set as preferred meth
 
 ### How do I set up Yubikeys with Google
 
-[Google Account Security](https://myaccount.google.com/two-step-verification/security-keys)
+Follow this link [Google Account Security](https://myaccount.google.com/two-step-verification/security-keys) to start the setup process.
 
 - Click the button to add a security key
 - Click proceed/yes on prompts that pop up in browser to proceed (these are different per browser, I'll cover the most common 3)
   - Firefox - lets you know the key will register as anonymous, Google asks you to nickname the key after registering
   - Chrome - sees the key type, Google website asks you to nickname the key after registering
   - Safari - security key pop up window opens in middle of the screen
-- Tap the metal nub on the key to register it to your account
+- Tap the gold connector/disk on the key to register it to your account
 - Nickname the key as necessary - usually the key type to help differentiate between the two
 
 ### How do I set up Yubikeys with GitHub?
 
-[Github User Security Settings](https://github.com/settings/security)
+Follow this link [Github User Security Settings](https://github.com/settings/security) to setup your yubikey.
 
 - Scroll down to the two-factor authentication section
 - Click the add button Security Keys line
