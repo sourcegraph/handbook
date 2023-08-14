@@ -40,7 +40,7 @@ beyang_liu:
 stephen_gutekanst:
   name: Stephen Gutekanst
   role: Internal Contributor / Software Engineer
-  reports_to: cto
+  reports_to: cody_strat_lead
   location: Phoenix, AZ, USA 🇺🇸
   github: slimsag
   email: stephen@sourcegraph.com
@@ -197,7 +197,7 @@ robert_lin:
 marek_zaluski:
   name: Marek Zaluski
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: cody_strat_lead
   location: Ottawa, Canada 🇨🇦
   github: marekweb
   email: marek@sourcegraph.com
@@ -1438,7 +1438,7 @@ brock_perko:
 chris_warwick:
   name: Chris Warwick
   role: Software Engineer
-  reports_to: engineering_manager_code_insights
+  reports_to: cody_strat_lead
   location: Philadelphia, PA United States 🇺🇸
   github: chwarwick
   email: christopher.warwick@sourcegraph.com
@@ -1760,6 +1760,7 @@ cezary_bartoszuk:
   pronouns: he/him
   role: Engineering Manager, Cody Strategic
   reports_to: engineering_manager_batch_changes
+  manager_role_slug: cody_strat_lead
   location: Long Grove, IL, USA 🇺🇸
   description: Cezary tries to spend as much time as possible with his wife and three kids. He enjoys parenting, learning about religion and philosophy, reading books and making music.
 

@@ -12,7 +12,7 @@ Why are we focused on this mission?
 
 ## Members
 
-{{generator:product_team.cody_strat}}
+{{generator:product_team.cody_strategic}}
 
 ## North Star Metric
 
