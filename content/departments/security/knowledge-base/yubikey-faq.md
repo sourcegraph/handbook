@@ -99,7 +99,9 @@ Go to Settings > Password and authentication > and select "Set as preferred meth
 <!-- <div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/5a78ffa19e604aeb8997bbb42d581ebd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> -->
 
 ### How do I set up Yubikeys with Google
+
 [Google Account Security](https://myaccount.google.com/two-step-verification/security-keys)
+
 - Click the button to add a security key
 - Click proceed/yes on prompts that pop up in browser to proceed (these are different per browser, I'll cover the most common 3)
   - Firefox - lets you know the key will register as anonymous, Google asks you to nickname the key after registering
@@ -109,6 +111,7 @@ Go to Settings > Password and authentication > and select "Set as preferred meth
 - Nickname the key as necessary - usually the key type to help differentiate between the two
 
 ### How do I set up Yubikeys with GitHub?
+
 [Github User Security Settings](https://github.com/settings/security)
 
 - Scroll down to the two-factor authentication section
@@ -116,4 +119,4 @@ Go to Settings > Password and authentication > and select "Set as preferred meth
 - Register your keys as desired
 - Change your default preferred 2FA method to Security Keys foe easy of access
   - At future logins, when prompted, you'll tap the metal nub on your yubikey and it will authenticate through the 2FA step
-<!-- <div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/08d3a45016dd433e9e3377cf48db05da" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> -->
+  <!-- <div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/08d3a45016dd433e9e3377cf48db05da" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> -->
