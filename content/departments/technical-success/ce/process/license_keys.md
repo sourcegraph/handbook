@@ -49,11 +49,11 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
    1. Fill out the Salesforce Subscription ID and Salesforce Opportunity ID based on the data for this customer/opportunity from Salesforce. Filling these fields will allow automated billing.
    1. Fill out the license subscription plan name. See the [plans](#plans) section.
    1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
-  1. If this is a license key for a test/dev instance
-      1. consider what would be a good user limit on the license key. The recommendation is to keep it low to prevent abuse, e.g. 5 users.
-      1. Add `trial` and `instance:test` or `instance:whatever_name_is_appropriate` tags, so that we can identify which license keys are test and which are not
-   1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
-   1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
+1. If this is a license key for a test/dev instance
+   1. consider what would be a good user limit on the license key. The recommendation is to keep it low to prevent abuse, e.g. 5 users.
+   1. Add `trial` and `instance:test` or `instance:whatever_name_is_appropriate` tags, so that we can identify which license keys are test and which are not
+1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
+1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
 1. Click **Generate license**.
 1. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
