@@ -8,9 +8,9 @@ Why are we focused on this mission?
 
 - Millions of developers around the world work within the Strategic Enterprise segment. These customers often have specialized scale, product, and support needs that require a different way of working thus it is necessary to create a new team focused on this segment.
 - Sourcegraph is an enterprise company and enterprise customers represent 100% of our current ARR, yet none of those customers use Cody meaning there is a large market opportunity. To be successful, we must ensure that both individuals and the world’s largest enterprises can use Cody.
-- Growing Cody usage with strategic enterprise segments will open up future marketing (Salesforce) and co-selling (Leidos) opportunities which help establish Sourcegraph as the most powerful coding assistant.
+- Growing Cody usage with strategic enterprise segments will open up future marketing and co-selling opportunities which help establish Sourcegraph as the most powerful coding assistant.
 
-## Members
+## Team
 
 {{generator:product_team.cody_strategic}}
 
@@ -22,11 +22,11 @@ Why? We focus on DAU because we do not want to build shelfware and because DAU a
 
 ## Company Specific Measures of Success
 
-The Cody Strategic team works very closely with a few customers at a time. We will use these metrics to determine when we believe a customer is successful and loving Cody. The Cody Strategic team will only accept new customers once existing customers show the below results[1]:
+The Cody Strategic team works very closely with a few customers at a time. We will use these metrics to determine when we believe a customer is successful and loving Cody. The Cody Strategic team will only accept new customers once existing customers show the below results:
 
-- % of completions accepted (Target: TBD)
-- iARR (expansion or net new) realized from Cody (Target: TBD)
-- % DAU/Available developers (Target: TBD)
+- % of completions accepted
+- iARR (expansion or net new) realized from Cody
+- % DAU/Available developers
 
 ## What customers does the Cody Strategic team work with?
 
@@ -37,7 +37,7 @@ To achieve our goal of bringing Cody to the largest, most recognizable brands wo
 - Will this open up a new industry for Sourcegraph? Yes/No && Related market
 - How strong is the alignment to Cody’s future vision? Low/Medium/High
 
-The exec team will be responsible for deciding which customers meet these criteria sufficiently to become a Strategic Cody Partner.
+The exec team will be responsible for deciding which customers meet these criteria sufficiently to become a Strategic Cody Partner. Sourcegraph employees can find our current strategic partners [here](https://docs.google.com/document/d/1nj_gL1QGSg6pAl6W2y2Nmz70MFjglYwCiACveD5cW4c/edit#bookmark=id.giwbdagm4epm).
 
 ## What will this team not work on?
 
