@@ -10,6 +10,10 @@ Why are we focused on this mission?
 - Sourcegraph is an enterprise company and enterprise customers represent 100% of our current ARR, yet none of those customers use Cody meaning there is a large market opportunity. To be successful, we must ensure that both individuals and the world’s largest enterprises can use Cody.
 - Growing Cody usage with strategic enterprise segments will open up future marketing (Salesforce) and co-selling (Leidos) opportunities which help establish Sourcegraph as the most powerful coding assistant.
 
+## Members
+
+{{generator:product_team.cody_strat}}
+
 ## North Star Metric
 
 Cody DAU within strategic enterprises. Sourcegraph employees can find current goal and progress in our OKRs dashboard.
