@@ -45,11 +45,13 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 1. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
 1. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). Create a new subscription if this is a new customer. **Create a new subscription for each customer instance as well**. Click **Create product subscription**. Search for the user that was created above.
 1. Click **Generate new license manually**.
-   1. If this is a license key for test/dev instance, consider what would be a good user limit on the license key. The recommendation is to keep it low to prevent abuse, e.g. 5 users.
    1. Fill out the customer name in lowercase. Fill spaces with the `-` character.
    1. Fill out the Salesforce Subscription ID and Salesforce Opportunity ID based on the data for this customer/opportunity from Salesforce. Filling these fields will allow automated billing.
    1. Fill out the license subscription plan name. See the [plans](#plans) section.
    1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
+  1. If this is a license key for a test/dev instance
+      1. consider what would be a good user limit on the license key. The recommendation is to keep it low to prevent abuse, e.g. 5 users.
+      1. Add `trial` and `instance:test` or `instance:whatever_name_is_appropriate` tags, so that we can identify which license keys are test and which are not
    1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
    1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
 1. Click **Generate license**.
