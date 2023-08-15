@@ -38,12 +38,13 @@ IMAGE COMING SOON
 - Weighted Pipeline: $200k
 - New Logos in Pipe: 8
 
-**Q2:**  
-- YTD Closed Won ACV: $300k 
-- Weighted Pipeline: $750k 
+**Q2:**
+
+- YTD Closed Won ACV: $300k
+- Weighted Pipeline: $750k
 - New Logos in Pipe: 16
 
-**Q3:**  
+**Q3:**
 
 - YTD Closed Won ACV: $650K
 - Weighted Pipeline: $1M
