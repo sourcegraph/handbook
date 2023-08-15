@@ -1,6 +1,6 @@
 # Health benefits at Sourcegraph
 
-US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [Sequoia](#benefits-support). Request the password in the [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) Slack channel.
+US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [Sequoia](#benefits-support).
 
 ## Eligibility
 
@@ -117,6 +117,8 @@ You or you dependents can reach the advocate team three ways:
 1. Sequoia mobile app
 2. Email: [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com)
 3. Phone: 1-844-891-3044
+
+If you need your password reset for the Sequoia website or app, please attempt to login with your **work email** and request "forgot password". If you run into issues please reach out in the [#ask-people-team channel](https://join.slack.com/share/enQtNTczMjA1Njk3NzU0My0yNDI4NGM1MTc3MDIwNzk0YjMzYmM3NmJlZTU0OGExZDQ0MDRkY2ExZDVkNWYyNzZmNDVhNWRjODAyYTdiMDdm?cdn_fallback=1).
 
 ## Digital ID Cards:
 
