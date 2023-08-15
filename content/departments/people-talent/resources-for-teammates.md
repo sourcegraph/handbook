@@ -4,7 +4,6 @@
 
 - [Engagement survey](people-ops/process/teammate-sentiment/engagement-survey.md)
 - [Pulse survey](people-ops/process/teammate-sentiment/pulse-survey.md)
-- [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
 - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
 - [Skip level]
 
