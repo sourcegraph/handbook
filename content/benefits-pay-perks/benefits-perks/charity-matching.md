@@ -1,3 +1,0 @@
-# Charity Marching
-
-TODO
