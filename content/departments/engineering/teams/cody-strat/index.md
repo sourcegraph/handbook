@@ -2,7 +2,7 @@
 
 ## Team Mission
 
-Turn the largest, most world-recognizable brands into Cody Champions. We do this by partnering with a small number of highly engaged strategic customers [definition](../../../../strategy-goals/strategy/index.md#market-segmentation) to build product functionality that enables these customers to successfully deploy the best coding assistant developers love at scale.
+Turn the largest, most world-recognizable brands into Cody Champions. We do this by partnering with a small number of highly engaged [strategic customers](../../../../strategy-goals/strategy/index.md#market-segmentation) to build product functionality that enables these customers to successfully deploy the best coding assistant developers love at scale.
 
 Why are we focused on this mission?
 
