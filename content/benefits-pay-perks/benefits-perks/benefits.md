@@ -1,6 +1,6 @@
 # Health benefits at Sourcegraph
 
-US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [Sequoia](#benefits-support). Request the password in the [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) Slack channel.
+US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis. Our benefit plans and information can all be found [Sequoia](#benefits-support). 
 
 ## Eligibility
 
@@ -118,6 +118,8 @@ You or you dependents can reach the advocate team three ways:
 2. Email: [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com)
 3. Phone: 1-844-891-3044
 
+To reset your sequoia password (website or app), please attempt to login with your **work email** and request to reset your password.
+
 ## Digital ID Cards:
 
 All digital insurance cards are located in Sequoia, which is our benefits broker. All health insurance cards and coverage questions are handled by Sequoia. You will receive physical medical cards, but dental and vision will only be available through the Sequoia app.
@@ -165,6 +167,7 @@ Non-US teammates:
 
 - You can access your virtual insurance member IDs in the Sequoia mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
   - If you have not received your insurance member IDs, please reach out to Sequoia’s Advocate Team through the app, [sourcegraph@help.sequoia.com](mailto:sourcegraph@help.sequoia.com), or 1-844-891-3044.
+  - If you need to reset your sequoia password (website or app), please attempt to login with your **work email** and request to reset your password.
 
 Non-US teammates:
 
