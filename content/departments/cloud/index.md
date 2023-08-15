@@ -133,7 +133,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/suppor
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 10 working days after latest release   |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 | Add IP(s) to Managed Instance                 | Add new list of IPs to MI allowlist                    | 1 working day                                 | Within 3 days                                 |
-| Enable custom domain                 | Add or update custom domain                    | 3 working day                                 | Within 2 week                                 |
+| Enable custom domain                          | Add or update custom domain                            | 3 working day                                 | Within 2 week                                 |
 
 _Agreement here is the date specified within the required GitHub issue_
 
