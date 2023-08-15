@@ -1,6 +1,5 @@
 # Internal Mobility
 
-
 [Moving to another team](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Team & Department re-orgs
