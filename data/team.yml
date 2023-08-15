@@ -634,6 +634,17 @@ aimee_menne:
   links: '[Linkedin](https://www.linkedin.com/in/aimee-menne-8343487/)'
   description: Aimee has spent her career, and is extremely passionate about, delivering customer-centric solutions. An Indiana native, she spent time in both Washington DC and San Francisco before landing in Denver, Colorado. Outside of work, Aimee is usually doing a variety of outdoor activities (running, cycling, skiing, hiking, camping, fishing) or traveling to new places.
 
+david_medina:
+  name: David Medina
+  email: david.medina@sourcegraph.com
+  github: davidmedina-contact
+  role: Director, Technical Advisory
+  manager_role_slug: director_technical_advisory
+  reports_to: vp_technical_success
+  location: Daly CIty, CA 🇺🇸
+  links: '[Linkedin](https://www.linkedin.com/in/davidmedina17/)'
+  description: I am a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. I was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. My husband, Pierre Curie, was a co-winner on her first Nobel Prize, making us the first ever married couple to win the Nobel Prize and launching the Curie family legacy of five Nobel Prizes. I was, in 1906, the first woman to become a professor at the University of Paris.
+
 interim_demand_gen_lead:
   name: Quinn Slack
   reports_to: ceo
@@ -679,7 +690,7 @@ nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Denver, Colorado, USA 🇺🇸
 
   email: nate.maynard@sourcegraph.com
@@ -766,8 +777,7 @@ bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
   role: Manager, Technical Advisory
-  reports_to: vp_technical_success
-  manager_role_slug: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
   email: bill.caplan@sourcegraph.com
@@ -802,7 +812,7 @@ max_wiederholt:
   name: Max Wiederholt
   pronouns: He/Him
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Mountain View, CA, USA 🇺🇸
   github: maaaaaaaax
   email: max.wiederholt@sourcegraph.com
@@ -1728,7 +1738,7 @@ ted_moskalenko:
   github: tdmosk
   pronouns: he/him
   role: Strategic Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Huntersville, NC, USA 🇺🇸
   links: '[LinkedIn](https://linkedin.com/in/tdmosk)'
   description: 'Ted is a technology professional with a variety of interests, including Information Security, Agile and DevOps, Data Analysis, and Business Process Management. He lives in Huntersville, NC, just north of Charlotte, with his wife and two boys. His interests include travel, food, and board games.'
@@ -1801,7 +1811,7 @@ kevin_matthews:
   github: CSMonkee
   pronouns: he/him
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: UK
   links: '[LinkedIn](https://www.linkedin.com/in/kevin-matthews-b165a63/)'
   description: I enjoy helping customers best use technology to address business challenges and solve problems. At leisure, I love to be outside. I enjoy time with my family, travelling, good food and great wine.
@@ -1849,7 +1859,7 @@ Ryan_Aznar:
   github: raznar
   pronouns: he/him/they
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Denver, Colorado, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/raznar/)'
   description: Ryan has spent his career helping large enterprises adopt and utilize bleeding-edge technology solutions. As a recent transplant to Colorado from North Carolina, he has taken up a lot of outdoorsy hobbies such as skiing, rock climbing, and hiking. Ryan also enjoys learning new languages and currently has over a 1000+ day streak on Duolingo learning German!
@@ -1960,7 +1970,7 @@ silky_desailly:
   github: sdsailly
   pronouns: she/her
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Sydney, Australia 🇦🇺
   links: '[LinkedIn](https://www.linkedin.com/in/silkysachdeva)'
   description: 'I am a spirited adventurer, fueled by a passion for travel, a thirst for challenges, and a firm belief that change is the only constant in life.'
@@ -1971,7 +1981,7 @@ sara_dam:
   github: sldam
   pronouns: she/her
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Morrison, CO, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/saradam)'
   description: Sara lives in Morrison, CO with her Golden Retriever, Finley. Prior to Sourcegraph, Sara worked in customer success roles at Postman and PagerDuty. When she’s not focused on improving the developer experience, you can find her training for triathlons, hiking, skiing, reading, and enjoying shows at Red Rocks.
@@ -1993,7 +2003,7 @@ alex_kemper:
   github: ajkemps
   pronouns: he/him
   role: Enterprise Technical Advisor
-  reports_to: manager_technical_advisory
+  reports_to: director_technical_advisory
   location: Columbus, OH, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/alexjkemper/)'
   description: Alex lives in the German Village neighborhood of Columbus, OH with his partner Laura and their pug, Gilbert. Prior to joining Sourcegraph, he worked in various sales, partnerships, and software engineering roles at Guideline. Outside of the office, you can find him staying active with sports like golf and pickleball, or busy around the house trying a new recipe or working on home improvement projects. If you really want to get him talking, ask about college football.
