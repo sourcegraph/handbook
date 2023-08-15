@@ -11,7 +11,6 @@
 - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
 - [Avatar creation](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit)
 
-
 ## Resources for the Talent Team
 
 - [Onboarding the People & Talent team](onboarding/index.md)
