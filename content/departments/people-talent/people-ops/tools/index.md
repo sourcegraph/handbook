@@ -14,5 +14,4 @@
 
 - [Internal BambooHR use](bamboohr.md)
 - [Internal Compliance](internal-compliance.md)
-- [Internal Lattice use](lattice.md)
 - [Internal PEO/EOR use](peo.md)
