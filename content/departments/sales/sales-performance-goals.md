@@ -34,16 +34,25 @@ IMAGE COMING SOON
 
 **Q1**
 
-- Closed Won ACV: $50k
+- YTD Closed Won ACV: $50k
 - Weighted Pipeline: $200k
-- New Logo: 8
+- New Logos in Pipe: 8
 
 **Q2:**  
 Updated metrics will be released at the start of the quarter based on rolling goal totals from the prior quarter
 
+- YTD Closed Won ACV: $300k 
+- Weighted Pipeline: $750k 
+- New Logos in Pipe: 16
+  
 **Q3:**  
 Updated metrics will be released at the start of the quarter based on rolling goal totals from the prior quarter
 
+- YTD Closed Won ACV: $650K
+- Weighted Pipeline: $1M
+- New Logos in Pipe: 24
+- New Logos Closed: 6
+  
 **Q4:**  
 Updated metrics will be released at the start of the quarter based on rolling goal totals from the prior quarter
 
