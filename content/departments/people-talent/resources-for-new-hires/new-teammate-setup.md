@@ -4,7 +4,7 @@
 
 Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the requirements to set up your computer.
 
-You can get a quick view of how to use a [Mac laptop here](https://help.apple.com/macOS/high-sierra/mac-basics/#/intro) and find further resources [here](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md).
+You can get a quick view of how to use a [Mac laptop here](https://help.apple.com/macOS/high-sierra/mac-basics/#/intro).
 
 ## Google Workspace
 
