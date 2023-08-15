@@ -3,36 +3,13 @@
 ## Resources for the People Team
 
 - [Onboarding the People & Talent team](onboarding/index.md)
-- Hiring Process
-
-  - [Working with other teams during hiring process and onboarding](people-ops/tools/working-with-other-teams.md)
-  - [Types of employment](people-ops/tools/types-of-employment.md)
-
 - [Onboarding Process](people-ops/tools/internal-onboarding.md)
 - Compensation & Leveling
 - [Offboarding Process](people-ops/tools/internal-offboarding.md)
 - [Internal mobility process](people-ops/tools/internal-mobility.md)
 - [Compliance](people-ops/tools/internal-compliance.md)
 - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
-- Swag
 - [Avatar creation](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit)
-
-### People Team Tools
-
-- [Assemble](people-ops/tools/assemble.md)
-- [BambooHR](people-ops/tools/bamboohr.md)
-- [Continu](people-ops/tools/continu.md)
-- [Convercent](people-ops/tools/convercent.md)
-- [HumanInterest](people-ops/tools/humaninterest.md)
-- [Lattice](people-ops/tools/lattice.md)
-- [PEO](people-ops/tools/peo.md)
-- [Process St](people-ops/tools/process-st.md)
-- [Radford](people-ops/tools/radford.md)
-- [Roots](people-ops/tools/roots.md)
-- [Sparrow](people-ops/tools/sparrow.md)
-- [TrueWorks](people-ops/tools/trueworks.md)
-- Fertility vendor
-- Background check vendor
 
 ## Resources for the Talent Team
 
