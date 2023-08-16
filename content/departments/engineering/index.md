@@ -45,7 +45,7 @@ We use [PR-FAQs](./job-fair.md#pr-faqs) to submit roadmap proposals. Once a proj
   - [Developer Infrastructure](teams/devinfra/index.md)
   - [Release](teams/release/index.md)
 - Cody
-  - [App](teams/app/index.md)
+  - [Cody Strategic](teams/cody-strat/index.md)
 - [Source](teams/source/index.md)
 
 The following functional teams work across the above dev teams:
