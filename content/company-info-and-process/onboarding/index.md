@@ -5,7 +5,7 @@ Welcome to Sourcegraph! We are so excited you are part of the team or considerin
 This guide applies to all Teammates globally, including temporary and part-time contractors. Please reach out to the People Team (people-team@sourcegraph.com) with questions.
 
 - Resources for Teammates (<-- you are here)
-- [Resources for Managers](onboarding-for-hiring-managers.md)
+- [Resources for Managers](../../departments/people-talent/onboarding-for-hiring-managers.md)
 - [Resources for People Team](../../departments/people-talent/people-ops/tools/internal-onboarding.md)
 
 ## Ways a Teammate can join us
