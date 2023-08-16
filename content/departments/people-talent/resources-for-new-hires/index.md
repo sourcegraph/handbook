@@ -12,7 +12,7 @@
 
 - [Onboarding](../../../company-info-and-process/onboarding/index.md)
   - [Onboarding buddy](../buddy-program.md)
-  - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
+  - [Onboarding mentor](../onboarding-mentor.md)
   - Onboarding reviews
     - [Onboarging Feedback Milestones](../../../departments/people-talent/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
