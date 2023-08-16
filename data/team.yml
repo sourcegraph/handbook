@@ -2083,3 +2083,15 @@ chris_sells:
   location: Oregon, USA 🇺🇸
   links: '[blog](https://sellsbrothers.com), [twitter](https://twitter.com/csells), [linkedin](https://linkedin.com/in/csells)'
   description: Chris Sells is a software engineer, product manager, author, speaker and developer advocate. He enjoys long walks on the beach and various technologies.
+
+maedah_batool:
+  name: Maedah Batool
+  role: Director of Documentation
+  email: maedah.batool@sourcegraph.com
+  manager_role_slug: docs_lead
+  github: maedahbatool
+  pronouns: she/her
+  reports_to: Amie Rotherham
+  location: Vancouver, Canada 🇨🇦
+  links: '[twitter](https://twitter.com/maedahbatool), [linkedin](https://linkedin.com/in/maedahbatool), [blog](https://maedahbatool.com/),'
+  description: Maedah has 12+ years of experience in leading technical docs programs and producing award-winning documentation for FOSS projects. Besides work, she loves to bake, watch Masterchef and sometimes explore new places.
