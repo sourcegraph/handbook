@@ -62,7 +62,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Onboarding Mentors](onboarding-mentor.md)
 - [Onboarding Feedback Milestones](onboarding-feedback-milestones.md)
 - [Glossary of Terms](../../company-info-and-process/onboarding/glossary.md)
-- [Intro to Git]
+- [Intro to Git](git-intro.md)
 - [Managing remote work](../../company-info-and-process/remote/index.md)
 - [Working asynchronously](../../company-info-and-process/communication/asynchronous-communication.md)
 
