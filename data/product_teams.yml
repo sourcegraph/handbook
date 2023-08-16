@@ -98,3 +98,10 @@ ship_coresvc:
 security:
   title: Security
   em: diego_comas
+
+cody_strategic:
+  title: Cody Strategic
+  brief: Our mission is to turn the largest, most world-recognizable brands into Cody Champions by working across technical boundaries.
+  strategy_link: /content/departments/engineering/teams/cody-strat/index.md
+  pm: ryan_phillips
+  em: cezary_bartoszuk
