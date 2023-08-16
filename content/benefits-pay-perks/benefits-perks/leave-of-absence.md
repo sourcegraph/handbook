@@ -140,11 +140,7 @@ Preparing for your first day back:
 
 ### Additional resources
 
-- [Modern Health](https://circles.modernhealth.com/): our mental health platform, Modern Health, has resources for many tough life situations
-- On-demand meditations include:
-  - [The Values Reset](https://my.joinmodernhealth.com/meditation/the-reset-values)
-  - [Relax Your Body](https://my.joinmodernhealth.com/meditation/relax-your-body)
-  - [Deep Breathing](https://my.joinmodernhealth.com/meditation/deep-breathing)
+- Coming soon!
 
 ### FAQ
 
