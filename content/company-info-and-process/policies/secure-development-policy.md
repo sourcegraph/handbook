@@ -76,3 +76,4 @@ Any known violations of this policy should be reported to [report-policy-violati
 | ------- | ----------- | ------------- | --------------- | ----------- |
 | 1.0     | 29-Apr-2022 | First version | Diego Comas     | Diego Comas |
 | 1.1     | 30-May-2023 | 2023 review   | André Eleuterio | Diego Comas |
+| 1.2     | 17-Aug-2023 | Minor update  | André Eleuterio | Diego Comas |
