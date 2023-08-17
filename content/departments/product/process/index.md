@@ -112,7 +112,7 @@ There is also a [company-wide glossary of terms](../../../company-info-and-proce
 
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
-Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Engineering of [welcoming contributions](../cross-team-collab.md).
+Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Engineering of [welcoming contributions](cross-team-collab.md).
 
 ### Executive decisions
 

@@ -27,7 +27,7 @@ The sources of truth for pricing are:
 
 ### What goes into open source
 
-See our [open source philosophy](../dev/process/licenses.md#open-source-philosophy)
+See our [open source philosophy](dev/process/licenses.md#open-source-philosophy)
 
 ### Role of the free tier
 

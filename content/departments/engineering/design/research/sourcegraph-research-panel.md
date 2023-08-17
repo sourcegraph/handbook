@@ -16,7 +16,7 @@ If you join, you can get:
 
 - Access to early betas and new features
 - A chance to directly impact Sourcegraph product and roadmaps
-- Invitations to research studies, both [compensated](product/process/user_research/user_research_compensation.md) and uncompensated
+- Invitations to research studies, both [compensated](../product/process/user_research/user_research_compensation.md) and uncompensated
 - Direct access to product designers and product managers
 
 ## What kinds of studies could you be invited to?
