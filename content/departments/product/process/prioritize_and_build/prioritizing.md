@@ -60,7 +60,7 @@ Sometimes, we need to prioritize changes to our product on short notice due to n
 
 If the requested change is large enough that it would impact the planned [product roadmap](../../index.md#roadmap) of one or several [engineering teams](dev/index.md#teams), we should handle its prioritization as follows:
 
-1. The product manager should contact all relevant [engineering managers](dev/roles/index.md#engineering_manager), providing the following information in the form of an [RFC](../../../../../company-info-and-process/communication/rfcs/index.md):
+1. The product manager should contact all relevant [engineering managers](dev/roles/index.md#engineering_manager), providing the following information in the form of an [RFC](../../../../company-info-and-process/communication/rfcs/index.md):
    - Description of the desired functionality.
    - Context on why is this important: the customers or prospects that would benefit from the change, the size of the opportunity, and the risks of not doing this work.
    - Desired timeline for the change: when do we need this by?
