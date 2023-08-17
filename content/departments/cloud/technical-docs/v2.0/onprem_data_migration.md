@@ -253,8 +253,8 @@ CREATE DATABASE "codeinsights-db";
 Ensure [databases have been reset](#reset-databases). Then, one by one, import each database from the bucket the customer has uploaded to:
 
 ```sh
-export TARGET_INSTANCE_PROJECT=$(mi2 instance get -jq '.status.gcp.projectId')
-export TARGET_INSTANCE_DB=$(mi2 instance get -jq '.status.gcp.cloudSQL[0].name')
+export TARGET_INSTANCE_PROJECT=$(mi2 instance get -jq '.status.gcp.projectId' | tr -d '"')
+export TARGET_INSTANCE_DB=$(mi2 instance get -jq '.status.gcp.cloudSQL[0].name' | tr -d '"')
 # from migration resources output
 export DB_DUMP_BUCKET="..."
 ```
