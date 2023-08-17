@@ -2,7 +2,7 @@
 
 Features come in many different sizes and shapes, and the process for introducing new functionality ranges with these differences. For large or significantly impactful changes or changes that simply need a bit more time to bake, it is encouraged that the following rollout process is followed.
 
-Some features have a [beta or experimental label](beta_and_experimental_feature_labels.md).
+Some features have a [beta or experimental label](../../../engineering/sdlc.md).
 
 [Pricing features](pricing.md) is a complicated topic and has its own page.
 
@@ -21,7 +21,7 @@ How we communicate about features is important, especially as it relates to feat
 We always aim to communicate clearly about pre-release features so that we do not cause confusion around customers thinking features are generally available, that they aren't going to change, or even that they couldn't be taken away if we find they aren't working.
 
 1. Prior to the official launch of the feature, we should focus on the problems we are solving, rather than that feature x will definitely include scope y and/or be delivered on z date. For example, we can talk about our ultimate goal of making it easy to search and discover open source code and the reason why we are focused on it, or how we’re working on helping teams problems around a specific batch changes use case, and that we're looking for feedback. This can (and should) include some specifics, but that doesn’t need to be the emphasis because people care more about the problems we’re solving anyway.
-1. Whenever communicating publicly about pre-release features, we should use the [beta and experimental labels](beta_and_experimental_feature_labels.md) so we don’t create confusion, and be sure we note that final capabilities of the feature might change. This includes social media, the Sourcegraph website, documentation, release post, changelog, handbook, in the app, or anywhere else. Documentation, as it is long-lived and not tied to a moment in time, should indicate when a feature became generally available.
+1. Whenever communicating publicly about pre-release features, we should use the [beta and experimental labels](../../../engineering/sdlc.md) so we don’t create confusion, and be sure we note that final capabilities of the feature might change. This includes social media, the Sourcegraph website, documentation, release post, changelog, handbook, in the app, or anywhere else. Documentation, as it is long-lived and not tied to a moment in time, should indicate when a feature became generally available.
 
 Public beta testing by its nature involves sharing more detail, showing and letting people use things that are still unreleased, and which can change or even be abandoned before they go live. That’s fine to do, as long as we follow the above principles.
 

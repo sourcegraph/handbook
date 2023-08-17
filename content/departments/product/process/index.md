@@ -6,7 +6,8 @@ This page contains information that is relevant for how to do well at your job a
 
 ### Principles
 
-See [principles](product_principles.md) for our core beliefs in how we build products
+See [principles](../../product/index.md#principles) for our core beliefs in how
+we build products
 
 ### Strategy
 
@@ -25,7 +26,7 @@ See [strategy](../../../strategy-goals/index.md).
 
 ### Prioritize & build
 
-- [PR-FAQs](../../engineering/job-fair.md) to share high level business ideas
+- [PR-FAQs](../../engineering/product-planning.md) to share high level business ideas
 - [Prioritizing](prioritize_and_build/prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Feature deprecation](prioritize_and_build/deprecation_process.md) - how we deprecate features when necessary.
 

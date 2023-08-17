@@ -116,7 +116,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#job-fair
    </td>
-   <td>For in-flight project that are part of the Job Fair program.
+   <td>For in-flight project that are part of the Product Planning program.
    </td>
    <td>#job-fair-own, #job-fair-ranking
    </td>

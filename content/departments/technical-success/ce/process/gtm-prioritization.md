@@ -1,6 +1,6 @@
 # GTM Backlog Prioritization
 
-Our customer's voices need to be heard and need to be reflected in the Product and Engineering decisions that we make. In an effort to bring this to the forefront, we will use the following process to identify the highest priorities of our customers as they pertain to our internal initiatives and strategic goals, and ensure that these priorities are then weighted in the overall product roadmap and Job Fair decision making. This process is the responsibility of the go-to-market teams. In particular, account teams should feel accountable for bringing any and all product feedback forward and ensuring this feedback is accurately and completely conveyed.
+Our customer's voices need to be heard and need to be reflected in the Product and Engineering decisions that we make. In an effort to bring this to the forefront, we will use the following process to identify the highest priorities of our customers as they pertain to our internal initiatives and strategic goals, and ensure that these priorities are then weighted in the overall product roadmap and product planning decision making. This process is the responsibility of the go-to-market teams. In particular, account teams should feel accountable for bringing any and all product feedback forward and ensuring this feedback is accurately and completely conveyed.
 
 ### Process
 
@@ -10,8 +10,8 @@ Our customer's voices need to be heard and need to be reflected in the Product a
    - Number of Impacted Accounts - How many accounts have indicated the desire for the Product Gap to be resolved?
    - Impact on Strategic Accounts - Are Strategic Accounts impacted by the Product Gap? What is the extent of this Strategic impact?
    - Product Gap Priority - Are a significant number of impacted accounts indicating the gap as P0, suggesting that the opp will fall through unless the gap is resolved?
-3. <b>Alignment</b> - Following the creation of the GTM 'Top 10' Product Gaps list, the list is reviewed with Product and Engineering against the currentl roadmap and Job Fair projects. In the overall greenlighting process for Job Fair, projects that resolve Product Gaps in the 'Top 10' list will be heavily weighted.
-4. <b>Resolution</b> - Once on the overall Job Fair board and Product Roadmap, resolution of the Product Gaps will follow standard engineering processes. After being resolved and released, the resoponsible Product/Engineering members will update the resolved Product Gaps, and the next highest priority Product Gap will take its place in the GTM 'Top 10' list.
+3. <b>Alignment</b> - Following the creation of the GTM 'Top 10' Product Gaps list, the list is reviewed with Product and Engineering against the currentl roadmap and product planning projects. In the overall greenlighting process for Product Planning, projects that resolve Product Gaps in the 'Top 10' list will be heavily weighted.
+4. <b>Resolution</b> - Once on the overall Product Planning board and Product Roadmap, resolution of the Product Gaps will follow standard engineering processes. After being resolved and released, the resoponsible Product/Engineering members will update the resolved Product Gaps, and the next highest priority Product Gap will take its place in the GTM 'Top 10' list.
 
 ### FAQ
 

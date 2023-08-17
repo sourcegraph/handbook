@@ -1,69 +1,237 @@
 # Product
 
-We strive to make the following true:
+The job of the product team is to provide clarity:
 
-- The team is working on the most important things on [our strategy](../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
-- Each teammate has the customer and product context needed about customer problems, likely future priorities, possible solutions, etc. to perform their work effectively.
+- Clarity about what we're building
+- Clarity about who we're building it for
+- Clarity about why we're building it
+- Clarity about who the company is and how it expresses itself
 
-## Contact
+## Team Members and Scope
 
-You can reach us at the #ask-product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](process/feedback/surfacing_product_feedback.md) page.
+- Head of Product (temporary PM VS Code) - Chris Sells
+- Product Managers (PM)
+  - Kevin Chen - PLG
+  - Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
+  - Taylor Sperry - Cody Clients
+- Product Designers (PD)
+  - Rob Rhyne - Head of Design
+  - Tim Lucas
+  - Daniel Marques
+- Brand Designers
+  - Tracey Johnson
+- User Experience Research (UXR)
+  - Megan St. Andrew
+- Technical Project Managers (TPM)
+  - Ryan Phillips - TPM Manager
+  - Kalan Chan
+  - John Wesonga
 
-## Roadmap & Strategy
+## Principles
 
-- The [Sourcegraph strategy page](../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
-- [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/302/views/18)
-- The [PMM roadmap deck](https://docs.google.com/presentation/d/1BRgZ9cuwFmmmRBqfnz61NKsZkmH5WqGBlUO4sWyJwFo/edit#slide=id.g1df8462b1e6_0_0) (internal only) which contains upcoming and recently launched important customer-facing features
+- [Multi-quarter outlook](#multi-quarter-outlook)
+- [Continuous improvement](#continuous-improvement-aka-eliminate-the-red)
+- [Developer-centered design](#developer-centered-design)
+- [Painkillers > Vitamins](#painkillers--vitamins)
 
-### Roadmap principles
+#### Multi-quarter outlook
 
-Building a public or customer-facing roadmap means trading-off flexibility vs predictability. One extreme is to have no customer-facing roadmap at all, and be able to change direction without any impact. The other is to have a 12-month or more committed roadmap and not being able to change plans without costly communication to reset expectations. Our strategy, engineering capacity, and customer and market feedback are the inputs that drive the roadmap. If one of those changes, the roadmap will change as well.
+We're going to pick the best direction we can based on the information we have
+and then adjust (not u-turn) along the way. With a solid product strategy in
+place, even a lightning strike like ChatGPT turns us towards the fun but doesn't
+upset the apple cart.
 
-We value flexibility over predictability, because that allows us to react faster to customer feedback and market changes. That said, we also want to give our largest customers visibility into key stable areas of our enterprise-readiness plans.
+That's not to say that we're always going to be right. As we have new data,
+we'll need to adjust our strategy. When we do so, we'll do it with the least
+amount of disruption to our teams and to our customers as possible.
 
-Here are the principles we apply for our roadmap:
+#### Continuous improvement (aka “eliminate the red”)
 
-- **Focus on the direction and high level 1-year narrative**. This helps our customers understand what problems we want to solve for them, independently of the specific feeatures we're building.
+In the old days of Microsoft, it was well known that the v3 of any of their
+products was the first good one. v1 was half of the original scope, v2 was the
+other half and v3 was the first version that actually took customer feedback
+into account, whether it was from metrics, surveys, bug reports, feature
+requests, sales, face-to-face meetings, A/B tests and data analyses, etc.
 
-- **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](../engineering/job-fair.md) cycle, and smaller updates as changes happen during a cycle.
-  - The roadmap includes experimental, beta and GA features, as defined in [docs](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
-  - We aim for 90% confidence in our 3-month roadmap: typically, out of 10 planned features, 1 will be dropped.
-- **Best effort 6-month+ roadmap for enterprise readiness**. For mature features, we strive to build a longer-term roadmap for enterprise-readiness
+If we never get to the version that takes feedback into account, then we never
+get to the good stuff! Our job is to put our best ideas into our products and
+then use customer feedback to make them better over time.
 
-Examples:
+If you prefer, Scott Guthrie, a Microsoft VP well known for his shotgun product
+demos, used to say that his job was to “eliminate the red,” which was his way of
+saying first, understand the pain customers are having and work to remove it,
+making way for the next set of pain points and so on.
 
-- Cody is experimental. Its roadmap will be a 3-month outlook, subject to change as we focus on iterating to deliver the best product to our users.
-- Codehost support has less customer and market unknowns. The main factor of uncertainty is engineering capacity. So we will strive to provide a longer term roadmap to inform our customers and go-to-market effort, provided that we get the go-ahead from capacity planning (VP Eng is the ultimate decision maker).
+#### Developer-centered design
 
-## Product team
+The overall goal of our products is to empower developers and enhance their
+productivity. To achieve this goal, we collaborate closely with our developer
+teammates during all stages of the design process and we continuously gather
+feedback from both internal and external developers as we test the results of
+our efforts.
 
-- [Product team reference](team/product_teams.md)
-- [Roles and responsibilities](roles/index.md) of the product team
+#### Painkillers > Vitamins
 
-## Feature matrices
+As an example, the following is a set of Cody scenarios that are like
+**vitamins** in that you know they're good for you, so you take them when it's
+convenient:
 
-- [Features by code host compatibility](tools/feature_compatibility.md)
-- [Features by deployment options](tools/deployment_options.md)
-- [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
-- [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [(Internal) Feature ownership](../engineering/dev/process/engineering_ownership.md)
+- Increase code coverage
+- Suggest merge conflict resolutions
+- Chatting with Confluence, your wiki, your docs
+- Asking for commentary on your metrics dashboard
+- Monitor your logs for potential problems
 
-## Metrics
+Vitamins are not as powerful a motivator as **painkillers**, which are problems
+that must be solved:
 
-- [User metrics definitions](../data-analytics/documentation.md)
-- [How to add metrics](../data-analytics/documentation.md#how-to)
+- Suggest a fix for a critical bug
+- Speed up the implementation for a critical feature
+- Find software license violations
+- Patch a security vulnerability
+- Find the crash reported in your logs
+- Explain a large, undocumented code base
 
-## References
+_We should focus on pain killers over vitamins to provide maximum values to our
+customers._
 
-- [Beta and experimental feature labels](process/gtm/beta_and_experimental_feature_labels.md) (internal only)
-- [Personas](../marketing/process/personas.md)
-- [Sourcegraph messaging](../marketing/process/messaging.md)
-- RFCs (requests for comment)
-  - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../../company-info-and-process/communication/rfcs/index.md)
-- [User research](process/user_research/index.md)
-- [Product licensing](process/gtm/licensing.md)
-- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
-- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
-- [Product team tools](tools/index.md)
-- [Product career development framework](career-development/framework.md)
+## Expected Outputs
+
+Product will achieve clarity by understanding the goals of the business and by
+listening to our customers. It will drive clarity by producing a number of
+outputs. While this isn't a complete list of things you'll see come out of the
+product team, you can count on us for _at least_ the following:
+
+- Strategy
+- Roadmap
+- Product Requirements Documents (PRDs)
+- Product designs
+- Brand designs
+- User research (both evaluative and generative)
+- User feedback via metrics and surveys
+- Schedules, task lists, etc.
+
+The product managers (PMs) are trained to listen to our customers and turn what they
+hear into proposed requirements at a scope that's appropriate for driving the
+creation, shipment and maintenance of our products over time. Those requirements
+will be communicated via [a Product Requirements Document
+(PRD)](https://docs.google.com/document/d/1VtK2wirazmB3fI_rFAd81_kLhAyPpLCrTu4dEsksfMY/edit?usp=drive_link).
+
+A PRD will contain details about our goals for a specific product or feature,
+the target customers, the supported user scenarios and features, along with
+priorities, metrics for success and a schedule laid out in a set of launch
+milestones. This will form the product _plan_ for a specific product as well as
+be a parent document to provide references to additional resources, like eng
+designs and/or RFCs, product design artifacts, detailed schedules and task
+lists, etc.
+
+PRDs will be reviewed by interested stakeholds and driven by the PM associated
+with that work, but the PRD's approval will come from the EPD of the related
+product team, i.e. the Engineering, PM and Design leads for that team.
+
+PRDs help us to drive towards our company's product goals as set up in the
+Product Strategy document (pending), which will also be drafted by the product
+team and updated as appropriate based on employee feedback and new data.
+
+The PRDs will also be used to lay out a high-level multi-quarter
+roadmap (pending).
+
+Product design and user research will produce artifacts as required to satisfy
+the needs of the product development process. This may include user personas,
+user journey maps, wireframes, prototypes, mockups, user flows, storyboards,
+high fidelity designs and other documents that help improve communication around
+intended product features.
+
+Brand design will produce design artifacts to meet the needs of marketing,
+internal comms, people ops, and sales. These artifacts might include, brand and
+logo development, web design, slide decks, ads, print ads, swag, trade show
+booths and other collateral and assets. These assets will convey the company's
+value, mission, and personality across all touch points. They will elevate
+Sourcegraph in the eyes of the viewer and contribute to a memorable brand
+experience for every viewer.
+
+Technical Program Managers (TPMs) manage schedules, assignments, and processes
+to ensure that customers receive new features seamlessly. Serving as partners to
+the feature teams, TPMs clearly outline and document the dependent elements of
+cross-functional projects. They act as the heartbeat of an organization,
+guaranteeing that every participant in a cross-functional project meets their
+deadlines and maintains high standards of quality.
+
+## Product + Engineering == Joy
+
+To ensure that product and engineering work well together, we've gathered some
+principles and pointers together in this non-exhaustive but hopefully
+illustrative section.
+
+Each product team has its own EPD triad (Engineering, Product and Design) to
+lead the product over time, ensuring that both departments are in sync. That
+team will be used in conjunction with the eng management structure to handle
+various common scenarios:
+
+### How to properly handle new, mid-cycle work
+
+- Bring the work to the EM Sync Meeting
+- Should we do that work? No? Bail.
+- Find the team that should own that work
+- Can it fit into the work for that Q?
+  - Yes: do it!
+  - No: What do we cut?
+
+### How to ward of a “PM drive-by”
+
+- Q: Should we do that work? No? Bail.
+- Q: Does it fit into the work for that Q?
+  - Yes: do it!
+  - No:
+    - Q: What should I cut?
+    - “Let me take that to my manager and get back to you.”
+
+### How to manage cross-team work
+
+Often we'll be driving towards scenarios that cross multiple engineering teams.
+To ensure the success of that work, we'll adopt the following broad processes:
+
+- Product defines cross-team scenarios and features in their PRDs
+- TPMs track dependencies between teams
+
+More engineering team specific details
+[here](../engineering/cross-team-collab.md).
+
+### How to ensure that product teams get their voice heard
+
+As per [the product-focused planning
+process](../engineering/product-planning.md), product teams propose work based
+on each Q's goals.
+
+## Talking to customers about our products
+
+Rule #1: **Make no promises about the dates of future functionality.** Work with
+product and marketing on how best to message the vision of the future via the
+sales process and public communication.
+
+Rule #2: Practice this phrase: **“Thank you for your feedback.”** Don't use
+harsh or dismissive language with our customers, potential customers or random
+people in the street when you're representing Sourcegraph.
+
+Rule #3: **Don't mention our competitors by name publicly;** we don't want to
+give them the airtime.
+
+Rule #4: Use kindness and respect when discussing competitors with our sales
+customers. **Dissing our competitors doesn't make them look bad, it makes us
+look bad. **Instead, encourage our customers to publicly share stories of how
+_they_ think about us relative to our competitors. Their stories are 10x more
+powerful than ours.
+
+Rule #5: **It's ok to say “our products may not be your best option.” **There is
+[no downside](https://www.youtube.com/watch?v=lKfBUUhFueI) to putting our
+customers' needs above our own.
+
+Rule #6: Not every customer is a good fit for everything we're doing. **There's
+no reason to let a customer know about any feature, program, opportunity unless
+it's something we can offer them**. If they know and don't get to participate,
+that just leads to hurt feelings.
+
+## Related Topics
+
+- [Software Product Lifecycle](../engineering//sdlc.md)
+- [Product-Focused Planning](../engineering/product-planning.md)
