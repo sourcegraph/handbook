@@ -3,8 +3,8 @@
 ## Surfacing internal feedback
 
 - Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted (optional) in the relevant team's channel.
-- Any teammate can open an issue for consideration by a engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](working-with-issues.md)
-- To determine which team the feedback applies to, consult [Engineering Ownership](dev/process/engineering_ownership.md) (and update it if necessary!).
+- Any teammate can open an issue for consideration by a engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](../../../engineering/working-with-issues.md)
+- To determine which team the feedback applies to, consult [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) (and update it if necessary!).
 
 ## Surfacing customer feedback
 

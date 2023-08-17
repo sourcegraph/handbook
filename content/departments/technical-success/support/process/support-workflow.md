@@ -31,7 +31,7 @@
    2. If we collectively don't know the answer, then we engage engineering following the steps outlined [here](engaging-other-teams.md).
    3. A few additional tips...
       - If ever an issue seems a bit bigger than helping a customer fix something that isn't working correctly or explaining how something works (for example, the customer needs to make a decision about doing something one way or another), then it's a good idea to loop in the CE and see if they want to offer any additional ideas/thoughts to the customer to help them from a strategic perspective.
-      - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](engineering/product#feature-matrices).
+      - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](../../../product#feature-matrices).
       - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
 
 9. **The support engineer ensures all appropriate tags are added to the ticket in Zendesk.** Ticket tags should be added to your ticket to accurately depict the theme of the issue within the ticket. A ticket theme helps us to identify which part of the product area was the point of focus discovered through the triaging process. Ticket tags are used to identify recurring themes that our customers are seeing. When these themes are identifed, it enables us to present detailed data to product and engineering teams on what our customers are experiencing.

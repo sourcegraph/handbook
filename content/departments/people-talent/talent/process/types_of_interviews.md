@@ -668,13 +668,13 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 

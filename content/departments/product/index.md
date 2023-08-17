@@ -24,7 +24,8 @@ We value flexibility over predictability, because that allows us to react faster
 Here are the principles we apply for our roadmap:
 
 - **Focus on the direction and high level 1-year narrative**. This helps our customers understand what problems we want to solve for them, independently of the specific feeatures we're building.
-- **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](job-fair.md) cycle, and smaller updates as changes happen during a cycle.
+
+- **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](../engineering/job-fair.md) cycle, and smaller updates as changes happen during a cycle.
   - The roadmap includes experimental, beta and GA features, as defined in [docs](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
   - We aim for 90% confidence in our 3-month roadmap: typically, out of 10 planned features, 1 will be dropped.
 - **Best effort 6-month+ roadmap for enterprise readiness**. For mature features, we strive to build a longer-term roadmap for enterprise-readiness
@@ -45,7 +46,7 @@ Examples:
 - [Features by deployment options](tools/deployment_options.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
 - [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [(Internal) Feature ownership](dev/process/engineering_ownership.md)
+- [(Internal) Feature ownership](../engineering/dev/process/engineering_ownership.md)
 
 ## Metrics
 

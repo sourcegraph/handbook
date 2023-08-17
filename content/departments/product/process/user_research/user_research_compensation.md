@@ -1,6 +1,6 @@
 # Compensation for user research participants
 
-We use a [variety of research methods](design/research/index.md) to help us learn about our customers, test our ideas, and improve our products.
+We use a [variety of research methods](../../../engineering/design/research/index.md) to help us learn about our customers, test our ideas, and improve our products.
 
 Often, our customers or users are happy to help us out to make their experience with Sourcegraph better. Other times, we do research through usertesting.com, which recruits and compensates participants automatically without our involvement.
 
