@@ -330,7 +330,6 @@ src snapshot test -summary-path="./summary.json"
 
 ### Final Steps
 
-
 After the data migration is complete, the site admin should remove the migration notice that was [previously added](#notify-users-of-instance-migration).
 
 Additionally, make sure to re-enable alerting by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows:
