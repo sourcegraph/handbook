@@ -483,8 +483,8 @@ You'll meet with two individual contributors on the TA team to learn about how y
 
 Sourcegraph’s mission is to make it so everyone codes. Sourcegraph is a code AI platform with two primary products Cody and Code Search.
 
-* **Cody**: Code AI that writes code and answers questions for you by reading your entire codebase and the code graph.
-* **Code Search**: Code search, plus features such as batch changes, code insights, and code monitoring.
+- **Cody**: Code AI that writes code and answers questions for you by reading your entire codebase and the code graph.
+- **Code Search**: Code search, plus features such as batch changes, code insights, and code monitoring.
 
 As a Sourcegraph Developer Advocate, you're the link between Sourcegraph and developers worldwide. You'll champion Cody and Code Search, collect feedback, and cultivate relationships, with the ultimate goal of driving wider adoption of Cody and Code Search.
 
@@ -494,22 +494,22 @@ Present your game plan for your contribution to the Sourcegraph 5.0 launch in a 
 
 Strategy:
 
-* What type of content would you produce (blog post, video, talk, tweet thread, livestream, sample app, etc.) and why.
+- What type of content would you produce (blog post, video, talk, tweet thread, livestream, sample app, etc.) and why.
 
 Content Blueprint:
 
-* If you would create multiple types of content, choose one and create the concrete message for that content. This should contain the actual copy of what you would say. 
-* If a blog post, it's the first paragraph(s) that get across the hook and main idea plus an outline of the rest of the post. 
-* If a video, it's the first 15-30 seconds of monologue or dialog plus an outline of the rest of the video.
+- If you would create multiple types of content, choose one and create the concrete message for that content. This should contain the actual copy of what you would say.
+- If a blog post, it's the first paragraph(s) that get across the hook and main idea plus an outline of the rest of the post.
+- If a video, it's the first 15-30 seconds of monologue or dialog plus an outline of the rest of the video.
 
 Impact:
 
-* How would you promote this content to the developer audience for maximum impact? 
-* What is the desired outcome of this content (engagement, activation, awareness, etc.)
+- How would you promote this content to the developer audience for maximum impact?
+- What is the desired outcome of this content (engagement, activation, awareness, etc.)
 
 Performance Metrics:
 
-* Which KPIs would you track to validate success, and what would be your goal for that KPI?
+- Which KPIs would you track to validate success, and what would be your goal for that KPI?
 
 You can reference the [5.0 release post](https://about.sourcegraph.com/blog/release/5.0) or any other material you find online. Feel free to be creative and original—the best presentations often are.
 
@@ -517,12 +517,12 @@ You can reference the [5.0 release post](https://about.sourcegraph.com/blog/rele
 
 Here are a couple of additional resources to help you.
 
-* [Sourcegraph Handbook](../../../../index.md)
-* [Cody VS Code Extension](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
-* [Product Documentation](https://docs.sourcegraph.com/)
-* [Company Blog](https://about.sourcegraph.com/blog)
-* [YouTube Channel](https://www.youtube.com/@Sourcegraph)
-* [Github Organization](https://github.com/sourcegraph)
+- [Sourcegraph Handbook](../../../../index.md)
+- [Cody VS Code Extension](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
+- [Product Documentation](https://docs.sourcegraph.com/)
+- [Company Blog](https://about.sourcegraph.com/blog)
+- [YouTube Channel](https://www.youtube.com/@Sourcegraph)
+- [Github Organization](https://github.com/sourcegraph)
 
 ## People Operations
 
