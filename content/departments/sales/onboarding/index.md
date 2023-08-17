@@ -27,7 +27,7 @@ Read about Sales onboarding Mentor program:
   - [Sourcegraph handbook](../../../index.md) intro
 - [CEO](../../../team/ceo/index.md)
   - [Values](../../../company-info-and-process/values/index.md)
-- [Product](../../engineering/product/index.md)
+- [Product](../../product/index.md)
   - [Personas](../../marketing/process/personas.md)
   - [Products](https://about.sourcegraph.com/product)
 - Read/watch

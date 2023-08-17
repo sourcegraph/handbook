@@ -2,7 +2,7 @@
 
 We strive to make the following true:
 
-- The team is working on the most important things on [our strategy](../../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
+- The team is working on the most important things on [our strategy](../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
 - Each teammate has the customer and product context needed about customer problems, likely future priorities, possible solutions, etc. to perform their work effectively.
 
 ## Contact
@@ -24,7 +24,7 @@ We value flexibility over predictability, because that allows us to react faster
 Here are the principles we apply for our roadmap:
 
 - **Focus on the direction and high level 1-year narrative**. This helps our customers understand what problems we want to solve for them, independently of the specific feeatures we're building.
-- **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](../job-fair.md) cycle, and smaller updates as changes happen during a cycle.
+- **3-month roadmap**. We build a 3-month roadmap. It's updated after each [job fair](job-fair.md) cycle, and smaller updates as changes happen during a cycle.
   - The roadmap includes experimental, beta and GA features, as defined in [docs](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
   - We aim for 90% confidence in our 3-month roadmap: typically, out of 10 planned features, 1 will be dropped.
 - **Best effort 6-month+ roadmap for enterprise readiness**. For mature features, we strive to build a longer-term roadmap for enterprise-readiness
@@ -45,24 +45,24 @@ Examples:
 - [Features by deployment options](tools/deployment_options.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
 - [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [(Internal) Feature ownership](../dev/process/engineering_ownership.md)
+- [(Internal) Feature ownership](dev/process/engineering_ownership.md)
 
 ## Metrics
 
-- [User metrics definitions](../../data-analytics/documentation.md)
-- [How to add metrics](../../data-analytics/documentation.md#how-to)
+- [User metrics definitions](../data-analytics/documentation.md)
+- [How to add metrics](../data-analytics/documentation.md#how-to)
 
 ## References
 
 - [Beta and experimental feature labels](process/gtm/beta_and_experimental_feature_labels.md) (internal only)
-- [Personas](../../marketing/process/personas.md)
-- [Sourcegraph messaging](../../marketing/process/messaging.md)
+- [Personas](../marketing/process/personas.md)
+- [Sourcegraph messaging](../marketing/process/messaging.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
+  - [How we use RFCs](../../company-info-and-process/communication/rfcs/index.md)
 - [User research](process/user_research/index.md)
 - [Product licensing](process/gtm/licensing.md)
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
-- [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
+- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [Product team tools](tools/index.md)
 - [Product career development framework](career-development/framework.md)

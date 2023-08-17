@@ -3,7 +3,7 @@
 The Engineering department at Sourcegraph consists of:
 
 - [Development](dev/index.md)
-- [Product Management](product/index.md)
+- [Product Management](../product/index.md)
 - [Design](design/index.md)
 
 ## Product vision and strategy

@@ -64,7 +64,7 @@ We use the term GA to refer to features that are complete and ready for broad us
 - Have established product-market fit
 - Have clear pricing and packaging
 
-For [L1 product launches](../../../../marketing/product-marketing/marketing_launch_tiers.md#l1-launch), the PM and PMM for the product should work together to establish GA criteria before the launch happens and should mutually decide when the product is ready for GA.
+For [L1 product launches](../../../marketing/product-marketing/marketing_launch_tiers.md#l1-launch), the PM and PMM for the product should work together to establish GA criteria before the launch happens and should mutually decide when the product is ready for GA.
 
 ## When we use an entirely different label
 

@@ -18,7 +18,7 @@ We believe that our growth will be driven by solving developer's painpoints and 
 
 ### Dream big, but build iteratively
 
-We have an ambitious vision, but deliver it step by step, using our [high quality through iteration](../../../../company-info-and-process/values/#high-quality-through-iteration). We strive to deliver [minimum viable changes](https://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+We have an ambitious vision, but deliver it step by step, using our [high quality through iteration](../../../company-info-and-process/values/#high-quality-through-iteration). We strive to deliver [minimum viable changes](https://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc).
 
 Each project, no matter how long-running, needs to plan to ship something in each release. The “something” depends on the project. We strongly prefer for it to be a minimal viable feature that is enabled by default. The next best thing is to ship something that is feature-flagged off by default. When possible, larger features should be merged mid-cycle to solicit feedback from the team and customers before the release is cut. The reason for this is to avoid going for too long without customer feedback (from users trying it) or even technical/product feedback (from performing the diligent work of polishing it to be ready to release). Lacking these critical checks means we will end up building something that doesn’t solve people’s problems or that is over-built.
 

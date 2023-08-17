@@ -12,7 +12,7 @@ This section of the Handbook holds all documentation related to specific departm
 - [People & Talent](people-talent/index.md)
 - [Engineering](engineering/index.md)
   - [Development](engineering/dev/index.md)
-  - [Product Management](engineering/product/index.md)
+  - [Product Management](product/index.md)
   - [Design](engineering/design/index.md)
 - [Cloud](cloud/index.md)
 - [Sales](sales/index.md)

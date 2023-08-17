@@ -6,7 +6,7 @@ The below information can help guide you to a recommendation, but to make a pric
 
 ## Strategy
 
-Our top-level strategy for pricing can be found on the [company strategy page](../../../../../strategy-goals/strategy/index.md#pricing).
+Our top-level strategy for pricing can be found on the [company strategy page](../../../../strategy-goals/strategy/index.md#pricing).
 
 ## Pricing tiers
 
@@ -27,7 +27,7 @@ The sources of truth for pricing are:
 
 ### What goes into open source
 
-See our [open source philosophy](../../../dev/process/licenses.md#open-source-philosophy)
+See our [open source philosophy](../../dev/process/licenses.md#open-source-philosophy)
 
 ### Role of the free tier
 

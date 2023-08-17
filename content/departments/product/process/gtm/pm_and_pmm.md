@@ -4,7 +4,7 @@ Product Management and Marketing must work closely together to successfully crea
 
 | Product Marketing is DRI                                                                                                 | Product Management is DRI                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [Customer-first](../../../../../company-info-and-process/values/index.md#customer-first) with orientation towards market | [Customer-first](../../../../../company-info-and-process/values/index.md#customer-first) with orientation towards product and engineering |
+| [Customer-first](../../../../company-info-and-process/values/index.md#customer-first) with orientation towards market | [Customer-first](../../../../../company-info-and-process/values/index.md#customer-first) with orientation towards product and engineering |
 | Providing important market context to the roadmap                                                                        | Defining the roadmap                                                                                                                      |
 | Receives new product info and product updates from product management teams                                              | Delivers new product info and product updates to product marketing team                                                                   |
 | Responsible for aligning product packaging and messaging with market demands                                             | Responsible for aligning product requirements with market demands                                                                         |
@@ -18,4 +18,4 @@ Shared areas of ownership where both teams contribute are:
 - [Go to market planning](./rollout_process.md)
 - [Customer communications](../index.md#talking-to-customers-and-stakeholders)
 
-Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../../../company-info-and-process/communication/conflicts.md#clean-escalation) process to get to the best decision.
+Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../../company-info-and-process/communication/conflicts.md#clean-escalation) process to get to the best decision.

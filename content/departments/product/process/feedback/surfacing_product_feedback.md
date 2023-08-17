@@ -3,12 +3,12 @@
 ## Surfacing internal feedback
 
 - Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted (optional) in the relevant team's channel.
-- Any teammate can open an issue for consideration by a engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](../../../working-with-issues.md)
-- To determine which team the feedback applies to, consult [Engineering Ownership](../../../dev/process/engineering_ownership.md) (and update it if necessary!).
+- Any teammate can open an issue for consideration by a engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](../../working-with-issues.md)
+- To determine which team the feedback applies to, consult [Engineering Ownership](../../dev/process/engineering_ownership.md) (and update it if necessary!).
 
 ## Surfacing customer feedback
 
-> If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../../technical-success/support/process/engaging-other-teams.md).
+> If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../technical-success/support/process/engaging-other-teams.md).
 
 CEs, support engineers, Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
 

@@ -529,7 +529,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 #### Async writing project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to see how you communicate and think about product problems.
 
