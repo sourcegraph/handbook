@@ -11,7 +11,7 @@ We use personas to understand our users and what they need as we prioritize our 
 There are several sources that product managers look at when deciding what's important to prioritize next.
 
 - [Your own strategy](../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) and where you are trying to go
-- [The overall company strategy](../../../../../strategy-goals/strategy/index.md) and how you fit in
+- [The overall company strategy](../../../../strategy-goals/strategy/index.md) and how you fit in
 - [User & stakeholder feedback](../feedback/user_stakeholder_feedback.md) to realize our value of being [customer-first](../../../../company-info-and-process/values/index.md#customer-first)
 
 ## Saying "no"
@@ -56,16 +56,16 @@ Each team may decide how they would like to keep track of the backlog of issues,
 
 ## Prioritizing requests that impact the product roadmap
 
-Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../../../sales/index.md#customer) or [prospects](../../../../sales/index.md#prospect), or could be a strategic initiative.
+Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../../../sales/index.md#customer) or [prospects](../../../sales/index.md#prospect), or could be a strategic initiative.
 
-If the requested change is large enough that it would impact the planned [product roadmap](../../index.md#roadmap) of one or several [engineering teams](../../dev/index.md#teams), we should handle its prioritization as follows:
+If the requested change is large enough that it would impact the planned [product roadmap](../../index.md#roadmap) of one or several [engineering teams](../dev/index.md#teams), we should handle its prioritization as follows:
 
-1. The product manager should contact all relevant [engineering managers](../../dev/roles/index.md#engineering_manager), providing the following information in the form of an [RFC](../../../../../company-info-and-process/communication/rfcs/index.md):
+1. The product manager should contact all relevant [engineering managers](../dev/roles/index.md#engineering_manager), providing the following information in the form of an [RFC](../../../../../company-info-and-process/communication/rfcs/index.md):
    - Description of the desired functionality.
    - Context on why is this important: the customers or prospects that would benefit from the change, the size of the opportunity, and the risks of not doing this work.
    - Desired timeline for the change: when do we need this by?
    - Desired timeline for the evaluation: how soon do we need to know whether we can deliver this?
-1. Engineering managers own providing a timely answer, either directly or by delegating evaluation of the request to a [software engineer](../../dev/roles/index.md#software-engineer) on their project team. If cross-team coordination is needed to evaluate the request, engineering managers own facilitating this coordination. The evaluation should be provided in the form of an [RFC](../../../../../company-info-and-process/communication/rfcs/index.md), or added to the original RFC provided by the product manager, and should include:
+1. Engineering managers own providing a timely answer, either directly or by delegating evaluation of the request to a [software engineer](../dev/roles/index.md#software-engineer) on their project team. If cross-team coordination is needed to evaluate the request, engineering managers own facilitating this coordination. The evaluation should be provided in the form of an [RFC](../../../../../company-info-and-process/communication/rfcs/index.md), or added to the original RFC provided by the product manager, and should include:
    - An estimation of the amount of work needed to implement the request.
    - If the amount of work needed spans more than one milestone, a proposed breakdown of incremental changes (for example, shipping a first functional but slow implementation in milestone N then working on performance in milestone N+1).
    - An overview of work that would get deprioritized if we chose to prioritize the request.

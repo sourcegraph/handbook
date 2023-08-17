@@ -11,7 +11,7 @@ You can reach us at the #ask-product channel or @product-team on Slack. If you h
 
 ## Roadmap & Strategy
 
-- The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
+- The [Sourcegraph strategy page](../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/302/views/18)
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1BRgZ9cuwFmmmRBqfnz61NKsZkmH5WqGBlUO4sWyJwFo/edit#slide=id.g1df8462b1e6_0_0) (internal only) which contains upcoming and recently launched important customer-facing features
 

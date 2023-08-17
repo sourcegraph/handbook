@@ -63,7 +63,7 @@ If someone follows the install instructions for our Docker, Docker Compose, or K
 
 Sourcegraph Enterprise offers three **plans**: Free, Business, and Enterprise as defined in [pricing](https://about.sourcegraph.com/pricing/). The Free plan is the default plan. It does not require a license key to run.
 
-Customers on the Business and Enterprise plan of Sourcegraph Enterprise are provided with a [license key](../../../../technical-success/ce/process/license_keys.md), usually by a customer engineer. When a prebuilt image is configured with a license key, the functionality covered under the customer's plan is enabled.
+Customers on the Business and Enterprise plan of Sourcegraph Enterprise are provided with a [license key](../../../technical-success/ce/process/license_keys.md), usually by a customer engineer. When a prebuilt image is configured with a license key, the functionality covered under the customer's plan is enabled.
 
 > NOTE: Although it includes the word "license", a license key is _completely_ unrelated to the [software license](#software-licensing) described above.
 

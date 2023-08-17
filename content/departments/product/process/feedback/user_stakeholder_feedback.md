@@ -105,7 +105,7 @@ See [How to reference customer names in public tickets](../prioritize_and_build/
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
-- **Owner:** Currently, the [Code Exploration team](../../teams/code-exploration/index.md) owns responding to this feedback.
+- **Owner:** Currently, the [Code Exploration team](../teams/code-exploration/index.md) owns responding to this feedback.
 
 ## Productboard
 
