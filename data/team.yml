@@ -2088,6 +2088,7 @@ chris_sells:
 director_devrel:
   name: Ado Kukic
   role: Director of Developer Relations
+  reports_to: product_lead
   manager_role_slug: director_devrel
   hide_on_team_page: true
 
