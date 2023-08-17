@@ -352,7 +352,7 @@ Finally, you'll walk us through your solution in a 45-minute review session. Beg
 
 - **Interviewers:** Two engineers on the team/org they would manage
 
-- **Duration:** 60-minutes.
+- **Duration:** 45-60-minutes.
 
 - **Details:** The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
 
@@ -360,6 +360,6 @@ Finally, you'll walk us through your solution in a 45-minute review session. Beg
 
 - **Interviewers:** Two cross-functional peers
 
-- **Duration:** 60-minutes.
+- **Duration:** 30-60-minutes.
 
 - **Details:** This interview will be focused on domain knowledge, functionally-specific depth, and breadth. The purpose of this interview is to assess whether the candidate will work well with teammates outside of engineering to achieve what is in the best interest of Sourcegraph and our customers.
