@@ -2085,19 +2085,13 @@ chris_sells:
   links: '[blog](https://sellsbrothers.com), [twitter](https://twitter.com/csells), [linkedin](https://linkedin.com/in/csells)'
   description: Chris Sells is a software engineer, product manager, author, speaker and developer advocate. He enjoys long walks on the beach and various technologies.
 
-director_devrel:
-  name: Ado Kukic
-  role: Director of Developer Relations
-  reports_to: product_lead
-  manager_role_slug: director_devrel
-  hide_on_team_page: true
-
 ado_kukic:
   name: Ado Kukic
   role: Director, Developer Relations
   email: ado.kukic@sourcegraph.com
   github: kukicado
   pronouns: he/him
+  manager_role_slug: director_devrel
   reports_to: product_lead
   location: Las Vegas, Nevada, USA 🇺🇸
   links: '[Blog](https://ado.xyz), [Twitter](https://twitter.com/kukicado), [LinkedIn](https://linkedin.com/in/kukicado)'
