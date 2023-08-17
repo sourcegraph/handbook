@@ -1373,7 +1373,7 @@ madison clark:
 justin dorfman:
   name: Justin Dorfman
   role: Open Source Program Manager
-  reports_to: cto
+  reports_to: director_devrel
   location: Los Angeles, CA, USA 🇺🇸
   github: jdorfman
   email: justin.dorfman@sourcegraph.com
@@ -2084,3 +2084,15 @@ chris_sells:
   location: Oregon, USA 🇺🇸
   links: '[blog](https://sellsbrothers.com), [twitter](https://twitter.com/csells), [linkedin](https://linkedin.com/in/csells)'
   description: Chris Sells is a software engineer, product manager, author, speaker and developer advocate. He enjoys long walks on the beach and various technologies.
+
+ado_kukic:
+  name: Ado Kukic
+  role: Director, Developer Relations
+  email: ado.kukic@sourcegraph.com
+  github: kukicado
+  pronouns: he/him
+  manager_role_slug: director_devrel
+  reports_to: product_lead
+  location: Las Vegas, Nevada, USA 🇺🇸
+  links: '[Blog](https://ado.xyz), [Twitter](https://twitter.com/kukicado), [LinkedIn](https://linkedin.com/in/kukicado)'
+  description: Ado is a full-stack software engineer, international speaker, and developer advocate. His passion has always been technology and education. He writes tutorials, records video courses, and contributes to open source projects. Outside of work he is an avid reader, occasional gamer, and tech gadget enthusiast.
