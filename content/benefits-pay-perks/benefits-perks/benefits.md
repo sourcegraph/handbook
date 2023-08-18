@@ -333,5 +333,5 @@ Non-US teammates:
 - Not appllicable.
 
 ### **People Team Resouces**
-[Benefits ownership sheet](https://docs.google.com/spreadsheets/d/1sUgD2ZjDCwAOCC7ABjrwzmdUWDE7v8AvOAS_XSvC958/edit?usp=sharing)
 
+[Benefits ownership sheet](https://docs.google.com/spreadsheets/d/1sUgD2ZjDCwAOCC7ABjrwzmdUWDE7v8AvOAS_XSvC958/edit?usp=sharing)
