@@ -259,11 +259,18 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 
 #### Taxonomy Guidelines
 
-New Business: New Customer, New Business Unit, New Team if multiple buying teams within a single business unit
+New Business: New Customer only
 
 - \_Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
 - _ProductName = Code Search, Cody, Cody + Code Search_
 - Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
+
+New Business in Existing Customer:  New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
+- Note: Opportunity Type on these types of opportunities should remain as \Expansion/ for reporting purposes
+
+- \_Account Name - Business Unit - Team - New Business in Existing Customer - (ProductName) - # of Seats (if Code Search or associated products)
+- _ProductName = Code Search, Cody, Cody + Code Search_
+- Ex. JPMC - AWM - InfoSec Team - New Business in Existing Customer - Code Search - 50 Seats
 
 Flat Renewal: No Change to Contract
 
@@ -295,7 +302,7 @@ Churn: Used Only When iARR is Negative
 
 ##### Opportunities Related to Cody
 
-Now that Cody is generally available for sale, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines
+Althought Cody is currently still in Beta, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines and include Cody into the opportunity name if we plan to active Cody Beta for the customer.
 
 ### Associating contacts to opportunities
 
