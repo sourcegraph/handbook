@@ -259,7 +259,7 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 
 #### Taxonomy Guidelines
 
-New Business: New Customer only
+New Business: New Customer
 
 - \_Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
 - _ProductName = Code Search, Cody, Cody + Code Search_
@@ -267,7 +267,7 @@ New Business: New Customer only
 
 New Business in Existing Customer: New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
 
-- Note: Opportunity Type on these types of opportunities should remain as \Expansion/ for reporting purposes
+- Note: Opportunity Type on these types of opportunities should remain as Expansion for reporting purposes
 
 - \_Account Name - Business Unit - Team - New Business in Existing Customer - (ProductName) - # of Seats (if Code Search or associated products)
 - _ProductName = Code Search, Cody, Cody + Code Search_
