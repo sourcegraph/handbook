@@ -295,7 +295,7 @@ Churn: Used Only When iARR is Negative
 
 ##### Opportunities Related to Cody
 
-Now that Cody is generally available for sale, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines
+Although Cody remains in Beta, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines if we plan to grant access to Cody Beta for the customer.
 
 ### Associating contacts to opportunities
 
