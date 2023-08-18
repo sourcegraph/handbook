@@ -302,11 +302,13 @@ Create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
-- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**.
+- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**. Then follow the password reset link in an incognito tab to set the new user's password.
 
 <!-- Automated version: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33 -->
 
 Then **delete** the `SOURCEGRAPH_ADMIN_TOKEN` GSM secret in the Cloud V2 instance project, as it is no longer valid.
+
+You must also promote the new `cloud-admin` user to Site Admin: find the user in the Users page (`/site-admin/users?searchText=cloud-admin`), and from the overflow menu select **Promote to Site Admin**.
 
 Enforce all invariants, now that the service account has been set up:
 
