@@ -265,7 +265,8 @@ New Business: New Customer only
 - _ProductName = Code Search, Cody, Cody + Code Search_
 - Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
 
-New Business in Existing Customer:  New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
+New Business in Existing Customer: New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
+
 - Note: Opportunity Type on these types of opportunities should remain as \Expansion/ for reporting purposes
 
 - \_Account Name - Business Unit - Team - New Business in Existing Customer - (ProductName) - # of Seats (if Code Search or associated products)
