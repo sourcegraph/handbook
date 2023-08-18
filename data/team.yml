@@ -2051,6 +2051,16 @@ interim_ship_devinfra:
   manager_role_slug: ship_devinfra_lead
   hide_on_team_page: true
 
+shannon_king:
+  name: Shannon King
+  email: shannon.king@sourcegraph.com
+  github: Shannonking456
+  pronouns: she/her
+  role: Director, Demand Generation
+  location: Clifton, Virginia, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/shannonmking/)'
+  description: Shannon is a marketer focused on generating demand and building pipeline. In her free time, she enjoys reading, traveling, and spending time with her family including two (almost three!) kids.
+
 alex_bildner:
   name: Alex Bildner
   email: alex.bildner@sourcegraph.com
