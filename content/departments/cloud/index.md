@@ -128,7 +128,7 @@ We aim to make all processes self-service as much as possible, please follow the
 
 #### **Enable Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-configure-cody.yml&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)
 
-<span class="badge badge-note">self-service</span>
+<span class="badge badge-note">🤖 self-service</span>
 
 - To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
 
