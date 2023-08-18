@@ -313,8 +313,12 @@ You must also promote the new `cloud-admin` user to Site Admin: find the user in
 Enforce all invariants, now that the service account has been set up:
 
 ```sh
+# Enforce invariants that will finalize the service account setup
+mi2 instance check -enforce -label service-account
+# Make sure all invariants are applied
 mi2 instance check -enforce
-mi2 instance check # verify again
+# Verify full invariants suite again
+mi2 instance check
 ```
 
 Run an acceptance test using the downloaded `summary.json` from the snapshot bucket:
