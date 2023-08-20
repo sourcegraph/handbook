@@ -5,11 +5,11 @@ Sourcegraph collects user and stakeholder feedback from [several sources](user_s
 As a PM, your are responsible for:
 
 - [Product feedback monitoring](#product-feedback-monitoring)
-    - [Triaging and answering feedback channels](#triaging-and-answering-feedback-channels)
-      - [NPS feedback submission and happiness widget](#nps-feedback-submission-and-happiness-widget)
-      - [Triaging submissions from teammates](#triaging-submissions-from-teammates)
-    - [Labelling GitHub issues with no team label](#labelling-github-issues-with-no-team-label)
-    - [Answering feedback inbox emails](#answering-feedback-inbox-emails)
+  - [Triaging and answering feedback channels](#triaging-and-answering-feedback-channels)
+    - [NPS feedback submission and happiness widget](#nps-feedback-submission-and-happiness-widget)
+    - [Triaging submissions from teammates](#triaging-submissions-from-teammates)
+  - [Labelling GitHub issues with no team label](#labelling-github-issues-with-no-team-label)
+  - [Answering feedback inbox emails](#answering-feedback-inbox-emails)
 
 ### Triaging and answering feedback channels
 

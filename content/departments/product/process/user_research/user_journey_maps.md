@@ -29,4 +29,4 @@ You're ready to create a user journey map when you've defined the following:
 | [Marketing customer journey](https://docs.google.com/spreadsheets/d/1BrzJgYs4KZ5mP5_imR5s1RU6rMgMKZ8ELwIwwa6pEas/edit#gid=0)                                 | September 2021 |
 | [Initial search user journey](https://www.figma.com/file/7RHdxmVzzCqrXYOEC9dY4u/Initial-search-user-journey)                                                 | October 2021   |
 | [High level new user initial visit flow](https://www.figma.com/file/8xhlKovY0iRPRFVFKF3OGh/High-level-customer-journey?node-id=0%3A1)                        | August 2021    |
-| [Customer journey map](https://miro.com/app/board/o9J_lsTedpA=/) | October 2021 |
+| [Customer journey map](https://miro.com/app/board/o9J_lsTedpA=/)                                                                                             | October 2021   |
