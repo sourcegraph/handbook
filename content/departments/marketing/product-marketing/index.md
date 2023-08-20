@@ -116,4 +116,4 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 - [Batch Changes positioning](../../engineering/teams/batch-changes/go-to-market/index.md)
 - [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
-- [Product Marketing & Product Manager collaboration](../../engineering/product/process/gtm/pm_and_pmm.md)
+- [Product Marketing & Product Manager collaboration](../../product/process/gtm/pm_and_pmm.md)

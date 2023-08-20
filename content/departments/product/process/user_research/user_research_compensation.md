@@ -1,6 +1,6 @@
 # Compensation for user research participants
 
-We use a [variety of research methods](../../../design/research/index.md) to help us learn about our customers, test our ideas, and improve our products.
+We use a [variety of research methods](../../../engineering/design/research/index.md) to help us learn about our customers, test our ideas, and improve our products.
 
 Often, our customers or users are happy to help us out to make their experience with Sourcegraph better. Other times, we do research through usertesting.com, which recruits and compensates participants automatically without our involvement.
 
@@ -29,7 +29,7 @@ While planning user research, if you feel it's the right choice to offer compens
    - Select Amazon as the vendor.
    - Select USD for the amount. Enter the total value for all gift cards you need to purchase. For example, if you need to buy 3 $60 Amazon gift cards, you should enter $180 as the amount.
    - Choose "67300 Consultants and other Professional Services" as the accounting category.
-   - [Learn more about how Sourcegraph uses Airbase](../../../../finance/process/payables.md).
+   - [Learn more about how Sourcegraph uses Airbase](../../../finance/process/payables.md).
 
 6. Use your approved virtual card to purchase Amazon gift cards directly through Amazon.
 7. Submit receipts for each Amazon gift card in Airbase.

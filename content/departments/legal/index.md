@@ -55,7 +55,7 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 When to engage legal:
 
-1. [Product inception, pre-beta launches, and launches](../engineering/product/process/gtm/new_feature_legal_questionnaire.md)
+1. [Product inception, pre-beta launches, and launches](../product/process/gtm/new_feature_legal_questionnaire.md)
 1. [Naming new products, features, and programs](../marketing/product-marketing/naming_guide.md)
 1. Feature deprecation or other changes (see Product inception link above) that may affect ToS or Privacy Policy
 

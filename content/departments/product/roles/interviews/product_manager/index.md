@@ -6,7 +6,7 @@ _Total interview time: 4.5 hours + ~1 hour project_
 
 - [30 min] **[Recruiter screen](../initial_screen.md)**: Meet with our recruiting team to chat about Sourcegraph and what you are looking for in your next role.
 - [30 min] **[Hiring manager screen](../hm_intro_call.md)**: We discuss your background & get to know you.
-- [1 hr] **[Resume deep dive](../../../../../people-talent/talent/process/types_of_interviews.md#resume-deep-dive)**: We go through your background in great detail with the hiring manager.
+- [1 hr] **[Resume deep dive](../../../../people-talent/talent/process/types_of_interviews.md#resume-deep-dive)**: We go through your background in great detail with the hiring manager.
 
 **"Onsite" interviews**
 
@@ -16,8 +16,8 @@ _Total interview time: 4.5 hours + ~1 hour project_
 
 **Final Interviews**
 
-- [30 min] **[Values interview](../../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, Operations)
-- [30 min] **Final interview** with [Beyang Liu](../../../../../../team/index.md#beyang-liu), CTO
+- [30 min] **[Values interview](../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, Operations)
+- [30 min] **Final interview** with [Beyang Liu](../../../../../team/index.md#beyang-liu), CTO
 - We make you a job offer!
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.

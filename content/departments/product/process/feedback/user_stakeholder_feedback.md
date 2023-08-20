@@ -6,7 +6,7 @@ _This page is most relevant to product team members. If you want to know how to 
 
 ## Sources of feedback
 
-- [Tracking & sharing user & stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
+- [Tracking \& sharing user \& stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
   - [Sources of feedback](#sources-of-feedback)
     - [Sales feedback](#sales-feedback)
     - [CE feedback](#ce-feedback)
@@ -64,7 +64,7 @@ We have a few different email lists that are used to send us feedback.
 #### support@sourcegraph.com
 
 - **Purpose:** This email list is for customers to request help and connects to Zendesk.
-- **Owner:** The Customer Support team is [responsible for all support issues](../../../../technical-success/support/process/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
+- **Owner:** The Customer Support team is [responsible for all support issues](../../../technical-success/support/process/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
 
@@ -105,7 +105,7 @@ See [How to reference customer names in public tickets](../prioritize_and_build/
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
-- **Owner:** Currently, the [Code Exploration team](../../../teams/code-exploration/index.md) owns responding to this feedback.
+- **Owner:** Currently, the [Code Exploration team](../../../engineering/teams/code-exploration/index.md) owns responding to this feedback.
 
 ## Productboard
 
