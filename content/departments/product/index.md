@@ -218,11 +218,11 @@ give them the airtime.
 
 Rule #4: Use kindness and respect when discussing competitors with our sales
 customers. **Dissing our competitors doesn't make them look bad, it makes us
-look bad. **Instead, encourage our customers to publicly share stories of how
+look bad.** Instead, encourage our customers to publicly share stories of how
 _they_ think about us relative to our competitors. Their stories are 10x more
 powerful than ours.
 
-Rule #5: **It's ok to say “our products may not be your best option.” **There is
+Rule #5: **It's ok to say “our products may not be your best option.”** There is
 [no downside](https://www.youtube.com/watch?v=lKfBUUhFueI) to putting our
 customers' needs above our own.
 
