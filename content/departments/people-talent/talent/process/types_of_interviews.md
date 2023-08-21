@@ -701,7 +701,7 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 - Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
 - Duration: 1.5 hours
-- Details: The interview simulates a real-life design collaboration as closely as possible. We'll brief you on a project we've already completed and then you'll lead us in some early ideation. Finally, we'll discuss how you would proceed with the project if it were a real effort. Our goal is to give you an introduction to the types of problems you'll be solving and the people you'll be working with. On our end, we'd like to understand how you think about design in practice. Please come prepared to work in your favorite design tool for wireframes and low-fidelity mockups. You can read more about the session [here](https://handbook.sourcegraph.com/departments/engineering/product/roles/interviews/product_designer/pd_design_exercise/).
+- Details: The interview simulates a real-life design collaboration as closely as possible. We'll brief you on a project we've already completed and then you'll lead us in some early ideation. Finally, we'll discuss how you would proceed with the project if it were a real effort. Our goal is to give you an introduction to the types of problems you'll be solving and the people you'll be working with. On our end, we'd like to understand how you think about design in practice. Please come prepared to work in your favorite design tool for wireframes and low-fidelity mockups. You can read more about the session [here](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise/).
 
 ### Product Design Intern
 
