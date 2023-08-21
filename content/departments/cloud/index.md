@@ -144,6 +144,15 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - To update the license key for an existing instance.
 
+#### **Reset customer admin password**
+
+<span class="badge badge-note">🤖 self-service</span>
+
+To send out a password reset email
+
+- Open [GitHub Actions](https://github.com/sourcegraph/cloud/actions/workflows/mi_reset_password.yml)
+- Click `Run workflow` and follow instruction
+
 <!-- Coming soon -->
 <!-- #### **Request to increase executors count on a Cloud instance** - [New Request]()
 
