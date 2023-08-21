@@ -4,7 +4,7 @@ To provide greater clarity of the progress of our Engineering, we will start cre
 
 ## Why?
 
-1. As mentioned by Steve in [Job Fair Planning](https://sourcegraph.slack.com/archives/C04DMC5Q971/p1690300946640199), the Ship organization was "left alone" to do its own planning and execution:
+1. As mentioned by Steve in [Product Planning Planning](https://sourcegraph.slack.com/archives/C04DMC5Q971/p1690300946640199), the Ship organization was "left alone" to do its own planning and execution:
 
    > "_Eng-only/infrastructure projects_
    >
