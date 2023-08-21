@@ -576,7 +576,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 #### Async writing project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to see how you communicate and think about product problems.
 
@@ -631,7 +631,7 @@ This interview will include a PM and designer from our team who have been focusi
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the PR-FAQ.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the PR-FAQ.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -693,13 +693,13 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 #### Portfolio review
 
-- Interviewer(s): [Two Product Designers](../../../engineering/product/index.md).
+- Interviewer(s): [Two Product Designers](../../../product/index.md).
 - Duration: 1 hour
 - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
 
 #### Design working session
 
-- Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
+- Interviewer(s): [Product Manager, Product Designers](../../../product/index.md), and a Frontend engineer.
 - Duration: 1.5 hours
 - Details: The interview simulates a real-life design collaboration as closely as possible. We'll brief you on a project we've already completed and then you'll lead us in some early ideation. Finally, we'll discuss how you would proceed with the project if it were a real effort. Our goal is to give you an introduction to the types of problems you'll be solving and the people you'll be working with. On our end, we'd like to understand how you think about design in practice. Please come prepared to work in your favorite design tool for wireframes and low-fidelity mockups. You can read more about the session [here](../../../engineering/product/roles/interviews/product_designer/pd_design_working_session.md).
 
@@ -715,13 +715,13 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 
