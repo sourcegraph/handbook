@@ -116,7 +116,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#job-fair
    </td>
-   <td>For in-flight project that are part of the Job Fair program.
+   <td>For in-flight project that are part of the Product Planning program.
    </td>
    <td>#job-fair-own, #job-fair-ranking
    </td>
@@ -811,19 +811,19 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#discuss-cody 
+   <td>#discuss-cody
    </td>
    <td>General questions and discussions about Cody; prefer to use more focused channels when possible (eg, #wg-cody-agent for questions or discussion around Cody Agent).
    </td>
   </tr>
   <tr>
-   <td>#feedback-cody 
+   <td>#feedback-cody
    </td>
-   <td>General dogfooding and external feedback from Cody users. Feedback that’s specific to a particular client should go in the relevant #wg- channel. 
+   <td>General dogfooding and external feedback from Cody users. Feedback that’s specific to a particular client should go in the relevant #wg- channel.
    </td>
   </tr>
   <tr>
-   <td>#discuss-cody-context 
+   <td>#discuss-cody-context
    </td>
    <td>Discussion of Cody context
    </td>
@@ -871,27 +871,27 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#wg-cody-jetbrains 
+   <td>#wg-cody-jetbrains
    </td>
    <td>Discussion, questions, bug reports, and feedback specific to the JetBrains plugins (eg, IntelliJ). JetBrains team collaboration and weekly progress updates.
    </td>
   </tr>
   <tr>
-   <td>#wg-cody-web 
+   <td>#wg-cody-web
    </td>
    <td>Discussion, questions, bug reports, and feedback specific to Cody in the web (dotcom or enterprise). Cody Web team collaboration and weekly progress updates.
    </td>
   </tr>
   <tr>
-   <td>#wg-cody-emacs 
+   <td>#wg-cody-emacs
    </td>
    <td>Discussion, questions, bug reports, and feedback specific to Emacs plugin
    </td>
   </tr>
   <tr>
-   <td>#discuss-cody-app 
+   <td>#discuss-cody-app
    </td>
-   <td>Questions, bug reports, and feedback specific to Cody App (not part of GA, but we need a place to continue trying to support existing users). 
+   <td>Questions, bug reports, and feedback specific to Cody App (not part of GA, but we need a place to continue trying to support existing users).
    </td>
   </tr>
   <tr>

@@ -8,8 +8,8 @@ In reviewing the [PMM Roadmap](https://docs.google.com/presentation/d/1o3R8WUIhz
 
 ## Product management procedures
 
-The product management team has documentation on how communication works for pre-release (beta/experimental) and L1 features in the [product management handbook](../../engineering/product/process/gtm/rollout_process.md#communication).
-There is also documentation available on the [meaning of the beta and experimental pre-release labels](../../engineering/product/process/gtm/beta_and_experimental_feature_labels.md).
+The product management team has documentation on how communication works for pre-release (beta/experimental) and L1 features in the [product management handbook](../../product/process/gtm/rollout_process.md#communication).
+There is also documentation available on the [meaning of the beta and experimental pre-release labels](../../engineering/sdlc.md).
 
 ## L1 launch
 

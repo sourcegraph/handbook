@@ -114,7 +114,7 @@ Yes. Cody sends code outside of a customer's network when creating embeddings an
 
 #### What's on the roadmap for Cody?
 
-Check the #job-fair channel in Slack for the latest updates about what's coming for Cody. See the [job fair handbook page](../../job-fair.md) for more information about how we create the roadmap.
+Check the #job-fair channel in Slack for the latest updates about what's coming for Cody. See the [product planning handbook page](../../product-planning.md) for more information about how we create the roadmap.
 
 #### When’s GA?
 
