@@ -1,4 +1,4 @@
-# Design exercise
+# Design working session
 
 The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process.
 
@@ -16,7 +16,7 @@ Send the following prompt to the candidate to prepare for this interview:
 
 (~60 min) We will give you a specific problem to solve for [Sourcegraph](https://sourcegraph.com) and would like you to walk us through the design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
 
-## Exercise (~75 min): Sourcegraph exercise
+## Session (~75 min)
 
 ### Purpose/goal
 
