@@ -64,13 +64,26 @@ If for some reason the key was not successfully applied during creation, it can 
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -src-license-key $LICENSE_KEY siteconfig.license-key
 ```
 
-[Optional - only for manual process] Add customer admin to the instance
+#### [Optional] Add additional customer admins
+
+If there is more than one initial customer admin email in the ticket:
+
+```sh
+# notes it only work if two admins email belong to the same domain to avoid accidentally adding the wrong admins
+# otherwise, you need to use SOAP to bypass this or consider asking the first admin to perform this step
+# on their own
+mi2 instance debug create-customer-admin -email <another-admin@company.com>
+```
+
+#### [Optional - only for manual process] Add customer admin to the instance
 
 ```sh
 mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce -customer-admin-email $CUSTOMER_ADMIN_EMAIL
 ```
 
-In the GitHub issue, tag the assigned CE/AE the instance is ready with the following message. Also notify the assigned CE/AE in the Slack thread:
+#### Finally
+
+In the GitHub issue, tag the assigned CE/AE the instance is ready with the following message. Also, notify the assigned CE/AE in the Slack thread:
 
 ```
 Hi,
