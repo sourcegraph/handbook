@@ -33,6 +33,16 @@ Our Amplitude pipeline is connected to our `dotcom_events.events` table. The pip
 
 The entire pipeline runs every hour so it can take up to 1 hour for data to start appearing in Amplitude.
 
+#### Derived Properties
+Within Amplitude we have built some derived properties that make it easier to extract our specific keys from our nested data fields and use them for analysis. Current derived properties include:
+1. charCount
+2. linesOfCode
+3. is_sourcegraph_teammate
+4. feature_flag:enable_simple_search
+5. cody_client_version
+
+If you have any derived properties you would like to create, please reach out to the Data&Analytics Team.
+
 ## Using Amplitude FAQs
 
 ### How do I find what we call an event in the Sourcegraph code?
