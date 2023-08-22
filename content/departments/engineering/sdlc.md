@@ -1,5 +1,9 @@
 ## Software Product Lifecycle
 
+<!-- The content of this page relates to SOC2, please ask a review from @doragrgic when making non trivial changes. -->
+
+<span class="badge badge-note">SOC2/IC-98</span>
+
 Each phase of the software product lifecycle has a label we use to communicate
 to our customers a) the quality we're aiming for and b) the support we're able
 to provide. These labels are assigned to major features of our software
