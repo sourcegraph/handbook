@@ -13,6 +13,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Renewal Process](#renewal-process)
     - [Process Overview](#process-overview)
     - [Renewal Process Phases](#renewal-process-phases)
+  - [Success Plans](#success-plans)
   - [Red Accounts](#red-accounts)
 - [Post-Sales Customer Journey](#post-sales-customer-lifecycle)
   - [User Onboarding](#user-onboarding)
@@ -86,6 +87,15 @@ Our renewal process is a 5 step process that begins 120 days prior to the renewa
 | Renewal Plan                           | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor the progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                         | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal |
 | Renewal Forecast                       | AE & TA leadership: weekly forecast                                                                                           | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)             | Quarterly forecast                                                           |
 | Process Renewal                        | AE & TA leadership: weekly forecast                                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                          | Renewal event complete                                                       |
+## Success Plans
+
+Account Success Plans are a key part of internal account strategy and goal-setting within the account team. TAs update account-level Success Plans in Vitally on a quarterly basis outlining their proactive plan for each customer. Throughout the quarter, the TA should action their success plan and review progress with their AE and TA leadership throughout. A subset of success plans are reviewed during internal QBRs with the broader Revenue organization.
+
+A success plan contains the following:
+- North Star Goals: What are the measurable goals for this account for the next quarter?
+- Success Action Plan: What needs to happen for us to be successful in achieving the above goals? For each goal capture the action plan and steps necessary to accomplish those outcomes. Create tasks in Vitally and link to them.
+- Relationships: What relationships do we have, with whom, and what is their sentiment? What people do we need to turn into champions, why them? What is the “win” that will develop them into a champion?
+- Asks from the Business: Are there dependencies on other parts of the business (requisite product enhancements, for example)? Describe how they could jeopardize the milestones or north star. What is the plan to resolve the dependency? Where do you need help?
 
 ## Red Accounts
 
