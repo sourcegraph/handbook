@@ -20,6 +20,8 @@ following outline:
   business?
 - Plans: What work is being proposed for this planning cycle, how does it meet
   the business goals and how does it serve the needs of our customers?
+- Risks/Needs: What are the biggests risks? What are the mitigations? Do you
+  have everything you need to be successful?
 
 Note, not every team will have work to do that applies to every goal every
-quarter. Likewise, not every work item is expected to meet a goal
+quarter. Likewise, not every work item is expected to meet a goal.
