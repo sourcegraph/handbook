@@ -1,6 +1,5 @@
 # Amplitude
 
-
 ## How do I get started?
 
 1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named `Sourcegraph`). If you don't have an account, post in #it-tech-ops or request one during login.
@@ -27,7 +26,8 @@ Any analysis we conducted in Looker before we started using Amplitude we can con
 ### Pipeline
 
 Our Amplitude pipeline is connected to our `dotcom_events.events` table. The pipeline works like so:
-1. A scheduled BigQuery [query](https://console.cloud.google.com/bigquery?tc=us:64b02e2a-0000-2155-80f9-001a11446b5e&project=telligentsourcegraph&ws=!1m0) runs hourly to extract the latest rows from `dotcom_events.events` and export the results to a [Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/amplitude-events-dotcom;tab=objects?forceOnBucketsSortingFiltering=true&project=telligentsourcegraph&prefix=&forceOnObjectsSortingFiltering=false&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22)))
+
+1. A scheduled BigQuery [query](https://console.cloud.google.com/bigquery?tc=us:64b02e2a-0000-2155-80f9-001a11446b5e&project=telligentsourcegraph&ws=!1m0) runs hourly to extract the latest rows from `dotcom_events.events` and export the results to a [Google Cloud Storage bucket](<https://console.cloud.google.com/storage/browser/amplitude-events-dotcom;tab=objects?forceOnBucketsSortingFiltering=true&project=telligentsourcegraph&prefix=&forceOnObjectsSortingFiltering=false&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))>)
 2. Amplitude has a GCS connector set up that checks this bucket every hour and loads any new data into Amplitude.
 3. The exported event data is now available in Amplitude for analysis and reporting.
 
