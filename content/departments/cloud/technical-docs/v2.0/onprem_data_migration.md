@@ -298,11 +298,23 @@ mi2 instance check -enforce -force-apply soap
 The instance will need `externalURL` set to the instance domain for SOAP to work - follow [this guide](https://docs.sourcegraph.com/admin/config/site_config#editing-your-site-configuration-if-you-cannot-access-the-web-ui) to directly edit the instance's site configuration.
 
 Request Entitle access to log in to the UI and log in to the instance.
-Create the Sourcegraph service account manually:
+First, make sure that basic/builtin auth is enabled so that we can configure a password:
+
+```json
+{
+  "auth.providers": [
+    // ...
+    { "type": "builtin" }
+  ]
+}
+```
+
+Then create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
-- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**. Then follow the password reset link in an incognito tab to set the new user's password.
+
+Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**. Then copy the password reset link from creating the user and open it in an incognito tab to set the new user's password. If you missed the link, you can recreate it from Site Admin -> Users -> dropdown menu -> "Reset password".
 
 <!-- Automated version: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33 -->
 
@@ -320,6 +332,8 @@ mi2 instance check -enforce
 # Verify full invariants suite again
 mi2 instance check
 ```
+
+Now that the service account has been promoted to a SOAP service account, we should revert any changes to `"auth.providers"` we made earlier.
 
 Run an acceptance test using the downloaded `summary.json` from the snapshot bucket:
 
