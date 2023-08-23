@@ -301,7 +301,7 @@ mi2 instance check -enforce -force-apply soap
 
 The instance will need `externalURL` set to the instance domain for SOAP to work - follow [this guide](https://docs.sourcegraph.com/admin/config/site_config#editing-your-site-configuration-if-you-cannot-access-the-web-ui) to directly edit the instance's site configuration.
 
-Request Entitle access to log in to the UI and log in to the instance.
+[Request Entitle access](../oidc_site_admin/#request-ui-access-to-managed-instances) to log in to the UI and log in to the instance.
 Create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
