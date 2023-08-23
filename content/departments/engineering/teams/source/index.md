@@ -22,7 +22,7 @@ For more details, read our [Source strategy & mission](strategy.md)
 
 ## Emergency Contact
 
-We run an internal support rotation (see [Support Rotation in Team Source](support_rotation.md)]).
+We run an internal support rotation (see [Support Rotation in Team Source](support_rotation.md)).
 
 You can page the person on support (and possibly wake them up in the middle of the night).
 
