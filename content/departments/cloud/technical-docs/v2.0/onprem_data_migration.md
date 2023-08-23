@@ -327,8 +327,8 @@ Enforce all invariants, now that the service account has been set up:
 ```sh
 # Enforce invariants that will finalize the service account setup
 mi2 instance check -enforce -label service-account
-# Make sure all invariants are applied
-mi2 instance check -enforce
+# Make sure all invariants are applied, including inviting the customer admin again
+mi2 instance check -enforce -customer-admin-email $CUSTOMER_ADMIN_EMAIL
 # Verify full invariants suite again
 mi2 instance check
 ```
