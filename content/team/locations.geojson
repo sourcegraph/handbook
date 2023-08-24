@@ -903,6 +903,20 @@
             ],
             "type": "Point"
           }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Morgan Gautho"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.492330,
+                    34.028160
+                ]
+            }
         }
+
     ]
 }
