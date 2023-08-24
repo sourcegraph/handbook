@@ -52,7 +52,7 @@ Our overarching philosophy is simple: take meaningful actions, based on in-depth
 
 ### Where can I see survey results?
 
-Survey results are included in the weekly update in #announce-people-talent.
+Survey results are included in the weekly update in #announce-people-talent-team.
 
 ### Who will be able to see my responses?
 
