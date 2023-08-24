@@ -118,6 +118,8 @@ The exit interview is broken into two steps:
   - Once you sign the PTEP agreement, your ISOs immediately convert to NSOs.
   - You do not need to do anything to receive a 10-year PTEP. You do not need to ask anyone for it. Nor do we make upfront guarantees of extending PTEP. Due to US tax regulations of ISOs, Sourcegraph must maintain full discretion to extend your PTEP.
   - If you don’t hear from Sourcegraph within 2 months of your last day of employment, feel free to reach out to the People team at people@sourcegraph.com.
+ 
+- For full-time non-US based teammates:  your carta account should already reflect 10 year PTEPs for your grants.
 
 #### When will my system access be removed?
 
