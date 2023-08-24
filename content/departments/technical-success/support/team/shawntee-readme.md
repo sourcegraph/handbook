@@ -50,7 +50,7 @@ Unclear expectations, making mistakes, and asking for help.
 
 ## Technical areas of knowledge
 
-Tooling, I love working with different tools to make workflows and process run smoothly and efficently. 
+Tooling, I love working with different tools to make workflows and process run smoothly and efficently.
 
 ## Technical interests to learn
 
