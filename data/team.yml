@@ -345,7 +345,7 @@ tom_ross:
   name: Tom Ross
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_exploration
+  reports_to: cto
   location: York, North Yorkshire, UK 🇬🇧
   github: umpox
   email: tom@sourcegraph.com
@@ -453,7 +453,7 @@ valery_bugakov:
   name: Valery Bugakov
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_exploration
+  reports_to: eng_lead
   location: Bali, Indonesia
   github: valerybugakov
   email: valery@sourcegraph.com
@@ -1083,7 +1083,7 @@ david_veszelovszki:
   name: David Veszelovszki
   pronunciation: '[ˈdeɪvɪd ˈveselovski](http://ipa-reader.xyz/?text=%CB%88de%C9%AAv%C9%AAd%20%CB%88veselovski&voice=Joey'
   role: Software Engineer, Cody Clients
-  reports_to: engineering_manager_batch_changes
+  reports_to: eng_lead
   location: Stockholm, Sweden 🇸🇪
   pronouns: he/him
   email: david.veszelovszki@sourcegraph.com
@@ -1123,7 +1123,7 @@ philipp_spiess:
   name: Philipp Spiess
   pronouns: he/him
   role: Full-Stack Engineer
-  reports_to: engineering_manager_code_exploration
+  reports_to: cto
   location: Vienna, AT 🇦🇹
   pronunciation: '[ˈʃpiːs](http://ipa-reader.xyz/?text=%CB%88%CA%83pi%CB%90s&voice=Marlene)'
   email: philipp.spiess@sourcegraph.com
@@ -1216,7 +1216,7 @@ andrew_norrish:
 
 felix_kling:
   name: Felix Kling
-  reports_to: engineering_manager_code_exploration
+  reports_to: eng_lead
   role: Software Engineer
   github: fkling
 
@@ -1246,7 +1246,7 @@ taras_yemets:
   github: taras-yemets
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_exploration
+  reports_to: cody_strat_lead
   location: Cherkasy, Ukraine 🇺🇦
   links: '[LinkedIn](https://www.linkedin.com/in/taras-yemets/), [GitHub](https://github.com/taras-yemets)'
   description: Taras is a software engineer hailing from Cherkasy, Ukraine 🇺🇦. Outside of work, he enjoys cycling, skiing, spending time outside with family and friends, traveling, watching movies, and sporting events.
@@ -1360,7 +1360,7 @@ laura_hacker:
   name: Laura Hacker
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_code_exploration
+  reports_to: eng_lead
   location: Grand Rapids, MI, USA 🇺🇸
   github: lrhacker
   pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'
@@ -1417,7 +1417,7 @@ naman_kumar:
   github: thenamankumar
   pronouns: he/him
   role: Software Engineer, Cody Clients
-  reports_to: engineering_manager_batch_changes
+  reports_to: eng_lead
   location: New Delhi, IN
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
   description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Sourcegraph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
@@ -1494,7 +1494,7 @@ kalan_chan:
   pronouns: he/him
   location: Burnaby, BC, Canada 🇨🇦
   role: Software Engineer
-  reports_to: engineering_manager_batch_changes
+  reports_to: product_lead
   email: kalan.chan@sourcegraph.com
   github: kalanchan
   links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
@@ -1640,7 +1640,7 @@ cezary_bartoszuk:
   github: cbart
   pronouns: he/him
   role: Engineering Manager, Cody Strategic
-  reports_to: engineering_manager_batch_changes
+  reports_to: eng_lead
   manager_role_slug: cody_strat_lead
   location: Long Grove, IL, USA 🇺🇸
   description: Cezary tries to spend as much time as possible with his wife and three kids. He enjoys parenting, learning about religion and philosophy, reading books and making music.
