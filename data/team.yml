@@ -52,7 +52,7 @@ eric_fritz:
   name: Eric Fritz
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: source_lead
   location: Milwaukee, WI, USA 🇺🇸
   github: efritz
   email: eric@sourcegraph.com
@@ -222,7 +222,7 @@ noah_santschi-cooney:
   name: Noah Santschi-Cooney
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: cody_strat_lead
   location: Wexford, Ireland 🇮🇪
   pronunciation: '/[noʊə santʃi kuːnɪ](http://ipa-reader.xyz/?text=no%CA%8A%C9%99%20sant%CA%83i%20ku%CB%90n%C9%AA&voice=Amy)/'
   github: strum355
@@ -366,7 +366,7 @@ seth_hoover:
   name: Ólafur Páll Geirsson
   pronouns: he/him
   role: Software Engineer, Code Intelligence
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Drøbak, Norway 🇳🇴
   github: olafurpg
   email: olafurpg@sourcegraph.com
@@ -387,7 +387,7 @@ james_clifford:
 tj_devries:
   name: TJ DeVries
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Rockford, MI, USA 🇺🇸
   github: tjdevries
   email: tjdevries@sourcegraph.com
@@ -465,7 +465,7 @@ vova_kulikov:
   name: Vova Kulikov
   pronouns: he/him
   role: Software Engineer, Frontend
-  reports_to: engineering_manager_code_insights
+  reports_to: eng_lead
   location: St. Petersburg, Russia 🇷🇺
   github: vovakulikov
   email: vova@sourcegraph.com
@@ -573,7 +573,7 @@ coury_clark:
   name: Coury Clark
   pronouns: He/Him
   role: Software Engineer, Backend
-  reports_to: engineering_manager_code_insights
+  reports_to: eng_lead
   location: Phoenix, AZ, USA
   email: coury@sourcegraph.com
   github: coury-clark
@@ -893,7 +893,7 @@ grace_bohl:
 cesar_jimenez:
   name: Cesar Jimenez
   role: Software Engineer on Code Intelligence
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Seattle, WA 🇺🇸
   github: numbers88s
   email: cesar.jimenez@sourcegraph.com
@@ -959,7 +959,7 @@ varun_gandhi:
   name: Varun Gandhi
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: search_lead
   location: 'Taipei, Taiwan'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
@@ -1762,7 +1762,7 @@ dominic_cooney:
   name: Dominic Cooney
   email: dominic.cooney@sourcegraph.com
   github: dominiccooney
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Tokyo, Japan 🇯🇵
   links: '[@dominiccooney](https://twitter.com/dominiccooney), [LinkedIn](https://www.linkedin.com/in/dominiccooney)'
   pronouns: he/him
@@ -1809,7 +1809,7 @@ auguste_rame:
   github: SuperAuguste
   pronouns: he/him
   role: Software Engineering Intern, Code Intelligence
-  reports_to: engineering_manager_code_intelligence
+  reports_to: search_lead
   location: Washington, DC
   links: '[Website](https://augustera.me/), [LinkedIn](https://www.linkedin.com/in/auguste-rame/), [Twitter](https://twitter.com/hackeroftacos)'
   description: 'I started my programming journey writing Minecraft plugins for my friends, then taught kids programming for a non-profit and volunteered at a vaporwave magazine, a school satire publication, and Libraries Without Borders. My most recent work has revolved around the [Zig Language Server](https://github.com/zigtools/zls) and wider Zig community. In my free time, I love handmaking pasta and running.'
@@ -1820,7 +1820,7 @@ anton_sviridov:
   github: keynmol
   pronouns: he/him
   role: Software Engineering, Code Intelligence
-  reports_to: engineering_manager_code_intelligence
+  reports_to: search_lead
   location: London, UK 🇬🇧
   links: '[Blog](https://blog.indoorvivants.com), [Twitter](https://twitter.com/velvetbaldmime)'
   description: 'As a software engineer I peaked in school, developing and running a Harry Potter-esque school of "magic". Since then it has all been downhill with mostly Scala and its various flavours. When not programming I enjoy spending time with my family and not going to the gym'
