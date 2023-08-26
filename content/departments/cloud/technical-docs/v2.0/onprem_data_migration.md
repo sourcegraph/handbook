@@ -310,7 +310,7 @@ The instance will need `externalURL` set to the instance domain for SOAP to work
 }
 ```
 
-[Request Entitle access](../oidc_site_admin/#request-ui-access-to-managed-instances) to log in to the UI and log in to the instance. Then create the Sourcegraph service account manually:
+[Request Entitle access](../oidc_site_admin.md#request-ui-access-to-managed-instances) to log in to the UI and log in to the instance. Then create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
