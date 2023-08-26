@@ -4,7 +4,7 @@ _A guide for Sourcegraph engineers_
 
 ## What’s a Tech Lead?
 
-Tech lead (TL) is a role a Sourcegraph engineer can fulfil on a [Job Fair Project](https://docs.google.com/spreadsheets/d/1jP5atmrBSJKubvk3rFuwXiXKLwfyxCGFDE4fqbpVmvU/edit#gid=283720203). So what does that mean?
+Tech lead (TL) is a role a Sourcegraph engineer can fulfil on a [Product Planning Project](https://docs.google.com/spreadsheets/d/1jP5atmrBSJKubvk3rFuwXiXKLwfyxCGFDE4fqbpVmvU/edit#gid=283720203). So what does that mean?
 
 The TL of a project is the Directly Responsible Individual (DRI) and as such [owns the engineering success](./dev/process/principles-and-practices.md#ownership).
 

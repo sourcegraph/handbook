@@ -1,7 +1,5 @@
 # Managed Instance Private Code Hosts support
 
-WARNING: This is still work in progress!
-
 Every [v2.0 Cloud Instance](../v2.0/index.md) is deployed in Google Cloud Platform.
 
 **Private Code Host** is a code host deployed in a private network (for example AWS EC2 instance within VPC). To connect to this code host a user has to have access to the private network usually via VPC Peering, VPN, or tunneling.
@@ -24,7 +22,11 @@ This option is for customers who want to connect to a private code host that is 
 
 AWS GCP VPN extension connects an existing Cloud Instance with customer dedicated AWS account (maintained by Cloud Team).
 
-#### 1. Modify `config.yaml` with additional section:
+#### 1. Create customer dedicated AWS account
+
+[playbook](https://github.com/sourcegraph/infrastructure/tree/main/cloud/aws)
+
+#### 2. Modify `config.yaml` with additional section:
 
 ```yaml
 spec:
@@ -38,7 +40,7 @@ spec:
       type: awsvpn
 ```
 
-#### 2. Generate additional terraform stacks
+#### 3. Generate additional terraform stacks
 
 ```
 mi2 generate cdktf
@@ -66,7 +68,7 @@ For more details, go to [Google documentation](https://cloud.google.com/network-
 For each customer using private code host, additional section to our generated operation dashboard is added.
 Upon enabling the private code host support, follow the process [to update the dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md#update-all-generated-dashboards)
 
-### AWS VPC Endpoint Service (aka AWS Private Link)
+#### 4. AWS VPC Endpoint Service (aka AWS Private Link)
 
 [AWS Private Link](https://aws.amazon.com/privatelink/) is a secure method to expose a single endpoint (i.e. code host) from AWS VPC to specific AWS Principals (IAM in specific AWS VPC).
 This solution ensures code the host is not exposed from AWS and only a given principal can access it.
@@ -135,15 +137,16 @@ i.e. `private.CUSTOMER.com` -> `public.CUSTOMER.com` where:
 ```yaml
 spec:
   infrastructure:
+    gcp:
+      gke:
+        blue:
+          additionalOauthScopes: # required for each node pool to pull dns-proxy private image from artifact registry
+            - https://www.googleapis.com/auth/devstorage.read_only
     privateDNS:
       routes:
         - source: private.CUSTOMER.com
           destination: public.CUSTOMER.com
           # resolverIP: IP_OF_CUSTOM_RESOLVER - optional
-    gke:
-      blue:
-        additionalOauthScopes: # required for each node pool to pull dns-proxy private image from artifact registry
-          - https://www.googleapis.com/auth/devstorage.read_only
 ```
 
 2. Generate and apply cdktf

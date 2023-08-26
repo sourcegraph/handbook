@@ -299,25 +299,43 @@ Set up SOAP configuration:
 mi2 instance check -enforce -force-apply soap
 ```
 
-The instance will need `externalURL` set to the instance domain for SOAP to work - follow [this guide](https://docs.sourcegraph.com/admin/config/site_config#editing-your-site-configuration-if-you-cannot-access-the-web-ui) to directly edit the instance's site configuration.
+The instance will need `externalURL` set to the instance domain for SOAP to work - follow [this guide](https://docs.sourcegraph.com/admin/config/site_config#editing-your-site-configuration-if-you-cannot-access-the-web-ui) to directly edit the instance's site configuration. Additionally, make sure that basic/builtin auth is enabled so that we can configure a password:
 
-[Request Entitle access](../oidc_site_admin/#request-ui-access-to-managed-instances) to log in to the UI and log in to the instance.
-Create the Sourcegraph service account manually:
+```json
+{
+  "auth.providers": [
+    // ...
+    { "type": "builtin" }
+  ]
+}
+```
+
+[Request Entitle access](../oidc_site_admin/#request-ui-access-to-managed-instances) to log in to the UI and log in to the instance. Then create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
-- Password: Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**.
+
+Run `openssl rand -hex 32` in your terminal and use the output as the password. Also **save the password to the `SOURCEGRAPH_ADMIN_PASSWORD` GSM secret in the Cloud V2 instance project**. Then copy the password reset link from creating the user and open it in an incognito tab to set the new user's password. If you missed the link, you can recreate it from Site Admin -> Users -> dropdown menu -> "Reset password".
 
 <!-- Automated version: https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/instances/init.go?L33 -->
 
 Then **delete** the `SOURCEGRAPH_ADMIN_TOKEN` GSM secret in the Cloud V2 instance project, as it is no longer valid.
 
+You must also promote the new `cloud-admin` user to Site Admin: find the user in the Users page (`/site-admin/users?searchText=cloud-admin`), and from the overflow menu select **Promote to Site Admin**.
+
 Enforce all invariants, now that the service account has been set up:
 
 ```sh
-mi2 instance check -enforce
-mi2 instance check # verify again
+# Enforce invariants that will finalize the service account setup
+mi2 instance check -enforce -label service-account
+# Make sure all invariants are applied, including inviting the customer admin again
+# Note that $CUSTOMER_ADMIN_EMAIL must match the one the Cloud instance was initially created with
+mi2 instance check -enforce -customer-admin-email $CUSTOMER_ADMIN_EMAIL
+# Verify full invariants suite again
+mi2 instance check
 ```
+
+Now that the service account has been promoted to a SOAP service account, we should revert any changes to `"auth.providers"` we made earlier.
 
 Run an acceptance test using the downloaded `summary.json` from the snapshot bucket:
 
