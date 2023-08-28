@@ -22,6 +22,7 @@ following outline:
   the business goals and how does it serve the needs of our customers?
 - Risks/Needs: What are the biggests risks? What are the mitigations? Do you
   have everything you need to be successful?
+- Metrics: What is the data (qualitative and/or quantitative) that you're using to make your decisions? What are your metrics for success?
 
 Note, not every team will have work to do that applies to every goal every
 quarter. Likewise, not every work item is expected to meet a goal.
