@@ -29,13 +29,13 @@ The job of the product team is to provide clarity:
 
 ## Principles
 
-- [Do fewer things well](#do-fewer-things-well)
+- [Do fewer things but do them better](#do-fewer-things-but-do-them-better)
 - [Multi-quarter outlook](#multi-quarter-outlook)
 - [Continuous improvement](#continuous-improvement-aka-eliminate-the-red)
 - [Developer-centered design](#developer-centered-design)
 - [Painkillers > Vitamins](#painkillers--vitamins)
 
-#### Do fewer things well
+#### Do fewer things but do them better
 
 Instead of trying to "peanut butter" the product team across all of the products,
 doing all of them badly, we're going to focus on the highest priority items and
