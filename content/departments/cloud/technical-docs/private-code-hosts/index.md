@@ -134,14 +134,19 @@ i.e. `private.CUSTOMER.com` -> `public.CUSTOMER.com` where:
 
 1. Configure config.yaml
 
+> Important: Follow playbook for given cloud instance to introduce additional node pool, as changing oauth scope on existing one will cause downtime.
+
 ```yaml
 spec:
   infrastructure:
     gcp:
       gke:
         blue:
-          additionalOauthScopes: # required for each node pool to pull dns-proxy private image from artifact registry
+          machineType: XYZ
+        green:
+          additionalOauthScopes:
             - https://www.googleapis.com/auth/devstorage.read_only
+          machineType: XYZ
     privateDNS:
       routes:
         - source: private.CUSTOMER.com
@@ -149,7 +154,9 @@ spec:
           # resolverIP: IP_OF_CUSTOM_RESOLVER - optional
 ```
 
-2. Generate and apply cdktf
+2. Generate and apply cdktf resources:
+
+Note: open PR and merge for VCS TFC changes to be applied.
 
 ```sh
 mi2 generate cdktf
@@ -165,6 +172,8 @@ mi2 generate kustomize
 cd kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
+
+4. Open Pull Request.
 
 ### AWS Private Link playbook for customer
 
