@@ -35,7 +35,7 @@ See [Cody Gateway: working design](https://docs.google.com/document/d/1fAKuYM02v
 
 ## Service images
 
-Source code for Cody Gateway is in [`sourcegraph/sourcegraph/enterprise/cmd/cody-gateway`](https://github.com/sourcegraph/sourcegraph/tree/main/enterprise/cmd/cody-gateway).
+Source code for Cody Gateway is in [`sourcegraph/sourcegraph/cmd/cody-gateway`](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/cody-gateway).
 The image gets built the same as any other Sourcegraph service, i.e. with `insiders` and the standard `main`-branch tags.
 
 ### Local development

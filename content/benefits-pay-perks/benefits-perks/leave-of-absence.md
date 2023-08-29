@@ -140,11 +140,7 @@ Preparing for your first day back:
 
 ### Additional resources
 
-- [Modern Health](https://circles.modernhealth.com/): our mental health platform, Modern Health, has resources for many tough life situations
-- On-demand meditations include:
-  - [The Values Reset](https://my.joinmodernhealth.com/meditation/the-reset-values)
-  - [Relax Your Body](https://my.joinmodernhealth.com/meditation/relax-your-body)
-  - [Deep Breathing](https://my.joinmodernhealth.com/meditation/deep-breathing)
+- Coming soon!
 
 ### FAQ
 
@@ -179,6 +175,20 @@ Preparing for your first day back:
 ##### **Q: Can I use PTO after 4 weeks of medical leave?**
 
 - A: No, while you’re out on medical leave your first 4 weeks will be paid and any additional time off up to 8 additional weeks is unpaid, unless your local statutory annual leave provides otherwise. Once you return to work you can use PTO in alignment with our [Paid Time Off policy](time-off/index.md).
+
+#### **Q: What if I have questions about benefits such as FMLA or ADA, who should I reach out to?** (this only applies to US Employees)
+
+- A: If the teammate is eligible for time off under the Family Medical Leave Act (FMLA) or any other applicable leave law in their jurisdiction, time off under this policy will run concurrent with that statutory leave. In addition, more robust medical certification forms may apply for FMLA and other statutory leaves. Your Tilt Leave Case Manager will walk you through this.
+
+#### **Q: Do I need to qualify for FMLA to take a Medical Leave of Absence?**
+
+- A: No, but if you do qualify for FMLA it will run concurrently with your statutory benefits and Medical Leave.
+
+#### **Q: What if I have already exhausted my FMLA (12 weeks) through parental leave this year?**
+
+- A: You may still qualify for medical leave if:
+  - You provide the proper doctor documentation
+  - You have not taken 12 weeks of medical leave (excluding parental leave) in the last 12 months
 
 ##### **Q: I just joined recently. Am I eligible for medical leave even though I haven’t been here for a year?**
 

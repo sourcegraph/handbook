@@ -281,6 +281,18 @@ A: Yes, however you are allowed a **total** of 16 weeeks per 12 months of parent
 
 #### FAQ for US-based Teammates
 
+#### **Q: What if I have questions about benefits such as PFL or FMLA, who should I reach out to?** (this only applies to US Employees)
+
+A: If the teammate is eligible for time off under the Family Medical Leave Act (FMLA) or any other applicable leave law in their jurisdiction, time off under this policy will run concurrent with that statutory leave. In addition, more robust medical certification forms may apply for FMLA and other statutory leaves. Your Tilt Leave Case Manager will walk you through this.
+
+#### **Q: Do I need to qualify for FMLA to have parental leave?**
+
+A: You do not need to qualify/be eligible for FMLA to take parental leave. However, if the teammate is eligible for FMLA (Family Medical Leave Act), it will run concurrently with both statutory and Sourcegraph Paid Parental leave.
+
+#### **Q: What if I exhausted my FMLA with a Medical Leave in the last 12 months?**
+
+A: You are still eligible to take parental leave for the birth or adoption of a child, as long as you have not exhausted the 16 weeks of parental leave in the last 12 months.
+
 ##### Q: When should I add my child to my insurance? _(this only applies to US Employees)_
 
 A: You will need to add your child within the first 30 days of their adoption date or birth date

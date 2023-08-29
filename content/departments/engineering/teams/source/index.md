@@ -8,7 +8,9 @@ The Source team owns everything related to
 - gitserver
 - repo-updater
 
-We provide value to Sourcegraph by ensuring Sourcegraph can reliably index code from any code hosts, with the proper authentication and authorization in place. For more details, read our [Source Department strategy](strategy.md)
+We provide value to Sourcegraph by ensuring all Sourcegraph features can reliably access code from any code host, with the proper authentication and authorization in place.
+
+For more details, read our [Source strategy & mission](strategy.md)
 
 ## Members
 
@@ -20,7 +22,7 @@ We provide value to Sourcegraph by ensuring Sourcegraph can reliably index code 
 
 ## Emergency Contact
 
-We run an internal support rotation (see [Support Rotation in Team Source](support_rotation.md)]).
+We run an internal support rotation (see [Support Rotation in Team Source](support_rotation.md)).
 
 You can page the person on support (and possibly wake them up in the middle of the night).
 
@@ -41,3 +43,9 @@ In Slack, use:
 ## Internal Processes
 
 - [Support rotation](support_rotation.md)
+
+## Onboarding
+
+- [Repositories sync walkthrough](https://drive.google.com/file/d/1pSkypoDBKOz32eFqEOZirsgLHNz0mvmr/view)
+- [Interaction between the repo-updater and gitserver](https://drive.google.com/file/d/1YkNCwQPsgWV98i2Y6qfM75EHA8lrjqgX/view)
+- [Repositories indexing/mirroring](https://drive.google.com/file/d/181pPnqQIHhUEvxvg7Dp5_K6yV24CbxaV/view)

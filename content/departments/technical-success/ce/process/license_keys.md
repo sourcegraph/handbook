@@ -20,7 +20,7 @@ This page covers the following related to license key management:
 
 For a new Sales-led trial, create a _new_ subscription. You will only use this for the trial. (Follow the instructions for [issuing a new license](#creating-a-new-license-key) from start to finish.).
 
-A note on Sales-led cloud (managed instance) trials: as part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../cloud/technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) we ask CE to create the license.
+A note on Sales-led cloud (managed instance) trials: as part of the Managed Instance creation process, the CE should create a license key for the new instance.
 
 ## Converting a Prospect to a New Customer
 
@@ -36,23 +36,26 @@ Note: if the prospect was a PLG Cloud trial customer, do _not_ reuse the `plg-tr
 
 > NOTE: For a new trial deployment, the admin should be sent a license key for the initial deployment setup and configuration process. This should be a short-term key (1-2 weeks) for a small number of users (5-10) until the full license key is provided later in the trial process.
 
-> NOTE: Starting with Sourcegraph 5.1+, we require each customer instance to have a unique site_id and license key pair.
+> NOTE: Starting with Sourcegraph 5.1+, we require each customer instance to have a unique site_id and license key pair. Each instance should also have it's own subscription created. See [internal licensing FAQ](https://docs.google.com/document/d/1xzlkJd3HXGLzB67N7o-9T1s1YXhc1LeGDdJyKDyqfbI) for more details.
 
 The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
 
 1. Sign in to sourcegraph.com.
-2. If the customer instance does not have an account yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
-3. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
-4. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). For new prospects during trial and / or a new customer, click **Create product subscription**. Search for the user you just created.
-5. Click **Generate new license manually**.
+1. If the customer instance does not have an account yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
+1. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
+1. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). Create a new subscription if this is a new customer. **Create a new subscription for each customer instance as well**. Click **Create product subscription**. Search for the user that was created above.
+1. Click **Generate new license manually**.
    1. Fill out the customer name in lowercase. Fill spaces with the `-` character.
    1. Fill out the Salesforce Subscription ID and Salesforce Opportunity ID based on the data for this customer/opportunity from Salesforce. Filling these fields will allow automated billing.
    1. Fill out the license subscription plan name. See the [plans](#plans) section.
    1. Fill out the licensed number of users. Note that if you added the `true-up` tag, the customer will be able to exceed this count, but administrators will see a warning.
-   1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
-   1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
-6. Click **Generate license**.
-7. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
+1. If this is a license key for a test/dev instance
+   1. consider what would be a good user limit on the license key. The recommendation is to keep it low to prevent abuse, e.g. 5 users.
+   1. Add `trial` and `instance:test` or `instance:whatever_name_is_appropriate` tags, so that we can identify which license keys are test and which are not
+1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
+1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
+1. Click **Generate license**.
+1. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
 ## Handling renewals or upgrades
 

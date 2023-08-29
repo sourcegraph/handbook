@@ -78,3 +78,18 @@ We will then confirm once its setup.
 Once all of this is done an pop-up should show up at the bottom of the channel that allows customers to create requests.
 
 They are also able to create ticket by reacting to a message with the 🎟️ emoji.
+
+# Disabling Foqal for a channel
+
+If a customer has Slack Support but downgrades or if a prospect does not buy Slack Support we need to disable the banner (if applicable) and remove the Support Agent application from the channel
+
+If banner (e.g. Question for Support at the bottom of channel) is enabled:
+
+1. Go to the channel and type `/agent`
+1. Under Channel Menu click `Channel Menu`
+1. Set Action to `Disabled`
+
+For both banner and banner-less channels:
+
+1. Go to the channel settings (top right) and under Integrations click `Support Agent`
+2. Click `Remove this app from #channel-name`

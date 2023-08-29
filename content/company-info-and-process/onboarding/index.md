@@ -5,7 +5,7 @@ Welcome to Sourcegraph! We are so excited you are part of the team or considerin
 This guide applies to all Teammates globally, including temporary and part-time contractors. Please reach out to the People Team (people-team@sourcegraph.com) with questions.
 
 - Resources for Teammates (<-- you are here)
-- [Resources for Managers](onboarding-for-hiring-managers.md)
+- [Resources for Managers](../../departments/people-talent/onboarding-for-hiring-managers.md)
 - [Resources for People Team](../../departments/people-talent/people-ops/tools/internal-onboarding.md)
 
 ## Ways a Teammate can join us
@@ -134,7 +134,7 @@ Creating a positive and successful onboarding experience for our teammates is a 
 
 ### Onboarding Feedback
 
-We welcome feedback about how we can improve our onboarding process for future new hires. Here are some of the ways we [collect onboarding feedback](../onboarding/onboarding-reviews.md).
+We welcome feedback about how we can improve our onboarding process for future new hires. Here are some of the ways we collect onboarding feedback:
 
 **Onboarding Feedback Milestones**
 
@@ -180,5 +180,5 @@ Many teams also have their own team specific onboarding pages that are important
 - [Engineering Onboarding](../../departments/engineering/dev/onboarding/index.md)
 - [Security Onboarding](../../departments/security/security-onboarding.md#security-onboarding)
 - [People & Talent Onboarding](../../departments/people-talent/onboarding/index.md)
-- [Product Onboarding](../../departments/engineering/product/onboarding/index.md)
+- [Product Onboarding](../../departments/product/onboarding/index.md)
 - [Sales Onboarding](../../departments/sales/onboarding/index.md#sales-team-onboarding)

@@ -167,12 +167,8 @@ role:
     definition: A captain of releasing the product, drives releases, gathers and informs others about the release, helps test the release, fixes and discovers issues in the release before it goes out.
   - term: DevRel
     definition: Developer relations, they post on Hacker News, Reddit, and Twitter about how cool we are. They give talks and go to conferences
-  - term: DevExp
-    definition: Developer experience, improving lives of devs working on sourcegraph
-  - term: devx
-    definition: Developer experience, improving lives of devs working on sourcegraph
-  - term: dx
-    definition: Developer experience, improving lives of devs working on sourcegraph
+  - term: DevInfra
+    definition: Developer infrastructure, improving lives of devs working on sourcegraph
   - term: People ops
     definition: The HR department, scheduling interviews etc.
   - term: Biz ops

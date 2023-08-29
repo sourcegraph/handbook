@@ -4,20 +4,23 @@
 
 We segment our customers into [three discrete tiers](../../../../strategy-goals/strategy/index.md#market-segmentation). This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using both the estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
 
-### Tech Nurtured
+### Scaled Success Program
 
-Our Tech Nurtured function will serve customers who do not qualify for a dedicated Technical Advisor. This motion includes:
+Our Scaled Success program serves customers who do not qualify for a dedicated Technical Advisor in digital-first, tech-nurtured manner. This motion includes:
 
-- An onboarding email to the instance admin detailing how to properly configure their instance, an introduction to our Discord community and our Support team email, and pointing them to our existing onboarding materials.
-- A second email to the instance admin to be forwarded directly to the new end users. This email will include the training materials needed for an end user to ramp up on Sourcegraph.
-- Monthly usage recap emails to the instance admin detailing feature usage.
-- Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade.
+- Onboarding:
+  - Admin: emails detailing how to properly configure their instance, an introduction to our Discord community and our Support team email, and pointing them to our existing onboarding materials.
+  - End users: sent to the account point of contact, to be forwarded directly to the new end users. This email will include the training materials needed for an end user to ramp up on Sourcegraph.
+- Ongoing Communication:
+  - Monthly usage recap emails to the instance admin detailing feature usage.
+  - Release notices and product updates.
+  - Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade.
 
-We are utilizing Vitally to target and send our Tech Nurtured communications.
+We are utilizing Vitally to target and send all communications.
 
 #### V2+
 
-This motion is being iterated on quickly. Immediate next steps to improve the experience are:
+Our Scaled Success program is being iterated on quickly. Immediate next steps to improve the experience are:
 
 - Dedicated training video playlists for every Sourcegraph Code Search and Cody feature
 
@@ -25,7 +28,33 @@ This motion is being iterated on quickly. Immediate next steps to improve the ex
 
 ### Vitally
 
-We use Vitally to stay organized internally around our customers. Your account should be able to look at just your book of business or the entire customer base.
+We use Vitally to stay organized internally around our customers. This is the central tool and source of truth for TAs across their customers and book of business. TAs should use Vitally to plan and organize their strategy and activities across their customers.
+
+Vitally calculates our customer health score and is the mechanism by which we facilitate:
+
+- pre-to-post sales handoff from CE to TA
+- scaled customer success communications
+- our renewal process
+- quarterly success plans for customer goals & expected outcomes
+- the lighthouse program for corrective action on accounts
+
+This [Dashboard](https://sourcegraph.vitally.io/work/team/dashboards/eee503ef-886f-4eba-b416-866f0aef71bb) can be used to see the current state of these traits for your accounts all in one spot.
+
+##### Other Helpful Vitally Dashboards
+
+###### Easy Book Of Business Breakdown
+
+- https://sourcegraph.vitally.io/views/d3aceeb1-143d-48b9-afef-7fb0c679cb9a
+- Use the CSM filter at the bottom right to pick the TA
+
+###### List of Health Score Category Changes
+
+- https://sourcegraph.vitally.io/views/99ca793f-c005-4e50-b842-71490f52013a
+- Gives you the Account that changed, the date it changes, it’s current green/yellow/red status and it’s old green/yellow/red status
+
+###### Other helpful links and tools
+
+- Make sure you have enabled the Gmail Integration with Vitaly - [Link](https://docs.vitally.io/pushing-data-to-vitally/integrations/gmail) and your SFDC Gmail connector
 
 ### Salesforce
 
@@ -45,7 +74,7 @@ Team meetings are held weekly.
 
 Prior to taking time off, TAs should:
 
-1. [Log time off request in Roots PTO](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
+1. [Log time off request in Deel PTO](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
 1. Work with their manager and peers to create a coverage plan
 1. Notify their customers through the appropriate channel of their upcoming OOO
 1. Update their slack status accordingly with OOO dates indicated

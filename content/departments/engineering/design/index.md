@@ -136,4 +136,4 @@ To include an issue on the design board:
 
 - [Design career framework](./career-development.md)
 - [Design team onboarding](./onboarding/index.md)
-- [Interview process](../product/roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
+- [Interview process](../../product/roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))

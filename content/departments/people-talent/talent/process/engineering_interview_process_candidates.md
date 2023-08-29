@@ -279,16 +279,16 @@ are working on this piece of code?
 
 - **How to prepare:** Please complete these steps prior to the interview:
 
-  - Create sourcegraph.com account and an access token for it
+  - Create sourcegraph.com account and an access token for it, so you can start using Cody in VSCode
   - Have a working VS Code installation on your local machine
-  - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
-  - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
+  - git clone the Sourcegraph Cody repository: https://github.com/sourcegraph/cody
+  - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/cody/blob/main/vscode/CONTRIBUTING.md
   - If you get stuck, we will go over it on the call
   - During the call, you'll get invited by the interviewer to a shared Slack channel in which you can ask questions
 
 - **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
-  Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Acody%2Fvscode) as possible source of inspiration.
+  Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/cody/issues?q=is%3Aopen+is%3Aissue+label%3Aclients%2Fvscode) as possible source of inspiration.
 
   You can ask questions in a shared Slack chat.
 
@@ -352,7 +352,7 @@ Finally, you'll walk us through your solution in a 45-minute review session. Beg
 
 - **Interviewers:** Two engineers on the team/org they would manage
 
-- **Duration:** 60-minutes.
+- **Duration:** 45-60-minutes.
 
 - **Details:** The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
 
@@ -360,6 +360,6 @@ Finally, you'll walk us through your solution in a 45-minute review session. Beg
 
 - **Interviewers:** Two cross-functional peers
 
-- **Duration:** 60-minutes.
+- **Duration:** 30-60-minutes.
 
 - **Details:** This interview will be focused on domain knowledge, functionally-specific depth, and breadth. The purpose of this interview is to assess whether the candidate will work well with teammates outside of engineering to achieve what is in the best interest of Sourcegraph and our customers.

@@ -66,7 +66,7 @@ Factor in as much time to spend together during the trip and leave room for solo
 
 #### Engineering team travel
 
-Individuals in the engineering org are responsible for working with their direct Managers to determine how they will use their team travel budget. It is up to the individual and their Manager to decide if they would like to join their job fair team trip or their original team trip.
+Individuals in the engineering org are responsible for working with their direct Managers to determine how they will use their team travel budget. It is up to the individual and their Manager to decide if they would like to join their product planning team trip or their original team trip.
 
 ### 3. Business/customer travel
 

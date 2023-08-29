@@ -2,7 +2,7 @@
 
 The following table documents the ownership of our product and tech stack.
 
-If you see an area that is missing, [figure out](../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
+If you see an area that is missing, [figure out](../../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
 ## [Batch Changes](../../teams/batch-changes/index.md)
 
@@ -129,7 +129,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - sourcegraph/learn
 - sourcegraph/docsite
 
-## [Delivery](../../teams/delivery/index.md) (and Delivery Tiger Team)
+## [Delivery](../../teams/release/index.md)
 
 ### General
 
@@ -156,7 +156,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - [sourcegraph/server](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/server)
 - [sourcegraph/worker](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/worker)
 
-## [Developer Experience](../../teams/dev-experience/index.md)
+## [Developer Infrastructure](../../teams/devinfra/index.md)
 
 ### General
 
@@ -371,4 +371,4 @@ OWNERS files and CODENOTIFY files use the same syntax, and notifications for bot
 - It is preferred to list a team (e.g., @sourcegraph/frontend-platform) rather than individuals.
 - If there is an individual with expertise in a given part of the code, who is not on the owning team (e.g., Thorsten Ball with sg), that person should be listed in OWNERS.
 
-For questions about our use of owners files, please reach out on #dev-experience.
+For questions about our use of owners files, please reach out on #discuss-dev-experience.

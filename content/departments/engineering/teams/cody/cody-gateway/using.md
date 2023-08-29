@@ -21,7 +21,12 @@ Access to the production Cody Gateway instance can be provisioned with the follo
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. Under "Cody services":
    1. Enable access to Cody Gateway
-   2. If desired, configure a custom rate limit for the desired features
+   2. If desired, configure custom rate limits to allow more/less usage
+   3. **Customers can only use the models listed under "Cody services"**. To configure other models:
+      1. Adding the `gpt` tag to the latest license will enable access to all OpenAI GPT models.
+      2. Adding a custom rate limit allows you to configure other models to allow the customer to use.
+
+Once access is provisioned (i.e. enabled via Cody Gateway), the Sourcegraph instance must be [configured](#configuration) as well.
 
 > WARNING: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
 
@@ -31,12 +36,14 @@ Access to the production Cody Gateway instance can be provisioned with the follo
 
 ## Configuration
 
-> WARNING: **For Sourcegraph Cloud customers, please use the [Cody enablement issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fenable-cody-request&projects=&template=managed-instance-enable-cody.md&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D) to request configuration** instead of applying configuration changes yourself or asking the customer to do so.
+> WARNING: **For Sourcegraph Cloud customers, please use the [Cody enablement issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fenable-cody-request&projects=&template=managed-instance-configure-cody.yml&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D) to request configuration** instead of applying configuration changes yourself or asking the customer to do so.
+> If using custom models, please ensure [the subscription has the prerequisite access to the desired models](#provisioning-access).
 
 First, [provision access](#provisioning-access) for the customer.
-Once access has been provisioned, please point them to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/cody_gateway) to enable Cody and self-serve configuration for completions and embeddings.
+Once access has been provisioned, for self-hosted customers please point them to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/explanations/cody_gateway) to enable Cody and self-serve configuration for completions and embeddings.
 
 > NOTE: The generated access token from [provisioning access](#provisioning-access) is generally not required - tokens are automatically generated based on the Sourcegraph instance's license token.
+> In site configuration, we recommend _not_ setting an access token explicitly when using Cody Gateway to take advantage of automatic defaults.
 
 ## Analyzing usage
 

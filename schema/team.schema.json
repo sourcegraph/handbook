@@ -9,6 +9,9 @@
       "reports_to": {
         "type": "string"
       },
+      "tech_lead": {
+        "type": "boolean"
+      },
       "manager_role_slug": {
         "type": "string"
       },

@@ -27,7 +27,7 @@ Read about Sales onboarding Mentor program:
   - [Sourcegraph handbook](../../../index.md) intro
 - [CEO](../../../team/ceo/index.md)
   - [Values](../../../company-info-and-process/values/index.md)
-- [Product](../../engineering/product/index.md)
+- [Product](../../product/index.md)
   - [Personas](../../marketing/process/personas.md)
   - [Products](https://about.sourcegraph.com/product)
 - Read/watch
@@ -42,7 +42,7 @@ Read about Sales onboarding Mentor program:
 - [Marketing](../../marketing/index.md)
 - [Sales](index.md)
 - [Data and Looker onboarding](data_onboarding.md)
-- [Delivery team](../../engineering/teams/delivery/index.md)
+- [Release team](../../engineering/teams/release/index.md)
 - Check the Sales team onboarding [quiz](quiz.md)
 
 ## Key targets for onboarding reps

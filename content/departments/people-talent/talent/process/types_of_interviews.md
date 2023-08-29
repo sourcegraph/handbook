@@ -461,32 +461,6 @@ You'll meet with two individual contributors on the TA team to learn about how y
 - Duration: 60-minutes.
 - During this stage in the interview process, we try to get a sense of your approach and thought process about curriculum and writing. You will be given a curriculum and short tutorial draft to review for the first 30 minutes of the session, after which you and Lisa will take the last 30 minutes to go through your thoughts about that approach and talk about your feedback and what you would add.
 
-### Product Marketing Manager working session
-
-- Duration: 60-minutes.
-- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
-- First, we'd like to cover some general stuff:
-  - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me, etc.)
-- Then we'd like to hear, at a high level, how you would approach putting together a GTM plan for the [TBD Product] GA launch.
-- This could easily take several hours, but we're just looking for a 60-min conversation total (including the general stuff above). _You don't need to put together a full plan!_
-- Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
-- Feel free to reach out to Andy with any questions.
-
-### Senior Customer Marketing Manager working session
-
-- Duration: 60-minutes.
-- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals.
-
-  - Part 1: Driving engagement with our Customer Advisory Board members
-    The first part of the meeting will be with Andy Schumeister (Director of Product Marketing), Victoria Yunger (Product Marketing Lead, Enterprise), and Alex Isken (Product Marketing Manager, Cloud).
-  - First, you’ll share your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-  - Then, we’d like to hear your ideas for how we can drive engagement with our Customer Advisory Board members in-between meetings in order to provide even more value for members.
-  - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're also looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation. You’ll also have an opportunity to ask the team questions during this portion.
-
-  - Part 2: Setting you up for success
-  - Then, you’ll meet 1:1 with Andy where you’ll have a chance to discuss the role and share what you need to be successful: tools, resources/special budget for anything, specific commitments from other teams, anything from Andy, etc.)
-
 ### Manager of Internal Communications working session
 
 - Duration: 60-minutes.
@@ -502,6 +476,53 @@ You'll meet with two individual contributors on the TA team to learn about how y
   - We’re updating the company travel policy from one individual trip per year anywhere in the world to collaborate with a coworker, to a regional meetup trip (west coast NA, east coast NA, EMEA)
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd start off content planning. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Amie (amie.rotherham@sourcegraph.com) with any questions.
+
+### Developer Relations Working Session
+
+**Context**
+
+Sourcegraph’s mission is to make it so everyone codes. Sourcegraph is a code AI platform with two primary products Cody and Code Search.
+
+- **Cody**: Code AI that writes code and answers questions for you by reading your entire codebase and the code graph.
+- **Code Search**: Code search, plus features such as batch changes, code insights, and code monitoring.
+
+As a Sourcegraph Developer Advocate, you're the link between Sourcegraph and developers worldwide. You'll champion Cody and Code Search, collect feedback, and cultivate relationships, with the ultimate goal of driving wider adoption of Cody and Code Search.
+
+**Presentation**
+
+Present your game plan for your contribution to the Sourcegraph 5.0 launch in a 20-25 minute presentation. The game plan should include:
+
+Strategy:
+
+- What type of content would you produce (blog post, video, talk, tweet thread, livestream, sample app, etc.) and why.
+
+Content Blueprint:
+
+- If you would create multiple types of content, choose one and create the concrete message for that content. This should contain the actual copy of what you would say.
+- If a blog post, it's the first paragraph(s) that get across the hook and main idea plus an outline of the rest of the post.
+- If a video, it's the first 15-30 seconds of monologue or dialog plus an outline of the rest of the video.
+
+Impact:
+
+- How would you promote this content to the developer audience for maximum impact?
+- What is the desired outcome of this content (engagement, activation, awareness, etc.)
+
+Performance Metrics:
+
+- Which KPIs would you track to validate success, and what would be your goal for that KPI?
+
+You can reference the [5.0 release post](https://about.sourcegraph.com/blog/release/5.0) or any other material you find online. Feel free to be creative and original—the best presentations often are.
+
+**Additional Resources**
+
+Here are a couple of additional resources to help you.
+
+- [Sourcegraph Handbook](../../../../index.md)
+- [Cody VS Code Extension](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
+- [Product Documentation](https://docs.sourcegraph.com/)
+- [Company Blog](https://about.sourcegraph.com/blog)
+- [YouTube Channel](https://www.youtube.com/@Sourcegraph)
+- [Github Organization](https://github.com/sourcegraph)
 
 ## People Operations
 
@@ -555,7 +576,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 #### Async writing project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to see how you communicate and think about product problems.
 
@@ -610,7 +631,7 @@ This interview will include a PM and designer from our team who have been focusi
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the PR-FAQ.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the PR-FAQ.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -620,21 +641,67 @@ This interview will include a PM and designer from our team who have been focusi
 - Duration: 30 min
 - Details: In this interview, you will meet with the Engineering Manager from the team you’re interviewing for, your counterpart in the PM-EM responsibilities. We will be evaluating how you collaborate and work within a team, specifically how you partner with Engineering to drive the product vision of your team. We will focus on your technical background, as you will need to be able to discuss the technical aspects of our product with customers and communicate feedback and technical insight to the team. It is important that you demonstrate enthusiasm and understanding for the product and problem space, identifying and communicating the pain that Sourcegraph solves for developers.
 
+### Product Marketing
+
+#### Product Marketing Working Session
+
+The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the PMM role and goals. This is not meant to be stressful or require excessive preparation.
+
+For this session, we will walk through the process of planning a product launch together. In advance of this session, we ask that you:
+
+- **Consider the product launch prompt and gather ideas for how you would plan this launch.**
+- **Bring a document with those ideas for launch activities. We will use this as a working document throughout the session.**
+
+**The Product**
+
+Today, Sourcegraph offers 2 products, each with separate SKUs:
+
+- Code Search, a tool for finding and fixing code across an enterprise-scale codebase.
+- Cody, a powerful AI coding assistant to help engineers write & fix code quickly.
+
+Today, one barrier to user adoption for the Code Search product is it’s query language, which can be difficult to learn. Next quarter, Sourcegraph will release a new feature as part of the Code Search product: **natural language search**. This will allow users to search their codebase with human language queries (e.g. “Where is log4j v2.0 used across my codebase?”).
+
+Pricing is still being determined for this new feature. It is possible it will be an upsell for existing Code Search buyers, but we’re also open to including it as part of the base Code Search SKU at no charge.
+
+**Launch preparation**
+
+Imagine you’re the PMM supporting the natural language search. What would your launch plan look like and what would you need to be successful? Please prepare a document with:
+
+1. A proposal for messaging to use for this launch (a short 2-3 sentence elevator pitch for the feature is ideal).
+2. A list of launch activities you would like to plan for this launch.
+3. Your general plan for sales enablement to make this launch successful.
+4. Thoughts on anything else you will need to be successful in this launch.
+
+Some things to consider:
+
+- What, if any, top-of-funnel activities would you prioritize to reach the dev community?
+- What, if any, activities would you plan to reach existing customers?
+- How might sales enablement look different depending on whether this feature is free or not?
+- What other resources, cross-collaboration, tools, etc. do you need to be successful?
+
+As a reference point, we recently had a product launch in June (Sourcegraph 5.1). The launch included updates to both Code Search and Cody. Here are some materials from that launch:
+
+- [Cody June 2023 release: Better codegen, more recipes, more context, more editors](https://about.sourcegraph.com/blog/cody-in-sourcegraph-5-1)
+- [Sourcegraph 5.1 release](https://about.sourcegraph.com/blog/release/5.1)
+- [Cody 5.1 release video](https://youtu.be/o5eB8J2HvAk)
+
+Please don't go overboard on preparation, plans, or detail. A simple Google Doc outline is ideal, and we will use that to go through your ideas together. We intend this to be a casual back and forth conversation, not a formal presentation. Also, feel free to make any assumptions about the hypothetical product and include them in your document.
+
 ## Design
 
 ### Product Designer
 
 #### Portfolio review
 
-- Interviewer(s): [Two Product Designers](../../../engineering/product/index.md).
+- Interviewer(s): [Two Product Designers](../../../product/index.md).
 - Duration: 1 hour
 - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
 
-#### Design exercise
+#### Design working session
 
-- Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
+- Interviewer(s): [Product Manager, Product Designers](../../../product/index.md), and a Frontend engineer.
 - Duration: 1.5 hours
-- Details: The interview simulates a real-life design collaboration as closely as possible. The goal is to build something together and to understand the way you think about design in practice. We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
+- Details: The interview simulates a real-life design collaboration as closely as possible. We'll brief you on a project we've already completed and then you'll lead us in some early ideation. Finally, we'll discuss how you would proceed with the project if it were a real effort. Our goal is to give you an introduction to the types of problems you'll be solving and the people you'll be working with. On our end, we'd like to understand how you think about design in practice. Please come prepared to work in your favorite design tool for wireframes and low-fidelity mockups. You can read more about the session [here](../../../product/roles/interviews/product_designer/pd_design_working_session.md).
 
 ### Product Design Intern
 
@@ -648,13 +715,13 @@ This interview will include a PM and designer from our team who have been focusi
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 

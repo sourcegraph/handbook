@@ -1,95 +1,65 @@
-# Software development life cycle
+## Software Product Lifecycle
 
-<span class="badge badge-note">SOC2/CI-98</span>
+<!-- The content of this page relates to SOC2, please ask a review from @doragrgic when making non trivial changes. -->
 
-> NOTE: Please follow [this guidance](#contributing-to-this-page) on how to contribute to this page.
+<span class="badge badge-note">SOC2/IC-98</span>
 
-This document explains the workflow for driving changes on the Sourcegraph software application.
+Each phase of the software product lifecycle has a label we use to communicate
+to our customers a) the quality we're aiming for and b) the support we're able
+to provide. These labels are assigned to major features of our software
+products, e.g. Batch Changes Beta, but prior to v1, an entire product will
+receive this label, e.g. Cody Beta.
 
-## Overview
+These labels are assigned subjectively, but not arbitrarily, using the
+guidelines below:
 
-Sourcegraph uses GitHub issues to track and drive changes to its application. They are the single source of truth, and are structured as following:
+- **Early Access Program (EAP)**
+  - Shared privately, most often with a small set of NDA's customers
+  - Super early functionality
+  - Can be an entire product or a new feature of an existing product
+  - Not for production workloads
+  - Some hand-holding from the product team and DevRel
+  - Unsupported
+  - Goals
+    - Does this idea have potential?
+    - What would make it awesome?
+- **Experimental**
+  - Shared publicly
+  - Super early functionality
+  - Unsupported
+  - Goals
+    - Does this idea have potential?
+    - What would make it awesome?
+- **Beta (n)**
+  - Shared publicly (although private betas are sometimes useful)
+  - Feature complete (although it's sometimes useful split a product's functionality into multiple betas to get feedback on Beta 1 features while still developing Beta 2 features, for example)
+  - Early docs and samples
+  - Best effort support
+  - No guarantee of stability from beta to beta
+  - Goals
+    - Provide “bake time” on the way to GA
+    - Gather feedback from real customers applying it to real workloads
+    - Fix bugs
+    - Optimize performance
+    - Train sales and support staff
+    - Finalize the docs
+- **General Availability (GA)**
+  - Publicly available
+  - Production workload ready
+  - Fully supported using industry best practices for deprecation as necessary
+  - Performance optimized (both latency and scale)
+  - Blocking bugs fixed
+  - Contains no new features that didn't get “bake time” (to the best of our ability)
+  - Scenario-complete docs + samples
+  - Sales and support staff trained and ready to go
 
-- Roadmap issues
-  - Tracking issues
-    - Standard issues
+## Versions
 
-### Roadmap items
+Each version of a product represents a label to communicate its maturity and
+breadth of applicability:
 
-At the very top, Sourcegraph uses roadmap issues, found in the [roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
-Each individual issue is tagged with their owning organization, owning team and assignees, who are in charge of updating the issue during the quarter.
-
-A roadmap issue contains the following sections:
-
-- Problem definition
-- Measure of success
-- Solution summary
-- What specific customers are we iterating on the problem with?
-- Impact on use cases
-- Delivery plan
-
-The purpose of these sections is make the objectives definition and understanding the current status clear for every teammate, regardless of their role.
-
-### Tracking issues
-
-A tracking issue is a GitHub issue that captures the planned and on-going work of a team’s milestone, project, RFC, goal or anything else of the sort and are mentioned in roadmap items they relate to. This artifact is a medium used for planning, progress check-ins and stakeholder communication.
-
-A [detailed guide about tracking issues](dev/process/tracking_issues.md) is available.
-
-### Standard issues
-
-A standard issue captures a task, a bug or an explocation owned by a team (assigned through a label of the form `team/NAME`). Other expectations toward the issue content and labels are up to its owning team.
-
-A [detailed page about issues](working-with-issues.md) is available.
-
-## Additional artefacts
-
-To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues:
-
-- [PR-FAQ](../engineering/job-fair.md) to communicate high-level product problems that need to be solved.
-- [Request For Comments](../../company-info-and-process/communication/rfcs/index.md) to communicate around specific problems and make decisions.
-
-## Workflow
-
-The flow starts with a GitHub issue that will be the single source of truth for the initiative and will be referenced by all produced artefacts.
-
-### Design
-
-See [Design process](design/design_process.md).
-
-### Implementation
-
-With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](dev/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
-
-Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document or RFC, though an Engineering Manager or Engineer can also lead the work.
-
-If complex problems surface during this step, an RFC can be created to frame the discussions around that particular problem to provide an adequate solution.
-
-### Verification and Testing
-
-The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. The solution is scrutized to evaluate if the requirements stated in the design phase are met.
-
-Security is evaluated through automated [vulnerability scanning and SAST](../security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
-
-If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
-
-If the change is a feature, it may initially only be available behind a [feature flag](dev/tools/continuous_releasability.md#a-feature-flag-is-required-for-every-new-feature) in order to provide a mechanism to disable it if needed, as well as ensure that the continuous releasability contract is maintained.
-
-### Deployments
-
-Sourcegraph uses two different mechanisms to deploy its changes in production:
-
-- [Continuous deployments](dev/index.md#sourcegraph-deployments-and-other-developer-test-instances) on soucegraph.com
-- [Release-based model](dev/process/releases/index.md) for [managed instances](../cloud/index.md).
-
-### Maintenance and monitoring
-
-The Product Manager and the owning team are in charge of ensuring that the newly introduced changes are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn’t met, they write corrective changes to fix those issues.
-
-## Team specifics
-
-Optionally, teams can specialize this document to further detail their own process, as long as it is compatible with the default SDLC covered in this document by creating a `sdlc.md` page under their own folder and linking toward it in this section, below this paragraph.
-
-## Contributing to this page
-
-Changes to this pages impacts all teams and therefore must be reviewed by organization leaders as well as the Developer Experience team.
+- The **major versions** are owned by marketing to communicate a jump forward,
+  often as part of a launch event
+- The **minor versions and revisions** are owned by the product teams to
+  communicate minor changes, new features, bug fixes, etc. at the team's
+  discretion

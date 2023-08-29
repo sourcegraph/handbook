@@ -30,7 +30,7 @@ Examples of typical tasks and responsibilities of a CEO Shadow:
 
 ## Past CEO Shadow experiences
 
-Are you curious about how other shadow's experiences? Hear from them yourself about their experiences and takeaways.
+Are you curious about other shadows' experiences? Read about their experiences and takeaways below.
 
 - [Rok Novosel](https://docs.google.com/document/d/1X-kPQQqemgP7cs7nO-5z0BYY2v8a8ZBoQtVh2Ar4GOs/edit): Our first international CEO shadow!
 - [Alex Isken](https://docs.google.com/document/d/1aCRrBq54_wRnd1zrWdCJv_IlykWMF-T_4UsaxBriAN8/edit#): 4.0 planning and some other interesting experiences.
@@ -38,6 +38,8 @@ Are you curious about how other shadow's experiences? Hear from them yourself ab
 - Diego Comas: My CEO shadow experience [blog](https://docs.google.com/document/d/1CkYiIPR1NMjTXHUIbE2pcn2im6x4O81A5M6F7cjTIQA/edit?usp=drive_link) and [video](https://drive.google.com/file/d/1lcpj291eu4SexYSecfmVVYSSxH82KHts/view?usp=drive_link)
 - [Marija Petrovic](https://docs.google.com/document/d/1_BrCUWpWNmcbobV6j5aUTlY_9gaaLsPj4zsa9yaVrV8/edit?usp=drive_link): CEO shadow recap
 - [Todd Herskovitz](https://docs.google.com/document/d/1oza4d1sUS8IzXPfTMC8o47IgDQ5EcmOnD15zLUfslQw/edit?usp=drive_link): Key takeaways and feedback
+- [Marc LeBlanc](https://docs.google.com/document/d/1kSK-nzL2VJreBViLi5ys1TCX8TE7JIASUH8IwTreOnI/edit?usp=sharing): Adventures of a CEO shadow
+- [Eric Fritz](https://docs.google.com/document/d/1lcn9jllAV82vmH-Flr6itLoshdYViX07ualnMJZdizE/edit?usp=sharing):A Glimpse at the Top
 
 ## Eligibility & Participation
 
@@ -109,7 +111,7 @@ Part of your participation as a CEO Shadow is to create a blog / vlog post about
 
 ### When is your content due?
 
-Your content must be completed by the Friday following the conmpletion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
+Your content must be completed by the Friday following the completion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
 
 ### How is content submitted?
 

@@ -6,7 +6,7 @@
 - [Cody FAQ](../../../departments/engineering/teams/cody/about-cody-faq.md)
 - [Cody stories](https://docs.google.com/document/d/1LD6t01TdxPT1LSbzmS2FN_a8tifhBiUOn9YpzJKORWo)
 - [Board](https://github.com/orgs/sourcegraph/projects/331)
-- [Job fair tracker](https://github.com/orgs/sourcegraph/projects/302/views/18?filterQuery=type%3ACody)
+- [Project tracker](https://github.com/orgs/sourcegraph/projects/302/views/18?filterQuery=type%3ACody)
 
 ## Vision
 

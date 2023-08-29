@@ -48,7 +48,9 @@ Use cases (tested scenarios):
 
 Backup and restore uses [native GKE mechanism](https://cloud.google.com/kubernetes-engine/docs/add-on/backup-for-gke/concepts/backup-for-gke).
 
+1. [Follow break glass process](./break_glass_process.md)
 1. [List available backups](#list-backups)
+1. [Extract the instance from control plane]
 1. Assess the damage
    1. [GKE cluster is gone](#restore-cluster-and-applications)
    1. [The namespace is gone](#restore-the-full-namespace)
