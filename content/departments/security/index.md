@@ -79,28 +79,28 @@ In an effort to work closely with our teammates and shift security focus more in
 
 - **Who is the ambassador for my team?**
 
-  |      Division     	|       Org      	|      Team     	| Security Ambassador 	|
-|:-----------------:	|:--------------:	|:-------------:	|:-------------------:	|
-| Search & Platform 	|    Platform    	| Source        	|                     	|
-| Search & Platform 	|    Platform    	| Search        	|                     	|
-| Search & Platform 	|    Platform    	| Graph         	|                     	|
-| Search & Platform 	|    Platform    	| APIs          	|                     	|
-| Search & Platform 	|  Search Suite  	| Admin         	|                     	|
-| Search & Platform 	|  Search Suite  	| Search UX     	|                     	|
-| Search & Platform 	|  Search Suite  	| Mass Changes  	|                     	|
-| Search & Platform 	|  Search Suite  	| Cody Web      	|                     	|
-| Search & Platform 	|  Search Suite  	| Social        	|                     	|
-| Cody & AI         	| Infrastructure 	| Core Services 	|                     	|
-| Cody & AI         	| Cody & AI      	| Dev Infra     	|                     	|
-| Cody & AI         	| Cody & AI      	| Release       	|                     	|
-| Cody & AI         	| Cody & AI      	| Cloud Ops     	|                     	|
-| Cody & AI         	| Cody           	| Clients       	|                     	|
-| Cody & AI         	| Cody           	| Context       	|                     	|
-| Cody & AI         	| Cody           	| PLG           	|                     	|
-| Cody & AI         	| Cody           	| Strat         	|                     	|
-| Cody & AI         	| AI             	| AI            	|                     	|
-| Cody & AI         	| ML Infra       	| Experiments   	|                     	|
-| Cody & AI         	| ML Infra       	| Benchmarks    	|                     	|
+  |     Division      |      Org       |     Team      | Security Ambassador |
+  | :---------------: | :------------: | :-----------: | :-----------------: |
+  | Search & Platform |    Platform    |    Source     |                     |
+  | Search & Platform |    Platform    |    Search     |                     |
+  | Search & Platform |    Platform    |     Graph     |                     |
+  | Search & Platform |    Platform    |     APIs      |                     |
+  | Search & Platform |  Search Suite  |     Admin     |                     |
+  | Search & Platform |  Search Suite  |   Search UX   |                     |
+  | Search & Platform |  Search Suite  | Mass Changes  |                     |
+  | Search & Platform |  Search Suite  |   Cody Web    |                     |
+  | Search & Platform |  Search Suite  |    Social     |                     |
+  |     Cody & AI     | Infrastructure | Core Services |                     |
+  |     Cody & AI     |   Cody & AI    |   Dev Infra   |                     |
+  |     Cody & AI     |   Cody & AI    |    Release    |                     |
+  |     Cody & AI     |   Cody & AI    |   Cloud Ops   |                     |
+  |     Cody & AI     |      Cody      |    Clients    |                     |
+  |     Cody & AI     |      Cody      |    Context    |                     |
+  |     Cody & AI     |      Cody      |      PLG      |                     |
+  |     Cody & AI     |      Cody      |     Strat     |                     |
+  |     Cody & AI     |       AI       |      AI       |                     |
+  |     Cody & AI     |    ML Infra    |  Experiments  |                     |
+  |     Cody & AI     |    ML Infra    |  Benchmarks   |                     |
 
 ---
 
