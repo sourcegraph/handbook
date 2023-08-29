@@ -78,92 +78,29 @@ In an effort to work closely with our teammates and shift security focus more in
   - Absolutely not. You are welcome to reach out to anyone in the security team at anytime. We encourage everyone to use the #security slack channel.
 
 - **Who is the ambassador for my team?**
-  <table>
-  <tr>
-   <td><strong>Division/Team</strong>
-   </td>
-   <td><strong>Assignee</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Search Core
-   </td>
-   <td>Vincent
-   </td>
-  </tr>
-  <tr>
-   <td>Search Product
-   </td>
-   <td>Vincent
-   </td>
-  </tr>
-  <tr>
-   <td>Code intelligence
-   </td>
-   <td>André
-   </td>
-  </tr>
-  <tr>
-   <td>Batch Changes
-   </td>
-   <td>Vincent
-   </td>
-  </tr>
-  <tr>
-   <td>Cloud
-   </td>
-   <td>André
-   </td>
-  </tr>
-  <tr>
-   <td>Code insight
-   </td>
-   <td>André
-   </td>
-  </tr>
-  <tr>
-   <td>Repo management
-   </td>
-   <td>Vincent
-   </td>
-  </tr>
-  <tr>
-   <td>Delivery
-   </td>
-   <td>Mohammad
-   </td>
-  </tr>
-  <tr>
-   <td>Dev Experience
-   </td>
-   <td>Mohammad
-   </td>
-  </tr>
-  <tr>
-   <td>Front End Platform
-   </td>
-   <td>Vincent
-   </td>
-  </tr>
-  <tr>
-   <td>Growth and Integrations
-   </td>
-   <td>Feroz
-   </td>
-  </tr>
-  <tr>
-   <td>IAM
-   </td>
-   <td>Feroz
-   </td>
-  </tr>
-   <td>Tech Ops
-   </td>
-   <td>Mohammad
-   </td>
-  </tr>
-  <tr>
-  </table>
+
+  |      Division     	|       Org      	|      Team     	| Security Ambassador 	|
+|:-----------------:	|:--------------:	|:-------------:	|:-------------------:	|
+| Search & Platform 	|    Platform    	| Source        	|                     	|
+| Search & Platform 	|    Platform    	| Search        	|                     	|
+| Search & Platform 	|    Platform    	| Graph         	|                     	|
+| Search & Platform 	|    Platform    	| APIs          	|                     	|
+| Search & Platform 	|  Search Suite  	| Admin         	|                     	|
+| Search & Platform 	|  Search Suite  	| Search UX     	|                     	|
+| Search & Platform 	|  Search Suite  	| Mass Changes  	|                     	|
+| Search & Platform 	|  Search Suite  	| Cody Web      	|                     	|
+| Search & Platform 	|  Search Suite  	| Social        	|                     	|
+| Cody & AI         	| Infrastructure 	| Core Services 	|                     	|
+| Cody & AI         	| Cody & AI      	| Dev Infra     	|                     	|
+| Cody & AI         	| Cody & AI      	| Release       	|                     	|
+| Cody & AI         	| Cody & AI      	| Cloud Ops     	|                     	|
+| Cody & AI         	| Cody           	| Clients       	|                     	|
+| Cody & AI         	| Cody           	| Context       	|                     	|
+| Cody & AI         	| Cody           	| PLG           	|                     	|
+| Cody & AI         	| Cody           	| Strat         	|                     	|
+| Cody & AI         	| AI             	| AI            	|                     	|
+| Cody & AI         	| ML Infra       	| Experiments   	|                     	|
+| Cody & AI         	| ML Infra       	| Benchmarks    	|                     	|
 
 ---
 
