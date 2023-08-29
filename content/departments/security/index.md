@@ -79,7 +79,6 @@ In an effort to work closely with our teammates and shift security focus more in
 
 - **Who is the ambassador for my team?**
 
-
   |     Division      |      Org       |     Team      | Security Ambassador |
   | :---------------: | :------------: | :-----------: | :-----------------: |
   | Search & Platform |    Platform    |    Source     |                     |
