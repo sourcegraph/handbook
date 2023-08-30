@@ -1761,7 +1761,7 @@ john_wesonga:
   name: John Wesonga
   email: john.wesonga@sourcegraph.com
   github: johnwesonga
-  reports_to: eng_lead
+  reports_to: product_lead
   location: Concord, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/johnwesonga)'
   role: Technical Program Manager
