@@ -43,6 +43,8 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 1. Sign in to sourcegraph.com.
 1. If the customer instance does not have an account yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
 1. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
+1. Have the customer add an email to the user account by sending them the password reset link, or solicit an email to add to the user yourself. Best practice is to have a shared email like a devops email to associate with the customer user account, this ensures that if the admin/individual leaves the company, we will not have any issues recovering this account.
+1. Have the customer verify the email on the user account.
 1. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). Create a new subscription if this is a new customer. **Create a new subscription for each customer instance as well**. Click **Create product subscription**. Search for the user that was created above.
 1. Click **Generate new license manually**.
    1. Fill out the customer name in lowercase. Fill spaces with the `-` character.
