@@ -225,3 +225,122 @@ resource "aws_vpc_endpoint_service" "customer_gitlab" {
 ```
 
 2. For private VPC Endpoint Service domain, customer has to follow [verification steps](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) to prove customer owns the domain.
+
+## GCP Private Service Connect (GCP code hosts only)
+
+### Architecture
+
+<iframe src="https://link.excalidraw.com/readonly/Xiz9LWNPCa3DERBJUiZI" width="100%" height="100%" style="border: none;"></iframe>
+
+### How it works
+
+Sourcegraph supports connecting to private code hosts on GCP using GCP [Private Service Connect] (PSC). It is used to securely expose and connect services across the project boundary within GCP.
+
+The customer is the Service Producer (the "producer"), and the Sourcegraph Cloud instance is the Service Consumer (the "consumer"). PSC can expose an internal regional load balancer for the private code host to the consumer. The consumer can then connect to the private code host over PSC transparently.
+
+### Pre-req
+
+1. Confirm the GCP region customer's private code host or the entrypoint is in. The region has to be the same as the Sourcegraph Cloud instance.
+1. Confirm whether the customer is using a public TLS certificate or not. If not, the customer should talk to us first to see if we can support it. (this is not tested yet, but should work in theory)
+
+### Steps
+
+#### (Customer) Reached out to the account team
+
+Customer need to provide the following information
+
+- The GCP region customer's private code host or the entrypoint is in, e.g., `us-central1`. If it is not one of the Cloud supported region, please consult the Cloud team.
+- The DNS name of the customer private code host, e.g., `gitlab.internal.company.net`. Notes this is the dns name that the customer users interact with daily. If the private code host has geo-specific dns name, please consult the Cloud team.
+
+#### (Customer) Create a [service attachment] to expose the private code host
+
+Customer should publish their services using PSC by follow [GCP documentation](https://cloud.google.com/vpc/docs/configure-private-service-connect-producer). Below is a Terraform example:
+
+> Notes your firewall rule should permit ingress traffic from the proxy-only subnet to the private code host. It should also permit egress traffic from the private code host to the psc subnet.
+
+The customer need to provide the service attachment id to Sourcegraph, e.g., `projects/:id/regions/:region/serviceAttachments/:name`.
+
+```tf
+### Private Service Connect
+
+resource "google_compute_service_attachment" "self" {
+  name        = "${var.name}-psc-${random_id.tf_prefix.hex}"
+  description = "A service attachment to expose the internal load balancer for Private Service Connect"
+
+  # the region has to the same as the consumer due to GCP limitation
+  region      = var.region
+
+  # optional, e.g., gitlab.internal.company.com
+  domain_names          = [var.domain_root]
+
+  enable_proxy_protocol = false
+  # a psc subnet, or with a `purpose=PRIVATE_SERVICE_CONNECT` `google_compute_subnetwork` in Terraform
+  nat_subnets           = [google_compute_subnetwork.psc.id]
+
+  # an upstream forwarding rule to one of the following
+  #
+  # - regional internal proxy Network Load Balancer, google_compute_region_target_tcp_proxy
+  #   with an INTERNAL_MANAGED load balancing scheme in the backend service
+  # - regional internal Application Load Balancer, google_compute_region_target_http_proxy, google_compute_region_target_https_proxy,
+  #   with a INTERNAL_MANAGED load balancing scheme in the backend service
+  # - internal passthrough Network Load Balancer, google_compute_region_target_tcp_proxy,
+  #   with an INTERNAL load balancing scheme in the backend service
+  #
+  # how to decide?
+  #
+  # - if the target deployment (MIG or NEG) does not terminate TLS, you should use an internal Application Load Balancer with TLS certificate configured
+  # - if the target deployment (MIG or NEG) terminates TLS, you should use an internal passthrough Network Load Balancer on port 443
+  #
+  # notes in order to create an internal load balancer, GCP requires the creation of a proxy-only subnet within the network
+  target_service        = google_compute_forwarding_rule.https.self_link
+
+  connection_preference = "ACCEPT_MANUAL"
+  # a maps of "project_id" => { "id": "$project_id", "limit": $limit }
+  dynamic "consumer_accept_lists" {
+    iterator = each
+    for_each = var.authorized_consumer_projects
+    content {
+      project_id_or_num = each.value["id"]
+      connection_limit  = each.value["limit"]
+    }
+  }
+}
+
+### Compute - Network (psc subnet)
+
+resource "google_compute_subnetwork" "psc" {
+  name    = "${var.name}-psc-${random_id.tf_prefix.hex}"
+  region  = var.region
+  network = google_compute_network.self.id
+
+  purpose       = "PRIVATE_SERVICE_CONNECT"
+  ip_cidr_range = var.psc_subnetwork_cidr
+}
+
+output "service_attachment_uri" {
+  value = google_compute_service_attachment.self.id
+}
+```
+
+### (Sourcegraph) Create the Cloud instance for the customer
+
+Follow the usual process to handle instance creation process, by make sure to create within the same region. With the following config:
+
+> Notes below spec is still WIP, and subject to change.
+
+```yaml
+privateCodeHost:
+  enabled: true
+  type: psc
+  gcp:
+    # provided by the customer
+    targetService: projects/:project/regions/:region/serviceAttachments/:name
+    domain: gitlab.internal.company.net
+```
+
+### (Customer) Create code host connection
+
+Upon confirmation from the account team, the customer admin may visit their Sourcegraph Cloud instance and create a code host connection as usual. PSC should make the experience transparent.
+
+[Private Service Connect]: https://cloud.google.com/vpc/docs/private-service-connect
+[Service Attachment]: https://cloud.google.com/vpc/docs/private-service-connect#service-attachments
