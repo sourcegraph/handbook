@@ -22,7 +22,7 @@ Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16
 
 - You may take more or less than 16 weeks, depending on your needs and preferences, but anything over 16 weeks is not eligible for the paid parental leave policy. (See [FAQ](#faq-for-non-us-based-teammates) for Non-US/statutory variances)
 
-- You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial parental leave date). If using non-consecutively, you must request leave in blocks of 1-week increments and cannot split this into specified days across partial, non-consecutive weeks.
+- You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial parental leave date). If using non-consecutively, you must request leave in blocks of 1-month increments and cannot split this into specified days across partial, non-consecutive weeks. If you need more flexibility taking non-consecutive leave, please reach out to the people-ops@sourcegraph.com and go through an approval process to see if the business can accommodate shorter blocks of leave.
 
 - If you live in a country where a statutory Parental and/or Birthing Parent/Maternity Leave benefit is available (which may include disability leave for birthing parents), you will be required to claim statutory Parental and/or Birthing Parent/Maternity Leave pay (if you are eligible) and, if such leave is offered at less than full pay, Sourcegraph will supplement any gaps in total unpaid leave for up to 16 weeks. Please see guidance below for International Teammates.
 
