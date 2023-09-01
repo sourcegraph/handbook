@@ -35,7 +35,7 @@ jobs:
           prop_path: devDependencies.prettier
 
       - name: Prettier
-        uses: creyD/prettier_action@v3.3
+        uses: creyD/prettier_action@v4.3
         with:
           # Take prettier version from package.json to stay in sync and support upgrades through Renovate
           prettier_version: ${{steps.prettier_version.outputs.prop}}
