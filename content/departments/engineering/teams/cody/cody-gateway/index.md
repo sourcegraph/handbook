@@ -152,7 +152,11 @@ BigQuery data can be found in the `events` table of the following datasets:
 
 See [`internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/codygateway/consts.go) for the list of events types that are currently tracked.
 
-Data can be queried directly in BigQuery tables above (requires [infrastructure access](#infrastructure-access)), or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. A sample query with some basic visualizations is available for use: [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72).
+Data can be queried directly in BigQuery tables above (requires [infrastructure access](#infrastructure-access)), or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. Some sample Redash queries you can use or fork and edit:
+
+- [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72)
+- [Embeddings Tokens Generated](https://redash.sgdev.org/queries/82#151)
+
 A simple overview can also be seen in each product subscription's licenses page - see [Using Cody Gateway: Analyzing usage](./using.md#analyzing-usage).
 
 > WARNING: Because the dev Cody Gateway instance sends data to a different dataset, usage of dev subscriptions (for example, during in local Sourcegraph developmenmt) will not render in Sourcegraph.com's product subscription pages, which queries the production dataset.
