@@ -25,6 +25,7 @@ If the PR changes, pull changes into the branch, and run the above command again
 Alternatively, you can directly request a build for a specific commit:
 
 ```sh
+gh pr checkout $PR_NUMBER
 sg ci build --commit $COMMIT
 ```
 
