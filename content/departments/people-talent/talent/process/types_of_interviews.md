@@ -627,7 +627,7 @@ Please bring an overview of one or two past project(s) we can use to dig deep in
 - had a number of iterations to get to the outcome
 - leverages data to make decisions along the way
 
-This interview will include a PM and designer from our team who have been focusing on growth. They will use the hour to dig into the project info you prepared to understand how you think about running growth projects.
+This interview will include a PM and designer from our team. They will use the hour to dig into the project info you prepared to understand how you think about running projects.
 
 #### Product interview
 
