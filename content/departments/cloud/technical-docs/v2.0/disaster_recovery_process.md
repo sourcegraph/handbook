@@ -6,7 +6,7 @@ Report from [failover test on 28tf of November 2022](https://docs.google.com/doc
 
 ## GKE cluster zone failover
 
-> IMPORTANT: this does not test GKE api server zone failover as it's already HA with 3 replica across multiple zones managed by GCP.
+> [!IMPORTANT] this does not test GKE api server zone failover as it's already HA with 3 replica across multiple zones managed by GCP.
 
 - export environment variables
 

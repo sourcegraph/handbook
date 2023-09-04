@@ -29,7 +29,7 @@ ssh -i .ssh/cse-aws.pem ec2-user@ec2-3-133-49-142.us-east-2.compute.amazonaws.co
 
 ## Upgrading CS-AWS
 
-> Note: When connecting to the EC2 server via SSH, your user does not have permissions to run many git commands. You'll need to run git commands with `sudo` or switch to the root user with `sudo su`. Note that `docker-compose` is not available to the root user, use `exit` to switch back to `ec2-user` and run compose commands.
+> [!NOTE] When connecting to the EC2 server via SSH, your user does not have permissions to run many git commands. You'll need to run git commands with `sudo` or switch to the root user with `sudo su`. Note that `docker-compose` is not available to the root user, use `exit` to switch back to `ec2-user` and run compose commands.
 
 Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws). Any customizations should be applied to the [override](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws/blob/release/docker-compose/docker-compose.override.yaml) file rather than the default `docker-compose.yaml` file. Learn more about [docker compose override](https://docs.sourcegraph.com/admin/deploy/docker-compose/configuration#what-is-an-override-file) files.
 

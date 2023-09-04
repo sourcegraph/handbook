@@ -238,7 +238,7 @@ It can also be scaled up or down with the following steps:
 
 #### Increase Disk
 
-> NOTE: Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
+> [!NOTE] Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
 
 Increasing disk is a 2 part process - you have to increase disk on the VM, and then expand the ghe filesystem for the changes to be applied.
 

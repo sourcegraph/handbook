@@ -108,7 +108,7 @@ Customer Engineering is responsible for creating tickets on behalf of the custom
 
 #### 1. Create Tickets for Trial Customers
 
-> Note: To create the ticket in Slack use the ❓on the corresponding Slack message or email trialsupport@sourcegraph.com
+> [!NOTE] To create the ticket in Slack use the ❓on the corresponding Slack message or email trialsupport@sourcegraph.com
 
 #### 2. To begin, access the Support Agent in Slack to view the created tickets. Follow these steps:
 

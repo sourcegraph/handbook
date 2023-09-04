@@ -1,6 +1,6 @@
 # Adding a screenshot or screen recording ("GIF" or video)
 
-> NOTE: This guide presumes macOS.
+> [!NOTE] This guide presumes macOS.
 
 ## TL;DR
 
@@ -165,7 +165,7 @@ The `controls` attribute makes sure video player controls are rendered by the br
 
 ### Embedding GIF-like videos
 
-> NOTE: [Do not use actual `.gif` images](https://www.sohamkamani.com/blog/2016/04/09/stop-using-gifs/).
+> [!NOTE] [Do not use actual `.gif` images](https://www.sohamkamani.com/blog/2016/04/09/stop-using-gifs/).
 > The GIF format takes extremely long to load on web pages while providing a lower quality, which makes a bad impression.
 > Instead, use videos that are embedded in a way to behave just like real GIFs as explained below.
 
@@ -185,7 +185,7 @@ For the fastest loading time in all browsers, convert your `.mp4` to a `.webm` u
 
 ### Uploading your video to YouTube
 
-> NOTE: If you just want to **embed** a video somewhere (in the handbook, on our marketing page, in our product, etc), prefer uploading the video to [sourcegraph-assets](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true) on Google Cloud storage and [embedding it from there](#embedding-videos).
+> [!NOTE] If you just want to **embed** a video somewhere (in the handbook, on our marketing page, in our product, etc), prefer uploading the video to [sourcegraph-assets](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true) on Google Cloud storage and [embedding it from there](#embedding-videos).
 > Self-hosted embedded videos make a better impression by providing higher quality, having no YouTube branding, and giving us greater control over how they are displayed.
 > Use YouTube for distribution benefits, e.g. when a video is intended to be shared on social media.
 

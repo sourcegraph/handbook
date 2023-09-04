@@ -2,7 +2,7 @@
 
 ## Process overview
 
-> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published.
+> [!NOTE] This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published.
 
 1. Create an outline and request a reviewer
 2. Create a draft of your blog post in Google Docs and request a reviewer
@@ -68,7 +68,7 @@ To ensure uniformity between commonly used content items, please use the followi
   <li>HubSpotForm</li>
 </ol>
 
-> NOTE: **Reference the [Blog Post Starter Pack](#using-the-blog-post-starter-pack) for use case examples.**
+> [!NOTE] **Reference the [Blog Post Starter Pack](#using-the-blog-post-starter-pack) for use case examples.**
 
 <hr />
 

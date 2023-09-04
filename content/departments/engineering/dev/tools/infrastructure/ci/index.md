@@ -40,7 +40,7 @@ The currently available queues:
 
 ### `buildkite-job-dispatcher`
 
-> NOTE: This section serves only as an intro and overview to `buildkite-job-dispatcher`. Detailed documentation and guides should go in the [CI playbook](../../../process/incidents/playbooks/ci.md) or as close to the source code as possible.
+> [!NOTE] This section serves only as an intro and overview to `buildkite-job-dispatcher`. Detailed documentation and guides should go in the [CI playbook](../../../process/incidents/playbooks/ci.md) or as close to the source code as possible.
 
 Our Buildkite agents are stateless, and are deployed in batches as Kubernetes jobs where each agent runs its workload and exits based on the size of the Buildkite backlog.
 This is managed by the `buildkite-job-dispatcher`:
@@ -113,4 +113,4 @@ sequenceDiagram
     end
 ```
 
-> NOTE: If this diagram fails to render, [read this page on GitHub instead](https://github.com/sourcegraph/handbook/blob/main/content/departments/engineering/dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher).
+> [!NOTE] If this diagram fails to render, [read this page on GitHub instead](https://github.com/sourcegraph/handbook/blob/main/content/departments/engineering/dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher).

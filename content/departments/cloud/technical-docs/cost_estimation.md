@@ -1,6 +1,6 @@
 # Managed instances: cost estimation
 
-> WARNING: This page is **DEPRECATED**, and only retain to provide historical context
+> [!WARNING] This page is **DEPRECATED**, and only retain to provide historical context
 
 ## How to calculate the cost of a managed instance
 

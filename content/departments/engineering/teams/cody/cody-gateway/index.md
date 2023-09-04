@@ -9,7 +9,7 @@ In general, we have two Cody Gateway deployments running:
 - `cody-gateway.sourcegraph.com` - for production usage
 - `cody-gateway.sgdev.org` - for development and testing
 
-> NOTE: This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [**Using Cody Gateway**](./using.md), or refer to the [**customer-facing Sourcegraph Cody Gateway docs**](https://docs.sourcegraph.com/cody/explanations/cody_gateway).
+> [!NOTE] This page primarily contains operational and development information for Cody Gateway. To learn more about _using_ Cody Gateway, see [**Using Cody Gateway**](./using.md), or refer to the [**customer-facing Sourcegraph Cody Gateway docs**](https://docs.sourcegraph.com/cody/explanations/cody_gateway).
 >
 > If you need any assistance, please reach out to #wg-cody-gateway.
 
@@ -92,7 +92,7 @@ We have several tiers of alerting for each Cody Gateway instance to help notify 
 
 All alerts from all environments currently go to #alerts-cody-gateway.
 
-> NOTE: OpsGenie alerts to #ask-cloud are slated to be configured for the production instance.
+> [!NOTE] OpsGenie alerts to #ask-cloud are slated to be configured for the production instance.
 > For now, #wg-cody-gateway will monitor alerts for any issues.
 
 ### Observability
@@ -155,7 +155,7 @@ See [`internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sour
 Data can be queried directly in BigQuery tables above (requires [infrastructure access](#infrastructure-access)), or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. A sample query with some basic visualizations is available for use: [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72).
 A simple overview can also be seen in each product subscription's licenses page - see [Using Cody Gateway: Analyzing usage](./using.md#analyzing-usage).
 
-> WARNING: Because the dev Cody Gateway instance sends data to a different dataset, usage of dev subscriptions (for example, during in local Sourcegraph developmenmt) will not render in Sourcegraph.com's product subscription pages, which queries the production dataset.
+> [!WARNING] Because the dev Cody Gateway instance sends data to a different dataset, usage of dev subscriptions (for example, during in local Sourcegraph developmenmt) will not render in Sourcegraph.com's product subscription pages, which queries the production dataset.
 
 ### Service accounts
 
@@ -175,4 +175,4 @@ there should be no need to interact with the accounts directly for the most part
 
 More details for each account are available in the 1password entries linked above.
 
-> WARNING: All the above feature flags should be configured as **boolean, default off**.
+> [!WARNING] All the above feature flags should be configured as **boolean, default off**.
