@@ -157,15 +157,15 @@ In order to handle problems with the CI, the following elements are necessary:
 1. Get some help by pinging `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
 1. Request access to the DevX Day2Day entitle bundle by typing `/access_request` in Slack.
 1. Restart the agents by scaling the corresponding deployment to 0 then to 2 again.
-  - `kubectl scale --replicas=0 -n buildkite-bazel deployments/buildkite-agent-bazel`
-  - Observe the pods count going down.
-  - `kubectl scale --replicas=2 -n buildkite-bazel deployments/buildkite-agent-bazel`
-  - The agent autoscaler will adjust the final replicas count on its own.
+    - `kubectl scale --replicas=0 -n buildkite-bazel deployments/buildkite-agent-bazel`
+    - Observe the pods count going down.
+    - `kubectl scale --replicas=2 -n buildkite-bazel deployments/buildkite-agent-bazel`
+    - The agent autoscaler will adjust the final replicas count on its own.
 1. If you saw cache releated errors in the job logs, restart the remote-cache by scaling the corresponding deployment to 0 then to 1 again.
-  - `kubectl scale --replicas=0 -n buildkite-bazel deployments/ci-bazel-remote-cache`
-  - Observe the pods count going down.
-  - `kubectl scale --replicas=1 -n buildkite-bazel deployments/ci-bazel-remote-cache`
-  - Do not scale it above 1 instance, it uses a persistent disk that can only be accessed by a single instance.
+    - `kubectl scale --replicas=0 -n buildkite-bazel deployments/ci-bazel-remote-cache`
+    - Observe the pods count going down.
+    - `kubectl scale --replicas=1 -n buildkite-bazel deployments/ci-bazel-remote-cache`
+    - Do not scale it above 1 instance, it uses a persistent disk that can only be accessed by a single instance.
 
 ### Spotted a flake
 
