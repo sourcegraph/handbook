@@ -30,13 +30,13 @@ Note: if the prospect was a PLG Cloud trial customer, do _not_ reuse the `plg-tr
 
 ### Creating a new license key
 
-> NOTE: CEs should always consult with Sales before creating license keys for prospects (i.e., companies that have not yet officially become customers).
+> [!NOTE] CEs should always consult with Sales before creating license keys for prospects (i.e., companies that have not yet officially become customers).
 
-> NOTE: Licenses for PLG Cloud trial received through signup.sourcegraph.com are not linked to Salesforce. Therefore, if the PLG cloud trial converts, we need to follow this workflow just, as if it were a new customer.
+> [!NOTE] Licenses for PLG Cloud trial received through signup.sourcegraph.com are not linked to Salesforce. Therefore, if the PLG cloud trial converts, we need to follow this workflow just, as if it were a new customer.
 
-> NOTE: For a new trial deployment, the admin should be sent a license key for the initial deployment setup and configuration process. This should be a short-term key (1-2 weeks) for a small number of users (5-10) until the full license key is provided later in the trial process.
+> [!NOTE] For a new trial deployment, the admin should be sent a license key for the initial deployment setup and configuration process. This should be a short-term key (1-2 weeks) for a small number of users (5-10) until the full license key is provided later in the trial process.
 
-> NOTE: Starting with Sourcegraph 5.1+, we require each customer instance to have a unique site_id and license key pair. Each instance should also have it's own subscription created. See [internal licensing FAQ](https://docs.google.com/document/d/1xzlkJd3HXGLzB67N7o-9T1s1YXhc1LeGDdJyKDyqfbI) for more details.
+> [!NOTE] Starting with Sourcegraph 5.1+, we require each customer instance to have a unique site_id and license key pair. Each instance should also have it's own subscription created. See [internal licensing FAQ](https://docs.google.com/document/d/1xzlkJd3HXGLzB67N7o-9T1s1YXhc1LeGDdJyKDyqfbI) for more details.
 
 The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
 
@@ -90,7 +90,7 @@ To revoke an active license, follow these steps:
 
 The next time the customer's instance performs a license verification check, the verification will fail and the customer's Enterprise features will be disabled.
 
-> Note: This will not work on special licenses with the `allow-air-gapped` tag, or the `enterprise-air-gap-0` plan, as these licenses do not execute verification checks.
+> [!NOTE] This will not work on special licenses with the `allow-air-gapped` tag, or the `enterprise-air-gap-0` plan, as these licenses do not execute verification checks.
 
 ## License Key Sharing Policy
 
@@ -111,7 +111,7 @@ Below is a list of supported plans:
 
 - `enterprise-air-gap-0` (from 5.1 onwards) for Enterprise customers that need to run Sourcegraph in an air-gapped environment
 - `enterprise-1` (from 4.0 onwards) for Enterprise customers, `code-insights` and `batch-changes` included
-  > Note: this should be the **default** plan for most of the enterprise customers.
+  > [!NOTE] this should be the **default** plan for most of the enterprise customers.
 - `enterprise-0` (until 4.0) for Enterprise customers, features above only included if tags of same name are added
 - `business-0` for Business customers, `code-insights` and `batch-changes` included
 - `team-0` (until 4.0) for a handful of customers on the Team plan
@@ -125,14 +125,14 @@ The tags that relate to license itself (you might need to add these to the licen
 
 - `true-up` to allow the company to go over the user limit on the license. No tag is needed for hard cap.
 - `mau` to indicate that the company is on a monthly usage-based billing model.
-  > Note: For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.
+  > [!NOTE] For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.
 - `trial` to show an indicate in Sourcegraph that the company is on a trial.
 - `plg-trial` to indicate that a Cloud trial managed instance has been requested through signup.sourcegraph.com.
 - `dev` for internal developer licenses
 - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
 - `allow-air-gapped` for licenses where periodic license verification is not required and pings are not sent back to sourcegraph.com. This is essential for customers that run Sourcegraph in an air-gapped environment without an external internet connection. For the `enterprise-air-gap-0` plan, this tag is not required as it is included in the plan. Prefer selecting the `enterprise-air-gap-0` plan instead of adding the tag.
 
-> NOTE: most of the new license plans already have all the features needed encoded in the plan, so adding additional feature tags might not be necessary at all.
+> [!NOTE] most of the new license plans already have all the features needed encoded in the plan, so adding additional feature tags might not be necessary at all.
 
 Feature override tags are listed below. These tags enable specific features on top of what the license plan allows:
 
@@ -153,7 +153,7 @@ Example license key tags:
 
 - **Non-enterprise Licenses**: these depend on the contract & specified features.
 
-  > Note: **only add** `batch-changes` and `code-insights` tags if the contract specifies **unlimited usage** of these features.
+  > [!NOTE] **only add** `batch-changes` and `code-insights` tags if the contract specifies **unlimited usage** of these features.
 
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
 

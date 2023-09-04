@@ -65,7 +65,7 @@ Sourcegraph Enterprise offers three **plans**: Free, Business, and Enterprise as
 
 Customers on the Business and Enterprise plan of Sourcegraph Enterprise are provided with a [license key](../../../technical-success/ce/process/license_keys.md), usually by a customer engineer. When a prebuilt image is configured with a license key, the functionality covered under the customer's plan is enabled.
 
-> NOTE: Although it includes the word "license", a license key is _completely_ unrelated to the [software license](#software-licensing) described above.
+> [!NOTE] Although it includes the word "license", a license key is _completely_ unrelated to the [software license](#software-licensing) described above.
 
 ## Talking about license, plans, users
 

@@ -39,7 +39,7 @@ When planning work, the [relevant work lead](#work-leads) should:
 
 Note that teammates can also support a work lead on all of the above - it is not exclusively the responsibility of work leads.
 
-> NOTE: An updated and well-documented planning issue makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with planning efforts.
+> [!NOTE] An updated and well-documented planning issue makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with planning efforts.
 
 ### Unplanned work
 
@@ -97,7 +97,7 @@ As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
 For a lower level view of our day-to-day progress, we use the [Developer Infrastructure GitHub project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/dev-infra` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
 
-> NOTE: Be _very_ careful when deleting things from the GitHub project, especially board views, labels, custom fields, and so on.
+> [!NOTE] Be _very_ careful when deleting things from the GitHub project, especially board views, labels, custom fields, and so on.
 
 #### Roadmap tracking issues
 
@@ -110,7 +110,7 @@ They should have the `team/dev-infra` and `roadmap` label, one (or more) appropr
 <!-- OPTIONAL LABEL: roadmap -->
 ```
 
-> NOTE: Be sure to add _all_ your desired labels (including at least one `DevInfra/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
+> [!NOTE] Be sure to add _all_ your desired labels (including at least one `DevInfra/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
 
 A project board view for roadmap tracking issues is also available [here](https://github.com/orgs/sourcegraph/projects/212/views/33).
 
@@ -156,7 +156,7 @@ Tips for [tracking](#tracking) support work:
 
 #### Build pipeline support
 
-> NOTE: The DevInfra team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure. Learn more: [CI reponsibilities](#ci-support-responsibilities)
+> [!NOTE] The DevInfra team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure. Learn more: [CI reponsibilities](#ci-support-responsibilities)
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration). The goal of this process is to identify the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 

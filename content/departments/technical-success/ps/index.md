@@ -46,11 +46,11 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
    <td>FY24 Q4+
    </td>
-  </tr>  
+  </tr>
   <tr>
    <td>Paid Training
    </td>
-   <td>Expert-led, live or remote training designed to upskill dev workflows and abilities 
+   <td>Expert-led, live or remote training designed to upskill dev workflows and abilities
    </td>
    <td>FY24 Q4+
    </td>
@@ -146,4 +146,4 @@ Slack is included with the purchase of various Professional Services packages as
 - <strong>Slack Support</strong>
   - Slack Account Management Included
 
-> NOTE: If your customer has opted out of our Slack offerings, please follow the [Slack Deprovisioning Steps](https://docs.google.com/document/d/133Cn0cGetSTo_aBF9xLp26elegcuN_uZBrzWuoi16cs/edit). If applicable, the channel will be deprovisioned at time of renewal.
+> [!NOTE] If your customer has opted out of our Slack offerings, please follow the [Slack Deprovisioning Steps](https://docs.google.com/document/d/133Cn0cGetSTo_aBF9xLp26elegcuN_uZBrzWuoi16cs/edit). If applicable, the channel will be deprovisioned at time of renewal.

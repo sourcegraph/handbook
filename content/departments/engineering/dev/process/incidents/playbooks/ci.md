@@ -19,7 +19,7 @@ In order to handle problems with the CI, the following elements are necessary:
 1. [Gain access to the CI cluster by authenticating against it with `gcloud` and `kubectl`](../../deployments/debugging/tutorial.md#ci-cluster).
 1. Request access to the DevX Day2Day entitle bundle by typing `/access_request` in Slack.
 
-> NOTE: Optional, additional tips:
+> [!NOTE] Optional, additional tips:
 >
 > - 💡 You can set the default namespace to `buildkite` or `buildkite-bazel` to avoid always appending the `-n buildkite` flag to `kubectl` commands.
 >   - `kubectl config set-context --current --namespace=buildkite`
@@ -27,7 +27,7 @@ In order to handle problems with the CI, the following elements are necessary:
 
 ## Scenarios
 
-> NOTE: All scenario guides assume you have the appropriate [prerequisites](#prerequisites) set up.
+> [!NOTE] All scenario guides assume you have the appropriate [prerequisites](#prerequisites) set up.
 
 ### `buildchecker` has locked the `main` branch
 
@@ -45,7 +45,7 @@ In order to handle problems with the CI, the following elements are necessary:
 1. Follow the ["Build has failed on the `main` branch" guide](#build-has-failed-on-the-main-branch).
 2. If the issue has been resolved, wait for `buildchecker` to unlock the branch or [manually trigger a run (click "Run workflow")](https://github.com/sourcegraph/sourcegraph/actions/workflows/buildchecker.yml).
 
-> NOTE: If there is a bug in `buildchecker`, a repository admin can go to the [Branches settings](https://github.com/sourcegraph/sourcegraph/settings/branches) -> `main` -> uncheck/check "Restrict who can push to matching branches" -> "Save changes" to override the restrictions.
+> [!NOTE] If there is a bug in `buildchecker`, a repository admin can go to the [Branches settings](https://github.com/sourcegraph/sourcegraph/settings/branches) -> `main` -> uncheck/check "Restrict who can push to matching branches" -> "Save changes" to override the restrictions.
 >
 > Also see [the `buildchecker` source code](https://github.com/sourcegraph/sourcegraph/tree/main/dev/buildchecker) and [workflow definition](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/buildchecker.yml).
 

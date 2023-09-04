@@ -134,7 +134,7 @@ i.e. `private.CUSTOMER.com` -> `public.CUSTOMER.com` where:
 
 1. Configure config.yaml
 
-> Important: Follow playbook for given cloud instance to introduce additional node pool, as changing oauth scope on existing one will cause downtime.
+> [!IMPORTANT] Follow playbook for given cloud instance to introduce additional node pool, as changing oauth scope on existing one will cause downtime.
 
 ```yaml
 spec:
@@ -181,7 +181,7 @@ When a customer has private code hosts inside the AWS VPC and needs to expose it
 
 1. Create Network Loadbalancer, VPC Endpoint Service and VPC Endpoint Service via terraform file:
 
-> Important: if https/ssl is used on NLB (recommended), customer has to create [AWS Certificate](https://docs.aws.amazon.com/acm/latest/userguide/gs.html) and set `certificate_arn` and `ssl_policy` field in `aws_lb_listener` resources before apply.
+> [!IMPORTANT] if https/ssl is used on NLB (recommended), customer has to create [AWS Certificate](https://docs.aws.amazon.com/acm/latest/userguide/gs.html) and set `certificate_arn` and `ssl_policy` field in `aws_lb_listener` resources before apply.
 
 ```hcl
 resource "aws_lb" "nlb" {
@@ -342,5 +342,5 @@ privateCodeHost:
 
 Upon confirmation from the account team, the customer admin may visit their Sourcegraph Cloud instance and create a code host connection as usual. PSC should make the experience transparent.
 
-[Private Service Connect]: https://cloud.google.com/vpc/docs/private-service-connect
-[Service Attachment]: https://cloud.google.com/vpc/docs/private-service-connect#service-attachments
+[private service connect]: https://cloud.google.com/vpc/docs/private-service-connect
+[service attachment]: https://cloud.google.com/vpc/docs/private-service-connect#service-attachments

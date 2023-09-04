@@ -14,7 +14,7 @@ Welcome to the [Cloud team](./index.md)! This document will guide you through Cl
 
 #### Tasks
 
-> NOTE: If you need access to any system, reach out to your peers in #cloud-internal on Slack.
+> [!NOTE] If you need access to any system, reach out to your peers in #cloud-internal on Slack.
 > If access has to be granted by #it-tech-ops, please cc the Cloud team EM for approval
 
 - Meet your onboarding buddy

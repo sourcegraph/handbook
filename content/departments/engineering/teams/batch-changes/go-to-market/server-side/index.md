@@ -55,7 +55,7 @@ This is a free feature for all the customers of the Batch Changes add-on.
 - Limitations are listed out in the [Running batch changes server-side](https://docs.sourcegraph.com/batch_changes/explanations/server_side#limitations) docs.
 - Server-side batch changes requires executors. Executors are early in their lifecycle, and customers have hetereogneous setups and needs, that we are still learning about. This is especially true for large Strategic customers with heavy compliance and security constraints.
 
-> NOTE: Note to CEs: If you are not certain that the documented executor deployment model is a perfect fit for the customer, please reach out in #wg-shipping-executors, tagging @malo, and we will organise a call with the customer to figure out their needs and a solution.
+> [!NOTE] Note to CEs: If you are not certain that the documented executor deployment model is a perfect fit for the customer, please reach out in #wg-shipping-executors, tagging @malo, and we will organise a call with the customer to figure out their needs and a solution.
 
 ## FAQ
 

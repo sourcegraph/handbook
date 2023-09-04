@@ -6,7 +6,7 @@ To have your updates highlighted here, please tag your PR or issue with the `dx-
 
 To learn more about components of Sourcegraph's developer experience, check out the [developer documentation](https://docs.sourcegraph.com/dev).
 
-> NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
+> [!NOTE] For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
 ## Jan 9th, 2022
 

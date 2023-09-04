@@ -17,17 +17,17 @@ Every instance has a default Sourcegraph admin user added during the [instance i
 
 ## Request UI access to managed instances
 
-> WARNING: Always have the customer consent prior to request UI access to a managed instance.
+> [!WARNING] Always have the customer consent prior to request UI access to a managed instance.
 
-> WARNING: Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
+> [!WARNING] Time-bound UI access creates temporary users on a managed instance, all resources (user settings, Notebooks, Code Insights, Batch Changes, etc.) created by these temporary users will be permanently deleted along with them once the access is expired.
 
-> NOTE: To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules#sharedList/1683145438462-Sourcegraph-Operator-Login) on the sign-in page of any managed instance.
+> [!NOTE] To make your life eaiser, you can install the browser extension [requestly](https://requestly.io/) and import the [rule to automatically append the `sourcegraph-operator` query parameter](https://app.requestly.io/rules#sharedList/1683145438462-Sourcegraph-Operator-Login) on the sign-in page of any managed instance.
 
 Please visit go/cloud-ops to locate the instance you would like to access, and follow the instruction under **Log in to the instance UI** section.
 
 ### UI access to private managed instances
 
-> NOTE: The steps described here is a current workaround until we have properly implemented an auth proxy solution.
+> [!NOTE] The steps described here is a current workaround until we have properly implemented an auth proxy solution.
 
 Private managed instances refer to managed instances that [have enabled private mode](https://sourcegraph.sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/cloud%24+content:%22public:+false%22&patternType=standard&sm=0&groupBy=path), additonal steps are required to be able to visit the instance UI after you have completed the steps to grant UI access.
 
@@ -64,7 +64,7 @@ SOAP creates special user accounts that are refered as "Sourcegraph operators", 
 - Sourcegraph operators are invisible from the application UI, site admins are _not_ able to see them.
 - All activities of Sourcegraph operators are logged and attributed in the database, and _excluded_ from both in-product analytics and usage stats in pings.
 
-> NOTE: In some internal managed instances (including `rctest.sourcegraph.com` and `sourcegraph.sourcegraph.com`), Sourcegraph operators may also be regular users on the instance that have other external accounts connected (e.g. Google Workspace, GitHub). In such cases, Sourcegraph operators will not be hard-deleted.
+> [!NOTE] In some internal managed instances (including `rctest.sourcegraph.com` and `sourcegraph.sourcegraph.com`), Sourcegraph operators may also be regular users on the instance that have other external accounts connected (e.g. Google Workspace, GitHub). In such cases, Sourcegraph operators will not be hard-deleted.
 
 ### How to identify Sourcegraph operators on a managed instance?
 
@@ -135,11 +135,11 @@ All managed instances have SOAP enabled and disabling is currently not supported
 
 4. Start the local Sourcegraph instance and sign in with **Continue with Sourcergaph Operators** using the same Okta account used in the step 1.
 
-> NOTE: If you are not using `sg` to start your Sourcegraph instance, make sure the environment variable `SRC_CLOUD_SITE_CONFIG` is set for `frontend`/`sourcegraph-frontend` and `worker` services.
+> [!NOTE] If you are not using `sg` to start your Sourcegraph instance, make sure the environment variable `SRC_CLOUD_SITE_CONFIG` is set for `frontend`/`sourcegraph-frontend` and `worker` services.
 
 ### How debug SOAP configuration?
 
-> WARNING: Do not use any online base64 tool to decode `SRC_CLOUD_SITE_CONFIG` because its value is only encoded but not encrypted!
+> [!WARNING] Do not use any online base64 tool to decode `SRC_CLOUD_SITE_CONFIG` because its value is only encoded but not encrypted!
 
 1. Grab the value of the environment variable `SRC_CLOUD_SITE_CONFIG`, e.g. `eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M...`.
 2. Use `base64` to decode to get its signature and signed content (`siteConfig`):
