@@ -26,7 +26,7 @@ docker run --hostname localhost -p 4080:4080  \
         gitlab/gitlab-ce:latest
 ```
 
-> Important: Make sure if you run Gitlab on a port different from port 80 then the container port has to match the host port
+> IMPORTANT: Make sure if you run Gitlab on a port different from port 80 then the container port has to match the host port
 > so in this case 4080:4080.
 
 Once Gitlab is running it will set up configs in `~/sourcegraph-gitlab/gitlab-disk/config`. We need to tell it

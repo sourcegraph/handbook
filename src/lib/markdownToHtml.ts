@@ -58,6 +58,7 @@ export default async function markdownToHtml(
         .use(remarkGfm)
         .use(remarkSpecialNoteBlocks)
         .use(remarkSpecialWarningBlocks)
+        .use(remarkSpecialImportantBlocks)
         // Automatically link and shorten GitHub issues, PRs, repos etc like on GitHub
         .use(remarkGitHub, {
             mentionStrong: false,
@@ -194,6 +195,22 @@ const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
                 // name. Improve it by adding the class name while respecting
                 // existing `hProperties` or existing classes.
                 node.data = { ...node.data, hName: 'aside', hProperties: { class: 'warning' } }
+            }
+        }
+    }
+
+/**
+ * Warning blockquote syntax, originally from docsite. Any blockquote starting with
+ * "> IMPORTANT:" is converted to <aside class="important">...</aside>.
+ */
+const remarkSpecialImportantBlocks: Plugin<[], MdastRoot> = () =>
+    function (tree) {
+        for (const node of tree.children) {
+            if (isSpecialBlockquote(node, 'IMPORTANT:')) {
+                // TODO: This overwrites the `hProperties` to add the class
+                // name. Improve it by adding the class name while respecting
+                // existing `hProperties` or existing classes.
+                node.data = { ...node.data, hName: 'aside', hProperties: { class: 'important' } }
             }
         }
     }
