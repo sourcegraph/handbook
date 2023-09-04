@@ -168,7 +168,7 @@ const rehypeExtractTitleFromH1: Plugin = () =>
     }
 
 /**
- * Note blockquote syntax, originally from docsite. Any blockquote starting with
+ * Note blockquote syntax with any blockquote starting with
  * "> [!NOTE]" is converted to <aside class="note">...</aside>.
  */
 const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
@@ -184,7 +184,7 @@ const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
     }
 
 /**
- * Warning blockquote syntax, originally from docsite. Any blockquote starting with
+ * Warning blockquote syntax with any blockquote starting with
  * "> [!WARNING]" is converted to <aside class="warning">...</aside>.
  */
 const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
@@ -200,7 +200,7 @@ const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
     }
 
 /**
- * Warning blockquote syntax, originally from docsite. Any blockquote starting with
+ * Warning blockquote syntax with any blockquote starting with
  * "> [!IMPORTANT]" is converted to <aside class="important">...</aside>.
  */
 const remarkSpecialImportantBlocks: Plugin<[], MdastRoot> = () =>
