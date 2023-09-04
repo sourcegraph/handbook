@@ -17,8 +17,8 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 ### Who is eligible for a review / compensation increase?
 
 - If you received a 1 or a 2 rating, you are eligible for a merit increase (or spot bonus if in sales) regardless of your start date.
-- If you received a 3 rating, you are eligible for a merit increase once a year.  Because of this, those who started on or after Feb 1 2023 are not eligible for a merit increase in 2H FY24 impact review cycle.  They will be eligible in the 1H FY25 review cycle instead.
-   * Note: to be eligible to participate in a review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of a “3” or higher.
+- If you received a 3 rating, you are eligible for a merit increase once a year. Because of this, those who started on or after Feb 1 2023 are not eligible for a merit increase in 2H FY24 impact review cycle. They will be eligible in the 1H FY25 review cycle instead.
+  - Note: to be eligible to participate in a review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of a “3” or higher.
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
 - Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
 - Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
