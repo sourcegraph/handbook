@@ -17,10 +17,11 @@ In order to handle problems with the CI, the following elements are necessary:
 1. Have the `gcloud` CLI installed.
 1. Have the `kubectl` CLI installed.
 1. [Gain access to the CI cluster by authenticating against it with `gcloud` and `kubectl`](../../deployments/debugging/tutorial.md#ci-cluster).
+1. Request access to the DevX Day2Day entitle bundle by typing `/access_request` in Slack.
 
 > NOTE: Optional, additional tips:
 >
-> - 💡 You can set the default namespace to `buildkite` to avoid always appending the `-n buildkite` flag to `kubectl` commands.
+> - 💡 You can set the default namespace to `buildkite` or `buildkite-bazel` to avoid always appending the `-n buildkite` flag to `kubectl` commands.
 >   - `kubectl config set-context --current --namespace=buildkite`
 > - You can also use [k9s](https://k9scli.io) for easier interactions with the _pods_.
 
@@ -139,6 +140,33 @@ In order to handle problems with the CI, the following elements are necessary:
 1. Escalate by creating an incident (`/incident` on Slack).
 1. Get some help by pinging `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
 
+### Builds are all failing in my branch, on Bazel jobs, with many timeouts or cache/disk related errors or container errors.
+
+- Severity: _major_
+- Impact: no commits are being deployed on DogFood and `sourcegraph.com` until the problem is resolved. Cutting a release is impossible.
+- Possible causes:
+  - A previous Pull Request introduced a change that causes a test to fail. If that's the case you should see the problem on the `main` build corresponding to the commit you branched out from.
+  - A previous Pull Request introduced a change that modified state in an unexpected way and broke the CI. If that's the case you should see the problem on the `main` build corresponding to the commit you branched out from.
+  - A previous build did not properly teardown containers used in e2e test suites.
+  - Agents are in a corrupted state due to a previous build.
+  - Agents ran out of disk space.
+
+#### Actions
+
+1. Escalate by creating an incident (`/incident` on Slack).
+1. Get some help by pinging `@dev-infra-support` on Slack in the #buildkite-main or #discuss-dev-infra channels.
+1. Request access to the DevX Day2Day entitle bundle by typing `/access_request` in Slack.
+1. Restart the agents by scaling the corresponding deployment to 0 then to 2 again.
+   - `kubectl scale --replicas=0 -n buildkite-bazel deployments/buildkite-agent-bazel`
+   - Observe the pods count going down.
+   - `kubectl scale --replicas=2 -n buildkite-bazel deployments/buildkite-agent-bazel`
+   - The agent autoscaler will adjust the final replicas count on its own.
+1. If you saw cache releated errors in the job logs, restart the remote-cache by scaling the corresponding deployment to 0 then to 1 again.
+   - `kubectl scale --replicas=0 -n buildkite-bazel deployments/ci-bazel-remote-cache`
+   - Observe the pods count going down.
+   - `kubectl scale --replicas=1 -n buildkite-bazel deployments/ci-bazel-remote-cache`
+   - Do not scale it above 1 instance, it uses a persistent disk that can only be accessed by a single instance.
+
 ### Spotted a flake
 
 - Severity: _minor_
@@ -235,10 +263,12 @@ You can also refer to the [Loom walkthrough "how to find out if a CI failure is 
 
 #### Actions
 
+1. Identify if you want to look at a Bazel agent or a stateless one. Bazel agents are under the `buildkite-bazel` namespace, and stateless agents are under `buildkite` namespace.
+1. Request access to the DevX Day2Day entitle bundle by typing `/access_request` in Slack.
 1. Find the pod you want to SSH into with one of the following methods:
-   1. Use `kubectl get pods -n buildkite -w` to observe the currently running agents and get the pod name (`k9s` works here too).
+   1. Use `kubectl get pods -n $NAMESPACE -w` to observe the currently running agents and get the pod name (`k9s` works here too).
    2. From a Buildkite build page, click the "Timeline" tab of a job and see the entry for "Accepted Job". The "Host name" in the entry is also the name of the pod that the job was assigned to.
-2. Use `kubectl exec -n buildkite -it buildkite-agent-xxxxxxxxxx-yyyyy -- bash` to open a shell on the Buildkite agent.
+1. Use `kubectl exec -n $NAMESPACE -it buildkite-agent-xxxxxxxxxx-yyyyy -- bash` to open a shell on the Buildkite agent.
 
 ### Replacing Agents
 
