@@ -1,6 +1,6 @@
 ## Managed Instance technical documentation
 
-> NOTE: As of 2023-03-23, new managed instances are using the v2.0 architecture, [learn more](./v2.0/index.md)
+> [!NOTE] As of 2023-03-23, new managed instances are using the v2.0 architecture, [learn more](./v2.0/index.md)
 
 ### Operations
 

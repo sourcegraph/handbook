@@ -10,7 +10,7 @@ You can access the instance by visiting [https://cse-k8s.sgdev.org/](https://cse
 
 ## Local Configuration
 
-> WARNING: You are encouraged to use the GKE UI to acccess logs if you are not familiar with Kubernetes and Kubectl. Please see [here](https://sourcegraph.slack.com/archives/C01JR51JR5J/p1627511709407000?thread_ts=1627470003.341600&cid=C01JR51JR5J) for the URL to access logs.
+> [!WARNING] You are encouraged to use the GKE UI to acccess logs if you are not familiar with Kubernetes and Kubectl. Please see [here](https://sourcegraph.slack.com/archives/C01JR51JR5J/p1627511709407000?thread_ts=1627470003.341600&cid=C01JR51JR5J) for the URL to access logs.
 
 To access the CS-GKE instance and run Kubernetes commands locally, you'll need to do the following:
 
@@ -20,9 +20,9 @@ To access the CS-GKE instance and run Kubernetes commands locally, you'll need t
 4. Make sure you can access your cluster with kubectl by running the following command: ` kubectl config view`
 5. You should now have access to the CS-GKE instance and run Kubernetes commands locally via kubectl.
 
-> NOTE: The CS-GKE instance is deployed to the `ns-sourcegraph` namespace. `beatrix-test` is the name of the cluster.
+> [!NOTE] The CS-GKE instance is deployed to the `ns-sourcegraph` namespace. `beatrix-test` is the name of the cluster.
 
-> WARNING: All your kubectl commands from now on are connected to the CS-GKE Kubernetes Instance.
+> [!WARNING] All your kubectl commands from now on are connected to the CS-GKE Kubernetes Instance.
 
 ## Upgrading CS-GKE Kubernetes Instance
 
@@ -44,15 +44,15 @@ We are currently deployed using this [deploy-sourcegraph-cse-kustomize](https://
 6. Choose which version you want to deploy from the [Sourcegraph release page](https://github.com/sourcegraph/deploy-sourcegraph-k8s/releases) then run: `git merge $NEW_VERSION`.
 7. After merging, you're likely to encounter some merge conflicts. Please resolve them(most of them require clicking on `Accept Incoming Change` - if you're using MS Studio as your code editor.
 8. You can then add and commit the changes by running `git add .` followed by `git commit -m "$YOUR_COMMIT_MESSAGE"`
-9. Build new manifests with Kustomize  
-   Generate a new set of manifests locally using your current overlay instances/my-sourcegraph without applying to the cluster.  
-   `kubectl kustomize instances/my-sourcegraph -o cluster.yaml`  
-   Review the generated manifests to ensure they match your intended configuration and have the images for the $NEW_VERSION version.  
+9. Build new manifests with Kustomize
+   Generate a new set of manifests locally using your current overlay instances/my-sourcegraph without applying to the cluster.
+   `kubectl kustomize instances/my-sourcegraph -o cluster.yaml`
+   Review the generated manifests to ensure they match your intended configuration and have the images for the $NEW_VERSION version.
    `less cluster.yaml`
-10. Deploy the generated manifests  
-    Apply the new manifests from the ouput file cluster.yaml to your cluster:  
+10. Deploy the generated manifests
+    Apply the new manifests from the ouput file cluster.yaml to your cluster:
     `kubectl -n ns-sourcegraph apply --prune -l deploy=sourcegraph -f cluster.yaml`
-11. Monitor the status of the deployment to determine its success.  
+11. Monitor the status of the deployment to determine its success.
     `kubectl -n ns-sourcegraph get pods --watch`.
 12. Confirm the new version [here](https://cse-k8s.sgdev.org/site-admin/updates)
 13. Please don't forget to `git push` to our repo to give folks a head up that you made the upgrade!

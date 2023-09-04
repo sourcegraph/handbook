@@ -146,7 +146,7 @@ The automatic release process works as follows:
 
 ## Deployment observability
 
-> NOTE: This section is a work in progress!
+> [!NOTE] This section is a work in progress!
 
 ### Deployment traces
 

@@ -1,6 +1,6 @@
 # Sourcegraph Cloud Custom Domain Support
 
-> WARNING: This is work in progress and not supported yet. Please reach out to #ask-cloud if you have any questions.
+> [!WARNING] This is work in progress and not supported yet. Please reach out to #ask-cloud if you have any questions.
 
 On Sourcegraph Cloud, customers may choose to bring their own domain in favour of the sourcegraph-managed domain name. For example, they can use `src.company.com` instead of `company.sourcegraph.com`.
 
@@ -34,7 +34,7 @@ Before setting up a custom domain, the customer has to satisfy the following req
 
 ### Steps
 
-> NOTE: For the exact steps, refer to the operation dashboard at go/cloud-ops
+> [!NOTE] For the exact steps, refer to the operation dashboard at go/cloud-ops
 
 1. CE/AE will create a GitHub issue with Cloud and provide us some neccessary information.
 1. Cloud will perform the initial setup and provide the customer with the DNS records that they need to create.
@@ -101,7 +101,7 @@ Learn more from [how to setup a custom domain](#how-to-set-up-a-custom-domain).
 
 ### Migrate current instances as a custom domain of the new Cloud domain
 
-> WARNING: you most likely are looking to enable custom domain instead of migrating `customer.sourcegraph.com` as custom domain of `customer.sourcegraphcloud.com`. this is only needed when we decided to deprecate `sourcegraph.com` on Cloud completely.
+> [!WARNING] you most likely are looking to enable custom domain instead of migrating `customer.sourcegraph.com` as custom domain of `customer.sourcegraphcloud.com`. this is only needed when we decided to deprecate `sourcegraph.com` on Cloud completely.
 
 As of 2023-05-03, new Cloud instances are provisioned with new domains of `sourcegraphcloud.com` or `sgdev.dev`. This seciton will walk you through the process of migrating `customer.sourcegraph.com` as a custom domain of `customer.sourcegraphcloud.com`.
 

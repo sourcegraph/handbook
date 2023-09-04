@@ -1,6 +1,6 @@
 # Cloud Operations Team
 
-> NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
+> [!NOTE] **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
 
 The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed) and building the next generation of them. The Cloud team has no other responsibilities.
 
@@ -62,7 +62,7 @@ Build a **fully managed platform** for using Sourcegraph, providing **feature co
 
 ### When to offer a Cloud Instance
 
-> NOTE: Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
+> [!NOTE] Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
@@ -213,7 +213,7 @@ Yes, you may disable the builtin authentication provider and only allow creation
 
 ### FAQ: How do I restart the frontend after changing the site-config?
 
-> NOTE: If you are a Cloud teammate, follow the regular operation playbook.
+> [!NOTE] If you are a Cloud teammate, follow the regular operation playbook.
 
 To restart the frontend for a customer, you can either execute:
 

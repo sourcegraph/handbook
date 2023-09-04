@@ -1,6 +1,6 @@
 # On-prem data migration to Cloud v2
 
-> WARNING: This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
+> [!WARNING] This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
 > This page was adapted only on a best-effort basis for Cloud v2 - it has currently not yet been thoroughly tested for Cloud v2.
 
 This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
@@ -179,7 +179,7 @@ The output is as follows:
 
 For custom or complex database setups, the operator will decide how best to proceed, in collaboration with IE/CSE/etc - the goal in the end is to generate the above database dumps in a format aligned with the output of `src snapshot databases pg_dump` (the plain `pg_dump` commands).
 
-> NOTE: Database export may affect the performance of the Sourcegraph instance while it is in progress. Depending on the size of the instance's databases, this can take a very long time.
+> [!NOTE] Database export may affect the performance of the Sourcegraph instance while it is in progress. Depending on the size of the instance's databases, this can take a very long time.
 
 ### Generate instance summary
 
@@ -192,7 +192,7 @@ src snapshot summary
 
 This will generate a JSON file at `src-snapshot/summary.json`. See `src snapshot summary --help` for more details.
 
-> NOTE: If the `src snapshot summary` command fails, the `--dump-requests` flag can be added to generate the underlying GraphQL query for generating the snapshot summary, which can be run directly in the GraphQL API console in site admin.
+> [!NOTE] If the `src snapshot summary` command fails, the `--dump-requests` flag can be added to generate the underlying GraphQL query for generating the snapshot summary, which can be run directly in the GraphQL API console in site admin.
 
 ### Upload snapshot contents to GCS bucket
 
@@ -202,7 +202,7 @@ If the above steps for creating the `src-snapshot` folder contents were followed
 src snapshot upload -bucket=$BUCKET -credentials=$CREDENTIALS_FILE
 ```
 
-> NOTE: `src snapshot upload` will upload all resources concurrently, but depending on the size of the database exports and other conditions, uploads may still take a very long time. If an upload fails, it may safely be attempted again.
+> [!NOTE] `src snapshot upload` will upload all resources concurrently, but depending on the size of the database exports and other conditions, uploads may still take a very long time. If an upload fails, it may safely be attempted again.
 
 Once the customer has indicated the upload succeeded, validate the contents of the bucket to ensure everything is there:
 
@@ -211,7 +211,7 @@ Once the customer has indicated the upload succeeded, validate the contents of t
 - `codeinsights.sql`
 - `summary.json`
 
-> NOTE: Data is currently [retained for 7 days](https://github.com/sourcegraph/cloud-data-migrations/blob/6ab4c982d505d76c8c7aa6fa2e22ce8c2495055a/modules/migration_resources/main.tf#L90-L98).
+> [!NOTE] Data is currently [retained for 7 days](https://github.com/sourcegraph/cloud-data-migrations/blob/6ab4c982d505d76c8c7aa6fa2e22ce8c2495055a/modules/migration_resources/main.tf#L90-L98).
 
 Audit logs are generated for bucket access in the project's logs, under log entries with `@type: "type.googleapis.com/google.cloud.audit.AuditLog"`.
 
@@ -271,7 +271,7 @@ gcloud --project $TARGET_INSTANCE_PROJECT sql import sql $TARGET_CLOUD_SQL_INSTA
 
 ### Upgrade databases
 
-> NOTE: This step may be skipped if the customer upgraded to the latest version (equivalent to the active Cloud instance) before creating their snapshot.
+> [!NOTE] This step may be skipped if the customer upgraded to the latest version (equivalent to the active Cloud instance) before creating their snapshot.
 
 If the Sourcegraph version of the imported database is behind Cloud, then you must run a database migration:
 
@@ -279,7 +279,7 @@ If the Sourcegraph version of the imported database is behind Cloud, then you mu
 mi2 instance debug migrate-db --from-version="$FROM_VERSION" --auto-approve
 ```
 
-> NOTE: If anything goes horribly wrong, you can [reset databases](#reset-databases) and continue again from there with adjusted steps as needed.
+> [!NOTE] If anything goes horribly wrong, you can [reset databases](#reset-databases) and continue again from there with adjusted steps as needed.
 
 ### Spin up instance
 

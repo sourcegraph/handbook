@@ -133,7 +133,7 @@ For any anticipated spending over $1,000 USD, please follow the above steps and 
 
 We advise spending within reason for the location you are visiting, with a $300 USD per night maximum spend limit (including taxes, fees, and parking).
 
-> NOTE: Spending over $300 USD per night requires additional approvals from
+> [!NOTE] Spending over $300 USD per night requires additional approvals from
 > Finance / People Ops.
 >
 > _Please send travel@sourcegraph.com an email with your manager and

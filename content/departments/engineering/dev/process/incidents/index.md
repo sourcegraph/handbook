@@ -77,7 +77,7 @@ The incident lead may delegate tasks to other available/working engineers if nec
 
 If it's a security related issue, it's best to also loop in the security team.
 
-> NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
+> [!NOTE] Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
 
 #### Messenger
 

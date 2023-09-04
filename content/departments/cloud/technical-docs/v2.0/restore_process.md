@@ -25,7 +25,7 @@ mi2 instance sql-backup list --slug $SLUG -e $ENVIRONMENT
 
 Restore the backup to the current instance.
 
-> NOTE: **IMPORTANT** This will override all current data with the backup.
+> [!NOTE] **IMPORTANT** This will override all current data with the backup.
 
 ```sh
 mi2 instance sql-restore create --backup-id $SQL_BACKUP_ID --slug $SLUG -e $ENVIRONMENT
@@ -68,7 +68,7 @@ note the backup name, you will need it later.
 
 ### Restore cluster and applications from backup
 
-> WARNING: this will spin up a new GKE cluster and replace it with the previous backup
+> [!WARNING] this will spin up a new GKE cluster and replace it with the previous backup
 
 ```sh
 cd sourcegraph/cloud
@@ -82,7 +82,7 @@ mi2 instance restore create --backup-name $BACKUP_NAME --restore-type full-repla
 
 ### Restore the full namespace
 
-> WARNING: this will restore both application statue and disk to the state of backup
+> [!WARNING] this will restore both application statue and disk to the state of backup
 
 ```sh
 cd sourcegraph/cloud
@@ -93,7 +93,7 @@ mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-repl
 
 e.g. `sourcegraph-frontend`
 
-> WARNING: make sure no disk or statefulset application is deleted, or we will risk data loss
+> [!WARNING] make sure no disk or statefulset application is deleted, or we will risk data loss
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
@@ -113,7 +113,7 @@ mi2 instance restore create --backup-name $BACKUP_NAME --restore-type [gitserver
 
 e.g. `gitserver`, `zoekt`
 
-> WARNING: this assumes deletion of StatefulSet and/or application PVC/PV. GCP will create new empty disk and attach it.
+> [!WARNING] this assumes deletion of StatefulSet and/or application PVC/PV. GCP will create new empty disk and attach it.
 > You probally want to [restore with disk backup](#restore-statefull-application-with-disk-restore)
 
 ```sh

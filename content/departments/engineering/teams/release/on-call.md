@@ -20,7 +20,7 @@ After 10 minutes, the Technical Manager is paged and expected to provide an init
 
 This is designed to ensure that an initial response is produced within 20 minutes of the page.
 
-> Note: ⚠️ An OpsGenie page is considered an emergency. It may wake up the EOC in the middle of the night. It's expected to be used with the utmost discretion.
+> [!NOTE] ⚠️ An OpsGenie page is considered an emergency. It may wake up the EOC in the middle of the night. It's expected to be used with the utmost discretion.
 
 ### Support Responses
 

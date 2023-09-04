@@ -152,7 +152,7 @@ git checkout -b $SLUG/create-instance
 mi2 instance create -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG [--region <GCP_REGION>]
 ```
 
-> NOTE: `--region` flag is optional, value must be from [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/apis/sourcegraphcloud/types.go?L28). Without specifying flag `--region`, default instance GCP region is `us-central1`
+> [!NOTE] `--region` flag is optional, value must be from [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/apis/sourcegraphcloud/types.go?L28). Without specifying flag `--region`, default instance GCP region is `us-central1`
 
 ```sh
 export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')

@@ -10,7 +10,7 @@ Metrics are gathered from all resources using the included Prometheus instance. 
 
 These metrics are viewable through our centralised Grafana instance hosted at: https://monitoring.sgdev.org.
 
-> NOTE: access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
+> [!NOTE] access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
 
 ### Multi-instance dashboard
 
@@ -54,4 +54,4 @@ resource.type="cloudsql_database"
 log_name=~"cloudsql.googleapis.com%2Fpostgres.log"
 ```
 
-> Note: to identify the correct GCP project, please refer to [FAQ: How do I figure out the GCP Project ID for a customer?](../../index.md#faq-how-do-i-figure-out-the-gcp-project-id-for-a-customer)
+> [!NOTE] to identify the correct GCP project, please refer to [FAQ: How do I figure out the GCP Project ID for a customer?](../../index.md#faq-how-do-i-figure-out-the-gcp-project-id-for-a-customer)

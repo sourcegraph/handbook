@@ -8,7 +8,7 @@ For more context on monitoring at Sourcegraph, you should refer to:
 - [Sourcegraph monitoring pillars](./monitoring_pillars.md)
 - [Sourcegraph monitoring architecture](./monitoring_architecture.md)
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
+> [!NOTE] Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
 
 ![image](https://user-images.githubusercontent.com/3173176/82078081-65c62780-9695-11ea-954a-84e8e9686970.png)
 
@@ -26,7 +26,7 @@ To view metrics, built-in Grafana dashboards are available in [https://sourcegra
 
 [Custom dashboards](#creating-cloud-only-grafana-dashboards) are also available via the Grafana interface's dashboards browser.
 
-> WARNING: Metrics are not yet available in Grafana Cloud, and the built-in dashboards are only available to site admins in Sourcegraph Cloud. We are currently investigating avenues for making these dashboards available without requiring site admin access: [sourcegraph/sourcegraph#25407](https://github.com/sourcegraph/sourcegraph/issues/25407)
+> [!WARNING] Metrics are not yet available in Grafana Cloud, and the built-in dashboards are only available to site admins in Sourcegraph Cloud. We are currently investigating avenues for making these dashboards available without requiring site admin access: [sourcegraph/sourcegraph#25407](https://github.com/sourcegraph/sourcegraph/issues/25407)
 
 ### Alerts
 

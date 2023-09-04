@@ -1,6 +1,6 @@
 # Conflict resolution
 
-> NOTE: This page relates to interpersonal conflict related to work disagreements. Anyone who feels harassed, discriminated against, or has a question or concern about a violation of our [code of conduct](code_of_conduct.md) should report the incident following the [raising concerns](code_of_conduct.md#raising-concerns) section of our code of conduct.
+> [!NOTE] This page relates to interpersonal conflict related to work disagreements. Anyone who feels harassed, discriminated against, or has a question or concern about a violation of our [code of conduct](code_of_conduct.md) should report the incident following the [raising concerns](code_of_conduct.md#raising-concerns) section of our code of conduct.
 
 _I disagree with the decision to…_
 

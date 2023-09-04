@@ -1,6 +1,6 @@
 # Using Cody Gateway
 
-> NOTE: This page is for internal Sourcegraph reference - for customer-facing documentation, please refer to [**Sourcegraph Cody Gateway docs**](https://docs.sourcegraph.com/cody/explanations/cody_gateway) instead.
+> [!NOTE] This page is for internal Sourcegraph reference - for customer-facing documentation, please refer to [**Sourcegraph Cody Gateway docs**](https://docs.sourcegraph.com/cody/explanations/cody_gateway) instead.
 
 Cody Gateway can be configured as a provider for [Cody completions](https://docs.sourcegraph.com/cody/completions) and [Cody embeddings](https://docs.sourcegraph.com/cody/explanations/code_graph_context#embeddings).
 This page provides enablement to help Sourcegraph teammates grant customers access to Cody Gateway and analyze usage.
@@ -10,7 +10,7 @@ For customers who adopted Cody completions prior to Sourcegraph 5.1.0, see [Migr
 
 To learn more about Cody Gateway, refer to the [main Cody Gateway page](./index.md) and the [customer-facing documentation](https://docs.sourcegraph.com/cody/explanations/cody_gateway).
 
-> NOTE: Cody Gateway is only available to instances on Sourcegraph 5.1.0 and above. This guidance is not relevant to customers on any previous Sourcegraph release.
+> [!NOTE] Cody Gateway is only available to instances on Sourcegraph 5.1.0 and above. This guidance is not relevant to customers on any previous Sourcegraph release.
 
 ## Provisioning access
 
@@ -28,21 +28,21 @@ Access to the production Cody Gateway instance can be provisioned with the follo
 
 Once access is provisioned (i.e. enabled via Cody Gateway), the Sourcegraph instance must be [configured](#configuration) as well.
 
-> WARNING: Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
+> [!WARNING] Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
 
 <br />
 
-> NOTE: Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
+> [!NOTE] Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
 
 ## Configuration
 
-> WARNING: **For Sourcegraph Cloud customers, please use the [Cody enablement issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fenable-cody-request&projects=&template=managed-instance-configure-cody.yml&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D) to request configuration** instead of applying configuration changes yourself or asking the customer to do so.
+> [!WARNING] **For Sourcegraph Cloud customers, please use the [Cody enablement issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fenable-cody-request&projects=&template=managed-instance-configure-cody.yml&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D) to request configuration** instead of applying configuration changes yourself or asking the customer to do so.
 > If using custom models, please ensure [the subscription has the prerequisite access to the desired models](#provisioning-access).
 
 First, [provision access](#provisioning-access) for the customer.
 Once access has been provisioned, for self-hosted customers please point them to the [customer-facing Sourcegraph Cody Gateway docs](https://docs.sourcegraph.com/cody/explanations/cody_gateway) to enable Cody and self-serve configuration for completions and embeddings.
 
-> NOTE: The generated access token from [provisioning access](#provisioning-access) is generally not required - tokens are automatically generated based on the Sourcegraph instance's license token.
+> [!NOTE] The generated access token from [provisioning access](#provisioning-access) is generally not required - tokens are automatically generated based on the Sourcegraph instance's license token.
 > In site configuration, we recommend _not_ setting an access token explicitly when using Cody Gateway to take advantage of automatic defaults.
 
 ## Analyzing usage
@@ -62,7 +62,7 @@ We have quota usage notifications when a customer consumes various percentages o
 
 ## Migrating from Anthropic/OpenAI completions
 
-> NOTE: This is most relevant for customers who adopted Cody completions prior to Sourcegraph 5.1.0.
+> [!NOTE] This is most relevant for customers who adopted Cody completions prior to Sourcegraph 5.1.0.
 
 Customers using another provider for completions can be migrated to Cody Gateway by first [provisioning access](#provisioning-access), then configuring `sourcegraph` as the completions provider and replacing `accessToken` with the provisioned product subscription access token.
 
