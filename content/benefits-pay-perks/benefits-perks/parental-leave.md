@@ -68,9 +68,9 @@ Once you’ve completed the questionnaire, your Leave Case Manager will reach ou
 ### **Step 3: Pre-leave tasks**
 
 - **US Teammates: **Once you’ve communicated your leave dates with Tilt, please keep a close eye on your email for all Tilt notifications and assigned tasks. They will provide guidance on how to prepare for leave, important information while you’re out on leave, and returning from leave. Examples include:
-  - Set your PTO by using [Deel-PTO ](../../#recording-pto)in Slack (select the Parental Leave category) to record your leave and return-to-work dates. Be sure to ‘Assign your role’ to your Manager.
+  - Set your PTO by using [Deel-PTO ](time-off/index.md#recording-pto)in Slack (select the Parental Leave category) to record your leave and return-to-work dates. Be sure to ‘Assign your role’ to your Manager.
   - Creating an [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit#heading=h.kk2ownwq3nq8)
-- **Non-US Teammate**: Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO ](../#recording-pto)in Slack (select the Parental Leave category). Be sure to 'Assign your role' to your Manager.
+- **Non-US Teammate**: Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO ](time-off/index.md#recording-pto)in Slack (select the Parental Leave category). Be sure to 'Assign your role' to your Manager.
 
 ### **Step 4: Take your leave**
 
@@ -82,9 +82,9 @@ Once you’ve completed the questionnaire, your Leave Case Manager will reach ou
 ### **Step 5: Prepare to return to work**
 
 - **US Teammates:** Continue to monitor your Tilt notifications/emails and prepare for work. Tilt will reach out to confirm your return 1 week prior to your return.
-  - IMPORTANT: If your return-to-work date needs to be changed, notify Tilt right away. You will also need to adjust your dates in [Deel-PTO](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off/#recording-pto) in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
+  - IMPORTANT: If your return-to-work date needs to be changed, notify Tilt right away. You will also need to adjust your dates in [Deel-PTO](time-off/index.md#recording-pto) in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
 - **Non-US Teammates:** The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) with your confirmed return date.
-  - IMPORTANT: If your return-to-work date needs to be changed, please notify the People Team via email ([People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com)) as soon as possible. You will also need to adjust your dates in [Deel-PTO](../../#recording-pto) in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
+  - IMPORTANT: If your return-to-work date needs to be changed, please notify the People Team via email ([People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com)) as soon as possible. You will also need to adjust your dates in [Deel-PTO](time-off/index.md#recording-pto) in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
 
 ### **Step 6: Returning from leave**
 
