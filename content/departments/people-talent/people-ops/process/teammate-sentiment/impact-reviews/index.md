@@ -207,11 +207,13 @@ In addition to asking the above questions during the Impact Review process, we a
 
 #### Unless promoted, Teammates should not exceed 15% increases in a given 12-month period.
 
-\*\* Note: Please reference the following mapping of scores from our prior talent assessment framework to your current one:
-New Rating = 1 Distinguished Performance
-[1:1, 2:1, 1:2] = 2 Superior Performance
-[2:2] = 3 Meeting Performance Expectations
-[3:2, 2:3, 3:3] = 4 Partially Successful Performance
+_Note_: Please reference the following mapping of scores from our prior talent assessment framework to your current one:
+
+- New Rating(no prior scores map to this) = 1 Distinguished Performance
+- [1:1, 2:1, 1:2] = 2 Superior Performance
+- [2:2] = 3 Meeting Performance Expectations
+- [3:2, 2:3, 3:3] = 4 Partially Successful Performance
+- New Rating (No prior scores map to this) = 5
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
