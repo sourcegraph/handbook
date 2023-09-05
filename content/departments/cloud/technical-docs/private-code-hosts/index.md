@@ -37,7 +37,6 @@ spec:
         highAvailable: true
         region: <AWS_REGION>
       enabled: true
-      type: awsvpn
 ```
 
 #### 3. Generate additional terraform stacks
@@ -191,6 +190,7 @@ resource "aws_lb" "nlb" {
   subnets            = var.customer_vpc_public_subnets
 
   enable_deletion_protection = true
+  enable_cross_zone_load_balancing = true
 
   tags = {
    // customer tags
@@ -213,6 +213,9 @@ resource "aws_lb_listener" "tls" {
 resource "aws_vpc_endpoint_service" "customer_gitlab" {
   acceptance_required        = true
   network_load_balancer_arns = [aws_lb.nlb.arn]
+
+  # optional
+  private_dns_name = <CUSTOMER_PRIVATE_DNS_NAME_FOR_CODE_HOST>
 
   allowed_principals = [
     "arn:aws:iam::<SOURCEGRAPH_MANAGED_CUSTOMER_AWS_ACCOUNT_ID>:root"
@@ -331,7 +334,6 @@ Follow the usual process to handle instance creation process, by make sure to cr
 ```yaml
 privateCodeHost:
   enabled: true
-  type: psc
   gcp:
     # provided by the customer
     targetService: projects/:project/regions/:region/serviceAttachments/:name
