@@ -177,11 +177,11 @@ A: Your manager will share your promo/comp change letter with you. It will be up
 
 **Q: When will my compensation and/or promotion go into effect?**
 
-A: **the first of the month that the feedback delivery takes place**
+A: the first of the month that the feedback delivery takes place
 
 ### Q: When will I be able to see my compensation and/or promotion in Bamboo?
 
-A: ~**the first of the month the month after it goes into effect**
+A: ~the first of the month the month after it goes into effect
 
 ### Q: I disagree with my Impact Review rating. What should I do?
 
