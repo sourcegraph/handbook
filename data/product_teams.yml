@@ -9,15 +9,6 @@ search_product:
   issue_labels:
     - team/search-product
 
-search_core:
-  title: Search Core
-  brief: The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results
-  strategy_link: /strategy-goals/strategy/search/core/index.md
-  em: erika_rice_scherpelz
-  design: rob_rhyne
-  issue_labels:
-    - team/search-core
-
 code_intelligence:
   title: Code Intelligence
   brief: Code intelligence provides features and services that help developers better understand and navigate code.
@@ -52,12 +43,32 @@ code_exploration:
   issue_labels:
     - team/code-exploration
 
+search_platform:
+  title: Search Platform
+  brief: The Search Platform Team provides information retrieval on top of data sources
+  strategy_link: /strategy-goals/strategy/search/core/index.md
+  em: thorsten_ball_search_platform
+  design: rob_rhyne
+  issue_labels:
+    - team/search-core
+
 source:
   title: Source
   brief: The Source team is responsible for code host integrations, gitserver, repo-updater, authentication & authorization to Sourcegraph, user management, and admin experience.
-  strategy_link: /strategy-goals/strategy/source/index.md
+  strategy_link: /strategy-goals/strategy/platform/source.md
   pm: ryan_phillips
-  em: thorsten_ball
+  em: thorsten_ball_source
+  issue_labels:
+    - team/iam
+    - team/admin-exp
+    - team/repo-management
+
+apis:
+  title: APIs
+  brief: The APIs team is responsible for providing a structured way for internal and external partners to build on top Sourcegraph
+  strategy_link: /strategy-goals/strategy/platform/apis.md
+  pm: ryan_phillips
+  em: thorsten_ball_apis
   issue_labels:
     - team/iam
     - team/admin-exp
