@@ -6,15 +6,15 @@ Performance review feedback fosters a culture of continuous learning and improve
 
 ## Preparing to deliver impact reviews
 
-1H FY24 Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report.
+2H FY24 Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report.
 
 Each Manager is responsible for scheduling a 30 - 60 minute meeting with each Teammate to deliver their review packet, along with any corresponding promotion, compensation increases and/or equity increases.
 
-All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Impact Review Cycle_
+All conversations must take place no later than \*_September 14, 2023 for H2 FY24 Impact Review Cycle_
 
 ### Checklist: before the impact review conversation
 
-1. Schedule a 30-60 minute 1:1 between 2023-04-12 and 2023-04-26
+1. Schedule a 30-60 minute 1:1 between 2023-09-06 and 2023-09-14
 2. Add their final score to the impact review packet in Lattice
 3. Send a Slack message to your direct report:
 
