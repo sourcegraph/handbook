@@ -11,13 +11,11 @@ Performance review feedback fosters a culture of continuous learning and improve
 Each Manager is responsible for scheduling a 30 - 60 minute meeting with each Teammate to deliver their review packet, along with any corresponding promotion, compensation increases and/or equity increases.
 
 All conversations must take place no later than \*_September 14, 2023 for H2 FY24 Impact Review Cycle_
-
 ### Checklist: before the impact review conversation
 
 1. Schedule a 30-60 minute 1:1 between 2023-09-06 and 2023-09-14
 2. Add their final score to the impact review packet in Lattice
 3. Send a Slack message to your direct report:
-
    _“Hi [Teammate Name] - I just sent you a calendar invite to walk through your impact review. I'm looking forward to discussing your self-review, along with the feedback that you received from me and your peers. Before the meeting, please review about our [impact review process](index.md) to set the stage for a meaningful conversation. Looking forward to it!_
 
    _Agenda:_
