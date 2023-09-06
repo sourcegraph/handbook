@@ -89,7 +89,7 @@ The Recruiter opens the job in Greenhouse by clicking "Add" at the top, then "Cr
 - Copy the existing "Template" job.
 - Input all required fields into "Job Info", including the correct cost center, division, and Radford code. The compensation can be confirmed in Assemble. You can read more on how to view our internal compensation bands [here](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands.md).
   - **Note:** Please include the job level (e.g. M3, IC4, etc.) in the title of the internal job name that appears in Greenhouse.
-    - Example: Product Designer (IC4) 
+    - Example: Product Designer (IC4)
   - **Note:** Please put the top of band for the finance budget.
   - **Note:** The cost center and division can be found on the [How to open a new job responses](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). Please reach out to #team-people-and-talent if you are unsure of how to fill them in.
 - Input all required fields for the "Hiring team", "Job kickoff", "Scorecard", "Interview plan", "Job Post" and "Email notifications".
