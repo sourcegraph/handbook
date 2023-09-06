@@ -10,10 +10,9 @@ Performance review feedback fosters a culture of continuous learning and improve
 
 Each Manager is responsible for scheduling a 30 - 60 minute meeting with each Teammate to deliver their review packet, along with any corresponding promotion, compensation increases and/or equity increases.
 
-
 ### Checklist: before the impact review conversation
 
-1. Schedule a 30-60 minute 1:1 
+1. Schedule a 30-60 minute 1:1
 2. Add their final score to the impact review packet in Lattice
 3. Send a Slack message to your direct report:
 
@@ -73,7 +72,7 @@ Immediately following the 1:1, please:
 
 - The People Team will send each manager a folder in Google Drive with their team's merit letters. It is **very important** that you review each one for accuracy before sending to the teammate.
   1.  Sample Slack message for $ merit increase ONLY
-      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle.  You can find your merit letter here (insert PDF). Carly & [People Partner name] Lauren are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. You can find your merit letter here (insert PDF). Carly & [People Partner name] Lauren are also included on this message to answer any questions you may have. Congratulations again!
   2.  Sample Slack message for $ merit increase AND equity refresh
       > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. Looking forward to an incredible FY24 with you! I've attached your merit letter (insert PDF) and your equity refresh letter (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   3.  Sample Slack message for No $ merit increase, no promo, no equity refresh
