@@ -6,7 +6,7 @@ Performance review feedback fosters a culture of continuous learning and improve
 
 ## Preparing to deliver impact reviews
 
-1H FY24 Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report.
+Impact reviews will be delivered synchronously in a 1:1 between the Manager and their direct report.
 
 Each Manager is responsible for scheduling a 30 - 60 minute meeting with each Teammate to deliver their review packet, along with any corresponding promotion, compensation increases and/or equity increases.
 
@@ -50,7 +50,7 @@ You’ll meet 1:1 with each of your direct reports to deliver the results of our
 During these meetings, you’ll cover the following with each Teammate:
 
 1. Overview of our [impact review process](index.md)
-2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**.
+2. Deliver the impact review, including **sharing overall score ([please leverage the visual linked here](index.md#the-talent-assessment-framework))**.
 
 3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
@@ -72,13 +72,13 @@ Immediately following the 1:1, please:
 
 - The People Team will send each manager a folder in Google Drive with their team's merit letters. It is **very important** that you review each one for accuracy before sending to the teammate.
   1.  Sample Slack message for $ merit increase ONLY
-      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. You can find your merit letter here (insert PDF). Carly & [People Partner name] Lauren are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. You can find your merit letter here (insert PDF). Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   2.  Sample Slack message for $ merit increase AND equity refresh
-      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. Looking forward to an incredible FY24 with you! I've attached your merit letter (insert PDF) and your equity refresh letter (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle.  I've attached your merit letter (insert PDF) and your equity refresh letter (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   3.  Sample Slack message for No $ merit increase, no promo, no equity refresh
-      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. Please let me know if you have any issues accessing your Lattice review packet. I'm looking forward to an incredible FY24 with you! Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. Please let me know if you have any issues accessing your Lattice review packet. Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   4.  Sample Slack message for No $ merit increase, YES equity refresh
-      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. I'm looking forward to an incredible FY24 with you! To recognize you for your performance, we are pleased to present you with an equity refresh, outlined here (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle.  To recognize you for your performance, we are pleased to present you with an equity refresh, outlined here (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   5.  Sample Slack message for “Not Meeting High Bar” Teammates”:
       > Hi [Teammate name] - thank you for our conversation today. I know receiving feedback is never easy, but I believe in you and am excited to work with you to improve. [Feel free to insert specifics on where you need to see improvement/feel free to be firm if you need to see immediate turn around in certain areas]. Please let me know if you have any questions as you read through your impact review packet, which has been shared via Lattice, and I look forward to talking about the ways in which I can support your growth in our next 1:1. I’m also looping in [People Partner name], who is here to help you as well.
 
@@ -104,7 +104,7 @@ Share with the teammate:
 
 ### Deliver the impact review
 
-Next, screen share the Teammate's review packet in Lattice and give a summary of the review.
+Next, screen share the Teammate's review packet in Lattice and give a summary of the review. (Ensure that you are NOT sharing the Manager Version of the review)
 
 Highlight what went well with supporting examples, and areas for growth and improvement. Acknowledge where 360 feedback supports your review. Highlight specific examples of work in each section. Regularly pause for questions. This is a discussion - be open to feedback from the Teammate, but also do not debate.
 
@@ -119,22 +119,8 @@ Best practices for delivering feedback:
 - Be an active listener, and ask open ended questions.
 - Don't be defensive.
 
-#### Teammates receiving a 1 in either category (values or performance) - talking points:
 
-- Sourcegraph holds a high bar for performance and demonstration of our values
-- We expect ~20% of all Teammates to receive a 1 in either categories - a 1 score **exceeds our high bar** for performance and values
-- You are exceptionally valued here - your contributions are recognized by me, and by our leadership team
-  - Specifically in this review period, your work on [xyz] was exceptional, and [explain impact].
-- I’m pleased to share that you’ll receive a compensation increase of x% in recognition of your exceptional contributions to our team. I’ll share a document with you outlining details of your increase following our meeting.
-  - If they would not have normally been eligible for a comp increase this cycle: while you would not have been eligible for a comp increase this cycle, I am giving a discretionary increase to recognize your exceptional work this period.
-- Thank you for your excellent work over the last 6 months. You are a deeply valued member of our team. Let’s talk about our team’s work over the next 6 months, and how I see you fitting into that work. I’d also like to discuss your career goals longer-term, and opportunities we have to support that growth.
-
-- _If promotion:_ Recognizing your contributions, and that you’re performing at the next level, I’m happy to share that you are receiving a promotion to [new title]
-  - [Highlight 2-3 specific examples that factored into the promotion decision]
-
-A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! Starting May 1st, Managers will [share the good promotion news with Teammates](../../../../../../company-info-and-process/communication/announcements.md#promotions) in #teammate-announce by highlighting the promoted Teammate and their accomplishments that supported their promotion.
-
-**What not to do** we expect Managers to be confident in the score that they're providing to the teammate. We make it clear at all points during the calibration process that we do not force a distrubution, and all managers have signed off on all final scores. At no point should you say the following:
+**What not to do** we expect Managers to be confident in the score that they're providing to the teammate. We make it clear at all points during the calibration process that we do not force a distribution, and all managers have signed off on all final scores. At no point should you say the following:
 
 - I wanted to give you a 1 but my Manager/the people team/someone else made me give you a 2
 - I fought really hard to get you a 1 but [someone] wouldn't let me
