@@ -10,11 +10,9 @@ Performance review feedback fosters a culture of continuous learning and improve
 
 Each Manager is responsible for scheduling a 30 - 60 minute meeting with each Teammate to deliver their review packet, along with any corresponding promotion, compensation increases and/or equity increases.
 
-All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Impact Review Cycle_
-
 ### Checklist: before the impact review conversation
 
-1. Schedule a 30-60 minute 1:1 between 2023-04-12 and 2023-04-26
+1. Schedule a 30-60 minute 1:1
 2. Add their final score to the impact review packet in Lattice
 3. Send a Slack message to your direct report:
 
@@ -54,11 +52,6 @@ During these meetings, you’ll cover the following with each Teammate:
 1. Overview of our [impact review process](index.md)
 2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**.
 
-- Guidance for sharing review packet based on rating:
-  - For **meeting and exceeding**: You are welcome to share your screen and walk through the review packet live or share the review packet at the beginning of the meeting ([view instructions on how to share a packet here](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks)). If you choose to do this, please give them 5-minutes at the beginning of the meeting to read through it.
-  - For **not meeting (3s)**: Walk through the feedback live and share the packet afterwards.
-- Whatever you do, if you share your screen, please make sure you are sharing the teammate version (do not share the manager version).
-
 3. Click here to see [Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 4. Share compensation increase (if any)
    1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
@@ -79,7 +72,7 @@ Immediately following the 1:1, please:
 
 - The People Team will send each manager a folder in Google Drive with their team's merit letters. It is **very important** that you review each one for accuracy before sending to the teammate.
   1.  Sample Slack message for $ merit increase ONLY
-      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. Looking forward to an incredible FY24 with you! You can find your merit letter here (insert PDF). Carly & [People Partner name] Lauren are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. You can find your merit letter here (insert PDF). Carly & [People Partner name] Lauren are also included on this message to answer any questions you may have. Congratulations again!
   2.  Sample Slack message for $ merit increase AND equity refresh
       > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. Looking forward to an incredible FY24 with you! I've attached your merit letter (insert PDF) and your equity refresh letter (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   3.  Sample Slack message for No $ merit increase, no promo, no equity refresh
@@ -106,7 +99,7 @@ Share with the teammate:
 - I’ve met with my peers, my manager and the people team to calibrate ratings across the organization and ensure we're maintaining a fair and equitable performance bar
 - If applicable: we’ve also made compensation and promotion decisions as part of this process
 - Once we’re done with our meeting, I’ll share your review packet with you in Lattice (_and compensation/promotion information, if applicable)_
-- if applicable: you will receive your compensation increase at the end of April/early May, but it will be backdated to April 1.
+- if applicable: you will receive your compensation increase at the end of April/early May, but it will be backdated to Sep 1.
 - We will conduct this process every 6 months.
 
 ### Deliver the impact review
@@ -140,42 +133,6 @@ Best practices for delivering feedback:
   - [Highlight 2-3 specific examples that factored into the promotion decision]
 
 A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! Starting May 1st, Managers will [share the good promotion news with Teammates](../../../../../../company-info-and-process/communication/announcements.md#promotions) in #teammate-announce by highlighting the promoted Teammate and their accomplishments that supported their promotion.
-
-#### Teammates receiving 2:2 scores - talking points:
-
-- Sourcegraph holds a high bar for performance and demonstration of our values
-- We expect ~70% of all Teammates to receive a 2 in both categories - a 2 score **meets our high bar** for performance and values
-- Most Teammates receive this score and it is a score to be proud of!
-  - _If compensation increase:_ I’m pleased to share that you’ll receive a compensation increase of x% in recognition of your ongoing contributions to our team. I’ll share a document with you outlining details of your increase following our meeting.
-- You are a deeply valued member of our team. Let’s talk about our team’s work over the next 6 months, and how I see you fitting into that work. I’d also like to discuss your career goals longer-term, and opportunities we have to support that growth.
-
-**What not to do** we expect Managers to be confident in the score that they're providing to the teammate. We make it clear at all points during the calibration process that we do not force a distrubution, and all managers have signed off on all final scores. At no point should you say the following:
-
-- I wanted to give you a 1 but my Manager/the people team/someone else made me give you a 2
-- I fought really hard to get you a 1 but [someone] wouldn't let me
-- I wanted to give you a 1 but due to budget reasons I couldn't
-- Anything else that would suggest you, as the manager, aren't 100% confident in their final score
-
-#### Teammates receiving a 3 in either category (values or performance) - talking points:
-
-In advance of your meeting, please schedule time with your People Partner to prep.
-
-During the meeting:
-
-- Sourcegraph holds a high bar for performance and demonstration of our values.
-- Unfortunately you are **not currently meeting our high bar** in [values and/or performance]
-- Today we'll discuss several examples where you were not meeting our high bar
-  - Teammates who get a 3 often have one of the below scenarios:
-    - Skills not meeting expectations: This teammate’s skills are below expectations and are inhibiting their ability to perform at their current level. They need to work with their manager immediately to improve their skillset. Their values adherence meet or exceed expectations.
-    - Skill inconsistency: this teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results. Their values adherence meet or exceed expectations.
-    - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-- I am committed to supporting you in meeting our high bar over the course of the next six months, however I need to make it clear that I must see your performance improve.
-- Let’s now discuss ways in which I can support you moving forward.
-- Important: we recognize that by the time you're delivering feedback, several weeks/months may have passed since the review period. If you've seen improvements since the review cycle, be sure to recognize and celebrate!
-
-Note: if the Teammate gets a 3:3, this can be cause for an immediate PIP. Please be sure to be crystal clear in your communication that skill and values alignment must improve immediately.
-
-_If you have questions about how to conduct this conversation with Teammates receiving a “3” please reach out to your People Partner for support._
 
 **What not to do** we expect Managers to be confident in the score that they're providing to the teammate. We make it clear at all points during the calibration process that we do not force a distrubution, and all managers have signed off on all final scores. At no point should you say the following:
 
