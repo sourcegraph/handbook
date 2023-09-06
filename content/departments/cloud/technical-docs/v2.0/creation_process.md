@@ -24,7 +24,7 @@ Invoke [Managed Instance create GitHub Action](https://github.com/sourcegraph/cl
 - `license_key` - the product license key to be applied to the instance
 - `target_src_version` - use the latest tested sourcegraph version, e.g. `4.2.1` (no `v` prefix)
 - `gcp_region` - GCP region to deploy instance, one of [supported regions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/cloud/-/blob/.github/workflows/mi_create.yml?L44)
-- `enable_cody` - Set `cody.enabled` to true for this instance
+- `instance_features` - Comma-separated list of feature tags, e.g., `enable_cody`, `static_nat_ip`.
 - `dry_run` - (optional) whether to deploy GCP resources, enable to create the PR but not apply the resources
 
 or via command line:
@@ -39,7 +39,7 @@ gh workflow run -R github.com/sourcegraph/cloud  \
   -f customer_admin_email=$CUSTOMER_ADMIN_EMAIL \
   -f gcp_region=us-central1 \
   -f dry_run=[true|false] \
-  -f enable_cody=[true|false] \
+  -f instance_features=enable_cody,static_nat_ip \
   -f license_key=$LICENSE_KEY
 ```
 
