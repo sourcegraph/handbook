@@ -159,9 +159,9 @@ Our [Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-
   - The business need exists for the role to increase in job scope, or capacity requirements show additional headcount at a higher job scope is required (IC5+ and M4+).
   - The promotion decision is occurring at a justified and fair rate.
 
-### Q: Why is my values/performance rating not in my review?
+### Q: Why is my performance rating not in my review?
 
-- A: Managers, you may reach out to your People Partner to re-open the Lattice review and add the performance/values rating in Question 1.
+- A: Managers, you may reach out to your People Partner to re-open the Lattice review and add the performance rating in Question 1.
 
 ### Q: Inflation and the Consumer Price Index increased significantly in the past year. Why doesn’t my merit increase match increased inflation/CPI numbers?
 
@@ -177,11 +177,11 @@ A: Your manager will share your promo/comp change letter with you. It will be up
 
 **Q: When will my compensation and/or promotion go into effect?**
 
-A: **2023-04-01**
+A: **the first of the month that the feedback delivery takes place**
 
 ### Q: When will I be able to see my compensation and/or promotion in Bamboo?
 
-A: ~**2023-05-01**
+A: ~**the first of the month the month after it goes into effect**
 
 ### Q: I disagree with my Impact Review rating. What should I do?
 
