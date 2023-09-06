@@ -111,7 +111,7 @@ thorsten_ball_apis:
 thorsten_ball_search_platform:
   name: Thorsten Ball
   pronouns: he/him/his
-  role: Engineering Manager, Search Platform (interims)
+  role: Engineering Manager, Search Platform (interim)
   reports_to: eng_lead
   manager_role_slug: search_platform_lead
   hide_on_team_page: true
