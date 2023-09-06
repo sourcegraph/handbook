@@ -99,7 +99,7 @@ People Ops will loop in Tech Ops and Payroll (if applicable), then action all ne
 
 If new cost centers are being implemented:
 
-- People Ops will loop in Tech Ops + Payroll and will wait for their confirmation prior to making any Bamboo updates.
+- People Ops will loop in Tech Ops + Finance and will wait for their confirmation prior to making any Bamboo updates.
 
 If new divisions are being implemented:
 
