@@ -74,11 +74,11 @@ Immediately following the 1:1, please:
   1.  Sample Slack message for $ merit increase ONLY
       > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. You can find your merit letter here (insert PDF). Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   2.  Sample Slack message for $ merit increase AND equity refresh
-      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle.  I've attached your merit letter (insert PDF) and your equity refresh letter (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], congratulations again on your well deserved [promotion OR merit increase]! [Insert kind words]. We’re so excited to recognize and reward you for all your incredible work you did in the last review cycle. I've attached your merit letter (insert PDF) and your equity refresh letter (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   3.  Sample Slack message for No $ merit increase, no promo, no equity refresh
       > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. Please let me know if you have any issues accessing your Lattice review packet. Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   4.  Sample Slack message for No $ merit increase, YES equity refresh
-      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle.  To recognize you for your performance, we are pleased to present you with an equity refresh, outlined here (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
+      > [Teammate name], thank you again for meeting today and for the incredible work you did in the last review cycle. To recognize you for your performance, we are pleased to present you with an equity refresh, outlined here (insert PDF) . Carly & [People Partner name] are also included on this message to answer any questions you may have. Congratulations again!
   5.  Sample Slack message for “Not Meeting High Bar” Teammates”:
       > Hi [Teammate name] - thank you for our conversation today. I know receiving feedback is never easy, but I believe in you and am excited to work with you to improve. [Feel free to insert specifics on where you need to see improvement/feel free to be firm if you need to see immediate turn around in certain areas]. Please let me know if you have any questions as you read through your impact review packet, which has been shared via Lattice, and I look forward to talking about the ways in which I can support your growth in our next 1:1. I’m also looping in [People Partner name], who is here to help you as well.
 
@@ -118,7 +118,6 @@ Best practices for delivering feedback:
 - No suprises.
 - Be an active listener, and ask open ended questions.
 - Don't be defensive.
-
 
 **What not to do** we expect Managers to be confident in the score that they're providing to the teammate. We make it clear at all points during the calibration process that we do not force a distribution, and all managers have signed off on all final scores. At no point should you say the following:
 
