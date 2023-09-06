@@ -19,4 +19,3 @@ Charter: Provide a structured way for internal and external partners to build on
 ## Contact
 
 - TBD
-
