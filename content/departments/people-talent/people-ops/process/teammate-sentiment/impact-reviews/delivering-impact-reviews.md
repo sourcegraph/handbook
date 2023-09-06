@@ -14,7 +14,7 @@ All conversations must take place no later than \*_April 26, 2023 for H1 FY24 Im
 
 ### Checklist: before the impact review conversation
 
-1. Schedule a 30-60 minute 1:1 
+1. Schedule a 30-60 minute 1:1
 2. Add their final score to the impact review packet in Lattice
 3. Send a Slack message to your direct report:
 
