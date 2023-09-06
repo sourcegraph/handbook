@@ -11,6 +11,7 @@ Performance review feedback fosters a culture of continuous learning and improve
 Each Manager is responsible for scheduling a 30 - 60 minute meeting with each Teammate to deliver their review packet, along with any corresponding promotion, compensation increases and/or equity increases.
 
 All conversations must take place no later than \*_September 14, 2023 for H2 FY24 Impact Review Cycle_
+
 ### Checklist: before the impact review conversation
 
 1. Schedule a 30-60 minute 1:1 between 2023-09-06 and 2023-09-14
