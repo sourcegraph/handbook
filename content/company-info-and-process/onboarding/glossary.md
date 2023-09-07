@@ -131,3 +131,7 @@ An API allows a piece of software to interact with another piece of software.
 ### Server
 
 A computer (virtual or physical) that runs services and/or "serves information" to other computers. It could also refer to an instance of a computer program. There are several different kinds of servers (application server, web server, cloud server, etc.).
+
+### EAP
+
+Early Access Program: a software feature or product shared privately, most often with a small set of NDA’d customers.
