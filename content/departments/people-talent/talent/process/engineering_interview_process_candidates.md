@@ -273,7 +273,7 @@ are working on this piece of code?
 
 #### Pairing Exercise
 
-- **Interviewers:** Thorsten Ball, Head of Source and Cody tech lead
+- **Interviewers:** one engineer
 
 - **Duration:** 15-minute setup call, then candidate works asynchronously on exercise, with ability to ask questions in a Slack chat. Expectation is that candidate finishes project after ~1d (independent of hours actually worked on it)
 
