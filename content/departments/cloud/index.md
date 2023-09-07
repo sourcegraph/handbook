@@ -83,9 +83,9 @@ Below are a list of processes Cloud team supports for internal stakeholders, e.g
 
 We aim to make all processes self-service as much as possible, please follow the instruction closely.
 
-#### **Create a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%255BCUSTOMER+NAME%255D)
+#### **Create a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%5BCUSTOMER+NAME%5D)
 
-<span class="badge badge-note">⚙️ manual</span>
+<span class="badge badge-note">🤖 self-service</span>
 
 - For new customers or prospects who currently do not have a managed instance. After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
 - For internal teammates who are looking for a short-lived instance for testing or demo purposes. For example, tracking a long-running feature branch for continous testing before release date (go/cloud-release-channels).
