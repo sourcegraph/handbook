@@ -88,7 +88,7 @@ Following your interview, please provide interview feedback immediately, no late
 
 ### The decision making stage
 
-We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. The hiring team reviews the feedback in Greenhouse and makes final hiring decision. If the candidate received all `Yes` or `Strong Yes`, the interview team can debrief in a synchronous fashion or asynchronously via Slack. If the candidate did not receive all `Yes` or `Strong Yes` feedback, a live debrief must take place. Should the interview panel be aligned on moving forward, the Hiring Manager needs to submit written justification for moving forward with offer in the offer approval section. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
+We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. The hiring team reviews the feedback in Greenhouse and makes the final hiring decision. If the candidate received all `Yes` or `Strong Yes`, the interview team can debrief in a synchronous fashion or asynchronously via Slack. If the candidate did not receive all `Yes` or `Strong Yes` feedback, a live debrief must take place. Should the interview panel be aligned on moving forward, the Hiring Manager needs to submit written justification for moving forward with an offer in the offer approval section. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
 
 Once a hiring decision in made, the Hiring Manager is responsible for communicating the hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
 
