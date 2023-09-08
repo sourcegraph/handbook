@@ -5,7 +5,7 @@ developer_onboarding:
   link: /strategy-goals/strategy/use_cases/dev-onboarding
   sponsors:
     product: steve_yegge
-    engineering: TBD
+    engineering: peter_guy
 
 code_reuse:
   title: Code Reuse
