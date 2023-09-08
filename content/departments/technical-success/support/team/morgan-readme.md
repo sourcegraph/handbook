@@ -13,11 +13,12 @@ Generally I prefer to learn by doing, less upfront instruction and more small, b
 I respond well to transparency and generally prefer to err on the side of over-communication, especially when learning and working out a problem. The more details, the better!
 
 ## Preferred way to collaborate:
-I enjoy collaborating in groups or 1:1. I like Zoom or Slack, but prefer Zoom if it's a topic that requries any back and forth or time sensitive answers. 
+
+I enjoy collaborating in groups or 1:1. I like Zoom or Slack, but prefer Zoom if it's a topic that requries any back and forth or time sensitive answers.
 
 ## How you approach problems:
 
-I usually like to define the problem, and then trace a thread from the problem, working backwards, until I can find a solution. If I'm not sure where to start, I like to start from a place I know and follow the same process, even if I am traversing areas that have nothing to do with the issue. If I get stuck at any point, I will ask for help and turn to other resources. 
+I usually like to define the problem, and then trace a thread from the problem, working backwards, until I can find a solution. If I'm not sure where to start, I like to start from a place I know and follow the same process, even if I am traversing areas that have nothing to do with the issue. If I get stuck at any point, I will ask for help and turn to other resources.
 
 ## Preferred way to be recognized/appreciated:
 
@@ -25,7 +26,7 @@ A quick note or message goes a long way!
 
 ## Thoughts/feelings/preferences when it comes to asking for help:
 
-I like to attempt things on my own before asking for help, but once I have a grasp of what needs to be done/what I need help with, I will ask for help to make sure I'm on the right track. 
+I like to attempt things on my own before asking for help, but once I have a grasp of what needs to be done/what I need help with, I will ask for help to make sure I'm on the right track.
 
 ## What you find enjoyable at work:
 
@@ -33,7 +34,7 @@ I love working with people and resolving issues. Whether that be among co-worker
 
 ## What kind of work do you find easiest to do when (for example, some folks write best at night or can focus more easily in the afternoon):
 
-I find it easiest to do admin-type work in the mornings, and more involved work at night. 
+I find it easiest to do admin-type work in the mornings, and more involved work at night.
 
 ## How do you feel about getting messages after/outside of hours that are meant for you to see and respond to during active hours:
 
