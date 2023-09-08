@@ -165,7 +165,7 @@ The Cody Gateway Cloud Run service connects to this Redis instance via a VPC net
 
 To connect to the Redis instance locally for investigative or debugging purposes:
 
-> WARNING: The Cody Gateway Redis instance **contains sensitive data**.
+> [!WARNING] The Cody Gateway Redis instance **contains sensitive data**.
 > Only enable the infrastructure required to connect to it if absolutely necessary, and disable access when done.
 
 In [`sourcegraph/infrastructure`](https://github.com/sourcegraph/infrastructure), update `cody-gateway/envs/$ENVIRONMENT/cloudrun/main.tf`:
