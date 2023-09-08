@@ -284,18 +284,6 @@ jonah_dueck:
   links: '[LinkedIn](https://www.linkedin.com/in/jonah-dueck/)'
   description: "Jonah has been working within the IT space since high school. He started out by founding and running a small IT company in northern Nevada while still in high school and after graduating, moved on to working for another small company in Northern California. Most recently, he worked in internal IT operations and technical program management at Google for about 2 years. Outside of work, he enjoys rock climbing, playing music (guitar and drums), riding his motorcycle and working on his old VW bus (there's always something breaking on it)."
 
-owen_convey:
-  name: Owen Convey
-  pronouns: he/him
-  role: Engineering Manager, Code Intelligence
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_intelligence
-  location: Barcelona, Spain 🇪🇸
-  github: scalabilitysolved
-  email: oconvey@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/owenconvey/)'
-  description: "Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza."
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
