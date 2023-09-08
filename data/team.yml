@@ -167,26 +167,6 @@ rob_rhyne:
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
   description: Rob is a designer, developer, and accidental salesman with a penchant for solving business problems with usable design and code. When not making products, he is raising two boys with his wife, working on his boat, or fishing offshore for anything that makes good poke.
 
-chris_pine_code_insights:
-  name: Chris Pine
-  pronouns: he/she/they/Chris
-  role: Engineering Manager, Code Insights
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_insights
-  location: Portland, OR, USA 🇺🇸
-  github: chrispine
-  email: chrispine@sourcegraph.com
-
-owen_convey_code_exploration:
-  name: Owen Convey
-  pronouns: he/him
-  role: Engineering Manager, Code Exploration
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_exploration
-  location: Barcelona, Spain 🇪🇸
-  github: scalabilitysolved
-  email: oconvey@sourcegraph.com
-
 dax_mcdonald:
   name: Dax McDonald
   pronouns: he/him
@@ -209,16 +189,6 @@ robert_lin:
   links: '[LinkedIn](https://www.linkedin.com/in/robert-lin)'
   description: Robert loves climbing plastic rocks and playing around with ideas and technologies through hacking on projects and writing. He recently graduated from the University of British Columbia with an BSc in Mathematics, where he used to run a club dedicated to helping students work together to build software projects.
 
-marek_zaluski:
-  name: Marek Zaluski
-  role: Software Engineer
-  reports_to: cody_strat_lead
-  location: Ottawa, Canada 🇨🇦
-  github: marekweb
-  email: marek@sourcegraph.com
-  links: '[Twitter](https://twitter.com/marekweb)'
-  description: "Marek is a JavaScript and TypeScript developer with an interest in developer tools and tech education. He occasionally teaches programming courses and contributes to coding bootcamps, and he previously ran a software consulting agency. He lives in Canada's capital with his wife and his jack russell terrier 🐕."
-
 stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him
@@ -228,19 +198,6 @@ stefan_hengl:
   github: stefanhengl
   email: stefan@sourcegraph.com
   description: Stefan lives in Berlin with his wife and two children. Prior to Sourcegraph, Stefan was a software engineer at Zalando and SAP, where he worked on data pipelines and low-latency, high-throughput microservices. He graduated in Physics but eventually realized that software engineering is his true passion. In his free time, Stefan enjoys cooking, plays chess with his daughter, and dreams about building a house in the wilderness of Norway.
-
-chris_pine:
-  name: Chris Pine
-  pronouns: he/she/they/Chris
-  role: Engineering Manager, Batch Changes
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_batch_changes
-  location: Portland, OR, USA 🇺🇸
-  github: chrispine
-  email: chrispine@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/chris-pine-4b188272/), [Twitter](https://twitter.com/OtherChrisPine)'
-  pronunciation: '/[kɹɪs paɪn](http://ipa-reader.xyz/?text=k%C9%B9%C9%AAs%20pa%C9%AAn&voice=Joanna)/'
-  description: "Chris started his career making games, working on Civilization III and Alpha Centauri. Chris also spent several years working at Opera Software in Norway, mainly on Opera's Ecmascript engine. Somewhere in there, Chris accidentally wrote a book, [Learn to Program](https://pragprog.com/titles/ltp3/learn-to-program-third-edition/). At New Relic, Chris moved into management, and (much to his surprise) loved it! Chris lives with his spouse (Katy), their three kids (C, Ruby, and Apl), three rats, a little dog, and an ancient grey cat. Hobbies include the boardgame Go, failing to play the guitar, and spiritual inquiry (mostly Tao, Zen, and Alan Watts). Chris really (like really) loves parentheses."
 
 noah_santschi-cooney:
   name: Noah Santschi-Cooney
@@ -283,18 +240,6 @@ jonah_dueck:
   email: jonah@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jonah-dueck/)'
   description: "Jonah has been working within the IT space since high school. He started out by founding and running a small IT company in northern Nevada while still in high school and after graduating, moved on to working for another small company in Northern California. Most recently, he worked in internal IT operations and technical program management at Google for about 2 years. Outside of work, he enjoys rock climbing, playing music (guitar and drums), riding his motorcycle and working on his old VW bus (there's always something breaking on it)."
-
-owen_convey:
-  name: Owen Convey
-  pronouns: he/him
-  role: Engineering Manager, Code Intelligence
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_intelligence
-  location: Barcelona, Spain 🇪🇸
-  github: scalabilitysolved
-  email: oconvey@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/owenconvey/)'
-  description: "Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza."
 
 scott_campbell:
   name: Scott Campbell
@@ -592,16 +537,6 @@ ryan_phillips:
   email: ryphil@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/ryphil/)'
   description: Born in the wild west (Texas), Ryan now lives in San Francisco, CA where he loves exploring the amazing nature nearby! Ryan lives to experience and build products which have an incredibly high level of craft - custom JH Audio headphones, to beautiful books such as Designing Design, to delicious food! Outside of Sourcegraph, Ryan is a lecturer at the d.school at Stanford University, teaching at the intersection of technology, design, and inclusion. He is always open to adventure, lets explore together!
-
-coury_clark:
-  name: Coury Clark
-  pronouns: He/Him
-  role: Software Engineer, Backend
-  reports_to: eng_lead
-  location: Phoenix, AZ, USA
-  email: coury@sourcegraph.com
-  github: coury-clark
-  description: Born and raised in Arizona, currently living in Phoenix. He learned to fly airplanes when he was 12 years old at a local glider club, and got his pilot’s license in both gliders and single engine airplanes in his teens. He started programming in c++ with a desire to make video games, and spent some time learning that he is a terrible 3D artist in Maya. Since then, Coury has loved exploring the complexities of software engineering, and has decided he is still a terrible artist (in any dimension). In his free time he likes to play music on piano / guitar, explore new foods through cooking, spend time birding and doing photography, and hanging out with his wife and cat.
 
 aimee_menne:
   name: Aimee Menne
@@ -1307,17 +1242,6 @@ todd_herskovitz:
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
-
-sander_ginn:
-  name: Sander Ginn
-  email: sander.ginn@sourcegraph.com
-  github: sanderginn
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: ship_release_lead
-  location: Amsterdam, The Netherlands 🇳🇱
-  links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
-  description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
 
 sally_voisen:
   name: Sally Voisen
