@@ -16,8 +16,6 @@ Our README expands on our profile in [the company team directory](../../../../te
 - Stompy [README](stompy-readme.md)
 - Warren [README](warren-readme.md)
 
-
-
 The format, style, order, etc is up to each of us. Just make sure to include the following to the degree you feel at ease to do so; feel free to add/remove as you see fit:
 
 - Individual view on customer service/support
