@@ -38,11 +38,15 @@ Status: Fixed in 5.0.3
 
 To keep the page organized, always insert the newest known issue at the top, just below the most recent entry. This ensures that users first see the most relevant and up-to-date issues per version.
 
-### 4. **Review & Save**
+### 4. **Major Issues and Changelog**
+
+If the issue is major, it should also be added to the changelog under the Known Issues header for the corresponding version. Make sure to link the Known Issues header in the changelog to the Known Issues page for comprehensive coverage.
+
+### 5. **Review & Save**
 
 Before publishing the changes, review the update for accuracy and consistency with the rest of the page. Once satisfied, create the PR and tag reviewers.
 
-### 5. **Publish & Verify**
+### 6. **Publish & Verify**
 
 Publish the updated page to the docs site. After publishing, view the Known Issues page to ensure the update is visible and properly formatted.
 
