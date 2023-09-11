@@ -14,7 +14,7 @@ Imagine being able to “press a button in one” application to get information
 
 Here is a pseudo-code example of what an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) can look like:
 
-```jsx
+```javascript
 // On Server Machine
 function add(a, b) {
   return a + b
