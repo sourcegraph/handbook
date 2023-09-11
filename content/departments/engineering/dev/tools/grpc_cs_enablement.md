@@ -29,7 +29,7 @@ print(result) // Output will be 8
 
 # What is changing?
 
-Starting in Sourcegraph `5.2.X` , we are switching to use gRPC for Sourcegraph’s ****\*\*\*****internal\*\* **communication** **(service to service only)\*** by default.
+Starting in Sourcegraph `5.2.X` , we are switching to use gRPC for Sourcegraph’s \***\*\*\*\*\*\***internal\*\* **communication** **(service to service only)\*** by default.
 
 See the table below for more of the rollout details:
 
@@ -63,7 +63,7 @@ The most important take away is this:
 
 ## explanation
 
-Our use of gRPC ********\*\*\*\*********only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `[sourcegraph.example.com](http://sourcegraph.example.com)` ↔ `frontend`’s GraphQL API).
+Our use of gRPC **\*\*\*\***\*\*\*\***\*\*\*\***only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `[sourcegraph.example.com](http://sourcegraph.example.com)` ↔ `frontend`’s GraphQL API).
 
 If the customer doesn’t have any security restrictions or internal firewall that affects how Sourcegraph’s microservices communicate amongst themselves, then they shouldn’t need to make any configuration changes.
 
@@ -78,7 +78,7 @@ If the customer doesn’t have any security restrictions or internal firewall th
   - [symbols](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/symbols/symbols.Deployment.yaml)
   - [repo-updater](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/repo-updater/repo-updater.Deployment.yaml)
 - The following aspects about Sourcegraph’s networking configuration **aren’t changing**:
-  - ****\*\*****Ports:****\*\***** all Sourcegraph services will use the same ports as they were in the **5.1.X** release.
+  - \***\*\*\*\*\***Ports:\***\*\*\*\*\*** all Sourcegraph services will use the same ports as they were in the **5.1.X** release.
   - **External traffic**: gRPC only affects how Sourcegraph’s microservices communicate amongst themselves - **no new external traffic is sent via gRPC**.
   - **Service dependencies:** each Sourcegraph service will communicate with the same set of services regardless of whether gRPC is enabled.
     - Example: `searcher` will still need to communicate with `gitserver` to fetch repository data. Whether or not gRPC is enabled doesn’t matter.
