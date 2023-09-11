@@ -83,7 +83,7 @@ Below are a list of processes Cloud team supports for internal stakeholders, e.g
 
 We aim to make all processes self-service as much as possible, please follow the instruction closely.
 
-#### **Create a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%5BCUSTOMER+NAME%5D)
+#### **Create a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request,mi/self-service&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>
 
@@ -102,7 +102,7 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
 
-#### **Convert Trial Cloud instance to paid** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi&projects=&template=managed-instance-configure-instance-type.yml&title=Configure+Instance+Type+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+#### **Convert Trial Cloud instance to paid** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/self-service&projects=&template=managed-instance-configure-instance-type.yml&title=Configure+Instance+Type+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>
 
@@ -126,7 +126,7 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 
-#### **Enable Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-configure-cody.yml&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)
+#### **Enable Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-cody-request,mi/self-service&projects=&template=managed-instance-configure-cody.yml&title=Configure+Cody+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>
 
@@ -138,7 +138,7 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For customers we are looking to bring their own domain, e.g., `sourcegraph.company.com`.
 
-#### **Update license key on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-license-key&projects=&template=managed-instance-configure-license-key.yml&title=Configure+License+Key+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+#### **Update license key on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-license-key,mi/self-service&projects=&template=managed-instance-configure-license-key.yml&title=Configure+License+Key+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>
 
