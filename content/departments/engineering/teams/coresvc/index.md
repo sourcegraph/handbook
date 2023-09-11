@@ -1,6 +1,6 @@
 # Core Services Team
 
-TBD
+Proposed [charter](https://docs.google.com/document/d/1fBUQ0oM5yncXX6nLL0paUsCsM5DdNFIMsVCdsAc8jgE/edit#heading=h.9gynem1vq4vu)
 
 ## Leadership
 
