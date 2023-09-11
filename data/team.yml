@@ -858,7 +858,7 @@ michal_sennett:
   name: Michal Sennett
   pronouns: she/her
   role: Executive Business Partner, CTO and VP People & Talent
-  reports_to: ebp_lead
+  reports_to: vp_talent
   location: Dallas, TX, USA 🇺🇸
   github: msennett22
   email: michal.sennett@sourcegraph.com
@@ -922,7 +922,7 @@ carter_jaenichen:
 amber_nocerino:
   name: Amber Nocerino
   role: Executive Business Partner, Sales and Technical Success
-  reports_to: ebp_lead
+  reports_to: vp_technical_success
   location: Austin, TX, USA
   github: ambernoc
   email: amber.nocerino@sourcegraph.com
@@ -1242,18 +1242,6 @@ todd_herskovitz:
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
-
-sally_voisen:
-  name: Sally Voisen
-  email: sally.voisen@sourcegraph.com
-  github: stvoisen
-  pronouns: she/her
-  role: Senior Executive Business Partner
-  manager_role_slug: ebp_lead
-  reports_to: ceo
-  location: San Rafael, CA, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/sally-voisen/)'
-  description: 'Sally lives in the Terra Linda area of San Rafael, CA with her husband, son, daughter, and cat named Bella Momo Cat. An East Coast transplant, Sally grew up in Philadelphia but has called the Bay Area her home since 2007. Prior to Sourcegraph, Sally was at Autodesk and Adobe. Outside of work, Sally enjoys a good pour-over coffee, cooking/baking, and hiking.'
 
 daniel_marques:
   name: Daniel Marques
