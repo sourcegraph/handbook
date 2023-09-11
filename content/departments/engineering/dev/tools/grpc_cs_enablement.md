@@ -1,14 +1,46 @@
-# gRPC CS Enablement Guide
+# gRPC CS Enablement Guide / Primer
 
 # **What is gRPC?**
 
 [gRPC](https://grpc.io/) is a high-performance [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) framework developed by Google.
 
-## What is changing?
+## Sidebar: **What is an RPC (Remote Procedure Call)?**
 
-In Sourcegraph `5.2.X`, we are enabling gRPC by default (with the option to disable it in case of an issue). gRPC will be the only option in the `5.3.X` release.
+At its most basic level, an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) allows one program to cause a function to execute in another program (commonly on another physical machine).
 
-## **Why are we making this change?**
+In simpler terms, it's a way for different parts of a system, which could be located on different machines, to talk to each other and perform tasks.
+
+Imagine being able to “press a button in one” application to get information or perform an action in another application located somewhere else; that's the essence of an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call).
+
+Here is a pseudo-code example of what an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) can look like:
+
+```jsx
+// On Server Machine
+function add(a, b) {
+  return a + b
+}
+
+/// ---------------
+
+// On Client Machine
+result = remoteCall('add', 5, 3) // Makes an RPC to the 'add' function on the server
+print(result) // Output will be 8
+```
+
+# What is changing?
+
+Starting in Sourcegraph `5.2.X` , we are switching to use gRPC for Sourcegraph’s ****\*\*\*****internal\*\* **communication** **(service to service only)\*** by default.
+
+See the table below for more of the rollout details:
+
+## Rollout timeline
+
+| Sourcegraph version                   | gRPC feature status                                                                   |
+| ------------------------------------- | ------------------------------------------------------------------------------------- |
+| 5.2.X (releasing October 4th, 2023)   | On by default, can be disabled via feature flag (see “enabling/disabling GRPC below”) |
+| 5.3.X (releasing December 14th, 2023) | On by default, cannot be turned off                                                   |
+
+# **Why are we making this change?**
 
 As opposed to [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) (the pattern we currently use for [RPCs](https://en.wikipedia.org/wiki/Remote_procedure_call)), gRPC offers the following benefits and more:
 
@@ -16,16 +48,26 @@ As opposed to [REST](https://en.wikipedia.org/wiki/Representational_state_transf
 - First-class bidirectional streaming support
 - Well-defined semantics for backwards compatibility
 - Well-typed APIs with code generation across a wide variety of programming languages
+- Large 3rd party plugin ecosystem
+- Better discoverability and documentation: Finding [what RPCs are available](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@f28a7fab171cacefa66553d875069b8338ee7308/-/blob/internal/gitserver/v1/gitserver_grpc.pb.go?L42-59#tab=references), [where they are implemented](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@f28a7fab171cacefa66553d875069b8338ee7308/-/blob/internal/gitserver/v1/gitserver_grpc.pb.go?L328:2-328:6#tab=implementations_go), and [who is calling them](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@f28a7fab171cacefa66553d875069b8338ee7308/-/blob/internal/gitserver/v1/gitserver_grpc.pb.go?L46:2-46:6#tab=references) is as easy as using “find references”.
 
 See the [PR-FAQ for more background](https://docs.google.com/document/d/1lf7REi_4t03tIxSPccDG4VHtNo-6SLI1-3zDcrspi6k/edit).
 
-## What do customers need to know?
+# What do customers need to know?
 
-gRPC **\*\*\*\***\*\*\*\***\*\*\*\***only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `[sourcegraph.example.com](http://sourcegraph.example.com)` ↔ `frontend`’s GraphQL API).
+## most important takeaway
 
-**If you don’t have any security restrictions on Sourcegraph’s _internal_ traffic, your customer shouldn’t need to tweak anything.**
+The most important take away is this:
 
-Otherwise, they might need to tweak their security settings / firewall configuration to allow this new type. The following is some general information about gRPC that can help customers change any relevant settings:
+> **If you don’t have any security restrictions on Sourcegraph’s _internal_ traffic, your customer shouldn’t need to tweak anything.**
+
+## explanation
+
+Our use of gRPC ********\*\*\*\*********only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `[sourcegraph.example.com](http://sourcegraph.example.com)` ↔ `frontend`’s GraphQL API).
+
+If the customer doesn’t have any security restrictions or internal firewall that affects how Sourcegraph’s microservices communicate amongst themselves, then they shouldn’t need to make any configuration changes.
+
+**Otherwise**, they might need to tweak their security settings / firewall configuration to allow this new type. The following is some general information about gRPC that can help customers change any relevant settings on their end:
 
 - **Protocol Description**: gRPC runs on-top of [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2). It transfers (binary-encoded, not human-readable plain-text) [Protocol Buffer](https://protobuf.dev/) payloads. Our current gRPC implementation does not use any encryption.
 - **List of services**: The following services will now _speak mainly gRPC in addition_ to their previous traffic:
@@ -36,54 +78,67 @@ Otherwise, they might need to tweak their security settings / firewall configura
   - [symbols](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/symbols/symbols.Deployment.yaml)
   - [repo-updater](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/repo-updater/repo-updater.Deployment.yaml)
 - The following aspects about Sourcegraph’s networking configuration **aren’t changing**:
-  - \***\*\*\*\*\***Ports:\***\*\*\*\*\*** all Sourcegraph services will use the same ports as they were in the **5.1.X** release.
+  - ****\*\*****Ports:****\*\***** all Sourcegraph services will use the same ports as they were in the **5.1.X** release.
   - **External traffic**: gRPC only affects how Sourcegraph’s microservices communicate amongst themselves - **no new external traffic is sent via gRPC**.
   - **Service dependencies:** each Sourcegraph service will communicate with the same set of services regardless of whether gRPC is enabled.
     - Example: `searcher` will still need to communicate with `gitserver` to fetch repository data. Whether or not gRPC is enabled doesn’t matter.
 
-## enabling / disabling GRPC
+# Sourcegraph `5.2.X`: enabling / disabling GRPC
 
-gRPC will be the only means of communication used in Sourcegraph `5.3.X`. In the `5.2.x` release, you can disable the use of gRPC by:
+In the `5.2.x` release, you are able to use the following methods to enable / disable gRPC if a problem occurs.
 
-### all services besides zoekt-indexserver
+_Note: In the `5.3.X` release, these options will be removed and gRPC will always be enabled. See “Rollout timeline” above for more details_
 
-You can either:
+## all services besides `zoekt-indexserver`
 
-- set the `enableGRPC` experimental feature to `false` in the site configuration file:
-  ```json
-  {
-    "experimentalFeatures": {
-      "enableGRPC": false // disabled
-    }
+Disabling gRPC on any service that is not `zoekt-indexserver` can be done by one of these options:
+
+### option 1: disable via site-configuration
+
+Set the `enableGRPC` experimental feature to `false` in the site configuration file:
+
+```json
+{
+  "experimentalFeatures": {
+    "enableGRPC": false // disabled
   }
-  ```
-- set the environment variable `SG_FEATURE_FLAG_GRPC="false"` for every service.
+}
+```
 
-### zoekt-indexserver
+### option 2: disable via environment variables
 
-_(zoekt-indexserver can’t read from Sourcegraph’s site configuration, so we can only use environment variables to communicate this setting)._
+Set the environment variable `SG_FEATURE_FLAG_GRPC="false"` for every service.
 
-Set the environment variable `GRPC_ENABLED="false"` on the zoekt-indexserver container. (See [https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/18e5f9e450878705b7a99ee7c3bcf74c3fb68514/base/indexed-search/indexed-search.StatefulSet.yaml#L105-L106](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/18e5f9e450878705b7a99ee7c3bcf74c3fb68514/base/indexed-search/indexed-search.StatefulSet.yaml#L105-L106) for an example:
+**Note**: If you use this method, it’s important that the **environment variable is set on every service** across so that **gRPC is enabled/disabled across the board**.
+
+- Sourcegraph is comprised of many separate binaries that all have logic to read the value of `SG_FEATURE_FLAG_GRPC` before making an RPC call. However, each binary _can only see its own set of [environment variables](https://en.wikipedia.org/wiki/Environment_variable)._
+- Example: If you set `SG_FEATURE_FLAG_GRPC="false"` on `frontend` and not `searcher`, you’ll end up in a scenario where `searcher` is still using gRPC to make all of its requests - which probably isn’t your intent.
+
+## `zoekt-indexserver` service: disable via environment variable
+
+Set the environment variable `GRPC_ENABLED="false"` on the `zoekt-indexserver` container. (See [https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/18e5f9e450878705b7a99ee7c3bcf74c3fb68514/base/indexed-search/indexed-search.StatefulSet.yaml#L105-L106](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/18e5f9e450878705b7a99ee7c3bcf74c3fb68514/base/indexed-search/indexed-search.StatefulSet.yaml#L105-L106) for an example:
 
 ```yaml
 - name: zoekt-indexserver
-          env:
-            - name: GRPC_ENABLED
-              value: "false"
-          image: docker.io/sourcegraph/search-indexer:5.2.0
+  env:
+    - name: GRPC_ENABLED
+      value: 'false'
+  image: docker.io/sourcegraph/search-indexer:5.2.0
 ```
 
-## How do you know if there might be a problem with gRPC?
+_zoekt-indexserver can’t read from Sourcegraph’s site configuration, so we can only use environment variables to communicate this setting._
+
+# How do you know if there might be a problem with gRPC?
 
 _See the gRPC [monitoring guide](https://handbook.sourcegraph.com/departments/engineering/dev/tools/grpc/#grpc-monitoring-guide) for more background._
 
-It’s important to understand that gRPC is merely the transport mechanism that our entire application logic is built on top of. Our existing monitoring, alerting, and reliance on user-submitted bug reports are our best tools for identifying issues with the underlying application.
+It’s important to understand that gRPC is merely the transport mechanism that our entire application logic is built on top of. Our existing monitoring, alerting, and reliance on user-submitted bug reports are our best tools for finding out if there might be a problem with the underlying application.
 
-However, we do have two tools that can help identify issues with gRPC.
+However, we do have two tools that can help find some problems with gRPC.
 
-### gRPC grafana dashboards
+## gRPC Grafana dashboards
 
-We’ve included a standard set of dashboards for every gRPC service. (Example: [gitserver](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?orgId=1)’s “GRPC Server Metrics” and “GRPC “Internal Error” Metrics”. dashboards).
+We’ve included a standard set of dashboards for every gRPC service. (Example: sourcegraph.com’s [gitserver](https://sourcegraph.com/-/debug/grafana/d/gitserver/git-server?orgId=1)’s “GRPC Server Metrics” and “GRPC “Internal Error” Metrics” dashboards).
 
 These dashboards include request rates and error rates (along with the failing status codes) for every method.
 
@@ -94,17 +149,17 @@ These dashboards include request rates and error rates (along with the failing s
 - Some failure modes are expected and not a cause for concern. For example, `status.DeadlineExceeded` or `status.Canceled` is frequently returned when the caller intentionally cancels an operation and can be entirely intentional (e.g., there is no need to continue streaming the output of a gitserver `archive` call if the user cancels a search request)
 - In many cases, we have never had an existing baseline “error rate” metrics for a given method. The error rate that you’re seeing might entirely normal for our application, it’s just being surfaced for the first time because of these new standardized dashboards.
 
-### internal error reporter
+## internal error reporter
 
 For a **subset of errors** that we are certain originate from the underlying gRPC libraries or configuration, we do have the “internal error” reporter (mentioned in the [monitoring guide](https://handbook.sourcegraph.com/departments/engineering/dev/tools/grpc/#more-on-internal-errors)) that can capture these.
 
-If you see
+If you see either:
 
 - relevant entries in the “GRPC “internal errors” metrics**”** grafana dashboards
-- application logs that are prefixed with `grpc.internal.error.reporter`
+- **OR**: application logs that are prefixed with `grpc.internal.error.reporter`
 
-That indicates a surefire issue with our gRPC implementation and should reported to us.
+That indicates a surefire issue with our gRPC implementation and (should be reported to us).
 
-## Who do you contact if there is a problem?
+# Who do you contact if there is a problem?
 
-Contact us in the #job-fair-grpc channel.
+Contact us in the #job-fair-grpc Slack channel.
