@@ -4,6 +4,10 @@
 
 Follow [break glass process](./break_glass_process.md) to ensure you have the proper access to perform this playbook.
 
+Extract the instance from Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`. Follow the Extract instance from control plane (break glass) section from the Ops Dashboard of the instance, go/cloud-ops.
+
+At the end, follow the `Backfill instance into control plane` section from the Ops Dashboard of the instance, go/cloud-ops
+
 ## Restoring Cloud SQL
 
 Use cases:
