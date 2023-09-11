@@ -2,7 +2,7 @@
 
 ## Executive Business Partners Team
 
-- Sally Voisen (Sr. EBP) supporting Quinn Slack (CEO)
+- Coming soon: EBP supporting Quinn Slack (CEO)
 - Michal Sennett (EBP) supporting Carly Jones (VP People and Talent), and Steve Yegge (Head of Engineering)
 - Amber Nocerino (EBP) supporting Greg Bastis (VP Sales), and Aimee Menne (VP Technical Success)
 
