@@ -130,7 +130,7 @@ _zoekt-indexserver can’t read from Sourcegraph’s site configuration, so we c
 
 # How do you know if there might be a problem with gRPC?
 
-_See the gRPC [monitoring guide](https://handbook.sourcegraph.com/departments/engineering/dev/tools/grpc/#grpc-monitoring-guide) for more background._
+_See the gRPC [monitoring guide](./grpc.md) for more background._
 
 It’s important to understand that gRPC is merely the transport mechanism that our entire application logic is built on top of. Our existing monitoring, alerting, and reliance on user-submitted bug reports are our best tools for finding out if there might be a problem with the underlying application.
 
@@ -151,7 +151,7 @@ These dashboards include request rates and error rates (along with the failing s
 
 ## internal error reporter
 
-For a **subset of errors** that we are certain originate from the underlying gRPC libraries or configuration, we do have the “internal error” reporter (mentioned in the [monitoring guide](https://handbook.sourcegraph.com/departments/engineering/dev/tools/grpc/#more-on-internal-errors)) that can capture these.
+For a **subset of errors** that we are certain originate from the underlying gRPC libraries or configuration, we do have the “internal error” reporter (mentioned in the [monitoring guide](./grpc.md#more-on-internal-errors)) that can capture these.
 
 If you see either:
 
