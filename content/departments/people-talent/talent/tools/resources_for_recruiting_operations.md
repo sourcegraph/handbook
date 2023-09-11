@@ -112,7 +112,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Sally Voisen](../../../../team/index.md#sally-voisen) supports [Quinn Slack](../../../../team/index.md#quinn-slack), CEO
+- TBD supports [Quinn Slack](../../../../team/index.md#quinn-slack), CEO
 - [Michal Sennett](../../../../team/index.md##michal-sennett) supports [Beyang Liu](../../../../team/index.md#beyang-liu), CTO & Co-founder, [Carly Jones](../../../../team/index.md#carlycjones), VP People & Talent
 - [Amber Smokowski](../../../../team/index.md#amber-smokowski) supports [Greg Bastis](../../../../team/index.md#greg-bastis), VP Sales, Western Region and [Aimee Menne](../../../../team/index.md#aimee-menne), VP Customer Engineering & Support
 
