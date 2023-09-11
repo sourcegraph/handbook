@@ -29,7 +29,7 @@ print(result) // Output will be 8
 
 ## What is changing?
 
-Starting in Sourcegraph `5.2.X` , we are switching to use gRPC for Sourcegraph’s \***\*\*\*\*\*\***internal\*\* **communication** **(service to service only)\*** by default.
+Starting in Sourcegraph `5.2.X` , we are switching to use gRPC for Sourcegraph’s **_internal communication (service to service only)_** by default.
 
 See the table below for more of the rollout details:
 
@@ -63,7 +63,7 @@ The most important take away is this:
 
 ### explanation
 
-Our use of gRPC **\*\*\*\***\*\*\*\***\*\*\*\***only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `[sourcegraph.example.com](http://sourcegraph.example.com)` ↔ `frontend`’s GraphQL API).
+Our use of gRPC only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `sourcegraph.example.com` ↔ `frontend`’s GraphQL API).
 
 If the customer doesn’t have any security restrictions or internal firewall that affects how Sourcegraph’s microservices communicate amongst themselves, then they shouldn’t need to make any configuration changes.
 
