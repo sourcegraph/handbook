@@ -1,10 +1,10 @@
 # gRPC CS Enablement Guide / Primer
 
-## **What is gRPC?**
+## What is gRPC?
 
-[gRPC](https://grpc.io/) is a high-performance [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) framework developed by Google.
+[gRPC](https://grpc.io/) is a high-performance [Remote Procedure Call (RPC)](https://en.wikipedia.org/wiki/Remote_procedure_call) framework developed by Google.
 
-### Sidebar: **What is an RPC (Remote Procedure Call)?**
+### Sidebar: What is an RPC (Remote Procedure Call)?
 
 At its most basic level, an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) allows one program to cause a function to execute in another program (commonly on another physical machine).
 
@@ -35,12 +35,12 @@ See the table below for more of the rollout details:
 
 ### Rollout timeline
 
-| Sourcegraph version                   | gRPC feature status                                                                   |
+| Sourcegraph Version                   | gRPC Feature Status                                                                   |
 | ------------------------------------- | ------------------------------------------------------------------------------------- |
 | 5.2.X (releasing October 4th, 2023)   | On by default, can be disabled via feature flag (see “enabling/disabling GRPC below”) |
 | 5.3.X (releasing December 14th, 2023) | On by default, cannot be turned off                                                   |
 
-## **Why are we making this change?**
+## Why are we making this change?
 
 As opposed to [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) (the pattern we currently use for [RPCs](https://en.wikipedia.org/wiki/Remote_procedure_call)), gRPC offers the following benefits and more:
 
@@ -55,13 +55,13 @@ See the [PR-FAQ for more background](https://docs.google.com/document/d/1lf7REi_
 
 ## What do customers need to know?
 
-### most important takeaway
+### Most important takeaway
 
-The most important take away is this:
+The most important takeaway is this:
 
 > **If you don’t have any security restrictions on Sourcegraph’s _internal_ traffic, your customer shouldn’t need to tweak anything.**
 
-### explanation
+### Explanation
 
 Our use of gRPC only affects traffic **_between_** our microservices (e.x. `searcher` ↔ `gitserver`). Traffic between the Sourcegraph Web UI and the rest of the application is unaffected (e.x. `sourcegraph.example.com` ↔ `frontend`’s GraphQL API).
 
@@ -89,11 +89,11 @@ In the `5.2.x` release, you are able to use the following methods to enable / di
 
 _Note: In the `5.3.X` release, these options will be removed and gRPC will always be enabled. See “Rollout timeline” above for more details_
 
-### all services besides `zoekt-indexserver`
+### All services besides `zoekt-indexserver`
 
 Disabling gRPC on any service that is not `zoekt-indexserver` can be done by one of these options:
 
-#### option 1: disable via site-configuration
+#### Option 1: disable via site-configuration
 
 Set the `enableGRPC` experimental feature to `false` in the site configuration file:
 
@@ -105,7 +105,7 @@ Set the `enableGRPC` experimental feature to `false` in the site configuration f
 }
 ```
 
-#### option 2: disable via environment variables
+#### Option 2: disable via environment variables
 
 Set the environment variable `SG_FEATURE_FLAG_GRPC="false"` for every service.
 
@@ -149,7 +149,7 @@ These dashboards include request rates and error rates (along with the failing s
 - Some failure modes are expected and not a cause for concern. For example, `status.DeadlineExceeded` or `status.Canceled` is frequently returned when the caller intentionally cancels an operation and can be entirely intentional (e.g., there is no need to continue streaming the output of a gitserver `archive` call if the user cancels a search request)
 - In many cases, we have never had an existing baseline “error rate” metrics for a given method. The error rate that you’re seeing might entirely normal for our application, it’s just being surfaced for the first time because of these new standardized dashboards.
 
-### internal error reporter
+### Internal error reporter
 
 For a **subset of errors** that we are certain originate from the underlying gRPC libraries or configuration, we do have the “internal error” reporter (mentioned in the [monitoring guide](./grpc.md#more-on-internal-errors)) that can capture these.
 
