@@ -1,7 +1,7 @@
 # Continuous integration infrastructure
 
 This page consolidates resources regarding our CI _infrastucture_, namely our [Buildkite agents fleet](#buildkite-agents).
-This infrastructure is maintained by the [DevX team](../../../../teams/dev-experience/index.md).
+This infrastructure is maintained by the [DevInfra team](../../../../teams/devinfra/index.md).
 
 Related resources:
 
@@ -17,8 +17,9 @@ We maintain a shared fleet of Buildkite agents for continuous integration across
 - [Active agents](https://buildkite.com/organizations/sourcegraph/agents)
 - [Terraform and Kubernetes manifests](https://github.com/sourcegraph/infrastructure/tree/main/buildkite)
 - Images:
-  - [`buildkite-agent`](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent)
+  - [`buildkite-agent-bazel`](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-bazel)
   - [`buildkite-agent-stateless`](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-agent-stateless)
+  - [`buildkite-agent-macos`](https://github.com/sourcegraph/infrastructure/tree/main/buildkite/app-macos)
   - [`buildkite-job-dispatcher`](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/docker-images/buildkite-job-dispatcher)
 - Specific resources:
   - [Gain access to the CI cluster](../../../process/deployments/debugging/tutorial.md#ci-cluster)
@@ -30,12 +31,16 @@ We have several different types of agents available. We recommend explicitly dec
 
 The currently available queues:
 
-- `standard`: our default Buildkite agents, currently Docker-in-Docker agents running in Kubernetes
+- `standard`: our default Buildkite agents, which are _stateless_, currently Docker-in-Docker agents running in Kubernetes
+  - Use those for any non Bazel task, as they ensure that any state leak won't affect further builds by design.
+- `bazel`: our Bazel Buildkite agents, which are _stateful_, currently Docker-in-Docker agents running in Kubernetes
+  - Use those for any Bazel task, as Bazel guarantees hermeticity, meaning that a given build won't affect subsequent build on the same agent.
+- `macos`: a _stateful_ agent currently backed by a single host running MacOS. GCP does not provide instances which run MacOS which is why the host for this agent can be found in AWS `us-ohio-2` region.
 - `vagrant`: special Buildkite agents desgined to run resource intensive test on docker deployments.
 
 ### `buildkite-job-dispatcher`
 
-> NOTE: This section serves only as an intro and overview to `buildkite-job-dispatcher`. Detailed documentation and guides should go in the [CI playbook](../../../process/incidents/playbooks/ci.md) or as close to the source code as possible.
+> [!NOTE] This section serves only as an intro and overview to `buildkite-job-dispatcher`. Detailed documentation and guides should go in the [CI playbook](../../../process/incidents/playbooks/ci.md) or as close to the source code as possible.
 
 Our Buildkite agents are stateless, and are deployed in batches as Kubernetes jobs where each agent runs its workload and exits based on the size of the Buildkite backlog.
 This is managed by the `buildkite-job-dispatcher`:
@@ -108,4 +113,4 @@ sequenceDiagram
     end
 ```
 
-> NOTE: If this diagram fails to render, [read this page on GitHub instead](https://github.com/sourcegraph/handbook/blob/main/content/departments/engineering/dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher).
+> [!NOTE] If this diagram fails to render, [read this page on GitHub instead](https://github.com/sourcegraph/handbook/blob/main/content/departments/engineering/dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher).

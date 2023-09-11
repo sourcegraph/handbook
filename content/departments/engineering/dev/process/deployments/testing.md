@@ -154,7 +154,7 @@ sg ci build docker-images-patch gitserver
 sg ci build docker-images-patch-notest frontend
 ```
 
-> NOTE: You can simply force-push if you would like to re-use a branch name with `--force`.
+> [!NOTE] You can simply force-push if you would like to re-use a branch name with `--force`.
 
 This will trigger two builds on Buildkite that will publish newly built Docker images. You can pull the image URL from the logs, and then use it to test changes locally.
 

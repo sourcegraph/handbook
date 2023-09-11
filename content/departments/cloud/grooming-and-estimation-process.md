@@ -8,7 +8,7 @@ To ensure the team has a common understanding of the problem that needs to be so
 
 ## How do we run grooming and estimate issues
 
-> NOTE: The current process in an experiment that the Cloud team will be running for at least 1 month. The team will review the results of this experiment and will decide on continuing with this process, modifying it or trying something different.
+> [!NOTE] The current process in an experiment that the Cloud team will be running for at least 1 month. The team will review the results of this experiment and will decide on continuing with this process, modifying it or trying something different.
 
 - The grooming sessions are asynchronous and are being run in a weekly cycle
 - By EOD Monday, the new scope is defined and added to the [Grooming View](https://github.com/orgs/sourcegraph/projects/264/views/14)

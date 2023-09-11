@@ -16,7 +16,7 @@ This is will be the primary use case for the Implementation Team. Following a si
 
 There are 3 main components to this use case:
 
-- <em>Self-Hosted to Cloud Migration</em> - when an existing on-prem customer migrates to a Managed Instance with our Cloud offering
+- <em>[Self-Hosted to Cloud Migration](../../../cloud/technical-docs/v2.0/onprem_data_migration.md)</em> - when an existing on-prem customer migrates to a Sourcegraph managed Cloud v2 instance. **Note:** Cloud migrations can only be performed immediately following the provisioning of the new Cloud instance before a customer starts using the Cloud instance.
 - <em>Self-Hosted to Different Self-Hosted Instance Migration</em> - when an existing self-hosted customer needs to transition to a different self-hosted instance (e.g., expanding from a single-node to a multi-node instance or migrating from on-prem to cloud self-hosted)
 - <em>Self-Hosted Feature Expansion</em> - when an existing self-hosted customer is expanding their feature set and needs assistance with the infrastructure changes that accompany that expansion (e.g., IE assistance is needed to deploy executors for Server Side Batch Changes or Precise Code Navigation Auto-Indexing)
 
@@ -115,7 +115,7 @@ While others may be directly or indirectly involved with specific implementation
 The external stakeholders on the customer side will vary depending on the customer's organizational structure, needs, and internal processes. External stakeholders can largely be broken down into the below categories.
 
 - Project Sponsor/ Champion - usually a leader invested in distributing Sourcegraph to developers
-- Project Team - developers, admins, DevX team members, etc. dedicated to standing up Sourcegraph
+- Project Team - developers, admins, DevInfra team members, etc. dedicated to standing up Sourcegraph
 - Project Manager - someone responsible for tracking progress, delegating tasks, and communication related to the implementation
 - Engineering Leadership - managers, directors, etc. directly overseeing developers that will be impacted by Sourcegraph
 - Engineers - end users providing feedback throughout UAT and user group roll-outs

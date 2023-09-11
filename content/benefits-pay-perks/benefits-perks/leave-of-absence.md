@@ -60,43 +60,65 @@ Eligibility starts on day 1 of employment. Teammates are eligible if they meet a
 
 ### Your pay while on LOA
 
-- **Paid leave**: Eligible teammates are paid 100% of their base salary for up to 4 weeks of continuous absence for approved leaves of absence. If you live in a location that has statutory benefits, Sourcegraph will cover the difference between any country or state-sponsored benefits and your full salary. You must sign up for any country or state-sponsored leave benefits if available.
+- **Paid leave:** Eligible teammates are paid 100% of their base salary for up to 4 weeks of continuous absence for approved leaves of absence. If you live in a location that has statutory benefits, Sourcegraph will cover the difference between any country or state-sponsored benefits and your full salary. You must sign up for any country or state-sponsored leave benefits if available.
 - **Unpaid leave:** If your LOA exceeds 4 weeks, you may take up to an additional 8 weeks of unpaid leave, or in alignment with statutory medical benefits and leave policies (dependent on location). This policy allows for a maximum of 12 weeks of medical leave, unless otherwise entitled under applicable statutory rights.
-- **Commissioned teammates:** if you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section].
+- **Commissioned teammates:** if you are on a commission plan, additional guidance is provided in the Commission Payout and Quota Relief section [https://docs.google.com/document/d/1D2mLSYzXIJ5SKjCYn_Jukxmdzskc9vi2Z_nL6lnAgOs/edit#bookmark=id.n4dwkzvkn266].
 
-Contact [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) to start the process and for assistance during your leave.
+Our Leave Management System, Tilt, will have a dashboard that outlines your base pay through the entirety of your leave.
 
 ### How to request LOA
 
-**Before leave:**
+- **Pre-leave:**
 
-1. [Notify Manager & People Team](#bookmark=id.1lz2wm3hrj52)
-2. [Formally request leave](#bookmark=id.vfrmjboawy4s)
-3. [Log your leave in Deel-PTO](#bookmark=id.jd3c6wuarzc)
-4. [Create your out of office coverage plan](#bookmark=id.aohrggxigv6x)
+1. [Notify Manager & People Team](leave-of-absence.md#step-1:-notify-your-manager-&-the-people-team)
+2. [Formally request leave](leave-of-absence.md#step-2:-formally-kick-off-leave-process)
+3. [Pre-leave tasks](leave-of-absence.md#step-3:-pre-leave-tasks)
+4. [Create & communicate your out of office plan with your team](leave-of-absence.md#step-4:-create-&-communicate-your-out-of-office-plan-with-your-team)
 
-**Take your leave:**
+- **During leave:**
 
-5. [Prepare to return to work]
+5. [Take your leave](leave-of-absence.md#step-5:-take-your-leave)
+6. [Prepare to return to work](leave-of-absence.md#step-6:-prepare-to-return-to-work)
 
-**After leave:**
+- **Return to work:**
 
-6. [Return to work]
+7. [Return from medical leave](leave-of-absence.md#step-7:-Returning-from-medical-leave)
 
-#### **Step 1: Notify your Manager & the People Team**
+### **Step 1: Notify your Manager & the People Team**
 
 - Teammates exploring a LOA should begin discussions with their Manager & the People Team as soon as possible. We understand medical emergencies happen, but the more notice for your leave the better.
-- Please send a Slack to your Manager or People Partner to inform them you are requesting a LOA.
+- Please send an email to your Manager and/or People Partner to inform them you are requesting a LOA.
 
-#### **Step 2: Formally kick-off leave process**
+Once you have completed this step you can move to formally kick off the leave process by proceeding to step 2.
 
-To formally request leave, please fill out [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfHLAFwpdytqLqfurHHyNNyU58AI2Qt0zGkiSmlWoT7JgHqbQ/viewform?usp=sf_link) to answer the below questions.
+### **Step 2: Formally kick-off leave process**
+
+**US Teammates:** To formally request leave, please initiate your leave on the Tilt platform.
+
+1. You can access Tilt though [Rippling](https://app.rippling.com/login) by selecting the Tilt tile on your homepage.
+2. Once in Tilt, select the “new leave” button in the upper right corner.
+3. A questionnaire will open. This will provide your Leave Case Manager all necessary information to support you through your leave. Information you will need to complete the questionnaire include:
+
+- What type of leave are you requesting?
+- When will your leave start?
+- Are you taking leave consecutively or intermittently?
+- What location (city, state/providence) will you be based during your leave?
+- Is your address accurate in BambooHR and Rippling?
+- If you are an exempt (salary) or non-exempt (hourly) teammate?
+- The number of hours you work per week? No need to adjust or change the pre-populated 40-hours per week.
+- Select whether you would like email or text alerts from Tilt.
+
+If you’re unsure how to answer any of these questions, feel free to reach out to the [people-ops](mailto:People-ops@sourcegraph.com) team.
+
+Once you’ve completed the questionnaire, your Leave Case Manager will reach out in 1-2 business days to walk you through your leave plan. This will include any required paperwork for the city, state, federal laws, or company policies.
+
+**Non-US Teammates:** To formally request leave, please fill out [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfHLAFwpdytqLqfurHHyNNyU58AI2Qt0zGkiSmlWoT7JgHqbQ/viewform?usp=sf_link) to answer the below questions.
 
 1. What type of leave are you requesting?
 2. When will your leave start?
 3. Are you taking leave consecutively or intermittently?
 4. How many weeks of leave are you requesting?
-5. What location (city, state/providence, & country) will you be based during your leave?
+5. What location (city, providence, & country) will you be based during your leave?
 6. Is your address accurate in BambooHR and Rippling?
 7. Do you have the required doctor's note to request medical leave?
 8. Confirming question around account access while on leave
@@ -104,27 +126,31 @@ To formally request leave, please fill out [this Google Form](https://docs.googl
 
 Once you’ve completed the Google Form, someone on the People Team will follow up with next steps:
 
-- All Teammates (other than PEO Teammates): the People Team will be your main point of contact during your leave and will help you manage all your leave related inquiries.
-- PEO Teammates: the People Team will work with your PEO to gather information on the leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
+- **All Contractor Teammates:** The People Team will be your main point of contact during your leave and will help you manage all your leave related inquiries.
+- **PEO Teammates: **The People Team will work with your PEO to gather information on the leave process and requirements for your specific country and will work with you to prepare for your upcoming leave.
 
-**Step 3: Log your medical leave**
+**Step 3: Pre-leave Tasks**
 
-- Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO](time-off/index.md#recording-pto".) in Slack (select the Medical Leave category). Be sure to 'Assign your role' to your Manager.
+- **US Teammates:** Once you’ve communicated and your leave dates with Tilt, please keep a close eye on your email for all Tilt notifications and assigned tasks. They will provide guidance on how to prepare for leave, important information while you’re out on leave, and returning from leave.
+- **Non-US Teammates:** Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO ](time-off/index.md#recording-pto)in Slack (select the Medical Leave category). Be sure to 'Assign your role' to your Manager.
 
 **Step 4: Create & communicate your out of office plan with your team**
 
-- We understand that emergencies happen, but please do your best to create an out of office plan before your LOA. See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
+- **All Teammates:** We understand that emergencies happen, but please do your best to create an out of office plan before your LOA. See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
 
 ### **Step 5: Take your leave**
 
-- While you are out on leave your focus should be on taking care of yourself or family member. Please do not feel the need to check work related platforms, or complete projects. Your team will use your coverage plan to ensure work continues while you are out. You will lose access to Okta accounts for leaves longer than 2-weeks in length.
-- The People Team may be in touch with you from time to time to check in through your personal email address and ensure your return to work plan is on track. Please do your best to respond to the People Team.
-- If you feel or receive pressure to complete work related tasks, please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com).
+- **All Teammates: **While you are out on leave your focus should be on taking care of yourself or a family member. Do not work (check work related platforms, complete projects, etc.). Your team will use your coverage plan to ensure work continues while you are out. For leaves longer than 2-weeks in length, your Okta account will be unavailable. You will regain access to Okta once you return from leave.
+  - If you feel or receive pressure to complete work related tasks, please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com).
+- **US Teammates:** Tilt will be checking in during your time away to confirm state benefits are filed, approved, and confirm your return to work.
+- **Non-US Teammates:** The People Team may be in touch with you from time to time to check in through your personal email address and ensure your return to work plan is on track. Please do your best to respond to the People Team.
 
 ### **Step 6: Prepare to return to work**
 
-- The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) with your confirmed return date.
-- IMPORTANT: If your return-to-work date needs to be changed, please notify the People Team via email ([People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com)) as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
+- **US Teammates:** Continue to monitor your Tilt notifications/emails and prepare for work. Tilt will reach out to confirm your return 1 week prior to your return.
+  - IMPORTANT: If your return-to-work date needs to be changed, notify Tilt as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
+- **Non-US Teammates:** The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) with your confirmed return date.
+  - IMPORTANT: If your return-to-work date needs to be changed, please notify the People Team via email ([People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com)) as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
 
 ### **Step 7: Returning from medical leave**
 
@@ -140,11 +166,7 @@ Preparing for your first day back:
 
 ### Additional resources
 
-- [Modern Health](https://circles.modernhealth.com/): our mental health platform, Modern Health, has resources for many tough life situations
-- On-demand meditations include:
-  - [The Values Reset](https://my.joinmodernhealth.com/meditation/the-reset-values)
-  - [Relax Your Body](https://my.joinmodernhealth.com/meditation/relax-your-body)
-  - [Deep Breathing](https://my.joinmodernhealth.com/meditation/deep-breathing)
+- Coming soon!
 
 ### FAQ
 
@@ -179,6 +201,20 @@ Preparing for your first day back:
 ##### **Q: Can I use PTO after 4 weeks of medical leave?**
 
 - A: No, while you’re out on medical leave your first 4 weeks will be paid and any additional time off up to 8 additional weeks is unpaid, unless your local statutory annual leave provides otherwise. Once you return to work you can use PTO in alignment with our [Paid Time Off policy](time-off/index.md).
+
+#### **Q: What if I have questions about benefits such as FMLA or ADA, who should I reach out to?** (this only applies to US Employees)
+
+- A: If the teammate is eligible for time off under the Family Medical Leave Act (FMLA) or any other applicable leave law in their jurisdiction, time off under this policy will run concurrent with that statutory leave. In addition, more robust medical certification forms may apply for FMLA and other statutory leaves. Your Tilt Leave Case Manager will walk you through this.
+
+#### **Q: Do I need to qualify for FMLA to take a Medical Leave of Absence?**
+
+- A: No, but if you do qualify for FMLA it will run concurrently with your statutory benefits and Medical Leave.
+
+#### **Q: What if I have already exhausted my FMLA (12 weeks) through parental leave this year?**
+
+- A: You may still qualify for medical leave if:
+  - You provide the proper doctor documentation
+  - You have not taken 12 weeks of medical leave (excluding parental leave) in the last 12 months
 
 ##### **Q: I just joined recently. Am I eligible for medical leave even though I haven’t been here for a year?**
 
@@ -230,6 +266,30 @@ Preparing for your first day back:
   - 401K deductions will begin as normal on your first paycheck upon return. There are no retroactive deductions applied like FSA/HSA deductions.
 - After 12 weeks, subject to applicable local laws including any reasonable disability accommodations, all benefits including medical benefits will discontinue. You will be offered continuation health insurance through COBRA. The People Team will review medically supported extension requests for up to 60 days at a time.
 - If you have questions please contact People-Ops.
+
+#### **Q: Should my leave be managed through Sparrow or Tilt?**
+
+A: If you have an active or upcoming leave that was registered with Sparrow prior to 2023-09-01, you will continue to keep your leave with Sparrow. If you need to initiate a leave of absence request on or after 2023-09-01, you will work with Tilt to manage your leave.
+
+#### **Q: How do I login to Tilt?**
+
+A: You access Tilt through [Rippling](https://app.rippling.com/identity/mfa-recommendation). You will see a Tilt tile.
+
+#### **Q: Who do I contact if I’m having trouble with Tilt?**
+
+A: You can reach out to the [People-Ops team](mailto:people-ops@sourcegraph.com) or Tilt support.
+
+#### **Q: Why do only US-based teammates use Tilt?**
+
+A: Tilt only provides services to the US at this time. The People-Ops team will support our international teammates throughout their leave of absence process.
+
+#### **Q: How do I know if I’m exempt or non-exempt?**
+
+A: If you are a salaried employee, you are exempt. If you are an hourly employee, you are non-exempt.
+
+#### **Q: What if I work more than 40 hours a week?** _Should I edit the pre-populated number of working hours portion of the Tilt questionnaire?_
+
+A: If you are hourly, yes please adjust the pre-populated hours. If you are salaried, there is no need to make edits as you are paid the same wages and do not receive overtime.
 
 #### **FAQ for non-US-based Teammates**
 

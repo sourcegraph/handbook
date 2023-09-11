@@ -42,7 +42,7 @@ Each teammate receives 3 questions, which come from a list of questions we use i
 
 Every month, the People Team aggregates all data and summarizes the key themes, both at the organization and department levels. These are then shared with Executive Leadership, who will align on the key organization-wide and department-specific actions to be taken.
 
-The following will be presented at a subsequent Company Meeting:
+The following will be presented at quarterly Company Meeting:
 
 - Pulse survey results
 - Trend observations
@@ -52,7 +52,7 @@ Our overarching philosophy is simple: take meaningful actions, based on in-depth
 
 ### Where can I see survey results?
 
-Survey results are included in the weekly update in #announce-people-talent.
+Survey results are included in the weekly update in #announce-people-talent-team.
 
 ### Who will be able to see my responses?
 

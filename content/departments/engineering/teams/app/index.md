@@ -8,10 +8,9 @@ See [strategy](../../../../strategy-goals/strategy/app/index.md)
 
 - Taylor Sperry, product manager
 - Stephen Gutekanst, tech lead
-- Paulo Almeida, product designer
 - Megan St. Andrew, UX researcher
 
-FY23Q2 Job Fair engineers:
+FY23Q2 project engineers:
 
 - William Bezuidenhout
 - Felix Kling

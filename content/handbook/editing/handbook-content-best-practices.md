@@ -64,7 +64,7 @@ When deleting content or a page that you don't normally maintain, it's best to d
 
 ## Content Help
 
-Two [guiding principles](../index.md#guiding-princples) of the Handbook are that everyone can edit the Handbook, and that the Handbook is maintained by everyone. Sometimes, it can be difficult to know _where_ to put the content you're looking to add. Ask in the #handbook channel for help with things like:
+Two [guiding principles](../index.md#guiding-princples) of the Handbook are that everyone can edit the Handbook, and that the Handbook is maintained by everyone. Sometimes, it can be difficult to know _where_ to put the content you're looking to add. Ask in the #discuss-handbook-help channel for help with things like:
 
 1. Where should I put this new page or directory?
 1. Should I create a new page for this content, or embed in an existing page?

@@ -316,6 +316,12 @@ kbd {
         color: #70572b;
     }
 
+    aside.important {
+        border-color: #d2c1f4;
+        background-color: #e0d4f8;
+        color: #8250df;
+    }
+
     :is(h1, h2, h3, h4, h5, h6) {
         margin-top: 1.5rem;
         margin-bottom: 1rem;

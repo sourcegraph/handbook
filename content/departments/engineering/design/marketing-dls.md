@@ -10,7 +10,7 @@ The [Marketing DLS](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Marketing-
 
 Text:
 
-- We use [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro). Download both font families and install it on your system.
+- We use [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3?query=source+sans) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro). Download both font families and install it on your system.
   - You may also need the [Figma font installer](https://www.figma.com/downloads/) if you use Figma in the browser instead of on desktop.
 - All text styles are available through the DLS [typography page](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Marketing-DLS?node-id=8435%3A37157)
 

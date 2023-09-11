@@ -22,7 +22,7 @@ Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16
 
 - You may take more or less than 16 weeks, depending on your needs and preferences, but anything over 16 weeks is not eligible for the paid parental leave policy. (See [FAQ](#faq-for-non-us-based-teammates) for Non-US/statutory variances)
 
-- You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial parental leave date). If using non-consecutively, you must request leave in blocks of 1-week increments and cannot split this into specified days across partial, non-consecutive weeks.
+- You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial parental leave date). If using non-consecutively, you must request leave in blocks of 1-month increments and cannot split this into specified days across partial, non-consecutive weeks. If you need more flexibility taking non-consecutive leave, please reach out to the people-ops@sourcegraph.com and go through an approval process to see if the business can accommodate shorter blocks of leave.
 
 - If you live in a country where a statutory Parental and/or Birthing Parent/Maternity Leave benefit is available (which may include disability leave for birthing parents), you will be required to claim statutory Parental and/or Birthing Parent/Maternity Leave pay (if you are eligible) and, if such leave is offered at less than full pay, Sourcegraph will supplement any gaps in total unpaid leave for up to 16 weeks. Please see guidance below for International Teammates.
 
@@ -38,47 +38,55 @@ Sourcegraph ensures eligible Teammates are paid 100% of your salary for up to 16
 
 ### Planning to go on Parental Leave? Follow the below steps…
 
-**Step 1: Notify your Manager & the People Team**
+### **Step 1: Notify your Manager & the People Team**
 
-Teammates planning to take parental leave should begin discussions with their Manager & the People Team **no later than** 1 month prior to the expected leave start date.
+Teammates planning to take parental leave should begin discussions with their Manager & the People Team no later than 1 month prior to the expected leave start date.
 
-Please work with your Manager to discuss your parental leave date and return-to-work date so that you can both plan for your absence in advance.
+Please email your Manager to discuss your parental leave date and return-to-work date so that you can both plan for your absence in advance. Once you have notified your Manager and People Partner, you can move on to formally start the process with our leave vendor.
 
-**Step 2: Formally kick off leave process**
+### **Step 2: Formally kick off leave process**
 
-To formally request leave, please fill out [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe33JhiE5hW2ksMTyqD7Ax-7G9XRt1cczqfKG0zhayhBl5YJw/viewform?usp=sf_link) to provide necessary information about your leave request.
+**US Teammates:** To formally request leave, please login to Tilt though [Rippling](https://app.rippling.com/identity/mfa-recommendation) by selecting the Tilt tile on your homepage. Once in Tilt, select the “new leave button.” A questionnaire will begin and you’ll need to fill out specific information in order for Tilt to begin your leave plan. This information will provide your Leave Case Manager all necessary information to support you through your leave. Information you will need to complete the questionnaire include:
 
-Once you’ve completed the Google Form, someone on the People Team will follow up with next steps:
+- What type of leave are you requesting?
+- When will your leave start?
+- Are you taking leave consecutively or intermittently?
+- What location (city, state/providence) will you be based during your leave?
+- Is your address accurate in BambooHR and Rippling?
+- If you are an exempt (salary) or non-exempt (hourly) teammate?
+- The number of hours you work per week? No need to adjust or change the pre-populated 40-hours per week.
+- Select whether you would like email or text alerts from Tilt
 
-- **All other Teammates:** omeone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. The Sparrow team will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
-- **PEO Teammates:** the People Team will work with your PEO to gather information on the leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
-- **Contractor Teammates:** one of our People teammates will work with your PEO to gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
+If you’re unsure how to answer any of these questions, feel free to reach out to the [people-ops](mailto:People-ops@sourcegraph.com) team.
 
-**Step 3: Log your parental leave**
+Once you’ve completed the questionnaire, your Leave Case Manager will reach out in 1-2 business days to walk you through your leave plan. This will include any required paperwork for the city, state, federal laws, or company policies.
 
-Once you’ve communicated and confirmed your leave dates with the People Team and your Manager, please use PTO by [Deel](https://www.tryroots.io/pto) (select the Parental Leave category) to record your leave and return-to-work dates. Be sure to 'Assign your role' to your Manager.
+**PEO Teammates:** Submit this [google form](https://docs.google.com/forms/d/e/1FAIpQLSe33JhiE5hW2ksMTyqD7Ax-7G9XRt1cczqfKG0zhayhBl5YJw/viewform?usp=sf_link) to request your leave. \*\* \*\*The People Team will work with your PEO to gather information on the leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
 
-We understand that your Leave dates may change, so you can adjust your Deel dates at a later date if needed.
+**Contractor Teammates:** Submit this [google form](https://docs.google.com/forms/d/e/1FAIpQLSe33JhiE5hW2ksMTyqD7Ax-7G9XRt1cczqfKG0zhayhBl5YJw/viewform?usp=sf_link) to request your leave. One of our People teammates will gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
 
-**Step 4: Create & communicate your out of office plan with your team**
+### **Step 3: Pre-leave tasks**
 
-See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
+- **US Teammates: **Once you’ve communicated your leave dates with Tilt, please keep a close eye on your email for all Tilt notifications and assigned tasks. They will provide guidance on how to prepare for leave, important information while you’re out on leave, and returning from leave. Examples include:
+  - Set your PTO by using [Deel-PTO ](time-off/index.md#recording-pto)in Slack (select the Parental Leave category) to record your leave and return-to-work dates. Be sure to ‘Assign your role’ to your Manager.
+  - Creating an [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit#heading=h.kk2ownwq3nq8)
+- **Non-US Teammate**: Once you’ve communicated and confirmed your leave dates with the People Team, please log the exact leave and return-to-work dates using [Deel-PTO ](time-off/index.md#recording-pto)in Slack (select the Parental Leave category). Be sure to 'Assign your role' to your Manager.
 
-**Step 5: Take your leave**
+### **Step 4: Take your leave**
 
-While you are out on leave your focus should be on taking care of yourself or family member. Please do not feel the need to check work related platforms, or complete projects. Your team will use your coverage plan to ensure work continues while you are out.
+- **All Teammates:** While you are out on leave your focus should be on taking care of yourself and family. Please do not feel the need to check work related platforms or complete projects. Your team will use your coverage plan to ensure work continues while you are out.
+  - If you feel or receive pressure to complete work related tasks, please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com).
+- **US Teammates:** Tilt will be checking in during your time away to confirm state benefits are filed, approved, and confirm your return to work.
+- **Non-US teammates:** The People Team may be in touch with you from time to time to check in through your personal email address and ensure your return to work plan is on track. Please do your best to respond to the People Team.
 
-The People Team may be in touch with you from time to time to check in and ensure your return to work plan is on track. Please do your best to respond to the People Team.
+### **Step 5: Prepare to return to work**
 
-If you feel or receive pressure to complete work related tasks, please reach out to People-Ops@sourcegraph.com.
+- **US Teammates:** Continue to monitor your Tilt notifications/emails and prepare for work. Tilt will reach out to confirm your return 1 week prior to your return.
+  - IMPORTANT: If your return-to-work date needs to be changed, notify Tilt right away. You will also need to adjust your dates in [Deel-PTO](time-off/index.md#recording-pto) in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
+- **Non-US Teammates:** The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) with your confirmed return date.
+  - IMPORTANT: If your return-to-work date needs to be changed, please notify the People Team via email ([People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com)) as soon as possible. You will also need to adjust your dates in [Deel-PTO](time-off/index.md#recording-pto) in Slack. Any extensions will need to be approved by the People Team and confirmed by your manager.
 
-**Step 6: Prepare to return to work**
-
-The People Team will email you to confirm your return to work 1 week prior to your return. Please respond to People-Ops@sourcegraph.com with your confirmed return date.
-
-**IMPORTANT:** If your return-to-work date needs to be changed, please notify your Manager and the People Team via email (People-Ops@sourcegraph.com) as soon as possible. You will also need to adjust your dates in Deel-PTO in Slack. Any extensions will need to be approved by your manager and confirmed by the People Team.
-
-**Step 7: Returning from medical leave**
+### **Step 6: Returning from leave**
 
 Preparing for your first day back:
 
@@ -280,6 +288,18 @@ A: Please notify the People Team at [people-ops@sourcegraph.com](mailto:people-o
 A: Yes, however you are allowed a **total** of 16 weeeks per 12 months of parental leave - no matter the number of adoptions or foster-placements. You will need to choose how to distribute those weeks between adoption or foster-placecment events.
 
 #### FAQ for US-based Teammates
+
+#### **Q: What if I have questions about benefits such as PFL or FMLA, who should I reach out to?** (this only applies to US Employees)
+
+A: If the teammate is eligible for time off under the Family Medical Leave Act (FMLA) or any other applicable leave law in their jurisdiction, time off under this policy will run concurrent with that statutory leave. In addition, more robust medical certification forms may apply for FMLA and other statutory leaves. Your Tilt Leave Case Manager will walk you through this.
+
+#### **Q: Do I need to qualify for FMLA to have parental leave?**
+
+A: You do not need to qualify/be eligible for FMLA to take parental leave. However, if the teammate is eligible for FMLA (Family Medical Leave Act), it will run concurrently with both statutory and Sourcegraph Paid Parental leave.
+
+#### **Q: What if I exhausted my FMLA with a Medical Leave in the last 12 months?**
+
+A: You are still eligible to take parental leave for the birth or adoption of a child, as long as you have not exhausted the 16 weeks of parental leave in the last 12 months.
 
 ##### Q: When should I add my child to my insurance? _(this only applies to US Employees)_
 

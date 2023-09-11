@@ -23,7 +23,7 @@ Please update your home address and work address in [BambooHR](https://help.bamb
 
 ## Cross-border moves
 
-Moving to another country? Notify [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) of your intent to work in a new location, as well as when you expect to begin working from that location. Notify the People Team at least 30 days prior to your planned move.
+Moving to another country? Moving cross-border is more complex with taxes, and possible visa requirements. Notify people-ops@sourcegraph.com of your intent to work in a new location, as well as when you expect to begin working from that location and we will begin the approval process. Notify the People Team **at least** 30 days prior to your planned move.
 
 Cross-border moves require require the following:
 

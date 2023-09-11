@@ -1,6 +1,6 @@
 # Find a mentor, Be a mentor!
 
-> NOTE: The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in #mentorship, or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
+> [!NOTE] The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in #mentorship, or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
 
 ## Introduction
 

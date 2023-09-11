@@ -4,7 +4,6 @@
 
 - [Engagement survey](people-ops/process/teammate-sentiment/engagement-survey.md)
 - [Pulse survey](people-ops/process/teammate-sentiment/pulse-survey.md)
-- [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
 - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
 - [Skip level]
 
@@ -22,18 +21,14 @@
 ## Working at Sourcegraph
 
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
-- [Safety]
 - [Required workplace postings/posters - US](Required-posting-page.md)
 - [Teammate development](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-  - [Training](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md)
   - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
   - [Impact reviews](people-ops/process/teammate-sentiment/impact-reviews/index.md)
-- [Recognition program](../../company-info-and-process/working-at-sourcegraph/recognition-program.md)
 - How we measure our culture:
 
   - [Engagement survey](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse survey](people-ops/process/teammate-sentiment/pulse-survey.md)
-  - [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
   - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
   - [Skip level]
 
@@ -53,8 +48,6 @@
 - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
 - [Wellbeing](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
 - [Celebrating teammates](../../benefits-pay-perks/benefits-perks/celebrate.md)
-- [Charity matching](../../benefits-pay-perks/benefits-perks/charity-matching.md)
-- [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
 
   ### Benefits
 

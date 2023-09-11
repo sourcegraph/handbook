@@ -20,11 +20,11 @@ While those metrics are good for our business, the driving factor should be maki
 
 ### Utilization (Adoption)
 
-We consider healthy adoption / utilization to comprise of at least 80% consumption of purchased seats as measured by Monthly Active Users (MAU) / Total Licensed Seats. We aim to get to 80% consumption within the first 45 days of the engagement (after the production environment is established) and maintain at least 80% consumption at all times.
+We consider healthy adoption / utilization to comprise of at least 80% consumption of purchased seats as measured by Monthly Active Users (MAU) / Total Licensed Seats. We aim to get to 80% consumption within the first 60 days of the engagement (after the production environment is established) and maintain at least 80% consumption at all times.
 
 ### Consumption (Usage)
 
-TAs seek to educate and enable customer devs on how to integrate Sourcegraph into their workflows so that they are using it multiple times every single day. While today we calculate usage based on Daily Active Users (DAU) / Monthly Active Users (MAU), we're refining this exact benchmark heading into and through FY24.
+TAs seek to educate and enable customer devs on how to integrate Sourcegraph into their workflows so that they are using it multiple times every single day. Today we calculate usage based on a 4 week average lookback of daily active users / last month's monthly active users.
 
 ### Retention
 
@@ -35,7 +35,7 @@ Everything a TA does should positively influence the long-term relationship we h
 ### Team Culture
 
 - [Team Norms](team-culture/team-norms.md)
-- [How we work in support of customers](team-culture/working-with-customers.md)
+- [How we work in support of and with customers](team-culture/working-with-customers.md)
 
 ### Internal Team Resources
 
@@ -44,4 +44,4 @@ Everything a TA does should positively influence the long-term relationship we h
 
 ## How to Reach Us
 
-This team can be engaged in the #ta channel or via the @technical-advisors user group in slack.
+This team can be engaged in the #discuss-technical-advisors channel or via the @technical-advisors user group in slack.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an overview of the CEO Shadow Program. Please feel free to contact the CEO team, @connor o'brien (Chief of Staff to the CEO) or @sally voisen (Sr. EBP to the CEO) on slack with any questions, comments, feedback, or concerns.
+This is an overview of the CEO Shadow Program. Please feel free to contact the CEO team, @connor o'brien (Chief of Staff to the CEO) on slack with any questions, comments, feedback, or concerns.
 
 The CEO Shadow Program typically lasts between 1-2 business days. It is a temporary rotation for all [eligible teammates](ceo-shadow-program.md#eligibility) where they will get an up-close look at the day-to-day life of the Sourcegraph [CEO](../../team/ceo/index.md), Sourcegraph’s business strategies at work, and decision-making at the top. This rotation, if done right, should increase transparency and visibility into how Sourcegraph is run while better enabling the CEO Shadow to work cross-functionally and better align their core work to company strategies after the rotation.
 
@@ -30,7 +30,7 @@ Examples of typical tasks and responsibilities of a CEO Shadow:
 
 ## Past CEO Shadow experiences
 
-Are you curious about how other shadow's experiences? Hear from them yourself about their experiences and takeaways.
+Are you curious about other shadows' experiences? Read about their experiences and takeaways below.
 
 - [Rok Novosel](https://docs.google.com/document/d/1X-kPQQqemgP7cs7nO-5z0BYY2v8a8ZBoQtVh2Ar4GOs/edit): Our first international CEO shadow!
 - [Alex Isken](https://docs.google.com/document/d/1aCRrBq54_wRnd1zrWdCJv_IlykWMF-T_4UsaxBriAN8/edit#): 4.0 planning and some other interesting experiences.
@@ -38,6 +38,8 @@ Are you curious about how other shadow's experiences? Hear from them yourself ab
 - Diego Comas: My CEO shadow experience [blog](https://docs.google.com/document/d/1CkYiIPR1NMjTXHUIbE2pcn2im6x4O81A5M6F7cjTIQA/edit?usp=drive_link) and [video](https://drive.google.com/file/d/1lcpj291eu4SexYSecfmVVYSSxH82KHts/view?usp=drive_link)
 - [Marija Petrovic](https://docs.google.com/document/d/1_BrCUWpWNmcbobV6j5aUTlY_9gaaLsPj4zsa9yaVrV8/edit?usp=drive_link): CEO shadow recap
 - [Todd Herskovitz](https://docs.google.com/document/d/1oza4d1sUS8IzXPfTMC8o47IgDQ5EcmOnD15zLUfslQw/edit?usp=drive_link): Key takeaways and feedback
+- [Marc LeBlanc](https://docs.google.com/document/d/1kSK-nzL2VJreBViLi5ys1TCX8TE7JIASUH8IwTreOnI/edit?usp=sharing): Adventures of a CEO shadow
+- [Eric Fritz](https://docs.google.com/document/d/1lcn9jllAV82vmH-Flr6itLoshdYViX07ualnMJZdizE/edit?usp=sharing):A Glimpse at the Top
 
 ## Eligibility & Participation
 
@@ -49,7 +51,7 @@ All Sourcegraph teammates in good standing (i.e. not on a performance plan) are 
 
 The CEO Shadow Program typically lasts between 1-2 business days. The length and timing of the rotation is subject to change given Quinn's and the Shadow's schedules. The CEO team will do it's best to keep agreed upon dates, with the understanding there are external factors that cause Quinn's availability to shift dramatically on a moment's notice.
 
-This program is intended to be in-person and is a break from our async culture. However, given the [goal and intention](ceo-shadow-program.md#goal-and-intention-of-the-program) of the program, the CEO Shadow program should be an exception. Every effort will be made to ensure this program is inclusive. Please reach out to the CEO team, @connor o'brien (Chief of Staff to the CEO) or @sally voisen (Sr. EBP to the CEO) on Slack if you have extenuating circumstances that are keeping you from participating in-person and we’ll do our best to accommodate.
+This program is intended to be in-person and is a break from our async culture. However, given the [goal and intention](ceo-shadow-program.md#goal-and-intention-of-the-program) of the program, the CEO Shadow program should be an exception. Every effort will be made to ensure this program is inclusive. Please reach out to the CEO team, @connor o'brien (Chief of Staff to the CEO) on Slack if you have extenuating circumstances that are keeping you from participating in-person and we’ll do our best to accommodate.
 
 Participation in the CEO Shadow Program is not added work to your job. Participating in the CEO Shadow program means you are taking a leave from your core job responsibilites to focus on being a CEO Shadow. Participation in the CEO Shadow program is not PTO as you will be working in a different capacity.
 
@@ -57,11 +59,11 @@ Participation in the CEO Shadow Program is not added work to your job. Participa
 
 1. Work with your manager and cross-reference [this doc](https://docs.google.com/spreadsheets/d/1HqcXD5qZ6drKp1OEvGRM_o8tUuzydvzQJzcaOz-kMNs/edit#gid=0) to find a few dates that could work.
 2. Once you've identified a few dates, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScQXYDlypKgCEzGy8ifFFUuuLERRpSLKRFUGaoJgpsCUqU_QA/viewform) to kick off the request process.
-3. The Sr. Executive Business Partner to the CEO (@sally voisen on Slack) will then reach out to coordinate and schedule your rotation date(s) and discuss program logistics (where to stay, when to arrive, what to expect, etc.). Most answers to these questions should be answered on this handbook page. If they are not, please don't hesitate to reach out for clarification.
+3. You will then be contacted to coordinate and schedule your rotation date(s) and discuss program logistics (where to stay, when to arrive, what to expect, etc.). Most answers to these questions should be answered on this handbook page. If they are not, please don't hesitate to reach out for clarification.
 
 ## Preparation
 
-We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to the CEO team, @connor o'brien (Chief of Staff to the CEO) or @sally voisen (Sr. EBP to the CEO). (Sally will proactively reach out to you if there is anything specific Quinn would like to work with you on.)
+We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to the CEO team, @connor o'brien (Chief of Staff to the CEO). (You will be proactively contacted if there is anything specific Quinn would like to work with you on.)
 
 ### Travel & Expenses
 
@@ -71,11 +73,11 @@ The CEO Shadow Program is designed to provide a unique and compelling opportunit
 
 #### Lodging
 
-Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. If traveling a long distance and lodging is needed beyond the rotation, please clear it with the Sr. EBP to the CEO (@sally voisen) first.
+Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. If traveling a long distance and lodging is needed beyond the rotation, please clear it with @connor o'brien (Chief of Staff to the CEO) first.
 
 Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). Please book your lodging through Navan.
 
-We typically suggest CEO Shadows stay in San Francisco, but CEO Shadows should work with the Sr. EBP to the CEO (@sally voisen) on where to stay to minimize travel and expense based on Quinn's calendar.
+We typically suggest CEO Shadows stay in San Francisco, but @connor o'brien (Chief of Staff to the CEO) can work with you on where to stay to minimize travel and expense based on Quinn's calendar.
 
 #### Airfare
 
@@ -87,11 +89,11 @@ At San Francisco International airport (SFO), all rideshare apps (Uber, Lyft, et
 
 #### Expensing meals
 
-CEO Shadows should follow our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md) in regards to food and dining. The Sr. EBP to the CEO (@sally voisen) will work with the finance team to enable the correct spend category in Airbase for you to submit expenses against.
+CEO Shadows should follow our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md) in regards to food and dining. We will work with the finance team to enable the correct spend category in Airbase for you to submit expenses against.
 
 #### Childcare
 
-Childcare is covered during the active shadowing period and will be reimbursed via your expense report. The Sr. EBP to the CEO (@sally voisen) will work with the finance team to enable the correct spend category in Airbase for you to submit expenses against.
+Childcare is covered during the active shadowing period and will be reimbursed via your expense report. We will work with the finance team to enable the correct spend category in Airbase for you to submit expenses against.
 
 #### Required Business Travel
 
@@ -99,7 +101,7 @@ The CEO shadow will accompany the CEO on any and all business travel.
 
 ## CEO shadow rotation exclusions
 
-The CEO Shadow will not participate in exec team off-sites, working sessions, or board meetings. Should your proposed dates fall within one of those events, the Sr. EBP to the CEO (@sally voisen) will work with you on identifying alternative dates for your rotation.
+The CEO Shadow will not participate in exec team off-sites, working sessions, or board meetings. Should your proposed dates fall within one of those events, we will work with you on identifying alternative dates for your rotation.
 
 During the rotation, CEO shadows will sit out of 1-1s and will join the first half of the exec team meeting (45 mins).
 
@@ -109,7 +111,7 @@ Part of your participation as a CEO Shadow is to create a blog / vlog post about
 
 ### When is your content due?
 
-Your content must be completed by the Friday following the conmpletion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
+Your content must be completed by the Friday following the completion of your rotation. We will feature your CEO shadow content in the GitDown the following Monday.
 
 ### How is content submitted?
 

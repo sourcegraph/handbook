@@ -6,7 +6,7 @@ To ensure that information security is designed and implemented within the devel
 
 ## **Scope**
 
-All Sourcegraph applications and information systems that are business critical and/or process, store, or transmit sensitive data. This policy applies to all internal and external engineers and developers of Sourcegraph software and infrastructure.
+All Sourcegraph applications and information systems that are business critical and/or process, store, or transmit sensitive data. This policy applies to all internal and external engineers and developers of Sourcegraph software and infrastructure. This policy applies to all human and/or AI-generated code.
 
 # **Policy**
 
@@ -76,3 +76,4 @@ Any known violations of this policy should be reported to [report-policy-violati
 | ------- | ----------- | ------------- | --------------- | ----------- |
 | 1.0     | 29-Apr-2022 | First version | Diego Comas     | Diego Comas |
 | 1.1     | 30-May-2023 | 2023 review   | André Eleuterio | Diego Comas |
+| 1.2     | 17-Aug-2023 | Minor update  | André Eleuterio | Diego Comas |

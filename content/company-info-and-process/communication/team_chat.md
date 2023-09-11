@@ -14,7 +14,7 @@ Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/
 
 ### Naming conventions
 
-To help with navigation and discoverability, follow these naming conventions for channels. If you see find a channel that does not follow these, request to rename it in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
+To help with navigation and discoverability, follow these naming conventions for channels. If you see find a channel that does not follow these, request to rename it in #ask-it-tech-ops.
 
 <table>
   <tr>
@@ -28,17 +28,17 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#team-
    </td>
-   <td>For teams to coordinate work and activities among themselves.
+   <td>For teams to coordinate work and activities among themselves. Strict channel membership for only people on that team.
    </td>
    <td>#team-design, #team-support, #team-sales
    </td>
   </tr>
   <tr>
-   <td>#ask-
+   <td>#discuss-
    </td>
-   <td>To ask questions or find information from other teams or departments.
+   <td>To discuss topics related to that department or team.
    </td>
-   <td>#ask-sales, #ask-marketing, #ask-people-team
+   <td>#discuss-sales, #discuss-marketing
    </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#wg-
    </td>
-   <td>Stands for “working group” For cross-functional teams working together. 
+   <td>Stands for “working group” For cross-functional teams working together.
    </td>
    <td>#wg-swag, #wg-impact-reviews
    </td>
@@ -60,7 +60,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#location-
    </td>
-   <td>For teammates in the same location to connect. 
+   <td>For teammates in the same location to connect.
    </td>
    <td>#location-bayarea, #location-london, #location-nyc
    </td>
@@ -84,7 +84,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#ext-
    </td>
-   <td>To connect with EXTERNAL customers, consultants, etc. 
+   <td>To connect with EXTERNAL customers, consultants, etc.
    </td>
    <td>#ext-splunk-sourcegraph, #ext-indeed-management, #ext-video-prod
    </td>
@@ -116,7 +116,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#job-fair
    </td>
-   <td>For in-flight project that are part of the Job Fair program.
+   <td>For in-flight project that are part of the Product Planning program.
    </td>
    <td>#job-fair-own, #job-fair-ranking
    </td>
@@ -131,7 +131,7 @@ _All teammates are automatically added to these channels when they join Sourcegr
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/general">#announce-company </a>
    </td>
-   <td>Critical information that all Sourcegraph teammates need to stay on top of. 
+   <td>Critical information that all Sourcegraph teammates need to stay on top of.
 <p>
 Messages here are applicable to 75% of the company and posting permissions are limited.
    </td>
@@ -139,7 +139,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/C0379USFD7E">#ask-exec-team</a>
    </td>
-   <td>Ask Sourcegraph leadership any question and get an answer. 
+   <td>Ask Sourcegraph leadership any question and get an answer.
    </td>
   </tr>
   <tr>
@@ -155,9 +155,9 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/progress">#progress</a> 
+   <td><a href="https://sourcegraph.slack.com/archives/progress">#progress</a>
    </td>
-   <td>Celebrations for milestone moments and progress that impact our company strategy. 
+   <td>Celebrations for milestone moments and progress that impact our company strategy.
    </td>
   </tr>
   <tr>
@@ -167,15 +167,15 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#announce-teammate-departures</a> 
+   <td><a href="https://sourcegraph.slack.com/archives/C043N11GD7S">#announce-teammate-departures</a>
    </td>
-   <td>Stay informed about teammates who are leaving Sourcegraph. 
+   <td>Stay informed about teammates who are leaving Sourcegraph.
    </td>
   </tr>
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/thanks">#thanks</a>
    </td>
-   <td>Say thank you to teammates for big moments and small ones. 
+   <td>Say thank you to teammates for big moments and small ones.
    </td>
   </tr>
 </table>
@@ -186,7 +186,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/C01B6F2F1G8">#team-people-managers</a>
    </td>
-   <td>Private channel - Discussion among people managers and 
+   <td>Private channel - Discussion among people managers and
    </td>
   </tr>
 </table>
@@ -223,6 +223,12 @@ An emoji reaction can often replace the need for a follow-up message. You can ho
 - ✅ = I’ve seen it, my action is complete
 - 👍 = I agree
 
+#### Custom emoji
+
+All teammates are able to upload their own custom emoji to our Slack Workspace. When adding a new animated emoji, keep in mind that rapidly changing or flashing emoji, such as the iconic party parrot, may not be friendly for teammates who are [impacted by photosensitivity or susceptible to seizures](https://www.reddit.com/r/Epilepsy/comments/jzmjdx/seizure_inducing_emojis/).
+
+If you spot a custom emoji that may be a bit too animated, report it to #ask-it-tech-ops so it can be removed.
+
 ### Use threads to organize discussions and reduce noise
 
 Threads help you create organized discussions around specific messages. They let you discuss a topic in more detail without adding clutter to a channel or direct message (DM) conversation.
@@ -242,7 +248,7 @@ Private channels will automatically be created for the following categories of c
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
 - Affinity groups: Channels for affinity groups that prefer a private space.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)to make a channel private.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #ask-it-tech-ops to make a channel private.
 
 ### Organize Slack to make it work for you
 
@@ -258,7 +264,7 @@ Make sure to set up Slack to only send you notifications when you want to see th
 
 ### Archive old and unused channels
 
-To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
+To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
 
 ## Channel lists by department
 
@@ -272,7 +278,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-sales
+   <td>#discuss-sales
    </td>
    <td>All Sales
    </td>
@@ -284,13 +290,13 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-sales-ops
+   <td>#discuss-sales-ops
    </td>
    <td>All Sales
    </td>
   </tr>
   <tr>
-   <td>#ask-sales-enablement
+   <td>#discuss-sales-enablement
    </td>
    <td>All Sales
    </td>
@@ -338,7 +344,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-commissions
+   <td>#discuss-commissions
    </td>
    <td>Accounting and Sales Team
    </td>
@@ -350,7 +356,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-deal-desk
+   <td>#discuss-deal-desk
    </td>
    <td>Deal Desk, Legal, Sales
    </td>
@@ -379,7 +385,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-technical-success
+   <td>#discuss-technical-success
    </td>
    <td>All TS
    </td>
@@ -391,7 +397,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-ce
+   <td>#discuss-ce
    </td>
    <td>CE and cross functional partners
    </td>
@@ -409,7 +415,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-implementation
+   <td>#discuss-implementation
    </td>
    <td>Implementation
    </td>
@@ -421,7 +427,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-ta
+   <td>#discuss-ta
    </td>
    <td>TA
    </td>
@@ -433,7 +439,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-customer-support
+   <td>#discuss-customer-support
    </td>
    <td>Support
    </td>
@@ -451,13 +457,13 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-commissions
+   <td>#discuss-commissions
    </td>
    <td>Accounting and Sales Team
    </td>
   </tr>
   <tr>
-   <td>#ask-deal-desk
+   <td>#discuss-deal-desk
    </td>
    <td>Deal Desk, Legal, Sales
    </td>
@@ -486,7 +492,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-engineering
+   <td>#discuss-engineering
    </td>
    <td>All eng, cross functional partners
    </td>
@@ -498,19 +504,13 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-dev-ops
+   <td>#discuss-dev-ops
    </td>
    <td>Anyone having question about deployments
    </td>
   </tr>
   <tr>
-   <td>#announce-eng-updates
-   </td>
-   <td>Anyone interested in updates from Eng teams?
-   </td>
-  </tr>
-  <tr>
-   <td>#ask-release-guild
+   <td>#discuss-release-guild
    </td>
    <td>People who have questions and updates about releases
    </td>
@@ -540,7 +540,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-product
+   <td>#discuss-product
    </td>
    <td>All Product teammates, cross functional partners
    </td>
@@ -570,7 +570,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-design
+   <td>#discuss-design
    </td>
    <td>Design team
    </td>
@@ -640,7 +640,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-marketing
+   <td>#discuss-marketing
    </td>
    <td>All Marketing teammates + cross functional partners
    </td>
@@ -652,7 +652,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-internal-comms
+   <td>#discuss-internal-comms
    </td>
    <td>Internal comms + people looking for support on internal comms
    </td>
@@ -729,7 +729,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-deal-desk
+   <td>#discuss-deal-desk
    </td>
    <td>Deal Desk, Legal, Sales
    </td>
@@ -747,7 +747,7 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-analytics
+   <td>#discuss-analytics
    </td>
    <td>Data + cross functional partners
    </td>
@@ -788,9 +788,140 @@ To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#ask-legal
+   <td>#discuss-legal
    </td>
    <td>Legal + people with legal questions
    </td>
+  </tr>
+</table>
+
+### Cody channels
+
+<table>
+  <tr>
+ <td><strong>Channel Name</strong>
+   </td>
+   <td><strong>Purpose</strong>
+ </td>
+  </tr>
+  <tr>
+   <td>#announce-cody
+   </td>
+   <td>Very high signal announcements about Cody releases, product roadmap, improvements, and usage that everyone in the company should be aware of.
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody
+   </td>
+   <td>General questions and discussions about Cody; prefer to use more focused channels when possible (eg, #wg-cody-agent for questions or discussion around Cody Agent).
+   </td>
+  </tr>
+  <tr>
+   <td>#feedback-cody
+   </td>
+   <td>General dogfooding and external feedback from Cody users. Feedback that’s specific to a particular client should go in the relevant #wg- channel.
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-context
+   </td>
+   <td>Discussion of Cody context
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-strat
+   </td>
+   <td>Questions, bug reports, and feedback specific to the Cody strategic work
+   </td>
+  </tr>
+  <tr>
+   <td>#team-cody-strat
+   </td>
+   <td>Internal channel for members of the Cody strategic team
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-gateway
+   </td>
+   <td>Discussion space for Cody Gateway development
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-agent
+   </td>
+   <td>Discussion space for Cody Agent development
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-clients
+   </td>
+   <td>Discussion space for Cody product teams to coordinate and collaborate on cross-team work
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-vs-code
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to the VSC extension. VS Code team collaboration
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-neovim
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to the Neovim plugin. Neovim team collaboration and weekly progress updates.
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-jetbrains
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to the JetBrains plugins (eg, IntelliJ). JetBrains team collaboration and weekly progress updates.
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-web
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to Cody in the web (dotcom or enterprise). Cody Web team collaboration and weekly progress updates.
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-emacs
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to Emacs plugin
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-app
+   </td>
+   <td>Questions, bug reports, and feedback specific to Cody App (not part of GA, but we need a place to continue trying to support existing users).
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions
+   </td>
+   <td>Alerts delivered when Cody is mentioned in our community.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions-east
+   </td>
+   <td>Alerts delivered when Cody is mentioned by a customer/user in the east sales region.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions-west
+   </td>
+   <td>Alerts delivered when Cody is mentioned by a customer/user in the west sales region.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions-emea
+   </td>
+   <td>Alerts delivered when Cody is mentioned by a customer/user in the emea sales region.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-usage-notifications
+   </td>
+   <td>Informational notifications for customers/users whose Cody Usage has exceeded thresholds of 90%, 95%, and 100% of their rate limit quota in the current window.
+ </td>
   </tr>
 </table>

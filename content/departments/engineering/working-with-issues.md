@@ -10,7 +10,7 @@ In other words, pick the workflow you want, as long as you implement this interf
 - **teams have a Triage column on their board**, where everybody (including automation) can add things for prioritization
 - **teams have a Backlog column on their board**
 
-Note that customers are not expected to follow this process and cannot label issues. PMs make sure that [issues submitted by users outside Sourcegraph get labeled properly](product/process/feedback/product_feedback_monitoring.md), so that they get on the owning team's radar.
+Note that customers are not expected to follow this process and cannot label issues. PMs make sure that [issues submitted by users outside Sourcegraph get labeled properly](../product/process/feedback/product_feedback_monitoring.md), so that they get on the owning team's radar.
 
 #### Surfacing issues to the design team
 

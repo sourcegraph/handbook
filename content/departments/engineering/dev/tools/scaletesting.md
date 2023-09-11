@@ -14,7 +14,7 @@ The common vocabulary being used to talk about scaling from the persective of a 
 
 ## ScaleTesting deployment
 
-`scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
+`scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Developer Infrastructure team.
 
 ➡️ If you plan to run a test, announce yourself on #wg-test-at-scale to ensure you're the only one using it at the moment.
 
@@ -122,7 +122,7 @@ If you have already configured and authenticated to the cluster, you can of cour
 ## Prerequisites
 
 - Access to the `sourcegraph-scaletesting` and `sourcegraph-dogfood` google projects.
-- [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/delivery/deployment/helm.md#helm) configured.
+- [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/release/deployment/helm.md#helm) configured.
 
 Below you can find a subset of the common tasks and how to complete them:
 
@@ -234,11 +234,11 @@ It can also be scaled up or down with the following steps:
 1. Ensure the instance has been stopped by going into the GCP Console or running the shutdown command
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Edit the machine type in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L40) - We recommended staying within the `n2-highmem-xx` [family](https://cloud.google.com/compute/docs/general-purpose-machines#n2-high-mem) as it's configuration best suits GitHub's requirements.
-3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+3. Create a PR and tag [team-dev-infra](https://github.com/orgs/sourcegraph/teams/team-dev-infra/members) for review.
 
 #### Increase Disk
 
-> NOTE: Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
+> [!NOTE] Downsizing disk is not supported at the moment, please proceed with caution before increasing disk size.
 
 Increasing disk is a 2 part process - you have to increase disk on the VM, and then expand the ghe filesystem for the changes to be applied.
 
@@ -246,7 +246,7 @@ Increasing disk is a 2 part process - you have to increase disk on the VM, and t
    `gcloud compute instances stop ghe-scaletesting --zone=us-central1-f --project sourcegraph-scaletesting`.
 2. Identify which disk you want to increase in [terraform](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/github-enterprise.tf#L19)
    ![increase-disk](https://storage.googleapis.com/sourcegraph-assets/handbook/increase-disk-terraform.png)
-3. Create a PR and tag [dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience/members) for review.
+3. Create a PR and tag [team-dev-infra](https://github.com/orgs/sourcegraph/teams/team-dev-infra/members) for review.
 4. After it has been approved and applied, follow the [instructions](https://docs.github.com/en/enterprise-server@3.6/admin/enterprise-management/updating-the-virtual-machine-and-physical-resources/increasing-storage-capacity#increasing-the-data-partition-size) from GitHub on how to expand the filesystem.
 
 ### Logging in

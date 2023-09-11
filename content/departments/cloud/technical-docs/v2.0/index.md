@@ -17,7 +17,7 @@ Learn more from:
 
 The largest architecture changes are moving from a standalone VM to GKE. Learn more from our [Cloud v2 diagrams](https://app.excalidraw.com/s/4Dr1S6qmmY7/4yUYgWaRxYx).
 
-<iframe src="https://link.excalidraw.com/readonly/9LCNZzAsx43zvMgTZRl5" width="100%" height="100%" style="border: none;"></iframe>
+<iframe src="https://link.excalidraw.com/readonly/YmVW5VzbnLXkmfiff54x" width="100%" height="100%" style="border: none;"></iframe>
 
 ### Postgres
 
@@ -72,7 +72,7 @@ All customer instances are considered part of the `prod` environment and all cha
 
 ##### [s2 instance](https://sourcegraph.sourcegraph.com/)
 
-This is the internal Cloud dogfood instance for the entire company. #dev-experience is responsible for rolling out nightly builds on this instance and #cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
+This is the internal Cloud dogfood instance for the entire company. #discuss-cloud-ops is responsible for rolling out nightly builds on this instance. Additionally, they are responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
 
 Operation playbook: go/s2-ops
 
@@ -90,7 +90,7 @@ The following processes only apply to Cloud v2.0:
 
 ### How to work with Cloud instances?
 
-> NOTE: This is the prereq for all things related to Cloud. Please review this section carefully. If you have questions, please reach out to #cloud and tag `@cloud-support`.
+> [!NOTE] This is the prereq for all things related to Cloud. Please review this section carefully. If you have questions, please reach out to #cloud and tag `@cloud-support`.
 
 Please visit go/cloud-ops to locate the instance you would like to access, then you will find instructions for:
 
@@ -112,7 +112,7 @@ Please visit go/cloud-ops, and follow instruction from `Deploy terraform changes
 
 ### How to use a fork of `cdktf-cli`?
 
-> WARNING: This process is deprecated, and we no longer use `cdktf-cli` directly.
+> [!WARNING] This process is deprecated, and we no longer use `cdktf-cli` directly.
 
 Sometime there is bugs (e.g. https://github.com/hashicorp/terraform-cdk/pull/2397, https://github.com/hashicorp/terraform-cdk/pull/2398) in the upstream and we have to maintain our own [fork](https://github.com/sourcegraph/terraform-cdk/tree/fix/tfc-planned-status) of `cdktf-cli`.
 

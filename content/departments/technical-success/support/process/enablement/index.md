@@ -40,7 +40,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))
 - [What does upgrading Sourcegraph look like](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view)
 - [What does upgrading a Kubernetes instance with overlay look like](https://drive.google.com/file/d/1aWsXejG2qeFKGrY5BGzpSabwGuU1gLM3/view?usp=sharing)
-- [How to deploy Sourcegraph to GCP with Kubernetes](https://drive.google.com/file/d/10uIp-rcN3nRa0FguScHU3NRrcXxgy6C7/view?usp=sharing) _note that #distribution is now defunct and if you have further questions on how to get up a cluster you should consult #delivery , #dev-ops and/or #dev-experience_
+- [How to deploy Sourcegraph to GCP with Kubernetes](https://drive.google.com/file/d/10uIp-rcN3nRa0FguScHU3NRrcXxgy6C7/view?usp=sharing) \_note that #distribution is now defunct and if you have further questions on how to get up a cluster you should consult #discuss-dev-ops and/or #discuss-dev-infra.
 - [Search crash course](https://drive.google.com/file/d/1OEDgTJAaaEL5N0bcxSbRbBrdi8FU_ZPN/view?usp=sharing)
 - [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)
 - [How to fix a database corruption on a Kubernetes instance](https://drive.google.com/file/d/1NlAA6nKp4W_iKU9TWga1OtUje3Ua85n0/view?usp=sharing)

@@ -259,34 +259,42 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 
 #### Taxonomy Guidelines
 
-New Business: New Customer, New Business Unit, New Team if multiple buying teams within a single business unit
+New Business: New Customer
 
-- \_Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
+- \_Account Name - Business Unit - Team - New Business - Enterprise,Enterprise Starter - (ProductName) - # of Seats (if Code Search or associated products)
 - _ProductName = Code Search, Cody, Cody + Code Search_
 - Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
 
+New Business in Existing Customer: New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
+
+- Note: Opportunity Type on these types of opportunities should remain as Expansion for reporting purposes
+
+- \_Account Name - Business Unit - Team - New Business in Existing Customer - Enterprise,Enterprise Starter - (ProductName) - # of Seats (if Code Search or associated products)
+- _ProductName = Code Search, Cody, Cody + Code Search_
+- Ex. JPMC - AWM - InfoSec Team - New Business in Existing Customer - Code Search - 50 Seats
+
 Flat Renewal: No Change to Contract
 
-- Account Name - Business Unit - Team - Renewal - (ProductName) # of Seats
+- Account Name - Business Unit - Team - Renewal - Enterprise,Enterprise Starter - (ProductName) # of Seats
   - _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. Oracle - Hospitality Group - Renewal - Search Only - 16 Seats
 
 Expansions: Sale of New Product, Upgrade to Code Search
 
-- _Account Name - Business Unit - Team - Expansion - (NewProductName) # of Seats_
+- Account Name - Business Unit - Team - Expansion - Enterprise,Enterprise Starter - (NewProductName) # of Seats
   - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. Wayfair - Expansion - Search + Batch - 50 Seats
 
 Expansions: Increase in Number of Seats
 
-- _Account Name - Business Unit - Team - Expansion - (ProductName)(Add’l # of Seats)_
+- Account Name - Business Unit - Team - Expansion - Enterprise,Enterprise Starter - (ProductName)(Add’l # of Seats)
   - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
   - _Add’l # of Seats – Additional number of licenses being purchased_
 - Ex. Apple - SPG - Expansion - Search Only - 35 Users
 
 Churn: Used Only When iARR is Negative
 
-- _Account Name - Business Unit - Team - Churn - (ProductName)(ChurnPotential)_
+- Account Name - Business Unit - Team - Churn - Enterprise,Enterprise Starter - (ProductName)(ChurnPotential)
   - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
   - _ChurnPotential = Partial, Full_
 - Ex. Uber - Search Only - Churn - Full
@@ -295,7 +303,7 @@ Churn: Used Only When iARR is Negative
 
 ##### Opportunities Related to Cody
 
-Now that Cody is generally available for sale, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines
+Althought Cody is currently still in Beta, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines and include Cody into the opportunity name if we plan to active Cody Beta for the customer.
 
 ### Associating contacts to opportunities
 

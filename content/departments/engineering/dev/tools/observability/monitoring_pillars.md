@@ -22,7 +22,7 @@ For further information, see the [Sourcegraph monitoring guide](./monitoring.md)
     - [What you should do](#what-you-should-do-3)
 - [Next steps](#next-steps)
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability). For Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
+> [!NOTE] Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability). For Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
 
 ## Overview
 

@@ -8,15 +8,11 @@ The analysts will be aligned to the business units that are supported, and each 
    </td>
    <td><strong>Stakeholder (VP/Dir)</strong>
    </td>
-   <td><strong>Data and Analytics</strong>
-   </td>
   </tr>
   <tr>
    <td>Product/Engineering
    </td>
    <td>Quinn Slack, Steve Yegge
-   </td>
-   <td>Eric Brody-Moore
    </td>
   </tr>
   <tr>
@@ -24,21 +20,15 @@ The analysts will be aligned to the business units that are supported, and each 
    </td>
    <td>Aimee Menne
    </td>
-   <td>Kelsey Brown
-   </td>
   </tr>
   <tr>
    <td>Sales and Ops
    </td>
-   <td>Greg Bastis, Ajay Uppaluri
-   </td>
-   <td>Kelsey Brown
+   <td>Ajay Uppaluri
    </td>
   </tr>
   <tr>
    <td>Marketing
-   </td>
-   <td>Andy Schumeister
    </td>
    <td>TBD
    </td>
@@ -46,9 +36,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Customer Support
    </td>
-   <td>
-   </td>
-   <td>Kelsey Brown
+   <td> TBD
    </td>
   </tr>
   <tr>
@@ -56,15 +44,11 @@ The analysts will be aligned to the business units that are supported, and each 
    </td>
    <td>Carly Jones
    </td>
-   <td>Eric Brody-Moore
-   </td>
   </tr>
   <tr>
    <td>Finance
    </td>
-   <td>
-   </td>
-   <td>TBD
+   <td> TBD
    </td>
   </tr>
 </table>

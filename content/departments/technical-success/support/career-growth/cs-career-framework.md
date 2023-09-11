@@ -18,7 +18,7 @@ Rather than precede each bullet point with “consistently,” we leave it as im
 
 The level descriptions state the minimum expectations _after you have completed your onboarding_. For example, if you were hired at a level 2, we would expect that you are having the impact outlined for both levels 1 and 2 once your onboarding is complete. This also means that before being promoted to level 3, for example, you would be expected to be already doing what is listed in level 3 before a promotion is possible.
 
-In line with our _continuously grow_ company value, we expect you to understand where you are at in the framework and always have something clearly defined that is pushing you to outgrow yourself to reach the next level. The process and timeline will vary person to person and should be captured in your career roadmap.
+We expect you to understand where you are at in the framework and always have something clearly defined that is pushing you to outgrow yourself to reach the next level. The process and timeline will vary person to person and should be captured in your career roadmap.
 
 ## When do I get promoted?
 

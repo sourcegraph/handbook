@@ -4,6 +4,10 @@
 
 Follow [break glass process](./break_glass_process.md) to ensure you have the proper access to perform this playbook.
 
+Extract the instance from Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`. Follow the Extract instance from control plane (break glass) section from the Ops Dashboard of the instance, go/cloud-ops.
+
+At the end, follow the `Backfill instance into control plane` section from the Ops Dashboard of the instance, go/cloud-ops
+
 ## Restoring Cloud SQL
 
 Use cases:
@@ -25,7 +29,7 @@ mi2 instance sql-backup list --slug $SLUG -e $ENVIRONMENT
 
 Restore the backup to the current instance.
 
-> NOTE: **IMPORTANT** This will override all current data with the backup.
+> [!NOTE] **IMPORTANT** This will override all current data with the backup.
 
 ```sh
 mi2 instance sql-restore create --backup-id $SQL_BACKUP_ID --slug $SLUG -e $ENVIRONMENT
@@ -48,7 +52,9 @@ Use cases (tested scenarios):
 
 Backup and restore uses [native GKE mechanism](https://cloud.google.com/kubernetes-engine/docs/add-on/backup-for-gke/concepts/backup-for-gke).
 
+1. [Follow break glass process](./break_glass_process.md)
 1. [List available backups](#list-backups)
+1. [Extract the instance from control plane]
 1. Assess the damage
    1. [GKE cluster is gone](#restore-cluster-and-applications)
    1. [The namespace is gone](#restore-the-full-namespace)
@@ -66,7 +72,7 @@ note the backup name, you will need it later.
 
 ### Restore cluster and applications from backup
 
-> WARNING: this will spin up a new GKE cluster and replace it with the previous backup
+> [!WARNING] this will spin up a new GKE cluster and replace it with the previous backup
 
 ```sh
 cd sourcegraph/cloud
@@ -80,7 +86,7 @@ mi2 instance restore create --backup-name $BACKUP_NAME --restore-type full-repla
 
 ### Restore the full namespace
 
-> WARNING: this will restore both application statue and disk to the state of backup
+> [!WARNING] this will restore both application statue and disk to the state of backup
 
 ```sh
 cd sourcegraph/cloud
@@ -91,7 +97,7 @@ mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-repl
 
 e.g. `sourcegraph-frontend`
 
-> WARNING: make sure no disk or statefulset application is deleted, or we will risk data loss
+> [!WARNING] make sure no disk or statefulset application is deleted, or we will risk data loss
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
@@ -111,7 +117,7 @@ mi2 instance restore create --backup-name $BACKUP_NAME --restore-type [gitserver
 
 e.g. `gitserver`, `zoekt`
 
-> WARNING: this assumes deletion of StatefulSet and/or application PVC/PV. GCP will create new empty disk and attach it.
+> [!WARNING] this assumes deletion of StatefulSet and/or application PVC/PV. GCP will create new empty disk and attach it.
 > You probally want to [restore with disk backup](#restore-statefull-application-with-disk-restore)
 
 ```sh

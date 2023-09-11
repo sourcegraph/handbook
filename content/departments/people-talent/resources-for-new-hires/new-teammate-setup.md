@@ -4,7 +4,7 @@
 
 Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the requirements to set up your computer.
 
-You can get a quick view of how to use a [Mac laptop here](https://help.apple.com/macOS/high-sierra/mac-basics/#/intro) and find further resources [here](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md).
+You can get a quick view of how to use a [Mac laptop here](https://help.apple.com/macOS/high-sierra/mac-basics/#/intro).
 
 ## Google Workspace
 
@@ -23,7 +23,7 @@ You can find resources on how to use each of the main tools [here](../../../comp
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/Sourcegraph_Logo_FullColor_light.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like the one above, and clicking the Sourcegraph logo should bring you to sourcegraph.com.
-7. Many teammates also add '[What is Code Intelligence?](https://about.sourcegraph.com/) | [We're Hiring!](https://about.sourcegraph.com/jobs?_ga=2.114747136.600672713.1644344374-539125958.1632800152)' into their signature below the Sourcegraph logo.
+7. Many teammates also add '[Meet Cody](https://about.sourcegraph.com/cody), your coding AI assistant | [We're hiring!](https://about.sourcegraph.com/jobs?_ga=2.114747136.600672713.1644344374-539125958.1632800152)' into their signature below the Sourcegraph logo.
 8. Update the "Signature defaults" options to match your preferences for using your signature on new emails and on reply/forward.
 
 ### Google Calendar
@@ -43,8 +43,6 @@ You can find resources on how to use each of the main tools [here](../../../comp
   ![Click on the plus Get Add-ons button](https://storage.googleapis.com/sourcegraph-assets/handbook/zoomcalendar.png)
 
 - Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?)
-
-- Also join the [social calendar](../../../company-info-and-process/remote/social_calendar.md)
 
 - See the Communication handbook for [more on scheduling meetings](../../../company-info-and-process/communication/index.md#scheduling-meetings-with-google-calendar).
 

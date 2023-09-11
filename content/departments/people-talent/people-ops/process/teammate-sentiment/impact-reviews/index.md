@@ -2,7 +2,7 @@
 
 _If you have any questions about the Impact Review process, or need help in general, please Slack #ask-people-team_
 
-## Impact Reviews explained
+## Impact Reviews Explained
 
 We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
 
@@ -16,12 +16,13 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 
 ### Who is eligible for a review / compensation increase?
 
-To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
-
+- If you received a 1 or a 2 rating, you are eligible for a merit increase (or spot bonus if in sales) regardless of your start date.
+- If you received a 3 rating, you are eligible for a merit increase once a year. Because of this, those who started on or after Feb 1 2023 are not eligible for a merit increase in 2H FY24 impact review cycle. They will be eligible in the 1H FY25 review cycle instead.
+  - Note: to be eligible to participate in a review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of a “3” or higher.
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
-- Teammates can receive compensation increases 2x per year for exceptional performance (9-box score: "Exceeding High Bar" with a 1:1, 1:2 or 2:1 score), but the **expectation is that Teammates receive a comp review 1x per year**
-- Teammates who recieve a 3 are not eligible for a compensation increase.
-- Teammates can also receive a compensation increase if they have fallen below the 75th percentile of their respective compensation band.
+- Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
+- Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
+- Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated.
 
 ### When do impact reviews take place?
 
@@ -56,7 +57,7 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 
 ## **Enablement Schedule**
 
-- 1x weekly open office hours with the People Team.
+- 1x monthly open office hours with the People Team.
   - We're here to answer any questions from writing reviews, giving feedback, all things Lattice, and career growth conversations!
 - [Writing great reviews](#writing-effective-feedback--self-reviews): example reviews for each category
 - [Writing reviews workshop](https://drive.google.com/file/d/1y0Vx3lzSZRXvteYYJmvmSo64j4QEbVZ5/view?usp=sharing)
@@ -82,8 +83,8 @@ Results from the semi-annual impact review process support the growth and develo
 
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
-  - Growth & promotion philosophy
-    - [Leveling guide](COMING SOON)
+  - [Growth & promotion philosophy](#promotion-philosophy)
+    - [Leveling guide](../../../../../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#individual-contributor-leveling)
     - [Career development frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
 - [Compensation philosophy](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)
@@ -104,71 +105,115 @@ Lattice resources:
 
 **Teammate self-review:**
 
-1. **Performance:** Looking back over the past performance period, how would you rate your level of success in achieving your commitments or goals as it relates to your role and level? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide examples in the comment field that support your rating.
-2. **Values:** Looking back over the past performance period, how would you rate your level of success in showcasing our values? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations]. Please provide supporting examples in the comment field that best describe how you exhibited Sourcegraph values over the past performance period.
-3. **Growth Opportunities:** I have showcased the expected domain knowledge, skills, and execution in alignment with my role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree ] Please provide specific examples in the comment field that support what you should start, stop, or continue doing to amplify performance.
-4. **Goal Setting:** What goals are you setting for yourself over the next 6 months to be successful?
-5. **Additional Feedback (Optional):** Please share any additional feedback that may be helpful for your manager to review as a part of your self-review assessment.
+<table>
+  <tr>
+   <td><strong>1. Past 6-months: </strong>Looking back over the past review period, how would you rate your performance against the expectations of your role, level and our values? 
+<p>
+[Rating Scale: 1-5] Please provide specific examples in the comment field that justifies your performance rating.  Where did you excel? Where do you need improvement?
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2. Next 6-months:</strong> What goals are you setting for yourself over the next 6 months to be successful?  
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3 . Additional Feedback (Optional): </strong>Please share any additional feedback that may be helpful for your manager to review as a part of your self-review assessment.
+   </td>
+  </tr>
+</table>
 
 **Peer review:**
 
-1. **Performance:** This teammate consistently delivers quality work in line with their role/level. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide specific examples in the comment field that supports how this teammate contributed to the success of a project, team, or initiative over the past review period.
-
-   (Response is only visible to this teammate's Manager)
-
-2. **Values:** This teammate consistently showcased our values over the past performance period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-
-   (Response is only visible to teammate's Manager)
-
-3. **Growth Opportunities:** This teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
-
-   (Response is only visible to this teammate's Manager)
-
-4. **Goal Setting**: How can this teammate better support you over the next 6 months?
-
-   (Response is visible to this teammate)
-
-5. **Additional Feedback (Optional):** Please share any additional feedback that may help this teammate grow in the next review period.
-
-   (Response is visible to this teammate)
+<table>
+  <tr>
+   <td><strong>Past 6-months: </strong>In the past 6-months, This teammate consistently delivers quality work in line with the expectations of their role/level/values.   [Rating Scale: 1-5]
+<p>
+Please provide specific examples in the comment field that supports how this Teammate contributed to the success of a project, team, or initiative over the past review period. Where did they excel? Where do they need improvement?
+<p>
+(Response is only visible to this teammates Manager) 
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2. Next 6-months</strong>: How can this teammate better support you, your team, and the company over the next 6 months?  
+<p>
+(Response is visible to this teammate) 
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3. Additional Feedback (Optional): </strong>Please share any additional feedback that may help this teammate grow in the next review period. 
+<p>
+(Response is visible to Reviewee) 
+   </td>
+  </tr>
+</table>
 
 **Direct Report-to-Manager review (skip-level feedback):**
 
-1. **Performance:** My manager enabled me to do my best work over the past review period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide specific examples in the comment field that supports if and how your manager enabled your success over the past review period.
-
-   (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
-
-2. **Values:** My manager consistently showcased our values over the past review period. [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe if and how your manager exhibited Sourcegraph values over the past performance period.
-
-   (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
-
-3. **Growth Opportunities:** My Manager showcased the expected domain knowledge, skills, and execution required to effectively manage me. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what your manager should start, stop, or continue doing to amplify performance.
-   (Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.)
-4. **Goal Setting**: What support do you need from your manager to be successful in the next 6-months?
-
-   (Response is visible to your Manager)
-
-5. **Additional Feedback (Optional):** Please share any additional feedback that may help your manager grow in the next review period.
-
-   (Response is visible to your Manager)
+<table>
+  <tr>
+   <td><strong>1. Past 6-months:</strong> My manager enabled me to do my best work over the past review period.  [Rating Scale: 1-5] 
+<p>
+Please provide specific examples in the comment field that support if and how your manager enabled your success over the past review period. 
+<p>
+Where did they excel? Where do they need improvement?
+<p>
+(Response is only visible to your Manager’s Manager. Your direct Manager will not see your responses.) 
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2. Next 6-months</strong>: What support do you need from your manager to be successful in the next 6-months?
+<p>
+(Response is visible to your manager) 
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3. Additional Feedback (Optional): </strong>Please share any additional feedback that may help your manager grow in the next review period. 
+<p>
+(Response is visible to your manager) 
+   </td>
+  </tr>
+</table>
 
 **Manager-to-Direct Report review:**
 
-1. **Performance:** What is this teammate’s 9-box performance (skill) score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples regarding accomplishments, role/skill execution, and other feedback reflective of the past review period.
-2. **Values:** What is this teammate’s 9-box values score? [Rating Scale: 1 Exceeded Expectations, 2 Met Expectations, 3 Below Expectations] Please provide supporting examples that best describe how this teammate exhibited Sourcegraph values over the past performance period.
-3. **Growth Opportunities:** This Teammate has showcased the expected domain knowledge, skills, and execution in alignment with their role/level. [Rating Scale: 1 Strongly Agree, 2 Agree, 3 Disagree] Please provide specific examples in the comment field that support what this teammate should start, stop, or continue doing to amplify performance.
-4. **Goal Setting**: What goals do you want this teammate to achieve over the next 6 months?
-5. **Promotion Readiness:** I am recommending this teammate for promotion. [Yes/No]
+<table>
+  <tr>
+   <td>1.<strong> Past 6-months:</strong> Looking back over the past review period<strong>, </strong>how would you rate this teammate’s performance against the expectations of their  role, level and our values [Rating scale: 1-5]:
+<p>
+In 2-3 sentences, please provide justification for selected performance rating. Additionally, Where did they excel? Where do they need improvement?
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2. Next 6-months</strong>: What goals and/or areas for improvement do you want this teammate to focus on achieving over the next 6 months?
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3. Promotion Readiness: </strong>I am recommending this teammate for promotion. [Yes/No]  (Response is not visible to teammate and will only be used as part of calibration)
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4. Additional Feedback (Optional): </strong>Please share any additional feedback that may help this teammate grow in the next review period. 
+   </td>
+  </tr>
+</table>
 
-   (Response is not visible to teammate and will only be used as part of calibration)
+## The Talent Assessment Framework
 
-6. **Additional Feedback (Optional):** Please share any additional feedback that may help this teammate grow in the next review period.
+In addition to asking the above questions during the Impact Review process, we also ask our Managers to submit a Talent Assessment score.
 
-## The Talent Assessment using the 9-box
+**Talent Assessment Scale**
 
-In addition to asking the above questions during the Impact Review process, we also ask our Managers to submit a Talent Assessment score in alignment with our **9-box guidance.**
+![image](https://storage.googleapis.com/sourcegraph-assets/TalentAssessmentChart%20-%20Updated.png)
 
-![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/9-box.png)
+#### Unless promoted, Teammates should not exceed 15% increases in a given 12-month period.
+
+_Note_: Please reference the following mapping of scores from our prior talent assessment framework to your current one:
+
+- New Rating(no prior scores map to this) = 1 Distinguished Performance
+- [1:1, 2:1, 1:2] = 2 Superior Performance
+- [2:2] = 3 Meeting Performance Expectations
+- [3:2, 2:3, 3:3] = 4 Partially Successful Performance
+- New Rating (No prior scores map to this) = 5
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
@@ -177,233 +222,6 @@ Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 - Connect Teammates to development opportunities
 - Reduce bias in the calibration process and fosters transparency
 - Recognize top talent cross-functionally
-
-### How we evaluate performance using a 9-box
-
-Teammate performance is evaluated through two complementary lenses:
-
-- 1. Your performance in your role (skill)
-- 2. Your embodiment of the Sourcegraph Values
-
-The overall **Performance Rating** is a combination of Skills and Values-based performance.
-
-## Rating definitions
-
-Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
-
-You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
-
-We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
-
-### Exceeding High Bar” Definitions
-
-_Expected distribution: during a review cycle, ~20% of Teammates will fall in the “Exceeding High Bar” (high performance) category._
-
-#### Score definition: 1:1 (values:skills); ‘Star Performer’
-
-- **TL;DR:** teammates who receive a score with a 1 in values and a 1 are our highest performing teammates. This score indicates that a teammate consistently exceeds our high bar both in values and skill.
-- **Expected distribution:** top 3-5% of the company. Getting this score is a big deal!
-- **Examples:**
-  - Values (1): exceeds in many, exhibits all, deficient in none.
-    - This teammate consistently exhibits our values and consistently raises the high bar set for individuals at the level.
-    - This teammate is going above and beyond the expected contribution of work in alignment with our values, tied to a specific example and/or a direct result/ impact to the business/ cross-functional partners
-    - Their values impact is felt beyond their immediate team and/or department.
-    - Consistently takes initiative to identify problems and provide innovative solutions.
-    - Builds strong relationships with colleagues and stakeholders and collaborates effectively to achieve team goals.
-    - Challenges and debates when needed/appropriate, but in a tactful and helpful manner.
-  - Skill (1): contributions consistently raise the high bar set for individuals at their level. Execution, both individually and cross-functionally, is consistently excellent.
-    - This teammate consistently executes above expected targets and goals.
-    - This teammates is performing at the next level on their respective career framework or delivering on a project above and beyond the expected results.
-    - The impact of their work is felt beyond their immediate team and/or department.
-    - Being a subject matter expert in their area of work and providing valuable insights to the team.
-    - Consistently delivering high-quality work that exceeds expectations.
-    - Consistently shows a willingness to take on new challenges and responsibilities.
-    - Demonstrates a strong work ethic, attention to detail, and a commitment to continuous learning and improvement.
-- **Recommended manager action:** support your top performers by providing recognition and feedback, encouraging growth and development, fostering a positive work environment, providing autonomy and flexibility, and offering rewards and incentives. Top performers thrive on feedback and recognition, so it's important to provide regular and specific feedback on their work and recognize their accomplishments in a meaningful way. Regularly ask them what else they need from you to feel supported and successful.
-- **Promotion & merit eligibility:**
-  - Eligible for merit increase; recommended merit increase: 7.5-10% \*
-  - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency:** Teammates rated a 1:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
-
-#### Score definition: 2:1 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 2 in values and a 1 in skills are valued and important members of the team. This score indicates that a teammate consistently meets (and sometimes, but not always, exceeds) our high bar and their contributions are in line with expectations at their current level.
-- **Examples:**
-  - Values (2): exceeds in some, exhibits most.
-    - Consistently exhibits our values and exceeds in some, but does not necessarily set an example for the team.
-    - Values embodiment is sometimes, but not always, felt beyond their immediate team and/or department.
-  - Skill (1): contributions consistently raise the high bar set for individuals at their level. Execution, both individually and cross-functionally, is consistently excellent.
-    - This teammate consistently executes above expected targets and goals.
-    - This teammates is performing at the next level on their respective career framework or delivering on a project above and beyond the expected results.
-    - This teammate’s contributions consistently raise the high bar set for individuals at the level.
-    - The impact of their work is felt beyond their immediate team and/or department.
-    - Being a subject matter expert in their area of work and providing valuable insights to the team.
-    - Consistently delivering high-quality work that exceeds expectations.
-    - Consistently shows a willingness to take on new challenges and responsibilities.
-    - Demonstrates a strong work ethic, attention to detail, and a commitment to continuous learning and improvement.
-- **Recommended manager action:** to support an employee who exceeds high bar for skills and meets high bar for values, a manager should provide opportunities for advancement and challenges to keep the employee engaged and motivated. Encouraging continued learning and development can also help the employee stay up-to-date with industry trends and further develop their skills. The manager should also recognize the employee's adherence to organizational values and express appreciation for their contributions to maintaining a positive work culture. Additionally, the manager should ensure that the employee has the necessary support and resources to continue to excel, such as access to training, tools and technology, and support from colleagues and management. By providing support in these ways, the manager can encourage the employee to continue exceeding expectations for skills while upholding organizational values.
-- **Promotion & merit eligibility:**
-  - Eligible for merit increase; recommended merit increase: 7.5-10% \*
-  - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency:** Teammates rated a 2:1 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
-
-#### Score definition: 1:2 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 1 in values and a 2 in skills are valued and important members of the team. This score indicates that a teammate consistently meets (and sometimes, but not always, exceeds) our high bar and their contributions are in line with expectations at their current level.
-- **Examples:**
-  - Values (1): exceeds in many, exhibits all, deficient in none.
-    - This teammate consistently exhibits our values and consistently raises the high bar set for individuals at the level. Deficient in none.
-    - Their values impact is felt beyond their immediate team and/or department.
-    - Consistently takes initiative to identify problems and provide innovative solutions.
-    - Builds strong relationships with colleagues and stakeholders and collaborates effectively to achieve team goals.
-    - Challenges and debates when needed/appropriate, but in a tactful and helpful manner.
-  - Skills (2): contributions are in line with expectations at current level and sometimes exceed them.
-    - Consistently meets deadlines and delivers work that meets our high bar, but doesn’t necessarily go above and beyond or seek out opportunities for growth and development.
-    - Meets expectations for assigned tasks, but doesn’t consistently proactively take on additional responsibilities or projects
-    - Demonstrates solid technical skills, but may be lacking some soft skills such as communication, teamwork, or leadership
-    - Is a reliable and consistent contributor to the team, but not necessarily standing out or taking initiative to innovate or problem-solve
-- **Recommended manager action**: to support a teammate who exceeds high bar for values and meets high bar for skills, a manager should recognize and appreciate their commitment to organizational values, encourage further development of skills through training or coaching, provide opportunities for growth and advancement, demonstrate trust and autonomy by delegating more responsibility, and offer the necessary support and resources to help the employee continue to excel. By providing support in these ways, a manager can encourage the employee to maintain their strong values while also continuing to develop their skills and contribute to the organization's success.
-- **Promotion & merit eligibility:**
-  - Eligible for merit increase; recommended merit increase: 5.5-7.5% \* (note: the merit increase for getting an "exceeding" in values may be slightly less that getting an "exceeding" score in skill)
-  - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency:** Teammates rated a 1:2 are eligible to receive a compensation increase every impact review cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
-
-### “Meeting High Bar” Definitions
-
-_Expected distribution: during a review cycle, ~70% of Teammates will fall in the “Meeting High Bar” (strong performance) category._
-
-#### Score definition: 2:2 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 2 in values and a 2 in values are valued and important members of the team. This score indicates that a teammate consistently meets (and sometimes, but not always, exceeds) our high bar and their contributions are in line with expectations at their current level. We expect the majority of our teammates to be at this level, and we want to be clear: getting a 2:2 is a very good impact review rating and is something teammates should be happy about.
-  - Skill (2): from a skill perspective, this teammate’s contributions consistently meet (and sometimes exceed) expectations for their current level.
-- **Examples:**
-  - Values (2):
-    - Consistently exhibits our values and exceeds in some, but does not necessarily set an example for the team.
-    - Values embodiment is not consistently felt beyond their immediate team and/or department.
-  - Skills (2):
-    - This teammate’s contributions consistently meet (and sometimes exceed) expectations for their current level.
-    - Consistently meets deadlines and delivers work that meets our high bar, but doesn’t necessarily go above and beyond or seek out opportunities for growth and development.
-    - Meets expectations for assigned tasks, but doesn’t consistently proactively take on additional responsibilities or projects
-    - Demonstrates solid technical skills, but may be lacking some soft skills such as communication, teamwork, or leadership
-    - Is a reliable and consistent contributor to the team, but not necessarily standing out or taking initiative to innovate or problem-solve
-- **Recommended manager action:** to support an teammate who meets a high bar for both skills and values, a manager should provide regular feedback, encourage growth and development through additional training or certifications, offer opportunities for advancement, recognize their adherence to organizational values, encourage collaboration with colleagues and team projects, and provide necessary support and resources such as access to training and technology. By supporting the teammate in these ways, the manager can help them continue to develop and contribute to the organization's success while feeling valued and supported.
-- **Promotion & merit eligibility**
-  - Eligible for merit increase if no increase in >9 months; recommended merit increase: 3-5% \*
-  - Promotion eligibility largely depends on where the teammate is in the career framework (e.g. is there an opening and business need for the next level); at minimum, we expect individuals to exceed and sustain performance at their current level, with spikes into the next level for promotion consideration. Link to Handbook on [Promotion Eligibility Guidance](#promotion-philosophy).
-- **Merit increase frequency:** Teammates rated “Meeting High bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
-
-### “Not Meeting High Bar” Definitions
-
-_Expected distribution: during a review cycle, ~10% of Teammates will fall in the “Not Meeting High Bar” category._
-
-#### Score definition: 1:3 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 1 in values but a 3 in skill have concrete growth areas that they need to improve upon. These teammates strongly embody our values and could be a valued member of the team if they improve their skill set and/or consistency.
-- **Examples:**
-  - Values (1):
-    - This teammate consistently exhibits our values and consistently raises the high bar set for individuals at the level. Deficient in none.
-    - Their values impact is felt beyond their immediate team and/or department.
-    - Builds strong relationships with colleagues and stakeholders and collaborates effectively to achieve team goals.
-    - Challenges and debates when needed/appropriate, but in a tactful and helpful manner.
-  - Skill (3):
-    - Despite their strong values alignment, this teammate’s contributions are not consistently meeting a high bar set for individuals at your level.
-    - Skills are below expectations and are inhibiting their ability to perform at their current level. They need to work with their manager immediately to improve their skillset.
-    - Teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results.
-  - **Recommended manager action:** to support a teammate who exceeds expectations for values but doesn't consistently meet expectations for skills, a manager should provide training and development opportunities, assign appropriate tasks that match the teammate's current skill level, encourage collaboration, recognize their adherence to organizational values, and provide support and feedback. By offering training and development, matching tasks to skill level, encouraging collaboration, recognizing values, and providing support and feedback, the manager can help the teammate continue to develop and contribute to the organization's success.
-- **Promotion & merit eligibility:**
-  - Not eligible for a compensation increase; recommended merit increase: 0% \*
-  - Not eligible for a promotion
-- **Merit increase frequency:** Teammates rated a 1:3 are not eligible for a compensation increase, and need to show immediate improvement in their skills and/or consistency.
-
-#### Score definition: 2:3 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 2 in values but a 3 in skill have concrete growth areas that they need to improve upon\*\*. These teammates steadily embody our values and could be a valued member of the team if they improve their skill set and/or consistency.
-- **Examples:**
-  - Values (2):
-    - Consistently exhibits our values and exceeds in some, but does not necessarily set an example for the team.
-    - Values embodiment is sometimes, but not always felt beyond their immediate team and/or department.
-    - May be helpful to colleagues and customers when approached, but does not go above and beyond to make others feel valued or heard.
-    - Does not consistently work in an open
-    - Collaborative: An employee who is willing to work with others and contribute to team efforts, but does not actively seek out opportunities to build relationships or engage with colleagues outside of their immediate responsibilities.
-    - Innovative: An employee who generates new ideas and solutions, but does not consistently challenge the status quo or push the company to take risks and try new things.
-  - Skill (3):
-    - This teammate’s contributions are not consistently meeting a high bar set for individuals at your level.
-    - This teammate’s skills could be below expectations and are inhibiting their ability to perform at their current level. They need to work with their manager immediately to improve their skillset.
-    - Alternatively, this teammate could have strong skills, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results.
-- **Recommended manager action:** to support a teammate who meets expectations for values but doesn't consistently meet expectations for skills, a manager should provide training and development opportunities, assign appropriate tasks that match the teammate's current skill level, encourage collaboration, recognize their adherence to organizational values, and provide support and feedback. By offering training and development, matching tasks to skill level, encouraging collaboration, recognizing values, and providing support and feedback, the manager can help the teammate continue to develop and contribute to the organization's success.
-- **Promotion & merit eligibility:**
-  - Not eligible for a compensation increase; recommended merit increase: 0% \*
-  - Not eligible for a promotion
-- **Merit increase frequency:** Teammates rated a 2:3 are not eligible for a compensation increase, and need to show immediate improvement in their skills and/or consistency.
-
-#### Score definition: 3:2 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 3 in values and a 2 in skill have concrete growth areas that they need to improve upon. Despite the fact that their performance meets expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
-- **Examples:**
-  - Values (3):
-    - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
-    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong. We have zero tolerance for this behavior.
-  - Skills (2):
-    - This teammate’s contributions consistently meet (and sometimes exceed) expectations for their current level.
-    - Consistently meets deadlines and delivers work that meets our high bar, but doesn’t necessarily go above and beyond or seek out opportunities for growth and development.
-    - Meets expectations for assigned tasks, but doesn’t consistently proactively take on additional responsibilities or projects
-    - Demonstrates solid technical skills, but may be lacking some soft skills such as communication, teamwork, or leadership
-    - Is a reliable and consistent contributor to the team, but not necessarily standing out or taking initiative to innovate or problem-solve
-- **Recommended manager action:** when a teammate fails to meet expectations for values but meets expectations for skills, a manager can support them by setting clear expectations, providing feedback and coaching, offering training and development opportunities, holding them accountable, and recognizing and rewarding positive behavior. The manager should communicate the importance of values to the organization and provide constructive feedback to help the teammate improve their behavior. It's essential for the manager to make it clear that meeting expectations for values is just as important as meeting expectations for skills, and if values adherence doesn’t turn around immediately following the coaching conversation, a PIP follows.
-- **Promotion & merit eligibility:**
-  - Not eligible for a compensation increase; recommended merit increase: 0% \*
-  - Not eligible for a promotion
-- **Merit increase frequency:** Teammates rated a 3:2 are not eligible for a compensation increase and need to show immediate improvement.
-
-#### Score definition:3:1 (values:skills)
-
-- **TL;DR:** teammates who receive a score with a 3 in values and a 1 in skill have concrete growth areas that they need to improve upon. Despite the fact that their performance exceeds expectations, not adhering to our values warrants immediate coaching, and it is expected that they work with their manager to improve their alignment to our values immediately.
-- **Examples:**
-  - Values (3):
-    - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
-    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate violates company policies or industry regulations, potentially putting the company at risk of legal or reputational harm.
-    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination, even if their job performance is otherwise strong.
-    - This teammate fails to uphold the company's standards of diversity, equity, and inclusion, such as by exhibiting bias or exclusionary behavior towards certain groups of people.
-  - Skill (1):
-    - This teammate’s skills exceed expectations of their current level, but their values misalignment is negatively affecting their team and/or customers, inhibiting their ability to perform at their current level.
-    - This teammate’s contributions consistently raise the high bar set for individuals at the level.
-    - The impact of their work is felt beyond their immediate team and/or department.
-    - Being a subject matter expert in their area of work and providing valuable insights to the team.
-    - Consistently delivering high-quality work that exceeds expectations.
-    - Consistently shows a willingness to take on new challenges and responsibilities.
-    - Demonstrates a strong work ethic, attention to detail, and a commitment to continuous learning and improvement.
-- **Recommended manager action:** recommended manager actions for these scenarios would involve setting clear expectations, providing feedback and coaching, offering training and development opportunities, and holding the teammate accountable for their behavior. The manager should communicate the importance of values to the organization and provide constructive feedback to help the teammate improve their behavior. It's essential for the manager to make it clear that meeting expectations for values is just as important as meeting expectations for skills, and if values adherence doesn’t turn around immediately following the coaching conversation, a PIP follows.
-- **Promotion & merit eligibility:**
-  - Not eligible for a compensation increase; recommended merit increase: 0% \*
-  - Not eligible for a promotion
-- **Merit increase frequency:** Teammates rated a 3:1 are not eligible for a compensation increase and need to show immediate improvement.
-
-#### **Score definition**: 3:3 (values:skills); ‘Low Performer’
-
-- **TL;DR:** teammates who receive a score with a 3 in values and a 3 in skill require immediate performance management via formal coaching (if teammate has received coaching in the past with no improvement, we may move immediatwly to a PIP). They must work with their manager to improve their skill and values alignment immediately.
-- **Examples:**
-  - Values (3):
-    - This teammate’s embodiment of our values is below expectations for their current level and must immediately improve.
-    - This teammate, particularly at a senior level, does not consistently give back to their team or contribute to a broader impact. The higher your level, the greater the expected scope of impact is.
-    - This teammate exhibits behavior that is inconsistent with the company's values, such as dishonesty, disrespect, or lack of integrity, despite performing at a high level from a skills perspective.
-    - This teammate engages in behavior that creates a hostile work environment, such as bullying, harassment, or discrimination. We have zero tolerance for this behavior.
-  - Skill (3):
-    - This teammate’s skills are below expectations and are inhibiting their ability to perform at their current level. They need to work with their manager immediately to improve their skillset. Their values adherence meet or exceed expectations.
-    - Skill inconsistency: this teammate has high potential, but their performance is inconsistent. In other words, at times they meet our high bar, but at other times their performance is below expectations, leading to unreliable results.
-    - Consistently missing deadlines or failing to deliver work of an acceptable quality.
-    - Displaying a lack of accountability for their actions and not taking responsibility for mistakes or errors.
-    - Failing to collaborate effectively with colleagues or contributing to a negative team environment.
-    - Demonstrating poor communication skills, including not responding to emails or messages in a timely manner or failing to clearly convey important information.
-    - Exhibiting a lack of initiative or motivation, and failing to take ownership of their work or seek out new opportunities for growth and development.
-- **Recommended manager action:** to support a teammate who does not meet expectations for values and skills, a manager should set clear expectations, offer constructive feedback, provide training and development opportunities, hold the teammate accountable, and consider alternatives if the teammate does not improve. It is important for managers to communicate the consequences of not meeting expectations for values and skills to their teammates. Failure to meet expectations can result in decreased productivity, missed deadlines, lower morale, decreased customer satisfaction, damage to the organization's reputation, and even termination of employment. As a manager, it's important to hold teammates accountable, communicate the potential consequences, and take appropriate action to motivate them to make necessary changes to their behavior and performance. This teammate is eligible for an immediate PIP.
-- **Promotion & merit eligibility:**
-  - Not eligible for a compensation increase; recommended merit increase: 0% \*
-  - Not eligible for a promotion
-- **Merit increase frequency:** Teammates rated a 3:3 are not eligible for a compensation increase and need to show immediate improvement.
 
 ## Merit Philosophy
 
@@ -455,7 +273,7 @@ Our Teammates can pursue promotion opportunities in two ways:
 - Through our promotion process to move up their specific Career Framework or Leadership track.
 - By applying and interviewing for open positions that are approved in our headcount plan. This type of promotion may occur outside of a review cycle, but eligibility is determined by prior Impact Assessment.
 
-### What criteria determines promotions?
+### What criteria determine promotions?
 
 The following criteria support promotions:
 
@@ -477,7 +295,7 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
-To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../process/giving-feedback.md)
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reviews](../../../process/giving-feedback.md)
 
 Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
 
@@ -493,7 +311,7 @@ Q: **How do I know if I'm eligible for an Impact Review**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't received a seperate compensation increase in the past 9-months are eligible for a compensation increase.
+- Teammates who receive a '1' or '2' rating are eligible for a compensation increase. All Teammates who receive a rating of "3" AND haven't received a separate compensation increase in the past 9-months are eligible for a compensation increase.
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
@@ -518,6 +336,10 @@ Q. **What changed from the prior Impact Review process?**
 Q. **What if a Teammate is on leave during the review period?**
 
 - If over the 6-month review period, there are fewer than 4-months of on-the-job performance to assess, the Teammate will retain the rating from the immediately previous cycle. Please reach out to your People Partner for questions related to Teammates on leave.
+  - Given recent changes in our Talent Assessment Framework the ratings will transfer as follows:
+    - [1:1, 2:1, 1:2] = 2 Superior Performance
+    - [2:2] = 3 Meeting Performance Expectations
+    - [3:2, 2:3, 3:3] = 4 Partially Successful Performance
 
 Q. **What if a Teammate recently transferred in from another team or the Manager is new?**
 

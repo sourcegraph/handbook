@@ -1,6 +1,6 @@
 # Sourcegraph strategy
 
-- [Mission](#mission) (long-term): Make it so everyone can code
+- [Mission](#mission) (long-term): Make it so everyone codes
 - [Strategy](#strategy) (for FY24, this year): Win devs' hearts and minds by solving their [Big Code](#big-code) pains. Get paid by their companies for sustained, business-critical usage.
 
 ---
@@ -40,7 +40,7 @@ Notes:
 
 #### Concepts
 
-- **Code graph:** All your code and any context (info about your code). Both Cody and Code Search use the code graph (in various ways). Today this includes repositories from code hosts, code ownership information, code navigation data, etc. In the future this will include information from issue tracking tools, observability tools, documentation, runtime, security tolos, etc.
+- **Code graph:** All your code and any context (info about your code). Both Cody and Code Search use the code graph (in various ways). Today this includes repositories from code hosts, code ownership information, code navigation data, etc. In the future this will include information from issue tracking tools, observability tools, documentation, runtime, security tools, etc.
 - **LLM (Large Language Model):** Our products use existing best-in-class foundation models and give you the freedom to choose the best or preferred LLM for your needs.
 
 #### How we package and ship these products
@@ -76,8 +76,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 **Win devs' hearts and minds** by solving their [Big Code](#big-code) pains. **Get paid by their companies** for sustained, business-critical usage. We will do this by...
 
-- Launch Cody as the most enterprise focused coding assistant
-- Build a differentiated AI platform to power Cody and Code Search
+- Build the code AI platform
 - Become more product-led
 - Win in big companies with Big Code
 - Prefer cloud over self-hosted

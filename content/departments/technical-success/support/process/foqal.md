@@ -12,7 +12,7 @@ We will then confirm once its setup.
 
 **For Support Admins:**
 
-> NOTE: You need to be an admin to do this if you don't have access reach out to your Manager or Lead and they will be able to assist.
+> [!NOTE] You need to be an admin to do this if you don't have access reach out to your Manager or Lead and they will be able to assist.
 
 1. Join the channel that needs Support Agent enabled (ex. #customer-acme-sourcegraph)
 1. Go to the channel settings (top right) and under Integrations click `Add App`
@@ -36,7 +36,7 @@ Once this is done customers will be able to create ticket by reacting to a messa
 
 ## Setting up a new customer with Foqal for post-sales engagement
 
-> NOTE: Make sure the customer has paid for the Slack Support package that will include access to this. If you're not sure please ask Support leadership.
+> [!NOTE] Make sure the customer has paid for the Slack Support package that will include access to this. If you're not sure please ask Support leadership.
 
 **For AEs/CEs/TAs:**
 
@@ -45,7 +45,7 @@ We will then confirm once its setup.
 
 **For Support:**
 
-> NOTE: You need to be an admin to do this if you don't have access reach out to your Manager or Lead and they will be able to assist.
+> [!NOTE] You need to be an admin to do this if you don't have access reach out to your Manager or Lead and they will be able to assist.
 
 1. Join the channel that needs Support Agent enabled (ex. #customer-acme-sourcegraph)
 1. Go to the channel settings (top right) and under Integrations click `Add App`
@@ -78,3 +78,18 @@ We will then confirm once its setup.
 Once all of this is done an pop-up should show up at the bottom of the channel that allows customers to create requests.
 
 They are also able to create ticket by reacting to a message with the 🎟️ emoji.
+
+# Disabling Foqal for a channel
+
+If a customer has Slack Support but downgrades or if a prospect does not buy Slack Support we need to disable the banner (if applicable) and remove the Support Agent application from the channel
+
+If banner (e.g. Question for Support at the bottom of channel) is enabled:
+
+1. Go to the channel and type `/agent`
+1. Under Channel Menu click `Channel Menu`
+1. Set Action to `Disabled`
+
+For both banner and banner-less channels:
+
+1. Go to the channel settings (top right) and under Integrations click `Support Agent`
+2. Click `Remove this app from #channel-name`

@@ -50,7 +50,7 @@ Unclear expectations, making mistakes, and asking for help.
 
 ## Technical areas of knowledge
 
-I am not super technical, but I do like to learn and I am open to having conversation that will broaden my technical horizens
+Tooling, I love working with different tools to make workflows and process run smoothly and efficently.
 
 ## Technical interests to learn
 

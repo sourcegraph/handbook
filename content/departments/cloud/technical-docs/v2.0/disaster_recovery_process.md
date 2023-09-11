@@ -4,9 +4,9 @@
 
 Report from [failover test on 28tf of November 2022](https://docs.google.com/document/d/1CfI2m2eZ-dtG1XoPpWEuWm87XJ7m2dbQAG2tOHV74pk/edit)
 
-1. GKE cluster zone failover
+## GKE cluster zone failover
 
-> Important: this does not test GKE master zone failover.
+> [!IMPORTANT] this does not test GKE api server zone failover as it's already HA with 3 replica across multiple zones managed by GCP.
 
 - export environment variables
 
@@ -16,6 +16,10 @@ export SLUG=<SLUG>
 export GKE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gkeClusters[0].name')
 export GKE_REGION=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.spec.gcpRegion')
 ```
+
+- extract the instance from Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
+
+Follow the `Extract instance from control plane (break glass)` section from the Ops Dashboard of the instance, go/cloud-ops
 
 - check instance is healthy
 
@@ -71,7 +75,11 @@ mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
 curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```
 
-2. CloudSQL zone failover
+- backfill the instance into Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
+
+Follow the `Backfill instance into control plane` section from the Ops Dashboard of the instance, go/cloud-ops
+
+## CloudSQL zone failover
 
 - export environment variables
 
@@ -82,6 +90,10 @@ export CLOUDSQL_INSTANCE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | 
 export GCP_PROJECT=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
 export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
 ```
+
+- extract the instance from Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
+
+Follow the `Extract instance from control plane (break glass)` section from the Ops Dashboard of the instance, go/cloud-ops
 
 - check instance is healthy
 
@@ -129,3 +141,7 @@ gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
 curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 ```
+
+- backfill the instance into Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
+
+Follow the `Backfill instance into control plane` section from the Ops Dashboard of the instance, go/cloud-ops

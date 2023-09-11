@@ -16,7 +16,7 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
    - We proactively promote our open positions to many different groups, communities, and networks.
    - If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
 1. We want our hiring process to be fair to all candidates.
-   - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
+   - We recognize that the way a job description is written can plan a key role in promoting positive, non-biased hiring efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
    - We leverage [BrightHire](../tools/guide_to_using_brighthire.md) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
@@ -88,9 +88,14 @@ The Recruiter opens the job in Greenhouse by clicking "Add" at the top, then "Cr
 
 - Copy the existing "Template" job.
 - Input all required fields into "Job Info", including the correct cost center, division, and Radford code. The compensation can be confirmed in Assemble. You can read more on how to view our internal compensation bands [here](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#how-to-view-our-internal-compensation-bands.md).
+  - **Note:** Please include the job level (e.g. M3, IC4, etc.) in the title of the internal job name that appears in Greenhouse.
+    - Example: Product Designer (IC4)
   - **Note:** Please put the top of band for the finance budget.
   - **Note:** The cost center and division can be found on the [How to open a new job responses](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). Please reach out to #team-people-and-talent if you are unsure of how to fill them in.
 - Input all required fields for the "Hiring team", "Job kickoff", "Scorecard", "Interview plan", "Job Post" and "Email notifications".
+  - **Important note:** When editing the job post in Greenhouse, make sure to include the target compensation on the custom application question asking candidates, "Please note that the target compensation for this role is \_\_\_. Are you aligned with this compensation?"
+    - To find the custom question, scroll down beneath the job post.
+    - To edit the custom question, click the pencil icon on the right and fill in the target compensation.
   - Make sure to build out the interview plan by adding behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage. Each section should include the interviewers and interview duration.
   - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding interview steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 - Turn on [Slack notifications](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack) for the role.

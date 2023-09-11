@@ -4,13 +4,13 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
-> NOTE: As of [RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit) the ownership of the release process has changed.
+> [!NOTE] As of [RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit) the ownership of the release process has changed.
 > The [Release Guild](../../../guilds/release_guild.md) is now the entity that owns the release process. Read more details about release
 > responsibilities in the [Releases](#releases) section below.
 
 ### Release Schedule
 
-As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows:
+As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows (version numbers are subject to change):
 
 | Version | Code Freeze Date   | Release Date      |
 | ------- | ------------------ | ----------------- |
@@ -24,14 +24,14 @@ These releases **may** require [manual migration steps](https://docs.sourcegraph
 
 #### Current patch schedule
 
-| Patch date     |
-| -------------- |
-| April 5, 2023  |
-| April 19, 2023 |
-| May 3, 2023    |
-| May 17, 2023   |
-| May 31, 2023   |
-| June 14, 2023  |
+| Patch date         |
+| ------------------ |
+| July 12, 2023      |
+| July 26, 2023      |
+| August 09, 2023    |
+| August 23, 2023    |
+| September 06, 2023 |
+| September 20, 2023 |
 
 Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
@@ -133,7 +133,7 @@ A---B---C---D---E---F---G---H---I---J---K---L (main branch)
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
 
-> NOTE: cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
+> [!NOTE] cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
 
 ### Issues
 
@@ -171,7 +171,7 @@ At Sourcegraph, we're committed to providing the best support possible for our u
 
 Please note that if you encounter any issues that can be resolved with an upgrade or are caused by using an outdated version, we will be unable to provide support. We recommend keeping up-to-date with the latest features and improvements to ensure the best experience.
 
-> NOTE: It's important to note that we do not backport bug fixes or other improvements into older versions. Our team is focused on resolving issues in the latest versions of our products.
+> [!NOTE] It's important to note that we do not backport bug fixes or other improvements into older versions. Our team is focused on resolving issues in the latest versions of our products.
 
 ### Cody clients and backwards compatibility
 

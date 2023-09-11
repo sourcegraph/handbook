@@ -11,9 +11,13 @@ Make sure you are following our [incident playbook](../../../engineering/dev/pro
 
 ## How to gain escalated permissions
 
-<!-- TODO(@michaellzc) -->
+Use Entitle to assume permission as usual, if it doesn't work, use `/break-glass` slash command on Slack. If Slack is down, page Security Support or Security EM for emergency.
 
-> WARNING: we are revamping our access control process
+## Break instance out from the control plane
+
+When performing disruptive manual change, you should extract the instance from control plane management.
+
+If `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`, follow the `Extract instance from control plane (break glass)` section from the Ops Dashboard of the instance, go/cloud-ops
 
 ## How to apply terraform
 
@@ -45,6 +49,10 @@ This will configure the TFC workspaces to the [CLI-driven] model and permit a hu
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/tfc
 terraform init && terraform apply
 ```
+
+## Wrapping up
+
+If `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`, follow the `Backfill instance into control plane` section from the Ops Dashboard of the instance, go/cloud-ops, when you're done.
 
 [vcs-driven]: https://developer.hashicorp.com/terraform/cloud-docs/run/ui
 [cli-driven]: https://developer.hashicorp.com/terraform/cloud-docs/run/cli

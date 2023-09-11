@@ -8,7 +8,7 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
    - We proactively promote our open positions to many different groups, communities, and networks.
    - If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
 1. We want our hiring process to be fair to all candidates.
-   - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
+   - We recognize that the way a job description is written can plan a key role in promoting positive, non-biased hiring efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
    - We leverage [BrightHire](../tools/guide_to_using_brighthire.md) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
@@ -88,7 +88,7 @@ Following your interview, please provide interview feedback immediately, no late
 
 ### The decision making stage
 
-The hiring team reviews the feedback in Greenhouse and makes final hiring decision. This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
+We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. The hiring team reviews the feedback in Greenhouse and makes the final hiring decision. If the candidate received all `Yes` or `Strong Yes`, the interview team can debrief in a synchronous fashion or asynchronously via Slack. If the candidate did not receive all `Yes` or `Strong Yes` feedback, a live debrief must take place. Should the interview panel be aligned on moving forward, the Hiring Manager needs to submit written justification for moving forward with an offer in the offer approval section. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
 
 Once a hiring decision in made, the Hiring Manager is responsible for communicating the hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
 
