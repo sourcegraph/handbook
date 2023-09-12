@@ -77,6 +77,18 @@ The purpose of continuous feedback is to promote a culture of feedback and high 
 3. [Regular 1:1s](#Regular-1:1s)
 4. [Growth & career-development conversations](#Growth-&-career-development-conversations)
 
+**Monthly Check-ins via Lattice**
+
+We believe that regular feedback and self-reflection are crucial for individual and team growth. This is why as of October FY24 we are running monthly feedback check-ins via Lattice so teammates can reflect, share insights, and highlight contributions to our collective success.
+
+**Questions that will be asked via Lattice:**
+
+**Self Check-In/Manager-Direct Report Check-In:**
+
+1. **What's working well:** Think about the past month and identify aspects of your/this teammate’s work or projects that have been successful. Share what you're proud of and why it's working. Celebrate achievements!
+2. **What's not working well:** Recognize any challenges, obstacles, or areas where improvement is needed. Be specific and constructive in your feedback or self-assessment. Identifying problems is the first step toward solving them.
+3. **Feedback Sharing:** Reflect on the last time you provided feedback to your manager, peer, or direct report. Describe the feedback you gave and its impact. Effective communication is a two-way street.
+
 ### **Thanks/praise:**
 
 At Sourcegraph, we love celebrating and recognizing the events happening in our Teammates’ lives! We celebrate on a day-to-day basis via our ‘[#thanks](https://sourcegraph.slack.com/archives/thanks)’ channel. Giving recognition to other Teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via Lattice to our [#thanks](https://sourcegraph.slack.com/archives/thanks) Slack channel.
