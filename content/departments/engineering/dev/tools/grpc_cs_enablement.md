@@ -35,6 +35,8 @@ print(result) // Output will be 8
 
 Starting in Sourcegraph `5.2.X` , we are switching to use gRPC for Sourcegraph’s **_internal communication (service to service only)_** by default.
 
+In layman's terms: instead of JSON being sent via HTTP between `repo-updater` and `gitserver`, both services now use gRPC to talk to each other.
+
 See the table below for more of the rollout details:
 
 ### Rollout timeline
