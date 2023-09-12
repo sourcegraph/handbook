@@ -65,7 +65,7 @@ See the [PR-FAQ for more background](https://docs.google.com/document/d/1lf7REi_
 
 The most important takeaway is this:
 
-> **If you don’t have any security restrictions on Sourcegraph’s _internal_ traffic, your customer shouldn’t need to tweak anything.**
+**If you don’t have any security restrictions on Sourcegraph’s _internal_ traffic, your customer shouldn’t need to tweak anything.**
 
 ### Explanation
 
