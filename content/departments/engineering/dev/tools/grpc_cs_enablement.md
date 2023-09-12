@@ -1,5 +1,9 @@
 # gRPC CS Enablement Guide / Primer
+In 5.2 we're rolling out gRPC as a new mechanism for our internal services to communicate with each other.
 
+No customer should notice that something has changed.
+
+This document aims to provide background information on gRPC & how we use it and provide help in case a customer _does_ notice.
 ## What is gRPC?
 
 [gRPC](https://grpc.io/) is a high-performance [Remote Procedure Call (RPC)](https://en.wikipedia.org/wiki/Remote_procedure_call) framework developed by Google.
