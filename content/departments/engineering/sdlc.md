@@ -1,5 +1,4 @@
-
-# Software Development Life Cycle (SDLC) 
+# Software Development Life Cycle (SDLC)
 
 ## Introduction
 
@@ -30,18 +29,21 @@ The design phase involves defining the solution to a problem. Detailed design pr
 We use labels to communicate the quality and support level of our products and features to our customers. These labels are assigned subjectively but not arbitrarily, following these guidelines:
 
 - **Early Access Program (EAP)**:
+
   - Shared privately with NDA's customers.
   - Feature implementations represent super early functionality.
   - Not suitable for production workloads.
   - Goals: Assess potential, identify improvements.
 
 - **Experimental**:
+
   - Shared publicly.
   - Features implementations representare in super early functionality.
   - Unsupported.
   - Goals: Assess potential, identify improvements.
 
 - **Beta (n)**:
+
   - Shared publicly (although private betas are sometimes used).
   - Features are fully implemented, although may need additional quality and performance improvement.
   - Best-effort support.
@@ -64,7 +66,7 @@ The testing phase ensures that the solution meets the specified requirements. Au
 
 [CI/CD pipelines](https://handbook.sourcegraph.com/departments/engineering/dev/tools/infrastructure/ci/) cover testing on multiple levels, unit, integration and end-to-end. The application end-to-end test suites cover our containers and kubernetes deployments, and are running against real code hosts.
 
-After going through Continuous Integration, changes are automatically deployed on an internal Sourcegraph instance, referred to as "S2" that all Sourcegraph teammates use on a daily basis, allowing to further observe correctness before any releases are made. 
+After going through Continuous Integration, changes are automatically deployed on an internal Sourcegraph instance, referred to as "S2" that all Sourcegraph teammates use on a daily basis, allowing to further observe correctness before any releases are made.
 
 ### Deployment Phase
 
@@ -84,7 +86,4 @@ You can find more detailed information on versioned releases at [Sourcegraph rel
 
 ### Maintenance and Monitoring
 
-Product Teams (consisting of product and engineering team members)  monitor changes in production, ensuring they meet requirements and observing behavior through monitoring, feedback, and bug reports. Corrective changes are made as needed.
-
-
-
+Product Teams (consisting of product and engineering team members) monitor changes in production, ensuring they meet requirements and observing behavior through monitoring, feedback, and bug reports. Corrective changes are made as needed.
