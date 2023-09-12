@@ -50,7 +50,7 @@ See the table below for more of the rollout details:
 
 ## Why are we making this change?
 
-As opposed to [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) (the pattern we currently use for [RPCs](https://en.wikipedia.org/wiki/Remote_procedure_call)), gRPC offers the following benefits and more:
+As opposed to [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) (our current pattern for [RPCs](https://en.wikipedia.org/wiki/Remote_procedure_call) which we don't use or implement consistently), gRPC offers the following benefits and more:
 
 - A more efficient serialization format (via the use of Protocol Buffers)
 - First-class bidirectional streaming support
