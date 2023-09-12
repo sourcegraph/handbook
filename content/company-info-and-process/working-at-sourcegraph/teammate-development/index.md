@@ -85,9 +85,9 @@ We believe that regular feedback and self-reflection are crucial for individual 
 
 **Self Check-In/Manager-Direct Report Check-In:**
 
-1. **What's working well:** Think about the past month and identify aspects of your/this teammate’s  work or projects that have been successful. Share what you're proud of and why it's working. Celebrate achievements! 
-2. **What's not working well:** Recognize any challenges, obstacles, or areas where improvement is needed. Be specific and constructive in your feedback or self-assessment. Identifying problems is the first step toward solving them. 
-3. **Feedback Sharing:** Reflect on the last time you provided feedback to your manager, peer, or direct report. Describe the feedback you gave and its impact. Effective communication is a two-way street. 
+1. **What's working well:** Think about the past month and identify aspects of your/this teammate’s work or projects that have been successful. Share what you're proud of and why it's working. Celebrate achievements!
+2. **What's not working well:** Recognize any challenges, obstacles, or areas where improvement is needed. Be specific and constructive in your feedback or self-assessment. Identifying problems is the first step toward solving them.
+3. **Feedback Sharing:** Reflect on the last time you provided feedback to your manager, peer, or direct report. Describe the feedback you gave and its impact. Effective communication is a two-way street.
 
 ### **Thanks/praise:**
 
