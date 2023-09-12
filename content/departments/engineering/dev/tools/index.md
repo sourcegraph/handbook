@@ -7,6 +7,8 @@ Internal tools used at Sourcegraph.
 - [Infrastructure](infrastructure/index.md)
 - [ScaleTesting Instance](./scaletesting.md)
 - [gRPC](./grpc_faq.md)
+- [gRPC Monitoring Guide](./grpc.md)
+- [gRPC CS Enablement Guide / Primer](./grpc_cs_enablement.md)
 
 In-house tools:
 
