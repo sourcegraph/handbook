@@ -2,11 +2,9 @@
 
 ### Welcome to design at Sourcegraph!
 
-The design team exists to increase the value Sourcegraph delivers to its
-users and to build trust through our brand. We achieve this objective
-through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company.
+Our mission is to put beautifully designed software in the hands of every developer in the world.
 
-We also seek to make it easier and more efficient to build Sourcegraph itself. Through the artifacts of our open process, we provide a forum where anyone in the company can provide valuable input that improves a project's outcome before a single line of code is written.
+We do this by creating a differentiated, inspired and trustworthy brand. And by ensuring that the software we ship is powerful, usable, accessible and delightful.
 
 ## Design Team
 
