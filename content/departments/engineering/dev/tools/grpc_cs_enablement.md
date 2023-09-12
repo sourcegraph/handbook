@@ -12,7 +12,7 @@ This document aims to provide background information on gRPC & how we use it and
 
 At its most basic level, an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) allows one program to cause a function to execute in another program (commonly on another physical machine).
 
-In simpler terms, it's a way for different parts of a system, which could be located on different machines, to talk to each other and perform tasks.
+It's a way for different parts of a system, which could be located on different machines, to talk to each other and perform tasks.
 
 Imagine being able to “press a button in one” application to get information or perform an action in another application located somewhere else; that's the essence of an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call).
 
