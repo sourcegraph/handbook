@@ -14,7 +14,7 @@ At its most basic level, an [RPC](https://en.wikipedia.org/wiki/Remote_procedure
 
 It's a way for different parts of a system, which could be located on different machines, to talk to each other and perform tasks.
 
-Imagine being able to “press a button in one” application to get information or perform an action in another application located somewhere else; that's the essence of an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call).
+Imagine being able to “press a button” in one application to perform an action in another application located somewhere else; that's the essence of an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call).
 
 Here is a pseudo-code example of what an [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) can look like:
 
