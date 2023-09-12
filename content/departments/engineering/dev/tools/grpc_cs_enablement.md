@@ -170,4 +170,4 @@ That indicates a surefire issue with our gRPC implementation and (should be repo
 
 ## Who do you contact if there is a problem?
 
-Contact us in the #job-fair-grpc Slack channel.
+Contact us in either the #job-fair-grpc or #discuss-apis Slack channel.
