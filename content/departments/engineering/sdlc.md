@@ -64,7 +64,7 @@ We use labels to communicate the quality and support level of our products and f
 
 The testing phase ensures that the solution meets the specified requirements. Automated vulnerability scanning and SAST (Static Application Security Testing) are integrated into our CI/CD pipeline to assess security. Features may initially be behind feature flags for testing and continuous releasability.
 
-[CI/CD pipelines](https://handbook.sourcegraph.com/departments/engineering/dev/tools/infrastructure/ci/) cover testing on multiple levels, unit, integration and end-to-end. The application end-to-end test suites cover our containers and kubernetes deployments, and are running against real code hosts.
+[CI/CD pipelines](dev/tools/infrastructure/ci/index.md) cover testing on multiple levels, unit, integration and end-to-end. The application end-to-end test suites cover our containers and kubernetes deployments, and are running against real code hosts.
 
 After going through Continuous Integration, changes are automatically deployed on an internal Sourcegraph instance, referred to as "S2" that all Sourcegraph teammates use on a daily basis, allowing to further observe correctness before any releases are made.
 
@@ -72,7 +72,7 @@ After going through Continuous Integration, changes are automatically deployed o
 
 Deployment methods:
 
-- [Continuous deployments for sourcegraph.com](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/#dotcom).
+- [Continuous deployments for sourcegraph.com](dev/process/deployments/index.md#dotcom).
 - [Release-based model for managed instances](https://docs.sourcegraph.com/cloud#monthly-upgrades-and-maintenance).
 
 #### Versioning
