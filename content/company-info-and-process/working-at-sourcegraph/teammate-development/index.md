@@ -52,6 +52,7 @@ We aim to always work smarter, not harder - Lattice’s feedback tools allow us 
   - Lattice Slack integration makes it easy to provide quick Thanks while tagging our values and ensuring it gets stored in Lattice for later use!
 - **General feedback:** Collecting all forms of feedback is crucial in fostering a culture of continuous growth. Storing general feedback in Lattice allows Teammates and Manager to review the feedback, create action plans, and follow up on progress. It provides content to add to reviews on either areas that improved or needs improvement.
   - The Slack integration enables you to send feedback in 3 easy steps to ensure we’re giving timely and specific feedback in a timely manner.
+  - Lattice will trigger Monthly check-ins for all teammates to provide self reflection and for managers to provide feedback to their direct reports.
 - **Regular 1:1s:** We expect all Managers to host 1:1s with their Teammates. Hosting the agenda and notes in Lattice allow for a quick look back when writing your formal reviews.
   - The Slack integration enables you to add agenda items directly to your next 1:1 agenda in 2 easy steps. Ensuring you can add relevant topics quickly on the spot rather than needing to open a google doc, or forgetting to discuss the topic in your next 1:1.
   - There is a great feature where you can quickly toggle between past 1:1 agendas to ensure you’re following up on items and can pull examples for formal reviews.
@@ -77,7 +78,7 @@ The purpose of continuous feedback is to promote a culture of feedback and high 
 3. [Regular 1:1s](#Regular-1:1s)
 4. [Growth & career-development conversations](#Growth-&-career-development-conversations)
 
-**Monthly Check-ins via Lattice**
+### **Monthly Check-ins via Lattice**
 
 We believe that regular feedback and self-reflection are crucial for individual and team growth. This is why as of October FY24 we are running monthly feedback check-ins via Lattice so teammates can reflect, share insights, and highlight contributions to our collective success.
 
