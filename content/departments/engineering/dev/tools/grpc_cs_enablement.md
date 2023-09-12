@@ -163,7 +163,7 @@ For a **subset of errors** that we are certain originate from the underlying gRP
 
 If you see either:
 
-- relevant entries in the “GRPC “internal errors” metrics**”** grafana dashboards
+- relevant entries in the “GRPC “internal errors” metrics” grafana dashboards
 - **OR**: application logs that are prefixed with `grpc.internal.error.reporter`
 
 That indicates a surefire issue with our gRPC implementation and (should be reported to us).
