@@ -60,7 +60,7 @@ You may use these gcloud commands to connect directly to the databases:
 
 If you receive an error while connecting, ensure you have the required permissions through Entitle and re-request them if they have expired.
 
-  Go to [Example Queries](#example-queries) to continue
+Go to [Example Queries](#example-queries) to continue
 
 #### Proxy for advanced use
 
