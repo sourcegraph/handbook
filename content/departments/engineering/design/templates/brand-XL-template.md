@@ -26,18 +26,18 @@
     -[ ] Goals
     -[ ] Who, What, Why
     -[ ] Constraints
-    -[ ] Constraints (what we can't do) 
-    -[ ]	Deliverables (site nav, mood board, content strategy) 
-    -[ ]Timeline 
+    -[ ] Constraints (what we can't do)
+    -[ ]	Deliverables (site nav, mood board, content strategy)
+    -[ ]Timeline
     -[ ]Distribution channels
     -[ ]Creative direction
     -[ ]Resources
   -[ ] Relevant feedback (internal/external)
-  -[ ] Site analytics 
+  -[ ] Site analytics
   -[ ] Analogous/competitive research - Link
 
   ### Define
-  -[ ] Findings, recommendations and direction 
+  -[ ] Findings, recommendations and direction
   -[ ] GitHub issue
 
   ### Design
@@ -46,19 +46,19 @@
   -[ ] Wireframes
 	  -[ ] Review with stakeholders
     -[ ] Designer review
-  -[ ] Mockup (desktop and mobile) 
+  -[ ] Mockup (desktop and mobile)
     -[ ] Review with stakeholders
     -[ ] Designer review
   -[ ] Prototype - Link
     -[ ] Review with stakeholders
 
   ### Testing
-Testing should use the prototypes 
+Testing should use the prototypes
   -[ ] Hallway testing - Link
   -[ ] Usertesting.com task-based evaluation - Link
 
 ### Building
-Building should use the prototypes 
+Building should use the prototypes
   -[ ] Loom
   -[ ] Meeting with implementation team for review
   -[ ] Github issue
@@ -69,8 +69,8 @@ Building should use the prototypes
 	  -[ ] Meta information
   -[ ] QA (PR + preview)
 	  -[ ] Test accross browsers
-	  -[ ] Test on different screen sizes 
-	  -[ ] Test links 
+	  -[ ] Test on different screen sizes
+	  -[ ] Test links
 
 --
 
