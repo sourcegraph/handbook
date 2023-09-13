@@ -75,6 +75,11 @@ Team meetings are held weekly.
 Prior to taking time off, TAs should:
 
 1. [Log time off request in Deel PTO](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
-1. Work with their manager and peers to create a coverage plan
-1. Notify their customers through the appropriate channel of their upcoming OOO
-1. Update their slack status accordingly with OOO dates indicated
+2. Work with their manager and peers to create a coverage plan. The coverage plan should highlight any accounts that:
+   - Are renewing during the OOO period. These should have any pending action items resolved
+   - Are unhealthy and have active Lighthouse Program Save plans
+   - Are active on customer Slack channels and have open Support Tickets
+3. Share the OOO coverage plan with the relevant account teams like AE, CE, IE, etc
+4. Reschedule any upcoming customer syncs with champions or stakeholders, keeping the AE informed
+5. Notify their customers through the appropriate channels of their upcoming OOO
+6. Update their Slack status accordingly with OOO dates indicated
