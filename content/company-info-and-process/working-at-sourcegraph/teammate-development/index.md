@@ -302,9 +302,9 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 - Managers should use Lattice 1:1 templates to prepare, host, and track each Teammates 1:1s
 - We expect the following to take place in every 1:1:
   - Personal check-in
-  - Solicit direct feedback from Teammates (“What should I start / stop / continue?”, “How happy are you?,” Iis there anything I can do to better support you?,” etc).
+  - Solicit direct feedback from Teammates (“What should I start / stop / continue?”, “How happy are you?,” is there anything I can do to better support you?,” etc).
   - Provide direct feedback on performance. Managers should share performance feedback during every single 1:1.
-    - If giving negative feedback, Managers are expected to provide specific examples and follow the [SBI (situation, behavior, impact) model.](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357)
+    - If giving negative feedback, Managers are expected to provide specific examples and follow the [SBI (situation, behavior, impact) model.](https://www.mindtools.com/ay86376/the-situation-behavior-impact-feedback-tool)
     - If coaching has taken place, we expect a follow up agenda item on progress (improvement, decline, no change).
 - Utilize the automated recommendation questions in each 1:1
   - You will see a box within our 1:1 agenda where you can pick a specific area to have a random thoughtful question generated
