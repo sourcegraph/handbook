@@ -16,7 +16,7 @@ stakeholders. A planning review will consist of content to cover at least the
 following outline:
 
 - **Retrospective:** How well did we do in accomplishing our goals from last Q?
-  What data to you have to support those conclusions?
+  What data do you have to support those conclusions?
 - **Status:** How well is the product serving the needs of our customers and the
   business? How well have you hit your metrics targets?
 - **Plans:** What work is being proposed for this planning cycle, how does it meet
