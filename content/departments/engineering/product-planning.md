@@ -24,7 +24,8 @@ following outline:
   data are you using to drive your planning?
 - **Success Metrics:** what KPIs and targets have you set to measure the success
   of this work?
-- **Risks/Needs:** What are the biggests risks? What are the mitigations? Do you
+- **Risks/Open Questions/Needs:** What are the biggests risks? What are the
+  mitigations? What guidance would you like from the exec team? Do you
   have everything you need to be successful?
 - **Excluded:** What alternatives have you rejected for this Q and why? Will they
   be on the team's roadmap for the future?
