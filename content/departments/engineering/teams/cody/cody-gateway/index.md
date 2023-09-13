@@ -157,7 +157,7 @@ Data can be queried directly in BigQuery tables above (requires [infrastructure 
 
 - [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72)
 - [Embeddings Tokens Generated](https://redash.sgdev.org/queries/82#151)
-- [Completions Usage](https://redash.sgdev.org/queries/106/source?p_Days=5&p_IntervalHours=1&p_Models=%5B%22anthropic/claude-2%22%5D#200)
+- [Completions Usage](https://redash.sgdev.org/queries/106)
 
 A simple overview can also be seen in each product subscription's licenses page - see [Using Cody Gateway: Analyzing usage](./using.md#analyzing-usage).
 
