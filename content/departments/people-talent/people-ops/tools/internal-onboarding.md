@@ -217,9 +217,13 @@ _It is important to always confirm these changes with the Hiring Manager before 
 
 #### Change updates
 
-We must notify the manager and update the start date in BambooHR. This is critical.
+We must notify the manager and update the start date in the following places:
+- BambooHR
+- [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
+- Greenhouse
+- If payroll and tech ops have already started actioning onboarding activities, make sure they're aware of the start date change via the #wg-onboarding channel.
 
-Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
+If the teammate is already in "Hired" status in Greenhouse, let the candidate know of the start date change via the Welcome to Sourcegraph email, and store record of the email exchange in Bamboo. We don't need to send an updated offer letter. 
 
 ## Rescinding offer
 
