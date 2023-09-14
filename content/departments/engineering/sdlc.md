@@ -38,7 +38,7 @@ We use labels to communicate the quality and support level of our products and f
 - **Experimental**:
 
   - Shared publicly.
-  - Features implementations representare in super early functionality.
+  - Feature implementations represented are in super early functionality.
   - Unsupported.
   - Goals: Assess potential, identify improvements.
 
