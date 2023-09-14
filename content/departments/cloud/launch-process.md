@@ -48,7 +48,6 @@ Please do reach out if you have any question even before start working on the qu
 ### Past launches
 
 - Launched [Server-side Batch Changes](https://docs.google.com/document/d/1P_dqAS2YEe_NDqf0x8W74sHhy3nYXKOhdqId5uAdirI/edit)
-- To be launched [RockSkip](https://docs.google.com/document/d/1k6P71TJTerfkg72Vwz99JUM685wnRI-BKED6YbUGOY8/edit)
 - Launched gRPC go/grpc-cloud-launch
 - To be launched Search Jobs go/cloud-launch-search-jobs
 - ~To be launched [RockSkip](https://docs.google.com/document/d/1k6P71TJTerfkg72Vwz99JUM685wnRI-BKED6YbUGOY8/edit)~
