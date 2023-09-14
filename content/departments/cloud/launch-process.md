@@ -1,5 +1,7 @@
 # Cloud launch process
 
+> [!Note] go/cloud-launch is the canonical link to this page
+
 Starting with Sourcegraph 4.0, we're asking authors of non-trivial features launched on Sourcegraph Cloud to fill-out a [questionnaire](#questionnaire) providing Cloud team with information about:
 
 - infrastructure / resource allocation changes that need to be made by the Cloud team
@@ -38,9 +40,10 @@ If you think it should be improved make suggestions in the doc, if you have ques
 ## How does it work?
 
 - Copy and complete the [questionnaire](#questionnaire)
-- Please drop the link in #ask-cloud and tag @cloud-team
+- Create a [GitHub Issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,cloud/feature-launch&projects=&template=cloud-feature-launch.yml&title=Cloud+feature+launch:+%5BFEATURE+NAME+NAME%5D)
+- Please drop the link in #discuss-cloud-ops and tag @cloud-team
 
-Please do reach out if you have any question even before start working on the questionnaire in #ask-cloud, we are happy to chat.
+Please do reach out if you have any question even before start working on the questionnaire in #discuss-cloud-ops, we are happy to chat.
 
 ### Past launches
 
