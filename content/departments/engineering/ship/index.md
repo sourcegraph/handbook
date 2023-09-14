@@ -14,3 +14,4 @@
 ## Documents
 
 - [Weekly Reports Instructions](weekly-reports.md)
+- [AWS Organisation management](aws.md)
