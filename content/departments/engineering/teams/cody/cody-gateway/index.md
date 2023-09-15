@@ -32,7 +32,7 @@ Contents:
 
 ## Architecture
 
-See [Cody Gateway: working design](https://docs.google.com/document/d/1fAKuYM02vRfn-QAmcu38QWmtQ797g1TA3L6CNs0rFps/edit#) for the current state of Cody Gateway architecture.
+See [Cody Gateway: 1-pager](https://docs.google.com/document/d/1R6Ew_y5TDhwCMktOin6pemX6UeLsx0plLUfqBBmYCkk/edit#heading=h.eksk0kbbz0ul) for a recent overview of Cody Gateway architecture and details.
 
 ## Service images
 
