@@ -7,27 +7,43 @@ The job of the product team is to provide clarity:
 - Clarity about why we're building it
 - Clarity about who the company is and how it expresses itself
 
-## Team Members and Scope
+## Product Teams
 
-- Head of Product (temporary PM VS Code) - Chris Sells
-- Product Managers (PM)
-  - Kevin Chen - PLG
-  - Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
-  - Taylor Sperry - Cody Clients
-- Product Designers (PD)
+The product team is led by Chris Sells, our Head of Product (and temporary PM VS Code) and consits of several teams focused on crafting amazing tools for developers:
+
+### Product Management
+
+#### PM team members:
+
+- Kevin Chen - Product Led Growth
+- Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
+- Taylor Sperry - Cody Clients
+
+
+### [Design](./design)
+The design team's missions are to ensure the software we ship is powerful, usable, accessible and delightful, to be the voice of the developer, and to create a differentiated, inspired and trustworthy brand.
+
+Learn more about the design team and their process in the [design team section of the handbook](./design).
+#### Design team members:
   - Rob Rhyne - Head of Design
-  - Tim Lucas
-  - Daniel Marques
-- Brand Designers
-  - Tracey Johnson
-- User Experience Research (UXR)
-  - Megan St. Andrew
-- Technical Project Managers (TPM)
+    - Product Design
+      - Tim Lucas
+      - Daniel Marques
+    - Brand Design
+      - Tracey Johnson
+    - User Experience Research (UXR)
+      - Megan St. Andrew
+
+
+### Technical product management
+
+#### TPM team members:
   - Ryan Phillips - TPM Manager
   - Kalan Chan
   - John Wesonga
 
-## Principles
+
+## Product Team Principles
 
 - [Do fewer things but do them better](#do-fewer-things-but-do-them-better)
 - [Multi-quarter outlook](#multi-quarter-outlook)
