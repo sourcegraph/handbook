@@ -275,7 +275,7 @@ are working on this piece of code?
 
 - **Interviewers:** one engineer
 
-- **Duration:** 15-minute setup call, then candidate works asynchronously on exercise, with ability to ask questions in a Slack chat. Expectation is that candidate finishes project after ~1d (independent of hours actually worked on it)
+- **Duration:** 15-minute setup call, then candidate works asynchronously on the exercise and is invited to a Slack channel where they can ask questions. A Sourcegraph team member will be "on-call" for 30 minutes afterward to answer any follow-up questions and more synchronous time can be scheduled later upon the candidate's request. Candidates are expected to spend no more than 2 hours on the assignment over the course of 1 day.
 
 - **How to prepare:** Please complete these steps prior to the interview:
 
@@ -288,7 +288,7 @@ are working on this piece of code?
 
 - **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
-  Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/cody/issues?q=is%3Aopen+is%3Aissue+label%3Aclients%2Fvscode) as possible source of inspiration.
+  Then we'll ask you to fix a [mock issue](https://github.com/sourcegraph/cody/issues/1062) in Cody.
 
   You can ask questions in a shared Slack chat.
 
