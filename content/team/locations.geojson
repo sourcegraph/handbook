@@ -906,7 +906,19 @@
                     34.028160
                 ]
             }
-        }
-
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Noah Berman"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.50598126268602,
+                    39.12773310857054
+                ],
+                "type": "Point"
+            }
+        },
     ]
 }
