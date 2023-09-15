@@ -103,7 +103,10 @@ All alerts from all environments currently go to #alerts-cody-gateway.
 
 #### Metrics
 
-Each deployment's Cloud Run metrics overview provides basic observability into the service provided out-of-the-box by Cloud Run. Logs are also available in Cloud Logging.
+Each deployment's Cloud Run metrics overview page provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
+Similarly, we depend on out-of-the-box dashboards and metrics from Managed Redis as well.
+
+Cody Gateway does push a few custom metrics via its OpenTelemetry metrics - hand-made dashboards for the prod instance are available [here](https://console.cloud.google.com/monitoring/dashboards/builder/cf5035d1-6aa7-4f85-be46-8abaac9790a0%3Bduration=P7D?project=cody-gateway-prod), including our concurrent upstream requests graph.
 
 #### Tracing
 
