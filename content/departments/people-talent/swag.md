@@ -57,4 +57,4 @@ Once you’ve completed the google form, someone from the People team will conne
 
 ### Brand Guidelines
 
-When designing custom swag, please follow our [brand guidelines](../engineering/design/brand_guidelines/index.md) and run any mock-ups past the brand team (Tracey Johnson) if you have any questions.
+When designing custom swag, please follow our [brand guidelines](../product/design/brand_guidelines/index.md) and run any mock-ups past the brand team (Tracey Johnson) if you have any questions.

@@ -248,7 +248,7 @@ Once you’ve completed the google form, someone from the People team will conne
 
 **Brand Guidelines**
 
-When designing custom swag, please follow our [brand guidelines](../../departments/engineering/design/brand_guidelines/index.md) and run any mock-ups/questions past the #creative-ops Slack channel prior to ordering.
+When designing custom swag, please follow our [brand guidelines](../../departments/product/design/brand_guidelines/index.md) and run any mock-ups/questions past the #creative-ops Slack channel prior to ordering.
 
 ### External requests:
 

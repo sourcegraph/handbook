@@ -78,7 +78,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 
 ### [Engineering](departments/engineering/index.md)
 
-### [Product Management](departments/product/index.md)
+### [Product](departments/product/index.md)
 
 ### [Cloud](departments/cloud/index.md)
 

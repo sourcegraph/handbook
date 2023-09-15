@@ -58,7 +58,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 ### Before merge
 
 - Run hallway tests with internal users
-- Complete a final [design review](../../../engineering/design/design_process.md#final-review)
+- Complete a final design review
 - Review documentation
 - Review analytics and ensure desired metrics have been added to the feature
 - Confirm feature flag functionality
@@ -110,7 +110,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 ### Before merge
 
 - Run hallway tests with internal users, using the #feedback-dogfood channel.
-- Complete a final [design review](../../../engineering/design/design_process.md#final-review)
+- Complete a final design review
 - Review documentation
 - Review analytics and ensure desired metrics have been added to the feature
 - If there are privacy or security related changes, get approval from our security partners

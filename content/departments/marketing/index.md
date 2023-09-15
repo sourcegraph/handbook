@@ -16,7 +16,7 @@
   - [Customer marketing](product-marketing/customer_marketing.md)
 - [How to write a blog post](blog.md)
 - [Sending swag](swag.md)
-- [Brand Guidelines](../engineering/design/brand_guidelines/index.md)
+- [Brand Guidelines](../product/design/brand_guidelines/index.md)
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 - [Process docs](process/index.md)
   - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
