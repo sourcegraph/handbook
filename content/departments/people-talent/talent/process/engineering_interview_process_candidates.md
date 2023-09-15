@@ -275,7 +275,11 @@ are working on this piece of code?
 
 - **Interviewers:** one engineer
 
-- **Duration:** 15-minute setup call, then candidate works asynchronously on exercise, with ability to ask questions in a Slack chat. Expectation is that candidate finishes project after ~1d (independent of hours actually worked on it)
+- **Duration:** 45-minute kick-off session + up to 2 hours to work on your own:
+
+  - The first 15 minutes will be live, where we'll ensure that the dev environment is setup.
+  - For the next 30 minutes, as you get started on the project, the interviewer will be actively online to answer any questions that you have via Slack.
+  - Then, the expectation is that you finish the project after ~1 day (but please spend no more than 2 hours in aggregate on it beyond the 30 minute kickoff).
 
 - **How to prepare:** Please complete these steps prior to the interview:
 
@@ -283,16 +287,16 @@ are working on this piece of code?
   - Have a working VS Code installation on your local machine
   - git clone the Sourcegraph Cody repository: https://github.com/sourcegraph/cody
   - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/cody/blob/main/vscode/CONTRIBUTING.md
-  - If you get stuck, we will go over it on the call
-  - During the call, you'll get invited by the interviewer to a shared Slack channel in which you can ask questions
+  - If you get stuck, we will go over it on the meeting
+  - During the meeting, you'll get invited by the interviewer to a shared Slack channel in which you can ask questions
 
 - **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
   Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/cody/issues?q=is%3Aopen+is%3Aissue+label%3Aclients%2Fvscode) as possible source of inspiration.
 
-  You can ask questions in a shared Slack chat.
+  You can ask questions in a shared Slack chat for 30 minutes after your meeting.
 
-  Share your final results as a pull request in the Slack channel.
+  When you are finished, please share your final results as a pull request in the Slack channel.
 
 #### AI Coding Exercise
 
