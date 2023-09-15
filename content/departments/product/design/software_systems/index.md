@@ -37,7 +37,6 @@ We have several handy templates that we use to get going quick on new work.
 - [One-page research plan template](https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#heading=h.g0gjwch98szj), which you can use to plan research.
 - [One-page design challenge template](https://docs.google.com/document/d/1sEAZAl4NXTY5R1aklPv70_gg-ASbQDgqy0bT5fnJhoU/edit?usp=sharing), which you can use to frame a design problem.
 
-
 ## Software
 
 ### Product and design
