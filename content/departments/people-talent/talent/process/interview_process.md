@@ -115,7 +115,7 @@ A debrief meeting with the interview panel is a crucial step in the hiring proce
   - Encourage interviewers to discuss any discrepancies in their evaluations and seek clarification on differing opinions.
   - Pay attention to areas where feedback is mixed or conflicting.
 - Calibration and alignment:
-  - As a group, discuss the candidate's strengths and weaknesses, considering the job requirements and Sourcegraph’s [values](https://handbook.sourcegraph.com/company-info-and-process/values/).
+  - As a group, discuss the candidate's strengths and weaknesses, considering the job requirements and Sourcegraph’s values.
   - Focus on aligning expectations and recalibrating if necessary. Discuss what the Hiring Manager values most in a candidate and whether the candidate aligns with those values.
   - Encourage panel members to reevaluate their recommendations based on the discussion.
 - Decision and next steps:
