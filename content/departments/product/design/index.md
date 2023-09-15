@@ -2,6 +2,29 @@
 
 Our mission is to put beautifully designed software in the hands of every developer in the world. We do this by creating a differentiated, inspired and trustworthy brand. And by ensuring that the software we ship is powerful, usable, accessible and delightful.
 
+
+## Team
+
+- [Rob Rhyne](../../../team/index.md#rob-rhyne) – Head of Design (he/him)
+
+### Product Design
+
+- [Tim Lucas](../../../team/index.md#tim-lucas) – Lead Product
+  Designer (he/him)
+- [Daniel Marques](../../../team/index.md#daniel-marques) – Product
+  Designer (he/him)
+
+### User Research
+- [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
+  (she/they)
+
+### Creative Ops / Brand
+
+- [Tracey Johnson](../../../team/index.md#tracey-johnson) – Brand Designer
+  (they/them)
+
+We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
+
 ## Ethos
 
 We know that we’re successful as a design team when we…
@@ -39,25 +62,20 @@ Product design at Sourcegraph is low-process and highly adaptive. Instead of des
 #### Process
 
 - [Ways of working](./ways_of_working/index.md)
-- [Design artifacts](./artifacts/index.md)
-- [Wildcard design system](./wildcard_design_system/index.md)
-- [Marketing design language system (DLS)](./marketing-dls.md)
+- [Team rituals](./team_rituals/index.md)
 - [Brand Guidelines](./brand_guidelines/)
 - [Research](./research/index.md)
-- [Team rituals](./team_rituals/index.md)
 - [Design and interaction guidelines](design-and-interaction-guidelines.md)
 - [Design collaboration and review](./design_collaboration_review/index.md)
-- [Structuring design artifacts for review](./structuring_design_artifacts_for_review/index.md)
 
 #### Toolkit
 
-- [Tools](./tools/index.md)
+- [Software, systems, and templates](./software_systems/index.md)
 - [Content guidelines](../../../company-info-and-process/communication/content_guidelines/index.md)
-- [Documents and templates](./documents_templates/index.md)
 - [Visual design checklist](./visual_design_checklist.md)
 - [External resources](./external_resources/index.md)
 
-#### Other
+#### Career and growth
 
 - [Design career framework](./career-development.md)
 - [Interview process](../../product/roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))

@@ -24,15 +24,6 @@ The product team is led by Chris Sells, our Head of Product (and temporary PM VS
 The design team's missions are to ensure the software we ship is powerful, usable, accessible and delightful, to be the voice of the developer, and to create a differentiated, inspired and trustworthy brand.
 
 Learn more about the design team and their process in the [design team section of the handbook](./design).
-#### Design team members:
-  - Rob Rhyne - Head of Design
-    - Product Design
-      - Tim Lucas
-      - Daniel Marques
-    - Brand Design
-      - Tracey Johnson
-    - User Experience Research (UXR)
-      - Megan St. Andrew
 
 
 ### Technical product management
