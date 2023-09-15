@@ -2,7 +2,6 @@
 
 Our mission is to put beautifully designed software in the hands of every developer in the world. We do this by creating a differentiated, inspired and trustworthy brand. And by ensuring that the software we ship is powerful, usable, accessible and delightful.
 
-
 ## Team
 
 - [Rob Rhyne](../../../team/index.md#rob-rhyne) – Head of Design (he/him)
@@ -15,6 +14,7 @@ Our mission is to put beautifully designed software in the hands of every develo
   Designer (he/him)
 
 ### User Research
+
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
   (she/they)
 

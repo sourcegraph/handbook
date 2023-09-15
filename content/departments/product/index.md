@@ -19,20 +19,19 @@ The product team is led by Chris Sells, our Head of Product (and temporary PM VS
 - Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
 - Taylor Sperry - Cody Clients
 
-
 ### [Design](./design)
+
 The design team's missions are to ensure the software we ship is powerful, usable, accessible and delightful, to be the voice of the developer, and to create a differentiated, inspired and trustworthy brand.
 
 Learn more about the design team and their process in the [design team section of the handbook](./design).
 
-
 ### Technical product management
 
 #### TPM team members:
-  - Ryan Phillips - TPM Manager
-  - Kalan Chan
-  - John Wesonga
 
+- Ryan Phillips - TPM Manager
+- Kalan Chan
+- John Wesonga
 
 ## Product Team Principles
 
