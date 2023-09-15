@@ -33,7 +33,7 @@ In order to have good security and risk mitigation practices, only a subset of t
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](../process/support-managed-instances.md) (you can find which customers have a managed instance [here](../process/customer-exceptions.md)). If you need to access logs for these customers, first refer to the [managed instance dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md). Each instance should have instructions on requesting access to its respective Cloud infrastructure via [Entitle](/content/departments/security/tooling/entitle.md). 
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](../process/support-managed-instances.md) (you can find which customers have a managed instance [here](../process/customer-exceptions.md)). If you need to access logs for these customers, first refer to the [managed instance dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md). Each instance should have instructions on requesting access to its respective Cloud infrastructure via [Entitle](/content/departments/security/tooling/entitle.md).
 
 Read more about working with managed instances [here](../process/support-managed-instances.md).
 
