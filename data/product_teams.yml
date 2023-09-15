@@ -99,9 +99,9 @@ ship_cloudops:
   issue_labels:
     - team/cloud
 
-ship_coresvc:
+ship_core_services:
   title: Core Services
-  em: interim_ship_coresvc
+  em: interim_ship_core_services
   tl: rafal_gajdulewicz
   issue_labels:
     - team/core-services

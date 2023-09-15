@@ -16,7 +16,7 @@ The Engineering department at Sourcegraph consists of:
   - [Code Intelligence](teams/code-intelligence/index.md)
 - [Ship](ship/index.md)
   - [Cloud Operations](../../departments/cloud/index.md)
-  - [Core Services](teams/coresvc/index.md)
+  - [Core Services](teams/core-services/index.md)
   - [Developer Infrastructure](teams/devinfra/index.md)
   - [Release](teams/release/index.md)
 - Cody
