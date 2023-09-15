@@ -90,46 +90,47 @@ Following your interview, please provide interview feedback immediately, no late
 
 We want to hire people who overwhelmingly get 'Yes' and 'Strong Yes' feedback. [Here](https://handbook.sourcegraph.com/departments/people-talent/talent/process/interview_process/#overall-hiring-recommendation) is how to define the rating recommendations.
 
-The hiring team reviews the feedback in Greenhouse and makes the final hiring decision. If the candidate received all 'Yes' or 'Strong Yes', the interview team can debrief in a synchronous fashion or asynchronously via Slack. If the candidate did not receive all 'Yes' or 'Strong Yes' feedback, a live debrief must take place. Should the interview panel be aligned on moving forward, the Hiring Manager needs to submit written justification for moving forward with an offer in the offer approval section. If there is mixed feedback, the Hiring Manager is the ultimate decision maker. 
+The hiring team reviews the feedback in Greenhouse and makes the final hiring decision. If the candidate received all 'Yes' or 'Strong Yes', the interview team can debrief in a synchronous fashion or asynchronously via Slack. If the candidate did not receive all 'Yes' or 'Strong Yes' feedback, a live debrief must take place. Should the interview panel be aligned on moving forward, the Hiring Manager needs to submit written justification for moving forward with an offer in the offer approval section. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
 
 #### Debrief meeting
+
 A debrief meeting with the interview panel is a crucial step in the hiring process to ensure alignment on candidate feedback and make informed decisions regarding the candidate's fit for the role. Here's a structured approach to conducting the debrief meeting:
 
-* Preparation:
-    * Before the debrief meeting, ensure that all teammates have submitted their feedback independently.
-    * Export the feedback as a PDF and share with the interview panel in the role’s Slack channel.
-    * Send an agenda to the interview panel in the role's Slack channel and reiterate what qualitifactions we're looking for.
-* Schedule the meeting:
-    * Coordinate with the interview panel to find a suitable time for the debrief meeting. This should be scheduled no more than 48 hours after the candidate's interview to maintain context and momentum.
-* Meeting agenda:
-    * Begin the meeting by welcoming the panel and thanking them for their participation in the interview process.
-    * Outline the purpose of the debrief: to discuss candidate feedback and align on expectations.
-    * Set the ground rules for the discussion, emphasizing the importance of direct and transparent communication while maintaining respect for differing opinions.
-* Review individual feedback:
-    * Start by going through each interviewer's feedback in chronological order, allowing them to present their impressions.
-    * Encourage interviewers to elaborate on their feedback, highlighting specific examples or concerns they may have noted during the interview.
-    * Ask each interviewer to provide their overall recommendation (e.g., Definitely Not, No, Yes, Strong Yes) and any specific concerns they have.
-* Discuss key themes:
-    * After reviewing individual feedback, facilitate a discussion to identify common themes or patterns in the feedback.
-    * Encourage interviewers to discuss any discrepancies in their evaluations and seek clarification on differing opinions.
-    * Pay attention to areas where feedback is mixed or conflicting.
-* Calibration and alignment:
-    * As a group, discuss the candidate's strengths and weaknesses, considering the job requirements and Sourcegraph’s [values](https://handbook.sourcegraph.com/company-info-and-process/values/).
-    * Focus on aligning expectations and recalibrating if necessary. Discuss what the Hiring Manager values most in a candidate and whether the candidate aligns with those values.
-    * Encourage panel members to reevaluate their recommendations based on the discussion.
-* Decision and next steps:
-    * Based on the discussion, work toward a consensus on whether to move forward with the candidate or not.
-    * If a consensus is reached, determine the next steps in the hiring process, such as Final Interviews.
-    * If there is still significant disagreement, consider conducting follow-up interviews or seeking additional input from team members who interviewed the candidate.
-    * In the case of mixed feedback, the Hiring Manager is the ultimate decision maker.
-* Document the decision:
-    * Document the outcome of the debrief meeting, including the final decision and any action items, and share this information with the interview panel in a timely manner.
-    * The Hiring Manager needs to submit written justification for moving forward with an offer in the Slack channel. The Recruiter puts this in the offer approval section in Greenhouse when generating an offer.
-* Follow-up:
-    * After the debrief, provide feedback to the candidate or proceed with the next steps in the hiring process, as decided during the meeting.
-    * Ensure that the interview panel understands their roles and responsibilities in the follow-up process.
-* Feedback loop:
-    * Finally, use the feedback and insights gained from this debrief to continuously improve your interview process and candidate evaluation criteria.
+- Preparation:
+  - Before the debrief meeting, ensure that all teammates have submitted their feedback independently.
+  - Export the feedback as a PDF and share with the interview panel in the role’s Slack channel.
+  - Send an agenda to the interview panel in the role's Slack channel and reiterate what qualitifactions we're looking for.
+- Schedule the meeting:
+  - Coordinate with the interview panel to find a suitable time for the debrief meeting. This should be scheduled no more than 48 hours after the candidate's interview to maintain context and momentum.
+- Meeting agenda:
+  - Begin the meeting by welcoming the panel and thanking them for their participation in the interview process.
+  - Outline the purpose of the debrief: to discuss candidate feedback and align on expectations.
+  - Set the ground rules for the discussion, emphasizing the importance of direct and transparent communication while maintaining respect for differing opinions.
+- Review individual feedback:
+  - Start by going through each interviewer's feedback in chronological order, allowing them to present their impressions.
+  - Encourage interviewers to elaborate on their feedback, highlighting specific examples or concerns they may have noted during the interview.
+  - Ask each interviewer to provide their overall recommendation (e.g., Definitely Not, No, Yes, Strong Yes) and any specific concerns they have.
+- Discuss key themes:
+  - After reviewing individual feedback, facilitate a discussion to identify common themes or patterns in the feedback.
+  - Encourage interviewers to discuss any discrepancies in their evaluations and seek clarification on differing opinions.
+  - Pay attention to areas where feedback is mixed or conflicting.
+- Calibration and alignment:
+  - As a group, discuss the candidate's strengths and weaknesses, considering the job requirements and Sourcegraph’s [values](https://handbook.sourcegraph.com/company-info-and-process/values/).
+  - Focus on aligning expectations and recalibrating if necessary. Discuss what the Hiring Manager values most in a candidate and whether the candidate aligns with those values.
+  - Encourage panel members to reevaluate their recommendations based on the discussion.
+- Decision and next steps:
+  - Based on the discussion, work toward a consensus on whether to move forward with the candidate or not.
+  - If a consensus is reached, determine the next steps in the hiring process, such as Final Interviews.
+  - If there is still significant disagreement, consider conducting follow-up interviews or seeking additional input from team members who interviewed the candidate.
+  - In the case of mixed feedback, the Hiring Manager is the ultimate decision maker.
+- Document the decision:
+  - Document the outcome of the debrief meeting, including the final decision and any action items, and share this information with the interview panel in a timely manner.
+  - The Hiring Manager needs to submit written justification for moving forward with an offer in the Slack channel. The Recruiter puts this in the offer approval section in Greenhouse when generating an offer.
+- Follow-up:
+  - After the debrief, provide feedback to the candidate or proceed with the next steps in the hiring process, as decided during the meeting.
+  - Ensure that the interview panel understands their roles and responsibilities in the follow-up process.
+- Feedback loop:
+  - Finally, use the feedback and insights gained from this debrief to continuously improve your interview process and candidate evaluation criteria.
 
 By following this structured approach, you can ensure that the interview panel comes to a well-informed decision regarding the candidate's fit for the role and that any concerns or discrepancies in feedback are addressed.
 
