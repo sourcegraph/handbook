@@ -1899,3 +1899,14 @@ morgan_gautho:
   location: Santa Monica, CA, USA 🇺🇸
   links: '[LinkedIn](https://linkedin.com/in/morgangautho)'
   description: Morgan is a Franco-American engineer living in Santa Monica. She has a background working as a tech consultant, developing software solutions for a range of clients in both the US and across France and the UK, where she lived before moving to California. She loves helping people achieve their goals and making people's lives a little better through technology. In her free time, she loves to ski, cheer on surfers from the beach, hike, and try to satisfy her insatiable sweet tooth.
+
+noah_berman:
+  name: Noah Berman
+  role: Senior Support Engineer
+  email: noah.berman@sourcegraph.com
+  github: noah-berma
+  pronouns: he/him
+  reports_to: manager_support
+  location: Cincinnati, OH, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/noah-berman-7a033952/)'
+  description: Noah is a full-stack engineer based out of Cincinnati, OH (originally from Bethesda, MD via 6 year stay in Brooklyn, NY). He has worked in various technical and consultative roles across the intersection between customers, engineers and product owners. He enjoys a cool swim on a hot summer day, a warm fire on a cold winter's night, and pizza.
