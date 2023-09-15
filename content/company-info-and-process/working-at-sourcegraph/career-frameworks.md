@@ -24,7 +24,7 @@ This page is maintained by our [Talent and People Team](../../departments/people
 ## Product
 
 - [Product Management career development framework](../../departments/product/career-development/framework.md)
-- [Design career development framework](../../departments/engineering/design/career-development.md)
+- [Design career development framework](../../departments/product/design/career-development.md)
 
 ## Legal
 

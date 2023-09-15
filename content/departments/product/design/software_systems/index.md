@@ -11,7 +11,7 @@ We have several handy templates that we use to get going quick on new work.
 
 ### Issues
 
-- [Project templates](./templates/index.md)
+- [Project templates](./../software_systems/templates/index.md)
 
 #### Figma
 

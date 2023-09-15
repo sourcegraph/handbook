@@ -55,7 +55,7 @@ Remember:
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
     - [Product management](../process/index.md)
-    - [Product design](../../engineering/design/index.md)
+    - [Product design](../../engineering/product/index.md)
     - [Product process](../process/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
 
