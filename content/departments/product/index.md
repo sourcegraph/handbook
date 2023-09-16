@@ -7,32 +7,6 @@ The job of the product team is to provide clarity:
 - Clarity about why we're building it
 - Clarity about who the company is and how it expresses itself
 
-## Product Teams
-
-The product team is led by Chris Sells, our Head of Product (and temporary PM VS Code) and consits of several teams focused on crafting amazing tools for developers:
-
-### Product Management
-
-#### PM team members:
-
-- Kevin Chen - Product Led Growth
-- Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
-- Taylor Sperry - Cody Clients
-
-### [Design](./design)
-
-The design team's missions are to ensure the software we ship is powerful, usable, accessible and delightful, to be the voice of the developer, and to create a differentiated, inspired and trustworthy brand.
-
-Learn more about the design team and their process in the [design team section of the handbook](./design).
-
-### Technical product management
-
-#### TPM team members:
-
-- Ryan Phillips - TPM Manager
-- Kalan Chan
-- John Wesonga
-
 ## Product Team Principles
 
 - [Do fewer things but do them better](#do-fewer-things-but-do-them-better)
@@ -108,6 +82,33 @@ that must be solved:
 
 _We should focus on pain killers over vitamins to provide maximum values to our
 customers._
+
+
+## Product Teams
+
+The product team is led by Chris Sells, our Head of Product (and temporary PM VS Code) and consits of several teams focused on crafting amazing tools for developers:
+
+### Product Management
+
+#### PM team members:
+
+- Kevin Chen - Product Led Growth
+- Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
+- Taylor Sperry - Cody Clients
+
+### [Design](./design)
+
+The design team's missions are to ensure the software we ship is powerful, usable, accessible and delightful, to be the voice of the developer, and to create a differentiated, inspired and trustworthy brand.
+
+Learn more about the design team and their process in the [design team section of the handbook](./design).
+
+### Technical product management
+
+#### TPM team members:
+
+- Ryan Phillips - TPM Manager
+- Kalan Chan
+- John Wesonga
 
 ## Expected Outputs
 
