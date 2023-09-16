@@ -74,7 +74,7 @@ joe_chen:
   name: Joe Chen
   pronouns: he/him
   role: Software Engineer
-  reports_to: ship_coresvc_lead
+  reports_to: ship_core_services_lead
   github: unknwon
   email: joe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
@@ -181,7 +181,7 @@ dax_mcdonald:
 robert_lin:
   name: Robert Lin
   role: Software Engineer
-  reports_to: ship_coresvc_lead
+  reports_to: ship_core_services_lead
   location: Burnaby, Canada 🇨🇦
   pronouns: he/him
   github: bobheadxi
@@ -891,7 +891,7 @@ rafal_gajdulewicz:
   pronouns: he/him
   role: Software Engineer
   tech_lead: true
-  reports_to: ship_coresvc_lead
+  reports_to: ship_core_services_lead
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
@@ -1463,7 +1463,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: ship_coresvc_lead
+  reports_to: ship_core_services_lead
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
@@ -1817,11 +1817,11 @@ interim_ship_release:
   manager_role_slug: ship_release_lead
   hide_on_team_page: true
 
-interim_ship_coresvc:
+interim_ship_core_services:
   name: Nelson Araujo
   reports_to: head_ship
   role: Interim Core Services Lead (and Head of Ship)
-  manager_role_slug: ship_coresvc_lead
+  manager_role_slug: ship_core_services_lead
   hide_on_team_page: true
 
 interim_ship_devinfra:

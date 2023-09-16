@@ -22,7 +22,7 @@ Our software development process follows a structured workflow:
 
 ### Design Phase
 
-The design phase involves defining the solution to a problem. Detailed design processes are described in our [Design process](design/design_process.md).
+The design phase involves defining the solution to a problem. Detailed design processes are described in our [Design process](../product/design/index.md#design-process).
 
 #### Product Lifecycle Labels
 
