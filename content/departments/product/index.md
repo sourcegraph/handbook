@@ -83,7 +83,6 @@ that must be solved:
 _We should focus on pain killers over vitamins to provide maximum values to our
 customers._
 
-
 ## Product Teams
 
 The product team is led by Chris Sells, our Head of Product (and temporary PM VS Code) and consits of several teams focused on crafting amazing tools for developers:
