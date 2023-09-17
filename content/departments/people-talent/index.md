@@ -424,13 +424,15 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 <section>
   <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
-    <!-- Row 1 -->    
+    <!-- Row 1 -->
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#carly-jones" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/CarlyJones.png"
-            alt="Picture of Carly Jones"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/CarlyJones.png"
+              alt="Picture of Carly Jones"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -439,11 +441,13 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/DevonCoords.png"
-            alt="Picture of Devon Coords"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/DevonCoords.png"
+              alt="Picture of Devon Coords"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -452,11 +456,13 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/GraceBohl.png"
-            alt="Picture of Grace Bohl"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/GraceBohl.png"
+              alt="Picture of Grace Bohl"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -465,11 +471,13 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#jamie-oconnell-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
-            alt="Picture of Jamie O'Connell"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
+              alt="Picture of Jamie O'Connell"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -481,10 +489,10 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       <div>
         <div style="text-align: center">
           <a href="../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/KelseyNagel.png"
-            alt="Picture of Kelsey Nagel"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/KelseyNagel.png"
+              alt="Picture of Kelsey Nagel"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -492,13 +500,18 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
       </div>
     </div>
+  </div>
+
   <!-- Row 2 -->
-  <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <a href="../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/KemperHamilton.png"
-            alt="Picture of Kemper Hamilton"
-            style="background: transparent; width: 128px"
+  <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
+          <a href="../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/KemperHamilton.png"
+              alt="Picture of Kemper Hamilton"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -506,14 +519,14 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">People-Ops Generalist</div>
       </div>
     </div>
-  </div>
-<!-- Row 2 -->
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#lauren-ross-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg"
-            alt="Picture of Lauren Ross"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg"
+              alt="Picture of Lauren Ross"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -521,13 +534,14 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">Senior People Partner</div>
       </div>
     </div>
-  </div>
-     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/Marija.png"
-            alt="Picture of Marija Petrovic"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/Marija.png"
+              alt="Picture of Marija Petrovic"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -535,12 +549,14 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">Director, Recruiting and People-Ops</div>
       </div>
     </div>
-      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#michal-sennett-sheher" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/MichalSennett.png"
-            alt="Picture of Michal Sennett"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/MichalSennett.png"
+              alt="Picture of Michal Sennett"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -548,12 +564,14 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">Executive Business Partner</div>
       </div>
     </div>
-      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
           <a href="../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/sourcegraph-assets/TrevorHoughton.png"
-            alt="Picture of Trevor Houghton"
-            style="background: transparent; width: 128px"
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/TrevorHoughton.png"
+              alt="Picture of Trevor Houghton"
+              style="background: transparent; width: 128px"
             />
           </a>
         </div>
@@ -561,4 +579,5 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">Recruiting Operations Specialist</div>
       </div>
     </div>
+  </div>
 </section>
