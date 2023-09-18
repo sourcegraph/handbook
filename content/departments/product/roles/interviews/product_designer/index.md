@@ -10,7 +10,7 @@ _Total interview time: 6 hours_
 1. [1.5 hrs] **[Design Working Session](./pd_design_working_session.md)**: We give you a problem statement and you walk us through your design process in a 1.5 hour block.
    - One of our Product managers
    - One of our Product designers
-   - One of our Frontend engineers
+   - One of our engineers
 1. [30 min] **[Values Interview](../../../../people-talent/talent/process/evaluating_values.md)** with someone from another Sourcegraph team (Marketing, Customer Support, Engineering, BizOps)
 1. [30 min] **[Leadership Interview](../../../../people-talent/talent/process/types_of_interviews.md#leadership-interview)**
 1. We make you a job offer!
