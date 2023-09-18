@@ -292,7 +292,7 @@ are working on this piece of code?
 
 - **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
-  Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/cody/issues?q=is%3Aopen+is%3Aissue+label%3Aclients%2Fvscode) as possible source of inspiration.
+  Then we'll ask you to add a hypothetical feature to Cody.
 
   You can ask questions in a shared Slack chat for 30 minutes after your meeting.
 
