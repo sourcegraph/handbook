@@ -123,7 +123,7 @@ All managed instances have SOAP enabled and disabling is currently not supported
 2. Sign the Cloud site config:
 
    ```sh
-   mi2 sign-cloud-site-config --config-file site-config.json
+   mi2 src-soap sign -config site-config.json
    ```
 
 3. Set the output of the above command as the value of the environment variable `SRC_CLOUD_SITE_CONFIG` in your `sg.config.overwrite.yaml`:
