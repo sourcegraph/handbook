@@ -11,13 +11,6 @@ quinn_slack:
   links: '[slack.org](https://slack.org), [@sqs](https://twitter.com/sqs), [LinkedIn](https://www.linkedin.com/in/quinnslack)'
   description: 'Quinn loves programming and wants to make it so everyone can code. Prior to Sourcegraph, he co-founded [Blend](https://blend.com/) (IPO in 2021), wrote code inside the top 2 US banks at Palantir, studied Computer Science at Stanford, built TLS password auth for curl and other open-source projects, and was the first employee and engineer at Bleacher Report.'
 
-interim_marketing_lead:
-  name: Quinn Slack
-  reports_to: ceo
-  role: Interim Marketing Lead (and CEO)
-  manager_role_slug: marketing_lead
-  hide_on_team_page: true
-
 interim_delivery_lead:
   name: Quinn Slack
   pronouns: he/him
