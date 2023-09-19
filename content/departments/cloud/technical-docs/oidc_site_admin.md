@@ -123,7 +123,7 @@ All managed instances have SOAP enabled and disabling is currently not supported
 2. Sign the Cloud site config:
 
    ```sh
-   mi sign-cloud-site-config --config-file site-config.json
+   mi2 sign-cloud-site-config --config-file site-config.json
    ```
 
 3. Set the output of the above command as the value of the environment variable `SRC_CLOUD_SITE_CONFIG` in your `sg.config.overwrite.yaml`:
@@ -139,13 +139,5 @@ All managed instances have SOAP enabled and disabling is currently not supported
 
 ### How debug SOAP configuration?
 
-> [!WARNING] Do not use any online base64 tool to decode `SRC_CLOUD_SITE_CONFIG` because its value is only encoded but not encrypted!
-
 1. Grab the value of the environment variable `SRC_CLOUD_SITE_CONFIG`, e.g. `eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M...`.
-2. Use `base64` to decode to get its signature and signed content (`siteConfig`):
-
-   ```sh
-   echo "eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M..." | base64 --decode
-   ```
-
-3. Use `base64` to decode the `siteConfig` field again to get the actual content.
+2. Use `mi2 src-soap decode -config "eyJzaWduYXR1cmUiOnsiRm9ybWF0Ijoic3NoLWVkMjU1M..." ` to decode to get its content.
