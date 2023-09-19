@@ -46,7 +46,7 @@ Maven is a digital family health platform that provides free, 24/7 access to spe
   - Wellness coaches
   - Career coaching
 
-3. **Easy expense management **
+3. **Easy expense management**
    Track and manage reimbursable expenses covered by our family support benefits up to $25,000 USD through Maven Wallet, an easy-to-use financial tool within the platform.
 
 4. **Unlimited, 24/7 virtual access to top-rated providers**
@@ -194,7 +194,6 @@ A: If your questions are about Maven services, please contact their support team
 A: Yes, Maven has free resources as well as mental health specialists and coaches to help with the transition back to work. Find more on the Maven app.
 
 **Q: How Does Maven relate to Tilt?**
-
 A: Maven has resources for those exploring parenthood, expecting child(ren), or are already parents. These can be extremely helpful for those going out on parental leave.
 
 Tilt is our leave of absence management vendor, who facilitates US medical and parental leaves to ensure compliance. The two systems work independent of each other, but both have helpful resources for those going out on or returning from parental leave.
@@ -204,6 +203,8 @@ A: After creating an account, log into the Maven platform and search for the pro
 
 **Q: What if I get an eligible service completed but not through Maven? For example, I bought ovulation and pregnancy tests at my local store?**
 A: As long as the service or product is on the list of eligible expenses within Maven you can submit for reimbursement.
+
+
 
 ## People Team Resources
 
