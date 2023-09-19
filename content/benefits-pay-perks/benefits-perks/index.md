@@ -20,7 +20,7 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ### 👪 Family planning support
 
-We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning, building, and support services through [Maven](../../family-support.md) and Maven wallet. Receipts for any expense over $25 are required. Family planning services apply to all teammates, their spouse, and/or domestic partner.
+We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning, building, and support services through [Maven](family-support.md) and Maven wallet. Receipts for any expense over $25 are required. Family planning services apply to all teammates, their spouse, and/or domestic partner.
 
 ### 📚 Professional development
 
