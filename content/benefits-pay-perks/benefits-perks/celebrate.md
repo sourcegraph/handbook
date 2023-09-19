@@ -211,11 +211,9 @@ If you don't want to use Loop & Tie, here are some other gift ideas!
 
 - Gift a meal! Send your teammate a giftcard for a local food delivery service in their area _(International)_
 - [Virgin Experience Gifts: For the adventurers](https://www.virginexperiencegifts.com/) _(US)_
-- [AirBnb Gift Cards: For the travelers](https://www.airbnb.com/d/gift-cards) _(Redeemable only by individuals in the US with a US payment method. Do not use US payment method for purchasing for Non-US based teammates)_
 - [Dylan's Candy Bar: For those with a sweet tooth](https://www.dylanscandybar.com/) (_International)_
 - [La Colombe Coffee Trio: For the caffeine lover](https://www.lacolombe.com/products/greatest-hits-gift-box/?utm_campaign=21181&utm_content=2-353739&utm_source=pepperjam&utm_medium=affiliate&publisherId=%5Bsubid%5D&clickId=3570909913) _(International)_
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
-- [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
 #### Sending gifts via mail
 
