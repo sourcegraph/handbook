@@ -204,8 +204,6 @@ A: After creating an account, log into the Maven platform and search for the pro
 **Q: What if I get an eligible service completed but not through Maven? For example, I bought ovulation and pregnancy tests at my local store?**
 A: As long as the service or product is on the list of eligible expenses within Maven you can submit for reimbursement.
 
-
-
 ## People Team Resources
 
 Please find internal processes [here](https://docs.google.com/document/d/1DDWLlqmZZ88mroHnwImGWkyFMT5I3RjlmNknHO1ouQk/edit?usp=drive_link)
