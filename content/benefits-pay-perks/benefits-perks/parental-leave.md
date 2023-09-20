@@ -356,6 +356,15 @@ If you are engaged as an International Contractor:
 
 - Each country has varying requirements that dictate eligibility for statutory parental benefits. This is dependent on the working relationship type including, independent contractors and those who are self-employed. Given the varying country specific regulations, please contact [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) to receive guidance regarding statutory requirements you are eligible for and how Sourcegraph will cover any variances in total applicable paid leave to ensure you are getting the full 16 weeks of paid parental leave.
 
+#### **I’m experiencing a miscarriage, does Sourcegraph have resources for me?**
+
+A: **Teammate:** Please notify either your Manager or People Partner, whoever you’re most comfortable sharing the news with. 
+We understand losing a child is a devastating loss whether it’s early term or late term. Each person and family will handle the event differently. Our role as a company is to provide as much support as we’re able and ensure the teammate has time to emotionally, and physically heal from the event. Our partnership with Maven provides free resources and support for those experiencing a miscarriage. Maven also has mental health specialists that can be seen to help teammates cope as well.  
+
+**Manager:** Connect with your People Partner for additional assistance and guidance. Outside of connecting with your People Partner, you have two main responsibilities. 1) understanding how we can support the teammate whether it’s through PTO or a Medical Leave of Absence 2) Ask the teammate IF and how they would like the news shared with the team.
+**People Partner:** The People Partner’s role is to support both the manager and teammate. They are here to support you with company benefits, perks, and any communication support desired. You can find the full internal People process here.
+
+
 ## Resources for managers
 
 ### Before the leave happens
