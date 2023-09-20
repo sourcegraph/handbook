@@ -1,4 +1,4 @@
-# Sourcegraph family support benefit (WIP)
+# Sourcegraph family support benefit
 
 We value and support teammates at all stages of life. We partner with [Maven](https://www.mavenclinic.com/) to provide resources and services for family planning and support while managing our reimbursement program of up to $25,000 USD. Family planning services or support apply to all teammates, their spouse, and/or domestic partner.
 
