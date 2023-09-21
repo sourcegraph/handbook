@@ -72,3 +72,5 @@ Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/u
 #### Metrics
 
 The deployment's [Cloud Run metrics overview page](https://console.cloud.google.com/run/detail/us-central1/pings/metrics?project=pings-prod-2f4f73edf1db) provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
+
+Pings service also pushes [GCP Custom Metrics](https://console.cloud.google.com/monitoring/dashboards/builder/eda5de3e-2bd2-41ad-afe2-7c7dfaeeebba?project=pings-prod-2f4f73edf1db) via OpenTelemetry metrics.
