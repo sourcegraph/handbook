@@ -39,7 +39,6 @@ The following places are not sources of truth. Treat documents and conversations
 ## Meetings
 
 - [Company meeting](company_meeting.md) (Every other Tuesday 3:00-3:45pm UT)
-- [Social calendar](../remote/social_calendar.md) meetings
 - [One on One](1-1.md) meetings
 
 ### Internal meetings
