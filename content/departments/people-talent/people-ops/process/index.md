@@ -13,7 +13,7 @@ For teammates
 - [Leaving Sourcegraph](leaving.md)
 - [Moving + relocation](moving.md)
 - [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](compensation-and-leveling/compensation-role-changes.md)
-- [Teammate Sentiment](teammate-sentiment.md)
+- [Teammate Sentiment](teammate-sentiment/index.md) 
 
 For People Ops
 
