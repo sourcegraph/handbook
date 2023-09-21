@@ -417,4 +417,4 @@ Steps to follow once informed of a leave:
 
 ## Resources for people team
 
-**([Coming Soon](https://docs.google.com/document/d/1eFDi0p2RpUm_R33kj09p32nljm9_yMZvu1EnXU8rEMM/edit))**
+[People Team Parental Leave Process](https://docs.google.com/document/d/1SAlUEd_YOTQdQsDrkPrvAZTvupub5Nfcru7iJK_Zl68/edit#)
