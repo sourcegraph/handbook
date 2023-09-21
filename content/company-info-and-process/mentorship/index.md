@@ -8,18 +8,6 @@ _The below guide applies to all full-time Teammates globally. Please reach out t
 
 Our Mentorship program provides an opportunity for teammates to be mentored in the area(s) that they are seeking guidance from someone more experienced. This program is self-initiated and has a formal **3-month commitment** from both parties.
 
-**On this page:**
-
-- [Reason for the program](index.md/reason-for-the-program)
-- [How do I become a mentor?](index.md/how-do-i-become-a-mentor?)
-- [How do I find a mentor/become a mentee?](index.md/how-do-I-find-a-mentor/become-a-mentee?)
-- [Who is eligible](index.md/Who-is-eligible-to-participate-in-the-Mentorship-program?)
-- [Expectations for the program](index.md/expectations-of-the-program)
-- [Best practices for mentoring](index.md/best-practices-for-mentoring)
-- [Program Feedback](index.md/program-feedback)
-- [Additional Resources](index.md/additional-resources)
-- [Teammate FAQ](index.md/teammate-faq)
-
 ## **Reason for the program**
 
 We believe that mentorship is a key part of our culture, and through this program, we are committed to providing resources to make it easy to _find a mentor and be a mentor_.
