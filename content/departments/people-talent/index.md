@@ -282,6 +282,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](people-ops/process/compensation-and-leveling/compensation-role-changes.md)
 
 ### How we measure culture
+
 - Types of Lattice surveys
   - [Engagement Surveys](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse Surveys](people-ops/process/teammate-sentiment/pulse-survey.md)
