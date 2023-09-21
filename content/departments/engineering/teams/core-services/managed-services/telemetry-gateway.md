@@ -54,7 +54,7 @@ The Telemetry Gateway service infrastructure is defined in [`sourcegraph/managed
 To modify the deployment manifest:
 
 1. Update `service.yaml` file
-1. In the repository root, run `sg msp generate services/telemetry-gateway/service.yaml prod`
+1. Anywhere in the repository, run `sg msp generate telemetry-gateway prod`
 1. Stage changes and make a pull request
 1. The Terraform Cloud rolls out changes
 
