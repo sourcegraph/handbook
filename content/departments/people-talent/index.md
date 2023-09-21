@@ -296,6 +296,8 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ## RESOURCES FOR PEOPLE TEAM
 
+[People Ops Processes + Tools](people-ops/process/index.md)
+
 ### Onboarding
 
 - Types of employment
