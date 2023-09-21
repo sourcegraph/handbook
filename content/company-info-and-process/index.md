@@ -13,7 +13,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 ## [Mentorship](mentorship/index.md)
 
-- [Program operations](mentorship/operations.md)
+- [Find a mentor, Be a mentor!](mentorship/index.md)
 
 ## [Communication](communication/index.md)
 
