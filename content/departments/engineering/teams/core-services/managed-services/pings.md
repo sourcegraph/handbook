@@ -36,7 +36,7 @@ The following Entitle requests are needed to get access to Pings service infrast
 
 ### Deployment
 
-The Pings service infrastructure is defined in [`sourcegraph/managed-services/services/pings`](https://github.com/sourcegraph/managed-services/tree/main/services/pings) utilizing Managed Services Platforms.
+The Pings service infrastructure is defined in [`sourcegraph/managed-services/services/pings`](https://github.com/sourcegraph/managed-services/tree/main/services/pings) utilizing [Managed Services Platform](./platform.md).
 
 #### Modify deployment manifest
 
