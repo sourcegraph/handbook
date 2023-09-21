@@ -1,6 +1,7 @@
 # People Ops Processes + Tools
 
 For teammates
+
 - [People Ops FAQs](../tools/people-ops-faqs.md)
 - [Manager guide to People Ops Systems](../tools/manager-guide.md)
 - [Anti-Corruption](anti-corruption.md)
@@ -14,6 +15,7 @@ For teammates
 - [Compensation and leveling](compensation-and-leveling/index.md)
 
 For People Ops
+
 - [Employment Verification resources for People Ops](../tools/internal-employment-verification.md)
 - [Onboarding resources for People Ops](../tools/internal-onboarding.md)
 - [Offboarding resources for People Ops](../tools/internal-offboarding.md)
