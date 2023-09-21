@@ -52,6 +52,7 @@ We aim to always work smarter, not harder - Lattice’s feedback tools allow us 
   - Lattice Slack integration makes it easy to provide quick Thanks while tagging our values and ensuring it gets stored in Lattice for later use!
 - **General feedback:** Collecting all forms of feedback is crucial in fostering a culture of continuous growth. Storing general feedback in Lattice allows Teammates and Manager to review the feedback, create action plans, and follow up on progress. It provides content to add to reviews on either areas that improved or needs improvement.
   - The Slack integration enables you to send feedback in 3 easy steps to ensure we’re giving timely and specific feedback in a timely manner.
+  - Lattice will trigger Monthly check-ins for all teammates to provide self reflection and for managers to provide feedback to their direct reports.
 - **Regular 1:1s:** We expect all Managers to host 1:1s with their Teammates. Hosting the agenda and notes in Lattice allow for a quick look back when writing your formal reviews.
   - The Slack integration enables you to add agenda items directly to your next 1:1 agenda in 2 easy steps. Ensuring you can add relevant topics quickly on the spot rather than needing to open a google doc, or forgetting to discuss the topic in your next 1:1.
   - There is a great feature where you can quickly toggle between past 1:1 agendas to ensure you’re following up on items and can pull examples for formal reviews.
@@ -76,6 +77,18 @@ The purpose of continuous feedback is to promote a culture of feedback and high 
 2. [General feedback](#General-feedback:)
 3. [Regular 1:1s](#Regular-1:1s)
 4. [Growth & career-development conversations](#Growth-&-career-development-conversations)
+
+### **Monthly Check-ins via Lattice**
+
+We believe that regular feedback and self-reflection are crucial for individual and team growth. This is why as of October FY24 we are running monthly feedback check-ins via Lattice so teammates can reflect, share insights, and highlight contributions to our collective success.
+
+**Questions that will be asked via Lattice:**
+
+**Self Check-In/Manager-Direct Report Check-In:**
+
+1. **What's working well:** Think about the past month and identify aspects of your/this teammate’s work or projects that have been successful. Share what you're proud of and why it's working. Celebrate achievements!
+2. **What's not working well:** Recognize any challenges, obstacles, or areas where improvement is needed. Be specific and constructive in your feedback or self-assessment. Identifying problems is the first step toward solving them.
+3. **Feedback Sharing:** Reflect on the last time you provided feedback to your manager, peer, or direct report. Describe the feedback you gave and its impact. Effective communication is a two-way street.
 
 ### **Thanks/praise:**
 
@@ -289,9 +302,9 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 - Managers should use Lattice 1:1 templates to prepare, host, and track each Teammates 1:1s
 - We expect the following to take place in every 1:1:
   - Personal check-in
-  - Solicit direct feedback from Teammates (“What should I start / stop / continue?”, “How happy are you?,” Iis there anything I can do to better support you?,” etc).
+  - Solicit direct feedback from Teammates (“What should I start / stop / continue?”, “How happy are you?,” is there anything I can do to better support you?,” etc).
   - Provide direct feedback on performance. Managers should share performance feedback during every single 1:1.
-    - If giving negative feedback, Managers are expected to provide specific examples and follow the [SBI (situation, behavior, impact) model.](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357)
+    - If giving negative feedback, Managers are expected to provide specific examples and follow the [SBI (situation, behavior, impact) model.](https://www.mindtools.com/ay86376/the-situation-behavior-impact-feedback-tool)
     - If coaching has taken place, we expect a follow up agenda item on progress (improvement, decline, no change).
 - Utilize the automated recommendation questions in each 1:1
   - You will see a box within our 1:1 agenda where you can pick a specific area to have a random thoughtful question generated

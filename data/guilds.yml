@@ -1,16 +1,14 @@
 release_guild:
   title: Release Guild
-  leader: coury_clark
+  leader: bolaji_olajide
   leadership_sponsors: [quinn_slack]
   members:
     [
-      coury_clark,
       joe_chen,
       camden_cheek,
       keegan_carruthers-smith,
       mohammad_umer_alam,
       bolaji_olajide,
       warren_gifford,
-      sander_ginn,
       jacob_pleiness,
     ]

@@ -49,7 +49,7 @@ We have many resources available to help you onboard and gain context:
 - Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - To complement the architecture overview docs, watch the [architecture video (10 minutes)](https://www.youtube.com/watch?v=LiBtt1IeqFY).
 - Read through the rest of the engineering handbook to learn more about how we operate.
-- Read how we collaborate with design to [request or implement design work](../../design/index.md#working-with-design-requesting-design-work).
+- Read how we collaborate with design to [request or implement design work](../../../product/design/index.md#working-with-design-requesting-design-work).
 - Watch this [high-level overview of the Sourcegraph codebase and repositories on GitHub (13 minutes)](https://www.youtube.com/watch?v=3OewJAaX4KI).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.
   - More concrete documentation and troubleshooting help for when you're running, writing or debugging your first tests can be found in the dev docs page [Testing the Sourcegraph main repo](https://docs.sourcegraph.com/dev/how-to/testing). This is mainly as reference (you don't need to read this all now) but useful information to have in hand.

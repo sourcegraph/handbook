@@ -1,5 +1,6 @@
 # Support Team Processes
 
+- [Updating Known Issues Page](known-issues.md)
 - [Case transitions](case-transitions.md)
 - [Change Management Checklist](change-management-checklist.md)
 - [Cloud Maintenance Window Process](cloud-maintenance-window.md)

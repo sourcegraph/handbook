@@ -20,18 +20,19 @@ Contents:
   - [Local development](#local-development)
 - [Operation](#operation)
   - [Infrastructure access](#infrastructure-access)
-  - [Alerting](#alerting)
   - [Observability](#observability)
+    - [Alerting](#alerting)
     - [Metrics](#metrics)
     - [Tracing](#tracing)
       - [Tracing from a Sourcegraph instance](#tracing-from-a-sourcegraph-instance)
   - [Deployment](#deployment)
   - [Usage events](#usage-events)
   - [Service accounts](#service-accounts)
+  - [Redis](#redis)
 
 ## Architecture
 
-See [Cody Gateway: working design](https://docs.google.com/document/d/1fAKuYM02vRfn-QAmcu38QWmtQ797g1TA3L6CNs0rFps/edit#) for the current state of Cody Gateway architecture.
+See [Cody Gateway: 1-pager](https://docs.google.com/document/d/1R6Ew_y5TDhwCMktOin6pemX6UeLsx0plLUfqBBmYCkk/edit#heading=h.eksk0kbbz0ul) for a recent overview of Cody Gateway architecture and details.
 
 ## Service images
 
@@ -74,7 +75,12 @@ The following Entitle requests can be used to get access to Cody Gateway infrast
 - [Cody Gateway Dev](https://app.entitle.io/request?targetType=bundle&duration=10800&justification=Justification%20here&bundleId=e6e88341-bbfd-4b2f-9ece-633ac873725a)
   - [Dev BigQuery events](https://app.entitle.io/request?targetType=resource&duration=10800&justification=Justification%20here&integrationId=52e29e01-d551-4186-88a3-65ff4f28b8c3&resourceId=e8c5df92-b494-4668-b53a-61c8b309c1fd&roleId=b8c397ee-0527-4e0f-8188-598340742669&grantMethodId=b8c397ee-0527-4e0f-8188-598340742669)
 
-### Alerting
+### Observability
+
+See [above for links](#operation) to each resource for each of the following resources for each deployment.
+In all cases, you'll need to [request infrastructure access](#infrastructure-access).
+
+#### Alerting
 
 We have several tiers of alerting for each Cody Gateway instance to help notify engineers if something has gone wrong:
 
@@ -95,14 +101,12 @@ All alerts from all environments currently go to #alerts-cody-gateway.
 > [!NOTE] OpsGenie alerts to #ask-cloud are slated to be configured for the production instance.
 > For now, #wg-cody-gateway will monitor alerts for any issues.
 
-### Observability
-
-See [above for links](#operation) to each resource for each of the following resources for each deployment.
-In all cases, you'll need to [request infrastructure access](#infrastructure-access).
-
 #### Metrics
 
-Each deployment's Cloud Run metrics overview provides basic observability into the service provided out-of-the-box by Cloud Run. Logs are also available in Cloud Logging.
+Each deployment's Cloud Run metrics overview page provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
+Similarly, we depend on out-of-the-box dashboards and metrics from Managed Redis as well.
+
+Cody Gateway does push a few custom metrics via its OpenTelemetry metrics - hand-made dashboards for the prod instance are available [here](https://console.cloud.google.com/monitoring/dashboards/builder/cf5035d1-6aa7-4f85-be46-8abaac9790a0%3Bduration=P7D?project=cody-gateway-prod), including our concurrent upstream requests graph.
 
 #### Tracing
 
@@ -152,10 +156,53 @@ BigQuery data can be found in the `events` table of the following datasets:
 
 See [`internal/codygateway`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/codygateway/consts.go) for the list of events types that are currently tracked.
 
-Data can be queried directly in BigQuery tables above (requires [infrastructure access](#infrastructure-access)), or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. A sample query with some basic visualizations is available for use: [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72).
+Data can be queried directly in BigQuery tables above (requires [infrastructure access](#infrastructure-access)), or in [Redash](../../../../data-analytics/reports.md#redash) by querying the `cody_gateway.events` table for production events. Some sample Redash queries you can use or fork and edit:
+
+- [Cody Gateway Events](https://redash.sgdev.org/queries/52?p_Event=%5B%22CompletionsFinished%22%5D&p_Feature=%5B%22chat_completions%22,%22code_completions%22%5D&p_Identifier=all&p_Source=%5B%22dotcom-product-subscriptions%22%5D#72)
+- [Embeddings Tokens Generated](https://redash.sgdev.org/queries/82#151)
+- [Completions Usage](https://redash.sgdev.org/queries/106)
+
 A simple overview can also be seen in each product subscription's licenses page - see [Using Cody Gateway: Analyzing usage](./using.md#analyzing-usage).
 
 > [!WARNING] Because the dev Cody Gateway instance sends data to a different dataset, usage of dev subscriptions (for example, during in local Sourcegraph developmenmt) will not render in Sourcegraph.com's product subscription pages, which queries the production dataset.
+
+### Redis
+
+A [Google managed Redis instance](https://cloud.google.com/memorystore) is provisioned alongside each Cody Gateway deployment to handle caching and rate limiting.
+The Cody Gateway Cloud Run service connects to this Redis instance via a VPC network - the Redis instance is not directly accessible over the public internet, so you cannot connect to it locally like the Redis that is bundled with Sourcegraph deployments.
+
+To connect to the Redis instance locally for investigative or debugging purposes:
+
+> [!WARNING] The Cody Gateway Redis instance **contains sensitive data**.
+> Only enable the infrastructure required to connect to it if absolutely necessary, and disable access when done.
+
+In [`sourcegraph/infrastructure`](https://github.com/sourcegraph/infrastructure), update `cody-gateway/envs/$ENVIRONMENT/cloudrun/main.tf`:
+
+```tf
+module "cloudrun" {
+  # ...
+  deploy_network_compute_instance = true
+}
+```
+
+Create a PR and merge it for Terraform Cloud to apply.
+
+Once applied, you can SSH via an IAP tunnel into the compute instance provisioned in the same VPC as the Cloud Run service and Redis instance:
+
+```sh
+export PROJECT=""
+export REDIS_HOST="" # find the address of Redis instance in GCP Console
+gcloud compute ssh cody-gateway-network-connector --project=$PROJECT --zone=us-central1-c --tunnel-through-iap -- -N -L 6378:$REDIS_HOST:6378
+```
+
+In another terminal, you can then connect to Redis locally on port 6378:
+
+```sh
+export REDISCLI_AUTH="" # find the auth string of Redis instance in GCP Console
+redis-cli -p 6378 --tls --insecure
+```
+
+When done, make sure to set `deploy_network_compute_instance = false` again.
 
 ### Service accounts
 

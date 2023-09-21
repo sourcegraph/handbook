@@ -156,7 +156,7 @@ Anniversary gifts will be coming from the individual's _team budget_ and should 
 
 At Sourcegraph, promotions are a big deal - and communicating promotions is one of the single biggest opportunities to widely celebrate teammate contributions! The People Team is responsible for sending a custom promotion gift to promoted teammates, and managers are responsible for recognizing promoted teammates by:
 
-- Sending a Slack in `#announce-teammate-hires` and cross-post in `#thanks` after promotions have been announced in the company kickoff meeting. At minimum, these posts should cover:
+- Sending a Slack in `#announce-teammate-hires` and cross-post in `#thanks` after the impact review cycle has been completed and promotions have been announced. At minimum, these posts should cover:
   - recognizing the hard work of the individual being promoted
   - providing insight into the individual’s new responsibilities
   - how the teammate's performance and actions embody [our values](../../company-info-and-process/values/index.md)
@@ -211,11 +211,9 @@ If you don't want to use Loop & Tie, here are some other gift ideas!
 
 - Gift a meal! Send your teammate a giftcard for a local food delivery service in their area _(International)_
 - [Virgin Experience Gifts: For the adventurers](https://www.virginexperiencegifts.com/) _(US)_
-- [AirBnb Gift Cards: For the travelers](https://www.airbnb.com/d/gift-cards) _(Redeemable only by individuals in the US with a US payment method. Do not use US payment method for purchasing for Non-US based teammates)_
 - [Dylan's Candy Bar: For those with a sweet tooth](https://www.dylanscandybar.com/) (_International)_
 - [La Colombe Coffee Trio: For the caffeine lover](https://www.lacolombe.com/products/greatest-hits-gift-box/?utm_campaign=21181&utm_content=2-353739&utm_source=pepperjam&utm_medium=affiliate&publisherId=%5Bsubid%5D&clickId=3570909913) _(International)_
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
-- [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
 #### Sending gifts via mail
 
@@ -248,7 +246,7 @@ Once you’ve completed the google form, someone from the People team will conne
 
 **Brand Guidelines**
 
-When designing custom swag, please follow our [brand guidelines](../../departments/engineering/design/brand_guidelines/index.md) and run any mock-ups/questions past the #creative-ops Slack channel prior to ordering.
+When designing custom swag, please follow our [brand guidelines](../../departments/product/design/brand_guidelines/index.md) and run any mock-ups/questions past the #creative-ops Slack channel prior to ordering.
 
 ### External requests:
 

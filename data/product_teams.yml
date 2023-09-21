@@ -13,7 +13,7 @@ code_intelligence:
   title: Code Intelligence
   brief: Code intelligence provides features and services that help developers better understand and navigate code.
   strategy_link: /strategy-goals/strategy/code-intelligence/index.md
-  em: owen_convey
+  em: erika_rice_scherpelz
   pmm: alex_isken
   issue_labels:
     - team/code-intelligence
@@ -22,7 +22,7 @@ batch_changes:
   title: Batch Changes
   brief: Batch Changes is a tool to find code that needs to be changed and change it at scale by running code.
   strategy_link: /strategy-goals/strategy/batch-changes/index.md
-  em: chris_pine
+  em: peter_guy
   design: daniel_marques
   issue_labels:
     - team/batchers
@@ -31,7 +31,7 @@ code_insights:
   title: Code Insights
   brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
   strategy_link: /strategy-goals/strategy/code-insights/index.md
-  em: chris_pine_code_insights
+  em: peter_guy
   issue_labels:
     - team/code-insights
 
@@ -39,7 +39,7 @@ code_exploration:
   title: Code Exploration
   brief: The code exploration team owns our code exploration UI and third-party integrations (including our IDE and browser extensions).
   strategy_link: /strategy-goals/strategy/integrations/index.md
-  em: owen_convey_code_exploration
+  em: peter_guy
   issue_labels:
     - team/code-exploration
 
@@ -99,9 +99,9 @@ ship_cloudops:
   issue_labels:
     - team/cloud
 
-ship_coresvc:
+ship_core_services:
   title: Core Services
-  em: interim_ship_coresvc
+  em: interim_ship_core_services
   tl: rafal_gajdulewicz
   issue_labels:
     - team/core-services

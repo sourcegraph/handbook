@@ -63,7 +63,7 @@ Apollo Sandbox is great for navigating through a complex GraphQL schema and has 
 
 ![](https://storage.googleapis.com/sourcegraph-assets/connection-settings.png)
 
-3. On the bottom of the IDE, click **Headers** and create an `Authorization` header key with the value in the format: `token-sudo user="Your Demo Usename", token="Your Demo Token"`
+3. On the bottom of the IDE, click **Headers** and create an `Authorization` header key with the value in the format: `token "Your Demo Token"`
 
 ![](https://storage.googleapis.com/sourcegraph-assets/new-header.png)
 

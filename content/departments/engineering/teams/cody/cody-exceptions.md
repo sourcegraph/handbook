@@ -50,7 +50,7 @@ For Self-Hosted customers:
 
 ## Exception Process
 
-If allowable - for existing Code Search customers only - the account team may raise an exception request to Sales, Technical Success, and Product leadership for consideration. Exceptions are reviewed every Tuesday and Thursday via [this report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005s21WEAQ/view?queryScope=userFolders) and the output of the review is communicated in #wg-selling-cody.
+If allowable - for existing Code Search customers only - the account team may raise an exception request to Sales, Technical Success, and Product leadership for consideration. Exceptions are reviewed every Tuesday and Thursday via [this report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005s21WEAQ/view?queryScope=userFolders) and the output of the review is communicated in #wg-selling-sourcegraph.
 
 To trigger an exception the account team must fill out the following information on the Salesforce Opportunity:
 

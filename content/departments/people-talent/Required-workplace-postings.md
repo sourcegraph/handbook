@@ -10,5 +10,5 @@ Coming soon
 
 ## LCA postings
 
-- [LCA 05046](https://drive.google.com/drive/folders/1-w1AjWcbqO6qs_OHN7dHXuJhR7ME_OZR?usp=drive_link)
+- No active LCA posting
 - [Historical postings](https://drive.google.com/drive/folders/1bkZW26OQ7Kv1G2JU8FKacF9KfGjmZdtA?usp=sharing)

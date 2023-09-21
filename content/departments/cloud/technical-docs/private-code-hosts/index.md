@@ -34,16 +34,24 @@ spec:
     privateCodeHost:
       aws:
         accountID: <AWS_ACCOUNT_ID>
-        highAvailable: true
+        highAvailable: false
+        privateLinks:
+          # Endpoint VPC Endpoint Service name
+          - endpoint: com.amazonaws.vpce.<REGION>.<VPC_ENDPOINT_SERVICE_ID>
+            # ports list of TCP ports to open for GKE in AWS Security Group, by default only 443
+            ports:
+              - 443
+            # enabled only if customer uses Private DNS Domain, this can be enable only after customers accepts VPC Endpoint or has acceptance disabled
+            privateDnsEnabled: true
         region: <AWS_REGION>
       enabled: true
-      type: awsvpn
 ```
 
 #### 3. Generate additional terraform stacks
 
 ```
 mi2 generate cdktf
+mi2 instance cdktf deploy -auto-approve
 ```
 
 this will generate `awsvpc` and `awsvpn` stacks.
@@ -60,69 +68,27 @@ Creation process detail walkthrough:
 1. For each External VPN Gateway interface GCP VPN Tunnel is created. It uses dedicated PreSharedKey (same in on AWS VPN Connection(s)).
 1. For each GCP VPN Tunnel interface is added to Cloud Router. It uses IP range correspoding to AWS VPN Connection tunnel internal address.
 1. For each AWS VPN Connection tunnel internal address BGP peer is added to Cloud Router.
+1. AWS VPC Endpoint is created inside AWS VPC.
 
 For more details, go to [Google documentation](https://cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)
 
-### VPN Verification
+### FAQ
+
+1. How to verify VPN is working?
 
 For each customer using private code host, additional section to our generated operation dashboard is added.
 Upon enabling the private code host support, follow the process [to update the dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md#update-all-generated-dashboards)
 
-#### 4. AWS VPC Endpoint Service (aka AWS Private Link)
+2. What is AWS VPC Endpoint Service (aka AWS Private Link)
 
 [AWS Private Link](https://aws.amazon.com/privatelink/) is a secure method to expose a single endpoint (i.e. code host) from AWS VPC to specific AWS Principals (IAM in specific AWS VPC).
 This solution ensures code the host is not exposed from AWS and only a given principal can access it.
 
 When a customer exposes the code host via VPC Endpoint Service, the Cloud Instance needs to create an [AWS VPC Endpoint](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html) to expose connections inside the Sourcegraph Managed AWS VPC.
 
-1. Add addtional field to `privateCodeHost` section
+3. What should I do if customer uses Private DNS Domain?
 
-```yaml
-spec:
-  infrastructure:
-    privateCodeHost:
-      aws:
-        # privateLink represents a VPC endpoint exposed by customers
-        privateLink:
-          # Endpoint VPC Endpoint Service name
-          endpoint: com.amazonaws.vpce.<REGION>.<VPC_ENDPOINT_SERVICE_ID>
-          # ports list of TCP ports to open for GKE in AWS Security Group, by default only 443
-          ports:
-            - 443
-        # enabled only if customer uses Private DNS Domain, this can be done only after customers accepts VPC Endpoint
-        privateDnsEnabled: false
-```
-
-2. Generate additional resources in cdktf and apply
-
-```sh
-mi2 generate cdktf
-mi2 instance cdktf deploy -auto-approve
-```
-
-> If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html) for VPC Endpoint Service and accepted VPC Endpoint connection:
-
-3. enable Private DNS in VPC Endpoint
-
-```yaml
-spec:
-  infrastructure:
-    privateCodeHost:
-      aws:
-        # enabled only if customer uses Private DNS Domain, this can be done only after customers accepts VPC Endpoint
-        privateDnsEnabled: true
-```
-
-4. Generate additional resources in cdktf and apply
-
-```sh
-mi2 generate cdktf
-mi2 instance cdktf deploy -auto-approve
-```
-
-> If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html), addtional [DNS proxy sidecar](#optional-private-code-host-domain) also needs to be used in Cloud Instance.
-
-## [Optional] Private code host domain
+If customer uses [Private Domain](https://docs.aws.amazon.com/vpc/latest/privatelink/manage-dns-names.html), addtional [DNS proxy sidecar](#optional-private-code-host-domain) also needs to be used in Cloud Instance.
 
 Every Cloud customer using private DNS domain for code hosts requires additional dns-proxy sidecar.
 DNS-proxy is rewriting from private customer domain to public, resolvable A record
@@ -131,6 +97,8 @@ i.e. `private.CUSTOMER.com` -> `public.CUSTOMER.com` where:
 - `private.CUSTOMER.com` is customer code host address, only resolvable inside customer network
 - `public.CUSTOMER.com` - is resolvable to customer code host private IP
   Dns-proxy sidecar modifies pod `/etc/resolv.conf` file.
+
+#### Additional steps for Private DNS Domain
 
 1. Configure config.yaml
 
@@ -144,13 +112,14 @@ spec:
         blue:
           machineType: XYZ
         green:
-          additionalOauthScopes:
+          additionalOauthScopes: # this might be deprecated soon, as scope is added by default
             - https://www.googleapis.com/auth/devstorage.read_only
           machineType: XYZ
     privateDNS:
       routes:
-        - source: private.CUSTOMER.com
-          destination: public.CUSTOMER.com
+        - source: private.CUSTOMER.DOMAIN
+          # use domain with region inside the URL, b/c it routes to every zone inside VPC
+          destination: vpce-<ID>.vpce-svc-<HASH>.<REGION>.vpce.amazonaws.com
           # resolverIP: IP_OF_CUSTOM_RESOLVER - optional
 ```
 
@@ -169,8 +138,7 @@ mi2 instance tfc deploy -auto-approve
 ```sh
 # generate sidecars and copy dns-proxy from control plane project to customer project artifact registry repository
 mi2 generate kustomize
-cd kubernetes
-kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
+kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/ | kubectl --kubeconfig=$(mi2 instance kubeconfig) apply -f -
 ```
 
 4. Open Pull Request.
@@ -191,6 +159,7 @@ resource "aws_lb" "nlb" {
   subnets            = var.customer_vpc_public_subnets
 
   enable_deletion_protection = true
+  enable_cross_zone_load_balancing = true
 
   tags = {
    // customer tags
@@ -211,8 +180,11 @@ resource "aws_lb_listener" "tls" {
 }
 
 resource "aws_vpc_endpoint_service" "customer_gitlab" {
-  acceptance_required        = true
+  acceptance_required        = false # not required as allowed_principals block unauthorized access
   network_load_balancer_arns = [aws_lb.nlb.arn]
+
+  # optional
+  private_dns_name = <CUSTOMER_PRIVATE_DNS_NAME_FOR_CODE_HOST>
 
   allowed_principals = [
     "arn:aws:iam::<SOURCEGRAPH_MANAGED_CUSTOMER_AWS_ACCOUNT_ID>:root"
@@ -331,11 +303,11 @@ Follow the usual process to handle instance creation process, by make sure to cr
 ```yaml
 privateCodeHost:
   enabled: true
-  type: psc
   gcp:
-    # provided by the customer
-    targetService: projects/:project/regions/:region/serviceAttachments/:name
-    domain: gitlab.internal.company.net
+    privateServiceConnectEndpoints:
+      # provided by the customer
+      - domain: gitlab.internal.company.net
+        targetService: projects/:project/regions/:region/serviceAttachments/:name
 ```
 
 ### (Customer) Create code host connection

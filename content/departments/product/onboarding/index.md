@@ -8,7 +8,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 
 - Visit the [Onboarding process for Hiring Managers](../../people-talent/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
 - Create an onboarding Google doc for the new teammate
-  - Link to this page and relevant team specific pages such as [designer onboarding](../../engineering/design/onboarding/index.md)
+  - Link to this page and relevant team specific pages
   - Customize your teammates onboarding tasks as required
   - Update the onboarding doc with initial projects for weeks 2–4
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
@@ -55,7 +55,7 @@ Remember:
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
     - [Product management](../process/index.md)
-    - [Product design](../../engineering/design/index.md)
+    - [Design](../../product/design/index.md)
     - [Product process](../process/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
 

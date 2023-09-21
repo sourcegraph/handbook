@@ -17,7 +17,6 @@ See [strategy](../../../strategy-goals/index.md).
 
 - Research
   - [User research](user_research/index.md)
-  - [Design workshops](../../engineering/design/workshops/index.md)
 - Feedback
   - [Tracking user & stakeholder feedback](feedback/user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
   - [Product feedback monitoring](feedback/product_feedback_monitoring.md) - how we respond to user feedback for the feedback channels the product team owns.

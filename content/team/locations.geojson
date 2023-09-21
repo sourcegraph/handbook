@@ -134,16 +134,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Chris Pine"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.62304440140723, 45.519298927923565]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Dave Try"
             },
             "geometry": {
@@ -926,7 +916,19 @@
                     34.028160
                 ]
             }
-        }
-
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Noah Berman"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.50598126268602,
+                    39.12773310857054
+                ],
+                "type": "Point"
+            }
+        },
     ]
 }
