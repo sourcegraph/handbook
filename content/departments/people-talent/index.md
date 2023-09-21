@@ -54,6 +54,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
 - [How to set up BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
+- [Resources for new hires](resources-for-new-hires/index.md)
 - [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
 - [Background Checks](background-check-policy.md)
 - [Onboarding swag](people-ops/tools/internal-swag.md#new-hire-gifting)
