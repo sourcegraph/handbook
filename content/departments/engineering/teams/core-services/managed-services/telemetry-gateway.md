@@ -4,6 +4,7 @@ The Telemetry Gateway service is the service that ingests [telemetry v2 events](
 
 - As of 5.2.0, [certain flags can be configured](https://docs.sourcegraph.com/dev/background-information/telemetry#enabling-telemetry-export) to export events that have been instrumented with the new APIs to Telemetry Gateway.
 - For Sourcegraph instances that prior to 5.2.0, no events are exported.
+  A [custom mechanism did exist for exporting events specifically from Cloud instances](https://docs.sourcegraph.com/dev/background-information/data-usage-pipeline) based on individual service agreements with customers - the new telemetry events will supersede this mechanism.
 
 ## Service images
 
