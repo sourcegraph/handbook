@@ -77,7 +77,7 @@ A: No, Sourcegraph has paid for your membership to Maven but costs associated wi
 A: All of our teammates have access to Maven, and their partners (spouse or domestic partner) have access as well.
 
 **Q: How do I create a Maven account?**
-A: You can activate your free membership [here](https://www.mavenclinic.com/maven-enrollment/maven?install_source=enterprise&install_content=internal_hr&install_campaign=mm).
+A: You can activate your free membership [here](https://www.mavenclinic.com/maven-enrollment/maven?install_source=enterprise&install_content=internal_hr&install_campaign=mm). You will use your personal email, full **legal name** and date of birth for Maven to connect you to the Sourcegraph group account.
 
 **Q: How much is the family support budget?**
 A: The budget for reproductive and family support is up to $25,000 per teammate for their time employed at Sourcegraph. It can be applied to eligible expenses outlined by Maven.
@@ -142,13 +142,13 @@ A: Please review [this document](https://drive.google.com/file/d/1gUgIwedNuEHK3F
 **Q: Where do I submit my reimbursements associated with family planning or family support?**
 A: You submit your reimbursement through the Maven Wallet app. Please see [details here](https://drive.google.com/file/d/1gUgIwedNuEHK3FZXFq08VAim_lHsZcEa/view?usp=sharing).
 
-**Q:** **Can my girlfriend/boyfriend/partner’s treatments be covered by our family support budget?**
+**Q:Can my girlfriend/boyfriend/partner’s treatments be covered by our family support budget?**
 A: If your partner is tax dependent or you are a documented domestic partnership the answer is yes. If your partner is not tax dependent and you do not have a documented domestic partner, the answer is no.
 
 **Q: What if my spouse/domestic partner has eligible expenses to submit to Maven?**
 A: The Sourcegraph teammate must submit the eligible reimbursements through the Maven wallet on behalf of their partner. The reimbursement will come through payroll and you are responsible for returning the reimbursement amount amongst yourselves. `
 
-**Q: If I’ve used a portion of your budget in the past, does my budget reset back to $25,000 now that we’re using Maven?** \
+**Q: If I’ve used a portion of your budget in the past, does my budget reset back to $25,000 now that we’re using Maven?**
 A: No, your total budget in Maven will reflect any amount used in the past. For example, if you have submitted $10,000 worth of reimbursements through Airbase your Maven wallet total will show the remaining $15,000.
 
 **Q: Does my Maven wallet update with each approved reimbursement?**
@@ -160,7 +160,7 @@ A: You must submit the reimbursement request **within 90 days** of the date of s
 **Q: Will my manager or Sourcegraph need to approve my reimbursement requests?**
 A: No, Maven now owns review and approval of all reimbursements related to the family support budget. Maven is 100% HIPAA compliant and reimbursements are only reviewed by Maven. Sourcegraph People Team and Payroll receive a report with totals for payroll reimbursements and tax purposes, but otherwise do not have access to any services you utilize or reimbursement details.
 
-**Q: Where will I see/get my reimbursements? **
+**Q: Where will I see/get my reimbursements?**
 A: Your reimbursement will come through payroll. For US-based teammates the reimbursement will be directly on your paycheck. For non-US based we will reimburse you through Deel payments or your latest invoice.
 
 **Q: When will I receive my reimbursement?**
@@ -184,7 +184,7 @@ A: Yes, you can engage with Maven services at any time through your family plann
 **Q: How does Maven support the LGBTQIA+ community?**
 A: Review Maven’s LGBTQIA+ over [here](https://drive.google.com/file/d/1eh1JGP6EyaDTLp4dR1Wk3GwzJ_ZDePlA/view?usp=sharing). There is more to come outside of family planning support in the next year. Stay tuned!
 
-**Q: What if I want to submit a reimbursement that is not on Maven’s approved list? **
+**Q: What if I want to submit a reimbursement that is not on Maven’s approved list?**
 A: We want to be fair and consistent with what is a reimbursable service. That being said, we will evaluate extreme circumstances and requests for special approval. If you have an extenuating circumstance, please connect with your People Partner and they will partner with People-Ops on possible solutions.
 
 **Q: Who do I contact about Maven questions?**
