@@ -97,10 +97,9 @@ All departments are likely to have some or all of the below universal interview 
 
 ## Leadership Interview
 
-- Interviewer: a member of the leadership team for the department.
+- Interviewer: a co-founder or member of the executive team.
 - Duration: 30–45 minutes.
-- Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values. They will also answer any final questions you may have! This is generally the last stage in our interview process.
-- Leadership interviews tend to vary by department, role, and leader. Your recruiter will prepare you and answer any questions you may have prior to the interview.
+- Details: during this stage in the interview process, a co-founder or member of the exec team will ask questions to gain more insight into the following areas: your background, your motivation for looking for new opportunities, a project that you're proud of, your coding proficiency, your long term career aspirations, and areas in which you would like to grow. They will evaluate your grit, curiosity, passion, technical aptitude, growth mindset, intelligence, and values. At the end of the interview, whey will answer any questions you may have! 
 
 ## Values Interview
 
@@ -110,8 +109,8 @@ Read more about our values interview [here](evaluating_values.md).
 - Duration: 30-minutes.
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
 - Example questions: We will ask behavioral-based, open-ended questions directly related to our values.
-  -Tell us about a time when you advocated for someone else
-  -Tell us about a project you are most proud of completing
+  -Tell us about a problem that you identified and then took the initiative to solve, even if it wasn't within your scope of work.
+  -Tell us about a time where you proactively provided candid feedback to a colleague, manager or direct report.
 
 # Department specific interviews
 
