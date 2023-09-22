@@ -77,7 +77,7 @@ A: No, Sourcegraph has paid for your membership to Maven but costs associated wi
 A: All of our teammates have access to Maven, and their partners (spouse or domestic partner) have access as well.
 
 **Q: How do I create a Maven account?**
-A: You can activate your free membership [here](https://www.mavenclinic.com/maven-enrollment/maven?install_source=enterprise&install_content=internal_hr&install_campaign=mm). You will use your personal email, full **legal name** and date of birth for Maven to connect you to the Sourcegraph group account. 
+A: You can activate your free membership [here](https://www.mavenclinic.com/maven-enrollment/maven?install_source=enterprise&install_content=internal_hr&install_campaign=mm). You will use your personal email, full **legal name** and date of birth for Maven to connect you to the Sourcegraph group account.
 
 **Q: How much is the family support budget?**
 A: The budget for reproductive and family support is up to $25,000 per teammate for their time employed at Sourcegraph. It can be applied to eligible expenses outlined by Maven.
@@ -148,7 +148,7 @@ A: If your partner is tax dependent or you are a documented domestic partnership
 **Q: What if my spouse/domestic partner has eligible expenses to submit to Maven?**
 A: The Sourcegraph teammate must submit the eligible reimbursements through the Maven wallet on behalf of their partner. The reimbursement will come through payroll and you are responsible for returning the reimbursement amount amongst yourselves. `
 
-**Q: If I’ve used a portion of your budget in the past, does my budget reset back to $25,000 now that we’re using Maven?** 
+**Q: If I’ve used a portion of your budget in the past, does my budget reset back to $25,000 now that we’re using Maven?**
 A: No, your total budget in Maven will reflect any amount used in the past. For example, if you have submitted $10,000 worth of reimbursements through Airbase your Maven wallet total will show the remaining $15,000.
 
 **Q: Does my Maven wallet update with each approved reimbursement?**
