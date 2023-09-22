@@ -26,7 +26,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Customer Data & Analytics](#customer-and-data-analytics)
   - [Voice of the Customer](#voice-of-the-customer)
   - [Champion Building & Relationship Management](#champion-building--relationship-management)
-  - [QBRs](#qbrs)
+  - [BRs](#brs)
 - [Playbooks](#playbooks)
   - [Recurring TA Responsibilities](#ta-cadence)
   - [TA Scenarios](#ta-scenarios)
@@ -211,20 +211,21 @@ All three of these aspects must be true in order to be a true champion. TAs must
 
 See more of our champion training [here](https://docs.google.com/presentation/d/1RPqSkCgKU0za85fe2QCOuhlzoy6a2fJBlRgZbbz6ceU/edit#slide=id.g1eeb416435b_0_56) and on [Highspot](https://sourcegraph.highspot.com/).
 
-## QBRs
+## BRs
 
-An important dimension of relationship management and ensuring that our customers are getting the expected value and outcomes from Sourcegraph is understood and shared through Quarterly Business Reviews (QBRs). We ideally want to lead these conversations with customers on a quarterly basis, but at times may hold them bi-annually. TAs are responsible for leading the planning and execution of customer QBRs with close input from internal team members such as Sales.
+An important dimension of relationship management and ensuring that our customers are getting the expected value and outcomes from Sourcegraph is understood and shared through Business Reviews (BRs). We ideally want to lead these conversations with customers on a quarterly basis, but at times may hold them bi-annually. TAs are responsible for leading the planning and execution of customer BRs with close input from internal team members such as Sales.
 
-The format of QBRs is as follows:
+The format of BRs is as follows:
 
 - Intros
-- Partnership recap
-- Understanding customer upcoming strategy, initiatives, and priorities
-- Past quarter progress & outcomes
-- Value realization & capability maturity model
-- Product roadmap, demo, & feedback
+- Business Strategy & Key Initiatives
+- Previous Progress & Outcomes
+- Usage Summary
+- Value Realization & Maturity Model
+- Product Roadmap & Feedback
+- Next Steps
 
-[(Deck)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE/edit#slide=id.g239a2137c1c_0_2240)
+[(Deck)](https://docs.google.com/presentation/d/1H0Hefg-0KZJejhmR5o-oks7TcruW3g4v0xP8CgdK7Fc/edit?usp=sharing)
 
 # Playbooks
 
