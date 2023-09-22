@@ -27,6 +27,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Voice of the Customer](#voice-of-the-customer)
   - [Champion Building & Relationship Management](#champion-building--relationship-management)
   - [BRs](#brs)
+  - [TA to TA Account Handoff](#ta-to-ta-account-handoff)
 - [Playbooks](#playbooks)
   - [Recurring TA Responsibilities](#ta-cadence)
   - [TA Scenarios](#ta-scenarios)
@@ -58,6 +59,8 @@ You can read more about each step below.
 ### TA Assignment
 
 Approximately 45 days before closure, TA leadership will assign the Technical Advisor Support Level on the Salesforce account to determine the customer segmentation for the customer. Once assigned, an account is created in Vitally and segmented as a Prospect. 35 days before closure, TA leadership assigns a TA to the Salesforce account record which is then updated on the Vitally record. The TA is notified of the assignment via Vitally.
+
+[AEs: Please use this copy to introduce the assigned TA to the customer](https://docs.google.com/document/d/1yM0k8zt1xRIawkAPLyIqTH57ZsfcxgJFEb_ScguzAWk/edit#bookmark=id.9sdtyjj0kjrr)
 
 ### Hand-off process
 
@@ -226,6 +229,19 @@ The format of BRs is as follows:
 - Next Steps
 
 [(Deck)](https://docs.google.com/presentation/d/1H0Hefg-0KZJejhmR5o-oks7TcruW3g4v0xP8CgdK7Fc/edit?usp=sharing)
+
+## TA to TA Account Handoff
+
+**Outgoing TA:** Complete the following steps when transitioning an assigned account to a new TA
+
+1. Create a new Document in Vitally using the [TA to TA Account Handoff template](https://sourcegraph.vitally.io/settings/templates/docs/897ed501-2e7c-42c8-a359-6b8513bf5d9e) and complete all the information required in the placeholders.
+2. Inform the TA manager upon completing the [TA to TA Account Handoff template](https://sourcegraph.vitally.io/settings/templates/docs/897ed501-2e7c-42c8-a359-6b8513bf5d9e).
+
+**New TA:** Complete the following steps after the outgoing TA has completed the steps above
+
+1. Review the [TA to TA Account Handoff template](https://sourcegraph.vitally.io/settings/templates/docs/897ed501-2e7c-42c8-a359-6b8513bf5d9e) and inform the TA manager, who will make the assignment changes in our CRM systems upon completion.
+2. Notify the account team (AE, CE, IE) about the transfer on the Customer Slack channel (#customer-NAME).
+3. Work with your AE to notify/email the customer using the [Existing Customer - TA account transfer template](https://docs.google.com/document/d/1yM0k8zt1xRIawkAPLyIqTH57ZsfcxgJFEb_ScguzAWk/edit#bookmark=id.qoc9l1gl4bt6).
 
 # Playbooks
 
