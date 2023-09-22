@@ -99,7 +99,7 @@ All departments are likely to have some or all of the below universal interview 
 
 - Interviewer: a co-founder or member of the executive team.
 - Duration: 30–45 minutes.
-- Details: during this stage in the interview process, a co-founder or member of the exec team will ask questions to gain more insight into the following areas: your background, your motivation for looking for new opportunities, a project that you're proud of, your coding proficiency, your long term career aspirations, and areas in which you would like to grow. They will evaluate your grit, curiosity, passion, technical aptitude, growth mindset, intelligence, and values. At the end of the interview, whey will answer any questions you may have! 
+- Details: during this stage in the interview process, a co-founder or member of the exec team will ask questions to gain more insight into the following areas: your background, your motivation for looking for new opportunities, a project that you're proud of, your coding proficiency, your long term career aspirations, and areas in which you would like to grow. They will evaluate your grit, curiosity, passion, technical aptitude, growth mindset, intelligence, and values. At the end of the interview, whey will answer any questions you may have!
 
 ## Values Interview
 
