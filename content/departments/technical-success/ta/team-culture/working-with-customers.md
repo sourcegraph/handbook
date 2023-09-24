@@ -116,9 +116,9 @@ The customer health score is calculated using the following standard categories:
 | Customer Tier              | Weight |
 | -------------------------- | ------ |
 | TA Pulse                   | 5%     |
-| Technical Health           | 5%     |
-| Relationships & Engagement | 15%    |
-| Utilization                | 75%    |
+| Technical Health           | 15%    |
+| Relationships & Engagement | 25%    |
+| Utilization                | 55%    |
 
 Those categories are made up of the following data points:
 
