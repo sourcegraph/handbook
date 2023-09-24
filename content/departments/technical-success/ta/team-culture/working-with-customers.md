@@ -14,7 +14,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
     - [Process Overview](#process-overview)
     - [Renewal Process Phases](#renewal-process-phases)
   - [Success Plans](#success-plans)
-  - [Red Accounts](#red-accounts)
+  - [Churn Save Lighthouse Program](#lighthouse-program)
 - [Post-Sales Customer Journey](#post-sales-customer-lifecycle)
   - [User Onboarding](#user-onboarding)
     - [Resources](#resources)
@@ -83,13 +83,13 @@ Our renewal process is a 5 step process that begins 120 days prior to the renewa
 
 ### Renewal Process Phases
 
-| Phase                                  | Event                                                                                                                         | Steps                                                                                                                                                                  | Output                                                                       |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Health Assessment                      | Vitally triggers Health Assessment doc 120 days before renewal                                                                | 1) TA completes Health Assessment doc template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green or yellow / red) | If yellow / red, elevate to Lighthouse program <br> If green, monitor        |
-| Lighthouse Program (Yellow / Red only) | To be filled in                                                                                                               | To be filled in                                                                                                                                                        | To be filled in <br> Monitor green accounts                                  |
-| Renewal Plan                           | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor the progress of Lighthouse program save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                         | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal |
-| Renewal Forecast                       | AE & TA leadership: weekly forecast                                                                                           | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)             | Quarterly forecast                                                           |
-| Process Renewal                        | AE & TA leadership: weekly forecast                                                                                           | AE: Renewal opportunity processed accordingly                                                                                                                          | Renewal event complete                                                       |
+| Phase                         | Event                                                                                                                                                | Steps                                                                                                                                                                   | Output                                                                                                                                              |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Health Assessment             | Vitally triggers Health Assessment doc 120 days before renewal                                                                                       | 1) TA completes Health Assessment doc template in Vitally with AE <br> 2) review with TA and AE Mgr; align on Renewal Health Assessment rating (green or yellow or red) | If red, elevate to the [Lighthouse program](#lighthouse-program) <br> If yellow, a save plan needs to be created in Vitally. <br> If green, monitor |
+| Lighthouse Program (Red only) | Bi-weekly program to correct customer health issues.                                                                                                 | As outlined [here](#lighthouse-program-cadence)                                                                                                                         | Red actioned through Lighthouse Program to healhty. <br> Yellow actioned through 1:1s with manager to healthy. <br> Monitor green accounts          |
+| Renewal Plan                  | AE leadership: weekly forecast <br> Leadership: bi-weekly inspection to monitor the progress of [Lighthouse program](#lighthouse-program) save plans | Yellow / Red: <br> - TA: Check-in on plan progress, additional corrective action weekly <br> Green: <br> - Continue monitoring                                          | AE: Project initial renewal outcome: Full churn, partial churn, flat renewal                                                                        |
+| Renewal Forecast              | AE & TA leadership: weekly forecast                                                                                                                  | Yellow / Red: <br> - AE: Renewal outcome negative (Full or partial churn) <br> Green: <br> - AE: Renewal outcome neutral or positive (Flat or incremental)              | Quarterly forecast                                                                                                                                  |
+| Process Renewal               | AE & TA leadership: weekly forecast                                                                                                                  | AE: Renewal opportunity processed accordingly                                                                                                                           | Renewal event complete                                                                                                                              |
 
 ## Success Plans
 
@@ -102,9 +102,38 @@ A success plan contains the following:
 - Relationships: What relationships do we have, with whom, and what is their sentiment? What people do we need to turn into champions, why them? What is the “win” that will develop them into a champion?
 - Asks from the Business: Are there dependencies on other parts of the business (requisite product enhancements, for example)? Describe how they could jeopardize the milestones or north star. What is the plan to resolve the dependency? Where do you need help?
 
-## Red Accounts
+## Lighthouse Program
 
-** To be updated, Lighthouse program to succeed this **
+The Lighthouse Program is our Churn Save program. Through this program, we will closely and consistently inspect the health of our customers to detect risk & problems, which we will successfully overcome through company-wide support.
+
+Customers may enter the Lighthouse Program in two ways:
+
+1. As part of our renewal process, an account may be tagged for the Lighthouse program. Read more about that process [here](#renewal-process-phases).
+2. Ad-hoc. AE, TA, or Sales / TS leadership can trigger an existing customer to enter the program at any time if they are concerned about their health.
+
+### Entering the Lighthouse Program
+
+1. When elevated to the Lighthouse program, the account TA is prompted to fill out an Account Save Plan document in Vitally
+2. TA immediately meets with and reviews the plan with their AE counterpart, and shares with RSD and TA Director.
+3. At the next Lighthouse program meeting, the TA presents the initial plan, with AE support. [(Vitally master list)](https://sourcegraph.vitally.io/work/team/docs/views/ac920f3d-d1bd-44aa-a74d-dd7949de22ce) An exec sponsor is assigned to each account to directly support the account team in their efforts.
+
+### Lighthouse Program Cadence
+
+On a weekly basis, the TA is quarterbacking the save plan. The TA is expected to maintain updates on the Save Plan in Vitally and review with their manager in their weekly 1:1s.
+
+On a bi-weekly basis, the Lighthouse program sync occurs with cross-functional representation across the business including Sales, TS, Product, Eng, and Marketing. During the meeting, new entrants to the program are presented by the account TA and updates are provided for existing customers in the program.
+
+- For new entrants, the TA presents the following:
+  - The problem statement & goal: Why are they entering the program, what’s the current problem, what’s the result or results we want to achieve
+  - Success criteria: It’s important to know when we’re done. What conditions, as quantitative as possible, need to be true to exit the program?
+  - Save Plan: For each success criteria, what are the steps that need to be taken and by whom?
+- For updates on existing customers, the TA presents the following:
+  - Updates in the last 2 weeks
+  - Blockers, risks, or asks
+
+### Exiting the Lighthouse Program
+
+Once the goals of the save plan are met, as measured by the success criteria, Sales and TS leadership will collectively agree that the customer is in a healthy spot and they’ll exit the lighthouse program.
 
 # Customer Health
 
@@ -116,9 +145,9 @@ The customer health score is calculated using the following standard categories:
 | Customer Tier              | Weight |
 | -------------------------- | ------ |
 | TA Pulse                   | 5%     |
-| Technical Health           | 5%     |
-| Relationships & Engagement | 15%    |
-| Utilization                | 75%    |
+| Technical Health           | 15%    |
+| Relationships & Engagement | 25%    |
+| Utilization                | 55%    |
 
 Those categories are made up of the following data points:
 
