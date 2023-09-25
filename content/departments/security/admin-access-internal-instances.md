@@ -4,7 +4,7 @@ Site-admin access to internal instances (dotcom, s2, rctest, demo, k8s) is provi
 
 ## How it works
 
-Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](https://handbook.sourcegraph.com/departments/cloud/technical-docs/oidc_site_admin/#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 1h with automatic approval.
+Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin/.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 1h with automatic approval.
 
 For sourcegraph.com use the following instructions (or substitute the URL and Entitle request for other instances)
 
