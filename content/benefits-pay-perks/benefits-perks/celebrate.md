@@ -61,6 +61,7 @@ We are proud of the innovative and impactful work our teammates do every day. Ou
 - Any teammate, regardless of tenure, is eligible for an award.
 - All teammates can submit nominations, and nominations can be submitted for more than 1 teammate.
 - All award recipients will receive a unique gift to celebrate their accomplishments.
+- [People Team Internal Process doc](https://docs.google.com/document/d/1hzgCVFi9jJ2FA2cr6fBGmItR9Pm3r2t0kcGURAbEz2A/edit#heading=h.64l0sk5q16d)
 
 **Impact award considerations:**
 
