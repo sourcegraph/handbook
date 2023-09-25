@@ -38,7 +38,7 @@ Our Scaled Success program services our customers who do not qualify for a named
 We are utilizing Vitally to monitor all customers and send all communications. We seek to align the Scaled Success Customer Lifecycle to our overall customer journey as closely as possible. 
 
 You can view our current program across the customer lifecycle below:
-![Scaled Success Customer Lifecycle](https://user-images.githubusercontent.com/7228359/220760306-60b90fc3-3701-44e2-aad9-f61c386ffee8.jpg)
+![Customer Lifecycle - Scaled Success](https://github.com/sourcegraph/handbook/assets/7228359/7cd03b9b-cdb0-4387-9a46-000250363e74)
 
 ### Q3 Roadmap
 
