@@ -7,6 +7,15 @@ Sourcegraph AWS Organisation is managed by the Ship team. This includes:
 - billing alerting
 - deleting AWS accounts
 
+## Access Management
+
+| AWS Account                         | Description                                                                                                                                                                                   | Web console access                                                                                         | cli/terraform access                                                                                     |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Management Account (Root)           | Management account is used to managed AWS Identity Center, integrated with OKTA. Terraform access is required to create/delete AWS accounts and assign access for newlt created AWS accounts. | Request Entitle `AWSAdmins` group access and login via [steps](#access-to-an-aws-account-via-web-console)  | Request Entitle `AWSAdmins` group access and follow [steps](#access-to-an-aws-account-via-cliterraform)  |
+| Cloud production accounts           | Cloud production accounts are customers dedicated accounts for connectivity with customers' code hosts.                                                                                       | Request Entitle `Escalation` group access and login via [steps](#access-to-an-aws-account-via-web-console) | Request Entitle `Escalation` group access and follow [steps](#access-to-an-aws-account-via-cliterraform) |
+| Team-dedidcated dev accounts        | Every Team accounts used for non-production purposes. Containing production/customer data is not allowed.                                                                                     | Login via [steps](#access-to-an-aws-account-via-web-console) - no Entitle access required                  | follow [steps](#access-to-an-aws-account-via-cliterraform) - no Entitle access required                  |
+| Team-dedidcated production accounts | Every Team accounts used for production purposes.                                                                                                                                             | Request Entitle `Escalation` group access and follow [steps](#access-to-an-aws-account-via-web-console)    | Request Entitle `AWSAdmins` group access and follow [steps](#access-to-an-aws-account-via-cliterraform)  |
+
 ## Create AWS Account
 
 AWS Account are owned by team, which is responsible for requesting access and managing resources. To create a new AWS account:
@@ -23,7 +32,7 @@ AWS Account are owned by team, which is responsible for requesting access and ma
 
 AWS account access is managed via OKTA SSO.
 
-Access to an AWS account via cli/terraform:
+### Access to an AWS account via cli/terraform:
 
 > Note: requires [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
@@ -49,7 +58,7 @@ output = json
 aws sso login --profile <YOUR_ACCOUNT_NAME>
 ```
 
-Access to an AWS account via web console:
+### Access to an AWS account via web console:
 
 1. Login to [OKTA](https://sourcegraph.okta.com/)
 
@@ -66,3 +75,13 @@ You can only delete AWS accounts which belong to your team. To delete an AWS acc
 2. Open Pull Request and ask for approval in #discuss-cloud-ops channel.
 
 3. [For Cloud Operations] After merging PR, follow [instructions](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/aws/README.md#create-new-aws-account)
+
+## FAQ
+
+### How can I use AWS IAM Users credentials for automation?
+
+We strongly recommend using AWS SSO role instead of using IAM user credentials for automation. However if you need IAM user credentials for any reason, they are only allowed in non-production accounts.
+
+### How Terraform Cloud is accessing production accounts?
+
+Terraform Cloud uses [dynamic credentials integration](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/aws-configuration) and does not store any credentials.
