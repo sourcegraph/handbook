@@ -4,25 +4,50 @@
 
 We segment our customers into [three discrete tiers](../../../../strategy-goals/strategy/index.md#market-segmentation). This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using both the estimated number of developers and real ARR in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
 
-### Scaled Success Program
+A customer, and our post-sales success team, falls into one of our separate but related post-sales functions:
 
-Our Scaled Success program serves customers who do not qualify for a dedicated Technical Advisor in digital-first, tech-nurtured manner. This motion includes:
+- Managed (named, dedicated TA; high-touch)
+- Unmanaged (group of non-dedicated TAs; scaled success; low-touch)
 
-- Onboarding:
-  - Admin: emails detailing how to properly configure their instance, an introduction to our Discord community and our Support team email, and pointing them to our existing onboarding materials.
-  - End users: sent to the account point of contact, to be forwarded directly to the new end users. This email will include the training materials needed for an end user to ramp up on Sourcegraph.
-- Ongoing Communication:
-  - Monthly usage recap emails to the instance admin detailing feature usage.
-  - Release notices and product updates.
-  - Separate monthly usage recap emails for customers who have fallen behind in upgrading their Sourcegraph instance, promoting our new features and offering guidance on how to upgrade.
+### Managed
 
-We are utilizing Vitally to target and send all communications.
+This group is comprised of our Enterprise and Strategic TAs who are dedicated to a specific number of customers, depending on region and TA level. Within their book of business, TAs work directly with these customers throughout the post-sales lifecycle to provide a high-touch, customized experience.
 
-#### V2+
+Today, the following segments are considered managed:
 
-Our Scaled Success program is being iterated on quickly. Immediate next steps to improve the experience are:
+| Customer Segment | Segment definition                       |
+| ---------------- | ---------------------------------------- |
+| Strategic        | 10k+ devs, any amount of ARR spend       |
+| Enterprise       | 1.5k - 10k devs, any amount of ARR spend |
+| Commercial       | 0 - 1.5k devs, <$100k ARR spend          |
 
-- Dedicated training video playlists for every Sourcegraph Code Search and Cody feature
+### Unmanaged
+
+This group is comprised of a team of technical advisors and program managers who nurture this segment of our customers through our [Scaled Success Program](#scaled-success-program) and provide a low-touch, tailored experience.
+
+Today, the following segment is considered unmanaged:
+
+| Customer Segment | Segment definition                       |
+| ---------------- | ---------------------------------------- |
+| Commercial       | 0 - 1.5k devs, >$100k ARR spend          |
+
+## Scaled Success Program
+
+Our Scaled Success program services our customers who do not qualify for a named, dedicated TA (managed) through a tech-nurtured approach based on their use of Sourcegraph by delivering tailored, consistent communication & enablement to meet their needs, support them, and ensure they have a positive experience.
+
+We are utilizing Vitally to monitor all customers and send all communications. We seek to align the Scaled Success Customer Lifecycle to our overall customer journey as closely as possible. 
+
+You can view our current program across the customer lifecycle below:
+![Scaled Success Customer Lifecycle](https://user-images.githubusercontent.com/7228359/220760306-60b90fc3-3701-44e2-aad9-f61c386ffee8.jpg)
+
+### Q3 Roadmap
+
+In Q3 we are iterating on our Scaled Success program to add the following capabilities:
+
+- Notification to AE when account hits 90% & 100% of seats
+- Quarterly offering of 30 minute call with Scaled TA team 
+- Additional enablement and nurture email campaigns sharing blogs & content, and youtube videos
+- Tailored monthly usage recap emails for customers who have fallen behind in upgrading 
 
 ## Tooling
 
