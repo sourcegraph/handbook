@@ -14,6 +14,8 @@ For sourcegraph.com use the following instructions (or substitute the URL and En
 4. Click on Continue with Sourcegraph Operators
 5. Authenticate with Okta
 
+[Here is a Loom video](https://www.loom.com/share/3664a109ab2c4914b3afd4d47bb8d7a8?sid=3cd5b0dc-988b-4ce3-b7f4-e36b983d9e06) demonstrating the process.
+
 _*Note*: we understand there may be uses for long-lived admin accounts, such as pulling metrics for automation. We have a mechanism to allow this. Please reach out in #discuss-security if needed._
 
 ## FAQ
