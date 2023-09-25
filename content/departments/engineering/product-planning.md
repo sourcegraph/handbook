@@ -30,5 +30,12 @@ following outline:
 - **Excluded:** What alternatives have you rejected for this Q and why? Will they
   be on the team's roadmap for the future?
 
+The purpose of the planning review is for each product team to present their
+proposed work for that cycle and to hear feedback from the exec team as to whether
+there is agreement about the direction and tasks that the product team's proposals
+or whether adjustments need to be made. At the end of a review, the execs and
+the product team will either be in alignment about the work to do done that cycle
+or another review meeting will be scheduled to follow up until there is alignment.
+
 Note, not every team will have work to do that applies to every goal every
 quarter. Likewise, not every work item is expected to meet a strategic goal.
