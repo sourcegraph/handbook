@@ -173,6 +173,12 @@ Setting Up Users
 
 Steps to complete E-verify can be found [here](https://docs.google.com/document/d/1BWouWHj3WAlglyt7ZunnjMlev4XnFzTuVcUoa95LNnc/edit#heading=h.f31huogsqa18)
 
+**Step 19: Audit completion of 1 and 3 month Milestone Reviews in Lattice**
+
+Every teammate _and their manager_ are required to complete a 1 and 3 month milestone review in Lattice. There are reminders built into Process St. for People Ops to audit this at the appropriate times. People Ops will log into Lattice as admins, navigate to Reviews, select the appropriate automated review (1 or 3 month milestone), and find the relevant teammate's name. People Ops will then audit that both the reviewee and reviewer submitted their feedback and that the review packet has been shared with the teammate. People Ops will follow up on any missing packets and can reopen packets if they've ended.
+
+Read more about Onboarding Feedback Milestones [here](../../onboarding-feedback-milestones.md).
+
 ## Onboarding Feedback
 
 There are two main onboarding feedback instances:
