@@ -405,6 +405,10 @@ You'll meet with two individual contributors on the TA team to learn about how y
 
 ## Marketing
 
+### Marketing Operations Manager Working Session
+
+Cody is now GA, and we are ready to build out a PQL process. Describe the steps you would take to develop a scoring model, what the model would look like (in detail), and what steps you would take to implement this new PQL process. Feel free to put together slides or a doc to share your ideas/findings. The expectation is that you will share your screen and present for 15 minutes, and we will spend the remainder of the time asking follow-up questions.
+
 ### Content working session
 
 - Duration: 60-minutes.
