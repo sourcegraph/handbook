@@ -19,16 +19,20 @@ _*Note*: we understand there may be uses for long-lived admin accounts, such as 
 ## FAQ
 
 - Q: What happens with my existing Sourcegraph accounts?
-  A: If your existing account is a site-admin, it will be demoted to regular user. No existing user accounts will be deleted.
+
+  - A: If your existing account is a site-admin, it will be demoted to regular user. No existing user accounts will be deleted.
 
 - Q: What happens with tokens created during the elevated privilege window?
-  A: Those will get revoked after 1h since the SOAP account with elevated privileges is deleted.
+
+  - A: Those will get revoked after 1h since the SOAP account with elevated privileges is deleted.
 
 - Q: Will my token survive the 1h TTL if I renew with Entitle?
-  A: No, they will be revoked after 1h.
+
+  - A: No, they will be revoked after 1h.
 
 - Q: How can I create a long-lived admin account for automation purposes?
-  A: For long-lived admin accounts needed for automation, reach out to in the #discuss-security channel.
+
+  - A: For long-lived admin accounts needed for automation, reach out to in the #discuss-security channel.
 
 - Q: Can I request more than 1h of elevated privileges?
-  A: Not at the time. If you have this need please reach out in #discuss-security to discuss your use case.
+  - A: Not at the time. If you have this need please reach out in #discuss-security to discuss your use case.
