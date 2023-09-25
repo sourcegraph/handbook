@@ -27,15 +27,15 @@ This group is comprised of a team of technical advisors and program managers who
 
 Today, the following segment is considered unmanaged:
 
-| Customer Segment | Segment definition                       |
-| ---------------- | ---------------------------------------- |
-| Commercial       | 0 - 1.5k devs, >$100k ARR spend          |
+| Customer Segment | Segment definition              |
+| ---------------- | ------------------------------- |
+| Commercial       | 0 - 1.5k devs, >$100k ARR spend |
 
 ## Scaled Success Program
 
 Our Scaled Success program services our customers who do not qualify for a named, dedicated TA (managed) through a tech-nurtured approach based on their use of Sourcegraph by delivering tailored, consistent communication & enablement to meet their needs, support them, and ensure they have a positive experience.
 
-We are utilizing Vitally to monitor all customers and send all communications. We seek to align the Scaled Success Customer Lifecycle to our overall customer journey as closely as possible. 
+We are utilizing Vitally to monitor all customers and send all communications. We seek to align the Scaled Success Customer Lifecycle to our overall customer journey as closely as possible.
 
 You can view our current program across the customer lifecycle below:
 ![Customer Lifecycle - Scaled Success](https://github.com/sourcegraph/handbook/assets/7228359/7cd03b9b-cdb0-4387-9a46-000250363e74)
@@ -45,9 +45,9 @@ You can view our current program across the customer lifecycle below:
 In Q3 we are iterating on our Scaled Success program to add the following capabilities:
 
 - Notification to AE when account hits 90% & 100% of seats
-- Quarterly offering of 30 minute call with Scaled TA team 
+- Quarterly offering of 30 minute call with Scaled TA team
 - Additional enablement and nurture email campaigns sharing blogs & content, and youtube videos
-- Tailored monthly usage recap emails for customers who have fallen behind in upgrading 
+- Tailored monthly usage recap emails for customers who have fallen behind in upgrading
 
 ## Tooling
 
