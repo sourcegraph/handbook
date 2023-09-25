@@ -520,4 +520,4 @@ Make yourself available during their first week back:
 
 ## **Resources for people team**
 
-Coming soon (draft)
+[People Team internal process](https://docs.google.com/document/d/1SAlUEd_YOTQdQsDrkPrvAZTvupub5Nfcru7iJK_Zl68/edit?usp=sharing)
