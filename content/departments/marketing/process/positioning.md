@@ -2,25 +2,17 @@
 
 ## What is Sourcegraph?
 
-**1-line description:** Sourcegraph is a code intelligence platform.
+**1-line description:** Sourcegraph is a code AI platform.
 
-**1-sentence description:** Sourcegraph is a code intelligence platform that unlocks developer velocity by helping engineering teams understand, fix, and automate across their entire codebase.
+**Boilerplate:** Sourcegraph is a code AI platform: “software that builds software”. Our code graph powers Cody, the most powerful and accurate code AI for writing, fixing, and maintaining code, and Code Search, helping devs explore their entire codebase and make large-scale migrations and security fixes. Our customers include 4 of the top 10 banks, 4/5 FAANG companies, government organizations, Uber, Plaid, and many other companies building the software that pushes the world forward.
 
-- Understand: Understand your entire codebase. Search and find whatever you need instantly and visualize trends across your entire codebase.
-- Fix: Secure vulnerabilities and resolve incidents faster.
-- Automate: Automate key workflows and reduce repetitive work.
-
-**Boilerplate:** Sourcegraph is a code intelligence platform that unlocks developer efficiency, helping engineers and engineering leaders understand, fix, and automate across their entire codebase. Over one million engineers use Sourcegraph to improve code security, efficiently onboard developers, promote code reuse, resolve incidents, and boost code health. Code intelligence is a critical capability that increases enterprise engineering velocity, software quality and stability, and team health. Leading companies like Databricks, Plaid, Uber, Lyft, Reddit, GE, and Dropbox, rely on Sourcegraph to build the products we all rely on. Sourcegraph is an all-remote company backed by Andreessen Horowitz, Sequoia Capital, Craft Ventures, Redpoint Ventures, and Goldcrest Capital.
-
-Note: always check this [doc](https://docs.google.com/document/d/1jvE52dR4wsOhbKnJTghb0cHo-XdtWKF6ghPRZ4FWl1M/edit#) for the latest boilerplate.
-
-![platform positioning](https://storage.googleapis.com/sourcegraph-assets/Platform%20positioning.png)
-
-Also see the [FY23 Positioning FAQ](https://docs.google.com/document/d/1_k2m78tDW5mt1141qfD4E_Xwg8e8qGQ1n8Kx7mRQ0H0/edit#heading=h.mowy8zfok0ki) (private).
+For more information, see:
+- The [product framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit) (private).
+- The [positioning working document](https://docs.google.com/document/d/1BR1PN3PluOV6Q1QqtPTLlN-xfUU-KkoeYZmmUyqALAA/edit) (private).
 
 ## What about universal code search?
 
-Previously, we positioned Sourcegraph as universal code search. While code search will always be essential to what we are as a company and as a product, it doesn't reflect the evolution of Sourcegraph as a company and suite of products that solve 5 compelling use cases.
+Previously, we positioned Sourcegraph as universal code search. While code search will always be essential to what we are as a company and as a product, we've evolved to become a 2-product company built on top of a core platform. 
 
 ## How can we use the platform positioning?
 
@@ -29,5 +21,4 @@ Whether you’re pitching a candidate on why they should join Sourcegraph, talki
 - Think about the audience
 - Tie it to something the audience (or their business) cares about
 - Use an analogy to help them understand
-- Tell a story to show how we evolved from a code search tool to a code intelligence platform
-- Connect it to our five use cases
+- Tell a story to show how we evolved from a code search tool, to a code intelligence platform, to a code AI platform
