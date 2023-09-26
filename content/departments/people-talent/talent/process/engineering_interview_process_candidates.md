@@ -273,13 +273,13 @@ are working on this piece of code?
 
 #### Pairing Exercise
 
-- **Interviewers:** one engineer
+- **Interviewers:** Beyang Liu, CTO/Co-founder
 
-- **Duration:** 45-minute kick-off session + up to 2 hours to work on your own:
+- **Duration:** 30-minute kick-off session + up to 2 hours to work on your own:
 
   - The first 15 minutes will be live, where we'll ensure that the dev environment is setup.
-  - For the next 30 minutes, as you get started on the project, the interviewer will be actively online to answer any questions that you have via Slack.
-  - Then, the expectation is that you finish the project after ~1 day (but please spend no more than 2 hours in aggregate on it beyond the 30 minute kickoff).
+  - For the next 15 minutes, as you get started on the project, the interviewer will be actively online to answer any questions that you have via Slack.
+  - Then, the expectation is that you finish the project within 2 hours.
 
 - **How to prepare:** Please complete these steps prior to the interview:
 
@@ -294,7 +294,7 @@ are working on this piece of code?
 
   Then we'll ask you to add a hypothetical feature to Cody.
 
-  You can ask questions in a shared Slack chat for 30 minutes after your meeting.
+  You can ask questions in a shared Slack chat for 15 minutes after your meeting.
 
   When you are finished, please share your final results as a pull request in the Slack channel.
 
