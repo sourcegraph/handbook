@@ -153,6 +153,17 @@ To send out a password reset email
 - Open [GitHub Actions](https://github.com/sourcegraph/cloud/actions/workflows/mi_reset_password.yml)
 - Click `Run workflow` and follow instruction
 
+#### **Restart a Cloud instance**
+
+<span class="badge badge-note">🤖 self-service</span>
+
+Restart the frontend after changing the site-config.
+
+- Open [GitHub Actions](https://github.com/sourcegraph/cloud/actions/workflows/mi_reload_frontend.yml)
+- Click `Run workflow` and enter in the customer slug and select `prod` as the environment.
+
+Note: If you do not know the slug, refer to the `Name` field of the table at http://go/cloud-ops.
+
 <!-- Coming soon -->
 <!-- #### **Request to increase executors count on a Cloud instance** - [New Request]()
 
