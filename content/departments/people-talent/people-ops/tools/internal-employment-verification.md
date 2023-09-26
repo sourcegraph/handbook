@@ -3,6 +3,7 @@
 Teammates can read about how to request an employment verification process [here](../process/employment_verification.md).
 
 People Ops Process:
+
 1. Teammates will send employment verification requests to people-ops@sourcegraph.com.
 2. Once received, a People Ops team member will draft the letter using [this template](https://docs.google.com/document/d/1JOZSDo_1GtsqtwliPcZyAtcNa13KmAbLFG99LFjq-4Y/edit).
 3. Make a copy of the template, fill in the teammate's information using the data in BambooHR
