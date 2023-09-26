@@ -9,12 +9,12 @@ Sourcegraph AWS Organisation is managed by the Ship team. This includes:
 
 ## Access Management
 
-| AWS Account                        | Description                                                                                                                                                                                 | Web console access                                                                                         | cli/terraform access                                                                                     |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Management Account (Root)          | Management account is used to manage AWS Identity Center, integrated with OKTA. Terraform access is required to create/delete AWS accounts and assign access to newly created AWS accounts. | Request Entitle `AWSAdmins` group access and login via [steps](#access-to-an-aws-account-via-web-console)  | Request Entitle `AWSAdmins` group access and follow [steps](#access-to-an-aws-account-via-cliterraform)  |
-| Cloud production accounts          | Cloud production accounts are customer-dedicated accounts for connectivity with customers' code hosts.                                                                                      | Request Entitle `Escalation` group access and login via [steps](#access-to-an-aws-account-via-web-console) | Request Entitle `Escalation` group access and follow [steps](#access-to-an-aws-account-via-cliterraform) |
-| Team-dedicated dev accounts        | Team accounts used for non-production purposes. Storing production/customer data is not allowed.                                                                                            | Login via [steps](#access-to-an-aws-account-via-web-console) - no Entitle access required                  | follow [steps](#access-to-an-aws-account-via-cliterraform) - no Entitle access required                  |
-| Team-dedicated production accounts | Every Team accounts used for production purposes.                                                                                                                                           | Request Entitle `Escalation` group access and follow [steps](#access-to-an-aws-account-via-web-console)    | Request Entitle `AWSAdmins` group access and follow [steps](#access-to-an-aws-account-via-cliterraform)  |
+| AWS Account                        | Description                                                                                                                                                                                 | Web console access                                                                                                             | cli/terraform access                                                                                                         |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Management Account (Root)          | Management account is used to manage AWS Identity Center, integrated with OKTA. Terraform access is required to create/delete AWS accounts and assign access to newly created AWS accounts. | Request Entitle permission `AWS SSO Admin`. When approved, login via [steps](#access-to-an-aws-account-via-web-console)        | Request Entitle permission `AWS SSO Admin`. When approved, follow [steps](#access-to-an-aws-account-via-cliterraform)        |
+| Cloud production accounts          | Cloud production accounts are customer-dedicated accounts for connectivity with customers' code hosts.                                                                                      | Request Entitle permission `AWS SSO - Escalation`. When approved, login via [steps](#access-to-an-aws-account-via-web-console) | Request Entitle permission `AWS SSO - Escalation`. When approved, follow [steps](#access-to-an-aws-account-via-cliterraform) |
+| Team-dedicated dev accounts        | Team accounts used for non-production purposes. Storing production/customer data is not allowed.                                                                                            | Login via [steps](#access-to-an-aws-account-via-web-console) - no Entitle access required                                      | follow [steps](#access-to-an-aws-account-via-cliterraform) - no Entitle access required                                      |
+| Team-dedicated production accounts | Every Team accounts used for production purposes.                                                                                                                                           | Request Entitle permission `AWS SSO - Escalation`. When approved, follow [steps](#access-to-an-aws-account-via-web-console)    | Request Entitle permission `AWS SSO - Escalation`. When approved, follow [steps](#access-to-an-aws-account-via-cliterraform) |
 
 ## Create AWS Account
 
@@ -58,6 +58,8 @@ output = json
 aws sso login --profile <YOUR_ACCOUNT_NAME>
 ```
 
+Note: if login does not work, it means either your Entitle request was not approved yet or you miss required permission. Ask for help in `#wg-aws-access` channel.
+
 ### Access to an AWS account via web console:
 
 1. Login to [OKTA](https://sourcegraph.okta.com/)
@@ -65,6 +67,8 @@ aws sso login --profile <YOUR_ACCOUNT_NAME>
 2. Choose `AWS SSO` tile.
 
 3. Click given account tile and then `Management console` button.
+
+Note: if given account tile is not visible, it means either your Entitle request was not approved yet or you miss required permission. Ask for help in `#wg-aws-access` channel.
 
 ## Delete AWS Account
 
