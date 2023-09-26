@@ -1,29 +1,12 @@
 # Employment Verification - Internal
 
-For Employment Verification requests we use TrueWork:
+Teammates can read about how to request an employment verification process [here](../process/employment_verification.md).
 
-We direct people to our [handbook page](../process/employment_verification.md).
-
-- Email template:
-
-  Hello,
-
-  Here are instructions for completing a third-party verification request:
-
-  **Third-party requests**
-
-  - Go to [Truework.com](https://www.truework.com/verifications/sourcegraph-employment-verification/) (or to Sourcegraph’s Truework landing page)
-  - Click “Start a Verification” (or “Verify a Sourcegraph employee”)
-  - The requester will create a Truework account
-  - Enter the employee's information and upload relevant documentation to request a report
-  - Once the request is complete,
-  - you will receive a notification that the letter is ready
-  - the employee will receive an email from Truework at your Sourcegraph email address to review the report and comment
-
-  You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
-
-  You can read more about TrueWork [here](../process/employment_verification.md). Please contact me if you have any questions.
-
-  Thank you,
+People Ops Process:
+1. Teammates will send employment verification requests to people-ops@sourcegraph.com.
+2. Once received, a People Ops team member will draft the letter using [this template](https://docs.google.com/document/d/1JOZSDo_1GtsqtwliPcZyAtcNa13KmAbLFG99LFjq-4Y/edit).
+3. Make a copy of the template, fill in the teammate's information using the data in BambooHR
+4. Save the template as a PDF and add your signature (must be a People Team member)
+5. Reply to the teammate's email request and attach the veritifcation letter PDF
 
 For more information on this, People Partners and People Ops teammates, please refer to [this doc](https://docs.google.com/document/d/1129c1iENV1VEfwFlMuHQRre3G0VPXASzdpelQc_-I_0/edit).
