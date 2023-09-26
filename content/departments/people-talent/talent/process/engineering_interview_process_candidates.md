@@ -273,13 +273,13 @@ are working on this piece of code?
 
 #### Pairing Exercise
 
-- **Interviewers:** Beyang Liu, CTO/Co-founder 
+- **Interviewers:** Beyang Liu, CTO/Co-founder
 
 - **Duration:** 30-minute kick-off session + up to 2 hours to work on your own:
 
   - The first 15 minutes will be live, where we'll ensure that the dev environment is setup.
   - For the next 15 minutes, as you get started on the project, the interviewer will be actively online to answer any questions that you have via Slack.
-  - Then, the expectation is that you finish the project within 2 hours. 
+  - Then, the expectation is that you finish the project within 2 hours.
 
 - **How to prepare:** Please complete these steps prior to the interview:
 
