@@ -429,6 +429,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Internship Recruiting and Offer Processes](talent/internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
 ### Misc
+
 - [Resources for Hiring Managers](../index.md#resources-for-hiring_managers)
 - [Resources for Recruiting Ops](resources_for_recruiting_operations.md)
 
