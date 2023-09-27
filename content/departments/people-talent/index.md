@@ -431,7 +431,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Misc
 
 - [Resources for Hiring Managers](../index.md#resources-for-hiring_managers)
-- [Resources for Recruiting Ops](resources_for_recruiting_operations.md)
+- [Resources for Recruiting Ops](talent/tools/resources_for_recruiting_operations.md)
 
 # The People & Talent Team
 
