@@ -554,7 +554,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 **Prompt 1:**
 
-1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../../../company-info-and-process/onboarding/index.md)
+1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../people-ops/process/onboarding.md)
 2. Come up with ideas on how you would improve this page and/or process for our teammates. _Things to consider:_
    1. Does the content set clear expectations on what to expect?
    2. Have we accounted for common questions teammates may have? If not, what’s missing? Is the answer located elsewhere in the handbook?
