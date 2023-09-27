@@ -29,7 +29,7 @@ There 5 tasks new hires must complete within 48 hours of signing your offer lett
 - **Fill out your BambooHR profile**. You will receive an email from BambooHR titled “Welcome to Sourcegraph” prompting you to complete your profile information. This ensures our People Team will have everything ready for your first day!
 - **Upload a photo of yourself to your Bamboo profile.** We will use this photo to create an Avatar for your Sourcegraph accounts, like Slack. Please submit a color image that is not blurry or pixelated (selfies work great!) Please upload the photo directly to this task using the attachment feature.
 - **Complete your background check.** You will receive an email from Checkr to complete a background check. Please provide all the required information as soon as possible to ensure the background check results are returned prior to your first day, which is a requirement to start.
-- **Place an order for your Sourcegraph computer** immediately after signing your contract. You can find instructions [here](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).
+- **Place an order for your Sourcegraph computer** immediately after signing your contract. You can find instructions [here](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).
   - FYI, our Tech Ops team will create your work email using our standard naming convention: "PreferredFirstName.PreferredLastName@sourcegraph.com". You can read more about this [here](../email-changes.md#sts=Email%20Changes).
 - **Make your welcome video.** We have a company meeting every other week, during which we introduce our new hires via a video! In the next 48-hours, please record and submit a ~30 second video (recorded horizontally) and submit the final version using this [google form](https://docs.google.com/forms/d/e/1FAIpQLSfH6DQORMhFO7CLzqYaOCSFKE79QAdSW_Sr1WLzk4hhtpCFpw/viewform?usp=sf_link).
   Details to include in the video:
@@ -69,7 +69,7 @@ Benefit eligibility begins on your first day. Keep in mind that when you get you
 
 💸 **Getting Paid**
 
-US-based Sourcegraph teammates are on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
+US-based Sourcegraph teammates are on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](../tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
 
 Keep in mind that teammates starting on the day before any given payday will receive their first paycheck on the following payday.
 
