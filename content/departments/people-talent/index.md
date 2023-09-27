@@ -62,6 +62,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Buddy Program](buddy-program.md)
 - [Onboarding Mentors](onboarding-mentor.md)
 - [Onboarding Feedback Milestones](onboarding-feedback-milestones.md)
+- [Tools we use](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)
 - [Glossary of Terms](../../company-info-and-process/onboarding/glossary.md)
 - [Intro to Git](git-intro.md)
 - [Managing remote work](../../company-info-and-process/remote/index.md)
@@ -129,6 +130,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 - [Visa process](people-ops/tools/people-ops-faqs.md#q-i-need-a-letter-from-my-employer-to-obtain-a-visa-how-do-i-request-that)
 - [Sponsorship policy](people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
+- [Nomad life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
 
 ### Email Changes
 
@@ -184,6 +186,9 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Misc
 
 - [Our policy on having jobs outside of Sourcegraph](outside-employment.md)
+- [Personal pronouns](../../company-info-and-process/personal-pronouns.md)
+- [Gender diversity allies cohort](../../company-info-and-process/gender-diversity.md)
+- [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 
 ## RESOURCES FOR MANAGERS
 
