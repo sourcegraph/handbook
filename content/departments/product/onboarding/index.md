@@ -44,7 +44,6 @@ Remember:
 ### Day 1
 
 - Complete [Process st onboarding](https://app.process.st/reports/)
-  - Keep the [guiding principles](../../../company-info-and-process/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
 - Write your 30–60–90 day objectives in your 1:1 doc with your manager
 
 ### Get to know the team
