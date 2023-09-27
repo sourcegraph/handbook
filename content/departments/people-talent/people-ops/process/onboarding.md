@@ -50,7 +50,7 @@ The People team will send additional information to prepare you for Day 1 at Sou
 Everyone is here to support you as you onboard.
 
 - Joining a new company can be overwhelming—there’s a lot to learn! As you navigate your first few weeks at Sourcegraph, we want you to know that everyone on the team is here to help and will gladly drop anything to answer any question you have.
-- Every time you’re curious or confused about something—just ask! When you do so, use [public discussion channels](../../../company-info-and-process/communication/team_chat.md#avoid_private_messages) as much as possible.
+- Every time you’re curious or confused about something—just ask! When you do so, use [public discussion channels](../../../../company-info-and-process/communication/team_chat.md#avoid_private_messages) as much as possible.
 
 **Think and act like an owner**
 
@@ -77,7 +77,7 @@ Keep in mind that teammates starting on the day before any given payday will rec
 
 💸 **Getting Paid**
 
-Non-US based teammates are on a monthly payroll cycle, whether they are hired through a PEO or as a contractor. Contractors will submit an invoice at the end of each month. Please read more about the invoicing process and find resources [here](../../../benefits-pay-perks/pay-expenses/invoices.md).
+Non-US based teammates are on a monthly payroll cycle, whether they are hired through a PEO or as a contractor. Contractors will submit an invoice at the end of each month. Please read more about the invoicing process and find resources [here](../../../../benefits-pay-perks/pay-expenses/invoices.md).
 
 🗺 **Talent outside the US**
 
