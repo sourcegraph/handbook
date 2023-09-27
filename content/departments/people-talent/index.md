@@ -52,7 +52,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Onboarding as a new hire
 
-- [The onboarding process](../../company-info-and-process/onboarding/index.md)
+- [The onboarding process](people-ops/process/onboarding.md)
 - [How to set up BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - [Resources for new hires](resources-for-new-hires/index.md)
 - [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
