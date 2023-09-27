@@ -190,7 +190,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Gender diversity allies cohort](../../company-info-and-process/gender-diversity.md)
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 
-
 ## RESOURCES FOR MANAGERS
 
 ### Who to go to
