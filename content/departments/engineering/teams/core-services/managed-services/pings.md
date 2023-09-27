@@ -7,7 +7,7 @@ The Pings service is the service that collects [ping requests](https://docs.sour
 
 ## Service images
 
-Source code for Pings service is in [sourcegraph/sourcegraph/cmd/pings](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/pings). The image gets built the same way as any other Sourcegraph service, i.e. with ` insiders`, the standard `main`-branch and `main-dry-run` tags.
+Source code for Pings service is in [sourcegraph/sourcegraph/cmd/pings](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/pings). The image gets built the same way as any other Sourcegraph service, i.e. with `insiders`, the standard `main`-branch and `main-dry-run` tags.
 
 ## Local development
 
@@ -31,8 +31,7 @@ Here is a list of useful quick links:
 
 The following Entitle requests are needed to get access to Pings service infrastructure:
 
-- [GCP project - Editor](https://app.entitle.io/request?targetType=resource&duration=10800&justification=Justification%20here&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=2a1e9779-05d6-4f3f-976b-046ab0c91259&grantMethodId=2a1e9779-05d6-4f3f-976b-046ab0c91259)
-- [GCP project - Cloud Run Admin](https://app.entitle.io/request?targetType=resource&duration=10800&justification=Justification%20here&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=2d83db53-9330-4778-88b4-a3f1193fc3d1&grantMethodId=2d83db53-9330-4778-88b4-a3f1193fc3d1)
+- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4) (see [MSP Entitle](./platform.md#entitle))
 
 ### Deployment
 
