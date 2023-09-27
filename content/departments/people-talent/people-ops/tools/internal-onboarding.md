@@ -184,7 +184,7 @@ Read more about Onboarding Feedback Milestones [here](../../onboarding-feedback-
 There are two main onboarding feedback instances:
 
 - **One Month check in**: 15 min check-in with a People Ops team member to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process.
-- **Onboarding survey**: sent out monthly on the three month mark. Based on the [standards of success](../../../../company-info-and-process/onboarding/index.md#onboarding-standards-and-success) the teammate’s survey is focused on experience, content, and format, and presentation.
+- **Onboarding survey**: sent out monthly on the three month mark. This survey is focused on experience, content, and format, and presentation.
 
 ### Onboarding survey
 
