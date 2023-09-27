@@ -23,7 +23,7 @@ Read about Sales onboarding Mentor program:
 ### Handbook pages and links to check out
 
 - [People Ops](../../people-talent/index.md)
-  - [General onboarding steps](../../../company-info-and-process/onboarding/index.md#general-onboarding-checklist)
+  - [General onboarding steps](../../people-talent/people-ops/process/onboarding.md)
   - [Sourcegraph handbook](../../../index.md) intro
 - [CEO](../../../team/ceo/index.md)
   - [Values](../../../company-info-and-process/values/index.md)
