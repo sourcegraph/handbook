@@ -4,6 +4,7 @@ For teammates
 
 - [People Ops FAQs](../tools/people-ops-faqs.md)
 - [Manager guide to People Ops Systems](../tools/manager-guide.md)
+- [Onboarding](onboarding.md)
 - [Anti-Corruption](anti-corruption.md)
 - [Compensation and leveling](compensation-and-leveling/index.md)
 - [Employment Verification](employment_verification.md)
