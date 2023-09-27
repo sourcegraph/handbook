@@ -204,6 +204,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Hiring
 
+- [Hiring process](resources-for-managers.md#hiring-process)
 - [How to make a change to my headcount plan](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to change a role's start date (pulling a role forward or pushing it back in the board-approved headcount plan)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to add a net-new role to the headcount plan (not already approved by the board)](https://forms.gle/6dQmnRjsXDEjB4y7A)
@@ -243,6 +244,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Teammate development & mobility
 
+- [Managing people](resources-for-managers.md#managing-people)
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 - [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
@@ -425,6 +427,11 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 - [Internship Program](talent/internship/index.md)
 - [Internship Recruiting and Offer Processes](talent/internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
+
+### Misc
+
+- [Resources for Hiring Managers](../index.md#resources-for-hiring_managers)
+- [Resources for Recruiting Ops](talent/tools/resources_for_recruiting_operations.md)
 
 # The People & Talent Team
 
