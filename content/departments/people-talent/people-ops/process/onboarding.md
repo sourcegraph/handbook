@@ -175,10 +175,10 @@ Onboarding format and presentation - Survey questions:
 
 Many teams also have their own team specific onboarding pages that are important to review, such as:
 
-- [Customer Engineering Onboarding](../../../departments/technical-success/ce/onboarding/index.md)
-- [Customer Support Onboarding](../../../departments/technical-success/support/onboarding/index.md)
-- [Engineering Onboarding](../../../departments/engineering/dev/onboarding/index.md)
-- [Security Onboarding](../../../departments/security/security-onboarding.md#security-onboarding)
-- [People & Talent Onboarding](../../../departments/people-talent/onboarding/index.md)
-- [Product Onboarding](../../../departments/product/onboarding/index.md)
-- [Sales Onboarding](../../../departments/sales/onboarding/index.md#sales-team-onboarding)
+- [Customer Engineering Onboarding](../../../technical-success/ce/onboarding/index.md)
+- [Customer Support Onboarding](../../../technical-success/support/onboarding/index.md)
+- [Engineering Onboarding](../../../engineering/dev/onboarding/index.md)
+- [Security Onboarding](../../../security/security-onboarding.md#security-onboarding)
+- [People & Talent Onboarding](../../../people-talent/onboarding/index.md)
+- [Product Onboarding](../../../product/onboarding/index.md)
+- [Sales Onboarding](../../../sales/onboarding/index.md#sales-team-onboarding)
