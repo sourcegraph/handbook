@@ -455,6 +455,69 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         <div style="text-align: center; font-size: 12px">VP, People & Talent</div>
       </div>
     </div>
+     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
+          <a href="../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/Marija.png"
+              alt="Picture of Marija Petrovic"
+              style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Marija Petrovic</div>
+        <div style="text-align: center; font-size: 12px">Director, Recruiting and People-Ops</div>
+      </div>
+    </div>
+      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
+          <a href="../../team/index.md#jamie-oconnell-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
+              alt="Picture of Jamie O'Connell"
+              style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Jamie O'Connell</div>
+        <div style="text-align: center; font-size: 12px">Senior People-Ops Generalist</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
+          <a href="../../team/index.md#lauren-ross-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg"
+              alt="Picture of Lauren Ross"
+              style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Lauren Ross</div>
+        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
+      </div>
+    </div>
+     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
+          <a href="../../team/index.md#michal-sennett-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/MichalSennett.png"
+              alt="Picture of Michal Sennett"
+              style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Michal Sennett</div>
+        <div style="text-align: center; font-size: 12px">Executive Business Partner</div>
+      </div>
+    </div>
+
+  <!-- Row 2 -->
+  <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
@@ -488,21 +551,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
-          <a href="../../team/index.md#jamie-oconnell-sheher" target="_blank" rel="noopener">
-            <img
-              src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
-              alt="Picture of Jamie O'Connell"
-              style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Jamie O'Connell</div>
-        <div style="text-align: center; font-size: 12px">Senior People-Ops Generalist</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
           <a href="../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
             <img
               src="https://storage.googleapis.com/sourcegraph-assets/KelseyNagel.png"
@@ -516,10 +564,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
   </div>
-
-  <!-- Row 2 -->
-  <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+  <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
           <a href="../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
@@ -532,51 +577,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
         </div>
         <div style="text-align: center">Kemper Hamilton</div>
         <div style="text-align: center; font-size: 12px">People-Ops Generalist</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
-          <a href="../../team/index.md#lauren-ross-sheher" target="_blank" rel="noopener">
-            <img
-              src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg"
-              alt="Picture of Lauren Ross"
-              style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Lauren Ross</div>
-        <div style="text-align: center; font-size: 12px">Senior People Partner</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
-          <a href="../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
-            <img
-              src="https://storage.googleapis.com/sourcegraph-assets/Marija.png"
-              alt="Picture of Marija Petrovic"
-              style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Marija Petrovic</div>
-        <div style="text-align: center; font-size: 12px">Director, Recruiting and People-Ops</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
-          <a href="../../team/index.md#michal-sennett-sheher" target="_blank" rel="noopener">
-            <img
-              src="https://storage.googleapis.com/sourcegraph-assets/MichalSennett.png"
-              alt="Picture of Michal Sennett"
-              style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Michal Sennett</div>
-        <div style="text-align: center; font-size: 12px">Executive Business Partner</div>
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
