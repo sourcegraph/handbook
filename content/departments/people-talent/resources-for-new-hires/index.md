@@ -10,7 +10,7 @@
 
 ## Once you've decided to join us
 
-- [Onboarding](../../../company-info-and-process/onboarding/index.md)
+- [Onboarding](../people-ops/process/onboarding.md)
   - [Onboarding buddy](../buddy-program.md)
   - [Onboarding mentor](../onboarding-mentor.md)
   - [Onboarding reviews](../onboarding-reviews.md)
