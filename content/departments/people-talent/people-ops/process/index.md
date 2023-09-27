@@ -27,3 +27,4 @@ For People Ops
 - [People Ops PEO/EOR use- Deel](../tools/peo.md)
 - [Swag resources for People Ops](../tools/internal-swag.md)
 - [Quarterly Equity grant/approvals process](compensation-and-leveling/equity-internal.md#board-approval-process) and [internal documentation](https://docs.google.com/document/d/1W_rpuSFhem1Mf1uoKDt-HrUBU-fhdEkGssWqx4qIIQw/edit#heading=h.r7q2r0unofbt)
+- [Workplace postings](../../Required-posting-page.md)
