@@ -238,7 +238,7 @@ Giving feedback is not to create or resolve conflict. If you are experiencing an
 
 #### **Best practices for general feedback:**
 
-- **Use the SBI method:** The [SBI method](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) is explaining the situation, behavior, and impact it caused, followed by the desired change and expected impact due to the change.
+- **Use the SBI method:** The [SBI method](https://www.mindtools.com/ay86376/the-situation-behavior-impact-feedback-tool) is explaining the situation, behavior, and impact it caused, followed by the desired change and expected impact due to the change.
   - Example: While working on our latest project you did not provide status updates on your work which caused me to feel stress around meeting our deadlines. When we work on future projects together, providing weekly status updates on your work will reduce stress and create a better working partnership.
 - **Be direct:** we expect Teammates to promote a culture of ongoing feedback - meaning direct, in-the-moment, immediate feedback… both positive everyday praise, as well as feedback on opportunities for growth.
 - **Be timely:** when something goes wrong or a teammate is not following through, we expect our Teammates to provide feedback early and often. If something occurs that warrants feedback, a conversation should take place immediately, and, where necessary leadership should be looped in.
