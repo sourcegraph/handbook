@@ -130,7 +130,7 @@ Please reach out in #ask-people-team or tag Kemper Hamilton directly in the Proc
 
 **Onboarding buddy program**
 
-Creating a positive and successful onboarding experience for our teammates is a top priority. One way we ensure new hires are supported is through our [Onboarding buddy program](../buddy-program.md), which connects new teammates to a current Sourcegraph teammate that can share their experiences and advice to help make onboarding a little smoother.
+Creating a positive and successful onboarding experience for our teammates is a top priority. One way we ensure new hires are supported is through our [Onboarding buddy program](../../buddy-program.md), which connects new teammates to a current Sourcegraph teammate that can share their experiences and advice to help make onboarding a little smoother.
 
 ### Onboarding Feedback
 
@@ -138,7 +138,7 @@ We welcome feedback about how we can improve our onboarding process for future n
 
 **Onboarding Feedback Milestones**
 
-[Onboarding Feedback Milestones](../onboarding-feedback-milestones.md) help us to enhance new teammates’ performance and wellbeing. These milestones help managers gather insight about teammate’s progress and development, as well as support teammates in avoiding burnout, clarifying expectations, giving feedback on progress and stimulating confidence in new teammates during the first few months.
+[Onboarding Feedback Milestones](../../onboarding-feedback-milestones.md) help us to enhance new teammates’ performance and wellbeing. These milestones help managers gather insight about teammate’s progress and development, as well as support teammates in avoiding burnout, clarifying expectations, giving feedback on progress and stimulating confidence in new teammates during the first few months.
 
 We conduct milestone surveys via Lattice at the one month and three month mark.
 
