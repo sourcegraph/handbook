@@ -4,7 +4,7 @@ Welcome to Sourcegraph!
 
 ## Week 1 - getting started
 
-- Start by completing [general onboarding](../../../company-info-and-process/onboarding/index.md#general-onboarding-checklist) and [sales onboarding](../onboarding/index.md)
+- Start by completing [general onboarding](../../people-talent/people-ops/process/onboarding.md) and [sales onboarding](../onboarding/index.md)
 
 ### Get to know the Sales team
 
