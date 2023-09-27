@@ -9,7 +9,7 @@ All assets are managed in [sourcegraph/managed-services](https://github.com/sour
 
 ## Entitle
 
-For MSP service environments using `category: external` (or without configuring `category`), access needs to be requested through Entitle.
+For MSP service environments other than `category: test`, access needs to be requested through Entitle.
 Other environments should have access granted to engineers by default.
 
 Entitle access to a production MSP project is most easily provisioned through the `mspServiceEditor` custom role.
