@@ -10,7 +10,7 @@ All assets are managed in [sourcegraph/managed-services](https://github.com/sour
 ## Entitle
 
 For MSP service environments other than `category: test`, access needs to be requested through Entitle.
-Other environments should have access granted to engineers by default.
+The test environment ("Engineering Projects" GCP folder) should have access granted to engineers by default.
 
 Entitle access to a production MSP project is most easily provisioned through the `mspServiceEditor` custom role.
 This role is created org-level [in `gcp/org/customer-roles/msp.tf` in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf) and available in Entitle by following the steps:
