@@ -109,14 +109,7 @@ All mentee/mentor assignments will be based on availability of the requested men
     - Mentor:
       - How is your mentee progressing?
       - What would you like to focus on in the next month?
-  - **<span style="text-decoration:underline;">Month 2:</span>**
-    - Mentee:
-      - How do you feel the mentorship has been going so far?
-      - Can you share a specific example or story that highlights your growth or learning since the mentorship began??
-      - What would you like to focus on in the next month?
-    - Mentor:
-      - How is your mentee progressing?
-      - What would you like to focus on in the next month?
+
   - **<span style="text-decoration:underline;">Month 3:</span>**
     - Mentee:
       - How well do you feel the mentorship relationship supported your goals and development?
