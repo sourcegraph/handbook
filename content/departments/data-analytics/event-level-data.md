@@ -11,7 +11,7 @@ This will also help teams:
 
 Our current data collection (pings) provides us with some high level insight into how our customers are using Sourcegraph, but it doesn’t allow us to find usage patterns or truly understand product and feature adoption due to the limited nature of the data pings sends back to Sourcegraph. Further, we depend on our customers' upgrade schedule in order to collect new or updated pings, oftentimes the time to insight is very long.
 
-The new data will introduce event-level aggregation of customer data by sending customer event_logs back to Sourcegraph. This data will allow us to answer questions like:
+The new data will introduce event-level collection of customer data by sending customer event_logs back to Sourcegraph. This data will allow us to answer questions like:
 
 - How many regex searches and literal searches did user X conduct this month?
 - How many users are considered power users?
@@ -80,7 +80,11 @@ Everyone at Sourcegraph will benefit from having better insight into how our use
 
 ## Can customers opt out?
 
-Yes, the customer will be able to send us user level event data, critical telemetry only (aggregated and anonymized data), or completely turn off sending any data (air gapped). This opt out is at the instance level and will be available to the admin by contacting us. More documentation to come on how to do this.
+Yes, but only for strategic business reasons. These customers have the option to completely turn off sending any data (air gapped). This opt out is at the instance level and will be available to the admin by contacting us. More documentation to come on how to do this.
+
+## Why don't we want customers to opt out?
+
+Lack of visibility into customer issues leads to churn, we can help mitigate this by monitoring operational dashboards and metrics to analyze customer behaviors.
 
 ## Who has access to the data?
 
@@ -88,4 +92,10 @@ The raw data will be owned by the Data & Analytics Team and accessible by a subs
 
 ## How is the data stored/protected?
 
-Data will be encrypted while in motion from each managed instance to Sourcegraph. Refer to [this RFC](https://docs.google.com/document/d/1N9aO0uTlvwXI7FzdPjIUCn_d1tRkJUfsc0urWigRf6s/edit#) for the most up to date architecture.
+Sensitive data/PII exfiltration, intentional or not, is a significant concern, as in the past we have had customers object strongly to even semi-obfuscated test data based on provided samples in our public repositories. Best-effort manual monitoring and best practices alone is likely an insufficient guarantee.
+
+The biggest risk vector for PII leakage are string fields, as numeric data is unlikely to be sensitive (at least for Sourcegraph). The strongest guarantees can be offered if we redact all string fields from events metadata, unless denoted otherwise - this is an approach taken by CockroachDB[^1] that we will adopt by making our internal event logging APIs strongly typed in a way that forces differentiation of sensitive data from non-sensitive data.
+
+Data will be encrypted while in motion from each managed instance to Sourcegraph. Refer to [this diagram](https://www.figma.com/file/H8ipJVvKEWbx5TqnGDsjXU/Event-Logging-Everywhere-Architecture?type=whiteboard&node-id=0%3A1&t=ZqpoQjFDSXioYpwU-1) for the most up-to-date architecture.
+
+[^1]: The Go library https://github.com/cockroachdb/redact uses special markers to indicate what strings/parts of strings are safe and not safe, requiring developers to explicitly mark their strings as safe or face redaction. This particular API design allows for const strings to automatically be considered safe in most use cases.
