@@ -75,6 +75,16 @@ technical:
     definition: Level of effort
   - term: FSM
     definition: Finite-state machine. An abstract machine that can be in exactly one of a finite number of states at any given time. See https://en.wikipedia.org/wiki/Finite-state_machine
+  - term: airgapped instance
+    definition: Self-hosted customer instance that does not allow any outbound network requests; offline to any external network requests.
+  - term: private instance
+    definition: Self-hosted customer instance that does not share telemetry data (to be enforced via license tagging); does allow outbound network requests.
+  - term: airgapped code host
+    definition: A code host that is physically isolated from the internet. For example, the code host is deployed on hardware (server) that is within the customers' office/private data center and the only way to connect to this code host is to be physically connected to this air-gapped network; a user has to be within the office and be connected to the air-gapped office network via ethernet cable of wi-fi.
+  - term: private code host
+    definition: A code host deployed in a private network (for example AWS EC2 instance within VPC).
+  - term: public code host
+    definition: A code host that is publicly accessible on the internet - a user can CURL it via IP or open the URL in the browser. This also includes a code host with a public interface but restricts access to IP allowlist.
 
 business:
   - term: CAC
@@ -137,6 +147,12 @@ business:
 role:
   - term: AE
     definition: Account executive - responsible for maintaining an enterprise customer account and our relationship with them
+  - term: CE
+    definition: Customer Engineer, e.g. pre-sales engineer
+  - term: IE
+    definition: Implementation Engineer
+  - term: TA
+    definition: Technical Advisory, e.g, post-sales customer success
   - term: SE
     definition: Support engineer
   - term: SDR
@@ -145,8 +161,6 @@ role:
     definition: Master of Business Administration - a degree, not to be confused with the NBA which is a basketball team
   - term: GTM
     definition: Go to market
-  - term: CS
-    definition: Customer Support
   - term: EM
     definition: Engineering manager
   - term: PM
@@ -155,12 +169,6 @@ role:
     definition: Product designer
   - term: PO
     definition: Purchase order
-  - term: CSE
-    definition: Customer Support Engineer, someone who can debug issues for example - no longer used
-  - term: CE
-    definition: Customer Engineer, e.g. pre-sales technical engineer
-  - term: TA
-    definition: Technical Advisory, e.g, post-sales customer success
   - term: IC
     definition: Individual contributor, not managing other people. Still works on a team with other ICs.
   - term: Release Guild
