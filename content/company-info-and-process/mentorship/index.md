@@ -101,7 +101,9 @@ All mentee/mentor assignments will be based on availability of the requested men
 - **Respect for Time and Boundaries:** Participants should respect each other's time commitments and establish clear boundaries for communication and availability. Mentees should understand that mentors have other responsibilities and may not be available 24/7. Encourage participants to communicate their availability and preferences upfront, ensuring that both mentors and mentees are respectful of each other's time constraints.
 - **Goal-Setting and Accountability:** Goals are critical for the success of a mentoring partnership. While most aspects of a mentor-mentee relationship don’t have strict rules or conditions, if we made one recommendation, it would be this: Set at least one clear goal that you can both work to achieve through your partnership.We recommend using [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) to formulate the specifics of the goal. You can set more than one goal, but since you’ll want to keep track of them, don’t set too many!
 - **Measuring Success:** To help both the mentor and mentee track and highlight the outcomes of the program we will be using Lattice to run an automated monthly milestone review. Mentorship Progress reviews will allow both the mentee and mentor to reflect and share feedback. Not only will this provide an opportunity to track progress on goals, but it’s a great way to source a few highlights that can easily be added into relevant [Impact Reviews](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)!
+
   - **<span style="text-decoration:underline;">Month 1: </span>**
+
     - Mentee:
       - How do you feel the mentorship has been going so far?
       - What have been your favorite or most valuable insights or advice from your mentor so far?
@@ -109,14 +111,7 @@ All mentee/mentor assignments will be based on availability of the requested men
     - Mentor:
       - How is your mentee progressing?
       - What would you like to focus on in the next month?
-  - **<span style="text-decoration:underline;">Month 2:</span>**
-    - Mentee:
-      - How do you feel the mentorship has been going so far?
-      - Can you share a specific example or story that highlights your growth or learning since the mentorship began??
-      - What would you like to focus on in the next month?
-    - Mentor:
-      - How is your mentee progressing?
-      - What would you like to focus on in the next month?
+
   - **<span style="text-decoration:underline;">Month 3:</span>**
     - Mentee:
       - How well do you feel the mentorship relationship supported your goals and development?
