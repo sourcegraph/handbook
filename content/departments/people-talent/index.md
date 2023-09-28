@@ -437,25 +437,33 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 [Click here](teamalignment.md) to see Talent Team alignment with each department
 
-<section style="display: flex;">
-  <div class="row" style="max-width: 530px; display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+<section>
+  <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
     <!-- Row 1 -->
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
-          <a href="../../team/#carly-jones" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/CarlyJones.png" alt="Picture of Carly Jones" style="background: transparent; width: 128px">
+          <a href="../../team/index.md#carly-jones" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/CarlyJones.png"
+              alt="Picture of Carly Jones"
+              style="background: transparent; width: 128px"
+            />
           </a>
         </div>
         <div style="text-align: center">Carly Jones</div>
-        <div style="text-align: center; font-size: 12px">VP, People &amp; Talent</div>
+        <div style="text-align: center; font-size: 12px">VP, People & Talent</div>
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
-          <a href="../../team/#marija-petrovic-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/Marija.png" alt="Picture of Marija Petrovic" style="background: transparent; width: 128px">
+          <a href="../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/Marija.png"
+              alt="Picture of Marija Petrovic"
+              style="background: transparent; width: 128px"
+            />
           </a>
         </div>
         <div style="text-align: center">Marija Petrovic</div>
@@ -465,89 +473,125 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
-          <a href="../../team/#jamie-oconnell-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png" alt="Picture of Jamie O'Connell" style="background: transparent; width: 128px">
+          <a href="../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/DevonCoords.png"
+              alt="Picture of Devon Coords"
+              style="background: transparent; width: 128px"
+            />
           </a>
         </div>
-        <div style="text-align: center">Jamie O’Connell</div>
+        <div style="text-align: center">Devon Coords</div>
+        <div style="text-align: center; font-size: 12px">Director, Technical Recruiting</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+      <div>
+        <div style="text-align: center">
+          <a href="../../team/index.md#jamie-oconnell-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
+              alt="Picture of Jamie O'Connell"
+              style="background: transparent; width: 128px"
+            />
+          </a>
+        </div>
+        <div style="text-align: center">Jamie O'Connell</div>
         <div style="text-align: center; font-size: 12px">Senior People-Ops Generalist</div>
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
-          <a href="../../team/#lauren-ross-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg" alt="Picture of Lauren Ross" style="background: transparent; width: 128px">
+          <a href="../../team/index.md#lauren-ross-sheher" target="_blank" rel="noopener">
+            <img
+              src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg"
+              alt="Picture of Lauren Ross"
+              style="background: transparent; width: 128px"
+            />
           </a>
         </div>
         <div style="text-align: center">Lauren Ross</div>
         <div style="text-align: center; font-size: 12px">Senior People Partner</div>
       </div>
     </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
-          <a href="../../team/#michal-sennett-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/MichalSennett.png" alt="Picture of Michal Sennett" style="background: transparent; width: 128px">
-          </a>
+    <!-- Row 2 -->
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+        <div>
+          <div style="text-align: center">
+            <a href="../../team/index.md#michal-sennett-sheher" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/MichalSennett.png"
+                alt="Picture of Michal Sennett"
+                style="background: transparent; width: 128px"
+              />
+            </a>
+          </div>
+          <div style="text-align: center">Michal Sennett</div>
+          <div style="text-align: center; font-size: 12px">Executive Business Partner</div>
         </div>
-        <div style="text-align: center">Michal Sennett</div>
-        <div style="text-align: center; font-size: 12px">Executive Business Partner</div>
       </div>
-    </div>
-<!-- Row 2 -->
-<div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-    <div>
-      <div style="text-align: center">
-        <a href="../../team/#devon-coords-sheher" target="_blank" rel="noopener">
-          <img src="https://storage.googleapis.com/sourcegraph-assets/DevonCoords.png" alt="Picture of Devon Coords" style="background: transparent; width: 128px">
-        </a>
+      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+        <div>
+          <div style="text-align: center">
+            <a href="../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/KemperHamilton.png"
+                alt="Picture of Kemper Hamilton"
+                style="background: transparent; width: 128px"
+              />
+            </a>
+          </div>
+          <div style="text-align: center">Kemper Hamilton</div>
+          <div style="text-align: center; font-size: 12px">People-Ops Generalist</div>
+        </div>
       </div>
-      <div style="text-align: center">Devon Coords</div>
-      <div style="text-align: center; font-size: 12px">Director, Technical Recruiting</div>
-    </div>
-  </div><div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-    <div>
-      <div style="text-align: center">
-        <a href="../../team/#grace-bohl-sheher" target="_blank" rel="noopener">
-          <img src="https://storage.googleapis.com/sourcegraph-assets/GraceBohl.png" alt="Picture of Grace Bohl" style="background: transparent; width: 128px">
-        </a>
+      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+        <div>
+          <div style="text-align: center">
+            <a href="../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/KelseyNagel.png"
+                alt="Picture of Kelsey Nagel"
+                style="background: transparent; width: 128px"
+              />
+            </a>
+          </div>
+          <div style="text-align: center">Kelsey Nagel</div>
+          <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
+        </div>
       </div>
-      <div style="text-align: center">Grace Bohl</div>
-      <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
-    </div>
-  </div><div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-    <div>
-      <div style="text-align: center">
-        <a href="../../team/#kelsey-nagel-sheher" target="_blank" rel="noopener">
-          <img src="https://storage.googleapis.com/sourcegraph-assets/KelseyNagel.png" alt="Picture of Kelsey Nagel" style="background: transparent; width: 128px">
-        </a>
+      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+        <div>
+          <div style="text-align: center">
+            <a href="../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/GraceBohl.png"
+                alt="Picture of Grace Bohl"
+                style="background: transparent; width: 128px"
+              />
+            </a>
+          </div>
+          <div style="text-align: center">Grace Bohl</div>
+          <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
+        </div>
       </div>
-      <div style="text-align: center">Kelsey Nagel</div>
-      <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
-    </div>
-  </div> <!-- Close the second row here -->
-<div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-  <div>
-    <div style="text-align: center">
-      <a href="../../team/#kemper-hamilton-sheher" target="_blank" rel="noopener">
-        <img src="https://storage.googleapis.com/sourcegraph-assets/KemperHamilton.png" alt="Picture of Kemper Hamilton" style="background: transparent; width: 128px">
-      </a>
-    </div>
-    <div style="text-align: center">Kemper Hamilton</div>
-    <div style="text-align: center; font-size: 12px">People-Ops Generalist</div>
-  </div>
-</div>
-<div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-  <div>
-    <div style="text-align: center">
-      <a href="../../team/#trevor-houghton-hehim" target="_blank" rel="noopener">
-        <img src="https://storage.googleapis.com/sourcegraph-assets/TrevorHoughton.png" alt="Picture of Trevor Houghton" style="background: transparent; width: 128px">
-      </a>
-    </div>
-    <div style="text-align: center">Trevor Houghton</div>
-    <div style="text-align: center; font-size: 12px">Recruiting Operations Specialist</div>
-  </div>
-</div>
-</div>
+      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
+        <div>
+          <div style="text-align: center">
+            <a href="../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/TrevorHoughton.png"
+                alt="Picture of Trevor Houghton"
+                style="background: transparent; width: 128px"
+              />
+            </a>
+          </div>
+          <div style="text-align: center">Trevor Houghton</div>
+          <div style="text-align: center; font-size: 12px">Recruiting Operations Specialist</div>
+        </div>
+      </div>
+    </div> <!-- Close the second row here -->
+  </div> <!-- Close the first row here -->
 </section>
