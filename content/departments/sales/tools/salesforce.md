@@ -409,7 +409,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 ### Leads to Accounts/Contacts/Opportunities
 
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
-  - There are separate queues for Inbound High Value (500+ employees) Leads, Inbound (<500 Employees) Leads (by Region), and unassigned Outbound Leads.
+  - There are separate queues for Inbound 500+ employee Leads, Inbound <500 Employee Leads, and unassigned Outbound Leads. All Queues are Region-specific.
   - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
 - If a round-robin lead is assigned to an AE while they are on Parental Leave, the AE on leave will be designated as the Account Owner, and the covering AE will be assigned to the opportunity. The covering AE will be designated by the manager. Additional guidance regarding split/coverage during parental leave can be found [here](../../../benefits-pay-perks/benefits-perks/parental-leave.md#commission-payout-scenarios-for-account-executives).
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
