@@ -191,7 +191,7 @@ SDR dedupes the lead to look for recent activity, open/recently closed opportuni
 
 If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- If not already completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
 - SDR schedules meeting with the Lead and the assigned AE.
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
@@ -204,7 +204,7 @@ If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use 
 
 If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- If not already completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
 - SDR schedules meeting with the Lead and the assigned AE.
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
