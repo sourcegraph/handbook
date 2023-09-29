@@ -27,6 +27,7 @@ A product DAU represents a user who (1) makes a choice to interact or engage wit
 By default, new user events are excluded; we maintain a tightly controlled allowlist of events that are included (find the full list on [our source of truth table in BigQuery](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&ws=!1m5!1m4!4m3!1stelligentsourcegraph!2sdotcom_events!3scody_dau_lookup)).
 
 Included events include:
+
 - Accepting a completion (e.g. `CodyVSCodeExtension:completion:accepted`, `CodyJetBrainsPlugin:completion:accepted`)
 - Asking a question, running a command, or editing a message (e.g. `CodyVSCodeExtension:recipe:chat-question:executed`, `CodyJetBrainsPlugin:recipe:improve-variable-names:clicked`, `web:codyChat:submit`, `CodyNeovimExtension:codeAction:cody.chat:executed`, and many more)
 - Copying chat results (e.g. `CodyVSCodeExtension:copyButton:clicked`)
