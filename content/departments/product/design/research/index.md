@@ -1,4 +1,4 @@
-# Research
+# UX Research
 
 As a design team, we carry out research in a variety of forms depending on our research goals. Sometimes this research takes place at the beginning of a project, during the discovery phase. Other times, it takes place at the end of a project after shipping a design outcome.
 
