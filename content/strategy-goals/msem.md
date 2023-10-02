@@ -1,4 +1,4 @@
-# Mission, Strategy, Exectution, and Metrics (MSEM) Overview
+# Mission, Strategy, Execution, and Metrics (MSEM) Overview
 
 The Mission, Strategy, Execution, and Metrics (VSEM) framework is a tool for organizing and aligning Sourcegaph’s mission, strategy, and execution with the work we do on a daily basis.
 
