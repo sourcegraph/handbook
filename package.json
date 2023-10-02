@@ -103,7 +103,7 @@
     "rehype-url-inspector": "^2.0.2",
     "relateurl": "^0.2.7",
     "remark-extract-toc": "^1.1.0",
-    "remark-gfm": "^3.0.1",
+    "remark-gfm": "^4.0.0",
     "remark-github": "^11.2.1",
     "remark-parse": "^10.0.0",
     "retext": "^8.1.0",
