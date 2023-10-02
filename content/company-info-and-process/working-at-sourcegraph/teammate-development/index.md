@@ -4,13 +4,13 @@ The purpose of this Handbook Page is to provide Managers and Teammates with the 
 
 ## **On this page:**
 
-- [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture)
+- [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture?)
 - [Formal reviews](#formal-performance-impact-reviews)
 - [Continuous feedback](#Continuous-feedback)
   - [Thanks/Praise feedback](#Thanks-and-praise)
   - [General feedback](#General-feedback)
-  - [Regular 1:1s](#Regular-1-1s)
-  - [Growth & career development conversations](#Growth-career-development-conversations)
+  - [Regular 1:1s](#Regular-1:1s)
+  - [Growth & career development conversations](#Growth-and-career-development-conversations)
 - [Lattice support articles](#Lattice-support-articles)
 - [Addressing underperformance](#addressing-underperformance)
 
@@ -73,10 +73,10 @@ Our impact review process is explained in detail [here](../../../departments/peo
 
 The purpose of continuous feedback is to promote a culture of feedback and high performing culture. We expect our all Teammates to provide ongoing feedback to Managers, their Teammates, and Peers. The following ways to provide feedback are staples to a continuous feedback and a high performing culture. Each will be discussed in detail further down the page.
 
-1. [Thanks/praise feedback](#Thanks/praise:)
-2. [General feedback](#General-feedback:)
+1. [Thanks/praise feedback](#Thanks and praise)
+2. [General feedback](#General-feedback)
 3. [Regular 1:1s](#Regular-1:1s)
-4. [Growth & career-development conversations](#Growth-&-career-development-conversations)
+4. [Growth & career-development conversations](#Growth-and-career-development-conversations)
 
 ### **Monthly Check-ins via Lattice**
 
@@ -339,7 +339,7 @@ The follow describes our expectations for how Managers champion a culture of con
 
 ![Direct Communication Expectations](https://user-images.githubusercontent.com/7228359/233812769-d5e9ef06-4a6e-4a98-bea0-05840f303f86.jpg)
 
-### Growth and career-development conversations
+### Growth and career development conversations
 
 Creating intentional time for forward-looking conversations helps Teammates explore their careers on their own terms, and engage with their Manager in identifying opportunities to grow, learn, and be curious within our own organization. Managers should designate at least one conversation per quarter that includes intentional focus time to discuss career growth.
 
