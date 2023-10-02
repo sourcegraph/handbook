@@ -4,14 +4,14 @@ The purpose of this Handbook Page is to provide Managers and Teammates with the 
 
 ## **On this page:**
 
-- [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture?)
+- [What, why, and how we foster a high performance culture](#what-is-a-high-performance-culture?)
 - [Formal reviews](#formal-performance-impact-reviews)
 - [Continuous feedback](#continuous-feedback)
   - [Thanks/Praise feedback](#thanks-and-praise)
   - [General feedback](#general-feedback)
-  - [Regular 1:1s](#Regular-11s)
+  - [Regular 1:1s](#regular-11s)
   - [Growth & career development conversations](#growth-and-career-development-conversations)
-- [Lattice support articles](#lattice-support-articles)
+- [Lattice support articles](#lattice-support-articles--sourcegraph-looms)
 - [Addressing underperformance](#addressing-underperformance)
 
 ## What is a high performance culture?
