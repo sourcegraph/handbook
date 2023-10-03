@@ -40,7 +40,7 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 ### Impact Review Schedule - 2H FY24 review
 
 **2H FY24 Review Process Schedule**
-(Review Period: February 1st and July 31st)
+(Review Period: February 1st to July 31st)
 
 - [Reviewer selection](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit): 2023-07-17 to 2023-07-21 (5 business days)
   - Confirm selections with managers: 2023-07-20 and 2023-07-21 (2 business days, overlaps with review selection period)
