@@ -9,6 +9,8 @@ The Pings service is the service that collects [ping requests](https://docs.sour
 
 Source code for Pings service is in [sourcegraph/sourcegraph/cmd/pings](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/pings). The image gets built the same way as any other Sourcegraph service, i.e. with `insiders`, the standard `main`-branch and `main-dry-run` tags.
 
+All images tags are available in the [Docker Hub](https://hub.docker.com/r/sourcegraph/pings/tags).
+
 ## Local development
 
 For local development, please refer to its [README](https://github.com/sourcegraph/sourcegraph/blob/main/cmd/pings/README.md).
@@ -40,7 +42,7 @@ The Pings service infrastructure is defined in [`sourcegraph/managed-services/se
 #### Modify deployment manifest
 
 > [!WARNING]
-> Due to the early-stage shape of Managed Services Platforms, we have yet to roll out standardized playbook. Please reach out to #team-core-services for modifying the deployment manifest. Instructions in this section are generally assumed with an upfront setup.
+> Due to the early-stage shape of [Managed Services Platform](./platform.md), we have yet to roll out standardized playbook. Please reach out to #team-core-services for modifying the deployment manifest. Instructions in this section are generally assumed with an upfront setup.
 
 To modify the deployment manifest:
 
@@ -67,6 +69,15 @@ To specify a Docker image tag other than the default, update the `service.yaml`:
 Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/pings?project=pings-prod-2f4f73edf1db) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
 
 ### Observability
+
+> [!NOTE]
+> To get access to most resources, you’ll need to [request infrastructure access](#infrastructure-access).
+
+#### Alerting
+
+- [GCP Monitoring Alerting](https://console.cloud.google.com/monitoring/alerting?project=pings-prod-2f4f73edf1db)
+
+All alerts from all environments currently go to #alerts-pings-sourcegraph-com.
 
 #### Metrics
 
