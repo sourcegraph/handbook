@@ -136,6 +136,9 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 - [Requesting an email change](email-changes.md)
 
+### Name Changes
+- [Requesting a name change](people-ops/process/name-changes.md)
+
 ### Verifications
 
 - [Employment verification process](people-ops/process/employment_verification.md)
