@@ -3,6 +3,7 @@
 The aim of this document is to define the key steps required as part of responding to a security incident, in line with Sourcegraph’s Security Incident Response Policy.
 
 ## Security Incident Lead
+
 The incident lead is responsible for resolving the incident as quickly and safely as possible. They are the DRI coordinating the incident, tasked with driving it to resolution and keeping others informed (if it’s a non-customer-impact issue) or coordinating with the messenger on communication (for customer-impact issues).
 
 The security incident lead should be a member of the security team, and may be the same person who identified and raised the incident. For critical severity incidents, it should be the Head of Security.
@@ -10,7 +11,6 @@ The security incident lead should be a member of the security team, and may be t
 The incident lead can change throughout the incident depending on severity. For example, it may start as the first responder and switch to another teammate, or rotate depending on timezone. When changing over, the current and new incident leads should meet and fully handover.
 
 A security incident lead is responsible for:
-
 
 - Following the Security Incident Checklist.
 - Maintaining the list of action items and work streams, and assigning them to responders.
