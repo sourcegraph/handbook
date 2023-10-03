@@ -119,7 +119,7 @@ Information needed and reviewed:
 6. Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
 7. Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
 
-Vendor reviews are now being submitted via [Airbase](../finance/process/ap/#airbase-guided-procurement-contract-executionvendor-request)
+Vendor reviews are now being submitted via [Airbase](../finance/process/ap/.md#airbase-guided-procurement-contract-executionvendor-request)
 
 We are notified when a user submits request for vendor procurement.
 
