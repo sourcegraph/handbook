@@ -46,7 +46,7 @@ Maven is a digital family health platform that provides free, 24/7 access to spe
   - Wellness coaches
   - Career coaching
 
-3. **Easy expense management **
+3. **Easy expense management**
    Track and manage reimbursable expenses covered by our family support benefits up to $25,000 USD through Maven Wallet, an easy-to-use financial tool within the platform.
 
 4. **Unlimited, 24/7 virtual access to top-rated providers**
