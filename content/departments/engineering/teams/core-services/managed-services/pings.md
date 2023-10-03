@@ -9,6 +9,8 @@ The Pings service is the service that collects [ping requests](https://docs.sour
 
 Source code for Pings service is in [sourcegraph/sourcegraph/cmd/pings](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/pings). The image gets built the same way as any other Sourcegraph service, i.e. with `insiders`, the standard `main`-branch and `main-dry-run` tags.
 
+All images tags are available in the [Docker Hub](https://hub.docker.com/r/sourcegraph/pings/tags).
+
 ## Local development
 
 For local development, please refer to its [README](https://github.com/sourcegraph/sourcegraph/blob/main/cmd/pings/README.md).
@@ -40,7 +42,7 @@ The Pings service infrastructure is defined in [`sourcegraph/managed-services/se
 #### Modify deployment manifest
 
 > [!WARNING]
-> Due to the early-stage shape of Managed Services Platforms, we have yet to roll out standardized playbook. Please reach out to #team-core-services for modifying the deployment manifest. Instructions in this section are generally assumed with an upfront setup.
+> Due to the early-stage shape of [Managed Services Platform](./platform.md), we have yet to roll out standardized playbook. Please reach out to #team-core-services for modifying the deployment manifest. Instructions in this section are generally assumed with an upfront setup.
 
 To modify the deployment manifest:
 
