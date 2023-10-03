@@ -70,6 +70,15 @@ Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/u
 
 ### Observability
 
+> [!NOTE]
+> To get access to most resources, you’ll need to [request infrastructure access](#infrastructure-access).
+
+#### Alerting
+
+TODO: gcp monitoring link
+
+All alerts from all environments currently go to #alerts-pings-sourcegraph-com.
+
 #### Metrics
 
 The deployment's [Cloud Run metrics overview page](https://console.cloud.google.com/run/detail/us-central1/pings/metrics?project=pings-prod-2f4f73edf1db) provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
