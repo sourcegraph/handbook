@@ -75,7 +75,7 @@ Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/u
 
 #### Alerting
 
-TODO: gcp monitoring link
+- [GCP Monitoring Alerting](https://console.cloud.google.com/monitoring/alerting?project=pings-prod-2f4f73edf1db)
 
 All alerts from all environments currently go to #alerts-pings-sourcegraph-com.
 
