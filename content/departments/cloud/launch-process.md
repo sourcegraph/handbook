@@ -1,6 +1,6 @@
 # Cloud launch process
 
-> [!Note] go/cloud-launch is the canonical link to this page
+> [!NOTE] go/cloud-launch is the canonical link to this page
 
 Starting with Sourcegraph 4.0, we're asking authors of non-trivial features launched on Sourcegraph Cloud to fill-out a [questionnaire](#questionnaire) providing Cloud team with information about:
 
