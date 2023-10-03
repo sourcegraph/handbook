@@ -144,7 +144,7 @@
     "typescript": "^4.4.4"
   },
   "resolutions": {
-    "unist-util-is": "5.1.1",
+    "unist-util-is": "5.2.1",
     "unist-util-visit-parents": "5.1.0"
   }
 }
