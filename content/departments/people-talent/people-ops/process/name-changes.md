@@ -4,20 +4,17 @@ This process is for Sourcegraph teammates who have a legal, preferred, or dead n
 
 ### Step 1 Notify People Ops
 
-- Notify people-ops@sourcegraph.com as soon as possible with your name change request. 
-- Please include whether this is a legal name change, preferred name change, or dead name change. 
+- Notify people-ops@sourcegraph.com as soon as possible with your name change request.
+- Please include whether this is a legal name change, preferred name change, or dead name change.
 - If a legal change, include legal documentation such as a court order, marriage certificate, etc. to show proof of the name change.
-
 
 ### Step 2: People Ops will review the request and verify the document(s) as valid
 
 For legal name changes, if documents are not found to be valid, [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) will reply to your emailed request to let you know it has been denied.
 
-
-### Step 3: People Ops will notify cross-functional stakeholders via email 
+### Step 3: People Ops will notify cross-functional stakeholders via email
 
 The teammate’s name will need to be updated across various systems by various stakeholders
-
 
 #### For Legal name changes:
 
@@ -29,8 +26,7 @@ Cc: Legal, People Ops
 
 Hi team,
 
-[TEAMMATE NAME] has requested a legal name change to _____. The People team has reviewed the documentation and approved this request. Please update the systems listed below and any other various systems.
-
+[TEAMMATE NAME] has requested a legal name change to **\_**. The People team has reviewed the documentation and approved this request. Please update the systems listed below and any other various systems.
 
 <table>
   <tr>
@@ -68,8 +64,6 @@ Hi team,
   </tr>
 </table>
 
-
-
 #### For Preferred name changes/dead names:
 
 Email Template
@@ -80,8 +74,7 @@ Cc: People Ops
 
 Hi team,
 
-[TEAMMATE NAME] has requested a legal name change to _____. The People team has approved this request. Please update the systems listed below and any other various systems.
-
+[TEAMMATE NAME] has requested a legal name change to **\_**. The People team has approved this request. Please update the systems listed below and any other various systems.
 
 <table>
   <tr>
@@ -107,13 +100,10 @@ Hi team,
   </tr>
 </table>
 
-
-
 ### Step 4: People Ops will respond to confirm the updates have been made and clarify any remaining updates that need to be actioned by the teammate directly
 
-
-* [Teammate bio](../../../../team.md) in handbook
-* If the employee interacts with customers, clients, or vendors, consider notifying them of the name change to maintain transparency.
-* Slack profile
-* Gmail signature
-* Human Interest (if legal name change)
+- [Teammate bio](../../../../team.md) in handbook
+- If the employee interacts with customers, clients, or vendors, consider notifying them of the name change to maintain transparency.
+- Slack profile
+- Gmail signature
+- Human Interest (if legal name change)
