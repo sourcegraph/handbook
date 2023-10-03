@@ -141,7 +141,7 @@
     "remark-rehype": "^10.1.0",
     "sass": "^1.43.4",
     "strip-ansi": "^7.0.1",
-    "typescript": "^4.4.4"
+    "typescript": "^4.9.5"
   },
   "resolutions": {
     "unist-util-is": "5.1.1",
