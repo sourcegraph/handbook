@@ -131,7 +131,7 @@
     "globby": "^11.1.0",
     "hast": "^1.0.0",
     "hast-util-select": "^5.0.5",
-    "jest": "^27.4.5",
+    "jest": "^27.5.1",
     "line-column": "^1.0.2",
     "markdown-link-check": "^3.8.7",
     "mdast": "^3.0.0",
