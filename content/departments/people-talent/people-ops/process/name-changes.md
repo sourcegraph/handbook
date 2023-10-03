@@ -102,7 +102,7 @@ Hi team,
 
 ### Step 4: People Ops will respond to confirm the updates have been made and clarify any remaining updates that need to be actioned by the teammate directly
 
-- [Teammate bio](../../../../team.md) in handbook
+- [Teammate bio](../../../../team/index.md) in handbook
 - If the employee interacts with customers, clients, or vendors, consider notifying them of the name change to maintain transparency.
 - Slack profile
 - Gmail signature
