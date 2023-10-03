@@ -5,7 +5,7 @@ Going forward, new managed services - internal and external - should aim to be d
 
 ## [Cody Gateway](../../cody/cody-gateway/index.md)
 
-> [!NOTE] Cody Gateway infrastructure is owned by the Core Services team, but the service is owned by #discuss-apis
+> [!NOTE] Cody Gateway infrastructure is owned by the Core Services team, but the service is owned by #discuss-cody-services.
 
 ## [Pings service](./pings.md)
 
