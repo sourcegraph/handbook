@@ -12,7 +12,10 @@ Region must be selected during instance creation, as modifying it aftewards woul
    - European Union (Germany, Frankfurt) - `europe-west3`
    - United Kingdom (London) - `europe-west2`
 
-1. Asia (Tokyo, Japan) - `asia-northeast1`
+1. Asia
+
+   - Japan, Tokyo - `asia-northeast1`
+   - South Korea, Seoul - `asia-northeast3`
 
 1. Australia (Sydney) - `australia-southeast1`
 
