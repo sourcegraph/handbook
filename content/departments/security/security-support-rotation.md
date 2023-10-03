@@ -128,6 +128,6 @@ We are notified when a user submits request for vendor procurement.
 3. Click on the security review section and a side window will open on the right
 4. Here you will find a few questions answered and any supporting documents attached.
    a. If there is incomplete information in the submission, please indicate that in the comments and tagging the requestor. You can also reach out to them directly via Slack
-6. Review the attached documents with above guidelines in mind
-7. If a security portal link from the vendor is provided, request access and review information available there
-8. Click approve or deny based on your review
+5. Review the attached documents with above guidelines in mind
+6. If a security portal link from the vendor is provided, request access and review information available there
+7. Click approve or deny based on your review
