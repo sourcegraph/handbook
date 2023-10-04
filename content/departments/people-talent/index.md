@@ -153,7 +153,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Reporting violations
 
 - [Anti-harassment](../../company-info-and-process/communication/code_of_conduct.md#respect-each-other)
-- [Anti-corruption](people-ops/process/anti-corruption.md) 
+- [Anti-corruption](people-ops/process/anti-corruption.md)
 - [Code of business conduct & ethics](../../company-info-and-process/communication/code_of_conduct.md)
 - [How to raise a cofidential issue](../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
@@ -186,7 +186,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Involuntary seperations](people-ops/process/leaving.md)
 - [Severance information & getting paid](people-ops/process/leaving.md)
 - [Cobra](people-ops/process/leaving.md)
-- [Exit survey/meeting](people-ops/process/teammate-sentiment/exit-survey.md) 
+- [Exit survey/meeting](people-ops/process/teammate-sentiment/exit-survey.md)
 - [Equity FAQs](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph)
 
 ### Misc
