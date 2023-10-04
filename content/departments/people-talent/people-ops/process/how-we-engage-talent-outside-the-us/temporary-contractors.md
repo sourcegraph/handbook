@@ -6,6 +6,8 @@ All contractor hires must be approved by the following teams prior to engaging s
 
 ## Onboarding Process
 
+Involved stakeholders can reference [this spreadsheet](https://docs.google.com/spreadsheets/d/1vaBa-XjALNVt04m7M0bXmv1QnZWIJ84hBMJlgj-AKv4/edit#gid=542129376) to determine what type of temporary contractor the teammate will be and what onboarding steps should be completed. Process and details outlined below.
+
 1. People Ops is alerted to incoming contractors via the [external vendor request process](../../../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request). PeopleOps will be tagged in an Airbase ticket for review/approval, along with TechOps, Security, Finance, and Legal.
 2. People Ops will confirm that we have headcount/approval for the role, then will complete the Airbase task assigned to the People Ops team.
 3. Other involved stakeholders have their own tasks (TechOps, Legal, Security). Once all teams have signed off on the requested vendor, People Ops must confirm:
