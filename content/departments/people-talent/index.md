@@ -78,7 +78,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Who is eligible for a merit increase](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
   - [When can you get a promotion](people-ops/process/teammate-sentiment/impact-reviews/index.md#how-to-get-a-promotion)
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
-    - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md) 
+    - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
     - [How to view your current level](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-can-i-see-my-role-and-level)
   - [How we determine new compensation for promotions](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md#how-does-my-level-change-over-time)
   - [How we determine new equity for promotion](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#how-are-option-grants-calculated-for-promotions)
@@ -318,7 +318,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - Types of employment
   - US-based Teammates(COMING SOON)
   - [Contractors](people-ops/process/how-we-engage-talent-outside-the-us/index.md#contractors)
-  - [PEO](people-ops/tools/peo.md) 
+  - [PEO](people-ops/tools/peo.md)
 - [New Hire Videos](new-hire-videos.md)
 - [Compliance training - People Ops process](people-ops/tools/internal-compliance.md)
 - [BambooHR - People Ops process](people-ops/tools/bamboohr.md)
@@ -353,9 +353,10 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
   - [Exit interviews](people-ops/process/leaving.md#exit-interviews)
   - [Offboarding process](people-ops/tools/internal-offboarding.md#offboarding-checklist)
- - [Employment verification - People Ops process](people-ops/tools/internal-employment-verification.md)
+- [Employment verification - People Ops process](people-ops/tools/internal-employment-verification.md)
 
 ### Offboarding
+
 - [Offboarding - People Ops process](people-ops/tools/internal-offboarding.md)
 
 ### Teammate swag
