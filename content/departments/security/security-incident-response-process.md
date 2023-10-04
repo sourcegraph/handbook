@@ -35,7 +35,7 @@ Follow up actions and rule explanations are documented in the [Falco playbooks](
 
 Once the incident has been declared, the incident lead must coordinate the work required as described above.
 
-The incident lead should create a checklist of items for the incident by following the template provided [here](https://docs.google.com/document/d/1MGnPd8FBoMBUnAqHmGaoXBVf57WGeKpDLPsnQUTvBjk/edit?usp=sharing).
+The incident lead should create a checklist of items for the incident by following the template provided [here](https://docs.google.com/document/d/1WMXMmoPIo1amdd_FhOTKE2DDjTaCSMBooi_7OFMsaHA/edit?usp=sharing).
 
 The incident lead is not expected to carry out all of this work themselves – they should bring in relevant team members as required.
 
