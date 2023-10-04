@@ -16,7 +16,7 @@ We believe that mentorship is a key part of our culture, and through this progra
 - **Career/Leadership Development**: Mentorship can accelerate the career growth of both mentee and mentor. The mentee will gain guidance on career paths, goal setting, and skill development. The mentor will gain exposure to leadership and opportunities to refine their coaching skills. Mentorship can groom future leaders by imparting leadership skills and fostering leadership qualities in mentees.
 - **Confidence Building**: Interacting with a mentor can boost a mentee's self-confidence and self-esteem, as they receive affirmation and guidance.
 - **Problem Solving**: Mentors can assist mentees in navigating challenges and solving problems they encounter in their personal and professional lives.
-- Diverse Perspectives: Mentorship exposes mentees/mentors to different viewpoints, experiences, and approaches, enhancing their decision-making abilities.
+- **Diverse Perspectives**: Mentorship exposes mentees/mentors to different viewpoints, experiences, and approaches, enhancing their decision-making abilities.
 - **Personal Growth**: Beyond career benefits, mentorship can contribute to personal growth, including improved communication, adaptability, and emotional intelligence.
 
 **External Resources on Benefits of Mentorship:**
