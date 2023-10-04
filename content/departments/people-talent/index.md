@@ -310,8 +310,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ## RESOURCES FOR PEOPLE TEAM
 
-[People Ops Processes + Tools](people-ops/process/index.md)
-
 ### Onboarding
 
 - [Onboarding - People Ops Process](people-ops/tools/internal-onboarding.md)
