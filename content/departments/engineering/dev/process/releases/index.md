@@ -12,24 +12,24 @@ This document describes how we release Sourcegraph.
 
 As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows (version numbers are subject to change):
 
-| Version | Feature Freeze Date   | Code Freeze Date   | Release Date      |
-| ------- | ------------------ | ----------------- | ----------------- |
-| 5.3     | January 31, 2024  | February 12, 2024    | February 14, 2024    |
+| Version | Feature Freeze Date | Code Freeze Date  | Release Date      |
+| ------- | ------------------- | ----------------- | ----------------- |
+| 5.3     | January 31, 2024    | February 12, 2024 | February 14, 2024 |
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
 #### Current patch schedule
 
-| Patch date         |
-| ------------------ |
-| October 18, 2023      |
-| November 01, 2023      |
-| November 15, 2023    |
-| November 29, 2023    |
+| Patch date        |
+| ----------------- |
+| October 18, 2023  |
+| November 01, 2023 |
+| November 15, 2023 |
+| November 29, 2023 |
 | December 13, 2023 |
 | December 27, 2023 |
-| January 10, 2024 |
-| January 24, 2024 |
+| January 10, 2024  |
+| January 24, 2024  |
 
 Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
 selected from the guild.
