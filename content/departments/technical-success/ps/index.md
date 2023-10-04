@@ -111,8 +111,8 @@ Below is our high-level prioritized roadmap as of FY23Q4:
 
 - Priority Support with 24x7 SLAs
 - Dedicated Support Engineers
-- Slack Support
 - Slack Account Management
+- Slack Technical Support
 
 <strong>Premium Support Resources:</strong>
 
@@ -124,12 +124,12 @@ Below is our high-level prioritized roadmap as of FY23Q4:
 
 Sourcegraph account and support teams can communicate with the customer via Slack only if the appropriate Slack services offering has been purchased. The available Slack services are:
 
-- Slack Support - Access to Support Engineering via Slack with better visibility into the Support ticketing process. With Slack Support, support tickets can be created directly from the Slack channel, and the customer will have a direct line to the Support Engineers reviewing their issues.
-- Slack Account Management - Improved communications with the account team via Slack. The following are included with this offering:
+- Slack Account Management - Personalized communication and collaboration with the account team via Slack. The following are included with this offering:
   - Standardized Training and Enablement Materials through Slack, including the ability for users to directly ask questions during their Sourcegraph onboarding
-  - Monthly usage reports sent via Slack (for non airgapped customers)
+  - Monthly usage reports sent via Slack (for customers that share telemetry data with us)
   - New release messages and upgrade planning
   - Direct line to provide product feedback
+- Slack Technical Support - Access to Support Engineering via Slack providing end users and admins with a personalized support experience and better visibility into the Support process. With Slack Technical Support, tickets are created directly from the Slack channel, and customers have a direct line to the Support Engineers reviewing their issues. Slack Account Managed is also included in this service.
 
 Also, Commercial Customers (based on our [market segmentation](../../../strategy-goals/strategy/index.md#market-segmentation)) who would not otherwise have a dedicated TA will get one with the purchase of Slack Account Management.
 
@@ -139,11 +139,11 @@ Slack is included with the purchase of various Professional Services packages as
   - Slack channels only included during the duration of the implementation. Slack Support and/or Slack Account Management would need to be purchased separately for the channel to continue following the implementation.
 - <strong>Managed Services (Both Packages)</strong>
   - Slack Support and Slack Account Management Included
-- <strong>24/7 SLAs</strong>
+- <strong>Priority 24/7 SLAs</strong>
   - Slack Support and Slack Account Management Included
 - <strong>Dedicated Support</strong>
   - Slack Support and Slack Account Management Included
-- <strong>Slack Support</strong>
+- <strong>Slack Technical Support</strong>
   - Slack Account Management Included
 
 > [!NOTE] If your customer has opted out of our Slack offerings, please follow the [Slack Deprovisioning Steps](https://docs.google.com/document/d/133Cn0cGetSTo_aBF9xLp26elegcuN_uZBrzWuoi16cs/edit). If applicable, the channel will be deprovisioned at time of renewal.
