@@ -1,4 +1,4 @@
-# Ship
+# Infrastructure
 
 ## Teams
 
@@ -9,7 +9,7 @@
 
 ## OKRs
 
-- [Ship OKRs](http://go/ship-okrs)
+- [Infrastructure OKRs](http://go/infra-okrs)
 
 ## Documents
 
