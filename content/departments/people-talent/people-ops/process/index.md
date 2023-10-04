@@ -15,7 +15,6 @@ For teammates
 - [Moving + relocation](moving.md)
 - [Raising concerns](../../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 - [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](compensation-and-leveling/compensation-role-changes.md)
-- [Teammate Sentiment](teammate-sentiment/index.md)
 - [Name Change Process](name-changes.md)
 
 For People Ops
