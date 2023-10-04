@@ -153,6 +153,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Reporting violations
 
 - [Anti-harassment](../../company-info-and-process/communication/code_of_conduct.md#respect-each-other)
+- [Anti-corruption](people-ops/process/anti-corruption.md)
 - [Code of business conduct & ethics](../../company-info-and-process/communication/code_of_conduct.md)
 - [How to raise a cofidential issue](../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
@@ -185,6 +186,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Involuntary seperations](people-ops/process/leaving.md)
 - [Severance information & getting paid](people-ops/process/leaving.md)
 - [Cobra](people-ops/process/leaving.md)
+- [Exit survey/meeting](people-ops/process/teammate-sentiment/exit-survey.md)
 - [Equity FAQs](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md#are-my-vested-stock-options-impacted-if-i-leave-sourcegraph)
 
 ### Misc
@@ -312,11 +314,14 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Onboarding
 
+- [Onboarding - People Ops Process](people-ops/tools/internal-onboarding.md)
 - Types of employment
   - US-based Teammates(COMING SOON)
   - [Contractors](people-ops/process/how-we-engage-talent-outside-the-us/index.md#contractors)
   - [PEO](people-ops/tools/peo.md)
 - [New Hire Videos](new-hire-videos.md)
+- [Compliance training - People Ops process](people-ops/tools/internal-compliance.md)
+- [BambooHR - People Ops process](people-ops/tools/bamboohr.md)
 
 ### Legal support
 
@@ -331,6 +336,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 ### Role / comp / equity change process
 
 - How to process an equity increase (COMING SOON)
+- Quarterly equity grant [approval process](people-ops/process/compensation-and-leveling/equity-internal.md#board-approval-process) and [internal documentation](https://docs.google.com/document/d/1W_rpuSFhem1Mf1uoKDt-HrUBU-fhdEkGssWqx4qIIQw/edit#heading=h.r7q2r0unofbt)
 - How to process a compensation increase (COMING SOON)
   - Informing PEO re: comp increases (COMING SOON)
 - Template letters:
@@ -347,6 +353,11 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
   - [Exit interviews](people-ops/process/leaving.md#exit-interviews)
   - [Offboarding process](people-ops/tools/internal-offboarding.md#offboarding-checklist)
+- [Employment verification - People Ops process](people-ops/tools/internal-employment-verification.md)
+
+### Offboarding
+
+- [Offboarding - People Ops process](people-ops/tools/internal-offboarding.md)
 
 ### Teammate swag
 
