@@ -24,7 +24,7 @@ BambooHR is the source of truth for our equity grants. This process describes da
 
 ## Entering a new grant
 
-The People & Talent Teams are responsible for entering new grants. Managers may [enter new grants as outlined in the handbook](../compensation-and-leveling/index.md), but should consult with their People Partner first.
+The People & Talent Teams are responsible for entering new grants. Managers may enter new grants [as outlined in the handbook](compensation-role-changes.md#requesting-a-compensation-change-equity-only), but should consult with their People Partner first.
 
 1. Navigate to each employee’s BambooHR Profile>Job Tab
 2. Scroll to the Options section and select “+Add Options.” Enter the following information:
