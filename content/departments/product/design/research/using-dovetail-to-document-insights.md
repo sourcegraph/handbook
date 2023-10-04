@@ -1,4 +1,4 @@
-# Synthesizing and documenting insights in Dovetail
+# Using Dovetail to document insights
 
 The design team uses [Dovetail](https://dovetailapp.com/) to synthesize and document research insights from user interviews, usability testing, and more. Previously, design research data, synthesis, and research reports were scattered across different tools, making it difficult to quickly track and search past findings, especially cross-team efforts. As we scale our product teams, customer base and invest more in more frequent user research these problems become harder to solve.
 We use Dovetail to make sure that our research data, both raw and synthesized, is located in one place, ultimately making it easily searchable, shareable, and scalable across research projects and disparate teams.

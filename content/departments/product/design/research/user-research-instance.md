@@ -4,7 +4,7 @@ One of our tools for carrying out usability testing and getting feedback is our 
 
 ## Why do we have a dedicated instance for user research?
 
-The product and design team uses a mix of [moderated and unmoderated user research(../index.md) to validate and improve on our work. For some early-stage design research, interactive Figma prototypes do the job. But for many things we want to test, we need to use the real Sourcegraph application, not an interactive prototype.
+The product and design team uses a mix of [moderated and unmoderated user research](../index.md) to validate and improve on our work. For some early-stage design research, interactive Figma prototypes do the job. But for many things we want to test, we need to use the real Sourcegraph application, not an interactive prototype.
 
 Sourcegraph.com is not an effective alternative, as the experience on .com doesn’t reflect the actual experience on a customer’s own instance. This in turn influences the research itself so that we may not actually get relevant or valid research insights. Similarly, S2 is internal-only to Sourcegraph, and can’t be accessed outside of the Sourcegraph team.
 
