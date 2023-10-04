@@ -1774,8 +1774,8 @@ alex_kemper:
 nelson_araujo:
   name: Nelson Araujo
   reports_to: eng_lead
-  role: Head of Ship
-  manager_role_slug: head_ship
+  role: Head of Infrastructure
+  manager_role_slug: head_infra
   github: nelsonjr
   pronouns: he/him
   location: Redmond, WA, USA 🇺🇸
@@ -1785,31 +1785,31 @@ nelson_araujo:
     Nelson joined Sourcegraph in 2023.
     Nelson loves to tinker with technology in his spare time.
 
-interim_ship_cloudops:
+interim_infra_cloudops:
   name: Rafal Gajdulewicz
-  reports_to: head_ship
+  reports_to: head_infra
   role: Interim Cloud Operations Lead (and Core Services TL)
   manager_role_slug: ship_cloudops_lead
   hide_on_team_page: true
 
-interim_ship_release:
+interim_infra_release:
   name: Nelson Araujo
-  reports_to: head_ship
-  role: Interim Releases Lead (and Head of Ship)
+  reports_to: head_infra
+  role: Interim Releases Lead (and Head of Infrastructure)
   manager_role_slug: ship_release_lead
   hide_on_team_page: true
 
-interim_ship_core_services:
+interim_infra_core_services:
   name: Nelson Araujo
-  reports_to: head_ship
-  role: Interim Core Services Lead (and Head of Ship)
+  reports_to: head_infra
+  role: Interim Core Services Lead (and Head of Infrastructure)
   manager_role_slug: ship_core_services_lead
   hide_on_team_page: true
 
-interim_ship_devinfra:
+interim_infra_devinfra:
   name: Nelson Araujo
-  reports_to: head_ship
-  role: Interim Developer Infrastructure Lead (and Head of Ship)
+  reports_to: head_infra
+  role: Interim Developer Infrastructure Lead (and Head of Infrastructure)
   manager_role_slug: ship_devinfra_lead
   hide_on_team_page: true
 
