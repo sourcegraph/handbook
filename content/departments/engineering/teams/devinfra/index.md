@@ -69,7 +69,7 @@ You can also interact with us on **GitHub**:
 - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#devinfra-project).
 - We have a public [GitHub Discussions board](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience). You can also create a discussion directly on our board with the command `sg feedback`
 
-> NOTE: When referring to this team, prefer to use _Developer Infrastructure_ or _DevInfra_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
+> [!NOTE] When referring to this team, prefer to use _Developer Infrastructure_ or _DevInfra_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
 
 ## Principles
 

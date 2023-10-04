@@ -74,7 +74,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 **Resources:**
 
-- [Onboarding checklist](../../../../company-info-and-process/onboarding/index.md)
+- [Onboarding checklist](../process/onboarding.md)
 
 #### Impact of org and role changes
 

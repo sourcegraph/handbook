@@ -273,26 +273,30 @@ are working on this piece of code?
 
 #### Pairing Exercise
 
-- **Interviewers:** Thorsten Ball, Head of Source and Cody tech lead
+- **Interviewers:** Beyang Liu, CTO/Co-founder
 
-- **Duration:** 15-minute setup call, then candidate works asynchronously on exercise, with ability to ask questions in a Slack chat. Expectation is that candidate finishes project after ~1d (independent of hours actually worked on it)
+- **Duration:** 30-minute kick-off session + up to 2 hours to work on your own:
+
+  - The first 15 minutes will be live, where we'll ensure that the dev environment is setup.
+  - For the next 15 minutes, as you get started on the project, the interviewer will be actively online to answer any questions that you have via Slack.
+  - Then, the expectation is that you finish the project within 2 hours.
 
 - **How to prepare:** Please complete these steps prior to the interview:
 
-  - Create sourcegraph.com account and an access token for it
+  - Create sourcegraph.com account and an access token for it, so you can start using Cody in VSCode
   - Have a working VS Code installation on your local machine
-  - git clone the Sourcegraph repository: https://github.com/sourcegraph/sourcegraph
-  - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/sourcegraph/blob/main/client/cody/CONTRIBUTING.md
-  - If you get stuck, we will go over it on the call
-  - During the call, you'll get invited by the interviewer to a shared Slack channel in which you can ask questions
+  - git clone the Sourcegraph Cody repository: https://github.com/sourcegraph/cody
+  - Try to get as far as you can setting up the Cody dev environment: https://github.com/sourcegraph/cody/blob/main/vscode/CONTRIBUTING.md
+  - If you get stuck, we will go over it on the meeting
+  - During the meeting, you'll get invited by the interviewer to a shared Slack channel in which you can ask questions
 
 - **Details:** In the 15min setup call, we'll make sure your development environment is correctly setup. You can ask questions about it too.
 
-  Then we'll ask you to add one feature of your choosing to Cody, using Cody. See [this list of tickets](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Acody%2Fvscode) as possible source of inspiration.
+  Then we'll ask you to add a hypothetical feature to Cody.
 
-  You can ask questions in a shared Slack chat.
+  You can ask questions in a shared Slack chat for 15 minutes after your meeting.
 
-  Share your final results as a pull request in the Slack channel.
+  When you are finished, please share your final results as a pull request in the Slack channel.
 
 #### AI Coding Exercise
 
@@ -352,7 +356,7 @@ Finally, you'll walk us through your solution in a 45-minute review session. Beg
 
 - **Interviewers:** Two engineers on the team/org they would manage
 
-- **Duration:** 60-minutes.
+- **Duration:** 45-60-minutes.
 
 - **Details:** The purpose of this interview is to assess whether the candidate has the necessary technical depth to effectively lead a high quality engineering team.
 
@@ -360,6 +364,6 @@ Finally, you'll walk us through your solution in a 45-minute review session. Beg
 
 - **Interviewers:** Two cross-functional peers
 
-- **Duration:** 60-minutes.
+- **Duration:** 30-60-minutes.
 
 - **Details:** This interview will be focused on domain knowledge, functionally-specific depth, and breadth. The purpose of this interview is to assess whether the candidate will work well with teammates outside of engineering to achieve what is in the best interest of Sourcegraph and our customers.

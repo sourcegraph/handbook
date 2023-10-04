@@ -4,7 +4,7 @@ These pages document Sourcegraph-specific use cases, scenarios, and tools for de
 
 For general observability development, please refer to the [observability development documentation](https://docs.sourcegraph.com/dev/background-information/observability) instead, which includes links to useful how-to guides.
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
+> [!NOTE] Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), for Sourcegraph.com-specific documentation see the [Sourcegraph.com monitoring documentation](./dotcom.md), and for Cloud Observability see [Sourcegraph Cloud Observability](../../../../cloud/technical-docs/observability/index.md).
 
 - [**Sourcegraph.com observability**](./dotcom.md)
   - [Sourcegraph monitoring guide](monitoring.md)

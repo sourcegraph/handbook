@@ -15,7 +15,7 @@
 
 - Ad-hoc customer meetings
   - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
-- As requests come in from customers make sure you [surface feedback to the product team](../../../engineering/product/process/feedback/surfacing_product_feedback.md)
+- As requests come in from customers make sure you [surface feedback to the product team](../../../product/process/feedback/surfacing_product_feedback.md)
 - Customer slack channel communication
   - Be mindful of customers with shared slack channels. Ensure you're monitoring the requests coming in and that they are getting appropriate responses in a timely manner.
 
@@ -68,9 +68,7 @@
 
 ### New Customers
 
-- [Knowledge transfer](../team-culture/working-with-customers.md#post-sales-customer-touchpoints) with sales & CE team
-- [Partnership kickoff](../team-culture/working-with-customers.md#post-sales-partnership-kickoff)
-- [Customer onboarding](../team-culture/working-with-customers.md#user-onboarding)
+- [Post-sales handoff](../team-culture/working-with-customers.md#post-sales-handoff)
 
 ### Account Transitions
 

@@ -40,6 +40,10 @@ Install the Cloud SQL proxy by running this command with `gcloud`:
   gcloud components install cloud_sql_proxy
 ```
 
+#### Request permission using Entitle
+
+Request the "Sourcegraph Dot Com projects" bundle using Entitle to ensure you have the correct GCP permissions to access the databases.
+
 #### Command line only use (pgsql)
 
 You may use these gcloud commands to connect directly to the databases:
@@ -54,7 +58,9 @@ You may use these gcloud commands to connect directly to the databases:
     gcloud beta sql connect --project sourcegraph-dev sg-cloud-code-intel-9fc67e507c  --user=dev-readonly -d=sg
   ```
 
-  Go to [Example Queries](#example-queries) to continue
+If you receive an error while connecting, ensure you have the required permissions through Entitle and re-request them if they have expired.
+
+Go to [Example Queries](#example-queries) to continue
 
 #### Proxy for advanced use
 

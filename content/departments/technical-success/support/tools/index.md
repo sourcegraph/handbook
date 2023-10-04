@@ -33,7 +33,7 @@ In order to have good security and risk mitigation practices, only a subset of t
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](../process/support-managed-instances.md) (you can find which customers have a managed instance [here](../process/customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Jason and/or Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](../process/support-managed-instances.md) (you can find which customers have a managed instance [here](../process/customer-exceptions.md)). If you need to access logs for these customers, first refer to the [managed instance dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md). Each instance should have instructions on requesting access to its respective Cloud infrastructure via [Entitle](../../../security/tooling/entitle.md).
 
 Read more about working with managed instances [here](../process/support-managed-instances.md).
 
@@ -46,7 +46,7 @@ There are some test environments created specifically for the CS team to run tes
 - [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
 - [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
 
-> Note: For the above test instances Oauth based sign-in methods may be subject to change during testing. If you've signed up for an account via Oauth make sure to create a password for use with the builtin sign-in method. You can accomplish this under your user settings at _https://cse-aws-test.sgdev.org/users/$username/settings/security_. This interface is under your user settings.
+> [!NOTE] For the above test instances Oauth based sign-in methods may be subject to change during testing. If you've signed up for an account via Oauth make sure to create a password for use with the builtin sign-in method. You can accomplish this under your user settings at _https://cse-aws-test.sgdev.org/users/$username/settings/security_. This interface is under your user settings.
 
 Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) to the Global settings if you are testing, experimenting or upgrading [cse-k8s](https://cse-k8s.sgdev.org) or [cse-aws-test](https://cse-aws-test.sgdev.org).
 
@@ -73,13 +73,13 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 - [Phabricator test instance ](https://phabricator.sgdev.org/)
 - [Dogfood Perforce instance](../process/p4-enablement.md)
 
-> NOTE: You can find all the login credentials for the test instances in your 1Password account.
+> [!NOTE] You can find all the login credentials for the test instances in your 1Password account.
 
-> NOTE: It is not advised to use a personal AWS account for testing. Reach out to #delivery to be added to the Sourcegraph org on AWS
+> [!NOTE] It is not advised to use a personal AWS account for testing. Reach out to #delivery to be added to the Sourcegraph org on AWS
 
 ## Troubleshooting
 
-> WARNING: Please make sure that if any tools are sent to customers that they are approved external tools to be used by them. There are certain tools with licenses that Google and other companies deem inappropriate and could get them and us into issues.
+> [!WARNING] Please make sure that if any tools are sent to customers that they are approved external tools to be used by them. There are certain tools with licenses that Google and other companies deem inappropriate and could get them and us into issues.
 >
 > If you are ever unsure of the license of a tool or whether it should be used by a customer, don't hesitate to reach out to Support leadership.
 
@@ -87,7 +87,7 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 
 The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private, and you are welcome to add your projects to this repository, but please speak to Aimee about your ideas and plans before development starts to avoid possible conflicts.
 
-> NOTE: Please avoid working directly on the main branch.
+> [!NOTE] Please avoid working directly on the main branch.
 
 [Link to Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal)
 
@@ -120,7 +120,7 @@ Enter your Sourcegraph.com access token and click "Submit".
 
 Creating customized scripts can help automate a repetitive task for the team and the customers. You can find all the existing scripts in this [directory](https://github.com/sourcegraph/support-scripts) and are welcome to write and share your own custom scripts with the team.
 
-> WARNING: This is a **public** repository. Please \*_do not_ add any private information to any part of the repository, including the names of our customers.
+> [!WARNING] This is a **public** repository. Please \*_do not_ add any private information to any part of the repository, including the names of our customers.
 
 [Link to GitHub Repository for Scripts](https://github.com/sourcegraph/support-scripts)
 

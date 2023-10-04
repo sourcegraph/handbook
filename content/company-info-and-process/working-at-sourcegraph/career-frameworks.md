@@ -18,13 +18,13 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 ## Engineering
 
-- Software Engineering
-  - [Engineering career development](../../departments/engineering/dev/career-development/index.md)
-  - [Engineering career development framework](../../departments/engineering/dev/career-development/framework.md)
-- Product
-  - [Product Management career development framework](../../departments/engineering/product/career-development/framework.md)
-- Design
-  - [Design career development framework](../../departments/engineering/design/career-development.md)
+- [Engineering career development](../../departments/engineering/dev/career-development/index.md)
+- [Engineering career development framework](../../departments/engineering/dev/career-development/framework.md)
+
+## Product
+
+- [Product Management career development framework](../../departments/product/career-development/framework.md)
+- [Design career development framework](../../departments/product/design/career-development.md)
 
 ## Legal
 

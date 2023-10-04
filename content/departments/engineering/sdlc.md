@@ -1,95 +1,89 @@
-# Software development life cycle
+# Software Development Life Cycle (SDLC)
 
-<span class="badge badge-note">SOC2/CI-98</span>
+## Introduction
 
-> NOTE: Please follow [this guidance](#contributing-to-this-page) on how to contribute to this page.
-
-This document explains the workflow for driving changes on the Sourcegraph software application.
+This handbook outlines the software development life cycle (SDLC) methodology used at Sourcegraph. It serves as a reference guide for all team members involved in the software development process. Our SDLC methodology is designed to ensure effective planning, execution, and delivery of software projects while maintaining transparency and accountability.
 
 ## Overview
 
-Sourcegraph uses GitHub issues to track and drive changes to its application. They are the single source of truth, and are structured as following:
+At Sourcegraph, we utilize a structured approach to software development. Our SDLC methodology is primarily driven by GitHub issues, which act as the central repository for tracking and managing changes to our software applications. This methodology includes the following key components:
 
-- Roadmap issues
-  - Tracking issues
-    - Standard issues
+1. **Roadmap Items**: We maintain a roadmap tracker to list objectives for each quarter, with individual issues detailing these objectives. Each issue is tagged with ownership information, including the owning organization, team, and assignees responsible for updates.
 
-### Roadmap items
+2. **Tracking Issues**: Tracking issues are used to capture planned and ongoing work related to milestones, projects, RFCs (Request For Comments), goals, and more. They serve as a planning tool, facilitate progress check-ins, and aid in stakeholder communication.
 
-At the very top, Sourcegraph uses roadmap issues, found in the [roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
-Each individual issue is tagged with their owning organization, owning team and assignees, who are in charge of updating the issue during the quarter.
+3. **Standard Issues**: Standard issues represent tasks, bugs, or exploratory work owned by specific teams, indicated by labels such as `team/NAME`. Teams have flexibility in defining the content and labels for standard issues.
 
-A roadmap issue contains the following sections:
-
-- Problem definition
-- Measure of success
-- Solution summary
-- What specific customers are we iterating on the problem with?
-- Impact on use cases
-- Delivery plan
-
-The purpose of these sections is make the objectives definition and understanding the current status clear for every teammate, regardless of their role.
-
-### Tracking issues
-
-A tracking issue is a GitHub issue that captures the planned and on-going work of a team’s milestone, project, RFC, goal or anything else of the sort and are mentioned in roadmap items they relate to. This artifact is a medium used for planning, progress check-ins and stakeholder communication.
-
-A [detailed guide about tracking issues](dev/process/tracking_issues.md) is available.
-
-### Standard issues
-
-A standard issue captures a task, a bug or an explocation owned by a team (assigned through a label of the form `team/NAME`). Other expectations toward the issue content and labels are up to its owning team.
-
-A [detailed page about issues](working-with-issues.md) is available.
-
-## Additional artefacts
-
-To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues:
-
-- [PR-FAQ](../engineering/job-fair.md) to communicate high-level product problems that need to be solved.
-- [Request For Comments](../../company-info-and-process/communication/rfcs/index.md) to communicate around specific problems and make decisions.
+4. **Additional Artifacts**: In addition to GitHub issues, we use PRDs to communicate product plans and RFCs to discuss specific issues and make decisions.
 
 ## Workflow
 
-The flow starts with a GitHub issue that will be the single source of truth for the initiative and will be referenced by all produced artefacts.
+Our software development process follows a structured workflow:
 
-### Design
+### Design Phase
 
-See [Design process](design/design_process.md).
+The design phase involves defining the solution to a problem. Detailed design processes are described in our [Design process](../product/design/index.md#design-process).
 
-### Implementation
+#### Product Lifecycle Labels
 
-With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](dev/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
+We use labels to communicate the quality and support level of our products and features to our customers. These labels are assigned subjectively but not arbitrarily, following these guidelines:
 
-Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document or RFC, though an Engineering Manager or Engineer can also lead the work.
+- **Early Access Program (EAP)**:
 
-If complex problems surface during this step, an RFC can be created to frame the discussions around that particular problem to provide an adequate solution.
+  - Shared privately with NDA's customers.
+  - Feature implementations represent super early functionality.
+  - Not suitable for production workloads.
+  - Goals: Assess potential, identify improvements.
+
+- **Experimental**:
+
+  - Shared publicly.
+  - Feature implementations represented are in super early functionality.
+  - Unsupported.
+  - Goals: Assess potential, identify improvements.
+
+- **Beta (n)**:
+
+  - Shared publicly (although private betas are sometimes used).
+  - Features are fully implemented, although may need additional quality and performance improvement.
+  - Best-effort support.
+  - No guarantee of stability between beta versions.
+  - Goals: Gather feedback, fix bugs, optimize performance, train sales and support staff, finalize documentation.
+
+- **General Availability (GA)**:
+  - Publicly available.
+  - Suitable for production workloads.
+  - Fully supported using industry best practices.
+  - Performance optimized.
+  - No new features without sufficient "bake time."
+  - Come with scenario-complete docs + samples.
+  - Sales and support staff trained and ready to go.
+  - Goals: Continual stability and improvement.
 
 ### Verification and Testing
 
-The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. The solution is scrutized to evaluate if the requirements stated in the design phase are met.
+The testing phase ensures that the solution meets the specified requirements. Automated vulnerability scanning and SAST (Static Application Security Testing) are integrated into our CI/CD pipeline to assess security. Features may initially be behind feature flags for testing and continuous releasability.
 
-Security is evaluated through automated [vulnerability scanning and SAST](../security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
+[CI/CD pipelines](dev/tools/infrastructure/ci/index.md) cover testing on multiple levels, unit, integration and end-to-end. The application end-to-end test suites cover our containers and kubernetes deployments, and are running against real code hosts.
 
-If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
+After going through Continuous Integration, changes are automatically deployed on an internal Sourcegraph instance, referred to as "S2" that all Sourcegraph teammates use on a daily basis, allowing to further observe correctness before any releases are made.
 
-If the change is a feature, it may initially only be available behind a [feature flag](dev/tools/continuous_releasability.md#a-feature-flag-is-required-for-every-new-feature) in order to provide a mechanism to disable it if needed, as well as ensure that the continuous releasability contract is maintained.
+### Deployment Phase
 
-### Deployments
+Deployment methods:
 
-Sourcegraph uses two different mechanisms to deploy its changes in production:
+- [Continuous deployments for sourcegraph.com](dev/process/deployments/index.md#dotcom).
+- [Release-based model for managed instances](https://docs.sourcegraph.com/cloud#monthly-upgrades-and-maintenance).
 
-- [Continuous deployments](dev/index.md#sourcegraph-deployments-and-other-developer-test-instances) on soucegraph.com
-- [Release-based model](dev/process/releases/index.md) for [managed instances](../cloud/index.md).
+#### Versioning
 
-### Maintenance and monitoring
+Each version of a product represents its maturity and breadth of applicability:
 
-The Product Manager and the owning team are in charge of ensuring that the newly introduced changes are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn’t met, they write corrective changes to fix those issues.
+- **Major Versions**: Owned by marketing to communicate a significant jump forward, often as part of a launch event.
+- **Minor Versions and Revisions**: Owned by the product teams to communicate minor changes, new features, bug fixes, etc., at the team's discretion.
 
-## Team specifics
+You can find more detailed information on versioned releases at [Sourcegraph releases](dev/process/releases/index.md).
 
-Optionally, teams can specialize this document to further detail their own process, as long as it is compatible with the default SDLC covered in this document by creating a `sdlc.md` page under their own folder and linking toward it in this section, below this paragraph.
+### Maintenance and Monitoring
 
-## Contributing to this page
-
-Changes to this pages impacts all teams and therefore must be reviewed by organization leaders as well as the Developer Experience team.
+Product Teams (consisting of product and engineering team members) monitor changes in production, ensuring they meet requirements and observing behavior through monitoring, feedback, and bug reports. Corrective changes are made as needed.

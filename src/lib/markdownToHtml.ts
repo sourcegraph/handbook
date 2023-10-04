@@ -58,6 +58,7 @@ export default async function markdownToHtml(
         .use(remarkGfm)
         .use(remarkSpecialNoteBlocks)
         .use(remarkSpecialWarningBlocks)
+        .use(remarkSpecialImportantBlocks)
         // Automatically link and shorten GitHub issues, PRs, repos etc like on GitHub
         .use(remarkGitHub, {
             mentionStrong: false,
@@ -167,13 +168,13 @@ const rehypeExtractTitleFromH1: Plugin = () =>
     }
 
 /**
- * Note blockquote syntax, originally from docsite. Any blockquote starting with
- * "> NOTE:" is converted to <aside class="note">...</aside>.
+ * Note blockquote syntax with any blockquote starting with
+ * "> [!NOTE]" is converted to <aside class="note">...</aside>.
  */
 const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
     function (tree) {
         for (const node of tree.children) {
-            if (isSpecialBlockquote(node, 'NOTE:')) {
+            if (isSpecialBlockquote(node, '[!NOTE]', 'Note:')) {
                 // TODO: This overwrites the `hProperties` to add the class
                 // name. Improve it by adding the class name while respecting
                 // existing `hProperties` or existing classes.
@@ -183,17 +184,33 @@ const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
     }
 
 /**
- * Warning blockquote syntax, originally from docsite. Any blockquote starting with
- * "> WARNING:" is converted to <aside class="warning">...</aside>.
+ * Warning blockquote syntax with any blockquote starting with
+ * "> [!WARNING]" is converted to <aside class="warning">...</aside>.
  */
 const remarkSpecialWarningBlocks: Plugin<[], MdastRoot> = () =>
     function (tree) {
         for (const node of tree.children) {
-            if (isSpecialBlockquote(node, 'WARNING:')) {
+            if (isSpecialBlockquote(node, '[!WARNING]', 'Warning:')) {
                 // TODO: This overwrites the `hProperties` to add the class
                 // name. Improve it by adding the class name while respecting
                 // existing `hProperties` or existing classes.
                 node.data = { ...node.data, hName: 'aside', hProperties: { class: 'warning' } }
+            }
+        }
+    }
+
+/**
+ * Warning blockquote syntax with any blockquote starting with
+ * "> [!IMPORTANT]" is converted to <aside class="important">...</aside>.
+ */
+const remarkSpecialImportantBlocks: Plugin<[], MdastRoot> = () =>
+    function (tree) {
+        for (const node of tree.children) {
+            if (isSpecialBlockquote(node, '[!IMPORTANT]', 'Important:')) {
+                // TODO: This overwrites the `hProperties` to add the class
+                // name. Improve it by adding the class name while respecting
+                // existing `hProperties` or existing classes.
+                node.data = { ...node.data, hName: 'aside', hProperties: { class: 'important' } }
             }
         }
     }
@@ -210,15 +227,20 @@ const rehypeResponsiveTables: Plugin<[], Root> = () => tree => {
     })
 }
 
-function isSpecialBlockquote(node: MdastContent, startsWith: string): boolean {
+function isSpecialBlockquote(node: MdastContent, startsWith: string, replaceWith: string): boolean {
     if (node.type !== 'blockquote') {
         return false
     }
     const child = node.children[0]
     if (child.type === 'paragraph') {
         const text = child.children[0]
-        if (text.type === 'text') {
-            return text.value.startsWith(startsWith)
+        if (text.type === 'text' && text.value.startsWith(startsWith)) {
+            child.children.unshift({
+                type: 'strong',
+                children: [{ type: 'text', value: replaceWith }],
+            })
+            text.value = text.value.replace(startsWith, '')
+            return true
         }
     }
     return false

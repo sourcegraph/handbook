@@ -6,7 +6,7 @@ Welcome! We're excited to have you join the team. This document outlines the str
 
 You'll have to get some basics set up in your first few days:
 
-- Read the [general onboarding](../../../../company-info-and-process/onboarding/index.md#general-onboarding-checklist) page
+- Read the [general onboarding](../../../people-talent/people-ops/process/onboarding.md) page
 - Complete the onboarding for your role:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)

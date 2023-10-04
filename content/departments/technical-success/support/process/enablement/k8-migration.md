@@ -2,7 +2,7 @@
 
 The instructions in this document will guide you on the steps you need to take to migrate your Sourcegraph deployment from one Cluster to another. This is a process that involves the backing up of the Sourcegraph database by generating dumps and restoring the dumps in the newly deployed Sourcegraph instance on another cluster.
 
-> WARNING: **Only core data will be backed up**.
+> [!WARNING] **Only core data will be backed up**.
 >
 > These instructions will only back up core data including user accounts, configuration, repository-metadata, etc. Other data will be regenerated automatically:
 >
@@ -15,7 +15,7 @@ The instructions in this document will guide you on the steps you need to take t
 >
 > - For example, if the Sourcegraph instance you take the database dump from is on v3.34.2 then the new instance must also be on v3.34.2.
 >
-> NOTE: In some places you will see `$NAMESPACE` used. Add `-n $NAMESPACE` to commands if you are not using the default namespace
+> [!NOTE] In some places you will see `$NAMESPACE` used. Add `-n $NAMESPACE` to commands if you are not using the default namespace
 > More kubectl configuration options can be found here: [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 ## Overview

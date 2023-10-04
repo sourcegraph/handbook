@@ -97,10 +97,9 @@ All departments are likely to have some or all of the below universal interview 
 
 ## Leadership Interview
 
-- Interviewer: a member of the leadership team for the department.
+- Interviewer: a co-founder or member of the executive team.
 - Duration: 30–45 minutes.
-- Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values. They will also answer any final questions you may have! This is generally the last stage in our interview process.
-- Leadership interviews tend to vary by department, role, and leader. Your recruiter will prepare you and answer any questions you may have prior to the interview.
+- Details: during this stage in the interview process, a co-founder or member of the exec team will ask questions to gain more insight into the following areas: your background, your motivation for looking for new opportunities, a project that you're proud of, your coding proficiency, your long term career aspirations, and areas in which you would like to grow. They will evaluate your grit, curiosity, passion, technical aptitude, growth mindset, intelligence, and values. At the end of the interview, whey will answer any questions you may have!
 
 ## Values Interview
 
@@ -109,9 +108,9 @@ Read more about our values interview [here](evaluating_values.md).
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
-- Example questions: We will ask behavioral-based, open-ended questions directly related to our values.
-  -Tell us about a time when you advocated for someone else
-  -Tell us about a project you are most proud of completing
+- We will ask behavioral-based, open-ended questions directly related to our values. For example:
+  - Tell us about a problem that you identified and then took the initiative to solve, even if it wasn't within your scope of work.
+  - Tell us about a time where you proactively provided candid feedback to a colleague, manager or direct report.
 
 # Department specific interviews
 
@@ -406,6 +405,10 @@ You'll meet with two individual contributors on the TA team to learn about how y
 
 ## Marketing
 
+### Marketing Operations Manager Working Session
+
+Cody is now GA, and we are ready to build out a PQL process. Describe the steps you would take to develop a scoring model, what the model would look like (in detail), and what steps you would take to implement this new PQL process. Feel free to put together slides or a doc to share your ideas/findings. The expectation is that you will share your screen and present for 15 minutes, and we will spend the remainder of the time asking follow-up questions.
+
 ### Content working session
 
 - Duration: 60-minutes.
@@ -477,6 +480,53 @@ You'll meet with two individual contributors on the TA team to learn about how y
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd start off content planning. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Amie (amie.rotherham@sourcegraph.com) with any questions.
 
+### Developer Relations Working Session
+
+**Context**
+
+Sourcegraph’s mission is to make it so everyone codes. Sourcegraph is a code AI platform with two primary products Cody and Code Search.
+
+- **Cody**: Code AI that writes code and answers questions for you by reading your entire codebase and the code graph.
+- **Code Search**: Code search, plus features such as batch changes, code insights, and code monitoring.
+
+As a Sourcegraph Developer Advocate, you're the link between Sourcegraph and developers worldwide. You'll champion Cody and Code Search, collect feedback, and cultivate relationships, with the ultimate goal of driving wider adoption of Cody and Code Search.
+
+**Presentation**
+
+Present your game plan for your contribution to the Sourcegraph 5.0 launch in a 20-25 minute presentation. The game plan should include:
+
+Strategy:
+
+- What type of content would you produce (blog post, video, talk, tweet thread, livestream, sample app, etc.) and why.
+
+Content Blueprint:
+
+- If you would create multiple types of content, choose one and create the concrete message for that content. This should contain the actual copy of what you would say.
+- If a blog post, it's the first paragraph(s) that get across the hook and main idea plus an outline of the rest of the post.
+- If a video, it's the first 15-30 seconds of monologue or dialog plus an outline of the rest of the video.
+
+Impact:
+
+- How would you promote this content to the developer audience for maximum impact?
+- What is the desired outcome of this content (engagement, activation, awareness, etc.)
+
+Performance Metrics:
+
+- Which KPIs would you track to validate success, and what would be your goal for that KPI?
+
+You can reference the [5.0 release post](https://about.sourcegraph.com/blog/release/5.0) or any other material you find online. Feel free to be creative and original—the best presentations often are.
+
+**Additional Resources**
+
+Here are a couple of additional resources to help you.
+
+- [Sourcegraph Handbook](../../../../index.md)
+- [Cody VS Code Extension](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
+- [Product Documentation](https://docs.sourcegraph.com/)
+- [Company Blog](https://about.sourcegraph.com/blog)
+- [YouTube Channel](https://www.youtube.com/@Sourcegraph)
+- [Github Organization](https://github.com/sourcegraph)
+
 ## People Operations
 
 ### Senior People Partner working session
@@ -504,7 +554,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 **Prompt 1:**
 
-1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../../../company-info-and-process/onboarding/index.md)
+1. Choose one of the following handbook pages to review: [Impact Reviews ](../../people-ops/process/teammate-sentiment/impact-reviews/index.md) **_or_** [Onboarding](../../people-ops/process/onboarding.md)
 2. Come up with ideas on how you would improve this page and/or process for our teammates. _Things to consider:_
    1. Does the content set clear expectations on what to expect?
    2. Have we accounted for common questions teammates may have? If not, what’s missing? Is the answer located elsewhere in the handbook?
@@ -529,7 +579,7 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 #### Async writing project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to see how you communicate and think about product problems.
 
@@ -580,11 +630,11 @@ Please bring an overview of one or two past project(s) we can use to dig deep in
 - had a number of iterations to get to the outcome
 - leverages data to make decisions along the way
 
-This interview will include a PM and designer from our team who have been focusing on growth. They will use the hour to dig into the project info you prepared to understand how you think about running growth projects.
+This interview will include a PM and designer from our team. They will use the hour to dig into the project info you prepared to understand how you think about running projects.
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the PR-FAQ.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the PR-FAQ.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -646,15 +696,15 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 #### Portfolio review
 
-- Interviewer(s): [Two Product Designers](../../../engineering/product/index.md).
+- Interviewer(s): [Two Product Designers](../../../product/index.md).
 - Duration: 1 hour
 - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
 
-#### Design exercise
+#### Design working session
 
-- Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
+- Interviewer(s): [Product Manager, Product Designers](../../../product/index.md), and a Frontend engineer.
 - Duration: 1.5 hours
-- Details: The interview simulates a real-life design collaboration as closely as possible. The goal is to build something together and to understand the way you think about design in practice. We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
+- Details: The interview simulates a real-life design collaboration as closely as possible. We'll brief you on a project we've already completed and then you'll lead us in some early ideation. Finally, we'll discuss how you would proceed with the project if it were a real effort. Our goal is to give you an introduction to the types of problems you'll be solving and the people you'll be working with. On our end, we'd like to understand how you think about design in practice. Please come prepared to work in your favorite design tool for wireframes and low-fidelity mockups. You can read more about the session [here](../../../product/roles/interviews/product_designer/pd_design_working_session.md).
 
 ### Product Design Intern
 
@@ -668,13 +718,13 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 

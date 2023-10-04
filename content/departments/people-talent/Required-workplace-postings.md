@@ -10,5 +10,5 @@ Coming soon
 
 ## LCA postings
 
-- No active LCA postings
-- [Historical postings[(https://drive.google.com/drive/folders/1bkZW26OQ7Kv1G2JU8FKacF9KfGjmZdtA?usp=sharing)
+- No active LCA posting
+- [Historical postings](https://drive.google.com/drive/folders/1bkZW26OQ7Kv1G2JU8FKacF9KfGjmZdtA?usp=sharing)

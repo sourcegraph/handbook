@@ -4,7 +4,7 @@ The Education Resources Library is a collection of resources, books, courses and
 
 The goal is to provide resources for learning and development in line with Sourcegraph company value of continuous growth.
 
-> NOTE: We're building this library iteratively and it's a living resource.
+> [!NOTE] We're building this library iteratively and it's a living resource.
 
 ## #dev-learn channel
 
@@ -115,4 +115,4 @@ This section includes some of our internal Sourcegraph educational resources.
 
 [Fixing merge conflicts in Git (by Varun Gandhi)](https://www.loom.com/share/db386048c55b4d61bf6c02e3f9e51163)
 
-> NOTE: Want to add some resources to the resource library? Post in the #dev-learn channel on slack. See anything that needs fixing, like a typo or incorrect link? Contribute by making an edit to this handbook page. See [Editing the Handbook.](../../../../handbook//editing/index.md)
+> [!NOTE] Want to add some resources to the resource library? Post in the #dev-learn channel on slack. See anything that needs fixing, like a typo or incorrect link? Contribute by making an edit to this handbook page. See [Editing the Handbook.](../../../../handbook//editing/index.md)

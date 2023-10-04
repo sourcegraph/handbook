@@ -7,7 +7,7 @@ Teams at Sourcegraph that have production systems where they need to alerted to 
 
 Access to Opsgenie is granted automatically to all Engineering teammates and you may login with your [OKTA](../../../tech-ops/tools/Okta/main.md) credentials at https://sourcegraph.app.opsgenie.com/.
 
-> NOTE: EMs should have the `Admin` role
+> [!NOTE] EMs should have the `Admin` role
 
 After logging in to Opsgenie for the first time, work with your EM to join a team and participate in the rotation.
 

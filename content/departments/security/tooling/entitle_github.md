@@ -3,7 +3,7 @@
 Some of the use cases for using Entitle for GitHub permissions and team access:
 
 - Quarterly Manager review of their GitHub teams
-- Temporary access to a specific team (i.e. job fair)
+- Temporary access to a specific team
 - Teammates switched teams and needs to be added to their new team
 
 ## Managers' access to GitHub teams

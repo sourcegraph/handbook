@@ -15,10 +15,9 @@ To add a user, navigate to the [GCP Console IAP management page](https://console
 
 ## Manually regenerate Grafana dashboards
 
-Dashboards are [generated every night at midnight](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/generate_monitoring.yaml#L6), however they can manually be regenerated faster if needed. There are two ways to regenerate the Grafana dashboards manually:
+Grafama dashboards are [generated when the `centralized-o11y` invariant](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/controller/-/blob/internal/invariants/centralized_o11y.go) is run against an instance:
 
-1. Cloud team members can run `mi generate monitoring --concurrency=8` locally. This will automatically generate an ID token, generate, and upload the dashboards to Grafana.
-1. All team members can [manually trigger](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/generate_monitoring.yaml) the `monitoring - generate and apply grafana dashboards` workflow on GitHub Actions.
+1. Cloud team members can run `mi2 instance check -e $ENVIRONMENT -s $SLUG -enforce centralized-o11y` locally. This will automatically generate an ID token, generate, and upload the dashboards to Grafana.
 
 ## Creating a new individual dashboard
 

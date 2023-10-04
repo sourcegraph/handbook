@@ -11,7 +11,7 @@ Launch a Sourcegraph instance with `dev/start.sh` or `enterprise/dev/start.sh`.
 If you need a TLS endpoint or reverse-proxy for your Sourcegraph instance (e.g. to example to debug secure-only cookies), [Caddy](https://caddyserver.com/) and
 [ngrok](https://dashboard.ngrok.com/get-started) are recommended.
 
-> NOTE: If using a TLS endpoint, remember to update the external URL of the Sourcegraph instance in the site config.
+> [!NOTE] If using a TLS endpoint, remember to update the external URL of the Sourcegraph instance in the site config.
 
 ## Gitlab instance
 
@@ -26,7 +26,7 @@ docker run --hostname localhost -p 4080:4080  \
         gitlab/gitlab-ce:latest
 ```
 
-> Important: Make sure if you run Gitlab on a port different from port 80 then the container port has to match the host port
+> [!IMPORTANT] Make sure if you run Gitlab on a port different from port 80 then the container port has to match the host port
 > so in this case 4080:4080.
 
 Once Gitlab is running it will set up configs in `~/sourcegraph-gitlab/gitlab-disk/config`. We need to tell it

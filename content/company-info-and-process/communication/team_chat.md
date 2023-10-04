@@ -116,7 +116,7 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#job-fair
    </td>
-   <td>For in-flight project that are part of the Job Fair program.
+   <td>For in-flight project that are part of the Product Planning program.
    </td>
    <td>#job-fair-own, #job-fair-ranking
    </td>
@@ -792,5 +792,136 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
    <td>Legal + people with legal questions
    </td>
+  </tr>
+</table>
+
+### Cody channels
+
+<table>
+  <tr>
+ <td><strong>Channel Name</strong>
+   </td>
+   <td><strong>Purpose</strong>
+ </td>
+  </tr>
+  <tr>
+   <td>#announce-cody
+   </td>
+   <td>Very high signal announcements about Cody releases, product roadmap, improvements, and usage that everyone in the company should be aware of.
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody
+   </td>
+   <td>General questions and discussions about Cody; prefer to use more focused channels when possible (eg, #wg-cody-agent for questions or discussion around Cody Agent).
+   </td>
+  </tr>
+  <tr>
+   <td>#feedback-cody
+   </td>
+   <td>General dogfooding and external feedback from Cody users. Feedback that’s specific to a particular client should go in the relevant #wg- channel.
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-context
+   </td>
+   <td>Discussion of Cody context
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-strat
+   </td>
+   <td>Questions, bug reports, and feedback specific to the Cody strategic work
+   </td>
+  </tr>
+  <tr>
+   <td>#team-cody-strat
+   </td>
+   <td>Internal channel for members of the Cody strategic team
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-gateway
+   </td>
+   <td>Discussion space for Cody Gateway development
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-agent
+   </td>
+   <td>Discussion space for Cody Agent development
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-clients
+   </td>
+   <td>Discussion space for Cody product teams to coordinate and collaborate on cross-team work
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-vs-code
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to the VSC extension. VS Code team collaboration
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-neovim
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to the Neovim plugin. Neovim team collaboration and weekly progress updates.
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-jetbrains
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to the JetBrains plugins (eg, IntelliJ). JetBrains team collaboration and weekly progress updates.
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-web
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to Cody in the web (dotcom or enterprise). Cody Web team collaboration and weekly progress updates.
+   </td>
+  </tr>
+  <tr>
+   <td>#wg-cody-emacs
+   </td>
+   <td>Discussion, questions, bug reports, and feedback specific to Emacs plugin
+   </td>
+  </tr>
+  <tr>
+   <td>#discuss-cody-app
+   </td>
+   <td>Questions, bug reports, and feedback specific to Cody App (not part of GA, but we need a place to continue trying to support existing users).
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions
+   </td>
+   <td>Alerts delivered when Cody is mentioned in our community.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions-east
+   </td>
+   <td>Alerts delivered when Cody is mentioned by a customer/user in the east sales region.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions-west
+   </td>
+   <td>Alerts delivered when Cody is mentioned by a customer/user in the west sales region.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-mentions-emea
+   </td>
+   <td>Alerts delivered when Cody is mentioned by a customer/user in the emea sales region.
+   </td>
+  </tr>
+  <tr>
+   <td>#cody-usage-notifications
+   </td>
+   <td>Informational notifications for customers/users whose Cody Usage has exceeded thresholds of 90%, 95%, and 100% of their rate limit quota in the current window.
+ </td>
   </tr>
 </table>

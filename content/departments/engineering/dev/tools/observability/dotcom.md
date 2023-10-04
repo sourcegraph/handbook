@@ -4,7 +4,7 @@ We provide some tooling to make [Sourcegraph.com](../../process/deployments/inst
 
 For general observability development, please refer to the [observability development documentation](https://docs.sourcegraph.com/dev/background-information/observability) instead, which includes links to useful how-to guides.
 
-> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
+> [!NOTE] Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
 ## Monitoring
 

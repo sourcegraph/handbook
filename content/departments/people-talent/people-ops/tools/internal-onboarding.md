@@ -173,12 +173,18 @@ Setting Up Users
 
 Steps to complete E-verify can be found [here](https://docs.google.com/document/d/1BWouWHj3WAlglyt7ZunnjMlev4XnFzTuVcUoa95LNnc/edit#heading=h.f31huogsqa18)
 
+**Step 19: Audit completion of 1 and 3 month Milestone Reviews in Lattice**
+
+Every teammate _and their manager_ are required to complete a 1 and 3 month milestone review in Lattice. There are reminders built into Process St. for People Ops to audit this at the appropriate times. People Ops will log into Lattice as admins, navigate to Reviews, select the appropriate automated review (1 or 3 month milestone), and find the relevant teammate's name. People Ops will then audit that both the reviewee and reviewer submitted their feedback and that the review packet has been shared with the teammate. People Ops will follow up on any missing packets and can reopen packets if they've ended.
+
+Read more about Onboarding Feedback Milestones [here](../../onboarding-feedback-milestones.md).
+
 ## Onboarding Feedback
 
 There are two main onboarding feedback instances:
 
 - **One Month check in**: 15 min check-in with a People Ops team member to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process.
-- **Onboarding survey**: sent out monthly on the three month mark. Based on the [standards of success](../../../../company-info-and-process/onboarding/index.md#onboarding-standards-and-success) the teammate’s survey is focused on experience, content, and format, and presentation.
+- **Onboarding survey**: sent out monthly on the three month mark. This survey is focused on experience, content, and format, and presentation.
 
 ### Onboarding survey
 
@@ -217,9 +223,14 @@ _It is important to always confirm these changes with the Hiring Manager before 
 
 #### Change updates
 
-We must notify the manager and update the start date in BambooHR. This is critical.
+We must notify the manager and update the start date in the following places:
 
-Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
+- BambooHR
+- [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
+- Greenhouse
+- If payroll and tech ops have already started actioning onboarding activities, make sure they're aware of the start date change via the #wg-onboarding channel.
+
+If the teammate is already in "Hired" status in Greenhouse, let the candidate know of the start date change via the Welcome to Sourcegraph email, and store record of the email exchange in Bamboo. We don't need to send an updated offer letter.
 
 ## Rescinding offer
 

@@ -107,7 +107,7 @@ Sourcegraph.com is behind the Cloudflare WAF. It's a great tool but sometimes it
 
 ### Security Vendor Reviews
 
-Vendor reviews are requested by Legal or Compliance when a new vendor is being requested by a teammate. When requested, we want to review various aspects of the vendor's security policy, not limited to but including, data processing, data protection, security reporting, and type of data being shared. Here is a non-exhaustive list of items you may want to review for this request.
+Vendor reviews are requested by teammates when a new vendor is being onboarded. When requested, we want to review various aspects of the vendor's security policy, not limited to but including, data processing, data protection, security reporting, and type of data being shared. Here is a non-exhaustive list of items you may want to review for this request.
 
 Information needed and reviewed:
 
@@ -118,3 +118,16 @@ Information needed and reviewed:
 5. Clear process in case of a security incident and the reporting to Sourcegraph.
 6. Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
 7. Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
+
+Vendor reviews are now being submitted via [Airbase](../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request)
+
+We are notified when a user submits request for vendor procurement.
+
+1. In the Airbase portal once you login, under Requests section you will see all pending reviews
+2. Click on the vendor request, it will open the request
+3. Click on the security review section and a side window will open on the right
+4. Here you will find a few questions answered and any supporting documents attached.
+   a. If there is incomplete information in the submission, please indicate that in the comments and tagging the requestor. You can also reach out to them directly via Slack
+5. Review the attached documents with above guidelines in mind
+6. If a security portal link from the vendor is provided, request access and review information available there
+7. Click approve or deny based on your review

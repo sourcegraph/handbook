@@ -16,8 +16,9 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 
 ### Who is eligible for a review / compensation increase?
 
-To be eligible for a merit increase during the impact review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of at least “2”. Teammates who receive a “3" AND haven’t received a separate compensation increase in the past 9-months are also eligible.
-
+- If you received a 1 or a 2 rating, you are eligible for a merit increase (or spot bonus if in sales) regardless of your start date.
+- If you received a 3 rating, you are eligible for a merit increase once a year. Because of this, those who started on or after Feb 1 2023 are not eligible for a merit increase in 2H FY24 impact review cycle. They will be eligible in the 1H FY25 review cycle instead.
+  - Note: to be eligible to participate in a review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of a “3” or higher.
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
 - Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
 - Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
@@ -39,7 +40,7 @@ Formal performance reviews take place **twice a year,** aligning with our promot
 ### Impact Review Schedule - 2H FY24 review
 
 **2H FY24 Review Process Schedule**
-(Review Period: August 1st to January 31st)
+(Review Period: February 1st to July 31st)
 
 - [Reviewer selection](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit): 2023-07-17 to 2023-07-21 (5 business days)
   - Confirm selections with managers: 2023-07-20 and 2023-07-21 (2 business days, overlaps with review selection period)
@@ -202,9 +203,17 @@ In addition to asking the above questions during the Impact Review process, we a
 
 **Talent Assessment Scale**
 
-![image](<https://storage.googleapis.com/sourcegraph-assets/image%20(30).png>)
+![image](https://storage.googleapis.com/sourcegraph-assets/TalentAssessmentChart%20-%20Updated.png)
 
 #### Unless promoted, Teammates should not exceed 15% increases in a given 12-month period.
+
+_Note_: Please reference the following mapping of scores from our prior talent assessment framework to your current one:
+
+- New Rating(no prior scores map to this) = 1 Distinguished Performance
+- [1:1, 2:1, 1:2] = 2 Superior Performance
+- [2:2] = 3 Meeting Performance Expectations
+- [3:2, 2:3, 3:3] = 4 Partially Successful Performance
+- New Rating (No prior scores map to this) = 5
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
@@ -327,6 +336,10 @@ Q. **What changed from the prior Impact Review process?**
 Q. **What if a Teammate is on leave during the review period?**
 
 - If over the 6-month review period, there are fewer than 4-months of on-the-job performance to assess, the Teammate will retain the rating from the immediately previous cycle. Please reach out to your People Partner for questions related to Teammates on leave.
+  - Given recent changes in our Talent Assessment Framework the ratings will transfer as follows:
+    - [1:1, 2:1, 1:2] = 2 Superior Performance
+    - [2:2] = 3 Meeting Performance Expectations
+    - [3:2, 2:3, 3:3] = 4 Partially Successful Performance
 
 Q. **What if a Teammate recently transferred in from another team or the Manager is new?**
 

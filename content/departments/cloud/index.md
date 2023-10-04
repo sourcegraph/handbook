@@ -1,6 +1,6 @@
 # Cloud Operations Team
 
-> NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
+> [!NOTE] **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
 
 The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed) and building the next generation of them. The Cloud team has no other responsibilities.
 
@@ -62,7 +62,7 @@ Build a **fully managed platform** for using Sourcegraph, providing **feature co
 
 ### When to offer a Cloud Instance
 
-> NOTE: Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
+> [!NOTE] Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
@@ -77,43 +77,99 @@ When offering customers a Cloud Instance, CE and Sales should communicate and ga
 
 [Documentation](./trial_mi.md)
 
-### Cloud Instance Requests
+### Internal processes for Cloud Operations
 
-Customer Engineers (CE) or Sales may request to:
+Below are a list of processes Cloud team supports for internal stakeholders, e.g., engineering department, Customer Engineers, Technical Advisors, Sales, Support, etc.
 
-- **Create a Cloud instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%255BCUSTOMER+NAME%255D)]
-  - For new customers or prospects who currently do not have a managed instance.
-  - After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
-- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
-  - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
-- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
-  - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
-- **Extend trial Managed Instance issue** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fextend-trial-request&template=managed-instance-extend-trial.md&title=Managed+Instance+Trial+Extend+for+%5BCUSTOMER+NAME%5D)]
-  - For prospects who needs to extend the trial.
-- **Convert Trial Managed Instance to paid issue** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fextend-trial-request&template=managed-instance-convert-trial-to-paid.md&title=Convert+Trial+Managed+Instance+to+Paid+for+%5BCUSTOMER+NAME%5D)]
-  - For prospects who sign the deal after trial expires.
-- **Enable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
-  - For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
-- **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
-  - For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
-- **Add IP(s) to a Managed Instance Allowlist** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)]
-  - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
-- **Enable Cody on a Managed Instances** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/enable-cody-request&template=managed-instance-configure-cody.yml&title=Managed+Instance+enable+Cody+for+%5BCUSTOMER+NAME%5D)]
-  - To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
-- **Enable custom domain on a Managed Instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/add-custom-domain&template=managed-instances-custom-domain.md&title=Add+custom+domain+to+%5BCUSTOMER%5D+Instance)]
+We aim to make all processes self-service as much as possible, please follow the instruction closely.
 
-#### Workflow
+#### **Create a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/new-instance-request,mi/self-service&projects=&template=new_managed_instance.yml&title=New+Cloud+instance:+%5BCUSTOMER+NAME%5D)
 
-1. CE seeks Managed Instance approval from their regional CE Manager
-2. The Regional CE Manager will review the following criteria:
-   - Overall, is the deal qualified?
-   - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
-   - If anything is non-standard, it must pass the tech review process
-3. If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
-   - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Cloud team using the corresponding [issue template](#managed-instance-requests) in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
-   - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Cloud team.
-4. Message the team in [`#discuss-cloud-ops`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
-5. If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
+<span class="badge badge-note">🤖 self-service</span>
+
+- For new customers or prospects who currently do not have a managed instance. After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
+- For internal teammates who are looking for a short-lived instance for testing or demo purposes. For example, tracking a long-running feature branch for continous testing before release date (go/cloud-release-channels).
+
+#### **Suspend a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
+
+#### **Tear down a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+
+#### **Convert Trial Cloud instance to paid** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/self-service,mi/configure-instance-type&projects=&template=managed-instance-configure-instance-type.yml&title=Configure+Instance+Type+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">🤖 self-service</span>
+
+- For prospects who sign the deal after trial expires.
+
+#### **Enable telemtry on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
+
+#### **Disable telemtry on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
+
+#### **Add IP(s) to a Cloud instance ingress allow list** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/update-ip-allowlist&template=managed-instance-update-ip-allowlist.md&title=Add+New+IPs+to+%5BCUSTOMER%5D+Instance)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
+
+#### **Enable Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-cody-request,mi/self-service&projects=&template=managed-instance-configure-cody.yml&title=Configure+Cody+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">🤖 self-service</span>
+
+- To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
+
+#### **Enable custom domain on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/add-custom-domain&template=managed-instances-custom-domain.md&title=Add+custom+domain+to+%5BCUSTOMER%5D+Instance)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For customers we are looking to bring their own domain, e.g., `sourcegraph.company.com`.
+
+#### **Update license key on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-license-key,mi/self-service&projects=&template=managed-instance-configure-license-key.yml&title=Configure+License+Key+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">🤖 self-service</span>
+
+- To update the license key for an existing instance.
+
+#### **Reset customer admin password**
+
+<span class="badge badge-note">🤖 self-service</span>
+
+To send out a password reset email
+
+- Open [GitHub Actions](https://github.com/sourcegraph/cloud/actions/workflows/mi_reset_password.yml)
+- Click `Run workflow` and follow instruction
+
+#### **Restart a Cloud instance**
+
+<span class="badge badge-note">🤖 self-service</span>
+
+Restart the frontend after changing the site-config.
+
+- Open [GitHub Actions](https://github.com/sourcegraph/cloud/actions/workflows/mi_reload_frontend.yml)
+- Click `Run workflow` and enter in the customer slug and select `prod` as the environment.
+
+Note: If you do not know the slug, refer to the `Name` field of the table at http://go/cloud-ops.
+
+<!-- Coming soon -->
+<!-- #### **Request to increase executors count on a Cloud instance** - [New Request]()
+
+<span class="badge badge-note">🤖 self-service</span>
+
+- To increase or decrease the number of executors for an existing instance. -->
 
 ## Supporting Manage Instance
 
@@ -133,6 +189,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../technical-success/suppor
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 10 working days after latest release   |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 | Add IP(s) to Managed Instance                 | Add new list of IPs to MI allowlist                    | 1 working day                                 | Within 3 days                                 |
+| Enable custom domain                          | Add or update custom domain                            | 3 working day                                 | Within 2 week                                 |
 
 _Agreement here is the date specified within the required GitHub issue_
 
@@ -148,18 +205,7 @@ Incidents which affect managed instances are handled according to our [incidents
 
 ### Accessing/Debugging Managed Instances
 
-| Action                      | Who can do it                                         | Description                                                                                                      | How                                                                                                                                                                                                                                                                                 |
-| --------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reload config               | CE/CS                                                 | Reload MI site config (restart frontend)                                                                         | [restart frontend](#faq-how-do-i-restart-the-frontend-after-changing-the-site-config)                                                                                                                                                                                               |
-| View GCP project metrics    | Cloud/Security/All SG employees via policy attachment | Access to all MI metrics aggregate in single project                                                             | [GCP scoped dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring)                                                                                                                  |
-| View GCP project logs       | Cloud/Security/All SG employees via policy attachment | Access customer GCP project logs                                                                                 | [GCP logs](https://console.cloud.google.com/logs/query?project=sourcegraph-managed-demo) - change to proper customer name                                                                                                                                                           |
-| GCP ssh, tunnel ports       | Cloud/CS/Engineering                                  | Required for troubleshooting customer environment and perform pre-defined playbook                               | [install mi cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [ssh to MI](./technical-docs/operations.md#ssh-access)<br /> [port-forward to MI](./technical-docs/operations.md#port-forwarding)<br /> [gcloud](https://cloud.google.com/sdk/docs/install)commands |
-| Access CloudSQL database    | Cloud/Security/CS/Engineering                         | Login to CloudSQL DB                                                                                             | [install mi cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mi cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
-| Login to customer MI web UI | Cloud/CE/CS/Engineering                               | Site admin access to customer instance                                                                           | [Sourcegraph teammate access to Cloud instances](./technical-docs/oidc_site_admin.md)                                                                                                                                                                                               |
-| Login to customer Grafana   | Cloud/CE/CS/Engineering                               | DONT, use centralized observability                                                                              | learn more from [centralized o11y](./technical-docs/observability/index.md#common-operations)                                                                                                                                                                                       |
-| List Managed Instances      | Cloud/CE                                              | List Managed Instances, filtered by instance type (trial/production/internal) and (optionally) by responsible CE | [list Managed Instances](#faq-how-do-i-list-trial,-production-or-internal-instances)                                                                                                                                                                                                |
-
-More contex on accessing the Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
+For information relating to accessing, debugging, or otherwise admnistrating a managed instance, please refer to the go/cloud-ops.
 
 ## Processes
 
@@ -178,7 +224,7 @@ Yes, you may disable the builtin authentication provider and only allow creation
 
 ### FAQ: How do I restart the frontend after changing the site-config?
 
-> NOTE: If you are a Cloud teammate, follow the regular operation playbook.
+> [!NOTE] If you are a Cloud teammate, follow the regular operation playbook.
 
 To restart the frontend for a customer, you can either execute:
 
@@ -233,7 +279,7 @@ Future work in this area is owned by [Data & Analytics team](../data-analytics/i
 
 Cloud instances are generally created without any customer data (repos / code-host connections / code / user accounts / code insights etc.).
 
-The Cloud team has an experimental process for importing data from on-premises / jointly-managed Sourcegraph instances, described [here for MI v1.1](technical-docs/v1.1/mi1-1_onprem_data_migration.md).
+The Cloud team has an experimental process for importing data from on-premises / jointly-managed Sourcegraph instances, described [here](technical-docs/v2.0/onprem_data_migration.md).
 
 ### FAQ: How do I generate a password reset link for customer admin?
 

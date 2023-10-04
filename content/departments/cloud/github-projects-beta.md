@@ -22,7 +22,7 @@ We introduce the concept of epics to group issues together that belong to a sing
 
 _Unfortunately, GitHub does not support epics as a separate entity, so we need to implement custom workarounds to have epics._
 
-> NOTE: While other project management tools support epics, all Sourcegraph engineering teams are currently using GitHub for issue tracking. As the Cloud team is involved in many cross-functional projects, we need to operate with standardized tooling used by other teams.
+> [!NOTE] While other project management tools support epics, all Sourcegraph engineering teams are currently using GitHub for issue tracking. As the Cloud team is involved in many cross-functional projects, we need to operate with standardized tooling used by other teams.
 
 #### How to create epic
 
@@ -39,7 +39,7 @@ To add issues to the epic, select the epic title from the `EPIC` field dropdown 
 
 Every task that the Cloud team is working on should have a GitHub issue. This will allow the team to avoid creating shadow work and provide transparency on where we invest the team's time.
 
-> NOTE: Please apply common sense here - if it takes more time to create an issue than to perform the task, do it and move forward to the next task.
+> [!NOTE] Please apply common sense here - if it takes more time to create an issue than to perform the task, do it and move forward to the next task.
 
 **All requests for help should have an issue assigned.**
 
@@ -49,7 +49,7 @@ While we can answer questions from other teams on #cloud slack channel, if the q
 
 GitHub project beta supports custom fields that can be added to the list views. This provided us with additional layers of sorting, filtering, and categorization. Below is the list of the fields the Cloud team uses right now.
 
-> NOTE: If you think we need additional fields, please start a discussion on with the team on Slack.
+> [!NOTE] If you think we need additional fields, please start a discussion on with the team on Slack.
 
 | Field name | Data type       | Purpose                                                                                            |
 | ---------- | --------------- | -------------------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ GitHub project beta supports custom fields that can be added to the list views. 
 
 ## Cloud team GitHub project board views
 
-> NOTE: We can create as many views as needed, and each team member should feel comfortable creating the one they need. Please keep in mind that all views are shared with the rest of the team.
+> [!NOTE] We can create as many views as needed, and each team member should feel comfortable creating the one they need. Please keep in mind that all views are shared with the rest of the team.
 
 | View Name                                                                                      | Purpose                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

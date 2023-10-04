@@ -10,11 +10,11 @@
 
 ## Once you've decided to join us
 
-- [Onboarding](../../../company-info-and-process/onboarding/index.md)
+- [Onboarding](../people-ops/process/onboarding.md)
   - [Onboarding buddy](../buddy-program.md)
-  - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
-  - Onboarding reviews
-    - [Onboarging Feedback Milestones](../../../departments/people-talent/onboarding-feedback-milestones.md)
+  - [Onboarding mentor](../onboarding-mentor.md)
+  - [Onboarding reviews](../onboarding-reviews.md)
+    - [Onboarding Feedback Milestones](../../../departments/people-talent/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
 - [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)
 - [Swag](../swag.md)

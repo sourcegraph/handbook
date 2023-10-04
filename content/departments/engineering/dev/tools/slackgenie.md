@@ -11,7 +11,7 @@ in the group are in Do Not Disturb. Multiple people can be in the rotation at on
 ## How to add a new rotation
 
 - Create a Slack User Group and add the team members you want in the rotation.
-- Update the [slackgenie config](https://sourcegraph.com/github.com/sourcegraph/background-jobs/-/blob/slackgenie/config.yaml) to include the new User Group.
+- Update the [slackgenie config](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/background-jobs/-/blob/slackgenie/config.yaml) to include the new User Group. (You need access to the private repo.)
 - Under the Teams tab in Opsgenie, select Add Team.
 - On the page for your new team, use the On-call tab to update the rotation with participants from your Slack User Group.
 - Use the Integration tab to connect the rotation to Slack.

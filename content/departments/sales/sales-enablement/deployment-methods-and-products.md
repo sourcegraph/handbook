@@ -6,7 +6,7 @@ This is intended to serve as an overall orientation to the Sourcegraph products 
 
 There are a few ways an enterprise customer/prospect may have access to Sourcegraph. These do _not_ reflect the product/version of Sourcegraph they're using—simply where the Sourcegraph code lives.
 
-For full feature availability by hosting method, see [Features available by deployment option](../../engineering/product/tools/deployment_options.md).
+For full feature availability by hosting method, see [Features available by deployment option](../../product/tools/deployment_options.md).
 
 ### Self-hosted
 
@@ -62,7 +62,7 @@ Kubernetes, or k8s, is a container orchestration platform. If a customer is very
 
 ## Sourcegraph licenses
 
-The main product Sales sells is Sourcegraph Enterprise, with optional Code Insights and Batch Changes add-ons. For a full dive on the SKUs, see our [Licenses page](../../engineering/product/process/gtm/licensing.md#licensing) in the handbook.
+The main product Sales sells is Sourcegraph Enterprise, with optional Code Insights and Batch Changes add-ons. For a full dive on the SKUs, see our [Licenses page](../../product/process/gtm/licensing.md#licensing) in the handbook.
 
 Of particular note around licenses:
 

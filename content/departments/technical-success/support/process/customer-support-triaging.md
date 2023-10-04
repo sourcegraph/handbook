@@ -37,19 +37,19 @@ If there is no action for CS, go to back to step 4 select ‘…’ and then sel
 
 ## Zendesk Ticket Standards
 
-It is important that we have consistant quality accross our support tickets to ensure we collect the valuable data that can be shared with our Product and Engineering Teams.
+It is important that we maintain consistent quality across our support tickets to ensure the collection of valuable data that can be shared with our Product and Engineering Teams.
 
 ### Ticket Subject
 
-The Zendesk ticket subject should be clear, concise, and structured with relevant keywords to enable both product and engineering teams to read and understand the issue and or question quickly.
+The Zendesk ticket subject should be clear, concise, and structured with relevant keywords. This will enable both the product and engineering teams to quickly read and understand the issue or question.
 
 ### Ticket Tagging
 
-It's crucial to thoughtfully select ticket tags for quick and efficient categorization of the ticket's content. Use relevant keywords and phrases as tags to aid in seamless search and filtering, benefiting both our product and engineering teams. To enhance overall ticket management, it's best to avoid using overly generic or ambiguous tags and instead maintain a consistent and organized tagging system that aligns with Sourcegraph's specific support needs.
+It is crucial to thoughtfully select ticket tags for the quick and efficient categorization of the ticket's content. Use relevant keywords and phrases as tags to aid in seamless search and filtering. This practice benefits both our product and engineering teams. To enhance overall ticket management, avoid using overly generic or ambiguous tags. Instead, maintain a consistent and organized tagging system that aligns with Sourcegraph's specific support needs. Examples: `embeddings` `multi_version_upgrades` `query_syntax_issues`
 
-### Ticket Organizations and User
+### Ticket Organizations and Users
 
-To ensure that we have the correct infromation for both users and the organization we need to make sure that these are accurately set. When you see `create` next to the organiztion you will need to select the organization and then update the domain section in Zendesk. If the user is not tied to an organization you need to selete the users name and update the organization in section in Zendesk.
+To ensure accurate information for both users and organizations, it's important to verify and update these details. When you encounter `create` next to the organization, please select the appropriate organization and then update the domain section in Zendesk. If the user is not associated with an organization, select the user's name and update the organization section in Zendesk accordingly.
 
 ## FAQs
 
@@ -76,7 +76,7 @@ For employment verification emails see above for steps.
 
 ### 5.What if we are close to missing SLA?
 
-When SLA is close to expiring, we view the teams' cases we ask those SEs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
+When SLA is close to expiring and the ticket is assigned, we ask SE to send a first response; otherwise, we collaborate as a team to provide a meaningful initial response to prevent SLA violations.
 
 ### 6. How to triage post in the customer support channel.
 

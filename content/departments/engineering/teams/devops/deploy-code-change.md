@@ -6,7 +6,7 @@ are automatically deployed_
 
 To learn more about the continuous delivery process for DotCom, visit the [deployments](../../dev/process/deployments/index.md) documentation.
 
-> NOTE: These docs are most relevant during a **codefreeze** or if the continuous delivery
+> [!NOTE] These docs are most relevant during a **codefreeze** or if the continuous delivery
 > pipeline is not working.
 
 - [Deploying a code change to DotCom](#deploying-a-code-change-to-dotcom)

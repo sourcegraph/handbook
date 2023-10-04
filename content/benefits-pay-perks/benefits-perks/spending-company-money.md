@@ -22,7 +22,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 #### Team-specific totals
 
-- We expect new [Design team](../../departments/engineering/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
+- We expect new [Design team](../../departments/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
 
 ### Desk items
 

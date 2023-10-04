@@ -11,7 +11,7 @@ To learn more about our goals, see the [Search Core strategy](../../../../strate
 
 ## Team members
 
-{{generator:product_team.search_core}}
+{{generator:product_team.search_platform}}
 
 ## Teammate experience: guiding principles
 

@@ -191,7 +191,7 @@ SDR dedupes the lead to look for recent activity, open/recently closed opportuni
 
 If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- If not already completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
 - SDR schedules meeting with the Lead and the assigned AE.
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
@@ -204,7 +204,7 @@ If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use 
 
 If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- If not already completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
 - SDR schedules meeting with the Lead and the assigned AE.
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
@@ -259,34 +259,42 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 
 #### Taxonomy Guidelines
 
-New Business: New Customer, New Business Unit, New Team if multiple buying teams within a single business unit
+New Business: New Customer
 
-- \_Account Name - Business Unit - Team - New Business - (ProductName) - # of Seats (if Code Search or associated products)
+- \_Account Name - Business Unit - Team - New Business - Enterprise,Enterprise Starter - (ProductName) - # of Seats (if Code Search or associated products)
 - _ProductName = Code Search, Cody, Cody + Code Search_
 - Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
 
+New Business in Existing Customer: New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
+
+- Note: Opportunity Type on these types of opportunities should remain as Expansion for reporting purposes
+
+- \_Account Name - Business Unit - Team - New Business in Existing Customer - Enterprise,Enterprise Starter - (ProductName) - # of Seats (if Code Search or associated products)
+- _ProductName = Code Search, Cody, Cody + Code Search_
+- Ex. JPMC - AWM - InfoSec Team - New Business in Existing Customer - Code Search - 50 Seats
+
 Flat Renewal: No Change to Contract
 
-- Account Name - Business Unit - Team - Renewal - (ProductName) # of Seats
+- Account Name - Business Unit - Team - Renewal - Enterprise,Enterprise Starter - (ProductName) # of Seats
   - _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. Oracle - Hospitality Group - Renewal - Search Only - 16 Seats
 
 Expansions: Sale of New Product, Upgrade to Code Search
 
-- _Account Name - Business Unit - Team - Expansion - (NewProductName) # of Seats_
+- Account Name - Business Unit - Team - Expansion - Enterprise,Enterprise Starter - (NewProductName) # of Seats
   - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
 - Ex. Wayfair - Expansion - Search + Batch - 50 Seats
 
 Expansions: Increase in Number of Seats
 
-- _Account Name - Business Unit - Team - Expansion - (ProductName)(Add’l # of Seats)_
+- Account Name - Business Unit - Team - Expansion - Enterprise,Enterprise Starter - (ProductName)(Add’l # of Seats)
   - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
   - _Add’l # of Seats – Additional number of licenses being purchased_
 - Ex. Apple - SPG - Expansion - Search Only - 35 Users
 
 Churn: Used Only When iARR is Negative
 
-- _Account Name - Business Unit - Team - Churn - (ProductName)(ChurnPotential)_
+- Account Name - Business Unit - Team - Churn - Enterprise,Enterprise Starter - (ProductName)(ChurnPotential)
   - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
   - _ChurnPotential = Partial, Full_
 - Ex. Uber - Search Only - Churn - Full
@@ -295,7 +303,7 @@ Churn: Used Only When iARR is Negative
 
 ##### Opportunities Related to Cody
 
-Now that Cody is generally available for sale, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines
+Althought Cody is currently still in Beta, guidance has been updated to include Cody as one of our core products. Opportunities related to Cody should now follow the above taxonomy guidelines and include Cody into the opportunity name if we plan to active Cody Beta for the customer.
 
 ### Associating contacts to opportunities
 
@@ -401,7 +409,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 ### Leads to Accounts/Contacts/Opportunities
 
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
-  - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
+  - There are separate queues for Inbound 500+ employee Leads, Inbound <500 Employee Leads, and unassigned Outbound Leads. All Queues are Region-specific.
   - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
 - If a round-robin lead is assigned to an AE while they are on Parental Leave, the AE on leave will be designated as the Account Owner, and the covering AE will be assigned to the opportunity. The covering AE will be designated by the manager. Additional guidance regarding split/coverage during parental leave can be found [here](../../../benefits-pay-perks/benefits-perks/parental-leave.md#commission-payout-scenarios-for-account-executives).
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
