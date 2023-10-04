@@ -6,7 +6,6 @@ For teammates
 - [Manager guide to People Ops Systems](../tools/manager-guide.md)
 - [Onboarding](onboarding.md)
 - [Anti-Corruption](anti-corruption.md)
-- [Compensation and leveling](compensation-and-leveling/index.md)
 - [Employment Verification](employment_verification.md)
 - [Engaging talent outside the US](how-we-engage-talent-outside-the-us/index.md)
 - [Giving feedback - impact review writing](giving-feedback.md)
