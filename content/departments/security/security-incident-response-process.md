@@ -2,6 +2,23 @@
 
 The aim of this document is to define the key steps required as part of responding to a security incident, in line with Sourcegraph’s Security Incident Response Policy.
 
+## Security Incident Lead
+
+The incident lead is responsible for resolving the incident as quickly and safely as possible. They are the DRI coordinating the incident, tasked with driving it to resolution and keeping others informed (if it’s a non-customer-impact issue) or coordinating with the messenger on communication (for customer-impact issues).
+
+The security incident lead should be a member of the security team, and may be the same person who identified and raised the incident. For critical severity incidents, it should be the Head of Security.
+
+The incident lead can change throughout the incident depending on severity. For example, it may start as the first responder and switch to another teammate, or rotate depending on timezone. When changing over, the current and new incident leads should meet and fully handover.
+
+A security incident lead is responsible for:
+
+- Following the Security Incident Checklist.
+- Maintaining the list of action items and work streams, and assigning them to responders.
+- Validating action items have been completed.
+- Providing regular incident updates.
+- Ensuring the right teammates are working on the incident.
+- Handing communication within the team, with the company, and working with a messenger for customer-impacting incidents.
+
 ## Triaging a reported event and declaring an incident
 
 When triaging a security event, follow the documented [security event response process](https://github.com/sourcegraph/security-monitoring/blob/main/docs/security-event-handling.md).
@@ -16,13 +33,11 @@ Follow up actions and rule explanations are documented in the [Falco playbooks](
 
 ## Investigation, containment, and neutralization
 
-Once the incident has been declared, the incident manager must coordinate the work required to:
+Once the incident has been declared, the incident lead must coordinate the work required as described above.
 
-- Identify exactly what systems and data have been compromised as part of the incident, using available audit data
-- Identify the steps required to contain the intruder (such as isolating the network that the attacker has gained access to) and carry them out
-- Remove the intruder’s access to Sourcegraph’s system and data
+The incident lead should create a checklist of items for the incident by following the template provided [here](https://docs.google.com/document/d/1WMXMmoPIo1amdd_FhOTKE2DDjTaCSMBooi_7OFMsaHA/edit?usp=sharing).
 
-The incident manager is not expected to carry out all of this work themselves – they should bring in relevant team members as required.
+The incident lead is not expected to carry out all of this work themselves – they should bring in relevant team members as required.
 
 For communication:
 
