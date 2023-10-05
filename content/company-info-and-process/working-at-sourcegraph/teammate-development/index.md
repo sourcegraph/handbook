@@ -329,7 +329,7 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 
 #### Templates found in Lattice:
 
-- **Weekly 1:1 **- Our standard 1:1 template
+- **Weekly 1:1** - Our standard 1:1 template
 - **Weekly 1:1: coaching** - A template with an emphasis on coaching areas
 - **Weekly 1:1: Focus on promotion** - A template of our standard 1:1 with emphasis on preparing for a promotion
 
