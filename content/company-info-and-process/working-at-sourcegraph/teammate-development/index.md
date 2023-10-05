@@ -434,9 +434,9 @@ Be direct and have specific, concrete examples to share with the Teammate while 
 - Career frameworks across all roles at Sourcegraph are in development. If no career framework is in place for the role, align on expectations with your Manager.
 - Ensure the teammate is clear on expectations and has the resources necessary to successfully perform against stated expectations.
 
-## OTHER HANDBOOK PAGES:
+## Other handbook pages
 
-[How we celebrate Teammates HB page](../../../benefits-pay-perks/benefits-perks/celebrate.md)
+- [How we celebrate Teammates](../../../benefits-pay-perks/benefits-perks/celebrate.md)
 
 ## Regular thanks and recognition via our #thanks channel
 
