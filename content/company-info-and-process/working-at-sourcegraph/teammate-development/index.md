@@ -35,12 +35,12 @@ We foster a high performance culture by recruiting high performers, setting clea
 We expect Managers and Teammates to foster a high-performance culture and provide feedback in the following ways through Lattice:
 
 1. [Formal performance (impact) reviews](<#Formal-performance-(impact)-reviews>)
-2. [Continuous feedback](#Continuous-feedback)
+2. [Continuous feedback](#continuous-feedback)
    1. [Thanks/Praise feedback](#hanks/praise:)
-   2. [General feedback](#General-feedback)
-   3. [Regular 1:1s](#Regular-1-1s)
-   4. [Growth & career development conversations](#Growth-and-career-development-conversations)
-3. [Note to self](#Note-to-self)
+   2. [General feedback](#general-feedback)
+   3. [Regular 1:1s](#regular-1-1s)
+   4. [Growth & career development conversations](#growth-and-career-development-conversations)
+3. [Note to self](#note-to-self)
 
 In situations of underperformance, which may be identified during ongoing feedback or formal impact reviews, Managers should consult with their People Partner and follow [this guidance for addressing underperformance](addressing-underperformance.md).
 
