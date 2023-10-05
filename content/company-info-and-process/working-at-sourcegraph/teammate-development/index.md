@@ -154,8 +154,8 @@ There are two main ways to share public Thanks/Praise for your peers or, if you�
 - **Be direct.** Select the teammate(s) you’re recognizing in the Lattice Slack app.
 - **Focus on the positive.** Praise in public, criticize in private.
 - **Be specific with your praise.** What is the specific behavior you are praising? Praise genuine behaviors. You don’t have to wait for significant events to reinforce good work.
-- **Be Timely.** The sooner the praise is delivered, the more powerful.
-- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
+- **Be timely.** The sooner the praise is delivered, the more powerful.
+- **Be sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
 - **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It’s important to recognize people regularly, not just once in a while.
 - **What if I want to thank more than 1 person in a thanks post?** You have the ability to select multiple people when giving praise/thanks in Lattice.
   - Select the first person you want to thank once selected the dropdown will show “choose a colleague” again.
@@ -329,7 +329,7 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 
 #### Templates found in Lattice:
 
-- **Weekly 1:1 **- Our standard 1:1 template
+- **Weekly 1:1** - Our standard 1:1 template
 - **Weekly 1:1: coaching** - A template with an emphasis on coaching areas
 - **Weekly 1:1: Focus on promotion** - A template of our standard 1:1 with emphasis on preparing for a promotion
 
@@ -434,9 +434,9 @@ Be direct and have specific, concrete examples to share with the Teammate while 
 - Career frameworks across all roles at Sourcegraph are in development. If no career framework is in place for the role, align on expectations with your Manager.
 - Ensure the teammate is clear on expectations and has the resources necessary to successfully perform against stated expectations.
 
-## OTHER HANDBOOK PAGES:
+## Other handbook pages
 
-[How we celebrate Teammates HB page](../../../benefits-pay-perks/benefits-perks/celebrate.md)
+- [How we celebrate Teammates](../../../benefits-pay-perks/benefits-perks/celebrate.md)
 
 ## Regular thanks and recognition via our #thanks channel
 
