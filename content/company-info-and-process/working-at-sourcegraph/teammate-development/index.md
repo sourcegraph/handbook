@@ -154,8 +154,8 @@ There are two main ways to share public Thanks/Praise for your peers or, if you�
 - **Be direct.** Select the teammate(s) you’re recognizing in the Lattice Slack app.
 - **Focus on the positive.** Praise in public, criticize in private.
 - **Be specific with your praise.** What is the specific behavior you are praising? Praise genuine behaviors. You don’t have to wait for significant events to reinforce good work.
-- **Be Timely.** The sooner the praise is delivered, the more powerful.
-- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
+- **Be timely.** The sooner the praise is delivered, the more powerful.
+- **Be sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
 - **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It’s important to recognize people regularly, not just once in a while.
 - **What if I want to thank more than 1 person in a thanks post?** You have the ability to select multiple people when giving praise/thanks in Lattice.
   - Select the first person you want to thank once selected the dropdown will show “choose a colleague” again.
