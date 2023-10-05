@@ -31,15 +31,15 @@ Thanks so much in advance for taking the time! It’s greatly appreciated.
 
 Here are the questions we will cover:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- Did they directly report to you?
+- Did they have any direct reports?
+- What were their's core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire them?
 
 Thank you again for taking the time to help us out with doing this reference.
 
@@ -53,15 +53,15 @@ Hi `reference name`, thanks for taking the time to chat with me about your exper
 
 Jumping into it:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- Did they directly report to you?
+- Did they have any direct reports?
+- What were their's core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire them?
 
 ### Slack to Hiring Manager
 
@@ -80,15 +80,15 @@ Title & Company:
 Email:
 Phone Number:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- Did they directly report to you?
+- Did they have any direct reports?
+- What were their's core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire them?
 
 **Reference #2**
 Name:
@@ -96,12 +96,12 @@ Title & Company:
 Email:
 Phone Number:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- Did they directly report to you?
+- Did they have any direct reports?
+- What were their's core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you rehire them?
