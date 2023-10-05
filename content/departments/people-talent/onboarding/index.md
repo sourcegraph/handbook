@@ -169,7 +169,6 @@ We want everyone to feel certain and comfortable with where they are at currentl
 ### Helpful links & resources
 
 - [Product overview](../../../company-info-and-process/onboarding/product-onboarding-videos.md)
-- [Processes we are responsible for](../people-ops/process/index.md)
 
 ### People Team onboarding goals + expectations
 
