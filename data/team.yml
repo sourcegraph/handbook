@@ -41,18 +41,6 @@ stephen_gutekanst:
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stephen-gutekanst)'
   description: 'Stephen enjoys spending time with his numerous [kittos](https://github.com/slimsag/slimsag/blob/master/CATS.md) while solving some of the most critical and technically challenging issues he can get his hands on. Prior to Sourcegraph, he worked 3 years full-time on a game engine in Go while in school. Over the past ~6 years he has been working directly with some of our largest customers and relentlessly advocating for users, and today focuses on high-value low-cost wins across the board.'
 
-eric_fritz:
-  name: Eric Fritz
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: apis_lead
-  location: Milwaukee, WI, USA 🇺🇸
-  github: efritz
-  email: eric@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/eric-fritz-414a9411/)'
-  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/eric-fritz)'
-  description: Eric received a PhD in Computer Science from the University of Wisconsin - Milwaukee where he published research on compiler construction and taught courses in compilers and software engineering. Prior to Sourcegraph, Eric built infrastructure for UCaaS products. While not programming, Eric enjoys cooking while muttering Gordon Ramsay deep cuts to himself.
-
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
   role: Software Engineer
