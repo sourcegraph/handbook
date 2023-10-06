@@ -79,7 +79,7 @@ This [Dashboard](https://sourcegraph.vitally.io/work/team/dashboards/eee503ef-88
 
 ###### Other helpful links and tools
 
-- Make sure you have enabled the Gmail Integration with Vitaly - [Link](https://docs.vitally.io/pushing-data-to-vitally/integrations/gmail) and your SFDC Gmail connector
+- Make sure you have enabled the Gmail Integration with Vitally - [Link](https://docs.vitally.io/pushing-data-to-vitally/integrations/gmail) and your SFDC Gmail connector
 
 ### Salesforce
 
