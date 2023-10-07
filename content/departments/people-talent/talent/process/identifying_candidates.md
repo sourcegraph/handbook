@@ -45,18 +45,23 @@ There is no need for your referral to apply through our careers page once you ha
 ### Recruiting agencies
 
 #### Q: When do we use agencies?
+
 A: We only partner with select recruitment agencies in a limited capacity. Most recruiting takes place via our internal recruitment team. Any outside agency support must be approved by both the VP People & Talent and Head of Finance, who will review requests on a case-by-case basis. If internal Sourcegraph recruiters are not enough to meet the needs of the team, then we will consider outside help.
 
 #### Q: How do we engage with a new agency?
+
 A: To engage with a new agency, please Slack [#ask-hiring](https://sourcegraph.slack.com/app_redirect?channel=ask-hiring) with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. The VP People & Talent and Head of Finance will then review the agency. If approved, the VP of People & Talent will send and sign all agency agreements. All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit). Our standard agency fee is 20%.
 
 #### Q: How do agencies submit candidates?
+
 A: The Talent Team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse. If an agency does not submit a candidate via Greenhouse, they will not get credit for that candidate.
 
 #### Q: Where do we store agency agreements?
+
 A: The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq).
 
 #### Q: What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate?
+
 A: Please forward any emails from agencies to recruiting@sourcegraph.com.
 
 # Sourcing best practices
