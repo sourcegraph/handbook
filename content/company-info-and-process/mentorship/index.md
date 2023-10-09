@@ -169,6 +169,21 @@ Below are the questions that will be asked via sliding scale and comment field:
 
 - [Humans of Sourcegraph](https://www.humansofsourcegraph.com)
 - [#mentorship](https://sourcegraph.slack.com/archives/mentorship)
+- **Aritcles & Books**
+
+  For Mentors:
+
+  - [5 Values Great Mentors Share](https://www.forbes.com/sites/patriciaduchene/2019/05/21/the-five-values-that-great-mentors-share/?sh=7fec1ae25790)  - Forbes
+    * Tips for mentors on building strong mentor-mentee relationships.
+  - [Mentorship: What to Do When You're the Mentor](https://www.inc.com/sarah-lynch-/business-norms-abroad-differ-heres-how-to-help-your-team-adapt-when-going-global.html) - Inc.
+    * Advice for experienced professionals taking on mentorship roles.
+
+  For Mentees:
+
+  - [How to Get the Most Out of Your Mentorship](https://www.forbes.com/sites/ashiraprossack1/2018/04/26/5-ways-to-get-the-most-out-of-your-mentor-relationship/?sh=150ea19f7cf6) - Forbes
+    * Provides strategies for mentees to maximize their mentorship experience.
+  - [The Art of Receiving Feedback ](https://medium.com/method-matter/the-art-of-receiving-feedback-1561aaa74d6c)- Medium
+    * Helps mentees understand and utilize feedback effectively.
 
 ## **Teammate FAQ**
 
