@@ -95,7 +95,7 @@ The People Partner will then work with the People, Talent, Tech-Ops, and Finance
 
 **People Ops responsiblities**
 
-People Ops will loop in Tech Ops and Payroll (if applicable), then action all necessary updates in Bamboo.
+People Ops will loop in Tech Ops and Payroll (if applicable) via #wg-bamboo-org-updates, then action all necessary updates in Bamboo.
 
 If new cost centers are being implemented:
 
