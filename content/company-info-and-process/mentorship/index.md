@@ -175,7 +175,7 @@ Below are the questions that will be asked via sliding scale and comment field:
 
   - [5 Values Great Mentors Share](https://www.forbes.com/sites/patriciaduchene/2019/05/21/the-five-values-that-great-mentors-share/?sh=7fec1ae25790) - Forbes
     - Tips for mentors on building strong mentor-mentee relationships.
-  - [Mentorship: What to Do When You're the Mentor](https://www.inc.com/sarah-lynch-/business-norms-abroad-differ-heres-how-to-help-your-team-adapt-when-going-global.html) - Inc.
+  - [Mentorship: What to Do When You're the Mentor](https://www.inc.com/heather-wilde/what-it-means-to-be-a-mentor.html) - Inc.
     - Advice for experienced professionals taking on mentorship roles.
 
   For Mentees:
