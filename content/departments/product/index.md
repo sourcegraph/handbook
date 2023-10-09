@@ -101,6 +101,27 @@ The design team's missions are to ensure the software we ship is powerful, usabl
 
 Learn more about the design team and their process in the [design team section of the handbook](./design).
 
+#### Design team members:
+
+- [Rob Rhyne](../../team/index.md#rob-rhyne) – Head of Design (he/him)
+
+##### Product Design
+
+- [Tim Lucas](../../team/index.md#tim-lucas) – Lead Product
+  Designer (he/him)
+- [Daniel Marques](../../team/index.md#daniel-marques) – Product
+  Designer (he/him)
+
+##### User Research
+
+- [Megan St. Andrew](../../team/index.md#megan-st-andrew) – UX Researcher
+  (she/they)
+
+##### Creative Ops / Brand
+
+- [Tracey Johnson](../../team/index.md#tracey-johnson) – Brand Designer
+  (they/them)
+
 ### Technical product management
 
 #### TPM team members:
