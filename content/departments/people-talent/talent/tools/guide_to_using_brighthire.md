@@ -24,45 +24,37 @@ Specifically, BrightHire helps with:
 
 You **must** be on Google Chrome in order to use BrightHire.
 
-#### Step 1 (BrightHire email invite):
-
-You'll automatically receive an email invite to BrightHire when you're scheduled for your first interview (if the invite does not come through, or you require access prior to your first interview, please Slack #Hiring and a member of the Talent team will manually invite you). Use the invite to set up your account, log in with Google using your Sourcegraph email, and sync your Google calendar.
-
-#### Step 2 (Familiarize yourself with BrightHire):
-
-Familiarize yourself with BrightHire by watching [this video](https://help.brighthire.ai/en/articles/4168499-brighthire-101). Note: you must be a registered BrightHire user to view this video.
-
-#### Step 3 (download the chrome extension):
-
-Download the [BrightHire Chrome extension](https://chrome.google.com/webstore/detail/brighthire-extension/mbokiighkhdopgedihndpibkincpcgan?hl=en&authuser=0).
+- **Step 1:** You'll automatically receive an email invite to BrightHire when you're scheduled for your first interview (if the invite does not come through, or you require access prior to your first interview, please Slack #Hiring and a member of the Talent team will manually invite you). Use the invite to set up your account, log in with Google using your Sourcegraph email, and sync your Google calendar.
+- **Step 2:** Familiarize yourself with BrightHire by watching [this video](https://help.brighthire.ai/en/articles/4168499-brighthire-101). Note: you must be a registered BrightHire user to view this video.
+- **Step 3:** Download the [BrightHire Chrome extension](https://chrome.google.com/webstore/detail/brighthire-extension/mbokiighkhdopgedihndpibkincpcgan?hl=en&authuser=0).
 
 ## How to interview and take notes with BrightHire
 
-#### Step 1 (join your interview via BrightHire):
+#### Step 1 (join your interview via BrightHire)
 
 Click the "Interview with BrightHire" button in your calendar invite when joining an interview. (This is instead of clicking "Join Zoom Meeting")
 
-#### Step 2 (locate your BrightHire pop-up window):
+#### Step 2 (locate your BrightHire pop-up window)
 
 You should see your BrightHire Chrome extension pop up to help guide you. If you don't see it, click the puzzle-piece icon in the top right hand corner of your screen and it will show up.
 
-#### Step 3 (sync your notes with Greenhouse):
+#### Step 3 (sync your notes with Greenhouse)
 
 Use the BrightHire pop up window to reference the structured interview questions you should ask. These questions are synced with your Greenhouse scorecard. Click on each question within the BrightHire window so that they're timespamped in the recording. The entire interview will be captured and transcribed for you, but if you choose to take notes, please do so under each question in BrightHire. Loom instructions for step 3 can be found [here](https://www.loom.com/share/dd9845ff7c004abaa26d7b560d5de782?sid=88762b99-79a0-429a-8bc5-ab4ad833dc5e).
 
-#### Step 4 (navigate to your Greenhouse scorecard):
+#### Step 4 (navigate to your Greenhouse scorecard)
 
 Once you leave the interview, click on the green "Complete scorecard" button with the Greenhouse symbol at the top of your BrightHire window to be quickly taken to your scorecard within Greenhouse. If you forget to click "Complete scorecard" within BrightHire, simply navigate to your Greenhouse scorecard by clicking the link in your interview calendar invite.
 
-#### Step 5 (import your BrightHire notes to Greenhouse):
+#### Step 5 (import your BrightHire notes to Greenhouse)
 
 On your Greenhouse scorecard, click the blue "View recording" button on the side panel. You will be shown the manual notes that you took in BrightHire. Next to "Interview Questions" above the first question in Greenhouse, click the blue "Import notes" button with a BrightHire symbol. Any notes you took within BrightHire will then be automatically pulled to each question within Greenhouse, along with a hyperlinked timespamp of when it was asked in the interview so that you can easily reference that answer back.
 
-#### Step 6 (leveraging AI for your notes):
+#### Step 6 (leveraging AI for your notes)
 
 If you'd like to leverage notes that the AI notetaker has created for you, click on the "AI Notes" tab on your BrightHire side panel. You can copy the entire interview, or notes from each question, by clicking on the double square symbol and pasting them into your Greenhouse scorecard wherever they may the most sense. Loom instructions for step 9 can be found [here](https://www.loom.com/share/a727c89c9f1443909b897df2e783afdc?sid=b84f22e6-4941-48aa-9c22-51477e0ac806).
 
-#### Step 7 (complete and submit your Greenhouse scorecard):
+#### Step 7 (complete and submit your Greenhouse scorecard)
 
 Fill in the focus attributes and overall recommendation within your Greenhouse scorecard and submit the scorecard when it's complete (ideally no later than 24 hours after the interview). There is an option to view the BrightHire recording on the side panel if you need to reference your interview back.
 
