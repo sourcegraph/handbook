@@ -112,7 +112,7 @@ Learn more about the design team and their process in the [design team section o
 - [Daniel Marques](../../team/index.md#daniel-marques) – Product
   Designer (he/him)
 
-##### User Research
+##### UX Research
 
 - [Megan St. Andrew](../../team/index.md#megan-st-andrew) – UX Researcher
   (she/they)
