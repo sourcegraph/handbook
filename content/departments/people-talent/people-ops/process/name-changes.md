@@ -37,9 +37,7 @@ Hi team,
 
 <li> Bamboo (update personal tab and save copy of emailed request to documents folder)
 
-<li>Carta
-
-<li>Update any external documents or contracts involving the employee, such as employment agreements or non-disclosure agreements, to reflect the new name??
+<li> Check if any external documents or contracts involving the employee, such as employment agreements or non-disclosure agreements, need to be updated to reflect the new name
 </li>
 </ul>
    </td>
@@ -79,9 +77,7 @@ Hi team,
 
 <li> Bamboo (update personal tab and save copy of emailed request to documents folder)
 
-<li>Carta
-
-<li>Update any external documents or contracts involving the employee, such as employment agreements or non-disclosure agreements, to reflect the new name??
+<li> Check if any external documents or contracts involving the employee, such as employment agreements or non-disclosure agreements, need to be updated to reflect the new name
 </li>
 </ul>
    </td>
@@ -100,4 +96,5 @@ Hi team,
 - If the employee interacts with customers, clients, or vendors, consider notifying them of the name change to maintain transparency.
 - Slack profile
 - Gmail signature
+- Carta (if legal name change)
 - Human Interest (if legal name change)
