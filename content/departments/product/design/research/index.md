@@ -14,16 +14,15 @@ UX Researchers are one of the many Sourcegraph team members who conduct user res
 ## Conducting UX Research at Sourcegraph
 
 Here at Sourcegraph, we bucket research into two types:
-Here at Sourcegraph, we bucket research into two types:
-| Research Type | Definition | Directly Responsible Individual (DRI) | Research methodologies |
-| --- | ----------- | ----------- | ----------- |
-| Generative | Explore the problem space including foundational (e.g. we know very little about this problem space) and descriptive (we know the problem but none of the specifics) research | UX Researchers (UXR) | <ul><li>user interviews</li><li>diary studies</li><li>participatory design</li><li>contextual inquiry</li><li>Jobs To Be Done (JTBD)</li><li>journey maps</li><li>competitive analysis</li></ul> |
-| Evaluative | Assess the success of a solution that has already been addressed in some way | Product Designers (PD) | <ul><li>hallway testing</li><li>usability testing</li><li>A/B testing</li><li>tree testing</li><li>card sorting</li></ul> |
+| Research type | Definition | Directly Responsible Individual (DRI) | Research methodologies |
+| --- | --------- | -------- | ----------------- |
+| Generative | Explore the problem space including foundational (e.g. we know very little about this problem space) and descriptive (we know the problem but none of the specifics) research | UX Researchers (UXR) | <ul><li>User interviews</li><li>Diary studies</li><li>Participatory design</li><li>Contextual inquiry</li><li>Jobs To Be Done (JTBD)</li><li>Journey maps</li><li>Competitive analysis</li></ul> |
+| Evaluative | Assess the success of a solution that has already been addressed in some way | Product Designers (PD) | <ul><li>Hallway testing</li><li>Usability testing</li><li>A/B testing</li><li>Tree testing</li><li>Card sorting</li></ul> |
 
 - When to conduct research (link)
 - How to define your research goals (link)
 - Conducting generative research (link)
-- Conducting evaluative research (link)
+- [Conducting evaluative research](./conducting-evaluative-research.md)
 - How we prioritize research (link)
 
 ## Research tools
@@ -56,11 +55,9 @@ You can submit a request to the research board on Github here (TO DO). Research 
 
 ## Templates
 
-- Generative research issue(GitHub) (To Do)
-- Evaluative research issue(GitHub) (To Do)
 - User interview research plan and analysis (Dovetail) (To Do)
 - Usability test research plan and analysis (Dovetail) (To Do)
-- Usability testing screener and template (UserTesting.com) (To Do)
+- [Usability testing template with Usability metrics](https://app.usertesting.com/share/f5f2ba6e-6275-4db7-bbfe-5afa21f764fd)
 - Report template (Dovetail) (To Do)
 
 ## Data and research insights

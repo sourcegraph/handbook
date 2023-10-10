@@ -13,7 +13,7 @@ Our mission is to put beautifully designed software in the hands of every develo
 - [Daniel Marques](../../../team/index.md#daniel-marques) – Product
   Designer (he/him)
 
-### User Research
+### UX Research
 
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) – UX Researcher
   (she/they)
@@ -63,8 +63,8 @@ Product design at Sourcegraph is low-process and highly adaptive. Instead of des
 
 - [Ways of working](./ways_of_working/index.md)
 - [Team rituals](./team_rituals/index.md)
-- [Brand Guidelines](./brand_guidelines/)
-- [Research](./research/index.md)
+- [Brand guidelines](./brand_guidelines/)
+- [Evaluative research](./research/conducting-evaluative-research.md)
 - [Design and interaction guidelines](design-and-interaction-guidelines.md)
 - [Design collaboration and review](./design_collaboration_review/index.md)
 
@@ -79,3 +79,9 @@ Product design at Sourcegraph is low-process and highly adaptive. Instead of des
 
 - [Design career framework](./career-development.md)
 - [Interview process](../../product/roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
+
+### UX Research process
+
+The goal of UX research at Sourcegraph is to connect with Sourcegraph users and gather insight into their behaviors, motivations, and goals. We use these insights to inform and strengthen product and design decisions.
+
+📘 [Learn more about Sourcegraph's UX Research program](./research/index.md).
