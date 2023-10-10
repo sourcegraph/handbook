@@ -42,6 +42,11 @@ US-based new hires have 30 days from their start date to enroll in insurance cov
 
 You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
 
+#### Changes to personal information
+
+Updates to the following information must be noted **in both Bamboo and [Rippling](https://help.rippling.com/s/article/360056300693)**:
+An employee’s name, address, phone number, gender, Social Security Number, or date of birth, as well as updates to a dependent’s name, relationship type, gender, Social Security Number, or date of birth.
+
 #### 2023 Open enrollment:
 
 **What:** Open Enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a "qualified life event" - such as a marriage, or the birth of a child.

@@ -13,7 +13,7 @@ where we're headed at each planning cycle. TPMs will pull together reviews for
 each team each planning cycle to include interested members of the exec team,
 the leads of the product team (at least the EPD triad) and other interested
 stakeholders. A planning review will consist of content to cover at least the
-following outline:
+following topics:
 
 - **Retrospective:** How well did we do in accomplishing our goals from last Q?
   What data do you have to support those conclusions?

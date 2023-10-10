@@ -12,11 +12,11 @@ Our Mentorship program provides an opportunity for teammates to be mentored in t
 
 We believe that mentorship is a key part of our culture, and through this program, we are committed to providing resources to make it easy to _find a mentor and be a mentor_.
 
-- **Knowledge Transfer:** Mentors can share their expertise, skills, and insights with mentees, helping them acquire valuable knowledge and experience. One of the best ways to learn is by teaching others! In what’s dubbed “The Protégé Effect”[https://ideas.time.com/2011/11/30/the-protege-effect/], studies show that those who teach others understand the material they are teaching better than those who only learn for themselves.
+- **Knowledge Transfer:** Mentors can share their expertise, skills, and insights with mentees, helping them acquire valuable knowledge and experience. One of the best ways to learn is by teaching others! In what’s dubbed [“The Protégé Effect”](https://ideas.time.com/2011/11/30/the-protege-effect/), studies show that those who teach others understand the material they are teaching better than those who only learn for themselves.
 - **Career/Leadership Development**: Mentorship can accelerate the career growth of both mentee and mentor. The mentee will gain guidance on career paths, goal setting, and skill development. The mentor will gain exposure to leadership and opportunities to refine their coaching skills. Mentorship can groom future leaders by imparting leadership skills and fostering leadership qualities in mentees.
 - **Confidence Building**: Interacting with a mentor can boost a mentee's self-confidence and self-esteem, as they receive affirmation and guidance.
 - **Problem Solving**: Mentors can assist mentees in navigating challenges and solving problems they encounter in their personal and professional lives.
-- Diverse Perspectives: Mentorship exposes mentees/mentors to different viewpoints, experiences, and approaches, enhancing their decision-making abilities.
+- **Diverse Perspectives**: Mentorship exposes mentees/mentors to different viewpoints, experiences, and approaches, enhancing their decision-making abilities.
 - **Personal Growth**: Beyond career benefits, mentorship can contribute to personal growth, including improved communication, adaptability, and emotional intelligence.
 
 **External Resources on Benefits of Mentorship:**
@@ -169,6 +169,21 @@ Below are the questions that will be asked via sliding scale and comment field:
 
 - [Humans of Sourcegraph](https://www.humansofsourcegraph.com)
 - [#mentorship](https://sourcegraph.slack.com/archives/mentorship)
+- **Aritcles & Books**
+
+  For Mentors:
+
+  - [5 Values Great Mentors Share](https://www.forbes.com/sites/patriciaduchene/2019/05/21/the-five-values-that-great-mentors-share/?sh=7fec1ae25790) - Forbes
+    - Tips for mentors on building strong mentor-mentee relationships.
+  - [Mentorship: What to Do When You're the Mentor](https://www.inc.com/heather-wilde/what-it-means-to-be-a-mentor.html) - Inc.
+    - Advice for experienced professionals taking on mentorship roles.
+
+  For Mentees:
+
+  - [How to Get the Most Out of Your Mentorship](https://www.forbes.com/sites/ashiraprossack1/2018/04/26/5-ways-to-get-the-most-out-of-your-mentor-relationship/?sh=150ea19f7cf6) - Forbes
+    - Provides strategies for mentees to maximize their mentorship experience.
+  - [The Art of Receiving Feedback ](https://medium.com/method-matter/the-art-of-receiving-feedback-1561aaa74d6c)- Medium
+    - Helps mentees understand and utilize feedback effectively.
 
 ## **Teammate FAQ**
 

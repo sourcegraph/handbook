@@ -138,6 +138,13 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For customers we are looking to bring their own domain, e.g., `sourcegraph.company.com`.
 
+#### **Enable static NAT IP or private connectivity on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi&projects=&template=managed-instance-configure-code-host-connectivity.yml&title=Configure+Code+Host+Connectivity+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+
+<span class="badge badge-note">⚙️ manual</span>
+
+- For customers who are looking to configure IP allowlist to permit Cloud instance traffic
+- For customers that have private code hosts
+
 #### **Update license key on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-license-key,mi/self-service&projects=&template=managed-instance-configure-license-key.yml&title=Configure+License+Key+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>

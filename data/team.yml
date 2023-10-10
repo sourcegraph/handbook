@@ -41,18 +41,6 @@ stephen_gutekanst:
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stephen-gutekanst)'
   description: 'Stephen enjoys spending time with his numerous [kittos](https://github.com/slimsag/slimsag/blob/master/CATS.md) while solving some of the most critical and technically challenging issues he can get his hands on. Prior to Sourcegraph, he worked 3 years full-time on a game engine in Go while in school. Over the past ~6 years he has been working directly with some of our largest customers and relentlessly advocating for users, and today focuses on high-value low-cost wins across the board.'
 
-eric_fritz:
-  name: Eric Fritz
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: apis_lead
-  location: Milwaukee, WI, USA 🇺🇸
-  github: efritz
-  email: eric@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/eric-fritz-414a9411/)'
-  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/eric-fritz)'
-  description: Eric received a PhD in Computer Science from the University of Wisconsin - Milwaukee where he published research on compiler construction and taught courses in compilers and software engineering. Prior to Sourcegraph, Eric built infrastructure for UCaaS products. While not programming, Eric enjoys cooking while muttering Gordon Ramsay deep cuts to himself.
-
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
   role: Software Engineer
@@ -1415,13 +1403,13 @@ miles_patton:
 megan_standrew:
   name: Megan St. Andrew
   pronouns: she/they
-  location: Chicago, IL, USA 🇺🇸
+  location: Ann Arbor, MI, USA 🇺🇸
   role: UX Researcher
   reports_to: director_design
   email: megan.standrew@sourcegraph.com
   github: meglynst
   links: '[LinkedIn](https://www.linkedin.com/in/meganstandrew/)'
-  description: 'Megan grew up in Michigan and is a proud Anishinaabekwe from the Sault Ste. Marie Tribe of Chippewa Indians (Aanii!👋). She originally studied international studies and digital humanities before shifting to work in UX as a generalist turned researcher. Outside of work, Megan enjoys reading (fiction, non-fiction, poetry, comics, webtoons, basically everything), exploring new cafes in the Chicago area, attempting to learn new languages, and watching K-dramas.'
+  description: 'Megan grew up in Michigan and is a proud Anishinaabekwe from the Sault Ste. Marie Tribe of Chippewa Indians (Aanii!👋). She originally studied international studies and digital humanities before shifting to work in UX as a generalist turned researcher. Outside of work, Megan enjoys reading (fiction, non-fiction, poetry, comics, webtoons, basically everything), hanging out at her favorite cafes in the Ann Arbor area, attempting to learn new languages, and watching K-dramas.'
 
 chris_concannon:
   name: Chris Concannon
@@ -1635,7 +1623,7 @@ lauren_ross:
   role: Senior People Partner
   reports_to: vp_talent
   location: Seattle, WA
-  links: '[LinkedIn](https://www.linkedin.com/in/laurcolby/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/laurencolby/)'
   description: I live in Seattle, WA with my 2 children, husband, and goldendoodle! In my spare time I love adventuring in the outdoors, reading, and spending time with my loved ones.
 
 Marc_LeBlanc:
@@ -1774,8 +1762,8 @@ alex_kemper:
 nelson_araujo:
   name: Nelson Araujo
   reports_to: eng_lead
-  role: Head of Ship
-  manager_role_slug: head_ship
+  role: Head of Infrastructure
+  manager_role_slug: head_infra
   github: nelsonjr
   pronouns: he/him
   location: Redmond, WA, USA 🇺🇸
@@ -1785,31 +1773,31 @@ nelson_araujo:
     Nelson joined Sourcegraph in 2023.
     Nelson loves to tinker with technology in his spare time.
 
-interim_ship_cloudops:
+interim_infra_cloudops:
   name: Rafal Gajdulewicz
-  reports_to: head_ship
+  reports_to: head_infra
   role: Interim Cloud Operations Lead (and Core Services TL)
   manager_role_slug: ship_cloudops_lead
   hide_on_team_page: true
 
-interim_ship_release:
+interim_infra_release:
   name: Nelson Araujo
-  reports_to: head_ship
-  role: Interim Releases Lead (and Head of Ship)
+  reports_to: head_infra
+  role: Interim Releases Lead (and Head of Infrastructure)
   manager_role_slug: ship_release_lead
   hide_on_team_page: true
 
-interim_ship_core_services:
+interim_infra_core_services:
   name: Nelson Araujo
-  reports_to: head_ship
-  role: Interim Core Services Lead (and Head of Ship)
+  reports_to: head_infra
+  role: Interim Core Services Lead (and Head of Infrastructure)
   manager_role_slug: ship_core_services_lead
   hide_on_team_page: true
 
-interim_ship_devinfra:
+interim_infra_devinfra:
   name: Nelson Araujo
-  reports_to: head_ship
-  role: Interim Developer Infrastructure Lead (and Head of Ship)
+  reports_to: head_infra
+  role: Interim Developer Infrastructure Lead (and Head of Infrastructure)
   manager_role_slug: ship_devinfra_lead
   hide_on_team_page: true
 

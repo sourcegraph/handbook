@@ -6,7 +6,6 @@ For teammates
 - [Manager guide to People Ops Systems](../tools/manager-guide.md)
 - [Onboarding](onboarding.md)
 - [Anti-Corruption](anti-corruption.md)
-- [Compensation and leveling](compensation-and-leveling/index.md)
 - [Employment Verification](employment_verification.md)
 - [Engaging talent outside the US](how-we-engage-talent-outside-the-us/index.md)
 - [Giving feedback - impact review writing](giving-feedback.md)
@@ -15,7 +14,7 @@ For teammates
 - [Moving + relocation](moving.md)
 - [Raising concerns](../../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 - [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](compensation-and-leveling/compensation-role-changes.md)
-- [Teammate Sentiment](teammate-sentiment/index.md)
+- [Name Change Process](name-changes.md)
 
 For People Ops
 

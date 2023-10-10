@@ -32,7 +32,7 @@ Partner with the organization to build scalable data solutions and insights to h
 The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook paged. Don’t see what you are looking for? Ask a question in one of our Slack channels.
 
 - #team-data-analytics for internal Data & Analytics communication
-- #ask-analytics for anything related to analytics; not just the Data & Analytics team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask).
+- #discuss-analytics for anything related to analytics; not just the Data & Analytics team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask).
 - #team-data-eng for Data Engineering communication
 - #announce-operations for announcements and general updates
 

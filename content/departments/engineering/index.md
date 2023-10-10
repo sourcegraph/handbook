@@ -14,7 +14,7 @@ The Engineering department at Sourcegraph consists of:
   - [Code Insights](teams/code-insights/index.md)
   - [Code Exploration](teams/code-exploration/index.md)
   - [Code Intelligence](teams/code-intelligence/index.md)
-- [Ship](ship/index.md)
+- [Infrastructure](infrastructure/index.md)
   - [Cloud Operations](../../departments/cloud/index.md)
   - [Core Services](teams/core-services/index.md)
   - [Developer Infrastructure](teams/devinfra/index.md)
