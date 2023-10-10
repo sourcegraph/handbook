@@ -22,7 +22,7 @@ Email Template
 
 To: Payroll, Tech Ops
 
-Cc: Legal, People Ops
+Cc: People Ops
 
 Hi team,
 
@@ -54,12 +54,6 @@ Hi team,
    <td>Tech Ops 
    </td>
    <td>Primary Gmail address and other relevant systems
-   </td>
-  </tr>
-  <tr>
-   <td>Legal
-   </td>
-   <td>Ensure compliance with all relevant labor laws, nondiscrimination laws, and privacy regulations when handling name changes. This includes respecting the employee's privacy and confidentiality.
    </td>
   </tr>
 </table>
