@@ -5,44 +5,52 @@ Our People Team runs Pulse surveys as a way to check in with Teammates on a regu
 The following questions will run over the next 5 months (Oct 2023 through Feb 2024). There are 12 total questions across 8 themes.
 
 **1. Company outlook:**
-* Our company is making progress that will lead to future success
-    * What it’s measuring**:** Employees buy-in and trust in company direction
+
+- Our company is making progress that will lead to future success
+  - What it’s measuring**:** Employees buy-in and trust in company direction
 
 **2. Enablement:**
-* I have the resources I need in order to succeed in my current role
-    * What it’s measuring: Tied to teammate happiness and retention
-* The pace of work here enables me to do a good job
-    * What it’s measuring:** **Tied to teammate happiness and retention
+
+- I have the resources I need in order to succeed in my current role
+  - What it’s measuring: Tied to teammate happiness and retention
+- The pace of work here enables me to do a good job
+  - What it’s measuring:\*\* \*\*Tied to teammate happiness and retention
 
 **3. Feeling valued:**
-* I feel valued and recognized for the work I do
-    * **What it’s measuring:** Teammate happiness with their work
-* The work I do contributes to fulfilling our organizational goals (unpause)
-    * **What it’s measuring:**  Provides insight into teammates understanding the impact of their work towards the greater goals.
+
+- I feel valued and recognized for the work I do
+  - **What it’s measuring:** Teammate happiness with their work
+- The work I do contributes to fulfilling our organizational goals (unpause)
+  - **What it’s measuring:** Provides insight into teammates understanding the impact of their work towards the greater goals.
 
 **4. Management:**
-* I receive regular constructive performance feedback from my manager.
-    * What it’s measuring: if our goal of building feedback culture is being practiced
-* My manager or another leader at work supports me in my professional development (net new)
-    * What it’s measuring: Tied to teammate happiness and retention
+
+- I receive regular constructive performance feedback from my manager.
+  - What it’s measuring: if our goal of building feedback culture is being practiced
+- My manager or another leader at work supports me in my professional development (net new)
+  - What it’s measuring: Tied to teammate happiness and retention
 
 **5. Openness & transparency:**
-* I feel comfortable giving input and direct feedback to leadership and/or all teammates
-    * What it’s measuring**:** If our goal of building a feedback culture and psychologically safe space is being practiced.This will be important with future leadership changes or management styles can shift the company culture and impact employee satisfaction.
-* When the organization makes changes, I am aware and understand why the change is being made** **
-    * What it’s measuring: This can help us track our change management skills and communications. 
+
+- I feel comfortable giving input and direct feedback to leadership and/or all teammates
+  - What it’s measuring**:** If our goal of building a feedback culture and psychologically safe space is being practiced.This will be important with future leadership changes or management styles can shift the company culture and impact employee satisfaction.
+- When the organization makes changes, I am aware and understand why the change is being made\*\* \*\*
+  - What it’s measuring: This can help us track our change management skills and communications.
 
 **6. Team learning:**
-* I have career growth and development opportunities
-    * What it’s measuring: Tied to teammate happiness and retention. If employees feel stagnant and don't see opportunities for career advancement or skill development, their job satisfaction may decrease over time. Repetitive tasks without new challenges can lead to boredom and reduced engagement.
+
+- I have career growth and development opportunities
+  - What it’s measuring: Tied to teammate happiness and retention. If employees feel stagnant and don't see opportunities for career advancement or skill development, their job satisfaction may decrease over time. Repetitive tasks without new challenges can lead to boredom and reduced engagement.
 
 **7. Well-being:**
-* I am happy working here
-    * What it’s measuring: Tied to teammate happiness and retention
 
-**8. Growth & development (net new):** 
-*  I can see myself growing and developing my career in this company** **
-    * What it’s measuring: Tied to teammate happiness and retention. As employees spend more time at a company, they may develop a clearer sense of what they want from their job, and if the company doesn't align with those expectations, dissatisfaction can arise.
+- I am happy working here
+  - What it’s measuring: Tied to teammate happiness and retention
+
+**8. Growth & development (net new):**
+
+- I can see myself growing and developing my career in this company\*\* \*\*
+  - What it’s measuring: Tied to teammate happiness and retention. As employees spend more time at a company, they may develop a clearer sense of what they want from their job, and if the company doesn't align with those expectations, dissatisfaction can arise.
 
 ## FAQs
 
