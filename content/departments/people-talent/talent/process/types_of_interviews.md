@@ -624,13 +624,13 @@ Please send link to your Google doc using the link below when you are finished.
 
 #### Product Manager overview of past projects
 
-Please bring an overview of one or two past project(s) we can use to dig deep in to understand your thought process. This overview can be any format (PDF, Google Slides, written document with screenshots, etc) which helps you clearly outline the project. Ideally, this project...
+Please be prepared to share your screen and walk the panel through an overview of one or two past project(s) that they can use to dig deep in to understand your thought process. This overview can be any format (PDF, Google Slides, written document with screenshots, etc) which helps you clearly outline the project. Ideally, this project...
 
 - is something that you played a key role in from inception to delivery
 - had a number of iterations to get to the outcome
 - leverages data to make decisions along the way
 
-This interview will include a PM and designer from our team. They will use the hour to dig into the project info you prepared to understand how you think about running projects.
+The panel will include PMs, a designer, and our Head of Product. They will use the hour to dig into the project info you prepared to understand how you think about running projects.
 
 #### Product interview
 
