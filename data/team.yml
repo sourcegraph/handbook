@@ -1892,3 +1892,14 @@ raman_sharma:
   location: WA, USA 🇺🇸
   links: '[Blog](https://ramansharma.substack.com/), [Twitter](https://twitter.com/rasharm_), [LinkedIn](https://www.linkedin.com/in/ramansharma/)'
   description: Raman is a techie at heart who also happens to be very interested in business. He has made the journey from Software Engineer -> Product Manager -> Product Marketing Manager -> Head of Marketing, primarily working on developer tools and platforms. Outside of work, he enjoys playing tennis, reading about history, and teaching cricket to his two little boys.
+
+kelvin_yap:
+  name: Kelvin Yap
+  role: Senior Product Marketing Manager
+  email: kelvin.yap@sourcegraph.com
+  github: kelvinyap
+  pronouns: he/him
+  reports_to: marketing_lead
+  location: San Francisco, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/yapk/), [Twitter/X](https://twitter.com/kelvinyap)'
+  description: Trading the beaches of Sydney 🇦🇺 for the fog of San Francisco (hey Karl!), Kelvin spent almost 12 years helping Atlassian across sales, enterprise, and product marketing. When he's not on his bike or advocating the adoption of the metric system, you can find him behind the lens of his beloved film cameras.
