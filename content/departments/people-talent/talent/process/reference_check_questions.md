@@ -30,20 +30,10 @@ If your schedule doesn’t allow for a call, would you mind responding to this e
 Thanks so much in advance for taking the time! It’s greatly appreciated.
 
 Here are the questions we will cover:
-`if manager`
 
 - How long did you work with them?
-- Did they directly report to you?
-- Did they have any direct reports?
-- What were their core responsibilities?
-- What were their biggest strengths they brought to the role, or to the company as a whole?
-- What were some things they could have improved upon?
-- Did you speak to them about this? (If yes: did they show improvements?)
-- Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire them?
-  `if peer`
-- How long did you work with them?
 - In what capacity did you work together?
+- `if manager` Did they have any direct reports?
 - What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
@@ -63,20 +53,9 @@ Hi `reference name`, thanks for taking the time to chat with me about your exper
 
 Jumping into it:
 
-`if manager`
-
-- How long did you work with them?
-- Did they directly report to you?
-- Did they have any direct reports?
-- What were their core responsibilities?
-- What were their biggest strengths they brought to the role, or to the company as a whole?
-- What were some things they could have improved upon?
-- Did you speak to them about this? (If yes: did they show improvements?)
-- Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire them?
-  `if peer`
 - How long did you work with them?
 - In what capacity did you work together?
+- `if manager` Did they have any direct reports?
 - What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
@@ -102,14 +81,14 @@ Email:
 Phone Number:
 
 - How long did you work with them?
-- Did they directly report to you?
-- Did they have any direct reports?
+- In what capacity did you work together?
+- `if manager` Did they have any direct reports?
 - What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire them?
+- If given the opportunity, would you work with them again?
 
 **Reference #2**
 Name:
@@ -118,11 +97,11 @@ Email:
 Phone Number:
 
 - How long did you work with them?
-- Did they directly report to you?
-- Did they have any direct reports?
+- In what capacity did you work together?
+- `if manager` Did they have any direct reports?
 - What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire them?
+- If given the opportunity, would you work with them again?
