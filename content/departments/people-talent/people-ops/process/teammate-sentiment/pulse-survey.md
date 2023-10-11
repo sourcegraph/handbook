@@ -14,14 +14,14 @@ The following questions will run over the next 5 months (Oct 2023 through Feb 20
 - I have the resources I need in order to succeed in my current role
   - What it’s measuring: Tied to teammate happiness and retention
 - The pace of work here enables me to do a good job
-  - What it’s measuring:\*\* \*\*Tied to teammate happiness and retention
+  - What it’s measuring: Tied to teammate happiness and retention
 
 **3. Feeling valued:**
 
 - I feel valued and recognized for the work I do
-  - **What it’s measuring:** Teammate happiness with their work
+  - What it’s measuring: Teammate happiness with their work
 - The work I do contributes to fulfilling our organizational goals (unpause)
-  - **What it’s measuring:** Provides insight into teammates understanding the impact of their work towards the greater goals.
+  - What it’s measuring: Provides insight into teammates understanding the impact of their work towards the greater goals.
 
 **4. Management:**
 
