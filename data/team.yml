@@ -128,16 +128,6 @@ erik_seliger:
   links: '[LinkedIn](https://www.linkedin.com/in/erik-seliger/)'
   description: Erik has a background in Systems Engineering and decided that software is the most interesting field of engineering, which he never quit since first touching Turbo Pascal at age 11.
 
-kai_passo:
-  name: Kai Passo
-  pronouns: he/him
-  role: Account Executive
-  reports_to: regional_director_sales_east
-  location: Atlanta, GA, USA 🇺🇸
-  github: kpsource
-  email: kai@sourcegraph.com
-  description: Kai enjoys time with his family, sailing, and vacationing in Maine (for lobster, sea glass, and amazing sunsets). In terms of work, he focuses on helping customers solve business problems and providing an exceptional customer experience.
-
 rob_rhyne:
   name: Rob Rhyne
   reports_to: ceo
@@ -742,7 +732,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: rd_ce_emea
+  reports_to: dr_ce_ie
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -849,7 +839,7 @@ simon_waterer:
   name: Simon Waterer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: rd_ce_emea
+  reports_to: director_technical_advisory
   location: London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   github: simoncwaterer
   email: simon.waterer@sourcegraph.com
@@ -1365,18 +1355,6 @@ aditya_kalie:
   location: San Jose, California 🇺🇸/ Toronto, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/aditya-kalia/)'
   description: Aditya is a data enthusiast who enjoys solving big data problems and connecting data from A to B. Previously, he led data engineering at a health-focused startup, enabling consumers to shop for their dietary preferences on retailer websites. Outside of work, Aditya enjoys staying active and playing sports with friends. He likes to split his time between Canada and USA to spend time with his close friends and family in both countries.
-
-gronk:
-  name: Ralf 'gronk' Gronkowski
-  email: gronk@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ralf-gronkowski-b74a90/)'
-  github: gronk-sg
-  pronouns: he/him
-  role: Manager, Enterprise EMEA
-  manager_role_slug: rd_ce_emea
-  reports_to: vp_technical_success
-  location: Hamburg, Germany 🇩🇪
-  description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
 
 kalan_chan:
   name: Kalan Chan
