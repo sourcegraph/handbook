@@ -314,7 +314,7 @@ If you have questions about how to use this budget, please reach out in #ask-peo
 
 # Virtual Gatherings
 
-This section refers to virtual events and gatherings with your direct team. As an all-remote company, we encourage teams to connect virtually outside of company and team trips. As such, each teammate has $150 per person per quarter to spend on virtual gatherings of the team’s choice. This budget can be split up into more than one event, but does not roll over to the next quarter. Our recommended virtual event cadence is 1-2 events per quarter.
+This section refers to virtual events and gatherings with your direct team. As an all-remote company, we encourage teams to connect virtually outside of company and team trips. As such, each teammate has $150 per person per quarter to spend on virtual gatherings of the team’s choice. This budget can be split up into more than one event, but does not roll over to the next quarter. Our recommended virtual event cadence is 1 event per quarter.
 
 **Who is responsible for planning virtual events?**
 
