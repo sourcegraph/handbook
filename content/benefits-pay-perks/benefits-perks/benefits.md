@@ -337,35 +337,35 @@ Non-US teammates:
 
 - Not appllicable.
 
-### **Notices** (Sent Oct 2023)
+## **Notices** (Sent Oct 2023)
 
-#### **HIPAA NOTICE OF SPECIAL ENROLLMENT RIGHTS**
+### **HIPAA Notice of Special Enrollment Rights**
 
 The Health Insurance Portability and Accountability Act of 1996 (HIPAA) provides employees additional opportunities to enroll in a group health plan if they experience a loss of other coverage or certain life events. This Notice will provide additional information about your Special Enrollment Rights, and it is also located in the Plan’s wrap Summary Plan Description document.
 
-#### **HIPAA NOTICE OF PRIVACY PRACTICES**
+### **HIPAA Notice of Privacy Practices**
 
 The HIPAA Privacy Rule gives individuals a fundamental right to be informed of the privacy practices of their health plans and of most of their health care providers, as well as to be informed of their privacy rights with respect to their personal health information. Health plans and covered health care providers are required to develop and distribute a notice that provides a clear explanation of these rights and practices. The Privacy Rule provides that an individual has a right to adequate notice of how a covered entity may use and disclose protected health information about the individual, as well as his or her rights, and the covered entity’s obligations with respect to that information. This notice is also located in the Plan’s wrap Summary Plan Description document.
 
-#### **WOMEN’S HEALTH AND CANCER RIGHTS ACT**
+#### **Women’s Health and Cancer Rights Act**
 
 The Women’s Health and Cancer Rights Act (WHCRA) provides that group health plans and health insurance issuers that provide coverage for medical and surgical benefits with respect to mastectomies must also cover certain post-mastectomy benefits, including reconstructive surgery and the treatment of complications (such as lymphedema). The Notice will provide additional information and is also located in the Plan’s wrap Summary Plan Description document.
 
-#### **NEWBORN’S AND MOTHERS’ HEALTH PROTECTION ACT OF 1996**
+#### **Newborn’s and Mothers’ Health Protection Act of 1996**
 
 The Newborns' Act was signed into law on September 26, 1996 and includes important protections for mothers and their newborn children regarding the length of the hospital stay following childbirth. The Notice will provide additional information and is also located in the Plan’s wrap Summary Plan Description document.
 
-#### **CHILDREN’S HEALTH INSURANCE PROGRAM (CHIP) NOTICE**
+#### **Children’s Health Insurance Program (CHIP) Notice**
 
 The model CHIP notice lists the states in which CHIP premium assistance is available.
 
-#### **MEDICARE PART D NOTICE**
+#### **Medicare Part D Notice**
 
 The Medicare Prescription Drug Improvement and Modernization Act of 2003 requires group health plans that include prescription drug coverage to disclose annually to individuals eligible for Part D whether the plan’s coverage is “creditable,” meaning that the group health plan coverage is at a minimum equivalent to Part D coverage. Please note that Sourcegraph’s plans are creditable.
 
 Individuals who do not enroll in Part D coverage when first eligible, and those that go 63 days or longer without creditable coverage, will have to pay higher premiums if they subsequently enroll in a Part D plan. You will need this notice to confirm your status when enrolling for Medicare Part D. Please note that you are responsible for providing this notice to your eligible dependents.
 
-#### **NO SURPRISES ACT NOTICE**
+#### **No Surprises Act Notice**
 
 This important notice explains your rights and protections against surprise medical billing and balance billing in certain circumstances.
 
