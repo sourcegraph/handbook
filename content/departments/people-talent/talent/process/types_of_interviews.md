@@ -317,7 +317,7 @@ Some questions to guide your brainstorming and the working session:
 
 1. What are your ideas and plans for improving the team and our ability to positively impact the business and our prospective and current customers?
 2. What gaps exist in our current process? What are the greatest opportunities for improvement? How might you address those?
-3. What would you need from your direct peer, Gronk (CE RD EMEA), your team leads, Alex and Dan, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering?
+3. What would you need from your direct peer, your team leads, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering?
 
 **Background information**
 
