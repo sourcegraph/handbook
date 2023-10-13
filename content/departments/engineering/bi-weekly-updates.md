@@ -9,7 +9,7 @@ The DRIs for the various teams:
 - **Cody Strat** - [John Wesonga](https://handbook.sourcegraph.com/team/#john-wesonga)
 - **Security** - [Diego Comas](https://handbook.sourcegraph.com/team/#diego-comas)
 - **Cody Clients**:
-  - **VS Code** -  [Kalan](https://handbook.sourcegraph.com/team/#kalan-chan)
+  - **VS Code** - [Kalan](https://handbook.sourcegraph.com/team/#kalan-chan)
   - **IntelliJ** - [Olaf Geirsson](https://handbook.sourcegraph.com/team/#%C3%B3lafur-p%C3%A1ll-geirsson)/[Kalan](https://handbook.sourcegraph.com/team/#kalan-chan)
   - **Neovim** - [teej](https://handbook.sourcegraph.com/team/#tj-devries)
 - **Cody PLG** - [kevin.chen](https://handbook.sourcegraph.com/team/#kevin-chen)
