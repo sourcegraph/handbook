@@ -31,7 +31,7 @@ We know that we’re successful as a design team when we…
 - **Lead design and collaborate effectively across disciplines** We lead the practice of design within our teams, we create a shared approach to the design process across the company, and we build trust with each other and with our colleagues.
 - **Act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency to do our best work.
 - **Advocate for and ship design outcomes that align with our [product design principles](./product_design_principles.md).**
-- **Support each other in a timely manner** As we are remote, and global, and also work in distributed teams, we must make additional effort to work together as a team. For example, rituals such as reviews and updates should be made in good time. Beyond the work, we must aid each other through times when the nature of remote work becomes difficult by connecting as a team. 
+- **Support each other in a timely manner** As we are remote, and global, and also work in distributed teams, we must make additional effort to work together as a team. For example, rituals such as reviews and updates should be made in good time. Beyond the work, we must aid each other through times when the nature of remote work becomes difficult by connecting as a team.
 
 ## How we work
 
