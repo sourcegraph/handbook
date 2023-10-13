@@ -43,6 +43,7 @@ The Engineering department at Sourcegraph consists of:
 - [Submitting a bug report](submitting-a-bug-report.md)
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)
+- [Bi-Weekly Status Updates](bi-weekly-updates.md)
 
 ## What's in a feature?
 
