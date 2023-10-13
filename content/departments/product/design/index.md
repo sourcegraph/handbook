@@ -23,8 +23,6 @@ Our mission is to put beautifully designed software in the hands of every develo
 - [Tracey Johnson](../../../team/index.md#tracey-johnson) – Brand Designer
   (they/them)
 
-We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
-
 ## Ethos
 
 We know that we’re successful as a design team when we…
