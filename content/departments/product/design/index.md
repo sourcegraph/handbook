@@ -27,11 +27,11 @@ Our mission is to put beautifully designed software in the hands of every develo
 
 We know that we’re successful as a design team when we…
 
-- **Collaborate effectively across disciplines to ship and iterate on a great product experience.** This means that we have a shared approach to the design process, that we build trust with each other and with our colleagues, and we consistently ship design solutions that solve product problems.
-- **Feel empowered to act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency.
-- **Advocate for and ship design outcomes that align with our [product design principles](./product_design_principles.md).**
 - **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
-- **Complete goals owned by our teams.** We’re successful when each of us is able to complete our goals in a sustainable way, while also contributing to the design team culture and rituals.
+- **Lead design and collaborate effectively across disciplines** We lead the practice of design within our teams, we create a shared approach to the design process across the company, and we build trust with each other and with our colleagues.
+- **Act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency to do our best work.
+- **Advocate for and ship design outcomes that align with our [product design principles](./product_design_principles.md).**
+- **Support each other in a timely manner** As we are remote, and global, and also work in distributed teams, we must make additional effort to work together as a team. For example, rituals such as reviews and updates should be made in good time. Beyond the work, we must aid each other through times when the nature of remote work becomes difficult by connecting as a team. 
 
 ## How we work
 
