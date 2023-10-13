@@ -15,11 +15,11 @@ The DRIs for the various teams:
 - **Cody PLG** - [kevin.chen](https://github.com/chenkc805)
 
 There's no hard rule on the status update formats but key areas we would like to cover are:
+
 - Highlights
 - Decisions / risks
 - Requests for input / help
 - Details (optional)
-
 
 Key highlights from the status updates that contribute to overall company goals will also be referenced in the **The Git Down** updates. The highlights
 should be shared with the TPM before sending out the updates to a broader audience, TPM will then work with internal comms to identify which ones can be included in the #announce-company update.
