@@ -259,6 +259,7 @@ Keep in mind that the start date will be after the rescinding of the offer, ther
 ## Approving changes
 
 There are many types of change requests that can be made in Bamboo
+
 - Personal information
 - Role/Compensation/Cost Center
 - Promotion/Spot Bonus
@@ -266,7 +267,8 @@ There are many types of change requests that can be made in Bamboo
 - Manager
 - etc
 
-The standard approval process: 
+The standard approval process:
+
 1. Head of Department
 2. Finance
 3. People Team
@@ -279,9 +281,8 @@ Tech Ops needs to be included when Departments or Divisions change, so they can 
 
 **Step 3:** People Ops fills out the necessary Teammate information
 
-**Step 4:** Tech Ops completes all necessary tasks on their end and marks their Process St task as complete. This triggers a slack message to the #wg-bamboo-org-updates channel. 
+**Step 4:** Tech Ops completes all necessary tasks on their end and marks their Process St task as complete. This triggers a slack message to the #wg-bamboo-org-updates channel.
 
 **Step 5:** People Ops gives final approval in Bamboo and closes out the Process St checklist.
 
 Payroll must be included when cost centers change. We ensure this by sending a slack message in #wg-benefits-payroll. Payroll is also included in the Bamboo approval chain when a change request is submitted.
-
