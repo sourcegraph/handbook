@@ -6,7 +6,7 @@ The DRIs for the various teams:
 - **Search Suite** - [Peter Guy](https://github.com/peterguy)
 - **Ship** - [JH Chabran](https://github.com/jhchabran)
 - **Platform** - [thorsten](https://github.com/mrnugget)/[Ryan Phillips](https://github.com/Ryphil)
-- **Cody Strat** - [John Wesonga](https://github.com/johnwesonga)
+- **Cody Strat** - TPM
 - **Security** - [Diego Comas](https://github.com/dcomas)
 - **Cody Clients**:
   - **VS Code** - [Kalan](https://github.com/kalanchan)
