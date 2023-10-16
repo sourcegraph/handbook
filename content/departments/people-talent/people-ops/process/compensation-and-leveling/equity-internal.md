@@ -72,9 +72,10 @@ The People Team is responsible for preparing the initial data pull from BambooHR
          2. When there is a promotion cycle, double check against final list of approved promotions to make sure all have been entered into Bamboo
       4. Pull a report of all new hires, and check to ensure every new hire since the last grant date is on the list 3. Our current comp structure means everyone is stock-eligible
       5. Confirm Vest Start Dates entered into Bamboo correspond with New Hire Start Dates for all New Hire Grants
-   2. _Troubleshooting: when the audit turns up a grant listed as “Granted” that has an effective date after the last board approval date, you’ll need to research to confirm that it’s incorrectly listed as “Granted” (or not). The board only approves grants once per quarter. **Carta is the system of record for approved grants**. Run a report in Carta to check that the grant is, actually, Granted. Likewise, offer letters are the source of truth for new hire grants._
+   2. _Troubleshooting: 3. when the audit turns up a grant listed as “Granted” that has an effective date after the last board approval date, you’ll need to research to confirm that it’s incorrectly listed as “Granted” (or not). The board only approves grants once per quarter. **Carta is the system of record for approved grants**. Run a report in Carta to check that the grant is, actually, Granted. Likewise, offer letters are the source of truth for new hire grants._
    3. _Troubleshooting: Pull a report for all existing options in Bamboo and confirm that all ‘Proposed, Not yet granted’ options are in the correct status. If some have been skipped in previous board approvals, they need to be added to the next sheet._
-   4. Use data from the report to populate the [List for Legal - Template](https://docs.google.com/spreadsheets/d/1Spcdo6KWsALewP9PDfJ8tyb1TXoabwYNEHXNx6EQHe4/edit#gid=0)
+   4. _Troubleshooting: Check if there are any in progress equity change requests in Bamboo with effective dates during the relevant timeframe_
+   5. Use data from the report to populate the [List for Legal - Template](https://docs.google.com/spreadsheets/d/1Spcdo6KWsALewP9PDfJ8tyb1TXoabwYNEHXNx6EQHe4/edit#gid=0)
       1. Copy/paste names into this template from report
       2. Copy/paste “No. of options” into template
       3. Copy/paste “Vesting Start date”
