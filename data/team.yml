@@ -1881,3 +1881,15 @@ kelvin_yap:
   location: San Francisco, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/yapk/), [Twitter/X](https://twitter.com/kelvinyap)'
   description: Trading the beaches of Sydney 🇦🇺 for the fog of San Francisco (hey Karl!), Kelvin spent almost 12 years helping Atlassian across sales, enterprise, and product marketing. When he's not on his bike or advocating the adoption of the metric system, you can find him behind the lens of his beloved film cameras.
+
+rishabh_mehrotra:
+  name: Rishabh Mehrotra
+  reports_to: steve_yegge
+  role: Head of AI
+  manager_role_slug: head_ai
+  github: rishabhmehrotra
+  pronouns: he/him
+  location: London, UK 🇬🇧
+  links: '[Twitter](https://twitter.com/erishabh), [LinkedIn](https://www.linkedin.com/in/mehrotrarishabh/), [website](https://rishabhmehrotra.com/), [Google Scholar](https://scholar.google.co.uk/citations?user=X9BKWWoAAAAJ&hl=en)'
+  description: 'Rishabh is a machine learning scientist interested in teaching machines to better understand (& thereby model & serve) humans. His past work has focused on multi-objective ML, recommendations, personalization and experimentation. Rishabh's PhD research focused on developing efficient ML models for user tasks & need understanding, knowledge discovery and decision optimization, and since then he has led various ML projects from basic research to production, impacting media consumption habits of 400+ million users. He grew up in India and is currently based in London.'
+  
