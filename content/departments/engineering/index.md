@@ -31,7 +31,6 @@ The Engineering department at Sourcegraph consists of:
 
 - #team-engineering
 - #eng-announce
-- #eng-leads
 - #ask-engineering
 - #buildkite-main
 - #dev-chat
