@@ -1884,7 +1884,7 @@ kelvin_yap:
 
 rishabh_mehrotra:
   name: Rishabh Mehrotra
-  reports_to: steve_yegge
+  reports_to: eng_lead
   role: Head of AI
   email: rishabh.mehrotra@sourcegraph.com
   manager_role_slug: head_ai
