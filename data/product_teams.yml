@@ -14,6 +14,7 @@ search_suite:
   brief: Search Suite maintains many of the products built on Search
   em: peter_guy
   design: rob_rhyne
+  pm: ryan_phillips
   issue_labels:
     - team/code-search
 

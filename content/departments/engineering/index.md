@@ -8,6 +8,8 @@ The Engineering department at Sourcegraph consists of:
 
 - Search and Platform
   - [Search Suite](teams/search-suite/index.md)
+- Graph
+  - [Code Intelligence](teams/code-intelligence/index.md)
 - [Infrastructure](infrastructure/index.md)
   - [Cloud Operations](../../departments/cloud/index.md)
   - [Core Services](teams/core-services/index.md)
