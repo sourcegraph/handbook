@@ -15,8 +15,8 @@ Come say hi in #discuss-code-search!
 Search Suite is the owner of the following product areas:
 
 - Search web UI
-- Batch Changes
-- Code Insights
+- [Batch Changes](./batch-changes/index.md)
+- [Code Insights](./code-insights/index.md)
 - Code Monitoring
 - Browser Extensions
 - Code Exploration
