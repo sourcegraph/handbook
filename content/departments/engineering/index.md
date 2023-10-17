@@ -6,9 +6,6 @@ The Engineering department at Sourcegraph consists of:
 
 ## Teams
 
-- Search
-  - [Search Core](teams/search/core.md)
-  - [Search Product](teams/search/product.md)
 - Graph
   - [Batch Changes](teams/batch-changes/index.md)
   - [Code Insights](teams/code-insights/index.md)
@@ -30,11 +27,11 @@ The Engineering department at Sourcegraph consists of:
 ## Slack channels
 
 - #team-engineering
-- #eng-announce
-- #ask-engineering
+- #announce-engineering
+- #discuss-engineering
 - #buildkite-main
-- #dev-chat
-- #dev-urandom
+- #chat-dev
+- #chat-dev-urandom
 
 ## Processes
 
