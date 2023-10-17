@@ -20,4 +20,3 @@ Search Suite is the owner of the following product areas:
 - Code Monitoring
 - Browser Extensions
 - Admin UI
-
