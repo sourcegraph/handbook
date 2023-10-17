@@ -314,30 +314,6 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - [sourcegraph/search-indexer](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/search-indexer)
 - [sourcegraph/searcher](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/searcher)
 
-## [Search Product](../../teams/search/product.md)
-
-### General
-
-- Search queries and results
-- Diff/commit and structural search
-- Code monitoring
-- Saved searches
-- Notebooks
-
-### User journeys
-
-- Search using the search box
-- View recent search activity, community search activity, and saved searches
-- View progress of an executed search, results, and tips for no results
-- Modify search queries in the sidebar
-- Manage search context
-- Add, edit, and delete saved searches
-- Create, view details, filter, edit, disable, and copy code monitors
-- Send email and Slack notifications from a code monitor
-- Create, search, view, edit, update permissions, delete, copy, export, favorite, run, and manage blocks for notebooks
-- Add searches and files to the notepad and edit or delete added items
-- Create a notebook from notepad items.
-
 ## [Security](../../../security/index.md)
 
 ### General
