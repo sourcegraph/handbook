@@ -22,22 +22,18 @@
 
   ### Discover
   Extra large projects should entail more comprehensive research efforts.
-  -[ ] Project brief doc
-    -[ ] Goals
-    -[ ] Who, What, Why
-    -[ ] Constraints
+  -[ ] Contribute to project brief (owned by PM) in the following areas:
     -[ ] Constraints (what we can't do)
-    -[ ]	Deliverables (site nav, mood board, content strategy)
-    -[ ]Timeline
-    -[ ]Distribution channels
-    -[ ]Creative direction
-    -[ ]Resources
-  -[ ] Relevant feedback (internal/external)
-  -[ ] Site analytics
-  -[ ] Analogous/competitive research - Link
+    -[ ] Deliverables (site nav, mood board, content strategy)
+    -[ ] Timeline
+    -[ ] Distribution channels
+    -[ ] Resources
+    -[ ] Relevant feedback including user testing results
+    -[ ] Analogous/competitive research - Link
 
   ### Define
-  -[ ] Findings, recommendations and direction
+  -[ ] Creative direction via moodboard and/or half-page conceptual mocks
+    -[ ] Stakeholder review
   -[ ] GitHub issue
 
   ### Design
@@ -46,9 +42,13 @@
   -[ ] Wireframes
 	  -[ ] Review with stakeholders
     -[ ] Designer review
-  -[ ] Mockup (desktop and mobile)
+  -[ ] Half-page conceptual mocks (if not already completed)
     -[ ] Review with stakeholders
     -[ ] Designer review
+  -[ ] Complete desktop mockups based on initial concepts
+    -[ ] Review with stakeholders
+    -[ ] Designer review
+  -[ ] Mobile mockups
   -[ ] Prototype - Link
     -[ ] Review with stakeholders
 
