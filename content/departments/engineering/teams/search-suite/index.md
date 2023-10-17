@@ -19,4 +19,5 @@ Search Suite is the owner of the following product areas:
 - Code Insights
 - Code Monitoring
 - Browser Extensions
+- Code Exploration
 - Admin UI
