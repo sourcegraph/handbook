@@ -15,3 +15,4 @@
 
 - [Weekly Reports Instructions](weekly-reports.md)
 - [AWS Organisation management](aws.md)
+- [Org-wide on-call rotation](./on-call.md)
