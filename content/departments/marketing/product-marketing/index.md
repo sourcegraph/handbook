@@ -113,7 +113,7 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 - [Approved assets](https://drive.google.com/drive/folders/15lb62hLLYM-mKEOrlg32bmSgIhNcvKFh?usp=sharing): GIFs, videos, and images that are externally shareable
 - [GTM Hub (go-to-market resources)](gtm_hub.md)
 - [Product marketing hierarchy](product_marketing_hierarchy.md)
-- [Batch Changes positioning](../../engineering/teams/batch-changes/go-to-market/index.md)
+- [Batch Changes positioning](../../engineering/teams/search-suite/batch-changes/go-to-market/index.md)
 - [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
 - [Product Marketing & Product Manager collaboration](../../product/process/gtm/pm_and_pmm.md)

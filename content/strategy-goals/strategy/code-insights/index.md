@@ -6,7 +6,7 @@ This page outlines the vision, strategy, and goals of the Code Insights team ove
 
 Quick links:
 
-- [Go to market resources for Sales, CE, and Marketing](../../../departments/engineering/teams/code-insights/go_to_market.md)
+- [Go to market resources for Sales, CE, and Marketing](../../../departments/engineering/teams/search-suite/code-insights/go_to_market.md)
 - [Engineering strategy](../../../departments/engineering/index.md#product-vision-and-strategy)
 - [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)

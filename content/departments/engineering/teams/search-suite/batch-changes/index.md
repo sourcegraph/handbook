@@ -4,7 +4,7 @@
 
 ## Strategy
 
-- Vision, mission and strategy: [Batch Changes strategy](../../../../strategy-goals/strategy/batch-changes/index.md)
+- Vision, mission and strategy: [Batch Changes strategy](../../../../../strategy-goals/strategy/batch-changes/index.md)
 - [Key metrics](metrics.md)
 
 ## Contact

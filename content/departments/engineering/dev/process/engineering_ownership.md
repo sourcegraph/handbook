@@ -4,7 +4,7 @@ The following table documents the ownership of our product and tech stack.
 
 If you see an area that is missing, [figure out](../../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
-## [Batch Changes](../../teams/batch-changes/index.md)
+## [Batch Changes](../../teams/search-suite/batch-changes/index.md)
 
 ### General
 
@@ -38,7 +38,7 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - Production support and on-call of single-tenant managed instances
 - "Continuous delivery" and deployment tooling
 
-## [Code Insights](../../teams/code-insights/index.md)
+## [Code Insights](../../teams/search-suite/code-insights/index.md)
 
 ### General
 
@@ -69,8 +69,6 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - [sourcegraph/codeinsights-db](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/codeinsights-db)
 
 ## [Code Intelligence](../../teams/code-intelligence/index.md)
-
-## [Code Exploration](../../teams/code-exploration/index.md#ownership)
 
 ### General
 

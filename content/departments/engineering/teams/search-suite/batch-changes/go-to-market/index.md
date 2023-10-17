@@ -75,7 +75,7 @@ If the developer does not know, default to:
 
 ## Resources
 
-- [Batch Changes strategy page](../../../../../strategy-goals/strategy/batch-changes/index.md)
+- [Batch Changes strategy page](../../../../../../strategy-goals/strategy/batch-changes/index.md)
 - [Docs](https://docs.sourcegraph.com/batch_changes)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Blog post](https://about.sourcegraph.com/blog/introducing-batch-changes/)
