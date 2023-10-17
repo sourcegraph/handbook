@@ -21,3 +21,4 @@ Search Suite is the owner of the following product areas:
 - Browser Extensions
 - Code Exploration
 - Admin UI
+- [src-cli](https://github.com/sourcegraph/src-cli)

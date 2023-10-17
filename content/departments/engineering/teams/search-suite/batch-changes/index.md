@@ -10,8 +10,8 @@
 ## Contact
 
 - For general questions or concerns, #discuss-code-search channel or @code-search-team on Slack.
-- For engineering support requests, customer questions, or anything else, @batcher-support on Slack.
-- @sourcegraph/batchers team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
+- For engineering support requests, customer questions, or anything else, @code-search-team on Slack.
+- @sourcegraph/code-search team or [batch-changes label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Abatch-changes) on GitHub.
 
 ## Stewardship of src-cli
 
