@@ -20,6 +20,7 @@ We deeply value this feedback, so we make this process as frictionless for teamm
 Bugs can be directly submitted as a GitHub issue.
 
 ### GTM Product Gap Prioritization Process
+
 Each quarter, as Product and Engineering go through their workplanning process, GTM leadership compiles a list of GTM's top asks and priorities for Product and Engineering for the upcoming months. Details about how this prioritization is performed can be found [here](../../..//technical-success/ce/process/gtm-prioritization.md).
 
 ### Product gaps
