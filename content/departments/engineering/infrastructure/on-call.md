@@ -17,7 +17,7 @@ Related docs:
 
 The on-call engineer is responsible for carrying the pager and respond to high priority issues (P0/P1 from TS, P1/P2 on Opsgenie). The on-call engineer is not expecting to handle non-critical operational work, they will still be delegated to the product team.
 
-Services in priority support category should have higher prority than other systems in the case of simultaneous outage. Either by prioritizing them over other word, or engage secondary or team members to handle non-priority support system failure.
+Services in priority support category should have higher prority than other systems in the case of simultaneous outage. Either by prioritizing them over other systems, or engage secondary or team members to handle non-priority support system failure.
 
 The source of truth for prioritization is go/whodoinotify, as this page might be out of date.
 
