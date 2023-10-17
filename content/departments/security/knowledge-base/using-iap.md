@@ -25,4 +25,3 @@ $ gcloud compute ssh --zone "us-central1-a (CHANGE TO YOUR INSTANCE ZONE)" "my-i
 Should you encounter any IAM issues while executing this command, please reach out to the security team in #discuss-security. You may need additional IAP roles to establish a tunnel to the instance.
 
 You can tunnel any type of TCP connection through IAP, if your firewall rules allow this, using the `gcloud compute start-iap-tunnel` command. Find more details on how this works [here](https://cloud.google.com/iap/docs/using-tcp-forwarding#tunneling_other_tcp_connections).
-
