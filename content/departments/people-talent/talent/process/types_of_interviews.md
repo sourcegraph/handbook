@@ -107,8 +107,8 @@ Read more about our values interview [here](evaluating_values.md).
 
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
-- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
-- We will ask behavioral-based, open-ended questions directly related to our values. For example:
+- Details: this interview is focused entirely on our values and how your views and experiences align with them. Our values are key to our success as individuals and as a company, so please read more about them [here](../../../../company-info-and-process/values/index.md) prior to your interview. 
+- You will be asked behavioral-based, open-ended questions directly related to each one of our four values. For example:
   - Tell us about a problem that you identified and then took the initiative to solve, even if it wasn't within your scope of work.
   - Tell us about a time where you proactively provided candid feedback to a colleague, manager or direct report.
 
