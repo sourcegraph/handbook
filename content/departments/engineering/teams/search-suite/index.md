@@ -18,7 +18,10 @@ Search Suite is the owner of the following product areas:
 - [Batch Changes](./batch-changes/index.md)
 - [Code Insights](./code-insights/index.md)
 - Code Monitoring
-- Browser Extensions
 - Code Exploration
 - Admin UI
 - [src-cli](https://github.com/sourcegraph/src-cli)
+- Browser Extensions
+- IDE extensions
+- Executors
+- Notebooks
