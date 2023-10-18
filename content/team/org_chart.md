@@ -74,10 +74,6 @@ Our Product team includes product management (PM) and technical project manageme
 
 {{generator:reporting_structure.senior_manager_value_engineering}}
 
-## Other teams: TODO
-
-Not all teams are listed here yet.
-
 ---
 
 ## How to edit
