@@ -314,7 +314,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 - [Onboarding - People Ops Process](people-ops/tools/internal-onboarding.md)
 - Types of employment
-  - US-based Teammates(COMING SOON)
+  - [US-based Teammates](people-ops/tools/internal-onboarding.md)
   - [Contractors](people-ops/process/how-we-engage-talent-outside-the-us/index.md#contractors)
   - [PEO](people-ops/tools/peo.md)
 - [New Hire Videos](new-hire-videos.md)
