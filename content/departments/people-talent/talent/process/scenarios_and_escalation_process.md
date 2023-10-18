@@ -16,6 +16,6 @@ If the candidate does not show up to the scheduled interview, please let the Tal
 
 ## Scheduling concerns
 
-Ideally, each interview will include two teammates. However, there may be circumstances where only one teammate is scheduled to participate in an interview. In that scenario, the teammate who is participating in the interview asks all interview questions.
+Ideally, each values interview will include two teammates. However, there may be circumstances where only one teammate is scheduled to participate in an interview. In that scenario, the teammate who is participating in the interview asks all interview questions.
 
 If you have any scheduling concerns, please Slack the [Recruiter and Recruiting Coordinator](../../teamalignment.md) in the role's Slack channel.
