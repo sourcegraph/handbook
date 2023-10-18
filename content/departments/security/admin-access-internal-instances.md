@@ -2,13 +2,16 @@
 
 Site-admin access to internal instances (dotcom, s2, rctest, demo, k8s) is provided through an auto-approved Entitle workflow. It will create a short-lived admin account that lasts 1h. Removing long-lived admin accounts largely reduces the risk of compromised credentials across our instances.
 
+> [!NOTE]
+> This is currently deployed only in the dotcom instance. Other instances are unchanged for the moment.
+
 ## How it works
 
 Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 1h with automatic approval.
 
 For sourcegraph.com use the following instructions (or substitute the URL and Entitle request for other instances)
 
-1. In Entitle request the `Dotcom site admin permission`
+1. In Entitle request the `Dotcom site admin permission`. You may do this using the `/access_request` Slack command or [this pre-filled request](https://app.entitle.io/request?targetType=resource&duration=3600&justification=PLEASE%20INCLUDE%20A%20JUSTIFICATION%20-%20SOC2%20AUDITORS%20CHECK%20THIS&integrationId=2a973813-5df5-4572-9982-0169d1deca3b&resourceId=ffe6f48e-45d5-456d-a476-07ab3d27163e&roleId=d3818374-f1ea-433b-aa1a-dacc9f07f996&grantMethodId=d3818374-f1ea-433b-aa1a-dacc9f07f996).
 2. Go to https://sourcegraph.com/sign-in?sourcegraph-operator
 3. Click on Other login methods
 4. Click on Continue with Sourcegraph Operators
