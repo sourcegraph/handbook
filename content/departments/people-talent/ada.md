@@ -314,4 +314,4 @@ Please partner with your People Partner and People Operations (people-ops@source
 
 ## **Resources for people team**
 
-Coming soon (draft)
+[People Team internal process](https://docs.google.com/document/d/1Q6ymiygtOk56tFHvhIAD8E6lXL6YLNFF-ltyrgsewUo/edit?usp=sharing)
