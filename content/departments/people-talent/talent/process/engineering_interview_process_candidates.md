@@ -110,6 +110,14 @@ We want to find engineers who are:
 
 - **Preparation:** Not Mandatory, since we can set up the exercise without it - Create (free) accounts on https://www.figma.com/ and https://codesandbox.io/.
 
+#### Release / Tooling Engineer Take-Home Assignment Walkthrough
+
+- **Interviewers:** two engineers from the Sourcegraph team
+
+- **Duration:** 60-minutes
+
+- **Details:** Two engineers will have you walk them through your take-home exercise. Please be prepared to discuss your results and answer any follow up questions that they have.
+
 #### Delivery: Pairing Exercise
 
 - **Interviewers:** one engineer on the Delivery team
