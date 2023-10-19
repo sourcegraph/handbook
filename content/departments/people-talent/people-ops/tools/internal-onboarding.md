@@ -92,9 +92,8 @@ Note: Lattice and Continu are integrated with Bamboo and will auto-create users 
 
 After the offer letter is signed, new hires will email a photo to people-ops@sourcegraph.com. We turn that photo into their avatar and add the original photo + avatar photo to [this avatar folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA).
 
-**Step 6: Run Process St. onboarding checklists**
+**Step 6: Navigate to Process Street**
 Both the Universal Workflow and Department Specific Workflow need to be run.
-(PROCESS COMING SOON)
 
 **Step 7: Complete the Teammate's information 👤**
 

@@ -237,7 +237,7 @@ Complete the following fields:
     - No PIP
   - No
     - PIP
-    - Any of these reasons [COMING SOON]
+    - Any of these reasons: Misconduct, Gross misconduct, PIP-related Opt Out, Performance (Coaching/Unsuccessful PIP)
 
 Under Employment Status, complete:
 
