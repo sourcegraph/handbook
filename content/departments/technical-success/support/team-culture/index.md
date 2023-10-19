@@ -4,7 +4,7 @@ Team rituals help maintain healthy communication, boundaries, and expectations b
 
 ## Asynchronous collaboration
 
-In order to stay in touch throughout the week and support each other, we share the following in our #customer-support-internal Slack channel...
+In order to stay in touch throughout the week and support each other, we share the following in our #team-support-engineering Slack channel...
 
 - **Weekly planning.** Every Monday we take some time to orient ourselves and then share with each other our intentions for the week.
 - **Daily captain's log.** Every day as we go about our days, we share things we learn/read/hear that are important for us to all know. Yes, we are all in the same channels, but a lot happens in Slack every day and this is how we collectively stay on top of things.
