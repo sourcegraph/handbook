@@ -116,14 +116,14 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#job-fair
    </td>
-   <td>For in-flight project that are part of the Product Planning program.
+   <td>For in-flight projects that are part of the Product Planning program.
    </td>
    <td>#job-fair-own, #job-fair-ranking
    </td>
   </tr>
 </table>
 
-### Manadatory channels for all teammates
+### Mandatory channels for all teammates
 
 _All teammates are automatically added to these channels when they join Sourcegraph, and they should check them regularly._
 
@@ -239,7 +239,7 @@ If you need to start a new topic of conversation, post directly in the channel t
 
 ### Default to Public channels
 
-Sourcegraph is an all remote and asynchronous-first company, and we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
+Sourcegraph is an all remote and asynchronous-first company, and we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn. If you receive a DM that should be shared in a public channel, ask that person to re-send the message with a broader audience. The [forward message](https://slack.com/help/articles/203274767-Forward-messages-in-Slack#:~:text=Tap%20Send.-,Tap%20and%20hold%20the%20message%20you'd%20like%20to%20share,icon%20to%20send%20your%20message.) feature allows you to share private DMs in a public channel.
 
 Private channels will automatically be created for the following categories of conversations:
 
