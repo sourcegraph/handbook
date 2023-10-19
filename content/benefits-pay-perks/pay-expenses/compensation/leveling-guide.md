@@ -110,3 +110,15 @@ Every company has their own leveling system that is unique to their needs. This 
 
   - **Interview Execution vs Level Benchmark:** Candidate interview assessment should be evaluated according to expectations of the job responsibilities and leveling benchmark. If a candidate performs at the expected level of an L3, but the qualified level was benchmarked at L4, the recommendation would be to not hire the candidate if they underperform in the interview assessment. In some cases, it may be appropriate for the hiring team to work with their recruiter to reset the candidate’s expectations, based on the functional role and development opportunities.
   - **Interview Execution vs Years of Experience:** Candidate leveling should not be benchmarked exclusively to the candidate’s resume. For example, if a candidate interview assessment qualifies that they operate at the expected level of an IC5, but their total experience may align closer to others that are benchmarked at lower level, the hiring team should benchmark the candidate at the level we expect them to operate at, not based on the total years of experience within a specific function.
+ 
+## Department-specific career frameworks 
+
+We use the term "career framework" to recognize that careers take many paths. At Sourcegraph, we intentionally avoid the term "career ladder," recognizing instead that a Teammate's career journey is often multi-dimensional.
+
+The frameworks below are iterative - we are committed to maintaining high expectations of all of our Teammates, and are open to adjusting or clarifying wording in our frameworks as our business evolves.
+
+Every department has created a framework for roles within their group. Each framework may apply to multiple job titles within that department. Where we have many Teammates in a role, we may create a more detailed, job-specific framework.
+
+
+
+
