@@ -177,8 +177,9 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
 - Q: Do I clock hours into Rippling on PTO?
   - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right-click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”
- 
+
 #### Minor Travel Policy
+
 - [Supervisor Guidelines](https://docs.google.com/document/d/1dXziVsmJoDtTRE_ZzA-_EsJ6FYedn7heoH5mmS77ULw/edit#heading=h.93retcq8qou1)
 - [Minor Guidelines](https://docs.google.com/document/d/1-cpjqEmkSKURowXOiydrLd1WIUdp-KZzqucRQ7va4QM/edit)
 
