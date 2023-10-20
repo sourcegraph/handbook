@@ -6,9 +6,10 @@ The Data & Analytics team uses two primary tools for dashboards and reporting - 
 
 ### **What is Looker?**
 
-Looker is a business intelligence tool used for standard enterprise reporting and analysis. 
+Looker is a business intelligence tool used for standard enterprise reporting and analysis.
 
 #### **How do I get access to Looker?**
+
 All Sourcegraph employees can have View access to Looker, and select people have the ability to edit/create reports and explore datasets. If you need help getting a Looker account with View access, please reach out to #ask-it-tech-ops. If you have a looker account, but need the ability to create reports/explore datasets, please request temporary edit permissions via [Entitle](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjM2MDAiLCJqdXN0aWZpY2F0aW9uIjoiW0VudGVyIGFjY2VzcyByZWFzb24gaGVyZV0iLCJyb2xlSWRzIjpbeyJpZCI6IjUxNmM4ZTc3LTc2YWQtNDJkOS04OTIyLWRlZDI1NmM0NDk3MCIsInRocm91Z2giOiI1MTZjOGU3Ny03NmFkLTQyZDktODkyMi1kZWQyNTZjNDQ5NzAiLCJ0eXBlIjoicm9sZSJ9XX0%3D).
 
 #### **What data can I find in Looker?**
