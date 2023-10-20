@@ -607,8 +607,8 @@ gabe_torres:
 jason_harris:
   name: Jason Harris
   pronouns: He/Him
-  role: Support Engineer
-  reports_to: manager_support
+  role: Software Engineer
+  reports_to: code_search_lead
   location: Los Angeles, CA USA
   github: jasonhawkharris
   email: jason.harris@sourcegraph.com
