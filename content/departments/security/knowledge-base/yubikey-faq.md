@@ -75,9 +75,9 @@ There isn’t yet a firm timeline for this change. This policy will first be enf
 
 ### When can I get a Yubikey?
 
-We want to get Yubikeys to everyone as soon as possible! We decided to perform a staged rollout so we can receive feedback and iterate on making the next batch of Yubikeys easier to set up. For example, this FAQ was created to answer the questions we received during the first stage of the rollout at Merge 2023.02!
+All teammates should have received Yubikeys, either as part of their onboarding or as part of our rollout. If for some reason you did not receive a Yubikey, please reach out #ask-it-tech-ops so they can ensure you receive one as soon as possible.
 
-While you're waiting, you should [set up Okta with Touch/Face ID on your MacBook and phone](../../../departments/tech-ops/tools/Okta/main.md#adding-touch-id-as-a-phishing-resistant-mfa-option). This only takes a couple of minutes, and can save you time every time you log into Okta.
+You should have received two Yubikeys - a 5C NFC that can be used with your phone, and a 5C Nano that can be left connected to your laptop.
 
 ## Troubleshooting
 
