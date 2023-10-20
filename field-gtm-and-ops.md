@@ -1,4 +1,4 @@
-#  Field Go-to-Market and Operations Team Charter
+# Field Go-to-Market and Operations Team Charter
 
 ## Field GTM and Ops Purpose
 
