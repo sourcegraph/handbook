@@ -438,7 +438,7 @@ beatrix_woo:
 
 stompy_mwendwa:
   name: Stompy Mwendwa
-  role: Support Engineer
+  role: Senior Support Engineer, Team Lead
   reports_to: manager_support
   location: Nairobi, Kenya 🇰🇪
   github: airamare01
@@ -596,7 +596,7 @@ kelsey_nagel:
 gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
-  role: Support Engineer
+  role: Senior Support Engineer
   reports_to: manager_support
   location: Los Angeles, CA, USA 🇺🇸
   github: gabtorre
@@ -618,7 +618,7 @@ jason_harris:
 michael_bali:
   name: Michael Bali
   pronouns: He/Him
-  role: Support Engineer
+  role: Senior Support Engineer
   reports_to: manager_support
   location: Lagos, Nigeria 🇳🇬
   github: topebali
@@ -629,7 +629,7 @@ michael_bali:
 alex_jean-baptiste:
   name: Alex Jean-Baptiste
   pronouns: He/Him
-  role: Support Engineer
+  role: Senior Support Engineer
   reports_to: manager_support
   location: Atlanta, Georgia USA 🇺🇸
   github: alexAtSourcegraph
@@ -641,7 +641,7 @@ alex_jean-baptiste:
 mariam_adedeji:
   name: Mariam Adedeji
   pronouns: She/Her
-  role: Support Engineer
+  role: Senior Support Engineer
   reports_to: manager_support
   location: Lagos, Nigeria 🇳🇬
   github: rhiam
@@ -1315,7 +1315,7 @@ ajay_uppaluri:
 
 rakesh_joshi:
   name: Rakesh Joshi
-  role: Support Engineer
+  role: Senior Support Engineer
   reports_to: manager_support
   location: Melbourne, Australia
   email: rakesh.joshi@sourcegraph.com
