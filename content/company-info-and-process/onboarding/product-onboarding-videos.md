@@ -4,8 +4,7 @@ We created these videos as an intro to educate the team on our product. The goal
 
 ## Sourcegraph product overview
 
-A [wide overview](https://www.loom.com/embed/d18888ab416844bfbac511ba1489a207?unfurl=blocks) of various features within the Sourcegraph search product. 
-
+A [wide overview](https://www.loom.com/embed/d18888ab416844bfbac511ba1489a207?unfurl=blocks) of various features within the Sourcegraph search product.
 
 ## Code Insights Video
 
