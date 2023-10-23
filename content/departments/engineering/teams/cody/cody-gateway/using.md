@@ -23,8 +23,8 @@ Access to the production Cody Gateway instance can be provisioned with the follo
    1. Enable access to Cody Gateway
    2. If desired, configure custom rate limits to allow more/less usage
    3. **Customers can only use the models listed under "Cody services"**. To configure other models:
-      1. Adding the `gpt` tag to the latest license will enable access to all OpenAI GPT models.
-      2. Adding a custom rate limit allows you to configure other models to allow the customer to use.
+      1. Adding the `gpt` tag to the latest license will enable access to all OpenAI GPT models. It is not required, this is only a convenience mechanism - overrides will always take precedence.
+      2. Adding a custom rate limit (override) allows you to configure other models to allow the customer to use
 
 Once access is provisioned (i.e. enabled via Cody Gateway), the Sourcegraph instance must be [configured](#configuration) as well.
 
