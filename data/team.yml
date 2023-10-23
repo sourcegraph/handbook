@@ -1392,13 +1392,13 @@ megan_standrew:
 chris_concannon:
   name: Chris Concannon
   pronouns: he/him/his
-  location: San Francisco, CA, USA 🇺🇸
+  location: San Anselmo, CA, USA 🇺🇸
   role: Senior Customer Engineer
   reports_to: dr_ce_ie
   email: chris.concannon@sourcegraph.com
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
-  description: 'Chris lives in San Francisco 🌁 with his wife and their dog. He has a biomedical engineering degree from Duke University, and he spent several years as a clinical medical device professional before he became a software developer. Chris is an avid trail runner, and he thinks that running up a mountain at sunrise is the best way to start a day. He also enjoys skiing, backpacking, cycling, traveling, riding his motorcycle, and indulging in the fabulous local food, wines, and beers of the Bay Area.'
+  description: 'Chris lives in Marin County with his wife and their dog. He has a biomedical engineering degree from Duke University, and he spent several years as a clinical medical device professional before he became a software developer. Chris is an avid trail runner, and he thinks that running up a mountain at sunrise is the best way to start a day. He also enjoys skiing, backpacking, cycling, traveling, riding his motorcycle, and eating his way through the cuisine of the Bay Area.'
 
 tom_pinckney:
   name: Tom Pinckney
