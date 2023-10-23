@@ -25,6 +25,7 @@ View the app video on the about site at: [https://about.sourcegraph.com/app](htt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XLfE2YuRwvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Own
+
 Overview [Own](https://www.loom.com/share/52a68074b7b34b16a129287e8c590ddf), a new feature that helps developers find the owner of a file or repository.
 
 ### What are Git commits and how do they work?
