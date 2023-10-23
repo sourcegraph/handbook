@@ -34,6 +34,7 @@ Our schedule is reflected in the working hours set in our calendars.
 | Mariam      | 9am–5pm        | 09:00–17:00 | 1am–9am       |
 | Michael     | 8am–4pm        | 07:00–15:00 | 11pm–7am      |
 | Morgan      | 9am–5pm        | 17:00–01:00 | 9am-5pm       |
+| Noah        | 10am–6pm       | 15:00–23:00 | 7am-3pm       |
 | Rakesh      | 10:30am–6:30pm | 00:00–08:30 | 5:30pm–1:30am |
 | Stompy      | 1pm–9pm        | 10:00–18:00 | 2am–10am      |
 | Shawnteé    | 8am–4pm        | 14:00–22:00 | 6am–2pm       |
