@@ -7,7 +7,7 @@ Site-admin access to internal instances (dotcom, s2, rctest, demo, k8s) is provi
 
 ## How it works
 
-Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 1h with automatic approval.
+Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 12h with automatic approval.
 
 For sourcegraph.com use the following instructions (or substitute the URL and Entitle request for other instances)
 
@@ -26,6 +26,10 @@ _*Note*: we understand there may be uses for long-lived admin accounts, such as 
 - Q: What happens with my existing Sourcegraph accounts?
 
   - A: If your existing account is a site-admin, it will be demoted to regular user. No existing user accounts will be deleted.
+
+- Q: How can I use my regular account as a site-admin?
+
+  - A: Add your Sourcegraph email, matching Okta, as a verified email to your existing account. After requesting SOAP access it will be granted (and later removed) from your account.
 
 - Q: What happens with tokens created during the elevated privilege window?
 
