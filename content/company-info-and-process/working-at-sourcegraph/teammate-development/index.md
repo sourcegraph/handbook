@@ -273,7 +273,7 @@ Lattice allows us to not only give, but request feedback. There are two main way
       - Private + Manager - The feedback given will be seen by you & your manager
       - Manager Only - The feedback given will be seen only by your manager
 
-### Regular 1:1s
+### 1:1s
 
 By building positive, meaningful relationships and creating a truly supportive environment for Teammates, Managers directly influence Sourcegraph’s future success - and one of the most effective ways to achieve this is by committing to regular 1:1s. The exchange of both professional and personal information not only leads to a deeper connection, but also builds trust at pace and enables you, as a Manager, to better understand and empathize with your team.
 
@@ -421,7 +421,7 @@ Managers:
 
 In situations of underperformance, which may be identified during ongoing feedback or formal impact reviews, Managers should consult with their People Partner and follow this guidance for addressing underperformance.
 
-The following are best practice intended to help both Managers and Teammates navigate performance concerns early on:
+The following are best practices intended to help both Managers and Teammates navigate performance concerns early on:
 
 Have difficult conversations early to avoid a lag in addressing performance concerns.
 
