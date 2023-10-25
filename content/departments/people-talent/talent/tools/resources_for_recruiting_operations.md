@@ -93,19 +93,19 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 ### How to schedule a debrief
 
-**Step 1:** Create a Google calendar invite titled, "Debrief - {candidate name} - {job title]" and invite all panelists who participated in the interview process 
+**Step 1:** Create a Google calendar invite titled, "Debrief - {candidate name} - {job title]" and invite all panelists who participated in the interview process
 
 **Step 2:** Mark values interviewers as optional, unless they submitted a scorecard as s a "no decision", "no", or "definitely not"
 
-**Step 3:** Add zoom video conferencing details 
+**Step 3:** Add zoom video conferencing details
 
 **Step 4:** Copy the candidate's Greenhouse URL and paste it into the body of the calendar invite
 
-**Step 5:** Write the words "#brighthire" in the body of the email so that the recorded debrief is tied to the candidate's brighthire page 
+**Step 5:** Write the words "#brighthire" in the body of the email so that the recorded debrief is tied to the candidate's brighthire page
 
-**Step 6:** Send the invite at the most optimal time for all interviewers 
+**Step 6:** Send the invite at the most optimal time for all interviewers
 
-**Step 7:** When joining the debrief, click "Interview with BrightHire" so that the meeting is recorded. 
+**Step 7:** When joining the debrief, click "Interview with BrightHire" so that the meeting is recorded.
 
 ### Scheduling best practices
 
