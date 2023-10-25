@@ -19,7 +19,7 @@ Today, the following segments are considered managed:
 | ---------------- | ---------------------------------------- |
 | Strategic        | 10k+ devs, any amount of ARR spend       |
 | Enterprise       | 1.5k - 10k devs, any amount of ARR spend |
-| Commercial       | 0 - 1.5k devs, <$100k ARR spend          |
+| Commercial       | 0 - 1.5k devs, >$100k ARR spend          |
 
 ### Unmanaged
 
@@ -29,7 +29,7 @@ Today, the following segment is considered unmanaged:
 
 | Customer Segment | Segment definition              |
 | ---------------- | ------------------------------- |
-| Commercial       | 0 - 1.5k devs, >$100k ARR spend |
+| Commercial       | 0 - 1.5k devs, <$100k ARR spend |
 
 ## Scaled Success Program
 
