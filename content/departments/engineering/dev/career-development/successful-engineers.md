@@ -8,57 +8,56 @@ The most successful engineers check a lot of the boxes most of the time.
 
 1. **Great programmers**
 
-    They can write code in the languages they work with as well as the best in the world.
-    They know their tools enough to use them to maximum efficiency.
-    They know what they don't know.
-
+   They can write code in the languages they work with as well as the best in the world.
+   They know their tools enough to use them to maximum efficiency.
+   They know what they don't know.
 
 2. **Continuously improve things around them**
 
-    They leave codebases in a better state than they found them.
-    They improve processes.
-    They ask “do we still need this?” about code, features, products, processes.
+   They leave codebases in a better state than they found them.
+   They improve processes.
+   They ask “do we still need this?” about code, features, products, processes.
 
 3. **Unblock themselves**
 
-    They ask for help – as early as needed.
-    They debug and try alternative approaches.
-    They know how to continue working while waiting for an answer from a colleague in a different timezone.
+   They ask for help – as early as needed.
+   They debug and try alternative approaches.
+   They know how to continue working while waiting for an answer from a colleague in a different timezone.
 
 4. **Get better on their own**
 
-    If left alone, they will find ways to get better and improve. If you nudge them and give them tips and directions, they get even better.
+   If left alone, they will find ways to get better and improve. If you nudge them and give them tips and directions, they get even better.
 
 5. **Ship value to customers; they don’t write code for code’s sake**
 
-    They know that delivering value to the customers is all that counts in the end.
-    They really want their work to end up in the hands of customers, where it’s used successfully.
-    They see Engineering as a business function and understand that Engineering isn’t there to serve Engineering, it’s there to serve the business and provide value to it.
+   They know that delivering value to the customers is all that counts in the end.
+   They really want their work to end up in the hands of customers, where it’s used successfully.
+   They see Engineering as a business function and understand that Engineering isn’t there to serve Engineering, it’s there to serve the business and provide value to it.
 
 6. **Great communicators**
 
-    Slack, RFCs, code reviews, GitHub comments, commit messages, pull requests, Zoom calls—they know that all of these are forms of communication and they know in which situations and how to use each medium best.
+   Slack, RFCs, code reviews, GitHub comments, commit messages, pull requests, Zoom calls—they know that all of these are forms of communication and they know in which situations and how to use each medium best.
 
-    They know that communication counts a lot in an async/remote communication and that communication is the work at times and not just something that gets in the way of coding.
+   They know that communication counts a lot in an async/remote communication and that communication is the work at times and not just something that gets in the way of coding.
 
 7. **Share their work regularly**
 
-    They know that sharing work and progress is not about boasting; it’s about keeping others in the loop and fostering moments of “Ah, I remember when $name shared how they did $project, maybe we can take this approach”
+   They know that sharing work and progress is not about boasting; it’s about keeping others in the loop and fostering moments of “Ah, I remember when $name shared how they did $project, maybe we can take this approach”
 
 8. **Find work and problems to solve**
 
-    They look around them and at the company goals and find ways that we can do better.
-    They are aware of where the business is headed and what our customers want.
-    They advocate for their work, seeking the alignment that is needed to decide whether or not now is the right time for that work.
-    They propose fixes and solutions, product ideas and roadmap additions.
-    They will be busy improving our product and codebase even if the rest of the company goes offline for 4 weeks.
-    They are skeptical of red tape.
+   They look around them and at the company goals and find ways that we can do better.
+   They are aware of where the business is headed and what our customers want.
+   They advocate for their work, seeking the alignment that is needed to decide whether or not now is the right time for that work.
+   They propose fixes and solutions, product ideas and roadmap additions.
+   They will be busy improving our product and codebase even if the rest of the company goes offline for 4 weeks.
+   They are skeptical of red tape.
 
 9. **Have a sense of urgency**
 
-    They know that we’re a startup that has to move fast.
-    When someone says “next week” they ask “why not tomorrow?”
-    They know that a sense of urgency is not about shipping hacks, but about finding the quickest solutions with the right tradeoffs for the problem at hand: they don't build out a full system where a prototype is all that's needed, but they also don't bring a hack to solve a systemic problem like security.
+   They know that we’re a startup that has to move fast.
+   When someone says “next week” they ask “why not tomorrow?”
+   They know that a sense of urgency is not about shipping hacks, but about finding the quickest solutions with the right tradeoffs for the problem at hand: they don't build out a full system where a prototype is all that's needed, but they also don't bring a hack to solve a systemic problem like security.
 
 10. **Not solo players**
 
