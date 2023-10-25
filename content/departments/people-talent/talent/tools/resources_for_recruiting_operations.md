@@ -91,6 +91,22 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 **Note:** Follow the same scheduling steps for internal candidates that you would for external candidates. Send the confirmation email to the internal candidate's Sourcegraph email address so they can add the event to their calendar if they'd like.
 
+### How to schedule a debrief
+
+**Step 1:** Create a Google calendar invite titled, "Debrief - {candidate name} - {job title]" and invite all panelists who participated in the interview process
+
+**Step 2:** Mark values interviewers as optional, unless they submitted a scorecard as s a "no decision", "no", or "definitely not"
+
+**Step 3:** Add zoom video conferencing details
+
+**Step 4:** Copy the candidate's Greenhouse URL and paste it into the body of the calendar invite
+
+**Step 5:** Write the words "#brighthire" in the body of the email so that the recorded debrief is tied to the candidate's brighthire page
+
+**Step 6:** Send the invite at the most optimal time for all interviewers
+
+**Step 7:** When joining the debrief, click "Interview with BrightHire" so that the meeting is recorded.
+
 ### Scheduling best practices
 
 - Scheduling over other meetings on interviewers’ calendars
@@ -108,17 +124,9 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 - Always seek to improve!
   - Look for opportunities to make your workflow more efficient and if someone has an idea, listen.
 
-### Executive Business Partner breakdown
-
-Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
-
-- [Sally Voisen](../../../../team/index.md#sally-voisen) supports [Quinn Slack](../../../../team/index.md#quinn-slack), CEO
-- [Michal Sennett](../../../../team/index.md##michal-sennett) supports [Beyang Liu](../../../../team/index.md#beyang-liu), CTO & Co-founder, [Carly Jones](../../../../team/index.md#carlycjones), VP People & Talent
-- [Amber Smokowski](../../../../team/index.md#amber-smokowski) supports [Greg Bastis](../../../../team/index.md#greg-bastis), VP Sales, Western Region and [Aimee Menne](../../../../team/index.md#aimee-menne), VP Customer Engineering & Support
-
 ### How to select a Values Interview panel
 
-When creating the interview plan in Greenhouse, the talent team will select 2 values interviewers to participate in the interview process for each role. The talent team aims to include two teammates outside of the department for which a candidate is interviewing.
+When creating the interview plan in Greenhouse, the talent team will select 2 values interviewers at random who have been at the company for 3+ months. The talent team aims to include two teammates outside of the department for which a candidate is interviewing.
 
 ### How to send a candidate interview confirmation email
 
