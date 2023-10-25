@@ -26,6 +26,12 @@ These are the expectations for ICs _after they have completed their onboarding_.
 We expect every engineer to eventually reach at least level 3.
 It is the responsibility of your manager to track this, and to ensure that you are given the support and opportunities needed for career growth.
 
+## Successful engineers at Sourcegraph
+
+In order to make the level descriptions below a bit more tangle, we also have the following document: [Successful engineers at Sourcegraph](./successful-engineers.md).
+
+The goal of that document is to drive home that point that the ladder is not a series of checkboxes to be checked-off sequentially. There are many different ways to have impact across multiple levels here.
+
 ## When do I get promoted?
 
 When your manager can make the case that you’ve had at least one quarter of high performance at your current level, and one quarter performing at the next level, in all three of the categories. It takes time to demonstrate the “consistently” implicit in the expectations, and we don’t want to promote anyone to a level in which they will struggle.
