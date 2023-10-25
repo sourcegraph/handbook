@@ -333,9 +333,9 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 
 ### Role / comp / equity change process
 
-- How to process an equity increase (COMING SOON)
+- [How to process an equity increase](people-ops/process/compensation-and-leveling/compensation-role-changes.md#requesting-a-compensation-change-equity-only)
 - Quarterly equity grant [approval process](people-ops/process/compensation-and-leveling/equity-internal.md#board-approval-process) and [internal documentation](https://docs.google.com/document/d/1W_rpuSFhem1Mf1uoKDt-HrUBU-fhdEkGssWqx4qIIQw/edit#heading=h.r7q2r0unofbt)
-- How to process a compensation increase (COMING SOON)
+- [How to process a compensation increase](people-ops/process/compensation-and-leveling/compensation-role-changes.md#requesting-a-compensation-change-cash-only)
   - Informing PEO re: comp increases (COMING SOON)
 - Template letters:
   - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
