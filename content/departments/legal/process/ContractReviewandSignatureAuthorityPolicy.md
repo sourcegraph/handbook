@@ -340,7 +340,7 @@ YES. It does not matter if we can’t redline the contract; it’s still very im
 
 ### Do I need another internal team to review the vendor contract before I get it signed?
 
-The [Sourcegraph Procurement Policy](../../finance/process/ap/.md#airbase-guided-procurement-contract-executionvendor-request) tells you which internal teams need to review a vendor engagement (Security, Legal, Finance, and Tech Ops). When each reviewer type is engaged is dependent upon the annual contract value and the type of data the vendor will have access to. Follow the guide to get your vendor request in front of the relevant internal reviewers and approvers. For questions, reach out to #discuss-vendor-setup in Slack.
+The [Sourcegraph Procurement Policy](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request) tells you which internal teams need to review a vendor engagement (Security, Legal, Finance, and Tech Ops). When each reviewer type is engaged is dependent upon the annual contract value and the type of data the vendor will have access to. Follow the guide to get your vendor request in front of the relevant internal reviewers and approvers. For questions, reach out to #discuss-vendor-setup in Slack.
 
 ### When is Legal review required for Vendor contracts?
 
