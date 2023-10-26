@@ -63,19 +63,17 @@ _Always include a Grant Type in the Equity Notes in BambooHR option section._
 
 The People Team is responsible for preparing the initial data pull from BambooHR, and sharing a final list of grants made since the last board approval with the Legal Team. This includes auditing BambooHR for accuracy. The People Team is responsible for maintaining BambooHR records, which includes updating approved grants from “Proposed, Not yet granted” to “Granted” in BambooHR following board approval.
 
-1. Pull the report titled “Equity Audit” from BambooHR. This will be the list of grants to be sent to Legal to process for board approval.
-   1. Perform the following audits, to ensure grants were entered correctly into Bamboo:
-      1. Filter by selecting all Vesting Start Dates since last board approval date and ensure all are listed as “Proposed, Not Yet Granted”
-      2. Filter by selecting all “Proposed, Not Yet Granted” and ensuring Vesting Start Dates are all listed as _after_ the last board approval date
-      3. Cross-check all options amounts against a) Signed offers or b) refresh/promo letter. Amounts listed in documents must match Bamboo
-         1. Both should be in the Documents tab in Bamboo - add them in if they are not
-         2. When there is a promotion cycle, double check against final list of approved promotions to make sure all have been entered into Bamboo
-      4. Pull a report of all new hires, and check to ensure every new hire since the last grant date is on the list 3. Our current comp structure means everyone is stock-eligible
-      5. Confirm Vest Start Dates entered into Bamboo correspond with New Hire Start Dates for all New Hire Grants
-   2. _Troubleshooting: 3. when the audit turns up a grant listed as “Granted” that has an effective date after the last board approval date, you’ll need to research to confirm that it’s incorrectly listed as “Granted” (or not). The board only approves grants once per quarter. **Carta is the system of record for approved grants**. Run a report in Carta to check that the grant is, actually, Granted. Likewise, offer letters are the source of truth for new hire grants._
-   3. _Troubleshooting: Pull a report for all existing options in Bamboo and confirm that all ‘Proposed, Not yet granted’ options are in the correct status. If some have been skipped in previous board approvals, they need to be added to the next sheet._
-   4. _Troubleshooting: Check if there are any in progress equity change requests in Bamboo with effective dates during the relevant timeframe_
-   5. Use data from the report to populate the [List for Legal - Template](https://docs.google.com/spreadsheets/d/1Spcdo6KWsALewP9PDfJ8tyb1TXoabwYNEHXNx6EQHe4/edit#gid=0)
+1. Pull the report titled “Equity Audit” from BambooHR. This will include all equity grants and we will perform filters/audits to prepare the list of grants that is sent to Legal for board approval.
+2. After downloading the "Equity Audit Report" filter the report to only include "Proposed, Not Yet Granted" options
+3. Ensure Vesting Start Dates are all listed as _after_ the last board approval date. If any are from previous quarters, check whether they were missed in the previous board approval process and must be included in this round of board approvals, or if they were already approved by the board and just need to be marked as "granted" in Bamboo.
+4. Cross-check whether there are any equity change requests _in progress_ in Bamboo with effective dates during the relevant timeframe. These should be added to the report before sharing with Legal. 
+5. Cross-check all options amounts against a) Signed offers or b) refresh/promo letter. Amounts listed in documents must match Bamboo
+- Both should be in the Documents tab in Bamboo - add them in if they are not
+- When there is a promotion cycle, double check against final list of approved promotions to make sure all have been entered into Bamboo
+6. Pull a report of all new hires, and check to ensure every new hire since the last grant date is on the list.
+- Our current comp structure means everyone is stock-eligible.
+- Confirm Vest Start Dates entered into Bamboo correspond with New Hire Start Dates for all New Hire Grants
+7. Use data from the report to populate the [List for Legal - Template](https://docs.google.com/spreadsheets/d/1Spcdo6KWsALewP9PDfJ8tyb1TXoabwYNEHXNx6EQHe4/edit#gid=0)
       1. Copy/paste names into this template from report
       2. Copy/paste “No. of options” into template
       3. Copy/paste “Vesting Start date”
@@ -85,8 +83,9 @@ The People Team is responsible for preparing the initial data pull from BambooHR
       7. For “Relationship," those receiving ISOs are “Employee.” All else are “Consultant.”
          1. Note: Make sure that all Consultants receive NSOs. Some US teammates are part-time or temporary consultants--they should receive NSOs and be Consultants. Process improvement opportunity is to add employee type to the Equity Audit report and use that instead.
       8. Skip these (Legal fills out): Exercise/vest schedule & % fully diluted
-2. Send the populated List for Legal to our Legal team via [#stock-option-grants](https://sourcegraph.slack.com/archives/C0340RSGWQN) **Ensure you are not posting in the public channel!**
-3. Legal team sends the list to outside counsel and facilitates board approval
+8. Double check that no grants were accidentally marked as "Granted" in Bamboo by removing all filters from the Equity report, and filtering only by vesting start date. Any grants from the current quarter should be marked as "Proposed, Not Yet Granted" since they haven't gone through board approvals yet. If any are marked as "granted" already, run a report in Carta to check that the grant is, actually, Granted before adjusting to "Proposed, not yet granted" and adding them to the report for Legal/Board approval.  **Carta is the system of record for approved grants**. Likewise, offer letters are the source of truth for new hire grants.
+9. Send the populated List for Legal to our Legal team via [#stock-option-grants](https://sourcegraph.slack.com/archives/C0340RSGWQN) **Ensure you are not posting in the public channel!**
+10. Legal team sends the list to outside counsel and facilitates board approval
 
 # Recording grants as approved in Bamboo
 
