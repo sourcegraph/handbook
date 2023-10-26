@@ -6,11 +6,28 @@ We use Slack for team chat and real-time announcements. While Slack isn’t a so
 
 ## Slack Guidelines
 
-### Retention policy
+### Data retention
 
-Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, only 180 days of Slack activity in public channels is retained.
+Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, we have the following default data retention set:
 
-- <sub>**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 180-day rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** Exception requests will be reviewed and approved on a case-by-case basis.</sub>
+- **DMs:** 18 months retention
+- **Private channels:** 18 months retention
+- **Public channels:** 18 months retention
+- **Support & Trial channels:** 5 years retention
+
+### Retention exceptions
+
+Channel retention exception can be requested in #ask-it-tech-ops and will be reviewed/approved on a case-by-case basis by VP of Talent & People and VP of Operations.
+
+Your channel exception request must satisfy at **least one** of the below requirements in order to be considered for a retention exception:
+
+- **Strategic Importance:** When a Slack channel serves a strategic purpose, such as for key customer or strategic accounts.
+- **Business Necessity:** When extended retention is required to meet critical business needs.
+- **Low Data Sensitivity:** If the data in a channel is not highly sensitive and doesn't require strict retention periods but is static data (long lived) and valuable to operational efficiency and success.
+- **Completed Channels:** For channels that have completed their primary function but hold valuable historical information.
+- **Legal or Compliance Requirements:** When there are specific legal or compliance requirements that necessitate an exception.
+
+<sub>**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 18 months rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** </sub>
 
 ### Naming conventions
 
