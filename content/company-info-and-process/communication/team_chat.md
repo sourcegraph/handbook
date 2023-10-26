@@ -6,12 +6,12 @@ We use Slack for team chat and real-time announcements. While Slack isn’t a so
 
 ## Slack Guidelines
 
-### Data retention 
+### Data retention
 
-Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, we have the following default data retention set: 
+Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, we have the following default data retention set:
 
-- **DMs:** 18 months retention 
-- **Private channels:** 18 months retention 
+- **DMs:** 18 months retention
+- **Private channels:** 18 months retention
 - **Public channels:** 18 months retention
 - **Support & Trial channels:** 5 years retention
 
@@ -19,7 +19,7 @@ Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/
 
 Channel retention exception can be requested in #ask-it-tech-ops and will be reviewed/approved on a case-by-case basis by VP of Talent & People and VP of Operations.
 
-Your channel exception request must satisfy at **least one** of the below requirements in order to be considered for a retention exception: 
+Your channel exception request must satisfy at **least one** of the below requirements in order to be considered for a retention exception:
 
 - **Strategic Importance:** When a Slack channel serves a strategic purpose, such as for key customer or strategic accounts.
 - **Business Necessity:** When extended retention is required to meet critical business needs.
