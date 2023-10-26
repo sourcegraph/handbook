@@ -329,8 +329,8 @@ If the Vendor is providing us **services (not software)**:
 
 1. Make a copy of our template [Consulting Agreement](https://docs.google.com/document/d/1zUWHUOXgFeb1aNFZGMMJ5xq7GQRcappy/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true).
 1. Fill out the blanks in YOUR OWN COPY.
-1. Secure all required approvals via [Airbase](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request). 
-1. Send the approved contract via Docusign for signatures.  
+1. Secure all required approvals via [Airbase](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request).
+1. Send the approved contract via Docusign for signatures.
 
 If the Vendor is providing us **software (including SaaS)**, ask the Vendor for their template. Secure all required approvals via [Airbase](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request).
 
