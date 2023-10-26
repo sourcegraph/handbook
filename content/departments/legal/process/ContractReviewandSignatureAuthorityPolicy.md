@@ -1,6 +1,6 @@
 # Contract Review and Signature Authority Policy
 
-Effective and last modified July 8, 2022
+Effective and last modified October 25, 2023
 
 _Quick tip: Try searching this page for exactly what you’re looking for:_
 
@@ -325,15 +325,14 @@ Nope! Temporary consultants and contractors are vendors and should be submitted 
 
 ### Where can I find Vendor contract templates to submit through the Vendor Request Process?
 
-If the Vendor is providing us services (not software), use our template. If the Vendor is providing us software, use their template.
+If the Vendor is providing us **services (not software)**:
 
-We have three main templates for Vendor services contracts:
+1. Make a copy of our template [Consulting Agreement](https://docs.google.com/document/d/1zUWHUOXgFeb1aNFZGMMJ5xq7GQRcappy/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true).
+1. Fill out the blanks in YOUR OWN COPY.
+1. Secure all required approvals via [Airbase](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request).
+1. Send the approved contract via Docusign for signatures.
 
-1. [Services contract - no SOW exhibits](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if the Vendor has already prepared a separate SOW with payment amounts and due dates.
-2. [Services contract - with SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates.
-3. [Services contract for individuals - with SOW exhibits](https://docs.google.com/document/d/1mG5t2c0oLqSZJySXtJKB-WYTYN3aoe9G/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true) - use this form to directly engage a consultant or contractor on a short-term, part-time basis (temporary contractors).
-
-For software (including SaaS) contracts, ask the Vendor for their template.
+If the Vendor is providing us **software (including SaaS)**, ask the Vendor for their template. Secure all required approvals via [Airbase](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request).
 
 ### What if the software Vendor’s contract is a click-through agreement that can’t be redlined? Do I still need to go through the above review process?
 
@@ -341,9 +340,7 @@ YES. It does not matter if we can’t redline the contract; it’s still very im
 
 ### Do I need another internal team to review the vendor contract before I get it signed?
 
-You definitely do! Following the [Vendor Request Process](../../tech-ops/process/vendor-request.md) is your best way to get your vendor request in front of the relevant internal reviewers and approvers.
-
-The [Vendor Reviewer Guide](../../tech-ops/process/vendor-reviewer-guide.md) clarifies which internal teams might need to review a vendor engagement (Security, Legal, Finance, and Tech Ops). When each reviewer type is engaged is dependent upon the annual contract value and the type of data the vendor will have access to.
+The [Sourcegraph Procurement Policy](../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request) tells you which internal teams need to review a vendor engagement (Security, Legal, Finance, and Tech Ops). When each reviewer type is engaged is dependent upon the annual contract value and the type of data the vendor will have access to. Follow the guide to get your vendor request in front of the relevant internal reviewers and approvers. For questions, reach out to #discuss-vendor-setup in Slack.
 
 ### When is Legal review required for Vendor contracts?
 
