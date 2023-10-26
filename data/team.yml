@@ -1887,6 +1887,7 @@ taiyab_raja:
   name: Taiyab Raja
   role: Senior Product Designer
   email: taiyab.raja@sourcegraph.com
+  reports_to: director_design
   github: taiyab
   pronouns: he/him
   location: Birmingham, UK 🇬🇧
