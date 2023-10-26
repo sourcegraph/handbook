@@ -66,24 +66,28 @@ The People Team is responsible for preparing the initial data pull from BambooHR
 1. Pull the report titled “Equity Audit” from BambooHR. This will include all equity grants and we will perform filters/audits to prepare the list of grants that is sent to Legal for board approval.
 2. After downloading the "Equity Audit Report" filter the report to only include "Proposed, Not Yet Granted" options
 3. Ensure Vesting Start Dates are all listed as _after_ the last board approval date. If any are from previous quarters, check whether they were missed in the previous board approval process and must be included in this round of board approvals, or if they were already approved by the board and just need to be marked as "granted" in Bamboo.
-4. Cross-check whether there are any equity change requests _in progress_ in Bamboo with effective dates during the relevant timeframe. These should be added to the report before sharing with Legal. 
+4. Cross-check whether there are any equity change requests _in progress_ in Bamboo with effective dates during the relevant timeframe. These should be added to the report before sharing with Legal.
 5. Cross-check all options amounts against a) Signed offers or b) refresh/promo letter. Amounts listed in documents must match Bamboo
+
 - Both should be in the Documents tab in Bamboo - add them in if they are not
 - When there is a promotion cycle, double check against final list of approved promotions to make sure all have been entered into Bamboo
+
 6. Pull a report of all new hires, and check to ensure every new hire since the last grant date is on the list.
+
 - Our current comp structure means everyone is stock-eligible.
 - Confirm Vest Start Dates entered into Bamboo correspond with New Hire Start Dates for all New Hire Grants
+
 7. Use data from the report to populate the [List for Legal - Template](https://docs.google.com/spreadsheets/d/1Spcdo6KWsALewP9PDfJ8tyb1TXoabwYNEHXNx6EQHe4/edit#gid=0)
-      1. Copy/paste names into this template from report
-      2. Copy/paste “No. of options” into template
-      3. Copy/paste “Vesting Start date”
-      4. Copy/paste “Country” into column H, “ISO/NSO”
-      5. Replace United States with ISO
-      6. Replace all other countries with NSO
-      7. For “Relationship," those receiving ISOs are “Employee.” All else are “Consultant.”
-         1. Note: Make sure that all Consultants receive NSOs. Some US teammates are part-time or temporary consultants--they should receive NSOs and be Consultants. Process improvement opportunity is to add employee type to the Equity Audit report and use that instead.
-      8. Skip these (Legal fills out): Exercise/vest schedule & % fully diluted
-8. Double check that no grants were accidentally marked as "Granted" in Bamboo by removing all filters from the Equity report, and filtering only by vesting start date. Any grants from the current quarter should be marked as "Proposed, Not Yet Granted" since they haven't gone through board approvals yet. If any are marked as "granted" already, run a report in Carta to check that the grant is, actually, Granted before adjusting to "Proposed, not yet granted" and adding them to the report for Legal/Board approval.  **Carta is the system of record for approved grants**. Likewise, offer letters are the source of truth for new hire grants.
+   1. Copy/paste names into this template from report
+   2. Copy/paste “No. of options” into template
+   3. Copy/paste “Vesting Start date”
+   4. Copy/paste “Country” into column H, “ISO/NSO”
+   5. Replace United States with ISO
+   6. Replace all other countries with NSO
+   7. For “Relationship," those receiving ISOs are “Employee.” All else are “Consultant.”
+      1. Note: Make sure that all Consultants receive NSOs. Some US teammates are part-time or temporary consultants--they should receive NSOs and be Consultants. Process improvement opportunity is to add employee type to the Equity Audit report and use that instead.
+   8. Skip these (Legal fills out): Exercise/vest schedule & % fully diluted
+8. Double check that no grants were accidentally marked as "Granted" in Bamboo by removing all filters from the Equity report, and filtering only by vesting start date. Any grants from the current quarter should be marked as "Proposed, Not Yet Granted" since they haven't gone through board approvals yet. If any are marked as "granted" already, run a report in Carta to check that the grant is, actually, Granted before adjusting to "Proposed, not yet granted" and adding them to the report for Legal/Board approval. **Carta is the system of record for approved grants**. Likewise, offer letters are the source of truth for new hire grants.
 9. Send the populated List for Legal to our Legal team via [#stock-option-grants](https://sourcegraph.slack.com/archives/C0340RSGWQN) **Ensure you are not posting in the public channel!**
 10. Legal team sends the list to outside counsel and facilitates board approval
 
