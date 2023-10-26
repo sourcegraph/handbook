@@ -6,4 +6,3 @@ Here are a list of programs supported by the CEO Team:
 
 - [Board Meetings](https://docs.google.com/document/d/1gPZycyHduo0OB-6PgfuMvTFx95a0rNFmWaPR7E3R7qg/edit?usp=sharing)
 - [CEO Shadow Program](ceo-shadow-program.md)
-
