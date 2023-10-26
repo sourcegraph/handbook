@@ -12,7 +12,7 @@ See [Roles of the CEO](roles.md).
 
 ### Scheduling time with me
 
-Contact [Sally Voisen (Executive Business Partner)](../executive-business-partners.md) to schedule time with me.
+Contact Connor O'Brien (Chief of Staff to the CEO) to schedule time with me.
 
 If possible, let's talk [asynchronously and publicly](../../company-info-and-process/communication/index.md).
 
@@ -33,7 +33,7 @@ If you want me to publish it under my name, try to follow my [writing style](htt
 
 ### Asking me to send an email
 
-If you want me to send an email with a specific message to someone else (e.g., a customer), you should send an email or Slack message to me and [Sally Voisen (Executive Business Partner)](../executive-business-partners.md). with:
+If you want me to send an email with a specific message to someone else (e.g., a customer), you should send an email or Slack message to me and Connor O'Brien (Chief of Staff to the CEO) with:
 
 - Instructions, such as "Please email this, bcc me on the outgoing email, forward me any responses, and cc me on further emails."
 - Recipient name(s) and email address(es)
