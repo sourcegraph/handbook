@@ -35,6 +35,31 @@ _At Sourcegraph, we use levels M3 to M6_:
 
 ![Manager Levels](https://storage.googleapis.com/sourcegraph-assets/Carly%20-%20Manager%20level%20descriptions.png)
 
+### Titles at Sourcegraph
+
+**Sourcegraph’s title** structure guidance aims to provide greater clarity and consistency in roles and responsibilities. The goal is to ensure that both managers and ICs have titles that accurately reflect their scope and level.
+
+**Manager Titles**
+
+Manager titles are designed to reflect the level of managerial responsibility and focus area of an individual in a leadership role. To qualify as a people leader, the teammate either 1) has direct reports or 2) is actively hiring for open headcount and building a team.
+
+**Title nomenclature:** [Seniority], [Focus Area]
+Example: Senior Manager, Marketing
+
+- **Seniority:** This represents the level of managerial experience and responsibility and is based on the individual's experience and scope in a managerial role.
+- **Focus Area:** This indicates the specific area or department where the manager holds responsibilities, such as Marketing, Operations, Finance, etc.
+
+**Individual Contributor (IC) Titles**
+
+IC titles are designed to emphasize the individual's seniority, focus area, and role within the organization. Teams can also use levels instead of titles in their respective Career Framework. We do not force a standardized IC title structure across all career frameworks. Generally, title structure for ICs will follow the format:
+
+**Title nomenclature:** [Seniority] [Focus Area] [Role/Scope]
+Example: Senior Marketing Program Manager
+
+- **Seniority**: This reflects the individual's level of seniority within their role, which can include Junior, Senior, Principal, and other designations based on experience.
+- **Focus Area:** This specifies the department or area in which the individual contributes, such as Marketing, Engineering, Sales, etc.
+- **Role/Scope:** This denotes the specific role or function of the individual within their focus area, such as Specialist, Analyst, Engineer, etc.
+
 ## Level FAQ
 
 ### How can I see my role and level?
