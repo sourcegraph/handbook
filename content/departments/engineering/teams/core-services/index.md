@@ -11,3 +11,5 @@ Proposed [team charter](https://docs.google.com/document/d/1fBUQ0oM5yncXX6nLL0pa
 {{generator:product_team.ship_core_services}}
 
 ## [Managed Services](./managed-services/index.md)
+
+## [Google Front End (GFE)](./google-front-end/index.md)
