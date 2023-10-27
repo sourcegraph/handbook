@@ -102,7 +102,7 @@ ship_cloudops:
 ship_core_services:
   title: Core Services
   em: interim_infra_core_services
-  tl: rafal_gajdulewicz
+  tl: robert_lin
   issue_labels:
     - team/core-services
 
