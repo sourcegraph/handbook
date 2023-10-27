@@ -851,7 +851,7 @@ rafal_gajdulewicz:
   pronouns: he/him
   role: Software Engineer
   tech_lead: true
-  reports_to: cody_services_lead
+  reports_to: eng_lead
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
