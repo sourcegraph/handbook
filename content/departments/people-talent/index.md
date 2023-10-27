@@ -354,7 +354,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Employment verification - People Ops process](people-ops/tools/internal-employment-verification.md)
 - [Workplace postings](required-posting-page.md)
 
-
 ### Offboarding
 
 - [Offboarding - People Ops process](people-ops/tools/internal-offboarding.md)
