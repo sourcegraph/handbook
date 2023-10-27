@@ -90,6 +90,23 @@ Example topics to cover during intake meeting:
 - Job description
 - Potential qualifying questions that we can utilize on our job application to [automatically reject](https://support.greenhouse.io/hc/en-us/articles/360000653472-Auto-reject) inbound applicants that don't meet our minimum requirements
 
+Prior to the intake call, the Recruiter sends the Hiring Manager the following message to ensure everyone is prepared for the call:
+
+Hi `hiring manager`! As we prepare for our intake call scheduled for `Date & Time`, I wanted to provide you with a list of topics we will be covering. This will help us utilize our 30 minutes efficiently and ensure that we have all the necessary information to kick off the search successfully.
+Prior to our call, please fill out this form. In addition to reviewing these answers, here are some additional questions we will discuss:
+
+- (If this is a backfill) What wasn’t working with **\_\_**?
+- Walk me through the reason for this position / why this role is important on the team / how does this role impact the business overall?
+- What will this person be working on day to day?
+- Short-term goals: where can this person make an immediate impact? What are some projects they’ll be working on?
+- Walk me through your ideal profile & background. When you look at a profile/resume, what do you want to see & will impress you?
+- Top 3 things you’re looking for?
+- Start-up vs large company experience?
+- Ideal companies?
+
+Lastly, we will finalize the interview process and confirm who will be on the interview panel. If you have any questions or need clarification on any of the points above, please let me know.
+Thank you for your prep work ahead of time. Looking forward to kicking this role off!
+
 ### Step 2: Greenhouse
 
 The Recruiter opens the job in Greenhouse by clicking "Add" at the top, then "Create a Job":
