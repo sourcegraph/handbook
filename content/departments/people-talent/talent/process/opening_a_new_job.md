@@ -94,7 +94,8 @@ Prior to the intake call, the Recruiter sends the Hiring Manager the following m
 
 Hi `hiring manager`! As we prepare for our intake call scheduled for `Date & Time`, I wanted to provide you with a list of topics we will be covering. This will help us utilize our 30 minutes efficiently and ensure that we have all the necessary information to kick off the search successfully.
 Prior to our call, please fill out this form. In addition to reviewing these answers, here are some additional questions we will discuss:
-- (If this is a backfill) What wasn’t working with ______?
+
+- (If this is a backfill) What wasn’t working with **\_\_**?
 - Walk me through the reason for this position / why this role is important on the team / how does this role impact the business overall?
 - What will this person be working on day to day?
 - Short-term goals: where can this person make an immediate impact? What are some projects they’ll be working on?
