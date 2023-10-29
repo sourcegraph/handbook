@@ -38,7 +38,7 @@
 ## Team roles and responsibilities
 
 |                      | Alex Isken | Kelvin Yap      |
-|----------------------|------------|-----------------|
+| -------------------- | ---------- | --------------- |
 | Audience focus       | Developers | Decision makers |
 | GTM motion alignment | Self-serve | Sales-led       |
 
