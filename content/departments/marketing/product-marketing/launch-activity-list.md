@@ -2,7 +2,6 @@
 
 _This page documents many of the activities that should be considered for product & feature launches. For any given launch, it’s likely that only a subset of these activities will be completed; this serves as a guide for the team to build launch plans based on the context of the launch._
 
-
 ### Awareness / Launch moment activities
 
 **Press outreach**
@@ -19,7 +18,7 @@ _How to do it:_ The Comms team should be made aware of the launch as early as po
 
 _What is it:_ Briefing calls to inform the research firm analysts (Gartner, Forrester) about our product, roadmap, and recent innovations.
 
-_When it makes sense: _Primarily for big launches or significant changes to the product.
+\_When it makes sense: \_Primarily for big launches or significant changes to the product.
 
 _Collaborate with:_ Product and Comms teams.
 
@@ -47,7 +46,7 @@ _How to do it:_ Start searching for, and collecting topics, as early as possible
 
 **Launch video**
 
-_What is it: _A video showing off what is being released, often paired with the launch blog.
+\_What is it: \_A video showing off what is being released, often paired with the launch blog.
 
 _When it makes sense:_ For medium to large releases, with features that are visually exciting to a general audience. Launch videos don’t always get high views by themselves - they need to be promoted appropriately, so these make most sense in launches where they’ll
 
@@ -87,7 +86,7 @@ _How to do it:_ A livestream event is only as successful as the amount of attend
 
 **Website announcement banner**
 
-_What is it: _An announcement banner that is posted at the top of the marketing site, with copy of the announcement plus a link (typically to the launch blog).
+\_What is it: \_An announcement banner that is posted at the top of the marketing site, with copy of the announcement plus a link (typically to the launch blog).
 
 _When it makes sense:_ For most coordinated launches, outside of very small increment releases (e.g. biweekly extension releases).
 
@@ -131,7 +130,6 @@ _Collaborate with:_ DevRel.
 
 _How to do it:_ Work with Ado to determine which communities to post to and what content (e.g. blog post) should get posted. HackerNews posts are difficult to control, since we prefer to have non-Sourcegraphers post them, but other communities (like subreddits) are easier for us to post to directly.
 
-
 ### Evergreen launch content
 
 **Product page (or existing page update)**
@@ -173,7 +171,6 @@ _When it makes sense:_ Always.
 _Collaborate with:_ Docs.
 
 _How to do it:_ Post in #docs to start planning updates early, several weeks before launch. PMM should supply messaging for docs to be consistent.
-
 
 ### Enablement
 
