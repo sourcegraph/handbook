@@ -1,4 +1,4 @@
-# GTM Launch Master Template
+# GTM Launch Activity List
 
 _This page documents many of the activities that should be considered for product & feature launches. For any given launch, it’s likely that only a subset of these activities will be completed; this serves as a guide for the team to build launch plans based on the context of the launch._
 
