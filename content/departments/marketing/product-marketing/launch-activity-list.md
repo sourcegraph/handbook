@@ -86,7 +86,7 @@ _How to do it:_ A livestream event is only as successful as the amount of attend
 
 **Website announcement banner**
 
-\_What is it: \_An announcement banner that is posted at the top of the marketing site, with copy of the announcement plus a link (typically to the launch blog).
+_What is it:_ An announcement banner that is posted at the top of the marketing site, with copy of the announcement plus a link (typically to the launch blog).
 
 _When it makes sense:_ For most coordinated launches, outside of very small increment releases (e.g. biweekly extension releases).
 
