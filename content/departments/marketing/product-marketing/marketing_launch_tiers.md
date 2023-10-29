@@ -202,4 +202,4 @@ PMM is typically not embedded with teams leading to small launches, but should b
 The Product team also has documentation on how to work with Product Marketing based on launch tiers:
 
 - [Feature rollout process](../../product/process/gtm/rollout_process.md)
-- [Software product lifecycle](../../engineering/sdlc/product_lifecycle.md)
+- [Software product lifecycle](../../engineering/sdlc.md)
