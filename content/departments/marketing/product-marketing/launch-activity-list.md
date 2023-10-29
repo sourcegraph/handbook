@@ -18,7 +18,7 @@ _How to do it:_ The Comms team should be made aware of the launch as early as po
 
 _What is it:_ Briefing calls to inform the research firm analysts (Gartner, Forrester) about our product, roadmap, and recent innovations.
 
-\_When it makes sense: \_Primarily for big launches or significant changes to the product.
+_When it makes sense:_ Primarily for big launches or significant changes to the product.
 
 _Collaborate with:_ Product and Comms teams.
 
@@ -46,7 +46,7 @@ _How to do it:_ Start searching for, and collecting topics, as early as possible
 
 **Launch video**
 
-\_What is it: \_A video showing off what is being released, often paired with the launch blog.
+_What is it:_ A video showing off what is being released, often paired with the launch blog.
 
 _When it makes sense:_ For medium to large releases, with features that are visually exciting to a general audience. Launch videos don’t always get high views by themselves - they need to be promoted appropriately, so these make most sense in launches where they’ll
 
