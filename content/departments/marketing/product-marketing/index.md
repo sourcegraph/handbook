@@ -30,8 +30,6 @@
 - Competitive intelligence
 - Customer proof points
 
-See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toySthUMvOxZnCtdw0/edit#bookmark=id.e0jz6ct4ghl) for details.
-
 **Partner with GTM teams:** We partner with sales and CE to support pipeline, expansion, and ARR.
 
 - Core product/customer marketing activities: Continue driving core PMM/CM activities, including CAB, Analyst Relations, competitive intelligence, etc.
@@ -39,60 +37,10 @@ See this [doc](https://docs.google.com/document/d/1lnqZHXMnNQj0d1vCWmg3u4zz_toyS
 
 ## Team roles and responsibilities
 
-{{generator:reporting_structure.director_product_marketing}}
-
-<table>
-  <tr>
-   <td>
-   </td>
-   <td>
-<strong>Eng/Product</strong>
-   </td>
-   <td><strong>GTM</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Alex</strong>
-   </td>
-   <td>
-<ul>
-<li>Primary: Cody for Devs
-
-<li>Cross-product: Strategic
-<li>Emerging products
-<li>Release comms
-</li>
-</ul>
-   </td>
-   <td>
-<ul>
-<li>Growth marketing
-<li>Demo
-<li>Developer competitive intel
-</li>
-</ul>
-   </td>
-  </tr>
-
-  <tr>
-   <td><strong>Eric</strong>
-   </td>
-   <td>
-<ul>
-<li>Primary: Cody for Enterprise
-</li>
-</ul>
-   </td>
-   <td>
-<ul>
-<li>Sales support
-<li>Customer-facing product roadmap
-<li>Enterprise competitive intel
-</li>
-</ul>
-   </td>
-  </tr>
-</table>
+|                      | Alex Isken | Kelvin Yap      |
+|----------------------|------------|-----------------|
+| Audience focus       | Developers | Decision makers |
+| GTM motion alignment | Self-serve | Sales-led       |
 
 ## Working with other teams
 
