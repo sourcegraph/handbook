@@ -52,16 +52,15 @@
 
 ## Product launch templates and resources
 
-- [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#): Messaging and positioning doc for new products/features.
+- [Product marketing brief template](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#): Messaging and positioning doc for new products/features.
 - [Naming guide](naming_guide.md): Best practices/process for naming new products/features.
-- [Marketing launch tiers](marketing_launch_tiers.md): Guidance for establishing the launch tier for new products/features.
+- [Marketing launch tiers](marketing_launch_tiers.md): Guidance for establishing the launch tier for new products/features and determining launch activities.
+- [GTM launch activity list](launch-activity-list.md): A comprehensive list of GTM activities to consider for launches and who to collaborate with to execute them.
 
 ## Resources
 
 - [Approved assets](https://drive.google.com/drive/folders/15lb62hLLYM-mKEOrlg32bmSgIhNcvKFh?usp=sharing): GIFs, videos, and images that are externally shareable
-- [GTM Hub (go-to-market resources)](gtm_hub.md)
-- [Product marketing hierarchy](product_marketing_hierarchy.md)
+- [GTM Hub](gtm_hub.md): Go-to-market and positioning resources per our products
 - [Batch Changes positioning](../../engineering/teams/batch-changes/go-to-market/index.md)
-- [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
 - [Product Marketing & Product Manager collaboration](../../product/process/gtm/pm_and_pmm.md)
