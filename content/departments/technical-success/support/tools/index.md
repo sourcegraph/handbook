@@ -9,7 +9,6 @@ When you first start in support, the list of tools to set-up can feel like a lot
 - Zoom is how we connect synchronously.
 - Gmail is mostly for notifications.
 - Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
-- Asana is for our project tracking as a team
 - Gsuite is for drafts, slide decks, and spreadsheets.
 - Lattice is to facilitate our twice yearly [review cycles](../../../people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 - Greenhouse is for hiring.
@@ -29,13 +28,15 @@ When you first start in support, the list of tools to set-up can feel like a lot
 
 ## sourcegraph.com admin access
 
-In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Stompy and/or Warren. One of them can help!
+- In Entitle, request the Dotcom site admin permission. You may do this using the /access_request Slack command or this pre-filled request.
+- Go to https://sourcegraph.com/sign-in?sourcegraph-operator
+- Click on Other login methods
+- Click on Continue with Sourcegraph Operators
+- Authenticate with Okta
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](../process/support-managed-instances.md) (you can find which customers have a managed instance [here](../process/customer-exceptions.md)). If you need to access logs for these customers, first refer to the [managed instance dashboard](https://github.com/sourcegraph/cloud/blob/main/prod.dashboard.md). Each instance should have instructions on requesting access to its respective Cloud infrastructure via [Entitle](../../../security/tooling/entitle.md).
-
-Read more about working with managed instances [here](../process/support-managed-instances.md).
+Refer to the [managed instance dashboard](https://cloud-ops.sgdev.org/dashboard/environments/prod). You can find specific instructions for requesting access to the respective Cloud infrastructure via the "Ops" link provided in the dashboard. Access permissions are managed through [Entitle](../../../security/tooling/entitle.md).
 
 ## Test Environments
 
@@ -83,6 +84,9 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 > [!WARNING] Please make sure that if any tools are sent to customers that they are approved external tools to be used by them. There are certain tools with licenses that Google and other companies deem inappropriate and could get them and us into issues.
 >
 > If you are ever unsure of the license of a tool or whether it should be used by a customer, don't hesitate to reach out to Support leadership.
+
+### Troubleshooting Guide for Support 
+The [Zendesk Troubleshooting guide](https://help.sourcegraph.com/hc/en-us/categories/10114719849101-Troubleshooting-Guides) contains set of guides to help the team identify and resolve issues or problems.
 
 ### GitHub Repository for Support Tools
 
