@@ -21,7 +21,10 @@ For sourcegraph.com use the following instructions (or substitute the URL and En
 
 <div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/3664a109ab2c4914b3afd4d47bb8d7a8?sid=f9d7dd52-3e55-448b-a61c-09279d2736ad" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-_*Note*: we understand there may be uses for long-lived admin accounts, such as pulling metrics for automation. We have a mechanism to allow this. Please reach out in #discuss-security if needed._
+<br>
+
+> [!NOTE]
+> We understand there may be uses for long-lived admin accounts, such as pulling metrics for automation. We have a mechanism to allow this. Please reach out in #discuss-security if needed.
 
 ### Troubleshooting
 
