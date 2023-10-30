@@ -28,9 +28,7 @@ It is the responsibility of your manager to track this, and to ensure that you a
 
 ## Successful engineers at Sourcegraph
 
-In order to make the level descriptions below a bit more tangle, we also have the following document: [Successful engineers at Sourcegraph](./successful-engineers.md).
-
-The goal of that document is to drive home that point that the ladder is not a series of checkboxes to be checked-off sequentially. There are many different ways to have impact across multiple levels here.
+In order to make the level descriptions below a bit more tangible, we also have the following document: [Successful engineers at Sourcegraph](./successful-engineers.md).
 
 ## When do I get promoted?
 
