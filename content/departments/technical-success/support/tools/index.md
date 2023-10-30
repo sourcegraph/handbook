@@ -68,6 +68,7 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 #### Code Host Instances
 
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
+- [GitLab Self-Hosted ](https://gitlab.sgdev.org/)
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
 - [Phabricator test instance ](https://phabricator.sgdev.org/)
