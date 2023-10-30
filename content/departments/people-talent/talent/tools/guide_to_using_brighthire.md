@@ -121,11 +121,7 @@ Q: Who can see a BrightHire interviews?
 
 Q: How can I access my BrightHire recordings?
 
-- A: You can access all of your past BrightHire recordings by logging into BrightHire. All of your previous recordings will be under "Interviews"
-
-Q: Can candidates request a copy of their recordings?
-
-- A: Yes, Sourcegraph will provide candidates a copy of their recording and transcript upon request to recruiting@sourcegraph.com.
+- A: You can access all of your past BrightHire recordings by logging into BrightHire. All of your previous recordings will be under "Interviews".
 
 Q: Is BrightHire GDPR compliant?
 
