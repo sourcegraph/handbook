@@ -85,7 +85,8 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 >
 > If you are ever unsure of the license of a tool or whether it should be used by a customer, don't hesitate to reach out to Support leadership.
 
-### Troubleshooting Guide for Support 
+### Troubleshooting Guide for Support
+
 The [Zendesk Troubleshooting guide](https://help.sourcegraph.com/hc/en-us/categories/10114719849101-Troubleshooting-Guides) contains set of guides to help the team identify and resolve issues or problems.
 
 ### GitHub Repository for Support Tools
