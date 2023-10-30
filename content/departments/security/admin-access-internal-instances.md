@@ -26,11 +26,13 @@ _*Note*: we understand there may be uses for long-lived admin accounts, such as 
 ### Troubleshooting
 
 If you use your Sourcegraph email as a verified email in a dotcom account, you may see the following error:
+
 ```
 The retrieved user account lifecycle has already expired, please re-authenticate.
 ```
 
 If this is the case, do the following steps:
+
 1. Sign out of sourcegraph.com.
 2. [Sign in](https://sourcegraph.com/sign-in?returnTo=/search) using "Continue with Google".
 3. Sign out.
