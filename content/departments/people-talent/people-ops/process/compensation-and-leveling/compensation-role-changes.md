@@ -91,19 +91,26 @@ Please notify and consult with your designated People Partner to work through de
 
 **People Partner responsiblities**
 
-The People Partner will then work with the People, Talent, Tech-Ops, and Finance teams to ensure a smooth transition for any teammates impacted. People Partners will work with the requesting department to confirm all changes/re-org details. Once finalized, the People Partner will share the details with People Ops.
+The People Partner will then work with the People, Talent, Tech-Ops, and Finance teams to ensure a smooth transition for any teammates impacted. 
+
+1. People Partners will work with the requesting department to confirm all changes/re-org details. 
+2. Once finalized, the People Partner will share the details with People Ops and will ensure the division/department/cost center [source of truth doc](https://docs.google.com/spreadsheets/d/1V39M4m1_anbYiVdlVQRzwVTgbaWtxPXFnz6WXaCjwCY/edit#gid=1307229143) is updated.
+3. The People Partner will submit the change requests in BambooHR.
 
 **People Ops responsiblities**
 
-People Ops will loop in Tech Ops and Payroll (if applicable) via #wg-bamboo-org-updates, then action all necessary updates in Bamboo.
+1. Once the People Partner has shared the details and submitted the change requests:
+
+If new departments and/or divisions are being implemented:
+
+- People Ops will loop in Tech Ops by triggering the Department/Division Change workflow in Process St and wait for Tech Ops to complete their task before making any Bamboo updates.
 
 If new cost centers are being implemented:
 
-- People Ops will loop in Tech Ops + Finance and will wait for their confirmation prior to making any Bamboo updates.
+- People Ops will also loop in Finance via #wg-bamboo-org-updates and will wait for their confirmation prior to making any Bamboo updates.
 
-If new divisions are being implemented:
-
-- People Ops will loop in Tech Ops and will wait for their confirmation prior to making any Bamboo updates.
+2. People Ops will give final approval on change requests in Bamboo
+3. Archive any divisions that are no longer in use (if applicable)
 
 ## FAQs
 
