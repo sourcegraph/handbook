@@ -91,9 +91,9 @@ Please notify and consult with your designated People Partner to work through de
 
 **People Partner responsiblities**
 
-The People Partner will then work with the People, Talent, Tech-Ops, and Finance teams to ensure a smooth transition for any teammates impacted. 
+The People Partner will then work with the People, Talent, Tech-Ops, and Finance teams to ensure a smooth transition for any teammates impacted.
 
-1. People Partners will work with the requesting department to confirm all changes/re-org details. 
+1. People Partners will work with the requesting department to confirm all changes/re-org details.
 2. Once finalized, the People Partner will share the details with People Ops and will ensure the division/department/cost center [source of truth doc](https://docs.google.com/spreadsheets/d/1V39M4m1_anbYiVdlVQRzwVTgbaWtxPXFnz6WXaCjwCY/edit#gid=1307229143) is updated.
 3. The People Partner will submit the change requests in BambooHR.
 
