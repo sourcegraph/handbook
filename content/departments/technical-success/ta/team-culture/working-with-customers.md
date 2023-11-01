@@ -265,6 +265,7 @@ The format of BRs is as follows:
 
 1. Create a new Document in Vitally using the [TA to TA Account Handoff template](https://sourcegraph.vitally.io/settings/templates/docs/897ed501-2e7c-42c8-a359-6b8513bf5d9e) and complete all the information required in the placeholders.
 2. Inform the TA manager upon completing the [TA to TA Account Handoff template](https://sourcegraph.vitally.io/settings/templates/docs/897ed501-2e7c-42c8-a359-6b8513bf5d9e).
+3. Share any docs or notes in Vitally and ensure the new TA has editor permissions.
 
 **New TA:** Complete the following steps after the outgoing TA has completed the steps above
 
