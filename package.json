@@ -120,7 +120,7 @@
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
     "@types/hast": "^2.3.4",
-    "@types/line-column": "1.0.0",
+    "@types/line-column": "1.0.1",
     "@types/mdast": "^3.0.10",
     "@types/node": "^18.11.18",
     "@types/react": "18.0.0",
