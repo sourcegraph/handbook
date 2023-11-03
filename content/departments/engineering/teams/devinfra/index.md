@@ -52,6 +52,19 @@ Find out more about the Developer Infrastructure team's mission, vision, and str
 
 Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.md#developer-experience) and our [team processes](processes.md).
 
+## Support levels
+
+The team operate across a broad range of responsibilities, so it's best to reason in terms of how much a given issue affects others.
+The below list gives an overview of the commonly encountered scenarios, but isn't meant to be exhaustive.
+
+- *P0*: Issues that are affecting at least a third of the engineering team and that have no immediate workaround.
+- *P0*: Issues the CI where a given build is affecting other builds, i.e breaking isolation.
+- *P0*: Issues caused by Bazel, affecting releases (broken release or preventing it to be created).
+- *P1*: Issues with CI or local environment that are threating another team objectives.
+- *P2*: Issues causing intermittent failures in CI.
+- *P3*: Default priorities for support requests when created.
+- *P4*: Issues that can wait, usually QoL improvements.
+
 ## Contact
 
 For **questions** and **discussions** about anything related to developer experience, post a message in the [#discuss-dev-infra channel](https://sourcegraph.slack.com/archives/C01N83PS4TU).
