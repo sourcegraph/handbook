@@ -57,13 +57,13 @@ Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.m
 The team operate across a broad range of responsibilities, so it's best to reason in terms of how much a given issue affects others.
 The below list gives an overview of the commonly encountered scenarios, but isn't meant to be exhaustive.
 
-- *P0*: Issues that are affecting at least a third of the engineering team and that have no immediate workaround.
-- *P0*: Issues the CI where a given build is affecting other builds, i.e breaking isolation.
-- *P0*: Issues caused by Bazel, affecting releases (broken release or preventing it to be created).
-- *P1*: Issues with CI or local environment that are threating another team objectives.
-- *P2*: Issues causing intermittent failures in CI.
-- *P3*: Default priorities for support requests when created.
-- *P4*: Issues that can wait, usually QoL improvements.
+- _P0_: Issues that are affecting at least a third of the engineering team and that have no immediate workaround.
+- _P0_: Issues the CI where a given build is affecting other builds, i.e breaking isolation.
+- _P0_: Issues caused by Bazel, affecting releases (broken release or preventing it to be created).
+- _P1_: Issues with CI or local environment that are threating another team objectives.
+- _P2_: Issues causing intermittent failures in CI.
+- _P3_: Default priorities for support requests when created.
+- _P4_: Issues that can wait, usually QoL improvements.
 
 ## Contact
 
