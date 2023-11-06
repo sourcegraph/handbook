@@ -66,6 +66,7 @@ Participation in the CEO Shadow Program is not added work to your job. Participa
 ## Preparation
 
 ### Travel & Expenses
+
 We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to Connor O'Brien (Chief of Staff to the CEO | @connorobrien on Slack).
 
 The CEO Shadow Program is designed to provide a unique and compelling opportunity to all Sourcegraph teammates. Its goal is to be as inclusive as possible, so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](../../benefits-pay-perks/benefits-perks/travel/index.md).
