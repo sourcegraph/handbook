@@ -114,8 +114,6 @@ Airbase will guide you through the required fields and approval necessary depend
 
 \*Online - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
 
-
-
 ##### What counts as a vendor?
 
 We categorize our vendors into the following groups:
