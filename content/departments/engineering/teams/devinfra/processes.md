@@ -1,5 +1,25 @@
 # Developer Infrastructure processes
 
+## Asking for help
+
+A classic productivity killer is to get stuck on something and keep banging at the wall over and over. Every engineer has encountered this.
+The usual advice for this is to reach out for help when you're stuck.
+
+The problem with that advice is that it's not always applicable, you could
+be diving into a rabbit hole for hours and still get the feeling that you're not stuck, but instead jumping from one hypothesis to another. You are
+technically, _not stuck_, so why ask for help? And the rabbit hole exploration continues...
+
+So instead, let's redefine the criteria for asking for help: if you do not make tangible progress toward your goal for a few hours (usually, if more than two)
+it's time to ask for help. Asking for help, even if there are other roads to explore, is not a failure. It's instead about actively seeking
+to maximize your impact. A fresh pair of eyes, someone with a different context, etc ... can help you to see if it's time to change directions, go around
+the problem, or perhaps simply solve the problem.
+
+Our team scope is very large, and it encompasses a broad range of domains and different skillsets, so this particular aspect of engineering is
+magnified, making it even more important to ask for help at the right time.
+
+So, if you don't see tangible signs of progress after a two hours on something, reach out to your peers! We're a team and that's exactly why it's
+here for, we win together, and together we win even more.
+
 ## Planning and tracking work
 
 We use a 4-step delivery framework to prioritize problems to solve, create solutions, and follow through on our work.
