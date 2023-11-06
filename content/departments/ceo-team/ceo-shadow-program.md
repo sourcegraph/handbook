@@ -53,7 +53,7 @@ All Sourcegraph teammates in good standing (i.e. not on a performance plan) are 
 
 The CEO Shadow Program typically lasts between 1-2 business days. The length and timing of the rotation is subject to change given Quinn's and the Shadow's schedules. The CEO team will do it's best to keep agreed upon dates, with the understanding there are external factors that cause Quinn's availability to shift dramatically on a moment's notice.
 
-Every effort will be made to ensure this program is inclusive. Please reach out to the CEO team, [Connor O'Brien](https://handbook.sourcegraph.com/team/#connor-obrien) (Chief of Staff to the CEO | @connorobrien on Slack) if you have extenuating circumstances that are keeping you from participating in-person and we’ll do our best to accommodate.
+Every effort will be made to ensure this program is inclusive. Please reach out to the CEO team, Connor O'Brien (Chief of Staff to the CEO | @connorobrien on Slack) if you have extenuating circumstances that are keeping you from participating in-person and we’ll do our best to accommodate.
 
 Participation in the CEO Shadow Program is not added work to your job. Participating in the CEO Shadow program means you are taking a leave from your core job responsibilites to focus on being a CEO Shadow. Participation in the CEO Shadow program is not PTO as you will be working in a different capacity.
 
@@ -65,9 +65,8 @@ Participation in the CEO Shadow Program is not added work to your job. Participa
 
 ## Preparation
 
-We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to [Connor O'Brien](https://handbook.sourcegraph.com/team/#connor-obrien) (Chief of Staff to the CEO | @connorobrien on Slack).
-
 ### Travel & Expenses
+We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to Connor O'Brien (Chief of Staff to the CEO | @connorobrien on Slack).
 
 The CEO Shadow Program is designed to provide a unique and compelling opportunity to all Sourcegraph teammates. Its goal is to be as inclusive as possible, so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](../../benefits-pay-perks/benefits-perks/travel/index.md).
 
