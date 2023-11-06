@@ -64,14 +64,14 @@ Participation in the CEO Shadow Program is not added work to your job. Participa
 3. You will then be contacted to coordinate and schedule your rotation date(s) and discuss program logistics (where to stay, when to arrive, what to expect, etc.). Most answers to these questions should be answered on this handbook page. If they are not, please don't hesitate to reach out for clarification.
 
 ## Preparation
-We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to [Connor O'Brien](https://handbook.sourcegraph.com/team/#connor-obrien) (Chief of Staff to the CEO | @connorobrien on Slack). 
 
+We encourage upcoming Shadows to review prior shadows [blogs / vlogs](ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to [Connor O'Brien](https://handbook.sourcegraph.com/team/#connor-obrien) (Chief of Staff to the CEO | @connorobrien on Slack).
 
 ### Travel & Expenses
 
 The CEO Shadow Program is designed to provide a unique and compelling opportunity to all Sourcegraph teammates. Its goal is to be as inclusive as possible, so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](../../benefits-pay-perks/benefits-perks/travel/index.md).
 
-There is a CEO Shadow Spend category that you should tag all rotation-related expenses to. 
+There is a CEO Shadow Spend category that you should tag all rotation-related expenses to.
 
 **NOTE:** Quinn's calendar is very fluid. CEO shadows are permitted to book refundable airfare in the event Quinn's schedule changes resulting in rescheduling your rotation.
 
@@ -92,11 +92,12 @@ Airfare is booked in accordance with our [company travel policy](../../benefits-
 At San Francisco International airport (SFO), all rideshare apps (Uber, Lyft, etc) pick up on level 5 of the parking structure. Taxis [pick up on the Arrivals/Baggage Claim Level](https://www.flysfo.com/content/taxis#:~:text=Taxis%20depart%20from%20the%20designated,passengers%20with%20questions%20or%20concerns.) for all terminals. The [BART](https://www.bart.gov/) (Bay Area Rapid Transit / our local metro / train) also runs from [SFO to San Francisco](https://www.bart.gov/schedules).
 
 #### General transportation
-CEO Shadows can expense any and all work-related travel while on your rotation. Please be mindful of what you do / do not expense. 
+
+CEO Shadows can expense any and all work-related travel while on your rotation. Please be mindful of what you do / do not expense.
 
 #### Expensing meals
 
-CEO Shadows should follow our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md) in regards to food and dining. 
+CEO Shadows should follow our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md) in regards to food and dining.
 
 #### Childcare
 
@@ -124,7 +125,7 @@ When it is ready, please share your recap via a slack message to Connor O'Brien,
 
 You can write or discuss anything you want (as long as it doesn't reveal information about anyone or anything that could be considered sensative). All content will be shared, unabridged, with the company and posted in the weekly GitDown.
 
-Some content will be selected for external use (with your approval, of course) by the communications team. 
+Some content will be selected for external use (with your approval, of course) by the communications team.
 
 ## Tips and Tricks to working with Quinn
 
