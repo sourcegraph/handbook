@@ -688,6 +688,27 @@ As a reference point, we recently had a product launch in June (Sourcegraph 5.1)
 
 Please don't go overboard on preparation, plans, or detail. A simple Google Doc outline is ideal, and we will use that to go through your ideas together. We intend this to be a casual back and forth conversation, not a formal presentation. Also, feel free to make any assumptions about the hypothetical product and include them in your document.
 
+### Technical Program Manager
+
+#### Project planning working session
+
+For the working session, we ask that you come prepared to share an overview of a project where you were given a vague set of requirements on a highly complex project. Things to consider/highlight:
+
+- How did you pull all of it together into a plan from start to finish?
+- Who did you need to get approved & buy-in from & how did you do that?
+- How was the project executed?
+- What are the results of the project ?
+- What did you learn from it?
+
+Please be prepared to share your screen and walk the panel through your presentation. This overview can be in any format (PDF, Google Slides, written document with screenshots, etc), which helps you clearly outline the project.
+
+Agenda: 
+
+- 5 mins: Quick introductions
+- 20 mins: Candidate sharing screen & presenting project
+- 20 mins: Follow-up questions from the panel
+- 15 mins: Discussion & questions from candidate to panel
+
 ## Design
 
 ### Product Designer
