@@ -81,7 +81,7 @@ Lodging during the CEO shadow program is provided by the company and will only c
 
 Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). Please book your lodging through Navan.
 
-We typically suggest CEO Shadows stay in San Francisco, but @connor o'brien (Chief of Staff to the CEO) can work with you on where to stay to minimize travel and expense based on Quinn's calendar.
+We recommend staying at the [Hotel Kabuki](https://maps.app.goo.gl/6D3XbRUvmFUkfukY8). Hotel Kabuki is in a safe neighborhood with lots of great food options, safe to walk around in, centrally located within SF, reasonably priced but with great amenities, and is easy to get to Quinn's place or our regularly used WeWorks
 
 #### Airfare
 
