@@ -5,7 +5,7 @@ We believe in continuous learning and development to empower our teammates and h
 ## Resources we offer:
 
 - [Hone](https://app.honehq.com/participant)
-- #learning channel
+- #chat-learning channel
 
 ## How we use Hone:
 
@@ -31,9 +31,9 @@ To access Hone membership and classes, follow these steps:
 
 - **Prioritize your learning**: Take time to explore the class catalog and select topics that align with your personal and professional goals.
 - **Participate actively**: Engage with instructors and peers during classes to maximize your learning experience.
-- **Share feedback:** After completing a class, provide feedback to help us continually improve and recommend classes to teammates via #learning channel.
+- **Share feedback:** After completing a class, provide feedback to help us continually improve and recommend classes to teammates via #chat-learning channel.
 - **Discuss with your manager:** Discuss your learning goals with your manager to ensure that Hone classes align with your professional development plan.
-- **Stay updated:** The People team will\*\* \*\*regularly share updates regarding upcoming classes - please join #learning channel or reach out to #ask-people-team for recommendations.
+- **Stay updated:** The People team will\*\* \*\*regularly share updates regarding upcoming classes - please join #chat-learning channel or reach out to #ask-people-team for recommendations.
 
 If you have any questions or need assistance with Hone or other L&D resources, please don't hesitate to reach out to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) or #ask-people-team
 
@@ -129,4 +129,4 @@ At Sourcegraph, we believe in continuously improving and tailoring our L&D resou
 - **Average Class Rating:** After each class, you will be able to provide feedback about your learning experience. Your score will help us assess the effectiveness of content and the value it provides to your professional learning.
 - **Active Learners:** The total number of teammates actively participating in classes.
 
-By measuring these key engagement metrics, we can adapt our L&D offerings, to better meet our teammate’s needs. Your participation and feedback are crucial in shaping the future of your learning experience at Sourcegraph so please share any feedback via #learning or #ask-people-team.
+By measuring these key engagement metrics, we can adapt our L&D offerings, to better meet our teammate’s needs. Your participation and feedback are crucial in shaping the future of your learning experience at Sourcegraph so please share any feedback via #chat-learning or #ask-people-team.
