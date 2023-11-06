@@ -702,7 +702,7 @@ For the working session, we ask that you come prepared to share an overview of a
 
 Please be prepared to share your screen and walk the panel through your presentation. This overview can be in any format (PDF, Google Slides, written document with screenshots, etc), which helps you clearly outline the project.
 
-Agenda: 
+Agenda:
 
 - 5 mins: Quick introductions
 - 20 mins: Candidate sharing screen & presenting project
