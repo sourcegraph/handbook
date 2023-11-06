@@ -5,7 +5,7 @@ We believe in continuous learning and development to empower our teammates and h
 ## Resources we offer:
 
 - [Hone](https://app.honehq.com/participant)
-- [#learning channel](https://join.slack.com/share/enQtNjE0MTE4MDAyMzMwMi0xYWNmYjUzNmFkMGI3ZDY1YTcwZjA4NGUzMmQ0MjBhYTE1NDQ4ZmQwNGMwY2RhOTU4NzIyY2QyMzY5ZGIzYzli)
+- [#learning channel]
 
 ## How we use Hone:
 
