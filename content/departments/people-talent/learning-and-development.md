@@ -1,6 +1,6 @@
 # Sourcegraph L&D Resources Handbook Page
 
-We believe in continuous learning and development to empower our teammates and help them grow in their career.
+We believe in continuous learning and development to empower our teammates and help them grow in their careers.
 
 ## Resources we offer:
 
