@@ -17,6 +17,7 @@ In order to help attract top global talent, Recruiting Operations Specialists al
 - [Slack](https://slack.com/): To communicate with the Talent team and the rest of the Sourcegraph team
 - [Calendly](https://calendly.com/)
 - [Talent Wall](guide_to_using_talentwall.md)
+- [Zapier](https://zapier.com/app/dashboard)
 
 ## How to submit an interview scheduling request
 
@@ -54,7 +55,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 ## Interview scheduling
 
-### How to schedule an interview
+### How to schedule an interview for all candidates
 
 **Step 1:** Find the candidate’s profile in Greenhouse by searching for their name.
 
@@ -90,6 +91,10 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 **Step 8:** Click "_Save_" > "_Send_" > "_Invite all guests_"
 
 **Note:** Follow the same scheduling steps for internal candidates that you would for external candidates. Send the confirmation email to the internal candidate's Sourcegraph email address so they can add the event to their calendar if they'd like.
+
+### Additional scheduling step for leadership and executive candidates
+
+Unfortunatunately candidates have to manually download their calendar invites from the confirmation email they receive from Greenhouse. Oftentimes busy executive candidates miss this step or get confused about which zoom link to join if they are scheduled for multiple interviews. As a solution, in addition to the Greenhouse confirmation email, Recruiters should [follow these steps](https://www.loom.com/share/f6716d69982d4b0bbe2c52bae682872a?sid=b846fb09-d00b-4c2b-86fd-ea14a1176a6e) to manually send executive candidates a Google Calendar invite from their personal calendar. 
 
 ### How to schedule a debrief
 
@@ -197,6 +202,66 @@ Offer letters are generated and sent by Recruiting Coordinators or Recruiting Op
 To generate a US Offer Letter, watch and follow [these steps.](https://share.vidyard.com/watch/DKevdnBPCfK26jgQgyzX2x)
 
 To generate a non-US Offer letter, watch and follow [these steps.](https://share.vidyard.com/watch/BjoopiomMjB85aJabQPdwu)
+
+## How to use Zapier to sync Greenhouse and Slack when candidates submit availability
+
+Since Greenhouse will only notify you via email when candidates submit availability (they’re unable to notify you via Slack), you can use Zapier as a workaround if you prefer to receive Slack notifications. Below are two examples of how you can set up Zaps to be notified via Slack when candidates submit availability through Greenhouse. 
+
+### How to create a candidate availability Zap in your Slack DMs for recruiter screens
+
+1. Sign into [Zapier](https://zapier.com/app/dashboard) using your Sourcegraph email address. If you do not yet have an account setup, you will need to contact #ask-it-tech-ops and request that they add you to our Sourcegraph account.
+
+2. Make sure that you’re receiving Gmail notifications when candidates submit availability via Greenhouse.
+
+3. Create a “Candidate Availability for Recruiter Screen” folder in your Gmail.
+
+4. Create the following two Gmail filters in your personal email to ensure that all of the correct notifications are filtered to your candidate availability for recruiter screens folder (this will be a trigger later in your Zap): 
+
+![Recruiter Screen Availability Gmail Filter](https://storage.googleapis.com/sourcegraph-assets/Recruiter-Screen-availability-Gmail-filter.png)
+
+5. In Zapier, click “create Zap”
+
+6. Create your Zap trigger as follows: 
+
+![Recruiter Screen Zap Trigger](https://storage.googleapis.com/sourcegraph-assets/Recruiter-Screen-Zap-Trigger.png)
+
+7. Include a Text in Formatter that will extract the URL in the body of the email so that it’ll show in Slack:
+
+![Text in formatter recruiter screen](https://storage.googleapis.com/sourcegraph-assets/Text-in-Formatter-Recruiter-Screen-Zap.png)
+
+8. Create the following action on your Zap that will send you a DM when candidates submit availability for their recruiter screens (feel free to change certain settings if you have different preferences):
+
+![Action for recruiter screen availability Zap](https://storage.googleapis.com/sourcegraph-assets/Action-for-Recruiter-Screen-Zap.png)
+
+9. Test your zap. If it works properly, publish it!
+
+### How to create a candidate availability Zap for wg-talent-scheduling channel (for all interview stages except for recruiter screen) 
+
+1. Sign into [Zapier](https://zapier.com/app/dashboard) using your Sourcegraph email address. If you do not yet have an account setup, you will need to contact #ask-it-tech-ops and request that they add you to our Sourcegraph account.
+
+2. Make sure that you’re receiving Gmail notifications when candidates submit availability via Greenhouse. If you’re the Recruiting Coordinator responsible for scheduling/creating this Zap, make sure you have notifications turned on for ALL jobs. 
+
+3. Create a “Candidate Availability for Recruiter Screen” folder in your Gmail.
+
+4. Create the following two Gmail filters in your personal email to ensure that all of the correct notifications are filtered to a candidate availability folder (this will be a trigger later in your Zap):
+
+![Gmail filter for scheduling Zap](https://storage.googleapis.com/sourcegraph-assets/Gmail-filters-for-scheduling-zap.png)
+
+5. In Zapier, click “create Zap”
+
+6. Create your Zap trigger as follows: 
+
+![Scheduling channel zap trigger](https://storage.googleapis.com/sourcegraph-assets/Scheduling-channel-zap-trigger.png)
+
+7. Include a Text in Formatter that will extract the URL in the body of the email so that it’ll show in Slack:
+
+![Text in formatter availability bot](https://storage.googleapis.com/sourcegraph-assets/Text-in-Formatter-by-Zapier.png)
+
+8. Create the following action on your Zap that will send a message to the scheduling channel when candidate submit availability:
+
+![Action on your scheduling channel Zap message](https://storage.googleapis.com/sourcegraph-assets/Action-on-your-scheduling-channel-Zap-message.png)
+
+9. Test your zap. If it works properly, publish it!
 
 ## Other Recruiting Operations responsibilities:
 
