@@ -1,4 +1,5 @@
 ## Product Plans
+
 - [Q4, 2024 Product Plans](https://docs.google.com/document/d/1SOayguNK5bepXIgMj4tZ1SnzBlCJaZmZ-x4HwMLDvtk/)
 
 ## Product-Focused Planning
