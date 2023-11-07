@@ -94,7 +94,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 ### Additional scheduling step for leadership and executive candidates
 
-Unfortunatunately candidates have to manually download their calendar invites from the confirmation email they receive from Greenhouse. Oftentimes busy executive candidates miss this step or get confused about which zoom link to join if they are scheduled for multiple interviews. As a solution, in addition to the Greenhouse confirmation email, Recruiters should [follow these steps](https://www.loom.com/share/f6716d69982d4b0bbe2c52bae682872a?sid=b846fb09-d00b-4c2b-86fd-ea14a1176a6e) to manually send executive candidates a Google Calendar invite from their personal calendar. 
+Unfortunatunately candidates have to manually download their calendar invites from the confirmation email they receive from Greenhouse. Oftentimes busy executive candidates miss this step or get confused about which zoom link to join if they are scheduled for multiple interviews. As a solution, in addition to the Greenhouse confirmation email, Recruiters should [follow these steps](https://www.loom.com/share/f6716d69982d4b0bbe2c52bae682872a?sid=b846fb09-d00b-4c2b-86fd-ea14a1176a6e) to manually send executive candidates a Google Calendar invite from their personal calendar.
 
 ### How to schedule a debrief
 
@@ -205,7 +205,7 @@ To generate a non-US Offer letter, watch and follow [these steps.](https://share
 
 ## How to use Zapier to sync Greenhouse and Slack when candidates submit availability
 
-Since Greenhouse will only notify you via email when candidates submit availability (they’re unable to notify you via Slack), you can use Zapier as a workaround if you prefer to receive Slack notifications. Below are two examples of how you can set up Zaps to be notified via Slack when candidates submit availability through Greenhouse. 
+Since Greenhouse will only notify you via email when candidates submit availability (they’re unable to notify you via Slack), you can use Zapier as a workaround if you prefer to receive Slack notifications. Below are two examples of how you can set up Zaps to be notified via Slack when candidates submit availability through Greenhouse.
 
 ### How to create a candidate availability Zap in your Slack DMs for recruiter screens
 
@@ -215,13 +215,13 @@ Since Greenhouse will only notify you via email when candidates submit availabil
 
 3. Create a “Candidate Availability for Recruiter Screen” folder in your Gmail.
 
-4. Create the following two Gmail filters in your personal email to ensure that all of the correct notifications are filtered to your candidate availability for recruiter screens folder (this will be a trigger later in your Zap): 
+4. Create the following two Gmail filters in your personal email to ensure that all of the correct notifications are filtered to your candidate availability for recruiter screens folder (this will be a trigger later in your Zap):
 
 ![Recruiter Screen Availability Gmail Filter](https://storage.googleapis.com/sourcegraph-assets/Recruiter-Screen-availability-Gmail-filter.png)
 
 5. In Zapier, click “create Zap”
 
-6. Create your Zap trigger as follows: 
+6. Create your Zap trigger as follows:
 
 ![Recruiter Screen Zap Trigger](https://storage.googleapis.com/sourcegraph-assets/Recruiter-Screen-Zap-Trigger.png)
 
@@ -235,11 +235,11 @@ Since Greenhouse will only notify you via email when candidates submit availabil
 
 9. Test your zap. If it works properly, publish it!
 
-### How to create a candidate availability Zap for wg-talent-scheduling channel (for all interview stages except for recruiter screen) 
+### How to create a candidate availability Zap for wg-talent-scheduling channel (for all interview stages except for recruiter screen)
 
 1. Sign into [Zapier](https://zapier.com/app/dashboard) using your Sourcegraph email address. If you do not yet have an account setup, you will need to contact #ask-it-tech-ops and request that they add you to our Sourcegraph account.
 
-2. Make sure that you’re receiving Gmail notifications when candidates submit availability via Greenhouse. If you’re the Recruiting Coordinator responsible for scheduling/creating this Zap, make sure you have notifications turned on for ALL jobs. 
+2. Make sure that you’re receiving Gmail notifications when candidates submit availability via Greenhouse. If you’re the Recruiting Coordinator responsible for scheduling/creating this Zap, make sure you have notifications turned on for ALL jobs.
 
 3. Create a “Candidate Availability for Recruiter Screen” folder in your Gmail.
 
@@ -249,7 +249,7 @@ Since Greenhouse will only notify you via email when candidates submit availabil
 
 5. In Zapier, click “create Zap”
 
-6. Create your Zap trigger as follows: 
+6. Create your Zap trigger as follows:
 
 ![Scheduling channel zap trigger](https://storage.googleapis.com/sourcegraph-assets/Scheduling-channel-zap-trigger.png)
 
