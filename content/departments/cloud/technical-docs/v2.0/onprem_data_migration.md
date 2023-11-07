@@ -31,8 +31,11 @@ An operator must:
 
 ### Set up the target Cloud instance
 
-First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance.
-If alerting is not disabled, make sure to disable it by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows:
+First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance. Upon created, perform the following steps:
+
+1. Extract the Cloud instance from the control plane, follow the instance-specific dashboard from go/cloud-ops
+
+1. Disable alerting by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows. Make sure to deploy the terraform changes as well.
 
 ```diff
 spec:
@@ -41,17 +44,13 @@ spec:
 +    enableAlerting: false
 ```
 
-Then regenerate Terraform manifests:
-
-```sh
-mi2 generate cdktf
-```
-
-Commit and submit your changes as a pull request. After merging and confirming the apply in Terraform Cloud, proceed with scaling down the instance:
+1. Commit and submit your changes as a pull request. After merging and confirming the apply in Terraform Cloud, proceed with scaling down the instance:
 
 ```sh
 mi2 instance scale-down
 ```
+
+1. Finally, hand it off to the assigned Implementation Engineer with the link of go/ops/<slug> and this handbook page.
 
 ### Create migration Cloud Storage Bucket
 
@@ -217,6 +216,10 @@ Audit logs are generated for bucket access in the project's logs, under log entr
 
 ## Execute data migration
 
+### Ensure GCP permission
+
+Visit go/cloud-ops and locate the instance, then request access to Cloud infra via the provided Entitle link.
+
 ### Reset databases
 
 First, prepare the Cloud database for import. Make sure all Sourcegraph pods are scaled down in the cloud instance with the exception of `cloud-sql-proxy`
@@ -310,7 +313,7 @@ The instance will need `externalURL` set to the instance domain for SOAP to work
 }
 ```
 
-[Request Entitle access](../oidc_site_admin.md#request-ui-access-to-managed-instances) to log in to the UI and log in to the instance. Then create the Sourcegraph service account manually:
+Visit go/cloud-ops and locate the instance, then follow instructions from the `Log in to the instance UI` section to log in to the UI. Then create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
