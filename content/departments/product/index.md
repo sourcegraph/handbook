@@ -250,7 +250,8 @@ harsh or dismissive language with our customers, potential customers or random
 people in the street when you're representing Sourcegraph.
 
 Rule #3: **Don't mention our competitors by name publicly;** we don't want to
-give them the airtime.
+give them the airtime. There are good marketing reasons to explicity violate
+this policy, but that's a call to be made by our Chief Marketing Officier.
 
 Rule #4: Use kindness and respect when discussing competitors with our sales
 customers. **Dissing our competitors doesn't make them look bad, it makes us
