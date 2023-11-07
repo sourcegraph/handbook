@@ -48,7 +48,7 @@ Note: Our policy is that all teammates have a sourcegraph-managed laptop to perf
 - [Dual monitor stand & organizer](https://www.amazon.com/Simple-Houseware-Monitor-Stand-Drawer/dp/B0CFF1GY46/ref=sr_1_10?crid=2JISBNGPMM5PU&keywords=dual%2Bmonitor%2Bstand%2Bfor%2Bdesk&qid=1699389367&sprefix=Dual%2Bmon%2Caps%2C130&sr=8-10&th=1)
 - [Flat extension and power outlet cord](https://www.amazon.com/Extension-Protector-Widely-Extender-Essentials/dp/B0BVZCLW3R/ref=sr_1_5?crid=UIIOJWX9KVU4&keywords=home%2Boffice%2Bessentials&qid=1699389698&sprefix=home%2Boff%2Caps%2C134&sr=8-5&th=1)
 - [Ergonomic wrist and mouse pad](https://www.amazon.com/Gimars-Memory-Keyboard-Support-Computer/dp/B01M11FLUJ/ref=sr_1_38?crid=2HP6KDBLGBOKS&keywords=desk%2Bwrist%2Bpad%2Band%2Bmouse%2Bpad&qid=1699389604&sprefix=desk%2Bwrist%2Bpad%2Band%2Bmouse%2Bpad%2Caps%2C135&sr=8-38&th=1)
-- 
+-
 - MORE SUGGESTIONS COMING SOON!
 
 ## Computers
