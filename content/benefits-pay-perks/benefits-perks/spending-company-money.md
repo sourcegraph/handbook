@@ -63,8 +63,6 @@ Please see below how to get your computer and which specs to get depending on yo
 
 Please place an order for your Sourcegraph computer immediately after signing your contract. You are responsible for ordering your laptop through [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase your laptop through our local partner in your country.
 
-**Teammates based outside of the US/Canada/UK**
-
 - For some countries, we do not have a local partner to order through yet. In this case, the Tech Ops team will reach out and request that you purchase and expense your own Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple Business Org ID). All MacBooks and AppleCare insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
 - Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
@@ -80,32 +78,32 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 #### Technical Success team laptops:
 
-- Apple MacBook Pro - M2 Pro - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Pro - 36 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Product & Design team laptops:
 
-- Apple MacBook Pro - M2 Max - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 36 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Engineering team laptops:
 
-- Apple MacBook Pro - M2 Max - 64 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 64 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Data & Analytics team laptops:
 
-- Apple MacBook Pro - M2 Max - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 36 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 
 #### All other teams laptops:
 
-- Apple MacBook Pro - 14.2" M2 Pro - 16 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 14.2" M3 Pro - 18 GB RAM, 512 GB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
-- Apple MacBook Pro - 16.2" M2 Pro - 16 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 16.2" M3 Pro - 18 GB RAM, 512 GB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
