@@ -117,4 +117,3 @@ You can read more about each step of the PIP process below:
    - If the Teammate’s performance does not improve to the necessary level, the Manager will work with their People Partner to part ways amicably.
 
 [^1]: This can vary depending on the situation, please work with your People Partner.
-
