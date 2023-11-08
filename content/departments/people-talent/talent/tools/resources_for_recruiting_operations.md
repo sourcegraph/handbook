@@ -94,7 +94,9 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 ### Additional scheduling step for leadership and executive candidates
 
-Unfortunatunately candidates have to manually download their calendar invites from the confirmation email they receive from Greenhouse. Oftentimes busy executive candidates miss this step or get confused about which zoom link to join if they are scheduled for multiple interviews. As a solution, in addition to the Greenhouse confirmation email, Recruiters should [follow these steps](https://www.loom.com/share/f6716d69982d4b0bbe2c52bae682872a?sid=b846fb09-d00b-4c2b-86fd-ea14a1176a6e) to manually send executive candidates a Google Calendar invite from their personal calendar.
+Unfortunatunately, candidates have to manually download their calendar invites from the confirmation email they receive from Greenhouse. Oftentimes busy executive candidates miss this step or get confused about which zoom link to join if they are scheduled for multiple interviews. As a solution, in addition to the Greenhouse confirmation email, Recruiters should [follow these steps](https://www.loom.com/share/f6716d69982d4b0bbe2c52bae682872a?sid=b846fb09-d00b-4c2b-86fd-ea14a1176a6e) to manually send executive candidates a Google Calendar invite from their personal calendar. 
+
+Additionally, the candidate's phone number should always be included in the internal invites to the Sourcegraph interviewers in case the candidates need to be contacted right away due to technical issues or logistical misunderstandings. 
 
 ### How to schedule a debrief
 
