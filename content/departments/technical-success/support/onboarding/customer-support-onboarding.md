@@ -1,8 +1,8 @@
-# Customer Support onboarding
+# Support Engineering onboarding
 
-Welcome to Sourcegraph and the Customer Support team! This document provides an overview of the outcomes you will achieve while you work on your onboarding. The specific tasks in support of these outcomes are found in [Process Street](https://app.process.st/reports). If you ever feel like an outcome is not true, share that with your manager or the team, and we will figure out how to make sure it is true and improve the onboarding for the next new teammate.
+Welcome to Sourcegraph and the Support Engineering team! This document provides an overview of the outcomes you will achieve while you work on your onboarding. The specific tasks in support of these outcomes are found in [Process Street](https://app.process.st/reports). If you ever feel like an outcome is not true, share that with your manager or the team, and we will figure out how to make sure it is true and improve the onboarding for the next new teammate.
 
-As you go through onboarding, take your time. The first few weeks are all about learning, not doing. It will feel like you have nothing to show for your first few weeks and that is by design. It's okay to take your time and just focus on settling in. It can be reading intensive, so please know you can share your thoughts, reactions, and questions in our #team-customer-support Slack channel, talk with your [onboarding buddy](../../../people-talent/buddy-program.md), talk with your [onboarding mentor](cs-onboard-mentor.md), talk with your manager, or talk with anyone else on the team. Doing so can make it a little more interactive and less tedious.
+As you go through onboarding, take your time. The first few weeks are all about learning, not doing. It will feel like you have nothing to show for your first few weeks and that is by design. It's okay to take your time and just focus on settling in. It can be reading intensive, so please know you can share your thoughts, reactions, and questions in our #team-support-engineering Slack channel, talk with your [onboarding buddy](../../../people-talent/buddy-program.md), talk with your [onboarding mentor](cs-onboard-mentor.md), talk with your manager, or talk with anyone else on the team. Doing so can make it a little more interactive and less tedious.
 
 ## By the end of your first week, the following will be true...
 
