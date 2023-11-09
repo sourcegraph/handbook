@@ -575,6 +575,17 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 ### Product Manager
 
+#### Team Collaboration / Resume Deep Dive
+
+- Interviewer(s): A member of the team for which you're interviewing
+- Duration: 60 minutes
+- Details: A Sourcegraph teammate will ask experience and behavioral based questions about your skills, values, and work history in order to gauge whether they're aligned with the requirements of the role. The goal of the interview is to:
+  1. Get an understanding of your technical depth and how you would contribute to and/or collaborate with our engineering team
+  2. Take a [deep dive](index.md#resume-deep-dive) into your background from past to present with the goal of uncovering the motivation behind your decision making, strengths, weaknesses, and accomplishments in past roles.
+  3. Get a high level understanding of how your views and experiences align with [our values](../../../../company-info-and-process/values/index.md).
+
+The interviewer will leave time at the end to answer any questions that you have. This stage is meant to be conversational and informative for both you and us.
+
 #### Async writing project
 
 - Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
