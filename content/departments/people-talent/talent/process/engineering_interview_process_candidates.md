@@ -48,6 +48,20 @@ We want to find engineers who are:
 
 - **How to prepare:** Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system. The interview consists of open-ended questions, allowing you to describe your mental model of designing a new system from scratch - we want to understand the decisions you are making when designing system architectures. We expect you to ask clarifying questions as the requirements for the system are purposefully ambiguous. We expect you to be designing systems that often need to meet conflicting or ambiguous requirements. For engineers in these roles, a significant part of their journey in Sourcegraph is going to be designing new or improving existing systems to fit these new requirements. Being open-ended allows us to dive into multiple different problem areas, based on your responses, skills, and abilities. It allows a bidirectional conversation, which lets us identify the strengths and weaknesses in the design you propose.
 
+#### Technical Screen / Resume Deep Dive
+
+- **Interviewers:** A member of the team for which you're interviewing
+
+- **Duration:** 30-60 minutes
+
+- **Details:** A Sourcegraph teammate will ask technical and behavioral based questions about your skills, values, and work history in order to gauge whether they're aligned with the requirements of the role. The goal of the interview is to:
+
+  1. Get an understanding of your technical depth and how you would contribute to and/or collaborate with our engineering team
+  2. Take a [deep dive](types_of_interviews.md#resume-deep-dive) into your background from past to present with the goal of uncovering the motivation behind your decision making, strengths, weaknesses, and accomplishments in past roles.
+  3. Get a high level understanding of how your views and experiences align with [our values](../../../../company-info-and-process/values/index.md).
+   
+The interviewer will leave time at the end to answer any questions that you have. This stage is meant to be conversational and informative for both you and us.
+
 #### Technical Interview
 
 - **Interviewers:** two members of the engineering department
