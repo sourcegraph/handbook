@@ -59,7 +59,7 @@ We want to find engineers who are:
   1. Get an understanding of your technical depth and how you would contribute to and/or collaborate with our engineering team
   2. Take a [deep dive](types_of_interviews.md#resume-deep-dive) into your background from past to present with the goal of uncovering the motivation behind your decision making, strengths, weaknesses, and accomplishments in past roles.
   3. Get a high level understanding of how your views and experiences align with [our values](../../../../company-info-and-process/values/index.md).
-   
+
 The interviewer will leave time at the end to answer any questions that you have. This stage is meant to be conversational and informative for both you and us.
 
 #### Technical Interview
