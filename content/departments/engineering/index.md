@@ -30,11 +30,11 @@ The Engineering department at Sourcegraph consists of:
 ## Slack channels
 
 - #team-engineering
-- #eng-announce
-- #ask-engineering
+- #announce-engineering
+- #discuss-engineering
 - #buildkite-main
-- #dev-chat
-- #dev-urandom
+- #chat-dev
+- #chat-dev-urandom
 
 ## Processes
 
