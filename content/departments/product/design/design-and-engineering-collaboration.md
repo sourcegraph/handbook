@@ -33,3 +33,7 @@ We value consistency over novelty and diligently work to ensure new work utilize
 Design should have a basic understanding of the technical constraints of the platform. Engineering should understand the importance of design decisions and their impact on the user experience.
 
 Both parties are encouraged to contribute to all sides of the discussion. Design should bring up technical considerations. Engineering should contribute UX ideas. Both should defer to the other in their area of expertise: Design should defer to Engineering on technical considerations, and Engineering should defer to Design on UX ideas.
+
+## Design is what ships, not what is rendered in design software
+
+To ship the best software, design and engineering collaborate from the beginning of a project to it's release. This collaboration starts with ideation to kick projects off on the strongest footing and finishes with comprehensive QA to provide multiple perspectives on the quality of the shipped product.
