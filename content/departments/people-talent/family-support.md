@@ -170,7 +170,7 @@ A: You will see the reimbursement on your paycheck within 30-days of the approve
 A: Please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) and [payroll@sourcegraph.com](mailto:payroll@sourcegraph.com) as they each own a piece of the reimbursement process.
 
 **Q: How does my flexible saving account (FSA) work with Maven?**
-A: Maven is a health benefit in addition to your FSA. You must exhaust your yearly FSA funds attached to a Sourcegraph insurance plan prior to using the family support budget provided by Sourcegraph. If your parnter has an FSA that is not Sourcegraph sponsored, meaning an FSA through their employer, they do not need to exhaust the FSA first. 
+A: Maven is a health benefit in addition to your FSA. You must exhaust your yearly FSA funds attached to a Sourcegraph insurance plan prior to using the family support budget provided by Sourcegraph. If your parnter has an FSA that is not Sourcegraph sponsored, meaning an FSA through their employer, they do not need to exhaust the FSA first.
 
 **Q: When should I or can I engage with Maven?**
 A: You can start working with Maven at any time through your reproductive or family journey. Starting with exploring family planning options all the way through aging hormone support.
