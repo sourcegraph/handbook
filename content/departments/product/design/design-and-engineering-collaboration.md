@@ -24,7 +24,7 @@ Design and Engineering should both be involved in a project as early as possible
 
 ## Standard set of tools and tooling
 
-We use tools that allow for clear communication of ideas between parties, and that both can use. For example, design users the same issue tracker as engineering. Additionally, design and engineering collaborate to keep tooling like design systems in sync, so that designs use components that are the same as their code base counterparts.
+We use tools that allow for clear communication of ideas between parties, and that both can use. For example, designers use the same issue tracker as engineering. Additionally, design and engineering collaborate to keep design systems in sync so that designs use components that are the same as their codebase counterparts.
 
 We value consistency over novelty and diligently work to ensure new work utilizes our shared tooling. We ensure that updates to this tooling are carefully considered by both design and engineering.
 
