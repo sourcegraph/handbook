@@ -19,9 +19,6 @@
   ### Discover
   - [ ] Product and/or engineering provide direction and/or feedback
 
-  ### Define
-  - [ ] GitHub issue
-
   ### Design
   - [ ] High fidelity design using design system or low fidelity design as
   required - Link
