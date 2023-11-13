@@ -116,9 +116,9 @@ As of FY25, our market segmentation will evolve to divide our customers into 4 t
 
 Beginning in FY25, our four customer segments are:
 
-| <div style="width:215px">Customer Segment</div> | Segment criteria  |
-| ----------------------------------------------- | ----------------- |
-| Small-to-Medium Biz (SMB)                       | 0 - 99 devs       |
-| Mid-Market (MM)                                 | 100 - 500 devs    |
-| Enterprise                                      | 501 - 2,5000 devs |
-| Strategic                                       | 2,501+ devs       |
+| <div style="width:215px">Customer Segment</div> | Segment criteria |
+| ----------------------------------------------- | ---------------- |
+| Small-to-Medium Biz (SMB)                       | 0 - 99 devs      |
+| Mid-Market (MM)                                 | 100 - 500 devs   |
+| Enterprise                                      | 501 - 2,500 devs |
+| Strategic                                       | 2,501+ devs      |
