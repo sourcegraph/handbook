@@ -104,12 +104,11 @@ Having a single market segmentation helps teams and processes across Sourcegraph
 
 We segment our customers into 3 tiers or segments.
 
-| Customer Segment          | Segment criteria                      |
-| ------------------------- | ------------------------------------- |
-| Commercial                | 0 - 1.5k devs AND less than $100k ARR |
-| Enterprise                | 1.5k - 10k devs OR $100k - $1m ARR    |
-| Strategic                 | 10k+ devs OR $1m+ ARR                 |
-
+| Customer Segment | Segment criteria                      |
+| ---------------- | ------------------------------------- |
+| Commercial       | 0 - 1.5k devs AND less than $100k ARR |
+| Enterprise       | 1.5k - 10k devs OR $100k - $1m ARR    |
+| Strategic        | 10k+ devs OR $1m+ ARR                 |
 
 #### FY25+ Market Segmentation
 
