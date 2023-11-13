@@ -120,5 +120,5 @@ Beginning in FY25, our four customer segments are:
 | ----------------------------------------------- | ----------------- |
 | Small-to-Medium Biz (SMB)                       | 0 - 99 devs       |
 | Mid-Market (MM)                                 | 100 - 500 devs    |
-| Enterprise                                      | 501 - 2,5000 devs |
+| Enterprise                                      | 501 - 2,500 devs |
 | Strategic                                       | 2,501+ devs       |
