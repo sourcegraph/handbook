@@ -22,3 +22,8 @@ gcloud alpha logging copy "_Default" storage.googleapis.com/$AUDIT_STORAGE_BUCKE
 Then, view the resulting bucket to ensure the logs have been moved over.
 
 These steps are based on these [GCP Docs](https://cloud.google.com/logging/docs/routing/copy-logs).
+
+## Cloud Audit Log Pricing
+
+See this google doc for our raw audit log pricing to help our Sales team structure costs
+[Sheet](https://docs.google.com/spreadsheets/d/1ikRo-HjvJ-TFJ92aFKqbILAliF0dw2SNyy01UDA8feI/edit?usp=sharing)
