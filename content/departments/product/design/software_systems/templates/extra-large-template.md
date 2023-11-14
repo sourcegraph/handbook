@@ -34,9 +34,7 @@
   - [ ] External users - Link, Link
 
   ### Define
-  - [ ] Product document or RFC - Link
-  - [ ] Design challenge - Link
-  - [ ] GitHub issue
+  - [ ] PRD and/or RFC - Link
 
   ### Design
   - [ ] user journey map - Link

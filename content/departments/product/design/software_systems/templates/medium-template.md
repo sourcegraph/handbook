@@ -31,9 +31,7 @@
   - [ ] External users - Link, Link
 
   ### Define
-  - [ ] Product document or RFC - Link
-  - [ ] GitHub issue
-  - [ ] Design challenge
+  - [ ] PRD and/or RFC - Link
 
   ### Design
   - [ ] Low fidelity design - Link

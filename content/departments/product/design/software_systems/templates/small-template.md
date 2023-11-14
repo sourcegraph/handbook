@@ -21,10 +21,6 @@
   - [ ] Existing customer feedback - Link
   - [ ] Product and/or engineering provide direction and/or feedback
 
-  ### Define
-  - [ ] GitHub issue
-  - [ ] Design challenge
-
   ### Design
   - [ ] Low fidelity design - Link
   - [ ] High fidelity design using design system - Figma
