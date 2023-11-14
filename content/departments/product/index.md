@@ -112,7 +112,7 @@ Learn more about the design team and their process in the [design team section o
   Designer (he/him)
 - [Daniel Marques](../../team/index.md#daniel-marques) – Product
   Designer (he/him)
-- Taiyab Raja  – Product Designer (he/him)
+- Taiyab Raja – Product Designer (he/him)
 
 ##### UX Research
 
