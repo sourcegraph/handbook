@@ -25,7 +25,7 @@ We value and support teammates at all stages of life. We ensure that all teammat
 ### 📚 Professional development
 
 In addition to on-the-job training, we offer a $1,000 yearly reimbursement for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md) for all teammates. Receipts for any expense over $25 are required.
-We also offer all teammates a [Hone](../../departments/people-talent/learning-and-development.md) membership which  provides access to interactive classes and training programs. With a focus on leadership and development, these classes offer all teammates opportunities to enhance skills, connect with experts, and collaborate with peers. Investing in your growth is key to Sourcegraph’s success!
+We also offer all teammates a [Hone](../../departments/people-talent/learning-and-development.md) membership which provides access to interactive classes and training programs. With a focus on leadership and development, these classes offer all teammates opportunities to enhance skills, connect with experts, and collaborate with peers. Investing in your growth is key to Sourcegraph’s success!
 
 ### ✈️ Travel
 
