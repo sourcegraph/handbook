@@ -39,6 +39,7 @@ The Engineering department at Sourcegraph consists of:
 ## Processes
 
 - [Product Planning Process](product-planning.md)
+- [Collaborating with design](../product/design/design-and-engineering-collaboration.md)
 - [Submitting a bug report](submitting-a-bug-report.md)
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)
