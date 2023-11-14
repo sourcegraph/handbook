@@ -1,18 +1,18 @@
-# How design and engineering collaborate
+# How Design and Engineering collaborate
 
 ## We make time for design before engineering begins
 
-By beginning with design we help the entire team explore product requirements in the least expensive and most collaborative medium. When we all make time to collaborate in the design stage, we provide everyone with the ability to review the solution before development. This process should lead to stronger outcomes with less technical debt, as engineering’s systems design has a better chance of being correct on the first try.
+By beginning projects with product design, we help the entire team explore product requirements in the least expensive and most collaborative medium. When we all make time to collaborate in the design stage, we provide everyone with the ability to review the solution before development. This process should lead to stronger outcomes with less technical debt, as Engineering’s systems design has a better chance of being correct on the first try.
 
 ## We design together, throughout the project
 
-From planning to QA, everyone shapes the outcome of the product, each step involves some measure of design, product, and engineering input. When we have feedback from a wide range of disciplines, we produce a much better product.
+From planning to QA, everyone shapes the outcome of the product, each step involves some measure of Design, Product, and Engineering input. When we have feedback from a wide range of disciplines, we produce a much better product.
 
-As a project proceeds, design and engineering collaborate to modify the effort as required by various constraints. Both parties are flexible and seek to understand tradeoffs to arrive at the best solution given available resources. We understand that at times both design and tech debt is generated during this process. We track this debt and seek to reduce it when time allows.
+As a project proceeds, Design and Engineering collaborate to modify the effort as required by various constraints. Both parties are flexible and seek to understand tradeoffs to arrive at the best solution given available resources. We understand that at times both design and tech debt is generated during this process. We track this debt and seek to reduce it when time allows.
 
 ## We embrace incremental development
 
-To avoid huge projects that complicate matters for engineering, we strive to break projects into iterations that help us more efficiently build and deliver projects and test them with end users.
+To avoid huge projects that complicate matters for Engineering, we strive to break projects into iterations that help us more efficiently build and deliver projects and test them with end users.
 
 ## Shared vision and goals
 
@@ -20,13 +20,13 @@ Both Design and Engineering should have a clear understanding of the goals, targ
 
 ## Early involvement & regular communication
 
-Design and Engineering should both be involved in a project as early as possible so that each specialty can provide insight as questions come up about feasibility, performance considerations, and UX challenges. Because this is the overlap of two domains, tight feedback loops should be a high priority. Often design introduces elements that would require additional engineering or issues are discovered in the build cycle that impact design decisions. Regular communication helps resolve these issues.
+Design and Engineering should both be involved in a project as early as possible so that each specialty can provide insight as questions come up about feasibility, performance considerations, and UX challenges. Because this is the overlap of two domains, tight feedback loops should be a high priority. Often, Design introduces elements that would require additional engineering or issues are discovered in the build cycle that impact design decisions. Regular communication helps resolve these issues.
 
 ## Standard set of tools and tooling
 
-We use tools that allow for clear communication of ideas between parties, and that both can use. For example, designers use the same issue tracker as engineering. Additionally, design and engineering collaborate to keep design systems in sync so that designs use components that are the same as their codebase counterparts.
+We use tools that allow for clear communication of ideas between parties and that both can use. For example, designers use the same issue tracker as Engineering. Additionally, Design and Engineering collaborate to keep design systems in sync so that designs use components that are the same as their codebase counterparts.
 
-We value consistency over novelty and diligently work to ensure new work utilizes our shared tooling. We ensure that updates to this tooling are carefully considered by both design and engineering.
+We value consistency over novelty and diligently work to ensure new work utilizes our shared tooling. We ensure that updates to this tooling are carefully considered by both design and Engineering.
 
 ## Communicate and understand constraints
 
@@ -36,4 +36,4 @@ Both parties are encouraged to contribute to all sides of the discussion. Design
 
 ## Design is what ships, not what is rendered in design software
 
-To ship the best software, design and engineering collaborate from the beginning of a project to its release. This collaboration starts with ideation to kick projects off on the strongest footing and finishes with comprehensive QA to provide multiple perspectives on the quality of the shipped product.
+To ship the best software, Design and Engineering collaborate from the beginning of a project to its release. This collaboration starts with ideation to kick projects off on the strongest footing and finishes with comprehensive QA to provide multiple perspectives on the quality of the shipped product.
