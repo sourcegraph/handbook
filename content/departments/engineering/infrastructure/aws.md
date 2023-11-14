@@ -19,6 +19,8 @@ Sourcegraph AWS Organisation is managed by the Ship team. This includes:
 
 ## Create AWS Account
 
+> Note: all existing Sourcegraph AWS accounts can be found [here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/aws/variables.tf)
+
 AWS Account are owned by team, which is responsible for requesting access and managing resources. To create a new AWS account:
 
 1. Add new organisation unit and AWS account [here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/aws/variables.tf)
