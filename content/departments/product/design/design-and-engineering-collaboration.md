@@ -36,4 +36,4 @@ Both parties are encouraged to contribute to all sides of the discussion. Design
 
 ## Design is what ships, not what is rendered in design software
 
-The gap between what is envisioned and what the final release can be is often large. By maintaining strong collaboration and ownership from ideation through to the shared responsibility of QA, each discipline contributes to shipping design that delights our users. 
+The gap between what is envisioned and what the final release can be is often large. By maintaining strong collaboration and ownership from ideation through to the shared responsibility of QA, each discipline contributes to shipping design that delights our users.
