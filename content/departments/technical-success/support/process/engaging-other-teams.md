@@ -198,12 +198,12 @@ Selecting priority is more of an art than a science. Start with the issue and it
 ### Requests for help (RFHs)
 
 After you file a GitHub issue, keep it simple and always provide;
- 
- 1) a brief description of the issue you need help on, 
- 
- 2) a link to the GitHub issue(if you chose this route), and 
- 
- 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
+
+1.  a brief description of the issue you need help on,
+
+2.  a link to the GitHub issue(if you chose this route), and
+
+3.  the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
 - When posting in Release team's channel, [#discuss-release-ship](https://sourcegraph.slack.com/archives/C02E4HE42BX), use @release-team
 - When posting regarding a Batch Changes issue, post in [#discuss-code-search](https://sourcegraph.slack.com/archives/C05EA9KQUTA), use @batcher-support
