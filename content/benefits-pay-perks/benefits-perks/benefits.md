@@ -97,52 +97,56 @@ When: Sourcegraph’s 2023 US Benefits open enrollment took place from <span sty
 
 How: To make changes to current benefit elections, or confirm existing elections, please follow instructions in your [Rippling](https://app.rippling.com/) account (use the taskbar on the left-hand side to navigate to the heart icon labeled “insurance and benefits.” From here, you should see the option to start your plan selections). Any plan changes, or confirmations, will become effective as of <span style="text-decoration:underline;">2024-01-01</span>.
 
-
 ## **2024 Benefit plans**
 
 US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
 
 Medical:
-* UnitedHealthcare EPO
-    * [Summary of Benefits and Coverage](https://drive.google.com/file/d/11ySZ0vBCB-QfhXSQujFb57jWY5BGNEjE/view?usp=sharing) 
-    * [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1Y5LFBKhAOZIphBGWkWwTu8CjxriGFdX3/view?usp=sharing)
-    * [Plan Summary](https://drive.google.com/file/d/16oOz0XJBstGRkITeAV72HRromN-pie9g/view?usp=sharing)
-    * [Plan Summary (CA residents only)](https://drive.google.com/file/d/1C2CZ6vhzvoBme5RXDoFuwvuVTdOSf9_R/view?usp=sharing)
-* UnitedHealthcare PPO 250
-    * [Summary of Benefits and Coverage](https://drive.google.com/file/d/1JOflsdETk4vYPXbyA4n3OCYCyDaqIzhl/view?usp=sharing)
-    * [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1YjJXsBMCaWTmgyV6-j6rUW4fMVgsJke2/view?usp=sharing)
-    * [Plan Summary](https://drive.google.com/file/d/1e9ZyHiSBVaClkwLvUD6-z0XYK_Wr-U72/view?usp=sharing)
-    * [Plan Summary (CA residents only)](https://drive.google.com/file/d/1kyuNDecETI1q56sO8Eu3eSu5-r5JQqF7/view?usp=sharing)
-* UnitedHealthcare HSA 1600
-    * [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GmqBplSUYO8G7jTWOz0-s6jpcXz9urpc/view?usp=sharing)
-    * [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1KXhmkW4wM3SlQ2oETVHtAFr6IHHidQtC/view?usp=sharing)
-    * [Plan Summary](https://drive.google.com/file/d/1BxY6Q5wOBACVDbkiYChXeP_1LhUf7m97/view?usp=sharing)
-    * [Plan Summary (CA residents only)](https://drive.google.com/file/d/19o8HwwUQIcLPsAvuC9EZlI4OF2civvdA/view?usp=sharing)
-* Kaiser HMO (CA based teammates only)
-    * [Summary of Benefits and Coverage](https://drive.google.com/file/d/1IZI6NY7wbJ-dDWz4ZLWStQEEE5Whe6IQ/view?usp=sharing)
-    * [Plan Summary](https://drive.google.com/file/d/1_DjR0kwVP2xFl3rNfxEl-FWcA_cjQlod/view?usp=sharing)
-* Kaiser HSA 3200 (CA based teammates only)
-    * [Summary of Benefits and Coverage](https://drive.google.com/file/d/1UGO6ADpakLsZ19yltgDJpjXaRfHnLDCq/view?usp=sharing)
-    * [Plan Summary](https://drive.google.com/file/d/1Q5ols_h3E-vXR0DrMby5RCbMSYnbohgp/view?usp=sharing)
+
+- UnitedHealthcare EPO
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/11ySZ0vBCB-QfhXSQujFb57jWY5BGNEjE/view?usp=sharing)
+  - [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1Y5LFBKhAOZIphBGWkWwTu8CjxriGFdX3/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/16oOz0XJBstGRkITeAV72HRromN-pie9g/view?usp=sharing)
+  - [Plan Summary (CA residents only)](https://drive.google.com/file/d/1C2CZ6vhzvoBme5RXDoFuwvuVTdOSf9_R/view?usp=sharing)
+- UnitedHealthcare PPO 250
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1JOflsdETk4vYPXbyA4n3OCYCyDaqIzhl/view?usp=sharing)
+  - [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1YjJXsBMCaWTmgyV6-j6rUW4fMVgsJke2/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/1e9ZyHiSBVaClkwLvUD6-z0XYK_Wr-U72/view?usp=sharing)
+  - [Plan Summary (CA residents only)](https://drive.google.com/file/d/1kyuNDecETI1q56sO8Eu3eSu5-r5JQqF7/view?usp=sharing)
+- UnitedHealthcare HSA 1600
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GmqBplSUYO8G7jTWOz0-s6jpcXz9urpc/view?usp=sharing)
+  - [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1KXhmkW4wM3SlQ2oETVHtAFr6IHHidQtC/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/1BxY6Q5wOBACVDbkiYChXeP_1LhUf7m97/view?usp=sharing)
+  - [Plan Summary (CA residents only)](https://drive.google.com/file/d/19o8HwwUQIcLPsAvuC9EZlI4OF2civvdA/view?usp=sharing)
+- Kaiser HMO (CA based teammates only)
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1IZI6NY7wbJ-dDWz4ZLWStQEEE5Whe6IQ/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/1_DjR0kwVP2xFl3rNfxEl-FWcA_cjQlod/view?usp=sharing)
+- Kaiser HSA 3200 (CA based teammates only)
+  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1UGO6ADpakLsZ19yltgDJpjXaRfHnLDCq/view?usp=sharing)
+  - [Plan Summary](https://drive.google.com/file/d/1Q5ols_h3E-vXR0DrMby5RCbMSYnbohgp/view?usp=sharing)
 
 Dental: Cigna DPPO
-* [Summary of Benefits and Coverage](https://drive.google.com/file/d/1VgyRg314qhd6hCyDcNrcp_YYde4M1_F5/view?usp=sharing)
-* [Plan Summary](https://drive.google.com/file/d/10QpBtyZ-7-NYahqnlLm8QpMQ_dH69c0E/view?usp=sharing)
+
+- [Summary of Benefits and Coverage](https://drive.google.com/file/d/1VgyRg314qhd6hCyDcNrcp_YYde4M1_F5/view?usp=sharing)
+- [Plan Summary](https://drive.google.com/file/d/10QpBtyZ-7-NYahqnlLm8QpMQ_dH69c0E/view?usp=sharing)
 
 Vision: Equitable vision
-* [Plan Summary](https://drive.google.com/file/d/10QpBtyZ-7-NYahqnlLm8QpMQ_dH69c0E/view?usp=sharing)
+
+- [Plan Summary](https://drive.google.com/file/d/10QpBtyZ-7-NYahqnlLm8QpMQ_dH69c0E/view?usp=sharing)
 
 Life: Equitable Life Insurance
-* [Plan Summary](https://drive.google.com/file/d/1DQaBwcQ2vp9_sdSoSJLwbGwjA-bwOf9W/view?usp=sharing)
+
+- [Plan Summary](https://drive.google.com/file/d/1DQaBwcQ2vp9_sdSoSJLwbGwjA-bwOf9W/view?usp=sharing)
 
 **HSA, FSA, and Dependent Care FSA:**
-* HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](https://app.rippling.com/login?next=%2fdashboard%5D(https://app.rippling.com/login?next=%2Fdashboard)).
-* [HSA Overview and Eligibility](https://help.rippling.com/s/topic/0TO4o000000HsnmGAC/hsa-overview)
-* [FSA Overview and Eligibility](https://help.rippling.com/s/article/360056730253)
+
+- HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](<https://app.rippling.com/login?next=%2fdashboard%5D(https://app.rippling.com/login?next=%2Fdashboard)>).
+- [HSA Overview and Eligibility](https://help.rippling.com/s/topic/0TO4o000000HsnmGAC/hsa-overview)
+- [FSA Overview and Eligibility](https://help.rippling.com/s/article/360056730253)
 
 401K:
-- Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
 
+- Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
 
 ## **Benefits Support:**
 
