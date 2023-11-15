@@ -40,7 +40,6 @@ Primarily, the executive team and leaders from Operations, GTM, and Growth teams
 
 ## Example Use Cases:
 
-- Escalation engineering team leverages the report for challenging renewals.
 - Cloud team uses it to review cloud ARR updates.
 - Customer Support team reviewing version control for prioritizing upgrades.
 

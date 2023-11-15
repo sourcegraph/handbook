@@ -1,6 +1,6 @@
 # Engaging Other Teams
 
-Our goal as Customer Support is to need help from engineering no more than 10% of the time (not counting when we file defects). It's okay that we need help, and we will need help, and we also continually take what we learn each time we do back to the rest of the team (and our product documentation, as relevant).
+Our goal as Support Engineering is to need help from engineering no more than 10% of the time (not counting when we file defects). It's okay that we need help, and we will need help, and we also continually take what we learn each time we do back to the rest of the team (and our product documentation, as relevant).
 
 When we need help, we seek it consistently, following the steps outlined here. We created these steps to ensure we:
 
@@ -8,19 +8,19 @@ When we need help, we seek it consistently, following the steps outlined here. W
 - Exhaust our collective expertise
 - Minimize the time added to the customer experience whilst they wait for help
 
-With the introduction of the [escalation engineering rotation](../../../engineering/dev/process/escalation-engineer-rotation.md) Slack channel, we have the latitude to engage with engineering directly and get responses faster from engineering. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
+With the introduction of the go/whodoinotify. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
 
 1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into GitHub helps us suss out our performance as well as room for growth.
-2. To help reduce time to resolution for customer issues, we'd like to remain agile and make use of the #escalation-engineering channel to get eyes on it as soon as possible. If required, and for some of the issues that we judge that are related to a specific team input, we then use GitHub RFHs given that those would require a deeper subject matter level of attention.
+2. To help reduce time to resolution for customer issues, we'd like to remain agile and make use of go/whodoinotify to get eyes on it as soon as possible. If required, and for some of the issues that we judge that are related to a specific team input, we then use GitHub RFHs given that those would require a deeper subject matter level of attention.
 3. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the GitHub issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
 
-At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-engineering Slack channel is for.
+At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #discuss-engineering Slack channel is for.
 
-Any support engineer can use the #ask-engineering, #ask-implementation and #escalation-engineering Slack channels for anything they deem useful. These could be:
+Any support engineer can use the #discuss-engineering and #discuss-implementation and the proper channels in go/whodoinotify for anything they deem useful. These could be:
 
 - ...for your own curiosity as you are learning (a question you have)
 - ...as you work on a cross-functional project
-- ...maybe if you get curious after posting in #escalation-engineering or filing a GitHub issue and you have a tangentially related issue -- just say that when you post
+- ...maybe if you get curious after posting in #discuss-engineering or filing a GitHub issue and you have a tangentially related issue -- just say that when you post
 
 And now that this is all clear, here is our practice:
 
@@ -40,20 +40,20 @@ Never say "I need to ask engineering" or anything that can erode trust with the 
 
 If you don't need help and are filing a defect, you can skip this step.
 
-When you need help, post in our #customer-support-internal Slack channel first to see if anyone on our team is able to help you move forward. Always trust your assessment of the situation and move forward to engaging engineering based on the level of urgency/priority associated with the work.
+When you need help, post in our #team-support-engineering Slack channel first to see if anyone on our team is able to help you move forward. Always trust your assessment of the situation and move forward to engaging engineering based on the level of urgency/priority associated with the work.
 
 ## Step 3: Identify who can help you
 
-Primarily, we'd want to start asking for help in #escalation-engineering. If the issue is more team specific, we'd opt to create a GitHub issue and post in the relevant team's channel.
+Primarily, we'd want to start asking for help using go/whodoinotify. If the issue is more complex, we'd opt to create a GitHub issue and tag the relevant rotation pod in go/whodoinotify.
 
 A couple of notes before to help you get started in figuring out which team will be best to help:
 
-- In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Delivery, Repo Management, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
+- In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Source, Search, and Release teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
 - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging product + engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all. Also, for these features we're still figuring out how users expect them to work, so often "bugs" are informative to understand product or education gaps in the feature – you're helping the team by surfacing them directly).
 
-### Deployment
+### Infrastructure
 
-**Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`
+**Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`, `multi version upgrades`, `executors`
 
 Any questions about self-hosted deployment should be routed to the [Release team](../../../engineering/teams/release/index.md).
 
@@ -71,9 +71,9 @@ Any other questions about monitoring and performance for managed instance deploy
 
 ### Cody
 
-**Keywords**: `embeddings`, `LLMs`, `anthropic`, `openAI`
+**Keywords**: `embeddings`, `LLMs`, `anthropic`, `openAI`, `autocomplete`, `intellij`, `emacs`, `xcode`, `neovim`
 
-At the moment, Cody as a single entity exists as various products (Cody for web, Cody for VS Code, Cody App, etc...), and which issues go where is not cut and dry. For the time being, summarize your question in #ask-cody and they will send you in the right direction.
+At the moment, Cody as a single entity exists as various products (Cody for web, Cody for VS Code, Cody App, etc...), and which issues go where is not cut and dry. For the time being, summarize your question in #discuss-cody and they will send you in the right direction.
 
 ### Code host connections
 
@@ -98,17 +98,17 @@ Any questions about repository updating, indexing, or code host syncing should b
 
 **Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
-Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../../engineering/teams/code-intelligence/index.md).
+Any questions about code intelligence and navigation should be routed to the [Graph team](../../../engineering/teams/code-intelligence/index.md) in [#discuss-graph](https://sourcegraph.slack.com/archives/CHXHX7XAS).
 
 ### Search
 
 **Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`, `src search`
 
-The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud.
+The search team is divided into two sub-teams, search-platform(formerly search-core), and code-search(formerly search-product). Code-search is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-platform is focused on growing the global index on Sourcegraph Cloud.
 
-Any questions about search should be routed to the [Search team](../../../engineering/teams/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
+Any questions about search should be routed to the [Search team](../../../engineering/teams/search/index.md), via the [#discuss-code-search](https://sourcegraph.slack.com/archives/C05EA9KQUTA) and [#discuss-search-platform](https://sourcegraph.slack.com/archives/C05R619V4F8) slack channels. Teams should be flagged appropriately via @code-search-team or @search-platform-team. The search team will also assign a dedicated team member for support inquiries via the @search-platform-support and @search-product-support tags.
 
-In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively.
+In GitHub issues search-platform and code-search should be flagged via team/search-platform and team/code-search respectively.
 
 ### Browser extension and code host native integrations
 
@@ -153,9 +153,9 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 
 **Keywords**: `docs`, `documentation`, `sourcegraph.com`,
 
-The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each engineering team).
+The marketing team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each engineering team).
 
-If the docs site is unavilable, route to the [Content Platform team](../../../engineering/teams/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
+If the docs site is unavilable, route to the [Docs team](../../../engineering/teams/content-platform/index.md) via the [#docs](https://sourcegraph.slack.com/archives/C01DXLN3D0T) channel.
 
 For a more detailed breakdown of codebase ownership please see the [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) matrix
 
@@ -172,12 +172,12 @@ We maintain two issue trackers:
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
 
-- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
+- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the SE New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
 - Include name of the extension along with the extension version number when filing issues with extensions for the Code Exploration team.
 - Include customer quotes in markdown using a quote block. For example, `> quote goes here.`
-- Label it with `customer/$name` and `rfh (request for help from CS)`.
+- Label it with `customer/$name` and `rfh (request for help from SE)`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
 
 If it turns out to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information. It is okay to link any relevant private, customer specific issues. If not already linked to the relevant Zendesk tickets, do so.
@@ -186,8 +186,10 @@ If it turns out to be a general issue affecting multiple deployments, create an 
 
 Add a prioritization label to the GitHub issue based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
 
-- `cs/p1`: All customer reported issues per our contractual p1 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
-- `cs/p2`: All customer reported issues per our contractual p2 service level agreement definition [here](../index.md#our-service-level-agreements-slas), including all feature requests.
+- `se/p0`: All customer reported issues per our contractual p1 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
+- `se/p1`: All customer reported issues per our contractual p1 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
+- `se/p2`: All customer reported issues per our contractual p2 service level agreement definition [here](../index.md#our-service-level-agreements-slas), including all feature requests.
+- `se/p3`: All customer reported issues per our contractual p1 service level agreement definition [here](../index.md#our-service-level-agreements-slas).
 
 Selecting priority is more of an art than a science. Start with the issue and its severity and then move it up based on all relevant context (again, for example, are we in the sales process? does the customer have something happening that requires more immediate attention?)
 
@@ -195,13 +197,22 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 ### Requests for help (RFHs)
 
-After you post in #escalation-engineering or file a GitHub issue, keep it simple and always provide 1) a brief description of the issue you need help on, 2) link to the GitHub issue(if you chose this route), and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
+After you file a GitHub issue, keep it simple and always provide;
 
-- When posting in the Delivery team's Slack channel, use @delivery-support
-- When posting in Batcher Changes team's Slack channel, use @batchers-support
-- When posting for Repository Management, be sure to do so in the #ask-source channel and use @source-support
-- When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas
-- When posting for Search, use @search-core-support or @search-product-support ... depending which team within Search you need
+1.  a brief description of the issue you need help on,
+
+2.  a link to the GitHub issue(if you chose this route), and
+
+3.  the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
+
+- When posting in Release team's channel, [#discuss-release-ship](https://sourcegraph.slack.com/archives/C02E4HE42BX), use @release-team
+- When posting regarding a Batch Changes issue, post in [#discuss-code-search](https://sourcegraph.slack.com/archives/C05EA9KQUTA), use @batcher-support
+- When posting for Repository Management, be sure to do so in the [#discuss-source](https://sourcegraph.slack.com/archives/C05EMJM2SLR) channel and use @source-support
+- When posting for Cloud, be sure to do so in the [#discuss-cloud-ops](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel and use @cloud-support
+- When posting for [Search platform](https://sourcegraph.slack.com/archives/C05R619V4F8), use @search-platform-support
+- When posting for [Code Search](https://sourcegraph.slack.com/archives/C05EA9KQUTA), use @search-product-support
+- When posting for Code Intelligence/Code Navigation, be sure to do so in [#discuss-graph](https://sourcegraph.slack.com/archives/CHXHX7XAS), use @graph-support
+- When posting for Cody, post in [#discuss-cody](https://sourcegraph.slack.com/archives/C04MSD3DP5L)
 - Whenever we have more work than any one engineering team can handle via their support process, we prioritize issues holistically. We try to catch this before the engineering team has to alert us.
 
 ### How To Questions
@@ -230,7 +241,7 @@ And in some cases, the customer resolves the issue or you figure it out on your 
 
 **Keywords**: `subscription`, `license`, `key`, `renew`, `expire`, `contract`
 
-For any questions about contract renewal, the CE and [Sales](../../../sales/index.md) teams are responsible. Post in the #ce channel @ mentioning the assigned sales rep and CE.
+For any questions about contract renewal, the CE and [Sales](../../../sales/index.md) teams are responsible. Post in the [#discuss-ce](https://sourcegraph.slack.com/archives/CU93UDUBV) channel @ mentioning the assigned sales rep and CE.
 
 For any questions about license key extension, the CE team is responsible. See the [license key management documentation](../../ce/process/license_keys.md) for guidance.
 

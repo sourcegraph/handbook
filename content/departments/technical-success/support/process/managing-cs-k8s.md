@@ -41,7 +41,7 @@ We are currently deployed using this [deploy-sourcegraph-cse-kustomize](https://
 ```
 
 5. Merge the latest update from upstream to the release branch: `git checkout release`
-6. Choose which version you want to deploy from the [Sourcegraph release page](https://github.com/sourcegraph/deploy-sourcegraph-k8s/releases) then run: `git merge $NEW_VERSION`.
+6. Choose which version you want to deploy from the [Sourcegraph list of release tags](https://github.com/sourcegraph/deploy-sourcegraph-k8s/tags) then run: `git merge $NEW_VERSION`.
 7. After merging, you're likely to encounter some merge conflicts. Please resolve them(most of them require clicking on `Accept Incoming Change` - if you're using MS Studio as your code editor.
 8. You can then add and commit the changes by running `git add .` followed by `git commit -m "$YOUR_COMMIT_MESSAGE"`
 9. Build new manifests with Kustomize

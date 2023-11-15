@@ -8,6 +8,5 @@
 - [Licenses](licenses.md)
 - [Product documentation](product_documentation.md)
 - [Tracking issues](tracking_issues.md)
-- [Escalation Engineering Rotation](escalation-engineer-rotation.md)
 - [Pull-Request compliance and requirements](pullrequest-compliance.md)
 - [Contributor License Agreement](contributor-license-agreement.md)
