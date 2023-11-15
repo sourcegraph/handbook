@@ -429,7 +429,7 @@ precise_code_navigation_auto_indexing:
 
 batch_changes:
   title: Batch Changes
-  product_team: batch_changes
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/batch_changes
   use_cases:
@@ -455,7 +455,7 @@ batch_changes:
 
 server_side_batch_changes:
   title: Server-side batch changes
-  product_team: batch_changes
+  product_team: code_search
   maturity: beta
   documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
   deployment:
@@ -464,7 +464,7 @@ server_side_batch_changes:
 
 code_insights:
   title: Code Insights
-  product_team: code_insights
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_insights
   use_cases:
@@ -553,7 +553,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: code_exploration
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   compatibility:
@@ -648,7 +648,7 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: Pre-built Extensions
-  product_team: code_exploration
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
   compatibility:
@@ -667,7 +667,7 @@ prebuilt_extensions:
 
 custom_extensions:
   title: Custom Extensions
-  product_team: code_exploration
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
   compatibility:
