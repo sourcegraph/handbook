@@ -2,7 +2,7 @@
 
 literal_search:
   title: Literal Search
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
@@ -27,7 +27,7 @@ literal_search:
 
 regexp_search:
   title: Regular Expression Search
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
@@ -52,7 +52,7 @@ regexp_search:
 
 structural_search:
   title: Structural Search
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
@@ -77,7 +77,7 @@ structural_search:
 
 diff_commit_search:
   title: Diff/Commit Search
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
@@ -102,7 +102,7 @@ diff_commit_search:
 
 code_monitoring:
   title: Code Monitoring
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
@@ -125,7 +125,7 @@ code_monitoring:
 
 code_monitoring_email_notifications:
   title: Code Monitoring E-mail Notifications
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
@@ -148,7 +148,7 @@ code_monitoring_email_notifications:
 
 code_monitoring_webhooks:
   title: Code Monitoring Webhooks
-  product_team: search_product
+  product_team: code_search
   maturity: not_implemented
   use_cases:
     - code_health
@@ -157,7 +157,7 @@ code_monitoring_webhooks:
 
 saved_searches:
   title: Saved Searches
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
   use_cases:
@@ -178,7 +178,7 @@ saved_searches:
 
 search_contexts:
   title: Search Contexts
-  product_team: search_product
+  product_team: code_search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
   use_cases:

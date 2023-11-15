@@ -4,14 +4,6 @@ The following table documents the ownership of our product and tech stack.
 
 If you see an area that is missing, [figure out](../../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
-## [Batch Changes](../../teams/batch-changes/index.md)
-
-### General
-
-- Batch Changes
-- Executors
-- src-cli maintenance
-
 ### User journeys
 
 - View lists of batch changes globally, by organization, or by individual
@@ -38,39 +30,11 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - Production support and on-call of single-tenant managed instances
 - "Continuous delivery" and deployment tooling
 
-## [Code Insights](../../teams/code-insights/index.md)
-
-### General
-
-- Backend and frontend development of all code insights features
-- Code insights support
-- Chart libraries in the UI (visx)
-
-### User journeys
-
-- Discover code insights
-- Create insights through dashboard or search result
-- Add insight to a dashboard
-- Create and edit dashboards
-- Drill down insights
-- Edit, share, and delete insights
-- View insights
-- Filter insights by context or repo regex
-- Limited access mode/licensing gating features for code insights license tag
-- code insights graphql API to create/read/edit/delete insights and dashboards
-- File page hover tooltips
-
-### Repositories
-
-- sourcegraph/code-insights-scratch
-
 ### Container images
 
 - [sourcegraph/codeinsights-db](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/codeinsights-db)
 
 ## [Code Intelligence](../../teams/code-intelligence/index.md)
-
-## [Code Exploration](../../teams/code-exploration/index.md#ownership)
 
 ### General
 
@@ -316,18 +280,25 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - [sourcegraph/search-indexer](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/search-indexer)
 - [sourcegraph/searcher](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/searcher)
 
-## [Search Product](../../teams/search/product.md)
+## [Code Search](../../teams/code-search/index.md)
 
 ### General
 
-- Search queries and results
-- Diff/commit and structural search
-- Code monitoring
-- Saved searches
+- Search UX
+- [Batch Changes](./batch-changes/index.md)
+- [Code Insights](./code-insights/index.md)
+- Code Monitors
+- Code Exploration
+- Admin UX
+- [src-cli](https://github.com/sourcegraph/src-cli)
+- Browser Extensions
+- IDE extensions
+- Executors
 - Notebooks
 
 ### User journeys
 
+#### Search
 - Search using the search box
 - View recent search activity, community search activity, and saved searches
 - View progress of an executed search, results, and tips for no results
@@ -339,6 +310,32 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - Create, search, view, edit, update permissions, delete, copy, export, favorite, run, and manage blocks for notebooks
 - Add searches and files to the notepad and edit or delete added items
 - Create a notebook from notepad items.
+
+#### Batch Changes
+- View lists of batch changes globally, by organization, or by individual
+- Configure credentials for publishing changesets
+- Create, edit, and execute a batch spec
+- View active batch spec execution
+- Preview results of executing a batch spec
+- Preview a changeset diff from an executed batch diff
+- Set changesets to publish from the preview of a batch spec
+- Apply a batch spec
+- View the status, burndown chart, and previously executed specs of an open batch change
+- Perform a bulk operation on changeset for an open batch change
+- Close a batch change\* As an admin, configure and view webhooks for a code host connection, add a global access token to use with batch changes, view a list of all batch specs that have been executed.
+
+#### Code Insights
+- Discover code insights
+- Create insights through dashboard or search result
+- Add insight to a dashboard
+- Create and edit dashboards
+- Drill down insights
+- Edit, share, and delete insights
+- View insights
+- Filter insights by context or repo regex
+- Limited access mode/licensing gating features for code insights license tag
+- code insights graphql API to create/read/edit/delete insights and dashboards
+- File page hover tooltips
 
 ## [Security](../../../security/index.md)
 

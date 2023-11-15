@@ -61,6 +61,6 @@
 
 - [Approved assets](https://drive.google.com/drive/folders/15lb62hLLYM-mKEOrlg32bmSgIhNcvKFh?usp=sharing): GIFs, videos, and images that are externally shareable
 - [GTM Hub](gtm_hub.md): Go-to-market and positioning resources per our products
-- [Batch Changes positioning](../../engineering/teams/batch-changes/go-to-market/index.md)
+- [Batch Changes positioning](../../engineering/teams/code-search/batch-changes/go-to-market/index.md)
 - [Customer marketing](customer_marketing.md)
 - [Product Marketing & Product Manager collaboration](../../product/process/gtm/pm_and_pmm.md)

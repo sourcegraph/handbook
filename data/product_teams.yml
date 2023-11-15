@@ -1,14 +1,5 @@
 # yaml-language-server: $schema=../schema/product_teams.schema.json
 
-search_product:
-  title: Search Product
-  brief: The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results
-  strategy_link: /strategy-goals/strategy/search/product/index.md
-  pm: steve_yegge
-  em: erika_rice_scherpelz
-  issue_labels:
-    - team/search-product
-
 code_intelligence:
   title: Code Intelligence
   brief: Code intelligence provides features and services that help developers better understand and navigate code.
@@ -18,30 +9,13 @@ code_intelligence:
   issue_labels:
     - team/code-intelligence
 
-batch_changes:
-  title: Batch Changes
-  brief: Batch Changes is a tool to find code that needs to be changed and change it at scale by running code.
-  strategy_link: /strategy-goals/strategy/batch-changes/index.md
+code_search:
+  title: Code Search
+  brief: The Code Search team provides features built on top of search
   em: peter_guy
-  design: daniel_marques
+  design: taiyab_raja
   issue_labels:
-    - team/batchers
-
-code_insights:
-  title: Code Insights
-  brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
-  strategy_link: /strategy-goals/strategy/code-insights/index.md
-  em: peter_guy
-  issue_labels:
-    - team/code-insights
-
-code_exploration:
-  title: Code Exploration
-  brief: The code exploration team owns our code exploration UI and third-party integrations (including our IDE and browser extensions).
-  strategy_link: /strategy-goals/strategy/integrations/index.md
-  em: peter_guy
-  issue_labels:
-    - team/code-exploration
+    - code-search
 
 search_platform:
   title: Search Platform

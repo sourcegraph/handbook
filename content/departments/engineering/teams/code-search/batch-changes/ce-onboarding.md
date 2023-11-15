@@ -8,7 +8,7 @@ Welcome to Batch Changes! This page is primarily for new members of the CE team,
 
 ## Prerequisites
 
-General [CE onboarding](../../../technical-success/ce/onboarding/index.md)
+General [CE onboarding](../../../../technical-success/ce/onboarding/index.md)
 
 ## Part 1: Discover Batch Changes
 
