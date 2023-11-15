@@ -38,3 +38,17 @@ _If no teammates with site admin access are available, then notify the customer 
 <img width="394" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-forever-check.png">
 
 5. All data associated with that user has now been deleted!
+
+### How to delete previous tickets from a requester
+
+1. On Zendesk, search the user with the email address associated with the account and requesting deletion
+   You can also click their name on the deletion ticket they created.
+2. Select all tickets that are **not** the current request. We need to save their current request for legal reasons.
+
+<img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/select-tickets-action.png">
+
+3. Click on Edit X ticket(s) button
+
+4. Confirm the deletion
+
+<img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-tickets-action.png">
