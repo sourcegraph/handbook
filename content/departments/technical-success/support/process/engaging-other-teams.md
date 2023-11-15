@@ -86,7 +86,7 @@ Any questions about code host connections and repository syncing should be route
 - `CVS` should be routed to [Source](../../../engineering/teams/source/index.md)
 - `license enforcement/management` should be routed to [Source](../../../engineering/teams/source/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Code Exploration team](../../../engineering/teams/code-exploration/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Code Search team](../../../engineering/teams/code-search/index.md).
 
 ### Repository Management
 
@@ -147,7 +147,7 @@ Any questions about Identity and Access Management (IAM) and Administration Expe
 
 **Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
 
-Any questions about Code Insights should be routed to the [Code Insights Team](../../../engineering/teams/code-insights/index.md)
+Any questions about Code Insights should be routed to the [Code Search Team](../../../engineering/teams/code-search/index.md)
 
 ### Docs site availability
 

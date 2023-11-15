@@ -15,7 +15,7 @@ Come say hi in #discuss-code-search!
 Code Search is the owner of the following product areas:
 
 - Search UX
-- [Batch Changes](./batch-changes/index.md)
+- Batch Changes
 - [Code Insights](./code-insights/index.md)
 - Code Monitors
 - Code Exploration

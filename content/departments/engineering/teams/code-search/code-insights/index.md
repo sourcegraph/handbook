@@ -11,8 +11,7 @@
 
 ## Handbook Pages
 
-- [Processes](processes.md)
-- [Strategy, goals, and roadmap](../../../../strategy-goals/strategy/code-insights/index.md)
+- [Strategy, goals, and roadmap](../../../../../strategy-goals/strategy/code-insights/index.md)
 - [Code Insights go-to-market resources](go_to_market.md)
 - [(Internal) framework for thinking about success when we close new sales](https://docs.google.com/document/d/1xt_HmXIc7bd5ItINSZWIjpDvf1n_-GRVE1KDQS2qtcM/edit)
 - [Maintenance and handoff resources](maintenance-handoff.md)

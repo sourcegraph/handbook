@@ -285,8 +285,8 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 ### General
 
 - Search UX
-- [Batch Changes](./batch-changes/index.md)
-- [Code Insights](./code-insights/index.md)
+- Batch Changes
+- Code Insights
 - Code Monitors
 - Code Exploration
 - Admin UX
