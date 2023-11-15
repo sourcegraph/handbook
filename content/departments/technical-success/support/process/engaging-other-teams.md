@@ -8,15 +8,15 @@ When we need help, we seek it consistently, following the steps outlined here. W
 - Exhaust our collective expertise
 - Minimize the time added to the customer experience whilst they wait for help
 
-We have the latitude to engage with engineering directly and get responses from folks on the teams to move issues forward. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
+With the introduction of the go/whodoinotify. This is our primary go-to avenue to get help from our engineering teammates aside from filing GitHub issues. A few more reasons to help this make sense:
 
 1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into GitHub helps us suss out our performance as well as room for growth.
-2. To help reduce time to resolution for customer issues, we'd like to remain agile and make use of the teams' Slack channels to get eyes on issues as soon as possible. If required, and for some of the issues that we judge that are related to a specific team input, we then use GitHub RFHs given that those would require a deeper subject matter level of attention.
+2. To help reduce time to resolution for customer issues, we'd like to remain agile and make use of go/whodoinotify to get eyes on it as soon as possible. If required, and for some of the issues that we judge that are related to a specific team input, we then use GitHub RFHs given that those would require a deeper subject matter level of attention.
 3. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the GitHub issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
 
 At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #discuss-engineering Slack channel is for.
 
-Any support engineer can use the #discuss-engineering, #discuss-implementation and other engineering Slack channels for anything they deem useful. These could be:
+Any support engineer can use the #discuss-engineering and #discuss-implementation and the proper channels in go/whodoinotify for anything they deem useful. These could be:
 
 - ...for your own curiosity as you are learning (a question you have)
 - ...as you work on a cross-functional project
@@ -44,14 +44,14 @@ When you need help, post in our #team-support-engineering Slack channel first to
 
 ## Step 3: Identify who can help you
 
-Primarily, we'd want to start asking for help in a team's slack channel. If the issue is more team specific, we'd opt to create a GitHub issue and post in the relevant team's channel.
+Primarily, we'd want to start asking for help using go/whodoinotify. If the issue is more complex, we'd opt to create a GitHub issue and tag the relevant rotation pod in go/whodoinotify.
 
 A couple of notes before to help you get started in figuring out which team will be best to help:
 
-- In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Release, Source, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
+- In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Source, Search, and Release teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
 - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging product + engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all. Also, for these features we're still figuring out how users expect them to work, so often "bugs" are informative to understand product or education gaps in the feature – you're helping the team by surfacing them directly).
 
-### Deployment
+### Infrastructure
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`, `multi version upgrades`, `executors`
 
