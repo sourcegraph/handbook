@@ -94,6 +94,7 @@ HSA, FSA, and Dependent Care FSA:
 **What:** Open Enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a “qualified life event” - such as a marriage, or the birth of a child.
 
 **When:** Sourcegraph’s 2023 US Benefits open enrollment took place from <span style="text-decoration:underline;">2023-11-20</span> to <span style="text-decoration:underline;">2023-12-01</span>.
+
 - **Note:** If you start at Sourcegraph during open enrollment Rippling will walk you through new hire enrollment for 2023 benefits **and** open enrollment for 2024 benefits. If you start after 2023-12-01 Rippling will also walk you through **both** new hire enrollment and a special open enrollment window.
 
 **How:** To make changes to current benefit elections, or confirm existing elections, please follow instructions in your [Rippling](https://app.rippling.com/) account (use the taskbar on the left-hand side to navigate to the heart icon labeled “insurance and benefits.” From here, you should see the option to start your plan selections). Any plan changes, or confirmations, will become effective as of <span style="text-decoration:underline;">2024-01-01</span>.
