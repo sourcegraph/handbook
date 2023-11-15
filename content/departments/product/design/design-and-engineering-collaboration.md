@@ -36,4 +36,4 @@ Both parties are encouraged to contribute to all sides of the discussion. Design
 
 ## Design is what ships, not what is rendered in design software
 
-To ship the best software, Design and Engineering collaborate from the beginning of a project to its release. This collaboration starts with ideation to kick projects off on the strongest footing and finishes with comprehensive QA to provide multiple perspectives on the quality of the shipped product.
+The gap between what is envisioned and what the final release can be is often large. By maintaining strong collaboration and ownership from ideation through to the shared responsibility of QA, each discipline contributes to shipping design that delights our users. 
