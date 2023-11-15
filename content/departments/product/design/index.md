@@ -65,6 +65,7 @@ Product design at Sourcegraph is low-process and highly adaptive. Instead of des
 - [Evaluative research](./research/conducting-evaluative-research.md)
 - [Design and interaction guidelines](design-and-interaction-guidelines.md)
 - [Design collaboration and review](./design_collaboration_review/index.md)
+- [Collaboration with engineering](./design-and-engineering-collaboration.md)
 
 #### Toolkit
 
