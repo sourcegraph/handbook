@@ -43,7 +43,7 @@ You can submit a request to the research board on Github here (TO DO). Research 
 - Surveys (To Do)
 - User interviews (To Do)
 - Diary studies (To Do)
-- Usability testing (To Do)
+- [Usability testing](./usability-testing-how-to.md)
 - Tree testing (To Do)
 - Card sorting (To Do)
 
