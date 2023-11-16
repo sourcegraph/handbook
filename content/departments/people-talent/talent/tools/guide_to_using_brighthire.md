@@ -2,7 +2,7 @@
 
 ## What is BrightHire?
 
-Simply put, [BrightHire](https://brighthire.ai/) is our interview recording tool. It is a interview intelligence platform built on Zoom to help run structured, high-quality interviews that can be replayed, shared and analyzed.
+Simply put, [BrightHire](https://brighthire.ai/) is our interview recording tool. It is an interview intelligence platform built on Zoom to help run structured, high-quality interviews that can be replayed, shared and analyzed.
 
 BrightHire rides along in Zoom interviews with an interactive notepad. All you need is the Chrome extension and Zoom and you’re all set. It records and transcribes the interview, making it easy to give thorough feedback in Greenhouse. The platform supports our equal opportunity hiring efforts by ensuring we evaluate each candidate on their own words with consistent interview criteria.
 
