@@ -55,6 +55,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 1. Fill out the number of days the license should be valid for. Most typically this should match the end date of the contract itself.
 1. Fill in the appropriate license tags. For tags, see the [License Key Tags](#license-key-tags) section. Note that licenses for Cloud trial managed instance requests should inclue the `plg-trial` tag. Remember: Tags must be separated by commas. You can see a list of tags generated under the tags input. If a tag is not recognized, it will be red and a warning will appear.
 1. Click **Generate license**.
+1. Map the license key to the Salesforce instance for usage data tracking following [these directions](https://docs.google.com/document/d/12W85VTKLJg2Os74PWADxwOPfpMozB0mUm4Do6fN9dFs/edit?usp=sharing).
 1. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
 ## Handling renewals or upgrades

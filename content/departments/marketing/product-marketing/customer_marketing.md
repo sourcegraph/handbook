@@ -6,7 +6,7 @@ Customer marketing collaborates with marketing, sales, customer engineering, and
 
 ## Which customers can we publicly reference?
 
-We don't have permission to publicly reference all of our customers. A good rule of thumb is to only reference customers you see on the [about site](https://about.sourcegraph.com/). If you have questions about a specific customer, feel free to ask in #marketing.
+We don't have permission to publicly reference all of our customers. A good rule of thumb is to only reference customers you see on the [customer case study page](https://about.sourcegraph.com/case-studies). If you have questions about a specific customer, feel free to ask in #discuss-marketing.
 
 Keep in mind, this applies to personal posts on Twitter or LinkedIn.
 

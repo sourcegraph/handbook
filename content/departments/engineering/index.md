@@ -14,7 +14,7 @@ The Engineering department at Sourcegraph consists of:
   - [Code Insights](teams/code-insights/index.md)
   - [Code Exploration](teams/code-exploration/index.md)
   - [Code Intelligence](teams/code-intelligence/index.md)
-- [Ship](ship/index.md)
+- [Infrastructure](infrastructure/index.md)
   - [Cloud Operations](../../departments/cloud/index.md)
   - [Core Services](teams/core-services/index.md)
   - [Developer Infrastructure](teams/devinfra/index.md)
@@ -30,19 +30,20 @@ The Engineering department at Sourcegraph consists of:
 ## Slack channels
 
 - #team-engineering
-- #eng-announce
-- #eng-leads
-- #ask-engineering
+- #announce-engineering
+- #discuss-engineering
 - #buildkite-main
-- #dev-chat
-- #dev-urandom
+- #chat-dev
+- #chat-dev-urandom
 
 ## Processes
 
 - [Product Planning Process](product-planning.md)
+- [Collaborating with Design](../product/design/design-and-engineering-collaboration.md)
 - [Submitting a bug report](submitting-a-bug-report.md)
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)
+- [Bi-Weekly Status Updates](bi-weekly-updates.md)
 
 ## What's in a feature?
 

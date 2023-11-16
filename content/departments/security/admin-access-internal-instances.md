@@ -2,27 +2,54 @@
 
 Site-admin access to internal instances (dotcom, s2, rctest, demo, k8s) is provided through an auto-approved Entitle workflow. It will create a short-lived admin account that lasts 1h. Removing long-lived admin accounts largely reduces the risk of compromised credentials across our instances.
 
+> [!NOTE]
+> This is currently deployed only in the dotcom instance. Other instances are unchanged for the moment.
+
 ## How it works
 
-Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 1h with automatic approval.
+Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 12h with automatic approval.
 
 For sourcegraph.com use the following instructions (or substitute the URL and Entitle request for other instances)
 
-1. In Entitle request the `Dotcom site admin permission`
+1. In Entitle request the `Dotcom site admin permission`. You may do this using the `/access_request` Slack command or [this pre-filled request](https://app.entitle.io/request?targetType=resource&duration=3600&justification=PLEASE%20INCLUDE%20A%20JUSTIFICATION%20-%20SOC2%20AUDITORS%20CHECK%20THIS&integrationId=2a973813-5df5-4572-9982-0169d1deca3b&resourceId=ffe6f48e-45d5-456d-a476-07ab3d27163e&roleId=d3818374-f1ea-433b-aa1a-dacc9f07f996&grantMethodId=d3818374-f1ea-433b-aa1a-dacc9f07f996).
 2. Go to https://sourcegraph.com/sign-in?sourcegraph-operator
 3. Click on Other login methods
 4. Click on Continue with Sourcegraph Operators
 5. Authenticate with Okta
 
-[Here is a Loom video](https://www.loom.com/share/3664a109ab2c4914b3afd4d47bb8d7a8?sid=3cd5b0dc-988b-4ce3-b7f4-e36b983d9e06) demonstrating the process.
+[Here is a Loom video](https://www.loom.com/share/3664a109ab2c4914b3afd4d47bb8d7a8?sid=7627c7f5-984a-45cd-87c2-48c8633956af) demonstrating the process:
 
-_*Note*: we understand there may be uses for long-lived admin accounts, such as pulling metrics for automation. We have a mechanism to allow this. Please reach out in #discuss-security if needed._
+<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/3664a109ab2c4914b3afd4d47bb8d7a8?sid=f9d7dd52-3e55-448b-a61c-09279d2736ad" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<br>
+
+> [!NOTE]
+> We understand there may be uses for long-lived admin accounts, such as pulling metrics for automation. We have a mechanism to allow this. Please reach out in #discuss-security if needed.
+
+### Troubleshooting
+
+If you use your Sourcegraph email as a verified email in a dotcom account, you may see the following error:
+
+```
+The retrieved user account lifecycle has already expired, please re-authenticate.
+```
+
+If this is the case, do the following steps:
+
+1. Sign out of sourcegraph.com.
+2. [Sign in](https://sourcegraph.com/sign-in?returnTo=/search) using "Continue with Google".
+3. Sign out.
+4. Follow the steps in the `How it works` section
 
 ## FAQ
 
 - Q: What happens with my existing Sourcegraph accounts?
 
   - A: If your existing account is a site-admin, it will be demoted to regular user. No existing user accounts will be deleted.
+
+- Q: How can I use my regular account as a site-admin?
+
+  - A: Add your Sourcegraph email, matching Okta, as a verified email to your existing account. After requesting SOAP access it will be granted (and later removed) from your account.
 
 - Q: What happens with tokens created during the elevated privilege window?
 
@@ -35,6 +62,3 @@ _*Note*: we understand there may be uses for long-lived admin accounts, such as 
 - Q: How can I create a long-lived admin account for automation purposes?
 
   - A: For long-lived admin accounts needed for automation, reach out to in the #discuss-security channel.
-
-- Q: Can I request more than 1h of elevated privileges?
-  - A: Not at the time. If you have this need please reach out in #discuss-security to discuss your use case.

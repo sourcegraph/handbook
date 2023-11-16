@@ -32,7 +32,7 @@ One repository-related responsibility _not_ handled by gitserver is the scheduli
 
 ### Production instances
 
-There are currently [20 gitserver instances](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud@ec7effbc9491e3ee0c77c3d70ac3f2eb8cb34837/-/blob/base/frontend/sourcegraph-frontend.Deployment.yaml?L104-105) in production on Sourcegraph Cloud. This is a static list made available via the `SRC_GIT_SERVERS` environment variable.
+There are currently [10 gitserver instances](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud@HEAD/-/blob/base/gitserver/gitserver.StatefulSet.yaml?L14) in production on sourcegraph.com.
 
 At the moment, we shard repositories across gitserver instances using a [modular hashing strategy](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/gitserver/client.go?L118-124) based on the repository name. This is the responsibility of the [gitserver client](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/gitserver/client.go).
 

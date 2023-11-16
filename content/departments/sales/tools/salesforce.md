@@ -191,7 +191,7 @@ SDR dedupes the lead to look for recent activity, open/recently closed opportuni
 
 If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- If not already completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
 - SDR schedules meeting with the Lead and the assigned AE.
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
@@ -204,7 +204,7 @@ If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use 
 
 If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- If not already completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
 - SDR schedules meeting with the Lead and the assigned AE.
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
@@ -409,7 +409,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 ### Leads to Accounts/Contacts/Opportunities
 
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
-  - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
+  - There are separate queues for Inbound 500+ employee Leads, Inbound <500 Employee Leads, and unassigned Outbound Leads. All Queues are Region-specific.
   - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
 - If a round-robin lead is assigned to an AE while they are on Parental Leave, the AE on leave will be designated as the Account Owner, and the covering AE will be assigned to the opportunity. The covering AE will be designated by the manager. Additional guidance regarding split/coverage during parental leave can be found [here](../../../benefits-pay-perks/benefits-perks/parental-leave.md#commission-payout-scenarios-for-account-executives).
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter

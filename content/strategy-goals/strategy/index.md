@@ -98,12 +98,27 @@ The kicker? Only 65% of devs say their company has a plan to address Big Code pr
 
 ### Market segmentation
 
-We segment our customers into 3 tiers, or segments, to help ensure we give the appropriate kind of support to each organization. Having a single market segmentation helps teams and processes across Sourcegraph stay consistent.
+Having a single market segmentation helps teams and processes across Sourcegraph stay consistent. Our market segments are determined by the total number of full-time engineers at a given company. We use the following definitions as a consistent and common language for referencing our target market internally. This data is based on LinkedIn Sales Insights data or data derived from the customer where appropriate.
 
-Our three customer segments are:
+#### FY24 Market Segmentation
+
+We segment our customers into 3 tiers or segments.
 
 | Customer Segment | Segment criteria                      |
 | ---------------- | ------------------------------------- |
-| Strategic        | 10k+ devs OR $1m+ ARR                 |
-| Enterprise       | 1.5k - 10k devs OR $100k - $1m ARR    |
 | Commercial       | 0 - 1.5k devs AND less than $100k ARR |
+| Enterprise       | 1.5k - 10k devs OR $100k - $1m ARR    |
+| Strategic        | 10k+ devs OR $1m+ ARR                 |
+
+#### FY25+ Market Segmentation
+
+As of FY25, our market segmentation will evolve to divide our customers into 4 tiers, or segments.
+
+Beginning in FY25, our four customer segments are:
+
+| <div style="width:215px">Customer Segment</div> | Segment criteria |
+| ----------------------------------------------- | ---------------- |
+| Small-to-Medium Biz (SMB)                       | 0 - 99 devs      |
+| Mid-Market (MM)                                 | 100 - 500 devs   |
+| Enterprise                                      | 501 - 2,500 devs |
+| Strategic                                       | 2,501+ devs      |

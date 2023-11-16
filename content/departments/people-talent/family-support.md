@@ -46,7 +46,7 @@ Maven is a digital family health platform that provides free, 24/7 access to spe
   - Wellness coaches
   - Career coaching
 
-3. **Easy expense management **
+3. **Easy expense management**
    Track and manage reimbursable expenses covered by our family support benefits up to $25,000 USD through Maven Wallet, an easy-to-use financial tool within the platform.
 
 4. **Unlimited, 24/7 virtual access to top-rated providers**
@@ -170,7 +170,7 @@ A: You will see the reimbursement on your paycheck within 30-days of the approve
 A: Please reach out to [People-Ops@sourcegraph.com](mailto:People-Ops@sourcegraph.com) and [payroll@sourcegraph.com](mailto:payroll@sourcegraph.com) as they each own a piece of the reimbursement process.
 
 **Q: How does my flexible saving account (FSA) work with Maven?**
-A: Maven is a health benefit in addition to your FSA. You must exhaust your yearly FSA funds prior to using the family support budget provided by Sourcegraph.
+A: Maven is a health benefit in addition to your FSA. You must exhaust your yearly FSA funds attached to a Sourcegraph insurance plan prior to using the family support budget provided by Sourcegraph. If your parnter has an FSA that is not Sourcegraph sponsored, meaning an FSA through their employer, they do not need to exhaust the FSA first.
 
 **Q: When should I or can I engage with Maven?**
 A: You can start working with Maven at any time through your reproductive or family journey. Starting with exploring family planning options all the way through aging hormone support.

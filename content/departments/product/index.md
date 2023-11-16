@@ -93,6 +93,7 @@ The product team is led by Chris Sells, our Head of Product (and temporary PM VS
 
 - Kevin Chen - Product Led Growth
 - Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
+- Chris Sells - Cody Context (interim PM)
 - Taylor Sperry - Cody Clients
 
 ### [Design](./design)
@@ -111,6 +112,7 @@ Learn more about the design team and their process in the [design team section o
   Designer (he/him)
 - [Daniel Marques](../../team/index.md#daniel-marques) – Product
   Designer (he/him)
+- Taiyab Raja – Product Designer (he/him)
 
 ##### UX Research
 
@@ -126,9 +128,8 @@ Learn more about the design team and their process in the [design team section o
 
 #### TPM team members:
 
-- Ryan Phillips - TPM Manager
+- Chris Sells - TPM Manager
 - Kalan Chan
-- John Wesonga
 
 ## Expected Outputs
 
@@ -249,7 +250,8 @@ harsh or dismissive language with our customers, potential customers or random
 people in the street when you're representing Sourcegraph.
 
 Rule #3: **Don't mention our competitors by name publicly;** we don't want to
-give them the airtime.
+give them the airtime. There are good marketing reasons to explicity violate
+this policy, but that's a call to be made by our Chief Marketing Officier.
 
 Rule #4: Use kindness and respect when discussing competitors with our sales
 customers. **Dissing our competitors doesn't make them look bad, it makes us

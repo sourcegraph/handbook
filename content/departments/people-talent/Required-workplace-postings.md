@@ -6,7 +6,11 @@ If you ever have any questions or concerns, please reach out to the people team 
 
 ## Employment posters
 
-Coming soon
+Coming Jan 2024
+
+## **E-verify**
+
+- Please see our [E-verify page](e-verify.md) for required postings and information
 
 ## LCA postings
 

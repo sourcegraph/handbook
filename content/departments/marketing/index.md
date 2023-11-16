@@ -1,8 +1,11 @@
 # Marketing
 
 - Slack channel: #discuss-marketing
-- [Product Marketing](product-marketing/index.md): Product launches, product messaging and positioning, pricing and packaging, customer stories, Customer Advisory Board, and analyst relations. (#customer-advisory-board, #pricing, #release-post)
-- [Communications](comms/index.md): We communicate and amplify Sourcegraph's messages with external and internal audiences. Partner with us on building PR pitches, securing press coverage, communicting announcements and initatives internally with the Sourcegraph team, sharing content at the bi-weekly company meeting, and promoting content on Sourcegraph's social media accounts.
+- Teams
+  - [Product Marketing](product-marketing/index.md): Product launches, product messaging and positioning, pricing and packaging, customer stories, Customer Advisory Board, and analyst relations. (#customer-advisory-board, #pricing, #release-post)
+  - [Brand and Comms](comms/index.md): We communicate and amplify Sourcegraph's messages with external and internal audiences. Partner with us on building PR pitches, securing press coverage, communicting announcements and initatives internally with the Sourcegraph team, sharing content at the bi-weekly company meeting, and promoting content on Sourcegraph's social media accounts.
+  - [Developer Experience](): Build magical experiences for developers through high-quality content, docs, community engagement, and other avenues
+  - [Growth Marketing](): Generate demand for our products in the market through all relevant marketing channels, and build a data-driven engine
 - [Creative Ops](creative-ops.md)
 - [Messaging](process/messaging.md)
   - [Platform positioning](process/positioning.md)
@@ -11,9 +14,7 @@
   - [Value drivers](process/value-drivers.md)
 - [Product marketing](product-marketing/index.md)
   - [Marketing launch tiers](product-marketing/marketing_launch_tiers.md)
-  - [Product marketing hierarchy](product-marketing/product_marketing_hierarchy.md)
-  - [Release post process](product-marketing/release_post_process.md)
-  - [Customer marketing](product-marketing/customer_marketing.md)
+  - [Marketing launch activities](product-marketing/launch-activity-list.md)
 - [How to write a blog post](blog.md)
 - [Sending swag](swag.md)
 - [Brand Guidelines](../product/design/brand_guidelines/index.md)

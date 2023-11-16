@@ -43,8 +43,13 @@ Note: Our policy is that all teammates have a sourcegraph-managed laptop to perf
 
 ### Desk set up suggestions from teammates!
 
-- Carly - I highly recommend this [portable monitor!](https://www.amazon.com/gp/product/B097MZGZ2Y/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- MORE SUGGESTIONS COMING SOON!
+- [Portable monitor](https://www.amazon.com/gp/product/B097MZGZ2Y/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Highly recommend!
+- [Adjustable laptop stand](https://www.amazon.com/Adjustable-Laptop-Stand-Collaborative-inches-Silver/dp/B0C7HGVBQ9/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.7b599bd1-c2ba-4954-9ffa-e51d5c606c21%3Aamzn1.sym.7b599bd1-c2ba-4954-9ffa-e51d5c606c21&crid=7A83ON97M5VA&cv_ct_cx=home%2Boffice%2Bessentials&keywords=home%2Boffice%2Bessentials&pd_rd_i=B0C7HGVBQ9&pd_rd_r=918c7084-6a62-489a-a139-6e42dea9cf42&pd_rd_w=3PhsU&pd_rd_wg=obWKf&pf_rd_p=7b599bd1-c2ba-4954-9ffa-e51d5c606c21&pf_rd_r=6FCJM8WSN0BGSBKWQVTG&qid=1699388977&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=home%2Boffice%2Caps%2C136&sr=1-2-2b34d040-5c83-4b7f-ba01-15975dfb8828-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1)
+- [Dual monitor stand & organizer](https://www.amazon.com/Simple-Houseware-Monitor-Stand-Drawer/dp/B0CFF1GY46/ref=sr_1_10?crid=2JISBNGPMM5PU&keywords=dual%2Bmonitor%2Bstand%2Bfor%2Bdesk&qid=1699389367&sprefix=Dual%2Bmon%2Caps%2C130&sr=8-10&th=1)
+- [Flat extension and power outlet cord](https://www.amazon.com/Extension-Protector-Widely-Extender-Essentials/dp/B0BVZCLW3R/ref=sr_1_5?crid=UIIOJWX9KVU4&keywords=home%2Boffice%2Bessentials&qid=1699389698&sprefix=home%2Boff%2Caps%2C134&sr=8-5&th=1)
+- [Ergonomic wrist and mouse pad](https://www.amazon.com/Gimars-Memory-Keyboard-Support-Computer/dp/B01M11FLUJ/ref=sr_1_38?crid=2HP6KDBLGBOKS&keywords=desk%2Bwrist%2Bpad%2Band%2Bmouse%2Bpad&qid=1699389604&sprefix=desk%2Bwrist%2Bpad%2Band%2Bmouse%2Bpad%2Caps%2C135&sr=8-38&th=1)
+
+MORE SUGGESTIONS COMING! If you have a desk product you love, let us know in the #ask-people-team channel and we will add it to the list.
 
 ## Computers
 
@@ -57,8 +62,6 @@ Please see below how to get your computer and which specs to get depending on yo
 ### Full-time teammates
 
 Please place an order for your Sourcegraph computer immediately after signing your contract. You are responsible for ordering your laptop through [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase your laptop through our local partner in your country.
-
-**Teammates based outside of the US/Canada/UK**
 
 - For some countries, we do not have a local partner to order through yet. In this case, the Tech Ops team will reach out and request that you purchase and expense your own Sourcegraph computer. All computers should be purchased new and either through your local Apple store or a [preferred device enrollment resellers](https://support.apple.com/en-us/HT213322) (Tech Ops can provide you with our Apple Business Org ID). All MacBooks and AppleCare insurance are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses/index.md).
 - Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
@@ -75,32 +78,32 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 #### Technical Success team laptops:
 
-- Apple MacBook Pro - M2 Pro - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Pro - 36 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Product & Design team laptops:
 
-- Apple MacBook Pro - M2 Max - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 36 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Engineering team laptops:
 
-- Apple MacBook Pro - M2 Max - 64 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 64 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 #### Data & Analytics team laptops:
 
-- Apple MacBook Pro - M2 Max - 32 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 36 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 
 #### All other teams laptops:
 
-- Apple MacBook Pro - 14.2" M2 Pro - 16 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 14.2" M3 Pro - 18 GB RAM, 512 GB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
-- Apple MacBook Pro - 16.2" M2 Pro - 16 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 16.2" M3 Pro - 18 GB RAM, 512 GB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 

@@ -153,7 +153,7 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
 - Q: Is there any way to retroactively update/add working hours for previous days?
 
-  - A: Yes, you can manually update your hours through submitting change requests or going to “My Time” and changing your hours worked directly.
+  - A: Yes, you can manually update your hours by submitting change requests or going to “My Time” and changing your hours worked directly.
 
 - Q: Am I allowed to work any hours on Saturday or Sunday?
 
@@ -163,7 +163,7 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
   - A: Absolutely!
 
-- Q: Is it correct to think that most of the time we'll be logging 40 hour work weeks in Rippling?
+- Q: Is it correct to think that most of the time we'll be logging 40-hour work weeks in Rippling?
 
   - A: Yes, we anticipate a consistent 40 hours/week report unless your manager is aware you'll be working _less than_ 40 hours in a certain week and/or unless you have _overtime_ approved by your manager ahead of time.
 
@@ -176,7 +176,12 @@ In addition to each interns’ projects and responsibilities, there will be a sc
   - A: US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
 
 - Q: Do I clock hours into Rippling on PTO?
-  - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”
+  - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right-click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”
+
+#### Minor Travel Policy
+
+- [Supervisor Guidelines](https://docs.google.com/document/d/1dXziVsmJoDtTRE_ZzA-_EsJ6FYedn7heoH5mmS77ULw/edit#heading=h.93retcq8qou1)
+- [Minor Guidelines](https://docs.google.com/document/d/1-cpjqEmkSKURowXOiydrLd1WIUdp-KZzqucRQ7va4QM/edit)
 
 General FYI: **Sourcegraph is not able to give tax-related guidance.**
 

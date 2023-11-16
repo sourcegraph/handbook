@@ -4,7 +4,7 @@ Team rituals help maintain healthy communication, boundaries, and expectations b
 
 ## Asynchronous collaboration
 
-In order to stay in touch throughout the week and support each other, we share the following in our #customer-support-internal Slack channel...
+In order to stay in touch throughout the week and support each other, we share the following in our #team-support-engineering Slack channel...
 
 - **Weekly planning.** Every Monday we take some time to orient ourselves and then share with each other our intentions for the week.
 - **Daily captain's log.** Every day as we go about our days, we share things we learn/read/hear that are important for us to all know. Yes, we are all in the same channels, but a lot happens in Slack every day and this is how we collectively stay on top of things.
@@ -16,9 +16,7 @@ In order to stay in touch throughout the week and support each other, we share t
 In order to get some purposeful face-time in with each other, we convene synchronously over Zoom for...
 
 - **CS team [planning and retrospective](https://docs.google.com/document/d/1dy5rIY5F4nQoScwH9sTEg7iQd66_oVP5bdWD3MhG2k4/edit#)** where we consider what is going well vs not, discuss, brainstorm, and share important information; more details in on our [team meeting norms](../team/team-meeting-norms.md).
-- **Weekly social gathering** to gather and just chat as humans; more details in on our [team meeting norms](../team/team-meeting-norms.md).
 - [**Collaboration time**](../process/collaboration-time.md) to discuss cases that we need help with, things we've learned that we're excited about and would like to share with the team
-- **Weekly support donut pairing** is an auto pairing for those in the #customer-support-weekly-pairing channel to get paired together for a social chat.
 
 ## Communication
 
@@ -31,13 +29,13 @@ In order to maintain healthy communication, we...
 
 An occasional challenge of being async by default is there can be a lot to read in Slack. To ensure that we stay as informed as possible and set healthy boundaries around Slack, for the following channels we do the following
 
-- #customer-support: We stay attentive as this is where we collaborate with everyone outside of support. If there is a question/request, you have the agency to assist. We are a fully remote team and it is our responsibility to ensure our teammates feel supported.
+- #discuss-support-engineering: We stay attentive as this is where we collaborate with everyone outside of support. If there is a question/request, you have the agency to assist. We are a fully remote team and it is our responsibility to ensure our teammates feel supported.
   Leadership note: If there is a specific @cs-leadership mention an online member of the leadership team is expected to respond within 24 hours (this time frame is for each thread)
-- #customer-support-internal: We read EVERY single thread even those that are posted when we are not working within 24 hours of it being posted to stay aligned with our teammates and emoji react accordingly so we all have confirmation we are on the same page.
-- #announcements: We read every single thread by the end of each week to stay informed of what is happening more broadly across the entire organization.
-- #customer-support-triage: whoever is responsible pays close attention to that channel, as well as the manual triage channels, and actively asks for coverage if needing to be AFK.
-- #eng-announce: We read every single thread by the end of the week to stay informed of what is happening across the product/engineering organization.
-- #technical-customer-collaboration: Where customer-facing technical teams collaborate in support of customer questions and issues.
+- #team-support-engineering: We read EVERY single thread even those that are posted when we are not working within 24 hours of it being posted to stay aligned with our teammates and emoji react accordingly so we all have confirmation we are on the same page.
+- #announce-company: We read every single thread by the end of each week to stay informed of what is happening more broadly across the entire organization.
+- #announce-product: We read every single thread by the end of the week to stay informed of what is happening across the product.
+- #announce-engineering: We read every single thread by the end of the week to stay informed of what is happening across the engineering organization.
+- #wg-technical-customer-collaboration: Where customer-facing technical teams collaborate in support of customer questions and issues.
 
 ## Expectations
 

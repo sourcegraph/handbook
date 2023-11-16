@@ -12,9 +12,9 @@ The Talent Team is responsible for conducting reference checks and sharing the r
   - When the candidate fills out the form, their references' contact information will automatically be submitted to Greenhouse.
 - Once references are received, the Recruiter will send an email to schedule a reference check.
   - Note: Verbal references are preferred, however if time doesn’t permit, written references are also acceptable.
-- Recruiter will add the reference check responses as an attachment under the candidate's "details" tab in Greenhouse.
-  - A PDF download of the email or a screenshot of the reference's response will suffice
-- Once references are complete, Recruiter will share the results with the Hiring Manager using the Slack template.
+- Recruiter will take notes using the [reference check template](https://docs.google.com/document/d/1isACchClWxT98gKv9gXdjptCaEdnVgYvHDcoIuK4QoY/edit).
+- Once complete, the Recruiter will add the reference check responses as an attachment under the candidate's "details" tab in Greenhouse.
+- Recruiter will then share the results with the Hiring Manager using the Slack template.
 - Once positive references are confirmed and approved by the Hiring Manager, the Recruiter will proceed as normal to the [offer stage](extending_an_offer.md#offer-stage)
 
 ### Email template for references
@@ -31,15 +31,15 @@ Thanks so much in advance for taking the time! It’s greatly appreciated.
 
 Here are the questions we will cover:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- In what capacity did you work together?
+- `if manager` Did they have any direct reports?
+- What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you work with them again?
 
 Thank you again for taking the time to help us out with doing this reference.
 
@@ -53,15 +53,15 @@ Hi `reference name`, thanks for taking the time to chat with me about your exper
 
 Jumping into it:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- In what capacity did you work together?
+- `if manager` Did they have any direct reports?
+- What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you work with them again?
 
 ### Slack to Hiring Manager
 
@@ -80,15 +80,15 @@ Title & Company:
 Email:
 Phone Number:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- In what capacity did you work together?
+- `if manager` Did they have any direct reports?
+- What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you work with them again?
 
 **Reference #2**
 Name:
@@ -96,12 +96,12 @@ Title & Company:
 Email:
 Phone Number:
 
-- How long did you work with `candidate name`?
-- Did `candidate name` directly report to you?
-- Did `candidate name` have any direct reports?
-- What were `candidate name`'s core responsibilities?
+- How long did you work with them?
+- In what capacity did you work together?
+- `if manager` Did they have any direct reports?
+- What were their core responsibilities?
 - What were their biggest strengths they brought to the role, or to the company as a whole?
 - What were some things they could have improved upon?
 - Did you speak to them about this? (If yes: did they show improvements?)
 - Can you think of an instance when they went above and beyond?
-- If given the opportunity, would you rehire `candidate name`?
+- If given the opportunity, would you work with them again?

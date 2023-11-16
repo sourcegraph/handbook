@@ -61,6 +61,10 @@ All AE’s who start after the current year plan start date (February 1st of eve
 
 The prorated quota is a calculation based on their OTI, Ramping period and the plan assigned to the AE. Once the 6 months has passed, they will them be measured against their plan quota (see above Plan Quota)
 
+### Transitioned Accounts
+
+Should an AE be assigned to an account with an existing opportunity due to the prior AE exiting the business, the new AE shall be eligible to receive full commissions and attainment associated with the new opportunity. For opportunities assigned to an AE based on parental leave, please refer to the company's parental leave policy
+
 ## Customer Engineers
 
 ### Plan Quota

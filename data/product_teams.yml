@@ -78,7 +78,7 @@ ship_release:
   title: Releases
   brief: TBD
   strategy_link: /strategy-goals/strategy/release/index.md
-  em: interim_ship_release
+  em: interim_infra_release
   tl: jacob_pleiness
   issue_labels:
     - team/release
@@ -87,22 +87,22 @@ ship_devinfra:
   title: Developer Infrastructure
   brief: TBD
   strategy_link: /strategy-goals/strategy/devinfra
-  em: interim_ship_devinfra
+  em: interim_infra_devinfra
   tl: jh_chabran
   issue_labels:
     - team/devinfra
 
 ship_cloudops:
   title: Cloud Operations
-  em: interim_ship_cloudops
+  em: interim_infra_cloudops
   tl: rafal_gajdulewicz
   issue_labels:
     - team/cloud
 
 ship_core_services:
   title: Core Services
-  em: interim_ship_core_services
-  tl: rafal_gajdulewicz
+  em: interim_infra_core_services
+  tl: robert_lin
   issue_labels:
     - team/core-services
 

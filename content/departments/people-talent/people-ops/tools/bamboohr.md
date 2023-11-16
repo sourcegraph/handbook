@@ -1,11 +1,5 @@
 # Internal BambooHR use
 
-TODO
-
-## Vendor management
-
-## Automation and workflow creation
-
 ## How to create a profile
 
 BambooHR profiles are created automatically when someone is marked as hired in Greenhouse via integration. However, here are the steps to create one manually:
@@ -66,7 +60,7 @@ These two sections must be completed by the teammate. Both sections have to be f
 
 - **Phone**: Completed by teammate
 - **Email**: Completed by People
-  - Work email: Manually entered by People team. This is the first step and one of the most importatn steps. It is integrated with Okta: Once we complete this field, Okta created the email in Google Workspace. _If this field is empty, no users will be created and we won't be able to give teammates access to any of the tools they need. Please follow the following convention: preferredName.preferredSurname@sourcegraph.com_
+  - Work email: Manually entered by People team. This is the first step and one of the most important steps. It is integrated with Okta: Once we complete this field, Okta created the email in Google Workspace. _If this field is empty, no users will be created and we won't be able to give teammates access to any of the tools they need. Please follow the following convention: preferredName.preferredSurname@sourcegraph.com_
   - Personal email: Integrated via Greenhouse. If not, manually entered by People team
 
 #### Social Links
@@ -243,7 +237,7 @@ Complete the following fields:
     - No PIP
   - No
     - PIP
-    - Any of these reasons [COMING SOON]
+    - Any of these reasons: Misconduct, Gross misconduct, PIP-related Opt Out, Performance (Coaching/Unsuccessful PIP)
 
 Under Employment Status, complete:
 
@@ -262,19 +256,33 @@ If someone has signed their contract but will not be starting after all, we need
 
 Keep in mind that the start date will be after the rescinding of the offer, therefore the start date will override the rescinding date. We will need to delete the start date entry.
 
-## Integrations
-
-Fields access to other tools (lattice)
-
-## Permissions
-
 ## Approving changes
 
-Personal information
-Role/Compensation/Promotion/Spot Bonus
+There are many types of change requests that can be made in Bamboo
 
-## Reports for Management (setup)
+- Personal information
+- Role/Compensation/Cost Center
+- Promotion/Spot Bonus
+- Department/Division
+- Manager
+- etc
 
-## Data audit and hygeine
+The standard approval process:
 
-## General reporting for partners/customers
+1. Head of Department
+2. Finance
+3. People Team
+
+Tech Ops needs to be included when Departments or Divisions change, so they can ensure teammates don’t lose access to any systems/historical data at the wrong time. Here is how we process this:
+
+**Step 1:** People Ops sees a department and/or division change request come through Bamboo
+
+**Step 2:** People Ops triggers the Department/Division change workflow in Process St
+
+**Step 3:** People Ops fills out the necessary Teammate information
+
+**Step 4:** Tech Ops completes all necessary tasks on their end and marks their Process St task as complete. This triggers a slack message to the #wg-bamboo-org-updates channel.
+
+**Step 5:** People Ops gives final approval in Bamboo and closes out the Process St checklist.
+
+Payroll must be included when cost centers change. We ensure this by sending a slack message in #wg-benefits-payroll. Payroll is also included in the Bamboo approval chain when a change request is submitted.

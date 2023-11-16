@@ -9,7 +9,7 @@ To provide greater clarity of the progress of our Engineering, we will start cre
    > "_Eng-only/infrastructure projects_
    >
    > First up, we have budgeted for infra work.
-   > Through this planning we have basically preserved the Ship org and let Nelson define its shape.
+   > Through this planning we have basically preserved the Infrastructure org and let Nelson define its shape.
    > And we’ve also budgeted for some pure-infra projects (i.e. sponsored by Eng),
    > things like rate limiters and finishing gRPC, which you can see green-lit in the final list."
 
@@ -47,4 +47,4 @@ This is a first attempt to build the report. It's content and form are proposed 
 
 ## Also
 
-Remember to update your objectives in [Ship OKRs @ go/ship-okrs](http://go/ship-okrs).
+Remember to update your objectives in [Infrastructure OKRs @ go/infra-okrs](http://go/infra-okrs).

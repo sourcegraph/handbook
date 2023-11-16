@@ -166,7 +166,7 @@ Preparing for your first day back:
 
 ### Additional resources
 
-- Coming soon!
+- Our Leave Management System, Tilt, has a dedicated leave case manager for each leave. They can support you through your leave and present all relevant resources. If you need additional support or help, please reach out to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
 
 ### FAQ
 

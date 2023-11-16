@@ -103,12 +103,10 @@ All departments are likely to have some or all of the below universal interview 
 
 ## Values Interview
 
-Read more about our values interview [here](evaluating_values.md).
-
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
-- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
-- We will ask behavioral-based, open-ended questions directly related to our values. For example:
+- Details: this interview is focused entirely on our values and how your views and experiences align with them. Our values are key to our success as individuals and as a company, so please read more about them [here](../../../../company-info-and-process/values/index.md) prior to your interview.
+- You will be asked behavioral-based, open-ended questions directly related to each one of our four values. For example:
   - Tell us about a problem that you identified and then took the initiative to solve, even if it wasn't within your scope of work.
   - Tell us about a time where you proactively provided candid feedback to a colleague, manager or direct report.
 
@@ -317,7 +315,7 @@ Some questions to guide your brainstorming and the working session:
 
 1. What are your ideas and plans for improving the team and our ability to positively impact the business and our prospective and current customers?
 2. What gaps exist in our current process? What are the greatest opportunities for improvement? How might you address those?
-3. What would you need from your direct peer, Gronk (CE RD EMEA), your team leads, Alex and Dan, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering?
+3. What would you need from your direct peer, your team leads, and your cross-functional peers in Sales, Support, Post-Sales, and Engineering?
 
 **Background information**
 
@@ -577,6 +575,17 @@ As our new Senior People Ops Generalist, you will be building processes and prog
 
 ### Product Manager
 
+#### Team Collaboration / Resume Deep Dive
+
+- Interviewer(s): A member of the team for which you're interviewing
+- Duration: 60 minutes
+- Details: A Sourcegraph teammate will ask experience and behavioral based questions about your skills, values, and work history in order to gauge whether they're aligned with the requirements of the role. The goal of the interview is to:
+  1. Get an understanding of your technical depth and how you would contribute to and/or collaborate with our engineering team
+  2. Take a [deep dive](index.md#resume-deep-dive) into your background from past to present with the goal of uncovering the motivation behind your decision making, strengths, weaknesses, and accomplishments in past roles.
+  3. Get a high level understanding of how your views and experiences align with [our values](../../../../company-info-and-process/values/index.md).
+
+The interviewer will leave time at the end to answer any questions that you have. This stage is meant to be conversational and informative for both you and us.
+
 #### Async writing project
 
 - Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product/index.md) will review your PR-FAQ and discuss it with you in the next round of interviews.
@@ -624,13 +633,13 @@ Please send link to your Google doc using the link below when you are finished.
 
 #### Product Manager overview of past projects
 
-Please bring an overview of one or two past project(s) we can use to dig deep in to understand your thought process. This overview can be any format (PDF, Google Slides, written document with screenshots, etc) which helps you clearly outline the project. Ideally, this project...
+Please be prepared to share your screen and walk the panel through an overview of one or two past project(s) that they can use to dig deep in to understand your thought process. This overview can be any format (PDF, Google Slides, written document with screenshots, etc) which helps you clearly outline the project. Ideally, this project...
 
 - is something that you played a key role in from inception to delivery
 - had a number of iterations to get to the outcome
 - leverages data to make decisions along the way
 
-This interview will include a PM and designer from our team. They will use the hour to dig into the project info you prepared to understand how you think about running projects.
+The panel will include PMs, a designer, and our Head of Product. They will use the hour to dig into the project info you prepared to understand how you think about running projects.
 
 #### Product interview
 
@@ -689,6 +698,27 @@ As a reference point, we recently had a product launch in June (Sourcegraph 5.1)
 - [Cody 5.1 release video](https://youtu.be/o5eB8J2HvAk)
 
 Please don't go overboard on preparation, plans, or detail. A simple Google Doc outline is ideal, and we will use that to go through your ideas together. We intend this to be a casual back and forth conversation, not a formal presentation. Also, feel free to make any assumptions about the hypothetical product and include them in your document.
+
+### Technical Program Manager
+
+#### Project planning working session
+
+For the working session, we ask that you come prepared to share an overview of a project where you were given a vague set of requirements on a highly complex project. Things to consider/highlight:
+
+- How did you pull all of it together into a plan from start to finish?
+- Who did you need to get approved & buy-in from & how did you do that?
+- How was the project executed?
+- What are the results of the project ?
+- What did you learn from it?
+
+Please be prepared to share your screen and walk the panel through your presentation. This overview can be in any format (PDF, Google Slides, written document with screenshots, etc), which helps you clearly outline the project.
+
+Agenda:
+
+- 5 mins: Quick introductions
+- 20 mins: Candidate sharing screen & presenting project
+- 20 mins: Follow-up questions from the panel
+- 15 mins: Discussion & questions from candidate to panel
 
 ## Design
 

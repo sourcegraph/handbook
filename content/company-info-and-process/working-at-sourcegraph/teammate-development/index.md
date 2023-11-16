@@ -4,14 +4,14 @@ The purpose of this Handbook Page is to provide Managers and Teammates with the 
 
 ## **On this page:**
 
-- [What, why, and how we foster a high performance culture](#What-is-a-high-performance-culture?)
+- [What, why, and how we foster a high performance culture](#what-is-a-high-performance-culture?)
 - [Formal reviews](#formal-performance-impact-reviews)
-- [Continuous feedback](#Continuous-feedback)
-  - [Thanks/Praise feedback](#hanks/praise:)
-  - [General feedback](#General-feedback)
-  - [Regular 1:1s](#Regular-1:1s)
-  - [Growth & career development conversations](#Growth-&-career-development-conversations)
-- [Lattice support articles](#Lattice-support-articles)
+- [Continuous feedback](#continuous-feedback)
+  - [Thanks/Praise feedback](#thanks-and-praise)
+  - [General feedback](#general-feedback)
+  - [Regular 1:1s](#regular-11s)
+  - [Growth & career development conversations](#growth-and-career-development-conversations)
+- [Lattice support articles](#lattice-support-articles--sourcegraph-looms)
 - [Addressing underperformance](#addressing-underperformance)
 
 ## What is a high performance culture?
@@ -35,16 +35,16 @@ We foster a high performance culture by recruiting high performers, setting clea
 We expect Managers and Teammates to foster a high-performance culture and provide feedback in the following ways through Lattice:
 
 1. [Formal performance (impact) reviews](<#Formal-performance-(impact)-reviews>)
-2. [Continuous feedback](#Continuous-feedback)
+2. [Continuous feedback](#continuous-feedback)
    1. [Thanks/Praise feedback](#hanks/praise:)
-   2. [General feedback](#General-feedback)
-   3. [Regular 1:1s](#Regular-1:1s)
-   4. [Growth & career development conversations](#Growth-&-career-development-conversations)
-3. [Note to self](#Note-to-self)
+   2. [General feedback](#general-feedback)
+   3. [Regular 1:1s](#regular-1-1s)
+   4. [Growth & career development conversations](#growth-and-career-development-conversations)
+3. [Note to self](#note-to-self)
 
 In situations of underperformance, which may be identified during ongoing feedback or formal impact reviews, Managers should consult with their People Partner and follow [this guidance for addressing underperformance](addressing-underperformance.md).
 
-### **What tools we use to foster high performance culture :**
+### What tools we use to foster high performance culture
 
 We aim to always work smarter, not harder - Lattice’s feedback tools allow us to do this when it comes to performance reviews by also utilizing their general feedback, praise, and growth conversation tools.
 
@@ -58,7 +58,7 @@ We aim to always work smarter, not harder - Lattice’s feedback tools allow us 
   - There is a great feature where you can quickly toggle between past 1:1 agendas to ensure you’re following up on items and can pull examples for formal reviews.
 - **Growth & career development conversations:** We expect each teammate has a growth conversation _at least_ once a quarter. The template in Lattice provides a centralized place to store career goals and discussions. Similar to 1:1s the career conversations tool allows you to quickly toggle between past and preset conversations to track progress and pull examples/notes into formal reviews.
 
-#### Formal performance (impact) reviews
+#### Formal performance impact reviews
 
 At Sourcegraph, we have a formal performance (impact) review process that takes place **twice a year.**
 
@@ -69,14 +69,14 @@ The purpose of our semi-annual reviews, which take place via Lattice, is to gath
 
 Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 
-### **Continuous feedback**
+### Continuous feedback
 
 The purpose of continuous feedback is to promote a culture of feedback and high performing culture. We expect our all Teammates to provide ongoing feedback to Managers, their Teammates, and Peers. The following ways to provide feedback are staples to a continuous feedback and a high performing culture. Each will be discussed in detail further down the page.
 
-1. [Thanks/praise feedback](#Thanks/praise:)
-2. [General feedback](#General-feedback:)
+1. [Thanks/praise feedback](#Thanks and praise)
+2. [General feedback](#General-feedback)
 3. [Regular 1:1s](#Regular-1:1s)
-4. [Growth & career-development conversations](#Growth-&-career-development-conversations)
+4. [Growth & career-development conversations](#Growth-and-career-development-conversations)
 
 ### **Monthly Check-ins via Lattice**
 
@@ -90,11 +90,11 @@ We believe that regular feedback and self-reflection are crucial for individual 
 2. **What's not working well:** Recognize any challenges, obstacles, or areas where improvement is needed. Be specific and constructive in your feedback or self-assessment. Identifying problems is the first step toward solving them.
 3. **Feedback Sharing:** Reflect on the last time you provided feedback to your manager, peer, or direct report. Describe the feedback you gave and its impact. Effective communication is a two-way street.
 
-### **Thanks/praise:**
+### Thanks and praise
 
 At Sourcegraph, we love celebrating and recognizing the events happening in our Teammates’ lives! We celebrate on a day-to-day basis via our ‘[#thanks](https://sourcegraph.slack.com/archives/thanks)’ channel. Giving recognition to other Teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via Lattice to our [#thanks](https://sourcegraph.slack.com/archives/thanks) Slack channel.
 
-#### **Why is recognition important**
+#### Why is recognition important
 
 Employee recognition is important because it:
 
@@ -104,13 +104,13 @@ Employee recognition is important because it:
 - **Increases loyalty and commitment:** Teammates who feel valued and appreciated are more likely to be loyal and committed to their organization, which can help to improve retention rates.
 - **Improves performance:** Recognition can help to improve teammate performance by providing positive reinforcement and encouraging employees to continue working hard.
 
-#### **How do we use the #thanks channel?**
+#### How do we use the #thanks channel?
 
 Anyone at Sourcegraph can use Lattice to send a message to the #thanks channel. Both managers and Teammates are encouraged to use the channel regularly. The Lattice praise feature can be used any time you want to recognize and thank a teammate in the #thanks channel.
 
 You can also scroll through the #thanks Slack channel history to see recent examples.
 
-#### **How do we use Lattice Thanks/Praise to post in the #thanks channel?**
+#### How do we use Lattice Thanks/Praise to post in the #thanks channel?
 
 There are two main ways to share public Thanks/Praise for your peers or, if you’re a manager, teammate. Please see detailed instructions below and Loom trainings.
 
@@ -133,7 +133,7 @@ There are two main ways to share public Thanks/Praise for your peers or, if you�
    8. A text box will appear. Type your thanks/praise here.
    9. Press “share” and the thanks will be shared in the #thanks channel
 
-#### **What we expect from Teammates**
+#### What we expect from Teammates
 
 - We expect Teammates to give thanks to peers or leadership regularly
 - Examples of when to share thanks include, but are not limited to:
@@ -142,33 +142,33 @@ There are two main ways to share public Thanks/Praise for your peers or, if you�
   - Recognizing a teammate who displayed Sourcegraph’s values
   - Congratulating a teammate on a recent accomplishment
 
-#### **What we expect from managers**
+#### What we expect from managers
 
 - Managers are reminded to recognize one or more of their Teammates at a minimum on a monthly basis.
 - Managers are expected to give thanks/praise in real time - the sooner the better! (within 1-2 days at the latest)
 - Managers are expected to praise both publicly and privately, while only giving constructive feedback in private.
 - Manager can recognize individuals or their entire team
 
-#### **Best practices for using the #thanks channel**
+#### Best practices for using the #thanks channel
 
 - **Be direct.** Select the teammate(s) you’re recognizing in the Lattice Slack app.
 - **Focus on the positive.** Praise in public, criticize in private.
 - **Be specific with your praise.** What is the specific behavior you are praising? Praise genuine behaviors. You don’t have to wait for significant events to reinforce good work.
-- **Be Timely.** The sooner the praise is delivered, the more powerful.
-- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
+- **Be timely.** The sooner the praise is delivered, the more powerful.
+- **Be sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
 - **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It’s important to recognize people regularly, not just once in a while.
 - **What if I want to thank more than 1 person in a thanks post?** You have the ability to select multiple people when giving praise/thanks in Lattice.
   - Select the first person you want to thank once selected the dropdown will show “choose a colleague” again.
   - Select the next teammate you’d like to praise/thank.
   - Continue the process up to 10 Teammates for one message.
 
-### **General feedback:**
+### General feedback
 
 At Sourcegraph, we strive to foster a culture of continuously growing and high performance. Providing general feedback, in addition to praise, is one way to ensure we are growing as individuals, teams, and a company. General feedback should not always be taken as negative but a growth opportunity. Providing general feedback gives Teammates the opportunity to progress from doing good work to great work, grow their skills, and advance their careers.
 
 It’s important to always provide feedback in private, not publicly. Praise/thanks should be the only public type of feedback.
 
-#### **Why is general feedback important?**
+#### Why is general feedback important?
 
 **General feedback is important because it:**
 
@@ -177,11 +177,11 @@ It’s important to always provide feedback in private, not publicly. Praise/tha
 - **Creates career growth:** It can provide Teammates meeting or exceeding expectations the feedback to advance their career
 - **Builds a positive work culture:** It addresses behaviors or skills not aligning with expectations before it becomes a performance issue.
 
-#### **How do we use feedback?**
+#### How do we use feedback?
 
 Teammates and Managers are expected to share feedback regularly in a timely manner. The goal is to keep general feedback in private through the Lattice tool and [regular 1:1s.](#regular-1:1s). Lattice allows for quick, real-time feedback to be given in both directions (lateral, upwards, & down). The feedback can then be discussed in the next 1:1 or a specific meeting, if necessary.
 
-#### **What types of general feedback can I give in Lattice?**
+#### What types of general feedback can I give in Lattice?
 
 - **Peer feedback:** This is when a teammate gives someone on their team or a cross-functional team feedback around their work or behavior to help them improve their skills.
 - **Teammate to Manager:** This is where a teammate gives upward feedback to their leader
@@ -192,7 +192,7 @@ Lattice will give you the option of who you want to see the general feedback. As
 _ **Private** - This will only go to the teammate you have selected
 _ **Private + Manager** - This will go to the teammate you selected and their direct manager \* **Manager** - This will only go to the manager of the teammate you selected
 
-#### **How do we use Lattice to give feedback?**
+#### How do we use Lattice to give feedback?
 
 Lattice allows us to centralize general feedback and track updates. There are two main ways to share feedback through Lattice. Please see detailed instructions below and/or our Loom training.
 
@@ -223,27 +223,27 @@ Giving feedback is not to create or resolve conflict. If you are experiencing an
       - Private + Manager - This will go to the teammate you selected and their direct manager
       - Manager - This will only go to the manager of the teammate you selected
 
-#### **What we expect from Teammates**
+#### What we expect from Teammates
 
 - Follow the general feedback [best practices](#Best-practices-for-general-feedback:)
 - It’s important that managers receive feedback from their team. We expect Teammates to share specific and actionable feedback with their manager. Have examples of the behavior, work, process, or concern ready to share.
 - We expect Teammates to share feedback with their peers in a kind, direct, timely and thoughtful manner.
 - Ideally, Teammates share feedback with each other prior to looping in management unless the concern is large and/or egregious.
 
-#### **What we expect from managers**
+#### What we expect from managers
 
 - Follow the general feedback [best practices](#Best-practices-for-general-feedback:)
 - Direct communication & immediate feedback / coaching
 - **Understand career goals:** when Managers understand a Teammate’s career & development goals, they can help better coach them to get where they want to go.
 
-#### **Best practices for general feedback:**
+#### Best practices for general feedback
 
 - **Use the SBI method:** The [SBI method](https://www.mindtools.com/ay86376/the-situation-behavior-impact-feedback-tool) is explaining the situation, behavior, and impact it caused, followed by the desired change and expected impact due to the change.
   - Example: While working on our latest project you did not provide status updates on your work which caused me to feel stress around meeting our deadlines. When we work on future projects together, providing weekly status updates on your work will reduce stress and create a better working partnership.
 - **Be direct:** we expect Teammates to promote a culture of ongoing feedback - meaning direct, in-the-moment, immediate feedback… both positive everyday praise, as well as feedback on opportunities for growth.
 - **Be timely:** when something goes wrong or a teammate is not following through, we expect our Teammates to provide feedback early and often. If something occurs that warrants feedback, a conversation should take place immediately, and, where necessary leadership should be looped in.
 
-#### **How do we use Lattice to request feedback?**
+#### How do we use Lattice to request feedback?
 
 Lattice allows us to not only give, but request feedback. There are two main ways to request feedback through Lattice. Please see detailed instructions below and/or our Loom training.
 
@@ -273,13 +273,13 @@ Lattice allows us to not only give, but request feedback. There are two main way
       - Private + Manager - The feedback given will be seen by you & your manager
       - Manager Only - The feedback given will be seen only by your manager
 
-### **Regular 1:1s**
+### 1:1s
 
 By building positive, meaningful relationships and creating a truly supportive environment for Teammates, Managers directly influence Sourcegraph’s future success - and one of the most effective ways to achieve this is by committing to regular 1:1s. The exchange of both professional and personal information not only leads to a deeper connection, but also builds trust at pace and enables you, as a Manager, to better understand and empathize with your team.
 
 1:1s are a great tool to facilitate ongoing direct communication, engagement, and trust-building between Managers and their direct reports, and should happen weekly or bi-weekly. Regular 1:1s support discussions around performance, projects, roadblocks, feedback, expectations and growth.
 
-#### **How we use Lattice for 1:1s**
+#### How we use Lattice for 1:1s
 
 Managers have access to sync 1:1 meetings with Lattice templates. The templates are structured to drive productive 1:1 conversations. Managers and Teammates can add agenda items to the agenda in Lattice. Items stored in 1:1s can be referred back to for writing [formal reviews](#bookmark=id.3n9ipmul0vle).
 
@@ -287,7 +287,7 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 2. Adding to a 1:1 agenda ([loom link](https://www.loom.com/share/a3ac63cc85804f75898f696ef9bf3321))
 3. Managers setting up monthly “updates” for the team
 
-#### **What we expect from Teammates:**
+#### What we expect from Teammates
 
 - We expect Teammates to do the following for every 1:1
   - Come prepared to discuss recurring items
@@ -296,7 +296,7 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 - We expect Teammates to prioritize attending their 1:1s
 - We expect Teammates to provide manager constructive feedback through Lattice and discuss it in the next 1:1
 
-#### **What we expect from managers**
+#### What we expect from managers
 
 - In addition to immediate feedback, we expect Managers to have regular 1:1s with everyone on their team. This should happen weekly or bi-weekly at a minimum.
 - Managers should use Lattice 1:1 templates to prepare, host, and track each Teammates 1:1s
@@ -312,7 +312,7 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 - Utilize the “Update” feature to check-in on your team at least monthly.
   - Instructions on how to set up can be found [here](https://help.lattice.com/hc/en-us/articles/360061214093-Turn-on-Updates-for-your-Team)
 
-#### **Best practices for 1:1s:**
+#### Best practices for 1:1s
 
 - Add agenda items as they come up throughout the week
   - [How to loom video](https://www.loom.com/share/a3ac63cc85804f75898f696ef9bf3321)
@@ -327,9 +327,9 @@ Managers have access to sync 1:1 meetings with Lattice templates. The templates 
 - 1:1 should be scheduled for 30-45 min per week with the flexibility to shorten or add additional time based on the agenda
   - If agenda items remain be sure to schedule additional time to touch base in another meeting or a-sync the same week
 
-#### **Templates found in Lattice:**
+#### Templates found in Lattice:
 
-- **Weekly 1:1 **- Our standard 1:1 template
+- **Weekly 1:1** - Our standard 1:1 template
 - **Weekly 1:1: coaching** - A template with an emphasis on coaching areas
 - **Weekly 1:1: Focus on promotion** - A template of our standard 1:1 with emphasis on preparing for a promotion
 
@@ -339,22 +339,22 @@ The follow describes our expectations for how Managers champion a culture of con
 
 ![Direct Communication Expectations](https://user-images.githubusercontent.com/7228359/233812769-d5e9ef06-4a6e-4a98-bea0-05840f303f86.jpg)
 
-### **Growth & career-development conversations**
+### Growth and career development conversations
 
 Creating intentional time for forward-looking conversations helps Teammates explore their careers on their own terms, and engage with their Manager in identifying opportunities to grow, learn, and be curious within our own organization. Managers should designate at least one conversation per quarter that includes intentional focus time to discuss career growth.
 
-#### **How we use Lattice for career development:**
+#### How we use Lattice for career development
 
 Managers have access to growth templates in Lattice. The templates are designed to be initiated by Managers, and Teammates have the ability to add agenda items.
 
-#### **What we expect from Teammates:**
+#### What we expect from Teammates
 
 - To be open and honest about their career goals
 - Review and be familiar with their team’s career frameworks
 - Use their yearly professional development budget towards career goals
 - Seek guidance from your Manager and/or People Team if you need help formulating a career path or goals
 
-#### **What we expect from managers**:
+#### What we expect from managers
 
 - Host a 1:1 dedicated to career development and/or advancement at least quarterly
 - Setup a recurring career development template in Lattice for each of your direct reports
@@ -364,13 +364,13 @@ Managers have access to growth templates in Lattice. The templates are designed 
 - Work together to build short- and long-term goals to achieve their career goals
 - Work to understand what types of task, or projects you can get them involved in to contribute to their short-term career goals
 
-#### **Templates:**
+#### Templates
 
 Lattice has a **Career Growth Check-in** template to use for your quarterly career-development 1:1 with your Teammates. The goal is to focus on Teammates' short- and long-term career goals, or if the path is not clear, discover possible career paths together.
 
 Never hesitate to reach out to your People Partner if you have questions or need assistance discovering possible career paths.
 
-#### **Best practices for growth & career-development conversations: **
+#### Best practices for growth & career-development conversations:
 
 - Review your career goal monthly
 - Have a conversation with your manager at least once a quarter
@@ -379,11 +379,11 @@ Never hesitate to reach out to your People Partner if you have questions or need
 - Make long-term goals for the next 2-3 years
 - Be flexible with your career development goals and career aspirations as they may change over time
 
-### **Note to self**
+### Note to self
 
 This Lattice tool will help you track private notes you want added to formal performance reviews or a reminder for 1:1s.
 
-#### **Best practices for Teammates:**
+#### Best practices for Teammates:
 
 - [Loom](https://www.loom.com/share/523a110039774cabb05f2b1de361c743?sid=0a73502e-6963-4f56-8ec8-8b6e975a869e) on how to create a “note to self”
 - Create notes when:
@@ -391,7 +391,7 @@ This Lattice tool will help you track private notes you want added to formal per
   - A monthly reflection on work completed/accomplished over the last month
   - Feedback you want to remember to work on
 
-#### **Best practices for Managers:**
+#### Best practices for Managers:
 
 - Loom on how to create a “note to self”
 - This is a great way to collect small examples of positive interactions you have with teammates between review cycles
@@ -403,7 +403,7 @@ This Lattice tool will help you track private notes you want added to formal per
   - Teammate shows interest in expanding their role in certain area(s)
   - Teammate shows small areas of improvement you want to remember for reviews
 
-### **Lattice support articles & Sourcegraph looms**
+### Lattice support articles & Sourcegraph looms
 
 All Teammates:
 
@@ -417,11 +417,11 @@ Managers:
 - [Applying 1:1 templates to your direct report relationships](https://help.lattice.com/hc/en-us/articles/6575833238551-Apply-1-1-Company-Templates-to-your-Direct-Report-Relationship)
 - [How to navigate between 1:1s](https://help.lattice.com/hc/en-us/articles/1500001354801-How-to-Navigate-Between-1-1s)
 
-## **Addressing underperformance**
+## Addressing underperformance
 
 In situations of underperformance, which may be identified during ongoing feedback or formal impact reviews, Managers should consult with their People Partner and follow this guidance for addressing underperformance.
 
-The following are best practice intended to help both Managers and Teammates navigate performance concerns early on:
+The following are best practices intended to help both Managers and Teammates navigate performance concerns early on:
 
 Have difficult conversations early to avoid a lag in addressing performance concerns.
 
@@ -434,15 +434,15 @@ Be direct and have specific, concrete examples to share with the Teammate while 
 - Career frameworks across all roles at Sourcegraph are in development. If no career framework is in place for the role, align on expectations with your Manager.
 - Ensure the teammate is clear on expectations and has the resources necessary to successfully perform against stated expectations.
 
-## **OTHER HANDBOOK PAGES:**
+## Other handbook pages
 
-[How we celebrate Teammates HB page](../../../benefits-pay-perks/benefits-perks/celebrate.md)
+- [How we celebrate Teammates](../../../benefits-pay-perks/benefits-perks/celebrate.md)
 
-## **Regular thanks and recognition via our #thanks channel**
+## Regular thanks and recognition via our #thanks channel
 
 Giving recognition to other Teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via our [#thanks](https://sourcegraph.slack.com/archives/thanks) Slack channel.
 
-#### **When to use the #thanks channel**
+#### When to use the #thanks channel
 
 The #thanks channel can be used any time you want to recognize and thank a teammate. Some common examples include:
 
@@ -453,6 +453,6 @@ The #thanks channel can be used any time you want to recognize and thank a teamm
 
 You can also scroll through the #thanks Slack channel history to see recent examples.
 
-#### **How do we use this channel?**
+#### How do we use this channel?
 
 Anyone at Sourcegraph can send a message in the #thanks channel by [giving praise in Lattice](https://www.loom.com/share/11bd56c29ba846febf256f11b908e65f). Both managers and Teammates are encouraged to use the channel regularly. Managers are reminded to recognize one or more of their Teammates _at least_ on a monthly basis.

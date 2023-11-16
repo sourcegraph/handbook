@@ -34,3 +34,4 @@ To choose the right evaluative research method, you need to first identify your 
 | <ul><li>Evaluate a change to a feature and/or process</li><li>Evaluate how well a current design supports user’s goals</li></ul>                                                                                    | <ul><li>[Usability testing](./usability-testing-how-to.md)</li></ul> |
 | <ul><li>Understand how the current information architecture performs</li><li>Learn if the current labels make sense to users</li><li>Learn if users can find the information they need easily and quickly</li></ul> | <ul><li>Card sorting</li><li>Tree testing</li></ul>                  |
 | <ul><li>Verify that the first click a user makes on an interface is the intended starting point for a given workflow or a navigation element</li></ul>                                                              | <ul><li>First click testing</li></ul>                                |
+
