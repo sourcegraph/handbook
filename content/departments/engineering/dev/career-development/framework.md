@@ -4,12 +4,12 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-We have shared expectations for all engineers, regardless of level or role. On top of that we have additional levels showing how a teammate’s impact, scope, execution, and teamwork varies by level. 
+We have shared expectations for all engineers, regardless of level or role. On top of that we have additional levels showing how a teammate’s impact, scope, execution, and teamwork varies by level.
 
 - Impact: The tangible and positive difference made through one's contributions to the company’s mission.
-- Scope: The breadth and depth of one’s technical and non-technical expertise, including how one maps business goals to technical solutions. 
+- Scope: The breadth and depth of one’s technical and non-technical expertise, including how one maps business goals to technical solutions.
 - Execution: The ability to consistently and efficiently translate plans into outcomes.
-- Teamwork: The art of collaborating effectively with others, both within and outside the organization. 
+- Teamwork: The art of collaborating effectively with others, both within and outside the organization.
 
 Expectations for a level add to the expectations of earlier levels. In addition, we expect engineers at all levels to exhibit our values.
 
@@ -24,16 +24,20 @@ In order to make the level descriptions below a bit more tangible, we also have 
 You are eligible for promotion when your manager can demonstrate that you’ve had at least one quarter of high performance at your current level and at least one quarter consistently performing at the next level. This includes having demonstrated impact consistent with the next level. Technical growth alone is not sufficient for promotion. See our documentation on impact reviews for more about the promotion and compensation process.
 
 ## All Levels
+
 - Impact
+
   - Directly contributes to achieving the company’s strategic goals and long term success.
 
 - Scope
-  - Has high productivity and output, with frequent and meaningful commits. 
+
+  - Has high productivity and output, with frequent and meaningful commits.
   - Ships regularly.
   - Writes high-quality, well-tested, well-documented, maintainable code that aligns with the style and practices of the codebase.
-  - Writes high-quality documentation in order to solicit and receive the best feedback on proposals. 
+  - Writes high-quality documentation in order to solicit and receive the best feedback on proposals.
 
 - Exection
+
   - Seeks out work, rather than waiting for work.
   - Applies diligence through the entire software lifecycle: planning, coding, documenting, shipping, demoing, supporting, and improving your software over time.
   - Finds simple, correct solutions. Implements them in the expected time (or escalates early). Iterates as needed.
@@ -45,8 +49,9 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
   - Escalates early and efficiently when blocked, stuck, overloaded, or sees a better way to achieve our goals.
   - Does not gate-keep. Accelerates and unblocks colleagues.
   - Communicates thoughtfully and proactively to keep stakeholders informed and identify risks.
- 
+
 ## IC1
+
 - Impact: Delivers clearly defined projects of small to medium technical risk.
 
 - Scope: Primarily focuses on their team’s code. Utilizes general software engineering knowledge.
@@ -55,19 +60,19 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
 
 - Teamwork: Generally works with a handful of people, primarily engineers, PM, and design partners on their team.
 
-
 ## IC2
+
 - Impact: Clarifies project scope and delivers projects of medium to high technical risk.
 
 - Scope: Primarily focuses on their team’s code and architecture. Pulls on broader knowledge of Sourcegraph. Strong generalist skill set. Starting to develop some areas of expertise.
 
-- Exection: Identifies gaps in the overall project, not just the parts within their scope. 
+- Exection: Identifies gaps in the overall project, not just the parts within their scope.
 
 - Teamwork: Actively contributes to a collaborative and respectful team culture.
-Collaborates across teams, focused on their direct areas of work.
-
+  Collaborates across teams, focused on their direct areas of work.
 
 ## IC3
+
 - Impact: Delivers highly technical, open-ended, potentially ambiguously defined projects.
 
 - Scope: Often works on components outside their immediate domain. Demonstrates some specialized skill sets on top of their general knowledge.
@@ -79,33 +84,38 @@ Collaborates across teams, focused on their direct areas of work.
   - Gives feedback which influences the work of others.
   - Gathers input from customers and users to guide decisions.
 
-
 ## IC4
+
 - Impact: Deliver projects with high technical and organizational risk.
 
 - Scope:
-  - Recognizes overarching technical issues beyond their immediate domain and suggests solutions. 
+
+  - Recognizes overarching technical issues beyond their immediate domain and suggests solutions.
   - Goes into whatever codebase is needed to solve the problem.
 
 - Exection:
+
   - Clearly translate between engineering goals and business objectives.
   - Identifies, proposes, and implements solutions to fill the gaps between engineering efforts and goals.
 
 - Teamwork:
-  -  Influences the direction of the engineering organization.
+  - Influences the direction of the engineering organization.
   - Uplifts entire teams. Actively shapes the engineering team’s culture.
   - Helps others understand the company direction, detects misalignments, and provides missing context.
 
 ## IC5
-- Impact: Drives and delivers top-level company initiatives with only broad strategic guidance. 
+
+- Impact: Drives and delivers top-level company initiatives with only broad strategic guidance.
 
 - Scope:
+
   - Applies technical expertise to the company’s most challenging problems.
   - Influences the company’s overall technical direction.
   - Uses domain expertise to deliver important differentiators for the company.
-  - Provides solutions that are examples for others to follow. 
+  - Provides solutions that are examples for others to follow.
 
 - Exection:
+
   - Brings conviction about what problems we should solve.
   - Identifies and implements ways that engineering can help advance business goals.
   - Drives external alignment when it helps to advance our business goals.
@@ -114,7 +124,6 @@ Collaborates across teams, focused on their direct areas of work.
   - Expertise is recognized across the company. Actively shares insights, upleveling others.
   - Works with Engineering and Product leadership to ensure alignment between engineering and business goals.
   - Identifies the right project owners. Hands off projects without just dropping them in another team’s lap.
-
 
 ## Management Levels
 
