@@ -18,7 +18,6 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 ## Engineering
 
-- [Engineering career development](../../departments/engineering/dev/career-development/index.md)
 - [Engineering career development framework](../../departments/engineering/dev/career-development/framework.md)
 
 ## Product
