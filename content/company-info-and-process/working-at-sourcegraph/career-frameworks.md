@@ -8,12 +8,10 @@ Every department has created a framework for roles within their group. Each fram
 
 This page is maintained by our [Talent and People Team](../../departments/people-talent/index.md).
 
-## Customer Engineering & Support
+## Technical Success
 
-- **Customer Support**
-  - [Customer support career framework & levels](../../departments/technical-success/support/career-growth/cs-career-framework.md)
-- **Customer Engineering**
-  - [Customer engineering framework & levels](../../departments/technical-success/ce/career-growth/index.md)
+- [Customer support career framework & levels](../../departments/technical-success/support/career-growth/cs-career-framework.md)
+- [Customer engineering framework & levels](../../departments/technical-success/ce/career-growth/index.md)
 
 ## Engineering
 
