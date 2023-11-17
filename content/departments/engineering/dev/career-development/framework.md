@@ -11,7 +11,7 @@ We have shared expectations for all engineers, regardless of level or role. On t
 - Execution: The ability to consistently and efficiently translate plans into outcomes.
 - Teamwork: The art of collaborating effectively with others, both within and outside the organization.
 
-Expectations for a level add to the expectations of earlier levels. In addition, we expect engineers at all levels to exhibit our values.
+Expectations for a level add to the expectations of earlier levels. In addition, we expect engineers at all levels to exhibit our [values](./values.md).
 
 We expect every engineer to eventually reach at least level 3. It is the responsibility of your manager to track this, and to ensure that you are given the support and opportunities needed for career growth.
 
