@@ -33,7 +33,7 @@ To access Hone membership and classes, follow these steps:
 - **Participate actively**: Engage with instructors and peers during classes to maximize your learning experience.
 - **Share feedback:** After completing a class, provide feedback to help us continually improve and recommend classes to teammates via #chat-learning channel.
 - **Discuss with your manager:** Discuss your learning goals with your manager to ensure that Hone classes align with your professional development plan.
-- **Stay updated:** The People team will\*\* \*\*regularly share updates regarding upcoming classes - please join #chat-learning channel or reach out to #ask-people-team for recommendations.
+- **Stay updated:** The People team will regularly share updates regarding upcoming classes - please join #chat-learning channel or reach out to #ask-people-team for recommendations.
 
 If you have any questions or need assistance with Hone or other L&D resources, please don't hesitate to reach out to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) or #ask-people-team
 
