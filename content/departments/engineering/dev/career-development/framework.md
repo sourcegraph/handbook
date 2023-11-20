@@ -36,7 +36,7 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
   - Writes high-quality, well-tested, well-documented, maintainable code that aligns with the style and practices of the codebase.
   - Writes high-quality documentation in order to solicit and receive the best feedback on proposals.
 
-- Exection
+- Execution
 
   - Seeks out work, rather than waiting for work.
   - Applies diligence through the entire software lifecycle: planning, coding, documenting, shipping, demoing, supporting, and improving your software over time.
@@ -56,7 +56,7 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
 
 - Scope: Primarily focuses on their team’s code. Utilizes general software engineering knowledge.
 
-- Exection: Defines work scope and identifies gaps such as missing requirements within that scope.
+- Execution: Defines work scope and identifies gaps such as missing requirements within that scope.
 
 - Teamwork: Generally works with a handful of people, primarily engineers, PM, and design partners on their team.
 
@@ -66,7 +66,7 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
 
 - Scope: Primarily focuses on their team’s code and architecture. Pulls on broader knowledge of Sourcegraph. Strong generalist skill set. Starting to develop some areas of expertise.
 
-- Exection: Identifies gaps in the overall project, not just the parts within their scope.
+- Execution: Identifies gaps in the overall project, not just the parts within their scope.
 
 - Teamwork: Actively contributes to a collaborative and respectful team culture.
   Collaborates across teams, focused on their direct areas of work.
@@ -77,7 +77,7 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
 
 - Scope: Often works on components outside their immediate domain. Demonstrates some specialized skill sets on top of their general knowledge.
 
-- Exection: Identifies gaps in the product experience as well as engineering gaps. Identifies areas ripe for improvement.
+- Execution: Identifies gaps in the product experience as well as engineering gaps. Identifies areas ripe for improvement.
 
 - Teamwork:
   - Actively mentors junior team members.
@@ -93,7 +93,7 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
   - Recognizes overarching technical issues beyond their immediate domain and suggests solutions.
   - Goes into whatever codebase is needed to solve the problem.
 
-- Exection:
+- Execution:
 
   - Clearly translate between engineering goals and business objectives.
   - Identifies, proposes, and implements solutions to fill the gaps between engineering efforts and goals.
@@ -114,7 +114,7 @@ You are eligible for promotion when your manager can demonstrate that you’ve h
   - Uses domain expertise to deliver important differentiators for the company.
   - Provides solutions that are examples for others to follow.
 
-- Exection:
+- Execution:
 
   - Brings conviction about what problems we should solve.
   - Identifies and implements ways that engineering can help advance business goals.
