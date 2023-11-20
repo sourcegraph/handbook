@@ -91,7 +91,7 @@ HSA, FSA, and Dependent Care FSA:
 
 #### **2024 Open enrollment:**
 
-**What:** Open Enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a “qualified life event” - such as a marriage, or the birth of a child.
+**What:** Open Enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a “qualified life event” - such as a marriage, or the birth of a child. You can find a recording of our Open Enrollment Session [here](https://sequoiaconsulting.zoom.us/rec/play/BNQTGICUcqsIfjgDvVGMFkX_OTyRC32fJCsTzbNEnAMwJhklnmDF7gQDsEPpdjvY_HGCcE_6eYjR6YZ4.Q-LDyHze0pfXMudh?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fsequoiaconsulting.zoom.us%2Frec%2Fshare%2F080yjjFM2_M3BCFAU-L3575kb7jda6FrIbVJ9uj6NhF3C1kt-pwu4xtOVLq6iZOr.o8DQVS7yWBcb68s5).
 
 **When:** Sourcegraph’s 2023 US Benefits open enrollment took place from <span style="text-decoration:underline;">2023-11-20</span> to <span style="text-decoration:underline;">2023-12-01</span>.
 
@@ -101,7 +101,7 @@ HSA, FSA, and Dependent Care FSA:
 
 ## **2024 Benefit plans**
 
-US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
+US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Our Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
 
 Medical:
 
