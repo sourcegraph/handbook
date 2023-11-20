@@ -366,6 +366,64 @@ Time in Stage 4 (Trial)
 
 ### Enterprise Technical Advisor
 
+#### Technical Advisor Technical Assessment
+
+Technical Advisors at Sourcegraph must become experts with the product and how to extend its capabilities to help customers realize the value of their business goals. This technical assessment is designed to understand how you would leverage product functionality to improve adoption, prove value, and speak fluently to engineering audiences about code. 
+
+Understanding concepts like code migrations, updates, code antipatterns, and tech debt is important to discussing use cases with end-user developers.
+
+Your assignment is to help one of your customers through product questions and create a script to help inform their usage of Sourcegraph. Planet Express is a shipping logistics tech company with 1000 developers, with 250 of those developers coming from a recent acquisition.
+
+**Prompts 1 and 2 are required. Answer at least <span style="text-decoration:underline;">one</span> prompt from prompts 3, 4, and 5. \
+You are encouraged to use the following resources to answer the prompts:**
+
+1. [https://docs.sourcegraph.com/](https://docs.sourcegraph.com/)
+2. Sourcegraph Cody
+    1. [Cody for Web](https://docs.sourcegraph.com/cody/overview/cody-with-sourcegraph#cody-for-web)
+    2. [Download installers](https://docs.sourcegraph.com/cody/overview/app#installation)
+3. [https://sourcegraph.com/search](https://sourcegraph.com/search) 
+4. [https://docs.sourcegraph.com/api/graphql](https://docs.sourcegraph.com/api/graphql) 
+5. [Working with the SG GraphQL API](../../../technical-success/ta/team-culture/working-with-the-sourcegraph-graphql-api.md)
+
+**Prompt 1 - Sourcegraph Product - Dev use cases (required)**
+
+Sourcegraph helps devs with daily coding tasks. 
+
+* Provide examples of 3 different daily tasks a typical dev may perform.
+* How can Sourcegraph help increase their productivity with them? 
+    * Bonus: Provide examples of Sourcegraph search queries or Cody commands.
+
+**Prompt 2 - Sourcegraph Product - Features (required)**
+
+Planet Express is a customer in the dev tools space with an industry-leading Code AI Platform. They currently only use Sourcegraph Code Search and Batch Changes to increase the productivity of their developers with daily tasks.
+
+* What other product features of Sourcegraph could help a customer like Planet Express realize value from our Code AI Platform, and how? 
+* How would you pitch the features above to a customer champion of Planet to encourage adoption? We know that Planet Express devs and leaders are interested in: 
+    * Measuring how internal code frameworks are being used and adopted.
+    * Keeping track of compliance with best practices and coding standards.
+
+**Prompt 3 - Sourcegraph Product - Batch Changes (optional)**
+
+Good news, everyone!! Planet Express has acquired Sourcegraph to strengthen its position in the dev tool space. To prepare for our merger, we need to write a batch change that looks through all of Sourcegraph’s public repositories and updates any text references of "Sourcegraph" to "Planet Express".  
+
+* Provide a step-by-step explanation of how a developer would do this. Providing pseudo-code or code is a plus.
+
+**Prompt 4 - Coding Best Practices (optional)**
+
+* What are some common coding anti-patterns and vulnerabilities, and how could you use Sourcegraph to find them?
+* How would you set up [code monitoring](https://docs.sourcegraph.com/code_monitoring) to constantly check for such coding anti-patterns?
+
+**Prompt 5 - Using Sourcegraph's GraphQL API (optional)**
+
+How would you use the Sourcegraph GraphQL API to list the different coding languages used in the [sourcegraph/cody repo](https://github.com/sourcegraph/cody)? 
+
+* Explain what the Sourcegraph GraphQL API empowers developers to do.
+* Provide a step-by-step description of how you would use the [Sourcegraph API Console](https://sourcegraph.com/api/console) for this. 
+* Provide either:
+    * Pseudocode
+    * The GraphQL query that you used
+    * Link to the [Sourcegraph API Console](https://sourcegraph.com/api/console) with the pre-filed query and results. (example: [List all files in a repository](https://sourcegraph.com/api/console#%7B%22query%22%3A%22query%20ListFiles(%24repoName%3A%20String!)%20%7B%5Cn%20%20repository(name%3A%20%24repoName)%20%7B%5Cn%20%20%20%20commit(rev%3A%20%5C%22HEAD%5C%22)%20%7B%5Cn%20%20%20%20%20%20tree(path%3A%20%5C%22%5C%22%2C%20recursive%3A%20true)%20%7B%5Cn%20%20%20%20%20%20%20%20entries%20%7B%5Cn%20%20%20%20%20%20%20%20%20%20path%5Cn%20%20%20%20%20%20%20%20%20%20isDirectory%5Cn%20%20%20%20%20%20%20%20%20%20url%5Cn%20%20%20%20%20%20%20%20%7D%5Cn%20%20%20%20%20%20%7D%5Cn%20%20%20%20%7D%5Cn%20%20%7D%5Cn%7D%5Cn%22%2C%22variables%22%3A%22%7B%5C%22repoName%5C%22%3A%20%5C%22github.com%2Fgorilla%2Fmux%5C%22%7D%22%2C%22operationName%22%3A%22ListFiles%22%7D))
+
 #### Leadership Panel Interview
 
 The final formal interview step is an hour-long panel interview with leadership and a senior member of the team. This is a working session-style interview panel intended to help us understand how you’ll approach customer scenarios and demonstrate how you have handled those situations in the past.
