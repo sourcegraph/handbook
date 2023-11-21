@@ -68,6 +68,24 @@ To specify a Docker image tag other than the default, update the `service.yaml`:
 
 Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/pings?project=pings-prod-2f4f73edf1db) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
 
+#### Update the service resource allocations
+
+The following section in the [`service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/pings/service.yaml#L29-L35) defines the resource allocation for the Cloud Run service instances:
+
+```yaml
+environments:
+  - id: prod
+    instances:
+      resources:
+        cpu: 1 # Per-instance CPU
+        memory: 1Gi # Per-insatnce memory
+      scaling:
+        maxCount: 3 # Maximum count of instances
+        minCount: 1 # Minimum count of instances, setting to 1 can avoid cold start
+```
+
+Once updated, follow the [Modify deployment manifest](#modify-deployment-manifest) to apply the changes.
+
 ### Observability
 
 > [!NOTE]
