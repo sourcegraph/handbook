@@ -253,7 +253,7 @@ For the demo, use sourcegraph.com - it's our free open source version of our pro
 
 <span style="text-decoration:underline;">Team Size</span>:
 
-- Planet Express is a shipping logistics tech company with 1000 developers
+- Planet Express is a customer in the dev tools space with 1000 developers
 - 250 engineers came from a recent acquisition
 
 <span style="text-decoration:underline;">Tech Stack</span>:
@@ -372,7 +372,7 @@ Technical Advisors at Sourcegraph must become experts with the product and how t
 
 Understanding concepts like code migrations, updates, code antipatterns, and tech debt is important to discussing use cases with end-user developers.
 
-Your assignment is to help one of your customers through product questions and create a script to help inform their usage of Sourcegraph. Planet Express is a shipping logistics tech company with 1000 developers, with 250 of those developers coming from a recent acquisition.
+Our customer Planet Express is a customer in the dev tools space with 1000 developers, with 250 of those developers coming from a recent acquisition.
 
 **Prompts 1 and 2 are required. Answer at least <span style="text-decoration:underline;">one</span> prompt from prompts 3, 4, and 5. \
 You are encouraged to use the following resources to answer the prompts:**
