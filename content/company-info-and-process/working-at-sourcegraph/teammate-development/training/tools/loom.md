@@ -32,7 +32,7 @@ Please see our [Data Management Policy](../../../../policies/data-management-pol
 
 **Users**
 
-By default, everyone at Sourcegraph is provisioned as a viewer. This means you will be able to watch all Sourcegraph videos but you won’t be able to record. If you want to be a recorder, please reach out to[ #it-tech-ops ](https://sourcegraph.slack.com/archives/C01CSS3TC75)in Slack to request recording capabilities. Keep in mind that licenses are reviewed periodically and Creators who haven’t created content in 90 days will be downgraded to Viewers (users will not lose their content).
+By default, everyone at Sourcegraph is provisioned as a viewer. This means you will be able to watch all Sourcegraph videos but you won’t be able to record. If you want to be a recorder, you can launch the "Loom Creator Access" widget on the Okta dashboard. This will walk you through an automated approval flow, giving you creator access for a given amount of time. (After which you'll go back to a "viewer", but will not lose access to your videos.) Please reach out to [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) in Slack if you have any questions.
 
 **Videos**
 
