@@ -17,7 +17,7 @@ Sourcegraph deeply cares about our teammates' wellness and health. The people te
 1. There will be a weekly winner (11) for total distance walked/ran each week. The prizes will vary each week, but will be worth a minimum of $50 USD.
 2. There will be a grand prize winners for the total distance walked/run in the quarter
 
-**How:** Sign up through this [google form](https://docs.google.com/forms/d/e/1FAIpQLScaeHyNx4_k12yT1eZgFOI4KjIMx-6J2Ky9cACexLl7-dTTiw/viewform?usp=sf_link) by the 12th of November. You will use the same google link to submit your distance each week. Your submission must include a picture of one of the following:
+**How:** Submit this [form](https://docs.google.com/forms/d/e/1FAIpQLScaeHyNx4_k12yT1eZgFOI4KjIMx-6J2Ky9cACexLl7-dTTiw/viewform?usp=sf_link) weekly. Your submission must include a picture of one of the following:
 
 1. Screenshot of your completed distance per day. Dates of the week need to be present on the screen (apple watching, fitbit, etc.)
 2. Screenshot of your completed distance for the week. Dates need to be present on the screen/picture.
