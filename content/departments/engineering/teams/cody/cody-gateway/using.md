@@ -118,3 +118,16 @@ A full migration example:
 </td>
 </tr>
 </table>
+
+## Adjusting sourcegraph.com user quota
+
+> [!NOTE] This assumes you can get site-admin priviledges on sourcegraph.com - see [how](../../../../security/admin-access-internal-instances.md#how-it-works)
+
+If you want to adjust quota for yourself / someone else, and you have Site Admin priviledges on sourcegraph.com, do the following:
+
+1. Got to Quotas page for the user that you want to modify
+   1. Located in Settings -> Quotas (for yourself)
+   2. [User list](https://sourcegraph.com/site-admin/users) -> find the user you want to modify -> click on their username -> click Settings tab -> click Quotas
+2. Adjust the right quota - _Custom completions quota_ for Chat, _Custom code completions quota_ for code completions and Click save.
+
+Changes should be effective immediately (next Cody request).
