@@ -121,7 +121,7 @@ A full migration example:
 
 ## Adjusting sourcegraph.com user quota
 
-> [!NOTE] This assumes you can get site-admin priviledges on sourcegraph.com - see [how](https://handbook.sourcegraph.com/departments/security/admin-access-internal-instances/#how-it-works)
+> [!NOTE] This assumes you can get site-admin priviledges on sourcegraph.com - see [how](../../../../security/admin-access-internal-instances/.md#how-it-works)
 
 If you want to adjust quota for yourself / someone else, and you have Site Admin priviledges on sourcegraph.com, do the following:
 
