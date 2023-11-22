@@ -2,7 +2,7 @@
 
 ## "On Duty" Rotation
 
-We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout hte day. This means that in increments of 3 - 4 hour blocks two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, discord, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #customer-support-internal team channel.
+We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout the day. This means that in increments of 3 - 4 hour blocks two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #team-support-engineering team channel.
 
 ### What happens if you're going to be out of office
 
@@ -37,11 +37,10 @@ Our schedule is reflected in the working hours set in our calendars.
 | Noah        | 10am–6pm       | 15:00–23:00 | 7am-3pm       |
 | Rakesh      | 10:30am–6:30pm | 00:00–08:30 | 5:30pm–1:30am |
 | Stompy      | 1pm–9pm        | 10:00–18:00 | 2am–10am      |
-| Shawnteé    | 8am–4pm        | 14:00–22:00 | 6am–2pm       |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
 ## Adjusting your working hours schedule
 
-- **Ad-hoc adjustments** can be shared in the team Slack channel (#customer-support-internal) following the guidance written in our [rituals](../team-culture/index.md).
-- **Lasting adjustments** can be discussed in in the team Slack channel (#customer-support-internal) or weekly 1:1s with your direct manager.
+- **Ad-hoc adjustments** can be shared in the team Slack channel (#team-support-engineering) following the guidance written in our [rituals](../team-culture/index.md).
+- **Lasting adjustments** can be discussed in in the team Slack channel (#team-support-engineering) or weekly 1:1s with your direct manager.
