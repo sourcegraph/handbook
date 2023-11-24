@@ -7,7 +7,7 @@ This allows us to have an automated way to create tickets on Slack but keep our 
 
 **For AEs/CEs/TAs:**
 
-Please post in #ask-customer-support and tell us what channel Support Agent needs to be added in and that this is for trial support.
+Please post in [#discuss-support-engineering](https://sourcegraph.slack.com/archives/C01HW836940) and tell us what channel Support Agent needs to be added in and that this is for trial support.
 We will then confirm once its setup.
 
 **For Support Admins:**
@@ -40,7 +40,7 @@ Once this is done customers will be able to create ticket by reacting to a messa
 
 **For AEs/CEs/TAs:**
 
-Please post in #ask-customer-support and tell us what channel Support Agent needs to be added in.
+Please post in [#discuss-support-engineering](https://sourcegraph.slack.com/archives/C01HW836940) and tell us what channel Support Agent needs to be added in.
 We will then confirm once its setup.
 
 **For Support:**
