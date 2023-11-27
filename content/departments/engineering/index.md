@@ -6,14 +6,7 @@ The Engineering department at Sourcegraph consists of:
 
 ## Teams
 
-- Search
-  - [Search Core](teams/search/core.md)
-  - [Search Product](teams/search/product.md)
-- Graph
-  - [Batch Changes](teams/batch-changes/index.md)
-  - [Code Insights](teams/code-insights/index.md)
-  - [Code Exploration](teams/code-exploration/index.md)
-  - [Code Intelligence](teams/code-intelligence/index.md)
+- [Code Search](teams/code-search/index.md)
 - [Infrastructure](infrastructure/index.md)
   - [Cloud Operations](../../departments/cloud/index.md)
   - [Core Services](teams/core-services/index.md)

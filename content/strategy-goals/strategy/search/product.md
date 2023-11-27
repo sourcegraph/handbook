@@ -1,6 +1,6 @@
 # Search Product strategy
 
-This page outlines the strategy, and goals of the [Search Product team](../../../departments/engineering/teams/search/product.md) over the next year or so.
+This page outlines the strategy, and goals of search from the perspective of the [Code Search team](../../../departments/engineering/teams/code-search/index.md) over the next year or so.
 
 For context on the mission, vision and guiding principles of Search, see the top-level [search strategy](index.md) page.
 
