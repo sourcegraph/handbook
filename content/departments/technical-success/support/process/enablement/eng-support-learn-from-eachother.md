@@ -17,7 +17,7 @@ Some folks in engineering offer office hours and those can be useful for an supp
 
 ## Pairings
 
-Pairings are different from rotations in that they are usually ad-hoc in nature and there is an event that results in a pairing being useful. For example, [the events outlined by the Batch Changes team](../../../../engineering/teams/batch-changes/supporting-batch-changes.md#support-pairing) or working on a ticket together. This is very much a “I have something useful for you” or “I have a question for you” and the best step for all involved is to work closely together on it, pairing style. A pairing could also happen while support follows the protocol to [engage other teams](../engaging-other-teams.md). While that protocol is designed to foster our remote-first culture and allow for folks to work across timezone and asynchronously, the CS or engineering team member can always initiate the idea of pairing on an issue if the situation/issue seems like it would benefit from it.
+Pairings are different from rotations in that they are usually ad-hoc in nature and there is an event that results in a pairing being useful. This is very much a “I have something useful for you” or “I have a question for you” and the best step for all involved is to work closely together on it, pairing style. A pairing could also happen while support follows the protocol to [engage other teams](../engaging-other-teams.md). While that protocol is designed to foster our remote-first culture and allow for folks to work across timezone and asynchronously, the CS or engineering team member can always initiate the idea of pairing on an issue if the situation/issue seems like it would benefit from it.
 
 ## Team to team retros
 

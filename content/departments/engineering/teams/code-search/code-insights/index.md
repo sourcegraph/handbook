@@ -1,8 +1,4 @@
-# Code insights team
-
-The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
-
-<img src="https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/code_insights/screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" width="1141" height="391" style="width: 100%; height: auto" />
+# Code insights
 
 ## Quick Resources
 
@@ -15,15 +11,10 @@ The code insights team is responsible for building and delivering code insights 
 
 ## Handbook Pages
 
-- [Processes](processes.md)
-- [Strategy, goals, and roadmap](../../../../strategy-goals/strategy/code-insights/index.md)
+- [Strategy, goals, and roadmap](../../../../../strategy-goals/strategy/code-insights/index.md)
 - [Code Insights go-to-market resources](go_to_market.md)
 - [(Internal) framework for thinking about success when we close new sales](https://docs.google.com/document/d/1xt_HmXIc7bd5ItINSZWIjpDvf1n_-GRVE1KDQS2qtcM/edit)
 - [Maintenance and handoff resources](maintenance-handoff.md)
-
-## Members
-
-{{generator:product_team.code_insights}}
 
 ## Mission
 
@@ -59,20 +50,6 @@ We go beyond single-step code intelligence and search to connect the full cycle 
 Code insights is the first feature primarily built for non-search-based user personas (developers), instead focusing first on the needs of engineering directors and VPs.
 
 For more information about code insights, see the original [product document](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) or this [demo](https://www.youtube.com/watch?v=XqeRb6Mc4Co) of a code insights prototype. Anyone on the Sourcegraph team can create your own insight using the [quickstart guide](https://gist.github.com/Joelkw/f0582b164578aabc3ac936dee43f23e0), which is explicitly not in the Sourcegraph docs because code insights is undergoing rapid development and this setup will soon change.
-
-## Contact
-
-- #code-insights channel or @codeinsights in Slack.
-- @code-insights-support to ping the engineer on weekly support rotation.
-- [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
-- @sourcegraph/code-insights team on GitHub. We also have two specific GitHub groups to reduce notification spam from pull requests:
-  - @sourcegraph/code-insights-frontend for only the frontend engineers on the team
-  - @sourcegraph/code-insights-backend for only the backend engineers on the team
-- [Code Insights Events](https://calendar.google.com/calendar/u/0?cid=Y19kOWFyMHUzZ3BpbnVpNjRiMDRpNjc3bm1qY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
-  - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
-- code-insights-team@sourcegraph.com Google group for mentioning in Google Docs and calendar invites.
-- #code-insights-internal for team (non-product) related discussion
-- #code-insights-eng for higher bandwith communication typically amongst the engineering team / PM. This channel is separated out of #code-insights since this discussion can get quite noisy for the casual observer of #code-insights.
 
 ## Useful browser bookmarks ⭐️
 
