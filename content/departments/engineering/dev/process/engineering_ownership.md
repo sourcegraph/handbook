@@ -299,6 +299,7 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 ### User journeys
 
 #### Search
+
 - Search using the search box
 - View recent search activity, community search activity, and saved searches
 - View progress of an executed search, results, and tips for no results
@@ -312,6 +313,7 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - Create a notebook from notepad items.
 
 #### Batch Changes
+
 - View lists of batch changes globally, by organization, or by individual
 - Configure credentials for publishing changesets
 - Create, edit, and execute a batch spec
@@ -325,6 +327,7 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - Close a batch change\* As an admin, configure and view webhooks for a code host connection, add a global access token to use with batch changes, view a list of all batch specs that have been executed.
 
 #### Code Insights
+
 - Discover code insights
 - Create insights through dashboard or search result
 - Add insight to a dashboard
