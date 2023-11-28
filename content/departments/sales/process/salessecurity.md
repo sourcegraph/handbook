@@ -4,7 +4,7 @@
 
 The CE team should take the first pass on inbound questionnaires using our [Knowledge Base](https://app.safebase.io/knowledge).
 
-Once the first pass is done but questions remain open, please use the slaack workflow **"Ask security a question"** in the #discuss-security slack channel. (click the lightning bolt sign on the bottom left hand corner).
+Once the first pass is done but questions remain open, please use the slack workflow **"Request Security Support"** in the #discuss-security slack channel.
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/Slack-ask-security-a-question-workflow.png" width="450" height="500">
 
