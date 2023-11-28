@@ -56,7 +56,7 @@ We recommend setting a 5-10 min delay in your OpsGenie during your sleep hours. 
 
 Review your on-call logs and complete your hand-off notes in go/infra-on-call. Send a message in #team-infrastructure and tag the Incoming Engineer On-Call.
 
-## Glossry
+## Glossary
 
 ### Incoming Engineer On-Call
 
