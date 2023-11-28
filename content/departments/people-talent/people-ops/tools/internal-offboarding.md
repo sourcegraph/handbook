@@ -113,7 +113,7 @@ On the teammates' final working day, the People Ops team is responsible for:
   We send these agreements via the People-ops@sourcegraph.com Docusign account using the Severance Agreement Docusign template. Once the People Partner and the departing teammate have signed the agreement, Payroll is sent a cc copy.
 
 ##**Unemployment Claims**
-We respond to all unemployment claims that require action to be taken. The full internal people team process can be found [here](https://docs.google.com/document/d/1d1lfumDP0RKFxchc7kvMPMhyN4984d2KFYVSZIXzlEY/edit?usp=sharing). 
+We respond to all unemployment claims that require action to be taken. The full internal people team process can be found [here](https://docs.google.com/document/d/1d1lfumDP0RKFxchc7kvMPMhyN4984d2KFYVSZIXzlEY/edit?usp=sharing).
 
 ## Helfpful links
 
