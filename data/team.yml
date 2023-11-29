@@ -1588,9 +1588,9 @@ Marc_LeBlanc:
   email: marc.leblanc@sourcegraph.com
   github: marcleblanc2
   pronouns: he/him
-  role: Senior Support Engineer
-  reports_to: manager_support
-  location: Calgary, Alberta, Canada 🇨🇦
+  role: Senior Implementation Engineer
+  reports_to: dr_ce_ie
+  location: Istanbul, Turkey 🇹🇷
   links: '[LinkedIn](https://www.linkedin.com/in/leblancit/), [MarcPhoto.ca](https://marcphoto.ca/)'
   description: I rise to challenges with enthusiasm, a happy-to-help attitude, and a customer-service mindset. I am driven to make my positive contribution to the world, with high-level strategic vision, systems and design thinking, and hands-on-keyboard implementation. I was the service owner for the Code Search service and a Sourcegraph customer admin for two years before joining the company. My team and I implemented Sourcegraph from end to end, from discovering user issues with OpenGrok, finding Sourcegraph, implementing it, operating it, and contributing to it. I am also a photographer, adventure motorcyclist, and active volunteer.
 
