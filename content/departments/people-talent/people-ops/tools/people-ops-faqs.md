@@ -84,30 +84,32 @@ This page is meant as a resource to find answers to questions frequently asked b
 ## Immigration support
 
 #### Q. I need a letter from my employer to obtain a visa, how do I request that?
-- Teammates are responsible for maintaining their immigration status and People Ops is here to help facilitate. If you need a letter from Sourcegraph to support your renewal, please reach out to the People Ops team through #ask-people-team or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). 
+
+- Teammates are responsible for maintaining their immigration status and People Ops is here to help facilitate. If you need a letter from Sourcegraph to support your renewal, please reach out to the People Ops team through #ask-people-team or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
 
 #### Q. Can Sourcegraph sponsor my immigration?
+
 - You can find more information on our sponsorship and immigration policies [here](../process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
 #### Q. Does Sourcegraph have a Immigration attorney or firm?
-- Yes, please reach out to the People Ops team for an introduction. People Ops partners with WR Immigration for all visa cases. If we are able to sponsor your visa, we will connect you with our external immigration team. 
 
+- Yes, please reach out to the People Ops team for an introduction. People Ops partners with WR Immigration for all visa cases. If we are able to sponsor your visa, we will connect you with our external immigration team.
 
 #### Q. What if my visa requires employer sponsorship and the employer must pay for certain aspects?
-- We handle all visa situations on a case-by-case basis. You would need approval from People-Ops to move forward with your visa application. We do our best to accommodate these requests whenever possible. If approved, Sourcegraph will pay the employer required portion and the teammate will be responsible for  other expenses associated with the visa process.
 
+- We handle all visa situations on a case-by-case basis. You would need approval from People-Ops to move forward with your visa application. We do our best to accommodate these requests whenever possible. If approved, Sourcegraph will pay the employer required portion and the teammate will be responsible for other expenses associated with the visa process.
 
 #### Q. Does Sourcegraph help with family visas?
-- Sourcegraph sponsors visas for teammates and generally the cost is not covered by Sourcegraph and is the teammates responsibility. If your visa application includes your family, they will be included in the process. 
 
+- Sourcegraph sponsors visas for teammates and generally the cost is not covered by Sourcegraph and is the teammates responsibility. If your visa application includes your family, they will be included in the process.
 
 #### Q. What will happen if I fall out of status during the renewal process?
+
 - If your employment authorization documents expire, you will need to go on “Unpaid leave” until your documents are renewed. If this is the case, please reach out to People Ops at people-ops@sourcegraph.com.
 
-
 #### Q. What if I have a question that isn’t answered here?
-- Post your question into [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team)
 
+- Post your question into [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team)
 
 ## Moving
 
