@@ -110,7 +110,7 @@ note: We post all required LCA postings [here](../../../Required-posting-page.md
 
 In cases where a candidate or teammate’s role within Sourcegraph would require their presence in a particular country, we will cover the costs of immigration assistance and work to support the candidate as much as possible. However, it is dependent on whether we, or our PEO partner, have the ability to sponsor the particular visa or immigration process. We encourage hiring managers to let the Talent and People Ops teams know as early as possible, even before the role is opened, if such requirements exist. To be eligible for consideration, the role must at a minimum have requirements for L5 or M4 level scope.
 
-*** Note: If the role has not been pre-approved for Visa sponsorship, the Recruiter will inform the candidate that the role is not eligible for Visa sponsorship as per our company policy and that we will not be able to continue the interview process.
+\*\*\* Note: If the role has not been pre-approved for Visa sponsorship, the Recruiter will inform the candidate that the role is not eligible for Visa sponsorship as per our company policy and that we will not be able to continue the interview process.
 
 #### **For personal reasons**
 
@@ -124,19 +124,19 @@ For candidates or teammates that currently hold a visa and prefer to keep their 
 
 For candidates or teammates that do not currently hold a visa or permanent residency for the country they plan to live in or move to, but have an existing or in-process case, Sourcegraph may be able to transfer and take over the case (depending on the visa, the country, and whether we have the ability to support it directly or via our PEO partner). The candidate or teammate would carry the cost of transferring and sponsoring the case.
 
-
 ### **Countries where we cannot currently support employment or contracting**
 
 We cannot support or employ candidates or teammates in any of these countries due to U.S. embargoes and sanctions.
-* Cuba
-* Iran
-* North Korea
-* Sudan
-* Syria
-* Crimea
-* China (case by case - notify People Ops)
-* Russia (case by case - notify People Ops)
-* Ukraine (case by case - notify People Ops)
+
+- Cuba
+- Iran
+- North Korea
+- Sudan
+- Syria
+- Crimea
+- China (case by case - notify People Ops)
+- Russia (case by case - notify People Ops)
+- Ukraine (case by case - notify People Ops)
 
 **Sourcegraph will not consider initiating new petitions prior to teammates 1-year mark**
 
@@ -149,4 +149,5 @@ Any visas sponsored by Sourcegraph must be compatible with an all-remote work se
 Any questions? Contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) in Slack or people-ops@sourcegraph.com via email!
 
 #### People Team Resources
+
 [Internal process doc](https://docs.google.com/document/d/1C8URTmcrzZAQR7PTXkr1IOsvg8Ge22BUUtIRCjIItpg/edit)
