@@ -37,6 +37,7 @@ First, the operator must [create an instance](./creation_process.md) with the co
 ### Create a data migration Cloud Storage bucket
 
 1. In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository, copy the `template/` directory, naming it corresponding to the customer.
+
 - Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented.
 - Commit your changes, open a pull request in `cloud-data-migrations`, and merge the changes after review.
 
@@ -199,14 +200,16 @@ Audit logs are generated for bucket access in the project's logs, under log entr
 ## Execute data migration
 
 ### Disable alerting and scale down cloud instance
+
 Once the database backups and instance summary have been uploaded by the customer, the first step before processing the migration is to disable the instance alerting and scale down the Cloud instance.
 
 1. Update mi2 to the latest version:
+
 ```
 sg cloud install
 ```
 
-2. Extract the Cloud instance from the control plane, following the instructions in the *"Extract instance from control plane (break glass)"* section in the instance-specific dashboard from [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod)
+2. Extract the Cloud instance from the control plane, following the instructions in the _"Extract instance from control plane (break glass)"_ section in the instance-specific dashboard from [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod)
 
 3. Disable alerting by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows. Make sure to deploy the terraform changes as well.
 
@@ -380,6 +383,6 @@ Then regenerate Terraform manifests:
 mi2 generate cdktf
 ```
 
-Finally, backfill the instance to the control plane following the instructions in the *"Backfill instance into control plane"* section in the instance-specific dashboard from [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod)
+Finally, backfill the instance to the control plane following the instructions in the _"Backfill instance into control plane"_ section in the instance-specific dashboard from [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod)
 
 Then commit your changes as a pull request. Once it has been merged, confirm the changes have been applied in Terraform Cloud.
