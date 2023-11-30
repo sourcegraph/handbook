@@ -1,6 +1,5 @@
 # On-prem data migration to Sourcegraph Cloud
 
-
 This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
 On-prem-to-Cloud data migrations are currently owned by [Implementation Engineering](../../../technical-success/ie/index.md), but the process is documented in Cloud as it pertains to Cloud infrastructure.
 
