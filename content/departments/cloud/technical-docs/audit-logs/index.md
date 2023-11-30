@@ -12,11 +12,26 @@ Customers can request audit logs via support or CE. Please fill out this [issue 
 
 ## Audit Log Export
 
-If a customer requests an export of their audit logs for the default retention of 30 days, a cloud engineer will need to enable audit logs and run the below commands to backfill the logs into the audit bucket.
+### If a customer has audit logs enabled:
+
+Find the customer audit log bucket: `gcloud logging sinks describe "audit_log_sink_gcs" --project=$CUSTOMER_PROJECT --format "value(destination)" | awk -F/ '{print $2}'`
+
+Then, export the logs from the resulting bucket:
+
+```bash
+gcloud storage cp --recursive gs://src-5c4a20ed462d4919/stderr/$YEAR/$MONTH/$DAY ./$LOCAL_DIR --project=$CUSTOMER_PROJECT
+zip -r audit_logs.zip ./$LOCAL_DIR
+```
+
+Then ask the customer how they would like to receive the logs (typically via email)
+
+### How to backfill audit logs for a customer to a specific bucket
+
+To backfill logs from a Log Bucket to an arbitrary GCS bucket, you can use the following command:
 
 ```bash
 # Create a logging export job
-gcloud alpha logging copy "_Default" storage.googleapis.com/$AUDIT_STORAGE_BUCKET_NAME --location=global --log-filter="jsonPayload.Attributes.audit.auditId!=\"\" AND resource.type=\"k8s_container\"" --project=$PROJECT_ID
+gcloud alpha logging copy "$AUDIT_STORAGE_BUCKET" storage.googleapis.com/$TARGET_BUCKET --location=global --log-filter="jsonPayload.Attributes.audit.auditId!=\"\" AND resource.type=\"k8s_container\"" --project=$PROJECT_ID
 ```
 
 Then, view the resulting bucket to ensure the logs have been moved over.
