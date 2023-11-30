@@ -205,7 +205,7 @@ jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
   role: Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Seattle, WA, USA 🇺🇸
   github: justdueck
   email: jonah@sourcegraph.com
@@ -241,7 +241,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Principal Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -417,7 +417,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -573,17 +573,6 @@ kevin_quigley:
   links: '[LinkedIn](https://www.linkedin.com/in/kevinquigley18/)'
   description: Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
 
-nate_maynard:
-  name: Nate Maynard
-  pronouns: He/Him
-  role: Enterprise Technical Advisor
-  reports_to: director_technical_advisory
-  location: Denver, Colorado, USA 🇺🇸
-
-  email: nate.maynard@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/namaynard/)'
-  description: Originally from Massachusetts, Nate currently is enjoying the more open spaces of the United States out west. Having moved from San Francisco to Denver in October of 2021 he likes to live close to the mountians reducing his commute from 4 hours to 2 trading the Sierras for the Rockies. Nate also enjoys spending time with friends playing golf, cycling, and playing video games. His professional passion is explaining techincal products and concepts to both technical and non techincal people.
-
 kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
@@ -721,7 +710,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -754,7 +743,7 @@ andrew_hsu:
   name: Andrew Hsu
   pronouns: he/him
   role: Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Los Angeles, California, United States 🇺🇸
   github: superhsu
   email: andrew.hsu@sourcegraph.com
@@ -884,7 +873,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: San Diego, CA
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -896,7 +885,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife and kids. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -1102,7 +1091,7 @@ andrew_norrish:
   github: anorrish
   pronouns: he/him
   role: GTM Technical Project Manager
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Denver, CO, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
   description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
@@ -1373,7 +1362,7 @@ chris_concannon:
   pronouns: he/him/his
   location: San Anselmo, CA, USA 🇺🇸
   role: Senior Customer Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   email: chris.concannon@sourcegraph.com
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
@@ -1497,7 +1486,7 @@ louis_jarvis:
   github: loujar
   pronouns: he/him
   role: Implementation Lead
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Wailuku, HI, USA 🇺🇸
   description: Louis loves working with companies to help them realize the greatest business value out of the software solutions they adopt. When not in front of a computer, Louis likes to spend his free time out on the water surfing, kiteboarding, or wing foiling.
 
@@ -1589,7 +1578,7 @@ Marc_LeBlanc:
   github: marcleblanc2
   pronouns: he/him
   role: Senior Implementation Engineer
-  reports_to: dr_ce_ie
+  reports_to: vp_technical_success
   location: Istanbul, Turkey 🇹🇷
   links: '[LinkedIn](https://www.linkedin.com/in/leblancit/), [MarcPhoto.ca](https://marcphoto.ca/)'
   description: I rise to challenges with enthusiasm, a happy-to-help attitude, and a customer-service mindset. I am driven to make my positive contribution to the world, with high-level strategic vision, systems and design thinking, and hands-on-keyboard implementation. I was the service owner for the Code Search service and a Sourcegraph customer admin for two years before joining the company. My team and I implemented Sourcegraph from end to end, from discovering user issues with OpenGrok, finding Sourcegraph, implementing it, operating it, and contributing to it. I am also a photographer, adventure motorcyclist, and active volunteer.
@@ -1616,18 +1605,6 @@ erika_rice_scherpelz:
   links: '[The FLUX Review](https://read.fluxcollective.org/), [LinkedIn](https://www.linkedin.com/in/erikars)'
   manager_role_slug: search_lead
   description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'
-
-nikki_golding:
-  name: Nikki Golding
-  email: Nikki.Golding@sourcegraph.com
-  github: NikkiGolding
-  pronouns: she/her
-  role: Director, Customer & Implementation Engineering
-  reports_to: vp_technical_success
-  manager_role_slug: dr_ce_ie
-  location: Ponte Vedra Beach,Fl USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/nikki-golding/)'
-  description: Nikki loves all things outdoors, is a self-proclaimed music nerd,  has the best mut named Humphrey, two amazing kiddos who challenge her on the daily and one day hopes to be a Dive Master and prof Yogi.
 
 auguste_rame:
   name: Auguste Rame
