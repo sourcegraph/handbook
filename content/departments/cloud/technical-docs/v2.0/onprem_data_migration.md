@@ -218,7 +218,13 @@ spec:
 +    enableAlerting: false
 ```
 
-4. Commit and submit your changes as a pull request. After merging and confirming the apply in Terraform Cloud, proceed with scaling down the instance:
+4. Commit and submit your changes as a pull request. After merging, apply the monitoring stack changes in Terraform Cloud or via mi2:
+
+```sh
+mi2 instance tfc deploy -auto-approve -force-ignore-stack-dependencies -target monitoring
+```
+
+5. Once monitoring has been disabled, proceed with scaling down the instance:
 
 ```sh
 mi2 instance scale-down
