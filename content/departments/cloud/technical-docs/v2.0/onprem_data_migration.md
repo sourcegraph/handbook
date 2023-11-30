@@ -1,7 +1,5 @@
 # On-prem data migration to Sourcegraph Cloud
 
-> [!WARNING] This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
-> This page was adapted only on a best-effort basis for Cloud v2 - it has currently not yet been thoroughly tested for Cloud v2.
 
 This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
 On-prem-to-Cloud data migrations are currently owned by [Implementation Engineering](../../../technical-success/ie/index.md), but the process is documented in Cloud as it pertains to Cloud infrastructure.
