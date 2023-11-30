@@ -175,7 +175,7 @@ This will generate a JSON file at `src-snapshot/summary.json`. See `src snapshot
 
 ### Upload snapshot contents to GCS bucket
 
-If the above steps for creating the `src-snapshot` folder contents were followed correctly, the customer can run `src snapshot upload` with [the appropriate bucket and credentials](#create-migration-cloud-storage-bucket) and `src` will find the snapshot contents and upload them to the configured buckets.
+If the above steps for creating the `src-snapshot` folder contents were followed correctly, the customer can run `src snapshot upload` with [the appropriate bucket and credentials](#create-a-data-migration-cloud-storage-bucket) and `src` will find the snapshot contents and upload them to the configured buckets.
 
 ```sh
 src snapshot upload -bucket=$BUCKET -credentials=$CREDENTIALS_FILE
@@ -231,7 +231,7 @@ mi2 instance scale-down
 
 ### Request GCP infrastructure permission
 
-Visit go/cloud-ops and locate the instance, then request access to Cloud infra via the provided Entitle link.
+Visit [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod) and locate the instance, then request access to Cloud infra via the provided Entitle link.
 
 ### Reset databases
 
@@ -331,7 +331,7 @@ The instance will need `externalURL` set to the instance domain for SOAP to work
 }
 ```
 
-Visit go/cloud-ops and locate the instance, then follow instructions from the `Log in to the instance UI` section to log in to the UI. Then create the Sourcegraph service account manually:
+Visit [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod) and locate the instance, then follow instructions from the `Log in to the instance UI` section to log in to the UI. Then create the Sourcegraph service account manually:
 
 - Username: `cloud-admin`
 - Email: `managed+<instance-display-name>@sourcegraph.com`
