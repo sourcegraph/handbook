@@ -1,7 +1,4 @@
-# On-prem data migration to Cloud v2
-
-> [!WARNING] This process is still a work-in-progress. For more details, see [RFC 760](https://docs.google.com/document/d/1IAgXmv2TbtU_rWXtph-KFc3qbqswREIAxO1rGALuoMQ/edit#) and the [tracking issue](https://github.com/sourcegraph/customer/issues/1525), or cc @bobheadxi (Robert Lin).
-> This page was adapted only on a best-effort basis for Cloud v2 - it has currently not yet been thoroughly tested for Cloud v2.
+# On-prem data migration to Sourcegraph Cloud
 
 This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
 On-prem-to-Cloud data migrations are currently owned by [Implementation Engineering](../../../technical-success/ie/index.md), but the process is documented in Cloud as it pertains to Cloud infrastructure.
@@ -26,39 +23,22 @@ An operator must:
 
 - have the [latest _build_](https://github.com/sourcegraph/src-cli/blob/main/DEVELOPMENT.md#development) of [`src`](https://github.com/sourcegraph/src-cli) installed
 - have the `gcloud` CLI installed
+- have the `mi2` CLI installed
 
-## Initial Setup
+## Initial setup
 
 ### Set up the target Cloud instance
 
-First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance. Upon created, perform the following steps:
+First, the operator must [create an instance](./creation_process.md) with the configuration for the desired final Cloud instance.
 
-1. Extract the Cloud instance from the control plane, follow the instance-specific dashboard from go/cloud-ops
+### Create a data migration Cloud Storage bucket
 
-1. Disable alerting by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows. Make sure to deploy the terraform changes as well.
+1. In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository, copy the `template/` directory, naming it corresponding to the customer.
 
-```diff
-spec:
-  debug:
--    enableAlerting: true
-+    enableAlerting: false
-```
+- Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented.
+- Commit your changes, open a pull request in `cloud-data-migrations`, and merge the changes after review.
 
-1. Commit and submit your changes as a pull request. After merging and confirming the apply in Terraform Cloud, proceed with scaling down the instance:
-
-```sh
-mi2 instance scale-down
-```
-
-1. Finally, hand it off to the assigned Implementation Engineer with the link of go/ops/<slug> and this handbook page.
-
-### Create migration Cloud Storage Bucket
-
-In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository, copy the `template/` directory, naming it corresponding to the customer.
-Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented.
-Commit your changes and open a pull request in `cloud-data-migrations`.
-
-Then, create Terraform Cloud workspaces for the migration resources in [`sourcegraph/infrastructure/terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
+2. In the [`infrastructure`](https://github.com/sourcegraph/infrastructure) repository, create Terraform Cloud workspaces for the migration resources in [`sourcegraph/infrastructure/terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
 
 ```terraform
 #### $CUSTOMER
@@ -94,12 +74,11 @@ module "cloud-data-migration-resources-$CUSTOMER" {
 }
 ```
 
-Commit your changes and open a pull request.
+Commit your changes, open a pull request in `infrastructure`, and merge the changes after review.
 
-Make sure that your Terraform Cloud workspaces are created, then schedule a run for the created `-project` workspace.
-Once that succeeds, do the same for the created `-resources` workspace.
+3. Make sure that your Terraform Cloud workspaces are created, then schedule a run for the created `-project` workspace. Once that succeeds, do the same for the created `-resources` workspace.
 
-Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. [Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
+4. Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. [Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
 
 - `snapshot_bucket_name`
 - `writer_service_account_key`
@@ -114,6 +93,8 @@ terraform output -json | jq -e -r .snapshot_bucket_name.value
 # Credentials, sent to file
 terraform output -json | jq -e -r .writer_service_account_key.value > credential.json
 ```
+
+## Collect snapshot contents from customer's on-prem instance
 
 ### Notify users of instance migration
 
@@ -131,12 +112,11 @@ The customer site admin is responsible for communicating the upcomming cloud mig
 }
 ```
 
-## Collect snapshot contents from on-prem instance
-
 ### Generate databases backups
 
-The customer should first be asked to create `pg_dump` exports of their Sourcegraph databases.
-`pg_dump` is designed to be [usable while the database is in use](https://www.postgresql.org/docs/current/app-pgdump.html):
+Ensure that the customer has the [latest _build_](https://github.com/sourcegraph/src-cli/blob/main/DEVELOPMENT.md#development) of [`src`](https://github.com/sourcegraph/src-cli) installed before proceeding.
+
+The customer should first be asked to create `pg_dump` exports of their Sourcegraph databases. `pg_dump` is designed to be [usable while the database is in use](https://www.postgresql.org/docs/current/app-pgdump.html):
 
 > It makes consistent backups even if the database is being used concurrently. pg_dump does not block other users accessing the database (readers or writers).
 
@@ -216,17 +196,44 @@ Audit logs are generated for bucket access in the project's logs, under log entr
 
 ## Execute data migration
 
-### Ensure GCP permission
+### Disable alerting and scale down cloud instance
 
-Visit go/cloud-ops and locate the instance, then request access to Cloud infra via the provided Entitle link.
+Once the database backups and instance summary have been uploaded by the customer, the first step before processing the migration is to disable the instance alerting and scale down the Cloud instance.
 
-### Reset databases
+1. Update mi2 to the latest version:
 
-First, prepare the Cloud database for import. Make sure all Sourcegraph pods are scaled down in the cloud instance with the exception of `cloud-sql-proxy`
+```
+sg cloud install
+```
+
+2. Extract the Cloud instance from the control plane, following the instructions in the _"Extract instance from control plane (break glass)"_ section in the instance-specific dashboard from [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod)
+
+3. Disable alerting by editing the instance `config.yaml` in [`sourcegraph/cloud`](https://github.com/sourcegraph/cloud) as follows. Make sure to deploy the terraform changes as well.
+
+```diff
+spec:
+  debug:
+-    enableAlerting: true
++    enableAlerting: false
+```
+
+4. Commit and submit your changes as a pull request. After merging, apply the monitoring stack changes in Terraform Cloud or via mi2:
+
+```sh
+mi2 instance tfc deploy -auto-approve -force-ignore-stack-dependencies -target monitoring
+```
+
+5. Once monitoring has been disabled, proceed with scaling down the instance:
 
 ```sh
 mi2 instance scale-down
 ```
+
+### Request GCP infrastructure permission
+
+Visit go/cloud-ops and locate the instance, then request access to Cloud infra via the provided Entitle link.
+
+### Reset databases
 
 In a separate terminal window, set up a connection to the Cloud SQL database:
 
@@ -296,6 +303,16 @@ kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm kubernetes/ | kubectl --kubeconfig=$(mi2 instance kubeconfig) apply -f -
 ```
 
+Verify that all of the instance's Deployments and StatefulSets have been scaled up:
+
+```sh
+kubectl get deployments -n <instance_namespace>
+kubectl get sts -n <instance_namespace>
+#if necessary, scale up any outstanding deployments and/or statefulsets
+kubectl scale deployment <deployment_name> -n <instance_namespace> --replicas=1
+kubectl scale sts <sts_name> -n <instance_namespace> --replicas=1
+```
+
 Set up SOAP configuration:
 
 ```sh
@@ -306,6 +323,7 @@ The instance will need `externalURL` set to the instance domain for SOAP to work
 
 ```json
 {
+  "externalURL": "https://<instance-display-name>.sourcegraphcloud.com",
   "auth.providers": [
     // ...
     { "type": "builtin" }
@@ -367,5 +385,7 @@ Then regenerate Terraform manifests:
 ```sh
 mi2 generate cdktf
 ```
+
+Finally, backfill the instance to the control plane following the instructions in the _"Backfill instance into control plane"_ section in the instance-specific dashboard from [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod)
 
 Then commit your changes as a pull request. Once it has been merged, confirm the changes have been applied in Terraform Cloud.
