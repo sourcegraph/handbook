@@ -38,6 +38,12 @@ Sourcegraph will connect Cloud instance Google VPC with customer dedicated AWS V
 
 1. [Create GCP<->AWS VPN connection](../private-code-hosts/index.md#creation-process) documentation
 2. If customer uses private domain for the reguistry exposed via VPC Endpoint Service, executors require dns-proxy to resolve private domain to VPC Endpoint.
+3. For VPC Endpoint created in step 1, obtain endpoint dns entry via:
+
+```sh
+cd terrasform/stacks/awsvpn
+for vpce in $(terraform state list | grep aws_vpc_endpoint | grep -v data); do terraform state show $vpce; done
+```
 
 - Modify config.yaml with additional entry:
 
@@ -48,7 +54,7 @@ spec:
       proxyTag: 202311201628
       routes:
         - source: private.CUSTOMER.DOMAIN
-          # use domain with region inside the URL, b/c it routes to every zone inside VPC
+          # VPC endpoint DNS entry - use domain with region inside the URL, b/c it routes to every zone inside VPC
           destination: vpce-<ID>.vpce-svc-<HASH>.<REGION>.vpce.amazonaws.com
 ```
 
