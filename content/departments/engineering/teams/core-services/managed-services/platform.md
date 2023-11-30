@@ -1,7 +1,7 @@
 # Sourcegraph Managed Services Platform (MSP)
 
 The Sourcegraph Managed Services Platform (**MSP**) is the standardized tooling and infrastructure for deploying and operating managed Sourcegraph services.
-It takes a service specification and generates Terraform manifests and adjacent resources required to operate a service.
+MSP takes a service specification and generates Terraform manifests and adjacent resources required to operate a service, aiming to provide a simple, Heroku-like experience to spin up infrastructure for standalone managed services.
 
 By adopting MSP for your managed service, it will benefit from [an expanding set of features and integrations](#features), alignment with infrastructure and security best practices at Sourcegraph, and support from the [Core Services team](../index.md).
 
@@ -14,15 +14,15 @@ All assets are managed in [sourcegraph/managed-services](https://github.com/sour
 MSP supports single-container:
 
 - stateless, horizontally scaling services
-- schedule cron jobs
+- scheduled cron jobs
 
-From a simple service configuration YAML ([examples](https://github.com/sourcegraph/managed-services/tree/main/services)), we currently support:
+From a simple service configuration YAML ([examples](https://github.com/sourcegraph/managed-services/tree/main/services)) and the `sg msp` toolchain for managing configuration, we currently support:
 
-- `sg msp` toolchain for managing configuration
 - Generating infrastructure-as-code, deployed via [Terraform Cloud](#terraform-cloud)
 - Service initialization and runtime boilerplate via [sourcegraph/lib/managedservicesplatform](https://github.com/sourcegraph/sourcegraph/tree/main/lib/managedservicesplatform)
-- Provisioning of external dependencies:
-  - Redis backed by [Cloud Memorystore](https://cloud.google.com/memorystore/docs/redis/memorystore-for-redis-overview)
+- Provisioning of data backends, configured with secure, highly available defaults and regular backups out of the box:
+  - [Redis](https://cloud.google.com/memorystore/docs/redis/memorystore-for-redis-overview) for ephemereal data and synchronization between instances of a service.
+  - [PostgreSQL](https://cloud.google.com/sql/postgresql?hl=en) for persistent, relational data.
 - Service-specific features
   - Configuring a domain and TLS through Cloudflare and GCP load balancing
   - Scaling capabilities backed by [Cloud Run](https://cloud.google.com/run?hl=en)
