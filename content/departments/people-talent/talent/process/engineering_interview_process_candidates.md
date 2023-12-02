@@ -277,6 +277,14 @@ are working on this piece of code?
 
 ### AI/ML Interviews
 
+#### Hiring Manager Screen / ML Breadth
+
+- **Interviewers:** Head of AI
+
+- **Duration:** 60-minutes
+
+- **How to prepare:** During this stage in the interview process, the Hiring Manager will introduce themself, get to know you, share details on the AI team and answer any initial questions you may have. They will then discuss few science questions around end to end ML formulation, modelling, deployment & experimentation to gauge your experience in productionizing ML systems in the industry.
+
 #### Technical Background
 
 - **Interviewers:** Beyang Liu, co-founder and CTO
