@@ -1698,9 +1698,9 @@ nelson_araujo:
     Nelson loves to tinker with technology in his spare time.
 
 interim_infra_cloudops:
-  name: Rafal Gajdulewicz
+  name: Nelson Araujo
   reports_to: head_infra
-  role: Interim Cloud Operations Lead (and Core Services TL)
+  role: Interim Cloud Operations Lead
   manager_role_slug: ship_cloudops_lead
   hide_on_team_page: true
 
