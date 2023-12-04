@@ -26,7 +26,7 @@ Once the commercials are squared away, the migration can begin. The Cloud will c
 3. (CE/TA owned) If a data migration is required, contact the IE team to own. As the src snapshot utility tool will be used to perform the migration, customers must qualify for a data migration. To qualify, they must:
 
    - have a Sourcegraph instance on v3.20.0 or later
-      - If the instance is on an earlier version, the self-hosted instance will need tobe upgraded to a version that supports multi-version upgrades (v3.20.0 or later) before performing the data migration
+     - If the instance is on an earlier version, the self-hosted instance will need tobe upgraded to a version that supports multi-version upgrades (v3.20.0 or later) before performing the data migration
    - use databases on Postgres 12 or later
    - _not_ have [on-disk database encryption](https://docs.sourcegraph.com/admin/config/encryption) enabled
    - have the [latest release](https://github.com/sourcegraph/src-cli/releases) of [`src`](https://github.com/sourcegraph/src-cli)
