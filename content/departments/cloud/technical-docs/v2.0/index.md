@@ -15,9 +15,9 @@ Learn more from:
 
 ## Architecture
 
-The largest architecture changes are moving from a standalone VM to GKE. Learn more from our [Cloud v2 diagrams](https://app.excalidraw.com/s/4Dr1S6qmmY7/4yUYgWaRxYx).
+The largest architecture changes are moving from a standalone VM to GKE. Learn more from our [Cloud v2 diagrams](https://link.excalidraw.com/readonly/UyUsbNf7nOQF4fa2AjLA) or [update it](https://app.excalidraw.com/s/4Dr1S6qmmY7/4yUYgWaRxYx).
 
-<iframe src="https://link.excalidraw.com/readonly/YmVW5VzbnLXkmfiff54x" width="100%" height="100%" style="border: none;"></iframe>
+<iframe src="https://link.excalidraw.com/readonly/UyUsbNf7nOQF4fa2AjLA" width="100%" height="100%" style="border: none;"></iframe>
 
 ### Postgres
 
