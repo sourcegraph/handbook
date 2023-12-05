@@ -26,7 +26,6 @@ These releases **may** require [manual migration steps](https://docs.sourcegraph
 | November 01, 2023 |
 | November 15, 2023 |
 | November 29, 2023 |
-| December 13, 2023 |
 | January 10, 2024  |
 | January 24, 2024  |
 
