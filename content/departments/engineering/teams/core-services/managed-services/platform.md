@@ -19,7 +19,7 @@ MSP supports single-container:
 From a simple service configuration YAML ([examples](https://github.com/sourcegraph/managed-services/tree/main/services)) and the `sg msp` toolchain for managing configuration, we currently support:
 
 - Generating infrastructure-as-code, deployed via [Terraform Cloud](#terraform-cloud)
-- Service initialization and runtime boilerplate via [sourcegraph/lib/managedservicesplatform](https://github.com/sourcegraph/sourcegraph/tree/main/lib/managedservicesplatform), which includes:
+- [Service initialization and runtime boilerplate](#building-a-new-service) via [sourcegraph/lib/managedservicesplatform](https://github.com/sourcegraph/sourcegraph/tree/main/lib/managedservicesplatform), which includes:
   - initialization of OpenTelemetry tracing and metrics, logging, and error reporting
   - integration guidance for provisioned data backends like Redis and PostgreSQL
 - Provisioning of data backends, configured with secure, highly available defaults and regular backups out of the box where applicable:
