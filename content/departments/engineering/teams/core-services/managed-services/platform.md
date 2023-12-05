@@ -38,22 +38,29 @@ Refer to the [sourcegraph/managed-services README](https://github.com/sourcegrap
 
 ## Operating services
 
-### Entitle
+### Infrastructure access
 
 For MSP service environments other than `category: test`, access needs to be requested through Entitle.
 The test environment ("Engineering Projects" GCP folder) should have access granted to engineers by default.
 
-Entitle access to a production MSP project is most easily provisioned through the `mspServiceEditor` custom role.
-This role is created org-level [in `gcp/org/customer-roles/msp.tf` in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf) and available in Entitle by following the steps:
+Entitle access to a production MSP project is most easily provisioned through the `mspServiceReader` and `mspServiceEditor` custom roles, which provide read-only and editing access respectively.
+You can request access to a project in Entitle by following these steps:
 
 - Go to [app.entitle.io/request](https://app.entitle.io/request) and select **Specific Permission**
 - Fill out the following:
   - Integration: `GCP Production Projects`
   - Resource types: `Project`
   - Resource: name of MSP project you are interested in
-  - Role: `mspServiceEditor`
+  - Role: `mspServiceReader` (or `mspServiceEditor` if you need additional privileges - use with care!)
   - Duration: choose your own adventure!
+
+These custom roles are configured [in `gcp/org/customer-roles/msp.tf` in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf).
 
 ### Terraform Cloud
 
-Terraform Cloud workspaces for MSP [can be found using the `msp` workspace tag](https://app.terraform.io/app/sourcegraph/workspaces?tag=msp).
+Terraform Cloud (TFC) workspaces for MSP [can be found using the `msp` workspace tag](https://app.terraform.io/app/sourcegraph/workspaces?tag=msp).
+
+To gain access to MSP project TFC workspaces, [request membership to the `Managed Services Platform Operators` TFC team via Entitle](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjM2MDAiLCJqdXN0aWZpY2F0aW9uIjoiRU5URVIgSlVTVElGSUNBVElPTiBIRVJFIiwicm9sZUlkcyI6W3siaWQiOiJiMzg3MzJjYy04OTUyLTQ2Y2QtYmIxZS1lZjI2ODUwNzIyNmIiLCJ0aHJvdWdoIjoiYjM4NzMyY2MtODk1Mi00NmNkLWJiMWUtZWYyNjg1MDcyMjZiIiwidHlwZSI6InJvbGUifV19).
+This TFC team has access to all MSP workspaces, and is [configured here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/terraform.tfvars?L44:1-48:4).
+
+For more details, also see [creating and configuring services](#creating-and-configuring-services).
