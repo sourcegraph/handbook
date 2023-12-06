@@ -35,7 +35,6 @@ Whether you need a dedicated screenshot application or not depends on how often 
 
 - [Screen Studio](https://www.screen.studio/)<br/>
   High-quality videos and GIFs. Automatic and manual zoom, easy editing. Designed for macOS.
-  
 - [Native macOS](https://support.apple.com/en-au/HT201361)<br/>
   Great for simple screenshots
 
