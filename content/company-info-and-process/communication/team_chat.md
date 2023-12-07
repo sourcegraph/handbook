@@ -539,7 +539,7 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#team-dev-backend
+   <td>#chat-dev-backend
    </td>
    <td>All engineers working on Backend code
    </td>
