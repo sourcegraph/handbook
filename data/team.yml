@@ -1697,13 +1697,6 @@ nelson_araujo:
     Nelson joined Sourcegraph in 2023.
     Nelson loves to tinker with technology in his spare time.
 
-interim_infra_cloudops:
-  name: Nelson Araujo
-  reports_to: head_infra
-  role: Interim Cloud Operations Lead
-  manager_role_slug: ship_cloudops_lead
-  hide_on_team_page: true
-
 interim_infra_release:
   name: Nelson Araujo
   reports_to: head_infra
@@ -1868,3 +1861,14 @@ taiyab_raja:
   github: taiyab
   reports_to: code_search_lead
   role: Product Designer
+
+eric_shamow:
+  name: Eric Shamow
+  email: eric.shamow@sourcegraph.com
+  pronouns: he/they
+  role: Engineering Manager, Cloud Operations
+  reports_to: head_infra
+  manager_role_slug: ship_cloudops_lead
+  location: Portland, OR, USA
+  pronunciation: https://forvo.com/word/marie_curie/
+  description: 'Eric is originally out of New York but has called Portland, OR home for the past decade. He spends a lot of time in the space somewhere between process, systems architecture, org design and engineering practices. Prior to Sourcegraph Eric was an early employee at Puppet a little over a decade ago, where he visited over 200 companies to study how tools and practices intersect to drive culture change. More recently he ran the Compute SRE team at Twitter. >Eric used to be a classical musician, and can be found geeking out over music, books and films (especially sci-fi and horror).'
