@@ -1171,5 +1171,18 @@
                 "type": "Point"
             }
         },
+        {
+          "type": "Feature",
+          "properties": {
+              "name": "Eric Shamow"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -122.658722,
+                  45.512230
+              ]
+          }
+      }
     ]
 }
