@@ -344,9 +344,13 @@ For #cloud teammates, add the IP addresses to the instance `config.yaml`.
 Cloud supports all code-hosts types (self-managed and Cloud-managed), but it currently requires the code-host to have a public IP.
 More context [here](https://docs.google.com/document/d/14S3jn0bV03WdeT1H36omvtGJFoIFJjM-3ZA1qIyIl7o/edit).
 
-If your prospect have the need for private code hosts, please reach out to #discuss-cloud-ops, and we would love to partner with them to develop a solution.
+If your prospect has the need for private code hosts, please review go/cloud-code-hosts to determine the code host type, then you may propose one of the our available options listed under https://docs.sourcegraph.com/cloud#private-connectivity
+
+Please reach out to #discuss-cloud-ops, and we would love to partner with them to develop a new solution that is not available.
 
 ### FAQ: What is the difference between air-gapped, private and public code hosts?
+
+Please use the decision tree at go/cloud-code-hosts to determine the code host types. The below definitions are for reference only.
 
 - **Air-Gapped Code Host** is a code host that is physically isolated from the internet. For example the code host is deployed on a hardware (server) that is within customers office/private data center and the only way to connect to this code host is to be physically connected to this air-gapped network; a user has to be within the office and be connected to the air-gapped office network via ethernet cable of wi-fi. In this scenario the only option for Sourcegraph to work is on-prem deployment within the same air-gapped network and all users connect to Sourcegraph instance via local IP or local DNS. _Please note cloud will never be able to support air-gapped code hosts as these are based on their physical isolation so it’s not technically feasible for a Cloud instance to access such code host._
 - **Private Code Host** is a code host deployed in a private network (for example AWS EC2 instance within VPC). To connect to this code host a user has to have access to the private network usually via VPC Peering, VPN, or tunneling)
