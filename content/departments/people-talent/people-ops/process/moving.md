@@ -54,3 +54,7 @@ We cannot support or employ candidates or teammates in any of these countries du
 - Ukraine (case by case - notify People Ops)
 
 Looking for information about [how we engage talent worldwide](how-we-engage-talent-outside-the-us/index.md)?
+
+## **People Team Resources**
+
+- Interal processes doc for Bamboo location changes found [here](https://docs.google.com/document/d/1RPQ1aqbHtUPQXviwa7uSEaomB2-tery0DvI55iZHEHY/edit)

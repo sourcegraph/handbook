@@ -33,6 +33,8 @@ If you _really_ think your video needs one, ask for help in the #marketing chann
 
 Whether you need a dedicated screenshot application or not depends on how often you plan to contribute visual content, and if you need things like annotations. Sourcegraph always encourages you to purchase the software you need to be successful, and this certainly applies to screenshots and screen recordings. Here is a brief overview of screenshot tools:
 
+- [Screen Studio](https://www.screen.studio/)<br/>
+  High-quality videos and GIFs. Automatic and manual zoom, easy editing. Designed for macOS.
 - [Native macOS](https://support.apple.com/en-au/HT201361)<br/>
   Great for simple screenshots
 
