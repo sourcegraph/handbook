@@ -9,7 +9,6 @@ This allows us to have an automated way to create tickets on Slack but keep our 
 
 Please have the customer create a ticket with us via our [portal](https://help.sourcegraph.com) or email ([support@sourcegraph.com](mailto:support@sourcegraph.com))
 
-
 ## Setting up a new customer with Foqal for post-sales engagement
 
 > [!NOTE] Make sure the customer has paid for the Slack Support package that will include access to this. If you're not sure please ask Support leadership.
