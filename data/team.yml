@@ -357,17 +357,6 @@ jon_kishpaugh:
   links: '[LinkedIn](https://www.linkedin.com/in/jonathan-kishpaugh-8459217/)'
   description: Jon aka Kish currently lives in San Francisco with his wife Lauren. He’s spent the last 14 years working in small to mid-size start-ups, helping them build their Enterprise GTM. Life outside of work is focused on family, good food, and staying active.
 
-dudley_nostrand:
-  name: Dudley Nostrand
-  role: Director, Value Engineering & Sales Enablement
-  reports_to: vp_sales
-  manager_role_slug: senior_manager_value_engineering
-  location: Hamilton, Massachusetts, USA
-  github: dnostrand
-  email: dudley@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/dudleynostrand/)'
-  description: Dudley lives in Hamilton, MA ( just north of Boston) with his wife Sasha and two kids Xander and Bennett (both in college in NC). Originally from Florida and Newport, Rhode Island, he moved to Hamilton 22 years ago. He spent 15 years at Fidelity Investments, before moving on to tech companies like BMC and Appdynamics/Cisco. He enjoys spending time boating, fishing, riding his motorcycle, and traveling with his family to tropical destinations to sit on the beach and swim in the ocean.
-
 tammy_zhu:
   name: Tammy Zhu
   pronouns: she/her
