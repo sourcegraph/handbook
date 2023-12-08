@@ -14,5 +14,5 @@ Coming Jan 2024
 
 ## LCA postings
 
-- [LCA 05537](https://drive.google.com/drive/folders/1cJC6WZOxpG3vKZGhVfJOmQng0qNA0ena?usp=sharing)
+- No active postings
 - [Historical postings](https://drive.google.com/drive/folders/1bkZW26OQ7Kv1G2JU8FKacF9KfGjmZdtA?usp=sharing)
