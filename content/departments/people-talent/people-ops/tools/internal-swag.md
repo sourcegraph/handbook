@@ -8,6 +8,7 @@ The People team is responsible for sending gifts for:
 
 - [New hires](internal-swag.md#New-hire-gifting)
 - [Promotions](internal-swag.md#Promotion-gifting)
+- [Impact Awards](internal-swag.md#Impact-awards)
 - [New babies](internal-swag.md#New-baby-gifting)
 - [Birthdays](internal-swag.md#Work-anniversary-and-birthday-gifting)
 - [Work anniversaries](internal-swag.md#Work-anniversary-and-birthday-gifting)
@@ -59,6 +60,23 @@ Telescope emails the order invoices to Finance and Kemper/Michal and Finance act
 For one-off promotions, gifts will be ordered by the People team through the [Telescope Storefront](https://sourcegraph.telescopestudio.com/). Simply select 'Kits' from the menu bar, then select the Promotion kit, and checkout using the teammates' shipping address listed BambooHR.
 
 To send promotion gifts in bulk, create a spreadsheet with each teammate's name, email, shipping address. Then, email the spreadsheet to chloe@telescopestudio.com and kyra@telescopestudio.com.
+
+## Impact awards
+The People Team sends a gift to each Impact Award member.
+
+**Reordering inventory**
+
+The People Team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope. Telescope monitors the inventory levels and production timeframes of each item.
+
+We aim to select and send new gift items annually. Inventory production turnaround time is typically 3-4 weeks. 
+
+Telescope emails the order invoices to Finance and Kemper/Michal and Finance actions.
+
+**How the People Team sends impact award gifts**
+
+Create a spreadsheet with each teammate's name, email, shipping address. Then, email the spreadsheet to chloe@telescopestudio.com and kyra@telescopestudio.com.
+
+[People Ops Process Doc](https://docs.google.com/document/d/1hzgCVFi9jJ2FA2cr6fBGmItR9Pm3r2t0kcGURAbEz2A/edit#heading=h.64l0sk5q16d)
 
 ## New baby gifting
 
