@@ -571,6 +571,13 @@ kelsey_nagel:
   github: kelseynagel
   description: "Kelsey is a North Dakota native living in Minneapolis, Minnesota. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
 
+mark_mccauley:
+  name: Mark McCauley
+  pronouns: he/him
+  role: Director, Field GTM
+  reports_to: ceo
+  manager_role_slug: director_field_gtm
+
 gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
@@ -1390,7 +1397,7 @@ jamie_lindsay:
   email: jamie.lindsay@sourcegraph.com
   pronouns: she/her
   role: Sales Enablement Lead
-  reports_to: senior_manager_value_engineering
+  reports_to: director_field_gtm
   location: Concord, NC
   description: Jamie is located in Concord, North Carolina which is outside of Charlotte with her husband and daughter. She has worked in sales for entire career and helped build out the enablement function at ther last company, Quickbase. In her free time, she enjoys cooking, baking, taking care of the garden, and spending time outdoors with her family.
 
