@@ -62,13 +62,14 @@ For one-off promotions, gifts will be ordered by the People team through the [Te
 To send promotion gifts in bulk, create a spreadsheet with each teammate's name, email, shipping address. Then, email the spreadsheet to chloe@telescopestudio.com and kyra@telescopestudio.com.
 
 ## Impact awards
+
 The People Team sends a gift to each Impact Award member.
 
 **Reordering inventory**
 
 The People Team can view inventory levels in our [Telescope Storefront](https://sourcegraph.telescopestudio.com/) and in the monthly inventory report sent via email from Telescope. Telescope monitors the inventory levels and production timeframes of each item.
 
-We aim to select and send new gift items annually. Inventory production turnaround time is typically 3-4 weeks. 
+We aim to select and send new gift items annually. Inventory production turnaround time is typically 3-4 weeks.
 
 Telescope emails the order invoices to Finance and Kemper/Michal and Finance actions.
 
