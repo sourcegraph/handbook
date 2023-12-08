@@ -7,32 +7,8 @@ This allows us to have an automated way to create tickets on Slack but keep our 
 
 **For AEs/CEs/TAs:**
 
-Please post in [#discuss-support-engineering](https://sourcegraph.slack.com/archives/C01HW836940) and tell us what channel Support Agent needs to be added in and that this is for trial support.
-We will then confirm once its setup.
+Please have the customer create a ticket with us via our [portal](https://help.sourcegraph.com) or email ([support@sourcegraph.com](mailto:support@sourcegraph.com))
 
-**For Support Admins:**
-
-> [!NOTE] You need to be an admin to do this if you don't have access reach out to your Manager or Lead and they will be able to assist.
-
-1. Join the channel that needs Support Agent enabled (ex. #customer-acme-sourcegraph)
-1. Go to the channel settings (top right) and under Integrations click `Add App`
-   You will want to add the one named `Agent`
-1. Once that is done we can tweak the channel settings. This can be done by typing:
-   ```
-   /agent
-   ```
-   A pop-up will appear with the settings you need to set for this channel
-1. Enter the following into the pop-up
-
-- Introduction Message - leave blank
-- Channel Mode - Manual
-- Tags - `trial` and if customer is using managed instance add `managed-instance`
-- Ignore Internal Messages - leave blank
-- Chat integration - Inherit from global settings
-- Request Types - leave blank
-  - The rest can be left as-is
-
-Once this is done customers will be able to create ticket by reacting to a message with the ❓ emoji.
 
 ## Setting up a new customer with Foqal for post-sales engagement
 
@@ -59,7 +35,7 @@ We will then confirm once its setup.
 
 - Introduction Message - leave blank
 - Channel Mode - Manual
-- Tags - `all` and if customer is using managed instance add `managed-instance`
+- Tags - `all` and `followup`. If customer is using managed instance add `managed-instance`
 - Ignore Internal Messages - leave blank
 - Chat integration - Inherit from global settings
 - Request Types - Support Question
