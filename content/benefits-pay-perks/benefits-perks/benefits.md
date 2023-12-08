@@ -108,8 +108,10 @@ Medical:
 - UnitedHealthcare EPO
   - [Summary of Benefits and Coverage](https://drive.google.com/file/d/11ySZ0vBCB-QfhXSQujFb57jWY5BGNEjE/view?usp=sharing)
   - [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1Y5LFBKhAOZIphBGWkWwTu8CjxriGFdX3/view?usp=sharing)
+  - [Summary of Benefits and Coverage (HI residents only)](https://drive.google.com/file/d/1vJuh0wVP0IQ6hwL3L5OTQiJ3z0b2fatN/view?usp=sharing)
   - [Plan Summary](https://drive.google.com/file/d/16oOz0XJBstGRkITeAV72HRromN-pie9g/view?usp=sharing)
   - [Plan Summary (CA residents only)](https://drive.google.com/file/d/1C2CZ6vhzvoBme5RXDoFuwvuVTdOSf9_R/view?usp=sharing)
+  - [Plan Summary (HI residents only)](https://drive.google.com/drive/u/0/folders/1InLrX7pPp6vZayiOrfFNSkD3i-jpRNLS)
 - UnitedHealthcare PPO 250
   - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1JOflsdETk4vYPXbyA4n3OCYCyDaqIzhl/view?usp=sharing)
   - [Summary of Benefits and Coverage (CA residents only)](https://drive.google.com/file/d/1YjJXsBMCaWTmgyV6-j6rUW4fMVgsJke2/view?usp=sharing)
