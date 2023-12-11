@@ -138,7 +138,7 @@ Once the goals of the save plan are met, as measured by the success criteria, Sa
 
 ## Churn Retro Process
 
-The TA team will run a retrospective of all customer churn above $150,000 ARR.  This includes Full Churn and Partial Churn.
+The TA team will run a retrospective of all customer churn above $150,000 ARR. This includes Full Churn and Partial Churn.
 
 Once the churn is officially realized, the TS Churn Retro Sponsor will contact the assigned TA to have them begin the process using the Churn Retro template in Vitally.
 
@@ -149,7 +149,6 @@ After TA completes, they will book a call with AE and TS Churn Retro Sponsor to 
 During this process, the account team will review the closed lost opportunity in SFDC and agree on the Closed Lost category and reason.
 
 The TS Churn Retro Sponsor will post a PDF Version of this doc in #gtm-operations-review and be responsible for acting on the Lessons Learned and Call to Action outcomes.
-
 
 # Customer Health
 
