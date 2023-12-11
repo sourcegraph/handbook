@@ -7,7 +7,7 @@ The following questions will run over the next 5 months (Oct 2023 through Feb 20
 **1. Company outlook:**
 
 - Our company is making progress that will lead to future success
-  - What it’s measuring**:** Employees buy-in and trust in company direction
+  - What it’s measuring: Employees buy-in and trust in company direction
 
 **2. Enablement:**
 
@@ -103,6 +103,14 @@ Our overarching philosophy is simple: take meaningful actions, based on in-depth
 ### Where can I see survey results?
 
 Survey results are included in the weekly update in #announce-people-talent-team.
+
+### **What is the meaning of an eNPS score**
+
+[eNPS](https://help.lattice.com/hc/en-us/articles/360059406174) is the score related to answering one question: How likely are you to recommend Sourcegraph as a great place to work
+
+### **What is the meaning of the teammate sentiment score?**
+
+[Sentiment](https://help.lattice.com/hc/en-us/articles/360061946793) is the measurement of survey responses and scores across all 8 themes listed at the top of the page.
 
 ### Who will be able to see my responses?
 
