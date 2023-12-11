@@ -15,6 +15,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
     - [Renewal Process Phases](#renewal-process-phases)
   - [Success Plans](#success-plans)
   - [Churn Save Lighthouse Program](#lighthouse-program)
+  - [Churn Retro Process](#churn-retro-process)
 - [Post-Sales Customer Journey](#post-sales-customer-lifecycle)
   - [User Onboarding](#user-onboarding)
     - [Resources](#resources)
@@ -134,6 +135,21 @@ On a bi-weekly basis, the Lighthouse program sync occurs with cross-functional r
 ### Exiting the Lighthouse Program
 
 Once the goals of the save plan are met, as measured by the success criteria, Sales and TS leadership will collectively agree that the customer is in a healthy spot and they’ll exit the lighthouse program.
+
+## Churn Retro Process
+
+The TA team will run a retrospective of all customer churn above $150,000 ARR.  This includes Full Churn and Partial Churn.
+
+Once the churn is officially realized, the TS Churn Retro Sponsor will contact the assigned TA to have them begin the process using the Churn Retro template in Vitally.
+
+To start this doc go to - Account -> Docs -> Create New -> Churn retro for >$150k ARR
+
+After TA completes, they will book a call with AE and TS Churn Retro Sponsor to review the doc together.
+
+During this process, the account team will review the closed lost opportunity in SFDC and agree on the Closed Lost category and reason.
+
+The TS Churn Retro Sponsor will post a PDF Version of this doc in #gtm-operations-review and be responsible for acting on the Lessons Learned and Call to Action outcomes.
+
 
 # Customer Health
 
