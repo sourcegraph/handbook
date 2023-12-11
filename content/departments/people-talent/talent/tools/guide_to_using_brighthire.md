@@ -52,7 +52,7 @@ On your Greenhouse scorecard, click the blue "View recording" button on the side
 
 #### Step 6 (leveraging AI for your notes)
 
-If you'd like to leverage notes that the AI notetaker has created for you, click on the "AI Notes" tab on your BrightHire side panel. You can copy the entire interview, or notes from each question, by clicking on the double square symbol and pasting them into your Greenhouse scorecard wherever they may the most sense. Loom instructions for step 6 can be found [here](https://www.loom.com/share/a727c89c9f1443909b897df2e783afdc?sid=b84f22e6-4941-48aa-9c22-51477e0ac806).
+If you'd like to automate filling in your scorecard by leveraging notes that the AI notetaker has created for you, click on the "AI Notes" tab on your BrightHire side panel in the Greenhouse scorecard. Then, simply click the blue “Import All Notes” button in the scorecard. Your AI notes will automatically be uploaded to the questions they pertain to when a match is detected. Any unmatched AI notes will be pasted to the "Key Takeaways" field of your scorecard.  Loom instructions for step 6 can be found [here](https://help.brighthire.ai/en/articles/4606106-using-greenhouse-with-brighthire-for-interviewers).
 
 #### Step 7 (complete and submit your Greenhouse scorecard)
 
