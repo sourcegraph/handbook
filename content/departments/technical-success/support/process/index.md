@@ -7,7 +7,6 @@
 - [Collaboration time](collaboration-time.md)
 - [Customer exceptions](customer-exceptions.md)
 - [How To Ticket Procedure](how-to-tickets.md)
-- [Managing CS AWS](managing-cs-aws.md)
 - [Managing CS K8s](managing-cs-k8s.md)
 - [P4 Enablement](p4-enablement.md)
 - [Managed instances](support-managed-instances.md)
