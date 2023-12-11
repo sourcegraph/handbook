@@ -55,7 +55,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 - Search using the search context context:resolved_tickets.
 - Search by using keywords like version (v3.30.0), service name (gitserver, frontend), or deployment type (Kubernetes, Docker Compose).
 - Example Search Queries:
-  - [Issues with codeinsights on a version 3.30 Kubernetes deployment](https://cse-aws-test.sgdev.org/search?q=repo:%5Egithub%5C.com/sourcegraph/support-tools-internal%24+file:%5Eresolved-tickets+v3.30.+AND+kubernetes+AND+codeinsights&patternType=literal).
+  - [Issues with codeinsights on a version 3.30 Kubernetes deployment](https://cse-k8s.sgdev.org/search?q=repo:%5Egithub%5C.com/sourcegraph/support-tools-internal%24+file:%5Eresolved-tickets+v3.30.+AND+kubernetes+AND+codeinsights&patternType=literal).
   - [Internal Repo Permissions Syncing](https://cse-k8s.sgdev.org/search?q=context:Resolved_Tickets+Internal+Repo+Permissions+Syncing+&patternType=regexp)
   - [corruption](https://cse-k8s.sgdev.org/search?q=context:Resolved_Tickets+corruption&patternType=regexp)
   - [extsvc.json](https://cse-k8s.sgdev.org/search?q=context:Resolved_Tickets+extsvc.json&patternType=regexp)
