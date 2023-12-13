@@ -299,7 +299,7 @@ are working on this piece of code?
 
 - **Duration:** 45-minutes
 
-- **How to prepare:** During this interview, we will ask you to explain a recent project, including how you led it and approached different challenges. Please be prepared to answer questions around your technical approach and architecture.
+- **How to prepare:** The goal of the technical deep dive interview is to assess both theoretical understanding and practical application skills in machine learning. This interview will focus on ranking specific ML knowledge (e.g. models, loss functions, experimentation) as well as orchestration tools and strategies for developing end to end ML systems in production.
 
 #### Pairing Exercise
 
