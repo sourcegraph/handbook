@@ -14,14 +14,14 @@ These conversations should take into consideration onboarding expectations, onbo
 
 **Feedback Milestone: Month 1:**
 
-- check in on onboarding, values fit and get a sense for how they’re feeling
-- normalize two-way feedback and
+- check in on onboarding and get a sense for how they’re feeling
+- normalize two-way feedback
 - open conversation and build trust
 
 **Feedback Milestone: Month 3:**
 
-- check in on OKR/expectations tracking and values fit and get a sense for how they’re feeling
-- normalize two-way feedback and
+- check in on OKRs/expectations tracking and get a sense for how they’re feeling
+- normalize two-way feedback
 - open conversation and build trust
 - get a feel for if they’re going to succeed and action if they aren’t (keep in mind teammates should be participating in projects by month 2 and owning projects by month 3)
 
@@ -33,16 +33,15 @@ Once the reviews are complete, manager and direct report will meet synchronously
 
 ### New teammate: What to expect
 
-During the new teammates’ first week with us, new teammates will find a task in their Process.St checklist called **Understanding your impact**. Visit your (or your direct report's) [Process.St](https://app.process.st/reports/saved-views/jximA08020M34hrr8fZGsQ) checklist to read more about it.
+During the new teammates’ first week with us, new teammates will find a task in their Process.St checklist called **Growth at Sourcegraph**. Visit your (or your direct report's) [Process.St](https://app.process.st/reports/saved-views/jximA08020M34hrr8fZGsQ) checklist to read more about it.
 
 New teammates are responsible for scheduling the meetings in Google Calendar.
 
-New teammates will receive a review form a month and 3 months after joining. They will have to complete and submit the questions in Lattice. The question will **not** be private and new teammates will see what managers have written and managers will see what their direct reports wrote too.
+New teammates will receive a review form 1 month and 3 months after joining. They will have to complete and submit the questions in Lattice. The question will **not** be private and new teammates will see what managers have written and managers will see what their direct reports wrote too.
 
 **Teammate prep**
 
 - check onboarding checklist
-- have list of values and examples ready
 - have examples ready
 - think about examples of what your manager can do to support you better
 
@@ -57,7 +56,6 @@ Keep in mind managers may define expectations differently to fit the team, the m
 **Manager prep**
 
 - check onboarding checklist
-- have list of values and examples ready
 - have examples ready
 - think about the project in which the teammate is participating and their performance
 
@@ -67,29 +65,19 @@ Keep in mind managers may define expectations differently to fit the team, the m
 
 **Month 1**
 
-- How are you feeling about your new role and experience at Sourcegraph so far? (Free form - required)
-- How well have the training & resources guided your onboarding journey? Did we meet your expectations? (Rating Scale + Free Form - required)
-- If you could describe onboarding in one sentence, what would it be? (Free form - optional)
-- Is there anything you need help with? What are the biggest obstacles you have encountered so far? (Free form)
-- Are you clear on expectations? Is your manager providing you with continuous feedback and guidance? (Free form - required)
-- Any additional feedback?
+1. How is onboarding going for you?
+2. How can we improve the onboarding experience for you and future teammates?
+3. Is your manager providing you with continuous feedback and guidance as it relates to your performance?
 
 **Month 3**
 
-- Did the onboarding process meet your expectations? What could we have done better? Please describe. (Free form - required)
-- Do you feel connected to your teammates? Is there anything that would help you feel more connected? (Free form - optional)
-- When you have questions about your work, do you have the resources to get them resolved? Do you need more time with your onboarding buddy or manager? (Free form - required)
-- How clearly do you understand what is expected of you? (Free Form - required)
-- How would you rate your performance thus far? (Rating Scale + Free Form - required)
-- What can your manager or teammates do to better support you? (Free form - optional)
+1. Did the onboarding process meet your expectations? (In the comment section please expand on what went well and what we could have done better)
+2. Do you have any questions or concerns about your role, expectations, or next steps? (Please elaborate in the comment section)
+3. Are there any gaps or areas we could improve the onboarding experience for future new hires?
 
 #### Manager Questions
 
-**Month 1 & 3**
+**Month 1 and 3**
 
-- How did this person’s performance map against the expected onboarding goals? (Rating Scale + Free Form - required)
-- How well is this person collaborating with you and their teammates? (Rating Scale + Free Form - required)
-- What areas of coaching do they need to ramp up to the role expectations? (Free Form - required)
-- How does this person’s behavior compare to our values? (Rating Scale + Free Form - required)
-- Overall, the teammate had a successful onboarding process (Rating Scale + Free Form - required)
-- Is there anything more the PeopleOps team could have done to make their onboarding a success? (Free form - optional)
+1. What is this person doing well? What are their growth areas (if any) and how are you working with them to improve?
+2. I would hire this teammate again if given the opportunity (not visible to new teammate)
