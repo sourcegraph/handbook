@@ -273,6 +273,8 @@ The standard approval process:
 2. Finance
 3. People Team
 
+The People Ops team monitors the approval chain and sends Slack reminders to approvers if they are a blocker and have not submitted approval.
+
 Tech Ops needs to be included when Departments or Divisions change, so they can ensure teammates don’t lose access to any systems/historical data at the wrong time. Here is how we process this:
 
 **Step 1:** People Ops sees a department and/or division change request come through Bamboo
