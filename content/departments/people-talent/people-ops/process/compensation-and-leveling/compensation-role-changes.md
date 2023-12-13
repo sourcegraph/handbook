@@ -10,6 +10,8 @@ _The below workflows are intended to help guide managers when requesting approva
 1. Select the type of change you'd like to make from the drop down menu
 1. Follow the workflow (instructions for each workflow below) and submit for approval
 
+People Ops will monitor the approval process and reach out to approvers via slack if they need a reminder to review/approve the request.
+
 ## Requesting a compensation change (cash only)
 
 _Use for changes to cash compensation (base salary) only. Use cases include: merit increase and market (compensation band) adjustments. When filling out the form, you only need to edit the field(s) that need updating, you can leave other fields as is._
