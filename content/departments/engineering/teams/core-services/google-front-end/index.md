@@ -16,7 +16,7 @@ Two types of URL mapping semantics are currently supported:
 
 > [!NOTE] This GFE instance is coming out of the proposal in the [RFC 857 PRIVATE](https://docs.google.com/document/d/1q8lwcjrrmhKItfm2PaM4ay6JPPCtJtJPM7qLEyKqGhY/edit).
 
-The Sourcegraph.com GFE transparently proxying traffic to [Marketing site Netlify deployment](https://github.com/sourcegraph/about) and [Community Code Search deployment](https://github.com/sourcegraph/deploy-sourcegraph-cloud):
+The Sourcegraph.com GFE transparently proxying traffic to [Marketing site Netlify deployment](https://github.com/sourcegraph/about), [Sourcegraph Docs v2 Vercel deployment](https://github.com/sourcegraph/sourcegraph-docs-v2) and [Community Code Search deployment](https://github.com/sourcegraph/deploy-sourcegraph-cloud):
 
 Proxy routing is based on the URL mapping (`routes.tf`):
 
