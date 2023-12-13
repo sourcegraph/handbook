@@ -15,7 +15,7 @@ These conversations should take into consideration onboarding expectations, onbo
 **Feedback Milestone: Month 1:**
 
 - check in on onboarding and get a sense for how they’re feeling
-- normalize two-way feedback 
+- normalize two-way feedback
 - open conversation and build trust
 
 **Feedback Milestone: Month 3:**
