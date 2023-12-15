@@ -1244,16 +1244,6 @@ dora_neumeier:
   links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
   description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
 
-sarah_dunn:
-  name: Sarah Dunn
-  email: sarah.dunn@sourcegraph.com
-  github: sarahedunn
-  pronouns: she/her
-  role: Enterprise Account Executive
-  reports_to: rsd_west
-  location: Bellingham, WA
-  description: Sarah lives in Bellingham, WA with her husband and dog. Prior to Sourcegraph, Sarah gained experience working at Xactly, Lessonly, and Salesloft helping organizations transform and accelerate their go-to-market motions. When not working, Sarah can be found outside biking, skiing, running, hiking and swimming.
-
 naman_kumar:
   name: Naman Kumar
   email: naman.kumar@sourcegraph.com
