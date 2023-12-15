@@ -110,7 +110,7 @@ Additionally, the candidate's phone number should always be included in the inte
 
 **Step 5:** Write the words "#brighthire" in the body of the email so that the recorded debrief is tied to the candidate's brighthire page
 
-**Step 6:** Invite debrief@brighthire.ai to the debrief to [streamline your AI notes](https://help.brighthire.ai/en/articles/8639721-use-brighthire-for-intake-debriefs). 
+**Step 6:** Invite debrief@brighthire.ai to the debrief to [streamline your AI notes](https://help.brighthire.ai/en/articles/8639721-use-brighthire-for-intake-debriefs).
 
 **Step 7:** Send the invite at the most optimal time for all interviewers
 
