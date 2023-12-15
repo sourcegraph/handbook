@@ -200,7 +200,7 @@ Existing Sourcegraph customer (Customer A) closed a one-year subscription on Dec
 
 ### Discounts for multi-SKU purchases
 
-When discounts are provided to a customer we recognize and report on them (for non-GAAP metrics, such as ARR) according to the following rules, regardless of what the order form states.
+When discounts are provided to a customer, we recognize and report on them (for non-GAAP metrics, such as ARR) according to the following rules, regardless of what the order form states.
 
 1. First, discounts are applied against all one-time/non-recurring revenue E.g., implementation fees.
 1. Second, discounts are applied proportionally against all recurring SKUs based on list prices.
