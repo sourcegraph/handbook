@@ -24,6 +24,7 @@ code_security:
   title: Code security
   link: /strategy-goals/strategy/use_cases/code_security
   sponsors:
+    engineering: erika_rice_scherpelz
 
 incident_response:
   title: Incident Response
