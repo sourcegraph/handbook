@@ -44,7 +44,7 @@ stephen_gutekanst:
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
   role: Software Engineer
-  reports_to: search_platform_lead
+  reports_to: search_lead
   location: Cape Town, South Africa 🇿🇦
   github: keegancsmith
   email: keegan@sourcegraph.com
@@ -61,42 +61,6 @@ joe_chen:
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
   description: Joe lives in his little dark room. Prior to Sourcegraph, Joe created the Gogs project, a painless self-hosted Git service. Joe graduated with a MS in Software Development from Boston University.
 
-thorsten_ball:
-  name: Thorsten Ball
-  pronouns: he/him
-  role: Engineering Manager, Source & APIs
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_source_apis
-  location: Aschaffenburg, Bavaria, Germany 🇩🇪
-  github: mrnugget
-  email: thorsten@sourcegraph.com
-  links: '[@thorstenball](https://twitter.com/thorstenball), [LinkedIn](https://www.linkedin.com/in/thorsten-ball-3142b652), [thorstenball.com](https://thorstenball.com)'
-  description: "Thorsten started his career as a software engineer after dropping out of college where he studied philosophy. Since then he's mainly worked for startups (flinc, ioki) in the mobility space before starting at Sourcegraph. In his spare time, he's also a writer and wrote and self-published [two](https://interpreterbook.com) [books](https://compilerbook.com) about his favorite pet topics: interpreters & compilers. He lives together with his wife and daughter in a small-ish city in Germany. He met his wife, who happened to hail from the same small town in Germany, in Australia while he was working at a shipyard."
-
-thorsten_ball_source:
-  name: Thorsten Ball
-  pronouns: he/him/his
-  role: Engineering Manager, Source
-  reports_to: eng_lead
-  manager_role_slug: source_lead
-  hide_on_team_page: true
-
-thorsten_ball_apis:
-  name: Thorsten Ball
-  pronouns: he/him/his
-  role: Engineering Manager, APIs
-  reports_to: eng_lead
-  manager_role_slug: apis_lead
-  hide_on_team_page: true
-
-thorsten_ball_search_platform:
-  name: Thorsten Ball
-  pronouns: he/him/his
-  role: Engineering Manager, Search Platform (interim)
-  reports_to: eng_lead
-  manager_role_slug: search_platform_lead
-  hide_on_team_page: true
-
 dan_adler:
   name: Dan Adler
   pronouns: he/him
@@ -112,7 +76,7 @@ dan_adler:
 geoffrey_gilmore:
   name: Geoffrey Gilmore
   role: Software Engineer
-  reports_to: apis_lead
+  reports_to: search_lead
   location: San Francisco, CA, USA 🇺🇸
   github: ggilmore
   email: geoffrey@sourcegraph.com
@@ -121,7 +85,7 @@ geoffrey_gilmore:
 erik_seliger:
   name: Erik Seliger
   role: Software Engineer, Source
-  reports_to: source_lead
+  reports_to: search_lead
   location: Bremen, Germany 🇩🇪
   github: eseliger
   email: erik@sourcegraph.com
@@ -164,7 +128,7 @@ stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him
   role: Software Engineer
-  reports_to: search_platform_lead
+  reports_to: search_lead
   location: Berlin, Germany 🇩🇪
   github: stefanhengl
   email: stefan@sourcegraph.com
@@ -1062,7 +1026,7 @@ petri_last:
   name: Petri-Johan Last
   pronouns: he/him
   role: Software Engineer, Source
-  reports_to: source_lead
+  reports_to: search_lead
   location: Stellenbosch, Western Cape, South Africa 🇿🇦
   github: pjlast
   pronunciation: '[pɪətʁɪ lɑst](http://ipa-reader.xyz/?text=p%C9%AA%C9%99t%CA%81%C9%AA%20l%C9%91st&voice=Joey)'
@@ -1243,16 +1207,6 @@ dora_neumeier:
   location: Salzburg, Austria
   links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
   description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
-
-sarah_dunn:
-  name: Sarah Dunn
-  email: sarah.dunn@sourcegraph.com
-  github: sarahedunn
-  pronouns: she/her
-  role: Enterprise Account Executive
-  reports_to: rsd_west
-  location: Bellingham, WA
-  description: Sarah lives in Bellingham, WA with her husband and dog. Prior to Sourcegraph, Sarah gained experience working at Xactly, Lessonly, and Salesloft helping organizations transform and accelerate their go-to-market motions. When not working, Sarah can be found outside biking, skiing, running, hiking and swimming.
 
 naman_kumar:
   name: Naman Kumar
@@ -1492,7 +1446,7 @@ julie_tibshirani:
   github: jtibshirani
   pronouns: she/her
   role: Software Engineer
-  reports_to: search_platform_lead
+  reports_to: search_lead
   location: San Francisco, CA, USA 🇺🇸
   links: '[@julietibs](https://twitter.com/julietibs), [jtibshirani.github.io](https://jtibshirani.github.io)'
   description: Julie loves building systems that are empowering and enjoyable to use. She's particularly passionate about search and open source development. Outside of software, Julie enjoys backpacking, dancing, and tending to her many houseplants.
