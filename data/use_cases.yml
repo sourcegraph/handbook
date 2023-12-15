@@ -24,7 +24,6 @@ code_security:
   title: Code security
   link: /strategy-goals/strategy/use_cases/code_security
   sponsors:
-    engineering: thorsten_ball
 
 incident_response:
   title: Incident Response
