@@ -11,7 +11,7 @@
 
 **Make it so everyone codes.**
 
-A world where everyone, not just ~0.1% of the world population, codes will see faster and more broadly beneficial technological progress.
+A world where everyone, not just ~0.1% of the world population, who codes will see faster and more broadly beneficial technological progress.
 
 But coding is already too complex for most people to start coding, and it's only getting worse as consumers demand more from software and code piles up. We're making it less complex. That will make more people able to code.
 
