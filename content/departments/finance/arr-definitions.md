@@ -197,3 +197,12 @@ Existing Sourcegraph customer (Customer A) closed a one-year subscription on Dec
 ### Process for communicating and reporting on, out of Period Adjustments
 
 - Please see our [process](https://docs.google.com/document/d/1J7Z_PW0Fzkti4qRR8iHuSxFeJh7hbEKttp3v5zfAMR8/edit#) for communicating and reporting on, out of period ARR adjustments.
+
+### Discounts for multi-SKU purchases
+
+When discounts are provided to a customer, we recognize and report on them (for non-GAAP metrics, such as ARR) according to the following rules, regardless of what the order form states.
+
+1. First, discounts are applied against all one-time/non-recurring revenue E.g., implementation fees.
+1. Second, discounts are applied proportionally against all recurring SKUs based on list prices.
+
+For an example of the second bullet above: if a customer purchased $100k (list price) of software and $50k of recurring services, but they were only paying $135k (i.e., they had a 10% discount), then we would record it and report it as $90k of software IARR and $45k of services IARR, or 10% off of each product at list price.
