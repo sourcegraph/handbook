@@ -182,7 +182,7 @@ If you need your password reset for the Sequoia website or app, please attempt t
 
 ## Digital ID Cards:
 
-All digital insurance cards are located in Sequoia, which is our benefits broker. All health insurance cards and coverage questions are handled by Sequoia. You will receive physical medical cards, but dental will only be available through the Sequoia app. Vision cards are not provided, but your insurance can be verified with your vision provider with your name, SSN, and stating your plan is with Equitable Vision. 
+All digital insurance cards are located in Sequoia, which is our benefits broker. All health insurance cards and coverage questions are handled by Sequoia. You will receive physical medical cards, but dental will only be available through the Sequoia app. Vision cards are not provided, but your insurance can be verified with your vision provider with your name, SSN, and stating your plan is with Equitable Vision.
 
 US-based Teammates can access virtual insurance member IDs in the Sequoia mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
 
