@@ -58,7 +58,6 @@ There is no "that's not my responsibility" with the use of streams, we just have
 - TJ
 - Varun
 - Anton
-- Auguste
 
 ##### Focus and ownership
 
