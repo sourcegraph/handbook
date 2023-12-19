@@ -368,7 +368,8 @@ Non-US teammates:
 
 US teammates:
 
-- All virtual insurance cards are located in the Sequoia app ([Apple](https://apps.apple.com/us/app/sequoia-mobile/id1185900896), [Google](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)). You will receive physical medical card(s) but dental and vision will only be available through the app.
+- Medical and Dental virtual insurance cards are located in the Sequoia app ([Apple](https://apps.apple.com/us/app/sequoia-mobile/id1185900896), [Google](https://play.google.com/store/apps/details?id=com.sequoia.android&pli=1)). You will receive physical medical card(s) for medical only.
+- For Vision, we do not have physical or virtual cards. Your provider can verify insurance with your name, SSN, and stating your vision insurance is Equitable. 
 
 Non-US teammates:
 
