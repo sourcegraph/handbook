@@ -761,7 +761,7 @@ Please don't go overboard on preparation, plans, or detail. A simple Google Doc 
 
 #### Project planning working session
 
-For the working session, we ask that you come prepared to share an overview of a project where you were given a vague set of requirements on a highly complex project. Things to consider/highlight:
+For the working session, we ask that you come prepared to share an overview of a project where you were given a vague set of requirements on a highly ambiguous project. Things to consider/highlight:
 
 - How did you pull all of it together into a plan from start to finish?
 - Who did you need to get approved & buy-in from & how did you do that?
