@@ -440,7 +440,9 @@ You can see this information in [this handbook page](../../../../../benefits-pay
 
 #### The PTO policy in my country of residence is different from Sourcegraph’s PTO policy, which one should I follow?
 
-You are required to take the minimum statutory PTO days in your country in order for us to be compliant with Deel and your country’s laws. However you are not _limited to_ the minimum statutory PTO days in your country. Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), which the Deel team is aware of. Please submit your time off using the PTO by Deel Slack App as usual and it will sync with the Deel platform.
+You are required to take the minimum statutory PTO days in your country in order for us to be compliant with Deel and your country’s laws. However you are not _limited to_ the minimum statutory PTO days in your country. Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), which the Deel team is aware of. Please submit your time off using the PTO by Deel Slack App to ensure the data syncs with the Deel platform. 
+
+- **Once you have hit your PTO statutory minimum, please submit any additional time off under the 'Other' category and add the comment "Unlimited PTO".**
 
 The Deel team is aware of our flexible PTO policy and will honor it. Please submit your time off using the PTO by Deel Slack App as usual - it will sync with the Deel platform and you will not be limited to the number of statutory days based on your country.
 
@@ -448,7 +450,7 @@ The Deel team is aware of our flexible PTO policy and will honor it. Please subm
 
 You can check [this article](https://help.letsdeel.com/hc/en-gb/articles/4409044013201-How-do-I-request-time-off-) on how to ask for time off through Deel’s platform.
 
-Sourcegraph uses Roots to submit PTO. There is an integration set up with Roots and Deel, so you will be able to submit time off via Roots and it will automatically sync to Deel. For this to work, your Deel email will need to match your Roots email (your Sourcegraph email). Make sure you change your Deel email to your corporate one if you wish this integration to apply to you.
+Sourcegraph uses the PTO by Deel Slack app to submit PTO. There is an integration set up between the Slack app and Deel, so you will be able to submit time off via the Slack app and it will automatically sync to the Deel platform. For this to work, your Deel email will need to match your Slack email (your Sourcegraph email). Make sure you change your Deel email to your corporate one if you wish this integration to apply to you.
 
 You can read more about submitting time off via [Deel here](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md).
 
