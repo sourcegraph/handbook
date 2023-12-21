@@ -20,7 +20,7 @@ This will involve coordinating with multiple teams to get all the data deleted f
 
 1a. If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](../tools/index.md#sourcegraphcom-admin-access) (it requires site admin). Inform the customer that you can only remove the username associated with the email they submitted the request from.
 
-_Teammates can [request site admin access to dotcom](https://handbook.sourcegraph.com/departments/security/admin-access-internal-instances/) through Entitle._
+_Teammates can [request site admin access to dotcom](../../../security/admin-access-internal-instances.md) through Entitle._
 
 1b. If the request is for a customers' on-prem instance, the site admin of that instance is the only one who can perform that action and they will need to follow the steps outlined here.
 
