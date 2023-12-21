@@ -131,7 +131,7 @@ Program owner: People-Ops
 
 DRI: Jamie O’Connell
 
-Internal process:
+Internal process (full step-by-step [here](https://docs.google.com/document/d/1nWy-6X2C0LyYwGR-6HtSNU7EeUODHf-RWsT0sHNhGT0/edit)):
 
 1. Teammate submits Google form
 2. People Ops is notified of new submission and reviews
