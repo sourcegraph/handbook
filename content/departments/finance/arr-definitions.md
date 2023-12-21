@@ -80,6 +80,8 @@ _Quota credit is subject for review in the event a customer churns in one month 
 
 - ARR/IARR should be calculated as follows: Early Renewal Contract ARR - Current Contract ARR.
 
+- For early renewal deals with churn, we will recognize churn on the start date of the new contract. Contract end date + 1 day is our traditional churn guidance, but we will bring it forward for rip and replace deals. Ex: The Customer's contract expires in July 2024, and signs an early renewal in December 2023 with a new start date of February 01, 2024. Even if the Order Form is signed in December, we will not recognize churn until Februry 01, 2024.
+
 ### Other Commercial Considerations and Proposed ARR Treatment:
 
 - Sourcegraph only sells contracts in increments of 12 months up to 36 months on an initial, new business customer commitment.
