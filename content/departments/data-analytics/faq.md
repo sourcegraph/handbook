@@ -4,36 +4,35 @@ Below are answers to common questions teammates at Sourcegraph have.
 
 ### I can't find a customer's instance anywhere in Looker. What's going on?
 
-You can look up the installer_email on your customer's instance using their license key with [this chart](https://sourcegraph.looker.com/looks/1597?toggle=fil). You can then filter any of our enterprise dashboards by installer_email to see this customer's usage. If you try this and you're still not able to locate their instance, it's possible they haven't input a license key yet, or that they're "[offline](https://sourcegraph.looker.com/looks/1527)" (not sending any telemetry). 
+You can look up the installer_email on your customer's instance using their license key with [this chart](https://sourcegraph.looker.com/looks/1597?toggle=fil). You can then filter any of our enterprise dashboards by installer_email to see this customer's usage. If you try this and you're still not able to locate their instance, it's possible they haven't input a license key yet, or that they're "[offline](https://sourcegraph.looker.com/looks/1527)" (not sending any telemetry).
 
+### I’m looking for data about….do we have that?
 
-### I’m looking for data about….do we have that? 
+Our most frequently used reporting can be found [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#sts=Notable%20reports). If you don't see what you're looking for there, you can try utilizing Looker's search bar to search for the report you need. If you still can't find anything, feel free to reach out to #discuss-analytics.
 
-Our most frequently used reporting can be found [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#sts=Notable%20reports). If you don't see what you're looking for there, you can try utilizing Looker's search bar to search for the report you need. If you still can't find anything, feel free to reach out to #discuss-analytics. 
+### I’m using Looker and want to edit/explore a chart or dashboard, but I don’t have the right permissions. How do I upgrade my permissions?
 
-### I’m using Looker and want to edit/explore a chart or dashboard, but I don’t have the right permissions. How do I upgrade my permissions? 
-
-Manipulating existing looker charts (adding a different filter, changing dimensions, adding a column, etc) requires the view/edit/create role. You can request a view/edit/create role in Looker via Entitle - This will allow you to edit and explore any chart in Looker. A link and instructions can be found [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#how-do-i-get-access-to-looker). Your Entitle request should be processed immediately - just be sure to log out and log back in to Looker after your Entitle request goes through. 
+Manipulating existing looker charts (adding a different filter, changing dimensions, adding a column, etc) requires the view/edit/create role. You can request a view/edit/create role in Looker via Entitle - This will allow you to edit and explore any chart in Looker. A link and instructions can be found [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#how-do-i-get-access-to-looker). Your Entitle request should be processed immediately - just be sure to log out and log back in to Looker after your Entitle request goes through.
 
 For tips about how to explore data in Looker - see [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#how-to-use-looker).
 
-### What’s the best resource to see my customer’s cody usage? 
+### What’s the best resource to see my customer’s cody usage?
 
-You can use our [Cody Customer Dashboard](https://sourcegraph.looker.com/dashboards/503?Server+Endpoint=podium.sourcegraphcloud.com&Date=30+day&Minutes+Saved+per+Chat=5&Minutes+Saved+per+Command+=5&Minutes+Saved+per+Completion+=2) to see any customer's cody usage. Locate your customer's instance using the server endpoint filter - the server endpoint is the same as the URL the customer uses to visit their instance. Generally this URL is something along the lines of [customer].sourcegraph.com. One thing to note is that currenlty we don't collect cody web usage from customer instances - so web data cannot be found on this dashboard. 
+You can use our [Cody Customer Dashboard](https://sourcegraph.looker.com/dashboards/503?Server+Endpoint=podium.sourcegraphcloud.com&Date=30+day&Minutes+Saved+per+Chat=5&Minutes+Saved+per+Command+=5&Minutes+Saved+per+Completion+=2) to see any customer's cody usage. Locate your customer's instance using the server endpoint filter - the server endpoint is the same as the URL the customer uses to visit their instance. Generally this URL is something along the lines of [customer].sourcegraph.com. One thing to note is that currenlty we don't collect cody web usage from customer instances - so web data cannot be found on this dashboard.
 
+We don't collect user PII from our customers, but if a customer wants to see who their "top" cody users are - this [chart](https://sourcegraph.looker.com/looks/1707?toggle=fil,pik) will generate a query the customer can run against their own instance to see who is using Cody. Be sure to read the description on this chart before using, so you apply the filters appropriately.
 
-We don't collect user PII from our customers, but if a customer wants to see who their "top" cody users are - this [chart](https://sourcegraph.looker.com/looks/1707?toggle=fil,pik) will generate a query the customer can run against their own instance to see who is using Cody. Be sure to read the description on this chart before using, so you apply the filters appropriately. 
-
-### What’s the best resource to see Cody usage, generally? 
+### What’s the best resource to see Cody usage, generally?
 
 - This [dashboard](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=&IDE=) contains all of our most frequently cited metrics - DAUs, installs, CAR, latency, retention..etc.
 - If you want to do more exploratory analysis, you may also want to leverage [Amplitude](https://handbook.sourcegraph.com/departments/data-analytics/amplitude/#amplitude), or, if you're SQL-savvy, you can query the dotcom_events.cody table directly in [Redash](https://handbook.sourcegraph.com/departments/data-analytics/reports/#what-is-redash)
 
-### How often does data in Looker or Amplitude refresh? 
-It depends on the dataset: 
+### How often does data in Looker or Amplitude refresh?
+
+It depends on the dataset:
+
 - Cody data / data from sourceraph.com refreshes hourly
 - Pings data usually refreshes every few hours, and some lesser used pings data points refresh daily
-
 
 ### Do we collect [insert event] on sourcegraph.com?
 
