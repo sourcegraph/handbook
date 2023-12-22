@@ -8,13 +8,13 @@ You can look up the installer_email on your customer's instance using their lice
 
 ### I’m looking for data about….do we have that?
 
-Our most frequently used reporting can be found [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#sts=Notable%20reports). If you don't see what you're looking for there, you can try utilizing Looker's search bar to search for the report you need. If you still can't find anything, feel free to reach out to #discuss-analytics.
+Our most frequently used reporting can be found [here](reports.md#notable-reports). If you don't see what you're looking for there, you can try utilizing Looker's search bar to search for the report you need. If you still can't find anything, feel free to reach out to #discuss-analytics.
 
 ### I’m using Looker and want to edit/explore a chart or dashboard, but I don’t have the right permissions. How do I upgrade my permissions?
 
-Manipulating existing looker charts (adding a different filter, changing dimensions, adding a column, etc) requires the view/edit/create role. You can request a view/edit/create role in Looker via Entitle - This will allow you to edit and explore any chart in Looker. A link and instructions can be found [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#how-do-i-get-access-to-looker). Your Entitle request should be processed immediately - just be sure to log out and log back in to Looker after your Entitle request goes through.
+Manipulating existing looker charts (adding a different filter, changing dimensions, adding a column, etc) requires the view/edit/create role. You can request a view/edit/create role in Looker via Entitle - This will allow you to edit and explore any chart in Looker. A link and instructions can be found [here](reports.md#how-do-i-get-access-to-looker). Your Entitle request should be processed immediately - just be sure to log out and log back in to Looker after your Entitle request goes through.
 
-For tips about how to explore data in Looker - see [here](https://handbook.sourcegraph.com/departments/data-analytics/reports/#how-to-use-looker).
+For tips about how to explore data in Looker - see [here](reports.md#how-to-use-looker).
 
 ### What’s the best resource to see my customer’s cody usage?
 
@@ -25,7 +25,7 @@ We don't collect user PII from our customers, but if a customer wants to see who
 ### What’s the best resource to see Cody usage, generally?
 
 - This [dashboard](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=&IDE=) contains all of our most frequently cited metrics - DAUs, installs, CAR, latency, retention..etc.
-- If you want to do more exploratory analysis, you may also want to leverage [Amplitude](https://handbook.sourcegraph.com/departments/data-analytics/amplitude/#amplitude), or, if you're SQL-savvy, you can query the dotcom_events.cody table directly in [Redash](https://handbook.sourcegraph.com/departments/data-analytics/reports/#what-is-redash)
+- If you want to do more exploratory analysis, you may also want to leverage [Amplitude](amplitude.md#amplitude), or, if you're SQL-savvy, you can query the dotcom_events.cody table directly in [Redash](reports.md##what-is-redash)
 
 ### How often does data in Looker or Amplitude refresh?
 
