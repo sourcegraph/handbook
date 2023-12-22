@@ -1580,17 +1580,6 @@ erika_rice_scherpelz:
   manager_role_slug: search_lead
   description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'
 
-auguste_rame:
-  name: Auguste Rame
-  email: auguste.rame@sourcegraph.com
-  github: SuperAuguste
-  pronouns: he/him
-  role: Software Engineering Intern, Code Intelligence
-  reports_to: search_lead
-  location: Washington, DC
-  links: '[Website](https://augustera.me/), [LinkedIn](https://www.linkedin.com/in/auguste-rame/), [Twitter](https://twitter.com/hackeroftacos)'
-  description: 'I started my programming journey writing Minecraft plugins for my friends, then taught kids programming for a non-profit and volunteered at a vaporwave magazine, a school satire publication, and Libraries Without Borders. My most recent work has revolved around the [Zig Language Server](https://github.com/zigtools/zls) and wider Zig community. In my free time, I love handmaking pasta and running.'
-
 anton_sviridov:
   name: Anton Sviridov
   email: anton.sviridov@sourcegraph.com
