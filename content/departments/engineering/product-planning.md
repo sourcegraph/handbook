@@ -46,21 +46,22 @@ Note, not every team will have work to do that applies to every goal every
 quarter. Likewise, not every work item is expected to meet a strategic goal.
 
 ## Engineer Scoping
+
 For any launch, we have a finite amount of time and a finite number of engineers.
 After EPD has laid out their hopes and dreams for a given launch but before the
 PFP review itself, EPD should go through an "eng scoping" exercise, i.e.
+
 1. What is the eng effort associated with each of the P0 and P1 items, e.g. 2
-days or 3 weeks or ...? [Here's an example of one such exercise.](https://docs.google.com/spreadsheets/d/1adlwcMWHIpDGioBkE9LUdLMHxprtxhh_WSZqxu6Iyxs/edit#gid=0)
+   days or 3 weeks or ...? [Here's an example of one such exercise.](https://docs.google.com/spreadsheets/d/1adlwcMWHIpDGioBkE9LUdLMHxprtxhh_WSZqxu6Iyxs/edit#gid=0)
 1. Given the priorities and the eng effort required for each item, where do we
-draw the line of what we can accomplish for our launch? Ideally it includes all
-of the P0s. If it doesn't, we have to mitigate.
+   draw the line of what we can accomplish for our launch? Ideally it includes all
+   of the P0s. If it doesn't, we have to mitigate.
 1. Mitigate the implications of the where the line between what we need (P0s),
-what we want (P1s) and our actual eng effort. Can we get all of the P0s in?
-If not, then what do we do? Continue cutting scope? Slip the release?
+   what we want (P1s) and our actual eng effort. Can we get all of the P0s in?
+   If not, then what do we do? Continue cutting scope? Slip the release?
 
 The eng scoping work is the difference between eyeballing a list of requirements
 and hoping we can get them all done and actually having some confidence that
 we can accomplish what we want. And if we can't, we want to know that ASAP so
 that we can escalate as part of the PFP review in the Risks/Needs section
 of the PFP review.
-
