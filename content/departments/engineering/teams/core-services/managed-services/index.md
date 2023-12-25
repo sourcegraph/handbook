@@ -3,6 +3,8 @@
 A big part of the Core Services team is developing and maintaining our managed cloud services infrastructure.
 Going forward, new managed services - internal and external - should aim to be deployed using [MSP (Managed Services Platform)](./platform.md).
 
+Guidance for MSP incidents is available in [Managed Services incident response](./incidents.md).
+
 ## [Cody Gateway](../../cody/cody-gateway/index.md)
 
 > [!NOTE] Cody Gateway infrastructure is owned by the Core Services team, but the service is owned by #discuss-cody-services.
