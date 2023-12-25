@@ -97,3 +97,17 @@ terraform import google_project.pings-prod-project $PROJECT_ID
 
 Once imported, the service's `project` workspace should now be able to apply as before, as Terraform will no longer attempt a creation, but instead manage the existing imported project.
 Conflicts with existing resources can generally be addressed with this strategy using `terraform import`.
+
+Note that different resources have different naming conventions for how to import particular resources - consult the provider resource documentation, for example [the "Import" section of the `google_service_account` resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_service_account#import).
+Error messages will also indicate the naming scheme, for example:
+
+```none
+Error: Error creating service account: googleapi: Error 409: Service account operatoraccess-980434 already exists within project projects/$PROJECT_ID. Details: [ { "@type": "type.googleapis.com/google.rpc.ResourceInfo", "resourceName": "projects/$PROJECT_ID/serviceAccounts/operatoraccess-980434@$PROJECT_ID.iam.gserviceaccount.com" } ] , alreadyExists
+with google_service_account.iam-operatoraccess-account
+```
+
+The corresponding import command would use `resourceName` from the error message:
+
+```sh
+terraform import google_service_account.iam-operatoraccess-account projects/$PROJECT_ID/serviceAccounts/operatoraccess-980434@$PROJECT_ID.iam.gserviceaccount.com
+```
