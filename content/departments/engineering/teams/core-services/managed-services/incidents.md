@@ -82,7 +82,7 @@ Error: error creating project $PROJECT_ID: googleapi: Error 409: Requested entit
 with google_project.pings-prod-project
 ```
 
-In the event only the *project* is deleted, pretty much all resources can be recovered by through this page by restoring the project within 30 days.
+In the event only the _project_ is deleted, pretty much all resources can be recovered by through this page by restoring the project within 30 days.
 Deleted projects can be viewed in [Cloud Resource Manager's "Pending Deletion" page](https://console.cloud.google.com/cloud-resource-manager?pendingDeletion=true).
 Project recovery requires "Owner" permission on the deleted project - if a lot of projects need recovery, the "Owner" role can be requested at the GCP organization level with additional approval so that all projects can be recovered quickly.
 This is especially important if Entitle has not yet sync'd a project, as it often suffers significant lag time to pick up on more recently created projects.
