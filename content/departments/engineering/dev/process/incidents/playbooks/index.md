@@ -715,4 +715,4 @@ This playbook has a dedicated [page](dotcom_deleted_entirely.md).
 
 ## Managed Services Platform
 
-Guidance for Managed Services Platform (MSP) incidents is available in [Managed Services incident response](./incidents.md).
+Guidance for Managed Services Platform (MSP) incidents is available in [Managed Services incident response](../../../../teams/core-services/managed-services/incidents.md).
