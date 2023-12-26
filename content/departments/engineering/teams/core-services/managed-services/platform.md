@@ -32,6 +32,9 @@ From a simple service configuration YAML ([examples](https://github.com/sourcegr
 - Job-specific features
   - Executions backed by [Cloud Run Jobs](https://cloud.google.com/run/docs/create-jobs)
   - Cron scheduling
+- Commands for easy access to infrastructure
+  - Shortcuts to relevant UIs in `sg msp tfc view`, `sg msp logs`, etc.
+  - Securely connect to your PostgreSQL instance using `sg msp pg connect`
 
 See [our GitHub roadmap](https://github.com/orgs/sourcegraph/projects/375/views/1) and [2023 Q3 Managed Services Platform (MSP) proof-of-concept update](https://docs.google.com/document/d/1DSqKqCgXW2m0TCVBmDSasY2Hxb9cp9Uv_NgF4MEfAto/edit) for more details on things we will be adding to MSP.
 
@@ -65,6 +68,9 @@ Refer to the [sourcegraph/managed-services README](https://github.com/sourcegrap
 
 ## Operating services
 
+This is a user/operator-oriented guide.
+Guidance for MSP incidents is available in [Managed Services incident response](./incidents.md).
+
 ### Infrastructure access
 
 For MSP service environments other than `category: test`, access needs to be requested through Entitle.
@@ -90,4 +96,4 @@ Terraform Cloud (TFC) workspaces for MSP [can be found using the `msp` workspace
 To gain access to MSP project TFC workspaces, [request membership to the `Managed Services Platform Operators` TFC team via Entitle](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjM2MDAiLCJqdXN0aWZpY2F0aW9uIjoiRU5URVIgSlVTVElGSUNBVElPTiBIRVJFIiwicm9sZUlkcyI6W3siaWQiOiJiMzg3MzJjYy04OTUyLTQ2Y2QtYmIxZS1lZjI2ODUwNzIyNmIiLCJ0aHJvdWdoIjoiYjM4NzMyY2MtODk1Mi00NmNkLWJiMWUtZWYyNjg1MDcyMjZiIiwidHlwZSI6InJvbGUifV19).
 This TFC team has access to all MSP workspaces, and is [configured here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/terraform.tfvars?L44:1-48:4).
 
-For more details, also see [creating and configuring services](#creating-and-configuring-services).
+For more details, also see [creating and configuring services](https://github.com/sourcegraph/managed-services#operations).

@@ -712,3 +712,7 @@ gcloud --project=${TARGET_PROJECT} sql import sql ${TARGET_SERVER_NAME} 'gs://so
 ## [Sourcegraph.com is deleted entirely](dotcom_deleted_entirely.md)
 
 This playbook has a dedicated [page](dotcom_deleted_entirely.md).
+
+## Managed Services Platform
+
+Guidance for Managed Services Platform (MSP) incidents is available in [Managed Services incident response](../../../../teams/core-services/managed-services/incidents.md).
