@@ -236,17 +236,6 @@ mike_mclaughlin:
   links: '[LinkedIn](https://www.linkedin.com/in/mikermclaughlin/)'
   description: "Mike spent the first half of his career as a developer. He transitioned to pre-sales after realizing how much he loves working with customers to solve technically challenging problems. Mike lives in Chicago's Lincoln Park neighborhood with his wife Erika and their 2 cats (Winston and Mattie) and dog (Stella). His pets can usually be found napping by his desk during working hours. When not working, Mike enjoys traveling, live music, and relaxing on the couch."
 
-rok_novosel:
-  name: Rok Novosel
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: eng_lead
-  location: Trebnje, Slovenia 🇸🇮
-  github: novoselrok
-  email: rok@sourcegraph.com
-  links: '[@novoselrok](https://twitter.com/novoselrok)'
-  description: "Rok is a software engineer from Trebnje, Slovenia. He finished his Master's degree in computer science at the University of Ljubljana, focusing on parallel programming languages. Before joining Sourcegraph his work was mostly in the ad-tech industry. In his free time, he likes to tinker with various side projects ranging from compilers to WebAssembly. Outside of programming, he enjoys hiking, playing FIFA and supporting the Arsenal football club."
-
 andré_eleuterio:
   name: André Eleuterio
   pronouns: he/him
