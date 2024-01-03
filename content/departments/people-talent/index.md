@@ -331,6 +331,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Merit](people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy)
 - [Promotion](people-ops/process/teammate-sentiment/impact-reviews/index.md#promotion-philosophy)
 - [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
+- [People Partner <> Manager 1:1 Template](https://docs.google.com/document/d/1cGUt1o3En0LQqhFISq7AT6-t-OANTvOZXwaXcFQyLLg/edit)
 
 ### Role / comp / equity change process
 
