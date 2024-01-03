@@ -92,9 +92,9 @@ Now that you have an understanding of 1. Unconscious bias 2. Structured intervie
 These are some pillar steps that every single candidate goes through, regardless of which position they're interviewing for.
 
 - The recruiter screen is where we talk about compensation and conduct an overall qualification assessment to make sure that candidates are going to be a strong fit based on our alignment with the hiring manager.
-- We then transition to a hiring manager screen. This is normally 30 minutes. If we're doing a deep dive, sometimes it's 60 minutes.
+- We then transition to either a hiring manager screen, a technical screen, or a team collaboration screen. This is normally 30-60 minutes.
 - We then transition candidates to an assessment for some roles, but not all. The talent team will work with the hiring manager to determine if there's an assessment stage and will depend on them to build it out.
-- Next is the in-depth interview stage. This is not standardized for all roles. One of the things we're rolling out in a kind of beta testing with some hiring managers is what's known as a resume deep dive or a topgrade. Some studies have shown that this reduces a mishire rate of over 50% down to 10%. I'll train people who are interested and then once we've tested it enough internally we can determine if it makes sense to have that be mandatory across all interviews at Sourcegraph.
+- Next is the in-depth interview stage. This is not standardized for all roles. This stage is created to determine if the candidate has the skills we're looking for at the range of levels we're hiring for and if the candidate exhibits values that match our own. 
 - You will see that our [Values Interview](../process/evaluating_values.md) is mandatory and every single candidate, regardless of level, is going to go through it. Historically, we have assessed candidates to ensure that they're aligned with our values, but it's been ad hoc and in different ways depending on the hiring manager and the role. So we are standardizing the interview moving forward. Every candidate will be assessed for values in the exact same way, with the exact same questions.
 
 ### Logistics: running an interview
