@@ -54,7 +54,7 @@ The pre-to-post sales handoff process consists of the following steps:
 4. Assign Scaled Success Accounts Vitally Playbook runs to check if the Account is in the commercial segment and is less than $50k ARR. If so, the account is assigned segment of "Scaled Success"
 5. Customer Lifecycle Stages Vitally Playbook runs to assign account as "0. Prospect", the first step in the customer lifecycle. At this point, the account is created and all initial attributes about the new customer are assigned in Vitally.
 6. 30 days out from the expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
-7. If a Scaled customer, the tags customer contacts with the appropriate `role` on their contact card in Salesforce (it is multi-select).
+7. If a Scaled customer, the CE tags customer contacts with the appropriate `role` on their contact card in Salesforce (it is multi-select).
 
 | Role            | Definition                                                                                                                                                                                            |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
