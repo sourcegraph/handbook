@@ -22,7 +22,7 @@ Prior to taking time off, CEs should:
 | #team-ce                     | Internal channel the CE team uses to touch base with each other.               |
 | #discuss-ce                  | External channel for other teams to ask CEs a question.                        |
 | #discuss-support-engineering | Where support collaborates with everyone outside of support.                   |
-| #discuss-technical-advisory  | Where TA collaborates with everyone outside of TA.                     |
+| #discuss-technical-advisory  | Where TA collaborates with everyone outside of TA.                             |
 | #discuss-engineering         | Where CEs can ask product and Eng questions about Sourcegraph.                 |
 | #feedback                    | Where CEs can share customer feedback with product.                            |
 | #discuss-technical-success   | Where customer-facing technical teams collaborate on questions and issues.     |
