@@ -28,9 +28,9 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 
 Formal performance reviews take place **once a year** aligning with our promotion and compensation review cycles.
 
-  - Launches at the end of January (corresponding promotion and/or pay increase goes into effect Feb 1st).
-  - This review period reviews a teammate's performance between August 1st to January 31st.
-  - **Who is eligible:** Must be hired on or before October 1st.
+- Launches at the end of January (corresponding promotion and/or pay increase goes into effect Feb 1st).
+- This review period reviews a teammate's performance between August 1st to January 31st.
+- **Who is eligible:** Must be hired on or before October 1st.
 
 ### Impact Review Schedule - 1H FY25 review
 
@@ -39,27 +39,27 @@ Formal performance reviews take place **once a year** aligning with our promotio
 
 **Reviewer selection/Manager approval:**
 
-* 2024-02-11 to 2024-02-16 (5 business days)
-* Confirm selections with managers: 2024-02-16 (1 business day)
+- 2024-02-11 to 2024-02-16 (5 business days)
+- Confirm selections with managers: 2024-02-16 (1 business day)
 
 **Review writing:**
 
-* Review process starts: peer & self-review writing: 2024-02-19 to 2024-02-23 (5 business days)
+- Review process starts: peer & self-review writing: 2024-02-19 to 2024-02-23 (5 business days)
   - 2024-02-19 and 2024-02-20 are no meeting days/blocked for review writing
-* Manager Review writing: 2024-02-26 to 2024-03-08 (10 business days)
+- Manager Review writing: 2024-02-26 to 2024-03-08 (10 business days)
 
 **Calibrations:**
 
-* Review/Prepare for Calibrations 2024-03-11 (1 business day)
-* Live department calibrations: 2024-03-12 to 2024-03-21  (8 business days)
-* Exec team calibration/Final: 2024-03-22 (1 business day)
+- Review/Prepare for Calibrations 2024-03-11 (1 business day)
+- Live department calibrations: 2024-03-12 to 2024-03-21 (8 business days)
+- Exec team calibration/Final: 2024-03-22 (1 business day)
 
 **People-Ops admin/Review delivery:**
 
-* People team to confirm increases/create letters/update systems/finalize calibrations async: 2024-03-22 to 2024-04-02 (7 Business days)
-* Review delivery: 2024-04-03 to 2024-04-12  (8 business days)
-* Comp/Role changes will be effective: Feb 1st (retro-dated)
-  
+- People team to confirm increases/create letters/update systems/finalize calibrations async: 2024-03-22 to 2024-04-02 (7 Business days)
+- Review delivery: 2024-04-03 to 2024-04-12 (8 business days)
+- Comp/Role changes will be effective: Feb 1st (retro-dated)
+
 ## **Enablement Schedule**
 
 - 1x monthly open office hours with the People Team.
