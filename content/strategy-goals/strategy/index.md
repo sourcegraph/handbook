@@ -65,7 +65,7 @@ The principles apply to our company and products:
   <dd>By starting where the complexity is greatest and the problem is biggest, we can create a solution that will scale up and down to all of coding in the future, rather than just make already relatively simple coding projects even simpler. This mission is on a timeframe of 30+ years, and we think starting here is how we will have the biggest impact in the very long term to make it so everyone can code.</dd>
 
   <dt>Will we be creating coding classes, new version control systems, new programming languages, etc.?</dt>
-  <dd>No. We aren't so arrogant to think we know how to do that best for everyone and every problem. We want to create a code intelligence platform that lets you use the best tools for the job and that makes them all work together well, so that every dev can understand and write code better--and ultimately focus on the problem they're solving, not the millions of paper cuts along the way.</dd>
+  <dd>No. We aren't so arrogant to think we know how to do that best for everyone and every problem. We want to create a code AI platform that lets you use the best tools for the job and that makes them all work together well, so that every dev can understand and write code better--and ultimately focus on the problem they're solving, not the millions of paper cuts along the way.</dd>
 </dl>
 
 ### Values
