@@ -55,7 +55,8 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 Have a question about what data we can collect, whether we can use certain data for product improvement, and how long we can keep certain data? Check out these slides and recording.
 
--[Slides](https://docs.google.com/presentation/d/1knA_8_Zw3pQI3K4Q842ngt82ntxLs1DKUkU-rucIPUY/edit?usp=sharing) -[Recording](https://sourcegraph.zoom.us/rec/share/HrjYjaq3rGmJuGTF8OtdBxWMWgQuCiICxZPLBt4tW42WmTwjTgq7CddTkGCKTVSB.xzLVC7pv8biJnUl3?startTime=1704324030000)
+- [Slides](https://docs.google.com/presentation/d/1knA_8_Zw3pQI3K4Q842ngt82ntxLs1DKUkU-rucIPUY/edit?usp=sharing)
+- [Recording](https://sourcegraph.zoom.us/rec/share/HrjYjaq3rGmJuGTF8OtdBxWMWgQuCiICxZPLBt4tW42WmTwjTgq7CddTkGCKTVSB.xzLVC7pv8biJnUl3?startTime=1704324030000)
 
 ### Legal checklist for product marketing
 
