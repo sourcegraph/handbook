@@ -14,6 +14,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [CE Technical Win Management](#ce-technical-win-management)
   - [Tech Reviews](#tech-reviews)
   - [Creating Tickets -Trial Support](#creating-trial-support-tickets)
+  - [Pre-to-Post Sales Handoff](#pre-to-post-sales-handoff)
 
 ---
 
@@ -151,3 +152,21 @@ Ways to add these internal notes:
 - **Slack:** In Support Agent, under `home` > `Your current chats` > select the dropdown `Options`, and `Add Ticket Notes`
 
 - **Zendesk:** In Zendesk, in the view `Trial Customers`, you can select your existing ticket, `Apply Macro`, select `Customer Support Ticket Request`, and add the internal notes.
+
+## Pre-to-Post Sales Handoff
+
+A critical last step in the sales process is to hand off the opportunity to the Technical Advisory (post-sales) team. It's important so that we transfer important context about the deal (goals, needs, expectations, etc) and contacts so that the TA team is able to effectively take the relationship forward.
+
+The overall process is captured [here](../../ta/team-culture/working-with-customers.md#post-sales-handoff). It's most important that CE knows the process is slightly different depending on the [customer segmentation](../../ta/team-culture/team-norms.md#customer-segmentation) and whether they will be managed by a named, dedicated TA or part of our digital, scaled success program.
+
+Need-to-know's for a named TA account:
+
+- TA will handle the production license
+- CEs are expected to participate in a formal knowledge transfer / hand-off with the TA before the deal closes
+  - CE should collect relevant information (doc links, channels, etc.) to make for a productive session
+- CE should participate in the post-sales kick-off call; after that, CE should roll off of the account until / unless there is an active expansion opportunity.
+
+Need-to-know's for a digital, scaled success account:
+
+- CE must handle the production license, and if a separate production cloud instance is required, should handle the creation request of that.
+- CE, as part of hand-off, should map the approproiate roles on the contacts in Salesforce. See role definitions [here, step 7](../../ta/team-culture/working-with-customers.md#process-overview).
