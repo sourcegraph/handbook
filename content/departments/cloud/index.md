@@ -141,6 +141,7 @@ We aim to make all processes self-service as much as possible, please follow the
 #### **Enable static NAT IP or private connectivity on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi&projects=&template=managed-instance-configure-code-host-connectivity.yml&title=Configure+Code+Host+Connectivity+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">⚙️ manual</span>
+<span class="badge badge-note">🤖 self-service</span>
 
 - For customers who are looking to configure IP allowlist to permit Cloud instance traffic
 - For customers that have private code hosts
