@@ -32,6 +32,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
 - [Playbooks](#playbooks)
   - [Recurring TA Responsibilities](#ta-cadence)
   - [TA Scenarios](#ta-scenarios)
+- [Scaled Success Programming](#scaled-success-program)
 
 ---
 
@@ -48,12 +49,24 @@ This process occurs through both Salesforce and Vitally. Below is an overview of
 The pre-to-post sales handoff process consists of the following steps:
 
 1. Technical Advisor Support Level is [manually assigned](#ta-assignment) on the Salesforce Account by TA leadership
-2. The account is created in Vitally automatically once Support Level is set
+2. The account is created in Vitally automatically once the Support Level is set
 3. Customer Segmentation Assignment Vitally Playbook runs to assign account segment attribute of: Strategic, Enterprise, or Commercial.
-4. Assign Scaled Success Accounts Vitally Playbook runs to check if Account is in the commercial segment and is less than $50k ARR. If so, the account is assigned segment of "Scaled Success"
+4. Assign Scaled Success Accounts Vitally Playbook runs to check if the Account is in the commercial segment and is less than $50k ARR. If so, the account is assigned segment of "Scaled Success"
 5. Customer Lifecycle Stages Vitally Playbook runs to assign account as "0. Prospect", the first step in the customer lifecycle. At this point, the account is created and all initial attributes about the new customer are assigned in Vitally.
 6. 30 days out from the expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
-7. Once the deal closes, the TA issues a [production license](#production-license) and initiates their onboarding.
+7. If a Scaled customer, the tags customer contacts with the appropriate `role` on their contact card in Salesforce (it is multi-select).
+
+| Role            | Definition |
+| --------------- | ------ |
+| Champion        | An individual with: 1) Power and influence, 2) willing and actively selling on our behalf, 3) view our success as their success |
+| Deal Contact    | A contact or owner who is helping to navigate the deal. This would be someone specific to the transaction not necessarily ongoing contact outside of the transaction (either initial deal or renewal) |
+| Instance Admin  | Someone who is more about the technical logistics and management of the solution, manages the instance |
+| Executive       | Exec-level sponsor who supports the deal/relationship |
+| Economic Buyer  | The ultimate decision maker to sign off on any deal |
+| End User        | End user of the Sourcegraph product |
+| Program Contact | Someone focused on the use case(s), adoption and value of SG within the company. |
+
+8. Once the deal closes, the TA issues a [production license](#production-license) and initiates their onboarding. (Note: if a scaled customer, the CE is responsible for creating the production license.)
 
 You can read more about each step below.
 
@@ -319,3 +332,4 @@ The following are a sample of the activities that a TA is responsible for on a d
 ## TA Scenarios
 
 To learn more about best practices and how to handle certain situations that may arise on your accounts, see the [TA Scenarios Playbook](../ta-playbooks/ta-scenarios.md).
+
