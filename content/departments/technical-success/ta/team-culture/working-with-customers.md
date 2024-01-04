@@ -56,15 +56,15 @@ The pre-to-post sales handoff process consists of the following steps:
 6. 30 days out from the expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
 7. If a Scaled customer, the tags customer contacts with the appropriate `role` on their contact card in Salesforce (it is multi-select).
 
-| Role            | Definition |
-| --------------- | ------ |
-| Champion        | An individual with: 1) Power and influence, 2) willing and actively selling on our behalf, 3) view our success as their success |
+| Role            | Definition                                                                                                                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Champion        | An individual with: 1) Power and influence, 2) willing and actively selling on our behalf, 3) view our success as their success                                                                       |
 | Deal Contact    | A contact or owner who is helping to navigate the deal. This would be someone specific to the transaction not necessarily ongoing contact outside of the transaction (either initial deal or renewal) |
-| Instance Admin  | Someone who is more about the technical logistics and management of the solution, manages the instance |
-| Executive       | Exec-level sponsor who supports the deal/relationship |
-| Economic Buyer  | The ultimate decision maker to sign off on any deal |
-| End User        | End user of the Sourcegraph product |
-| Program Contact | Someone focused on the use case(s), adoption and value of SG within the company. |
+| Instance Admin  | Someone who is more about the technical logistics and management of the solution, manages the instance                                                                                                |
+| Executive       | Exec-level sponsor who supports the deal/relationship                                                                                                                                                 |
+| Economic Buyer  | The ultimate decision maker to sign off on any deal                                                                                                                                                   |
+| End User        | End user of the Sourcegraph product                                                                                                                                                                   |
+| Program Contact | Someone focused on the use case(s), adoption and value of SG within the company.                                                                                                                      |
 
 8. Once the deal closes, the TA issues a [production license](#production-license) and initiates their onboarding. (Note: if a scaled customer, the CE is responsible for creating the production license.)
 
@@ -332,4 +332,3 @@ The following are a sample of the activities that a TA is responsible for on a d
 ## TA Scenarios
 
 To learn more about best practices and how to handle certain situations that may arise on your accounts, see the [TA Scenarios Playbook](../ta-playbooks/ta-scenarios.md).
-
