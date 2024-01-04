@@ -14,7 +14,7 @@ To read more about how we provide continuous feedback and our performance improv
 
 Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
 
-### Who is eligible for a review / compensation increase?
+### Who is eligible for a review/compensation increase?
 
 - If you received a 1 or a 2 rating, you are eligible for a merit increase (or spot bonus if in sales) regardless of your start date.
 - If you received a 3 rating, you are eligible for a merit increase once a year. Because of this, those who started on or after Feb 1 2023 are not eligible for a merit increase in 2H FY24 impact review cycle. They will be eligible in the 1H FY25 review cycle instead.
@@ -26,34 +26,39 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 
 ### When do impact reviews take place?
 
-Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
+Formal performance reviews take place **once a year** aligning with our promotion and compensation review cycles.
 
-- **1st review period of the year: 1H FY24**
-  - Launches at the end of January (corresponding promotion and/or pay increase goes into effect March 1st).
-  - This review period reviews a teammates performance between August 1st to January 31st.
-  - **Who is eligible:** Must be hired on or before October 1st.
-- **2nd review period of the year: 2H FY24**
-  - Launches at the end of July (corresponding promotion and/or pay increase goes into effect September 1st).
-  - This review period reviews a teammates performance between February 1st and July 31st.
-  - **Who is eligible:** Must be hired on or before April 1st.
+- Launches at the end of January (corresponding promotion and/or pay increase goes into effect Feb 1st).
+- This review period reviews a teammate's performance between August 1st to January 31st.
+- **Who is eligible:** Must be hired on or before October 1st.
 
-### Impact Review Schedule - 2H FY24 review
+### Impact Review Schedule - 1H FY25 review
 
-**2H FY24 Review Process Schedule**
-(Review Period: February 1st to July 31st)
+**1H FY25 Review Process Schedule**
+(Review Period: Aug 1st to Jan 31st)
 
-- [Reviewer selection](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit): 2023-07-17 to 2023-07-21 (5 business days)
-  - Confirm selections with managers: 2023-07-20 and 2023-07-21 (2 business days, overlaps with review selection period)
-- Review writing for ICs: 2023-07-26 to 2023-08-04 (8 business days)
-  - 2023-08-03 and 2023-08-04 are no meeting days/blocked for review writing
-- Review writing for Managers: 2023-07-26 to 2023-08-09 (11 business days)
-- Calibrations: 2023-08-10 to 2023-08-18
-  - Live dept calibrations: 2023-08-10 to 2023-08-15 (4 business days)
-  - Exec team calibration: 2023-08-16 (1 business day)
-  - Finalize Calibration Async: 2023-08-17 to 2023-08-18 (2 business days)
-- People team admin time to confirm increases/create letters/update systems: 2023-08-18 to 2023-09-04
-- Review delivery period: 2023-09-04 to 2023-09-14 (9 business days)
-- All compensation increases and/or promotions effective Sept 1st (retroactive)
+**Reviewer selection/Manager approval:**
+
+- 2024-02-11 to 2024-02-16 (5 business days)
+- Confirm selections with managers: 2024-02-16 (1 business day)
+
+**Review writing:**
+
+- Review process starts: peer & self-review writing: 2024-02-19 to 2024-02-23 (5 business days)
+  - 2024-02-19 and 2024-02-20 are no meeting days/blocked for review writing
+- Manager Review writing: 2024-02-26 to 2024-03-08 (10 business days)
+
+**Calibrations:**
+
+- Review/Prepare for Calibrations 2024-03-11 (1 business day)
+- Live department calibrations: 2024-03-12 to 2024-03-21 (8 business days)
+- Exec team calibration/Final: 2024-03-22 (1 business day)
+
+**People-Ops admin/Review delivery:**
+
+- People team to confirm increases/create letters/update systems/finalize calibrations async: 2024-03-22 to 2024-04-02 (7 Business days)
+- Review delivery: 2024-04-03 to 2024-04-12 (8 business days)
+- Comp/Role changes will be effective: Feb 1st (retro-dated)
 
 ## **Enablement Schedule**
 
