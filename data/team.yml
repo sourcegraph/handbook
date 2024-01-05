@@ -1824,3 +1824,15 @@ eric_shamow:
   links: '[Twitter](https://twitter.com/eshamow), [Mastodon](https://macaw.social/@eshamow)'
   location: Portland, OR, USA
   description: 'Eric is originally out of New York but has called Portland, OR home for the past decade. He spends a lot of time in the space somewhere between process, systems architecture, org design and engineering practices. Prior to Sourcegraph Eric was an early employee at Puppet a little over a decade ago, where he visited over 200 companies to study how tools and practices intersect to drive culture change. More recently he ran the Compute SRE team at Twitter. Eric used to be a classical musician, and can be found geeking out over music, books and films (especially sci-fi and horror).'
+
+susnato_dhar:
+  name: Susnato Dhar
+  role: ML Engineering Intern
+  reports_to: head_ai
+  email: susnato.dhar@sourcegraph.com
+  github: susnato
+  links: [LinkedIn](https://www.linkedin.com/in/susnato-dhar-922239211/)
+  location: Kolkata, India
+  pronouns: he/him
+  description: 'Susnato is an undergrad student from India who loves to contribute to open-source projects. In his free time, he plays online FPS games. He is a fan of The Hobbit, The Lord of the Rings and Tolkien.'
+  
