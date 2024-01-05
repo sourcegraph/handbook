@@ -13,7 +13,6 @@ If you ever have any questions or concerns, please reach out to the people team 
 - [US State Labor Law Posters](https://drive.google.com/drive/folders/1q60cDDRxqZ45CfmPcXgGKaNPGBrzdoXU?usp=sharing)
 - [US City Specific Labor Law Posters](https://drive.google.com/drive/folders/15axBqSxeLrT-iCl8MZ2HZoIdgc-SeQP6?usp=sharing)
 
-
 ## **E-verify**
 
 - Please see our [E-verify page](e-verify.md) for required postings and information
