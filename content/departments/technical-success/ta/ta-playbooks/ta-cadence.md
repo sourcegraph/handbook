@@ -33,9 +33,9 @@
 
 - TA Team Meeting will be held on a bi-weekly basis. Topics will include team announcements, trainings and new processes as we roll them out, and active discussion amongst the team on customer situations.
 
-#### Account Risk: Lighthouse
+#### Account Risk
 
-- See (https://handbook.sourcegraph.com/departments/technical-success/ta/team-culture/working-with-customers/#sts=Lighthouse%20Program)
+- [Lighthouse](../team-culture/working-with-customers/#sts=Lighthouse%20Program)
 
 #### Vitally Traits
 
@@ -63,7 +63,7 @@
 
 - Happen on the second week of every month. 30 minute sessions.
 - Attendees: TA, TA Director and TS VP.
-- Goal: monthly checkpoint to review the "Top 3" accounts for a TA based on the [Account Success Planning](./team-culture/working-with-customers.md/#success-plans).
+- Goal: monthly checkpoint to review the "Top 3" accounts for a TA based on the [Account Success Planning](../team-culture/working-with-customers.md/#success-plans).
 - "Top 3" account criteria: Top ARR spend, renewing in the CFQ (Current Fiscal Quarter), accounts with expansion opportunities.
 - Agenda:
   1. (5 mins) [Customer Health Metrics Review](https://sourcegraph.vitally.io/hubs/c6b472f7-01b4-45ce-b95b-749b9a4d1f24/7fa20112-4023-47a2-8a44-50d1179b0d03)
@@ -90,8 +90,7 @@
 
 ### External
 
-- Sourcegraph CBRs
-  - See (https://handbook.sourcegraph.com/departments/technical-success/ta/team-culture/working-with-customers/#cbrs)
+- [CBRs (Customer Buisness Reviews)](../team-culture/working-with-customers/#cbrs)
 
 ## As Needed, Ad-Hoc
 
