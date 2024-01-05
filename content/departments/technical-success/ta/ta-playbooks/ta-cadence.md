@@ -35,7 +35,7 @@
 
 #### Account Risk: Lighthouse
 
-- See
+- See (https://handbook.sourcegraph.com/departments/technical-success/ta/team-culture/working-with-customers/#sts=Lighthouse%20Program)
 
 #### Vitally Traits
 
