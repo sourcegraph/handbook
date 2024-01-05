@@ -4,65 +4,93 @@
 
 ### Internal
 
-- Check your list of Vitally Tasks
-  - Vitally will auto-assign a number of tasks based on the playbooks we have configured. You also have the ability to set these tasks on your own based on your conversations with customers. You should be driving this list to completion as much as possible.
-- Account teams comms
-  - Be a good teammate! Make sure to update your Account Executive, Customer Engineer or SDR with any information that could impact their work, even if it is just a status update.
-  - Collaborate with your team on activities that would help the goals you have for customers like feature adoption or upgrading.
-  - Utilize internal customer slack channels to keep internal stakeholders informed of what's going on. This doesn't mean provide a daily update, be thinking about whether or not there's relevant happenings that would benefit posting a proactive update in the internal customer channel.
+#### Check your list of Vitally Tasks
+
+- Vitally will auto-assign a number of tasks based on the playbooks we have configured. You also have the ability to set these tasks on your own based on your conversations with customers. You should be driving this list to completion as much as possible.
+
+#### Account teams comms
+
+- Be a good teammate! Make sure to update your Account Executive, Customer Engineer or SDR with any information that could impact their work, even if it is just a status update.
+- Collaborate with your team on activities that would help the goals you have for customers like feature adoption or upgrading.
+- Utilize internal customer slack channels to keep internal stakeholders informed of what's going on. This doesn't mean provide a daily update, be thinking about whether or not there's relevant happenings that would benefit posting a proactive update in the internal customer channel.
 
 ### External
 
-- Ad-hoc customer meetings
-  - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
+#### Ad-hoc customer meetings
+
+- This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
 - As requests come in from customers make sure you [surface feedback to the product team](../../../product/process/feedback/surfacing_product_feedback.md)
-- Customer slack channel communication
-  - Be mindful of customers with shared slack channels. Ensure you're monitoring the requests coming in and that they are getting appropriate responses in a timely manner.
+
+#### Customer slack channel communication
+
+- Be mindful of customers with shared slack channels. Ensure you're monitoring the requests coming in and that they are getting appropriate responses in a timely manner.
 
 ## Weekly
 
 ### Internal
 
-- Bi-Weekly Team Check In
-  - TA Team Meeting will be held on a bi-weekly basis. Topics will include team announcements, trainings and new processes as we roll them out, and active discussion amongst the team on customer situations.
-- Yellow/Red Renewals Meeting
-  - 180 days out from renewal, we check each accounts health. If it falls into our red or yellow categories, the account will be raised for review at the Yellow/Red Renewals meeting. The goal here is to get the customer healthy and protect the renewal as much as possible.
-- Vitally Traits
-  - Vitally is where we keep the state of a customer, including information around deployment, new feature adoption and customer comms. Make sure that you are keeping this up to date and reviewing your accounts weekly to make sure that the information is up to date for leadership
-- Account Team Sync
-  - Make sure that you are connecting with your AEs either weekly or bi-weekly. Use this time to strategize, coordinate, and align on your plans and activities for each customer account.
+#### Bi-Weekly Team Check In
+
+- TA Team Meeting will be held on a bi-weekly basis. Topics will include team announcements, trainings and new processes as we roll them out, and active discussion amongst the team on customer situations.
+
+#### Account Risk
+
+- [Lighthouse](../team-culture/working-with-customers.md#sts=Lighthouse%20Program)
+
+#### Vitally Traits
+
+- Vitally is where we keep the state of a customer, including information around deployment, new feature adoption and customer comms. Make sure that you are keeping this up to date and reviewing your accounts weekly to make sure that the information is up to date for leadership
+
+#### Account Team Sync
+
+- Make sure that you are connecting with your AEs either weekly or bi-weekly. Use this time to strategize, coordinate, and align on your plans and activities for each customer account.
 
 ### External
 
-- Customer syncs
-  - Review customer pings and data to determine what could be done to help improve their health, see [TA Activites](./ta-scenarios.md), and strategize with your champion.
+#### Customer syncs
+
+- Review customer pings and data to determine what could be done to help improve their health, see [TA Activites](./ta-scenarios.md), and strategize with your champion.
 
 ## Monthly
 
 ### Internal
 
-- Bi-Monthly Health Score Updates
-  - A Vitally project will trigger each month for every account that reminds you to update the Pulse, Access to Buyer and Active Champion traits.
+#### Bi-Monthly Health Score Updates
+
+- A Vitally project will trigger each month for every account that reminds you to update the Pulse, Access to Buyer and Active Champion traits.
+
+#### MBRs (Monthly Business Reviews)
+
+- Happen on the second week of every month. 30 minute sessions.
+- Attendees: TA, TA Director and TS VP.
+- Goal: monthly checkpoint to review the "Top 3" accounts for a TA based on the [Account Success Planning](../team-culture/working-with-customers.md#success-plans).
+- "Top 3" account criteria: Top ARR spend, renewing in the CFQ (Current Fiscal Quarter), accounts with expansion opportunities.
+- Agenda:
+  1. (5 mins) [Customer Health Metrics Review](https://sourcegraph.vitally.io/hubs/c6b472f7-01b4-45ce-b95b-749b9a4d1f24/7fa20112-4023-47a2-8a44-50d1179b0d03)
+  2. (15 minutes) Top 3 accounts review; 5 minutes per account.
+  3. (5 minutes) Asks for the businesss: TA asks for help to remove blockers and expedite execution of the Account Success Plan goals.
 
 ### External
 
-- Customer Communications
-  - Announce version and patch updates to customers, if an issue or feature request a customer has reported is included in an upgrade or patch make sure they know!
-  - Think about relevant tips & tricks that would be helpful to share out to increase usage and value.
+#### Customer Communications
+
+- Announce version and patch updates to customers, if an issue or feature request a customer has reported is included in an upgrade or patch make sure they know!
+- Think about relevant tips & tricks that would be helpful to share out to increase usage and value.
 
 ## Quarterly
 
 ### Internal
 
-- Account Success Planning
-  - Review accounts with your manager; this can be done ad-hoc weekly/monthly but make sure that you are maintaining visability into all of your accounts with your manager.
+#### Internal QBRs
+
+- Happen on the first week of every fiscal quarter. 60 minute sessions per AE. TA joins the sessions with accounts that are shared between AE & TA.
+- Attendees: AE, TA, CE; Product, Finance, Legal, TS & Sales leadership.
+- TS and Sales leadership select which accounts will be reviewed each quarter.
+- Goal: Opportunity for account teams (AE, TA & CE) to showcase the main account success plan goals, what are the strategies to execute them and ask the rest of the Sourcegraph business for help.
 
 ### External
 
-- Sourcegraph QBR's
-  - Sourcegraph traditionally holds QBR's with customers team during the first few weeks of the quarter on a case by case basis.
-  - [QBR resources](../team-culture/working-with-customers.md#qbrs)
-- Prepare for [renewals](../team-culture/working-with-customers.md#renewal-process)
+- [CBRs (Customer Buisness Reviews)](../team-culture/working-with-customers.md#cbrs)
 
 ## As Needed, Ad-Hoc
 
