@@ -27,7 +27,7 @@ A TA, being a post-sales technical success manager, works with customers in a nu
   - [Customer Data & Analytics](#customer-and-data-analytics)
   - [Voice of the Customer](#voice-of-the-customer)
   - [Champion Building & Relationship Management](#champion-building--relationship-management)
-  - [BRs](#brs)
+  - [CBRs](#cbrs)
   - [TA to TA Account Handoff](#ta-to-ta-account-handoff)
 - [Playbooks](#playbooks)
   - [Recurring TA Responsibilities](#ta-cadence)
@@ -271,11 +271,11 @@ All three of these aspects must be true in order to be a true champion. TAs must
 
 See more of our champion training [here](https://docs.google.com/presentation/d/1RPqSkCgKU0za85fe2QCOuhlzoy6a2fJBlRgZbbz6ceU/edit#slide=id.g1eeb416435b_0_56) and on [Highspot](https://sourcegraph.highspot.com/).
 
-## BRs
+## CBRs
 
-An important dimension of relationship management and ensuring that our customers are getting the expected value and outcomes from Sourcegraph is understood and shared through Business Reviews (BRs). We ideally want to lead these conversations with customers on a quarterly basis, but at times may hold them bi-annually. TAs are responsible for leading the planning and execution of customer BRs with close input from internal team members such as Sales.
+An important dimension of relationship management and ensuring that our customers are getting the expected value and outcomes from Sourcegraph is understood and shared through Customer Business Reviews (CBRs). We ideally want to lead these conversations with customers on a quarterly basis, but at times may hold them bi-annually. TAs are responsible for leading the planning and execution of customer CBRs with close input from internal team members such as Sales.
 
-The format of BRs is as follows:
+The format of CBRs is as follows:
 
 - Intros
 - Business Strategy & Key Initiatives
