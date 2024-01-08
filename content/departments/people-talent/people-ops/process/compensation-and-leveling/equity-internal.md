@@ -65,7 +65,7 @@ The People Team is responsible for preparing the initial data pull from BambooHR
 
 ### 2 weeks before board meeting
 
-People Ops will pull a report to determine all equity grants from the previous quarter. This report will be used to populate [Carta's option spreadsheet](https://docs.google.com/spreadsheets/d/1eVQc6D1nyK07GLGcmWtCq-uoUN0cB5FW/edit?usp=drive_link&ouid=112937061981605591616&rtpof=true&sd=true). Legal and Finance will review the spreadsheet.
+People Ops will pull a report to determine all equity grants from the previous quarter. This report will be used to populate [Carta's option spreadsheet](https://docs.google.com/spreadsheets/d/1eVQc6D1nyK07GLGcmWtCq-uoUN0cB5FW/edit?usp=drive_link&ouid=112937061981605591616&rtpof=true&sd=true). Legal and Finance will review the spreadsheet. You can use this filled-out spreadsheet as a reference, but keep access to the filled-out spreadsheet restricted.
 
 ### 1 week before board meeting
 
