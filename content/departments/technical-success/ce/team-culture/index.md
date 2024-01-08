@@ -8,18 +8,23 @@ CEs interact with most every other team at Sourcegraph. This page details those 
 - **How sales adds value to CE:** Sales, with their focus on the commercial relationship, introduces CEs to the customer relationship and helps CEs nurture the relationship. Both Sales Development Reps (SDRs) and Account Executives (AEs) share context with CEs prior to introducing them to the customer.
 - **Collaboration overview:** AEs and CEs are stably paired together on accounts throughout the customer journey. SDRs, during their prospecting efforts, are able to get support from the CE team via the @ce-sdr-collab slack user group. SDRs should post their question and tag this user group in the #ce slack channel. CEs in this user group are individuals on the CE team that are in their first 120 days; this provides great learning opportunities for the CE team to craft answers and confirm their product understanding; it in turn provides more structure and responsibility for responding to Q&As to help the SDR team be successful.
 
-### Customer Support (CS)
+### Technical Advisors (TAs)
 
-- **How CE adds value to CS:** CE has nuanced context that is valuable to how support works with a customer; CE can also help clarify / remind customers we need information (during regularly scheduled calls) on the more tricky issues.
-- **How CS adds value to CE:** CS is the go-to technical team for our CEs. CS resolves issues for customers both pre- and post-sales, allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues.
-- **Collaboration overview:** CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales and post-sales customer engagement process. When a customer runs into an issue, the CE will allow support do the heads-down troubleshooting work.
-  - An account CE often collaborates with support engineers on issues. For example, CE may have a particular understanding or context about the customer or the situation. This is welcomed collaboration in support of customer issues!
-- **What should CE do if the customer needs more help:** Given the relationship between the CE and the customer, it's not uncommon for our customers to reach out to CE for an update. In instances like this, the CE should work directly with the Support Engineer. If additional assistance is needed, the CE should reach out to @cs-leadership for additional guidance in the #customer-support channel, sharing context around the situation and the specific request.
+- **How CE adds value to TA:** CE, as the team closing new business opportunities, have both important context and relationships with stakeholders that need shared and transitioned to TA so that they are successful, post-sales.
+- **How TA adds value to CE:** TA, when working with existing customers, gain important knowledge and understanding about the customer which can benefit CEs during any upsell or expansion opportunities.
+- **Collaboration overview:** CEs tend to hand off new customer engagements to the TA team. As part of this hand-off, CE shares knowledge and resources. When an expansion opportunity arises, TAs share important information with the CE team that benefits the sales cycle.
+
+### Support Engineering (SE)
+
+- **How CE adds value to SE:** CE has nuanced context that is valuable to how SE works with a prospective customer; CE can also help clarify / remind customers we need information (during regularly scheduled calls) on the more tricky issues.
+- **How SE adds value to CE:** SE is the go-to technical team for our CEs. While CEs take the lead on all pre-sales issues, SE is always there to help if needed.
+- **Collaboration overview:** CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales engagement process. When a prospective customer runs into an issue, the CE is the first line for resolving the issue. If needed, CEs can raise a Zendesk ticket for help or request help in #discuss-support-engineering.
+- **What should CE do if the customer needs more help:** Given the relationship between the CE and the customer, it's not uncommon for our customers to reach out to CE for an update. In instances like this, the CE should work directly with the Support Engineer. If additional assistance is needed, the CE should reach out to @cs-leadership for additional guidance in the #discuss-customer-support channel, sharing context around the situation and the specific request.
 
 ### Software Engineers (SWEs)
 
-- **How CE adds value to SWEs:** CE provides important insights from prospective and current customers which inform and serve as important inputs to Product roadmap.
-- **How SWEs adds value to CE:** SWEs create a high quality product and when needed, helps educate CEs on how certain features work so that they can educate customers. SWEs also conduct via planned training sessions, periodic pairing, deep-dives on new features/products, etc.
+- **How CE adds value to SWEs:** CE provides important insights from prospective customers which inform and serve as important inputs to Product roadmap.
+- **How SWEs adds value to CE:** SWEs create a high quality product and when needed, helps educate CEs on how certain features work so that they can educate prospective customers. SWEs also conduct via planned training sessions, periodic pairing, deep-dives on new features/products, etc.
 - **Collaboration overview:** CEs can pose how-to questions and provide feedback via Slack
 
 ### Product
