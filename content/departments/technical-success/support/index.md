@@ -54,6 +54,6 @@ Our SLAs are defined in our docs page [here](https://docs.sourcegraph.com/sla).
 
 ## Support on-call
 
-We use OpsGenie for our 24x7 Support rotation. This is for customers that have paid for this service or emergencies that require a Support Engineer immediately. You can trigger this on Slack by using the command: `/genie alert [alert message] for customer-support`.  
+We use OpsGenie for our 24x7 Support rotation. This is for customers that have paid for this service or emergencies that require a Support Engineer immediately. You can trigger this on Slack by using the command: `/genie alert [alert message] for customer-support`.
 
 If you are an SE that needs a Manager or anyone else that needs SE leadership you can page them with the Slack command: `/genie alert [alert message] for support-mgmt`
