@@ -30,7 +30,6 @@ The initial conversation(s) with a prospective customer can vary in length and s
 - [First Call deck](https://docs.google.com/presentation/d/11Nz_PCy-RP5uPExtao9Hx-UM1-EykHdaft66sH6BTcs/edit#slide=id.g28295ca06f6_0_323)
 - [First Demo Script](https://docs.google.com/document/d/107vpU01GNuoW64iSOEMYE5iFsusiDPbk2uqB3VQCWjE/edit#heading=h.dmholmrckdap)
 
-
 ## Technical Qualification
 
 Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we capture technical details on the Salesforce opportunity.
