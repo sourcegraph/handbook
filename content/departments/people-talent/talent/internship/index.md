@@ -133,7 +133,7 @@ Payroll
 
 #### Points of contact
 
-- [Tammy](../../../../team/index.md#tammy-zhu) - for legal questions
+- legal@sourcegraph.com - for legal questions
 - payroll@sourcegraph.com - for payroll questions
 - [Kemper](../../../../team/index.md#kemper-hamilton) - for onboarding and all other internship program questions
 
