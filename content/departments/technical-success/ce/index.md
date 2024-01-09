@@ -30,7 +30,6 @@ For any deal that enters Stage 4 (technical & business validation), we expect th
 
 This looks at the efficiency and duration of the technical evaluation (trial) itself. The technical evaluation happens during Stage 4 of the sales cycle. Our goal is to complete a complex trial within 30 days, and complete the majority of standard trials within 21 days.
 
-
 ## Team Reference Resources
 
 ### Team Culture
