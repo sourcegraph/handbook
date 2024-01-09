@@ -4,7 +4,6 @@
 - [Assets](#assets)
 - [Process](#process)
   - [Gates for Progressing Through Technical Win Phases](#gates-for-progressing-through-technical-win-phases)
-  - [Tech Review Process](#tech-review-process)
   - [Surfacing Product Feedback](#surfacing-product-feedback)
   - [Weekly Tech Win Review](#weekly-tech-win-review)
   - [Engaging Subject Matter Experts](#engaging-subject-matter-experts)
@@ -140,7 +139,7 @@ The following criteria are used to determine whether a technical win should prog
 - Has the CE completed technical qualification of the customer’s usage scenario?
 - Has the CE recorded the technical landscape information (on the account level) and the trial technical landscape information (on the opportunity level) in Salesforce?
 - Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
-- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed? _Note: the definitions of non-standard and high-risk change with each release of Sourcegraph, and it is the responsibility of the CE to be aware of the definitions at any point in time._
+- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE documented risks and raised to leadership? _Note: the definitions of non-standard and high-risk change with each release of Sourcegraph, and it is the responsibility of the CE to be aware of the definitions at any point in time._
 
 Not all opportunities will require a trial of Sourcegraph. The CE should be prepared to achieve a technical win by performing customized demos or workshops when possible. If the customer _must_ perform a trial, use the criteria below.
 
@@ -176,46 +175,6 @@ Any artifacts created to support a prospective customer's Sourcegraph deployment
 - Confirm whether IE will be performing the Production Implementation
 - For complex deployments, CE has updated artifacts in the the [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) folder with details about the customer’s production deployment plans (unless IE is leading the Production Implementation)
 - Introduce TA to the customer
-
-### Tech Review Process
-
-Deals flagged as having non-standard or high-risk requirements must go through the Tech Review Process before moving to Trial Deployment (late Stage 3).
-
-#### How the Process Works
-
-When a Tech Review is needed, the CE initiates this process by doing the following:
-
-1. Completes a peer review of the opportunity with a peer CE.
-2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asks of Product, Engineering, and Support.
-3. Initiates the request in the #tech-reviews channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to technical design artifacts (i.e. the Implementation Discovery Questions, architecture diagrams, etc.).
-4. Documents the results of the Tech Review in Salesforce under Open Issues & Risks.
-
-[Product Directors](../../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the video and artifacts. This asynchronous review should be completed within 3 business days.
-
-If there are additional questions, the Product Team member can request a synchronous review. That review will be recorded and documented to show the decision-making process and provide additional context. CEs are responsible for scheduling the synchronous review and including the appropriate stakeholders.
-
-#### Roles and Responsibilities
-
-##### Customer Engineer
-
-- Responsible for understanding and documenting the technical landscape and trial design details in Salesforce.
-- Responsible for storing any technical review artifacts (such as Implementation Discovery Questions and architecture diagrams) in the shared Technical Design Documents folder.
-- Responsible for identifying any non-standard or high-risk requirements.
-- Responsible for registering Product Gaps against non-standard or high-risk requirements as required.
-- Responsible for communicating with their AE when non-standard or high risk requirements emerge.
-- Responsible for initiating the tech review process, when appropriate.
-- If a request is made for a synchronous review, the CE will schedule and facilitate.
-
-##### Product, Engineering and Support
-
-- When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
-- Initial feedback on the review should occur within 3 business days.
-- Any member from Product, Engineering, or Support may request a synchronous review.
-
-##### Sales
-
-- Responsible for providing necessary business context around the deal.
-- Where applicable, responsible for prioritization decisions.
 
 ### Surfacing Product Feedback
 

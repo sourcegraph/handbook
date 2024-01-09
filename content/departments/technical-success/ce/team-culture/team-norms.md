@@ -3,6 +3,7 @@
 ## Recurring Team Meetings
 
 - **Team meeting** (weekly): Regular syncs for the CE team to discuss relevant topics
+- **CE Teachbacks** (monthly): Regular sync for CE team to learn from each other
 - **TS Department Meeting** (bi-monthly): Sync for all teams in TS to share progress, updates, wins, and kudos
 
 ## OOO Protocols
