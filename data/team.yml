@@ -189,17 +189,6 @@ owen_brennan:
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
 
-jonah_dueck:
-  name: Jonah Dueck
-  pronouns: he/him
-  role: Customer Engineer
-  reports_to: vp_technical_success
-  location: Seattle, WA, USA 🇺🇸
-  github: justdueck
-  email: jonah@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jonah-dueck/)'
-  description: "Jonah has been working within the IT space since high school. He started out by founding and running a small IT company in northern Nevada while still in high school and after graduating, moved on to working for another small company in Northern California. Most recently, he worked in internal IT operations and technical program management at Google for about 2 years. Outside of work, he enjoys rock climbing, playing music (guitar and drums), riding his motorcycle and working on his old VW bus (there's always something breaking on it)."
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
@@ -701,17 +690,6 @@ diego_comas:
   email: diego.comas@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/diegocomas)'
   description: Diego lives in Barcelona, with his wife and two kids. He is passionate about technology, sci-fi movies and football(soccer). In the last 10 years he lived in London (UK) and worked for tech startups and scale ups building teams and helping them improve their security posture. Diego never misses a game of his local team FC Barcelona 🏟. In his spare time (if kids allow!) he likes to play football ⚽️, other sports like padel tennis 🎾 and sailing ⛵️ in the Costa Brava.
-
-andrew_hsu:
-  name: Andrew Hsu
-  pronouns: he/him
-  role: Customer Engineer
-  reports_to: vp_technical_success
-  location: Los Angeles, California, United States 🇺🇸
-  github: superhsu
-  email: andrew.hsu@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/andrewjhsu/)'
-  description: Andrew lives in Los Angeles, California, with his partner and their grumpy cat, Ginger. He has a passion for technology and sales. Growing up at a young age, he helped his cousins build and sell computers. Andrew has spent most of his career as a Sales Engineer. Before Sourcegraph, he helped sell observability software at Splunk. Outside of work, he enjoys traveling ✈️, spending time with family & friends, watching movies, playing competitive sports & e-sports.
 
 jh_chabran:
   name: JH Chabran
