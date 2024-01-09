@@ -334,16 +334,6 @@ jon_kishpaugh:
   links: '[LinkedIn](https://www.linkedin.com/in/jonathan-kishpaugh-8459217/)'
   description: Jon aka Kish currently lives in San Francisco with his wife Lauren. He’s spent the last 14 years working in small to mid-size start-ups, helping them build their Enterprise GTM. Life outside of work is focused on family, good food, and staying active.
 
-tammy_zhu:
-  name: Tammy Zhu
-  pronouns: she/her
-  role: Director of Legal
-  reports_to: vp_operations
-  manager_role_slug: director_legal
-  location: San Francisco, CA, USA 🇺🇸
-  email: tammy@sourcegraph.com
-  description: Tammy joins Sourcegraph after years of counseling technology companies on matters including products, litigation, commercial contracts, data privacy, M&A, startup financing, and regulatory filings and investigations. She enjoys creative writing, reading fiction, solo traveling, watching basketball, and baking sourdough during the pandemic.
-
 warren_gifford:
   name: Warren Gifford
   pronouns: he/him
@@ -1429,7 +1419,7 @@ sam_mandell:
   github: srmandell
   pronouns: she/her
   role: Commercial Counsel
-  reports_to: director_legal
+  reports_to: vp_operations
   location: Sacramento, CA, USA 🇺🇸
 
 cezary_bartoszuk:
