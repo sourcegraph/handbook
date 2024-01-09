@@ -23,7 +23,7 @@ While each response will be a custom plan, the rapid response team may include t
 - Product: Quinn Slack
 - Community: Justin Dorfman
 - Customer Engineering: Aimee Menne
-- Legal: Tammy Zhu
+- Legal: Sam Mandell
 
 If this is a P0 situation, Quinn Slack, Beyang Liu and the executive team will also be looped in immediately for visibility and support.
 
