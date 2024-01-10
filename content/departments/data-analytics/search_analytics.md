@@ -6,7 +6,7 @@
 
 - **Why this metric:** Daily active users is a standard metric for measuring engagement, and reflects the amount of value we want developers to derive from Sourcegraph.
 
-- **Source of truth:**  [Looker](https://sourcegraph.looker.com/dashboards/447?%20Date=30%20day&Account%20Type=&Account%20name=&Installer%20Email=)
+- **Source of truth:** [Looker](https://sourcegraph.looker.com/dashboards/447?%20Date=30%20day&Account%20Type=&Account%20name=&Installer%20Email=)
 
 **Metric: Search success**
 
@@ -20,14 +20,14 @@
 
 - **Definition:** Users who perform a search, then click on a result.
 
-- **Why this metric:**  When a user clicks through to a result, it signals the user found something of interest. Less obviously, a session where no results were clicked could be a sign that we surfaced the right code in the results and the user did not need to navigate elsewhere. As we seek to improve ranking, results display, and other modifications to the core workflow, tracking the impact on results clicked will help us understand how we are changing the search user experience.
+- **Why this metric:** When a user clicks through to a result, it signals the user found something of interest. Less obviously, a session where no results were clicked could be a sign that we surfaced the right code in the results and the user did not need to navigate elsewhere. As we seek to improve ranking, results display, and other modifications to the core workflow, tracking the impact on results clicked will help us understand how we are changing the search user experience.
 
 - **Source of truth:** [Amplitude](https://app.amplitude.com/analytics/sourcegraph/dashboard/90h2qwld) (see: “Search result clicked and search success (all users)” chart and the middle funnel labeled "SearchRestultsClicked".)
-
 
 ## Search user definitions
 
 ### Search Product DAUs
+
 A daily active product user for search is defined as
 
 ## Search reporting tools
