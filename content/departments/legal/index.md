@@ -16,7 +16,7 @@ We take initiatives that improve all teammates’ experiences working with the l
 
 ### Members
 
-Samantha (Sam) Mandell - Head of Legal 
+Samantha (Sam) Mandell - Head of Legal
 
 ### Roles
 
