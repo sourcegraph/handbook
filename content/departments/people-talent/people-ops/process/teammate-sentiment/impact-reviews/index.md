@@ -376,35 +376,35 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 - All questions should be directed to the #ask-people-team Slack channel.
 
-## FY24 FAQ - Moving to Annual Impact Review and Merit Cadence 
+## FY24 FAQ - Moving to Annual Impact Review and Merit Cadence
 
 **1. Why are we moving to annual impact reviews?**
 
-**Answer:** We are moving to annual impact reviews based on teammate feedback that the review process caused added stress and anxiety and diverted focus from impactful work. In response, we introduced mandatory monthly check-ins for managers and optional check-ins for teammates to support continuous performance feedback and moved the formal, merit review cycle to one-time per year. 
+**Answer:** We are moving to annual impact reviews based on teammate feedback that the review process caused added stress and anxiety and diverted focus from impactful work. In response, we introduced mandatory monthly check-ins for managers and optional check-ins for teammates to support continuous performance feedback and moved the formal, merit review cycle to one-time per year.
 
 **2. What are the benefits of an annual review cycle vs bi-annual?**
 
 **Answer:**
 
-* **Longer-term focus:** this will support a cohesive performance assessment and goal-setting period so that we can align recognition on yearly targets/execution.
-* **Time efficiency:** monthly check-ins and regular 1:1s will reduce work associated with review writing, calibration sessions, and formal review delivery. We want to give this time back to teammates to focus on execution and strategic initiatives.
-* **Reduced pressure/anxiety:** removing the direct tie between formal reviews and merit/stability will help alleviate the stress of a numerical score.  We added monthly check-ins to facilitate growth conversations in between review cycles. 
+- **Longer-term focus:** this will support a cohesive performance assessment and goal-setting period so that we can align recognition on yearly targets/execution.
+- **Time efficiency:** monthly check-ins and regular 1:1s will reduce work associated with review writing, calibration sessions, and formal review delivery. We want to give this time back to teammates to focus on execution and strategic initiatives.
+- **Reduced pressure/anxiety:** removing the direct tie between formal reviews and merit/stability will help alleviate the stress of a numerical score. We added monthly check-ins to facilitate growth conversations in between review cycles.
 
 **3. Does this mean I have fewer opportunities to get a pay increase or promotion?**
 
-**Answer:** Historically, all teammates who have met performance expectations at minimum received a pay increase annually. This will not change and teammates who are exceeding or meeting performance expectations will not go more than 1.5 years without an increase. The only thing that is changing is that teammates who would historically have received an increase or spot bonus due to receiving Superior or Distinguished Performance Ratings will be rewarded annually instead of bi-annually, however, the percentage increase will be adjusted accordingly with our [talent assessment scale](#the-talent-assessment-framework) (new % increases will be announced prior to the next annual cycle in FY26, given that this will be the first review period with a full full-year cadence). 
+**Answer:** Historically, all teammates who have met performance expectations at minimum received a pay increase annually. This will not change and teammates who are exceeding or meeting performance expectations will not go more than 1.5 years without an increase. The only thing that is changing is that teammates who would historically have received an increase or spot bonus due to receiving Superior or Distinguished Performance Ratings will be rewarded annually instead of bi-annually, however, the percentage increase will be adjusted accordingly with our [talent assessment scale](#the-talent-assessment-framework) (new % increases will be announced prior to the next annual cycle in FY26, given that this will be the first review period with a full full-year cadence).
 
-We will continue to evaluate promotions in conjunction with our[ promotion philosophy]((#promotion-philosophy)) and reward teammates for exemplary performance via spot bonuses and impact awards outside our annual merit cycle. 
+We will continue to evaluate promotions in conjunction with our[ promotion philosophy](<(#promotion-philosophy)>) and reward teammates for exemplary performance via spot bonuses and impact awards outside our annual merit cycle.
 
 **4. Are we still using the same scoring system for annual reviews?**
 
-**Answer:** Yes we are using the same scoring system which can be found [here](#the-talent-assessment-framework). 
+**Answer:** Yes we are using the same scoring system which can be found [here](#the-talent-assessment-framework).
 
 **5. What will be the impact on new teammates not qualified for the current cycle? Will their first impact review be at the next annual cycle?**
 
-**Answer:** Teammates not eligible for the current impact review cycle will not be eligible for their first review until the next annual cycle. We are committed to ensuring that individuals in good standing do not go 1.5 years without a compensation increase which we ensure through our [eligibility criteria](#who-is-eligible-for-a-reviewcompensation-increase). 
+**Answer:** Teammates not eligible for the current impact review cycle will not be eligible for their first review until the next annual cycle. We are committed to ensuring that individuals in good standing do not go 1.5 years without a compensation increase which we ensure through our [eligibility criteria](#who-is-eligible-for-a-reviewcompensation-increase).
 
-Monthly check-ins will serve as the primary avenue for feedback between impact review cycles, ensuring consistent communication and recognition of contributions. Off-cycle promotions will be formally reviewed bi-annually and off-cycle reviews will be considered if aligned with a business need. 
+Monthly check-ins will serve as the primary avenue for feedback between impact review cycles, ensuring consistent communication and recognition of contributions. Off-cycle promotions will be formally reviewed bi-annually and off-cycle reviews will be considered if aligned with a business need.
 
 ---
 
