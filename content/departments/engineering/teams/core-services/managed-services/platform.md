@@ -18,7 +18,7 @@ MSP supports single-container:
 
 From a simple service configuration YAML ([examples](https://github.com/sourcegraph/managed-services/tree/main/services)) and the `sg msp` toolchain for managing configuration, we currently support:
 
-- Generating infrastructure-as-code, deployed via [Terraform Cloud](#terraform-cloud)
+- Generating infrastructure-as-code, deployed via Terraform Cloud
 - [Service initialization and runtime boilerplate](#building-a-new-service) via [sourcegraph/lib/managedservicesplatform](https://github.com/sourcegraph/sourcegraph/tree/main/lib/managedservicesplatform), which includes:
   - initialization of OpenTelemetry tracing and metrics, logging, and error reporting
   - integration guidance for provisioned data backends like Redis and PostgreSQL
@@ -35,6 +35,7 @@ From a simple service configuration YAML ([examples](https://github.com/sourcegr
 - Commands for easy access to infrastructure
   - Shortcuts to relevant UIs in `sg msp tfc view`, `sg msp logs`, etc.
   - Securely connect to your PostgreSQL instance using `sg msp pg connect`
+- Generated infrastructure guidance, rendered in the [Managed Services infrastructure](../../../managed-services/index.md) pages.
 
 See [our GitHub roadmap](https://github.com/orgs/sourcegraph/projects/375/views/1) and [2023 Q3 Managed Services Platform (MSP) proof-of-concept update](https://docs.google.com/document/d/1DSqKqCgXW2m0TCVBmDSasY2Hxb9cp9Uv_NgF4MEfAto/edit) for more details on things we will be adding to MSP.
 
@@ -68,35 +69,5 @@ Refer to the [sourcegraph/managed-services README](https://github.com/sourcegrap
 
 ## Operating services
 
-This is a user/operator-oriented guide.
-Guidance for MSP incidents is available in [Managed Services incident response](./incidents.md).
-
-### Infrastructure access
-
-For MSP service environments other than `category: test`, access needs to be requested through Entitle.
-The test environment ("Engineering Projects" GCP folder) should have access granted to engineers by default.
-
-Entitle access to a production MSP project is most easily provisioned through the `mspServiceReader` and `mspServiceEditor` custom roles, which provide read-only and editing access respectively.
-You can request access to a project in Entitle by following these steps:
-
-- Go to [app.entitle.io/request](https://app.entitle.io/request) and select **Specific Permission**
-- Fill out the following:
-  - Integration: `GCP Production Projects`
-  - Resource types: `Project`
-  - Resource: name of MSP project you are interested in
-  - Role: `mspServiceReader` (or `mspServiceEditor` if you need additional privileges - use with care!)
-  - Duration: choose your own adventure!
-
-These custom roles are configured [in `gcp/org/customer-roles/msp.tf` in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf).
-
-### Terraform Cloud
-
-Terraform Cloud (TFC) workspaces for MSP [can be found using the `msp` workspace tag](https://app.terraform.io/app/sourcegraph/workspaces?tag=msp).
-
-To gain access to MSP project TFC workspaces, [log in to Terraform Cloud](https://app.terraform.io/app/sourcegraph) and _then_ [request membership to the `Managed Services Platform Operators` TFC team via Entitle](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjM2MDAiLCJqdXN0aWZpY2F0aW9uIjoiRU5URVIgSlVTVElGSUNBVElPTiBIRVJFIiwicm9sZUlkcyI6W3siaWQiOiJiMzg3MzJjYy04OTUyLTQ2Y2QtYmIxZS1lZjI2ODUwNzIyNmIiLCJ0aHJvdWdoIjoiYjM4NzMyY2MtODk1Mi00NmNkLWJiMWUtZWYyNjg1MDcyMjZiIiwidHlwZSI6InJvbGUifV19).
-This TFC team has access to all MSP workspaces, and is [configured here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/terraform-cloud/terraform.tfvars?L44:1-48:4).
-
-Note that you **must [log in to Terraform Cloud](https://app.terraform.io/app/sourcegraph) before making your Entitle request**.
-If you make your Entitle request, then log in, you will be removed from any team memberships granted through Entitle by Terraform Cloud's SSO implementation.
-
-For more details, also see [creating and configuring services](https://github.com/sourcegraph/managed-services#operations).
+- **Guidance for service operators** is available in the [Managed Services infrastructure](../../../managed-services/index.md) pages.
+- **Guidance for broad MSP incidents** is available in [Managed Services incident response](./incidents.md) - this is generally intended for Core Services.
