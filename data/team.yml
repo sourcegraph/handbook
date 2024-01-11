@@ -1792,3 +1792,14 @@ eric_shamow:
   links: '[Twitter](https://twitter.com/eshamow), [Mastodon](https://macaw.social/@eshamow)'
   location: Portland, OR, USA
   description: 'Eric is originally out of New York but has called Portland, OR home for the past decade. He spends a lot of time in the space somewhere between process, systems architecture, org design and engineering practices. Prior to Sourcegraph Eric was an early employee at Puppet a little over a decade ago, where he visited over 200 companies to study how tools and practices intersect to drive culture change. More recently he ran the Compute SRE team at Twitter. Eric used to be a classical musician, and can be found geeking out over music, books and films (especially sci-fi and horror).'
+
+  aravind_ramaraju:
+  name: Aravind Ramaraju
+  reports_to: product_lead
+  pronouns: he/him
+  role: Product Manager
+  location: Berkeley, CA, USA 🇺🇸
+  github: aramaraju
+  email: aravind@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/aramaraju/)'
+  description: 'Aravind is a PhD-dropout Material Scientist turned Product Manager, who is energized by building products for important and difficult problems that never compromises on experience. When he is not building products, he is expertly losing at boardgames, making up new dishes in the kitchen, living in a new fantastical world through a book or cuddling with his dog, Maple 🍁!
