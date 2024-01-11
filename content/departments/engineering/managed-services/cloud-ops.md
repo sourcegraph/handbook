@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`cloud-ops`](https://github.com/sourcegraph/managed-services/blob/main/services/cloud-ops/service.yaml)                   |
 | Owners       | **cloud**                                                                                                                  |
 | Service kind | Cloud Run service                                                                                                          |
-| Environments | [prod environment](#prod-environment)                                                                                      |
+| Environments | [prod](#prod)                                                                                                              |
 | Docker image | `us-central1-docker.pkg.dev/control-plane-5e9ee072/docker/apiserver`                                                       |
 | Source code  | [`github.com/sourcegraph/controller` - `cmd/apiserver`](https://github.com/sourcegraph/controller/tree/HEAD/cmd/apiserver) |
 
 ## Environments
 
-### prod environment
+### prod
 
 |    PROPERTY    |                                              DETAILS                                               |
 |----------------|----------------------------------------------------------------------------------------------------|

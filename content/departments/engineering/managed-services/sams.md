@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`sams`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml)                                                                     |
 | Owners       | **core-services**                                                                                                                                                  |
 | Service kind | Cloud Run service                                                                                                                                                  |
-| Environments | [dev environment](#dev-environment)                                                                                                                                |
+| Environments | [dev](#dev)                                                                                                                                                        |
 | Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/sams/accounts-server`                                                                                                  |
 | Source code  | [`github.com/sourcegraph/accounts.sourcegraph.com` - `cmd/accounts-server`](https://github.com/sourcegraph/accounts.sourcegraph.com/tree/HEAD/cmd/accounts-server) |
 
 ## Environments
 
-### dev environment
+### dev
 
 |    PROPERTY    |                                                           DETAILS                                                           |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|

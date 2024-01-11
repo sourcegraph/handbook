@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`support-integration`](https://github.com/sourcegraph/managed-services/blob/main/services/support-integration/service.yaml) |
 | Owners       | **Customer Support**                                                                                                         |
 | Service kind | Cloud Run service                                                                                                            |
-| Environments | [prod environment](#prod-environment)                                                                                        |
+| Environments | [prod](#prod)                                                                                                                |
 | Docker image | `index.docker.io/sourcegraph/support-integration`                                                                            |
 | Source code  | [`github.com/sourcegraph/support-integration` - `.`](https://github.com/sourcegraph/support-integration/tree/HEAD/.)         |
 
 ## Environments
 
-### prod environment
+### prod
 
 |    PROPERTY    |                                                    DETAILS                                                    |
 |----------------|---------------------------------------------------------------------------------------------------------------|

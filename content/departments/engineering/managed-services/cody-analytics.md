@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`cody-analytics`](https://github.com/sourcegraph/managed-services/blob/main/services/cody-analytics/service.yaml) |
 | Owners       | **cody-strat**                                                                                                     |
 | Service kind | Cloud Run service                                                                                                  |
-| Environments | [dev environment](#dev-environment)                                                                                |
+| Environments | [dev](#dev)                                                                                                        |
 | Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/cody-analytics/service`                                                |
 | Source code  | [`github.com/sourcegraph/cody-analytics` - `.`](https://github.com/sourcegraph/cody-analytics/tree/HEAD/.)         |
 
 ## Environments
 
-### dev environment
+### dev
 
 |    PROPERTY    |                                                DETAILS                                                 |
 |----------------|--------------------------------------------------------------------------------------------------------|

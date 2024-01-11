@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`telemetry-gateway`](https://github.com/sourcegraph/managed-services/blob/main/services/telemetry-gateway/service.yaml)                     |
 | Owners       | **core-services**                                                                                                                            |
 | Service kind | Cloud Run service                                                                                                                            |
-| Environments | [dev environment](#dev-environment), [prod environment](#prod-environment)                                                                   |
+| Environments | [dev](#dev), [prod](#prod)                                                                                                                   |
 | Docker image | `index.docker.io/sourcegraph/telemetry-gateway`                                                                                              |
 | Source code  | [`github.com/sourcegraph/sourcegraph` - `cmd/telemetry-gateway`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/cmd/telemetry-gateway) |
 
 ## Environments
 
-### dev environment
+### dev
 
 |  PROPERTY  |                                                  DETAILS                                                  |
 |------------|-----------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Test environments have less stringent requirements.
 | Console  | [Cloud Run service](https://console.cloud.google.com/run?project=telemetry-gateway-dev-0050)                                                                                                                                                                                                                                            |
 | Logs     | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=telemetry-gateway-dev-0050) |
 
-### prod environment
+### prod
 
 |  PROPERTY  |                                                  DETAILS                                                   |
 |------------|------------------------------------------------------------------------------------------------------------|

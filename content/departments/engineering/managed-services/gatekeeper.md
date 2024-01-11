@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`gatekeeper`](https://github.com/sourcegraph/managed-services/blob/main/services/gatekeeper/service.yaml) |
 | Owners       | **cody-services**                                                                                          |
 | Service kind | Cloud Run job                                                                                              |
-| Environments | [prod environment](#prod-environment)                                                                      |
+| Environments | [prod](#prod)                                                                                              |
 | Docker image | `us.gcr.io/sourcegraph-dev/abuse-ban-bot`                                                                  |
 | Source code  | [`github.com/sourcegraph/abuse-ban-bot` - `.`](https://github.com/sourcegraph/abuse-ban-bot/tree/HEAD/.)   |
 
 ## Environments
 
-### prod environment
+### prod
 
 |  PROPERTY  |                                               DETAILS                                               |
 |------------|-----------------------------------------------------------------------------------------------------|

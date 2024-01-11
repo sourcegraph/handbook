@@ -16,13 +16,13 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Service ID   | [`pings`](https://github.com/sourcegraph/managed-services/blob/main/services/pings/service.yaml)                     |
 | Owners       | **core-services**                                                                                                    |
 | Service kind | Cloud Run service                                                                                                    |
-| Environments | [prod environment](#prod-environment)                                                                                |
+| Environments | [prod](#prod)                                                                                                        |
 | Docker image | `index.docker.io/sourcegraph/pings`                                                                                  |
 | Source code  | [`github.com/sourcegraph/sourcegraph` - `cmd/pings`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/cmd/pings) |
 
 ## Environments
 
-### prod environment
+### prod
 
 |  PROPERTY  |                                                DETAILS                                                 |
 |------------|--------------------------------------------------------------------------------------------------------|
