@@ -40,6 +40,8 @@ Note: if the prospect was a PLG Cloud trial customer, do _not_ reuse the `plg-tr
 
 The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
 
+> [!NOTE] The Subscription ID and Opportunity ID used below are **not** the same as the Subscription or Opportunity number.  The correct data can be found in the Opportunity under Important Technical Details -> License IDs.  It can also be pulled from the URL of the corresponding Subscription or Opportunity page.
+
 1. Sign in to sourcegraph.com.
 1. If the customer instance does not have an account yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account. (You can also check for a user already exists following the instructions in the [Internal Licensing FAQ](#internal-licensing-FAQ) document.)
 1. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
