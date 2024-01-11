@@ -2,6 +2,9 @@
 
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
+
+Last updated: 2024-01-11 18:09:55.863516 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/f37cdc8aea65e1197e2d814447ad65c30fccd75b
 -->
 
 This document describes operational guidance for Support Integration infrastructure.
