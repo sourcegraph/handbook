@@ -58,7 +58,7 @@ Managed Services Platform services owned by `core-services`:
 For MSP service environments other than `category: test`, access needs to be requested through Entitle.
 Test environments are placed in the "Engineering Projects" GCP folder, which should have access granted to engineers by default.
 
-Entitle access to a production MSP project is most easily provisioned through the `mspServiceReader` and  custom roles, which provide read-only and editing access respectively.
+Entitle access to a production MSP project is most easily provisioned through the `mspServiceReader` and custom roles, which provide read-only and editing access respectively.
 You can request access to a project in Entitle by following these steps:
 
 - Go to [app.entitle.io/request](https://app.entitle.io/request) and select **Specific Permission**
@@ -69,7 +69,7 @@ You can request access to a project in Entitle by following these steps:
   - Role: `mspServiceReader` (or `mspServiceEditor` if you need additional privileges - use with care!)
   - Duration: choose your own adventure!
 
-These custom roles are configured [in  in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf).
+These custom roles are configured [in in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf).
 
 ### Terraform Cloud access
 
