@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-11 18:09:55.866421 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/f37cdc8aea65e1197e2d814447ad65c30fccd75b
+Last updated: 2024-01-11 23:32:32.157895 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/f8d4d7205ba81e75f01920f1034cb2f52e039ace
 -->
 
 These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.
@@ -58,8 +58,10 @@ Managed Services Platform services owned by `core-services`:
 For MSP service environments other than `category: test`, access needs to be requested through Entitle.
 Test environments are placed in the "Engineering Projects" GCP folder, which should have access granted to engineers by default.
 
-Entitle access to a production MSP project is most easily provisioned through the `mspServiceReader` and custom roles, which provide read-only and editing access respectively.
-You can request access to a project in Entitle by following these steps:
+Entitle access to a production MSP project is generally provisioned through the `mspServiceReader` and `mspServiceEditor` custom GCP roles, which provide read-only and editing access respectively.
+Convenience links for requesting these roles are available in the per-service operation pages above, based on each environment.
+
+You can also choose to request access to an individual project in Entitle by following these steps:
 
 - Go to [app.entitle.io/request](https://app.entitle.io/request) and select **Specific Permission**
 - Fill out the following:
@@ -69,7 +71,7 @@ You can request access to a project in Entitle by following these steps:
   - Role: `mspServiceReader` (or `mspServiceEditor` if you need additional privileges - use with care!)
   - Duration: choose your own adventure!
 
-These custom roles are configured [in in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf).
+The custom roles used for MSP infrastructure access are [configured in `sourcegraph/infrastructure`](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf).
 
 ### Terraform Cloud access
 
