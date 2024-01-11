@@ -19,7 +19,6 @@
 **Metric: Search results clicked**
 
 - **Definition:** Users who perform a search, then click on a result.
-TODO
 - **Why this metric:** When a user clicks through to a result, it signals the user found something of interest. Less obviously, a session where no results were clicked could be a sign that we surfaced the right code in the results and the user did not need to navigate elsewhere. As we seek to improve ranking, results display, and other modifications to the core workflow, tracking the impact on results clicked will help us understand how we are changing the search user experience.
 
 - **Source of truth:** [Amplitude](https://app.amplitude.com/analytics/sourcegraph/dashboard/90h2qwld) (see: “Search result clicked and search success (all users)” chart and the middle funnel labeled "SearchRestultsClicked".)
