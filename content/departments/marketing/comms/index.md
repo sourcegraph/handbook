@@ -6,9 +6,8 @@ The global communications team supports the entire organization and influences t
 
 The Comms team is made up of the following functions & leads:
 
-- Global comms & public relations: Amie Rotherham
-- Internal comms: Madison Clark
-- Social media: Bachi Degli-Innocenti
+- Comms, content, analyst relations: Amie Rotherham
+- Global comms: Madison Clark
 - Field marketing & demand gen campaigns: Olivia Simpson
 
 ## Meet the team & what we do
@@ -26,16 +25,16 @@ Projects & responsibilities:
 
 Important channels:
 
-- #press
-- #marketing
-- #comms-team-internal
+- [#wg-press-analyst-relations](https://sourcegraph.slack.com/archives/C026V14UEAU)
+- [#discuss-marketing](https://sourcegraph.slack.com/archives/CNC4YAL1E)
+- [#discuss-internal-comms](https://sourcegraph.slack.com/archives/C02K3HXGZTL)
 
 Resources:
 
-- [Link to come in Oct/Nov] Messaging & stats one pager
+- [Messaging & stats one pager](https://docs.google.com/document/d/1Ssf2rcAgLfOguA2RJAghlQLiLVMcDvOQqx_7M_V1JY0/edit)
   - See also: [Platform messaging page](../process/positioning.md)
 - [Press coverage tracking](https://docs.google.com/spreadsheets/d/1JgtzMGi9NYheNGyUowFlcdmN0U5w4sV8p_JccWZBwac/edit)
-- Case study signoff: Tag @Amie Rotherham in #marketing for approval (see the [procurement page](../../finance/process/ap.md) for more on approval process).
+- Case study signoff: Tag @Amie Rotherham in #discuss-marketing for approval (see the [procurement page](../../finance/process/ap.md) for more on approval process).
 
 ## _Internal comms:_
 
@@ -50,7 +49,7 @@ Projects & responsibilites:
 - **Quarterly and annual kickoff events** - At the beginning of every quarter, we bring the whole company together via a special company meeting focused on progress from the previous quarter and goals for the one ahead. Work with our team to add content to this meeting and share ideas on fun ways to kickoff a new quarter together.
 - [**The Git Down newsletter**](https://us8.campaign-archive.com/home/?u=df2a46502c53acf0b7771317f&id=e8e7daeb55) - This monthly newsletter complements other internal comms channels and gives our team a way to share longer-form content with the team. If you want to include something in a future issue, sent a message to #internal-comms.
 
-Important channels: [#internal-comms](https://sourcegraph.slack.com/archives/C02K3HXGZTL)
+Important channels: [#discuss-internal-comms](https://sourcegraph.slack.com/archives/C02K3HXGZTL)
 
 Resources:
 
