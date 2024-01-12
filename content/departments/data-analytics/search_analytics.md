@@ -12,7 +12,7 @@
 
 - **Definition:** This event occurs when users search and then conduct actions such as copying code, navigating via code intel, searching history, or visiting the code host.
 
-- **Why this metric:** Tracking search success aligns us to the actions users need to accomplish with code search. As we improve the product to help developers accmoplish their tasks, we will register more search success events, and grow the number of users who find emense value in Sourcegraph.
+- **Why this metric:** Tracking search success aligns us to the actions users need to accomplish with code search. As we improve the product to help developers accomplish their tasks, we will register more search success events, and grow the number of users who find immense value in Sourcegraph.
 
 - **Source of truth:** Search success is currently defined by a custom event in Amplitude that combines several eventlogger metrics. The official chart can be viewed [here](https://app.amplitude.com/analytics/sourcegraph/dashboard/90h2qwld). (see: “Search result clicked and search success (all users)” chart, the KPI on the funnel labeled "Conversion Rate".)
 
