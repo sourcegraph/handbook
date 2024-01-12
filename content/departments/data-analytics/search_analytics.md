@@ -23,12 +23,6 @@
 
 - **Source of truth:** [Amplitude](https://app.amplitude.com/analytics/sourcegraph/dashboard/90h2qwld) (see: “Search result clicked and search success (all users)” chart and the middle funnel labeled "SearchRestultsClicked".)
 
-## Search user definitions
-
-### Search Product DAUs
-
-A daily active product user for search is defined as
-
 ## Search reporting tools
 
 ### Looker
