@@ -10,7 +10,7 @@
 
 **Metric: Search success**
 
-- **Definition:** Users who perform a search, then follow through with actions like copying code, navigating via code intel, searching history, or visiting the code host.
+- **Definition:** This event occurs when users search and then conduct actions such as copying code, navigating via code intel, searching history, or visiting the code host.
 
 - **Why this metric:** Tracking search success aligns us to the actions users need to accomplish with code search. As we improve the product to help developers accmoplish their tasks, we will register more search success events, and grow the number of users who find emense value in Sourcegraph.
 
