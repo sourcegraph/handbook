@@ -1,6 +1,6 @@
 ## Search data and analytics
 
-**Metric: DAUs**
+**Metric: DAU**
 
 - **Definition:** Average daily active users who search or read code in their managed instance.
 
