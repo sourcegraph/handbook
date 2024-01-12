@@ -2,7 +2,6 @@
 
 - [Updating Known Issues Page](known-issues.md)
 - [Case transitions](case-transitions.md)
-- [Change Management Checklist](change-management-checklist.md)
 - [Cloud Maintenance Window Process](cloud-maintenance-window.md)
 - [Collaboration time](collaboration-time.md)
 - [Customer exceptions](customer-exceptions.md)
@@ -12,7 +11,6 @@
 - [Managed instances](support-managed-instances.md)
 - [Permanently deleting user data](permanently_deleting_user_data.md)
 - [Prioritization](support-prioritization.md)
-- [Removing repositories from cloud](removing-repositores-from-cloud.md)
 - [Support capacity levels and contingencies](support-capacity-levels-and-contingencies.md)
 - [How to Create and Transfer Tickets for Support Engineering](support-agent-customer-slack-channels.md)
 - [Triaging](customer-support-triaging.md)
