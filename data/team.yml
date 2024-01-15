@@ -1804,3 +1804,9 @@ aravind_ramaraju:
   email: aravind@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/aramaraju/)'
   description: 'Aravind is a PhD-dropout Material Scientist turned Product Manager, who is energized by building products for important and difficult problems that never compromises on experience. When he is not building products, he is expertly losing at boardgames, making up new dishes in the kitchen, living in a new fantastical world through a book or cuddling with his dog, Maple 🍁!'
+
+kosta_ilinov:
+  name: Konstantin Ilinov
+  email: kosta.ilinov@sourcegraph.com
+  reports_to: vp_technical_success
+  role: Customer Engineer, APAC  
