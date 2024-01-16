@@ -26,7 +26,9 @@ following topics:
   business? How well have you hit your metrics targets?
 - **Plans:** What work is being proposed for this planning cycle, how does it meet
   the business goals and how does it serve the needs of our customers? What
-  data are you using to drive your planning?
+  data are you using to drive your planning? Have you done the
+  [eng scoping](#engineer-scoping) to insure that your team is able to get this
+  work done in the time?
 - **Success Metrics:** what KPIs and targets have you set to measure the success
   of this work?
 - **Risks/Open Questions/Needs:** What are the biggests risks? What are the
