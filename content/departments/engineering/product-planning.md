@@ -48,7 +48,9 @@ Note, not every team will have work to do that applies to every goal every
 quarter. Likewise, not every work item is expected to meet a strategic goal.
 
 ## Review Effectiveness
+
 Some tips for having an effective review:
+
 - Make sure the priorities for your work is clear -- what's Must Have (P0),
   Want To Have (P1) and Nice To Have (P2)? What could get cut?
 - Make sure the customer (internal and/or external) impact is clear -- if we do
