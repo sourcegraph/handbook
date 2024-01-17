@@ -438,13 +438,13 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#team-ta
+   <td>#team-technical-advisors
    </td>
    <td>TA
    </td>
   </tr>
   <tr>
-   <td>#discuss-ta
+   <td>#discuss-technical-advisors
    </td>
    <td>TA
    </td>
