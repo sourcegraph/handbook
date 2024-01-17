@@ -432,6 +432,12 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
+   <td>#discuss-professional-services
+   </td>
+   <td>Sales, CE, TA, IE, Support Engineering
+   </td>
+  </tr>
+  <tr>
    <td>#team-technical-advisors
    </td>
    <td>TA
@@ -465,12 +471,6 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    <td>#discuss-support-engineering
    </td>
    <td>Support
-   </td>
-  </tr>
-  <tr>
-   <td>#wg-sales-ts-leadership
-   </td>
-   <td>Sales & TS Leadership
    </td>
   </tr>
   <tr>
