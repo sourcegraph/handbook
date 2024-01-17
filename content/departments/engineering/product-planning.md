@@ -47,6 +47,19 @@ or another review meeting will be scheduled to follow up until there is alignmen
 Note, not every team will have work to do that applies to every goal every
 quarter. Likewise, not every work item is expected to meet a strategic goal.
 
+## Review Effectiveness
+Some tips for having an effective review:
+- Make sure the priorities for your work is clear -- what's Must Have (P0),
+  Want To Have (P1) and Nice To Have (P2)? What could get cut?
+- Make sure the customer (internal and/or external) impact is clear -- if we do
+  this work, what's going to be the value to the customer?
+- Make sure the business impact is clear -- if we do this work, how does that
+  help us achieve our strategic goals?
+- In addition to ensuring that the EPD team is aligned before heading into the
+  review, try to get as much alignment with execs ahead of time as possible.
+
+I've noticed that the teams the follow this tips have a smoother review process.
+
 ## Engineer Scoping
 
 For any launch, we have a finite amount of time and a finite number of engineers.
