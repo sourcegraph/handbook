@@ -104,7 +104,7 @@ All mentee/mentor assignments will be based on availability of the requested men
 
 ## Mentor/Mentee Feedback
 
-Please share feedback directly with your Mentor via [Lattice](https://sourcegraph.latticehq.com/), by selecting the ‘Give or Request Feedback’ button on the Lattice dashboard. Be sure to select the [private or private + manager](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/teammate-development/#how-do-we-use-lattice-to-give-feedback) category, otherwise this feedback will be shared publicly in the [#thanks](https://sourcegraph.slack.com/archives/CDVGH9RDF) channel.
+Please share feedback directly with your Mentor via [Lattice](https://sourcegraph.latticehq.com/), by selecting the ‘Give or Request Feedback’ button on the Lattice dashboard. Be sure to select the private or private + manager category, otherwise this feedback will be shared publicly in the [#thanks](https://sourcegraph.slack.com/archives/CDVGH9RDF) channel.
 
 - **<span style="text-decoration:underline;">Month 1: </span>**
 - Mentee:
