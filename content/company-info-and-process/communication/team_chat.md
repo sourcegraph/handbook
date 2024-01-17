@@ -47,7 +47,7 @@ To help with navigation and discoverability, follow these naming conventions for
    </td>
    <td>For teams to coordinate work and activities among themselves. Strict channel membership for only people on that team.
    </td>
-   <td>#team-design, #team-support, #team-sales
+   <td>#team-design, #team-support-engineering, #team-sales
    </td>
   </tr>
   <tr>
@@ -313,13 +313,13 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#discuss-sales-enablement
+   <td>#discuss-field-gtm-and-operations
    </td>
    <td>All Sales
    </td>
   </tr>
   <tr>
-   <td>#sales-prospecting
+   <td>#wg-sales-prospecting
    </td>
    <td>All Sales
    </td>
@@ -331,19 +331,19 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#team-ae-west
+   <td>#team-west-ae
    </td>
    <td>AE West
    </td>
   </tr>
   <tr>
-   <td>#team-ae-east
+   <td>#team-east-ae
    </td>
    <td>AE East
    </td>
   </tr>
   <tr>
-   <td>#team-ae-emea
+   <td>#team-emea-ae
    </td>
    <td>AE EMEA
    </td>
@@ -355,7 +355,7 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#gtm-ops-review
+   <td>#gtm-operations-review
    </td>
    <td>Sales Leadership
    </td>
@@ -367,7 +367,7 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#eoq-closing
+   <td>#discuss-eoq-closing
    </td>
    <td>Deal Desk, Sales, Legal Teams
    </td>
@@ -420,12 +420,6 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#team-ce-west
-   </td>
-   <td>CE West
-   </td>
-  </tr>
-  <tr>
    <td>#team-implementation
    </td>
    <td>Implementation
@@ -450,21 +444,27 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#team-customer-support
+  <td>#team-scaled-success
+   </td>
+   <td>TA
+   </td>
+  </tr>
+  <tr>
+  <td>#discuss-scaled-success
+   </td>
+   <td>TA
+   </td>
+  </tr>
+  <tr>
+    <td>#team-support-engineering
    </td>
    <td>Support
    </td>
   </tr>
   <tr>
-   <td>#discuss-customer-support
+   <td>#discuss-support-engineering
    </td>
    <td>Support
-   </td>
-  </tr>
-  <tr>
-   <td>#team-ts-leads
-   </td>
-   <td>TS Leadership
    </td>
   </tr>
   <tr>
@@ -486,11 +486,6 @@ To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up t
    </td>
   </tr>
   <tr>
-   <td>#announce-customer-updates
-   </td>
-   <td>CEs, AEs
-   </td>
-  </tr>
 </table>
 
 ### Engineering, Product, Design
