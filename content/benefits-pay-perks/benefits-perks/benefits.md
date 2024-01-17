@@ -47,53 +47,11 @@ You can waive your insurance coverage through [Rippling](https://help.rippling.c
 Updates to the following information must be noted **in both Bamboo and [Rippling](https://help.rippling.com/s/article/360056300693)**:
 An employee’s name, address, phone number, gender, Social Security Number, or date of birth, as well as updates to a dependent’s name, relationship type, gender, Social Security Number, or date of birth.
 
-## 2023 Benefit plans
-
-US-based teammates can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
-
-Medical:
-
-- UnitedHealthcare EPO
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1G18wzLAxelrmUdjN-IKyMroDM8-DmBCV/view?usp=sharing)
-  - [Plan Summary](https://drive.google.com/file/d/1c2QoMlgz2Xrwz7bxNzS-MiYWaYdCqu7z/view?usp=sharing)
-- UnitedHealthcare PPO 250
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/16keAAT080vqgpduTWB394pjgpGa9Dq1d/view?usp=sharing)
-  - [Plan Summary](https://drive.google.com/file/d/1_UInCXYibFlG_EY9yCcc7mCNyeADF9I9/view?usp=sharing)
-- UnitedHealthcare HSA 1500
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GjMU2lAeDp0IvHYyb1WJqUeC6Ajx_Zob/view?usp=sharing)
-  - [Plan Summary](https://drive.google.com/file/d/1Fco1hEvPGYO7ycRoUAlouf3d8G3gKfRD/view?usp=sharing)
-- Kaiser HMO
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1mOqIGOy3azcfhV9WmQbn8FxPFZCoCuE6/view?usp=sharing)
-- Kaiser HSA 3000
-  - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1CtUg58qlrKH8G9tjWeJFB3cb9CyXbMtb/view?usp=sharing)
-
-Dental:
-
-- [Cigna DPPO](https://drive.google.com/file/d/1o61HSqUV8vBbpldFE4fLkcxTQyjE9Mi9/view?usp=sharing)
-
-Vision:
-
-- [Equitable Vision](https://drive.google.com/file/d/1OokiJfH5WSMAhaC8LEYvLrWctHxgfFmL/view?usp=sharing)
-
-Life:
-
-- [Equitable Life Insurance](https://drive.google.com/file/d/1Hv_2mCAN3YX8FNKd1-U3T_6ag8KQaJ9I/view?usp=sharing)
-
-HSA, FSA, and Dependent Care FSA:
-
-- HSA, FSA and Dependent Care FSA accounts are administered by [Rippling](<https://app.rippling.com/login?next=%2fdashboard](https://app.rippling.com/login?next=%2Fdashboard)>).
-- [HSA Overview and Eligibility](https://help.rippling.com/s/topic/0TO4o000000HsnmGAC/hsa-overview)
-- [FSA Overview and Eligibility](https://help.rippling.com/s/article/360056730253)
-
-401K:
-
-- Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
-
-#### **2024 Open enrollment:**
+## **2024 Open enrollment:**
 
 **What:** Open Enrollment is your once-a-year opportunity to review and change your plans, add/or remove dependents, and review your costs and contribution for benefits in the coming year. Outside of open enrollment, you can only make changes to your insurance if you have a “qualified life event” - such as a marriage, or the birth of a child. You can find a recording of our Open Enrollment Session [here](https://sequoiaconsulting.zoom.us/rec/play/BNQTGICUcqsIfjgDvVGMFkX_OTyRC32fJCsTzbNEnAMwJhklnmDF7gQDsEPpdjvY_HGCcE_6eYjR6YZ4.Q-LDyHze0pfXMudh?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fsequoiaconsulting.zoom.us%2Frec%2Fshare%2F080yjjFM2_M3BCFAU-L3575kb7jda6FrIbVJ9uj6NhF3C1kt-pwu4xtOVLq6iZOr.o8DQVS7yWBcb68s5).
 
-**When:** Sourcegraph’s 2023 US Benefits open enrollment took place from <span style="text-decoration:underline;">2023-11-20</span> to <span style="text-decoration:underline;">2023-12-01</span>.
+**When:** Sourcegraph’s 2024 US Benefits open enrollment took place from <span style="text-decoration:underline;">2023-11-20</span> to <span style="text-decoration:underline;">2023-12-01</span>.
 
 - **Note:** If you start at Sourcegraph during open enrollment Rippling will walk you through new hire enrollment for 2023 benefits **and** open enrollment for 2024 benefits. If you start after 2023-12-01 Rippling will also walk you through **both** new hire enrollment and a special open enrollment window.
 
