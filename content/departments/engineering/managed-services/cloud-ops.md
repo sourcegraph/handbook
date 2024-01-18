@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-11 23:32:32.139894 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/f8d4d7205ba81e75f01920f1034cb2f52e039ace
+Last updated: 2024-01-18 17:51:09.639211 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/cebd22d6f89166213a4ca810202620ee7825d86c
 -->
 
 This document describes operational guidance for Cloud Ops Dashboard infrastructure.
@@ -33,6 +33,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Category       | **internal**                                                                                       |
 | Resources      | [prod Redis](#prod-redis)                                                                          |
 | Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cloud-ops-prod-dd32) |
+| Sentry         | [`cloud-ops-prod`](https://sourcegraph.sentry.io/projects/cloud-ops-prod/)                         |
 | Domain         | [cloud-ops.sgdev.org](https://cloud-ops.sgdev.org)                                                 |
 | Cloudflare WAF | ✅                                                                                                 |
 

@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-11 23:32:32.146527 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/f8d4d7205ba81e75f01920f1034cb2f52e039ace
+Last updated: 2024-01-18 17:51:09.645325 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/cebd22d6f89166213a4ca810202620ee7825d86c
 -->
 
 This document describes operational guidance for Pings Service infrastructure.
@@ -33,6 +33,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Category   | **external**                                                                                           |
 | Resources  |                                                                                                        |
 | Alerts     | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=pings-prod-2f4f73edf1db) |
+| Sentry     | [`pings-prod`](https://sourcegraph.sentry.io/projects/pings-prod/)                                     |
 | Domain     | [pings.sourcegraph.com](https://pings.sourcegraph.com)                                                 |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.

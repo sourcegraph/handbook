@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-11 23:32:32.155469 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/f8d4d7205ba81e75f01920f1034cb2f52e039ace
+Last updated: 2024-01-18 17:51:09.651342 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/cebd22d6f89166213a4ca810202620ee7825d86c
 -->
 
 This document describes operational guidance for Telemetry Gateway infrastructure.
@@ -33,6 +33,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Category   | **test**                                                                                                  |
 | Resources  |                                                                                                           |
 | Alerts     | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=telemetry-gateway-dev-0050) |
+| Sentry     | [`telemetry-gateway-dev`](https://sourcegraph.sentry.io/projects/telemetry-gateway-dev/)                  |
 | Domain     | [telemetry-gateway.sgdev.org](https://telemetry-gateway.sgdev.org)                                        |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
@@ -92,6 +93,7 @@ sg msp tfc view telemetry-gateway dev
 | Category   | **external**                                                                                               |
 | Resources  |                                                                                                            |
 | Alerts     | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=telemetry-gateway-prod-acae) |
+| Sentry     | [`telemetry-gateway-prod`](https://sourcegraph.sentry.io/projects/telemetry-gateway-prod/)                 |
 | Domain     | [telemetry-gateway.sourcegraph.com](https://telemetry-gateway.sourcegraph.com)                             |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
