@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-11 23:32:32.157895 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/f8d4d7205ba81e75f01920f1034cb2f52e039ace
+Last updated: 2024-01-18 17:51:09.652986 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/cebd22d6f89166213a4ca810202620ee7825d86c
 -->
 
 These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.
@@ -50,6 +50,12 @@ Managed Services Platform services owned by `core-services`:
 - [Pings Service](./pings.md)
 - [Sourcegraph Accounts](./sams.md)
 - [Telemetry Gateway](./telemetry-gateway.md)
+
+## dev-experience
+
+Managed Services Platform services owned by `dev-experience`:
+
+- [Release Registry](./releaseregistry.md)
 
 ## General guidance
 
