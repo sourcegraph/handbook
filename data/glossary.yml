@@ -146,7 +146,7 @@ business:
 
 role:
   - term: EPD
-    definition: Engineering, Product, Design - refers to the department that includes those three teams. 
+    definition: Engineering, Product, Design - refers to the department that includes those three teams.
   - term: AE
     definition: Account executive - responsible for maintaining an enterprise customer account and our relationship with them
   - term: CE
