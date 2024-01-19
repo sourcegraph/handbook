@@ -79,6 +79,7 @@ Contractors generally don’t go through team-specific onboarding, except for fu
 As we’re building a company for the long-term, we rarely take on temporary contractors in any country (including the US) unless under exceptional circumstances, like once-off projects or to cover for an existing teammate on an extended leave. [Temporary contractors](./temporary-contractors.md) are independent contractors who supply work or services to us on an “as needed” basis, use their own systems and tools to do so, and invoice us monthly for the work they’ve done. While we strive to make them feel welcome and support their success in their short time with us, they are not considered teammates, and some of their access to our systems, meetings and benefits may be limited.
 
 ### How to hire a temporary contractor
+
 Temporary contractors **must** go through our [vendor procurement process](../../../../finance/process/ap.md#airbase-guided-procurement-contract-executionvendor-request), which is managed in Airbase, prior to working with any temporary contractors or signing any agreements. During the vendor procurement process, the temporary contractor request will go through all necessary approvals (People Ops, Finance, and Security and Legal if appropriate). Once approved, People Ops will draft and send the contractor agreement via Docusign.
 
 The sooner you submit the request in Airbase, the better!
