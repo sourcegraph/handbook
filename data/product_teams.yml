@@ -29,7 +29,6 @@ source:
   title: Source
   brief: The Source team is responsible for code host integrations, gitserver, repo-updater, authentication & authorization to Sourcegraph, user management, and admin experience.
   strategy_link: /strategy-goals/strategy/platform/source.md
-  pm: ryan_phillips
   issue_labels:
     - team/iam
     - team/admin-exp
