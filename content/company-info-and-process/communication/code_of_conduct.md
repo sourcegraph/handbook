@@ -289,7 +289,7 @@ If you have a question or concern about a violation of the Code, speak up. Pleas
 
 - Your Manager
 - The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
-- The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
+- The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
 
 You can also use Slack, set up a meeting, or call them directly.
 

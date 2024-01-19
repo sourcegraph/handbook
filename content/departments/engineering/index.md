@@ -38,6 +38,10 @@ The Engineering department at Sourcegraph consists of:
 - [Our software development lifecycle (SDLC)](sdlc.md)
 - [Bi-Weekly Status Updates](bi-weekly-updates.md)
 
+## Resources
+
+- [Managed Services infrastructure](./managed-services/index.md)
+
 ## What's in a feature?
 
 For every feature we ship, consider:

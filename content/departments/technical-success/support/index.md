@@ -25,7 +25,7 @@ Our main SLA (service level agreement) on tickets is time to first response (TTF
 - Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication)
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
-- Sharing our learnings through [our official documentation](https://docs.sourcegraph.com/) so that customers have a single source of truth
+- Sharing our learnings through [our official documentation](https://sourcegraph.com/docs) so that customers have a single source of truth
 
 ## Team Reference Resources
 
@@ -54,4 +54,6 @@ Our SLAs are defined in our docs page [here](https://docs.sourcegraph.com/sla).
 
 ## Support on-call
 
-OpsGenie on-call protocol alerts a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.
+We use OpsGenie for our 24x7 Support rotation. This is for customers that have paid for this service or emergencies that require a Support Engineer immediately. You can trigger this on Slack by using the command: `/genie alert [alert message] for customer-support`.
+
+If you are an SE that needs a Manager or anyone else that needs SE leadership you can page them with the Slack command: `/genie alert [alert message] for support-mgmt`

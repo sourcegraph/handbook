@@ -189,17 +189,6 @@ owen_brennan:
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
 
-jonah_dueck:
-  name: Jonah Dueck
-  pronouns: he/him
-  role: Customer Engineer
-  reports_to: vp_technical_success
-  location: Seattle, WA, USA 🇺🇸
-  github: justdueck
-  email: jonah@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jonah-dueck/)'
-  description: "Jonah has been working within the IT space since high school. He started out by founding and running a small IT company in northern Nevada while still in high school and after graduating, moved on to working for another small company in Northern California. Most recently, he worked in internal IT operations and technical program management at Google for about 2 years. Outside of work, he enjoys rock climbing, playing music (guitar and drums), riding his motorcycle and working on his old VW bus (there's always something breaking on it)."
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
@@ -333,16 +322,6 @@ jon_kishpaugh:
   email: jon@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jonathan-kishpaugh-8459217/)'
   description: Jon aka Kish currently lives in San Francisco with his wife Lauren. He’s spent the last 14 years working in small to mid-size start-ups, helping them build their Enterprise GTM. Life outside of work is focused on family, good food, and staying active.
-
-tammy_zhu:
-  name: Tammy Zhu
-  pronouns: she/her
-  role: Director of Legal
-  reports_to: vp_operations
-  manager_role_slug: director_legal
-  location: San Francisco, CA, USA 🇺🇸
-  email: tammy@sourcegraph.com
-  description: Tammy joins Sourcegraph after years of counseling technology companies on matters including products, litigation, commercial contracts, data privacy, M&A, startup financing, and regulatory filings and investigations. She enjoys creative writing, reading fiction, solo traveling, watching basketball, and baking sourdough during the pandemic.
 
 warren_gifford:
   name: Warren Gifford
@@ -712,17 +691,6 @@ diego_comas:
   links: '[LinkedIn](https://www.linkedin.com/in/diegocomas)'
   description: Diego lives in Barcelona, with his wife and two kids. He is passionate about technology, sci-fi movies and football(soccer). In the last 10 years he lived in London (UK) and worked for tech startups and scale ups building teams and helping them improve their security posture. Diego never misses a game of his local team FC Barcelona 🏟. In his spare time (if kids allow!) he likes to play football ⚽️, other sports like padel tennis 🎾 and sailing ⛵️ in the Costa Brava.
 
-andrew_hsu:
-  name: Andrew Hsu
-  pronouns: he/him
-  role: Customer Engineer
-  reports_to: vp_technical_success
-  location: Los Angeles, California, United States 🇺🇸
-  github: superhsu
-  email: andrew.hsu@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/andrewjhsu/)'
-  description: Andrew lives in Los Angeles, California, with his partner and their grumpy cat, Ginger. He has a passion for technology and sales. Growing up at a young age, he helped his cousins build and sell computers. Andrew has spent most of his career as a Sales Engineer. Before Sourcegraph, he helped sell observability software at Splunk. Outside of work, he enjoys traveling ✈️, spending time with family & friends, watching movies, playing competitive sports & e-sports.
-
 jh_chabran:
   name: JH Chabran
   pronouns: he/him
@@ -1065,6 +1033,7 @@ andrew_norrish:
   pronouns: he/him
   role: GTM Technical Project Manager
   reports_to: vp_technical_success
+  manager_role_slug: ie_manager
   location: Denver, CO, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
   description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
@@ -1429,7 +1398,7 @@ sam_mandell:
   github: srmandell
   pronouns: she/her
   role: Commercial Counsel
-  reports_to: director_legal
+  reports_to: vp_operations
   location: Sacramento, CA, USA 🇺🇸
 
 cezary_bartoszuk:
@@ -1449,7 +1418,7 @@ louis_jarvis:
   github: loujar
   pronouns: he/him
   role: Implementation Lead
-  reports_to: vp_technical_success
+  reports_to: ie_manager
   location: Wailuku, HI, USA 🇺🇸
   description: Louis loves working with companies to help them realize the greatest business value out of the software solutions they adopt. When not in front of a computer, Louis likes to spend his free time out on the water surfing, kiteboarding, or wing foiling.
 
@@ -1541,7 +1510,7 @@ Marc_LeBlanc:
   github: marcleblanc2
   pronouns: he/him
   role: Senior Implementation Engineer
-  reports_to: vp_technical_success
+  reports_to: ie_manager
   location: Istanbul, Turkey 🇹🇷
   links: '[LinkedIn](https://www.linkedin.com/in/leblancit/), [MarcPhoto.ca](https://marcphoto.ca/)'
   description: I rise to challenges with enthusiasm, a happy-to-help attitude, and a customer-service mindset. I am driven to make my positive contribution to the world, with high-level strategic vision, systems and design thinking, and hands-on-keyboard implementation. I was the service owner for the Code Search service and a Sourcegraph customer admin for two years before joining the company. My team and I implemented Sourcegraph from end to end, from discovering user issues with OpenGrok, finding Sourcegraph, implementing it, operating it, and contributing to it. I am also a photographer, adventure motorcyclist, and active volunteer.
@@ -1835,4 +1804,30 @@ susnato_dhar:
   location: Kolkata, India
   pronouns: he/him
   description: 'Susnato is an undergrad student from India who loves to contribute to open-source projects. In his free time, he plays online FPS games. He is a fan of The Hobbit, The Lord of the Rings and Tolkien.'
-  
+
+aravind_ramaraju:
+  name: Aravind Ramaraju
+  reports_to: product_lead
+  pronouns: he/him
+  role: Product Manager
+  location: Berkeley, CA, USA 🇺🇸
+  github: aramaraju
+  email: aravind@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/aramaraju/)'
+  description: 'Aravind is a PhD-dropout Material Scientist turned Product Manager, who is energized by building products for important and difficult problems that never compromises on experience. When he is not building products, he is expertly losing at boardgames, making up new dishes in the kitchen, living in a new fantastical world through a book or cuddling with his dog, Maple 🍁!'
+
+kosta_ilinov:
+  name: Konstantin Ilinov
+  email: kosta.ilinov@sourcegraph.com
+  reports_to: vp_technical_success
+  role: Customer Engineer, APAC
+
+ara_khan:
+  name: Ara Khan
+  role: Builder
+  location: Somewhere in the Americas
+  github: arafatkatze
+  email: ara.khan@sourcegraph.com
+  reports_to: eng_lead
+  links: '[Twitter](https://twitter.com/arafatkatze), [LinkedIn](https://www.linkedin.com/in/arafatkatze/), [website](https://arafatkatze.github.io/)'
+  description: 'Ara loves of art, beauty and technology in all its forms, his dream is to see a world where anyone can build anything with AI and thats why he is so passionate about being at Sourcegraph.  As a proud Canadian, he cherishes the beauty of nature and is often found skiing and hiking in the Rockies. His experiences in these mountains have shaped his understanding of beauty, friendship, and resilience. He wants to combine his diverse life experiences with his passion for AI and technology to build beautiful things. '

@@ -2,7 +2,7 @@
 
 This page includes incident response playbooks the [Core Services team](../index.md) can use when operating the [Managed Services Platform](./platform.md) fleet.
 
-**For more MSP user/operator-oriented guidance, refer to the [operations guide](./platform.md#operating-services) instead**.
+**For more MSP user/operator-oriented guidance, refer to the [Managed Services infrastructure](../../../managed-services/index.md) pages instead**.
 
 ## Basics
 
@@ -27,6 +27,8 @@ Quick links and brief summary below - for more details refer to [the more genera
     - `catogory: internal` services: [Entitle: `mspServiceEditor` on the the `Internal Services` folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZTEyYTJkZDktYzY1ZC00YzM0LTlmNDgtMzYzNTNkZmY0MDkyIiwidGhyb3VnaCI6ImUxMmEyZGQ5LWM2NWQtNGMzNC05ZjQ4LTM2MzUzZGZmNDA5MiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)
     - `catogory: test` services: All engineers should have access by default (test services are placed in the `Engineering Projects` folder)
   - `mspServiceEditor` and `mspServiceReader` are available for convenience, and are configured [in `gcp/org/customer-roles/msp.tf` in the infrastructure repo](https://github.com/sourcegraph/infrastructure/blob/main/gcp/custom-roles/msp.tf). Additional roles can be requested directly via Entitle.
+
+Service-specific guidance is generated in [Managed Services infrastructure](../../../managed-services/index.md) pages.
 
 ### Changing infrastructure
 
