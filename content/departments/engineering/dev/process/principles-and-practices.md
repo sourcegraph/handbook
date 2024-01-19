@@ -46,7 +46,7 @@ No. It's this:
 
 > I own X because my goal is to solve problem X for customers and I'll do everything I can as an engineer to make that happen.
 
-And yes, that comes with _responsibility_ -- with high agency and a customer-first attitude comes high responsibility. Everything else flows from that:
+And yes, that comes with _responsibility_ -- with high agency and dev-love comes high responsibility. Everything else flows from that:
 
 - It's up to _you_ to make sure your work meets engineering standards.
 - It's up to _you_ to make sure it doesn't blow up in production.

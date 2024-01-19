@@ -13,7 +13,7 @@ This is where Creative Ops comes in. In simple words, Creative Ops exists to ope
 
 Creative Ops is a cross-functional creative partner for all customer-facing teams and programs. With such a broad area of collaboration, we partner with external agencies and vendors to fulfill our goals.
 
-Our in-house Brand Design team provides the direction for all the design work we produce, and our Content Platform Team enables all our front-end initiatives.
+Our in-house Brand Design team provides the direction for all the design work we produce.
 
 ### Functions
 
@@ -30,7 +30,7 @@ We divide our functions into two categories: production and strategy
 
 - Creative strategy framework. Facilitate workshops that promote design backed by strategic thinking
 - Brainstorming sessions. Facilitate brainstorming sessions between the Marketing team and our in-house designer or design partners.
-- Frontend projects. Partner with the Content Platform Team to influence frontend initiatives that increase the efficiency and quality of our webpages
+- Frontend projects.
 
 ## Contact us
 

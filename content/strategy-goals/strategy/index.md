@@ -32,12 +32,6 @@ Sourcegraph is a code AI platform.
 - **Cody:** Code AI that writes code and answers questions for you by reading your entire codebase and the code graph.
 - **Code Search:** Code search, plus features such as batch changes, code insights, and code monitoring.
 
-Notes:
-
-- There is no longer a product called "Sourcegraph". Sourcegraph is the company that makes Cody and Code Search.
-- We no longer use the term "code intelligence platform".
-- In the future, we're likely to introduce a product to help with the security, compliance, governance, legal, and safety problems created when a company starts heavily using AI coding tools.
-
 #### Concepts
 
 - **Code graph:** All your code and any context (info about your code). Both Cody and Code Search use the code graph (in various ways). Today this includes repositories from code hosts, code ownership information, code navigation data, etc. In the future this will include information from issue tracking tools, observability tools, documentation, runtime, security tools, etc.
@@ -84,37 +78,13 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 Sourcegraph team members can view the internal [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing) and [Mission, Strategy, Execution, and Metrics doc](https://docs.google.com/document/d/1ZgGq3Ox1c1i_3z1z-zLANVDkj2iif_ZUPFq5NvZmAis/edit). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products. We will move the content to the handbook soon.
 
-### Big Code
+### [Big Code](https://sourcegraph.com/big-code/big-code-in-ai-era)
 
-Big Code is when you have to deal with tons of code, complexity, and devs. Sourcegraph solves Big Code problems: problems that devs and engineering teams face when working in big codebases. As consumers demand more from software and code piles up, more and more devs and engineering teams face Big Code problems.
-
-From the [Big Code in the AI Era report](https://about.sourcegraph.com/blog/big-code-in-ai-era):
-
-- **Big Code’s getting bigger.** 77% of devs say their codebase grew 5x over the past three years.
-- **AI is taking software by storm.** 95% of devs report using AI tools to write code, and 76% say they are worried about being able to manage the new code AI will generate.
-- **This is a “do or die” moment for companies.** 72% of devs say Big Code presents a real risk to their company’s ability to innovate and compete.
-
-The kicker? Only 65% of devs say their company has a plan to address Big Code prior to the rise of AI.
+See "[Big Code in the AI era](https://sourcegraph.com/big-code/big-code-in-ai-era)".
 
 ### Market segmentation
 
 Having a single market segmentation helps teams and processes across Sourcegraph stay consistent. Our market segments are determined by the total number of full-time engineers at a given company. We use the following definitions as a consistent and common language for referencing our target market internally. This data is based on LinkedIn Sales Insights data or data derived from the customer where appropriate.
-
-#### FY24 Market Segmentation
-
-We segment our customers into 3 tiers or segments.
-
-| Customer Segment | Segment criteria                      |
-| ---------------- | ------------------------------------- |
-| Commercial       | 0 - 1.5k devs AND less than $100k ARR |
-| Enterprise       | 1.5k - 10k devs OR $100k - $1m ARR    |
-| Strategic        | 10k+ devs OR $1m+ ARR                 |
-
-#### FY25+ Market Segmentation
-
-As of FY25, our market segmentation will evolve to divide our customers into 4 tiers, or segments.
-
-Beginning in FY25, our four customer segments are:
 
 | <div style="width:215px">Customer Segment</div> | Segment criteria |
 | ----------------------------------------------- | ---------------- |

@@ -41,7 +41,7 @@ The Engineering Security team will capture their responses in a centralized repo
 
 ## Reporting
 
-The Customer Engineering organization leverages Google Sheets to track all of the questions being escalated by Opportunity CEs for assistance from the Engineering Security Team. Along with each question and the response, the CE team will also be maintaining the date when the question was sent to #security in Slack and the date when a response was received. Likewise, the Opportunity CE will be recording the date the customer submitted the question via their questionnaire and when a response was submitted. This will allow for tracking the following metrics:
+The Technical Success organization leverages Google Sheets to track all of the questions being escalated by Opportunity CEs for assistance from the Engineering Security Team. Along with each question and the response, the CE team will also be maintaining the date when the question was sent to #security in Slack and the date when a response was received. Likewise, the Opportunity CE will be recording the date the customer submitted the question via their questionnaire and when a response was submitted. This will allow for tracking the following metrics:
 
 <table>
   <tr>
