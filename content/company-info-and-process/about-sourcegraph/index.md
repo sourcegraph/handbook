@@ -8,4 +8,4 @@
 - [Team](../../team/index.md)
 - [Values](../values/index.md)
 
-TODO(sqs): add new video
+<!-- TODO(sqs): link to new video -->
