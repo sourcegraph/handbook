@@ -11,4 +11,3 @@ This page lists the roles and responsibilities of the Sourcegraph CEO.
 - Engage with the current and prospective Sourcegraph community in person, on social media, etc.
 - Create an environment and a set of processes to support giving teammates a high level of ownership over their work.
 - Lead by example in accountability, continuous improvement, and truth-seeking.
-- Achieve the [current CEO goals](../index.md).
