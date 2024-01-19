@@ -6,7 +6,7 @@ As such, to amend the company-wide guidelines for PTO, the following additional 
 
 - **Communication**: It is important that planned [time off is submitted](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) early enough for your manager to assess its impact to the team and mitigate it. As best practice, when planning multiple days off, at least **one week** of advanced notice and planning is desired. Even if you know in advance you are taking a single day off, it’s still desired to give your teammates as much advance notice as possible. With unplanned time off, communication (with your manager and the team) is even more important especially if it impacts your ability to deliver on your commitments.
 
-- **Frequency**: While we encourage folks to use their discretion in taking time off, we also implore that good judgment is exercised in doing so. Ensuring that time off is scheduled in a way that does not adversely impact the wider team and our customers exemplifies our “high agency”, “work as a team” and “customer-first” values. A few practices that do not would be:
+- **Frequency**: While we encourage folks to use their discretion in taking time off, we also implore that good judgment is exercised in doing so. Ensuring that time off is scheduled in a way that does not adversely impact the wider team and our customers exemplifies our “high agency” and “win together” values. A few practices that do not would be:
 
   1. Requesting extended time off last minute which inhibits the ability to properly plan for coverage.
   1. Regularly taking time off on Mondays or Fridays to achieve a ‘long weekend’ or a ‘4-day workweek’.
