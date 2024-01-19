@@ -155,7 +155,7 @@ Any questions about Code Insights should be routed to the [Code Search Team](../
 
 The marketing team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each engineering team).
 
-If the docs site is unavilable, route to the [Docs team](../../../engineering/teams/content-platform/index.md) via the [#docs](https://sourcegraph.slack.com/archives/C01DXLN3D0T) channel.
+If the docs site is unavilable, route to the Docs team via the [#docs](https://sourcegraph.slack.com/archives/C01DXLN3D0T) channel.
 
 For a more detailed breakdown of codebase ownership please see the [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) matrix
 
