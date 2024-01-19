@@ -8,7 +8,7 @@ The Field GTM and Operations team prioritizes delivering real value to our custo
 
 The Field GTM and Operations Team has 2 distinct functions made up of 6 teams:
 GTM Operations & Execution (GTM Ops + Systems)
-GTM Support (Enablement, Partnerships, SDRs, Value Engineering and VCBOD)
+GTM Support (Enablement, Partnerships, SDRs, and VCBOD)
 
 ![](https://link.excalidraw.com/readonly/7uDTSAv0s2SGQKUc8J4g)
 
