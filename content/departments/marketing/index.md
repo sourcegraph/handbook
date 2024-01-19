@@ -20,8 +20,6 @@
 - [Brand Guidelines](../product/design/brand_guidelines/index.md)
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 - [Process docs](process/index.md)
-  - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
-  - [Marketing content review process](process/marketing-content-review-process.md)
 - [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
 
 ## Members
