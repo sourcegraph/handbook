@@ -13,7 +13,6 @@ While each response will be a custom plan, the rapid response team may include t
 
 - Product Marketing/Product Managers responsible for technical and product content and industry expertise and context (will pull in Eng and Security as needed)
 - Demand Gen/Social responsible for writing/editing and publishing
-- Content platform team responsible for any non-blog web page changes needed
 - Community responsible for monitoring and responding in public channels
 
 ## Owners
