@@ -35,7 +35,7 @@ Here is a list of useful quick links:
 
 The following Entitle requests are needed to get access to Pings service infrastructure:
 
-- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4) (see [MSP Entitle](./platform.md#entitle))
+- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4)
 
 ### Deployment
 
