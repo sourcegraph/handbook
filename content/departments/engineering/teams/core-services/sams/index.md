@@ -54,7 +54,7 @@ For standard infrastructure operations, see [Sourcegraph Accounts infrastructure
 
 The following Entitle requests are needed to get access to SAMS service infrastructure:
 
-- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4) (see [MSP Entitle](../managed-services/platform.md#entitle))
+- [GCP Project - MSP Service Editor](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IlRPRE8iLCJyb2xlSWRzIjpbeyJpZCI6IjBiZGZlOTlmLWZlMjYtNDdlMC04NTk2LWYzODUyNTVhOGQ0MSIsInRocm91Z2giOiIwYmRmZTk5Zi1mZTI2LTQ3ZTAtODU5Ni1mMzg1MjU1YThkNDEiLCJ0eXBlIjoicm9sZSJ9XX0%3D)
 
 ### Deployments
 

@@ -41,7 +41,7 @@ Here is a list of useful quick links:
 
 The following Entitle requests are needed to get access to Telemetry Gateway service infrastructure:
 
-- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=271c1799-6172-4099-8fe1-b186ac05aa06&roleId=b1bc8eac-3893-4847-a4a0-16dadb068bf2&grantMethodId=b1bc8eac-3893-4847-a4a0-16dadb068bf2) (see [MSP Entitle](./platform.md#entitle))
+- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=271c1799-6172-4099-8fe1-b186ac05aa06&roleId=b1bc8eac-3893-4847-a4a0-16dadb068bf2&grantMethodId=b1bc8eac-3893-4847-a4a0-16dadb068bf2)
 
 All engineers should have access to the dev project by default.
 
