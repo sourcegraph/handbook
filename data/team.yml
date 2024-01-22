@@ -1562,7 +1562,7 @@ silky_desailly:
 
 sara_dam:
   name: Sara Dam
-  email: sara_dam@sourcegraph.com
+  email: sara.dam@sourcegraph.com
   github: sldam
   pronouns: she/her
   role: Enterprise Technical Advisor
@@ -1809,3 +1809,14 @@ ara_khan:
   reports_to: eng_lead
   links: '[Twitter](https://twitter.com/arafatkatze), [LinkedIn](https://www.linkedin.com/in/arafatkatze/), [website](https://arafatkatze.github.io/)'
   description: 'Ara loves of art, beauty and technology in all its forms, his dream is to see a world where anyone can build anything with AI and thats why he is so passionate about being at Sourcegraph.  As a proud Canadian, he cherishes the beauty of nature and is often found skiing and hiking in the Rockies. His experiences in these mountains have shaped his understanding of beauty, friendship, and resilience. He wants to combine his diverse life experiences with his passion for AI and technology to build beautiful things. '
+
+alex_stanton:
+  name: Alex Stanton
+  email: Alex.stanton@sourcegraph.com
+  github: alexandrastanton
+  pronouns: she/her
+  role: Enterprise Technical Advisor
+  reports_to: director_technical_advisory
+  location: Providence, RI, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/alexandrastanton/)'
+  description: Alex is passionate about helping customers accomplish their goals and achieve the highest business value possible with Sourcegraph. She lives in Providence, RI with her partner, Faisal, and their poodle, Ziggy. In her spare time she enjoys boardgames, long road trips, training at the track with her teammates, and finding new restaurants in Providence.
