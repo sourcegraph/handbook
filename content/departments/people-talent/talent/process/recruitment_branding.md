@@ -103,17 +103,17 @@ Please follow these instructions:
 
 ### Job boards we currently use:
 
-- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph). All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn
-- [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm). All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor
-- [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp). All jobs that are publically listed in our applicant tracking system are automatically pushed to Indeed
-- [BuiltIn](https://builtin.com/company/sourcegraph). We have a company profile on BuiltIn that links to our careers page.
-- [Console](https://console.dev/profiles/sourcegraph/). We have a company profile on Console that links to our careers page.
-- ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md). Devon Coords posts one job to Hacker News on the first of every month.
-- [RemoteWoman](https://remotewoman.com/). RemoteWoman scrapes our career page, we can also message them to manually post our unlisted roles.
-- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Kemper Hamilton owns this list. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
-- [AngelList](https://angel.co/company/sourcegraph)
-- [Diversify Tech](https://www.diversifytech.co/job-board). Kemper Hamilton can post open roles here upon request from the Hiring Manager.
-- [TLDR](https://tldr.tech/jobs?filter=%257B%257D). Kemper Hamilton can post open roles here upon request from the Hiring Manager.
+- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph): All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn
+- [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm): All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor
+- [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp): All jobs that are publically listed in our applicant tracking system are automatically pushed to Indeed
+- [Wellfound](https://www.google.com/url?q=https://angel.co/company/sourcegraph&sa=D&source=docs&ust=1705970644416133&usg=AOvVaw0EpG09DU_fim9_zSWEM2lP): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Wellfound
+- [Levels.FYI](https://www.levels.fyi/companies/sourcegraph/jobs?from=company_header_navbar): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Levels.FYI
+- ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md): Trevor Houghton posts one job to Hacker News on the first of every month
+- [BuiltIn](https://builtin.com/company/sourcegraph): We have a company profile on BuiltIn that links to our careers page.
+- [Console](https://console.dev/profiles/sourcegraph/): We have a company profile on Console that links to our careers page.
+- [Tech Ladies](https://www.hiretechladies.com/): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Tech Ladies. Trevor owns this relationship. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
+- [Diversify Tech](https://www.diversifytech.co/job-board): Trevor Houghton can post open roles here upon request from the Hiring Manager. Each post costs money and will stay up for one month.
+- [TLDR](https://tldr.tech/jobs?filter=%257B%257D): Trevor Houghton manually posts open roles here on a monthly basis
 - [Job boards we're using for our Internship Program](../internship/index.md#college-job-boards-were-using)
 
 ### Other job boards/coding bootcamps we have used in the past:
