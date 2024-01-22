@@ -443,17 +443,6 @@ khoshal_wial:
   manager_role_slug: regional_director_sales_emea
   email: khoshal@sourcegraph.com
 
-ryan_phillips:
-  name: Ryan Phillips
-  reports_to: product_lead
-  pronouns: He/Him
-  role: Product Manager
-  location: San Francisco, CA, USA 🇺🇸
-  github: Ryphil
-  email: ryphil@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ryphil/)'
-  description: Born in the wild west (Texas), Ryan now lives in San Francisco, CA where he loves exploring the amazing nature nearby! Ryan lives to experience and build products which have an incredibly high level of craft - custom JH Audio headphones, to beautiful books such as Designing Design, to delicious food! Outside of Sourcegraph, Ryan is a lecturer at the d.school at Stanford University, teaching at the intersection of technology, design, and inclusion. He is always open to adventure, lets explore together!
-
 aimee_menne:
   name: Aimee Menne
   pronouns: she/her
