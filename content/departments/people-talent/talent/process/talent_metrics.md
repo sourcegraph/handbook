@@ -33,6 +33,11 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Measurement:** Total time taken to complete the individual component of the hiring process for all requisitions ÷ total number of requisitions
 - **Metric use:** Calibrate the timeliness and efficiency of the recruiting process. Identify components of the hiring process that need improvement.
 - **Target:** <30 days
+- **Note:** We tend to keep candidates in the mix when they are not a fit for an immediate opening but _are_ a fit for a position that will be opened in the near future (within 30 days).
+  - If it takes more than 30 days to transfer a candidate to a new req, then the application date should reflect the day that the candidate was transferred to the new req. This should occur automatically in Greenhouse and doesn't require recruiters to manually update it.
+  - If it takes less than 30 days to open the new req that is a better fit for the candidate, then recruiters should ensure that the candidate's application date reflects the date that they applied for the original req. Recruiters will need to manually do this on the new req by clicking the pencil icon next to "Applied on":
+
+![Screenshot of where to update application date in Greenhouse](https://storage.googleapis.com/sourcegraph-assets/Updating%20application%20date%20in%20Greenhouse.png)
 
 #### Average time to fill (days)
 
