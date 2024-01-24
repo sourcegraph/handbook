@@ -74,7 +74,7 @@ Be sure to set expectations with the site admin ahead of raising the issue and i
 
 ## Teardown Trial Managed Instance
 
-When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](./index.md#managed-instance-requests)
+When trial expires and the customer does not wish to sign the deal, the instance requestor should open a [Teardown Managed Instance request](./index.md#tear-down-a-cloud-instance---new-request)
 
 ## Trial Managed Instance creation flow (manual)
 
