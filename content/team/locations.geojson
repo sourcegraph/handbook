@@ -1197,5 +1197,18 @@
         ]
       }
     }
-  ]
+ {
+    "type": "Feature",
+    "properties": {
+        "name": "Alex Stanton"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -71.394998,
+            41.844047
+        ]
+    }
+}
+]
 }
