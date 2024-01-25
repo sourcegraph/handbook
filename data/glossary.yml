@@ -15,8 +15,10 @@ technical:
     definition: Request for help
   - term: RCE
     definition: Remote code execution (a security vulnerability)
+  - term: MSP
+    definition: Managed Services Platform. The standardized tooling and infrastructure for deploying and operating managed Sourcegraph services.
   - term: SAMS
-    definition: Sourcegraph Access Management System. The system that provides auth for dotcom, SSC, and other services in the future.
+    definition: Sourcegraph Accounts Management System. The centralized accounts system for all of the Sourcegraph-operated systems.
   - term: SSC
     definition: Self-Serve Cody. The system that lets PLG customers sign up for Sourcegraph and manage their subscription.
   - term: SSRF
