@@ -1209,6 +1209,19 @@
             41.844047
         ]
     }
+},
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Erin Osgood"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -105.279617,
+            40.016869
+        ]
+    }
 }
 ]
 }
