@@ -2,16 +2,11 @@
 
 ## Option 1 - automated deletion (recommended)
 
-```sh
-export SLUG=company
-export ENVIRONMENT=prod
-```
+**DO NOT USE THE GH WORKFLOW COMMAND TO DELETE AN INSTANCE**
 
-```sh
-gh workflow run mi_delete.yml -f environment=$ENVIRONMENT -f customer=$SLUG
-```
+This workflow requires that we check an option to confirm that we are deleting prod data.
 
-Upon completion, edit the PR desciprtion and reference the teardown GitHub issue. Then merge it.
+Follow the workflow at https://github.com/sourcegraph/cloud/actions/workflows/mi_delete.yml
 
 ## Option 2 - manual deletion
 
