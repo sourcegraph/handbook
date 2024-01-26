@@ -33,14 +33,14 @@ Publishing resources are [provisioned in `sourcegraph/infrastructure`](https://g
 
 Here is a list of useful quick links:
 
-- Prod instance (https://accounts.sgdev.org)
+- Prod instance (https://accounts.sourcegraph.com)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-qWcQcoN16iA6rMfe)
   - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-prod-ywuz)
   - [Memorystore (monitoring)](https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/redis/details/monitoring?project=sams-prod-ywuz)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-prod-ywuz)
   - [GCP errors](https://console.cloud.google.com/errors;service=;version=?project=sams-prod-ywuz)
-- Testing instance (https://accounts.sourcegraph.com)
+- Testing instance (https://accounts.sgdev.org)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-XWBtUm77JJRXddoZ)
   - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-dev-bfec)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-dev-bfec)
