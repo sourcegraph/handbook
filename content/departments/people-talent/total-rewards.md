@@ -1,4 +1,4 @@
-# **Total Rewards** (WIP)
+# **Total Rewards** (WIP - internal links coming soon)
 
 We want our teammates to be happy, healthy, and productive. In order to best support that, we provide competitive pay, perks, and benefits. In other words, we offer total rewards which is the total calculation of all categories Sourcegraph spends on each teammate outside of software and hardware used to be successful in their role. Below is a breakdown of categories that make up total rewards.
 
@@ -19,11 +19,11 @@ You can view your total rewards package in your Assemble profile. Follow the dir
 
 We pay competitively in order to attract the best possible talent to Sourcegraph and reward Teammates for the work that they do. We are committed to keeping compensation competitive, merit-based, and non-discriminatory, to make sure all Teammates have a financial stake in the success of Sourcegraph and that contributions are rewarded.
 
-To review our full compensation philosophy review our [Compensation & Pay Transparency page.](../benefits-pay-perks/pay-expenses/compensation.md) Additional handbook pages for a deeper look into compensation at Sourcegraph are listed below:
+To review our full compensation philosophy review our [Compensation & Pay Transparency page.] Additional handbook pages for a deeper look into compensation at Sourcegraph are listed below:
 
-- [Job levels](../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
-- [Performance reviews](../people-ops/process/teammate-sentiment/impact-reviews/#who-is-eligible-for-a-reviewcompensation-increase.md) & [Merit increases](../people-ops/process/teammate-sentiment/impact-reviews/#merit-philosophy.md)
-- [Role change requests](../../people-ops/process/compensation-and-leveling/compensation-role-changes.md) (manager resource)
+- [Job levels]
+- [Performance reviews]
+- [Role change requests](manager resource)
 
 ### **Components of compensation**
 
@@ -31,7 +31,7 @@ At Sourcegraph, we aim to hire the best possible talent and want to ensure our T
 
 #### **Base pay:**
 
-Each [job level](../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md) has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. We re-set salary bands every six months in alignment with our [Impact Review Process](../../people-ops/process/teammate-sentiment/impact-reviews.md) to ensure our compensation remains up to date and market competitive. This means that every 6-months, our band entry point may go up, down, or stay the same. And if our band goes down, we will never decrease our teammate’s pay.
+Each [job level] has a corresponding compensation band. Our band entry points are benchmarked to the 75th percentile of US technology company market data, and the top of the band is 15% above the band entry point. We re-set salary bands every six months in alignment with our [Impact Review Process] to ensure our compensation remains up to date and market competitive. This means that every year, our band entry point may go up, down, or stay the same. And if our band goes down, we will never decrease our teammate’s pay.
 
 If we are given reason to believe that Radford data doesn’t match existing market rates, we may leverage other data sources to verify and/or adjust the band. In addition, the People Team reserves the right to manually adjust any band at any time to benefit the business and our teammates.
 
@@ -45,13 +45,13 @@ The second component of total rewards is Equity. We are an early-stage company, 
 
 Our equity grants vest over four years. Once you have met your 1-year cliff your vesting shares and their estimated values begin contributing to your annual total rewards equation.
 
-To learn more about equity at Sourcegraph visit our [equity FAQ](../benefits-pay-perks/pay-expenses/compensation/equity-faq.md) and our Handbook page on [how and when stock option grants are calculated](../benefits-pay-perks/pay-expenses/compensation/equity-timing.md).
+To learn more about equity at Sourcegraph visit our [equity FAQ] and our Handbook page on [how and when stock option grants are calculated].
 
 ## **Perks**
 
 Sourcegraph feels strongly about investing in their teammates and ensuring they have the tools to be successful in their role. We group perks towards recharging, growing skills, and creating a strong culture of connectedness. Our perks are broken into three categories. Below you will find an overview of each category and our Perks & Benefits overview handbook page provides details for each perk.
 
-### **Monthly perks:**
+### **Monthly perks:** links coming soon
 
 These perks are provided to all teammates each month to ensure you have the tools you need to do your job well. For US based and Deel teammates these perks are added directly into your paycheck. For non-US based teammates, you will add these stipends to your monthly invoice.
 
@@ -59,7 +59,7 @@ These perks are provided to all teammates each month to ensure you have the tool
 📲Cell-phone
 🏃Wellness
 
-### **Annual perks:**
+### **Annual perks:** links coming soon
 
 🏡All remote
 🏖️Flexible PTO
@@ -77,7 +77,7 @@ These perks are provided to all teammates each month to ensure you have the tool
 US-based Teammates are eligible for health benefits, which are determined jointly by the People and Finance teams on an annual basis (calendar year). Again, we care about our teammates inside and outside of work, and want to ensure you and your family have healthcare.
 Sourcegraph offers Medical, Dental, and Vision insurance covered at 100% for teammates and their dependents. You can find complete details on our coverage offerings here.
 
-In addition to standard healthcare, Sourcegraph offers Life insurance and the option to contribute to a 401(k). Please follow the links for full details. You find more details regarding health benefits here. (link)
+In addition to standard healthcare, Sourcegraph offers Life insurance and the option to contribute to a 401(k). Please follow the links for full details. You find more details regarding health benefits [here].
 
 ## **FAQ**
 
