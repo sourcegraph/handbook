@@ -11,6 +11,7 @@ Becoming a trusted advisor to our customers to enable them to better solve their
 ## Technical Advisory Teams
 
 The Technical Advisory organization is comprised of three teams:
+
 - [Enterprise & Strategic Technical Advisors](enterprise-success/index.md)
   - Named, dedicated to specific customers; provides a high-touch experience
 - [Pooled Technical Advisors](pooled-success/index.md)
@@ -50,7 +51,7 @@ This group is comprised of a team of technical advisors and program managers who
 
 Effective FY25, the following segments are assigned to Digital TAs:
 
-| Customer Segment          | Segment definition                        |
-| ------------------------- | ----------------------------------------- |
-| Mid-Market                | 100 - 500 devs, <$100k current ARR spend  |
-| Small-to-Medium Biz (SMB) | 0 - 99 devs, any amount of ARR spend      |
+| Customer Segment          | Segment definition                       |
+| ------------------------- | ---------------------------------------- |
+| Mid-Market                | 100 - 500 devs, <$100k current ARR spend |
+| Small-to-Medium Biz (SMB) | 0 - 99 devs, any amount of ARR spend     |
