@@ -15,6 +15,12 @@ technical:
     definition: Request for help
   - term: RCE
     definition: Remote code execution (a security vulnerability)
+  - term: MSP
+    definition: Managed Services Platform. The standardized tooling and infrastructure for deploying and operating managed Sourcegraph services.
+  - term: SAMS
+    definition: Sourcegraph Accounts Management System. The centralized accounts system for all of the Sourcegraph-operated systems.
+  - term: SSC
+    definition: Self-Serve Cody. The system that lets PLG customers sign up for Sourcegraph and manage their subscription.
   - term: SSRF
     definition: Server side request forgery (a security vulnerability)
   - term: SEO
@@ -75,6 +81,8 @@ technical:
     definition: Level of effort
   - term: FSM
     definition: Finite-state machine. An abstract machine that can be in exactly one of a finite number of states at any given time. See https://en.wikipedia.org/wiki/Finite-state_machine
+  - term: dotcom
+    definition: Sourcegraph.com
   - term: airgapped instance
     definition: Self-hosted customer instance that does not allow any outbound network requests; offline to any external network requests.
   - term: private instance

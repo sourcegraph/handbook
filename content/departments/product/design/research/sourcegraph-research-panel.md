@@ -1,6 +1,6 @@
 # Sourcegraph Research Panel
 
-Here at Sourcegraph we value being a [customer-first company](../../../../company-info-and-process/values/customer-first.md) and recognize that it is the feedback from all of you which makes our product even better.
+Here at Sourcegraph we exude [dev love](../../../../company-info-and-process/values/index.md#dev-love) and recognize that it is the feedback from all of you which makes our product even better.
 
 In order to continue improving, we would like to introduce you and your fellow developers to our new research program, **Sourcegraph Research**, open to developers of all levels, managers, and leaders, frequent AND infrequent users.
 

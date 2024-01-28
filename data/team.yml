@@ -443,17 +443,6 @@ khoshal_wial:
   manager_role_slug: regional_director_sales_emea
   email: khoshal@sourcegraph.com
 
-ryan_phillips:
-  name: Ryan Phillips
-  reports_to: product_lead
-  pronouns: He/Him
-  role: Product Manager
-  location: San Francisco, CA, USA 🇺🇸
-  github: Ryphil
-  email: ryphil@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ryphil/)'
-  description: Born in the wild west (Texas), Ryan now lives in San Francisco, CA where he loves exploring the amazing nature nearby! Ryan lives to experience and build products which have an incredibly high level of craft - custom JH Audio headphones, to beautiful books such as Designing Design, to delicious food! Outside of Sourcegraph, Ryan is a lecturer at the d.school at Stanford University, teaching at the intersection of technology, design, and inclusion. He is always open to adventure, lets explore together!
-
 aimee_menne:
   name: Aimee Menne
   pronouns: she/her
@@ -1573,7 +1562,7 @@ silky_desailly:
 
 sara_dam:
   name: Sara Dam
-  email: sara_dam@sourcegraph.com
+  email: sara.dam@sourcegraph.com
   github: sldam
   pronouns: she/her
   role: Enterprise Technical Advisor
@@ -1820,3 +1809,25 @@ ara_khan:
   reports_to: eng_lead
   links: '[Twitter](https://twitter.com/arafatkatze), [LinkedIn](https://www.linkedin.com/in/arafatkatze/), [website](https://arafatkatze.github.io/)'
   description: 'Ara loves of art, beauty and technology in all its forms, his dream is to see a world where anyone can build anything with AI and thats why he is so passionate about being at Sourcegraph.  As a proud Canadian, he cherishes the beauty of nature and is often found skiing and hiking in the Rockies. His experiences in these mountains have shaped his understanding of beauty, friendship, and resilience. He wants to combine his diverse life experiences with his passion for AI and technology to build beautiful things. '
+
+alex_stanton:
+  name: Alex Stanton
+  email: Alex.stanton@sourcegraph.com
+  github: alexandrastanton
+  pronouns: she/her
+  role: Enterprise Technical Advisor
+  reports_to: director_technical_advisory
+  location: Providence, RI, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/alexandrastanton/)'
+  description: Alex is passionate about helping customers accomplish their goals and achieve the highest business value possible with Sourcegraph. She lives in Providence, RI with her partner, Faisal, and their poodle, Ziggy. In her spare time she enjoys boardgames, long road trips, training at the track with her teammates, and finding new restaurants in Providence.
+
+erin_osgood:
+  name: Erin Osgood
+  email: erin.osgood@sourcegraph.com
+  github: erinosgood
+  pronouns: she/her
+  role: Enterprise Technical Advisor
+  reports_to: director_technical_advisory
+  location: Boulder, CO, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/erin-osgood-63813240/)'
+  description: Erin lives in Boulder, CO with her husband Brian and two dogs Stoli and Tito. Prior to joining Sourcegraph, Erin worked as a Customer Success Manager at Splunk and VictorOps. When Erin is not working you can find her running on the roads or trails in Boulder, finding new restaurants to enjoy, and spending time with friends and family.

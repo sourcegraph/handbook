@@ -88,7 +88,7 @@ Once a customer signs on with Sourcegraph, the TA will [generate a full license 
 
 ## Renewal Process
 
-Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
+Finance, TA, and Sales all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
 
 ### Process Overview
 

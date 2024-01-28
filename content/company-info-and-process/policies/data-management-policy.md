@@ -71,7 +71,7 @@ Following items are examples of such data:
 
 - Sourcegraph public Source code
 - Public RFCs
-- Personal data that teammates share publicly (such as in public Handbook team pages).
+- Personal data that teammates share publicly (such as in public handbook team pages).
 - We default to public unless information belongs to one of the above categories
 
 ## **Labeling**

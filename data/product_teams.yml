@@ -38,7 +38,6 @@ apis:
   title: APIs
   brief: The APIs team is responsible for providing a structured way for internal and external partners to build on top Sourcegraph
   strategy_link: /strategy-goals/strategy/platform/apis.md
-  pm: ryan_phillips
   issue_labels:
     - team/iam
     - team/admin-exp
@@ -84,5 +83,4 @@ cody_strategic:
   title: Cody Strategic
   brief: Our mission is to turn the largest, most world-recognizable brands into Cody Champions by working across technical boundaries.
   strategy_link: /content/departments/engineering/teams/cody-strat/index.md
-  pm: ryan_phillips
   em: cezary_bartoszuk

@@ -8,6 +8,11 @@ My personal site is [slack.org](https://slack.org).
 
 See [Roles of the CEO](roles.md).
 
+I work with:
+
+- Connor O'Brien (Chief of Staff)
+- Madison Clark (Director, Communications and Strategy)
+
 ## Communication
 
 ### Scheduling time with me

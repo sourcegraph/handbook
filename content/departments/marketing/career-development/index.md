@@ -6,4 +6,3 @@ Our Career Development Frameworks help you understand the expectations of your r
 
 - [Comms Career Development Framework](comms-framework.md)
 - [Product Marketing Career Development Framework](product-marketing-framework.md)
-- [Customer Marketing Career Development Framework](customer-marketing-framework.md)

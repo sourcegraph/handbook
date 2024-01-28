@@ -33,14 +33,14 @@ Publishing resources are [provisioned in `sourcegraph/infrastructure`](https://g
 
 Here is a list of useful quick links:
 
-- Prod instance (https://accounts.sgdev.org)
+- Prod instance (https://accounts.sourcegraph.com)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-qWcQcoN16iA6rMfe)
   - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-prod-ywuz)
   - [Memorystore (monitoring)](https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/redis/details/monitoring?project=sams-prod-ywuz)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-prod-ywuz)
   - [GCP errors](https://console.cloud.google.com/errors;service=;version=?project=sams-prod-ywuz)
-- Testing instance (https://accounts.sourcegraph.com)
+- Testing instance (https://accounts.sgdev.org)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-XWBtUm77JJRXddoZ)
   - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-dev-bfec)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-dev-bfec)
@@ -54,7 +54,7 @@ For standard infrastructure operations, see [Sourcegraph Accounts infrastructure
 
 The following Entitle requests are needed to get access to SAMS service infrastructure:
 
-- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4) (see [MSP Entitle](../managed-services/platform.md#entitle))
+- [GCP Project - MSP Service Editor](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IlRPRE8iLCJyb2xlSWRzIjpbeyJpZCI6IjBiZGZlOTlmLWZlMjYtNDdlMC04NTk2LWYzODUyNTVhOGQ0MSIsInRocm91Z2giOiIwYmRmZTk5Zi1mZTI2LTQ3ZTAtODU5Ni1mMzg1MjU1YThkNDEiLCJ0eXBlIjoicm9sZSJ9XX0%3D)
 
 ### Deployments
 
