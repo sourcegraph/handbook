@@ -32,4 +32,3 @@ The following are a sample of the activities that a TA is responsible for on a d
 ## TA Scenarios
 
 To learn more about best practices and how to handle certain situations that may arise on your accounts, see the [TA Scenarios Playbook](../ta-playbooks/ta-scenarios.md).
-

@@ -4,7 +4,6 @@
 
 Digital Technical Advisors (TA) are Sourcegraph experts focused on leading our customers to successful outcomes through a primarily digitally nurtured journey. We seek to deliver a consistent engagement experience to customers rooted in supporting and enabling them based on their unique usage and needs. We also strive to help our customers maximize their return on investment (ROI) by continuously monitoring the health of our customers and providing them with best practices and helpful tips and tricks to get the most of out Sourcgraph.
 
-
 ## Team KPIs / Measures of Success
 
 We use the following metrics to gauge the effectiveness and success of our team:
@@ -29,7 +28,6 @@ We strive to make customers for life by being trusted partners and advisors to m
 ### Growth
 
 As technical advisors we want to deeply know and understand our customers. It is through this lens of trust and understanding that we are able to strengthen our partnership and help our customers maturity and advance their capabilities. Net Retention is a key metric for measuring our ability to growth with our customers, unlocking more value and capabilities from Sourcegraph within in their teams.
-
 
 ## Team Resources
 

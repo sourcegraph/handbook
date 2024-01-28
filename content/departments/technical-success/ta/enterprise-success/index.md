@@ -7,11 +7,11 @@ Enterprise & Strategic Technical Advisors (TA) are specialized technical experts
 ## What is an Enterprise TA at Sourcegraph?
 
 Across the customer lifecycle, TAs are primarily accountable for the following:
-- Customer onboarding &  adoption: At contract signature, Sales and Customer Engineering (pre-sales) transition the relationship to the TA team to onboard the customer to Sourcegraph, including their tech and initial set of users. We're successful when we have helped the customer activate their initial set of use cases.
+
+- Customer onboarding & adoption: At contract signature, Sales and Customer Engineering (pre-sales) transition the relationship to the TA team to onboard the customer to Sourcegraph, including their tech and initial set of users. We're successful when we have helped the customer activate their initial set of use cases.
 - Achieving positive outcomes: we are successful when our customers are realizing the expected value and achieving positive outcomes that are additive to their devs and business.
 - Account expansion: while we seek to first deliver on our promises and commitments to our customers, a deep partnership and trust enables us to uncover and provide thought leadership around additional capabilities that can provide greater outcomes to our customers.
 - Customer advocacy: throughout our partnership, TAs serve as steadfast advocates on behalf of our customers by raising their needs and desires to our Product teams.
-
 
 ## Team KPIs / Measures of Success
 
@@ -42,7 +42,6 @@ As technical advisors we want to deeply know and understand our customers. It is
 ### Value Realization
 
 TAs are invested in understanding our customer's business objectives to best map how our platform and products can empower our customers to meet and beat these objectives. We constantly monitor how the value of our offering is realized against the customer's business objectives.
-
 
 ## Team Resources
 
