@@ -453,4 +453,3 @@ At Sourcegraph, we empower high performers. [Learn more about Teammate Developme
 ### Helpful links & resources
 
 - [How to prepare for calibration meetings](../../compensation-and-leveling/preparing-for-calibrations.md)
-
