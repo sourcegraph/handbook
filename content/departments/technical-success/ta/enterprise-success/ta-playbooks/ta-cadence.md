@@ -19,7 +19,7 @@
 #### Ad-hoc customer meetings
 
 - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
-- As requests come in from customers make sure you [surface feedback to the product team](../../../product/process/feedback/surfacing_product_feedback.md)
+- As requests come in from customers make sure you [surface feedback to the product team](../../../../product/process/feedback/surfacing_product_feedback.md)
 
 #### Customer slack channel communication
 
@@ -35,7 +35,7 @@
 
 #### Account Risk
 
-- [Lighthouse](../team-culture/working-with-customers.md#sts=Lighthouse%20Program)
+- [Lighthouse](../team-culture/processes.md#lighthouse-program)
 
 #### Vitally Traits
 
@@ -63,12 +63,12 @@
 
 - Happen on the second week of every month. 30 minute sessions.
 - Attendees: TA, TA Director and TS VP.
-- Goal: monthly checkpoint to review the "Top 3" accounts for a TA based on the [Account Success Planning](../team-culture/working-with-customers.md#success-plans).
+- Goal: monthly checkpoint to review the "Top 3" accounts for a TA based on the [Account Success Planning](../team-culture/processes.md#success-plans)
 - "Top 3" account criteria: Top ARR spend, renewing in the CFQ (Current Fiscal Quarter), accounts with expansion opportunities.
 - Agenda:
   1. (5 mins) [Customer Health Metrics Review](https://sourcegraph.vitally.io/hubs/c6b472f7-01b4-45ce-b95b-749b9a4d1f24/7fa20112-4023-47a2-8a44-50d1179b0d03)
   2. (15 minutes) Top 3 accounts review; 5 minutes per account.
-  3. (5 minutes) Asks for the businesss: TA asks for help to remove blockers and expedite execution of the Account Success Plan goals.
+  3. (5 minutes) Asks for the business: TA asks for help to remove blockers and expedite execution of the Account Success Plan goals.
 
 ### External
 
@@ -90,13 +90,13 @@
 
 ### External
 
-- [CBRs (Customer Buisness Reviews)](../team-culture/working-with-customers.md#cbrs)
+- [CBRs (Customer Buisness Reviews)](../team-culture/account-management-activities.md#cbrs)
 
 ## As Needed, Ad-Hoc
 
 ### New Customers
 
-- [Post-sales handoff](../team-culture/working-with-customers.md#post-sales-handoff)
+- [Post-sales handoff](../team-culture/processes.md#post-sales-handoff)
 
 ### Account Transitions
 

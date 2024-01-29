@@ -105,7 +105,7 @@ CE is responsible for creating tickets on behalf of prospective customers via su
 
 A critical last step in the sales process is to hand off the opportunity to the Technical Advisory (post-sales) team. It's important so that we transfer important context about the deal (goals, needs, expectations, etc) and contacts so that the TA team is able to effectively take the relationship forward.
 
-The overall process is captured [here](../../ta/team-culture/working-with-customers.md#post-sales-handoff). It's most important that CE knows the process is slightly different depending on the [customer segmentation](../../ta/team-culture/team-norms.md#customer-segmentation) and whether they will be managed by a named, dedicated TA or part of our digital, scaled success program.
+The overall process is captured [here](../../ta/enterprise-success/team-culture/processes.md#post-sales-handoff). It's most important that CE knows the process is slightly different depending on the [customer segmentation](../../ta/index.md#customer-segmentation) and whether they will be managed by a named, dedicated TA or part of our digital, scaled success program.
 
 Need-to-know's for a named TA account:
 
@@ -117,4 +117,4 @@ Need-to-know's for a named TA account:
 Need-to-know's for a digital, scaled success account:
 
 - CE must handle the production license, and if a separate production cloud instance is required, should handle the creation request of that.
-- CE, as part of hand-off, should map the approproiate roles on the contacts in Salesforce. See role definitions [here, step 7](../../ta/team-culture/working-with-customers.md#process-overview).
+- CE, as part of hand-off, should map the appropriate roles on the contacts in Salesforce. See role definitions [here, step 7](../../ta/enterprise-success/team-culture/processes.md#process-overview).

@@ -1,6 +1,6 @@
 # Technical Advisor Onboarding
 
-Welcome to Sourcegraph—we're VERY excited to have you on the Technical Advisory team! This page describes the onboarding philosophy and process for new Technical Advisors as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview) as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
+Welcome to Sourcegraph—we're VERY excited to have you on the Technical Advisory team! This page describes the onboarding philosophy and process for new Technical Advisors as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview).
 
 ## Company-wide and Technical Advisor-specific Onboarding
 
@@ -12,7 +12,7 @@ As a company, we use [Process.st](https://app.process.st/reports/) to guide each
 
 ### Onboarding Support
 
-Each new TA is paired with two individuals during their onboarding time: an [onboarding buddy](../../../people-talent/buddy-program.md) and an onboarding mentor within the TS Organization. Your onboarding buddy is assigned as part of our company-wide onboarding program. For the TA team, this will be a peer from an adjacent team with whom you'll work closely. Your onboarding mentor will be someone from the TA team with whom you'll have regular check-ins and will be there to help guide you. Both of these assignments will be indicated in your Process.st checklist.
+Each new TA is paired with two individuals during their onboarding time: an [onboarding buddy](../../../../people-talent/buddy-program.md) and an onboarding mentor within the TS Organization. Your onboarding buddy is assigned as part of our company-wide onboarding program. For the TA team, this will be a peer from an adjacent team with whom you'll work closely. Your onboarding mentor will be someone from the TA team with whom you'll have regular check-ins and will be there to help guide you. Both of these assignments will be indicated in your Process.st checklist.
 
 ## High-level Onboarding Overview
 
@@ -45,7 +45,7 @@ Below are the goals and expectations for each week of your onboarding.
 
 ### Week 5 Goals:
 
-- Begin working towards [Demo Certification](#ce-demo-certification). It's important that anyone is able to do a demo because we might receive this request from a new face at any point in time.
+- Begin working towards [Demo Certification](#demo-certification). It's important that anyone is able to do a demo because we might receive this request from a new face at any point in time.
 - Check-in with your manager on your experience and near-term goals
 - Plan your initial book of business with your manager and begin introductions (your onboarding mentor or another teammate will shadow you as the first few times as you get the hang of the role)
 
