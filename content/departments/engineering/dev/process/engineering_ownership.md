@@ -233,7 +233,6 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - Usage reporting and entitlement enforcement
 - Licensing models
 - Support and maintenance around authentication
-- Red accounts
 
 ### User journeys
 

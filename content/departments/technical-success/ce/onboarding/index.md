@@ -69,7 +69,6 @@ We want every CE to feel certain and comfortable with where they are at currentl
 #### 60–90 days:
 
 - Guide your first prospects towards and through a trial.
-- Collaborating with your lead, mentor, and / or AE, create plans around red accounts, renewals, and / or post-sales engagement.
 - Participate in CE-led internal projects.
 - Raise feedback to the appropriate product team.
 
@@ -92,7 +91,6 @@ After day 90, your role expectations will then align to the predefined CE career
 #### 60–90 days:
 
 - Guide a prospect towards and through a trial.
-- Guide the creation of plans around red accounts, renewals, and / or post-sales engagement.
 - Participate in and lead CE-identified projects.
 - Raise feedback to the appropriate product team.
 - Drawing from previous experience, make internal contributions by identifying opportunities and proposing and delivering solutions.
