@@ -86,10 +86,24 @@ We believe that regular feedback and self-reflection are crucial for individual 
 
 **Self Check-In/Manager-Direct Report Check-In:**
 
-1. **What's working well:** Think about the past month and identify aspects of your/this teammate’s work or projects that have been successful. Share what you're proud of and why it's working. Celebrate achievements!
-2. **What's not working well:** Recognize any challenges, obstacles, or areas where improvement is needed. Be specific and constructive in your feedback or self-assessment. Identifying problems is the first step toward solving them.
-3. **Feedback Sharing:** Reflect on the last time you provided feedback to your manager, peer, or direct report. Describe the feedback you gave and its impact. Effective communication is a two-way street.
+**Monthly, managers will complete 1 question only:**
+-[visible to teammate] In 2-3 bullets, share feedback with this teammate, including things that are working well and/or areas this teammate can focus on next month.
 
+**At the end of each quarter, managers will complete three questions:**
+- [visible to teammate] How is this teammate performing against their level and role expectations? (Multiple Choice)
+  - You had a superstar quarter. Great work!
+  - You met my high bar this quarter. Keep it up!
+  - Overall you did valuable work this quarter. I do need to see improvement in certain areas (see feedback section). I'm here to support you! 
+  - Your work this quarter did not meet my expectations and I need to see improvement (see feedback section). I'm here to support you!
+- [visible to teammate] Share feedback with this teammate, including things that are working well and/or areas this teammate can focus on next month.
+- [NOT visible to teammate] I would rehire this teammate (Multiple Choice)(Private - only visibly to Manager/People Partner)
+  - Yes
+  - No
+  - Unsure
+- [NOT visible to teammate] I have provided specific coaching and/or feedback to this teammate. (Multiple Choice)(Private - only visibly to Manager/People Partner)
+  - Yes
+  - No
+    
 ### Thanks and praise
 
 At Sourcegraph, we love celebrating and recognizing the events happening in our Teammates’ lives! We celebrate on a day-to-day basis via our ‘[#thanks](https://sourcegraph.slack.com/archives/thanks)’ channel. Giving recognition to other Teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via Lattice to our [#thanks](https://sourcegraph.slack.com/archives/thanks) Slack channel.
