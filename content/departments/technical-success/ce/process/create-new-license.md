@@ -8,7 +8,7 @@ This page is a dedicated deep-dive walkthrough for how to create a new license k
 
 > [!NOTE] The Subscription ID and Opportunity ID used below are **not** the same as the Subscription or Opportunity number. The correct data can be found in the Opportunity under Important Technical Details -> License IDs. It can also be pulled from the URL of the corresponding Subscription or Opportunity page.
 
-The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
+The prospect/customer requires a Sourcegraph.com user account. If an account does not already exist, the CE should create one first. The username of the account should have the following format `CompanyName-UniqueId`. This format is described below. The email of the account should be left blank. Once the account is available, follow the steps below.
 
 1. Sign in to [site admin](license_keys.md#accessing-site-admin).
 1. Assuming this is the first time creating a license for this account you must first create a user by navigating to the [users page](https://sourcegraph.com/site-admin/users) and create new user account.
