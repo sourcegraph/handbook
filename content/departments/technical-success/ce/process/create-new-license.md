@@ -8,11 +8,11 @@ This page is a dedicated deep-dive walkthrough for how to create a new license k
 
 > [!NOTE] The Subscription ID and Opportunity ID used below are **not** the same as the Subscription or Opportunity number. The correct data can be found in the Opportunity under Important Technical Details -> License IDs. It can also be pulled from the URL of the corresponding Subscription or Opportunity page.
 
-The CE should first create a Sourcegraph.com user account for the prospect/customer. Assuming there is not one already. The username of the account should have the following format `CompanyName-UniqueId`. This is format is described below. The email of the account should be left blank. Once that is available, follow the steps below.
+The prospect/customer requires a Sourcegraph.com user account. If an account does not already exist, the CE should create one first. The username of the account should have the following format `CompanyName-UniqueId`. This format is described below. The email of the account should be left blank. Once the account is available, follow the steps below.
 
 1. Sign in to [site admin](license_keys.md#accessing-site-admin).
 1. Assuming this is the first time creating a license for this account you must first create a user by navigating to the [users page](https://sourcegraph.com/site-admin/users) and create new user account.
-   - You can also check for a user already exists by searching for a valid account (the uniqueID should match the Salesforce Account ID).
+   - You can also check if a user already exists by searching for a valid account (the uniqueID should match the Salesforce Account ID).
 1. Creating a new user: we no longer create user-level accounts, instead we create a user for the Account itself. The username of the new user should utilize the following naming convention: `Company_Name-SFDC_Unique_Account_ID`.
    - Replace `Company_Name` with the name of the company from Salesforce
    - Separate these components with a hyphen: `-`
@@ -43,4 +43,4 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 1. If the customer should have **Cody Access** once you generate an active license you are now able to toggle on `Access to hosted Cody Services`. Click Enable when the warning shows.
    1. Everything should fill in for you; however if you need to modify the rate limit of chat requests per day or code completions per day you can do so by clicking on the pencil icon.
 1. Follow our [key sharing policy](license_keys.md#license-key-sharing-policy) for sharing this license key with your prospect or customer. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://sourcegraph.com/docs/admin/subscriptions#updating-your-license-key)
-1. Finally, a new customer, you must map the license key to the Salesforce instance for usage data tracking following [these directions](https://docs.google.com/document/d/12W85VTKLJg2Os74PWADxwOPfpMozB0mUm4Do6fN9dFs/edit?usp=sharing).
+1. Finally, if this is a new customer, you must map the license key to the Salesforce instance for usage data tracking following [these directions](https://docs.google.com/document/d/12W85VTKLJg2Os74PWADxwOPfpMozB0mUm4Do6fN9dFs/edit?usp=sharing).

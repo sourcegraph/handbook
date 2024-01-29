@@ -288,7 +288,7 @@ Within Sourcegraph we use 1Password for managing our credentials, including lice
 
 ### Out of Contract License Extensions
 
-In select circumstances, such as a bridge extension being requested due to the renewal process not aligning with license expiration, Sales **must receive approval from the VP of Finance and VP of Sales to issue a licensing exception**. This approval is granted via request in #deal-desk. If an AE requests a deviation from their contract licensing terms, please validate that the necessary approvals have been granted _before_ making any changes to a customers' license key.
+In select circumstances, such as a bridge extension being requested due to the renewal process not aligning with license expiration, Sales **must receive approval from the VP of Finance and VP of Sales to issue a licensing exception**. This approval is granted via request in #deal-desk. If an AE requests a deviation from their contract licensing terms, please validate that the necessary approvals have been granted _before_ making any changes to a customer's license key.
 
 ## Internal licensing FAQ
 
