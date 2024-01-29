@@ -86,7 +86,8 @@ We believe that regular feedback and self-reflection are crucial for individual 
 
 ## **Manager-Direct Report Check-In:**
 
-**Monthly, managers will complete 1 question only:** 
+**Monthly, managers will complete 1 question only:**
+
 - [visible to teammate] In 2-3 bullets, share feedback with this teammate, including things that are working well and/or areas this teammate can focus on next month.
 
 **At the end of each quarter, managers will complete three questions:**
@@ -106,6 +107,7 @@ We believe that regular feedback and self-reflection are crucial for individual 
   - No
 
 ##**Self Check-In**
+
 - What are you most proud of accomplishing in the past month?
 - What should the focus be for next month? Are there any growth areas?
 - Have you given (if manager) or received (if IC) continuous feedback (both positive and constructive) in the past month [YES / NO]
