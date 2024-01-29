@@ -453,5 +453,4 @@ At Sourcegraph, we empower high performers. [Learn more about Teammate Developme
 ### Helpful links & resources
 
 - [How to prepare for calibration meetings](../../compensation-and-leveling/preparing-for-calibrations.md)
-- How to help Managers mitigate bias (COMING SOON)
-- How to create letters for promotion & merit (COMING SOON)
+
