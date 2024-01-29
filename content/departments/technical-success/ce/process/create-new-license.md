@@ -12,7 +12,7 @@ The prospect/customer requires a Sourcegraph.com user account. If an account doe
 
 1. Sign in to [site admin](license_keys.md#accessing-site-admin).
 1. Assuming this is the first time creating a license for this account you must first create a user by navigating to the [users page](https://sourcegraph.com/site-admin/users) and create new user account.
-   - You can also check for a user already exists by searching for a valid account (the uniqueID should match the Salesforce Account ID).
+   - You can also check if a user already exists by searching for a valid account (the uniqueID should match the Salesforce Account ID).
 1. Creating a new user: we no longer create user-level accounts, instead we create a user for the Account itself. The username of the new user should utilize the following naming convention: `Company_Name-SFDC_Unique_Account_ID`.
    - Replace `Company_Name` with the name of the company from Salesforce
    - Separate these components with a hyphen: `-`
