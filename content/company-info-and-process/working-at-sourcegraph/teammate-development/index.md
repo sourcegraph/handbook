@@ -86,14 +86,14 @@ We believe that regular feedback and self-reflection are crucial for individual 
 
 **Self Check-In/Manager-Direct Report Check-In:**
 
-**Monthly, managers will complete 1 question only:**
--[visible to teammate] In 2-3 bullets, share feedback with this teammate, including things that are working well and/or areas this teammate can focus on next month.
+**Monthly, managers will complete 1 question only:** -[visible to teammate] In 2-3 bullets, share feedback with this teammate, including things that are working well and/or areas this teammate can focus on next month.
 
 **At the end of each quarter, managers will complete three questions:**
+
 - [visible to teammate] How is this teammate performing against their level and role expectations? (Multiple Choice)
   - You had a superstar quarter. Great work!
   - You met my high bar this quarter. Keep it up!
-  - Overall you did valuable work this quarter. I do need to see improvement in certain areas (see feedback section). I'm here to support you! 
+  - Overall you did valuable work this quarter. I do need to see improvement in certain areas (see feedback section). I'm here to support you!
   - Your work this quarter did not meet my expectations and I need to see improvement (see feedback section). I'm here to support you!
 - [visible to teammate] Share feedback with this teammate, including things that are working well and/or areas this teammate can focus on next month.
 - [NOT visible to teammate] I would rehire this teammate (Multiple Choice)(Private - only visibly to Manager/People Partner)
@@ -103,7 +103,7 @@ We believe that regular feedback and self-reflection are crucial for individual 
 - [NOT visible to teammate] I have provided specific coaching and/or feedback to this teammate. (Multiple Choice)(Private - only visibly to Manager/People Partner)
   - Yes
   - No
-    
+
 ### Thanks and praise
 
 At Sourcegraph, we love celebrating and recognizing the events happening in our Teammates’ lives! We celebrate on a day-to-day basis via our ‘[#thanks](https://sourcegraph.slack.com/archives/thanks)’ channel. Giving recognition to other Teammates is critical for maintaining a positive, innovative company culture. At Sourcegraph, we encourage regular, public recognition via Lattice to our [#thanks](https://sourcegraph.slack.com/archives/thanks) Slack channel.
