@@ -29,7 +29,7 @@ Publishing resources are [provisioned in `sourcegraph/infrastructure`](https://g
 ## Operations
 
 > [!NOTE]
-> To get access to most resources, you’ll need to [request infrastructure access](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4).
+> To get access to most resources, you’ll need to [request infrastructure access](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjQzMjAwIiwianVzdGlmaWNhdGlvbiI6IlRPRE8iLCJyb2xlSWRzIjpbeyJpZCI6IjBiZGZlOTlmLWZlMjYtNDdlMC04NTk2LWYzODUyNTVhOGQ0MSIsInRocm91Z2giOiIwYmRmZTk5Zi1mZTI2LTQ3ZTAtODU5Ni1mMzg1MjU1YThkNDEiLCJ0eXBlIjoicm9sZSJ9XX0%3D).
 
 Here is a list of useful quick links:
 
