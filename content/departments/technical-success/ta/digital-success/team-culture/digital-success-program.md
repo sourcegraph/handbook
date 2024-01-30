@@ -57,7 +57,6 @@ Where customer health is poor or concerning, specific email campaigns are sent t
 
 When users begin to interact with a new feature for the first time, the Digital Scaled team is alerted and advanced use case materials are sent to the account to encourage enablement and use.
 
-
 ### Nurturing
 
 Customers enter the nurture phase once they have reached 80% utilization (MAU / Seats) AND 30% usage (DAU / MAU) OR their renewal is within 120 days (at which point they enter the renewal lifecycle stage).

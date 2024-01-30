@@ -21,4 +21,3 @@ The pre-to-post sales handoff process consists of the following steps:
    2. If relevant, generates request for new cloud production instance.
    3. Completes [instance to admin mapping](https://docs.google.com/document/d/12W85VTKLJg2Os74PWADxwOPfpMozB0mUm4Do6fN9dFs/edit?usp=sharing)
    4. Tags customer contacts with the appropriate `role` on their contact card in Salesforce.
-
