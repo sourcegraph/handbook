@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-18 17:51:09.645325 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cebd22d6f89166213a4ca810202620ee7825d86c
+Last updated: 2024-01-30 00:36:07.186265 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/5c3790bfdd225d7ce3ccf5dd8818a3f58d85aba2
 -->
 
 This document describes operational guidance for Pings Service infrastructure.
@@ -14,8 +14,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                              |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                       DETAILS                                                        |
+|--------------|----------------------------------------------------------------------------------------------------------------------|
 | Service ID   | [`pings`](https://github.com/sourcegraph/managed-services/blob/main/services/pings/service.yaml)                     |
 | Owners       | **core-services**                                                                                                    |
 | Service kind | Cloud Run service                                                                                                    |
@@ -27,8 +27,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY   | DETAILS                                                                                                |
-| ---------- | ------------------------------------------------------------------------------------------------------ |
+|  PROPERTY  |                                                DETAILS                                                 |
+|------------|--------------------------------------------------------------------------------------------------------|
 | Project ID | [`pings-prod-2f4f73edf1db`](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)      |
 | Category   | **external**                                                                                           |
 | Resources  |                                                                                                        |
@@ -38,8 +38,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                ENTITLE REQUEST TEMPLATE                                                                                                                                                                |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 | GCP project write access | [Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)  |
 
@@ -49,8 +49,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Pings Service prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                              |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|   PROPERTY   |                                                                                                                                                               DETAILS                                                                                                                                                                |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console      | [Cloud Run service](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)                                                                                                                                                                                                                                            |
 | Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=pings-prod-2f4f73edf1db) |
 
@@ -68,7 +68,7 @@ You may want to check your service environment's TFC workspaces if a Terraform a
 
 > [!NOTE]
 > If you are looking for service logs, see the [prod Cloud Run](#prod-cloud-run) section instead. In general:
->
+> 
 > - check service logs ([prod Cloud Run](#prod-cloud-run)) if your service has gone down or is misbehaving
 > - check TFC workspaces for infrastructure provisioning or configuration issues
 
