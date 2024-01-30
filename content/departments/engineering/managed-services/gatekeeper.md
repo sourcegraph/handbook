@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-18 17:51:09.641714 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cebd22d6f89166213a4ca810202620ee7825d86c
+Last updated: 2024-01-30 00:36:07.183724 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/5c3790bfdd225d7ce3ccf5dd8818a3f58d85aba2
 -->
 
 This document describes operational guidance for Cody Gatekeeper infrastructure.
