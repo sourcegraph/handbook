@@ -7,7 +7,6 @@ We leverage Vitally to monitor all customers and send all communications through
 An overview our current program across the customer lifecycle is depicted below:
 ![Customer Lifecycle - Scaled Success](https://github.com/sourcegraph/handbook/assets/7228359/7cd03b9b-cdb0-4387-9a46-000250363e74)
 
-
 ## Lifecycle Stages
 
 - [Onboarding](#customer-onboarding)
