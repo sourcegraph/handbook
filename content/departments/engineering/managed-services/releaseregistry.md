@@ -14,8 +14,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-|   PROPERTY   |                                                       DETAILS                                                        |
-|--------------|----------------------------------------------------------------------------------------------------------------------|
+| PROPERTY     | DETAILS                                                                                                              |
+| ------------ | -------------------------------------------------------------------------------------------------------------------- |
 | Service ID   | [`releaseregistry`](https://github.com/sourcegraph/managed-services/blob/main/services/releaseregistry/service.yaml) |
 | Owners       | **dev-experience**                                                                                                   |
 | Service kind | Cloud Run service                                                                                                    |
@@ -27,8 +27,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-|    PROPERTY    |                                                 DETAILS                                                  |
-|----------------|----------------------------------------------------------------------------------------------------------|
+| PROPERTY       | DETAILS                                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------------------------- |
 | Project ID     | [`releaseregistry-prod-5421`](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)    |
 | Category       | **test**                                                                                                 |
 | Resources      | [prod PostgreSQL instance](#prod-postgresql-instance)                                                    |
@@ -39,8 +39,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-|          ACCESS          |                                                                                                                                                                 ENTITLE REQUEST TEMPLATE                                                                                                                                                                  |
-|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GCP project read access  | [Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 | GCP project write access | [Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -50,8 +50,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Release Registry prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-|   PROPERTY   |                                                                                                                                                                DETAILS                                                                                                                                                                 |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                                |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Console      | [Cloud Run service](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)                                                                                                                                                                                                                                            |
 | Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=releaseregistry-prod-5421) |
 
@@ -63,8 +63,8 @@ sg msp logs releaseregistry prod
 
 #### prod PostgreSQL instance
 
-| PROPERTY  |                                                 DETAILS                                                 |
-|-----------|---------------------------------------------------------------------------------------------------------|
+| PROPERTY  | DETAILS                                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------------------- |
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=releaseregistry-prod-5421) |
 | Databases | `releaseregistry`                                                                                       |
 
@@ -86,7 +86,7 @@ You may want to check your service environment's TFC workspaces if a Terraform a
 
 > [!NOTE]
 > If you are looking for service logs, see the [prod Cloud Run](#prod-cloud-run) section instead. In general:
-> 
+>
 > - check service logs ([prod Cloud Run](#prod-cloud-run)) if your service has gone down or is misbehaving
 > - check TFC workspaces for infrastructure provisioning or configuration issues
 
@@ -105,8 +105,8 @@ sg msp tfc view releaseregistry prod
 
 ### dev
 
-|    PROPERTY    |                                                 DETAILS                                                 |
-|----------------|---------------------------------------------------------------------------------------------------------|
+| PROPERTY       | DETAILS                                                                                                 |
+| -------------- | ------------------------------------------------------------------------------------------------------- |
 | Project ID     | [`releaseregistry-dev-6bac`](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)     |
 | Category       | **test**                                                                                                |
 | Resources      | [dev PostgreSQL instance](#dev-postgresql-instance)                                                     |
@@ -117,8 +117,8 @@ sg msp tfc view releaseregistry prod
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-|          ACCESS          |                                                                                                                                                                 ENTITLE REQUEST TEMPLATE                                                                                                                                                                  |
-|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GCP project read access  | [Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 | GCP project write access | [Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -128,8 +128,8 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Release Registry dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-|   PROPERTY   |                                                                                                                                                                DETAILS                                                                                                                                                                |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                               |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Console      | [Cloud Run service](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)                                                                                                                                                                                                                                            |
 | Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=releaseregistry-dev-6bac) |
 
@@ -141,8 +141,8 @@ sg msp logs releaseregistry dev
 
 #### dev PostgreSQL instance
 
-| PROPERTY  |                                                DETAILS                                                 |
-|-----------|--------------------------------------------------------------------------------------------------------|
+| PROPERTY  | DETAILS                                                                                                |
+| --------- | ------------------------------------------------------------------------------------------------------ |
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=releaseregistry-dev-6bac) |
 | Databases | `releaseregistry`                                                                                      |
 
@@ -164,7 +164,7 @@ You may want to check your service environment's TFC workspaces if a Terraform a
 
 > [!NOTE]
 > If you are looking for service logs, see the [dev Cloud Run](#dev-cloud-run) section instead. In general:
-> 
+>
 > - check service logs ([dev Cloud Run](#dev-cloud-run)) if your service has gone down or is misbehaving
 > - check TFC workspaces for infrastructure provisioning or configuration issues
 
