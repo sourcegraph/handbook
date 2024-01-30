@@ -9,6 +9,7 @@ This page explains how to create and maintain license keys for prospects and cus
   - [License Key Tags](#feature-tags)
 - [License Management Processes](#license-management-processes)
   - [Prospective Customer Trials](#prospective-customer-trials)
+  - [Handling multiple instances for a single customer](#multiple-customer-instances)
   - [Converting a Prospect to a New Customer](#converting-a-prospect-to-a-new-customer)
   - [Handling Renewals or Upgrades](#handling-renewals-or-upgrades)
   - [Reissuing an Expired License](#reissuing-expired-licenses)
@@ -239,6 +240,15 @@ A note on Sales-led cloud (managed instance) trials: as part of the [Managed Ins
 ### Converting a Prospect to a New Customer
 
 When a prospect converts to a customer, you will need to create a _new_ subscription; **do not** reuse the trial subscription. Follow the instructions for [issuing a new license](create-new-license.md) from start to finish. This is to ensure data accuracy for the Sales Ops team. Importantly, the Opportunity ID, Subscription ID and expiration need to match what's in Salesforce and the contract.
+
+### Multiple Customer Instances
+
+At times a customer may desire to have multiple instances. We use the instance [feature tags](#feature-tags) to differentiate environments (eg, `dev`, `test`, `qa`, `staging`, `production`). As a best practice, create a single product subscription with multiple licenses to differentiate these environments. To do this:
+
+1. Go to the existing production subscription
+2. Click `+ generate new license manually` and be sure to designate the correct instance tag
+
+Note: if a customer needs `multiple production instances` you should create a separate product subscription for each.
 
 ### Handling renewals or upgrades
 
