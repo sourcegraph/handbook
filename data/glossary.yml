@@ -151,6 +151,8 @@ business:
     definition: Service level agreement
   - term: Golink
     definition: Canonical, internal-only link for a piece of information in the form of "go/..." link (ex. [go/glossary](https://go/glossary))
+  - term: EOQ
+    definition: End Of Quarter
 
 role:
   - term: EPD
