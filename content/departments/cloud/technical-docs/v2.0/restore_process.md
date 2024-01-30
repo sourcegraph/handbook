@@ -76,11 +76,9 @@ note the backup name, you will need it later.
 
 ```sh
 cd sourcegraph/cloud
-cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
-terraform init
-terraform apply
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID
+mi2 instance tfc deploy -auto-approve -e $ENVIRONMENT --slug $SLUG
 mi2 instance workon -e $ENVIRONMENT --slug $SLUG
-cd sourcegraph/cloud
 mi2 instance restore create --backup-name $BACKUP_NAME --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
 ```
 
@@ -91,6 +89,12 @@ mi2 instance restore create --backup-name $BACKUP_NAME --restore-type full-repla
 ```sh
 cd sourcegraph/cloud
 mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
+```
+
+Note: if pod hangs with PVCs pending, use below command:
+
+```sh
+kubectl delete sc gce-pd-gkebackup-de && kubectl get sc sourcegraph -o json | jq '.metadata.name = "gce-pd-gkebackup-de"' | kubectl apply -f -
 ```
 
 ### Restore stateless application
