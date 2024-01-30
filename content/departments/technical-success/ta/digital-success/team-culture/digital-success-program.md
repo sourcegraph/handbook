@@ -4,8 +4,8 @@ Our Digital Scaled Success program services our customers who do not qualify for
 
 We leverage Vitally to monitor all customers and send all communications through Vitally. We seek to align the Scaled Success Customer Lifecycle to our overall customer journey as closely as possible.
 
-You can view our current program across the customer lifecycle below:
-![Customer Lifecycle - Scaled Success](https://github.com/sourcegraph/handbook/assets/7228359/7cd03b9b-cdb0-4387-9a46-000250363e74)
+An overview our current program across the customer lifecycle is depicted below:
+![Customer Lifecycle - Scaled Success](https://github.com/sourcegraph/handbook/assets/7228359/cd686ea6-6d09-4dd8-a278-f52548efd637)
 
 ## Lifecycle Stages
 
