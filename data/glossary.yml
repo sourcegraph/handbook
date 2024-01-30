@@ -129,6 +129,8 @@ business:
     definition: A customer committed to paying us money, a new customer signing a contract, a contract signed to expand the number of seats, etc.
   - term: AP
     definition: Accounts Payable, i.e. our own bills we can pay right now
+  - term: ACV
+    definition: Annual Contract Value. The ACV sales metric enables businesses to track the value of individual customer contracts over a year. Basically, it’s the average annual dollar amount a contract is worth, excluding any one-time fees or purchases.
   - term: AR
     definition: Accounts Receivable, [bills customers should pay to us](../../departments/finance/process/ar.md)
   - term: Cash, AR, AP, Accruals, and Deferred Revenue
