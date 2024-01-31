@@ -3,9 +3,4 @@
   "editor.formatOnSave": true,
   "typescript.tsdk": "node_modules/typescript/lib",
   "cody.codebase": "github.com/sourcegraph/handbook",
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#1B331E",
-    "titleBar.activeBackground": "#26472A",
-    "titleBar.activeForeground": "#F9FCFA"
-  }
 }
