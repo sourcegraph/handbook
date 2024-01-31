@@ -436,13 +436,6 @@ carly_jones:
   github: carlyj0nes
   description: Carly is a Denver native who went to college in Vermont (Middlebury), lived in Washington, DC for 5 years, and has since returned home to Colorado. Prior to Sourcegraph, she gained experience leading talent teams at high growth startups and is passionate about all things talent acquisition. When not working, you can find Carly tackling a DIY project, practicing her golf game, spending time outdoors, and traveling.
 
-khoshal_wial:
-  name: Khoshal Wial
-  role: Regional Director Sales EMEA
-  reports_to: rsd_west
-  manager_role_slug: regional_director_sales_emea
-  email: khoshal@sourcegraph.com
-
 aimee_menne:
   name: Aimee Menne
   pronouns: she/her
@@ -1450,7 +1443,7 @@ James_Ghaedi:
   name: James Ghaedi
   email: james.ghaedi@sourcegraph.com
   role: Account Executive, EMEA
-  reports_to: regional_director_sales_emea
+  reports_to: regional_director_sales_east
 
 steve_yegge:
   name: Steve Yegge
