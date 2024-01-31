@@ -267,31 +267,70 @@ Since Greenhouse will only notify you via email when candidates submit availabil
 
 9. Test your zap. If it works properly, publish it!
 
-## Other Recruiting Operations responsibilities:
-
-### Project work
-
-#### Reporting on candidate survey results to the Talent Team
-
-Recruiting Operations Specialists follow the steps below to send weekly candidate survey results to the Talent team:
-
-1. Click the three dots on the top of the Greenhouse page
-
-2. Click on “_Reports_”
-
-3. Click on “_Candidate Surveys_”
-
-4. Click “_Export to excel_” and open in numbers (mac) or excel (PC)
-
-5. Delete column B because it is not applicable
-
-6. Copy all new data from the week and paste it into the Talent team’s candidate survey responses spreadsheet
-
-7. Reformat and drag down the average numerical score
-   - The individual and average numerical scores should then automatically be calculated in the spreadsheet, along with the candidate satisfaction rate
-
-### Recruitment branding
+## Recruitment branding
 
 Working alongside Marketing to manage recruitment branding strategies on job boards and social media.
 
 Details can be found [here](../process/recruitment_branding.md)
+
+## How to send weekly report to the people & talent team summarizing key hiring metrics
+
+Every Friday, the Talent Operations Specialist sends a weekly report to the private #team-people-and-talent slack channel summarizing key hiring metrics. Below is a step by step instruction on how to do it: 
+
+1. Action on the remaining inbound applicants in red on the [candidate freshness by stage](https://app.talentwall.io/dashboard/dashboards/96133) TalentWall report. These are applicants who have not received a response in 5+ days. 
+2. Then, take a screenshot of the [candidate freshness by recruiter](https://app.talentwall.io/dashboard/dashboards/77952) TalentWall report and note how many candidates are in red for each recruiter (meaning they haven’t been reached out to in 5+ days). 
+3. Run a [Greenhouse candidate survey report](https://app4.greenhouse.io/reports/candidate_surveys?term=&job_status=open&user_role_on_jobs=any_role&include_template_jobs=1&date_relative=current_year&department_ids=&office_ids=&hide_empty_rows=false) across all roles and all departments. 
+    1. Export the report to excel
+    2. Delete the “offices” column in excel
+    3. Open the [candidate survey responses](https://docs.google.com/spreadsheets/d/15Ikva2Brt1OJgLu2wq1vFhJSTFAw4NcYOrh6u1Ezlz4/edit#gid=0) Google Sheet
+    4. Copy any new survey responses from the excel sheet from Greenhouse and paste them to the bottom of the candidate survey responses
+    5. Make sure comments and responses are formatted correctly in the candidate survey responses Google sheet. You may need to cut/paste them from the numeric value column into the comments column. 
+    6. Color code the comments based on their sentiment. If negative, highlight them red. If neutral, highlight them yellow. If positive, highlight them green. 
+    7. Drag the average numerical cursor down for the rows that you input to calculate the average score for the new responses 
+    8. Sort “submitted on” Z to A to move the new responses to the top of the spreadsheet. 
+    9. Calculate the average score of the new responses and note the comments. You will share these with the talent team in the weekly report. 
+4. Build a Greenhouse Custom Report with the following filters in order to highlight the candidates that need compensation data entered. You can use the same report/link each time, so there is no need to rebuild it every week:  
+
+![alt_text](https://storage.googleapis.com/sourcegraph-assets/Greenhouse%20Compensation%20Report%20Filters.png)
+
+5. Note the candidates by stage in TalentWall.
+6. After completing the steps above, share your findings to the People / Talent team via Slack. Below is an example message: 
+
+#### Example Slack message for People & Talent team summarizing key hiring metrics
+
+Hi Team! Please see this week's recruiting report and action items in :thread:
+
+![alt_text](https://storage.googleapis.com/sourcegraph-assets/Candidate%20Freshness%20TalentWall.png)
+
+
+**[Candidate Freshness Data](https://app.talentwall.io/dashboard/dashboards/77952)** (attached)
+
+* @Kelsey Nagel you have **45** candidates in red and **29** in yellow
+    * Most of these are not in application review 
+* @Grace Bohl you have **45** candidates in red and **29** in yellow
+* @Devon Coords you have **0** candidates in red and **25** in yellow - great job! 
+
+:reddown: **[Candidate Survey Responses](https://docs.google.com/spreadsheets/d/15Ikva2Brt1OJgLu2wq1vFhJSTFAw4NcYOrh6u1Ezlz4/edit#gid=0)**
+
+* We received two survey response in Product and Operations (**3.85**)
+    * Operations comment: "More detailed feedback for each round"
+
+:heavy_dollar_sign: **[Compensation Report](https://app4.greenhouse.io/report_builder/report?token=050f35f76512b10f11a6b87214f83be00af01704f48e61496623099fba43eb2d)**
+
+* I've included compensation data for the past 60 days. @Grace Bohl @Kelsey Nagel there are quite a few candidates who are missing data. Can you please go audit?
+* **Recruiter actions:**
+    * @Grace Bohl Please enter comp expectations asap and put a :moneybag: when complete.
+    * @Kelsey Nagel Please enter comp expectations asap and put a :moneybag: when complete.
+    * @Devon Coords Please enter comp expectations asap and put a :moneybag: when complete.
+
+:sourcegraph_logo: **[Active pipeline](https://app.talentwall.io/dashboard/widget-library/active_pipeline)**
+
+* Application Review: 415
+* Recruiter Screen: 59 candidates
+    * @Grace Bohl @Kelsey Nagel - 6 of these are in red. Can you please go through your pipelines and action out candidates who you're not moving forward with?
+* Hiring Manager Screen: 14 candidates
+* Resume Deep Dive: 1 candidate
+* Take Home Test: 2 candidates
+* Team Interview: 11 candidates
+* Final Interview: 6 candidates
+* Outstanding offers: (list candidates) 
