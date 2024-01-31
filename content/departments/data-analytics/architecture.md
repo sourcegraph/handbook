@@ -26,3 +26,29 @@ User events are event telemetry that we receive from cloud instanecs.
 - [Adding, changing and debugging user event data](https://docs.sourcegraph.com/dev/background-information/adding_event_level_data)
 
 For more info on our data stack tools, see the [tools page](tools.md).
+
+### Transcript Events from DotCom Users
+
+For DotCom users we are permitted to store transcript data. To ensure safe handling of this sensitive data and restricting access. The following event pipeline has been built on top of the telemetry-v2 archetiture; and routes flagged transcript events seperately. 
+
+#### Considerations:
+1. Transcript data can only be collected through v2 telemetry and stored within `privateMetadata` field of the event
+2. Transcript data can only be collected for DotCom (Free) Users
+3. Transcript data must include `recordsPrivateMetadataTranscript:1` in the `metadata` field of the event
+
+#### Internal-only links to where the backend GCP changes live:
+##### Pub/Sub Topic Subscriptions
+- [event-telemtry-transcript-to-gcs](https://console.cloud.google.com/cloudpubsub/subscription/detail/event-telemetry-transcript-to-gcs?project=telligentsourcegraph)
+- [event-telemtry-sub-v2 for non transcript events](https://console.cloud.google.com/cloudpubsub/subscription/detail/event-telemetry-sub-v2?project=telligentsourcegraph)
+- [event-telemtry-transcript-to-bq](https://console.cloud.google.com/cloudpubsub/subscription/detail/event-telemetry-transcript-to-bq?project=telligentsourcegraph) 
+##### DataFlow
+- [DataFlow Job](https://console.cloud.google.com/dataflow/jobs/us-central1/2024-01-18_11_35_42-11241333749608313305;graphView=0?project=telligentsourcegraph&pageState=(%22dfTime%22:(%22l%22:%22dfJobMaxTime%22))) that runs on the topic subscription event-telemtry-transcript-to-bq to redact transcripts (responseText, PromptText)
+- [DataFlow UDF](https://console.cloud.google.com/storage/browser/_details/sg-telemetry-v2-udf/udf/transcriptUDF.js;tab=live_object?project=telligentsourcegraph) that the DataFlow Job references (custom javascript function we can run on each event)
+##### GCS
+- [GCS Bucket](https://console.cloud.google.com/storage/browser/sourcegraph-cody/transcript?project=telligentsourcegraph&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false) where ML team will access transcripts
+##### BQ
+- [event_telemetry table location](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&pli=1&ws=!1m5!1m4!4m3!1stelligentsourcegraph!2stelemetry!3sevent_telemetry)
+
+Below is a system diagram to illustrate the flow of transcript data further: 
+![image](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/transcript-event-telemetry-pipeline.png)
+
