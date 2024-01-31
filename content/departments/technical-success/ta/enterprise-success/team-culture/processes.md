@@ -125,7 +125,7 @@ Once the goals of the save plan are met, as measured by the success criteria, Sa
 
 The TA team will run a retrospective of all customer churn above $150,000 ARR. This includes Full Churn and Partial Churn.
 
-> [!NOTE]  If the ARR churn does not result in a decrease in seats purchased, we do not need to do a churn retro.
+> [!NOTE] If the ARR churn does not result in a decrease in seats purchased, we do not need to do a churn retro.
 
 Once the churn is officially realized, the TS Churn Retro Sponsor will contact the assigned TA to have them begin the process using the Churn Retro template in Vitally.
 
