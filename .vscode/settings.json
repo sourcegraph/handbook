@@ -2,5 +2,5 @@
   "git.ignoreLimitWarning": true,
   "editor.formatOnSave": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cody.codebase": "github.com/sourcegraph/handbook",
+  "cody.codebase": "github.com/sourcegraph/handbook"
 }
