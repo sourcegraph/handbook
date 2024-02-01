@@ -132,7 +132,6 @@ We are notified when a user submits request for vendor procurement.
 6. If a security portal link from the vendor is provided, request access and review information available there
 7. Click approve or deny based on your review
 
-
 ### New repository alert
 
 We get alerts for new repositories created in the Sourcegraph GitHub org. These repositories should be added to [this spreadsheet](https://docs.google.com/spreadsheets/d/1IPQv9lPe1J3fwx_ZwOV-Tu4PqyP_c4bXKd3p_uw291s/edit#gid=0) and categorized as per our Repository policy: `SOC2-compliant`, `SOC2-in-progress`, `Security-tracked` or `Out-of-scope`.
