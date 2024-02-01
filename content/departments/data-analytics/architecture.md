@@ -50,13 +50,5 @@ For DotCom users we are permitted to store transcript data. To ensure safe handl
 - [DataFlow Job](<https://console.cloud.google.com/dataflow/jobs/us-central1/2024-01-18_11_35_42-11241333749608313305;graphView=0?project=telligentsourcegraph&pageState=(%22dfTime%22:(%22l%22:%22dfJobMaxTime%22))>) that runs on the topic subscription event-telemtry-transcript-to-bq to redact transcripts (responseText, PromptText)
 - [DataFlow UDF](https://console.cloud.google.com/storage/browser/_details/sg-telemetry-v2-udf/udf/transcriptUDF.js;tab=live_object?project=telligentsourcegraph) that the DataFlow Job references (custom javascript function we can run on each event)
 
-##### GCS
-
-- [GCS Bucket](<https://console.cloud.google.com/storage/browser/sourcegraph-cody/transcript?project=telligentsourcegraph&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false>) where ML team will access transcripts
-
-##### BQ
-
-- [event_telemetry table location](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&pli=1&ws=!1m5!1m4!4m3!1stelligentsourcegraph!2stelemetry!3sevent_telemetry)
-
 Below is a system diagram to illustrate the flow of transcript data further:
 ![image](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/transcript-event-telemetry-pipeline.png)
