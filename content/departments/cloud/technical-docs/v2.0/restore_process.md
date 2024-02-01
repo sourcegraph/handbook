@@ -128,3 +128,31 @@ e.g. `gitserver`, `zoekt`
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
+
+# Restoring GCP deleted project
+
+Notes:
+
+- accidental deletion of GCP project was performed using the following command: `gcloud projects delete <PROJECT_ID>` based on [official GCP documentation](https://cloud.google.com/sdk/gcloud/reference/projects/delete)
+- according to [GCP official documentation](https://support.google.com/googleapi/answer/6251787?hl=en#zippy=%2Crestore-a-project), GCP project can be restored within 30 days since deletion
+
+- export environment variables
+
+```sh
+export ENVIRONMENT=[dev|prod]
+export SLUG=<SLUG>
+export GCP_PROJECT=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcp.projectId')
+```
+
+- peform undelete
+
+```sh
+gcloud projects undelete $GCP_PROJECT
+```
+
+- verify project is restored
+
+```sh
+gcloud projects describe $GCP_PROJECT
+# should be: lifecycleState: ACTIVE
+```

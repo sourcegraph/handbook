@@ -2,7 +2,8 @@
 
 <span class="badge badge-note">SOC2/CI-82</span>
 
-Report from [failover test on 28tf of November 2022](https://docs.google.com/document/d/1CfI2m2eZ-dtG1XoPpWEuWm87XJ7m2dbQAG2tOHV74pk/edit)
+Report from [failover test on 28th of November 2022](https://docs.google.com/document/d/1CfI2m2eZ-dtG1XoPpWEuWm87XJ7m2dbQAG2tOHV74pk/edit)
+Report from [disaster recovery test on 30th-31th of January 2024](https://docs.google.com/document/d/16yhTlV_qvZ1tsxYLZteOBwvIV_-R0p5R9rLwTGLaH5w/edit)
 
 ## GKE cluster zone failover
 
