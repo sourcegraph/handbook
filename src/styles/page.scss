@@ -110,7 +110,9 @@
     border-radius: 100%;
     overflow: hidden;
     isolation: isolate;
-    transition: transform 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    transition:
+        transform 100ms ease-in-out,
+        box-shadow 100ms ease-in-out;
     background: white;
     &:hover {
         transform: scale(1.1);
