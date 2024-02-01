@@ -117,11 +117,21 @@ Please refer to the [computer setup](../../departments/tech-ops/tools/computer-s
 
 ### Laptop refresh
 
-If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop.
+The refresh timeline for each Sourcegraph department is as follows
 
-If you would like to upgrade to the new M2 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
+- Engineering and Product : 2.5yrs
+- Technical Success: 3yrs
+- All Other Departments: 4yrs
+- Exceptions are welcome with finance and manager approval, business need explanation may be required.
 
-Decommissioning of your previous laptop will be handled through Tech Ops and our device management platform. This will involve data wiping the device, completing the buyback process, or retrieving the laptop to be stored at our hardware vendor.
+To order a new computer, please do the following
+
+- type '/assist' into any slack chat window and press enter
+- Select the "New computer order" form from the drop down
+- Fill in the details of the device, per our standards section, and submit
+- Tech Ops will review and be in touch via the IT ticket you created
+
+**Decommissioning of your previous laptop will be handled through Tech Ops and our device management platform. This will involve data wiping the device, completing the buyback process, or retrieving the laptop to be stored at our hardware vendor.**
 
 ## Recurring expenses
 
