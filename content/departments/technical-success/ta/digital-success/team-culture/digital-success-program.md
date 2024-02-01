@@ -45,9 +45,9 @@ Customers enter the adoption phase after 60 days. Customers remain in the adopti
 
 90 days into the relationship, the customer Program Contact, Champion, and Instance Admin receive their first Usage Recap Email summarizing highlights in usage across their account. We also offer them an opportunity to meet with the team for anything they need.
 
-#### Manual, targeted outreach
+#### Targeted Outreach
 
-The Digital Scaled team continues to monitor customer usage throughout.
+The Digital Scaled team consistently tracks customer usage across the customer journey. We focus on sending customized enablement resources based on individual usage and adoption, ensuring our customers receive tailored support for optimal platform utilization
 
 ##### Poor or Concerning Health
 
