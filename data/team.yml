@@ -290,17 +290,6 @@ james_clifford:
   links: '[LinkedIn](https://www.linkedin.com/in/jamesclifford91/)'
   description: "James lives in San Francisco's North Beach neighborhood. Prior to Sourcegraph, James spent 5.5 years at Optimizely where he helped enterprise Engineering, Product, and Data teams to deliver better digital experiences through Full Stack experimentation and feature management. James graduated with a BA in Economics from Middlebury College. Outside of work, James can be found skiing in Tahoe or surfing and kiteboarding in the Pacific Ocean and San Francisco Bay."
 
-tj_devries:
-  name: TJ DeVries
-  role: Software Engineer
-  reports_to: eng_lead
-  location: Rockford, MI, USA 🇺🇸
-  github: tjdevries
-  email: tjdevries@sourcegraph.com
-  links: '[twitch.tv/teej_dv](https://twitch.tv/teej_dv)'
-  pronuncation: The letter T, and then the letter J
-  description: TJ lives in Rockford, Michigan. Besides coding during the day, TJ also likes to code on his Twitch stream (linked above). Generally you can find him working on Neovim or Neovim-related plugins and having a good time hanging out with Twitch chat. Outside of coding, TJ loves to spend time with his wife, son and doggo. Also, playing four-mallet marimba is one of his other favorite activities.
-
 caitlin_moran:
   name: Caitlin Moran
   pronouns: she/her
@@ -1205,16 +1194,6 @@ rakesh_joshi:
   pronouns: He/Him
   links: '[LinkedIn](https://www.linkedin.com/in/rakesh-joshi-62a56416)'
   description: Rakesh is a support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
-
-nathan_downs:
-  name: Nathan Downs
-  email: nathan.downs@sourcegraph.com
-  github: nathan-downs
-  pronouns: he/him
-  role: Lead Data Engineer
-  reports_to: vp_operations
-  location: Portland, OR
-  description: When he isn't tackling data engineering challenges, Nathan enjoys home improvement and woodworking projects. Originally from the East Coast, the allure of the Pacific Northwest outdoors and delicious vegan food of Portland were too strong a draw to ignore!
 
 william_bezuidenhout:
   name: William Bezuidenhout
