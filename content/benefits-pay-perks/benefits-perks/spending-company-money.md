@@ -118,16 +118,18 @@ Please refer to the [computer setup](../../departments/tech-ops/tools/computer-s
 ### Laptop refresh
 
 The refresh timeline for each Sourcegraph department is as follows
-* Engineering and Product : 2.5yrs
-* Technical Success: 3yrs
-* All Other Departments: 4yrs
-* Exceptions are welcome with finance and manager approval, business need explanation may be required. 
+
+- Engineering and Product : 2.5yrs
+- Technical Success: 3yrs
+- All Other Departments: 4yrs
+- Exceptions are welcome with finance and manager approval, business need explanation may be required.
 
 To order a new computer, please do the following
-* type '/assist' into any slack chat window and press enter
-* Select the "New computer order" form from the drop down
-* Fill in the details of the device, per our standards section, and submit
-* Tech Ops will review and be in touch via the IT ticket you created
+
+- type '/assist' into any slack chat window and press enter
+- Select the "New computer order" form from the drop down
+- Fill in the details of the device, per our standards section, and submit
+- Tech Ops will review and be in touch via the IT ticket you created
 
 **Decommissioning of your previous laptop will be handled through Tech Ops and our device management platform. This will involve data wiping the device, completing the buyback process, or retrieving the laptop to be stored at our hardware vendor.**
 
