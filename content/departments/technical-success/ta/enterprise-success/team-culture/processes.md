@@ -136,3 +136,31 @@ After TA completes, they will book a call with AE and TS Churn Retro Sponsor to 
 During this process, the account team will review the closed lost opportunity in SFDC and agree on the Closed Lost category and reason.
 
 The TS Churn Retro Sponsor will post a PDF Version of this doc in #gtm-operations-review and be responsible for acting on the Lessons Learned and Call to Action outcomes.
+
+## Digital Scaled Success churned customer playbook
+
+### Notification
+
+When a Sourcegraph customer in the Digital Scaled Success program churns, a notification of such is posted in #gtm-operations-review. Automation should be added to this message to look up and notify the appropriate team or assigned TA to successfully close out the churned customer.
+
+In the case of a customer in Digital Scaled Success program, the team will receive an alert via the #gtm-operations-review channel.
+
+### Customer Review & Steps Taken
+
+Upon notification, the Digital Scaled Success team should check the following:
+
+- Confirm Account Type on the Salesforce Account Record is marked as: (5) Attrited Customer.
+  - This is important for removing the account from Vitally.
+- Determine applicability for tearing down cloud instance
+  - Check Vitally report for the Deployment Method field of the Account:
+    - If Deployment Method is Sourcegraph Managed:
+      - Confirm that the customer is a Sourcegraph Cloud customer listed on https://cloud-ops.sgdev.org/dashboard/environments/prod
+      - In a public channel, ex. customer-X, notify the account team that you are about to submit a Cloud Teardown request.
+      - Submit the Cloud Teardown request on GitHub.
+      - Post in #discuss-cloud-ops with a link to the teardown request.
+      - Note: it is critical that all teardown requests be created and shared promptly, since any delays can impact Sourcegraph’s SOC-2 report and may harm the business.
+- Confirm removal of slack channel, as required
+  - Determine if an external and / or internal channel exists. If exists, communicate with the Account Executive to archive the relevant channels.
+- Publish Post-Mortem
+  - Collaborate with the account team in a public channel (ex. customer-X) on a Vitally doc that collects any names and emails of employees from the churning customer, calendar events, Chorus or Zoom recordings, and running notes documents. The goal of this document is to help Sourcegraph maintain or restart conversations with this company, in case they may become a customer again. Consider following the format of the Churn Retro Process described above.
+  - Share the post-mortem document in the #gtm-operations-review channel with a brief summary [example](https://sourcegraph.slack.com/archives/C044K6JDBSM/p1705690088031729).
