@@ -4,11 +4,11 @@ The Pooled TA program inherits and reuses most of the digital nurture practices 
 
 ## Lifecycle Stages
 
-1. [Prospect](./#prospect)
-2. [Onboarding](./#onboarding)
-3. [Adopting](./#adopting)
-4. [Nurturing](./#nurturing)
-5. [Renewing](./#renewing)
+1. [Prospect](#prospect)
+2. [Onboarding](#onboarding)
+3. [Adopting](#adopting)
+4. [Nurturing](#nurturing)
+5. [Renewing](#renewing)
 
 ### Prospect
 
