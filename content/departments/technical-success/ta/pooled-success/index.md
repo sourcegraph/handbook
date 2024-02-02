@@ -46,7 +46,9 @@ As technical advisors, we want to deeply know and understand our customers. It i
 
 ## Team Resources
 
-WIP - coming soon!
+- [Team Norms](./team-resources/team-norms.md)
+- [Pooled TA Program Overview](./team-resources/pooled-ta-program-overview.md)
+- Processes and Playbooks (Coming soon)
 
 ## Teammate Onboarding & Development Resources
 
