@@ -91,5 +91,5 @@ Advanced enablement: When users interact with a new feature for the first time, 
 - A customer enters the Renewing lifecycle stage 120 days before renewal.
 - This process is currently facilitated primarily by the Account Executive.
 - The Pooled team will conduct a Renewal Health Assessment to scope the priorities and activities that will be executed 120 leading to the renewal.
-- If any risk is identified, accounts will enter the [Lighthouse Program](../../enterprise-success/team-culture/processes/#sts=Lighthouse%20Program).
+- If any risk is identified, accounts will enter the [Lighthouse Program](../../enterprise-success/team-culture/processes.md#lighthouse-program).
 - The Pooled team will be available to jump on customer sync calls as needed.
