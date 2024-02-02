@@ -140,12 +140,15 @@ The TS Churn Retro Sponsor will post a PDF Version of this doc in #gtm-operation
 ## Digital Scaled Success churned customer playbook
 
 ### Notification
-When a Sourcegraph customer in the Digital Scaled Success program churns, a notification of such is posted in #gtm-operations-review. Automation should be added to this message to look up and notify the appropriate team or assigned TA to successfully close out the churned customer. 
+
+When a Sourcegraph customer in the Digital Scaled Success program churns, a notification of such is posted in #gtm-operations-review. Automation should be added to this message to look up and notify the appropriate team or assigned TA to successfully close out the churned customer.
 
 In the case of a customer in Digital Scaled Success program, the team will receive an alert via the #gtm-operations-review channel.
 
 ### Customer Review & Steps Taken
+
 Upon notification, the Digital Scaled Success team should check the following:
+
 - Confirm Account Type on the Salesforce Account Record is marked as: (5) Attrited Customer.
   - This is important for removing the account from Vitally.
 - Determine applicability for tearing down cloud instance
