@@ -1,4 +1,5 @@
 # Team Resources
+
 This page contains team resources for the Pooled TA team.
 
 - [Team Norms](./team-norms.md)
