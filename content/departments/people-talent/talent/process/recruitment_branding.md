@@ -43,15 +43,15 @@ Each month we share a [We’re hiring](https://www.linkedin.com/feed/update/urn:
 - New Hire Spotlights feature new teammates. The question template and previous responses can be found [here](https://drive.google.com/drive/folders/1d8SuwX9oh4NJlPl0V6_mqnlDjhq8jylj).
 - Teammate Spotlights feature a current teammate, ideally in a role that we are currently hiring for. This helps us to attract potential candidates. The question template and previous responses can be found [here](https://drive.google.com/drive/folders/1l41Uuz8iC32v_2zY-Xc73L8eKkqS-5hA).
 
-The Recruiting Operations team follows the following instructions to use [Figma](https://www.figma.com/file/Wihuiao8IQ0OatMz4r2A5f/Fy24-Social-media-templates?type=design&node-id=1331-2529&mode=design&t=rv9jjhi4EqcmfUIp-0) to create the banners for the posts:  
+The Recruiting Operations team follows the following instructions to use [Figma](https://www.figma.com/file/Wihuiao8IQ0OatMz4r2A5f/Fy24-Social-media-templates?type=design&node-id=1331-2529&mode=design&t=rv9jjhi4EqcmfUIp-0) to create the banners for the posts:
 
-1. First, duplicate photo we want to use by clicking the title of the photo, then click command “d” 
-2. Double click the text to edit 
+1. First, duplicate photo we want to use by clicking the title of the photo, then click command “d”
+2. Double click the text to edit
 3. To update the employee photo, click on the photo, go to “image” on right toolbar, fill image, upload image of teammate’s choosing
-    1. If format gets messed up, click custom, then click “fit”
+   1. If format gets messed up, click custom, then click “fit”
 4. Export image for LinkedIn:
-    1. For normal: scroll down on right, export 2x, PNG, resolution high
-    2. For compressed: figma logo top left, plugins, export compressed PDF, 2x, resolution high, PNG
+   1. For normal: scroll down on right, export 2x, PNG, resolution high
+   2. For compressed: figma logo top left, plugins, export compressed PDF, 2x, resolution high, PNG
 
 Please go to #wg-recruitment-branding for more information and questions.
 
