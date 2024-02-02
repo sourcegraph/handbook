@@ -26,9 +26,9 @@ following topics:
   business? How well have you hit your metrics targets?
 - **Plans:** What work is being proposed for this planning cycle, how does it meet
   the business goals and how does it serve the needs of our customers? What
-  data are you using to drive your planning? Have you done the
-  [eng scoping](#engineer-scoping) to insure that your team is able to get this
-  work done in the time?
+  data are you using to drive your planning? Have you done the high-level
+  [eng scoping](#engineer-scoping) to give you confidence that your team will be
+  able to get the P0 work done in the time?
 - **Success Metrics:** what KPIs and targets have you set to measure the success
   of this work?
 - **Risks/Open Questions/Needs:** What are the biggests risks? What are the
@@ -65,8 +65,11 @@ I've noticed that the teams the follow this tips have a smoother review process.
 ## Engineer Scoping
 
 For any launch, we have a finite amount of time and a finite number of engineers.
-After EPD has laid out their hopes and dreams for a given launch but before the
-PFP review itself, EPD should go through an "eng scoping" exercise, i.e.
+Before the PFP review, EPD should have done a high level assessment to ensure a
+high level of confidence in the P0 items in the work plan.
+
+After the team's plan has been approved, EPD's detailed planning should include
+an "eng scoping" exercise, i.e.
 
 1. What is the eng effort associated with each of the P0 and P1 items, e.g. 2
    days or 3 weeks or ...? [Here's an example of one such exercise.](https://docs.google.com/spreadsheets/d/1adlwcMWHIpDGioBkE9LUdLMHxprtxhh_WSZqxu6Iyxs/edit#gid=0)
@@ -80,5 +83,4 @@ PFP review itself, EPD should go through an "eng scoping" exercise, i.e.
 The eng scoping work is the difference between eyeballing a list of requirements
 and hoping we can get them all done and actually having some confidence that
 we can accomplish what we want. And if we can't, we want to know that ASAP so
-that we can escalate as part of the PFP review in the Risks/Needs section
-of the PFP review.
+we can cut scope for our release.
