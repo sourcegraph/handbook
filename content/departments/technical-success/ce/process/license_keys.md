@@ -83,7 +83,7 @@ Below is an overview of the **current supported plans** and included features:
 
 #### Additional Options
 
-Apart from the plan, there are a few additional options that can be added to a license key.
+Apart from the plan, there are a few additional options that can be added to a license key, depending on the license type.
 
 <table>
   <tr>
