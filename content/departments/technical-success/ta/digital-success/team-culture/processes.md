@@ -30,15 +30,15 @@ Utilizing columns to represent different stages of the project lifecycle, such a
 
 Playbooks in Vitally automate our process to reach our Digital Success customers effectively and efficiently.
 
-- Onboarding Playbook
-- 30 Day Survey
-- 90 Day Check In
-- Monthly Recap Email
-- Product Releases
+- [Onboarding Playbook](https://sourcegraph.vitally.io/settings/playbooks/d2ce4cd5-4030-4c12-8589-809ec3c719d9)
+- [30 Day Survey](https://sourcegraph.vitally.io/settings/playbooks/341f21e3-7991-4287-a141-93dda6f1bc5a)
+- [90 Day Check In](https://sourcegraph.vitally.io/settings/playbooks/341f21e3-7991-4287-a141-93dda6f1bc5a)
+- [Monthly Recap Email](https://sourcegraph.vitally.io/settings/playbooks/5d7b557e-d7b8-47ad-95de-be0a11fb694c)
+- [Product Releases](https://sourcegraph.vitally.io/settings/playbooks/9d3aab65-ff3b-495d-a957-bf2e04348250)
 
 #### Customer Utilization and Alerts
 
-The Customer Utilization playbook allows us to internally alert our Digital Success Teams and Account Executives when customers have interacted with a feature for the 1st time, as well as the ability to ensure that customers fully utilize the number of seats purchased. The playbooks trigger the alerts to notify our team in #alerts-customer-usage.
+The Customer Utilization playbook enables us to internally notify our Digital Success Teams and Account Executives whenever customers engage with a feature for the first time. Additionally, it provides the capability to ensure that customers fully leverage the number of seats purchased. The playbooks automatically trigger alerts, notifying our team through #alerts-customer-usage channel.
 
 #### Conversations
 
@@ -46,4 +46,4 @@ We monitor key metrics associated with our conversations to analyze and optimize
 
 #### Customer Health Overview
 
-Focused customer health monitoring allows us to assess Digital Success customers' overall health and utilization by monitoring utilization, feature adoption, engagement of users, and version updates. This strategic approach enables us to proactively address any emerging concerns and fine-tune communication to meet the needs of our customers.
+Focused customer health monitoring allows us to assess Digital Success customers' overall health and utilization by closely tracking key metrics such as utilization, feature adoption, engagement of users, and version updates. This comprehensive approach empowers us to proactively address any emerging concerns and fine-tune our communication strategies to align precisely with the needs of our customers. As part of this initiative, we've crafted a Health Overview dashboard, accessible through [Customer Health Overview](https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/fd3cafe5-94a0-4c7f-bbdb-aa40b34269b4), providing a centralized and insightful view of the health status of our Digital Success customers. This dashboard serves as a valuable tool, facilitating informed decision-making and fostering proactive engagement with our customer base.
