@@ -67,7 +67,7 @@ The SAMS service infrastructure is defined in [`sourcegraph/managed-services/ser
   1. Add/update the secrets in the [GSM](https://console.cloud.google.com/security/secret-manager?project=sams-prod-ywuz-secrets).
   1. Make a pull request to add/update the secrets references under the `id: prod > secretEnv` section in the [`service.yaml` file](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml).
   1. Once the pull request is merged, roll out a new deployment to pick up the changes to the secrets.
-- For testing instance (https://accounts.sgdev.org), all secrets are stored in an isolated [GCP project `sourcegraph-dev`](https://console.cloud.google.com/home/dashboard?project=sourcegraph-dev).
+- For testing instance (https://accounts.sgdev.org), all secrets are stored in a shared [GCP project `sourcegraph-dev`](https://console.cloud.google.com/home/dashboard?project=sourcegraph-dev).
   1. Make an [Entitle request](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IlVwZGF0ZSBTQU1TIHNlY3JldHMiLCJyb2xlSWRzIjpbeyJpZCI6IjAzOGYwNjQ4LTllNWYtNDAyMC1hOGNiLTE0NWJmNzQzZjQ2YiIsInRocm91Z2giOiIwMzhmMDY0OC05ZTVmLTQwMjAtYThjYi0xNDViZjc0M2Y0NmIiLCJ0eXBlIjoicm9sZSJ9XX0%3D) to grant access to the project.
   1. Add/update the secrets in the [GSM](https://console.cloud.google.com/security/secret-manager?project=sourcegraph-dev). Because this is shared project, make sure to prefix all secrets with `SAMS_` to avoid naming collisions.
   1. Make a pull request to add/update the secrets references under the `id: dev > secretEnv` section in the [`service.yaml` file](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml).
