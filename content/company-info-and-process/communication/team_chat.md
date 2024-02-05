@@ -233,29 +233,28 @@ Any member of a channel can add or edit a description or topic to let people kno
 
 ### Send short messages in announcement channels
 
-As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct  messages are sent in announce channels.
+As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels.
 
-**Please follow these guidelines if you need to share a message in an announcement channel.** 
+**Please follow these guidelines if you need to share a message in an announcement channel.**
 
-1.   Draft a short message that quickly gets to the point. This should be no more than a few lines of text that describe what the announcement is and who it impacts. If you have additional details that don't fit into the top-line announcement message plan to include those in a threaded reply. [Here's a great example of what an effective announcement looks like](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1706903107950019).
-    
-2.   _If you have access to post in the intended announcement channel already_
-     - Go ahead and post that short message.
-3.   _If you do **not** have access to post in the intended announcement channel:_
-     - Click on the channel name to pull up the "about" info.
-     - Identify who the channel manager is and share your announcement draft with them via a DM. Most channels should have more than one channel manager listed. If you cannot reach either manager, a request for posting access can be shared in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
-     - Be clear about whether you would like to request access to post, or if you are OK with them posting on your behalf.
-     -  The channel manager will share any revisions with you to make the message as effective as possible and ensure the message is shared (either by granting you access or sharing for you). 
+1.  Draft a short message that quickly gets to the point. This should be no more than a few lines of text that describe what the announcement is and who it impacts. If you have additional details that don't fit into the top-line announcement message plan to include those in a threaded reply. [Here's a great example of what an effective announcement looks like](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1706903107950019).
+
+2.  _If you have access to post in the intended announcement channel already_
+    - Go ahead and post that short message.
+3.  _If you do **not** have access to post in the intended announcement channel:_
+    - Click on the channel name to pull up the "about" info.
+    - Identify who the channel manager is and share your announcement draft with them via a DM. Most channels should have more than one channel manager listed. If you cannot reach either manager, a request for posting access can be shared in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
+    - Be clear about whether you would like to request access to post, or if you are OK with them posting on your behalf.
+    - The channel manager will share any revisions with you to make the message as effective as possible and ensure the message is shared (either by granting you access or sharing for you).
 
 **Q: What qualifies as an announcement**
 Announcements should be relevant to all or most members of the channel and generally convey information that is either urgent (requires attention/action) or important (has an impact on the audience). If it doesn’t meet these criteria, it may be better suited for a smaller audience or a different channel (like a #discuss channel). When in doubt, ask the channel manager!
 
 **Q: What does an effective announcement message look like?**
-Messages sent in announce channels should be clear, concise, and to the point. Avoid lengthy descriptions and get straight to the key message. You can (and should) share more in-depth info in the thread. 
+Messages sent in announce channels should be clear, concise, and to the point. Avoid lengthy descriptions and get straight to the key message. You can (and should) share more in-depth info in the thread.
 
 **Q: How often should announcements be shared?**
 There’s no one-size-fits-all approach here. Just be mindful of the frequency of announcements because too many messages can lead to information overload, causing important updates to be missed or ignored.
-
 
 ### Use emoji reactions to reduce the noise in Slack
 
