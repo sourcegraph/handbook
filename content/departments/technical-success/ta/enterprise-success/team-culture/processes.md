@@ -11,6 +11,7 @@ Processes exist to ensure consistent practices amongst teams. Processes that the
 - [Success Plans](#success-plans)
 - [Churn Save Lighthouse Program](#lighthouse-program)
 - [Churn Retro Process](#churn-retro-process)
+- [Customer Stakeholder role tagging](#customer-stakeholder-role-tagging)
 
 ## Post Sales Handoff
 
@@ -136,6 +137,40 @@ After TA completes, they will book a call with AE and TS Churn Retro Sponsor to 
 During this process, the account team will review the closed lost opportunity in SFDC and agree on the Closed Lost category and reason.
 
 The TS Churn Retro Sponsor will post a PDF Version of this doc in #gtm-operations-review and be responsible for acting on the Lessons Learned and Call to Action outcomes.
+
+## Customer Stakeholder role tagging
+
+Besides the basic customer information available in the customer contact card in SFDC & Vitally, the most important properties required for TA are:
+| Property | Values | Description |
+| --------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Title | Free form alphanumeric | Matches the LinkedIn title when created. Should be edited as contacts change titles. |
+| Role | Instance Admin, Deal Contact, Economic Buyer, Champion, End User, Executive, Program Contact | Multi-select. If the customer holds more than one role, add them to the multi-select. |
+| Instance Admin | Yes, No | Single-select. Should be also marked if the `Role` value has Instance Admin selected. |
+| Email | Free form alphanumeric | The email address is used by Vitally to send email campaigns. |
+
+### Pre-sales
+
+- CE is expected to tag all known contacts during the pre-sales cycle no more than 7 days after the new customer contract is signed.
+- CE should ensure that all properties above are defined.
+- CE should create customer contact cards as necessary if they don't currently exist.
+
+### Post-sales
+
+- During the [renewal process](#renewal-process), TA should work with the AE to maintain the required properties above for customer contacts.
+- In case of expansions where a CE was involved (demo, trial, POC), CE should tag newly identified contacts.
+- TA/CE should create customer contact cards as necessary if they don't currently exist.
+
+### Role property definition
+
+| Role            | Definition                                                                                                                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Instance Admin  | Someone who is more about the technical logistics and management of the solution, manages the instance                                                                                                |
+| Deal Contact    | A contact or owner who is helping to navigate the deal. This would be someone specific to the transaction not necessarily ongoing contact outside of the transaction (either initial deal or renewal) |
+| Economic Buyer  | The ultimate decision maker to sign off on any deal                                                                                                                                                   |
+| Champion        | An individual with 1) Power and influence, 2) willing and actively selling on our behalf, 3) view our success as their success                                                                        |
+| End User        | End user of the Sourcegraph product                                                                                                                                                                   |
+| Executive       | Exec-level sponsor who supports the deal/relationship                                                                                                                                                 |
+| Program Contact | Someone focused on the use case(s), adoption and value of SG within the company.                                                                                                                      |
 
 ## Digital Scaled Success churned customer playbook
 
