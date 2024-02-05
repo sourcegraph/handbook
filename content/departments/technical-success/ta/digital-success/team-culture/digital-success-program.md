@@ -21,7 +21,7 @@ The onboarding phase runs for 60 days from contract close.
 
 Effective FY25, scaled customers are required to be on the cloud, so besides potentially creating a new production instance as part of the hand-off, it is assumed that the production instance is provisioned as part of the hand-off process.
 
-Customer onboarding consists of a series of email nurture campaigns to contacts based on the role mapping (step 7.4 above). A synchronous onboarding training can be requested in #discuss-scaled-success.  
+Customer onboarding consists of a series of email nurture campaigns to contacts based on the role mapping (step 7.4 above). A synchronous onboarding training can be requested in #discuss-scaled-success.
 
 #### Admin onboarding
 
