@@ -42,8 +42,8 @@ The Customer Utilization playbook allows us to internally alert our Digital Succ
 
 #### Conversations
 
-We monitor key metrics associated with our conversations to analyze and optimize our communication strategies. This includes tracking open and read rates, monitoring unsubscribes, and managing [pending] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/d22fb1ab-179a-4a55-9b5b-e997a86ad5c4), [bounced] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/0093fc1f-b3e9-4602-afd5-0ad46cd70f55conversations) and [sent] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/1e8f0f60-c8e8-4356-9ebf-2258dbdca5aa). Tto analyze and optimize our communication strategies.
+We monitor key metrics associated with our conversations to analyze and optimize our communication strategies. This includes tracking open and read rates, monitoring unsubscribes, and managing [pending](https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/d22fb1ab-179a-4a55-9b5b-e997a86ad5c4), [bounced](https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/0093fc1f-b3e9-4602-afd5-0ad46cd70f55) and [sent](https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/1e8f0f60-c8e8-4356-9ebf-2258dbdca5aa) conversations.
 
-#### [Customer Health Overview] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/fd3cafe5-94a0-4c7f-bbdb-aa40b34269b4)
+#### Customer Health Overview
 
 Focused customer health monitoring allows us to assess Digital Success customers' overall health and utilization by monitoring utilization, feature adoption, engagement of users, and version updates. This strategic approach enables us to proactively address any emerging concerns and fine-tune communication to meet the needs of our customers.
