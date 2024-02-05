@@ -81,8 +81,6 @@ Below is an overview of the **current supported plans** and included features:
   </tr>
 </table>
 
-You can read more about legacy plans [below](#legacy-plans).
-
 #### Additional Options
 
 Apart from the plan, there are a few additional options that can be added to a license key.
