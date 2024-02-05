@@ -33,7 +33,7 @@ Publishing resources are [provisioned in `sourcegraph/infrastructure`](https://g
 
 Here is a list of useful quick links:
 
-- Prod instance (https://accounts.sourcegraph.com)
+- Production instance (https://accounts.sourcegraph.com)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-qWcQcoN16iA6rMfe)
   - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-prod-ywuz)
@@ -59,6 +59,19 @@ The following Entitle requests are needed to get access to SAMS service infrastr
 ### Deployments
 
 The SAMS service infrastructure is defined in [`sourcegraph/managed-services/services/sams`](https://github.com/sourcegraph/managed-services/tree/main/services/sams) utilizing [Managed Services Platform](../managed-services/platform.md).
+
+#### Update deployment secrets
+
+- For production instance (https://accounts.sourcegraph.com), all secrets are stored in an isolated [GCP project `sams-prod-ywuz-secrets`](https://console.cloud.google.com/home/dashboard?project=sams-prod-ywuz-secrets).
+  1. Make an [Entitle request](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkFkZCBzZWNyZXRzIiwicm9sZUlkcyI6W3siaWQiOiJjMDAwYTk5Ny0xZDJkLTRkNTktOGZhZi00MjU0MzRhYWE4YTAiLCJ0aHJvdWdoIjoiYzAwMGE5OTctMWQyZC00ZDU5LThmYWYtNDI1NDM0YWFhOGEwIiwidHlwZSI6InJvbGUifV19) to grant access to the project.
+  1. Add/update the secrets in the [GSM](https://console.cloud.google.com/security/secret-manager?project=sams-prod-ywuz-secrets).
+  1. Make a pull request to add/update the secrets references under the `id: prod > secretEnv` section in the [`service.yaml` file](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml).
+  1. Once the pull request is merged, roll out a new deployment to pick up the changes to the secrets.
+- For testing instance (https://accounts.sgdev.org), all secrets are stored in an isolated [GCP project `sourcegraph-dev`](https://console.cloud.google.com/home/dashboard?project=sourcegraph-dev).
+  1. Make an [Entitle request](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IlVwZGF0ZSBTQU1TIHNlY3JldHMiLCJyb2xlSWRzIjpbeyJpZCI6IjAzOGYwNjQ4LTllNWYtNDAyMC1hOGNiLTE0NWJmNzQzZjQ2YiIsInRocm91Z2giOiIwMzhmMDY0OC05ZTVmLTQwMjAtYThjYi0xNDViZjc0M2Y0NmIiLCJ0eXBlIjoicm9sZSJ9XX0%3D) to grant access to the project.
+  1. Add/update the secrets in the [GSM](https://console.cloud.google.com/security/secret-manager?project=sourcegraph-dev). Because this is shared project, make sure to prefix all secrets with `SAMS_` to avoid naming collisions.
+  1. Make a pull request to add/update the secrets references under the `id: dev > secretEnv` section in the [`service.yaml` file](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml).
+  1. Once the pull request is merged, roll out a new deployment to pick up the changes to the secrets.
 
 #### Modify deployment manifest
 
