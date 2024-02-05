@@ -19,7 +19,7 @@ The pre-to-post sales handoff process consists of the following steps:
    2. If relevant, generates request for new cloud production instance.
    3. Completes [instance to admin mapping](https://docs.google.com/document/d/12W85VTKLJg2Os74PWADxwOPfpMozB0mUm4Do6fN9dFs/edit?usp=sharing)
    4. Tags customer contacts with the appropriate `role` on their contact card in Salesforce.
-
+   
 ### How We Use Notion
 
 Utilizing columns to represent different stages of the project lifecycle, such as "To-Do," "In Progress," "Under Review," and "Completed," we can easily track the status of each task. This visual representation enhances collaboration by providing a real-time overview of project progress, enabling quick identification of areas that require attention. This allows transparency and efficiency among team members.
@@ -33,17 +33,17 @@ Playbooks in Vitally automate our process to reach our Digital Success customers
 - Onboarding Playbook
 - 30 Day Survey
 - 90 Day Check In
-- Monthly Recap Emails
+- Monthly Recap Email
 - Product Releases
 
-#### Customer Utilization and Alerts
+#### Customer Utilization and Alerts 
 
 The Customer Utilization playbook allows us to internally alert our Digital Success Teams and Account Executives when customers have interacted with a feature for the 1st time, as well as the ability to ensure that customers fully utilize the number of seats purchased. The playbooks trigger the alerts to notify our team in #alerts-customer-usage.
 
 #### Conversations
 
-We monitor key metrics associated with our conversations. This includes tracking open and read rates, monitoring unsubscribes, and managing pending and bounced conversations. This allows us to analyze and optimize our communication strategies.
+We monitor key metrics associated with our conversations to analyze and optimize our communication strategies. This includes tracking open and read rates, monitoring unsubscribes, and managing [pending] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/d22fb1ab-179a-4a55-9b5b-e997a86ad5c4), [bounced] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/0093fc1f-b3e9-4602-afd5-0ad46cd70f55conversations) and [sent] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/1e8f0f60-c8e8-4356-9ebf-2258dbdca5aa). Tto analyze and optimize our communication strategies. 
 
-#### Customer Health
+#### [Customer Health Overview] (https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/fd3cafe5-94a0-4c7f-bbdb-aa40b34269b4)
 
 Focused customer health monitoring allows us to assess Digital Success customers' overall health and utilization by monitoring utilization, feature adoption, engagement of users, and version updates. This strategic approach enables us to proactively address any emerging concerns and fine-tune communication to meet the needs of our customers.
