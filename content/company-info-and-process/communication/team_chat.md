@@ -239,8 +239,9 @@ As a general rule of thumb, Slack messages should be **kept short and to the poi
 
 1.  Draft a short message that quickly gets to the point. This should be no more than a few lines of text that describe what the announcement is and who it impacts. If you have additional details that don't fit into the top-line announcement message plan to include those in a threaded reply. [Here's a great example of what an effective announcement looks like](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1706903107950019).
 
-2.  _If you have access to post in the intended announcement channel already_
+2.  _If you have access to post in the intended announcement channel already:_
     - Go ahead and post that short message.
+    - Be open to feedback as somebody may see an opportunity to make your announcement even clearer.
 3.  _If you do **not** have access to post in the intended announcement channel:_
     - Click on the channel name to pull up the "about" info.
     - Identify who the channel manager is and share your announcement draft with them via a DM. Most channels should have more than one channel manager listed. If you cannot reach either manager, a request for posting access can be shared in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
