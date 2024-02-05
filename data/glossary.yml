@@ -93,6 +93,8 @@ technical:
     definition: A code host deployed in a private network (for example AWS EC2 instance within VPC).
   - term: public code host
     definition: A code host that is publicly accessible on the internet - a user can CURL it via IP or open the URL in the browser. This also includes a code host with a public interface but restricts access to IP allowlist.
+- term: KTLM (Keeping The Lights On)
+    definition: Time set aside during each product cycle for handling bug reports, user feedback, general maintenance, dealing with tech debt, etc.
 
 business:
   - term: CAC
