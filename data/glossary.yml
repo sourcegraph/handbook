@@ -155,6 +155,8 @@ business:
     definition: Canonical, internal-only link for a piece of information in the form of "go/..." link (ex. [go/glossary](https://go/glossary))
   - term: EOQ
     definition: End Of Quarter
+  - term: KTLO
+    definition: Keep The Lights On. The the minimum engineering maintenance work required to keep the product running and keep customers happy.
 
 role:
   - term: EPD
