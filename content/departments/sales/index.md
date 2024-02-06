@@ -18,7 +18,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
 - [Forecasting Overview](forecasting.md)
 - [Tools](tools/index.md)
-- [Territory Assignment Process](https://docs.google.com/document/d/1XMU4thPPfMcSJJMsQlRDl7a_KbAxX0FXo3QLqLutoc4/edit?usp=sharing)
+- [Territory Assignment Process](https://docs.google.com/document/d/1GU55BRIBRbFmlBo24YfnuuvKCfhlQm5uNRLaSJ9hsbo/edit)
 - [Sales Performance Goals](sales-performance-goals.md)
 
 ## Goals
