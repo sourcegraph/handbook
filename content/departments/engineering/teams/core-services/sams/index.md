@@ -50,6 +50,8 @@ Here is a list of useful quick links:
 
 For standard infrastructure operations, see [Sourcegraph Accounts infrastructure operations](../../../managed-services/sams.md).
 
+For common service operations, see [Sourcegraph Accounts operators cheat sheet](https://docs.google.com/document/d/1A0otZhTEmwShhTs2mVUeY_0j-2RvstyXuOsUqapdpEk/edit#heading=h.bkpmj9rym7pw).
+
 ### Infrastructure access
 
 The following Entitle requests are needed to get access to SAMS service infrastructure:
