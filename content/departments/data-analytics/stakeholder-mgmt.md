@@ -27,12 +27,12 @@ The data engineering team will be considered a shared service that will prioriti
 
 ## **Project Intake**
 
-The Data and Analytics team will accept project/enhancement requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). 
+The Data and Analytics team will accept project/enhancement requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues).
 
 Examples of requests that require an issue:
 
-- New dashboard 
-- Exploratory analysis 
+- New dashboard
+- Exploratory analysis
 - Implementation of new business metrics (e.g. “Can we start tracking page views of our case studies?”)
 
 When creating GitHub issues, please include as much relevant information as possible. Please use the relevant issue template in the repository and fill out the requested information. If no template matches, create a blank issue and include as many details around your request as possible.
