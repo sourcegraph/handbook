@@ -12,15 +12,13 @@
 We collect two different levels of product data. The type of data we collect depends how an instance is being hosted and the customer's contract.
 
 - [Pings](https://docs.sourcegraph.com/admin/pings) we collect pings from Sourcegraph cloud, self-hosted, and managed Sourcegraph instances. These pings contain anonymous and aggregated information. There are [specific guidelines](https://docs.sourcegraph.com/dev/background-information/adding_ping_data) that must be followed for teams to add ping data.
-- [User-level data](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3): we collect anonymous, user-level, event stream data from Sourceraph.com and Sourcegraph managed instances using our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). The event stream is data that is collected at the time the user does something in the product. That means, what did they do, when did they do it, what was the outcome. Soon, we'll be collecting this data from all customers regardless of hosting type, assuming their contract allows it - see the [RFC](https://docs.google.com/document/d/1Yh5ZTey7VrMNV3oz-wlY4aVbmtwpH8EdCSfa794Oxv4/edit) for details on this project and this [chart](https://sourcegraph.looker.com/looks/1754?toggle=pik) for details on which customer's have contractually allowed this. 
+- [User-level data](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3): we collect anonymous, user-level, event stream data from Sourceraph.com and Sourcegraph managed instances using our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). The event stream is data that is collected at the time the user does something in the product. That means, what did they do, when did they do it, what was the outcome. Soon, we'll be collecting this data from all customers regardless of hosting type, assuming their contract allows it - see the [RFC](https://docs.google.com/document/d/1Yh5ZTey7VrMNV3oz-wlY4aVbmtwpH8EdCSfa794Oxv4/edit) for details on this project and this [chart](https://sourcegraph.looker.com/looks/1754?toggle=pik) for details on which customer's have contractually allowed this.
 
 Some customers have the contractual right to send us no telemetry at all, or a much smaller subset of telemetry (called [critical telemetry](https://docs.sourcegraph.com/admin/pings#critical-telemetry)) you check the telemetry status of all customer instances [here](https://sourcegraph.looker.com/looks/1366). The options are as follows:
 
 - No telemetry: This self-hosted customer has an airgapped instance, or has turned pings off. We don't have any data about this customer's product usage
 - [Critical pings: ](https://docs.sourcegraph.com/admin/pings#critical-telemetry)This self-hosted customer has elected to send us only the pings that are required for billing, support, updates, and security notices
 - Full pings: This self-hosted customer sends us all the aggregated, anonymoous data we outline [here](https://docs.sourcegraph.com/admin/pings#other-telemetry)
-
-
 
 #### Which tool should I use to find product data?
 
