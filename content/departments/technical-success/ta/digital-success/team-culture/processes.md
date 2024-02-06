@@ -48,6 +48,9 @@ We monitor key metrics associated with our conversations to analyze and optimize
 
 Focused customer health monitoring allows us to assess Digital Success customers' overall health and utilization by closely tracking key metrics such as utilization, feature adoption, engagement of users, and version updates. This comprehensive approach empowers us to proactively address any emerging concerns and fine-tune our communication strategies to align precisely with the needs of our customers. As part of this initiative, we've crafted a Health Overview dashboard, accessible through [Customer Health Overview](https://sourcegraph.vitally.io/hubs/335a99ea-5302-498d-9d11-cc39aa8386b9/fd3cafe5-94a0-4c7f-bbdb-aa40b34269b4), providing a centralized and insightful view of the health status of our Digital Success customers. This dashboard serves as a valuable tool, facilitating informed decision-making and fostering proactive engagement with our customer base.
 
+#### Intenal Health Assessment
+WIP
+
 ## Digital Scaled Success churned customer playbook
 
 ### Notification
