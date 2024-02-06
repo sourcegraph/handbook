@@ -132,7 +132,6 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 - [Search - single customer](https://sourcegraph.looker.com/dashboards/423?Account%20name=Databricks&Installer%20email=&%20Date=90%20day&Account%20Type=)
 - [App Performance KPIs](https://sourcegraph.looker.com/dashboards/440)
 
-
 ## **Amplitude**
 
 ### **What is Amplitude?**
@@ -142,8 +141,7 @@ Amplitude is a business intelligence tool specifically for product analytics, un
 #### **What data can I find in Amplitude?**
 
 Search data: Amplitude contains search data from some managed instance customers, and from dotcom.
-Cody data: Amplitude contains cody data from all clients and instances 
-
+Cody data: Amplitude contains cody data from all clients and instances
 
 #### **How do I get access?**
 
@@ -157,7 +155,7 @@ Amplitude is best used to perform product-specific analyses and to better unders
 
 - [Top of funnel dashboard](https://app.amplitude.com/analytics/sourcegraph/dashboard/nktm80f3)
 
-Note that we don't do a lot of our standardized company reporting out of Amplitude; it's mostly a place for individuals to explore and answer their own questions. So be sure to browse the team-spaces and see what your coworkers are working on! 
+Note that we don't do a lot of our standardized company reporting out of Amplitude; it's mostly a place for individuals to explore and answer their own questions. So be sure to browse the team-spaces and see what your coworkers are working on!
 
 ## **Redash**
 
