@@ -1,59 +1,8 @@
 # **Stakeholder Management**
 
-The analysts will be aligned to the business units that are supported, and each stakeholder will know who their point of contact is. This allows the analyst to build relationships, embed in a specific group to become a subject matter expert, and advocate for prioritized engineering work as needed.
+The analysts will be aligned to the business initiatives and cross-functional stakeholders will know who their point of contact is. This allows the analyst to build relationships and embed in a specific project to become a subject matter expert.
 
-<table>
-  <tr>
-   <td><strong>Group</strong>
-   </td>
-   <td><strong>Stakeholder (VP/Dir)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Product/Engineering
-   </td>
-   <td>Quinn Slack, Steve Yegge
-   </td>
-  </tr>
-  <tr>
-   <td>Customer Engineering
-   </td>
-   <td>Aimee Menne
-   </td>
-  </tr>
-  <tr>
-   <td>Sales and Ops
-   </td>
-   <td>Ajay Uppaluri
-   </td>
-  </tr>
-  <tr>
-   <td>Marketing
-   </td>
-   <td>TBD
-   </td>
-  </tr>
-  <tr>
-   <td>Customer Support
-   </td>
-   <td> TBD
-   </td>
-  </tr>
-  <tr>
-   <td>People/Recruiting
-   </td>
-   <td>Carly Jones
-   </td>
-  </tr>
-  <tr>
-   <td>Finance
-   </td>
-   <td> TBD
-   </td>
-  </tr>
-</table>
-
-The engineering team will be considered a shared service that will prioritize the requests across all business units and will adhere to an agreed upon ratio of prioritized tasks and self-directed tasks like addressing tech debt, optimizations, and platform health and administration.
+The data engineering team will be considered a shared service that will prioritize the requests across all business units and will adhere to an agreed upon ratio of prioritized tasks and self-directed tasks like addressing tech debt, optimizations, and platform health and administration.
 
 ## **Stakeholder Partnerships**
 
@@ -73,39 +22,18 @@ The engineering team will be considered a shared service that will prioritize th
 - Prioritize large projects
 - Help communicate resource constraints and priority trade offs to your teams/Be a tie-break when we cannot accommodate all requests
 - Communicate shifts in priorities
-- Enablement adoption
+- Enablement and adoption
 - Champion adoption and engagement of data deliverables/solutions within your teams
-
-## **Project Requestor or Point of Contact responsibilities (Dir and below)**
-
-- Partner in requirements gathering sessions
-- Agree on timelines and definition of done
-- Respond to questions and clarification requests
-- Gather timely, actionable feedback from team members and communicate them back to Data and Analytics
-- Champion adoption and engagement of data deliverables/solutions within your teams
-- Provide testing and usability feedback
-- Enablement/documentation
-
-## **Suggested Meetings**
-
-- Stakeholder/Analyst meetings
-  - Bi-Weekly or Monthly meetings to share updates of ongoing projects, talk through upcoming projects, priorities, and planning, and share new and notable work from other parts of the analytics organization.
-- Project Requestor/Point of Contact meeting
-  - For the duration of a project, weekly or bi-weekly meeting to share updates, blockers, timelines, and progress
-  - Depending on the scale of the project, these meetings could alternatively be asynchronous status updates
-- Retrospectives
-  - Retrospectives will be held at the conclusion of any cross-functional, multi-month project
 
 ## **Project Intake**
 
-The Data and Analytics team will accept project/enhancement requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). At this time, requests that are not attached to a GitHub issue will not have an assigned analyst/engineer or expected completion date, and will not be tracked by the team.
+The Data and Analytics team will accept project/enhancement requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). 
 
 Examples of requests that require an issue:
 
-- New dashboard or enhancement to existing dashboard
-- Ad-hoc analysis (e.g. “I would like to know the number of MAUs for the Batch Changes feature.”)
+- New dashboard 
+- Exploratory analysis 
 - Implementation of new business metrics (e.g. “Can we start tracking page views of our case studies?”)
-- Bug fixes in data pipeline, transformations, or reporting (e.g. “I expect this value to be 100 and it shows as 50.”)
 
 When creating GitHub issues, please include as much relevant information as possible. Please use the relevant issue template in the repository and fill out the requested information. If no template matches, create a blank issue and include as many details around your request as possible.
 
@@ -118,6 +46,4 @@ This information is useful:
 - People: Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth for driving the project forward? Does each person have the necessary bandwidth to uphold the expectations asked of them?
 - Frequency: Is this a one time ask or something that is needed ongoing? If ongoing, what is the cadence (daily, weekly, monthly, etc…)
 
-A Data and Analytics team member will triage and assign issues to the relevant team member during sprint planning for items that are not time-sensitive or urgent.
-
-For time-sensitive or urgent requests, please tag the issue with the urgent label. This will make the GitHub issue appear in the #analytics channel in Slack to ensure visibility, and where you can follow up with more details/asks.
+A Data and Analytics team member will triage and assign issues to the relevant team member. For time-sensitive or urgent requests, please tag the issue with the urgent label and follow up in the #discuss-analytics channel.
