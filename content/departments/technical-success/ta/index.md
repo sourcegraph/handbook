@@ -13,14 +13,14 @@ Becoming a trusted advisor to our customers to enable them to better solve their
 The Technical Advisory organization is comprised of three teams:
 
 - [Enterprise & Strategic Technical Advisors](enterprise-success/index.md)
-  - Named and dedicated to specific customers
-  - Provides a high-touch, highly customized experience
+  - Named and dedicated to specific customers.
+  - Provides a high-touch, highly customized experience.
 - [Pooled Technical Advisors](pooled-success/index.md)
-  - Non-dedicated but shared across a set of customers
-  - Provides a medium-touch, customized experience that also leverages digital programming
+  - Non-dedicated but shared across a set of customers.
+  - Provides a medium-touch, customized experience that also leverages digital programming.
 - [Digital Technical Advisors](digital-success/index.md)
-  - Non-dedicated, on-demand coverage across a large set of customers
-  - Provides a low-touch experience that relies heavily on automated tooling
+  - Non-dedicated TA coverage across a large set of customers.
+  - Provides a medium-touch experience that relies heavily on automated tooling.
 
 ## Customer Segmentation
 
