@@ -2,8 +2,8 @@
 
 Quick links:
 
-* [How to conduct an unmoderated user test](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#how-to-conduct-an-unmoderated-user-test)
-* [How to analyze a user test](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#analyzing-a-usability-test)
+- [How to conduct an unmoderated user test](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#how-to-conduct-an-unmoderated-user-test)
+- [How to analyze a user test](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#analyzing-a-usability-test)
 
 At Sourcegraph, we use the following definition of usability when we conduct user research and design our product:
 
@@ -55,6 +55,7 @@ Feel free to add additional screening questions to these templates for your own 
 Generally, [the UX community recommends conducting evaluative usability tests with between 5 - 7 users to adequately capture most usability issues](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/).
 
 ## How to conduct an unmoderated user test
+
 1. Create new test in [usertesting.com from template](https://app.usertesting.com/workspaces/937482/choose-template)
 1. Select account template
 1. Test with usability metrics
