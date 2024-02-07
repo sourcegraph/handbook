@@ -1,5 +1,10 @@
 # Usability testing
 
+Quick links:
+
+* [How to conduct an unmoderated user test](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#how-to-conduct-an-unmoderated-user-test)
+* [How to analyze a user test](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#analyzing-a-usability-test)
+
 At Sourcegraph, we use the following definition of usability when we conduct user research and design our product:
 
 > To be usable, an interactive system should be effective, efficient, satisfying, and useful.
@@ -49,38 +54,14 @@ Feel free to add additional screening questions to these templates for your own 
 
 Generally, [the UX community recommends conducting evaluative usability tests with between 5 - 7 users to adequately capture most usability issues](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/).
 
-## How to conduct a usability test
-
-All usability testing is currently conducted in UserTesting.com by default. All usability testing is planned and analyzed in Dovetail, our research repository tool.
-
-### Step 1: Write your usability test plan
-
-We have created this [usability test project template](https://sourcegraph.dovetailapp.com/projects/3VnfTGMdL33acqZZ4zLwAM/readme) in Dovetail to help you write your research questions and define screening requirements outside of those already covered in our UserTesting screener templates. Key steps here are defining:
-
-- your research questions
-- your recruitment criteria
-- specific tasks that you want the user to accomplish during your test
-- how task success is defined
-
-If there are any other metrics you want to track outside of built in usability metrics, make sure to note those in your plan as well.
-
-Defining your research plan ahead of time will help you reduce scope creep and streamline analysis.
-
-### Step 2: Choose and launch a usability test type
-
-Based on your research questions, number of tasks, and time needed to complete this study, choose whether an unmoderated or moderated usability test best meets your research goal’s needs.
-
-#### Unmoderated tests
-
-If you run an unmoderated usability test on UserTesting, create a test from the [Usability metrics template](https://app.usertesting.com/share/f5f2ba6e-6275-4db7-bbfe-5afa21f764fd), located in the “Account templates” section. Make sure to move this test to your team’s folder once created.
-
-Choose an audience using one of our Audience templates:
-
-- General Devs
-- JetBrains Devs
-- VSCode Devs
-
-Update task language in the template to match the tasks in your usability test plan in Dovetail. Delete any parts of the template that you don’t need (for example, extra templated tasks).
+## How to conduct an unmoderated user test
+1. Create new test in [usertesting.com from template](https://app.usertesting.com/workspaces/937482/choose-template)
+1. Select account template
+1. Test with usability metrics
+1. Choose audience (typically General developers)
+1. Edit test plan
+1. Run test, making sure to validate task completion
+1. [Analyze](https://handbook.sourcegraph.com/departments/product/design/research/usability-testing-how-to/#analyzing-a-usability-test)
 
 If you run an unmoderated usability test that will run under 5 minutes, toggle the Short test option on when building your test plan.
 
@@ -98,7 +79,12 @@ Provide availability that best works with you and your team’s schedule.
 
 ## Analyzing a usability test
 
-All tests should be analyzed using our research repository tool, Dovetail. The project you created in "Step 1: Write your usability test plan" includes analysis and tagging tools.
+All tests should be analyzed using our research repository tool, Dovetail using this [usability test project template](https://sourcegraph.dovetailapp.com/projects/3VnfTGMdL33acqZZ4zLwAM/readme). Key steps here are defining:
+
+- your research questions
+- your recruitment criteria
+- specific tasks that you want the user to accomplish during your test
+- how task success is defined
 
 Upload UserTesting videos to your usability test project in Dovetail. Do this by creating a copy of the “Analysis template” Note and adding the testing video to it.
 
