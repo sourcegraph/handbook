@@ -1,4 +1,4 @@
-# Sourcegraph Accounts Managment System (SAMS)
+# Sourcegraph Accounts Management System (SAMS)
 
 [Sourcegraph Accounts Management System (SAMS)](https://docs.google.com/document/d/16F6uvfM9EknpcuAQQ8kIPOZ9gHo0Lx4lgprw_5sWJEs/edit) is the centralized accounts system for all of the Sourcegraph-operated systems, it provides:
 
