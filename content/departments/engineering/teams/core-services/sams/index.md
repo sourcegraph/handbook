@@ -35,14 +35,14 @@ Here is a list of useful quick links:
 
 - Production instance (https://accounts.sourcegraph.com)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-qWcQcoN16iA6rMfe)
-  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz)
+  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams-prod-us-central1/metrics?project=sams-prod-ywuz)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-prod-ywuz)
   - [Memorystore (monitoring)](https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/redis/details/monitoring?project=sams-prod-ywuz)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-prod-ywuz)
   - [GCP errors](https://console.cloud.google.com/errors;service=;version=?project=sams-prod-ywuz)
 - Testing instance (https://accounts.sgdev.org)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-XWBtUm77JJRXddoZ)
-  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-dev-bfec)
+  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams-dev-us-central1/metrics?project=sams-dev-bfec)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-dev-bfec)
   - [Memorystore (monitoring)](https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/redis/details/monitoring?project=sams-dev-bfec)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-dev-bfec)
@@ -118,7 +118,7 @@ Alerts are sent to Sentry and then forwarded to Slack:
 
 #### Metrics
 
-The deployment's [Cloud Run metrics overview page](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz) provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
+The deployment's [Cloud Run metrics overview page](https://console.cloud.google.com/run/detail/us-central1/sams-prod-us-central1/metrics?project=sams-prod-ywuz) provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
 
 ## Development
 
