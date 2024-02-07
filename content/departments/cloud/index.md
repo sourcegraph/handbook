@@ -126,11 +126,13 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 
-#### **Enable Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-cody-request,mi/self-service&projects=&template=managed-instance-configure-cody.yml&title=Configure+Cody+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+#### **Configure Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-cody-request,mi/self-service&projects=&template=managed-instance-configure-cody.yml&title=Configure+Cody+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>
 
 - To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
+- To switch to a different LLM provider for an existing managed instance
+- To disable Cody for an existing managed instance.
 
 #### **Enable custom domain on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/add-custom-domain&template=managed-instances-custom-domain.md&title=Add+custom+domain+to+%5BCUSTOMER%5D+Instance)
 
