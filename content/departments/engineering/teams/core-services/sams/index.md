@@ -87,19 +87,6 @@ To modify the deployment manifest:
 1. Stage changes and make a pull request
 1. The Terraform Cloud rolls out changes
 
-#### Use a different image tag
-
-To specify a Docker image tag other than the default, update the `service.yaml`:
-
-```diff
- - id: prod
-   ...
-   deploy:
-     type: manual
-+    manual:
-+      tag: insiders@sha256:3a7e1c0dd4e0d7e0c6d3e4d7b3a1
-```
-
 #### Re-deploy the same manifest
 
 Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/sams-prod-us-central1?project=sams-prod-ywuz) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
