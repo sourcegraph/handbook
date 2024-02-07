@@ -102,7 +102,7 @@ To specify a Docker image tag other than the default, update the `service.yaml`:
 
 #### Re-deploy the same manifest
 
-Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/sams?project=sams-prod-ywuz) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
+Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/sams-prod-us-central1?project=sams-prod-ywuz) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
 
 ### Observability
 
