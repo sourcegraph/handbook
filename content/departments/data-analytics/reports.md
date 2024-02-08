@@ -69,10 +69,11 @@ We've created a few training videos to help you navigate our Looker project:
 Looker also puts out guides and training videos that may be useful if you're looking for a more general tutorial about using the tool. Here are a few that we like in particular:
 
 - [Looker introduction](https://cloud.google.com/looker/docs/intro)
-- [Find and organize content](https://connect.looker.com/library/video/find-and-organize-content?_ga=2.48790688.703451167.1679794488-276166785.1639170296)
-- [Send alerts and share content](https://connect.looker.com/library/video/sending-and-sharing-content?_ga=2.215891345.703451167.1679794488-276166785.1639170296)
+- [Find and organize content](https://cloud.google.com/looker/docs/find-and-organize-content)
+- [Create an alert](https://cloud.google.com/looker/docs/creating-alerts)
 - [Download data from Looker](https://cloud.google.com/looker/docs/downloading#downloading_data_from_a_dashboard)
-- [Create dashboards](https://connect.looker.com/library/video/create-reports-and-dashboards?_ga=2.11491506.703451167.1679794488-276166785.1639170296) - note that "View" users do not have access to create dashboards content
+- [Create dashboards](https://cloud.google.com/looker/docs/creating-user-defined-dashboards) - note that "View" users do not have access to create dashboards content
+- [Create fields](https://cloud.google.com/looker/docs/custom-fields)
 
 #### **Quick Looker tips and tricks**
 
@@ -84,7 +85,8 @@ Looker also puts out guides and training videos that may be useful if you're loo
 
 ### **Looker developers**
 
-- For best practices for writing LookML, adding new tables to our project, creating content, etc. please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
+- In addition to reviewing the training videos linked above, we recommend all Looker developers review the [LookML Guide](https://cloud.google.com/looker/docs/what-is-lookml) and take Looker's [Understanding LookML in Looker](https://www.cloudskillsboost.google/paths/28) course
+- For best practices for working within our Looker project specifically, please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
 
 ### **Notable reports**
 
