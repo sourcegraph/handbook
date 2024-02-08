@@ -84,3 +84,12 @@ The eng scoping work is the difference between eyeballing a list of requirements
 and hoping we can get them all done and actually having some confidence that
 we can accomplish what we want. And if we can't, we want to know that ASAP so
 we can cut scope for our release.
+
+## Priorities
+
+To make sure we're talking about the same thing as we assign priorities to the
+items in our plans, we've adopted the following convention:
+
+- P0: Committed
+- P1: Stretch
+- P2: Uncommitted
