@@ -2,7 +2,8 @@
 
 <span class="badge badge-note">SOC2/CI-82</span>
 
-Report from [failover test on 28tf of November 2022](https://docs.google.com/document/d/1CfI2m2eZ-dtG1XoPpWEuWm87XJ7m2dbQAG2tOHV74pk/edit)
+Report from [failover test on 28th of November 2022](https://docs.google.com/document/d/1CfI2m2eZ-dtG1XoPpWEuWm87XJ7m2dbQAG2tOHV74pk/edit)
+Report from [disaster recovery test on 30th-31th of January 2024](https://docs.google.com/document/d/16yhTlV_qvZ1tsxYLZteOBwvIV_-R0p5R9rLwTGLaH5w/edit)
 
 ## GKE cluster zone failover
 
@@ -13,8 +14,9 @@ Report from [failover test on 28tf of November 2022](https://docs.google.com/doc
 ```sh
 export ENVIRONMENT=[dev|prod]
 export SLUG=<SLUG>
-export GKE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gkeClusters[0].name')
-export GKE_REGION=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.spec.gcpRegion')
+export GKE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcp.gkeClusters[0].name')
+export GKE_REGION=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcp.region')
+export GCP_PROJECT=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcp.projectId')
 ```
 
 - extract the instance from Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
@@ -44,9 +46,9 @@ kubectl describe node <NODE_FROM_CLUSTER> | grep zone
 - perform zone failover (remove node zone from GKE node locations)
 
 ```sh
-gcloud container node-pools list --cluster $GKE_NAME --region $GKE_REGION
-gcloud container node-pools describe primary --cluster $GKE_NAME --region $GKE_REGION --format json | jq '.locations'
-gcloud container node-pools update primary --cluster $GKE_NAME --region $GKE_REGION --node-locations <DIFFERENT_ZONE_THAN_EXISTING_NODE> --async
+gcloud container node-pools list --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT
+gcloud container node-pools describe primary --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT --format json | jq '.locations'
+gcloud container node-pools update primary --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT --node-locations <DIFFERENT_ZONE_THAN_EXISTING_NODE> --async
 ```
 
 - verify pods were terminated
@@ -86,8 +88,8 @@ Follow the `Backfill instance into control plane` section from the Ops Dashboard
 ```sh
 export ENVIRONMENT=[dev|prod]
 export SLUG=<SLUG>
-export CLOUDSQL_INSTANCE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.cloudSQL[0].name')
-export GCP_PROJECT=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
+export CLOUDSQL_INSTANCE_NAME=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcp.cloudSQL[0].name')
+export GCP_PROJECT=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcp.projectId')
 export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
 ```
 
@@ -110,7 +112,7 @@ gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | g
 mi2 instance edit --jq '.spec.infrastructure.gcp.zone = "'$FAILOVER_ZONE'"' --slug $SLUG -e $ENVIRONMENT
 mi2 generate cdktf -e $ENVIRONMENT --slug $SLUG
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/stacks/sql
-terraform init && terraform apply
+terraform init && terraform apply -auto-approve
 
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT | grep zone
 # should return <FAILOVER_ZONE>
@@ -132,6 +134,7 @@ curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
 mi2 instance sql-backup list --slug $SLUG -e $ENVIRONMENT
 mi2 instance sql-restore create --backup-id $SQL_BACKUP_ID --slug $SLUG -e $ENVIRONMENT
 # wait until ready
+# can check status with command: mi2 instance sql-restore list --slug $SLUG -e $ENVIRONMENT
 gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT
 ```
 
