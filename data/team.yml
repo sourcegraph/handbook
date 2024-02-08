@@ -1741,8 +1741,12 @@ taiyab_raja:
   name: Taiyab Raja
   email: taiyab.raja@sourcegraph.com
   github: taiyab
-  reports_to: code_search_lead
+  pronouns: he/him
   role: Product Designer
+  reports_to: director_design
+  location: Birmingham, England 🇬🇧
+  links: '[Twitter](https://twitter.com/taiyab)'
+  description: 'Taiyab is a product designer fascinated with human behaviour, and loves entrepreneurship and startups. Born and raised in Birmingham. Occasionally dabbles in boxing and video games.'
 
 eric_shamow:
   name: Eric Shamow
