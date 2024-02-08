@@ -72,10 +72,10 @@ Cody data is available in Looker and Amplitude. Below we explain when to use whi
 
 ### Looker
 
-Looker is the source of truth for all shareable Cody KPIs and metrics. You can generally find a lot of charts and dashboards pre-made by the Data and Analyics team here, but you can also feel free to manipulate those pre-made charts as needed, or generate your own! For more details on using looker, see [here](reports.md/#what-is-looker)
+Looker is the source of truth for all shareable Cody KPIs and metrics. You can generally find a lot of charts and dashboards pre-made by the Data and Analyics team here, but you can also feel free to manipulate those pre-made charts as needed, or generate your own! For more details on using looker, see [here](reports.md#what-is-looker)
 
 ### Amplitude
 
-Amplitude contains the same Cody events data that looker does, but has fewer pre-made charts and key KPIs. In general, Amplitude is better used for exploratory analysis, such as investigating funnels and conversion or mapping user journeys. For more details on using Amplitude, see [here](reports.md/#what-is-amplitude)
+Amplitude contains the same Cody events data that looker does, but has fewer pre-made charts and key KPIs. In general, Amplitude is better used for exploratory analysis, such as investigating funnels and conversion or mapping user journeys. For more details on using Amplitude, see [here](reports.md#what-is-amplitude)
 
-If you're SQL savvy and would prefer to query the data directly, check out [Redash](reports.md/#what-is-redash)
+If you're SQL savvy and would prefer to query the data directly, check out [Redash](reports.md#what-is-redash)
