@@ -35,7 +35,6 @@ In order to really get into helpful insights, we need to go a level deeper from 
 
 We will continue to add event tracking as we release new features and expand the insights we want to capture.
 
-
 ## What data will we not collect?
 
 According to our data classification policy, we will not collect:
