@@ -48,4 +48,6 @@ For internal team communication, see:
 
 ## **How to know what we are working on:**
 
-[Analytics team project board](https://github.com/orgs/sourcegraph/projects/396) (Analytics only)
+- [Data team FY25Q1 priorities](https://docs.google.com/document/d/1GKAhAin60a-qejyKaOXjzb2lS92iZ2zbYv1gK6CfWHM/edit)
+- [Analytics team project board](https://github.com/orgs/sourcegraph/projects/396) (Analytics only)
+
