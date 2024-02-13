@@ -17,7 +17,7 @@ By building tools for pro devs to eliminate toil, we’re figuring out how to ma
 
 [More detailed mission and problem statement](https://docs.google.com/document/d/16FRo6n3iyIFupd5A2OtehAvfUo1P2qxQKNYWLpEdEUE/edit)
 
-## Strategy (FY25)
+## [Strategy (FY25)](https://docs.google.com/document/d/1Ju2SwpRCcIAC65kCu60QM8rnsn8YDTmkNAKO5xkl0ZY/edit#heading=h.ev1rhjc47atd)
 
 In FY25 we will help more pro devs code better and faster with a single lovable code intelligence product.
 
