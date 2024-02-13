@@ -1,7 +1,6 @@
 # Sourcegraph strategy
 
 - [Mission](#mission) (long-term): Make it so everyone codes; (short-term) Help pro devs code better and faster.
-  
 - [Strategy](#strategy) (for FY25, this year): We will help more pro devs code better and faster with a single lovable code intelligence product.
 
 ---
@@ -18,16 +17,15 @@ By building tools for pro devs to eliminate toil, we’re figuring out how to ma
 
 [More detailed mission and problem statement](https://docs.google.com/document/d/16FRo6n3iyIFupd5A2OtehAvfUo1P2qxQKNYWLpEdEUE/edit)
 
-
 ## Strategy (FY25)
 
 In FY25 we will help more pro devs code better and faster with a single lovable code intelligence product.
+
 - Build toward one lovable code intelligence product
 - Delight pro devs to win enterprises
 - Narrow our focus
 
-
-Sourcegraph team members can view more internal details about our company strategy in the [MSEM FY25 document](https://docs.google.com/document/d/1Ju2SwpRCcIAC65kCu60QM8rnsn8YDTmkNAKO5xkl0ZY/edit#heading=h.ev1rhjc47atd) and [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products. 
+Sourcegraph team members can view more internal details about our company strategy in the [MSEM FY25 document](https://docs.google.com/document/d/1Ju2SwpRCcIAC65kCu60QM8rnsn8YDTmkNAKO5xkl0ZY/edit#heading=h.ev1rhjc47atd) and [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products.
 
 ## Values
 
