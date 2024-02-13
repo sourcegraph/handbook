@@ -64,20 +64,16 @@ Below is an overview of the **current supported plans** and included features:
    <td><strong>Included Features</strong></td>
   </tr>
   <tr>
-   <td>Code Search</td>
-   <td>Code Search</td>
-  </tr>
-  <tr>
-   <td>Code Intelligence Platform</td>
-   <td>Code Search, Batch Changes, Code Insights</td>
+   <td>Code Search Enterprise</td>
+   <td>Code Search, Batch Changes, Code Insights, Monitoring, Notebooks</td>
   </tr>
   <tr>
    <td>Cody Enterprise</td>
    <td>Cody</td>
   </tr>
   <tr>
-   <td>Code AI Enterprise</td>
-   <td>Code Search, Batch Changes, Code Insights, Cody</td>
+   <td>Code Intelligence Platform</td>
+   <td>Cody, Code Search, Batch Changes, Code Insights, Monitoring, Notebooks</td>
   </tr>
 </table>
 
@@ -97,14 +93,6 @@ Apart from the plan, there are a few additional options that can be added to a l
   <tr>
     <td>Allow air gapped</td>
     <td>Allows offline usage of Sourcegraph with no remote license key validation and telemetry off</td>
-  </tr>
-  <tr>
-    <td>Allow unrestricted Batch Changes</td>
-    <td>Allows the use of more than 10 Batch Changes</td>
-  </tr>
-  <tr>
-    <td>Allow Code Insights</td>
-    <td>Allows use of the Code Insights feature</td>
   </tr>
   <tr>
     <td>Allow disable telemetry export</td>
