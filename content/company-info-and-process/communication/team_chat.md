@@ -1,27 +1,21 @@
 # How we use Slack at Sourcegraph
 
-### Overview
+We use Slack for team chat and real-time announcements. 
 
-We use Slack for team chat and real-time announcements. While Slack isn’t a source of truth, it is an important internal communication tool that helps us stay connected and informed. All teammates are encouraged to join the following company-wide channels to stay informed on news happening across the company. Read on for best practices and processes we follow as a company.
+### Slack retention policy
 
-## Slack Guidelines
-
-### Data retention
-
-Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, we have the following default data retention set:
+Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). Important updates shared in Slack must be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, we have the following default data retention set:
 
 - **DMs:** 18 months retention
 - **Private channels:** 18 months retention
 - **Public channels:** 18 months retention
 - **Support & Trial channels:** 5 years retention
 
-### Retention exceptions
+#### Retention exceptions
 
-Channel retention exception can be requested in #ask-it-tech-ops and will be reviewed/approved on a case-by-case basis by VP of Talent & People and VP of Operations.
+Channel retention exceptions can be requested in #ask-it-tech-ops and will be reviewed/approved on a case-by-case basis by VP of Talent & People and VP of Operations. Exception requests must satisfy **at least one** of the below requirements:
 
-Your channel exception request must satisfy at **least one** of the below requirements in order to be considered for a retention exception:
-
-- **Strategic Importance:** When a Slack channel serves a strategic purpose, such as for key customer or strategic accounts.
+- **Strategic Importance:** When a Slack channel serves a strategic purpose, such as for key customers or strategic accounts.
 - **Business Necessity:** When extended retention is required to meet critical business needs.
 - **Low Data Sensitivity:** If the data in a channel is not highly sensitive and doesn't require strict retention periods but is static data (long lived) and valuable to operational efficiency and success.
 - **Completed Channels:** For channels that have completed their primary function but hold valuable historical information.
@@ -29,9 +23,9 @@ Your channel exception request must satisfy at **least one** of the below requir
 
 <sub>**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 18 months rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** </sub>
 
-### Naming conventions
+### Channel naming conventions
 
-To help with navigation and discoverability, follow these naming conventions for channels. If you find a channel that does not follow these, request to rename it in #ask-it-tech-ops.
+Follow these naming conventions to help with discoverability. Channels can be re-named by submitting a request in #ask-it-tech-ops.
 
 <table>
   <tr>
@@ -43,6 +37,13 @@ To help with navigation and discoverability, follow these naming conventions for
    </td>
   </tr>
   <tr>
+   <td>#announce-
+   </td>
+   <td>For important announcements your team needs to know. Note these channels have limited posting permissions, reach out to the channel manager to request access to post.
+   </td>
+   <td>#announce-company, #announce-sales, #announce-eng
+   </td>
+  </tr>
    <td>#team-
    </td>
    <td>For teams to coordinate work and activities among themselves. Strict channel membership for only people on that team.
@@ -53,17 +54,9 @@ To help with navigation and discoverability, follow these naming conventions for
   <tr>
    <td>#discuss-
    </td>
-   <td>To discuss topics related to that department or team.
+   <td>To discuss topics related to that department or team. Open to any teammate interested in that topic.
    </td>
    <td>#discuss-sales, #discuss-marketing
-   </td>
-  </tr>
-  <tr>
-   <td>#announce-
-   </td>
-   <td>For important announcements your team needs to know. Note these channels have limited posting permissions, reach out to the channel manager to request access to post.
-   </td>
-   <td>#announce-company, #announce-sales, #announce-eng
    </td>
   </tr>
   <tr>
@@ -130,13 +123,6 @@ To help with navigation and discoverability, follow these naming conventions for
    <td>#chat-book, #chat-chess, #chat-cars, #chat-clothes
    </td>
   </tr>
-  <tr>
-   <td>#job-fair
-   </td>
-   <td>For in-flight projects that are part of the Product Planning program.
-   </td>
-   <td>#job-fair-own, #job-fair-ranking
-   </td>
   </tr>
 </table>
 
@@ -166,9 +152,9 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td>#announce-it-tech-ops
+   <td><a href="https://sourcegraph.slack.com/archives/C04MEMRH35Y">#announce-it-tech-ops
    </td>
-   <td>
+   <td> Important announcements from the Tech Ops team
    </td>
   </tr>
   <tr>
@@ -208,45 +194,98 @@ Messages here are applicable to 75% of the company and posting permissions are l
   </tr>
 </table>
 
-## Slack best practices
+## Slack guidelines
 
-### Keep you profile up to date and easy to find
+### Keep your profile up to date
 
-Help your teammates learn more about you by completing your profile. As you fill out your profile, don't forget to upload a profile photo. Your photo makes it easier for your teammates to know who you are in Slack. All teammates should add the following to their profile:
+All teammates should add the following to their profile:
 
 - Full name: First and Last Name
 - Display name: First and Last Name
 - Title: Your role at Sourcegraph
 - Time zone: Keep this up to date so teammates know when to reach you
-
-_Consider also adding:_
-
 - Pronouns
-- Name recording
-- Name pronunciation
+- Name recording/pronunciation (optional)
 
-### Set a channel description and conversation topic
+### Set a channel description 
 
-When you create a Slack channel (regardless of if it's public or private) you should add a description to your conversations to let people know what kind of information they can expect to find there.
+When you create a Slack channel (regardless of if it's public or private) you should add a description for the channel to let people know what kind of information they can expect to find there.
 
-Any member of a channel can add or edit a description or topic to let people know what the channel is used for and what is currently being discussed. Descriptions are visible when viewing channel details, or when searching for channels on your desktop. Topics are visible in the conversation header.
+### Set a channel manager
 
-### Send short messages in announcement channels
+Every channel should name a channel manager so there is a clear owner responsible for keeping the channel organized. You can view channel managers by clicking on the channel name, then "about".
 
-As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels.
+### Send short messages
 
-**Please follow these guidelines if you need to share a message in an announcement channel.**
+As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels because those channels need to maintain a high signal to noise ratio. See [announce channel guidelines](##Announce-channel-guidelines)
 
-1.  Draft a short message that quickly gets to the point. This should be no more than a few lines of text that describe what the announcement is and who it impacts. If you have additional details that don't fit into the top-line announcement message plan to include those in a threaded reply. [Here's a great example of what an effective announcement looks like](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1706903107950019).
+### Use emoji reactions
 
-2.  _If you have access to post in the intended announcement channel already:_
-    - Go ahead and post that short message.
-    - Be open to feedback as somebody may see an opportunity to make your announcement even clearer.
-3.  _If you do **not** have access to post in the intended announcement channel:_
-    - Click on the channel name to pull up the "about" info.
-    - Identify who the channel manager is and share your announcement draft with them via a DM. Most channels should have more than one channel manager listed. If you cannot reach either manager, a request for posting access can be shared in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
-    - Be clear about whether you would like to request access to post, or if you are OK with them posting on your behalf.
-    - The channel manager will share any revisions with you to make the message as effective as possible and ensure the message is shared (either by granting you access or sharing for you).
+An emoji reaction can sometimes replace the need for a follow-up message and emojis show the poster that you saw their message.  
+
+#### Note on custom emoji
+
+Teammates can upload their own custom emoji to our Slack Workspace. Please keep in mind that rapidly changing or flashing emojis may not be friendly for teammates who are [impacted by photosensitivity or susceptible to seizures](https://www.reddit.com/r/Epilepsy/comments/jzmjdx/seizure_inducing_emojis/).
+
+If you spot a custom emoji that may be a bit too animated, report it to #ask-it-tech-ops so it can be removed.
+
+### Use threads to organize discussions and reduce noise
+
+Threads help you create organized discussions around specific messages. They let you discuss a topic in more detail without adding clutter to a channel or direct message (DM) conversation.
+
+When a thread reaches a point where a decision is made, communicate that decision back to the channel by using the “also send to #channel” button.
+
+If you need to start a new topic of conversation, post directly in the channel to start a new thread.
+
+### Default to public channels
+
+Sourcegraph is an all remote and asynchronous-first company, and we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn. If you receive a DM that should be shared in a public channel, ask that person to re-send the message with a broader audience. The [forward message](https://slack.com/help/articles/203274767-Forward-messages-in-Slack#:~:text=Tap%20Send.-,Tap%20and%20hold%20the%20message%20you'd%20like%20to%20share,icon%20to%20send%20your%20message.) feature allows you to share private DMs in a public channel.
+
+#### Private channels will automatically be created for the following categories of conversations:
+
+- Recruiting: Channels used for discussing specific positions where private candidate feedback and details will be discussed.
+- Management: Channels where managers can communicate about specific private or sensitive team situations.
+- Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
+- Affinity groups: Channels for affinity groups that prefer a private space.
+
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #ask-it-tech-ops to make a channel private.
+
+### Organize Slack for your workflow
+
+To help you keep track of important conversations, you can star a channel or direct message (DM). Starred conversations appear in the Starred section of your sidebar. You can also organize your channels,DMs, and apps into custom sections within your sidebar. Your custom sections are only visible to you. [Watch this video for a few examples.](https://slack.com/help/articles/4411352432275-Video--Organize-your-conversations-in-Slack)
+
+### Send (and read) messages any time
+
+Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [flexible work hours](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
+
+In turn, you are free to read your message whenever it is convenient for you. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
+
+
+### Archive old and unused channels
+
+To keep the Sourcegraph Slack workspace up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, then archive the channel. Archived channels can always be undone and the information in them remains discoverable.
+
+## Announce channel guidelines
+
+Announce channels uplevel the _most important information_ for your intended audience. 
+
+- Send short messages that get to the point quickly.
+- Share relevant follow-up details in the thread of your announcement.
+- As a general rule of thumb, the information shared in department-specific announce channels should be relevant to the _teammates in that department_.
+- If your announcement is relevant to another team (aka it impacts their work) share the announcement with the leader of that team so they can forward the information to the right people.
+- If an announcement impacts the majority of the company (3 or more teams) it probably belongs in [#announce-company](https://sourcegraph.slack.com/archives/C02FSM7DU). 
+  
+#### If you do *not* have access to post in an announce channel, follow these steps:
+
+- Draft a short message that quickly gets to the point.
+  - This should be no more than a few lines of text. If you have additional details that don't fit into the top-line announcement include those in a threaded reply. [Here's a great example of what an effective announcement looks like](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1706903107950019).
+- Click on the channel name to pull up the "about" info.
+- Identify who the channel manager is and share your announcement draft with them via a DM.
+  - Most channels should have more than one channel manager listed. If you cannot reach either manager, a request for posting access can be shared in [#ask-it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
+- Be clear about whether you would like to request access to post, or if you are OK with the channel manager posting on your behalf.
+- The channel manager will share any revisions with you to make the message as effective as possible and ensure the message is shared (either by granting you access or sharing for you).
+
+#### FAQs
 
 **Q: What qualifies as an announcement**
 Announcements should be relevant to all or most members of the channel and generally convey information that is either urgent (requires attention/action) or important (has an impact on the audience). If it doesn’t meet these criteria, it may be better suited for a smaller audience or a different channel (like a #discuss channel). When in doubt, ask the channel manager!
@@ -256,58 +295,6 @@ Messages sent in announce channels should be clear, concise, and to the point. A
 
 **Q: How often should announcements be shared?**
 There’s no one-size-fits-all approach here. Just be mindful of the frequency of announcements because too many messages can lead to information overload, causing important updates to be missed or ignored.
-
-### Use emoji reactions to reduce the noise in Slack
-
-An emoji reaction can often replace the need for a follow-up message. You can hover over or tap and hold reactions in a conversation to see who added them. We use the following emojis at Sourcegraph to quickly acknowledge and respond to requests in Slack.
-
-- `Ack` = I acknowledge I’ve seen this. Action not needed.
-- 👀 = I’ve seen it, I’m reviewing it
-- ✅ = I’ve seen it, my action is complete
-- 👍 = I agree
-
-#### Custom emoji
-
-All teammates are able to upload their own custom emoji to our Slack Workspace. When adding a new animated emoji, keep in mind that rapidly changing or flashing emoji, such as the iconic party parrot, may not be friendly for teammates who are [impacted by photosensitivity or susceptible to seizures](https://www.reddit.com/r/Epilepsy/comments/jzmjdx/seizure_inducing_emojis/).
-
-If you spot a custom emoji that may be a bit too animated, report it to #ask-it-tech-ops so it can be removed.
-
-### Use threads to organize discussions and reduce noise
-
-Threads help you create organized discussions around specific messages. They let you discuss a topic in more detail without adding clutter to a channel or direct message (DM) conversation.
-
-When a thread reaches a point where a decision is made and that information would be useful to the entire channel, be sure to communicate that decision back to the channel by using the “also send to #channel” button.
-
-If you need to start a new topic of conversation, post directly in the channel to start a new thread.
-
-### Default to Public channels
-
-Sourcegraph is an all remote and asynchronous-first company, and we work out in the open via public channels to help teammates stay informed. Default to using public channels and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn. If you receive a DM that should be shared in a public channel, ask that person to re-send the message with a broader audience. The [forward message](https://slack.com/help/articles/203274767-Forward-messages-in-Slack#:~:text=Tap%20Send.-,Tap%20and%20hold%20the%20message%20you'd%20like%20to%20share,icon%20to%20send%20your%20message.) feature allows you to share private DMs in a public channel.
-
-Private channels will automatically be created for the following categories of conversations:
-
-- Recruiting: Channels used for discussing specific positions where private candidate feedback and details will be discussed.
-- Management: Channels where managers can communicate about specific private or sensitive team situations.
-- Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
-- Affinity groups: Channels for affinity groups that prefer a private space.
-
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #ask-it-tech-ops to make a channel private.
-
-### Organize Slack to make it work for you
-
-To help you keep track of important conversations, you can star a channel or direct message (DM). Starred conversations appear in the Starred section of your sidebar. You can also organize your channels, direct messages (DMs), and apps into custom sections within your sidebar. Your custom sections are only visible to you and won't affect what your teammates see, so set them up however you’d like. [Watch this video for a few examples.](https://slack.com/help/articles/4411352432275-Video--Organize-your-conversations-in-Slack)
-
-### Send (and read) messages any time
-
-Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [flexible work hours](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
-
-In turn, you are free to read your message whenever it is convenient for you. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
-
-Make sure to set up Slack to only send you notifications when you want to see them!
-
-### Archive old and unused channels
-
-To keep the Sourcegraph workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
 
 ## Channel lists by department
 
