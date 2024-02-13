@@ -125,7 +125,7 @@ YAMLException: bad indentation of a mapping entry (19:21)
 
 ### YAML Data Validation Errors on 'reports_to' slug
 
-If you get an error on the 'reports_to' slug, it is likely that your manager hasn't declared their 'manager_role_slug'.
+If you get an error on the 'reports_to' slug when adding yourself to the Team page, it is likely that your manager hasn't declared their 'manager_role_slug'.
 
 1. Find the entry for the person you're reporting to
 2. Take note of their manager_role_slug
