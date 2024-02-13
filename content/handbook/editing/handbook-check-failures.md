@@ -124,13 +124,14 @@ YAMLException: bad indentation of a mapping entry (19:21)
 ```
 
 ### YAML Data Validation Errors on 'reports_to' slug
+
 If you get an error on the 'reports_to' slug, it is likely that your manager hasn't declared their 'manager_role_slug'.
 
 1. Find the entry for the person you're reporting to
 2. Take note of their manager_role_slug
 3. If they don't have a manager_role_slug, just also edit their entry to add your manager slug. Do this by typing: "manager_role_slug: X"
 4. Put that X value under the reports_to on your entry
-   
+
 ### YAML schema validation errors
 
 It's also possible for the YAML schema validation job to fail. This will result in a log like the following:
