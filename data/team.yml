@@ -1818,3 +1818,15 @@ james_mcnamara:
   location: San Francisco, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/james-mac/)'
   description: James has been in the SF bay area for coming up on a decade after escaping the East Coast. He has a slew of mathematical and computer science tattoos and is always looking for an amazing proof or elegant functional programming theorem as inspiration for the next. He loves to run, hike, camp and generally be outdoors.
+
+
+tobi_rydlewicz:
+  name: Tobi Rydlewicz
+  email: tobi.rydlewicz@sourcegraph.com
+  github: tobiryd
+  pronouns: he/him
+  role: Data & Analytics Analyst
+  reports_to: analytics_manager
+  location: London, UK 🇬🇧
+  links: '[LinkedIn](https://www.linkedin.com/in/tobiryd/)'
+  description: Tobi grew up between Brussels and Toronto. Prior to Sourcegraph, Tobi worked at the intersection of product and data within early-stage startups. He's passionate about solving problems and driving actionable insights to grow smarter. He loves soccer, hiking, backpacking and electronic music.
