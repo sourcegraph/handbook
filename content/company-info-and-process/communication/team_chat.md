@@ -1,6 +1,6 @@
 # How we use Slack at Sourcegraph
 
-We use Slack for team chat and real-time announcements. 
+We use Slack for team chat and real-time announcements.
 
 ### Slack retention policy
 
@@ -207,7 +207,7 @@ All teammates should add the following to their profile:
 - Pronouns
 - Name recording/pronunciation (optional)
 
-### Set a channel description 
+### Set a channel description
 
 When you create a Slack channel (regardless of if it's public or private) you should add a description for the channel to let people know what kind of information they can expect to find there.
 
@@ -221,7 +221,7 @@ As a general rule of thumb, Slack messages should be **kept short and to the poi
 
 ### Use emoji reactions
 
-An emoji reaction can sometimes replace the need for a follow-up message and emojis show the poster that you saw their message.  
+An emoji reaction can sometimes replace the need for a follow-up message and emojis show the poster that you saw their message.
 
 #### Note on custom emoji
 
@@ -260,22 +260,21 @@ Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [
 
 In turn, you are free to read your message whenever it is convenient for you. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
 
-
 ### Archive old and unused channels
 
 To keep the Sourcegraph Slack workspace up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, then archive the channel. Archived channels can always be undone and the information in them remains discoverable.
 
 ## Announce channel guidelines
 
-Announce channels uplevel the _most important information_ for your intended audience. 
+Announce channels uplevel the _most important information_ for your intended audience.
 
 - Send short messages that get to the point quickly.
 - Share relevant follow-up details in the thread of your announcement.
 - As a general rule of thumb, the information shared in department-specific announce channels should be relevant to the _teammates in that department_.
 - If your announcement is relevant to another team (aka it impacts their work) share the announcement with the leader of that team so they can forward the information to the right people.
-- If an announcement impacts the majority of the company (3 or more teams) it probably belongs in [#announce-company](https://sourcegraph.slack.com/archives/C02FSM7DU). 
-  
-#### If you do *not* have access to post in an announce channel, follow these steps:
+- If an announcement impacts the majority of the company (3 or more teams) it probably belongs in [#announce-company](https://sourcegraph.slack.com/archives/C02FSM7DU).
+
+#### If you do _not_ have access to post in an announce channel, follow these steps:
 
 - Draft a short message that quickly gets to the point.
   - This should be no more than a few lines of text. If you have additional details that don't fit into the top-line announcement include those in a threaded reply. [Here's a great example of what an effective announcement looks like](https://sourcegraph.slack.com/archives/C04MZPE4JKD/p1706903107950019).
