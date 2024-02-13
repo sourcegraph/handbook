@@ -386,6 +386,7 @@ kelsey_brown:
   pronouns: she/her
   role: Analytics manager
   reports_to: vp_operations
+  manager_role_slug: data_analytics_manager
   location: Washington, DC, USA 🇺🇸
   github: kelsey-brown
   email: kelsey@sourcegraph.com
@@ -1825,7 +1826,7 @@ tobi_rydlewicz:
   github: tobiryd
   pronouns: he/him
   role: Data & Analytics Analyst
-  reports_to: vp_operations
+  reports_to: data_analytics_manager
   location: London, UK 🇬🇧
   links: '[Linkedin](https://www.linkedin.com/in/tobiryd/)'
   description: Tobi grew up between Brussels and Toronto. Prior to Sourcegraph, Tobi worked at the intersection of product and data within early-stage startups. He's passionate about solving problems and driving actionable insights to be more efficient and grow smarter. He loves active sports (especially soccer & a die-hard Chelsea fan), hiking, backpacking and electronic music.
