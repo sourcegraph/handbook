@@ -3,7 +3,7 @@
 This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
 On-prem-to-Cloud data migrations are currently owned by [Implementation Engineering](../../../technical-success/ie/index.md), but the process is documented in Cloud as it pertains to Cloud infrastructure.
 
-**The on-prem-to-Cloud data migration process described here will result in the full restore/ overwriting of the Cloud v2 instance to the state of the customer's on-prem instance.** This process is intended to be performed immediately following the provisioning of a new Cloud v2 instance. If a migration is planned for a newly provisioned Cloud v2 instance, TAs are recommended to not hand over access to the Cloud v2 instance to the customer until the migration is complete.
+**The on-prem-to-Cloud data migration process described here will result in the full restore/ overwriting of the Cloud v2 instance to the state of the customer's on-prem instance.** This process is intended to be performed immediately following the provisioning of a new Cloud instance. If a migration is planned for a newly provisioned Cloud v2 instance, TAs should communicate that data loss will occur for any actions performed in the Cloud instance prior to the migration.
 
 **Note:** This process is an "all-or-nothing" data migration. There is no way to partially or selectively migrate certain aspects of a customer's on-prem Sourcegraph instance's data (e.g., only Batch Changes execution history or certain Code Insights)
 
@@ -36,9 +36,12 @@ First, the operator must [create an instance](./creation_process.md) with the co
 1. In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository, copy the `template/` directory, naming it corresponding to the customer.
 
 - Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented.
+- Replace `$CLOUD_SQL_IAM` with the unique identifier of the Cloud SQL service account in `template/resources/terraform.tfvars`
+  - Visit [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod), locate the target Cloud instance, and request access to Cloud infra via the provided Entitle link
+  - Once access is granted, look up the service account IAM shown in the [Cloud SQL instance overview page](https://console.cloud.google.com/sql/instances) under "Service account", and update the value specified in `template/resources/terraform.tfvars` accordingly
 - Commit your changes, open a pull request in `cloud-data-migrations`, and merge the changes after review.
 
-2. In the [`infrastructure`](https://github.com/sourcegraph/infrastructure) repository, create Terraform Cloud workspaces for the migration resources in [`sourcegraph/infrastructure/terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
+2. In the [`infrastructure`](https://github.com/sourcegraph/infrastructure) repository, create Terraform Cloud workspaces for the migration resources in [`terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
 
 ```terraform
 #### $CUSTOMER
