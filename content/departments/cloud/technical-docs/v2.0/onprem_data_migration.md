@@ -81,7 +81,7 @@ module "cloud-data-migration-resources-$CUSTOMER" {
 
 4. In Terraform Cloud, make sure that the `-project` & `-resource` workspaces are created by running the `terraform-cloud` workspace (if necessary). Next schedule a run for the created `-project` workspace. Once that run succeeds, do the same for the created `-resources` workspace.
 
-5. Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. Outputs can be retrieved from the local Terraform state of `cloud-data-migration/{$customer}/resources/`:
+5. Once `-resources` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. Outputs can be retrieved from the local Terraform state of `cloud-data-migration/{$customer}/resources/`:
 
 ```sh
 terraform init
