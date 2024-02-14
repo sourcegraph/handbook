@@ -352,10 +352,10 @@ Q. **What if a Teammate recently transferred in from another team or the Manager
 
 Q. **I had multiple managers during this review period, what is the best way to ensure my impact and work is properly reviewed?**
 
-- We do our best to limit manager changes, but sometimes a teammate has multiple managers in a quarter. While your current manager will be the one to write the review, they will leverage multiple sources to ensure all your work is captured in your impact review score. 
-  - 1. We expect them to talk to your past manager to gain feedback. You can also add past managers as a reviewer. 
+- We do our best to limit manager changes, but sometimes a teammate has multiple managers in a quarter. While your current manager will be the one to write the review, they will leverage multiple sources to ensure all your work is captured in your impact review score.
+  - 1. We expect them to talk to your past manager to gain feedback. You can also add past managers as a reviewer.
   - 2. [Monthly check-ins](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) captures all feedback from the entire quarter.
-   
+
 Q. **Do we have a way to capture accomplishments throughout the quarter?**
 
 - Teammates have tools in Lattice to keep records of their accomplishments.
