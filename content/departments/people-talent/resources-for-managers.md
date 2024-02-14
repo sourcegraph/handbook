@@ -51,7 +51,6 @@
   - How to run a report
   - [Requesting changes in BambooHR (compensation, role, spot bonuses)](people-ops/process/compensation-and-leveling/compensation-role-changes.md)
 - Compensation & Leveling
-  - [How to give a merit increase](people-ops/process/compensation-and-leveling/index.md)
   - [Offers](people-ops/process/compensation-and-leveling/index.md)
   - [Approvals](people-ops/process/compensation-and-leveling/index.md)
 - Performance coaching
