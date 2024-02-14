@@ -114,7 +114,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
-- [Mental health resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
+- [Mental health resources](total-rewards/mental-health.md)
 
 ### How we measure culture
 
