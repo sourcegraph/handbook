@@ -77,25 +77,24 @@ module "cloud-data-migration-resources-$CUSTOMER" {
 }
 ```
 
-Commit your changes, open a pull request in `infrastructure`, and merge the changes after review.
+3. Commit your changes, open a pull request in `infrastructure`, and merge the changes after review.
 
-3. Make sure that your Terraform Cloud workspaces are created, then schedule a run for the created `-project` workspace. Once that succeeds, do the same for the created `-resources` workspace.
+4. In Terraform Cloud, make sure that the `-project` & `-resource` workspaces are created by running the `terraform-cloud` workspace (if necessary). Next schedule a run for the created `-project` workspace. Once that run succeeds, do the same for the created `-resources` workspace.
 
-4. Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. [Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
-
-- `snapshot_bucket_name`
-- `writer_service_account_key`
-
-Outputs can also be retrieved from the Terraform state of `resources/`:
+5. Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. Outputs can be retrieved from the local Terraform state of `cloud-data-migration/{$customer}/resources/`:
 
 ```sh
-cd resources/
 terraform init
 # Bucket name
 terraform output -json | jq -e -r .snapshot_bucket_name.value
 # Credentials, sent to file
 terraform output -json | jq -e -r .writer_service_account_key.value > credential.json
 ```
+
+[Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
+
+- `snapshot_bucket_name`
+- `writer_service_account_key`
 
 ## Collect snapshot contents from customer's on-prem instance
 
