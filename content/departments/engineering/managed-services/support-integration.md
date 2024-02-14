@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-30 00:36:07.190559 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/5c3790bfdd225d7ce3ccf5dd8818a3f58d85aba2
+Last updated: 2024-02-14 14:10:05.332266 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/f14ec3c2c276bd9935fccb46a9cd73a013a4bbfe
 -->
 
 This document describes operational guidance for Support Integration infrastructure.
@@ -14,8 +14,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                           DETAILS                                                            |
+|--------------|------------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | [`support-integration`](https://github.com/sourcegraph/managed-services/blob/main/services/support-integration/service.yaml) |
 | Owners       | **Customer Support**                                                                                                         |
 | Service kind | Cloud Run service                                                                                                            |
@@ -27,8 +27,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY       | DETAILS                                                                                                       |
-| -------------- | ------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                                    DETAILS                                                    |
+|----------------|---------------------------------------------------------------------------------------------------------------|
 | Project ID     | [`support-integration-prod-549b`](https://console.cloud.google.com/run?project=support-integration-prod-549b) |
 | Category       | **internal**                                                                                                  |
 | Resources      |                                                                                                               |
@@ -39,8 +39,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                ENTITLE REQUEST TEMPLATE                                                                                                                                                                |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiNzg0M2MxYWYtYzU2MS00ZDMyLWE3ZTAtYjZkNjY0NDM4MzAzIiwidGhyb3VnaCI6Ijc4NDNjMWFmLWM1NjEtNGQzMi1hN2UwLWI2ZDY2NDQzODMwMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 | GCP project write access | [Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZTEyYTJkZDktYzY1ZC00YzM0LTlmNDgtMzYzNTNkZmY0MDkyIiwidGhyb3VnaCI6ImUxMmEyZGQ5LWM2NWQtNGMzNC05ZjQ4LTM2MzUzZGZmNDA5MiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -50,8 +50,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Support Integration prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                                    |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|   PROPERTY   |                                                                                                                                                                  DETAILS                                                                                                                                                                   |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console      | [Cloud Run service](https://console.cloud.google.com/run?project=support-integration-prod-549b)                                                                                                                                                                                                                                            |
 | Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=support-integration-prod-549b) |
 
@@ -69,7 +69,7 @@ You may want to check your service environment's TFC workspaces if a Terraform a
 
 > [!NOTE]
 > If you are looking for service logs, see the [prod Cloud Run](#prod-cloud-run) section instead. In general:
->
+> 
 > - check service logs ([prod Cloud Run](#prod-cloud-run)) if your service has gone down or is misbehaving
 > - check TFC workspaces for infrastructure provisioning or configuration issues
 
