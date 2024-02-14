@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-30 00:36:07.188701 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/5c3790bfdd225d7ce3ccf5dd8818a3f58d85aba2
+Last updated: 2024-02-14 14:10:05.330801 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/f14ec3c2c276bd9935fccb46a9cd73a013a4bbfe
 -->
 
 This document describes operational guidance for Sourcegraph Accounts infrastructure.
@@ -86,11 +86,11 @@ sg msp pg connect -write-access sams dev
 
 #### dev BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                                                                                                                                |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dataset Project | `sams-dev-bfec`                                                                                                                                                                                                                        |
-| Dataset ID      | `sams`                                                                                                                                                                                                                                 |
-| Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json) |
+| PROPERTY        | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dataset Project | `sams-dev-bfec`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Dataset ID      | `sams`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json), [`cody_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/cody_events.bigquerytable.json), [`subscription_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/subscription_events.bigquerytable.json) |
 
 #### dev Terraform Cloud
 
@@ -178,11 +178,11 @@ sg msp pg connect -write-access sams prod
 
 #### prod BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                                                                                                                                |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dataset Project | `sams-prod-ywuz`                                                                                                                                                                                                                       |
-| Dataset ID      | `sams`                                                                                                                                                                                                                                 |
-| Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json) |
+| PROPERTY        | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dataset Project | `sams-prod-ywuz`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Dataset ID      | `sams`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json), [`cody_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/cody_events.bigquerytable.json), [`subscription_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/subscription_events.bigquerytable.json) |
 
 #### prod Terraform Cloud
 

@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-30 00:36:07.181821 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/5c3790bfdd225d7ce3ccf5dd8818a3f58d85aba2
+Last updated: 2024-02-14 14:10:05.324278 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/f14ec3c2c276bd9935fccb46a9cd73a013a4bbfe
 -->
 
 This document describes operational guidance for Cloud Ops Dashboard infrastructure.
