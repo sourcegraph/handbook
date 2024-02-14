@@ -10,6 +10,9 @@
 ### How to Calculate the Invoice Amount
 
 - Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of purchase. (Do not use the Veem currency converter.)
+- NOTE: If the the currency in your contract is in USD the Airbase will do the automatic conversion of salary into the desired currency which might cost you roughly(1.5% or more in conversion fees). In that case you have 2 options 
+  A. Ask people team to convert the contract to your desired currency(Its possible to do that for some currencies)
+  B. Setup a US account and receive payments free from any conversion fee in the USD account
 - Your monthly invoice amount depends on whether you work a full month or a partial month.
   - **Full month**: to find your monthly invoice amount, refer to your contract, which should state the monthly rate (or take your annual pay and divide it by 12 to arrive at the monthly amount). Most months are full months, including when you take PTO or when there are holidays.
   - **Partial month**: use the formula below to prorate partial months. Partial months happen, for example, if your contract starts in the middle of a month.
