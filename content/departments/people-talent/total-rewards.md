@@ -15,7 +15,7 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 You can view your total rewards package in your Assemble profile. Follow the directions here.
 
-## **Compensation **
+## **Compensation**
 
 We pay competitively in order to attract the best possible talent to Sourcegraph and reward Teammates for the work that they do. We are committed to keeping compensation competitive, merit-based, and non-discriminatory, to make sure all Teammates have a financial stake in the success of Sourcegraph and that contributions are rewarded.
 
