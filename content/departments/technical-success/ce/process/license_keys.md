@@ -6,7 +6,7 @@ This page explains how to create and maintain license keys for prospects and cus
   - [Accessing Site Admin](#accessing-site-admin)
   - [License Key Mechanics](#license-key-mechanics)
   - [Plans](#plans)
-  - [License Key Tags](#feature-tags)
+  - [Additional Options](#additional-options)
 - [License Management Processes](#license-management-processes)
   - [Prospective Customer Trials](#prospective-customer-trials)
   - [Handling multiple instances for a single customer](#multiple-customer-instances)
@@ -61,173 +61,44 @@ Below is an overview of the **current supported plans** and included features:
 <table>
   <tr>
    <td><strong>Plan Name</strong></td>
-   <td><strong>Plan Tag</strong></td>
    <td><strong>Included Features</strong></td>
   </tr>
   <tr>
-   <td>Enterprise</td>
-   <td>enterprise-1</td>
-   <td> ACLs (background permissions syncing), Explicit Permissions API (API access for setting repo permissions), SSO (allow non-builtin auth to be used), Private Repositories, SCIM (user management), Batch Changes (unlimited changesets), Code Monitors, Notebooks</td>
+   <td>Code Search Enterprise</td>
+   <td>Code Search, Batch Changes, Code Insights, Monitoring, Notebooks</td>
   </tr>
   <tr>
-   <td>Enterprise (Airgapped)</td>
-   <td>enterprise-air-gap-0</td>
-   <td> Includes all of the same features as Enterprise-1 above but allows explicit ability to operate offline. Advanced approval required!</td>
+   <td>Cody Enterprise</td>
+   <td>Cody</td>
   </tr>
-    <tr>
-   <td>Free</td>
-   <td>free-1</td>
-   <td> For new Free plan (from 4.5 onwards). We should not generate licenses with this plan. This is simply a fallback method.</td>
+  <tr>
+   <td>Code Intelligence Platform</td>
+   <td>Cody, Code Search, Batch Changes, Code Insights, Monitoring, Notebooks</td>
   </tr>
 </table>
 
-You can read more about legacy plans [below](#legacy-plans).
+#### Additional Options
 
-#### Feature Tags
-
-As mentioned above our plans include a standard feature-set; however, you may need to manually add tags to include additional features. This sections provides an overview of current feature tags.
+Apart from the plan, there are a few additional options that can be added to a license key, depending on the license type.
 
 <table>
   <tr>
-   <td><strong>Feature</strong></td>
-   <td><strong>Tag</strong></td>
-   <td><strong>Description</strong></td>
+    <td><strong>Option</strong></td>
+    <td><strong>Description</strong></td>
   </tr>
   <tr>
-   <td>Hard cap</td>
-   <td> </td>
-   <td> Hard cap is our default; no tag is required. This means the user limit is a hard, capped limit.</td>
+    <td>TrueUp</td>
+    <td>Allows the instance to go over the user hard cap and be billed based on monthly usage</td>
   </tr>
   <tr>
-   <td>Soft Cap</td>
-   <td>true-up</td>
-   <td> Allows the customer to go over their user limit on the license (soft cap). When this tag appears on a license key, it overrides the default hard cap behavior and allows user counts to exceed the license.</td>
+    <td>Allow air gapped</td>
+    <td>Allows offline usage of Sourcegraph with no remote license key validation and telemetry off</td>
   </tr>
   <tr>
-   <td>MAU Plan</td>
-   <td>mau</td>
-   <td> For companies on a monthly usage-based billing model. NOTE: For any MAU-based customers, the `true-up` tag must also be added as we do not have the ability to hard-cap MAU-based plans.</td>
-  </tr>
-  <tr>
-   <td>Trial</td>
-   <td>trial</td>
-   <td> Indicates that this license key is for a trial instance.</td>
-  </tr>
-  <tr>
-   <td>Development Environment</td>
-   <td>dev</td>
-   <td> Indicates that this license key is for a lower-level development environment. Does not affect contractual agreement; however, as a best practice, limit the seat count to 20 users.</td>
-  </tr>
-  <tr>
-   <td>QA Environment</td>
-   <td>qa</td>
-   <td> Indicates that this license key is for a lower-level QA environment. Does not affect contractual agreement; however, as a best practice, limit the seat count to 20 users.</td>
-  </tr>
-  <tr>
-   <td>Internal Environment</td>
-   <td>internal</td>
-   <td> Indicates that this license key is used for internal sites (dotcom, k8s, etc.) within Sourcegraph</td>
+    <td>Allow disable telemetry export</td>
+    <td>Disables telemetry events export EXCEPT for Cody-related events, which we are always allowed to export as part of our Cody usage terms. To completely disable telemetry, allow air gapped usage</td>
   </tr>
 </table>
-
-You can read more about legacy feature tags [below](#legacy-feature-tags).
-
-#### Legacy Plans
-
-You may come across legacy licenses associated to legacy plans. Previously no-longer-used, legacy plans you may encounter are:
-
-<table>
-  <tr>
-   <td><strong>Plan Name</strong></td>
-   <td><strong>Plan Tag</strong></td>
-   <td><strong>Included Features</strong></td>
-  </tr>
-  <tr>
-   <td>Enterprise Starter (legacy)</td>
-   <td>old-starter-0</td>
-   <td> This is a legacy tag that was used for "Enterprise Starter" plans.</td>
-  </tr>
-  <tr>
-   <td>Enterprise (legacy)</td>
-   <td>old-enterprise-0</td>
-   <td> This is a legacy tag that was used for Enterprise plans.</td>
-  </tr>
-  <tr>
-   <td>Team (legacy)</td>
-   <td>team-0</td>
-   <td> Until 4.0 this was used for customers on a deprecated Team plan. </td>
-  </tr>
-  <tr>
-   <td>Enterprise (legacy)</td>
-   <td>enterprise-0</td>
-   <td> Until 4.0 used for our legacy Enterprise pricing plan; required each feature to be tagged separately.</td>
-  </tr>
-  <tr>
-   <td>Business (legacy)</td>
-   <td>business-0</td>
-   <td> In our 4.0 release this was used for a legacy business plan that's no longer active.</td>
-  </tr>
-  <tr>
-   <td>Enterprise Extension (legacy)</td>
-   <td>enterprise-extension</td>
-   <td> In 4.4.2 release some customers required an extended trial. This was used for those situations but is no longer active.</td>
-  </tr>
-  <tr>
-   <td>Free (legacy)</td>
-   <td>free-0</td>
-   <td> For legacy Free plan (until 4.5) customers, for which we need to generate a license to keep them using the existing feature set </td>
-  </tr>
-</table>
-
-#### Legacy feature tags
-
-Below are old, legacy feature tags that you may encounter. These are now handled at the plan level.
-
-<table>
-  <tr>
-   <td><strong>Legacy Feature</strong></td>
-   <td><strong>Legacy Tag</strong></td>
-   <td><strong>Description</strong></td>
-  </tr>
-  <tr>
-    <td> Airgapped </td>
-    <td> allow-air-gapped </td>
-    <td> For licenses where periodic license verification is not required and pings are not sent back to sourcegraph.com. This is essential for customers that run Sourcegraph in an air-gapped environment without an external internet connection. NOTE: This is included in the `enterprise-air-gap-0` plan. , this tag is not required as it is included in the plan. Prefer selecting the `enterprise-air-gap-0` plan instead of adding the tag. </td>
-  </tr>
-  <tr>
-    <td> PLG Cloud Trial </td>
-    <td> plg-trial </td>
-    <td> Previously we allowed users to sign up for a free trial of Sourcegraph via signup.sourcegraph.com. This is deprecated. </td>
-  </tr>
-    <td>Monitoring</td>
-    <td>monitoring</td>
-    <td>Added support for running Grafana monitoring. **DEPRECATED as of Sourcegraph 5.0** </td>
-  </tr>
-  <tr>
-   <td>ACLS</td>
-   <td>acls</td>
-   <td> For background permissions syncing from the code host (now included on plans by default).</td>
-  </tr>
-     <td>Batch Changes</td>
-    <td>batch-changes</td>
-    <td> For unlimited access to the batch changes (now included on plans by default).</td>
-  </tr>
-  </tr>
-    <td>Code Insights</td>
-    <td>code-insights</td>
-    <td> For unlimited access to the code insights (now included on plans by default).</td>
-  </tr>
-  </tr>
-    <td>Private Extension Registry</td>
-    <td>private-extension-registry</td>
-    <td> Allows for a private Extension registry (now included on plans by default).</td>
-  </tr>
-  </tr>
-    <td>Remote Extensions</td>
-    <td>remote-extensions-allow-disallow</td>
-    <td> Allows the admin to enable / disable remote extensions (now included on plans by default).</td>
-  </tr>
-  </table>
 
 ## License Management Processes
 
@@ -283,7 +154,7 @@ To revoke an active license, follow these steps:
 
 The next time the customer's instance performs a license verification check, the verification will fail and the customer's Enterprise features will be disabled.
 
-> [!NOTE] This will not work on special licenses with the `enterprise-air-gap-0` plan, as these licenses do not execute verification checks.
+> [!NOTE] This will not work on special licenses with the `allow-air-gapped` tag, as these licenses do not execute verification checks.
 
 ## License Policies
 
