@@ -350,6 +350,19 @@ Q. **What if a Teammate recently transferred in from another team or the Manager
 
 - Depending on the timing of the transfer or the reporting Manager alignment, it may be appropriate for the prior Manager to conduct the Impact Review. If the Manager recently joined the organization, it is likely that both the new Manager and department head/interim Manager will complete the Impact Review. Please consult your People Partner to confirm the best course of action.
 
+Q. **I had multiple managers during this review period, what is the best way to ensure my impact and work is properly reviewed?**
+
+- We do our best to limit manager changes, but sometimes a teammate has multiple managers in a quarter. While your current manager will be the one to write the review, they will leverage multiple sources to ensure all your work is captured in your impact review score. 
+  - 1. We expect them to talk to your past manager to gain feedback. You can also add past managers as a reviewer. 
+  - 2. [Monthly check-ins](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) captures all feedback from the entire quarter.
+   
+Q. **Do we have a way to capture accomplishments throughout the quarter?**
+
+- Teammates have tools in Lattice to keep records of their accomplishments.
+  - [Thanks/praise feedback:](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) when your manager or teammate give you thanks through the lattice tool it’s stored there for you and your manager(s) to review throughout your time at Sourcegraph
+  - [Request feedback:](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)You can request feedback from any teammates and their response will be stored in Lattice for just you, or you and your manager(s), to review.
+  - [Note to self:](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) This is a great feature where you can keep notes of your accomplishments each week, month, or quarter to have handy for reviews.
+
 Q. **I have a concern about the performance of a Teammate. What should I do?**
 
 - Please discuss the circumstances with your Manager and/or People Partner. There should be no surprises in the Impact Review cycle as performance management is a continuous process.
