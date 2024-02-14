@@ -92,7 +92,7 @@ A: Unfortunately, not at this time. The maximum annual amount is $250/per teamma
 
 **Q: How can I use the stipend for mental health?**
 
-A: The stipend can be utilized for a wide range of mental health-related expenses, such as therapy sessions, counseling services, consultations, mindfulness and meditation classes, mental health apps or subscriptions, and self-help books. [Recommended resources above](modern-health.md#recommended-resources)
+A: The stipend can be utilized for a wide range of mental health-related expenses, such as therapy sessions, counseling services, consultations, mindfulness and meditation classes, mental health apps or subscriptions, and self-help books. [Recommended resources above]
 
 **Q: Can I use the stipend for fitness-related activities?**
 
