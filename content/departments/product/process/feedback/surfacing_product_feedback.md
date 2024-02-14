@@ -9,6 +9,7 @@
 ## Surfacing customer feedback
 
 **Important**
+
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../technical-success/support/process/engaging-other-teams.md).
 
 TA, CE, Support Engineering, Sales, Marketing, Engineering, and other teammates who interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
@@ -17,7 +18,7 @@ We deeply value this feedback, so we make this process as frictionless for teamm
 
 - ARR-impacting feedback should be submitted and tracked as a [Product Gap](#product-gaps). This helps the product team drive important decisions. In particular, it's important that AEs, TAs and CEs submit feedback surfaced by customers or prospects as Product Gaps.
 - For any other general product feedback, any team member can post to the #feedback channel. It will be triaged by the PM on feedback rotation.
-  
+
 All bugs/issues should be filed as Support Tickets.
 
 ### GTM Product Gap Prioritization Process
