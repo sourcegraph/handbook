@@ -141,10 +141,11 @@ For non Headcount related requests, the above detail should be provided to the f
 See our [process docs](process/index.md).
 
 **Exceptions and Approvals**
- - Extension Approvals, Discounts: Dan Adler, in #discuss-deal-desk (note discount approval matrix is in process for new pricing with approvals taking place in CPQ)
- - Commissions, Compensation, or CFP Exceptions: Desene Sterling, in #rev-comp-plans
- - ARR Exceptions: Kendrick Morris, either in #discuss-deal-desk or #discuss-finance (note this is if you are requesting a change in how ARR is recognized or the period in which it is being recognized):
- - Budget increases: Tommy O Donnell, in #discuss-finance or if the ask is sensitive, via DM
+
+- Extension Approvals, Discounts: Dan Adler, in #discuss-deal-desk (note discount approval matrix is in process for new pricing with approvals taking place in CPQ)
+- Commissions, Compensation, or CFP Exceptions: Desene Sterling, in #rev-comp-plans
+- ARR Exceptions: Kendrick Morris, either in #discuss-deal-desk or #discuss-finance (note this is if you are requesting a change in how ARR is recognized or the period in which it is being recognized):
+- Budget increases: Tommy O Donnell, in #discuss-finance or if the ask is sensitive, via DM
 
 ## Accounting
 
