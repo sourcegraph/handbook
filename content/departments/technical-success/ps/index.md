@@ -114,10 +114,9 @@ Below is our high-level prioritized roadmap as of FY23Q4:
 
 <strong>Overview</strong> - Strategic technical success planning, tailored ongoing enablement, and hands-on assistance for adoption and utilization of features to tackle bespoke customer use cases. This service will:
 
-- Embed a dedicated Sourcegraph expert within your team: Gain direct access to a highly skilled individual(s) with deep platform knowledge, ready to address your specific technical needs and challenges. 
+- Embed a dedicated Sourcegraph expert within your team: Gain direct access to a highly skilled individual(s) with deep platform knowledge, ready to address your specific technical needs and challenges.
 - Collaboratively define and execute tailored projects: Work closely with your Resident Architect to craft and deliver custom initiatives aligned with your goals, whether it's user enablement (_virtual, in-person, or written/recorded_), advanced feature utilization, or deeply technical projects.
 - Foster a strategic partnership for maximizing Sourcegraph's value: Establish a continuous feedback loop, ensuring ongoing guidance and support as you explore the full potential of the platform and align it with your broader business objectives.
-
 
 <strong>Resident Architect Customer Profiles</strong>
 
