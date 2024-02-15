@@ -40,6 +40,11 @@ Below is our high-level prioritized roadmap as of FY23Q4:
    </td>
   </tr>
   <tr>
+    <td>Resident Architect</td>
+    <td>Strategic technical success planning, tailored ongoing enablement, and hands-on assistance for adoption and utilization of features to tackle bespoke customer use cases</td>
+    <td>Available</td>
+  </tr>
+  <tr>
    <td>Onboarding Jumpstarts
    </td>
    <td>Expedite time to value through dedicated and custom user onboarding against customer-defined goals
@@ -104,6 +109,25 @@ Below is our high-level prioritized roadmap as of FY23Q4:
 - [Managed Services about.sourcegraph.com Page](https://about.sourcegraph.com/terms/managed-services)
 - [Managed Services Internal Documentation](https://docs.google.com/document/d/1lCxT_D_vpkhKe_VUdkMcQ7pzpmaF-WZ8JYyKbfTYd54/edit)
 - [Managed Services Customer-Facing Deck](https://docs.google.com/presentation/d/15JWp1hI2YmPAlTDGhumuXuJEaM58kf4SvuD9sU3XucY/edit#slide=id.g21ec52155fe_0_217)
+
+## Resident Architect
+
+<strong>Overview</strong> - Strategic technical success planning, tailored ongoing enablement, and hands-on assistance for adoption and utilization of features to tackle bespoke customer use cases. This service will:
+
+- Embed a dedicated Sourcegraph expert within your team: Gain direct access to a highly skilled individual(s) with deep platform knowledge, ready to address your specific technical needs and challenges. 
+- Collaboratively define and execute tailored projects: Work closely with your Resident Architect to craft and deliver custom initiatives aligned with your goals, whether it's user enablement (_virtual, in-person, or written/recorded_), advanced feature utilization, or deeply technical projects.
+- Foster a strategic partnership for maximizing Sourcegraph's value: Establish a continuous feedback loop, ensuring ongoing guidance and support as you explore the full potential of the platform and align it with your broader business objectives.
+
+
+<strong>Resident Architect Customer Profiles</strong>
+
+- Resident Architect is a paid offering available to all customers, but is typically leveraged by large enterprises.
+- Teams that may need extra assistance enabling and evangalizing at scale, have unique use cases, mission critical projects, require custom 'white glove' training, or have custom technical projects required to get the most out of Sourcegraph.
+
+<strong>Resident Architect Resources:</strong>
+
+- [Resident Architect Internal Announcement](https://docs.google.com/presentation/d/1qIu66Y5ADoZI12Lc6D_xQRwJ31ZmWXqEh9LqouDhDiM/edit?usp=sharing)
+- [Resident Architect Internal Documentation](https://docs.google.com/document/d/1Ot0_K1qc7PxwdCMvhHRfpFUjsWghd-RxWmI1wTJV-fQ/edit)
 
 ## Premium Support
 
