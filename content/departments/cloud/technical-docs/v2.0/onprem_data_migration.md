@@ -3,7 +3,7 @@
 This process describes the current state of how to do a full data migration of an on-prem instance to a [Cloud v2](./index.md) instance.
 On-prem-to-Cloud data migrations are currently owned by [Implementation Engineering](../../../technical-success/ie/index.md), but the process is documented in Cloud as it pertains to Cloud infrastructure.
 
-**The on-prem-to-Cloud data migration process described here will result in the full restore/ overwriting of the Cloud v2 instance to the state of the customer's on-prem instance.** This process is intended to be performed immediately following the provisioning of a new Cloud v2 instance. If a migration is planned for a newly provisioned Cloud v2 instance, TAs are recommended to not hand over access to the Cloud v2 instance to the customer until the migration is complete.
+**The on-prem-to-Cloud data migration process described here will result in the full restore/ overwriting of the Cloud v2 instance to the state of the customer's on-prem instance.** This process is intended to be performed immediately following the provisioning of a new Cloud instance. If a migration is planned for a newly provisioned Cloud v2 instance, TAs should communicate that data loss will occur for any actions performed in the Cloud instance prior to the migration.
 
 **Note:** This process is an "all-or-nothing" data migration. There is no way to partially or selectively migrate certain aspects of a customer's on-prem Sourcegraph instance's data (e.g., only Batch Changes execution history or certain Code Insights)
 
@@ -36,9 +36,12 @@ First, the operator must [create an instance](./creation_process.md) with the co
 1. In the [`cloud-data-migrations`](https://github.com/sourcegraph/cloud-data-migrations) repository, copy the `template/` directory, naming it corresponding to the customer.
 
 - Fill out all `$CUSTOMER` variables and set all unset variables in `terraform.tfvars` as documented.
+- Replace `$CLOUD_SQL_IAM` with the unique identifier of the Cloud SQL service account in `template/resources/terraform.tfvars`
+  - Visit [go/cloud-ops](https://cloud-ops.sgdev.org/dashboard/environments/prod), locate the target Cloud instance, and request access to Cloud infra via the provided Entitle link
+  - Once access is granted, look up the service account IAM shown in the [Cloud SQL instance overview page](https://console.cloud.google.com/sql/instances) under "Service account", and update the value specified in `template/resources/terraform.tfvars` accordingly
 - Commit your changes, open a pull request in `cloud-data-migrations`, and merge the changes after review.
 
-2. In the [`infrastructure`](https://github.com/sourcegraph/infrastructure) repository, create Terraform Cloud workspaces for the migration resources in [`sourcegraph/infrastructure/terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
+2. In the [`infrastructure`](https://github.com/sourcegraph/infrastructure) repository, create Terraform Cloud workspaces for the migration resources in [`terraform-cloud/cloud_migration.tf`](https://github.com/sourcegraph/infrastructure/blob/main/terraform-cloud/cloud_migration.tf) file by adding something like the following, replacing `$CUSTOMER` as appropriate:
 
 ```terraform
 #### $CUSTOMER
@@ -74,25 +77,24 @@ module "cloud-data-migration-resources-$CUSTOMER" {
 }
 ```
 
-Commit your changes, open a pull request in `infrastructure`, and merge the changes after review.
+3. Commit your changes, open a pull request in `infrastructure`, and merge the changes after review.
 
-3. Make sure that your Terraform Cloud workspaces are created, then schedule a run for the created `-project` workspace. Once that succeeds, do the same for the created `-resources` workspace.
+4. In Terraform Cloud, make sure that the `-project` & `-resource` workspaces are created by running the `terraform-cloud` workspace (if necessary). Next schedule a run for the created `-project` workspace. Once that run succeeds, do the same for the created `-resources` workspace.
 
-4. Once `resources/` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. [Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
-
-- `snapshot_bucket_name`
-- `writer_service_account_key`
-
-Outputs can also be retrieved from the Terraform state of `resources/`:
+5. Once `-resources` has been applied, you should have outputs for a GCP bucket and a GCP service account with write-only access to it. Outputs can be retrieved from the local Terraform state of `cloud-data-migration/{$customer}/resources/`:
 
 ```sh
-cd resources/
 terraform init
 # Bucket name
 terraform output -json | jq -e -r .snapshot_bucket_name.value
 # Credentials, sent to file
 terraform output -json | jq -e -r .writer_service_account_key.value > credential.json
 ```
+
+[Create a 1password share entry](https://support.1password.com/share-items/) with these outputs:
+
+- `snapshot_bucket_name`
+- `writer_service_account_key`
 
 ## Collect snapshot contents from customer's on-prem instance
 
