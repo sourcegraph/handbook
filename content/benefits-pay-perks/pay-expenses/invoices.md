@@ -10,7 +10,8 @@
 ### How to Calculate the Invoice Amount
 
 - Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of purchase. (Do not use the Veem currency converter.)
-  **NOTE:** If the the currency in your contract differs from your payment currency, Airbase convert your invoice amount into your desired payment currency. This may result in a favorable or unfavorable exchange rate. To mitigate this:
+
+  **NOTE:** If the the currency in your contract differs from your payment currency, Airbase converts your invoice amount into your desired payment currency. This may result in a favorable or unfavorable exchange rate. To mitigate this:
 
 - A. Retain a contract in the same currency as your payment currency. Updated employment contracts are handled by the People Team.
 - B. Maintain an account in the same currency as your contract to avoid exchange rate instability.
