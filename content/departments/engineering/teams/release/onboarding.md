@@ -16,23 +16,23 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 
 #### Tasks
 
-> If you need access to any system, reach out to your peers in `#delivery-internal` on Slack.
+> If you need access to any system, reach out to your peers in `#team-releases` on Slack.
 
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
   - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../dev/tools/infrastructure/gcp.md#engineering-projects)
   - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../dev/tools/infrastructure/gcp.md#engineering-projects).
-- Read our [Delivery handbook pages](index.md)
+- Read our [Release handbook pages](index.md)
 - Join the distribution Slack channels
-  - #delivery
-  - #delivery-internal
-  - #dev-ops
-  - #dev-chat
-  - #dev-accounce
-- Make sure you are added to the [Release](https://github.com/orgs/sourcegraph/teams/release) team in Sourcegraph GitHub org. Reach out to [#team-releases] if you're not.
+
+  - #discuss-release-ship
+  - #discuss-dev-ops
+  - #chat-dev
+  - #announce-engineering
+
+- Make sure you are added to the [Release](https://github.com/orgs/sourcegraph/teams/release) team in Sourcegraph GitHub org. Reach out to #team-releases if you're not.
 - Ask to be added to `gcp-engineering` and `gcp-delivery` Google Group in [#it-tech-ops]
-- Ask to be added to our team on [geekbot](https://app.geekbot.com/dashboard/standup/90421/manage?members) in [#delivery-internal] channel.
 
 ### Week 2
 
