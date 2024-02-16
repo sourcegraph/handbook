@@ -25,6 +25,7 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
   - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../dev/tools/infrastructure/gcp.md#engineering-projects).
 - Read our [Release handbook pages](index.md)
 - Join the distribution Slack channels
+
   - #discuss-release-ship
   - #delivery-internal
   - #discuss-dev-ops
