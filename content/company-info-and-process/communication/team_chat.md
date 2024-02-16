@@ -461,19 +461,19 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    <td>TA
    </td>
   </tr>
-  <tr>  
+  <tr>
     <td>#team-scaled-succcess
    </td>
    <td>Scaled TA
    </td>
   </tr>
-  <tr>  
+  <tr>
    <td>#discuss-scaled-succcess
    </td>
    <td>Scaled TA
    </td>
   </tr>
-  <tr>  
+  <tr>
    <td>#team-support-engineering
    </td>
    <td>Support
@@ -533,7 +533,7 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    </td>
   </tr>
   <tr>
-   <td>#discuss-release-guild
+   <td>#discuss-release-ship
    </td>
    <td>People who have questions and updates about releases
    </td>
