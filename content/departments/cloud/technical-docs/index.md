@@ -14,7 +14,7 @@ Sourcegraph upgrades every test and customer instances according to [SLA](#slas-
 
 The release process is performed in steps:
 
-1. New version is released via [release team](../../engineering/teams/release.md)
+1. New version is released via [release team](../../engineering/teams/release/team/index.md)
 2. GitHub issue in [Sourcegraph Customer repository](https://github.com/sourcegraph/customer) with the `mi2 env create-tracking-issue -e prod $TARGET_VERSION` command
 3. GitHub issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
