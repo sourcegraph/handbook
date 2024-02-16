@@ -27,7 +27,6 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 - Join the distribution Slack channels
 
   - #discuss-release-ship
-  - #delivery-internal
   - #discuss-dev-ops
   - #chat-dev
   - #announce-engineering
