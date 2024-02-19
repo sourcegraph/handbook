@@ -67,38 +67,41 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
 
 - Impact: Technical win rate achievement: 75% +-/ 5%.
 
-- Scope: 
+- Scope:
+
   - Supports MM deals only.
   - Gains in-depth knowledge of Sourcegraph features and capabilities. Knowledgeable about competitors relative to Sourcegraph, adept in articulating Sourcegraph's pros and cons, and able to align Sourcegraph's offerings with customer requirements.
   - Gains working knowledge of scripting and / or coding languages (eg GraphQL, python, Go, etc).
 
 - Execution:
+
   - Performing initial discovery to quality opportunities.
   - Creating and presenting standard product demos.
   - Developing standard trial plans, understanding technical requirements and design using existing templates; may require oversight.
   - Guiding customer technical evaluation with minimal oversight.
-  - When a problem is identified raises awareness of each to leadership while identifying potential delays and risks ensuring no loss of momentum to deal or relationship. 
+  - When a problem is identified raises awareness of each to leadership while identifying potential delays and risks ensuring no loss of momentum to deal or relationship.
 
 - Teamwork:
   - Establishes mentee relationships with more tenured teammates; learning and incorporating their best practices.
   - Builds rapport with sales and other Technical Success counterparts that leads to successful customer interactions.
   - Shares customer feedback with product and engineering.
 
-
 ## IC3
 
 - Impact: Technical win rate achievement: 80% +-/ 5%.
 
-- Scope: 
+- Scope:
+
   - Supports MM and Ent deals.
   - Possesses a firm understanding of competitors’ high-level capabilities (including a 'do nothing' mentality) and applies knowledge of these capabilities into objection-handling and solution positioning through differentiation.
-  - Possesses comprehensive knowledge of the Sourcegraph platform and associated domain knowledge, educates prospective customers of all sizes on the value proposition of   Sourcegraph. 
+  - Possesses comprehensive knowledge of the Sourcegraph platform and associated domain knowledge, educates prospective customers of all sizes on the value proposition of Sourcegraph.
   - Can develop code samples and snippets to inspire or unblock prospective or internal needs.
 
 - Execution:
+
   - Leading discovery processes, demonstrating an ability to understand customer needs, use cases, and their tech stack.
   - Can design and deliver compelling, customized product demos.
-  - Identifies opportunities to modify scope / use cases to ensure forward progress. 
+  - Identifies opportunities to modify scope / use cases to ensure forward progress.
   - Able to build a clear and comprehensive trial plan (with complete success criteria) and technical design document. Leads the customer technical evaluations entirely self-directed.
   - Evaluates business opportunity in the scope of a technical evaluation and identifies the most expedient course to follow that aligns with the schedule and needs.
 
@@ -108,23 +111,24 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
   - Leveraging relationships with sales counterparts; continues to iterate approaches together that lead to improved outcomes.
   - Collaborates across Engineering and Product to inform product decisions based on experience.
 
-
 ## IC4
 
 - Impact: Technical win rate achievement: 80%+.
 
-- Scope: 
+- Scope:
+
   - Supports Ent and Strategic deals.
   - Advanced expertise in analyzing competitors' offerings compared to Sourcegraph, excels in strategically positioning Sourcegraph's unique benefits, and tailors solutions to address complex customer needs effectively.
-  - Thorough knowledge of the developer ecosystem and DevOps; understands Developer tools companies use, how they use them, limitations of them, and how Sourcegraph fits in. 
+  - Thorough knowledge of the developer ecosystem and DevOps; understands Developer tools companies use, how they use them, limitations of them, and how Sourcegraph fits in.
   - Ability to write and read code to automate workflows and/or prototype needs for customers.
 
 - Execution:
-  - Demonstrating  mastery around deal qualification. Able to influence scope/use cases to  ensure forward progress. 
+
+  - Demonstrating mastery around deal qualification. Able to influence scope/use cases to ensure forward progress.
   - Leads complex multi-layered discovery processes, demonstrating an ability to identify and anticipate intricacies to customer needs.
   - Possesses ability to craft and deliver customized product demos for new and emerging use cases or applications of Sourcegraph products and features.
-  - Proposes solutions or workarounds to issues/blockers/risks to positively impact the outcome. 
-  - Prioritizes quick lands and shortened evaluation periods where possible. Able to make distinction of when a full trial is required with priority towards quicker conversions/closure. If a trial is required, be able to design and guide a phased trial plan against complex customer needs. 
+  - Proposes solutions or workarounds to issues/blockers/risks to positively impact the outcome.
+  - Prioritizes quick lands and shortened evaluation periods where possible. Able to make distinction of when a full trial is required with priority towards quicker conversions/closure. If a trial is required, be able to design and guide a phased trial plan against complex customer needs.
 
 - Teamwork:
   - Mentors and trains junior technical teammates.
@@ -133,16 +137,17 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
   - Actively collaborates with Engineering and Product on customer needs, challenges, and gaps; leading to positive outcomes.
   - Where issues arise, showcases initiative to troubleshoots and leverage skill sets within the team to help get unblocked first; leveraging other teams secondarily.
 
-
 ## IC5
 
 - Impact: Technical win rate achievement: 85%+.
 
-- Scope: 
+- Scope:
+
   - Support Strategic deals, leading complex, large-scale, high-value sales opportunities.
-  - Expert in the developer ecosystem and advanced DevOps, with a deep understanding of developer tools and their integration with Sourcegraph. Able to articulate trends including use cases and challenges, and how they relate to Sourcegraph. 
+  - Expert in the developer ecosystem and advanced DevOps, with a deep understanding of developer tools and their integration with Sourcegraph. Able to articulate trends including use cases and challenges, and how they relate to Sourcegraph.
 
 - Execution:
+
   - Turns gaps into opportunities by formulating a plan for success and technical design, collaborating with internal teams as necessary.
   - Identifies patterns of needs and subsequently delivers high-value, reusable content (both enablement and customer-facing) that measurably improves the team's effectiveness and execution.
   - Successfully guides complex, phased trial plans; pulls in internal teammates as required appropriately to lead to a successful trial outcome.
