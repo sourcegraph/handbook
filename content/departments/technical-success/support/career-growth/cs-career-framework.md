@@ -46,6 +46,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 ## IC1
 
 - Impact:
+
   - Can triage and assist customers with the help of existing documentation, articles and known playbooks.
   - Contributes to team targets by handling a steady volume of tickets.
   - Works with tickets assigned to you and are able to meet SLAs 90% of the tickets assigned to them during work.
@@ -53,6 +54,7 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 - Scope: Acquires foundational knowledge in dev tools and software engineering practices.
 
 - Execution:
+
   - Under the guidance of your manager, you create a plan to consistently deliver on your commitments, while creating space to allow for learning and growth.
   - You exercise profound compassion, with colleagues and customers.
   - You recognize when you are blocked and ask for support.
@@ -63,10 +65,10 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
   - You follow documented team processes and seek clarification when in doubt.
   - You communicate with candor and transparency.
 
- 
 ## IC2
 
 - Impact:
+
   - Works to resolve customer issues across all of our product & features.
   - Impact extends to improving internal knowledge bases by documenting encountered issues and solutions.
   - Can have an active queue of tickets while keeping a Median Open Time of 20 hrs or less.
@@ -74,39 +76,41 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 - Scope:
   - Serves as part of triage rotation and can manage your ticket queue reliably while adhering to all defined team processes and workflows; adheres to Service Level Agreement (SLA) 94% of the time.
   - Demonstrates proficient use of dev tools and applies advanced software engineering practices, contributing to more complex projects.
-   
 - Execution:
+
   - You ask for guidance in unfamiliar areas or for underspecified tasks and speak up if you are not at ease with what you understand you need to do.
   - You have a general understanding of how users interact with our product/infrastructure.
   - You are able to establish rapport with customers and colleagues to achieve meaningful and productive conversation.
   - Your tickets are maintained and kept up-to-date to allow for accurate team-level reporting.
 
-- Teamwork: 
+- Teamwork:
   - You actively participate and are able to initiate conversation in team and cross-functional meetings.
   - You suggest improvements to team processes and help keep the handbook up-to-date.
   - You communicate thoughtfully and intentionally, both synchronously and asynchronously.
   - You are flexible to change.
   - You resist group think and help the team maintain productive, healthy dialogues.
 
-
 ## IC3
 
-- Impact: 
+- Impact:
+
   - Identifies areas of improvement for the team and works with others to improve them.
   - Influences customer satisfaction through advanced technical support and problem-solving.
 
 - Scope:
-  - Independently manage and resolve all assigned tickets, maintaining a consistent adherence to the Service Level Agreement (SLA) 96% of the time. 
+
+  - Independently manage and resolve all assigned tickets, maintaining a consistent adherence to the Service Level Agreement (SLA) 96% of the time.
   - Provide review and guidance for the work of other Support Engineers to enhance team performance and ensure quality outcomes.
   - Masters a wide range of dev tools and leads in the adoption of cutting-edge support engineering practices, driving innovation in our department. This can include tooling we use everyday (k8s, docker-compose, helm) and other practices or knowledge that can help us better serve our customers (Hone leadership/communication courses, etc).
 
 - Execution:
+
   - You scope and implement solutions to pre-defined problems, with guidance.
   - You detect problems (in the product or our processes) that could erode the customer experience and actively engage to resolve them.
   - You firmly grasp how users interact with our product/infrastructure and demonstrate this by consistently bringing feedback to EPD and participating in feedback sessions so the customer’s needs are heard.
   - You are skilled in establishing rapport with customers and colleagues, and consistently deliver results on time.
 
-- Teamwork: 
+- Teamwork:
   - You communicate clearly, both synchronously and asynchronously, escalating blockers quickly, clarifying requirements and sharing assumptions and context.
   - You set the example on defining/modifying team processes; participating in identifying problems, suggesting improvements, and helping with solutions.
   - You proactively add and edit handbook documentation and other knowledge sharing sites (Docs, KBs, Blog) to help others.
@@ -114,20 +118,22 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
   - You help onboard and orient new team members.
   - You participate in the hiring process where possible, conducting interviews (with training) and writing helpful feedback.
 
-
 ## IC4
 
-- Impact: 
+- Impact:
+
   - Spearheads initiatives internal to the SE team and works with SEs and Mgmt to implement change, can point to result & outcomes from these efforts.
   - Consistently provides strategic, constructive feedback focused on both immediate and long-term team development.
 
-- Scope: 
+- Scope:
+
   - Works on complex tickets that require a high level of coordination between departments; maintains adherence to Service Level Agreements (SLAs) 98% of the time.
   - Involved in mentoring new hires and ensuring the onboarding process prepares them to fulfill their role.
   - Shapes the organization's approach to dev tools and software engineering practices, setting standards and leading strategic initiatives for technological advancement.
   - Enhance your expertise in critical product domains and earn certifications to demonstrate your specialized proficiency.
 
-- Execution: 
+- Execution:
+
   - You independently scope and implement solutions to complex, loosely-defined problems.
   - You estimate methodically, based on iterative learning and set realistic expectations/timelines that drive effort and support healthy work habits.
   - When faced with roadblocks, you identify appropriate courses of action, engaging others or unblocking yourself as appropriate.
@@ -135,33 +141,34 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
   - You remain composed in: ambiguous situations, challenging situations, situations involving multiple stakeholders, etc.
   - You proactively identify areas for improvement and balance new work with the necessary day-to-day tasks needed to keep the team operating well to provide a positive customer experience.
 
-- Teamwork: 
+- Teamwork:
   - You communicate technical and non-technical issues and decisions clearly, bringing clarity to discussions, and help to drive the process forward.
   - You routinely drive improvements in team/company processes (retros, bi-weekly, etc).
   - You consider the effects of your work and words on other teams and represent the Support team well in discussions with cross-functional teammates, customers, and stakeholders.
   - You share your experience and expertise to help others grow, through mentoring and coaching where possible.
   - You proactively propose additions and changes to the team’s forward plans.
 
-
 ## IC5
 
 - Impact:
+
   - Leads and owns cross-functional projects, long term goals, or scopes of work with only broad guidance from leadership
   - Can effectively steer conversations and decisions made across the team and departments, contributing to the vision of the company.
   - Demonstrates a strong ability to influence and drive scalable outcomes, ensuring that strategic decisions not only align with, but also significantly amplify, the company's long-term objectives and success.
- 
-- Scope: 
+
+- Scope:
+
   - You use your domain expertise to solve important and complex solutions for the company. Your solutions provide examples for others to follow.
   - Serves as an organizational authority in dev tools and practices, pioneering industry-leading methodologies and guiding significant technological transformations across the company.
 
-- Execution: 
+- Execution:
+
   - You independently scope and implement solutions to extremely complex and/or vague customer issues, and identify the problems to be solved.
   - You intentionally and proactively align your work around a deep understanding of how people use the products/customer experience.
   - You proactively identify areas for improvement beyond the scope of our team and contribute meaningfully to solutions while continuing to deliver on our team’s goals.
 
-- Teamwork: 
+- Teamwork:
   - You are thoughtfully (and with empathy) able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.
   - You actively seek dissenting opinions, disconfirming evidence, etc.
   - You share a long-term vision that influences the team’s go forward plans.
-  - You operate in a way that demonstrates self-awareness (you often identify feedback before anyone has to give it to you) and active intentionality (you have a plan before you communicate/act).	
-
+  - You operate in a way that demonstrates self-awareness (you often identify feedback before anyone has to give it to you) and active intentionality (you have a plan before you communicate/act).
