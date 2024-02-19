@@ -13,7 +13,6 @@ The CE team is a single globally distributed team. There are currently six level
 
 We think of these three core competencies that every CE must demonstrate in order to serve our customers and our business: leadership, business, and technology. Within each pillared competency are defined core behaviors that CEs perform. In most cases, a level builds on the expectations from the preceding levels, eg someone at level 2 must also meet the level 1 expectations. In addition to what is listed in our ladders (stored in Lattice, as well as shown below), we expect every customer engineer, at all levels, to exhibit our values. Also, rather than precede each bullet point with "consistently", we leave it as implicit. These are the expectations for ICs after they have completed their onboarding.
 
-
 ## When do I get promoted?
 
 See guidance on promotions [here](../../../people-talent/people-ops/process/teammate-sentiment/impact-reviews/#promotion-philosophy).
