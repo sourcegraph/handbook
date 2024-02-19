@@ -13,33 +13,6 @@ The CE team is a single globally distributed team. There are currently six level
 
 We think of these three core competencies that every CE must demonstrate in order to serve our customers and our business: leadership, business, and technology. Within each pillared competency are defined core behaviors that CEs perform. In most cases, a level builds on the expectations from the preceding levels, eg someone at level 2 must also meet the level 1 expectations. In addition to what is listed in our ladders (stored in Lattice, as well as shown below), we expect every customer engineer, at all levels, to exhibit our values. Also, rather than precede each bullet point with "consistently", we leave it as implicit. These are the expectations for ICs after they have completed their onboarding.
 
-### Leadership
-
-The leadership pillar embodies both the external and internal interpersonal relationships we build and nurture, the way in which we lead customers to value, and how we drive more value and better ways of doing business.
-
-Within the leadership pillar there exists two core responsibility areas:
-
-- Relationship Management:The application of interpersonal skills required to appropriately manage and nurture relationships; navigating business and / or political considerations.
-- Outcomes: The activities that CEs perform to lead prospective customers to intended and desired outcomes.
-
-### Business
-
-The business pillar embodies the way in which we come to know and understand our customers’ business and their needs. It also includes how our business serves these needs.
-
-Within the business pillar there exists two core responsibility areas:
-
-- Contextual Understanding: The ability to learn various internal and external roles & responsibilities and nurture them uniquely.
-- Operational Excellence: The ability to perform job responsibilities and abide by all team and company processes and procedures.
-
-### Technology
-
-The technology pillar embodies the skills necessary to solve customer problems.
-
-Within the technology pillar there exists two core responsibility areas:
-
-- Sourcegraph Product: The ability to learn about our product capabilities and limitations; apply that knowledge to help customers; extend the boundaries of our capabilities; serve as a voice of the customer back to internal teams.
-- Solving Technical Problems: The expected technical understanding and skillset required in order to deliver value and solutions to prospective customers.
-
 ## When do I get promoted?
 
 See guidance on promotions [here](../../../people-talent/people-ops/process/teammate-sentiment/impact-reviews/#promotion-philosophy).
