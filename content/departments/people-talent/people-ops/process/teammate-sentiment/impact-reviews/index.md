@@ -40,7 +40,7 @@ Formal performance reviews take place **once a year** aligning with our promotio
 **Reviewer selection/Manager approval:**
 
 - 2024-02-12 to 2024-02-16 (5 business days)
-- Confirm selections with managers: 2024-02-16 (1 business day)
+- Confirm selections with managers: 2024-02-19 (1 business day)
 
 **Review writing:**
 
