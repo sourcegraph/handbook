@@ -81,7 +81,7 @@ Non-US based teammates are on a monthly payroll cycle, whether they are hired th
 
 🗺 **Talent outside the US**
 
-You can read more about how we engage talent outside the US [here].
+You can read more about how we engage talent outside the US [here](how-we-engage-talent-outside-the-us/index.md).
 
 ### Onboarding expectations
 
