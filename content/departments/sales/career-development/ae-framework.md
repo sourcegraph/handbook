@@ -24,31 +24,31 @@
    </td>
    <td>Skill: Knows and understands key competencies, but is more task-oriented, and continuing to develop. Is gaining independence in managing Account Teams. Drives deal execution with very regular assistance from leadership. Deal complexity is primarily low and volume high.
 <p>
-Meeting Expectations across majority of competencies (Rating=2). May Need Improvement (Rating=1) in those that are more complex, particularly when new in role.
+Meeting Expectations (Rating 3+) across majority of competencies. May Need Improvement in those that are more complex, particularly when new in role.
 <p>
 Mentors SDRs on moving into a closing role.
    </td>
    <td>Skill: Self-aligns surrounding team around Commercial Level deals and has solid knowledge of advance selling techniques. Drives deal execution with frequent assistance from leadership. Deal complexity is primarily medium and volume high.
 <p>
-Meeting Expectations across majority of competencies (Rating=2). May Need Improvement (Rating=1) in those that are more complex, particularly when new in role.
+Meeting Expectations (Rating 3+) across majority of competencies. May Need Improvement in those that are more complex, particularly when new in role.
 <p>
 Mentors AE2s and brings new ideas to the Commercial Team.
    </td>
    <td>Skill: Self-aligns surrounding team around Mid-Enterprise deals and consistently executes on some advanced selling techniques. Drives deal execution with regular assistance from leadership. Deal complexity is a blend of medium and high.
 <p>
-Meeting Expectations across majority of competencies (Rating=2). May be an Expert (Rating=2) in others, most likely when preparing for a P5 promotion.
+Meeting Expectations (Rating 3+) or exceeding across majority of competencies. May be an Expert in others, most likely when preparing for a P5 promotion.
 <p>
 Mentors AE3s and brings new ideas and approaches to the Commercial team.
    </td>
    <td>Skill: Self orchestrates multi-functional internal account teams around Enterprise Deals. Masters several advanced selling techniques. Drives deal execution with occasional assistance from leadership. Deal complexity is higher, with prioritization into large account expansion.
 <p>
-Expert across majority of competencies (Rating=1), Meeting Expectations (Rating=2) in all others.
+Expert across majority of competencies (Rating 2+), Meeting Expectations in all others.
 <p>
 Mentors AE3-5 and brings new ideas and approaches to the Enterprise team.
    </td>
    <td>Skill: Self orchestrates multi-functional internal teams to drive highly strategic deals with the largest, most complex enterprise accounts. Considered a master of advanced selling techniques. Drives deal execution with minimum assistance from leadership. Deal complexity is higher, with prioritization into large account expansion.
 <p>
-Expert across all or majority of competencies (Rating=1)
+Expert across all or majority of competencies (Rating 2+)
 <p>
 Drives cross-functional alignment and enablement to win and retain our largest strategic accounts. And takes part in company-wide initiatives.
    </td>
