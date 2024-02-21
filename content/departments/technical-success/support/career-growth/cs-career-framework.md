@@ -7,9 +7,17 @@ Our career level framework is meant to help you understand the expectations of y
 There are currently seven levels for support at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Impact
+  - Your work directly contributes to achieving the company’s strategic goals and long term success.
 - Scope
+  - You have high productivity and output. You deliver on your direct responsibilities while also looking for opportunities for improvement - individually, as a team, our product, and company.
 - Execution
+  - You seek out opportunities, rather than waiting for them to come to you.
+  - You put our customers and prospects first, orienting yourself to their success.
+  - You ask for help directly, when needed.
 - Teamwork
+  - You do not gate-keep, but rather aim to accelerate and unblock your colleagues.
+  - You communicate thoughtfully, clearly, and proactively to keep stakeholders informed and identify risks.
+  - You seek to help your teammates around you succeed; you win together. You reflect thoughtfully on your own performance and the performance of those around you, sharing helpful feedback for continued growth.
 
 It’s important to understand that what is listed in the level descriptions are example behaviors, and not checkboxes for promotion. Doing everything listed there is neither necessary nor sufficient for a promotion. The expectation is that you demonstrate a level of impact consistently over a span of months within each of the category descriptions for your level. The [magnitude of your impact](https://about.sourcegraph.com/blog/software-engineer-career-paths/) is ultimately the measure of your career growth.
 
@@ -46,7 +54,6 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 ## IC1
 
 - Impact:
-
   - Can triage and assist customers with the help of existing documentation, articles and known playbooks.
   - Contributes to team targets by handling a steady volume of tickets.
   - Works with tickets assigned to you and are able to meet SLAs 90% of the tickets assigned to them during work.
@@ -54,7 +61,6 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 - Scope: Acquires foundational knowledge in dev tools and software engineering practices.
 
 - Execution:
-
   - Under the guidance of your manager, you create a plan to consistently deliver on your commitments, while creating space to allow for learning and growth.
   - You exercise profound compassion, with colleagues and customers.
   - You recognize when you are blocked and ask for support.
@@ -68,7 +74,6 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 ## IC2
 
 - Impact:
-
   - Works to resolve customer issues across all of our product & features.
   - Impact extends to improving internal knowledge bases by documenting encountered issues and solutions.
   - Can have an active queue of tickets while keeping a Median Open Time of 20 hrs or less.
@@ -93,18 +98,15 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 ## IC3
 
 - Impact:
-
   - Identifies areas of improvement for the team and works with others to improve them.
   - Influences customer satisfaction through advanced technical support and problem-solving.
 
 - Scope:
-
   - Independently manage and resolve all assigned tickets, maintaining a consistent adherence to the Service Level Agreement (SLA) 96% of the time.
   - Provide review and guidance for the work of other Support Engineers to enhance team performance and ensure quality outcomes.
   - Masters a wide range of dev tools and leads in the adoption of cutting-edge support engineering practices, driving innovation in our department. This can include tooling we use everyday (k8s, docker-compose, helm) and other practices or knowledge that can help us better serve our customers (Hone leadership/communication courses, etc).
 
 - Execution:
-
   - You scope and implement solutions to pre-defined problems, with guidance.
   - You detect problems (in the product or our processes) that could erode the customer experience and actively engage to resolve them.
   - You firmly grasp how users interact with our product/infrastructure and demonstrate this by consistently bringing feedback to EPD and participating in feedback sessions so the customer’s needs are heard.
@@ -121,19 +123,16 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 ## IC4
 
 - Impact:
-
   - Spearheads initiatives internal to the SE team and works with SEs and Mgmt to implement change, can point to result & outcomes from these efforts.
   - Consistently provides strategic, constructive feedback focused on both immediate and long-term team development.
 
 - Scope:
-
   - Works on complex tickets that require a high level of coordination between departments; maintains adherence to Service Level Agreements (SLAs) 98% of the time.
   - Involved in mentoring new hires and ensuring the onboarding process prepares them to fulfill their role.
   - Shapes the organization's approach to dev tools and software engineering practices, setting standards and leading strategic initiatives for technological advancement.
   - Enhance your expertise in critical product domains and earn certifications to demonstrate your specialized proficiency.
 
 - Execution:
-
   - You independently scope and implement solutions to complex, loosely-defined problems.
   - You estimate methodically, based on iterative learning and set realistic expectations/timelines that drive effort and support healthy work habits.
   - When faced with roadblocks, you identify appropriate courses of action, engaging others or unblocking yourself as appropriate.
@@ -151,18 +150,15 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 ## IC5
 
 - Impact:
-
   - Leads and owns cross-functional projects, long term goals, or scopes of work with only broad guidance from leadership
   - Can effectively steer conversations and decisions made across the team and departments, contributing to the vision of the company.
   - Demonstrates a strong ability to influence and drive scalable outcomes, ensuring that strategic decisions not only align with, but also significantly amplify, the company's long-term objectives and success.
 
 - Scope:
-
   - You use your domain expertise to solve important and complex solutions for the company. Your solutions provide examples for others to follow.
   - Serves as an organizational authority in dev tools and practices, pioneering industry-leading methodologies and guiding significant technological transformations across the company.
 
 - Execution:
-
   - You independently scope and implement solutions to extremely complex and/or vague customer issues, and identify the problems to be solved.
   - You intentionally and proactively align your work around a deep understanding of how people use the products/customer experience.
   - You proactively identify areas for improvement beyond the scope of our team and contribute meaningfully to solutions while continuing to deliver on our team’s goals.
