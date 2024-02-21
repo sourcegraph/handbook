@@ -7,9 +7,17 @@ Our career level framework is meant to help you understand the expectations of y
 There are currently seven levels for support at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Impact
+  - Your work directly contributes to achieving the company’s strategic goals and long term success.
 - Scope
+  - You have high productivity and output. You deliver on your direct responsibilities while also looking for opportunities for improvement - individually, as a team, our product, and company.
 - Execution
+  - You seek out opportunities, rather than waiting for them to come to you.
+  - You put our customers and prospects first, orienting yourself to their success.
+  - You ask for help directly, when needed.
 - Teamwork
+  - You do not gate-keep, but rather aim to accelerate and unblock your colleagues.
+  - You communicate thoughtfully, clearly, and proactively to keep stakeholders informed and identify risks.
+  - You seek to help your teammates around you succeed; you win together. You reflect thoughtfully on your own performance and the performance of those around you, sharing helpful feedback for continued growth.
 
 It’s important to understand that what is listed in the level descriptions are example behaviors, and not checkboxes for promotion. Doing everything listed there is neither necessary nor sufficient for a promotion. The expectation is that you demonstrate a level of impact consistently over a span of months within each of the category descriptions for your level. The [magnitude of your impact](https://about.sourcegraph.com/blog/software-engineer-career-paths/) is ultimately the measure of your career growth.
 
