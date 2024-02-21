@@ -4,12 +4,20 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-The CE team is a single globally distributed team. There are currently six levels for customers engineers at Sourcegraph. A level is composed of three categories (or core competencies), each with a summary statement and several example behaviors. These core competencies are:
+The CE team is a single globally distributed team. A level is composed of four categories (or core competencies), each with a summary statement and several example behaviors. These core competencies are:
 
 - Impact
+  - Your work directly contributes to achieving the company’s strategic goals and long term success.
 - Scope
+  - You have high productivity and output. You deliver on your direct responsibilities while also looking for opportunities for improvement - individually, as a team, our product, and company.
 - Execution
+  - You seek out opportunities, rather than waiting for them to come to you.
+  - You put our customers and prospects first, orienting yourself to their success.
+  - You ask for help directly, when needed.
 - Teamwork
+  - You do not gate-keep, but rather aim to accelerate and unblock your colleagues.
+  - You communicate thoughtfully, clearly, and proactively to keep stakeholders informed and identify risks.
+  - You seek to help your teammates around you succeed; you win together. You reflect thoughtfully on your own performance and the performance of those around you, sharing helpful feedback for continued growth.
 
 We think of these three core competencies that every CE must demonstrate in order to serve our customers and our business: leadership, business, and technology. Within each pillared competency are defined core behaviors that CEs perform. In most cases, a level builds on the expectations from the preceding levels, eg someone at level 2 must also meet the level 1 expectations. In addition to what is listed in our ladders (stored in Lattice, as well as shown below), we expect every customer engineer, at all levels, to exhibit our values. Also, rather than precede each bullet point with "consistently", we leave it as implicit. These are the expectations for ICs after they have completed their onboarding.
 
