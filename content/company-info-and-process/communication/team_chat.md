@@ -44,6 +44,7 @@ Follow these naming conventions to help with discoverability. Channels can be re
    <td>#announce-company, #announce-sales, #announce-eng
    </td>
   </tr>
+  <tr>
    <td>#team-
    </td>
    <td>For teams to coordinate work and activities among themselves. Strict channel membership for only people on that team.
@@ -123,7 +124,6 @@ Follow these naming conventions to help with discoverability. Channels can be re
    <td>#chat-book, #chat-chess, #chat-cars, #chat-clothes
    </td>
   </tr>
-  </tr>
 </table>
 
 ### Mandatory channels for all teammates
@@ -152,7 +152,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
    </td>
   </tr>
   <tr>
-   <td><a href="https://sourcegraph.slack.com/archives/C04MEMRH35Y">#announce-it-tech-ops
+   <td><a href="https://sourcegraph.slack.com/archives/C04MEMRH35Y">#announce-it-tech-ops</a>
    </td>
    <td> Important announcements from the Tech Ops team
    </td>
@@ -189,7 +189,7 @@ Messages here are applicable to 75% of the company and posting permissions are l
   <tr>
    <td><a href="https://sourcegraph.slack.com/archives/C01B6F2F1G8">#team-people-managers</a>
    </td>
-   <td>Private channel - Discussion among people managers and
+   <td>Private channel - Discussion among people managers.
    </td>
   </tr>
 </table>
@@ -217,7 +217,7 @@ Every channel should name a channel manager so there is a clear owner responsibl
 
 ### Send short messages
 
-As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels because those channels need to maintain a high signal to noise ratio. See [announce channel guidelines](##Announce-channel-guidelines)
+As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels because those channels need to maintain a high signal to noise ratio. See [announce channel guidelines](#Announce-channel-guidelines)
 
 ### Use emoji reactions
 
