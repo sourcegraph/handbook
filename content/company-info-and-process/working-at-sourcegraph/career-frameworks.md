@@ -12,6 +12,7 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 - [Support engineering career development framework](../../departments/technical-success/support/career-growth/cs-career-framework.md)
 - [Customer engineering career development framework](../../departments/technical-success/ce/career-growth/index.md)
+- [Technical advisory career development framework](../../departments/technical-success/ta/enterprise-success/career-growth/ta-career-development.md)
 
 ## Engineering
 
