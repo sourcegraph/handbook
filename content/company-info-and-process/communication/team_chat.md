@@ -217,7 +217,7 @@ Every channel should name a channel manager so there is a clear owner responsibl
 
 ### Send short messages
 
-As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels because those channels need to maintain a high signal to noise ratio. See [announce channel guidelines](#Announce-channel-guidelines)
+As a general rule of thumb, Slack messages should be **kept short and to the point**, with additional details shared in the message thread. We've put additional processes in place to make sure only short, direct messages are sent in announce channels because those channels need to maintain a high signal to noise ratio. See [announce channel guidelines](#announce-channel-guidelines)
 
 ### Use emoji reactions
 
