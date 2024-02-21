@@ -1829,3 +1829,15 @@ tobi_rydlewicz:
   location: London, UK 🇬🇧
   links: '[Linkedin](https://www.linkedin.com/in/tobiryd/)'
   description: Tobi grew up between Brussels and Toronto. Prior to Sourcegraph, Tobi worked at the intersection of product and data within early-stage startups. He's passionate about solving problems and driving actionable insights to be more efficient and grow smarter. He loves active sports (especially soccer & a die-hard Chelsea fan), hiking, backpacking and electronic music.
+
+michael_bahr:
+  name: Michael Bahr
+  email: michael.bahr@sourcegraph.com
+  github: bahrmichael
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: code_search_lead
+  location: Berlin, Germany 🇩🇪
+  links: '[Linkedin](https://linkedin.com/in/michael-bahr-81036177)'
+  pronunciation: '[pronounce my name 🔊](https://forvo.com/word/bahr)'
+  description: Michael grew up in the Black Forest, just at the border between Germany and Switzerland. Prior to Sourcegraph, Michael worked on the dev tools such as Amazon CodeCatalyst, and made the life of devs easier at a startup called Stedi. He's passionate about solving ever harder technical challenges and helping teammates grow further. When not coding at work, he loves to build projects and modifications around video games like Factorio and EVE Online. His favourite way to spend time outside is on a snowboard in the mountains. He can also be found doing other sports and hosting DnD sessions.

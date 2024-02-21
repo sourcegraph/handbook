@@ -742,31 +742,44 @@
         ]
       }
     },
- {
-    "type": "Feature",
-    "properties": {
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Alex Stanton"
-    },
-    "geometry": {
+      },
+      "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.394998,
-            41.844047
+          -71.394998,
+          41.844047
         ]
-    }
-},
-{
-    "type": "Feature",
-    "properties": {
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Erin Osgood"
-    },
-    "geometry": {
+      },
+      "geometry": {
         "type": "Point",
         "coordinates": [
-            -105.279617,
-            40.016869
+          -105.279617,
+          40.016869
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michael Bahr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.414524,
+          52.513384
+        ]
+      }
     }
-}
-]
+  ]
 }
