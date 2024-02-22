@@ -40,7 +40,7 @@ To better illustrate the value of the equity grant, please [view our calculator]
 
 **Vesting schedule:**
 
-Similar to our [new hire equity vesting schedule](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md), all equity refresh grants are subject to a 4-year vesting schedule, with a 1-year cliff.
+Similar to our [new hire equity vesting schedule], all equity refresh grants are subject to a 4-year vesting schedule, with a 1-year cliff.
 
 **When do employees receive the equity grants?**
 
