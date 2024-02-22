@@ -1,11 +1,11 @@
-## Digital Scaled Success Program Overview
+## Digital Success Program Overview
 
-Our Digital Scaled Success program services our customers who do not qualify for a named, dedicated TA (managed) through a tech-nurtured approach based on their use of Sourcegraph by delivering tailored, consistent communication & enablement to meet their needs, support them, and ensure they have a positive experience.
+Our Digital Success program services our customers who do not qualify for a named, dedicated TA (managed) through a tech-nurtured approach based on their use of Sourcegraph by delivering tailored, consistent communication & enablement to meet their needs, support them, and ensure they have a positive experience.
 
-We leverage Vitally to monitor all customers and send all communications through Vitally. We seek to align the Scaled Success Customer Lifecycle to our overall customer journey as closely as possible.
+We leverage Vitally to monitor all customers and send all communications through Vitally. We seek to align the Digital Success Customer Lifecycle to our overall customer journey as closely as possible.
 
 An overview our current program across the customer lifecycle is depicted below:
-![Customer Lifecycle - Scaled Success](https://github.com/sourcegraph/handbook/assets/7228359/cd686ea6-6d09-4dd8-a278-f52548efd637)
+![Customer Lifecycle - Digital Success](https://github.com/sourcegraph/handbook/assets/7228359/cd686ea6-6d09-4dd8-a278-f52548efd637)
 
 ## Lifecycle Stages
 
@@ -19,7 +19,7 @@ An overview our current program across the customer lifecycle is depicted below:
 
 The onboarding phase runs for 60 days from contract close.
 
-Effective FY25, scaled customers are required to be on the cloud, so besides potentially creating a new production instance as part of the hand-off, it is assumed that the production instance is provisioned as part of the hand-off process.
+Effective FY25, Digital customers are required to be on the cloud, so besides potentially creating a new production instance as part of the hand-off, it is assumed that the production instance is provisioned as part of the hand-off process.
 
 Customer onboarding consists of a series of email nurture campaigns to contacts based on the role mapping (step 7.4 above). A synchronous onboarding training can be requested in #discuss-scaled-success.
 
@@ -47,7 +47,7 @@ Customers enter the adoption phase after 60 days. Customers remain in the adopti
 
 #### Targeted Outreach
 
-The Digital Scaled team consistently tracks customer usage across the customer journey. We focus on sending customized enablement resources based on individual usage and adoption, ensuring our customers receive tailored support for optimal platform utilization
+The Digital Success team consistently tracks customer usage across the customer journey. We focus on sending customized enablement resources based on individual usage and adoption, ensuring our customers receive tailored support for optimal platform utilization
 
 ##### Poor or Concerning Health
 
@@ -55,7 +55,7 @@ Where customer health is poor or concerning, specific email campaigns are sent t
 
 ##### Advanced Enablement
 
-When users begin to interact with a new feature for the first time, the Digital Scaled team is alerted and advanced use case materials are sent to the account to encourage enablement and use.
+When users begin to interact with a new feature for the first time, the Digital Success team is alerted and advanced use case materials are sent to the account to encourage enablement and use.
 
 #### Customer Utlization Updates
 
