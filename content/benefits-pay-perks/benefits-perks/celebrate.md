@@ -1,17 +1,17 @@
 # How we celebrate teammates
 
-At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basic via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people experience exciting work or life events.
+At Sourcegraph, we love celebrating and recognizing the events happening in our teammates' lives! We celebrate on a day-to-day basis via our '#thanks' channel, quarterly via our impact awards program, and on a rolling basis when people experience exciting work or life events.
 
 ## This page talks about celebrating
 
-- [Regular thanks and recognition via our `#thanks` channel](celebrate.md##thanks-and-recognition)
-- [Impact awards](celebrate.md#impact-awards)
-- [New hires](celebrate.md#New-hires)
-- [Birthdays](celebrate.md#Birthdays)
-- [Work anniversaries](celebrate.md#Work-anniversaries)
-- [Promotions](celebrate.md#Promotions)
-- [Growing family](celebrate.md#New-babies)
-- Life events
+- [Regular thanks and recognition via our `#thanks` channel](#regular-thanks-and-recognition-via-our-thanks-channel)
+- [Impact awards](#impact-awards)
+- [New hires](#new-hires)
+- [Birthdays](#birthdays)
+- [Work anniversaries](#work-anniversaries)
+- [Promotions](#promotions)
+- [Growing family](#growing-family)
+- [Life events](#other-life-events)
 
 ## Regular thanks and recognition via our `#thanks` channel
 
@@ -38,7 +38,7 @@ Anyone at Sourcegraph can send a message in the `#thanks` channel. Both managers
 - **Focus on the positive.** Praise in public, criticize in private.
 - **Be specific with your praise.** What is the specific behavior you are praising? Praise genuine behaviors. You don’t have to wait for significant events to reinforce good work.
 - **Be Timely.** The sooner the praise is delivered, the more powerful.
-- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere meaningful praise.
+- **Be Sincere.** Mean what you say and deliver the praise in a genuine manner. People want sincere, meaningful praise.
 - **Be consistent.** Consistently recognizing good work will help create a positive work culture and encourage others to do their best. It's important to recognize people regularly, not just once in a while.
 
 #### Why is recognition important
