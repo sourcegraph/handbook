@@ -158,7 +158,11 @@ business:
   - term: EOQ
     definition: End Of Quarter
   - term: KTLO
-    definition: Keep The Lights On. The the minimum engineering maintenance work required to keep the product running and keep customers happy.
+    definition: Keep The Lights On. The minimum engineering maintenance work required to keep the product running and keep customers happy.
+  - term: OTE
+    definition: On-Target-Earning. An individual's compensation package is composed of base pay and/or commission. Where applicable, OTE is the total compensation an individual can expect to earn if they achieve all of their targets. For individuals without commission, this is just their salary.
+  - term: OTI
+    definition: On-Target-Incentive. Specifically the commission or incentive portion of an individual's compensation package. Where applicable, Base Salary + OTI = OTE.
 
 role:
   - term: EPD
