@@ -801,16 +801,6 @@ carson_hopkins:
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife and kids. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
-olivia_simpson:
-  name: Olivia Simpson
-  email: olivia@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/olivia-simpson-9a8a1835/)'
-  github: olivia488
-  role: Program Manager, Demand Generation Campaigns
-  reports_to: demand_gen_lead
-  location: New York, NY, USA
-  description: Olivia is originally from Park Ridge, IL, but now lives in Manhattan with her fluffy corgi. Prior to joining Sourcegraph, Olivia held different roles at high-growth startups, where she discovered a passion for demand generation marketing. In her free time, she enjoys walking her dog in Central Park, meeting up with friends, and finding fun new Peloton rides to try!
-
 amy_johnson:
   name: Amy Johnson
   email: amy.johnson@sourcegraph.com
