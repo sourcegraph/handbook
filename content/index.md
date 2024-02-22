@@ -87,7 +87,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 ### [Technical Success](departments/technical-success/index.md)
 
 - [Customer Engineering](departments/technical-success/ce/index.md)
-- [Implementation Engineering](departments/technical-success/ie/index.md)
+- [Professional Services](departments/technical-success/ps/index.md)
 - [Support Engineering](departments/technical-success/support/index.md)
 - [Technical Advisory](departments/technical-success/ta/index.md)
 
