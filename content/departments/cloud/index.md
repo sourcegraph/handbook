@@ -145,8 +145,8 @@ We aim to make all processes self-service as much as possible, please follow the
 <span class="badge badge-note">⚙️ manual</span>
 <span class="badge badge-note">🤖 self-service</span>
 
-- For customers who are looking to configure IP allowlist to permit Cloud instance traffic
-- For customers that have private code hosts
+- For customers looking to configure IP allowlist to permit Cloud instance traffic
+- For customers looking to enable private code hosts support, e.g., AWS Private Link, GCP Private Service Connect, Sourcegraph Connect for on-prem data center
 
 #### **Update license key on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-license-key,mi/self-service&projects=&template=managed-instance-configure-license-key.yml&title=Configure+License+Key+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
