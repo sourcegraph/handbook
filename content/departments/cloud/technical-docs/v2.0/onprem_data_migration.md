@@ -9,7 +9,13 @@ On-prem-to-Cloud data migrations are currently owned by [Implementation Engineer
 
 ## Requirements
 
-To qualify for a data migration, the customer must:
+To qualify for a data migration,
+
+The requester from Sales (IE/CE/TA) must:
+
+- submit a copy of [on-prem to Cloud questionnaire](https://docs.google.com/document/d/1QcaAMG2YsaOnnht1YIZyMQ1mOfygSVfdXgBdbNc00GA/edit). it is important to ensure correctness of the data to ensure a smooth Cloud experience post-migration.
+
+The customer must:
 
 - have a Sourcegraph instance on v3.20.0 or later (limitation of [multi-version upgrades](https://docs.sourcegraph.com/admin/updates#upgrade-types))
   - note: where possible, strongly encourage the customer to upgrade to their on-prem instance to the latest version of Sourcegraph first.
