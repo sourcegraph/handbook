@@ -1,4 +1,5 @@
 # Using Linear at Sourcegraph (trial)
+
 <!--
 TODOs post adoption:
 - Remove trial from doc title
@@ -36,7 +37,7 @@ here is a very quick run down of the core mental model.
   - Project can have Documents that allow inline comment threads
     similar to Google Docs.
 - **Roadmaps** allow grouping projects into larger units,
-    and are owned at the workspace level.
+  and are owned at the workspace level.
 
 For more details, see the [conceptual model docs](https://linear.app/docs/conceptual-model).
 
@@ -54,6 +55,7 @@ in testing out Linear should feel free to create new Teams.
 Eng PUBLIC has _full_ bidirectional syncing with `sourcegraph/sourcegraph`.
 This means that the following will be synced across,
 regardless of whether the change is made in Linear or GitHub:
+
 1. New issues being created.
 2. Changes to labels, issue title, issue description,
    new comments (for the "GitHub thread" in Linear), and
@@ -63,6 +65,7 @@ All other repositories have _partial_ bidirectional syncing,
 which means that out of (1) and (2) above, only (2) is enabled,
 i.e. new issues created in Linear will not be synced to GitHub.
 This applies to:
+
 - `sourcegraph/customer` - synced with Eng Private
 - `sourcegraph/cody`
 - `sourcegraph/src-cli`
@@ -87,12 +90,12 @@ This applies to:
    ([here](https://linear.app/sourcegraph/settings/asks))
    to easily turn Slack threads into issues. ([docs](https://linear.app/docs/linear-asks))
 4. **Avoid creating new labels inside Linear** (adding existing
-    labels to issues is OK).
-    - Linear uses the `/` syntax to automatically create label
-      groups, making it impossible to create labels with a literal `/`
-      in the UI. So if you type `X/Y` for a new label, it will create
-      a group `X` with a label `Y` in that group. Since `X` is just the
-      group name, the label synced to GitHub will be just `Y`.
+   labels to issues is OK).
+   - Linear uses the `/` syntax to automatically create label
+     groups, making it impossible to create labels with a literal `/`
+     in the UI. So if you type `X/Y` for a new label, it will create
+     a group `X` with a label `Y` in that group. Since `X` is just the
+     group name, the label synced to GitHub will be just `Y`.
 5. **Do explore the various Linear [features](https://linear.app/docs)
    and [integrations](https://linear.app/sourcegraph/settings/integrations)**.
 
@@ -101,7 +104,7 @@ This applies to:
 ### Why are Eng PUBLIC and Eng Private separate?
 
 The Eng Private team is present because of the following
-   considerations:
+considerations:
 
 1. We have some private repositories on GitHub.
 2. We'd like to use bidirectional syncing for the trial
@@ -125,6 +128,7 @@ from Slack threads which may have customer details.
 
 We initially considered doing this but decided against it
 for the following reasons:
+
 - It would create a proliferation of issue prefixes in identifiers,
   making it harder to identify the top-level team based on the identifier.
 - If there were any re-orgs in the future, having the issue identifiers
