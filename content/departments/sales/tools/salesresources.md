@@ -20,10 +20,10 @@ Order Forms and MSAs:
 
 - [Sourcegraph Cloud (Managed Instance) MSA](https://docs.google.com/document/d/1pOktD4-MdZcJOU4hbKLfqpkN2UsH259N/edit)
 - [Sourcegraph On-Prem MSA](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/edit)
+- [Sourcegraph Offline MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
 - [Sourcegraph CPQ Order Form](https://docs.google.com/document/d/1lh2kNzlrKXky6CzHypyrohzkoi7YrxE0PcAo4jf915Y/edit)
-- [Sourcegraph Code Search Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
-- [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
-- [Sourcegraph Offline Order Form and MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
+- [Sourcegraph Enterprise Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
+- [Sourcegraph Cody Consumption Order Form](https://docs.google.com/document/d/1HSQVjYdetrm6eNc5aCkADs8bQJZ8Q7XjnpP_cat1S4w/edit)
 - [Sourcegraph $0 POC Order Form](https://docs.google.com/document/d/1EWZL-xYP3Q26GXtonwXVf1RfEeL-Fv8K/edit)
 
 Partner Contracts:
