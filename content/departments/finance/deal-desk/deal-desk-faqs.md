@@ -47,7 +47,7 @@ A detailed step by step guide can be found here: [Signature Process](https://doc
 
 #### Can we allow the Customer to submit and initiate the contract signature on their end?
 
-Although we loose visibility and control over the signature process (specilly during Quarter End), the Customer can initiate the signature process. Please send them the Order Form in PDF format with Deal Desk's stamp on it. 
+Although we loose visibility and control over the signature process (specilly during Quarter End), the Customer can initiate the signature process. Please send them the Order Form in PDF format with Deal Desk's stamp on it.
 
 #### Is there any minimum package amount for seats increments?
 
@@ -65,11 +65,11 @@ Please attach the customer´s confirmation email to your SFDC Opportunity under 
 
 #### For customers migrating to Cloud, do I need to sign a new Order Form?
 
-Existing Customers migrating to Cloud need to sign a Change Order Form, as they need to accept our Cloud terms. The Change Order is also required per revenue recognition purposes, because we need to make sure the new deployment method is reflected in the contract. 
+Existing Customers migrating to Cloud need to sign a Change Order Form, as they need to accept our Cloud terms. The Change Order is also required per revenue recognition purposes, because we need to make sure the new deployment method is reflected in the contract.
 
 -For customers on our Self-Hosted online terms, we will default to reference our new set of online terms that are valid for Hosted and Self-hosted instances.
 
--If the customer signed paper terms, please reach out to the Deal Desk team to request a Cloud Addendum, that will amend the customer's existing agreement. 
+-If the customer signed paper terms, please reach out to the Deal Desk team to request a Cloud Addendum, that will amend the customer's existing agreement.
 
 -If the Customer accepted our online terms on or after Feb 15th, 2024, as these terms apply to Cody and Code Search for Hosted and Self-hosted instances, the customer won't be required to accept any other set of terms (but will still need to sign the Change Order per rev rec purposes).
 
@@ -109,7 +109,7 @@ Our list price and our discount approval matrix for our Software SKUs can be fou
 
 #### Do I have to maintain the same Price per User per Year upon the contract renewal?
 
-The Price per User per Year on the renewal opportunity will be entirely subject to AEs negotiation. We are not tied to offering the same Per user Price to our Customers upon the contract renewal because our Terms of Service include a renewal clause which states that the subscription will be renewed for a one (1) year term at the then-current fees, unless otherwise stated in an Order Form. 
+The Price per User per Year on the renewal opportunity will be entirely subject to AEs negotiation. We are not tied to offering the same Per user Price to our Customers upon the contract renewal because our Terms of Service include a renewal clause which states that the subscription will be renewed for a one (1) year term at the then-current fees, unless otherwise stated in an Order Form.
 
 #### Can I sell a Platform fee only deal?
 
