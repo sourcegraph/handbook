@@ -428,6 +428,28 @@ The amount specified as compensation in your Deel contract is based on an exchan
    <td>1.4852
    </td>
   </tr>
+  <tr>
+   <td><strong>FY25</strong>
+   </td>
+   <td>March 01, 2024
+   </td>
+   <td>1.000
+   </td>
+   <td>0.9236
+   </td>
+   <td>1.000
+   </td>
+   <td>0.8020
+   </td>
+   <td>1.000
+   </td>
+   <td>1.3494
+   </td>
+   <td>1.000
+   </td>
+   <td>1.5082
+   </td>
+  </tr>
 </table>
 
 #### What does the onboarding process look like?
