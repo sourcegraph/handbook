@@ -6,14 +6,9 @@ Below are answers to common questions we receive in our #deal-desk Slack Channel
 
 #### Where can I find the most recent Order Form template?
 
-Althought the Order Form can still be downloadad and completed manually by the AE, when creating the quote in CPQ DealHub will automatically generate the Order Form for you with all the required information.
+Althought the Order Form can still be downloadad and completed manually by the AE, when creating the quote in CPQ DealHub will automatically generate the Order Form with all the required information.
 
 You can download the Order Form templates here: [Sales Resources](../../sales/tools/salesresources.md).
-
-Available templates:
-
-- [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit): Only valid for renewals or expansion deals, for customers under our pre 4.0 packaging and under our Total User Account (TUA) billing model.
-- [Sourcegraph 4.0 OF: Code Intelligence Platform](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit): For new customers under our Monthly Active User (MAU) billing model (preferred method for capturing license excess and overages).
 
 After downloading a copy of the template, or when working on a draft CPQ Order Form, please drop it in the following g-drive folder: [New Customer in Progress](https://drive.google.com/drive/folders/1o2xBbEp0gy-N1f27RB_vu7CzdSPNRwXQ) (create a new customer folder).
 
@@ -23,13 +18,13 @@ You can check the executed contracts in our google drive folder: [Customer Contr
 
 #### The customer sent me the PO, do I need to save a copy?
 
-Yes, please attach the Customer´s PO to the SFDC Opportunity under “Files” section.
+Yes, please attach the Customer's PO to the SFDC Opportunity under “Files” section.
 
 #### Do I need to enter into an evaluation agreement with my Prospect?
 
-For free POCs, we do not require to enter into separate evaluation agreements. Instead, at the customer’s request, we can prepare an
-Order Form governed by our online terms, which cover trials and POCs.
-For paid POCs, we do need to enter into an agreement to reflect the fee charged, the POC term, expansion price, among other terms. We can also prepare an Order Form governed by our online terms to cover these elements.
+For free POCs, we do not require to enter into separate evaluation agreements. Instead, at the customer’s request, we can prepare an Order Form governed by our online terms, which cover trials and POCs.
+
+For paid POCs, we do need to enter into an agreement to reflect the fee we'll charge the Prospect, the POC term, the expansion price, among other terms. We can also prepare an Order Form governed by our online terms to cover these elements.
 
 ## Approvals & Processes
 
@@ -37,31 +32,29 @@ For paid POCs, we do need to enter into an agreement to reflect the fee charged,
 
 When negotiating non-standard terms, please engage Deal Desk through the #deal-desk Slack Channel or at dealdesk@sourcegraph.com for approval. A list of our non-standard deal terms and our deal approval matrix can be found here: [Order Form review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit)
 
-Deal Desk will review the Order Form once you submit the CPQ quote for approval . Every quote requires Deal Desk´s approval. Please find additional information on how to use CPQ here: [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
+Deal Desk will review the Order Form once you submit the CPQ quote for approval . Every quote requires Deal Desk's approval. Please find additional information on how to use CPQ here: [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
 
 #### How do I submit a document for signature?
 
-For contract signatures (OFs, MSAs, POCs or DPAs) please create a new envelope in Docusign and add the following recipient's names and email addresses:
+Deal Desk will always provide you with a stamped copy of the document that is under approval. So once you receive your stamped contract, please create a new envelope in Docusign and add the following recipient's names and email addresses:
 
-1. Deal Desk´s Stamp
-   Email: nicky.comber@sourcegraph.com
-2. Customer´s Signature
+1. Customer´s Signature
    Email: xxxx
-3. Sourcegraph´s Financial Controller´s Signature
+2. Sourcegraph´s Financial Controller´s Signature
    Email: desene@sourcegraph.com
 
 A detailed step by step guide can be found here: [Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit)
 
 #### Can we allow the Customer to submit and initiate the contract signature on their end?
 
-Although we loose visibility and control over the signature process (specilly during Quarter End), the Customer can initiate the signature process. Please send them the Order Form in PDF format with Deal Desk´s stamp on it. You can request the stamped document in our #deal-desk channel, or send a stamp request through a Docusign envelope.
+Although we loose visibility and control over the signature process (specilly during Quarter End), the Customer can initiate the signature process. Please send them the Order Form in PDF format with Deal Desk's stamp on it. 
 
 #### Is there any minimum package amount for seats increments?
 
 When signing an Order Form, the lowest package size should be 5 users. We should not sell additional seats in increments of 1 user for several reasons:
 
 - Customer experience: Customers that are billed too frequently will have a poor customer experiece.
-- Time: Every expansion deal requires admin processing time for both the Sales and Finance teams, so we should not go though the operational process to just bill the customer for 1 user.
+- Time: Every expansion deal requires admin processing time for both the Sales and Finance teams, so we should not go though the operational process to bill the customer for 1 user.
 - Stretegy: We want to land small and grow fast, so allowing True-Ups in increments of 1 seat does not help us expand.
 
 #### For soft cap expansion deals, do I require a signed Order Form? What documents do I need to book the opportunity?
@@ -72,7 +65,13 @@ Please attach the customer´s confirmation email to your SFDC Opportunity under 
 
 #### For customers migrating to Cloud, do I need to sign a new Order Form?
 
-Customers migrating to Cloud need to sign a Change Order Form, as they need to accept our Cloud online terms. Per revenue recognition purposes, we also need to sign this to make sure the new deployment is reflected in the contract. For customers on Self-Hosted online terms, we will default to referencing our Cloud online terms.
+Existing Customers migrating to Cloud need to sign a Change Order Form, as they need to accept our Cloud terms. The Change Order is also required per revenue recognition purposes, because we need to make sure the new deployment method is reflected in the contract. 
+
+-For customers on our Self-Hosted online terms, we will default to reference our new set of online terms that are valid for Hosted and Self-hosted instances.
+
+-If the customer signed paper terms, please reach out to the Deal Desk team to request a Cloud Addendum, that will amend the customer's existing agreement. 
+
+-If the Customer accepted our online terms on or after Feb 15th, 2024, as these terms apply to Cody and Code Search for Hosted and Self-hosted instances, the customer won't be required to accept any other set of terms (but will still need to sign the Change Order per rev rec purposes).
 
 Additional information on the step by step process can be found [here](https://docs.google.com/document/d/1dVbbMmad94eeKHGNqM3IU4h-c4ky2Bdt53EPrGzzB9Y/edit).
 
@@ -100,17 +99,17 @@ Yes, Account Owner changes should be requested through the Sales Ops Channel and
 
 #### How can I build a quote in CPQ?
 
-For additional information on how to use DealHub and create a quote, please review our [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
+For additional information on how to use DealHub to create a quote, please review our [CPQ JOB AID](https://docs.google.com/document/d/1Lp_0Y6g6AR0p5jpMVXkANQvxWv26Eutik-dTIaeQJfc/edit#)
 
 ## Pricing & Metrics
 
-#### Where can I find our current price list?
+#### Where can I find our current list price?
 
-Our price list and our discount approval matrix can be found [here](https://docs.google.com/spreadsheets/d/1tJ1eN4leY_O6seGDR2ld8oyMZCFvZa5-CHXX5E6NvNc/edit#gid=1534779432). When creating your quote in CPQ, the approval requests will be triggered automatically to the approvers after submitting the quote.
+Our list price and our discount approval matrix for our Software SKUs can be found [here](https://docs.google.com/spreadsheets/d/1tJ1eN4leY_O6seGDR2ld8oyMZCFvZa5-CHXX5E6NvNc/edit#gid=1534779432) and for Professional Services [here](https://docs.google.com/spreadsheets/d/1tJ1eN4leY_O6seGDR2ld8oyMZCFvZa5-CHXX5E6NvNc/edit#gid=811048933). When creating your quote in CPQ, the discount approval requests will be triggered automatically to the approvers after submitting the quote.
 
 #### Do I have to maintain the same Price per User per Year upon the contract renewal?
 
-The Price per User per Year on the renewal opportunity will be entirely subject to AEs negotiation. We are not tied to offering the same Per user Price to our Customers upon the contract renewal because our Terms of Service include a renewal clause which states that the subscription will be renewed for a one (1) year term at the then-current fees, unless otherwise stated in an Order Form. Please check the seat count discounting guidance [here](https://docs.google.com/spreadsheets/d/1tJ1eN4leY_O6seGDR2ld8oyMZCFvZa5-CHXX5E6NvNc/edit#gid=1534779432)for additional information on average discounts.
+The Price per User per Year on the renewal opportunity will be entirely subject to AEs negotiation. We are not tied to offering the same Per user Price to our Customers upon the contract renewal because our Terms of Service include a renewal clause which states that the subscription will be renewed for a one (1) year term at the then-current fees, unless otherwise stated in an Order Form. 
 
 #### Can I sell a Platform fee only deal?
 
@@ -118,7 +117,7 @@ No, Platform Fee only deals are not acceptable. This fee can be assessed at the 
 
 #### Is it possible to tie discounts in a contract to specific actions, such as logo rights, case study, lunch and learn sessions, etc?
 
-The OF should reflect the price we charge including any discounts but we should not tie those discounts to some specific action required by the Customer. However, under “Other Customers Terms” we should include all the agreed commitments with our Customer - e.g.: "During the first year of the Subscription Period, Customer will participate in a case study of how Sourcegraph helps Customer’s developers meet or exceed internal goals."
+The Order Form should reflect the price we charge including any discounts but we should not tie those discounts to some specific action required by the Customer. However, under “Other Customers Terms” we should include all the agreed commitments with our Customer - e.g.: "During the first year of the Subscription Period, Customer will participate in a case study of how Sourcegraph helps Customer’s developers meet or exceed internal goals."
 
 Please check our [Order Form review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) for additional information on our clauses and deal structuring.
 
@@ -126,6 +125,6 @@ Please check our [Order Form review Guide](https://docs.google.com/document/d/1x
 
 No, our products are not designed to be sold individually. We can sell Batch Changes or Code Insights as an add-on to a Customer but they must purchase the add-on for the total number of seats.
 
-#### Does an early renewal impact the account´s IARR?
+#### Does an early renewal impact the account's IARR?
 
 Yes, early renewals are used to perform a “Contract reset”. If the customer signs an early renewal contract terminating the original agreement we should calculate the IARR as follows: Early Renewal Contract ARR - Current Contract ARR .
