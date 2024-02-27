@@ -92,9 +92,9 @@ Every MSP service requires a runnable server in a Docker image whose platform is
 > [!warning]
 > If you are building the Docker image locally or not on a `linux/amd64` platform, make sure to use [Docker buildx](https://github.com/docker/buildx), e.g.
 >
->    ```zsh
->    docker buildx --platform linux/amd64 .
->    ```
+> ```zsh
+> docker buildx --platform linux/amd64 .
+> ```
 >
 > The exception is that building in the [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) monorepo using `bazel build` would build the correct platform.
 
