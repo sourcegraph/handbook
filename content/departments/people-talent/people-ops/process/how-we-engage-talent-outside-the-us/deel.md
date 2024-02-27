@@ -431,7 +431,7 @@ The amount specified as compensation in your Deel contract is based on an exchan
   <tr>
    <td><strong>FY25</strong>
    </td>
-   <td>March 01, 2024
+   <td>February 01, 2024
    </td>
    <td>1.000
    </td>
