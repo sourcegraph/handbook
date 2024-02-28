@@ -76,19 +76,32 @@ func main() {
 
 In your implementation of `runtime.Service`, the primary entrypoint `Initialize` provides a `runtime.Contract` that is pre-configured with MSP defaults and offers helpers to integrating with MSP-provisioned resources. For example:
 
-- to serve your service, you must use `(runtime.Contract).Port`
-- to get a securely authenticated PostgreSQL connection, you can use `(runtime.Contract).PostgreSQL.OpenDatabase(...)`
+- to serve your service, you must use `(runtime.Contract).Port`, listening on all network interfaces, i.e. `0.0.0.0:$PORT`, or `:$PORT`.
+  - **do not use** `localhost:$PORT` or `127.0.0.1:$PORT`.
+- to get a securely authenticated PostgreSQL connection, you should use `(runtime.Contract).PostgreSQL.OpenDatabase(...)`
 - Sentry error reporting integration for error-level logs is automatically configured when using the provided logger instance
 
 A full example service is available in [`cmd/msp-example`](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/msp-example) that makes use of most MSP functionality.
 
 ### Service images
 
-MSP expects Docker images built for the `linux/amd64` platform.
-If you are using a recent Macbook, this means that images built locally do not work out of the box - you must build images with [the `--platform=linux/amd64` flag](https://docs.docker.com/build/building/multi-platform/#building-multi-platform-images), or build your images and publish in CI.
+#### Prepare Docker image
+
+Every MSP service requires a runnable server in a Docker image whose platform is `linux/amd64`.
+
+> [!warning]
+> If you are building the Docker image locally or not on a `linux/amd64` platform, make sure to use [Docker buildx](https://github.com/docker/buildx), e.g.
+>
+> ```zsh
+> docker buildx --platform linux/amd64 .
+> ```
+>
+> The exception is that building in the [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) monorepo using `bazel build` would build the correct platform.
 
 When publishing images for MSP to consume, you can use the public Docker registry, or an [Artifact Registry](https://cloud.google.com/artifact-registry) repository within the Sourcegraph GCP organization.
-When using a Docker registry within GCP, MSP will automatically provision the prerequisite permissions for MSP to access your images.
+Image repositories published by the [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) monorepo work as well.
+
+When using a private image registry within GCP, MSP will automatically provision the prerequisite permissions for MSP to access your images.
 
 > [!WARNING] More guidance coming soon!
 
