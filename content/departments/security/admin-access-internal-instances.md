@@ -7,6 +7,16 @@ Site-admin access to internal instances (dotcom, s2, rctest, demo, k8s) is provi
 
 ## How it works
 
+### New direct method
+Site-admin access can now be granted instantly using our new Entitler service. You can request the bundle by typing `/access_request` and in the 'Search permission' box type 'dotcom'. You will see the set 'Dotcom direct site-admin'. Set your desired duration, make sure you add a nice justification and you're good to go! Access should be granted within less than a minute.
+
+> [!NOTE]
+> This requires users to have a *verified* @Sourcegraph.com email account as their primary email.
+
+If you have any issues with the integration, please drop a message in #discuss-security.
+
+### Deprecated SOAP method
+
 Internal instances use the same login method for site-admin access to customer Cloud instances: [Sourcegraph Operator Auth Provider (SOAP)](../cloud/technical-docs/oidc_site_admin.md#sourcegraph-teammate-access-to-cloud-instances). Any employee can request site-admin access for up to 12h with automatic approval.
 
 For sourcegraph.com use the following instructions (or substitute the URL and Entitle request for other instances)
