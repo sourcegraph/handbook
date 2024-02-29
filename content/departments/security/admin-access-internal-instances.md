@@ -14,6 +14,6 @@ Site-admin access can now be granted instantly using our new Entitler service. Y
 Click here to [request access now.](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjE4MDAiLCJqdXN0aWZpY2F0aW9uIjoiW0VudGVyIGp1c3RpZmljYXRpb25dIiwiYnVuZGxlSWRzIjpbIjMwNzBjZWYxLTZlNGItNDEwYS05ODU2LTc0YTM0ZTliODZmNSJdfQ%3D%3D)
 
 > [!NOTE]
-> This requires users to have a *verified* @Sourcegraph.com email account as their primary email.
+> This requires users to have a _verified_ @Sourcegraph.com email account as their primary email.
 
 If you have any issues with the integration, please drop a message in [#discuss-security](https://sourcegraph.slack.com/archives/C1JH2BEHZ).
