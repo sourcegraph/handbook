@@ -4,10 +4,7 @@
 TODOs post adoption:
 - Remove trial from doc title
 - Combine with 'working with issues' doc
-- Collect feedback on labels vs label groups
-  - If we're using flat labels, then change the label
-    syntax to use `.` so that we can create new labels
-    inside the Linear UI.
+- Update guidance around label groups.
 - Update mentions of Eng Private team if we
   merge that with main Eng team. Maybe we still need
   a separate OSS team for OSS repos.
@@ -75,29 +72,38 @@ This applies to:
 
 ## Dos and Don'ts
 
-1. **Don't create new Teams for sub-teams in Engineering**
-   (except for testing Linear features, that's OK).
-   Instead, let's try to tweak existing settings or enable new ones
-   which would be useful to all teams.
-2. **Do add other repositories of interest to Linear**.
-   - Even for repos which only have PRs, if the PR descriptions
-     use Linear identifiers such as `Fixes ENG-123`,
-     then the corresponding issue will be auto-closed.
-   - Caveat: Do not enable bidirectional syncing for other repos
-     in Eng PUBLIC or Eng Private.
-3. If your team is on-board, **do connect your team's #discuss
-   channel with Eng Private using Linear Asks**
-   ([here](https://linear.app/sourcegraph/settings/asks))
-   to easily turn Slack threads into issues. ([docs](https://linear.app/docs/linear-asks))
-4. **Avoid creating new labels inside Linear** (adding existing
-   labels to issues is OK).
-   - Linear uses the `/` syntax to automatically create label
-     groups, making it impossible to create labels with a literal `/`
-     in the UI. So if you type `X/Y` for a new label, it will create
-     a group `X` with a label `Y` in that group. Since `X` is just the
-     group name, the label synced to GitHub will be just `Y`.
-5. **Do explore the various Linear [features](https://linear.app/docs)
-   and [integrations](https://linear.app/sourcegraph/settings/integrations)**.
+1.  **Don't create new Teams for sub-teams in Engineering**
+    (except for testing Linear features, that's OK).
+    Instead, let's try to tweak existing settings or enable new ones
+    which would be useful to all teams.
+2.  **Do add other repositories of interest to Linear**.
+    - Even for repos which only have PRs, if the PR descriptions
+      use Linear identifiers such as `Fixes ENG-123`,
+      then the corresponding issue will be auto-closed.
+    - Caveat: Do not enable bidirectional syncing for other repos
+      in Eng PUBLIC or Eng Private.
+3.  If your team is on-board, **do connect your team's #discuss
+    channel with Eng Private using Linear Asks**
+    ([here](https://linear.app/sourcegraph/settings/asks))
+    to easily turn Slack threads into issues. ([docs](https://linear.app/docs/linear-asks))
+4.  **Avoid creating new label groups inside Linear**
+    (creating new labels, is OK). - If you attempt to create a new label with `/` on-the-fly
+    when editing an issue, Linear will create a label group
+    instead of a "flat" label.
+
+    For example, if you type `X/Y` for a new label, it will create
+    a group `X` with a label `Y` in that group. Since `X` is the
+    group name, the label synced to GitHub will be just `Y`.
+    This may be confusing to someone seeing the issue on GitHub
+    as the prefix is no longer available.
+
+    - Label groups also have at-most-one semantics - you can't apply
+      multiple labels from the same group to a single issue.
+    - Alternative: you can create a label with `/` from the Team's settings
+      ([example link](https://linear.app/sourcegraph/settings/teams/ENG/labels)).
+
+5.  **Do explore the various Linear [features](https://linear.app/docs)
+    and [integrations](https://linear.app/sourcegraph/settings/integrations)**.
 
 ## FAQ
 
