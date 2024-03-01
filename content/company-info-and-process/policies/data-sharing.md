@@ -34,7 +34,6 @@ Below you can find a matrix to help you make informed decisions about what data 
 > **REMINDER**
 >
 > - Do **NOT** submit any **credentials** to a 3rd party
->
 > - Take the time to **review** the data before you send it to make sure no PII/Restircted data is included in the thread (i.e. slack threads should be reviewed for sensitive data and celeared of it before being shared)
 >   <br> > <img src="https://storage.googleapis.com/sourcegraph-assets/AI%20data%20sharing.png" alt="A beautiful sunset over the ocean" width="600" height="400">
 

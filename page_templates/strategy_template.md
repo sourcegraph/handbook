@@ -72,7 +72,6 @@ Quicklinks:
 > - A product differentiator
 > - Cloud-first
 > - Adoption
->
 > - Theme
 >   - Theme extra detail
 > - Theme
