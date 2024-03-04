@@ -228,9 +228,10 @@ The secure coding guidelines contain information on how to address and prevent c
 ## RFC reviews
 
 Security should be asked to review RFCs which:
- - Proposes changing handling of customer data
- - Proposes updates or new infrastructure
- - Proposes accepting risk instead of other tradeoffs
+
+- Proposes changing handling of customer data
+- Proposes updates or new infrastructure
+- Proposes accepting risk instead of other tradeoffs
 
 We would much rather take a look at RFCs we didn't need to than miss important RFCs. When in doubt, definitely ask us for a review.
 
