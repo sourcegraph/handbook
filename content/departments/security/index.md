@@ -225,6 +225,15 @@ We are responsible for maintaining company-wide security policies. You can find 
 
 The secure coding guidelines contain information on how to address and prevent certain types of vulnerabilities. It's a required read for engineers at Sourcegraph and is finished by completing a short assessment. The training and guidelines can be found [here](./secure-code-training.md).
 
+## RFC reviews
+
+Security should be asked to review RFCs which:
+ - Proposes changing handling of customer data
+ - Proposes updates or new infrastructure
+ - Proposes accepting risk instead of other tradeoffs
+
+We would much rather take a look at RFCs we didn't need to than miss important RFCs. When in doubt, definitely ask us for a review.
+
 ## Data Sharing
 
 Please read about our data sharing practises and guidelines [here](../../company-info-and-process/policies/data-sharing.md).
