@@ -15,11 +15,11 @@ We use the following metrics to gauge the effectiveness and success of our team:
 
 ### Utilization (Adoption)
 
-We consider healthy adoption/utilization to comprise at least 80% consumption of purchased seats as measured by Monthly Active Users (MAU) / Total Licensed Seats. We aim to get to 80% consumption within the first 60 days of the engagement (after the production environment is established) and maintain at least 80% consumption at all times.
+We consider healthy adoption/utilization to comprise at least 80% consumption of purchased seats as measured by Monthly Active Users (MAU) / Total Licensed Seats. We aim to get to 50% consumption within the first 60 days of the engagement (after the production environment is established) and maintain at least 80% consumption at all times.
 
 ### Consumption (Usage)
 
-TAs seek to educate and enable customer devs to integrate Sourcegraph into their workflows so that they use it multiple times daily. Today, we calculate usage based on a 4-week average lookback of daily active users / last month's monthly active users.
+Today, we calculate usage based on a 4-week average lookback of daily active users / last month's monthly active users. We consider healthy usage/consumption to be atleast 30%, that is at least 30% of users are using us at least once daily. TAs seek to educate and enable customer devs to integrate Sourcegraph into their workflows so that they use it multiple times daily.
 
 ### Retention
 
