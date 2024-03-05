@@ -107,14 +107,17 @@ A critical last step in the sales process is to hand off the opportunity to the 
 
 The overall process is captured [here](../../ta/enterprise-success/team-culture/processes.md#post-sales-handoff). It's most important that CE knows the process is slightly different depending on the [customer segmentation](../../ta/index.md#customer-segmentation) and whether they will be managed by a named, dedicated TA or part of our digital, scaled success program.
 
-Need-to-know's for a named TA account:
+Need-to-know's for all accounts:
 
-- TA will handle the production license
+- CE handles the production license for any net new business opportunity or expansion.
+- If a separate production cloud instance is required, CE handles the creation request
+
+For a named TA account:
+
 - CEs are expected to participate in a formal knowledge transfer / hand-off with the TA before the deal closes
   - CE should collect relevant information (doc links, channels, etc.) to make for a productive session
 - CE should participate in the post-sales kick-off call; after that, CE should roll off of the account until / unless there is an active expansion opportunity.
 
-Need-to-know's for a digital, scaled success account:
+Need-to-know's for a digital & scaled success accounts:
 
-- CE must handle the production license, and if a separate production cloud instance is required, should handle the creation request of that.
 - CE, as part of hand-off, should map the appropriate roles on the contacts in Salesforce. See role definitions [here, step 7](../../ta/enterprise-success/team-culture/processes.md#process-overview).
