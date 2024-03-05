@@ -9,17 +9,17 @@ An overview our current program across the customer lifecycle is depicted below:
 
 ## Lifecycle Stages
 
-- [Onboarding](#customer-onboarding)
-- [Adopting](#adopting)
-- [Nurturing](#nurturing)
-- [Renewing](#renewing)
+- [1. Onboarding](#customer-onboarding)
+- [2. Adopting](#adopting)
+- [3. Nurturing](#nurturing)
+- [4. Renewing](#renewing)
 - [Reccuring touchpoints](#recurring-touchpoints)
 
-### Customer Onboarding
+### 1. Customer Onboarding
 
-The onboarding phase runs for 60 days from contract close.
+The onboarding phase runs for 60 days from contract close. The goal is to get to 50% [consumption of seats](../index.md#utilization-adoption) by the end of the first 60 days.
 
-Effective FY25, Digital customers are required to be on the cloud, so besides potentially creating a new production instance as part of the hand-off, it is assumed that the production instance is provisioned as part of the hand-off process.
+Note: Effective FY25, Digital customers are required to be on the cloud, so besides potentially creating a new production instance as part of the hand-off, it is assumed that the production instance is provisioned as part of the hand-off process.
 
 Customer onboarding consists of a series of email nurture campaigns to contacts based on the role mapping (step 7.4 above). A synchronous onboarding training can be requested in #discuss-scaled-success.
 
@@ -37,9 +37,9 @@ Depending on what the customer has purchased, we have different sequences for Co
 
 30 days into the partnership, a 30-day check-in and survey email is sent to the Program Contact, Instance Admin, and Champion of an account. Our goal with this check-in is to 1.) allow customers to provide feedback on their experience so far and 2.) request help from the TA team as desired.
 
-### Adopting
+### 2. Adopting
 
-Customers enter the adoption phase after 60 days. Customers remain in the adoption phase until they reach 80% utilization (MAU / Seats) AND 30% usage (DAU / MAU) OR their renewal is within 120 days (at which point they enter the renewal lifecycle stage).
+Customers enter the adoption phase after 60 days. Customers remain in the adoption phase until they reach 80% utilization (MAU / Seats) AND 30% usage [(DAU / MAU)](../index.md#consumption-usage) OR their renewal is within 120 days (at which point they enter the renewal lifecycle stage).
 
 #### 90-day check-in
 
@@ -57,17 +57,17 @@ Where customer health is poor or concerning, specific email campaigns are sent t
 
 When users begin to interact with a new feature for the first time, the Digital Success team is alerted and advanced use case materials are sent to the account to encourage enablement and use.
 
-#### Customer Utlization Updates
+#### Customer Utilization Updates
 
 We actively monitor customer utilization and adoption of features. Utilization posts, serving as alerts, are promptly shared in #alerts-customer-usage, keeping our teams informed and enabling them to respond effectively to customer needs and engagement.
 
-### Nurturing
+### 3. Nurturing
 
 Customers enter the nurture phase once they have reached 80% utilization (MAU / Seats) AND 30% usage (DAU / MAU) OR their renewal is within 120 days (at which point they enter the renewal lifecycle stage).
 
 At this stage, we continue to monitor customer usage throughout, sharing targeted outreach and check-ins as needed.
 
-### Renewing
+### 4. Renewing
 
 A customer enters the renewal lifecycle stage 120 days out from renewal. This process is currently facilitated primarily by the Account Executive today.
 
