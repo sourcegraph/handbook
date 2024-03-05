@@ -130,11 +130,12 @@ For members of Cloud, DevInfra and Security teams, the Slack command `break-glas
 
 - Entitle app Slack channel shows your requests and expirations. You can hit renew on an expired permission request to re-request it.
 
-![slack app renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%201.png)
+![webapp renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%202.png)
+
 
 - Entitle Webapp has history of all your requests in the "My Requests" section. You can click to renew a past request from the right most column on this page.
+ ![slack app renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%201.png)
 
-![webapp renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%202.png)
 
 #### What if i run into an error in Entitle?
 
