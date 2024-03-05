@@ -132,10 +132,8 @@ For members of Cloud, DevInfra and Security teams, the Slack command `break-glas
 
 ![webapp renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%202.png)
 
-
 - Entitle Webapp has history of all your requests in the "My Requests" section. You can click to renew a past request from the right most column on this page.
- ![slack app renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%201.png)
-
+  ![slack app renew](https://storage.googleapis.com/sourcegraph-assets/Entitle%20Renew%201.png)
 
 #### What if i run into an error in Entitle?
 
