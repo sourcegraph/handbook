@@ -227,7 +227,7 @@ The secure coding guidelines contain information on how to address and prevent c
 
 ## RFC reviews
 
-Security should be asked to review RFCs which:
+Security should be added as an approver to the RFC if it:
 
 - Proposes changing handling of customer data
 - Proposes updates or new infrastructure
