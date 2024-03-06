@@ -1025,16 +1025,6 @@ taras_yemets:
   links: '[LinkedIn](https://www.linkedin.com/in/taras-yemets/), [GitHub](https://github.com/taras-yemets)'
   description: Taras is a software engineer hailing from Cherkasy, Ukraine 🇺🇦. Outside of work, he enjoys cycling, skiing, spending time outside with family and friends, traveling, watching movies, and sporting events.
 
-maureen_loughrey:
-  name: Maureen Loughrey
-  email: maureen.loughrey@sourcegraph.com
-  github: maureenlsourcegraph
-  pronouns: she/her
-  role: Tech Ops Engineer
-  reports_to: tech_ops_manager
-  location: Austin, TX, USA 🇺🇸
-  description: Maureen lives in Austin, TX with her partner, two shih tzus, and two loveable goldfish. When not tinkering with computers she can often be found recreating recipes from the Great British Bake Off or meandering about the Austin library.
-
 madison clark:
   name: Madison Clark
   email: madison.clark@sourcegraph.com
