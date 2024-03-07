@@ -19,7 +19,7 @@ For more details, read our [Source strategy & mission](strategy.md)
 
 ## Contact
 
-- #discuss-source in Slack.
+- #discuss-source or @source-support in Slack.
 
 ## Emergency Contact
 
