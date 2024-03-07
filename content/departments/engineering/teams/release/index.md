@@ -27,7 +27,7 @@ For more detailed information on the Release team members, check out our [README
 ## Contact
 
 - #discuss-release-ship, or `@release-team` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
-- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
+- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease-ship) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
 
 ## Support
 
