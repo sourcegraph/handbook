@@ -8,7 +8,7 @@ The search platform team owns all parts of Sourcegraph that map an interpreted s
 - Open source indexing, current at over 2.5M repos!
 - Symbols (shared with [Graph](../../teams/graph/index.md))
 
-To learn more about our goals, see the [Search Core strategy](../../../../strategy-goals/strategy/search/core.md) page.
+To learn more about our goals, see the [Search Core strategy](../../../../strategy-goals/strategy/search/index.md) page.
 
 ## Team members
 

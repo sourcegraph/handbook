@@ -256,7 +256,7 @@ If you see an area that is missing, [figure out](../../../product/process/feedba
 - [sourcegraph/repo-updater](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/repo-updater)
 - [sourcegraph/gitserver](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/gitserver)
 
-## [Search Core](../../teams/search/core.md)
+## [Search Core](../../teams/search/index.md)
 
 ### General
 

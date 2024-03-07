@@ -1,6 +1,6 @@
 # Search strategy
 
-Sourcegraph aims to be a platform powered by code search. There are two teams that work together to make this possible: [Code Search](../../../departments/engineering/teams/code-search/index.md) and [Search Platform](../../../departments/engineering/teams/search/core.md), with the Code Search team focusing primarily on the user-facing aspects of search, and the Platform team focusing on backend, relevancy, and performance. This page outlines the vision, strategy and goals that are shared by both teams.
+Sourcegraph aims to be a platform powered by code search. There are two teams that work together to make this possible: [Code Search](../../../departments/engineering/teams/code-search/index.md) and [Search Platform](../../../departments/engineering/teams/search/index.md), with the Code Search team focusing primarily on the user-facing aspects of search, and the Platform team focusing on backend, relevancy, and performance. This page outlines the vision, strategy and goals that are shared by both teams.
 
 Quicklinks:
 
@@ -42,4 +42,4 @@ As the scope of the Search teams continues to expand, we face competition in new
 
 ## Where we are now and what's next
 
-This section is broken out into [Search Core](core.md) and [Search Product](product.md) pages. Refer to each of those for details on what's coming up for each team.
+This section is broken out into [Search Platform](index.md) and [Search Product](product.md) pages. Refer to each of those for details on what's coming up for each team.
