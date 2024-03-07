@@ -22,6 +22,7 @@ search_platform:
   brief: The Search Platform Team provides information retrieval on top of data sources
   strategy_link: /strategy-goals/strategy/search/core/index.md
   design: rob_rhyne
+  em: matt_manela_search_platform
   issue_labels:
     - team/search-core
 
@@ -29,19 +30,17 @@ source:
   title: Source
   brief: The Source team is responsible for code host integrations, gitserver, repo-updater, authentication & authorization to Sourcegraph, user management, and admin experience.
   strategy_link: /strategy-goals/strategy/platform/source.md
+  em: matt_manela_source
   issue_labels:
-    - team/iam
-    - team/admin-exp
-    - team/repo-management
+    - team/source
 
-apis:
-  title: APIs
-  brief: The APIs team is responsible for providing a structured way for internal and external partners to build on top Sourcegraph
-  strategy_link: /strategy-goals/strategy/platform/apis.md
+graph:
+  title: Graph
+  brief: Create structural and semantic data from unstructured code to provide end-user value.
+  strategy_link: /strategy-goals/strategy/platform/graph.md
+  em: matt_manela_graph
   issue_labels:
-    - team/iam
-    - team/admin-exp
-    - team/repo-management
+    - team/graph
 
 ship_release:
   title: Releases

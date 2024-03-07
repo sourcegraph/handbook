@@ -61,26 +61,26 @@ joe_chen:
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
   description: Joe lives in his little dark room. Prior to Sourcegraph, Joe created the Gogs project, a painless self-hosted Git service. Joe graduated with a MS in Software Development from Boston University.
 
-erika_rice_scherpelz_source:
-  name: Erika Rice Scherpelz
-  pronouns: she/her
+matt_manela_source:
+  name: Matt Manela
+  pronouns: he/him
   role: Engineering Manager, Source
   reports_to: eng_lead
   manager_role_slug: source_lead
   hide_on_team_page: true
 
-erika_rice_scherpelz_apis:
-  name: Erika Rice Scherpelz
-  pronouns: she/her
-  role: Engineering Manager, APIs
+matt_manela_graph:
+  name: Matt Manela
+  pronouns: he/him
+  role: Engineering Manager, Graph
   reports_to: eng_lead
-  manager_role_slug: apis_lead
+  manager_role_slug: graph_lead
   hide_on_team_page: true
 
-erika_rice_scherpelz_search_platform:
-  name: Erika Rice Scherpelz
-  pronouns: she/her
-  role: Engineering Manager, Search Platform (interim)
+matt_manela_search_platform:
+  name: Matt Manela
+  pronouns: he/him
+  role: Engineering Manager, Search Platform
   reports_to: eng_lead
   manager_role_slug: search_platform_lead
   hide_on_team_page: true
@@ -100,7 +100,7 @@ dan_adler:
 geoffrey_gilmore:
   name: Geoffrey Gilmore
   role: Software Engineer
-  reports_to: apis_lead
+  reports_to: source_lead
   location: San Francisco, CA, USA 🇺🇸
   github: ggilmore
   email: geoffrey@sourcegraph.com
@@ -742,7 +742,7 @@ varun_gandhi:
   name: Varun Gandhi
   pronouns: he/him
   role: Software Engineer
-  reports_to: search_lead
+  reports_to: graph_lead
   location: 'Taipei, Taiwan'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
@@ -1395,9 +1395,8 @@ James_Ghaedi:
 
 steve_yegge:
   name: Steve Yegge
-  reports_to: ceo
+  reports_to: cto
   role: Head of Engineering
-  manager_role_slug: eng_lead
   github: steveyegge
   pronouns: he/him
   location: Kirkland, WA, USA 🇺🇸
@@ -1461,12 +1460,25 @@ erika_rice_scherpelz:
   email: erikars@sourcegraph.com
   github: erikars
   pronouns: she/her
-  role: Head of Search
-  reports_to: eng_lead
+  role: Head of Engineering
+  reports_to: ceo
   location: Bellevue, Washington, USA 🇺🇸
   links: '[The FLUX Review](https://read.fluxcollective.org/), [LinkedIn](https://www.linkedin.com/in/erikars)'
-  manager_role_slug: search_lead
+  manager_role_slug: eng_lead
   description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'
+
+matt_manela:
+  name: Matt Manela
+  email: matt.manela@sourcegraph.com
+  github: mmanela
+  pronouns: he/him
+  role: Engineering Manager, Product Platform
+  reports_to: eng_lead
+  location:  Albany, NY, USA 🇺🇸
+  links: '[Blog](https://matthewmanela.com/), [LinkedIn](https://www.linkedin.com/in/mmanela/)'
+  manager_role_slug: product_platform_lead
+  description: 'Matt is passionate about creating scalable quality software and high performing compassionate customer focused teams. Before Sourcegraph, Matt spent time at a green energy startup scaling residential solar energy and at Microsoft working on developer tools and services. When not working, Matt can be found spending time with his family, reading (mostly sci-fi), [blogging](https://matthewmanela.com/articles) or building software for fun ([website about idiom translation](https://idiomatically.net/) or a [mutli-platform word game](https://matthewmanela.com/anagram-ladder/))'
+
 
 anton_sviridov:
   name: Anton Sviridov
@@ -1474,7 +1486,7 @@ anton_sviridov:
   github: keynmol
   pronouns: he/him
   role: Software Engineering, Code Intelligence
-  reports_to: search_lead
+  reports_to: graph_lead
   location: London, UK 🇬🇧
   links: '[Blog](https://blog.indoorvivants.com), [Twitter](https://twitter.com/velvetbaldmime)'
   description: 'As a software engineer I peaked in school, developing and running a Harry Potter-esque school of "magic". Since then it has all been downhill with mostly Scala and its various flavours. When not programming I enjoy spending time with my family and not going to the gym'

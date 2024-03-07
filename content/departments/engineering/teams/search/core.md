@@ -1,11 +1,12 @@
-# Search core team
+# Search Platform team
 
-The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results:
+The search platform team owns all parts of Sourcegraph that map an interpreted search query to a set of results:
 
 - Indexed and unindexed search (Zoekt & Searcher)
 - Diff/commit search
 - Result ranking
 - Open source indexing, current at over 2.5M repos!
+- Symbols (shared with [Graph](../../teams/graph/index.md))
 
 To learn more about our goals, see the [Search Core strategy](../../../../strategy-goals/strategy/search/core.md) page.
 
@@ -19,12 +20,11 @@ We seek to follow a set of [guiding principles](./guiding_principles_core.md) wh
 
 ## Contact
 
-- #search channel or @search-core on Slack.
-- [`team/search-core` on GitHub](https://github.com/orgs/sourcegraph/teams/search-core)
+- #discuss-search-platform in Slack.
 
 ## Support rotation
 
-The Search Core team has a customer support rotation: each week, one team member will be responsible for fielding questions and requests from Customer Engineering and Customer Support.
+The Search Platform team has a customer support rotation: each week, one team member will be responsible for fielding questions and requests from Customer Engineering and Customer Support.
 
 The engineer on support rotation can be contacted using the Slack alias `@search-core-support`.
 
