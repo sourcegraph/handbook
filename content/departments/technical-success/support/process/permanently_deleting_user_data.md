@@ -29,15 +29,7 @@ _Teammates can [request site admin access to dotcom](../../../security/admin-acc
    a. Confirm the email address shown matches the email address the request came from.
    b. Confirm the email address is marked as _verified_. If it is not, the request could be a malicious request and the user will need to sign into Sourcegraph and verify the email address in order for us to verify the account is owned by them before we can proceeed with deletion.
 
-3. Locate the user at e.g. https://sourcegraph.com/site-admin/users?query=theusername, click the three dots under the `Actions` column and select the 'Delete Forever' option:
-
-<img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-forever-action.png">
-
-4. Select OK on the warning prompt that appears:
-
-<img width="394" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-forever-check.png">
-
-5. All data associated with that user has now been deleted!
+3. Post the email and username on #discuss-core-services channel and wait for someone to delete it.
 
 ### How to delete previous tickets from a requester
 
