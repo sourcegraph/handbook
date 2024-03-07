@@ -18,7 +18,7 @@ This will involve coordinating with multiple teams to get all the data deleted f
 
 ### In the product: how to nuke a user account
 
-1a. If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](../tools/index.md#sourcegraphcom-admin-access) (it requires site admin). Inform the customer that you can only remove the username associated with the email they submitted the request from.
+1a. If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](../tools/index.md#sourcegraphcom-admin-access) (it requires site admin). Inform the customer that you can only remove the username associated with the email they submitted the request from. You can use the "Delete user from Sourcegraph.com" macro on Zendesk
 
 _Teammates can [request site admin access to dotcom](../../../security/admin-access-internal-instances.md) through Entitle._
 
