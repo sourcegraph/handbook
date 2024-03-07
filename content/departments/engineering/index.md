@@ -17,7 +17,7 @@ The Engineering department at Sourcegraph consists of:
 - Product Platform
   - [Source](teams/source/index.md)
   - [Graph](teams/graph/index.md)
-  - [Search Platform](teams/search/core.md)
+  - [Search Platform](teams/search/index.md)
 
 ## Slack channels
 
