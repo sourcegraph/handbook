@@ -16,7 +16,7 @@ To learn more about Cody Gateway, refer to the [main Cody Gateway page](./index.
 
 Access to the production Cody Gateway instance can be provisioned with the following steps:
 
-1. On sourcegraph.com, go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. On sourcegraph.com, go to [**Site admin > Enterprise licenses**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. Under "Cody services":
@@ -47,9 +47,9 @@ Once access has been provisioned, for self-hosted customers please point them to
 
 ## Analyzing usage
 
-A brief summary of Cody Gateway usage is available in each subscription's "Cody services" section:
+A brief summary of Cody Gateway usage is available in each Enterprise license's "Cody services" section:
 
-1. On sourcegraph.com, go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. On sourcegraph.com, go to [**Site admin > Enterprise licenses**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. View data in "Cody services" section
