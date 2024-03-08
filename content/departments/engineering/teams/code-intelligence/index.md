@@ -24,10 +24,6 @@ The Code Intelligence team builds tools and services that provide contextual inf
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/fcaddfd333da487cb526a4fc99ead803" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-## Members
-
-{{generator:product_team.code_intelligence}}
-
 ## How we work
 
 On Slack, use the `#code-intel` channel, tag `@code-intel-support` for any help or use the `@codeintel` handle to notify the whole team. As detailed below in the streams section we do have several additional internal rooms however we expect almost all questions and conversations with external teams/departments to take place in `#code-intel`.
