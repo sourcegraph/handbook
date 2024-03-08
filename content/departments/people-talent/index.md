@@ -502,18 +502,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
-          <a href="../../team/index.md#jamie-oconnell-sheher" target="_blank" rel="noopener">
-            <img
-              src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
-              alt="Picture of Jamie O'Connell"
-              style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Jamie O'Connell</div>
-        <div style="text-align: center; font-size: 12px">Senior People-Ops Generalist</div>
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
@@ -575,21 +563,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
             </a>
           </div>
           <div style="text-align: center">Kelsey Nagel</div>
-          <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-        <div>
-          <div style="text-align: center">
-            <a href="../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/GraceBohl.png"
-                alt="Picture of Grace Bohl"
-                style="background: transparent; width: 128px"
-              />
-            </a>
-          </div>
-          <div style="text-align: center">Grace Bohl</div>
           <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
         </div>
       </div>
