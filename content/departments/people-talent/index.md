@@ -502,9 +502,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
       </div>
     </div>
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      </div>
-    </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
           <a href="../../team/index.md#lauren-ross-sheher" target="_blank" rel="noopener">
