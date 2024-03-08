@@ -68,7 +68,7 @@ A tracking issue can also track other tracking issues. This is helpful when trac
   </a>
 </div>
 
-The 3.21 milestone tracking issue will track all issues and pull requests with the `team/code-intelligence` label in milestone 3.21. The RFC tracking issue will track all issues and pull requests with both the `team/code-intelligence` label and the `RFC-235` label. Because the RFC tracking issue and its children have a _superset_ of labels tracked by the milestone tracking issue, the latter will include all of the issues referenced in the former.
+The 3.21 milestone tracking issue will track all issues and pull requests with the `team/graph` label in milestone 3.21. The RFC tracking issue will track all issues and pull requests with both the `team/graph` label and the `RFC-235` label. Because the RFC tracking issue and its children have a _superset_ of labels tracked by the milestone tracking issue, the latter will include all of the issues referenced in the former.
 
 If a tracking issue includes other tracking issues, then all issues and PRs will be nested under the _most specific_ tracking issue that includes it (the tracking issue with the most label overlap). This allows arbitrarily deep nesting of tracking issues, which can span over multiple assignees and milestones.
 

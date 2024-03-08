@@ -1,14 +1,5 @@
 # yaml-language-server: $schema=../schema/product_teams.schema.json
 
-code_intelligence:
-  title: Code Intelligence
-  brief: Code intelligence provides features and services that help developers better understand and navigate code.
-  strategy_link: /strategy-goals/strategy/code-intelligence/index.md
-  em: erika_rice_scherpelz
-  pmm: alex_isken
-  issue_labels:
-    - team/code-intelligence
-
 code_search:
   title: Code Search
   brief: The Code Search team provides features built on top of search
