@@ -21,6 +21,7 @@ For account deletions, remove the account from [sourcegraph.com](http://sourcegr
   - Find the user at [https://sourcegraph.com/site-admin/users](https://sourcegraph.com/site-admin/users) using their email.
   - Choose 'Delete forever' from the actions menu.
 - [ ] Delete the user from SAMS
+
   - Post the user's email and username in [#discuss-core-services](https://sourcegraph.slack.com/archives/discuss-core-services) and wait for deletion.
       <aside>
       Deletion request: <br>
@@ -29,10 +30,9 @@ For account deletions, remove the account from [sourcegraph.com](http://sourcegr
       </aside>
 
 - [ ] Inform the user their account is permanently deleted.
-  <aside>
-  Your account associated with the email: user@example.com has been permanently deleted. Thank you for trying Sourcegraph.
-  </aside>
-
+<aside>
+Your account associated with the email: user@example.com has been permanently deleted. Thank you for trying Sourcegraph.
+</aside>
 
 ## Data deletions
 
