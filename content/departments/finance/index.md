@@ -44,12 +44,12 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 **Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
 
-### Fiscal year 2023
+### Fiscal year 2025
 
-- **FY23 Q1**: 01 February, 2022–30 April, 2022
-- **FY23 Q2**: 01 May, 2022–31 July, 2022
-- **FY23 Q3**: 01 August, 2022–31 October, 2022
-- **FY23 Q4**: 01 November, 2022–31 January, 2023
+- **FY23 Q1**: 01 February, 2024 – 30 April, 2024
+- **FY23 Q2**: 01 May, 2024 – 31 July, 2024
+- **FY23 Q3**: 01 August, 2024 – 31 October, 2024
+- **FY23 Q4**: 01 November, 2024 – 31 January, 2025
 
 ### Sources of truth
 
