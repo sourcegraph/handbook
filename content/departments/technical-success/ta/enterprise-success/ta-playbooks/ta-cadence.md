@@ -61,14 +61,18 @@
 
 #### MBRs (Monthly Business Reviews)
 
-- Happen on the second week of every month. 30 minute sessions.
+- Happen on the second week of every month.
+- 30-minute sessions.
 - Attendees: TA, TA Director and TS VP.
-- Goal: monthly checkpoint to review the "Top 3" accounts for a TA based on the [Account Success Planning](../team-culture/processes.md#success-plans)
-- "Top 3" account criteria: Top ARR spend, renewing in the CFQ (Current Fiscal Quarter), accounts with expansion opportunities.
+- Goal: monthly checkpoint to review 3 accounts for a TA based on the [Account Success Planning](../team-culture/processes.md#success-plans)
+- 3 account selection criteria:
+  - Top ARR spend
+  - Renewing in the CFQ (Current Fiscal Quarter)
+  - Accounts with expansion opportunities.
 - Agenda:
   1. (5 mins) [Customer Health Metrics Review](https://sourcegraph.vitally.io/hubs/c6b472f7-01b4-45ce-b95b-749b9a4d1f24/7fa20112-4023-47a2-8a44-50d1179b0d03)
   2. (15 minutes) Top 3 accounts review; 5 minutes per account.
-  3. (5 minutes) Asks for the business: TA asks for help to remove blockers and expedite execution of the Account Success Plan goals.
+  3. (5 minutes) Remove blockers mentioned in ASPs: TA asks for help to remove blockers and expedite the execution of the Account Success Plan goals.
 
 ### External
 
