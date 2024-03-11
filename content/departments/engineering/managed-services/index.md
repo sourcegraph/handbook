@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-02-14 14:10:05.3341 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/f14ec3c2c276bd9935fccb46a9cd73a013a4bbfe
+Last updated: 2024-03-11 06:28:34.644553 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/516734a23afe816218cf3556bba1ace6d26b5420
 -->
 
 These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.
@@ -56,6 +56,12 @@ Managed Services Platform services owned by `core-services`:
 Managed Services Platform services owned by `dev-experience`:
 
 - [Release Registry](./releaseregistry.md)
+
+## security
+
+Managed Services Platform services owned by `security`:
+
+- [Entitler](./entitler.md)
 
 ## General guidance
 

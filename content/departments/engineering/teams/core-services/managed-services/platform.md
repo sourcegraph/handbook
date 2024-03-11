@@ -85,8 +85,6 @@ A full example service is available in [`cmd/msp-example`](https://github.com/so
 
 ### Service images
 
-#### Prepare Docker image
-
 Every MSP service requires a runnable server in a Docker image whose platform is `linux/amd64`.
 
 > [!warning]
@@ -103,8 +101,8 @@ Image repositories published by the [sourcegraph/sourcegraph](https://github.com
 
 When using a private image registry within GCP, MSP will automatically provision the prerequisite permissions for MSP to access your images.
 
-> [!WARNING] More guidance coming soon!
+> [!WARNING] More guidance coming soon! For now, refer to the [SAMS publishing pipeline infrastructure](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure@c755ada5fdbfecc287b11722841f21c39b381f73/-/blob/managed-services/sams-publishing-pipeline/main.tf) for an example on how to set up a private repository and a GitHub Actions workload identity.
 
 ### Creating and configuring infrastructure
 
-Refer to the [sourcegraph/managed-services README](https://github.com/sourcegraph/managed-services/blob/main/README.md) for all documentation for creating configuring MSP deployments and getting started with `sg msp`.
+Refer to the [sourcegraph/managed-services README](https://github.com/sourcegraph/managed-services/blob/main/README.md) for all documentation related to creating configuring MSP deployments and getting started with `sg msp`.
