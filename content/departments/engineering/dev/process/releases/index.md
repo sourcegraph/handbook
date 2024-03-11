@@ -16,15 +16,16 @@ As of March 2024, Sourcegraph releases features monthly ([see RFC 864](https://d
 | ------- | ------------------- | ---------------- | ----------------- | ------------ |
 | 5.3.0   | February 1, 2024    | February 9, 2024 | February 15, 2024 | Minor        |
 | 5.3.1   | N/A                 | N/A              | February 21, 2024 | Patch        |
-| 5.3.2   | N/A                 | N/A              | March 20, 2024    | Patch        |
-| 5.3.3   | N/A                 | N/A              | April 5, 2024     | Monthly      |
-| 5.3.4   | N/A                 | N/A              | April 22, 2024    | Patch        |
-| 5.3.5   | N/A                 | N/A              | May 6, 2024       | Monthly      |
-| 5.3.6   | N/A                 | N/A              | May 20, 2024      | Patch        |
-| 5.3.7   | N/A                 | N/A              | June 5, 2024      | Monthly      |
-| 5.3.8   | N/A                 | N/A              | June 20, 2024     | Patch        |
-| 5.3.9   | N/A                 | N/A              | July 6, 2024      | Monthly      |
-| 5.3.10  | N/A                 | N/A              | July 22, 2024     | Patch        |
+| 5.3.2   | N/A                 | N/A              | March 8, 2024     | Patch        |
+| 5.3.x   | N/A                 | N/A              | March 20, 2024    | Patch        |
+| 5.3.x   | N/A                 | N/A              | April 5, 2024     | Monthly      |
+| 5.3.x   | N/A                 | N/A              | April 22, 2024    | Patch        |
+| 5.3.x   | N/A                 | N/A              | May 6, 2024       | Monthly      |
+| 5.3.x   | N/A                 | N/A              | May 20, 2024      | Patch        |
+| 5.3.x   | N/A                 | N/A              | June 5, 2024      | Monthly      |
+| 5.3.x   | N/A                 | N/A              | June 20, 2024     | Patch        |
+| 5.3.x   | N/A                 | N/A              | July 6, 2024      | Monthly      |
+| 5.3.x   | N/A                 | N/A              | July 22, 2024     | Patch        |
 
 These releases **may** require [manual migration steps](https://sourcegraph.com/docs/admin/updates).
 
