@@ -47,10 +47,16 @@ The following questions will run over the next 5 months (Oct 2023 through Feb 20
 - I am happy working here
   - What it’s measuring: Tied to teammate happiness and retention
 
-**8. Growth & development (net new):**
+**8. Growth & development:**
 
 - I can see myself growing and developing my career in this company\*\* \*\*
   - What it’s measuring: Tied to teammate happiness and retention. As employees spend more time at a company, they may develop a clearer sense of what they want from their job, and if the company doesn't align with those expectations, dissatisfaction can arise.
+ 
+**9. Executive Leadership:**
+
+- Our executive team has a clear view of where the company is going and how to get there.\*\* \*\*
+  - What it’s measuring: Tied to teammate confidence and trust in our executive-level decisions and direction.
+
 
 ## FAQs
 
