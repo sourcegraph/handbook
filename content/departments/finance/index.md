@@ -145,7 +145,9 @@ See our [process docs](process/index.md).
 - Extension Approvals, Discounts: Dan Adler, in #discuss-deal-desk (note discount approval matrix is in process for new pricing with approvals taking place in CPQ)
 - Commissions, Compensation, or CFP Exceptions: Desene Sterling, in #rev-comp-plans
 - ARR Exceptions: Kendrick Morris, either in #discuss-deal-desk or #discuss-finance (note this is if you are requesting a change in how ARR is recognized or the period in which it is being recognized):
-- Budget increases: Tommy O Donnell, in #discuss-finance or if the ask is sensitive, via DM
+- Compensation Related Budget increases: Tommy O Donnell, in #discuss-finance or if the ask is sensitive, via DM
+
+[Sales & Finance - Exceptions and Approvals Process](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/formResponse](https://docs.google.com/document/d/1abVSOQq8me-2mhN9hb7uRinQcYVrx3rH6jt1_SiRp9w/edit#heading=h.moq25fk8nn1s)
 
 ## Accounting
 
