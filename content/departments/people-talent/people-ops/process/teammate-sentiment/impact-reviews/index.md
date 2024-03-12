@@ -12,7 +12,7 @@ To read more about how we provide continuous feedback and our performance improv
 
 ### What is an impact review?
 
-Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
+Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammate's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of a teammate's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help foster a culture of continuous improvement and development.
 
 ### Who is eligible for a review/compensation increase?
 
@@ -242,13 +242,13 @@ DISCLAIMER: The above "recommended merit increase" ranges are just recommendatio
 
 We believe in performance-based pay, meaning merit increases (inclusive of cash and equity) will be driven by performance. We believe in hiring all Teammates at an equitable starting point within their respective band and we want to provide opportunities for Teammates to grow within their salary band that is in alignment with their performance.
 
-Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
+Impact Reviews are an important component in our compensation decision-making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
 More information about our commitment to Pay Transparency and our overall compensation philosophy may be found in our [how we pay at Sourcegraph](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) Handbook page.
 
 ### How do we determine merit increases?
 
-**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increases unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates. Sales quota-carrying teammates cannot receive both a merit-based promotion increase and a spot bonus in the same review period. Given our Sales team territories are carved at the beginning of the year, promotions will be reflected at the start of each fiscal year instead of during the impact review cycle.
+**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increase unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates. Sales quota-carrying teammates cannot receive both a merit-based promotion increase and a spot bonus in the same review period. Given our Sales team territories are carved at the beginning of the year, promotions will be reflected at the start of each fiscal year instead of during the impact review cycle.
 
 **Non sales increases** compensation increase recommendations will be calibrated by Leadership and their respective People Partner. The calibration will consider:
 
