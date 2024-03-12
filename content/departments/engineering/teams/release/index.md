@@ -17,8 +17,8 @@ For more detailed information on the Release team members, check out our [README
 ## Responsibilities
 
 - Deployments methods and configuration
-  - [Kubernetes - Helm](./deployment/helm.md)
-  - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
+  - [Kubernetes - Helm](https://github.com/sourcegraph/deploy-sourcegraph-helm)
+  - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph-k8s)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Org-wide areas of ownership](../../dev/process/engineering_ownership.md#delivery-and-delivery-tiger-team)
