@@ -1,46 +1,49 @@
-# Permanently deleting user data (GDPR requests, etc.)
+# Deleting user data
 
-Sometimes users will ask us to remove their account data. This can be just because they want it done, or as a GDPR compliance request, etc.
+When users request deletion of their account data, whether for personal preference or GDPR compliance, the support team handles and routes these requests. Please send these requests to support@sourcegraph.com to ensure they enter the support queue.
 
-### Submitting a request
+## Handling Data Deletion Requests
 
-Anyone may request to have their user data permanently deleted from Sourcegraph.com, whether for a GDPR request or otherwise. We treat all requests the same way and with urgency.
+First, identify if the request is for account deletion or specifically for data deletion, which we treat as a GDPR request. Use keywords like 'Permanently delete all my user data,' 'GDPR request,' and 'CCPA request' to guide your assessment. If it's unclear what the user wants, request clarification or seek advice in #team-support-engineering.
 
-You can request this via support@sourcegraph.com
+<aside>
+💡 Direct users wanting to delete their account from a self-hosted instance to their Sourcegraph admin.
+</aside>
 
-### Support: Processing a data deletion request
+## Account deletions
 
-The support team member is responsible for delegating to other teams. If you're not the support team, you should inform the user that only our support team support@sourcegraph.com can handle such requests.
+For account deletions, remove the account from [sourcegraph.com](http://sourcegraph.com/) and the Sourcegraph Accounts Management System (SAMS).
 
-[Create an issue in the sourcegraph/customer repository](https://github.com/sourcegraph/customer/issues/new/choose) and follow the "**Customer support: Delete user data**" checklist issue template.
+- [ ] Confirm the requestor's email matches the account email.
+- [ ] Apply the “Delete user from [Sourcegraph.com](http://sourcegraph.com/)” ZenDesk macro on the ticket to confirm the deletion request with the user.
+- [ ] Delete the user from Sourcegraph.com
+  - [Request site admin access through Entitle](../../../security/admin-access-internal-instances.md) with 'Account deletion request' and the ZenDesk ticket link as justification.
+  - Find the user at [https://sourcegraph.com/site-admin/users](https://sourcegraph.com/site-admin/users) using their email.
+  - Choose 'Delete forever' from the actions menu.
+- [ ] Delete the user from SAMS
 
-This will involve coordinating with multiple teams to get all the data deleted from various systems (Sourcegraph.com itself, marketing, sales, and analytics data sources, etc.)
+  - Post the user's email and username in [#discuss-core-services](https://sourcegraph.slack.com/archives/discuss-core-services) and wait for deletion.
+      <aside>
+      Deletion request: <br>
+      Username: user <br>
+      Email: user@example.com
+      </aside>
 
-### In the product: how to nuke a user account
+- [ ] Inform the user their account is permanently deleted.
+<aside>
+Your account associated with the email: user@example.com has been permanently deleted. Thank you for trying Sourcegraph.
+</aside>
 
-1a. If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](../tools/index.md#sourcegraphcom-admin-access) (it requires site admin). Inform the customer that you can only remove the username associated with the email they submitted the request from. You can use the "Delete user from Sourcegraph.com" macro on Zendesk
+## Data deletions
 
-_Teammates can [request site admin access to dotcom](../../../security/admin-access-internal-instances.md) through Entitle._
+Data deletion requests require coordination with sales and analytics to remove data from all systems, in addition to the steps for account deletion.
 
-1b. If the request is for a customers' on-prem instance, the site admin of that instance is the only one who can perform that action and they will need to follow the steps outlined here.
+- [ ] Initiate user data removal from our systems by creating a [deletion request GitHub issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=&projects=&template=user-data-deletion.md&title=Request+to+permanently+delete+all+user+data+for%3A+someone%40example.com) as a checklist.
 
-2. Look up the username associated with the email address using [this GraphQL query](<https://sourcegraph.com/api/console#%7B%22query%22%3A%22%7B%5Cn%20%20user(email%3A%20%5C%22somebody%40somewhere.com%5C%22)%20%7B%5Cn%20%20%20%20username%5Cn%20%20%20%20emails%20%7B%5Cn%20%20%20%20%20%20email%5Cn%20%20%20%20%20%20verified%5Cn%20%20%20%20%7D%5Cn%20%20%7D%5Cn%7D%5Cn%22%7D>).
-
-   a. Confirm the email address shown matches the email address the request came from.
-   b. Confirm the email address is marked as _verified_. If it is not, the request could be a malicious request and the user will need to sign into Sourcegraph and verify the email address in order for us to verify the account is owned by them before we can proceeed with deletion.
-
-3. Post the email and username on #discuss-core-services channel and wait for someone to delete it.
-
-### How to delete previous tickets from a requester
-
-1. On Zendesk, search the user with the email address associated with the account and requesting deletion
-   You can also click their name on the deletion ticket they created.
-2. Select all tickets that are **not** the current request. We need to save their current request for legal reasons.
-
-<img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/select-tickets-action.png">
-
-3. Click on Edit X ticket(s) button
-
-4. Confirm the deletion
-
-<img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/delete-tickets-action.png">
+- [ ] Delete previous tickets from a requester
+  - On Zendesk, search the user with the email address associated with the account and requesting deletion. You can also click their name on the deletion ticket they created.
+  - Select all tickets that are **not** the current request. We need to save their current request for legal reasons.
+  - Click on the Edit X ticket(s) button
+  - Confirm the deletion
+    <img width="933" alt="image" src="https://storage.googleapis.com/sourcegraph-assets/select-tickets-action.png">
+- [ ] Notify the user that their data has been permanently deleted.
