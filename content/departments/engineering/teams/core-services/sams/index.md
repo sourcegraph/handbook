@@ -13,6 +13,10 @@ It is compliant with [OAuth 2](https://oauth.net/2/) and [OIDC](https://openid.n
 
 The [OpenID Discovery](https://accounts.sourcegraph.com/.well-known/openid-configuration) endpoint lays out all the protocol details that a Service Provider (aka. Relay Party) needs to know to integrate with SAMS.
 
+## System designs
+
+- [Token scope specification](./token_scope_specification.md)
+
 ## Security measures
 
 Here is a list of security measures that are notable to systems integrating with SAMS:
