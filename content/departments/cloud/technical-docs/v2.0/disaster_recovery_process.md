@@ -27,7 +27,7 @@ Follow the `Extract instance from control plane (break glass)` section from the 
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+curl -sSL --fail https://$SLUG.sourcegraphcloud.com/sign-in -i
 ```
 
 - connect to cluster
@@ -45,10 +45,15 @@ kubectl describe node <NODE_FROM_CLUSTER> | grep zone
 
 - perform zone failover (remove node zone from GKE node locations)
 
+**NOTE ON TARGET ZONES**
+`gcloud container node-pools describe` will return a list of zones into which the node pool can be deployed. The output of the `kubectl describe node` command above will show which of those zones is actually in use.
+
+The TARGET_ZONE will take a list of zones into which the node pool should be deployed. You should remove the failed zone from this list (and add new zones as needed). For instance: if the current node-pools are in `us-central-1a` and `us-central-1c`, and the active node is provisioned in `us-central-1a`, you can fail over to `us-central-1c` by removing `us-central-1a` from the list.
+
 ```sh
 gcloud container node-pools list --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT
 gcloud container node-pools describe primary --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT --format json | jq '.locations'
-gcloud container node-pools update primary --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT --node-locations <DIFFERENT_ZONE_THAN_EXISTING_NODE> --async
+gcloud container node-pools update primary --cluster $GKE_NAME --region $GKE_REGION --project $GCP_PROJECT --node-locations <TARGET_ZONE> --async
 ```
 
 - verify pods were terminated
@@ -74,7 +79,7 @@ kubectl describe node <NEW_NODE> | grep zone # should be different from previous
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+curl -sSL --fail https://$SLUG.sourcegraphcloud.com/sign-in -i
 ```
 
 - backfill the instance into Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
@@ -101,7 +106,13 @@ Follow the `Extract instance from control plane (break glass)` section from the 
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+curl -sSL --fail https://$SLUG.sourcegraphcloud.com/sign-in -i
+```
+
+- export environment variables
+
+```sh
+export FAILOVER_ZONE=<new target zone>
 ```
 
 - patch CloudSQL instance to use different zone
@@ -123,7 +134,7 @@ cd -
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+curl -sSL --fail https://$SLUG.sourcegraphcloud.com/sign-in -i
 ```
 
 > Below steps are optional, they should be performed only if CloudSQL disk was lost.
@@ -142,7 +153,7 @@ gcloud sql instances describe $CLOUDSQL_INSTANCE_NAME --project $GCP_PROJECT
 
 ```sh
 mi2 instance check --slug $SLUG -e $ENVIRONMENT pods-health
-curl -sSL --fail https://$SLUG.sourcegraph.com/sign-in -i
+curl -sSL --fail https://$SLUG.sourcegraphcloud.com/sign-in -i
 ```
 
 - backfill the instance into Control Plane if `cloud.sourcegraph.com/control-plane-mode=true` is in `config.yaml`
