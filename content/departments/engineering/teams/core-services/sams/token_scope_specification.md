@@ -13,7 +13,7 @@ A scope is always consists of three parts: **service**, **permission hierarchy**
 1. **Service**: the slug of the service name, up to 30 characters.
    - It can only contain `[a-z_]` characters, e.g. `sams`, `ssc`, `dotcom`, `cody_gateway`.
 1. **Permission hierarchy**: the hierarchy of the permissions under the given service, up to 215 characters.
-   - It can only contain `[a-z_\.]` characters, e.g. `user`, `user.metadata`, `user.roles`.
+   - It can only contain `[a-z_.]` characters, e.g. `user`, `user.metadata`, `user.roles`.
    - There is no conceptual limit for the number of hierarchy levels (other than the scope length limit).
    - Every hierarchy grants access to all sub-permissions (aka. prefix matching), e.g.:
      - `user` grants `user.roles`, `user.metadata`, etc.
