@@ -32,7 +32,7 @@ For account deletions, remove the account from [sourcegraph.com](http://sourcegr
 
 ## Data deletions
 
-Data deletion requests require coordination with sales and analytics to remove data from all systems, in addition to the steps for account deletion.
+Data deletion requests require coordination with sales-ops and analytics to remove data from all systems, in addition to the steps for account deletion.
 
 - Initiate user data removal from our systems by creating a [deletion request GitHub issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=&projects=&template=user-data-deletion.md&title=Request+to+permanently+delete+all+user+data+for%3A+someone%40example.com) as a checklist.
 
