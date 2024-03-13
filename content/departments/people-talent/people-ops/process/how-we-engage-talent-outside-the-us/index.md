@@ -158,9 +158,9 @@ Any visas sponsored by Sourcegraph must be compatible with an all-remote work se
 
 Any questions? Contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) in Slack or people-ops@sourcegraph.com via email!
 
-### *Citizenship*
+### _Citizenship_
 
-Sourcegraph collects all teammate’s citizenship & visa type during onboarding. The reasons being we want to support you with Merge or team travel, as well as remain compliant with employment laws and our customer contracts. 
+Sourcegraph collects all teammate’s citizenship & visa type during onboarding. The reasons being we want to support you with Merge or team travel, as well as remain compliant with employment laws and our customer contracts.
 
 #### People Team Resources
 
