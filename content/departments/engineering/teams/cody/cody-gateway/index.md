@@ -216,10 +216,12 @@ there should be no need to interact with the accounts directly for the most part
 -->
 
 - [`llm-proxy-readonly`](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=33qlfie6epzm7vxa24ixrczcfi&v=dnrhbauihkhjs5ag6vszsme45a) - this account is the default one provisioned for cody-gateway instances, and should have **read-only** access to product subscriptions.
-  - Feature flag: [`product-subscriptions-reader-service-account`](https://sourcegraph.com/site-admin/feature-flags/configuration/product-subscriptions-reader-service-account)
+  - Required RBAC permission: `Product Subscriptions: Read`
+  - RBAC role: [`Product Subscriptions Reader`](https://sourcegraph.com/site-admin/roles)
 - [`llm-proxy`](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&h=team-sourcegraph.1password.com&i=gkxxq4jdpgfu2zoynwtjjf3vxy&v=dnrhbauihkhjs5ag6vszsme45a) - this account should have **read and write** access on cody-gateway-related resources. This is primarily used for Sourcegraph Cloud integration, where we ened to be able to manage cody-gateway access for product subscriptions.
-  - Feature flag: [`product-subscriptions-service-account`](https://sourcegraph.com/site-admin/feature-flags/configuration/product-subscriptions-service-account)
+  - Required RBAC permission: `Product Subscriptions: Write`
+  - RBAC role: [`Product Subscriptions Writer`](https://sourcegraph.com/site-admin/roles)
 
 More details for each account are available in the 1password entries linked above.
 
-> [!WARNING] All the above feature flags should be configured as **boolean, default off**.
+> [!WARNING] Do not delete the RBAC roles used by these service accounts.
