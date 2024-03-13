@@ -237,7 +237,7 @@ And in some cases, the customer resolves the issue or you figure it out on your 
 
 ## And sometimes, we need help from teams outside of engineering ...
 
-### Enterprise licenses keys
+### Enterprise subscriptions and licenses
 
 **Keywords**: `subscription`, `license`, `key`, `renew`, `expire`, `contract`
 

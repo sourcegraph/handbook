@@ -17,11 +17,11 @@ The prospect/customer requires a Sourcegraph.com user account. If an account doe
    - Replace `Company_Name` with the name of the company from Salesforce
    - Separate these components with a hyphen: `-`
    - The `SFDC_Unique_Account_ID` should be taken from the Unique Account ID field on the Account record in Salesforce.
-1. Once the user account is created navigate to the [Enterprise licenses page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions).
-1. Click **Create Enterprise license**.
-   - **Note: You must create a new Enterprise license for each customer instance as well**.
+1. Once the user account is created navigate to the [Enterprise subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions).
+1. Click **Create Enterprise subscriptions**.
+   - **Note: You must create a new Enterprise subscriptions for each customer instance as well**.
 1. Search for the user account that was created above in step 3 and click **Create new subscription**.
-1. From the Product Subscription page for that user account, click **Generate new license manually**.
+1. From the Enterprise Subscription page for that user account, click **Generate new license manually**.
 1. Fill out the license details:
    1. The customer name auto-populates from the user account.
    1. Enter the Salesforce Subscription ID if relevant; new trials will not have a subscription ID.
