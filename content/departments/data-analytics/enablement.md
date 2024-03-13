@@ -35,7 +35,7 @@ Some customers have the contractual right to send us no telemetry at all, or a m
 We also load data to BigQuery from:
 
 - Salesforce: Customer Relationship Management system (CRM)
-- Sourcegraph.com Site-admin pages: customer Enterprise license keys
+- Sourcegraph.com Site-admin pages: customer Enterprise subscriptions and license keys
 - Sourcegraph production database: we query a few particular tables from the production database via terraform to access data for Sourcegraph.com
 - Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1LIfVyhjhh_mpc0SNOFvpNfN2h4CmGQmI) that get loaded into BigQuery
 - Zendesk: customer support ticketing
