@@ -112,6 +112,8 @@ To read more about Temporary contractors and how they are defined visit [this pa
 
 Since our teammates can generally work from anywhere in the world, we sponsor visas for only roles that require the presence in a particular country as part of the job responsibilities. In such cases we will work to support teammates as much as possible, but if our PEOs do not sponsor the visa, an alternative solution may take multiple months to implement. We encourage hiring managers to let the Talent and People Ops teams know as early as possible, before the role is even opened, if such requirements exist.
 
+We collect all active visa types in our HRIS, Bamboo, to help People-Ops better support teammates who need support with their visas. This ranges from employment support letters, sponsorship documents or working with our external immigration team. Please be sure to complete this field within your Bamboo profile.
+
 note: We post all required LCA postings [here](../../../Required-posting-page.md)
 
 #### **For role-required reasons**
@@ -155,6 +157,10 @@ Sourcegraph does not have the ability to support F-1 extensions (OPT).
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
 
 Any questions? Contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/ask-people-team) in Slack or people-ops@sourcegraph.com via email!
+
+### *Citizenship*
+
+Sourcegraph collects all teammate’s citizenship & visa type during onboarding. The reasons being we want to support you with Merge or team travel, as well as remain compliant with employment laws and our customer contracts. 
 
 #### People Team Resources
 
