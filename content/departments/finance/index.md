@@ -30,7 +30,7 @@ Outreach and questions for the finance team can be asked in the #finance Slack c
 
 ### Fiscal years
 
-A fiscal year is a one-year period that corporations like Sourcegraph use for accounting and budgeting. Sourcegraph's fiscal year runs from February 1 to January 31. Having our fiscal year offset by one month from the calendar year ensures that our fiscal Q4 doesn't end during December holidays, making our quarters more even and predictable, and eliminating pre-New Year stress for our sales, finance, and other teammates.
+A fiscal year is a one-year period that corporations like Sourcegraph use for accounting and budgeting. Sourcegraph's fiscal year runs from February 1 to January 31. Having our fiscal year offset by one month from the calendar year ensures that our fiscal Q4 doesn't end during the December holidays, making our quarters more even and predictable, and eliminating pre-New Year stress for our sales, finance, and other teammates.
 
 **Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
 
@@ -41,7 +41,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 - **FY25 Q3**: 01 August, 2024 – 31 October, 2024
 - **FY25 Q4**: 01 November, 2024 – 31 January, 2025
 
-### Sources of truth
+### Sources of Truth
 
 - Financial statements
 - [Company Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
@@ -87,19 +87,19 @@ Within each department, there are also cost centers. The cost center structure c
 
 **How we will monitor performance versus plan**
 
-Twice a quarter (folloing month 2 & 3), the finance team will share a reporting pack with the head of each department that will outline the following:
+Twice a quarter (following month 2 & 3), the finance team will share a reporting pack with the head of each department that will outline the following:
 
 - Cost (on a $ basis) versus plan for that quarter or for that quarter to date
 - Updated forecast for the remainder of fiscal quarter, and year, versus plan
 - Headcount versus plan
-- Company level metrics
+- Company-level metrics
   - ARR vs plan
   - Burn vs plan
 
 The above information will be shared via Google slides on business Day +8 following the monthly financial close. As part of this review process, Finance and Department leads will also evaluate our investments for the remainder of the fiscal year and determine if any adjustments are required. There are a number of scenarios that could require us to make an adjustment that would deviate from the plan. Some of these might include:
 
-- A marketing program has generated a significant amount of opportunities beyond expectation.
-- Our Engineering and Product team believe that there is an opportunity to invest in a feature that will have a meaningful impact on our ARR growth.
+- A marketing program has generated a significant amount of opportunities beyond expectations.
+- Our Engineering and Product team believes that there is an opportunity to invest in a feature that will have a meaningful impact on our ARR growth.
 - We see inbound activity beyond what was planned and we need to adjust the hiring plan for the sales team.
 - Our pace of growth is negatively impacted by adverse macroeconomic conditions. We determine that spending refinements are required in order to manage and maintain our forecasted cash position.
 
