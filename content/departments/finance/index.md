@@ -46,10 +46,10 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ### Fiscal year 2025
 
-- **FY23 Q1**: 01 February, 2024 – 30 April, 2024
-- **FY23 Q2**: 01 May, 2024 – 31 July, 2024
-- **FY23 Q3**: 01 August, 2024 – 31 October, 2024
-- **FY23 Q4**: 01 November, 2024 – 31 January, 2025
+- **FY25 Q1**: 01 February, 2024 – 30 April, 2024
+- **FY25 Q2**: 01 May, 2024 – 31 July, 2024
+- **FY25 Q3**: 01 August, 2024 – 31 October, 2024
+- **FY25 Q4**: 01 November, 2024 – 31 January, 2025
 
 ### Sources of truth
 
