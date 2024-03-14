@@ -92,7 +92,3 @@ Note: all prizes purchased are paid for by United Healthcare as one of our benef
 - Q4 winner: the teammate who walks the most distance across all 11.5 weeks in Q4 will win a grand prize - stay tuned on the grand prize announcement! It’ll be good!
 
 **Note:** all prizes purchased are paid for by United Healthcare as one of our benefit perks 😀
-
-### **Q1 FY25**
-
-(Coming Soon)
