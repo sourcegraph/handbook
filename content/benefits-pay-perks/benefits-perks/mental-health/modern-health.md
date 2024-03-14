@@ -82,8 +82,6 @@ If you have questions not answered here, please reach out to the People Team thr
 
 Program owner: People-Ops
 
-DRI: Jamie O’Connell
-
 Internal process:
 
 1. Teammate submits Google form
