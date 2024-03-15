@@ -16,15 +16,18 @@ Expectations for a level add to the expectations of earlier levels. In addition,
 ## All Levels
 
 - Impact
+
   - Directly contributes to achieving the company’s strategic goals and long term success.
 
 - Scope
+
   - Has high productivity and output, with frequent and meaningful impact on the direction of our products based on a keen understanding of our customer’s needs.
   - Works with engineering to release regularly and with marketing to launch regularly.
   - Provides clarity by writing strategy and roadmap docs, PRDs and related docs as appropriate to the level and that align with the style and best practices of the organization and that are well-socialized and ratified by the EPD team and appropriate stakeholders.
 
 - Execution
   -Seeks clear ownership of areas of responsibility as appropriate for the level.
+
   - Prioritizes high impact work. Identifies engineering, design, marketing and business problems and collaborates on solutions.
   - Gathers customer data from a variety of sources to make product decisions, e.g. DevRel, UXR, metrics and, of course, directly from customers.
   - Demonstrates technical knowledge, both for having productive conversations with engineering and to empathize with our target customers.
@@ -40,36 +43,41 @@ Expectations for a level add to the expectations of earlier levels. In addition,
   - Helps build team cohesion by advocating for design and engineering needs.
   - Helps others understand the company direction, detects misalignments, and provides missing context.
 
-
 ## IC2
 
 - Impact:
+
   - Clarifies project scope and delivers projects of medium to large size, e.g. groups of related features in existing products.
 
-- Scope: 
+- Scope:
+
   - Primarily focuses on their team’s features/product.
   - Pulls on broader knowledge of Sourcegraph.
   - Strong generalist skill set; starting to develop some areas of expertise.
 
-- Execution: 
+- Execution:
+
   - Identifies non-obvious gaps in the product.
   - Representing the product to peers directly in small groups.
 
-- Teamwork: 
+- Teamwork:
   - Actively contributes to a collaborative and respectful team culture.
   - Collaborates across teams, focused on their direct areas of work.
 
 ## IC3
 
 - Impact:
+
   - Drives clarity on highly technical, open-ended, potentially ambiguously-defined projects.
   - Drives clarity for one large or several small-medium projects.
 
 - Scope:
+
   - Often collaborates with teammates on projects outside their immediate domain.
   - Demonstrates some specialized skill sets on top of their general knowledge.
 
 - Execution:
+
   - Identifies new areas for improvement/investment.
   - Representing the product to customers directly in small groups.
   - Representing the product to leadership.
@@ -85,14 +93,17 @@ Expectations for a level add to the expectations of earlier levels. In addition,
 ## IC4
 
 - Impact:
+
   - Deliver on projects with high technical and organizational risk.
   - Owns a related set of medium-large products.
 
 - Scope:
+
   - Recognizes product, strategic and business issues beyond their immediate domain and suggests solutions.
   - Drives clarity across the organization to produce the ideal solution for customers.
 
 - Execution:
+
   - Owns strategy and roadmap for a family of medium-large projects.
   - Use technical knowledge to have a strong technical opinion about the direction of your products.
 
@@ -105,15 +116,18 @@ Expectations for a level add to the expectations of earlier levels. In addition,
 ## IC5
 
 - Impact:
+
   - Drives and delivers top-level company strategy in a specific area of responsibility.
 
 - Scope:
+
   - Applies strategic product and business expertise to the company’s most impactful initiatives.
   - Influences the company’s overall product and business direction.
   - Uses domain expertise to steer the direction of the company.
   - Provides strategic and tactical solutions that are examples for others to follow.
 
 - Execution:
+
   - Brings conviction backed by data about what problems we should solve and how we should solve them.
   - Identifies and implements ways that product management can help advance business goals.
   - Drives x-org alignment to advance our business goals.
@@ -123,4 +137,3 @@ Expectations for a level add to the expectations of earlier levels. In addition,
   - Expertise is recognized across the company. Actively shares insights, upleveling others.
   - Works with executive leadership to drive business goals.
   - Manage up effectively by determining their own tasks and priorities instead of getting those from management.
-
