@@ -271,7 +271,7 @@ In some cases, it may be necessary to support a merit increase outside of a perf
 
 The purpose of our promotion philosophy is to support the growth & advancement of Teammates, in alignment with our values. Sourcegraph’s success is fueled by our incredible Teammates, which is why we foster a culture of continuous growth and accelerate opportunities to level up.
 
-Promotion decisions are calibrated based on a Teammate’s achievements, execution at a higher job scope, and values alignment. The People Partner and Leadership Team are responsible for calibrating promotion nominations, in alignment with our Impact Review process and bi-annual promotion cadence.
+Promotion decisions are calibrated based on a Teammate’s achievements, execution at a higher job scope, and values alignment. The People Partner and Leadership Team are responsible for calibrating promotion nominations, in alignment with our Impact Review process and annual promotion cadence.
 
 Our Teammates can pursue promotion opportunities in two ways:
 
@@ -298,7 +298,7 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 ### Writing effective feedback & self reviews
 
-Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
+Self reviews and peer feedback are crucial inputs to our annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
 To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reviews](../../../process/giving-feedback.md)
 
@@ -308,7 +308,7 @@ Your manager is also a great resource if you have any questions about how to wri
 
 Q. **Are Impact Reviews required for all Teammates?**
 
-- Yes. It is important for all **eligible** Teammates to complete bi-annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
+- Yes. It is important for all **eligible** Teammates to complete annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
 
 Q: **How do I know if I'm eligible for an Impact Review**
 
@@ -333,7 +333,7 @@ Q. **Can reviews be submitted outside of the predetermined Impact Review schedul
 Q. **What changed from the prior Impact Review process?**
 
 - We made several changes:
-  - **Cadence:** We moved from a rolling cadence, to a bi-annual synchronous review period to reduce the operational burden and improve transparency regarding promotion and merit decisions.
+  - **Cadence:** We moved from a rolling cadence, to a annual synchronous review period to reduce the operational burden and improve transparency regarding promotion and merit decisions.
   - **Defined our Talent Assessment framework:** Our new Skills and Values-based assessment framework is designed to enable transparent conversations between Managers and Teammates, ensuring a consistent, fair calibration process!
   - **Embedded Career Frameworks:** We updated/are updating ALL Career frameworks for each department. These will be directly in the Lattice via the Grow Feature as well as in the Handbook.
   - **Improved Questions**: We reduced the number of required questions - giving Teammates the flexibility to take control of how they communicate feedback, while optional questions guide Teammates to best reflect on the attributes that help them progress in their career.
@@ -395,7 +395,7 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 **Answer:** We are moving to annual impact reviews based on teammate feedback that the review process caused added stress and anxiety and diverted focus from impactful work. In response, we introduced mandatory monthly check-ins for managers and optional check-ins for teammates to support continuous performance feedback and moved the formal, merit review cycle to one-time per year.
 
-**2. What are the benefits of an annual review cycle vs bi-annual?**
+**2. What are the benefits of an annual review cycle vs annual?**
 
 **Answer:**
 
@@ -405,7 +405,7 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 **3. Does this mean I have fewer opportunities to get a pay increase or promotion?**
 
-**Answer:** Historically, all teammates who have met performance expectations at minimum received a pay increase annually. This will not change and teammates who are exceeding or meeting performance expectations will not go more than 1.5 years without an increase. The only thing that is changing is that teammates who would historically have received an increase or spot bonus due to receiving Superior or Distinguished Performance Ratings will be rewarded annually instead of bi-annually, however, the percentage increase will be adjusted accordingly with our [talent assessment scale](#the-talent-assessment-framework) (new % increases will be announced prior to the next annual cycle in FY26, given that this will be the first review period with a full full-year cadence).
+**Answer:** Historically, all teammates who have met performance expectations at minimum received a pay increase annually. This will not change and teammates who are exceeding or meeting performance expectations will not go more than 1.5 years without an increase. The only thing that is changing is that teammates who would historically have received an increase or spot bonus due to receiving Superior or Distinguished Performance Ratings will be rewarded annually instead of annually, however, the percentage increase will be adjusted accordingly with our [talent assessment scale](#the-talent-assessment-framework) (new % increases will be announced prior to the next annual cycle in FY26, given that this will be the first review period with a full full-year cadence).
 
 We will continue to evaluate promotions in conjunction with our[ promotion philosophy](#promotion-philosophy) and reward teammates for exemplary performance via spot bonuses and impact awards outside our annual merit cycle.
 
