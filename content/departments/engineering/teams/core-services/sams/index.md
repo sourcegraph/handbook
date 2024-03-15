@@ -24,6 +24,10 @@ Here is a list of security measures that are notable to systems integrating with
 1. Access tokens all have expiry with **1 hour**, refresh tokens are always issued together with access tokens.
 1. Refresh tokens all have expiry with **30 days**, and each refresh token can only be used **at most once**. A new refresh token is always issued upon refreshing the access token.
 
+## Internal documents
+
+- [Sourcegraph Accounts Launch FAQs](https://docs.google.com/document/d/16rRFVDX_GQ00ZanOD-xD0gK9fODURev8bLsv6tqjwSY/edit)
+
 ## Service images
 
 Images are published to a private image repository, [`us-central1-docker.pkg.dev/sourcegraph-dev/sams/accounts-server`](https://console.cloud.google.com/artifacts/docker/sourcegraph-dev/us-central1/sams/accounts-server?project=sourcegraph-dev), on every commit in `main` using the `insiders` tag. To pull down the published images locally, you need to [request access via Entitle](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IlB1bGwgZG93biBkZXYgaW1hZ2VzIiwicm9sZUlkcyI6W3siaWQiOiJhM2ZmNTQ1ZC0zZGVmLTQxY2ItYjJiNy1lMTM2MDM5Y2YwZGYiLCJ0aHJvdWdoIjoiYTNmZjU0NWQtM2RlZi00MWNiLWIyYjctZTEzNjAzOWNmMGRmIiwidHlwZSI6InJvbGUifV19).
