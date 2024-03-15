@@ -90,7 +90,7 @@ All devices will need to be shipped back to Sourcegraph at the end of the intern
 
 #### Engineering team laptops:
 
-- Apple MacBook Pro - M3 Max - 64 GB RAM, 1 TB SSD
+- Apple MacBook Pro - M3 Max - 48 GB RAM, 1 TB SSD
   - [See product on Apple website for reference](https://www.apple.com/shop/buy-mac/macbook-pro)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
