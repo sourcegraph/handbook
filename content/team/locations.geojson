@@ -771,6 +771,19 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Dan Tacci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265694,
+          37.761703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Michael Bahr"
       },
       "geometry": {
