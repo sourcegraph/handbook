@@ -4,14 +4,14 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 
 **The two pillars of our Talent Metrics strategy include:**
 
-- Transparency into real-time data through self-service reporting tools 
-- Adhoc reporting and insights 
+- Transparency into real-time data through self-service reporting tools
+- Adhoc reporting and insights
 
 **Tools:**
 
 - [TalentWall](https://app.talentwall.io/dashboard/dashboards/7012): Provides key recruiting metrics in real-time to all teammates
-- [Greenhouse Reporting:](https://support.greenhouse.io/hc/en-us/articles/360007315491-Greenhouse-Recruiting-reports-index) We leverage our ATS data and reports for interview calibration, candidate experience feedback, job board performance, and more. 
-- [Company-Wide Recruiting Update](https://docs.google.com/spreadsheets/d/1HaLmhYEqopD322_97GR172x4E_pvvEGmwXMiWaCwakY/edit#gid=1156832169): This is an Excel doc showing our current open roles. 
+- [Greenhouse Reporting:](https://support.greenhouse.io/hc/en-us/articles/360007315491-Greenhouse-Recruiting-reports-index) We leverage our ATS data and reports for interview calibration, candidate experience feedback, job board performance, and more.
+- [Company-Wide Recruiting Update](https://docs.google.com/spreadsheets/d/1HaLmhYEqopD322_97GR172x4E_pvvEGmwXMiWaCwakY/edit#gid=1156832169): This is an Excel doc showing our current open roles.
 
 ## What we measure:
 
@@ -27,7 +27,7 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Metric use:** Measure recruiting effectiveness at candidate conversion and determine the strength of our offers for different positions
 - **Target:** >90%
 
-### Time to hire 
+### Time to hire
 
 - **Metric definition:** The average number of days between the application date and the date the candidate is marked as hired
 - **Measurement:** Total time taken to complete the individual component of the hiring process for all requisitions ÷ total number of requisitions
@@ -39,7 +39,7 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 
 ![Screenshot of where to update application date in Greenhouse](https://storage.googleapis.com/sourcegraph-assets/Updating%20application%20date%20in%20Greenhouse.png)
 
-### Time to fill 
+### Time to fill
 
 - **Metric definition:** Average number of days elapsed between requisition kick-off date and offer acceptance for internal and external hires
 - **Measurement:** Total days to fill ÷ total offers accepted
@@ -53,18 +53,18 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 
 ### Time to start
 
-- **Metric definition:** Average number of days between when an application was created and the candidates's scheduled start date. 
+- **Metric definition:** Average number of days between when an application was created and the candidates's scheduled start date.
 - **Target:** <60 days
 
-### Time to accept 
+### Time to accept
 
-- **Metric definition:** Average number of days between the date an offer was created and the date a candidate accepted the offer. 
+- **Metric definition:** Average number of days between the date an offer was created and the date a candidate accepted the offer.
 - **Target:** <5 days
 
 ### Position vacancy time
 
 - **Metric definition:** Average number of days between the date a job was opened in Greenhouse and the candidates's scheduled start date.
-- **Target:** <95 days 
+- **Target:** <95 days
 
 ### Recruitment source breakdown
 
@@ -94,50 +94,50 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 
 ## Department Specific Hiring Data
 
-People managers at Sourcegraph have access to the following hiring metrics broken down by department: 
+People managers at Sourcegraph have access to the following hiring metrics broken down by department:
+
 - **Hires:** hires, starts, pending starts, time to hire, time to start, position vacancy time, hires per month, hires by source, hires by source type, hires by hiring manager, applications per hire, HM screen to hire
-- **Offers**: time to fill, time to offer, offers created, offers outstanding, offers declined, offer acceptance rate, time to accept, offers month over month, offers by source, average acceptance rate per month 
+- **Offers**: time to fill, time to offer, offers created, offers outstanding, offers declined, offer acceptance rate, time to accept, offers month over month, offers by source, average acceptance rate per month
 - **Interview activity**: Hours spent interviewing by interviewer, hours spent intervieweing by department
 - **Active pipeline**: Candidates by stage
 
-To revise the date range, copy the dashboard as an independent tab under your own account by clicking "copy to my dashboard". Any changes made to the copied dashboard will not be     reflected on the original dashboard, and vice versa: 
+To revise the date range, copy the dashboard as an independent tab under your own account by clicking "copy to my dashboard". Any changes made to the copied dashboard will not be reflected on the original dashboard, and vice versa:
 
 ![Make a copy of dashboard](https://storage.googleapis.com/sourcegraph-assets/Make%20a%20copy%20of%20TalentWall%20dashboard.png)
 
-### Engineering hiring metrics 
+### Engineering hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/101798/v5LL0vpVRrot)
 - Year to date (COMING SOON)
 
-### Marketing hiring metrics 
+### Marketing hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103375/RlavUzP0jlmp)
 - Year to date (COMING SOON)
 
-### Operations hiring metrics 
+### Operations hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103373/zqhYSvHXt7UR)
 - Year to date (COMING SOON)
 
-### People & Talent hiring metrics 
+### People & Talent hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103378/idBWUm6lWex2)
 - Year to date (COMING SOON)
 
-### Product hiring metrics 
+### Product hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103374/JnEU2kfU0wnr)
 - Year to date (COMING SOON)
 
-### Sales hiring metrics 
+### Sales hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103377/2SRnMP65mNNr)
 - Year to date (COMING SOON)
 
-### Technical Success hiring metrics 
+### Technical Success hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103376/JcuK9ZfMfXKX)
 - [Year to date](https://app.talentwall.io/shared-dashboard/104808/Ywd9lGhw5AT2)
-
 
 For questions regarding recruiting metrics and reports please slack #ask-hiring
