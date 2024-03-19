@@ -4,9 +4,9 @@ _If you have any questions about the Impact Review process, or need help in gene
 
 ## Impact Reviews Explained
 
-We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
+We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our annual “impact review” process, which takes place annually in February and August.
 
-The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
+The purpose of this handbook page is to outline our **formal annual feedback review process**, known as “impact reviews.” We refer to our annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
 
 To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
@@ -84,7 +84,7 @@ Reviews a Teammate receives:
 
 ### What we do with impact review feedback
 
-Results from the semi-annual impact review process support the growth and development of our Teammates in the following ways:
+Results from the annual impact review process support the growth and development of our Teammates in the following ways:
 
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
