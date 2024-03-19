@@ -1,6 +1,6 @@
 # Feature deprecation process
 
-Sunsetting, or deprecation, of a product or feature is never an easy thing to do. By this point, you have put significant effort into designing, building, and talking with customers and shutting down may feel like losing a close friend. It is equally important to put the same thoughtfulness and care into deprecating the feature as you did building it. Further, we must live our values of being customer-first and open and transparent extra when deprecating a feature.
+Sunsetting, or deprecation, of a product or feature is never an easy thing to do. By this point, you have put significant effort into designing, building, and talking with customers and shutting down may feel like losing a close friend. It is equally important to put the same thoughtfulness and care into deprecating the feature as you did building it. Further, we must live our values of dev-love and being direct and transparent extra when deprecating a feature.
 
 This page walks through the most important things to think about when deprecating a feature or product.
 

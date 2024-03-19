@@ -122,7 +122,7 @@ If you have already configured and authenticated to the cluster, you can of cour
 ## Prerequisites
 
 - Access to the `sourcegraph-scaletesting` and `sourcegraph-dogfood` google projects.
-- [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/release/deployment/helm.md#helm) configured.
+- [kubectl](../process/deployments/kubernetes.md#how-to-set-up-access-to-kubernetes) configured.
 
 Below you can find a subset of the common tasks and how to complete them:
 

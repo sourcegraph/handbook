@@ -34,7 +34,7 @@ Sourcegraph's Information Security Risk Committee is currently comprised of:
 - [Quinn Slack][3], Head of Product & Engineering
 - [Dan Adler][4], VP Operations
 - [Diego Comas][5], Security Lead
-- [Tammy Zhu][6], Diector of Legal
+- Sam Mandell, Legal
 
 [3]: ../../team/index.md#quinn-slack
 [4]: ../../team/index.md#dan-adler

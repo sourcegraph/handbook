@@ -47,8 +47,6 @@ If you do this, please add the **frontmatter** to the beginning of the file, fro
 
 ## Using the Blog Post Starter Pack
 
-The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. It's important to use the components provided for tables, images, alerts, youtube videos, external or self hosted videos, and HubSpot forms to ensure our blog posts are uniform in styling.
-
 Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md).
 
 To use the template, copy the above file and paste it in the appropriate year folder (i.e. `/content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly. All available standardized components are ready to be changed right in this file!

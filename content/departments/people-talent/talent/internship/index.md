@@ -2,7 +2,7 @@
 
 We completed our first-ever internship program in 2022! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
-We plan to run our next internship program in 2024 and we will update this page accordingly.
+We do not have a set timeline for when our next internship program will occur, but we will update this page accordingly.
 
 We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
@@ -133,7 +133,7 @@ Payroll
 
 #### Points of contact
 
-- [Tammy](../../../../team/index.md#tammy-zhu) - for legal questions
+- legal@sourcegraph.com - for legal questions
 - payroll@sourcegraph.com - for payroll questions
 - [Kemper](../../../../team/index.md#kemper-hamilton) - for onboarding and all other internship program questions
 

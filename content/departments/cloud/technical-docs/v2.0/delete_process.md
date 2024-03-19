@@ -139,3 +139,12 @@ Create a new pull request and merge it
 ### Any other questions?
 
 Please reach out to #cloud
+
+# FAQ
+
+### Debugging cloud instance deletion.
+
+Often a instance deletion will fail to remove the network because the Network Endpoint Group (NEG) still exists
+and blocks the VPC deletion.
+
+Solution: Manually delete the NEG and then retry the instance deletion.

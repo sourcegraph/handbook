@@ -10,8 +10,9 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 ## Technical Success
 
-- [Customer support career development framework](../../departments/technical-success/support/career-growth/cs-career-framework.md)
+- [Support engineering career development framework](../../departments/technical-success/support/career-growth/cs-career-framework.md)
 - [Customer engineering career development framework](../../departments/technical-success/ce/career-growth/index.md)
+- [Technical advisory career development framework](../../departments/technical-success/ta/enterprise-success/career-growth/ta-career-development.md)
 
 ## Engineering
 
@@ -30,7 +31,6 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 - [Comms career development framework](../../departments/marketing/career-development/comms-framework.md)
 - [Product Marketing career development framework](../../departments/marketing/career-development/product-marketing-framework.md)
-- [Customer Marketing career development framework](../../departments/marketing/career-development/customer-marketing-framework.md)
 
 ## Operations
 

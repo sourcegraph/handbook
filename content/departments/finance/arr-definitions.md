@@ -66,7 +66,7 @@ A finalized renewal closed-won after prior contract end date + 1 day and within 
 
 A contract extension (up to thirty days) can be offered free of charge to the end customer with the understanding the customer is considered in their new term.
 
-The contract extension request process is designed with the customer-first strategy; avoiding a poor customer experience where service gets discontinued during a renewal negotiation.
+The contract extension request process is designed to be customer-first; avoiding a poor customer experience where service gets discontinued during a renewal negotiation.
 
 _Quota credit is subject for review in the event a customer churns in one month and gets resuscitated within a 90-day window from the date of churn. Example: Customer A churns in June. Sourcegraph turns off service on the last day of Customer A’s subscription. Customer A comes back to Sourcegraph in August requesting a new enterprise plan. Sourcegraph captures this new enterprise subscription as incremental IARR. Sourcegraph Sales Rep does not necessarily get 100% of the incremental iARR value due to the previous churn and is commensurate with the time/resources in the subsequent sales cycle. The goal of this parameter is to ensure we are incentivizing our sales org to renew customers timely._
 

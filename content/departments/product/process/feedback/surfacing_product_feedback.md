@@ -3,21 +3,23 @@
 ## Surfacing internal feedback
 
 - Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted (optional) in the relevant team's channel.
-- Any teammate can open an issue for consideration by a engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](../../../engineering/working-with-issues.md)
+- Any teammate can open an issue for consideration by an engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](../../../engineering/working-with-issues.md)
 - To determine which team the feedback applies to, consult [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) (and update it if necessary!).
 
 ## Surfacing customer feedback
 
+**Important**
+
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../technical-success/support/process/engaging-other-teams.md).
 
-CEs, support engineers, Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
+TA, CE, Support Engineering, Sales, Marketing, Engineering, and other teammates who interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
 
 We deeply value this feedback, so we make this process as frictionless for teammates as possible. There are only two ways of posting feedback:
 
-- any team member can post general feedback to the #feedback channel. It will be triaged by the PM on feedback rotation.
-- ARR-impacting feedback should be submitted and tracked as a product gap. This helps the product team drive important decisions. In particular, it's important that AEs and CEs submit feedback surfaced by customers or prospects as product gaps.
+- ARR-impacting feedback should be submitted and tracked as a [Product Gap](#product-gaps). This helps the product team drive important decisions. In particular, it's important that AEs, TAs and CEs submit feedback surfaced by customers or prospects as Product Gaps.
+- For any other general product feedback, any team member can post to the #feedback channel. It will be triaged by the PM on feedback rotation.
 
-Bugs can be directly submitted as a GitHub issue.
+All bugs/issues should be filed as Support Tickets.
 
 ### GTM Product Gap Prioritization Process
 
@@ -63,11 +65,8 @@ PMs are responsible for updating a Gap after it's been opened. If a particular f
 
 #### Creating GitHub Issues
 
-Customer Engineers should no longer be creating GitHub issues for feature requests from their Customers. Instead, Product Eng will manage the process of extracting Product Gaps from Salesforce to add to GitHub.
-
-Bugs can still be submitted as GitHub issues.
-
-Note: while this will currently be a manual process, we intend to automate the creation of GH issues upon creating of a new Product Gap in Salesforce.
+- CE & TA should no longer be creating GitHub issues for feature requests (Product Gaps) from their Customers. Instead, Product Eng will manage the process of extracting Product Gaps from Salesforce to add to GitHub.
+- Bugs can still be submitted as GitHub issues only by Support Engineering.
 
 #### What if the feedback is [a possible exception]?
 

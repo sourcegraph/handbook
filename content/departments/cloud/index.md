@@ -108,7 +108,7 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For prospects who sign the deal after trial expires.
 
-#### **Enable telemtry on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
+#### **Enable telemetry on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">⚙️ manual</span>
 
@@ -126,11 +126,13 @@ We aim to make all processes self-service as much as possible, please follow the
 
 - For Customers who have IP restrictions to their MI and would like to add a new list of IP(s) or CIDR
 
-#### **Enable Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-cody-request,mi/self-service&projects=&template=managed-instance-configure-cody.yml&title=Configure+Cody+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
+#### **Configure Cody on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-cody-request,mi/self-service&projects=&template=managed-instance-configure-cody.yml&title=Configure+Cody+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">🤖 self-service</span>
 
 - To enable Cody for an existing managed instance customer or prospect in trial. Note that the Cloud team will take care of creating and managing Anthropic and OpenAI keys, no action needed from CE/TA.
+- To switch to a different LLM provider for an existing managed instance
+- To disable Cody for an existing managed instance.
 
 #### **Enable custom domain on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi/add-custom-domain&template=managed-instances-custom-domain.md&title=Add+custom+domain+to+%5BCUSTOMER%5D+Instance)
 
@@ -141,9 +143,10 @@ We aim to make all processes self-service as much as possible, please follow the
 #### **Enable static NAT IP or private connectivity on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi&projects=&template=managed-instance-configure-code-host-connectivity.yml&title=Configure+Code+Host+Connectivity+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
 <span class="badge badge-note">⚙️ manual</span>
+<span class="badge badge-note">🤖 self-service</span>
 
-- For customers who are looking to configure IP allowlist to permit Cloud instance traffic
-- For customers that have private code hosts
+- For customers looking to configure IP allowlist to permit Cloud instance traffic
+- For customers looking to enable private code hosts support, e.g., AWS Private Link, GCP Private Service Connect, Sourcegraph Connect for on-prem data center
 
 #### **Update license key on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-license-key,mi/self-service&projects=&template=managed-instance-configure-license-key.yml&title=Configure+License+Key+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 

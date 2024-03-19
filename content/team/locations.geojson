@@ -1,1188 +1,785 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Naman Kumar"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.20710754394531,
-                    28.615870539671818
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Thorsten Ball"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    9.153778553009033,
-                    49.9721739421498
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Keegan Carruthers-Smith"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    18.465278,
-                    -33.980556
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Stephen Gutekanst"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.07908630371094,
-                    33.377559143878244
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Rijnard van Tonder"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.955205,
-                    33.434484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Joe Chen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.08056640625,
-                    30.290496154756223
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Quinn Slack"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.554292678833,
-                    37.89058682789697
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Adam Harvey"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -123.0632,
-                    49.279493
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Noah Santschi-Cooney"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -6.382739,
-                    52.183102
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Robert Lin"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    49.2200776,
-                    -122.9906622
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "María Craig"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -58.38160514831543,
-                    -34.60329406047471
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Quinn Keast"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    13.392333984375,
-                    52.517892228382834
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dave Try"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -75.23351669311523,
-                    4.441403314860008
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dax McDonald"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.90299391746521,
-                    33.71319364933552
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Juliana Peña"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.12539672851561,
-                    47.67278567576541
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Artem Ruts"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -79.99589,
-                    40.44062
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Mike McLaughlin"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6593,
-                    41.92154
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "André Eleuterio"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -49.27690029144287,
-                    -25.44831240093052
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Camden Cheek"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.85763549804688,
-                    39.08583712285596
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Tom Ross"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.2599945068359375,
-                    53.884511629030904
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Ólafur Páll Geirsson"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    10.777587890625,
-                    59.90133567536662
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Malo Marrec"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -3.4547656774520874,
-                    48.73036516102081
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Stompy Mwendwa"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    36.939599,
-                    -1.493488
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Tommy O Donnell"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -9.708664566278458,
-                    52.267426934723936
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Indradhanush Gupta"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    88.43994140625,
-                    22.643798766430393
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Rob Rhyne"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.88666078138027,
-                    34.21024941105133
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Eric Brody-Moore"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.781601,
-                    36.162663
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dudley Nostrand"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.87214,
-                    42.61317
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dan Adler"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.420174,
-                    37.780079
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Owen Brennan"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -116.200886,
-                    43.616616
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Inés Roitman"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    2.177432,
-                    41.382894
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Greg Bastis"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.420174,
-                    37.780079
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Steph Hay"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.451424,
-                    33.983841
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Adeola Akinsiku"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.2489013671875,
-                    32.33587963983594
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Vova Kulikov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.378398895263672,
-                    59.94555469995002
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Valery Bugakov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    40.20642042160034,
-                    43.67740105604103
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Kelli Rockwell"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.19268798828126,
-                    47.616346999837226
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nick Gage"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.27508544921875,
-                    37.810326435534755
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Kevin Quigley"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.37358379364014,
-                    33.84874817060767
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nicky Van Maanen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -117.92734265327452,
-                    33.673845318635735
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Michael Bali"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    3.379206,
-                    6.524379
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Mariam Adedeji"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    3.515625,
-                    7.710991655433229
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Alex Isken"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.90158987045288,
-                    43.0482043271894
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Bill Caplan"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -78.63889217376709,
-                    35.78408549932274
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Beyang Liu"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.39413261413574,
-                    37.78726741375342
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "<Luke Taylor>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.8758764564991,
-                    52.353725318203985
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Milan Freml"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.269504547119137,
-                    49.08297374955618
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Erzhan Torokulov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.346255302429196,
-                    59.92602795360136
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Ryan Slade"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.3767967224121093,
-                    39.47443172831845
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "JH Chabran"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    45.764042,
-                    4.835659
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Mohammad Alam"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.11035239696503,
-                    40.561848725014
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Cesar Jimenez"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.332069,
-                    47.606209
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Simon Waterer"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.925297737121582,
-                    51.77782464156521
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Taylor Sperry"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.98054504394531,
-                    39.73913836310703
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Rafal Gajdulewicz"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    21.023197174072266,
-                    52.18087924523222
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dan Diemer"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -114.35295581817627,
-                    48.40541731318389
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Alex Ostrikov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.14013409614563,
-                    25.07495849177065
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Filip Haftek"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.9951171875,
-                    50.00067775723633
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Isuru Fonseka"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.18625164031982,
-                    -33.87757740654966
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "David Veszelovszki"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.081810265779495,
-                    47.4981015024372
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Riana Shahid"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.78375053405762,
-                    40.71584246871321
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Petri-Johan Last"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    18.860151,
-                    -33.932106
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Leo Papaloizos"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.127758,
-                    51.507351
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Becca Steinbrecher"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -108.74542236328125,
-                    39.15988184949157
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Laura Hacker"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.668083,
-                    42.96336
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Tracey Johnson"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.330765,
-                    32.755489
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "José Taylor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.4492,
-                    -98.4595
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nicole Comber"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -58.473615646362305,
-                    -34.52202731922037
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Paulo Almeida"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -22.932924,
-                    -47.073845
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Justin Dorfman"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.84874,
-                    34.176079
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nathan Downs"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    45.512328,
-                    -122.592757
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Randell Callahan"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    39.739235,
-                    -104.99025
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "William Bezuidenhout"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    18.519208,
-                    -33.930634
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Aditya Kalia"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -121.9817805290222,
-                    37.29520563333924
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Miles Patton"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    46.056946,
-                    14.505752
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Chris Concannon"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.567595,
-                    37.967945
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Jamie Lindsay"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.579514,
-                    35.408752
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Sam Johns"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.084747,
-                    38.890759
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Ted Moskalenko"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.848991,
-                    35.410561
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Cezary Bartoszuk"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    42.197250,
-                    -88.006111
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Peter Guy"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -123.326103,
-                    42.440739
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Kevin Matthews"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.7930905551073693,
-                    50.852387667481935
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Enrique Gonzalez"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.27461863535325,
-                    37.87072968199783
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Steve Yegge"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.203362,
-                    47.675510
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dominic Cooney"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    139.69048315180066,
-                    35.68977201990178
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Tim Lucas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.963056,
-                    -37.813611
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Shivasurya Sankarapandian"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.523911,
-                    43.464951
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nelson Araujo"
-            },
-            "geometry": {
-                "coordinates": [
-                    -122.03538631262782,
-                    47.684910219715846
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Morgan Gautho"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.492330,
-                    34.028160
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Noah Berman"
-            },
-            "geometry": {
-                "coordinates": [
-                    -84.50598126268602,
-                    39.12773310857054
-                ],
-                "type": "Point"
-            }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-              "name": "Eric Shamow"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -122.658722,
-                  45.512230
-              ]
-          }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naman Kumar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.20710754394531,
+          28.615870539671818
+        ]
       }
-    ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Keegan Carruthers-Smith"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.465278,
+          -33.980556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stephen Gutekanst"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07908630371094,
+          33.377559143878244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joe Chen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.08056640625,
+          30.290496154756223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quinn Slack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.554292678833,
+          37.89058682789697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noah Santschi-Cooney"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.382739,
+          52.183102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Robert Lin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2200776,
+          -122.9906622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quinn Keast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.392333984375,
+          52.517892228382834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dax McDonald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90299391746521,
+          33.71319364933552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mike McLaughlin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6593,
+          41.92154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "André Eleuterio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.27690029144287,
+          -25.44831240093052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camden Cheek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85763549804688,
+          39.08583712285596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tom Ross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2599945068359375,
+          53.884511629030904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ólafur Páll Geirsson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.777587890625,
+          59.90133567536662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stompy Mwendwa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.939599,
+          -1.493488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tommy O Donnell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.708664566278458,
+          52.267426934723936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rob Rhyne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.88666078138027,
+          34.21024941105133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dan Adler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.420174,
+          37.780079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Owen Brennan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.200886,
+          43.616616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vova Kulikov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.378398895263672,
+          59.94555469995002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valery Bugakov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.20642042160034,
+          43.67740105604103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kevin Quigley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37358379364014,
+          33.84874817060767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michael Bali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.379206,
+          6.524379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariam Adedeji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.515625,
+          7.710991655433229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alex Isken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.90158987045288,
+          43.0482043271894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bill Caplan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63889217376709,
+          35.78408549932274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beyang Liu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39413261413574,
+          37.78726741375342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JH Chabran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.764042,
+          4.835659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mohammad Alam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.949203,
+          39.857819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simon Waterer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.925297737121582,
+          51.77782464156521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taylor Sperry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98054504394531,
+          39.73913836310703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rafal Gajdulewicz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.023197174072266,
+          52.18087924523222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dan Diemer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.35295581817627,
+          48.40541731318389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Filip Haftek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9951171875,
+          50.00067775723633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "David Veszelovszki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.081810265779495,
+          47.4981015024372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petri-Johan Last"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.860151,
+          -33.932106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tracey Johnson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.330765,
+          32.755489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Justin Dorfman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.84874,
+          34.176079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nathan Downs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.512328,
+          -122.592757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "William Bezuidenhout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.519208,
+          -33.930634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aditya Kalia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9817805290222,
+          37.29520563333924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miles Patton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.056946,
+          14.505752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chris Concannon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.567595,
+          37.967945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamie Lindsay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.579514,
+          35.408752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ted Moskalenko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.848991,
+          35.410561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cezary Bartoszuk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.19725,
+          -88.006111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peter Guy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.326103,
+          42.440739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enrique Gonzalez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27461863535325,
+          37.87072968199783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steve Yegge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.203362,
+          47.67551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dominic Cooney"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69048315180066,
+          35.68977201990178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tim Lucas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963056,
+          -37.813611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shivasurya Sankarapandian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.523911,
+          43.464951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nelson Araujo"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.03538631262782,
+          47.684910219715846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morgan Gautho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.49233,
+          34.02816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noah Berman"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.50598126268602,
+          39.12773310857054
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eric Shamow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.658722,
+          45.51223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aravind Ramaraju"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27774410928589,
+          37.86569013096215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alex Stanton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.394998,
+          41.844047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erin Osgood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.279617,
+          40.016869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michael Bahr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.414524,
+          52.513384
+        ]
+      }
+    }
+  ]
 }

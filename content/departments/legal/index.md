@@ -51,6 +51,13 @@ To direct your contracts to the right team or teammate to review, approve, and s
 - [Slides](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing)
 - [Quiz](https://forms.gle/zVCaDM8UyMVehEch8)
 
+### Product & privacy legal enablement
+
+Have a question about what data we can collect, whether we can use certain data for product improvement, and how long we can keep certain data? Check out these slides and recording.
+
+- [Slides](https://docs.google.com/presentation/d/1knA_8_Zw3pQI3K4Q842ngt82ntxLs1DKUkU-rucIPUY/edit?usp=sharing)
+- [Recording](https://sourcegraph.zoom.us/rec/share/HrjYjaq3rGmJuGTF8OtdBxWMWgQuCiICxZPLBt4tW42WmTwjTgq7CddTkGCKTVSB.xzLVC7pv8biJnUl3?startTime=1704324030000)
+
 ### Legal checklist for product marketing
 
 When to engage legal:
@@ -83,7 +90,7 @@ At least annually, with regular monitoring throughout the year, Legal assesses t
 ### Legal Team Resources
 
 - [Checklist - Writing Legal Policies](https://drive.google.com/file/d/1PrLrHt6X7FwDA2G_ZUNCfbM69lHiBkHJ/view?usp=sharing)
-- [Process Overview - PTEP Extensions](https://drive.google.com/file/d/1SX-dYZKKLwQjJzdMdXAXZhvLhEC2oNW6/view?usp=sharing)
+- [Process Overview - PTEP Extensions](https://docs.google.com/document/d/1rUlcU7Th-ZIQ4C7Y8gT_zB_S7oPMjWLUPbA6-KYnXNk/edit)
 - [Legal Team PTO Guidelines](https://docs.google.com/document/d/1n8Pn2DvvbcTTSCnP-7e2aEy0EXVRrgqHbU2U270x2M4/edit?usp=sharing)
 - [Outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing)
 - [Subprocessors Update Guidelines](https://docs.google.com/document/d/1K-GjuKwdAwMoVlEttF-QMAwd3EZmCMaKhDBeeS00Aww/edit?usp=sharing)

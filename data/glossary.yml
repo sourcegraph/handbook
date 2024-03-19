@@ -15,6 +15,12 @@ technical:
     definition: Request for help
   - term: RCE
     definition: Remote code execution (a security vulnerability)
+  - term: MSP
+    definition: Managed Services Platform. The standardized tooling and infrastructure for deploying and operating managed Sourcegraph services.
+  - term: SAMS
+    definition: Sourcegraph Accounts Management System. The centralized accounts system for all of the Sourcegraph-operated systems.
+  - term: SSC
+    definition: Self-Serve Cody. The system that lets PLG customers sign up for Sourcegraph and manage their subscription.
   - term: SSRF
     definition: Server side request forgery (a security vulnerability)
   - term: SEO
@@ -75,6 +81,8 @@ technical:
     definition: Level of effort
   - term: FSM
     definition: Finite-state machine. An abstract machine that can be in exactly one of a finite number of states at any given time. See https://en.wikipedia.org/wiki/Finite-state_machine
+  - term: dotcom
+    definition: Sourcegraph.com
   - term: airgapped instance
     definition: Self-hosted customer instance that does not allow any outbound network requests; offline to any external network requests.
   - term: private instance
@@ -85,6 +93,8 @@ technical:
     definition: A code host deployed in a private network (for example AWS EC2 instance within VPC).
   - term: public code host
     definition: A code host that is publicly accessible on the internet - a user can CURL it via IP or open the URL in the browser. This also includes a code host with a public interface but restricts access to IP allowlist.
+  - term: KTLM
+    definition: Keeping The Lights On, time set aside during each product cycle for handling bug reports, user feedback, general maintenance, dealing with tech debt, etc.
 
 business:
   - term: CAC
@@ -121,6 +131,8 @@ business:
     definition: A customer committed to paying us money, a new customer signing a contract, a contract signed to expand the number of seats, etc.
   - term: AP
     definition: Accounts Payable, i.e. our own bills we can pay right now
+  - term: ACV
+    definition: Annual Contract Value. The ACV sales metric enables businesses to track the value of individual customer contracts over a year. Basically, it’s the average annual dollar amount a contract is worth, excluding any one-time fees or purchases.
   - term: AR
     definition: Accounts Receivable, [bills customers should pay to us](../../departments/finance/process/ar.md)
   - term: Cash, AR, AP, Accruals, and Deferred Revenue
@@ -143,8 +155,18 @@ business:
     definition: Service level agreement
   - term: Golink
     definition: Canonical, internal-only link for a piece of information in the form of "go/..." link (ex. [go/glossary](https://go/glossary))
+  - term: EOQ
+    definition: End Of Quarter
+  - term: KTLO
+    definition: Keep The Lights On. The minimum engineering maintenance work required to keep the product running and keep customers happy.
+  - term: OTE
+    definition: On-Target-Earning. An individual's compensation package is composed of base pay and/or commission. Where applicable, OTE is the total compensation an individual can expect to earn if they achieve all of their targets. For individuals without commission, this is just their salary.
+  - term: OTI
+    definition: On-Target-Incentive. Specifically the commission or incentive portion of an individual's compensation package. Where applicable, Base Salary + OTI = OTE.
 
 role:
+  - term: EPD
+    definition: Engineering, Product, Design - refers to the department that includes those three teams.
   - term: AE
     definition: Account executive - responsible for maintaining an enterprise customer account and our relationship with them
   - term: CE

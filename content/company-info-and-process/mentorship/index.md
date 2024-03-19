@@ -100,25 +100,41 @@ All mentee/mentor assignments will be based on availability of the requested men
 - **Openness to Learning and Feedback:** Come into the program with an open mindset, ready to learn and receive constructive feedback.
 - **Respect for Time and Boundaries:** Participants should respect each other's time commitments and establish clear boundaries for communication and availability. Mentees should understand that mentors have other responsibilities and may not be available 24/7. Encourage participants to communicate their availability and preferences upfront, ensuring that both mentors and mentees are respectful of each other's time constraints.
 - **Goal-Setting and Accountability:** Goals are critical for the success of a mentoring partnership. While most aspects of a mentor-mentee relationship don’t have strict rules or conditions, if we made one recommendation, it would be this: Set at least one clear goal that you can both work to achieve through your partnership.We recommend using [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) to formulate the specifics of the goal. You can set more than one goal, but since you’ll want to keep track of them, don’t set too many!
-- **Measuring Success:** To help both the mentor and mentee track and highlight the outcomes of the program we will be using Lattice to run an automated monthly milestone review. Mentorship Progress reviews will allow both the mentee and mentor to reflect and share feedback. Not only will this provide an opportunity to track progress on goals, but it’s a great way to source a few highlights that can easily be added into relevant [Impact Reviews](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)!
+- **Measuring Success:** To help both the mentor and mentee track and highlight the outcomes of the program we request that the mentor and mentee both submit feedback via [Lattice](https://sourcegraph.latticehq.com/) at the 1 and 3 month milestones. Mentorship Progress reviews will allow both the mentee and mentor to reflect and share feedback. Not only will this provide an opportunity to track progress on goals, but it’s a great way to source a few highlights that can easily be added into relevant [Impact Reviews](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)!
 
-  - **<span style="text-decoration:underline;">Month 1: </span>**
+## Mentor/Mentee Feedback
 
-    - Mentee:
-      - How do you feel the mentorship has been going so far?
-      - What have been your favorite or most valuable insights or advice from your mentor so far?
-      - What would you like to focus on in the next month?
-    - Mentor:
-      - How is your mentee progressing?
-      - What would you like to focus on in the next month?
+Please share feedback directly with your Mentor via [Lattice](https://sourcegraph.latticehq.com/), by selecting the ‘Give or Request Feedback’ button on the Lattice dashboard. Be sure to select the private or private + manager category, otherwise this feedback will be shared publicly in the [#thanks](https://sourcegraph.slack.com/archives/CDVGH9RDF) channel.
 
-  - **<span style="text-decoration:underline;">Month 3:</span>**
-    - Mentee:
-      - How well do you feel the mentorship relationship supported your goals and development?
-      - What three areas did you grow or learn from your mentor?
-    - Mentor:
-      - How do you feel the mentorship program went overall?
-      - What three areas did you grow or learn from your mentee?
+- **<span style="text-decoration:underline;">Month 1: </span>**
+- Mentee:
+  - How do you feel the mentorship has been going so far?
+  - What have been your favorite or most valuable insights or advice from your mentor so far?
+  - What would you like to focus on in the next month?
+- Mentor:
+
+  - How is your mentee progressing?
+  - What would you like to focus on in the next month?
+
+- **<span style="text-decoration:underline;">Month 3:</span>**
+  - Mentee:
+    - How well do you feel the mentorship relationship supported your goals and development?
+    - What three areas did you grow or learn from your mentor?
+  - Mentor:
+    - How do you feel the mentorship program went overall?
+    - What three areas did you grow or learn from your mentee?
+
+## **Program Feedback**
+
+A survey will be sent at the end of the 3 month duration of the program to both mentors and mentees. The feedback collected will help us continue to make the program better!
+
+Below are the questions that will be asked via sliding scale and comment field:
+
+1. I would recommend this program to your colleagues. (5-point Rating Scale)
+2. How would you rate the overall effectiveness of the mentorship program in helping you achieve your goals? (5-point Rating Scale)
+3. What was the most valuable aspect of the program for you?
+4. Are there any areas you think could have been improved upon?
+5. I would sign up to be a mentee and/mentor with a different person after this 3 month period. (5-point Rating Scale)
 
 ## **Best Practices for Mentoring**
 
@@ -152,18 +168,6 @@ Of course, this is only an incomplete list! Do you have tips or strategies for s
 
 - A mentor-mentee relationship is not a binding contract: Neither party is forced to continue the sessions if they no longer see enough value out of continuing the sessions: If the mentor is unable to continue due to resource constraints or any other reason, they may choose to help find someone else available on [Humans of Sourcegraph](https://www.humansofsourcegraph.com) (if the mentee agrees). If the mentee is not deriving enough value from the outcomes of the sessions, they should let the mentor know.
 - Sometimes mentoring is part of someone’s role (this is often true for managers and senior ICs), but don’t let mentoring become a box-ticking exercise. Both parties must be willing to invest into a mentoring partnership in order for it to succeed.
-
-## **Program Feedback**
-
-A survey will be sent at the end of the 3 month duration of the program to both mentors and mentees. The feedback collected will help us continue to make the program better!
-
-Below are the questions that will be asked via sliding scale and comment field:
-
-1. I would recommend this program to your colleagues. (5-point Rating Scale)
-2. How would you rate the overall effectiveness of the mentorship program in helping you achieve your goals? (5-point Rating Scale)
-3. What was the most valuable aspect of the program for you?
-4. Are there any areas you think could have been improved upon?
-5. I would sign up to be a mentee and/mentor with a different person after this 3 month period. (5-point Rating Scale)
 
 ## **Additional Resources**
 

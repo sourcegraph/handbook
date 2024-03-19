@@ -39,7 +39,6 @@ We don't expect everyone on the team to figure this out on their own. Other team
 - [Linking Within the Handbook](linking-within-handbook.md)
 - [Moving a Page](move-a-page.md)
 - [Deleting a Page](delete-a-page.md)
-- [Editing the Handbook Product](editing-the-handbook-product.md)
 - [Hiding the sidebar](hiding-the-sidebar.md)
 
 ## Advanced topics

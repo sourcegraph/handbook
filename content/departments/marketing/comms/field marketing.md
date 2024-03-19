@@ -1,7 +1,5 @@
 # Field Marketing and Events
 
-Sourcegraph’s experiential marketing efforts are currently developed and executed by Olivia Simpson on the Communications team.
-
 Field marketing and events continuously deliver measurable, face-to-face brand awareness and a chance for Sourcegraph to be experienced in “the real world”. Through these events, we build stronger relationships and pipe gen with customers and prospects, and show the power of our product in real-time.
 
 ## Requesting Sponsorship

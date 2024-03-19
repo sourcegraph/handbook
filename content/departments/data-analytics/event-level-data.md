@@ -19,11 +19,11 @@ The new data will introduce event-level collection of customer data by sending c
 - Is there a point in time we should intervene with enablement or communication to ensure customer happiness?
 - What feature or set of features are stickiest?
 
-This data will meaningfully help each department do their job more effectively, not just product managers and designers. More information about this decision and the value to each role can be found [here](https://docs.google.com/document/d/10xyTkaxPvhCIXWyAzkvMkY_JNPJwSnPd2U_rTnrzqOQ/edit).
+This data will meaningfully help each department do their job more effectively, not just product managers and designers. More information about this decision and the value to each role can be found [here](https://docs.google.com/document/d/10xyTkaxPvhCIXWyAzkvMkY_JNPJwSnPd2U_rTnrzqOQ/edit) and [here](https://docs.google.com/document/d/1Yh5ZTey7VrMNV3oz-wlY4aVbmtwpH8EdCSfa794Oxv4/edit#heading=h.5rpvwcyiom1t)
 
 ## What data have we historically collected?
 
-We currently collect aggregated and anonymized usage data (called [pings](https://docs.sourcegraph.com/admin/pings#pings)). These data points, like version, code host, active users, are necessary for Sourcegraph to support our customers’ use of our product. Right now, we are in a position where we are collecting only some of the data we need. It’s important for us to collect critical telemetry and the event stream data (further discussed below) in order to provide the highest level of support to our customers.
+Historically we've only collected aggregated and anonymized usage data (called [pings](https://docs.sourcegraph.com/admin/pings#pings)). These data points, like version, code host, active users, are necessary for Sourcegraph to support our customers’ use of our product. Right now, we are in a position where we are collecting only some of the data we need. It’s important for us to collect critical telemetry and the event stream data (further discussed below) in order to provide the highest level of support to our customers.
 
 ## What data are we starting to collect as a part of this initiative?
 
@@ -34,21 +34,6 @@ In order to really get into helpful insights, we need to go a level deeper from 
 - SearchNotebookPageViewed
 
 We will continue to add event tracking as we release new features and expand the insights we want to capture.
-
-## Are we collecting data from both managed instances and on-prem customers?
-
-Because managed instances are our preferred deployment method, we will be only collecting data from managed instances first. We will assess this decision in the future and may decide to collect data from our on-prem customers.
-
-## When can we enable the collection on a managed instance?
-
-One or more of the following must be true to enable event-level data collection:
-
-- The lead requested a trial through [signup.sourcegraph.com](https://signup.sourcegraph.com/) and therefore agreeing to our [Cloud Terms of Service](https://about.sourcegraph.com/terms/cloud)
-- An existing customer signs an order form with an updated Cloud ToS--provided no redlines or carveouts that remove event-level collection rights
-- A new customer signs a new contract with the updated Cloud ToS--provided no redlines or carveouts that remove event-level collection rights
-- A CE-led trial on a managed instance is initiated through a workflow (TBD - CE is owning a new page that they'll direct prospects to with the Cloud ToS))
-
-The `User Level Event Usage Data Analytics` field in account object in Salesforce should be set to `Yes` if the opportunity allows this. A report of all accounts set to `Yes` is [here](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b0000051EOrEAM/view).
 
 ## What data will we not collect?
 

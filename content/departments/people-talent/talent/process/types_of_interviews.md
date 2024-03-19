@@ -383,7 +383,7 @@ You are encouraged to use the following resources to answer the prompts:**
    2. [Download installers](https://docs.sourcegraph.com/cody/overview/app#installation)
 3. [https://sourcegraph.com/search](https://sourcegraph.com/search)
 4. [https://docs.sourcegraph.com/api/graphql](https://docs.sourcegraph.com/api/graphql)
-5. [Working with the SG GraphQL API](../../../technical-success/ta/team-culture/working-with-the-sourcegraph-graphql-api.md)
+5. [Working with the SG GraphQL API](../../../technical-success/ta/enterprise-success/team-culture/working-with-the-sourcegraph-graphql-api.md
 
 **Prompt 1 - Sourcegraph Product - Dev use cases (required)**
 

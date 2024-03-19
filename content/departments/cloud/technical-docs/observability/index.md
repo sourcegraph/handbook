@@ -1,31 +1,18 @@
 # Cloud Observability
 
-Epic link: https://github.com/sourcegraph/customer/issues/1151
-
 ## Metrics
 
-Metrics are gathered from all resources using the included Prometheus instance. This instance scrapes and stores the metrics locally as well as forwards them to the Managed Prometheus service provided by GCP.
+Metrics are gathered from all resources using the included Prometheus instance. This instance scrapes and stores the metrics locally.
 
 **Only metrics queried in our [monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator) are forwarded - this allowlist is automatically generated.** If you'd like a new metric to be queryable in a centralized manner, you _must_ [create a dashboard panel](https://docs.sourcegraph.com/dev/how-to/add_monitoring#alerts-dashboards-and-documentation) for it.
 
-These metrics are viewable through our centralised Grafana instance hosted at: https://monitoring.sgdev.org.
-
-> [!NOTE] access to these resources must be granted. To request access, follow the [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
-
 ### Multi-instance dashboard
 
-We generate a dashboard that renders panels that opt-in to a [multi-instance overviews dashboard](https://monitoring.sgdev.org/d/multi-instance-overviews/multi-instance-overviews).
-
-Panels in this dashboard show the panel's query grouped by `project_id`, each of which represents a Cloud instance. The template variable dropdown at the top allow you to select instances to compare, which is persisted to the URL.
-
-To opt-in a panel to this multi-instance dashboard, see [how to add monitoring](https://docs.sourcegraph.com/dev/how-to/add_monitoring#centralized-observability).
+We no longer support multi-instance dashboards but the cloud-team is working on a replacement.
 
 ### Common operations
 
-- Request access to the Grafana dashboard, follow [Requesting access to Grafana](./operations.md#requesting-access-to-grafana).
 - To add a new dashboard to all managed instances, follow the [Creating a new individual dashboard](./operations.md#creating-a-new-individual-dashboard) procedure.
-- To create a new aggregated dashboard that queries multiple cloud instances, follow the [Creating a new multi-instance dashboard](./operations.md#creating-a-new-multi-instance-dashboard) procedure.
-- To manually refresh the dashboards on Grafana, follow the [Manually regenerate Grafana dashboards](./operations.md#manually-regenerate-grafana-dashboards) playbook.
 
 ## Tracing
 

@@ -4,45 +4,49 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
-> [!NOTE] As of [RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit) the ownership of the release process has changed.
-> The [Release Guild](../../../guilds/release_guild.md) is now the entity that owns the release process. Read more details about release
+> [!NOTE] As of [RFC 864](https://docs.google.com/document/d/1vZmRx6k-OUpSgrAJ9ovu4qfzrExQDXzWiBYv9XbGEZM/edit?usp=sharing) the ownership of the release process has changed.
+> The [Release Team](../../../teams/release/index.md) is now the entity that owns the release process. Read more details about release
 > responsibilities in the [Releases](#releases) section below.
 
 ### Release Schedule
 
-As of March 2023, Sourcegraph releases features quarterly ([see RFC 770](https://docs.google.com/document/d/1dRKHdmbQurmUoZqt_GXfPvN5sB2gTXmBqrV6emjuUbQ/edit?usp=drivesdk)) The 2023-2024 schedule is follows (version numbers are subject to change):
+As of March 2024, Sourcegraph releases features monthly ([see RFC 864](https://docs.google.com/document/d/1vZmRx6k-OUpSgrAJ9ovu4qfzrExQDXzWiBYv9XbGEZM/edit?usp=sharing)) The 2024 schedule is as follows (version numbers are subject to change):
 
-| Version | Feature Freeze Date | Code Freeze Date  | Release Date      |
-| ------- | ------------------- | ----------------- | ----------------- |
-| 5.3     | January 31, 2024    | February 12, 2024 | February 14, 2024 |
+| Version | Feature Freeze Date | Code Freeze Date | Release Date      | Release Kind |
+| ------- | ------------------- | ---------------- | ----------------- | ------------ |
+| 5.3.0   | February 1, 2024    | February 9, 2024 | February 15, 2024 | Minor        |
+| 5.3.1   | N/A                 | N/A              | February 21, 2024 | Patch        |
+| 5.3.2   | N/A                 | N/A              | March 8, 2024     | Patch        |
+| 5.3.3   | N/A                 | N/A              | March 20, 2024    | Patch        |
+| 5.3.x   | N/A                 | N/A              | April 5, 2024     | Monthly      |
+| 5.3.x   | N/A                 | N/A              | April 22, 2024    | Patch        |
+| 5.3.x   | N/A                 | N/A              | May 6, 2024       | Monthly      |
+| 5.3.x   | N/A                 | N/A              | May 20, 2024      | Patch        |
+| 5.3.x   | N/A                 | N/A              | June 5, 2024      | Monthly      |
+| 5.3.x   | N/A                 | N/A              | June 20, 2024     | Patch        |
+| 5.3.x   | N/A                 | N/A              | July 6, 2024      | Monthly      |
+| 5.3.x   | N/A                 | N/A              | July 22, 2024     | Patch        |
 
-These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
+These releases **may** require [manual migration steps](https://sourcegraph.com/docs/admin/updates).
 
-#### Current patch schedule
-
-| Patch date        |
-| ----------------- |
-| October 18, 2023  |
-| November 01, 2023 |
-| November 15, 2023 |
-| November 29, 2023 |
-| December 13, 2023 |
-| January 10, 2024  |
-| January 24, 2024  |
-
-Releases are the responsibility of the [Release Guild](../../../guilds/release_guild.md), and are performed by a release captain
-selected from the guild.
+Releases are the responsibility of the [Release Team](../../../teams/release/index.md), and are performed by the team.
 
 Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major version (`3.0.0` -> `4.0.0`). Releases are published with [semantic versioning syntax](https://semver.org/), though Sourcegraph releases do not necessarily follow the versioning semantics.
 
 #### Selecting Release Dates
 
-Generally speaking when selecting release dates consider the following criteria:
+The following are general guidelines for selecting release dates:
 
-1. Prefer tuesdays near the middle of the month, giving plenty of time during the week to respond to issues that may arise
-2. Avoid releasing anywhere near the end of November or December to avoid common holiday seasons
+- **Day 5**: Monthly release
 
-A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
+- **Day 20**: Patch release
+
+We chose _day 5_ to avoid holidays and other events at the beginning of the month, such as new quarterly review meetings and discussions. However, on some
+occassions these days fall on Friday or the weekend, so we generall consider the following criteria in the event the schedule above fall on a Friday or the weekend:
+
+1. Pick the next working day that isn't a Friday. This gives time for release prep.
+
+A release refers to a minor or major version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
 
 ### Patch releases
 
@@ -55,25 +59,15 @@ Generally speaking patches will only include bug fixes for previously released f
 
 #### Patch Schedule
 
-Patches are scheduled regularly throughout the release quarter once every other week, with 5 patches per release cycle. For example if a release was scheduled on June 13, 2023, the patch schedule would be:
-
-| Patch Date |
-| ---------- |
-| 2023-06-27 |
-| 2023-07-11 |
-| 2023-07-25 |
-| 2023-08-08 |
-| 2023-08-22 |
+Patches are scheduled regularly throughout the month. They usually happen on the 20th of each month (but might be subject to change following the [release schedule](#release-schedule) above).
 
 These releases **never** require any manual migration steps.
 
-We will also release patches out of band from the schedule above if there are urgent incidents to resolve, such as a
-security incident or other critical issue affecting the usage of Sourcegraph.
+We will also release patches out of band from the schedule above if there are urgent incidents to resolve, such as a security incident or other critical issue affecting the usage of Sourcegraph.
 
 #### Requesting a patch
 
-1. To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
-2. Notify the release guild (#ask-release-guild)
+1. Reach out to the `@release-team` on #discuss-release-ship.
 
 ## Key concepts and components
 
@@ -85,15 +79,11 @@ The release captain is _responsible_ for managing the release process and ensuri
 
 The release captain should create a tracking issue using the [release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md) at the beginning of the release cycle.
 
-Release captain responsibilities are currently owned by the [Release guild](../../../guilds/release_guild.md).
+Release captain responsibilities are currently owned by the [Release Team](../../../teams/release/index.md).
 
 ### Release tooling
 
-The [Sourcegraph release tool] is used to generate releases as associated materials (such as tracking issues).
-It leverages the following issue templates, which list all individual steps that needs to be performed, for each type of release:
-
-- [Release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md)
-- [Patch release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/patch_release_issue_template.md)
+`sg release` is the tool used to create releases.
 
 ### Release branches
 
@@ -175,52 +165,6 @@ Please note that if you encounter any issues that can be resolved with an upgrad
 Cody client extensions, such as the VS Code extension, need to maintain backwards compatibility with Sourcegraph servers back to 5.0.0. The Sourcegraph server has no backward compatibility requirements with respect to the clients. However, the server should try to maintain backwards compatibility with clients on a best effort basis.
 
 Why only back to 5.0 instead of our standard policy of latest version and previous major version? That will eventually be our policy. However, since Cody was new to 5.0.0, it's a necessary exception to that policy.
-
-## Minor release process
-
-### 1) Start a minor release
-
-Major and minor releases are released on a fixed schedule, see [when we release](#when-we-release).
-
-### 2) Minor release tracking issue
-
-The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. Learn more from the [release issue template].
-
-The Release Captain should review and follow the instruction in the release tracking release for the next steps. At a high level, it includes the following steps:
-
-- Build a release candidate and verify CI passes
-- Publish final images
-- Update documentation
-- Update references of the image tag to the new version using batch change
-
-### 3) Wrapping up
-
-Follow the instruction from post-release in the release tracking issue to wrap up the release and schedule the next minor release.
-
-## Patch release process
-
-You can reference our [patch release process recording](https://drive.google.com/drive/u/1/folders/1SUp3732AewIKTFcn5cqfvyf5_7d2HyUX) on Google Drive.
-
-### 1) Kickstart a patch release using the [Sourcegraph release tool]
-
-CE or the products team will start requesting a patch release by submitting a [patch release request]. Learn more from the [patch release issue template].
-
-Upon the Delivery team or the Release Captain receives the patch release request and we have decided to roll out a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process. The instruction is located at the bottom of the [patch release request].
-
-### 2) Patch release tracking issue
-
-The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. Learn more from the [patch release issue template].
-
-The Release Captain should review and follow the instruction in the patch release tracking release for the next steps. At a high level, it includes the following steps:
-
-- Build a release candidate and verify CI passes
-- Publish final images
-- Update documentation and changelog
-- Update references of the image tag to the new version using batch change
-
-### 3) Revisit patch request issue
-
-Now it's a good time to go back to the original [patch release request] and close it.
 
 [patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
 [revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197

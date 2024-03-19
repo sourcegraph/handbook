@@ -86,17 +86,17 @@ Reps who receive a 3 over the prior review period will have to show meaningful i
    </td>
   </tr>
   <tr>
-   <td><strong>Crossfunctional Eligibility</strong>
+   <td><strong>Cross-functional Eligibility</strong>
    </td>
-   <td>Only eligible for Senior SDR promotion. Ineligible for crossfunctional promotion and/or role change.
+   <td>Only eligible for Senior SDR promotion. Ineligible for cross-functional promotion and/or role change.
    </td>
-   <td>Senior SDRs are eligible for crossfunctional promotion and/or role change.
+   <td>Senior SDRs are eligible for cross-functional promotion and/or role change.
 <p>
 Promotion options include Team Lead (SDR, P3), AE1, and TA1.
 <p>
 Promotion is subject to head count (HC) opening for a desired role. Once HC has been opened, Senior SDRs that are eligible for promotion may apply and enter the interviw process.
    </td>
-   <td>Team Leads are eligible for crossfunctional promotion and/or role change.
+   <td>Team Leads are eligible for cross-functional promotion and/or role change.
 <p>
 Promotion options include 1st line SDR management, AE1, and TA1.
 <p>
@@ -172,11 +172,11 @@ Reps who receive a 3 over the prior review period will have to show meaningful i
    </td>
   </tr>
   <tr>
-   <td><strong>Crossfunctional Eligibility</strong>
+   <td><strong>Cross-Functional Eligibility</strong>
    </td>
-   <td>Only eligible for Senior Program Lead, VCBOD. Ineligible for crossfunctional promotion and/or role change.
+   <td>Only eligible for Senior Program Lead, VCBOD. Ineligible for cross-functional promotion and/or role change.
    </td>
-   <td>Senior Program Leads are eligible for crossfunctional promotion and/or role change.
+   <td>Senior Program Leads are eligible for cross-functional promotion and/or role change.
 <p>
 Promotion options include Team Lead (SDR, P3), AE1, and TA1.
 <p>

@@ -2,8 +2,9 @@
 
 ## Recurring Team Meetings
 
-- \*\*CE Regional meetings(weekly): Regional team syncs; pre sales teammates discuss their current opportunities and crowdsource how to help advance the deals
-- **Global team meeting** (monthly): Top-down communication to the global organization for pre sales
+- **Team meeting** (weekly): Regular syncs for the CE team to discuss relevant topics
+- **CE Teachbacks** (monthly): Regular sync for CE team to learn from each other
+- **TS Department Meeting** (bi-monthly): Sync for all teams in TS to share progress, updates, wins, and kudos
 
 ## OOO Protocols
 
@@ -17,11 +18,14 @@ Prior to taking time off, CEs should:
 
 ## CE-Specific Slack Channels
 
-| Slack Channel              | Description                                                                |
-| -------------------------- | -------------------------------------------------------------------------- |
-| #team-ce                   | Internal channel the CE team uses to touch base with each other.           |
-| #discuss-ce                | External channel for other teams to ask CEs a question.                    |
-| #discuss-customer-support  | Where support collaborates with everyone outside of support.               |
-| #discuss-engineering       | Where CEs can ask product and Eng questions about Sourcegraph.             |
-| #feedback                  | Where CEs can share customer feedback with product.                        |
-| #discuss-technical-success | Where customer-facing technical teams collaborate on questions and issues. |
+| Slack Channel                | Description                                                                    |
+| ---------------------------- | ------------------------------------------------------------------------------ |
+| #team-ce                     | Internal channel the CE team uses to touch base with each other.               |
+| #discuss-ce                  | External channel for other teams to ask CEs a question.                        |
+| #discuss-support-engineering | Where support collaborates with everyone outside of support.                   |
+| #discuss-technical-advisory  | Where TA collaborates with everyone outside of TA.                             |
+| #discuss-engineering         | Where CEs can ask product and Eng questions about Sourcegraph.                 |
+| #feedback                    | Where CEs can share customer feedback with product.                            |
+| #discuss-technical-success   | Where customer-facing technical teams collaborate on questions and issues.     |
+| #announce-technical-success  | Where important announcements are shared for all teams in Technical Success.   |
+| #team-technical-success      | Where internal TS teams share information relevant primarily to our own teams. |

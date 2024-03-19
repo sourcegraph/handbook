@@ -14,11 +14,10 @@ The Engineering department at Sourcegraph consists of:
   - [Release](teams/release/index.md)
 - Cody
   - [Cody Strategic](teams/cody-strat/index.md)
-- Platform
+- Product Platform
   - [Source](teams/source/index.md)
-  - [APIs](teams/apis/index.md)
-  - [Search Platform](teams/search/core.md)
-  - Graph
+  - [Graph](teams/graph/index.md)
+  - [Search Platform](teams/search-platform/index.md)
 
 ## Slack channels
 
@@ -37,6 +36,10 @@ The Engineering department at Sourcegraph consists of:
 - [Working with issues](working-with-issues.md)
 - [Our software development lifecycle (SDLC)](sdlc.md)
 - [Bi-Weekly Status Updates](bi-weekly-updates.md)
+
+## Resources
+
+- [Managed Services infrastructure](./managed-services/index.md)
 
 ## What's in a feature?
 

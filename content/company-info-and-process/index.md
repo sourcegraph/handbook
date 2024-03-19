@@ -1,19 +1,13 @@
-# Company Information and Processes
+# Company information and processes
 
-This area of the Handbook is dedicated to information about Sourcegraph, working here, and company-wide processes. Team-specific information can be found in the [department directory](../departments/index.md)
+This area of the handbook is dedicated to information about Sourcegraph, working here, and company-wide processes. Department-specific information can be found in the [department directory](../departments/index.md).
 
 ## [About Sourcegraph](about-sourcegraph/index.md)
 
 - [General Office Info](about-sourcegraph/general-office-info.md)
 - [Equality of opportunity](equality-of-opportunity.md)
 
-## [Sourcegraph Values](values/index.md)
-
-- [Customer-first](values/customer-first.md)
-
-## [Mentorship](mentorship/index.md)
-
-- [Find a mentor, Be a mentor!](mentorship/index.md)
+## [Sourcegraph values](values/index.md)
 
 ## [Communication](communication/index.md)
 
@@ -21,7 +15,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Asynchronous communication](communication/asynchronous-communication.md)
 - [Code of conduct](community/code_of_conduct.md)
 - [Conflicts](communication/conflicts.md)
-- [Content Guidelines](communication/content_guidelines/index.md)
+- [Content guidelines](communication/content_guidelines/index.md)
 - [Customer ethics](communication/customer_ethics.md)
 - [Feedback](communication/seeking-and-giving-feedback.md)
 - Meetings
@@ -41,6 +35,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 ## [Working at Sourcegraph](working-at-sourcegraph/index.md)
 
+- [Mentorship](mentorship/index.md)
 - [PTO](../benefits-pay-perks/benefits-perks/time-off/index.md)
 - [Switching teams](working-at-sourcegraph/switching-teams.md)
 - [Impact reviews](../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)

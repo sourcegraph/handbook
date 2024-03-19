@@ -92,9 +92,10 @@ The product team is led by Chris Sells, our Head of Product (and temporary PM VS
 #### PM team members:
 
 - Kevin Chen - Product Led Growth
-- Ryan Phillips - Cody Strat, Sourcegraph Platform and Code Search
-- Chris Sells - Cody Context (interim PM)
-- Taylor Sperry - Cody Clients
+- Corey Hill - Cody Context, AI in general
+- Taylor Sperry - Cody IDE Extensions
+- Aravind Ramaraju - Cody Strat, Cody Enterprise (including Cody Web)
+- TBH - Sourcegraph Platform and Code Search
 
 ### [Design](./design)
 

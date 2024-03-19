@@ -42,7 +42,6 @@ Sourcegraph engineers can disable SMTP by setting the `.spec.managedSMTP.disable
 
 - Alerting: [frontend: email_delivery_failures](https://docs.sourcegraph.com/admin/observability/alerts#frontend-email-delivery-failures)
 - Dashboards: [Frontend: Email delivery](https://docs.sourcegraph.com/admin/observability/dashboards#frontend-email-delivery)
-- [Multi-instance dashboard](../observability/index.md#multi-instance-dashboard): [Frontend: Total emails successfully delivered every 5 minutes](https://monitoring.sgdev.org/d/multi-instance-overviews/multi-instance-overviews?orgId=1)
 
 ### Vendor-side
 

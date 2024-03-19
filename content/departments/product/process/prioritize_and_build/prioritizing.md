@@ -12,7 +12,7 @@ There are several sources that product managers look at when deciding what's imp
 
 - [Your own strategy](../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) and where you are trying to go
 - [The overall company strategy](../../../../strategy-goals/strategy/index.md) and how you fit in
-- [User & stakeholder feedback](../feedback/user_stakeholder_feedback.md) to realize our value of being [customer-first](../../../../company-info-and-process/values/index.md#customer-first)
+- [User & stakeholder feedback](../feedback/user_stakeholder_feedback.md) to realize our value [dev-love](../../../../company-info-and-process/values/index.md#dev-love)
 
 ## Saying "no"
 

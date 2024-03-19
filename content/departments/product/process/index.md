@@ -31,7 +31,6 @@ See [strategy](../../../strategy-goals/index.md).
 
 ### Go-to-market
 
-- [Working with product marketing](gtm/pm_and_pmm.md) - how product management and product marketing collaborate
 - [Feature rollout](gtm/rollout_process.md) - how we test, rollout and launch new features.
   - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
   - [New feature legal questionnaire](gtm/new_feature_legal_questionnaire.md) - how we share relevant information about new features with our legal team.

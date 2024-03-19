@@ -5,6 +5,11 @@ If you ever have any questions or concerns, please reach out to the people team 
 
 ## Employment posters
 
+- [US Federal labor law posters](https://drive.google.com/drive/folders/1xEZc7Y5pdHEoka9A4N_FI2W8biDsre0Q?usp=sharing)
+- [US State specific labor law posters](https://drive.google.com/drive/folders/1q60cDDRxqZ45CfmPcXgGKaNPGBrzdoXU?usp=sharing)
+- [US City specific labor law posters](https://drive.google.com/drive/folders/15axBqSxeLrT-iCl8MZ2HZoIdgc-SeQP6?usp=sharing)
+- International posters coming soon
+
 Coming soon
 
 ## LCA postings

@@ -2,7 +2,56 @@
 
 Sourcegraph deeply cares about our teammates' wellness and health. The people team will launch a new wellness challenge each quarter. The challenges will be well rounded from fitness, cooking, and mental health focused programs.
 
-### **Upcoming challenges:**
+### **Current challenge(s):**
+
+### **Q1 FY25 Picture Challenge:**
+
+**What:** A photo challenge will run in Q1 FY25. There will be three challenges that each run for 1 week and have a specific photo category.
+
+**When:** The challenge begins March 11th.
+**#1:** Best view (city or nature) 🤩
+
+- Submission window: Mar 18 - 22
+- Voting window: Mar 25 - 28
+- Winner announced: Mar 29
+  **#2:** Architecture 🏛️
+- Submission window: Apr 1- 5
+- Voting window: Apr 8 - 11
+- Winner announced: Apr 12
+  **#3:** Pets/Animals 🐶 🐱
+- Submission window: Apr 15 - 19
+- Voting window: Apr 22 - 25
+- Winner announced: April 26
+
+**Who:** Any Sourcegraph teammate is eligible to participate!
+
+**Winners & Prizes:** There will be 1 winner per challenge and then a grand prize winner!
+Best view (city or nature) 🤩
+
+- 🏅Prize: Any pair of walking shows up to $200 & Amazon gift card $200
+  Architecture 🏛️
+- 🏅Prize: $400 gift card to airline of their choice
+  Pets/Animals 🐶 🐱
+- 🏅Prize: Pet related prize (~$150) & Amazon gift card $250
+  Grand prize 🏆
+- Canon Powershot Sx740 Digital Camera
+- **How:** People Ops will announce each category and details in the @annouce-people-talent channel.
+- During each submission window teammate’s can enter 1 photo
+- Share your photo in #sourcegram
+- In the 🧵tag Kemper Hamilton to ensure it’s counted as a submission
+- People-Ops will announce the final day for submission and when the voting window will open
+- People-Ops will create a voting message with a 🧵of all eligible photos for teammates to vote for their favorite photo 📸
+
+**Rules:**
+
+- The photo must be taken within the submission window. It cannot be a previously taken photo
+- You can only submit 1 photo per challenge. Pick your favorite photo to share!
+- It must follow the general category for the challenge
+- If you have friends/family in the photo please be sure they’re okay with you sharing it company-wide
+
+Note: all prizes purchased are paid for by United Healthcare as one of our benefit perks 😀
+
+### **Past Challenges:**
 
 ### **Q4 FY24 Quarterly walking challenge:**
 
@@ -43,7 +92,3 @@ Sourcegraph deeply cares about our teammates' wellness and health. The people te
 - Q4 winner: the teammate who walks the most distance across all 11.5 weeks in Q4 will win a grand prize - stay tuned on the grand prize announcement! It’ll be good!
 
 **Note:** all prizes purchased are paid for by United Healthcare as one of our benefit perks 😀
-
-### **Q1 FY25**
-
-(Coming Soon)

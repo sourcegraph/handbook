@@ -23,6 +23,7 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 
 - [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/)
 - [2022 LinkedIn Algorithm hacks](https://blog.hootsuite.com/how-the-linkedin-algorithm-works-hacks/)
+- [2023 LinkedIn Algorithm hacks](https://www.linkedin.com/pulse/cracking-linkedins-2023-algorithm-alexandre-schladitz/)
 - [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter)
 - [LinkedIn Algorithm Tips](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/)
 
@@ -35,12 +36,22 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 
 ### Content to share:
 
-#### LinkedIn Spotlights
+#### LinkedIn We're Hiring & Employee Spotlights
 
-Each month we share a Teammate Spotlight and/or New Hire Spotlight on the company LinkedIn page. The calendar/posting cadence is determined by Marketing and the spotlight content is collected by the People Team.
+Each month we share a [We’re hiring](https://www.linkedin.com/feed/update/urn:li:activity:7077670681450024961/) or [Employee Spotlight](https://www.linkedin.com/feed/update/urn:li:activity:7074874160249737216/) on the company LinkedIn page, alternating between the two. The content is collected and posted by the Recruiting Operations team on the 2nd Wednesday of every month.
 
 - New Hire Spotlights feature new teammates. The question template and previous responses can be found [here](https://drive.google.com/drive/folders/1d8SuwX9oh4NJlPl0V6_mqnlDjhq8jylj).
 - Teammate Spotlights feature a current teammate, ideally in a role that we are currently hiring for. This helps us to attract potential candidates. The question template and previous responses can be found [here](https://drive.google.com/drive/folders/1l41Uuz8iC32v_2zY-Xc73L8eKkqS-5hA).
+
+The Recruiting Operations team follows the following instructions to use [Figma](https://www.figma.com/file/Wihuiao8IQ0OatMz4r2A5f/Fy24-Social-media-templates?type=design&node-id=1331-2529&mode=design&t=rv9jjhi4EqcmfUIp-0) to create the banners for the posts:
+
+1. First, duplicate photo we want to use by clicking the title of the photo, then click command “d”
+2. Double click the text to edit
+3. To update the employee photo, click on the photo, go to “image” on right toolbar, fill image, upload image of teammate’s choosing
+   1. If format gets messed up, click custom, then click “fit”
+4. Export image for LinkedIn:
+   1. For normal: scroll down on right, export 2x, PNG, resolution high
+   2. For compressed: figma logo top left, plugins, export compressed PDF, 2x, resolution high, PNG
 
 Please go to #wg-recruitment-branding for more information and questions.
 
@@ -103,17 +114,17 @@ Please follow these instructions:
 
 ### Job boards we currently use:
 
-- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph). All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn
-- [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm). All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor
-- [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp). All jobs that are publically listed in our applicant tracking system are automatically pushed to Indeed
-- [BuiltIn](https://builtin.com/company/sourcegraph). We have a company profile on BuiltIn that links to our careers page.
-- [Console](https://console.dev/profiles/sourcegraph/). We have a company profile on Console that links to our careers page.
-- ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md). Devon Coords posts one job to Hacker News on the first of every month.
-- [RemoteWoman](https://remotewoman.com/). RemoteWoman scrapes our career page, we can also message them to manually post our unlisted roles.
-- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Kemper Hamilton owns this list. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
-- [AngelList](https://angel.co/company/sourcegraph)
-- [Diversify Tech](https://www.diversifytech.co/job-board). Kemper Hamilton can post open roles here upon request from the Hiring Manager.
-- [TLDR](https://tldr.tech/jobs?filter=%257B%257D). Kemper Hamilton can post open roles here upon request from the Hiring Manager.
+- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph): All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn
+- [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm): All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor
+- [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp): All jobs that are publically listed in our applicant tracking system are automatically pushed to Indeed
+- [Wellfound](https://www.google.com/url?q=https://angel.co/company/sourcegraph&sa=D&source=docs&ust=1705970644416133&usg=AOvVaw0EpG09DU_fim9_zSWEM2lP): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Wellfound
+- [Levels.FYI](https://www.levels.fyi/companies/sourcegraph/jobs?from=company_header_navbar): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Levels.FYI
+- ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md): Trevor Houghton posts one job to Hacker News on the first of every month
+- [BuiltIn](https://builtin.com/company/sourcegraph): We have a company profile on BuiltIn that links to our careers page.
+- [Console](https://console.dev/profiles/sourcegraph/): We have a company profile on Console that links to our careers page.
+- [Tech Ladies](https://www.hiretechladies.com/): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Tech Ladies. Trevor owns this relationship. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
+- [Diversify Tech](https://www.diversifytech.co/job-board): Trevor Houghton can post open roles here upon request from the Hiring Manager. Each post costs money and will stay up for one month.
+- [TLDR](https://tldr.tech/jobs?filter=%257B%257D): Trevor Houghton manually posts open roles here on a monthly basis
 - [Job boards we're using for our Internship Program](../internship/index.md#college-job-boards-were-using)
 
 ### Other job boards/coding bootcamps we have used in the past:

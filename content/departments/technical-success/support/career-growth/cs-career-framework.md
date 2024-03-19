@@ -1,4 +1,4 @@
-# Customer support career framework
+# Support engineering career framework
 
 Our career level framework is meant to help you understand the expectations of your role and provide a common vocabulary for you and your manager to discuss and plan your career development on the CS team (in addition to where you might want to take your career in the future as outlined in our career roadmap practice). Having shared and visible expectations (as well as a common vocabulary) gives us an accountability framework to reduce bias in promotions/hiring and ensures that we are equitably recognizing everyone for their impact.
 
@@ -6,9 +6,18 @@ Our career level framework is meant to help you understand the expectations of y
 
 There are currently seven levels for support at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
-- Proficiency
-- Delivery
+- Impact
+  - Your work directly contributes to achieving the company’s strategic goals and long term success.
+- Scope
+  - You have high productivity and output. You deliver on your direct responsibilities while also looking for opportunities for improvement - individually, as a team, our product, and company.
+- Execution
+  - You seek out opportunities, rather than waiting for them to come to you.
+  - You put our customers and prospects first, orienting yourself to their success.
+  - You ask for help directly, when needed.
 - Teamwork
+  - You do not gate-keep, but rather aim to accelerate and unblock your colleagues.
+  - You communicate thoughtfully, clearly, and proactively to keep stakeholders informed and identify risks.
+  - You seek to help your teammates around you succeed; you win together. You reflect thoughtfully on your own performance and the performance of those around you, sharing helpful feedback for continued growth.
 
 It’s important to understand that what is listed in the level descriptions are example behaviors, and not checkboxes for promotion. Doing everything listed there is neither necessary nor sufficient for a promotion. The expectation is that you demonstrate a level of impact consistently over a span of months within each of the category descriptions for your level. The [magnitude of your impact](https://about.sourcegraph.com/blog/software-engineer-career-paths/) is ultimately the measure of your career growth.
 
@@ -42,270 +51,132 @@ As a Team Lead, you will have additional responsibilities beyond those your IC l
 
 ## Levels
 
-<style>
-  .container {
-    --width: var(--container-width);
-  }
-</style>
+## IC1
 
-<table class="levels-table">
+- Impact:
 
-  <thead>
-    <tr>
-      <th scope="col">Level</th>
-      <th scope="col" class="category-title">Non-Technical Proficiency</th>
-      <th scope="col" class="category-title">Technical Proficiency</th>
-      <th scope="col" class="category-title">Delivery</th>
-      <th scope="col" class="category-title">Teamwork</th>
-    </tr>
-  </thead>
+  - Can triage and assist customers with the help of existing documentation, articles and known playbooks.
+  - Contributes to team targets by handling a steady volume of tickets.
+  - Works with tickets assigned to you and are able to meet SLAs 90% of the tickets assigned to them during work.
 
-  <tbody>
-    <!-- IC1 -->
-    <tr>
-      <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
-    </tr>
-    <tr>
-      <td class="level-summary" colspan="4">
-        An individual new to the field with no prior industry experience; focused on learning, growth, and establishing themselves as a contributing member of the team. Entry Level.</li>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Troubleshoots and resolves common customer issues with guidance.</li>
-          <li>Demonstrates the essential needed to do work in our domain (as outlined in our<a href="../../support/index.md#our-guiding-principles"> guiding principles</a>).</li>
-          <li>Willingly receives feedback from teammates to delivers positive outcomes for customers and the team.</li>
-          <li>Increases their knowledge of Sourcegraph, our customers, team, general processes and workflows through reading, observing, and doing.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Has a basic understanding of Linux.</li>
-          <li>Has a basic understanding of Git.</li>
-          <li>Has a basic understanding of databases.</li>
-          <li>Has limited working proficiency with code hosts.</li>
-          <li>Is familiar with containerized runtimes like Docker and Kubernetes.</li>
-          <li>Has a basic understanding of Sourcegraph main product areas.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Under the guidance of their manager, can create a plan to consistently deliver on their commitments, while creating space to allow for learning, growth and rest.</li>
-          <li>Exercises profound compassion, with colleagues and customers.</li>
-          <li>Recognizes when they are blocked and asks for support.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Actively asks teammates, including cross-functional (e.g. engineering), questions to seek feedback and clarity.</li>
-          <li>Participates and demonstrates curiosity in team meetings.</li>
-          <li>Follows documented team processes and seeks clarification when in doubt.</li>
-          <li>Communicates with candor and transparency.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- IC2 -->
-    <tr>
-      <th id="ic2" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic2"></a><abbr title="Individual Contributor">IC</abbr>2</th>
-    </tr>
-    <tr>
-      <td class="level-summary" colspan="4">
-        An individual beginning to autonomously contribute, execute, and collaborate on routine customer issues while developing their skills. Support Engineer.</li>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Solves customer issues, sometimes with guidance, and is able to collaborate with their teammates to help them troubleshoot problems.</li>
-          <li>Consistently embodies our <a href="../index.md#our-guiding-principles">guiding principles</a> in the cases that they take responsibility for.</li>
-          <li>Externally, is able to effectively and proactively communicate with customers, facilitating collaboratively as appropriate.</li>
-          <li>Integrates feedback from teammates to deliver high-quality solutions.</li>
-          <li>Increases their communication, product, technical (dev or ops), collaboration, and facilitation knowledge/skills through reading, observing, and doing.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Is proficient in the primary elements of deployment types (Docker and Kubernetes).</li>
-          <li>Has professional working proficiency of Git.</li>
-          <li>Has professional working proficiency of all code hosts - GitHub (Cloud or Self-hosted), GitLab (Cloud or Self-hosted), Bitbucket Server, Bitbucket Data Center, or Perforce.</li>
-          <li>Has a strong understanding of Sourcegraph main product areas (Search, Batch Changes, Insights, Monitoring, etc)
-          <li>Has a strong understanding of databases.</li>
-          <li>Has a strong understanding of containerized runtimes like Docker and Kubernetes.</li>
-          <li>Has a strong understanding of cloud technologies.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Manages their day-to-day workflow appropriately to reliably deliver on their commitments, adhering to all defined team processes and workflows.</li>
-          <li>Asks for guidance in unfamiliar areas or for underspecified tasks and speaks up if is not at ease with what they understand they need to do.</li>
-          <li>Has a general understanding of how users interact with our product/infrastructure.</li>
-          <li>Is able to establish rapport with customers and colleagues to achieve meaningful and productive conversation.</li>
-          <li>Their tickets are maintained and kept up-to-date to allow for accurate team-level reporting.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Actively participates and is able to initiate conversation in team and cross-functional meetings.</li>
-          <li>Suggests improvements to team processes and helps keep the handbook up-to-date.</li>
-          <li>Communicates thoughtfully and intentionally, both synchronously and asynchronously.</li>
-          <li>Is flexible to change.</li>
-          <li>Resists group think and helps the team maintain productive, healthy dialogues.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- IC3 -->
-    <tr>
-      <th id="ic3" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic3"></a><abbr title="Individual Contributor">IC</abbr>3</th>
-    </tr>
-    <tr>
-      <td class="level-summary" colspan="4">
-        A mid-level individual contributor beginning to independently solve for more complex customer issues. Senior Support Engineer</li>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Is able to effectively facilitate troubleshooting calls with customers independently.</li>
-          <li>At any point in time, anyone can review their cases alongside our guiding principles and definitions of success, and they meet these at least 95% of the time.</li>
-          <li>Externally, they lead all plans for issue resolution, maintaining clear and transparent communications with customers throughout; they identify next steps and followthrough to completion.</li>
-          <li>Is skilled at diffusing customer frustrations/escalations.</li>
-          <li>Writes validated customer-facing documentation updates related to the dev ops aspects of our product.</li>
-          <li>Can explain the reasoning and trade-offs behind their decisions, including technical decisions.</li>
-          <li>Provides helpful, timely case documentation and/or code reviews.</li>
-          <li>Invests in their own growth; willingly exploring new tools, skills, areas of the codebase, etc.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Is an expert in all deployment types.</li>
-          <li>Has advanced knowledge of Sourcegraph main product areas and is a subject matter expert in at least one product area (Search, Batch Changes, Insights, Monitoring, etc)
-          <li>Has advanced knowledge of cloud technologies.</li>
-          <li>Has full professional proficiency of Git.</li>
-          <li>Has a working understanding of 1 or more of Sourcegraph's codebase languages (Go, Javascript, Python, Typescript) while developing proficiency in the rest.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Prioritizes their work in alignment with team/company goals and objectives.</li>
-          <li>Scopes and implements solutions to pre-defined problems, with guidance.</li>
-          <li>Detects problems (in the product or our processes) that could erode the customer experience and actively engages to resolve them.</li>
-          <li>Firmly grasps how users interact with our product/infrastructure.</li>
-          <li>Is skilled in establishing rapport with customers and colleagues, and consistently delivers results on time.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Communicates clearly, both synchronously and asynchronously, escalating blockers quickly, clarifying requirements and sharing assumptions and context.</li>
-          <li>Sets the example on defining/modifying team processes; participating in identifying problems, suggesting improvements, and helping with solutions.</li>
-          <li>Proactively adds and edits handbook documentation to help others.</li>
-          <li>Offers timely, helpful feedback to others and trusts them to decide to what extent to incorporate it.</li>
-          <li>Helps onboarding and orienting new team members.</li>
-          <li>Participates in the hiring process where possible, conducting interviews (with training) and writing helpful feedback.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- IC4 -->
-    <tr>
-      <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
-    </tr>
-    <tr>
-      <td class="level-summary" colspan="4">
-        A senior-level individual contributor that has demonstrated capabilities to consistently resolve more complex customer issues independently. Senior Support Engineer</li>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Is an expert in their domain: they have a deep understanding of our product and codebase/dev ops practices, and are a skilled communicator, collaborator and facilitator.</li>
-          <li>Has in-depth knowledge of the existing codebase and stays abreast of new refactors, omissions, etc.</li>
-          <li>Finds technical solutions to open-ended, ambiguously-defined problems (in our product or centered on the support team/workflow).</li>
-          <li>When finding solutions, identifies the core problems that need to be solved, as well as goals, risks, trade-offs, customer impact, technical debt, non-technical factors, etc.</li>
-          <li>Gives insightful feedback on higher-level aspects (architecture, scalability, customer-focus, etc.) in case/code reviews and RFCs, holding teammates to the same high standard they set for themself.</li>
-          <li>Maintains awareness of approaches outside of Sourcegraph that we’re not using, and uses this to help define best practices for the team/domain.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Is a subject matter expert in all deployment types, and acts as a mentor to IC1s and IC2s.</li>
-          <li>Is an expert in cloud technologies.</li>
-          <li>Is well-versed in all Sourcegraph features and contextual concepts.</li>
-          <li>Is an expert in Git.</li>
-          <li>Has full proficiency in all code hosts and working knowledge of at least one other code host apart from GitHub, GitLab, BitBucket or Perforce.</li>
-          <li>Is proficient in writing code in Go, Javascript, Python or any of our core programming languages.</li>
-          <li>Writes maintainable, well-tested code (for our product or for team tooling) that aligns with the style and practices of the team/codebase.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Independently scopes and implements solutions to complex, loosely-defined problems.</li>
-          <li>Estimates methodically, based on iterative learning, and sets realistic expectations/timelines that drive effort and support healthy work habits.</li>
-          <li>When faced with roadblocks, identifies appropriate courses of action, engaging others or unblocking themself as appropriate.</li>
-          <li>Is accountable end-to-end on everything for which they take responsibility.</li>
-          <li>Proactively identifies areas for improvement and balances new work with the necessary day-to-day tasks needed to keep the team operating well to provide a positive customer experience.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Communicates technical and non-technical issues and decisions clearly, bringing clarity to discussions, and helps to drive the process forward.</li>
-          <li>Routinely drives improvements in team/company processes (retros, planning, etc).</li>
-          <li>Considers the effects of their work and words on other teams, and represents the Support team well in discussions with cross-functional teammates, customers, and stakeholders.</li>
-          <li>Shares their experience and expertise to help others grow, through mentoring and coaching where possible.</li>
-          <li>Proactively proposes additions and changes to the team’s forward plans.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- IC5 -->
-    <tr>
-      <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
-    </tr>
-    <tr>
-      <td class="level-summary" colspan="4">
-        A particularly experienced individual who excels in their capabilities with a focus on leadership and growth; possesses unique knowledge and ability to navigate the most complex customer issues and inquiries; takes on an active role in mentoring IC1s-IC4s. Staff Support Engineer</li>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors">
-        <ul>
-          <li>Makes high-quality technical and non-technical decisions leading team-sized tasks that affect one or more complex systems or mission-critical areas.</li>
-          <li>Consistently incorporates non-technical factors into technical decisions and weighs them appropriately.</li>
-          <li>Has proficiency beyond their domain areas, understanding more about business operations and/or engineering scope/efforts.</li>
-          <li>Invests in technology, tools, and processes that benefit their entire team.</li>
-          <li>Lifts their teammates through feedback, mentorship, and sharing reusable patterns.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Is a subject matter expert in all Sourcegraph features and contextual concepts, and regularly helps unblock and enable their teammates.</li>
-          <li>Has full proficiency in all code hosts and working knowledge of multiple other code hosts apart from GitHub, GitLab, BitBucket or Perforce.</li>
-          <li>Is an expert in writing code in Go, Javascript, Python or any of our core programming languages.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Independently scopes and implements solutions to extremely complex and/or vague customer issues, and identifies the problems to be solved.</li>
-          <li>Remains composed in: ambiguous situations, challenging situations, situations involving multiple stakeholders, etc.</li>
-          <li>Intentionally and proactively aligns their work around a deep understanding of how people use the products/customer experience.</li>
-          <li>Proactively identifies areas for improvement beyond the scope of our team and contributes meaningfully to solutions while continuing to deliver on our team’s goals.</li>
-        </ul>
-      </td>
-      <td class="behaviors">
-        <ul>
-          <li>Is thoughtfully (and with empathy) able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.</li>
-          <li>Actively seeks dissenting opinions, disconfirming evidence, etc.</li>
-          <li>Shares a long-term vision that influences the team’s go forward plans.</li>
-          <li>Operates in a way that demonstrates self-awareness (often identifies feedback before anyone has to give it to them) and active intentionality (has a plan before they communicate/act).</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- IC6 -->
-    <tr>
-      <th id="ic6" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-    </tr>
-    <tr>
-      <td class="level-summary" colspan="4">
-        This role has not yet been defined. Principal Support Engineer</li>
-      </td>
-    </tr>
-  </tbody>
-</table>
+- Scope: Acquires foundational knowledge in dev tools and software engineering practices.
+
+- Execution:
+
+  - Under the guidance of your manager, you create a plan to consistently deliver on your commitments, while creating space to allow for learning and growth.
+  - You exercise profound compassion, with colleagues and customers.
+  - You recognize when you are blocked and ask for support.
+
+- Teamwork:
+  - You actively ask teammates, including cross-functional (e.g. engineering), questions to seek feedback and clarity.
+  - You participate and demonstrate curiosity in team meetings.
+  - You follow documented team processes and seek clarification when in doubt.
+  - You communicate with candor and transparency.
+
+## IC2
+
+- Impact:
+
+  - Works to resolve customer issues across all of our product & features.
+  - Impact extends to improving internal knowledge bases by documenting encountered issues and solutions.
+  - Can have an active queue of tickets while keeping a Median Open Time of 20 hrs or less.
+
+- Scope:
+  - Serves as part of triage rotation and can manage your ticket queue reliably while adhering to all defined team processes and workflows; adheres to Service Level Agreement (SLA) 94% of the time.
+  - Demonstrates proficient use of dev tools and applies advanced software engineering practices, contributing to more complex projects.
+- Execution:
+
+  - You ask for guidance in unfamiliar areas or for underspecified tasks and speak up if you are not at ease with what you understand you need to do.
+  - You have a general understanding of how users interact with our product/infrastructure.
+  - You are able to establish rapport with customers and colleagues to achieve meaningful and productive conversation.
+  - Your tickets are maintained and kept up-to-date to allow for accurate team-level reporting.
+
+- Teamwork:
+  - You actively participate and are able to initiate conversation in team and cross-functional meetings.
+  - You suggest improvements to team processes and help keep the handbook up-to-date.
+  - You communicate thoughtfully and intentionally, both synchronously and asynchronously.
+  - You are flexible to change.
+  - You resist group think and help the team maintain productive, healthy dialogues.
+
+## IC3
+
+- Impact:
+
+  - Identifies areas of improvement for the team and works with others to improve them.
+  - Influences customer satisfaction through advanced technical support and problem-solving.
+
+- Scope:
+
+  - Independently manage and resolve all assigned tickets, maintaining a consistent adherence to the Service Level Agreement (SLA) 96% of the time.
+  - Provide review and guidance for the work of other Support Engineers to enhance team performance and ensure quality outcomes.
+  - Masters a wide range of dev tools and leads in the adoption of cutting-edge support engineering practices, driving innovation in our department. This can include tooling we use everyday (k8s, docker-compose, helm) and other practices or knowledge that can help us better serve our customers (Hone leadership/communication courses, etc).
+
+- Execution:
+
+  - You scope and implement solutions to pre-defined problems, with guidance.
+  - You detect problems (in the product or our processes) that could erode the customer experience and actively engage to resolve them.
+  - You firmly grasp how users interact with our product/infrastructure and demonstrate this by consistently bringing feedback to EPD and participating in feedback sessions so the customer’s needs are heard.
+  - You are skilled in establishing rapport with customers and colleagues, and consistently deliver results on time.
+
+- Teamwork:
+  - You communicate clearly, both synchronously and asynchronously, escalating blockers quickly, clarifying requirements and sharing assumptions and context.
+  - You set the example on defining/modifying team processes; participating in identifying problems, suggesting improvements, and helping with solutions.
+  - You proactively add and edit handbook documentation and other knowledge sharing sites (Docs, KBs, Blog) to help others.
+  - You offer timely, helpful feedback to others and trust them to decide to what extent to incorporate it.
+  - You help onboard and orient new team members.
+  - You participate in the hiring process where possible, conducting interviews (with training) and writing helpful feedback.
+
+## IC4
+
+- Impact:
+
+  - Spearheads initiatives internal to the SE team and works with SEs and Mgmt to implement change, can point to result & outcomes from these efforts.
+  - Consistently provides strategic, constructive feedback focused on both immediate and long-term team development.
+
+- Scope:
+
+  - Works on complex tickets that require a high level of coordination between departments; maintains adherence to Service Level Agreements (SLAs) 98% of the time.
+  - Involved in mentoring new hires and ensuring the onboarding process prepares them to fulfill their role.
+  - Shapes the organization's approach to dev tools and software engineering practices, setting standards and leading strategic initiatives for technological advancement.
+  - Enhance your expertise in critical product domains and earn certifications to demonstrate your specialized proficiency.
+
+- Execution:
+
+  - You independently scope and implement solutions to complex, loosely-defined problems.
+  - You estimate methodically, based on iterative learning and set realistic expectations/timelines that drive effort and support healthy work habits.
+  - When faced with roadblocks, you identify appropriate courses of action, engaging others or unblocking yourself as appropriate.
+  - You are accountable end-to-end on everything for which you take responsibility.
+  - You remain composed in: ambiguous situations, challenging situations, situations involving multiple stakeholders, etc.
+  - You proactively identify areas for improvement and balance new work with the necessary day-to-day tasks needed to keep the team operating well to provide a positive customer experience.
+
+- Teamwork:
+  - You communicate technical and non-technical issues and decisions clearly, bringing clarity to discussions, and help to drive the process forward.
+  - You routinely drive improvements in team/company processes (retros, bi-weekly, etc).
+  - You consider the effects of your work and words on other teams and represent the Support team well in discussions with cross-functional teammates, customers, and stakeholders.
+  - You share your experience and expertise to help others grow, through mentoring and coaching where possible.
+  - You proactively propose additions and changes to the team’s forward plans.
+
+## IC5
+
+- Impact:
+
+  - Leads and owns cross-functional projects, long term goals, or scopes of work with only broad guidance from leadership
+  - Can effectively steer conversations and decisions made across the team and departments, contributing to the vision of the company.
+  - Demonstrates a strong ability to influence and drive scalable outcomes, ensuring that strategic decisions not only align with, but also significantly amplify, the company's long-term objectives and success.
+
+- Scope:
+
+  - You use your domain expertise to solve important and complex solutions for the company. Your solutions provide examples for others to follow.
+  - Serves as an organizational authority in dev tools and practices, pioneering industry-leading methodologies and guiding significant technological transformations across the company.
+
+- Execution:
+
+  - You independently scope and implement solutions to extremely complex and/or vague customer issues, and identify the problems to be solved.
+  - You intentionally and proactively align your work around a deep understanding of how people use the products/customer experience.
+  - You proactively identify areas for improvement beyond the scope of our team and contribute meaningfully to solutions while continuing to deliver on our team’s goals.
+
+- Teamwork:
+  - You are thoughtfully (and with empathy) able to convince and challenge teammates and cross-functional stakeholders using valid expertise and respectful communication.
+  - You actively seek dissenting opinions, disconfirming evidence, etc.
+  - You share a long-term vision that influences the team’s go forward plans.
+  - You operate in a way that demonstrates self-awareness (you often identify feedback before anyone has to give it to you) and active intentionality (you have a plan before you communicate/act).

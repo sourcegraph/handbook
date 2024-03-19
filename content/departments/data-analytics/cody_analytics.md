@@ -1,4 +1,6 @@
-## Cody data and analytics
+## Cody metrics
+
+Below is an overview of a few of the key metrics we're using to measure and iterate on the cody product - how they are defined, why we use them, and where you can track them.
 
 **Metric: Cody installs**
 
@@ -17,6 +19,24 @@
 - **Definition:** The number of Cody users who were active (based on our [product user definition](#cody-product-daus) 1 and 7 days after installing Cody, respectively.
 - **Why this metric:** As we continue to ship improvements to Cody, retention will be key to understanding how much value users are getting from the Cody.
 - **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: “Cody Day 1 Vs Day 7 Retention” chart)
+
+**Metric: Completion acceptance rate (CAR)**
+
+- **Definition:** The number of distinct accepted completion events divided by the number of distinct suggested completion events. We only count suggested completion events that were either 1) displayed to the user for at least 750ms, or 2) accepted by the user. For VSCode, we also exlcude suggestion/acceptance events that occur in an IDE that has other code completion providers enabled (because this makes it difficult for us to tell which suggested completion is "ours.") The code that generates this metric can be found [here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/LookerSchema@4eee6154d7e4060121b9ca9211a2117dccde97c7/-/blob/views/eventlogger/cody.view.lkml?L401:12-401:38) (for VSCode) and [here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/LookerSchema@4eee6154d7e4060121b9ca9211a2117dccde97c7/-/blob/views/eventlogger/cody.view.lkml?L419:12-419:38) (for JetBrains)
+- **Why this metric:** This metric allows us to understand the quality of Cody's completion suggestions
+- **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: "Completion acceptance rate" charts)
+
+**Metric: Weighted completion acceptance rate (wCAR)**
+
+- **Definition:** Total suggested characters of code that were accepted by the user / total suggested characters of code. We only count suggested completion events that were either 1) displayed to the user for at least 750ms, or 2) accepted by the user. For VSCode, we also exlcude suggestion/acceptance events that occur in an IDE that has other code completion providers enabled (because this makes it difficult for us to tell which suggested completion is "ours.") The code that generates this metric can be found [here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/LookerSchema@4eee6154d7e4060121b9ca9211a2117dccde97c7/-/blob/views/eventlogger/cody.view.lkml?L819:12-819:38)
+- **Why this metric:** wCAR does two things that the unweighted CAR does not: 1) it accounts for suggested completions that are partially accepted and 2) it assigns more weight to accepted completions that are longer (provide more code to the user). Since more code means more value, this weighting is a good indication of how valuable Cody's completions are.
+- **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: “Weighted CAR” chart)
+
+**Metric: Persistence rate**
+
+- **Definition:** the percentage of accepted completions that were unchanged or mostly unchanged at various time intervals (30/120/300/600 seconds). “Mostly unchanged” is defined as Levenshtein distance less than 33%. The code that generates this metric can be found [here](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/LookerSchema@4eee6154d7e4060121b9ca9211a2117dccde97c7/-/blob/views/eventlogger/cody.view.lkml?L934:19-934:30)
+- **Why this metric:** This metric helps us understand the quality of Cody's completion suggestions. If most of the code written by Cody remains in the code base, we know that Cody is writing code that meets the standards of developers
+- **Source of truth:** This data is logged by eventlogger, and accessed via [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) (see: “Persistence rate” chart)
 
 ## Cody user definitions
 
@@ -50,13 +70,12 @@ By default, any events that contain the text “cody” and that come from the S
 
 Cody data is available in Looker and Amplitude. Below we explain when to use which tool.
 
-\*\*Looker
+### Looker
 
-Looker is the source of truth for all shareable Cody KPIs and metrics. See [Looker](https://sourcegraph.looker.com/dashboards/476?Server+Endpoint=) KPIs.
+Looker is the source of truth for all shareable Cody KPIs and metrics. You can generally find a lot of charts and dashboards pre-made by the Data and Analyics team here, but you can also feel free to manipulate those pre-made charts as needed, or generate your own! For more details on using looker, see [here](reports.md#what-is-looker)
 
-Looker also contains reporting via Pings from our customers.
+### Amplitude
 
-\*\*Amplitude
+Amplitude contains the same Cody events data that looker does, but has fewer pre-made charts and key KPIs. In general, Amplitude is better used for exploratory analysis, such as investigating funnels and conversion or mapping user journeys. For more details on using Amplitude, see [here](reports.md#what-is-amplitude)
 
-Amplitude contains Cody events from the Eventlogger. See [Amplitude](https://analytics.amplitude.com/sourcegraph/space/mrlfrgi/all) Cody project for examples of analyses.
-Use Amplitude for adhoc analysis, funnel analytics, and other analytics outside of performance metrics.
+If you're SQL savvy and would prefer to query the data directly, check out [Redash](reports.md#what-is-redash)

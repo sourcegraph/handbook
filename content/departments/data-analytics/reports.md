@@ -1,6 +1,6 @@
 # Reports and dashboards at Sourcegraph
 
-The Data & Analytics team uses two primary tools for dashboards and reporting - Looker and Amplitude. Other tooling is used across the org (ex. Google Analytics, Google Sheets, etc) but these two tools house the majority of the enterprise reporting content owned by D&A.
+The Data & Analytics team uses three primary tools for dashboards and reporting - Looker, Amplitude, and Redash. Other tooling is used across the org (ex. Google Analytics, Google Sheets, etc) but these two tools house the majority of the enterprise reporting content owned by D&A.
 
 ## **Looker**
 
@@ -41,10 +41,9 @@ We don't have boards for every team yet, but we're working on it!
 
 **Initiative boards**
 
-- [Product-led growth board](https://sourcegraph.looker.com/boards/52): Contains data on PLG efforts, such as Sourcegraph App KPIs
 - [Instance configuration board](https://sourcegraph.looker.com/boards/56): Contains data on things like instance deployment methods, postrges dependency versions, customer telemetry status, etc. We recommend engineers subscribe to this board
 - [Sourcegraph.com traffic analytics board](https://sourcegraph.looker.com/boards/55): Contains web traffic data for sourcegraph websites (ex pageviews,sessions, clicks, etc)
-- [Company-wide metrics board]:(https://sourcegraph.looker.com/boards/58): This board contains data for company metrics that are top-of-mind, such as DAUs, DAU/MAU ratio, seat consumption ratio, and how many customers are on the most recent version. We recommend everyone add this board! You never know, what you learn may come in handy during Sourcegraph trivia at Merge :)
+- [Company-wide metrics board](https://sourcegraph.looker.com/boards/58): This board contains data for company metrics that are top-of-mind, such as DAUs, DAU/MAU ratio, seat consumption ratio, and how many customers are on the most recent version. We recommend everyone add this board! You never know, what you learn may come in handy during Sourcegraph trivia at Merge :)
 
 #### **How often is data in Looker updated?**
 
@@ -59,11 +58,10 @@ If you suspect you're looking at stale data on a dashboard or look, be sure to:
 
 We've created a few training videos to help you navigate our Looker project:
 
-- [Finding content in the new Looker project](https://www.loom.com/share/bb5ecafdecfe4a86a1456920068d6b0f)
 - [Navigating our Looker project](https://www.loom.com/share/d7bd9e551d8649f7980857c6f84f2b39)
-- [Using our dashboards](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD)
-- [Using our looks](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD)
-- ["Exploring" our datasets](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD) - note that "View" users do not have access to explore content
+- [Using our dashboards](https://drive.google.com/file/d/1xXWE4VKbsBo-o2Y2AiEEfZm9FACo3qcG/view?usp=sharing)
+- [Using our looks](https://drive.google.com/file/d/1HnWAaexvBLoRrHH40EKSDbYecDtNvCoW/view?usp=sharing)
+- ["Exploring" our datasets](https://drive.google.com/file/d/1fIYUA_rdHfaYIulANJkKI9hrsvkihEHI/view?usp=sharing) - note that "View" users do not have access to explore content. If you'd like to be explore content, request a View/Edit/Create license in [Entitle](https://app.entitle.io/request?)
 - [Creating custom fields](https://drive.google.com/drive/u/0/folders/17Yz0MO08q_OUk8TNh0ViIGT3j2pPUKqD) - note that "View" users do not have access to explore content
 
 #### **Additional training videos/documentation from Looker**
@@ -71,23 +69,24 @@ We've created a few training videos to help you navigate our Looker project:
 Looker also puts out guides and training videos that may be useful if you're looking for a more general tutorial about using the tool. Here are a few that we like in particular:
 
 - [Looker introduction](https://cloud.google.com/looker/docs/intro)
-- [Find and organize content](https://connect.looker.com/library/video/find-and-organize-content?_ga=2.48790688.703451167.1679794488-276166785.1639170296)
-- [Send alerts and share content](https://connect.looker.com/library/video/sending-and-sharing-content?_ga=2.215891345.703451167.1679794488-276166785.1639170296)
+- [Find and organize content](https://cloud.google.com/looker/docs/find-and-organize-content)
+- [Create an alert](https://cloud.google.com/looker/docs/creating-alerts)
 - [Download data from Looker](https://cloud.google.com/looker/docs/downloading#downloading_data_from_a_dashboard)
-- [Create dashboards](https://connect.looker.com/library/video/create-reports-and-dashboards?_ga=2.11491506.703451167.1679794488-276166785.1639170296) - note that "View" users do not have access to create dashboards content
+- [Create dashboards](https://cloud.google.com/looker/docs/creating-user-defined-dashboards) - note that "View" users do not have access to create dashboards content
+- [Create fields](https://cloud.google.com/looker/docs/custom-fields)
 
 #### **Quick Looker tips and tricks**
 
-- Almost all of our Looker content is filterable by `Account name`, `installer email`, and (where relevant) `Date`. To find a customer instance, we recommend filtering by account name. However, to find a propsect's instance or an instance belonging to a free user, you should filter using the installer_email. If you don't a prospect's installer_email, you can look it up in salesforce (Account > Instance > unique_server_id). This is because we don't currently automatically associate all instances to a salesforce account automatically (this functionality is coming soon)
+- Almost all of our Looker content (with the exception of Cody data) is filterable by `Account name`, `installer email`, and (where relevant) `Date`. To find a customer instance, we recommend filtering by account name. However, to find a propsect's instance or an instance belonging to a free user, you should filter using the installer_email. If you don't know a prospect's installer_email, you can look it up using their license key [here](https://sourcegraph.looker.com/looks/1597). This is because we don't currently automatically associate all instances to a salesforce account automatically (this functionality is coming soon!)
 - Most of our dashboards/looks filter to `Account type = Customer` by default. To search for a prospect or free instance, change the filter to `Account type = Free`
-- To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks. You can subscribe to boards by going to your looker homepage (from wherever you are in looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select “Browse all boards”
-- Many (though not all) dashboards offer the ability to "drill-down" into data points by clicking on values. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453), you can click any data point in the top chart to see a full list of the data that comprises the data point.
-- Many dashboards and charts offer the ability to navigate to other dashboards by clicking on an `Account name`/`installer_email`. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453) you can click on any account name in the last chart and then select "Single-Instance Overview" from the drop-down menu to navigate to a dashboard that will give you more detailed usage data for that account
+- To find content you may be interested in, we recommend subscribing to "boards" that are relevant to you. Boards are collections of dashboards and looks. You can subscribe to boards by going to your looker homepage (from wherever you are in Looker, click the logo in the top left corner to go to your homepage!) then click the “+” next to “Boards” in the left navigation menu and select “Browse all boards”
+- Many (though not all) dashboards offer the ability to "drill-down" into data points by clicking on values. For example, on [this dashboard](https://sourcegraph.looker.com/dashboards/453), you can click any data point in the first chart to see a full list of the data that comprises the data point.
 - Keep track of the content you like by "favoriting" it! You can favorite content by clicking the "heart" icon next to the name of any dashboard or look. View favorited content by clicking "Favorites" in the left-hand menu
 
 ### **Looker developers**
 
-- For best practices for writing LookML, adding new tables to our project, creating content, etc. please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
+- In addition to reviewing the training videos linked above, we recommend all Looker developers review the [LookML Guide](https://cloud.google.com/looker/docs/what-is-lookml) and take Looker's [Understanding LookML in Looker](https://www.cloudskillsboost.google/paths/28) course
+- For best practices for working within our Looker project specifically, please refer to our [best practices](https://docs.google.com/document/d/1OnBNQoscva88Qp969Ji3tURqGJY6NnjLpI-TIH2d-RE/edit#)
 
 ### **Notable reports**
 
@@ -135,11 +134,6 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 - [Search - single customer](https://sourcegraph.looker.com/dashboards/423?Account%20name=Databricks&Installer%20email=&%20Date=90%20day&Account%20Type=)
 - [App Performance KPIs](https://sourcegraph.looker.com/dashboards/440)
 
-**Related useful links**
-
-- placeholder for user metrics definitions
-- placeholder for sources of truth Includes some definitions and links to data points owned/managed by Sales and Finance (ex. ARR)
-
 ## **Amplitude**
 
 ### **What is Amplitude?**
@@ -148,7 +142,8 @@ Amplitude is a business intelligence tool specifically for product analytics, un
 
 #### **What data can I find in Amplitude?**
 
-Amplitude contains data from some managed instance customers, and from dotcom.
+Search data: Amplitude contains search data from some managed instance customers, and from dotcom.
+Cody data: Amplitude contains cody data from all clients and instances
 
 #### **How do I get access?**
 
@@ -160,7 +155,9 @@ Amplitude is best used to perform product-specific analyses and to better unders
 
 ### **Notable reports**
 
-- [Cody dashboard](https://analytics.amplitude.com/sourcegraph/dashboard/1h7p1dv)
+- [Top of funnel dashboard](https://app.amplitude.com/analytics/sourcegraph/dashboard/nktm80f3)
+
+Note that we don't do a lot of our standardized company reporting out of Amplitude; it's mostly a place for individuals to explore and answer their own questions. So be sure to browse the team-spaces and see what your coworkers are working on!
 
 ## **Redash**
 

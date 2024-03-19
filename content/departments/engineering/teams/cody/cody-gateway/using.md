@@ -16,7 +16,7 @@ To learn more about Cody Gateway, refer to the [main Cody Gateway page](./index.
 
 Access to the production Cody Gateway instance can be provisioned with the following steps:
 
-1. On sourcegraph.com, go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. On sourcegraph.com, go to [**Site admin > Enterprise subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. Under "Cody services":
@@ -28,11 +28,11 @@ Access to the production Cody Gateway instance can be provisioned with the follo
 
 Once access is provisioned (i.e. enabled via Cody Gateway), the Sourcegraph instance must be [configured](#configuration) as well.
 
-> [!WARNING] Changes in product subscription, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
+> [!WARNING] Changes in Enterprise subscriptions, such as enabling access and configuring custom rate limits, may take around 2 minutes to propagate.
 
 <br />
 
-> [!NOTE] Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the product subscription's associated license have the `dev` or `internal` tag.
+> [!NOTE] Access to `cody-gateway.sgdev.org` is the same as the above, but requires that the Enterprise subscription's associated license have the `dev` or `internal` tag.
 
 ## Configuration
 
@@ -47,9 +47,9 @@ Once access has been provisioned, for self-hosted customers please point them to
 
 ## Analyzing usage
 
-A brief summary of Cody Gateway usage is available in each subscription's "Cody services" section:
+A brief summary of Cody Gateway usage is available in each Enterprise subscriptions's "Cody services" section:
 
-1. On sourcegraph.com, go to [**Site admin > Subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
+1. On sourcegraph.com, go to [**Site admin > Enterprise subscriptions**](https://sourcegraph.com/site-admin/dotcom/product/subscriptions)
 2. Find and open a subscription of interest
    1. If you have the license key on hand, you can also use the [license key lookup tool](https://sourcegraph.com/site-admin/dotcom/product/licenses).
 3. View data in "Cody services" section
@@ -64,7 +64,7 @@ We have quota usage notifications when a customer consumes various percentages o
 
 > [!NOTE] This is most relevant for customers who adopted Cody completions prior to Sourcegraph 5.1.0.
 
-Customers using another provider for completions can be migrated to Cody Gateway by first [provisioning access](#provisioning-access), then configuring `sourcegraph` as the completions provider and replacing `accessToken` with the provisioned product subscription access token.
+Customers using another provider for completions can be migrated to Cody Gateway by first [provisioning access](#provisioning-access), then configuring `sourcegraph` as the completions provider and replacing `accessToken` with the provisioned Enterprise subscription access token.
 
 Models (`completions.chatModel`, `completions.completionModel`, `embeddings.model`, and so on) should be updated such that they are prefixed with the previous provider, either `anthropic/` or `openai/`. For example, `"chatModel": "anthropic/claude-v1"` should be updated to `"chatModel": "anthropic/claude-v1"`.
 

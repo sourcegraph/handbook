@@ -114,7 +114,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leave of Absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
-- [Mental health resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
+- [Mental health resources](total-rewards/mental-health.md)
 
 ### How we measure culture
 
@@ -244,6 +244,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
   - [The offer summary](talent/process/extending_an_offer.md#offer-summary-call)
   - [The offer letter](talent/process/extending_an_offer.md)
 - [How to hire a teammate into a new role](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [Talent acquisition metrics](talent/process/talent_metrics.md)
 
 ### Onboarding your new hire
 
@@ -504,21 +505,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
     <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
       <div>
         <div style="text-align: center">
-          <a href="../../team/index.md#jamie-oconnell-sheher" target="_blank" rel="noopener">
-            <img
-              src="https://storage.googleapis.com/sourcegraph-assets/JamieOConnell.png"
-              alt="Picture of Jamie O'Connell"
-              style="background: transparent; width: 128px"
-            />
-          </a>
-        </div>
-        <div style="text-align: center">Jamie O'Connell</div>
-        <div style="text-align: center; font-size: 12px">Senior People-Ops Generalist</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-      <div>
-        <div style="text-align: center">
           <a href="../../team/index.md#lauren-ross-sheher" target="_blank" rel="noopener">
             <img
               src="https://storage.googleapis.com/sourcegraph-assets/LaurenRoss.jpg"
@@ -575,21 +561,6 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
             </a>
           </div>
           <div style="text-align: center">Kelsey Nagel</div>
-          <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1; max-width: 20%; margin: 8px;">
-        <div>
-          <div style="text-align: center">
-            <a href="../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/GraceBohl.png"
-                alt="Picture of Grace Bohl"
-                style="background: transparent; width: 128px"
-              />
-            </a>
-          </div>
-          <div style="text-align: center">Grace Bohl</div>
           <div style="text-align: center; font-size: 12px">Corporate Recruiter</div>
         </div>
       </div>

@@ -20,9 +20,12 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 - CC: Recruiting@sourcegraph.com, Onboarding@sourcegraph.com, Hiring Manager
 - This should be sent within 24-hours of acceptance.
 
-**Step 2**: The Recruiter confirms that the open, start and hired dates are correct, ensuring accurate time-to-fill data.
+**Step 2**: The Recruiter confirms that the job open, start and hired dates are correct, ensuring accurate time-to-fill data. They should also ensure that the candidate application date is accurate, which can be skewed if transfering candidates to another req in Greenhouse.
 
-- To view/edit this information in Greenhouse, click 'Job Setup' and then 'Job Info'. This will show you the role details and you can confirm that all of the information is correct.
+- To view/edit job information in Greenhouse, click 'Job Setup' and then 'Job Info'. This will show you the role details and you can confirm that all of the information is correct.
+- **Important note:** When transfering a candidate from one req to another, please ensure that their application date reflects the date that they applied for the original req. You will need to manually do this on the new req by clicking the pencil icon next to "Applied on":
+
+![Screenshot of where to update application date in Greenhouse](https://storage.googleapis.com/sourcegraph-assets/Updating%20application%20date%20in%20Greenhouse.png)
 
 **Step 3**: The Recruiter confirms the candidate source information is accurate, ensuring accurate source data.
 

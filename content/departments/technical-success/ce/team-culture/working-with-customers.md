@@ -1,6 +1,6 @@
 # Customer Engineering: Working with Customers
 
-A CE, being both a pre-sales engineer and a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
+A CE, being the pre-sales technical sales engineer, works with prospective customers in a number of different ways. This page captures high-level descriptions of the ways in which we work with or on behalf of our prospective customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
 - [Pre-Sales Customer Touchpoints](#pre-sales-customer-touchpoints)
   - [Discovery and Demo](#discovery-and-demo)
@@ -12,8 +12,8 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [Customer Discovery](#customer-discovery)
 - [Processes](#processes)
   - [CE Technical Win Management](#ce-technical-win-management)
-  - [Tech Reviews](#tech-reviews)
-  - [Creating Tickets -Trial Support](#creating-trial-support-tickets)
+  - [Creating Tickets -Trial Support](#creating-support-tickets-during-trials)
+  - [Pre-to-Post Sales Handoff](#pre-to-post-sales-handoff)
 
 ---
 
@@ -21,18 +21,22 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
 
 ## Discovery and Demo
 
-The initial conversation(s) with a customer can vary in length and scope, but always involve discovery, that is uncovering their needs and motivations, and demonstrating product capabilities. This could range from an abbreviated 30-minute intro call with a smaller prospect, or multiple hour-long calls across various stakeholders and teams at an enterprise organization.
+The initial conversation(s) with a prospective customer can vary in length and scope, but always involves discovery. That is, uncovering their needs and motivations, and demonstrating product capabilities. This could range from an abbreviated 30-minute intro call with a smaller prospect, or multiple hour-long calls across various stakeholders and teams at an enterprise organization.
 
 ### Resources
 
 - [Customer discovery playbook](#customer-discovery)
-- [Demo education resources](../onboarding/education.md#trainings-and-demos)
+- [First Call Playbook training](https://docs.google.com/presentation/d/11xnb8kU8al0nu5swyprfUqFQs88CU1wDYLy65uimZBs/edit#slide=id.g260d5c6e87d_0_0)
+- [First Call deck](https://docs.google.com/presentation/d/11Nz_PCy-RP5uPExtao9Hx-UM1-EykHdaft66sH6BTcs/edit#slide=id.g28295ca06f6_0_323)
+- [First Demo Script](https://docs.google.com/document/d/107vpU01GNuoW64iSOEMYE5iFsusiDPbk2uqB3VQCWjE/edit#heading=h.dmholmrckdap)
 
-## Technical Design
+## Technical Qualification
 
-Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal in Salesforce. A subset of customers, especially those on self-hosted deployments, require the capture of additional information in order to successfully design a Sourcegraph deployment. Those additional artifacts, such as Implementation Discovery Questions, architecture diagrams, and other technical design elements should be stored [here](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC). These artifacts should also be linked from within your respective prospective customer [folder](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0) by creating a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) in Drive.
+Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we capture technical details on the Salesforce opportunity.
 
-For complex engagements, we have internal technical reviews with cross-functional teams (see [technical deal reviews](#technical-deal-reviews) below) that occur before approval to proceed to a trial deployment, to ensure we at Sourcegraph are collectively aligned on their needs and expectations, and so that the customer has the right expectations set and is positioned for success.
+If a CE encounters a non-standard deal - that is, the requirements extend beyond our known scale or compatibility - the CE should document those risks on the opportunity and raise with leadership for review.
+
+For complex requirements, CEs should be on the lookout for opportunities to position Professional Services to help ensure successful outcomes.
 
 ### Resources
 
@@ -40,11 +44,11 @@ For complex engagements, we have internal technical reviews with cross-functiona
 
 ## Customer Trials
 
-Trials are an important and strategic part of our sales cycles because when developers start to use Sourcegraph, they love it and want to use it forever. Seriously! Typically, our trials run for about a month but sometimes longer. Before, during and after, you collaborate closely with your account executive to ensure a successful experience for the customer.
+Trials are an important and strategic part of our sales cycles because when developers start to use Sourcegraph, they love it and want to use it forever. Seriously! Ideally, our trials do not run longer than 30 days - 21 days ideally. Before, during and after, you collaborate closely with your account executive to ensure a successful experience for the customer.
 
 Before the trial, you're working with the AE to scope and plan the trial - both use cases they'll test (which you'll enable them on) and technically how they plan to deploy Sourcegraph for the trial.
 
-CE and AE should use the [Trial and Deployment Planning Template](https://docs.google.com/spreadsheets/d/1mi_540InPEs6_xmCE2gHzw6Vt9QHDx-IdGogQZN6Ezw/edit?usp=sharing) to complete planning activities in advance of trial start. Here's a breakdown of who leads which aspects:
+CE and AE should use the [Joint Success Plan template](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268) to complete planning activities in advance of trial start. Here's a breakdown of who leads which aspects:
 
 - Documenting their technical landscape (CE-led)
 - Trial use cases / metrics for success (CE-led)
@@ -64,13 +68,11 @@ During the trial, CE is enabling and educating the customer on how to use Source
 
 ## Security Reviews
 
-Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](../process/security-reviews.md)
-
-The current CE Security SMEs are [Max Wiederholt](../../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
+Often before or during a customer’s technical trial, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](../process/security-reviews.md). Many of the answers can be found on [Safebase](https://app.safebase.io/portal) which prospective users can directly request access to.
 
 ## License Keys
 
-CEs are the team responsible for generating and maintaining license keys for customers. Here's some useful resources on how to do that:
+CEs are the team responsible for generating license keys for prospective customers. Here's some useful resources on how to do that:
 
 - [Creating and maintaining license keys for customers](../process/license_keys.md)
 - [Recording of creating a new key for demo.sourcegraph.com](https://drive.google.com/file/d/1fYsBqdzdBLd0mzAu2FJxrWznRX0k-iqr/view?usp=sharing)
@@ -95,59 +97,27 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](../process/tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
 
-## Tech Reviews
+## Creating Support Tickets during Trials
 
-Tech Reviews are employed in both pre-sales scenarios and post-sales scenarios.
+CE is responsible for creating tickets on behalf of prospective customers via support@sourcegraph.com. Tickets should be created when the resolution requires additional troubleshooting.
 
-- Tech reviews in pre-sales situations are documented as part of the [CE Technical Win Management Process](../process/tech-win-process.md).
-- Tech reviews in post-sales situations are documented as part of the [Customer Success Process](../process/tech-reviews.md).
+## Pre-to-Post Sales Handoff
 
-## Creating Trial Support Tickets
+A critical last step in the sales process is to hand off the opportunity to the Technical Advisory (post-sales) team. It's important so that we transfer important context about the deal (goals, needs, expectations, etc) and contacts so that the TA team is able to effectively take the relationship forward.
 
-Customer Engineering is responsible for creating tickets on behalf of the customer, tickets should be created when the resolution requires additional troubleshooting.
+The overall process is captured [here](../../ta/enterprise-success/team-culture/processes.md#post-sales-handoff). It's most important that CE knows the process is slightly different depending on the [customer segmentation](../../ta/index.md#customer-segmentation) and whether they will be managed by a named, dedicated TA or part of our digital, scaled success program.
 
-#### 1. Create Tickets for Trial Customers
+Need-to-know's for all accounts:
 
-> [!NOTE] To create the ticket in Slack use the ❓on the corresponding Slack message or email trialsupport@sourcegraph.com
+- CE handles the production license for any net new business opportunity or expansion.
+- If a separate production cloud instance is required, CE handles the creation request
 
-#### 2. To begin, access the Support Agent in Slack to view the created tickets. Follow these steps:
+For a named TA account:
 
-- Go to Slack and navigate to the Support Agent integration.
-- Select the `Home` tab within Support Agent to see the list of incoming tickets under the `Waiting for Help` section.
+- CEs are expected to participate in a formal knowledge transfer / hand-off with the TA before the deal closes
+  - CE should collect relevant information (doc links, channels, etc.) to make for a productive session
+- CE should participate in the post-sales kick-off call; after that, CE should roll off of the account until / unless there is an active expansion opportunity.
 
-#### 3. Assigning Tickets
+Need-to-know's for a digital & scaled success accounts:
 
-To take ownership of a ticket and determine the appropriate action, follow these steps:
-
-- Locate the ticket you want to handle within the `Waiting for Help` section.
-- Click on the three dots `...` next to the ticket and select `Start` to assign the ticket to yourself.
-
-#### 4. Responding to Customers within Slack or Foqal
-
-- Select `View Thread` to respond to the customer within the Slack thread or the Foqal ticket number located on the left to open the Foqal web browser.
-
-#### 5. Handling Chat Status - End Chat
-
-To manage the chat status and effectively organize your workflow, follow these steps:
-
-- When the communication with the customer is complete, go back to Support Agent and choose `End Chat`.
-
-#### 6. Transferring Trial ticket to Support Engineering
-
-In some cases, tickets originating from trial support may require additional guidance from our Support Engineers. In such cases, the Customer Engineering (CE) team should create a post in #discuss-customer-support to request a Support Engineer (SE) to take ownership of the ticket. Once the SE has confirmed, the CE can transfer ticket ownership from themselves to the appropriate Support Engineer (SE).
--To transfer the ticket from Slack, select `...` under the `Home` tab in Support Agent, select transfer, and select the appropriate Support Engineer (SE)
-
-Before transferring a ticket to support please ensure that you include the following information as an internal note:
-
-- Customer details
-- Link to the specific issue
-- Detailed summary of the issue or question
-- Consequences of not taking the desired action
-- Any time considerations and their significance
-- Any additional relevant information that can assist u
-
-Ways to add these internal notes:
-
-- **Slack:** In Support Agent, under `home` > `Your current chats` > select the dropdown `Options`, and `Add Ticket Notes`
-
-- **Zendesk:** In Zendesk, in the view `Trial Customers`, you can select your existing ticket, `Apply Macro`, select `Customer Support Ticket Request`, and add the internal notes.
+- CE, as part of hand-off, should map the appropriate roles on the contacts in Salesforce. See role definitions [here, step 7](../../ta/enterprise-success/team-culture/processes.md#process-overview).

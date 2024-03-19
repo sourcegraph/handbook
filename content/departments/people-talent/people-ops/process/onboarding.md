@@ -27,6 +27,7 @@ After signing your offer, you’ll receive two important emails. The Talent team
 There 5 tasks new hires must complete within 48 hours of signing your offer letter.
 
 - **Fill out your BambooHR profile**. You will receive an email from BambooHR titled “Welcome to Sourcegraph” prompting you to complete your profile information. This ensures our People Team will have everything ready for your first day!
+  - Please fill out everything listed in the form, including the citizenship and visa information which will be used by the People-Ops to remain fully compliant with all local laws, country employment laws, customer contacts, and to support travel for work events.
 - **Upload a photo of yourself to your Bamboo profile.** We will use this photo to create an Avatar for your Sourcegraph accounts, like Slack. Please submit a color image that is not blurry or pixelated (selfies work great!) Please upload the photo directly to this task using the attachment feature.
 - **Complete your background check.** You will receive an email from Checkr to complete a background check. Please provide all the required information as soon as possible to ensure the background check results are returned prior to your first day, which is a requirement to start.
 - **Place an order for your Sourcegraph computer** immediately after signing your contract. You can find instructions [here](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).

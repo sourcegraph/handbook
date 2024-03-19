@@ -26,32 +26,22 @@ Outreach and questions for the finance team can be asked in the #finance Slack c
 - Liaise with all other teams to become trusted business partners
 - Safeguard the assets of the Company
 
-## Goals
-
-### FY'23
-
-- Introduce financial reporting tools / software that will support long term value to our financial reporting process
-- Continuously monitor and evaluate our financial reporting metrics to understand key trends, and determine if new metrics need to be introduced as the company grows
-- Become a trusted business partner to all non Finance team members at Sourcegraph
-- Ensure that we build strong relationships with our customers and add efficiencies to our billings and collection process
-- Support other operational objectives within the Company
-
 ## Reporting
 
 ### Fiscal years
 
-A fiscal year is a one-year period that corporations like Sourcegraph use for accounting and budgeting. Sourcegraph's fiscal year runs from February 1 to January 31. Having our fiscal year offset by one month from the calendar year ensures that our fiscal Q4 doesn't end during December holidays, making our quarters more even and predictable, and eliminating pre-New Year stress for our sales, finance, and other teammates.
+A fiscal year is a one-year period that corporations like Sourcegraph use for accounting and budgeting. Sourcegraph's fiscal year runs from February 1 to January 31. Having our fiscal year offset by one month from the calendar year ensures that our fiscal Q4 doesn't end during the December holidays, making our quarters more even and predictable, and eliminating pre-New Year stress for our sales, finance, and other teammates.
 
 **Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
 
-### Fiscal year 2023
+### Fiscal year 2025
 
-- **FY23 Q1**: 01 February, 2022–30 April, 2022
-- **FY23 Q2**: 01 May, 2022–31 July, 2022
-- **FY23 Q3**: 01 August, 2022–31 October, 2022
-- **FY23 Q4**: 01 November, 2022–31 January, 2023
+- **FY25 Q1**: 01 February, 2024 – 30 April, 2024
+- **FY25 Q2**: 01 May, 2024 – 31 July, 2024
+- **FY25 Q3**: 01 August, 2024 – 31 October, 2024
+- **FY25 Q4**: 01 November, 2024 – 31 January, 2025
 
-### Sources of truth
+### Sources of Truth
 
 - Financial statements
 - [Company Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
@@ -59,8 +49,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
   - Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
   - [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
   - Annualized net retention - Refer to latest board meeting material
-  - Payback period & CAC efficiency - Refer to latest board meeting material
-  - Burn ratio & ARR per employee- Refer to latest board meeting material
+  - Burn ratio, Runway & ARR per employee - Refer to latest board meeting material
 
 ## Definitions
 
@@ -72,50 +61,45 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 [GTM Operations Review](Gtmopsreview.md)
 
-## FY23 Budget
+## FY25 Budget
 
-The FY23 plan was communicated, and approved, by the Board, at January 22, 2022. You can see the details of the plan [Here](https://docs.google.com/presentation/d/1lpLVcSnMQxtShbrB2w4GfX_V70mPkiS12lFHsRDCGgk/edit#slide=id.g7d2aea8729_0_0). At the time of completing this plan, the expected company headcount as of year end FY22 was 252. The plan approved for an addition of 130 heads in FY23 meaning that we will exit FY23 with 382. The plan also captures significant growth for year on year investment in our marketing program spend, software spend, and professional services spend. The plan was built following detailed consultation and input from our Leadership team. We focused on the key questions:
-
-- Where do we need to invest dollars in order to deliver incremental ARR?
-- Where do we need to invest dollars in order to stay ahead of our competition?
-- What other investments do we need to make in order to ensure that the business can operate efficiently and effectively, whilst maintaining ambitious growth targets?
+The FY25 Budget was communicated, and approved, by the Board, at January 28, 2024. You can see the details of the plan [Here](https://docs.google.com/presentation/d/1XhiwfiF5cKH3wFYH8XPkwO-V3ys01ScZBwTnlkWFczI/edit#slide=id.g241b8d53608_0_648).
 
 When reviewing and finalizing our plan, we met with our investors and leveraged benchmark guidance that they were able to provide on companies who are experiencing similar growth, opportunities and challenges. We used these benchmarks to gauge our growth and spend versus this peer group.
 
 **How the plan was built**
 
-The FY23 plan was built at a departmental level. We have 9 departments:
+The FY25 plan was built at a departmental level. We have 9 departments:
 
 | Department           | Department (Budget owner) |
 | -------------------- | ------------------------- |
-| R&D Engineering      |                           |
-| R&D Product          | Quinn Slack               |
-| Marketing            |                           |
-| Sales                | Greg Batis                |
-| Customer Support     |                           |
+| R&D Engineering      | Erika Rice Scherpelz      |
+| R&D Product          | Chris Sells               |
+| Marketing            | Raman Sharma              |
+| Sales                | Brock Perko               |
+| Customer Support     | Aimee Menne               |
 | Customer Engineering | Aimee Menne               |
 | Operations           | Dan Adler                 |
 | Talent & People-ops  | Carly Jones               |
 | Exec                 | Connor O' Brien           |
 
-Within each department, there are also cost centers. The cost center structure can be viewed within Bamboo. The FY23 plan was built by allocating and reviewing costs at the cost center level. This structure allowed us to be more detailed and analytical in our investment plan.
+Within each department, there are also cost centers. The cost center structure can be viewed within Bamboo. The FY25 plan was built by allocating and reviewing costs at the cost center level. This structure allowed us to be more detailed and analytical in our investment plan.
 
 **How we will monitor performance versus plan**
 
-Following each month end at FY23, the finance team will share a reporting pack with the head of each department that will outline the following:
+Twice a quarter (following month 2 & 3), the finance team will share a reporting pack with the head of each department that will outline the following:
 
-- Cost (on a $ basis) versus plan for that month and for that quarter to date
+- Cost (on a $ basis) versus plan for that quarter or for that quarter to date
 - Updated forecast for the remainder of fiscal quarter, and year, versus plan
 - Headcount versus plan
-- Company level metrics
+- Company-level metrics
   - ARR vs plan
   - Burn vs plan
 
 The above information will be shared via Google slides on business Day +8 following the monthly financial close. As part of this review process, Finance and Department leads will also evaluate our investments for the remainder of the fiscal year and determine if any adjustments are required. There are a number of scenarios that could require us to make an adjustment that would deviate from the plan. Some of these might include:
 
-- A marketing program has generated a significant amount of opportunities beyond expectation.
-- We want to allocate more dollars to this program.
-- Our Engineering and Product team believe that there is an opportunity to invest in a feature that will have a meaningful impact on our ARR growth.
+- A marketing program has generated a significant amount of opportunities beyond expectations.
+- Our Engineering and Product team believes that there is an opportunity to invest in a feature that will have a meaningful impact on our ARR growth.
 - We see inbound activity beyond what was planned and we need to adjust the hiring plan for the sales team.
 - Our pace of growth is negatively impacted by adverse macroeconomic conditions. We determine that spending refinements are required in order to manage and maintain our forecasted cash position.
 
@@ -136,9 +120,20 @@ Our goal is to ensure financial discipline, however, as a Finance team, we also 
 
 For non Headcount related requests, the above detail should be provided to the finance team via the slack #vendor-request channel. The finance team will commit to respond within 24 hours.
 
+All requests should be discussed with your Executive lead before submitting to Finance. For the majority of incremental requests, Finance will be required to work with your Executive lead to offset incremental costs, with savings.
+
 ### Process
 
 See our [process docs](process/index.md).
+
+**Exceptions and Approvals**
+
+- Extension Approvals, Discounts: Dan Adler, in #discuss-deal-desk (note discount approval matrix is in process for new pricing with approvals taking place in CPQ)
+- Commissions, Compensation, or CFP Exceptions: Desene Sterling, in #rev-comp-plans
+- ARR Exceptions: Kendrick Morris, either in #discuss-deal-desk or #discuss-finance (note this is if you are requesting a change in how ARR is recognized or the period in which it is being recognized):
+- Compensation Related Budget increases: Tommy O Donnell, in #discuss-finance or if the ask is sensitive, via DM
+
+[Sales & Finance - Exceptions and Approvals Process](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/formResponse](https://docs.google.com/document/d/1abVSOQq8me-2mhN9hb7uRinQcYVrx3rH6jt1_SiRp9w/edit#heading=h.moq25fk8nn1s)
 
 ## Accounting
 

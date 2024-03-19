@@ -23,7 +23,7 @@ To update the non-sensitive configuration, follow these steps:
 
 Our site configuration contains many secrets like OAuth credentials. It is [stored in GSM](https://console.cloud.google.com/security/secret-manager/secret/SITE_JSON/versions?project=sourcegraph-dev) in the `sourcegraph-dev` project. The secrets are synced to the cluster using [Terraform](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/gsm-secrets.tf), and is managed in the [dotcom workspace](https://app.terraform.io/app/sourcegraph/workspaces/dotcom) on Terraform Cloud.
 
-> [!NOTE] syncing new secret versions requires access to Terraform Cloud. Reach out to #ask-security to get access, or request #discuss-dev-infra or #ask-security to run the workspace for you.
+> [!NOTE] syncing new secret versions requires access to Terraform Cloud. You can request access via Entitle, use "Terraform Cloud: Infrastructure - Core Services - Member". Or, kindly request someone from #discuss-core-services or #discuss-security to run the workspace for you.
 
 To update secrets in site config for our Dotcom deployment, follow these steps:
 
