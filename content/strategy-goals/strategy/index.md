@@ -39,11 +39,11 @@ This is a critical piece that we can do better than anyone else as an independen
 
 All this leads to autonomous coding, which is the holy grail, the world-changing technology with an even bigger impact than the industrial revolution.
 
-**Autonomous coding** means Cody is able to check its work and iterate/evolve toward a more correct solution. Even before full autonomy, there’s a ton of value in Cody being able to take multiple steps without the human in the loop. 
+**Autonomous coding** means Cody is able to check its work and iterate/evolve toward a more correct solution. Even before full autonomy, there’s a ton of value in Cody being able to take multiple steps without the human in the loop.
 
 ## Product principles
 
-To stay focused on the right things while we work on our strategy we will keep **unification, lovability,** and **growth** top of mind. 
+To stay focused on the right things while we work on our strategy we will keep **unification, lovability,** and **growth** top of mind.
 
 ![Product principles](https://storage.googleapis.com/sourcegraph-assets/Product-principles-fy25.png)
 
@@ -53,22 +53,23 @@ We want to iterate toward a unified product. That means doing things that make t
 
 ![Product direction](https://storage.googleapis.com/sourcegraph-assets/product-direction-fy25.png)
 
-### First 
+### First
 
-To iterate toward one lovable code intelligence we want to accomplish things that make total sense for our users and customers now, and that also help us get closer to that really compelling longer-term vision (code intelligence + AI). 
+To iterate toward one lovable code intelligence we want to accomplish things that make total sense for our users and customers now, and that also help us get closer to that really compelling longer-term vision (code intelligence + AI).
 
 So here’s what we’ll do first, starting with two things we’ve already been doing:
-- **Focus on lovability and growth** - this work continues to be super important. We need to make the self-serve flow really smooth, make the core Cody features more and more lovable, and make sure that we can respond quickly to any community feedback. 
+
+- **Focus on lovability and growth** - this work continues to be super important. We need to make the self-serve flow really smooth, make the core Cody features more and more lovable, and make sure that we can respond quickly to any community feedback.
 
 - **Dedicate 20% of eng work to Enterprise** - 20% of all eng work goes toward what the enterprise needs. The other 80%, you might ask? It goes toward making the product better for everyone, including pro devs in the enterprise.
 
 And as far as new things go...
 
-- **We will be adding the ability to at-mention more kinds of context** - This is a huge user request, and something that we've been talking about for a long time with our customers. Context is already such a huge differentiator and this will make it even more so. We also know this is something users already work around but pasting in docs, so we’ll make this a first-class experience in the product. 
+- **We will be adding the ability to at-mention more kinds of context** - This is a huge user request, and something that we've been talking about for a long time with our customers. Context is already such a huge differentiator and this will make it even more so. We also know this is something users already work around but pasting in docs, so we’ll make this a first-class experience in the product.
 
-- **Bring Cody on the web up to parity with Cody in the editor** - We want to give Cody on the web a lot more love and bring it up to parity with the editor experience. This means getting in all that context (including the docs context) making it so non-edit commands work, and making it so multi-LLMs work. Of course we aren’t trying to rebuild an editor in the web, this will require us to be thoughtful and exclude the stuff that only makes sense in the editor (like in-line edits). 
+- **Bring Cody on the web up to parity with Cody in the editor** - We want to give Cody on the web a lot more love and bring it up to parity with the editor experience. This means getting in all that context (including the docs context) making it so non-edit commands work, and making it so multi-LLMs work. Of course we aren’t trying to rebuild an editor in the web, this will require us to be thoughtful and exclude the stuff that only makes sense in the editor (like in-line edits).
 
-Both of these things are critical parts of any unified product we’ll build, and make our product better and more differentiated immediately. This is exactly what we mean by iterating toward unification, and we expect customers and users to be really excited to get their hands on this functionality. 
+Both of these things are critical parts of any unified product we’ll build, and make our product better and more differentiated immediately. This is exactly what we mean by iterating toward unification, and we expect customers and users to be really excited to get their hands on this functionality.
 
 So, what comes after this?
 
@@ -76,16 +77,17 @@ So, what comes after this?
 
 **We’re going to be working toward a single unified product.**
 
-At Merge, we showed off an early concept of what this may roughly look like, but beyond what we shared there, we want to make it so a single dev can try and love our product and then easily get it for their company. This means the product has essentially the same awesome product experience throughout and it’s easy to upgrade/migrate. To do this we believe it’s important that Cody Pro is on the Cloud (not some souped up local experience). 
+At Merge, we showed off an early concept of what this may roughly look like, but beyond what we shared there, we want to make it so a single dev can try and love our product and then easily get it for their company. This means the product has essentially the same awesome product experience throughout and it’s easy to upgrade/migrate. To do this we believe it’s important that Cody Pro is on the Cloud (not some souped up local experience).
 
 **Cody local vs. remote capabilities**
 While we want our single-repo, local editor state experience to be first in class, local-only is not where we’ll be able to build a high quality differentiated user experience. We can’t build this easy upgrade, differentiated experience and narrow our focus if we build a duplicative local multi-repo experience for Cody Pro because there would exist too great a gap (in functionality and spread/upgrade path) between that product and our enterprise product. Instead, we must focus on building an experience that makes it clear to the user that depending on remote capabilities are highly valuable and worth the extra steps to enable them.
 
 To get clearer on this unified product, we want to experiment and iterate quickly. To do this, we have two tiger teams focused on our future vision:
+
 - **Noodle (aka unified product)** - Led by Quinn Slack
 - **Autonomous coding** - Led by Beyang Liu
 
-These two tiger teams will be working on really cool stuff that can help chart the future of Sourcegraph and coding. To make them successful we need to create the right environment - they are going to be intentionally very small teams (which means low impact on everyone else), and although it’s going to be tempting, we expect everyone to stay focused on the other important stuff we’re already doing to integrate more AI into search and more context into Cody. As the tiger teams make progress and prove their work, we’ll consider expanding the team size over time. The stuff these teams work on is not ready to be sold to or committed to customers in any way, but we’ll share frequent demos and update internally and tease progress externally via Twitter, etc. as it makes sense. 
+These two tiger teams will be working on really cool stuff that can help chart the future of Sourcegraph and coding. To make them successful we need to create the right environment - they are going to be intentionally very small teams (which means low impact on everyone else), and although it’s going to be tempting, we expect everyone to stay focused on the other important stuff we’re already doing to integrate more AI into search and more context into Cody. As the tiger teams make progress and prove their work, we’ll consider expanding the team size over time. The stuff these teams work on is not ready to be sold to or committed to customers in any way, but we’ll share frequent demos and update internally and tease progress externally via Twitter, etc. as it makes sense.
 
 ## Values
 
