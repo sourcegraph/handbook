@@ -30,6 +30,7 @@ Sourcegraph team members can view more internal details about our company strate
 ## Product vision and direction
 
 Our product vision and direction are critical to achieving our strategy. See more details about what we're building and why it matters in the [product vision and direction doc](https://docs.google.com/document/d/1gyxslvskFAMxQUvOQFkF8eyt8RGd1iIdqNpIv_fwsvA/edit) (visible to internal Sourcegraph only).
+
 ## Values
 
 Our [values](../../company-info-and-process/values/index.md) are the principles that help us execute our strategy and build a high-performance team.
