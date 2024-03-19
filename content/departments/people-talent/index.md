@@ -255,7 +255,7 @@ In case of emergency, the Head of People & Talent is available 24/7 via their ce
 - [Managing people](resources-for-managers.md#managing-people)
 - [Continuous feedback & coaching](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
   - [Guide to an effective 1:1](../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-- [Semi-annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
+- [annual performance review process](people-ops/process/teammate-sentiment/impact-reviews/index.md)
   - [When can you get a promotion](people-ops/process/teammate-sentiment/impact-reviews/index.md#how-to-get-a-promotion)
   - [Department specific career frameworks](../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
     - [Our level guide](../../benefits-pay-perks/pay-expenses/compensation/leveling-guide.md)
