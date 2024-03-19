@@ -68,7 +68,7 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 
 ### Hours spent interviewing per hire by department
 
-- **Metric definition:** Hours spent by interviewing team on interviews that occurred during this period divided by the number of offers that were accepted during this period, grouped by department. 
+- **Metric definition:** Hours spent by interviewing team on interviews that occurred during this period divided by the number of offers that were accepted during this period, grouped by department.
 - **Target:** <40 hours
 
 ### Recruitment source breakdown
