@@ -27,9 +27,13 @@ In FY25 we will help more pro devs code better and faster with a single lovable 
 
 Sourcegraph team members can view more internal details about our company strategy in the [MSEM FY25 document](https://docs.google.com/document/d/1Ju2SwpRCcIAC65kCu60QM8rnsn8YDTmkNAKO5xkl0ZY/edit#heading=h.ev1rhjc47atd) and [company framework](https://docs.google.com/document/d/127S8cGKrYi2g8CVjMO3fpT33Ld_ZpT7_1UgbAvlqGC0/edit?usp=sharing). These artifacts help our team gain internal alignment and influence how we build, market, and sell our products.
 
+## Product vision and direction
+
+Our product vision and direction are critical to achieving our strategy. See more details about what we're building and why it matters in the [product vision and direction doc](https://docs.google.com/document/d/1gyxslvskFAMxQUvOQFkF8eyt8RGd1iIdqNpIv_fwsvA/edit) (visible to internal Sourcegraph only).
+
 ## Values
 
-Our [values](../../company-info-and-process/values/index.md) are the principles that help us execute on our strategy and build a high-performance team.
+Our [values](../../company-info-and-process/values/index.md) are the principles that help us execute our strategy and build a high-performance team.
 
 ### Market segmentation
 
