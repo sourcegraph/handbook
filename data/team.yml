@@ -1729,6 +1729,17 @@ eric_shamow:
   location: Portland, OR, USA
   description: 'Eric is originally out of New York but has called Portland, OR home for the past decade. He spends a lot of time in the space somewhere between process, systems architecture, org design and engineering practices. Prior to Sourcegraph Eric was an early employee at Puppet a little over a decade ago, where he visited over 200 companies to study how tools and practices intersect to drive culture change. More recently he ran the Compute SRE team at Twitter. Eric used to be a classical musician, and can be found geeking out over music, books and films (especially sci-fi and horror).'
 
+chris_sev:
+  name: Chris Sev
+  role: Developer Advocate
+  email: chris.sev@sourcegraph.com
+  github: chris-sev
+  pronouns: he/him
+  reports_to: director_devrel
+  location: Denver, USA 🇺🇸
+  links: '[X](https://x.com/chris__sev)'
+  description: Chris is a full stack developer that has built his career educating developers on how to code and how to monetize their code projects. He spends his time always building fun projects, playing with his 2 little kids, and lifting heavy things.
+
 aravind_ramaraju:
   name: Aravind Ramaraju
   reports_to: product_lead
