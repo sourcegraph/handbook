@@ -18,13 +18,13 @@ As of March 2024, Sourcegraph releases features monthly ([see RFC 864](https://d
 | 5.3.1   | N/A                 | N/A              | February 21, 2024 | Patch        |
 | 5.3.2   | N/A                 | N/A              | March 8, 2024     | Patch        |
 | 5.3.3   | N/A                 | N/A              | March 20, 2024    | Patch        |
-| 5.3.x   | N/A                 | N/A              | April 5, 2024     | Monthly      |
+| 5.3.x   | N/A                 | April 3, 2024    | April 5, 2024     | Monthly      |
 | 5.3.x   | N/A                 | N/A              | April 22, 2024    | Patch        |
-| 5.3.x   | N/A                 | N/A              | May 6, 2024       | Monthly      |
+| 5.3.x   | N/A                 | May 2, 2024      | May 6, 2024       | Monthly      |
 | 5.3.x   | N/A                 | N/A              | May 20, 2024      | Patch        |
-| 5.3.x   | N/A                 | N/A              | June 5, 2024      | Monthly      |
+| 5.3.x   | N/A                 | June 3, 2024     | June 5, 2024      | Monthly      |
 | 5.3.x   | N/A                 | N/A              | June 20, 2024     | Patch        |
-| 5.3.x   | N/A                 | N/A              | July 6, 2024      | Monthly      |
+| 5.3.x   | N/A                 | July 3, 2024     | July 5, 2024      | Monthly      |
 | 5.3.x   | N/A                 | N/A              | July 22, 2024     | Patch        |
 
 These releases **may** require [manual migration steps](https://sourcegraph.com/docs/admin/updates).
