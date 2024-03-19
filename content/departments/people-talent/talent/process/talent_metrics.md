@@ -66,6 +66,11 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Metric definition:** Average number of days between the date a job was opened in Greenhouse and the candidates's scheduled start date.
 - **Target:** <95 days
 
+### Hours spent interviewing per hire by department
+
+- **Metric definition:** Hours spent by interviewing team on interviews that occurred during this period divided by the number of offers that were accepted during this period, grouped by department.
+- **Target:** <40 hours
+
 ### Recruitment source breakdown
 
 - **Metric definition:** Measure the distribution of external hires by recruitment source, including referral, rehire, agency, etc.
@@ -108,32 +113,32 @@ To revise the date range, copy the dashboard as an independent tab under your ow
 ### Engineering hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/101798/v5LL0vpVRrot)
-- Year to date (COMING SOON)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105186/uAr4igKAqG2z)
 
 ### Marketing hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103375/RlavUzP0jlmp)
-- Year to date (COMING SOON)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105188/nY8ZeThQtoWR)
 
 ### Operations hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103373/zqhYSvHXt7UR)
-- Year to date (COMING SOON)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105189/Qwqnk2do3TV0)
 
 ### People & Talent hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103378/idBWUm6lWex2)
-- Year to date (COMING SOON)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105190/zk8Sv5k62Gck)
 
 ### Product hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103374/JnEU2kfU0wnr)
-- Year to date (COMING SOON)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105191/SKCvYN6iBqOL)
 
 ### Sales hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/103377/2SRnMP65mNNr)
-- Year to date (COMING SOON)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105192/IFMukSaBHaqV)
 
 ### Technical Success hiring metrics
 
