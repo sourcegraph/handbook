@@ -110,6 +110,11 @@ To revise the date range, copy the dashboard as an independent tab under your ow
 
 ![Make a copy of dashboard](https://storage.googleapis.com/sourcegraph-assets/Make%20a%20copy%20of%20TalentWall%20dashboard.png)
 
+### Sourcegraph hiring metrics (all departments)
+
+- [Last 6 months](https://app.talentwall.io/shared-dashboard/105242/DwHd9HJiq4Ot)
+- [Year to date](https://app.talentwall.io/shared-dashboard/105243/VDYeahfQsRiF)
+
 ### Engineering hiring metrics
 
 - [Last 6 months](https://app.talentwall.io/shared-dashboard/101798/v5LL0vpVRrot)
