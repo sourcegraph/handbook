@@ -1,6 +1,7 @@
 # Support Team Processes
 
 - [Updating Known Issues Page](known-issues.md)
+- [Handling Non-Support Emails](non-support-emails.md)
 - [Case transitions](case-transitions.md)
 - [Cloud Maintenance Window Process](cloud-maintenance-window.md)
 - [Collaboration time](collaboration-time.md)
