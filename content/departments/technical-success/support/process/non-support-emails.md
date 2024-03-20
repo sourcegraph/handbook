@@ -1,6 +1,6 @@
 # Handling Non-Support Emails
 
-Occasionally, non-support emails will be sent to support@sourcegraph.com, either cold outreach, employment verification, bills, marketing, or spam. We can forward these emails to the appropriate team and close the ticket. 
+Occasionally, non-support emails will be sent to support@sourcegraph.com, either cold outreach, employment verification, bills, marketing, or spam. We can forward these emails to the appropriate team and close the ticket.
 
 **Marking Spam:**  
 If an email is spam, navigate to the ticket menu and select ‘Mark as spam’.
