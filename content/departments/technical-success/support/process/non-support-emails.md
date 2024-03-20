@@ -6,7 +6,7 @@ Occasionally, non-support emails will be sent to support@sourcegraph.com, either
 If an email is spam, navigate to the ticket menu and select 'Mark as spam'.
 
 **Deleting Emails:**
-If an email is an internal company update or a solicitation email, 
+If an email is an internal company update or a solicitation email,
 navigate to the ticket menu and select 'Delete'.
 
 **Forwarding Emails:**  
