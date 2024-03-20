@@ -56,7 +56,7 @@ Here is a list of useful quick links:
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-dev-bfec)
   - [GCP errors](https://console.cloud.google.com/errors;service=;version=?project=sams-dev-bfec)
 
-For standard infrastructure operations, see [Sourcegraph Accounts infrastructure operations](../../../managed-services/sams.md).
+For standard infrastructure operations, see [Sourcegraph Accounts infrastructure operations](../../../managed-services/sourcegraph-accounts.md).
 
 For common service operations, see [Sourcegraph Accounts operators cheat sheet](https://github.com/sourcegraph/accounts.sourcegraph.com/wiki/Operators-Cheat-Sheet).
 
