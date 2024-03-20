@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-11 06:28:34.636098 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/516734a23afe816218cf3556bba1ace6d26b5420
+Last updated: 2024-03-20 14:31:31.188558 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/17f8bdf7fc229d21f8b9bf1823318c1c39f9d92f
 -->
 
 This document describes operational guidance for Pings Service infrastructure.

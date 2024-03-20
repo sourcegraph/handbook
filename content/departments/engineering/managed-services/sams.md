@@ -1,13 +1,13 @@
-# Sourcegraph Accounts infrastructure operations
+# Self-Serve Cody infrastructure operations
 
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-11 06:28:34.640331 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/516734a23afe816218cf3556bba1ace6d26b5420
+Last updated: 2024-03-20 14:31:31.19202 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/17f8bdf7fc229d21f8b9bf1823318c1c39f9d92f
 -->
 
-This document describes operational guidance for Sourcegraph Accounts infrastructure.
+This document describes operational guidance for Self-Serve Cody infrastructure.
 This service is operated on the [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md).
 
 > [!IMPORTANT]
@@ -17,14 +17,14 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Service ID   | [`sams`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml)                                                                     |
-| Owners       | **core-services**                                                                                                                                                  |
-| Service kind | Cloud Run service                                                                                                                                                  |
-| Environments | [dev](#dev), [prod](#prod)                                                                                                                                         |
-| Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/sams/accounts-server`                                                                                                  |
-| Source code  | [`github.com/sourcegraph/accounts.sourcegraph.com` - `cmd/accounts-server`](https://github.com/sourcegraph/accounts.sourcegraph.com/tree/HEAD/cmd/accounts-server) |
+| PROPERTY     | DETAILS                                                                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Service ID   | [`sams`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml)                                                   |
+| Owners       | **core-services**                                                                                                                                |
+| Service kind | Cloud Run service                                                                                                                                |
+| Environments | [dev](#dev), [prod](#prod)                                                                                                                       |
+| Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/sams/accounts-server`                                                                                |
+| Source code  | [`github.com/sourcegraph/self-serve-cody` - `cmd/accounts-server`](https://github.com/sourcegraph/self-serve-cody/tree/HEAD/cmd/accounts-server) |
 
 ## Environments
 
@@ -51,7 +51,7 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 #### dev Cloud Run
 
-The Sourcegraph Accounts dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
+The Self-Serve Cody dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
 | PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                    |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,7 +143,7 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 #### prod Cloud Run
 
-The Sourcegraph Accounts prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
+The Self-Serve Cody prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
 | PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
