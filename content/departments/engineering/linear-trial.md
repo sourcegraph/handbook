@@ -38,6 +38,12 @@ here is a very quick run down of the core mental model.
 
 For more details, see the [conceptual model docs](https://linear.app/docs/conceptual-model).
 
+## Logging in
+
+Install the [Linear app](https://linear.app/download) or
+go to [our Linear workspace](https://linear.app/sourcegraph)
+and log in with SAML SSO.
+
 ## Team structure
 
 For now, we will aim to use coarse-grained teams.
