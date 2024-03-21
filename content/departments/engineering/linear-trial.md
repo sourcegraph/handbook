@@ -76,6 +76,64 @@ This applies to:
 - All other private repositories that have syncing turned on.
   The full list of repos with syncing can be found [here](https://linear.app/sourcegraph/settings/integrations/github).
 
+## Adding a new repository (for Engineering)
+
+You can ask for help in `#wg-linear-trial` with these steps as well.
+
+1. Add the repository to the [GitHub integration](https://linear.app/sourcegraph/settings/integrations/github).
+   If you do not see repositories in the Sourcegraph GitHub org listed here,
+   you may need to request the `sourcegraph - Owner` GitHub permission in Entitle.
+
+   - For private repos, use the `Eng Private` team.
+   - For public repos, use the `Eng PUBLIC` team.
+
+   DO NOT enable the "Enable bidirectional sync" toggle;
+   it only applies to _new issues_ created in Linear.
+   Comments, label changes, title and description changes will
+   still sync bidirectionally even if that toggle is disabled.
+   See the [FAQ](#faq) for more details.
+
+2. Under [Import / Export](https://linear.app/sourcegraph/settings/import-export),
+   add a GitHub repository. After clicking 'Connect to GitHub' there may
+   be a delay of 10-15s before you see the options for selecting a repo.
+
+   If you do not see repositories in the Sourcegraph GitHub org listed here,
+   you may need to request the `sourcegraph - Owner` GitHub permission in Entitle.
+
+   - If present, disable the toggle for importing data from organization level projects.
+   - Enable the toggle for importing data from closed issues.
+   - Select the team to import issues into:
+     - For private repos, use the `Eng Private` team.
+     - For public repos, use the `Eng PUBLIC` team.
+
+   After importing is complete, you will have the option to configure it.
+   Make sure all these checkboxes are checked:
+
+   - Import N open issues
+   - Import N stale issues to Archive
+   - Import N closed or done issues to Archive
+   - Sync issues after import
+
+   So that syncing is maintained for old issues, and all issue history
+   is available for search.
+
+   After this step, select 'Import users' and make sure that:
+   - If a person has 'Map to Existing' but no associated account on
+     the right side, then change it to 'Do not create'
+   - Replace any 'Create with email' with 'Do not create'
+
+   Once you click next, confirm on the next page that:
+   - The number of user invites is zero
+   - The number of completed issues matches up with the closed
+     issues in the repo's GitHub issue tracker.
+
+At the moment, all repos except for the monorepo use an extra issue label
+to allow filtering for views inside Linear. For example, the `scip-java`
+repo uses the `graph/scip-java` label.
+Here is an [example PR](https://github.com/sourcegraph/scip-java/pull/685/files)
+for auto-adding the label to new issues.
+For old issues, you can quickly add the label after importing into Linear.
+
 ## Dos and Don'ts
 
 1.  **Don't create new Teams for sub-teams in Engineering**
@@ -148,6 +206,10 @@ for the following reasons:
   especially for teammates outside Engineering.
 - For teammates outside Engineering, it would be valuable to reduce
   the number of potential places to file issues.
+
+However, if the flexibility provided by the current team structure
+is not enough, then we can consider creating smaller Teams in Linear
+at the end of the trial (around mid May).
 
 ### Why don't we have full bidirectional syncing for all repos?
 
