@@ -118,11 +118,13 @@ You can ask for help in `#wg-linear-trial` with these steps as well.
    is available for search.
 
    After this step, select 'Import users' and make sure that:
+
    - If a person has 'Map to Existing' but no associated account on
      the right side, then change it to 'Do not create'
    - Replace any 'Create with email' with 'Do not create'
 
    Once you click next, confirm on the next page that:
+
    - The number of user invites is zero
    - The number of completed issues matches up with the closed
      issues in the repo's GitHub issue tracker.
