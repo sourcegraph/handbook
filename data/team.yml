@@ -1833,3 +1833,15 @@ anish_lakhwara:
   location: Vancouver, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/anish-lakhwara-0a62651bb/), [Website](https://anish.lakhwara.com)'
   description: Anish was born in Australia, raised in India, and now calls Canada home. Ever interested in computing, Anish enjoys building and contributing to open source, tinkering on his nvim config, and playing with shiny new tools. Always open to learning more, and aspiring to be a good engineer and a great human. When not touching computers, Anish likes rock climbing, sailing, gardening, and annoying his very loud cat, Imoh.
+
+rik_nauta:
+  name: Rik Nauta
+  role: Software Engineer
+  reports_to: cody_strat_lead
+  location: Malmö, Sweden 🇸🇪
+  github: RXminuS
+  email: rik.nauta@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/riknauta/)'
+  pronouns: He/Him or They/Them
+  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/rik-nauta)'
+  description: Originally from the Netherlands, Rik has called Sweden his home over the last 16 years. Although he was on the brink of completing his MSc in Engineering Physics, his fascination with AI (and apathy towards particles) led him to forgo his final course to create a company dedicated to developing an AI-powered contract writing assistant instead. Outside of his professional endeavors Rik is an avid skiier and a regular foster parent to guide-dog puppies and "problem" doggos. Rik's unique superpower is his remarkable ability to nap under any circumstances.
