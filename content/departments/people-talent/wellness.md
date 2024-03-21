@@ -17,6 +17,7 @@ Sourcegraph deeply cares about our teammates' wellness and health. The people te
 
 **Winners & Prizes:** There will be 1 winner per challenge and then a grand prize winner!
 Best view (city or nature) 🤩
+
 - 🏅Prize: Any pair of walking shoes up to $200 & Amazon gift card $200
   Architecture 🏛️
 - 🏅Prize: $400 gift card to airline of their choice
@@ -26,6 +27,7 @@ Best view (city or nature) 🤩
 - Canon Powershot Sx740 Digital Camera
 
 **How:** People Ops will announce each category and details in the @annouce-people-talent channel.
+
 - During each submission window teammate’s can enter 1 photo
 - Share your photo in #sourcegram
 - In the 🧵tag Kemper Hamilton to ensure it’s counted as a submission
@@ -33,6 +35,7 @@ Best view (city or nature) 🤩
 - People-Ops will create a voting message with a 🧵of all eligible photos for teammates to vote for their favorite photo 📸
 
 **Rules:**
+
 - The photo must be taken within the submission window. It cannot be a previously taken photo
 - You can only submit 1 photo per challenge. Pick your favorite photo to share!
 - It must follow the general category for the challenge
