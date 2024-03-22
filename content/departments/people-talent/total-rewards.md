@@ -1,4 +1,4 @@
-# **Total Rewards** 
+# **Total Rewards**
 
 We want our teammates to be happy, healthy, and productive. In order to best support that, we provide competitive pay, perks, and benefits. In other words, we offer total rewards which is the total calculation of all categories Sourcegraph spends on each teammate outside of software and hardware used to be successful in their role. Below is a breakdown of categories that make up total rewards.
 
