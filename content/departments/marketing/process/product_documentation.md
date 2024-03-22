@@ -1,18 +1,18 @@
 # Product documentation
 
-These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/docs). See [editing the handbook](../../../../handbook/editing/index.md) for how to contribute handbook content.
+These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/docs).
 
 ## Contributing
 
-Whenever a feature is changed, updated, introduced, or [deprecated](../../../product/process/prioritize_and_build/deprecation_process.md), the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
+Whenever a feature is changed, updated, introduced, or deprecated, the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
 
-The developer who made the code change is also [responsible](../roles/index.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. This includes updating [the changelog as well](https://github.com/sourcegraph/docs/blob/main/docs/CHANGELOG.mdx). At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
+The developer who made the code change is also responsible for writing the initial documentation for new features and updating the documentation for changes to existing features. This includes updating [the changelog as well](https://github.com/sourcegraph/docs/blob/main/docs/CHANGELOG.mdx). At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
 
 For docs PRs, the author should tag `@maedahbatool` from the docs team as an additional reviewer on the pull request.
 
 The [changelog](https://github.com/sourcegraph/docs/blob/main/docs/CHANGELOG.mdx) should also be updated for any changes that impact the user.
 
-It's the [responsibility of the Product Manager](../../../product/roles/index.md#product-manager) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
+It's the responsibility of the Product Manager to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
 
 ## Docs repo local setup
 
@@ -138,7 +138,7 @@ For example, if you want to link to the Cody Quickstart somewhere in the Code Se
 
 ### Adding images and binary assets
 
-For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`). For a more detailed instructions visit [this page](../../../../handbook/editing/handbook-images-video.md).
+For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`). For a more detailed instructions visit [this page](../../../handbook/editing/handbook-images-video.md).
 
 >Note: Make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.
 
