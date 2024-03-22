@@ -34,8 +34,8 @@ cd sourcegraph-docs
 
 Before the dependencies are install make sure your local machine has the following versions of `node` and `pnpm`:
 
-* node: `v20.8.1`
-* pnpm: `8.13.1`
+- node: `v20.8.1`
+- pnpm: `8.13.1`
 
 **Note**: If you have `asdf` available you can install the above versions for only this repository by running the following command from your terminal in the root folder:
 
@@ -140,7 +140,7 @@ For example, if you want to link to the Cody Quickstart somewhere in the Code Se
 
 For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`). For a more detailed instructions visit [this page](../../../handbook/editing/handbook-images-video.md).
 
->Note: Make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.
+> Note: Make sure to use [ImageOptim.app](https://imageoptim.com/mac) to reduce the size of the images before uploading, since large images degrade page loading speed.
 
 ### Previewing changes locally
 
