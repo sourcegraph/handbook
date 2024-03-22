@@ -14,7 +14,6 @@
   - [Customer Issues](../../technical-success/support/process/engaging-other-teams.md)
   - [Incidents](process/incidents/index.md)
   - [Pull requests](process/pull-requests.md)
-  - [Product documentation](process/product_documentation.md)
   - [Continuous releasability](tools/continuous_releasability.md)
   - [Releases](process/releases/index.md)
     - [Release issue template](https://github.com/sourcegraph/sourcegraph/blob/main/dev/release/templates/release_issue_template.md)

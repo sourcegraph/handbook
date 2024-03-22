@@ -1,5 +1,6 @@
 # Marketing Processes
 
+- [Sourcegraph Documentation](product_documentation.md)
 - [Adding screenshots and recordings](adding_screenshots_screen_recording.md)
 - [Messaging](messaging.md)
 - [Personas](personas.md)
