@@ -62,7 +62,7 @@ All retention calculations and charts (except when specifically marked) will use
 
 ### Cody Billing DAU
 
-A billing DAU represents a user who interacts with the Cody product, regardless of intention and result. This is inclusive of a broader set of product usage. This includes, for example, users who see Cody autocomplete suggestions (regardless of whether they accept) and users who see pages that provide in-product information about Cody (such as the site-admin Cody page).
+A billing DAU represents a user who interacts with the Cody product, regardless of intention and result. This includes all [product DAU](#cody-product-dau) actions, and a broader set of product usage. For example, users who see Cody autocomplete suggestions (regardless of whether they accept them) and users who see pages that provide in-product information about Cody (such as the site-admin Cody page) are included as billing DAUs.
 
 By default, any events that contain the text “cody” and that come from the Sourcegraph web app or Sourcegraph editor extensions (i.e., event source is `WEB` or `IDEEXTENSION`) are included. We also maintain a deny list of events that are excluded (for example, interactions with CTAs on marketing pages).
 
