@@ -37,11 +37,11 @@ Effective FY25, the following segments are assigned to Enterprise TAs:
 | Strategic        | 2.5k+ devs, any amount of ARR spend       |
 | Enterprise       | 501 - 2.5k devs, >$100k current ARR spend |
 
-### Pooled
+### Scaled
 
 This group is comprised of a team of Mid-Market TAs who nurture this segment of our customers through a combination of our digital success programming and our enterprise programming providing a medium-touch, tailored experience.
 
-Effective FY25, the following segments are assigned to Pooled TAs:
+Effective FY25, the following segments are assigned to Scaled TAs:
 
 | Customer Segment | Segment definition                        |
 | ---------------- | ----------------------------------------- |
