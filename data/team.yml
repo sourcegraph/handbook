@@ -503,7 +503,7 @@ mark_mccauley:
   name: Mark McCauley
   pronouns: he/him
   role: Director, Field GTM
-  reports_to: ceo
+  reports_to: sales_ops_strategy
   manager_role_slug: director_field_gtm
 
 gabe_torres:
@@ -611,8 +611,8 @@ amie_rotherham:
 ellie_dawson:
   name: Ellie Dawson
   pronouns: she/her
-  role: Sales Development Representative
-  reports_to: head_sales_development
+  role: Senior Program Lead, VCBOD
+  reports_to: director_field_gtm
   location: Cincinnati, OH, USA
   github: elliedawson
   email: ellie.dawson@sourcegraph.com
@@ -859,7 +859,7 @@ andrew_reed:
   name: Andrew Reed
   role: Senior Manager, Sales Development
   email: andrew.reed@sourcegraph.com
-  reports_to: vp_sales
+  reports_to: sales_ops_strategy
   manager_role_slug: head_sales_development
 
 ashwin_Thakur:
@@ -914,20 +914,14 @@ shawntee_harris:
 connor_obrien:
   name: Connor OBrien
   email: connor.obrien@sourcegraph.com
-  role: Chief of Staff to CEO
+  role: Chief of Staff to CEO, Sales Ops & Strategy
   pronouns: he/him
   github: connoro13c
   reports_to: ceo
+  manager_role_slug: sales_ops_strategy
   links: '[LinkedIn](https://www.linkedin.com/in/connorob/)'
   location: San Franciso, CA, USA 🇺🇸
   description: Connor lives in the Lonely Mountain neighborhood in SF, 1 block away from Golden Gate Park with his wife, two daughters (Logan and Quinn), two dogs, and ~~pet Crawdad~~ RIP Lil' Jeff. Prior to Sourcegraph, Connor worked at Anaplan for 7.5 years where he played critical roles across PreSales, Ops, and Sales where he helped craft and execute GTM strategy. Before Anaplan, Connor was running a small IT Consulting company and worked in the United States Senate. Connor and his wife love challenging, outdoorsy activities like scuba diving, hiking, and long-distance running, biking, and swimming. The fastest way to my heart is through the Denver Nuggets.
-
-interim_sales_lead:
-  name: Connor OBrien
-  reports_to: ceo
-  role: Interim Sales Lead
-  manager_role_slug: vp_sales
-  hide_on_team_page: true
 
 michael_lin:
   name: Michael Lin
@@ -1069,7 +1063,7 @@ daniel_marques:
 brock_perko:
   name: Brock Perko
   pronouns: he/him
-  role: Regional Sales Director, West
+  role: VP, Sales
   reports_to: ceo
   manager_role_slug: vp_sales
   location: Mill Valley, CA USA 🇺🇸
@@ -1139,7 +1133,7 @@ ajay_uppaluri:
   pronouns: He/Him
   role: Director, Sales Strategy & Operations
   manager_role_slug: director_sales_ops
-  reports_to: vp_sales
+  reports_to: sales_ops_strategy
   location: San Diego, CA
   links: '[LinkedIn](www.linkedin.com/in/ajay-uppaluri)'
   description: Ajay was born & raised in Miami, FL. After receiving his MBA from Emory University in Atlanta, GA, Ajay spent several years in management consulting and GTM strategy. He resides in San Diego with his wife, young daughter & golden retriever. In his highly limited spare time, Ajay usually enjoys a good cocktail and loves to play boardgames with friends & family
@@ -1225,7 +1219,7 @@ tom_pinckney:
   name: Tom Pinckney
   role: Head of Business Development
   location: San Francisco, CA
-  reports_to: vp_sales
+  reports_to: sales_ops_strategy
   email: tom.pinckney@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
