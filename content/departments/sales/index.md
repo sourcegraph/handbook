@@ -20,6 +20,8 @@ Not all team members are reflected here yet. If you see yourself missing, please
 
 {{generator:reporting_structure.vp_sales}}
 
+{{generator:reporting_structure.sales_ops_strategy}}
+
 ### Roles
 
 See [roles](roles/index.md) page.
