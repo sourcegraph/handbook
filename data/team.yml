@@ -173,7 +173,7 @@ noah_santschi-cooney:
 bill_kolman:
   name: Bill Kolman
   role: Account Executive
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: New York, New York
   email: Bill@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/william-kolman/)'
@@ -183,7 +183,7 @@ owen_brennan:
   name: Owen Brennan
   pronouns: he/him
   role: Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
   location: Boise, Idaho, USA
   email: owen@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
@@ -193,8 +193,8 @@ scott_campbell:
   name: Scott Campbell
   pronouns: he/him
   role: Regional Director of Sales, East
-  reports_to: rsd_west
-  manager_role_slug: regional_director_sales_east
+  reports_to: vp_sales
+  manager_role_slug: rsd_east
   location: Asheville, North Carolina, United States 🇺🇸
   github: spc74
   email: scott@sourcegraph.com
@@ -283,7 +283,7 @@ james_clifford:
   name: James Clifford
   pronouns: he/him
   role: Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
   location: San Francisco, CA, USA 🇺🇸
   github: jclifford1
   email: jclifford@sourcegraph.com
@@ -294,7 +294,7 @@ caitlin_moran:
   name: Caitlin Moran
   pronouns: she/her
   role: Enterprise Account Executive
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: Brooklyn, NY USA 🇺🇸
   github: Caitlinsourcegraph
   email: caitlin@sourcegraph.com
@@ -305,7 +305,8 @@ jon_kishpaugh:
   name: Jon Kishpaugh
   pronouns: he/him
   role: Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
+  manager_role_slug: rsd_west
   location: San Francisco, CA, USA
   github: JonKish
   email: jon@sourcegraph.com
@@ -482,7 +483,7 @@ kevin_quigley:
   name: Kevin Quigley
   pronouns: he/him
   role: Account Executive
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: Atlanta, GA, USA 🇺🇸
   github: kevin-quigley
   email: kevin.quigley@sourcegraph.com
@@ -835,7 +836,7 @@ cory_dobson:
 nicolas_hernandez:
   name: Nick Hernandez
   role: Enterprise Account Executive - Sales
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: Miami, FL, USA 🇺🇸
   email: nick.hernandez@sourcegraph.com
   github: fryster66
@@ -1049,7 +1050,7 @@ bolaji_olajide:
 todd_herskovitz:
   name: Todd Herskovitz
   role: Strategic Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
@@ -1070,7 +1071,7 @@ brock_perko:
   pronouns: he/him
   role: Regional Sales Director, West
   reports_to: ceo
-  manager_role_slug: rsd_west
+  manager_role_slug: vp_sales
   location: Mill Valley, CA USA 🇺🇸
   github: 0xPerko
   email: brock_perko@sourcegraph.com
@@ -1381,7 +1382,7 @@ James_Ghaedi:
   name: James Ghaedi
   email: james.ghaedi@sourcegraph.com
   role: Account Executive, EMEA
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
 
 steve_yegge:
   name: Steve Yegge
