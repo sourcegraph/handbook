@@ -2,7 +2,6 @@
 
 This page is intended to capture the various creation and maintenance activities required for cloud prospects and customers.
 
-
 The following links will help you create and maintain licenses and cloud environments for prospects and customers.
 
 - [Creating a License Key](../../technical-success/ce/process/create-new-license.md#creating-a-new-license-key-walkthrough)
@@ -13,5 +12,3 @@ The following links will help you create and maintain licenses and cloud environ
   - [Video Tutorial](https://www.loom.com/share/deaadbacc7dd4261a9876d76272a6707)
 - [Teardown a Cloud Instance](../../cloud/index.md#tear-down-a-cloud-instance---new-request)
   - [Video Tutorial](https://www.loom.com/share/06541c4c569645d3a6891097de6b0c8b?sid=e1eafa86-4c85-4aeb-b186-bbe2f064fffe)
-
-
