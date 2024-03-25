@@ -39,7 +39,7 @@ The pre-to-post sales handoff process consists of the following steps:
 | End User        | End user of the Sourcegraph product                                                                                                                                                                   |
 | Program Contact | Someone focused on the use case(s), adoption and value of SG within the company.                                                                                                                      |
 
-8. Once the deal closes, the TA issues a [production license](#production-license) and initiates their onboarding. (Note: if a scaled customer, the CE is responsible for creating the production license.)
+8. Once the deal closes, the CE issues a [production license](#production-license) and informs the TA to initiate their kick-off.
 
 You can read more about each step below.
 
@@ -57,7 +57,7 @@ After the knowledge transfer session, either the TPM will be introduced to the c
 
 ### Production License
 
-Once a customer signs on with Sourcegraph, the TA will [generate a full license key](../../../ce/process/license_keys.md) via Sourcegraph.com site admin based on the details of the contract.
+Once a customer signs on with Sourcegraph, the CE will [generate a full license key](../../../ce/process/license_keys.md) via Sourcegraph.com site admin based on the details of the contract. CE handles production licenses for net new business and expansions. TA is only responsible for licensing at time of renewal.
 
 ## Renewal Process
 

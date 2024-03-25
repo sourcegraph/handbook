@@ -20,10 +20,10 @@ Order Forms and MSAs:
 
 - [Sourcegraph Cloud (Managed Instance) MSA](https://docs.google.com/document/d/1pOktD4-MdZcJOU4hbKLfqpkN2UsH259N/edit)
 - [Sourcegraph On-Prem MSA](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/edit)
+- [Sourcegraph Offline MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
 - [Sourcegraph CPQ Order Form](https://docs.google.com/document/d/1lh2kNzlrKXky6CzHypyrohzkoi7YrxE0PcAo4jf915Y/edit)
-- [Sourcegraph Code Search Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
-- [Sourcegraph Pre-4.0 Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
-- [Sourcegraph Offline Order Form and MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
+- [Sourcegraph Enterprise Order Form](https://docs.google.com/document/d/1KOje_f8rc1sx8oxxRR4nwqnzi9WBXqmxisFl85zuDok/edit)
+- [Sourcegraph Cody Consumption Order Form](https://docs.google.com/document/d/1HSQVjYdetrm6eNc5aCkADs8bQJZ8Q7XjnpP_cat1S4w/edit)
 - [Sourcegraph $0 POC Order Form](https://docs.google.com/document/d/1EWZL-xYP3Q26GXtonwXVf1RfEeL-Fv8K/edit)
 
 Partner Contracts:
@@ -37,7 +37,7 @@ Other Resources:
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
-- [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) ([3-min Powerform NDA Tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing)) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
+- [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
 - [Template Decks Gallery](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d)
 
 ### Cloning

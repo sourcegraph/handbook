@@ -33,9 +33,10 @@ For DotCom users we are permitted to store transcript data. To ensure safe handl
 
 #### Considerations:
 
-1. Transcript data can only be collected through v2 telemetry and stored within `privateMetadata` field of the event
-2. Transcript data can only be collected for DotCom (Free) Users
-3. Transcript data must include `recordsPrivateMetadataTranscript:1` in the `metadata` field of the event
+1. Transcript data can only be collected through v2 telemetry and stored within `privateMetadata` argument of the event
+2. Transcript data should be stored as top-level fields within `privateMetadata`, using the keys `promptText` or `responseText`
+3. Transcript data can only be collected for DotCom (Free) Users
+4. Transcript data must include `recordsPrivateMetadataTranscript:1` in the `metadata` argument of the event
 
 #### Internal-only links to where the backend GCP changes live:
 

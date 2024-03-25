@@ -9,7 +9,7 @@ When setting up your computer device please ensure the following steps have been
    - [Enabling Filevault Encryption on Mac](https://support.apple.com/en-us/HT204837)
    - [Enabling Bitlocker Encryption on Windows](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838)
 
-3. Your laptop screen is set to lock after **5 Minutes** of inactivity. Steps on how to set screen lock/screensaver times for macOS and Windows are below.
+3. Your laptop screen is set to lock after **10 Minutes** of inactivity. Steps on how to set screen lock/screensaver times for macOS and Windows are below.
 
    - [Editing Screen lock Settings for macOS](https://support.apple.com/guide/mac-help/change-screen-saver-preferences-mchlp1227/mac)
    - [Editing Screen Lock settings for Windows](https://support.microsoft.com/en-us/windows/change-your-screen-saver-settings-a9dc2a0c-dc8e-9161-d270-aaccc252082a)

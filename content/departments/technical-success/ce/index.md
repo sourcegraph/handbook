@@ -18,7 +18,7 @@ The three primary team KPIs for CE are:
 
 ### New ACV
 
-As the pre-sales technical experts, CEs play an integral role in closing new business that leads to new incremental revenue for Sourcegraph. This dimension looks at the number of new customers acquired, net number of opportunities successfully closed, and number of products sold whether on a net new prospect or within a new team at an existing customer.
+As the pre-sales technical experts, CEs play an integral role in closing new business that leads to new incremental revenue for Sourcegraph, whether a new customer or an expansion within an existing customer. This dimension looks at the number of new customers acquired, net number of opportunities successfully closed (both net new customers and expansions), and number of products sold whether on a net new prospect or within a new team at an existing customer.
 
 ### Technical Closure of Trials
 

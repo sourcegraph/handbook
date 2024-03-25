@@ -122,7 +122,7 @@ Once you’ve completed the Google Form, someone on the People Team will follow 
 ### **Additional resources**
 
 - US Teammates: [Benefits advocate team](../../benefits-pay-perks/benefits-perks/benefits.md#benefits-support) can help you find an in-network provider for your condition
-- All Teammates: Our mental health [resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md#resources) and annual [stipend program](../../benefits-pay-perks/benefits-perks/mental-health/index.md#overview-mental-health-perks)
+- All Teammates: Our mental health [resources](../../departments/people-talent/total-rewards/mental-health.md#resources) and annual [stipend program](../../departments/people-talent/total-rewards/mental-health.md#overview-mental-health-perks)
 
 ## **FAQ**
 

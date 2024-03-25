@@ -1,6 +1,6 @@
 # Team Norms
 
-This page contains information about our established team norms, such as tooling and meetings for the Pooled TA team.
+This page contains information about our established team norms, such as tooling and meetings for the Scaled TA team.
 
 ## Tooling
 
@@ -21,7 +21,7 @@ Looker reads all data from our BigQuery database, the data store for the telemet
 
 ### Google Group (technicaladvisors@sourcegraph.com)
 
-The Pooled TA team can use the [Pooled Success Google Group](https://groups.google.com/a/sourcegraph.com/g/technicaladvisors) as a distribution email list for customers to contact all members of the Pooled TA team. Team members will monitor incoming customer messages and respond to them within 48 hrs.
+The Scaled TA team can use the [Scaled Success Google Group](https://groups.google.com/a/sourcegraph.com/g/technicaladvisors) as a distribution email list for customers to contact all members of the Scaled TA team. Team members will monitor incoming customer messages and respond to them within 48 hrs.
 
 ## Recurring Team Meetings
 

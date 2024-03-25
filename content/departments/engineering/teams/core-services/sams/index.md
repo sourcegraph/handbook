@@ -1,6 +1,6 @@
-# Sourcegraph Accounts Managment System (SAMS)
+# Sourcegraph Accounts Management System (SAMS)
 
-[Sourcegraph Accounts Managment System (SAMS)](https://docs.google.com/document/d/16F6uvfM9EknpcuAQQ8kIPOZ9gHo0Lx4lgprw_5sWJEs/edit) is the centralized accounts system for all of the Sourcegraph-operated systems, it provides:
+[Sourcegraph Accounts Management System (SAMS)](https://docs.google.com/document/d/16F6uvfM9EknpcuAQQ8kIPOZ9gHo0Lx4lgprw_5sWJEs/edit) is the centralized accounts system for all of the Sourcegraph-operated systems, it provides:
 
 - Single Sign-On (SSO) experience for users of those systems, and cross-system referenceable user ID.
 - Out-of-the-box machine-to-machine authentication and authorization capabilities.
@@ -13,12 +13,20 @@ It is compliant with [OAuth 2](https://oauth.net/2/) and [OIDC](https://openid.n
 
 The [OpenID Discovery](https://accounts.sourcegraph.com/.well-known/openid-configuration) endpoint lays out all the protocol details that a Service Provider (aka. Relay Party) needs to know to integrate with SAMS.
 
+## System designs
+
+- [Token scope specification](./token_scope_specification.md)
+
 ## Security measures
 
 Here is a list of security measures that are notable to systems integrating with SAMS:
 
 1. Access tokens all have expiry with **1 hour**, refresh tokens are always issued together with access tokens.
 1. Refresh tokens all have expiry with **30 days**, and each refresh token can only be used **at most once**. A new refresh token is always issued upon refreshing the access token.
+
+## Internal documents
+
+- [Sourcegraph Accounts Launch FAQs](https://docs.google.com/document/d/16rRFVDX_GQ00ZanOD-xD0gK9fODURev8bLsv6tqjwSY/edit)
 
 ## Service images
 
@@ -35,22 +43,22 @@ Here is a list of useful quick links:
 
 - Production instance (https://accounts.sourcegraph.com)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-qWcQcoN16iA6rMfe)
-  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz)
+  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams-prod-us-central1/metrics?project=sams-prod-ywuz)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-prod-ywuz)
   - [Memorystore (monitoring)](https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/redis/details/monitoring?project=sams-prod-ywuz)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-prod-ywuz)
   - [GCP errors](https://console.cloud.google.com/errors;service=;version=?project=sams-prod-ywuz)
 - Testing instance (https://accounts.sgdev.org)
   - [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-XWBtUm77JJRXddoZ)
-  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-dev-bfec)
+  - [Cloud Run (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/sams-dev-us-central1/metrics?project=sams-dev-bfec)
   - [Cloud SQL (system insights)](https://console.cloud.google.com/sql/instances/postgresql-e03b/system-insights?project=sams-dev-bfec)
   - [Memorystore (monitoring)](https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/redis/details/monitoring?project=sams-dev-bfec)
   - [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=sams-dev-bfec)
   - [GCP errors](https://console.cloud.google.com/errors;service=;version=?project=sams-dev-bfec)
 
-For standard infrastructure operations, see [Sourcegraph Accounts infrastructure operations](../../../managed-services/sams.md).
+For standard infrastructure operations, see [Sourcegraph Accounts infrastructure operations](../../../managed-services/sourcegraph-accounts.md).
 
-For common service operations, see [Sourcegraph Accounts operators cheat sheet](https://docs.google.com/document/d/1A0otZhTEmwShhTs2mVUeY_0j-2RvstyXuOsUqapdpEk/edit#heading=h.bkpmj9rym7pw).
+For common service operations, see [Sourcegraph Accounts operators cheat sheet](https://github.com/sourcegraph/accounts.sourcegraph.com/wiki/Operators-Cheat-Sheet).
 
 ### Infrastructure access
 
@@ -87,22 +95,9 @@ To modify the deployment manifest:
 1. Stage changes and make a pull request
 1. The Terraform Cloud rolls out changes
 
-#### Use a different image tag
-
-To specify a Docker image tag other than the default, update the `service.yaml`:
-
-```diff
- - id: prod
-   ...
-   deploy:
-     type: manual
-+    manual:
-+      tag: insiders@sha256:3a7e1c0dd4e0d7e0c6d3e4d7b3a1
-```
-
 #### Re-deploy the same manifest
 
-Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/sams?project=sams-prod-ywuz) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
+Go to the ["Deploy revision" page](https://console.cloud.google.com/run/deploy/us-central1/sams-prod-us-central1?project=sams-prod-ywuz) of the Cloud Run service and click **DEPLOY** (bottom of the page) without changing any configuration. This will also happen whenever a Terraform change happens to the "cloudrun" stack.
 
 ### Observability
 
@@ -118,7 +113,7 @@ Alerts are sent to Sentry and then forwarded to Slack:
 
 #### Metrics
 
-The deployment's [Cloud Run metrics overview page](https://console.cloud.google.com/run/detail/us-central1/sams/metrics?project=sams-prod-ywuz) provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
+The deployment's [Cloud Run metrics overview page](https://console.cloud.google.com/run/detail/us-central1/sams-prod-us-central1/metrics?project=sams-prod-ywuz) provides basic observability into the service provided out-of-the-box by Cloud Run, such as instance count and resource utilization.
 
 ## Development
 

@@ -27,10 +27,10 @@ The customer health score is calculated using the following standard categories:
 
 Those categories are made up of the following data points:
 
-**TA Pulse**
+**TA Sentiment**
 | Trait | Description | Source |
 | ---------------- | ---------------------------------------------- | --- |
-| Relationship - CE Pulse | This is the TA's opinion of the account health. Healthy, Concerning, or Poor | Manually set by TA |
+| Account - TA Sentiment | The overall sentiment of the account in all dimensions. Healthy, Concerning, or Poor | Manually set by TA |
 
 **Technical Health**
 | Trait | Description | Source |

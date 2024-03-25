@@ -10,7 +10,9 @@ You can also directly view the database in [GCP](https://console.cloud.google.co
 
 We utilize the [Google Cloud SDK](https://cloud.google.com/sdk) utility [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy) to connect to our production databases. By default, our Cloud SQL databases are not accessible.
 
-There are two ways of connecting: either using the `gcloud beta sql connect` command, which will use the `pgsql` client, or running the `cloud_sql_proxy` on a port locally to utilize your preferred tools.
+There are two ways of connecting: either using the `gcloud sql connect` command, which will use the `pgsql` client, or running the `cloud_sql_proxy` on a port locally to utilize your preferred tools.
+
+**NOTE:** before trying to connect to the database you need to make an [Entitle request](https://app.entitle.io/) for either the `Sourcegraph Read only access` permission set to get read-only access or `Sourcegraph Dot Com projects` permission set for write access.
 
 For read-only access, there is also an option of using [BigQuery](https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e4a97e2f4aa) and their `EXTERNAL_QUERY` syntax.
 
@@ -46,6 +48,8 @@ Request the "Sourcegraph Dot Com projects" bundle using Entitle to ensure you ha
 
 #### Command line only use (pgsql)
 
+> [!IMPORTANT] Make sure you have requested permission via Entitle before executing any of these commands - see [here](#request-permission-using-entitle)
+
 You may use these gcloud commands to connect directly to the databases:
 
 - Default db {[Password](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=dnrhbauihkhjs5ag6vszsme45a&i=pjxf64qxwsin4d56xij6vm3gva&h=my.1password.com)}
@@ -63,6 +67,8 @@ If you receive an error while connecting, ensure you have the required permissio
 Go to [Example Queries](#example-queries) to continue
 
 #### Proxy for advanced use
+
+> [!IMPORTANT] Make sure you have requested permission via Entitle before executing any of these commands - see [here](#request-permission-using-entitle)
 
 Run the `cloud_sql_proxy` against our production instance
 

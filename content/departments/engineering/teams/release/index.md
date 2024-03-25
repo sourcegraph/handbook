@@ -17,29 +17,28 @@ For more detailed information on the Release team members, check out our [README
 ## Responsibilities
 
 - Deployments methods and configuration
-  - [Kubernetes - Helm](./deployment/helm.md)
-  - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
+  - [Kubernetes - Helm](https://github.com/sourcegraph/deploy-sourcegraph-helm)
+  - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph-k8s)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
-- [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
-- [Org-wide areas of ownership](../../dev/process/engineering_ownership.md#delivery-and-delivery-tiger-team)
-- ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../guilds/release_guild.md) and the Delivery provides support to the Release Guild.
+- [Customer deployments and docs](https://sourcegraph.com/docs/admin/deploy)
+- [Sourcegraph releases](../../dev/process/releases/index.md) are owned by the Release Team.
 
 ## Contact
 
-- #delivery channel, or `@delivery-support` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
-- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
+- #discuss-releases, or `@release-team` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
+- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease-ship) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
 
 ## Support
 
-If in doubt about the process, please ask in #delivery. Delivery teammates shold consult our [support-rotation](./processes.md#support-rotation) guide to handle inquiries.
+If in doubt about the process, please ask in #discuss-releases. Teammates should consult our [support-rotation](./processes.md#support-rotation) guide to handle inquiries.
 
 ### Requesting our support
 
-Feel free to direct simple questions to us in #delivery in Slack. As a rule of thumb, anything that is not documented in our handbook or [docsite](https://docs.sourcegraph.com/) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
+Feel free to direct simple questions to us in #discuss-release-ship in Slack. As a rule of thumb, anything that is not documented in our handbook or [docs](https://sourcegraph.com/docs) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
 
 - This channel _is_ regularly checked and well-monitored
 - So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
-- Instead, if it’s urgent, please @ either the PM or the EM in the question in the channel and we'll ensure it gets the best response
+- Instead, if it’s urgent, please mention `@release-team` in the channel and we'll ensure it gets the best response
 
 ### Support request guidelines
 
@@ -50,12 +49,12 @@ Support requests related to our [areas of ownership](./#responsibilities) should
    - A more detailed explanation of the background, the context and the challenge that needs solving
    - Any guidance related to the impact this is having
    - Any extra information that could help us solve or prioritize this
-2. Ensure lable `team/delivery` is added to the issue
-3. Ensure that the issue is added to the "[Delivery](https://github.com/orgs/sourcegraph/projects/205)" board in GitHub
+2. Ensure label `team/release` is added to the issue
+3. Ensure that the issue is added to the "[Release](https://github.com/orgs/sourcegraph/projects/362)" board in GitHub
 4. Anything without a status is checked and triaged weekly - so this is enough for feature requests or less urgent issues
 5. If you think this needs eyes 👀 sooner
-   - Within a few hours ➡️ message in #delivery
-   - ASAP ➡️ message in #delivery and CC `@delivery-support`
+   - Within a few hours ➡️ message in #discuss-releases
+   - ASAP ➡️ message in #team-releases and CC `@release-team`
 
 <!-- ## Growth plan
 

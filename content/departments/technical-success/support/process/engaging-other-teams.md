@@ -98,7 +98,7 @@ Any questions about repository updating, indexing, or code host syncing should b
 
 **Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
-Any questions about code intelligence and navigation should be routed to the [Graph team](../../../engineering/teams/code-intelligence/index.md) in [#discuss-graph](https://sourcegraph.slack.com/archives/CHXHX7XAS).
+Any questions about code intelligence and navigation should be routed to the [Graph team](../../../engineering/teams/graph/index.md) in [#discuss-graph](https://sourcegraph.slack.com/archives/CHXHX7XAS).
 
 ### Search
 
@@ -106,7 +106,7 @@ Any questions about code intelligence and navigation should be routed to the [Gr
 
 The search team is divided into two sub-teams, search-platform(formerly search-core), and code-search(formerly search-product). Code-search is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-platform is focused on growing the global index on Sourcegraph Cloud.
 
-Any questions about search should be routed to the [Search team](../../../engineering/teams/search/index.md), via the [#discuss-code-search](https://sourcegraph.slack.com/archives/C05EA9KQUTA) and [#discuss-search-platform](https://sourcegraph.slack.com/archives/C05R619V4F8) slack channels. Teams should be flagged appropriately via @code-search-team or @search-platform-team. The search team will also assign a dedicated team member for support inquiries via the @search-platform-support and @search-product-support tags.
+Any questions about search should be routed to the [Search Platform team](../../../engineering/teams/search-platform/index.md), via the [#discuss-code-search](https://sourcegraph.slack.com/archives/C05EA9KQUTA) and [#discuss-search-platform](https://sourcegraph.slack.com/archives/C05R619V4F8) slack channels. Teams should be flagged appropriately via @code-search-team or @search-platform-team. The search team will also assign a dedicated team member for support inquiries via the @search-platform-support and @search-product-support tags.
 
 In GitHub issues search-platform and code-search should be flagged via team/search-platform and team/code-search respectively.
 
@@ -237,7 +237,7 @@ And in some cases, the customer resolves the issue or you figure it out on your 
 
 ## And sometimes, we need help from teams outside of engineering ...
 
-### Subscriptions and licenses
+### Enterprise subscriptions and licenses
 
 **Keywords**: `subscription`, `license`, `key`, `renew`, `expire`, `contract`
 

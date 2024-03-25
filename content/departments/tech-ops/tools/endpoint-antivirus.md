@@ -10,22 +10,14 @@ Jamf Protect is an antivirus software that we deploy to all our managed devices.
 
 ## How to Enroll in Jamf
 
-- If your device was purchased by Sourcegraph your computer will be prompted to enroll in Jamf on the Remote Management screen during your new laptop's setup process.
+- If your device was purchased by Sourcegraph your computer will be prompted to enroll in Jamf on the Remote Management screen during your new laptop's setup process. Jamf Pro and Jamf Protect will automatically install during this step and you won't need to do anything else at this time.
 - If you have purchased your Sourcegraph device from an Apple Certified Reseller, please reach out to the #ask-it-tech-ops Slack Channel to receive an enrollment invitation via email.
 
-After installing Jamf (or turning on your computer for the first time) we recommend first checking for software updates, downloading them if needed, and then restarting your laptop immediately.
+After installing Jamf (or turning on your computer for the first time) we recommend first checking for software updates, downloading them if needed, and then restarting your laptop immediately. Restarting is required to finish the disk encryption process, which is one of the device standards required.
 
 ## What Jamf will automatically install on new devices
 
-Jamf Pro will look for a certain set of applications on your computer and push them out automatically if they are not present, they are:
-
-- 1Password
-- Google Chrome
-- Okta Verify
-- Slack
-- Zoom
-
-Jamf will also install several profiles: including Jamf Protect, Firevault and Firewall enforcement, a screen lock requirement, as well as a complex password for the device.
+Jamf will install several profiles: Jamf Protect, Firevault and Firewall enforcement, a screen lock requirement, as well as a complex password for the device.
 
 ## What you can do prior to Jamf Enrollment:
 
@@ -33,7 +25,7 @@ If you haven't done so already please configure your laptop in accordance with o
 
 ## Installing Jamf Pro and Jamf Protect on a personal computer
 
-You may install Jamf Pro and Jamf Protect on as many devices as necessary to ensure our company and client data is protected, including personal devices if you are still waiting for your Sourcegraph device to arrive.
+You may install Jamf Pro and Jamf Protect on as many devices as necessary to ensure our company and client data is protected, including personal devices if you are still waiting for your Sourcegraph device to arrive. Jamf Pro and Protect only support MacOS devices at this time.
 
 ## Removing Jamf
 

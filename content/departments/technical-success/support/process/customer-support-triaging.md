@@ -1,4 +1,4 @@
-## How to Triage like a Pro
+# How to Triage like a Pro
 
 **Step 1:** Conversation initiated by the customer
 
@@ -23,7 +23,7 @@ If there is no action for CS, go to back to step 4 select ‘…’ and then sel
 - handle anything related to security for a customer with a TA
 - handle a feature request for a customer with a TA
 - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
-- for employment verifications, we can reply and send the requestor to [our Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/) where they can get what they need.
+- for employment verifications, marketing, spam, and other non-support related issues check out [Handling Non-Support Emails](non-support-emails.md).
 
 **Step 6:** Selecting _View Thread_ will allow you to respond to the customer within the slack thread.
 
@@ -65,16 +65,11 @@ If the other ticket is still open, merge the new ticket into it and alert our te
 
 No. Hopefully in the future, Zendesk will give us this feature; for now, we can link to the other ticket and be sure the requestor is correct.
 
-### 4. What do I do when I see a company update or solicitation in the triage queue?
+### 4. What do I do when I see a non-support email in the triage queue?
 
-We sometimes get all company updates or solicitation emails delivered to support mailbox. When you come across these, please go ahead and delete them.
+Sometimes, emails not related to support issues, such as employment verification, bills, marketing, or spam, may be directed to Support. Please refer to the section on [Handling Non-Support Emails](non-support-emails.md) for guidance.
 
-If the email is clearly spam mark them as such (this can be done by clicking the three vertical dots on a ticket and selecting `Mark as Spam`) which will delete the ticket and make sure we don't get a similar email again.
-
-If the email is around something that could be of interest to another team (examples could be a bill for a service that is about to expire or some security update) forward those to the appropriate team via Slack (or email group if its known).
-For employment verification emails see above for steps.
-
-### 5.What if we are close to missing SLA?
+### 5. What if we are close to missing SLA?
 
 When SLA is close to expiring and the ticket is assigned, we ask SE to send a first response; otherwise, we collaborate as a team to provide a meaningful initial response to prevent SLA violations.
 
@@ -90,14 +85,6 @@ Sometimes custom scripts are developed by the CE or TA team, if the customer rea
 
 When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
 
-### 9. How to handle Hubspot emails?
-
-If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
-
-If it's from Hubspot, change the subject to "Sourcegraph help request".
-
-For the Hubspot form, we will need to email the person from our work Gmail account with a subject like "Sourcegraph inquiry" and support@sourcegraph.com in cc and let them know a member of the team will help them. We do this so that we can ensure the customer gets the email since Zendesk could block it.
-
-### 10. How to add the support agent integration to a customer Slack channel.
+### 9. How to add the support agent integration to a customer Slack channel.
 
 Simply navigate to the support agent app in Slack and at the top expand the title with the drop-down arrow. Choose the first option, `Add this app to a channel` and either search out or type the channel you'd like to add the integration to. Here's a quick [video](https://www.loom.com/share/6f5b7191a8fa49478318b9ce81dd9cc8) on how to do it. Please ping @CS-Leadership so they can complete the [setup](https://docs.google.com/document/d/1gmApObWJUZ6DfR9w2xNmBTXppRhG6plQA8mWYYs1Y5Y/edit#)

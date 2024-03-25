@@ -65,7 +65,7 @@ At Sourcegraph, we have a formal performance (impact) review process that takes 
 - 1st review period of the year: launches in February
 - 2nd review period of the year: launches in August
 
-The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers. The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers.
+The purpose of our annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers. The purpose of our annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers.
 
 Our impact review process is explained in detail [here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 

@@ -4,15 +4,15 @@ _If you have any questions about the Impact Review process, or need help in gene
 
 ## Impact Reviews Explained
 
-We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
+We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our annual “impact review” process, which takes place in February.
 
-The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
+The purpose of this handbook page is to outline our **formal annual feedback review process**, known as “impact reviews.” We refer to our annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
 
 To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
 ### What is an impact review?
 
-Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct-reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammates's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of an teammates's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help to foster a culture of continuous improvement and development.
+Our impact review process follows the 360-degree feedback model, which is a performance evaluation method where feedback is gathered from multiple sources, including self-review, peers, and supervisors, and direct reports (if applicable). The benefit of this model is that it provides a more well-rounded and comprehensive view of a teammate's performance and behavior. It takes into account multiple perspectives and can provide insights into areas for improvement that the teammate may not be aware of. Additionally, it can help to increase self-awareness and provide a more accurate assessment of a teammate's strengths and weaknesses. By including feedback from different levels and areas of the organization, the 360-degree feedback model can provide a more accurate and objective evaluation of a teammate's performance and help foster a culture of continuous improvement and development.
 
 ### Who is eligible for a review/compensation increase?
 
@@ -40,7 +40,7 @@ Formal performance reviews take place **once a year** aligning with our promotio
 **Reviewer selection/Manager approval:**
 
 - 2024-02-12 to 2024-02-16 (5 business days)
-- Confirm selections with managers: 2024-02-16 (1 business day)
+- Confirm selections with managers: 2024-02-19 (1 business day)
 
 **Review writing:**
 
@@ -84,7 +84,7 @@ Reviews a Teammate receives:
 
 ### What we do with impact review feedback
 
-Results from the semi-annual impact review process support the growth and development of our Teammates in the following ways:
+Results from the annual impact review process support the growth and development of our Teammates in the following ways:
 
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
@@ -242,13 +242,13 @@ DISCLAIMER: The above "recommended merit increase" ranges are just recommendatio
 
 We believe in performance-based pay, meaning merit increases (inclusive of cash and equity) will be driven by performance. We believe in hiring all Teammates at an equitable starting point within their respective band and we want to provide opportunities for Teammates to grow within their salary band that is in alignment with their performance.
 
-Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
+Impact Reviews are an important component in our compensation decision-making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
 More information about our commitment to Pay Transparency and our overall compensation philosophy may be found in our [how we pay at Sourcegraph](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) Handbook page.
 
 ### How do we determine merit increases?
 
-**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increases unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates. Sales quota-carrying teammates cannot receive both a merit-based promotion increase and a spot bonus in the same review period. Given our Sales team territories are carved at the beginning of the year, promotions will be reflected at the start of each fiscal year instead of during the impact review cycle.
+**Sales increases** we maintain OTE to quota ratios for all AE, SDRs, and Sales Leadership which means that all non-promotion-based merit increases will be recognized as spot bonuses. In other words, AEs, SDRs and Sales Leadership are not eligible for a base or OTE compensation increase unless the pay band for the respective role is updated across the board. This ensures pay equity for all quota-carrying teammates. Sales quota-carrying teammates cannot receive both a merit-based promotion increase and a spot bonus in the same review period. Given our Sales team territories are carved at the beginning of the year, promotions will be reflected at the start of each fiscal year instead of during the impact review cycle.
 
 **Non sales increases** compensation increase recommendations will be calibrated by Leadership and their respective People Partner. The calibration will consider:
 
@@ -271,7 +271,7 @@ In some cases, it may be necessary to support a merit increase outside of a perf
 
 The purpose of our promotion philosophy is to support the growth & advancement of Teammates, in alignment with our values. Sourcegraph’s success is fueled by our incredible Teammates, which is why we foster a culture of continuous growth and accelerate opportunities to level up.
 
-Promotion decisions are calibrated based on a Teammate’s achievements, execution at a higher job scope, and values alignment. The People Partner and Leadership Team are responsible for calibrating promotion nominations, in alignment with our Impact Review process and bi-annual promotion cadence.
+Promotion decisions are calibrated based on a Teammate’s achievements, execution at a higher job scope, and values alignment. The People Partner and Leadership Team are responsible for calibrating promotion nominations, in alignment with our Impact Review process and annual promotion cadence.
 
 Our Teammates can pursue promotion opportunities in two ways:
 
@@ -298,7 +298,7 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 ### Writing effective feedback & self reviews
 
-Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
+Self reviews and peer feedback are crucial inputs to our annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
 To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reviews](../../../process/giving-feedback.md)
 
@@ -308,7 +308,7 @@ Your manager is also a great resource if you have any questions about how to wri
 
 Q. **Are Impact Reviews required for all Teammates?**
 
-- Yes. It is important for all **eligible** Teammates to complete bi-annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
+- Yes. It is important for all **eligible** Teammates to complete annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
 
 Q: **How do I know if I'm eligible for an Impact Review**
 
@@ -333,7 +333,7 @@ Q. **Can reviews be submitted outside of the predetermined Impact Review schedul
 Q. **What changed from the prior Impact Review process?**
 
 - We made several changes:
-  - **Cadence:** We moved from a rolling cadence, to a bi-annual synchronous review period to reduce the operational burden and improve transparency regarding promotion and merit decisions.
+  - **Cadence:** We moved from a rolling cadence, to an annual synchronous review period to reduce the operational burden and improve transparency regarding promotion and merit decisions.
   - **Defined our Talent Assessment framework:** Our new Skills and Values-based assessment framework is designed to enable transparent conversations between Managers and Teammates, ensuring a consistent, fair calibration process!
   - **Embedded Career Frameworks:** We updated/are updating ALL Career frameworks for each department. These will be directly in the Lattice via the Grow Feature as well as in the Handbook.
   - **Improved Questions**: We reduced the number of required questions - giving Teammates the flexibility to take control of how they communicate feedback, while optional questions guide Teammates to best reflect on the attributes that help them progress in their career.
@@ -349,6 +349,19 @@ Q. **What if a Teammate is on leave during the review period?**
 Q. **What if a Teammate recently transferred in from another team or the Manager is new?**
 
 - Depending on the timing of the transfer or the reporting Manager alignment, it may be appropriate for the prior Manager to conduct the Impact Review. If the Manager recently joined the organization, it is likely that both the new Manager and department head/interim Manager will complete the Impact Review. Please consult your People Partner to confirm the best course of action.
+
+Q. **I had multiple managers during this review period, what is the best way to ensure my impact and work is properly reviewed?**
+
+- We do our best to limit manager changes, but sometimes a teammate has multiple managers in a quarter. While your current manager will be the one to write the review, they will leverage multiple sources to ensure all your work is captured in your impact review score.
+  - 1. We expect them to talk to your past manager to gain feedback. You can also add past managers as a reviewer.
+  - 2. [Monthly check-ins](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) captures all feedback from the entire quarter.
+
+Q. **Do we have a way to capture accomplishments throughout the quarter?**
+
+- Teammates have tools in Lattice to keep records of their accomplishments.
+  - [Thanks/praise feedback:](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) when your manager or teammate give you thanks through the lattice tool it’s stored there for you and your manager(s) to review throughout your time at Sourcegraph
+  - [Request feedback:](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)You can request feedback from any teammates and their response will be stored in Lattice for just you, or you and your manager(s), to review.
+  - [Note to self:](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) This is a great feature where you can keep notes of your accomplishments each week, month, or quarter to have handy for reviews.
 
 Q. **I have a concern about the performance of a Teammate. What should I do?**
 
@@ -382,7 +395,7 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 **Answer:** We are moving to annual impact reviews based on teammate feedback that the review process caused added stress and anxiety and diverted focus from impactful work. In response, we introduced mandatory monthly check-ins for managers and optional check-ins for teammates to support continuous performance feedback and moved the formal, merit review cycle to one-time per year.
 
-**2. What are the benefits of an annual review cycle vs bi-annual?**
+**2. What are the benefits of an annual review cycle vs semi-annual?**
 
 **Answer:**
 
@@ -392,9 +405,9 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 **3. Does this mean I have fewer opportunities to get a pay increase or promotion?**
 
-**Answer:** Historically, all teammates who have met performance expectations at minimum received a pay increase annually. This will not change and teammates who are exceeding or meeting performance expectations will not go more than 1.5 years without an increase. The only thing that is changing is that teammates who would historically have received an increase or spot bonus due to receiving Superior or Distinguished Performance Ratings will be rewarded annually instead of bi-annually, however, the percentage increase will be adjusted accordingly with our [talent assessment scale](#the-talent-assessment-framework) (new % increases will be announced prior to the next annual cycle in FY26, given that this will be the first review period with a full full-year cadence).
+**Answer:** Historically, all teammates who have met performance expectations at minimum received a pay increase annually. This will not change and teammates who are exceeding or meeting performance expectations will not go more than 1.5 years without an increase. The only thing that is changing is that teammates who would historically have received an increase or spot bonus due to receiving Superior or Distinguished Performance Ratings will be rewarded annually instead of semi-annually, however, the percentage increase will be adjusted accordingly with our [talent assessment scale](#the-talent-assessment-framework) (new % increases will be announced prior to the next annual cycle in FY26, given that this will be the first review period with a full full-year cadence).
 
-We will continue to evaluate promotions in conjunction with our[ promotion philosophy](#promotion-philosophy) and reward teammates for exemplary performance via spot bonuses and impact awards outside our annual merit cycle.
+We will continue to evaluate promotions in conjunction with our [promotion philosophy](#promotion-philosophy) and reward teammates for exemplary performance via spot bonuses and impact awards outside our annual merit cycle.
 
 **4. Are we still using the same scoring system for annual reviews?**
 
@@ -404,7 +417,7 @@ We will continue to evaluate promotions in conjunction with our[ promotion philo
 
 **Answer:** Teammates not eligible for the current impact review cycle will not be eligible for their first review until the next annual cycle. We are committed to ensuring that individuals in good standing do not go 1.5 years without a compensation increase which we ensure through our [eligibility criteria](#who-is-eligible-for-a-reviewcompensation-increase).
 
-## Monthly check-ins will serve as the primary avenue for feedback between impact review cycles, ensuring consistent communication and recognition of contributions. Off-cycle promotions will be formally reviewed bi-annually and off-cycle reviews will be considered if aligned with a business need.
+## Monthly check-ins will serve as the primary avenue for feedback between impact review cycles, ensuring consistent communication and recognition of contributions. Off-cycle promotions will be formally reviewed semi-annually and off-cycle reviews will be considered if aligned with a business need.
 
 ## RESOURCES FOR MANAGERS
 

@@ -199,7 +199,7 @@ search_contexts:
 
 search_based_code_navigation:
   title: Search-based code navigation
-  product_team: code_intelligence
+  product_team: graph
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
   use_cases:
@@ -226,7 +226,7 @@ search_based_code_navigation:
 
 precise_code_navigation_go:
   title: Precise code navigation for Go
-  product_team: code_intelligence
+  product_team: graph
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -253,7 +253,7 @@ precise_code_navigation_go:
 
 precise_code_navigation_jsts:
   title: Precise code navigation for JavaScript/TypeScript
-  product_team: code_intelligence
+  product_team: graph
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -280,7 +280,7 @@ precise_code_navigation_jsts:
 
 precise_code_navigation_java_scala_kotlin:
   title: Precise code navigation for Java, Scala & Kotlin
-  product_team: code_intelligence
+  product_team: graph
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -307,7 +307,7 @@ precise_code_navigation_java_scala_kotlin:
 
 precise_code_navigation_c_cpp:
   title: Precise code navigation for C/C++
-  product_team: code_intelligence
+  product_team: graph
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -334,7 +334,7 @@ precise_code_navigation_c_cpp:
 
 precise_code_navigation_python:
   title: Precise code navigation for Python
-  product_team: code_intelligence
+  product_team: graph
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -361,12 +361,12 @@ precise_code_navigation_python:
 
 precise_code_navigation_csharp:
   title: Precise code navigation for C#
-  product_team: code_intelligence
+  product_team: graph
   maturity: not_implemented
 
 precise_code_navigation_ruby:
   title: Precise code navigation for Ruby
-  product_team: code_intelligence
+  product_team: graph
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -393,7 +393,7 @@ precise_code_navigation_ruby:
 
 precise_code_navigation_rust:
   title: Precise code navigation for Rust
-  product_team: code_intelligence
+  product_team: graph
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
@@ -420,7 +420,7 @@ precise_code_navigation_rust:
 
 precise_code_navigation_auto_indexing:
   title: Precise code navigation auto-indexing
-  product_team: code_intelligence
+  product_team: graph
   maturity: partial_ga
   deployment:
     self_hosted: beta
@@ -686,7 +686,7 @@ custom_extensions:
 
 executors:
   title: Executors
-  product_team: code_intelligence
+  product_team: graph
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/admin/executors
   deployment:

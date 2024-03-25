@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-01-30 00:36:07.19288 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/5c3790bfdd225d7ce3ccf5dd8818a3f58d85aba2
+Last updated: 2024-03-25 13:00:34.359027 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
 -->
 
 These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.
@@ -30,6 +30,12 @@ Managed Services Platform services owned by `cloud`:
 
 - [Cloud Ops Dashboard](./cloud-ops.md)
 
+## cody-plg
+
+Managed Services Platform services owned by `cody-plg`:
+
+- [Self-Serve Cody](./sams.md)
+
 ## cody-services
 
 Managed Services Platform services owned by `cody-services`:
@@ -48,7 +54,7 @@ Managed Services Platform services owned by `core-services`:
 
 - [MSP Testbed](./msp-testbed.md)
 - [Pings Service](./pings.md)
-- [Sourcegraph Accounts](./sams.md)
+- [Sourcegraph Accounts](./sourcegraph-accounts.md)
 - [Telemetry Gateway](./telemetry-gateway.md)
 
 ## dev-experience
@@ -56,6 +62,12 @@ Managed Services Platform services owned by `core-services`:
 Managed Services Platform services owned by `dev-experience`:
 
 - [Release Registry](./releaseregistry.md)
+
+## security
+
+Managed Services Platform services owned by `security`:
+
+- [Entitler](./entitler.md)
 
 ## General guidance
 

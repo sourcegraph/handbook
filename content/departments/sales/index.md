@@ -2,24 +2,13 @@
 
 The Sales team represents us and our values to customers, bringing back dollars and feedback to help us grow.
 
-- [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
-- [Pricing](https://about.sourcegraph.com/pricing)
-- [Common questions from prospective customers](tools/common_customer_questions.md)
-- [Sales team onboarding](onboarding/index.md)
 - [SDR Team](sdrteam/index.md)
 - [Sales strategy & ops team](sales-ops/index.md)
-- [Sales interview process](hiring/index.md)
-- [Recording lead and customer emails, calls, and notes](tools/records.md)
-- [Using Salesforce](tools/salesforce.md)
-- [Sales Resources](tools/salesresources.md)
-- [Engaging with Legal](process/saleslegal.md)
-- [Engaging with Security](process/salessecurity.md)
-- [Process docs](process/index.md)
-- [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
-- [Forecasting Overview](forecasting.md)
-- [Tools](tools/index.md)
-- [Territory Assignment Process](https://docs.google.com/document/d/1GU55BRIBRbFmlBo24YfnuuvKCfhlQm5uNRLaSJ9hsbo/edit)
 - [Sales Performance Goals](sales-performance-goals.md)
+- [Tools & Resources](tools/index.md)
+- [Process](process/index.md)
+- [Sales team onboarding](onboarding/index.md)
+- [Sales team hiring](hiring/index.md)
 
 ## Goals
 
@@ -30,6 +19,8 @@ Find the Sales FY23 Target Market [here](https://docs.google.com/document/d/1w35
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
 {{generator:reporting_structure.vp_sales}}
+
+{{generator:reporting_structure.sales_ops_strategy}}
 
 ### Roles
 

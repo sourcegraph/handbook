@@ -34,6 +34,11 @@ It depends on the dataset:
 - Cody data / data from sourceraph.com refreshes hourly
 - Pings data usually refreshes every few hours, and some lesser used pings data points refresh daily
 
+### Why do I see different results when I look at the same data in Looker and Amplitude?
+
+- Occasionally we perform data cleanup on the tables that load Looker dashboards, but the same cleanup can't easily performed in Amplitude (because data in Amplitude is immutable once ingested). See [here](https://docs.google.com/spreadsheets/d/1VM6sbPZ9sY9lt-ngya706n2dIKZrvMA_0O1FtGj6Qh4/edit#gid=0) for a list of anomalies/cleanup events, and how they might affect metrics in Looker and Amplitude differently.
+- Besides that, unlike Looker, Amplitude's calculations are "out of the box" - meaning we don't have control over exactly how they are calculated, the way we do in Looker. When in doubt, Looker is generally the source of truth for our KPIs because we can control exactly how each metrics is calculated
+
 ### Do we collect [insert event] on sourcegraph.com?
 
 1. Enable Developer mode
