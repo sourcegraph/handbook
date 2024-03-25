@@ -1452,18 +1452,6 @@ erika_rice_scherpelz:
   manager_role_slug: eng_lead
   description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'
 
-matt_manela:
-  name: Matt Manela
-  email: matt.manela@sourcegraph.com
-  github: mmanela
-  pronouns: he/him
-  role: Engineering Manager, Product Platform
-  reports_to: eng_lead
-  location: Albany, NY, USA 🇺🇸
-  links: '[Blog](https://matthewmanela.com/), [LinkedIn](https://www.linkedin.com/in/mmanela/)'
-  manager_role_slug: product_platform_lead
-  description: 'Matt is passionate about creating scalable quality software and high performing compassionate customer focused teams. Before Sourcegraph, Matt spent time at a green energy startup scaling residential solar and at Microsoft working on developer tools and services. When not working, Matt can be found spending time with his family, reading (mostly sci-fi), [blogging](https://matthewmanela.com/articles) or building software for fun ([website about idiom translation](https://idiomatically.net/), [multi-platform word game](https://matthewmanela.com/anagram-ladder/))'
-
 anton_sviridov:
   name: Anton Sviridov
   email: anton.sviridov@sourcegraph.com
@@ -1817,6 +1805,18 @@ michael_bahr:
   links: '[Linkedin](https://linkedin.com/in/michael-bahr-81036177)'
   pronunciation: '[pronounce my name 🔊](https://forvo.com/word/bahr)'
   description: Michael grew up in the Black Forest, just at the border between Germany and Switzerland. Prior to Sourcegraph, Michael worked on the dev tools such as Amazon CodeCatalyst, and made the life of devs easier at a startup called Stedi. He's passionate about solving ever harder technical challenges and helping teammates grow further. When not coding at work, he loves to build projects and modifications around video games like Factorio and EVE Online. His favourite way to spend time outside is on a snowboard in the mountains. He can also be found doing other sports and hosting DnD sessions.
+
+matt_manela:
+  name: Matt Manela
+  email: matt.manela@sourcegraph.com
+  github: mmanela
+  pronouns: he/him
+  role: Engineering Manager, Product Platform
+  reports_to: eng_lead
+  location: Albany, NY, USA 🇺🇸
+  links: '[Blog](https://matthewmanela.com/), [LinkedIn](https://www.linkedin.com/in/mmanela/)'
+  manager_role_slug: product_platform_lead
+  description: 'Matt is passionate about creating scalable quality software and high performing compassionate customer focused teams. Before Sourcegraph, Matt spent time at a green energy startup scaling residential solar and at Microsoft working on developer tools and services. When not working, Matt can be found spending time with his family, reading (mostly sci-fi), [blogging](https://matthewmanela.com/articles) or building software for fun ([website about idiom translation](https://idiomatically.net/), [multi-platform word game](https://matthewmanela.com/anagram-ladder/))'
 
 anish_lakhwara:
   name: Anish Lakhwara
