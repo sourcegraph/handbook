@@ -3,22 +3,22 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-20 14:31:31.182282 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/17f8bdf7fc229d21f8b9bf1823318c1c39f9d92f
+Last updated: 2024-03-25 08:14:01.825939 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/e6c6ad2da61a21e1719b2a38cd5913228ae91df4
 -->
 
 This document describes operational guidance for Cloud Ops Dashboard infrastructure.
 This service is operated on the [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md).
 
 > [!IMPORTANT]
-> If this is your first time here, you should follow the [sourcegraph/managed-services README](https://github.com/sourcegraph/managed-services/blob/main/README.md) as well to set up the prerequisite tooling.
+> If this is your first time here, you must follow the [sourcegraph/managed-services 'Tooling setup' guide](https://github.com/sourcegraph/managed-services/blob/main/README.md) as well to clone the service definitions repository and set up the prerequisite tooling.
 
 If you need assistance with MSP infrastructure, reach out to the [Core Services](../teams/core-services/index.md) team in #discuss-core-services.
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                    |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                          DETAILS                                                           |
+|--------------|----------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | [`cloud-ops`](https://github.com/sourcegraph/managed-services/blob/main/services/cloud-ops/service.yaml)                   |
 | Owners       | **cloud**                                                                                                                  |
 | Service kind | Cloud Run service                                                                                                          |
@@ -30,8 +30,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY       | DETAILS                                                                                            |
-| -------------- | -------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                              DETAILS                                               |
+|----------------|----------------------------------------------------------------------------------------------------|
 | Project ID     | [`cloud-ops-prod-dd32`](https://console.cloud.google.com/run?project=cloud-ops-prod-dd32)          |
 | Category       | **internal**                                                                                       |
 | Resources      | [prod Redis](#prod-redis)                                                                          |
@@ -42,8 +42,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                ENTITLE REQUEST TEMPLATE                                                                                                                                                                |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiNzg0M2MxYWYtYzU2MS00ZDMyLWE3ZTAtYjZkNjY0NDM4MzAzIiwidGhyb3VnaCI6Ijc4NDNjMWFmLWM1NjEtNGQzMi1hN2UwLWI2ZDY2NDQzODMwMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 | GCP project write access | [Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZTEyYTJkZDktYzY1ZC00YzM0LTlmNDgtMzYzNTNkZmY0MDkyIiwidGhyb3VnaCI6ImUxMmEyZGQ5LWM2NWQtNGMzNC05ZjQ4LTM2MzUzZGZmNDA5MiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -53,8 +53,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Cloud Ops Dashboard prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                          |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                                                                                                                             DETAILS                                                                                                                                                              |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console      | [Cloud Run service](https://console.cloud.google.com/run?project=cloud-ops-prod-dd32)                                                                                                                                                                                                                                            |
 | Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cloud-ops-prod-dd32) |
 
@@ -66,8 +66,8 @@ sg msp logs cloud-ops prod
 
 #### prod Redis
 
-| PROPERTY | DETAILS                                                                                                                 |
-| -------- | ----------------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                         DETAILS                                                         |
+|----------|-------------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=cloud-ops-prod-dd32) |
 
 #### prod Terraform Cloud
@@ -78,7 +78,7 @@ You may want to check your service environment's TFC workspaces if a Terraform a
 
 > [!NOTE]
 > If you are looking for service logs, see the [prod Cloud Run](#prod-cloud-run) section instead. In general:
->
+> 
 > - check service logs ([prod Cloud Run](#prod-cloud-run)) if your service has gone down or is misbehaving
 > - check TFC workspaces for infrastructure provisioning or configuration issues
 
