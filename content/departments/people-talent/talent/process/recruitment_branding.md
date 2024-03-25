@@ -124,7 +124,8 @@ Please follow these instructions:
 - [Console](https://console.dev/profiles/sourcegraph/): We have a company profile on Console that links to our careers page.
 - [Tech Ladies](https://www.hiretechladies.com/): All jobs that are publicly listed in our applicant tracking system are automatically pushed to Tech Ladies. Trevor owns this relationship. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
 - [Diversify Tech](https://www.diversifytech.co/job-board): Trevor Houghton can post open roles here upon request from the Hiring Manager. Each post costs money and will stay up for one month.
-- [TLDR](https://tldr.tech/jobs?filter=%257B%257D): Trevor Houghton manually posts open roles here on a monthly basis
+- [TLDR](https://tldr.tech/jobs?filter=%257B%257D): Trevor Houghton manually posts open roles here on a monthly basis.
+- [Otta](https://app.otta.com/companies/Sourcegraph) Otta automatically posts certain jobs that we have published publicly listed in our applicant tracking system.
 - [Job boards we're using for our Internship Program](../internship/index.md#college-job-boards-were-using)
 
 ### Other job boards/coding bootcamps we have used in the past:
