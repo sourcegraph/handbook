@@ -6,7 +6,7 @@ Product gaps are submitted by the customer’s assigned TA or Scaled Success. Th
 
 > If you come across an account that doesn’t have a TA assigned and isn’t under Scaled Success management, feel free to ask in the #discuss-technical-advisors channel about assigning someone to the request.
 
-**Accounts with a TA**: Head to the #discuss-technical-advisors channel and follow the Product Gap Request workflow. Keep the ticket open for a few days in case the TA or customer has more to say.
+**Accounts with a TA**: Include the TA in the issue thread, providing them with the details of the product gap. Keep the ticket open for a few days in case the TA or customer has more to say.
 
 **Scaled Success accounts**: Head to the #discuss-scaled-success channel and follow the Product Gap Request workflow. Leave the ticket open for a few days, allowing the team or customer to follow up.
 
