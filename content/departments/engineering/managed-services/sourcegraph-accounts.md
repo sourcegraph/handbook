@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-25 11:47:24.797089 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e6c6ad2da61a21e1719b2a38cd5913228ae91df4
+Last updated: 2024-03-25 13:00:34.354499 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
 -->
 
 This document describes operational guidance for Sourcegraph Accounts infrastructure.
@@ -17,8 +17,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                                                    |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                                          DETAILS                                                                           |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | [`sourcegraph-accounts`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/service.yaml)                             |
 | Owners       | **core-services**                                                                                                                                          |
 | Service kind | Cloud Run service                                                                                                                                          |
@@ -30,20 +30,21 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### dev
 
-| PROPERTY       | DETAILS                                                                                                                     |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Project ID     | [`sourcegraph-accounts-dev-csvc`](https://console.cloud.google.com/run?project=sourcegraph-accounts-dev-csvc)               |
-| Category       | **test**                                                                                                                    |
-| Resources      | [dev Redis](#dev-redis), [dev PostgreSQL instance](#dev-postgresql-instance), [dev BigQuery dataset](#dev-bigquery-dataset) |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sourcegraph-accounts-dev-csvc)                |
-| Sentry         | [`sourcegraph-accounts-dev`](https://sourcegraph.sentry.io/projects/sourcegraph-accounts-dev/)                              |
-| Domain         | [accounts.sgdev.org](https://accounts.sgdev.org)                                                                            |
-| Cloudflare WAF | ✅                                                                                                                          |
+|      PROPERTY       |                                                           DETAILS                                                           |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Project ID          | [`sourcegraph-accounts-dev-csvc`](https://console.cloud.google.com/run?project=sourcegraph-accounts-dev-csvc)               |
+| Category            | **test**                                                                                                                    |
+| Resources           | [dev Redis](#dev-redis), [dev PostgreSQL instance](#dev-postgresql-instance), [dev BigQuery dataset](#dev-bigquery-dataset) |
+| Slack notifications | [#alerts-sourcegraph-accounts-dev](https://sourcegraph.slack.com/archives/alerts-sourcegraph-accounts-dev)                  |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sourcegraph-accounts-dev-csvc)                |
+| Errors              | [Sentry `sourcegraph-accounts-dev`](https://sourcegraph.sentry.io/projects/sourcegraph-accounts-dev/)                       |
+| Domain              | [accounts.sgdev.org](https://accounts.sgdev.org)                                                                            |
+| Cloudflare WAF      | ✅                                                                                                                          |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          ACCESS          |                                                                                                                                                                        ENTITLE REQUEST TEMPLATE                                                                                                                                                                        |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
 | GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -53,10 +54,12 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Sourcegraph Accounts dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                                    |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=sourcegraph-accounts-dev-csvc)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=sourcegraph-accounts-dev-csvc) |
+|    PROPERTY    |                                                                                                                                                                  DETAILS                                                                                                                                                                   |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=sourcegraph-accounts-dev-csvc)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=sourcegraph-accounts-dev-csvc) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=sourcegraph-accounts-dev-csvc)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `sourcegraph-accounts-dev`](https://sourcegraph.sentry.io/projects/sourcegraph-accounts-dev/)                                                                                                                                                                                                                                      |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 
@@ -66,14 +69,14 @@ sg msp logs sourcegraph-accounts dev
 
 #### dev Redis
 
-| PROPERTY | DETAILS                                                                                                                           |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                              DETAILS                                                              |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=sourcegraph-accounts-dev-csvc) |
 
 #### dev PostgreSQL instance
 
-| PROPERTY  | DETAILS                                                                                                     |
-| --------- | ----------------------------------------------------------------------------------------------------------- |
+| PROPERTY  |                                                   DETAILS                                                   |
+|-----------|-------------------------------------------------------------------------------------------------------------|
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=sourcegraph-accounts-dev-csvc) |
 | Databases | `accounts`                                                                                                  |
 
@@ -92,8 +95,8 @@ sg msp pg connect -write-access sourcegraph-accounts dev
 
 #### dev BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                                                                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY     |                                                                                                                                DETAILS                                                                                                                                 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dataset Project | `sourcegraph-accounts-dev-csvc`                                                                                                                                                                                                                                        |
 | Dataset ID      | `sourcegraph_accounts`                                                                                                                                                                                                                                                 |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/events.bigquerytable.json) |
@@ -125,20 +128,21 @@ sg msp tfc view sourcegraph-accounts dev
 
 ### prod
 
-| PROPERTY       | DETAILS                                                                                                                           |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Project ID     | [`sourcegraph-accounts-prod-csvc`](https://console.cloud.google.com/run?project=sourcegraph-accounts-prod-csvc)                   |
-| Category       | **external**                                                                                                                      |
-| Resources      | [prod Redis](#prod-redis), [prod PostgreSQL instance](#prod-postgresql-instance), [prod BigQuery dataset](#prod-bigquery-dataset) |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sourcegraph-accounts-prod-csvc)                     |
-| Sentry         | [`sourcegraph-accounts-prod`](https://sourcegraph.sentry.io/projects/sourcegraph-accounts-prod/)                                  |
-| Domain         | [accounts.sourcegraph.com](https://accounts.sourcegraph.com)                                                                      |
-| Cloudflare WAF | ✅                                                                                                                                |
+|      PROPERTY       |                                                              DETAILS                                                              |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project ID          | [`sourcegraph-accounts-prod-csvc`](https://console.cloud.google.com/run?project=sourcegraph-accounts-prod-csvc)                   |
+| Category            | **external**                                                                                                                      |
+| Resources           | [prod Redis](#prod-redis), [prod PostgreSQL instance](#prod-postgresql-instance), [prod BigQuery dataset](#prod-bigquery-dataset) |
+| Slack notifications | [#alerts-sourcegraph-accounts-prod](https://sourcegraph.slack.com/archives/alerts-sourcegraph-accounts-prod)                      |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sourcegraph-accounts-prod-csvc)                     |
+| Errors              | [Sentry `sourcegraph-accounts-prod`](https://sourcegraph.sentry.io/projects/sourcegraph-accounts-prod/)                           |
+| Domain              | [accounts.sourcegraph.com](https://accounts.sourcegraph.com)                                                                      |
+| Cloudflare WAF      | ✅                                                                                                                                |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                      ENTITLE REQUEST TEMPLATE                                                                                                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)   |
 | GCP project write access | [Write access Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -148,10 +152,12 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Sourcegraph Accounts prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                                     |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=sourcegraph-accounts-prod-csvc)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=sourcegraph-accounts-prod-csvc) |
+|    PROPERTY    |                                                                                                                                                                   DETAILS                                                                                                                                                                   |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=sourcegraph-accounts-prod-csvc)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=sourcegraph-accounts-prod-csvc) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=sourcegraph-accounts-prod-csvc)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `sourcegraph-accounts-prod`](https://sourcegraph.sentry.io/projects/sourcegraph-accounts-prod/)                                                                                                                                                                                                                                     |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 
@@ -161,14 +167,14 @@ sg msp logs sourcegraph-accounts prod
 
 #### prod Redis
 
-| PROPERTY | DETAILS                                                                                                                            |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                              DETAILS                                                               |
+|----------|------------------------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=sourcegraph-accounts-prod-csvc) |
 
 #### prod PostgreSQL instance
 
-| PROPERTY  | DETAILS                                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------------ |
+| PROPERTY  |                                                   DETAILS                                                    |
+|-----------|--------------------------------------------------------------------------------------------------------------|
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=sourcegraph-accounts-prod-csvc) |
 | Databases | `accounts`                                                                                                   |
 
@@ -187,8 +193,8 @@ sg msp pg connect -write-access sourcegraph-accounts prod
 
 #### prod BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                                                                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY     |                                                                                                                                DETAILS                                                                                                                                 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dataset Project | `sourcegraph-accounts-prod-csvc`                                                                                                                                                                                                                                       |
 | Dataset ID      | `sourcegraph_accounts`                                                                                                                                                                                                                                                 |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/events.bigquerytable.json) |
