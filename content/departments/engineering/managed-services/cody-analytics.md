@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-25 11:47:24.787375 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e6c6ad2da61a21e1719b2a38cd5913228ae91df4
+Last updated: 2024-03-25 13:00:34.342078 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
 -->
 
 This document describes operational guidance for Cody Analytics infrastructure.
@@ -30,15 +30,16 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### dev
 
-| PROPERTY       | DETAILS                                                                                                |
-| -------------- | ------------------------------------------------------------------------------------------------------ |
-| Project ID     | [`cody-analytics-dev-bd34`](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)      |
-| Category       | **test**                                                                                               |
-| Resources      |                                                                                                        |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-dev-bd34) |
-| Sentry         | [`cody-analytics-dev`](https://sourcegraph.sentry.io/projects/cody-analytics-dev/)                     |
-| Domain         | [cody-analytics.sgdev.org](https://cody-analytics.sgdev.org)                                           |
-| Cloudflare WAF | ✅                                                                                                     |
+| PROPERTY            | DETAILS                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| Project ID          | [`cody-analytics-dev-bd34`](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)      |
+| Category            | **test**                                                                                               |
+| Resources           |                                                                                                        |
+| Slack notifications | [#alerts-cody-analytics-dev](https://sourcegraph.slack.com/archives/alerts-cody-analytics-dev)         |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-dev-bd34) |
+| Errors              | [Sentry `cody-analytics-dev`](https://sourcegraph.sentry.io/projects/cody-analytics-dev/)              |
+| Domain              | [cody-analytics.sgdev.org](https://cody-analytics.sgdev.org)                                           |
+| Cloudflare WAF      | ✅                                                                                                     |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
@@ -53,10 +54,12 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Cody Analytics dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                              |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-dev-bd34) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-dev-bd34) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=cody-analytics-dev-bd34)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `cody-analytics-dev`](https://sourcegraph.sentry.io/projects/cody-analytics-dev/)                                                                                                                                                                                                                                            |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 
@@ -91,15 +94,16 @@ sg msp tfc view cody-analytics dev
 
 ### prod
 
-| PROPERTY       | DETAILS                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------- |
-| Project ID     | [`cody-analytics-prod-da5a`](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)     |
-| Category       | **external**                                                                                            |
-| Resources      |                                                                                                         |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-prod-da5a) |
-| Sentry         | [`cody-analytics-prod`](https://sourcegraph.sentry.io/projects/cody-analytics-prod/)                    |
-| Domain         | [cody-analytics.sourcegraph.com](https://cody-analytics.sourcegraph.com)                                |
-| Cloudflare WAF | ✅                                                                                                      |
+| PROPERTY            | DETAILS                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| Project ID          | [`cody-analytics-prod-da5a`](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)     |
+| Category            | **external**                                                                                            |
+| Resources           |                                                                                                         |
+| Slack notifications | [#alerts-cody-analytics-prod](https://sourcegraph.slack.com/archives/alerts-cody-analytics-prod)        |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-prod-da5a) |
+| Errors              | [Sentry `cody-analytics-prod`](https://sourcegraph.sentry.io/projects/cody-analytics-prod/)             |
+| Domain              | [cody-analytics.sourcegraph.com](https://cody-analytics.sourcegraph.com)                                |
+| Cloudflare WAF      | ✅                                                                                                      |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
@@ -114,10 +118,12 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Cody Analytics prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                               |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-prod-da5a) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-prod-da5a) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=cody-analytics-prod-da5a)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `cody-analytics-prod`](https://sourcegraph.sentry.io/projects/cody-analytics-prod/)                                                                                                                                                                                                                                           |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 

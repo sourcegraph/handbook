@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-25 11:47:24.800984 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e6c6ad2da61a21e1719b2a38cd5913228ae91df4
+Last updated: 2024-03-25 13:00:34.359027 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
 -->
 
 These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.

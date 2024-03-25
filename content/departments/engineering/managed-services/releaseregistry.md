@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-25 11:47:24.792536 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e6c6ad2da61a21e1719b2a38cd5913228ae91df4
+Last updated: 2024-03-25 13:00:34.348881 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
 -->
 
 This document describes operational guidance for Release Registry infrastructure.
@@ -30,15 +30,16 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY       | DETAILS                                                                                                  |
-| -------------- | -------------------------------------------------------------------------------------------------------- |
-| Project ID     | [`releaseregistry-prod-5421`](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)    |
-| Category       | **test**                                                                                                 |
-| Resources      | [prod PostgreSQL instance](#prod-postgresql-instance)                                                    |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=releaseregistry-prod-5421) |
-| Sentry         | [`releaseregistry-prod`](https://sourcegraph.sentry.io/projects/releaseregistry-prod/)                   |
-| Domain         | [releaseregistry.sourcegraph.com](https://releaseregistry.sourcegraph.com)                               |
-| Cloudflare WAF | ✅                                                                                                       |
+| PROPERTY            | DETAILS                                                                                                  |
+| ------------------- | -------------------------------------------------------------------------------------------------------- |
+| Project ID          | [`releaseregistry-prod-5421`](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)    |
+| Category            | **test**                                                                                                 |
+| Resources           | [prod PostgreSQL instance](#prod-postgresql-instance)                                                    |
+| Slack notifications | [#alerts-releaseregistry-prod](https://sourcegraph.slack.com/archives/alerts-releaseregistry-prod)       |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=releaseregistry-prod-5421) |
+| Errors              | [Sentry `releaseregistry-prod`](https://sourcegraph.sentry.io/projects/releaseregistry-prod/)            |
+| Domain              | [releaseregistry.sourcegraph.com](https://releaseregistry.sourcegraph.com)                               |
+| Cloudflare WAF      | ✅                                                                                                       |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
@@ -53,10 +54,12 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Release Registry prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                                |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=releaseregistry-prod-5421) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                                |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=releaseregistry-prod-5421) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=releaseregistry-prod-5421)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `releaseregistry-prod`](https://sourcegraph.sentry.io/projects/releaseregistry-prod/)                                                                                                                                                                                                                                          |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 
@@ -111,15 +114,16 @@ sg msp tfc view releaseregistry prod
 
 ### dev
 
-| PROPERTY       | DETAILS                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------- |
-| Project ID     | [`releaseregistry-dev-6bac`](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)     |
-| Category       | **test**                                                                                                |
-| Resources      | [dev PostgreSQL instance](#dev-postgresql-instance)                                                     |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=releaseregistry-dev-6bac) |
-| Sentry         | [`releaseregistry-dev`](https://sourcegraph.sentry.io/projects/releaseregistry-dev/)                    |
-| Domain         | [releaseregistry.sgdev.org](https://releaseregistry.sgdev.org)                                          |
-| Cloudflare WAF | ✅                                                                                                      |
+| PROPERTY            | DETAILS                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| Project ID          | [`releaseregistry-dev-6bac`](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)     |
+| Category            | **test**                                                                                                |
+| Resources           | [dev PostgreSQL instance](#dev-postgresql-instance)                                                     |
+| Slack notifications | [#alerts-releaseregistry-dev](https://sourcegraph.slack.com/archives/alerts-releaseregistry-dev)        |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=releaseregistry-dev-6bac) |
+| Errors              | [Sentry `releaseregistry-dev`](https://sourcegraph.sentry.io/projects/releaseregistry-dev/)             |
+| Domain              | [releaseregistry.sgdev.org](https://releaseregistry.sgdev.org)                                          |
+| Cloudflare WAF      | ✅                                                                                                      |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
@@ -134,10 +138,12 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Release Registry dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                               |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=releaseregistry-dev-6bac) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=releaseregistry-dev-6bac) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=releaseregistry-dev-6bac)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `releaseregistry-dev`](https://sourcegraph.sentry.io/projects/releaseregistry-dev/)                                                                                                                                                                                                                                           |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 

@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-25 11:47:24.789319 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e6c6ad2da61a21e1719b2a38cd5913228ae91df4
+Last updated: 2024-03-25 13:00:34.344502 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
 -->
 
 This document describes operational guidance for Cody Gatekeeper infrastructure.
@@ -30,13 +30,14 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY   | DETAILS                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------- |
-| Project ID | [`gatekeeper-prod-1c93`](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)    |
-| Category   | **internal**                                                                                        |
-| Resources  |                                                                                                     |
-| Alerts     | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=gatekeeper-prod-1c93) |
-| Sentry     | [`gatekeeper-prod`](https://sourcegraph.sentry.io/projects/gatekeeper-prod/)                        |
+| PROPERTY            | DETAILS                                                                                             |
+| ------------------- | --------------------------------------------------------------------------------------------------- |
+| Project ID          | [`gatekeeper-prod-1c93`](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)    |
+| Category            | **internal**                                                                                        |
+| Resources           |                                                                                                     |
+| Slack notifications | [#alerts-gatekeeper-prod](https://sourcegraph.slack.com/archives/alerts-gatekeeper-prod)            |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=gatekeeper-prod-1c93) |
+| Errors              | [Sentry `gatekeeper-prod`](https://sourcegraph.sentry.io/projects/gatekeeper-prod/)                 |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
@@ -51,10 +52,12 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Cody Gatekeeper prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Console      | [Cloud Run job](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)                                                                                                                                                                                                                                      |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_job%22;summaryFields=labels%252F%2522run.googleapis.com%252Fexecution_name%2522,jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=gatekeeper-prod-1c93) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                      |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Console        | [Cloud Run job](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)                                                                                                                                                                                                                                      |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_job%22;summaryFields=labels%252F%2522run.googleapis.com%252Fexecution_name%2522,jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=gatekeeper-prod-1c93) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=gatekeeper-prod-1c93)                                                                                                                                                                                                                                     |
+| Service errors | [Sentry `gatekeeper-prod`](https://sourcegraph.sentry.io/projects/gatekeeper-prod/)                                                                                                                                                                                                                                          |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 
