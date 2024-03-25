@@ -21,21 +21,12 @@ For local development, please refer to its [README](https://github.com/sourcegra
 
 > [!NOTE]
 > To get access to most resources, you’ll need to [request infrastructure access](#infrastructure-access).
-
-Here is a list of useful quick links:
-
-- [Terraform Cloud workspaces](https://app.terraform.io/app/sourcegraph/workspaces?project=prj-7gzvzKCGcKupiA4s)
-- [Cloud Run service (metrics overview)](https://console.cloud.google.com/run/detail/us-central1/pings/metrics?project=pings-prod-2f4f73edf1db)
-- [Service logs](https://cloudlogging.app.goo.gl/JMmBSAbEceh6onpj8)
-- [GCP alerts](https://console.cloud.google.com/monitoring/alerting?project=pings-prod-2f4f73edf1db)
-- [GCP errors](https://console.cloud.google.com/errors?project=pings-prod-2f4f73edf1db)
-- [GCP Cloud Profiler](https://console.cloud.google.com/profiler/pings?project=pings-prod-2f4f73edf1db)
+>
+> Refer to [Pings infrastructure (go/msp-ops/pings)](../../../managed-services/pings.md) for our new MSP-generated guidance.
 
 ### Infrastructure access
 
-The following Entitle requests are needed to get access to Pings service infrastructure:
-
-- [GCP Project - MSP Service Editor](https://app.entitle.io/request?targetType=resource&duration=43200&justification=TODO&integrationId=134476cb-0bd6-4c6d-a89f-e1550988bdd7&resourceId=d94da8c3-76eb-451a-9cbb-973ac3bc44b1&roleId=8b60a711-976c-4e56-9f8b-cb2c989faca4&grantMethodId=8b60a711-976c-4e56-9f8b-cb2c989faca4)
+Refer to [Pings infrastructure (go/msp-ops/pings)](../../../managed-services/pings.md) for Entitle requests that are needed to get access to Pings service infrastructure:
 
 ### Deployment
 
