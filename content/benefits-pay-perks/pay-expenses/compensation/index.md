@@ -79,25 +79,29 @@ Step 1: Look up your job code and location zone in Bamboo
   - Location-zone: Zone 3
 
 Step 2: Use your job code to find your band in Assemble
-Navigate to: https://app.assemble.inc/
-Log in using Google SSO
-Click “Foundations” on the left sidebar
-Select your Department
-Select your Career Ladder (this should match your job title)
-Find your Title + Radford job code + Location-zone
-You’re also able to see other job codes/bands within your own career ladder on this page.
+1. Navigate to: https://app.assemble.inc/
+2. Log in using Google SSO
+3. Click “Foundations” on the left sidebar
+4. Select your Department
+5. Select your Career Ladder (this should match your job title)
+6. Find your Title + Radford job code + Location-zone
+  - You’re also able to see other job codes/bands within your own career ladder on this page.
 
 To find your team’s compensation bands (Managers only)
-Click “People” on the left navigation bar
-Select “My Team” at the top of the page
-Bands will be visible on this page
+1. Click “People” on the left navigation bar
+2. Select “My Team” at the top of the page
+3. Bands will be visible on this page
 
 Assemble displays placement in band as “Below,” “In Band,” or “Above Band.” As a reminder, we expect teammates to be within the band, so if you’re below the band please flag it ASAP to the People Team. Teammates new to the role will be at the entry point of the band.
-Getting paid
+
+## Getting paid
 
 You can read more about payroll here.
-US teammates: on a semi-monthly payroll cycle. Paydays are on the 15th and the last day of every month (or the closest business day prior to those dates). Paystub information is hosted in Rippling.
-Non-US teammates: on a monthly basis through Airbase or a PEO. If not on a PEO, to be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so here.
+- **US teammates**: on a semi-monthly payroll cycle. Paydays are on the 15th and the last day of every month (or the closest business day prior to those dates). Paystub information is hosted in Rippling.
+- **Non-US teammates**: on a monthly basis through Airbase or a PEO. If not on a PEO, to be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so here.
+Exchange rates 
+Because we benchmark against US-based data, we use currency conversations for international teammates who are employed via an EOR/PEO model on our vendor Deel. The Sourcegraph finance team is responsible for determining the currency conversion rate used when teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/.
+
 Exchange rates
 Because we benchmark against US-based data, we use currency conversations for international teammates who are employed via an EOR/PEO model on our vendor Deel. The Sourcegraph finance team is responsible for determining the currency conversion rate used when teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/.
 
