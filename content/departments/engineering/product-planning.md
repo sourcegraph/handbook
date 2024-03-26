@@ -6,7 +6,7 @@
 
 Our product planning and execution strategy is designed to align with the
 company's strategic objectives, marketing goals, and feedback from our
-customers. Planning is continuous with quarterly check-ins. 
+customers. Planning is continuous with quarterly check-ins.
 
 It’s the EPD teams – product, engineering, and design together – that have the
 expertise, context and pride of ownership to be best suited to propose the
@@ -30,19 +30,21 @@ of this work, aim to keep Enterprise focused work at 20% or less as per our
 “feature conveyor belt.”
 
 Work items from these input sources are divided into three categories:
-- **Work In Progress (WIP):** Already started. WIP has specified target dates, based on the work's scope and requirements.
-	- By default, WIP should not be interrupted. 
-- **Next queue:** A short (max 5) ordered list of planned work without target dates. This work should represent the team’s most important upcoming work, across all categories. 
-	- This can be reordered or added to (up to the limit) without notification of stakeholders but no approval needed. Removing items requires approval from stakeholders for that item, Head of Product, and Head of Eng.
-- **Backlog:** An unordered set of work with no associated target or commitment dates. 
 
-New work items are triaged into one of these three categories (see the FAQ for details). 
+- **Work In Progress (WIP):** Already started. WIP has specified target dates, based on the work's scope and requirements.
+  - By default, WIP should not be interrupted.
+- **Next queue:** A short (max 5) ordered list of planned work without target dates. This work should represent the team’s most important upcoming work, across all categories.
+  - This can be reordered or added to (up to the limit) without notification of stakeholders but no approval needed. Removing items requires approval from stakeholders for that item, Head of Product, and Head of Eng.
+- **Backlog:** An unordered set of work with no associated target or commitment dates.
+
+New work items are triaged into one of these three categories (see the FAQ for details).
 
 Work can have two types of dates:
-- **Target dates:** Set only for Work In Progress. Gives stakeholders a rough idea of when the work might be delivered. 
-	- Can be changed by the team at will, giving the team flexibility to adjust based on trade-offs between date and scope.
+
+- **Target dates:** Set only for Work In Progress. Gives stakeholders a rough idea of when the work might be delivered.
+  - Can be changed by the team at will, giving the team flexibility to adjust based on trade-offs between date and scope.
 - **Commitment dates:** Set for work with external-to-EPD commitments. Work can be committed without yet being started.
-	- Changing a commitment date requires approval from the stakeholders involved.
+  - Changing a commitment date requires approval from the stakeholders involved.
 
 ### Quarterly Check-ins
 
@@ -54,33 +56,33 @@ from the exec team.
 A planning review will consist of content to cover at least the following
 topics:
 
-- Retrospective: 
-	- How well did we do in accomplishing our goals since last quarter? 
-	- What data supports those conclusions?
-- Status: 
-	- How well is the product serving the needs of our customers and the business? 
-	- How well have you hit your metrics targets?
-- Plan snapshot: 
-	- What are your external commitments? What is the current Work In Progress? What work items are Next? 
-	- How does this work meet our business goals and how does it serve the needs of our customers? 
-	- What data are you using to drive your planning? 
-	- Have you done the high-level [eng scoping](https://handbook.sourcegraph.com/departments/engineering/product-planning/#engineer-scoping) to give you confidence that your team will be able to get committed work done by the committed date? 
-	- Note, not every team will have work that applies to every goal. Likewise, not every work item is expected to meet a strategic goal.
-- Success Metrics: 
-	- What KPIs and targets have you set to measure the success of this work?
-- Risks/Open Questions/Needs: 
-	- What are the biggests risks? What are the mitigations? 
-	- What guidance would you like from the exec team? 
-	- Do you have everything you need to be successful?
-- Excluded: 
-	- What items in your Backlog are just below the line? 
-	- What requests to your team have you decided not to put on your Backlog at all?
+- Retrospective:
+  - How well did we do in accomplishing our goals since last quarter?
+  - What data supports those conclusions?
+- Status:
+  - How well is the product serving the needs of our customers and the business?
+  - How well have you hit your metrics targets?
+- Plan snapshot:
+  - What are your external commitments? What is the current Work In Progress? What work items are Next?
+  - How does this work meet our business goals and how does it serve the needs of our customers?
+  - What data are you using to drive your planning?
+  - Have you done the high-level [eng scoping](https://handbook.sourcegraph.com/departments/engineering/product-planning/#engineer-scoping) to give you confidence that your team will be able to get committed work done by the committed date?
+  - Note, not every team will have work that applies to every goal. Likewise, not every work item is expected to meet a strategic goal.
+- Success Metrics:
+  - What KPIs and targets have you set to measure the success of this work?
+- Risks/Open Questions/Needs:
+  - What are the biggests risks? What are the mitigations?
+  - What guidance would you like from the exec team?
+  - Do you have everything you need to be successful?
+- Excluded:
+  - What items in your Backlog are just below the line?
+  - What requests to your team have you decided not to put on your Backlog at all?
 
 TPMs will schedule reviews for each team throughout the quarter to include
 interested members of the exec team, the leads of the product team (at least the
 EPD triad) and other interested stakeholders. At the end of a review, the execs
 and the product team will either be in alignment or the team will address the
-concerns and schedule a follow-up (repeat as needed). 
+concerns and schedule a follow-up (repeat as needed).
 
 ## FAQ
 
@@ -89,11 +91,11 @@ concerns and schedule a follow-up (repeat as needed). 
 A: When prioritizing work (new or backlogged), the team should go through the following process:
 
 - Does this work have an external commitment date? When does the work need to be started to meet that commitment date?
-	- Changing a commitment date or the scope of a commitment requires buy in from the relevant stakeholders. 
+  - Changing a commitment date or the scope of a commitment requires buy in from the relevant stakeholders.
 - Should this work interrupt Work In Progress?
-	- Default answer is no! Interrupting Work In Progress should occur only for unavoidably urgent work like an incident or a commitment with a date outside of our control.
+  - Default answer is no! Interrupting Work In Progress should occur only for unavoidably urgent work like an incident or a commitment with a date outside of our control.
 - If it shouldn’t interrupt Work In Progress, should it go in the Next queue? If so, where?
-	- If the Next queue gets longer than 5 items, the team will have to remove work items to ensure that the team is focused on a small set of top priorities. When items are removed from the Next queue, stakeholders should be informed. 
+  - If the Next queue gets longer than 5 items, the team will have to remove work items to ensure that the team is focused on a small set of top priorities. When items are removed from the Next queue, stakeholders should be informed.
 - If it’s not Next, add it to the Backlog (or close as won’t fix).
 
 **Q: Where does new work come from?**
@@ -112,22 +114,22 @@ Customer Feedback and GTM Requests
 
 Internal needs
 
-- Engineering, Product, and Design teammates will have items that need to be addressed to meet foundational goals such as scalability, reliability, performance, and security. This includes ongoing maintenance, architectural improvements, and polishing of existing features. 
+- Engineering, Product, and Design teammates will have items that need to be addressed to meet foundational goals such as scalability, reliability, performance, and security. This includes ongoing maintenance, architectural improvements, and polishing of existing features.
 
 **Q: What prevents teams from letting scope creep and never shipping?**
 
 A: Teams will need to give quarterly updates on their progress at the check-ins.
 This is one mechanism for incentivizing teams to break work into smaller,
-shippable chunks. 
+shippable chunks.
 
 We’ll also need teams to incorporate the idea of [stepping
 stones](https://medium.com/@jamesacowling/stepping-stones-not-milestones-e6be0073563f)
 into their planning process: how do we break large projects into smaller, more
 manageable chunks that are “shippable and stoppable”. That is, pieces that can
 be shipped independently and which also add value such that even if the larger
-project were to stop, the project still delivered value. 
+project were to stop, the project still delivered value.
 
-**Q: If planning is rolling, how do we know we’re working on the most important things?** 
+**Q: If planning is rolling, how do we know we’re working on the most important things?**
 
 A: The Product Managers own the Next queue for each team and are responsible for
 making sure that it’s aligned with the [company’s strategic
@@ -136,11 +138,11 @@ and [product
 strategy](https://docs.google.com/document/d/1VxVbjskzTB4m9mvm3w5xtmFRDTxj1e5N3yEftEH2Nsw/edit#heading=h.mj1ķne1whw0t).
 If the PMs are concerned that a team does not have enough high impact work (or
 too much!), they are responsible for working with leadership and EMs to figure
-out how to better align the team with our strategic goals. 
+out how to better align the team with our strategic goals.
 
-**Q: What is the source of truth for plans? How do we keep leadership informed and aligned?** 
+**Q: What is the source of truth for plans? How do we keep leadership informed and aligned?**
 
-For high level checks, the quarterly check-ins will inform and align. 
+For high level checks, the quarterly check-ins will inform and align.
 
 The [product
 roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/edit#heading=h.3yu1a6dm5wpq)
@@ -156,17 +158,19 @@ visibility into the backlog.)
 All changes should be passively communicated through updating the [product
 roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/edit#heading=h.3yu1a6dm5wpq)
 or, eventually, the issue tracker. Only some changes need to be actively
-communicated to leadership and stakeholders. 
+communicated to leadership and stakeholders.
 
 For WIP:
+
 - Dropped work: Must be communicated and approved
 - Updated target date, has commitment date: Must be communicated and approved
-- Updated target date, no commitment date: 
-	- If the target was within the next month, must be communicated.
-	- If the target was further out, update, with active communication as needed
+- Updated target date, no commitment date:
+  - If the target was within the next month, must be communicated.
+  - If the target was further out, update, with active communication as needed
 - Newly started work: Update, with active communication as needed.
 
 For Next queue work:
+
 - Dropped work: Must be communicated and approved
 - Added work: Update, with active communication as needed
 - Order changed: Update, with active communication as needed
@@ -174,7 +178,7 @@ For Next queue work:
 Beyond this, any work that is at risk, even if it doesn’t trigger any changes,
 should be communicated to at least
 [#epd-planning](https://sourcegraph.slack.com/archives/C04SCUER62C) or in a PFP
-sync.  
+sync.
 
 **Q: When does eng scoping happen?**
 
@@ -189,7 +193,7 @@ smaller [stepping
 stones](https://medium.com/@jamesacowling/stepping-stones-not-milestones-e6be0073563f),
 adjust dates, or cut scope.
 
-**Q: What are tips for effective quarterly check-ins?** 
+**Q: What are tips for effective quarterly check-ins?**
 
 A: Some tips for having an effective review:
 
