@@ -110,7 +110,7 @@ Marketing goals
 
 Customer Feedback and GTM Requests
 
-- Product Managers are responsible for aggregating customer feedback across different channels and working it into the [product roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/edit#heading=h.3yu1a6dm5wpq) and team plans (small customer feedback items do not need to be in the roadmap). (This will be aided by ongoing investments to make Salesforce [Product Gaps](departments/technical-success/support/process/product-gap-process/) more self-serve.)
+- Product Managers are responsible for aggregating customer feedback across different channels and working it into the [product roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/edit#heading=h.3yu1a6dm5wpq) and team plans (small customer feedback items do not need to be in the roadmap). (This will be aided by ongoing investments to make Salesforce [Product Gaps](../technical-success/support/process/product-gap-process/) more self-serve.)
 
 Internal needs
 
