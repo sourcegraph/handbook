@@ -66,7 +66,7 @@ topics:
   - What are your external commitments? What is the current Work In Progress? What work items are Next?
   - How does this work meet our business goals and how does it serve the needs of our customers?
   - What data are you using to drive your planning?
-  - Have you done the high-level [eng scoping](https://handbook.sourcegraph.com/departments/engineering/product-planning/#engineer-scoping) to give you confidence that your team will be able to get committed work done by the committed date?
+  - Have you done the high-level [eng scoping](product-planning/.md#engineer-scoping) to give you confidence that your team will be able to get committed work done by the committed date?
   - Note, not every team will have work that applies to every goal. Likewise, not every work item is expected to meet a strategic goal.
 - Success Metrics:
   - What KPIs and targets have you set to measure the success of this work?
