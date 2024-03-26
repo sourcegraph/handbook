@@ -66,7 +66,7 @@ topics:
   - What are your external commitments? What is the current Work In Progress? What work items are Next?
   - How does this work meet our business goals and how does it serve the needs of our customers?
   - What data are you using to drive your planning?
-  - Have you done the high-level [eng scoping](product-planning/.md#engineer-scoping) to give you confidence that your team will be able to get committed work done by the committed date?
+  - Have you done the high-level eng scoping to give you confidence that your team will be able to get committed work done by the committed date?
   - Note, not every team will have work that applies to every goal. Likewise, not every work item is expected to meet a strategic goal.
 - Success Metrics:
   - What KPIs and targets have you set to measure the success of this work?
@@ -110,7 +110,7 @@ Marketing goals
 
 Customer Feedback and GTM Requests
 
-- Product Managers are responsible for aggregating customer feedback across different channels and working it into the [product roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/edit#heading=h.3yu1a6dm5wpq) and team plans (small customer feedback items do not need to be in the roadmap). (This will be aided by ongoing investments to make Salesforce [Product Gaps](https://handbook.sourcegraph.com/departments/technical-success/support/process/product-gap-process/) more self-serve.)
+- Product Managers are responsible for aggregating customer feedback across different channels and working it into the [product roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/edit#heading=h.3yu1a6dm5wpq) and team plans (small customer feedback items do not need to be in the roadmap). (This will be aided by ongoing investments to make Salesforce [Product Gaps](departments/technical-success/support/process/product-gap-process/) more self-serve.)
 
 Internal needs
 
