@@ -846,12 +846,6 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    </td>
   </tr>
   <tr>
-   <td>#discuss-cody-context
-   </td>
-   <td>Discussion of Cody context
-   </td>
-  </tr>
-  <tr>
    <td>#discuss-cody-strat
    </td>
    <td>Questions, bug reports, and feedback specific to the Cody strategic work
@@ -879,12 +873,6 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    <td>#discuss-cody-clients
    </td>
    <td>Discussion space for Cody product teams to coordinate and collaborate on cross-team work
-   </td>
-  </tr>
-  <tr>
-   <td>#wg-cody-vs-code
-   </td>
-   <td>Discussion, questions, bug reports, and feedback specific to the VSC extension. VS Code team collaboration
    </td>
   </tr>
   <tr>
