@@ -10,7 +10,7 @@ This document describes how we release Sourcegraph.
 
 ### Release Schedule
 
-As of March 2024, Sourcegraph releases features monthly ([see RFC 864](https://docs.google.com/document/d/1vZmRx6k-OUpSgrAJ9ovu4qfzrExQDXzWiBYv9XbGEZM/edit?usp=sharing)) The 2024 schedule is as follows (version numbers are subject to change):
+As of April 2024, Sourcegraph releases features monthly ([see RFC 864](https://docs.google.com/document/d/1vZmRx6k-OUpSgrAJ9ovu4qfzrExQDXzWiBYv9XbGEZM/edit?usp=sharing)) The 2024 schedule is as follows (**version numbers are subject to change**):
 
 | Version | Feature Freeze Date | Code Freeze Date | Release Date      | Release Kind |
 | ------- | ------------------- | ---------------- | ----------------- | ------------ |
@@ -42,15 +42,11 @@ The following are general guidelines for selecting release dates:
 - **Day 20**: Patch release
 
 We chose _day 5_ to avoid holidays and other events at the beginning of the month, such as new quarterly review meetings and discussions. However, on some
-occassions these days fall on Friday or the weekend, so we generall consider the following criteria in the event the schedule above fall on a Friday or the weekend:
+occassions these days fall on Friday or the weekend, so we generally consider the following criteria in the event the schedule above fall on a Friday or the weekend:
 
 1. Pick the next working day that isn't a Friday. This gives time for release prep.
 
-A release refers to a minor or major version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
-
 ### Patch releases
-
-A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
 
 Generally speaking patches will only include bug fixes for previously released features. In some occasions we may release improvements to address issues that may not technically a bug fix, and in some occasions we may backport features provided they are:
 
@@ -67,7 +63,7 @@ We will also release patches out of band from the schedule above if there are ur
 
 #### Requesting a patch
 
-1. Reach out to the `@release-team` on #discuss-release-ship.
+1. Reach out to the `@release-team` on #discuss-releases.
 
 ## Key concepts and components
 
@@ -83,44 +79,41 @@ Release captain responsibilities are currently owned by the [Release Team](../..
 
 ### Release tooling
 
-`sg release` is the tool used to create releases.
+`sg` is the tool used to create releases.
 
 ### Release branches
 
-Each major and minor release of [Sourcegraph](https://github.com/sourcegraph/sourcegraph) has a long lived release branch (e.g. `3.0`, `3.1`).
-Individual releases are tagged from these release branches (e.g. `v3.0.0-rc.1`, `v3.0.0`, `v3.0.1-rc.1`, and `v3.0.1` would be tagged from the `3.0` release branch).
+The release process uses a release branching model. Monthly releases are created from the `main` branch and are usually contained in a long lived release branch (e.g `5.3.270`, `6.2.205`).
+Individual releases associated with the monthly release are tagged from these release branches.
 
 To avoid confusion between tags and branches:
 
-- Tags are always the full semantic version with a leading `v` (e.g. `v2.10.0`)
-- Branches are always the dot-separated major/minor versions with no leading `v` (e.g. `2.10`).
-
-Development always happens on `main` and changes are cherry-picked onto release branch as necessary **with the approval of the release captain**.
+- Tags are always the full semantic version with a leading `v` (e.g. `v5.3.207`)
+- Branches are always the dot-separated major/minor/patch versions with no leading `v` (e.g. `5.3.207`).
 
 #### Example
 
 Here is an example git commit history:
 
-1. The release captain creates the `3.0` release branch at commit `B`.
-1. The release captain tags the release candidate `v3.0.0-rc.1` at commit `B`.
-1. A feature is committed to `main` in commit `C`. It will not ship in `3.0`.
-1. An issue is found in the release candidate and a fix is committed to `main` in commit `D`.
-1. The release captain cherry-picks `D` from `main` into `3.0`.
+1. For a monthly release, the release captain creates the `5.3.207` release branch at commit `B`. This branch is cut from `main`.
+1. The release captain tags the release `v5.3.207` at commit `B`.
+1. A feature is committed to `main` in commit `C`. It will not ship in the next patch release from the `5.3.207` branch.
+1. An issue is found in the release and a fix is committed to `main` in commit `D`.
+1. The fix is backported into the `5.3.207` release branch and it'll be part of the next patch release `5.3.405.
 1. The release captain tags `v3.0.0` on the `3.0` release branch.
 1. Development continues on `main` with commits `E`, `F`, `G`, `H`.
-1. Commit `F` fixes a critical bug that impacts 3.0, so it is cherry-picked onto the `3.0` release branch and `v3.0.1` is tagged.
-1. The release captain (different person) for 3.1 creates the `3.1` release branch at commit `H` and a new release cycle begins.
-1. Commit `J` fixes a critical bug that impacts both 3.0 and 3.1, so it is cherry-picked into both `3.0` and `3.1` release branches and new releases are tagged (`v3.0.2`, `v3.1.2`).
+1. The release captain (different person) for `5.3.427` creates the `5.3.427` release branch at commit `H` and a new monthly release cycle begins.
 
 ```text
 A---B---C---D---E---F---G---H---I---J---K---L (main branch)
      \                       \
-      \                       `---v3.1.0-rc.1---I'---v3.1.0---J'---v3.1.2 (3.1 release branch)
+      \                       `---v5.3.427 (5.3.427 monthly release branch)
        \
-        `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
+        `---v5.3.207---D'---v5.3.405 patch release (5.3.207 monthly release branch)
 ```
 
-> [!NOTE] cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`).
+> [!NOTE] cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`)
+or using the `sg backport` command that's part of the [sg] CLI.
 
 ### Issues
 
@@ -142,7 +135,7 @@ The release captain has unlimited power to make changes to the release branch to
 
 #### Non-blocking
 
-Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
+Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then backport those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
 
 ### CHANGELOG.md
 
@@ -165,6 +158,20 @@ Please note that if you encounter any issues that can be resolved with an upgrad
 Cody client extensions, such as the VS Code extension, need to maintain backwards compatibility with Sourcegraph servers back to 5.0.0. The Sourcegraph server has no backward compatibility requirements with respect to the clients. However, the server should try to maintain backwards compatibility with clients on a best effort basis.
 
 Why only back to 5.0 instead of our standard policy of latest version and previous major version? That will eventually be our policy. However, since Cody was new to 5.0.0, it's a necessary exception to that policy.
+
+## FAQ
+
+**Q: Do I need to backport my PRs for it to be included in a monthly release?**
+
+A: No, you don't. Monthly releases are cut from `main`, so once your PR is merged into `main` it'll be included in the next monthly release.
+
+**Q: How do I get my bug fix into a patch release?**
+
+A: You'll need to backport it into the branch of the latest monthly release. This will be in the format `<major>.<minor>.<patch>`.
+
+**Q: How do I find out if a bug fix made it into the last release?**
+
+A: The changelog will be the source of truth for this.
 
 [patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
 [revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197
