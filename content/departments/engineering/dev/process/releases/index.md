@@ -113,7 +113,7 @@ A---B---C---D---E---F---G---H---I---J---K---L (main branch)
 ```
 
 > [!NOTE] cherry-picks can be automated using the backporting tool by adding the `backport <target-branch>` label to the PR (merged into `main`) that is being cherry-picked (e.g. `backport 5.0`)
-or using the `sg backport` command that's part of the [sg] CLI.
+> or using the `sg backport` command that's part of the [sg] CLI.
 
 ### Issues
 
