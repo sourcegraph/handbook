@@ -4,11 +4,11 @@ In line with the Company's Cody + Search strategy, Finance believes it is import
 
 Currently, we are categorizing enterprise ARR into four buckets:
 
-  - Professional Services ARR
-  - Platform or Recurring Fee ARR
-  - Software ARR
-  - Code Search ARR
-  - Cody ARR
+- Professional Services ARR
+- Platform or Recurring Fee ARR
+- Software ARR
+- Code Search ARR
+- Cody ARR
 
 Note: If we change methodologies, we will do so only in SFDC or a system of record. The ARR tracker does not scale for multi-product ARR recognition.
 
@@ -33,20 +33,25 @@ Platform fees or any other ongoing fee charged to the customer will also impact 
 Cody-only or Code Search-only deals are perhaps the most straightforward in which 100% of the seat quantity times price is attributable to Cody or Code Search, respectively.
 
 ## Code Intelligence Platform
+
 - Code Intelligence platform deals are less straightforward in terms of product ARR allocation, given the standalone list prices for Search ($588) & Cody ($228) added together ($816) are greater than the Code AI list price ($708). Finance’s recommendation is to keep the same percent allocation of the standalone prices added together.
 
 For Code Intelligence Platform:
+
 - Cody ARR percent allocation for each unit at Code Intelligence Platform list price equals $288 / ($228 + $588) = 28%
 - Search ARR percent allocation for each unit at Code Intelligence Platform list price equals $588 / ($228 + $588) = 72%
 
 For Code Intelligence Platform (Cody BYOK):
+
 - Cody ARR percent allocation for each unit at Code Intelligence Platform list price equals $180 / ($180 + $588) = 23%
 - Search ARR percent allocation for each unit at Code Intelligence Platform list price equals $588 / ($228 + $588) = 77%
 
 ## Cody and Search but seats differ
+
 - If Search seats & Cody seats differ, then, the Code Intelligence allocation does not apply. 100% of the seat quantity times price is attributable to Cody or Code Search, assuming we have factored in PS (including one-time fees) & platform fees.
 - Cross-sell deals may not specify Code Intelligence Platform, as the contract is reflecting the purchase of Search or Cody. The recognition will operate as if the contract has Code Intelligence Platform if all products have the same seat count. If the seats differ, then 100% of the seat quantity times price is attributable to Cody or Code Search, assuming we have factored in PS (including one-time fees) & platform fees.
 
 ## Other Software notes
+
 - If the product is listed as beta,then we will not recognize product-level ARR even if there is a clearly defined seat quantity and price (annual)
 - It is likely (especially in the context of repricing) that a deal will have an increase in Cody ARR that corresponds to a reduction in Search ARR. However, this may have a net zero effect in overall contract churn.
