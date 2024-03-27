@@ -10,7 +10,6 @@ Currently, we are categorizing enterprise ARR into four buckets:
     -Code Search ARR
     -Cody ARR
 
-
 Note: If we change methodologies, we will do so only in SFDC or a system of record. The ARR tracker does not scale for multi-product ARR recognition.
 
 ### Professional Services ARR Recognition
