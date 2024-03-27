@@ -1,6 +1,6 @@
 # Semgrep OSS vulnerability scanning
 
-We use [Semgrep OSS][https://semgrep.dev] as a static analysis tool to analyse the code in the
+We use [Semgrep OSS](https://semgrep.dev) as a static analysis tool to analyse the code in the
 `sourcegraph/sourcegraph` and `sourcegraph/cody` repository for security vulnerabilities
 and bad patterns. We have published playbook below seperately to resolve issues, false positives.
 
