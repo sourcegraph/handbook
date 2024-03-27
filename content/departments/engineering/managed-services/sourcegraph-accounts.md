@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-25 13:00:34.354499 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/bdaf667a313049d290d23d5d5916729b09509952
+Last updated: 2024-03-27 07:28:50.848502 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
 -->
 
 This document describes operational guidance for Sourcegraph Accounts infrastructure.
