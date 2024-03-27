@@ -3,12 +3,12 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.853107 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:12:16.499627 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
-These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.
-This includes information about each service, configured environments, Entitle requests, common tasks, monitoring, etc.
+These pages contain generated operational guidance for the infrastructure of the 12 [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services (across 18 environments) currently in operation at Sourcegraph.
+This includes information about each service, configured environments, Entitle requests, common tasks, monitoring, custom documentation provided by service operators, and so on.
 In addition to service-specific guidance, [General guidance](#general-guidance) is also available.
 
 MSP is owned by [Core Services](../teams/core-services/index.md), but individual teams are responsible for the services they operate on the platform.
