@@ -183,7 +183,7 @@ Redash is connected to our BigQuery data warehouse, so you'll be able to query a
 - salesforce_data: salesforce data (accouts, leads, campaign)
 - stripe: stripe charges, accounts, invoice, etc data
 - sams: sourcegraph account management system
-- ssc: self-serve-cody 
+- ssc: self-serve-cody
 
 ### **Is this for me?**
 
