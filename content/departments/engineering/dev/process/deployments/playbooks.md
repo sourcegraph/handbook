@@ -1,33 +1,45 @@
 # Playbooks for deployments
 
-- [Playbooks for deployments](#playbooks-for-deployments)
-  - [General](#general)
-  - [Debugging](#debugging)
-    - [Check what version of Sourcegraph is deployed](#check-what-version-of-sourcegraph-is-deployed)
-  - [Sourcegraph.com](#sourcegraphcom)
-    - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
-    - [Deploying to sourcegraph.com during code freeze](#deploying-to-sourcegraphcom-during-code-freeze)
-    - [Manually deploying a service to sourcegraph.com](#manually-deploying-a-service-to-sourcegraphcom)
-    - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
-    - [Disable Renovate](#disable-renovate)
-    - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
-    - [Invalidating all user sessions](#invalidating-all-user-sessions)
-    - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
-      - [Via the CLI](#via-the-cli)
-      - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
-    - [Restarting docs.sourcegraph.com](#restarting-docssourcegraphcom)
-    - [Creating banners for maintenance tasks](#creating-banners-for-maintenance-tasks)
-    - [Gitserver disk space related maintenance](#gitserver-disk-space-related-maintenance)
-  - [k8s.sgdev.org](#k8ssgdevorg)
-    - [Manage users in k8s.sgdev.org](#manage-users-in-k8ssgdevorg)
-  - [PostgreSQL](#postgresql)
-  - [Cloudflare Configuration](#cloudflare-configuration)
+This page collects playbooks for Sourcegraph deployments managed and operated by the company.
+Refer to [the instances page](./instances.md) for a complete listing.
+
+- [General](#general)
+- [Debugging](#debugging)
+  - [Check what version of Sourcegraph is deployed](#check-what-version-of-sourcegraph-is-deployed)
+- [Sourcegraph.com](#sourcegraphcom)
+  - [Observability](#observability)
+  - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
+  - [Deploying to sourcegraph.com during code freeze](#deploying-to-sourcegraphcom-during-code-freeze)
+  - [Manually deploying a service to sourcegraph.com](#manually-deploying-a-service-to-sourcegraphcom)
+  - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
+  - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
+    - [Connect to dotcom database via command line](#connect-to-dotcom-database-via-command-line)
+      - [Using Cloud SQL Proxy](#using-cloud-sql-proxy)
+      - [Example database queries](#example-database-queries)
+    - [Connect to dotcom database via BigQuery](#connect-to-dotcom-database-via-bigquery)
+  - [Backing up \& restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
+  - [Database performance monitoring](#database-performance-monitoring)
+  - [Invalidating all user sessions](#invalidating-all-user-sessions)
+  - [Restarting docs.sourcegraph.com](#restarting-docssourcegraphcom)
+  - [Creating banners for maintenance tasks](#creating-banners-for-maintenance-tasks)
+  - [Gitserver disk space related maintenance](#gitserver-disk-space-related-maintenance)
+    - [Blocked repos](#blocked-repos)
+      - [Outlandishly sized repos](#outlandishly-sized-repos)
+      - [Blocking a repo](#blocking-a-repo)
+- [k8s.sgdev.org](#k8ssgdevorg)
+  - [Manage users in k8s.sgdev.org](#manage-users-in-k8ssgdevorg)
+  - [Accessing k8s.sgdev.org database](#accessing-k8ssgdevorg-database)
+- [Cloudflare Configuration](#cloudflare-configuration)
 
 ## General
 
 ## Debugging
 
 See [debugging](./debugging/index.md).
+
+### Working with Kubernetes deployments
+
+See [Working with Kubernetes deployments](./kubernetes.md)
 
 ### Check what version of Sourcegraph is deployed
 
@@ -39,13 +51,17 @@ sg live <environment|url>
 
 ## Sourcegraph.com
 
-To learn more about this deployment, see [instances](./instances.md#sourcegraph-cloud).
+To learn more about this deployment, see [instances](./instances.md#dotcom).
+
+### Observability
+
+See [Sourcegraph.com observability](../../tools/observability/dotcom.md) for general observability guidance for the instance.
 
 ### Deploying to sourcegraph.com
 
 Every commit to the `release` branch (the default branch) on [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud) deploys the Kubernetes YAML in this repository to our dot-com cluster [in CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds?branch=release) (i.e. if CI is green then the latest config in the `release` branch is deployed).
 
-Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [Renovate dashboard](https://app.renovatebot.com/dashboard#github/sourcegraph/deploy-sourcegraph-cloud) shows logs for previous runs and allows you to predict when the next run will happen.
+Deploys on sourcegraph.com are currently [handled by GitHub Actions](index.md#continuous-deployment-process).
 
 If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
@@ -113,11 +129,110 @@ git push origin release
 
 🚨 You also need to disable auto-deploys to prevent Renovate from automatically merging in image digest updates so that the site doesn't roll-forward.
 
-### Disable Renovate
+### Accessing sourcegraph.com database
 
-1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/renovate.json5) and comment out the file.
-1. Ensure that no Renovate PRs are currently pending to update the images [here](https://github.com/sourcegraph/sourcegraph/pulls/app%2Frenovate)
-1. After the incident, revert your commit and uncomment the file.
+Sourcegraph.com utilizes an external HA database in Google Cloud.
+We currently run two separate databases.
+The `sg-cloud` database is the primary database, and the code-intel team uses the `sg-cloud-code-intel` database.
+
+You can directly view the database in [GCP](https://console.cloud.google.com/sql/instances?project=sourcegraph-dev).
+
+To connect to the database, there are two options:
+
+1. [Connect to dotcom database via command line](#connect-to-dotcom-database-via-command-line)
+2. [Connect to dotcom database via BigQuery](#connect-to-dotcom-database-via-bigquery) (read-only access)
+
+#### Connect to dotcom database via command line
+
+> [!WARNING] Before trying to connect to the dotcom database, you need to:
+>
+> - make an [Entitle request](https://app.entitle.io/) for either the `Sourcegraph Read only access` permission set to get read-only access or `Sourcegraph Dot Com projects` permission set for write access
+> - ensure you have [installed the Google Cloud SDK](https://cloud.google.com/sdk/docs/install) - `sg setup` also handles this for you.
+
+We utilize the [Google Cloud SDK](https://cloud.google.com/sdk) utility [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy) to connect to our production databases. By default, our Cloud SQL databases are not accessible.
+
+There are two ways of connecting: either using the `gcloud sql connect` command, which will use the `pgsql` client, or running the `cloud_sql_proxy` on a port locally to utilize your preferred tools.
+
+You may use these `gcloud` commands to connect directly to the databases:
+
+- Default database (`sg-cloud`) [user passwords](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=dnrhbauihkhjs5ag6vszsme45a&i=pjxf64qxwsin4d56xij6vm3gva&h=my.1password.com)
+
+  ```sh
+  gcloud beta sql connect --project sourcegraph-dev sg-cloud-732a936743 --user=dev-readonly -d=sg
+  ```
+
+- `sg-cloud-code-intel` database [user passwords](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=dnrhbauihkhjs5ag6vszsme45a&i=hbgj2dfajwj7cdiifk3zb2h2b4&h=my.1password.com)
+
+  ```sh
+  gcloud beta sql connect --project sourcegraph-dev sg-cloud-code-intel-9fc67e507c  --user=dev-readonly -d=sg
+  ```
+
+If you receive an error while connecting, ensure you have the required permissions through Entitle and re-request them if they have expired.
+
+Go to [Example Queries](#example-database-queries) to continue
+
+##### Using Cloud SQL Proxy
+
+Using `cloud_sql_proxy` allows you to connect to the database with any client of your choice.
+Install the Cloud SQL proxy by running this command with `gcloud`:
+
+```sh
+gcloud components install cloud_sql_proxy
+```
+
+To get started, run the `cloud_sql_proxy` against our production instance:
+
+```sh
+cloud_sql_proxy -instances=sourcegraph-dev:us-central1:sg-cloud-732a936743=tcp:5555
+```
+
+Now, in a new terminal, run the command below. The database will be running on `localhost:5555`
+
+```sh
+export PGPASSWORD='<$PASSWORD>'
+psql -h localhost -p 5555 -d sg -U 'dev-readonly'
+```
+
+Note, that to connect to `localhost:5555` you still need to supply the postgres password stored in 1Password (mentioned above).
+
+##### Example database queries
+
+> [!WARNING] 🔥 **You are directly interfacing with the production database.**
+> If you are unsure of any commands, please reach out in #discuss-dev-ops or #chat-dev.
+> Please prefer using a readonly user.
+
+- See all fields on a table (ie the `repo` table)
+
+  ```psql
+    \d+ repo
+  ```
+
+- See the total number of rows in the `repo` table
+
+  ```psql
+    SELECT COUNT(*) FROM repo;
+  ```
+
+#### Connect to dotcom database via BigQuery
+
+You can also query the production database via BigQuery as an external data source.
+Using BigQuery, if you want to run the query:
+
+```psql
+SELECT name::text,created_at::text FROM repo LIMIT 5;
+```
+
+against the Prod CloudSQL database, you need to run the following in [BigQuery console](https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e4a97e2f4aa):
+
+```psql
+SELECT * FROM EXTERNAL_QUERY("sourcegraph-dev.us.sg-cloud", "SELECT name::text,created_at::text FROM repo LIMIT 5;");
+```
+
+Note that here, we are passing the PostgreSQL query in the second parameter to `EXTERNAL_QUERY`.
+
+See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561:bfa7c7e57f884d209f261d15e4610229) to get started.
+
+> [!NOTE] This method only permits read-only access. For write access, try [connecting to the dotcom database via command line](#connect-to-dotcom-database-via-command-line).
 
 ### Backing up & restoring a Cloud SQL instance (production databases)
 
@@ -129,45 +244,27 @@ To restore a Cloud SQL instance to a previous revision you can use `gcloud sql b
 
 You can also perform these commands from the [Google Cloud SQL UI](https://console.cloud.google.com/sql/instances?project=sourcegraph-dev)
 
-🚨 You should notify the #dev-ops channel if an situation arises when a restore my be required. It should also be filed in our ops-incident log.
+> [!WARNING] 🚨 You should notify the #dev-ops channel if an situation arises when a restore my be required. It should also be filed in our ops-incident log.
+
+### Database performance monitoring
+
+We run a PgHero deployment as well you can use to analyze slow queries and overall database performance.
+
+```sh
+kubectl port-forward -n monitoring deploy/pghero 8080:8080
+```
+
+And then navigate to http://localhost:8080 to view the dashboard
+
+See additional Postgres tips in our [incident docs](../incidents/playbooks/index.md#postgreSQL-database-problems)
 
 ### Invalidating all user sessions
 
 If all user sessions need to be invalidated, you can run this on the `frontend` database to force all users to log in again.
 
-```
+```psql
 UPDATE users SET invalidated_sessions_at=now(), updated_at=now();
 ```
-
-### Accessing sourcegraph.com database
-
-#### Via the CLI
-
-Sourcegraph.com utilizes an external HA database. You will need to connect to it directly. The easiest way to do this is through the `gcloud` cli.
-
-To connect to the production database:
-
-```
-  gcloud beta sql connect sg-cloud-732a936743 --user=sg -d sg --project sourcegraph-dev
-```
-
-However, if you want to use any other SQL client, you'll have to run the [`cloud_sql_proxy`](https://cloud.google.com/sql/docs/postgres/connect-admin-proxy#install) utility, which authenticates with you local `gcloud` credentials automatically.
-
-```
-  cloud_sql_proxy -instances=sourcegraph-dev:us-central1:sg-cloud-732a936743=tcp:5555
-```
-
-Once the proxy connects successfully, you can use any client to connect to the local `5555` port (you can choose any other port you want).
-
-The password of the sg user is in our shared 1Password under [Google Cloud SQL](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/svfiw4vcbxhhbobpl442olyebu)
-
-#### Via BigQuery (for read-only operations)
-
-You can also query the production database via BigQuery as an external data source.
-
-See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561:bfa7c7e57f884d209f261d15e4610229) to get started.
-
-**Note**: This method only permits read-only access
 
 ### Restarting docs.sourcegraph.com
 
@@ -317,9 +414,13 @@ To create an account on [k8s.sgdev.org](https://k8s.sgdev.org), log in with your
 
 To promote a user to site admin (required to make configuration changes), use the admin user credentials available in 1password (titled `k8s.sgdev.org admin user`) to log in to [k8s.sgdev.org](https://k8s.sgdev.org), and go to the [users page](https://k8s.sgdev.org/site-admin/users) to promote the desired user.
 
-## PostgreSQL
+### Accessing k8s.sgdev.org database
 
-See [PostgreSQL](./postgresql.md)
+This instance is run completely on Kubernetes, including its Postgres databases.
+
+1. First, [connect to the cluster](./instances.md#k8ssgdevorg).
+2. Then you can port-forward the pgsql deployment: `kubectl port-forward -n dogfood-k8s pgsql-0 8080:5432`
+3. Then access it locally: `pgcli -h localhost -p 8080 -d sg -U 'sg'`
 
 ## Cloudflare Configuration
 

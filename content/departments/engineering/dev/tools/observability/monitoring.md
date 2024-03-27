@@ -94,7 +94,7 @@ To learn more, reference the [dashboard generator documentation](https://github.
 Once the dashboard is ready to be shipped to customers, we will need to port it to the [monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator) to be included in our next Sourcegraph release.
 Custom dashboards cannot be added to the `sourcegraph/grafana` except through the generator.
 
-You can use a [local Grafana](#connecting-grafana-to-a-remote-prometheus-instance) or the Cloud Grafana to create a new dashboard and once its ready, export it by following these steps:
+You can use a [local Grafana](https://sourcegraph.com/docs/dev/how-to/monitoring_local_dev#grafana) or the Cloud Grafana to create a new dashboard and once its ready, export it by following these steps:
 
 - Open "Dashboard Settings" (top right cog).
 - Select "JSON Model".
