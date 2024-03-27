@@ -180,6 +180,10 @@ Redash is connected to our BigQuery data warehouse, so you'll be able to query a
 - dotcom_events.events_usage: managed instance data
 - sourcegraph_analytics.update_checks: pings
 - dotcom_events.cody: all cody-specific event data
+- salesforce_data: salesforce data (accouts, leads, campaign)
+- stripe: stripe charges, accounts, invoice, etc data
+- sams: sourcegraph account management system
+- ssc: self-serve-cody 
 
 ### **Is this for me?**
 
