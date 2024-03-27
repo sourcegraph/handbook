@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.83821 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.095452 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Cody Gatekeeper infrastructure.
@@ -17,14 +17,14 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                    |
-| ------------ | ---------------------------------------------------------------------------------------------------------- |
-| Service ID   | [`gatekeeper`](https://github.com/sourcegraph/managed-services/blob/main/services/gatekeeper/service.yaml) |
-| Owners       | **cody-services**                                                                                          |
-| Service kind | Cloud Run job                                                                                              |
-| Environments | [prod](#prod)                                                                                              |
-| Docker image | `us.gcr.io/sourcegraph-dev/abuse-ban-bot`                                                                  |
-| Source code  | [`github.com/sourcegraph/abuse-ban-bot` - `.`](https://github.com/sourcegraph/abuse-ban-bot/tree/HEAD/.)   |
+| PROPERTY     | DETAILS                                                                                                                    |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| Service ID   | `gatekeeper` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/gatekeeper/service.yaml)) |
+| Owners       | **cody-services**                                                                                                          |
+| Service kind | Cloud Run job                                                                                                              |
+| Environments | [prod](#prod)                                                                                                              |
+| Docker image | `us.gcr.io/sourcegraph-dev/abuse-ban-bot`                                                                                  |
+| Source code  | [`github.com/sourcegraph/abuse-ban-bot` - `.`](https://github.com/sourcegraph/abuse-ban-bot/tree/HEAD/.)                   |
 
 ## Environments
 

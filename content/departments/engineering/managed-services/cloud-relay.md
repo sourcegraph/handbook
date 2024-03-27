@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.834725 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.091947 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Cloud Relay infrastructure.
@@ -17,14 +17,14 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                              |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
-| Service ID   | [`cloud-relay`](https://github.com/sourcegraph/managed-services/blob/main/services/cloud-relay/service.yaml)         |
-| Owners       | **cloud**                                                                                                            |
-| Service kind | Cloud Run service                                                                                                    |
-| Environments | [prod](#prod)                                                                                                        |
-| Docker image | `us-central1-docker.pkg.dev/control-plane-5e9ee072/docker/cloud-relay`                                               |
-| Source code  | [`https://github.com/sourcegraph/cloud-relay` - `.`](https://https://github.com/sourcegraph/cloud-relay/tree/HEAD/.) |
+| PROPERTY     | DETAILS                                                                                                                      |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Service ID   | `cloud-relay` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/cloud-relay/service.yaml)) |
+| Owners       | **cloud**                                                                                                                    |
+| Service kind | Cloud Run service                                                                                                            |
+| Environments | [prod](#prod)                                                                                                                |
+| Docker image | `us-central1-docker.pkg.dev/control-plane-5e9ee072/docker/cloud-relay`                                                       |
+| Source code  | [`https://github.com/sourcegraph/cloud-relay` - `.`](https://https://github.com/sourcegraph/cloud-relay/tree/HEAD/.)         |
 
 ## Environments
 

@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.851743 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.109312 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Telemetry Gateway infrastructure.
@@ -19,12 +19,42 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 | PROPERTY     | DETAILS                                                                                                                                      |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Service ID   | [`telemetry-gateway`](https://github.com/sourcegraph/managed-services/blob/main/services/telemetry-gateway/service.yaml)                     |
+| Service ID   | `telemetry-gateway` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/telemetry-gateway/service.yaml))     |
 | Owners       | **core-services**                                                                                                                            |
 | Service kind | Cloud Run service                                                                                                                            |
 | Environments | [dev](#dev), [prod](#prod)                                                                                                                   |
 | Docker image | `index.docker.io/sourcegraph/telemetry-gateway`                                                                                              |
 | Source code  | [`github.com/sourcegraph/sourcegraph` - `cmd/telemetry-gateway`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/cmd/telemetry-gateway) |
+
+<!--
+Automatically generated from the service README: https://github.com/sourcegraph/managed-services/blob/main/services/telemetry-gateway/README.md
+-->
+
+The Telemetry Gateway service is the service that ingests [telemetry v2 events](https://sourcegraph.com/doc/dev/background-information/telemetry) from all Sourcegraph instances, as well as other managed services.
+
+- For Sourcegraph instances that prior to 5.2.0, no events are exported to Telemetry Gateway, though legacy mechanisms may exist, e.g. for Cloud instances.
+- As of 5.2.0, [certain flags can be configured](https://docs.sourcegraph.com/dev/background-information/telemetry#enabling-telemetry-export) to export events that have been instrumented with the new APIs to Telemetry Gateway.
+- As of 5.2.1, for existing licenses, export is enabled by default for Cody events only - for new licenses, export is enabled for all events. Some license tags can be configured to disable telemetry export in various degrees - see the original [Telemetry Export rollout plan](https://docs.google.com/document/d/1Z1Yp7G61WYlQ1B4vO5-mIXVtmvzGmD7PqYHNBQV-2Ik/edit).
+
+For discussion around telemetry V2 adoption, please reach out to #wg-v2-telemetry.
+For discussion around the Telemetry Gateway service, please reach out to #discuss-core-services.
+For more information, also see:
+
+- Service API: [`telemetrygateway.proto`](https://github.com/sourcegraph/sourcegraph/blob/main/internal/telemetrygateway/v1/telemetrygateway.proto)
+- [Docs: Admin: Telemetry](https://sourcegraph.com/docs/admin/telemetry#telemetry)
+- [Docs: Dev: Background Information: Telemetry](https://sourcegraph.com/docs/dev/background-information/telemetry)
+- [Docs: Dev: How to set up Telemetry Gateway locally](https://sourcegraph.com/docs/dev/how-to/telemetry_gateway)
+
+### Querying events
+
+Please reach out to #discuss-analytics for assistance in querying the dataset - Telemetry Gateway only handles ingestion and forwarding data to pipelines operated by the Data Analytics team.
+
+### Debugging missing Sourcegraph instance events
+
+1. Check for a license tag on the instance's license that disables events - see the original [Telemetry Export rollout plan](https://docs.google.com/document/d/1Z1Yp7G61WYlQ1B4vO5-mIXVtmvzGmD7PqYHNBQV-2Ik/edit).
+   1. Note that [`external_url` export](https://github.com/sourcegraph/sourcegraph/pull/59014) was not added until 5.2.6+ - finding events for older instances require searching events by instance ID.
+2. Check for pings, as that mechanism has not changed, and validate that the instance is is on 5.2.1+
+3. If the above don't reveal anything, reach out to #discuss-core-services for further debugging at the Telemetry Gateway level.
 
 ## Environments
 

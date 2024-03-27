@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.839481 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.096874 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for MSP Testbed infrastructure.
@@ -19,12 +19,19 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 | PROPERTY     | DETAILS                                                                                                                          |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Service ID   | [`msp-testbed`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/service.yaml)                     |
+| Service ID   | `msp-testbed` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/service.yaml))     |
 | Owners       | **core-services**                                                                                                                |
 | Service kind | Cloud Run service                                                                                                                |
 | Environments | [test](#test), [robert](#robert)                                                                                                 |
 | Docker image | `us.gcr.io/sourcegraph-dev/msp-example`                                                                                          |
 | Source code  | [`github.com/sourcegraph/sourcegraph` - `cmd/msp-example`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/cmd/msp-example) |
+
+<!--
+Automatically generated from the service README: https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/README.md
+-->
+
+This is a test environment used by the Core Services team for experimenting with MSP infrastructure changes.
+Each Core Services teammate generally focuses their experiments on an individual environment of this service.
 
 ## Environments
 
