@@ -16,6 +16,7 @@ Sourcegraph as a whole uses Slack heavily for daily communication - our team als
 - **#security-terraform** - Our infrastructure is managed using Terraform, and notifications regarding changes to security-related infrastructure go here.
 - **#incidents** - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context.
 - **#security-code-monitoring** - This is where our Code scanning monitoring alerts are posted that includes Semgrep SAST, Dependabot, Hackerone.
+- **#security-infra-observability** - This is where alerts go related to the availability of our security systems. This includes alerts from Google Monitoring and uptime checks.
 
 ## GitHub Setup
 
