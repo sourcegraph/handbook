@@ -107,6 +107,7 @@ You can read more about payroll here.
   Because we benchmark against US-based data, we use currency conversations for international teammates who are employed via an EOR/PEO model on our vendor Deel. The Sourcegraph finance team is responsible for determining the currency conversion rate used when teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/.
 
 ## Exchange rates
+
 Because we benchmark against US-based data, we use currency conversations for international teammates who are employed via an EOR/PEO model on our vendor Deel. The Sourcegraph finance team is responsible for determining the currency conversion rate used when teammates are paid in their local currency as opposed to US dollars. The currency conversion rate is applied to base salary and bonuses/commissions.
 
 To determine a fair and reasonable currency conversion rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review currency conversion rates on an annual basis, and the currency conversion rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review. To calculate the currency conversion rate, the Sourcegraph Finance team will take the trailing 12-month average.
@@ -114,7 +115,9 @@ To determine a fair and reasonable currency conversion rate, and in order to ens
 You can read more about how we determine exchange rates [here](../../../departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/deel.md#how-often-does-the-exchange-rate-get-updated-for-compensation).
 
 ## FAQ
-*Pay transparency:*
+
+_Pay transparency:_
+
 - Q. Is pay data anonymous? Can I see exactly who makes what?
   - A: At this point, all pay data is anonymized. The only information you can see, outside of your personal compensation details, are pay bands for every role in each department. You cannot see another teammate’s pay.
 - Q. What components of pay are transparent?
@@ -122,7 +125,8 @@ You can read more about how we determine exchange rates [here](../../../departme
 - Q. Who can see our compensation bands?
   - A: Sourcegraph teammates. During the recruiting process, our recruiting team will share our transparent approach to compensation with candidates along with target compensation that’s shared in all job descriptions; however, all compensation bands are not visible outside of Sourcegraph.
 
-*Leveling:*
+_Leveling:_
+
 - Q. Where do I learn more about job leveling at Sourcegraph?
   - A: For information about leveling at Sourcegraph, check out the [Sourcegraph Leveling Guide](leveling-guide.md). For department-specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md). We have a leveling system unique to Sourcegraph, which means a Level 3 at our company is NOT necessarily equivalent to a Level 3 at another company.
 - Q. Where can I view my level?
@@ -134,7 +138,8 @@ You can read more about how we determine exchange rates [here](../../../departme
 - Q. My level surprises me, or I’m not sure what my level is - who can I speak to?
   - A: Start with your manager if you have any questions about your compensation level or Radford code match. You can also reach out to your [People Partner](../../../departments/people-talent/teamalignment.md#people--talent-team-alignment-by-department) to discuss.
 
-*Band placement:* 
+_Band placement:_
+
 - Q. My pay appears to be below the band - what does that mean for me?
   - A: The only time a teammate’s salary may fall below the 75th percentile in Assemble is if their salary is calculated & fixed in a non-USD currency and the exchange rate has since fluctuated. This indicates that a teammate’s local currency has dropped (as it relates to USD) since accepting their offer or promotion. At the time of acceptance, all offers are at the 75th percentile. We do not immediately rightsize compensation in these instances as we can’t control currency fluctuations. If you believe your salary is below the 75th % and it is not due to currency fluctuations, we are happy to look into it. Please contact your [People Partner](../../../departments/people-talent/teamalignment.md#people--talent-team-alignment-by-department).
 - Q. Inflation is currently high in the US, and other parts of the world. How is inflation taken into account when calculating compensation?
@@ -150,7 +155,8 @@ You can read more about how we determine exchange rates [here](../../../departme
 - Q. How often are bands updated?
   - A: We update bands once every 12 months, in tandem with our Impact Review process. In rare instances, we update the band mid-year if we receive feedback that our band is misaligned with market data and if Radford suggests the market has significantly changed from the original date the band was set. When bands are updated, we provide immediate market adjustments to all teammates so no one falls below the band entry point. Generally speaking, revisiting bands every 12 months helps avoid market volatility and allows us to extend offers to external candidates consistent with internal pay. If a teammate feels that their band is incorrect, we are happy to look at the compensation data off-cycle.
 
-*Zone-based pay:*
+_Zone-based pay:_
+
 - Q: Why does Sourcegraph use a zone-based approach to pay?
   - A: The goal of our zone-based pay model is to pay above market average regardless of a teammate’s location. That said, salaries can vary significantly between regions due to local market conditions and competition for talent. A zone-based model allows us to remain competitive in each local market, ensuring we’re able to attract and retain talent in different regions in alignment with local norms and expectations.
 - Q: Sourcegraph hasn’t always used a zone-based pay approach. Before April 2, 2024, Sourcegraph paid the same globally, regardless of location (location-independent pay). Why did the change happen?
@@ -160,7 +166,7 @@ You can read more about how we determine exchange rates [here](../../../departme
 - Q: Does a promotion trigger a zone-change?
   - A: No, promotions do not trigger a zone re-evaluation. Teammates will not have their zone re-evaluated at any point after they’ve been hired (unless they move to a higher cost of living zone) and salary is never decreased.
 - Q: Would a relocation trigger a zone change/re-evaluation?
-  - A: We honor the zone the teammate was hired into when they first join, and we never decrease salary. If teammates move to a location with a lower salary band, we will not reduce compensation. You can read more about relocation [here](#Relocation-&-compensation).  
+  - A: We honor the zone the teammate was hired into when they first join, and we never decrease salary. If teammates move to a location with a lower salary band, we will not reduce compensation. You can read more about relocation [here](#Relocation-&-compensation).
 - Q: Why did we choose to use zones vs. cost of labor data for each location where we hire?
   - A: It’s important to us that we continue to hire from anywhere in the world and pay competitively globally. Because we hire from almost [anywhere in the world](../../../departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md#countries-where-we-cannot-currently-support-employment-or-contracting), we don’t have the internal resources or budget to access and maintain up-to-date market data for every single location around the globe. To simplify our program while also achieving a fair and competitive compensation strategy, we opted for a zone-based approach.
 - Q: My band seems off / I suspect an error. Who do I contact?
@@ -180,14 +186,12 @@ You can read more about how we determine exchange rates [here](../../../departme
 - Q: What do I do if I think a location falls in the wrong zone?
   - A: Email [peopleops@sourcegraph.com] and we will look into it for you!
 
-*Equity:*
+_Equity:_
+
 - Q: Does vary by zone?
   - A: Yes, grants follow the same zone-based approach as our compensation philosophy.
 - Q: How are grants affected/not affected for things like quarterly awards?
   - A: Our zone-based philosophy only applies to new hire grants and refreshes. All other grants (such as impact awards) are the same regardless of location.
-
-
-
 
 # Compensation & Pay Transparency at Sourcegraph
 
