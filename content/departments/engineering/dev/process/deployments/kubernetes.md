@@ -1,4 +1,4 @@
-# Kubernetes
+# Working with Kubernetes deployments
 
 This section contains tips and advice for interacting with our Kubernetes deployments (most notably [sourcegraph.com](#sourcegraph-cloud) and [k8s.sgdev.org](#k8s-sgdev-org)).
 

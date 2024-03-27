@@ -2,20 +2,19 @@
 
 For a complete list of Sourcegraph instances we manage, see our [instances documentation](instances.md).
 
-- [Deployments](#deployments)
-  - [Deployment basics](#deployment-basics)
-    - [Images](#images)
-    - [Renovate](#renovate)
-    - [ArgoCD](#argocd)
-    - [Infrastructure](#infrastructure)
-  - [deploy-sourcegraph](#deploy-sourcegraph)
-    - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
-  - [Relationship between deploy-sourcegraph repositories](#relationship-between-deploy-sourcegraph-repositories)
-    - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph` forks](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-forks)
-  - [Sourcegraph Cloud](#sourcegraph-cloud)
-    - [Continuous Deployment Process](#continuous-deployment-process)
-  - [Deployment observability](#deployment-observability)
-    - [Deployment traces](#deployment-traces)
+- [Deployment basics](#deployment-basics)
+  - [Images](#images)
+  - [Renovate](#renovate)
+  - [ArgoCD](#argocd)
+  - [Infrastructure](#infrastructure)
+- [deploy-sourcegraph](#deploy-sourcegraph)
+  - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
+- [Relationship between deploy-sourcegraph repositories](#relationship-between-deploy-sourcegraph-repositories)
+  - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph` forks](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-forks)
+- [DotCom](#dotcom)
+  - [Continuous Deployment Process](#continuous-deployment-process)
+- [Deployment observability](#deployment-observability)
+  - [Deployment traces](#deployment-traces)
 
 Additional resources:
 
@@ -37,7 +36,7 @@ Each Sourcegraph service is provided as a Docker image. Every commit to `main` i
 
 When [a new semver release](../releases/index.md) is cut the pipelines, will build a release image with the same tag as the latest [release version](https://github.com/sourcegraph/sourcegraph/tags) as well. These are used by customer deployments.
 
-For pushing custom images, refer to [building Docker images for specific branches](#building-docker-images-for-a-specific-branch).
+For pushing custom images, see `sg ci docs`.
 
 ### Renovate
 

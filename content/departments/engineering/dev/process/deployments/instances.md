@@ -18,13 +18,15 @@ Also see [playbooks](./playbooks.md) for common actions related to operating our
 
 [![Build status](https://badge.buildkite.com/ef1289610fdd05b606bf1e57a034af2365c7b09c95ac6121f9.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud)
 
-This deployment is also colloquially referred to as 'DotCom' and 'sourcegraph.com'. It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search).
+This deployment is also colloquially referred to as 'DotCom' and 'sourcegraph.com'.
+It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search), and is currently operated by the [Core Services team](../../../teams/core-services/index.md).
 
 `sourcegraph.com` deploys the latest changes from [`sourcegraph/sourcegraph`](https://github.com/sourcegraph/sourcegraph) on a [daily basis](index.md#continuous-deployment-process).
 
-This deployment also includes our [documentation](https://docs.sourcegraph.com/) and [about](https://about.sourcegraph.com/) sites.
+This deployment **does not** include the [about](https://about.sourcegraph.com/) site and the [new documentation site at sourcegraph.com/docs](https://sourcegraph.com/docs).
+It currently still includes the legacy [docs.sourcegraph.com](https://docs.sourcegraph.com/) site, however.
 
-> 🐶 For dogfooding changes, use [k8s.sgdev.org](#k8ssgdevorg) instead, which generally receives updates faster.
+> [!NOTE] 🐶 For dogfooding changes, use [sourcegraph.sourcegraph.com](#sourcegraphsourcegraphcom-s2) instead, which generally receives updates faster.
 
 - [DotCom cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud?project=sourcegraph-dev)
   ```
@@ -34,12 +36,14 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
 - Alerts: #alerts-cloud and [OpsGenie](../incidents/on_call.md)
 - [Playbooks](./playbooks.md#sourcegraphcom)
+- [Observability](../../tools/observability/dotcom.md)
+- [Domain routing rules](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/gfe/envs/prod/project/routes.tf)
 
 ## k8s.sgdev.org
 
 [![Build status](https://badge.buildkite.com/65c9b6f836db6d041ea29b05e7310ebb81fa36741c78f207ce.svg?branch=release)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 
-**NO LONGER PRIMARY DOGFOODING INSTANCE, SEE [S2](#sourcegraphsourcegraphcom-s2) BELOW**
+> [!WARNING] **THIS IS NO LONGER PRIMARY DOGFOODING INSTANCE, SEE [S2](#sourcegraphsourcegraphcom-s2) BELOW**
 
 This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or just "k8s".
 This is the Sourcegraph instance to use for dogfooding changes to Sourcegraph.

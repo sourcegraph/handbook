@@ -106,7 +106,6 @@ In order to handle problems with the CI, the following elements are necessary:
 #### Actions
 
 1. Identify the error in common with the recent builds on [Buildkite](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main).
-   - 💡 See [How to use loki here](#actions-4)
 1. Find the build where the problem appeared for the first time.
    - 💡 Often it's the first build that became red, but check that the error is the same to be sure.
 1. Is this an external failure or an internal one?
