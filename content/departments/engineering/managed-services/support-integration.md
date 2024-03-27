@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.850601 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.107951 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Support Integration infrastructure.
@@ -17,14 +17,14 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| Service ID   | [`support-integration`](https://github.com/sourcegraph/managed-services/blob/main/services/support-integration/service.yaml) |
-| Owners       | **Customer Support**                                                                                                         |
-| Service kind | Cloud Run service                                                                                                            |
-| Environments | [prod](#prod)                                                                                                                |
-| Docker image | `index.docker.io/sourcegraph/support-integration`                                                                            |
-| Source code  | [`github.com/sourcegraph/support-integration` - `.`](https://github.com/sourcegraph/support-integration/tree/HEAD/.)         |
+| PROPERTY     | DETAILS                                                                                                                                      |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Service ID   | `support-integration` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/support-integration/service.yaml)) |
+| Owners       | **Customer Support**                                                                                                                         |
+| Service kind | Cloud Run service                                                                                                                            |
+| Environments | [prod](#prod)                                                                                                                                |
+| Docker image | `index.docker.io/sourcegraph/support-integration`                                                                                            |
+| Source code  | [`github.com/sourcegraph/support-integration` - `.`](https://github.com/sourcegraph/support-integration/tree/HEAD/.)                         |
 
 ## Environments
 

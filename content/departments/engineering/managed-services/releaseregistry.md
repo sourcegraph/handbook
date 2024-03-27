@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.842341 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.099877 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Release Registry infrastructure.
@@ -17,14 +17,14 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                              |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
-| Service ID   | [`releaseregistry`](https://github.com/sourcegraph/managed-services/blob/main/services/releaseregistry/service.yaml) |
-| Owners       | **dev-experience**                                                                                                   |
-| Service kind | Cloud Run service                                                                                                    |
-| Environments | [prod](#prod), [dev](#dev)                                                                                           |
-| Docker image | `us.gcr.io/sourcegraph-dev/releaseregistry`                                                                          |
-| Source code  | [`github.com/sourcegraph/releaseregistry` - `.`](https://github.com/sourcegraph/releaseregistry/tree/HEAD/.)         |
+| PROPERTY     | DETAILS                                                                                                                              |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Service ID   | `releaseregistry` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/releaseregistry/service.yaml)) |
+| Owners       | **dev-experience**                                                                                                                   |
+| Service kind | Cloud Run service                                                                                                                    |
+| Environments | [prod](#prod), [dev](#dev)                                                                                                           |
+| Docker image | `us.gcr.io/sourcegraph-dev/releaseregistry`                                                                                          |
+| Source code  | [`github.com/sourcegraph/releaseregistry` - `.`](https://github.com/sourcegraph/releaseregistry/tree/HEAD/.)                         |
 
 ## Environments
 

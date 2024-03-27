@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 07:28:50.845378 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ad2cd63ae14c7e14f463f42dc3247b681dfbb925
+Last updated: 2024-03-27 09:19:09.103363 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Self-Serve Cody infrastructure.
@@ -19,7 +19,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 | PROPERTY     | DETAILS                                                                                                                                          |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Service ID   | [`sams`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml)                                                   |
+| Service ID   | `sams` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml))                                   |
 | Owners       | **cody-plg**                                                                                                                                     |
 | Service kind | Cloud Run service                                                                                                                                |
 | Environments | [dev](#dev), [prod](#prod)                                                                                                                       |
