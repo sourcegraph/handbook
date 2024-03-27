@@ -7,7 +7,7 @@ This document helps to unblock sourcegraph engineers when the push protection bl
 
 ### How to unblock the push protection (self-serve) ?
 
-Here is [quick demo](https://www.loom.com/share/bf12643decd94e318cb16914348dfd6b?sid=ee879aee-0577-4852-8f2c-61fabd5316fb) on how to unblock the push protection quickly. Additionally, here is the step by step guide
+Here is the [quick demo](https://www.loom.com/share/bf12643decd94e318cb16914348dfd6b?sid=ee879aee-0577-4852-8f2c-61fabd5316fb) on how to unblock the push protection. Additionally, here is the step by step guide
 
 #### While using Git CLI:
 
