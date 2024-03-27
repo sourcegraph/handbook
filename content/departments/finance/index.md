@@ -61,7 +61,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 [GTM Operations Review](Gtmopsreview.md)
 
-[Multi-sku ARR recognition methodology]
+[Multi-sku ARR recognition methodology](multi-sku-arr.md)
 
 ## FY25 Budget
 
