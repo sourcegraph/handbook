@@ -7,7 +7,7 @@ This document helps to unblock sourcegraph engineers when the push protection bl
 
 ### How to unblock the push protection (self-serve) ?
 
-Here is the [quick demo](https://www.loom.com/share/bf12643decd94e318cb16914348dfd6b?sid=ee879aee-0577-4852-8f2c-61fabd5316fb) on how to unblock the push protection. Additionally, here is the step by step guide
+Here is a [quick demo](https://www.loom.com/share/bf12643decd94e318cb16914348dfd6b?sid=ee879aee-0577-4852-8f2c-61fabd5316fb) on how to unblock the push protection. Additionally, here is the step by step guide
 
 #### While using Git CLI:
 
@@ -34,19 +34,19 @@ Here is the [quick demo](https://www.loom.com/share/bf12643decd94e318cb16914348d
 
 ### How to resolve the secret alerts posted in security-monitoring channel ?
 
-When the secret leak is detected in the Github push protection, the security team will receive a Github alert in the security-monitoring channel.
+When a secret leak is detected in the Github push protection, the security team will receive a Github alert in the security-monitoring channel.
 
 1. Click on the alert and verify the leaked secret.
 2. Assess the risk of the secret leak, if required create a security incident to resolve the leak.
 3. After assessing the situation, revoke the secret if applicable. Additionally, discuss with the engineer who committed the secret to understand the impact of the leak.
 4. Based on risk, perform the forensic analysis to understand the leak.
-5. Close the alert from Github UI after verifying the secret leak incident is resolved.
+5. Close the alert from Github UI after verifying the secret-leak incident is resolved.
 
 **Please note that you'll have to do this for each leaked secret**
 
 ### How to disable or enable Push Protection for a repository ?
 
-While this is highly discouraged to disable, you can disable and enable the push protection for a repository by following the steps below:
+While this is highly discouraged, you can disable and enable the push protection for a repository by following the steps below:
 
 1. Escalate your privilege as `Admin` for Github repository through Entitle.
 2. Navigate to the repository settings page.
