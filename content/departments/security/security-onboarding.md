@@ -10,11 +10,13 @@ Below you'll find some steps to get your local development enviroment set up, co
 
 Sourcegraph as a whole uses Slack heavily for daily communication - our team also uses a [journal](https://docs.google.com/document/d/1cUI_M5KO7ksl8V3CAUBj0O1IUL7wZQSmjPlZTIe-sg4/edit) to document work progress each week. Here are some recommended channels to join to make sure you're kept in the loop.
 
-- **#security** - This is our public channel where other teams can contact us with questions / support requests.
-- **#security-internal** - This is our teams "private" channel (all channels are visible to all) where our team can collaborate with each other asynchronously, share interesting news, ocassional memes, or to just say hello 😄
+- **#discuss-security** - This is our public channel where other teams can contact us with questions / support requests.
+- **#team-security** - This is our teams "private" channel (all channels are visible to all) where our team can collaborate with each other asynchronously, share interesting news, ocassional memes, or to just say hello 😄
 - **#security-monitoring** - This is where our automated monitoring alerts are posted.
 - **#security-terraform** - Our infrastructure is managed using Terraform, and notifications regarding changes to security-related infrastructure go here.
 - **#incidents** - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context.
+- **#security-code-monitoring** - This is where our Code scanning monitoring alerts are posted that includes Semgrep SAST, Dependabot, Hackerone.
+- **#security-infra-observability** - This is where alerts go related to the availability of our security systems. This includes alerts from Google Monitoring and uptime checks.
 
 ## GitHub Setup
 
