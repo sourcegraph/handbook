@@ -32,6 +32,7 @@ Issues should arrive through the following channels, which should be checked at 
 - #security
 - #security-internal
 - #security-monitoring
+- #security-code-monitoring
 - Slack messages that tag @security-team or @security-support
 - GitHub notifications tagging @sourcegraph/security
 - HackerOne reports (via email)
