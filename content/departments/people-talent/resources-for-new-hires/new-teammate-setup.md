@@ -44,6 +44,14 @@ You can find resources on how to use each of the main tools [here](../../../comp
 
 - Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?)
 
+- A good way to get to know your team is to try and schedule a regular 1-on-1 or fika ([https://go/fika](https://go/fika)) with them. To avoid overwhelming yourself with all the scheduling of these meetings you can create an Appointment Schedule. This allows you to specify time slots that work for you and then share a link for your teammates to pick a slot that works best for them. Very similar to Calendly if you've used that before.
+
+![How to create an appointment schedule](https://storage.googleapis.com/sourcegraph-assets/handbook/appointment-schedule.jpg)
+
+After a meeting is scheduled you can change the interval to a standing invite and give them the ability to modify the event to help with any future rescheduling.
+
+![Standing invite](https://storage.googleapis.com/sourcegraph-assets/handbook/appointment-schedule-standing-invite.jpg)
+
 - See the Communication handbook for [more on scheduling meetings](../../../company-info-and-process/communication/index.md#scheduling-meetings-with-google-calendar).
 
 ## Slack

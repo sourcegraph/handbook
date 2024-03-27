@@ -783,7 +783,22 @@
     },
     {
       "type": "Feature",
-      "properties": "Jan Hartman",
+      "properties": {
+        "name": "Rik Nauta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.000640,
+          55.595330
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jan Hartman"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
