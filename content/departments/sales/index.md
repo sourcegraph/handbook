@@ -5,18 +5,15 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [SDR Team](sdrteam/index.md)
 - [Sales strategy & ops team](sales-ops/index.md)
 - [Sales Performance Goals](sales-performance-goals.md)
+- [Market Segmentation](../../strategy-goals/strategy/index.md#market-segmentation)
 - [Tools & Resources](tools/index.md)
 - [Process](process/index.md)
 - [Sales team onboarding](onboarding/index.md)
 - [Sales team hiring](hiring/index.md)
 
-## Goals
-
-Find the Sales FY23 Target Market [here](https://docs.google.com/document/d/1w35Nnmc_yQCbweHdTWLiP8lX_D0onl4OrmWJZaRsl7s/edit).
-
 ## Members
 
-Not all team members are reflected here yet. If you see yourself missing, please add yourself!
+> Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
 {{generator:reporting_structure.vp_sales}}
 
