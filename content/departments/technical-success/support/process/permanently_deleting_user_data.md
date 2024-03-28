@@ -19,12 +19,10 @@ For account deletions, remove the account from [sourcegraph.com](http://sourcegr
   - Find the user at [https://sourcegraph.com/site-admin/users](https://sourcegraph.com/site-admin/users) using their email.
   - Choose 'Delete forever' from the actions menu.
 - Delete the user from SAMS
-
-  - Post the user's email and username in [#discuss-core-services](https://sourcegraph.slack.com/archives/discuss-core-services) and wait for deletion.
-
-    > Deletion request: <br>
-    > Username: user <br>
-    > Email: user@example.com
+  - Trigger a [Delete Sourcegraph Accounts user GitHub Action](https://github.com/sourcegraph/sourcegraph-accounts/actions/workflows/mgmt-delete-user.yml) with desired email address.
+  - Wait for the run to complete.
+    - Reach out to #discuss-core-services if the run encounters an error.
+    - Reach out to #ask-it-tech-ops if you don't have access.
 
 - Inform the user their account is permanently deleted.
 
