@@ -17,6 +17,11 @@ Ask in the [#handbook channel](https://app.slack.com/client/T02FSM7DL/CQ44Y7F4G)
 1. Install [asdf](https://asdf-vm.com/)
 1. Run `asdf plugin add nodejs && asdf plugin add pnpm && asdf install`
 
+### Using Nix
+
+1. Install [Nix](https://nixos.org/download) and [enable flakes](https://nixos.wiki/wiki/Flakes) or use the [Determinate Systems Installer](https://github.com/DeterminateSystems/nix-installer)
+2. Run `nix shell`
+
 ### Running the website locally
 
 Run:
