@@ -8,5 +8,5 @@ Our SMB segment is part of our [FY25 Market Segmentation](../../../strategy-goal
 
 ## Team Resources
 
-- [Creating and maintaining cloud instances](cloud-instances.md)
+- [Creating and maintaining cloud instances](cloud_instances.md)
 - [Post-sales handoff](smb-handoff.md)
