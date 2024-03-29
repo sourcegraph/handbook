@@ -188,9 +188,7 @@ Managers are welcome to acknowledge or celebrate teammate life events at each te
 
 Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). Then our teammates get to select the gift they truly want from whichever collection they were gifted. Loop & Tie also offers sustainability and social impact options that allow teammates who don't want to redeem a gift to donate their gift amount ($) toward a charity or environmental support organization.
 
-Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in the #swag slack channel and a current Loop & Tie admin (Kemper or Fabiana) will invite you to create an account.
-
-Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
+If you want to send a Loop & Tie gift, please reach out to Kemper and she will facilitate.
 
 **Budget:** All birthday and anniversary gifting will be coming from the _individual’s team budget_. When you’re sending a Loop & Tie gift, you will use credits already in the company Loop & Tie account. Then the People + Finance team will reclass the charges into the correct team budgets on a monthly cadence.
 
