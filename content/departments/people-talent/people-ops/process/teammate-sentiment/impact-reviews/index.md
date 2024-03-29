@@ -419,7 +419,7 @@ We will continue to evaluate promotions in conjunction with our [promotion philo
 
 **Answer:** Teammates not eligible for the current impact review cycle will not be eligible for their first review until the next annual cycle. We are committed to ensuring that individuals in good standing do not go 1.5 years without a compensation increase which we ensure through our [eligibility criteria](#who-is-eligible-for-a-reviewcompensation-increase).
 
-## Monthly check-ins will serve as the primary avenue for feedback between impact review cycles, ensuring consistent communication and recognition of contributions. Off-cycle promotions will be formally reviewed semi-annually and off-cycle reviews will be considered if aligned with a business need.
+Monthly check-ins will serve as the primary avenue for feedback between impact review cycles, ensuring consistent communication and recognition of contributions. Off-cycle promotions will be formally reviewed semi-annually and off-cycle reviews will be considered if aligned with a business need.
 
 ## RESOURCES FOR MANAGERS
 
