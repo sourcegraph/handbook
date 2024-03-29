@@ -2,7 +2,7 @@
 
 ## "On Duty" Rotation
 
-We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout the day. This means that in increments of 3 - 4 hour blocks two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #team-support-engineering team channel.
+We have introduced an "on duty" rotation to maximize focus time across the team while ensuring that we have at least 2 individuals on the team monitoring the queue. We have split the day into shifts and the individuals that are "on duty" rotate on and off throughout the day. This means that in increments of 3 - 4 hour blocks, two or more individuals are “on duty” to triage any / all tickets that enter the queue during that time frame from any channel (slack, email, etc). The individuals that are “on duty” will work together amongst themselves to triage the queue and may even work together in a pairing fashion on tickets. If, during a given rotation, there’s an influx of tickets the “on duty” individuals can and should ask the team to help pick up select tickets via the #team-support-engineering team channel.
 
 ### What happens if you're going to be out of office
 
@@ -10,7 +10,7 @@ If an individual is going to be out of office (PTO, sick time, regional holiday,
 
 ### What happens when you’re not “On Duty”
 
-When you’re not “on duty” within your working hours you’ll use this dedicated focus time to work on ticket and non-ticket work. For example you use this time to work on tickets in your personal queue, write docs or internal debugging guides, help engineering with certain tasks, work on side projects (approved by leadership), set up environments for testing out specific scenarios, learn a new part of the product, lend a hand to a teammate if you have particular knowledge in an area, etc.
+When you’re not “on duty” within your working hours you’ll use this dedicated focus time to work on ticket and non-ticket work. For example, you use this time to work on tickets in your personal queue, write docs or internal debugging guides, help engineering with certain tasks, work on side projects (approved by leadership), set up environments for testing out specific scenarios, learn a new part of the product, lend a hand to a teammate if you have particular knowledge in an area, etc.
 
 ### “On Duty” Rotation Assignments
 
@@ -30,7 +30,6 @@ Our schedule is reflected in the working hours set in our calendars.
 | Alex        | 9am–5pm        | 14:00–22:00 | 6am–2pm       |
 | Gabe        | 10am–6pm       | 18:00–02:00 | 10am–6pm      |
 | Jon         | 10am–6pm       | 12:00–00:00 | 8am–4pm       |
-| Marc        | 10am–6pm       | 17:00-01:00 | 9am–5pm       |
 | Mariam      | 9am–5pm        | 09:00–17:00 | 1am–9am       |
 | Michael     | 8am–4pm        | 07:00–15:00 | 11pm–7am      |
 | Morgan      | 9am–5pm        | 17:00–01:00 | 9am-5pm       |
@@ -38,7 +37,7 @@ Our schedule is reflected in the working hours set in our calendars.
 | Rakesh      | 10:30am–6:30pm | 00:00–08:30 | 5:30pm–1:30am |
 | Stompy      | 1pm–9pm        | 10:00–18:00 | 2am–10am      |
 
-We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
+We list Pacific hours here in support of our contractual SLAs being listed in Pacific hours.
 
 ## Adjusting your working hours schedule
 
