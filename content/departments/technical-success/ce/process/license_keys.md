@@ -8,6 +8,7 @@ This page explains how to create and maintain license keys for prospects and cus
   - [Plans](#plans)
   - [Additional Options](#additional-options)
 - [License Management Processes](#license-management-processes)
+  - [Activating Cody](#activating-cody)
   - [Prospective Customer Trials](#prospective-customer-trials)
   - [Handling multiple instances for a single customer](#multiple-customer-instances)
   - [Converting a Prospect to a New Customer](#converting-a-prospect-to-a-new-customer)
@@ -55,7 +56,7 @@ A license is comprised of the following components, we'll go into each more in d
 
 #### Plans
 
-Different plans have a unique featureset included with them. In some instances you can manually apply additional tags to include additional features (more on this below) but typically simply selecting the plan covers everything you'll need. Most frequently, CEs and TAs will be using the `enterprise-1` plan for all Enterprise customers.
+Different plans have a unique feature-set included with them. In some instances you can manually apply additional tags to include additional features (more on this below) but typically simply selecting the plan covers everything you'll need. Most frequently, CEs and TAs will be using the `enterprise-1` plan for all Enterprise customers.
 
 Below is an overview of the **current supported plans** and included features:
 
@@ -106,6 +107,13 @@ Apart from the plan, there are a few additional options that can be added to a l
 ### Cloud Instances
 
 Everything you need for creating and maintaining Cloud instances can be found [here](../../../cloud/index.md#internal-processes-for-cloud-operations).
+
+### Activating Cody
+
+Cody is available with our `Cody Enterprise` and `Code Intelligence Platform` licenses. When you create a license for either of those plans, you must also enable `Access to hosted Cody Services` from the Enterprise subscription page. Here, you can modify the chat and / or code completion limits per day and you can provision access to allowable models. Often, the default are sufficient and you simply need to toggle access on.
+
+
+
 
 ### Prospective Customer Trials
 
