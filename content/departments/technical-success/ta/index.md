@@ -22,7 +22,7 @@ The Technical Advisory organization is comprised of three teams:
   - Non-dedicated, on-demand coverage across a large set of customers
   - Provides a low-touch experience that relies heavily on automated tooling
 
-## Customer Segmentation
+## TA Segmentation
 
 We segment our customers into [four discrete tiers](../../../strategy-goals/strategy/index.md#market-segmentation). This segmentation is important in helping provide a consistent experience to our customers by defining the discrete activities that we want to deliver to every customer in a given tier. Using the estimated number of developers in our tiers ensures that customers have the proper resources attached to make them successful at scale while also letting us ensure the health of our own business.
 
