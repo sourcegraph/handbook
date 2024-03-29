@@ -24,10 +24,10 @@ The pre-to-post sales handoff process consists of the following steps:
 1. Technical Advisor Support Level is [manually assigned](#ta-assignment) on the Salesforce Account by TA leadership
 2. The account is created in Vitally automatically once the Support Level is set
 3. Customer Segmentation Assignment Vitally Playbook runs to assign account segment attribute of: Strategic, Enterprise, Mid-Market, or SMB.
-4. If customer is a pooled or scaled customer, the pooled or scaled segment is set on the account.
+4. If customer is a digital or scaled customer, the digital or scaled segment is set on the account.
 5. Customer Lifecycle Stages Vitally Playbook runs to assign account as "0. Prospect", the first step in the customer lifecycle. At this point, the account is created and all initial attributes about the new customer are assigned in Vitally.
 6. 30 days out from the expected close date from the Salesforce new business opportunity, the Pre to Post-Sales Hand-off and Planning Vitally Playbook initiates to facilitate [the handoff process](#hand-off-process).
-7. If a Scaled customer, the CE tags customer contacts with the appropriate `role` on their contact card in Salesforce (it is multi-select).
+7. If a Digital or Scaled customer, the CE tags customer contacts with the appropriate `role` on their contact card in Salesforce (it is multi-select).
 
 | Role            | Definition                                                                                                                                                                                            |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
