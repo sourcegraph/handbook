@@ -6,4 +6,3 @@
 - [Sales Resources](salesresources.md)
 - [GCP Marketplace Guidance](GCP_Marketplace_Guidance.md)
 - [Deployment methods and products](../sales-enablement/deployment-methods-and-products.md)
-- [Creating and maintaining cloud instances](cloud_instances.md)
