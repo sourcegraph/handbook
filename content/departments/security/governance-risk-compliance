@@ -1,0 +1,59 @@
+# Governance, Risk, and Compliance (GRC) at Sourcegraph
+
+## Introduction
+
+At Sourcegraph, we understand the importance of a robust security program. That's why we've embraced Governance, Risk, and Compliance (GRC) as a cornerstone of our security and operational strategies. GRC isn't just about ticking boxes; it's about ensuring our operations are efficient, secure, and aligned with both our business objectives and industry standards.
+
+## What is GRC?
+
+GRC stands for Governance, Risk, and Compliance. It's a framework that helps organizations like Sourcegraph proactively manage security risks, ensure adherence to applicable standards and regulations, and align security practices with strategic business goals.
+
+## Benefits of GRC to Sourcegraph
+
+Our commitment to GRC offers numerous benefits, including:
+
+- **Enhanced Security Practices**: Our security policies are designed to encourage consistent security-minded actions among our employees.
+- **Risk Management**: Through our security risk register, we identify and prioritize areas of vulnerability, ensuring effective allocation of resources.
+- **Compliance Assurance**: Achieving SOC 2 attestation demonstrates to our customers that our security controls are effective and meet industry best practices.
+- **Continuous Control Monitoring**: Our GRC tool offers ongoing insights into the health of our security controls, enhancing our decision-making capabilities.
+- **Reputation**: A well-managed GRC program improves our overall organizational reputation, signaling to stakeholders our commitment to security and compliance.
+
+### Roles and Responsibilities
+
+GRC at Sourcegraph is a shared responsibility, with roles and functions clearly defined to ensure the effectiveness of our program:
+
+- **Security Team**: Led by the Head of Security, the security team is responsible for implementing and managing security measures, conducting security assessments, and responding to security incidents.
+- **Compliance Manager**: Oversees the entire GRC framework at Sourcegraph, this involves staying updated on legal and regulatory changes, guiding the company through compliance landscapes, and leading efforts to maintain and improve our security and compliance posture.
+- **All Employees**: Every Sourcegraph employee has a role in supporting GRC. This includes adhering to policies and procedures, completing required training, and reporting any compliance issues or risks they identify.
+
+This structure ensures that GRC is woven into the fabric of our operations, with clear accountability and participation across the organization.
+
+### GRC Processes and Activities
+
+Our GRC program encompasses a variety of processes and activities designed to manage risk, ensure compliance, and promote governance:
+
+- **Risk Assessment Methods**: We employ a systematic approach to identify, evaluate, and prioritize risks based on their potential impact on the organization. This includes regular risk assessments and ongoing monitoring.
+- **Compliance Audits**: Regular audits are conducted to verify adherence to internal policies and external regulatory requirements. These audits help identify compliance gaps and areas for improvement.
+- **Policy Management**: We maintain a comprehensive set of policies and procedures that guide employees on expected behaviors and practices. These documents are regularly reviewed and updated to reflect changes in our business or the regulatory landscape.
+- **Training Programs**: Employees are required to complete training on key GRC topics, including data privacy, cybersecurity, and ethical conduct. These programs are designed to raise awareness and foster a culture of compliance.
+
+Through these processes and activities, Sourcegraph ensures that our GRC efforts are proactive, effective, and aligned with our strategic goals.
+
+
+## Our GRC Tool: Anecdotes
+
+Anecdotes plays a pivotal role in our GRC framework by providing:
+
+1. **Automation**: Reducing manual efforts in data collection, analysis, and reporting, thereby saving time and minimizing errors.
+2. **Audibility and Collaboration**: Ensuring all team members have access to real-time, consistent information and facilitating easy evidence sharing and review by auditors.
+3. **Workflow Management**: Streamlining cross-functional tasks with real-time tracking of progress and approvals, which is crucial for maintaining operational consistency.
+4. **Reporting**: Offering advanced capabilities for quick identification of risk and compliance gaps and enabling transparent communication with stakeholders.
+5. **Scalability**: Adapting to our evolving needs as we grow, ensuring we continue to meet our GRC responsibilities effectively.
+
+GRC Processes and Activities
+Our GRC program encompasses a variety of processes and activities designed to manage risk, ensure compliance, and promote governance:
+
+Risk Assessment Methods: We employ a systematic approach to identify, evaluate, and prioritize risks based on their potential impact on the organization. This includes regular risk assessments and ongoing monitoring.
+Compliance Audits: Regular audits are conducted to verify adherence to internal policies and external regulatory requirements. These audits help identify compliance gaps and areas for improvement.
+Policy Management: We maintain a comprehensive set of policies and procedures that guide employees on expected behaviors and practices. These documents are regularly reviewed and updated to reflect changes in our business or the regulatory landscape.
+Training Programs: Employees are required to complete training on key GRC topics, including data privacy, cybersecurity, and ethical conduct. These programs are designed to raise awareness and foster a culture of compliance.
