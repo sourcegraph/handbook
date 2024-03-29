@@ -112,6 +112,8 @@ Everything you need for creating and maintaining Cloud instances can be found [h
 
 Cody is available with our `Cody Enterprise` and `Code Intelligence Platform` licenses. When you create a license for either of those plans, you must also enable `Access to hosted Cody Services` from the Enterprise subscription page. Here, you can modify the chat and / or code completion limits per day and you can provision access to allowable models. Often, the default are sufficient and you simply need to toggle access on.
 
+![Zight 2024-3-29 at 10 09 30 AM](https://github.com/sourcegraph/handbook/assets/7228359/89485228-05ee-4d73-a658-ed5696a8a726)
+
 ### Prospective Customer Trials
 
 For a new Sales-led trial, you'll need to create a _new_ subscription that will be used only for the trial period. (Follow the instructions for [issuing a new license](create-new-license.md) from start to finish.).
