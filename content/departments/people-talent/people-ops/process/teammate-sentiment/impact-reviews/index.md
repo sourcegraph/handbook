@@ -29,6 +29,7 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 Formal performance reviews take place **once a year** aligning with our promotion and compensation review cycles.
 
 **1H FY25**
+
 - Launches at the end of January (corresponding promotion and/or pay increase goes into effect Feb 1st).
 - This review period reviews a teammate's performance between August 1st to January 31st.
 - **Who is eligible:** To be eligible for an impact review, teammates must be in their role for a full 4 months. Therefore, teammates who started on or after October 1st are not eligible for the FY25 impact review cycle or corresponding merit increase.
