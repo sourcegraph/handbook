@@ -1817,6 +1817,17 @@ anish_lakhwara:
   links: '[LinkedIn](https://www.linkedin.com/in/anish-lakhwara-0a62651bb/), [Website](https://anish.lakhwara.com)'
   description: Anish was born in Australia, raised in India, and now calls Canada home. Ever interested in computing, Anish enjoys building and contributing to open source, tinkering on his nvim config, and playing with shiny new tools. Always open to learning more, and aspiring to be a good engineer and a great human. When not touching computers, Anish likes rock climbing, sailing, gardening, and annoying his very loud cat, Imoh.
 
+dan_tacci:
+  name: Dan Tacci
+  email: dan.tacci@sourcegraph.com
+  github: dtacci
+  pronouns: he/him
+  role: Director of Customer Engineering
+  reports_to: vp_technical_success
+  location: Alameda, CA 🇬🇧
+  links: '[Linkedin](https://www.linkedin.com/in/dan-tacci/)'
+  description: Despite being an avocado-eating, kitesurfing, dyed-in-the-wool California boy since age 4, Dan was actually born in Florence, Italy and therefore can never be President of the United States. As such, he has taken on Customer Engineering delighting customers in the devtools space. He came off 5.5 years at LaunchDarkly, where we he was part of 10x revenue and personell growth. He lives in Alameda by the beach where with his wife and two girls, aged 10 and 3, where he gets to kiteboard and hydrofoil most of the year.
+
 rik_nauta:
   name: Rik Nauta
   role: Software Engineer
