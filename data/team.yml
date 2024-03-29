@@ -351,7 +351,7 @@ vova_kulikov:
 alex_fogg:
   name: Alex Fogg
   pronouns: he/him
-  role: Senior Customer Engineer
+  role: Senior Resident Architect
   reports_to: ie_manager
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
