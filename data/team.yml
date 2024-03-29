@@ -218,7 +218,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Principal Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -352,7 +352,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: ie_manager
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -611,7 +611,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -753,7 +753,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: San Diego, CA
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -765,7 +765,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife and kids. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -1197,7 +1197,7 @@ chris_concannon:
   pronouns: he/him/his
   location: San Anselmo, CA, USA 🇺🇸
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   email: chris.concannon@sourcegraph.com
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
@@ -1725,7 +1725,7 @@ aravind_ramaraju:
 kosta_ilinov:
   name: Konstantin Ilinov
   email: kosta.ilinov@sourcegraph.com
-  reports_to: vp_technical_success
+  reports_to: director_ce
   role: Customer Engineer, APAC
 
 ara_khan:
@@ -1824,6 +1824,7 @@ dan_tacci:
   pronouns: he/him
   role: Director of Customer Engineering
   reports_to: vp_technical_success
+  manager_role_slug: director_ce
   location: Alameda, CA 🇬🇧
   links: '[Linkedin](https://www.linkedin.com/in/dan-tacci/)'
   description: Despite being an avocado-eating, kitesurfing, dyed-in-the-wool California boy since age 4, Dan was actually born in Florence, Italy and therefore can never be President of the United States. As such, he has taken on Customer Engineering delighting customers in the devtools space. He came off 5.5 years at LaunchDarkly, where we he was part of 10x revenue and personell growth. He lives in Alameda by the beach where with his wife and two girls, aged 10 and 3, where he gets to kiteboard and hydrofoil most of the year.
