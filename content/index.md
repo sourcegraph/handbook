@@ -61,6 +61,7 @@ Want to join our team? See [open roles](https://about.sourcegraph.com/jobs/).
 - Team
   - [Team bios](team/index.md)
   - [Org chart](team/org_chart.md)
+  - [EPD Resources](team/epd-resources.md)
 - [Equality of opportunity](company-info-and-process/equality-of-opportunity.md)
 
 ## Departments
