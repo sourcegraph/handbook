@@ -10,10 +10,9 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Process](process/index.md)
 - [Sales team onboarding](onboarding/index.md)
 - [Sales team hiring](hiring/index.md)
+- [SMB team resources](smb/index.md)
 
 ## Members
-
-> Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
 {{generator:reporting_structure.vp_sales}}
 
@@ -22,20 +21,6 @@ The Sales team represents us and our values to customers, bringing back dollars 
 ### Roles
 
 See [roles](roles/index.md) page.
-
-## How sales works with other Sourcegraph teams
-
-### [Customer engineering](../technical-success/support/index.md)
-
-- [How CE supports sales](../technical-success/ce/team-culture#sales)
-- [Creating and maintaining license keys for customers](../technical-success/ce/process/license_keys.md)
-
-### [Customer Support](../technical-success/support/index.md)
-
-- [How to request support (for customers)](../technical-success/support/index.md#how-to-get-support-for-customers)
-- [Support SLAs](../technical-success/support/index.md#slas)
-
-### [Team members who want to join calls](onboarding/joining_customer_calls.md)
 
 ## Definitions
 
