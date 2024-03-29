@@ -218,7 +218,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Principal Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -352,7 +352,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: ie_manager
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -392,18 +392,6 @@ kelsey_brown:
   email: kelsey@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/kelsey-brown-25220b68/)'
   description: Prior to Sourcegraph, Kelsey worked in consulting on projects related to strategy, business operations, and technology. Outside of work, Kelsey loves doing anything active, including weightlifting, snowboarding, and playing ultimate frisbee. She is currently based in Washington, DC, but hails from Chicago, and would therefore be happy to passionately defend the superiority of Chicago-style over New York-style pizza with you any day of the week.
-
-fabiana_castellanos:
-  name: Fabiana Castellanos
-  pronouns: she/her
-  role: Creative Operations Manager
-  reports_to: director_design
-  manager_role_slug: creative_ops_manager
-  location: Oceanside, CA USA 🇺🇸
-  github: fabicastp
-  email: fabiana@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/fabicastp/)'
-  description: "Fabiana is from Venezuela 🇻🇪 but moved to California 4 years ago with her husband, dog and parrot. She's a big fan of processes and organization, and you’ll often hear her say _I have a spreadsheet for that._ She’s had the pleasure of doing project management with creatives throughout her professional career. They are the yin to her yang, she says. She’s also very proud of her Venezuelan culture and loves inviting people over to her home to eat arepas."
 
 kendrick_morris:
   name: Kendrick Morris
@@ -623,7 +611,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -765,7 +753,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: San Diego, CA
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -777,7 +765,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife and kids. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -1209,7 +1197,7 @@ chris_concannon:
   pronouns: he/him/his
   location: San Anselmo, CA, USA 🇺🇸
   role: Senior Customer Engineer
-  reports_to: vp_technical_success
+  reports_to: director_ce
   email: chris.concannon@sourcegraph.com
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
@@ -1737,7 +1725,7 @@ aravind_ramaraju:
 kosta_ilinov:
   name: Konstantin Ilinov
   email: kosta.ilinov@sourcegraph.com
-  reports_to: vp_technical_success
+  reports_to: director_ce
   role: Customer Engineer, APAC
 
 ara_khan:
@@ -1828,6 +1816,18 @@ anish_lakhwara:
   location: Vancouver, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/anish-lakhwara-0a62651bb/), [Website](https://anish.lakhwara.com)'
   description: Anish was born in Australia, raised in India, and now calls Canada home. Ever interested in computing, Anish enjoys building and contributing to open source, tinkering on his nvim config, and playing with shiny new tools. Always open to learning more, and aspiring to be a good engineer and a great human. When not touching computers, Anish likes rock climbing, sailing, gardening, and annoying his very loud cat, Imoh.
+
+dan_tacci:
+  name: Dan Tacci
+  email: dan.tacci@sourcegraph.com
+  github: dtacci
+  pronouns: he/him
+  role: Director of Customer Engineering
+  reports_to: vp_technical_success
+  manager_role_slug: director_ce
+  location: Alameda, CA 🇬🇧
+  links: '[Linkedin](https://www.linkedin.com/in/dan-tacci/)'
+  description: Despite being an avocado-eating, kitesurfing, dyed-in-the-wool California boy since age 4, Dan was actually born in Florence, Italy and therefore can never be President of the United States. As such, he has taken on Customer Engineering delighting customers in the devtools space. He came off 5.5 years at LaunchDarkly, where we he was part of 10x revenue and personell growth. He lives in Alameda by the beach where with his wife and two girls, aged 10 and 3, where he gets to kiteboard and hydrofoil most of the year.
 
 rik_nauta:
   name: Rik Nauta
