@@ -4,6 +4,8 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
+{{generator:reporting_structure.vp_sales}}
+
 {{generator:reporting_structure.head_sales_development}}
 
 ## Quick Links

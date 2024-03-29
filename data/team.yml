@@ -173,7 +173,7 @@ noah_santschi-cooney:
 bill_kolman:
   name: Bill Kolman
   role: Account Executive
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: New York, New York
   email: Bill@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/william-kolman/)'
@@ -183,7 +183,7 @@ owen_brennan:
   name: Owen Brennan
   pronouns: he/him
   role: Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
   location: Boise, Idaho, USA
   email: owen@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
@@ -193,8 +193,8 @@ scott_campbell:
   name: Scott Campbell
   pronouns: he/him
   role: Regional Director of Sales, East
-  reports_to: rsd_west
-  manager_role_slug: regional_director_sales_east
+  reports_to: vp_sales
+  manager_role_slug: rsd_east
   location: Asheville, North Carolina, United States 🇺🇸
   github: spc74
   email: scott@sourcegraph.com
@@ -283,7 +283,7 @@ james_clifford:
   name: James Clifford
   pronouns: he/him
   role: Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
   location: San Francisco, CA, USA 🇺🇸
   github: jclifford1
   email: jclifford@sourcegraph.com
@@ -294,7 +294,7 @@ caitlin_moran:
   name: Caitlin Moran
   pronouns: she/her
   role: Enterprise Account Executive
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: Brooklyn, NY USA 🇺🇸
   github: Caitlinsourcegraph
   email: caitlin@sourcegraph.com
@@ -305,7 +305,8 @@ jon_kishpaugh:
   name: Jon Kishpaugh
   pronouns: he/him
   role: Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
+  manager_role_slug: rsd_west
   location: San Francisco, CA, USA
   github: JonKish
   email: jon@sourcegraph.com
@@ -392,18 +393,6 @@ kelsey_brown:
   links: '[Linkedin](https://www.linkedin.com/in/kelsey-brown-25220b68/)'
   description: Prior to Sourcegraph, Kelsey worked in consulting on projects related to strategy, business operations, and technology. Outside of work, Kelsey loves doing anything active, including weightlifting, snowboarding, and playing ultimate frisbee. She is currently based in Washington, DC, but hails from Chicago, and would therefore be happy to passionately defend the superiority of Chicago-style over New York-style pizza with you any day of the week.
 
-fabiana_castellanos:
-  name: Fabiana Castellanos
-  pronouns: she/her
-  role: Creative Operations Manager
-  reports_to: director_design
-  manager_role_slug: creative_ops_manager
-  location: Oceanside, CA USA 🇺🇸
-  github: fabicastp
-  email: fabiana@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/fabicastp/)'
-  description: "Fabiana is from Venezuela 🇻🇪 but moved to California 4 years ago with her husband, dog and parrot. She's a big fan of processes and organization, and you’ll often hear her say _I have a spreadsheet for that._ She’s had the pleasure of doing project management with creatives throughout her professional career. They are the yin to her yang, she says. She’s also very proud of her Venezuelan culture and loves inviting people over to her home to eat arepas."
-
 kendrick_morris:
   name: Kendrick Morris
   pronouns: he/him
@@ -482,7 +471,7 @@ kevin_quigley:
   name: Kevin Quigley
   pronouns: he/him
   role: Account Executive
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: Atlanta, GA, USA 🇺🇸
   github: kevin-quigley
   email: kevin.quigley@sourcegraph.com
@@ -502,7 +491,7 @@ mark_mccauley:
   name: Mark McCauley
   pronouns: he/him
   role: Director, Field GTM
-  reports_to: ceo
+  reports_to: sales_ops_strategy
   manager_role_slug: director_field_gtm
 
 gabe_torres:
@@ -610,8 +599,8 @@ amie_rotherham:
 ellie_dawson:
   name: Ellie Dawson
   pronouns: she/her
-  role: Sales Development Representative
-  reports_to: head_sales_development
+  role: Senior Program Lead, VCBOD
+  reports_to: director_field_gtm
   location: Cincinnati, OH, USA
   github: elliedawson
   email: ellie.dawson@sourcegraph.com
@@ -835,7 +824,7 @@ cory_dobson:
 nicolas_hernandez:
   name: Nick Hernandez
   role: Enterprise Account Executive - Sales
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
   location: Miami, FL, USA 🇺🇸
   email: nick.hernandez@sourcegraph.com
   github: fryster66
@@ -858,7 +847,7 @@ andrew_reed:
   name: Andrew Reed
   role: Senior Manager, Sales Development
   email: andrew.reed@sourcegraph.com
-  reports_to: vp_sales
+  reports_to: sales_ops_strategy
   manager_role_slug: head_sales_development
 
 ashwin_Thakur:
@@ -913,20 +902,14 @@ shawntee_harris:
 connor_obrien:
   name: Connor OBrien
   email: connor.obrien@sourcegraph.com
-  role: Chief of Staff to CEO
+  role: Chief of Staff to CEO, Sales Ops & Strategy
   pronouns: he/him
   github: connoro13c
   reports_to: ceo
+  manager_role_slug: sales_ops_strategy
   links: '[LinkedIn](https://www.linkedin.com/in/connorob/)'
   location: San Franciso, CA, USA 🇺🇸
   description: Connor lives in the Lonely Mountain neighborhood in SF, 1 block away from Golden Gate Park with his wife, two daughters (Logan and Quinn), two dogs, and ~~pet Crawdad~~ RIP Lil' Jeff. Prior to Sourcegraph, Connor worked at Anaplan for 7.5 years where he played critical roles across PreSales, Ops, and Sales where he helped craft and execute GTM strategy. Before Anaplan, Connor was running a small IT Consulting company and worked in the United States Senate. Connor and his wife love challenging, outdoorsy activities like scuba diving, hiking, and long-distance running, biking, and swimming. The fastest way to my heart is through the Denver Nuggets.
-
-interim_sales_lead:
-  name: Connor OBrien
-  reports_to: ceo
-  role: Interim Sales Lead
-  manager_role_slug: vp_sales
-  hide_on_team_page: true
 
 michael_lin:
   name: Michael Lin
@@ -1049,7 +1032,7 @@ bolaji_olajide:
 todd_herskovitz:
   name: Todd Herskovitz
   role: Strategic Account Executive
-  reports_to: rsd_west
+  reports_to: vp_sales
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
@@ -1068,9 +1051,9 @@ daniel_marques:
 brock_perko:
   name: Brock Perko
   pronouns: he/him
-  role: Regional Sales Director, West
+  role: VP, Sales
   reports_to: ceo
-  manager_role_slug: rsd_west
+  manager_role_slug: vp_sales
   location: Mill Valley, CA USA 🇺🇸
   github: 0xPerko
   email: brock_perko@sourcegraph.com
@@ -1138,7 +1121,7 @@ ajay_uppaluri:
   pronouns: He/Him
   role: Director, Sales Strategy & Operations
   manager_role_slug: director_sales_ops
-  reports_to: vp_sales
+  reports_to: sales_ops_strategy
   location: San Diego, CA
   links: '[LinkedIn](www.linkedin.com/in/ajay-uppaluri)'
   description: Ajay was born & raised in Miami, FL. After receiving his MBA from Emory University in Atlanta, GA, Ajay spent several years in management consulting and GTM strategy. He resides in San Diego with his wife, young daughter & golden retriever. In his highly limited spare time, Ajay usually enjoys a good cocktail and loves to play boardgames with friends & family
@@ -1224,7 +1207,7 @@ tom_pinckney:
   name: Tom Pinckney
   role: Head of Business Development
   location: San Francisco, CA
-  reports_to: vp_sales
+  reports_to: sales_ops_strategy
   email: tom.pinckney@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
@@ -1381,7 +1364,7 @@ James_Ghaedi:
   name: James Ghaedi
   email: james.ghaedi@sourcegraph.com
   role: Account Executive, EMEA
-  reports_to: regional_director_sales_east
+  reports_to: rsd_east
 
 steve_yegge:
   name: Steve Yegge
@@ -1419,9 +1402,9 @@ lauren_ross:
   pronouns: she/her
   role: Senior People Partner
   reports_to: vp_talent
-  location: Seattle, WA
+  location: Whitefish, MT
   links: '[LinkedIn](https://www.linkedin.com/in/laurencolby/)'
-  description: I live in Seattle, WA with my 2 children, husband, and goldendoodle! In my spare time I love adventuring in the outdoors, reading, and spending time with my loved ones.
+  description: I live in Whitefish, MT with my 2 children, husband, and goldendoodle! In my spare time I love adventuring in the outdoors, reading, and spending time with my loved ones.
 
 Marc_LeBlanc:
   name: Marc LeBlanc
@@ -1430,7 +1413,7 @@ Marc_LeBlanc:
   pronouns: he/him
   role: Senior Implementation Engineer
   reports_to: ie_manager
-  location: Istanbul, Turkey 🇹🇷
+  location: Calgary, Canada
   links: '[LinkedIn](https://www.linkedin.com/in/leblancit/), [MarcPhoto.ca](https://marcphoto.ca/)'
   description: I rise to challenges with enthusiasm, a happy-to-help attitude, and a customer-service mindset. I am driven to make my positive contribution to the world, with high-level strategic vision, systems and design thinking, and hands-on-keyboard implementation. I was the service owner for the Code Search service and a Sourcegraph customer admin for two years before joining the company. My team and I implemented Sourcegraph from end to end, from discovering user issues with OpenGrok, finding Sourcegraph, implementing it, operating it, and contributing to it. I am also a photographer, adventure motorcyclist, and active volunteer.
 
@@ -1456,18 +1439,6 @@ erika_rice_scherpelz:
   links: '[The FLUX Review](https://read.fluxcollective.org/), [LinkedIn](https://www.linkedin.com/in/erikars)'
   manager_role_slug: eng_lead
   description: 'I think of myself as a solution synthesizer. I may not be the one to come up with new ideas, but I can help figure out how they fit together into something greater than the sum of their parts. I love reading, board games, fiber arts, and most of all, my 2 children and husband. Prior to Sourcegraph, I spent the first 15 years of my career at Google where I worked on Google Maps, social graph infrastructure, and data tools (plus a brief stint at Flexport).'
-
-matt_manela:
-  name: Matt Manela
-  email: matt.manela@sourcegraph.com
-  github: mmanela
-  pronouns: he/him
-  role: Engineering Manager, Product Platform
-  reports_to: eng_lead
-  location: Albany, NY, USA 🇺🇸
-  links: '[Blog](https://matthewmanela.com/), [LinkedIn](https://www.linkedin.com/in/mmanela/)'
-  manager_role_slug: product_platform_lead
-  description: 'Matt is passionate about creating scalable quality software and high performing compassionate customer focused teams. Before Sourcegraph, Matt spent time at a green energy startup scaling residential solar and at Microsoft working on developer tools and services. When not working, Matt can be found spending time with his family, reading (mostly sci-fi), [blogging](https://matthewmanela.com/articles) or building software for fun ([website about idiom translation](https://idiomatically.net/), [multi-platform word game](https://matthewmanela.com/anagram-ladder/))'
 
 anton_sviridov:
   name: Anton Sviridov
@@ -1729,6 +1700,17 @@ eric_shamow:
   location: Portland, OR, USA
   description: 'Eric is originally out of New York but has called Portland, OR home for the past decade. He spends a lot of time in the space somewhere between process, systems architecture, org design and engineering practices. Prior to Sourcegraph Eric was an early employee at Puppet a little over a decade ago, where he visited over 200 companies to study how tools and practices intersect to drive culture change. More recently he ran the Compute SRE team at Twitter. Eric used to be a classical musician, and can be found geeking out over music, books and films (especially sci-fi and horror).'
 
+chris_sev:
+  name: Chris Sev
+  role: Developer Advocate
+  email: chris.sev@sourcegraph.com
+  github: chris-sev
+  pronouns: he/him
+  reports_to: director_devrel
+  location: Denver, USA 🇺🇸
+  links: '[X](https://x.com/chris__sev)'
+  description: Chris is a full stack developer that has built his career educating developers on how to code and how to monetize their code projects. He spends his time always building fun projects, playing with his 2 little kids, and lifting heavy things.
+
 aravind_ramaraju:
   name: Aravind Ramaraju
   reports_to: product_lead
@@ -1812,6 +1794,18 @@ michael_bahr:
   pronunciation: '[pronounce my name 🔊](https://forvo.com/word/bahr)'
   description: Michael grew up in the Black Forest, just at the border between Germany and Switzerland. Prior to Sourcegraph, Michael worked on the dev tools such as Amazon CodeCatalyst, and made the life of devs easier at a startup called Stedi. He's passionate about solving ever harder technical challenges and helping teammates grow further. When not coding at work, he loves to build projects and modifications around video games like Factorio and EVE Online. His favourite way to spend time outside is on a snowboard in the mountains. He can also be found doing other sports and hosting DnD sessions.
 
+matt_manela:
+  name: Matt Manela
+  email: matt.manela@sourcegraph.com
+  github: mmanela
+  pronouns: he/him
+  role: Engineering Manager, Product Platform
+  reports_to: eng_lead
+  location: Albany, NY, USA 🇺🇸
+  links: '[Blog](https://matthewmanela.com/), [LinkedIn](https://www.linkedin.com/in/mmanela/)'
+  manager_role_slug: product_platform_lead
+  description: 'Matt is passionate about creating scalable quality software and high performing compassionate customer focused teams. Before Sourcegraph, Matt spent time at a green energy startup scaling residential solar and at Microsoft working on developer tools and services. When not working, Matt can be found spending time with his family, reading (mostly sci-fi), [blogging](https://matthewmanela.com/articles) or building software for fun ([website about idiom translation](https://idiomatically.net/), [multi-platform word game](https://matthewmanela.com/anagram-ladder/))'
+
 anish_lakhwara:
   name: Anish Lakhwara
   email: anish.lakhwara@sourcegraph.com
@@ -1832,4 +1826,16 @@ dan_tacci:
   reports_to: vp_technical_success
   location: Alameda, CA 🇬🇧
   links: '[Linkedin](https://www.linkedin.com/in/dan-tacci/)'
-  description: Despite being an avocado-eating, kitesurfing, dyed-in-the-wool California boy since age 4, Dan was actually born in Florence, Italy and therefore can never be President of the United States. As such, he has taken on Customer Engineering delighting customers in the devtools space. He came off 5.5 years at LaunchDarkly, where we he was part of 10x revenue and personell growth. He lives in Alameda by the beach where with his wife and two girls, aged 10 and 3, where he gets to kiteboard and hydrofoil msot of the year.
+  description: Despite being an avocado-eating, kitesurfing, dyed-in-the-wool California boy since age 4, Dan was actually born in Florence, Italy and therefore can never be President of the United States. As such, he has taken on Customer Engineering delighting customers in the devtools space. He came off 5.5 years at LaunchDarkly, where we he was part of 10x revenue and personell growth. He lives in Alameda by the beach where with his wife and two girls, aged 10 and 3, where he gets to kiteboard and hydrofoil most of the year.
+
+rik_nauta:
+  name: Rik Nauta
+  role: Software Engineer
+  reports_to: cody_strat_lead
+  location: Malmö, Sweden 🇸🇪
+  github: RXminuS
+  email: rik.nauta@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/riknauta/)'
+  pronouns: He/Him or They/Them
+  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/rik-nauta)'
+  description: Originally from the Netherlands, Rik has called Sweden his home over the last 16 years. Although he was on the brink of completing his MSc in Engineering Physics, his fascination with AI (and apathy towards particles) led him to forgo his final course to create a company dedicated to developing an AI-powered contract writing assistant instead. Outside of his professional endeavors Rik is an avid skiier and a regular foster parent to guide-dog puppies and "problem" doggos. Rik's unique superpower is his remarkable ability to nap under any circumstances.

@@ -61,6 +61,8 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 [GTM Operations Review](Gtmopsreview.md)
 
+[Multi-sku ARR recognition methodology](multi-sku-arr.md)
+
 ## FY25 Budget
 
 The FY25 Budget was communicated, and approved, by the Board, at January 28, 2024. You can see the details of the plan [Here](https://docs.google.com/presentation/d/1XhiwfiF5cKH3wFYH8XPkwO-V3ys01ScZBwTnlkWFczI/edit#slide=id.g241b8d53608_0_648).

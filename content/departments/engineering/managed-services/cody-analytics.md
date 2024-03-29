@@ -3,49 +3,50 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-11 06:28:34.629649 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/516734a23afe816218cf3556bba1ace6d26b5420
+Last updated: 2024-03-27 09:19:09.092984 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
 This document describes operational guidance for Cody Analytics infrastructure.
 This service is operated on the [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md).
 
 > [!IMPORTANT]
-> If this is your first time here, you should follow the [sourcegraph/managed-services README](https://github.com/sourcegraph/managed-services/blob/main/README.md) as well to set up the prerequisite tooling.
+> If this is your first time here, you must follow the [sourcegraph/managed-services 'Tooling setup' guide](https://github.com/sourcegraph/managed-services/blob/main/README.md) as well to clone the service definitions repository and set up the prerequisite tooling.
 
 If you need assistance with MSP infrastructure, reach out to the [Core Services](../teams/core-services/index.md) team in #discuss-core-services.
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------------------------------ |
-| Service ID   | [`cody-analytics`](https://github.com/sourcegraph/managed-services/blob/main/services/cody-analytics/service.yaml) |
-| Owners       | **cody-strat**                                                                                                     |
-| Service kind | Cloud Run service                                                                                                  |
-| Environments | [dev](#dev), [prod](#prod)                                                                                         |
-| Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/cody-analytics/service`                                                |
-| Source code  | [`github.com/sourcegraph/cody-analytics` - `.`](https://github.com/sourcegraph/cody-analytics/tree/HEAD/.)         |
+| PROPERTY     | DETAILS                                                                                                                            |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Service ID   | `cody-analytics` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/cody-analytics/service.yaml)) |
+| Owners       | **cody-strat**                                                                                                                     |
+| Service kind | Cloud Run service                                                                                                                  |
+| Environments | [dev](#dev), [prod](#prod)                                                                                                         |
+| Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/cody-analytics/service`                                                                |
+| Source code  | [`github.com/sourcegraph/cody-analytics` - `.`](https://github.com/sourcegraph/cody-analytics/tree/HEAD/.)                         |
 
 ## Environments
 
 ### dev
 
-| PROPERTY       | DETAILS                                                                                                |
-| -------------- | ------------------------------------------------------------------------------------------------------ |
-| Project ID     | [`cody-analytics-dev-bd34`](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)      |
-| Category       | **test**                                                                                               |
-| Resources      |                                                                                                        |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-dev-bd34) |
-| Sentry         | [`cody-analytics-dev`](https://sourcegraph.sentry.io/projects/cody-analytics-dev/)                     |
-| Domain         | [cody-analytics.sgdev.org](https://cody-analytics.sgdev.org)                                           |
-| Cloudflare WAF | ✅                                                                                                     |
+| PROPERTY            | DETAILS                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| Project ID          | [`cody-analytics-dev-bd34`](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)      |
+| Category            | **test**                                                                                               |
+| Resources           |                                                                                                        |
+| Slack notifications | [#alerts-cody-analytics-dev](https://sourcegraph.slack.com/archives/alerts-cody-analytics-dev)         |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-dev-bd34) |
+| Errors              | [Sentry `cody-analytics-dev`](https://sourcegraph.sentry.io/projects/cody-analytics-dev/)              |
+| Domain              | [cody-analytics.sgdev.org](https://cody-analytics.sgdev.org)                                           |
+| Cloudflare WAF      | ✅                                                                                                     |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GCP project read access  | [Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
-| GCP project write access | [Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
+| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
+| GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
 For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
@@ -53,10 +54,12 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Cody Analytics dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                              |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-dev-bd34) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-dev-bd34)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-dev-bd34) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=cody-analytics-dev-bd34)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `cody-analytics-dev`](https://sourcegraph.sentry.io/projects/cody-analytics-dev/)                                                                                                                                                                                                                                            |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 
@@ -91,22 +94,23 @@ sg msp tfc view cody-analytics dev
 
 ### prod
 
-| PROPERTY       | DETAILS                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------- |
-| Project ID     | [`cody-analytics-prod-da5a`](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)     |
-| Category       | **external**                                                                                            |
-| Resources      |                                                                                                         |
-| Alerts         | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-prod-da5a) |
-| Sentry         | [`cody-analytics-prod`](https://sourcegraph.sentry.io/projects/cody-analytics-prod/)                    |
-| Domain         | [cody-analytics.sourcegraph.com](https://cody-analytics.sourcegraph.com)                                |
-| Cloudflare WAF | ✅                                                                                                      |
+| PROPERTY            | DETAILS                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| Project ID          | [`cody-analytics-prod-da5a`](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)     |
+| Category            | **external**                                                                                            |
+| Resources           |                                                                                                         |
+| Slack notifications | [#alerts-cody-analytics-prod](https://sourcegraph.slack.com/archives/alerts-cody-analytics-prod)        |
+| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cody-analytics-prod-da5a) |
+| Errors              | [Sentry `cody-analytics-prod`](https://sourcegraph.sentry.io/projects/cody-analytics-prod/)             |
+| Domain              | [cody-analytics.sourcegraph.com](https://cody-analytics.sourcegraph.com)                                |
+| Cloudflare WAF      | ✅                                                                                                      |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| GCP project read access  | [Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
-| GCP project write access | [Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)  |
+| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| GCP project read access  | [Read-only Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)   |
+| GCP project write access | [Write access Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
 For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
@@ -114,10 +118,12 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Cody Analytics prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY     | DETAILS                                                                                                                                                                                                                                                                                                                               |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Console      | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)                                                                                                                                                                                                                                            |
-| Service logs | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-prod-da5a) |
+| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Console        | [Cloud Run service](https://console.cloud.google.com/run?project=cody-analytics-prod-da5a)                                                                                                                                                                                                                                            |
+| Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=cody-analytics-prod-da5a) |
+| Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=cody-analytics-prod-da5a)                                                                                                                                                                                                                                          |
+| Service errors | [Sentry `cody-analytics-prod`](https://sourcegraph.sentry.io/projects/cody-analytics-prod/)                                                                                                                                                                                                                                           |
 
 You can also use `sg msp` to quickly open a link to your service logs:
 

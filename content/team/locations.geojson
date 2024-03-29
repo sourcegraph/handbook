@@ -780,6 +780,19 @@
           52.513384
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rik Nauta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.000640,
+          55.595330
+        ]
+      }
     }
   ]
 }

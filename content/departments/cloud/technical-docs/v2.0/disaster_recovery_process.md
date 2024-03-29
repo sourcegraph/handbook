@@ -1,4 +1,4 @@
-# Distaster recovery process of a Cloud instance
+# Disaster recovery process of a Cloud instance
 
 <span class="badge badge-note">SOC2/CI-82</span>
 

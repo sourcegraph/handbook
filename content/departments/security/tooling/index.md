@@ -28,7 +28,9 @@ of vulnerability.
 
 - We use [Checkov](./checkov.md) to scan our Terraform infrastructure.
 - We use [Trivy](./trivy/index.md) to scan containers for issues with dependencies.
-- We use [SonarCloud](./sonarcloud.md) to scan our code in `sourcegraph/sourcegraph` for vulnerabilities
+- We use [Semgrep OSS](./semgrep.md) to scan our code in `sourcegraph/sourcegraph` and `sourcegraph/cody` for vulnerabilities & bad patterns
+
+Additionally, we have enabled [push protection](./push-protection.md) for all public repositories for secret scanning.
 
 ## Entitle
 

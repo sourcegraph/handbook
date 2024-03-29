@@ -2,8 +2,7 @@
 
 ## Executive Business Partners Team
 
-- Coming soon: EBP supporting Quinn Slack (CEO)
-- Michal Sennett (EBP) supporting Carly Jones (VP People and Talent), Steve Yegge (Head of Engineering, Cody), Erika Rice Scherpelz (Head of Engineering, Code Search), & currently (as of 10/11/23) providing iterim support for Quinn Slack (CEO)
+- Michal Sennett (EBP) supporting Quinn Slack (CEO), Carly Jones (VP People and Talent), Erika Rice Scherpelz (Head of Engineering)
 - Amber Nocerino (EBP) supporting Brock Perko (VP Sales), and Aimee Menne (VP Technical Success)
 
 ## Contact us

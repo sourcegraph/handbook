@@ -3,12 +3,12 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-11 06:28:34.644553 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/516734a23afe816218cf3556bba1ace6d26b5420
+Last updated: 2024-03-27 09:19:09.110578 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
 -->
 
-These pages contain generated operational guidance for the infrastructure of [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services.
-This includes information about each service, configured environments, Entitle requests, common tasks, monitoring, etc.
+These pages contain generated operational guidance for the infrastructure of the 12 [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services (across 18 environments) currently in operation at Sourcegraph.
+This includes information about each service, configured environments, Entitle requests, common tasks, monitoring, custom documentation provided by service operators, and so on.
 In addition to service-specific guidance, [General guidance](#general-guidance) is also available.
 
 MSP is owned by [Core Services](../teams/core-services/index.md), but individual teams are responsible for the services they operate on the platform.
@@ -29,6 +29,13 @@ Managed Services Platform services owned by `Customer Support`:
 Managed Services Platform services owned by `cloud`:
 
 - [Cloud Ops Dashboard](./cloud-ops.md)
+- [Cloud Relay](./cloud-relay.md)
+
+## cody-plg
+
+Managed Services Platform services owned by `cody-plg`:
+
+- [Self-Serve Cody](./sams.md)
 
 ## cody-services
 
@@ -48,7 +55,7 @@ Managed Services Platform services owned by `core-services`:
 
 - [MSP Testbed](./msp-testbed.md)
 - [Pings Service](./pings.md)
-- [Sourcegraph Accounts](./sams.md)
+- [Sourcegraph Accounts](./sourcegraph-accounts.md)
 - [Telemetry Gateway](./telemetry-gateway.md)
 
 ## dev-experience
