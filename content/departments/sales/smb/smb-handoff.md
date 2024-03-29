@@ -3,14 +3,15 @@
 This page outlines the steps for preparing and handing off an SMB customer to our post-sales [Digital Success Program](../../technical-success/ta/digital-success/team-culture/digital-success-program.md#1-customer-onboarding). The hand-off process begins starting from Stage 6 - Contract Negotiation and should be completed prior to the new business opportunity being closed / won.
 
 ## Hand-off process steps
+
 1. Populate segmentation on the Salesforce Account (this triggers the account to be created in Vitally).
 2. Complete role mappings on Salesforce Contact records (this is required to enroll the customer in the onboarding program).
 3. Once closed, generate and apply the [Production license key](../../technical-success/ce/process/license_keys.md#converting-a-prospect-to-a-new-customer).
 
-
 ### Populate Account Segmentation
 
 No later than during Stage 6, there are two key fields that need to be populated on the Salesforce account record for a new business opportunity:
+
 - `FY25 Segmentation` - this value should reflect SMB in accordance with our market segmentation definitions.
 - `TA Segmentation` - this value should reflect Digital as any SMB customer will be enrolled in our Digital program.
 
