@@ -6,3 +6,4 @@
 - [Personas](personas.md)
 - [Platform positioning](positioning.md)
 - [Value drivers](value-drivers.md)
+- [Blog post help](blog_post_help.md)
