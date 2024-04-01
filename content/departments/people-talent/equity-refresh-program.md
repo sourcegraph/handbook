@@ -40,9 +40,9 @@ To determine the grant size, we use the past 12-month Impact Review score averag
 
 Example for IC1:
 
-- You got a 3 in 2H FY23 (680 options)
-- You got a 2 in 1H FY24 (1710 options)
-- Your equity grant would therefore be: 1200 (rounding up)
+- You got a 3 in 2H FY24 (544 options)
+- You got a 2 in 1H FY25 (1710 options)
+- Your equity grant would therefore be: 1127 Options
 
 <table>
   <tr>
