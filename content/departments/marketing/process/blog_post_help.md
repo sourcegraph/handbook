@@ -4,13 +4,13 @@ Are you struggling to turn your blog post idea into a reality? Or perhaps you're
 
 ### Steps
 
-* Create a Google Doc
-* Draft what you want to write about
-  * It can be bullet points, Slack convos, etc.
-* Share it with the marketing-team@sourcegraph.com
-* Fill out [this form](https://form.asana.com/?k=y9mrkHpWKUIK7eeZ8CEJBg&d=7195383522959) to add it to our Asana board
+- Create a Google Doc
+- Draft what you want to write about
+  - It can be bullet points, Slack convos, etc.
+- Share it with the marketing-team@sourcegraph.com
+- Fill out [this form](https://form.asana.com/?k=y9mrkHpWKUIK7eeZ8CEJBg&d=7195383522959) to add it to our Asana board
 
-*From there we will be in touch and help you get published!*
+_From there we will be in touch and help you get published!_
 
 ### Blog posts we helped get published
 
