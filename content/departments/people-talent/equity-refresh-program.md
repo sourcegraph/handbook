@@ -30,7 +30,7 @@ To be eligible, you must meet the following criteria:
 
 Sourcegraph’s equity refresh program takes place annually in alignment with the 1H Impact Review cycle, which occurs in the first quarter of each fiscal year. The decision to grant equity awards annually was made to provide ongoing incentives for top performers and valued members of the team.
 
-## **How is the equity refresh grant size determined? **
+## How is the equity refresh grant size determined?
 
 Equity grant sizes are determined based on level and performance rating, as outlined in the chart below. We believe the below grant sizes are generous and are aimed to create a long-term incentive for valued teammates to stay with the company and contribute to our growth and success.
 
@@ -406,6 +406,6 @@ The following should be expressed in the communication to the recipient:
 - Explain why the teammate received the additional equity grants. Highlight the performance and attributes we want to continue to motivate.
 - Explain the timing and value of the awarded equity grant.
 
-**Monitoring and Adjustment: **
+**Monitoring and Adjustment:**
 
 The equity refresh program will be monitored regularly to ensure that it is achieving its goals and making the intended impact on employee motivation and retention. We reserve the right to change the above % guidance at any time as the business evolves. Adjustments may be made as necessary to ensure the program remains aligned with Sourcegraph's goals.
