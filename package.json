@@ -68,7 +68,7 @@
   },
   "packageManager": "pnpm@8.1.1",
   "engines": {
-    "node": "^v18.9.0",
+    "node": "^18.20.0",
     "pnpm": "^8"
   },
   "dependencies": {
