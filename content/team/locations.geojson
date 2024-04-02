@@ -793,6 +793,19 @@
           55.595330
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jan Hartman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.40685,
+          45.95371
+        ]
+      }
     }
   ]
 }
