@@ -1840,3 +1840,15 @@ rik_nauta:
   pronouns: He/Him or They/Them
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/rik-nauta)'
   description: Originally from the Netherlands, Rik has called Sweden his home over the last 16 years. Although he was on the brink of completing his MSc in Engineering Physics, his fascination with AI (and apathy towards particles) led him to forgo his final course to create a company dedicated to developing an AI-powered contract writing assistant instead. Outside of his professional endeavors Rik is an avid skiier and a regular foster parent to guide-dog puppies and "problem" doggos. Rik's unique superpower is his remarkable ability to nap under any circumstances.
+
+jan_hartman:
+  name: Jan Hartman
+  email: jan.hartman@sourcegraph.com
+  github: janhartman
+  pronouns: he/him
+  role: Machine Learning Engineer
+  reports_to: head_ai
+  location: Ljubljana, Slovenia 🇸🇮
+  links: '[LinkedIn](https://www.linkedin.com/in/jan-hartman)'
+  pronunciation: https://forvo.com/word/jan/
+  description: Jan is a machine learning enthusiast. He has a master's degree in Computer and Data Science from the University of Ljubljana. Before joining Sourcegraph, Jan worked in adtech, building deep learning models for online recommendations and scaling them to over a billion predictions per second. Besides teaching machines to think, Jan enjoys hiking, gaming, DnD, and chilling on the couch with his dog, Rio.

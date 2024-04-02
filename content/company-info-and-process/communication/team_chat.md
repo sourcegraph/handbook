@@ -846,7 +846,7 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    </td>
   </tr>
   <tr>
-   <td>#discuss-cody-context
+   <td>#discuss-context
    </td>
    <td>Discussion of Cody context
    </td>
@@ -882,9 +882,9 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    </td>
   </tr>
   <tr>
-   <td>#wg-cody-vs-code
+   <td>#team-cody-clients
    </td>
-   <td>Discussion, questions, bug reports, and feedback specific to the VSC extension. VS Code team collaboration
+   <td>Discussion, questions, bug reports, and feedback about Cody clients.
    </td>
   </tr>
   <tr>
