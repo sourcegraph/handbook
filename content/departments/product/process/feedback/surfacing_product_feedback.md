@@ -17,7 +17,7 @@ TA, CE, Support Engineering, Sales, Marketing, Engineering, and other teammates 
 We deeply value this feedback, so we make this process as frictionless for teammates as possible. There are only two ways of posting feedback:
 
 - ARR-impacting feedback should be submitted and tracked as a [Product Gap](#product-gaps). This helps the product team drive important decisions. In particular, it's important that AEs, TAs and CEs submit feedback surfaced by customers or prospects as Product Gaps.
-- For any other general product feedback, any team member can post to the #feedback channel. It will be triaged by the PM on feedback rotation.
+- For any other general product feedback, any team member can post to #feedback-code-search and #feedback-cody. It will be triaged by the PM on feedback rotation.
 
 All bugs/issues should be filed as Support Tickets.
 
