@@ -1,4 +1,4 @@
-# Technical blog post help 
+# Technical blog post help
 
 Need help with your technical blog posts? DevRel is here for you! Whether it's turning ideas into reality, writing assistance, or media help, we've got you covered!
 
