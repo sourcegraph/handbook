@@ -4,10 +4,10 @@ We pay competitively and above the market average in order to attract the best p
 
 ## Pay philosophy overview
 
-**Generous**: We want to pay more competitively than most companies, so we leverage aggregate data from thousands of technology companies (using [Radford](https://radford.aon.com/en-us/products/surveys/pre-ipo-compensation-survey) salary survey data and/or external compensation experts) and compensate all teammates at the 75th percentile of their respective salary band as a starting point. This means that teammates can expect to be paid above average while working at Sourcegraph. Salary bands are determined based on 1) role 2) level and 3) location.
+**Generous**: We want to pay more competitively than most companies, so we leverage aggregate data from thousands of technology companies _based in zone 1 - the high cost of labor zone_ (using [Radford](https://radford.aon.com/en-us/products/surveys/pre-ipo-compensation-survey) salary survey data and/or external compensation experts). We then compensate all teammates at the 75th percentile of their respective salary band as a starting point. This means that teammates can expect to be paid _above average_ while working at Sourcegraph. Salary bands are determined based on 1) role 2) level and 3) location. 
 
-- We believe opening up offers to negotiations can lead to inequitable and biased compensation in the long term, so we only negotiate compensation if there’s a business-critical need to do so (this requires approval by the Executive sponsor, Head of People, Head of Ops, and CEO).
 - We re-evaluate our compensation ranges every 12 months, in alignment with our [Impact Review Process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md), to ensure our compensation remains up-to-date and market competitive. This means that every 12 months, our band entry point may go up, down, or stay the same. And if our band goes down, we will never decrease our teammate’s pay.
+- We believe opening up offers to negotiations can lead to inequitable and biased compensation in the long term, so we only negotiate compensation if there’s a business-critical need to do so (this requires approval by the Executive sponsor, Head of People, Head of Ops, and CEO).
 - Note: the People Team owns the compensation strategy and ultimately has the right to make final band determinations when Radford (our primary data source) doesn’t align with the needs of the business.
 
 **Performance-based**: We pay for performance in order to motivate and retain our teammates. We reward strong performance through merit increases, promotions, annual equity refreshes, and spot bonuses. [You can read more about our merit process here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#merit-philosophy). [Read more about how we create a high performance culture here](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#how-we-approach-compensation-decisions).
@@ -15,9 +15,9 @@ We pay competitively and above the market average in order to attract the best p
 - We use our annual [performance review process](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)(aka Impact Reviews) to evaluate teammate performance, which directly influences compensation increases. This means that teammates who are considered top performers (“superior performance” or “distinguished performance”) may move up the band faster than teammates who are not meeting our high bar (“meeting” or “partially meeting” scores). Teammates who do not meet our performance expectations [do not receive increases](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md#who-is-eligible-for-a-reviewcompensation-increase). You can read more about our performance ratings in the “Ratings definitions'' section [of our Impact Review Handbook page](../../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md).
 - We will consider off-cycle compensation increases on an as-needed basis, based on the business need only. We do not factor in how frequently someone requests a raise; all compensation changes are based on business needs and compensation data. To make a request, a Manager must reach out to their People Partner + Head of People.
 
-**Zone-based**: We have a zone-based location pay model to ensure we’re paying competitively and building the right team to be able to reach our goals fast. When a hiring manager opens a new role, they specify which locations they’re open to in the job description. To determine our compensation ranges for each zone, we identify the 75th percentile of US tech company market data, and establish this as the entry point for our zone 1 salary band. In order to simplify our compensation philosophy, we determine our other three location-based zones as a % of zone 1.
+**Zone-based**: We have a zone-based location pay model to ensure we’re paying competitively and building the right team to be able to reach our goals fast. When a hiring manager opens a new role, they specify which locations they’re open to in the job description. To determine our compensation ranges for each zone, we identify the 75th percentile of US tech company market data _in high cost of labor zones (zone 1) only_, and establish this as the entry point for our zone 1 salary band. In order to simplify our compensation philosophy, we determine our other three location-based zones as a % of zone 1.
 
-- All locations and the corresponding zone % are listed [here](https://docs.google.com/spreadsheets/d/1UtGshT47-81s4q7IlOJUKjwgdaosxS6V9g_gMGoEzqo/edit#gid=964050608).
+- All locations and the corresponding zone % are listed [here](https://docs.google.com/spreadsheets/d/1UtGshT47-81s4q7IlOJUKjwgdaosxS6V9g_gMGoEzqo/edit#gid=964050608) (internal-facing document only).  
   - Zone 1 entry point is the 75th percentile of US technology company market data. The top of the band is set at ~15% above the band entry point. This means that our compensation band entry points are above market and competitive from the outset, with plenty of room to grow as [teammates progress in their respective band](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md).
   - Zone 2 entry point is determined by taking 80% of zone 1 entry point. The top of the band is +15%.
   - Zone 3 entry point is determined by taking 60% of zone 1 entry point. The top of the band is +15%.
@@ -28,7 +28,7 @@ We pay competitively and above the market average in order to attract the best p
 **Transparent**: We provide visibility into all roles, levels, and location-based zones via job descriptions and [Assemble](https://app.assemble.inc/). This means that every teammate can see the salary bands for all roles across the company. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across location, levels and performance.
 
 - Teammates hired before April 2, 2024 are grandfathered in under our previous location-independent pay philosophy. This means that all teammates who applied and/or were hired before April 2, 2024 are paid under the pre-existing policy which paid everyone the same, regardless of location.
-- All teammates who apply or are hired after April 2, 2024 are paid under our zone-based pay philosophy.
+- All teammates who apply and/or are hired after April 2, 2024 are paid under our zone-based pay philosophy.
 
 ## Other components of compensation
 
@@ -60,7 +60,7 @@ At Sourcegraph, all teammates are able to view all compensation bands, not just 
 We use a tool called [Assemble](https://www.assemble.inc/) to share compensation data. To access Assemble:
 
 1. Navigate to: https://app.assemble.inc/
-2. Log in using Google SSO
+2. Log in using Okta
 
 Step 1: Look up your job code and location zone in Bamboo
 
@@ -163,14 +163,16 @@ _Zone-based pay:_
   - A: Making this decision to move from location-independent pay to zone-based pay allows us to invest in more teammates, to support our growth and customer experience objectives, and reach our goals quicker. It also allows us to ensure we’re paying competitively and fairly across the globe.
 - Q: I applied or was hired before April 2, 2024. How does this impact my compensation?
   - A: Your compensation will not be impacted by this change. You are “grandfathered” into zone 1, which is our existing pay model. In other words, nothing is changing for you.
+- Q: What is the exact definition of a zone - is it the place someone lives? Where the company (for contractors) is registered? Where they work from most of the time?
+  - A: The definition of a zone is where a teammate pays taxes, which is generally where someone lives 51%+ of the time.
 - Q: Does a promotion trigger a zone-change?
   - A: No, promotions do not trigger a zone re-evaluation. Teammates will not have their zone re-evaluated at any point after they’ve been hired (unless they move to a higher cost of living zone) and salary is never decreased.
 - Q: Would a relocation trigger a zone change/re-evaluation?
   - A: We honor the zone the teammate was hired into when they first join, and we never decrease salary. If teammates move to a location with a lower salary band, we will not reduce compensation. You can read more about relocation [here](#Relocation-&-compensation).
 - Q: Why did we choose to use zones vs. cost of labor data for each location where we hire?
   - A: It’s important to us that we continue to hire from anywhere in the world and pay competitively globally. Because we hire from almost [anywhere in the world](../../../departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md#countries-where-we-cannot-currently-support-employment-or-contracting), we don’t have the internal resources or budget to access and maintain up-to-date market data for every single location around the globe. To simplify our program while also achieving a fair and competitive compensation strategy, we opted for a zone-based approach.
-- Q: My band seems off / I suspect an error. Who do I contact?
-  - A: We are always happy to investigate. Reach out to #ask-people-team or your People Partner!
+- Q: How do I provide feedback on a zone and/or pay band? (examples: the zone seems wrong; a location is missing from the list; there are too many/not enough zones in a given location etc.).
+  - A: We used Radford to create our salary bands, and leveraged an external third-party compensation expert to determine our zones. If you see a zone or pay band that seems wrong and would prevent us from being competitive in hiring great people in that location or for that role, let us know in [this form](https://forms.gle/ALApPHnPRDYXKzX6A). 
 - Q: Is there a limit to how many times I can move between pay zones?
   - A: Yes, teammates can have their compensation adjusted once due to a location move within a 12-month period.
 - Q: How do you decide which zone a location falls into?
@@ -178,13 +180,15 @@ _Zone-based pay:_
 - Q: Do hiring managers take location into consideration when hiring?
   - A: Yes, each department has a headcount budget. When hiring, they may choose to hire in a lower-cost zone to ensure they’re staying within their budget. We are clear about which locations we’re willing to accept applicants from in the job description.
 - Q: How do we ensure we’re hiring the best talent regardless of location, while also balancing hiring managers’ potential desire to make the most of the headcount budget by hiring in a lower-cost zone?
-  - A: We will also default to hiring the best candidate for the job. There will be times when a hiring manager chooses to make an exception and hire a candidate outside of a desired zone. In these instances, they will work with finance to find cost savings elsewhere.
+  - A: We will always default to hiring the best candidate for the job. There will be times when a hiring manager chooses to make an exception and hire a candidate outside of a desired zone. In these instances, they will work with finance to find cost savings elsewhere. 
 - Q: Are we worried about pay disparity given the switch to location-dependent pay?
   - A: We recognize that our introduction of location-dependent pay means that future teammates will be joining with a different starting compensation than some of their peers. The alternative is that we reduce pay for our current teammates who live in zones 2,3, and 4. This was a tough call, but we believe “grandfathering” in teammates who were hired before the change is the better choice for our business. We aim to ensure all future teammates are treated the same under the same new pay structure/program.
 - Q: How will this impact my merit increases?
   - A: We do not take our new location-dependent pay program into consideration when considering merit increases. In other words, business as usual.
 - Q: What do I do if I think a location falls in the wrong zone?
   - A: Email [peopleops@sourcegraph.com] and we will look into it for you!
+- Q: Is our goal to offer the same career progression possibilities, regardless of zone?
+  - A: We will not take zone into consideration when making promotion decisions.
 
 _Equity:_
 
