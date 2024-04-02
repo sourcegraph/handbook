@@ -2,7 +2,7 @@
 
 ## Process overview
 
-> [!NOTE] This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published.
+> [!NOTE] This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. If you have a technical blog post idea and are struggling to make it a reality, [contact the DevRel team](https://handbook.sourcegraph.com/departments/marketing/process/blog_post_help/).
 
 1. Create an outline and request a reviewer
 2. Create a draft of your blog post in Google Docs and request a reviewer
