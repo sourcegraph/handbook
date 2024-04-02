@@ -1,4 +1,4 @@
-# Sourcegraph zone-based pay philosophy
+# Compensation & Pay Transparency at Sourcegraph
 
 We pay competitively and above the market average in order to attract the best possible talent from around the globe and reward teammates for the work that they do. We believe that having the best team will allow us to achieve our strategy and goals. We are committed to keeping compensation competitive, merit-based, and non-discriminatory, to make sure all teammates have a financial stake in the success of Sourcegraph and that strong performance is rewarded.
 
