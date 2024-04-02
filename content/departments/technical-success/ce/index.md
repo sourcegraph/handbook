@@ -16,7 +16,7 @@ The three primary team KPIs for CE are:
 - Technical Closure of Trials
 - Trial Cycle Time
 
-## Team Expectations
+### Team Expectations
 
 - Technically qualify the opportunity and tech requirements
 - Scope out and plan the trial while trying to influence in our favor
