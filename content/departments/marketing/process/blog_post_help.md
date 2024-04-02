@@ -1,6 +1,6 @@
-# Blog post help
+# Technical blog post help
 
-Are you struggling to turn your blog post idea into a reality? Or perhaps you're not confident in your writing skills and could use some assistance in creating a compelling post. Maybe you need help with media such as images or videos. Whatever the case may be, DevRel is here to help!
+Need help with your technical blog posts? DevRel is here for you! Whether it's turning ideas into reality, writing assistance, or media help, we've got you covered!
 
 ### Steps
 
@@ -12,7 +12,7 @@ Are you struggling to turn your blog post idea into a reality? Or perhaps you're
 
 _From there we will be in touch and help you get published!_
 
-### Blog posts we helped get published
+### Blog posts we helped publish
 
 - https://sourcegraph.com/blog/slow-to-simd
 - https://sourcegraph.com/blog/cody-the-ai-powered-tool-helping-support-engineers-unblock-themselves
