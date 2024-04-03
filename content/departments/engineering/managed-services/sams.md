@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 09:19:09.103363 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
+Last updated: 2024-04-03 15:25:17.068031 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
 -->
 
 This document describes operational guidance for Self-Serve Cody infrastructure.
