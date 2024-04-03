@@ -13,7 +13,6 @@
 
 ## Troubleshooting guide for CSE
 
-
 ### For customers using Helm Chart version `<= 0.4.0`
 
 No change is required, you can apply the same troubleshooting process for the Kustomize deployment method.
