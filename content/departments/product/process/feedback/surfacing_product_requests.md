@@ -9,11 +9,13 @@ Note: we have a separate process for raising bugs or requests-for-help from EPD.
 Any teams that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or product gaps with the product team. We deeply value this feedback, so we make this process as frictionless for teammates as possible. There are only two ways of surfacing product requests:
 
 Product Feedback is:
+
 - Observations, comments, and / or opinions on the product experience shared by prospects or customers
 - Choosing to action desired state positively influences sentiment but does not necessarily have a quantifiable impact
 - Shared informally in #feedback- channels
 
 Product Gaps (aka Feature Requests) are:
+
 - Specific requested or desired enhancements to our product that provides a tangible benefit to a prospects’ or customers’ use of Sourcegraph
 - Impact of choosing to implement desired functionality is quantifiable
 - Logged in Salesforce Product Gaps
@@ -25,11 +27,12 @@ Product Gaps (aka Feature Requests) are:
 
 It is important to distinguish the customer feedback you receive from what would be considered a product gap. A product gap pertains to either a new feature request or an enhancement to an existing feature, that could potentially be incorporated into our roadmap. In contrast, a product gap is NOT a bug nor is it feedback on the way in which something was implemented. That is considered product feedback.
 
-Product Gaps should establish a clear need for a prospect or customers' use of Sourcegraph. This is why it is important, with each submission, to capture a description of the ask, a statement on the impact of the ask, and context on what workaround exists given the gap. 
+Product Gaps should establish a clear need for a prospect or customers' use of Sourcegraph. This is why it is important, with each submission, to capture a description of the ask, a statement on the impact of the ask, and context on what workaround exists given the gap.
 
 There are two components of Product Gaps in Salesforce:
 
 - Product Gap: the overall product gap. Each product gap has:
+
   - A [status](#product-gap-statuses) (default is Open)
   - A product category (what area of Sourcegraph the product gap pertains to)
   - Open-text fields to link to GH tracking issues and / or related documentation
@@ -47,9 +50,9 @@ Access to Product Gaps is granted via Entitle. Once you have requested and recei
 
 ### How to Create a Product Gap and a Submission in Salesforce
 
-If you have received a specific feedback request that a prospect or customer would like Sourcegraph to consider building into the product experience, you should log that feedback as a Product Gap in Salesforce. 
+If you have received a specific feedback request that a prospect or customer would like Sourcegraph to consider building into the product experience, you should log that feedback as a Product Gap in Salesforce.
 
-To create a Product Gap, navigate to the most recent Opportunity that is relevant to the Product Gap (for existing customers this is likely their upcoming renewal record). If the most recent Opportunity is related to an expansion product (Code Insights or Batch Changes), but the product gap feedback is not, do not use that Opportunity and instead use the overall renewal or expansion Opportunity. When viewing the Opportunity, under "Related List Quick Links" is a link for "Product Gap Submissions". Hover over and click "New". You'll begin by entering the Product Gap name. This is a lookup field so Salesforce will attempt to find a Product Gap if it already exists to avoid duplication. If no gap exists, create a new one. Then, you'll create your individual submission that will associate your customer ask to the overall Product Gap. 
+To create a Product Gap, navigate to the most recent Opportunity that is relevant to the Product Gap (for existing customers this is likely their upcoming renewal record). If the most recent Opportunity is related to an expansion product (Code Insights or Batch Changes), but the product gap feedback is not, do not use that Opportunity and instead use the overall renewal or expansion Opportunity. When viewing the Opportunity, under "Related List Quick Links" is a link for "Product Gap Submissions". Hover over and click "New". You'll begin by entering the Product Gap name. This is a lookup field so Salesforce will attempt to find a Product Gap if it already exists to avoid duplication. If no gap exists, create a new one. Then, you'll create your individual submission that will associate your customer ask to the overall Product Gap.
 
 When a new product gap submission is created it will be automatically be posted to the #feedback channel.
 
