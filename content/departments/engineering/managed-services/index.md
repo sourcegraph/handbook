@@ -3,11 +3,11 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-03-27 09:19:09.110578 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/358f92c4b9157546a16e6c78ff8d719fa7594676
+Last updated: 2024-04-03 15:25:17.077069 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
 -->
 
-These pages contain generated operational guidance for the infrastructure of the 12 [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services (across 18 environments) currently in operation at Sourcegraph.
+These pages contain generated operational guidance for the infrastructure of the 13 [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services (across 19 environments) currently in operation at Sourcegraph.
 This includes information about each service, configured environments, Entitle requests, common tasks, monitoring, custom documentation provided by service operators, and so on.
 In addition to service-specific guidance, [General guidance](#general-guidance) is also available.
 
@@ -62,6 +62,7 @@ Managed Services Platform services owned by `core-services`:
 
 Managed Services Platform services owned by `dev-experience`:
 
+- [Build Tracker](./build-tracker.md)
 - [Release Registry](./releaseregistry.md)
 
 ## security
