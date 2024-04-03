@@ -27,8 +27,8 @@ We pay competitively and above the market average in order to attract the best p
 
 **Transparent**: We provide visibility into all roles, levels, and location-based zones via job descriptions and [Assemble](https://app.assemble.inc/). This means that every teammate can see the salary bands for all roles across the company. Salary transparency enables accountability for all compensation decisions (hiring, promotions, merit) and ensures parity across location, levels and performance.
 
-- Teammates hired before April 2, 2024 are grandfathered in under our previous location-independent pay philosophy. This means that all teammates who applied and/or were hired before April 2, 2024 are paid under the pre-existing policy which paid everyone the same, regardless of location.
-- All teammates who apply and/or are hired after April 2, 2024 are paid under our zone-based pay philosophy.
+- Teammates hired before April 4, 2024 are grandfathered in under our previous location-independent pay philosophy. This means that all teammates who applied and/or were hired before April 4, 2024 are paid under the pre-existing policy which paid everyone the same, regardless of location.
+- All teammates who apply and/or are hired after April 4, 2024 are paid under our zone-based pay philosophy.
 
 ## Other components of compensation
 
@@ -159,9 +159,9 @@ _Zone-based pay:_
 
 - Q: Why does Sourcegraph use a zone-based approach to pay?
   - A: The goal of our zone-based pay model is to pay above market average regardless of a teammate’s location. That said, salaries can vary significantly between regions due to local market conditions and competition for talent. A zone-based model allows us to remain competitive in each local market, ensuring we’re able to attract and retain talent in different regions in alignment with local norms and expectations.
-- Q: Sourcegraph hasn’t always used a zone-based pay approach. Before April 2, 2024, Sourcegraph paid the same globally, regardless of location (location-independent pay). Why did the change happen?
+- Q: Sourcegraph hasn’t always used a zone-based pay approach. Before April 4, 2024, Sourcegraph paid the same globally, regardless of location (location-independent pay). Why did the change happen?
   - A: Making this decision to move from location-independent pay to zone-based pay allows us to invest in more teammates, to support our growth and customer experience objectives, and reach our goals quicker. It also allows us to ensure we’re paying competitively and fairly across the globe.
-- Q: I applied or was hired before April 2, 2024. How does this impact my compensation?
+- Q: I applied or was hired before April 4, 2024. How does this impact my compensation?
   - A: Your compensation will not be impacted by this change. You are “grandfathered” into zone 1, which is our existing pay model. In other words, nothing is changing for you.
 - Q: What is the exact definition of a zone - is it the place someone lives? Where the company (for contractors) is registered? Where they work from most of the time?
   - A: The definition of a zone is where a teammate pays taxes, which is generally where someone lives 51%+ of the time.
