@@ -182,7 +182,7 @@ Because CEs work directly with Sourcegraph users in the course of assessing the 
 
 It is important to distinguish all customer feedback CEs receive from what would be considered a product gap. A product gap would be some feedback a CE collects from a prospect during the initial sales cycle, or from an existing customer, that could be within the expected scope of work for Engineering. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated into our roadmap. In contrast, a product feature or functionality that does not perform as documented might be a bug and should be handled through Product Support.
 
-All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../product/process/feedback/surfacing_product_feedback.md).
+All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../product/process/feedback/surfacing_product_requests.md).
 
 ### Weekly Tech Win Review
 
