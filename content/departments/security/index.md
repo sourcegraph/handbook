@@ -75,7 +75,7 @@ In an effort to work closely with our teammates and shift security focus more in
 
 - **Does this mean I can't talk to anyone else on the security team?**
 
-  - Absolutely not. You are welcome to reach out to anyone in the security team at anytime. We encourage everyone to use the #security slack channel.
+  - Absolutely not. You are welcome to reach out to anyone in the security team at anytime. We encourage everyone to use the #discuss-security slack channel.
 
 - **Who is the ambassador for my team?**
   <table>
