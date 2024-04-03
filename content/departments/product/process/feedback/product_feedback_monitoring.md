@@ -33,7 +33,7 @@ Note: We don't reply to feedback not from customers that do not have a comment (
 
 Often, teammates will post feedback directly to the #feedback and #feedback-dogfood channels. As a PM, you should review and triage those messages.
 
-If the person that submitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_feedback.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be tracked as product gap submissions. Product gap submissions are automatically posted to the #feedback channel, and automatically tag the right PM.
+If the person that submitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_requests.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be tracked as product gap submissions. Product gap submissions are automatically posted to the #feedback channel, and automatically tag the right PM.
 
 ### Labelling GitHub issues with no team label
 

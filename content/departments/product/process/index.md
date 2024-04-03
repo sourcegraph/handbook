@@ -20,7 +20,7 @@ See [strategy](../../../strategy-goals/index.md).
 - Feedback
   - [Tracking user & stakeholder feedback](feedback/user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
   - [Product feedback monitoring](feedback/product_feedback_monitoring.md) - how we respond to user feedback for the feedback channels the product team owns.
-  - [Surfacing feedback to the product team](feedback/surfacing_product_feedback.md) - how other teams surface feedback
+  - [Surfacing feedback to the product team](feedback/surfacing_product_requests.md) - how other teams surface feedback
 - Metrics
 
 ### Prioritize & build

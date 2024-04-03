@@ -1,6 +1,6 @@
 # Prioritizing
 
-If you are looking for information on how to give feedback to the product team for something you need to be prioritized, see our instructions for [surfacing product feedback](../feedback/surfacing_product_feedback.md). Otherwise, this page describes different ways Product Managers think about prioritization for their areas.
+If you are looking for information on how to give feedback to the product team for something you need to be prioritized, see our instructions for [surfacing product feedback](../feedback/surfacing_product_requests.md). Otherwise, this page describes different ways Product Managers think about prioritization for their areas.
 
 ## Personas
 

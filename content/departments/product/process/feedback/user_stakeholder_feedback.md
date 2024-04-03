@@ -2,7 +2,7 @@
 
 Our passionate users and stakeholders, both internal and external, provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
 
-_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md)._
+_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_requests.md)._
 
 ## Sources of feedback
 
@@ -36,7 +36,7 @@ The product team can access recordings using [Chorus AI](https://chorus.ai/). Yo
 ### CE feedback
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns raising customer or prospect feedback as [product gaps](surfacing_product_feedback.md). Product owns triaging those product gaps, and keeping CE updated about prioritisation decisions, if the items ends up on the roadmap.
+- **Owner:** CE owns raising customer or prospect feedback as [product gaps](surfacing_product_requests.md). Product owns triaging those product gaps, and keeping CE updated about prioritisation decisions, if the items ends up on the roadmap.
 - **Pipeline:** Each time a product gap submission is added to salesforce, it is posted in #feedback, @-mentioning the PM of the relevant product area. This is powered by a [Zap](https://zapier.com/app/editor/145738791).
 
 Other resources (internal only) the CE team owns:
@@ -69,7 +69,7 @@ We have a few different email lists that are used to send us feedback.
 ### GitHub issues
 
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, product managers are [responsible for labelling with the right team](product_feedback_monitoring.md#labelling-github-issues-with-no-team-label).
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_requests.md). For issues filed by someone outside Sourcegraph, product managers are [responsible for labelling with the right team](product_feedback_monitoring.md#labelling-github-issues-with-no-team-label).
 
 See [How to reference customer names in public tickets](../prioritize_and_build/prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
@@ -81,7 +81,7 @@ See [How to reference customer names in public tickets](../prioritize_and_build/
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. Product managers own [routing and logging this feedback](product_feedback_monitoring.md).
+- **Owner:** We [ask that teammates surface product feedback](surfacing_product_requests.md) in #feedback. Product managers own [routing and logging this feedback](product_feedback_monitoring.md).
 
 ### Support tickets
 
