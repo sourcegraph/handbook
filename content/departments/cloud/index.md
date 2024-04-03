@@ -53,10 +53,30 @@ Build a **fully managed platform** for using Sourcegraph, providing **feature co
 
 ## How to contact the team and ask for help
 
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
-- For internal Sourcegraph teammates, join us in #discuss-cloud-ops slack channel to ask questions or request help from our team.
-- For [managed instance requests](#managed-instance-requests) or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the #cloud slack channel
-- You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle.
+- For emergencies with an **active incident**, alert the team using Slack command `/genie alert [message] for cloud` and optionally tag the `@cloud-support` handle.
+- For non-emergencies issues that are related with an active Cloud instance, follow [intake process](#request-for-help-playbook) below.
+- For general questions, join us in #discuss-cloud-ops slack channel to ask questions or request help from our team.
+- For Cloud instances requests (e.g., create cloud instance, configure cody), follow go/cloud-requests
+
+**IMPORTANT** You may tag the `@cloud-support` handle if you are looking for immediate attention, and it will notify our [on-call engineers](#on-call). Please avoid tagging/DM a specific teammate or the `@cloud-team` handle. For immediate escalation, please tag Cloud EM in your message on Slack.
+
+### Request for help playbook
+
+This is the playbook for incoming requests concerning a specific Cloud instance, please follow it prior to engaging support:
+
+> [!NOTE] When you're unsure, always fallback to our `Non-Emergency Contact` in go/whodoinotify
+
+- Is this a technical issue concerning an existing Cloud instance?
+  - Yes, the site is down.
+    - This is an emergency, follow go/whodoinotify and page on-call contact
+  - Yes, users are seeing degraded performance, e.g., search is slow, perm syncing is too slow, repo is not clone
+    - Run some [basic sanity check](#sanity-check-on-a-cloud-instance) to decide the type of problems
+      - For Cloud infra issues, follow Cloud Ops `Non-Emergency Contact` in go/whodoinotify
+      - For application-specific issues, route requests to owning team from go/whodoinotify and tag @cloud-support for visibility
+  - Yes, users are having trouble configuring the instance or using a specific features, e.g., SAML login error, cannot sync with code host due to unauthenticated error, batch changes unauthenticated error
+    - Either route to the owning team from go/whodoinotify or open a support ticket with Support Engineering
+  - Yes, but my issue is not covered above. Follow Cloud Ops `Non-Emergency Contact` in go/whodoinotify
+  - No, this is most likely a general question (e.g., questions about prospective customers), follow Cloud Ops `Non-Emergency Contact` in go/whodoinotify
 
 ## Cloud Instances
 
@@ -173,6 +193,21 @@ Restart the frontend after changing the site-config.
 - Click `Run workflow` and enter in the customer slug and select `prod` as the environment.
 
 Note: If you do not know the slug, refer to the `Name` field of the table at http://go/cloud-ops.
+
+### Sanity check on a Cloud instance
+
+When receiving customers complaint regarding performance or application issue, we need to do some basic sanity check to decide how to route the requests:
+
+- Visit go/cloud-requests and locate the instance.
+- Follow pre-req and request Cloud infra access.
+- Navigate to "Quick links" section.
+
+Then, we can decide the type of issue we are seeing, one of cloud infra issue, or application-specific issue.
+
+- Review resource utilization in Grafana dashboard (`Global container resource utilization` dashboard) to ensure there is no anomaly (e.g., constant 90%+ utilization, constant spiky utilization).
+  - Yes, this indicates Cloud infra problem. Please escalate to `@cloud-support`.
+- Review application logs of relevant services and check if there is any anomaly, e.g., a lot of errors.
+  - Yes, this indicates an application problem
 
 <!-- Coming soon -->
 <!-- #### **Request to increase executors count on a Cloud instance** - [New Request]()
