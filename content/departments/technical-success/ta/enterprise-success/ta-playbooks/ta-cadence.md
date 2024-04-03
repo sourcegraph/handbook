@@ -19,7 +19,7 @@
 #### Ad-hoc customer meetings
 
 - This could be trainings, check-in calls, troubleshooting, whatever meetings need to be set up to facilitate the customer's journey with Sourcegraph.
-- As requests come in from customers make sure you [surface feedback to the product team](../../../../product/process/feedback/surfacing_product_feedback.md)
+- As requests come in from customers make sure you [surface feedback to the product team](../../../../product/process/feedback/surfacing_product_requests.md)
 
 #### Customer slack channel communication
 

@@ -2,7 +2,7 @@
 
 The following table documents the ownership of our product and tech stack.
 
-If you see an area that is missing, [figure out](../../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
+If you see an area that is missing, figure who the right owner is via GoLinks (go/whodoinotify) and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
 ### User journeys
 
