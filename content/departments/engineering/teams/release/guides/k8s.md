@@ -13,7 +13,6 @@
 
 ## Troubleshooting guide for CSE
 
-
 ### For customers using Helm Chart version `<= 0.4.0`
 
 No change is required, you can apply the same troubleshooting process for the Kustomize deployment method.
@@ -110,7 +109,7 @@ Not only is this much better for deployment as it’s much simpler than forking 
 
 #### How should we position Helm to customers?
 
-We recommend Helm as _**the**_ best method for deploying Sourcegraph. However, it's still early for Sourcegraph and Helm, so if a customer is unfamiliar with Helm and more comfortable with our other deployment/configuration methods, we suggest not pushing hard for them to use Helm.
+We recommend Helm as _**the**_ best method for deploying Sourcegraph. However, if a customer is unfamiliar with Helm and more comfortable with our other deployment/configuration methods, we suggest not pushing hard for them to use Helm.
 
 There is the possibility that customers will find that the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/values.yaml) file lacks the customizations they need (though worth reiterating that editing that file is not the method for customizing - [see here](https://docs.sourcegraph.com/admin/install/kubernetes/helm#configuration)). So it's strongly recommended that CE familiarize themselves with what _is_ currently covered, and try to identify anything outside of it (and let Release know) as early as possible in the scoping process.
 
