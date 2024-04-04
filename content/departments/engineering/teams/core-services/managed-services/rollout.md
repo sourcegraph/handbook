@@ -30,19 +30,19 @@ rollout:
   serviceAccount: sourcegraph-sa@ci-project.iam.gserviceaccount.com
 
 environments:
-- id: development
-  projectID: msp-example-development-0000
-  category: test
-  deploy:
-    type: rollout
-  # ...
+  - id: development
+    projectID: msp-example-development-0000
+    category: test
+    deploy:
+      type: rollout
+    # ...
 
-- id: production
-  projectID: msp-example-production-0000
-  category: external
-  deploy:
-    type: rollout
-  # ...
+  - id: production
+    projectID: msp-example-production-0000
+    category: external
+    deploy:
+      type: rollout
+    # ...
 ```
 
 ### CI Configuration
@@ -64,6 +64,7 @@ msp_delivery(
 ```
 
 The following must be modifed to match your service:
+
 - `gcp_project`: the GCP `projectID` of the **last** stage of the pipeline
 - `msp_service_id`: the `service.id` of your service
 - `repository`: the docker image repository where your service images are pushed
@@ -97,7 +98,7 @@ jobs:
         with:
           # Workload identity should be configured in the `infrastructure` repo
           # See https://github.com/sourcegraph/infrastructure/blob/1a82cd96e84cf329ad5d697d8b349b12bc419ed7/managed-services/sourcegraph-accounts-publishing-pipeline/main.tf for an example
-          workload_identity_provider: "projects/1234567890/locations/global/workloadIdentityPools/msp-example-publishing-provider/providers/msp-example-publishing-provider"
+          workload_identity_provider: 'projects/1234567890/locations/global/workloadIdentityPools/msp-example-publishing-provider/providers/msp-example-publishing-provider'
           # Service account must match the service account specified in the MSP rollout specification
           service_account: wi-gh-msp-example-publishing@ci-project.iam.gserviceaccount.com
       # Authenticate to the registry
@@ -126,14 +127,14 @@ jobs:
 ```
 
 The following must be modifed to match your service:
+
 - `workload_identity_provider`: provider configured in the `infrastructure` repo
 - `service_account`: service account configured in the `infrastructure` repo
 - `MSP_SERVICE_ID`: the `service.id` of your service
 - `GCP_PROJECT`: the GCP `projectID` of the **last** stage of the pipeline
 
-
-
 The `msp_deploy.sh` script has the following contents and should be located at `.github/workflows/msp_deploy.sh`
+
 ```sh
 #!/usr/bin/env bash
 
