@@ -1,15 +1,15 @@
 # MSP Cloud Deploy Rollouts
 
-The Sourcegraph Managed Services Platform supports [GCP Cloud Deploy](https://cloud.google.com/deploy) to provision a delivery pipeline for services. The pipeline can be composed of one or more stages. When a new version of your service is built it can be deployed to the first stage of the pipeline and manually promoted to the next stage(s).
+The Sourcegraph Managed Services Platform supports [GCP Cloud Deploy](https://cloud.google.com/deploy) to provision a delivery pipeline for services. The pipeline can be composed of one or more stages. When a new version of your service is built it is deployed to the first stage of the pipeline and can be manually promoted to the next stage(s).
 As such if your service is composed of `development` and `production` environments; new versions can be continuously delivered to `development` and manually promoted to `production` after they have been tested.
 
 ## Configuring Rollouts
 
-Configuring rollouts requires making changes to the MSP specifiction for a service and to your CI pipeline which builds and publishes Docker images for your service. For any configuration help reach out in #discuss-core-services
+Configuring rollouts requires making changes to the MSP specifiction for a service and to your CI pipeline which builds and publishes Docker images for your service. For any configuration help reach out in #discuss-core-services.
 
 ### MSP Specification
 
-To configure rollouts for a service a top-level `rollout` object defines the stages (environments) and the order through which releases progress. Each service included in the rollout must specify a `deploy.type` of `rollout`
+To configure rollouts for a service a top-level `rollout` object defines the stages (environments) and the order through which releases progress. Each service included in the rollout must specify a `deploy.type` of `rollout`.
 
 Below is a minified MSP specification detailing the required configuration to use Cloud Deploy.
 
@@ -83,7 +83,7 @@ jobs:
       ARTIFACT_REPOSITORY: us-central1-docker.pkg.dev/sourcegraph-dev/msp-example
       ARTIFACT_HOST: us-central1-docker.pkg.dev
     steps:
-      # checkout repo ..
+      # checkout repo
       - name: Checkout code
         uses: actions/checkout@v4
         with:
