@@ -108,13 +108,6 @@ Our Helm chart has a lot of sensible defaults baked into the [values.yaml](https
 
 Not only is this much better for deployment as it’s much simpler than forking the repo and maintaining the changes yourself, it also ensures that you never have to deal with merge conflicts during upgrades.
 
-#### Why are you adding it as a deployment method?
-
-- Customers have requested it
-- Helm is widely adopted and can be considered an industry standard
-- It saves customers from maintaining a fork of the deploy-sourcegraph repo and managing git conflicts when merging in the latest version.
-- Simplifies previously complex customizations for customers. For example, when using the existing [kustomize namespaced overlay](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph/-/tree/overlays/namespaced) to deploy Sourcegraph into a custom namespace, users need to set the namespace in multiple files. With helm, these files pull the correct namespace value without manual input.
-
 #### How should we position Helm to customers?
 
 We recommend Helm as _**the**_ best method for deploying Sourcegraph. However, it's still early for Sourcegraph and Helm, so if a customer is unfamiliar with Helm and more comfortable with our other deployment/configuration methods, we suggest not pushing hard for them to use Helm.
@@ -193,14 +186,6 @@ More about this in the [Reviewing changes](https://docs.sourcegraph.com/admin/in
 Without opting to either use Kustomize on top of Helm, or create a sub chart ([read more about both here](https://docs.sourcegraph.com/admin/install/kubernetes/helm#advanced-configuration)), customers are limited to the configuration options built into the chart by Sourcegraph.
 
 If a customer needs additional features not included in the chart, it needs to be requested to be added.
-
-#### Do we support converting Docker Compose/Kustomize/plain Kubernetes to use Helm?
-
-Not yet, but it’s planned for FY23-Q2/3.
-
-Instead, it should be used on a new installation if a customer really wishes to move to Helm.
-
-We strongly recommend against customers trying to undertake the conversion themselves. There are breaking changes between Kustomize and Helm (especially if they aren't already using the non-privileged overlay).
 
 #### Can a customer who’s written their own Helm chart migrate to ours?
 
