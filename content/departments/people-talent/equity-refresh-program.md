@@ -378,7 +378,7 @@ $3,620</p>
 
 To better illustrate the value of the equity grant, please [view our calculator](https://docs.google.com/spreadsheets/d/1EOraJn-jEk3z2W4NL6J-Yrp9W5kFHQ7nsCHnckshUhc/edit#gid=624347390).
 
-**4- Year Equity Refresh Program:**
+## 4- Year Equity Refresh Program:
 
 The 4-Year Refresh Program is designed to ensure the ongoing competitiveness of teammate equity compensation.
 
