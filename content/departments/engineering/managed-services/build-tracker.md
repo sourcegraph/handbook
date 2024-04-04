@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 20:09:13.683871 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/05e843e1e494d583b307906a36d4a49b4fb655de
+Last updated: 2024-04-04 18:45:01.536381 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/6d96fe3d4aed2366f4accae010febe949ecaefdf
 -->
 
 This document describes operational guidance for Build Tracker infrastructure.
@@ -17,25 +17,25 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY         | DETAILS                                                                                                                                                                       |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Service ID       | `build-tracker` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/build-tracker/service.yaml))                                              |
-| Owners           | **dev-experience**                                                                                                                                                            |
-| Service kind     | Cloud Run service                                                                                                                                                             |
-| Environments     | [prod](#prod)                                                                                                                                                                 |
-| Docker image     | `us.gcr.io/sourcegraph-dev/build-tracker`                                                                                                                                     |
-| Source code      | [`github.com/sourcegraph/sourcegraph` - `dev/build-tracker`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/dev/build-tracker)                                          |
-| Rollout Pipeline | [build-tracker-us-central1-rollout](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/build-tracker-us-central1-rollout?project=build-tracker-prod-59bf) |
+|     PROPERTY     |                                                                                     DETAILS                                                                                     |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Service ID       | `build-tracker` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/build-tracker/service.yaml))                                                |
+| Owners           | **dev-experience**                                                                                                                                                              |
+| Service kind     | Cloud Run service                                                                                                                                                               |
+| Environments     | [prod](#prod)                                                                                                                                                                   |
+| Docker image     | `us.gcr.io/sourcegraph-dev/build-tracker`                                                                                                                                       |
+| Source code      | [`github.com/sourcegraph/sourcegraph` - `dev/build-tracker`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/dev/build-tracker)                                            |
+| Rollout Pipeline | [`build-tracker-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/build-tracker-us-central1-rollout?project=build-tracker-prod-59bf) |
 
 ## Environments
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                                |
-| ------------------- | ------------------------------------------------------------------------------------------------------ |
+|      PROPERTY       |                                                DETAILS                                                 |
+|---------------------|--------------------------------------------------------------------------------------------------------|
 | Project ID          | [`build-tracker-prod-59bf`](https://console.cloud.google.com/run?project=build-tracker-prod-59bf)      |
 | Category            | **test**                                                                                               |
-| Deployment Type     | rollout                                                                                                |
+| Deployment Type     | `rollout`                                                                                              |
 | Resources           | [prod Redis](#prod-redis)                                                                              |
 | Slack notifications | [#alerts-build-tracker-prod](https://sourcegraph.slack.com/archives/alerts-build-tracker-prod)         |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=build-tracker-prod-59bf) |
@@ -45,8 +45,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          ACCESS          |                                                                                                                                                                        ENTITLE REQUEST TEMPLATE                                                                                                                                                                        |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
 | GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -56,8 +56,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Build Tracker prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                              |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|    PROPERTY    |                                                                                                                                                               DETAILS                                                                                                                                                                |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=build-tracker-prod-59bf)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=build-tracker-prod-59bf) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=build-tracker-prod-59bf)                                                                                                                                                                                                                                          |
@@ -71,8 +71,8 @@ sg msp logs build-tracker prod
 
 #### prod Redis
 
-| PROPERTY | DETAILS                                                                                                                     |
-| -------- | --------------------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                           DETAILS                                                           |
+|----------|-----------------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=build-tracker-prod-59bf) |
 
 #### prod Terraform Cloud
