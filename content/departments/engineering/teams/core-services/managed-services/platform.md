@@ -41,6 +41,7 @@ From a simple service configuration YAML ([examples](https://github.com/sourcegr
   - Shortcuts to relevant UIs in `sg msp tfc view`, `sg msp logs`, etc.
   - Securely connect to your PostgreSQL instance using `sg msp pg connect`
 - Generated infrastructure guidance, rendered in the [Managed Services infrastructure](../../../managed-services/index.md) pages.
+- Continuous delivery via [Cloud Deploy delivery pipelines](./rollout.md)
 
 See [our GitHub roadmap](https://github.com/orgs/sourcegraph/projects/375/views/1) and [2023 Q3 Managed Services Platform (MSP) proof-of-concept update](https://docs.google.com/document/d/1DSqKqCgXW2m0TCVBmDSasY2Hxb9cp9Uv_NgF4MEfAto/edit) for more details on things we will be adding to MSP.
 
