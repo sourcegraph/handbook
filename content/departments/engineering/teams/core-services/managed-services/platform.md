@@ -5,6 +5,8 @@ MSP takes a service specification and generates Terraform manifests and adjacent
 
 By adopting MSP for your managed service, it will benefit from [an expanding set of features and integrations](#features), alignment with infrastructure and security best practices at Sourcegraph, and support from the [Core Services team](../index.md).
 
+For interacting with existing MSP services, see [operating services](#operating-services).
+
 ## Use cases
 
 Any "managed service" - internal or customer-facing, for testing or for production - can be operated on Managed Services Platform!
