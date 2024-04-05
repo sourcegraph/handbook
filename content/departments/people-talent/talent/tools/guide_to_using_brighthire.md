@@ -12,15 +12,15 @@ Here is a 1 minute [BrightHire tour](https://www.loom.com/share/8b7de9e5e7f1454c
 
 We believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.
 
-BrightHire also helps our interviewers feel confident that they are providing an excellent candidate experience by running a fair and effective interview process. After every interview, full highlights from the conversation provide evidence that is essential for strong decision making and reducing bias. Along with training, this will help us check and mitigate the unconscious biases that we bring into interviews and hiring decisions.
+BrightHire also helps our interviewers feel confident that they are providing an excellent candidate experience by running a fair and effective interview process. After every interview, full highlights from the conversation provide evidence that is essential for strong decision-making and reducing bias. Along with training, this will help us check and mitigate the unconscious biases that we bring into interviews and hiring decisions.
 
 Specifically, BrightHire helps with:
 
 - **Equitable Hiring:** BrightHire helps us reduce bias in every interview and hiring decision by facilitating structured, consistent and evidence-based hiring for a fundamentally more equitable process.
-- **Quality & Consistency**: BrightHire takes the gut-feelings and guesswork out of our decision making process, helping Sourcegraph uncover the best talent and raise the quality of every single interview, assessment and hiring decision our team makes.
+- **Quality & Consistency**: BrightHire takes the gut feelings and guesswork out of our decision-making process, helping Sourcegraph uncover the best talent and raise the quality of every single interview, assessment and hiring decision our team makes.
 - **Speed & Efficiency**: BrightHire helps us make great hires in record time by shortening feedback loops, removing unnecessary steps, and eliminating misalignment across our hiring teams.
 
-## How to setup BrightHire
+## How to set up BrightHire
 
 You **must** be on Google Chrome in order to use BrightHire.
 
@@ -36,11 +36,11 @@ Click the "Interview with BrightHire" button in your calendar invite when joinin
 
 #### Step 2 (locate your BrightHire pop-up window)
 
-You should see your BrightHire Chrome extension pop up to help guide you. If you don't see it, click the puzzle-piece icon in the top right hand corner of your screen and it will show up.
+You should see your BrightHire Chrome extension pop up to help guide you. If you don't see it, click the puzzle piece icon in the top right-hand corner of your screen and it will show up.
 
 #### Step 3 (sync your notes with Greenhouse)
 
-Use the BrightHire pop up window to reference the structured interview questions you should ask. These questions are synced with your Greenhouse scorecard. Click on each question within the BrightHire window so that they're timespamped in the recording. The entire interview will be captured and transcribed for you, but if you choose to take notes, please do so under each question in BrightHire. Loom instructions for step 3 can be found [here](https://www.loom.com/share/dd9845ff7c004abaa26d7b560d5de782?sid=88762b99-79a0-429a-8bc5-ab4ad833dc5e).
+Use the BrightHire pop-up window to reference the structured interview questions you should ask. These questions are synced with your Greenhouse scorecard. Click on each question within the BrightHire window so that they're timestamped in the recording. The entire interview will be captured and transcribed for you, but if you choose to take notes, please do so under each question in BrightHire. Loom instructions for step 3 can be found [here](https://www.loom.com/share/dd9845ff7c004abaa26d7b560d5de782?sid=88762b99-79a0-429a-8bc5-ab4ad833dc5e).
 
 #### Step 4 (navigate to your Greenhouse scorecard)
 
@@ -48,7 +48,7 @@ Once you leave the interview, click on the green "Complete scorecard" button wit
 
 #### Step 5 (import your BrightHire notes to Greenhouse)
 
-On your Greenhouse scorecard, click the blue "View recording" button on the side panel. You will be shown the manual notes that you took in BrightHire. Next to "Interview Questions" above the first question in Greenhouse, click the blue "Import notes" button with a BrightHire symbol. Any notes you took within BrightHire will then be automatically pulled to each question within Greenhouse, along with a hyperlinked timespamp of when it was asked in the interview so that you can easily reference that answer back.
+On your Greenhouse scorecard, click the blue "View recording" button on the side panel. You will be shown the manual notes that you took in BrightHire. Next to "Interview Questions" above the first question in Greenhouse, click the blue "Import notes" button with a BrightHire symbol. Any notes you took within BrightHire will then be automatically pulled to each question within Greenhouse, along with a hyperlinked timestamp of when it was asked in the interview so that you can easily reference that answer back.
 
 #### Step 6 (leveraging AI for your notes)
 
@@ -76,7 +76,7 @@ Within the candidate compare page, you can place two candidates side by side and
 
 Q: How does BrightHire help me as an interviewer?
 
-- A: BrightHire allows you to focus on the candidate, not on taking notes. It conveniently puts your structured interview questions and areas to cover at your fingertips, captures the details to make it easy and fast to leave substantive feedback, makes it seamless to collaborate with your hiring team to efficiently stay in-sync, and creates a more fair and equitable hiring process by removing subjectivity.
+- A: BrightHire allows you to focus on the candidate, not on taking notes. It conveniently puts your structured interview questions and areas to cover at your fingertips, captures the details to make it easy and fast to leave substantive feedback, makes it seamless to collaborate with your hiring team to efficiently stay in sync, and creates a more fair and equitable hiring process by removing subjectivity.
 
 Q: What should I say if a candidate asks why we record our interviews?
 
@@ -91,13 +91,13 @@ Q: Will the candidate know they are being recorded?
 
 - A: Yes, the candidate will be made aware of the recording in the following ways:
   - [BrightHire's disclosure](https://help.brighthire.ai/en/articles/4128677-recording-disclosure-and-consent) is included in event invitations.
-  - Candidates recieve the following discolsure in every single interview confirmation email: "We ask structured questions for all interviews - meaning, all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. Please note, this interview may be recorded so that we can focus on you, not taking notes, and ensure that we're delivering a great interview experience. If you prefer not to be recorded during your interview, please let us know - the structure of the interview and decision-making process will remain the same and your decision not to be recorded will have no weight on your candidacy."
+  - Candidates receive the following disclosure in every single interview confirmation email: "We ask structured questions for all interviews - meaning, all candidates are asked the same questions in an effort to reduce bias and to even the playing field. Please note, this interview may be recorded so that we can focus on you, not taking notes, and ensure that we're delivering a great interview experience. If you prefer not to be recorded during your interview, please let us know - the structure of the interview and decision-making process will remain the same and your decision not to be recorded will have no weight on your candidacy."
   - For phone interviews with BrightHire, candidates hear a notification "This interview will be recorded so we can focus on you, not taking notes" before every BrightHire interview.
-  - For Zoom interviews with BrightHire, candidates see a visual "Recording" in the top left corner of the Zoom. And as an interviewer, you have the option to enable active consent in Zoom, meaning that candidates have to click to agree to enter the Zoom, with the understanding that they will be recorded.
+  - For Zoom interviews with BrightHire, candidates see a visual "Recording" in the top left corner of the Zoom. As an interviewer, you have the option to enable active consent in Zoom, meaning that candidates have to click to agree to enter the Zoom, with the understanding that they will be recorded.
 
 Q: Is using BrightHire optional for our teammates?
 
-- A: Just like with candidates, using BrightHire is optional for all interviewers. However, we strongly encourage giving it a try and truly believe it will benefit you as an interviewer, as well as improve our candidate experience. If you chose not to use BrightHire, please partner with the Talent team to ensure you’re still providing a consistent, structured interview experience for all candidates, and please submit robust feedback in writing immediately following the interview to ensure your recall is as strong as possible.
+- A: Just like with candidates, using BrightHire is optional for all interviewers. However, we strongly encourage giving it a try and truly believe it will benefit you as an interviewer, as well as improve our candidate experience. If you choose not to use BrightHire, please partner with the Talent team to ensure you’re still providing a consistent, structured interview experience for all candidates, and please submit robust feedback in writing immediately following the interview to ensure your recall is as strong as possible.
 
 Q: Is using BrightHire optional for our candidates?
 
@@ -111,11 +111,11 @@ Q: Will BrightHire take notes for me?
 
 - A: With BrightHire, the notes you take in the Interview Assistant will be time-stamped to take you right back into key moments. BrightHire’s Auto-Highlights pull out key moments for you after the interview. You can toggle these on or off when you’re reviewing the interview in BrightHire by using the switch above the Notes section.
 
-Q: Does BrightHire transcribe in real time?
+Q: Does BrightHire transcribe in real-time?
 
 - A: The interview transcription will be ready after the interview is over. The notes you take in the Interview Assistant will be time-stamped back to the point in the interview at which you wrote them, in both the transcription and recording.
 
-Q: Who can see a BrightHire interviews?
+Q: Who can see a BrightHire interview?
 
 - A: The hiring team for the role and the talent team will be able to see your interviews. Interviews can be made private in BrightHire, if necessary. We take a candidate's privacy seriously, and these are the same people who can see a candidate's information in Greenhouse, our ATS.
 
@@ -139,7 +139,7 @@ Q: How does BrightHire benefit me as a candidate?
 
 Q: How will I know that my interview is recorded?
 
-- A: You will always know that the interview is being recorded. Sourcegraph will first inform you in the interview confirmation email. Then, if the interview is over the phone, you may hear an audio message announcing the call is being recorded or the interviewer will say the interview is being recorded. If the interview is being conducted over a video conference system, you will see a visual recording notification (like a flashing red recording button), hear an audio message, and/or see a recording notification appear when you join the video-conference.
+- A: You will always know that the interview is being recorded. Sourcegraph will first inform you in the interview confirmation email. Then, if the interview is over the phone, you may hear an audio message announcing the call is being recorded or the interviewer will say the interview is being recorded. If the interview is being conducted over a video conference system, you will see a visual recording notification (like a flashing red recording button), hear an audio message, and/or see a recording notification appear when you join the video conference.
 
 Q: Can I choose to interview with Sourcegraph without being recorded?
 
@@ -151,7 +151,7 @@ Q: Who will be able to see my interview?
 
 Q: How long will Sourcegraph hold on to my interview?
 
-- A: Under GDPR, we are legally required to delete interview recordings when we no longer have a business need for them. There is no legal requirement specifying the amount of time we have to delete the recording. As a matter of policy, Sourcegraph will auto delete all interview recordings within 365 days of the recording. If at any time you would like Sourcegraph to delete your interview recording, you can email your request to support@brighthire.ai and your recording will be deleted (applies to EU residents and to non-EU candidates interviewing with companies that adhere to GDPR).
+- A: Under GDPR, we are legally required to delete interview recordings when we no longer have a business need for them. There is no legal requirement specifying the amount of time we have to delete the recording. As a matter of policy, Sourcegraph will auto-delete all interview recordings within 365 days of the recording. If at any time you would like Sourcegraph to delete your interview recording, you can email your request to support@brighthire.ai and your recording will be deleted (applies to EU residents and to non-EU candidates interviewing with companies that adhere to GDPR).
 
 Q: Is my interview secure?
 
