@@ -12,6 +12,29 @@ Our Professional Services (PS) team is comprised of several groups:
 
 Our PS teams work primarily in support of Strategic customers as they deploy Sourcegraph into production environments. IE is introduced to the customer at the start of a contract, and will work closely with the customer to ensure all deployment success criteria are met. IE will additionally provide Sourcegraph-specific insights such as optimizing allocation of compute resources for the customer instance and configuration and deployment best practices. IE typically works in an advisory role to the customer with regular deployment syncs, asynchronous support, and ad-hoc, hands-on working sessions.
 
+## PS Offering Applicability by Segmentation
+
+PS offering applicability is determined by the market segmentation of the customer as seen below.
+
+|                         | SMB | MM                 | Enterprise         | Strategic          |
+| ----------------------- | --- | ------------------ | ------------------ | ------------------ |
+| Slack Support           | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Implementation Services | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Managed Services        | :x: | :x:                | :white_check_mark: | :white_check_mark: |
+| Resident Architect      | :x: | :x:                | :x:                | :white_check_mark: |
+| 24/7 Support SLAs       | :x: | :x:                | :x:                | :white_check_mark: |
+| Dedicated Support       | :x: | :x:                | :white_check_mark: | :white_check_mark: |
+
+## PS Discount Availability
+
+Discounts can only be applied to certain customers in specific situations dependant on market segmentation and ARR as seen below. Any discounts are still subject to approval by PS, TS, and Sales leadership.
+
+|                       | SMB                | MM                 | Enterprise  | Strategic          |
+| --------------------- | ------------------ | ------------------ | ----------- | ------------------ |
+| Not Applicable        | :heavy_check_mark: |                    |             |                    |
+| No Discount Available |                    | :heavy_check_mark: | Sub-$100k   |                    |
+| Discounting Available |                    |                    | Above $100k | :heavy_check_mark: |
+
 ## Our Team Purpose Statement
 
 Optimizing time to value by providing an exceptional product delivery experience through technical excellence
