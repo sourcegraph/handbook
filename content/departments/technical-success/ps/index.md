@@ -16,14 +16,24 @@ Our PS teams work primarily in support of Strategic customers as they deploy Sou
 
 Certain PS offering applicability is determined by the market segmentation of the customer as seen below.
 
-|                         | SMB | MM                 | Enterprise         | Strategic          |
-| ----------------------- | --- | ------------------ | ------------------ | ------------------ |
-| Slack Support           | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Implementation Services | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Managed Services        | :x: | :x:                | :white_check_mark: | :white_check_mark: |
-| Resident Architect      | :x: | :x:                | :x:                | :white_check_mark: |
-| 24/7 Support SLAs       | :x: | :x:                | :x:                | :white_check_mark: |
-| Dedicated Support       | :x: | :x:                | :white_check_mark: | :white_check_mark: |
+|                         | SMB               | MM                 | Enterprise         | Strategic          |
+|-------------------------|-------------------|--------------------|--------------------|--------------------|
+| Slack Support           | :x:               | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Implementation Services | :x:               | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Managed Services        | :x:               | :x:                | :white_check_mark: | :white_check_mark: |
+| Resident Architect      | :x:               | :x:                | :x:                | :white_check_mark: |
+| 24/7 Support SLAs       | :x:               | :x:                | :x:                | :white_check_mark: |
+| Dedicated Support       | :x:               | :x:                | :white_check_mark: | :white_check_mark: |
+
+## PS Discount Availability
+
+Discounts can only be applied to certain customers in specific situations dependant on market segmentation and ARR as seen below. Any discounts are still subject to approval by PS, TS, and Sales leadership.
+
+|                         | SMB                | MM                 | Enterprise         | Strategic          |
+|-------------------------|--------------------|--------------------|--------------------|--------------------|
+| Not Applicable          | :heavy_check_mark: |                    |                    |                    |
+| No Discount Available   |                    | :heavy_check_mark: | Sub-$100k          |                    |
+| Discounting Available   |                    |                    | Above $100k        | :heavy_check_mark: |
 
 ## Our Team Purpose Statement
 
