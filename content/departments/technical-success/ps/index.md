@@ -14,7 +14,7 @@ Our PS teams work primarily in support of Strategic customers as they deploy Sou
 
 ## PS Offering Applicability by Segmentation
 
-Certain PS offering applicability is determined by the market segmentation of the customer as seen below.
+PS offering applicability is determined by the market segmentation of the customer as seen below.
 
 |                         | SMB               | MM                 | Enterprise         | Strategic          |
 |-------------------------|-------------------|--------------------|--------------------|--------------------|
