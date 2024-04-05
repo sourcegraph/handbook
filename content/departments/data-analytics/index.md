@@ -48,8 +48,8 @@ For internal team communication, see:
 
 ## Frequently asked questions
 
-* See our full [FAQ here](faq.md).
-* [How to disable usage data collection for a customer](./how-to-airgap-disable-telemetry.md).
+- See our full [FAQ here](faq.md).
+- [How to disable usage data collection for a customer](./how-to-airgap-disable-telemetry.md).
 
 ## **How to know what we are working on:**
 
