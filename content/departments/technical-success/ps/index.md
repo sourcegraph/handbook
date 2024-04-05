@@ -16,14 +16,14 @@ Our PS teams work primarily in support of Strategic customers as they deploy Sou
 
 Certain PS offering applicability is determined by the market segmentation of the customer as seen below.
 
-|                         | SMB               | MM                 | Enterprise         | Strategic          |
-|-------------------------|-------------------|--------------------|--------------------|--------------------|
-| Slack Support           | :x:               | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Implementation Services | :x:               | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Managed Services        | :x:               | :x:                | :white_check_mark: | :white_check_mark: |
-| Resident Architect      | :x:               | :x:                | :x:                | :white_check_mark: |
-| 24/7 Support SLAs       | :x:               | :x:                | :x:                | :white_check_mark: |
-| Dedicated Support       | :x:               | :x:                | :white_check_mark: | :white_check_mark: |
+|                         | SMB | MM                 | Enterprise         | Strategic          |
+| ----------------------- | --- | ------------------ | ------------------ | ------------------ |
+| Slack Support           | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Implementation Services | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Managed Services        | :x: | :x:                | :white_check_mark: | :white_check_mark: |
+| Resident Architect      | :x: | :x:                | :x:                | :white_check_mark: |
+| 24/7 Support SLAs       | :x: | :x:                | :x:                | :white_check_mark: |
+| Dedicated Support       | :x: | :x:                | :white_check_mark: | :white_check_mark: |
 
 ## Our Team Purpose Statement
 
