@@ -1,4 +1,4 @@
-# Github Push Protection
+# GitHub Push Protection
 
 We have enabled [Github push protection](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/push-protection-for-repositories-and-organizations) feature on all public repositories for scanning secrets in commits.
 This document helps to unblock sourcegraph engineers when the push protection blocks the git push operation.
