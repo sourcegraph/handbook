@@ -16,24 +16,24 @@ Our PS teams work primarily in support of Strategic customers as they deploy Sou
 
 PS offering applicability is determined by the market segmentation of the customer as seen below.
 
-|                         | SMB | MM                 | Enterprise         | Strategic          |
-| ----------------------- | --- | ------------------ | ------------------ | ------------------ |
-| Slack Support           | ❌ | ✅                   | ✅                 | ✅                 |
-| Implementation Services | ❌ | ✅                   | ✅                 | ✅                 |
-| Managed Services        | ❌ | ❌                   | ✅                 | ✅                 |
-| Resident Architect      | ❌ | ❌                   | ❌                 | ✅                 |
-| 24/7 Support SLAs       | ❌ | ❌                   | ❌                 | ✅                 |
-| Dedicated Support       | ❌ | ❌                   | ✅                 | ✅                 |
+|                         | SMB | MM  | Enterprise | Strategic |
+| ----------------------- | --- | --- | ---------- | --------- |
+| Slack Support           | ❌  | ✅  | ✅         | ✅        |
+| Implementation Services | ❌  | ✅  | ✅         | ✅        |
+| Managed Services        | ❌  | ❌  | ✅         | ✅        |
+| Resident Architect      | ❌  | ❌  | ❌         | ✅        |
+| 24/7 Support SLAs       | ❌  | ❌  | ❌         | ✅        |
+| Dedicated Support       | ❌  | ❌  | ✅         | ✅        |
 
 ## PS Discount Availability
 
 Discounts can only be applied to certain customers in specific situations dependant on market segmentation and ARR as seen below. Any discounts are still subject to approval by PS, TS, and Sales leadership.
 
-|                       | SMB                | MM                 | Enterprise  | Strategic          |
-| --------------------- | ------------------ | ------------------ | ----------- | ------------------ |
-| Not Applicable        | ✔️                  |                    |             |                    |
-| No Discount Available |                    | ✔️                  | Sub-$100k   |                    |
-| Discounting Available |                    |                    | Above $100k | ✔️                  |
+|                       | SMB | MM  | Enterprise  | Strategic |
+| --------------------- | --- | --- | ----------- | --------- |
+| Not Applicable        | ✔️  |     |             |           |
+| No Discount Available |     | ✔️  | Sub-$100k   |           |
+| Discounting Available |     |     | Above $100k | ✔️        |
 
 ## Our Team Purpose Statement
 
