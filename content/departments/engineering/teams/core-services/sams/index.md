@@ -41,8 +41,6 @@ Publishing resources are [provisioned in `sourcegraph/infrastructure`](https://g
 
 For standard infrastructure operations, see [Sourcegraph Accounts infrastructure operations](../../../managed-services/sourcegraph-accounts.md).
 
-For common service operations, see [Sourcegraph Accounts operators cheat sheet](https://github.com/sourcegraph/accounts.sourcegraph.com/wiki/Operators-Cheat-Sheet).
-
 ### Deployments
 
 The SAMS service infrastructure is defined in [`sourcegraph/managed-services/services/sourcegraph-accounts`](https://github.com/sourcegraph/managed-services/tree/main/services/sourcegraph-accounts) utilizing [Managed Services Platform](../managed-services/platform.md).
