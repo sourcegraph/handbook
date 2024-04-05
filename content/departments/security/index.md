@@ -75,95 +75,96 @@ In an effort to work closely with our teammates and shift security focus more in
 
 - **Does this mean I can't talk to anyone else on the security team?**
 
-  - Absolutely not. You are welcome to reach out to anyone in the security team at anytime. We encourage everyone to use the #security slack channel.
+  - Absolutely not. You are welcome to reach out to anyone in the security team at anytime. We encourage everyone to use the #discuss-security slack channel.
 
 - **Who is the ambassador for my team?**
-  <table>
+<table>
   <tr>
-   <td><strong>Division/Team</strong>
+   <td>
+<strong>Team Name</strong>
    </td>
-   <td><strong>Assignee</strong>
+   <td><strong>Ambassador</strong>
    </td>
   </tr>
   <tr>
-   <td>Search Core
+   <td>Cod AI
    </td>
-   <td>Vincent
-   </td>
-  </tr>
-  <tr>
-   <td>Search Product
-   </td>
-   <td>Vincent
+   <td>Will
    </td>
   </tr>
   <tr>
-   <td>Code intelligence
+   <td>Cody Growth Enterprise
    </td>
    <td>André
    </td>
   </tr>
   <tr>
-   <td>Batch Changes
+   <td>Cody Growth PLG
    </td>
-   <td>Vincent
+   <td>Will
    </td>
   </tr>
   <tr>
-   <td>Cloud
+   <td>Cody Product Experience
+   </td>
+   <td>Dora
+   </td>
+  </tr>
+  <tr>
+   <td>Cloud Ops
    </td>
    <td>André
    </td>
   </tr>
   <tr>
-   <td>Code insight
-   </td>
-   <td>André
-   </td>
-  </tr>
-  <tr>
-   <td>Repo management
+   <td>Core Services
    </td>
    <td>Vincent
    </td>
   </tr>
   <tr>
-   <td>Delivery
+   <td>Dev Infra
    </td>
    <td>Mohammad
    </td>
   </tr>
   <tr>
-   <td>Developer Infrastructure
+   <td>Release
    </td>
-   <td>Mohammad
+   <td>Dora
    </td>
   </tr>
   <tr>
-   <td>Front End Platform
+   <td>Graph
+   </td>
+   <td>Shiva
+   </td>
+  </tr>
+  <tr>
+   <td>Search
    </td>
    <td>Vincent
    </td>
   </tr>
   <tr>
-   <td>Growth and Integrations
+   <td>Source
    </td>
-   <td>Feroz
+   <td>Vincent
    </td>
   </tr>
   <tr>
-   <td>IAM
+   <td>Search Suite
    </td>
-   <td>Feroz
+   <td>Shiva
    </td>
   </tr>
+  <tr>
    <td>Tech Ops
    </td>
    <td>Mohammad
    </td>
   </tr>
-  <tr>
-  </table>
+</table>
 
 ---
 
