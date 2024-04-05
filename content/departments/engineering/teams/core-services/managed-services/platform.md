@@ -6,6 +6,7 @@ MSP takes a service specification and generates Terraform manifests and adjacent
 By adopting MSP for your managed service, it will benefit from [an expanding set of features and integrations](#features), alignment with infrastructure and security best practices at Sourcegraph, and support from the [Core Services team](../index.md).
 
 For interacting with existing MSP services, see [operating services](#operating-services).
+Ready to spin up a new service? Check out our [Getting started](#getting-started) guide!
 
 ## Use cases
 
@@ -14,7 +15,7 @@ Today, MSP operates both internal and external services from many teams across S
 
 For an intro on what "managed services" are and how MSP can help you, check out this Loom introduction: [Creating and Operating Managed Services at Sourcegraph (Merge 2024)](https://www.loom.com/share/be0a6de474de453b80c6a4e7beaed9c2?sid=94784206-e62d-48a6-9ea4-e342ebfcaab0), and refer to [features](#features) to see what MSP can offer.
 
-**✨ Ready to spin up a new service? Check out our [Getting started](#getting-started) guide!**
+> [!NOTE] ✨ Ready to spin up a new service? Check out our [Getting started](#getting-started) guide!
 
 ## Features
 
@@ -55,7 +56,8 @@ All infrastructure manifests are managed in [sourcegraph/managed-services](https
 
 ## Getting started
 
-Before [deploying a service](#creating-and-configuring-infrastructure), you will need to [write some code](#service-code) and [build the service for distribution in MSP](#service-images).
+To get started, you will need to [write some code](#service-code) and [build the service for distribution in MSP](#service-images).
+Then, you can refer to [creating and configuring infrastructure](#creating-and-configuring-infrastructure) to get your service up and running!
 
 ### Service code
 
@@ -89,7 +91,7 @@ A full example service is available in [`cmd/msp-example`](https://github.com/so
 
 Every MSP service requires a runnable server in a Docker image whose platform is `linux/amd64`.
 
-> [!warning]
+> [!WARNING]
 > If you are building the Docker image locally or not on a `linux/amd64` platform, make sure to use [Docker buildx](https://github.com/docker/buildx), e.g.
 >
 > ```zsh
@@ -108,3 +110,7 @@ When using a private image registry within GCP, MSP will automatically provision
 ### Creating and configuring infrastructure
 
 Refer to the [sourcegraph/managed-services README](https://github.com/sourcegraph/managed-services/blob/main/README.md) for all documentation related to creating configuring MSP deployments and getting started with `sg msp`.
+
+> [!NOTE] MSP service and environment configurations live in the [`sourcegraph/managed-services`](https://github.com/sourcegraph/managed-services) repository, where generated configuration is managed under an infrastructure-as-code model.
+> MSP tooling like the `sg msp` toolchain will generally require you to be operating from a local clone of this repository.
+> Refer to the [sourcegraph/managed-services README](https://github.com/sourcegraph/managed-services/blob/main/README.md) to get started!
