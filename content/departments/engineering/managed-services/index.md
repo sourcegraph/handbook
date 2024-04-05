@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-04 18:45:01.553025 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/6d96fe3d4aed2366f4accae010febe949ecaefdf
+Last updated: 2024-04-05 18:33:05.682136 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/10ea0eca50aa33a87ebfeea5eae1b70123165043
 -->
 
 These pages contain generated operational guidance for the infrastructure of the 13 [Managed Services Platform (MSP)](../teams/core-services/managed-services/platform.md) services (across 19 environments) currently in operation at Sourcegraph.
