@@ -18,12 +18,12 @@ PS offering applicability is determined by the market segmentation of the custom
 
 |                         | SMB | MM                 | Enterprise         | Strategic          |
 | ----------------------- | --- | ------------------ | ------------------ | ------------------ |
-| Slack Support           | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Implementation Services | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Managed Services        | :x: | :x:                | :white_check_mark: | :white_check_mark: |
-| Resident Architect      | :x: | :x:                | :x:                | :white_check_mark: |
-| 24/7 Support SLAs       | :x: | :x:                | :x:                | :white_check_mark: |
-| Dedicated Support       | :x: | :x:                | :white_check_mark: | :white_check_mark: |
+| Slack Support           | ❌ | ✅                   | ✅                 | ✅                 |
+| Implementation Services | ❌ | ✅                   | ✅                 | ✅                 |
+| Managed Services        | ❌ | ❌                   | ✅                 | ✅                 |
+| Resident Architect      | ❌ | ❌                   | ❌                 | ✅                 |
+| 24/7 Support SLAs       | ❌ | ❌                   | ❌                 | ✅                 |
+| Dedicated Support       | ❌ | ❌                   | ✅                 | ✅                 |
 
 ## PS Discount Availability
 
@@ -31,9 +31,9 @@ Discounts can only be applied to certain customers in specific situations depend
 
 |                       | SMB                | MM                 | Enterprise  | Strategic          |
 | --------------------- | ------------------ | ------------------ | ----------- | ------------------ |
-| Not Applicable        | :heavy_check_mark: |                    |             |                    |
-| No Discount Available |                    | :heavy_check_mark: | Sub-$100k   |                    |
-| Discounting Available |                    |                    | Above $100k | :heavy_check_mark: |
+| Not Applicable        | ✔️                  |                    |             |                    |
+| No Discount Available |                    | ✔️                  | Sub-$100k   |                    |
+| Discounting Available |                    |                    | Above $100k | ✔️                  |
 
 ## Our Team Purpose Statement
 
