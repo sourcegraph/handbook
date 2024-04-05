@@ -46,6 +46,11 @@ For internal team communication, see:
 - #team-data-eng: for Data Engineering internal team communication
 - #team-operations: for Operations internal division communication
 
+## Frequently asked questions
+
+* See our full [FAQ here](faq.md).
+* [How to disable usage data collection for a customer](./how-to-airgap-disable-telemetry.md).
+
 ## **How to know what we are working on:**
 
 - [Data team FY25Q1 priorities](https://docs.google.com/document/d/1GKAhAin60a-qejyKaOXjzb2lS92iZ2zbYv1gK6CfWHM/edit)
