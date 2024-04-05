@@ -127,7 +127,7 @@
     "@types/relateurl": "0.2.29",
     "ajv-cli": "^5.0.0",
     "chalk": "^4.1.2",
-    "eslint": "^7.32.0",
+    "eslint": "^9.0.0",
     "globby": "^11.1.0",
     "hast": "^1.0.0",
     "hast-util-select": "^5.0.5",
