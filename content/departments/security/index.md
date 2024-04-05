@@ -87,7 +87,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
   </tr>
   <tr>
-   <td>Cod AI
+   <td>Cody AI
    </td>
    <td>Will
    </td>
