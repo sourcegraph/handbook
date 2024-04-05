@@ -48,3 +48,7 @@ It depends on the dataset:
 5. You can just use Sourcegraph normally and in the side or bottom bar it'll show all the events being triggered!
 
 Alternatively, you can always search in Amplitude when creating a chart for what you think the event might be (e.g. submitting a search is `Search Submitted`) and hopefully it pops up. If you can't find what you're looking for, feel free to reach out in #discuss-analytics and we'll take a look!
+
+### My customer wants to disable telemetry entirely. How do they do so?
+
+If they have the appropriate plan and license key, see our ["how to disable usage data collection" page](how-to-airgap-disable-telemetry.md).
