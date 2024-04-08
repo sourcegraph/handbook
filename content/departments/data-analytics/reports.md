@@ -200,6 +200,7 @@ Here's a quick [loom overview](https://www.loom.com/share/f4473f4930d947cc9514d3
 ## **Cody Pro Internal Reporting**
 
 ### **Reporting Data Source of Truth**
+
 After evaluating Stripe's dashboard, its raw backend data, and our internal data (Self-Serve Cody, SSC) for Cody Pro reporting, we chose to pivot from using Stripe to SSC due to greater control and flexibility over our data. This decision came after addressing a discrepancy between the Slack bot (using Stripe's backend data) and Stripe dashboard figures achieving a 97% data match. The move to SSC, despite a current and lower 93% match confidence with Stripe data, will promise improved internal reporting after resolving a [critical bug](https://github.com/sourcegraph/self-serve-cody/issues/707) in active subscriber counting. Stripe remains essential for financial reporting compliant with GAAP, while SSC will serve our in-depth analytics.
 [Click here](https://docs.google.com/document/d/1VX2VpoPzNCfOA_dCRrIM6_Dk5O5rY9bgI3yia0-oHDU/edit?usp=sharing) for a more detailed review of these sources' evaluation, implications, and resolutions.
 
@@ -216,7 +217,3 @@ After evaluating Stripe's dashboard, its raw backend data, and our internal data
 - **daily_revenue_retained**: The revenue from retained subscribers, calculated as retained_subscribers multiplied by $9.
 - **MRR (Monthly Recurring Revenue)**: The monthly revenue from active subscribers, calculated as active_subscribers multiplied by $9.
 - **ARR (Annual Recurring Revenue)**: The annualized MRR, calculated as MRR multiplied by 12.
-
-
-
-
