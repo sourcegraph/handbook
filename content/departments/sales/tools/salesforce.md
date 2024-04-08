@@ -336,7 +336,6 @@ Opportunities in Salesforce can be created either manually from scratch or from 
 
 **Note that we are in the process of transitioning to a weighted campaign attribution report for evaluating the various sources of qualified pipeline. This report will ensure that any campaigns attached to contacts on an opportunity prior to the opportunity creation date receive attribution, enabling us to evaluate our best sources of pipeline generation. More details to follow.**
 
-
 ### Recording outbound activity
 
 TBD
