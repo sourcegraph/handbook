@@ -79,3 +79,24 @@ Looker is the source of truth for all shareable Cody KPIs and metrics. You can g
 Amplitude contains the same Cody events data that looker does, but has fewer pre-made charts and key KPIs. In general, Amplitude is better used for exploratory analysis, such as investigating funnels and conversion or mapping user journeys. For more details on using Amplitude, see [here](reports.md#what-is-amplitude)
 
 If you're SQL savvy and would prefer to query the data directly, check out [Redash](reports.md#what-is-redash)
+
+## **Cody Pro Internal Reporting**
+
+### **Reporting Data Source of Truth**
+
+After evaluating Stripe's dashboard, its raw backend data, and our internal data (Self-Serve Cody, SSC) for Cody Pro reporting, we chose to pivot from using Stripe to SSC due to greater control and flexibility over our data. This decision came after addressing a discrepancy between the Slack bot (using Stripe's backend data) and Stripe dashboard figures achieving a 97% data match. The move to SSC, despite a current and lower 93% match confidence with Stripe data, will promise improved internal reporting after resolving a [critical bug](https://github.com/sourcegraph/self-serve-cody/issues/707) in active subscriber counting. Stripe remains essential for financial reporting compliant with GAAP, while SSC will serve our in-depth analytics.
+[Click here](https://docs.google.com/document/d/1VX2VpoPzNCfOA_dCRrIM6_Dk5O5rY9bgI3yia0-oHDU/edit?usp=sharing) for a more detailed review of these sources' evaluation, implications, and resolutions.
+
+### **Data Fields + Description**
+
+- **date**: The reference date for the data snapshot (PST).
+- **daily_subscribers**: The count of users who initiate a first or subsequent billing cycle of Cody Pro on a specific day.
+- **new_subscribers**: The count of users who start their first month of a Cody Pro subscription on a specific day.
+- **retained_subscribers**: The count of users who are active subscribers commencing their second or subsequent month of a Cody Pro subscription on a specific day.
+- **canceled_subscribers**: The count of users whose subscriptions terminated on a specific day.
+- **active_subscribers**: The total count of users with an 'active' subscription status on a specific day.
+- **daily_revenue**: The total revenue generated from daily_subscribers, calculated as daily_subscribers multiplied by $9.
+- **daily_revenue_added**: The revenue generated from new subscribers, calculated as new_subscribers multiplied by $9.
+- **daily_revenue_retained**: The revenue from retained subscribers, calculated as retained_subscribers multiplied by $9.
+- **MRR (Monthly Recurring Revenue)**: The monthly revenue from active subscribers, calculated as active_subscribers multiplied by $9.
+- **ARR (Annual Recurring Revenue)**: The annualized MRR, calculated as MRR multiplied by 12.
