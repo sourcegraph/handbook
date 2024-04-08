@@ -224,7 +224,6 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 
 **NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
-
 ## Opportunity Object
 
 ### New Business Meetings
