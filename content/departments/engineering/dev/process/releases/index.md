@@ -18,7 +18,7 @@ As of April 2024, Sourcegraph releases features monthly ([see RFC 864](https://d
 | 5.3.1   | N/A                 | N/A              | February 21, 2024 | Patch        |
 | 5.3.2   | N/A                 | N/A              | March 8, 2024     | Patch        |
 | 5.3.3   | N/A                 | N/A              | March 20, 2024    | Patch        |
-| 5.3.x   | N/A                 | April 3, 2024    | April 5, 2024     | Monthly      |
+| 5.3.9104| N/A                 | April 3, 2024    | April 5, 2024     | Monthly      |
 | 5.3.x   | N/A                 | N/A              | April 22, 2024    | Patch        |
 | 5.3.x   | N/A                 | May 2, 2024      | May 6, 2024       | Monthly      |
 | 5.3.x   | N/A                 | N/A              | May 20, 2024      | Patch        |
@@ -31,7 +31,21 @@ These releases **may** require [manual migration steps](https://sourcegraph.com/
 
 Releases are the responsibility of the [Release Team](../../../teams/release/index.md), and are performed by the team.
 
-Feature releases may be in a minor version (`3.0.0` -> `3.1.0`), or a major version (`3.0.0` -> `4.0.0`). Releases are published with [semantic versioning syntax](https://semver.org/), though Sourcegraph releases do not necessarily follow the versioning semantics.
+Releases are published with [semantic versioning syntax](https://semver.org/), though Sourcegraph releases do not necessarily follow the versioning semantics. The patch version can be between 0-65535 with the number always increasing.
+
+## FAQ
+
+**Q: Do I need to backport my PRs for it to be included in a monthly release?**
+
+A: No, you don't. Monthly releases are cut from `main`, so once your PR is merged into `main` it'll be included in the next monthly release.
+
+**Q: How do I get my bug fix into a patch release?**
+
+A: You'll need to backport it into the branch of the latest monthly release. This will be in the format `<major>.<minor>.<patch>`.
+
+**Q: How do I find out if a bug fix made it into the last release?**
+
+A: The changelog will be the source of truth for this.
 
 #### Selecting Release Dates
 
@@ -158,20 +172,6 @@ Please note that if you encounter any issues that can be resolved with an upgrad
 Cody client extensions, such as the VS Code extension, need to maintain backwards compatibility with Sourcegraph servers back to 5.0.0. The Sourcegraph server has no backward compatibility requirements with respect to the clients. However, the server should try to maintain backwards compatibility with clients on a best effort basis.
 
 Why only back to 5.0 instead of our standard policy of latest version and previous major version? That will eventually be our policy. However, since Cody was new to 5.0.0, it's a necessary exception to that policy.
-
-## FAQ
-
-**Q: Do I need to backport my PRs for it to be included in a monthly release?**
-
-A: No, you don't. Monthly releases are cut from `main`, so once your PR is merged into `main` it'll be included in the next monthly release.
-
-**Q: How do I get my bug fix into a patch release?**
-
-A: You'll need to backport it into the branch of the latest monthly release. This will be in the format `<major>.<minor>.<patch>`.
-
-**Q: How do I find out if a bug fix made it into the last release?**
-
-A: The changelog will be the source of truth for this.
 
 [patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
 [revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197
