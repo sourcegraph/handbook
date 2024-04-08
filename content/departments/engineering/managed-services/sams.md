@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.068031 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.797776 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Self-Serve Cody infrastructure.
@@ -34,6 +34,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`sams-dev-bfec`](https://console.cloud.google.com/run?project=sams-dev-bfec)                                               |
 | Category            | **test**                                                                                                                    |
+| Deployment type     | `subscription`                                                                                                              |
 | Resources           | [dev Redis](#dev-redis), [dev PostgreSQL instance](#dev-postgresql-instance), [dev BigQuery dataset](#dev-bigquery-dataset) |
 | Slack notifications | [#alerts-sams-dev](https://sourcegraph.slack.com/archives/alerts-sams-dev)                                                  |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sams-dev-bfec)                                |
@@ -132,6 +133,7 @@ sg msp tfc view sams dev
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`sams-prod-ywuz`](https://console.cloud.google.com/run?project=sams-prod-ywuz)                                                   |
 | Category            | **external**                                                                                                                      |
+| Deployment type     | `manual`                                                                                                                          |
 | Resources           | [prod Redis](#prod-redis), [prod PostgreSQL instance](#prod-postgresql-instance), [prod BigQuery dataset](#prod-bigquery-dataset) |
 | Slack notifications | [#alerts-sams-prod](https://sourcegraph.slack.com/archives/alerts-sams-prod)                                                      |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sams-prod-ywuz)                                     |

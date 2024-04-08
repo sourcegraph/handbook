@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.059926 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.791212 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Entitler infrastructure.
@@ -34,6 +34,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | ------------------------------------------------------------------------------------------------- |
 | Project ID          | [`entitler-prod-0516`](https://console.cloud.google.com/run?project=entitler-prod-0516)           |
 | Category            | **internal**                                                                                      |
+| Deployment type     | `manual`                                                                                          |
 | Resources           |                                                                                                   |
 | Slack notifications | [#alerts-entitler-prod](https://sourcegraph.slack.com/archives/alerts-entitler-prod)              |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=entitler-prod-0516) |

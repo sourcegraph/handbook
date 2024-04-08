@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.070763 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.799891 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Sourcegraph Accounts infrastructure.
@@ -26,6 +26,65 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Docker image | `us-central1-docker.pkg.dev/sourcegraph-dev/sourcegraph-accounts/accounts-server`                                                                          |
 | Source code  | [`github.com/sourcegraph/sourcegraph-accounts` - `cmd/accounts-server`](https://github.com/sourcegraph/sourcegraph-accounts/tree/HEAD/cmd/accounts-server) |
 
+<!--
+Automatically generated from the service README: https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/README.md
+-->
+
+### Operators cheat sheet
+
+#### Get email domain stats
+
+For Google sign-in abuse protection.
+
+```zsh
+$ curl -s \
+        -H "Authorization: Bearer $MANAGEMENT_SECRET" \
+        https://accounts.sourcegraph.com/api/management/v1/email-domain-stats | jq
+```
+
+#### Create a new IdP client
+
+```zsh
+$ curl -s -X POST \
+        -H "Authorization: Bearer $MANAGEMENT_SECRET" \
+        https://accounts.sourcegraph.com/api/management/v1/identity-provider/clients \
+--data '{"name": "<SERVICE NAME>", "scopes": ["<SCOPE>"], "redirect_uris": ["<REDIRECT_URI>"]}' | jq
+```
+
+#### Add new scope to an IdP client
+
+Connect to the "accounts" database:
+
+```sql
+UPDATE idp_clients
+SET scopes = scopes || '["<SCOPE>"]'::jsonb
+WHERE id = '<CLIENT_ID>'
+```
+
+#### Assign SSC admin role
+
+1. Connect to the "accounts" database.
+1. Get the user ID via email:
+   ```sql
+   SELECT user_id FROM emails WHERE email = '<EMAIL>';
+   ```
+1. Insert metadata for `ssc`:
+   ```sql
+   INSERT INTO user_metadata (created_at, updated_at, user_id, scope, metadata)
+   VALUES (now(), now(), <USER_ID>, 'ssc', '{ "roles": ["admin"] }');
+   ```
+
+## Rollouts
+
+| PROPERTY          | DETAILS                                                                                                                                                                                              |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delivery pipeline | [`sourcegraph-accounts-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/sourcegraph-accounts-us-central1-rollout?project=sourcegraph-accounts-prod-csvc) |
+| Stages            | [dev](#dev) -> [prod](#prod)                                                                                                                                                                         |
+
+Changes to Sourcegraph Accounts are continuously delivered to the first stage ([dev](#dev)) of the delivery pipeline.
+
+Promotion of a release to the next stage in the pipeline must be done manually using the GCP Delivery pipeline UI.
+
 ## Environments
 
 ### dev
@@ -34,6 +93,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`sourcegraph-accounts-dev-csvc`](https://console.cloud.google.com/run?project=sourcegraph-accounts-dev-csvc)               |
 | Category            | **test**                                                                                                                    |
+| Deployment type     | `rollout`                                                                                                                   |
 | Resources           | [dev Redis](#dev-redis), [dev PostgreSQL instance](#dev-postgresql-instance), [dev BigQuery dataset](#dev-bigquery-dataset) |
 | Slack notifications | [#alerts-sourcegraph-accounts-dev](https://sourcegraph.slack.com/archives/alerts-sourcegraph-accounts-dev)                  |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sourcegraph-accounts-dev-csvc)                |
@@ -132,6 +192,7 @@ sg msp tfc view sourcegraph-accounts dev
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`sourcegraph-accounts-prod-csvc`](https://console.cloud.google.com/run?project=sourcegraph-accounts-prod-csvc)                   |
 | Category            | **external**                                                                                                                      |
+| Deployment type     | `rollout`                                                                                                                         |
 | Resources           | [prod Redis](#prod-redis), [prod PostgreSQL instance](#prod-postgresql-instance), [prod BigQuery dataset](#prod-bigquery-dataset) |
 | Slack notifications | [#alerts-sourcegraph-accounts-prod](https://sourcegraph.slack.com/archives/alerts-sourcegraph-accounts-prod)                      |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sourcegraph-accounts-prod-csvc)                     |

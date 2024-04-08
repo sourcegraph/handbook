@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.056963 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.788768 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Cloud Relay infrastructure.
@@ -34,6 +34,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | ---------------------------------------------------------------------------------------------------- |
 | Project ID          | [`cloud-relay-prod-bd4c`](https://console.cloud.google.com/run?project=cloud-relay-prod-bd4c)        |
 | Category            | **internal**                                                                                         |
+| Deployment type     | `manual`                                                                                             |
 | Resources           |                                                                                                      |
 | Slack notifications | [#alerts-cloud-relay-prod](https://sourcegraph.slack.com/archives/alerts-cloud-relay-prod)           |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cloud-relay-prod-bd4c) |
