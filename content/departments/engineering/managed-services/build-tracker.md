@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.054341 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.786117 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Build Tracker infrastructure.
@@ -26,6 +26,15 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Docker image | `us.gcr.io/sourcegraph-dev/build-tracker`                                                                                            |
 | Source code  | [`github.com/sourcegraph/sourcegraph` - `dev/build-tracker`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/dev/build-tracker) |
 
+## Rollouts
+
+| PROPERTY          | DETAILS                                                                                                                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delivery pipeline | [`build-tracker-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/build-tracker-us-central1-rollout?project=build-tracker-prod-59bf) |
+| Stages            | [prod](#prod)                                                                                                                                                                   |
+
+Changes to Build Tracker are continuously delivered to the first stage ([prod](#prod)) of the delivery pipeline.
+
 ## Environments
 
 ### prod
@@ -34,6 +43,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
 | Project ID          | [`build-tracker-prod-59bf`](https://console.cloud.google.com/run?project=build-tracker-prod-59bf)      |
 | Category            | **test**                                                                                               |
+| Deployment type     | `rollout`                                                                                              |
 | Resources           | [prod Redis](#prod-redis)                                                                              |
 | Slack notifications | [#alerts-build-tracker-prod](https://sourcegraph.slack.com/archives/alerts-build-tracker-prod)         |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=build-tracker-prod-59bf) |

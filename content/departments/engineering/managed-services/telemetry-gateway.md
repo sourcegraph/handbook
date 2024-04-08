@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.075841 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.802551 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Telemetry Gateway infrastructure.
@@ -56,6 +56,24 @@ Please reach out to #discuss-analytics for assistance in querying the dataset - 
 2. Check for pings, as that mechanism has not changed, and validate that the instance is is on 5.2.1+
 3. If the above don't reveal anything, reach out to #discuss-core-services for further debugging at the Telemetry Gateway level.
 
+### Custom metrics
+
+The Telemetry Gateway exports some custom metrics for diagnostics on event ingestion volume as well as export size distributions.
+These metrics indicate what kinds of event volumes Sourcegraph instances are emitting.
+
+The production Telemetry Gateway instance has custom metrics dashboard defined in GCP monitoring: [Telemetry Gateway - Custom Metrics](https://console.cloud.google.com/monitoring/dashboards/builder/77c54bef-6a73-42ae-b0e8-b4c777c417e2?project=telemetry-gateway-prod-acae)
+
+## Rollouts
+
+| PROPERTY          | DETAILS                                                                                                                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delivery pipeline | [`telemetry-gateway-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/telemetry-gateway-us-central1-rollout?project=telemetry-gateway-prod-acae) |
+| Stages            | [dev](#dev) -> [prod](#prod)                                                                                                                                                                |
+
+Changes to Telemetry Gateway are continuously delivered to the first stage ([dev](#dev)) of the delivery pipeline.
+
+Promotion of a release to the next stage in the pipeline must be done manually using the GCP Delivery pipeline UI.
+
 ## Environments
 
 ### dev
@@ -64,6 +82,7 @@ Please reach out to #discuss-analytics for assistance in querying the dataset - 
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`telemetry-gateway-dev-0050`](https://console.cloud.google.com/run?project=telemetry-gateway-dev-0050)   |
 | Category            | **test**                                                                                                  |
+| Deployment type     | `rollout`                                                                                                 |
 | Resources           |                                                                                                           |
 | Slack notifications | [#alerts-telemetry-gateway-dev](https://sourcegraph.slack.com/archives/alerts-telemetry-gateway-dev)      |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=telemetry-gateway-dev-0050) |
@@ -127,6 +146,7 @@ sg msp tfc view telemetry-gateway dev
 | ------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`telemetry-gateway-prod-acae`](https://console.cloud.google.com/run?project=telemetry-gateway-prod-acae)  |
 | Category            | **external**                                                                                               |
+| Deployment type     | `rollout`                                                                                                  |
 | Resources           |                                                                                                            |
 | Slack notifications | [#alerts-telemetry-gateway-prod](https://sourcegraph.slack.com/archives/alerts-telemetry-gateway-prod)     |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=telemetry-gateway-prod-acae) |

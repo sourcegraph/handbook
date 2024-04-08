@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.064188 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.794923 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Pings Service infrastructure.
@@ -34,6 +34,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
 | Project ID          | [`pings-prod-2f4f73edf1db`](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)      |
 | Category            | **external**                                                                                           |
+| Deployment type     | `subscription`                                                                                         |
 | Resources           |                                                                                                        |
 | Slack notifications | [#alerts-pings-prod](https://sourcegraph.slack.com/archives/alerts-pings-prod)                         |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=pings-prod-2f4f73edf1db) |

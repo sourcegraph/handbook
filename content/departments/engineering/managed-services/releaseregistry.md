@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-03 15:25:17.065145 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/ffe69b92d094a0a3d3c44ecd6382a7195e64c708
+Last updated: 2024-04-08 10:19:19.795774 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for Release Registry infrastructure.
@@ -34,6 +34,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | -------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`releaseregistry-prod-5421`](https://console.cloud.google.com/run?project=releaseregistry-prod-5421)    |
 | Category            | **test**                                                                                                 |
+| Deployment type     | `manual`                                                                                                 |
 | Resources           | [prod PostgreSQL instance](#prod-postgresql-instance)                                                    |
 | Slack notifications | [#alerts-releaseregistry-prod](https://sourcegraph.slack.com/archives/alerts-releaseregistry-prod)       |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=releaseregistry-prod-5421) |
@@ -118,6 +119,7 @@ sg msp tfc view releaseregistry prod
 | ------------------- | ------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`releaseregistry-dev-6bac`](https://console.cloud.google.com/run?project=releaseregistry-dev-6bac)     |
 | Category            | **test**                                                                                                |
+| Deployment type     | `subscription`                                                                                          |
 | Resources           | [dev PostgreSQL instance](#dev-postgresql-instance)                                                     |
 | Slack notifications | [#alerts-releaseregistry-dev](https://sourcegraph.slack.com/archives/alerts-releaseregistry-dev)        |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=releaseregistry-dev-6bac) |
