@@ -23,6 +23,7 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 - Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
 - Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
 - Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated.
+- Note: If you received a 15% increase in the prior 12mo period as part of our standard merit cycle you will not be eligible for an increase UNLESS you got a promotion or had a role change. If you received an off-cycle increase or promotion AFTER the last merit cycle, you're not eligible for a merit increase this cycle.
 
 ### When do impact reviews take place?
 
