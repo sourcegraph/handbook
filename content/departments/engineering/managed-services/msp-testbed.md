@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-05 21:23:32.759877 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/10ea0eca50aa33a87ebfeea5eae1b70123165043
+Last updated: 2024-04-08 10:19:19.793129 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
 -->
 
 This document describes operational guidance for MSP Testbed infrastructure.
@@ -17,8 +17,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                          |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                             DETAILS                                                              |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | `msp-testbed` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/service.yaml))     |
 | Owners       | **core-services**                                                                                                                |
 | Service kind | Cloud Run service                                                                                                                |
@@ -33,10 +33,10 @@ Automatically generated from the service README: https://github.com/sourcegraph/
 This is a test environment used by the Core Services team for experimenting with MSP infrastructure changes.
 Each Core Services teammate generally focuses their experiments on an individual environment of this service.
 
-## Rollout
+## Rollouts
 
-| PROPERTY          | DETAILS                                                                                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     PROPERTY      |                                                                                   DETAILS                                                                                   |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Delivery pipeline | [`msp-testbed-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/msp-testbed-us-central1-rollout?project=msp-testbed-robert-7be9) |
 | Stages            | [test](#test) -> [robert](#robert)                                                                                                                                          |
 
@@ -48,23 +48,24 @@ Promotion of a release to the next stage in the pipeline must be done manually u
 
 ### test
 
-| PROPERTY            | DETAILS                                                                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+|      PROPERTY       |                                                              DETAILS                                                              |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Project ID          | [`msp-testbed-test-77589aae45d0`](https://console.cloud.google.com/run?project=msp-testbed-test-77589aae45d0)                     |
-| Category            | **test**                                                                                                                          |
+| Category            | **internal**                                                                                                                      |
 | Deployment type     | `rollout`                                                                                                                         |
 | Resources           | [test Redis](#test-redis), [test PostgreSQL instance](#test-postgresql-instance), [test BigQuery dataset](#test-bigquery-dataset) |
 | Slack notifications | [#alerts-msp-testbed-test](https://sourcegraph.slack.com/archives/alerts-msp-testbed-test)                                        |
 | Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=msp-testbed-test-77589aae45d0)                      |
 | Errors              | [Sentry `msp-testbed-test`](https://sourcegraph.sentry.io/projects/msp-testbed-test/)                                             |
 | Domain              | [msp-testbed.sgdev.org](https://msp-testbed.sgdev.org)                                                                            |
+| Cloudflare WAF      | ✅                                                                                                                                |
 
-MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
+MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
-| GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
+|          ACCESS          |                                                                                                                                                                      ENTITLE REQUEST TEMPLATE                                                                                                                                                                       |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| GCP project read access  | [Read-only Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiNzg0M2MxYWYtYzU2MS00ZDMyLWE3ZTAtYjZkNjY0NDM4MzAzIiwidGhyb3VnaCI6Ijc4NDNjMWFmLWM1NjEtNGQzMi1hN2UwLWI2ZDY2NDQzODMwMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
+| GCP project write access | [Write access Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZTEyYTJkZDktYzY1ZC00YzM0LTlmNDgtMzYzNTNkZmY0MDkyIiwidGhyb3VnaCI6ImUxMmEyZGQ5LWM2NWQtNGMzNC05ZjQ4LTM2MzUzZGZmNDA5MiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
 For Terraform Cloud access, see [test Terraform Cloud](#test-terraform-cloud).
 
@@ -72,8 +73,8 @@ For Terraform Cloud access, see [test Terraform Cloud](#test-terraform-cloud).
 
 The MSP Testbed test service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                                    |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|    PROPERTY    |                                                                                                                                                                  DETAILS                                                                                                                                                                   |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=msp-testbed-test-77589aae45d0)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=msp-testbed-test-77589aae45d0) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=msp-testbed-test-77589aae45d0)                                                                                                                                                                                                                                          |
@@ -87,19 +88,19 @@ sg msp logs msp-testbed test
 
 #### test Redis
 
-| PROPERTY | DETAILS                                                                                                                           |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                              DETAILS                                                              |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=msp-testbed-test-77589aae45d0) |
 
 #### test PostgreSQL instance
 
-| PROPERTY  | DETAILS                                                                                                     |
-| --------- | ----------------------------------------------------------------------------------------------------------- |
+| PROPERTY  |                                                   DETAILS                                                   |
+|-----------|-------------------------------------------------------------------------------------------------------------|
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=msp-testbed-test-77589aae45d0) |
 | Databases | `primary`                                                                                                   |
 
 > [!NOTE]
-> The [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) is required for BOTH read-only and write access to the database.
+> The [Write access Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZTEyYTJkZDktYzY1ZC00YzM0LTlmNDgtMzYzNTNkZmY0MDkyIiwidGhyb3VnaCI6ImUxMmEyZGQ5LWM2NWQtNGMzNC05ZjQ4LTM2MzUzZGZmNDA5MiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) is required for BOTH read-only and write access to the database.
 
 To connect to the PostgreSQL instance in this environment, use `sg msp` in the [`sourcegraph/managed-services`](https://github.com/sourcegraph/managed-services) repository:
 
@@ -113,8 +114,8 @@ sg msp pg connect -write-access msp-testbed test
 
 #### test BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY     |                                                        DETAILS                                                         |
+|-----------------|------------------------------------------------------------------------------------------------------------------------|
 | Dataset Project | `msp-testbed-test-77589aae45d0`                                                                                        |
 | Dataset ID      | `msp_testbed`                                                                                                          |
 | Tables          | [`example`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/example.bigquerytable.json) |
@@ -146,8 +147,8 @@ sg msp tfc view msp-testbed test
 
 ### robert
 
-| PROPERTY            | DETAILS                                                                                                                                       |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+|      PROPERTY       |                                                                    DETAILS                                                                    |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Project ID          | [`msp-testbed-robert-7be9`](https://console.cloud.google.com/run?project=msp-testbed-robert-7be9)                                             |
 | Category            | **test**                                                                                                                                      |
 | Deployment type     | `rollout`                                                                                                                                     |
@@ -160,8 +161,8 @@ sg msp tfc view msp-testbed test
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          ACCESS          |                                                                                                                                                                        ENTITLE REQUEST TEMPLATE                                                                                                                                                                        |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
 | GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -171,8 +172,8 @@ For Terraform Cloud access, see [robert Terraform Cloud](#robert-terraform-cloud
 
 The MSP Testbed robert service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                              |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|    PROPERTY    |                                                                                                                                                               DETAILS                                                                                                                                                                |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=msp-testbed-robert-7be9)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=msp-testbed-robert-7be9) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=msp-testbed-robert-7be9)                                                                                                                                                                                                                                          |
@@ -186,14 +187,14 @@ sg msp logs msp-testbed robert
 
 #### robert Redis
 
-| PROPERTY | DETAILS                                                                                                                     |
-| -------- | --------------------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                           DETAILS                                                           |
+|----------|-----------------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=msp-testbed-robert-7be9) |
 
 #### robert PostgreSQL instance
 
-| PROPERTY  | DETAILS                                                                                               |
-| --------- | ----------------------------------------------------------------------------------------------------- |
+| PROPERTY  |                                                DETAILS                                                |
+|-----------|-------------------------------------------------------------------------------------------------------|
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=msp-testbed-robert-7be9) |
 | Databases | `primary`                                                                                             |
 
@@ -212,8 +213,8 @@ sg msp pg connect -write-access msp-testbed robert
 
 #### robert BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY     |                                                        DETAILS                                                         |
+|-----------------|------------------------------------------------------------------------------------------------------------------------|
 | Dataset Project | `msp-testbed-robert-7be9`                                                                                              |
 | Dataset ID      | `msp_testbed`                                                                                                          |
 | Tables          | [`example`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/example.bigquerytable.json) |
