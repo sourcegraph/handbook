@@ -224,12 +224,6 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 
 **NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
-## FY23 Account Ownership
-
-- Any account in Salesforce with 501 employees or higher at the beginning of the fiscal year, and all accounts outside the Americas are considered Enterprise and will be assigned to an Enterprise Account Executive (L4-L6).
-- Any account in Salesforce with 500 or fewer employees in the Americas at the beginning of the fiscal year is considered Commercial and will be assigned to a Commercial Account Executive (L2).
-- The source of truth for employee data is ClearBit and can be seen in Salesforce with the “Employees” field on an account. The segmentation of an account at the beginning of the fiscal year will remain the account's designated segmentation for the entire fiscal year (if an account is segmented to the Commercial team, it will stay a Commercial account for the rest of FY23, even if it grows to be larger than 500 employees). The segmentation for an account can be found in Salesforce in the "FY23 Americas Segmentation" field.
-- If a new account is created (for example, through the conversion of a lead), it's segmentation will be based on its ClearBit employee count at the time of account creation.
 
 ## Opportunity Object
 
@@ -262,7 +256,7 @@ AEs are welcome to add additional tags or information to the opportunity name, h
 New Business: New Customer
 
 - \_Account Name - Business Unit - Team - New Business - Enterprise,Enterprise Starter - (ProductName) - # of Seats (if Code Search or associated products)
-- _ProductName = Code Search, Cody, Cody + Code Search_
+- _ProductName = Code Search, Cody, Code Intelligence Platform, CIP_
 - Ex. JPMC - AWM - Application Portal Team - New Business - Code Search - 50 Seats
 
 New Business in Existing Customer: New Business Unit, New Team if multiple buying teams within a single business unit, New Economic Buyer
@@ -270,32 +264,32 @@ New Business in Existing Customer: New Business Unit, New Team if multiple buyin
 - Note: Opportunity Type on these types of opportunities should remain as Expansion for reporting purposes
 
 - \_Account Name - Business Unit - Team - New Business in Existing Customer - Enterprise,Enterprise Starter - (ProductName) - # of Seats (if Code Search or associated products)
-- _ProductName = Code Search, Cody, Cody + Code Search_
+- _ProductName = Code Search, Cody, Code Intelligence Platform, CIP_
 - Ex. JPMC - AWM - InfoSec Team - New Business in Existing Customer - Code Search - 50 Seats
 
 Flat Renewal: No Change to Contract
 
 - Account Name - Business Unit - Team - Renewal - Enterprise,Enterprise Starter - (ProductName) # of Seats
-  - _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
+  - _ProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Code Intelligence Platform, CIP_
 - Ex. Oracle - Hospitality Group - Renewal - Search Only - 16 Seats
 
 Expansions: Sale of New Product, Upgrade to Code Search
 
 - Account Name - Business Unit - Team - Expansion - Enterprise,Enterprise Starter - (NewProductName) # of Seats
-  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
+  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Code Intelligence Platform, CIP_
 - Ex. Wayfair - Expansion - Search + Batch - 50 Seats
 
 Expansions: Increase in Number of Seats
 
 - Account Name - Business Unit - Team - Expansion - Enterprise,Enterprise Starter - (ProductName)(Add’l # of Seats)
-  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
+  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Code Intelligence Platform, CIP_
   - _Add’l # of Seats – Additional number of licenses being purchased_
 - Ex. Apple - SPG - Expansion - Search Only - 35 Users
 
 Churn: Used Only When iARR is Negative
 
 - Account Name - Business Unit - Team - Churn - Enterprise,Enterprise Starter - (ProductName)(ChurnPotential)
-  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Cody + Code Search_
+  - _NewProductName = Search Only, Search + Batch, Search + Insights, Code Search, Cody, Code Intelligence Platform, CIP_
   - _ChurnPotential = Partial, Full_
 - Ex. Uber - Search Only - Churn - Full
 
