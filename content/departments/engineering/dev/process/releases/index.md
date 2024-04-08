@@ -12,7 +12,7 @@ This document describes how we release Sourcegraph.
 
 As of April 2024, Sourcegraph releases features monthly ([see RFC 864](https://docs.google.com/document/d/1vZmRx6k-OUpSgrAJ9ovu4qfzrExQDXzWiBYv9XbGEZM/edit?usp=sharing)) The 2024 schedule is as follows (**version numbers are subject to change**):
 
-| Version | Feature Freeze Date | Code Freeze Date | Release Date      | Release Kind |
+| Version | Feature Freeze Date | Branch Cut Date  | Release Date      | Release Kind |
 | ------- | ------------------- | ---------------- | ----------------- | ------------ |
 | 5.3.0   | February 1, 2024    | February 9, 2024 | February 15, 2024 | Minor        |
 | 5.3.1   | N/A                 | N/A              | February 21, 2024 | Patch        |
