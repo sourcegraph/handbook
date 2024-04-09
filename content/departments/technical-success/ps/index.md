@@ -2,11 +2,26 @@
 
 ## Who we are
 
-Our Professional Services (PS) team is comprised of several groups:
+#### Our Professional Services (PS) team is comprised of several groups:
 
 - The Implementation Engineering (IE) team at Sourcegraph is a dedicated team of engineers and project managers who specialize and have expertise in deploying, installing, and configuring Sourcegraph within customer's cloud and on-premise environments. The IE team primarily focuses on complex Kubernetes deployments, while also assisting the Customer Engineering and Technical Advisor teams with smaller scale tasks. Implementation Engineers work front and center directly with customers, in collaboration with internal teams, to lead the implementation effort and get Sourcegraph running in customer environments quickly and efficiently.
 - Implementation Project Managers oversee the internal and external tasks, needs, and dependencies across these implementations, and also handles internal and external reporting.
 - Resident Architects (RAs) provide strategic technical success planning, tailored ongoing enablement, and hands-on assistance for adoption and utilization of features while activating advanced use cases for customers via direct access to customer systems and teams.
+
+#### Team Members
+
+- Andrew Norrish, Interim Professional Services Manager & Technical Project Manager
+- Louis Jarvis, Implementation Engineer
+- Marc LeBlanc, Implementation Engineer
+- Alex Fogg, Resident Architect
+
+#### Slack Channels and Teams
+
+- #team-implementation: internal channel for team discussion
+- #discuss-implementation: open implementation related requests, questions, and discussions largely geared towards the Implementation Engineers
+- #discuss-professional-serices: open, broader services-related questions including resident architecture, pricing, recommendations, available packages, custom packages, etc.
+- @professional-services-team: full team
+- @implementation-team: Implementation Engineers and Project Managers
 
 ## Who we work with
 
