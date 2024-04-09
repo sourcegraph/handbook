@@ -95,7 +95,7 @@ The product team is led by Chris Sells, our Head of Product (and temporary PM VS
 - Corey Hill - Cody Context, AI in general
 - Taylor Sperry - Cody IDE Extensions
 - Aravind Ramaraju - Cody Strat, Cody Enterprise (including Cody Web)
-- TBH - Sourcegraph Platform and Code Search
+- TBH - Code Search product (including Search, Platform, Source and Graph teams)
 
 For a full list of EPD and TPM responsibilities, see [EPD Resources](../../team/epd-resources.md).
 
