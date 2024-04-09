@@ -1,6 +1,6 @@
-## Product Plans
+## Product Roadmap
 
-- [Q4, 2024 Product Plans](https://docs.google.com/document/d/1SOayguNK5bepXIgMj4tZ1SnzBlCJaZmZ-x4HwMLDvtk/)
+- [Product Roadmap](https://docs.google.com/document/d/1XehlyVYzyUP7jClMJB7NV-RyKyI4X14zkQ2N8Us4Q48/)
 
 ## Product-Focused Planning
 
