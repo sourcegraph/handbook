@@ -16,7 +16,7 @@ Below is an overview of a few of the key metrics we're using to measure and iter
 
 **Metric: Retention**
 
-- **Definition:** The percentage of users who trigger an active product event (based on our [product user definition](#cody-product-dau)) 1 week after signup. Retention can be measured at other intervals besides Week 1 as well (such as Day 1, Day 7, Week 4, etc) but our company-level retention KPI will standarize on Week 1 
+- **Definition:** The percentage of users who trigger an active product event (based on our [product user definition](#cody-product-dau)) 1 week after signup. Retention can be measured at other intervals besides Week 1 as well (such as Day 1, Day 7, Week 4, etc) but our company-level retention KPI will standarize on Week 1
 - **Why this metric:** As we continue to ship improvements to Cody, retention will be key to understanding how much value users are getting from the Cody.
 - **Source of truth:** This data is logged by eventlogger, and accessed via [Amplitude](https://app.amplitude.com/analytics/sourcegraph/chart/3pmjrguv)
 
