@@ -1,4 +1,4 @@
-## Multi-SKU ARR Recognition
+## Multi-SKU Enterprise ARR Recognition
 
 In line with the Company's Cody + Search strategy, Finance believes it is important to introduce a multi-SKU ARR recognition guidance. Multi-SKU ARR recognition provides more granular insights into product performance, aids in customer segmentation, supports revenue optimization, and boosts investor confidence. By documenting and following this guidance, the company ensures accurate financial reporting, effective decision-making, and sustainable growth in the competitive market landscape.
 
@@ -7,10 +7,10 @@ Currently, we are categorizing enterprise ARR into four buckets:
 - Professional Services ARR
 - Platform or Recurring Fee ARR
 - Software ARR
-- Code Search ARR
-- Cody ARR
+  - Code Search ARR
+  - Cody ARR
 
-Note: If we change methodologies, we will do so only in SFDC or a system of record. The ARR tracker does not scale for multi-product ARR recognition.
+Note: If we change methodologies, we will do so only in a system of record agreed upon across operations teams. The ARR tracker in manual form does not scale for multi-product ARR recognition.
 
 ### Professional Services ARR Recognition
 
@@ -19,12 +19,12 @@ When calculating ARR recognition by SKU, we will apply discounting for software 
 - Discounts are first applied against all one-time/non-recurring revenue. E.g., implementation fees.
 - Discounts are then applied proportionally against all included SKUs based on list prices.
   - Example: the customer was buying $100k (list price) of software and $50k (list price) of recurring services, but they were only paying $135k (i.e., they got a 10% discount), then we would record it and report it as $90k of software ARR and $45k of services ARR — 10% off of each product at list price.
-
-Note: Professional services must have their own line item(s) to get ARR recognition. If professional services are clearly outlined in terms of SKU name(s), quantity and price, the value should be excluded or carved from Search & Cody ARR.
+- We will not restate ARR for deals that are already booked, even if the list price of services has changed since the booking.
+- If professional services are clearly outlined in the order form, but at $0, we will still allocate ARR to PS because the discount is applied proportionally.
 
 ### Platform Fee ARR Recognition
 
-Platform fees or any other ongoing fee charged to the customer will also impact the value of ARR, and will be applied directly to platform fee SKU. If for example the customer was buying $100K of Code Search Enterprise, but we also charged them a $10K Platform Fee, then we would record it and report it as $110K of total software ARR: $10k as Platform Fee ARR and $110k as Code Search Enterprise ARR.
+Platform fees or any other ongoing fee charged to the customer will also impact the value of ARR, and will be applied directly to platform fee SKU. If for example the customer was buying $100K of Code Search Enterprise, but we also charged them a $10K Platform Fee, then we would record it and report it as $110K of total software ARR: $10k as Platform Fee ARR and $100k as Code Search Enterprise ARR.
 
 ### Software (Code Search & Cody) ARR Recognition
 
@@ -38,13 +38,13 @@ Code Intelligence platform deals are less straightforward in terms of product AR
 
 For Code Intelligence Platform:
 
-- Cody ARR percent allocation for each unit at Code Intelligence Platform list price equals $288 / ($228 + $588) = 28%
+- Cody ARR percent allocation for each unit at Code Intelligence Platform list price equals $228 / ($228 + $588) = 28%
 - Search ARR percent allocation for each unit at Code Intelligence Platform list price equals $588 / ($228 + $588) = 72%
 
 For Code Intelligence Platform (Cody BYOK):
 
 - Cody ARR percent allocation for each unit at Code Intelligence Platform list price equals $180 / ($180 + $588) = 23%
-- Search ARR percent allocation for each unit at Code Intelligence Platform list price equals $588 / ($228 + $588) = 77%
+- Search ARR percent allocation for each unit at Code Intelligence Platform list price equals $588 / ($180 + $588) = 77%
 
 #### Cody and Search but seats differ
 
@@ -54,6 +54,6 @@ Cross-sell deals may not specify Code Intelligence Platform, as the contract is 
 
 #### Other Software notes
 
-If the product is listed as beta,then we will not recognize product-level ARR even if there is a clearly defined seat quantity and price (annual)
+If the product is listed as beta,then we will not recognize product-level ARR even if there is a clearly defined seat quantity and price (annual).
 
 It is likely (especially in the context of repricing) that a deal will have an increase in Cody ARR that corresponds to a reduction in Search ARR. However, this may have a net zero effect in overall contract churn.
