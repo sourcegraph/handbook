@@ -11,20 +11,19 @@ Sourcegraph deeply cares about our teammates' wellness and health. The people te
 **When:** The challenge begins March 18th. People Team will share submission/voting timelines in #announce-people-talent-team
 **#1:** Best view (city or nature) 🤩
 **#2:** Pets/Animals 🐶 🐱
-**#3:** Architecture 🏛️
+**#3:** Hobbies
 
 **Who:** Any Sourcegraph teammate is eligible to participate!
 
 **Winners & Prizes:** There will be 1 winner per challenge and then a grand prize winner!
-Best view (city or nature) 🤩
 
-- 🏅Prize: Any pair of walking shoes up to $200 & Amazon gift card $200
-  Architecture 🏛️
-- 🏅Prize: $400 gift card to airline of their choice
-  Pets/Animals 🐶 🐱
-- 🏅Prize: Pet related prize (~$150) & Amazon gift card $250
-  Grand prize 🏆
-- Canon Powershot Sx740 Digital Camera
+- Best view (city or nature): 🏅Prize: Any pair of walking shoes up to $200 & Amazon gift card $200
+
+- Pets/Animals Prize 🏅: Pet subscription box or pet related item up to $400
+
+- Hobbies Prize 🏅: TBD
+
+- Grand prize 🏆: Canon Powershot Sx740 Digital Camera
 
 **How:** People Ops will announce each category and details in the @annouce-people-talent channel.
 
