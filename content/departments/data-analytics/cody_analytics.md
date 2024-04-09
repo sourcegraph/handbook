@@ -17,7 +17,7 @@ Below is an overview of a few of the key metrics we're using to measure and iter
 **Metric: Week 1 Usage Retention**
 
 - **Definition:** The percentage of users who trigger an active product event (based on our [product user definition](#cody-product-dau)) in any of the 7-13 days (aka Week 1. Week 0 is days 0 to 6) after signup. Retention can be measured at other intervals besides Week 1 as well (such as Day 1, Day 7, Week 4, etc) but our company-level retention KPI will standarize on Week 1 Usage Retention.
-- **Why this metric:** As we continue to ship improvements to Cody, retention will be key to understanding how much value users are getting from the Cody. There's also other retention metrics that we can measure such as Subscriber Retention, which measures the % of Cody Pro customers who purchase Cody Pro in Month 0 and whether or not they continue paying for Cody Pro in subsequent months. 
+- **Why this metric:** As we continue to ship improvements to Cody, retention will be key to understanding how much value users are getting from the Cody. There's also other retention metrics that we can measure such as Subscriber Retention, which measures the % of Cody Pro customers who purchase Cody Pro in Month 0 and whether or not they continue paying for Cody Pro in subsequent months.
 - **Source of truth:** This data is logged by eventlogger, and accessed via [Amplitude](https://app.amplitude.com/analytics/sourcegraph/chart/3pmjrguv)
 
 **Metric: Completion acceptance rate (CAR)**
