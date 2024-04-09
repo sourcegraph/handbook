@@ -2,8 +2,8 @@
 
 Quick links:
 
-- [How to conduct an unmoderated user test](./usability-testing-how-to/#how-to-conduct-an-unmoderated-user-test)
-- [How to analyze a user test](./usability-testing-how-to/#analyzing-a-usability-test)
+- [How to conduct an unmoderated user test](usability-testing-how-to/#how-to-conduct-an-unmoderated-user-test)
+- [How to analyze a user test](usability-testing-how-to/#analyzing-a-usability-test)
 
 At Sourcegraph, we use the following definition of usability when we conduct user research and design our product:
 
