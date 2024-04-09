@@ -9,12 +9,14 @@
 - Resident Architects (RAs) provide strategic technical success planning, tailored ongoing enablement, and hands-on assistance for adoption and utilization of features while activating advanced use cases for customers via direct access to customer systems and teams.
 
 #### Team Members
+
 - Andrew Norrish, Interim Professional Services Manager & Technical Project Manager
 - Louis Jarvis, Implementation Engineer
 - Marc LeBlanc, Implementation Engineer
 - Alex Fogg, Resident Architect
 
 #### Slack Channels and Teams
+
 - #team-implementation: internal channel for team discussion
 - #discuss-implementation: open implementation related requests, questions, and discussions largely geared towards the Implementation Engineers
 - #discuss-professional-serices: open, broader services-related questions including resident architecture, pricing, recommendations, available packages, custom packages, etc.
