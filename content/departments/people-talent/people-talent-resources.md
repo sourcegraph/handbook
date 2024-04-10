@@ -4,7 +4,7 @@
 
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [Onboarding Process](people-ops/tools/internal-onboarding.md)
-- Compensation & Leveling
+- [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
 - [Offboarding Process](people-ops/tools/internal-offboarding.md)
 - [Compliance](people-ops/tools/internal-compliance.md)
 - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
