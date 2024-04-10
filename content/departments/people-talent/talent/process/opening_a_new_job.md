@@ -118,9 +118,6 @@ The Recruiter opens the job in Greenhouse by clicking "Add" at the top, then "Cr
   - **Note:** Please put the top of band for the finance budget.
   - **Note:** The cost center and division can be found on the [How to open a new job responses](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). Please reach out to #team-people-and-talent if you are unsure of how to fill them in.
 - Input all required fields for the "Hiring team", "Job kickoff", "Scorecard", "Interview plan", "Job Post" and "Email notifications".
-  - **Important note:** When editing the job post in Greenhouse, make sure to include the target compensation on the custom application question asking candidates, "Please note that the target compensation for this role is \_\_\_. Are you aligned with this compensation?"
-    - To find the custom question, scroll down beneath the job post.
-    - To edit the custom question, click the pencil icon on the right and fill in the target compensation.
   - Make sure to build out the interview plan by adding behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage. Each section should include the interviewers and interview duration.
   - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding interview steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 - Turn on [Slack notifications](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack) for the role.
