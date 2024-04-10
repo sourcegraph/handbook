@@ -209,12 +209,11 @@ Then, we can decide the type of issue we are seeing, one of cloud infra issue, o
 - Review application logs of relevant services and check if there is any anomaly, e.g., a lot of errors.
   - Yes, this indicates an application problem
 
-<!-- Coming soon -->
-<!-- #### **Request to increase executors count on a Cloud instance** - [New Request]()
+#### **Request to increase executors count on a Cloud instance** - [New Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team/cloud,mi,mi/configure-executors-request&projects=&template=managed-instance-configure-executors.yml&title=Configure+Executors+concurrency+for+Cloud+instance+%5BCUSTOMER+NAME%5D)
 
-<span class="badge badge-note">🤖 self-service</span>
+<span class="badge badge-note">⚙️ manual</span>
 
-- To increase or decrease the number of executors for an existing instance. -->
+- To increase the number of concurrent executors for an existing instance.
 
 ## Supporting Manage Instance
 
