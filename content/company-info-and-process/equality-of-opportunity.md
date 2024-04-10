@@ -6,8 +6,6 @@ We don’t factor in race, color, religion, sex, national origin, nationality, a
 
 Equality of opportunity at Sourcegraph means we support our team with the following policies:
 
-- Location-independent compensation for each role.
-- Standardized and benchmarked compensation criteria based on skill and impact.
 - Pay transparency and job leveling visible to all teammates.
 - Asynchronous work whenever reasonable, which makes it easier for teammates across timezones to be included in conversations and decision-making.
 - Thorough and unbiased interviews conducted through BrightHire, a tool that enables standardized and consistent evaluations.
