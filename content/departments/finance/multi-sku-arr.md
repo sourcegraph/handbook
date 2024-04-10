@@ -48,9 +48,9 @@ For Code Intelligence Platform (Cody BYOK):
 
 #### Cody and Search but seats differ
 
-If Search seats & Cody seats differ, then, the Code Intelligence allocation does not apply. 100% of the seat quantity times price is attributable to Cody or Code Search, assuming we have factored in PS (including one-time fees) & platform fees.
+If Search seats & Cody seats differ, then, the Code Intelligence Platform allocation does not apply. 100% of the seat quantity times price is attributable to Cody or Code Search, assuming we have factored in PS (including one-time fees) & platform fees.
 
-Cross-sell deals may not specify Code Intelligence Platform, as the contract is reflecting the purchase of Search or Cody. The recognition will operate as if the contract has Code Intelligence Platform if all products have the same seat count. If the seats differ, then 100% of the seat quantity times price is attributable to Cody or Code Search, assuming we have factored in PS (including one-time fees) & platform fees.
+Cross-sell deals may not specify Code Intelligence Platform, as the contract is reflecting the purchase of Search or Cody. However, even if all products have the same seat count, the recognition will not operate as if the contract has Code Intelligence Platform. 100% of the seat quantity times price is attributable to Cody or Code Search, assuming we have factored in PS (including one-time fees) & platform fees. Upon renewal of the same contract, we may reallocate per our standard methodology if if the order form reflects a migration to the Code Intelligence platform SKU.
 
 #### Other Software notes
 
