@@ -4,7 +4,7 @@ The following are the team owners across EPD (Engineering, Product and Design)
 as well as TPM.
 
 |                                                                                                             | Eng                        | Product                      | Design              | TPM        | Slack Channel            |
-|-------------------------------------------------------------------------------------------------------------|----------------------------|------------------------------|---------------------|------------|--------------------------|
+| ----------------------------------------------------------------------------------------------------------- | -------------------------- | ---------------------------- | ------------------- | ---------- | ------------------------ |
 | AI                                                                                                          | Rishabh Mehrotra           | Corey Hill                   | none                | none       | #team-ai                 |
 | Clients - JB                                                                                                | Dominic Cooney             | Taylor Sperry                | Daniel Marques      | Kalan Chan | #discuss-cody            |
 | Clients - VS                                                                                                | Dominic Cooney             | TBD (Chris Sells)            | TBD                 | Kalan Chan | #discuss-cody            |
