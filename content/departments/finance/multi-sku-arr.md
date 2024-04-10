@@ -54,6 +54,6 @@ Cross-sell deals may not specify Code Intelligence Platform, as the contract is 
 
 #### Other Software notes
 
-If the product is listed as beta,then we will not recognize product-level ARR even if there is a clearly defined seat quantity and price (annual).
+If the product is listed as beta, then we will not recognize product-level ARR even if there is a clearly defined seat quantity and price (annual).
 
 It is likely (especially in the context of repricing) that a deal will have an increase in Cody ARR that corresponds to a reduction in Search ARR. However, this may have a net zero effect in overall contract churn.
