@@ -45,11 +45,8 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 - Financial statements
 - [Company Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
-- Metrics
-  - Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
-  - [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
-  - Annualized net retention - Refer to latest board meeting material
-  - Burn ratio, Runway & ARR per employee - Refer to latest board meeting material
+- [ARR Tracker](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
+- [Cody Pro Topline Metrics]((https://sourcegraph.looker.com/dashboards/552?%20Date=30%20day)
 
 ## Definitions
 
