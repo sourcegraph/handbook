@@ -62,7 +62,7 @@ Contractors sign consulting agreements with Sourcegraph. The agreement depends o
 
 ### Benefits
 
-Full-time, indefinite term contractors receive the same compensation as full-time US teammates, regardless of the contractor’s location. We want to give teammates the flexibility to work from anywhere in the world, and contracting is the only structure that fully allows us to offer that. We have kept all offers and roles on a US salary rather than adjusting for cost of living by location. The intention is that this difference would allow teammates to cover the benefits we are unable to provide on a contracting structure. Full-time contracting teammates can expense recurring expenses as outlined in our handbook.
+We want to give teammates the flexibility to work from anywhere in the world, and contracting is the only structure that fully allows us to offer that. Full-time contracting teammates can expense recurring expenses as outlined in our handbook.
 
 Contractors are not eligible for all employee benefits (e.g. healthcare, life insurance). However, contractors may expense certain costs incurred in performing their duties.
 
