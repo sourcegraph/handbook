@@ -66,15 +66,11 @@ Since Salesforce Product Gaps are the source of truth for GTM requests, PMS (and
 
 PMs are responsible for updating a Gap after it's been opened. If a particular feature request is known to have a different status than what is reflected in a Product Gap, anyone is encouraged to update the status (e.g. if a feature is currently in Beta but the gap does not reflect).
 
-- **Open** - needs to be reviewed/looked at by Product
-- **In review** - is currently being reviewed by Product but has not been prioritized
+- **Open** - needs to be reviewed/looked at by Product, the default status of a new Product Gap
 - **In progress** - it is prioritized and the team is working on it
-- **Scheduled** - has been added to our Product roadmap
-- **Backlog** - we know we want to do this, we just don't know when yet
-- **Experimental** - released, experimental phase. Contact PM for more info.
-- **Beta** - released in Beta.
-- **GA** - fully available in standard release.
+- **On Backlog** - we know we want to do this, we just don't know when yet
 - **Won't do** - we're not going to do this
+- **Done** - we have built this capability (note: Feature Lifecycle Stage determines the maturity of the feature)
 
 #### Product Gap Submission Severity
 
