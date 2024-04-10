@@ -20,7 +20,7 @@ We are an [all-remote company](../../company-info-and-process/remote/index.md) w
 
 ### Benefits, perks, and compensation
 
-We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](../../benefits-pay-perks/benefits-perks/index.md). In addition, we are committed to paying all teammates [equitably and competitively](../../benefits-pay-perks/pay-expenses/compensation/index.md), and always determine our offers based on market data, **not** your past compensation.
+We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](../../benefits-pay-perks/benefits-perks/index.md). In addition, we are committed to paying all teammates [competitively](../../benefits-pay-perks/pay-expenses/compensation/index.md), and always determine our offers based on market data, **not** your past compensation.
 
 ### Sourcegraph hiring values
 
