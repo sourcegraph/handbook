@@ -1060,16 +1060,6 @@ brock_perko:
   links: '[Linkedin](https://www.linkedin.com/in/brock-perko-5094349/)'
   description: 'Brock lives in Mill Valley, CA with his wife and cat. A Bay Area native, he has built a career in Sales working at startups Eventbrite, Slack, and Productiv previously. Outside of work, Brock enjoys hiking in Marin and the California Coast, golf, live music, and nights out in San Francisco at his favorite restaurants. He is also a big fan of cryptocurrencies and Web3 technology, with a personal goal of opening a local deli someday.'
 
-chris_warwick:
-  name: Chris Warwick
-  role: Software Engineer
-  reports_to: cody_strat_lead
-  location: Philadelphia, PA United States 🇺🇸
-  github: chwarwick
-  email: christopher.warwick@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/warwickc)'
-  description: 'Chris is a software engineer based near Philadelphia, PA where he lives with his wife and three children. He has spent a number of years building mobile and web applications. When not working he enjoys spending time outside and running.'
-
 tracey_johnson:
   name: Tracey Johnson
   email: tracey.johnson@sourcegraph.com
