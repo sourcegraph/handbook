@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this policy is to limit access to information and information processing systems to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets as application of poor credentials in service and system can lead to disclosure of sensitive information and data breaches. Our intention in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose restrictions.
+The purpose of this policy is to limit access to information and information processing systems to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets as application of poor credentials in service and system can lead to disclosure of sensitive information and data breaches. Our intention in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose arbitrary restrictions.
 
 ## Scope
 
