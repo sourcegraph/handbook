@@ -2,7 +2,7 @@
 
 ## Overview & Policy Purpose
 
-The purpose of this policy is to communicate our information security policies and outline the acceptable use and protection of Sourcegraph’s information and assets. Sourcegraph has a requirement to protect its data/assets from accidental or malicious disclosure, modification or destruction. These rules are in place to protect customers, employees, and Sourcegraph. Inappropriate use exposes Sourcegraph to risks including virus attacks, network systems and services being compromised, and legal and compliance issues. Our intention in publishing this policy is to protect Sourcegraph’s assets, not to impose restrictions.
+The purpose of this policy is to communicate our information security policies and outline the acceptable use and protection of Sourcegraph’s information and assets. Sourcegraph has a requirement to protect its data/assets from accidental or malicious disclosure, modification or destruction. These rules are in place to protect customers, employees, and Sourcegraph. Inappropriate use exposes Sourcegraph to risks including virus attacks, network systems and services being compromised, and legal and compliance issues. Our intention in publishing this policy is to protect Sourcegraph’s assets, not to impose arbitrary restrictions.
 
 The Sourcegraph “Information Security Policy” consists of this policy and all Sourcegraph policies listed in our handbook policy page.
 Effective security is a team effort involving the participation and support of every Sourcegraph employee or contractor who deals with information and/or information systems. It is the responsibility of every team member to read and understand this policy, and to conduct their activities accordingly.
