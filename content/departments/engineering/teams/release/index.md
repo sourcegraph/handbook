@@ -26,7 +26,7 @@ For more detailed information on the Release team members, check out our [README
 ## Contact
 
 - #discuss-releases, or `@release-team` in Slack. Please follow our [support guidelines](#support-request-guidelines) below.
-- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease-ship) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
+- [team/release](https://github.com/sourcegraph/sourcegraph/labels/team%2Frelease) label and [@sourcegraph/release](https://github.com/orgs/sourcegraph/teams/release) team on GitHub.
 
 ## Support
 
@@ -34,7 +34,7 @@ If in doubt about the process, please ask in #discuss-releases. Teammates should
 
 ### Requesting our support
 
-Feel free to direct simple questions to us in #discuss-release-ship in Slack. As a rule of thumb, anything that is not documented in our handbook or [docs](https://sourcegraph.com/docs) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
+Feel free to direct simple questions to us in #discuss-releases in Slack. As a rule of thumb, anything that is not documented in our handbook or [docs](https://sourcegraph.com/docs) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
 
 - This channel _is_ regularly checked and well-monitored
 - So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
