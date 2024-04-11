@@ -4,7 +4,7 @@
 
 The goal of code freeze is to stabilize the release for the final build, and to mitigate risk with each change by fixing bugs caught during the QA process, or making improvements that increase stability and quality in the final build.
 
-During the code freeze we will typically cut a new candidate each day and deploy it to the test instance for additional QA. If additional candidates are necessary, reach out to the release guild.
+During the code freeze we will typically cut a new candidate each day and deploy it to the test instance for additional QA. If additional candidates are necessary, reach out to the releases team.
 
 There are 3 distinct sections of code freeze:
 
@@ -18,7 +18,7 @@ During open code freeze, the release branch is open to changes and will require 
 
 ### Closed code freeze
 
-A few days before the release the branch will be closed to changes and will require a member of the release guild to merge backports. The goal of this step is to stabalize a final build. During this period release captains will exercise discretion whether a change warrants backport. Some guidelines for things that are eligible:
+A few days before the release the branch will be closed to changes and will require a member of the releases team to merge backports. The goal of this step is to stabalize a final build. During this period release captains will exercise discretion whether a change warrants backport. Some guidelines for things that are eligible:
 
 1. Documentation
 2. Bug fixes
@@ -42,15 +42,15 @@ For a quarterly release, a recommended schedule looks like this:
 2. Closed freeze 2-3 days before release
 3. Final build freeze 1 day before release
 
-### Release guild responsibilities
+### Releases team responsibilities
 
-The release guild is responsible for monitoring and ensuring the release branch is healthy for the duration of code freeze. This may require some manual intervention to resolve minor issues on the branch, such as lint or running go generate.
+The releases team is responsible for monitoring and ensuring the release branch is healthy for the duration of code freeze. This may require some manual intervention to resolve minor issues on the branch, such as lint or running go generate.
 
 The release captain is responsible for orchestrating and directing as necessary anything required to achieve the outcome of a stable release at the end of code freeze. In general the release captain should be the individual to monitor and keep the release branch healthy, but may need to delegate tasks to others during unavailable days and hours.
 
 The release captain for a feature release should assume a substantial amount of their time will be allocated to managing the release and should not plan to be involved in last minute work included in the release.
 
-In general, the release guild will strive to ensure release responsibilities don't interfere with PTO and other OOO requirements for release captains by finding backup captains as necessary. However, it **is the responsibility** of the captain to ensure there is a backup captain available for any extended periods of unavailability, even if this requires reaching out to the wider engineering group.
+In general, the releases team will strive to ensure release responsibilities don't interfere with PTO and other OOO requirements for release captains by finding backup captains as necessary. However, it **is the responsibility** of the captain to ensure there is a backup captain available for any extended periods of unavailability, even if this requires reaching out to the wider engineering group.
 
 #### Common release tasks
 

@@ -533,7 +533,7 @@ There’s no one-size-fits-all approach here. Just be mindful of the frequency o
    </td>
   </tr>
   <tr>
-   <td>#discuss-release-ship
+   <td>#discuss-releases
    </td>
    <td>People who have questions and updates about releases
    </td>

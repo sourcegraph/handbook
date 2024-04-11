@@ -205,7 +205,7 @@ After you file a GitHub issue, keep it simple and always provide;
 
 3.  the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
-- When posting in Release team's channel, [#discuss-release-ship](https://sourcegraph.slack.com/archives/C02E4HE42BX), use @release-team
+- When posting in Release team's channel, [#discuss-releases](https://sourcegraph.slack.com/archives/C02E4HE42BX), use @release-team
 - When posting regarding a Batch Changes issue, post in [#discuss-code-search](https://sourcegraph.slack.com/archives/C05EA9KQUTA), use @batcher-support
 - When posting for Repository Management, be sure to do so in the [#discuss-source](https://sourcegraph.slack.com/archives/C05EMJM2SLR) channel and use @source-support
 - When posting for Cloud, be sure to do so in the [#discuss-cloud-ops](https://sourcegraph.slack.com/archives/C03JR7S7KRP) channel and use @cloud-support
