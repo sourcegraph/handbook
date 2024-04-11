@@ -806,6 +806,19 @@
           45.95371
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Craig Furman"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.0638810146765536,
+          51.529999042078344
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
