@@ -338,6 +338,10 @@ A: International teammates are entitled to take any statutorily-provided parenta
 
 **Example 2:** if the country of residence provides 52 weeks of unpaid parental leave to both birthing and non-birthing parents, Sourcegraph will ensure that at least 16 weeks of the leave the teammate chooses to take are **fully-paid**. The teammate would still be entitled to take the remainder of any statutory parental leave for which they are eligible, but time taken in addition to 16 weeks would be unpaid.
 
+##### Q: Do I need to submit invoices while I'm on leave? _(International teammates only)_
+
+A: Yes, you will need to submit invoices for any paid portion of your leave. You are welcome to submit these ahead of time.
+
 ##### Q: Where can I find additional information on parental leave benefits for my specific country? _(International teammates only)_
 
 A: This is dependent on whether you are employed via a PEO or engaged as a Contractor. Depending on the type of working relationship, there may be variances to how specific statutory parental leave benefits are accounted for.
