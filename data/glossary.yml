@@ -193,7 +193,7 @@ role:
     definition: Purchase order
   - term: IC
     definition: Individual contributor, not managing other people. Still works on a team with other ICs.
-  - term: Release Guild
+  - term: Releases team (formerly Release Guild)
     definition: A captain of releasing the product, drives releases, gathers and informs others about the release, helps test the release, fixes and discovers issues in the release before it goes out.
   - term: DevRel
     definition: Developer relations, they post on Hacker News, Reddit, and Twitter about how cool we are. They give talks and go to conferences
