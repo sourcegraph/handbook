@@ -8,7 +8,7 @@ The purpose of this policy is to define the acceptable use of Sourcegraph’s In
 
 ## Background
 
-While Sourcegraph’s resources are intended to be used for business purposes, users are allowed to make limited personal use of computers and email provided that such use does not negatively impact the organization. Such use is subject to this and all other organization security policies.
+While Sourcegraph’s resources are intended to be used for business purposes, users are allowed to make limited personal use of computers provided that such use does not negatively impact the organization. Such use is subject to this and all other organization security policies.
 
 ## Scope
 
@@ -17,7 +17,7 @@ This policy applies to all Sourcegraph employees and contractors (referred to in
 # Policy
 
 Sourcegraph’s resources are intended for legitimate business purposes.
-Sourcegraph employees may make reasonable limited personal use of the organization's IT resources such as laptop and email provided that such use does not negatively impact the organization or interfere with their duties.
+Sourcegraph users may make reasonable limited personal use of the organization's IT resources such as laptop and email provided that such use does not negatively impact the organization or interfere with their duties.
 Sourcegraph’s email accounts are the property of the organization and should be used for business purposes only. Users should send and receive personal email from a personal account.
 Users assume personal responsibility for appropriate use of such resources and agree to comply with this policy, other applicable policies, and all applicable laws and regulations.
 Our aim is to ensure IT resources are available and used for productive business purposes. To ensure our IT resources are used appropriately, safe and stable, users are prohibited from engaging in any activity with IT resources that may jeopardize or are contrary to appropriate use. In particular, the transmittal, retrieval, or storage of information that is inappropriate for the workplace is not permitted while at work or with organization resources. Prohibited use includes, but is not limited to, content that violates any law, involves nudity, violence, illegal drugs, sex, or gambling, or involves discriminatory, harassing, disturbing, obscene or pornographic material. In addition to these guidelines, users should use common sense and consideration for others in deciding which content is appropriate for the workplace.
