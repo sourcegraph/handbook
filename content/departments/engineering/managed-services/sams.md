@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-08 10:19:19.797776 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/1d49a322f05521dba8109692c72c1a665a89c5a9
+Last updated: 2024-04-12 12:41:21.972347 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/cc51eaa4e11a3146ae0a173cc2b80076466df8f7
 -->
 
 This document describes operational guidance for Self-Serve Cody infrastructure.
@@ -17,8 +17,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                                          |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+|   PROPERTY   |                                                                     DETAILS                                                                      |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | `sams` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml))                                   |
 | Owners       | **cody-plg**                                                                                                                                     |
 | Service kind | Cloud Run service                                                                                                                                |
@@ -30,8 +30,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### dev
 
-| PROPERTY            | DETAILS                                                                                                                     |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+|      PROPERTY       |                                                           DETAILS                                                           |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Project ID          | [`sams-dev-bfec`](https://console.cloud.google.com/run?project=sams-dev-bfec)                                               |
 | Category            | **test**                                                                                                                    |
 | Deployment type     | `subscription`                                                                                                              |
@@ -44,8 +44,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          ACCESS          |                                                                                                                                                                        ENTITLE REQUEST TEMPLATE                                                                                                                                                                        |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
 | GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -55,8 +55,8 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Self-Serve Cody dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                    |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                                                                                                                                          DETAILS                                                                                                                                                           |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=sams-dev-bfec)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=sams-dev-bfec) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=sams-dev-bfec)                                                                                                                                                                                                                                          |
@@ -70,14 +70,14 @@ sg msp logs sams dev
 
 #### dev Redis
 
-| PROPERTY | DETAILS                                                                                                           |
-| -------- | ----------------------------------------------------------------------------------------------------------------- |
+| PROPERTY |                                                      DETAILS                                                      |
+|----------|-------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=sams-dev-bfec) |
 
 #### dev PostgreSQL instance
 
-| PROPERTY  | DETAILS                                                                                     |
-| --------- | ------------------------------------------------------------------------------------------- |
+| PROPERTY  |                                           DETAILS                                           |
+|-----------|---------------------------------------------------------------------------------------------|
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=sams-dev-bfec) |
 | Databases | `accounts`, `cody_management`                                                               |
 
@@ -96,8 +96,8 @@ sg msp pg connect -write-access sams dev
 
 #### dev BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY     |                                                                                                                                                                                                                                                 DETAILS                                                                                                                                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dataset Project | `sams-dev-bfec`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Dataset ID      | `sams`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json), [`cody_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/cody_events.bigquerytable.json), [`subscription_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/subscription_events.bigquerytable.json) |
@@ -129,8 +129,8 @@ sg msp tfc view sams dev
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+|      PROPERTY       |                                                              DETAILS                                                              |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Project ID          | [`sams-prod-ywuz`](https://console.cloud.google.com/run?project=sams-prod-ywuz)                                                   |
 | Category            | **external**                                                                                                                      |
 | Deployment type     | `manual`                                                                                                                          |
@@ -143,8 +143,8 @@ sg msp tfc view sams dev
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                      ENTITLE REQUEST TEMPLATE                                                                                                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)   |
 | GCP project write access | [Write access Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -154,8 +154,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Self-Serve Cody prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                     |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                                                                                                                                           DETAILS                                                                                                                                                           |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=sams-prod-ywuz)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=sams-prod-ywuz) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=sams-prod-ywuz)                                                                                                                                                                                                                                          |
@@ -169,14 +169,14 @@ sg msp logs sams prod
 
 #### prod Redis
 
-| PROPERTY | DETAILS                                                                                                            |
-| -------- | ------------------------------------------------------------------------------------------------------------------ |
+| PROPERTY |                                                      DETAILS                                                       |
+|----------|--------------------------------------------------------------------------------------------------------------------|
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=sams-prod-ywuz) |
 
 #### prod PostgreSQL instance
 
-| PROPERTY  | DETAILS                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------- |
+| PROPERTY  |                                           DETAILS                                            |
+|-----------|----------------------------------------------------------------------------------------------|
 | Console   | [Cloud SQL instances](https://console.cloud.google.com/sql/instances?project=sams-prod-ywuz) |
 | Databases | `accounts`, `cody_management`                                                                |
 
@@ -195,8 +195,8 @@ sg msp pg connect -write-access sams prod
 
 #### prod BigQuery dataset
 
-| PROPERTY        | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY     |                                                                                                                                                                                                                                                 DETAILS                                                                                                                                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dataset Project | `sams-prod-ywuz`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Dataset ID      | `sams`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json), [`cody_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/cody_events.bigquerytable.json), [`subscription_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/subscription_events.bigquerytable.json) |
