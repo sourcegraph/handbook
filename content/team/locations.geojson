@@ -43,19 +43,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Joe Chen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.08056640625,
-          30.290496154756223
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Quinn Slack"
       },
       "geometry": {
