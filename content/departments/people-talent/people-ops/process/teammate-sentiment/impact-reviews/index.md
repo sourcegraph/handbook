@@ -263,7 +263,7 @@ More information about our commitment to Pay Transparency and our overall compen
 
 Merit increases require the recommendation of the Teammate’s immediate Manager and the approval of the VP of People & Talent. Teammates will be notified of their merit increase as soon as possible after all Teammate merit increases for the year have been approved.
 
-Teammate performance is to be formally reviewed at least twice a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
+Teammate performance is to be formally reviewed once a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
 
 ### What is the approval process for merit or promotion increases outside of a performance cycle?
 
