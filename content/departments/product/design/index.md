@@ -12,6 +12,7 @@ Our mission is to put beautifully designed software in the hands of every develo
   Designer (he/him)
 - [Daniel Marques](../../../team/index.md#daniel-marques) – Product
   Designer (he/him)
+- Taiyab Raja – Product Designer (he/him)
 
 ### UX Research
 

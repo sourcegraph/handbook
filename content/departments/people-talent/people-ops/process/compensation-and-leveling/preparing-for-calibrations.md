@@ -45,12 +45,12 @@ Performance calibrations provide an opportunity to review and calibrate performa
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
 
-2. **Calibrate `2` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Superior Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
+2. **Calibrate `2` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _2 - Superior Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).
 
-3. **Calibrate `4` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _1 - Partially Successful Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
+3. **Calibrate `4` Ratings:** Managers will explain the rating assessment of each Teammate in correspondence to their level and for those Teammates that received a _4 - Partially Successful Performance_ category for performance, validating the placement with tangible examples. [More details](#part-1-discussion).
 
    1. Participating Managers will ask clarifying questions, provide feedback/insight, either challenging or confirming the Teammate’s placement. See [participant expectations](#part-2-participant-expectations).
    2. Managers/Calibration Participants align on scores for Teammates discussed. See [details on aligning on score](#part-3-aligning-on-the-scores).

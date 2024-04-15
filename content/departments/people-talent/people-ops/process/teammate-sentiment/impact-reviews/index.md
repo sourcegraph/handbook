@@ -20,7 +20,6 @@ Our impact review process follows the 360-degree feedback model, which is a perf
 - If you received a 3 rating, you are eligible for a merit increase once a year. Because of this, those who started on or after Feb 1 2023 are not eligible for a merit increase in 2H FY24 impact review cycle. They will be eligible in the 1H FY25 review cycle instead.
   - Note: to be eligible to participate in a review cycle, a Teammate must have worked at least **4-months** in that given review period and have received a performance rating of a “3” or higher.
 - On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting expectations.
-- Teammates can receive compensation increases 2x per year for exceptional performance (Rating score: "Distinguished" or "Superior" performance with a 1 or 2 rating), but the **expectation is that Teammates receive a comp review 1x per year**
 - Teammates who receive a 4 or 5 rating are not eligible for a compensation increase.
 - Teammates can also receive a compensation increase due to updates to compensation bands and recalibration of the 75th percentile. This is not inclusive of any FX changes for PEO teammates and only applicable when the respective compensation band is updated.
 - Note: If you received a 15% increase in the prior 12mo period as part of our standard merit cycle you will not be eligible for an increase UNLESS you got a promotion or had a role change. If you received an off-cycle increase or promotion AFTER the last merit cycle, you're not eligible for a merit increase this cycle.
@@ -264,7 +263,7 @@ More information about our commitment to Pay Transparency and our overall compen
 
 Merit increases require the recommendation of the Teammate’s immediate Manager and the approval of the VP of People & Talent. Teammates will be notified of their merit increase as soon as possible after all Teammate merit increases for the year have been approved.
 
-Teammate performance is to be formally reviewed at least twice a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
+Teammate performance is to be formally reviewed once a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
 
 ### What is the approval process for merit or promotion increases outside of a performance cycle?
 
