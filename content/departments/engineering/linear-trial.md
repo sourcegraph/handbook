@@ -76,6 +76,9 @@ This applies to:
 - All other private repositories that have syncing turned on.
   The full list of repos with syncing can be found [here](https://linear.app/sourcegraph/settings/integrations/github).
 
+Both Eng PUBLIC and Eng Private are configured to use [2 week cycles](https://linear.app/docs/use-cycles)
+based on [RFC 916](https://docs.google.com/document/d/16mipKz0fc2Ki5NYXG8Rarb8b4KHh34t27P9Ao_m8e-o/edit).
+
 ## Adding a new repository (for Engineering)
 
 You can ask for help in `#wg-linear-trial` with these steps as well.
