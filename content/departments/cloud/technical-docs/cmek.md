@@ -24,4 +24,4 @@ modify instance `config.yaml` with given annotation:
 
 ## How to disable CMEK
 
-When CMEK is enabled for instance, it cannot be disabled. Changing this conguration after the instance is created will require recreation of CloudSQL and Persistent Volumes, which will destroy all the data!
+When CMEK is enabled for instances, it cannot be disabled. Changing this configuration after the instance is created will require recreation of CloudSQL and Persistent Volumes, which will result in a loss of all data.
