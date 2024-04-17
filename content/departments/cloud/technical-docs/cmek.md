@@ -10,7 +10,7 @@ Benefits:
 
 ## How to enable CMEK
 
-> [!WARNING] CMEK can only be enabled during instance creation. Changing this conguration after the instance is created will require recreation of CloudSQL and Persistent Volumes, which will destroy all the data!
+> [!WARNING] CMEK can only be enabled during instance creation. Changing this configuration after the instance is created will require recreation of CloudSQL and Persistent Volumes, which will result in a loss of all data
 
 To enable CMEK for Cloud instance during creation, add tag `cmek` to [instance features](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/cloud/-/blob/.github/workflows/mi_create.yml?L63)
 
