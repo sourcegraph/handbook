@@ -7,6 +7,7 @@ Benefits:
 - customer data is encrypted using a non-default key not provided by Google, ensuring that neither Google nor any other entity can decrypt the data.
 - database data is encrypted with a different key as GKE persistent volumes, to increase security
 - dedicated CMEK can be rotated manually or automatically when required
+- [AES_256_CTR](https://cloud.google.com/kms/docs/reference/rest/v1/CryptoKeyVersionAlgorithm) algorithm is used for encryption/descryption with `SOFTWARE` protection level
 
 ## How to enable CMEK
 
@@ -19,8 +20,10 @@ or
 modify instance `config.yaml` with given annotation:
 
 ```yaml
-"cloud.sourcegraph.com/enable-cmek" = "true"
+"cloud.sourcegraph.com/cmek-algorithm" = "AES_256_CTR"
 ```
+
+> [!WARNING] If customer wants to use different algoritm, please contact Security Team.
 
 ## How to disable CMEK
 
