@@ -391,6 +391,10 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 - All questions should be directed to the #ask-people-team Slack channel.
 
+Q. **How do I calculate my contractor invoice if my merit increase is backdated?**
+
+- To calculate your merit increase proration, take your new monthly salary amount minus the old monthly salary amount and multiply by how many months since increase effective date. You can add a separate line item on your invoice for your merit increase proration.
+
 ## FY24 FAQ - Moving to Annual Impact Review and Merit Cadence
 
 **1. Why are we moving to annual impact reviews?**
