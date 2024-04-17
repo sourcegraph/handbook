@@ -5,7 +5,7 @@ Customer Managed Encryption Keys (CMEK) is the security feature which ensures th
 Benefits:
 
 - customer's data are encrypted with non-default Google key, which ensures Google (nor any other entity) cannot decrypt the data
-- database data are encrypted with different key than GKE persistent volumes to increase security
+- database data is encrypted with a different key as GKE persistent volumes, to increase security
 - dedicated CMEK can be rotated manually or automatilly if required
 
 ## How to enable CMEK
