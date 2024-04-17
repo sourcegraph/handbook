@@ -9,7 +9,6 @@ as well as TPM.
 | Clients - JB                                                                          | Dominic Cooney             | Taylor Sperry                | Daniel Marques      | Kalan Chan | #discuss-cody            |
 | Clients - VS                                                                          | Dominic Cooney             | TBD (Chris Sells)            | TBD                 | Kalan Chan | #discuss-cody            |
 | Clients - VSC                                                                         | Dominic Cooney             | Corey Hill                   | Tim Lucas           | none       | #discuss-cody            |
-| Clients - Cody Web                                                                    | TBD (Erika Rice Scherpelz) | TBD (Chris Sells)            | TBD                 | none       | #discuss-cody            |
 | [Code Search](../departments/engineering/teams/code-search/index.md#responsibilities) | Peter Guy                  | TBH (Chris Sells)            | Taiyab Raja         | Ron Shah   | #discuss-code-search     |
 | Cody PLG                                                                              | David Veszelovszki         | Kevin Chen                   | Rob Rhyne           | none       | #discuss-plg             |
 | Cody Enterprise/Strat                                                                 | Cezary Bartoszuk           | Aravind Ramaraju             | none                | Kalan Chan | #discuss-cody-strat      |
