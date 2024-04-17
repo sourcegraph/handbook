@@ -1,6 +1,6 @@
 # Customer Managed Encryption Keys
 
-Customer Managed Encryption Keys (CMEK) is the security feature which ensures that the customer data in Google Cloud Platform are encrypted at rest using unique, dedicated keys stored in Cloud KMS - [Google Cloud Platform documentation](https://cloud.google.com/kms/docs/cmek).
+Customer Managed Encryption Keys (CMEK) is the security feature which ensures that the customer data in Google Cloud Platform is encrypted at rest using unique, dedicated keys stored in Cloud KMS - [Google Cloud Platform documentation](https://cloud.google.com/kms/docs/cmek).
 
 Benefits:
 
