@@ -6,7 +6,7 @@ Benefits:
 
 - customer data is encrypted using a non-default key not provided by Google, ensuring that neither Google nor any other entity can decrypt the data.
 - database data is encrypted with a different key as GKE persistent volumes, to increase security
-- dedicated CMEK can be rotated manually or automatilly if required
+- dedicated CMEK can be rotated manually or automatically when required
 
 ## How to enable CMEK
 
