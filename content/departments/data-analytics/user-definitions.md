@@ -59,8 +59,9 @@ The technical health score combines high-level, aggregated metrics in order to u
 
 | Metric                                              | Description                                                                                           |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Adoption measured as: MAU/Total purchased seats (%) | Used as a measure of monthly adoption within a customer’s total licensed user base.                   |
-| Usage measured as: DAU/MAU (%)                      | Used as a measure of overall engagement / stickiness of the platform within an account’s active users |
+| Adoption measured as: <br />MAU/Purchased seats (%) | Used as a measure of monthly adoption within a customer’s total licensed user base. <br />This applies to most deals that do not have an unlimited deal contract (unlimited licensed seats). |
+| Adoption measured as: <br />MAU/TAM (%)             | When a customer is on an unlimited deal contract (unlimited licensed seats), the account team will use TAM (Total Addressable Market) as a denominator. <br />TAM is the total amount of possible end-users that can use the Sourcegraph platform at a given company. |
+| Usage measured as: <br />DAU/MAU (%)                | Used as a measure of overall engagement / stickiness of the platform within an account’s active users |
 | # of versions behind current Sourcegraph version    | Used as a measure of overall instance health                                                          |
 
 Additional Resources:
