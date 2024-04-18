@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-12 12:41:21.965143 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cc51eaa4e11a3146ae0a173cc2b80076466df8f7
+Last updated: 2024-04-18 13:41:36.632279 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/b48c02fa7c553af5b6888efff69b85b48717db54
 -->
 
 This document describes operational guidance for Cody Gatekeeper infrastructure.
@@ -17,8 +17,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                    |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                          DETAILS                                                           |
+|--------------|----------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | `gatekeeper` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/gatekeeper/service.yaml)) |
 | Owners       | **cody-services**                                                                                                          |
 | Service kind | Cloud Run job                                                                                                              |
@@ -30,20 +30,20 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                             |
-| ------------------- | --------------------------------------------------------------------------------------------------- |
-| Project ID          | [`gatekeeper-prod-1c93`](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)    |
-| Category            | **internal**                                                                                        |
-| Deployment type     | `subscription`                                                                                      |
-| Resources           |                                                                                                     |
-| Slack notifications | [#alerts-gatekeeper-prod](https://sourcegraph.slack.com/archives/alerts-gatekeeper-prod)            |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=gatekeeper-prod-1c93) |
-| Errors              | [Sentry `gatekeeper-prod`](https://sourcegraph.sentry.io/projects/gatekeeper-prod/)                 |
+|      PROPERTY       |                                                                                                                                                                                                                           DETAILS                                                                                                                                                                                                                           |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project ID          | [`gatekeeper-prod-1c93`](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)                                                                                                                                                                                                                                                                                                                                                            |
+| Category            | **internal**                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Deployment type     | `subscription`                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Resources           |                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Slack notifications | [#alerts-gatekeeper-prod](https://sourcegraph.slack.com/archives/alerts-gatekeeper-prod)                                                                                                                                                                                                                                                                                                                                                                    |
+| Alert policies      | [Listing](https://console.cloud.google.com/monitoring/alerting/policies?project=gatekeeper-prod-1c93), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=gatekeeper-prod-1c93) |
+| Errors              | [Sentry `gatekeeper-prod`](https://sourcegraph.sentry.io/projects/gatekeeper-prod/)                                                                                                                                                                                                                                                                                                                                                                         |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          ACCESS          |                                                                                                                                                                      ENTITLE REQUEST TEMPLATE                                                                                                                                                                       |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiNzg0M2MxYWYtYzU2MS00ZDMyLWE3ZTAtYjZkNjY0NDM4MzAzIiwidGhyb3VnaCI6Ijc4NDNjMWFmLWM1NjEtNGQzMi1hN2UwLWI2ZDY2NDQzODMwMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
 | GCP project write access | [Write access Entitle request for the 'Internal Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZTEyYTJkZDktYzY1ZC00YzM0LTlmNDgtMzYzNTNkZmY0MDkyIiwidGhyb3VnaCI6ImUxMmEyZGQ5LWM2NWQtNGMzNC05ZjQ4LTM2MzUzZGZmNDA5MiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -53,8 +53,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Cody Gatekeeper prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                      |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                                                                                                                                           DETAILS                                                                                                                                                            |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run job](https://console.cloud.google.com/run/jobs?project=gatekeeper-prod-1c93)                                                                                                                                                                                                                                      |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_job%22;summaryFields=labels%252F%2522run.googleapis.com%252Fexecution_name%2522,jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=gatekeeper-prod-1c93) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=gatekeeper-prod-1c93)                                                                                                                                                                                                                                     |
@@ -90,3 +90,47 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 ```bash
 sg msp tfc view gatekeeper prod
 ```
+
+### Alert Policies
+
+The following alert policies are defined for each of this service's environments.
+
+#### High Container CPU Utilization
+
+```md
+High CPU Usage - it may be neccessary to reduce load or increase CPU allocation
+```
+
+Severity: WARNING
+
+#### High Container Memory Utilization
+
+```md
+High Memory Usage - it may be neccessary to reduce load or increase memory allocation
+```
+
+Severity: WARNING
+
+#### Container Startup Latency
+
+```md
+Service containers are taking longer than configured timeouts to start up.
+```
+
+Severity: WARNING
+
+#### Cloud Run Job Execution Absence
+
+```md
+No Cloud Run Job executions were detected in expected window (70m)
+```
+
+Severity: WARNING
+
+#### Cloud Run Job Failures
+
+```md
+Cloud Run Job executions failed
+```
+
+Severity: WARNING

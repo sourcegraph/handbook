@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-12 12:41:21.968566 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cc51eaa4e11a3146ae0a173cc2b80076466df8f7
+Last updated: 2024-04-18 13:41:36.637093 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/b48c02fa7c553af5b6888efff69b85b48717db54
 -->
 
 This document describes operational guidance for Pings Service infrastructure.
@@ -17,8 +17,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                              |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                       DETAILS                                                        |
+|--------------|----------------------------------------------------------------------------------------------------------------------|
 | Service ID   | `pings` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/pings/service.yaml))     |
 | Owners       | **core-services**                                                                                                    |
 | Service kind | Cloud Run service                                                                                                    |
@@ -30,21 +30,21 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                                |
-| ------------------- | ------------------------------------------------------------------------------------------------------ |
-| Project ID          | [`pings-prod-2f4f73edf1db`](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)      |
-| Category            | **external**                                                                                           |
-| Deployment type     | `subscription`                                                                                         |
-| Resources           |                                                                                                        |
-| Slack notifications | [#alerts-pings-prod](https://sourcegraph.slack.com/archives/alerts-pings-prod)                         |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=pings-prod-2f4f73edf1db) |
-| Errors              | [Sentry `pings-prod`](https://sourcegraph.sentry.io/projects/pings-prod/)                              |
-| Domain              | [pings.sourcegraph.com](https://pings.sourcegraph.com)                                                 |
+|      PROPERTY       |                                                                                                                                                                                                                              DETAILS                                                                                                                                                                                                                              |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project ID          | [`pings-prod-2f4f73edf1db`](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)                                                                                                                                                                                                                                                                                                                                                                 |
+| Category            | **external**                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Deployment type     | `subscription`                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Resources           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Slack notifications | [#alerts-pings-prod](https://sourcegraph.slack.com/archives/alerts-pings-prod)                                                                                                                                                                                                                                                                                                                                                                                    |
+| Alert policies      | [Listing](https://console.cloud.google.com/monitoring/alerting/policies?project=pings-prod-2f4f73edf1db), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=pings-prod-2f4f73edf1db) |
+| Errors              | [Sentry `pings-prod`](https://sourcegraph.sentry.io/projects/pings-prod/)                                                                                                                                                                                                                                                                                                                                                                                         |
+| Domain              | [pings.sourcegraph.com](https://pings.sourcegraph.com)                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                      ENTITLE REQUEST TEMPLATE                                                                                                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)   |
 | GCP project write access | [Write access Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -54,8 +54,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Pings Service prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                              |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|    PROPERTY    |                                                                                                                                                               DETAILS                                                                                                                                                                |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=pings-prod-2f4f73edf1db) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=pings-prod-2f4f73edf1db)                                                                                                                                                                                                                                          |
@@ -91,3 +91,56 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 ```bash
 sg msp tfc view pings prod
 ```
+
+### Alert Policies
+
+The following alert policies are defined for each of this service's environments.
+
+#### High Container CPU Utilization
+
+```md
+High CPU Usage - it may be neccessary to reduce load or increase CPU allocation
+```
+
+Severity: WARNING
+
+#### High Container Memory Utilization
+
+```md
+High Memory Usage - it may be neccessary to reduce load or increase memory allocation
+```
+
+Severity: WARNING
+
+#### Container Startup Latency
+
+```md
+Service containers are taking longer than configured timeouts to start up.
+```
+
+Severity: WARNING
+
+#### Cloud Run Pending Requests
+
+```md
+There are requests pending - we may need to increase  Cloud Run instance count, request concurrency, or investigate further.
+```
+
+Severity: WARNING
+
+#### Cloud Run Instance Precondition Failed
+
+```md
+Cloud Run instance failed to start due to a precondition failure.
+This is unlikely to cause immediate downtime, and may auto-resolve if no new instances are created and/or we return to a healthy state, but you should follow up to ensure the latest Cloud Run revision is healthy.
+```
+
+Severity: WARNING
+
+#### External Uptime Check
+
+```md
+Service is failing to repond on https://pings.sourcegraph.com - this may be expected if the service was recently provisioned or if its external domain has changed.
+```
+
+Severity: CRITICAL

@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-12 12:41:21.97843 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cc51eaa4e11a3146ae0a173cc2b80076466df8f7
+Last updated: 2024-04-18 13:41:36.650929 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/b48c02fa7c553af5b6888efff69b85b48717db54
 -->
 
 This document describes operational guidance for Telemetry Gateway infrastructure.
@@ -17,8 +17,8 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ## Service overview
 
-| PROPERTY     | DETAILS                                                                                                                                      |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+|   PROPERTY   |                                                                   DETAILS                                                                    |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Service ID   | `telemetry-gateway` ([specification](https://github.com/sourcegraph/managed-services/blob/main/services/telemetry-gateway/service.yaml))     |
 | Owners       | **core-services**                                                                                                                            |
 | Service kind | Cloud Run service                                                                                                                            |
@@ -65,8 +65,8 @@ The production Telemetry Gateway instance has custom metrics dashboard defined i
 
 ## Rollouts
 
-| PROPERTY          | DETAILS                                                                                                                                                                                     |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     PROPERTY      |                                                                                           DETAILS                                                                                           |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Delivery pipeline | [`telemetry-gateway-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/telemetry-gateway-us-central1-rollout?project=telemetry-gateway-prod-acae) |
 | Stages            | [dev](#dev) -> [prod](#prod)                                                                                                                                                                |
 
@@ -78,21 +78,21 @@ Promotion of a release to the next stage in the pipeline must be done manually u
 
 ### dev
 
-| PROPERTY            | DETAILS                                                                                                   |
-| ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Project ID          | [`telemetry-gateway-dev-0050`](https://console.cloud.google.com/run?project=telemetry-gateway-dev-0050)   |
-| Category            | **test**                                                                                                  |
-| Deployment type     | `rollout`                                                                                                 |
-| Resources           |                                                                                                           |
-| Slack notifications | [#alerts-telemetry-gateway-dev](https://sourcegraph.slack.com/archives/alerts-telemetry-gateway-dev)      |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=telemetry-gateway-dev-0050) |
-| Errors              | [Sentry `telemetry-gateway-dev`](https://sourcegraph.sentry.io/projects/telemetry-gateway-dev/)           |
-| Domain              | [telemetry-gateway.sgdev.org](https://telemetry-gateway.sgdev.org)                                        |
+|      PROPERTY       |                                                                                                                                                                                                                                 DETAILS                                                                                                                                                                                                                                 |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project ID          | [`telemetry-gateway-dev-0050`](https://console.cloud.google.com/run?project=telemetry-gateway-dev-0050)                                                                                                                                                                                                                                                                                                                                                                 |
+| Category            | **test**                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Deployment type     | `rollout`                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Resources           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Slack notifications | [#alerts-telemetry-gateway-dev](https://sourcegraph.slack.com/archives/alerts-telemetry-gateway-dev)                                                                                                                                                                                                                                                                                                                                                                    |
+| Alert policies      | [Listing](https://console.cloud.google.com/monitoring/alerting/policies?project=telemetry-gateway-dev-0050), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=telemetry-gateway-dev-0050) |
+| Errors              | [Sentry `telemetry-gateway-dev`](https://sourcegraph.sentry.io/projects/telemetry-gateway-dev/)                                                                                                                                                                                                                                                                                                                                                                         |
+| Domain              | [telemetry-gateway.sgdev.org](https://telemetry-gateway.sgdev.org)                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          ACCESS          |                                                                                                                                                                        ENTITLE REQUEST TEMPLATE                                                                                                                                                                        |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiZGY3NWJkNWMtYmUxOC00MjhmLWEzNjYtYzlhYTU1MGIwODIzIiwidGhyb3VnaCI6ImRmNzViZDVjLWJlMTgtNDI4Zi1hMzY2LWM5YWE1NTBiMDgyMyIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)    |
 | GCP project write access | [Write access Entitle request for the 'Engineering Projects' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjIxNjAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYzJkMTUwOGEtMGQ0ZS00MjA1LWFiZWUtOGY1ODg1ZGY3ZDE4IiwidGhyb3VnaCI6ImMyZDE1MDhhLTBkNGUtNDIwNS1hYmVlLThmNTg4NWRmN2QxOCIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -102,8 +102,8 @@ For Terraform Cloud access, see [dev Terraform Cloud](#dev-terraform-cloud).
 
 The Telemetry Gateway dev service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                                 |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                                                                                                                                                 DETAILS                                                                                                                                                                 |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=telemetry-gateway-dev-0050)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=telemetry-gateway-dev-0050) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=telemetry-gateway-dev-0050)                                                                                                                                                                                                                                          |
@@ -142,21 +142,21 @@ sg msp tfc view telemetry-gateway dev
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                                    |
-| ------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Project ID          | [`telemetry-gateway-prod-acae`](https://console.cloud.google.com/run?project=telemetry-gateway-prod-acae)  |
-| Category            | **external**                                                                                               |
-| Deployment type     | `rollout`                                                                                                  |
-| Resources           |                                                                                                            |
-| Slack notifications | [#alerts-telemetry-gateway-prod](https://sourcegraph.slack.com/archives/alerts-telemetry-gateway-prod)     |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=telemetry-gateway-prod-acae) |
-| Errors              | [Sentry `telemetry-gateway-prod`](https://sourcegraph.sentry.io/projects/telemetry-gateway-prod/)          |
-| Domain              | [telemetry-gateway.sourcegraph.com](https://telemetry-gateway.sourcegraph.com)                             |
+|      PROPERTY       |                                                                                                                                                                                                                                  DETAILS                                                                                                                                                                                                                                  |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project ID          | [`telemetry-gateway-prod-acae`](https://console.cloud.google.com/run?project=telemetry-gateway-prod-acae)                                                                                                                                                                                                                                                                                                                                                                 |
+| Category            | **external**                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Deployment type     | `rollout`                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Resources           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Slack notifications | [#alerts-telemetry-gateway-prod](https://sourcegraph.slack.com/archives/alerts-telemetry-gateway-prod)                                                                                                                                                                                                                                                                                                                                                                    |
+| Alert policies      | [Listing](https://console.cloud.google.com/monitoring/alerting/policies?project=telemetry-gateway-prod-acae), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=telemetry-gateway-prod-acae) |
+| Errors              | [Sentry `telemetry-gateway-prod`](https://sourcegraph.sentry.io/projects/telemetry-gateway-prod/)                                                                                                                                                                                                                                                                                                                                                                         |
+| Domain              | [telemetry-gateway.sourcegraph.com](https://telemetry-gateway.sourcegraph.com)                                                                                                                                                                                                                                                                                                                                                                                            |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
-| ACCESS                   | ENTITLE REQUEST TEMPLATE                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|          ACCESS          |                                                                                                                                                                      ENTITLE REQUEST TEMPLATE                                                                                                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCP project read access  | [Read-only Entitle request for the 'Managed Services ' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiYTQ4OWM2MDktNTBlYy00ODAzLWIzZjItMzYzZGJhMTgwMWJhIiwidGhyb3VnaCI6ImE0ODljNjA5LTUwZWMtNDgwMy1iM2YyLTM2M2RiYTE4MDFiYSIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D)   |
 | GCP project write access | [Write access Entitle request for the 'Managed Services' folder](https://app.entitle.io/request?data=eyJkdXJhdGlvbiI6IjEwODAwIiwianVzdGlmaWNhdGlvbiI6IkVOVEVSIEpVU1RJRklDQVRJT04gSEVSRSIsInJvbGVJZHMiOlt7ImlkIjoiODQzNTYxNzktZjkwMi00MDVlLTlhMTQtNTY3YTY1NmM5MzdmIiwidGhyb3VnaCI6Ijg0MzU2MTc5LWY5MDItNDA1ZS05YTE0LTU2N2E2NTZjOTM3ZiIsInR5cGUiOiJyb2xlIn1dfQ%3D%3D) |
 
@@ -166,8 +166,8 @@ For Terraform Cloud access, see [prod Terraform Cloud](#prod-terraform-cloud).
 
 The Telemetry Gateway prod service implementation is deployed on [Google Cloud Run](https://cloud.google.com/run).
 
-| PROPERTY       | DETAILS                                                                                                                                                                                                                                                                                                                                  |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    PROPERTY    |                                                                                                                                                                 DETAILS                                                                                                                                                                  |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Console        | [Cloud Run service](https://console.cloud.google.com/run?project=telemetry-gateway-prod-acae)                                                                                                                                                                                                                                            |
 | Service logs   | [GCP logging](https://console.cloud.google.com/logs/query;query=resource.type%20%3D%20%22cloud_run_revision%22%20-logName%3D~%22logs%2Frun.googleapis.com%252Frequests%22;summaryFields=jsonPayload%252FInstrumentationScope,jsonPayload%252FBody,jsonPayload%252FAttributes%252Ferror:false:32:end?project=telemetry-gateway-prod-acae) |
 | Service traces | [Cloud Trace](https://console.cloud.google.com/traces/list?project=telemetry-gateway-prod-acae)                                                                                                                                                                                                                                          |
@@ -203,3 +203,64 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 ```bash
 sg msp tfc view telemetry-gateway prod
 ```
+
+### Alert Policies
+
+The following alert policies are defined for each of this service's environments.
+
+#### High Container CPU Utilization
+
+```md
+High CPU Usage - it may be neccessary to reduce load or increase CPU allocation
+```
+
+Severity: WARNING
+
+#### High Container Memory Utilization
+
+```md
+High Memory Usage - it may be neccessary to reduce load or increase memory allocation
+```
+
+Severity: WARNING
+
+#### Container Startup Latency
+
+```md
+Service containers are taking longer than configured timeouts to start up.
+```
+
+Severity: WARNING
+
+#### Cloud Run Pending Requests
+
+```md
+There are requests pending - we may need to increase  Cloud Run instance count, request concurrency, or investigate further.
+```
+
+Severity: WARNING
+
+#### Cloud Run Instance Precondition Failed
+
+```md
+Cloud Run instance failed to start due to a precondition failure.
+This is unlikely to cause immediate downtime, and may auto-resolve if no new instances are created and/or we return to a healthy state, but you should follow up to ensure the latest Cloud Run revision is healthy.
+```
+
+Severity: WARNING
+
+#### External Uptime Check
+
+```md
+Service is failing to repond on https://telemetry-gateway.sourcegraph.com - this may be expected if the service was recently provisioned or if its external domain has changed.
+```
+
+Severity: CRITICAL
+
+#### Container Instance Count
+
+```md
+There are a lot of Cloud Run instances running - we may need to increase per-instance requests make make sure we won't hit the configured max instance count
+```
+
+Severity: WARNING
