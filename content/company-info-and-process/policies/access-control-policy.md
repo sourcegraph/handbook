@@ -2,15 +2,15 @@
 
 ## Purpose
 
-The purpose of this policy is to limit access to information and information processing systems to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets as application of poor credentials in service and system can lead to disclosure of sensitive information and data breaches. Our intention in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose restrictions.
+The purpose of this policy is to limit access to information and information processing systems to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets. Our intent in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose arbitrary restrictions.
 
 ## Scope
 
-This policy applies to all Sourcegraph full-time teammates, interns, temporary contractors, and to all external parties with access to Sourcegraph systems.
+This policy applies to all Sourcegraph full-time teammates, interns, temporary contractors, and to all external parties with access to Sourcegraph systems (referred to in this policy as “users”).
 
 ## Policy
 
-Access to information and information processing systems is limited to employees with a business requirement for such access. Access rights should be granted or revoked in accordance with this Access Control Policy.
+Access to information and information processing systems is limited to users with a business requirement for such access. Access rights should be granted or revoked in accordance with this Access Control Policy.
 
 ## Business Requirements of Access Control
 
@@ -58,7 +58,7 @@ Control and management of individual user passwords is the responsibility of all
 
 ## Credentials Management Policy
 
-Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password. \
+The passwords we choose contribute to the security of our Sourcegraph-managed systems and data. The use of poor credentials in service and system can lead to disclosure of sensitive information and data breaches. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password. \
  \
 [This](../../departments/tech-ops/process/internal-security/passwords.md) is guidance for setting passwords to Sourcegraph-managed accounts. These are strongly recommended and will be enforced at the organizational level when available.
 
