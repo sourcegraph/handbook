@@ -1,4 +1,4 @@
-# Developer Infrastruture Team
+# Developer Infrastructure Team
 
 <img align="right" src="https://user-images.githubusercontent.com/23356519/166327839-472252c9-e3aa-460e-8c11-5655b0451ae2.png" height="300" alt="Sourcegraph Developer Infrastructure temporary team logo"></img>
 
