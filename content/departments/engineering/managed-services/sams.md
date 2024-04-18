@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-12 12:41:21.972347 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cc51eaa4e11a3146ae0a173cc2b80076466df8f7
+Last updated: 2024-04-18 18:06:57.927675 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/b48c02fa7c553af5b6888efff69b85b48717db54
 -->
 
 This document describes operational guidance for Self-Serve Cody infrastructure.
@@ -30,17 +30,17 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### dev
 
-| PROPERTY            | DETAILS                                                                                                                     |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Project ID          | [`sams-dev-bfec`](https://console.cloud.google.com/run?project=sams-dev-bfec)                                               |
-| Category            | **test**                                                                                                                    |
-| Deployment type     | `subscription`                                                                                                              |
-| Resources           | [dev Redis](#dev-redis), [dev PostgreSQL instance](#dev-postgresql-instance), [dev BigQuery dataset](#dev-bigquery-dataset) |
-| Slack notifications | [#alerts-sams-dev](https://sourcegraph.slack.com/archives/alerts-sams-dev)                                                  |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sams-dev-bfec)                                |
-| Errors              | [Sentry `sams-dev`](https://sourcegraph.sentry.io/projects/sams-dev/)                                                       |
-| Domain              | [cody.sgdev.org](https://cody.sgdev.org)                                                                                    |
-| Cloudflare WAF      | ✅                                                                                                                          |
+| PROPERTY            | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Project ID          | [`sams-dev-bfec`](https://console.cloud.google.com/run?project=sams-dev-bfec)                                                                                                                                                                                                                                                                                                                                                                                            |
+| Category            | **test**                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Deployment type     | `subscription`                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Resources           | [dev Redis](#dev-redis), [dev PostgreSQL instance](#dev-postgresql-instance), [dev BigQuery dataset](#dev-bigquery-dataset)                                                                                                                                                                                                                                                                                                                                              |
+| Slack notifications | [#alerts-sams-dev](https://sourcegraph.slack.com/archives/alerts-sams-dev)                                                                                                                                                                                                                                                                                                                                                                                               |
+| Alert policies      | [GCP Monitoring alert policies list](https://console.cloud.google.com/monitoring/alerting/policies?project=sams-dev-bfec), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=sams-dev-bfec) |
+| Errors              | [Sentry `sams-dev`](https://sourcegraph.sentry.io/projects/sams-dev/)                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Domain              | [cody.sgdev.org](https://cody.sgdev.org)                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Cloudflare WAF      | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges. Test environments may have less stringent requirements.
 
@@ -129,17 +129,17 @@ sg msp tfc view sams dev
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Project ID          | [`sams-prod-ywuz`](https://console.cloud.google.com/run?project=sams-prod-ywuz)                                                   |
-| Category            | **external**                                                                                                                      |
-| Deployment type     | `manual`                                                                                                                          |
-| Resources           | [prod Redis](#prod-redis), [prod PostgreSQL instance](#prod-postgresql-instance), [prod BigQuery dataset](#prod-bigquery-dataset) |
-| Slack notifications | [#alerts-sams-prod](https://sourcegraph.slack.com/archives/alerts-sams-prod)                                                      |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=sams-prod-ywuz)                                     |
-| Errors              | [Sentry `sams-prod`](https://sourcegraph.sentry.io/projects/sams-prod/)                                                           |
-| Domain              | [cody.sourcegraph.com](https://cody.sourcegraph.com)                                                                              |
-| Cloudflare WAF      | ✅                                                                                                                                |
+| PROPERTY            | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project ID          | [`sams-prod-ywuz`](https://console.cloud.google.com/run?project=sams-prod-ywuz)                                                                                                                                                                                                                                                                                                                                                                                            |
+| Category            | **external**                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Deployment type     | `manual`                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Resources           | [prod Redis](#prod-redis), [prod PostgreSQL instance](#prod-postgresql-instance), [prod BigQuery dataset](#prod-bigquery-dataset)                                                                                                                                                                                                                                                                                                                                          |
+| Slack notifications | [#alerts-sams-prod](https://sourcegraph.slack.com/archives/alerts-sams-prod)                                                                                                                                                                                                                                                                                                                                                                                               |
+| Alert policies      | [GCP Monitoring alert policies list](https://console.cloud.google.com/monitoring/alerting/policies?project=sams-prod-ywuz), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=sams-prod-ywuz) |
+| Errors              | [Sentry `sams-prod`](https://sourcegraph.sentry.io/projects/sams-prod/)                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Domain              | [cody.sourcegraph.com](https://cody.sourcegraph.com)                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Cloudflare WAF      | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
@@ -225,3 +225,179 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 ```bash
 sg msp tfc view sams prod
 ```
+
+### Alert Policies
+
+The following alert policies are defined for each of this service's environments.
+
+#### Cloud SQL - Connections
+
+```md
+The number of Cloud SQL connections are approaching the maximum number of connections.
+This can be caused by an increase in the number of active service instances.
+
+Try increasing the 'resource.postgreSQL.maxConnections' configuration parameter.
+```
+
+Severity: WARNING
+
+#### Cloud SQL - CPU Utilization
+
+```md
+Cloud SQL instance CPU utilization is above acceptable threshold.
+```
+
+Severity: WARNING
+
+#### Cloud SQL - Disk Utilization
+
+```md
+Cloud SQL instance disk utilization is above acceptable threshold.
+```
+
+Severity: WARNING
+
+#### Cloud SQL - Memory Utilization
+
+```md
+Cloud SQL instance memory utilization is above acceptable threshold.
+```
+
+Severity: WARNING
+
+#### Cloud SQL - Server Availability
+
+```md
+Cloud SQL instance is down.
+```
+
+Severity: WARNING
+
+#### Cloud SQL - Spike in Per-Query Lock Time
+
+```md
+Cloud SQL database queries encountered lock times well above acceptable thresholds.
+```
+
+Severity: WARNING
+
+#### Cloud SQL - Sustained Per-Query Lock Times
+
+```md
+Cloud SQL database queries are encountering lock times above acceptable thresholds over a window.
+```
+
+Severity: WARNING
+
+#### High Container CPU Utilization
+
+```md
+High CPU Usage - it may be neccessary to reduce load or increase CPU allocation
+```
+
+Severity: WARNING
+
+#### High Container Memory Utilization
+
+```md
+High Memory Usage - it may be neccessary to reduce load or increase memory allocation
+```
+
+Severity: WARNING
+
+#### Container Startup Latency
+
+```md
+Service containers are taking longer than configured timeouts to start up.
+```
+
+Severity: WARNING
+
+#### Cloud Redis - System CPU Utilization
+
+```md
+Redis Engine CPU Utilization goes above the set threshold. The utilization is measured on a scale of 0 to 1.
+```
+
+Severity: WARNING
+
+#### Cloud Redis - Standard Instance Failover
+
+```md
+Instance failover occured for a standard tier Redis instance.
+```
+
+Severity: WARNING
+
+#### Cloud Redis - System Memory Utilization
+
+```md
+Redis System memory utilization is above the set threshold. The utilization is measured on a scale of 0 to 1.
+```
+
+Severity: WARNING
+
+#### High Ratio of 400 Responses
+
+```md
+400 responses coming from the application. Does NOT include requests that did not reach the instance, e.g. if no host is available to receive a request - check GCP logs and error reports instead.
+```
+
+Severity: WARNING
+
+#### High Ratio of 401 Responses
+
+```md
+401 responses coming from the application. Does NOT include requests that did not reach the instance, e.g. if no host is available to receive a request - check GCP logs and error reports instead.
+```
+
+Severity: WARNING
+
+#### High Ratio of 403 Responses
+
+```md
+403 (forbidden) responses coming from the application. Does NOT include requests that did not reach the instance, e.g. if no host is available to receive a request - check GCP logs and error reports instead.
+```
+
+Severity: WARNING
+
+#### High Ratio of 500 Responses
+
+```md
+500 responses coming from the application. Does NOT include requests that did not reach the instance, e.g. if no host is available to receive a request - check GCP logs and error reports instead.
+```
+
+Severity: WARNING
+
+#### Cloud Run Pending Requests
+
+```md
+There are requests pending - we may need to increase Cloud Run instance count, request concurrency, or investigate further.
+```
+
+Severity: WARNING
+
+#### Cloud Run Instance Precondition Failed
+
+```md
+Cloud Run instance failed to start due to a precondition failure.
+This is unlikely to cause immediate downtime, and may auto-resolve if no new instances are created and/or we return to a healthy state, but you should follow up to ensure the latest Cloud Run revision is healthy.
+```
+
+Severity: WARNING
+
+#### External Uptime Check
+
+```md
+Service is failing to repond on https://cody.sourcegraph.com - this may be expected if the service was recently provisioned or if its external domain has changed.
+```
+
+Severity: CRITICAL
+
+#### Container Instance Count
+
+```md
+There are a lot of Cloud Run instances running - we may need to increase per-instance requests make make sure we won't hit the configured max instance count
+```
+
+Severity: WARNING
