@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-12 12:41:21.959641 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/cc51eaa4e11a3146ae0a173cc2b80076466df8f7
+Last updated: 2024-04-18 18:06:57.910203 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/b48c02fa7c553af5b6888efff69b85b48717db54
 -->
 
 This document describes operational guidance for Cloud Ops Dashboard infrastructure.
@@ -30,17 +30,17 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 
 ### prod
 
-| PROPERTY            | DETAILS                                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------------------- |
-| Project ID          | [`cloud-ops-prod-dd32`](https://console.cloud.google.com/run?project=cloud-ops-prod-dd32)          |
-| Category            | **internal**                                                                                       |
-| Deployment type     | `subscription`                                                                                     |
-| Resources           | [prod Redis](#prod-redis)                                                                          |
-| Slack notifications | [#alerts-cloud-ops-prod](https://sourcegraph.slack.com/archives/alerts-cloud-ops-prod)             |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cloud-ops-prod-dd32) |
-| Errors              | [Sentry `cloud-ops-prod`](https://sourcegraph.sentry.io/projects/cloud-ops-prod/)                  |
-| Domain              | [cloud-ops.sgdev.org](https://cloud-ops.sgdev.org)                                                 |
-| Cloudflare WAF      | ✅                                                                                                 |
+| PROPERTY            | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Project ID          | [`cloud-ops-prod-dd32`](https://console.cloud.google.com/run?project=cloud-ops-prod-dd32)                                                                                                                                                                                                                                                                                                                                                                                            |
+| Category            | **internal**                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Deployment type     | `subscription`                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Resources           | [prod Redis](#prod-redis)                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Slack notifications | [#alerts-cloud-ops-prod](https://sourcegraph.slack.com/archives/alerts-cloud-ops-prod)                                                                                                                                                                                                                                                                                                                                                                                               |
+| Alert policies      | [GCP Monitoring alert policies list](https://console.cloud.google.com/monitoring/alerting/policies?project=cloud-ops-prod-dd32), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=cloud-ops-prod-dd32) |
+| Errors              | [Sentry `cloud-ops-prod`](https://sourcegraph.sentry.io/projects/cloud-ops-prod/)                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Domain              | [cloud-ops.sgdev.org](https://cloud-ops.sgdev.org)                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Cloudflare WAF      | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
@@ -101,17 +101,17 @@ sg msp tfc view cloud-ops prod
 
 ### dev
 
-| PROPERTY            | DETAILS                                                                                           |
-| ------------------- | ------------------------------------------------------------------------------------------------- |
-| Project ID          | [`cloud-ops-dev-caff`](https://console.cloud.google.com/run?project=cloud-ops-dev-caff)           |
-| Category            | **internal**                                                                                      |
-| Deployment type     | `subscription`                                                                                    |
-| Resources           | [dev Redis](#dev-redis)                                                                           |
-| Slack notifications | [#alerts-cloud-ops-dev](https://sourcegraph.slack.com/archives/alerts-cloud-ops-dev)              |
-| Alerts              | [GCP monitoring](https://console.cloud.google.com/monitoring/alerting?project=cloud-ops-dev-caff) |
-| Errors              | [Sentry `cloud-ops-dev`](https://sourcegraph.sentry.io/projects/cloud-ops-dev/)                   |
-| Domain              | [cloud-ops-dev.sgdev.org](https://cloud-ops-dev.sgdev.org)                                        |
-| Cloudflare WAF      | ✅                                                                                                |
+| PROPERTY            | DETAILS                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project ID          | [`cloud-ops-dev-caff`](https://console.cloud.google.com/run?project=cloud-ops-dev-caff)                                                                                                                                                                                                                                                                                                                                                                                            |
+| Category            | **internal**                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Deployment type     | `manual`                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Resources           | [dev Redis](#dev-redis)                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Slack notifications | [#alerts-cloud-ops-dev](https://sourcegraph.slack.com/archives/alerts-cloud-ops-dev)                                                                                                                                                                                                                                                                                                                                                                                               |
+| Alert policies      | [GCP Monitoring alert policies list](https://console.cloud.google.com/monitoring/alerting/policies?project=cloud-ops-dev-caff), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=cloud-ops-dev-caff) |
+| Errors              | [Sentry `cloud-ops-dev`](https://sourcegraph.sentry.io/projects/cloud-ops-dev/)                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Domain              | [cloud-ops-dev.sgdev.org](https://cloud-ops-dev.sgdev.org)                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Cloudflare WAF      | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 MSP infrastructure access needs to be requested using Entitle for time-bound privileges.
 
@@ -169,3 +169,80 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 ```bash
 sg msp tfc view cloud-ops dev
 ```
+
+### Alert Policies
+
+The following alert policies are defined for each of this service's environments.
+
+#### High Container CPU Utilization
+
+```md
+High CPU Usage - it may be neccessary to reduce load or increase CPU allocation
+```
+
+Severity: WARNING
+
+#### High Container Memory Utilization
+
+```md
+High Memory Usage - it may be neccessary to reduce load or increase memory allocation
+```
+
+Severity: WARNING
+
+#### Container Startup Latency
+
+```md
+Service containers are taking longer than configured timeouts to start up.
+```
+
+Severity: WARNING
+
+#### Cloud Redis - System CPU Utilization
+
+```md
+Redis Engine CPU Utilization goes above the set threshold. The utilization is measured on a scale of 0 to 1.
+```
+
+Severity: WARNING
+
+#### Cloud Redis - Standard Instance Failover
+
+```md
+Instance failover occured for a standard tier Redis instance.
+```
+
+Severity: WARNING
+
+#### Cloud Redis - System Memory Utilization
+
+```md
+Redis System memory utilization is above the set threshold. The utilization is measured on a scale of 0 to 1.
+```
+
+Severity: WARNING
+
+#### Cloud Run Pending Requests
+
+```md
+There are requests pending - we may need to increase Cloud Run instance count, request concurrency, or investigate further.
+```
+
+Severity: WARNING
+
+#### Cloud Run Instance Precondition Failed
+
+```md
+Cloud Run instance failed to start due to a precondition failure.
+This is unlikely to cause immediate downtime, and may auto-resolve if no new instances are created and/or we return to a healthy state, but you should follow up to ensure the latest Cloud Run revision is healthy.
+```
+
+Severity: WARNING
+
+#### External Uptime Check
+
+```md
+Service is failing to repond on https://cloud-ops-dev.sgdev.org - this may be expected if the service was recently provisioned or if its external domain has changed.
+```
+
+Severity: CRITICAL
