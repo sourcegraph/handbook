@@ -24,6 +24,6 @@ As such, to amend the company-wide guidelines for PTO, the following additional 
 | Coverage Blocks                | SEs                     |
 | ------------------------------ | ----------------------- |
 | EMEA (1:00am -11:00am PST)     | Mariam, Michael, Stompy |
-| Early US (6:00am - 3:00pm PST) | Alex, Jason,            |
-| Late US (8:00am - 6:00pm PST)  | Gabe, Warren, Morgan    |
+| Early US (6:00am - 3:00pm PST) | Alex, Jon, Noah         |
+| Late US (8:00am - 6:00pm PST)  | Gabe, Morgan            |
 | APAC (5:30pm - 1:30am PST)     | Rakesh                  |
