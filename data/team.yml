@@ -963,6 +963,7 @@ andrew_norrish:
 
 felix_kling:
   name: Felix Kling
+  email: felix.kling@sourcegraph.com
   reports_to: code_search_lead
   role: Software Engineer
   github: fkling
