@@ -12,21 +12,21 @@ This document describes how we release Sourcegraph.
 
 As of April 2024, Sourcegraph releases features monthly ([see RFC 864](https://docs.google.com/document/d/1vZmRx6k-OUpSgrAJ9ovu4qfzrExQDXzWiBYv9XbGEZM/edit?usp=sharing)) The 2024 schedule is as follows (**version numbers are subject to change**):
 
-| Version  | Feature Freeze Date | Branch Cut Date  | Release Date      | Release Kind |
-| -------- | ------------------- | ---------------- | ----------------- | ------------ |
-| 5.3.0    | February 1, 2024    | February 9, 2024 | February 15, 2024 | Minor        |
-| 5.3.1    | N/A                 | N/A              | February 21, 2024 | Patch        |
-| 5.3.2    | N/A                 | N/A              | March 8, 2024     | Patch        |
-| 5.3.3    | N/A                 | N/A              | March 20, 2024    | Patch        |
-| 5.3.9104 | N/A                 | April 3, 2024    | April 5, 2024     | Monthly      |
-| 5.3.11625| N/A                 | N/A              | April 18, 2024    | Patch        |
-| 5.3.12303| N/A                 | N/A              | April 22, 2024    | Patch        |
-| 5.3.x    | N/A                 | May 2, 2024      | May 6, 2024       | Monthly      |
-| 5.3.x    | N/A                 | N/A              | May 20, 2024      | Patch        |
-| 5.3.x    | N/A                 | June 3, 2024     | June 5, 2024      | Monthly      |
-| 5.3.x    | N/A                 | N/A              | June 20, 2024     | Patch        |
-| 5.3.x    | N/A                 | July 3, 2024     | July 5, 2024      | Monthly      |
-| 5.3.x    | N/A                 | N/A              | July 22, 2024     | Patch        |
+| Version   | Feature Freeze Date | Branch Cut Date  | Release Date      | Release Kind |
+| --------- | ------------------- | ---------------- | ----------------- | ------------ |
+| 5.3.0     | February 1, 2024    | February 9, 2024 | February 15, 2024 | Minor        |
+| 5.3.1     | N/A                 | N/A              | February 21, 2024 | Patch        |
+| 5.3.2     | N/A                 | N/A              | March 8, 2024     | Patch        |
+| 5.3.3     | N/A                 | N/A              | March 20, 2024    | Patch        |
+| 5.3.9104  | N/A                 | April 3, 2024    | April 5, 2024     | Monthly      |
+| 5.3.11625 | N/A                 | N/A              | April 18, 2024    | Patch        |
+| 5.3.12303 | N/A                 | N/A              | April 22, 2024    | Patch        |
+| 5.3.x     | N/A                 | May 2, 2024      | May 6, 2024       | Monthly      |
+| 5.3.x     | N/A                 | N/A              | May 20, 2024      | Patch        |
+| 5.3.x     | N/A                 | June 3, 2024     | June 5, 2024      | Monthly      |
+| 5.3.x     | N/A                 | N/A              | June 20, 2024     | Patch        |
+| 5.3.x     | N/A                 | July 3, 2024     | July 5, 2024      | Monthly      |
+| 5.3.x     | N/A                 | N/A              | July 22, 2024     | Patch        |
 
 These releases **may** require [manual migration steps](https://sourcegraph.com/docs/admin/updates).
 
