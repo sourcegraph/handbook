@@ -107,7 +107,7 @@ This deployment was spun up to provide an instance that is always on our latest 
 
 Cody Dev gets deployed hourly with the latest commit on the current release branch. It is set up to have access to various LLM providers so it can be used for Cody testing.
 
-- [Cody Dev](https://cody-dev.sgdev.dev/) - also at [go/cody-dev](https://go/cody-dev)
+- [Cody Dev](https://rctest.sgdev.dev/) - also at [go/cody-dev](https://go/cody-dev)
 - [Troubleshoot and access](https://github.com/sourcegraph/cloud/blob/main/environments/prod/deployments/src-35c4eac008b3c659327c/dashboard.md) - also at [go/cody-dev-ops](https://go/cody-dev-ops)
 - [Monitor rollout or forceully trigger an upgrade](https://github.com/sourcegraph/cloud/actions/workflows/mi_upgrade_cody.yml) - also at [go/cody-dev-deploy](https://go/cody-dev-deploy)
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=cody-dev)
