@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-18 18:06:57.921067 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/b48c02fa7c553af5b6888efff69b85b48717db54
+Last updated: 2024-04-24 19:21:08.787946 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
 -->
 
 This document describes operational guidance for Pings Service infrastructure.
@@ -26,6 +26,15 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | Docker image | `index.docker.io/sourcegraph/pings`                                                                                  |
 | Source code  | [`github.com/sourcegraph/sourcegraph` - `cmd/pings`](https://github.com/sourcegraph/sourcegraph/tree/HEAD/cmd/pings) |
 
+## Rollouts
+
+| PROPERTY          | DETAILS                                                                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delivery pipeline | [`pings-us-central1-rollout`](https://console.cloud.google.com/deploy/delivery-pipelines/us-central1/pings-us-central1-rollout?project=pings-prod-2f4f73edf1db) |
+| Stages            | [prod](#prod)                                                                                                                                                   |
+
+Changes to Pings Service are continuously delivered to the first stage ([prod](#prod)) of the delivery pipeline.
+
 ## Environments
 
 ### prod
@@ -34,7 +43,7 @@ If you need assistance with MSP infrastructure, reach out to the [Core Services]
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Project ID          | [`pings-prod-2f4f73edf1db`](https://console.cloud.google.com/run?project=pings-prod-2f4f73edf1db)                                                                                                                                                                                                                                                                                                                                                                                            |
 | Category            | **external**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Deployment type     | `subscription`                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Deployment type     | `rollout`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Resources           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Slack notifications | [#alerts-pings-prod](https://sourcegraph.slack.com/archives/alerts-pings-prod)                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Alert policies      | [GCP Monitoring alert policies list](https://console.cloud.google.com/monitoring/alerting/policies?project=pings-prod-2f4f73edf1db), [Dashboard](https://console.cloud.google.com/monitoring/dashboards?pageState=%28%22dashboards%22%3A%28%22t%22%3A%22All%22%29%2C%22dashboardList%22%3A%28%22f%22%3A%22%255B%257B_22k_22_3A_22Type_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22Custom_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22category_22%257D%255D%22%29%29&project=pings-prod-2f4f73edf1db) |
