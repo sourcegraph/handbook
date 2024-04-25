@@ -33,7 +33,7 @@ beyang_liu:
 stephen_gutekanst:
   name: Stephen Gutekanst
   role: Internal Contributor / Software Engineer
-  reports_to: cody_strat_lead
+  reports_to: eng_lead
   location: Phoenix, AZ, USA 🇺🇸
   github: slimsag
   email: stephen@sourcegraph.com
@@ -994,7 +994,7 @@ taras_yemets:
   github: taras-yemets
   pronouns: he/him
   role: Software Engineer
-  reports_to: cody_strat_lead
+  reports_to: eng_lead
   location: Cherkasy, Ukraine 🇺🇦
   links: '[LinkedIn](https://www.linkedin.com/in/taras-yemets/), [GitHub](https://github.com/taras-yemets)'
   description: Taras is a software engineer hailing from Cherkasy, Ukraine 🇺🇦. Outside of work, he enjoys cycling, skiing, spending time outside with family and friends, traveling, watching movies, and sporting events.
@@ -1294,17 +1294,6 @@ sam_mandell:
   role: Commercial Counsel
   reports_to: vp_operations
   location: Sacramento, CA, USA 🇺🇸
-
-cezary_bartoszuk:
-  name: Cezary Bartoszuk
-  email: cezary.bartoszuk@sourcegraph.com
-  github: cbart
-  pronouns: he/him
-  role: Engineering Manager, Cody Strategic
-  reports_to: eng_lead
-  manager_role_slug: cody_strat_lead
-  location: Long Grove, IL, USA 🇺🇸
-  description: Cezary tries to spend as much time as possible with his wife and three kids. He enjoys parenting, learning about religion and philosophy, reading books and making music.
 
 louis_jarvis:
   name: Louis Jarvis
@@ -1823,7 +1812,7 @@ dan_tacci:
 rik_nauta:
   name: Rik Nauta
   role: Software Engineer
-  reports_to: cody_strat_lead
+  reports_to: eng_lead
   location: Malmö, Sweden 🇸🇪
   github: RXminuS
   email: rik.nauta@sourcegraph.com
