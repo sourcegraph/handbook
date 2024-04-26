@@ -38,8 +38,6 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 
 ## Cody logos
 
-[**Self-serve assets: Cody** (Figma)](https://www.figma.com/file/2XpWfh4GVreBPH6TgPK5Fe/%F0%9F%98%89-Cody)
-
 The following assets (exported from that Figma file) are available at public URLs that you can use to embed/reference from anywhere:
 
 - Logo (black text, for light backgrounds): [PNG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default-text-black.png) [SVG](https://storage.googleapis.com/sourcegraph-assets/cody/20230417/logomark-default-text-black.svg)
