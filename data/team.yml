@@ -279,17 +279,6 @@ seth_hoover:
   links: '[Twitter](https://twitter.com/olafurpg), [LinkedIn](https://linkedin.com/in/olafurpg).'
   description: Olaf is an Icelander who was born in Sweden and lives in Norway with his wife who he met at a sauna in Finland. Prior to Sourcegraph, Olaf worked on Scala developer tooling such as Scalafmt (code formatter), Scalafix (refactoring and linting tool), Metals (language server), BSP (Build Server Protocol) and SemanticDB (data model about code). In his spare time, Olaf likes to make delicious food and run in the woods.
 
-james_clifford:
-  name: James Clifford
-  pronouns: he/him
-  role: Account Executive
-  reports_to: vp_sales
-  location: San Francisco, CA, USA 🇺🇸
-  github: jclifford1
-  email: jclifford@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jamesclifford91/)'
-  description: "James lives in San Francisco's North Beach neighborhood. Prior to Sourcegraph, James spent 5.5 years at Optimizely where he helped enterprise Engineering, Product, and Data teams to deliver better digital experiences through Full Stack experimentation and feature management. James graduated with a BA in Economics from Middlebury College. Outside of work, James can be found skiing in Tahoe or surfing and kiteboarding in the Pacific Ocean and San Francisco Bay."
-
 caitlin_moran:
   name: Caitlin Moran
   pronouns: she/her
