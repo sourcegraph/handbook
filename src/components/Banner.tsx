@@ -7,7 +7,24 @@ import React from 'react'
 export function Banner({ path }: { path: string }): JSX.Element {
     // Banners should each be an <aside> with the appropriate className to indicate the
     // admonition type.
-    const banners: React.ReactElement[] = []
+
+    const banners: React.ReactElement[] = [
+        // Deprecation notice
+        <aside className="warning" key="deprecation-banner">
+            <div>
+                ⚠️ We are in the process of migrating to Notion as Sourcegraph's handbook platform.{' '}
+                <b>
+                    This content may represent incomplete, or out-of-date processes - please look for the equivalent
+                    page in the new site at <a href="https://sourcegraph.notion.site">sourcegraph.notion.site</a>.
+                </b>
+                <br />
+                <br />
+                The contents of this page will only be retained until <b>end of May 2024</b>. If you own this page,
+                please maintain an equivalent in the new{' '}
+                <a href="https://www.notion.so/sourcegraph">Notion-based handbook</a>.
+            </div>
+        </aside>,
+    ]
 
     // Inject warning banners to pages with cloud in the path - this helps us communicate
     // to customers that for finalized documentation, they should refer elsewhere.
