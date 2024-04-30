@@ -24,8 +24,12 @@ export function Banner({ path }: { path: string }): JSX.Element {
                 <a href="https://www.notion.so/sourcegraph">Notion-based handbook</a>.
                 <br />
                 <br />
-                <i>If you're a Sourcegraph teammate, you can set up a redirection to the corresponding Notion page by
-                making a pull request against <a href="https://github.com/sourcegraph/handbook/blob/main/data/notion_migration.yml">this file</a> to match the handbook path with the new Notion page.</i>
+                <i>
+                    If you're a Sourcegraph teammate, you can set up a redirection to the corresponding Notion page by
+                    making a pull request against{' '}
+                    <a href="https://github.com/sourcegraph/handbook/blob/main/data/notion_migration.yml">this file</a>{' '}
+                    to match the handbook path with the new Notion page.
+                </i>
             </div>
         </aside>,
     ]
