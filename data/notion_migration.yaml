@@ -1,0 +1,3 @@
+redirections:
+  - source: /departments/engineering/teams/devinfra
+    destination: https://sourcegraph.notion.site/Developer-Infrastructure-Team-a46433b93bb2445abc1966c93a570a26

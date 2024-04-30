@@ -1,4 +1,6 @@
 import { getMovedPagesFromHistory } from './getMovedPagesFromHistory.mjs'
+import { readFile } from 'fs/promises'
+import { load } from 'js-yaml'
 
 /**
  * Cleans up and filters a list of moved files — removing cycles,
@@ -25,14 +27,25 @@ export function cleanupRedirects(movedPages) {
 }
 
 /**
+ * Reads Notion specific redirections from data/notion_migration.yaml.
+ *
+ * @returns {redirections: {source: string, destination: string}[]}
+ */
+async function readNotionMigrationRedirects() {
+    return load(await readFile('data/notion_migration.yaml', 'utf8'))
+}
+
+/**
  * Returns all redirects that should be generated.
  *
  * @returns {Promise<{ source: string, destination: string }[]>}
  */
 export default async function redirects() {
     const movedPages = await getMovedPagesFromHistory()
+    const notionRedirections = await readNotionMigrationRedirects()
     return cleanupRedirects([
         ...movedPages,
+        ...notionRedirections.redirections,
 
         // Add custom redirects
         {
