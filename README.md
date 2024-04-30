@@ -6,6 +6,26 @@ The handbook is a living document and we expect every teammate to propose improv
 
 All content is in [Markdown](https://www.markdownguide.org/getting-started/#what-is-markdown) files under the [📁 content](./content) folder.
 
+## :warning: Ongoing migration to Notion.so
+
+We are in the process of moving the handbook over Notion.so. In the original spirit of the handbook, we want most pages to stay publicly accessible.
+
+- If you intend to contribute to the handbook, please instead do so on the Notion corresponding page, or port it if that's not yet done.
+- If you maintain a set of pages, please take some time to add the corresponding redirection to the Notion equivalent in [data/notion_migration.yaml].
+
+### Plan
+
+- ~Set up basic Notion structure~
+- ~Port the most important pages~
+- Port the remaining content
+- Populate redirections for important pages to their Notion equivalent.
+- May 1st: pull request for content change are subject to strict review.
+  - Only necessary changes are allowed.
+- May 15th: content changes are forbidden, only redirections are accepted.
+- May 31th: repository is archived.
+- `handbook.sourcegraph.com` is now serving Notion pages.
+  - Previously set redirections are ported from the application to Cloudflare page rules.
+
 ### Need help editing?
 
 Ask in the [#handbook channel](https://app.slack.com/client/T02FSM7DL/CQ44Y7F4G) (for Sourcegraph team members), and/or [post an issue](https://github.com/sourcegraph/handbook/issues).
