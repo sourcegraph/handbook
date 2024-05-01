@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-24 19:21:08.803938 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
+Last updated: 2024-05-01 12:30:44.893284 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/d0e016b97b93281abe4e18a9933ef0195d17296c
 -->
 
 This document describes operational guidance for Support Integration infrastructure.
@@ -68,6 +68,10 @@ You can also use `sg msp` to quickly open a link to your service logs:
 sg msp logs support-integration prod
 ```
 
+#### prod Architecture Diagram
+
+![Architecture Diagram](./support-integration-prod.svg)
+
 #### prod Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/support-integration/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/support-integration/service.yaml), and `sg msp generate support-integration prod` generates the required infrastructure configuration for this environment in Terraform.
@@ -93,7 +97,7 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 sg msp tfc view support-integration prod
 ```
 
-### Alert Policies
+## Alert Policies
 
 The following alert policies are defined for each of this service's environments.
 

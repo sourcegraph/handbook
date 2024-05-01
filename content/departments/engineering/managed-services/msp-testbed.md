@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-24 19:21:08.7852 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
+Last updated: 2024-05-01 12:30:44.148337 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/d0e016b97b93281abe4e18a9933ef0195d17296c
 -->
 
 This document describes operational guidance for MSP Testbed infrastructure.
@@ -120,6 +120,10 @@ sg msp pg connect -write-access msp-testbed test
 | Dataset ID      | `msp_testbed`                                                                                                          |
 | Tables          | [`example`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/example.bigquerytable.json) |
 
+#### test Architecture Diagram
+
+![Architecture Diagram](./msp-testbed-test.svg)
+
 #### test Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/msp-testbed/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/service.yaml), and `sg msp generate msp-testbed test` generates the required infrastructure configuration for this environment in Terraform.
@@ -219,6 +223,10 @@ sg msp pg connect -write-access msp-testbed robert
 | Dataset ID      | `msp_testbed`                                                                                                          |
 | Tables          | [`example`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/example.bigquerytable.json) |
 
+#### robert Architecture Diagram
+
+![Architecture Diagram](./msp-testbed-robert.svg)
+
 #### robert Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/msp-testbed/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/msp-testbed/service.yaml), and `sg msp generate msp-testbed robert` generates the required infrastructure configuration for this environment in Terraform.
@@ -244,7 +252,7 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 sg msp tfc view msp-testbed robert
 ```
 
-### Alert Policies
+## Alert Policies
 
 The following alert policies are defined for each of this service's environments.
 

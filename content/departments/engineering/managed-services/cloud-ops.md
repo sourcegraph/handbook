@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-24 19:21:08.772189 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
+Last updated: 2024-05-01 12:30:43.648378 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/d0e016b97b93281abe4e18a9933ef0195d17296c
 -->
 
 This document describes operational guidance for Cloud Ops Dashboard infrastructure.
@@ -73,6 +73,10 @@ sg msp logs cloud-ops prod
 | PROPERTY | DETAILS                                                                                                                 |
 | -------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=cloud-ops-prod-dd32) |
+
+#### prod Architecture Diagram
+
+![Architecture Diagram](./cloud-ops-prod.svg)
 
 #### prod Terraform Cloud
 
@@ -145,6 +149,10 @@ sg msp logs cloud-ops dev
 | -------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=cloud-ops-dev-caff) |
 
+#### dev Architecture Diagram
+
+![Architecture Diagram](./cloud-ops-dev.svg)
+
 #### dev Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/cloud-ops/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/cloud-ops/service.yaml), and `sg msp generate cloud-ops dev` generates the required infrastructure configuration for this environment in Terraform.
@@ -170,7 +178,7 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 sg msp tfc view cloud-ops dev
 ```
 
-### Alert Policies
+## Alert Policies
 
 The following alert policies are defined for each of this service's environments.
 

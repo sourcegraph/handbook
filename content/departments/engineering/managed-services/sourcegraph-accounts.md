@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-24 19:21:08.801315 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
+Last updated: 2024-05-01 12:30:44.823519 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/d0e016b97b93281abe4e18a9933ef0195d17296c
 -->
 
 This document describes operational guidance for Sourcegraph Accounts infrastructure.
@@ -161,6 +161,10 @@ sg msp pg connect -write-access sourcegraph-accounts dev
 | Dataset ID      | `sourcegraph_accounts`                                                                                                                                                                                                                                                 |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/events.bigquerytable.json) |
 
+#### dev Architecture Diagram
+
+![Architecture Diagram](./sourcegraph-accounts-dev.svg)
+
 #### dev Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/sourcegraph-accounts/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/service.yaml), and `sg msp generate sourcegraph-accounts dev` generates the required infrastructure configuration for this environment in Terraform.
@@ -260,6 +264,10 @@ sg msp pg connect -write-access sourcegraph-accounts prod
 | Dataset ID      | `sourcegraph_accounts`                                                                                                                                                                                                                                                 |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/events.bigquerytable.json) |
 
+#### prod Architecture Diagram
+
+![Architecture Diagram](./sourcegraph-accounts-prod.svg)
+
 #### prod Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/sourcegraph-accounts/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/sourcegraph-accounts/service.yaml), and `sg msp generate sourcegraph-accounts prod` generates the required infrastructure configuration for this environment in Terraform.
@@ -285,7 +293,7 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 sg msp tfc view sourcegraph-accounts prod
 ```
 
-### Alert Policies
+## Alert Policies
 
 The following alert policies are defined for each of this service's environments.
 
