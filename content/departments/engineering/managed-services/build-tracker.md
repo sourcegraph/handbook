@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-24 19:21:08.769199 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
+Last updated: 2024-05-01 12:30:43.488421 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/d0e016b97b93281abe4e18a9933ef0195d17296c
 -->
 
 This document describes operational guidance for Build Tracker infrastructure.
@@ -83,6 +83,10 @@ sg msp logs build-tracker prod
 | -------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Console  | [Memorystore Redis instances](https://console.cloud.google.com/memorystore/redis/instances?project=build-tracker-prod-59bf) |
 
+#### prod Architecture Diagram
+
+![Architecture Diagram](./build-tracker-prod.svg)
+
 #### prod Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/build-tracker/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/build-tracker/service.yaml), and `sg msp generate build-tracker prod` generates the required infrastructure configuration for this environment in Terraform.
@@ -108,7 +112,7 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 sg msp tfc view build-tracker prod
 ```
 
-### Alert Policies
+## Alert Policies
 
 The following alert policies are defined for each of this service's environments.
 

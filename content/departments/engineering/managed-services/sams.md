@@ -3,8 +3,8 @@
 <!--
 Generated documentation; DO NOT EDIT. Regenerate using this command: 'sg msp operations generate-handbook-pages'
 
-Last updated: 2024-04-24 19:21:08.795914 +0000 UTC
-Generated from: https://github.com/sourcegraph/managed-services/tree/e15ad322081b292b9f9f25ede520ae9a51568190
+Last updated: 2024-05-01 12:30:44.589815 +0000 UTC
+Generated from: https://github.com/sourcegraph/managed-services/tree/d0e016b97b93281abe4e18a9933ef0195d17296c
 -->
 
 This document describes operational guidance for Self-Serve Cody infrastructure.
@@ -113,6 +113,10 @@ sg msp pg connect -write-access sams dev
 | Dataset ID      | `sams`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json), [`cody_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/cody_events.bigquerytable.json), [`subscription_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/subscription_events.bigquerytable.json) |
 
+#### dev Architecture Diagram
+
+![Architecture Diagram](./sams-dev.svg)
+
 #### dev Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/sams/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml), and `sg msp generate sams dev` generates the required infrastructure configuration for this environment in Terraform.
@@ -212,6 +216,10 @@ sg msp pg connect -write-access sams prod
 | Dataset ID      | `sams`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Tables          | [`user_emails`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/user_emails.bigquerytable.json), [`events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/events.bigquerytable.json), [`cody_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/cody_events.bigquerytable.json), [`subscription_events`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/subscription_events.bigquerytable.json) |
 
+#### prod Architecture Diagram
+
+![Architecture Diagram](./sams-prod.svg)
+
 #### prod Terraform Cloud
 
 This service's configuration is defined in [`sourcegraph/managed-services/services/sams/service.yaml`](https://github.com/sourcegraph/managed-services/blob/main/services/sams/service.yaml), and `sg msp generate sams prod` generates the required infrastructure configuration for this environment in Terraform.
@@ -237,7 +245,7 @@ The Terraform Cloud workspaces for this service environment are [grouped under t
 sg msp tfc view sams prod
 ```
 
-### Alert Policies
+## Alert Policies
 
 The following alert policies are defined for each of this service's environments.
 
