@@ -66,10 +66,10 @@
       }
     ]
   },
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@8.15.8",
   "engines": {
     "node": "^v18.9.0",
-    "pnpm": "^8"
+    "pnpm": "^8.15.8"
   },
   "dependencies": {
     "@agentofuser/rehype-section": "^1.0.5",
