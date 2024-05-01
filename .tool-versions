@@ -1,4 +1,4 @@
 # Keep these in sync with package.json "engines".
 
-nodejs 18.9.0
+nodejs 18.20.2
 pnpm 8.1.1
