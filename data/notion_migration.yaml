@@ -1,0 +1,6 @@
+# Add your desired redirections here!
+# - 'source': URL path to redirect, as currently visible on handbook.sourcegraph.com
+# - 'destination': New URL top direct to. If a public 'sourcegraph.notion.site' page is available, prefer that instead of the internal Notion URL.
+redirections:
+  - source: /departments/engineering/teams/devinfra
+    destination: https://sourcegraph.notion.site/Developer-Infrastructure-Team-a46433b93bb2445abc1966c93a570a26
