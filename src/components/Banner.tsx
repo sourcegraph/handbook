@@ -21,7 +21,10 @@ export function Banner({ path }: { path: string }): JSX.Element {
                 <br />
                 The contents of this page will only be retained until <b>end of May 2024</b>. If you own this page,
                 please maintain an equivalent in the new{' '}
-                <a href="https://www.notion.so/sourcegraph">Notion-based handbook</a>.
+                <a href="https://www.notion.so/sourcegraph">Notion-based handbook</a>. You can set up a redirection to
+                the corresponding Notion page by making a pull request against{' '}
+                <a href="https://github.com/sourcegraph/handbook/blob/main/data/notion_migration.yml">this file</a> to
+                match the handbook path with the new Notion page.
             </div>
         </aside>,
     ]
