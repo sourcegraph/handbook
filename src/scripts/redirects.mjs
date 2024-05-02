@@ -1,6 +1,8 @@
-import { getMovedPagesFromHistory } from './getMovedPagesFromHistory.mjs'
 import { readFile } from 'fs/promises'
+
 import { load } from 'js-yaml'
+
+import { getMovedPagesFromHistory } from './getMovedPagesFromHistory.mjs'
 
 /**
  * Cleans up and filters a list of moved files — removing cycles,
