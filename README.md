@@ -15,9 +15,9 @@ We are in the process of moving the handbook over Notion.so. In the original spi
 
 ### Plan
 
-- ~Set up basic Notion structure~
-- ~Port the most important pages~
-- Port the remaining content
+- [x] Set up basic Notion structure
+- [x] Port the most important pages
+- [] Port the remaining content
 - Populate redirections for important pages to their Notion equivalent.
 - May 1st: pull request for content change are subject to strict review.
   - Only necessary changes are allowed.
