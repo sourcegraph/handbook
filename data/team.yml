@@ -1843,3 +1843,14 @@ craig_furman:
   location: London, UK 🇬🇧
   links: '[LinkedIn](https://www.linkedin.com/in/craig-furman-172a6846/)'
   description: Craig is a software developer who loves building stuff for other developers. To that end, he's spent most of his career building developer tooling products, or working in internal platform teams. He lives with his wife in London, a city whose food and drink scene he hasn't quite exhausted, yet.
+
+yk_sugi:
+  name: YK Sugi
+  email: yk.sugi@sourcegraph.com
+  reports_to: director_devrel
+  github: ykdojo
+  pronouns: he/him
+  role: Developer Advocate
+  location: Vancouver, Canada 🇨🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/ykdojo/)'
+  description: YK is a developer advocate.
