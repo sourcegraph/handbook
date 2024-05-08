@@ -1847,7 +1847,7 @@ craig_furman:
 yk_sugi:
   name: YK Sugi
   email: yk.sugi@sourcegraph.com
-  reports_to: ado_kukic
+  reports_to: director_devrel
   github: ykdojo
   pronouns: he/him
   role: Developer Advocate
