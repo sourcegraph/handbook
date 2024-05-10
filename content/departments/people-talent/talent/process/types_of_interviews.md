@@ -69,12 +69,15 @@ All departments are likely to have some or all of the below universal interview 
 - Duration: 60-minutes.
 - Details: a resume deep dive (often referred to as a "Topgrade Interview") is an interview style where we take a deep dive into a candidate's background, past to present. The goal of a resume deep dive is to uncover the motivation behind a candidate's decision making, as well as their strengths, weaknesses, and accomplishments in past roles. [Here](https://www.lever.co/blog/topgrading-interview-guide/) is a document to help guide expectations on this stage in the interview process. This is simply an example of what to expect, and does not represent the questions we will be asking.
 - Example questions:
-  - How did you find your job? Why did you choose to accept it?
+  - College (if applicable): how did you choose to go to this college?  How did you choose your major?  Did you know what you wanted to do upon graduation?
+  - How did you find your job? Did you interview anywhere else?  If so, why did you decide to accept this offer vs others?
   - Who hired you? What was their name? What did they hire you to do?
-  - Why would your former boss say were your strengths and opportunities for growth?
-  - What did you like most and least about your job?
-  - What would your peers say about you?
-  - What are you most proud of accomplishing while in your job?
+  - When I potentially talk to your former boss as a reference, would will they say were your strengths and opportunities for growth?
+  - How did you implement this feedback to improve? What do _you_ think is the area that you needed to improve the most?
+  - What did you like most and least about working with your manager? 
+  - How would your manager describe your working relationship with your peers?  What would your peers say about you?
+  - What are you most proud of accomplishing while in this job?
+  - If you could go back in time, what would you do differently?  
   - Why did you leave?
 
 ## Peer Interview
