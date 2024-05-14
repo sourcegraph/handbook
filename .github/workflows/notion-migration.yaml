@@ -1,0 +1,26 @@
+name: Notion Migration
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "> [!WARNING] \n> As we're migrating to Notion, we want to make sure that changes to the handbook are absolutely necessary. To ensure it is the case, it's now mandatory to get an approving review to merge a pull request.\n\nExamples\n\n- Setting up a redirection to a Notion page: PR will be approved.\n- Correcting an important mistake on a page that doesn't have an equivalent yet: PR will be approved.\n- Updating content that isn't mission critical: PR will be rejected.\n\nSourcegraphers: Reach out to [#wg-notion](https://sourcegraph.slack.com/archives/C06T68DBMSA) if you have any question."
+            })
+
+            github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              reviewers: ["madisongclark"]
+            });
