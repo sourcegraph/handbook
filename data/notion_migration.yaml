@@ -4,3 +4,17 @@
 redirections:
   - source: /departments/engineering/teams/devinfra
     destination: https://sourcegraph.notion.site/Developer-Infrastructure-Team-a46433b93bb2445abc1966c93a570a26
+  # Core Services
+  - source: /departments/engineering/teams/core-services/
+    destination: https://sourcegraph.notion.site/ed8af5ecf15545b292816ebba261a93c
+  - source: /departments/engineering/teams/core-services/managed-services/
+    destination: https://sourcegraph.notion.site/168b8750e4b44b148179c4c26e2eb061
+  - source: /departments/engineering/teams/core-services/google-front-end/
+    destination: https://sourcegraph.notion.site/7891007a565f4254a6ea5271e58ed45f
+  - source: /departments/engineering/teams/core-services/managed-services/platform/
+    destination: https://sourcegraph.notion.site/712a0389f54c4d3a90d069aa2d979a59
+  - source: /departments/engineering/teams/core-services/sams/
+    destination: https://sourcegraph.notion.site/e86f1bc3dc3b4d979818e468bba189fd
+  - source: /departments/engineering/managed-services/
+    destination: https://sourcegraph.notion.site/0d0b709881674eee9dca4202de9f93b1
+  # ...
