@@ -57,7 +57,7 @@ Sourcegraph Enterprise includes all code intelligence platform features and is m
 
 Most developers will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images—with or without a paid plan—are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
 
-If someone follows the install instructions for our Docker, Docker Compose, or Kubernetes options ([reference](https://docs.sourcegraph.com/admin/install)), or they are on [Sourcegraph Cloud](https://signup.sourcegraph.com/) they will be using Sourcegraph Enterprise.
+If someone follows the install instructions for our Docker, Docker Compose, or Kubernetes options ([reference](https://docs.sourcegraph.com/admin/install)), or they are on Sourcegraph Cloud they will be using Sourcegraph Enterprise.
 
 ## Plans
 
