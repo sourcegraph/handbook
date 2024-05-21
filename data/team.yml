@@ -1854,3 +1854,14 @@ yk_sugi:
   location: Vancouver, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/ykdojo/)'
   description: YK is a developer advocate.
+
+hitesh_sagtani:
+  name: Hitesh Sagtani
+  email: hitesh.sagtani@sourcegraph.com
+  github: hitesh-1997
+  pronouns: he/him
+  role: Machine Learning Engineer
+  reports_to: head_ai
+  location: Rajasthan, India 🇮🇳
+  links: '[LinkedIn](https://www.linkedin.com/in/hsagtani/)'
+  description: 'Hitesh is from Rajasthan, India. He has a passion for machine learning and prior to Sourcegraph he gained experience at Amazon, D.E.Shaw and Sharchat, working largely on full stack software development and recommendation systems. Outside of work, he likes watching anime and is a huge One piece fan (Kaizoku ou ni orewa naru !).'
