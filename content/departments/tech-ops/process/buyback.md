@@ -6,8 +6,9 @@ Tech Ops will source the fair market value of the device and offer a 50/50 purch
 
 ## Steps for processing a purchase:
 
-1. Submit a buyback request form - anywhere in Slack, type **/assist** and press enter, select the Computer Buyback form in the drop down menu
+1. Submit a computer buyback request form - [Tech Ops Requests Jira Portal](https://sourcegraph.atlassian.net/servicedesk/customer/portal/11/group/16/create/10119)
 2. Tech Ops will respond in ticket, providing you the cost and next steps
-3. Submit payment (via check or Paypal)
-4. Sign a document accepting ownership of the device ‘as-is’
-5. Schedule a time with Tech Ops to perform the device wipe
+3. Decide if you would like to proceed with purchase or return the device to Sourcegraph
+4. Submit payment (via check or Paypal)
+5. Sign a document accepting ownership of the device ‘as-is, provided by the Tech Ops staff during process
+6. Tech Ops will schedule time with you on your last working day to reset the device - this step applies to purchasing and returning
