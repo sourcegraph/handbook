@@ -476,7 +476,9 @@ kbd {
     .drop-shadow {
         max-width: calc(100% - 10px);
         max-height: 100vh;
-        box-shadow: 0 4px 18px 0 #0000001a, 0 6px 20px 0 #00000017;
+        box-shadow:
+            0 4px 18px 0 #0000001a,
+            0 6px 20px 0 #00000017;
         margin: 40px auto;
         display: block;
         border-style: none;
