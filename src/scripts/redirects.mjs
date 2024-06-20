@@ -42,7 +42,7 @@ async function readNotionMigrationRedirects() {
     // To go around that, we add a new field 'force' that the script that
     // generate the final _redirects file used by Netlify uses to append
     // 301! on that entry, effectively forcing the redirection.
-    for ( const entry of data.redirections ) {
+    for (const entry of data.redirections) {
         entry.force = true
     }
     return data
