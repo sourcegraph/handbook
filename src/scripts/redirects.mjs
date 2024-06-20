@@ -31,10 +31,21 @@ export function cleanupRedirects(movedPages) {
 /**
  * Reads Notion specific redirections from data/notion_migration.yaml.
  *
- * @returns {redirections: {source: string, destination: string}[]}
+ * @returns {redirections: {source: string, destination: string, force: true}[]}
  */
 async function readNotionMigrationRedirects() {
-    return load(await readFile('data/notion_migration.yaml', 'utf8'))
+    const data = load(await readFile('data/notion_migration.yaml', 'utf8'))
+
+    // While NextJS is okay if content exists when setting up a redirection,
+    // Netlify doesn't: it will skip the redirection entirely if it finds
+    // existing content.
+    // To go around that, we add a new field 'force' that the script that
+    // generate the final _redirects file used by Netlify uses to append
+    // 301! on that entry, effectively forcing the redirection.
+    for ( const entry of data.redirections ) {
+        entry.force = true
+    }
+    return data
 }
 
 /**
@@ -47,12 +58,10 @@ export default async function redirects() {
     const notionRedirections = await readNotionMigrationRedirects()
     return cleanupRedirects([
         ...movedPages,
-        ...notionRedirections.redirections,
-
         // Add custom redirects
         {
             source: '/careers',
             destination: 'https://about.sourcegraph.com/jobs',
         },
-    ])
+    ]).concat(notionRedirections.redirections) // we skip the cleanup because notion redirects are always going outside.
 }
