@@ -81,7 +81,7 @@
     "chrono-node": "^2.3.2",
     "date-fns": "^2.25.0",
     "execa": "^5.1.1",
-    "gitlog": "^4.0.4",
+    "gitlog": "^5.0.1",
     "gray-matter": "^4.0.3",
     "hast-util-find-and-replace": "^4.0.0",
     "hast-util-is-element": "^2.1.1",
