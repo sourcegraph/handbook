@@ -33,8 +33,8 @@ dependencies:
     specifier: ^5.1.1
     version: 5.1.1
   gitlog:
-    specifier: ^4.0.4
-    version: 4.0.4
+    specifier: ^5.0.1
+    version: 5.0.1
   gray-matter:
     specifier: ^4.0.3
     version: 4.0.3
@@ -3486,13 +3486,12 @@ packages:
       { integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw== }
     dev: false
 
-  /gitlog@4.0.4:
+  /gitlog@5.0.1:
     resolution:
-      { integrity: sha512-jeY2kO7CVyTa6cUM7ZD2ZxIyBkna1xvW2esV/3o8tbhiUneX1UBQCH4D9aMrHgGiohBjyXbuZogyjKXslnY5Yg== }
-    engines: { node: '>= 10.x' }
+      { integrity: sha512-cxKQGlSJkZn2KsSmiHh7UtjYgUio7cwHPmCW0w1cAdsARpfqHaDtrZtS8hs2/sAXySxn/baV0f7mzTXtS1d2Cg== }
+    engines: { node: '>= 20.x' }
     dependencies:
       debug: 4.3.4
-      tslib: 1.14.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -7020,6 +7019,7 @@ packages:
   /tslib@1.14.1:
     resolution:
       { integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg== }
+    dev: true
 
   /tslib@2.5.0:
     resolution:
