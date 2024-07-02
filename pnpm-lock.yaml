@@ -194,8 +194,8 @@ devDependencies:
     specifier: ^3.1.16
     version: 3.1.49(@next/env@12.3.4)(next@12.3.4)
   prettier:
-    specifier: ^2.8.3
-    version: 2.8.3
+    specifier: ^3.3.2
+    version: 3.3.2
   rehype:
     specifier: ^12.0.1
     version: 12.0.1
@@ -6037,10 +6037,10 @@ packages:
     engines: { node: '>= 0.8.0' }
     dev: true
 
-  /prettier@2.8.3:
+  /prettier@3.3.2:
     resolution:
-      { integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw== }
-    engines: { node: '>=10.13.0' }
+      { integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA== }
+    engines: { node: '>=14' }
     hasBin: true
     dev: true
 
