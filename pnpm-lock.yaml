@@ -64,7 +64,7 @@ dependencies:
     version: 1.0.4
   next:
     specifier: ^12.0.2
-    version: 12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.58.0)
+    version: 12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.77.6)
   next-seo:
     specifier: ^4.28.1
     version: 4.29.0(next@12.3.4)(react-dom@17.0.2)(react@17.0.2)
@@ -203,8 +203,8 @@ devDependencies:
     specifier: ^10.1.0
     version: 10.1.0
   sass:
-    specifier: ^1.43.4
-    version: 1.58.0
+    specifier: ^1.77.6
+    version: 1.77.6
   strip-ansi:
     specifier: ^7.0.1
     version: 7.0.1
@@ -5650,7 +5650,7 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.58.0)
+      next: 12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.77.6)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
     dev: false
@@ -5667,7 +5667,7 @@ packages:
       '@corex/deepmerge': 4.0.37
       '@next/env': 12.3.4
       minimist: 1.2.7
-      next: 12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.58.0)
+      next: 12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.77.6)
     dev: true
 
   /next-tick@1.1.0:
@@ -5675,7 +5675,7 @@ packages:
       { integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ== }
     dev: false
 
-  /next@12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.58.0):
+  /next@12.3.4(@babel/core@7.20.12)(react-dom@17.0.2)(react@17.0.2)(sass@1.77.6):
     resolution:
       { integrity: sha512-VcyMJUtLZBGzLKo3oMxrEF0stxh8HwuW976pAzlHhI3t8qJ4SROjCrSh1T24bhrbjw55wfZXAbXPGwPt5FLRfQ== }
     engines: { node: '>=12.22.0' }
@@ -5700,7 +5700,7 @@ packages:
       postcss: 8.4.14
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
-      sass: 1.58.0
+      sass: 1.77.6
       styled-jsx: 5.0.7(@babel/core@7.20.12)(react@17.0.2)
       use-sync-external-store: 1.2.0(react@17.0.2)
     optionalDependencies:
@@ -6529,10 +6529,10 @@ packages:
       { integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg== }
     dev: true
 
-  /sass@1.58.0:
+  /sass@1.77.6:
     resolution:
-      { integrity: sha512-PiMJcP33DdKtZ/1jSjjqVIKihoDc6yWmYr9K/4r3fVVIEDAluD0q7XZiRKrNJcPK3qkLRF/79DND1H5q1LBjgg== }
-    engines: { node: '>=12.0.0' }
+      { integrity: sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q== }
+    engines: { node: '>=14.0.0' }
     hasBin: true
     dependencies:
       chokidar: 3.5.3
