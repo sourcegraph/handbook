@@ -143,16 +143,16 @@ devDependencies:
     specifier: ^4.0.1
     version: 4.0.1
   '@types/hast':
-    specifier: ^2.3.4
+    specifier: 2.3.4
     version: 2.3.4
   '@types/line-column':
     specifier: 1.0.0
     version: 1.0.0
   '@types/mdast':
-    specifier: ^3.0.10
+    specifier: 3.0.10
     version: 3.0.10
   '@types/node':
-    specifier: ^18.11.18
+    specifier: 18.11.18
     version: 18.11.18
   '@types/react':
     specifier: 18.0.0
